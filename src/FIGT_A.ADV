@@ -1,0 +1,277 @@
+	{(VAR0158 = 5) * (VAR0390 = 1):
+		!VAR0520 : 2!
+		%#Gｴｸｽ.ADV:
+	}
+	{(VAR0158 = 6) * (VAR0390 = 2):
+		!VAR0520 : 3!
+		%#Gｴｸｽ.ADV:
+	}
+	{(VAR0158 = 55) * (VAR0579 = 0):
+		!VAR0579 : 1!
+		!VAR0156 : 75!
+		!VAR0001 : 0!
+		{VAR0128 \ 0:
+			!VAR0001 : 1!
+		}
+		!VAR0156 : 82!
+		!VAR0002 : 0!
+		{VAR0128 \ 0:
+			!VAR0002 : 1!
+		}
+		{(VAR0001 = 1) * (VAR0002 = 1):
+			!VAR0520 : 3!
+			%#IJAPAN.ADV:
+		}
+	}
+	{(VAR0158 = 56) * (VAR0579 = 1):
+		!VAR0579 : 2!
+		!VAR0520 : 4!
+		%#IJAPAN.ADV:
+	}
+	{VAR0584 = 0:
+		!VAR0580 : 5000!
+		\L_0058a:
+		ZH 1:
+		'Quân địch muốn'
+		R
+		'một trận chiến'
+		\L_00677:
+		ZH 1:
+		'quyết định ở một số vùng'
+		R
+		'đồng bằng cách xa thành phố.'
+		\L_00677:
+		\L_0066a:
+	}
+	{VAR0584 \ 0:
+		!VAR0580 : VAR0134!
+		\L_0058a:
+		ZH 1:
+		'Quân địch sẽ không'
+		R
+		'rời khỏi thành phố.'
+		R
+		'Trận chiến thành phố.'
+		\L_00677:
+		!VAR0070 : 902!
+		\L_0066a:
+	}
+	{(VAR0158 > 77) * (VAR0070 = 900):
+		!VAR0070 : 908!
+		{(VAR0158 = 82) + (VAR0158 = 83):
+			!VAR0070 : 918!
+		}
+		{VAR0158 = 79:
+			!VAR0070 : 910!
+		}
+	}
+	{VAR0530 = 18:
+		!VAR0070 : 904!
+	}
+	!VAR0581 : 1!
+	%#FIGT.ADV:
+	!VAR0070 : 900!
+	!VAR0516 : 0!
+	%#M.ADV:
+	{VAR0322 = 1:
+		@L_00380:
+	}
+	{VAR0589 = 1:
+		{VAR0071 = 1:
+			SR0, VAR0001:
+			SS 0:
+		}
+		!VAR0516 : 0!
+		!VAR0000 : 2!
+		%#PCMPLAY.ADV:
+		\L_0058a:
+		ZH 1:
+		'［　Thất bại　］'
+		R
+		{(VAR0581 = 1) * (VAR0518 \ 0):
+			ZH 1:
+			'Nỗ lực chinh phục'
+			R
+			X 8:
+			' đã thất bại.'
+		}
+		\L_00677:
+		!VAR0516 : 3!
+		%#PCMPLAY.ADV:
+		{VAR0071 = 1:
+			SS VAR0001 - 1:
+		}
+		\L_0066a:
+	}
+	{VAR0589 = 2:
+		{(VAR0518 \ 0) * (VAR0581 = 1):
+			!VAR0130 : 1!
+			!VAR0546 : 0!
+		}
+		!VAR0021 : VAR0130 + 819!
+		!VAR0045 : VAR0142!
+		!VAR0046 : VAR0143!
+		!VAR0516 : 4!
+		%#M.ADV:
+		!VAR0516 : 3!
+		%#M.ADV:
+		!VAR0516 : 0!
+		%#M.ADV:
+		{VAR0071 = 1:
+			SR0, VAR0001:
+			SS 0:
+		}
+		!VAR0516 : 0!
+		!VAR0000 : 1!
+		%#PCMPLAY.ADV:
+		!VAR0516 : 13!
+		%#M.ADV:
+		\L_0058a:
+		ZH 1:
+		'［　Thành công　］'
+		R
+		{(VAR0518 \ 0) * (VAR0581 = 1):
+			ZH 1:
+			X 8:
+			' đã nằm dưới quyền'
+			R
+			'kiểm soát của quân ta.'
+		}
+		\L_00677:
+		\L_0066a:
+		!VAR0516 : 3!
+		%#PCMPLAY.ADV:
+		{VAR0071 = 1:
+			SS VAR0001 - 1:
+		}
+	}
+*L_00380:
+	!VAR0581 : 0!
+	!VAR0158 : VAR0691!
+	{VAR0322 = 1:
+		!VAR0158 : 1!
+		!VAR0691 : 1!
+	}
+	{(VAR0158 = 56) * (VAR0579 = 2):
+		!VAR0579 : 3!
+		!VAR0156 : 72!
+		{VAR0128 \ 0:
+			!VAR0520 : 5!
+			%#IJAPAN.ADV:
+		}
+	}
+	{(VAR0158 = 56) * (VAR0325 \ 10) * (VAR0589 = 2):
+		!VAR0520 : 6!
+		%#IJAPAN.ADV:
+	}
+	{(VAR0158 = 30) * (VAR0589 = 2) * (VAR0399 < 50):
+		!VAR0520 : 28!
+		%#Gｼｨﾙ.ADV:
+	}
+	!VAR0154 : 9!
+	{((VAR0569 = 9) + (VAR0570 = 9)) * (VAR0102 \ 0) * (VAR0408 = 0) * (VAR0589 = 2):
+		{(VAR0158 > 29) * (VAR0158 < 54):
+			!VAR0520 : 1!
+			%#Gｷﾝｹｰﾄﾞ.ADV:
+		}
+	}
+	!VAR0154 : 39!
+	{((VAR0569 = 39) + (VAR0570 = 39) + (VAR0571 = 39) + (VAR0572 = 39)) * (VAR0102 \ 0):
+		{(VAR0158 = 91) * (VAR0589 = 2) * (VAR0389 = 5):
+			!VAR0520 : 25!
+			%#Gﾏｼﾞｯｸ.ADV:
+		}
+	}
+	{(VAR0158 = 69) * (VAR0130 = 1) * (VAR0527 = 7):
+		!VAR0520 : 50!
+		%#Iｾﾞｽ.ADV:
+	}
+	!VAR0158 : VAR0691!
+	%#死亡捕獲.ADV:
+	!VAR0158 : VAR0691!
+	!VAR0691 : 0!
+	{(VAR0518 = 1) * (VAR0158 = 6) * (VAR0589 = 2):
+		!VAR0520 : 2!
+		%#Iｼﾚｲﾌﾞ.ADV:
+	}
+	{(VAR0158 = 45) * (VAR0589 = 2) * (VAR0059 = 1):
+		!VAR0520 : 5!
+		%#Gﾐﾈﾊﾞ.ADV:
+	}
+	{(VAR0158 = 77) * (VAR0566 < 50) * (VAR0589 = 2):
+		!VAR0520 : 10!
+		%#GAL.ADV:
+	}
+	%0:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0058a:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0066a:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_00677:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

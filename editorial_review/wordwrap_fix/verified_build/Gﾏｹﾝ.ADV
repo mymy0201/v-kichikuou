@@ -1,0 +1,2636 @@
+	{VAR0520 = 1:
+		@L_00034:
+	}
+*L_00034:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1001!
+	\L_02fce:
+	!VAR0516 : 1!
+	\L_02f26:
+	\L_02ed2:
+	ZH 1:
+	'Hm... Maybe I should go to the'
+	R
+	'magic research institute.'
+	\L_02ff7:
+	ZH 1:
+	'If the researchers are slacking'
+	R
+	'off, I’ll smack them around.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f0a:
+	ZH 1:
+	'Rance headed to the magic'
+	R
+	'research institute.'
+	\L_02ff7:
+	\L_02fea:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1038!
+	\L_02fce:
+	!VAR0516 : 1!
+	\L_02f26:
+	{VAR0772 = 0:
+		!VAR0516 : 6!
+		\L_02f96:
+	}
+	\L_02f0a:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　Magic Research Institute'
+	\L_02ff7:
+	\L_02fea:
+	{VAR0772 = 0:
+		\L_02861:
+		@L_00245:
+	}
+	\L_02e9b:
+	{(VAR0465 \ 0) * (VAR0466 < VAR0517):
+		\L_00dd3:
+		@L_00245:
+	}
+	!VAR0154 : 38!
+	{(VAR0102 \ 0) * (VAR0349 = 5):
+		!VAR0520 : 5!
+		%#Gｱﾆｽ.ADV:
+		@L_00245:
+	}
+	Y 4, 5:
+	{VAR0000 = 1:
+		!VAR0154 : 11!
+		{VAR0102 \ 0:
+			\L_019ef:
+			@L_00245:
+		}
+	}
+	{VAR0000 = 2:
+		!VAR0154 : 13!
+		{VAR0102 \ 0:
+			\L_01cf6:
+			@L_00245:
+		}
+	}
+	{VAR0000 = 3:
+		!VAR0154 : 17!
+		{VAR0102 \ 0:
+			\L_01fc0:
+			@L_00245:
+		}
+	}
+	{VAR0000 = 4:
+		!VAR0154 : 20!
+		{VAR0102 \ 0:
+			\L_022c1:
+			@L_00245:
+		}
+	}
+	{(VAR0000 = 5) * (VAR0651 = 10):
+		\L_025a9:
+		@L_00245:
+	}
+	\L_02dd9:
+*L_00245:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_00245:
+	}
+	ZH 1:
+	$L_0038e$
+	'Demand Research'
+	$
+	R
+	$L_00bb9$
+	'Ask About Progress'
+	$
+	R
+	$L_00290$
+	'Leave'
+	$
+	]
+	@L_00245:
+*L_00290:
+	\L_02ed2:
+	ZH 1:
+	'Maybe I should go back...'
+	R
+	'I can’t help but want to stop'
+	R
+	'looking at your face.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Are you leaving, Your Majesty?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Yeah.'
+	R
+	'I’m gonna go enjoy a real girl.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Hah...'
+	R
+	'A real girl...?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Yeah, I got tired of looking'
+	R
+	'at your face, fag.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f34:
+	\L_02f0a:
+	ZH 1:
+	'Rance turned his back on'
+	R
+	'Curtis and left the magic'
+	R
+	'research institute.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Sob...'
+	R
+	'It’s not like I wanted my face'
+	R
+	'to look like this...'
+	\L_02ff7:
+	\L_02fea:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0038e:
+	{VAR0465 \ 0:
+		\L_009df:
+		{VAR0001 = 1:
+			@L_00245:
+		}
+	}
+	\L_02ed2:
+	ZH 1:
+	'Alright, do some research.'
+	R
+	'This facility wasn’t made just'
+	R
+	'to house a transvestite.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Uh... O-Okay then, what would'
+	R
+	'you like to be researched?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Let me think...'
+	\L_02ff7:
+	\L_02fea:
+*L_00415:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_00415:
+	}
+	!VAR0154 : 2!
+	{VAR0102 \ 0:
+		ZH 1:
+		$L_006b8$
+		'Sill Unit Boost'
+		$
+	}
+	!VAR0154 : 11!
+	{VAR0102 \ 0:
+		ZH 1:
+		$L_006f7$
+		'Asuka Unit Boost'
+		$
+	}
+	!VAR0154 : 13!
+	{VAR0102 \ 0:
+		ZH 1:
+		$L_00736$
+		'Melfeis Unit Boost'
+		$
+	}
+	!VAR0154 : 17!
+	{VAR0102 \ 0:
+		ZH 1:
+		$L_0076e$
+		'Shizuka Unit Boost'
+		$
+	}
+	{VAR0771 = 0:
+		ZH 1:
+		$L_007ad$
+		'Love Potion'
+		$
+	}
+	{(VAR0063 = 1) * (VAR0650 > 9):
+		ZH 1:
+		$L_0084e$
+		'Barrier Breaker'
+		$
+	}
+	ZH 1:
+	$L_016dc$
+	'Something Manly'
+	$
+	]
+	@L_00415:
+*L_00518:
+	\L_02f42:
+	ZH 1:
+	'Okay... Uuum, '
+	X 1:
+	'’s unit’s'
+	R
+	'magic power is currently '
+	H 0, VAR0093:
+	ZH 1:
+	'.'
+	\L_02ff7:
+	ZH 1:
+	'The research to raise her'
+	R
+	'magic by 1 will take '
+	H 0, VAR0093 * 2:
+	ZH 1:
+	' weeks.'
+	R
+	'Is that acceptable?'
+	\L_02ff7:
+	\L_02fea:
+*L_0058d:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_0058d:
+	}
+	ZH 1:
+	$L_00649$
+	'Start now'
+	$
+	R
+	$L_005cb$
+	'I’m not waiting'
+	$
+	]
+	@L_0058d:
+*L_005cb:
+	\L_02ed2:
+	ZH 1:
+	'...Can’t you do it any faster?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'That would be rather'
+	R
+	'difficult...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Ch, useless.'
+	R
+	'I’m not waiting that long,'
+	R
+	'don’t bother.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Understood.'
+	\L_02ff7:
+	\L_02fea:
+	@L_00245:
+*L_00649:
+	\L_02ed2:
+	ZH 1:
+	'Sure, get to it.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Understood.'
+	\L_02ff7:
+	ZH 1:
+	'Then we will begin research on'
+	R
+	'boosting '
+	X 1:
+	'’s magic power.'
+	\L_02ff7:
+	\L_02fea:
+	!VAR0465 : VAR0154 + 100!
+	!VAR0466 : VAR0517 + VAR0093 * 2!
+	@L_00245:
+*L_006b8:
+	\L_02ed2:
+	ZH 1:
+	'Sill’s unit is way too weak.'
+	R
+	'She’s an embarrassment as a'
+	R
+	'slave. Make her stronger.'
+	\L_02ff7:
+	\L_02fea:
+	!VAR0154 : 2!
+	MM 1, VAR0198 + (VAR0154 - 1) * 3:
+	@L_00518:
+*L_006f7:
+	\L_02ed2:
+	ZH 1:
+	'She’s just a brat, but if she'
+	R
+	'was a bit stronger she’d be'
+	R
+	'useful. Strengthen Asuka’s unit.'
+	\L_02ff7:
+	\L_02fea:
+	!VAR0154 : 11!
+	MM 1, VAR0198 + (VAR0154 - 1) * 3:
+	@L_00518:
+*L_00736:
+	\L_02ed2:
+	ZH 1:
+	'Melfeis is pretty sexy.'
+	R
+	'Strengthen Melfeis’s unit.'
+	\L_02ff7:
+	\L_02fea:
+	!VAR0154 : 13!
+	MM 1, VAR0198 + (VAR0154 - 1) * 3:
+	@L_00518:
+*L_0076e:
+	\L_02ed2:
+	ZH 1:
+	'Hrmmm, she’s pretty obnoxious,'
+	R
+	'but she is strong...'
+	R
+	'Strengthen Shizuka’s unit.'
+	\L_02ff7:
+	\L_02fea:
+	!VAR0154 : 17!
+	MM 1, VAR0198 + (VAR0154 - 1) * 3:
+	@L_00518:
+*L_007ad:
+	\L_02ed2:
+	ZH 1:
+	'Mhm... A love potion.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Huh?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'A queer like you probably'
+	R
+	'wouldn’t get it, but love'
+	R
+	'potions are a man’s dream.'
+	\L_02ff7:
+	ZH 1:
+	'Make a potion that’ll make any'
+	R
+	'woman fall in love with me,'
+	R
+	'okay?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Understood.'
+	\L_02ff7:
+	\L_02fea:
+	!VAR0465 : 1!
+	!VAR0466 : VAR0517 + 10!
+	@L_00245:
+*L_0084e:
+	\L_02ed2:
+	ZH 1:
+	'The barrier around Zeth Palace'
+	R
+	'is annoying.'
+	\L_02ff7:
+	ZH 1:
+	'Make some magic that can destroy'
+	R
+	'it, as soon as possible.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Understood...'
+	R
+	'But... Your Majesty.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Hm, what?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Our magic research is far'
+	R
+	'behind Zeth’s.'
+	\L_02ff7:
+	ZH 1:
+	'It may be extremely difficult'
+	R
+	'for us to make something that'
+	R
+	'could destroy that barrier.'
+	\L_02ff7:
+	ZH 1:
+	'But...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Shut up, you don’t get to whine'
+	R
+	'that you can’t do something,'
+	R
+	'queer!'
+	\L_02ff7:
+	ZH 1:
+	'That’s what I made this place'
+	R
+	'for, do it!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f0a:
+	ZH 1:
+	'　　＜pow!）'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Ow...'
+	R
+	'I was going to say, \"But I’ll'
+	R
+	'give it all I can\"...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Eeeh?'
+	R
+	'What’s that, Chief Queertis?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Nothing...'
+	R
+	'I’ll do the best I can to'
+	R
+	'destroy Zeth’s barrier.'
+	\L_02ff7:
+	\L_02fea:
+	!VAR0465 : 2!
+	!VAR0466 : VAR0517 + 4!
+	@L_00245:
+*L_009df:
+	!VAR0001 : 0!
+	\L_02ed2:
+	ZH 1:
+	'Do some research.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Ah, but, Your Majesty...'
+	\L_02ff7:
+	ZH 1:
+	'The magic research institute is'
+	R
+	'currently in the middle of'
+	R
+	'researching something else.'
+	\L_02ff7:
+	ZH 1:
+	'Would you like us to stop that'
+	R
+	'and switch to researching'
+	R
+	'something new?'
+	\L_02ff7:
+	\L_02fea:
+*L_00a4f:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_00a4f:
+	}
+	ZH 1:
+	$L_00b16$
+	'Yeah'
+	$
+	R
+	$L_00a8d$
+	'No'
+	$
+	]
+	@L_00a4f:
+*L_00a8d:
+	\L_02ed2:
+	ZH 1:
+	'You can’t do two things at'
+	R
+	'once? Not very flexible, are'
+	R
+	'you, tranny?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'I-I’m not a tranny...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Shut up, tranny.'
+	R
+	'Continue your current research,'
+	R
+	'okay?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Understood...'
+	\L_02ff7:
+	\L_02fea:
+	!VAR0001 : 1!
+	\0:
+*L_00b16:
+	\L_02f0a:
+	ZH 1:
+	'　　＜pow!）'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Ah, ow.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'I already knew that, no point'
+	R
+	'in warning me. Don’t talk when'
+	R
+	'you don’t need to, girlface.'
+	\L_02ff7:
+	ZH 1:
+	'Abandon the current research.'
+	R
+	'Switch to the new research I’m'
+	R
+	'going to order now quickly.'
+	\L_02ff7:
+	ZH 1:
+	'Understand?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Yes... Understood.'
+	\L_02ff7:
+	\L_02fea:
+	\0:
+*L_00bb9:
+	\L_02ed2:
+	ZH 1:
+	'How’s the research going?'
+	R
+	'Not ditching work to groom'
+	R
+	'your hair, are you?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Of course not... Um, so you want'
+	R
+	'to know how research is'
+	R
+	'progressing?'
+	\L_02ff7:
+	ZH 1:
+	'The current research is...'
+	\L_02ff7:
+	\L_02fea:
+	{VAR0465 = 0:
+		\L_02f42:
+		ZH 1:
+		'Well, nothing in particular is'
+		R
+		'being researched right now.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02ed2:
+		ZH 1:
+		'Nothing!?'
+		\L_02ff7:
+		\L_02fea:
+		\L_02f42:
+		ZH 1:
+		'No, because you haven’t'
+		R
+		'ordered us to do any.'
+		\L_02ff7:
+		\L_02fea:
+		@L_00245:
+	}
+	\L_02f42:
+	ZH 1:
+	'We are currently researching'
+	R
+	{VAR0465 = 1:
+		ZH 1:
+		'love potion'
+	}
+	{VAR0465 = 2:
+		ZH 1:
+		'something that can break'
+		R
+		'Zeth’s barrier'
+	}
+	{VAR0465 > 100:
+		!VAR0154 : VAR0465 - 100!
+		MM 1, VAR0198 + (VAR0154 - 1) * 3:
+		ZH 1:
+		'strengthening'
+		R
+		X 1:
+		'’s unit’s magic'
+	}
+	ZH 1:
+	'.'
+	\L_02ff7:
+	\L_02fea:
+	{VAR0466 < VAR0517 + 2:
+		\L_02f42:
+		ZH 1:
+		'It should be finished next'
+		R
+		'week.'
+		\L_02ff7:
+		\L_02fea:
+		@L_00245:
+	}
+	{VAR0466 < VAR0517 + 4:
+		\L_02f42:
+		ZH 1:
+		'We need a bit more time...'
+		R
+		'The plan is to finish within'
+		R
+		'the next month.'
+		\L_02ff7:
+		\L_02fea:
+		@L_00245:
+	}
+	\L_02f42:
+	ZH 1:
+	'It will likely take a good'
+	R
+	'deal more time.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Ch, so slow...'
+	\L_02ff7:
+	\L_02fea:
+	@L_00245:
+*L_00dd3:
+	{(VAR0465 = 2) * (VAR0650 < 10):
+		\L_02dd9:
+	}
+	!VAR0516 : 248!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Your Majesty... Your Majestyyy!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f0a:
+	ZH 1:
+	'　　＜swoosh）'
+	\L_02ff7:
+	ZH 1:
+	'Curtis ran over. He jumped at'
+	R
+	'Rance with a huge smile on his'
+	R
+	'face.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Whoa!!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'We did it, Your Majesty!'
+	R
+	'The research you ordered from'
+	R
+	'us is finished!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f0a:
+	ZH 1:
+	'　　＜boff!）'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Ouch!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Moron, men aren’t allowed to'
+	R
+	'hug me!! My broad chest is for'
+	R
+	'girls only... I’ll kill you.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Ah... Ah, I’m sorry...'
+	R
+	'I was just happy, I’ll be more'
+	R
+	'careful next time...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'So... What are the results?'
+	R
+	'Chief Queertis.'
+	\L_02ff7:
+	ZH 1:
+	'If you didn’t accomplish'
+	R
+	'anything I’m gonna kill you.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Y-Yes, well...'
+	R
+	{VAR0465 = 1:
+		@L_014f1:
+	}
+	{VAR0465 = 2:
+		@L_01654:
+	}
+	{VAR0465 > 100:
+		@L_00f89:
+	}
+*L_00f89:
+	!VAR0154 : VAR0465 - 100!
+	!VAR0465 : 0!
+	!VAR0466 : 0!
+	MM 1, VAR0198 + (VAR0154 - 1) * 3:
+	ZH 1:
+	X 1:
+	'’s unit’s magic was'
+	R
+	'successfully strengthened.'
+	\L_02ff7:
+	ZH 1:
+	'Her unit is now more powerful'
+	R
+	'than before. She’s actually'
+	R
+	'still here right now.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0093 : VAR0093 + 1!
+	{VAR0154 = 2:
+		!VAR0516 : 2!
+		\L_02f96:
+		\L_02f42:
+		ZH 1:
+		'Master Rance!'
+		\L_02ff7:
+		\L_02fea:
+		\L_02f0a:
+		ZH 1:
+		'Sill ran up to Rance, looking'
+		R
+		'happy.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02f42:
+		ZH 1:
+		'Thank you.'
+		R
+		'I was able to get stronger'
+		R
+		'thanks to your orders.'
+		\L_02ff7:
+		ZH 1:
+		'I’ll do my best, Master Rance.'
+		R
+		'So... Please don’t abandon'
+		R
+		'me... I’ll keep trying...'
+		\L_02ff7:
+		\L_02fea:
+		\L_02ed2:
+		ZH 1:
+		'Sure, make sure to hold on to'
+		R
+		'that feeling.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02f42:
+		ZH 1:
+		'Okay!'
+		\L_02ff7:
+		\L_02fea:
+		\L_02fa4:
+		!VAR0516 : 248!
+		\L_02f96:
+	}
+	{VAR0154 = 11:
+		!VAR0516 : 430!
+		\L_02f96:
+		\L_02f42:
+		ZH 1:
+		'Rance～.'
+		\L_02ff7:
+		ZH 1:
+		'　　（Chaka）'
+		R
+		'Hey, call him Your Majesty.'
+		\L_02ff7:
+		ZH 1:
+		'’kay.'
+		R
+		'Your Majeshty.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02ed2:
+		ZH 1:
+		'Hey, kiddo.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02f42:
+		ZH 1:
+		'Asuka.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02ed2:
+		ZH 1:
+		'Whatever.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02f42:
+		ZH 1:
+		'（Chaka） King Rance, I appreciate'
+		R
+		'you helping her to become'
+		R
+		'stronger.'
+		\L_02ff7:
+		ZH 1:
+		'I thank you in her place.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02ed2:
+		ZH 1:
+		'Sure. Work hard.'
+		R
+		'It cost money to strengthen'
+		R
+		'her.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02f42:
+		ZH 1:
+		'　　（Chaka）'
+		R
+		'Yes, of course...'
+		\L_02ff7:
+		ZH 1:
+		'I’ll do my best～.'
+		R
+		'Rance～.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02ed2:
+		ZH 1:
+		'Your Majesty.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02f42:
+		ZH 1:
+		'Aah... Your Majeshty～...'
+		\L_02ff7:
+		\L_02fea:
+		\L_02fa4:
+		!VAR0516 : 248!
+		\L_02f96:
+	}
+	{VAR0154 = 13:
+		!VAR0516 : 11!
+		\L_02f96:
+		\L_02f42:
+		ZH 1:
+		'Your Majesty...'
+		\L_02ff7:
+		\L_02fea:
+		\L_02ed2:
+		ZH 1:
+		'Hey, Melfeis.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02f42:
+		ZH 1:
+		'Thank you for giving me'
+		R
+		'strength...'
+		\L_02ff7:
+		\L_02fea:
+		\L_02ed2:
+		ZH 1:
+		'Mhm.'
+		R
+		'Show your thanks through your'
+		R
+		'actions.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02f42:
+		ZH 1:
+		'Yes...'
+		R
+		'I’ll work hard.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02ed2:
+		ZH 1:
+		'Yeah... There’s that...'
+		R
+		'And there’s this, too.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02f0a:
+		ZH 1:
+		'Rance groped Melfeis’s ass.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02f42:
+		ZH 1:
+		'Kyah!?'
+		\L_02ff7:
+		\L_02fea:
+		\L_02ed2:
+		ZH 1:
+		'Gahahahahaha.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02fa4:
+		!VAR0516 : 248!
+		\L_02f96:
+	}
+	{VAR0154 = 17:
+		!VAR0516 : 49!
+		\L_02f96:
+		\L_02f42:
+		ZH 1:
+		'Ah, Rance...'
+		\L_02ff7:
+		\L_02fea:
+		\L_02ed2:
+		ZH 1:
+		'Hey, Shizuka.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02f42:
+		ZH 1:
+		'I guess you were the one that'
+		R
+		'gave the order to strengthen me.'
+		R
+		'I’ll be thankful for now.'
+		\L_02ff7:
+		ZH 1:
+		'Thanks, Rance.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02ed2:
+		ZH 1:
+		'Hey... What do you mean for'
+		R
+		'now? So ungrateful.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02f42:
+		ZH 1:
+		'Yeah, well, hmmm...'
+		R
+		'I am thankful, but...'
+		\L_02ff7:
+		\L_02fea:
+		\L_02ed2:
+		ZH 1:
+		'Are you? Then how about'
+		R
+		'tonight we...'
+		\L_02ff7:
+		\L_02fea:
+		\L_02f0a:
+		ZH 1:
+		'　　＜pow!!）'
+		\L_02ff7:
+		\L_02fea:
+		\L_02f42:
+		ZH 1:
+		'This is why I can’t really'
+		R
+		'thank you, stupid!!'
+		\L_02ff7:
+		\L_02fea:
+		\L_02fa4:
+		\L_02f0a:
+		ZH 1:
+		'After Rance grabbed at'
+		R
+		'Shizuka’s shoulder, she'
+		R
+		'knocked him down and ran away.'
+		\L_02ff7:
+		\L_02fea:
+		\L_02ed2:
+		ZH 1:
+		'Owowow... Damn, violent woman.'
+		\L_02ff7:
+		\L_02fea:
+		!VAR0516 : 248!
+		\L_02f96:
+	}
+	\0:
+*L_014f1:
+	!VAR0465 : 0!
+	!VAR0466 : 0!
+	!VAR0771 : 1!
+	ZH 1:
+	'The love potion was finished.'
+	R
+	'It’s a drug that acts'
+	R
+	'immediately.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Alright, good job.'
+	R
+	'Hand it over.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Okay, here.'
+	R
+	'There’s only one, so use it'
+	R
+	'wisely.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'What, just one?'
+	R
+	'Can’t you make more?!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'That would be difficult... It'
+	R
+	'was actually made by accident'
+	R
+	'during the development stage.'
+	\L_02ff7:
+	ZH 1:
+	'It can’t be replicated...'
+	\L_02ff7:
+	ZH 1:
+	'For a more detailed explanation,'
+	R
+	'we’d need a Sarge Hanny,'
+	R
+	'chromium cetylene,'
+	\L_02ff7:
+	ZH 1:
+	'vanilla ice cream DNA...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Shut up, worthless chief.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Sob...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02eee:
+	ZH 1:
+	'Damn it, only one...?'
+	R
+	'I’ll have to think real hard'
+	R
+	'about who to use it on...'
+	\L_02ff7:
+	\L_02fea:
+	!VAR0160 : 13!
+	!VAR0150 : 100!
+	\0:
+*L_01654:
+	!VAR0465 : 0!
+	!VAR0466 : 0!
+	ZH 1:
+	'Y-Yes, um... We successfully'
+	R
+	'produced something that can'
+	R
+	'break barriers.'
+	\L_02ff7:
+	ZH 1:
+	'The Barrier Blade. It can break'
+	R
+	'Zeth’s barrier. Leazas’s magic'
+	R
+	'has finally made it...'
+	\L_02ff7:
+	ZH 1:
+	'Sniffle... I’m so happy...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Don’t tear up over this,'
+	R
+	'mangirl.'
+	\L_02ff7:
+	\L_02fea:
+	!VAR0160 : 12!
+	!VAR0150 : 100!
+	\0:
+*L_016dc:
+	\L_02ed2:
+	ZH 1:
+	'Be more manly.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Huh?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Just be more manly, fag.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Fag...'
+	R
+	'No, I’m...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Am I wrong?'
+	R
+	'You talk like such a fag,'
+	R
+	'though.'
+	\L_02ff7:
+	ZH 1:
+	'You sicken me. If you’re a man'
+	R
+	'then sound more manly.'
+	\L_02ff7:
+	ZH 1:
+	'Say, \"I’m Chief Curtis,\" and'
+	R
+	'make it imposing.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'...I... am... Chief Curtis...'
+	R
+	'Your Majesty.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Again, with more conviction.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'............'
+	R
+	'I’m Chief Curtis.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'............'
+	\L_02ff7:
+	ZH 1:
+	'...This isn’t working for you.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'That’s why I...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'A little softer, then. Not too'
+	R
+	'much, though.'
+	\L_02ff7:
+	ZH 1:
+	'You come off completely like a'
+	R
+	'woman otherwise.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'I...'
+	R
+	'Your Majesty, um, I...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'............'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f0a:
+	ZH 1:
+	'Curtis fidgeted nervously, not'
+	R
+	'sure what to do... But he looked'
+	R
+	'straight at Rance.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Um... Is this good?'
+	R
+	'What should I say, Your'
+	R
+	'Majesty...?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'...Stop it.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Huh?'
+	R
+	'Uh, okay...???'
+	\L_02ff7:
+	\L_02fea:
+	\L_02eee:
+	ZH 1:
+	'Ugh... I got turned on a bit...'
+	R
+	'This feels gross. This guy is'
+	R
+	'dangerous.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Um, Your Majesty...'
+	R
+	'What about research...?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Shut up, I’m leaving.'
+	R
+	'The poison in the air’s'
+	R
+	'getting to me.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f34:
+	\L_02f0a:
+	ZH 1:
+	'Rance walked quickly out of'
+	R
+	'the magic research institute.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Poison...'
+	R
+	'Maybe because of all the magic'
+	R
+	'materials we have...?'
+	\L_02ff7:
+	\L_02fea:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_019ef:
+	!VAR0516 : 430!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Ah, Your Majeshty.'
+	\L_02ff7:
+	ZH 1:
+	'　　（Chaka）'
+	R
+	'Hello, King Rance.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Hey.'
+	R
+	'How’s research going, old man?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'　　（Chaka）'
+	R
+	'It’s going...'
+	\L_02ff7:
+	ZH 1:
+	'Your Majeshty...'
+	R
+	'I can’t play here, I don’t'
+	R
+	'like it～.'
+	\L_02ff7:
+	ZH 1:
+	'I wanna take a bath.'
+	R
+	'Let’s take one together, Your'
+	R
+	'Majeshty.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Sure.'
+	R
+	'In 10 years.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'10 years??'
+	\L_02ff7:
+	ZH 1:
+	'　　（Chaka）'
+	R
+	'King... Are you serious...?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Gahahahahahaha.'
+	R
+	'If she grows up to be cute,'
+	R
+	'then of course I am!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'　　（Chaka） Oh dear... She’s my'
+	R
+	'grandchild, so of course she’ll'
+	R
+	'be cute... Oh dear...'
+	\L_02ff7:
+	ZH 1:
+	'What’s wrong, Grampa?'
+	R
+	'You need to pee?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 248!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Ah, you’re here, Your Majesty?'
+	R
+	'You didn’t say anything to'
+	R
+	'me...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f0a:
+	ZH 1:
+	'Curtis ran over.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Took you long enough to see me,'
+	R
+	'Queertis. You’re more'
+	R
+	'worthless than this child.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Ah, I-I’m sorry...'
+	R
+	'Haha... Asuka really is great.'
+	R
+	'Want some candy, Asuka?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 430!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Thanks, lady.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 248!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'...I’m not a lady, Asuka.'
+	R
+	'I’ve told you numerous times,'
+	R
+	'haven’t I?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 430!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'　　（Chaka）'
+	R
+	'Hey, Asuka.'
+	R
+	'Call him mister.'
+	\L_02ff7:
+	ZH 1:
+	'...Hweeh?'
+	R
+	'She’s a lady, though...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 248!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Aah... She just won’t'
+	R
+	'understand...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Gahahahahahaha.'
+	R
+	'Kids are so honest.'
+	\L_02ff7:
+	\L_02fea:
+	\0:
+*L_01cf6:
+	!VAR0516 : 11!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Your Majesty...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Are you doing research too,'
+	R
+	'Melfeis?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Yes...'
+	R
+	'I believe it’s better to have'
+	R
+	'knowledge than not...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Goes hand in hand with lots of'
+	R
+	'good women making you more'
+	R
+	'happy than one. Gahahahaha.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'...I don’t know about that.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 248!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Ah, Your Majesty... Welcome.'
+	R
+	'Hello, Melfeis.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f0a:
+	ZH 1:
+	'Curtis appeared with a smile'
+	R
+	'on his face.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Hey, Queertis.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Yes, what is it?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'This is my woman.'
+	R
+	'No getting turned on by her.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'I... I would never...!'
+	R
+	'I’m sorry, Melfeis is'
+	R
+	'attractive, but I...!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 11!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'W-What are you saying, Your'
+	R
+	'Majesty?!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'So does he?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Geez... I don’t know!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	\L_02f7a:
+	ZH 1:
+	'Melfeis covered her red face'
+	R
+	'with both hands and ran away.'
+	\L_02ff7:
+	\L_02fea:
+	!VAR0516 : 248!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Ah, Melfeis...!'
+	\L_02ff7:
+	ZH 1:
+	'...Your Majesty, um, please'
+	R
+	'refrain from being so crass in'
+	R
+	'front of a lady like Melfeis...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'............'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f0a:
+	ZH 1:
+	'　　＜gsssh）'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Ow, w-what was that for?'
+	R
+	'That made a thick sound...!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Your head was in the way, my'
+	R
+	'bad.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Uu...'
+	\L_02ff7:
+	\L_02fea:
+	\0:
+*L_01fc0:
+	!VAR0516 : 49!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Oh, if it isn’t Rance?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Hey, Shizuka.'
+	R
+	'Doing lots of research?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Lots...'
+	R
+	'Well, a decent amount.'
+	\L_02ff7:
+	ZH 1:
+	'In exchange for letting me do'
+	R
+	'research for my own purposes,'
+	\L_02ff7:
+	ZH 1:
+	'I only need to offer them the'
+	R
+	'results...'
+	\L_02ff7:
+	ZH 1:
+	'Then whether it’s useful to'
+	R
+	'Leazas or not is dependent on'
+	R
+	'Chief Curtis.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Ch, doing your own thing like'
+	R
+	'usual... Be more cooperative'
+	R
+	'as long as you’re here.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'I’m not here because I want to'
+	R
+	'be! If I can’t do what I want'
+	R
+	'then I’m going back to Custom!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Can’t let you do that, either.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Geez...!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	\L_02f42:
+	ZH 1:
+	'Haha... What is it?'
+	R
+	'You’re being awfully lively,'
+	R
+	'Shizuka.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f0a:
+	ZH 1:
+	'Curtis came in from the next'
+	R
+	'room over.'
+	\L_02ff7:
+	\L_02fea:
+	!VAR0516 : 248!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Ah, Your Majesty...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'What are you laughing about?'
+	R
+	'This researcher’s obnoxious.'
+	\L_02ff7:
+	ZH 1:
+	'Make something to change her'
+	R
+	'personality.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'That would be quite'
+	R
+	'unreasonable, Your Majesty...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 49!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Chief Curtis, you don’t need'
+	R
+	'to listen to this stupid'
+	R
+	'king... See you, Rance.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Hey, you...!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	\L_02f0a:
+	ZH 1:
+	'Shizuka left Curtis and Rance.'
+	\L_02ff7:
+	\L_02fea:
+	!VAR0516 : 248!
+	\L_02f96:
+	\L_02ed2:
+	ZH 1:
+	'Damn, she’s obnoxious.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f0a:
+	ZH 1:
+	'　　＜pow）'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Ah, ow...'
+	R
+	'Please don’t take it out on me,'
+	R
+	'Your Majesty...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Shut up, I don’t care what you'
+	R
+	'have to say.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Sob...'
+	\L_02ff7:
+	\L_02fea:
+	\0:
+*L_022c1:
+	!VAR0516 : 426!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Oh, King of Leazas.'
+	R
+	'I’m surprised to see you'
+	R
+	'here...'
+	\L_02ff7:
+	ZH 1:
+	'If you’re here, then...'
+	\L_02ff7:
+	ZH 1:
+	'Did you come to see the'
+	R
+	'chief’s beautiful face?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Ugh... That’s disgusting, old'
+	R
+	'man!!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'The people of JAPAN do have a'
+	R
+	'custom of homosexuality where'
+	R
+	'rulers wait upon attractive'
+	\L_02ff7:
+	ZH 1:
+	'boys, though...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Why would I know anything'
+	R
+	'about that?!!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 248!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Oh, it’s pretty lively in'
+	R
+	'here...'
+	R
+	'...!?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Hyaaaah!!!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f0a:
+	ZH 1:
+	'　　＜gwak）'
+	\L_02ff7:
+	ZH 1:
+	'Curtis came to check the'
+	R
+	'situation and got abruptly'
+	R
+	'kicked by Rance.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Aah...'
+	R
+	'Your Majesty... Why...?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f0a:
+	ZH 1:
+	'Curtis cowered with tears in'
+	R
+	'his eyes and looked up at'
+	R
+	'Rance with an amorous face.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Urgh.. Shut up!!'
+	R
+	'It’s your fault that I...'
+	R
+	'I...!!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f0a:
+	ZH 1:
+	'　　＜gwak）'
+	\L_02ff7:
+	ZH 1:
+	'　　＜thwack）'
+	\L_02ff7:
+	ZH 1:
+	'　　＜boooom!）'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 426!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'W-Won’t you stop this, King of'
+	R
+	'Leazas?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Take this, and this, and this!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 248!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'I-I just wanted to know what I'
+	R
+	'did...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Haah... That was refreshing...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 426!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Aah... Pitiful...'
+	R
+	'I apologize, Chief...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 248!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Sob...'
+	\L_02ff7:
+	\L_02fea:
+	\0:
+*L_025a9:
+	!VAR0516 : 44!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Oooh, King of Leazas.'
+	R
+	'Did you come to see meeee?'
+	\L_02ff7:
+	ZH 1:
+	'　　（Nomicon） Nah, Sis, he came to'
+	R
+	'see me! For a rendezvous of'
+	R
+	'love, KEKEKEH...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Shut up. Nobody would come to'
+	R
+	'see you, you crazy book.'
+	\L_02ff7:
+	ZH 1:
+	'How’s research? Taking it'
+	R
+	'seriously? Not doing anything'
+	R
+	'dangerous, I hope.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Juuust doing what the chief'
+	R
+	'tells me, for now... Hey, King'
+	R
+	'of Leazas, I have a request.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Hm, what?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Mind if I eat the chief?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'...That’s kind of...'
+	R
+	'Oh, speak of the devil.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 248!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'U-Um, Your Majesty...'
+	R
+	'I’m sorry I’m hiding behind a'
+	R
+	'pillar, welcome...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f0a:
+	ZH 1:
+	'Curtis peeped nervously out'
+	R
+	'from behind a pillar.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f34:
+	!VAR0516 : 44!
+	\L_02f26:
+	\L_02ed2:
+	ZH 1:
+	'Heeey Chief, come here.'
+	R
+	'Dooon’t worry, I’ll be a good'
+	R
+	'girl in front of the King.'
+	\L_02ff7:
+	ZH 1:
+	'（Nomicon）'
+	R
+	'KEEEEEEEEEKEKEKEKEKEKEKEKEH,'
+	R
+	'Come here, inoshikachooo!'
+	\L_02ff7:
+	ZH 1:
+	'Threeeeeesome! KEKEKEKEKEKEH...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Hii...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f34:
+	!VAR0516 : 1!
+	\L_02f26:
+	\L_02ed2:
+	ZH 1:
+	'...Papaya, you’re not allowed to'
+	R
+	'looked fondly at any men but me,'
+	R
+	'so no laying a hand on Curtis.'
+	\L_02ff7:
+	ZH 1:
+	'You can keep scaring him'
+	R
+	'though, it’s pretty funny.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 44!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Okay, King of Leazas. Bye, you'
+	R
+	'two... Ah. Chief, I’ll be going'
+	R
+	'to your room later.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	\L_02f0a:
+	ZH 1:
+	'Papaya left.'
+	\L_02ff7:
+	\L_02fea:
+	!VAR0516 : 248!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Y-You don’t need to come...'
+	R
+	'Papaya... Uuu...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Good for you, Queertis.'
+	\L_02ff7:
+	\L_02fea:
+	\0:
+*L_02861:
+	!VAR0772 : 1!
+	\L_02ed2:
+	ZH 1:
+	'Hmmmm, a bunch of weird stuff'
+	R
+	'here... As my magic research'
+	R
+	'institute should be. Hey, Maris.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f0a:
+	ZH 1:
+	'Rance walked around and'
+	R
+	'checked out the research'
+	R
+	'institute.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Ah, King Rance, look where'
+	R
+	'you’re going...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Hm?'
+	R
+	'...Whoa.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f0a:
+	ZH 1:
+	'　　＜bump）'
+	\L_02ff7:
+	ZH 1:
+	'Rance wasn’t paying attention'
+	R
+	'and collided with a petite'
+	R
+	'person.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 248!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Wah... Aah...'
+	R
+	'S-Sorry, I was looking at some'
+	R
+	'books... Are you hurt?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Nah, I’m fine. You’re the one'
+	R
+	'that fell over, why are you'
+	R
+	'worried about me? Here.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Ah, okay...'
+	R
+	'Thank you, Your Majesty.'
+	\L_02ff7:
+	ZH 1:
+	'Ah, I haven’t introduced myself'
+	R
+	'yet... I’m the chief of this'
+	R
+	'institute. My name is Curtis.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f0a:
+	ZH 1:
+	'Curtis took Rance’s hand and'
+	R
+	'smiled.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Oh? Ooh...'
+	R
+	'So you’re the chief?'
+	R
+	'You’re pretty cute...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Oh, don’t call me cute...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Why not?'
+	R
+	'You really are.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 6!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Um, King Rance...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Quiet, Maris. How about it,'
+	R
+	'Curtis?'
+	\L_02ff7:
+	ZH 1:
+	'On top of running this research'
+	R
+	'institute, you could join my'
+	R
+	'harem and...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'King Rance.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Shut up.'
+	R
+	'So tonight come to my...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'King Rance, Curtis Aberen is a'
+	R
+	'man.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'...Uh?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 248!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Um... That’s correct, I’m very'
+	R
+	'sorry...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Dah...'
+	\L_02ff7:
+	ZH 1:
+	'Daaaaaaaaaaaaah, you’re so'
+	R
+	'feminine, but you’re a man!?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Feminine...'
+	R
+	'Yes, I’m sorry...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Ugh...'
+	R
+	'Damn it, Maris!!'
+	\L_02ff7:
+	ZH 1:
+	'I’m supposed to meet some sexy'
+	R
+	'girl at times like this!!'
+	R
+	'Why this young guy?!!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 6!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'But King, regardless of'
+	R
+	'Curtis’s age, he’s very'
+	R
+	'talented...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'His age isn’t the problem!!!'
+	R
+	'You can’t tell what his sex'
+	R
+	'is!!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'That isn’t a problem, either.'
+	\L_02ff7:
+	ZH 1:
+	'He’s the best person for the job'
+	R
+	'of developing our country’s'
+	R
+	'magic.'
+	\L_02ff7:
+	ZH 1:
+	'It’s all for our country to'
+	R
+	'catch up with Zeth, so please'
+	R
+	'tolerate him, King Rance...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Mgggh... Hmph, fine.'
+	R
+	'I’ll deal with it.'
+	\L_02ff7:
+	ZH 1:
+	'In exchange, I’m having you'
+	R
+	'hanged if you don’t work hard,'
+	R
+	'Curtis.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 248!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Ah, o-okay...'
+	R
+	'I’ll do the best I can.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02eee:
+	ZH 1:
+	'Fuck this guy...'
+	R
+	'Making me attracted to a man'
+	R
+	'even for an instant...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Gaaaaah, unforgivable!'
+	R
+	'From now on I’m gonna give you'
+	R
+	'hell!'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Hii...!?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 6!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Please calm down, King Rance...'
+	R
+	'You’re scaring Curtis.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'That’s all it takes to scare'
+	R
+	'you?!! Haaah, haaaah...'
+	\L_02ff7:
+	\L_02fea:
+	\L_02fa4:
+	!VAR0516 : 248!
+	\L_02f96:
+	\L_02f5e:
+	ZH 1:
+	'That’s how I am... Sob.'
+	\L_02ff7:
+	\L_02fea:
+	\0:
+*L_02dd9:
+	!VAR0516 : 248!
+	\L_02f96:
+	\L_02f42:
+	ZH 1:
+	'Ah, Your Majesty...'
+	R
+	'Welcome.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f0a:
+	ZH 1:
+	'Chief Curtis gracefully'
+	R
+	'greeted Rance.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Hmph, delicate piece of shit.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Do I act delicate...?'
+	\L_02ff7:
+	\L_02fea:
+	\L_02ed2:
+	ZH 1:
+	'Yes you do, all the time.'
+	R
+	'Research some way to get some'
+	R
+	'backbone.'
+	\L_02ff7:
+	\L_02fea:
+	\L_02f42:
+	ZH 1:
+	'Sob...'
+	\L_02ff7:
+	\L_02fea:
+	\0:
+*L_02e9b:
+	{VAR0465 > 100:
+		!VAR0154 : VAR0465 - 100!
+		{VAR0102 = 0:
+			!VAR0465 : 0!
+			!VAR0466 : 0!
+		}
+	}
+	\0:
+*L_02ed2:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02eee:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02f0a:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02f26:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02f34:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02f42:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02f5e:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02f7a:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02f96:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02fa4:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02fce:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02fea:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02ff7:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

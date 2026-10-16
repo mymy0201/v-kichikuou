@@ -1,0 +1,1799 @@
+	!VAR0001 : 13!
+	{VAR0403 > 1:
+		!VAR0001 : 470!
+	}
+	!VAR0002 : 0!
+	!VAR0003 : 0!
+	!VAR0516 : 1001!
+	\L_01fb5:
+	{VAR0401 = 6:
+		!VAR0520 : 6!
+		%#Gｼｨﾙ.ADV:
+		%0:
+	}
+	{VAR0401 = 2:
+		!VAR0520 : 2!
+		%#Gｼｨﾙ.ADV:
+		%0:
+	}
+	{VAR0468 = 0:
+		@L_01931:
+	}
+	{VAR0468 = 3:
+		@L_01c97:
+	}
+	{VAR0468 > 3:
+		!VAR0516 : 1!
+		\L_01f0d:
+		\L_01eb9:
+		ZH 1:
+		'Tôi muốn mua sắm. Hãy gọi cho'
+		R
+		'Pluepet.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01ef1:
+		ZH 1:
+		'Pluepet được gọi như Rance mong'
+		R
+		'muốn.'
+		\L_01fde:
+		\L_01fd1:
+		!VAR0001 : 470!
+		!VAR0516 : VAR0001!
+		\L_01f7d:
+		\L_01f29:
+		ZH 1:
+		'Cảm ơn bạn, như mọi khi.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f61:
+		ZH 1:
+		'Pluepet cúi đầu.'
+		\L_01fde:
+		\L_01fd1:
+		@L_001dc:
+	}
+	!VAR0516 : 1!
+	\L_01f0d:
+	\L_01eb9:
+	ZH 1:
+	'Gọi cho Pluepet.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'Theo lệnh của Rance, Pluepet'
+	R
+	'được gọi lên ngai vàng.'
+	\L_01fde:
+	\L_01fd1:
+	!VAR0516 : VAR0001!
+	\L_01f7d:
+	\L_01f29:
+	ZH 1:
+	'Chúc mừng doanh nghiệp của'
+	R
+	'bạn. Hôm nay thời tiết lại tuyệt'
+	R
+	'vời nữa phải không?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'Pluepet nhảy vào cùng với'
+	R
+	'Rebecca.'
+	\L_01fde:
+	\L_01fd1:
+*L_001dc:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_001dc:
+	}
+	ZH 1:
+	$L_01316$
+	'Mua vật phẩm'
+	$
+	{(VAR0468 < 3) * (VAR0002 = 0):
+		ZH 1:
+		$L_010c2$
+		'Mẹ kiếp Rebecca'
+		$
+	}
+	{VAR0468 < 3:
+		ZH 1:
+		$L_010d4$
+		'Mua Rebecca'
+		$
+	}
+	!VAR0154 : 49!
+	{(VAR0639 = 0) * (VAR0102 = 0):
+		ZH 1:
+		$L_003eb$
+		'Thuê lính đánh thuê A'
+		$
+	}
+	!VAR0154 : 50!
+	{(VAR0640 = 0) * (VAR0102 = 0):
+		ZH 1:
+		$L_009a8$
+		'Thuê lính đánh thuê B'
+		$
+	}
+	ZH 1:
+	$L_002b1$
+	'Gửi Đi'
+	$
+	]
+	@L_001dc:
+*L_002b1:
+	!VAR0547 : 0!
+	\L_01eb9:
+	ZH 1:
+	'Đủ rồi. Về nhà đi.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Được rồi. Hãy triệu hồi tôi bất'
+	R
+	'cứ lúc nào～.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'Rance đuổi Pluepet đi.'
+	\L_01fde:
+	\L_01fd1:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0031a:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Aaah～～... Thật sao? Không may.'
+	\L_01fde:
+	ZH 1:
+	'Nếu họ ở đây khi kẻ thù tấn'
+	R
+	'công... Chà, tôi cho là đã quá'
+	R
+	'muộn rồi.'
+	\L_01fde:
+	\L_01fd1:
+	@L_001dc:
+*L_00368:
+	\L_01f29:
+	ZH 1:
+	'Ôi trời ơi. Thưa bệ hạ, ngài'
+	R
+	'không có đủ tiền.'
+	\L_01fde:
+	ZH 1:
+	'Họ đặt cược mạng sống của mình'
+	R
+	'nên... Họ sẽ không làm việc miễn'
+	R
+	'phí.'
+	\L_01fde:
+	ZH 1:
+	'Lòng trung thành được mua bằng'
+	R
+	'tiền mặt... Tất cả đều là tiền~.'
+	\L_01fde:
+	ZH 1:
+	'Hãy thuê họ khi bạn tiết kiệm đủ'
+	R
+	'tiền.'
+	\L_01fde:
+	ZH 1:
+	'Sau đó, bạn có thể giết chúng'
+	R
+	'hoặc đốt chúng hoặc bất cứ điều'
+	R
+	'gì bạn muốn.'
+	\L_01fde:
+	\L_01fd1:
+	@L_001dc:
+*L_003eb:
+	\L_01f29:
+	ZH 1:
+	'Ôi! Cảm ơn vì sự kinh doanh!'
+	R
+	'Lính đánh thuê hả?'
+	\L_01fde:
+	ZH 1:
+	'Tài sản không thể thiếu cho nỗ'
+	R
+	'lực chiến tranh.'
+	\L_01fde:
+	ZH 1:
+	'Để xem nào... Louis khá giỏi.'
+	\L_01fde:
+	ZH 1:
+	'Giá cơ bản sẽ là 3.000.000 VÀNG.'
+	\L_01fde:
+	ZH 1:
+	'Sau đó, sẽ có thêm 10.000 VÀNG'
+	R
+	'cho mỗi 2 quân.'
+	\L_01fde:
+	ZH 1:
+	'Vậy thì, tôi tin rằng bạn đã'
+	R
+	'biết điều này, nhưng sau một'
+	R
+	'trận đấu,'
+	\L_01fde:
+	ZH 1:
+	'hợp đồng của họ sẽ hết hạn.'
+	\L_01fde:
+	ZH 1:
+	'Khi thời điểm đó đến,'
+	\L_01fde:
+	ZH 1:
+	'dù có chết bao nhiêu người cũng'
+	R
+	'không liên quan gì đến bạn nên'
+	R
+	'đừng lo lắng về điều đó.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'［Đơn vị Louis］ 200 quân:　　4000kg'
+	R
+	'1000 quân:　8000kg 　（Ngân sách:'
+	H 0, VAR0519:
+	ZH 1:
+	'00kg)'
+*L_004d4:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_004d4:
+	}
+	ZH 1:
+	$L_0051f$
+	'Hợp đồng 4000K'
+	$
+	R
+	$L_00563$
+	'Hợp đồng 8000K'
+	$
+	R
+	$L_0031a$
+	'Không có hợp đồng'
+	$
+	]
+	@L_004d4:
+*L_0051f:
+	\L_01fd1:
+	{VAR0519 < 39:
+		@L_00368:
+	}
+	!VAR0519 : VAR0519 - 40!
+	!VAR0166 : VAR0166 + 40!
+	!VAR0154 : 49!
+	!VAR0102 : 1!
+	!VAR0074 : 200!
+	!VAR0075 : 200!
+	@L_005aa:
+*L_00563:
+	\L_01fd1:
+	{VAR0519 < 79:
+		@L_00368:
+	}
+	!VAR0519 : VAR0519 - 80!
+	!VAR0166 : VAR0166 + 80!
+	!VAR0154 : 49!
+	!VAR0102 : 1!
+	!VAR0074 : 1000!
+	!VAR0075 : 1000!
+	@L_005aa:
+*L_005aa:
+	{VAR0710 = 1:
+		\L_01eb9:
+		ZH 1:
+		'Chà... Chắc chắn rồi, tôi sẽ'
+		R
+		'thuê Louis.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f29:
+		ZH 1:
+		'Nnhaah～～～!! Thưa bệ hạ, thưa bệ'
+		R
+		'hạ. Tôi biết ngài sẽ làm vậy,'
+		R
+		'thưa Bệ hạ.'
+		\L_01fde:
+		ZH 1:
+		'Tôi sẽ gọi cho anh ấy ngay bây'
+		R
+		'giờ, nên xin vui lòng đợi một'
+		R
+		'chút.'
+		\L_01fde:
+		ZH 1:
+		'À, vỗ tay vỗ tay.'
+		\L_01fde:
+		ZH 1:
+		'Louiiiiiii.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01ef1:
+		ZH 1:
+		'Hoooooooo.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f8b:
+		!VAR0516 : 90!
+		\L_01f7d:
+		\L_01f29:
+		ZH 1:
+		'Này. Rất vui được gặp lại bạn,'
+		R
+		'King.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01eb9:
+		ZH 1:
+		'Ừm, làm việc chăm chỉ nhé.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f29:
+		ZH 1:
+		'Vâng, tất nhiên rồi. Tôi sẽ giết'
+		R
+		'rất nhiều kẻ. Wahahahahahaha!!'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f61:
+		ZH 1:
+		'Luis cười vui vẻ và bước ra'
+		R
+		'ngoài.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f8b:
+		!VAR0516 : VAR0001!
+		\L_01f7d:
+		\L_01eb9:
+		ZH 1:
+		'... Anh ấy làm tôi khó chịu...'
+		\L_01fde:
+		\L_01fd1:
+		@L_001dc:
+	}
+	!VAR0710 : 1!
+	\L_01f29:
+	ZH 1:
+	'Vâng! Cảm ơn cho doanh nghiệp'
+	R
+	'của bạn!!'
+	\L_01fde:
+	ZH 1:
+	'Ôi, Louis. Hợp đồng của bạn đã'
+	R
+	'được giải quyết.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'Đáp lại lời kêu gọi của Pluepet,'
+	R
+	'một người đàn ông to lớn bước'
+	R
+	'tới.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f8b:
+	!VAR0516 : 90!
+	\L_01f7d:
+	\L_01f29:
+	ZH 1:
+	'Cái gì? Khi nghe tin ông là vua,'
+	R
+	'tôi đã mong đợi một ông già đàng'
+	R
+	'hoàng hơn, nhưng...'
+	\L_01fde:
+	ZH 1:
+	'Ông gần như một đứa trẻ nhỉ?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ed5:
+	ZH 1:
+	'Ờ.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Thôi, không sao đâu. Chỉ cần bạn'
+	R
+	'trả tiền cho tôi, tôi sẽ giết'
+	R
+	'bất cứ ai bạn muốn.'
+	\L_01fde:
+	ZH 1:
+	'Gehahahaha!!!'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'　　＜bghhh）'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Hgh!?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'Rance không ngừng đấm vào mặt'
+	R
+	'Louis.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Bạn đang làm cái quái gì thế!?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'Luis lau máu ở khóe miệng và'
+	R
+	'đứng thẳng lên.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Tôi vừa đấm bạn bằng Holy Fist'
+	R
+	'của mình vì bạn đã không cư xử'
+	R
+	'như những gì bạn nên làm với chủ'
+	\L_01fde:
+	ZH 1:
+	'nhân của mình.'
+	\L_01fde:
+	ZH 1:
+	'Hãy biết ơn.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'’Được,’ được. Đã hiểu, Vua'
+	R
+	'Rance.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Bạn tự đề cao bản thân mình nên'
+	R
+	'sẽ rất xấu hổ nếu kỹ năng của'
+	R
+	'bạn không thực sự đạt tốc độ.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Này, đừng lo lắng về chuyện'
+	R
+	'đó... Để đó cho tôi. Tôi sẽ vượt'
+	R
+	'qua sự mong đợi của bạn...'
+	\L_01fde:
+	ZH 1:
+	'Heheheh...'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'Với một tiếng cười thô tục,'
+	R
+	'Louis rời khỏi ngai vàng.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f8b:
+	!VAR0516 : VAR0001!
+	\L_01f7d:
+	\L_01eb9:
+	ZH 1:
+	'Nếu sau tất cả những gì tôi đã'
+	R
+	'trả, anh ta không hữu dụng và'
+	R
+	'thái độ lớn lao đó của anh ta...'
+	\L_01fde:
+	ZH 1:
+	'Bạn cũng sẽ nếm thử Holy Fist'
+	R
+	'của tôi, Pluepet.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'...... Tôi không muốn điều đó...'
+	\L_01fde:
+	\L_01fd1:
+	@L_001dc:
+*L_009a8:
+	\L_01f29:
+	ZH 1:
+	'Nnaaaah～～～... Như thường lệ, tôi'
+	R
+	'phải ngưỡng mộ khả năng mua sắm'
+	R
+	'của ngài, thưa Bệ hạ.'
+	\L_01fde:
+	ZH 1:
+	'Thực sự, thực sự.'
+	\L_01fde:
+	ZH 1:
+	'Đúng vậy. Lính đánh thuê là'
+	R
+	'không thể thiếu cho một nỗ lực'
+	R
+	'chiến tranh. Thực sự.'
+	\L_01fde:
+	ZH 1:
+	'Tôi sẽ giới thiệu với bạn Cecil,'
+	R
+	'thật đấy. Cô ấy là một chiến'
+	R
+	'binh xuất sắc.'
+	\L_01fde:
+	ZH 1:
+	'Không cần phải nói, nhưng... Cô'
+	R
+	'ấy khá đắt tiền.'
+	\L_01fde:
+	ZH 1:
+	'Giá cơ bản là 1.000.000 VÀNG.'
+	\L_01fde:
+	ZH 1:
+	'Sau đó, cứ 5 quân sẽ có 10.000'
+	R
+	'VÀNG.'
+	\L_01fde:
+	ZH 1:
+	'Vậy thì, tôi tin rằng bạn đã'
+	R
+	'biết điều này, nhưng sau một'
+	R
+	'trận đấu,'
+	\L_01fde:
+	ZH 1:
+	'hợp đồng của họ sẽ hết hiệu lực.'
+	\L_01fde:
+	ZH 1:
+	'Khi thời điểm đó đến,'
+	\L_01fde:
+	ZH 1:
+	'dù có chết bao nhiêu người cũng'
+	R
+	'không liên quan gì đến bạn nên'
+	R
+	'đừng lo lắng về điều đó.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'［Đơn vị Cecil］ 1000'
+	R
+	'quân:　　3000kg 5000 quân:　11000kg'
+	R
+	'　（Ngân sách:'
+	H 0, VAR0519:
+	ZH 1:
+	'00kg)'
+*L_00acb:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_00acb:
+	}
+	ZH 1:
+	$L_00b16$
+	'Hợp đồng 3000K'
+	$
+	R
+	$L_00b5a$
+	'Hợp đồng 11000K'
+	$
+	R
+	$L_0031a$
+	'Không có hợp đồng'
+	$
+	]
+	@L_00acb:
+*L_00b16:
+	\L_01fd1:
+	{VAR0519 < 29:
+		@L_00368:
+	}
+	!VAR0519 : VAR0519 - 30!
+	!VAR0166 : VAR0166 + 30!
+	!VAR0154 : 50!
+	!VAR0102 : 1!
+	!VAR0074 : 1000!
+	!VAR0075 : 1000!
+	@L_00ba1:
+*L_00b5a:
+	\L_01fd1:
+	{VAR0519 < 109:
+		@L_00368:
+	}
+	!VAR0519 : VAR0519 - 110!
+	!VAR0166 : VAR0166 + 110!
+	!VAR0154 : 50!
+	!VAR0102 : 1!
+	!VAR0074 : 5000!
+	!VAR0075 : 5000!
+	@L_00ba1:
+*L_00ba1:
+	{VAR0711 = 1:
+		\L_01eb9:
+		ZH 1:
+		'Được rồi, Cecil.Cecil tốt.Cô ấy'
+		R
+		'xinh đẹp và gợi cảm.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f29:
+		ZH 1:
+		'Yahoo!Ngài đang nhìn nhầm rồi,'
+		R
+		'thưa Bệ hạ.'
+		\L_01fde:
+		ZH 1:
+		'Dù thế nào đi nữa, cô ấy cũng'
+		R
+		'khá khêu gợi.'
+		\L_01fde:
+		ZH 1:
+		'Được rồi.Cô Volu-...Xin'
+		R
+		'lỗi.Tuyệt vời.'
+		\L_01fde:
+		ZH 1:
+		'Bạn đã được thuê.Hối hả, hối'
+		R
+		'hả~.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f8b:
+		!VAR0516 : 89!
+		\L_01f7d:
+		\L_01f29:
+		ZH 1:
+		'............'
+		\L_01fde:
+		\L_01fd1:
+		\L_01eb9:
+		ZH 1:
+		'Này.Rất vui được gặp lại anh,'
+		R
+		'Cecil.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f29:
+		ZH 1:
+		'...Hừm.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f8b:
+		\L_01ef1:
+		ZH 1:
+		'Cecil rời khỏi ngai vàng mà'
+		R
+		'không nói gì.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01eb9:
+		ZH 1:
+		'Gahahahahahaha.Thật là vui, cô'
+		R
+		'ấy vẫn không thân thiện như mọi'
+		R
+		'khi.'
+		\L_01fde:
+		\L_01fd1:
+		!VAR0516 : VAR0001!
+		\L_01f7d:
+		\L_01f29:
+		ZH 1:
+		'Nyahohohohoho.Hãy tận hưởng cô'
+		R
+		'ấy, thưa bệ hạ.'
+		\L_01fde:
+		\L_01fd1:
+		@L_001dc:
+	}
+	!VAR0711 : 1!
+	\L_01f29:
+	ZH 1:
+	'Này!!Cảm ơn vì sự kinh doanh.'
+	\L_01fde:
+	ZH 1:
+	'Này, Cecil.Nhà vua đã thuê'
+	R
+	'bạn.Hãy đến nhanh lên!!'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f8b:
+	!VAR0516 : 89!
+	\L_01f7d:
+	\L_01f29:
+	ZH 1:
+	'Xin lỗi.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Ooh... Cô ấy thật xinh đẹp phải'
+	R
+	'không?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Bạn có ghét nữ chiến binh không?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Không, không, anh rất vui khi có'
+	R
+	'em.Bạn sẽ mang lại niềm vui cho'
+	R
+	'đôi mắt,'
+	\L_01fde:
+	ZH 1:
+	'đôi tay và siêu vũ khí của'
+	R
+	'tôi...'
+	\L_01fde:
+	ZH 1:
+	'Keeheeheehee.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'Rance cười gian xảo và đưa tay'
+	R
+	'về phía Cecil.'
+	\L_01fde:
+	ZH 1:
+	'＜xù xì!）'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Ồ?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'Cecil tránh bàn tay của Rance.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Tại sao bạn lại làm vậy?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Bạn không mua chuộc tôi như một'
+	R
+	'người phụ nữ.Bạn đã mua tôi như'
+	R
+	'một chiến binh.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Có lựa chọn nào để tôi làm điều'
+	R
+	'đó không?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Có những người bán mình vì mục'
+	R
+	'đích đó.Tôi chỉ bán mình như một'
+	R
+	'chiến binh.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Vậy... Điều đó có nghĩa là...'
+	\L_01fde:
+	ZH 1:
+	'Tôi có thể nhìn, nhưng không thể'
+	R
+	'chạm vào?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Nó phụ thuộc vào vẻ ngoài của'
+	R
+	'bạn.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Ch... khập khiễng...'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Tôi muốn bạn không mong đợi bất'
+	R
+	'cứ điều gì từ tôi với tư cách là'
+	R
+	'một người phụ nữ.Chỉ với tư cách'
+	\L_01fde:
+	ZH 1:
+	'là một chiến binh.'
+	\L_01fde:
+	ZH 1:
+	'Đó cũng là điều kiện tôi đưa ra'
+	R
+	'cho Pluepet để xử lý tôi như một'
+	R
+	'lính đánh thuê.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f8b:
+	!VAR0516 : VAR0001!
+	\L_01f7d:
+	\L_01f29:
+	ZH 1:
+	'Đúng, đúng vậy.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Grr... Lẽ ra phải nói sớm hơn,'
+	R
+	'Pluepet...'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f8b:
+	!VAR0516 : 89!
+	\L_01f7d:
+	\L_01f29:
+	ZH 1:
+	'Bây giờ, cho phép tôi về chỗ ở'
+	R
+	'của mình.Này, cô giúp việc đằng'
+	R
+	'kia.Dẫn đường.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f8b:
+	\L_01ef1:
+	ZH 1:
+	'Cecil rời bỏ ngai vàng.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f8b:
+	!VAR0516 : VAR0001!
+	\L_01f7d:
+	\L_01f29:
+	ZH 1:
+	'Cô ấy là một cô gái tuyệt vời'
+	R
+	'phải không?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Tuy nhiên, không thể đụ cô ấy'
+	R
+	'được...'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Không hòa đồng lắm nhưng cô ấy'
+	R
+	'khá giỏi.Tôi đảm bảo cô ấy sẽ có'
+	R
+	'ích cho ngài,'
+	\L_01fde:
+	ZH 1:
+	'King.Chắc chắn rồi.Vỗ tay vỗ'
+	R
+	'tay, huýt sáo.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Ờ...'
+	\L_01fde:
+	\L_01fd1:
+	@L_001dc:
+*L_010c2:
+	!VAR0002 : 1!
+	!VAR0520 : 1!
+	%#Gﾚﾍﾞｯｶ.ADV:
+	@L_001dc:
+*L_010d4:
+	\L_01eb9:
+	ZH 1:
+	'Này, bán cho tôi Rebecca đi.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Ủa, để làm gì?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Tôi muốn đưa Rebecca vào hậu'
+	R
+	'cung của mình.Vậy hãy bán cô ấy'
+	R
+	'cho tôi.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Không.'
+	\L_01fde:
+	ZH 1:
+	'Tôi sẽ để mọi người trả tiền để'
+	R
+	'sử dụng Rebecca làm fukuman,'
+	R
+	'nhưng tôi không thể bán Rebecca.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Tại sao tôi lại quan tâm đến'
+	R
+	'điều đó?Hãy bán cô ấy cho tôi'
+	R
+	'ngay.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Tôi xin lỗi, bạn sẽ phải tha thứ'
+	R
+	'cho tôi.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Tôi sẽ đưa cho bạn tất cả số'
+	R
+	'tiền bạn muốn.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Vấn đề không phải là tiền.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Đừng quan tâm.Tôi bảo bán cô ấy'
+	R
+	'cho tôi thì làm đi.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'Rance xuống khỏi ngai vàng để cố'
+	R
+	'gắng cướp Rebecca khỏi Pluepet.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'À, không.Không chạm vào.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Im đi.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Nếu bạn chạm vào cô ấy, một quả'
+	R
+	'bom sẽ nổ.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Cái gì?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Một quả bom được cài đặt trên'
+	R
+	'người Rebecca nhằm mục đích'
+	R
+	'chống trộm.Tôi có cò súng.'
+	\L_01fde:
+	ZH 1:
+	'Tôi không được làm ngài bị'
+	R
+	'thương, thưa Bệ hạ,'
+	\L_01fde:
+	ZH 1:
+	'vì vậy nếu ngài chạm vào Rebecca'
+	R
+	'mà không có sự cho phép của tôi,'
+	R
+	'thì kabooooom.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Ch...'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'Rance trở lại ngai vàng.Anh ấy'
+	R
+	'không hài lòng.'
+	\L_01fde:
+	\L_01fd1:
+	@L_001dc:
+*L_01316:
+	\L_01eb9:
+	ZH 1:
+	'Được rồi, tôi sẽ mua thứ gì đó.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Thaaanks cho doanh nghiệp. Bạn'
+	R
+	'muốn gì?'
+	\L_01fde:
+	\L_01fd1:
+*L_0134f:
+	\L_01ef1:
+	ZH 1:
+	'Ngân sách quốc gia'
+	R
+	H 0, VAR0519:
+	ZH 1:
+	'VÀNG 00K'
+*L_01373:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_01373:
+	}
+	!VAR0160 : 3!
+	{VAR0150 = 0:
+		ZH 1:
+		$L_01825$
+		'Nhân viên nổi tiếng'
+		$
+	}
+	!VAR0160 : 4!
+	{VAR0150 = 0:
+		ZH 1:
+		$L_01893$
+		'Những bài viết của Napoléon'
+		$
+	}
+	!VAR0160 : 5!
+	{VAR0150 = 0:
+		ZH 1:
+		$L_018ca$
+		'Bài viết của Shingen'
+		$
+	}
+	!VAR0160 : 44!
+	{(VAR0150 = 0) * (VAR0586 = 3):
+		ZH 1:
+		$L_01901$
+		'Ninja Chim Vôi'
+		$
+	}
+	!VAR0160 : 8!
+	{VAR0150 = 0:
+		ZH 1:
+		$L_0185c$
+		'Ninja thay thế'
+		$
+	}
+	!VAR0160 : 19!
+	!VAR0154 : 2!
+	{(VAR0102 \ 0) * (VAR0467 = 0) * (VAR0150 = 0):
+		ZH 1:
+		$L_01782$
+		'Quần áo'
+		$
+	}
+	!VAR0160 : 43!
+	!VAR0154 : 32!
+	{(VAR0102 \ 0) * (VAR0150 = 0):
+		ZH 1:
+		$L_017b1$
+		'chanh Hirami'
+		$
+	}
+	!VAR0160 : 28!
+	{(VAR0150 = 0) * (VAR0698 \ 0):
+		ZH 1:
+		$L_017e1$
+		'Thẻ sương mù'
+		$
+	}
+	ZH 1:
+	$L_014e7$
+	'Đừng mua'
+	$
+	]
+	@L_01373:
+*L_014e7:
+	\L_01fd1:
+	@L_001dc:
+*L_014f1:
+	{VAR0519 < VAR0003 - 1:
+		\L_01fde:
+		\L_01fd1:
+		\L_01eb9:
+		ZH 1:
+		'À... Không đủ tiền.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f29:
+		ZH 1:
+		'Tôi xin lỗi, nhưng điều đó có'
+		R
+		'nghĩa là tôi không thể bán thứ'
+		R
+		'này cho bạn.'
+		\L_01fde:
+		ZH 1:
+		'Hãy quay lại sau khi bạn đã bóc'
+		R
+		'lột nhiều người hơn để lấy tiền'
+		R
+		'của họ.'
+		\L_01fde:
+		\L_01fd1:
+		@L_0134f:
+	}
+*L_01567:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_01567:
+	}
+	ZH 1:
+	$L_015a5$
+	'Mua'
+	$
+	R
+	$L_016fc$
+	'Đừng mua'
+	$
+	]
+	@L_01567:
+*L_015a5:
+	!VAR0519 : VAR0519 - VAR0003!
+	!VAR0166 : VAR0166 + VAR0003!
+	!VAR0160 : VAR0004!
+	!VAR0150 : 100!
+	{VAR0160 = 19:
+		!VAR0467 : 1!
+	}
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Được rồi, đã mua.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Cảm ơn bạn rất nhiều.'
+	\L_01fde:
+	ZH 1:
+	'À, vỗ tay vỗ tay.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'Pluepet vỗ tay và một trong'
+	R
+	'những cấp dưới của anh ta bước'
+	R
+	'ra với một chiếc hộp gỗ.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Đây là thứ bạn đã mua. Bạn muốn'
+	R
+	'làm gì với nó?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Đặt nó vào phòng chứa kho báu'
+	R
+	'đằng kia.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Đã hiểu.'
+	\L_01fde:
+	ZH 1:
+	'Này các bạn, hãy làm theo lời'
+	R
+	'nhà vua nói.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'Cấp dưới của Pluepet tiến đến'
+	R
+	'phòng kho báu.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Bây giờ, bạn còn muốn gì nữa'
+	R
+	'không?'
+	\L_01fde:
+	\L_01fd1:
+	@L_0134f:
+*L_016fc:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Không mua.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Hả～～～...?'
+	\L_01fde:
+	ZH 1:
+	'Tôi hiểu rồi...'
+	\L_01fde:
+	ZH 1:
+	'Tôi hiểu rồi...'
+	\L_01fde:
+	ZH 1:
+	'Tuy nhiên, tôi đã phải vất vả'
+	R
+	'lắm mới có được món đồ tuyệt vời'
+	R
+	'này cho bạn....'
+	\L_01fde:
+	ZH 1:
+	'Nức nở...'
+	\L_01fde:
+	\L_01fd1:
+	@L_0134f:
+*L_01782:
+	!VAR0003 : 1!
+	!VAR0004 : 19!
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'［Quần áo］ 　Quần áo phù hợp với'
+	R
+	'Sill 　Giá:　 VÀNG 100K'
+	@L_014f1:
+*L_017b1:
+	!VAR0003 : 500!
+	!VAR0004 : 43!
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'［Chanh Hirami］ 　Một loại trái'
+	R
+	'cây huyền thoại 　Giá: VÀNG'
+	R
+	'50000K'
+	@L_014f1:
+*L_017e1:
+	!VAR0003 : VAR0698!
+	!VAR0004 : 28!
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'［Thẻ sương mù］ 　Bao phủ chiến'
+	R
+	'trường trong sương mù Giá:'
+	H 0, VAR0698:
+	ZH 1:
+	'VÀNG 00K'
+	@L_014f1:
+*L_01825:
+	!VAR0003 : 500!
+	!VAR0004 : 3!
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'［Nhân viên phổ biến］ 　Quân đội'
+	R
+	'của nhân vật được trang bị sẽ'
+	R
+	'tăng khi lên cấp 　　　Giá:'
+	\L_01fde:
+	ZH 1:
+	'VÀNG 50000K'
+	@L_014f1:
+*L_0185c:
+	!VAR0003 : 1000!
+	!VAR0004 : 8!
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'［Ninja thay thế］ 　Một con búp bê'
+	R
+	'sẽ bị bắt ở vị trí của ninja'
+	R
+	'　　Giá: VÀNG 100000K'
+	@L_014f1:
+*L_01893:
+	!VAR0003 : 800!
+	!VAR0004 : 4!
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'［Bài viết của Napoleon］ Tăng sức'
+	R
+	'tấn công của một đơn vị lên 1'
+	R
+	'　　Giá: 80000K VÀNG'
+	@L_014f1:
+*L_018ca:
+	!VAR0003 : 800!
+	!VAR0004 : 5!
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'［Bài viết của Shingen］ 　Tăng khả'
+	R
+	'năng phòng thủ của một đơn vị'
+	R
+	'lên 1 　　Giá: 80000K VÀNG'
+	@L_014f1:
+*L_01901:
+	!VAR0003 : 30!
+	!VAR0004 : 44!
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'［Ninja Birdlime］ 　Bắt giữ ninja'
+	R
+	'và gián điệp'
+	R
+	R
+	'Giá: VÀNG 3000K'
+	@L_014f1:
+*L_01931:
+	!VAR0468 : 1!
+	!VAR0516 : 1!
+	\L_01f0d:
+	\L_01ed5:
+	ZH 1:
+	'Được rồi, tôi có nên gọi cho'
+	R
+	'người bán không?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'Rance ra lệnh triệu tập một'
+	R
+	'thương gia.'
+	\L_01fde:
+	ZH 1:
+	'Sau một thời gian...'
+	\L_01fde:
+	\L_01fd1:
+	!VAR0516 : VAR0001!
+	\L_01f7d:
+	\L_01ef1:
+	ZH 1:
+	'Một cô gái dễ thương với một con'
+	R
+	'búp bê xuất hiện trước Rance.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Ồ.Cô gái này là thương gia của'
+	R
+	'hoàng gia?'
+	\L_01fde:
+	ZH 1:
+	'Có vẻ khá có năng lực, nhưng vẫn'
+	R
+	'là một đứa trẻ nếu cô ấy giữ con'
+	R
+	'búp bê đó bên mình.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Nhân tiện, búp bê, em đang ám'
+	R
+	'chỉ anh phải không?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'...Hả?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Tôi nói, người mà bạn đang nói'
+	R
+	'đến là búp bê phải không?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Bạn có phải là búp bê biết nói'
+	R
+	'không?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Khá là thiếu tôn trọng bạn.Tôi'
+	R
+	'không phải là một con búp bê.'
+	\L_01fde:
+	ZH 1:
+	'Tôi là Pluepet, thương gia của'
+	R
+	'hoàng gia.Tôi hi vọng chúng ta'
+	R
+	'sẽ hòa thuận với nhau,'
+	\L_01fde:
+	ZH 1:
+	'vị vua mới.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'Pluepet quay một vòng và cúi'
+	R
+	'đầu.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Cô gái bên cạnh là con gái của'
+	R
+	'bạn phải không?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'À, không, không.'
+	\L_01fde:
+	ZH 1:
+	'Đây là Rebecca.Cô ấy là hàng'
+	R
+	'hóa.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Hàng hóa?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Có.Cô ấy là một fukuman.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Fukuman?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Này.Hãy để tôi giải thích.'
+	\L_01fde:
+	ZH 1:
+	'Bất cứ ai quan hệ tình dục với'
+	R
+	'Rebecca sẽ được ban phước hạnh'
+	R
+	'phúc.'
+	\L_01fde:
+	ZH 1:
+	'Tất nhiên, bản thân tình dục'
+	R
+	'cũng tốt.Ngài sẽ có thể lên'
+	R
+	'thiên đường bằng nhiều cách,'
+	\L_01fde:
+	ZH 1:
+	'thưa Bệ hạ.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'Pluepet cười khúc khích với'
+	R
+	'chính mình.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'À,'
+	\L_01fde:
+	ZH 1:
+	'tôi có thể giảm giá cho bạn nếu'
+	R
+	'bạn muốn.Dù sao thì Nữ hoàng Lia'
+	R
+	'cũng là một khách hàng quý giá'
+	\L_01fde:
+	ZH 1:
+	'của tôi.'
+	\L_01fde:
+	ZH 1:
+	'Với tư cách là chồng của Nữ'
+	R
+	'hoàng Lia... tôi sẽ cung cấp cho'
+	R
+	'bạn sự phục vụ tốt nhất có thể.'
+	\L_01fde:
+	\L_01fd1:
+	!VAR0516 : 5!
+	\L_01f7d:
+	\L_01f29:
+	ZH 1:
+	'Vâng.'
+	\L_01fde:
+	ZH 1:
+	'Tôi đã mua rất nhiều thứ từ'
+	R
+	'Pluepet.'
+	\L_01fde:
+	ZH 1:
+	'Đắt một chút nhưng chất lượng'
+	R
+	'chắc chắn là như vậy.Em có muốn'
+	R
+	'mua gì không, em yêu?'
+	\L_01fde:
+	\L_01fd1:
+	!VAR0516 : VAR0001!
+	\L_01f7d:
+	@L_001dc:
+*L_01c97:
+	!VAR0468 : 4!
+	!VAR0516 : 1!
+	\L_01f0d:
+	\L_01ed5:
+	ZH 1:
+	'Tôi muốn mua sắm.'
+	\L_01fde:
+	ZH 1:
+	'Nhưng Pluepet đã chết...'
+	\L_01fde:
+	ZH 1:
+	'Được rồi, tôi nên chỉ định một'
+	R
+	'thương gia mới. Lần này tôi muốn'
+	R
+	'có một cô gái.'
+	\L_01fde:
+	ZH 1:
+	'Ai đó mà tôi có thể bắt nạt để'
+	R
+	'cho tôi đồ miễn phí,'
+	\L_01fde:
+	ZH 1:
+	'và tôi có thể đánh cắp cơ thể'
+	R
+	'của người đó...'
+	\L_01fde:
+	ZH 1:
+	'Ừ, ừ. Tốt, tốt. Heehee.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Gọi cho người bán.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'Một lúc sau lệnh của Rance...'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Thaaanks cho doanh nghiệp của'
+	R
+	'bạn.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ed5:
+	ZH 1:
+	'Giọng nói này...?'
+	\L_01fde:
+	\L_01fd1:
+	!VAR0516 : VAR0001!
+	\L_01f7d:
+	\L_01f29:
+	ZH 1:
+	'Ngài đã triệu tập tôi, thưa bệ'
+	R
+	'hạ?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'A-Một con ma!'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Tôi không phải ma. Nhìn này, tôi'
+	R
+	'có chân.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Hm... Tôi không biết liệu bạn có'
+	R
+	'thực sự có thể gọi đó là đôi'
+	R
+	'chân không, nhưng...'
+	\L_01fde:
+	ZH 1:
+	'Bạn có chúng.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Ồ, tôi đã có một khoảng thời'
+	R
+	'gian rất khó khăn kể từ khi bạn'
+	R
+	'gây chiến với Bồ Đào Nha.'
+	\L_01fde:
+	ZH 1:
+	'Nhà tôi bị cháy rụi và Rebecca'
+	R
+	'chạy đi đâu đó...'
+	\L_01fde:
+	ZH 1:
+	'Nhưng tôi có thể tổ chức lại'
+	R
+	'bằng cách sử dụng vận may tiềm'
+	R
+	'ẩn của mình.'
+	\L_01fde:
+	ZH 1:
+	'Hãy tiếp tục hòa hợp nhé, thưa'
+	R
+	'bệ hạ.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Vâng, nếu chúng ta phải làm'
+	R
+	'vậy. Giảm giá cho tôi.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Hô hô.'
+	\L_01fde:
+	\L_01fd1:
+	@L_001dc:
+*L_01eb9:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01ed5:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01ef1:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01f0d:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01f29:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01f61:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01f7d:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01f8b:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01fb5:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01fd1:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01fde:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

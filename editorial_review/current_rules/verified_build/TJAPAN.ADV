@@ -1,0 +1,3110 @@
+	!VAR0527 : 6!
+	ZH 1:
+	MS 10, "Quân đội JAPAN":
+	!VAR0529 : 3!
+	!VAR0528 : 0!
+	{(VAR0645 \ 0) * (VAR0645 \ 5):
+		\L_006a6:
+		!VAR0528 : 1!
+	}
+	Y 4, 2:
+	{(VAR0000 = 1) * (VAR0327 = 1) * (VAR0528 = 0):
+		!VAR0528 : 1!
+		!VAR0520 : 4!
+		%#Gｺｳﾋﾒ.ADV:
+	}
+	Y 4, 2:
+	{(VAR0000 = 1) * (VAR0327 = 0) * (VAR0528 = 0):
+		!VAR0528 : 1!
+		!VAR0520 : 3!
+		%#Gｺｳﾋﾒ.ADV:
+	}
+	Y 4, 4:
+	{VAR0000 = 1:
+		{VAR0528 = 0:
+			\L_0371e:
+		}
+		%0:
+	}
+	Y 4, 5:
+	{VAR0000 = 1:
+		!VAR0001 : 72!
+		!VAR0002 : 73!
+		!VAR0003 : 74!
+		!VAR0004 : 78!
+		!VAR0005 : 77!
+		!VAR0006 : 75!
+		!VAR0007 : 82!
+		!VAR0008 : 79!
+		!VAR0009 : 80!
+	}
+	{(VAR0000 = 2) + (VAR0000 = 3):
+		!VAR0001 : 75!
+		!VAR0002 : 76!
+		!VAR0003 : 77!
+		!VAR0004 : 78!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{(VAR0000 = 4) + (VAR0000 = 5):
+		!VAR0001 : 79!
+		!VAR0002 : 80!
+		!VAR0003 : 81!
+		!VAR0004 : 82!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	\L_004ad:
+	\L_00467:
+	{VAR0530 = 0:
+		%0:
+	}
+	{VAR0516 < 500:
+		%0:
+	}
+	!VAR0158 : 55!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	!VAR0158 : 28!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	!VAR0158 : 27!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	{VAR0130 = 3:
+		@L_0036e:
+	}
+	!VAR0158 : 25!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	!VAR0158 : 26!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	{VAR0130 = 3:
+		@L_0036e:
+	}
+	!VAR0158 : 24!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	{VAR0130 = 3:
+		@L_0036e:
+	}
+	!VAR0158 : 23!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	{VAR0130 = 3:
+		@L_0036e:
+	}
+	!VAR0158 : 6!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	!VAR0158 : 3!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	!VAR0158 : 2!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	!VAR0158 : 5!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	!VAR0158 : 4!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	!VAR0158 : 1!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+*L_0036e:
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 1!
+	%#M.ADV:
+	!VAR0043 : VAR0045!
+	!VAR0044 : VAR0046!
+	!VAR0516 : 10!
+	%#M.ADV:
+	MM 8, VAR0200 + VAR0158 - 1:
+	!VAR0516 : VAR0135!
+	\L_03894:
+	\L_037d0:
+	ZH 1:
+	'Cái'
+	X 10:
+	'xuất hiện xung quanh'
+	X 8:
+	'.'
+	\L_038bd:
+	ZH 1:
+	R
+	X 10:
+	R
+	'   ＶＳ'
+	R
+	X 8:
+	\L_038bd:
+	ZH 1:
+	R
+	'Trong trận chiến'
+	\L_038bd:
+	ZH 1:
+	X 8:
+	'đã bị chiếm đóng bởi'
+	R
+	X 10:
+	'.'
+	\L_038bd:
+	\L_038b0:
+	!VAR0130 : VAR0527!
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_00467:
+	!VAR0516 : 0!
+	!VAR0156 : VAR0530!
+	!VAR0516 : VAR0516 + VAR0106!
+	!VAR0156 : VAR0531!
+	!VAR0516 : VAR0516 + VAR0106!
+	!VAR0156 : VAR0532!
+	!VAR0516 : VAR0516 + VAR0106!
+	!VAR0156 : VAR0533!
+	!VAR0516 : VAR0516 + VAR0106!
+	\0:
+*L_004ad:
+	!VAR0530 : 0!
+	!VAR0531 : 0!
+	!VAR0532 : 0!
+	!VAR0533 : 0!
+	!VAR0156 : VAR0001!
+	{VAR0128 \ 0:
+		\L_0061f:
+	}
+	!VAR0156 : VAR0002!
+	{VAR0128 \ 0:
+		\L_0061f:
+	}
+	!VAR0156 : VAR0003!
+	{VAR0128 \ 0:
+		\L_0061f:
+	}
+	!VAR0156 : VAR0004!
+	{VAR0128 \ 0:
+		\L_0061f:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0005!
+	{VAR0128 \ 0:
+		\L_0061f:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0006!
+	{VAR0128 \ 0:
+		\L_0061f:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0007!
+	{VAR0128 \ 0:
+		\L_0061f:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0008!
+	{VAR0128 \ 0:
+		\L_0061f:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0009!
+	{VAR0128 \ 0:
+		\L_0061f:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	\0:
+*L_0061f:
+	{(VAR0106 < 190) * (VAR0530 \ 0):
+		\0:
+	}
+	{VAR0530 = 0:
+		!VAR0530 : VAR0156!
+		\0:
+	}
+	{VAR0531 = 0:
+		!VAR0531 : VAR0156!
+		\0:
+	}
+	{VAR0532 = 0:
+		!VAR0532 : VAR0156!
+		\0:
+	}
+	{VAR0533 = 0:
+		!VAR0533 : VAR0156!
+		\0:
+	}
+	\0:
+*L_006a6:
+	Y 4, 2:
+	!VAR0154 : 1!
+	{VAR0102 = 2:
+		Y 4, 3:
+	}
+	{VAR0000 = 2:
+		@L_02686:
+	}
+	!VAR0158 : 1!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 1!
+	%#M.ADV:
+	!VAR0043 : VAR0045!
+	!VAR0044 : VAR0046!
+	!VAR0516 : 10!
+	%#M.ADV:
+	!VAR0516 : 1001!
+	\L_03894:
+	\L_037d0:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Trước bức'
+	R
+	'tường lâu đài Bên cạnh bức'
+	R
+	'tường lâu đài khổng lồ,'
+	\L_038bd:
+	ZH 1:
+	'một cái bóng'
+	R
+	'đang lắng xuống.'
+	\L_038bd:
+	ZH 1:
+	'Nó dao động'
+	R
+	'một chút.Khoảnh khắc'
+	R
+	'tiếp theo, nó biến mất.'
+	\L_038bd:
+	ZH 1:
+	'Bức tường cao chót vót'
+	R
+	'vô dụng trước sinh vật này.'
+	\L_038bd:
+	ZH 1:
+	'Cái bóng tràn'
+	R
+	'vào lâu đài.Đó là ninja'
+	R
+	'của NHẬT BẢN, Gekkou.'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 421!
+	\L_037ec:
+	\L_03798:
+	ZH 1:
+	'Giờ thì...'
+	\L_038bd:
+	\L_038b0:
+	Y 4, 2:
+	{VAR0000 = 1:
+		@L_00a3f:
+	}
+	\L_037d0:
+	ZH 1:
+	'Gekkou tiến'
+	R
+	'qua lâu đài.Đôi chân'
+	R
+	'anh chợt khựng lại.'
+	\L_038bd:
+	\L_038b0:
+	Y 4, 3:
+	!VAR0690 : VAR0000!
+	\L_03798:
+	{VAR0690 = 1:
+		ZH 1:
+		'Có vẻ như đây'
+		R
+		'là nơi quản lý quỹ chiến'
+		R
+		'tranh của họ... Hoàn hảo.'
+		\L_038bd:
+		\L_038b0:
+		\L_037d0:
+		ZH 1:
+		'Gekkou đã vượt'
+		R
+		'qua vô số ổ khóa mà'
+		R
+		'không cần nỗ lực gì.'
+		\L_038bd:
+		\L_038b0:
+		\L_03798:
+		ZH 1:
+		'Để xem... tôi'
+		R
+		'sẽ lấy một nửa.'
+		\L_038bd:
+		\L_038b0:
+		\L_037fa:
+		\L_037d0:
+		ZH 1:
+		'Anh ta đã đánh cắp 50%'
+		R
+		'quỹ chiến tranh và một lần'
+		R
+		'nữa bỏ đi như một cái bóng.'
+		\L_038bd:
+		!VAR0519 : VAR0519 / 2!
+	}
+	{VAR0690 = 2:
+		ZH 1:
+		'Có vẻ như đây'
+		R
+		'là nơi quản lý quỹ chiến'
+		R
+		'tranh của họ... Hoàn hảo.'
+		\L_038bd:
+		\L_038b0:
+		\L_037d0:
+		ZH 1:
+		'Gekkou đã vượt'
+		R
+		'qua vô số ổ khóa mà'
+		R
+		'không cần nỗ lực gì.'
+		\L_038bd:
+		\L_038b0:
+		\L_03798:
+		ZH 1:
+		'Để xem nào... Chỉ'
+		R
+		'một phần tư là được rồi.'
+		\L_038bd:
+		\L_038b0:
+		\L_037fa:
+		\L_037d0:
+		ZH 1:
+		'Anh ta đã đánh cắp 25%'
+		R
+		'quỹ chiến tranh và một lần'
+		R
+		'nữa bỏ đi như một cái bóng.'
+		\L_038bd:
+		!VAR0519 : VAR0519 / 4 * 3!
+	}
+	{VAR0690 = 3:
+		ZH 1:
+		'Giờ thì... Có lẽ'
+		R
+		'quanh đây sẽ tốt.'
+		\L_038bd:
+		\L_038b0:
+		\L_037d0:
+		ZH 1:
+		'Gekkou đánh rơi chiếc'
+		R
+		'xô đang cầm xuống sàn.'
+		\L_038bd:
+		ZH 1:
+		'Đồ đạc trong đó'
+		R
+		'bị vứt ra hành lang.Một'
+		\L_038bd:
+		ZH 1:
+		'mùi nồng nặc ngay lập'
+		R
+		'tức tràn ngập khu vực.'
+		\L_038bd:
+		\L_038b0:
+		\L_03798:
+		ZH 1:
+		'Đây sẽ là'
+		R
+		'cơ hội tốt để gieo hạt'
+		R
+		'giống ở hành lang.Hahahah.'
+		\L_038bd:
+		\L_038b0:
+		\L_037fa:
+		\L_037d0:
+		ZH 1:
+		'Gekkou phủ phân lên các'
+		R
+		'sảnh của Lâu đài Leazas, rồi'
+		R
+		'lại bỏ đi như một cái bóng.'
+		\L_038bd:
+	}
+	\L_038b0:
+	\L_038a2:
+	\0:
+*L_00a3f:
+	\L_037fa:
+	Y 4, 6:
+	!VAR0154 : 6!
+	{(VAR0000 = 1) * (VAR0102 \ 0):
+		@L_00bb1:
+	}
+	!VAR0154 : 7!
+	{(VAR0000 = 2) * (VAR0102 \ 0):
+		@L_0101c:
+	}
+	!VAR0154 : 8!
+	{(VAR0000 = 3) * (VAR0102 \ 0):
+		@L_013d0:
+	}
+	!VAR0154 : 14!
+	{(VAR0000 = 4) * (VAR0102 \ 0):
+		@L_017b4:
+	}
+	!VAR0154 : 23!
+	{(VAR0000 = 5) * (VAR0102 \ 0):
+		@L_01c98:
+	}
+	!VAR0154 : 15!
+	{(VAR0000 = 6) * (VAR0102 \ 0):
+		@L_02053:
+	}
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Gekkou đang lang thang'
+	R
+	'trong hành lang, nhưng...'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 421!
+	\L_037ec:
+	\L_03798:
+	ZH 1:
+	'Tôi đã định giết ai'
+	R
+	'đó khi họ đang ngủ,'
+	\L_038bd:
+	ZH 1:
+	'nhưng có vẻ chẳng có'
+	R
+	'ai đáng để bận tâm cả.'
+	\L_038bd:
+	ZH 1:
+	'Nhàm chán.'
+	\L_038bd:
+	\L_038b0:
+	\L_037fa:
+	\L_037d0:
+	ZH 1:
+	'Có lẽ vì không'
+	R
+	'còn hứng thú nên Gekkou'
+	R
+	'rời khỏi lâu đài Leazas,'
+	\L_038bd:
+	ZH 1:
+	'ánh mắt lạnh lùng.'
+	\L_038bd:
+	\L_038b0:
+	\L_038a2:
+	\0:
+*L_00bb1:
+	\L_037d0:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Hành lang'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 402!
+	\L_037ec:
+	{VAR0102 = 2:
+		!VAR0102 : 0!
+		\L_03798:
+		ZH 1:
+		'Bạn ơi, bạn ơi... Hôm nay'
+		R
+		'bạn phải làm việc vất vả...'
+		\L_038bd:
+		ZH 1:
+		'Tuổi già sẽ'
+		R
+		'ảnh hưởng đến bạn.'
+		\L_038bd:
+		ZH 1:
+		'Nhưng dù vậy, tôi vẫn'
+		R
+		'chưa thể nghỉ hưu được.'
+		\L_038bd:
+		\L_038b0:
+		\L_03808:
+		ZH 1:
+		'Vậy nếu bây'
+		R
+		'giờ bạn chết, bạn có thể nói'
+		R
+		'rằng bạn đã phục vụ cả đời.'
+		\L_038bd:
+		\L_038b0:
+		\L_03798:
+		ZH 1:
+		'Đó là ai?'
+		\L_038bd:
+		\L_038b0:
+		!VAR0516 : 421!
+		\L_0385c:
+		\L_03840:
+		ZH 1:
+		'Gekkou xuất hiện'
+		R
+		'trước Barres mà không'
+		R
+		'gây ra tiếng động.'
+		\L_038bd:
+		\L_038b0:
+		\L_03798:
+		ZH 1:
+		'Bạn...'
+		\L_038bd:
+		\L_038b0:
+		\L_03840:
+		ZH 1:
+		'Gekkou lặng lẽ di'
+		R
+		'chuyển đến phía sau Barres.'
+		\L_038bd:
+		\L_038b0:
+		\L_03798:
+		ZH 1:
+		'Gh... Hả?'
+		\L_038bd:
+		\L_038b0:
+		\L_037d0:
+		ZH 1:
+		'Barres rên rỉ'
+		R
+		'và một dòng máu phun'
+		R
+		'ra từ cổ họng anh ta.'
+		\L_038bd:
+		ZH 1:
+		'Tuy nhiên,'
+		R
+		'không một giọt máu nào dính'
+		R
+		'vào thanh kiếm của Gekkou.'
+		\L_038bd:
+		\L_038b0:
+		\L_037b4:
+		ZH 1:
+		'T-tôi xin'
+		R
+		'lỗi... Vua Rance...!!'
+		\L_038bd:
+		\L_038b0:
+		\L_037fa:
+		\L_037d0:
+		ZH 1:
+		'Cơ thể già nua'
+		R
+		'của Barres rơi xuống đất.'
+		\L_038bd:
+		\L_038b0:
+		\L_03808:
+		ZH 1:
+		'Hehe...'
+		\L_038bd:
+		\L_038b0:
+		\L_037fa:
+		\L_037d0:
+		ZH 1:
+		'Gekkou biến mất.'
+		\L_038bd:
+		ZH 1:
+		R
+		'.........'
+		\L_038bd:
+		ZH 1:
+		R
+		'......'
+		\L_038bd:
+		ZH 1:
+		R
+		'...'
+		\L_038bd:
+		ZH 1:
+		'Thi thể lạnh'
+		R
+		'cóng của Barres được tìm'
+		R
+		'thấy vào ngày hôm sau.'
+		\L_038bd:
+		\L_038b0:
+		\0:
+	}
+	\L_03798:
+	ZH 1:
+	'Cho đến khi...'
+	\L_038bd:
+	ZH 1:
+	'Tại sao Vua'
+	R
+	'Rance không cho tôi chiến'
+	R
+	'đấu...?Tôi có thể già,'
+	\L_038bd:
+	ZH 1:
+	'nhưng tôi vẫn'
+	R
+	'còn trong quân đội...'
+	\L_038bd:
+	ZH 1:
+	'Tôi có thể'
+	R
+	'chiến đấu, nhưng...'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 421!
+	\L_0385c:
+	\L_03798:
+	ZH 1:
+	'Bạn-Bạn là ai...?'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Barres rút kiếm'
+	R
+	'nhanh hơn khi nói xong.'
+	\L_038bd:
+	\L_038b0:
+	\L_03808:
+	ZH 1:
+	'Suỵt!'
+	\L_038bd:
+	\L_038b0:
+	\L_03840:
+	ZH 1:
+	'Gekkou nhảy vào Barres.'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'） claaaaaang）'
+	\L_038bd:
+	ZH 1:
+	'Hai thanh kiếm'
+	R
+	'chạm vào nhau.'
+	\L_038bd:
+	\L_038b0:
+	\L_03824:
+	ZH 1:
+	'Tôi đã thất bại...'
+	R
+	'Bạn gặp chút may mắn.'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Barres chặn đòn'
+	R
+	'tấn công của Gekkou.Gekkou'
+	\L_038bd:
+	ZH 1:
+	'cố gắng sử'
+	R
+	'dụng sức mạnh từ cuộc đụng'
+	R
+	'độ để tiến về phía cửa sổ.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Chạy trốn?!!'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Barres đi theo'
+	R
+	'anh ta. cra craaaaash）'
+	\L_038bd:
+	ZH 1:
+	'Gekkou đập vỡ cửa sổ'
+	R
+	'và trốn thoát khỏi lâu đài.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Chết tiệt...'
+	\L_038bd:
+	ZH 1:
+	'Tôi sẽ không bao giờ'
+	R
+	'sống sót với sai lầm này!Làm'
+	\L_038bd:
+	ZH 1:
+	'sao tôi có thể để'
+	R
+	'một tên tội phạm trốn thoát?'
+	\L_038bd:
+	\L_038b0:
+	\0:
+*L_0101c:
+	\L_037d0:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng của Rick'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 403!
+	\L_037ec:
+	\L_03798:
+	ZH 1:
+	'Bây giờ... Nhiệm vụ'
+	R
+	'của tôi đã hoàn thành...'
+	\L_038bd:
+	ZH 1:
+	'Tôi đã chiến đấu, nhưng'
+	R
+	'lại sống sót một lần nữa...'
+	R
+	'Có lẽ tôi nên nghỉ ngơi...'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 421!
+	\L_0385c:
+	\L_03808:
+	ZH 1:
+	'Rick Addison, phải không?'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Bộ trang phục đó...'
+	R
+	'Bạn đến từ NHẬT BẢN à!?'
+	\L_038bd:
+	\L_038b0:
+	\L_03808:
+	ZH 1:
+	'............'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Gekkou ném vài'
+	R
+	'chiếc shuriken trước khi'
+	R
+	'Rick có cơ hội đáp trả.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Chết tiệt...!'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Rick rút kiếm và'
+	R
+	'nhanh chóng chém gục chúng.'
+	\L_038bd:
+	\L_038b0:
+	{VAR0102 = 2:
+		!VAR0102 : 0!
+		\L_03798:
+		ZH 1:
+		'Ờ...?'
+		\L_038bd:
+		\L_038b0:
+		\L_037d0:
+		ZH 1:
+		'Nhưng do vết thương'
+		R
+		'mà anh ấy phải chịu trong'
+		R
+		'trận chiến ngày hôm nay,'
+		\L_038bd:
+		ZH 1:
+		'anh ấy đã trượt một'
+		R
+		'chiếc shuriken và nó trúng'
+		R
+		'vào đầu gối của anh ấy.'
+		\L_038bd:
+		\L_038b0:
+		\L_03808:
+		ZH 1:
+		'...Heh... Số phận'
+		R
+		'của bạn đã được định'
+		R
+		'đoạt... Red Reaper...'
+		\L_038bd:
+		\L_038b0:
+		\L_0386a:
+		\L_03798:
+		ZH 1:
+		'Cái gì...?'
+		\L_038bd:
+		ZH 1:
+		'Ờ...!!'
+		\L_038bd:
+		\L_038b0:
+		\L_037d0:
+		ZH 1:
+		'Rick ngã xuống đất.'
+		\L_038bd:
+		\L_038b0:
+		\L_03798:
+		ZH 1:
+		'Chất độc...'
+		\L_038bd:
+		ZH 1:
+		'...Ờ...'
+		\L_038bd:
+		ZH 1:
+		'Kh... Chết'
+		R
+		'tiệt... Tôi không'
+		R
+		'thể... chết... ở đây...'
+		\L_038bd:
+		\L_038b0:
+		\L_037fa:
+		\L_037d0:
+		ZH 1:
+		R
+		'.........'
+		\L_038bd:
+		ZH 1:
+		R
+		'......'
+		\L_038bd:
+		ZH 1:
+		R
+		'...'
+		\L_038bd:
+		ZH 1:
+		'Ngày hôm sau...'
+		\L_038bd:
+		ZH 1:
+		'Rick Addison, kiếm sĩ'
+		R
+		'thiên tài được mệnh danh'
+		R
+		'là Thần chết của Leazas,'
+		\L_038bd:
+		ZH 1:
+		'được tìm thấy đã'
+		R
+		'chết trong phòng của mình.'
+		\L_038bd:
+		\L_038b0:
+		\0:
+	}
+	\L_03808:
+	ZH 1:
+	'Ơ...'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Tất cả những'
+	R
+	'chiếc shuriken mà Gekkou ném'
+	R
+	'đều bị đánh rơi xuống đất.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Haaa…!'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Rick ngay lập'
+	R
+	'tức lao vào Gekkou.'
+	\L_038bd:
+	\L_038b0:
+	\L_0386a:
+	\L_03798:
+	ZH 1:
+	'!!Anh ấy biến mất!?'
+	\L_038bd:
+	ZH 1:
+	'Bạn đang ở đâu?!!Hãy'
+	R
+	'thể hiện mình đi, đồ hèn!!'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Gekkou ám'
+	R
+	'sát thất bại nhưng đã'
+	R
+	'trốn thoát thành công.'
+	\L_038bd:
+	\L_038b0:
+	\0:
+*L_013d0:
+	\L_037d0:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng của Cordoba'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 404!
+	\L_037ec:
+	\L_03798:
+	ZH 1:
+	'Để xem nên viết gì đây...?'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Tuần này Cordoba'
+	R
+	'trực đêm nên không thể về'
+	R
+	'nhà nên viết thư cho vợ.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Fururu yêu quý của'
+	R
+	'tôi.Bạn có khỏe không?tôi...'
+	\L_038bd:
+	ZH 1:
+	'............'
+	\L_038bd:
+	ZH 1:
+	'Ai ở đó?'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Cordoba thay cây bút bằng'
+	R
+	'một chiếc rìu và đứng lên.'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 421!
+	\L_0385c:
+	\L_03808:
+	ZH 1:
+	'Bạn có phải'
+	R
+	'là Cordoba Burn không?'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Hừm, ninja à...?Cậu'
+	R
+	'thật ngu ngốc khi đến'
+	R
+	'đây để ám sát tôi!!'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Cordoba vung rìu.'
+	\L_038bd:
+	ZH 1:
+	'Thanh katana của Gekkou'
+	R
+	'tiếp cận Cordoba cùng lúc.'
+	\L_038bd:
+	{VAR0102 = 2:
+		!VAR0102 : 0!
+		ZH 1:
+		'（rắc...）'
+		\L_038bd:
+		ZH 1:
+		'Chiếc rìu đã bị hư hại'
+		R
+		'trong trận chiến ngày hôm đó'
+		\L_038bd:
+		ZH 1:
+		'và bị gãy khi bị thanh'
+		R
+		'kiếm của Gekkou đâm trúng.'
+		\L_038bd:
+		\L_038b0:
+		\L_03798:
+		ZH 1:
+		'Cái gì...?!!'
+		\L_038bd:
+		ZH 1:
+		'Ôi!!'
+		\L_038bd:
+		\L_038b0:
+		\L_037d0:
+		ZH 1:
+		'Với một sơ hở, Gekkou đã'
+		R
+		'xé toạc cổ họng của Cordoba.'
+		\L_038bd:
+		\L_038b0:
+		\L_03798:
+		ZH 1:
+		'Guhbah...'
+		\L_038bd:
+		\L_038b0:
+		\L_037fa:
+		\L_03808:
+		ZH 1:
+		'Heh... Lâu quá.'
+		\L_038bd:
+		\L_038b0:
+		\L_0386a:
+		\L_037d0:
+		ZH 1:
+		'Cordoba thường'
+		R
+		'sửa chữa chiếc rìu của'
+		R
+		'mình sau một trận chiến,'
+		\L_038bd:
+		ZH 1:
+		'nhưng thay vào đó'
+		R
+		'hôm nay anh ấy đang'
+		R
+		'viết một lá thư...'
+		\L_038bd:
+		ZH 1:
+		'Bức thư đầy máu trở'
+		R
+		'thành thông điệp cuối cùng'
+		R
+		'của ông gửi đến thế giới.'
+		\L_038bd:
+		\L_038b0:
+		\0:
+	}
+	ZH 1:
+	'hk claaaang!!）'
+	\L_038bd:
+	ZH 1:
+	'Chiếc rìu rắn chặn lưỡi'
+	R
+	'kiếm sắc bén của Gekkou.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Wahahahahahaha!Đừng nghĩ'
+	R
+	'rằng bạn có thể lấy đầu tôi'
+	\L_038bd:
+	ZH 1:
+	'bằng một đòn'
+	R
+	'tấn công như vậy.'
+	\L_038bd:
+	\L_038b0:
+	\L_03808:
+	ZH 1:
+	'............'
+	\L_038bd:
+	\L_038b0:
+	\L_0386a:
+	\L_037d0:
+	ZH 1:
+	'Thất bại trong nhiệm'
+	R
+	'vụ của mình, Gekkou biến'
+	R
+	'mất không một tiếng động.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Ah, cậu biến đi đâu'
+	R
+	'rồi?!!Chết tiệt!!Đồ ngốc!!'
+	\L_038bd:
+	ZH 1:
+	'Anh bạn...'
+	\L_038bd:
+	ZH 1:
+	'...Tuy nhiên,'
+	R
+	'cũng gần rồi...'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Anh ấy quay lại viết thư.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Bây giờ chúng ta đang'
+	R
+	'ở giữa cuộc chiến.Không biết'
+	\L_038bd:
+	ZH 1:
+	'liệu lá thư này'
+	R
+	'có thể trở thành lời cuối'
+	R
+	'cùng của tôi hay không...'
+	\L_038bd:
+	ZH 1:
+	'Fururu...'
+	\L_038bd:
+	\L_038b0:
+	\0:
+*L_017b4:
+	\L_037d0:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Hành lang'
+	\L_038bd:
+	{VAR0102 = 2:
+		!VAR0102 : 0!
+		ZH 1:
+		'Ex đang đi qua'
+		R
+		'hành lang tối tăm,'
+		\L_038bd:
+		ZH 1:
+		'vắng người.Anh ấy'
+		R
+		'đã dành một chút thời'
+		\L_038bd:
+		ZH 1:
+		'gian để giải quyết các'
+		R
+		'thủ tục sau trận chiến.'
+		\L_038bd:
+		\L_038b0:
+		!VAR0516 : 405!
+		\L_037ec:
+		\L_03798:
+		ZH 1:
+		'Haah... Cố gắng sống'
+		R
+		'sót thêm một ngày nữa...'
+		\L_038bd:
+		ZH 1:
+		'Nhờ sự làm việc'
+		R
+		'chăm chỉ của mọi người...'
+		\L_038bd:
+		\L_038b0:
+		!VAR0516 : 421!
+		\L_0385c:
+		\L_03798:
+		ZH 1:
+		'À...'
+		\L_038bd:
+		\L_038b0:
+		\L_037d0:
+		ZH 1:
+		'Ex rất ngạc'
+		R
+		'nhiên và dừng bước.'
+		\L_038bd:
+		ZH 1:
+		'Và sau đó...'
+		\L_038bd:
+		ZH 1:
+		'） gsh）'
+		\L_038bd:
+		\L_038b0:
+		\L_03798:
+		ZH 1:
+		'Kh...!!'
+		\L_038bd:
+		\L_038b0:
+		\L_037b4:
+		ZH 1:
+		'Tôi không nghĩ mình'
+		R
+		'có thể trốn thoát, nhưng...'
+		\L_038bd:
+		ZH 1:
+		'tôi muốn làm nhiều'
+		R
+		'hơn nữa cho Leazas...'
+		\L_038bd:
+		ZH 1:
+		'Vì nhà vua...'
+		\L_038bd:
+		\L_038b0:
+		\L_037fa:
+		\L_037d0:
+		ZH 1:
+		'Ex không kịp phản'
+		R
+		'kháng thì bị Gekkou cứa cổ.'
+		\L_038bd:
+		\L_038b0:
+		\L_0386a:
+		\L_037d0:
+		ZH 1:
+		'Khi Gekkou'
+		R
+		'xác nhận rằng Ex đã chết,'
+		R
+		'anh ta chìm vào bóng tối.'
+		\L_038bd:
+		\L_038b0:
+		\0:
+	}
+	ZH 1:
+	'Ex đang đi bộ qua hội'
+	R
+	'trường với một trong những'
+	R
+	'sĩ quan tham mưu của anh ta.'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 405!
+	\L_037ec:
+	!VAR0516 : 479!
+	\L_0385c:
+	\L_03808:
+	ZH 1:
+	'Ngài Ex,'
+	\L_038bd:
+	ZH 1:
+	'xin hãy đặt tôi'
+	R
+	'ở bên cạnh ngài'
+	\L_038bd:
+	ZH 1:
+	'trong trận chiến tiếp'
+	R
+	'theo.Tôi muốn xem sự chỉ'
+	R
+	'huy của Thần Chiến lược.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Chắc chắn bạn'
+	R
+	'rất thích học tập...'
+	\L_038bd:
+	ZH 1:
+	'Được rồi.Hãy làm việc'
+	R
+	'chăm chỉ để trở thành'
+	\L_038bd:
+	ZH 1:
+	'một vị tướng giỏi hơn'
+	R
+	'tôi và làm việc cho Leazas.'
+	\L_038bd:
+	\L_038b0:
+	\L_03808:
+	ZH 1:
+	'Ồ, tôi vẫn chưa tới đó...'
+	\L_038bd:
+	\L_038b0:
+	\L_0386a:
+	!VAR0516 : 421!
+	\L_0385c:
+	\L_03808:
+	ZH 1:
+	'Tướng quân khôn'
+	R
+	'ngoan Ex.Chết đi.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Hả...?'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Gekkou xuất hiện trước'
+	R
+	'mặt họ mà không gây ra'
+	\L_038bd:
+	ZH 1:
+	'tiếng động nào và chém'
+	R
+	'bằng thanh kiếm của mình.'
+	\L_038bd:
+	\L_038b0:
+	\L_037b4:
+	ZH 1:
+	'Ồ...'
+	\L_038bd:
+	\L_038b0:
+	\L_0386a:
+	!VAR0516 : 479!
+	\L_0385c:
+	\L_03808:
+	ZH 1:
+	'Tướng Ex, coi chừng!'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'） gsh）'
+	\L_038bd:
+	\L_038b0:
+	\L_03808:
+	ZH 1:
+	'À...'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Bạn!!'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Người lính trẻ bị'
+	R
+	'đâm khi bảo vệ Ex.'
+	\L_038bd:
+	\L_038b0:
+	\L_0386a:
+	!VAR0516 : 421!
+	\L_0385c:
+	\L_03808:
+	ZH 1:
+	'Ch...'
+	\L_038bd:
+	\L_038b0:
+	\L_0386a:
+	\L_03840:
+	ZH 1:
+	'Gekkou tặc lưỡi và'
+	R
+	'ngay lập tức biến mất.'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 479!
+	\L_0385c:
+	\L_03808:
+	ZH 1:
+	'Thưa ngài... Ví dụ...'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Cố lên!!Đồ'
+	R
+	'ngốc... Tại sao...?'
+	\L_038bd:
+	\L_038b0:
+	\L_03808:
+	ZH 1:
+	'...Tôi đã làm...'
+	R
+	'phần của tôi... Ah...'
+	\L_038bd:
+	\L_038b0:
+	\L_0386a:
+	\L_03798:
+	ZH 1:
+	'...À à...'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Chàng trai chết'
+	R
+	'để bảo vệ Ex...'
+	\L_038bd:
+	\L_038b0:
+	\0:
+*L_01c98:
+	\L_037d0:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng của Eleanor Ran'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 66!
+	\L_037ec:
+	{VAR0102 = 2:
+		!VAR0102 : 0!
+		\L_03798:
+		ZH 1:
+		'Haah... Dù tôi mặc'
+		R
+		'quần áo gì khi đánh nhau thì'
+		R
+		'cuối cùng cũng đổ mồ hôi...'
+		\L_038bd:
+		\L_038b0:
+		\L_037d0:
+		ZH 1:
+		'Cô ấy có'
+		R
+		'thể yêu cầu cấp dưới'
+		R
+		'giặt quần áo cho mình,'
+		\L_038bd:
+		ZH 1:
+		'nhưng lại thích tự mình'
+		R
+		'làm mọi việc để đảm bảo mọi'
+		R
+		'việc diễn ra theo ý cô ấy.'
+		\L_038bd:
+		ZH 1:
+		'Cô ấy nhặt'
+		R
+		'chiếc quần lót màu'
+		R
+		'trắng của mình lên...'
+		\L_038bd:
+		\L_038b0:
+		\L_03798:
+		ZH 1:
+		'Hmm, có lẽ'
+		R
+		'lần sau tôi nên thử mua một'
+		R
+		'màu khác ngoài màu trắng...'
+		\L_038bd:
+		ZH 1:
+		'Mà màu gì nhỉ...?'
+		\L_038bd:
+		\L_038b0:
+		\L_03808:
+		ZH 1:
+		'Màu đỏ rất đẹp.'
+		\L_038bd:
+		\L_038b0:
+		\L_03798:
+		ZH 1:
+		'Hả...?'
+		\L_038bd:
+		\L_038b0:
+		!VAR0516 : 421!
+		\L_0385c:
+		\L_037d0:
+		ZH 1:
+		'） gsh）'
+		\L_038bd:
+		\L_038b0:
+		\L_037fa:
+		\L_0386a:
+		\L_037d0:
+		ZH 1:
+		'Chiếc quần lót cô ấy'
+		R
+		'đang cầm ướt đẫm máu...'
+		\L_038bd:
+		\L_038b0:
+		\0:
+	}
+	\L_03798:
+	ZH 1:
+	'Cho đến khi...'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Ran thở dài.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Đơn vị của tôi'
+	R
+	'lại phải canh giữ lâu đài...'
+	R
+	'Rance không tin tôi sao...?'
+	\L_038bd:
+	ZH 1:
+	'Sẽ thật tốt nếu'
+	R
+	'tôi không thể chiến đấu,'
+	\L_038bd:
+	ZH 1:
+	'nhưng sau đó công việc đó'
+	R
+	'sẽ được đẩy sang người khác.'
+	\L_038bd:
+	ZH 1:
+	'Tôi phải mạnh mẽ lên...'
+	R
+	'Có phải tôi yếu đuối vì'
+	R
+	'chưa luyện tập đủ không...?'
+	\L_038bd:
+	ZH 1:
+	'............'
+	\L_038bd:
+	ZH 1:
+	'Được rồi!'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Ran đứng dậy và nhặt'
+	R
+	'thanh kiếm của mình lên.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Vâng!'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Cô rút kiếm ra'
+	R
+	'và cố gắng chém nhanh.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'...Hả?'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Cô chém vào thứ tưởng'
+	R
+	'chừng như không có gì nhưng'
+	R
+	'lại sượt qua thứ gì đó.'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 421!
+	\L_0385c:
+	\L_03798:
+	ZH 1:
+	'...Ờ...'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Tay áo của'
+	R
+	'ninja đột nhiên xuất hiện'
+	R
+	'trước mắt Ran bị xé toạc.'
+	\L_038bd:
+	\L_038b0:
+	\L_0386a:
+	\L_03798:
+	ZH 1:
+	'Kyah...'
+	\L_038bd:
+	ZH 1:
+	'Kyaaaaaah...'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Ran phát ra'
+	R
+	'một tiếng rên không hẳn là'
+	R
+	'hét và yếu ớt ngã xuống sàn.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'T-tôi không để'
+	R
+	'ý... Một n-n- ninja...'
+	\L_038bd:
+	ZH 1:
+	'Tôi có thể đã bị giết...'
+	\L_038bd:
+	\L_038b0:
+	\0:
+*L_02053:
+	{VAR0102 = 2:
+		!VAR0102 : 0!
+		\L_037d0:
+		ZM 32:
+		ZH 1:
+		'Lâu đài Leazas'
+		R
+		ZM 24:
+		ZH 1:
+		R
+		'Phòng của Shinoda'
+		\L_038bd:
+		\L_038b0:
+		!VAR0516 : 413!
+		\L_037ec:
+		!VAR0516 : 12!
+		\L_0385c:
+		\L_03798:
+		ZH 1:
+		'Đ-Đ-Cái này là cho tôi à?'
+		\L_038bd:
+		\L_038b0:
+		\L_03808:
+		ZH 1:
+		'Vâng... Ừm...'
+		R
+		'Bạn không thích à?'
+		\L_038bd:
+		\L_038b0:
+		\L_03798:
+		ZH 1:
+		'Không!Tất nhiên là tôi'
+		R
+		'thích nó!!Đây là một vở kịch'
+		R
+		'hay trong trái tim tôi!!'
+		\L_038bd:
+		\L_038b0:
+		\L_037d0:
+		ZH 1:
+		'Shinoda nhận'
+		R
+		'được một chiếc áo len'
+		R
+		'đan tay từ Sayori như'
+		\L_038bd:
+		ZH 1:
+		'một món quà khi anh'
+		R
+		'trở về nhà sau trận chiến.'
+		\L_038bd:
+		\L_038b0:
+		\L_03798:
+		ZH 1:
+		'Aah... Tôi'
+		R
+		'thích điều này.Tôi mừng'
+		R
+		'vì chúng tôi đã kết hôn...'
+		\L_038bd:
+		\L_038b0:
+		\L_03808:
+		ZH 1:
+		'............'
+		\L_038bd:
+		\L_038b0:
+		\L_03798:
+		ZH 1:
+		'U-Ừm... Tôi có thể'
+		R
+		'thử nó được không?'
+		\L_038bd:
+		\L_038b0:
+		\L_03808:
+		ZH 1:
+		'À... Ừ, cứ tiếp tục đi.'
+		\L_038bd:
+		\L_038b0:
+		\L_037d0:
+		ZH 1:
+		'Shinoda hào hứng'
+		R
+		'khoác chiếc áo len vào.'
+		\L_038bd:
+		\L_038b0:
+		\L_03798:
+		ZH 1:
+		'H-H-H-Trông thế'
+		R
+		'nào?Tôi thích...'
+		\L_038bd:
+		ZH 1:
+		'...nó...'
+		\L_038bd:
+		\L_038b0:
+		\L_03808:
+		ZH 1:
+		'...Gengorou...?'
+		\L_038bd:
+		\L_038b0:
+		\L_03798:
+		ZH 1:
+		'Ờ...'
+		\L_038bd:
+		\L_038b0:
+		\L_037d0:
+		ZH 1:
+		'Shinoda nôn ra'
+		R
+		'một lượng lớn máu.'
+		\L_038bd:
+		\L_038b0:
+		\L_03808:
+		ZH 1:
+		'Kyah… Kyahah!!'
+		\L_038bd:
+		\L_038b0:
+		\L_037fa:
+		!VAR0516 : 421!
+		\L_037ec:
+		\L_037d0:
+		ZH 1:
+		'Khi Shinoda chạm đất,'
+		\L_038bd:
+		ZH 1:
+		'ninja mặc đồ đen phía'
+		R
+		'sau anh ta mỉm cười lạnh'
+		R
+		'lùng và tra kiếm vào vỏ.'
+		\L_038bd:
+		\L_038b0:
+		\L_037fa:
+		\L_037d0:
+		ZH 1:
+		'Sau đó anh ta biến mất.'
+		\L_038bd:
+		ZH 1:
+		'Ai đó trong hội'
+		R
+		'trường nghe thấy tiếng hét'
+		R
+		'của Sayori và chạy tới...'
+		\L_038bd:
+		ZH 1:
+		'Nhưng Shinoda đã không'
+		R
+		'thể giúp được nữa rồi...'
+		\L_038bd:
+		\L_038b0:
+		\0:
+	}
+	\L_037d0:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng giải trí'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 413!
+	\L_037ec:
+	\L_03798:
+	ZH 1:
+	'Ồ ồ~～.'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Có một tầm nhìn'
+	R
+	'ma thuật khổng lồ rộng'
+	\L_038bd:
+	ZH 1:
+	'50 inch.Một người đàn'
+	R
+	'ông duy nhất đang xem nó.'
+	\L_038bd:
+	ZH 1:
+	'Đó là Shinoda.Một'
+	R
+	'trận bóng đá đêm'
+	R
+	'khuya đang diễn ra.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Thế đấy...!Gooooo,'
+	R
+	'chạm xuống!!'
+	\L_038bd:
+	ZH 1:
+	'Aaaah...!!Điều đó'
+	R
+	'thật bực bội...'
+	\L_038bd:
+	ZH 1:
+	'Ồ... ồ...'
+	\L_038bd:
+	ZH 1:
+	'Ôi trời!!'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Shinoda hoàn'
+	R
+	'toàn say mê cổ vũ.'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 421!
+	\L_0385c:
+	\L_03840:
+	ZH 1:
+	'Gekkou cúi'
+	R
+	'xuống phía sau Shinoda mà'
+	R
+	'không gây ra tiếng động nào.'
+	\L_038bd:
+	ZH 1:
+	'Anh ta từ từ tiếp'
+	R
+	'cận để ám sát Shinoda...'
+	\L_038bd:
+	ZH 1:
+	'（đập!!）'
+	\L_038bd:
+	\L_038b0:
+	\L_0386a:
+	!VAR0516 : 5!
+	\L_0385c:
+	\L_03808:
+	ZH 1:
+	'Im đi, nửa đêm rồi!!'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Lia bất ngờ bước vào.'
+	R
+	'Gekkou cuống cuồng trốn.'
+	\L_038bd:
+	\L_038b0:
+	\L_03808:
+	ZH 1:
+	'Bình tĩnh nào, tôi'
+	R
+	'không thể nghe thấy bạn'
+	R
+	'từ căn phòng này được!'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Ah... Xin'
+	R
+	'hãy đợi một chút... Mọi'
+	R
+	'chuyện đang tốt dần lên...'
+	\L_038bd:
+	ZH 1:
+	'Ồ!!Đó, gooooo!!'
+	\L_038bd:
+	\L_038b0:
+	\L_03808:
+	ZH 1:
+	'Tôi không đợi đâu!!Phụ'
+	R
+	'nữ cần phải được ngủ!!'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Trong trường'
+	R
+	'hợp đó, tại sao không ngủ'
+	R
+	'trưa?Ồ... Ồ... Ồ～～～...!'
+	\L_038bd:
+	\L_038b0:
+	\L_03808:
+	ZH 1:
+	'Aaaaa!!Đồ khốn phiền'
+	R
+	'phức!Tôi là nữ hoàng!!'
+	\L_038bd:
+	ZH 1:
+	'Harumaki!!Hãy làm gì'
+	R
+	'đó với kẻ lập dị này đi!!'
+	\L_038bd:
+	ZH 1:
+	'（Harumaki） Raaaawr.'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'（rắc rắc!!）'
+	\L_038bd:
+	ZH 1:
+	'（bùm!!）'
+	\L_038bd:
+	ZH 1:
+	'Harumaki bắn'
+	R
+	'tia sét và đốt cháy tầm'
+	R
+	'nhìn ma thuật 50 inch.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Aaaaaaa!!Trận đấu... Tôi'
+	R
+	'không thể xem trận đấu...'
+	\L_038bd:
+	\L_038b0:
+	\L_03808:
+	ZH 1:
+	'Aaaah, cuối cùng cũng'
+	R
+	'được.Bây giờ tôi có thể ngủ'
+	R
+	'trong yên bình và yên tĩnh.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'À... Aaaah...'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Sự xâm nhập bất ngờ'
+	R
+	'của Lia đã phá hỏng âm'
+	R
+	'mưu ám sát của Gekkou.'
+	\L_038bd:
+	\L_038b0:
+	\0:
+*L_02686:
+	!VAR0645 : VAR0645 + 1!
+	!VAR0158 : 1!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 1!
+	%#M.ADV:
+	!VAR0043 : VAR0045!
+	!VAR0044 : VAR0046!
+	!VAR0516 : 10!
+	%#M.ADV:
+	!VAR0516 : 1001!
+	\L_03894:
+	\L_037d0:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Trong lâu đài'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 422!
+	\L_037ec:
+	\L_03798:
+	ZH 1:
+	'Anh ấy ở đâu...?'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Ai đó đang chạy như gió'
+	R
+	'qua hành lang.Đó là kunoichi'
+	R
+	'của NHẬT BẢN, Shinobu.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Vua Rance đâu rồi...?'
+	\L_038bd:
+	ZH 1:
+	'Đó!'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 1!
+	\L_0385c:
+	\L_03808:
+	ZH 1:
+	'Ôi, bạn là ai...?'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Trước khi'
+	R
+	'Rance kịp nói thêm,'
+	\L_038bd:
+	ZH 1:
+	'Shinobu đã rút một chiếc'
+	R
+	'lư hương nhỏ ra khỏi túi.'
+	\L_038bd:
+	\L_038b0:
+	\L_037b4:
+	ZH 1:
+	'Hương thơm đặc'
+	R
+	'biệt của kunoichi...'
+	\L_038bd:
+	ZH 1:
+	'Không người'
+	R
+	'đàn ông nào có thể cưỡng'
+	R
+	'lại được mùi hương này...'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Cái mùi đó, chưa nói đến'
+	R
+	'ánh sáng đáng ngại trong mắt'
+	R
+	'Shinobu, nhấn chìm Rance.'
+	\L_038bd:
+	\L_038b0:
+	\L_03808:
+	ZH 1:
+	'Một người phụ nữ...?Tuy'
+	R
+	'nhiên, đó là một đứa'
+	R
+	'trẻ.Đợi đã, hả?Nhưng... Ờ...'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'...Huhu.'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Rance choáng váng'
+	R
+	'đứng dậy và loạng choạng.'
+	\L_038bd:
+	ZH 1:
+	'Shinobu gật đầu.Cô'
+	R
+	'đang khẳng định với'
+	\L_038bd:
+	ZH 1:
+	'chính mình rằng kỹ'
+	R
+	'thuật này đã thành công.'
+	\L_038bd:
+	\L_038b0:
+	\L_03808:
+	ZH 1:
+	'Tại sao...?Tại sao tôi'
+	R
+	'lại kích động như vậy...?'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Không hề bị chạm'
+	R
+	'vào, siêu vũ khí của Rance'
+	R
+	'dần dần to hơn và cứng hơn.'
+	\L_038bd:
+	ZH 1:
+	'Shinobu cởi từng'
+	R
+	'bộ quần áo của mình'
+	R
+	'để kích thích anh.'
+	\L_038bd:
+	\L_038b0:
+	\L_03808:
+	ZH 1:
+	'Tôi muốn làm'
+	R
+	'tình, tôi muốn làm tình'
+	R
+	'ngay bây giờ!Muhuhuhu!'
+	\L_038bd:
+	\L_038b0:
+	\L_037b4:
+	ZH 1:
+	'Nó đã thành công!'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Một nụ cười hài'
+	R
+	'lòng và xấu xa hiện lên'
+	R
+	'trên khuôn mặt Shinobu.'
+	\L_038bd:
+	\L_038b0:
+	\L_03808:
+	ZH 1:
+	'Uh, uoooooooooooo!'
+	\L_038bd:
+	\L_038b0:
+	!VAR0154 : 1!
+	{VAR0102 = 2:
+		@L_02aa2:
+	}
+	\L_0386a:
+	\L_037d0:
+	ZH 1:
+	'Rance đột nhiên'
+	R
+	'gầm lên và chạy khỏi'
+	R
+	'Shinobu về phòng ngủ.'
+	\L_038bd:
+	ZH 1:
+	'Shinobu không hiểu'
+	R
+	'chuyện gì đang xảy'
+	R
+	'ra và chỉ đứng đó.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Cái gì...?'
+	\L_038bd:
+	ZH 1:
+	'Tại sao...?Tại'
+	R
+	'sao anh ấy không quan'
+	R
+	'hệ tình dục với tôi?!'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Dù có nghĩ thế'
+	R
+	'nào đi chăng nữa,'
+	\L_038bd:
+	ZH 1:
+	'cô cũng không thể'
+	R
+	'tìm ra câu trả lời.Kỹ thuật'
+	R
+	'này đã thành công vô số lần.'
+	\L_038bd:
+	ZH 1:
+	'Shinobu không thể'
+	R
+	'hiểu được tại sao'
+	R
+	'mình lại thất bại.'
+	\L_038bd:
+	\L_038b0:
+	{VAR0645 = 5:
+		@L_02fd3:
+	}
+	\L_037fa:
+	\L_038a2:
+	\0:
+*L_02aa2:
+	\L_037d0:
+	ZH 1:
+	'Rance đột'
+	R
+	'nhiên gầm lên và nắm lấy tay'
+	R
+	'Shinobu một cách thô bạo.'
+	\L_038bd:
+	\L_038b0:
+	\L_03808:
+	ZH 1:
+	'Đi một mạch về phòng'
+	R
+	'thì rắc rối quá!Ngay cả bạn'
+	R
+	'cũng sẽ làm ngay bây giờ,'
+	\L_038bd:
+	ZH 1:
+	'hãy đi với tôi!'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Shinobu không phản'
+	R
+	'đối.Cô nở một nụ cười'
+	R
+	'ngọt ngào với Rance.'
+	\L_038bd:
+	\L_038b0:
+	\L_03808:
+	ZH 1:
+	'Uh... Sắp nổ tung'
+	R
+	'rồi... Tôi có thể xuất'
+	R
+	'tinh bất cứ lúc nào...'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Rance nhảy vào'
+	R
+	'một căn phòng nhỏ gần đó và'
+	R
+	'nhanh chóng cởi bỏ quần áo.'
+	\L_038bd:
+	\L_038b0:
+	PF1 VAR0056:
+	G 806:
+	G 133:
+	\L_03878:
+	ZH 1:
+	'Rance（Ừm...Tôi'
+	R
+	'đang làm gì vậy...?）'
+	PF0 VAR0056:
+	\L_038bd:
+	ZH 1:
+	'Hông của Shinobu đang'
+	R
+	'nằm trên Rance và ngọ nguậy'
+	R
+	'một cách mê hoặc.Sự lắc lư'
+	\L_038bd:
+	ZH 1:
+	'đó tấn công Rance với'
+	R
+	'sự kích thích mãnh liệt.'
+	\L_038bd:
+	ZH 1:
+	'Rance 「Aah... Tốt quá,'
+	R
+	'sắp xuất tinh nữa rồi...」'
+	\L_038bd:
+	ZH 1:
+	'Lúc đầu, Rance'
+	R
+	'lao lên từ bên dưới,'
+	\L_038bd:
+	ZH 1:
+	'nhưng lúc này anh'
+	R
+	'ấy đã bằng lòng chấp nhận'
+	R
+	'đòn tấn công của Shinobu.'
+	\L_038bd:
+	ZH 1:
+	'Rance（Chặt quá...'
+	R
+	'Chỉ thế thôi cũng'
+	R
+	'có thể làm được...）'
+	\L_038bd:
+	ZH 1:
+	'Khe hở ở'
+	R
+	'háng Shinobu có vẻ như'
+	R
+	'không thể chứa được cự'
+	\L_038bd:
+	ZH 1:
+	'vật của Rance.Nhưng'
+	R
+	'Rance đã ép nó vào.'
+	\L_038bd:
+	ZH 1:
+	'Và bằng cách nào đó, nó đã'
+	R
+	'nhấn chìm hoàn toàn cự vật'
+	R
+	'của Rance cho đến tận gốc.'
+	\L_038bd:
+	ZH 1:
+	'Thịt của'
+	R
+	'Shinobu liếm đầu cặc của'
+	R
+	'Rance.Sau đó âm hộ của cô,'
+	\L_038bd:
+	ZH 1:
+	'vẫn còn chặt chẽ'
+	R
+	'với cặc của anh bên trong,'
+	R
+	'siết chặt xung quanh nó.'
+	\L_038bd:
+	ZH 1:
+	'Rance（Tôi đang làm'
+	R
+	'gì vậy...?Đây là một'
+	R
+	'đứa trẻ... Uh... Uu.）'
+	\L_038bd:
+	ZH 1:
+	'Dù biết điều đó nhưng'
+	R
+	'Rance không thể rút mình ra'
+	\L_038bd:
+	ZH 1:
+	'khỏi cô ấy.Anh ấy thậm'
+	R
+	'chí còn không cố gắng.'
+	\L_038bd:
+	ZH 1:
+	'Rance xuất tinh vào'
+	R
+	'bên trong Shinobu, không thể'
+	R
+	'kiềm chế được sự thôi thúc.'
+	\L_038bd:
+	ZH 1:
+	'Shinobu cũng đã đạt'
+	R
+	'cực khoái vài lần nhưng'
+	R
+	'vẫn không rời xa Rance.'
+	\L_038bd:
+	ZH 1:
+	'Rance không'
+	R
+	'thể nhớ mình đã làm điều'
+	R
+	'đó bao nhiêu lần nữa.Anh'
+	\L_038bd:
+	ZH 1:
+	'ta thậm chí không'
+	R
+	'thể hiểu tại sao siêu vũ khí'
+	R
+	'của mình lại không bị hỏng.'
+	\L_038bd:
+	ZH 1:
+	'Rance（Ch...Tôi thậm'
+	R
+	'chí còn không thể giơ tay'
+	R
+	'lên được nữa...Tệ quá.）'
+	\L_038bd:
+	ZH 1:
+	'Shinobu nâng hông'
+	R
+	'lên.Cô ấy dừng lại ngay khi'
+	R
+	'sắp rút cặc của Rance ra.'
+	\L_038bd:
+	ZH 1:
+	'Cô ấy lắc hông.Âm hộ'
+	R
+	'của cô xoa đầu cặc anh.'
+	\L_038bd:
+	ZH 1:
+	'Rance 「Này...'
+	R
+	'Lại xuất tinh rồi.」'
+	\L_038bd:
+	ZH 1:
+	'Rance rên'
+	R
+	'rỉ.Shinobu cười toe toét.Cô'
+	R
+	'ấy chìm sâu vào hông.'
+	\L_038bd:
+	ZH 1:
+	'Rance 「Hgh...!」'
+	\L_038bd:
+	ZH 1:
+	'Rance không còn'
+	R
+	'muốn tiếp tục nữa,'
+	\L_038bd:
+	ZH 1:
+	'nhưng cơ'
+	R
+	'thể anh vẫn ngoan ngoãn tiếp'
+	R
+	'tục làm việc để xuất tinh.'
+	\L_038bd:
+	ZH 1:
+	'Rance 「Hah... Hah...'
+	R
+	'Ta xong rồi... Này...」'
+	\L_038bd:
+	ZH 1:
+	'Rance cố'
+	R
+	'gắng đẩy Shinobu ra khỏi'
+	R
+	'người anh, nhưng chân,'
+	\L_038bd:
+	ZH 1:
+	'tay và thậm'
+	R
+	'chí cả ngón tay của anh'
+	R
+	'đều không chịu cử động.'
+	\L_038bd:
+	ZH 1:
+	'Shinobu tiếp tục'
+	R
+	'cưỡi Rance với cự vật'
+	R
+	'của anh bên trong cô.'
+	\L_038bd:
+	ZH 1:
+	'Rance 「Xuống xe...Nào.」'
+	\L_038bd:
+	ZH 1:
+	'Cô ấy đang nắm chặt'
+	R
+	'thứ gì đó trong tay.'
+	\L_038bd:
+	ZH 1:
+	'Rance 「Ngươi... Uu...」'
+	\L_038bd:
+	ZH 1:
+	'Rance chỉ thấy tay'
+	R
+	'cô nhanh chóng thả thẳng'
+	\L_038bd:
+	ZH 1:
+	'xuống.Nắm đấm của'
+	R
+	'Shinobu nhắm vào ngực Rance.'
+	\L_038bd:
+	ZH 1:
+	'Cô ấy mở rộng bàn'
+	R
+	'tay của mình.Bên trong có'
+	\L_038bd:
+	ZH 1:
+	'cán dao găm.Lưỡi kiếm'
+	R
+	'đâm thẳng vào cơ thể Rance.'
+	\L_038bd:
+	ZH 1:
+	'Rance 「Cái gì...?!」'
+	\L_038bd:
+	ZH 1:
+	'Rance hơi'
+	R
+	'quằn quại.Vết đâm mở ra một'
+	R
+	'chút và dòng máu đỏ phun ra.'
+	\L_038bd:
+	ZH 1:
+	'Shinobu chứng kiến ​​cảnh'
+	R
+	'tượng này mà không chớp mắt.'
+	\L_038bd:
+	ZH 1:
+	'Rance 「Lần'
+	R
+	'cuối cùng của ta là với...'
+	R
+	'một đứa trẻ... Thảm hại...」'
+	\L_038bd:
+	ZH 1:
+	'Rance ngừng di chuyển.'
+	\L_038bd:
+	PF1 VAR0056:
+	\L_038b0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	PF0 VAR0056:
+	!VAR0805 : 4!
+	&#OVER.ADV:
+	\0:
+*L_02fd3:
+	!VAR0154 : 5!
+	{VAR0102 = 0:
+		\L_038b0:
+		!VAR0516 : 6!
+		\L_0385c:
+		\L_03808:
+		ZH 1:
+		'Đó là tất cả những'
+		R
+		'gì bạn có thể làm.Chúng'
+		R
+		'tôi đã bao vây bạn rồi.'
+		\L_038bd:
+		\L_038b0:
+		\L_03798:
+		ZH 1:
+		'Ờ...'
+		\L_038bd:
+		\L_038b0:
+		\L_037d0:
+		ZH 1:
+		'Shinobu nhanh chóng'
+		R
+		'tỉnh táo và kiểm tra xung'
+		\L_038bd:
+		ZH 1:
+		'quanh.Cô cau có và trừng'
+		R
+		'mắt nhìn Maris trước mặt.'
+		\L_038bd:
+		\L_038b0:
+		\L_03808:
+		ZH 1:
+		'Cho dù bạn có được'
+		R
+		'huấn luyện đặc biệt đến đâu,'
+		\L_038bd:
+		ZH 1:
+		'bạn cũng không thể'
+		R
+		'làm gì được với nhiều'
+		R
+		'lính canh như thế này.'
+		\L_038bd:
+		ZH 1:
+		'Chúng tôi cũng'
+		R
+		'đã có lính canh sẵn ở sân'
+		R
+		'rồi.Hãy từ bỏ và đầu hàng.'
+		\L_038bd:
+		\L_038b0:
+		\L_037d0:
+		ZH 1:
+		'Hàng chục lính canh'
+		R
+		'đều chĩa vũ khí vào Shinobu.'
+		\L_038bd:
+		@L_031d8:
+	}
+	\L_038b0:
+	!VAR0516 : 7!
+	\L_0385c:
+	\L_03808:
+	ZH 1:
+	'Bạn không thể'
+	R
+	'thoát khỏi!Đầu hàng'
+	R
+	'một cách hòa bình!'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Cái gì!?'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Shinobu nhanh'
+	R
+	'chóng lấy lại bình tĩnh'
+	R
+	'và nhìn xung quanh.'
+	\L_038bd:
+	ZH 1:
+	'Hàng chục vệ binh'
+	R
+	'hoàng gia của Leazas'
+	R
+	'đang vây quanh cô.'
+	\L_038bd:
+	\L_038b0:
+	\L_03808:
+	ZH 1:
+	'Bạn có thể trông giống một'
+	R
+	'cô bé, nhưng tôi biết bạn là'
+	R
+	'một kunoichi đã qua đào tạo.'
+	\L_038bd:
+	ZH 1:
+	'Tôi sẽ không'
+	R
+	'mất cảnh giác.Tốt'
+	R
+	'nhất là bạn nên từ bỏ.'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Shinobu trừng mắt nhìn'
+	R
+	'Leila chĩa kiếm vào cô.'
+	\L_038bd:
+*L_031d8:
+	\L_038b0:
+	\L_037fa:
+	\L_0386a:
+	\L_037d0:
+	ZH 1:
+	'Một sự im lặng'
+	R
+	'kỳ lạ và sự căng thẳng'
+	R
+	'tột độ bao trùm khu vực.'
+	\L_038bd:
+	ZH 1:
+	'Nó bị vỡ bởi tiếng'
+	R
+	'hét của một người đàn ông.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Shinobu!'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Một cửa sổ bị'
+	R
+	'vỡ.Những mảnh thủy tinh'
+	R
+	'vương vãi khắp sàn nhà.'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 421!
+	\L_037ec:
+	\L_037d0:
+	ZH 1:
+	'Người đàn ông nhảy qua cửa'
+	R
+	'sổ đáp xuống các mảnh kính'
+	R
+	'mà không gây ra tiếng động.'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 422!
+	\L_0385c:
+	\L_03808:
+	ZH 1:
+	'...Gekkou.'
+	\L_038bd:
+	!VAR0154 : 5!
+	{VAR0102 = 0:
+		\L_038b0:
+		!VAR0516 : 6!
+		\L_0385c:
+		\L_03808:
+		ZH 1:
+		'Bạn đang làm'
+		R
+		'gì vậy?Bắt chúng!'
+		\L_038bd:
+		\L_038b0:
+		\L_037d0:
+		ZH 1:
+		'Maris ra lệnh'
+		R
+		'cho lính canh,'
+		\L_038bd:
+		ZH 1:
+		'nhưng ánh sáng kỳ'
+		R
+		'lạ trong mắt Gekkou khiến'
+		R
+		'họ không thể di chuyển.'
+		\L_038bd:
+	}
+	\L_038b0:
+	!VAR0516 : 7!
+	\L_0385c:
+	\L_03808:
+	ZH 1:
+	'E-Mọi người,'
+	R
+	'bắt chúng lại!'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Leila ra lệnh,'
+	\L_038bd:
+	ZH 1:
+	'nhưng tất cả mọi người'
+	R
+	'bao gồm cả cô đều chùn'
+	\L_038bd:
+	ZH 1:
+	'bước trước ánh sáng'
+	R
+	'kỳ lạ trong mắt Gekkou.'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 422!
+	\L_0385c:
+	\L_03798:
+	ZH 1:
+	'Bạn đã sẵn sàng chưa?'
+	\L_038bd:
+	\L_038b0:
+	\L_03808:
+	ZH 1:
+	'...Ừ.Tôi biết.'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Gekkou mỉm cười'
+	R
+	'hài lòng trước câu'
+	R
+	'trả lời của Shinobu.'
+	\L_038bd:
+	\L_038b0:
+	\L_03798:
+	ZH 1:
+	'Chúng ta sẽ'
+	R
+	'luôn ở bên nhau.'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Lời nói của Gekkou khiến'
+	R
+	'Shinobu mỉm cười đáp lại.'
+	\L_038bd:
+	ZH 1:
+	'Cả hai đều rút thứ'
+	R
+	'gì đó có hình dạng giống'
+	R
+	'một cái ống ra khỏi túi.'
+	\L_038bd:
+	\L_038b0:
+	\L_037fa:
+	\L_0386a:
+	!VAR0154 : 5!
+	{VAR0102 = 0:
+		!VAR0516 : 6!
+		\L_0385c:
+		\L_03808:
+		ZH 1:
+		'Cái gì...?'
+		\L_038bd:
+		ZH 1:
+		'Mọi người hãy ẩn nấp!'
+		\L_038bd:
+		\L_038b0:
+		\L_0386a:
+		\L_037d0:
+		ZH 1:
+		'Mọi người đều bị sốc'
+		R
+		'trước tiếng hét của Maris và'
+		\L_038bd:
+		ZH 1:
+		'điên cuồng làm theo'
+		R
+		'mệnh lệnh của cô ấy,'
+		\L_038bd:
+		ZH 1:
+		'ngay khi điều đó xảy ra.'
+		\L_038bd:
+		ZH 1:
+		'KABOOOOOOOOOOOOOOOOM!'
+		\L_038bd:
+		ZH 1:
+		'Âm thanh đinh tai'
+		R
+		'nhức óc không chỉ làm'
+		\L_038bd:
+		ZH 1:
+		'rung chuyển lâu đài mà'
+		R
+		'cả khu vực xung quanh.'
+		\L_038bd:
+		ZH 1:
+		'Maris và những người'
+		R
+		'lính ẩn náu đã bị mưa đá,'
+		\L_038bd:
+		ZH 1:
+		'tro tàn và máu thịt'
+		R
+		'của hai ninja trút xuống.'
+		\L_038bd:
+		\L_038b0:
+		!VAR0516 : 6!
+		\L_0385c:
+		\L_03808:
+		ZH 1:
+		'Có vẻ như thực sự đúng'
+		R
+		'là các ninja sẽ tự kết'
+		\L_038bd:
+		ZH 1:
+		'liễu đời mình nếu họ'
+		R
+		'thất bại trong nhiệm vụ...'
+		\L_038bd:
+		\L_038b0:
+		\L_037d0:
+		ZH 1:
+		'Maris, bình'
+		R
+		'thường cực kỳ điềm tĩnh, tái'
+		R
+		'nhợt và lau máu trên người.'
+		\L_038bd:
+		@L_0370a:
+	}
+	!VAR0516 : 7!
+	\L_0385c:
+	\L_03808:
+	ZH 1:
+	'Đó là... Mọi'
+	R
+	'người, hãy ẩn nấp!'
+	\L_038bd:
+	\L_038b0:
+	\L_0386a:
+	\L_037d0:
+	ZH 1:
+	'Mọi người đều bị sốc'
+	R
+	'trước tiếng hét của Leila và'
+	\L_038bd:
+	ZH 1:
+	'điên cuồng làm theo'
+	R
+	'mệnh lệnh của cô ấy,'
+	\L_038bd:
+	ZH 1:
+	'ngay trước khi nó xảy ra.'
+	\L_038bd:
+	ZH 1:
+	'KABOOOOOOOOOOOOOOOOM!'
+	\L_038bd:
+	ZH 1:
+	'Âm thanh đinh tai'
+	R
+	'nhức óc không chỉ làm'
+	\L_038bd:
+	ZH 1:
+	'rung chuyển lâu đài mà'
+	R
+	'cả khu vực xung quanh.'
+	\L_038bd:
+	ZH 1:
+	'Leila và những người'
+	R
+	'lính ẩn nấp đã bị mưa đá,'
+	\L_038bd:
+	ZH 1:
+	'tro bụi và máu thịt'
+	R
+	'của hai ninja trút xuống.'
+	\L_038bd:
+	\L_038b0:
+	!VAR0516 : 7!
+	\L_0385c:
+	\L_03824:
+	ZH 1:
+	'Có vẻ như thực sự đúng'
+	R
+	'là các ninja sẽ tự kết'
+	\L_038bd:
+	ZH 1:
+	'liễu đời mình nếu họ'
+	R
+	'thất bại trong nhiệm vụ...'
+	\L_038bd:
+	\L_038b0:
+	\L_037d0:
+	ZH 1:
+	'Khi làn khói tan đi,'
+	R
+	'Leila nhìn chằm chằm vào chỗ'
+	R
+	'trống nơi hai ninja đã đứng.'
+	\L_038bd:
+*L_0370a:
+	\L_038b0:
+	\L_0386a:
+	\L_038a2:
+	\0:
+*L_0371e:
+	Y 4, 4:
+	{VAR0000 = 1:
+		!VAR0520 : 1!
+		%#Gｺｳﾋﾒ.ADV:
+		\0:
+	}
+	{VAR0000 = 2:
+		!VAR0520 : 2!
+		%#Gｺｳﾋﾒ.ADV:
+		\0:
+	}
+	{VAR0000 = 3:
+		!VAR0520 : 7!
+		%#IJAPAN.ADV:
+		\0:
+	}
+	{VAR0000 = 4:
+		!VAR0520 : 8!
+		%#IJAPAN.ADV:
+		\0:
+	}
+	\0:
+*L_03798:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_037b4:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_037d0:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_037ec:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+*L_037fa:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03808:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03824:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03840:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0385c:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0386a:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03878:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03894:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+*L_038a2:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_038b0:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_038bd:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

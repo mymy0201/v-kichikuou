@@ -1,0 +1,2338 @@
+	{VAR0520 < 299:
+		@L_0006f:
+	}
+	{VAR0520 = 300:
+		@L_01523:
+	}
+	{VAR0520 = 301:
+		@L_01d38:
+	}
+*L_0006f:
+	!VAR0518 : 1!
+	!VAR0517 : VAR0517 + 1!
+	!VAR0154 : 1!
+	!VAR0102 : 1!
+	!VAR0074 : VAR0075!
+	!VAR0090 : VAR0091!
+	!VAR0162 : 1!
+	!VAR0149 : 34!
+	!VAR0515 : 4!
+	ZH 1:
+	MS 1, "Rance":
+	R
+	MS 2, "Leazas Knights":
+	MM VAR0198 + (VAR0154 - 1) * 3 + 0, 1:
+	MM VAR0198 + (VAR0154 - 1) * 3 + 1, 2:
+	MM VAR0198 + (VAR0154 - 1) * 3 + 2, 3:
+	!VAR0094 : 1100!
+	!VAR0095 : 1101!
+	!VAR0096 : 1102!
+	!VAR0076 : 10!
+	!VAR0077 : 6!
+	!VAR0101 : 6!
+	!VAR0084 : 2!
+	!VAR0085 : 1!
+	!VAR0154 : 2!
+	!VAR0102 : 0!
+	ZH 1:
+	MS 2, "Leazas Mages":
+	MM VAR0198 + (VAR0154 - 1) * 3 + 1, 2:
+	!VAR0154 : 3!
+	!VAR0102 : 0!
+	!VAR0154 : 4!
+	!VAR0102 : 0!
+	!VAR0154 : 5!
+	!VAR0102 : 1!
+	!VAR0154 : 6!
+	!VAR0102 : 1!
+	!VAR0154 : 7!
+	!VAR0102 : 1!
+	!VAR0154 : 8!
+	!VAR0102 : 1!
+	!VAR0154 : 9!
+	!VAR0102 : 1!
+	!VAR0154 : 10!
+	!VAR0102 : 1!
+	!VAR0154 : 11!
+	!VAR0102 : 1!
+	!VAR0519 : 685!
+	!VAR0158 : 13!
+	!VAR0043 : VAR0142!
+	!VAR0044 : VAR0143!
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS 0:
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 10!
+	%#M.ADV:
+	Y 3, 30:
+	!VAR0516 : 1003!
+	\L_029ad:
+	\L_02959:
+	ZM 32:
+	ZH 1:
+	'Thành phố phía Bắc Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　Maunes'
+	\L_029d6:
+	\L_029c9:
+	\L_029bb:
+	!VAR0045 : 1363!
+	!VAR0046 : 368!
+	!VAR0516 : 1!
+	%#M.ADV:
+	\L_02959:
+	ZH 1:
+	'Một con đường núi dốc kéo dài từ'
+	R
+	'đây đến Helman.'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 10!
+	%#M.ADV:
+	Y 3, 30:
+	\L_02959:
+	ZH 1:
+	'Ở giữa con đường đó là tòa nhà'
+	R
+	'giám sát của Quân đội Leazas.'
+	\L_029d6:
+	ZH 1:
+	'Họ đã nhận được một số thông tin'
+	R
+	'về hoạt động đáng ngờ xảy ra'
+	R
+	'quanh biên giới Helman.'
+	\L_029d6:
+	ZH 1:
+	'Để xác nhận thông tin đó, ninja'
+	R
+	'cá nhân của hoàng gia, Kanami'
+	R
+	'Kentou, đang đi bộ qua những'
+	R
+	'ngọn núi.'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 9!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'...Haah... Chẳng có chuyện gì'
+	R
+	'thực sự xảy ra cả.Vừa kết thúc'
+	R
+	'việc tìm kiếm một số tội phạm'
+	R
+	'trong nước...'
+	\L_029d6:
+	ZH 1:
+	'Chà, tôi mừng vì chúng ta không'
+	R
+	'phải chuẩn bị cho một cuộc tấn'
+	R
+	'công.Tôi nên nhanh chóng quay'
+	R
+	'lại và nói với cô Maris rằng mọi'
+	R
+	'chuyện đều ổn.'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'Nhưng sau đó, Kanami dừng'
+	R
+	'bước...'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'...Hả?'
+	\L_029d6:
+	ZH 1:
+	'Có ai đó đang nằm ở đó...'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'Kanami tìm thấy một người đàn'
+	R
+	'ông nằm gục bên vệ đường.'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'...Anh ta bất tỉnh rồi à??Tôi'
+	R
+	'hiểu rồi, chắc hẳn là một người'
+	R
+	'tị nạn khác.'
+	\L_029d6:
+	ZH 1:
+	'Helman nghèo đến mức có rất'
+	R
+	'nhiều người chạy đến đây, nhưng'
+	R
+	'cuối cùng họ lại gây rắc rối...'
+	R
+	'Trời ạ...'
+	\L_029d6:
+	ZH 1:
+	'...Mặc dù vậy, nhưng... tôi'
+	R
+	'không thể bỏ rơi anh ấy được...'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'Kanami chạy đến bên người đàn'
+	R
+	'ông.'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Này, bạn có...?'
+	\L_029d6:
+	ZH 1:
+	'............'
+	\L_029d6:
+	ZH 1:
+	'Hả??'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'Kanami rất ngạc nhiên khi nhìn'
+	R
+	'thấy khuôn mặt của người đàn ông'
+	R
+	'khi cô đến giúp anh ta đứng dậy.'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'...R-Rance?'
+	\L_029d6:
+	ZH 1:
+	'Bạn đang làm gì ở đây?'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 1!
+	\L_02905:
+	\L_028b1:
+	ZH 1:
+	'Nngh...'
+	R
+	'Aah, Kanami...?'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Có chuyện gì thế, Rance?Phải'
+	R
+	'chăng đó là...'
+	\L_029d6:
+	ZH 1:
+	'Cậu đang hành hung một cô gái ở'
+	R
+	'đây à?'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'...T-Tôi kiệt sức rồi...'
+	\L_029d6:
+	ZH 1:
+	'Tôi trông cậy vào bạn.'
+	\L_029d6:
+	ZH 1:
+	'Thud.'
+	\L_029d6:
+	\L_029c9:
+	\L_02913:
+	\L_02921:
+	ZH 1:
+	'W-Chờ Đã... Thôi nào, đừng ngất'
+	R
+	'xỉu!'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'...Zzzzzz...'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'...Tôi-tôi không quan tâm Đến'
+	R
+	'Rance...'
+	\L_029d6:
+	ZH 1:
+	'tôi-tôi sẽ để anh ấy ở đây.'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Zzzzz...'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'...O-Được rồi, tôi hiểu rồi...'
+	R
+	'Tôi sẽ đưa anh ấy trở lại với'
+	R
+	'tôi, điều đó sẽ ổn thôi, phải'
+	R
+	'không?!'
+	\L_029d6:
+	ZH 1:
+	'tôi sẽ phát điên nếu anh ta giữ'
+	R
+	'nó chống lại tôi và quay lại với'
+	R
+	'tôi theo một cách khủng khiếp'
+	R
+	'nào đó sau này...'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'Kanami mang Một Cuộc Chạy Đua vô'
+	R
+	'thức xuống núi.'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'H-anh ấy nặng...'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 11!
+	%#M.ADV:
+	SS 5:
+	!VAR0158 : 1!
+	!VAR0043 : VAR0142!
+	!VAR0044 : VAR0143!
+	!VAR0516 : 12!
+	%#M.ADV:
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 10!
+	%#M.ADV:
+	!VAR0516 : 1001!
+	\L_029ad:
+	\L_028e9:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng ngủ của Lia'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 5!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Em yêu...'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 6!
+	\L_02905:
+	\L_028b1:
+	ZH 1:
+	'Nữ Hoàng Lia.'
+	\L_029d6:
+	ZH 1:
+	'Bạn có công việc khác để làm.'
+	R
+	'Bạn có thể rời khỏi chăm Sóc'
+	R
+	'Rance để tiếp viên của bạn.'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Không, không, tôi sẽ làm điều'
+	R
+	'đó!'
+	\L_029d6:
+	\L_029c9:
+	\L_02913:
+	\L_02983:
+	\L_028e9:
+	ZH 1:
+	'Đã hai ngày Kể từ Khi Kanami đưa'
+	R
+	'Rance đến Lâu đài Leazas. Anh ấy'
+	R
+	'đang ngủ say.'
+	\L_029d6:
+	ZH 1:
+	'Mặc dù vậy, Rance vẫn tiếp tục'
+	R
+	'ngủ.'
+	\L_029d6:
+	ZH 1:
+	'Lia, Nữ Hoàng Leazas, đã theo'
+	R
+	'Đuổi Rance kể từ một sự cố nhất'
+	R
+	'định mà anh ta lấy trinh tiết'
+	R
+	'của cô.'
+	\L_029d6:
+	ZH 1:
+	'cô ấy yêu Rance đến một mức độ'
+	R
+	'không thể chịu đựng được.'
+	\L_029d6:
+	ZH 1:
+	'Lia đã ở bên Cạnh Rance vào ban'
+	R
+	'đêm.'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 5!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Chuyện gì đã xảy ra với Bạn, Em'
+	R
+	'Yêu...?'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'...Gugaaaaah...'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'...Có điều gì đáng sợ xảy ra'
+	R
+	'không?'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'...Gaaaah...'
+	R
+	'Zzzzzz.'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Nếu điều đó đánh thức em dậy, em'
+	R
+	'yêu, anh sẽ làm bất cứ điều'
+	R
+	'gì...'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'＜ôm hôn）'
+	\L_029d6:
+	ZH 1:
+	'Lia hôn nhẹ lên môi Rance.'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Fugah... Zzzzz...'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'...Ngay cả một nụ hôn cũng không'
+	R
+	'thể đánh thức anh ấy... Em'
+	R
+	'yêu... ...Anh buồn...'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Gugaaaah...'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Úc... Hừ...'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 11!
+	%#M.ADV:
+	!VAR0516 : 12!
+	%#M.ADV:
+	!VAR0516 : 1001!
+	\L_029ad:
+	!VAR0516 : 5!
+	\L_02975:
+	\L_028e9:
+	ZH 1:
+	R
+	'Ngày tiếp theo'
+	\L_029d6:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng ngủ của Lia'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 37!
+	\L_02905:
+	\L_028b1:
+	ZH 1:
+	'Nữ hoàng Lia, tốt nhất là người'
+	R
+	'nên nghỉ ngơi một chút... Tôi'
+	R
+	'sẽ...'
+	\L_029d6:
+	\L_029c9:
+	\L_028e9:
+	ZH 1:
+	'Người giúp việc riêng của Lia'
+	R
+	'nói chuyện nhẹ nhàng với cô.Cô'
+	R
+	'ấy vẫn tiếp tục chăm sóc Rance'
+	R
+	'mà không hề ngủ.'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Tại sao bạn lại nói với tôi điều'
+	R
+	'đó?'
+	\L_029d6:
+	ZH 1:
+	'Tôi biết...'
+	\L_029d6:
+	ZH 1:
+	'Bạn, một cô hầu gái đơn thuần,'
+	R
+	'đang định quyến rũ Darling phải'
+	R
+	'không?!'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'...Ờ, tôi... tôi không có ý'
+	R
+	'định...'
+	\L_029d6:
+	\L_029c9:
+	\L_028e9:
+	ZH 1:
+	'＜smaaaaaack）'
+	\L_029d6:
+	ZH 1:
+	'Lia tát vào má cô hầu gái một'
+	R
+	'cách mạnh mẽ nhất có thể.'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Này!?'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Đi đi!Nếu có ai cố chia rẽ'
+	R
+	'Darling và tôi, tôi sẽ trừng'
+	R
+	'phạt họ!!'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'...Lia hoàng hậu...'
+	\L_029d6:
+	\L_029c9:
+	\L_02913:
+	!VAR0516 : 1!
+	\L_02905:
+	\L_028b1:
+	ZH 1:
+	'Ngh...'
+	\L_029d6:
+	ZH 1:
+	'Im đi...'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Đ-...'
+	\L_029d6:
+	ZH 1:
+	'Em yêu!!'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'Rance lảo đảo đứng dậy và Lia ôm'
+	R
+	'lấy anh.'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Ngh... Ở đâu...?'
+	\L_029d6:
+	ZH 1:
+	'Ôi... Lia!!'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Cám ơn Chúa, em yêu.Cảm ơn'
+	R
+	'chúa!!'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Tại sao bạn lại...?'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'＜ôm hôn）'
+	\L_029d6:
+	ZH 1:
+	'Lia ôm và hôn Rance.'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Một nụ hôn đánh thức em, Em yêu.'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'...Huh... Chuyện quái gì đã xảy'
+	R
+	'ra với tôi vậy...??'
+	\L_029d6:
+	\L_029c9:
+	PF1 VAR0056:
+	\L_02983:
+	PF0 VAR0056:
+	\L_028cd:
+	ZH 1:
+	'Có vẻ như trong khi chạy trốn'
+	R
+	'khỏi Helman, cuối cùng tôi cũng'
+	R
+	'kiệt sức và gục xuống gần biên'
+	R
+	'giới.'
+	\L_029d6:
+	ZH 1:
+	'Sau đó Kanami tìm thấy tôi và'
+	R
+	'đưa tôi đến gặp Lia.'
+	\L_029d6:
+	ZH 1:
+	'Họ nói tôi đã ngủ ba ngày liền,'
+	R
+	'nên chắc hẳn tôi rất mệt.'
+	\L_029d6:
+	ZH 1:
+	'Thôi, sao cũng được.Đồ ăn.'
+	\L_029d6:
+	ZH 1:
+	'Đến giờ ăn rồi.'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Nhai nhai nhai nhai.'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 5!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Thật tuyệt vời, em yêu... Em đã'
+	R
+	'ăn được năm bát rồi.'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Munch munch, lấy thêm cho tôi.'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Được rồi, tôi sẽ lấy thêm cho'
+	R
+	'bạn.Một sự giúp đỡ rất lớn.'
+	\L_029d6:
+	ZH 1:
+	'Đây rồi em yêu!'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Ừm.'
+	\L_029d6:
+	ZH 1:
+	'Nhai nhai nhai nhai...'
+	\L_029d6:
+	ZH 1:
+	'Haah... Cuối cùng cũng được thư'
+	R
+	'giãn.'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Em xong chưa em yêu?'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Vâng.'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Thế đấy em yêu.Chuyện gì đã xảy'
+	R
+	'ra với bạn vậy?'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'À à...'
+	\L_029d6:
+	\L_029c9:
+	\L_028e9:
+	ZH 1:
+	'Rance tóm tắt những gì đã xảy ra'
+	R
+	'với Lia, cùng với Maris và'
+	R
+	'Kanami ở bên cạnh cô.'
+	\L_029d6:
+	ZH 1:
+	'Về cách anh ta xây dựng một băng'
+	R
+	'trộm anh hùng ở Helman.'
+	\L_029d6:
+	ZH 1:
+	'Về việc quân đội Helman xấc xược'
+	R
+	'đã tấn công họ như thế nào...'
+	\L_029d6:
+	ZH 1:
+	'Về việc anh ta đã giết chết một'
+	R
+	'triệu binh lính Helman, nhưng'
+	R
+	'không tránh khỏi bị áp đảo và'
+	R
+	'phải rút lui...'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Tôi hiểu rồi... Có vẻ như em đã'
+	R
+	'gặp khó khăn rồi, em yêu.'
+	\L_029d6:
+	\L_029c9:
+	\L_02983:
+	\L_02959:
+	ZH 1:
+	'Lia vỗ nhẹ vào đầu Rance.'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 9!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Rance, à...'
+	\L_029d6:
+	ZH 1:
+	'Bạn không ở cùng với Sill phải'
+	R
+	'không?'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'...Bệ cửa...'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Tôi tưởng bạn luôn ở bên cô'
+	R
+	'ấy.Cô ấy ở đâu?'
+	\L_029d6:
+	\L_029c9:
+	\L_02983:
+	!VAR0516 : 5!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Kanami!!Ai quan tâm đến nô lệ'
+	R
+	'đó?'
+	\L_029d6:
+	\L_029c9:
+	\L_02983:
+	\L_028b1:
+	ZH 1:
+	'...Sill đã bị Helman bắt giữ...'
+	R
+	'Trời ạ, cô ấy chẳng gây ra cho'
+	R
+	'tôi điều gì ngoài rắc rối... Cô'
+	R
+	'ấy thật bất cẩn.'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 9!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'...Bệ cửa là...'
+	\L_029d6:
+	\L_029c9:
+	\L_02983:
+	!VAR0516 : 5!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Chà, chuyện gì xảy ra với cô ấy'
+	R
+	'cũng không thành vấn đề.Bởi vì'
+	R
+	'bạn có tôi.Phải?'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'............'
+	\L_029d6:
+	ZH 1:
+	'Lia, cho tôi mượn toàn bộ lực'
+	R
+	'lượng của Leazas.'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'...Hả??Để làm gì vậy em yêu?'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Tôi sẽ tiêu diệt Helman vì sự ô'
+	R
+	'nhục mà họ đã gây ra cho tôi.Tôi'
+	R
+	'sẽ tấn công họ, bắt đầu ngay bây'
+	R
+	'giờ.'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'...Đây là để cậu có thể cứu được'
+	R
+	'nô lệ đó à??'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'...K-Không... Tất nhiên là'
+	R
+	'không.Tôi thực sự ghét'
+	R
+	'Helman.Tôi sẽ giết hết bọn'
+	R
+	'chúng!!'
+	\L_029d6:
+	ZH 1:
+	'Vì vậy, hãy cho tôi mượn quân'
+	R
+	'của bạn.Nếu tôi dẫn đầu đội quân'
+	R
+	'của Leazas, tôi sẽ có thể dễ'
+	R
+	'dàng đánh bại Helman.Vì vậy, hãy'
+	R
+	'đưa nó cho tôi!'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'...Tôi sẽ không.'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Cái gì...?!'
+	\L_029d6:
+	\L_029c9:
+	\L_02983:
+	!VAR0516 : 9!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Rõ ràng là vậy.Cả nước sẽ không'
+	R
+	'hành động để thỏa mãn mối hận'
+	R
+	'thù của một người.'
+	\L_029d6:
+	\L_029c9:
+	\L_02983:
+	\L_028b1:
+	ZH 1:
+	'Ch, tôi hiểu rồi.Tôi không cần'
+	R
+	'sự giúp đỡ của bạn!Chỉ với sức'
+	R
+	'mạnh của mình, tôi sẽ...'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 5!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Nhưng...'
+	\L_029d6:
+	ZH 1:
+	'Nếu bạn là Vua của Leazas, bạn'
+	R
+	'có thể khiến đất nước chúng tôi'
+	R
+	'làm bất cứ điều gì bạn muốn.Quân'
+	R
+	'đội của chúng tôi cũng sẽ là của'
+	R
+	'bạn.'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Lía?'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Huhu...'
+	\L_029d6:
+	ZH 1:
+	'Nếu bạn cưới tôi ngay bây giờ,'
+	R
+	'bạn sẽ có Leazas đi cùng tôi.'
+	\L_029d6:
+	\L_029c9:
+	\L_02983:
+	!VAR0516 : 6!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Liễu Vương hậu...'
+	\L_029d6:
+	\L_029c9:
+	\L_02983:
+	\L_028b1:
+	ZH 1:
+	'............'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 5!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Em yêu... Em có ghét anh'
+	R
+	'không?Dù em yêu anh rất nhiều...'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'............'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Bạn không muốn trả thù Helman'
+	R
+	'sao?Bạn có thể có được nó với'
+	R
+	'sức mạnh của Leazas, phải không?'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'............'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Em yêu...'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Tôi-tôi hiểu rồi.'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Hả...?'
+	\L_029d6:
+	\L_029c9:
+	\L_02983:
+	\L_028b1:
+	ZH 1:
+	'Anh sẽ cưới em.'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 9!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Đợi đã, Rance... Cậu có hiểu'
+	R
+	'mình đang... không?'
+	\L_029d6:
+	\L_029c9:
+	\L_02983:
+	\L_028b1:
+	ZH 1:
+	'Im đi, Kanami!!'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 5!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Anh yêu em, em yêu.'
+	\L_029d6:
+	\L_029c9:
+	\L_02983:
+	\L_028b1:
+	ZH 1:
+	'Gahahahahaha!!'
+	\L_029d6:
+	ZH 1:
+	'Tên khốn Helman... Ta sẽ giết'
+	R
+	'ngươi.'
+	\L_029d6:
+	\L_029c9:
+	\L_02913:
+	!VAR0516 : 5!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Yaaay, kết hôn, kết hôn, kết hôn'
+	R
+	'với Darling!!'
+	\L_029d6:
+	\L_029c9:
+	\L_02983:
+	!VAR0516 : 9!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Điều này có ổn không cô'
+	R
+	'Maris?Tôi không biết về việc'
+	R
+	'Hoàng hậu Lia kết hôn với anh'
+	R
+	'ấy...'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 6!
+	\L_02905:
+	\L_028b1:
+	ZH 1:
+	'Nữ hoàng Lia... Tốt cho bạn...'
+	R
+	'Cuối cùng bạn cũng đạt được điều'
+	R
+	'mình mơ ước...'
+	\L_029d6:
+	\L_029c9:
+	\L_028e9:
+	ZH 1:
+	'Maris nhìn Lia và Rance như một'
+	R
+	'người mẹ nhìn con gái mình.'
+	\L_029d6:
+	\L_029c9:
+	\L_0293d:
+	ZH 1:
+	'Ờ...'
+	\L_029d6:
+	ZH 1:
+	'Tệ quá...'
+	\L_029d6:
+	\L_029c9:
+	PF1 VAR0056:
+	\L_02913:
+	\L_02983:
+	\L_028e9:
+	ZH 1:
+	'Một tuần sau'
+	PF0 VAR0056:
+	\L_029d6:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Sảnh tiếp tân'
+	\L_029d6:
+	ZH 1:
+	'Đám cưới của Rance và Lia đang'
+	R
+	'được tiến hành.'
+	\L_029d6:
+	ZH 1:
+	'Chỗ ngồi của khách được bố trí ở'
+	R
+	'bên trái và bên phải của một con'
+	R
+	'đường với một tấm thảm đỏ dài'
+	R
+	'trải trên đó.'
+	\L_029d6:
+	ZH 1:
+	'Các ghế đã chật kín những người'
+	R
+	'được mời gần xa.'
+	\L_029d6:
+	ZH 1:
+	'Rance và Lia mặc trang phục rực'
+	R
+	'rỡ và đứng trước một linh mục.'
+	\L_029d6:
+	\L_029c9:
+	G 105:
+	\L_02991:
+*L_01523:
+	ZH 1:
+	'Linh mục 「Groom Rance.Rance...」'
+	\L_029d6:
+	ZH 1:
+	'Linh mục 「...Rance...」'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Có chuyện gì vậy?Tiếp tục'
+	R
+	'đi.」'
+	\L_029d6:
+	ZH 1:
+	'Linh mục 「Xin thứ lỗi cho sự thô'
+	R
+	'lỗ của tôi, nhưng... Tên đầy đủ'
+	R
+	'của ông Rance là gì...?」'
+	\L_029d6:
+	ZH 1:
+	'Lia 「...Tôi cũng không biết, hãy'
+	R
+	'thử nghĩ xem.」'
+	\L_029d6:
+	ZH 1:
+	'Linh mục 「Mr.Rance... Nếu không'
+	R
+	'phiền, bạn có thể cho tôi biết'
+	R
+	'được không...?」'
+	\L_029d6:
+	ZH 1:
+	'Rance 「Không có ích gì khi nói'
+	R
+	'chuyện rác rưởi như bạn.Cứ tiếp'
+	R
+	'tục mà không cần nó.」'
+	\L_029d6:
+	ZH 1:
+	'Linh mục 「Hah... Haah... Uh～...'
+	R
+	'Thế thì...」'
+	\L_029d6:
+	ZH 1:
+	'Linh mục 「Chú rể, Rance... Liệu'
+	R
+	'cậu, dù bệnh tật hay sức khỏe,'
+	R
+	'có yêu cô dâu Lia của mình đến'
+	R
+	'hết cuộc đời không?」'
+	\L_029d6:
+	ZH 1:
+	'Rance 「Có lẽ...」'
+	\L_029d6:
+	ZH 1:
+	'Linh mục 「Hả?」'
+	\L_029d6:
+	ZH 1:
+	'Rance 「Xin lỗi, vâng.」'
+	\L_029d6:
+	ZH 1:
+	'Linh mục 「Cô dâu và con gái đầu'
+	R
+	'lòng của hoàng gia Leazas, Lia'
+	R
+	'Parapara Leazas, cô sẽ...」'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Ừ, tôi sẽ làm vậy.Chúng ta'
+	R
+	'sẽ cùng nhau già đi.」'
+	\L_029d6:
+	ZH 1:
+	'Linh mục 「V-Vậy, hãy đặt tay lên'
+	R
+	'cuốn kinh thánh này và tuyên'
+	R
+	'thệ...」'
+	\L_029d6:
+	ZH 1:
+	'Rance 「Lời thề?」'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Đừng lo lắng.Cứ lặp lại'
+	R
+	'những gì linh mục nói đi, em'
+	R
+	'yêu.」'
+	\L_029d6:
+	ZH 1:
+	'Mọi người có mặt đều im lặng'
+	R
+	'theo dõi cuộc trao đổi của họ.'
+	\L_029d6:
+	ZH 1:
+	'Barres（Nữ hoàng Lia và ngài'
+	R
+	'Rance... Đúng hơn là Vua Rance,'
+	R
+	'phải không?)'
+	\L_029d6:
+	ZH 1:
+	'Barres（Uu... Điều này làm tôi'
+	R
+	'rất xúc động.)'
+	\L_029d6:
+	ZH 1:
+	'Barres（Con gái tôi Haurein cuối'
+	R
+	'cùng cũng sẽ làm điều này…)'
+	\L_029d6:
+	ZH 1:
+	'Barres（Mm... Một người đàn ông'
+	R
+	'lớn tuổi như tôi không nên để'
+	R
+	'mình khóc...)'
+	\L_029d6:
+	ZH 1:
+	'Maris（Tốt... Rất tốt... Nữ hoàng'
+	R
+	'Lia trông rất vui...)'
+	\L_029d6:
+	ZH 1:
+	'Kanami（Rance là Vua của'
+	R
+	'Leazas...)'
+	\L_029d6:
+	ZH 1:
+	'Kanami（Tệ thật đấy…)'
+	\L_029d6:
+	ZH 1:
+	'Maria（Rance...)'
+	\L_029d6:
+	ZH 1:
+	'Maria（Rance sắp kết hôn...với'
+	R
+	'một cô gái không phải Sill...)'
+	\L_029d6:
+	ZH 1:
+	'Maria(Tôi...)'
+	\L_029d6:
+	ZH 1:
+	'Shizuka(...Nếu điều này khiến'
+	R
+	'anh ấy không quá tệ với những'
+	R
+	'người phụ nữ khác, thì...)'
+	\L_029d6:
+	ZH 1:
+	'Shizuka（.........Điều đó có lẽ'
+	R
+	'là không thể.)'
+	\L_029d6:
+	ZH 1:
+	'Rick（Ngày này cuối cùng cũng đã'
+	R
+	'đến.)'
+	\L_029d6:
+	ZH 1:
+	'Rick（Với kiếm thuật xuất sắc và'
+	R
+	'sự quyết đoán táo bạo của anh'
+	R
+	'ấy... Tôi không phản đối việc'
+	R
+	'anh ấy trở thành vua...)'
+	\L_029d6:
+	ZH 1:
+	'Ex（Người đàn ông được Nữ hoàng'
+	R
+	'Lia chọn, hả...?Tôi tự hỏi anh'
+	R
+	'ấy là loại người như thế nào...)'
+	\L_029d6:
+	ZH 1:
+	'Ex（Tôi háo hức chờ đợi địa chỉ'
+	R
+	'của anh ấy trước công chúng vào'
+	R
+	'ngày mai.)'
+	\L_029d6:
+	ZH 1:
+	'Cell（...Điều này thực sự ổn'
+	R
+	'chứ?Tôi luôn nghĩ rằng số phận'
+	R
+	'của Rance là ở bên Sill...)'
+	\L_029d6:
+	ZH 1:
+	'Trong lúc mọi người đang suy'
+	R
+	'đoán thì lời thề đã xong.'
+	\L_029d6:
+	ZH 1:
+	'Linh mục 「Sau đó, Rance sẽ được'
+	R
+	'công nhận là chồng của Lia'
+	R
+	'Parapara Leazas, lên ngôi và'
+	R
+	'được công nhận là Vua của'
+	R
+	'Leazas.」'
+	\L_029d6:
+	{VAR0520 = 300:
+		%0:
+	}
+	PF1 VAR0056:
+	\L_029c9:
+	!VAR0516 : 0!
+	%#M.ADV:
+	PF0 VAR0056:
+	!VAR0516 : 1001!
+	\L_029ad:
+	\L_028e9:
+	ZH 1:
+	'Một tiếng chuông trong thị trấn'
+	R
+	'vang lên để chúc phúc cho cuộc'
+	R
+	'hôn nhân của họ.Rance và Lia'
+	R
+	'đang đi dọc lối đi và hướng ra'
+	R
+	'ngoài.'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 1!
+	\L_02905:
+	!VAR0516 : 5!
+	\L_02975:
+	\L_028e9:
+	ZH 1:
+	'Những người được mời đang ở dưới'
+	R
+	'tầm mắt của họ, ở cuối cầu'
+	R
+	'thang.'
+	\L_029d6:
+	\L_029c9:
+	\L_02913:
+	!VAR0516 : 6!
+	\L_02905:
+	\L_028b1:
+	ZH 1:
+	'Bây giờ, Nữ hoàng Lia.Bạn phải'
+	R
+	'ném bó hoa.'
+	\L_029d6:
+	\L_029c9:
+	\L_028e9:
+	ZH 1:
+	'Maris thì thầm với Lia để hỗ trợ'
+	R
+	'cô ấy.'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 5!
+	\L_02975:
+	\L_02913:
+	\L_02921:
+	ZH 1:
+	'Ồ, được rồi...'
+	\L_029d6:
+	ZH 1:
+	'Ôi!!'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'Lia ném bó hoa về phía những'
+	R
+	'người được mời.'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'Bó hoa từ từ rơi về phía...'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 50!
+	\L_02905:
+	\L_028b1:
+	ZH 1:
+	'Hả...?'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 49!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Xin chúc mừng.Bạn là người tiếp'
+	R
+	'theo, Maria.'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Aah... Haha...'
+	\L_029d6:
+	\L_029c9:
+	\L_028cd:
+	ZH 1:
+	'Cảm giác đó có vẻ là một điều'
+	R
+	'tồi tệ...'
+	\L_029d6:
+	\L_029c9:
+	\L_02913:
+	\L_02983:
+	\L_028e9:
+	ZH 1:
+	'Vì vậy, Rance trở thành Vua mới'
+	R
+	'của Leazas.'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 11!
+	%#M.ADV:
+	!VAR0516 : 12!
+	%#M.ADV:
+	SS 0:
+	!VAR0516 : 1002!
+	\L_029ad:
+	\L_028e9:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng của Rance'
+	\L_029d6:
+	ZH 1:
+	'Rance đã thay quần áo thoải mái'
+	R
+	'hơn trong khi Lia vẫn đang mặc'
+	R
+	'váy cưới.'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 1!
+	\L_02905:
+	!VAR0516 : 5!
+	\L_02975:
+	\L_028b1:
+	ZH 1:
+	'Đây là phòng gì?'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Heehee.Đây là phòng của em, em'
+	R
+	'yêu.'
+	\L_029d6:
+	ZH 1:
+	'Hãy cho tôi biết nếu ở đây không'
+	R
+	'đủ cho bạn.Tôi sẽ giúp bạn bất'
+	R
+	'cứ điều gì tôi có thể.'
+	\L_029d6:
+	ZH 1:
+	'Nhưng, hôm nay... Đó là căn'
+	R
+	'phòng nơi em trở thành vợ anh...'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'Lia cọ xát với Rance.'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Em yêu...'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Cái gì?'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Chúng ta đã kết hôn rồi phải'
+	R
+	'không?'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Tôi đoán vậy.'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Heehee... Uhuhu.'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Cái gì?'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'...Tôi hạnh phúc.'
+	\L_029d6:
+	ZH 1:
+	'Vì ước mơ của em là được trở'
+	R
+	'thành vợ anh... Em thực sự hạnh'
+	R
+	'phúc...'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'Lia ôm Rance.'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Làm tình với anh đi em yêu...'
+	\L_029d6:
+	ZH 1:
+	'Đây sẽ là đêm đầu tiên bên nhau'
+	R
+	'như vợ chồng nên chúng ta nên'
+	R
+	'làm như vậy...'
+	\L_029d6:
+	\L_029c9:
+	SS 0:
+	\L_028b1:
+	ZH 1:
+	'Tôi đoán vậy.'
+	\L_029d6:
+	\L_029c9:
+	\L_028e9:
+	ZH 1:
+	'Rance cười toe toét và nắm lấy'
+	R
+	'váy của Lia.'
+	\L_029d6:
+	\L_029c9:
+	PF1 VAR0056:
+	G 806:
+	G 106:
+	SS 24:
+	\L_02991:
+	ZH 1:
+	'Lia 「Kyan... Em yêu...」'
+	PF0 VAR0056:
+	\L_029d6:
+*L_01d38:
+	ZH 1:
+	'Rances 「Sẽ ổn thôi nếu chúng ta'
+	R
+	'làm như thế này.」'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Vẫn còn mặc váy...?」'
+	\L_029d6:
+	ZH 1:
+	'Rance 「Ừ.」'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Anh thật tuyệt vời... 　　　'
+	R
+	'Tôi thực sự hạnh phúc...」'
+	\L_029d6:
+	ZH 1:
+	'Lia nhìn Rance say đắm.'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Em yêu...」'
+	\L_029d6:
+	ZH 1:
+	'Rance 「Cái gì?」'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Không yêu ai ngoài em...」'
+	\L_029d6:
+	ZH 1:
+	'Rance 「Được rồi, bây giờ.」'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Yahn, không... Ah... Ahn!」'
+	\L_029d6:
+	ZH 1:
+	'Rance thọc một ngón tay vào giữa'
+	R
+	'đùi Lia.'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Ah... Em yêu... Ah... Ah!」'
+	\L_029d6:
+	ZH 1:
+	'Rance di chuyển ngón tay qua'
+	R
+	'lại.Cơ thể của Lia đang co giật'
+	R
+	'vì hầu như không được chạm vào.'
+	\L_029d6:
+	ZH 1:
+	'Rance 「Huh... Cậu thật sự nhạy'
+	R
+	'cảm đấy.」'
+	\L_029d6:
+	ZH 1:
+	'Mật hoa của Lia tràn vào lòng'
+	R
+	'bàn tay Rance.'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Bởi vì... Anh đang chạm vào'
+	R
+	'em, Em yêu... ...Nó khiến em cảm'
+	R
+	'thấy kỳ lạ...」'
+	\L_029d6:
+	ZH 1:
+	'Lia ngọ nguậy hông để cọ xát âm'
+	R
+	'hộ của mình vào ngón tay của'
+	R
+	'Rance.'
+	\L_029d6:
+	ZH 1:
+	'Lia 「À... Ahn... Đau quá... 　　'
+	R
+	'Thôi nào... Em yêu...」'
+	\L_029d6:
+	ZH 1:
+	'Lia ngọ nguậy hông mạnh hơn, đòi'
+	R
+	'hỏi nhiều hơn từ Rance.'
+	\L_029d6:
+	ZH 1:
+	'Rance 「Nếu bạn muốn tôi làm điều'
+	R
+	'gì đó, hãy nói nó là gì.」'
+	\L_029d6:
+	ZH 1:
+	'Rance thọc một ngón tay vào âm'
+	R
+	'hộ ướt đẫm của Lia.'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Kyaah!」'
+	\L_029d6:
+	ZH 1:
+	'Lia run rẩy.'
+	\L_029d6:
+	ZH 1:
+	'Lia 「...À... tôi... đến...」'
+	\L_029d6:
+	ZH 1:
+	'Rance 「Ngón tay của tôi có tốt'
+	R
+	'không?」'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Ừ... Chỉ có anh mới có'
+	R
+	'thể...」'
+	\L_029d6:
+	ZH 1:
+	'Rance 「Vậy thế này thì sao?」'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Kyan.」'
+	\L_029d6:
+	ZH 1:
+	'Rance đẩy nhẹ Lia về phía'
+	R
+	'giường.'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Đ-...」'
+	\L_029d6:
+	ZH 1:
+	'Anh ta kéo váy Lia lên và túm'
+	R
+	'lấy mông cô.'
+	\L_029d6:
+	ZH 1:
+	'Lia 「À...」'
+	\L_029d6:
+	ZH 1:
+	'Rance cọ xát siêu vũ khí của'
+	R
+	'mình vào mông Lia.'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Em yêu... Nhanh lên...」'
+	\L_029d6:
+	ZH 1:
+	'Lia lắc mông, vuốt ve con cặc'
+	R
+	'của Rance.'
+	\L_029d6:
+	ZH 1:
+	'Rance 「Được rồi.」'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Mm... Kyah... Ahn!」'
+	\L_029d6:
+	ZH 1:
+	'Rance đâm thẳng vào Lia mà không'
+	R
+	'hề giữ lại.'
+	\L_029d6:
+	ZH 1:
+	'Rance 「Lấy cái đó đi!」'
+	\L_029d6:
+	ZH 1:
+	'Rance liên tục lắc hông.Anh di'
+	R
+	'chuyển với tốc độ mà anh thấy dễ'
+	R
+	'chịu nhất.'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Kyah... Yah... 　　　 Em'
+	R
+	'yêu...!!」'
+	\L_029d6:
+	ZH 1:
+	'Tiếng sột soạt của chiếc váy của'
+	R
+	'Lia, âm thanh ướt át và tiếng va'
+	R
+	'chạm dữ dội của da thịt tràn'
+	R
+	'ngập căn phòng.'
+	\L_029d6:
+	ZH 1:
+	'Lia 「À... anh yêu em...」'
+	\L_029d6:
+	ZH 1:
+	'Lia nắm chặt thành giường và'
+	R
+	'nhận lấy con cặc của Rance.'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Anh yêu em... Em yêu...!」'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Tôi sẽ làm... bất cứ điều'
+	R
+	'gì... bạn muốn...」'
+	\L_029d6:
+	ZH 1:
+	'Lia 「À... Em yêu...!!」'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Nếu bạn muốn cả thế giới...'
+	R
+	'　　　 Vậy thì... Hãy...」'
+	\L_029d6:
+	ZH 1:
+	'Lia 「Chinh phục nó...!」'
+	\L_029d6:
+	ZH 1:
+	'Tiếng thịt chạm vào thịt ngày'
+	R
+	'càng lớn.'
+	\L_029d6:
+	ZH 1:
+	'Lia 「À... Aaahn!!」'
+	\L_029d6:
+	ZH 1:
+	'Cơ thể Lia co giật dữ dội.'
+	\L_029d6:
+	ZH 1:
+	'Rance 「Kh!!」'
+	\L_029d6:
+	ZH 1:
+	'Rance lên đỉnh với cô ấy.'
+	\L_029d6:
+	ZH 1:
+	'Chất lỏng màu trắng của anh trút'
+	R
+	'xuống chiếc váy trắng tinh'
+	R
+	'khiết...'
+	\L_029d6:
+	{VAR0520 = 301:
+		%0:
+	}
+	PF1 VAR0056:
+	\L_029c9:
+	SS 0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1001!
+	\L_029ad:
+	SS 4:
+	\L_028e9:
+	ZH 1:
+	R
+	'Ngày tiếp theo'
+	PF0 VAR0056:
+	\L_029d6:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Ban công'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 6!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Lối này, Vua Rance.'
+	\L_029d6:
+	\L_029c9:
+	\L_02983:
+	\L_028e9:
+	ZH 1:
+	'Rance được Maris dẫn đến một ban'
+	R
+	'công được dựng sẵn để tiếp kiến'
+	R
+	'​​toàn quốc.'
+	\L_029d6:
+	ZH 1:
+	'Tiếng reo hò lớn có thể được'
+	R
+	'nghe thấy từ bên dưới ban công.'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 1!
+	\L_02905:
+	\L_028b1:
+	ZH 1:
+	'Hwaaah... Rắc rối thật.Cô làm'
+	R
+	'việc này cho tôi, Maris.'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 6!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Bạn không thể nghiêm túc'
+	R
+	'được.Đây là nhiệm vụ đầu tiên'
+	R
+	'của bạn với tư cách là Vua.Hiện'
+	R
+	'nay.'
+	\L_029d6:
+	\L_029c9:
+	\L_02983:
+	\L_02959:
+	ZH 1:
+	'Maris đứng sau Rance và đặt anh'
+	R
+	'ta sao cho anh ta chỉ có thể'
+	R
+	'quay mặt ra ban công.'
+	\L_029d6:
+	\L_029c9:
+	\L_028cd:
+	ZH 1:
+	'............'
+	\L_029d6:
+	ZH 1:
+	'Thật là lãng phí thời gian...'
+	\L_029d6:
+	ZH 1:
+	'Có lẽ tôi không còn lựa chọn nào'
+	R
+	'khác.Có lẽ tôi nên làm điều đó.'
+	\L_029d6:
+	ZH 1:
+	'Nếu tôi nhớ không lầm... Maris'
+	R
+	'đã cho tôi một bài phát biểu mà'
+	R
+	'cô ấy chuẩn bị để lấy lòng công'
+	R
+	'chúng...'
+	\L_029d6:
+	ZH 1:
+	'............'
+	\L_029d6:
+	ZH 1:
+	'Không có nó.Có lẽ tôi đã để nó ở'
+	R
+	'đâu đó.'
+	\L_029d6:
+	ZH 1:
+	'Thôi, sao cũng được.Tôi sẽ ổn'
+	R
+	'miễn là tôi nói được điều gì đó'
+	R
+	'hay ho bằng giọng hát tuyệt vời'
+	R
+	'của mình.'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 5!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Rất nhiều người đang chờ đợi em,'
+	R
+	'em yêu.Nhanh lên, nhanh lên.'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Chắc chắn rồi.'
+	\L_029d6:
+	\L_029c9:
+	\L_028e9:
+	ZH 1:
+	'Rance và Lia cùng nhau bước ra'
+	R
+	'ban công.Tiếng reo hò ngày một'
+	R
+	'lớn hơn.'
+	\L_029d6:
+	ZH 1:
+	'Vua Rance muôn năm!'
+	\L_029d6:
+	ZH 1:
+	'Nữ hoàng Lia muôn năm!'
+	\L_029d6:
+	ZH 1:
+	'Vạn tuế!'
+	\L_029d6:
+	ZH 1:
+	'Vua của Leazaaas!'
+	\L_029d6:
+	ZH 1:
+	'Tiếng reo hò ập đến với họ như'
+	R
+	'một làn sóng.'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Ồ.Ồ.Tôi không biết có bao nhiêu'
+	R
+	'người.'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 6!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Họ đều là công dân Leazas đến để'
+	R
+	'gặp bạn.Tôi tin rằng chỉ riêng ở'
+	R
+	'đây đã có 100.000 người.'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'Maris nói chuyện với Rance từ'
+	R
+	'một nơi mà những người bên dưới'
+	R
+	'không thể nhìn thấy cô ấy.'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 5!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'Này mọi người ơi!'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'Lia vẫy tay và tiếng reo hò càng'
+	R
+	'lớn hơn.'
+	\L_029d6:
+	\L_029c9:
+	\L_02921:
+	ZH 1:
+	'Bây giờ, vị vua mới sẽ tự giới'
+	R
+	'thiệu.Im lặng nào mọi người.'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'Khi Lia nói điều đó vào micro,'
+	R
+	'khán giả gần như im lặng đến mức'
+	R
+	'không thể tin được.'
+	\L_029d6:
+	\L_029c9:
+	\L_028cd:
+	ZH 1:
+	'Ừm, cảm giác thật tuyệt.Thật vui'
+	R
+	'khi có tất cả những người này'
+	R
+	'chờ đợi để nghe tôi nói chuyện.'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Ừm.'
+	\L_029d6:
+	ZH 1:
+	'Tôi là Rance, Vua mới của'
+	R
+	'Leazas.'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'Vua Rance muôn năm!!'
+	\L_029d6:
+	ZH 1:
+	'Leazas muôn năm!!'
+	\L_029d6:
+	ZH 1:
+	'Vua mới vạn tuế!!'
+	\L_029d6:
+	ZH 1:
+	'Một tuyên bố của Rance đã khiến'
+	R
+	'nhiều tiếng reo hò vang lên.'
+	\L_029d6:
+	\L_029c9:
+	\L_028cd:
+	ZH 1:
+	'Huhu, đúng rồi.Tôi là vua của'
+	R
+	'bạn.Mọi người ở đây đều làm việc'
+	R
+	'cho tôi.Tất cả các bạn đều là nô'
+	R
+	'lệ của tôi.'
+	\L_029d6:
+	ZH 1:
+	'Tôi sẽ phải nói điều gì đó để'
+	R
+	'cho họ thấy sự vĩ đại của vị Vua'
+	R
+	'của họ.Bằng cách đó họ sẽ không'
+	R
+	'đánh giá thấp tôi.'
+	\L_029d6:
+	\L_029c9:
+	\L_028e9:
+	ZH 1:
+	'Phản ứng của người dân khiến'
+	R
+	'Rance trở nên kiêu ngạo hơn.'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Được rồi, hãy lắng nghe đây,'
+	R
+	'quần chúng ngu dốt!'
+	\L_029d6:
+	ZH 1:
+	'Từ giờ trở đi, cậu làm việc cho'
+	R
+	'tôi!'
+	\L_029d6:
+	ZH 1:
+	'Bạn sống vì tôi!!'
+	\L_029d6:
+	ZH 1:
+	'Vậy khi ta ra lệnh cho ngươi'
+	R
+	'chết, ngươi sẽ chết!!Hiểu rồi!?'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'Lời nói của Rance khiến người'
+	R
+	'dân trở lại im lặng.'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Ồ, nhưng những cô gái dễ thương'
+	R
+	'sẽ được đối xử đặc biệt.Tôi sẽ'
+	R
+	'dành cho họ tất cả tình yêu của'
+	R
+	'tôi!Gahahahahaha!!'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'Người dân càng trở nên im lặng'
+	R
+	'hơn.Mọi người im lặng nhìn vị'
+	R
+	'vua mới của họ với ánh mắt căm'
+	R
+	'ghét.'
+	\L_029d6:
+	\L_029c9:
+	!VAR0516 : 6!
+	\L_02975:
+	\L_02921:
+	ZH 1:
+	'K-King Rance.Thế còn bài phát'
+	R
+	'biểu tôi đã đưa cho bạn thì sao?'
+	\L_029d6:
+	\L_029c9:
+	\L_02959:
+	ZH 1:
+	'＜ôm hôn）'
+	\L_029d6:
+	ZH 1:
+	'Maris điên cuồng chạy đến chỗ'
+	R
+	'Rance, anh bế cô bằng một tay và'
+	R
+	'hôn lên má cô.'
+	\L_029d6:
+	\L_029c9:
+	\L_028b1:
+	ZH 1:
+	'Vâng, mọi thứ đều là của'
+	R
+	'tôi.Gahahahahahahahahahahahahahaha.'
+	\L_029d6:
+	\L_029c9:
+	\L_02913:
+	\L_02983:
+	\L_02959:
+	ZH 1:
+	'Tiếng cười của Rance vang vọng'
+	R
+	'khắp Lâu đài Leazas vốn im lặng.'
+	\L_029d6:
+	\L_029c9:
+	\L_028e9:
+	ZH 1:
+	R
+	'Ngày tiếp theo'
+	R
+	R
+	'Nội chiến nổ ra.'
+	\L_029d6:
+	\L_029c9:
+	\L_029bb:
+	!VAR0158 : 3!
+	!VAR0130 : 2!
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0158 : 4!
+	!VAR0130 : 2!
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0158 : 5!
+	!VAR0130 : 2!
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0158 : 6!
+	!VAR0130 : 2!
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0158 : 7!
+	!VAR0130 : 2!
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	%0:
+*L_028b1:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_028cd:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_028e9:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02905:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02913:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02921:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0293d:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02959:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02975:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02983:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02991:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_029ad:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+*L_029bb:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_029c9:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_029d6:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

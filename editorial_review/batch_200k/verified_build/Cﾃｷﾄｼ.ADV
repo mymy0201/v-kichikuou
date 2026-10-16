@@ -1,0 +1,4448 @@
+	!VAR0231 : 0!
+*L_00035:
+	!VAR0691 : VAR0158!
+	MM 8, VAR0200 + VAR0158 - 1:
+	!VAR0516 : VAR0135!
+	\L_05397:
+	{VAR0485 = 1:
+		!VAR0520 : 31!
+		%#Gｶﾌｪ.ADV:
+		%0:
+	}
+	{VAR0485 = 2:
+		!VAR0520 : 5!
+		%#Gﾏﾘｱ.ADV:
+		%0:
+	}
+*L_00088:
+	\L_052d3:
+	ZH 1:
+	'［'
+	X 8:
+	'］'
+	R
+	'　　　　　'
+	\L_05181:
+	{VAR0231 \ 1:
+		ZH 1:
+		'Kinh tế: ?? Phòng thủ: ?? Khu'
+		R
+		'vực chiến đấu: ??'
+	}
+	{VAR0231 = 1:
+		ZH 1:
+		'Kinh tế:'
+		H 0, VAR0132:
+		ZH 1:
+		'Phòng thủ:'
+		H 0, VAR0133:
+		ZH 1:
+		R
+		'Khu vực chiến đấu:'
+		H 0, VAR0134:
+	}
+*L_0011d:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_0011d:
+	}
+	\L_05285:
+	{(VAR0566 > 3) * (VAR0566 < 20) * (VAR0158 = 77) * (VAR0544 \ 0):
+		ZH 1:
+		$L_0022f$
+		'○Tới Nhà thờ AL'
+		$
+	}
+	{(VAR0566 > 3) * (VAR0566 < 20) * (VAR0158 = 77) * (VAR0544 = 0):
+		ZH 1:
+		$L_0011d$
+		'×Tới Nhà thờ AL'
+		$
+	}
+	{VAR0518 \ 0:
+		ZH 1:
+		$L_00240$
+		'Tấn công'
+		$
+	}
+	{VAR0518 = 0:
+		ZH 1:
+		$L_00240$
+		'Cướp bóc'
+		$
+	}
+	{VAR0518 \ 0:
+		ZH 1:
+		$L_00a25$
+		'Thao lược Ninja'
+		$
+	}
+	ZH 1:
+	$L_00215$
+	'Quay lại'
+	$
+	]
+	\L_05290:
+	@L_00215:
+*L_00215:
+	!VAR0691 : 0!
+	\L_053b3:
+	\L_053a5:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0022f:
+	!VAR0544 : 0!
+	!VAR0520 : 7!
+	%#GAL.ADV:
+	%0:
+*L_00240:
+	\L_053b3:
+	{VAR0518 = 0:
+		!VAR0520 : 1!
+		%#Iﾄｳｿﾞｸ.ADV:
+		{VAR0518 \ 0:
+			%#ｵｰﾌﾟﾆﾝｸﾞ.ADV:
+		}
+		%0:
+	}
+	{VAR0518 = 4:
+		@L_04b93:
+	}
+	{VAR0546 = 0:
+		@L_04aba:
+	}
+	{VAR0158 = 82:
+		\L_049b2:
+	}
+	{(VAR0518 = 1) * (VAR0130 \ 2):
+		@L_04825:
+	}
+	{VAR0130 = 3:
+		@L_00a2e:
+	}
+	{(VAR0130 = 5) * (VAR0444 < 10) * (VAR0059 = 1):
+		!VAR0520 : 3!
+		%#Gﾊﾟｯﾄﾝ.ADV:
+		{VAR0444 = 20:
+			%0:
+		}
+	}
+	{(VAR0130 = 5) * (VAR0444 = 10) * (VAR0059 = 1):
+		!VAR0520 : 4!
+		%#Gﾊﾟｯﾄﾝ.ADV:
+	}
+	!VAR0516 : 1!
+	\L_052ef:
+	\L_0529b:
+	ZH 1:
+	'Vậy hãy bắt đầu trận chiến.'
+	R
+	'Chuẩn bị đi, Maris.'
+	\L_053c0:
+	\L_053b3:
+	{(VAR0130 = 2) * (VAR0644 = 1):
+		@L_04793:
+	}
+	{((VAR0158 = 78) + (VAR0158 = 89) + (VAR0158 = 90) + (VAR0158 = 91)) * (VAR0518 = 2):
+		{(VAR0060 \ 2) + (VAR0059 \ 2) + (VAR0334 < 10):
+			!VAR0520 : 5!
+			%#Iｼﾚｲﾌﾞ.ADV:
+			\L_052fd:
+			\L_0536d:
+			@L_00088:
+		}
+		!VAR0520 : 6!
+		%#Iｼﾚｲﾌﾞ.ADV:
+	}
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Vâng, vua Rance.'
+	\L_053c0:
+	ZH 1:
+	'Vui lòng chọn đơn vị bạn muốn ra'
+	R
+	'chiến trường.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0021 : 4!
+	!VAR0022 : 1!
+	{VAR0158 = 32:
+		!VAR0158 : 33!
+		{VAR0130 \ 1:
+			!VAR0158 : 34!
+			{VAR0130 \ 1:
+				!VAR0158 : 31!
+				{VAR0130 \ 1:
+					!VAR0021 : 1!
+				}
+			}
+		}
+		!VAR0158 : 32!
+	}
+	{VAR0158 = 31:
+		!VAR0158 : 36!
+		{VAR0130 \ 1:
+			!VAR0158 : 32!
+			{VAR0130 \ 1:
+				!VAR0158 : 30!
+				{VAR0130 \ 1:
+					!VAR0021 : 1!
+				}
+			}
+		}
+		!VAR0158 : 31!
+	}
+	!VAR0179 : 0!
+	NB VAR0180, VAR0021, 20:
+	{VAR0021 = 1:
+		\L_0530b:
+		ZH 1:
+		'Ngoài ra, Vua Rance.'
+		\L_053c0:
+		ZH 1:
+		'Do con đường xuyên qua dãy núi'
+		R
+		'quá hẹp nên chỉ có một đơn vị có'
+		R
+		'thể tấn công.'
+		\L_053c0:
+		\L_053b3:
+	}
+	\L_0536d:
+	!VAR0179 : 0!
+	NB VAR0021, VAR0180, 20:
+	%#Sﾌﾞﾀｲ.ADV:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : VAR0135!
+	\L_05397:
+	{VAR0569 = 0:
+		@L_00088:
+	}
+	{((VAR0569 = 44) + (VAR0570 = 44) + (VAR0571 = 44) + (VAR0572 = 44)) * (VAR0130 = 11):
+		!VAR0516 : 463!
+		\L_052ef:
+		\L_0529b:
+		ZH 1:
+		'Chúng ta không thể thực hiện'
+		R
+		'cuộc tấn công đó.'
+		\L_053c0:
+		\L_053b3:
+		\L_052fd:
+		\L_05114:
+		@L_00088:
+	}
+	{(VAR0569 = 37) + (VAR0570 = 37) + (VAR0571 = 37) + (VAR0572 = 37):
+		{(VAR0130 = 7) * (VAR0650 < 8):
+			!VAR0516 : 42!
+			\L_052ef:
+			\L_0529b:
+			ZH 1:
+			'Uh... Owowow... Tôi nghĩ có lẽ'
+			R
+			'tôi bị tiêu chảy.'
+			\L_053c0:
+			ZH 1:
+			'Xin lỗi, vua Rance, nhưng xin'
+			R
+			'thứ lỗi cho tôi được phép chiến'
+			R
+			'đấu.'
+			\L_053c0:
+			\L_053b3:
+			\L_052d3:
+			ZH 1:
+			'Gandhi từ chối chiến đấu.'
+			\L_053c0:
+			\L_053b3:
+			\L_052fd:
+			\L_05114:
+			@L_00088:
+		}
+	}
+	{(VAR0158 = 56) * (VAR0325 = 1):
+		@L_00773:
+	}
+	{(VAR0569 = 29) + (VAR0570 = 29) + (VAR0571 = 29) + (VAR0572 = 29):
+		{(VAR0130 \ 8) * (VAR0130 \ 10):
+			!VAR0516 : 75!
+			\L_052ef:
+			\L_0529b:
+			ZH 1:
+			'Tôi sẽ không tham gia vào những'
+			R
+			'cuộc tranh cãi giữa những con'
+			R
+			'người thấp kém như các bạn.'
+			\L_053c0:
+			\L_053b3:
+			\L_052d3:
+			ZH 1:
+			'Satella từ chối chiến đấu.'
+			\L_053c0:
+			\L_053b3:
+			\L_052fd:
+			\L_05114:
+			@L_00088:
+		}
+	}
+	{(VAR0569 = 30) + (VAR0570 = 30) + (VAR0571 = 30) + (VAR0572 = 30):
+		{(VAR0130 \ 8) * (VAR0130 \ 10):
+			!VAR0516 : 447!
+			\L_052ef:
+			\L_0529b:
+			ZH 1:
+			'Đây không phải là cuộc chiến của'
+			R
+			'chúng tôi.'
+			\L_053c0:
+			\L_053b3:
+			\L_052d3:
+			ZH 1:
+			'Meglass từ chối chiến đấu.'
+			\L_053c0:
+			\L_053b3:
+			\L_052fd:
+			\L_05114:
+			@L_00088:
+		}
+	}
+*L_00773:
+	\L_052d3:
+	ZH 1:
+	'Quân ta tiến tới'
+	R
+	X 8:
+	'.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0584 : 0!
+	{VAR0130 = 2:
+		%#TCﾘｰｻﾞｽ2.ADV:
+	}
+	{(VAR0130 = 6) * (VAR0325 = 10):
+		!VAR0529 : 1!
+		ZH 1:
+		MS 10, "Fleeing Soldier":
+		!VAR0530 : 73!
+		!VAR0531 : 0!
+		!VAR0532 : 0!
+		!VAR0533 : 0!
+		!VAR0156 : 73!
+		!VAR0128 : 1!
+		!VAR0116 : VAR0117!
+		!VAR0106 : VAR0107!
+		ZH 1:
+		MS 4, "Fleeing Soldier":
+		R
+		MS 5, "Foot Soldiers":
+		MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+		MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+		@L_00a0d:
+	}
+	{VAR0130 = 6:
+		%#TJAPAN2.ADV:
+	}
+	{VAR0130 = 7:
+		%#Tｾﾞｽ2.ADV:
+	}
+	{VAR0130 = 4:
+		%#Tﾍﾙﾏﾝ2.ADV:
+	}
+	{VAR0130 = 11:
+		!VAR0520 : 9!
+		%#GAL.ADV:
+	}
+	{VAR0130 = 8:
+		%#Tｹｲﾌﾞﾘｽ2.ADV:
+		{VAR0473 = 1:
+			!VAR0473 : 0!
+			%0:
+		}
+	}
+	{VAR0130 = 5:
+		!VAR0529 : 1!
+		!VAR0001 : 54!
+		!VAR0002 : 55!
+		!VAR0003 : 56!
+		!VAR0004 : 57!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+		{VAR0646 > 9:
+			!VAR0005 : 32!
+		}
+		\L_04f26:
+	}
+	{(VAR0569 = 0) * (VAR0473 = 1):
+		!VAR0473 : 0!
+		%0:
+	}
+	{(VAR0569 = 0) * (VAR0063 = 1):
+		@L_04c96:
+	}
+	{(VAR0569 = 0) * (VAR0063 = 0):
+		!VAR0063 : 1!
+		@L_04d1f:
+	}
+	{VAR0651 = 2:
+		!VAR0520 : 2!
+		!VAR0651 : 3!
+		!VAR0546 : 0!
+		%#Gﾊﾟﾊﾟｲｱ.ADV:
+		%0:
+	}
+	{VAR0530 = 0:
+		!VAR0546 : 0!
+		\L_052d3:
+		ZH 1:
+		'Quân ta chiếm đóng'
+		R
+		X 8:
+		'không gặp khó khăn gì.'
+		\L_053c0:
+		\L_053b3:
+		!VAR0130 : 1!
+		!VAR0021 : VAR0130 + 819!
+		!VAR0045 : VAR0142!
+		!VAR0046 : VAR0143!
+		!VAR0516 : 4!
+		%#M.ADV:
+		!VAR0516 : 3!
+		%#M.ADV:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+*L_00a0d:
+	!VAR0581 : 1!
+	%#FIGT_A.ADV:
+	!VAR0581 : 0!
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_00a25:
+	%#Cﾆﾝｼﾞｬ.ADV:
+	@L_00035:
+*L_00a2e:
+	{(VAR0158 = 28) * (VAR0468 = 1):
+		\L_02e40:
+		@L_00035:
+	}
+	{(VAR0158 = 29) * (VAR0328 = 0):
+		!VAR0520 : 1!
+		%#Iｼｬﾝｸﾞﾘﾗ.ADV:
+		@L_00088:
+	}
+	{VAR0158 = 29:
+		!VAR0520 : 2!
+		%#Iｼｬﾝｸﾞﾘﾗ.ADV:
+		@L_00215:
+	}
+	!VAR0516 : 1!
+	\L_052ef:
+	\L_0529b:
+	ZH 1:
+	'Đã đến lúc chinh phục thành bang'
+	R
+	'độc lập ngạo mạn của'
+	R
+	X 8:
+	'.'
+	\L_053c0:
+	\L_053b3:
+	{VAR0158 = 21:
+		!VAR0520 : 3!
+		%#Iｼﾚｲﾌﾞ.ADV:
+		%0:
+	}
+	{VAR0158 = 27:
+		!VAR0021 : 4!
+		!VAR0022 : 1!
+		%#Sﾌﾞﾀｲ.ADV:
+		{VAR0569 = 0:
+			@L_00088:
+		}
+		!VAR0520 : 1!
+		%#Gｻｰﾅｷｱ.ADV:
+		%0:
+	}
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Ngài muốn chinh phục họ bằng'
+	R
+	'cách nào, Bệ hạ Rance?'
+	\L_053c0:
+	\L_053b3:
+	\L_052b7:
+	ZH 1:
+	'Để ta nghĩ xem...'
+	\L_053c0:
+	\L_053b3:
+*L_00b5c:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_00b5c:
+	}
+	{(VAR0158 \ 77) * (VAR0158 \ 29):
+		ZH 1:
+		$L_00c22$
+		'Đàm phán'
+		$
+	}
+	ZH 1:
+	$L_043bb$
+	'Sử dụng vũ lực'
+	$
+	R
+	$L_00bc1$
+	'Dừng lại'
+	$
+	]
+	@L_00b5c:
+*L_00bc1:
+	\L_0529b:
+	ZH 1:
+	'Không sao đâu.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Ồ, bạn có chắc không?'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Sao cũng được. Không có ích gì'
+	R
+	'khi làm điều đó bây giờ.'
+	\L_053c0:
+	\L_053b3:
+	\L_052fd:
+	\L_0536d:
+	@L_0011d:
+*L_00c22:
+	{(VAR0158 = 17) * (VAR0475 = 100):
+		\L_0530b:
+		ZH 1:
+		'King Rance, bạn đã giết chủ tịch'
+		R
+		'Hiệp hội DX, nên việc đàm phán'
+		R
+		'không còn khả thi nữa.'
+		\L_053c0:
+		\L_053b3:
+		\L_0529b:
+		ZH 1:
+		'Ồ vâng. Vậy thì chúng ta chỉ có'
+		R
+		'thể tấn công chúng thôi phải'
+		R
+		'không?'
+		\L_053c0:
+		\L_053b3:
+		@L_00b5c:
+	}
+	\L_0529b:
+	ZH 1:
+	'Chà, là một quý ông, tôi không'
+	R
+	'quan tâm đến việc sử dụng vũ'
+	R
+	'lực.'
+	\L_053c0:
+	ZH 1:
+	'Hãy cùng nói chuyện với họ. Tôi'
+	R
+	'sẽ bắt họ làm việc dưới quyền'
+	R
+	'của tôi.'
+	\L_053c0:
+	\L_053b3:
+	\L_052fd:
+	\L_0536d:
+	\L_053a5:
+	\L_052d3:
+	ZH 1:
+	R
+	'.........'
+	\L_053c0:
+	ZH 1:
+	R
+	'......'
+	\L_053c0:
+	ZH 1:
+	R
+	'...'
+	\L_053c0:
+	ZH 1:
+	'Quân Leazas bao vây'
+	R
+	X 8:
+	'.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 1045!
+	\L_05397:
+	!VAR0516 : 1!
+	\L_052ef:
+	\L_052d3:
+	ZH 1:
+	'Họ dựng trại và ra lệnh cho thị'
+	R
+	'trưởng'
+	X 8:
+	'để đi ra.'
+	\L_053c0:
+	\L_053b3:
+	{VAR0158 = 17:
+		@L_01433:
+	}
+	{VAR0158 = 18:
+		@L_01cac:
+	}
+	{VAR0158 = 19:
+		@L_01380:
+	}
+	{VAR0158 = 20:
+		@L_01e9a:
+	}
+	{VAR0158 = 22:
+		@L_00e40:
+	}
+	{VAR0158 = 23:
+		@L_0265f:
+	}
+	{VAR0158 = 24:
+		@L_032b1:
+	}
+	{VAR0158 = 25:
+		@L_034d0:
+	}
+	{VAR0158 = 26:
+		@L_03d98:
+	}
+	{VAR0158 = 28:
+		@L_02a43:
+	}
+*L_00e40:
+	\L_0530b:
+	ZH 1:
+	'Xin lỗi, Vua của Leazas.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 414!
+	\L_0535f:
+	\L_0529b:
+	ZH 1:
+	'... Anh chàng có vẻ ngoài lòe'
+	R
+	'loẹt này là ai?'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Sh... Vua Rance. Đây là Mars Đại'
+	R
+	'đế, thị trưởng thành phố Mars.'
+	\L_053c0:
+	\L_053b3:
+	\L_05343:
+	ZH 1:
+	'Maris thì thầm vào tai anh.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	!VAR0516 : 414!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Aah, đừng lo lắng về điều đó, cô'
+	R
+	'nhân viên dễ thương.'
+	\L_053c0:
+	ZH 1:
+	'Tôi đã quen với việc bị nhìn với'
+	R
+	'ánh mắt kính sợ.'
+	\L_053c0:
+	ZH 1:
+	'Ngoài ra,'
+	\L_053c0:
+	ZH 1:
+	'tôi cảm thấy dễ chịu hơn khi ở'
+	R
+	'cạnh những người thẳng thắn hơn'
+	R
+	'là những người cố gắng che giấu'
+	\L_053c0:
+	ZH 1:
+	'mọi chuyện.'
+	\L_053c0:
+	\L_053b3:
+	\L_05343:
+	ZH 1:
+	'Mars Đại đế mỉm cười với Maris.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Nhân tiện, Vua của Leazas. Tôi'
+	R
+	'có thể hỏi bạn đến đây để làm gì'
+	R
+	'không?'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Vâng, chắc chắn rồi. Tôi sẽ nói'
+	R
+	'ngắn gọn.'
+	\L_053c0:
+	ZH 1:
+	'Đầu hàng Leazas.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Và nếu tôi từ chối...?'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Bạn sẽ chỉ nhìn thấy máu.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Hmmmmmmmmmmmmmm. Tôi yêu sự'
+	R
+	'thẳng thắn của bạn, bạn là một'
+	R
+	'người vui vẻ.'
+	\L_053c0:
+	ZH 1:
+	'Nhắc mới nhớ, bài phát biểu của'
+	R
+	'bạn sau ngày cưới... Tôi nghe nó'
+	R
+	'khá say mê.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Tất nhiên. Vậy thì sao?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Để tôi nghĩ xem...'
+	\L_053c0:
+	\L_053b3:
+	\L_05343:
+	ZH 1:
+	'Mars Đại đế có vẻ mặt rất thận'
+	R
+	'trọng, và...'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Tôi có...'
+	\L_053c0:
+	ZH 1:
+	'Một đề xuất.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Cái gì?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Tôi muốn được đối xử như một vị'
+	R
+	'tướng Leazas.'
+	\L_053c0:
+	ZH 1:
+	'Aah, tuy nhiên, tôi không nói'
+	R
+	'rằng hãy biến tôi thành một vị'
+	R
+	'tướng thực sự của đất nước bạn.'
+	\L_053c0:
+	ZH 1:
+	'Tôi sẽ ở lại sao Hỏa.'
+	\L_053c0:
+	ZH 1:
+	'Tuy nhiên, khi tôi đến đất nước'
+	R
+	'của bạn,'
+	\L_053c0:
+	ZH 1:
+	'tôi mong muốn được nhận mức'
+	R
+	'lương và sự đối xử giống như'
+	R
+	'bạn.'
+	\L_053c0:
+	ZH 1:
+	'Nếu bạn chấp nhận yêu cầu đó,'
+	R
+	'tôi sẽ giao Mars cho bạn.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Ừm...'
+	\L_053c0:
+	\L_053b3:
+*L_01173:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_01173:
+	}
+	ZH 1:
+	$L_011b3$
+	'Từ chối'
+	$
+	R
+	$L_0125b$
+	'Làm tướng'
+	$
+	]
+	@L_01173:
+*L_011b3:
+	\L_0529b:
+	ZH 1:
+	'Không! Tại sao tôi lại làm điều'
+	R
+	'đó cho bạn?!'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'... À à...'
+	\L_053c0:
+	ZH 1:
+	'Tôi hiểu rồi...'
+	\L_053c0:
+	ZH 1:
+	'Thật đáng tiếc. Xin lỗi nhé.'
+	\L_053c0:
+	\L_053b3:
+	\L_05343:
+	ZH 1:
+	'Mars Đại đế cúi chào Rance một'
+	R
+	'cách cường điệu và lao ra ngoài'
+	R
+	'gần như đang lướt đi.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	\L_0529b:
+	ZH 1:
+	'Có chuyện gì với anh chàng đó'
+	R
+	'vậy...?'
+	\L_053c0:
+	\L_053b3:
+	@L_00088:
+*L_0125b:
+	\L_0529b:
+	ZH 1:
+	'... Được rồi, chắc chắn rồi. Tôi'
+	R
+	'sẽ xem xét đặc biệt và chấp nhận'
+	R
+	'yêu cầu của bạn.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Ồ, thật sao?! Tôi rất vui vì đã'
+	R
+	'hỏi.'
+	\L_053c0:
+	ZH 1:
+	'Đó là một quyết định nhanh'
+	R
+	'chóng. Bây giờ bạn là Vua của'
+	R
+	'sao Hỏa, Vua của Leazas.'
+	\L_053c0:
+	ZH 1:
+	'Tôi sẽ làm việc chăm chỉ để có'
+	R
+	'ích cho bạn.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Ừm.'
+	\L_053c0:
+	\L_053b3:
+	\L_05327:
+	ZH 1:
+	'Heheheh...'
+	\L_053c0:
+	\L_053b3:
+	!VAR0154 : 26!
+	!VAR0102 : 1!
+	!VAR0474 : 2!
+	!VAR0130 : 1!
+	!VAR0546 : 0!
+	!VAR0156 : 71!
+	\L_05105:
+	\L_052d3:
+	ZH 1:
+	'Do đó, sao Hỏa hợp nhất với'
+	R
+	'Leazas.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	!VAR0516 : 10!
+	%#M.ADV:
+	%0:
+*L_01380:
+	\L_052d3:
+	ZH 1:
+	'Sau đó ba giờ trôi qua.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Tại sao họ đến muộn thế?'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Họ đến khá muộn...'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Rồi 5 giờ trôi qua.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Chết tiệt, tôi sẽ phá hủy thành'
+	R
+	'phố này. Điều này là không thể'
+	R
+	'tha thứ được.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'............'
+	\L_053c0:
+	\L_053b3:
+	@L_00b5c:
+*L_01433:
+	\L_052d3:
+	ZH 1:
+	'Sau đó một thời gian, một người'
+	R
+	'đàn ông xuất hiện từ Rockearth.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 443!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Rất vui được gặp bạn. Tôi là đại'
+	R
+	'diện của Rockearth. Tên tôi là'
+	R
+	'Gracq.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Người đại diện? Tôi yêu cầu được'
+	R
+	'gặp thị trưởng. Tại sao bạn lại'
+	R
+	'ở đây?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'À...'
+	\L_053c0:
+	ZH 1:
+	'Sự thật của vấn đề là, về cơ bản'
+	R
+	'tôi là thị trưởng...'
+	\L_053c0:
+	ZH 1:
+	'Tôi nghĩ rằng ngài có thể không'
+	R
+	'hài lòng, thưa đức vua,'
+	\L_053c0:
+	ZH 1:
+	'nhưng tôi đến đây vì tôi được'
+	R
+	'biết là ngài muốn gặp thị trưởng'
+	R
+	'dù thế nào đi nữa.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Hừm...'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'King... Anh ấy cũng là đại diện'
+	R
+	'của Hiệp hội DX.'
+	\L_053c0:
+	\L_053b3:
+	\L_05343:
+	ZH 1:
+	'Maris thì thầm.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Cái gì? Hiệp hội DX là gì?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Có thể nói như vậy là Mafia.'
+	R
+	'Tham gia vào ma túy, mại dâm,'
+	R
+	'giết người, tống tiền...'
+	\L_053c0:
+	ZH 1:
+	'Một tổ chức liên quan đến việc'
+	R
+	'phá vỡ mọi luật lệ có thể có để'
+	R
+	'củng cố và mở rộng.'
+	\L_053c0:
+	ZH 1:
+	'Họ không thể được ngưỡng mộ.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Họ tốt hơn hay tệ hơn kẻ trộm?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'... Tôi cũng không thích lắm.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	!VAR0516 : 443!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Qua Rance.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Cái gì?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Bạn muốn thành phố này phải'
+	R
+	'không?'
+	\L_053c0:
+	\L_053b3:
+	\L_052b7:
+	ZH 1:
+	'Thật tốt khi kẻ xấu nhanh chóng'
+	R
+	'đi vào vấn đề.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Đúng vậy. Không phải bạn chỉ là'
+	R
+	'một chàng trai tốt sao? Bạn chắc'
+	R
+	'chắn biết vị trí của bạn.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Điều đó đến với tôi một cách tự'
+	R
+	'nhiên ngay khi tôi nhận được'
+	R
+	'giấy triệu tập của bạn.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Vậy bạn sẽ làm gì? Bạn sẽ ngoan'
+	R
+	'ngoãn đầu hàng chứ?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'À...'
+	\L_053c0:
+	ZH 1:
+	'Vua. Chúng ta có thể thỏa thuận'
+	R
+	'được không?'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Một thỏa thuận?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Tôi không đặc biệt quan tâm đến'
+	R
+	'việc có thẩm quyền đối với thành'
+	R
+	'phố nhỏ bé này.'
+	\L_053c0:
+	ZH 1:
+	'Bạn có thể có nó.'
+	\L_053c0:
+	ZH 1:
+	'Tôi tin rằng người phụ nữ xinh'
+	R
+	'đẹp bên cạnh bạn đã nói với bạn'
+	R
+	'về Hiệp hội DX...'
+	\L_053c0:
+	ZH 1:
+	'Như bạn đã nghe,'
+	\L_053c0:
+	ZH 1:
+	'tổ chức của chúng tôi chủ yếu sử'
+	R
+	'dụng các phương pháp mà thế giới'
+	R
+	'không hài lòng...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Có vẻ như vậy.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Đây là thỏa thuận...'
+	\L_053c0:
+	ZH 1:
+	'Tôi muốn bạn bỏ qua các hoạt'
+	R
+	'động của chúng tôi.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Bạn đã nói gì?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Aah, tôi vừa nhớ ra. Chào.'
+	\L_053c0:
+	\L_053b3:
+	\L_05343:
+	ZH 1:
+	'Gracq ra lệnh cho cấp dưới,'
+	R
+	'người này mang một chiếc rương'
+	R
+	'vào.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Đây...'
+	\L_053c0:
+	\L_053b3:
+	\L_05343:
+	ZH 1:
+	'Cấp dưới mở cốp xe ra, phát hiện'
+	R
+	'bên trong chứa đầy tiền.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'ồ.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Đây chỉ là một khoản tiền gửi'
+	R
+	'nhỏ.'
+	\L_053c0:
+	ZH 1:
+	'Nếu bạn chấp thuận các hoạt động'
+	R
+	'của chúng tôi,'
+	\L_053c0:
+	ZH 1:
+	'chúng tôi sẽ hỗ trợ tài trợ cho'
+	R
+	'các nỗ lực chiến tranh của bạn.'
+	\L_053c0:
+	ZH 1:
+	'Nếu bây giờ bạn đồng ý, King,'
+	R
+	'Rockearth và nguồn tài trợ của'
+	R
+	'chúng tôi có thể là của bạn...'
+	\L_053c0:
+	ZH 1:
+	'Dù thế nào đi nữa...'
+	\L_053c0:
+	ZH 1:
+	'Ngay cả khi chúng tôi không thể'
+	R
+	'tiếp tục hoạt động kinh doanh'
+	R
+	'trên bề mặt,'
+	\L_053c0:
+	ZH 1:
+	'chúng tôi vẫn có thể hoạt động'
+	R
+	'tốt dưới lòng đất...'
+	\L_053c0:
+	ZH 1:
+	'Thế thì sao? Tôi tin rằng đó là'
+	R
+	'một thỏa thuận tốt...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'............'
+	\L_053c0:
+	\L_053b3:
+*L_01991:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_01991:
+	}
+	ZH 1:
+	$L_01ac9$
+	'Tôi sẽ chấp thuận bạn'
+	$
+	R
+	$L_019d1$
+	'Kinh tởm, chết đi'
+	$
+	]
+	@L_01991:
+*L_019d1:
+	!VAR0475 : 100!
+	\L_0529b:
+	ZH 1:
+	'Kinh tởm. Tôi không thể cho phép'
+	R
+	'những kẻ xấu xa như bạn tồn tại.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Cái gì...?'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Rance vung kiếm.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Gyaaaaaah!!'
+	\L_053c0:
+	ZH 1:
+	'Không thể nào... Làm sao bạn có'
+	R
+	'thể không nhận lấy thỏa thuận'
+	R
+	'ngon lành này...?'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Tôi vừa nói phải không? Cái ác'
+	R
+	'phải bị trừng phạt!'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	\L_05343:
+	ZH 1:
+	'Gracq, đại diện của Rockearth,'
+	R
+	'đã bị giết.'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Cuộc đàm phán với Rockearth thất'
+	R
+	'bại.'
+	\L_053c0:
+	\L_053b3:
+	@L_00088:
+*L_01ac9:
+	!VAR0475 : 1!
+	\L_0529b:
+	ZH 1:
+	'Được rồi, nghe hay đấy. Tôi sẽ'
+	R
+	'nhắm mắt làm ngơ cho các bạn.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Cảm ơn bạn rất nhiều. Một quyết'
+	R
+	'định sáng suốt.'
+	\L_053c0:
+	ZH 1:
+	'Đúng như người ta mong đợi về vị'
+	R
+	'vua tương lai của thế giới.'
+	\L_053c0:
+	ZH 1:
+	'Hãy tiếp tục hợp nhất với'
+	R
+	'Rockearth.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Ừ, tôi sẽ làm bất cứ điều gì.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Nhân tiện...'
+	\L_053c0:
+	ZH 1:
+	'Vua thích loại phụ nữ nào hơn?'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Phụ nữ??'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Vâng... Các cô gái. Tôi nghe tin'
+	R
+	'đồn rằng bạn khá thích những cô'
+	R
+	'gái xinh đẹp.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'À...'
+	\L_053c0:
+	ZH 1:
+	'Con gái dễ thương thì tốt. Ừm.'
+	R
+	'Tốt nhất là loại ngoan ngoãn,'
+	R
+	'ngây thơ.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Đã hiểu. Bây giờ, thỉnh thoảng'
+	R
+	'hãy đến thăm chúng tôi nhé.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0130 : 1!
+	!VAR0546 : 0!
+	!VAR0156 : 68!
+	\L_05105:
+	!VAR0156 : 69!
+	\L_05105:
+	\L_052d3:
+	ZH 1:
+	'Do đó, Rockearth sáp nhập với'
+	R
+	'Leazas.'
+	\L_053c0:
+	ZH 1:
+	'Một khoản hối lộ trị giá'
+	R
+	'50.000.000 VÀNG cũng đã được'
+	R
+	'nhận.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0519 : VAR0519 + 500!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_01cac:
+	\L_052d3:
+	ZH 1:
+	'Thị trưởng của Ice ngay lập tức'
+	R
+	'xuất hiện từ thành phố.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 411!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Tôi là thị trưởng của Ice. Tên'
+	R
+	'tôi là...'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Thị trưởng cố gắng gọi tên ông'
+	R
+	'ta nhưng Rance đã đưa tay ra và'
+	R
+	'ngắt lời.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Tôi không quan tâm đến tên của'
+	R
+	'bạn. Đầu hàng.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Thật là thô lỗ...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Im đi!!'
+	\L_053c0:
+	ZH 1:
+	'Đầu hàng hay chết? Chọn một.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'............'
+	\L_053c0:
+	ZH 1:
+	'Uh... Tôi muốn quay lại một chút'
+	R
+	'để tổ chức một cuộc họp...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Không.'
+	\L_053c0:
+	ZH 1:
+	'Hãy chọn ngay tại đây và ngay'
+	R
+	'bây giờ. Nếu không, bạn sẽ chết.'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Có một khoảng thời gian im lặng'
+	R
+	'ngắn ngủi.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'... Đã hiểu.'
+	\L_053c0:
+	ZH 1:
+	'Chúng tôi sẽ đầu hàng.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	\L_052fd:
+	\L_053a5:
+	!VAR0130 : 1!
+	!VAR0546 : 0!
+	!VAR0156 : 66!
+	\L_05105:
+	!VAR0156 : 67!
+	\L_05105:
+	\L_052d3:
+	ZH 1:
+	'Do đó, Ice hợp nhất với Leazas.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	!VAR0516 : 10!
+	%#M.ADV:
+	%0:
+*L_01e9a:
+	{(VAR0476 \ 0) * (VAR0476 < VAR0517):
+		@L_0260c:
+	}
+	{VAR0476 \ 0:
+		@L_023f3:
+	}
+	\L_052d3:
+	ZH 1:
+	'Một lúc sau, thị trưởng Lazeal'
+	R
+	'bước ra khỏi thành phố.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 411!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Ừm... Tôi là Amuro, thị trưởng'
+	R
+	'của Lazeal...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Ừm.'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Rance hành động như thể đang'
+	R
+	'nghe lời thị trưởng...'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	!VAR0516 : 65!
+	\L_0535f:
+	\L_052d3:
+	ZH 1:
+	'Anh ta đang nhìn chằm chằm vào'
+	R
+	'người thư ký đang đứng đằng sau'
+	R
+	'thị trưởng.'
+	\L_053c0:
+	\L_053b3:
+	\L_052b7:
+	ZH 1:
+	'Người phụ nữ tốt bụng. Có vẻ hơi'
+	R
+	'nghiêm khắc nhưng vẫn...'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	!VAR0516 : 411!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Ờ... thưa bệ hạ?'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Cái gì?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Tôi muốn có câu trả lời cho câu'
+	R
+	'hỏi của mình...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'............'
+	\L_053c0:
+	ZH 1:
+	'Chà, tôi nghĩ tôi có thể bỏ'
+	R
+	'chuyện đó sang một bên...'
+	\L_053c0:
+	ZH 1:
+	'Đầu hàng. Nếu không, máu sẽ đổ'
+	R
+	'ra một cách vô ích. Đó là tất cả'
+	R
+	'những gì tôi sẽ nói.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Được rồi, tôi hiểu. Tôi sẵn sàng'
+	R
+	'đầu hàng.'
+	\L_053c0:
+	ZH 1:
+	'Tuy nhiên, xin hãy cho tôi một'
+	R
+	'tháng để làm việc đó.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'... Hửm, tại sao vậy?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Tôi muốn có thời gian mà tôi'
+	R
+	'nghĩ sẽ cần để đầu hàng thành'
+	R
+	'phố. Thế có ổn không?'
+	\L_053c0:
+	\L_053b3:
+*L_020c7:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_020c7:
+	}
+	ZH 1:
+	$L_02107$
+	'Không'
+	$
+	R
+	$L_02161$
+	'Tôi sẽ đợi'
+	$
+	]
+	@L_020c7:
+*L_02107:
+	\L_0529b:
+	ZH 1:
+	'Không. Tôi ghét chờ đợi.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Tôi hiểu rồi...'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	\L_052fd:
+	\L_052d3:
+	ZH 1:
+	'Như vậy, hội nghị đã thất bại.'
+	\L_053c0:
+	\L_053b3:
+	@L_00088:
+*L_02161:
+	!VAR0476 : VAR0517 + 4!
+	\L_0529b:
+	ZH 1:
+	'Chắc chắn rồi. Tôi sẽ đợi một'
+	R
+	'tháng.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Cảm ơn bạn rất nhiều.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Với một điều kiện. Khi nào đến'
+	R
+	'lúc đó hãy giao cho tôi thư ký'
+	R
+	'của thành phố này.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 65!
+	\L_0535f:
+	\L_052d3:
+	ZH 1:
+	'Rance chỉ vào thư ký khi nói.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'............'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 411!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Tặng Raylee cho anh...? Đó là...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Nếu em từ chối, anh sẽ không chờ'
+	R
+	'đợi. Tôi ổn với việc chiếm thành'
+	R
+	'phố này bằng vũ lực.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Nhưng...'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 65!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Không sao đâu, Thị trưởng'
+	R
+	'Amuro. Tôi không có khiếu nại.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 411!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Raylee...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Tên bạn là Raylee? Bạn hiểu'
+	R
+	'rõ. Được rồi, chúng ta có thỏa'
+	R
+	'thuận.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 65!
+	\L_0535f:
+	\L_0529b:
+	ZH 1:
+	'Tôi nóng lòng chờ đợi một tháng'
+	R
+	'trôi qua.'
+	R
+	'Gahahahahahahahahahaha.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Hãy quay lại thôi, Thị trưởng'
+	R
+	'Amuro. Chúng ta sẽ bận rộn.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	\L_05343:
+	ZH 1:
+	'Thị trưởng Amuro đáp lại bằng'
+	R
+	'cách lắp bắp và cả hai bỏ đi.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Một tháng nữa... Tôi chỉ cần'
+	R
+	'nhịn cho đến lúc đó thôi.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Điều đó có nghĩa là chúng ta sẽ'
+	R
+	'không can thiệp vào Lazeal trong'
+	R
+	'một thời gian nữa phải không?'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Đúng vậy.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Đã hiểu. Tôi sẽ gửi đơn đặt hàng'
+	R
+	'cho mọi người.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	\L_053a5:
+	\L_052fd:
+	%0:
+*L_023f3:
+	\L_052d3:
+	ZH 1:
+	'Sau một thời gian, Thị trưởng'
+	R
+	'Amuro của Lazeal xuất hiện.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 411!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Ý nghĩa của việc này là gì, Vua'
+	R
+	'Rance? Đây không phải là điều'
+	R
+	'bạn đã hứa.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Lời hứa gì?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Chẳng phải cậu đã nói sẽ đợi một'
+	R
+	'tháng sao?'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Ừm～～...'
+	\L_053c0:
+	ZH 1:
+	'Phải không? Ồ đúng rồi, tôi đã'
+	R
+	'quên mất mọi thứ ngoài Raylee.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Dù sao đi nữa, chúng tôi đã có'
+	R
+	'lời hứa, vì vậy hãy đợi thêm một'
+	R
+	'thời gian nữa.'
+	\L_053c0:
+	ZH 1:
+	'Lazeal sẽ được bàn giao một cách'
+	R
+	'hòa bình như đã hứa.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Đừng quên Raylee.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Tôi sẽ không...'
+	\L_053c0:
+	ZH 1:
+	'Xin lỗi...'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	\L_05343:
+	ZH 1:
+	'Thị trưởng Amuro cúi chào và rời'
+	R
+	'đi.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Vua Rance. Liệu cô Raylee có'
+	R
+	'quan trọng với bạn hơn việc lấy'
+	R
+	'Lazeal không?'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Tất nhiên.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'............'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Có vẻ như bạn đang nghĩ về rất'
+	R
+	'nhiều thứ.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Không... Tôi chỉ đang nghĩ về'
+	R
+	'việc bạn giống như thế nào thôi,'
+	R
+	'Vua Rance.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	\L_052fd:
+	\L_053a5:
+	%0:
+*L_0260c:
+	!VAR0520 : 1!
+	%#Gﾚｨﾘｨ.ADV:
+	!VAR0130 : 1!
+	!VAR0546 : 0!
+	!VAR0156 : 65!
+	\L_05105:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	!VAR0516 : 10!
+	%#M.ADV:
+	%0:
+*L_0265f:
+	\L_052d3:
+	ZH 1:
+	'Thị trưởng Red ngay lập tức bước'
+	R
+	'ra khỏi thành phố.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 411!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Tôi là Green, người quản lý công'
+	R
+	'việc của thành phố Red.'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Thị trưởng Green lịch sự cúi'
+	R
+	'chào Rance.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Vậy chúng ta bắt đầu công việc'
+	R
+	'nhé?'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Rance trừng mắt nhìn Thị trưởng'
+	R
+	'Green và nói thẳng với ông ta.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Tôi đang chinh phục thế giới.'
+	R
+	'Vậy hãy giao Red cho tôi.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'............'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Nghe hay chứ?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Tôi đã cho rằng chuyện này sẽ'
+	R
+	'như thế này... Tôi đã sẵn sàng'
+	R
+	'cho việc này...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Vậy thì việc này sẽ không mất'
+	R
+	'nhiều thời gian đâu.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Tôi chỉ có một yêu cầu.'
+	\L_053c0:
+	ZH 1:
+	'Tôi xin các bạn hứa tuyệt đối'
+	R
+	'không cướp bóc ở xứ Đỏ.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Bạn đã nói gì?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Nếu tôi có thể đảm bảo được sự'
+	R
+	'an toàn cho người dân Đỏ, tôi sẽ'
+	R
+	'giao quyền cai trị nó cho bạn.'
+	\L_053c0:
+	\L_053b3:
+*L_02812:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_02812:
+	}
+	ZH 1:
+	$L_02852$
+	'Anh hứa'
+	$
+	R
+	$L_02935$
+	'Tôi không thể hứa được'
+	$
+	]
+	@L_02812:
+*L_02852:
+	\L_052b7:
+	ZH 1:
+	'Anh ấy muốn một lời hứa'
+	R
+	'à...? Chà, tôi có thể thoải mái'
+	R
+	'phá vỡ nó bất cứ lúc nào.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Chắc chắn rồi. Chúng tôi sẽ'
+	R
+	'không ăn trộm bất cứ thứ gì.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Cảm ơn bạn rất nhiều. Tôi nghĩ'
+	R
+	'người dân Đỏ sẽ khá yên tâm khi'
+	R
+	'biết điều đó.'
+	\L_053c0:
+	\L_053b3:
+	\L_052fd:
+	\L_0536d:
+	\L_053a5:
+	!VAR0130 : 1!
+	!VAR0546 : 0!
+	!VAR0156 : 63!
+	\L_05105:
+	!VAR0156 : 64!
+	\L_05105:
+	\L_052d3:
+	ZH 1:
+	'Do đó, Red hợp nhất với Leazas.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	!VAR0516 : 10!
+	%#M.ADV:
+	%0:
+*L_02935:
+	\L_0529b:
+	ZH 1:
+	'Tôi từ chối.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'............'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Cướp bóc và tìm kiếm những cô'
+	R
+	'gái dễ thương là cách tôi tận'
+	R
+	'hưởng niềm vui.'
+	\L_053c0:
+	ZH 1:
+	'Tôi sẽ không dừng lại.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'... Có điều gì có thể thay đổi'
+	R
+	'suy nghĩ của bạn không?'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Không.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'... Tôi... hiểu rồi... Xin lỗi.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	\L_052d3:
+	ZH 1:
+	'Thị trưởng Red rũ vai và trở về'
+	R
+	'nhà.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Bây giờ, hãy chiến đấu. Hãy'
+	R
+	'chuẩn bị ngay lập tức!'
+	\L_053c0:
+	\L_053b3:
+	\L_052fd:
+	\L_053a5:
+	@L_00088:
+*L_02a43:
+	\L_052d3:
+	ZH 1:
+	'Thị trưởng Bồ Đào Nha ngay lập'
+	R
+	'tức xuất hiện.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 411!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Tôi là Goa, người quản lý thành'
+	R
+	'phố Bồ Đào Nha.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Bạn biết tôi muốn nói gì phải'
+	R
+	'không?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Đúng... Nhưng, đó là...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Đầu hàng tất cả. Ngay lập tức.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'............'
+	\L_053c0:
+	ZH 1:
+	'Nhưng nếu bạn chinh phục thành'
+	R
+	'phố của tôi, NHẬT BẢN sẽ không'
+	R
+	'im lặng...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'NHẬT BẢN hả...?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Đúng vậy. Bạn sẽ không muốn gây'
+	R
+	'chiến với NHẬT BẢN phải không?'
+	\L_053c0:
+	ZH 1:
+	'Tôi khuyên bạn nên dừng việc này'
+	R
+	'lại và...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Bạn nói nhiều quá. Tôi đang'
+	R
+	'chinh phục thành phố này.'
+	\L_053c0:
+	ZH 1:
+	'Hãy giao nó cho tôi ngay bây'
+	R
+	'giờ. Nếu không, bạn sẽ chết'
+	R
+	'trước khi NHẬT BẢN làm được.'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Thị trưởng Goa run rẩy dữ dội'
+	R
+	'khi Rance đặt tay lên thanh kiếm'
+	R
+	'của mình.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'U-Hiểu rồi...'
+	\L_053c0:
+	ZH 1:
+	'Ít nhất bạn có thể cho chúng tôi'
+	R
+	'9.000.000 VÀNG để trang trải chi'
+	R
+	'phí sinh hoạt trong tương lai,'
+	\L_053c0:
+	ZH 1:
+	'đúng không?'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Nhu cầu:　 VÀNG 9000K'
+	R
+	R
+	'Ngân sách quốc gia:'
+	H 0, VAR0519:
+	ZH 1:
+	'VÀNG 00K'
+*L_02c39:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_02c39:
+	}
+	ZH 1:
+	$L_02c79$
+	'Không trả tiền'
+	$
+	R
+	$L_02d1c$
+	'Trả tiền và chinh phục'
+	$
+	]
+	@L_02c39:
+*L_02c79:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Tôi từ chối. Chết đi.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Đ-Vậy thì... Ít nhất 50000'
+	R
+	'VÀNG...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Không. Sẽ nhanh hơn nếu giết bạn'
+	R
+	'trong chiến tranh.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Đã hiểu. Vậy thì tôi sẽ đầu hàng'
+	R
+	'mà không được gì.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Lẽ ra cậu nên nói thế ngay từ'
+	R
+	'đầu.'
+	\L_053c0:
+	\L_053b3:
+	@L_02dd0:
+*L_02d1c:
+	\L_053b3:
+	{VAR0519 < 90:
+		\L_052b7:
+		ZH 1:
+		'Ch... Không đủ... Xấu hổ quá...'
+		\L_053c0:
+		\L_053b3:
+		@L_02c39:
+	}
+	!VAR0519 : VAR0519 - 90!
+	!VAR0166 : VAR0166 + 90!
+	\L_0529b:
+	ZH 1:
+	'Chắc chắn rồi.'
+	\L_053c0:
+	ZH 1:
+	'Trả tiền cho họ đi, Maris.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Vâng, hiểu rồi.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 411!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Cảm ơn bạn rất nhiều.'
+	\L_053c0:
+	\L_053b3:
+*L_02dd0:
+	\L_052fd:
+	\L_0536d:
+	\L_053a5:
+	!VAR0130 : 1!
+	!VAR0546 : 0!
+	!VAR0156 : 17!
+	\L_05105:
+	\L_052d3:
+	ZH 1:
+	'Như vậy, Bồ Đào Nha đã sáp nhập'
+	R
+	'với Leazas.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	!VAR0516 : 10!
+	%#M.ADV:
+	%0:
+*L_02e40:
+	!VAR0468 : 2!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_05397:
+	!VAR0516 : 1!
+	\L_052ef:
+	\L_052d3:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng yết kiến'
+	\L_053c0:
+	ZH 1:
+	'Rance đang ngả lưng trên ngai'
+	R
+	'vàng và Lia đang chơi với một'
+	R
+	'con búp bê dưới chân anh ấy.'
+	\L_053c0:
+	ZH 1:
+	'Maris ở bên cạnh họ.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Được rồi, mục tiêu tiếp theo của'
+	R
+	'chúng ta là Bồ Đào Nha.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 5!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Ừ, ừ!! Thiếp nghĩ chúng ta nên'
+	R
+	'chinh phục họ bằng vũ lực!!'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Tôi không chắc lắm... Bồ Đào Nha'
+	R
+	'là lá chắn chống lại NHẬT BẢN...'
+	\L_053c0:
+	ZH 1:
+	'Sau khi chinh phục được họ, NHẬT'
+	R
+	'BẢN cũng có thể trở thành kẻ thù'
+	R
+	'của chúng ta...'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	!VAR0516 : 5!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Vậy thì chúng ta cũng sẽ phải'
+	R
+	'biến NHẬT BẢN là của mình.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	\L_0530b:
+	ZH 1:
+	'Đó là một cuộc nói chuyện nguy'
+	R
+	'hiểm.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 470!
+	\L_0535f:
+	\L_0529b:
+	ZH 1:
+	'Con rối?'
+	\L_053c0:
+	\L_053b3:
+	\L_05343:
+	ZH 1:
+	'Này này này. Có vẻ như các bạn'
+	R
+	'đều làm khá tốt đấy~.'
+	\L_053c0:
+	\L_053b3:
+	\L_05343:
+	ZH 1:
+	'Pluepet tập tễnh bước lên ngai'
+	R
+	'vàng.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Vũ Rance, Vũ Rance.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Cái gì? Thực ra ta còn chưa gọi'
+	R
+	'cậu, sao cậu lại ở đây?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Tôi không ở đây để cố gắng bán'
+	R
+	'hàng cho bạn hay bất cứ điều gì.'
+	\L_053c0:
+	ZH 1:
+	'Vua Rance, điều này có ý nghĩa'
+	R
+	'gì?'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Của cái gì?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Tôi đang nói về chiến tranh.'
+	\L_053c0:
+	ZH 1:
+	'Nhà tôi ở Bồ Đào Nha.'
+	\L_053c0:
+	ZH 1:
+	'Vì vậy, King, khi nghe tin từ'
+	R
+	'thị trưởng, tôi khá ngạc nhiên.'
+	\L_053c0:
+	ZH 1:
+	'Nếu xảy ra chiến tranh ở Bồ Đào'
+	R
+	'Nha, tất cả tài sản của tôi sẽ'
+	R
+	'bị mất.'
+	\L_053c0:
+	ZH 1:
+	'Nếu bạn muốn gây chiến, hãy làm'
+	R
+	'điều đó ở nơi khác.'
+	\L_053c0:
+	ZH 1:
+	'Nếu bạn phải có Bồ Đào Nha, hãy'
+	R
+	'đón nhận nó một cách hòa bình.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Bạn thật ích kỷ. Ta quan tâm đến'
+	R
+	'tất cả những điều đó làm gì?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Tôi không chỉ đến để đưa ra yêu'
+	R
+	'cầu.'
+	\L_053c0:
+	ZH 1:
+	'Đây. Đây là sự đóng góp của tôi'
+	R
+	'cho bạn vì hòa bình.'
+	\L_053c0:
+	\L_053b3:
+	\L_05343:
+	ZH 1:
+	'Pluepet ra hiệu và cấp dưới của'
+	R
+	'ông ta mang một cái rương vào.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Đây là 10.000.000 VÀNG. Hãy sử'
+	R
+	'dụng nó một cách hiệu quả.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Thật là quá xa hoa. Chắc hẳn bạn'
+	R
+	'có rất nhiều tiền giấu trong nhà'
+	R
+	'phải không?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Hô hô hô hô. Đó là một bí mật.'
+	\L_053c0:
+	ZH 1:
+	'Tạm biệt, Vua Rance! Tôi hy vọng'
+	R
+	'bạn xem xét yêu cầu của tôi.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	\L_05343:
+	ZH 1:
+	'Pluepet tập tễnh bước ra theo'
+	R
+	'cách mà anh ấy đã đến.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Huhuhu...'
+	\L_053c0:
+	ZH 1:
+	'Đồ ngốc. Ta sẽ sử dụng số tiền'
+	R
+	'này theo cách ta muốn...'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 5!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Thật may mắn, chàng yêu. Chúng'
+	R
+	'thiếp có tiền miễn phí.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Gahahahaha! Cảm thấy tốt!!'
+	\L_053c0:
+	\L_053b3:
+	!VAR0519 : VAR0519 + 100!
+	!VAR0516 : 0!
+	%#M.ADV:
+	\0:
+*L_032b1:
+	\L_052b7:
+	ZH 1:
+	'Chậm...'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Khoảng 3 giờ đã trôi qua.'
+	\L_053c0:
+	\L_053b3:
+	\L_052b7:
+	ZH 1:
+	'Chậm thôi... Tôi có thể quan hệ'
+	R
+	'3 lần trong thời gian tôi chờ'
+	R
+	'đợi...'
+	\L_053c0:
+	ZH 1:
+	'Chuyện gì đang xảy ra vậy...?'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'3 giờ nữa trôi qua.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Qua Rance.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Cuối cùng họ cũng đến à?!!Tôi'
+	R
+	'chán nản, không muốn nhìn thấy'
+	R
+	'họ nữa.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Không, thị trưởng Zeo vẫn chưa'
+	R
+	'xuất hiện.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Cái gì thế!?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Thay vào đó, một người đưa tin'
+	R
+	'đã đưa ra điều này...'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Maris đưa một lá thư cho Rance.'
+	\L_053c0:
+	ZH 1:
+	'Rance mở lá thư và nhìn qua nó.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	\L_0529b:
+	ZH 1:
+	'Đây là cái gì...?'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'［［Vị vua man rợ, chúng ta sẽ'
+	R
+	'không bao giờ giao thành phố của'
+	R
+	'mình cho cái ác.］］'
+	\L_053c0:
+	\L_053b3:
+	\L_052b7:
+	ZH 1:
+	'...Cái gì nhảm nhí thế này?!!'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Rance xé lá thư làm đôi và ném'
+	R
+	'nó đi.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Chúng tôi sẽ tiêu diệt Zeo ngay'
+	R
+	'lập tức.Tấn công.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Đã hiểu.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	\L_052fd:
+	\L_053a5:
+	%0:
+*L_034d0:
+	\L_0529b:
+	ZH 1:
+	'............'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Khoảng 30 phút sau, có người đưa'
+	R
+	'tin từ M Land đi ra.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 12!
+	\L_0535f:
+	\L_052b7:
+	ZH 1:
+	'... Một người phụ nữ?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Rất vui được gặp bạn... Tôi là'
+	R
+	'Sayori Unga, thị trưởng của M'
+	R
+	'Land.'
+	\L_053c0:
+	\L_053b3:
+	\L_052b7:
+	ZH 1:
+	'Ừm. Cô ấy trông ổn.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Đừng thấy nhiều thị trưởng xinh'
+	R
+	'đẹp như bạn.'
+	\L_053c0:
+	ZH 1:
+	'Họ thường là những ông già mà'
+	R
+	'tôi không muốn nhìn vào.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'... Để thực hiện ước mơ của'
+	R
+	'người chồng quá cố của tôi...'
+	\L_053c0:
+	ZH 1:
+	'Tôi trở thành thị trưởng để cố'
+	R
+	'gắng thực hiện ước nguyện sắp'
+	R
+	'chết của ông ấy.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Chồng quá cố... Anh là góa phụ?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Vâng. Đất M là của chồng...'
+	\L_053c0:
+	ZH 1:
+	'Ông thành lập thành phố này với'
+	R
+	'hy vọng thực hiện ước mơ của trẻ'
+	R
+	'em,'
+	\L_053c0:
+	ZH 1:
+	'bất chấp tình trạng không thể'
+	R
+	'tha thứ của thế giới.'
+	\L_053c0:
+	ZH 1:
+	'Sau khi anh ấy chết trong một'
+	R
+	'tai nạn không lường trước được,'
+	R
+	'tôi muốn bảo vệ thành phố này.'
+	\L_053c0:
+	ZH 1:
+	'Vậy...'
+	\L_053c0:
+	ZH 1:
+	'Làm ơn. Vì anh ấy... và giấc mơ'
+	R
+	'của tôi...'
+	\L_053c0:
+	ZH 1:
+	'Không, vì trẻ em, xin đừng gây'
+	R
+	'chiến với chúng tôi. Vui'
+	R
+	'lòng...!'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Tôi hiểu điều bạn muốn nói.'
+	\L_053c0:
+	ZH 1:
+	'Nhưng mục tiêu của tôi là chinh'
+	R
+	'phục thế giới. Tôi sẽ không tạo'
+	R
+	'ra ngoại lệ cho M Land.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'... Tôi sẽ không phản đối việc'
+	R
+	'đầu hàng và gia nhập cùng bạn.'
+	R
+	'Tôi đã chuẩn bị cho điều đó.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Hoh, thái độ tốt đấy.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Nhưng còn M Land thì...'
+	\L_053c0:
+	ZH 1:
+	'Ít nhất hãy cho phép việc quản'
+	R
+	'lý công viên giải trí này tiếp'
+	R
+	'tục.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Để tôi nghĩ xem...'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Qua Rance...'
+	\L_053c0:
+	\L_053b3:
+	\L_05343:
+	ZH 1:
+	'Maris thì thầm với Rance.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Có vẻ như việc quản lý công viên'
+	R
+	'này đang bị thâm hụt nghiêm'
+	R
+	'trọng.'
+	\L_053c0:
+	ZH 1:
+	'Nếu bạn tiếp tục như vậy sau khi'
+	R
+	'họ gia nhập với chúng tôi...'
+	\L_053c0:
+	ZH 1:
+	'Bạn nên cân nhắc rằng doanh thu'
+	R
+	'đến từ thành phố này hầu như'
+	R
+	'không có gì.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Hm... Điều đó khiến mọi chuyện'
+	R
+	'trở nên phức tạp. Chiến tranh'
+	R
+	'cần tiền.'
+	\L_053c0:
+	ZH 1:
+	'Chúng ta không thể lãng phí nó'
+	R
+	'vào sự thâm hụt của một công'
+	R
+	'viên giải trí...'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	!VAR0516 : 12!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'...Vua Rance...'
+	\L_053c0:
+	ZH 1:
+	'Tôi biết những gì tôi đang nói'
+	R
+	'là vô lý... Làm ơn...!!'
+	\L_053c0:
+	\L_053b3:
+*L_03885:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_03885:
+	}
+	ZH 1:
+	$L_038c5$
+	'Không'
+	$
+	R
+	$L_03995$
+	'Bảo trì công viên'
+	$
+	]
+	@L_03885:
+*L_038c5:
+	\L_0529b:
+	ZH 1:
+	'Tôi không làm từ thiện.'
+	\L_053c0:
+	ZH 1:
+	'Tôi không biết về giấc mơ của'
+	R
+	'trẻ con, nhưng tôi sẽ không trả'
+	R
+	'một xu nào cho thứ tào lao này.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'............'
+	\L_053c0:
+	ZH 1:
+	'... Vậy... điều này có nghĩa là'
+	R
+	'cuộc đàm phán đã thất bại?'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Đúng vậy.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'... Vậy thì tôi sẽ chiến đấu.'
+	R
+	'Tôi sung sướng được chết cùng'
+	R
+	'giấc mơ của chồng.'
+	\L_053c0:
+	\L_053b3:
+	\L_05343:
+	ZH 1:
+	'Sayori cúi đầu và bước đi khỏi'
+	R
+	'Rance.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_03995:
+	!VAR0477 : 1!
+	!VAR0478 : 1!
+	\L_0529b:
+	ZH 1:
+	'Được rồi, tôi sẽ nghe theo mong'
+	R
+	'muốn của bạn.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Cảm ơn bạn rất nhiều...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Tuy nhiên.'
+	\L_053c0:
+	ZH 1:
+	'Tôi cũng có một điều kiện.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Một điều kiện...?'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Thật đơn giản.Hãy gia nhập dàn'
+	R
+	'harem của tôi.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Hả...?!'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Hãy vào hậu cung của tôi và tôi'
+	R
+	'sẽ thay bạn làm thị trưởng.'
+	\L_053c0:
+	ZH 1:
+	'Rồi mọi chuyện sẽ kết thúc trong'
+	R
+	'hòa bình.Tôi cũng sẽ hỗ trợ việc'
+	R
+	'quản lý công viên.Thế còn nó thì'
+	\L_053c0:
+	ZH 1:
+	'sao?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'............'
+	\L_053c0:
+	\L_053b3:
+	\L_05343:
+	ZH 1:
+	'Biểu cảm của Sayori tối sầm lại'
+	R
+	'và cô ấy nhìn xuống...'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Tôi... hiểu... M Land... Công'
+	R
+	'viên... Làm ơn...'
+	\L_053c0:
+	\L_053b3:
+	\L_052b7:
+	ZH 1:
+	'Được rồi, được rồi... Quả phụ'
+	R
+	'này chắc chắn là một người phụ'
+	R
+	'nữ tốt.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Nhưng... Nếu M Land... Nếu công'
+	R
+	'viên bị phá hủy, tôi sẽ...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Hiểu rồi.Tôi sẽ cẩn thận khi'
+	R
+	'chúng ta gây chiến với các nước'
+	R
+	'khác.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'............'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Vua Rance.Sẽ cần 2.000.000 VÀNG'
+	R
+	'mỗi tuần để trả khoản thâm hụt'
+	R
+	'của M Land.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	!VAR0516 : 12!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'............'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Ừ, đã hứa rồi, bây giờ tôi không'
+	R
+	'thể làm gì được nữa.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Sau đó, giao dịch sẽ được xử lý'
+	R
+	'tự động hàng tuần.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	\L_0529b:
+	ZH 1:
+	'Đừng quan tâm.Này, Sayori.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 12!
+	\L_0535f:
+	\L_052d3:
+	ZH 1:
+	'Rance ôm chặt Sayori và đặt tay'
+	R
+	'lên ngực cô.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'À...!'
+	\L_053c0:
+	\L_053b3:
+	\L_05343:
+	ZH 1:
+	'Cơ thể Sayori cứng đờ và cô cố'
+	R
+	'gắng thoát khỏi tay Rance.'
+	\L_053c0:
+	\L_053b3:
+	\L_052b7:
+	ZH 1:
+	'Heheheh... Một góa phụ đức'
+	R
+	'hạnh... Tôi có được thứ tốt.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Nóng lòng muốn được vui vẻ cùng'
+	R
+	'em trên giường.'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Rance nói vào tai Sayori để chỉ'
+	R
+	'cô ấy mới có thể nghe được.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'...!!'
+	\L_053c0:
+	\L_053b3:
+	!VAR0130 : 1!
+	!VAR0546 : 0!
+	!VAR0156 : 11!
+	\L_05105:
+	!VAR0156 : 12!
+	\L_05105:
+	\L_052d3:
+	ZH 1:
+	'Như vậy, M Land sáp nhập với'
+	R
+	'Leazas.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	!VAR0516 : 10!
+	%#M.ADV:
+	%0:
+*L_03d98:
+	\L_052b7:
+	ZH 1:
+	'... Muộn rồi.'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Sau đó, sau hai giờ, thị trưởng'
+	R
+	'Hanna xuất hiện.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 411!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Tôi là Mozart, thị trưởng của'
+	R
+	'Hanna.'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Mozart đưa tay ra định bắt tay'
+	R
+	'nhưng Rance đã đẩy nó ra.'
+	\L_053c0:
+	\L_053b3:
+	\L_05327:
+	ZH 1:
+	'... H-Thật thô lỗ...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Tôi là Rance, Vua của Thế giới.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'............'
+	\L_053c0:
+	ZH 1:
+	'Tại sao Quân đội Leazas bao vây'
+	R
+	'thành phố của tôi?'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Huhuhuhu...'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Chúng ta lẽ ra phải tôn trọng'
+	R
+	'lẫn nhau như những quốc gia độc'
+	R
+	'lập...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Thời thế đã thay đổi.'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Rance đứng dậy và chỉ vào thị'
+	R
+	'trưởng.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Tôi sẽ thống trị thế giới. Vì'
+	R
+	'vậy hãy đặt mình dưới sự kiểm'
+	R
+	'soát của tôi.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Điều đó khá là vô lý...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Nếu bạn từ chối, tôi sẽ gây'
+	R
+	'chiến với bạn và chiếm thành phố'
+	R
+	'của bạn bằng vũ lực.'
+	\L_053c0:
+	ZH 1:
+	'Sẽ nhanh hơn là nói chuyện với'
+	R
+	'bạn.'
+	\L_053c0:
+	\L_053b3:
+	\L_05327:
+	ZH 1:
+	'... Sẽ rất đau lòng nếu mất'
+	R
+	'thành phố của mình, nhưng... thà'
+	R
+	'thế còn hơn là chết...'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Đã hiểu. Dù có chiến đấu, chúng'
+	R
+	'ta cũng không có hy vọng chiến'
+	R
+	'thắng.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Đúng vậy. Bạn hiểu rõ.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Tuy nhiên, nếu gia đình chúng ta'
+	R
+	'mất thành phố, họ sẽ chẳng đạt'
+	R
+	'được gì, nên...'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Thị trưởng nhìn chằm chằm vào'
+	R
+	'Rance, một nụ cười kìm nén hiện'
+	R
+	'lên trên khuôn mặt ông.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Vậy thì bạn muốn có tiền. Ch, ký'
+	R
+	'sinh trùng, hút máu các nước'
+	R
+	'khác...'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Ký sinh trùng...? Tôi cho là'
+	R
+	'vậy.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Vậy nhu cầu của bạn là gì?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'... Để tôi xem...'
+	\L_053c0:
+	ZH 1:
+	'3.000.000 VÀNG. Với chừng đó,'
+	R
+	'tôi sẽ giao Hanna cho bạn mà'
+	R
+	'không đổ máu.'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Nhu cầu:　3000K VÀNG'
+	R
+	R
+	'Ngân sách quốc gia:'
+	H 0, VAR0519:
+	ZH 1:
+	'VÀNG 00K'
+*L_040e9:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_040e9:
+	}
+	ZH 1:
+	$L_04129$
+	'Trả tiền'
+	$
+	R
+	$L_04306$
+	'Từ chối'
+	$
+	]
+	@L_040e9:
+*L_04129:
+	\L_053b3:
+	{VAR0519 < 29:
+		\L_052b7:
+		ZH 1:
+		'Ch... Không có đủ...'
+		\L_053c0:
+		\L_053b3:
+		@L_040e9:
+	}
+	!VAR0519 : VAR0519 - 30!
+	!VAR0166 : VAR0166 + 30!
+	!VAR0130 : 1!
+	!VAR0546 : 0!
+	\L_0529b:
+	ZH 1:
+	'Hiểu rồi. Tôi sẽ trả tiền.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Cảm ơn bạn rất nhiều.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0156 : 8!
+	{VAR0128 \ 0:
+		!VAR0479 : 1!
+		\L_0530b:
+		ZH 1:
+		'Ồ vâng, có một thông tin tôi nên'
+		R
+		'cung cấp cho bạn.'
+		\L_053c0:
+		\L_053b3:
+		\L_0529b:
+		ZH 1:
+		'Cái gì?'
+		\L_053c0:
+		\L_053b3:
+		\L_0530b:
+		ZH 1:
+		'Nhà chiến thuật vĩ đại nhất thế'
+		R
+		'giới, Gengorou Shinoda, đang ở'
+		R
+		'thành phố này.'
+		\L_053c0:
+		ZH 1:
+		'Tôi tin rằng anh ấy có thể là'
+		R
+		'một trong những người tài năng'
+		R
+		'mà bạn cần để chinh phục thế'
+		\L_053c0:
+		ZH 1:
+		'giới.'
+		\L_053c0:
+		\L_053b3:
+		\L_0529b:
+		ZH 1:
+		'Shinoda???'
+		\L_053c0:
+		\L_053b3:
+		\L_0530b:
+		ZH 1:
+		'Thế còn việc cố gắng gặp anh ấy'
+		R
+		'thì sao? Tuy nhiên, anh ấy là'
+		R
+		'một người kỳ lạ.'
+		\L_053c0:
+		\L_053b3:
+	}
+	!VAR0156 : 8!
+	\L_05105:
+	!VAR0156 : 9!
+	\L_05105:
+	!VAR0156 : 10!
+	\L_05105:
+	\L_052fd:
+	\L_0536d:
+	\L_052d3:
+	ZH 1:
+	'Vì vậy, Hanna đã hợp nhất với'
+	R
+	'Leazas.'
+	\L_053c0:
+	\L_053b3:
+	\L_053a5:
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	!VAR0516 : 10!
+	%#M.ADV:
+	%0:
+*L_04306:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Tôi từ chối.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Tôi hiểu rồi... Cuộc đàm phán đã'
+	R
+	'thất bại...'
+	\L_053c0:
+	ZH 1:
+	'Xin lỗi nhé. Có rất nhiều việc'
+	R
+	'tôi phải làm bây giờ...'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Thị trưởng Hanna đứng dậy khỏi'
+	R
+	'ghế và rời đi.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	\L_052b7:
+	ZH 1:
+	'Lẽ ra tôi nên giết anh ta…'
+	\L_053c0:
+	ZH 1:
+	'Hừm. Anh ta có thể chết cùng với'
+	R
+	'thành phố của mình.'
+	\L_053c0:
+	\L_053b3:
+	\L_052fd:
+	\L_053a5:
+	%0:
+*L_043bb:
+	\L_0529b:
+	ZH 1:
+	'Hãy bắt chúng bằng vũ lực. Một'
+	R
+	'thành phố nhỏ như thế này có thể'
+	R
+	'bị chinh phục trong 5 phút.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	!VAR0021 : 4!
+	!VAR0022 : 1!
+	%#Sﾌﾞﾀｲ.ADV:
+	!VAR0516 : 0!
+	%#M.ADV:
+	{VAR0569 = 0:
+		@L_00088:
+	}
+	!VAR0529 : 1!
+	{VAR0158 = 17:
+		ZH 1:
+		MS 10, "Rockearth Army":
+		!VAR0001 : 68!
+		!VAR0002 : 69!
+		!VAR0003 : 0!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 18:
+		ZH 1:
+		MS 10, "Ice Army":
+		!VAR0001 : 66!
+		!VAR0002 : 67!
+		!VAR0003 : 0!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 19:
+		ZH 1:
+		MS 10, "Diphtheria Army":
+		!VAR0001 : 70!
+		!VAR0002 : 0!
+		!VAR0003 : 0!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 20:
+		ZH 1:
+		MS 10, "Lazeal Army":
+		!VAR0476 : 0!
+		!VAR0001 : 65!
+		!VAR0002 : 0!
+		!VAR0003 : 0!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 22:
+		ZH 1:
+		MS 10, "Mars Army":
+		!VAR0001 : 71!
+		!VAR0002 : 0!
+		!VAR0003 : 0!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 23:
+		ZH 1:
+		MS 10, "Xích Quân":
+		!VAR0001 : 63!
+		!VAR0002 : 64!
+		!VAR0003 : 0!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 24:
+		ZH 1:
+		MS 10, "Zeo Army":
+		!VAR0001 : 13!
+		!VAR0002 : 14!
+		!VAR0003 : 15!
+		!VAR0004 : 16!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 25:
+		ZH 1:
+		MS 10, "M Land Army":
+		!VAR0001 : 11!
+		!VAR0002 : 12!
+		!VAR0003 : 0!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 26:
+		ZH 1:
+		MS 10, "Hanna Army":
+		!VAR0001 : 9!
+		!VAR0002 : 10!
+		!VAR0003 : 8!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 28:
+		ZH 1:
+		MS 10, "Portugal Army":
+		!VAR0001 : 17!
+		!VAR0002 : 0!
+		!VAR0003 : 0!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 29:
+		ZH 1:
+		MS 10, "Shangri-La Army":
+		!VAR0001 : 18!
+		!VAR0002 : 19!
+		!VAR0003 : 20!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	\L_04f26:
+	!VAR0581 : 1!
+	%#FIGT_A.ADV:
+	!VAR0581 : 0!
+	{(VAR0158 = 28) * (VAR0130 = 1) * (VAR0468 = 2):
+		!VAR0468 : 3!
+		!VAR0520 : 2!
+		%#Gﾚﾍﾞｯｶ.ADV:
+	}
+	{(VAR0158 = 22) * (VAR0130 = 1):
+		!VAR0520 : 1!
+		%#Gｶｾｲ.ADV:
+	}
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_04793:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Vua Rance, hiện tại không thể'
+	R
+	'huy động quân đội được.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Tại sao?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Kể từ khi quân nổi dậy nổi dậy,'
+	R
+	'tổ chức quân đội của chúng tôi'
+	R
+	'đã bị xáo trộn.'
+	\L_053c0:
+	ZH 1:
+	'Xin hãy cho nó chút thời gian.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Ch, vô dụng!! Chết tiệt.'
+	\L_053c0:
+	@L_00215:
+*L_04825:
+	!VAR0516 : 1!
+	\L_052ef:
+	\L_0529b:
+	ZH 1:
+	'Được rồi, tiến lên!! Giết tất cả'
+	R
+	'những ai không đầu hàng!'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Xin hãy đợi đã, Bệ hạ Rance.'
+	\L_053c0:
+	\L_053b3:
+	\L_052d3:
+	ZH 1:
+	'Maris ngăn Rance lại.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Cô định bảo ta đừng giết tất cả'
+	R
+	'mọi người à?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Không phải vậy. Tôi đang nói với'
+	R
+	'ngài rằng đừng gây chiến với các'
+	R
+	'nước khác ngay bây giờ.'
+	\L_053c0:
+	ZH 1:
+	'Đất nước chúng ta hiện đang có'
+	R
+	'nội chiến.'
+	\L_053c0:
+	ZH 1:
+	'Sẽ rất nguy hiểm nếu tấn công'
+	R
+	'một quốc gia khác trong tình'
+	R
+	'huống này.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	!VAR0516 : 5!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Anh cũng nghĩ vậy chàng yêu ạ.'
+	\L_053c0:
+	ZH 1:
+	'Hãy nhanh chóng giết Ex, sau đó'
+	R
+	'chàng có thể bắt đầu thống nhất'
+	R
+	'thế giới.'
+	\L_053c0:
+	\L_053b3:
+	\L_0536d:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_052b7:
+	ZH 1:
+	'Ch... Tuy nhiên, ta phải cứu'
+	R
+	'Sill sớm thôi... Chết tiệt...'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Hiểu rồi... Ta sẽ kết thúc cuộc'
+	R
+	'nội chiến trước.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Xin vui lòng làm.'
+	\L_053c0:
+	@L_00215:
+*L_049b2:
+	!VAR0516 : 1!
+	\L_052ef:
+	\L_0529b:
+	ZH 1:
+	'Đi thôi. Vùng đất của cái chết'
+	R
+	'có một cái tên khá hoành tráng,'
+	R
+	'nhưng nó sẽ dễ dàng đối phó.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Xin hãy đợi đã.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Cái gì?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Theo nhóm điều tra, Vùng đất tử'
+	R
+	'thần có mức độ phóng xạ cao.'
+	\L_053c0:
+	ZH 1:
+	'Người ta tin rằng ngay cả quái'
+	R
+	'vật cũng không thể sống sót ở đó'
+	R
+	'và con người không thể cầm cự'
+	\L_053c0:
+	ZH 1:
+	'được một giờ.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'... Nghe có vẻ nguy hiểm'
+	R
+	'thật. Chúng ta sẽ phải tiêu diệt'
+	R
+	'chúng nhanh chóng.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'............'
+	\L_053c0:
+	\L_053b3:
+	\L_052fd:
+	\L_0536d:
+	\0:
+*L_04aba:
+	!VAR0516 : 1!
+	\L_052ef:
+	\L_0529b:
+	ZH 1:
+	'Bây giờ bắt đầu trận chiến. Đi'
+	R
+	'thôi!!'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Xin hãy đợi đã, Bệ hạ Rance.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Cái gì, cản đường à?!! Ngay cả'
+	R
+	'cô cũng không được phép làm điều'
+	R
+	'đó.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Tôi không có ý can thiệp.'
+	\L_053c0:
+	ZH 1:
+	'Tuy nhiên, hiện tại, quân đội'
+	R
+	'phải ở lại khu vực vừa chiếm'
+	R
+	'đóng như một biện pháp đối phó.'
+	\L_053c0:
+	ZH 1:
+	'Xin hãy cho quân đội một chút'
+	R
+	'thời gian trước khi tiến quân'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Ch... Chán quá.'
+	\L_053c0:
+	@L_00215:
+*L_04b93:
+	!VAR0516 : 1!
+	\L_052ef:
+	\L_0529b:
+	ZH 1:
+	'Được rồi, ta sẽ cho họ thấy sức'
+	R
+	'mạnh huy hoàng của mình. Hãy tấn'
+	R
+	'công.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Xin hãy đợi đã, Bệ hạ Rance.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'... Cái gì, Maris?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Hiện tại, cả nước đang hỗn loạn'
+	R
+	'và chúng ta đang ở trong tình'
+	R
+	'thế rất nguy hiểm.'
+	\L_053c0:
+	ZH 1:
+	'Phòng thủ là một chuyện, nhưng'
+	R
+	'đây không phải lúc để tấn công.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Công việc của cô là phải làm gì'
+	R
+	'đó để giải quyết vấn đề đó, phải'
+	R
+	'không?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Tôi xin lỗi.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'... Chết tiệt.'
+	\L_053c0:
+	@L_00215:
+*L_04c96:
+	{VAR0651 = 2:
+		!VAR0651 : 1!
+	}
+	\L_052d3:
+	ZH 1:
+	'Quân ta triển khai tấn công'
+	R
+	X 8:
+	', nhưng...'
+	\L_053c0:
+	ZH 1:
+	'Vì lý do nào đó họ không thể tìm'
+	R
+	'thấy điểm đến và quay trở lại.'
+	\L_053c0:
+	ZH 1:
+	'Hoạt động thất bại.'
+	\L_053c0:
+	ZH 1:
+	'4 tòa tháp bao quanh Cung điện'
+	R
+	'Zeth tạo thành một rào cản ngăn'
+	R
+	'cản bất kỳ ai đến gần.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_04d1f:
+	{VAR0651 = 2:
+		!VAR0651 : 1!
+	}
+	\L_052d3:
+	ZH 1:
+	'Quân ta triển khai tấn công'
+	R
+	X 8:
+	', nhưng...'
+	\L_053c0:
+	ZH 1:
+	'Vì lý do nào đó họ không thể tìm'
+	R
+	'thấy điểm đến và quay trở lại.'
+	\L_053c0:
+	ZH 1:
+	'Hoạt động thất bại.'
+	\L_053c0:
+	\L_053b3:
+	!VAR0158 : 1!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 1!
+	%#M.ADV:
+	!VAR0043 : VAR0045!
+	!VAR0044 : VAR0046!
+	!VAR0516 : 1046!
+	\L_05397:
+	!VAR0516 : 1!
+	\L_052ef:
+	\L_052d3:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng yết kiến'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Bị mất? Làm thế nào mà họ bị'
+	R
+	'lạc?!!'
+	\L_053c0:
+	ZH 1:
+	'Họ không phải trẻ con!'
+	\L_053c0:
+	\L_053b3:
+	!VAR0516 : 6!
+	\L_0535f:
+	\L_0530b:
+	ZH 1:
+	'Có vẻ như có một rào cản ma'
+	R
+	'thuật mạnh mẽ bao quanh mục'
+	R
+	'tiêu.'
+	\L_053c0:
+	ZH 1:
+	'Vì vậy, tôi tin rằng dù chúng ta'
+	R
+	'có gửi bao nhiêu quân đi chăng'
+	R
+	'nữa,'
+	\L_053c0:
+	ZH 1:
+	'họ cũng sẽ không thể đến đích.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Một rào cản ma thuật... Có lẽ'
+	R
+	'các đơn vị pháp sư của chúng ta'
+	R
+	'sẽ hoạt động.'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Zeth tiến bộ hơn đất nước chúng'
+	R
+	'ta 200 năm khi nói đến nghiên'
+	R
+	'cứu ma thuật.'
+	\L_053c0:
+	\L_053b3:
+	\L_0529b:
+	ZH 1:
+	'Vậy cô đang nói rằng điều đó là'
+	R
+	'không thể...?'
+	\L_053c0:
+	\L_053b3:
+	\L_0530b:
+	ZH 1:
+	'Hiện tại...'
+	\L_053c0:
+	\L_053b3:
+	\L_052b7:
+	ZH 1:
+	'Ch... Sẽ thật tệ nếu chúng ta'
+	R
+	'không thể nghĩ ra điều gì...'
+	\L_053c0:
+	\L_053b3:
+	\L_052fd:
+	\L_0536d:
+	\L_053a5:
+	%0:
+*L_04f26:
+	!VAR0530 : 0!
+	!VAR0531 : 0!
+	!VAR0532 : 0!
+	!VAR0533 : 0!
+	!VAR0156 : VAR0001!
+	{VAR0128 \ 0:
+		\L_05098:
+	}
+	!VAR0156 : VAR0002!
+	{VAR0128 \ 0:
+		\L_05098:
+	}
+	!VAR0156 : VAR0003!
+	{VAR0128 \ 0:
+		\L_05098:
+	}
+	!VAR0156 : VAR0004!
+	{VAR0128 \ 0:
+		\L_05098:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0005!
+	{VAR0128 \ 0:
+		\L_05098:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0006!
+	{VAR0128 \ 0:
+		\L_05098:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0007!
+	{VAR0128 \ 0:
+		\L_05098:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0008!
+	{VAR0128 \ 0:
+		\L_05098:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0009!
+	{VAR0128 \ 0:
+		\L_05098:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	\0:
+*L_05098:
+	{VAR0530 = 0:
+		!VAR0530 : VAR0156!
+		\0:
+	}
+	{VAR0531 = 0:
+		!VAR0531 : VAR0156!
+		\0:
+	}
+	{VAR0532 = 0:
+		!VAR0532 : VAR0156!
+		\0:
+	}
+	{VAR0533 = 0:
+		!VAR0533 : VAR0156!
+		\0:
+	}
+	\0:
+*L_05105:
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	\0:
+*L_05114:
+	{VAR0569 \ 0:
+		!VAR0154 : VAR0569!
+		!VAR0102 : 1!
+	}
+	{VAR0570 \ 0:
+		!VAR0154 : VAR0570!
+		!VAR0102 : 1!
+	}
+	{VAR0571 \ 0:
+		!VAR0154 : VAR0571!
+		!VAR0102 : 1!
+	}
+	{VAR0572 \ 0:
+		!VAR0154 : VAR0572!
+		!VAR0102 : 1!
+	}
+	\0:
+*L_05181:
+	{VAR0130 = 2:
+		ZH 1:
+		'（Quân nổi dậy）'
+	}
+	{VAR0130 = 3:
+		ZH 1:
+		'（Thành phố-bang độc lập）'
+	}
+	{VAR0130 = 4:
+		ZH 1:
+		'（Quân đội Helman）'
+	}
+	{VAR0130 = 5:
+		ZH 1:
+		'（Quân đội Patton）'
+	}
+	{VAR0130 = 6:
+		ZH 1:
+		'（NHẬT BẢN'
+	}
+	{VAR0130 = 7:
+		ZH 1:
+		'（Quân đội Zeth）'
+	}
+	{VAR0130 = 8:
+		ZH 1:
+		'（Quân đội Kayblis）'
+	}
+	{VAR0130 = 9:
+		ZH 1:
+		'（Quân đội Hornet）'
+	}
+	{VAR0130 = 10:
+		ZH 1:
+		'（Thiên thần）'
+	}
+	{VAR0130 = 11:
+		ZH 1:
+		'（Chủ nghĩa AL)'
+	}
+	ZH 1:
+	R
+	\0:
+*L_05285:
+	IM VAR0019, VAR0020:
+	\0:
+*L_05290:
+	IZ VAR0019, VAR0020:
+	\0:
+*L_0529b:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_052b7:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_052d3:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_052ef:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+*L_052fd:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0530b:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+*L_05327:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+*L_05343:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0535f:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0536d:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_05397:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+*L_053a5:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_053b3:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_053c0:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

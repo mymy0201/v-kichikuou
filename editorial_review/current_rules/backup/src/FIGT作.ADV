@@ -1,0 +1,488 @@
+	{VAR0516 = 1:
+		@L_00048:
+	}
+	{VAR0516 = 2:
+		@L_006b2:
+	}
+*L_00048:
+	!VAR0021 : VAR0021 - VAR0022!
+	Y 4, 100:
+	{VAR0021 < VAR0000:
+		%0:
+	}
+	!VAR0154 : VAR0611!
+	MM 1, VAR0198 + (VAR0154 - 1) * 3:
+	J1 0, 400:
+	G 899:
+	J1 0, 400:
+	G VAR0070:
+	{(VAR0074 > VAR0580) + (VAR0074 = VAR0580):
+		J1 0, 400:
+		G VAR0094, 40:
+	}
+	{(VAR0074 < VAR0580) * (VAR0074 \ 0):
+		J1 0, 400:
+		G VAR0095, 40:
+	}
+	{VAR0074 = 0:
+		J1 0, 400:
+		G VAR0096, 40:
+	}
+	J0 0, 544:
+	G VAR0097, 40:
+	CC 0, 400, 640, 400, 0, 0:
+	!VAR0021 : VAR0021 - VAR0000!
+	\L_009d1:
+	ZH 1:
+	R
+	'Chiến lược của quân'
+	R
+	'đội đồng minh đã thành công.'
+	\L_00a4e:
+	\L_00a41:
+	!VAR0606 : 1!
+	{VAR0021 > 50:
+		!VAR0606 : 2!
+	}
+	{VAR0154 = 2:
+		\L_009b5:
+		ZH 1:
+		'Xin lỗi. Tôi đang làm'
+		R
+		'điều này vì Thầy Rance...'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 5:
+		\L_009b5:
+		ZH 1:
+		'Cuộc tấn công'
+		R
+		'bất ngờ từ phía sau của'
+		R
+		'chúng tôi đã thành công.'
+		\L_00a4e:
+		ZH 1:
+		'Thế lực địch'
+		R
+		'đang hỗn loạn.'
+		\L_00a4e:
+		ZH 1:
+		'Bây giờ là cơ'
+		R
+		'hội của chúng ta.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 6:
+		\L_009b5:
+		ZH 1:
+		'Đó là một'
+		R
+		'chiến lược rất cơ bản'
+		R
+		'nhưng nó đã có hiệu quả.'
+		\L_00a4e:
+		ZH 1:
+		'Luôn biết'
+		R
+		'những điều cơ bản.'
+		\L_00a4e:
+		ZH 1:
+		'Bây giờ, bắt đầu!'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 10:
+		\L_009b5:
+		ZH 1:
+		'Đã làm được. Chúng ta đã'
+		R
+		'bao vây thành công kẻ thù.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 12:
+		\L_009b5:
+		ZH 1:
+		'Chúng tôi'
+		R
+		'đã có thể hạ gục kẻ thù'
+		R
+		'từ phía sau. Thành công.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 13:
+		\L_009b5:
+		ZH 1:
+		'Chiến lược mà Ngài Ex'
+		R
+		'dạy tôi đã có hiệu quả.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 14:
+		\L_009b5:
+		ZH 1:
+		'Tôi có thể đọc được'
+		R
+		'mọi hành động của bạn.'
+		\L_00a4e:
+		ZH 1:
+		'Bạn đang ở trong'
+		R
+		'lòng bàn tay của tôi.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 15:
+		\L_009b5:
+		ZH 1:
+		'Tôi hiểu'
+		R
+		'rồi. Hãy sử dụng Đội'
+		R
+		'hình V cho việc này.'
+		R
+		R
+		'Sayoriiii!'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 16:
+		\L_009b5:
+		ZH 1:
+		'Chiến lược thành'
+		R
+		'công! Bây giờ chúng ta sẽ'
+		R
+		'tiêu diệt chúng bằng Tulip.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 20:
+		\L_009b5:
+		ZH 1:
+		'Tôi đã học được'
+		R
+		'một số điều sau khi'
+		R
+		'sống hàng trăm năm.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 22:
+		\L_009b5:
+		ZH 1:
+		'Điều này là dành cho'
+		R
+		'Amiran, nhưng nó vô ích...'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 28:
+		!VAR0701 : VAR0701 + 1!
+		{VAR0701 > 10:
+			\L_009b5:
+			ZH 1:
+			'Tôi rất vui vì đã'
+			R
+			'gia nhập Quân đội Leazas.'
+			\L_00a4e:
+			ZH 1:
+			'Thực hiện'
+			R
+			'các chiến lược thành công'
+			R
+			'là mục đích sống của tôi.'
+			\L_00a4e:
+			\L_00a41:
+			@L_00632:
+		}
+		\L_009b5:
+		ZH 1:
+		'Huhuhuhuhu. Khoảnh'
+		R
+		'khắc này, đây là lý'
+		R
+		'do tôi sống vì nó.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 34:
+		\L_009b5:
+		ZH 1:
+		'Tôi không hề mong đợi'
+		R
+		'gì hơn ở bản thân mình...'
+		\L_00a4e:
+		ZH 1:
+		'Một ngày nào đó tôi'
+		R
+		'sẽ trở thành vị tướng'
+		R
+		'vĩ đại nhất ở Leazas.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 35:
+		\L_009b5:
+		ZH 1:
+		'Haah... Có vẻ'
+		R
+		'như nó đã thành công'
+		R
+		'bằng cách nào đó...'
+		\L_00a4e:
+		ZH 1:
+		'Tim tôi vẫn'
+		R
+		'đập thình thịch...'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 36:
+		\L_009b5:
+		ZH 1:
+		'Được rồi, tốt rồi. Bây'
+		R
+		'giờ hãy bao vây chúng.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 37:
+		\L_00999:
+		ZH 1:
+		'Đồ ngu.'
+		\L_00a4e:
+		ZH 1:
+		'Tôi sẽ không'
+		R
+		'thương hại bất kỳ'
+		\L_00a4e:
+		ZH 1:
+		'kẻ thù nào rơi vào một'
+		R
+		'cái bẫy đơn giản như vậy!'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	\L_009b5:
+	ZH 1:
+	'... Được rồi.'
+	\L_00a4e:
+	\L_00a41:
+*L_00632:
+	\L_009d1:
+	ZH 1:
+	'Nhờ chiến lược thành công,'
+	R
+	{VAR0606 = 1:
+		ZH 1:
+		'hiệu quả chiến'
+		R
+		'đấu của quân đội đồng'
+		R
+		'minh tăng lên.(+10%)'
+	}
+	{VAR0606 = 2:
+		ZH 1:
+		'hiệu quả chiến'
+		R
+		'đấu của quân đội đồng'
+		R
+		'minh tăng lên.(+50%)'
+	}
+	\L_00a4e:
+	\L_00a41:
+	%0:
+*L_006b2:
+	!VAR0022 : VAR0022 - VAR0021!
+	Y 4, 100:
+	{VAR0022 < VAR0000:
+		%0:
+	}
+	!VAR0022 : VAR0022 - VAR0000!
+	!VAR0156 : VAR0612!
+	MM 4, VAR0199 + (VAR0156 - 1) * 3:
+	J1 0, 400:
+	G 899:
+	J1 0, 400:
+	G 900:
+	{(VAR0106 > VAR0580) + (VAR0106 = VAR0580):
+		J1 0, 400:
+		G VAR0120, 40:
+	}
+	{(VAR0106 < VAR0580) * (VAR0106 \ 0):
+		J1 0, 400:
+		G VAR0121, 40:
+	}
+	{VAR0106 = 0:
+		J1 0, 400:
+		G VAR0122, 40:
+	}
+	J0 448, 544:
+	G VAR0123, 40:
+	CC 0, 400, 640, 400, 0, 0:
+	\L_009d1:
+	ZH 1:
+	'Chiến lược của quân'
+	R
+	'địch đã thành công.'
+	\L_00a4e:
+	\L_00a41:
+	!VAR0606 : 11!
+	{VAR0022 > 50:
+		!VAR0606 : 12!
+	}
+	{VAR0156 = 1:
+		\L_009ed:
+		ZH 1:
+		'Chúng ta có'
+		R
+		'số lượng ít hơn nên phải'
+		R
+		'chiến đấu bằng cái đầu.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00919:
+	}
+	{VAR0156 = 4:
+		\L_009ed:
+		ZH 1:
+		'Xin lỗi, nhưng bạn'
+		R
+		'đã rơi vào bẫy của tôi.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00919:
+	}
+	{VAR0156 = 8:
+		\L_009ed:
+		ZH 1:
+		'Được rồi! Chiến'
+		R
+		'lược thành công.'
+		R
+		'Giải quyết Leazas!'
+		\L_00a4e:
+		\L_00a41:
+		@L_00919:
+	}
+	{VAR0156 = 22:
+		\L_00a09:
+		ZH 1:
+		'Được rồi... Bây giờ chiến'
+		R
+		'đấu sẽ dễ dàng hơn rồi...'
+		\L_00a4e:
+		\L_00a41:
+		@L_00919:
+	}
+	{VAR0156 = 45:
+		\L_009ed:
+		ZH 1:
+		'Aah... Điều'
+		R
+		'này thật nhàm chán...'
+		R
+		'Việc đó quá dễ dàng...'
+		\L_00a4e:
+		\L_00a41:
+		@L_00919:
+	}
+	\L_00a09:
+	ZH 1:
+	'... Được rồi.'
+	\L_00a4e:
+	\L_00a41:
+*L_00919:
+	\L_009d1:
+	ZH 1:
+	'Nhờ chiến lược thành công,'
+	R
+	{VAR0606 = 11:
+		ZH 1:
+		'hiệu quả'
+		R
+		'chiến đấu của quân đội'
+		R
+		'đồng minh giảm.(-10%)'
+	}
+	{VAR0606 = 12:
+		ZH 1:
+		'Hiệu quả'
+		R
+		'chiến đấu của quân đội'
+		R
+		'đồng minh giảm.(-50%)'
+	}
+	\L_00a4e:
+	\L_00a41:
+	%0:
+*L_00999:
+	!VAR0521 : 141!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 241!
+	%#WAO_SUB.ADV:
+	\0:
+*L_009b5:
+	!VAR0521 : 142!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 242!
+	%#WAO_SUB.ADV:
+	\0:
+*L_009d1:
+	!VAR0521 : 143!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 243!
+	%#WAO_SUB.ADV:
+	\0:
+*L_009ed:
+	!VAR0521 : 151!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 251!
+	%#WAO_SUB.ADV:
+	\0:
+*L_00a09:
+	!VAR0521 : 152!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 252!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 153!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 253!
+	%#WAO_SUB.ADV:
+	\0:
+*L_00a41:
+	!VAR0521 : 10!
+	%#WAO_SUB.ADV:
+	\0:
+*L_00a4e:
+	!VAR0521 : 11!
+	%#WAO_SUB.ADV:
+	\0:

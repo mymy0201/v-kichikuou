@@ -1,0 +1,1783 @@
+	ZM 24:
+	EC 0:
+	G 240:
+	\L_018b6:
+	ZH 1:
+	'Alice 「Xin chào, đây là Alice.」'
+	SS 28:
+	\L_018fb:
+	ZH 1:
+	'Yukichi 「Caaaw caaaw.」'
+	\L_018fb:
+	ZH 1:
+	'Alice 「Cảm ơn bạn　vì đã'
+	R
+	'mua　Kichikuou Rance.」'
+	\L_018fb:
+	ZH 1:
+	'Alice 「Đây là một số thông tin.」'
+	\L_018fb:
+	!VAR0010 : 0!
+	LP 1, VAR0514, 1:
+*L_0007f:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_0007f:
+	}
+	ZH 1:
+	$L_00221$
+	'Cách chơi'
+	$
+	$L_008e2$
+	'Tín dụng'
+	$
+	$L_00cc6$
+	'Trò chơi Alice tiếp theo'
+	$
+	$L_00f49$
+	'Giới thiệu qua Internet'
+	$
+	$L_0106d$
+	'Trò chơi này là gì?'
+	$
+	$L_01661$
+	'Điều chỉnh tỷ lệ màn hình'
+	$
+	$L_011b7$
+	'Xếp hạng nhân vật'
+	$
+	$L_001e1$
+	'Góc nhân viên'
+	$
+	$L_00174$
+	'Một Lời Khuyên Nhỏ'
+	$
+	{VAR0514 \ 0:
+		ZH 1:
+		$L_0173e$
+		'Xem phần mở đầu'
+		$
+	}
+	ZH 1:
+	$L_0013f$
+	'Quay lại trò chơi'
+	$
+	]
+	@L_0007f:
+*L_0013f:
+	ZH 1:
+	'Alice 「Bây giờ, hãy tận hưởng'
+	R
+	'trò chơi.Tạm biệt.」'
+	\L_018fb:
+	ZH 1:
+	'Yukichi 「Caaaaaaaaaw.」'
+	\L_018fb:
+	\L_018ee:
+	EC 0:
+	SS 27:
+	%0:
+*L_00174:
+	ZH 1:
+	'Alice 「Ồ vâng, tôi chỉ có một'
+	R
+	'gợi ý.Hãy nghe kỹ nhé.」'
+	\L_018fb:
+	ZH 1:
+	'Yukichi 「Caaaaaaaaaaaaaaaa.」'
+	\L_018fb:
+	ZH 1:
+	'Alice 「Nếu Rance mất quá nhiều'
+	R
+	'thời gian để đoàn kết　nhân loại,'
+	R
+	'điều gì đó tồi tệ sẽ xảy ra.」'
+	\L_018fb:
+	ZH 1:
+	'Yukichi 「Caaaaw?」'
+	\L_018fb:
+	ZH 1:
+	'Alice 「Đó là tất cả... Cố gắng'
+	R
+	'hết sức nhé.」'
+	\L_018fb:
+	ZH 1:
+	'Yukichi 「Caaa.」'
+	\L_018fb:
+	@L_0007f:
+*L_001e1:
+	ZH 1:
+	'Alice 「Lần này Góc nhân viên nằm'
+	R
+	'trong chính trò chơi.」'
+	\L_018fb:
+	ZH 1:
+	'Alice 「Alicesoft đang ẩn ở đâu'
+	R
+	'đó.Hãy đến tìm chúng tôi và'
+	R
+	'chơi.」'
+	\L_018fb:
+	ZH 1:
+	'Yukichi 「Cawcawcawcawcaw...'
+	R
+	'Caw.」'
+	\L_018fb:
+	@L_0007f:
+*L_00221:
+	{VAR0010 = 10:
+		!VAR0057 : 1!
+		ZH 1:
+		'　ＸＸＸＸＸＸＸＸＸＸＸＸＸＸ'
+		R
+		'　ＸＸＸＸＸＸＸＸＸＸＸＸＸＸ'
+		\L_018fb:
+		@L_0007f:
+	}
+*L_0024e:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_0024e:
+	}
+	ZH 1:
+	$L_007e3$
+	'Tiến trình trò chơi'
+	$
+	$L_0081b$
+	'Về đơn vị'
+	$
+	$L_00894$
+	'Về Ninja'
+	$
+	$L_006d1$
+	'Giai đoạn quân đội Rance'
+	$
+	$L_0059b$
+	'Về trận chiến'
+	$
+	$L_00513$
+	'Lệnh chiến đấu'
+	$
+	$L_00484$
+	'Thông tin thêm về Trận chiến'
+	$
+	$L_003c2$
+	'Thông số chung'
+	$
+	$L_00383$
+	'Lưu/Đang tải'
+	$
+	$L_00344$
+	'Về kho báu'
+	$
+	$L_00305$
+	'Linh tinh'
+	$
+	$L_00300$
+	'Trở lại'
+	$
+	]
+*L_00300:
+	@L_0007f:
+*L_00305:
+	ZH 1:
+	'Các sự kiện quan trọng có thể'
+	R
+	'được kích hoạt thông qua lệnh'
+	R
+	'Harem và Talk.Việc thu thuế từ'
+	\L_018fb:
+	ZH 1:
+	'một thành phố cũng có thể gây ra'
+	R
+	'các sự kiện ở thành phố đó.'
+	\L_018fb:
+	ZH 1:
+	'Tôi thực sự khuyên bạn không nên'
+	R
+	'xem hướng dẫn cho lần chơi đầu'
+	R
+	'tiên và chấp nhận thua lỗ.Thất'
+	\L_018fb:
+	ZH 1:
+	'bại là một phần của trò chơi.'
+	\L_018fb:
+	@L_0024e:
+*L_00344:
+	ZH 1:
+	'Kho báu có thể được mua từ'
+	R
+	'Pluepet,'
+	\L_018fb:
+	ZH 1:
+	'cướp bóc từ các thành phố hoặc'
+	R
+	'tìm thấy trong ngục tối.Khi bạn'
+	R
+	'chọn \"Kho báu\" trên menu'
+	\L_018fb:
+	ZH 1:
+	'chính, một danh sách sẽ được'
+	R
+	'hiển thị.'
+	\L_018fb:
+	ZH 1:
+	'Một số kho báu có thể được trang'
+	R
+	'bị.Nếu bạn muốn trang bị nó, hãy'
+	R
+	'chọn nó,'
+	\L_018fb:
+	ZH 1:
+	'sau đó chọn nhân vật bạn muốn'
+	R
+	'trang bị nó.'
+	\L_018fb:
+	@L_0024e:
+*L_00383:
+	ZH 1:
+	'Trò chơi sẽ được lưu tự động vào'
+	R
+	'đầu mỗi lượt vào ô lưu tự'
+	R
+	'động.Dữ liệu được tải cũng sẽ'
+	\L_018fb:
+	ZH 1:
+	'ghi đè lên vị trí tự động lưu.'
+	\L_018fb:
+	ZH 1:
+	'Bạn cũng có thể lưu dữ liệu theo'
+	R
+	'cách thủ công.Tuy nhiên,'
+	\L_018fb:
+	ZH 1:
+	'bất kể thời điểm bạn lưu trong'
+	R
+	'một lượt, khi bạn tải dữ liệu'
+	R
+	'đó, bạn sẽ ở đầu lượt đó.'
+	\L_018fb:
+	@L_0024e:
+*L_003c2:
+	ZH 1:
+	'HP: HP hiện tại của tướng.(chết'
+	R
+	'nếu chạm 0) Tấn công/Phòng thủ:'
+	R
+	'Khả năng chiến đấu của tướng.'
+	\L_018fb:
+	ZH 1:
+	'Khả năng chiến lược, Cơ hội'
+	R
+	'chiến lược thành công: Vị tướng'
+	R
+	'có cơ hội cao nhất,'
+	\L_018fb:
+	ZH 1:
+	'dù là địch hay đồng minh, đều có'
+	R
+	'cơ hội thực hiện chiến lược.'
+	\L_018fb:
+	ZH 1:
+	'Nếu bạn thực hiện thành công một'
+	R
+	'chiến lược, bạn sẽ có được lợi'
+	R
+	'thế lớn trong trận chiến.'
+	\L_018fb:
+	ZH 1:
+	'Khả năng chỉ huy tình huống:'
+	\L_018fb:
+	ZH 1:
+	'Một giá trị được thêm vào tướng'
+	R
+	'và quân trong chỉ số của một đơn'
+	R
+	'vị tùy thuộc vào loại trận'
+	\L_018fb:
+	ZH 1:
+	'chiến.'
+	\L_018fb:
+	ZH 1:
+	'Tất cả các tướng đều có ưu điểm'
+	R
+	'và nhược điểm riêng,'
+	\L_018fb:
+	ZH 1:
+	'vì vậy bạn nên chú ý đến những'
+	R
+	'điều này và sử dụng từng tướng'
+	R
+	'khi thích hợp.'
+	\L_018fb:
+	ZH 1:
+	'Quân đội:'
+	\L_018fb:
+	ZH 1:
+	'Tất cả các tướng chỉ huy một'
+	R
+	'loại quân cụ thể với khả năng'
+	R
+	'tấn công và phòng thủ riêng.'
+	\L_018fb:
+	ZH 1:
+	'Tấn công đặc biệt:'
+	\L_018fb:
+	ZH 1:
+	'Một số tướng có các đòn tấn công'
+	R
+	'đặc biệt có thể sử dụng được sau'
+	R
+	'khi chờ một lần.Chúng có nhiều'
+	\L_018fb:
+	ZH 1:
+	'tác dụng khác nhau.'
+	\L_018fb:
+	@L_0024e:
+*L_00484:
+	ZH 1:
+	'Khi bạn tấn công, một con số'
+	R
+	'biểu thị số lượng quân tấn công'
+	R
+	'sẽ bay vào mục tiêu tấn công,'
+	\L_018fb:
+	ZH 1:
+	'sau đó trở thành số lượng quân'
+	R
+	'địch bị tiêu diệt.'
+	\L_018fb:
+	ZH 1:
+	'Ví dụ: nếu số 1000 bay tới quân'
+	R
+	'địch và trở thành 200,'
+	\L_018fb:
+	ZH 1:
+	'nghĩa là 1000 quân đã tấn công'
+	R
+	'và tiêu diệt 200 quân địch.'
+	\L_018fb:
+	ZH 1:
+	'Tùy theo tình huống mà tướng có'
+	R
+	'thể tấn công hoặc bị tấn công'
+	R
+	'trực tiếp.Không giống như mỗi'
+	\L_018fb:
+	ZH 1:
+	'quân tấn công một lần, một tướng'
+	R
+	'có thể tấn công nhiều lần.'
+	\L_018fb:
+	ZH 1:
+	'Tuy nhiên,'
+	\L_018fb:
+	ZH 1:
+	'nếu một vị tướng bị giết thì'
+	R
+	'toàn bộ đơn vị sẽ bị tiêu diệt'
+	R
+	'bất kể số quân còn lại là bao'
+	\L_018fb:
+	ZH 1:
+	'nhiêu.'
+	\L_018fb:
+	ZH 1:
+	'Một vị tướng có thể tấn công và'
+	R
+	'bị tấn công khi số lượng quân'
+	R
+	'của họ thấp hơn khu vực chiến'
+	\L_018fb:
+	ZH 1:
+	'đấu.'
+	\L_018fb:
+	@L_0024e:
+*L_00513:
+	ZH 1:
+	'Khi đến lượt nhân vật, nếu họ có'
+	R
+	'thể tấn công,'
+	\L_018fb:
+	ZH 1:
+	'hãy nhấp chuột trái vào kẻ thù'
+	R
+	'mà bạn muốn họ tấn công.'
+	\L_018fb:
+	ZH 1:
+	'Nếu bạn nhấp chuột phải, một'
+	R
+	'menu sẽ xuất hiện với các lệnh'
+	R
+	'sau.'
+	\L_018fb:
+	ZH 1:
+	'Phòng thủ: Tăng nhẹ khả năng'
+	R
+	'phòng thủ trong lượt đó.Đợi:'
+	\L_018fb:
+	ZH 1:
+	'Thực hiện một đòn tấn công đặc'
+	R
+	'biệt cho một số nhân vật.Rút'
+	R
+	'lui: Toàn quân rút lui,'
+	\L_018fb:
+	ZH 1:
+	'dẫn đến tổn thất.'
+	\L_018fb:
+	ZH 1:
+	'Tự động tấn công: Đơn vị tiếp'
+	R
+	'tục tấn công kẻ thù phía'
+	R
+	'trước.Tự động phòng thủ:'
+	\L_018fb:
+	ZH 1:
+	'Đơn vị tiếp tục phòng thủ.Thông'
+	R
+	'tin: Hiển thị thông tin của đơn'
+	R
+	'vị nhấp chuột phải vào.'
+	\L_018fb:
+	ZH 1:
+	'Nếu một đơn vị sử dụng các đòn'
+	R
+	'tấn công tầm xa hoặc phép thuật,'
+	\L_018fb:
+	ZH 1:
+	'bạn cũng có thể chọn để chúng'
+	R
+	'tấn công trực tiếp trong menu'
+	R
+	'chuột phải.'
+	\L_018fb:
+	@L_0024e:
+*L_0059b:
+	ZH 1:
+	'Bạn thường có thể chiến đấu với'
+	R
+	'tối đa 4 đơn vị.Nếu bạn rút lui'
+	R
+	'hoặc bị xóa sổ,'
+	\L_018fb:
+	ZH 1:
+	'bạn sẽ thua.Nếu bạn đang tấn'
+	R
+	'công, hết lượt cũng là thua.'
+	\L_018fb:
+	ZH 1:
+	'Lượt trận chiến:'
+	\L_018fb:
+	ZH 1:
+	'Bạn nhận được số lượt được quyết'
+	R
+	'định ngẫu nhiên khoảng 4'
+	R
+	'lượt.Trận chiến kết thúc khi hết'
+	\L_018fb:
+	ZH 1:
+	'lượt.'
+	\L_018fb:
+	ZH 1:
+	'Tuy nhiên, một số trận chiến có'
+	R
+	'thể không có giới hạn lượt.'
+	\L_018fb:
+	ZH 1:
+	'Khu vực chiến đấu:'
+	\L_018fb:
+	ZH 1:
+	'Kích thước của một chiến'
+	R
+	'trường.Chỉ áp dụng khi bạn chiến'
+	R
+	'đấu trong thành phố hoặc ngục'
+	\L_018fb:
+	ZH 1:
+	'tối chứ không phải ở đồng bằng.'
+	\L_018fb:
+	ZH 1:
+	'Kích thước giới hạn số lượng'
+	R
+	'quân có thể chiến đấu cùng một'
+	R
+	'lúc.Ví dụ:'
+	\L_018fb:
+	ZH 1:
+	'một đơn vị 2000 quân chỉ có thể'
+	R
+	'tấn công với 500 quân nếu diện'
+	R
+	'tích chiến đấu là 500.'
+	\L_018fb:
+	ZH 1:
+	'Hiệu ứng phòng thủ: Nếu bạn đang'
+	R
+	'phòng thủ và chọn chiến đấu'
+	R
+	'trong thành phố,'
+	\L_018fb:
+	ZH 1:
+	'bạn sẽ có được lợi thế dựa trên'
+	R
+	'khả năng phòng thủ của thành phố'
+	R
+	'đó.'
+	\L_018fb:
+	ZH 1:
+	'Thứ tự lần lượt: Nói chung, đơn'
+	R
+	'vị càng có ít quân thì họ di'
+	R
+	'chuyển càng sớm.'
+	\L_018fb:
+	ZH 1:
+	'Tiền tuyến và Hậu tuyến Hai đơn'
+	R
+	'vị đầu tiên bạn chọn để triển'
+	R
+	'khai ở tiền tuyến và hai đơn vị'
+	\L_018fb:
+	ZH 1:
+	'còn lại ở phía sau.'
+	\L_018fb:
+	ZH 1:
+	'Chỉ các đơn vị ở tiền tuyến mới'
+	R
+	'có thể tấn công trực tiếp.Các'
+	R
+	'đơn vị ở phía sau bị giới hạn'
+	\L_018fb:
+	ZH 1:
+	'trong các cuộc tấn công tầm'
+	R
+	'xa.Các đơn vị không thể chuyển'
+	R
+	'đổi tuyến trong trận chiến.'
+	\L_018fb:
+	ZH 1:
+	'Đơn vị chiến binh: Chỉ có thể'
+	R
+	'tấn công ở tiền tuyến.Đơn vị'
+	R
+	'Cung:'
+	\L_018fb:
+	ZH 1:
+	'Có thể tấn công ở một trong hai'
+	R
+	'tuyến.Đơn vị ma thuật: Có thể'
+	R
+	'tấn công ở một trong hai tuyến.'
+	\L_018fb:
+	ZH 1:
+	'Tiêu diệt đơn vị: Khi HP của một'
+	R
+	'tướng về 0, toàn bộ đơn vị của'
+	R
+	'tướng đó sẽ bị tiêu diệt.'
+	\L_018fb:
+	@L_0024e:
+*L_006d1:
+	ZH 1:
+	'Bạn có thể thực hiện tất cả các'
+	R
+	'hành động sau một lần trong Giai'
+	R
+	'đoạn Đội quân Rance.'
+	\L_018fb:
+	ZH 1:
+	'Bộ chỉ huy cấp dưới:'
+	\L_018fb:
+	ZH 1:
+	'Bạn có thể bổ sung một số lượng'
+	R
+	'lớn quân cho một đơn vị hoặc'
+	R
+	'tăng số lượng quân tối đa của'
+	\L_018fb:
+	ZH 1:
+	'một đơn vị.'
+	\L_018fb:
+	ZH 1:
+	'Lệnh cấp dưới: Ngoài việc thực'
+	R
+	'hiện một trong hai hành động'
+	R
+	'trước đó,'
+	\L_018fb:
+	ZH 1:
+	'bạn cũng có thể nói chuyện với'
+	R
+	'cấp dưới.'
+	\L_018fb:
+	ZH 1:
+	'Lệnh Harem: Gọi một cô gái từ'
+	R
+	'hậu cung của Rance để quan hệ'
+	R
+	'tình dục.'
+	\L_018fb:
+	ZH 1:
+	'Lệnh thương gia: Gọi thương gia'
+	R
+	'Pluepet để mua sắm.'
+	\L_018fb:
+	ZH 1:
+	'Chiến tranh:'
+	\L_018fb:
+	ZH 1:
+	'Bạn có thể tấn công một lãnh thổ'
+	R
+	'được kết nối với lãnh thổ của'
+	R
+	'bạn bằng một con đường.'
+	\L_018fb:
+	ZH 1:
+	'Bạn có thể tấn công bao nhiêu'
+	R
+	'lần tùy thích cho đến khi bạn đã'
+	R
+	'chinh phục được một lãnh thổ'
+	\L_018fb:
+	ZH 1:
+	'hoặc bạn đã hết đơn vị để sử'
+	R
+	'dụng.'
+	\L_018fb:
+	ZH 1:
+	'Chỉ huy Lãnh thổ:'
+	\L_018fb:
+	ZH 1:
+	'Lựa chọn các lãnh thổ thuộc hoặc'
+	R
+	'không thuộc quyền kiểm soát của'
+	R
+	'bạn.Bạn có thể thực hiện một'
+	\L_018fb:
+	ZH 1:
+	'trong những thao tác sau:'
+	\L_018fb:
+	ZH 1:
+	'Vị trí độc quyền: Đi đến một nơi'
+	R
+	'nào đó độc đáo trong một khu'
+	R
+	'vực.Thuế tạm thời:'
+	\L_018fb:
+	ZH 1:
+	'Thu tiền trong lãnh thổ của'
+	R
+	'bạn.Phòng thủ tăng cường:'
+	\L_018fb:
+	ZH 1:
+	'Tăng cường phòng thủ lãnh thổ'
+	R
+	'của bạn.'
+	\L_018fb:
+	ZH 1:
+	'Lệnh ngục tối: Tìm kiếm ngục tối'
+	R
+	'và các tòa nhà cụ thể được kết'
+	R
+	'nối với lãnh thổ của bạn.'
+	\L_018fb:
+	@L_0024e:
+*L_007e3:
+	ZH 1:
+	'Trò chơi này nói về việc đảm'
+	R
+	'nhận vai Rance trong cuộc đấu'
+	R
+	'tranh chiếm lấy thế giới.'
+	\L_018fb:
+	ZH 1:
+	'Một tuần trôi qua trong mỗi lượt'
+	R
+	'chơi.Mỗi lượt được tạo thành từ'
+	R
+	'nhiều giai đoạn.Thứ tự giai đoạn'
+	\L_018fb:
+	ZH 1:
+	'là: Giai đoạn Quân đội Rance ）'
+	R
+	'Giai đoạn kẻ thù ） Kết thúc lượt'
+	\L_018fb:
+	@L_0024e:
+*L_0081b:
+	ZH 1:
+	'Một đơn vị được tạo thành từ một'
+	R
+	'vị tướng và quân đội dưới quyền'
+	R
+	'của họ.Số lượng quân tối đa của'
+	\L_018fb:
+	ZH 1:
+	'đơn vị dựa trên khả năng chỉ huy'
+	R
+	'của tướng.'
+	\L_018fb:
+	ZH 1:
+	'Khi bắt đầu lượt, nếu một đơn vị'
+	R
+	'có ít hơn số lượng quân tối đa,'
+	\L_018fb:
+	ZH 1:
+	'đơn vị đó sẽ khôi phục một số'
+	R
+	'quân.'
+	\L_018fb:
+	ZH 1:
+	'Bạn cũng có thể khôi phục một số'
+	R
+	'lượng lớn quân cho một đơn vị'
+	R
+	'bằng cách chọn Bổ sung quân trên'
+	\L_018fb:
+	ZH 1:
+	'màn hình Cấp dưới, nhưng phương'
+	R
+	'pháp này tốn tiền.'
+	\L_018fb:
+	ZH 1:
+	'Một đơn vị chỉ có thể chiến đấu'
+	R
+	'một trận mỗi lượt.Nếu một đơn vị'
+	R
+	'hành động trong giai đoạn Đội'
+	\L_018fb:
+	ZH 1:
+	'quân Rance, đơn vị đó không thể'
+	R
+	'hành động trong giai đoạn phe'
+	R
+	'địch.'
+	\L_018fb:
+	@L_0024e:
+*L_00894:
+	ZH 1:
+	'Mặc dù khác với các đơn vị,'
+	\L_018fb:
+	ZH 1:
+	'ninja cũng chỉ có thể hành động'
+	R
+	'một lần mỗi lượt.Họ có thể thu'
+	R
+	'thập thông tin của kẻ thù và phá'
+	\L_018fb:
+	ZH 1:
+	'hoại các quốc gia của kẻ thù.'
+	\L_018fb:
+	ZH 1:
+	'Tuy nhiên, họ cũng có thể bị'
+	R
+	'bắt, trong trường hợp đó bạn sẽ'
+	R
+	'mất họ mãi mãi.'
+	\L_018fb:
+	ZH 1:
+	'Tuy nhiên, bạn luôn có thể trinh'
+	R
+	'sát an toàn với ninja khi kẻ thù'
+	R
+	'đang tấn công bạn.'
+	\L_018fb:
+	@L_0024e:
+*L_008e2:
+	ZH 1:
+	'Nhân viên phát triển Kichikuou'
+	R
+	'Rance'
+	\L_018fb:
+	ZH 1:
+	'Cấu trúc kịch bản／Người sáng tạo'
+	R
+	'gốc 　　　　　　　TADA'
+	\L_018fb:
+	ZH 1:
+	'Văn bản kịch bản 　　　　　　　Tori'
+	R
+	'　　　　　　　Fumya'
+	\L_018fb:
+	ZH 1:
+	'Văn bản kịch bản 　　　　　　　Moomin'
+	\L_018fb:
+	ZH 1:
+	'Thiết kế trò chơi 　　　　　　　TADA'
+	\L_018fb:
+	ZH 1:
+	'Lập trình trò chơi 　　　　　　　WAO'
+	R
+	'　　　　　　　TADA'
+	\L_018fb:
+	ZH 1:
+	'Thiết kế màn hình 　　　　　　　Purin'
+	\L_018fb:
+	ZH 1:
+	'Tác phẩm nghệ thuật chính'
+	R
+	'　　　　　　　Masato Mutsumi 　　　　　　　MIN'
+	\L_018fb:
+	ZH 1:
+	'Tác phẩm nghệ thuật phụ'
+	R
+	'　　　　　　　Purin 　　　　　　　Orion'
+	\L_018fb:
+	ZH 1:
+	'Tác phẩm nghệ thuật phụ'
+	R
+	'　　　　　　　Karen 　　　　　　　YUKIMI'
+	\L_018fb:
+	ZH 1:
+	'Yêu Tinh 　　　　　　　Fukupon'
+	R
+	'　　　　　　　Purin'
+	\L_018fb:
+	ZH 1:
+	'Tinh Linh 　　　　　　　Orion'
+	\L_018fb:
+	ZH 1:
+	'Sprites (Vật phẩm)'
+	R
+	'　　　　　　　Kuribayashi'
+	\L_018fb:
+	ZH 1:
+	'Âm nhạc & Hiệu ứng âm thanh'
+	R
+	'　　　　　　　Shade'
+	\L_018fb:
+	ZH 1:
+	'Logo tiêu đề 　　　　　　　Cherushii'
+	\L_018fb:
+	ZH 1:
+	'Thế giới/Cấu trúc bối cảnh'
+	R
+	'　　　　　　　TADA 　　　　　　　Purin/Orion'
+	\L_018fb:
+	ZH 1:
+	'Bóng 　　　　　　　Karen 　　　　　　　Oden'
+	R
+	'Yoshida'
+	\L_018fb:
+	ZH 1:
+	'Bóng 　　　　　　　Minoru'
+	\L_018fb:
+	ZH 1:
+	'Hỗ trợ tạo bóng 　　　　　　　Senya'
+	R
+	'Kirishima'
+	\L_018fb:
+	ZH 1:
+	'Lập trình hệ thống (HỆ THỐNG'
+	R
+	'3.5) 　　　　　　　Kazushi 　　　　　　　WAO'
+	\L_018fb:
+	ZH 1:
+	'Lập trình hệ thống (HỆ THỐNG'
+	R
+	'3.5) 　　　　　　　Shige'
+	\L_018fb:
+	ZH 1:
+	'Hình nền 　　　　　　　Nakajii'
+	R
+	'　　　　　　　Youichirou'
+	\L_018fb:
+	ZH 1:
+	'Hình nền 　　　　　　　Mune Q'
+	\L_018fb:
+	ZH 1:
+	'CG'
+	R
+	'　　　　　　　K'
+	R
+	'　　　　　　　YOK'
+	\L_018fb:
+	ZH 1:
+	'CG'
+	R
+	'　　　　　　　Chabashira'
+	R
+	'　　　　　　　Dairagi'
+	\L_018fb:
+	ZH 1:
+	'CG'
+	R
+	'　　　　　　　Yuuta'
+	R
+	'　　　　　　　Oushuuran'
+	\L_018fb:
+	ZH 1:
+	'CG'
+	R
+	'　　　　　　　Takashi Saeki'
+	R
+	'　　　　　　　Mieshi'
+	\L_018fb:
+	ZH 1:
+	'CG 　　　　　　　Không D!Naritaya'
+	\L_018fb:
+	ZH 1:
+	'CG'
+	R
+	'　　　　　　　Purin'
+	R
+	'　　　　　　　Orion'
+	\L_018fb:
+	ZH 1:
+	'CG'
+	R
+	'　　　　　　　Shikigami Azuma'
+	\L_018fb:
+	ZH 1:
+	'Hợp tác CG 　　　　　　　Chiibou'
+	\L_018fb:
+	ZH 1:
+	'Hợp nhất các mặt hàng đã in'
+	R
+	'　　　　　　　OKA'
+	\L_018fb:
+	ZH 1:
+	'Kinh doanh/Bán hàng'
+	R
+	'　　　　　　　Yoshitaka 　　　　　　　Fuu-chan'
+	\L_018fb:
+	ZH 1:
+	'Kinh doanh/Bán hàng 　　　　　　　Macky'
+	R
+	'　　　　　　　Cà phê Kia'
+	\L_018fb:
+	ZH 1:
+	'Mở đầu & Demo mở đầu 　　　　　　　WAO'
+	\L_018fb:
+	ZH 1:
+	'Kết thúc + May mắn/Xui xẻo'
+	R
+	'　　　　　　　Moomin'
+	\L_018fb:
+	ZH 1:
+	'Chế độ âm nhạc 　　　　　　　Shade'
+	R
+	'　　　　　　　Chimiroimu'
+	\L_018fb:
+	ZH 1:
+	'Gỡ lỗi 　　　　　　　Moomin'
+	R
+	'　　　　　　　Shade'
+	\L_018fb:
+	ZH 1:
+	'Gỡ lỗi 　　　　　　　Nhiều người khác'
+	\L_018fb:
+	@L_0007f:
+*L_00cc6:
+	ZH 1:
+	'Tori 「Payoooon.Bạn có thể nghe'
+	R
+	'thấy tôi nhưng không nhìn thấy'
+	R
+	'tôi. 」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Đây là Tori, nhà văn khiêu'
+	R
+	'dâm bẩn thỉu của Alicesoft.」'
+	\L_018fb:
+	ZH 1:
+	'Yukichi 「Cúc.」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Này, im đi, chim.Điều gì'
+	R
+	'sẽ...'
+	\L_018fb:
+	ZH 1:
+	'sẽ xảy ra sau Kichikuou Rance là'
+	R
+	'một trò chơi tên là Ikenai'
+	R
+	'Katsumi Sensei.」'
+	\L_018fb:
+	ZH 1:
+	'Yukichi 「Cù!!」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Lo lắng về việc khi nào nó'
+	R
+	'sẽ... ra mắt?Im đi, chim.」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Uh～～～... À...」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Nhân vật chính, Tiến sĩ'
+	R
+	'Katsumi,'
+	\L_018fb:
+	ZH 1:
+	'cũng chính là Tiến sĩ Katsumi'
+	R
+	'trong Ikenai Naika Kenshin của'
+	R
+	'DPS.」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Dr.Cuộc sống táo bạo của'
+	R
+	'Katsumi đã bị biến thành một trò'
+	R
+	'chơi.」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Không có mục tiêu,'
+	\L_018fb:
+	ZH 1:
+	'chỉ chơi một trò chơi với tư'
+	R
+	'cách là Tiến sĩ Katsumi.Bạn có'
+	R
+	'thể nói đây là một trò chơi'
+	\L_018fb:
+	ZH 1:
+	'phiêu lưu, tôi đoán vậy??」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Có những người đàn ông mặc'
+	R
+	'vest, đeo kính và để tóc rẽ ngôi'
+	R
+	'trong đó,'
+	\L_018fb:
+	ZH 1:
+	'thứ mà cá nhân tôi rất quan'
+	R
+	'tâm.」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Ngoài ra, không biết có'
+	R
+	'bao nhiêu người biết về điều này'
+	R
+	'vì trò chơi đã hết bản in,'
+	\L_018fb:
+	ZH 1:
+	'nhưng có một nhân vật Dr.'
+	\L_018fb:
+	ZH 1:
+	'Stop...」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Dr.Kira xuất hiện.Ôi.」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Nghệ sĩ là Kazuma G'
+	R
+	'Version, nghệ sĩ cho Cô dâu yêu'
+	R
+	'tinh.」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Ngoài ra, CG đang sử dụng'
+	R
+	'60000 màu đáng kinh ngạc.Vì vậy,'
+	\L_018fb:
+	ZH 1:
+	'sẽ có một chút khắt khe về thông'
+	R
+	'số kỹ thuật.」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Đầu tiên, có thể chạy'
+	R
+	'Windows 95.」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Tiếp theo, hãy có một máy'
+	R
+	'tính hiển thị 800 x 600 pixel và'
+	R
+	'hơn 60000 màu,'
+	\L_018fb:
+	ZH 1:
+	'cũng như một màn hình đầy đủ.」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Chúng tôi khuyên bạn nên'
+	R
+	'sử dụng CPU Pentium 100 MHz trở'
+	R
+	'lên và bạn có bộ nhớ 16 MB trở'
+	\L_018fb:
+	ZH 1:
+	'lên.」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Nếu Pentium và bộ nhớ nhỏ'
+	R
+	'của bạn đủ tốt, bạn sẽ có trải'
+	R
+	'nghiệm chơi game thú vị.」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Ngoài ra... Sẽ tốn rất'
+	R
+	'nhiều dung lượng ổ cứng...」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Tôi chưa thể nói là bao'
+	R
+	'nhiêu, nhưng... 　　　 Dù thế nào'
+	R
+	'thì cũng sẽ rất nhiều.」'
+	\L_018fb:
+	ZH 1:
+	'Yukichi 「Caaaaaaw!!」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Tôi sẽ ăn thịt em, chim.」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Ngoài ra, có 4 hình ảnh'
+	R
+	'BMP của CG mẫu có trong CD'
+	R
+	'Kichikuou.」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Chỉ nhìn vào chúng nếu bạn'
+	R
+	'có khả năng hiển thị 60000 màu.」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Chúng nằm trong thư mục có'
+	R
+	'tên Katsumi trên CD Kichikuou,'
+	R
+	'vui lòng xem qua.」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Bây giờ, cho đến khi chúng'
+	R
+	'ta gặp lại nhau.Nga, gggh.」'
+	\L_018fb:
+	ZH 1:
+	'Yukichi 「Caaaaw.」'
+	\L_018fb:
+	ZH 1:
+	'Tori 「Ăn.」'
+	\L_018fb:
+	@L_0007f:
+*L_00f49:
+	ZH 1:
+	'Alicesoft cung cấp nhiều dịch vụ'
+	R
+	'trên trang chủ internet của họ.'
+	\L_018fb:
+	ZH 1:
+	'Mọi người, kể cả những người'
+	R
+	'không có máy tính, đều nên biết'
+	R
+	'về Internet.'
+	\L_018fb:
+	ZH 1:
+	'Trò chơi và hàng hóa của'
+	R
+	'Alicesoft được bán trên trang'
+	R
+	'chủ và có cả dịch vụ hỗ trợ'
+	\L_018fb:
+	ZH 1:
+	'người dùng.Thậm chí còn có manga'
+	R
+	'4 khung của Hide-SAN.'
+	\L_018fb:
+	ZH 1:
+	'Sau đó, có câu lạc bộ người dùng'
+	R
+	'chỉ giới hạn cho thành viên,'
+	R
+	'\"Alice’s Villa\".'
+	\L_018fb:
+	ZH 1:
+	'Tại đây, bạn có thể nhận thông'
+	R
+	'tin nhanh hơn bất kỳ tạp chí'
+	R
+	'nào,'
+	\L_018fb:
+	ZH 1:
+	'cũng như dịch vụ tải xuống các'
+	R
+	'trò chơi mà chỉ thành viên mới'
+	R
+	'có thể chơi.'
+	\L_018fb:
+	ZH 1:
+	'Nếu bạn quan tâm,'
+	\L_018fb:
+	ZH 1:
+	'vui lòng điền vào đăng ký thành'
+	R
+	'viên câu lạc bộ và sử dụng ID và'
+	R
+	'mật khẩu của bạn để truy cập bản'
+	\L_018fb:
+	ZH 1:
+	'tin câu lạc bộ.'
+	\L_018fb:
+	ZH 1:
+	'...'
+	\L_018fb:
+	ZH 1:
+	'URL là...'
+	\L_018fb:
+	ZH 1:
+	'http://alicesoft.co.jp'
+	\L_018fb:
+	ZH 1:
+	'Ồ, và chúng tôi đã lập một địa'
+	R
+	'chỉ email có tên \" Japan Alice'
+	R
+	'Party\".'
+	\L_018fb:
+	ZH 1:
+	'Nó gửi thông báo rằng trang chủ'
+	R
+	'của chúng tôi đã cập nhật.'
+	\L_018fb:
+	ZH 1:
+	'Bạn có thể đăng ký nhận e-mail'
+	R
+	'trên trang chủ của chúng tôi.'
+	\L_018fb:
+	ZH 1:
+	'Đăng ký đi mọi người.'
+	\L_018fb:
+	ZH 1:
+	'Đó là tất cả về Internet.'
+	\L_018fb:
+	@L_0007f:
+*L_0106d:
+	ZH 1:
+	'Xin chào, đây là Arunaru, người'
+	R
+	'phiên dịch.Phần này trước đây'
+	R
+	'nói về Xspec,'
+	\L_018fb:
+	ZH 1:
+	'một thứ đo hiệu suất PC của bạn.'
+	\L_018fb:
+	ZH 1:
+	'Nhưng vì đã gần 20 năm kể từ khi'
+	R
+	'trò chơi này được phát hành lần'
+	R
+	'đầu nên có thể bạn đang sử dụng'
+	\L_018fb:
+	ZH 1:
+	'PC có thể chạy trò chơi này.'
+	\L_018fb:
+	ZH 1:
+	'Vì vậy,'
+	\L_018fb:
+	ZH 1:
+	'thay vào đó tôi sẽ nói một chút'
+	R
+	'về trò chơi này.Có rất nhiều'
+	R
+	'điều xung quanh trò chơi này'
+	\L_018fb:
+	ZH 1:
+	'nhưng không nhất thiết phải'
+	R
+	'chính xác.'
+	\L_018fb:
+	ZH 1:
+	'Kichikuou Rance lúc đầu được'
+	R
+	'phát triển dưới tên Rance 5,'
+	\L_018fb:
+	ZH 1:
+	'nhưng tại một số thời điểm trong'
+	R
+	'quá trình phát triển,'
+	\L_018fb:
+	ZH 1:
+	'người ta quyết định đây sẽ là'
+	R
+	'một trò chơi \"Nếu như?\".'
+	\L_018fb:
+	ZH 1:
+	'Nó diễn ra theo dòng thời gian'
+	R
+	'thay thế từ loạt phim chính tách'
+	R
+	'ra sau Rance 4.2.'
+	\L_018fb:
+	ZH 1:
+	'Mục tiêu của các nhà phát triển'
+	R
+	'là đưa mọi ý tưởng mà họ nghĩ ra'
+	R
+	'cho bộ truyện này nhưng vẫn chưa'
+	\L_018fb:
+	ZH 1:
+	'sử dụng hết trong một trò'
+	R
+	'chơi.Nó ra mắt vào tháng 12 năm'
+	R
+	'1996.'
+	\L_018fb:
+	ZH 1:
+	'Kết quả là một eroge cực kỳ'
+	R
+	'thành công,'
+	\L_018fb:
+	ZH 1:
+	'tiếp tục bán được trong khoảng'
+	R
+	'một thập kỷ sau khi phát hành và'
+	R
+	'giữ một vị trí trong bảng xếp'
+	\L_018fb:
+	ZH 1:
+	'hạng tạp chí eroge trong nhiều'
+	R
+	'năm.'
+	\L_018fb:
+	ZH 1:
+	'Khó tìm được tổng doanh số nhưng'
+	R
+	'nó đã bán được khoảng 75.000 bản'
+	R
+	'vào cuối năm 1997 và có lẽ tổng'
+	\L_018fb:
+	ZH 1:
+	'cộng hơn 100.000 bản.Nó là phần'
+	R
+	'mềm miễn phí từ năm 2006.'
+	\L_018fb:
+	ZH 1:
+	'Mặc dù các trò chơi Rance trong'
+	R
+	'tương lai đi theo một con đường'
+	R
+	'khác với trò chơi này,'
+	\L_018fb:
+	ZH 1:
+	'nhưng chúng đã bị ảnh hưởng rất'
+	R
+	'nhiều bởi nó và thường xuyên'
+	R
+	'giới thiệu lại các nhân vật và'
+	\L_018fb:
+	ZH 1:
+	'sự kiện.'
+	\L_018fb:
+	ZH 1:
+	'Một thông tin thú vị khác về trò'
+	R
+	'chơi này là nó thực sự được sửa'
+	R
+	'lỗi và hiệu đính ở mức tối thiểu'
+	\L_018fb:
+	ZH 1:
+	'do tính chất ngẫu nhiên của trò'
+	R
+	'chơi.'
+	\L_018fb:
+	ZH 1:
+	'Tôi đã sửa một số lỗi và sửa một'
+	R
+	'số lỗi khác vì bạn có thể làm'
+	R
+	'một số điều thú vị.Điều quan'
+	\L_018fb:
+	ZH 1:
+	'trọng nhất là bây giờ tất cả các'
+	R
+	'mặt hàng đều làm được những gì'
+	R
+	'họ yêu cầu.'
+	\L_018fb:
+	@L_0007f:
+	]
+	\L_01908:
+	@L_0007f:
+*L_011b7:
+	\L_01908:
+	ZH 1:
+	'Các nhân vật nổi tiếng nhất dựa'
+	R
+	'trên cuộc thăm dò mà Alicesoft'
+	R
+	'thực hiện năm 1997 như sau.'
+	\L_018fb:
+	EC 0:
+	J0 0, 294:
+	G 815:
+	ZH 1:
+	'Vị trí thứ 20: Littleraisin mượt'
+	R
+	'mà'
+	J0 224, 20:
+	G 73:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 19: Sheila Helman'
+	J0 224, 20:
+	G 18:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 18: Nikkou'
+	J0 224, 20:
+	G 34:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 17: Hornet'
+	J0 224, 20:
+	G 35:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 16: Arlcoat Marius'
+	J0 224, 20:
+	G 77:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 15: Pastel Kalar'
+	J0 224, 20:
+	G 41:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 14: Miki Kurusu'
+	J0 224, 20:
+	G 54:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 13: Annis Sawatari'
+	J0 224, 20:
+	G 52:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 12: Ragnarokarc Super'
+	R
+	'Gandhi'
+	J0 224, 20:
+	G 42:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 11: Đặt lại Kalar'
+	J0 224, 20:
+	G 96:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 10: Eleanor Ran'
+	J0 224, 20:
+	G 66:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 9: Menad Shisei'
+	J0 224, 20:
+	G 8:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 8: Đồng bằng Sill'
+	J0 224, 20:
+	G 2:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 7: Shizuka Masou'
+	J0 224, 20:
+	G 49:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 6: Satella'
+	J0 224, 20:
+	G 75:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 5: Maris Amaryllis'
+	J0 224, 20:
+	G 6:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 4: Kanami Kentou'
+	J0 224, 20:
+	G 9:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 3: Maria Custard'
+	J0 224, 20:
+	G 50:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 2: Cuộc đua'
+	J0 224, 20:
+	G 1:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ nhất: Isoroku'
+	R
+	'Yamamoto'
+	J0 224, 20:
+	G 24:
+	\L_018fb:
+	ZH 1:
+	'Để so sánh, top 20 của dịch giả'
+	R
+	'như sau.'
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 20: Miki Kurusu'
+	J0 224, 20:
+	G 54:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 19: Mineva Margaret'
+	J0 224, 20:
+	G 427:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 18: Maria Custard'
+	J0 224, 20:
+	G 50:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 17: Máy chủ đu đủ'
+	J0 224, 20:
+	G 44:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 16: Littleraisin mượt'
+	R
+	'mà'
+	J0 224, 20:
+	G 73:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 15: Leila Grecni'
+	J0 224, 20:
+	G 7:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 14: Cafe Artful'
+	J0 224, 20:
+	G 87:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 13: Lia Parapara'
+	R
+	'Leazas'
+	J0 224, 20:
+	G 5:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 12: Maris Amaryllis'
+	J0 224, 20:
+	G 6:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 11: Annis Sawatari'
+	J0 224, 20:
+	G 52:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 10: Phép thuật của'
+	R
+	'Gandhi'
+	J0 224, 20:
+	G 58:
+	\L_018fb:
+	ZH 1:
+	'Hạng 9: Nagi su Ragarl'
+	J0 224, 20:
+	G 45:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 8: Milli Yorks'
+	J0 224, 20:
+	G 67:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 7: Arlcoat Marius'
+	J0 224, 20:
+	G 77:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 6: Menad Shisei'
+	J0 224, 20:
+	G 8:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 5: Kanami Kentou'
+	J0 224, 20:
+	G 9:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 4: Satella'
+	J0 224, 20:
+	G 75:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 3: Ragnarokarc Super'
+	R
+	'Gandhi'
+	J0 224, 20:
+	G 42:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ 2: Shizuka Masou'
+	J0 224, 20:
+	G 49:
+	\L_018fb:
+	ZH 1:
+	'Vị trí thứ nhất: Đua xe'
+	J0 224, 20:
+	G 1:
+	\L_018fb:
+	G 240:
+	@L_0007f:
+	\L_01908:
+	ZH 1:
+	'戦闘時の効果音はステレオを利用しています。'
+	R
+	'ステレオ対応の場合はより迫力の有る効果音が'
+	R
+	'楽しめます。'
+	\L_018fb:
+	ZH 1:
+	'モノラルのみ対応の場合は、プログラムで'
+	R
+	'左右チャンネルの音を合成して、モノラルに変換して'
+	R
+	'出力しています。'
+	\L_018fb:
+*L_01661:
+	\L_018ee:
+	EC 0:
+	CB 0, 0, 640, 400, 255:
+	CB 320 - 64, 200 - 64, 64 * 2, 64 * 2, 255:
+	CB 320 - 96, 200 - 96, 96 * 2, 96 * 2, 255:
+	CB 320 - 128, 200 - 128, 128 * 2, 128 * 2, 255:
+	CB 320 - 160, 200 - 160, 160 * 2, 160 * 2, 255:
+	CL 320 - 64, 200 - 64, 320 + 63, 200 + 63, 255:
+	CL 320 + 63, 200 - 64, 320 - 64, 200 + 63, 255:
+	IK 0:
+	EC 0:
+	G 806:
+	G 240:
+	SS 28:
+	\L_018b6:
+	@L_0007f:
+*L_0173e:
+	SS 0:
+	\L_018ee:
+	CF 0, 0, 640, 400, 0:
+	!VAR0516 : 3!
+	%#WAO_MAP.ADV:
+	\L_018b6:
+	G 104:
+	ZH 1:
+	'Rance（Tôi sẽ giết chúng…)'
+	Y 3, 120:
+	\L_01908:
+	ZH 1:
+	'Rance（Ta sẽ giết tất cả các'
+	R
+	'ngươi,'
+	\L_018fb:
+	ZH 1:
+	'lũ Helmanians!Bạn nghĩ bạn có'
+	R
+	'thể làm điều này với tôi hả?!!!)'
+	Y 3, 180:
+	\L_01908:
+	ZH 1:
+	'Rance tiếp tục chạy.'
+	Y 3, 180:
+	\L_01908:
+	ZH 1:
+	'Rance 「Chết tiệt'
+	R
+	'iiiiiiiiiit!!!!!」'
+	%#ｵｰﾌﾟﾆﾝｸﾞ.ADV:
+	EC 0:
+	G 806:
+	G 240:
+	SS 28:
+	\L_018b6:
+	@L_0007f:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+*L_018b6:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_018ee:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_018fb:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01908:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

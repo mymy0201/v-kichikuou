@@ -1,0 +1,1815 @@
+	MM 8, VAR0200 + VAR0158 - 1:
+	!VAR0516 : VAR0135!
+	\L_024ad:
+	{VAR0485 = 1:
+		!VAR0520 : 31!
+		%#Gｶﾌｪ.ADV:
+		%0:
+	}
+	{VAR0485 = 2:
+		!VAR0520 : 5!
+		%#Gﾏﾘｱ.ADV:
+		%0:
+	}
+*L_0006d:
+	\L_023e9:
+	ZH 1:
+	'［'
+	X 8:
+	'］ 　　　（Quân đội Leazas） Kinh tế:'
+	H 0, VAR0132:
+	ZH 1:
+	'Phòng thủ:'
+	H 0, VAR0133:
+	ZH 1:
+	R
+	'Khu vực chiến đấu:'
+	H 0, VAR0134:
+*L_000cb:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_000cb:
+	}
+	\L_0239b:
+	!VAR0021 : 0!
+	{(VAR0544 \ 0) * (VAR0132 \ 0):
+		ZH 1:
+		$L_01118$
+		'○Trưng thu tạm thời'
+		$
+	}
+	{VAR0544 \ 0:
+		ZH 1:
+		$L_01f72$
+		'○Gia cố phòng thủ'
+		$
+	}
+	{(VAR0544 \ 0) * (VAR0382 = 2):
+		ZH 1:
+		$L_00e7e$
+		'○Đào hố bẫy lớn'
+		$
+	}
+	{(VAR0544 \ 0) * ((VAR0378 = 3) + (VAR0378 = 4)):
+		ZH 1:
+		$L_00e5c$
+		'○Đặt thức ăn tẩm độc'
+		$
+	}
+	{(VAR0544 = 0) * (VAR0132 \ 0):
+		ZH 1:
+		$L_000cb$
+		'×Trưng thu tạm thời'
+		$
+	}
+	{VAR0544 = 0:
+		ZH 1:
+		$L_000cb$
+		'×Gia cố phòng thủ'
+		$
+	}
+	{(VAR0544 = 0) * (VAR0382 = 2):
+		ZH 1:
+		$L_000cb$
+		'×Đào hố khổng lồ'
+		$
+	}
+	{(VAR0544 = 0) * ((VAR0378 = 3) + (VAR0378 = 4)):
+		ZH 1:
+		$L_000cb$
+		'×Đặt thức ăn độc'
+		$
+	}
+	{VAR0544 \ 0:
+		!VAR0154 : 16!
+		{(VAR0158 = 1) * (VAR0102 \ 0) * (VAR0554 = 1) * (VAR0428 \ 15):
+			ZH 1:
+			$L_00f38$
+			'○Nghiên cứu hoa tulip'
+			$
+		}
+		{(VAR0158 = 1) * (VAR0550 = 1):
+			ZH 1:
+			$L_00f0e$
+			'○Học viện quân sự'
+			$
+		}
+		{(VAR0158 = 1) * (VAR0552 = 1):
+			ZH 1:
+			$L_00efd$
+			'○Bệnh viện Genius'
+			$
+		}
+		{(VAR0158 = 1) * (VAR0555 = 1):
+			ZH 1:
+			$L_00f27$
+			'○Nghiên cứu ma thuật'
+			$
+		}
+		{(VAR0158 = 1) * (VAR0551 = 1):
+			ZH 1:
+			$L_00ccd$
+			'○Thư viện khổng lồ'
+			$
+		}
+		{(VAR0158 = 1) * (VAR0553 = 1):
+			ZH 1:
+			$L_00df6$
+			'○Tháp S&M'
+			$
+		}
+		{(VAR0158 = 1) * (VAR0421 > 9) * (VAR0421 \ 100):
+			ZH 1:
+			$L_00f49$
+			'○Aoi Rehab'
+			$
+		}
+		{VAR0158 = 1:
+			ZH 1:
+			$L_00fa5$
+			'○Ngục tối'
+			$
+		}
+		{(VAR0158 = 1) * (VAR0331 \ 0):
+			ZH 1:
+			$L_00eb1$
+			'○Phòng của Chúa Quỷ'
+			$
+		}
+		{(VAR0158 = 1) * (VAR0472 \ 0):
+			ZH 1:
+			$L_00e3a$
+			'○Phòng đặc biệt'
+			$
+		}
+		{(VAR0158 = 2) * (VAR0685 \ 0):
+			ZH 1:
+			$L_00c49$
+			'○T2 Gô-li-át'
+			$
+		}
+		{(VAR0158 = 10) * (VAR0346 \ 0) * (VAR0347 \ 3):
+			ZH 1:
+			$L_00e07$
+			'○Nadate TV'
+			$
+		}
+		{(VAR0158 = 15) * (VAR0534 > 1):
+			ZH 1:
+			$L_00ec2$
+			'○Nhà của Mary'
+			$
+		}
+		{(VAR0158 = 22) * (VAR0474 = 1):
+			ZH 1:
+			$L_00eec$
+			'○Cung điện của sao Hỏa'
+			$
+		}
+		{(VAR0158 = 23) * (VAR0761 < 12):
+			ZH 1:
+			$L_00ed3$
+			'○Nhà Thờ Tế Bào'
+			$
+		}
+		{(VAR0158 = 26) * (VAR0479 \ 0) * (VAR0324 \ 2):
+			ZH 1:
+			$L_00f72$
+			'○Di sản của Shinoda'
+			$
+		}
+		{(VAR0158 = 25) * (VAR0478 = 1):
+			ZH 1:
+			$L_0110c$
+			'○Khu vui chơi giải trí'
+			$
+		}
+		{VAR0158 = 24:
+			ZH 1:
+			$L_00f66$
+			'○Tòa nhà Hanny'
+			$
+		}
+		{VAR0158 = 18:
+			ZH 1:
+			$L_00c38$
+			'○Nhà của Rance'
+			$
+		}
+		{(VAR0158 = 17) * (VAR0475 \ 0) * (VAR0475 \ 100):
+			ZH 1:
+			$L_00f5a$
+			'○Hiệp hội DX'
+			$
+		}
+		{(VAR0158 = 29) * (VAR0328 = 5):
+			ZH 1:
+			$L_00f83$
+			'○Căn phòng bí mật'
+			$
+		}
+		{(VAR0158 = 29) * (VAR0328 = 6):
+			ZH 1:
+			$L_00f94$
+			'○Y tá tại gia'
+			$
+		}
+		{(VAR0158 = 40) * (VAR0345 = 6):
+			ZH 1:
+			$L_00c8d$
+			'○Nhà của Elena'
+			$
+		}
+		{(VAR0158 = 35) * (VAR0548 \ 0):
+			ZH 1:
+			$L_00c9e$
+			'○Tìm kiếm tàn tích'
+			$
+		}
+		{(VAR0158 = 35) * (VAR0548 = 0):
+			ZH 1:
+			$L_000cb$
+			'×Tìm kiếm tàn tích'
+			$
+		}
+		{(VAR0158 = 69) * (VAR0651 = 8):
+			ZH 1:
+			$L_00ea0$
+			'○Cung Điện Zeth'
+			$
+		}
+		{(VAR0158 = 66) * ((VAR0389 = 2) + (VAR0389 = 3)):
+			ZH 1:
+			$L_00e8f$
+			'○Tháp ma thuật'
+			$
+		}
+		{(VAR0158 = 55) * (VAR0663 \ 0) * (VAR0663 \ 19):
+			ZH 1:
+			$L_00c5a$
+			'○Đền thờ'
+			$
+		}
+		{(VAR0158 = 59) * (VAR0377 \ 100):
+			ZH 1:
+			$L_00e6d$
+			'○Sakura & Pasta'
+			$
+		}
+		{VAR0158 = 84:
+			ZH 1:
+			$L_00e4b$
+			'○Ngục tối'
+			$
+		}
+		{(VAR0158 = 86) * (VAR0733 \ 0) * (VAR0733 < 5):
+			ZH 1:
+			$L_00c6b$
+			'○Nhà Xanh'
+			$
+		}
+		{(VAR0158 = 85) * (VAR0734 \ 0) * (VAR0734 < 5):
+			ZH 1:
+			$L_00c7c$
+			'○Nhà Đỏ'
+			$
+		}
+		{(VAR0158 = 77) * (VAR0566 \ 100):
+			ZH 1:
+			$L_00e29$
+			'○ Trụ sở nhà thờ AL'
+			$
+		}
+		{(VAR0158 = VAR0064) * (VAR0365 < 10):
+			ZH 1:
+			$L_00e18$
+			'○Quý cô Caravan'
+			$
+		}
+	}
+	{VAR0544 = 0:
+		!VAR0154 : 16!
+		{(VAR0158 = 1) * (VAR0102 \ 0) * (VAR0554 = 1) * (VAR0428 \ 15):
+			ZH 1:
+			$L_000cb$
+			'×Nghiên cứu hoa tulip'
+			$
+		}
+		{(VAR0158 = 1) * (VAR0550 = 1):
+			ZH 1:
+			$L_000cb$
+			'×Học viện quân sự'
+			$
+		}
+		{(VAR0158 = 1) * (VAR0552 = 1):
+			ZH 1:
+			$L_000cb$
+			'×Bệnh viện Genius'
+			$
+		}
+		{(VAR0158 = 1) * (VAR0555 = 1):
+			ZH 1:
+			$L_000cb$
+			'×Nghiên cứu ma thuật'
+			$
+		}
+		{(VAR0158 = 1) * (VAR0551 = 1):
+			ZH 1:
+			$L_000cb$
+			'×Thư viện khổng lồ'
+			$
+		}
+		{(VAR0158 = 1) * (VAR0553 = 1):
+			ZH 1:
+			$L_000cb$
+			'×S&M Tháp'
+			$
+		}
+		{(VAR0158 = 1) * (VAR0421 > 9) * (VAR0421 \ 100):
+			ZH 1:
+			$L_000cb$
+			'×Aoi Rehab'
+			$
+		}
+		{VAR0158 = 1:
+			ZH 1:
+			$L_000cb$
+			'×Ngục tối'
+			$
+		}
+		{(VAR0158 = 1) * (VAR0331 \ 0):
+			ZH 1:
+			$L_000cb$
+			'×Phòng của Chúa Quỷ'
+			$
+		}
+		{(VAR0158 = 1) * (VAR0472 \ 0):
+			ZH 1:
+			$L_000cb$
+			'×Phòng đặc biệt'
+			$
+		}
+		{(VAR0158 = 2) * (VAR0685 \ 0):
+			ZH 1:
+			$L_000cb$
+			'×T2 Goliath'
+			$
+		}
+		{(VAR0158 = 10) * (VAR0346 \ 0) * (VAR0347 \ 3):
+			ZH 1:
+			$L_000cb$
+			'×Nadate TV'
+			$
+		}
+		{(VAR0158 = 15) * (VAR0534 > 1):
+			ZH 1:
+			$L_000cb$
+			'×Nhà của Mary'
+			$
+		}
+		{(VAR0158 = 22) * (VAR0474 = 1):
+			ZH 1:
+			$L_000cb$
+			'×Cung điện của sao Hỏa'
+			$
+		}
+		{(VAR0158 = 23) * (VAR0761 < 12):
+			ZH 1:
+			$L_000cb$
+			'×Nhà Thờ Tế Bào'
+			$
+		}
+		{(VAR0158 = 26) * (VAR0479 \ 0) * (VAR0324 \ 2):
+			ZH 1:
+			$L_000cb$
+			'×Di sản của Shinoda'
+			$
+		}
+		{(VAR0158 = 25) * (VAR0478 = 1):
+			ZH 1:
+			$L_000cb$
+			'×Công viên giải trí'
+			$
+		}
+		{VAR0158 = 24:
+			ZH 1:
+			$L_000cb$
+			'×Tòa nhà Hanny'
+			$
+		}
+		{VAR0158 = 18:
+			ZH 1:
+			$L_000cb$
+			'×Nhà của Rance'
+			$
+		}
+		{(VAR0158 = 17) * (VAR0475 \ 0) * (VAR0475 \ 100):
+			ZH 1:
+			$L_000cb$
+			'×Hiệp hội DX'
+			$
+		}
+		{(VAR0158 = 29) * (VAR0328 = 5):
+			ZH 1:
+			$L_000cb$
+			'×Phòng bí mật'
+			$
+		}
+		{(VAR0158 = 29) * (VAR0328 = 6):
+			ZH 1:
+			$L_000cb$
+			'×Y tá tại gia'
+			$
+		}
+		{(VAR0158 = 40) * (VAR0345 = 6):
+			ZH 1:
+			$L_000cb$
+			'×Ngôi nhà của Elena'
+			$
+		}
+		{(VAR0158 = 35) * (VAR0548 \ 0):
+			ZH 1:
+			$L_00c9e$
+			'○Tìm kiếm tàn tích'
+			$
+		}
+		{(VAR0158 = 35) * (VAR0548 = 0):
+			ZH 1:
+			$L_000cb$
+			'×Tìm kiếm tàn tích'
+			$
+		}
+		{(VAR0158 = 69) * (VAR0651 = 8):
+			ZH 1:
+			$L_000cb$
+			'×Cung điện Zeth'
+			$
+		}
+		{(VAR0158 = 66) * ((VAR0389 = 2) + (VAR0389 = 3)):
+			ZH 1:
+			$L_000cb$
+			'×Tháp ma thuật'
+			$
+		}
+		{(VAR0158 = 55) * (VAR0663 \ 0) * (VAR0663 \ 19):
+			ZH 1:
+			$L_000cb$
+			'×Đền thờ'
+			$
+		}
+		{(VAR0158 = 59) * (VAR0377 \ 100):
+			ZH 1:
+			$L_000cb$
+			'×Sakura & Mỳ ống'
+			$
+		}
+		{VAR0158 = 84:
+			ZH 1:
+			$L_000cb$
+			'×Ngục tối'
+			$
+		}
+		{(VAR0158 = 86) * (VAR0733 \ 0) * (VAR0733 < 5):
+			ZH 1:
+			$L_000cb$
+			'×Ngôi nhà xanh'
+			$
+		}
+		{(VAR0158 = 85) * (VAR0734 \ 0) * (VAR0734 < 5):
+			ZH 1:
+			$L_000cb$
+			'×Ngôi Nhà Đỏ'
+			$
+		}
+		{(VAR0158 = 77) * (VAR0566 \ 100):
+			ZH 1:
+			$L_000cb$
+			'×AL Nhà thờ HQ'
+			$
+		}
+		{(VAR0158 = VAR0064) * (VAR0365 < 10):
+			ZH 1:
+			$L_000cb$
+			'×Quý bà Caravan'
+			$
+		}
+	}
+	ZH 1:
+	$L_010ff$
+	'Quay lại'
+	$
+	]
+	\L_023a6:
+	@L_010ff:
+*L_00c38:
+	!VAR0544 : 0!
+	!VAR0520 : 1!
+	%#Gｱﾃﾅ2.ADV:
+	%0:
+*L_00c49:
+	!VAR0544 : 0!
+	!VAR0520 : 4!
+	%#Gﾏﾘｱ.ADV:
+	%0:
+*L_00c5a:
+	!VAR0544 : 0!
+	!VAR0520 : 10!
+	%#Gﾌｳｶ.ADV:
+	%0:
+*L_00c6b:
+	!VAR0544 : 0!
+	!VAR0520 : 2!
+	%#Gｹｲﾌﾞﾜﾝ.ADV:
+	%0:
+*L_00c7c:
+	!VAR0544 : 0!
+	!VAR0520 : 2!
+	%#Gｹｲﾌﾞﾆｬﾝ.ADV:
+	%0:
+*L_00c8d:
+	!VAR0544 : 0!
+	!VAR0520 : 6!
+	%#Gｴﾚﾅ.ADV:
+	%0:
+*L_00c9e:
+	!VAR0162 : 30!
+	!VAR0145 : VAR0142!
+	!VAR0146 : VAR0143!
+	!VAR0147 : 0!
+	!VAR0149 : 35!
+	\L_024c9:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%#Cﾒｲｷｭｳ.ADV:
+	%0:
+*L_00ccd:
+	!VAR0544 : 0!
+	!VAR0154 : 16!
+	{(VAR0102 \ 0) * (VAR0731 = 0):
+		!VAR0520 : 1!
+		%#Gﾕｳﾚｲ.ADV:
+		%0:
+	}
+	{(VAR0058 \ 0) * (VAR0731 = 1):
+		!VAR0520 : 2!
+		%#Gﾕｳﾚｲ.ADV:
+		%0:
+	}
+	!VAR0154 : 12!
+	{(VAR0102 \ 0) * (VAR0731 = 2):
+		!VAR0520 : 3!
+		%#Gﾕｳﾚｲ.ADV:
+		%0:
+	}
+	{VAR0731 = 4:
+		!VAR0520 : 5!
+		%#Gﾕｳﾚｲ.ADV:
+		%0:
+	}
+	{VAR0731 = 5:
+		!VAR0520 : 7!
+		%#Gﾕｳﾚｲ.ADV:
+		%0:
+	}
+	!VAR0154 : 4!
+	{(VAR0102 \ 0) * (VAR0567 = 4):
+		!VAR0154 : 16!
+		{VAR0102 \ 0:
+			!VAR0520 : 1!
+			%#Gｿｳﾙ.ADV:
+			%0:
+		}
+	}
+	{VAR0420 = 3:
+		!VAR0520 : 2!
+		%#Gﾚｨﾘｨ.ADV:
+		%0:
+	}
+	!VAR0154 : 38!
+	{(VAR0102 \ 0) * (VAR0349 = 3):
+		!VAR0520 : 3!
+		%#Gｱﾆｽ.ADV:
+		%0:
+	}
+	!VAR0520 : 11!
+	%#Gﾏﾘｽ.ADV:
+	%0:
+*L_00df6:
+	!VAR0544 : 0!
+	!VAR0520 : 3!
+	%#Gｽｽﾞﾒ.ADV:
+	%0:
+*L_00e07:
+	!VAR0544 : 0!
+	!VAR0520 : 2!
+	%#Gｶﾊﾟｰﾗ.ADV:
+	%0:
+*L_00e18:
+	!VAR0544 : 0!
+	!VAR0520 : 1!
+	%#Gｶﾌｪ.ADV:
+	%0:
+*L_00e29:
+	!VAR0544 : 0!
+	!VAR0520 : 6!
+	%#GAL.ADV:
+	%0:
+*L_00e3a:
+	!VAR0544 : 0!
+	!VAR0520 : 1!
+	%#Gﾄｸﾍﾞﾂ.ADV:
+	%0:
+*L_00e4b:
+	!VAR0544 : 0!
+	!VAR0520 : 4!
+	%#Gｻｲｾﾞﾙ.ADV:
+	%0:
+*L_00e5c:
+	!VAR0544 : 0!
+	!VAR0520 : 3!
+	%#Gｶﾞﾙﾃｨｱ.ADV:
+	%0:
+*L_00e6d:
+	!VAR0544 : 0!
+	!VAR0520 : 1!
+	%#Gﾏﾙﾁﾅ.ADV:
+	%0:
+*L_00e7e:
+	!VAR0544 : 0!
+	!VAR0520 : 3!
+	%#Gﾊﾞﾎﾞﾗ.ADV:
+	%0:
+*L_00e8f:
+	!VAR0544 : 0!
+	!VAR0520 : 4!
+	%#Gﾏｼﾞｯｸ.ADV:
+	%0:
+*L_00ea0:
+	!VAR0544 : 0!
+	!VAR0520 : 7!
+	%#Gﾊﾟﾊﾟｲｱ.ADV:
+	%0:
+*L_00eb1:
+	!VAR0544 : 0!
+	!VAR0520 : 2!
+	%#Gﾐｷ.ADV:
+	%0:
+*L_00ec2:
+	!VAR0544 : 0!
+	!VAR0520 : 3!
+	%#Gﾚｲ.ADV:
+	%0:
+*L_00ed3:
+	!VAR0544 : 0!
+	!VAR0520 : 2!
+	%#Gｾﾙ.ADV:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_00eec:
+	!VAR0544 : 0!
+	!VAR0520 : 3!
+	%#Gｶｾｲ.ADV:
+	%0:
+*L_00efd:
+	!VAR0544 : 0!
+	!VAR0520 : 1!
+	%#Gｱｰﾔ.ADV:
+	%0:
+*L_00f0e:
+	!VAR0544 : 0!
+	!VAR0520 : 1!
+	%#Gｱﾋﾞｧﾄｰﾙ.ADV:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_00f27:
+	!VAR0544 : 0!
+	!VAR0520 : 1!
+	%#Gﾏｹﾝ.ADV:
+	%0:
+*L_00f38:
+	!VAR0544 : 0!
+	!VAR0520 : 1!
+	%#Gﾏﾘｱ.ADV:
+	%0:
+*L_00f49:
+	!VAR0544 : 0!
+	!VAR0520 : 1!
+	%#Gｱｵｲ.ADV:
+	%0:
+*L_00f5a:
+	!VAR0544 : 0!
+	%#GDX.ADV:
+	%0:
+*L_00f66:
+	!VAR0544 : 0!
+	%#Gｱﾘｽ.ADV:
+	%0:
+*L_00f72:
+	!VAR0544 : 0!
+	!VAR0520 : 1!
+	%#Gｼﾉﾀﾞ.ADV:
+	%0:
+*L_00f83:
+	!VAR0544 : 0!
+	!VAR0520 : 5!
+	%#Iｼｬﾝｸﾞﾘﾗ.ADV:
+	%0:
+*L_00f94:
+	!VAR0544 : 0!
+	!VAR0520 : 6!
+	%#Iｼｬﾝｸﾞﾘﾗ.ADV:
+	%0:
+*L_00fa5:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_00fa5:
+	}
+	{VAR0649 = 3:
+		ZH 1:
+		$L_01093$
+		'Phòng giam của Lelyukov'
+		$
+	}
+	{(VAR0321 \ 0) * (VAR0321 < 4):
+		ZH 1:
+		$L_010ae$
+		'Tế bào của Ruberan'
+		$
+	}
+	{(VAR0651 = 6) + (VAR0651 = 7) + (VAR0651 = 8) + (VAR0651 = 11):
+		ZH 1:
+		$L_010c9$
+		'Tế Bào Đu Đủ'
+		$
+	}
+	{(VAR0365 = 10) + (VAR0365 = 11):
+		ZH 1:
+		$L_010e4$
+		'Phòng giam của quý cô'
+		$
+	}
+	ZH 1:
+	$L_01078$
+	'Nhìn xung quanh'
+	$
+	R
+	$L_010ff$
+	'Quay lại'
+	$
+	]
+	@L_00fa5:
+*L_01078:
+	!VAR0000 : 74!
+	\L_0238d:
+	!VAR0544 : 0!
+	!VAR0520 : 1!
+	%#G1.ADV:
+	%0:
+*L_01093:
+	!VAR0000 : 74!
+	\L_0238d:
+	!VAR0544 : 0!
+	!VAR0520 : 4!
+	%#Gﾚﾘｭｰｺﾌ.ADV:
+	%0:
+*L_010ae:
+	!VAR0000 : 74!
+	\L_0238d:
+	!VAR0544 : 0!
+	!VAR0520 : 10!
+	%#Gﾙｰﾍﾞﾗﾝ.ADV:
+	%0:
+*L_010c9:
+	!VAR0000 : 74!
+	\L_0238d:
+	!VAR0544 : 0!
+	!VAR0520 : 6!
+	%#Gﾊﾟﾊﾟｲｱ.ADV:
+	%0:
+*L_010e4:
+	!VAR0000 : 74!
+	\L_0238d:
+	!VAR0544 : 0!
+	!VAR0520 : 2!
+	%#Gｶﾌｪ.ADV:
+	%0:
+*L_010ff:
+	\L_024c9:
+	\L_024bb:
+	%0:
+*L_0110c:
+	!VAR0544 : 0!
+	%#IMﾗﾝﾄﾞ.ADV:
+	%0:
+*L_01118:
+	\L_024c9:
+	!VAR0516 : 1!
+	\L_02405:
+	\L_023b1:
+	ZH 1:
+	'Được rồi,'
+	\L_024d6:
+	ZH 1:
+	'đã đến lúc thu thuế.Lấy bất cứ'
+	R
+	'điều gì thú vị hoặc có giá'
+	R
+	'trị.Phụ nữ tốt nào cũng vậy.'
+	\L_024d6:
+	ZH 1:
+	'Ừmmm...'
+	\L_024d6:
+	ZH 1:
+	'Không.Đây là đất của tôi, tôi có'
+	R
+	'quyền lấy những gì tôi muốn.'
+	\L_024d6:
+	\L_024c9:
+	!VAR0516 : 6!
+	\L_02475:
+	\L_02421:
+	ZH 1:
+	'Đã hiểu.Sau đó, tôi sẽ tập trung'
+	R
+	'đánh thuế vào những người đang'
+	R
+	'thu tiền một cách bất công.'
+	\L_024d6:
+	\L_024c9:
+	\L_02483:
+	!VAR0544 : 0!
+	\L_02413:
+	\L_024bb:
+	\L_023e9:
+	ZH 1:
+	'Quân đội Leazas bắt đầu thu thuế'
+	R
+	'tạm thời.'
+	\L_024d6:
+	Y 4, 3:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		ZH 1:
+		'Họ bắt đầu bằng việc nhắm vào'
+		R
+		'những thương gia tham nhũng.'
+		\L_024d6:
+	}
+	{VAR0690 = 2:
+		ZH 1:
+		'Tất cả tài sản giàu có của thành'
+		R
+		'phố này đều bị tấn công.'
+		\L_024d6:
+	}
+	{VAR0690 = 3:
+		ZH 1:
+		'Các công ty thương mại, ngân'
+		R
+		'hàng,'
+		\L_024d6:
+		ZH 1:
+		'cửa hàng bách hóa và bất kỳ nơi'
+		R
+		'nào khác có vẻ có tiền đều bị'
+		R
+		'tấn công.'
+		\L_024d6:
+	}
+	ZH 1:
+	R
+	'　.........'
+	\L_024d6:
+	Y 4, VAR0132 * 10:
+	ZH 1:
+	'Từ nhiều nơi khác nhau, tổng'
+	R
+	'cộng'
+	H 0, VAR0000:
+	ZH 1:
+	'00K VÀNG đã được thu thập.'
+	\L_024d6:
+	!VAR0055 : VAR0055 + VAR0000!
+	!VAR0519 : VAR0519 + VAR0000!
+	\L_024c9:
+	{VAR0158 = VAR0453:
+		!VAR0520 : 2!
+		%#Gﾌﾚｲｱ.ADV:
+		@L_019a8:
+	}
+	!VAR0156 : 92!
+	{(VAR0158 = 15) * (VAR0128 \ 0) * (VAR0535 \ 100) * (VAR0534 = 1):
+		!VAR0520 : 2!
+		%#Gﾚｲ.ADV:
+		@L_019a8:
+	}
+	{(VAR0158 = 4) * (VAR0470 = 0):
+		!VAR0520 : 1!
+		!VAR0470 : 11!
+		%#Gﾓｺﾓｺ.ADV:
+		@L_019a8:
+	}
+	{(VAR0158 = 56) * (VAR0471 = 0):
+		!VAR0520 : 1!
+		!VAR0471 : 1!
+		%#Gﾏｺﾄ.ADV:
+		@L_019a8:
+	}
+	!VAR0160 : 10!
+	{(VAR0158 = 1) * (VAR0150 = 0):
+		!VAR0520 : 7!
+		%#G1.ADV:
+		@L_019a8:
+	}
+	!VAR0160 : 20!
+	!VAR0156 : 39!
+	{(VAR0158 = 45) * (VAR0108 = 20) * (VAR0150 = 0):
+		!VAR0520 : 8!
+		%#G1.ADV:
+		@L_019a8:
+	}
+	{(VAR0158 = 34) * (VAR0366 = 1):
+		!VAR0520 : 1!
+		%#Gﾒﾙｼｨ.ADV:
+		@L_019a8:
+	}
+	{(VAR0158 = 34) * (VAR0330 = 1) * (VAR0553 = 1):
+		!VAR0520 : 1!
+		%#Gｱﾅｾﾙ.ADV:
+		@L_019a8:
+	}
+	{(VAR0158 = 36) * (VAR0649 = 3) * (VAR0065 = 1):
+		!VAR0520 : 1!
+		%#Gｱﾐﾗﾝ.ADV:
+		@L_019a8:
+	}
+	!VAR0156 : 50!
+	{(VAR0158 = 42) * (VAR0765 = 0) * (VAR0424 \ 0) * (VAR0422 \ 0) * (VAR0128 \ 0) * (VAR0059 = 2):
+		!VAR0520 : 4!
+		%#Gﾛﾚｯｸｽ.ADV:
+		@L_019a8:
+	}
+	{(VAR0158 = 43) * (VAR0059 = 1) * (VAR0582 \ 100) * (VAR0582 \ 0):
+		!VAR0520 : 2!
+		%#Gｵｰﾙﾊｳﾝﾄ.ADV:
+		@L_019a8:
+	}
+	!VAR0160 : 45!
+	{(VAR0158 = 43) * (VAR0150 = 0):
+		!VAR0520 : 9!
+		%#G1.ADV:
+		@L_019a8:
+	}
+	!VAR0160 : 35!
+	{(VAR0158 = 62) * (VAR0150 = 0):
+		!VAR0520 : 4!
+		%#G2.ADV:
+		@L_019a8:
+	}
+	!VAR0160 : 31!
+	{(VAR0158 = 41) * (VAR0150 = 0):
+		!VAR0520 : 5!
+		%#G2.ADV:
+		@L_019a8:
+	}
+	!VAR0160 : 32!
+	{(VAR0158 = 11) * (VAR0150 = 0):
+		!VAR0520 : 6!
+		%#G2.ADV:
+		@L_019a8:
+	}
+	!VAR0160 : 40!
+	{(VAR0158 = 54) * (VAR0150 = 0):
+		!VAR0520 : 7!
+		%#G2.ADV:
+		@L_019a8:
+	}
+	{(VAR0158 = 47) * (VAR0726 = 0):
+		!VAR0520 : 8!
+		%#G2.ADV:
+		@L_019a8:
+	}
+	{(VAR0158 = 48) * (VAR0441 = 1):
+		!VAR0520 : 11!
+		%#Gｽﾃｯｾﾙ.ADV:
+		@L_019a8:
+	}
+	{(VAR0158 = 53) * (VAR0441 = 2):
+		!VAR0520 : 12!
+		%#Gｽﾃｯｾﾙ.ADV:
+		@L_019a8:
+	}
+	{(VAR0158 = 49) * (VAR0441 = 3):
+		!VAR0520 : 13!
+		%#Gｽﾃｯｾﾙ.ADV:
+		@L_019a8:
+	}
+	{(VAR0158 = 24) * (VAR0455 = 1):
+		!VAR0520 : 2!
+		%#Gｶﾞﾝｼﾞｰ.ADV:
+		@L_019a8:
+	}
+	{(VAR0158 = 23) * (VAR0455 = 2):
+		!VAR0520 : 3!
+		%#Gｶﾞﾝｼﾞｰ.ADV:
+		@L_019a8:
+	}
+	{(VAR0158 = 20) * (VAR0455 = 3):
+		!VAR0520 : 4!
+		%#Gｶﾞﾝｼﾞｰ.ADV:
+		@L_019a8:
+	}
+	{(VAR0158 = 20) * (VAR0662 = 0):
+		!VAR0520 : 16!
+		%#G1.ADV:
+		@L_019a8:
+	}
+	{(VAR0158 = 65) * (VAR0722 = 0):
+		!VAR0520 : 7!
+		%#Iｾﾞｽ.ADV:
+		@L_019a8:
+	}
+	{(VAR0158 = 68) * (VAR0336 = 7) * (VAR0349 = 0) * (VAR0320 > 2):
+		!VAR0520 : 1!
+		%#Gｱﾆｽ.ADV:
+		@L_019a8:
+	}
+	Y 4, 5:
+	!VAR0160 : 24!
+	{(VAR0150 = 0) * (VAR0000 = 1):
+		@L_01aaf:
+	}
+	Y 4, 5:
+	!VAR0160 : 25!
+	{(VAR0150 = 0) * (VAR0000 = 1):
+		@L_01cb7:
+	}
+	Y 4, 5:
+	{(VAR0158 < 17) * (VAR0000 = 1) * (VAR0346 = 0):
+		!VAR0520 : 1!
+		%#Gｶﾊﾟｰﾗ.ADV:
+		@L_019a8:
+	}
+	{VAR0131 \ 0:
+		!VAR0131 : VAR0131 - 1!
+		!VAR0472 : VAR0472 + 1!
+		!VAR0516 : 473!
+		\L_02405:
+		\L_023b1:
+		ZH 1:
+		'Tôi tìm thấy một'
+		Y 4, 5:
+		{VAR0000 = 1:
+			ZH 1:
+			'đẹp'
+		}
+		{VAR0000 = 2:
+			ZH 1:
+			'gọn gàng'
+		}
+		{VAR0000 = 3:
+			ZH 1:
+			'ngọt ngào'
+		}
+		{VAR0000 = 4:
+			ZH 1:
+			'dễ thương'
+		}
+		{VAR0000 = 5:
+			ZH 1:
+			'trinh nữ'
+		}
+		ZH 1:
+		R
+		Y 4, 10:
+		{VAR0000 = 1:
+			ZH 1:
+			'con gái của gia đình giàu có'
+		}
+		{VAR0000 = 2:
+			ZH 1:
+			'thư ký của công ty lớn'
+		}
+		{VAR0000 = 3:
+			ZH 1:
+			'nữ sinh viên'
+		}
+		{VAR0000 = 4:
+			ZH 1:
+			'mồ côi'
+		}
+		{VAR0000 = 5:
+			ZH 1:
+			'nhân viên bán bánh'
+		}
+		{VAR0000 = 6:
+			ZH 1:
+			'biên tập tạp chí'
+		}
+		{VAR0000 = 7:
+			ZH 1:
+			'vũ công'
+		}
+		{VAR0000 = 8:
+			ZH 1:
+			'nữ diễn viên'
+		}
+		{VAR0000 = 9:
+			ZH 1:
+			'y tá'
+		}
+		{VAR0000 = 10:
+			ZH 1:
+			'người giúp việc'
+		}
+		ZH 1:
+		R
+		'Vua nên thích.'
+		\L_024d6:
+		\L_024c9:
+		!VAR0516 : 6!
+		\L_02475:
+		\L_02421:
+		ZH 1:
+		'Làm tốt lắm.Hãy nhẹ nhàng đưa cô'
+		R
+		'ấy vào Phòng Đặc biệt.'
+		\L_024d6:
+		\L_024c9:
+		\L_023b1:
+		ZH 1:
+		'Vâng, thưa bà.'
+		\L_024d6:
+		\L_024c9:
+		Y 4, 3:
+		{VAR0000 = 1:
+			\L_023cd:
+			ZH 1:
+			'...Chỉ dành cho nhà vua... Chắc'
+			R
+			'là tuyệt lắm... Có lẽ tôi có thể'
+			R
+			'đưa cô ấy về nhà cùng mình...'
+			\L_024d6:
+			\L_024c9:
+			\L_02421:
+			ZH 1:
+			'Đừng suy nghĩ bất cứ điều gì hấp'
+			R
+			'tấp, nếu không bạn sẽ chỉ muốn'
+			R
+			'chết thôi.'
+			\L_024d6:
+			\L_024c9:
+			\L_023cd:
+			ZH 1:
+			'Nuốt nước bọt... Cô Maris sắc'
+			R
+			'sảo quá.'
+			\L_024d6:
+			\L_024c9:
+		}
+	}
+*L_019a8:
+	\L_02413:
+	\L_02483:
+	\L_024bb:
+	%0:
+	!VAR0516 : 1046!
+	\L_024ad:
+	\L_023e9:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng yết kiến'
+	\L_024d6:
+	\L_024c9:
+	!VAR0516 : 1!
+	\L_02405:
+	\L_023e9:
+	ZH 1:
+	'Rance đang ngả lưng trên ngai'
+	R
+	'vàng.'
+	\L_024d6:
+	\L_024c9:
+	\L_023b1:
+	ZH 1:
+	'Cái gì? Đó là tất cả? Không có'
+	R
+	'gì khác à?'
+	\L_024d6:
+	\L_024c9:
+	!VAR0516 : 6!
+	\L_02475:
+	\L_02421:
+	ZH 1:
+	'Theo những người ban hành thuế,'
+	R
+	'chỉ vậy thôi.'
+	\L_024d6:
+	\L_024c9:
+	\L_023b1:
+	ZH 1:
+	'Ch, chán quá.'
+	\L_024d6:
+	\L_024c9:
+	\L_023e9:
+	ZH 1:
+	R
+	'......'
+	\L_024d6:
+	\L_024c9:
+	\L_02413:
+	\L_02483:
+	@L_0006d:
+*L_01aaf:
+	!VAR0150 : 100!
+	!VAR0516 : 261!
+	\L_02405:
+	\L_023b1:
+	ZH 1:
+	'Vua Rance, tôi tìm thấy cái này.'
+	\L_024d6:
+	\L_024c9:
+	!VAR0516 : 1!
+	\L_02475:
+	\L_02421:
+	ZH 1:
+	'Để ta xem... Cái gì thế?'
+	\L_024d6:
+	\L_024c9:
+	\L_023e9:
+	ZH 1:
+	'Thứ người lính mang đến là...'
+	R
+	'Một chiếc đĩa hình chữ nhật, ấm'
+	R
+	'áp, chín kỹ, màu nâu nhạt...'
+	\L_024d6:
+	ZH 1:
+	'... Thứ giống như con mèo, bánh'
+	R
+	'mì đang vẫy đuôi.'
+	\L_024d6:
+	\L_024c9:
+	\L_02421:
+	ZH 1:
+	'Lạ thật... Bánh mì à? Nó có phải'
+	R
+	'là thú nhồi bông không?'
+	\L_024d6:
+	\L_024c9:
+	\L_023e9:
+	ZH 1:
+	'＜meoow）'
+	\L_024d6:
+	\L_024c9:
+	\L_02421:
+	ZH 1:
+	'Ôi, nó kêu meo meo! Cái quái gì'
+	R
+	'vậy?!!'
+	\L_024d6:
+	\L_024c9:
+	\L_023b1:
+	ZH 1:
+	'Đây là một loại thực phẩm rất'
+	R
+	'hiếm được gọi là "Bánh mì mèo",'
+	\L_024d6:
+	ZH 1:
+	'thường được gọi là vị ngọt tuyệt'
+	R
+	'đỉnh.'
+	\L_024d6:
+	ZH 1:
+	'Sức mạnh của nó là 1.000.000 đa'
+	R
+	'giác.'
+	\L_024d6:
+	\L_024c9:
+	\L_02421:
+	ZH 1:
+	'Ultimate, bạn nói... Vậy... Bạn'
+	R
+	'ăn cái này à?'
+	\L_024d6:
+	\L_024c9:
+	\L_023b1:
+	ZH 1:
+	'Vâng, sẽ rất tuyệt nếu bạn ăn nó'
+	R
+	'cắt lát và nướng.'
+	\L_024d6:
+	\L_024c9:
+	\L_02421:
+	ZH 1:
+	'Cắt lát...'
+	\L_024d6:
+	\L_024c9:
+	\L_023b1:
+	ZH 1:
+	'Đó là một con mèo mà bạn có thể'
+	R
+	'cắt thịt.'
+	\L_024d6:
+	\L_024c9:
+	\L_02421:
+	ZH 1:
+	'Ờ... Ưư...'
+	\L_024d6:
+	\L_024c9:
+	\L_023b1:
+	ZH 1:
+	'Nếu bạn quan tâm... Bạn sẽ ăn nó'
+	R
+	'chứ, Vua Rance?'
+	\L_024d6:
+	\L_024c9:
+	\L_02421:
+	ZH 1:
+	'Không, ta không muốn nó. Nếu nó'
+	R
+	'hiếm như bạn nói thì hãy cất nó'
+	R
+	'vào phòng kho báu.'
+	\L_024d6:
+	\L_024c9:
+	\L_023b1:
+	ZH 1:
+	'Vâng, thưa bệ hạ.'
+	\L_024d6:
+	\L_024c9:
+	@L_019a8:
+*L_01cb7:
+	!VAR0150 : 100!
+	!VAR0516 : 261!
+	\L_02405:
+	\L_023b1:
+	ZH 1:
+	'Vua... Vua Rance! Tôi tìm thấy'
+	R
+	'một cái gì đó tuyệt vời!'
+	\L_024d6:
+	\L_024c9:
+	!VAR0516 : 1!
+	\L_02475:
+	\L_02421:
+	ZH 1:
+	'Ồ, cái gì vậy? Cho ta xem.'
+	\L_024d6:
+	\L_024c9:
+	\L_023b1:
+	ZH 1:
+	'Đ-Ừ, h-h-h-đây!'
+	\L_024d6:
+	\L_024c9:
+	\L_023e9:
+	ZH 1:
+	'Thứ mà người lính đưa ra là một'
+	R
+	'cái chai màu nâu chứa đầy bột'
+	R
+	'màu trắng.'
+	\L_024d6:
+	\L_024c9:
+	\L_02421:
+	ZH 1:
+	'Hohoh... Thứ này tuyệt vời'
+	R
+	'nhỉ? Thuốc này có tác dụng gì?'
+	\L_024d6:
+	\L_024c9:
+	\L_023b1:
+	ZH 1:
+	'Nó không phải là thuốc. Đó là'
+	R
+	'\"Kuriripu\", món ngọt tuyệt'
+	R
+	'đỉnh!!'
+	\L_024d6:
+	\L_024c9:
+	\L_02421:
+	ZH 1:
+	'K-Kuriripu?'
+	\L_024d6:
+	\L_024c9:
+	\L_023b1:
+	ZH 1:
+	'Màu trắng lạ thường đó, mùi thơm'
+	R
+	'ngọt ngào đó...'
+	\L_024d6:
+	ZH 1:
+	'Một thìa bột đó sẽ đưa trái tim'
+	R
+	'của một người lên thiên đường...'
+	\L_024d6:
+	ZH 1:
+	'... Người ta nói như vậy. Thật'
+	R
+	'là một sự ngọt ngào đáng kinh'
+	R
+	'ngạc!'
+	\L_024d6:
+	\L_024c9:
+	\L_02421:
+	ZH 1:
+	'Nghe có vẻ vô lý. Ai đang nói'
+	R
+	'vậy?'
+	\L_024d6:
+	\L_024c9:
+	\L_023b1:
+	ZH 1:
+	'Mọi người đều nói thế!! Aah...'
+	R
+	'Chỉ cần cầm nó thôi cũng ảnh'
+	R
+	'hưởng đến tôi rồi...'
+	\L_024d6:
+	\L_024c9:
+	\L_02421:
+	ZH 1:
+	'Hmmmmm... Này, có ai ở đây'
+	R
+	'không? Hãy lấy cái này và ném nó'
+	R
+	'vào phòng kho báu.'
+	\L_024d6:
+	\L_024c9:
+	\L_02413:
+	!VAR0516 : 262!
+	\L_02405:
+	\L_023b1:
+	ZH 1:
+	'Vâng, thưa bệ hạ.'
+	\L_024d6:
+	\L_024c9:
+	\L_02483:
+	!VAR0516 : 261!
+	\L_02475:
+	\L_02421:
+	ZH 1:
+	'À... Aah～～. Làm ơn, ít nhất hãy'
+	R
+	'để tôi mang nó tới đó, Vua'
+	R
+	'Rance～～.'
+	\L_024d6:
+	\L_024c9:
+	\L_023b1:
+	ZH 1:
+	'Đừng đưa ra những yêu cầu ích kỷ'
+	R
+	'như vậy với Đức vua. Đi thôi,'
+	R
+	'người sành ăn.'
+	\L_024d6:
+	\L_024c9:
+	\L_02413:
+	\L_02421:
+	ZH 1:
+	'Aah～～.'
+	\L_024d6:
+	\L_024c9:
+	\L_02483:
+	!VAR0516 : 1!
+	\L_02405:
+	\L_023e9:
+	ZH 1:
+	'Người lính ham ăn bị kéo đi.'
+	\L_024d6:
+	\L_024c9:
+	\L_023b1:
+	ZH 1:
+	'Có lẽ có đủ loại người làm việc'
+	R
+	'dưới quyền ta...'
+	\L_024d6:
+	\L_024c9:
+	@L_019a8:
+*L_01f72:
+	\L_024c9:
+	!VAR0516 : 1!
+	\L_02405:
+	\L_023b1:
+	ZH 1:
+	'Các thành phố của ta cần phải'
+	R
+	'chịu nhiều hình phạt nhất có'
+	R
+	'thể.'
+	\L_024d6:
+	ZH 1:
+	'Maris, tăng cường phòng thủ cho'
+	R
+	'thành phố.'
+	\L_024d6:
+	\L_024c9:
+	!VAR0516 : 6!
+	\L_02475:
+	\L_02421:
+	ZH 1:
+	'Đã hiểu. Các chi phí sẽ...'
+	\L_024d6:
+	!VAR0001 : VAR0133 * 10 * 2!
+	{VAR0001 = 0:
+		!VAR0001 : 5!
+	}
+	ZH 1:
+	H 0, VAR0001:
+	ZH 1:
+	'Tổng cộng 00K VÀNG.'
+	\L_024d6:
+	\L_024c9:
+	\L_02459:
+	ZH 1:
+	'Maris cho Rance xem các tính'
+	R
+	'toán.'
+	\L_024d6:
+	\L_024c9:
+	\L_023b1:
+	ZH 1:
+	'Trời ạ...'
+	R
+	H 0, VAR0001:
+	ZH 1:
+	'VÀNG 00K!?'
+	\L_024d6:
+	ZH 1:
+	'Đắt quá! Quá đắt!!'
+	\L_024d6:
+	\L_024c9:
+	\L_02421:
+	ZH 1:
+	'Chúng ta nên làm gì?'
+	\L_024d6:
+	\L_024c9:
+	\L_023e9:
+	ZH 1:
+	'Chi phí:'
+	H 0, VAR0001:
+	ZH 1:
+	'VÀNG 00K'
+	R
+	R
+	'Ngân sách quốc gia:'
+	H 0, VAR0519:
+	ZH 1:
+	'VÀNG 00K'
+*L_020d1:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_020d1:
+	}
+	ZH 1:
+	$L_0210f$
+	'Củng cố'
+	$
+	R
+	$L_02304$
+	'Không'
+	$
+	]
+	@L_020d1:
+*L_0210f:
+	!VAR0544 : VAR0544 - 1!
+	\L_024c9:
+	\L_023b1:
+	ZH 1:
+	'Chà, nếu chúng ta phải trả số'
+	R
+	'tiền đó... Hãy làm đi.'
+	\L_024d6:
+	\L_024c9:
+	\L_02421:
+	ZH 1:
+	'Đã hiểu.'
+	\L_024d6:
+	\L_024c9:
+	!VAR0055 : VAR0055 - VAR0001!
+	!VAR0519 : VAR0519 - VAR0001!
+	!VAR0133 : VAR0133 + 1!
+	\L_02413:
+	\L_02483:
+	!VAR0516 : VAR0135!
+	\L_024ad:
+	!VAR0516 : 2!
+	!VAR0000 : 103!
+	%#PCMPLAY.ADV:
+	\L_02459:
+	ZH 1:
+	'Theo lệnh của Rance, việc xây'
+	R
+	'dựng để cải thiện khả năng phòng'
+	R
+	'thủ của thành phố bắt đầu.'
+	\L_024d6:
+	ZH 1:
+	'Nhiều người đã làm việc trên nó.'
+	\L_024d6:
+	ZH 1:
+	'Một con hào được đào bao quanh'
+	R
+	'thành phố.'
+	\L_024d6:
+	ZH 1:
+	'Một chiến hào cũng được tạo ra.'
+	\L_024d6:
+	ZH 1:
+	'Bẫy được đặt ở đây và ở đó.'
+	\L_024d6:
+	\L_024c9:
+	\L_024bb:
+	\L_023e9:
+	ZH 1:
+	R
+	'.........'
+	\L_024d6:
+	ZH 1:
+	R
+	'......'
+	\L_024d6:
+	ZH 1:
+	R
+	'...'
+	\L_024d6:
+	\L_024c9:
+	!VAR0516 : 3!
+	%#PCMPLAY.ADV:
+	!VAR0516 : 1!
+	\L_02405:
+	!VAR0516 : 6!
+	\L_02475:
+	\L_02421:
+	ZH 1:
+	'Tôi có một báo cáo.'
+	\L_024d6:
+	ZH 1:
+	'Việc tăng cường phòng thủ của'
+	R
+	'thành phố đã hoàn thành mà không'
+	R
+	'xảy ra sự cố nào.'
+	\L_024d6:
+	\L_024c9:
+	\L_023b1:
+	ZH 1:
+	'Ta hiểu rồi. Sau đó, thành phố'
+	R
+	'sẽ trở nên mạnh mẽ hơn. Mhm, cảm'
+	R
+	'giác này thực sự rất tuyệt.'
+	\L_024d6:
+	\L_024c9:
+	{VAR0133 > 9:
+		\L_02421:
+		ZH 1:
+		'Bệ hạ Rance, tôi tin rằng hệ'
+		R
+		'thống phòng thủ của thành phố'
+		R
+		'này đã hoàn hảo rồi.'
+		\L_024d6:
+		ZH 1:
+		'Sẽ không có ích gì nếu củng cố'
+		R
+		'nó thêm nữa.'
+		\L_024d6:
+		\L_024c9:
+	}
+	\L_02413:
+	\L_02483:
+	@L_0006d:
+*L_02304:
+	\L_024c9:
+	\L_023b1:
+	ZH 1:
+	'Không sao đâu. Lãng phí tiền'
+	R
+	'bạc.'
+	\L_024d6:
+	ZH 1:
+	'Khi kẻ thù đến, họ có thể bảo vệ'
+	R
+	'thành phố bằng bức tường người.'
+	\L_024d6:
+	\L_024c9:
+	\L_02421:
+	ZH 1:
+	'Bức tường người???'
+	\L_024d6:
+	\L_024c9:
+	\L_023b1:
+	ZH 1:
+	'Ừ, thế thì không cần phải tốn'
+	R
+	'tiền xây dựng nữa. Bởi vì nó'
+	R
+	'miễn phí. Gahahahahahaha.'
+	\L_024d6:
+	\L_024c9:
+	\L_02413:
+	\L_02483:
+	@L_0006d:
+*L_0238d:
+	!VAR0516 : 1!
+	%#PCMPLAY.ADV:
+	\0:
+*L_0239b:
+	IM VAR0019, VAR0020:
+	\0:
+*L_023a6:
+	IZ VAR0019, VAR0020:
+	\0:
+*L_023b1:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_023cd:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_023e9:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02405:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02413:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02421:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02459:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02475:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02483:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_024ad:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+*L_024bb:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_024c9:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_024d6:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

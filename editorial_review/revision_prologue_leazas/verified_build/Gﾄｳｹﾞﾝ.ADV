@@ -1,0 +1,1904 @@
+	{VAR0520 = 1:
+		@L_00059:
+	}
+	{VAR0520 = 300:
+		@L_012b3:
+	}
+*L_00059:
+	{VAR0350 = 0:
+		@L_00072:
+	}
+	@L_00252:
+*L_00072:
+	!VAR0350 : 1!
+	!VAR0516 : 1!
+	\L_0248f:
+	!VAR0516 : 6!
+	\L_024ff:
+	\L_0243b:
+	ZH 1:
+	'Maris... What’s this place?'
+	R
+	'Seems really suspicious.'
+	\L_02560:
+	\L_02553:
+	\L_024ab:
+	ZH 1:
+	'According to a legend from an'
+	R
+	'ancient text, it’s known as'
+	R
+	'\"Peach Blossom Spring\".'
+	\L_02560:
+	\L_02553:
+	\L_0243b:
+	ZH 1:
+	'Peach Blossom Spring?'
+	\L_02560:
+	\L_02553:
+	\L_024ab:
+	ZH 1:
+	'A paradise for all men,'
+	R
+	'apparently...'
+	\L_02560:
+	\L_02553:
+	\L_0243b:
+	ZH 1:
+	'A paradise for men...'
+	R
+	'Hmmm, it’s pretty suspicious.'
+	\L_02560:
+	\L_02553:
+	\L_024ab:
+	ZH 1:
+	'Well, you already have your'
+	R
+	'\"paradise\" in the form of your'
+	R
+	'harem, so you don’t need to'
+	R
+	'concern yourself here.'
+	\L_02560:
+	\L_02553:
+	\L_0243b:
+	ZH 1:
+	'Weeell, that’s not true.'
+	R
+	'Maris, you’re gonna be by my'
+	R
+	'side for a number of years.'
+	\L_02560:
+	ZH 1:
+	'Nothing can hold back my'
+	R
+	'adventuring spirit, gahahaha.'
+	R
+	'Here I come, Peach Blossom'
+	R
+	'Spring!'
+	\L_02560:
+	\L_02553:
+	\L_024ab:
+	ZH 1:
+	'But...'
+	R
+	'Are you sure about this...?'
+	\L_02560:
+	\L_02553:
+	\L_02473:
+	ZH 1:
+	'Maris looked worriedly at'
+	R
+	'Rance when he was on the brink'
+	R
+	'of running off.'
+	\L_02560:
+	\L_02553:
+	\L_0243b:
+	ZH 1:
+	'About what?'
+	\L_02560:
+	\L_02553:
+	\L_024ab:
+	ZH 1:
+	'According to the ancient text,'
+	R
+	'you have to pay to get in.'
+	R
+	'The entrance fee seems to be'
+	R
+	'10000K GOLD.'
+	\L_02560:
+	\L_02553:
+	\L_0243b:
+	ZH 1:
+	'Geh...'
+	R
+	'That’s really expensive...'
+	\L_02560:
+	\L_02553:
+*L_00252:
+	!VAR0516 : 1!
+	\L_0248f:
+	!VAR0516 : 6!
+	\L_024ff:
+	\L_02473:
+	ZM 32:
+	ZH 1:
+	'　Peach Blossom Spring'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'   Entrance'
+	\L_02560:
+	\L_02553:
+	\L_024ab:
+	ZH 1:
+	'The entrance fee is 10000K'
+	R
+	'GOLD. Will you pay?'
+	\L_02560:
+	\L_02553:
+	\L_02473:
+	ZH 1:
+	'National Budget'
+	R
+	H 0, VAR0519:
+	ZH 1:
+	'00K GOLD'
+*L_002d7:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_002d7:
+	}
+	ZH 1:
+	$L_00363$
+	'Pay'
+	$
+	R
+	$L_00315$
+	'Don’t'
+	$
+	]
+	@L_002d7:
+*L_00315:
+	\L_02553:
+	\L_0243b:
+	ZH 1:
+	'Why would anyone pay that'
+	R
+	'much? No.'
+	\L_02560:
+	\L_02553:
+	\L_024ab:
+	ZH 1:
+	'Okay.'
+	\L_02560:
+	\L_02553:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0548 : 1!
+	%0:
+*L_00363:
+	\L_02553:
+	{VAR0519 < 100:
+		\L_024ab:
+		ZH 1:
+		'King Rance...'
+		R
+		'We don’t have enough money.'
+		\L_02560:
+		\L_02553:
+		\L_0243b:
+		ZH 1:
+		'Ch, I’ll be back.'
+		R
+		'I’ll go enforce a levy or'
+		R
+		'something to get some money.'
+		\L_02560:
+		\L_02553:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	!VAR0519 : VAR0519 - 100!
+	\L_0243b:
+	ZH 1:
+	'Alright, I’ll pay.'
+	R
+	'That kind of money’s nothing'
+	R
+	'to a king.'
+	\L_02560:
+	\L_02553:
+	\L_024ab:
+	ZH 1:
+	'Understood, then...'
+	\L_02560:
+	\L_02553:
+	\L_02473:
+	ZH 1:
+	'A subordinate brought 10000K'
+	R
+	'GOLD at Maris’s order.'
+	\L_02560:
+	ZH 1:
+	'He put the money in the'
+	R
+	'post-like thing at the edge of'
+	R
+	'the cliff...'
+	\L_02560:
+	ZH 1:
+	'　　＜ch-ching whir）'
+	\L_02560:
+	ZH 1:
+	'　　＜ch-ching whiiir）'
+	\L_02560:
+	\L_02553:
+	\L_0243b:
+	ZH 1:
+	'Ooh, this is pretty weird.'
+	\L_02560:
+	\L_02553:
+	\L_02473:
+	ZH 1:
+	'A rope snaked out of the base'
+	R
+	'of the post-like thing and'
+	R
+	'down the cliff...'
+	\L_02560:
+	\L_02553:
+	\L_024ab:
+	ZH 1:
+	'...Now, King Rance.'
+	R
+	'Please decide who to send down'
+	R
+	'to Peach Blossom Spring.'
+	\L_02560:
+	ZH 1:
+	'Please note that only men can'
+	R
+	'enter.'
+	\L_02560:
+	\L_02553:
+	\L_0243b:
+	ZH 1:
+	'Mhm, men only.'
+	\L_02560:
+	\L_02553:
+*L_00504:
+	!VAR0021 : 1!
+	!VAR0022 : 3!
+	%#Sﾌﾞﾀｲ.ADV:
+	!VAR0516 : 0!
+	%#M.ADV:
+	{VAR0569 = 0:
+		%0:
+	}
+	{(VAR0569 = 2) + (VAR0569 = 4) + (VAR0569 = 5) + (VAR0569 = 10) + (VAR0569 = 11) + (VAR0569 = 12) + (VAR0569 = 13) + (VAR0569 = 16) + (VAR0569 = 17) + (VAR0569 = 19) + (VAR0569 = 20):
+		@L_00605:
+	}
+	{(VAR0569 = 23) + (VAR0569 = 24) + (VAR0569 = 25) + (VAR0569 = 27) + (VAR0569 = 28) + (VAR0569 = 29) + (VAR0569 = 30) + (VAR0569 = 32) + (VAR0569 = 33) + (VAR0569 = 34) + (VAR0569 = 35) + (VAR0569 = 36):
+		@L_00605:
+	}
+	{(VAR0569 = 38) + (VAR0569 = 39) + (VAR0569 = 40) + (VAR0569 = 41) + (VAR0569 = 42) + (VAR0569 = 44) + (VAR0569 = 45) + (VAR0569 = 46) + (VAR0569 = 48) + (VAR0569 = 49) + (VAR0569 = 50):
+		@L_00605:
+	}
+	@L_00672:
+*L_00605:
+	!VAR0154 : VAR0569!
+	MM 1, VAR0198 + (VAR0154 - 1) * 3:
+	{VAR0102 = 2:
+		!VAR0102 : 1!
+	}
+	!VAR0516 : 6!
+	\L_024ff:
+	\L_024ab:
+	ZH 1:
+	X 1:
+	' doesn’t meet'
+	R
+	'the requirements to enter'
+	R
+	'Peach Blossom Spring.'
+	R
+	'Please pick someone else.'
+	\L_02560:
+	\L_02553:
+	@L_00504:
+*L_00672:
+	!VAR0154 : VAR0569!
+	MM 1, VAR0198 + (VAR0154 - 1) * 3:
+	!VAR0583 : 2!
+	!VAR0226 : VAR0089!
+	{VAR0154 = 1:
+		!VAR0583 : 10!
+		!VAR0226 : 20 + VAR0089!
+	}
+	{VAR0154 = 3:
+		!VAR0583 : 5!
+		!VAR0226 : 10 + VAR0089!
+	}
+	{VAR0154 = 6:
+		!VAR0583 : 2!
+		!VAR0226 : VAR0089!
+	}
+	{VAR0154 = 7:
+		!VAR0583 : 4!
+		!VAR0226 : VAR0089!
+	}
+	{VAR0154 = 8:
+		!VAR0583 : 6!
+		!VAR0226 : VAR0089!
+	}
+	{VAR0154 = 9:
+		!VAR0583 : 3!
+		!VAR0226 : 15 + VAR0089!
+	}
+	{VAR0154 = 14:
+		!VAR0583 : 3!
+		!VAR0226 : 25 + VAR0089!
+	}
+	{VAR0154 = 18:
+		!VAR0583 : 10!
+		!VAR0226 : VAR0089!
+	}
+	{VAR0154 = 21:
+		!VAR0583 : 5!
+		!VAR0226 : 5 + VAR0089!
+	}
+	{VAR0154 = 26:
+		!VAR0583 : 4!
+		!VAR0226 : 10 + VAR0089!
+	}
+	{VAR0154 = 37:
+		!VAR0583 : 8!
+		!VAR0226 : 40 + VAR0089!
+	}
+	{VAR0154 = 43:
+		!VAR0583 : 6!
+		!VAR0226 : 25 + VAR0089!
+	}
+	!VAR0226 : VAR0226 + VAR0089 * 2!
+	!VAR0516 : VAR0097!
+	\L_0248f:
+	{VAR0154 = 1:
+		\L_0243b:
+		ZH 1:
+		'Gahahahaha!!'
+		R
+		'I’ll intoxicate them with my'
+		R
+		'technique!'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 3:
+		\L_0243b:
+		ZH 1:
+		'Aah... Girls... It’s been a'
+		R
+		'while... I’m kind of glad...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 6:
+		\L_0243b:
+		ZH 1:
+		'Mmgh... I won’t be able to'
+		R
+		'look my wife in the eyes in'
+		R
+		'the afterlife...'
+		R
+		'Ergh.'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 7:
+		\L_0243b:
+		ZH 1:
+		'Aah... What should I do...?'
+		R
+		'Maybe it’s fine if I do this...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 8:
+		\L_0243b:
+		ZH 1:
+		'Forgive me, my wife...'
+		R
+		'This, too, is a battle...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 9:
+		\L_0243b:
+		ZH 1:
+		'Haah...'
+		R
+		'This is a pretty nice job...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 14:
+		\L_0243b:
+		ZH 1:
+		'I don’t know whether I should'
+		R
+		'be happy or not...'
+		R
+		'This is troubling...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 15:
+		\L_0243b:
+		ZH 1:
+		'Aah...'
+		R
+		'I’m sorry, Sayori...'
+		R
+		'What will I do if she hates me'
+		R
+		'for this...?'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 18:
+		\L_0243b:
+		ZH 1:
+		'Mgh... Mmmgh...'
+		R
+		'Don’t stress out...'
+		R
+		'I won’t be able to get an'
+		R
+		'erection...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 21:
+		\L_0243b:
+		ZH 1:
+		'Well, well...'
+		R
+		'Looks like this’ll be some'
+		R
+		'excellent pleasure.'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 22:
+		\L_0243b:
+		ZH 1:
+		'Forgive me, my wife...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 26:
+		\L_0243b:
+		ZH 1:
+		'Mmmmmmm...'
+		R
+		'C’est si bon...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 31:
+		\L_0243b:
+		ZH 1:
+		'Huh...?'
+		R
+		'M-Me...?'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 37:
+		\L_0243b:
+		ZH 1:
+		'Yes, I will do as you tell me,'
+		R
+		'King Rance.'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 43:
+		\L_0243b:
+		ZH 1:
+		'Empress Sheila...'
+		R
+		'Please forgive me...'
+		R
+		'My heart belongs to you...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 47:
+		\L_0243b:
+		ZH 1:
+		'Well, well...'
+		R
+		'More playing around...?'
+		\L_02560:
+		\L_02553:
+	}
+	\L_02473:
+	ZH 1:
+	X 1:
+	','
+	R
+	{(VAR0154 = 1) + (VAR0154 = 3) + (VAR0154 = 9):
+		ZH 1:
+		'in high spirits,'
+		R
+	}
+	{VAR0154 = 18:
+		ZH 1:
+		'his heart racing,'
+		R
+	}
+	{VAR0154 = 21:
+		ZH 1:
+		'laughing madly,'
+		R
+	}
+	{VAR0154 = 26:
+		ZH 1:
+		'with a slide skip,'
+		R
+	}
+	{VAR0154 = 37:
+		ZH 1:
+		'with great majesty,'
+		R
+	}
+	{(VAR0154 \ 1) * (VAR0154 \ 3) * (VAR0154 \ 9) * (VAR0154 \ 18) * (VAR0154 \ 21) * (VAR0154 \ 26) * (VAR0154 \ 37):
+		ZH 1:
+		'obeying orders,'
+		R
+	}
+	ZH 1:
+	'descended the rope...'
+	\L_02560:
+	\L_02553:
+	PF1 VAR0056:
+	PF0 VAR0056:
+	SS 2:
+	\L_02473:
+	ZM 32:
+	ZH 1:
+	'　 Peach Blossom Spring'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'  In Front of the Arena'
+	\L_02560:
+	ZH 1:
+	X 1:
+	' arrived at'
+	R
+	'Peach Blossom Spring.'
+	\L_02560:
+	\L_02553:
+	!VAR0516 : 1031!
+	\L_02537:
+	!VAR0516 : VAR0097!
+	\L_024ff:
+	{VAR0350 = 1:
+		@L_00d2f:
+	}
+	!VAR0516 : 98!
+	\L_0248f:
+	\L_0243b:
+	ZH 1:
+	'Weeelcome, to Peach Blossom'
+	R
+	'Spring!'
+	\L_02560:
+	\L_02553:
+	\L_02473:
+	ZH 1:
+	'Lucia appeared before him, as'
+	R
+	'energetic as usual.'
+	\L_02560:
+	\L_02553:
+	\L_0243b:
+	ZH 1:
+	'The arena’s been waiting for'
+	R
+	'you! Now, please take off your'
+	R
+	'clothes...'
+	\L_02560:
+	ZH 1:
+	'Now let’s go to the arena.'
+	R
+	'Please do your best.'
+	R
+	'Ready... Go!'
+	\L_02560:
+	\L_02553:
+	!VAR0621 : 0!
+	!VAR0229 : 0!
+	@L_00efc:
+*L_00d2f:
+	!VAR0350 : 3!
+	!VAR0516 : 98!
+	\L_0248f:
+	\L_0243b:
+	ZH 1:
+	'Weeelcome, to Peach Blossom'
+	R
+	'Spring!'
+	\L_02560:
+	\L_02553:
+	\L_02473:
+	ZH 1:
+	'A bunny girl with a nice body'
+	R
+	'appeared before him. She took'
+	R
+	X 1:
+	'’s hand with a'
+	R
+	'radiant smile.'
+	\L_02560:
+	\L_02553:
+	\L_0243b:
+	ZH 1:
+	'Are you a first time customer?'
+	R
+	'I’m Lucia, clerk at the Peach'
+	R
+	'Blossom Spring support center.'
+	\L_02560:
+	ZH 1:
+	'Now, allow me to explain the'
+	R
+	'rules! They’re simple, don’t'
+	R
+	'worry about taking notes or'
+	R
+	'anything!'
+	\L_02560:
+	\L_02553:
+	\L_02473:
+	ZH 1:
+	'The bunny girl started making'
+	R
+	'a lot of exaggerated gestures'
+	R
+	'to explain.'
+	\L_02560:
+	\L_02553:
+	\L_0243b:
+	ZH 1:
+	'Okay?'
+	R
+	'First you take your clothes'
+	R
+	'off here.'
+	\L_02560:
+	ZH 1:
+	'Heehee... Nothing to be'
+	R
+	'embarrassed about! You have a'
+	R
+	'fine body. Now, when you do'
+	R
+	'that, it’ll be time...'
+	\L_02560:
+	ZH 1:
+	'Booooom, to go to the arena!'
+	R
+	'In the arena, lots of bunny'
+	R
+	'girls will appear one after'
+	R
+	'another.'
+	\L_02560:
+	ZH 1:
+	'You get to try and see how'
+	R
+	'many of those bunny girls you'
+	R
+	'can make cum!'
+	\L_02560:
+	ZH 1:
+	'There’re fabulous prizes if'
+	R
+	'you get a new record, too.'
+	R
+	'Now, please do your best!'
+	R
+	'To the arena... Go!'
+	\L_02560:
+	\L_02553:
+	\L_02473:
+	ZH 1:
+	X 1:
+	' already got'
+	R
+	'undressed during the'
+	R
+	'explanation.'
+	R
+	'Lucia led him to the arena...'
+	\L_02560:
+	\L_02553:
+	!VAR0621 : 0!
+	!VAR0229 : 0!
+	@L_00efc:
+*L_00efc:
+	!VAR0621 : VAR0621 + 1!
+	!VAR0229 : VAR0229 + 1!
+	\L_02473:
+	ZH 1:
+	'Round '
+	H 0, VAR0229:
+	ZH 1:
+	', FIGHT!'
+	\L_02560:
+	ZH 1:
+	'　　＜goooooooong!）'
+	\L_02560:
+	\L_02553:
+	{VAR0621 = 1:
+		\L_0126c:
+	}
+	{VAR0621 = 2:
+		\L_01395:
+	}
+	{VAR0621 = 3:
+		\L_01480:
+	}
+	{VAR0621 = 4:
+		\L_01572:
+	}
+	{VAR0621 = 5:
+		\L_0165e:
+	}
+	{VAR0621 = 6:
+		\L_01777:
+	}
+	{VAR0621 = 7:
+		\L_01878:
+	}
+	{VAR0621 = 8:
+		\L_019bd:
+	}
+	{VAR0621 = 9:
+		\L_01b03:
+	}
+	{VAR0621 = 10:
+		\L_01c0c:
+		!VAR0621 : 0!
+	}
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1031!
+	\L_02537:
+	{VAR0583 = 0:
+		\L_02473:
+		ZH 1:
+		X 1:
+		' finally'
+		R
+		'collapsed...'
+		\L_02560:
+		\L_02553:
+		!VAR0516 : 0!
+		%#M.ADV:
+		!VAR0516 : 1031!
+		\L_02537:
+		!VAR0516 : 98!
+		\L_0248f:
+		!VAR0516 : VAR0097!
+		\L_024ff:
+		\L_0243b:
+		ZH 1:
+		'Okay, great job!'
+		\L_02560:
+		ZH 1:
+		'It’s too bad you went down,'
+		R
+		'but you did well, Sir.'
+		R
+		'You made '
+		H 0, VAR0229 - 1:
+		ZH 1:
+		' girl'
+		{VAR0229 \ 2:
+			ZH 1:
+			's'
+		}
+		ZH 1:
+		' cum!'
+		\L_02560:
+		@L_01f08:
+	}
+	\L_02473:
+	ZH 1:
+	X 1:
+	' made'
+	R
+	X 4:
+	' cum.'
+	\L_02560:
+	\L_02553:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1031!
+	\L_02537:
+	!VAR0516 : 98!
+	\L_0248f:
+	!VAR0516 : VAR0097!
+	\L_024ff:
+	Y 4, 4:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		\L_0243b:
+		ZH 1:
+		'Kyaaaaahn!'
+		R
+		'You’re so cool, Sir!'
+		R
+		'Please keep it up on the next'
+		R
+		'girl, too!'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0690 = 2:
+		\L_0243b:
+		ZH 1:
+		'Yep, that was an exciting'
+		R
+		'match. But the next bunny girl'
+		R
+		'might be tough!'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0690 = 3:
+		\L_0243b:
+		ZH 1:
+		'Hurrah, good work!'
+		R
+		'But it’s not over yet!'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0690 = 4:
+		\L_0243b:
+		ZH 1:
+		'Geez...'
+		R
+		'Your technique is amazing,'
+		R
+		'Sir! Do a good job with the'
+		R
+		'next girl.'
+		\L_02560:
+		\L_02553:
+	}
+	\L_02473:
+	ZH 1:
+	'A new bunny girl appeared in'
+	R
+	'front of '
+	X 1:
+	'.'
+	\L_02560:
+	\L_02553:
+	@L_00efc:
+*L_0126c:
+	EC 0:
+	SS 0:
+	G 806:
+	\L_0251b:
+	ZH 1:
+	'White Bunny「Hello, Sir.'
+	R
+	'            Let’s have a good match.」'
+	\L_02560:
+	ZH 1:
+	'White Bunny politely bowed and took off　her bunny'
+	R
+	'suit.'
+	\L_02560:
+	G 222:
+	SS 2:
+*L_012b3:
+	ZH 1:
+	'White Bunny「Uhuhu, men have beautiful bodies...」'
+	\L_02560:
+	ZH 1:
+	'White Bunny leaned on '
+	X 1:
+	'’s naked chest'
+	R
+	'and licked his nipple.'
+	\L_02560:
+	ZH 1:
+	'White Bunny「Does it tickle...?'
+	R
+	'            But that’s not all...」'
+	\L_02560:
+	ZH 1:
+	'White Bunny chuckled and grabbed '
+	X 1:
+	'’s'
+	R
+	'cock.'
+	R
+	'It immediately got hard in her hand.'
+	\L_02560:
+	ZH 1:
+	'White Bunny「Now, here we go... Mm...!」'
+	\L_02560:
+	{VAR0520 = 300:
+		%0:
+	}
+	ZH 1:
+	'White Bunny lowered herself onto '
+	X 1:
+	'’s'
+	R
+	'hips...'
+	\L_02560:
+	ZH 1:
+	MS 4, "White Bunny":
+	!VAR0227 : 2!
+	!VAR0228 : 30!
+	\L_01d33:
+	\0:
+*L_01395:
+	EC 0:
+	SS 0:
+	G 806:
+	\L_0251b:
+	ZH 1:
+	'Pink Bunny「Heeeeeere’s Pink Bunny.'
+	R
+	'           Let’s fuck, Sir.」'
+	\L_02560:
+	ZH 1:
+	'Pink Bunny snuggled without warning.'
+	\L_02560:
+	G 507:
+	SS 2:
+	ZH 1:
+	'Pink Bunny「Hey, hurry... Please, Sir.」'
+	\L_02560:
+	ZH 1:
+	'Pink Bunny looked down with her intoxicated eyes and'
+	R
+	'brought her lips close.'
+	\L_02560:
+	ZH 1:
+	'Pink Bunny「Mm... Ngh...」'
+	\L_02560:
+	ZH 1:
+	'After their tongues tangled for a while, Pink Bunny'
+	R
+	'entwined herself around '
+	X 1:
+	'’s lower half.'
+	\L_02560:
+	ZH 1:
+	'She wrapped her arms around his hips, brushed her'
+	R
+	'hair back and coiled her tongue around his cock.'
+	\L_02560:
+	ZH 1:
+	'Pink Bunny「Heh, it’s delicious...'
+	R
+	'           ...Hey, do me too...」'
+	\L_02560:
+	ZH 1:
+	MS 4, "Pink Bunny":
+	!VAR0227 : 2!
+	!VAR0228 : 35!
+	\L_01d33:
+	\0:
+*L_01480:
+	EC 0:
+	SS 0:
+	G 806:
+	\L_0251b:
+	ZH 1:
+	'Red Bunny「My name is Red Bunny.'
+	R
+	'          I’ll quickly make you lose.」'
+	\L_02560:
+	ZH 1:
+	'Red Bunny stared at '
+	X 1:
+	' enthusiastically.'
+	\L_02560:
+	G 508:
+	SS 2:
+	ZH 1:
+	'Red Bunny「Now...'
+	R
+	'          How will you handle this...!?」'
+	\L_02560:
+	ZH 1:
+	X 1:
+	'’s hard cock was buried completely'
+	R
+	'inside Red Bunny.'
+	\L_02560:
+	ZH 1:
+	'Red Bunny「Aah... Heh... Uhuhu...'
+	R
+	'          Now, shall we enjoy the match...?」'
+	\L_02560:
+	ZH 1:
+	'Red Bunny threw her hair back and started moving her'
+	R
+	'hips up and down.'
+	\L_02560:
+	ZH 1:
+	'The intense rhythm made pleasure run through'
+	R
+	X 1:
+	'’s spine.'
+	\L_02560:
+	ZH 1:
+	MS 4, "Red Bunny":
+	!VAR0227 : 2!
+	!VAR0228 : 40!
+	\L_01d33:
+	\0:
+*L_01572:
+	EC 0:
+	SS 0:
+	G 806:
+	\L_0251b:
+	ZH 1:
+	'Orange Bunny「U-Um... I’m Orange Bunny...'
+	R
+	'             Don’t hurt me, okay?」'
+	\L_02560:
+	ZH 1:
+	'Orange Bunny slowly took off her bunny suit.'
+	\L_02560:
+	G 509:
+	SS 2:
+	ZH 1:
+	'Orange Bunny「Um... I wasn’t supposed to take off the'
+	R
+	'             cuffs...」'
+	\L_02560:
+	ZH 1:
+	'Orange Bunny「Uh, what about the collar...?'
+	R
+	'             Ah, this stays too... Hmmmm.」'
+	\L_02560:
+	ZH 1:
+	'Orange Bunny「Ah... Ah, sorry for the wait, Sir.'
+	R
+	'             I still haven’t memorized the manual.」'
+	\L_02560:
+	ZH 1:
+	'Orange Bunny shyly covered her breasts and'
+	R
+	'approached '
+	X 1:
+	'.'
+	\L_02560:
+	ZH 1:
+	'Orange Bunny「Um... I’m sorry you have to do a'
+	R
+	'             country girl like me...'
+	R
+	'             But I’ll do my best.」'
+	\L_02560:
+	ZH 1:
+	MS 4, "Orange Bunny":
+	!VAR0227 : 3!
+	!VAR0228 : 40!
+	\L_01d33:
+	\0:
+*L_0165e:
+	EC 0:
+	SS 0:
+	G 806:
+	\L_0251b:
+	ZH 1:
+	'Green Bunny「Hanihooo, I’m Green Bunny.'
+	R
+	'            Be gentle, Sir.」'
+	\L_02560:
+	ZH 1:
+	'Green Bunny cutely bobbed her head to bow.'
+	\L_02560:
+	G 510:
+	SS 2:
+	ZH 1:
+	'Green Bunny「Mmmm, I love you, Sir.'
+	R
+	'            Hey, touch my tits, please.」'
+	\L_02560:
+	ZH 1:
+	'Green Bunny clung to '
+	X 1:
+	'’s body while'
+	R
+	'guiding his hands to her breasts.'
+	\L_02560:
+	ZH 1:
+	'Green Bunny「Your hands are so big and warm...」'
+	\L_02560:
+	ZH 1:
+	'Green Bunny’s breasts contorted under her and'
+	R
+	X 1:
+	'’s hands.'
+	\L_02560:
+	ZH 1:
+	'Her hard nipples were rolled around.'
+	\L_02560:
+	ZH 1:
+	'Green Bunny「I love these hands...'
+	R
+	'            Um... Please touch me down here too.'
+	R
+	'            Here... Like this...」'
+	\L_02560:
+	ZH 1:
+	'Green Bunny smiled mischievously and put a hand on'
+	R
+	X 1:
+	'’s cock...'
+	\L_02560:
+	ZH 1:
+	MS 4, "Green Bunny":
+	!VAR0227 : 3!
+	!VAR0228 : 45!
+	\L_01d33:
+	\0:
+*L_01777:
+	EC 0:
+	SS 0:
+	G 806:
+	\L_0251b:
+	ZH 1:
+	'Blue Bunny「Nice to meet you... I’m Blue Bunny.'
+	R
+	'           I’m going to turn the tables on you,'
+	R
+	'           Sir.」'
+	\L_02560:
+	ZH 1:
+	'Blue Bunny stood calmly...'
+	\L_02560:
+	G 511:
+	SS 2:
+	ZH 1:
+	'She ran her cool hands all over '
+	X 1:
+	'’s'
+	R
+	'body.'
+	\L_02560:
+	ZH 1:
+	'After that, he felt her soft lips.'
+	R
+	'Then her warm tongue.'
+	\L_02560:
+	ZH 1:
+	'Blue Bunny「............」'
+	\L_02560:
+	ZH 1:
+	'Blue Bunny slowly, delicately kissed all around his'
+	R
+	'inner thighs while avoiding his cock.'
+	\L_02560:
+	ZH 1:
+	X 1:
+	' looked down to see her red, wet lips'
+	R
+	'smiling.'
+	\L_02560:
+	ZH 1:
+	'Blue Bunny「I won’t let it between my lips.'
+	R
+	'           Now, come...」'
+	\L_02560:
+	ZH 1:
+	MS 4, "Blue Bunny":
+	!VAR0227 : 2!
+	!VAR0228 : 30!
+	\L_01d33:
+	\0:
+*L_01878:
+	EC 0:
+	SS 0:
+	G 806:
+	\L_0251b:
+	ZH 1:
+	'Purple Bunny「Hee... Heeheehee, are you today’s'
+	R
+	'             customer?'
+	R
+	'             Heehee, how cuuute, heehee...」'
+	\L_02560:
+	ZH 1:
+	'Purple Bunny seemed to be really enjoying herself'
+	R
+	'for some reason.'
+	\L_02560:
+	G 512:
+	SS 2:
+	ZH 1:
+	'Purple Bunny「Heehee, hey Sir, do you know about'
+	R
+	'             things like thiiiiis?」'
+	\L_02560:
+	ZH 1:
+	'Purple Bunny suddenly thrust a finger in'
+	R
+	X 1:
+	'’s butt.'
+	\L_02560:
+	ZH 1:
+	'Purple Bunny「Yahn, that face is so sexy.'
+	R
+	'             Heehee, leave it to me, please...」'
+	\L_02560:
+	ZH 1:
+	'Purple Bunny skillfully moved her finger inside his'
+	R
+	'body.'
+	\L_02560:
+	ZH 1:
+	X 1:
+	'’s cock was being controlled by a'
+	R
+	'pleasure different from when it was touched'
+	R
+	'directly.'
+	\L_02560:
+	ZH 1:
+	'Purple Bunny「Here, this is called the prostate'
+	R
+	'             gland. Feels good, doesn’t it?'
+	R
+	'             Hee, heeheehee...」'
+	\L_02560:
+	ZH 1:
+	'Purple Bunny licked the head of his cock after it'
+	R
+	'rapidly hardened and laughed.'
+	\L_02560:
+	ZH 1:
+	'Purple Bunny「Heehee, people’s bodies are like toys,'
+	R
+	'             Sir... Now try using me as a toy...」'
+	\L_02560:
+	ZH 1:
+	MS 4, "Purple Bunny":
+	!VAR0227 : 2!
+	!VAR0228 : 40!
+	\L_01d33:
+	\0:
+*L_019bd:
+	EC 0:
+	SS 0:
+	G 806:
+	\L_0251b:
+	ZH 1:
+	'Platinum Bunny「Looks like you made it all the way to'
+	R
+	'               me. But I won’t let you past here.」'
+	\L_02560:
+	ZH 1:
+	'Platinum Bunny took a lighter out from between her'
+	R
+	'cleavage and tossed it to the field behind her.'
+	\L_02560:
+	G 513:
+	SS 2:
+	ZH 1:
+	'Platinum Bunny「Huhu... Warm.'
+	R
+	'               The lighter was cold...」'
+	\L_02560:
+	ZH 1:
+	'She tore off her bunny suit and squeezed'
+	R
+	X 1:
+	'’s cock between her exposed breasts.'
+	\L_02560:
+	ZH 1:
+	'Platinum Bunny held her breasts in both hands'
+	R
+	'and kneaded them against '
+	X 1:
+	'’s cock.'
+	\L_02560:
+	ZH 1:
+	'Platinum Bunny「How is it, Sir?'
+	R
+	'               Are you pleased...?'
+	R
+	'               ...Mm...」'
+	\L_02560:
+	ZH 1:
+	'Platinum Bunny put the head sticking up from'
+	R
+	'between her breasts in her mouth. Her tongue'
+	R
+	'stirred '
+	X 1:
+	' in her contracted cheeks.'
+	\L_02560:
+	ZH 1:
+	'Platinum Bunny「Now... Shall we settle this?'
+	R
+	'               ...Uu... Aaah...!」'
+	\L_02560:
+	ZH 1:
+	'Platinum Bunny’s wet pussy enveloped'
+	R
+	X 1:
+	'’s cock...'
+	\L_02560:
+	ZH 1:
+	MS 4, "Platinum Bunny":
+	!VAR0227 : 2!
+	!VAR0228 : 50!
+	\L_01d33:
+	\0:
+*L_01b03:
+	EC 0:
+	SS 0:
+	G 806:
+	\L_0251b:
+	ZH 1:
+	'Gold Bunny「It’s finally my turn!'
+	R
+	'           I swear on this bunny suit that I won’t'
+	R
+	'           lose! Let’s do this, Sir!!」'
+	\L_02560:
+	ZH 1:
+	'From the moment she started talking, Gold Bunny'
+	R
+	'gallantly threw off her bunny suit.'
+	\L_02560:
+	G 514:
+	SS 2:
+	ZH 1:
+	'Gold Bunny「Here, take this, hiyah...!」'
+	\L_02560:
+	ZH 1:
+	'Gold Bunny did all she could to tickle'
+	R
+	X 1:
+	'.'
+	\L_02560:
+	ZH 1:
+	'Gold Bunny「Uh, huh...?'
+	R
+	'           Why aren’t you laughing?'
+	R
+	'           Am I not tickling you, Sir?」'
+	\L_02560:
+	ZH 1:
+	'Gold Bunny「Uuu, if it’s come to this I’ll have to'
+	R
+	'           use my toe tickling finishing move...'
+	R
+	'           Ah, Sir!?」'
+	\L_02560:
+	ZH 1:
+	X 1:
+	' got fed up and pushed Gold Bunny'
+	R
+	'over.'
+	\L_02560:
+	ZH 1:
+	'Gold Bunny「Ahn, coward...!」'
+	\L_02560:
+	ZH 1:
+	MS 4, "Gold Bunny":
+	!VAR0227 : 3!
+	!VAR0228 : 50!
+	\L_01d33:
+	\0:
+*L_01c0c:
+	EC 0:
+	SS 0:
+	G 806:
+	\L_0251b:
+	ZH 1:
+	'Black Bunny「I’m surprised someone made it this far.'
+	R
+	'            Shall we enjoy ourselves, then...?」'
+	\L_02560:
+	ZH 1:
+	'Black Bunny smiled bewitchingly and laid'
+	R
+	X 1:
+	' down on the ground...'
+	\L_02560:
+	G 515:
+	SS 2:
+	ZH 1:
+	'Black Bunny「Mm... Ngh...!'
+	R
+	'            Good... Great, Sir...!」'
+	\L_02560:
+	ZH 1:
+	'An obscene sound filled the arena.'
+	\L_02560:
+	ZH 1:
+	'Black Bunny’s nails dug into '
+	X 1:
+	'’s chest.'
+	R
+	'She moved her hips up and down.'
+	\L_02560:
+	ZH 1:
+	'Black Bunny「How many have you made cum so far...?'
+	R
+	'            It might not be too bad if you got me,'
+	R
+	'            too...!」'
+	\L_02560:
+	ZH 1:
+	'Her sweet whisper blew into his ears.'
+	R
+	'Her breasts squashed and distorted against his chest'
+	R
+	'as she leaned on him.'
+	\L_02560:
+	ZH 1:
+	'Each time her hard nipples grazed against his chest,'
+	R
+	'she clamped on the cock inside her.'
+	\L_02560:
+	ZH 1:
+	'Black Bunny「Now...'
+	R
+	'            Who will win...!?」'
+	\L_02560:
+	ZH 1:
+	MS 4, "Black Bunny":
+	!VAR0227 : 3!
+	!VAR0228 : 60!
+	\L_01d33:
+	\0:
+*L_01d33:
+	!VAR0001 : 100!
+	!VAR0002 : 100!
+	!VAR0003 : 0!
+	!VAR0004 : 0!
+*L_01d45:
+	\L_0251b:
+	ZH 1:
+	'［'
+	MP 1, 6:
+	ZH 1:
+	' ］ Endurance（'
+	H 2, VAR0583:
+	ZH 1:
+	'）　P（'
+	H 2, VAR0001:
+	ZH 1:
+	'）'
+	{VAR0003 = 0:
+		ZH 1:
+		R
+	}
+	{VAR0003 = 1:
+		ZH 1:
+		X 1:
+		'「Uu...!」'
+		R
+	}
+	{VAR0003 = 2:
+		ZH 1:
+		X 4:
+		'「Ahn...!」'
+		R
+	}
+	ZH 1:
+	'［'
+	MP 4, 6:
+	ZH 1:
+	' ］　Endurance（'
+	H 2, VAR0227:
+	ZH 1:
+	'）　P（'
+	H 2, VAR0002:
+	ZH 1:
+	'）'
+	{VAR0583 = 0:
+		\L_02560:
+		\L_02553:
+		\0:
+	}
+	{VAR0227 = 0:
+		\L_02560:
+		\L_02553:
+		\0:
+	}
+	{VAR0003 = 0:
+		Y 3, 15:
+		\L_02553:
+	}
+	{VAR0003 \ 0:
+		\L_02560:
+		\L_02553:
+	}
+	!VAR0003 : 0!
+	{VAR0001 = 0:
+		!VAR0001 : 100!
+	}
+	{VAR0002 = 0:
+		!VAR0002 : 100!
+	}
+	Y 4, VAR0226:
+	!VAR0002 : VAR0002 - VAR0000!
+	{VAR0002 = 0:
+		!VAR0003 : 2!
+		!VAR0227 : VAR0227 - 1!
+	}
+	Y 4, VAR0228:
+	!VAR0001 : VAR0001 - VAR0000!
+	{VAR0001 = 0:
+		!VAR0003 : 1!
+		!VAR0583 : VAR0583 - 1!
+	}
+	@L_01d45:
+*L_01f08:
+	!VAR0229 : VAR0229 - 1!
+	!VAR0160 : 50!
+	{(VAR0150 = 0) * (VAR0229 > 3):
+		!VAR0150 : 100!
+		ZH 1:
+		'You made 4 or more girls cum.'
+		R
+		'You get this item as a gift,'
+		R
+		'the \"Exclusive Nurse\".'
+		\L_02560:
+		\L_02553:
+		\L_02473:
+		ZH 1:
+		'Obtained the \"Exclusive Nurse\".'
+		\L_02560:
+		\L_02553:
+		\L_0243b:
+	}
+	!VAR0160 : 49!
+	{(VAR0150 = 0) * (VAR0229 > 5):
+		!VAR0150 : 100!
+		ZH 1:
+		'You made 6 or more girls cum.'
+		R
+		'You get this item as a gift,'
+		R
+		'the \"Charge Horn\".'
+		\L_02560:
+		\L_02553:
+		\L_02473:
+		ZH 1:
+		'Obtained the \"Charge Horn\".'
+		\L_02560:
+		\L_02553:
+		\L_0243b:
+	}
+	{VAR0351 < VAR0229:
+		ZH 1:
+		'Ah... '
+		X 1:
+		', did you'
+		R
+		'get a new record!?'
+		R
+		'You made '
+		H 0, VAR0229:
+		ZH 1:
+		' girls cum!'
+		R
+		'Congratulations!'
+		\L_02560:
+		!VAR0351 : VAR0229!
+		!VAR0352 : VAR0154!
+		@L_020b1:
+	}
+	{VAR0351 = 0:
+		!VAR0351 : VAR0229!
+		!VAR0352 : VAR0154!
+	}
+	!VAR0154 : VAR0352!
+	MM 1, VAR0198 + (VAR0154 - 1) * 3:
+	ZH 1:
+	'By the way, the best record so'
+	R
+	'far is '
+	X 1:
+	'’s'
+	R
+	H 0, VAR0351:
+	ZH 1:
+	' girls.'
+	\L_02560:
+	!VAR0154 : VAR0569!
+	MM 1, VAR0198 + (VAR0154 - 1) * 3:
+*L_020b1:
+	ZH 1:
+	'Now, thank you very much for'
+	R
+	'coming all the way out to'
+	R
+	'Peach Blossom Spring.'
+	\L_02560:
+	ZH 1:
+	'Aaall the bunnies will be'
+	R
+	'awaiting your return!'
+	R
+	'Please come again.'
+	R
+	'Goodbye!'
+	\L_02560:
+	\L_02553:
+	\L_02473:
+	ZH 1:
+	X 1:
+	' left'
+	R
+	'Peach Blossom Spring...'
+	\L_02560:
+	\L_02553:
+	{VAR0154 = 1:
+		\L_024ab:
+		ZH 1:
+		'Hah～～～...'
+		R
+		'Delicious...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 3:
+		\L_024ab:
+		ZH 1:
+		'Haaah...'
+		R
+		'Nothing but cute girls...'
+		R
+		'I want to come again...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 6:
+		\L_024ab:
+		ZH 1:
+		'...Kh...'
+		R
+		'M-My hips... Who knows if I’ll'
+		R
+		'be able to move tomorrow...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 7:
+		\L_024ab:
+		ZH 1:
+		'............'
+		R
+		'...I feel kind of... guilty...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 8:
+		\L_024ab:
+		ZH 1:
+		'...Uooooooooh!!'
+		R
+		'Fururu, Fururu!'
+		R
+		'Forgive meee!'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 9:
+		\L_024ab:
+		ZH 1:
+		'Haah... That was pretty good...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 14:
+		\L_024ab:
+		ZH 1:
+		'Hmmmm... More than pleasure,'
+		R
+		'that was like a triathlon...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 15:
+		\L_024ab:
+		ZH 1:
+		'No...'
+		R
+		'Game over.'
+		R
+		'I’m sorry, Sayori!'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 18:
+		\L_024ab:
+		ZH 1:
+		'...They were soft...'
+		R
+		'That was nice...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 21:
+		\L_024ab:
+		ZH 1:
+		'Well, that was something...'
+		R
+		'It as fun.'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 22:
+		\L_024ab:
+		ZH 1:
+		'...Amiran...'
+		R
+		'Sorry...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 26:
+		\L_024ab:
+		ZH 1:
+		'Mmmm～～...'
+		R
+		'Excellent...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 31:
+		\L_024ab:
+		ZH 1:
+		'Miki, I’m sorry...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 37:
+		\L_024ab:
+		ZH 1:
+		'Well, that was interesting.'
+		R
+		'Wahaha, waaahahah...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 43:
+		\L_024ab:
+		ZH 1:
+		'...How vain...'
+		R
+		'The act of making love has'
+		R
+		'been reduced to nothing but a'
+		R
+		'piston motion...'
+		\L_02560:
+		\L_02553:
+	}
+	{VAR0154 = 47:
+		\L_024ab:
+		ZH 1:
+		'............'
+		R
+		'...I’m tired...'
+		\L_02560:
+		\L_02553:
+	}
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_0243b:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02473:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0248f:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_024ab:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_024ff:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0251b:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02537:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02553:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02560:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

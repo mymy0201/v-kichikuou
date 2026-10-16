@@ -1,0 +1,1383 @@
+	ZM 24:
+	EC 0:
+	G 240:
+	\L_01838:
+	ZH 1:
+	'Alice 「Xin chào, đây là Alice.」'
+	SS 28:
+	\L_0187d:
+	ZH 1:
+	'Yukichi 「Caaaw caaaw.」'
+	\L_0187d:
+	ZH 1:
+	'Alice 「Cảm ơn bạn vì đã mua Kichikuou Rance.」'
+	\L_0187d:
+	ZH 1:
+	'Alice 「Sau đây là một số thông tin hướng dẫn.」'
+	\L_0187d:
+	!VAR0010 : 0!
+	LP 1, VAR0514, 1:
+*L_0007f:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_0007f:
+	}
+	ZH 1:
+	$L_00221$
+	'Cách chơi'
+	$
+	$L_008db$
+	'Tín dụng'
+	$
+	$L_00cbf$
+	'Trò chơi Alice tiếp theo'
+	$
+	$L_00f0a$
+	'Giới thiệu qua Internet'
+	$
+	$L_01019$
+	'Trò chơi này là gì?'
+	$
+	$L_015e3$
+	'Điều chỉnh tỷ lệ màn hình'
+	$
+	$L_0114e$
+	'Xếp hạng nhân vật'
+	$
+	$L_001e1$
+	'Góc nhân viên'
+	$
+	$L_00174$
+	'Một Lời Khuyên Nhỏ'
+	$
+	{VAR0514 \ 0:
+		ZH 1:
+		$L_016c0$
+		'Xem phần mở đầu'
+		$
+	}
+	ZH 1:
+	$L_0013f$
+	'Quay lại trò chơi'
+	$
+	]
+	@L_0007f:
+*L_0013f:
+	ZH 1:
+	'Alice 「Bây giờ, hãy tận hưởng trò chơi nhé.'
+	R
+	'         Tạm biệt!」'
+	\L_0187d:
+	ZH 1:
+	'Yukichi 「Caaaaaaaaaw.」'
+	\L_0187d:
+	\L_01870:
+	EC 0:
+	SS 27:
+	%0:
+*L_00174:
+	ZH 1:
+	'Alice 「À phải rồi, tôi có một lời khuyên này.'
+	R
+	'         Hãy lắng nghe thật kỹ nhé.」'
+	\L_0187d:
+	ZH 1:
+	'Yukichi 「Caaaaaaaaaaaaaaaaw.」'
+	\L_0187d:
+	ZH 1:
+	'Alice 「Nếu Rance mất quá nhiều thời gian để'
+	R
+	'         thống nhất nhân loại, tai họa sẽ đến đấy.」'
+	\L_0187d:
+	ZH 1:
+	'Yukichi 「Caaaaw?」'
+	\L_0187d:
+	ZH 1:
+	'Alice 「Thế thôi... Hãy cố gắng hết sức nhé.」'
+	\L_0187d:
+	ZH 1:
+	'Yukichi 「Caaaw.」'
+	\L_0187d:
+	@L_0007f:
+*L_001e1:
+	ZH 1:
+	'Alice 「Lần này Góc nhân viên nằm ngay trong'
+	R
+	'         chính trò chơi đấy.」'
+	\L_0187d:
+	ZH 1:
+	'Alice 「Alicesoft đang ẩn nấp ở một nơi nào đó.'
+	R
+	'         Hãy tìm chúng tôi và cùng chơi nhé.」'
+	\L_0187d:
+	ZH 1:
+	'Yukichi 「Cawcawcawcawcaw... Caw.」'
+	\L_0187d:
+	@L_0007f:
+*L_00221:
+	{VAR0010 = 10:
+		!VAR0057 : 1!
+		ZH 1:
+		'　ＸＸＸＸＸＸＸＸＸＸＸＸＸＸ'
+		R
+		'　ＸＸＸＸＸＸＸＸＸＸＸＸＸＸ'
+		\L_0187d:
+		@L_0007f:
+	}
+*L_0024e:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_0024e:
+	}
+	ZH 1:
+	$L_007e3$
+	'Tiến trình trò chơi'
+	$
+	$L_0081b$
+	'Về đơn vị'
+	$
+	$L_0088d$
+	'Về Ninja'
+	$
+	$L_006d8$
+	'Giai đoạn quân Rance'
+	$
+	$L_0059b$
+	'Về trận chiến'
+	$
+	$L_00513$
+	'Lệnh chiến đấu'
+	$
+	$L_00484$
+	'Chi tiết trận đánh'
+	$
+	$L_003c2$
+	'Chỉ số tướng lĩnh'
+	$
+	$L_00383$
+	'Lưu và tải game'
+	$
+	$L_00344$
+	'Về kho báu'
+	$
+	$L_00305$
+	'Lệnh Harem và Nói chuyện'
+	$
+	$L_00300$
+	'Trở lại'
+	$
+	]
+*L_00300:
+	@L_0007f:
+*L_00305:
+	ZH 1:
+	'Các sự kiện có thể kích hoạt qua lệnh Harem và'
+	R
+	'Nói chuyện. Thu thuế từ một thành phố cũng có thể'
+	R
+	'gây ra các sự kiện đặc biệt tại thành phố đó.'
+	\L_0187d:
+	ZH 1:
+	'Tôi thực sự khuyên bạn không nên xem hướng dẫn'
+	R
+	'trong lần chơi đầu tiên và hãy chấp nhận thất bại.'
+	R
+	'Thất bại cũng là một phần của trò chơi.'
+	\L_0187d:
+	@L_0024e:
+*L_00344:
+	ZH 1:
+	'Kho báu có thể mua từ Pluepet, cướp từ thành phố'
+	R
+	'hoặc tìm thấy trong mê cung. Khi chọn “Kho báu”'
+	R
+	'trên menu chính, danh sách sẽ được hiển thị.'
+	\L_0187d:
+	ZH 1:
+	'Một số kho báu có thể trang bị. Nếu muốn trang bị,'
+	R
+	'hãy chọn món đồ đó, sau đó chọn nhân vật mà bạn'
+	R
+	'muốn trang bị cho họ.'
+	\L_0187d:
+	@L_0024e:
+*L_00383:
+	ZH 1:
+	'Trò chơi sẽ tự động lưu vào đầu mỗi lượt vào ô tự'
+	R
+	'động lưu (auto-save). Dữ liệu tải lại cũng sẽ ghi'
+	R
+	'đè lên ô tự động lưu này.'
+	\L_0187d:
+	ZH 1:
+	'Bạn cũng có thể lưu thủ công. Dù bạn lưu vào bất'
+	R
+	'kỳ thời điểm nào trong lượt, khi tải lại, bạn vẫn'
+	R
+	'sẽ quay về đầu lượt chơi đó.'
+	\L_0187d:
+	@L_0024e:
+*L_003c2:
+	ZH 1:
+	'HP: Lượng máu hiện tại của tướng. (về 0 sẽ tử trận)'
+	R
+	'Tấn công/Phòng thủ: Năng lực chiến đấu của tướng.'
+	\L_0187d:
+	ZH 1:
+	'Khả năng chiến lược, Tỉ lệ thành công:'
+	R
+	'Tướng có tỉ lệ cao nhất (dù là phe địch hay phe ta)'
+	R
+	'sẽ nhận được cơ hội thi triển chiến lược.'
+	\L_0187d:
+	ZH 1:
+	'Nếu thi triển chiến lược thành công, bạn sẽ giành'
+	R
+	'được lợi thế cực lớn trong trận chiến.'
+	\L_0187d:
+	ZH 1:
+	'Năng lực chỉ huy theo địa hình:'
+	R
+	'Chỉ số cộng thêm cho tướng và binh sĩ tùy thuộc'
+	R
+	'vào loại chiến trường diễn ra trận đánh.'
+	\L_0187d:
+	ZH 1:
+	'Mỗi tướng đều có ưu và nhược điểm riêng biệt, vì'
+	R
+	'vậy bạn nên chú ý những điều này và sử dụng từng vị'
+	R
+	'tướng vào đúng thời điểm thích hợp.'
+	\L_0187d:
+	ZH 1:
+	'Binh chủng:'
+	R
+	'Tất cả các tướng đều dẫn dắt một binh chủng riêng'
+	R
+	'với sức tấn công và phòng thủ đặc thù.'
+	\L_0187d:
+	ZH 1:
+	'Tuyệt kỹ đặc biệt:'
+	R
+	'Một số tướng có kỹ năng đặc biệt dùng được sau khi'
+	R
+	'chờ một lượt. Chúng mang lại nhiều hiệu ứng đa dạng.'
+	\L_0187d:
+	@L_0024e:
+*L_00484:
+	ZH 1:
+	'Khi tấn công, một con số biểu thị lượng quân tham'
+	R
+	'chiến sẽ bay vào mục tiêu, rồi biến thành số quân'
+	R
+	'địch bị tiêu diệt.'
+	\L_0187d:
+	ZH 1:
+	'Ví dụ: Nếu số 1000 bay đến quân địch rồi chuyển'
+	R
+	'thành 200, nghĩa là 1000 quân đã tấn công và tiêu'
+	R
+	'diệt được 200 kẻ địch.'
+	\L_0187d:
+	ZH 1:
+	'Tùy tình huống, tướng có thể trực tiếp tấn công hoặc'
+	R
+	'bị tấn công. Không giống binh lính chỉ đánh một'
+	R
+	'lần, tướng có thể tấn công rất nhiều lần.'
+	\L_0187d:
+	ZH 1:
+	'Tuy nhiên, nếu tướng tử trận, toàn bộ đội quân đó'
+	R
+	'sẽ bị xóa sổ hoàn toàn bất kể số lượng binh sĩ còn'
+	R
+	'lại là bao nhiêu.'
+	\L_0187d:
+	ZH 1:
+	'Tướng có thể tấn công và bị tấn công khi số quân'
+	R
+	'của họ ít hơn quy mô của chiến trường.'
+	\L_0187d:
+	@L_0024e:
+*L_00513:
+	ZH 1:
+	'Khi đến lượt nhân vật, nếu họ có thể tấn công, hãy'
+	R
+	'nhấp chuột trái vào kẻ địch bạn muốn tấn công.'
+	\L_0187d:
+	ZH 1:
+	'Nếu bạn nhấp chuột phải, một menu sẽ hiện ra với'
+	R
+	'các mệnh lệnh sau:'
+	\L_0187d:
+	ZH 1:
+	'Phòng thủ: Tăng nhẹ phòng thủ trong lượt đó.'
+	R
+	'Chờ: Tích tụ tuyệt kỹ đặc biệt cho nhân vật.'
+	R
+	'Rút lui: Toàn quân rút chạy, tính là thất bại.'
+	\L_0187d:
+	ZH 1:
+	'Tự động đánh: Tiếp tục tấn công kẻ địch phía trước.'
+	R
+	'Tự động thủ: Đơn vị sẽ liên tục phòng thủ.'
+	R
+	'Thông tin: Hiển thị thông tin đơn vị được nhấp.'
+	\L_0187d:
+	ZH 1:
+	'Nếu một đơn vị sử dụng đòn đánh tầm xa hoặc phép,'
+	R
+	'bạn cũng có thể chọn đánh trực diện trong menu'
+	R
+	'chuột phải.'
+	\L_0187d:
+	@L_0024e:
+*L_0059b:
+	ZH 1:
+	'Bạn có thể ra trận với tối đa 4 đơn vị quân.'
+	R
+	'Nếu rút lui hoặc bị tiêu diệt hết, bạn sẽ thua.'
+	R
+	'Nếu ở phe công, hết lượt đánh cũng tính là thua.'
+	\L_0187d:
+	ZH 1:
+	'Số lượt giao chiến:'
+	R
+	'Bạn nhận được số lượt ngẫu nhiên (khoảng 4 lượt).'
+	R
+	'Trận đánh sẽ kết thúc khi hết số lượt này.'
+	\L_0187d:
+	ZH 1:
+	'Tuy nhiên, một số trận chiến đặc biệt có thể không'
+	R
+	'bị giới hạn số lượt.'
+	\L_0187d:
+	ZH 1:
+	'Quy mô chiến trường (Battle Area):'
+	R
+	'Kích thước trận địa, chỉ áp dụng khi bạn đánh trong'
+	R
+	'thành phố hoặc mê cung thay vì đồng bằng.'
+	\L_0187d:
+	ZH 1:
+	'Quy mô này giới hạn số quân có thể đánh cùng lúc.'
+	R
+	'Ví dụ đơn vị 2000 quân chỉ đánh được 500 quân nếu'
+	R
+	'quy mô là 500.'
+	\L_0187d:
+	ZH 1:
+	'Hiệu ứng phòng thủ:'
+	R
+	'Nếu bạn phe thủ và chọn đánh trong thành phố, bạn'
+	R
+	'sẽ nhận được lợi thế dựa trên phòng thủ của thành.'
+	\L_0187d:
+	ZH 1:
+	'Thứ tự hành động:'
+	R
+	'Thông thường, đơn vị có ít binh lính hơn sẽ được'
+	R
+	'ưu tiên hành động trước.'
+	\L_0187d:
+	ZH 1:
+	'Tiền tuyến và Hậu phương:'
+	R
+	'Hai đơn vị đầu tiên ra trận sẽ đứng ở tiền tuyến,'
+	R
+	'hai đơn vị còn lại sẽ ở hậu phương.'
+	\L_0187d:
+	ZH 1:
+	'Chỉ đơn vị tiền tuyến mới có thể đánh trực diện.'
+	R
+	'Đơn vị hậu phương chỉ đánh tầm xa. Các đơn vị'
+	R
+	'không thể đổi hàng trong trận đánh.'
+	\L_0187d:
+	ZH 1:
+	'Chiến binh: Chỉ có thể tấn công ở hàng tiền tuyến.'
+	R
+	'Cung thủ: Có thể tấn công ở cả hai hàng.'
+	R
+	'Pháp sư: Có thể tấn công ở cả hai hàng.'
+	\L_0187d:
+	ZH 1:
+	'Toàn diệt đơn vị:'
+	R
+	'Khi HP của tướng giảm về 0, toàn bộ đơn vị của'
+	R
+	'tướng đó sẽ bị tiêu diệt hoàn toàn.'
+	\L_0187d:
+	@L_0024e:
+*L_006d8:
+	ZH 1:
+	'Bạn có thể thực hiện tất cả các hành động sau một'
+	R
+	'lần trong mỗi Giai đoạn Đội quân Rance.'
+	\L_0187d:
+	ZH 1:
+	'Lệnh Tướng lĩnh:'
+	R
+	'Bổ sung lượng lớn binh lính cho một đơn vị hoặc'
+	R
+	'tăng số quân tối đa của đơn vị đó.'
+	\L_0187d:
+	ZH 1:
+	'Lệnh Tướng lĩnh:'
+	R
+	'Ngoài việc thực hiện một trong hai hành động trên,'
+	R
+	'bạn cũng có thể nói chuyện với cấp dưới.'
+	\L_0187d:
+	ZH 1:
+	'Lệnh Harem:'
+	R
+	'Gọi một cô gái từ hậu cung của Rance để mây mưa.'
+	\L_0187d:
+	ZH 1:
+	'Lệnh Thương nhân:'
+	R
+	'Gọi thương nhân Pluepet đến để mua sắm vật phẩm.'
+	\L_0187d:
+	ZH 1:
+	'Chiến tranh:'
+	R
+	'Tấn công một lãnh thổ được kết nối với lãnh thổ'
+	R
+	'của bạn bằng một con đường.'
+	\L_0187d:
+	ZH 1:
+	'Bạn có thể tấn công bao nhiêu lần tùy thích cho đến'
+	R
+	'khi chiếm được lãnh thổ đó hoặc đã dùng hết quân.'
+	\L_0187d:
+	ZH 1:
+	'Lệnh Lãnh thổ:'
+	R
+	'Lựa chọn ở các lãnh thổ (dù bạn đã kiểm soát hay'
+	R
+	'chưa). Bạn có thể làm một trong các việc sau:'
+	\L_0187d:
+	ZH 1:
+	'Địa điểm đặc biệt: Đến nơi độc nhất của khu vực.'
+	R
+	'Thu thuế tạm thời: Thu tiền trong lãnh thổ bạn.'
+	R
+	'Củng cố phòng thủ: Tăng độ phòng thủ lãnh thổ.'
+	\L_0187d:
+	ZH 1:
+	'Lệnh Mê cung:'
+	R
+	'Khám phá mê cung và các công trình đặc biệt được'
+	R
+	'kết nối với lãnh thổ của bạn.'
+	\L_0187d:
+	@L_0024e:
+*L_007e3:
+	ZH 1:
+	'Trò chơi này xoay quanh việc vào vai Rance trong'
+	R
+	'cuộc chinh phạt nhằm thâu tóm toàn bộ thế giới.'
+	\L_0187d:
+	ZH 1:
+	'Mỗi lượt tương ứng một tuần trong game. Mỗi lượt'
+	R
+	'gồm các giai đoạn theo thứ tự sau:'
+	R
+	'Giai đoạn quân Rance > Giai đoạn địch > Hết lượt'
+	\L_0187d:
+	@L_0024e:
+*L_0081b:
+	ZH 1:
+	'Một đơn vị gồm một tướng và binh lính dưới quyền.'
+	R
+	'Số quân tối đa của đơn vị dựa trên năng lực chỉ huy'
+	R
+	'của vị tướng đó.'
+	\L_0187d:
+	ZH 1:
+	'Vào đầu mỗi lượt, nếu đơn vị có ít quân hơn mức'
+	R
+	'tối đa, đơn vị đó sẽ tự động hồi một phần binh lực.'
+	\L_0187d:
+	ZH 1:
+	'Bạn cũng có thể hồi phục số lượng lớn quân bằng'
+	R
+	'cách chọn Bổ sung quân trong màn hình Tướng lĩnh,'
+	R
+	'nhưng cách này sẽ tốn tiền.'
+	\L_0187d:
+	ZH 1:
+	'Mỗi đơn vị chỉ có thể tham chiến một lần mỗi lượt.'
+	R
+	'Nếu hành động trong giai đoạn quân Rance, đơn vị đó'
+	R
+	'sẽ không thể hành động trong giai đoạn phe địch.'
+	\L_0187d:
+	@L_0024e:
+*L_0088d:
+	ZH 1:
+	'Khác với đơn vị quân, ninja cũng chỉ hành động một'
+	R
+	'lần mỗi lượt. Họ có thể do thám tin tức kẻ thù và'
+	R
+	'phá hoại các quốc gia địch.'
+	\L_0187d:
+	ZH 1:
+	'Tuy nhiên họ cũng có thể bị bắt giữ, và khi đó bạn'
+	R
+	'sẽ mất họ vĩnh viễn.'
+	\L_0187d:
+	ZH 1:
+	'Dù vậy, bạn luôn có thể do thám an toàn bằng ninja'
+	R
+	'khi quân địch đang tiến công bạn.'
+	\L_0187d:
+	@L_0024e:
+*L_008db:
+	ZH 1:
+	'Đội ngũ phát triển Kichikuou Rance'
+	\L_0187d:
+	ZH 1:
+	'Cấu trúc kịch bản／Tác giả gốc'
+	R
+	'　　　　　　　TADA'
+	\L_0187d:
+	ZH 1:
+	'Kịch bản'
+	R
+	'　　　　　　　Tori'
+	R
+	'　　　　　　　Fumya'
+	\L_0187d:
+	ZH 1:
+	'Kịch bản'
+	R
+	'　　　　　　　Moomin'
+	\L_0187d:
+	ZH 1:
+	'Thiết kế trò chơi'
+	R
+	'　　　　　　　TADA'
+	\L_0187d:
+	ZH 1:
+	'Lập trình trò chơi'
+	R
+	'　　　　　　　WAO'
+	R
+	'　　　　　　　TADA'
+	\L_0187d:
+	ZH 1:
+	'Thiết kế màn hình'
+	R
+	'　　　　　　　Purin'
+	\L_0187d:
+	ZH 1:
+	'Họa sĩ chính'
+	R
+	'　　　　　　　Masato Mutsumi'
+	R
+	'　　　　　　　MIN'
+	\L_0187d:
+	ZH 1:
+	'Họa sĩ phụ'
+	R
+	'　　　　　　　Purin'
+	R
+	'　　　　　　　Orion'
+	\L_0187d:
+	ZH 1:
+	'Họa sĩ phụ'
+	R
+	'　　　　　　　Karen'
+	R
+	'　　　　　　　YUKIMI'
+	\L_0187d:
+	ZH 1:
+	'Sprite nhân vật'
+	R
+	'　　　　　　　Fukupon'
+	R
+	'　　　　　　　Purin'
+	\L_0187d:
+	ZH 1:
+	'Sprite nhân vật'
+	R
+	'　　　　　　　Orion'
+	\L_0187d:
+	ZH 1:
+	'Sprite vật phẩm'
+	R
+	'　　　　　　　Kuribayashi'
+	\L_0187d:
+	ZH 1:
+	'Âm nhạc & Hiệu ứng âm thanh'
+	R
+	'　　　　　　　Shade'
+	\L_0187d:
+	ZH 1:
+	'Logo tựa đề'
+	R
+	'　　　　　　　Cherushii'
+	\L_0187d:
+	ZH 1:
+	'Thiết kế bối cảnh／Thế giới'
+	R
+	'　　　　　　　TADA'
+	R
+	'　　　　　　　Purin/Orion'
+	\L_0187d:
+	ZH 1:
+	'Đổ bóng'
+	R
+	'　　　　　　　Karen'
+	R
+	'　　　　　　　Oden Yoshida'
+	\L_0187d:
+	ZH 1:
+	'Đổ bóng'
+	R
+	'　　　　　　　Minoru'
+	\L_0187d:
+	ZH 1:
+	'Hỗ trợ đổ bóng'
+	R
+	'　　　　　　　Senya Kirishima'
+	\L_0187d:
+	ZH 1:
+	'Lập trình hệ thống (SYSTEM 3.5)'
+	R
+	'　　　　　　　Kazushi'
+	R
+	'　　　　　　　WAO'
+	\L_0187d:
+	ZH 1:
+	'Lập trình hệ thống (SYSTEM 3.5)'
+	R
+	'　　　　　　　Shige'
+	\L_0187d:
+	ZH 1:
+	'Hình nền'
+	R
+	'　　　　　　　Nakajii'
+	R
+	'　　　　　　　Youichirou'
+	\L_0187d:
+	ZH 1:
+	'Hình nền'
+	R
+	'　　　　　　　Mune Q'
+	\L_0187d:
+	ZH 1:
+	'Đồ họa CG'
+	R
+	'　　　　　　　K'
+	R
+	'　　　　　　　YOK'
+	\L_0187d:
+	ZH 1:
+	'Đồ họa CG'
+	R
+	'　　　　　　　Chabashira'
+	R
+	'　　　　　　　Dairagi'
+	\L_0187d:
+	ZH 1:
+	'Đồ họa CG'
+	R
+	'　　　　　　　Yuuta'
+	R
+	'　　　　　　　Oushuuran'
+	\L_0187d:
+	ZH 1:
+	'Đồ họa CG'
+	R
+	'　　　　　　　Takashi Saeki'
+	R
+	'　　　　　　　Mieshi'
+	\L_0187d:
+	ZH 1:
+	'Đồ họa CG'
+	R
+	'　　　　　　　No D!'
+	R
+	'　　　　　　　Naritaya'
+	\L_0187d:
+	ZH 1:
+	'Đồ họa CG'
+	R
+	'　　　　　　　Purin'
+	R
+	'　　　　　　　Orion'
+	\L_0187d:
+	ZH 1:
+	'Đồ họa CG'
+	R
+	'　　　　　　　Shikigami Azuma'
+	\L_0187d:
+	ZH 1:
+	'Hỗ trợ đồ họa CG'
+	R
+	'　　　　　　　Chiibou'
+	\L_0187d:
+	ZH 1:
+	'Tổng hợp ấn phẩm'
+	R
+	'　　　　　　　OKA'
+	\L_0187d:
+	ZH 1:
+	'Kinh doanh／Bán hàng'
+	R
+	'　　　　　　　Yoshitaka'
+	R
+	'　　　　　　　Fuu-chan'
+	\L_0187d:
+	ZH 1:
+	'Kinh doanh／Bán hàng'
+	R
+	'　　　　　　　Macky'
+	R
+	'　　　　　　　Coffee Kia'
+	\L_0187d:
+	ZH 1:
+	'Phần mở đầu & Demo mở đầu'
+	R
+	'　　　　　　　WAO'
+	\L_0187d:
+	ZH 1:
+	'Kết thúc + May rủi'
+	R
+	'　　　　　　　Moomin'
+	\L_0187d:
+	ZH 1:
+	'Chế độ âm nhạc'
+	R
+	'　　　　　　　Shade'
+	R
+	'　　　　　　　Chimiroimu'
+	\L_0187d:
+	ZH 1:
+	'Gỡ lỗi (Debug)'
+	R
+	'　　　　　　　Moomin'
+	R
+	'　　　　　　　Shade'
+	\L_0187d:
+	ZH 1:
+	'Gỡ lỗi (Debug)'
+	R
+	'　　　　　　　Nhiều người khác'
+	\L_0187d:
+	@L_0007f:
+*L_00cbf:
+	ZH 1:
+	'Tori 「Payoooon.'
+	R
+	'Bạn chỉ có thể nghe tiếng chứ không thấy tôi đâu.」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Đây là Tori, người viết kịch bản khiêu dâm'
+	R
+	'bẩn thỉu của Alicesoft.」'
+	\L_0187d:
+	ZH 1:
+	'Yukichi 「Caw caw.」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Này, im đi con chim. Tựa game tiếp theo'
+	R
+	'sau Kichikuou Rance là Ikenai Katsumi Sensei.」'
+	\L_0187d:
+	ZH 1:
+	'Yukichi 「Caw!!」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Ngươi lo lắng về ngày phát hành hả?'
+	R
+	'Im lặng nào con chim kia.」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Uh～～～... Chà...」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Nhân vật chính, Bác sĩ Katsumi, chính là'
+	R
+	'Bác sĩ Katsumi trong Ikenai Naika Kenshin.」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Cuộc đời táo bạo của Bác sĩ Katsumi đã'
+	R
+	'được chuyển thể thành game đấy.」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Không có mục tiêu, chỉ cần nhập vai Bác sĩ'
+	R
+	'Katsumi. Có thể coi là game phiêu lưu chăng??」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Trong game có đàn ông mặc vest, đeo kính'
+	R
+	'rẽ ngôi, thứ mà tôi rất có hứng thú.」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Không rõ bao nhiêu người biết điều này vì'
+	R
+	'game đã ngừng bán, nhưng có nhân vật Dr. Stop...」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Bác sĩ Kira cũng sẽ xuất hiện đấy.'
+	R
+	'Chà chà.」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Họa sĩ minh họa là Kazuma G Version, tác'
+	R
+	'giả minh họa của Elven Bride.」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Đặc biệt, CG dùng tới 60.000 màu sắc rực rỡ.'
+	R
+	'Vì vậy cấu hình máy sẽ hơi đòi hỏi một chút.」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Đầu tiên, máy tính phải chạy được Windows 95.」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Tiếp theo, máy phải hiển thị được 800 x 600'
+	R
+	'pixel, trên 60.000 màu và màn hình đủ tốt.」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Khuyến nghị dùng CPU Pentium 100 MHz trở'
+	R
+	'lên, và bộ nhớ RAM từ 16MB trở lên.」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Nếu dàn Pentium và RAM của bạn đủ khỏe, trải'
+	R
+	'nghiệm chơi game sẽ vô cùng mượt mà.」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Ngoài ra...'
+	R
+	'Game cũng sẽ tốn khá nhiều dung lượng đấy...」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Tôi chưa thể nói chính xác là bao nhiêu,'
+	R
+	'nhưng dù sao thì cũng sẽ tốn nhiều đấy.」'
+	\L_0187d:
+	ZH 1:
+	'Yukichi 「Caaaaaaw!!」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Ta sẽ thịt ngươi đấy, con chim kia.」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Ngoài ra, có 4 ảnh BMP mẫu CG được đính'
+	R
+	'kèm trên đĩa CD Kichikuou Rance.」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Chỉ xem nếu màn hình của bạn có khả năng'
+	R
+	'hiển thị được 60.000 màu nhé.」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Chúng nằm trong thư mục Katsumi trên đĩa CD'
+	R
+	'Kichikuou, hãy mở ra xem thử nhé.」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Giờ thì, hẹn gặp lại các bạn.'
+	R
+	'Nga, gggh.」'
+	\L_0187d:
+	ZH 1:
+	'Yukichi 「Caaaaw.」'
+	\L_0187d:
+	ZH 1:
+	'Tori 「Ngoạm.」'
+	\L_0187d:
+	@L_0007f:
+*L_00f0a:
+	ZH 1:
+	'Alicesoft cung cấp rất nhiều dịch vụ trên trang chủ'
+	R
+	'Internet của công ty.'
+	\L_0187d:
+	ZH 1:
+	'Mọi người, kể cả những ai chưa có máy tính, đều nên'
+	R
+	'tìm hiểu về Internet.'
+	\L_0187d:
+	ZH 1:
+	'Game và vật phẩm Alicesoft được bán trên trang chủ,'
+	R
+	'và cũng có cả dịch vụ hỗ trợ người dùng nữa.'
+	R
+	'Thậm chí còn có truyện tranh 4 khung của Hide-SAN.'
+	\L_0187d:
+	ZH 1:
+	'Ngoài ra còn có câu lạc bộ dành riêng cho hội viên:'
+	R
+	'“Biệt thự của Alice” (Dinh thự Alice).'
+	\L_0187d:
+	ZH 1:
+	'Tại đây bạn nhận tin tức nhanh hơn bất kỳ tạp chí'
+	R
+	'nào, kèm dịch vụ tải game độc quyền cho hội viên.'
+	\L_0187d:
+	ZH 1:
+	'Nếu quan tâm, hãy điền đơn đăng ký thành viên và'
+	R
+	'dùng ID cùng mật khẩu để vào bảng tin câu lạc bộ.'
+	\L_0187d:
+	ZH 1:
+	'...'
+	\L_0187d:
+	ZH 1:
+	'Địa chỉ URL là...'
+	\L_0187d:
+	ZH 1:
+	'http://alicesoft.co.jp'
+	\L_0187d:
+	ZH 1:
+	'À phải rồi, chúng tôi đã lập một danh sách email'
+	R
+	'mang tên “Japan Alice Party”.'
+	\L_0187d:
+	ZH 1:
+	'Email sẽ gửi thông báo mỗi khi trang chủ cập nhật.'
+	\L_0187d:
+	ZH 1:
+	'Bạn có thể đăng ký nhận email ngay trên trang chủ.'
+	\L_0187d:
+	ZH 1:
+	'Mọi người hãy đăng ký nhé.'
+	\L_0187d:
+	ZH 1:
+	'Đó là tất cả thông tin về Internet.'
+	\L_0187d:
+	@L_0007f:
+*L_01019:
+	ZH 1:
+	'Xin chào, tôi là Arunaru, người dịch tiếng Anh.'
+	R
+	'Mục này trước đây nói về Xspec, một công cụ đo'
+	R
+	'hiệu năng máy tính của bạn.'
+	\L_0187d:
+	ZH 1:
+	'Nhưng vì đã gần 20 năm kể từ ngày game ra mắt,'
+	R
+	'chắc hẳn máy tính bạn thừa sức chạy game rồi.'
+	\L_0187d:
+	ZH 1:
+	'Nên thay vào đó, tôi sẽ kể một chút về chính trò'
+	R
+	'chơi này. Có nhiều lời đồn thổi không mấy chính xác.'
+	\L_0187d:
+	ZH 1:
+	'Kichikuou Rance ban đầu phát triển là Rance 5,'
+	R
+	'nhưng giữa chừng được đổi thành game giả định'
+	R
+	'theo hướng “Sẽ ra sao nếu như...?“.'
+	\L_0187d:
+	ZH 1:
+	'Game diễn ra ở dòng thời gian thay thế tách ra'
+	R
+	'khỏi mạch truyện chính sau phần Rance 4.2.'
+	\L_0187d:
+	ZH 1:
+	'Mục tiêu là gom mọi ý tưởng chưa từng dùng trong'
+	R
+	'cả series vào cùng một game duy nhất. Trò chơi ra'
+	R
+	'mắt chính thức vào tháng 12 năm 1996.'
+	\L_0187d:
+	ZH 1:
+	'Tựa game thành công vang dội đối với một eroge,'
+	R
+	'tiếp tục bán chạy suốt cả thập kỷ và luôn giữ vị'
+	R
+	'trí cao trên các bảng xếp hạng tạp chí nhiều năm.'
+	\L_0187d:
+	ZH 1:
+	'Game đã bán được khoảng 75.000 bản vào cuối năm 1997'
+	R
+	'và ước tính vượt mốc 100.000 bản tất cả. Trò chơi'
+	R
+	'được phát hành miễn phí kể từ năm 2006.'
+	\L_0187d:
+	ZH 1:
+	'Dù các phần Rance sau này đi theo hướng đi khác,'
+	R
+	'chúng vẫn chịu ảnh hưởng sâu sắc và liên tục tái'
+	R
+	'xuất các nhân vật cùng sự kiện từ phần game này.'
+	\L_0187d:
+	ZH 1:
+	'Một chi tiết thú vị nữa là tựa game này gần như rất'
+	R
+	'ít khi được gỡ lỗi hay hiệu đính do tính ngẫu nhiên.'
+	\L_0187d:
+	ZH 1:
+	'Tôi đã sửa nhiều lỗi và giữ lại một số khác vì chúng'
+	R
+	'khá vui. Điều quan trọng nhất là hiện nay tất cả các'
+	R
+	'vật phẩm đều hoạt động đúng như mô tả.'
+	\L_0187d:
+	@L_0007f:
+	]
+	\L_0188a:
+	@L_0007f:
+*L_0114e:
+	\L_0188a:
+	ZH 1:
+	'Các nhân vật được yêu thích nhất dựa trên cuộc bình'
+	R
+	'chọn mà Alicesoft tiến hành năm 1997 như sau:'
+	\L_0187d:
+	EC 0:
+	J0 0, 294:
+	G 815:
+	ZH 1:
+	'Hạng 20: Silky Littleraisin'
+	J0 224, 20:
+	G 73:
+	\L_0187d:
+	ZH 1:
+	'Hạng 19: Sheila Helman'
+	J0 224, 20:
+	G 18:
+	\L_0187d:
+	ZH 1:
+	'Hạng 18: Nikkou'
+	J0 224, 20:
+	G 34:
+	\L_0187d:
+	ZH 1:
+	'Hạng 17: Hornet'
+	J0 224, 20:
+	G 35:
+	\L_0187d:
+	ZH 1:
+	'Hạng 16: Arlcoate Marius'
+	J0 224, 20:
+	G 77:
+	\L_0187d:
+	ZH 1:
+	'Hạng 15: Pastel Kalar'
+	J0 224, 20:
+	G 41:
+	\L_0187d:
+	ZH 1:
+	'Hạng 14: Miki Kurusu'
+	J0 224, 20:
+	G 54:
+	\L_0187d:
+	ZH 1:
+	'Hạng 13: Annis Sawatari'
+	J0 224, 20:
+	G 52:
+	\L_0187d:
+	ZH 1:
+	'Hạng 12: Ragnarokarc Super Gandhi'
+	J0 224, 20:
+	G 42:
+	\L_0187d:
+	ZH 1:
+	'Hạng 11: Reset Kalar'
+	J0 224, 20:
+	G 96:
+	\L_0187d:
+	ZH 1:
+	'Hạng 10: Eleanor Ran'
+	J0 224, 20:
+	G 66:
+	\L_0187d:
+	ZH 1:
+	'Hạng 9: Menad Shisei'
+	J0 224, 20:
+	G 8:
+	\L_0187d:
+	ZH 1:
+	'Hạng 8: Sill Plain'
+	J0 224, 20:
+	G 2:
+	\L_0187d:
+	ZH 1:
+	'Hạng 7: Shizuka Masou'
+	J0 224, 20:
+	G 49:
+	\L_0187d:
+	ZH 1:
+	'Hạng 6: Satella'
+	J0 224, 20:
+	G 75:
+	\L_0187d:
+	ZH 1:
+	'Hạng 5: Maris Amaryllis'
+	J0 224, 20:
+	G 6:
+	\L_0187d:
+	ZH 1:
+	'Hạng 4: Kanami Kentou'
+	J0 224, 20:
+	G 9:
+	\L_0187d:
+	ZH 1:
+	'Hạng 3: Maria Custard'
+	J0 224, 20:
+	G 50:
+	\L_0187d:
+	ZH 1:
+	'Hạng 2: Rance'
+	J0 224, 20:
+	G 1:
+	\L_0187d:
+	ZH 1:
+	'Hạng nhất: Isoroku Yamamoto'
+	J0 224, 20:
+	G 24:
+	\L_0187d:
+	ZH 1:
+	'Để so sánh, top 20 của người dịch tiếng Anh như sau:'
+	\L_0187d:
+	ZH 1:
+	'Hạng 20: Miki Kurusu'
+	J0 224, 20:
+	G 54:
+	\L_0187d:
+	ZH 1:
+	'Hạng 19: Mineva Margaret'
+	J0 224, 20:
+	G 427:
+	\L_0187d:
+	ZH 1:
+	'Hạng 18: Maria Custard'
+	J0 224, 20:
+	G 50:
+	\L_0187d:
+	ZH 1:
+	'Hạng 17: Papaya Server'
+	J0 224, 20:
+	G 44:
+	\L_0187d:
+	ZH 1:
+	'Hạng 16: Silky Littleraisin'
+	J0 224, 20:
+	G 73:
+	\L_0187d:
+	ZH 1:
+	'Hạng 15: Leila Grecni'
+	J0 224, 20:
+	G 7:
+	\L_0187d:
+	ZH 1:
+	'Hạng 14: Cafe Artful'
+	J0 224, 20:
+	G 87:
+	\L_0187d:
+	ZH 1:
+	'Hạng 13: Lia Parapara Leazas'
+	J0 224, 20:
+	G 5:
+	\L_0187d:
+	ZH 1:
+	'Hạng 12: Maris Amaryllis'
+	J0 224, 20:
+	G 6:
+	\L_0187d:
+	ZH 1:
+	'Hạng 11: Annis Sawatari'
+	J0 224, 20:
+	G 52:
+	\L_0187d:
+	ZH 1:
+	'Hạng 10: Magic the Gandhi'
+	J0 224, 20:
+	G 58:
+	\L_0187d:
+	ZH 1:
+	'Hạng 9: Nagi su Ragarl'
+	J0 224, 20:
+	G 45:
+	\L_0187d:
+	ZH 1:
+	'Hạng 8: Milli Yorks'
+	J0 224, 20:
+	G 67:
+	\L_0187d:
+	ZH 1:
+	'Hạng 7: Arlcoate Marius'
+	J0 224, 20:
+	G 77:
+	\L_0187d:
+	ZH 1:
+	'Hạng 6: Menad Shisei'
+	J0 224, 20:
+	G 8:
+	\L_0187d:
+	ZH 1:
+	'Hạng 5: Kanami Kentou'
+	J0 224, 20:
+	G 9:
+	\L_0187d:
+	ZH 1:
+	'Hạng 4: Satella'
+	J0 224, 20:
+	G 75:
+	\L_0187d:
+	ZH 1:
+	'Hạng 3: Ragnarokarc Super Gandhi'
+	J0 224, 20:
+	G 42:
+	\L_0187d:
+	ZH 1:
+	'Hạng 2: Shizuka Masou'
+	J0 224, 20:
+	G 49:
+	\L_0187d:
+	ZH 1:
+	'Hạng nhất: Rance'
+	J0 224, 20:
+	G 1:
+	\L_0187d:
+	G 240:
+	@L_0007f:
+	\L_0188a:
+	ZH 1:
+	'Hiệu ứng âm thanh khi giao chiến sử dụng Stereo.'
+	R
+	'Nếu hỗ trợ Stereo, âm thanh sẽ vô cùng sống động.'
+	\L_0187d:
+	ZH 1:
+	'Nếu máy chỉ hỗ trợ Mono, chương trình sẽ tự động hòa'
+	R
+	'âm hai kênh trái phải để chuyển đổi sang Mono.'
+	\L_0187d:
+*L_015e3:
+	\L_01870:
+	EC 0:
+	CB 0, 0, 640, 400, 255:
+	CB 320 - 64, 200 - 64, 64 * 2, 64 * 2, 255:
+	CB 320 - 96, 200 - 96, 96 * 2, 96 * 2, 255:
+	CB 320 - 128, 200 - 128, 128 * 2, 128 * 2, 255:
+	CB 320 - 160, 200 - 160, 160 * 2, 160 * 2, 255:
+	CL 320 - 64, 200 - 64, 320 + 63, 200 + 63, 255:
+	CL 320 + 63, 200 - 64, 320 - 64, 200 + 63, 255:
+	IK 0:
+	EC 0:
+	G 806:
+	G 240:
+	SS 28:
+	\L_01838:
+	@L_0007f:
+*L_016c0:
+	SS 0:
+	\L_01870:
+	CF 0, 0, 640, 400, 0:
+	!VAR0516 : 3!
+	%#WAO_MAP.ADV:
+	\L_01838:
+	G 104:
+	ZH 1:
+	'Rance（Ta sẽ giết sạch lũ chúng nó…）'
+	Y 3, 120:
+	\L_0188a:
+	ZH 1:
+	'Rance（Ta sẽ giết sạch các ngươi, lũ Helman!'
+	R
+	'       Các ngươi dám làm thế này với ta sao?!!!）'
+	Y 3, 180:
+	\L_0188a:
+	ZH 1:
+	'Rance tiếp tục chạy thục mạng.'
+	Y 3, 180:
+	\L_0188a:
+	ZH 1:
+	'Rance 「Khốn khiếpppppp!!!!!」'
+	%#ｵｰﾌﾟﾆﾝｸﾞ.ADV:
+	EC 0:
+	G 806:
+	G 240:
+	SS 28:
+	\L_01838:
+	@L_0007f:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01838:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01870:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0187d:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0188a:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

@@ -1,0 +1,6398 @@
+	{VAR0520 = 1:
+		@L_00434:
+	}
+	{VAR0520 = 2:
+		@L_060ce:
+	}
+	{VAR0520 = 3:
+		@L_06447:
+	}
+	{VAR0520 = 4:
+		@L_000eb:
+	}
+	{VAR0520 = 5:
+		@L_0028a:
+	}
+	{VAR0520 = 10:
+		@L_003d5:
+	}
+	{VAR0520 = 20:
+		@L_0038f:
+	}
+	{VAR0520 = 300:
+		@L_06bbd:
+	}
+	{VAR0520 = 301:
+		@L_01c24:
+	}
+	{VAR0520 = 302:
+		@L_02d4d:
+	}
+*L_000eb:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : VAR0135!
+	\L_072a8:
+	\L_071e4:
+	ZH 1:
+	'Miền Bắc'
+	R
+	R
+	'Gô-li-át T2'
+	\L_072d1:
+	\L_072c4:
+	!VAR0154 : 16!
+	{VAR0102 = 0:
+		\L_071e4:
+		ZH 1:
+		'Không có Maria, mục'
+		R
+		'tiêu của Tulip 2 Goliath'
+		R
+		'không thể thay đổi được.'
+		\L_072d1:
+		\L_072c4:
+		!VAR0516 : 1!
+		\L_07200:
+		\L_071ac:
+		ZH 1:
+		'Không có Maria, thứ này'
+		R
+		'chỉ là một khối kim loại…'
+		\L_072d1:
+		\L_072c4:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	!VAR0516 : 1!
+	\L_07200:
+	!VAR0516 : 50!
+	\L_07270:
+	!VAR0158 : VAR0758!
+	MM 8, VAR0200 + VAR0158 - 1:
+	\L_0721c:
+	ZH 1:
+	'À, Rance.'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Maria quay lại từ công việc'
+	R
+	'bảo trì trên Tulip 2 Goliath'
+	R
+	'để đối mặt với Rance.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Tôi đoán là cậu'
+	R
+	'muốn thay đổi mục tiêu'
+	R
+	'của Goliath phải không?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Đúng vậy.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Nó hiện đang nhắm mục tiêu'
+	R
+	X 8:
+	'... Cậu muốn'
+	R
+	'đổi nó sang đâu?'
+	\L_072d1:
+	ZH 1:
+	'Chỉ cần cho tôi biết'
+	R
+	'mục tiêu là thành phố nào.'
+	\L_072d1:
+	\L_072c4:
+	!VAR0485 : 2!
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0028a:
+	!VAR0758 : VAR0158!
+	!VAR0485 : 0!
+	MM 8, VAR0200 + VAR0158 - 1:
+	!VAR0516 : VAR0135!
+	\L_072a8:
+	!VAR0516 : 1!
+	\L_07200:
+	!VAR0516 : 50!
+	\L_07270:
+	\L_0721c:
+	ZH 1:
+	'Sau đó Goliath sẽ'
+	R
+	'được đặt làm mục tiêu'
+	X 8:
+	'.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ừm, nghe hay đấy.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Chỉ một lần một tuần, nếu'
+	R
+	'cậu tấn công thành phố mục'
+	R
+	'tiêu, Goliath sẽ hỗ trợ cậu.'
+	\L_072d1:
+	ZH 1:
+	'Hãy mong chờ nó.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Chỉ một lần thôi...?'
+	R
+	'Thật là một mảnh chết tiệt.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Ppth... Không phải'
+	R
+	'vậy... Thậm chí chừng'
+	R
+	'đó cũng là tuyệt vời.'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0038f:
+	{VAR0426 > 5:
+		@L_00580:
+	}
+	{VAR0428 = 0:
+		@L_006cc:
+	}
+	{(VAR0426 \ 0) * (VAR0428 = 1):
+		@L_03b2e:
+	}
+	@L_00aec:
+*L_003d5:
+	{VAR0426 = 6:
+		@L_029e8:
+	}
+	{VAR0426 > 6:
+		@L_03457:
+	}
+	{(VAR0426 = 1) * (VAR0428 \ 0):
+		@L_0162a:
+	}
+	{(VAR0426 = 0) + (VAR0428 = 0):
+		@L_013d1:
+	}
+	@L_02210:
+*L_00434:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1039!
+	\L_072a8:
+	!VAR0516 : 1!
+	\L_07200:
+	\L_071e4:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Viện nghiên cứu công'
+	R
+	'nghệ Rance đi vào trong.'
+	\L_072d1:
+	\L_072c4:
+	\L_071c8:
+	ZH 1:
+	'Nơi này có một lỗ nhìn'
+	R
+	'trộm vào phòng thay đồ được'
+	\L_072d1:
+	ZH 1:
+	'bí mật bổ sung trong'
+	R
+	'giai đoạn lập kế hoạch.'
+	\L_072d1:
+	ZH 1:
+	'Hehe.'
+	\L_072d1:
+	\L_072c4:
+*L_004ca:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_004ca:
+	}
+	ZH 1:
+	$L_00567$
+	'Gặp Maria'
+	$
+	R
+	$L_06677$
+	'Sử dụng lỗ nhìn trộm'
+	$
+	R
+	$L_00515$
+	'Rời khỏi cơ sở'
+	$
+	]
+	@L_004ca:
+*L_00515:
+	\L_071c8:
+	ZH 1:
+	'Tôi xong việc ở đây'
+	R
+	'rồi. Tôi sẽ quay lại'
+	R
+	'và ăn kem hay gì đó.'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance rời khỏi cơ'
+	R
+	'sở nghiên cứu công nghệ.'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_00567:
+	{VAR0428 = 2:
+		@L_03f32:
+	}
+	@L_0411e:
+*L_00580:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1002!
+	\L_072a8:
+	!VAR0516 : 1!
+	\L_07200:
+	!VAR0516 : 50!
+	\L_07270:
+	\L_071e4:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng ngủ của Rance'
+	R
+	'Chuyện gì vậy, Rance?'
+	\L_072d1:
+	ZH 1:
+	'Tại sao ngươi lại gọi'
+	R
+	'cho tôi muộn thế này?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Không có lý'
+	R
+	'do cụ thể nào cả, ta'
+	R
+	'chỉ thấy chán thôi.'
+	\L_072d1:
+	ZH 1:
+	'Muốn chơi bài hay'
+	R
+	'gì đó không? Người'
+	R
+	'thua cởi quần áo.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'A... Đồ biến'
+	R
+	'thái! Tôi sẽ không chơi'
+	R
+	'một trò chơi như thế!'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'（sụp đổ）'
+	\L_072d1:
+	\L_072c4:
+	\L_0727e:
+	\L_07254:
+	ZH 1:
+	'Maria nổi điên'
+	R
+	'và rời khỏi phòng.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'... Khập'
+	R
+	'khiễng. Chết tiệt,'
+	R
+	'chết tiệt, chết tiệt...'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_006cc:
+	!VAR0428 : 1!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_072a8:
+	!VAR0516 : 1!
+	\L_07200:
+	\L_071e4:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng yết kiến'
+	R
+	'Rance đang đợi Maria.'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 50!
+	\L_07270:
+	\L_0721c:
+	ZH 1:
+	'Haah... Xin lỗi, tôi'
+	R
+	'mất quá nhiều thời gian.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Cô thực sự đến'
+	R
+	'muộn. Cô đang làm gì vậy?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Tôi đang bận nhiều việc.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Chẳng hạn như?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Tại sao tôi phải'
+	R
+	'nói cho cậu biết?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ta là Vua. Ta'
+	R
+	'có quyền biết mọi thứ.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Tôi không'
+	R
+	'biết về điều đó.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ặc... Cô gái đáng ghét.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'.............'
+	\L_072d1:
+	ZH 1:
+	'... Rance... Tôi có thể'
+	R
+	'hỏi cậu một điều được không?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Cái gì?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Tại sao cậu lại'
+	R
+	'trở thành Vua của Leazas?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Bởi vì ta tuyệt vời.'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance hắng giọng'
+	R
+	'và ra vẻ quan trọng.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Không phải vậy...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Cái gì, cô không'
+	R
+	'nghĩ ta tuyệt vời sao?!'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Không, ý tôi'
+	R
+	'không phải vậy...'
+	\L_072d1:
+	ZH 1:
+	'Điều tôi'
+	R
+	'muốn nói là, tại sao cô lại'
+	R
+	'kết hôn với Nữ hoàng Lia...?'
+	\L_072d1:
+	ZH 1:
+	'Cậu có thực sự yêu'
+	R
+	'Nữ hoàng Lia không, Rance?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'... Hooooh...'
+	R
+	'Cô ghen tị à?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'K-Không!!'
+	\L_072d1:
+	ZH 1:
+	'Tôi chỉ... cảm'
+	R
+	'thấy có lỗi với Sill...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'... Nàng là một nô lệ.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Rance!'
+	\L_072d1:
+	ZH 1:
+	'Ngh... Thôi, sao cũng'
+	R
+	'được. Ừ... Tôi không phải'
+	R
+	'nơi để nói bất cứ điều gì...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Maria... Cô muốn nói gì'
+	R
+	'vậy? Ta thực sự không hiểu.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Sao cũng được, trời ạ.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Được rồi. Vậy từ giờ'
+	R
+	'trở đi, hãy làm việc chăm'
+	R
+	'chỉ nhất có thể vì ta nhé.'
+	\L_072d1:
+	ZH 1:
+	'Hiểu rồi?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Chắc chắn rồi,'
+	R
+	'chắc chắn rồi.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Trả lời ta 3 lần.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Chắc chắn rồi.'
+	\L_072d1:
+	\L_072c4:
+	\L_0727e:
+	\L_07254:
+	ZH 1:
+	'Maria bực tức bỏ đi.'
+	\L_072d1:
+	\L_072c4:
+	\L_071c8:
+	ZH 1:
+	'Hmmm... Có lẽ chỉ một'
+	R
+	'lần thôi sẽ tốt hơn...'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_00aec:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_072a8:
+	!VAR0516 : 1!
+	\L_07200:
+	\L_071e4:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng yết kiến'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 50!
+	\L_07270:
+	\L_0721c:
+	ZH 1:
+	'Cậu đã gọi à, Rance?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Vấn đề là ta có'
+	R
+	'điều này muốn hỏi cô.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Cái gì?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ta đang đọc cuốn sách khó'
+	R
+	'này, và có một từ ta không'
+	R
+	'biết. Đây, hãy nhìn xem.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Hừ, không thấy cậu thường'
+	R
+	'xuyên đọc những cuốn sách'
+	R
+	'khó. Tôi sẽ nhìn, nó ở đâu?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Đây.'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Maria lén nhìn cuốn sách.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Hả...?'
+	\L_072d1:
+	ZH 1:
+	'Cái này...?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Vâng, cái này. Làm'
+	R
+	'thế nào để cô nói nó?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'À... Ừm...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Cái gì, cô'
+	R
+	'không biết à? Cô thật ngu'
+	R
+	'ngốc. Ôi thật là thất vọng.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'T-tôi có thể'
+	R
+	'đọc được nó! N-Nhưng...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Vậy thì làm đi!'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Ưu...!'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Maria đỏ mặt.'
+	\L_072d1:
+	\L_072c4:
+	Y 4, 5:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		\L_0721c:
+		ZH 1:
+		'Tôi sẽ làm vậy!'
+		R
+		'Tôi sẽ đọc nó! N-Nó'
+		R
+		'nói... kẻ quấy rối!!'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Và điều đó có nghĩa là gì?'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Cậu biết nó'
+		R
+		'nghĩa là gì mà, Rance!'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Không, ta không'
+		R
+		'biết, hãy nói cho ta biết.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'... Một kẻ xấu'
+		R
+		'làm chuyện tình dục...!!'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Chi tiết hơn.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Uh... Ừm... Giống'
+		R
+		'như, một người chạm vào mông'
+		R
+		'cậu ở những nơi chật hẹp...'
+		\L_072d1:
+		ZH 1:
+		'Hoặc ngực của cậu...'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Hả, thế này à?'
+		\L_072d1:
+		\L_072c4:
+		\L_071e4:
+		ZH 1:
+		'（chạm）'
+		\L_072d1:
+		ZH 1:
+		'Rance chạm vào mông Maria.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Kyah, đồ biến thái!!'
+		R
+		'Cậu đang làm gì thế?!!'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Gahahahaha!'
+		\L_072d1:
+		\L_072c4:
+	}
+	{VAR0690 = 2:
+		\L_0721c:
+		ZH 1:
+		'... Phòng thí nghiệm-...'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Không thể nghe thấy'
+		R
+		'cô. Hãy nói to hơn!'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'L-Môi bé...'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Nó có nghĩa là gì?'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Đ-Nó có nghĩa là...'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Kể chi tiết'
+		R
+		'cho ta nghe đi.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Cậu...'
+		\L_072d1:
+		ZH 1:
+		'Cậu nên biết nhiều hơn'
+		R
+		'tôi về tất cả những cô gái'
+		R
+		'mà cậu tấn công, đồ ngốc!'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Gahahahaha!'
+		\L_072d1:
+		\L_072c4:
+	}
+	{VAR0690 = 3:
+		\L_0721c:
+		ZH 1:
+		'... Xác thịt.'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Cái gì? Đó là cái gì vậy?'
+		\L_072d1:
+		\L_072c4:
+		\L_07238:
+		ZH 1:
+		'Cậu biết nó là'
+		R
+		'gì rồi... Trời ạ...'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Maaaaaaaaaaria. Hãy cho ta'
+		R
+		'biết nó có ý nghĩa gì. Chắc'
+		R
+		'bạn học giỏi lắm phải không?'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'............'
+		\L_072d1:
+		ZH 1:
+		'Đó là một từ'
+		R
+		'chỉ cảm xúc tình dục.'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Điều đó quá phức tạp.'
+		R
+		'Giải thích nó đơn giản hơn.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'............'
+		\L_072d1:
+		ZH 1:
+		'Khi cậu chạm vào dương vật'
+		R
+		'của mình hoặc đặt nó vào một'
+		R
+		'cô gái, đó là cảm giác đó.'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Con gái không'
+		R
+		'nên nói dương vật. Điều'
+		R
+		'đó thật không đứng đắn.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Anh hỏi tôi điều này ngay'
+		R
+		'từ đầu là vì muốn tôi nói'
+		R
+		'điều gì đó không đứng đắn!'
+		\L_072d1:
+		ZH 1:
+		'Nếu cậu không'
+		R
+		'muốn thì đừng hỏi tôi'
+		R
+		'những điều như thế này!!'
+		\L_072d1:
+		\L_072c4:
+		\L_07254:
+		ZH 1:
+		'） bash）'
+		\L_072d1:
+		ZH 1:
+		'Maris lấy'
+		R
+		'cuốn sách Rance đang cầm'
+		R
+		'và đẩy nó vào mặt anh.'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Ôi!'
+		\L_072d1:
+		\L_072c4:
+	}
+	{VAR0690 = 4:
+		\L_0721c:
+		ZH 1:
+		'............'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Có chuyện gì vậy?'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'............'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Cái gì, không'
+		R
+		'đọc được à? Thế thì ta sẽ'
+		R
+		'làm vậy. Nó nói âm đạo.'
+		\L_072d1:
+		ZH 1:
+		'Nó có nghĩa là nơi khiến'
+		R
+		'siêu vũ khí của ta hạnh'
+		R
+		'phúc. Có nghĩa là, Maria...'
+		\L_072d1:
+		ZH 1:
+		'quan hệ tình'
+		R
+		'dục với ta và...'
+		\L_072d1:
+		\L_072c4:
+		\L_07254:
+		ZH 1:
+		'（tát）'
+		\L_072d1:
+		ZH 1:
+		'Maria tát vào mặt Rance.'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'C-Anh đang làm gì vậy?!!'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Rõ ràng là tôi có thể'
+		R
+		'đọc được, ai cũng có thể!'
+		\L_072d1:
+		ZH 1:
+		'Đừng ngu ngốc! Cậu'
+		R
+		'phải là một vị vua!'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Điều đó không liên'
+		R
+		'quan gì đến chuyện này.'
+		\L_072d1:
+		\L_072c4:
+	}
+	{VAR0690 = 5:
+		\L_0721c:
+		ZH 1:
+		'N-Nó nói quy đầu!'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Đó là gì?'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Ờ...'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Maaaaaaaaariiiiiiiaaaaaa'
+		R
+		'aa. Cô sẽ không'
+		R
+		'nói cho ta biết à?'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Đ-Ngốc quá!!'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Hmhmhmmmm.'
+		\L_072d1:
+		\L_072c4:
+	}
+	\L_0721c:
+	ZH 1:
+	'Trời ạ, tôi'
+	R
+	'không biết! Cậu đang lãng'
+	R
+	'phí thời gian của tôi.'
+	\L_072d1:
+	ZH 1:
+	'Tôi phải làm'
+	R
+	'thêm hoa Tulip 1...'
+	\L_072d1:
+	ZH 1:
+	'Ngu ngốc, ngu ngốc, ngu'
+	R
+	'ngốc! Tôi ghét cậu, Rance!'
+	\L_072d1:
+	\L_072c4:
+	\L_0727e:
+	\L_07254:
+	ZH 1:
+	'Maria đỏ mặt và'
+	R
+	'rời khỏi ngai vàng.'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_013d1:
+	!VAR0426 : 1!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1002!
+	\L_072a8:
+	!VAR0516 : 1!
+	\L_07200:
+	\L_071e4:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng ngủ của Rance Ừ...'
+	R
+	'Đã lâu rồi tôi chưa quan'
+	R
+	'hệ tình dục với Maria...'
+	\L_072d1:
+	ZH 1:
+	'Làm gì thì tốt với cô...?'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'（cốc cốc cốc...）'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Mhm, ta cho phép cô vào.'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 50!
+	\L_07270:
+	\L_0721c:
+	ZH 1:
+	'Chuyện gì vậy,'
+	R
+	'Rance...? Đã muộn rồi...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Điều đó là'
+	R
+	'hiển nhiên. Xem xét mối'
+	R
+	'quan hệ của chúng ta.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Đ-Chúng ta yêu'
+	R
+	'nhau từ khi nào vậy?!!'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Vâng. Maria, anh'
+	R
+	'sẽ làm tình với em. Cô đang'
+	R
+	'phục vụ nhà vua. Gahahahaha!'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Không.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Cái gì?!'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Tại sao tôi phải'
+	R
+	'quan hệ tình dục với cậu?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Bởi vì ta là Vua'
+	R
+	'và ngươi là cấp dưới của ta.'
+	R
+	'Đó là một quy luật tự nhiên.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Đó không phải'
+	R
+	'là điều tự nhiên. Đồ'
+	R
+	'ngốc... tôi ghét cậu.'
+	\L_072d1:
+	\L_072c4:
+	\L_0727e:
+	\L_07254:
+	ZH 1:
+	'Maria rời'
+	R
+	'khỏi phòng Rance.'
+	\L_072d1:
+	\L_072c4:
+	\L_071c8:
+	ZH 1:
+	'... Tại sao'
+	R
+	'bây giờ nàng lại hành'
+	R
+	'động như thế này...?'
+	\L_072d1:
+	ZH 1:
+	'Ta đã quan hệ'
+	R
+	'với nàng mấy lần rồi, nàng'
+	R
+	'còn ngại ngùng không? Hừm...'
+	\L_072d1:
+	ZH 1:
+	'khập khiễng.'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0162a:
+	!VAR0426 : 2!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1002!
+	\L_072a8:
+	!VAR0516 : 1!
+	\L_07200:
+	\L_071e4:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng ngủ của'
+	R
+	'Rance Trên giường,'
+	\L_072d1:
+	ZH 1:
+	'Rance đang ngồi khoanh'
+	R
+	'tay và vẻ mặt phức tạp.'
+	\L_072d1:
+	\L_072c4:
+	\L_071c8:
+	ZH 1:
+	'Maria không nghe'
+	R
+	'khi ta bảo nàng quan'
+	R
+	'hệ tình dục với ta...'
+	\L_072d1:
+	ZH 1:
+	'Đây là một'
+	R
+	'vấn đề nghiêm trọng.'
+	\L_072d1:
+	ZH 1:
+	'Hôm nay ta đã'
+	R
+	'gọi lại cho nàng, nhưng...'
+	\L_072d1:
+	ZH 1:
+	'Nếu ta chỉ gọi nàng một'
+	R
+	'cách bình thường thì nàng sẽ'
+	\L_072d1:
+	ZH 1:
+	'không làm gì khác'
+	R
+	'ngoài việc chống cự…'
+	\L_072d1:
+	ZH 1:
+	'Ta có nên'
+	R
+	'cưỡng hiếp nàng không?'
+	\L_072d1:
+	ZH 1:
+	'Nếu chúng ta làm điều đó'
+	R
+	'một lần, ta chắc chắn rằng'
+	R
+	'nàng sẽ tiếp tục quay lại.'
+	\L_072d1:
+	ZH 1:
+	'Maria là loại con'
+	R
+	'gái như vậy. Huhuhuhu.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Được rồi, nếu đó'
+	R
+	'là kế hoạch thì...'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance đứng dậy và'
+	R
+	'tắt đèn trong phòng.'
+	\L_072d1:
+	\L_072c4:
+	EC 0:
+	SS 0:
+	\L_071e4:
+	ZH 1:
+	'（pah）'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Đúng, tối đen'
+	R
+	'như mực... Bây giờ hãy đợi'
+	R
+	'Maria... Heeheeheeheehee...'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'（cốc cốc cốc）'
+	\L_072d1:
+	\L_072c4:
+	\L_071c8:
+	ZH 1:
+	'Ồ, nàng đây rồi...'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance ép mình vào bức'
+	R
+	'tường đối diện với cánh cửa.'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 50!
+	\L_07270:
+	\L_0721c:
+	ZH 1:
+	'Rance, cho dù cậu'
+	R
+	'có gọi cho tôi bao nhiêu'
+	R
+	'lần đi chăng nữa, tôi...'
+	\L_072d1:
+	ZH 1:
+	'Ủa, sao trời tối thế?'
+	\L_072d1:
+	\L_072c4:
+	\L_071c8:
+	ZH 1:
+	'Keeheeheeheehee...'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Rance?? Hả?'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Maria bước'
+	R
+	'một bước vào căn phòng tối,'
+	R
+	'trông có vẻ không thoải mái.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Hắn không có ở'
+	R
+	'đây sao? Trời ạ, gọi'
+	R
+	'cho tôi rồi bỏ đi...'
+	\L_072d1:
+	ZH 1:
+	'............'
+	\L_072d1:
+	ZH 1:
+	'Chạy đua...'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Ngay khi Maria lẩm'
+	R
+	'bẩm điều đó với chính mình,'
+	R
+	'chuyện gì đó đã xảy ra.'
+	\L_072d1:
+	ZH 1:
+	'（sụp đổ）'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Này!?'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Cánh cửa đột'
+	R
+	'nhiên đóng lại.'
+	\L_072d1:
+	ZH 1:
+	'Rance đóng nó lại,'
+	R
+	'nhưng với Maria, người nghĩ'
+	R
+	'rằng anh không có ở đó...'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Hả...? Đó là ai!?'
+	R
+	'Có ai ở đây không!?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ôi trời!!'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Kyaaah!!'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ngồi yên!!'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Kyaaaaaah!!'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance sử dụng bóng'
+	R
+	'tối, ngụy trang giọng nói'
+	R
+	'của mình và tấn công Maria.'
+	\L_072d1:
+	\L_072c4:
+	EC 0:
+	G 806:
+	!VAR0248 : 6!
+	\L_0728c:
+	ZH 1:
+	'Maria 「Khônggggggg!! Đừng chạm vào tôi!! 」'
+	\L_072d1:
+	ZH 1:
+	'Maria dồn hết sức lực để cố gắng'
+	R
+	'thoát khỏi kẻ hiếp dâm (Rance).'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Gugeheeeheeeheeeh! Mông đẹp quá!!」'
+	\L_072d1:
+	ZH 1:
+	'Tay của kẻ hiếp dâm (Rance) xoa'
+	R
+	'mông Maria qua quần áo của cô.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Xin chào...!!」'
+	\L_072d1:
+	ZH 1:
+	'Cơ thể Maria căng thẳng hơn.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「K-Không!! Cứu tôi với, Rance! 」'
+	\L_072d1:
+	ZH 1:
+	'Kẻ hiếp dâm (Rance) đã cưỡng bức quần áo'
+	\L_072d1:
+	ZH 1:
+	'của Maria và xoa bóp ngực cô một cách thô bạo.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Kh... Không!! Cứu'
+	R
+	'tôi với... Rance... Rance!!」'
+	\L_072d1:
+	ZH 1:
+	'Maria đánh vào đầu kẻ hiếp dâm (Rance) và vùng'
+	\L_072d1:
+	ZH 1:
+	'vẫy nhưng cô không thể thoát khỏi tay hắn.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Hiin... Tôi không thích điều'
+	R
+	'này...!! Rance... Cứu tôi... Rance!」'
+	\L_072d1:
+	SS 0:
+	G 190:
+	SS 24:
+	ZH 1:
+	'（nhấp chuột）'
+	\L_072d1:
+	ZH 1:
+	'Đèn bật sáng.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Hả...?」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Ta đến để cứu cô, công chúa của ta.」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Hả...?」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Ồ, đừng ngại. Em có'
+	R
+	'yêu ta nhiều đến vậy không? 」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Em đã nhiều lần gọi'
+	R
+	'tên ta một cách khao khát ...」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Ưu...」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Ngu ngốc, ngu ngốc,'
+	\L_072d1:
+	ZH 1:
+	'ngu ngốc!! Tại sao ngươi làm điều'
+	R
+	'đó...? Hick...」 tôi thực sự sợ hãi...!!'
+	\L_072d1:
+	ZH 1:
+	'」'
+	\L_072d1:
+	ZH 1:
+	'Maria vùi mặt vào ngực Rance và bắt đầu khóc lớn.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À...」'
+	\L_072d1:
+*L_01c24:
+	ZH 1:
+	'Rance xé quần áo nhiều hơn.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Bởi vì em muốn quan hệ tình'
+	R
+	'dục với ta nhưng lại kiềm chế.」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Tôi... không...」'
+	\L_072d1:
+	ZH 1:
+	'Trong cuộc tranh luận của họ,'
+	R
+	'Rance đã cởi áo và quần của Maria.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Này...」'
+	\L_072d1:
+	ZH 1:
+	'Nhấc mông lên. Nếu không thì tôi'
+	R
+	'thậm chí còn không thể cởi được'
+	\L_072d1:
+	ZH 1:
+	'quần của ngươi chứ đừng'
+	R
+	'nói đến quần lót của ngươi.'
+	\L_072d1:
+	ZH 1:
+	'」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「... Không...」'
+	\L_072d1:
+	ZH 1:
+	'Mặc dù nói vậy nhưng Maria'
+	R
+	'hơi ngẩng đầu lên một chút.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Hmph... Nghe này, em là'
+	R
+	'người phụ nữ của anh. Đừng quên.」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Dù ta là một chiến binh'
+	R
+	'bình thường hay một vị vua thì'
+	\L_072d1:
+	ZH 1:
+	'ta vẫn là một người như」 vậy. Hiểu chưa?」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「V-Ừ... Nhưng... Chuyện đó'
+	R
+	'thì liên quan gì tới chuyện này...?」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Im lặng đi.」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À...!!」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Cái gì, ướt rồi à? Mặc'
+	R
+	'dù cô đã la hét rất nhiều...」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「B-Bởi vì... Khi tôi biết đó là cậu...」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Khi cô biết đó là ta... Nó ướt thế này à?」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À...!!」'
+	\L_072d1:
+	ZH 1:
+	'Rance lướt ngón tay trên âm hộ của Maria,'
+	\L_072d1:
+	ZH 1:
+	'cố tình tạo ra âm thanh ướt'
+	R
+	'át để cô có thể nghe thấy.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「B-Bởi vì... Bởi vì...」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Mhm... Để xem nào...」'
+	\L_072d1:
+	ZH 1:
+	'Rance nhấc chân Maria lên...'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Chà, đã lâu rồi chúng ta chưa làm tình...」'
+	\L_072d1:
+	ZH 1:
+	'Ngươi không thể không khao'
+	R
+	'khát siêu vũ khí của tôi ...」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Đ-Ngốc quá... Ah... Ahn...!!」'
+	\L_072d1:
+	ZH 1:
+	'Rance đưa siêu vũ khí của'
+	R
+	'mình vào sâu bên trong Maria.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Kh...'
+	\L_072d1:
+	ZH 1:
+	'Cái gì...? Chúng ta thậm chí còn chưa di'
+	R
+	'chuyển và em đang bị co thắt rất nhiều. 」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Đ-Đừng nói thế... Ah...!」'
+	\L_072d1:
+	ZH 1:
+	'Rance dang rộng hai chân của Maria,'
+	\L_072d1:
+	ZH 1:
+	'đẩy siêu vũ khí của anh ta ra'
+	R
+	'vào và xoa bóp âm vật của cô.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À... Rance...!」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Được rồi... Giờ ta sẽ đụ'
+	R
+	'cô từ phía sau như một con thú!!」'
+	\L_072d1:
+	ZH 1:
+	'Rance nắm chặt hông Maria.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À... Đợi đã...!」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Cái gì? Ta không thể dừng lại bây giờ. 」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「K-Không đúng rồi...」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Cái gì không?」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Làm ơn... Ít nhất là trong'
+	R
+	'ngày hôm nay, hãy nhìn tôi...'
+	\L_072d1:
+	ZH 1:
+	'Tôi cũng muốn gặp ngươi...」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「... Được rồi, chỉ hôm nay thôi.'
+	R
+	'Lần tới ta muốn thử nó từ phía sau. 」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「... Được rồi...」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Vậy thì ta sẽ không'
+	R
+	'nương tay đâu. Được không?」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Aah...!!」'
+	\L_072d1:
+	ZH 1:
+	'Rance nâng hông của Maria lên và bắt đầu piston.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À... Rance... Rance...!!」'
+	\L_072d1:
+	ZH 1:
+	'Maria bám vào cổ Rance và di'
+	R
+	'chuyển hông đồng bộ với anh.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「H-Này... Em di chuyển mạnh quá...」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Bởi vì... Bởi vì... Rance... Rance...」'
+	\L_072d1:
+	ZH 1:
+	'Maria rên rỉ và dùng hông một cách thô bạo,'
+	R
+	'kích thích cặc Rance hơn mức cần thiết.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Kh...」'
+	\L_072d1:
+	ZH 1:
+	'Rance ôm chặt Maria.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Aah...!!」'
+	\L_072d1:
+	ZH 1:
+	'Maria cảm nhận được sức nóng của'
+	R
+	'Rance xuyên suốt cơ thể mình,'
+	\L_072d1:
+	ZH 1:
+	'run rẩy dữ dội và siết chặt siêu'
+	R
+	'vũ khí của Rance bên trong cô.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Kh...!!」'
+	\L_072d1:
+	ZH 1:
+	'Rance lại ôm chặt Maria và bắn'
+	R
+	'tất cả những gì anh có vào cô.'
+	\L_072d1:
+	{VAR0520 = 301:
+		%0:
+	}
+	\L_072c4:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	!VAR0516 : 1002!
+	\L_072a8:
+	!VAR0516 : 50!
+	\L_07270:
+	\L_0721c:
+	ZH 1:
+	'............'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Gugaaahaaahaha!haha!...'
+	R
+	'Gugaaahaaahaha!haha!...'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Maria đang thay'
+	R
+	'quần áo trong khi'
+	R
+	'nhìn Rance ngáy to.'
+	\L_072d1:
+	\L_072c4:
+	\L_07238:
+	ZH 1:
+	'... Tôi đã'
+	R
+	'làm lại lần nữa...'
+	\L_072d1:
+	ZH 1:
+	'Sau khi tôi quyết'
+	R
+	'định phải từ bỏ...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ôi...'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance trở'
+	R
+	'mình trong giấc ngủ và'
+	R
+	'đá văng chiếc chăn ra.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Huhu...'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Maria mỉm cười và'
+	R
+	'đắp chăn lại cho Rance.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Chạy đua...'
+	\L_072d1:
+	ZH 1:
+	'Đối với anh,'
+	R
+	'em có thể chỉ là một cô gái'
+	R
+	'khác, nhưng... em... em...'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Maria run rẩy khi đến'
+	R
+	'gần khuôn mặt của Rance.'
+	\L_072d1:
+	ZH 1:
+	'Cô nhẹ nhàng'
+	R
+	'hôn lên trán anh rồi'
+	R
+	'lặng lẽ rời khỏi phòng.'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_02210:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1002!
+	\L_072a8:
+	!VAR0516 : 1!
+	\L_07200:
+	\L_071e4:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng ngủ của'
+	R
+	'Rance Hohoh... Mm～～... Hoy!'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance đang tập thể'
+	R
+	'dục khi đợi Maria.'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'（cốc cốc cốc）'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Vào.'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 50!
+	\L_07270:
+	\L_0721c:
+	ZH 1:
+	'Rance, cậu làm gì...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Gahahahaha! ha!!!'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Kyaaah!!'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance chạy'
+	R
+	'đến chỗ Maria, bế cô lên'
+	R
+	'và đưa thẳng lên giường.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Chuyện gì vậy, Rance...?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Đừng giả vờ.'
+	R
+	'Cô biết ta muốn gì. Cô đang'
+	R
+	'mặc đồ lót mới phải không?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Kyan!'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance cọ'
+	R
+	'xát cặp mông khá lớn của'
+	R
+	'Maria qua quần của cô.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Ngu ngốc!'
+	\L_072d1:
+	ZH 1:
+	'Con trai phải giả'
+	R
+	'vờ như không để ý khi con'
+	R
+	'gái lo lắng về điều đó...'
+	\L_072d1:
+	ZH 1:
+	'Cậu phải bớt'
+	R
+	'thẳng thắn hơn đi, như khen'
+	R
+	'tôi hôm nay trông đẹp đấy...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Gahahahaha!'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Trời ạ...!'
+	R
+	'Hãy lắng nghe tôi'
+	R
+	'chỉ một... Kyaaaaaan!'
+	\L_072d1:
+	\L_072c4:
+	PF1 VAR0056:
+	SS 0:
+	G 806:
+	G 190:
+	SS 24:
+	!VAR0248 : 5!
+	\L_0728c:
+	ZH 1:
+	'Rance 「Âm hộ của em có lẽ'
+	R
+	'đang đợi ta. Đúng không?」'
+	PF0 VAR0056:
+	\L_072d1:
+	ZH 1:
+	'Rance thọc mặt vào háng'
+	R
+	'Maria và nói chuyện với nó.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Kyah... Kyaaah! Ngu ngốc, ngu ngốc!'
+	R
+	'Cậu đang nói chuyện với cái gì vậy...?」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Con mèo dễ thương của em.」'
+	\L_072d1:
+	ZH 1:
+	'Rance thè lưỡi ra.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Ừm...!!」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Ta chỉ liếm em một lần,'
+	R
+	'nhưng em đã nhỏ giọt rồi.」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Hii... Mm... Dừng lại...'
+	R
+	'Đừng nói những điều như thế...」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Nếu em không muốn ta nói'
+	R
+	'vậy thì hãy chạm vào cặc ta.」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Hả...?」'
+	\L_072d1:
+	ZH 1:
+	'Lòng bàn tay của Maria được'
+	R
+	'đặt trên siêu vũ khí. Nó'
+	\L_072d1:
+	ZH 1:
+	'vẫn ở trong tình trạng có'
+	R
+	'thể trở nên khó khăn hơn.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À...」'
+	\L_072d1:
+	ZH 1:
+	'Maria nhắm mắt lại và từ từ bắt đầu chạm vào nó.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「N-Này, làm mạnh hơn nữa đi. Nhột quá.」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À... X-X-Xin lỗi... Như thế này...?」'
+	\L_072d1:
+	ZH 1:
+	'Maria rụt rè nhưng vẫn mạnh mẽ hơn trước,'
+	\L_072d1:
+	ZH 1:
+	'nắm lấy siêu vũ khí của'
+	R
+	'Rance và bắt đầu vuốt ve nó.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Ừm... Ừm...」'
+	\L_072d1:
+	ZH 1:
+	'Cảm giác từ lưỡi của Rance và thứ trong lòng'
+	\L_072d1:
+	ZH 1:
+	'bàn tay cô khiến Maria bắt đầu run rẩy.'
+	\L_072d1:
+	ZH 1:
+	'Maria cảm động. Siêu vũ khí của Rance đã tăng vọt.'
+	\L_072d1:
+	ZH 1:
+	'Rance liếm lưỡi. Âm hộ của Maria ngày càng ẩm ướt.'
+	\L_072d1:
+	ZH 1:
+	'Giống như họ đồng bộ với nhau,'
+	\L_072d1:
+	ZH 1:
+	'cơ thể của cả hai đều đạt đến trạng'
+	R
+	'thái hoàn toàn sẵn sàng cùng một lúc.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Được rồi... Buông ra...」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Đ-Được rồi...」'
+	\L_072d1:
+	ZH 1:
+	'Maria buông siêu vũ khí của Rance. Lưỡi'
+	\L_072d1:
+	ZH 1:
+	'của Rance cũng rời khỏi âm hộ của Maria...'
+	\L_072d1:
+	ZH 1:
+	'Hắn thay thế nó bằng đầu cặc của mình.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À...」'
+	\L_072d1:
+	ZH 1:
+	'Rance đặt Maria xuống và kẹp một'
+	R
+	'chân của cô dưới cánh tay anh.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À...!!」'
+	\L_072d1:
+	ZH 1:
+	'Siêu vũ khí của Rance đã bị tiêu'
+	R
+	'hao hoàn toàn bên trong Maria.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Được rồi, hôm nay ta sẽ làm từ phía sau!」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Hả...? A... Aah!」'
+	\L_072d1:
+	ZH 1:
+	'Rance xoay hông Maria, đặt tay'
+	R
+	'xuống giường và nâng mông lên.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À... Kwah...」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Gahahahaha!!! Cảm giác thật tuyệt, Maria!」'
+	\L_072d1:
+	ZH 1:
+	'Rance dùng lòng bàn tay chạm vào'
+	\L_072d1:
+	ZH 1:
+	'mông Maria và bắt đầu xoa bóp. Anh đâm'
+	R
+	'siêu vũ khí của mình vào và ra khỏi cô,'
+	\L_072d1:
+	ZH 1:
+	'khiến nước ép của cô chảy ra.'
+	\L_072d1:
+	ZH 1:
+	'Những giọt chất lỏng rải rác trên tấm'
+	R
+	'trải giường như cánh hoa rơi sau khi nở.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À... Rance...!!」'
+	\L_072d1:
+	ZH 1:
+	'Maria nắm chặt tấm trải giường và lắc'
+	\L_072d1:
+	ZH 1:
+	'người để phù hợp với chuyển động'
+	R
+	'của dạ dày Rance đập vào mông cô.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Tốt, Maria... Hãy tiếp tục làm như vậy!」'
+	\L_072d1:
+	ZH 1:
+	'Rance nâng hông của Maria lên'
+	R
+	'và thưởng thức xác thịt của cô.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Ừm... Mmmmmm...!」'
+	\L_072d1:
+	ZH 1:
+	'Bất chấp tư thế không ổn định,'
+	\L_072d1:
+	ZH 1:
+	'Maria vẫn tiếp tục di chuyển hông'
+	R
+	'của mình để phù hợp với Rance.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Đó... sắp ra rồi, cầm lấy đi!」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Aah...!!」'
+	\L_072d1:
+	ZH 1:
+	'Rance chôn siêu vũ khí của'
+	R
+	'mình vào sâu bên trong Maria'
+	\L_072d1:
+	ZH 1:
+	'và bộc lộ tất cả những gì anh có bên trong cô.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À... Ahn...!!」'
+	\L_072d1:
+	ZH 1:
+	'Sau đó, Maria đi theo Rance'
+	R
+	'và cơ thể cô rung chuyển mạnh.'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	!VAR0516 : 1002!
+	\L_072a8:
+	!VAR0516 : 1!
+	\L_07200:
+	!VAR0516 : 50!
+	\L_07270:
+	\L_071ac:
+	ZH 1:
+	'Haaaaa...'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Ừm...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Cái gì? Không có đủ?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Không... Anh đặt em'
+	R
+	'vào thế đau đớn nên'
+	R
+	'người em đau nhức...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Được rồi, vậy'
+	R
+	'là cô chưa có đủ.'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance lờ mờ nhìn Maria.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Này... Tôi không'
+	R
+	'nói vậy đâu, dừng lại!'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Nghĩ lại thì, trước'
+	R
+	'đây cô đã nói rằng cô thích'
+	R
+	'làm việc đó ngay từ đầu.'
+	\L_072d1:
+	ZH 1:
+	'Vậy tiếp theo ta sẽ đụ cô'
+	R
+	'từ phía trước và ngắm nhìn'
+	R
+	'khuôn mặt rên rỉ của cô.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'N-Nhưng tôi đã nói...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Gahahahaha!'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Kyaaaaaaaahn! Cậu'
+	R
+	'thật ngu ngốc, Rance!!'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_029e8:
+	!VAR0426 : 7!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1002!
+	\L_072a8:
+	!VAR0516 : 1!
+	\L_07200:
+	\L_071e4:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng ngủ của'
+	R
+	'Rance ... Mất một lúc...'
+	\L_072d1:
+	ZH 1:
+	'Đã 30 phút trôi qua kể'
+	R
+	'từ khi tôi gọi cho cô...'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'（cốc...cốc...）'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Điều gì khiến cô'
+	R
+	'mất nhiều thời gian thế?!!'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 50!
+	\L_07270:
+	\L_0721c:
+	ZH 1:
+	'............'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Maria lặng lẽ bước'
+	R
+	'vào phòng với vẻ mặt u ám'
+	R
+	'như thể đây là ngày tận thế.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Có chuyện gì vậy? Cô'
+	R
+	'vẫn còn lo lắng về những'
+	R
+	'gì đã xảy ra với vụ nổ?'
+	\L_072d1:
+	ZH 1:
+	'Ta sẽ khiến cô'
+	R
+	'quên nó đi bằng siêu vũ'
+	R
+	'khí của ta. Gahahahaha!'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'............'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Này, ta bảo cô đừng lo'
+	R
+	'lắng về điều đó... Cô không'
+	R
+	'làm được điều đó sao?!!'
+	\L_072d1:
+	ZH 1:
+	'Hay là gì?'
+	\L_072d1:
+	ZH 1:
+	'Cô sẽ nói với ta'
+	R
+	'rằng cô không muốn quan hệ'
+	R
+	'tình dục với ta phải không?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'............'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Này, Maria... Ờ...'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Chạy đua...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'............'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Không sao đâu...'
+	\L_072d1:
+	ZH 1:
+	'Che giấu nó'
+	R
+	'cũng chẳng ích gì...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Hm, giấu cái gì cơ??'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'............'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Maria lặng lẽ cởi áo ra.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Rance... Rance... Tôi...'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Maria run rẩy.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Có chuyện gì vậy...?'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance đưa tay'
+	R
+	'về phía Maria.'
+	\L_072d1:
+	ZH 1:
+	'Nhưng Maria đã'
+	R
+	'ngăn họ lại. Sau đó cô từ từ'
+	R
+	'cởi áo sơ mi và áo ngực ra.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'À...'
+	\L_072d1:
+	\L_072c4:
+	PF1 VAR0056:
+	SS 0:
+	G 806:
+	G 191:
+	!VAR0248 : 5!
+	\L_0728c:
+	ZH 1:
+	'Một vết sẹo từ vụ nổ rõ ràng'
+	R
+	'đã để lại trên ngực Maria.'
+	PF0 VAR0056:
+	\L_072d1:
+	ZH 1:
+	'Maria 「............」'
+	\L_072d1:
+*L_02d4d:
+	ZH 1:
+	'Maria tránh ánh mắt của Rance và run rẩy.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Maria... Đây là...」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Họ nói chuyện này có thể'
+	R
+	'sẽ không biến mất... Tôi...」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「... Rance,'
+	\L_072d1:
+	ZH 1:
+	'cậu không thích tôi nữa phải không?'
+	R
+	'Thật kinh khủng phải không? Vậy...'
+	\L_072d1:
+	ZH 1:
+	'Vậy...!」'
+	\L_072d1:
+	ZH 1:
+	'Những giọt nước mắt lớn hình'
+	R
+	'thành nơi khóe mắt Maria.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Tôi... tôi là đồ hư hỏng...'
+	R
+	'Không phù hợp với một vị vua như ngài...'
+	\L_072d1:
+	ZH 1:
+	'Tôi xin lỗi...」'
+	\L_072d1:
+	ZH 1:
+	'Maria từ từ nhặt quần áo lên và định mặc lại.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Hả...?」'
+	\L_072d1:
+	ZH 1:
+	'Rance ôm Maria.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À...!」'
+	\L_072d1:
+	ZH 1:
+	'Môi anh chạm môi cô.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Ừm... Ừm!」'
+	\L_072d1:
+	ZH 1:
+	'Anh đặt tay lên ngực cô.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Rance, tại sao...?」'
+	\L_072d1:
+	{VAR0520 \ 302:
+		SS 24:
+	}
+	ZH 1:
+	'Rance 「Nói đủ rồi, nhanh cởi quần ra đi.」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「N-Nhưng Rance... tôi...」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Nếu em không tự cởi chúng'
+	R
+	'ra, ta sẽ cởi chúng ra cho em!」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Hả...? Kyaah!」'
+	\L_072d1:
+	ZH 1:
+	'Rance xé quần áo của Maria,'
+	R
+	'vùi mặt vào ngực cô và lè lưỡi.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À... Dừng lại, Rance!」'
+	\L_072d1:
+	ZH 1:
+	'Rance từ từ liếm vết sẹo của Maria.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Không... Dừng lại,'
+	R
+	'Rance... ... Dừng lại...!」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Im đi!」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À...!」'
+	\L_072d1:
+	ZH 1:
+	'Rance thọc một ngón tay vào âm hộ của mình.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Dù có chuyện gì xảy ra,」 em vẫn là người'
+	\L_072d1:
+	ZH 1:
+	'phụ nữ của anh. Tôi sẽ đập nó vào cơ thể ngươi!'
+	\L_072d1:
+	ZH 1:
+	'」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À... Aah!」'
+	\L_072d1:
+	ZH 1:
+	'Rance khuấy động ngón tay của mình xung quanh bên'
+	\L_072d1:
+	ZH 1:
+	'trong Maria. Ngón tay anh ướt đẫm nước trái cây.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Ta sẽ đặt nó vào bây giờ. Hãy đối'
+	R
+	'xử với ta với hông của em như mọi khi.'
+	\L_072d1:
+	ZH 1:
+	'」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Rance...」'
+	\L_072d1:
+	ZH 1:
+	'Maria theo bản năng mở rộng chân mình.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Ừm... Mmmmmmm...!!」'
+	\L_072d1:
+	ZH 1:
+	'Nó hơi chật,'
+	\L_072d1:
+	ZH 1:
+	'nhưng bằng cách nào đó Rance đã đưa được siêu'
+	\L_072d1:
+	ZH 1:
+	'vũ khí của mình vào bên trong cô.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Đó!」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À...!」'
+	\L_072d1:
+	ZH 1:
+	'Rance dang rộng hai chân của Maria'
+	R
+	'và đâm siêu vũ khí của mình vào.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Kh... Ừm... Ừm...」'
+	\L_072d1:
+	ZH 1:
+	'Như Rance đã bảo cô, hoặc'
+	R
+	'có lẽ theo ý muốn của cô,'
+	\L_072d1:
+	ZH 1:
+	'Maria vặn hông để phù hợp với Rance.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「... Ừm... Uuu...」'
+	\L_072d1:
+	ZH 1:
+	'Nước mắt dâng lên trong mắt Maria.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Rance... Rance!!」'
+	\L_072d1:
+	ZH 1:
+	'Maria nâng phần thân trên'
+	R
+	'của mình lên và ôm lấy Rance.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À...!」'
+	\L_072d1:
+	ZH 1:
+	'Anh bế Maria lên và đặt cô lên chân mình.'
+	R
+	'Anh lắc cô lên xuống khi làm tình với cô.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Ừm... Mmmmm...!」'
+	\L_072d1:
+	ZH 1:
+	'Maria cố kìm nước mắt và rên rỉ.'
+	R
+	'Cô phù hợp với Rance nhất có thể.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À... Aah!」'
+	\L_072d1:
+	ZH 1:
+	'Rance tách mình ra khỏi cơ thể Maria'
+	R
+	'và bắt đầu liếm vết sẹo của cô.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À... Rance... Rance... ... À... Aah...」'
+	\L_072d1:
+	ZH 1:
+	'Maria ôm đầu Rance và nhận'
+	R
+	'được sự vuốt ve của anh.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Rance... tôi... tôi...」'
+	\L_072d1:
+	ZH 1:
+	'Maria nắm chặt vai Rance.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Được rồi... ta sẽ di chuyển. Đó!!」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À!!」'
+	\L_072d1:
+	ZH 1:
+	'Rance hành hung Maria một cách thô bạo.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À... Aah...」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Ừm... Mmmmmmmmm...!」'
+	\L_072d1:
+	ZH 1:
+	'Maria run rẩy và dựa vào ngực Rance.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Này... ta sẽ xuất tinh'
+	R
+	'vào trong cô như mọi khi!」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À...」'
+	\L_072d1:
+	ZH 1:
+	'Cơ thể Rance rùng mình.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Aah...!」'
+	\L_072d1:
+	ZH 1:
+	'Maria nhận lấy nó và cơ thể'
+	R
+	'cô lại run rẩy một lần nữa.'
+	\L_072d1:
+	{VAR0520 = 302:
+		%0:
+	}
+	PF1 VAR0056:
+	\L_072c4:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	PF0 VAR0056:
+	!VAR0516 : 1002!
+	\L_072a8:
+	!VAR0516 : 1!
+	\L_07200:
+	!VAR0516 : 50!
+	\L_07270:
+	\L_0721c:
+	ZH 1:
+	'............'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Sau khi mọi chuyện'
+	R
+	'kết thúc, Maria đứng dậy'
+	R
+	'và bắt đầu mặc quần áo vào.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Cảm ơn, Rance...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Để làm gì?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Tôi rất vui vì cậu đã'
+	R
+	'bao dung vì giờ tôi đã đủ để'
+	R
+	'quan hệ tình dục với tôi...'
+	\L_072d1:
+	ZH 1:
+	'Đây sẽ là một kỷ niệm'
+	R
+	'đẹp cuối cùng... Cảm ơn.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Đồ ngốc,'
+	R
+	'còn quá sớm để nói về những'
+	R
+	'kỷ niệm hay bất cứ điều gì.'
+	\L_072d1:
+	ZH 1:
+	'Chúng ta đang làm việc'
+	R
+	'đó thậm chí còn khó khăn hơn'
+	R
+	'kể từ bây giờ. Hiểu chưa?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Hả...?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ngoài ra, cô đã tăng'
+	R
+	'cân một chút phải không?'
+	\L_072d1:
+	ZH 1:
+	'Cảm giác như vùng hông'
+	R
+	'của cô đầy đặn hơn một chút.'
+	\L_072d1:
+	ZH 1:
+	'Chà... Cũng không tệ'
+	R
+	'lắm đâu, nhưng hãy cẩn'
+	R
+	'thận kẻo béo quá đấy.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Rance... Cậu thực'
+	R
+	'sự vẫn ổn với tôi chứ?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Anh sẽ mãi yêu em cho'
+	R
+	'đến khi chán. Ta sẽ đụ cô'
+	R
+	'lần nữa. Hãy mong chờ nó.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Được rồi.'
+	\L_072d1:
+	\L_072c4:
+	\L_07238:
+	ZH 1:
+	'Cảm ơn... Rance...'
+	R
+	'Rance... Anh yêu em...'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_03457:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1002!
+	\L_072a8:
+	!VAR0516 : 1!
+	\L_07200:
+	!VAR0516 : 50!
+	\L_07270:
+	\L_071e4:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng ngủ của'
+	R
+	'Rance Chạy đua...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Cô đang đứng'
+	R
+	'xung quanh để làm gì?'
+	\L_072d1:
+	ZH 1:
+	'Hôm nay cô'
+	R
+	'có thể không quan hệ tình'
+	R
+	'dục hay gì đó được không?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Không, nhưng...'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Maria đặt tay lên'
+	R
+	'ngực phía trên quần áo. Như'
+	R
+	'thể vết sẹo ở đó đang đau.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Vậy thì hãy đến.'
+	R
+	'Ta ghét chờ đợi.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'À... Rance...!'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance nắm lấy cổ tay'
+	R
+	'Maria và ấn cô xuống giường.'
+	\L_072d1:
+	\L_072c4:
+	PF1 VAR0056:
+	SS 0:
+	G 806:
+	G 191:
+	SS 24:
+	!VAR0248 : 5!
+	\L_0728c:
+	ZH 1:
+	'Rance 「Lấy cái này, cái này và cái này!」'
+	PF0 VAR0056:
+	\L_072d1:
+	ZH 1:
+	'Maria 「Kyah... Trời ạ, Rance!」'
+	\L_072d1:
+	ZH 1:
+	'Rance xé áo Maria ra.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À...」'
+	\L_072d1:
+	ZH 1:
+	'Lúc đó Maria vẫn cư xử bình thường,'
+	\L_072d1:
+	ZH 1:
+	'nhưng khi vết sẹo của cô tiếp xúc'
+	R
+	'với Rance và bị không khí chạm vào,'
+	\L_072d1:
+	ZH 1:
+	'cô đã khép cơ thể lại.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Aya nói rằng vì tôi vẫn còn trẻ nên nó'
+	\L_072d1:
+	ZH 1:
+	'sẽ dần dần biến mất,」 nhưng nó'
+	R
+	'sẽ không xảy ra ngay lập tức...」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Rõ ràng rồi. Đó là một'
+	R
+	'vết thương khá nghiêm trọng.」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Nhưng...」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Maria.」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À...!」'
+	\L_072d1:
+	ZH 1:
+	'Rance ôm chặt ngực Maria bằng cả hai tay.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Ừm. Có vẻ như cách đối'
+	R
+	'xử của Aya còn hơn cả hoàn hảo.」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Hả...? Tại sao...?」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Ngực của em cảm thấy'
+	R
+	'tốt hơn trước. Khả năng'
+	\L_072d1:
+	ZH 1:
+	'phục hồi và cảm giác bám dính của chúng rất」 tốt.」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Trời ạ... Đừng nói những điều ngu ngốc...」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Nó không ngu ngốc. Đó là sự thật.」'
+	\L_072d1:
+	ZH 1:
+	'Rance bắt đầu xoa ngực Maria.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「A... Ahn...!」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Bây giờ... Hôm nay em sẽ'
+	R
+	'liếm siêu vũ khí tuyệt đẹp của ta.」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Ờ... Đ-Được rồi...」'
+	\L_072d1:
+	ZH 1:
+	'Maria rụt rè đưa mặt về phía háng'
+	R
+	'Rance và vén tóc ra sau tai cô.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Ừm...」'
+	\L_072d1:
+	ZH 1:
+	'Cô cầm trục bằng một tay và dùng lưỡi'
+	\L_072d1:
+	ZH 1:
+	'kích thích đầu. Cử động lưỡi của cô thật vụng về.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Em rất giỏi trong việc di chuyển'
+	R
+	'hông của mình khi chúng ta làm điều đó...」'
+	\L_072d1:
+	ZH 1:
+	'Ngươi dường như không thể làm tốt việc này ...」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Mgh... Để tôi yên... Tôi'
+	R
+	'sẽ không làm thế nữa đâu...」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Được rồi,」 hãy lên người ta và làm cho'
+	\L_072d1:
+	ZH 1:
+	'siêu vũ khí của tôi cảm thấy thoải'
+	R
+	'mái bằng miệng còn lại của ngươi.」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Hả...? Nhưng tôi vẫn...」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Em có thể khiến ta cảm thấy dễ'
+	R
+	'chịu mà không cần ta đặt nó vào. Đây.」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Kyah...!」'
+	\L_072d1:
+	ZH 1:
+	'Rance bế Maria lên và đặt cô vào người anh.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Bây giờ làm đi.」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Ưu... Được rồi...」'
+	\L_072d1:
+	ZH 1:
+	'Maria đặt âm hộ của mình chống'
+	R
+	'lại siêu vũ khí của Rance.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「... Ừm... Ừm...」'
+	\L_072d1:
+	ZH 1:
+	'Sau đó cô lắc hông về phía trước và phía sau.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Vậy là em biết cách làm điều đó.'
+	R
+	'Thực sự xứng đáng là người phụ nữ của ta.'
+	\L_072d1:
+	ZH 1:
+	'」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Đ-Ngốc quá... Ah...!」'
+	\L_072d1:
+	ZH 1:
+	'Rance nắm lấy ngực của Maria.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À... Rance...」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Nào, di chuyển, di chuyển.」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Ừm... À...」'
+	\L_072d1:
+	ZH 1:
+	'Rance chơi đùa với ngực của Maria.'
+	R
+	'Maria di chuyển lên trên anh. Một âm'
+	\L_072d1:
+	ZH 1:
+	'thanh lớn và ẩm ướt bắt đầu'
+	R
+	'phát ra từ âm hộ của cô.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Được rồi... Maria, đặt nó vào trong cô đi.」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Hả...? Không... tôi không thể... 」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Được rồi, vậy... Nâng hông lên.」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「L-Thích cái này...?」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Ừ... Taaake cái này!!」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À...!」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Gahahahaha!」'
+	\L_072d1:
+	ZH 1:
+	'Rance đứng dậy và Maria ngã xuống.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Kyah...!」'
+	\L_072d1:
+	ZH 1:
+	'Rance đập vào Maria trong tư thế kỳ lạ.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Ồ, một khám phá mới! Đây là'
+	R
+	'một vị trí tốt! Thế nào rồi, Maria?」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Kh...!」'
+	\L_072d1:
+	ZH 1:
+	'Rance kéo tay Maria để giữ'
+	R
+	'cô tại chỗ và tự do lắc cô.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「D-Dừng lại... Cậu vất vả quá rồi, Rance...」'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Gahahahaha!! Miễn là ta thấy thoải mái!!」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À...!」'
+	\L_072d1:
+	ZH 1:
+	'Rance nâng hông lên cao hơn và'
+	R
+	'tấn công Maria. Ở tư thế đó,'
+	\L_072d1:
+	ZH 1:
+	'chỉ có cổ và gáy đỡ cô khi bị Rance đâm xuyên qua.'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Ừm... Mmmmmm... Mm...!」'
+	\L_072d1:
+	ZH 1:
+	'Maria siết chặt đôi chân lơ lửng'
+	R
+	'của mình quanh cơ thể Rance.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Được rồi...'
+	\L_072d1:
+	ZH 1:
+	'Hãy nhận lấy thứ này, tinh dịch'
+	R
+	'của Nhà vua, như lời cảm ơn!!」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À... Rance...!!」'
+	\L_072d1:
+	ZH 1:
+	'Chân Maria siết chặt quanh Rance hơn.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Gahahahaha! ahaha!!」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「À... Aaaah...!!」'
+	\L_072d1:
+	ZH 1:
+	'Lưng của Maria cong về phía sau. Đồng thời,'
+	\L_072d1:
+	ZH 1:
+	'cô rùng mình dữ dội. Rồi Rance cũng vậy.'
+	\L_072d1:
+	ZH 1:
+	'Rance 「Haah... Cảm giác thật tuyệt...」'
+	\L_072d1:
+	ZH 1:
+	'Maria 「Kyah... Nặng quá...!」'
+	\L_072d1:
+	ZH 1:
+	'Vì kiệt sức sau cơn cực'
+	R
+	'khoái, Rance ngã đè lên Maria.'
+	\L_072d1:
+	PF1 VAR0056:
+	\L_072c4:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	PF0 VAR0056:
+	%0:
+*L_03b2e:
+	!VAR0428 : 2!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_072a8:
+	!VAR0516 : 1!
+	\L_07200:
+	\L_071e4:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng yết kiến'
+	R
+	'Rance đang ngồi trên ngai'
+	R
+	'vàng, ăn một ít đá bào.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Hah~, đây là thiên đường.'
+	R
+	'Kem rất ngon, nhưng đôi'
+	R
+	'khi món này cũng rất tuyệt.'
+	\L_072d1:
+	ZH 1:
+	'Đặc biệt là hương dâu.'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 50!
+	\L_07270:
+	\L_0721c:
+	ZH 1:
+	'Chạy đua...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ừm, cái gì'
+	R
+	'cơ? Cô đến đây sớm...'
+	R
+	'Muốn quan hệ tình dục?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Không, đồ'
+	R
+	'ngốc. Đây, nhìn này.'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Maria mỉm cười và đưa'
+	R
+	'cho Rance một tờ giấy nhắn.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Đây là cái gì?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Quy hoạch tháp'
+	R
+	'khoa học công nghệ.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Cái gì? Ta thậm chí'
+	R
+	'còn không biết đó là gì.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Rance... Tôi có'
+	R
+	'chuyện muốn nhờ.'
+	\L_072d1:
+	ZH 1:
+	'Chúng tôi'
+	R
+	'sẽ khó có thể chế tạo nhiều'
+	R
+	'vũ khí và thực hiện các loại'
+	\L_072d1:
+	ZH 1:
+	'nghiên cứu khác nhau với'
+	R
+	'cơ sở vật chất hiện tại...'
+	\L_072d1:
+	ZH 1:
+	'Vậy là có cái này.'
+	\L_072d1:
+	ZH 1:
+	'Với điều này,'
+	R
+	'chúng ta có thể phát triển'
+	R
+	'những vũ khí tuyệt vời hơn.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Hmm, nó sẽ'
+	R
+	'tốn bao nhiêu tiền?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Tôi không biết,'
+	R
+	'nhưng... Ừm... Rất nhiều.'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Maria nói nhỏ'
+	R
+	'nhẹ và dè dặt.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Và bao nhiêu là nhiều?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Ư-Ừm...'
+	\L_072d1:
+	ZH 1:
+	'Ngân sách quốc gia'
+	R
+	'trị giá khoảng nửa năm...'
+	\L_072d1:
+	ZH 1:
+	'Thế có phải'
+	R
+	'là quá đáng không...??'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Rõ ràng rồi, đồ ngốc.'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'（teeear）'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Áaaa!!'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance xé tờ'
+	R
+	'giấy mà Maria mang'
+	R
+	'cho anh ta làm đôi.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Aah... Tôi biết rồi...'
+	\L_072d1:
+	ZH 1:
+	'Nhưng, à... Cậu'
+	R
+	'nói đúng... Ừ...'
+	\L_072d1:
+	ZH 1:
+	'Xin lỗi... tôi đã'
+	R
+	'ích kỷ... Tạm biệt...'
+	\L_072d1:
+	\L_072c4:
+	\L_0727e:
+	\L_07254:
+	ZH 1:
+	'Maria lê bước đi.'
+	\L_072d1:
+	\L_072c4:
+	\L_071c8:
+	ZH 1:
+	'Ừm,'
+	\L_072d1:
+	ZH 1:
+	'xây dựng một cơ sở'
+	R
+	'nghiên cứu để tăng cường sức'
+	\L_072d1:
+	ZH 1:
+	'mạnh cho quân đội không'
+	R
+	'phải là một ý tưởng tồi,'
+	\L_072d1:
+	ZH 1:
+	'chắc chắn vậy...'
+	\L_072d1:
+	ZH 1:
+	'Cái này thì quá đắt, nhưng'
+	R
+	'nếu nàng có thể nghĩ ra thứ'
+	R
+	'gì đó rẻ hơn thì tốt quá.'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_03f32:
+	!VAR0428 : 3!
+	!VAR0516 : 50!
+	\L_07270:
+	\L_0721c:
+	ZH 1:
+	'Ôi, Rance... Điều'
+	R
+	'gì mang cậu đến đây?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Tôi là người đã phải'
+	R
+	'vất vả xây dựng nơi này.'
+	\L_072d1:
+	ZH 1:
+	'Tôi đang điều tra xem nó'
+	R
+	'có được sử dụng tốt không.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Tôi nghĩ đó là do'
+	R
+	'việc đánh thuế nặng nề vào'
+	R
+	'những người đã xây dựng nó.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Hừm.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Nhưng...'
+	\L_072d1:
+	ZH 1:
+	'Cảm ơn, Rance. Đây'
+	R
+	'là một cơ sở tốt đẹp.'
+	\L_072d1:
+	ZH 1:
+	'Tôi nghĩ tôi có thể'
+	R
+	'tạo ra những vũ khí thực'
+	R
+	'sự tuyệt vời với thứ này.'
+	\L_072d1:
+	ZH 1:
+	'Tôi sẽ cố gắng hết sức.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ngươi tốt hơn. Nếu'
+	R
+	'không, tất cả những khoản'
+	R
+	'thuế đó sẽ bị lãng phí.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Trời ạ...'
+	R
+	'Đừng lấy những gì tôi nói mà'
+	R
+	'dùng nó để chống lại tôi...'
+	\L_072d1:
+	ZH 1:
+	'Trẻ con quá...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Gahahahaha!! Nhà'
+	R
+	'vua có thể nói bất cứ'
+	R
+	'điều gì ông ấy muốn!'
+	\L_072d1:
+	ZH 1:
+	'Dù sao thì hãy'
+	R
+	'cố gắng nhé Maria.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Được rồi...'
+	R
+	'tôi sẽ làm những gì tốt nhất'
+	R
+	'có thể, cho cậu và đất nước.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Tất nhiên là ngươi'
+	R
+	'sẽ làm vậy. Gahahahaha!'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0411e:
+	!VAR0516 : 50!
+	\L_07270:
+	\L_0721c:
+	ZH 1:
+	'Thật là bất'
+	R
+	'ngờ đấy, Rance.'
+	\L_072d1:
+	ZH 1:
+	'Cậu có ghét'
+	R
+	'những nơi nhiều dầu'
+	R
+	'mỡ như thế này không?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Tất nhiên là tôi'
+	R
+	'biết. Tôi thích những cô'
+	R
+	'gái da dầu hơn. Heheheh.'
+	\L_072d1:
+	\L_072c4:
+	{(VAR0429 = 1) + (VAR0430 = 1):
+*L_0419b:
+		IM VAR0202, VAR0203:
+		{VAR0000:
+			@L_0419b:
+		}
+		{VAR0429 = 1:
+			ZH 1:
+			$L_05ddb$
+			'Công việc cuối'
+			R
+			'cùng của lò phản ứng'
+			$
+		}
+		{VAR0430 = 1:
+			ZH 1:
+			$L_05e9b$
+			'Kết thúc công'
+			R
+			'việc của Tulip 100'
+			$
+		}
+		]
+		@L_0419b:
+	}
+	{VAR0428 < 14:
+		!VAR0428 : VAR0428 + 1!
+	}
+	\L_0721c:
+	ZH 1:
+	'... Vẫn như'
+	R
+	'mọi khi... Trời ạ...'
+	\L_072d1:
+	ZH 1:
+	'Ồ vâng, tôi sẽ để lại'
+	R
+	'cho ngươi một bản báo cáo.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ừm. Hãy kể'
+	R
+	'cho tôi mọi chuyện, đừng'
+	R
+	'giấu bất kỳ chi tiết nào.'
+	\L_072d1:
+	\L_072c4:
+	{VAR0429 = 2:
+		\L_0721c:
+		ZH 1:
+		'Tôi chưa thực'
+		R
+		'sự phát triển bất cứ điều'
+		R
+		'gì mới... Điều gì sẽ tốt?'
+		\L_072d1:
+		ZH 1:
+		'Tôi đang nghĩ đến một con'
+		R
+		'tàu có thể lặn dưới biển,'
+		\L_072d1:
+		ZH 1:
+		'hay một chiếc xe tăng có'
+		R
+		'thể di chuyển qua sa mạc...'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Nghe chán quá.'
+		\L_072d1:
+		ZH 1:
+		'Thế còn một chiếc'
+		R
+		'máy rung có thể làm'
+		\L_072d1:
+		ZH 1:
+		'hài lòng bất kỳ phụ nữ'
+		R
+		'hay thứ gì đó thì sao?'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Không.'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'.........'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'......'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Thôi, sao cũng'
+		R
+		'được. Làm việc chăm chỉ.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Được rồi. Tôi'
+		R
+		'sẽ làm điều đó.'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Hẹn gặp lại.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'À... Thỉnh thoảng'
+		R
+		'hãy quay lại nhé.'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Chắc chắn rồi,'
+		R
+		'nếu tôi thấy thích.'
+		\L_072d1:
+		\L_072c4:
+		\L_071e4:
+		ZH 1:
+		'Rance rời viện nghiên cứu.'
+		\L_072d1:
+		\L_072c4:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	{VAR0428 = 4:
+		\L_0721c:
+		ZH 1:
+		'Hôm nay tôi bắt đầu'
+		R
+		'phát triển New Tulip 1.'
+		\L_072d1:
+		ZH 1:
+		'Nó vốn đã rất mạnh'
+		R
+		'rồi, nhưng tôi sẽ làm'
+		R
+		'cho nó mạnh hơn nữa,'
+		\L_072d1:
+		ZH 1:
+		'đủ để hạ'
+		R
+		'gục lính thiết giáp.'
+		\L_072d1:
+		ZH 1:
+		'Hãy mong chờ nó.'
+		\L_072d1:
+		\L_072c4:
+		@L_05fed:
+	}
+	{VAR0428 = 5:
+		\L_0721c:
+		ZH 1:
+		'Tôi đang trong quá trình'
+		R
+		'phát triển New Tulip 1.'
+		\L_072d1:
+		ZH 1:
+		'Hiện nó đã hoàn thành'
+		R
+		'được 40%. Tôi tự hỏi liệu nó'
+		R
+		'có được thực hiện sớm không.'
+		\L_072d1:
+		ZH 1:
+		'Khi hoàn'
+		R
+		'thành, tôi sẽ trang bị chúng'
+		R
+		'cho toàn bộ đơn vị của mình.'
+		\L_072d1:
+		ZH 1:
+		'Khi đó đơn vị của'
+		R
+		'tôi sẽ thực sự mạnh mẽ.'
+		\L_072d1:
+		\L_072c4:
+		@L_05fed:
+	}
+	{VAR0428 = 6:
+		\L_0721c:
+		ZH 1:
+		'The New Tulip 1'
+		R
+		'gần như đã hoàn thành.'
+		\L_072d1:
+		ZH 1:
+		'Tôi đang phát triển'
+		R
+		'Tulip 100 cùng lúc.'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Tại sao lại là'
+		R
+		'100 rồi? Cái cuối cùng là'
+		R
+		'4, nếu tôi nhớ không lầm.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Đừng lo lắng về những'
+		R
+		'chi tiết như thế. Đó là giấc'
+		R
+		'mơ của tôi, ngươi thấy đấy.'
+		\L_072d1:
+		\L_072c4:
+		\L_071e4:
+		ZH 1:
+		'Maria nhìn lên và'
+		R
+		'chỉ lên bầu trời.'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Vậy nó là gì?'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Một cỗ máy có thể'
+		R
+		'bay trên bầu trời. Vâng...'
+		\L_072d1:
+		ZH 1:
+		'Trên mây, rồi lên'
+		R
+		'tới những vì sao sáng!'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'............'
+		\L_072d1:
+		ZH 1:
+		'Huh... Làm sao'
+		R
+		'ngươi có thể bay cao đến'
+		R
+		'thế? Điều đó thật vô lý.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Đừng ác ý. Đó'
+		R
+		'là giấc mơ của tôi...'
+		\L_072d1:
+		ZH 1:
+		'Một chiếc máy'
+		R
+		'bay có giá trị,'
+		\L_072d1:
+		ZH 1:
+		'ngay cả khi'
+		R
+		'nó không mang lại lợi nhuận'
+		R
+		'hoặc mục đích sử dụng nào.'
+		\L_072d1:
+		ZH 1:
+		'Hiểu?'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'... Được rồi, hãy'
+		R
+		'làm theo ý ngươi.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Được rồi.'
+		\L_072d1:
+		\L_072c4:
+		@L_05fed:
+	}
+	{VAR0428 = 7:
+		!VAR0154 : 16!
+		!VAR0076 : 14!
+		!VAR0087 : 14!
+		\L_0721c:
+		ZH 1:
+		'The New Tulip 1 đã được'
+		R
+		'hoàn thành. Tôi rất vui.'
+		\L_072d1:
+		ZH 1:
+		'Tỷ lệ chuyển đổi năng lượng'
+		R
+		'hirara của nó lớn hơn 40% so'
+		\L_072d1:
+		ZH 1:
+		'với phiên bản trước và'
+		R
+		'thiết bị làm mát của nó...'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Này, không'
+		R
+		'có cuộc nói chuyện phức tạp'
+		R
+		'nào đâu. Tôi không hiểu nó.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Chà...'
+		\L_072d1:
+		ZH 1:
+		'Vậy thì tôi sẽ gác lại phần'
+		R
+		'lớn lời giải thích và chỉ'
+		R
+		'cho ngươi biết kết quả...'
+		\L_072d1:
+		ZH 1:
+		'Nó mạnh hơn 1,5 lần.'
+		\L_072d1:
+		ZH 1:
+		'Tôi đã bắt'
+		R
+		'đầu trang bị cho đơn vị'
+		R
+		'của mình những thứ đó,'
+		\L_072d1:
+		ZH 1:
+		'vì vậy hãy chờ'
+		R
+		'đợi trận chiến tiếp theo.'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Ừm... Cố gắng hết sức để'
+		R
+		'không làm tôi thất vọng nhé.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Trời ạ... Tất'
+		R
+		'cả những gì ngươi từng nói'
+		R
+		'đều là những điều tồi tệ...'
+		\L_072d1:
+		\L_072c4:
+		@L_05fed:
+	}
+	{VAR0428 = 8:
+		\L_0721c:
+		ZH 1:
+		'Tôi đang phát'
+		R
+		'triển Tulip 2 Goliath,'
+		\L_072d1:
+		ZH 1:
+		'một khẩu pháo tầm'
+		R
+		'xa khổng lồ có thể'
+		\L_072d1:
+		ZH 1:
+		'tấn công trực tiếp vào'
+		R
+		'thành phố của kẻ thù từ đây.'
+		\L_072d1:
+		ZH 1:
+		'Hiện nó đã'
+		R
+		'hoàn thành được 10%.'
+		R
+		'Một vũ khí đột phá...'
+		\L_072d1:
+		ZH 1:
+		'Với điều này,'
+		\L_072d1:
+		ZH 1:
+		'chúng ta có thể'
+		R
+		'giành chiến thắng trong trận'
+		\L_072d1:
+		ZH 1:
+		'chiến mà không làm tổn'
+		R
+		'thương đồng minh của mình,'
+		\L_072d1:
+		ZH 1:
+		'vì vậy nó sẽ rất hữu ích.'
+		\L_072d1:
+		\L_072c4:
+		@L_05fed:
+	}
+	{VAR0428 = 9:
+		\L_0721c:
+		ZH 1:
+		'Vấn đề là...'
+		R
+		'Việc phát triển Tulip'
+		R
+		'2 Goliath rất khó khăn.'
+		\L_072d1:
+		ZH 1:
+		'Thật khó để'
+		R
+		'khiến nó bắn trúng mục'
+		R
+		'tiêu cách xa hàng km.'
+		\L_072d1:
+		ZH 1:
+		'Dù chúng ta'
+		R
+		'có làm gì thì nó cũng sẽ'
+		R
+		'cách xa hàng trăm mét...'
+		\L_072d1:
+		ZH 1:
+		'Nó vẫn chưa thực tế lắm.'
+		\L_072d1:
+		ZH 1:
+		'Nếu ai đó mang thiết'
+		R
+		'bị truyền dẫn đến mục tiêu'
+		R
+		'và đợi thì nó sẽ hoạt động,'
+		\L_072d1:
+		ZH 1:
+		'nhưng điều đó không ổn…'
+		\L_072d1:
+		ZH 1:
+		'Aaah... Phải'
+		R
+		'làm sao đây～～...'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Thôi, làm việc chăm chỉ'
+		R
+		'nhé. Tôi thực sự không hiểu.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Ôi trời ơi...'
+		R
+		'Tôi đau khổ quá,'
+		R
+		'đừng lạnh lùng thế...'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Có vẻ như ngươi'
+		R
+		'đang vui vẻ với tôi hơn.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'... Hừm.'
+		\L_072d1:
+		\L_072c4:
+		{VAR0430 = 2:
+			@L_05fed:
+		}
+		\L_0721c:
+		ZH 1:
+		'À... Nhưng dự án khác'
+		R
+		'của tôi đang tiến triển tốt.'
+		\L_072d1:
+		\L_072c4:
+		@L_05174:
+	}
+	{VAR0428 = 10:
+		\L_0721c:
+		ZH 1:
+		'Tulip 2 Goliath'
+		R
+		'gần như đã hoàn thiện.'
+		\L_072d1:
+		ZH 1:
+		'Chúng tôi hiện'
+		R
+		'đang thực hiện những'
+		R
+		'điều chỉnh cuối cùng.'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Hô... Vậy...'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'À, xin lỗi...'
+		R
+		'Hiện tại tôi đang bận một số'
+		R
+		'việc hay. Hẹn gặp lại sau.'
+		\L_072d1:
+		ZH 1:
+		'Aa, bận quá.'
+		\L_072d1:
+		\L_072c4:
+		\L_0727e:
+		\L_07254:
+		ZH 1:
+		'Maria vội vã quay'
+		R
+		'lại nghiên cứu của mình.'
+		\L_072d1:
+		\L_072c4:
+		\L_071c8:
+		ZH 1:
+		'Khập khiễng... Có'
+		R
+		'lẽ tôi nên quay lại.'
+		\L_072d1:
+		\L_072c4:
+		\L_071e4:
+		ZH 1:
+		'Rance rời cơ'
+		R
+		'sở nghiên cứu.'
+		\L_072d1:
+		\L_072c4:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	{VAR0428 = 11:
+		!VAR0685 : 1!
+		!VAR0758 : 1!
+		\L_0721c:
+		ZH 1:
+		'Tulip 2'
+		R
+		'Goliath đã hoàn thành.'
+		\L_072d1:
+		ZH 1:
+		'Bây giờ chúng ta có thể'
+		R
+		'tấn công bất kỳ kẻ thù nào,'
+		R
+		'bất kể chúng ở xa đến đâu.'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Được rồi, làm tốt lắm.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Goliath rất lớn nên'
+		R
+		'tôi sẽ bố trí nó ở phía Bắc.'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Không có ở lâu đài Leazas?'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Nó phát ra âm'
+		R
+		'thanh lớn khi bắn, nên Nữ'
+		R
+		'hoàng Lia sẽ nổi điên...'
+		\L_072d1:
+		\L_072c4:
+		\L_071c8:
+		ZH 1:
+		'... Người dân miền Bắc có'
+		R
+		'đồng ý với điều đó không???'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Đi về phía Bắc nếu'
+		R
+		'ngươi muốn nhắm vào Goliath.'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Điều đó thật rắc'
+		R
+		'rối... Việc này không thể'
+		R
+		'thực hiện tự động được sao?'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Ừ...'
+		\L_072d1:
+		ZH 1:
+		'Nhưng hãy sử dụng'
+		R
+		'nó! Rốt cuộc thì tôi đã gặp'
+		R
+		'khó khăn khi làm được nó.'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'À～～～...'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'... Được chứ?'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Tôi sẽ suy'
+		R
+		'nghĩ về điều đó.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Được rồi...'
+		R
+		'Hãy chắc chắn nhé.'
+		\L_072d1:
+		\L_072c4:
+		@L_05fed:
+	}
+	{VAR0428 = 12:
+		\L_0721c:
+		ZH 1:
+		'Hiện tại,'
+		\L_072d1:
+		ZH 1:
+		'tôi đang nghiên'
+		R
+		'cứu một lò phản ứng tốc'
+		R
+		'độ cao sẽ thu được năng'
+		\L_072d1:
+		ZH 1:
+		'lượng gấp hai hoặc ba'
+		R
+		'lần từ hợp kim hirara.'
+		\L_072d1:
+		ZH 1:
+		'Nếu tôi có thể'
+		R
+		'làm được điều này,'
+		\L_072d1:
+		ZH 1:
+		'tôi sẽ có thể làm được'
+		R
+		'những điều tương tự như tôi'
+		\L_072d1:
+		ZH 1:
+		'đã làm với 1/5'
+		R
+		'lượng hợp kim hirara.'
+		\L_072d1:
+		ZH 1:
+		'Nó sẽ giảm đáng kể chi'
+		R
+		'phí cao cho đơn vị của tôi'
+		\L_072d1:
+		ZH 1:
+		'để hành động và chi phí'
+		R
+		'sử dụng Tulip 2 Gô-li-át.'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Tôi hiểu'
+		R
+		'rồi. Điều đó thật tuyệt'
+		R
+		'vời. Làm hết sức mình.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Được rồi.'
+		\L_072d1:
+		\L_072c4:
+		\L_07254:
+		ZH 1:
+		'Maria cười tươi.'
+		\L_072d1:
+		\L_072c4:
+		@L_05fed:
+	}
+	{VAR0428 = 13:
+		\L_071ac:
+		ZH 1:
+		'Nghiên cứu'
+		R
+		'của ngươi về dự án đó có'
+		R
+		'đang tiến triển không?'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Ừ...'
+		\L_072d1:
+		ZH 1:
+		'Tuy nhiên, điều đó thật'
+		R
+		'khó khăn... Tôi đang cố gắng'
+		R
+		'hết sức, nhưng... Eheheh.'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Tôi hiểu'
+		R
+		'rồi. Tôi thực sự mong chờ'
+		R
+		'những gì ngươi nghĩ ra.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Đ-Được rồi...'
+		R
+		'Tôi sẽ cố hết sức...'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Có chuyện gì thế?'
+		R
+		'Ngươi có vẻ mệt mỏi.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Ờ... tôi không mệt... Ừ.'
+		\L_072d1:
+		\L_072c4:
+		{VAR0430 = 2:
+			@L_05fed:
+		}
+		\L_0721c:
+		ZH 1:
+		'Ồ, đúng rồi...'
+		R
+		'Nhìn cái này nữa.'
+		\L_072d1:
+		\L_072c4:
+		@L_05174:
+	}
+	{VAR0428 = 14:
+		\L_0721c:
+		ZH 1:
+		'Lò phản ứng'
+		R
+		'tốc độ cao... Tôi biết mình'
+		R
+		'có thể làm được, nhưng...'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Trong trường hợp đó,'
+		R
+		'hãy cố gắng hết sức.'
+		R
+		'Tôi đang mong chờ nó.'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Nhưng...'
+		\L_072d1:
+		ZH 1:
+		'Chúng ta có thực'
+		R
+		'sự cần nó không?'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'Nó sẽ giảm'
+		R
+		'chi phí phải không?'
+		R
+		'Chúng tôi cần điều đó.'
+		\L_072d1:
+		ZH 1:
+		'Với điều đó'
+		R
+		'tôi có thể xoay sở với'
+		R
+		'số tiền còn sót lại.'
+		\L_072d1:
+		ZH 1:
+		'Dù sao thì tôi cũng'
+		R
+		'rất mong chờ nó. Hiểu chưa?'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Đ-Ừ...'
+		\L_072d1:
+		\L_072c4:
+		@L_05fed:
+	}
+*L_050d6:
+	\L_071ac:
+	ZH 1:
+	'Không. Ai muốn'
+	R
+	'vào bên trong cây gậy'
+	R
+	'lớn đó? Khập khiễng.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Tôi hiểu rồi...'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Maria có vẻ hơi tức'
+	R
+	'giận và rất thất vọng.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Anh sẽ đi vào bên'
+	R
+	'trong em, Maria. Geheheheh.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Đồ ngốc.'
+	\L_072d1:
+	\L_072c4:
+	@L_05fed:
+*L_05174:
+	\L_0721c:
+	ZH 1:
+	'Chạy đi, chạy đi!'
+	R
+	'Hãy nhìn vào Tulip 100.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'N-Này, đừng giật tay'
+	R
+	'tôi như thế! Tôi sẽ ngã mất!'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Tadaaaaaaaa!!'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Maria đưa'
+	R
+	'Rance vào một căn phòng lớn'
+	R
+	'trong tòa nhà nghiên cứu.'
+	\L_072d1:
+	ZH 1:
+	'Bên trong là'
+	R
+	'thứ trông giống như một'
+	R
+	'quả đạn pháo cao 20 mét.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Nó rất lớn.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Thật không thể'
+	R
+	'tin được phải không?'
+	\L_072d1:
+	ZH 1:
+	'Với điều này chúng ta'
+	R
+	'có thể đi lên bầu trời.'
+	\L_072d1:
+	ZH 1:
+	'Bây giờ nó đã'
+	R
+	'hoàn thành được 89% nhưng'
+	R
+	'có lẽ nó có thể bay được.'
+	\L_072d1:
+	ZH 1:
+	'Bên trong cũng'
+	R
+	'có rất nhiều thứ.'
+	R
+	'Muốn xem qua không?'
+	\L_072d1:
+	\L_072c4:
+*L_0529a:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_0529a:
+	}
+	ZH 1:
+	$L_052d8$
+	'Nhìn kìa'
+	$
+	R
+	$L_050d6$
+	'Không'
+	$
+	]
+	@L_0529a:
+*L_052d8:
+	\L_071ac:
+	ZH 1:
+	'Chắc chắn rồi, có lẽ'
+	R
+	'tôi sẽ vào trong một chút.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Tôi đoán là ngươi sẽ làm'
+	R
+	'thế! Được rồi, tiếp tục đi.'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Maria hướng dẫn'
+	R
+	'Rance vào Tulip 100.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ở đây khá chật'
+	R
+	'chội... Nó giống như kích'
+	R
+	'thước của một cái tủ vậy.'
+	\L_072d1:
+	ZH 1:
+	'Ngoài ra...'
+	\L_072d1:
+	ZH 1:
+	'Đây là gì? Có một'
+	R
+	'loạt các máy đo. Căn phòng'
+	R
+	'này được trang trí quá tệ.'
+	\L_072d1:
+	ZH 1:
+	'Đây có phải là tất'
+	R
+	'cả những gì ở đây không? Nó'
+	R
+	'trông rất lớn từ bên ngoài.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Ừ, thế đấy. Phần chiều'
+	R
+	'dài còn lại của thứ này dành'
+	R
+	'cho động cơ đẩy nó lên trời.'
+	\L_072d1:
+	ZH 1:
+	'... Sớm... Sẽ'
+	R
+	'sớm kết thúc thôi.'
+	\L_072d1:
+	ZH 1:
+	'Này, Rance...'
+	R
+	'Có khả năng là tôi sẽ không'
+	R
+	'thể quay lại được, nhưng...'
+	\L_072d1:
+	ZH 1:
+	'Tôi xin lỗi nếu'
+	R
+	'điều đó xảy ra.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Hả?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Tulip 100 có thể'
+	R
+	'bay vượt bầu trời, nhưng có'
+	R
+	'thể không quay trở lại được.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'............'
+	\L_072d1:
+	ZH 1:
+	'Cái gì, nó thực sự'
+	R
+	'nguy hiểm đến vậy à?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Con tàu đầu tiên và tàu'
+	R
+	'lượn đầu tiên cũng vậy...'
+	\L_072d1:
+	ZH 1:
+	'Họ đều đã vượt'
+	R
+	'qua được nguy hiểm.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'... Vậy để người khác'
+	R
+	'lái nó thì sao? Vâng,'
+	R
+	'hãy để Barres cưỡi nó.'
+	\L_072d1:
+	ZH 1:
+	'Không ai quan'
+	R
+	'tâm nếu anh ta chết.'
+	\L_072d1:
+	\L_072c4:
+	\L_07238:
+	ZH 1:
+	'Rance... Cậu'
+	R
+	'không hiểu đâu...'
+	\L_072d1:
+	ZH 1:
+	'Anh yêu em,'
+	R
+	'nhưng đổi lại em sẽ không'
+	R
+	'chỉ yêu một mình anh...'
+	\L_072d1:
+	ZH 1:
+	'Vậy là... anh không thể'
+	R
+	'ở bên em được nữa....tôi...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Này, Maria. Điều đó sẽ'
+	R
+	'tốt thôi. Tôi đã sẵn sàng.'
+	R
+	'Chúng tôi đang làm điều đó.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Không, tôi muốn'
+	R
+	'lái nó... Đó là mục'
+	R
+	'đích tôi tạo ra nó.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Không, tôi không'
+	R
+	'thể cho phép điều đó.'
+	\L_072d1:
+	ZH 1:
+	'Ngươi nghĩ tôi'
+	R
+	'sẽ ngồi đây và để người phụ'
+	R
+	'nữ của tôi gặp nguy hiểm?!!'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance nhảy dựng lên.'
+	\L_072d1:
+	ZH 1:
+	'） bang）'
+	\L_072d1:
+	ZH 1:
+	'（nhấp chuột）'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Hả!!??'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Áaaaaaaaaa!!'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'C-Gì vậy?'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'（whiiiiiiiir）'
+	\L_072d1:
+	ZH 1:
+	'［Khóa an toàn đã được'
+	R
+	'mở. Chuẩn bị ra mắt.］ Hả...?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Ah... Aah... Chúng'
+	R
+	'ta nên làm gì đây?!'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'［Bắt đầu đếm'
+	R
+	'ngược.20, 19, 18...］ Maria!'
+	R
+	'Chuyện gì đã xảy ra thế?'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'［16, 15, 14, 13］'
+	R
+	'Đồ ngốc... Ngươi đã'
+	R
+	'nhấn nút khởi chạy.'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'［9, 8, 7, 6,'
+	R
+	'5］ Trời!! Chúng ta không'
+	R
+	'thể ngăn nó lại sao!?'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'［3, 2］ Đ-Chúng ta'
+	R
+	'đã hết thời gian rồi...!!'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'））））'
+	\L_072d1:
+	ZH 1:
+	'（RUMBLEEEEE!!!!!）'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ôi!!'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Ôi!!'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Lực mạnh tấn'
+	R
+	'công Rance và Maria.'
+	\L_072d1:
+	ZH 1:
+	'［0, cất cánh.］'
+	\L_072d1:
+	{VAR0071 \ 0:
+		SS 0:
+	}
+	!VAR0000 : 63!
+	\L_07190:
+	ZH 1:
+	', rumbleeeeeeee.'
+	\L_072d1:
+	ZH 1:
+	'Chiếc Tulip 100'
+	R
+	'bay cao lên trời.'
+	\L_072d1:
+	PF1 VAR0056:
+	\L_072f8:
+	EC 0:
+	SS 0:
+	PF0 VAR0056:
+	\L_0719e:
+	!VAR0516 : 1063!
+	\L_072a8:
+	!VAR0516 : 1!
+	\L_07200:
+	!VAR0516 : 50!
+	\L_07270:
+	\L_071ac:
+	ZH 1:
+	'Cái gì cơ?!! Cô'
+	R
+	'đang ở đâu vậy?!!'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Ah... Aah...'
+	R
+	'Không thể nào...'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'［Tháo tên lửa 1］ （kachunk）'
+	\L_072d1:
+	ZH 1:
+	'） ruuumbleeeeee）'
+	\L_072d1:
+	ZH 1:
+	'（...rumbleee...）'
+	\L_072d1:
+	ZH 1:
+	'　　（............）'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ừm...? Nó trở'
+	R
+	'nên khá yên tĩnh.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Ừ.'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance nhìn ra ngoài qua'
+	R
+	'một cửa sổ nhỏ trong phòng.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Đây là cái gì...?'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance và Maria nhìn'
+	R
+	'thấy lục địa mà họ vừa đến.'
+	R
+	'Vâng... Toàn bộ sự việc.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'... Cái quái gì thế...?'
+	\L_072d1:
+	ZH 1:
+	'Mọi thứ trông nhỏ hơn nhiều'
+	R
+	'so với khi nhìn từ Thành phố'
+	R
+	'Toushin khi nó đang bay...'
+	\L_072d1:
+	ZH 1:
+	'Điều đó có nghĩa là'
+	R
+	'chúng ta thậm chí còn cao'
+	R
+	'hơn thế nữa phải không??'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Rance... Tôi xin'
+	R
+	'lỗi... Đây là chuyện'
+	R
+	'của chúng tôi...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Chúng ta có thể'
+	R
+	'không quay lại được không?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Ừ...'
+	\L_072d1:
+	ZH 1:
+	'Tôi chưa làm'
+	R
+	'thiết bị để về...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'.............'
+	\L_072d1:
+	ZH 1:
+	'Chúng ta có bị mắc'
+	R
+	'kẹt ở đây mãi mãi không?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Ừ...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ồ vâng, còn đồ ăn thì sao?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Có giá'
+	R
+	'trị trong hai tuần cho'
+	R
+	'trường hợp khẩn cấp...'
+	\L_072d1:
+	ZH 1:
+	'Đối với hai người, nó'
+	R
+	'sẽ kéo dài một tuần...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Uuh, chúng ta'
+	R
+	'nên làm gì đây?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Tôi không biết...'
+	\L_072d1:
+	ZH 1:
+	'Cũng không còn'
+	R
+	'nhiên liệu nên chúng ta'
+	R
+	'cứ trôi đi như thế này…'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'............'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Rance.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'.........'
+	\L_072d1:
+	ZH 1:
+	'Ch. Vâng, những'
+	R
+	'gì xảy ra, xảy ra.'
+	\L_072d1:
+	\L_072c4:
+	SS 24:
+	\L_0721c:
+	ZH 1:
+	'Hả...?'
+	\L_072d1:
+	ZH 1:
+	'Ôi...!'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance ôm Maria'
+	R
+	'và cưỡng hôn cô.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Đ-Đợi đã, Rance!'
+	R
+	'Cậu đang làm gì thế?!'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Tất nhiên là tình dục.'
+	\L_072d1:
+	ZH 1:
+	'Chúng ta có phòng'
+	R
+	'riêng và chỉ có một mình,'
+	R
+	'chúng ta có thể làm gì khác?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Nếu chúng ta sử dụng'
+	R
+	'quá nhiều năng lượng, oxy'
+	R
+	'sẽ cạn kiệt nhanh hơn...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ai quan tâm?'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance nắm chặt ngực Maria.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'À...!'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Gahahahaha!'
+	\L_072d1:
+	\L_072c4:
+	PF1 VAR0056:
+	EC 0:
+	PF0 VAR0056:
+	\L_071e4:
+	ZH 1:
+	'Rance và Maria bị'
+	R
+	'ném vào không gian... Chuyện'
+	R
+	'gì sẽ xảy ra với họ...?'
+	\L_072d1:
+	ZH 1:
+	'Liệu Tulip 100 có trôi'
+	R
+	'dạt đến lục địa khác trước'
+	R
+	'khi hết thức ăn không...?'
+	\L_072d1:
+	\L_072c4:
+	\L_07238:
+	ZH 1:
+	'... Chúng ta có'
+	R
+	'thể sẽ chết sớm thôi.'
+	\L_072d1:
+	ZH 1:
+	'Nhưng bây giờ tôi'
+	R
+	'có thể có Rance cho riêng'
+	R
+	'mình như tôi mong muốn...'
+	\L_072d1:
+	ZH 1:
+	'Tôi đoán vậy...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Có chuyện gì vậy Maria?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Ồ, không có gì...'
+	\L_072d1:
+	ZH 1:
+	'Chạy đua...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ừm?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Anh yêu em...'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'TRÒ CHƠI KẾT THÚC'
+	\L_072d1:
+	\L_072c4:
+	!VAR0805 : 5!
+	&#OVER.ADV:
+*L_05ddb:
+	!VAR0429 : 2!
+	\L_071ac:
+	ZH 1:
+	'Maria, về thứ em'
+	R
+	'đang làm bây giờ...'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Lò phản ứng tốc độ cao?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ừ, cái đó. Tôi có'
+	R
+	'cảm giác nó nguy hiểm. Đừng'
+	R
+	'làm việc đó nữa. Được rồi?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... O-Được'
+	R
+	'rồi, hiểu rồi. Tôi cũng'
+	R
+	'nghĩ nó sẽ nguy hiểm...'
+	\L_072d1:
+	ZH 1:
+	'Tôi rất vui'
+	R
+	'vì ngươi đã hỏi.'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Maria thở phào nhẹ nhõm.'
+	\L_072d1:
+	\L_072c4:
+	@L_05fed:
+*L_05e9b:
+	!VAR0430 : 2!
+	\L_071ac:
+	ZH 1:
+	'Maria, về chiếc Tulip'
+	R
+	'100 mà ngươi đang làm...'
+	R
+	'Ngươi có định lái nó không?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... C-À, ừ...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Dù thế nào'
+	R
+	'đi nữa, hãy ngừng làm'
+	R
+	'việc đó đi. Được rồi?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Cái gì, tại sao?!'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Im đi. Đó là một'
+	R
+	'mệnh lệnh. Tắt nó đi.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Tại sao...?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Bởi vì tôi'
+	R
+	'không thích nó. Hãy ngừng'
+	R
+	'làm việc với Tulip 100.'
+	\L_072d1:
+	ZH 1:
+	'Tháo rời những'
+	R
+	'gì ngươi đã làm và sử dụng'
+	R
+	'nó làm củi hoặc thứ gì đó.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Nhưng...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Hiểu chưa?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Đ-Được rồi...'
+	\L_072d1:
+	\L_072c4:
+	@L_05fed:
+*L_05fed:
+	\L_071ac:
+	ZH 1:
+	'Vậy thì tôi sẽ'
+	R
+	'đi đây. Thấy ngươi.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Được rồi, lúc nào'
+	R
+	'đó hãy quay lại nhé.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Tôi không biết...'
+	\L_072d1:
+	ZH 1:
+	'Có lẽ nếu ngươi'
+	R
+	'làm thứ gì đó gợi tình'
+	R
+	'hơn thì tôi sẽ quay lại.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Tôi sẽ không'
+	R
+	'làm những việc như'
+	R
+	'thế đâu! Ngốc nghếch!'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Gahahahaha! Dù'
+	R
+	'sao, gặp lại ngươi sau.'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance rời viện nghiên cứu.'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_060ce:
+	!VAR0428 : 15!
+	!VAR0426 : 3!
+	!VAR0154 : 16!
+	!VAR0102 : 0!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_072a8:
+	!VAR0516 : 1!
+	\L_07200:
+	\L_071e4:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng yết kiến Rance'
+	R
+	'đang nhét một ít unyuun màu'
+	R
+	'hồng ướp lạnh qua ống hút.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ừm, cái này tốt đấy.'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 6!
+	\L_07270:
+	\L_0721c:
+	ZH 1:
+	'Vua Rance! Có rắc rối!'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Cái gì? Ngươi'
+	R
+	'có thai hay gì đó?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Đây không phải'
+	R
+	'là lúc để đùa giỡn.'
+	\L_072d1:
+	ZH 1:
+	'Tòa nhà nghiên cứu'
+	R
+	'của Maria phát nổ.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Hả...?'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Theo các nhà'
+	R
+	'nghiên cứu sống sót,'
+	\L_072d1:
+	ZH 1:
+	'một vụ nổ đã'
+	R
+	'xảy ra trong quá trình'
+	R
+	'nghiên cứu lò phản ứng.'
+	\L_072d1:
+	ZH 1:
+	'Nhiều người đã chết.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'... Nhưng Maria'
+	R
+	'vẫn ổn phải không?'
+	\L_072d1:
+	\L_072c4:
+	{VAR0552 \ 1:
+		!VAR0428 : 100!
+		!VAR0426 : 100!
+		\L_0721c:
+		ZH 1:
+		'............'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'... Có phải nàng không...?'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'Rõ ràng nàng là'
+		R
+		'trung tâm của vụ nổ...'
+		\L_072d1:
+		ZH 1:
+		'Thậm chí không có'
+		R
+		'bất kỳ tàn tích nào'
+		R
+		'trên cơ thể nàng...'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'............'
+		\L_072d1:
+		ZH 1:
+		'Vậy thì ngươi đang'
+		R
+		'nói rằng nàng đã chết...'
+		\L_072d1:
+		\L_072c4:
+		\L_0721c:
+		ZH 1:
+		'............'
+		\L_072d1:
+		\L_072c4:
+		\L_071ac:
+		ZH 1:
+		'.........'
+		\L_072d1:
+		ZH 1:
+		'... Chết tiệt...!!'
+		\L_072d1:
+		\L_072c4:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	\L_0721c:
+	ZH 1:
+	'Vâng...'
+	\L_072d1:
+	ZH 1:
+	'Nàng hiện đang ở bệnh'
+	R
+	'viện, nhưng tính mạng của'
+	R
+	'nàng không gặp nguy hiểm.'
+	\L_072d1:
+	ZH 1:
+	'Nàng sẽ bình phục hoàn'
+	R
+	'toàn trong khoảng hai tuần.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ta hiểu rồi... Gửi'
+	R
+	'cho nàng một món quà'
+	R
+	'chúc sức khỏe cho ta.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Có.'
+	\L_072d1:
+	\L_072c4:
+	\L_071c8:
+	ZH 1:
+	'Maria... Ngươi đã'
+	R
+	'làm gì với chính mình? Điều'
+	R
+	'đó thực sự rất nguy hiểm...'
+	\L_072d1:
+	ZH 1:
+	'Có lẽ nàng ghét làm'
+	R
+	'việc trên thiết bị đó...'
+	\L_072d1:
+	ZH 1:
+	'Trong trường'
+	R
+	'hợp đó, lẽ ra nàng nên'
+	R
+	'nói vậy thôi... Đồ ngốc!'
+	\L_072d1:
+	\L_072c4:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_06447:
+	!VAR0426 : 6!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_072a8:
+	!VAR0516 : 1!
+	\L_07200:
+	!VAR0516 : 6!
+	\L_07270:
+	\L_071e4:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng yết kiến Thưa'
+	R
+	'vua Rance, hôm nọ cô Maria'
+	R
+	'đã được xuất viện an toàn.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ta hiểu rồi. Tốt đấy.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Nàng đến đây để'
+	R
+	'gặp cậu. Tôi có nên'
+	R
+	'cho nàng qua không?'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Ừ, cứ tiếp tục đi.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Vâng, hiểu rồi.'
+	\L_072d1:
+	\L_072c4:
+	\L_0727e:
+	!VAR0516 : 50!
+	\L_07270:
+	\L_0721c:
+	ZH 1:
+	'Chạy đua...'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'Này, cô trông'
+	R
+	'ổn đấy. Tốt, tốt.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Tôi xin lỗi...'
+	R
+	'Vì tôi mà các nhà nghiên cứu'
+	R
+	'của tôi đã bị tổn thương...'
+	\L_072d1:
+	ZH 1:
+	'Ngoài ra, viện'
+	R
+	'nghiên cứu đã bị phá hủy...'
+	\L_072d1:
+	\L_072c4:
+	\L_07254:
+	ZH 1:
+	'Khi Maria nhận thấy'
+	R
+	'nước mắt đang dâng lên trong'
+	R
+	'mắt mình, cô cúi đầu xuống.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'... Việc gì đã xong,'
+	R
+	'đừng lo lắng. Chúng ta có'
+	R
+	'thể xây dựng một cái khác...'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'Không... Đừng bận'
+	R
+	'tâm... Tôi xin lỗi.'
+	\L_072d1:
+	\L_072c4:
+	\L_071ac:
+	ZH 1:
+	'... Ta hiểu rồi.'
+	\L_072d1:
+	ZH 1:
+	'Đừng lo lắng về điều'
+	R
+	'đó. Hãy tiếp tục làm việc'
+	R
+	'cho ta như cô đã từng làm.'
+	\L_072d1:
+	\L_072c4:
+	\L_0721c:
+	ZH 1:
+	'... Được rồi.'
+	\L_072d1:
+	\L_072c4:
+	!VAR0154 : 16!
+	!VAR0102 : 2!
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_06677:
+	\L_071c8:
+	ZH 1:
+	'Được rồi, có lẽ tôi'
+	R
+	'sẽ nhìn qua lỗ nhìn trộm.'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'Rance bước vào một'
+	R
+	'căn phòng bí mật phía sau'
+	R
+	'Viện Nghiên cứu Hoa Tulip.'
+	\L_072d1:
+	\L_072c4:
+	\L_071c8:
+	ZH 1:
+	'Tôi chỉ cần sử'
+	R
+	'dụng chiếc chìa khóa bí mật'
+	R
+	'duy nhất mà tôi có, và...'
+	\L_072d1:
+	\L_072c4:
+	\L_071e4:
+	ZH 1:
+	'（nhấp chuột...）'
+	\L_072d1:
+	\L_072c4:
+	\L_071c8:
+	ZH 1:
+	'Được rồi, tốt.'
+	\L_072d1:
+	ZH 1:
+	'Tất nhiên, nó được làm để'
+	R
+	'họ không thể thấy được cái'
+	R
+	'lỗ đang mở từ phía bên kia.'
+	\L_072d1:
+	ZH 1:
+	'Bằng cách đó sẽ không ai'
+	R
+	'biết tôi đang làm gì. Đây là'
+	R
+	'quyền đặc biệt của nhà vua.'
+	\L_072d1:
+	ZH 1:
+	'Bây giờ hãy xem... Ừm...'
+	\L_072d1:
+	ZH 1:
+	'... Ồ.'
+	\L_072d1:
+	ZH 1:
+	'... Ồ...'
+	\L_072d1:
+	ZH 1:
+	'Ố ồ...'
+	\L_072d1:
+	\L_072c4:
+	PF1 VAR0056:
+	G 806:
+	G 150:
+	\L_0728c:
+	ZH 1:
+	'Rance（Họ đang nói về điều'
+	R
+	'gì đó... Hãy nghe này...）'
+	PF0 VAR0056:
+	\L_072d1:
+	ZH 1:
+	'Rance đã nghe lén họ.'
+	\L_072d1:
+	{(VAR0428 > 12) * (VAR0429 = 0):
+		!VAR0429 : 1!
+		ZH 1:
+		'Cô gái 1 「Này... Dự án đó có ổn không?」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 2 「Cậu đang nói về'
+		R
+		'lò phản ứng tốc độ cao à?」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 1 「Ừ, cái đó!」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Tôi cũng nghĩ nó nguy hiểm...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 1 「Nếu những trợ lý như chúng tôi'
+		\L_072d1:
+		ZH 1:
+		'nghĩ rằng nó nguy hiểm thì bác sĩ'
+		R
+		'Maria cũng nghĩ vậy,」 phải không...?」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Tôi cũng nghĩ vậy, nhưng...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 2 「Tôi nghe từ một cô gái khác rằng'
+		R
+		'Vua Rance rất mong chờ lò phản ứng...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 1 「Aah... Vậy là nàng'
+		R
+		'không thể dừng lại được...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 2 「Ừ... Nhưng nó vẫn nguy hiểm.'
+		R
+		'Ai biết khi nào nó có thể phát nổ...?」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Ừ...'
+		\L_072d1:
+		ZH 1:
+		'Bác sĩ Maria có thể không đưa ra ý'
+		R
+		'kiến của mình với Vua Rance không...?」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 1 「... Nếu nàng làm vậy,'
+		R
+		'hắn sẽ nói “Anh sẽ nghe lời em,'
+		\L_072d1:
+		ZH 1:
+		'nên hãy để anh đụ em’ hay gì đó,'
+		R
+		'và cô không thích điều đó...」'
+		\L_072d1:
+		ZH 1:
+		'Các cô gái 「Kyahahahaha!! Đó'
+		R
+		'hoàn toàn là điều sẽ xảy ra!」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 1 「... Nhưng...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 「Ừ... Nguy hiểm lắm, tôi không thích nó...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Tôi muốn dừng lại, nhưng tôi'
+		R
+		'cũng không muốn bỏ rơi bác sĩ Maria...'
+		\L_072d1:
+		ZH 1:
+		'Tệ rồi...」'
+		\L_072d1:
+		ZH 1:
+		'Trời ạ...」'
+		\L_072d1:
+		ZH 1:
+		'Cuộc đua（............）'
+		\L_072d1:
+		ZH 1:
+		'Chạy trốn（???'
+		\L_072d1:
+		ZH 1:
+		'Rance（Ý họ là sao, nguy hiểm quá…?'
+		R
+		'Maria chưa nói gì về chuyện đó...）'
+		\L_072d1:
+		ZH 1:
+		'Rance（Hmmmmm... Không biết có'
+		R
+		'chuyện gì xảy ra không nhỉ...）'
+		\L_072d1:
+		ZH 1:
+		'Rance rời đi trong khi đang suy nghĩ.'
+		\L_072d1:
+		\L_072c4:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	Y 4, 5:
+	{(VAR0428 > 5) * (VAR0000 = 1) * (VAR0430 = 0):
+		!VAR0430 : 1!
+		ZH 1:
+		'Cô gái 1'
+		R
+		'「Này, cậu đã nghe nói'
+		R
+		'về bác sĩ Maria chưa?」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 1'
+		R
+		'「Rõ ràng là nàng định đi'
+		R
+		'trên chiếc Tulip 100.」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 2 「Ồ,」 thật sao?'
+		\L_072d1:
+		ZH 1:
+		'Chẳng phải trước'
+		R
+		'tiên chúng ta định'
+		\L_072d1:
+		ZH 1:
+		'cho Hanny cưỡi nó như'
+		R
+		'một cuộc thử nghiệm sao?」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Ừ,'
+		R
+		'và cơ hội quay trở lại thành'
+		R
+		'công chỉ trong 0,03%...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 1 「Ừ...」'
+		\L_072d1:
+		ZH 1:
+		'Tôi thắc mắc tại sao'
+		R
+		'cô lại muốn làm điều đó.'
+		\L_072d1:
+		ZH 1:
+		'Nếu là tôi, tôi sẽ'
+		R
+		'sợ không dám cưỡi nó...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 2'
+		R
+		'「Có lẽ nàng đã có một'
+		R
+		'trái tim tan vỡ...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Hả...? Nhưng'
+		R
+		'bác sĩ Maria, cậu biết đấy,'
+		R
+		'như thế này với King Rance.」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 1'
+		R
+		'「Kyaaah! Đừng chạm vào tôi'
+		R
+		'như thế nữa! Thật bẩn thỉu!」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Ồ, thôi nào!」'
+		\L_072d1:
+		ZH 1:
+		'Rance（Maria sẽ'
+		R
+		'lái chiếc Tulip 100? Ý'
+		R
+		'nghĩa của việc này là gì?）'
+		\L_072d1:
+		ZH 1:
+		'Rance（Nó chỉ có 0,03%'
+		R
+		'cơ hội quay trở lại...'
+		\L_072d1:
+		ZH 1:
+		'Nếu là tôi,'
+		\L_072d1:
+		ZH 1:
+		'tôi sẽ giống như những'
+		R
+		'cô gái này và không làm điều'
+		\L_072d1:
+		ZH 1:
+		'đó...) Rance（Cô muốn'
+		R
+		'chết cùng với thứ cô tạo'
+		R
+		'ra nhiều đến vậy sao??）'
+		\L_072d1:
+		ZH 1:
+		'Rance nghĩ'
+		R
+		'thầm khi rời đi.'
+		\L_072d1:
+		\L_072c4:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	Y 4, 3:
+	{VAR0000 = 1:
+*L_06bbd:
+		ZH 1:
+		'Rance（Ừm. Những'
+		R
+		'thứ gợi cảm.'
+		R
+		'Guhehehehehehehehehe heheh.）'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 1 「Aaah,'
+		R
+		'hôm nay tôi hơi mệt.」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 2 「Ừ, tôi cũng vậy.'
+		R
+		'Muốn đi ăn nhà hàng hay gì'
+		R
+		'đó trên đường về nhà không?」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Tôi muốn đến'
+		R
+		'vườn bia. Một cốc bia lạnh,」'
+		\L_072d1:
+		ZH 1:
+		'ngon chỉ'
+		R
+		'là thứ dành cho ngươi'
+		R
+		'khi ngươi kiệt sức...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 1'
+		R
+		'「Cái gì?! Tôi muốn đặt một'
+		R
+		'suất bánh ở quán cà phê.」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 2'
+		R
+		'「Tôi muốn uống rượu sake'
+		R
+		'nóng ở quán yakitori...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 1 「Chắc chắn'
+		R
+		'là không muốn điều đó.」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Tôi cũng vậy.」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 2'
+		R
+		'「Cái gì, tại sao?!」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Chúng'
+		R
+		'ta sẽ đến quán bia!」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 1'
+		R
+		'「Bánh, bánh, bánh!!」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 2'
+		R
+		'「Được rồi... Hãy chơi trò'
+		R
+		'oẳn tù tì để quyết định!」'
+		\L_072d1:
+		ZH 1:
+		'Các cô gái'
+		R
+		'「Rooock, paaaper, kéo!」'
+		\L_072d1:
+		ZH 1:
+		'Rance（Ta đoán'
+		R
+		'con gái cũng làm'
+		R
+		'được rất nhiều việc.'
+		\L_072d1:
+		ZH 1:
+		'Đây là một kinh'
+		R
+		'nghiệm học tập tốt.'
+		\L_072d1:
+		ZH 1:
+		'Phải viết cái này'
+		R
+		'ra...) Rance ghi chép'
+		R
+		'khi rời khỏi tòa nhà.'
+		\L_072d1:
+		{VAR0520 = 300:
+			%0:
+		}
+	}
+	{VAR0000 = 2:
+		ZH 1:
+		'Cô gái 2 「Vậy'
+		R
+		'hôm nay Fukuda, người bảo'
+		R
+		'vệ đó, đã hẹn hò với tôi.」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 1 「Thật sao?!!'
+		R
+		'Điều đó thật tuyệt...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「... Chắc'
+		R
+		'mắt cậu có vấn đề rồi.」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 1 「Hả...? Tôi'
+		R
+		'nghĩ Fukuda trông khá bình'
+		R
+		'thường. Thế là đủ rồi...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Khi còn'
+		R
+		'trẻ, cậu có thể dám đặt'
+		R
+		'mục tiêu cao hơn thế.」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Cậu thậm'
+		R
+		'chí có thể nói đây'
+		\L_072d1:
+		ZH 1:
+		'là lần duy nhất cậu có'
+		R
+		'thể nhắm mục tiêu cao hơn.」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 2'
+		R
+		'「Đó là một lý thuyết'
+		R
+		'khá khắc nghiệt ...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Vậy cậu'
+		R
+		'có định có cậu trai không?」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Cá nhân'
+		R
+		'tôi không thực sự quan tâm'
+		R
+		'đến việc có được một cái!」'
+		\L_072d1:
+		ZH 1:
+		'Các cô'
+		R
+		'gái 「Kyaaaaaaah! Ahahahaha!」'
+		\L_072d1:
+		ZH 1:
+		'Rance(...'
+		\L_072d1:
+		ZH 1:
+		'Ta biết các cô gái nói'
+		R
+		'xấu sau lưng các chàng trai,'
+		\L_072d1:
+		ZH 1:
+		'nhưng ta thấy phát ngán'
+		R
+		'khi xem nó...)) Rance xoa'
+		R
+		'bụng khi rời khỏi tòa nhà.'
+		\L_072d1:
+	}
+	{VAR0000 = 3:
+		ZH 1:
+		'Cô gái 2 「Này, cậu đã'
+		R
+		'đọc bài báo hôm nay chưa?」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3'
+		R
+		'「Ừ, cậu đang nói về'
+		R
+		'quảng cáo giảm giá à?」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 2 「Ừ!'
+		R
+		'Giảm giá 60% cho các'
+		R
+		'mặt hàng hàng hiệu...'
+		\L_072d1:
+		ZH 1:
+		'Cứ như một giấc mơ vậy...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 1 「Tôi muốn đi...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 2 「Vậy hôm nay'
+		R
+		'chúng ta có nên đi không?」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Chắc chắn'
+		R
+		'rồi... Chúng ta có thể'
+		R
+		'đi uống nước sau đó.」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 2 「À, tôi thích'
+		R
+		'đi chơi bowling hơn thế.」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 1 「Auto'
+		R
+		'tennis sẽ rất tuyệt...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Sau một ngày'
+		R
+		'làm việc vất vả và tiêu'
+		\L_072d1:
+		ZH 1:
+		'tốn nhiều'
+		R
+		'năng lượng hơn,」 làm sao'
+		R
+		'cậu có thể tập thể dục?!」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Ngoài ra,'
+		R
+		'nếu chúng ta đến quán bar,'
+		\L_072d1:
+		ZH 1:
+		'ngay cả khi chúng ta hết'
+		R
+		'tiền,」 miễn là có một nhóm'
+		\L_072d1:
+		ZH 1:
+		'con trai đến thì chúng'
+		R
+		'ta có thể bắt họ trả tiền.」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 1 「Anh'
+		R
+		'lúc nào cũng tham lam khi'
+		R
+		'tiết kiệm tiền uống rượu...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Chà, dù sao thì'
+		R
+		'họ cũng chỉ đến với hy vọng'
+		R
+		'gặp được con gái thôi mà...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Vậy nên'
+		R
+		'tôi đang chôn vùi nỗi cô'
+		R
+		'đơn của họ. Đó là 50/50.」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Ngoài ra,」'
+		R
+		'những người tôi thường làm'
+		R
+		'việc này đều là những người'
+		\L_072d1:
+		ZH 1:
+		'lớn tuổi hơn và'
+		R
+		'có rất nhiều tiền,'
+		\L_072d1:
+		ZH 1:
+		'nên tôi không thực'
+		R
+		'sự cảm thấy tệ đâu.」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 2 「Tôi'
+		R
+		'muốn thử làm điều đó...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3'
+		R
+		'「Vậy thì quyết định'
+		R
+		'rồi! Đi uống nào!」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 1'
+		R
+		'「Tôi-tôi sẽ vượt qua...」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái 3 「Ồ, thôi'
+		R
+		'nào. Hãy đến khu mua sắm giá'
+		R
+		'hời rồi đi uống rượu nhé.」'
+		\L_072d1:
+		ZH 1:
+		'Cô gái'
+		R
+		'1 「Kyaaaah, kyaaaaaah!」'
+		\L_072d1:
+		ZH 1:
+		'Rance(... Con gái'
+		R
+		'có thể khá đáng sợ...)'
+		\L_072d1:
+		ZH 1:
+		'Rance bị đẩy đến'
+		R
+		'giới hạn của tư duy triết'
+		R
+		'học khi rời khỏi tòa nhà.'
+		\L_072d1:
+	}
+	\L_072c4:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_07190:
+	!VAR0516 : 0!
+	%#PCMPLAY.ADV:
+	\0:
+*L_0719e:
+	!VAR0516 : 3!
+	%#PCMPLAY.ADV:
+	\0:
+*L_071ac:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_071c8:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_071e4:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_07200:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0721c:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+*L_07238:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+*L_07254:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_07270:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0727e:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0728c:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_072a8:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_072c4:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_072d1:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 3!
+	%#WAO_SUB.ADV:
+	\0:
+*L_072f8:
+	!VAR0521 : 4!
+	%#WAO_SUB.ADV:
+	\0:

@@ -1,0 +1,34 @@
+# Executables and binaries
+*.exe
+*.dll
+xsys35c_tools/
+
+# Python scripts, tools, and caches
+tools/
+scratch/
+*.py
+*.pyc
+__pycache__/
+
+# Original Japanese backups and game audio
+orig_backup/
+bgm/
+Kichikuou Rance.zip
+_inmm.ini
+xsys_log.txt
+*.asd
+KICHIKUGB.ALD
+KICHIKUWA.ALD
+System39.org
+cheat_config.json
+
+# Temporary and test directories
+test_dummy/
+test_pms/
+test_archiveb.ald
+translate_all.bat
+play_game.bat
+
+# System / OS
+Thumbs.db
+.DS_Store

@@ -1,0 +1,3201 @@
+	{VAR0520 = 1:
+		@L_00099:
+	}
+	{VAR0520 = 2:
+		@L_01596:
+	}
+	{VAR0520 = 3:
+		@L_01a5b:
+	}
+	{VAR0520 = 4:
+		@L_02220:
+	}
+	{VAR0520 = 5:
+		@L_027ef:
+	}
+	{VAR0520 = 300:
+		@L_03282:
+	}
+*L_00099:
+	{VAR0564 = 7:
+		@L_027ef:
+	}
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1034!
+	\L_038e3:
+	!VAR0516 : 1!
+	\L_0383b:
+	SS 5:
+	\L_0381f:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　Genius Hospital'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Aya.'
+	\L_0390c:
+	ZH 1:
+	'Aya!'
+	\L_0390c:
+	ZH 1:
+	'Aaaaaaaaaayaaaaaaaaaaa!!'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Yeeees～?'
+	\L_0390c:
+	\L_038ff:
+	!VAR0516 : 79!
+	\L_038ab:
+	\L_03857:
+	ZH 1:
+	'Hello～, Your Majesty～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Mhm.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Are you here for a check-up～?'
+	\L_0390c:
+	\L_038ff:
+*L_001a1:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_001a1:
+	}
+	ZH 1:
+	$L_0037c$
+	'Talk to Aya'
+	$
+	{(VAR0428 = 15) * (VAR0426 < 6):
+		ZH 1:
+		$L_00d99$
+		'Maria’s Room'
+		$
+	}
+	{VAR0062 \ 0:
+		ZH 1:
+		$L_011f4$
+		'Milli’s Room'
+		$
+	}
+	{(VAR0486 = 2) * (VAR0480 \ 2):
+		ZH 1:
+		$L_00d84$
+		'Merim’s Room'
+		$
+	}
+	ZH 1:
+	$L_00248$
+	'Take a Walk'
+	$
+	]
+	@L_001a1:
+*L_00248:
+	\L_037e7:
+	ZH 1:
+	'I’m just taking a walk.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'In a hospital～?'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Yeah.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'You shouldn’t do that～.'
+	R
+	'Don’t come to hospitals to'
+	R
+	'take walks～, you’ll get'
+	R
+	'sick～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Whatever.'
+	R
+	'I go wherever’s on my walking'
+	R
+	'course.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Then～...'
+	\L_0390c:
+	ZH 1:
+	'As long as you’re here, please'
+	R
+	'test some new medicine～.'
+	R
+	'I was just looking for someone'
+	R
+	'healthy to test it on～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Oh, I just remembered there’s'
+	R
+	'something I need to do!'
+	R
+	'Farewell!!'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Okaaay～.'
+	R
+	'Take care of yourself～.'
+	\L_0390c:
+	\L_038ff:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_0037c:
+	!VAR0154 : 38!
+	{(VAR0102 \ 0) * (VAR0349 = 4):
+		!VAR0520 : 4!
+		%#Gｱﾆｽ.ADV:
+		SS VAR0515:
+		%0:
+	}
+	{VAR0564 = 0:
+		@L_00b2b:
+	}
+	{VAR0564 = 8:
+		@L_0040c:
+	}
+	Y 4, 3:
+	{VAR0000 = 1:
+		@L_0052b:
+	}
+	{VAR0000 = 2:
+		@L_00658:
+	}
+	{VAR0000 = 3:
+		@L_00818:
+	}
+*L_0040c:
+	\L_037e7:
+	ZH 1:
+	'Sex.'
+	R
+	'My hyper weapon wants to unite'
+	R
+	'with you.'
+	\L_0390c:
+	ZH 1:
+	'What the patient says is'
+	R
+	'absolute, right?'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Your Majesty, no more～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'But neither of us could be'
+	R
+	'satisfied after that one time,'
+	R
+	'right?'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Now, back to work～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Hey, don’t ignore me.'
+	R
+	'I’m the King.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Then you should do the King’s'
+	R
+	'work～. If you don’t, I’ll set'
+	R
+	'you up on an IV without meals.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Awawawah.'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Rance ran out of the hospital.'
+	\L_0390c:
+	\L_038ff:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_0052b:
+	\L_037e7:
+	ZH 1:
+	'I came to talk to you of'
+	R
+	'course, Aya.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Aah～.'
+	R
+	'I’m sorry～.'
+	R
+	'I’m busy right now～.'
+	R
+	'An emergency case came in～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Talking to me’s more important'
+	R
+	'than dealing with that.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'It’s a cute girl～.'
+	R
+	'Wouldn’t it be sad if I didn’t'
+	R
+	'treat them fast～?'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'That is true...'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Then...'
+	\L_0390c:
+	ZH 1:
+	'I come here to do my job.'
+	R
+	'You should do your job, too.'
+	\L_0390c:
+	\L_038ff:
+	\L_0388f:
+	ZH 1:
+	'Aya spoke to Rance in the same'
+	R
+	'manner she does to a patient'
+	R
+	'she’s taking care of.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Yeah, sure, sure.'
+	\L_0390c:
+	\L_038ff:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_00658:
+	\L_03857:
+	ZH 1:
+	'So～, Your Majesty.'
+	R
+	'How’s your body～?'
+	\L_0390c:
+	ZH 1:
+	'Please come for a check-up'
+	R
+	'sometime～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Naaaaah.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Then～, how about a'
+	R
+	'vaccination～?'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Naaaaah.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Then～, please take this'
+	R
+	'medicine, at least～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'What is that?'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Just some normal health'
+	R
+	'medicine～. Here... Ah...'
+	R
+	'Ah～…'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Ow, ow, hot!!'
+	\L_0390c:
+	\L_038ff:
+	\L_0388f:
+	ZH 1:
+	'Aya spilled tea all over'
+	R
+	'Rance’s knee.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Ahaha～, sorry, sorry～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Clumsy oaf!!'
+	\L_0390c:
+	ZH 1:
+	'Aah... I’m all wet...'
+	R
+	'I’m leaving for today.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Okaaay, take care of'
+	R
+	'yourself～～.'
+	\L_0390c:
+	\L_038ff:
+	\L_03803:
+	ZH 1:
+	'Man... I can’t believe she’s'
+	R
+	'supposed to be a genius'
+	R
+	'doctor...'
+	\L_0390c:
+	\L_038ff:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_00818:
+	\L_037e7:
+	ZH 1:
+	'Let’s go on a date today.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Aah～.'
+	R
+	'I’ve already got my hands full'
+	R
+	'today...'
+	\L_0390c:
+	ZH 1:
+	'Please ask again another time.'
+	R
+	'Now then.'
+	\L_0390c:
+	\L_038ff:
+	\L_038b9:
+	\L_0388f:
+	ZH 1:
+	'Aya rejected Rance’s'
+	R
+	'invitation in a stiff tone of'
+	R
+	'voice and walked away to the'
+	R
+	'examination room.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'What the?'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Rance followed after Aya and'
+	R
+	'peaked on her in the'
+	R
+	'examination room.'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　Genius Hospital - Aya’s Room'
+	\L_0390c:
+	\L_038ff:
+	!VAR0516 : 79!
+	\L_038ab:
+	\L_0381f:
+	ZH 1:
+	'Aya was focused on reading'
+	R
+	'some sort of document.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'What’s that?'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Rance thoughtlessly entered to'
+	R
+	'room and talked to Aya.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'An academic paper.'
+	R
+	'I have to read these to keep'
+	R
+	'up with the times.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Hmmm... So even doctors have'
+	R
+	'to study?'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'That’s correct.'
+	R
+	'Anyone in any occupation does.'
+	\L_0390c:
+	\L_038ff:
+	\L_0388f:
+	ZH 1:
+	'　　＜knock knock）'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Yeees?'
+	\L_0390c:
+	\L_038ff:
+	\L_0388f:
+	ZH 1:
+	'Dr. Aya!'
+	R
+	'The patient in Room 1055’s'
+	R
+	'condition changed all of a'
+	R
+	'sudden!'
+	\L_0390c:
+	ZH 1:
+	'The voice of a nurse at her'
+	R
+	'wits’ end came from the other'
+	R
+	'side of the door.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Okay.'
+	R
+	'I’ll head there immediately.'
+	\L_0390c:
+	ZH 1:
+	'Your Majesty!'
+	R
+	'Please bring that bag for me.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Sure!'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Rance was overwhelmed by Aya’s'
+	R
+	'intensity and followed her'
+	R
+	'instruction to take the bag.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'...Wait...'
+	\L_0390c:
+	ZH 1:
+	'I’m the King.'
+	R
+	'What am I doing...?'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Even still, Rance followed'
+	R
+	'after Aya with the bag in hand.'
+	\L_0390c:
+	\L_038ff:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_00b2b:
+	!VAR0564 : 1!
+	\L_037e7:
+	ZH 1:
+	'Of course, I came to deepen'
+	R
+	'the bond with my personal'
+	R
+	'doctor.'
+	\L_0390c:
+	ZH 1:
+	'Doctors and their patients'
+	R
+	'need to know each other.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'For sure～.'
+	R
+	'I knew you’d be one to'
+	R
+	'understand, Your Majesty～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Gahahahahahaha.'
+	R
+	'So come here.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Haah～?'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'There’s only one way a man and'
+	R
+	'woman can understand each'
+	R
+	'other. Come on.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'...Aaah... Are you talking'
+	R
+	'about sex～?'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Don’t be so blunt...'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'I refuse～.'
+	R
+	'I have no interest in sex～...'
+	R
+	'Please do it with somebody'
+	R
+	'else～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'............'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Since～... I’ve seen so many'
+	R
+	'nude men and their genitals'
+	R
+	'through my job, I can’t take'
+	R
+	'interest in them～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'...Mine’s different from those.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'I have a better idea～.'
+	R
+	'How about donating blood～?'
+	R
+	'Then I can learn about you'
+	R
+	'through your DNA～.'
+	\L_0390c:
+	\L_038ff:
+	\L_0388f:
+	ZH 1:
+	'Aya smiled and pulled out a'
+	R
+	'syringe and disinfectant.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Uh...'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Now, hold out your left hand～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'B-Bye then...'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Rance darted out of the'
+	R
+	'hospital as fast as a rabbit.'
+	\L_0390c:
+	\L_038ff:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_00d84:
+	SS 6:
+	!VAR0520 : 2!
+	%#Gﾒﾘﾑ.ADV:
+	SS VAR0515:
+	%0:
+*L_00d99:
+	SS 6:
+	{VAR0426 = 3:
+		!VAR0426 : 4!
+		\L_037e7:
+		ZH 1:
+		'I came to see Maria.'
+		R
+		'That okay?'
+		\L_0390c:
+		\L_038ff:
+		\L_03857:
+		ZH 1:
+		'No～.'
+		\L_0390c:
+		\L_038ff:
+		\L_037e7:
+		ZH 1:
+		'...Has she gotten worse?'
+		\L_0390c:
+		\L_038ff:
+		\L_03857:
+		ZH 1:
+		'No～... Her life’s in no'
+		R
+		'serious danger～.'
+		\L_0390c:
+		\L_038ff:
+		\L_037e7:
+		ZH 1:
+		'I see... Then...'
+		\L_0390c:
+		\L_038ff:
+		\L_03857:
+		ZH 1:
+		'No～... The wound to her soul'
+		R
+		'has yet to recover～.'
+		\L_0390c:
+		\L_038ff:
+		\L_037e7:
+		ZH 1:
+		'...Her soul?'
+		\L_0390c:
+		\L_038ff:
+		\L_03857:
+		ZH 1:
+		'Yes～...'
+		\L_0390c:
+		ZH 1:
+		'...A scar was left on Maria’s'
+		R
+		'body～...'
+		\L_0390c:
+		\L_038ff:
+		\L_037e7:
+		ZH 1:
+		'............'
+		\L_0390c:
+		\L_038ff:
+		\L_03857:
+		ZH 1:
+		'That has to be hard for any'
+		R
+		'girl～...'
+		\L_0390c:
+		\L_038ff:
+		\L_037e7:
+		ZH 1:
+		'I don’t care.'
+		R
+		'I’m going to see her anyway.'
+		\L_0390c:
+		\L_038ff:
+		\L_03857:
+		ZH 1:
+		'No～... As a doctor, I must'
+		R
+		'follow my patients’ wishes～.'
+		R
+		'Please leave～!'
+		\L_0390c:
+		\L_038ff:
+		\L_037e7:
+		ZH 1:
+		'............'
+		\L_0390c:
+		ZH 1:
+		'Fine... Damn it...'
+		\L_0390c:
+		ZH 1:
+		'Just tell Maria this.'
+		\L_0390c:
+		ZH 1:
+		'Failure is essential to'
+		R
+		'experimentation. Don’t worry'
+		R
+		'about it.'
+		\L_0390c:
+		\L_038ff:
+		\L_03857:
+		ZH 1:
+		'Okay～, I will～.'
+		\L_0390c:
+		\L_038ff:
+		\L_0381f:
+		ZH 1:
+		'Aya bowed and Rance left the'
+		R
+		'Genius Hospital.'
+		\L_0390c:
+		\L_038ff:
+		!VAR0516 : 0!
+		%#M.ADV:
+		SS VAR0515:
+		%0:
+	}
+	{VAR0426 = 4:
+		!VAR0426 : 5!
+		\L_037e7:
+		ZH 1:
+		'I came to see Maria.'
+		\L_0390c:
+		ZH 1:
+		'Where’s her room?'
+		\L_0390c:
+		\L_038ff:
+		\L_03857:
+		ZH 1:
+		'Haah～, about Maria～, take'
+		R
+		'this～, Your Majesty～.'
+		\L_0390c:
+		\L_038ff:
+		\L_0381f:
+		ZH 1:
+		'Aya handed Rance a letter.'
+		\L_0390c:
+		\L_038ff:
+		\L_037e7:
+		ZH 1:
+		'What’s this?'
+		\L_0390c:
+		\L_038ff:
+		\L_03857:
+		ZH 1:
+		'A letter～, from Maria to'
+		R
+		'you～. Maria said～, she'
+		R
+		'doesn’t want to see you right'
+		R
+		'now～...'
+		\L_0390c:
+		\L_038ff:
+		\L_0381f:
+		ZH 1:
+		'Rance tore open the seal and'
+		R
+		'began reading the letter'
+		R
+		'inside.'
+		\L_0390c:
+		ZH 1:
+		'　［Sorry, Rance.'
+		\L_0390c:
+		ZH 1:
+		'　　I destroyed the research'
+		R
+		'  facility you so generously'
+		R
+		'  made for me. A lot of'
+		R
+		'  researchers were injured.'
+		\L_0390c:
+		ZH 1:
+		'  ...I’m sorry.'
+		R
+		'  And... Please give me a bit'
+		R
+		'  more time...         Maria］'
+		\L_0390c:
+		\L_038ff:
+		\L_037e7:
+		ZH 1:
+		'Hm... What’s this about?'
+		R
+		'More time for what...?'
+		\L_0390c:
+		\L_038ff:
+		\L_03857:
+		ZH 1:
+		'Your Majesty～, in any case,'
+		R
+		'please leave it there～...'
+		R
+		'That’s my patient’s wish～.'
+		\L_0390c:
+		\L_038ff:
+		\L_037e7:
+		ZH 1:
+		'...Okay...'
+		R
+		'Is she doing well?'
+		\L_0390c:
+		\L_038ff:
+		\L_03857:
+		ZH 1:
+		'Yes～.'
+		R
+		'She doesn’t eat that much, but'
+		R
+		'she eats enough～.'
+		\L_0390c:
+		\L_038ff:
+		\L_037e7:
+		ZH 1:
+		'That’s good enough.'
+		R
+		'I leave everything to you.'
+		\L_0390c:
+		\L_038ff:
+		\L_03857:
+		ZH 1:
+		'Okay～, I’ll do what I can～.'
+		\L_0390c:
+		\L_038ff:
+		\L_0381f:
+		ZH 1:
+		'Rance left Genius Hospital.'
+		\L_0390c:
+		\L_038ff:
+		!VAR0516 : 0!
+		%#M.ADV:
+		SS VAR0515:
+		%0:
+	}
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_011f4:
+	{VAR0427 = 0:
+		!VAR0427 : 1!
+	}
+	SS 6:
+	\L_037e7:
+	ZH 1:
+	'Can I see Milli?'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'...See her～?'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Yeah.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'This way, please～.'
+	\L_0390c:
+	\L_038ff:
+	\L_0388f:
+	ZH 1:
+	'Aya led Rance to a room where'
+	R
+	'light was blocked by a curtain,'
+	R
+	'that was filled with odd'
+	R
+	'machines, tubes and cords.'
+	\L_0390c:
+	ZH 1:
+	'On a bed in the middle of the'
+	R
+	'room was Milli, covered in'
+	R
+	'cords and tubes.'
+	\L_0390c:
+	ZH 1:
+	'The only sign she was alive'
+	R
+	'was the occasional heaving of'
+	R
+	'her chest.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'A lot of care in required to'
+	R
+	'keep her alive～...'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'I see...'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'I know that the disease'
+	R
+	'afflicting Milli is called'
+	R
+	'genfluenza, but～...'
+	\L_0390c:
+	ZH 1:
+	'A cure has yet to be found～...'
+	\L_0390c:
+	ZH 1:
+	'Of course～... I’ve heard of'
+	R
+	'herbs that can stop the'
+	R
+	'disease from progressing,'
+	R
+	'but～... They’re very rare～...'
+	\L_0390c:
+	ZH 1:
+	'Even with those, though, it'
+	R
+	'can only be suppressed, not'
+	R
+	'cured～...'
+	\L_0390c:
+	ZH 1:
+	'I’ve checked several books～,'
+	R
+	'and asked experts around the'
+	R
+	'world, but～...'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'............'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Rance looked at Milli.'
+	R
+	'Her skin was pale, her eyes'
+	R
+	'hollow, her cheeks sunk in and'
+	R
+	'she had grown thin.'
+	\L_0390c:
+	\L_038ff:
+	!VAR0154 : 25!
+	{VAR0102 \ 0:
+		\L_038b9:
+		!VAR0516 : 68!
+		\L_038ab:
+		\L_03857:
+		ZH 1:
+		'What...?'
+		R
+		'Why can’t you cure her?'
+		\L_0390c:
+		ZH 1:
+		'You quack!!'
+		R
+		'If you kill my sister I’ll'
+		R
+		'never forgive you!!'
+		\L_0390c:
+		ZH 1:
+		'Uu... Waah... Waaaaaaah!'
+		\L_0390c:
+		\L_038ff:
+		\L_0388f:
+		ZH 1:
+		'Mill pounded on Aya with her'
+		R
+		'tiny fists.'
+		\L_0390c:
+		\L_038ff:
+		\L_037e7:
+		ZH 1:
+		'Aya’s trying to help, Mill.'
+		R
+		'Be more respectful.'
+		\L_0390c:
+		\L_038ff:
+		\L_03857:
+		ZH 1:
+		'But... But...!'
+		\L_0390c:
+		\L_038ff:
+		\L_037e7:
+		ZH 1:
+		'The staff here are doing'
+		R
+		'everything they can.'
+		\L_0390c:
+		\L_038ff:
+		\L_03857:
+		ZH 1:
+		'Uu...'
+		\L_0390c:
+		ZH 1:
+		'...I’m sorry...'
+		\L_0390c:
+		\L_038ff:
+		\L_038b9:
+		!VAR0516 : 79!
+		\L_038ab:
+		\L_03857:
+		ZH 1:
+		'No problem～...'
+		R
+		'I haven’t been of any use'
+		R
+		'myself～...'
+		\L_0390c:
+		\L_038ff:
+	}
+	\L_037e7:
+	ZH 1:
+	'Do what you can to help Milli,'
+	R
+	'Aya.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'...Yes, Your Majesty.'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Rance left Genius Hospital.'
+	\L_0390c:
+	\L_038ff:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_01596:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_038e3:
+	!VAR0516 : 1!
+	\L_0383b:
+	!VAR0516 : 6!
+	\L_038ab:
+	\L_0381f:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　Audience Room'
+	\L_0390c:
+	ZH 1:
+	'Maris came to Rance with a'
+	R
+	'document.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'King Rance, the modern'
+	R
+	'hospital we have been'
+	R
+	'constructing has been'
+	R
+	'completed.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Alright, great.'
+	R
+	'I should name it, then...'
+	\L_0390c:
+	ZH 1:
+	'Hmmmmm.'
+	\L_0390c:
+	ZH 1:
+	'Alright, Genius Hospital.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Genius Hospital??'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Mhm, a name that gives the'
+	R
+	'impression that your disease'
+	R
+	'can be cured immediately.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Well, let’s go with that then.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Sounds like you don’t like'
+	R
+	'it... Well, whatever.'
+	R
+	'I’m gonna go check it out.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'I’ll go with you.'
+	\L_0390c:
+	\L_038ff:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1034!
+	\L_038e3:
+	!VAR0516 : 1!
+	\L_0383b:
+	!VAR0516 : 6!
+	\L_038ab:
+	\L_0381f:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　Genius Hospital'
+	\L_0390c:
+	ZH 1:
+	'Rance and Maris entered the'
+	R
+	'Genius Hospital.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Mhm, getting a pretty good'
+	R
+	'feel. Nothing but hot nurses.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Yes, as you asked, King Rance.'
+	\L_0390c:
+	ZH 1:
+	'Now, allow me to introduce you'
+	R
+	'to your doctor.'
+	R
+	'Dr. Fujinomiya.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'I’m not sick.'
+	R
+	'I don’t need a doctor.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'............'
+	\L_0390c:
+	ZH 1:
+	'It’s a woman, though.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Actually, I was feeling pretty'
+	R
+	'weak.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Just from hearing it’s a'
+	R
+	'woman... Could you still say'
+	R
+	'that if it was a type of woman'
+	R
+	'you don’t care for?'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'I’ve already forgotten what I'
+	R
+	'said.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'............'
+	\L_0390c:
+	\L_038ff:
+	\L_0388f:
+	ZH 1:
+	'Some time later, they heard'
+	R
+	'the pitter-patter of footsteps.'
+	\L_0390c:
+	\L_038ff:
+	\L_038b9:
+	!VAR0516 : 79!
+	\L_038ab:
+	\L_03857:
+	ZH 1:
+	'Sorry for the wait～.'
+	R
+	'I’m your doctor～,'
+	R
+	'Aya Fujinomiya～.'
+	\L_0390c:
+	\L_038ff:
+	\L_0388f:
+	ZH 1:
+	'Aya’s self-introduction was so'
+	R
+	'slow it would bring a fly to a'
+	R
+	'stop.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Cute～... But is a doctor～,'
+	R
+	'that’s this slow～, really'
+	R
+	'alright～?'
+	\L_0390c:
+	\L_038ff:
+	\L_038b9:
+	!VAR0516 : 6!
+	\L_038ab:
+	\L_03857:
+	ZH 1:
+	'Don’t mind that, King Rance...'
+	\L_0390c:
+	ZH 1:
+	'Regardless of how she talks,'
+	R
+	'she’s a young, attractive'
+	R
+	'woman and master of nursing as'
+	R
+	'you requested.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'...Not seeing it...'
+	\L_0390c:
+	\L_038ff:
+	\L_038b9:
+	!VAR0516 : 79!
+	\L_038ab:
+	\L_03857:
+	ZH 1:
+	'Uhuhu～.'
+	R
+	'Sounds like～, you’re talking'
+	R
+	'about something good～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Well... She’s cute, so'
+	R
+	'whatever. I’ll allow her to be'
+	R
+	'my personal doctor.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Thank you～.'
+	R
+	'I’ll do my best～.'
+	\L_0390c:
+	ZH 1:
+	'Your Majesty～, please come'
+	R
+	'for regular checkups～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Sure, sure.'
+	\L_0390c:
+	\L_038ff:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_01a5b:
+	!VAR0564 : 5!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1001!
+	\L_038e3:
+	!VAR0516 : 1!
+	\L_0383b:
+	\L_0381f:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　　Corridor'
+	\L_0390c:
+	ZH 1:
+	'Rance was walking down the'
+	R
+	'hall to the courtyard.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Hm...?'
+	\L_0390c:
+	\L_038ff:
+	\L_03849:
+	!VAR0516 : 258!
+	\L_0383b:
+	!VAR0516 : 79!
+	\L_038ab:
+	\L_037e7:
+	ZH 1:
+	'U-Um...'
+	R
+	'You refuse no matter what,'
+	R
+	'then?'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Yes～.'
+	R
+	'Sorry～.'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Speaking in the same gentle'
+	R
+	'tone as ever, Aya bowed to a'
+	R
+	'soldier.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'...I suppose it makes sense...'
+	R
+	'A great person like you'
+	R
+	'wouldn’t date an ordinary'
+	R
+	'soldier like me...'
+	\L_0390c:
+	ZH 1:
+	'Hahah... What an absurd dream'
+	R
+	'I had...'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Please don’t put yourself down'
+	R
+	'like that～.'
+	R
+	'I just don’t date～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Aya... Still kind at a time'
+	R
+	'like this... It’s a crime...'
+	R
+	'Aah... But you’re free to'
+	R
+	'think what you want...'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Yes～, well～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'I’ll be cheering for you from'
+	R
+	'the shadows, then. Good luck'
+	R
+	'with your work... Uu...!'
+	\L_0390c:
+	\L_038ff:
+	\L_03849:
+	\L_0381f:
+	ZH 1:
+	'The soldier ran off with tears'
+	R
+	'shining in his eyes.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Ah～.'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Aya slowly reached out a hand,'
+	R
+	'but the soldier was already'
+	R
+	'gone.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Haah～... Darn it～.'
+	\L_0390c:
+	\L_038ff:
+	!VAR0516 : 1!
+	\L_0383b:
+	\L_037e7:
+	ZH 1:
+	'What?'
+	R
+	'Isn’t it good to be popular?'
+	\L_0390c:
+	ZH 1:
+	'Or what?'
+	R
+	'Did you reject him because of'
+	R
+	'me?'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Uh～, no～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'...You didn’t need to be so'
+	R
+	'blunt...'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'But～, I～...'
+	R
+	'I’m not interested in men～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Does that mean you like women?'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'No～.'
+	R
+	'Aah... Maybe I should say I'
+	R
+	'don’t care for either, then～?'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'...If you don’t like humans,'
+	R
+	'then... I got it, you have a'
+	R
+	'monster fetish!'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Ah～, No～.'
+	R
+	'I just can’t feel any desire'
+	R
+	'for the human body～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Huh??'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Maybe it’s because I spend all'
+	R
+	'my time studying medicine～...'
+	R
+	'I can only see any body as an'
+	R
+	'object of medical study～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'The fuck...?'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Haah～... Like～, say someone'
+	R
+	'comes to me for a phimosis'
+	R
+	'operation～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Mhm.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'In that case～, the'
+	R
+	'reproductive organ is the part'
+	R
+	'being treated～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Sure.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Keep doing that～, and you get'
+	R
+	'too used to it～.'
+	\L_0390c:
+	ZH 1:
+	'I can’t see anything to crave'
+	R
+	'in it～, I don’t even want to'
+	R
+	'touch it～. Also～, it makes'
+	R
+	'anyone I see a patient to me～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'But then I’m your patient, and'
+	R
+	'I’ve got an erection and want'
+	R
+	'to fuck.'
+	\L_0390c:
+	ZH 1:
+	'So let’s fuck.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'No～.'
+	R
+	'Not interested～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'How could I convince you,'
+	R
+	'then?'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Do you have to～?'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'I do have to～, yes.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'I see～.'
+	R
+	'What trouble～...'
+	\L_0390c:
+	\L_038ff:
+	\L_0388f:
+	ZH 1:
+	'Aya thought hard, making a'
+	R
+	'strained face.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Okayu disease～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Hah?'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'If you caught okayu disease, I'
+	R
+	'would nurse you～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'What’s okayu disease?'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'I’ve yet to see a case of'
+	R
+	'someone afflicted with it,'
+	R
+	'myself, but～...'
+	\L_0390c:
+	ZH 1:
+	'From what I hear～, if you'
+	R
+	'have it, you gradually become'
+	R
+	'more and more like an okayu'
+	R
+	'fever～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'So why would you fuck me if I'
+	R
+	'had that?'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'It has a unique cure～.'
+	\L_0390c:
+	ZH 1:
+	'You have to have sex and cast'
+	R
+	'a spell to treat it with'
+	R
+	'vaginal fluids as a catalyst～.'
+	\L_0390c:
+	ZH 1:
+	'Also～, it’s a rare disease,'
+	R
+	'so I’m curious to see it...'
+	R
+	'That’s all～.'
+	\L_0390c:
+	ZH 1:
+	'It’s a disease that many'
+	R
+	'doctors never see in their'
+	R
+	'life～... It’d be nice if I'
+	R
+	'could see it, I think～...'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Alright, so if I catch that,'
+	R
+	'you’ll have sex with me to'
+	R
+	'treat it?'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Yee～ees... Well...'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Gahahahahaha!!'
+	R
+	'It’s settled, then!'
+	R
+	'I’ll catch okayu disease for'
+	R
+	'you!'
+	\L_0390c:
+	\L_038ff:
+	\L_03849:
+	\L_03857:
+	ZH 1:
+	'...Geez～... Almost nobody has'
+	R
+	'that disease～... So...'
+	R
+	'Aah～... He’s already gone～...'
+	\L_0390c:
+	ZH 1:
+	'Such a difficult man～.'
+	R
+	'Oh well～.'
+	\L_0390c:
+	\L_038ff:
+	\L_0388f:
+	ZH 1:
+	'Aya leisurely returned to the'
+	R
+	'Genius Hospital.'
+	\L_0390c:
+	\L_038ff:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_02220:
+	EC 0:
+	!VAR0516 : 1031!
+	\L_038e3:
+	!VAR0516 : 1!
+	\L_0383b:
+	\L_0381f:
+	ZM 32:
+	ZH 1:
+	'Natural Foe’s Dungeon'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　Basement 10F'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Haah... That was a weird okayu'
+	R
+	'fever...'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Rance prodded the purple okayu'
+	R
+	'fever’s corpse with his sword'
+	R
+	'while he rested.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Now...'
+	\L_0390c:
+	{VAR0564 = 5:
+		ZH 1:
+		'What should I do to contract'
+		R
+		'okayu disease...?'
+		\L_0390c:
+	}
+	{VAR0564 = 6:
+		ZH 1:
+		'If I kiss this thing, I should'
+		R
+		'contract okayu disease...'
+		\L_0390c:
+	}
+	\L_038ff:
+*L_02310:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_02310:
+	}
+	ZH 1:
+	$L_02368$
+	'Do Nothing'
+	$
+	R
+	$L_023cd$
+	'Touch'
+	$
+	R
+	$L_02463$
+	'Eat a Bit'
+	$
+	R
+	$L_025a6$
+	'Kiss'
+	$
+	]
+	@L_02310:
+*L_02368:
+	\L_03803:
+	ZH 1:
+	'Hmm, as gross as I imagined...'
+	\L_0390c:
+	ZH 1:
+	'No matter how much I want to'
+	R
+	'fuck Aya, I can’t touch this'
+	R
+	'okayu.'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Rance left the okayu fever’s'
+	R
+	'corpse where it was and walked'
+	R
+	'away.'
+	\L_0390c:
+	\L_038ff:
+	\L_03849:
+	%0:
+*L_023cd:
+	\L_03803:
+	ZH 1:
+	'Well, maybe I can catch the'
+	R
+	'disease just by touching it.'
+	R
+	'Let’s try...'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Rance tried touching the okayu'
+	R
+	'fever’s purple corpse.'
+	\L_0390c:
+	\L_038ff:
+	\L_03803:
+	ZH 1:
+	'Hmmmm, I don’t feel any'
+	R
+	'different.'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Rance left the okayu fever’s'
+	R
+	'corpse where it was and walked'
+	R
+	'away.'
+	\L_0390c:
+	\L_038ff:
+	\L_03849:
+	%0:
+*L_02463:
+	\L_03803:
+	ZH 1:
+	'Maybe I’ll catch the disease'
+	R
+	'if I eat a bit.'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Rance cut off a bit of the'
+	R
+	'okayu’s flesh with his sword.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Let’s see...'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Then he stuck the flesh on the'
+	R
+	'tip of his sword and started'
+	R
+	'cooking it with a lighter.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Alright... Medium.'
+	R
+	'Time to eat.'
+	\L_0390c:
+	ZH 1:
+	'............'
+	\L_0390c:
+	ZH 1:
+	'............'
+	\L_0390c:
+	ZH 1:
+	'Geeeeeeeeh!!!'
+	R
+	'Grooooooooss!!!'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Rance spat out the purple'
+	R
+	'okayu fever meat (medium).'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Aah... Fuck it! I don’t need'
+	R
+	'this!'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Rance left the okayu fever’s'
+	R
+	'corpse where it was and walked'
+	R
+	'away.'
+	\L_0390c:
+	\L_038ff:
+	\L_03849:
+	%0:
+*L_025a6:
+	!VAR0564 : 7!
+	\L_03803:
+	ZH 1:
+	'Sh-Should I kiss it...?'
+	\L_0390c:
+	ZH 1:
+	'Iiiiick...'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Rance grabbed the purple okayu'
+	R
+	'fever’s face with both hands.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'I really don’t want to...'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'　　＜plop）'
+	\L_0390c:
+	ZH 1:
+	'The okayu’s head fell to the'
+	R
+	'ground.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'............'
+	\L_0390c:
+	ZH 1:
+	'Uh...'
+	\L_0390c:
+	ZH 1:
+	'Damn it!! I’m desperate!!'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Rance shut his eyes and picked'
+	R
+	'up the okayu’s head again.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'........'
+	\L_0390c:
+	ZH 1:
+	'............'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Then he slowly brought his'
+	R
+	'face towards it...'
+	\L_0390c:
+	ZH 1:
+	'　　＜............）'
+	\L_0390c:
+	ZH 1:
+	'　　＜............）'
+	\L_0390c:
+	ZH 1:
+	'　　＜...smooch...）'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'......'
+	\L_0390c:
+	ZH 1:
+	'.........'
+	\L_0390c:
+	ZH 1:
+	'Uuuuugh!!'
+	R
+	'Get me mouthwash, quickly!!'
+	\L_0390c:
+	\L_038ff:
+	!VAR0516 : 471!
+	\L_038ab:
+	\L_03857:
+	ZH 1:
+	'King, why did you do that...?'
+	\L_0390c:
+	\L_038ff:
+	\L_0388f:
+	ZH 1:
+	'A soldier that was watching'
+	R
+	'Rance asked as he handed over'
+	R
+	'some mouthwash.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'There are times when a man'
+	R
+	'just has to do something.'
+	\L_0390c:
+	ZH 1:
+	'Gargle, gargle, gargle...'
+	\L_0390c:
+	ZH 1:
+	'Haaah!!'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Haah...'
+	\L_0390c:
+	\L_038ff:
+	\L_03849:
+	%0:
+*L_027ef:
+	!VAR0564 : 8!
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS 5:
+	!VAR0516 : 1046!
+	\L_038e3:
+	!VAR0516 : 1!
+	\L_0383b:
+	!VAR0516 : 5!
+	\L_038ab:
+	\L_0381f:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　Audience Room'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Darling, Darling!!'
+	R
+	'Um, um, so today...'
+	\L_0390c:
+	ZH 1:
+	'...Darling?'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'...Nnnaah?'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'What’s wrong...?'
+	R
+	'Your face is pale...'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Uuuh...'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Rance’s face grew paler and he'
+	R
+	'hung his head.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Darling!?'
+	\L_0390c:
+	\L_038ff:
+	\L_03803:
+	ZH 1:
+	'Ugeeeeh... I feel like shit...'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Darling, hey, Darling!!'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Uuuuugh!'
+	R
+	'My chest hurts...'
+	\L_0390c:
+	ZH 1:
+	'Uh... Uu...'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Darling!!'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Uu...'
+	\L_0390c:
+	ZH 1:
+	'...Upo...'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Upo?'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Hm...?'
+	R
+	'That’s strange... Why am I...?'
+	\L_0390c:
+	ZH 1:
+	'...Upo.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Are you okay, Darling?'
+	R
+	'Upo is what okayu fevers say...'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'............'
+	\L_0390c:
+	ZH 1:
+	'Okayu... I see.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'What is it, Darling?'
+	\L_0390c:
+	\L_038ff:
+	\L_03803:
+	ZH 1:
+	'I did it... I caught okayu'
+	R
+	'disease... I’m gonna go see'
+	R
+	'Aya...'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Darling...'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Nothing to worry about... Upo.'
+	\L_0390c:
+	\L_038ff:
+	\L_0381f:
+	ZH 1:
+	'Rance unsteadily headed to the'
+	R
+	'hospital.'
+	\L_0390c:
+	\L_038ff:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1034!
+	\L_038e3:
+	!VAR0516 : 1!
+	\L_0383b:
+	!VAR0516 : 79!
+	\L_038ab:
+	\L_0381f:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　Genius Hospital'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Aya... Aya... Upo...'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Oh～, what is it, Your'
+	R
+	'Majesty～?'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Gahahaha... Upo.'
+	\L_0390c:
+	ZH 1:
+	'I caught... okayu fever...'
+	R
+	'Upo...'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Huh～～～～...?'
+	R
+	'No waaay...'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Upo, you think I’m a liar...?'
+	R
+	'...Upo... Aah... Upo...'
+	R
+	'I feel sick...'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Yes, your face is turning'
+	R
+	'purple～... This certainly'
+	R
+	'must be it～...'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Uh... Upopo...!'
+	\L_0390c:
+	\L_038ff:
+	\L_03849:
+	\L_0381f:
+	ZH 1:
+	'　　＜thud）'
+	\L_0390c:
+	ZH 1:
+	'Rance turned purple and'
+	R
+	'collapsed in front of Aya.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Oh dear～...'
+	R
+	'This is bad.'
+	R
+	'Someone bring a stretcher～!'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Upo... Success... Upo...'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Your Majesty～... Are you'
+	R
+	'stupid?'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Gahahaha... Upo...'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Geez～... You could die～...'
+	\L_0390c:
+	ZH 1:
+	'In any case, I’ll treat you'
+	R
+	'immediately～... But～... This'
+	R
+	'disease is such trouble～...'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Gahahaha... That’s right～...'
+	R
+	'Sex～... Upo.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Aah～... I knew it～...'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Aya... I really want you, Aya.'
+	R
+	'Upo upo.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'This is too far, though～.'
+	R
+	'Well～... I’ll do what I have'
+	R
+	'to～...'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Upo... Upopo...'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Haah～... This is going to be'
+	R
+	'a strange first time～...'
+	\L_0390c:
+	\L_038ff:
+	\L_0388f:
+	ZH 1:
+	'Aya walked next to the'
+	R
+	'stretcher Rance was being'
+	R
+	'carried on and scratched her'
+	R
+	'head.'
+	\L_0390c:
+	\L_038ff:
+	PF1 VAR0056:
+	G 806:
+	\L_038c7:
+	PF0 VAR0056:
+	ZH 1:
+	'Aya「Now～... Let’s begin the treatment.」'
+	\L_0390c:
+	ZH 1:
+	'Aya’s speaking tone became tense.'
+	R
+	'The atmosphere around her naturally grew tense, as'
+	R
+	'well.'
+	\L_0390c:
+	ZH 1:
+	'Aya「I’m going to give the patient an injection.'
+	R
+	'    Sterilize his right arm. Bring me the medicine.」'
+	\L_0390c:
+	ZH 1:
+	'Rance「N-No, I don’t want an injection, upo!」'
+	\L_0390c:
+	ZH 1:
+	'Aya「Patients should trust their doctors.'
+	R
+	'　　　　Ah, thank you.」'
+	\L_0390c:
+	ZH 1:
+	'Aya took a syringe from a nurse.'
+	\L_0390c:
+	ZH 1:
+	'Rance「Upo～, upo～.」'
+	\L_0390c:
+	ZH 1:
+	'Aya「Quiet.」'
+	\L_0390c:
+	ZH 1:
+	'　　＜psh）'
+	\L_0390c:
+	ZH 1:
+	'Rance「Upoooooooo!!」'
+	\L_0390c:
+	ZH 1:
+	'Aya「That should be good...」'
+	\L_0390c:
+	ZH 1:
+	'Rance「W-What was that? Upo.」'
+	\L_0390c:
+	ZH 1:
+	'Aya「An aphrodisiac for men.'
+	R
+	'　　　　It should relieve the pain...」'
+	\L_0390c:
+	ZH 1:
+	'Aya「Of course, I imagine this is going to hurt me,'
+	R
+	'    too, so maybe I should hurt you intentionally?'
+	R
+	'    Huhuhu.」'
+	\L_0390c:
+	ZH 1:
+	'Rance「Upo～～～...」'
+	\L_0390c:
+	ZH 1:
+	'Aya「Now it’s my turn...」'
+	\L_0390c:
+	ZH 1:
+	'Aya picked up 3 pink tablets.'
+	\L_0390c:
+	ZH 1:
+	'Aya「Ngh...」'
+	\L_0390c:
+	ZH 1:
+	'She swallowed them.'
+	\L_0390c:
+	ZH 1:
+	'Aya「Haah...」'
+	\L_0390c:
+	ZH 1:
+	'Rance「Are you sick too or something...??'
+	R
+	'      Upo upo.」'
+	\L_0390c:
+	ZH 1:
+	'Aya「It’s another aphrodisiac.'
+	R
+	'    I can’t do this if I’m not wet.」'
+	\L_0390c:
+	ZH 1:
+	'Rance「I see... Upo.」'
+	\L_0390c:
+	ZH 1:
+	'Aya「Mm... It’s taking effect...」'
+	\L_0390c:
+	ZH 1:
+	'Aya’s cheeks turned scarlet.'
+	\L_0390c:
+	ZH 1:
+	'Aya「Remove the patient’s clothes.」'
+	\L_0390c:
+	ZH 1:
+	'Nurse「Yes.」'
+	\L_0390c:
+	ZH 1:
+	'Rance「Uh... Upo～!」'
+	\L_0390c:
+	ZH 1:
+	'Aya「Heh...」'
+	\L_0390c:
+	ZH 1:
+	'Nurse「Oh...!」'
+	\L_0390c:
+	ZH 1:
+	'Nurse「Kyah!?」'
+	\L_0390c:
+	ZH 1:
+	'Rance「Wh-What...? Upo.'
+	R
+	'　　　   Is something wrong with my... Upo?」'
+	\L_0390c:
+	ZH 1:
+	'Aya「Well... I’ve never seen one this big...'
+	R
+	'    I don’t know if I could even get it in.'
+	R
+	'　　　　Someone prepare some lubrication.」'
+	\L_0390c:
+	ZH 1:
+	'Nurse「Yes.」'
+	\L_0390c:
+	ZH 1:
+	'Perhaps due to the disease, Rance’s hyper weapon'
+	R
+	'was even bigger than it usually was.'
+	R
+	'Its circumference was doubled.'
+	\L_0390c:
+	ZH 1:
+	'Rance「U-Upo... I feel anemic...」'
+	\L_0390c:
+	ZH 1:
+	'Aya「This is bad... Due to its swollen size, it’s'
+	R
+	'    taking more blood than it should.'
+	R
+	'　　　　I have to cure it fast...!」'
+	\L_0390c:
+	ZH 1:
+	'Aya stripped off her clothes.'
+	\L_0390c:
+	ZH 1:
+	'Aya「...Alright.'
+	R
+	'　　　　Bind the patient’s arms and legs just to be'
+	R
+	'    safe.」'
+	\L_0390c:
+	ZH 1:
+	'Nurse「Yes.」'
+	\L_0390c:
+	ZH 1:
+	'The nurses bound Rance’s arms and legs with belts.'
+	\L_0390c:
+	ZH 1:
+	'Aya「Hup...」'
+	\L_0390c:
+	ZH 1:
+	'Aya got on the bed and started rubbing the'
+	R
+	'lubricant on her hands.'
+	\L_0390c:
+	ZH 1:
+	'Aya「I wonder if it’ll fit...」'
+	\L_0390c:
+	ZH 1:
+	'Ranc「Ah... Aheheh? Upopo.」'
+	\L_0390c:
+	ZH 1:
+	'Aya rubbed the lubricant on Rance’s enlarged hyper'
+	R
+	'weapon.'
+	\L_0390c:
+	ZH 1:
+	'Rance「Ah... Oh... This is weird...'
+	R
+	'　　　　  This feels...」'
+	\L_0390c:
+	ZH 1:
+	'Nurse「Um... Dr. Aya... How about I do it instead?'
+	R
+	'      This shouldn’t be your first time.」'
+	\L_0390c:
+	ZH 1:
+	'A somewhat older nurse suggested to Aya.'
+	\L_0390c:
+	ZH 1:
+	'Aya「No, I’ll do it, I’ve already come this far.'
+	R
+	'    Besides, that’s what the King wants...'
+	R
+	'    I’ll make do somehow.」'
+	\L_0390c:
+	ZH 1:
+	'Rance「Upo～～...」'
+	\L_0390c:
+	ZH 1:
+	'Aya「Ngh... Like this?」'
+	\L_0390c:
+	ZH 1:
+	'Clear liquid ran down Aya’s thighs.'
+	\L_0390c:
+	ZH 1:
+	'Aya「Here goes...」'
+	\L_0390c:
+	ZH 1:
+	'Aya got on Rance.'
+	\L_0390c:
+	ZH 1:
+	'Rance「Upopo～...」'
+	\L_0390c:
+	ZH 1:
+	'Rance got even more aroused as soon as he was Aya’s'
+	R
+	'wet pussy.'
+	\L_0390c:
+	ZH 1:
+	'Aya「Aah... It got bigger...」'
+	\L_0390c:
+	ZH 1:
+	'Aya took Rance’s hyper weapon in her hand.'
+	\L_0390c:
+	ZH 1:
+	'Aya「Ngh...」'
+	\L_0390c:
+	ZH 1:
+	'Then she aimed it at her pussy.'
+	\L_0390c:
+	ZH 1:
+	'Aya「Haah...」'
+	\L_0390c:
+	ZH 1:
+	'Aya「Yaaaaaaah!!」'
+	\L_0390c:
+	ZH 1:
+	'Aya dropped her hips all in once.'
+	\L_0390c:
+	G 195:
+	SS 24:
+	ZH 1:
+	'Rance「Ah... Aheheh?」'
+	\L_0390c:
+	ZH 1:
+	'Aya「Ah... Oooooooooooow!!」'
+	\L_0390c:
+*L_03282:
+	ZH 1:
+	'Blood trickled out of Aya’s pussy, making Rance’s'
+	R
+	'enlarged hyper weapon wet.'
+	\L_0390c:
+	ZH 1:
+	'What looked more painful than anything was the way'
+	R
+	'the enlarged hyper weapon in her caused her abdomen'
+	R
+	'to bulge.'
+	\L_0390c:
+	ZH 1:
+	'Aya「Ow...」'
+	\L_0390c:
+	ZH 1:
+	'Aya’s body was convulsing from the pain, but she'
+	R
+	'shook her head and put on a serious face.'
+	\L_0390c:
+	ZH 1:
+	'Aya「It hurts... But I have to do this...」'
+	\L_0390c:
+	ZH 1:
+	'Rance「Aah...」'
+	\L_0390c:
+	ZH 1:
+	'Aya「...How are you feeling?」'
+	\L_0390c:
+	ZH 1:
+	'Rance「My senses are dulled... Upo.'
+	R
+	'　　　　  Even though it’s our first time... Upo.'
+	R
+	'　　　   ...I feel nothing... Upo～...」'
+	\L_0390c:
+	ZH 1:
+	'Aya「Quiet, patient.」'
+	\L_0390c:
+	ZH 1:
+	'Aya「Ngh...」'
+	\L_0390c:
+	ZH 1:
+	'Aya’s body started to faintly glow.'
+	\L_0390c:
+	ZH 1:
+	'Aya「Chichin puipui... Okayu... Poi...」'
+	\L_0390c:
+	ZH 1:
+	'Aya’s hands shone brightly.'
+	\L_0390c:
+	ZH 1:
+	'Rance「Upo!」'
+	\L_0390c:
+	ZH 1:
+	'What felt like a faint electric shock ran through'
+	R
+	'Rance’s body.'
+	\L_0390c:
+	ZH 1:
+	'Aya「Chichin pui... Okayu.. Poi...」'
+	\L_0390c:
+	ZH 1:
+	'Rance「Upo～～...」'
+	\L_0390c:
+	ZH 1:
+	'Rance’s body was sluggish, but the electricity'
+	R
+	'rushing through him caused him to twitch.'
+	\L_0390c:
+	ZH 1:
+	'Rance「Aah... I don’t feel anything...'
+	R
+	'      This doesn’t feel good...」'
+	\L_0390c:
+	ZH 1:
+	'Aya「Chichin puipui!!」'
+	\L_0390c:
+	ZH 1:
+	'Rance「Upo～～～～!」'
+	\L_0390c:
+	ZH 1:
+	'Aya「I’m putting up with a lot of pain...'
+	R
+	'　　　 So be a bit quieter, please...」'
+	\L_0390c:
+	ZH 1:
+	'Rance「Upo～...」'
+	\L_0390c:
+	ZH 1:
+	'Aya「Nnnnngh... Ngh!!」'
+	\L_0390c:
+	ZH 1:
+	'Her hands shone brighter and she put them on'
+	R
+	'Rance’s chest.'
+	\L_0390c:
+	ZH 1:
+	'Rance「Upo～～...」'
+	\L_0390c:
+	ZH 1:
+	'Light ran through Rance’s body.'
+	R
+	'He felt like he was submerged in warm water.'
+	\L_0390c:
+	ZH 1:
+	'Aya「Ngh... Ow...」'
+	\L_0390c:
+	ZH 1:
+	'Aya「Ah... I’ll do it again...'
+	R
+	'    Chichin puipui... Okayu poi!」'
+	\L_0390c:
+	ZH 1:
+	'Rance「Upo～～～!!」'
+	\L_0390c:
+	ZH 1:
+	'Aya「Deal with it!」'
+	\L_0390c:
+	ZH 1:
+	'Rance「Upo～～...」'
+	\L_0390c:
+	{VAR0520 = 300:
+		%0:
+	}
+	ZH 1:
+	R
+	'.........'
+	\L_0390c:
+	ZH 1:
+	R
+	'......'
+	\L_0390c:
+	ZH 1:
+	R
+	'...'
+	\L_0390c:
+	ZH 1:
+	'The treatment went on for 4 hours...'
+	\L_0390c:
+	PF1 VAR0056:
+	\L_038ff:
+	!VAR0516 : 0!
+	%#M.ADV:
+	PF0 VAR0056:
+	!VAR0516 : 1034!
+	\L_038e3:
+	!VAR0516 : 1!
+	\L_0383b:
+	!VAR0516 : 79!
+	\L_038ab:
+	\L_037e7:
+	ZH 1:
+	'Ooh... It’s like I was never'
+	R
+	'sick at all. Just like I was'
+	R
+	'before I caught the disease.'
+	\L_0390c:
+	ZH 1:
+	'I knew you could do it, genius'
+	R
+	'doctor Aya.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Thanks～, a lot～...'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Hm?'
+	R
+	'What’s wrong?'
+	R
+	'Are you tired?'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'Of course～... It was my first'
+	R
+	'time～... And I was treating'
+	R
+	'you～, for 4 hours...'
+	\L_0390c:
+	ZH 1:
+	'It would be stranger～, if I'
+	R
+	'wasn’t tired～.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'I see...'
+	\L_0390c:
+	ZH 1:
+	'Then how about I use my hot'
+	R
+	'hyper weapon to cure your'
+	R
+	'fatigue?'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'I’m good～...'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'I’m not.'
+	R
+	'I wasn’t able to feel your'
+	R
+	'flesh due to the sickness.'
+	\L_0390c:
+	ZH 1:
+	'So let’s do it again now that'
+	R
+	'I’m cured.'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'No more～... How is this'
+	R
+	'supposed to be fun～...?'
+	\L_0390c:
+	ZH 1:
+	'Geez～... My whole body’s'
+	R
+	'shaking... My hips hurt～...'
+	R
+	'They feel dead～...'
+	\L_0390c:
+	ZH 1:
+	'I won’t be able to stand'
+	R
+	'normally for the rest of the'
+	R
+	'day～...'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'But now you’re not a virgin,'
+	R
+	'so next time...'
+	\L_0390c:
+	\L_038ff:
+	\L_03857:
+	ZH 1:
+	'No, no more～.'
+	R
+	'You’re cured, Your Majesty～.'
+	R
+	'Take care of yourself～.'
+	\L_0390c:
+	\L_038ff:
+	\L_03873:
+	ZH 1:
+	'Aah～... Such a poor first'
+	R
+	'experience... I’m not'
+	R
+	'interested in sex, anyway,'
+	R
+	'but...'
+	\L_0390c:
+	ZH 1:
+	'For some reason I feel'
+	R
+	'unsatisfied～... Haah～～...'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'Hey, wait!'
+	\L_0390c:
+	\L_038ff:
+	\L_038b9:
+	\L_0381f:
+	ZH 1:
+	'Rance was pushed out of the'
+	R
+	'hospital by the nurses.'
+	\L_0390c:
+	\L_038ff:
+	\L_037e7:
+	ZH 1:
+	'............'
+	\L_0390c:
+	ZH 1:
+	'Ch... I feel alone...'
+	\L_0390c:
+	\L_038ff:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_037e7:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03803:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0381f:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0383b:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03849:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03857:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03873:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0388f:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_038ab:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_038b9:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+*L_038c7:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_038e3:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_038ff:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0390c:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

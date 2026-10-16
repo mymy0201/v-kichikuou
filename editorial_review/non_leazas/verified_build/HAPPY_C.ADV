@@ -1,0 +1,1451 @@
+	PF1 VAR0056:
+	J0 640, 0:
+	G 837:
+	J0 1280, 0:
+	G 838:
+	J0 0, 400:
+	G 841:
+	!VAR0001 : 0!
+	!VAR0002 : 0!
+	!VAR0003 : 0!
+	!VAR0004 : 0!
+	!VAR0005 : 0!
+	!VAR0006 : 0!
+	!VAR0007 : 0!
+	!VAR0008 : 0!
+	!VAR0009 : 0!
+	!VAR0010 : 0!
+	!VAR0001 : 640!
+	!VAR0002 : 166!
+	!VAR0003 : 14!
+	!VAR0004 : 0!
+	!VAR0005 : 0!
+	!VAR0191 : 0!
+	\L_006a3:
+	!VAR0001 : 1280!
+	!VAR0002 : 166!
+	!VAR0003 : 14!
+	!VAR0004 : 0!
+	!VAR0005 : 0!
+	!VAR0191 : 33!
+	\L_006a3:
+	J0 640, 400:
+	G 839:
+	CC 640, 0, 640, 400, 0, 0:
+	PF0 VAR0056:
+	!VAR0001 : 0!
+	!VAR0002 : 0!
+	!VAR0003 : 0!
+	!VAR0004 : 0!
+	!VAR0005 : 0!
+	!VAR0006 : 0!
+	!VAR0007 : 0!
+	!VAR0008 : 0!
+	!VAR0009 : 0!
+	!VAR0010 : 0!
+	!VAR0001 : 1!
+	!VAR0002 : 640!
+	@L_0010a:
+*L_0010a:
+	IM VAR0202, VAR0203:
+	{VAR0000 = 16:
+		@L_001fc:
+	}
+	{VAR0000 = 32:
+		@L_0023d:
+	}
+	{(VAR0202 > 14) * (VAR0202 < 164) * (VAR0203 > 10) * (VAR0203 < 360):
+		@L_00300:
+	}
+	{(VAR0202 > 222) * (VAR0202 < 372) * (VAR0203 > 10) * (VAR0203 < 360):
+		@L_0030d:
+	}
+	{(VAR0202 > 430) * (VAR0202 < 580) * (VAR0203 > 10) * (VAR0203 < 360):
+		@L_0031b:
+	}
+	{(VAR0202 > 447) * (VAR0202 < 536) * (VAR0203 > 367) * (VAR0203 < 392):
+		@L_00294:
+	}
+	{(VAR0202 > 535) * (VAR0202 < 624) * (VAR0203 > 367) * (VAR0203 < 392):
+		@L_002ca:
+	}
+	@L_00265:
+*L_001fc:
+	{VAR0010 = 100:
+		@L_0010a:
+	}
+	{VAR0010 = 99:
+		@L_0023d:
+	}
+	{VAR0010 = 98:
+		@L_00621:
+	}
+	@L_0078c:
+*L_0023d:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_0023d:
+	}
+	%0:
+	PF1 4:
+	ZZ0, 0:
+*L_00265:
+	{VAR0010 = 100:
+		@L_0010a:
+	}
+	\L_005d0:
+	!VAR0010 : 100!
+	!VAR0003 : 0!
+	!VAR0004 : 0!
+	!VAR0008 : 0!
+	@L_0010a:
+*L_00294:
+	{VAR0010 = 98:
+		@L_0010a:
+	}
+	\L_005d0:
+	!VAR0010 : 98!
+	!VAR0003 : 448!
+	!VAR0004 : 368!
+	!VAR0008 : 1!
+	\L_00578:
+	@L_0010a:
+*L_002ca:
+	{VAR0010 = 99:
+		@L_0010a:
+	}
+	\L_005d0:
+	!VAR0010 : 99!
+	!VAR0003 : 536!
+	!VAR0004 : 368!
+	!VAR0008 : 1!
+	\L_00578:
+	@L_0010a:
+*L_00300:
+	!VAR0005 : 15!
+	!VAR0009 : 0!
+	@L_00329:
+*L_0030d:
+	!VAR0005 : 223!
+	!VAR0009 : 1!
+	@L_00329:
+*L_0031b:
+	!VAR0005 : 431!
+	!VAR0009 : 2!
+	@L_00329:
+*L_00329:
+	{(VAR0203 > 10) * (VAR0203 < 43):
+		!VAR0006 : 11!
+		!VAR0009 : VAR0009 + 0!
+		@L_00546:
+	}
+	{(VAR0203 > 42) * (VAR0203 < 75):
+		!VAR0006 : 43!
+		!VAR0009 : VAR0009 + 3!
+		@L_00546:
+	}
+	{(VAR0203 > 74) * (VAR0203 < 107):
+		!VAR0006 : 75!
+		!VAR0009 : VAR0009 + 6!
+		@L_00546:
+	}
+	{(VAR0203 > 106) * (VAR0203 < 139):
+		!VAR0006 : 107!
+		!VAR0009 : VAR0009 + 9!
+		@L_00546:
+	}
+	{(VAR0203 > 138) * (VAR0203 < 171):
+		!VAR0006 : 139!
+		!VAR0009 : VAR0009 + 12!
+		@L_00546:
+	}
+	{(VAR0203 > 170) * (VAR0203 < 203):
+		!VAR0006 : 171!
+		!VAR0009 : VAR0009 + 15!
+		@L_00546:
+	}
+	{(VAR0203 > 202) * (VAR0203 < 235):
+		!VAR0006 : 203!
+		!VAR0009 : VAR0009 + 18!
+		@L_00546:
+	}
+	{(VAR0203 > 234) * (VAR0203 < 267):
+		!VAR0006 : 235!
+		!VAR0009 : VAR0009 + 21!
+		@L_00546:
+	}
+	{(VAR0203 > 266) * (VAR0203 < 299):
+		!VAR0006 : 267!
+		!VAR0009 : VAR0009 + 24!
+		@L_00546:
+	}
+	{(VAR0203 > 298) * (VAR0203 < 331):
+		!VAR0006 : 299!
+		!VAR0009 : VAR0009 + 27!
+		@L_00546:
+	}
+	{(VAR0203 > 330) * (VAR0203 < 360):
+		!VAR0006 : 331!
+		!VAR0009 : VAR0009 + 30!
+		@L_00546:
+	}
+	ZH 1:
+	'Uh oooh (lol)'
+	@L_00546:
+	{(VAR0202 > 14) * (VAR0202 < 164) * (VAR0203 > 10) * (VAR0203 < 364):
+		@L_00300:
+	}
+	{(VAR0202 > 222) * (VAR0202 < 372) * (VAR0203 > 10) * (VAR0203 < 364):
+		@L_0030d:
+	}
+	{(VAR0202 > 430) * (VAR0202 < 580) * (VAR0203 > 10) * (VAR0203 < 364):
+		@L_0031b:
+	}
+*L_00546:
+	{VAR0010 = VAR0009:
+		@L_0010a:
+	}
+	\L_005d0:
+	!VAR0003 : VAR0005!
+	!VAR0004 : VAR0006!
+	!VAR0008 : 0!
+	!VAR0010 : VAR0009!
+	\L_00578:
+	@L_0010a:
+*L_00578:
+	{VAR0008 = 1:
+		CB VAR0003, VAR0004, 87, 23, 65:
+		CB VAR0003 + 1, VAR0004 + 1, 85, 21, 65:
+		\0:
+	}
+	CB VAR0003, VAR0004, 148, 25, 65:
+	CB VAR0003 + 1, VAR0004 + 1, 146, 23, 65:
+	\0:
+*L_005d0:
+	{(VAR0003 = 0) * (VAR0004 = 0):
+		\0:
+	}
+	{VAR0008 = 1:
+		CC VAR0003 + VAR0002, VAR0004, 87, 23, VAR0003, VAR0004:
+		\0:
+	}
+	CC VAR0003 + VAR0002, VAR0004, 148, 25, VAR0003, VAR0004:
+	\0:
+*L_00621:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_00621:
+	}
+	{VAR0001 = 2:
+		!VAR0001 : 1!
+		!VAR0002 : 640!
+		@L_0067e:
+	}
+	{VAR0001 = 1:
+		!VAR0001 : 2!
+		!VAR0002 : 1280!
+		@L_0067e:
+	}
+	ZH 1:
+	'Lạ'
+*L_0067e:
+	CC VAR0002, 0, 640, 400, 0, 0:
+	!VAR0003 : 0!
+	!VAR0004 : 0!
+	!VAR0010 : 0!
+	!VAR0008 : 0!
+	@L_0010a:
+*L_006a3:
+	{VAR0195 = 100:
+		!VAR0004 : 0!
+		!VAR0005 : 400!
+		@L_00724:
+	}
+	{VAR0195 = 1:
+		!VAR0004 : 40!
+		!VAR0005 : 400!
+		@L_00724:
+	}
+	{VAR0195 = 10:
+		!VAR0004 : 80!
+		!VAR0005 : 400!
+		@L_00724:
+	}
+	{VAR0195 = 0:
+		@L_00724:
+	}
+	ZH 1:
+	'Nếu điều này xảy ra,'
+	\L_009e9:
+	@L_00724:
+*L_00724:
+	{VAR0005 \ 0:
+		CC VAR0004, VAR0005, 40, 20, VAR0001 + VAR0002, VAR0003:
+	}
+	!VAR0002 : VAR0002 + 208!
+	{VAR0002 > 582:
+		!VAR0002 : 166!
+		!VAR0003 : VAR0003 + 32!
+	}
+	!VAR0004 : 0!
+	!VAR0005 : 0!
+	!VAR0191 : VAR0191 + 1!
+	{VAR0003 > 365:
+		\0:
+	}
+	@L_006a3:
+*L_0078c:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_0078c:
+	}
+	CC 640, 400, 640, 400, 0, 400:
+	{VAR0001 = 2:
+		!VAR0010 : VAR0010 + 33!
+	}
+	\L_00a04:
+	!VAR0191 : VAR0010!
+	J0 16, 416:
+	G VAR0516, 40:
+	{VAR0195 = 0:
+		ZH 1:
+		MS 1, "　":
+		R
+		MS 2, "　　Undiscovered":
+		R
+		MS 3, "　":
+		R
+		MS 4, "　":
+		R
+		MS 5, "　　Undiscovered　":
+		R
+		MS 6, "　":
+		@L_008f5:
+	}
+	{VAR0195 = 1:
+		ZH 1:
+		MS 4, "　":
+		R
+		MS 5, "　Undiscovered　":
+		R
+		MS 6, "　":
+		@L_008f5:
+	}
+	{VAR0195 = 10:
+		ZH 1:
+		MS 1, "　":
+		R
+		MS 2, "　Undiscovered　":
+		R
+		MS 3, "　":
+		@L_008f5:
+	}
+	{VAR0195 = 100:
+		@L_008f5:
+	}
+	ZH 1:
+	'điều này là xấu'
+*L_008f5:
+	T 246, 492:
+	ZH 1:
+	X 1:
+	T 246, 523:
+	ZH 1:
+	X 2:
+	T 246, 554:
+	ZH 1:
+	X 3:
+	T 246, 652:
+	ZH 1:
+	X 4:
+	T 246, 683:
+	ZH 1:
+	X 5:
+	T 246, 714:
+	ZH 1:
+	X 6:
+	CC 0, 400, 640, 400, 0, 0:
+	IK 0:
+*L_0097b:
+	IM VAR0045, VAR0046:
+	{VAR0000 \ 0:
+		@L_0097b:
+	}
+	{VAR0001 = 1:
+		CC 640, 0, 640, 400, 0, 0:
+	}
+	{VAR0001 = 2:
+		CC 1280, 0, 640, 400, 0, 0:
+	}
+	!VAR0010 : 100!
+	@L_0010a:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_009e9:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+*L_00a04:
+	{VAR0010 = 0:
+		!VAR0516 : 2!
+		ZH 1:
+		MS 1, "Rudrasaum was put to sleep,":
+		R
+		MS 2, "bringing peace. Then she went":
+		R
+		MS 3, "on another journey with Rance.":
+		R
+		MS 4, "Madame Gorch took her out of":
+		R
+		MS 5, "Volgo Z and she died in a fit":
+		R
+		MS 6, "of insanity.":
+		\0:
+	}
+	{VAR0010 = 1:
+		!VAR0516 : 5!
+		ZH 1:
+		MS 1, "Rudrasaum was put to sleep,":
+		R
+		MS 2, "bringing peace. Then she and":
+		R
+		MS 3, "Rance ran the world together.":
+		R
+		MS 4, "Rance abandoned his country":
+		R
+		MS 5, "to go on an adventure with":
+		R
+		MS 6, "Sill.":
+		\0:
+	}
+	{VAR0010 = 2:
+		!VAR0516 : 6!
+		ZH 1:
+		MS 1, "Lia was happy.":
+		R
+		MS 2, "":
+		R
+		MS 3, "":
+		R
+		MS 4, "Lia was unhappy.":
+		R
+		MS 5, "":
+		R
+		MS 6, "":
+		\0:
+	}
+	{VAR0010 = 3:
+		!VAR0516 : 37!
+		ZH 1:
+		MS 1, "Was able to part with her":
+		R
+		MS 2, "father that was using her":
+		R
+		MS 3, "body to get ahead.":
+		R
+		MS 4, "Still taking orders from her":
+		R
+		MS 5, "father and letting men she":
+		R
+		MS 6, "doesn’t know use her body.":
+		\0:
+	}
+	{VAR0010 = 4:
+		!VAR0516 : 36!
+		ZH 1:
+		MS 1, "From being abused in the S&M":
+		R
+		MS 2, "Tower, she could be the abused":
+		R
+		MS 3, "maid she longed to be.":
+		R
+		MS 4, "While continuing to be a maid,":
+		R
+		MS 5, "feels like there’s one thing":
+		R
+		MS 6, "missing.":
+		\0:
+	}
+	{VAR0010 = 5:
+		!VAR0516 : 9!
+		ZH 1:
+		MS 1, "Ran off in a flight of love":
+		R
+		MS 2, "with Code, a Zeth Army spy.":
+		R
+		MS 3, "　":
+		R
+		MS 4, "Due to screwing up a job, she":
+		R
+		MS 5, "was captured by the enemy.":
+		R
+		MS 6, "　":
+		\0:
+	}
+	{VAR0010 = 6:
+		!VAR0516 : 7!
+		ZH 1:
+		MS 1, "Confessed to Rick and got in":
+		R
+		MS 2, "a relationship with him.":
+		R
+		MS 3, "　":
+		R
+		MS 4, "Married off to Nobunaga Oda,":
+		R
+		MS 5, "ruler of JAPAN, as a tool to":
+		R
+		MS 6, "create an alliance":
+		\0:
+	}
+	{VAR0010 = 7:
+		!VAR0516 : 8!
+		ZH 1:
+		MS 1, "Freed herself of Zarak, the":
+		R
+		MS 2, "man that manipulated her, and":
+		R
+		MS 3, "moved on with her life.":
+		R
+		MS 4, "When the world was in danger,":
+		R
+		MS 5, "Zarak betrayed her and she":
+		R
+		MS 6, "learned she’d been deceived.":
+		\0:
+	}
+	{VAR0010 = 8:
+		!VAR0516 : 10!
+		ZH 1:
+		MS 1, "After gaining much experience,":
+		R
+		MS 2, "her father approved of her":
+		R
+		MS 3, "when they fought together.":
+		R
+		MS 4, "Impregnated by Rance in the":
+		R
+		MS 5, "S&M Tower, she ran away,":
+		R
+		MS 6, "unable to face her father.":
+		\0:
+	}
+	{VAR0010 = 9:
+		!VAR0516 : 11!
+		ZH 1:
+		MS 1, "The Uncurse Spring returned":
+		R
+		MS 2, "her body to normal. She later":
+		R
+		MS 3, "happily married a subordinate.":
+		R
+		MS 4, "Fucked by Rance, holding off":
+		R
+		MS 5, "her fits for a time, but later":
+		R
+		MS 6, "died from another fit.":
+		\0:
+	}
+	{VAR0010 = 10:
+		!VAR0516 : 4!
+		ZH 1:
+		MS 1, "After being rescued by Rance,":
+		R
+		MS 2, "she reunited with Bound.":
+		R
+		MS 3, "They lived to Leazas together.":
+		R
+		MS 4, "She was taken from Volgo Z by":
+		R
+		MS 5, "Madame Gorch and died in a fit":
+		R
+		MS 6, "of insanity.":
+		\0:
+	}
+	{VAR0010 = 11:
+		!VAR0516 : 15!
+		ZH 1:
+		MS 1, "She was rescued when the":
+		R
+		MS 2, "thieves were exterminated and":
+		R
+		MS 3, "went on to live in peace.":
+		R
+		MS 4, "Freed once only to recaptured,":
+		R
+		MS 5, "her days of being abused in":
+		R
+		MS 6, "the S&M Tower went on.":
+		\0:
+	}
+	{VAR0010 = 12:
+		!VAR0516 : 50!
+		ZH 1:
+		MS 1, "Launched into space by the":
+		R
+		MS 2, "Tulip 100, but the rest of her":
+		R
+		MS 3, "life was spent with Rance.":
+		R
+		MS 4, "Caught in an explosion caused":
+		R
+		MS 5, "by an accident during research":
+		R
+		MS 6, "and tragically died.":
+		\0:
+	}
+	{VAR0010 = 13:
+		!VAR0516 : 49!
+		ZH 1:
+		MS 1, "Defeated Ragarl and lived":
+		R
+		MS 2, "aimlessly for a while, then":
+		R
+		MS 3, "left to find a new purpose.":
+		R
+		MS 4, "Lost to Nagi and was captured.":
+		R
+		MS 5, "She was then raped by Ragarl":
+		R
+		MS 6, "and used to create the Flash.":
+		\0:
+	}
+	{VAR0010 = 14:
+		!VAR0516 : 66!
+		ZH 1:
+		MS 1, "Even though she came to Rance,":
+		R
+		MS 2, "everything ended without him":
+		R
+		MS 3, "having sex with her once.":
+		R
+		MS 4, "In order to escape from being":
+		R
+		MS 5, "toyed with by Rance, she ended":
+		R
+		MS 6, "her own life.":
+		\0:
+	}
+	{VAR0010 = 15:
+		!VAR0516 : 67!
+		ZH 1:
+		MS 1, "Even as Rance’s subordinate,":
+		R
+		MS 2, "she kept having sex with both":
+		R
+		MS 3, "men and women every day.":
+		R
+		MS 4, "Contracted the strange disease":
+		R
+		MS 5, "genfluenza and met a silent":
+		R
+		MS 6, "end.":
+		\0:
+	}
+	{VAR0010 = 16:
+		!VAR0516 : 68!
+		ZH 1:
+		MS 1, "Gained an adult body thanks to":
+		R
+		MS 2, "the Fountain of Growth and":
+		R
+		MS 3, "entered Rance’s harem.":
+		R
+		MS 4, "No matter what she tried,":
+		R
+		MS 5, "Rance wouldn’t accept her as a":
+		R
+		MS 6, "partner.":
+		\0:
+	}
+	{VAR0010 = 17:
+		!VAR0516 : 32!
+		ZH 1:
+		MS 1, "Passed her days happily in":
+		R
+		MS 2, "Rance’s harem.":
+		R
+		MS 3, "　":
+		R
+		MS 4, "Captured by the DX Association":
+		R
+		MS 5, "while she was wandering around":
+		R
+		MS 6, "town.":
+		\0:
+	}
+	{VAR0010 = 18:
+		!VAR0516 : 12!
+		ZH 1:
+		MS 1, "Gave herself to Rance to":
+		R
+		MS 2, "protect M Land. She was freed":
+		R
+		MS 3, "later and ran it again.":
+		R
+		MS 4, "Married Shinoda, a man she":
+		R
+		MS 5, "doesn’t love.":
+		R
+		MS 6, "　":
+		\0:
+	}
+	{VAR0010 = 19:
+		!VAR0516 : 63!
+		ZH 1:
+		MS 1, "From exploring dungeons many":
+		R
+		MS 2, "times, she made numerous":
+		R
+		MS 3, "discoveries.":
+		R
+		MS 4, "Bitten by a monster while":
+		R
+		MS 5, "searching a dungeon. She died":
+		R
+		MS 6, "because there was no hospital.":
+		\0:
+	}
+	{VAR0010 = 20:
+		!VAR0516 : 65!
+		ZH 1:
+		MS 1, "Flirted in the library to":
+		R
+		MS 2, "disgust Rance. After being":
+		R
+		MS 3, "freed she returned to Amuro.":
+		R
+		MS 4, "For Lazeal and for Amuro, she":
+		R
+		MS 5, "gave herself to Rance.":
+		R
+		MS 6, "　":
+		\0:
+	}
+	{VAR0010 = 21:
+		!VAR0516 : 22!
+		ZH 1:
+		MS 1, "Became human thanks to":
+		R
+		MS 2, "Aladdin’s power and happily":
+		R
+		MS 3, "spent her time in the castle.":
+		R
+		MS 4, "Because Rance gave her no":
+		R
+		MS 5, "attention for a long time,":
+		R
+		MS 6, "she turned back into a doll.":
+		\0:
+	}
+	{VAR0010 = 22:
+		!VAR0516 : 39!
+		ZH 1:
+		MS 1, "Reunited with her father":
+		R
+		MS 2, "after Helman fell. Her husband":
+		R
+		MS 3, "died, but she lived happily.":
+		R
+		MS 4, "Worried about her father":
+		R
+		MS 5, "after he was captured, she":
+		R
+		MS 6, "gave herself to Rance, too.":
+		\0:
+	}
+	{VAR0010 = 23:
+		!VAR0516 : 28!
+		ZH 1:
+		MS 1, "When the Helman 5th Army was":
+		R
+		MS 2, "destroyed, she escaped with":
+		R
+		MS 3, "war funds and hid away.":
+		R
+		MS 4, "Despite her efforts to suck up":
+		R
+		MS 5, "to Rance, she was sold off to":
+		R
+		MS 6, "the DX Association.":
+		\0:
+	}
+	{VAR0010 = 24:
+		!VAR0516 : 29!
+		ZH 1:
+		MS 1, "When the Helman 5th Army was":
+		R
+		MS 2, "destroyed, she escaped with":
+		R
+		MS 3, "war funds and hid away.":
+		R
+		MS 4, "Despite her efforts to suck up":
+		R
+		MS 5, "to Rance, she was sold off to":
+		R
+		MS 6, "the DX Association.":
+		\0:
+	}
+	{VAR0010 = 25:
+		!VAR0516 : 75!
+		ZH 1:
+		MS 1, "Reigned over the world with":
+		R
+		MS 2, "Demon Lord Rance. It was now a":
+		R
+		MS 3, "world of monsters.":
+		R
+		MS 4, "Unable to defy Demon Lord":
+		R
+		MS 5, "Kayblis, she became his slave.":
+		R
+		MS 6, "　":
+		\0:
+	}
+	{VAR0010 = 26:
+		!VAR0516 : 81!
+		ZH 1:
+		MS 1, "The Royal Guard’s numbers":
+		R
+		MS 2, "doubled, and she powered up":
+		R
+		MS 3, "thanks to the Hanny King.":
+		R
+		MS 4, "When the Hanny King came to":
+		R
+		MS 5, "Leazas, she was given to him":
+		R
+		MS 6, "as a pet.":
+		\0:
+	}
+	{VAR0010 = 27:
+		!VAR0516 : 78!
+		ZH 1:
+		MS 1, "Successfully graduated from":
+		R
+		MS 2, "the military academy and":
+		R
+		MS 3, "joined the Leazas Army.":
+		R
+		MS 4, "Lost to Arlcoate and put":
+		R
+		MS 5, "through reeducation. She":
+		R
+		MS 6, "never joined the Leazas Army.":
+		\0:
+	}
+	{VAR0010 = 28:
+		!VAR0516 : 77!
+		ZH 1:
+		MS 1, "Fell in love with Rance after":
+		R
+		MS 2, "receiving encouragement from":
+		R
+		MS 3, "him numerous times.":
+		R
+		MS 4, "Raped by Rance.":
+		R
+		MS 5, "　":
+		R
+		MS 6, "　":
+		\0:
+	}
+	{VAR0010 = 29:
+		!VAR0516 : 26!
+		ZH 1:
+		MS 1, "Was able to freely exert her":
+		R
+		MS 2, "tactical abilities in the":
+		R
+		MS 3, "Leazas Army.":
+		R
+		MS 4, "Killed by Nero and his":
+		R
+		MS 5, "subordinates’ surprise attack.":
+		R
+		MS 6, "　":
+		\0:
+	}
+	{VAR0010 = 30:
+		!VAR0516 : 17!
+		ZH 1:
+		MS 1, "After Helman fell, she":
+		R
+		MS 2, "reunited with Merim. She swore":
+		R
+		MS 3, "to work for her fallen nation.":
+		R
+		MS 4, "Captured by Rance and sent to":
+		R
+		MS 5, "the dungeon.":
+		R
+		MS 6, "　":
+		\0:
+	}
+	{VAR0010 = 31:
+		!VAR0516 : 18!
+		ZH 1:
+		MS 1, "Happily lived with Aristoles,":
+		R
+		MS 2, "who betrayed Patton and ran to":
+		R
+		MS 3, "her.":
+		R
+		MS 4, "Rance used drugs on her and":
+		R
+		MS 5, "continued fucking her, making":
+		R
+		MS 6, "her addiction worse.":
+		\0:
+	}
+	{VAR0010 = 32:
+		!VAR0516 : 43!
+		ZH 1:
+		MS 1, "When her tower fell, Gandhi":
+		R
+		MS 2, "stopped her suicide. She came":
+		R
+		MS 3, "to Leazas and loved Rance.":
+		R
+		MS 4, "Died as her tower fell.":
+		R
+		MS 5, " ":
+		R
+		MS 6, "　":
+		\0:
+	}
+	{VAR0010 = 33:
+		!VAR0516 : 58!
+		ZH 1:
+		MS 1, "Rance broke her devil contract":
+		R
+		MS 2, "and she came to Leazas. Later":
+		R
+		MS 3, "she reunited with Alex.":
+		R
+		MS 4, "Her contract with Xacalite was":
+		R
+		MS 5, "completed and her soul was":
+		R
+		MS 6, "stolen.":
+		\0:
+	}
+	{VAR0010 = 34:
+		!VAR0516 : 45!
+		ZH 1:
+		MS 1, "She was chosen by Rance and":
+		R
+		MS 2, "found a new place for herself.":
+		R
+		MS 3, "　":
+		R
+		MS 4, "After losing her reason to":
+		R
+		MS 5, "live, sought power in the land":
+		R
+		MS 6, "of demons but died futilely.":
+		\0:
+	}
+	{VAR0010 = 35:
+		!VAR0516 : 33!
+		ZH 1:
+		MS 1, "Lived happily with her family":
+		R
+		MS 2, "in a teahouse in Osaka.":
+		R
+		MS 3, "　":
+		R
+		MS 4, "Captured by Rance and forced":
+		R
+		MS 5, "into his harem, never able to":
+		R
+		MS 6, "return home.":
+		\0:
+	}
+	{VAR0010 = 36:
+		!VAR0516 : 72!
+		ZH 1:
+		MS 1, "Continued to wander with":
+		R
+		MS 2, "Gandhi on a journey to reform":
+		R
+		MS 3, "the world.":
+		R
+		MS 4, "Captured by the demon Medusa":
+		R
+		MS 5, "and used as her toy until she":
+		R
+		MS 6, "died.":
+		\0:
+	}
+	{VAR0010 = 37:
+		!VAR0516 : 71!
+		ZH 1:
+		MS 1, "Continued to wander with":
+		R
+		MS 2, "Gandhi on a journey to reform":
+		R
+		MS 3, "the world.":
+		R
+		MS 4, "Tried to kill Rance after he":
+		R
+		MS 5, "executed Gandhi, but was":
+		R
+		MS 6, "killed by a soldier.":
+		\0:
+	}
+	{VAR0010 = 38:
+		!VAR0516 : 38!
+		ZH 1:
+		MS 1, "Caught Rance’s attention as he":
+		R
+		MS 2, "frequented the AL Church and":
+		R
+		MS 3, "entered his harem.":
+		R
+		MS 4, "When the AL Church fell, she":
+		R
+		MS 5, "was thrust away by Mulalaloux":
+		R
+		MS 6, "in the chaos and killed.":
+		\0:
+	}
+	{VAR0010 = 39:
+		!VAR0516 : 24!
+		ZH 1:
+		MS 1, "She was impregnated by Rance":
+		R
+		MS 2, "as she desired and gave birth":
+		R
+		MS 3, "to a healthy boy.":
+		R
+		MS 4, "Captured by the demon Medusa":
+		R
+		MS 5, "and used as her toy until she":
+		R
+		MS 6, "died.":
+		\0:
+	}
+	{VAR0010 = 40:
+		!VAR0516 : 16!
+		ZH 1:
+		MS 1, "Was once captured by Rance,":
+		R
+		MS 2, "but later happily lived her":
+		R
+		MS 3, "life without incident.":
+		R
+		MS 4, "Was once again found by Rance":
+		R
+		MS 5, "and ultimately captured.":
+		R
+		MS 6, "　":
+		\0:
+	}
+	{VAR0010 = 41:
+		!VAR0516 : 25!
+		ZH 1:
+		MS 1, "The world fell into chaos":
+		R
+		MS 2, "again, but she rebuilt JAPAN":
+		R
+		MS 3, "with Isoroku and her child.":
+		R
+		MS 4, "When Osaka Castle fell, she":
+		R
+		MS 5, "burned to death with the":
+		R
+		MS 6, "castle.":
+		\0:
+	}
+	{VAR0010 = 42:
+		!VAR0516 : 460!
+		ZH 1:
+		MS 1, "Rescued by Rance from":
+		R
+		MS 2, "Pluepet’s estate and entered":
+		R
+		MS 3, "his harem.":
+		R
+		MS 4, "Unable to believe in Rance,":
+		R
+		MS 5, "who paid for sex with her, she":
+		R
+		MS 6, "killed herself.":
+		\0:
+	}
+	{VAR0010 = 43:
+		!VAR0516 : 52!
+		ZH 1:
+		MS 1, "Rejected the magic research":
+		R
+		MS 2, "institute’s offer so she could":
+		R
+		MS 3, "keep being Chizuko’s disciple.":
+		R
+		MS 4, "Used to make the Flash, her":
+		R
+		MS 5, "blood was drained from her":
+		R
+		MS 6, "body and she died.":
+		\0:
+	}
+	{VAR0010 = 44:
+		!VAR0516 : 99!
+		ZH 1:
+		MS 1, "Separated from her abusive":
+		R
+		MS 2, "stepmother and came to Rance.":
+		R
+		MS 3, "　":
+		R
+		MS 4, "Continued to sell flowers in":
+		R
+		MS 5, "Helman and be abused by her":
+		R
+		MS 6, "stepmother every day.":
+		\0:
+	}
+	{VAR0010 = 45:
+		!VAR0516 : 79!
+		ZH 1:
+		MS 1, "Able to flaunt her skills at":
+		R
+		MS 2, "Genius Hospital, she cured":
+		R
+		MS 3, "many patients.":
+		R
+		MS 4, "Unwillingly gave her first":
+		R
+		MS 5, "time to cure okayu disease.":
+		R
+		MS 6, "　":
+		\0:
+	}
+	{VAR0010 = 46:
+		!VAR0516 : 27!
+		ZH 1:
+		MS 1, "Rehabilitated after some time.":
+		R
+		MS 2, "She was adopted by an old":
+		R
+		MS 3, "couple and lived normally.":
+		R
+		MS 4, "Continued to drown in pleasure":
+		R
+		MS 5, "as a sex slave for the rest of":
+		R
+		MS 6, "her life.":
+		\0:
+	}
+	{VAR0010 = 47:
+		!VAR0516 : 76!
+		ZH 1:
+		MS 1, "Able to aid the Leazas Army":
+		R
+		MS 2, "by geting two excellent":
+		R
+		MS 3, "students out of the academy.":
+		R
+		MS 4, "Her return to commanding the":
+		R
+		MS 5, "Royal Guard put her marriage":
+		R
+		MS 6, "in danger.":
+		\0:
+	}
+	{VAR0010 = 48:
+		!VAR0516 : 457!
+		ZH 1:
+		MS 1, "Able to die with Saias.":
+		R
+		MS 2, "":
+		R
+		MS 3, "　":
+		R
+		MS 4, "Lost to Rance and disappeared":
+		R
+		MS 5, "after being raped.":
+		R
+		MS 6, "　":
+		\0:
+	}
+	{VAR0010 = 49:
+		!VAR0516 : 62!
+		ZH 1:
+		MS 1, "With Rance’s support, she was":
+		R
+		MS 2, "able to place 1st in the":
+		R
+		MS 3, "rankings.":
+		R
+		MS 4, "Because of the photos Rance":
+		R
+		MS 5, "took, she was forced to retire.":
+		R
+		MS 6, "She then disappeared.":
+		\0:
+	}
+	{VAR0010 = 50:
+		!VAR0516 : 86!
+		ZH 1:
+		MS 1, "With the power of the Uncurse":
+		R
+		MS 2, "Spring, she was able to return":
+		R
+		MS 3, "to her true body.":
+		R
+		MS 4, "Captured by Rance and":
+		R
+		MS 5, "imprisoned in the dungeon in":
+		R
+		MS 6, "Leazas Castle.":
+		\0:
+	}
+	{VAR0010 = 51:
+		!VAR0516 : 57!
+		ZH 1:
+		MS 1, "Greening disease was cured,":
+		R
+		MS 2, "but she continued to wait for":
+		R
+		MS 3, "Kite at Green Village.":
+		R
+		MS 4, "Knowing her greening disease":
+		R
+		MS 5, "would eventually kill her, she":
+		R
+		MS 6, "helped others with the same.":
+		\0:
+	}
+	{VAR0010 = 52:
+		!VAR0516 : 64!
+		ZH 1:
+		MS 1, "Continued to protect the":
+		R
+		MS 2, "fallen Toushin City.":
+		R
+		MS 3, "　":
+		R
+		MS 4, "Toushin City was conquered.":
+		R
+		MS 5, "She was once again toyed with":
+		R
+		MS 6, "by Rance.":
+		\0:
+	}
+	{VAR0010 = 53:
+		!VAR0516 : 14!
+		ZH 1:
+		MS 1, "Unaware Rance tricked her, she":
+		R
+		MS 2, "was happy to be approved by":
+		R
+		MS 3, "the Pope’s representative.":
+		R
+		MS 4, "Deceived by land sharks, she":
+		R
+		MS 5, "was sold off to pay excess":
+		R
+		MS 6, "debt.":
+		\0:
+	}
+	{VAR0010 = 54:
+		!VAR0516 : 46!
+		ZH 1:
+		MS 1, "Became an angel as she desired.":
+		R
+		MS 2, " ":
+		R
+		MS 3, "　":
+		R
+		MS 4, "Despiting dreaming of being an":
+		R
+		MS 5, "angel, she became a devil due":
+		R
+		MS 6, "to all her fighting.":
+		\0:
+	}
+	{VAR0010 = 55:
+		!VAR0516 : 41!
+		ZH 1:
+		MS 1, "Now able to trust humans, she":
+		R
+		MS 2, "even had a child with Rance":
+		R
+		MS 3, "named Reset.":
+		R
+		MS 4, "Still unable to trust humans,":
+		R
+		MS 5, "she lives quietly in a closed":
+		R
+		MS 6, "off forest.":
+		\0:
+	}
+	{VAR0010 = 56:
+		!VAR0516 : 44!
+		ZH 1:
+		MS 1, "Captured by Rance and made an":
+		R
+		MS 2, "unpaid researcher, so she can":
+		R
+		MS 3, "engross herself in research.":
+		R
+		MS 4, "Continued to be used as a":
+		R
+		MS 5, "sexual outlet by soldiers in":
+		R
+		MS 6, "the Leazas Castle dungeon.":
+		\0:
+	}
+	{VAR0010 = 57:
+		!VAR0516 : 100!
+		ZH 1:
+		MS 1, "Stopped working as a miko when":
+		R
+		MS 2, "Orochi was slain. She seeks":
+		R
+		MS 3, "happiness as a normal girl.":
+		R
+		MS 4, "Sacrificed to Orochi.":
+		R
+		MS 5, "　":
+		R
+		MS 6, "　":
+		\0:
+	}
+	{VAR0010 = 58:
+		!VAR0516 : 97!
+		ZH 1:
+		MS 1, "Lived the rest of her life":
+		R
+		MS 2, "happily with her husband,":
+		R
+		MS 3, "Cordoba.":
+		R
+		MS 4, "After Cordoba’s death, she was":
+		R
+		MS 5, "tricked by Rance and had her":
+		R
+		MS 6, "virginity stolen.":
+		\0:
+	}
+	{VAR0010 = 59:
+		!VAR0516 : 449!
+		ZH 1:
+		MS 1, "Succeeded at spreading poison":
+		R
+		MS 2, "around Leazas. Her reward made":
+		R
+		MS 3, "her rich.":
+		R
+		MS 4, "Switched to Leazas’s side, but":
+		R
+		MS 5, "got caught spying on Helman":
+		R
+		MS 6, "and executed by Stessel.":
+		\0:
+	}
+	{VAR0010 = 60:
+		!VAR0516 : 83!
+		ZH 1:
+		MS 1, "Tamed the demon Galtia with":
+		R
+		MS 2, "the cooking she takes pride in":
+		R
+		MS 3, "and befriended him.":
+		R
+		MS 4, "Rance lost his temper and":
+		R
+		MS 5, "raped her, even though he":
+		R
+		MS 6, "didn’t win the competition.":
+		\0:
+	}
+	{VAR0010 = 61:
+		!VAR0516 : 54!
+		ZH 1:
+		MS 1, "Regardless of what world it":
+		R
+		MS 2, "was in, she always stayed with":
+		R
+		MS 3, "Kentarou.":
+		R
+		MS 4, "Killed Kentarou when Rance":
+		R
+		MS 5, "raped her. Became the Demon":
+		R
+		MS 6, "Lord to try and revive him.":
+		\0:
+	}
+	{VAR0010 = 62:
+		!VAR0516 : 249!
+		ZH 1:
+		MS 1, "Finally able to read the":
+		R
+		MS 2, "bishounen manga she sought,":
+		R
+		MS 3, "she was able to pass on.":
+		R
+		MS 4, "Still not having found the":
+		R
+		MS 5, "book she wants to read, she":
+		R
+		MS 6, "still wanders the library.":
+		\0:
+	}
+	{VAR0010 = 63:
+		!VAR0516 : 56!
+		ZH 1:
+		MS 1, "With Redeye killed and her":
+		R
+		MS 2, "being taken in by Rance, she":
+		R
+		MS 3, "was able to escape her curse.":
+		R
+		MS 4, "After Redeye was killed, she":
+		R
+		MS 5, "was controlled by his blood":
+		R
+		MS 6, "crystal and disappeared.":
+		\0:
+	}
+	{VAR0010 = 64:
+		!VAR0516 : 424!
+		ZH 1:
+		MS 1, "Forever watched over Patton.":
+		R
+		MS 2, "　":
+		R
+		MS 3, "　":
+		R
+		MS 4, "Disappeared with Patton.":
+		R
+		MS 5, "　":
+		R
+		MS 6, "　":
+		\0:
+	}
+	{VAR0010 = 65:
+		!VAR0516 : 428!
+		ZH 1:
+		MS 1, "She made peace with Hawzel":
+		R
+		MS 2, "when Rance rescued her. They":
+		R
+		MS 3, "entered the Leazas Army.":
+		R
+		MS 4, "Fused with Hawzel and became":
+		R
+		MS 5, "La Vaswald.":
+		R
+		MS 6, " ":
+		\0:
+	}
+	ZH 1:
+	'ôi'
+	\0:

@@ -1,0 +1,1918 @@
+	{(VAR0805 > 4) * (VAR0805 \ 6) * (VAR0805 \ 7) * (VAR0805 \ 12) * (VAR0805 \ 14):
+		!VAR0191 : 79!
+		!VAR0195 : VAR0195 + 1!
+		!VAR0020 : VAR0195!
+	}
+	!VAR0001 : 0!
+	!VAR0002 : 0!
+	!VAR0003 : 0!
+	{VAR0805 = 6:
+		!VAR0002 : 1!
+	}
+	{VAR0805 = 7:
+		!VAR0002 : 1!
+	}
+	{VAR0805 = 9:
+		!VAR0002 : 1!
+	}
+	{VAR0805 = 14:
+		!VAR0002 : 1!
+	}
+	{VAR0385 = 2:
+		!VAR0002 : 1!
+	}
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS 0:
+	Y 3, 120:
+	PF1 VAR0056:
+	\L_028ae:
+	CF 0, 0, 640, 400, 0:
+	PF0 0:
+	J0 0, 400:
+	G 269 + VAR0805:
+	CC 0, 400, 640, 400, 0, 0:
+	{(VAR0805 = 5) + (VAR0805 = 8) + (VAR0805 = 11) + (VAR0805 = 13):
+		!VAR0516 : 0!
+		!VAR0000 : 1!
+		%#PCMPLAY.ADV:
+		@L_0014d:
+	}
+	!VAR0516 : 0!
+	!VAR0000 : 2!
+	%#PCMPLAY.ADV:
+*L_0014d:
+	Y 3, 360:
+	IK 0:
+	{(VAR0805 = 7) + (VAR0805 = 8) + (VAR0805 = 11) + (VAR0805 = 13):
+		@L_0017e:
+	}
+	@L_004a8:
+*L_0017e:
+	PF1 VAR0056:
+	J0 640, 0:
+	G 850:
+	J0 640, 400:
+	G 851:
+	J0 1280, 0:
+	G 852:
+	J0 1280, 400:
+	G 853:
+	J0 1920, 0:
+	G 854:
+	J0 1920, 400:
+	G 855:
+	J0 2560, 0:
+	G 856:
+	J0 2560, 400:
+	G 857:
+	CC 2560, 400, 640, 400, 0, 400:
+	CS 640, 0, 640, 400, 0, 400, 40:
+	CC 0, 400, 640, 400, 0, 0:
+	Y 3, 10000:
+	{VAR0020 > 1:
+		Y 3, 10001:
+	}
+	SL 1:
+	SS 23:
+	Y 3, 420:
+	!VAR0690 : VAR0000!
+	PF0 VAR0056:
+	!VAR0000 : VAR0690!
+	{(VAR0000 \ 0) * (VAR0020 > 1):
+		@L_004a8:
+	}
+	!VAR0011 : 0!
+	!VAR0012 : 0!
+	!VAR0013 : 0!
+	!VAR0014 : 0!
+	!VAR0015 : 0!
+	!VAR0016 : 0!
+	!VAR0017 : 0!
+	!VAR0018 : 0!
+	!VAR0019 : 0!
+	Y 3, 840:
+	{(VAR0000 \ 0) * (VAR0020 > 1):
+		@L_004a8:
+	}
+	!VAR0015 : 2!
+	!VAR0011 : 640!
+	!VAR0012 : 0!
+	!VAR0013 : 400!
+	!VAR0016 : 640!
+	!VAR0017 : 400!
+	!VAR0018 : 0!
+	\L_00413:
+	{VAR0000 = 1000:
+		@L_004a8:
+	}
+	!VAR0011 : 640!
+	!VAR0012 : 400!
+	!VAR0013 : 400!
+	!VAR0016 : 1280!
+	!VAR0017 : 0!
+	!VAR0018 : 0!
+	\L_00413:
+	{VAR0000 = 1000:
+		@L_004a8:
+	}
+	!VAR0011 : 1280!
+	!VAR0012 : 0!
+	!VAR0013 : 400!
+	!VAR0016 : 1280!
+	!VAR0017 : 400!
+	!VAR0018 : 0!
+	\L_00413:
+	{VAR0000 = 1000:
+		@L_004a8:
+	}
+	!VAR0011 : 1280!
+	!VAR0012 : 400!
+	!VAR0013 : 400!
+	!VAR0016 : 1920!
+	!VAR0017 : 0!
+	!VAR0018 : 0!
+	\L_00413:
+	{VAR0000 = 1000:
+		@L_004a8:
+	}
+	!VAR0011 : 1920!
+	!VAR0012 : 0!
+	!VAR0013 : 400!
+	!VAR0016 : 1920!
+	!VAR0017 : 400!
+	!VAR0018 : 0!
+	\L_00413:
+	{VAR0000 = 1000:
+		@L_004a8:
+	}
+	!VAR0011 : 1920!
+	!VAR0012 : 400!
+	!VAR0013 : 400!
+	!VAR0016 : 2560!
+	!VAR0017 : 0!
+	!VAR0018 : 0!
+	\L_00413:
+	{VAR0000 = 1000:
+		@L_004a8:
+	}
+*L_003f0:
+	SR1, VAR0011:
+	{VAR0011 = 0:
+		Y 3, 300:
+		@L_004a8:
+	}
+	@L_003f0:
+*L_00413:
+	CC 2560, 400, 640, 400, 0, 400:
+	CS VAR0011, VAR0012, 640, VAR0013, 0, 400, 40:
+	CS VAR0016, VAR0017, 640, VAR0018, 0, 400 + VAR0013, 40:
+	CC 0, 400, 640, 400, 0, 0:
+	!VAR0012 : VAR0012 + VAR0015!
+	!VAR0013 : VAR0013 - VAR0015!
+	!VAR0018 : VAR0018 + VAR0015!
+	Y 3, 3:
+	{(VAR0000 \ 0) * (VAR0020 > 1):
+		!VAR0000 : 1000!
+		\0:
+	}
+	{VAR0013 = 0:
+		\0:
+	}
+	@L_00413:
+*L_004a8:
+	SS 0:
+	!VAR0004 : 0!
+	!VAR0005 : 288!
+	!VAR0006 : 24!
+	!VAR0007 : 0!
+	!VAR0008 : 288!
+	!VAR0009 : 144!
+	!VAR0010 : 0!
+	PF1 VAR0056:
+	J0 0, 0:
+	G 840:
+	CC 0, 0, 640, 400, 640, 0:
+	J0 0, 400:
+	G 841:
+	PF0 VAR0056:
+	Y 1, 1:
+	ZH 1:
+	'Báo cáo hoàn thành'
+	\L_028c9:
+	!VAR0191 : 0!
+	!VAR0001 : 0!
+	!VAR0516 : 2!
+	!VAR0154 : 2!
+	{(VAR0716 = 1) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Sill Plain 　　　（Fortune): Trong'
+			R
+			'một cuộc phiêu lưu khác với'
+			R
+			'Rance...'
+		}
+	}
+	{VAR0716 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Sill Plain 　　　（Bất hạnh): Bị bà'
+		R
+		'Gorch giết'
+	}
+	\L_02612:
+	!VAR0191 : 1!
+	!VAR0001 : 0!
+	!VAR0516 : 5!
+	{VAR0717 = 1:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Lia Parapara Leazas 　　　（Vận'
+			R
+			'may): Có con của Rance'
+		}
+	}
+	{VAR0717 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Lia Parapara Leazas 　　　（Bất'
+		R
+		'hạnh） ：Rance bỏ chạy cùng Sill'
+	}
+	\L_02612:
+	!VAR0191 : 2!
+	!VAR0001 : 0!
+	!VAR0516 : 6!
+	{VAR0717 = 1:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Maris Amaryllis 　　　（Vận may):'
+			R
+			'Lia đã rất hạnh phúc'
+		}
+	}
+	{VAR0717 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Maris Amaryllis 　　　（Bất hạnh）'
+		R
+		'：Lia không vui'
+	}
+	\L_02612:
+	!VAR0191 : 3!
+	!VAR0001 : 0!
+	!VAR0516 : 37!
+	{VAR0394 = 5:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Suzume Katou 　　　（Fortune): Thoát'
+			R
+			'khỏi công cụ của cha cô, tận'
+			R
+			'hưởng việc phục vụ Rance'
+		}
+	}
+	{(VAR0394 < 4) * (VAR0805 \ 14):
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Suzume Katou 　　　（Bất hạnh） ：Bị'
+		R
+		'nhiều người đàn ông lạm dụng như'
+		R
+		'công cụ của cha cô'
+	}
+	\L_02612:
+	!VAR0191 : 4!
+	!VAR0001 : 0!
+	!VAR0516 : 36!
+	{VAR0748 = 1:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Wendy Crumiller 　　　（Fortune):'
+			R
+			'Trở thành một cô hầu gái bị'
+			R
+			'ngược đãi như cô ấy mong muốn'
+		}
+	}
+	{(VAR0395 < 2) * (VAR0805 \ 14):
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Wendy Crumiller 　　　（Bất hạnh):'
+		R
+		'Mãi mãi là một cô hầu gái bình'
+		R
+		'thường'
+	}
+	\L_02612:
+	!VAR0191 : 5!
+	!VAR0001 : 0!
+	!VAR0516 : 9!
+	{VAR0805 = 3:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Kanami Kentou 　　　（Vận may): Chạy'
+			R
+			'trốn bằng mật mã'
+		}
+	}
+	{VAR0753 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Kanami Kentou 　　　（Bất hạnh） ：Bị'
+		R
+		'kẻ thù bắt và xử tử'
+	}
+	\L_02612:
+	!VAR0191 : 6!
+	!VAR0001 : 0!
+	!VAR0516 : 7!
+	!VAR0154 : 7!
+	{VAR0102 = 0:
+		!VAR0621 : 0!
+	}
+	{VAR0102 \ 0:
+		!VAR0621 : 1!
+	}
+	!VAR0154 : 5!
+	{(VAR0404 > 5) * (VAR0102 \ 0) * (VAR0621 = 1):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Leila Grecni 　　　（Fortune): Bày'
+			R
+			'tỏ cảm xúc với Rick'
+		}
+	}
+	{VAR0326 = 1:
+		!VAR0516 : 30!
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Leila Grecni 　　　（Bất hạnh） ：Trở'
+		R
+		'thành vợ của Nobunaga, sau đó'
+		R
+		'qua đời'
+	}
+	\L_02612:
+	!VAR0191 : 7!
+	!VAR0001 : 0!
+	!VAR0516 : 8!
+	!VAR0154 : 10!
+	{(VAR0405 = 8) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Menad Shisei 　　　（Fortune): Kết'
+			R
+			'thúc mối quan hệ với Zarak và'
+			R
+			'bước tiếp'
+		}
+	}
+	{VAR0407 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Menad Shisei 　　　（Bất hạnh） ：Bị'
+		R
+		'Zarak phản bội'
+	}
+	\L_02612:
+	!VAR0191 : 8!
+	!VAR0001 : 0!
+	!VAR0516 : 10!
+	!VAR0154 : 12!
+	{(VAR0752 = 1) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Haurein Provence 　　　（Vận may):'
+			R
+			'Được cha cô khen ngợi'
+		}
+	}
+	{VAR0752 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Haurein Provence 　　　（Bất hạnh）'
+		R
+		'：Có thai và bỏ trốn'
+	}
+	\L_02612:
+	!VAR0191 : 9!
+	!VAR0001 : 0!
+	!VAR0516 : 11!
+	!VAR0154 : 13!
+	{(VAR0417 = 1) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Melfeis Promenade 　　　（Vận may)'
+			R
+			'：Phá bỏ lời nguyền và kết hôn'
+		}
+	}
+	{VAR0417 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Melfeis Promenade 　　　（Không may'
+		R
+		'mắn） ：Gia nhập Rance, nhưng sau'
+		R
+		'đó chết vì lời nguyền của cô ấy'
+	}
+	\L_02612:
+	!VAR0191 : 10!
+	!VAR0001 : 0!
+	!VAR0516 : 4!
+	!VAR0154 : 4!
+	{(VAR0400 = 1) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Soul Less 　　　（Fortune): Sau khi'
+			R
+			'được Rance cứu, cô đã cặp kè với'
+			R
+			'một hiệp sĩ đỏ'
+		}
+	}
+	{VAR0400 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Soul Less 　　　（Bất hạnh): Bị giết'
+		R
+		'bởi Madame Gorch'
+	}
+	\L_02612:
+	!VAR0191 : 11!
+	!VAR0001 : 0!
+	!VAR0516 : 15!
+	{VAR0330 < 2:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Anasel Caspora 　　　（Fortune):'
+			R
+			'Từng bị Rance bắt giữ, nhưng sau'
+			R
+			'đó sống trong hòa bình'
+		}
+	}
+	{VAR0330 > 1:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Anasel Caspora 　　　（Bất hạnh） ：Bị'
+		R
+		'Rance bắt lại'
+	}
+	\L_02612:
+	!VAR0191 : 12!
+	!VAR0001 : 0!
+	!VAR0516 : 50!
+	{VAR0805 = 5:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Maria Custard 　　　（Fortune): Đi'
+			R
+			'vào vũ trụ cùng Rance'
+		}
+	}
+	{VAR0428 = 100:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Maria Custard 　　　（Bất hạnh）'
+		R
+		'：Chết vì một vụ tai nạn'
+	}
+	\L_02612:
+	!VAR0191 : 13!
+	!VAR0001 : 0!
+	!VAR0516 : 49!
+	{VAR0067 = 7:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Shizuka Masou 　　　（Vận may): Trả'
+			R
+			'thù thành công và lên đường'
+		}
+	}
+	{VAR0336 = 7:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Shizuka Masou 　　　（Bất hạnh） ：Bị'
+		R
+		'Ragarl cưỡng hiếp và chết'
+	}
+	\L_02612:
+	!VAR0191 : 14!
+	!VAR0001 : 0!
+	!VAR0516 : 66!
+	!VAR0154 : 23!
+	{(VAR0102 \ 0) * (VAR0434 = 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Eleanor Ran 　　　（Fortune): Không'
+			R
+			'quan hệ tình dục với Rance'
+		}
+	}
+	{VAR0760 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Eleanor Ran 　　　（Bất hạnh） ：Tự'
+		R
+		'sát'
+	}
+	\L_02612:
+	!VAR0191 : 15!
+	!VAR0001 : 0!
+	!VAR0516 : 67!
+	!VAR0154 : 24!
+	{VAR0102 \ 0:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Milli Yorks 　　　（Vận may) ：Không'
+			R
+			'chết'
+		}
+	}
+	{VAR0759 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Milli Yorks 　　　（Bất hạnh） ：Chết'
+		R
+		'vì bệnh tật'
+	}
+	\L_02612:
+	!VAR0191 : 16!
+	!VAR0001 : 0!
+	!VAR0516 : 68!
+	!VAR0154 : 25!
+	{(VAR0431 > 2) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0516 : 69!
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Mill Yorks 　　　（Fortune): Lớn lên'
+			R
+			'và quan hệ tình dục với Rance'
+		}
+	}
+	{(VAR0431 = 1) * (VAR0102 \ 0):
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Mill Yorks 　　　（Không may mắn）'
+		R
+		'：Không quan hệ tình dục với'
+		R
+		'Rance'
+	}
+	\L_02612:
+	!VAR0191 : 17!
+	!VAR0001 : 0!
+	!VAR0516 : 32!
+	{VAR0470 > 14:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Mokomoko Takenaka 　　　（Vận may):'
+			R
+			'Sống bên cạnh Rance'
+		}
+	}
+	{VAR0470 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Mokomoko Takenaka 　　　（Bất hạnh）'
+		R
+		'：Bị bắt bởi Hiệp hội DX'
+	}
+	\L_02612:
+	!VAR0191 : 18!
+	!VAR0001 : 0!
+	!VAR0516 : 12!
+	{VAR0324 = 1:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Sayori Unga 　　　（Vận may): Trở về'
+			R
+			'M Land'
+		}
+	}
+	{VAR0324 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Sayori Unga 　　　（Bất hạnh） ：Kết'
+		R
+		'hôn với Shinoda'
+	}
+	\L_02612:
+	!VAR0191 : 19!
+	!VAR0001 : 0!
+	!VAR0516 : 63!
+	{(VAR0493 > 5) * (VAR0486 = 1):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Merim Tser 　　　（Vận may): Đã làm'
+			R
+			'rất nhiều việc trong ngục tối'
+		}
+	}
+	{VAR0486 = 3:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Merim Tser 　　　（Bất hạnh） ：Chết'
+		R
+		'trong ngục tối'
+	}
+	\L_02612:
+	!VAR0191 : 20!
+	!VAR0001 : 0!
+	!VAR0516 : 65!
+	{VAR0420 = 10:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Raylee Serika 　　　（Fortune): Sống'
+			R
+			'cùng với Amuro'
+		}
+	}
+	{VAR0420 = 5:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Raylee Serika 　　　（Bất hạnh） ：Nô'
+		R
+		'lệ của Rance'
+	}
+	\L_02612:
+	!VAR0191 : 21!
+	!VAR0001 : 0!
+	!VAR0516 : 22!
+	{(VAR0763 > 0) * (VAR0763 \ 4):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Shariela Aries 　　　（Fortune) ：Rất'
+			R
+			'vui được sống cùng Rance'
+		}
+	}
+	{VAR0763 = 4:
+		!VAR0516 : 21!
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Shariela Aries 　　　（Bất hạnh）'
+		R
+		'：Trở lại thành búp bê'
+	}
+	\L_02612:
+	!VAR0191 : 22!
+	!VAR0001 : 0!
+	!VAR0516 : 40!
+	{VAR0439 = 1:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Amiran Berkov 　　　（Vận may): Sau'
+			R
+			'sự sụp đổ của Helman, đoàn tụ'
+			R
+			'với cha cô'
+		}
+	}
+	{VAR0439 = 2:
+		!VAR0516 : 39!
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Amiran Berkov 　　　（Bất hạnh） ：Đồ'
+		R
+		'chơi của Rance'
+	}
+	\L_02612:
+	!VAR0191 : 23!
+	!VAR0001 : 0!
+	!VAR0516 : 28!
+	{VAR0423 = 1:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Katyusha Bosch 　　　（Vận may):'
+			R
+			'Trốn thoát cùng tiền khi Tập'
+			R
+			'đoàn quân số 5 Helman bỏ mạng'
+		}
+	}
+	{VAR0423 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Katyusha Bosch 　　　（Bất hạnh）'
+		R
+		'：Bán cho Hiệp hội DX'
+	}
+	\L_02612:
+	!VAR0191 : 24!
+	!VAR0001 : 0!
+	!VAR0516 : 29!
+	{VAR0425 = 1:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Saulnia Benz 　　　（Vận may): Trốn'
+			R
+			'thoát cùng tiền khi Tập đoàn'
+			R
+			'quân số 5 Helman bỏ mạng'
+		}
+	}
+	{VAR0425 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Saulnia Benz 　　　（Bất hạnh） ：Bán'
+		R
+		'cho Hiệp hội DX'
+	}
+	\L_02612:
+	!VAR0191 : 25!
+	!VAR0001 : 0!
+	!VAR0516 : 75!
+	{VAR0449 = 10:
+		!VAR0001 : 1!
+		\L_02897:
+		ZH 1:
+		'Satella 　　　（Fortune): Chinh phục'
+		R
+		'thế giới với Chúa Quỷ Rance'
+	}
+	{VAR0449 = 12:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Satella 　　　（Bất hạnh): Trở thành'
+		R
+		'nô lệ của Chúa quỷ Kayblis'
+	}
+	\L_02612:
+	!VAR0191 : 26!
+	!VAR0001 : 0!
+	!VAR0516 : 81!
+	!VAR0154 : 33!
+	{(VAR0461 = 3) * (VAR0666 > 5) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Julia Lindum 　　　（Vận may): Số'
+			R
+			'lượng quân tăng hơn gấp đôi,'
+			R
+			'cũng được tăng sức mạnh'
+		}
+	}
+	{VAR0461 = 10:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Julia Lindum 　　　（Bất hạnh): Thú'
+		R
+		'cưng của Hanny King'
+	}
+	\L_02612:
+	!VAR0191 : 27!
+	!VAR0001 : 0!
+	!VAR0516 : 78!
+	!VAR0154 : 34!
+	{(VAR0463 \ 0) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Rafalia Musca 　　　（Vận may): Gia'
+			R
+			'nhập quân đội Leazas'
+		}
+	}
+	{(VAR0464 \ 0) * (VAR0463 = 0):
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Rafalia Musca 　　　（Không may mắn）'
+		R
+		'：Thua trước Arlcoate'
+	}
+	\L_02612:
+	!VAR0191 : 28!
+	!VAR0001 : 0!
+	!VAR0516 : 77!
+	!VAR0154 : 35!
+	{(VAR0464 > 6) * (VAR0464 \ 10) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Arlcoate Marius 　　　（Vận may):'
+			R
+			'Yêu Rance'
+		}
+	}
+	{VAR0464 = 10:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Arlcoate Marius 　　　（Bất hạnh）'
+		R
+		'：Bị Rance cưỡng hiếp'
+	}
+	\L_02612:
+	!VAR0191 : 29!
+	!VAR0001 : 0!
+	!VAR0516 : 26!
+	!VAR0154 : 28!
+	{(VAR0701 > 10) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Kem Ganoblade 　　　（Vận may): Đã'
+			R
+			'có nhiều chiến lược thành công'
+		}
+	}
+	{VAR0764 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Cream Ganoblade 　　　（Bất hạnh）'
+		R
+		'：Tàng hình bị đồng minh của cô'
+		R
+		'tấn công'
+	}
+	\L_02612:
+	!VAR0191 : 30!
+	!VAR0001 : 0!
+	!VAR0516 : 17!
+	{VAR0321 = 100:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Ruberan Tser 　　　（Vận may): Đoàn'
+			R
+			'tụ với Merim.Sau đó bắt đầu công'
+			R
+			'việc tình nguyện.'
+		}
+	}
+	{(VAR0321 \ 0) * (VAR0321 \ 100):
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Ruberan Tser 　　　（Bất hạnh） ：Bị'
+		R
+		'Rance bắt và biến thành nô lệ'
+	}
+	\L_02612:
+	!VAR0191 : 31!
+	!VAR0001 : 0!
+	!VAR0516 : 18!
+	{VAR0446 = 11:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Sheila Helman 　　　（Vận may): Được'
+			R
+			'bảo vệ bởi Aristoles'
+		}
+	}
+	{VAR0446 = 5:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Sheila Helman 　　　（Bất hạnh）'
+		R
+		'：Nghiện ma túy ngày càng trầm'
+		R
+		'trọng'
+	}
+	\L_02612:
+	!VAR0191 : 32!
+	!VAR0001 : 0!
+	!VAR0516 : 43!
+	!VAR0154 : 38!
+	{(VAR0320 > 3) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0516 : 61!
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Chizuko Yamada 　　　（Vận may):'
+			R
+			'Sống nhờ khao khát Rance'
+		}
+	}
+	{VAR0774 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Chizuko Yamada 　　　（Bất hạnh） ：Bị'
+		R
+		'quân nô lệ cưỡng hiếp đến chết'
+	}
+	\L_02612:
+	!VAR0191 : 33!
+	!VAR0001 : 0!
+	!VAR0516 : 58!
+	!VAR0154 : 39!
+	{(VAR0389 = 6) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Magic the Gandhi 　　　（Fortune):'
+			R
+			'Đoàn tụ với Alex'
+		}
+	}
+	{VAR0389 = 100:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Phép thuật của Gandhi 　　　（Bất'
+		R
+		'hạnh): Linh hồn bị quỷ dữ bắt đi'
+	}
+	\L_02612:
+	!VAR0191 : 34!
+	!VAR0001 : 0!
+	!VAR0516 : 45!
+	!VAR0154 : 40!
+	{(VAR0457 > 9) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Nagi su Ragarl 　　　（Vận may):'
+			R
+			'Được Rance chọn và đến Leazas'
+		}
+	}
+	{VAR0457 = 4:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Nagi su Ragarl 　　　（Bất hạnh）'
+		R
+		'：Cầu xin sức mạnh của quỷ, chết'
+		R
+		'vô ích'
+	}
+	\L_02612:
+	!VAR0191 : 35!
+	!VAR0001 : 0!
+	!VAR0516 : 33!
+	{VAR0471 = 0:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Makoto 　　　（Vận may): Sống hạnh'
+			R
+			'phúc ở Osaka'
+		}
+	}
+	{VAR0471 \ 0:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Makoto 　　　（Bất hạnh） ：Bị bắt bởi'
+		R
+		'Rance'
+	}
+	\L_02612:
+	!VAR0191 : 36!
+	!VAR0001 : 0!
+	!VAR0516 : 72!
+	{VAR0455 = 100:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Kaoru Quincy Kagura 　　　（Vận'
+			R
+			'may): Tiếp tục đồng hành cùng'
+			R
+			'Gandhi'
+		}
+	}
+	{VAR0740 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Kaoru Quincy Kagura 　　　（Bất'
+		R
+		'hạnh） ：Bị Medusa giết'
+	}
+	\L_02612:
+	!VAR0191 : 37!
+	!VAR0001 : 0!
+	!VAR0516 : 71!
+	{VAR0455 = 100:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Wichita Skate 　　　（Vận may): Tiếp'
+			R
+			'tục đồng hành cùng Gandhi'
+		}
+	}
+	{(VAR0455 = 99) * (VAR0588 = 0):
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Wichita Skate 　　　（Bất hạnh）'
+		R
+		'：Thất bại trong việc trả thù cho'
+		R
+		'Gandhi'
+	}
+	\L_02612:
+	!VAR0191 : 38!
+	!VAR0001 : 0!
+	!VAR0516 : 38!
+	{(VAR0367 \ 0) * (VAR0367 \ 10):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Elisabeth Des 　　　（Fortune): Rất'
+			R
+			'vui được phục vụ Rance'
+		}
+	}
+	{VAR0367 = 10:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Elisabeth Des 　　　（Bất hạnh):'
+		R
+		'Chết trong sự sụp đổ của chủ'
+		R
+		'nghĩa AL'
+	}
+	\L_02612:
+	!VAR0191 : 39!
+	!VAR0001 : 0!
+	!VAR0516 : 24!
+	!VAR0154 : 27!
+	{(VAR0561 = 6) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Isoroku Yamamoto 　　　（Vận may):'
+			R
+			'Sinh ra người thừa kế của gia'
+			R
+			'tộc Yamamoto'
+		}
+	}
+	{VAR0739 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Isoroku Yamamoto 　　　（Bất hạnh）'
+		R
+		'：Bị Medusa bắt giữ'
+	}
+	\L_02612:
+	!VAR0191 : 40!
+	!VAR0001 : 0!
+	!VAR0516 : 16!
+	{VAR0366 < 2:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Merci Archa 　　　（Fortune): Không'
+			R
+			'bị Rance bắt giữ'
+		}
+	}
+	{VAR0366 > 1:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Merci Archa 　　　（Bất hạnh） ：Bị'
+		R
+		'bắt bởi Rance'
+	}
+	\L_02612:
+	!VAR0191 : 41!
+	!VAR0001 : 0!
+	!VAR0516 : 25!
+	!VAR0154 : 27!
+	{(VAR0805 = 8) * (VAR0327 = 3) * (VAR0561 = 6) * (VAR0102 \ 0):
+		!VAR0001 : 1!
+		\L_02897:
+		ZH 1:
+		'Kouhime 　　　（Fortune): Làm việc'
+		R
+		'với Isoroku và con của cô ấy để'
+		R
+		'khôi phục NHẬT BẢN'
+	}
+	{VAR0719 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Kouhime 　　　（Bất hạnh） :Chết'
+	}
+	\L_02612:
+	!VAR0191 : 42!
+	!VAR0001 : 0!
+	!VAR0516 : 460!
+	{(VAR0403 > 1) * (VAR0403 \ 100):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Rebecca 　　　（Fortune): Được giải'
+			R
+			'thoát khỏi Pluepet và đến Rance'
+		}
+	}
+	{VAR0403 = 100:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Rebecca 　　　（Bất hạnh） ：Tự tử'
+	}
+	\L_02612:
+	!VAR0191 : 43!
+	!VAR0001 : 0!
+	!VAR0516 : 52!
+	{VAR0349 = 6:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Annis Sawatari 　　　（Vận may): Đã'
+			R
+			'có niềm vui (?) khi sống dưới sự'
+			R
+			'giúp đỡ của Chizuko'
+		}
+	}
+	{VAR0336 = 6:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Annis Sawatari 　　　（Không may'
+		R
+		'mắn） ：Dùng làm nguyên liệu cho'
+		R
+		'Flash'
+	}
+	\L_02612:
+	!VAR0191 : 44!
+	!VAR0001 : 0!
+	!VAR0516 : 99!
+	{VAR0345 > 6:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Hoa Elena 　　　（Fortune): Được'
+			R
+			'Rance chăm sóc một cách vui vẻ'
+		}
+	}
+	{VAR0345 < 7:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Elena Flower 　　　（Bất hạnh): Tiếp'
+		R
+		'tục bị mẹ kế bạo hành'
+	}
+	\L_02612:
+	!VAR0191 : 45!
+	!VAR0001 : 0!
+	!VAR0516 : 79!
+	{(VAR0564 \ 0) * (VAR0564 \ 8):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Aya Fujinomiya 　　　（Vận may): Đã'
+			R
+			'giúp đỡ rất nhiều bệnh nhân'
+		}
+	}
+	{VAR0564 = 8:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Aya Fujinomiya 　　　（Không may'
+		R
+		'mắn） ：Có lần đầu tiên khủng'
+		R
+		'khiếp để chữa khỏi bệnh oku'
+	}
+	\L_02612:
+	!VAR0191 : 46!
+	!VAR0001 : 0!
+	!VAR0516 : 27!
+	{VAR0421 = 100:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Aoi (Nô lệ tình dục) 　　　（Vận'
+			R
+			'may): Phục hồi và bắt đầu một'
+			R
+			'cuộc sống mới'
+		}
+	}
+	{VAR0421 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Aoi （Nô lệ tình dục） 　　　（Bất'
+		R
+		'hạnh） ：Tiếp tục làm nô lệ tình'
+		R
+		'dục'
+	}
+	\L_02612:
+	!VAR0191 : 47!
+	!VAR0001 : 0!
+	!VAR0516 : 76!
+	{(VAR0462 = 100) * (VAR0464 \ 0) * (VAR0463 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Aviator Sukatto 　　　（Fortune):'
+			R
+			'Đưa hai học sinh từ học viện vào'
+			R
+			'Quân đội Leazas'
+		}
+	}
+	{VAR0462 = 11:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Aviator Sukatto 　　　（Bất hạnh）'
+		R
+		'：Trở lại làm đội trưởng Đội cận'
+		R
+		'vệ Hoàng gia, hôn nhân tan vỡ'
+	}
+	\L_02612:
+	!VAR0191 : 48!
+	!VAR0001 : 0!
+	!VAR0516 : 457!
+	{VAR0723 = 1:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Uspira Shintou 　　　（Vận may): Tự'
+			R
+			'sát kép với Saias'
+		}
+	}
+	{VAR0723 = 2:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Uspira Shintou 　　　（Bất hạnh） ：Bị'
+		R
+		'Rance cưỡng hiếp'
+	}
+	\L_02612:
+	!VAR0191 : 49!
+	!VAR0001 : 0!
+	!VAR0516 : 62!
+	{(VAR0347 = 0) * (VAR0346 = 12):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Kapala Lodz 　　　（Fortune): Đạt vị'
+			R
+			'trí số 1 trong bảng xếp hạng'
+		}
+	}
+	{VAR0347 = 3:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Kapala Lodz 　　　（Bất hạnh） ：Bị'
+		R
+		'Rance cưỡng hiếp và biến mất'
+	}
+	\L_02612:
+	!VAR0191 : 50!
+	!VAR0001 : 0!
+	!VAR0516 : 86!
+	!VAR0154 : 45!
+	{(VAR0365 > 19) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0516 : 87!
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Cafe Artful 　　　（Fortune): Trở về'
+			R
+			'hình dạng ban đầu'
+		}
+	}
+	{(VAR0365 = 10) + (VAR0365 = 11):
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Quý cô （Cafe Artful） 　　　（Bất'
+		R
+		'hạnh） ：Bị Rance bắt và giam dưới'
+		R
+		'tầng hầm'
+	}
+	\L_02612:
+	!VAR0191 : 51!
+	!VAR0001 : 0!
+	!VAR0516 : 57!
+	{VAR0380 = 6:
+		{VAR0002 = 0:
+			!VAR0516 : 467!
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Calory Mate 　　　（Vận may): Chữa'
+			R
+			'khỏi bệnh xanh lá cây'
+		}
+	}
+	{VAR0380 = 10:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Calory Mate 　　　（Không may mắn）'
+		R
+		'：Bệnh không thể chữa khỏi, và...'
+	}
+	\L_02612:
+	!VAR0191 : 52!
+	!VAR0001 : 0!
+	!VAR0516 : 64!
+	!VAR0158 : 27!
+	{VAR0130 = 3:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Sanakia Drelshkaf 　　　（Vận may):'
+			R
+			'Thành phố Toushin vẫn bình yên'
+		}
+	}
+	{VAR0130 = 1:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Sanakia Drelshkaf 　　　（Bất hạnh）'
+		R
+		'：Bị Rance cưỡng hiếp lần nữa'
+	}
+	\L_02612:
+	!VAR0191 : 53!
+	!VAR0001 : 0!
+	!VAR0516 : 14!
+	{(VAR0435 > 4) * (VAR0761 = 1):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Cell Curchgolf 　　　（Không may'
+			R
+			'mắn） ：Được đại diện của Giáo'
+			R
+			'hoàng (giả) chấp thuận'
+		}
+	}
+	{VAR0761 > 11:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Cell Curchgolf 　　　（Bất hạnh） ：Bị'
+		R
+		'cá mập trên cạn bắt và bán'
+	}
+	\L_02612:
+	!VAR0191 : 54!
+	!VAR0001 : 0!
+	!VAR0516 : 47!
+	{VAR0354 = 1:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Somita Kalar 　　　（Vận may): Trở'
+			R
+			'thành thiên thần'
+		}
+	}
+	{VAR0354 = 2:
+		!VAR0516 : 48!
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Somita Kalar 　　　（Bất hạnh） ：Trở'
+		R
+		'thành ác quỷ'
+	}
+	\L_02612:
+	!VAR0191 : 55!
+	!VAR0001 : 0!
+	!VAR0516 : 493!
+	{VAR0355 > 4:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Pastel Kalar 　　　（Vận may): Đạt'
+			R
+			'được lòng tin đối với con người,'
+			R
+			'sinh ra đứa con của Rance'
+		}
+	}
+	{VAR0355 = 0:
+		!VAR0001 : 2!
+		!VAR0516 : 41!
+		\L_02897:
+		ZH 1:
+		'Pastel Kalar 　　　（Bất hạnh） ：Vẫn'
+		R
+		'không tin tưởng con người'
+	}
+	\L_02612:
+	!VAR0191 : 56!
+	!VAR0001 : 0!
+	!VAR0516 : 44!
+	{VAR0651 = 10:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Máy chủ Papaya 　　　（Fortune):'
+			R
+			'Hoàn toàn say mê nghiên cứu với'
+			R
+			'tư cách là một nhà nghiên cứu'
+			R
+			'không được trả lương'
+		}
+	}
+	{VAR0651 = 11:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Máy chủ đu đủ 　　　（Bất hạnh): Bắt'
+		R
+		'làm nô lệ tình dục trong ngục'
+		R
+		'tối'
+	}
+	\L_02612:
+	!VAR0191 : 57!
+	!VAR0001 : 0!
+	!VAR0516 : 100!
+	{VAR0663 > 19:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Fuuka 　　　（Vận may): Orochi bị'
+			R
+			'quân đội Leazas giết chết, sống'
+			R
+			'như một cô gái bình thường'
+		}
+	}
+	{VAR0663 = 19:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Fuuka 　　　（Bất hạnh): Hy sinh cho'
+		R
+		'Orochi'
+	}
+	\L_02612:
+	!VAR0191 : 58!
+	!VAR0001 : 0!
+	!VAR0516 : 97!
+	!VAR0154 : 8!
+	{(VAR0102 \ 0) * (VAR0418 > 2):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Fururu Burn 　　　（Fortune): Sống'
+			R
+			'hạnh phúc bên chồng Cordoba'
+		}
+	}
+	{VAR0418 = 11:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Fururu Burn 　　　（Bất hạnh): Ngoài'
+		R
+		'việc mất chồng, bị Rance lừa và'
+		R
+		'cưỡng hiếp'
+	}
+	\L_02612:
+	!VAR0191 : 59!
+	!VAR0001 : 0!
+	!VAR0516 : 449!
+	{VAR0586 = 11:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Freya Idun 　　　（Vận may): Hoàn'
+			R
+			'thành nghĩa vụ và trở nên giàu'
+			R
+			'có'
+		}
+	}
+	{VAR0586 = 12:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Freya Idun 　　　（Bất hạnh） ：Gia'
+		R
+		'nhập Leazas, nhưng bị Helman bắt'
+		R
+		'và xử tử'
+	}
+	\L_02612:
+	!VAR0191 : 60!
+	!VAR0001 : 0!
+	!VAR0516 : 83!
+	!VAR0154 : 41!
+	{VAR0102 \ 0:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Martina Curry 　　　（Vận may): Kết'
+			R
+			'bạn với Galtia'
+		}
+	}
+	{VAR0377 = 100:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Martina Curry 　　　（Không may'
+		R
+		'mắn): Bị Rance cưỡng hiếp'
+	}
+	\L_02612:
+	!VAR0191 : 61!
+	!VAR0001 : 0!
+	!VAR0516 : 54!
+	!VAR0154 : 31!
+	{VAR0102 \ 0:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Miki Kurusu 　　　（Vận may): Với'
+			R
+			'Kentarou'
+		}
+	}
+	{VAR0805 = 6:
+		!VAR0516 : 53!
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Miki Kurusu 　　　（Bất hạnh） ：Thức'
+		R
+		'tỉnh thành Chúa quỷ'
+	}
+	\L_02612:
+	!VAR0191 : 62!
+	!VAR0001 : 0!
+	!VAR0516 : 249!
+	{VAR0731 = 6:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Thư viện ma 　　　（Vận may) ：Đã qua'
+		}
+	}
+	{(VAR0731 \ 6) * (VAR0731 > 1):
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Hồn ma thư viện 　　　（Bất hạnh）'
+		R
+		'：Tiếp tục lang thang'
+	}
+	\L_02612:
+	!VAR0191 : 63!
+	!VAR0001 : 0!
+	!VAR0516 : 56!
+	{VAR0654 = 13:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Rona 　　　（Vận may): Thoát khỏi'
+			R
+			'lời nguyền của Redeye'
+		}
+	}
+	{VAR0654 = 10:
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Rona 　　　（Bất hạnh): Redeye đã bị'
+		R
+		'đánh bại, nhưng cô ấy vẫn không'
+		R
+		'thể thoát khỏi lời nguyền của'
+		R
+		'mình'
+	}
+	\L_02612:
+	!VAR0191 : 64!
+	!VAR0001 : 0!
+	!VAR0516 : 424!
+	!VAR0154 : 19!
+	!VAR0010 : VAR0102!
+	!VAR0156 : 57!
+	!VAR0019 : VAR0128!
+	!VAR0154 : 18!
+	!VAR0156 : 54!
+	{((VAR0102 \ 0) + (VAR0128 \ 0)) * ((VAR0010 \ 0) + (VAR0019 \ 0)) * (VAR0444 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Hanty 　　　（Vận may): Patton đã an'
+			R
+			'toàn'
+		}
+	}
+	{(VAR0102 = 0) * (VAR0128 = 0) * (VAR0444 \ 0):
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Hanty 　　　（Bất hạnh） ：Biến mất'
+		R
+		'cùng Patton'
+	}
+	\L_02612:
+	!VAR0191 : 65!
+	!VAR0001 : 0!
+	!VAR0516 : 428!
+	!VAR0154 : 42!
+	{VAR0102 \ 0:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02897:
+			ZH 1:
+			'Seizel & Hawzel 　　　（Fortune): Đã'
+			R
+			'hàn gắn mối quan hệ của họ và'
+			R
+			'đến với Leazas'
+		}
+	}
+	{VAR0335 = 20:
+		!VAR0516 : 461!
+		!VAR0001 : 2!
+		\L_02897:
+		ZH 1:
+		'Seizel & Hawzel 　　　（Bất hạnh）'
+		R
+		'：Trở thành La Vaswald'
+	}
+	\L_02612:
+	!VAR0001 : 0!
+	!VAR0000 : 11!
+	%#ﾛｰﾄﾞｾｰﾌﾞ.ADV:
+	ZH 1:
+	'KẾT THÚC'
+	\L_028c9:
+	ZH 1:
+	'Khép lại \"Kichikuou Rance\".'
+	\L_028c9:
+	PF1 4:
+	ZZ0, 0:
+*L_02612:
+	{VAR0001 = 0:
+		@L_02743:
+	}
+	{VAR0195 = 100:
+		@L_02743:
+	}
+	{VAR0195 = 0:
+		{VAR0001 = 0:
+			@L_02743:
+		}
+		{VAR0001 = 1:
+			!VAR0195 : 1!
+			@L_02743:
+		}
+		{VAR0001 = 2:
+			!VAR0195 : 10!
+			@L_02743:
+		}
+	}
+	{VAR0195 = 1:
+		{VAR0001 = 0:
+			@L_02743:
+		}
+		{VAR0001 = 1:
+			@L_02743:
+		}
+		{VAR0001 = 2:
+			!VAR0195 : 100!
+			@L_02743:
+		}
+	}
+	{VAR0195 = 10:
+		{VAR0001 = 0:
+			@L_02743:
+		}
+		{VAR0001 = 1:
+			!VAR0195 : 100!
+			@L_02743:
+		}
+		{VAR0001 = 2:
+			@L_02743:
+		}
+	}
+	ZH 1:
+	'Nếu bạn thấy điều này thì có gì'
+	R
+	'đó không ổn'
+	\L_028c9:
+	@L_02743:
+*L_02743:
+	{VAR0001 = 0:
+		\0:
+	}
+	{VAR0001 = 1:
+		@L_027b2:
+	}
+	{VAR0001 = 2:
+		@L_02810:
+	}
+	ZH 1:
+	'Nếu bạn thấy điều này thì có gì'
+	R
+	'đó không ổn'
+	\L_028c9:
+	\0:
+	!VAR0004 : 0!
+	!VAR0005 : 288!
+	!VAR0006 : 24!
+	!VAR0007 : 0!
+	!VAR0008 : 288!
+	!VAR0009 : 194!
+*L_027b2:
+	!VAR0004 : VAR0004 + 1!
+	CS 120, 400, 20, 20, VAR0005, VAR0006, 40:
+	!VAR0516 : 0!
+	!VAR0000 : 89!
+	%#PCMPLAY.ADV:
+	!VAR0005 : VAR0005 + 24!
+	{VAR0005 > 620:
+		!VAR0005 : 288!
+		{VAR0004 > 27:
+			!VAR0005 : 240!
+		}
+		!VAR0006 : VAR0006 + 24!
+	}
+	@L_0286e:
+*L_02810:
+	!VAR0007 : VAR0007 + 1!
+	CS 140, 400, 20, 20, VAR0008, VAR0009, 40:
+	!VAR0516 : 0!
+	!VAR0000 : 90!
+	%#PCMPLAY.ADV:
+	!VAR0008 : VAR0008 + 24!
+	{VAR0008 > 620:
+		!VAR0008 : 288!
+		{VAR0007 > 27:
+			!VAR0008 : 240!
+		}
+		!VAR0009 : VAR0009 + 24!
+	}
+	@L_0286e:
+*L_0286e:
+	\L_028c9:
+	!VAR0516 : 3!
+	%#PCMPLAY.ADV:
+	!VAR0516 : 0!
+	CC 640, 0, 192, 256, 0, 0:
+	\0:
+*L_02897:
+	J0 0, 0:
+	G VAR0516, 40:
+	!VAR0516 : 0!
+	\0:
+*L_028ae:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+*L_028c9:
+	IK 0:
+	CC 770, 272, 380, 124, 130, 272:
+	!VAR0516 : 0!
+	Y 1, 1:
+	\0:

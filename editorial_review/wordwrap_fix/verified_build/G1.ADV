@@ -1,0 +1,3334 @@
+	{VAR0520 = 1:
+		@L_03946:
+	}
+	{VAR0520 = 2:
+		@L_035a4:
+	}
+	{VAR0520 = 3:
+		@L_03760:
+	}
+	{VAR0520 = 4:
+		@L_03886:
+	}
+	{VAR0520 = 5:
+		@L_03541:
+	}
+	{VAR0520 = 6:
+		@L_01b42:
+	}
+	{VAR0520 = 7:
+		@L_019d0:
+	}
+	{VAR0520 = 8:
+		@L_0190f:
+	}
+	{VAR0520 = 9:
+		@L_017d2:
+	}
+	{VAR0520 = 10:
+		@L_0160b:
+	}
+	{VAR0520 = 11:
+		@L_0156e:
+	}
+	{VAR0520 = 12:
+		@L_015be:
+	}
+	{VAR0520 = 13:
+		@L_0149d:
+	}
+	{VAR0520 = 14:
+		@L_00ffe:
+	}
+	{VAR0520 = 15:
+		@L_0084f:
+	}
+	{VAR0520 = 16:
+		@L_00661:
+	}
+	{VAR0520 = 17:
+		@L_0025b:
+	}
+	{VAR0520 = 18:
+		@L_0019d:
+	}
+	{VAR0520 = 300:
+		@L_00ac1:
+	}
+*L_0019d:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'While walking through the'
+	R
+	'dungeon, a shining light'
+	R
+	'appeared,'
+	\L_03bfa:
+	ZH 1:
+	'and took the shape of a girl.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 250!
+	\L_03b99:
+	\L_03b45:
+	ZH 1:
+	'Hellooooooo.'
+	R
+	'This is Youko.'
+	R
+	'How are you?'
+	\L_03bfa:
+	ZH 1:
+	'You must have come to see the'
+	R
+	'Hanny King.'
+	\L_03bfa:
+	ZH 1:
+	'This is sacred ground for the'
+	R
+	'hannies. They’ll attack any'
+	R
+	'humans that enter.'
+	\L_03bfa:
+	ZH 1:
+	'Now would be the time to turn'
+	R
+	'back. See you later.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ba7:
+	%0:
+*L_0025b:
+	!VAR0516 : 0!
+	%#M.ADV:
+	\L_03b0d:
+	ZM 32:
+	ZH 1:
+	'　　　Titi Lake'
+	\L_03bfa:
+	ZM 24:
+	\L_03bed:
+	{VAR0101 = 46:
+		@L_0030c:
+	}
+	!VAR0516 : VAR0097!
+	\L_03b29:
+	\L_03ad5:
+	ZH 1:
+	'............'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'However, there was nothing at'
+	R
+	'Titi Lake but the crashing'
+	R
+	'waves.'
+	\L_03bfa:
+	ZH 1:
+	X 1:
+	'’s unit turned'
+	R
+	'back.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0030c:
+	!VAR0666 : 1!
+	!VAR0516 : VAR0097!
+	\L_03b29:
+	\L_03b0d:
+	ZH 1:
+	X 1:
+	' accidentally'
+	R
+	'dropped the aluminum axe in'
+	R
+	'the lake.'
+	\L_03bfa:
+	ZH 1:
+	X 1:
+	' panicked, but...'
+	\L_03bfa:
+	ZH 1:
+	'　　＜pohwan pohwan）'
+	\L_03bfa:
+	ZH 1:
+	'The moment they heard a cute'
+	R
+	'sound from within the lake,'
+	\L_03bfa:
+	ZH 1:
+	'a smiling girl appeared from'
+	R
+	'within it.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 250!
+	\L_03b99:
+	\L_03b45:
+	ZH 1:
+	'Hello.'
+	R
+	'I’m Youko, the spirit of the'
+	R
+	'lake.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b7d:
+	ZH 1:
+	'The girl introduced herself'
+	R
+	'and bowed properly.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Did you drop this aluminum'
+	R
+	'axe? Or was it this golden'
+	R
+	'axe?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Youko smiled while showing'
+	R
+	X 1:
+	' the axes.'
+	\L_03bfa:
+	\L_03bed:
+*L_0043e:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_0043e:
+	}
+	ZH 1:
+	$L_0047c$
+	'Golden Axe'
+	$
+	R
+	$L_00554$
+	'Aluminum Axe'
+	$
+	]
+	@L_0043e:
+*L_0047c:
+	\L_03b45:
+	ZH 1:
+	'I see...'
+	R
+	'The golden axe...'
+	\L_03bfa:
+	ZH 1:
+	'Liar.'
+	\L_03bfa:
+	ZH 1:
+	'But okay.'
+	R
+	'Here you go.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	X 1:
+	' received a'
+	R
+	'golden axe.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Goodbye.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ba7:
+	\L_03b0d:
+	ZH 1:
+	'　　＜splash splash）'
+	\L_03bfa:
+	ZH 1:
+	'Youko was no longer there.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0101 : 47!
+	!VAR0160 : 46!
+	!VAR0150 : 0!
+	!VAR0160 : 47!
+	!VAR0150 : VAR0154!
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_00554:
+	!VAR0666 : 2!
+	\L_03b45:
+	ZH 1:
+	'Wooooow!'
+	R
+	'You’re so honest.'
+	\L_03bfa:
+	ZH 1:
+	'Here’s your aluminum axe, then.'
+	\L_03bfa:
+	ZH 1:
+	'And as a reward,'
+	\L_03bfa:
+	ZH 1:
+	'I’ll make it possible for you to'
+	R
+	'come to the bottom of this lake'
+	R
+	'where the Hanny King’s palace'
+	\L_03bfa:
+	ZH 1:
+	'is.'
+	\L_03bfa:
+	ZH 1:
+	'If you meet the Hanny King,'
+	R
+	'I’m sure something great will'
+	R
+	'happen.'
+	\L_03bfa:
+	ZH 1:
+	'If you’re thinking about going'
+	R
+	'to the Hanny Palace, come to'
+	R
+	'Titi Lake.'
+	\L_03bfa:
+	ZH 1:
+	'A mysterious fairy will guide'
+	R
+	'you to the palace.'
+	\L_03bfa:
+	ZH 1:
+	'See you.'
+	R
+	'Byebyyye.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ba7:
+	\L_03b7d:
+	ZH 1:
+	'　　＜splash splash）'
+	\L_03bfa:
+	ZH 1:
+	'Youko sank back into the lake.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_00661:
+	!VAR0662 : 1!
+	!VAR0160 : 46!
+	!VAR0150 : 100!
+	!VAR0516 : VAR0135!
+	\L_03bd1:
+	!VAR0516 : 1!
+	\L_03b29:
+	!VAR0516 : 261!
+	\L_03b99:
+	\L_03b45:
+	ZH 1:
+	'Excuse me, King Rance.'
+	R
+	'I found this...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'What is it?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b7d:
+	ZH 1:
+	'The soldier was showing Rance'
+	R
+	'an old aluminum axe.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'That’s just a normal aluminum'
+	R
+	'axe, isn’t it? It looks like'
+	R
+	'it’s falling apart, too.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Yes... That’s certainly how it'
+	R
+	'appears, but...'
+	R
+	'Look at this, please.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'The soldier pointed out the'
+	R
+	'handle.'
+	\L_03bfa:
+	ZH 1:
+	'：Important item. It’s useful：'
+	R
+	'was written on it in clumsy'
+	R
+	'handwriting.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'It just looks like a scribble.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Shall I throw it away, then?'
+	R
+	'I thought it was interesting,'
+	R
+	'but...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03af1:
+	ZH 1:
+	'Toss it... No, wait... Could it'
+	R
+	'really be important...? Probably'
+	R
+	'not, but...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Well, whatever.'
+	R
+	'It won’t get in the way at'
+	R
+	'least.'
+	\L_03bfa:
+	ZH 1:
+	'Keep it.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Yes, Your Majesty.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Obtained a rusty aluminum axe.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0084f:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1030!
+	\L_03bd1:
+	\L_03b0d:
+	ZH 1:
+	'Rance and others came to Mount'
+	R
+	'Salen for a picnic.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0154 : 2!
+	{VAR0102 = 0:
+		SS 5:
+		!VAR0516 : 1!
+		\L_03b29:
+		\L_03ad5:
+		ZH 1:
+		'Hwaaah. Pretty nice weather'
+		R
+		'here. I didn’t know it was'
+		R
+		'possible inside Helman.'
+		\L_03bfa:
+		ZH 1:
+		'Gahahahaha.'
+		\L_03bfa:
+		\L_03bed:
+		!VAR0516 : 5!
+		\L_03b99:
+		\L_03b45:
+		ZH 1:
+		'Look over there, Darling.'
+		R
+		'There’s a shepherdess.'
+		\L_03bfa:
+		\L_03bed:
+		\L_03ad5:
+		ZH 1:
+		'Mhm.'
+		R
+		'Maybe I should go hit on her.'
+		\L_03bfa:
+		\L_03bed:
+		\L_03b45:
+		ZH 1:
+		'Ahn, no!'
+		R
+		'You shouldn’t do that when'
+		R
+		'your wife’s right here.'
+		\L_03bfa:
+		\L_03bed:
+		{VAR0058 \ 0:
+			\L_03ba7:
+			!VAR0516 : 9!
+			\L_03b99:
+			\L_03b45:
+			ZH 1:
+			'Seriously... You should feel bad'
+			R
+			'about being so greedy even all'
+			R
+			'the way out here, Rance.'
+			\L_03bfa:
+			\L_03bed:
+			\L_03ba7:
+			!VAR0516 : 5!
+			\L_03b99:
+		}
+		\L_03ad5:
+		ZH 1:
+		'Hmph, lame.'
+		\L_03bfa:
+		ZH 1:
+		'...Oh. Lia, look. There’s some'
+		R
+		'weird animal. Gahahahaha.'
+		\L_03bfa:
+		\L_03bed:
+		\L_03b45:
+		ZH 1:
+		'Ahn, Darling, wait!'
+		\L_03bfa:
+		\L_03bed:
+		{VAR0058 \ 0:
+			\L_03ba7:
+			!VAR0516 : 9!
+			\L_03b99:
+			\L_03b45:
+			ZH 1:
+			'Ah, Queen Lia!'
+			R
+			'Don’t run, it’s dangerous!'
+			\L_03bfa:
+			\L_03bed:
+		}
+		\L_03ba7:
+		!VAR0516 : 6!
+		\L_03b99:
+		\L_03b61:
+		ZH 1:
+		'Good...'
+		R
+		'Queen Lia seems to be happy...'
+		\L_03bfa:
+		\L_03bed:
+		\L_03b0d:
+		ZH 1:
+		'Maris absentmindedly watched'
+		R
+		'the heartwarming married'
+		R
+		'couple.'
+		\L_03bfa:
+		\L_03bed:
+		\L_03ba7:
+		!VAR0516 : 5!
+		\L_03b99:
+		\L_03b45:
+		ZH 1:
+		'Come on, Maris!'
+		\L_03bfa:
+		\L_03bed:
+		@L_00e6e:
+	}
+	EC 0:
+	SS 0:
+	G 806:
+	G 223:
+	SS 5:
+	\L_03bb5:
+*L_00ac1:
+	ZH 1:
+	'Rance「Leeet’s go to the fooorest.'
+	R
+	'　　　　  Yoooung girl.'
+	R
+	'　　　　  Eeheeeehee.」'
+	\L_03bfa:
+	ZH 1:
+	'Sill「Master Rance...'
+	R
+	'     That’s not how the song goes...」'
+	\L_03bfa:
+	ZH 1:
+	'Rance「Shut up.'
+	R
+	'　　　   It’s fine this way.」'
+	\L_03bfa:
+	ZH 1:
+	'Rance「By the way, be sure to hold on to the lunch,'
+	R
+	'      Sill.'
+	R
+	'      If you drop it you’re getting a spanking.」'
+	\L_03bfa:
+	ZH 1:
+	'Sill「Yes, Master Rance...」'
+	\L_03bfa:
+	ZH 1:
+	'Sill was putting her best effort into lugging a'
+	R
+	'lunch box with food for five people in it while'
+	R
+	'taking in her surroundings.'
+	\L_03bfa:
+	ZH 1:
+	'Sill「It’s beautiful...'
+	R
+	'     I like this place, Master Rance.」'
+	\L_03bfa:
+	ZH 1:
+	'Rance「Mhm, perfect place for some outdoor sex.」'
+	\L_03bfa:
+	ZH 1:
+	'Sill「Ah... Ahaha...」'
+	\L_03bfa:
+	ZH 1:
+	'Lia「Darling!'
+	R
+	'　　　 Look, look!!'
+	R
+	'　　　 A stream!! Let’s catch some fish!」'
+	\L_03bfa:
+	ZH 1:
+	'Rance「Mhm.'
+	R
+	'　　　　  I’ll look for shells.'
+	R
+	'　　　   Catch fish by yourself.」'
+	\L_03bfa:
+	ZH 1:
+	'Lia「Aaaw!'
+	R
+	'　　　 Then I’ll look for shells too!'
+	R
+	'　　　 I want a sakura shell.」'
+	\L_03bfa:
+	ZH 1:
+	'Rance「Any sakura shells are mine.'
+	R
+	'　　　　  You can have all the clam shells.」'
+	\L_03bfa:
+	ZH 1:
+	'Lia「Geez, you’re so mean!」'
+	\L_03bfa:
+	ZH 1:
+	'Rance「Gahahahahaha!」'
+	\L_03bfa:
+	ZH 1:
+	'Rance「Hm? What’s wrong, Maris?'
+	R
+	'　　　   You look down...」'
+	\L_03bfa:
+	ZH 1:
+	'Maris「It’s nothing...」'
+	\L_03bfa:
+	ZH 1:
+	'Maris（Haah... Why did we bring this flag just for a'
+	R
+	'      picnic...?）'
+	\L_03bfa:
+	ZH 1:
+	'Rance「Raise that flag high.'
+	R
+	'　　　　  It’s to tell everyone that the king is here.'
+	R
+	'      Gahahahahahahaha!!」'
+	\L_03bfa:
+	ZH 1:
+	'Maris「Yes, fine.」'
+	\L_03bfa:
+	ZH 1:
+	'Lia「Ah, Harumaki!'
+	R
+	'　　　 Look at the birds flying!」'
+	\L_03bfa:
+	ZH 1:
+	'Harumaki「Raaawr raaawr.」'
+	\L_03bfa:
+	ZH 1:
+	'Lia「Harumaki’s having fun too, Darling.」'
+	\L_03bfa:
+	ZH 1:
+	'Rance「Hohoh.'
+	R
+	'　　　　  Mere beasts don’t even know what fun is.'
+	R
+	'      Gahahahahahahahaha.」'
+	\L_03bfa:
+	ZH 1:
+	'Lia「You should fly too, Harumaki.'
+	R
+	'　　  Go!」'
+	\L_03bfa:
+	ZH 1:
+	'Harumaki「Rawrawraaawr.」'
+	\L_03bfa:
+	ZH 1:
+	'Lia「Huhuhu.'
+	R
+	'　　　 You sound kinda pathetic, Harumaki.」'
+	\L_03bfa:
+	ZH 1:
+	'Rance「Alright, shall we eat here?'
+	R
+	'　　　　  Get the food out, Sill.」'
+	\L_03bfa:
+	ZH 1:
+	'Sill「Yes, Master Rance.」'
+	\L_03bfa:
+	ZH 1:
+	'Rance「You made sure to put pink unyuun in there,'
+	R
+	'      right?」'
+	\L_03bfa:
+	ZH 1:
+	'Sill「Yes, it’s cold just as you like it.'
+	R
+	'     There you go.」'
+	\L_03bfa:
+	ZH 1:
+	'Rance「Mm... Munch, munch, munch...'
+	R
+	'      Haaah～～, that’s good!!」'
+	\L_03bfa:
+	ZH 1:
+	'Lia「What about me, slave?」'
+	\L_03bfa:
+	ZH 1:
+	'Sill「Ah, here you go, Queen Lia.」'
+	\L_03bfa:
+	ZH 1:
+	'Lia「Hmph... It’s good, Darling.」'
+	\L_03bfa:
+	ZH 1:
+	'Rance「Yeah.」'
+	\L_03bfa:
+	ZH 1:
+	'Sill「Here’s yours, Ms. Maris...」'
+	\L_03bfa:
+	ZH 1:
+	'Maris「Thank you.」'
+	\L_03bfa:
+	ZH 1:
+	'Sill「Um... Master Rance... May I eat too?」'
+	\L_03bfa:
+	ZH 1:
+	'Rance「You get water.」'
+	\L_03bfa:
+	ZH 1:
+	'Sill「...Sob...」'
+	\L_03bfa:
+	{VAR0520 = 300:
+		%0:
+	}
+	!VAR0154 : 6!
+	{VAR0102 \ 0:
+		ZH 1:
+		'Barres「King Rance, there’s quite a nice pine tree'
+		R
+		'       over there.'
+		R
+		'       Shall we go look at it?」'
+		\L_03bfa:
+		ZH 1:
+		'Rance「Hey, Maris!!'
+		R
+		'      When did I say to bring Barres with??」'
+		\L_03bfa:
+	}
+	\L_03bed:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1!
+	\L_03b29:
+	!VAR0516 : 5!
+	\L_03b99:
+*L_00e6e:
+	\L_03ad5:
+	ZH 1:
+	'Alright, should we head back?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Huuuh... Already?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Yeah.'
+	R
+	'Let’s get going.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0154 : 32!
+	!VAR0160 : 43!
+	{(VAR0102 \ 0) * (VAR0332 > 2) * (VAR0150 = 0):
+		!VAR0150 : 100!
+		\L_03af1:
+		ZH 1:
+		'Uuuuh... There was something...'
+		\L_03bfa:
+		\L_03bed:
+		\L_03ad5:
+		ZH 1:
+		'Oh yeah, I have to get one of'
+		R
+		'those for Miki.'
+		\L_03bfa:
+		\L_03bed:
+		\L_03b0d:
+		ZH 1:
+		'Rance took one hirami lemon'
+		R
+		'from a tree.'
+		\L_03bfa:
+		\L_03bed:
+		\L_03ad5:
+		ZH 1:
+		'Hmm... Looks sour.'
+		R
+		'It’s making me salivate...'
+		\L_03bfa:
+		\L_03bed:
+		\L_03b0d:
+		ZH 1:
+		'Rance put it in a cooler box.'
+		\L_03bfa:
+		\L_03bed:
+		\L_03ad5:
+		ZH 1:
+		'There we go.'
+		\L_03bfa:
+		\L_03bed:
+	}
+	\L_03ba7:
+	!VAR0516 : 6!
+	\L_03b99:
+	\L_03b45:
+	ZH 1:
+	'Shall we be going, King Rance?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Yeah, let’s go.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'The fun picnic ended.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_00ffe:
+	\L_03b0d:
+	ZH 1:
+	'Arrived at a room with walls'
+	R
+	'that sparkled like nothing'
+	R
+	'ever seen before.'
+	\L_03bfa:
+	ZH 1:
+	X 1:
+	' carefully'
+	R
+	'inspected the room.'
+	\L_03bfa:
+	ZH 1:
+	'They found 5 buttons.'
+*L_01048:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_01048:
+	}
+	ZH 1:
+	$L_0115a$
+	'Push Button A'
+	$
+	R
+	$L_01233$
+	'Push Button B'
+	$
+	R
+	$L_012ce$
+	'Push Button C'
+	$
+	R
+	$L_01369$
+	'Push Button D'
+	$
+	R
+	$L_01403$
+	'Push Button E'
+	$
+	R
+	$L_010ba$
+	'Push Nothing'
+	$
+	]
+	@L_01048:
+*L_010ba:
+	!VAR0148 : 0!
+	PF1 VAR0056:
+	PF0 VAR0056:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'In that instant, the'
+	R
+	'surroundings shook and'
+	R
+	X 1:
+	'’s unit was'
+	R
+	'outside the battleship.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0110f:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'　　＜pch）'
+	\L_03bfa:
+	ZH 1:
+	'　Pushed a button.'
+	\L_03bfa:
+	ZH 1:
+	'But nothing happened.'
+	R
+	X 1:
+	' sighed in relief.'
+	\L_03bfa:
+	@L_010ba:
+*L_0115a:
+	{VAR0337 = 1:
+		@L_0110f:
+	}
+	!VAR0337 : 1!
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'　　＜pch）'
+	\L_03bfa:
+	ZH 1:
+	'　Pushed Button A.'
+	\L_03bfa:
+	ZH 1:
+	X 1:
+	'’s body glowed.'
+	\L_03bfa:
+	ZH 1:
+	'　Attack UP'
+	R
+	' '
+	H 0, VAR0087:
+	ZH 1:
+	'）'
+	H 0, VAR0087 + 1:
+	\L_03bfa:
+	ZH 1:
+	'　Defense UP'
+	R
+	' '
+	H 0, VAR0088:
+	ZH 1:
+	'）'
+	H 0, VAR0088 + 1:
+	\L_03bfa:
+	!VAR0087 : VAR0087 + 1!
+	!VAR0088 : VAR0088 + 1!
+	@L_010ba:
+*L_01233:
+	{VAR0338 = 1:
+		@L_0110f:
+	}
+	\L_03bed:
+	\L_03b0d:
+	!VAR0338 : 1!
+	ZH 1:
+	'　　＜pch）'
+	\L_03bfa:
+	ZH 1:
+	'　Pushed Button B.'
+	\L_03bfa:
+	ZH 1:
+	X 1:
+	'’s body glowed.'
+	\L_03bfa:
+	ZH 1:
+	'　Attack UP'
+	R
+	' '
+	H 0, VAR0087:
+	ZH 1:
+	'）'
+	H 0, VAR0087 + 1:
+	\L_03bfa:
+	!VAR0087 : VAR0087 + 1!
+	@L_010ba:
+*L_012ce:
+	{VAR0339 = 1:
+		@L_0110f:
+	}
+	\L_03bed:
+	\L_03b0d:
+	!VAR0339 : 1!
+	ZH 1:
+	'　　＜pch）'
+	\L_03bfa:
+	ZH 1:
+	'　Pushed Button C.'
+	\L_03bfa:
+	ZH 1:
+	X 1:
+	'’s body glowed.'
+	\L_03bfa:
+	ZH 1:
+	'　HP UP'
+	R
+	' '
+	H 0, VAR0091:
+	ZH 1:
+	'）'
+	H 0, VAR0091 + 2:
+	\L_03bfa:
+	!VAR0091 : VAR0091 + 2!
+	@L_010ba:
+*L_01369:
+	{VAR0340 = 1:
+		@L_0110f:
+	}
+	!VAR0340 : 1!
+	!VAR0160 : 26!
+	!VAR0150 : 100!
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'　　＜pch）'
+	\L_03bfa:
+	ZH 1:
+	'Pushed Button D.'
+	\L_03bfa:
+	ZH 1:
+	'　　＜clunk） ＜roll）'
+	\L_03bfa:
+	ZH 1:
+	'Something shaped like an egg'
+	R
+	'rolled out of the device'
+	R
+	'before '
+	X 1:
+	'.'
+	\L_03bfa:
+	ZH 1:
+	'Obtained ［Capsule Kaiju A］.'
+	\L_03bfa:
+	@L_010ba:
+*L_01403:
+	{VAR0341 = 1:
+		@L_0110f:
+	}
+	!VAR0341 : 1!
+	!VAR0160 : 27!
+	!VAR0150 : 100!
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'　　＜pch）'
+	\L_03bfa:
+	ZH 1:
+	'Pushed Button E.'
+	\L_03bfa:
+	ZH 1:
+	'　　＜clunk） ＜roll）'
+	\L_03bfa:
+	ZH 1:
+	'Something shaped like an egg'
+	R
+	'rolled out of the device'
+	R
+	'before '
+	X 1:
+	'.'
+	\L_03bfa:
+	ZH 1:
+	'Obtained ［Capsule Kaiju B］.'
+	\L_03bfa:
+	@L_010ba:
+*L_0149d:
+	ZH 1:
+	MS 4, "Horus Leader":
+	R
+	MS 5, "Horuses":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1447!
+	!VAR0121 : 1463!
+	!VAR0122 : 1464!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 600!
+	!VAR0107 : 600!
+	!VAR0124 : 60!
+	!VAR0108 : 9!
+	!VAR0109 : 6!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 9!
+	!VAR0114 : 6!
+	!VAR0115 : 4!
+	!VAR0116 : 5!
+	!VAR0117 : 5!
+	!VAR0118 : 0!
+	!VAR0119 : 2!
+	!VAR0125 : 0!
+	!VAR0126 : 0!
+	!VAR0127 : 0!
+	!VAR0129 : 0!
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0156e:
+	\L_03b0d:
+	ZH 1:
+	'However, the giant battleship’s'
+	R
+	'door was shut tight and entering'
+	R
+	'wasn’t possible.'
+	\L_03bfa:
+	ZH 1:
+	X 1:
+	'’s unit had no'
+	R
+	'choice but to turn back.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_015be:
+	!VAR0342 : 2!
+	\L_03b0d:
+	ZH 1:
+	'The giant battleship’s door'
+	R
+	'was shut tight.'
+	\L_03bfa:
+	ZH 1:
+	'It was opened with the \"Giant'
+	R
+	'Battleship Key\" found in Path,'
+	R
+	'making it possible to enter.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0160b:
+	!VAR0342 : 1!
+	!VAR0516 : 1016!
+	\L_03bd1:
+	!VAR0516 : 1!
+	\L_03b29:
+	!VAR0516 : 6!
+	\L_03b99:
+	\L_03ad5:
+	ZH 1:
+	'Maris, what is this huge'
+	R
+	'thing?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'I don’t know, myself. It’s'
+	R
+	'completely shrouded in mystery.'
+	R
+	'Who made it and why is unknown.'
+	\L_03bfa:
+	ZH 1:
+	'One theory is that it fell'
+	R
+	'from the sky thousands of'
+	R
+	'years ago.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Hmmm...'
+	R
+	'A giant battleship shrouded in'
+	R
+	'giant mysteries...?'
+	\L_03bfa:
+	ZH 1:
+	'Seems cool.'
+	R
+	'Any true man would be'
+	R
+	'intrigued.'
+	\L_03bfa:
+	ZH 1:
+	'Alright, should I check it'
+	R
+	'out?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'If you want to get to the giant'
+	R
+	'battleship, though, you need to'
+	R
+	'pass through a frigid area.'
+	\L_03bfa:
+	ZH 1:
+	'It’s dangerous.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Probably why it’s still a'
+	R
+	'mystery, then.'
+	\L_03bfa:
+	ZH 1:
+	'If it was in a safe place,'
+	R
+	'adventurers would be all over'
+	R
+	'it. Gahahahahaha.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Perhaps, but...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Maybe there’s something good'
+	R
+	'in there. If I find it...'
+	R
+	'Uhee... Uheehee...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b61:
+	ZH 1:
+	'...What is he thinking...?'
+	R
+	'It’s a good thing he’s so easy'
+	R
+	'to figure out...'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_017d2:
+	!VAR0150 : 100!
+	!VAR0516 : 261!
+	\L_03b99:
+	\L_03b45:
+	ZH 1:
+	'King Rance, I found this in a'
+	R
+	'pawn shop in Path.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 1!
+	\L_03b29:
+	\L_03ad5:
+	ZH 1:
+	'What is it?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'The soldier showed Rance a'
+	R
+	'strangely shaped key.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'What’s this for?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'They could have been lying,'
+	\L_03bfa:
+	ZH 1:
+	'but the man at the pawn shop'
+	R
+	'said it opens the giant ship in'
+	R
+	'the glaciers, so...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'...That mysterious giant'
+	R
+	'battleship north of here...?'
+	R
+	'Hmmmm.'
+	\L_03bfa:
+	ZH 1:
+	'Well, whatever. I’ll take it.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Yes, Your Majesty.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Obtained the Giant Battleship'
+	R
+	'Key.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0190f:
+	!VAR0150 : 100!
+	!VAR0516 : 261!
+	\L_03b29:
+	\L_03ad5:
+	ZH 1:
+	'King Rance, I found a large'
+	R
+	'number of crystal swords in a'
+	R
+	'storage room in Lang Bau.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 1!
+	\L_03b99:
+	\L_03b45:
+	ZH 1:
+	'Crystal swords... Aah, that'
+	R
+	'Mineva bitch’s unit used those.'
+	\L_03bfa:
+	ZH 1:
+	'Alright, bring them to the'
+	R
+	'castle.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Yes, Your Majesty.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b37:
+	\L_03b0d:
+	ZH 1:
+	'Enough crystal swords to equip'
+	R
+	'one whole unit were obtained.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_019d0:
+	!VAR0150 : 100!
+	!VAR0516 : 261!
+	\L_03b29:
+	\L_03ad5:
+	ZH 1:
+	'King Rance, I found this.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 1!
+	\L_03b99:
+	\L_03b45:
+	ZH 1:
+	'What is it...? Uh...'
+	R
+	'Isn’t this just an ordinary'
+	R
+	'potted plant?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'No, this is a valuable item'
+	R
+	'known as the Safety Bonsai.'
+	\L_03bfa:
+	ZH 1:
+	'If you hold this, you’ll see'
+	R
+	'less monsters in dungeons.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'If I call it a potted plant,'
+	R
+	'it’s a potted plant.'
+	\L_03bfa:
+	ZH 1:
+	'I don’t need whatever your'
+	R
+	'explanation is.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03af1:
+	ZH 1:
+	'Uh oh... If I displease the'
+	R
+	'King, I’ll be killed...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'I-I supposed you’re right.'
+	R
+	'I’ll throw it away then...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'No, wait. That’s a really nice'
+	R
+	'potted plant. Take care of it.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Haah...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Safety Bonsai, huh?'
+	R
+	'I got a pretty great item,'
+	R
+	'huhuhuhu.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_01b42:
+	\L_03bed:
+	!VAR0154 : VAR0569!
+	{VAR0154 = 1:
+		@L_01b64:
+	}
+	%0:
+*L_01b64:
+	\L_03b0d:
+	ZH 1:
+	'Found a faint light in the'
+	R
+	'depths of the dungeon.'
+	R
+	X 1:
+	' walked'
+	R
+	'toward it.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : VAR0097!
+	\L_03b29:
+	!VAR0516 : 92!
+	\L_03b99:
+	{VAR0343 = 2:
+		@L_01c1c:
+	}
+	\L_03b45:
+	ZH 1:
+	'Welcome, Mr. King.'
+	R
+	'As always, I’m Arcy, the'
+	R
+	'genius fortune teller.'
+	\L_03bfa:
+	ZH 1:
+	'Is something troubling you? Tell'
+	R
+	'me what it is.'
+	\L_03bfa:
+	ZH 1:
+	'No matter the problem, for 1'
+	R
+	'sweet I can find a solution.'
+	\L_03bfa:
+	\L_03bed:
+	@L_01d60:
+*L_01c1c:
+	!VAR0343 : 3!
+	\L_03b0d:
+	ZH 1:
+	'The source of the light was a'
+	R
+	'small girl, sitting at a small'
+	R
+	'desk and smiling.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Hi, mister.'
+	R
+	'I’m Arcy, the genius fortune'
+	R
+	'teller.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Genius...'
+	R
+	'Sounds like bullshit, kid.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'It’s true. I’m the best'
+	R
+	'fortune teller in the world.'
+	\L_03bfa:
+	ZH 1:
+	'Like, you’re a king, right?'
+	R
+	'Your wife has blue hair...'
+	R
+	'And she’s really abusive.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03af1:
+	ZH 1:
+	'Whoa, spot on...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Was I right?'
+	R
+	'Come on, believe me.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Hm... I’ll believe you.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Then I’ll solve your troubles.'
+	R
+	'Ask me anything, okay?'
+	\L_03bfa:
+	ZH 1:
+	'But for payment, I want'
+	R
+	'delicious sweets. This is my'
+	R
+	'job, so I won’t do it for free.'
+	\L_03bfa:
+	\L_03bed:
+	@L_01d60:
+*L_01d60:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_01d60:
+	}
+	ZH 1:
+	$L_01db8$
+	'Talk'
+	$
+	R
+	$L_01fb8$
+	'Give Sweet'
+	$
+	R
+	$L_02339$
+	'Get Fortune'
+	$
+	R
+	$L_03416$
+	'Leave'
+	$
+	]
+	@L_01d60:
+*L_01db8:
+	Y 4, 3:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		\L_03ad5:
+		ZH 1:
+		'By the way...'
+		R
+		'Have we met somewhere before?'
+		\L_03bfa:
+		\L_03bed:
+		\L_03b45:
+		ZH 1:
+		'Where?'
+		\L_03bfa:
+		\L_03bed:
+		\L_03ad5:
+		ZH 1:
+		'Hmmmmm... Don’t remember.'
+		R
+		'Tell my fortune so I can'
+		R
+		'remember.'
+		\L_03bfa:
+		\L_03bed:
+		\L_03b45:
+		ZH 1:
+		'No.'
+		R
+		'Only if you give me sweets.'
+		R
+		'Heehee...'
+		\L_03bfa:
+		\L_03bed:
+		\L_03ad5:
+		ZH 1:
+		'Mmgh... Suspicious girl.'
+		\L_03bfa:
+		\L_03bed:
+	}
+	{VAR0690 = 2:
+		\L_03ad5:
+		ZH 1:
+		'Are you here alone?'
+		R
+		'That’s dangerous.'
+		\L_03bfa:
+		ZH 1:
+		'There’ve been pedophiles around'
+		R
+		'recently, so children aren’t'
+		R
+		'safe. I’m not like that, though.'
+		\L_03bfa:
+		\L_03bed:
+		\L_03b45:
+		ZH 1:
+		'Don’t worry.'
+		R
+		'I use my fortune telling to'
+		R
+		'find what places are safe.'
+		\L_03bfa:
+		\L_03bed:
+		\L_03ad5:
+		ZH 1:
+		'So does that mean it’s safe'
+		R
+		'here?'
+		\L_03bfa:
+		\L_03bed:
+		\L_03b45:
+		ZH 1:
+		'Yeah, safer than any city.'
+		\L_03bfa:
+		\L_03bed:
+	}
+	{VAR0690 = 3:
+		\L_03ad5:
+		ZH 1:
+		'You’re pretty small.'
+		R
+		'How old are you?'
+		\L_03bfa:
+		\L_03bed:
+		\L_03b45:
+		ZH 1:
+		'It’s rude to ask a lady’s age,'
+		R
+		'mister. Hmph.'
+		\L_03bfa:
+		\L_03bed:
+		\L_03ad5:
+		ZH 1:
+		'You’re calling yourself a'
+		R
+		'lady? Maybe in 10 years you'
+		R
+		'can say that.'
+		\L_03bfa:
+		\L_03bed:
+		\L_03b45:
+		ZH 1:
+		'10 years?'
+		R
+		'Heehee...'
+		\L_03bfa:
+		\L_03bed:
+	}
+	@L_01d60:
+*L_01fb8:
+	\L_03ad5:
+	ZH 1:
+	'Alright, so I just need to'
+	R
+	'give you a sweet?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Yeah, gimme.'
+	R
+	'But only the finest quality.'
+	\L_03bfa:
+	\L_03bed:
+*L_01ff8:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_01ff8:
+	}
+	!VAR0160 : 24!
+	{VAR0150 \ 0:
+		ZH 1:
+		$L_021d0$
+		'Ulimate Sweet'
+		$
+	}
+	!VAR0160 : 25!
+	{VAR0150 \ 0:
+		ZH 1:
+		$L_0228c$
+		'Supreme Sweet'
+		$
+	}
+	ZH 1:
+	$L_020e7$
+	'Leftover Sweet'
+	$
+	R
+	$L_0207e$
+	'Give Nothing'
+	$
+	]
+	@L_01ff8:
+*L_0207e:
+	\L_03ad5:
+	ZH 1:
+	'Want some sweets?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Yeah, yeah, I do.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Then I won’t give you any.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Uu... You’re mean.'
+	\L_03bfa:
+	\L_03bed:
+	@L_01d60:
+*L_020e7:
+	\L_03ad5:
+	ZH 1:
+	'Then I’ll give you this.'
+	R
+	'Here, 1 sweet.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'　　＜plunk）'
+	\L_03bfa:
+	ZH 1:
+	'Rance handed over some'
+	R
+	'emergency chocolate that was'
+	R
+	'in his pocket.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Nom nom... Uu, this doesn’t'
+	R
+	'taste good at all.'
+	R
+	'No fortune.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'What?'
+	R
+	'I sacrificed that chocolate'
+	R
+	'and you give me nothing!?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Thanks, mister. But I won’t tell'
+	R
+	'your fortune. Bring me some'
+	R
+	'higher quality sweets.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03af1:
+	ZH 1:
+	'Aaargh... Obnoxious girl.'
+	\L_03bfa:
+	\L_03bed:
+	@L_01d60:
+*L_021d0:
+	!VAR0160 : 24!
+	!VAR0150 : 0!
+	!VAR0344 : 1!
+	\L_03ad5:
+	ZH 1:
+	'The I’ll give you this.'
+	R
+	'The Ultimate Sweet.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Rance gave Arcy the Ultimate'
+	R
+	'Sweet, \"Cat Bread\".'
+	\L_03bfa:
+	ZH 1:
+	'　　＜meooow）'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Yaaay, looks super good.'
+	R
+	'Munch munch, nom nom.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03af1:
+	ZH 1:
+	'She really ate that thing...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Haah, that was good.'
+	R
+	'Ask me anything.'
+	\L_03bfa:
+	\L_03bed:
+	@L_023ed:
+*L_0228c:
+	!VAR0160 : 25!
+	!VAR0150 : 0!
+	!VAR0344 : 1!
+	\L_03ad5:
+	ZH 1:
+	'I’ll give you this, then.'
+	R
+	'The Supreme Sweet.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Rance handed over the Supreme'
+	R
+	'Sweet, \"Kururipu\".'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Yaaay, it’s silky and sweet...'
+	R
+	'Nom nom, it’s good.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'I see, that’s good.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Haah, that was good.'
+	R
+	'Ask me anything.'
+	\L_03bfa:
+	\L_03bed:
+	@L_023ed:
+*L_02339:
+	{VAR0344 = 0:
+		\L_03ad5:
+		ZH 1:
+		'Alright, tell my fortune.'
+		\L_03bfa:
+		\L_03bed:
+		\L_03b45:
+		ZH 1:
+		'Nooo, give me sweets. I said I'
+		R
+		'won’t tell your fortune'
+		R
+		'otherwise, right? Hmmmph.'
+		\L_03bfa:
+		\L_03bed:
+		\L_03ad5:
+		ZH 1:
+		'Ch, lame.'
+		\L_03bfa:
+		\L_03bed:
+		@L_01d60:
+	}
+	\L_03ad5:
+	ZH 1:
+	'Alright, tell my fortune.'
+	R
+	'I gave you a sweet, right?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Yeah, I remember.'
+	R
+	'So I’ll tell your fortune.'
+	R
+	'Ask me anything.'
+	\L_03bfa:
+	\L_03bed:
+*L_023ed:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_023ed:
+	}
+	ZH 1:
+	$L_032c2$
+	'My Lifespan'
+	$
+	{(VAR0454 > 2) * (VAR0586 < 10) * (VAR0059 = 1):
+		ZH 1:
+		$L_0315d$
+		'Spy’s Location'
+		$
+	}
+	{(VAR0455 > 0) * (VAR0455 < 4):
+		ZH 1:
+		$L_02f7b$
+		'Valuable Info'
+		$
+	}
+	{VAR0474 = 1:
+		ZH 1:
+		$L_02e4e$
+		'Beating Mars'
+		$
+	}
+	{VAR0062 \ 0:
+		ZH 1:
+		$L_02cf7$
+		'Curing Milli'
+		$
+	}
+	!VAR0160 : 12!
+	{(VAR0063 = 1) * (VAR0150 = 0):
+		ZH 1:
+		$L_02546$
+		'Zeth’s Barrier'
+		$
+	}
+	!VAR0160 : 14!
+	{(VAR0389 = 3) * (VAR0150 = 0):
+		ZH 1:
+		$L_027aa$
+		'Devil Contract'
+		$
+	}
+	{VAR0564 = 5:
+		ZH 1:
+		$L_02958$
+		'Okayu Disease'
+		$
+	}
+	{VAR0401 = 7:
+		ZH 1:
+		$L_02b4d$
+		'Cure Sill'
+		$
+	}
+	ZH 1:
+	$L_030d4$
+	'Don’t Ask'
+	$
+	]
+	@L_023ed:
+*L_02546:
+	\L_03ad5:
+	ZH 1:
+	'Zeth Palace is protected by an'
+	R
+	'annoying barrier.'
+	\L_03bfa:
+	ZH 1:
+	'How do I break the barriers'
+	R
+	'around the four towers?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Yeah, that’s the Ultimate'
+	R
+	'Defensive Barrier. I’ll tell'
+	R
+	'your fortune then.'
+	\L_03bfa:
+	ZH 1:
+	'Namunamunamu...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Arcy rubbed a mysterious orb'
+	R
+	'that was sitting on the desk.'
+	R
+	'Some time later...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Mhm... Yep, I saw it.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Hohoh, what did you see?'
+	\L_03bfa:
+	\L_03bed:
+	{VAR0650 < 8:
+		\L_03b45:
+		ZH 1:
+		'Ah...'
+		\L_03bfa:
+		\L_03bed:
+		\L_03ad5:
+		ZH 1:
+		'What is it?!'
+		R
+		'Did you see something amazing,'
+		R
+		'or...?'
+		\L_03bfa:
+		\L_03bed:
+		\L_03b45:
+		ZH 1:
+		'I thought this might happen'
+		R
+		'when you made your request,'
+		R
+		'but...'
+		\L_03bfa:
+		ZH 1:
+		'It’s not the right time yet,'
+		R
+		'so come back a little later.'
+		\L_03bfa:
+		\L_03bed:
+		\L_03ad5:
+		ZH 1:
+		'Hm, what does that mean?'
+		\L_03bfa:
+		\L_03bed:
+		\L_03b45:
+		ZH 1:
+		'Come back here a little later'
+		R
+		'and I’ll give you a barrier'
+		R
+		'breaker.'
+		\L_03bfa:
+		\L_03bed:
+		\L_03ad5:
+		ZH 1:
+		'Hrrrm, I want it now, though...'
+		\L_03bfa:
+		\L_03bed:
+		@L_023ed:
+	}
+	!VAR0160 : 12!
+	!VAR0150 : 100!
+	!VAR0344 : 0!
+	\L_03b45:
+	ZH 1:
+	'Okay, I’ll give this to you.'
+	R
+	'The Barrier Blade!'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Arcy pulled a sword out from'
+	R
+	'under the table and handed it'
+	R
+	'to Rance.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Why was this under your'
+	R
+	'table...?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Any unit that holds that can'
+	R
+	'break barriers. Good luck.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Obtained the Barrier Blade.'
+	\L_03bfa:
+	\L_03bed:
+	@L_01d60:
+*L_027aa:
+	!VAR0344 : 0!
+	!VAR0160 : 14!
+	!VAR0150 : 100!
+	\L_03ad5:
+	ZH 1:
+	'There’s a girl named Magic that'
+	R
+	'got herself into a contract with'
+	R
+	'a devil. Do something about it.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Hmmm? I see, her soul will be'
+	R
+	'taken. Let me try and tell a'
+	R
+	'fortune, namunamunamu...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Arcy rubbed a mysterious orb'
+	R
+	'that was sitting on the desk.'
+	R
+	'Some time later...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Hmmmmm... Yep, I saw it. Of'
+	R
+	'course I would, since I’m a'
+	R
+	'genius.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Alright, then give me a'
+	R
+	'solution, genius.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Wait a moment...'
+	R
+	'Done, there you go.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Hm, what’s this...?'
+	R
+	'\"Foreclosure\"???'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Arcy handed a paper note with'
+	R
+	'\"Foreclosure\" written on it'
+	R
+	'to Rance.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Heehee, it’s an \"Absolute'
+	R
+	'Foreclosure Charm\".'
+	R
+	'Stick it on that girl.'
+	\L_03bfa:
+	ZH 1:
+	'It can void any contract'
+	R
+	'completely.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Completely? Mhm, good.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Obtained the Absolute'
+	R
+	'Foreclosure Charm.'
+	\L_03bfa:
+	\L_03bed:
+	@L_01d60:
+*L_02958:
+	!VAR0564 : 6!
+	!VAR0344 : 0!
+	\L_03ad5:
+	ZH 1:
+	'I want to catch okayu disease.'
+	R
+	'Tell me how.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Huh, you want okayu'
+	R
+	'disease...? It’d really be'
+	R
+	'best to not catch it.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Whatever, just tell my fortune.'
+	R
+	'I gave you sweets.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Uuuuu, alright, then...'
+	R
+	'I don’t want to, though...'
+	R
+	'Namunamunamu...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Arcy rubbed a mysterious orb'
+	R
+	'that was sitting on the desk.'
+	R
+	'Some time later...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Yep... I saw it.'
+	R
+	'This is bad.'
+	\L_03bfa:
+	ZH 1:
+	'Um, when an okayu fever'
+	R
+	'catches okayu disease, its'
+	R
+	'body turns purple.'
+	\L_03bfa:
+	ZH 1:
+	'For a human to catch it, they'
+	R
+	'need to kiss a purple okayu'
+	R
+	'fever on the lips.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Geh, kiss them!?'
+	R
+	'Kissing a sick one, no less...'
+	R
+	'Are you sure that’s right?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Of course, I’m a genius'
+	R
+	'fortune teller!'
+	\L_03bfa:
+	ZH 1:
+	'If you don’t trust me, I won’t'
+	R
+	'tell any more fortunes for you.'
+	R
+	'Hmph.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Yeah, yeah, I got it.'
+	R
+	'I believe you.'
+	R
+	'Aaagh, kissing an okayu...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Heehee, if you believe me,'
+	R
+	'then I’ll tell you more.'
+	\L_03bfa:
+	ZH 1:
+	'There’s an okayu fever with'
+	R
+	'okayu disease on the 10th floor'
+	R
+	'of the Natural Foe’s Cave'
+	\L_03bfa:
+	ZH 1:
+	'outside of Cossack.'
+	\L_03bfa:
+	\L_03bed:
+	@L_01d60:
+*L_02b4d:
+	!VAR0401 : 8!
+	!VAR0344 : 0!
+	\L_03ad5:
+	ZH 1:
+	'My shitty slave turned into a'
+	R
+	'cow somehow.'
+	\L_03bfa:
+	ZH 1:
+	'It’s annoying, so I guess I’d'
+	R
+	'like to know how to change her'
+	R
+	'back, maybe.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Heehee... I can see right'
+	R
+	'through you, mister, I’m a'
+	R
+	'genius fortune teller.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'W-What do you mean?!'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Heehee, I’ll tell your fortune'
+	R
+	'then. Namunamunamu...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Arcy rubbed a mysterious orb'
+	R
+	'that was sitting on the desk.'
+	R
+	'Some time later...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'I saw it, I saw it.'
+	R
+	'This should help...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Arcy took a blue,'
+	\L_03bfa:
+	ZH 1:
+	'glass bottle shaped like a ball'
+	R
+	'out of a drawer on her desk and'
+	R
+	'handed it to Rance.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Will this medicine work?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Yeah, that’s \"Cow Curer\".'
+	\L_03bfa:
+	ZH 1:
+	'Put it on the head of a person'
+	R
+	'that was turned into a cow, and'
+	R
+	'they’ll turn right back.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Mhm... I’ll take it.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Obtained Cow Curer.'
+	\L_03bfa:
+	\L_03bed:
+	@L_01d60:
+*L_02cf7:
+	!VAR0344 : 0!
+	\L_03ad5:
+	ZH 1:
+	'I know someone that caught a'
+	R
+	'disease called genfluenza...'
+	R
+	'You’re a genius, right?'
+	\L_03bfa:
+	ZH 1:
+	'Can it be cured?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'I’m a genius, but...'
+	R
+	'I’m a fortune teller.'
+	R
+	'I can’t cure diseases.'
+	\L_03bfa:
+	ZH 1:
+	'But I’ll tell your fortune...'
+	R
+	'That should open a path to you.'
+	R
+	'Namunamunamu...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Arcy rubbed a mysterious orb'
+	R
+	'that was sitting on the table.'
+	R
+	'Some time later...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Uh... Hm... Hmmm... ...Yep, I'
+	R
+	'saw it.'
+	\L_03bfa:
+	ZH 1:
+	'But it can’t be cured normally,'
+	R
+	'so there’s little information.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Don’t care, tell me what you'
+	R
+	'know.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Um, if you go into a dungeon'
+	R
+	'somewhere called the Holy Gal’s'
+	R
+	'Dungeon,'
+	\L_03bfa:
+	ZH 1:
+	'you may figure something out.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'The Holy Gal’s Dungeon...'
+	R
+	'Alright.'
+	\L_03bfa:
+	\L_03bed:
+	@L_01d60:
+*L_02e4e:
+	!VAR0344 : 0!
+	\L_03ad5:
+	ZH 1:
+	'There’s this reeeeeeeeeally'
+	R
+	'weird guy named Mars the Great'
+	R
+	'that’s attacking us with'
+	\L_03bfa:
+	ZH 1:
+	'zombies.'
+	\L_03bfa:
+	ZH 1:
+	'What can I do?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'A reeeeeeeally weird guy?'
+	R
+	'Got it, I’ll tell your fortune.'
+	R
+	'Namunamunamu...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Arcy rubbed a mysterious orb'
+	R
+	'that was sitting on the desk.'
+	R
+	'Some time later...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Yep... There it is.'
+	R
+	'I saw it.'
+	\L_03bfa:
+	ZH 1:
+	'Mhm...'
+	R
+	'That guy’s a necromancer.'
+	\L_03bfa:
+	ZH 1:
+	'The secret to his revival is in'
+	R
+	'his headquarters.'
+	\L_03bfa:
+	ZH 1:
+	'Bring a girl that knows'
+	R
+	'archaeology to Mars to'
+	R
+	'investigate.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Someone that knows'
+	R
+	'archaeology...'
+	R
+	'Do I know someone like that?'
+	\L_03bfa:
+	\L_03bed:
+	@L_01d60:
+*L_02f7b:
+	!VAR0344 : 0!
+	\L_03ad5:
+	ZH 1:
+	'Know any info that’ll be'
+	R
+	'valuable? Anything at all.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Hm? Yeah, okay. Leave it to me.'
+	R
+	'Fortune time... Namunamunamu...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Arcy rubbed a mysterious orb'
+	R
+	'that was sitting on the desk.'
+	R
+	'Some time later...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Ah... I saw someone...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'What?'
+	R
+	'Was it a hot girl?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Hmm, nope. It was a cool guy. An'
+	R
+	'amazing person... And he might'
+	R
+	'become your subordinate.'
+	\L_03bfa:
+	{VAR0455 = 1:
+		ZH 1:
+		'Zeo'
+	}
+	{VAR0455 = 2:
+		ZH 1:
+		'Red'
+	}
+	{VAR0455 = 3:
+		ZH 1:
+		'Lazeal'
+	}
+	ZH 1:
+	'Lazeal would be good to search.'
+	R
+	'I’m sure he’ll be a powerful'
+	R
+	'ally.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Hmmm, it’s a man, though...'
+	R
+	'That’s lame.'
+	\L_03bfa:
+	\L_03bed:
+	@L_01d60:
+*L_030d4:
+	\L_03ad5:
+	ZH 1:
+	'Hmmmm... Nah.'
+	R
+	'I don’t need a fortune right'
+	R
+	'now.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Really? You can get one later,'
+	R
+	'then. If you gave me sweets,'
+	R
+	'I’ll remember.'
+	\L_03bfa:
+	ZH 1:
+	'If you want to ask something,'
+	R
+	'come any time.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'I can only come on the first'
+	R
+	'week of a month, though.'
+	\L_03bfa:
+	\L_03bed:
+	@L_01d60:
+*L_0315d:
+	!VAR0344 : 0!
+	!VAR0158 : VAR0453!
+	MM 8, VAR0200 + VAR0158 - 1:
+	\L_03ad5:
+	ZH 1:
+	'Have any info that’s bad for me'
+	R
+	'or my country?'
+	\L_03bfa:
+	ZH 1:
+	'Something that would be bad if'
+	R
+	'we didn’t avoid it fast.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Leave it to me.'
+	R
+	'I’ll tell your fortune.'
+	R
+	'Namunamunamu...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Arcy rubbed a mysterious orb'
+	R
+	'that was sitting on the desk.'
+	R
+	'Some time later...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Ah... I saw it.'
+	R
+	'Danger.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'W-What kind of danger?!'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'A spy named Freya is hiding in'
+	R
+	X 8:
+	' and doing'
+	R
+	'bad things.'
+	\L_03bfa:
+	ZH 1:
+	'You should find and capture'
+	R
+	'her fast.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'No need to tell me!'
+	R
+	X 8:
+	', huh?'
+	\L_03bfa:
+	\L_03bed:
+	ZH 1:
+	MS 8, "Isolated Shrine Island":
+	@L_01d60:
+*L_032c2:
+	\L_03ad5:
+	ZH 1:
+	'I want to know my lifespan.'
+	R
+	'What age will I live to?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Okay, your lifespan, then. I'
+	R
+	'think it’d be better not to'
+	R
+	'know, though... Namunamunamu...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Arcy rubbed a mysterious orb'
+	R
+	'that was sitting on the desk.'
+	R
+	'Some time later...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Yep... I saw it.'
+	R
+	'If you live well, you’ll live'
+	R
+	'to 62.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'What does \"If you live well\"'
+	R
+	'mean? That’s vaguer than usual.'
+	R
+	'And you call yourself a genius.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Um, a large number of factors'
+	R
+	'influence your lifespan. It’s'
+	R
+	'very possible you’ll die early.'
+	\L_03bfa:
+	ZH 1:
+	'To get better results, I’d need'
+	R
+	'to tell the fortunes of those'
+	R
+	'around you.'
+	\L_03bfa:
+	ZH 1:
+	'Want to know exactly when you’ll'
+	R
+	'die?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Nah... Nevermind, I’d rather'
+	R
+	'not.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Yeah, it’s better not to know.'
+	\L_03bfa:
+	\L_03bed:
+	@L_01d60:
+*L_03416:
+	\L_03ad5:
+	ZH 1:
+	'Should I get going...?'
+	R
+	'Well, byebye then.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Yeah, byebye.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Rance waved, and Arcy waved'
+	R
+	'her small hand back in return.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'...Hey, how about you come'
+	R
+	'back to my castle with me?'
+	R
+	'It’d be safer there.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'That’s not true.'
+	R
+	'...I know it isn’t safe.'
+	R
+	'That castle may be dangerous.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Leazas Castle is?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Yeah... Heehee.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Hm... Hmmmmmmm.'
+	R
+	'Whatever, I’m leaving.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Come again.'
+	R
+	'This was Arcy.'
+	\L_03bfa:
+	\L_03bed:
+	EC 0:
+	!VAR0516 : 1031!
+	\L_03bd1:
+	%0:
+*L_03541:
+	!VAR0343 : 2!
+	\L_03bfa:
+	ZH 1:
+	'After advancing a ways, a sign'
+	R
+	'was found.'
+	\L_03bfa:
+	ZH 1:
+	'This is what the sign said.'
+	\L_03bfa:
+	ZH 1:
+	'：          Notice            ：'
+	R
+	'：Protagonists only, please.'
+	\L_03bfa:
+	ZH 1:
+	'： ：I won’t see side characters.：'
+	R
+	'：I love sweets. ：'
+	\L_03bfa:
+	\L_03bed:
+	%0:
+*L_035a4:
+	!VAR0343 : 1!
+	!VAR0516 : 1032!
+	\L_03bd1:
+	!VAR0516 : 1!
+	\L_03b29:
+	!VAR0516 : 6!
+	\L_03b99:
+	\L_03ad5:
+	ZH 1:
+	'Maris, what is this place?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'It’s known as the Isolated'
+	R
+	'Shrine Island. It usually'
+	R
+	'can’t be reached.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Usually... Does that mean'
+	R
+	'there’s a way to get to it?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Yes, during nights of the first'
+	R
+	'week of a month,'
+	\L_03bfa:
+	ZH 1:
+	'a mysterious path of light'
+	R
+	'connects it to the continent.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Hmmm... Strange place. So, is'
+	R
+	'there something there?'
+	\L_03bfa:
+	ZH 1:
+	'I’d be mad if there wasn’t after'
+	R
+	'such an elaborate trick.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'All that’s there is a single'
+	R
+	'dungeon.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'A dungeon?'
+	R
+	'Then there’s gotta be'
+	R
+	'something in it.'
+	\L_03bfa:
+	ZH 1:
+	'Yeah... Like some super hot'
+	R
+	'girl, or mega hot girl.'
+	R
+	'Uheeheeheeheeheehee.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Now, it’s not impossible'
+	R
+	'there’s a woman in it, but...'
+	\L_03bfa:
+	ZH 1:
+	'Nobody that’s left the dungeon'
+	R
+	'has ever said what’s inside,'
+	R
+	'so there’s no way to know.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Mhm... Highly suspicious.'
+	R
+	'Definitely worth investigating.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_03760:
+	!VAR0548 : 1!
+	\L_03b0d:
+	ZH 1:
+	'　　Isolated Shrine Island'
+	R
+	R
+	'　Completely Shut Off'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 1032!
+	\L_03bd1:
+	!VAR0516 : 1!
+	\L_03b29:
+	!VAR0516 : 6!
+	\L_03b99:
+	\L_03ad5:
+	ZH 1:
+	'I’m going out.'
+	R
+	'Time to search the shrine'
+	R
+	'island!'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'If you wish to try, King Rance,'
+	R
+	'but the path to it only appears'
+	R
+	'on the first week of the month.'
+	\L_03bfa:
+	ZH 1:
+	'Right now...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'It won’t be possible to get'
+	R
+	'there, right?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Yes.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Hmph, have a bridge built to'
+	R
+	'lead to it. As a public'
+	R
+	'project.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'...That’s impossible...'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_03886:
+	\L_03b0d:
+	ZH 1:
+	'　　Isolated Shrine Island'
+	R
+	R
+	'　The Path of Light is Present'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 1032!
+	\L_03bd1:
+	!VAR0516 : 1!
+	\L_03b29:
+	\L_03ad5:
+	ZH 1:
+	'I’ll be going to Isolated'
+	R
+	'Shrine Island, then.'
+	\L_03bfa:
+	ZH 1:
+	'That path of light that I'
+	R
+	'don’t understand is present,'
+	R
+	'so it’s possible to get there.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b37:
+	\L_03b0d:
+	ZH 1:
+	'Thus,'
+	\L_03bfa:
+	ZH 1:
+	'Rance and his unit crossed the'
+	R
+	'path of light and arrived at the'
+	R
+	'dungeon on Isolated Shrine'
+	\L_03bfa:
+	ZH 1:
+	'Island.'
+	\L_03bfa:
+	\L_03bed:
+	%0:
+*L_03946:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1042!
+	\L_03bd1:
+	!VAR0516 : 1!
+	\L_03b29:
+	\L_03b0d:
+	ZM 32:
+	ZH 1:
+	'　　 Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　　Dungeon'
+	\L_03bfa:
+	ZH 1:
+	'Rance descended into Leazas'
+	R
+	'Castle’s dungeon.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03af1:
+	ZH 1:
+	'Hmm, sure is depressing in'
+	R
+	'here.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Rance searched it.'
+	\L_03bfa:
+	ZH 1:
+	'Every footstep echoed through'
+	R
+	'the dungeon.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 5!
+	\L_03b99:
+	\L_03b45:
+	ZH 1:
+	'What’re you doing, Darling?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Hm, Lia...?'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'The dungeon is boring.'
+	R
+	'You should do something fun'
+	R
+	'with me instead.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Lia smiled and pulled on'
+	R
+	'Rance’s arm.'
+	\L_03bfa:
+	\L_03bed:
+	\L_03ad5:
+	ZH 1:
+	'Ah... Hey!'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b45:
+	ZH 1:
+	'Uhuhu...'
+	\L_03bfa:
+	\L_03bed:
+	\L_03b0d:
+	ZH 1:
+	'Lia dragged Rance out of the'
+	R
+	'dungeon.'
+	\L_03bfa:
+	\L_03bed:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_03ad5:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03af1:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03b0d:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03b29:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03b37:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03b45:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03b61:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03b7d:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03b99:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03ba7:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03bb5:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03bd1:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03bed:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03bfa:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

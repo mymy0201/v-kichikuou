@@ -1,0 +1,190 @@
+	!VAR0231 : 0!
+*L_00025:
+	MM 8, VAR0200 + VAR0158 - 1:
+	!VAR0516 : VAR0135!
+	\L_0038f:
+	{VAR0485 = 1:
+		!VAR0520 : 31!
+		%#Gｶﾌｪ.ADV:
+		%0:
+	}
+	{VAR0485 = 2:
+		!VAR0520 : 5!
+		%#Gﾏﾘｱ.ADV:
+		%0:
+	}
+	\L_002cb:
+	ZH 1:
+	'［'
+	X 8:
+	'］'
+	R
+	'　　　　　'
+	\L_00179:
+	{VAR0231 \ 1:
+		ZH 1:
+		'Kinh tế: ?? Phòng thủ: ?? Khu'
+		R
+		'vực chiến đấu: ??'
+	}
+	{VAR0231 = 1:
+		ZH 1:
+		'Kinh tế:'
+		H 0, VAR0132:
+		ZH 1:
+		'Phòng thủ:'
+		H 0, VAR0133:
+		ZH 1:
+		R
+		'Khu vực chiến đấu:'
+		H 0, VAR0134:
+	}
+*L_00107:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_00107:
+	}
+	\L_0027d:
+	{VAR0518 \ 0:
+		ZH 1:
+		$L_00170$
+		'Thao lược Ninja'
+		$
+	}
+	ZH 1:
+	$L_00163$
+	'Quay lại'
+	$
+	]
+	\L_00288:
+	@L_00163:
+*L_00163:
+	\L_003ab:
+	\L_0039d:
+	%0:
+*L_00170:
+	%#Cﾆﾝｼﾞｬ.ADV:
+	@L_00025:
+*L_00179:
+	{VAR0130 = 2:
+		ZH 1:
+		'（Quân nổi dậy）'
+	}
+	{VAR0130 = 3:
+		ZH 1:
+		'（Thành phố-bang độc lập）'
+	}
+	{VAR0130 = 4:
+		ZH 1:
+		'（Quân đội Helman）'
+	}
+	{VAR0130 = 5:
+		ZH 1:
+		'（Quân đội Patton）'
+	}
+	{VAR0130 = 6:
+		ZH 1:
+		'（NHẬT BẢN'
+	}
+	{VAR0130 = 7:
+		ZH 1:
+		'（Quân đội Zeth）'
+	}
+	{VAR0130 = 8:
+		ZH 1:
+		'（Quân đội Kayblis）'
+	}
+	{VAR0130 = 9:
+		ZH 1:
+		'（Quân đội Hornet）'
+	}
+	{VAR0130 = 10:
+		ZH 1:
+		'（Thiên thần）'
+	}
+	{VAR0130 = 11:
+		ZH 1:
+		'（Chủ nghĩa AL)'
+	}
+	ZH 1:
+	R
+	\0:
+*L_0027d:
+	IM VAR0019, VAR0020:
+	\0:
+*L_00288:
+	IZ VAR0019, VAR0020:
+	\0:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_002cb:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0038f:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0039d:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_003ab:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:
