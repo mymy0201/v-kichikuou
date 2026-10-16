@@ -1,12 +1,15 @@
 # Executables and binaries
 *.exe
+!rance_save_tool.exe
 *.dll
 xsys35c_tools/
 
 # Python scripts, tools, and caches
-tools/
+tools/*
+!tools/rance_save_tool.py
 scratch/
 *.py
+!tools/rance_save_tool.py
 *.pyc
 __pycache__/
 
@@ -20,7 +23,6 @@ xsys_log.txt
 KICHIKUGB.ALD
 KICHIKUWA.ALD
 System39.org
-cheat_config.json
 
 # Temporary and test directories
 test_dummy/

@@ -24,28 +24,28 @@
 	%#M.ADV:
 	!VAR0548 : 0!
 	ZH 1:
-	MS 10, "Monsters":
+	MS 10, "Quái vật":
 	!VAR0713 : 1032!
 	{VAR0162 = 1:
 		ZH 1:
-		MS 8, "Thieves’ Hideout":
+		MS 8, "Sào huyệt Sơn tặc":
 		!VAR0713 : 1008!
 	}
 	{VAR0162 = 2:
 		ZH 1:
-		MS 8, "Monsters’ Cave":
+		MS 8, "Hang Quái vật":
 	}
 	{VAR0162 = 3:
 		ZH 1:
-		MS 8, "Thieves’ Cave":
+		MS 8, "Hang Đạo tặc":
 	}
 	{VAR0162 = 4:
 		ZH 1:
-		MS 8, "Snow Dungeon":
+		MS 8, "Mê cung Tuyết":
 	}
 	{VAR0162 = 5:
 		ZH 1:
-		MS 8, "Ho Raga’s Tower":
+		MS 8, "Tháp Ho Raga":
 		!VAR0713 : 1017!
 		{VAR0147 = 0:
 			!VAR0520 : 2!
@@ -54,99 +54,99 @@
 	}
 	{VAR0162 = 6:
 		ZH 1:
-		MS 8, "Natural Foe’s Dungeon":
+		MS 8, "Mê cung Thiên Địch":
 	}
 	{VAR0162 = 7:
 		ZH 1:
-		MS 8, "Green Village":
+		MS 8, "Làng Xanh":
 		!VAR0713 : 1029!
 	}
 	{VAR0162 = 8:
 		ZH 1:
-		MS 8, "Summit’s Mouth":
+		MS 8, "Miệng Núi Đỉnh":
 	}
 	{VAR0162 = 9:
 		ZH 1:
-		MS 9, "Piar’s Ship":
+		MS 9, "Chiến hạm của Piar":
 		!VAR0713 : 1037!
 	}
 	{VAR0162 = 10:
 		ZH 1:
-		MS 8, "Uncurse Dungeon":
+		MS 8, "Mê cung Giải Nguyền":
 	}
 	{VAR0162 = 11:
 		ZH 1:
-		MS 8, "Rising Dragon Mountain":
+		MS 8, "Núi Thăng Long":
 		!VAR0713 : 1025!
 	}
 	{VAR0162 = 12:
 		ZH 1:
-		MS 8, "Kalar Forest":
+		MS 8, "Rừng Kalar":
 	}
 	{VAR0162 = 13:
 		ZH 1:
-		MS 8, "Peach Blossom Spring":
+		MS 8, "Đào Hoa Nguyên":
 	}
 	{VAR0162 = 14:
 		ZH 1:
-		MS 8, "Orochi’s Pit":
+		MS 8, "Vực Quái Xà Orochi":
 	}
 	{VAR0162 = 15:
 		ZH 1:
-		MS 8, "Isolated Shrine Island":
+		MS 8, "Đảo Miếu Cô Lập":
 	}
 	{VAR0162 = 16:
 		ZH 1:
-		MS 8, "Giant Battleship":
+		MS 8, "Siêu Thiết Giáp Hạm":
 		!VAR0713 : 1016!
 	}
 	{VAR0162 = 17:
 		ZH 1:
-		MS 8, "Mt. Salen":
+		MS 8, "Núi Salen":
 	}
 	{VAR0162 = 18:
 		ZH 1:
-		MS 8, "Stone-Cutter Dungeon":
+		MS 8, "Mê cung Thợ Cắt Đá":
 	}
 	{VAR0162 = 19:
 		ZH 1:
-		MS 8, "Dungeon of Lies":
+		MS 8, "Mê cung Dối Trá":
 	}
 	{VAR0162 = 20:
 		ZH 1:
-		MS 8, "Mos’s Dungeon":
+		MS 8, "Mê cung của Mos":
 	}
 	{VAR0162 = 21:
 		ZH 1:
-		MS 8, "Maid Graveyard":
+		MS 8, "Nghĩa địa Hầu gái":
 	}
 	{VAR0162 = 22:
 		ZH 1:
-		MS 8, "Rex’s Dungeon":
+		MS 8, "Mê cung của Rex":
 	}
 	{VAR0162 = 23:
 		ZH 1:
-		MS 8, "Holy Gal’s Dungeon":
+		MS 8, "Mê cung Thánh Nữ Gyaru":
 	}
 	{VAR0162 = 24:
 		ZH 1:
-		MS 8, "Dangerous Hole":
+		MS 8, "Hố Sâu Tử Thần":
 	}
 	{VAR0162 = 25:
 		ZH 1:
-		MS 8, "Titi Lake":
+		MS 8, "Hồ Titi":
 		{VAR0666 > 1:
 			ZH 1:
-			MS 8, "Haniwa Temple":
+			MS 8, "Đền Haniwa":
 		}
 	}
 	{VAR0162 = 26:
 		ZH 1:
-		MS 8, "Hyper Building":
+		MS 8, "Tòa nhà Hyper":
 	}
 	{VAR0162 = 30:
 		ZH 1:
-		MS 8, "Ancient Ruins":
+		MS 8, "Phế tích Cổ đại":
 	}
 	{(VAR0485 = 1) * (VAR0162 = 10):
 		!VAR0520 : 32!
@@ -375,7 +375,7 @@
 		\L_075a9:
 		ZH 1:
 		X 1:
-		'Đơn vị của mars vĩ'
+		'Đơn vị của Mars vĩ'
 		R
 		'đại đã bị một trận bão tuyết'
 		R
