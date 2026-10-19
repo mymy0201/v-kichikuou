@@ -114,13 +114,13 @@ Tùy vào hoàn cảnh phân cảnh, người kể chuyện sẽ luân chuyển 
   - Ví dụ: *Vung thanh bảo kiếm rực lửa, Rick lao thẳng vào vòng vây quân địch như một mũi tên xé gió.*
 
 ### 2.5. Đại Từ Người Kể Chuyện Dành Cho Bậc Tiền Bối, Lão Tướng & Quốc Vương
-* **Barres, Lelyukov, Gandhi, Papaya Server**:
+* **Barres, Lelyukov, Gandhi**:
   - Dùng: `ông`, `lão tướng`, `lão tướng quân`, `vị tướng già`, `lão vương` (Gandhi).
   - Giọng điệu kính cẩn trước kinh nghiệm sa trường của các bậc lão trượng.
   - Ví dụ: *Lão tướng Barres vuốt chòm râu bạc, đôi mắt già nua trầm ngâm nhìn lên bản đồ chiến sự.*
 
 ### 2.6. Đại Từ Người Kể Chuyện Dành Cho Kẻ Thù, Quái Vật & Ma Nhân
-* **Kayblis, Camilla, Nobunaga (bị tha hóa), Redeye, Megalas**:
+* **Kayblis, Camilla, Nobunaga (bị tha hóa), Redeye, Meglass**:
   - Dùng: `hắn`, `gã`, `tên ma nhân`, `ác quỷ`, `con quái vật`, `quân xâm lược`.
   - Với nữ ma nhân kiêu hãnh (Camilla, Satella, Silky): Dùng `nữ ma nhân`, `nàng`, `ả` (khi cuồng sát).
   - Ví dụ: *Kayblis cười sằng sặc, móng vuốt đen đúa của hắn vung lên tạo thành một luồng ma khí đen ngòm.*
@@ -145,7 +145,7 @@ Khi dịch, phải đảm bảo đại từ trong lời dẫn ăn khớp với �
 | :--- | :--- | :--- | :--- |
 | **Phụ nữ hậu cung / người tình yêu dấu** | `Ta` (khi dỗ dành: `Anh`) | `Em` | Chiếm hữu, âu yếm, khi thị tẩm hoặc ve vãn. |
 | **Phụ nữ quý tộc / vương giả (Lia, Sheila...)** | `Ta` | `Nàng` / `Em` | Tự tôn quân vương, vừa tán tỉnh vừa thuần phục. |
-| **Phụ nữ bướng bỉnh / chống đối (Shizuka, Kanami)** | `Ta` (nóng giận: `Tao` / `Bố mày`) | `Cô` / `Ả` / `Con ranh` / `Mày` | Trêu tức, dọa nạt, đè bẹp sự kiêu ngạo. |
+| **Phụ nữ bướng bỉnh / chống đối (Shizuka)** | `Ta` (nóng giận: `Tao` / `Bố mày`) | `Cô` / `Ả` / `Con ranh` / `Mày` | Trêu tức, dọa nạt, đè bẹp sự kiêu ngạo. (Kanami có quy tắc riêng: Rance gọi `cô`, xưng `ta` — xem §5.3) |
 | **Phụ nữ bạo dâm / cứng đầu (Milli...)** | `Ta` / `Bố mày` | `Bà cô` / `Mụ điên` / `Ả` | Cay cú, ăn miếng trả miếng, đấu khẩu ngang tàng. |
 | **Bé gái / Thiếu nữ ngây thơ (Miki, Kouhime...)** | `Ta` / `Chú` / `Anh` | `Nhóc` / `Em` / `Bé con` | Bề trên cưng chiều, trêu ghẹo nhưng bao bọc. |
 | **Thuộc hạ nam trung thành (Rick, Barres, Cordoba)** | `Ta` | `Ngươi` / `Các ngươi` / [Tên] | Bậc quân vương ra lệnh, hào sảng tin cậy. |
@@ -182,7 +182,7 @@ Bảng dưới đây tổng hợp toàn diện đại từ của **Người kể
 | **19** | **Gengorou** (ゲンゴロウ) | Kỳ tài chiến thuật mê bóng đá | `Lão`, `Gengorou`, `kỳ nhân bóng đá` | Mọi người: `Lão dị hợm Gengorou` | `Lão mê bóng đá` / `Ngươi` - `Ta` | `Bệ hạ` / `Cậu Rance` - `Tôi` |
 | **20** | **Soul Less** (ソウル) | Nữ sơn tặc phó tướng | `Nàng`, `Soul`, `nữ tặc hoang dã` | Băng cướp: `Đại tỷ Soul`, `Phó tướng Soul` | `Soul` / `Em` - `Ta`/`Đại ca` | `Đại ca Rance` - `Em`/`Tôi` |
 | **21** | **Bound Less** (バウンド) | Đô vật sơn tặc to lớn | `Gã`, `Bound`, `gã đô vật khổng lồ` | Băng cướp: `Anh Bound` | `Bound` / `Chú mày` - `Ta`/`Đại ca` | `Đại ca Rance` - `Tôi`/`Em` |
-| **22** | **Kentou Kanami** (見当かなみ) | Ninja thân cận Leazas | `Nàng`, `cô`, `Kanami`, `nữ ninja` | Lia: `Kanami`; Suzume: `Kanami-chan` | `Kanami` / `Con nhóc ninja` - `Ta`/`Bố mày` | `Tên Rance khốn khiếp!` - `Tôi` |
+| **22** | **Kentou Kanami** (見当かなみ) | Ninja thân cận Leazas | `Nàng`, `cô`, `Kanami`, `nữ ninja` | Lia: `Kanami`; Suzume: `Kanami-chan` | `Cô` / `Kanami` - `Ta` | `Anh` - `Tôi` (chỉ mắng `Tên Rance khốn khiếp!` khi bị ức hiếp) |
 | **23** | **Suzume** (鈴女) | Ninja tự do tinh quái dâm đãng | `Nàng`, `Suzume`, `cô nhóc ninja` | Đồng nghiệp: `Suzume`; Kanami: `Con điên Suzume` | `Suzume` / `Con nhóc ranh` - `Ta` | `Rance` / `Chàng Rance` - `Bé Suzume`/`Em` |
 | **24** | **Maria Custard** (マリア) | Nhà phát minh phái Tulip (Tsundere) | `Nàng`, `cô`, `Maria`, `nữ phát minh` | Binh sĩ Tulip: `Đại nhân Maria`; Shizuka: `Maria` | `Maria` - `Ta`/`Anh` | `Rance` - `Tôi` |
 | **25** | **Shizuka Masou** (魔想志津香) | Thiên tài ma pháp số 1 lục địa | `Nàng`, `Shizuka`, `nữ pháp sư kiêu kỳ` | Giới ma pháp: `Đại pháp sư Shizuka`; Maria: `Shizuka` | `Shizuka` / `Ả kiêu kỳ` - `Ta` | `Tên khốn Rance`/`Tên dâm tặc` - `Tôi` |
@@ -207,28 +207,28 @@ Bảng dưới đây tổng hợp toàn diện đại từ của **Người kể
 | **44** | **Nagi Raghav** (ナギ) | Tứ Đại Lãnh Chúa lơ đễnh | `Nàng`, `Nagi`, `pháp sư độc hành` | Giới pháp sư: `Lãnh chúa Nagi` | `Nagi` / `Cô ả lơ đễnh` - `Ta` | `Rance` - `Tôi` |
 | **45** | **Uspira** (ウスピラ) | Tứ Đại Lãnh Chúa Băng/Đất | `Bà`, `nàng`, `Uspira` | Triều thần: `Đại pháp sư Uspira` | `Uspira` / `Bà cô ma pháp` - `Ta` | `Ngài Rance` - `Tôi` |
 | **46** | **Café Artful** (カフェ) | Nữ quý tộc pháp sư sành điệu | `Nàng`, `Café`, `quý cô sành điệu` | Quý tộc Zeth: `Tiểu thư Café` | `Café` / `Cô ả đỏng đảnh` - `Ta` | `Ngài Rance` - `Tôi` |
-| **47** | **Papaya Server** (パパイヤ) | Trưởng lão ma pháp tếu táo | `Lão`, `ông`, `Papaya`, `lão pháp sư già` | Đệ tử: `Đại sư Papaya` | `Lão già Papaya` / `Ngươi` - `Ta` | `Cậu Rance` - `Lão già này`/`Tôi` |
+| **47** | **Papaya Server** (パパイヤ) | Nữ pháp sư tếu táo (Tứ Đại Lãnh Chúa) | `Nàng`, `cô`, `Papaya`, `nữ pháp sư` | Đệ tử: `Đại sư Papaya` | `Papaya` / `Cô` - `Ta` | `Cậu Rance` - `Tôi` |
 | **48** | **Amira** (アミラン) | Nữ pháp sư quyến rũ chết người | `Nàng`, `Amira`, `nữ pháp sư gợi cảm` | Đồng môn: `Amira` | `Amira` / `Em` - `Ta` | `Ngài Rance` - `Em`/`Tôi` |
 | **49** | **Anis** (アニス) | Pháp sư tham tiền siêu cấp | `Cô bé`, `Anis`, `con nhóc hám tiền` | Khách hàng: `Pháp sư Anis` | `Anis` / `Con nhóc hám tiền` - `Ta` | `Đại gia Rance` / `Ngài Rance` - `Em` |
 | **50** | **Eleanor** (エレノア) | Nữ ma chiến binh Zeth | `Nàng`, `Eleanor`, `nữ kiếm sĩ phép` | Binh sĩ: `Đội trưởng Eleanor` | `Eleanor` / `Cô` - `Ta` | `Ngài Rance` - `Tôi` |
-| **51** | **Oda Nobunaga** (織田信長) | Lãnh chúa JAPAN (Bị quỷ nhập) | `Hắn`, `Nobunaga`, `tên quỷ vương` | Gia thần: `Chúa công`, `Đại nhân Nobunaga`; Kou: `Huynh trưởng` | `Nobunaga` / `Tên quỷ` - `Tao`/`Ta` | `Tên sâu bọ Rance` - `Ta` |
-| **52** | **Oda Kouhime** (香姫) | Tiểu công chúa ngây thơ JAPAN | `Cô bé`, `Kouhime`, `tiểu công chúa` | Gia thần: `Công chúa Kou`, `Tiểu thư Kou`; Isoroku: `Kou-chan` | `Kou` / `Kouhime` / `Em` - `Ta` | `Chủ nhân Rance` - `Kou`/`Em` |
+| **51** | **Oda Nobunaga** (織田信長) | Lãnh chúa JAPAN (Bị quỷ nhập) | `Hắn`, `Nobunaga`, `tên quỷ vương` | Gia thần: `Chúa công`, `Đại nhân Nobunaga`; Kou: `Cha` | `Nobunaga` / `Tên quỷ` - `Tao`/`Ta` | `Tên sâu bọ Rance` - `Ta` |
+| **52** | **Oda Kouhime** (香姫) | Con gái Nobunaga, tiểu công chúa ngây thơ | `Cô bé`, `Kouhime`, `tiểu công chúa` | Gia thần: `Công chúa Kou`, `Tiểu thư Kou`; Isoroku: `Kou-chan` | `Kou` / `Kouhime` / `Em` - `Ta` | `Chủ nhân Rance` - `Kou`/`Em` |
 | **53** | **Yamamoto Isoroku** (五十六)| Đệ nhất nữ cung thủ samurai | `Nàng`, `Isoroku`, `nữ dũng tướng samurai`| Cung thủ: `Tướng quân Yamamoto`; Kou: `Chị Isoroku` | `Isoroku` / `Em` - `Ta`/`Anh` | `Tướng quân Rance` / `Chàng` - `Thiếp`/`Tôi` |
 | **54** | **Makoto** (マコト) | Thiếu nữ tiệm dango tinh nghịch | `Cô bé`, `Makoto`, `cô bé dango` | Khách làng: `Bé Makoto` | `Makoto` / `Con nhóc dango` - `Ta` | `Ngài Rance` - `Em` |
 | **55** | **Torako** (虎子) | Nữ kiếm sĩ cọp con Mikawa | `Cô`, `Torako`, `cô nàng hổ báo` | Đồng đội: `Torako` | `Torako` / `Cô em hổ báo` - `Ta` | `Ngài Rance` - `Tôi` |
 | **56** | **Kurusu Miki** (美樹) | Ma Vương định mệnh (Little Princess) | `Cô bé`, `Miki`, `tiểu Ma Vương` | Kentarou: `Miki`; Sill: `Miki-chan`; Ma nhân: `Ma Vương Bệ hạ` | `Miki` / `Nhóc Ma Vương` - `Ta` | `Chú Rance` / `Anh Rance` - `Em`/`Miki` |
-| **57** | **Ogawa Kentarou** (健太郎) | Dũng sĩ mang thánh đao / Bạn Miki | `Chàng trai`, `cậu ta`, `Kentarou` | Miki: `Kentarou-kun`; Nikkou: `Chủ nhân Kentarou` | `Kentarou` / `Thằng ranh` - `Tao`/`Bố mày` | `Mày` / `Tên Rance chết tiệt` - `Tao` |
+| **57** | **Ogawa Kentarou** (健太郎) | Dũng sĩ mang thánh đao / Bạn Miki | `Chàng trai`, `cậu ta`, `Kentarou` | Miki: `Kentarou-kun`; Nikkou: `Chủ nhân Kentarou` | `Kentarou` / `Thằng ranh` - `Tao`/`Bố mày` | `Mày` / `Tên Rance chết tiệt` - `Tôi` (tức giận: `Tao`) |
 | **58** | **Thánh Đao Nikkou** (日光) | Thánh đao cổ đại diệt Ma Nhân | `Nó`, `thanh thánh đao`, `Nikkou` | Kentarou: `Đao Nikkou`; Chaos: `Thanh sắt cổ hủ` | `Cây đao khó tính` / `Mày` - `Tao` | `Kẻ dâm đãng Rance` - `Ta`/`Bản đao` |
 | **59** | **Ma Kiếm Chaos** (カオス) | Ma kiếm tà dâm chém rách kết giới | `Nó`, `thanh ma kiếm`, `Chaos` | Rance: `Lão kiếm dâm`; Nikkou: `Thanh kiếm đồi trụy` | `Lão kiếm dâm` / `Chaos` - `Tao`/`Ta` | `Thằng nhóc dâm tặc` - `Bản kiếm`/`Ta` |
 | **60** | **Kayblis** (ケイブリス) | Đệ Nhất Ma Nhân (Phe xâm lược) | `Hắn`, `gã`, `Kayblis`, `tên trùm ma nhân`| Thuộc hạ: `Đại nhân Kayblis`; Phe Hornet: `Tên phản đồ Kayblis` | `Kayblis` / `Tên khốn` - `Tao`/`Bố mày` | `Tên người hạ đẳng` - `Bản tọa`/`Ta` |
 | **61** | **Camilla** (カミーラ) | Nữ Ma Nhân Long Tộc kiêu hãnh | `Nàng`, `Camilla`, `nữ ma nhân rồng` | Ma quân: `Đại nhân Camilla`; Kayblis: `Camilla` | `Camilla` / `Con rồng cái` - `Ta`/`Tao` | `Tên người ngông cuồng` - `Ta` |
 | **62** | **Hornet** (ホーネット) | Nữ Ma Nhân lãnh tụ phe ôn hòa | `Nàng`, `Hornet`, `nữ chúa ma nhân` | Thuộc hạ: `Ngài Hornet`, `Hornet-sama`; Kayblis: `Con tiện nhân` | `Hornet` / `Nữ chúa ong` - `Ta` | `Rance` / `Con người` - `Ta` |
-| **63** | **Satella** (サテラ) | Nữ Ma Nhân Hộ Vệ cao ngạo | `Nàng`, `Satella`, `ả ma nhân hộ vệ` | Hornet: `Satella`; Ma quân: `Đại nhân Satella` | `Satella` / `Ả ma nhân` - `Ta` | `Tên con người hạ đẳng` / `Rance` - `Ta` |
+| **63** | **Satella** (サテラ) | Nữ Ma Nhân Hộ Vệ cao ngạo | `Nàng`, `Satella`, `ả ma nhân hộ vệ` | Hornet: `Satella`; Ma quân: `Đại nhân Satella` | `Satella` / `Ả ma nhân` - `Ta` | `Anh` - `Tôi` (quyết định 2026-10-18: Satella xưng `tôi`, gọi Rance `anh`) |
 | **64** | **Silky** (シルキィ) | Nữ Ma Nhân Băng Giá trầm lặng | `Nàng`, `Silky`, `ả ma nhân băng giá` | Hornet: `Silky`; Đồng minh: `Silky` | `Silky` / `Ả băng tuyết` - `Ta` | `Rance` - `Ta` |
 | **65** | **Saizel & Hawzel** (サイゼル＆ハウゼル)| Cặp Ma Nhân Ngụy Thiên Thần | `Hai ả`, `chị em thiên thần giả` | Ma quân: `Đại nhân Saizel/Hawzel` | `Hai đứa bay` / `Thiên thần giả` - `Ta` | `Rance` / `Tên người` - `Bọn ta` |
 | **66** | **Warg** (ワーグ) | Ma Nhân Mộng Giới bé gái | `Nó`, `ả`, `Warg`, `nhóc ma quái` | Đồng minh: `Warg` | `Warg` / `Nhóc ma quái` - `Ta` | `Rance` - `Ta`/`Em` |
 | **67** | **Galtia** (ガルティア) | Ma Nhân Háu Ăn khổng lồ | `Gã`, `Galtia`, `tên ma nhân háu ăn` | Ma quân: `Đại nhân Galtia` | `Galtia` / `Tên tham ăn` - `Ta` | `Rance` - `Ta` |
-| **68** | **Megalas** (メガラス) | Ma Nhân Tộc Horus bay lượn | `Hắn`, `Megalas`, `tên chimera bay` | Binh đoàn bay: `Chủ tướng Megalas` | `Megalas` / `Tên chimera bay` - `Ta` | `Rance` - `Ta` |
+| **68** | **Meglass** (メガラス) | Ma Nhân Tộc Horus bay lượn | `Hắn`, `Meglass`, `tên chimera bay` | Binh đoàn bay: `Chủ tướng Meglass` | `Meglass` / `Tên chimera bay` - `Ta` | `Rance` - `Ta` |
 | **69** | **Medusa** (メデューサ) | Ma Nhân Xà Nữ hóa đá | `Ả`, `Medusa`, `ả rắn độc ma nhân` | Thuộc hạ rắn: `Nữ chúa Medusa` | `Medusa` / `Ả rắn độc` - `Ta` | `Con người ti tiện` - `Ta` |
 | **70** | **Redeye** (レッドアイ) | Ma Nhân Độc Nhãn sát thủ | `Hắn`, `Redeye`, `tên sát thủ chột mắt` | Kayblis: `Redeye` | `Redeye` / `Tên chột` - `Tao`/`Ta` | `Rance` - `Ta` |
 | **71** | **Kesselring** (ケッセルリンク)| Ma Nhân Huyết Tộc ma cà rồng | `Hắn`, `Kesselring`, `bá tước bóng đêm`| Tộc nhân ma cà rồng: `Chúa tể Kesselring` | `Kessel` / `Tên ma cà rồng` - `Ta` | `Rance` - `Ta` |
@@ -366,7 +366,7 @@ Bảng dưới đây tổng hợp toàn diện đại từ của **Người kể
 * **Thân phận**: Nữ ninja thân cận của Lia và Leazas. Thường xuyên bị Rance trêu chọc, lột đồ, sàm sỡ và quấy rối, nhưng trong lòng dần nảy sinh tình cảm phức tạp khó nói.
 * **Người kể chuyện / Lời dẫn**: `Nàng`, `cô`, `Kanami`, `nữ ninja`, `cô nàng ninja điệp báo`.
 * **Mọi người xung quanh gọi Kanami**: Lia gọi là `Kanami`; Maris gọi là `cô Kanami`; Suzume gọi trêu là `Kanami-chan`.
-* **Xưng hô với Rance**: Kanami gọi Rance là `Tên Rance khốn khiếp!`, `Đồ biến thái!`, `Tên ác quỷ!`, tự xưng `tôi`. Rance xưng `ta` / `bố mày`, gọi `Kanami` / `con nhóc ninja` / `mày`.
+* **Xưng hô với Rance**: Bình thường Kanami tự xưng `tôi`, gọi Rance là `anh`; chỉ dùng giọng mắng (`Tên Rance khốn khiếp!`, `Đồ biến thái!`, `Tên ác quỷ!`) khi bị ức hiếp. Rance xưng `ta`, gọi Kanami là `cô` / `Kanami`.
 
 #### 16. Suzume (鈴女 - すずめ)
 * **Thân phận**: Nữ ninja tự do, tinh nghịch, lươn lẹo, dâm đãng và hám tiền. Thích làm tình, coi chuyện phòng the là trò tiêu khiển vui vẻ.
@@ -453,7 +453,7 @@ Bảng dưới đây tổng hợp toàn diện đại từ của **Người kể
 
 #### 29. Café Artful, Papaya Server & Anis
 * **Café Artful**: Quý cô quý tộc Zeth mê thời trang và ma thuật cao cấp. (Cấm nhầm thành "quán cà phê"). Lời dẫn gọi là `quý cô Café`. Xưng `tôi`, gọi `ngài Rance`.
-* **Papaya Server**: Trưởng lão ma pháp tính tình tếu táo. (Cấm nhầm thành quả "đu đủ"). Lời dẫn gọi là `lão pháp sư Papaya`. Xưng `lão phu` / `tôi`, gọi `cậu Rance`.
+* **Papaya Server**: Nữ pháp sư tính tình tếu táo (Tứ Đại Lãnh Chúa). (Cấm nhầm thành quả "đu đủ"). Lời dẫn gọi là `nữ pháp sư Papaya`/`nàng`/`cô`. Xưng `tôi`, gọi `cậu Rance`. Rance gọi Papaya là `cô`. (Quyết định 2026-10-18: Papaya là nữ.)
 * **Anis**: Nữ pháp sư tham tiền hám bạc siêu cấp. Lời dẫn gọi là `con nhóc hám tiền Anis`. Xưng `em`, gọi `đại gia Rance` / `ngài Rance`.
 
 ---
@@ -463,13 +463,14 @@ Bảng dưới đây tổng hợp toàn diện đại từ của **Người kể
 #### 30. Oda Nobunaga (織田信長)
 * **Thân phận**: Lãnh chúa gia tộc Oda ở JAPAN, nhưng linh hồn và thể xác đã bị Quỷ vương độc ác tha hóa chiếm đoạt. Trùm cuối của chiến dịch JAPAN.
 * **Người kể chuyện / Lời dẫn**: `Hắn`, `Nobunaga`, `tên quỷ vương`, `lãnh chúa bị tha hóa`.
-* **Mọi người xung quanh gọi Nobunaga**: Gia thần gọi là `Chúa công`, `Đại nhân Nobunaga`; Kouhime gọi là `Huynh trưởng Nobunaga` / `Anh hai`.
+* **Mọi người xung quanh gọi Nobunaga**: Gia thần gọi là `Chúa công`, `Đại nhân Nobunaga`; Kouhime gọi là `Cha`.
 * **Xưng hô với Rance**: Nobunaga xưng `ta`, gọi Rance là `tên sâu bọ`. Rance xưng `tao` / `bố mày`, gọi Nobunaga là `tên quỷ` / `Nobunaga`.
 
 #### 31. Oda Kouhime (香姫 - こうひめ)
-* **Thân phận**: Tiểu công chúa em gái út Nobunaga, ngây thơ, dịu dàng, trong sáng. Coi Rance như bầu trời và đấng cứu thế của mình.
+* **Thân phận**: Con gái Nobunaga, tiểu công chúa ngây thơ, dịu dàng, trong sáng. Coi Rance như bầu trời và đấng cứu thế của mình. (Quyết định 2026-10-18: text nhất quán xây dựng Kou là con gái, không phải em gái.)
 * **Người kể chuyện / Lời dẫn**: `Cô bé`, `Kouhime`, `tiểu công chúa`, `nàng công chúa nhỏ`.
 * **Mọi người xung quanh gọi Kouhime**: Gia thần gọi là `Công chúa Kou`, `Tiểu thư Kouhime`; Isoroku gọi là `Kou-chan` / `Tiểu thư Kou`.
+* **Xưng hô với Nobunaga**: Kouhime gọi `Cha`, xưng `Con`.
 * **Xưng hô với Rance**: Kouhime xưng `Kou` / `em`, gọi Rance là `Chủ nhân Rance`. Rance xưng `ta`, gọi `Kou` / `Kouhime` / `em`.
 
 #### 32. Yamamoto Isoroku (山本五十六)
@@ -500,7 +501,7 @@ Bảng dưới đây tổng hợp toàn diện đại từ của **Người kể
 * **Kentarou**: Bạn trai Miki, nắm giữ Thánh Đao Nikkou. Kình địch cay đắng nhất của Rance vì Rance luôn ve vãn Miki.
   - Người kể chuyện gọi là: `Chàng trai`, `cậu ta`, `Kentarou`, `người cầm thánh đao`.
   - Miki gọi là: `Kentarou-kun` / `Kentarou`. Nikkou gọi là: `Chủ nhân Kentarou`.
-  - Xưng hô với Rance: Kentarou xưng `tao`, gọi Rance là `Mày` / `Tên Rance chết tiệt!`. Rance xưng `tao` / `bố mày`, gọi Kentarou là `thằng ranh` / `mày`.
+  - Xưng hô với Rance: Kentarou xưng `tôi` (chỉ xưng `tao` khi tức giận), gọi Rance là `Mày` / `Tên Rance chết tiệt!`. Rance xưng `tao` / `bố mày`, gọi Kentarou là `thằng ranh` / `mày`.
 * **Thánh Đao Nikkou (日光)**: Thánh kiếm biết nói, nghiêm trang, đối địch tư tưởng với Ma kiếm Chaos. Lời dẫn gọi là `thanh thánh đao`, `Nikkou`. Xưng `ta` / `bản đao`, gọi Rance là `kẻ dâm tặc`.
 
 #### 36. Kayblis & Camilla
@@ -515,13 +516,13 @@ Bảng dưới đây tổng hợp toàn diện đại từ của **Người kể
 * **Thân phận**: Nữ Ma nhân tạo Hộ vệ. Ban đầu khinh miệt loài người sâu bọ; sau khi thua cược bị Rance đè ra làm tình và dần mê mẩn khoái cảm nhục dục của hắn.
 * **Người kể chuyện / Lời dẫn**: `Nàng`, `Satella`, `ả ma nhân kiêu hãnh`, `nữ ma nhân hộ vệ`.
 * **Mọi người xung quanh gọi Satella**: Hornet gọi là `Satella`; Ma quân gọi là `Đại nhân Satella`; Sill gọi là `Cô Satella`.
-* **Xưng hô với Rance**: Satella xưng `ta`, gọi Rance là `Tên con người hạ đẳng` (về sau gọi `Rance`). Rance xưng `ta`, gọi `Satella` / `ả ma nhân`.
+* **Xưng hô với Rance**: Satella xưng `tôi`, gọi Rance là `anh` (quyết định 2026-10-18). Rance xưng `ta`, gọi `Satella` / `ả ma nhân`.
 
 #### 39. Các Ma Nhân Khác
 * **Saizel & Hawzel**: Cặp chị em có cánh Ngụy Thiên Thần. Lời dẫn gọi là `hai ả`, `chị em thiên thần giả`.
 * **Warg**: Ma nhân mộng giới hình hài bé gái ma quái. Lời dẫn gọi là `nó`, `Warg`.
 * **Galtia**: Ma nhân háu ăn to lớn chỉ mê ẩm thực. Lời dẫn gọi là `gã`, `tên ma nhân háu ăn`.
-* **Megalas**: Ma nhân tộc Horus bay lượn siêu thanh. Lời dẫn gọi là `hắn`, `Megalas`.
+* **Meglass**: Ma nhân tộc Horus bay lượn siêu thanh. Lời dẫn gọi là `hắn`, `Meglass`.
 * **Medusa**: Ma nhân xà nữ ánh nhìn hóa đá. Lời dẫn gọi là `ả`, `Medusa`, `ả rắn độc`.
 * **Kesselring**: Ma nhân ma cà rồng quý tộc cai quản bóng đêm. Lời dẫn gọi là `hắn`, `bá tước bóng đêm Kesselring`.
 * **Babora**: Ma nhân khổng lồ như ngọn núi. Lời dẫn gọi là `tên cự thạch Babora`.
@@ -735,6 +736,8 @@ Phân cảnh ân ái 18+ là linh hồn của dòng game Rance. Các lỗi máy 
 - **Leazas Soldiers (リーザス兵)**: Binh sĩ Leazas
 - **Leazas Mages (リーザス魔術師)**: Pháp sư Leazas
 - **Red Army (赤軍)**: Xích Quân (Đạo quân xung kích của Rick)
+- **White Army (白軍)**: Bạch Quân (Đạo quân của Tướng quân Ex)
+- **Blue Army (青軍)**: Thanh Quân (quyết định chuẩn hóa 2026-10-18)
 - **Helman Knights (ヘルマン騎士)**: Kỵ sĩ Helman
 - **Magic Warrior (魔法戦士)**: Ma chiến binh (vừa cận chiến vừa dùng ma pháp)
 - **Martial Artist / Fist Fighter (武道家)**: Võ sĩ quyền cước (Patton)
@@ -742,7 +745,7 @@ Phân cảnh ân ái 18+ là linh hồn của dòng game Rance. Các lỗi máy 
 - **JAPAN Archers (JAPAN弓兵)**: Cung thủ JAPAN (Isoroku)
 - **Holy Knights (聖騎士)**: Thánh kỵ sĩ AL Giáo
 - **False Angel Knights (偽天使騎士)**: Ngụy thiên thần (chị em Seizel & Hawzel)
-- **Horus (ホルス)**: Tộc người chim Horus (Megalas)
+- **Horus (ホルス)**: Tộc người chim Horus (Meglass)
 - **Haniwa (ハニー)**: Đội quân tượng đất Haniwa
 - **Mercenary (傭兵)**: Lính đánh thuê (Louis, Cecil)
 - **Robot Freak (カラクリ)**: Người máy chiến đấu Freak & Hanty
@@ -759,7 +762,7 @@ Phân cảnh ân ái 18+ là linh hồn của dòng game Rance. Các lỗi máy 
 - **Whirlwind Shot (疾風打ち)**: Bắn Lốc Xoáy (Yamamoto Isoroku)
 - **Evil-Purifying Overlord's Light**: Ánh sáng Bá vương Thanh tẩy Tà ác (Gandhi)
 - **Soaring Dove (飛翔鳩)**: Nhạn Phi Song Đao (Rolex)
-- **High Speed (ハイスピード)**: Tốc độ cao (Megalas)
+- **High Speed (ハイスピード)**: Tốc độ cao (Meglass)
 - **Daimyo Procession (大名行列)**: Rước Daimyo (Đại vương Mars)
 - **Vanish Bomb (バニッシュボム)**: Bom biến mất (Ninja)
 - **Ice Arrow (氷の矢)**: Mũi tên băng (Melfeis)
@@ -878,12 +881,12 @@ HÃY TUÂN THỦ NGHIÊM NGẶT CÁC NGUYÊN TẮC BẮT BUỘC SAU:
 - Nữ hoàng Lia: Xưng "thiếp/em", gọi Rance là "Chàng Rance/Chàng/Chàng yêu". Gọi Maris là "Maris". Gọi Sill là "Sill/con bé nô lệ".
 - Maris Amaryllis: Xưng "tôi/thần", gọi Rance là "Bệ hạ Rance/Bệ hạ". Gọi Lia là "Nữ hoàng Lia/Bệ hạ".
 - Shizuka Masou: Xưng "tôi", gọi Rance là "Tên khốn Rance/Tên dâm tặc". Gọi Maria là "Maria". Gọi Magic là "Công chúa Magic".
-- Kentou Kanami: Xưng "tôi", gọi Rance là "Tên Rance khốn khiếp!". Gọi Lia là "Bệ hạ". Gọi Suzume là "Con điên Suzume".
+- Kentou Kanami: Xưng "tôi", gọi Rance là "anh" (chỉ mắng "Tên Rance khốn khiếp!" khi bị ức hiếp). Gọi Lia là "Bệ hạ". Gọi Suzume là "Con điên Suzume".
 - Maria Custard: Xưng "tôi", gọi Rance là "Rance". Gọi Shizuka là "Shizuka".
 - Yamamoto Isoroku: Xưng "thiếp/tôi", gọi Rance là "Tướng quân Rance/Chàng". Gọi Kouhime là "Công chúa Kou".
 - Sheila Helman: Xưng "tôi", gọi Rance là "Ngài Rance". Gọi Patton là "Huynh trưởng Patton".
 - Patton Misurugi: Xưng "ta/tôi", gọi Rance là "Rance". Gọi Hubert là "Hubert". Gọi Sheila là "Sheila/Muội muội".
-- Ogawa Kentarou: Xưng "tao", gọi Rance là "Mày/Tên Rance chết tiệt". Gọi Miki là "Miki".
+- Ogawa Kentarou: Xưng "tôi" (chỉ xưng "tao" khi tức giận), gọi Rance là "Mày/Tên Rance chết tiệt". Gọi Miki là "Miki".
 - Kurusu Miki: Xưng "em/Miki", gọi Rance là "Chú Rance/Anh Rance". Gọi Kentarou là "Kentarou-kun".
 - Tướng sĩ Leazas (Rick, Barres, Cordoba, Ex): Xưng "thần/tôi", gọi Rance là "Bệ hạ/Ngài Rance".
 
@@ -899,7 +902,7 @@ HÃY TUÂN THỦ NGHIÊM NGẶT CÁC NGUYÊN TẮC BẮT BUỘC SAU:
 - Sill -> Giữ nguyên "Sill" (KHÔNG dịch thành "ngưỡng cửa" hay "bệ cửa").
 - Magic The Gandhi -> Công chúa "Magic" (KHÔNG dịch thành "Phép thuật").
 - Cream -> Nữ quân sư "Cream" (KHÔNG dịch thành "Kem").
-- Cell / Seru -> "Cell" (KHÔNG dịch thành "Tế bào" hay "Di động").
+- Sel (セル) -> "Sel" (KHÔNG dịch thành "Tế bào" hay "Di động"; thống nhất dùng "Sel", không dùng "Cell" — quyết định 2026-10-18).
 - Papaya Server -> Pháp sư "Papaya" (KHÔNG dịch thành quả "Đu đủ").
 - Chaos -> Ma kiếm "Chaos" (KHÔNG dịch thành "Hỗn loạn").
 - Café Artful -> Quý cô "Café" (KHÔNG dịch thành "Quán cà phê").
@@ -919,7 +922,7 @@ CORRECTION_RULES = [
     # 2. Sửa lỗi tên riêng bị dịch thô
     (r'Phép thuật「', 'Magic「'),
     (r'Kem「', 'Cream「'),
-    (r'Tế bào「', 'Cell「'),
+    (r'Tế bào「', 'Sel「'),
     (r'Đu đủ「', 'Papaya「'),
     (r'Hỗn loạn「', 'Chaos「'),
     (r'Quán cà phê「', 'Café「'),
@@ -941,3 +944,25 @@ CORRECTION_RULES = [
     (r'Hahaha+', 'Gahahahaha!'),
 ]
 ```
+
+---
+
+## Quyết định bổ sung 2026-10-18 (đợt G-series)
+
+1. **Thanh Quân**: tên chuẩn cho Blue Army (青軍), theo mẫu Bạch Quân.
+2. **Papaya là nữ**: người kể dùng `nàng`/`cô`; Rance gọi `cô`; Papaya xưng `tôi`, gọi Rance `cậu Rance`.
+3. **Kite**: chuẩn hóa tên nhân vật thành `Kite` (không dùng `Diều`/`Cánh Diều`).
+4. **Calorie**: chuẩn chính tả tên nhân vật (không dùng `Calory`).
+5. **Meglass**: chuẩn chính tả (không dùng `Megalas`).
+6. **Menu chọn tên G-72** (`Ví dụ`, `Shinoda`, `Cream`, `Arcoatat`, `Bars`): giữ nguyên văn, không chuẩn hóa thêm.
+7. **Sel**: thống nhất dùng `Sel` (không dùng `Cell`); đã sửa toàn bộ file cũ.
+8. **Isoroku/Chizuko** gọi Rance là `Ngài Rance` (không dùng `Vua Rance`).
+9. **Rafalia** xưng `tôi`.
+10. **Cream** (bỏ `chị đây`) và **Gengorou** (bỏ `em`) — sửa toàn file theo quy tắc.
+11. **Satella**: xưng `tôi`, gọi Rance `anh`.
+12. **Leila**: khi Rance yêu cầu được gọi tên trần thì giữ theo tình huống.
+13. **H-scene**: giữ `anh` của người kể cho Rance (không đổi thành `hắn`).
+14. **Anasel** chống đối → Rance gọi `cô`.
+15. **Tượng thanh garble** `）xxx）` → chuẩn hóa thành `(xxx)`.
+16. **Magic ↔ Chizuko** (quyết định 2026-10-18): Magic xưng `tôi`, gọi Chizuko `cô`; Chizuko xưng `ta`, gọi Magic `cô`.
+17. **Kouhime là con gái Nobunaga** (quyết định 2026-10-18, sửa §31): Kouhime gọi Nobunaga `Cha`, xưng `Con` (không phải em gái/anh hai).

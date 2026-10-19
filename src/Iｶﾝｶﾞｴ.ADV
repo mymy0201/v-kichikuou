@@ -65,14 +65,14 @@
 	{(VAR0365 = 10) + (VAR0365 = 11):
 		\L_00c59:
 		ZH 1:
-		'Tiểu thư,'
+		'Sill,'
 		R
-		'tiểu thư... Nàng bị giam'
+		'Sill... Em bị giam'
 		R
 		'trong ngục tối, nên...'
 		\L_00d62:
 		ZH 1:
-		'Gahahahaha!, ta có thể đụ'
+		'Gahahahaha! Ta có thể đụ'
 		R
 		'nàng bất cứ khi nào ta muốn.'
 		\L_00d62:
@@ -303,7 +303,7 @@
 		ZH 1:
 		'Con của Pastel,'
 		R
-		'Reset... Nó là con gái ta.'
+		'Reset... Con bé là con gái ta.'
 		R
 		!VAR0001 : VAR0356 - VAR0517!
 		{VAR0001 \ 0:
@@ -486,7 +486,7 @@
 		ZH 1:
 		'Đang có một cơn sốt'
 		R
-		'ổnu ở tầng 10 của Ngục tối'
+		'ở tầng 10 của Ngục tối'
 		R
 		'Kẻ thù Tự nhiên gần Cossack.'
 		\L_00d62:
@@ -539,7 +539,7 @@
 		R
 		'nàng vào hậu cung để chắc'
 		R
-		'chắn rằng mình không quên.'
+		'chắn rằng ta không quên.'
 		\L_00d62:
 		{VAR0560 > 7:
 			ZH 1:
@@ -591,9 +591,9 @@
 	{(VAR0435 = 1) + (VAR0435 = 2):
 		\L_00c59:
 		ZH 1:
-		'Ta cần Thanh kiếm'
+		'Ta cần Ma kiếm'
 		R
-		'hỏng, Hỗn loạn... Cell'
+		'Chaos... Sel'
 		R
 		'không đưa nó cho ta.'
 		\L_00d62:
@@ -609,7 +609,7 @@
 	{(VAR0435 = 3) * (VAR0451 = 0):
 		\L_00c59:
 		ZH 1:
-		'Cell đang cảm thấy'
+		'Sel đang cảm thấy'
 		R
 		'chán nản vì lỗi của nàng'
 		R
