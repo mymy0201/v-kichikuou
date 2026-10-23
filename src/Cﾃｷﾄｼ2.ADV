@@ -25,7 +25,7 @@
 		ZH 1:
 		'Kinh tế: ?? Phòng thủ:'
 		R
-		'?? Khu vực chiến đấu: ??'
+		'?? Địa hình giao chiến: ??'
 	}
 	{VAR0231 = 1:
 		ZH 1:
@@ -36,7 +36,7 @@
 		H 0, VAR0133:
 		ZH 1:
 		R
-		'Khu vực chiến đấu:'
+		'Địa hình giao chiến:'
 		H 0, VAR0134:
 	}
 *L_00107:
@@ -48,7 +48,7 @@
 	{VAR0518 \ 0:
 		ZH 1:
 		$L_00170$
-		'Thao lược Ninja'
+		'Hoạt động Ninja'
 		$
 	}
 	ZH 1:
@@ -72,7 +72,7 @@
 	}
 	{VAR0130 = 3:
 		ZH 1:
-		'（Thành phố-bang độc lập）'
+		'（Thành bang độc lập）'
 	}
 	{VAR0130 = 4:
 		ZH 1:
@@ -84,7 +84,7 @@
 	}
 	{VAR0130 = 6:
 		ZH 1:
-		'（NHẬT BẢN'
+		'（JAPAN）'
 	}
 	{VAR0130 = 7:
 		ZH 1:
@@ -104,7 +104,7 @@
 	}
 	{VAR0130 = 11:
 		ZH 1:
-		'（Chủ nghĩa AL）'
+		'（Giáo hội AL）'
 	}
 	ZH 1:
 	R

@@ -394,7 +394,7 @@
 			\L_00dcf:
 			\L_00deb:
 			ZH 1:
-			'（Chó Tange） Đứng... Đứng lên...'
+			'(Chó Tange) Dậy... Dậy đi...'
 			R
 			X 1:
 			'!'
@@ -402,13 +402,13 @@
 			\L_00e93:
 			\L_00db3:
 			ZH 1:
-			'Nhờ Tình Yêu'
+			'Nhờ tình yêu Chú chó Tange,'
 			R
-			'Của Chú Chó Tange,'
+			''
 			X 1:
-			'có thể di'
+			' được'
 			R
-			'chuyển một lần nữa.'
+			'hành động tiếp.'
 			\L_00ea0:
 			\L_00e93:
 			\L_00ddd:
@@ -467,10 +467,14 @@
 	!VAR0001 : VAR0001 + VAR0074!
 	\L_00db3:
 	ZH 1:
-	'Sơn tặc Rance Tiền của:'
+	'Băng sơn tặc Rance'
+	R
+	'Tiền: '
 	H 0, VAR0519:
 	ZH 1:
-	'00K VÀNG Bộ hạ:'
+	'00K VÀNG'
+	R
+	'Bộ hạ: '
 	H 0, VAR0001:
 	ZH 1:
 	R

@@ -104,7 +104,7 @@
 			X VAR0198 + (VAR0578 - 1) * 3:
 			T 640 + 11 + 202, 400 + 273 + 80:
 			ZH 1:
-			'đang trang bị'
+			'sẽ trang bị'
 			T 640 + 11 + 202, 400 + 273 + 96:
 			ZH 1:
 			'Chọn vật phẩm nào?'
@@ -118,7 +118,7 @@
 			CM 6, 6, 314, 196, 640 + 11, 400 + 273, 186, 116, 0:
 			T 640 + 11 + 202, 400 + 273 + 64:
 			ZH 1:
-			'Trang bị'
+			'Trang bị: '
 			R
 			T 640 + 11 + 202, 400 + 273 + 80:
 			ZH 1:
@@ -252,11 +252,12 @@
 				\L_010f7:
 				ZH 1:
 				X VAR0198 + (VAR0154 - 1) * 3:
-				'thiết bị của,'
-				X VAR0201 + VAR0101 - 1:
-				', không thể'
+				' giữ:'
 				R
-				'cởi trang bị được.'
+				X VAR0201 + VAR0101 - 1:
+				''
+				R
+				'Không thể tháo bỏ.'
 				\L_0128b:
 				\L_0127e:
 				@L_006b1:
@@ -266,9 +267,11 @@
 				\L_010f7:
 				ZH 1:
 				X VAR0198 + (VAR0154 - 1) * 3:
-				'thiết bị của,'
+				' giữ:'
+				R
 				X VAR0201 + VAR0577 - 1:
-				', không thể tháo bỏ.'
+				R
+				'Không thể tháo bỏ.'
 				\L_0128b:
 				\L_0127e:
 				@L_006b1:
@@ -288,7 +291,8 @@
 				\L_010f7:
 				ZH 1:
 				X VAR0201 + VAR0101 - 1:
-				'không thể tháo bỏ.'
+				R
+				'Không thể tháo bỏ.'
 				\L_0128b:
 				\L_0127e:
 				@L_006b1:
@@ -298,7 +302,8 @@
 				\L_010f7:
 				ZH 1:
 				X VAR0201 + VAR0160 - 1:
-				'không thể tháo bỏ.'
+				R
+				'Không thể tháo bỏ.'
 				\L_0128b:
 				\L_0127e:
 				@L_006b1:
@@ -307,7 +312,7 @@
 				\L_0119e:
 				\L_010f7:
 				ZH 1:
-				'Đã được trang bị.'
+				'Đã trang bị sẵn rồi.'
 				\L_0128b:
 				\L_0127e:
 				@L_006b1:
@@ -319,12 +324,12 @@
 					\L_0111c:
 					ZH 1:
 					X VAR0201 + VAR0101 - 1:
-					'được trang bị để'
+					''
 					R
+					'Người giữ: '
 					X VAR0198 + (VAR0154 - 1) * 3:
-					', nhưng ngươi có'
 					R
-					'muốn tháo nó ra không?'
+					'Tháo ra không?'
 					\L_00a3f:
 					\L_0127e:
 					{VAR0021 = 0:
@@ -338,15 +343,15 @@
 					\L_0111c:
 					ZH 1:
 					X VAR0201 + VAR0160 - 1:
-					'được trang bị để'
+					''
 					R
 					X VAR0198 + (VAR0150 - 1) * 3:
-					', nhưng ngươi có'
+					' đang giữ.'
 					R
-					'muốn gỡ bỏ nó và trang bị'
+					'Chuyển cho:'
 					R
 					X VAR0198 + (VAR0154 - 1) * 3:
-					'thay vào đó?'
+					'?'
 					\L_00a3f:
 					\L_0127e:
 					{VAR0021 = 0:
@@ -550,14 +555,14 @@
 	', '
 	H 5, VAR0074:
 	ZH 1:
-	'Binh lực'
+	' quân'
 	R
 	ZM 12:
 	ZH 1:
 	'　　'
 	{VAR0086 = 0:
 		ZH 1:
-		'［Đội quân tấn công］'
+		'［Xung kích binh］'
 	}
 	{VAR0086 = 1:
 		ZH 1:
@@ -569,23 +574,23 @@
 	}
 	{VAR0086 = 3:
 		ZH 1:
-		'［Chiến binh phép thuật］'
+		'［Ma pháp chiến sĩ］'
 	}
 	{VAR0086 = 4:
 		ZH 1:
-		'［Quái thú ma］'
+		'［Huyễn thú］'
 	}
 	{VAR0086 = 10:
 		ZH 1:
-		'［Quỷ tấn công］'
+		'［Ma Nhân xung kích］'
 	}
 	{VAR0086 = 11:
 		ZH 1:
-		'［Quỷ thuật］'
+		'［Ma Nhân phép thuật］'
 	}
 	{VAR0101 \ 0:
 		ZH 1:
-		'Trang bị'
+		' '
 		X VAR0201 + VAR0101 - 1:
 	}
 	ZM 12:
@@ -598,7 +603,7 @@
 	ZM 12:
 	{VAR0152 = 0:
 		ZH 1:
-		'［Không thể trang bị được］'
+		'［Không thể trang bị］'
 	}
 	{VAR0152 \ 0:
 		ZH 1:
@@ -606,7 +611,7 @@
 		{VAR0150 \ 100:
 			ZH 1:
 			X VAR0198 + (VAR0150 - 1) * 3:
-			'được trang bị'
+			' đang giữ'
 		}
 		{VAR0150 = 100:
 			ZH 1:

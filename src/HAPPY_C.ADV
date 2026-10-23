@@ -190,7 +190,7 @@
 		@L_00546:
 	}
 	ZH 1:
-	'Uh oooh (lol)'
+	'Nguy rồi! (cười)'
 	@L_00546:
 	{(VAR0202 > 14) * (VAR0202 < 164) * (VAR0203 > 10) * (VAR0203 < 364):
 		@L_00300:
@@ -247,7 +247,7 @@
 		@L_0067e:
 	}
 	ZH 1:
-	'Lạ'
+	'Lạ thật.'
 *L_0067e:
 	CC VAR0002, 0, 640, 400, 0, 0:
 	!VAR0003 : 0!
@@ -275,7 +275,7 @@
 		@L_00724:
 	}
 	ZH 1:
-	'Nếu điều này xảy ra,'
+	'Hiện dòng này là lỗi rồi.'
 	\L_009d8:
 	@L_00724:
 *L_00724:
@@ -311,13 +311,13 @@
 		ZH 1:
 		MS 1, "　":
 		R
-		MS 2, "　　Undiscovered":
+		MS 2, "Chưa phát hiện":
 		R
 		MS 3, "　":
 		R
 		MS 4, "　":
 		R
-		MS 5, "　　Undiscovered　":
+		MS 5, "Chưa phát hiện":
 		R
 		MS 6, "　":
 		@L_008e4:
@@ -326,7 +326,7 @@
 		ZH 1:
 		MS 4, "　":
 		R
-		MS 5, "　Undiscovered　":
+		MS 5, "Chưa phát hiện":
 		R
 		MS 6, "　":
 		@L_008e4:
@@ -335,7 +335,7 @@
 		ZH 1:
 		MS 1, "　":
 		R
-		MS 2, "　Undiscovered　":
+		MS 2, "Chưa phát hiện":
 		R
 		MS 3, "　":
 		@L_008e4:
@@ -344,7 +344,7 @@
 		@L_008e4:
 	}
 	ZH 1:
-	'điều này là xấu'
+	'Nguy to rồi.'
 *L_008e4:
 	T 246, 492:
 	ZH 1:
@@ -393,45 +393,45 @@
 	{VAR0010 = 0:
 		!VAR0516 : 2!
 		ZH 1:
-		MS 1, "Rudrasaum was put to sleep,":
+		MS 1, "Ru Rudrasaum ngủ, thế giới yên":
 		R
-		MS 2, "bringing peace. Then she went":
+		MS 2, "bình. Sau đó nàng lại lên đường":
 		R
-		MS 3, "on another journey with Rance.":
+		MS 3, "cùng Rance.":
 		R
-		MS 4, "Madame Gorch took her out of":
+		MS 4, "Bị giam ở Volgo Z, rồi bị Madame":
 		R
-		MS 5, "Volgo Z and she died in a fit":
+		MS 5, "Gorch đưa đi và chết trong điên":
 		R
-		MS 6, "of insanity.":
+		MS 6, "loạn.":
 		\0:
 	}
 	{VAR0010 = 1:
 		!VAR0516 : 5!
 		ZH 1:
-		MS 1, "Rudrasaum was put to sleep,":
+		MS 1, "Ru Rudrasaum ngủ, thế giới yên":
 		R
-		MS 2, "bringing peace. Then she and":
+		MS 2, "bình. Sau đó nàng cùng Rance cai":
 		R
-		MS 3, "Rance ran the world together.":
+		MS 3, "trị thế giới.":
 		R
-		MS 4, "Rance abandoned his country":
+		MS 4, "Rance bỏ nàng lẫn đất nước để đi":
 		R
-		MS 5, "to go on an adventure with":
+		MS 5, "phiêu lưu cùng Sill.":
 		R
-		MS 6, "Sill.":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 2:
 		!VAR0516 : 6!
 		ZH 1:
-		MS 1, "Lia was happy.":
+		MS 1, "Lia đã được hạnh phúc.":
 		R
 		MS 2, "":
 		R
 		MS 3, "":
 		R
-		MS 4, "Lia was unhappy.":
+		MS 4, "Lia rơi vào bất hạnh.":
 		R
 		MS 5, "":
 		R
@@ -473,59 +473,59 @@
 	{VAR0010 = 5:
 		!VAR0516 : 9!
 		ZH 1:
-		MS 1, "Ran off in a flight of love":
+		MS 1, "Bỏ trốn vì tình cùng Code, điệp":
 		R
-		MS 2, "with Code, a Zeth Army spy.":
+		MS 2, "viên quân Zeth.":
 		R
-		MS 3, "　":
+		MS 3, "":
 		R
-		MS 4, "Due to screwing up a job, she":
+		MS 4, "Phạm lỗi khi làm nhiệm vụ, bị":
 		R
-		MS 5, "was captured by the enemy.":
+		MS 5, "địch bắt giữ.":
 		R
-		MS 6, "　":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 6:
 		!VAR0516 : 7!
 		ZH 1:
-		MS 1, "Confessed to Rick and got in":
+		MS 1, "Bày tỏ được tình cảm với Rick,":
 		R
-		MS 2, "a relationship with him.":
+		MS 2, "hai người trở thành đôi lứa.":
 		R
-		MS 3, "　":
+		MS 3, "":
 		R
-		MS 4, "Married off to Nobunaga Oda,":
+		MS 4, "Bị gả cho vua JAPAN, Nobunaga":
 		R
-		MS 5, "ruler of JAPAN, as a tool to":
+		MS 5, "Oda, làm công cụ thiết lập liên":
 		R
-		MS 6, "create an alliance":
+		MS 6, "minh.":
 		\0:
 	}
 	{VAR0010 = 7:
 		!VAR0516 : 8!
 		ZH 1:
-		MS 1, "Freed herself of Zarak, the":
+		MS 1, "Dứt bỏ Zarak, kẻ đã lừa dối":
 		R
-		MS 2, "man that manipulated her, and":
+		MS 2, "mình, nàng sống hướng về phía":
 		R
-		MS 3, "moved on with her life.":
+		MS 3, "trước.":
 		R
-		MS 4, "When the world was in danger,":
+		MS 4, "Khi thế giới lâm nguy, nàng bị":
 		R
-		MS 5, "Zarak betrayed her and she":
+		MS 5, "người yêu Zarak phản bội, mới":
 		R
-		MS 6, "learned she’d been deceived.":
+		MS 6, "biết mình bị lừa.":
 		\0:
 	}
 	{VAR0010 = 8:
 		!VAR0516 : 10!
 		ZH 1:
-		MS 1, "After gaining much experience,":
+		MS 1, "Kinh nghiệm qua nhiều trận được":
 		R
-		MS 2, "her father approved of her":
+		MS 2, "cha là Barres công nhận khi cùng":
 		R
-		MS 3, "when they fought together.":
+		MS 3, "xuất quân.":
 		R
 		MS 4, "Impregnated by Rance in the":
 		R
@@ -537,11 +537,11 @@
 	{VAR0010 = 9:
 		!VAR0516 : 11!
 		ZH 1:
-		MS 1, "The Uncurse Spring returned":
+		MS 1, "Suối Giải Nguyền giảm ma lực,":
 		R
-		MS 2, "her body to normal. She later":
+		MS 2, "khôi phục cơ thể. Sau đó nàng":
 		R
-		MS 3, "happily married a subordinate.":
+		MS 3, "hạnh phúc lấy một thuộc hạ.":
 		R
 		MS 4, "Fucked by Rance, holding off":
 		R
@@ -553,27 +553,27 @@
 	{VAR0010 = 10:
 		!VAR0516 : 4!
 		ZH 1:
-		MS 1, "After being rescued by Rance,":
+		MS 1, "Được Rance cứu, nàng gặp lại anh":
 		R
-		MS 2, "she reunited with Bound.":
+		MS 2, "trai thất lạc Bound. Cả hai cùng":
 		R
-		MS 3, "They lived to Leazas together.":
+		MS 3, "tới Leazas.":
 		R
-		MS 4, "She was taken from Volgo Z by":
+		MS 4, "Bị giam ở Volgo Z, rồi bị Madame":
 		R
-		MS 5, "Madame Gorch and died in a fit":
+		MS 5, "Gorch đưa đi và chết trong điên":
 		R
-		MS 6, "of insanity.":
+		MS 6, "loạn.":
 		\0:
 	}
 	{VAR0010 = 11:
 		!VAR0516 : 15!
 		ZH 1:
-		MS 1, "She was rescued when the":
+		MS 1, "Được cứu khi băng cướp bị tiêu":
 		R
-		MS 2, "thieves were exterminated and":
+		MS 2, "diệt. Sau đó sống yên bình.":
 		R
-		MS 3, "went on to live in peace.":
+		MS 3, "":
 		R
 		MS 4, "Freed once only to recaptured,":
 		R
@@ -585,27 +585,27 @@
 	{VAR0010 = 12:
 		!VAR0516 : 50!
 		ZH 1:
-		MS 1, "Launched into space by the":
+		MS 1, "Tai nạn tàu Tulip 100 đưa nàng":
 		R
-		MS 2, "Tulip 100, but the rest of her":
+		MS 2, "ra vũ trụ, nhưng được ở riêng":
 		R
-		MS 3, "life was spent with Rance.":
+		MS 3, "bên Rance.":
 		R
-		MS 4, "Caught in an explosion caused":
+		MS 4, "Bị cuốn vào tai nạn nổ khi":
 		R
-		MS 5, "by an accident during research":
+		MS 5, "nghiên cứu, nàng không may thiệt":
 		R
-		MS 6, "and tragically died.":
+		MS 6, "mạng.":
 		\0:
 	}
 	{VAR0010 = 13:
 		!VAR0516 : 49!
 		ZH 1:
-		MS 1, "Defeated Ragarl and lived":
+		MS 1, "Hạ kẻ thù Ragarl, sống vô định":
 		R
-		MS 2, "aimlessly for a while, then":
+		MS 2, "một thời gian rồi lên đường tìm":
 		R
-		MS 3, "left to find a new purpose.":
+		MS 3, "mục tiêu mới.":
 		R
 		MS 4, "Lost to Nagi and was captured.":
 		R
@@ -639,11 +639,11 @@
 		R
 		MS 3, "men and women every day.":
 		R
-		MS 4, "Contracted the strange disease":
+		MS 4, "Mắc quái bệnh genfluenza, lặng":
 		R
-		MS 5, "genfluenza and met a silent":
+		MS 5, "lẽ qua đời.":
 		R
-		MS 6, "end.":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 16:
@@ -665,17 +665,17 @@
 	{VAR0010 = 17:
 		!VAR0516 : 32!
 		ZH 1:
-		MS 1, "Passed her days happily in":
+		MS 1, "Sống tương đối hạnh phúc trong":
 		R
-		MS 2, "Rance’s harem.":
+		MS 2, "hậu cung Rance.":
 		R
-		MS 3, "　":
+		MS 3, "":
 		R
-		MS 4, "Captured by the DX Association":
+		MS 4, "Bị Hiệp hội DX bắt khi đang lang":
 		R
-		MS 5, "while she was wandering around":
+		MS 5, "thang trong phố.":
 		R
-		MS 6, "town.":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 18:
@@ -687,27 +687,27 @@
 		R
 		MS 3, "later and ran it again.":
 		R
-		MS 4, "Married Shinoda, a man she":
+		MS 4, "Bị ép làm vợ Shinoda, người đàn":
 		R
-		MS 5, "doesn’t love.":
+		MS 5, "ông mình chẳng yêu.":
 		R
-		MS 6, "　":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 19:
 		!VAR0516 : 63!
 		ZH 1:
-		MS 1, "From exploring dungeons many":
+		MS 1, "Qua nhiều chuyến thám hiểm mê":
 		R
-		MS 2, "times, she made numerous":
+		MS 2, "cung, nàng có vô số khám phá.":
 		R
-		MS 3, "discoveries.":
+		MS 3, "":
 		R
-		MS 4, "Bitten by a monster while":
+		MS 4, "Bị quái vật cắn trọng thương khi":
 		R
-		MS 5, "searching a dungeon. She died":
+		MS 5, "thám hiểm, lại không có bệnh":
 		R
-		MS 6, "because there was no hospital.":
+		MS 6, "viện nên chết.":
 		\0:
 	}
 	{VAR0010 = 20:
@@ -729,123 +729,123 @@
 	{VAR0010 = 21:
 		!VAR0516 : 22!
 		ZH 1:
-		MS 1, "Became human thanks to":
+		MS 1, "Nhờ ma lực Aladdin, nàng thành":
 		R
-		MS 2, "Aladdin’s power and happily":
+		MS 2, "người và sống hạnh phúc ở thành":
 		R
-		MS 3, "spent her time in the castle.":
+		MS 3, "Leazas.":
 		R
-		MS 4, "Because Rance gave her no":
+		MS 4, "Đến thành Leazas nhưng bị Rance":
 		R
-		MS 5, "attention for a long time,":
+		MS 5, "bỏ mặc quá lâu, nàng lại hóa":
 		R
-		MS 6, "she turned back into a doll.":
+		MS 6, "thành búp bê.":
 		\0:
 	}
 	{VAR0010 = 22:
 		!VAR0516 : 39!
 		ZH 1:
-		MS 1, "Reunited with her father":
+		MS 1, "Helman sụp đổ, nàng gặp lại cha":
 		R
-		MS 2, "after Helman fell. Her husband":
+		MS 2, "Lelyukov. Dù mất chồng vì chiến":
 		R
-		MS 3, "died, but she lived happily.":
+		MS 3, "tranh, vẫn sống hạnh phúc.":
 		R
-		MS 4, "Worried about her father":
+		MS 4, "Lo cho cha Lelyukov bị Leazas":
 		R
-		MS 5, "after he was captured, she":
+		MS 5, "bắt, nàng cũng tới bên Rance.":
 		R
-		MS 6, "gave herself to Rance, too.":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 23:
 		!VAR0516 : 28!
 		ZH 1:
-		MS 1, "When the Helman 5th Army was":
+		MS 1, "Quân đoàn 5 Helman sụp đổ, nàng":
 		R
-		MS 2, "destroyed, she escaped with":
+		MS 2, "nhân hỗn loạn ôm quân phí bỏ":
 		R
-		MS 3, "war funds and hid away.":
+		MS 3, "trốn, rồi ẩn náu.":
 		R
-		MS 4, "Despite her efforts to suck up":
+		MS 4, "Vào hậu cung để lấy lòng Rance,":
 		R
-		MS 5, "to Rance, she was sold off to":
+		MS 5, "nhưng lại bị bán cho Hiệp hội":
 		R
-		MS 6, "the DX Association.":
+		MS 6, "DX.":
 		\0:
 	}
 	{VAR0010 = 24:
 		!VAR0516 : 29!
 		ZH 1:
-		MS 1, "When the Helman 5th Army was":
+		MS 1, "Quân đoàn 5 Helman sụp đổ, nàng":
 		R
-		MS 2, "destroyed, she escaped with":
+		MS 2, "nhân hỗn loạn ôm quân phí bỏ":
 		R
-		MS 3, "war funds and hid away.":
+		MS 3, "trốn, rồi ẩn náu.":
 		R
-		MS 4, "Despite her efforts to suck up":
+		MS 4, "Vào hậu cung để lấy lòng Rance,":
 		R
-		MS 5, "to Rance, she was sold off to":
+		MS 5, "nhưng lại bị bán cho Hiệp hội":
 		R
-		MS 6, "the DX Association.":
+		MS 6, "DX.":
 		\0:
 	}
 	{VAR0010 = 25:
 		!VAR0516 : 75!
 		ZH 1:
-		MS 1, "Reigned over the world with":
+		MS 1, "Cùng Ma Vương Rance thống trị":
 		R
-		MS 2, "Demon Lord Rance. It was now a":
+		MS 2, "thế giới đã thành cõi quái vật.":
 		R
-		MS 3, "world of monsters.":
+		MS 3, "":
 		R
-		MS 4, "Unable to defy Demon Lord":
+		MS 4, "Không thể chống Ma Vương":
 		R
-		MS 5, "Kayblis, she became his slave.":
+		MS 5, "Kayblis, nàng trở thành nô lệ.":
 		R
-		MS 6, "　":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 26:
 		!VAR0516 : 81!
 		ZH 1:
-		MS 1, "The Royal Guard’s numbers":
+		MS 1, "Quân số Cận vệ tăng gấp đôi ban":
 		R
-		MS 2, "doubled, and she powered up":
+		MS 2, "đầu; nàng còn được Vua Hanny":
 		R
-		MS 3, "thanks to the Hanny King.":
+		MS 3, "tăng sức mạnh.":
 		R
-		MS 4, "When the Hanny King came to":
+		MS 4, "Khi Vua Hanny tới Leazas, nàng":
 		R
-		MS 5, "Leazas, she was given to him":
+		MS 5, "bị tặng cho ông làm thú cưng.":
 		R
-		MS 6, "as a pet.":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 27:
 		!VAR0516 : 78!
 		ZH 1:
-		MS 1, "Successfully graduated from":
+		MS 1, "Tốt nghiệp học viện sĩ quan suôn":
 		R
-		MS 2, "the military academy and":
+		MS 2, "sẻ, được biên chế vào quân":
 		R
-		MS 3, "joined the Leazas Army.":
+		MS 3, "Leazas.":
 		R
-		MS 4, "Lost to Arlcoate and put":
+		MS 4, "Thua Arlcoate, phải học lại ở":
 		R
-		MS 5, "through reeducation. She":
+		MS 5, "học viện sĩ quan, rốt cuộc không":
 		R
-		MS 6, "never joined the Leazas Army.":
+		MS 6, "vào được quân Leazas.":
 		\0:
 	}
 	{VAR0010 = 28:
 		!VAR0516 : 77!
 		ZH 1:
-		MS 1, "Fell in love with Rance after":
+		MS 1, "Qua nhiều lần tiếp xúc, nàng yêu":
 		R
-		MS 2, "receiving encouragement from":
+		MS 2, "Rance vì hắn luôn cố động viên":
 		R
-		MS 3, "him numerous times.":
+		MS 3, "mình.":
 		R
 		MS 4, "Raped by Rance.":
 		R
@@ -857,43 +857,43 @@
 	{VAR0010 = 29:
 		!VAR0516 : 26!
 		ZH 1:
-		MS 1, "Was able to freely exert her":
+		MS 1, "Được thỏa sức phát huy tài thao":
 		R
-		MS 2, "tactical abilities in the":
+		MS 2, "lược trong quân Leazas.":
 		R
-		MS 3, "Leazas Army.":
+		MS 3, "":
 		R
-		MS 4, "Killed by Nero and his":
+		MS 4, "Bị Nero cùng thuộc hạ dùng kế":
 		R
-		MS 5, "subordinates’ surprise attack.":
+		MS 5, "hèn hạ đánh lén, thiệt mạng.":
 		R
-		MS 6, "　":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 30:
 		!VAR0516 : 17!
 		ZH 1:
-		MS 1, "After Helman fell, she":
+		MS 1, "Helman sụp đổ, gặp lại em gái":
 		R
-		MS 2, "reunited with Merim. She swore":
+		MS 2, "Merim ở di tích. Nàng thề phụng":
 		R
-		MS 3, "to work for her fallen nation.":
+		MS 3, "sự quê hương đổ nát.":
 		R
-		MS 4, "Captured by Rance and sent to":
+		MS 4, "Bị Rance bắt, giam vào ngục tối.":
 		R
-		MS 5, "the dungeon.":
+		MS 5, "":
 		R
-		MS 6, "　":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 31:
 		!VAR0516 : 18!
 		ZH 1:
-		MS 1, "Happily lived with Aristoles,":
+		MS 1, "Sống hạnh phúc bên Aristoles,":
 		R
-		MS 2, "who betrayed Patton and ran to":
+		MS 2, "người đã phản bội Patton để chạy":
 		R
-		MS 3, "her.":
+		MS 3, "tới với nàng.":
 		R
 		MS 4, "Rance used drugs on her and":
 		R
@@ -905,75 +905,75 @@
 	{VAR0010 = 32:
 		!VAR0516 : 43!
 		ZH 1:
-		MS 1, "When her tower fell, Gandhi":
+		MS 1, "Tháp thất thủ, Gandhi ngăn nàng":
 		R
-		MS 2, "stopped her suicide. She came":
+		MS 2, "tự sát. Tới Leazas, nàng chuyển":
 		R
-		MS 3, "to Leazas and loved Rance.":
+		MS 3, "tình yêu sang Rance.":
 		R
-		MS 4, "Died as her tower fell.":
+		MS 4, "Tự kết liễu khi tháp thất thủ.":
 		R
-		MS 5, " ":
+		MS 5, "":
 		R
-		MS 6, "　":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 33:
 		!VAR0516 : 58!
 		ZH 1:
-		MS 1, "Rance broke her devil contract":
+		MS 1, "Rance phá khế ước với ác ma":
 		R
-		MS 2, "and she came to Leazas. Later":
+		MS 2, "Xacalite. Tới Leazas, nàng gặp":
 		R
-		MS 3, "she reunited with Alex.":
+		MS 3, "lại người yêu Alex.":
 		R
-		MS 4, "Her contract with Xacalite was":
+		MS 4, "Khế ước với Xacalite hoàn tất,":
 		R
-		MS 5, "completed and her soul was":
+		MS 5, "linh hồn nàng bị cướp mất.":
 		R
-		MS 6, "stolen.":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 34:
 		!VAR0516 : 45!
 		ZH 1:
-		MS 1, "She was chosen by Rance and":
+		MS 1, "Được Rance chọn, nàng tìm thấy":
 		R
-		MS 2, "found a new place for herself.":
+		MS 2, "chốn dung thân mới.":
 		R
-		MS 3, "　":
+		MS 3, "":
 		R
-		MS 4, "After losing her reason to":
+		MS 4, "Mất chốn dung thân, tới Ma Giới":
 		R
-		MS 5, "live, sought power in the land":
+		MS 5, "tìm thêm sức mạnh nhưng lại chết":
 		R
-		MS 6, "of demons but died futilely.":
+		MS 6, "bơ vơ.":
 		\0:
 	}
 	{VAR0010 = 35:
 		!VAR0516 : 33!
 		ZH 1:
-		MS 1, "Lived happily with her family":
+		MS 1, "Sống hạnh phúc cùng gia đình ở":
 		R
-		MS 2, "in a teahouse in Osaka.":
+		MS 2, "quán trà Osaka.":
 		R
-		MS 3, "　":
+		MS 3, "":
 		R
-		MS 4, "Captured by Rance and forced":
+		MS 4, "Bị Rance bắt, ép vào hậu cung,":
 		R
-		MS 5, "into his harem, never able to":
+		MS 5, "không bao giờ được về nhà.":
 		R
-		MS 6, "return home.":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 36:
 		!VAR0516 : 72!
 		ZH 1:
-		MS 1, "Continued to wander with":
+		MS 1, "Tiếp tục chuyến chu du vô định":
 		R
-		MS 2, "Gandhi on a journey to reform":
+		MS 2, "cùng Gandhi để chấn chỉnh thế":
 		R
-		MS 3, "the world.":
+		MS 3, "gian.":
 		R
 		MS 4, "Captured by the demon Medusa":
 		R
@@ -985,43 +985,43 @@
 	{VAR0010 = 37:
 		!VAR0516 : 71!
 		ZH 1:
-		MS 1, "Continued to wander with":
+		MS 1, "Tiếp tục chuyến chu du vô định":
 		R
-		MS 2, "Gandhi on a journey to reform":
+		MS 2, "cùng Gandhi để chấn chỉnh thế":
 		R
-		MS 3, "the world.":
+		MS 3, "gian.":
 		R
-		MS 4, "Tried to kill Rance after he":
+		MS 4, "Định giết Rance vì hắn xử tử":
 		R
-		MS 5, "executed Gandhi, but was":
+		MS 5, "Gandhi, nàng cùng chết với người":
 		R
-		MS 6, "killed by a soldier.":
+		MS 6, "lính ngăn cản.":
 		\0:
 	}
 	{VAR0010 = 38:
 		!VAR0516 : 38!
 		ZH 1:
-		MS 1, "Caught Rance’s attention as he":
+		MS 1, "Lọt vào mắt Rance khi hắn thường":
 		R
-		MS 2, "frequented the AL Church and":
+		MS 2, "tới Giáo hội AL, rồi vào hậu":
 		R
-		MS 3, "entered his harem.":
+		MS 3, "cung.":
 		R
-		MS 4, "When the AL Church fell, she":
+		MS 4, "Giáo hội AL sụp đổ, nàng bị":
 		R
-		MS 5, "was thrust away by Mulalaloux":
+		MS 5, "Mulalaloux hoảng loạn xô ngã, va":
 		R
-		MS 6, "in the chaos and killed.":
+		MS 6, "đập chí mạng.":
 		\0:
 	}
 	{VAR0010 = 39:
 		!VAR0516 : 24!
 		ZH 1:
-		MS 1, "She was impregnated by Rance":
+		MS 1, "Mong ước thành hiện thực, nàng":
 		R
-		MS 2, "as she desired and gave birth":
+		MS 2, "có thai với Rance, sinh một bé":
 		R
-		MS 3, "to a healthy boy.":
+		MS 3, "trai khỏe mạnh.":
 		R
 		MS 4, "Captured by the demon Medusa":
 		R
@@ -1033,43 +1033,43 @@
 	{VAR0010 = 40:
 		!VAR0516 : 16!
 		ZH 1:
-		MS 1, "Was once captured by Rance,":
+		MS 1, "Từng suýt bị Rance bắt, nhưng":
 		R
-		MS 2, "but later happily lived her":
+		MS 2, "sau đó sống hạnh phúc, bình yên":
 		R
-		MS 3, "life without incident.":
+		MS 3, "vô sự.":
 		R
-		MS 4, "Was once again found by Rance":
+		MS 4, "Lại bị Rance phát hiện, cuối":
 		R
-		MS 5, "and ultimately captured.":
+		MS 5, "cùng nàng bị bắt.":
 		R
-		MS 6, "　":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 41:
 		!VAR0516 : 25!
 		ZH 1:
-		MS 1, "The world fell into chaos":
+		MS 1, "Rance cai trị tồi, thế giới lại":
 		R
-		MS 2, "again, but she rebuilt JAPAN":
+		MS 2, "loạn. Nàng cùng Isoroku và con":
 		R
-		MS 3, "with Isoroku and her child.":
+		MS 3, "của cô khôi phục JAPAN.":
 		R
-		MS 4, "When Osaka Castle fell, she":
+		MS 4, "Thành Osaka thất thủ, nàng chết":
 		R
-		MS 5, "burned to death with the":
+		MS 5, "cháy cùng tòa thành.":
 		R
-		MS 6, "castle.":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 42:
 		!VAR0516 : 460!
 		ZH 1:
-		MS 1, "Rescued by Rance from":
+		MS 1, "Thoát đám cháy dinh Pluepet,":
 		R
-		MS 2, "Pluepet’s estate and entered":
+		MS 2, "được Rance bảo hộ rồi gia nhập":
 		R
-		MS 3, "his harem.":
+		MS 3, "hậu cung.":
 		R
 		MS 4, "Unable to believe in Rance,":
 		R
@@ -1081,43 +1081,43 @@
 	{VAR0010 = 43:
 		!VAR0516 : 52!
 		ZH 1:
-		MS 1, "Rejected the magic research":
+		MS 1, "Từ chối viện ma pháp giúp khai":
 		R
-		MS 2, "institute’s offer so she could":
+		MS 2, "mở tiềm năng, tiếp tục quan hệ":
 		R
-		MS 3, "keep being Chizuko’s disciple.":
+		MS 3, "thầy trò lạ lùng với Chizuko.":
 		R
-		MS 4, "Used to make the Flash, her":
+		MS 4, "Bị rút cạn máu làm nguyên liệu":
 		R
-		MS 5, "blood was drained from her":
+		MS 5, "chế tạo Pika, thiệt mạng.":
 		R
-		MS 6, "body and she died.":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 44:
 		!VAR0516 : 99!
 		ZH 1:
-		MS 1, "Separated from her abusive":
+		MS 1, "Rời bà mẹ kế độc ác, tới bên":
 		R
-		MS 2, "stepmother and came to Rance.":
+		MS 2, "Rance.":
 		R
-		MS 3, "　":
+		MS 3, "":
 		R
-		MS 4, "Continued to sell flowers in":
+		MS 4, "Ngày ngày bán hoa ở Helman, về":
 		R
-		MS 5, "Helman and be abused by her":
+		MS 5, "nhà lại bị mẹ kế hành hạ.":
 		R
-		MS 6, "stepmother every day.":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 45:
 		!VAR0516 : 79!
 		ZH 1:
-		MS 1, "Able to flaunt her skills at":
+		MS 1, "Thỏa sức trổ tài tại Bệnh viện":
 		R
-		MS 2, "Genius Hospital, she cured":
+		MS 2, "Thiên tài, cứu chữa nhiều bệnh":
 		R
-		MS 3, "many patients.":
+		MS 3, "nhân.":
 		R
 		MS 4, "Unwillingly gave her first":
 		R
@@ -1129,11 +1129,11 @@
 	{VAR0010 = 46:
 		!VAR0516 : 27!
 		ZH 1:
-		MS 1, "Rehabilitated after some time.":
+		MS 1, "Điều trị lâu ngày, nàng hồi":
 		R
-		MS 2, "She was adopted by an old":
+		MS 2, "phục, được đôi vợ chồng già nhận":
 		R
-		MS 3, "couple and lived normally.":
+		MS 3, "nuôi và sống bình thường.":
 		R
 		MS 4, "Continued to drown in pleasure":
 		R
@@ -1145,27 +1145,27 @@
 	{VAR0010 = 47:
 		!VAR0516 : 76!
 		ZH 1:
-		MS 1, "Able to aid the Leazas Army":
+		MS 1, "Đưa được hai học viên ưu tú của":
 		R
-		MS 2, "by geting two excellent":
+		MS 2, "học viện sĩ quan vào phục vụ":
 		R
-		MS 3, "students out of the academy.":
+		MS 3, "quân Leazas.":
 		R
-		MS 4, "Her return to commanding the":
+		MS 4, "Trở lại làm Đội trưởng Cận vệ,":
 		R
-		MS 5, "Royal Guard put her marriage":
+		MS 5, "quan hệ vợ chồng rạn nứt, đứng":
 		R
-		MS 6, "in danger.":
+		MS 6, "trước nguy cơ ly dị.":
 		\0:
 	}
 	{VAR0010 = 48:
 		!VAR0516 : 457!
 		ZH 1:
-		MS 1, "Able to die with Saias.":
+		MS 1, "Được Saias giết như mong muốn.":
 		R
 		MS 2, "":
 		R
-		MS 3, "　":
+		MS 3, "":
 		R
 		MS 4, "Lost to Rance and disappeared":
 		R
@@ -1177,59 +1177,59 @@
 	{VAR0010 = 49:
 		!VAR0516 : 62!
 		ZH 1:
-		MS 1, "With Rance’s support, she was":
+		MS 1, "Nhờ cả sự cổ vũ của Rance, nàng":
 		R
-		MS 2, "able to place 1st in the":
+		MS 2, "giành hạng nhất bảng xếp hạng.":
 		R
-		MS 3, "rankings.":
+		MS 3, "":
 		R
-		MS 4, "Because of the photos Rance":
+		MS 4, "Vì ảnh Rance chụp, nàng buộc":
 		R
-		MS 5, "took, she was forced to retire.":
+		MS 5, "phải giải nghệ, rồi mất tích.":
 		R
-		MS 6, "She then disappeared.":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 50:
 		!VAR0516 : 86!
 		ZH 1:
-		MS 1, "With the power of the Uncurse":
+		MS 1, "Nhờ Suối Giải Nguyền, nàng trở":
 		R
-		MS 2, "Spring, she was able to return":
+		MS 2, "về hình dạng thật.":
 		R
-		MS 3, "to her true body.":
+		MS 3, "":
 		R
-		MS 4, "Captured by Rance and":
+		MS 4, "Bị Rance bắt, giam trong ngục":
 		R
-		MS 5, "imprisoned in the dungeon in":
+		MS 5, "tối thành Leazas.":
 		R
-		MS 6, "Leazas Castle.":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 51:
 		!VAR0516 : 57!
 		ZH 1:
-		MS 1, "Greening disease was cured,":
+		MS 1, "Khỏi bệnh Hóa Lục nhưng vẫn chờ":
 		R
-		MS 2, "but she continued to wait for":
+		MS 2, "Ma Nhân Kite ở Làng Xanh.":
 		R
-		MS 3, "Kite at Green Village.":
+		MS 3, "":
 		R
-		MS 4, "Knowing her greening disease":
+		MS 4, "Mắc bệnh Hóa Lục, không biết":
 		R
-		MS 5, "would eventually kill her, she":
+		MS 5, "sống được bao lâu, nàng dành đời":
 		R
-		MS 6, "helped others with the same.":
+		MS 6, "mình giúp người cùng cảnh.":
 		\0:
 	}
 	{VAR0010 = 52:
 		!VAR0516 : 64!
 		ZH 1:
-		MS 1, "Continued to protect the":
+		MS 1, "Tiếp tục bảo vệ Toushin City đã":
 		R
-		MS 2, "fallen Toushin City.":
+		MS 2, "rơi xuống.":
 		R
-		MS 3, "　":
+		MS 3, "":
 		R
 		MS 4, "Toushin City was conquered.":
 		R
@@ -1241,59 +1241,59 @@
 	{VAR0010 = 53:
 		!VAR0516 : 14!
 		ZH 1:
-		MS 1, "Unaware Rance tricked her, she":
+		MS 1, "Không biết bị Rance lừa, nàng":
 		R
-		MS 2, "was happy to be approved by":
+		MS 2, "vui vì được người đại diện Giáo":
 		R
-		MS 3, "the Pope’s representative.":
+		MS 3, "hoàng công nhận.":
 		R
-		MS 4, "Deceived by land sharks, she":
+		MS 4, "Bị bọn đầu cơ đất lừa, rồi bị":
 		R
-		MS 5, "was sold off to pay excess":
+		MS 5, "bán để gán nợ.":
 		R
-		MS 6, "debt.":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 54:
 		!VAR0516 : 46!
 		ZH 1:
-		MS 1, "Became an angel as she desired.":
+		MS 1, "Toại nguyện trở thành thiên":
 		R
-		MS 2, " ":
+		MS 2, "thần.":
 		R
-		MS 3, "　":
+		MS 3, "":
 		R
-		MS 4, "Despiting dreaming of being an":
+		MS 4, "Mơ làm thiên thần, nhưng xuất":
 		R
-		MS 5, "angel, she became a devil due":
+		MS 5, "trận nhiều khiến nghiệp chướng":
 		R
-		MS 6, "to all her fighting.":
+		MS 6, "tăng, hóa thành ác ma.":
 		\0:
 	}
 	{VAR0010 = 55:
 		!VAR0516 : 41!
 		ZH 1:
-		MS 1, "Now able to trust humans, she":
+		MS 1, "Tin tưởng loài người, nàng còn":
 		R
-		MS 2, "even had a child with Rance":
+		MS 2, "có con với Rance, đặt tên Reset.":
 		R
-		MS 3, "named Reset.":
+		MS 3, "":
 		R
-		MS 4, "Still unable to trust humans,":
+		MS 4, "Vẫn chẳng tin loài người, nàng":
 		R
-		MS 5, "she lives quietly in a closed":
+		MS 5, "sống lặng lẽ trong khu rừng khép":
 		R
-		MS 6, "off forest.":
+		MS 6, "kín.":
 		\0:
 	}
 	{VAR0010 = 56:
 		!VAR0516 : 44!
 		ZH 1:
-		MS 1, "Captured by Rance and made an":
+		MS 1, "Từng bị Rance bắt, nàng nghiên":
 		R
-		MS 2, "unpaid researcher, so she can":
+		MS 2, "cứu không công ở viện ma pháp":
 		R
-		MS 3, "engross herself in research.":
+		MS 3, "nhưng được thỏa đam mê.":
 		R
 		MS 4, "Continued to be used as a":
 		R
@@ -1305,27 +1305,27 @@
 	{VAR0010 = 57:
 		!VAR0516 : 100!
 		ZH 1:
-		MS 1, "Stopped working as a miko when":
+		MS 1, "Quân Leazas diệt Orochi, nàng":
 		R
-		MS 2, "Orochi was slain. She seeks":
+		MS 2, "hết phận vu nữ, tìm hạnh phúc":
 		R
-		MS 3, "happiness as a normal girl.":
+		MS 3, "như cô gái thường.":
 		R
-		MS 4, "Sacrificed to Orochi.":
+		MS 4, "Bị hiến tế cho Orochi.":
 		R
-		MS 5, "　":
+		MS 5, "":
 		R
-		MS 6, "　":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 58:
 		!VAR0516 : 97!
 		ZH 1:
-		MS 1, "Lived the rest of her life":
+		MS 1, "Sống hạnh phúc bền lâu bên chồng":
 		R
-		MS 2, "happily with her husband,":
+		MS 2, "Cordoba.":
 		R
-		MS 3, "Cordoba.":
+		MS 3, "":
 		R
 		MS 4, "After Cordoba’s death, she was":
 		R
@@ -1337,27 +1337,27 @@
 	{VAR0010 = 59:
 		!VAR0516 : 449!
 		ZH 1:
-		MS 1, "Succeeded at spreading poison":
+		MS 1, "Hoàn thành việc rải độc ở":
 		R
-		MS 2, "around Leazas. Her reward made":
+		MS 2, "Leazas, lĩnh thưởng và trở nên":
 		R
-		MS 3, "her rich.":
+		MS 3, "giàu có.":
 		R
-		MS 4, "Switched to Leazas’s side, but":
+		MS 4, "Theo phe Leazas, nhưng bị bắt":
 		R
-		MS 5, "got caught spying on Helman":
+		MS 5, "khi do thám Helman và bị Stessel":
 		R
-		MS 6, "and executed by Stessel.":
+		MS 6, "xử tử.":
 		\0:
 	}
 	{VAR0010 = 60:
 		!VAR0516 : 83!
 		ZH 1:
-		MS 1, "Tamed the demon Galtia with":
+		MS 1, "Dùng tài nấu nướng thuần phục Ma":
 		R
-		MS 2, "the cooking she takes pride in":
+		MS 2, "Nhân Galtia, trở thành bạn của":
 		R
-		MS 3, "and befriended him.":
+		MS 3, "gã.":
 		R
 		MS 4, "Rance lost his temper and":
 		R
@@ -1369,11 +1369,11 @@
 	{VAR0010 = 61:
 		!VAR0516 : 54!
 		ZH 1:
-		MS 1, "Regardless of what world it":
+		MS 1, "Dù thế giới thế nào, nàng vẫn":
 		R
-		MS 2, "was in, she always stayed with":
+		MS 2, "luôn ở bên Kentarou.":
 		R
-		MS 3, "Kentarou.":
+		MS 3, "":
 		R
 		MS 4, "Killed Kentarou when Rance":
 		R
@@ -1385,67 +1385,67 @@
 	{VAR0010 = 62:
 		!VAR0516 : 249!
 		ZH 1:
-		MS 1, "Finally able to read the":
+		MS 1, "Đọc được sách mỹ thiếu niên mong":
 		R
-		MS 2, "bishounen manga she sought,":
+		MS 2, "ước, không còn lưu luyến, nàng":
 		R
-		MS 3, "she was able to pass on.":
+		MS 3, "siêu thoát.":
 		R
-		MS 4, "Still not having found the":
+		MS 4, "Chưa tìm được cuốn sách muốn":
 		R
-		MS 5, "book she wants to read, she":
+		MS 5, "đọc, nàng vẫn lang thang trong":
 		R
-		MS 6, "still wanders the library.":
+		MS 6, "thư viện.":
 		\0:
 	}
 	{VAR0010 = 63:
 		!VAR0516 : 56!
 		ZH 1:
-		MS 1, "With Redeye killed and her":
+		MS 1, "Redeye bị hạ, nàng được Rance":
 		R
-		MS 2, "being taken in by Rance, she":
+		MS 2, "bảo hộ, thoát khỏi sự trói buộc":
 		R
-		MS 3, "was able to escape her curse.":
+		MS 3, "của hắn.":
 		R
-		MS 4, "After Redeye was killed, she":
+		MS 4, "Redeye bị hạ, nàng bị tinh thể":
 		R
-		MS 5, "was controlled by his blood":
+		MS 5, "máu còn lại điều khiển, rồi mất":
 		R
-		MS 6, "crystal and disappeared.":
+		MS 6, "tích.":
 		\0:
 	}
 	{VAR0010 = 64:
 		!VAR0516 : 424!
 		ZH 1:
-		MS 1, "Forever watched over Patton.":
+		MS 1, "Mãi dõi theo bảo hộ Patton.":
 		R
-		MS 2, "　":
+		MS 2, "":
 		R
-		MS 3, "　":
+		MS 3, "":
 		R
-		MS 4, "Disappeared with Patton.":
+		MS 4, "Mất tích cùng Patton.":
 		R
-		MS 5, "　":
+		MS 5, "":
 		R
-		MS 6, "　":
+		MS 6, "":
 		\0:
 	}
 	{VAR0010 = 65:
 		!VAR0516 : 428!
 		ZH 1:
-		MS 1, "She made peace with Hawzel":
+		MS 1, "Làm hòa với Hawzel được Rance":
 		R
-		MS 2, "when Rance rescued her. They":
+		MS 2, "cứu, cả hai gia nhập quân":
 		R
-		MS 3, "entered the Leazas Army.":
+		MS 3, "Leazas.":
 		R
-		MS 4, "Fused with Hawzel and became":
+		MS 4, "Hợp nhất với Hawzel đang bị":
 		R
-		MS 5, "La Vaswald.":
+		MS 5, "Medusa giam, hóa thành La":
 		R
-		MS 6, " ":
+		MS 6, "Vaswald.":
 		\0:
 	}
 	ZH 1:
-	'ôi'
+	'Á...'
 	\0:

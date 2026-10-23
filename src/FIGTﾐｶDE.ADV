@@ -1,16 +1,20 @@
 	{(VAR0154 = 1) * (VAR0518 = 0):
 		\L_00e16:
 		ZH 1:
-		'Ugyaaah, không thể nào...'
+		'Á á! Không thể'
 		R
-		'Tôi chỉ mới bắt đầu thôi...'
+		'nào... Ta chỉ vừa'
+		R
+		'bắt đầu thôi mà...'
 		\L_00ecb:
 		\L_00ebe:
 		\L_00e4e:
 		ZH 1:
-		'Rance, thủ lĩnh của'
+		'Rance, đầu lĩnh sơn'
 		R
-		'bọn trộm, ngất xỉu.'
+		'tặc, ngất lịm rồi'
+		R
+		'ngã xuống.'
 		\L_00ecb:
 		\L_00ebe:
 		%0:
@@ -18,15 +22,17 @@
 	{VAR0154 = 1:
 		\L_00e16:
 		ZH 1:
-		'Gh... Ối...'
+		'Ư... Đau quá...'
 		\L_00ecb:
 		ZH 1:
-		'Đau quá... Tôi chết mất...'
+		'Đau quá... Ta... sắp'
+		R
+		'chết sao...'
 		\L_00ecb:
 		\L_00ebe:
 		\L_00e4e:
 		ZH 1:
-		'Rance sụp đổ.'
+		'Rance đổ gục xuống.'
 		\L_00ecb:
 		\L_00ebe:
 		!VAR0805 : 1!
@@ -42,34 +48,36 @@
 		{VAR0530 = 31:
 			\L_00e32:
 			ZH 1:
-			'Chúng ta đã làm những điều'
+			'Làm chuyện xấu'
 			R
-			'khủng khiếp... Đây là những'
+			'nên... bị quả báo'
 			R
-			'gì chúng ta nhận được...'
+			'rồi...'
 			\L_00ecb:
 			\L_00ebe:
 			\L_00e4e:
 			ZH 1:
-			'Sill đã bị đánh bại.'
+			'Sill ngã xuống.'
 			\L_00ecb:
 			\L_00ebe:
 			%0:
 		}
 		\L_00e32:
 		ZH 1:
-		'Chủ nhân Rance... Em'
+		'Chủ nhân... Em xin'
 		R
-		'đã xin ngài đừng đưa em'
+		'đừng cho ra trước'
 		R
-		'ra tiền tuyến mà. Hức...'
+		'mà... Hức... Đau...'
 		\L_00ecb:
 		\L_00ebe:
 		\L_00e4e:
 		ZH 1:
 		'Sill mất khả năng'
 		R
-		'chiến đấu và rút lui.'
+		'chiến đấu và rút'
+		R
+		'lui.'
 		\L_00ecb:
 		\L_00ebe:
 		%0:
@@ -78,14 +86,14 @@
 		!VAR0702 : 1!
 		\L_00e16:
 		ZH 1:
-		'Thầy Raaance...'
+		'Chủ nhân Rance ơi...'
 		\L_00ecb:
 		\L_00ebe:
 		\L_00e4e:
 		ZH 1:
-		'Sill bỏ lại Rance'
+		'Sill bỏ lại Rance và'
 		R
-		'và đi sang kiếp sau.'
+		'đi sang kiếp sau.'
 		\L_00ecb:
 		\L_00ebe:
 		%0:
@@ -93,9 +101,9 @@
 	{(VAR0154 = 3) * (VAR0518 = 0):
 		\L_00e16:
 		ZH 1:
-		'Uh ôi...'
+		'Xin lỗi... Đại ca...'
 		R
-		'Sếp... Chết tiệt...'
+		'Khốn kiếp...'
 		\L_00ecb:
 		\L_00ebe:
 		%0:
@@ -103,18 +111,20 @@
 	{VAR0154 = 3:
 		\L_00e16:
 		ZH 1:
-		'Chết tiệt!'
+		'Chết tiệt! Ta còn'
 		R
-		'Thêm... ... Sếp...'
+		'muốn... ...Đại ca...'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{(VAR0154 = 4) * (VAR0518 = 0):
 		\L_00e16:
 		ZH 1:
-		'Ôi không... Ôi... chân'
+		'Ôi không... Ôi...'
 		R
-		'tôi không cử động được...'
+		'chân tôi không cử'
+		R
+		'động được...'
 		\L_00ecb:
 		\L_00ebe:
 		%0:
@@ -122,51 +132,55 @@
 	{VAR0154 = 4:
 		\L_00e16:
 		ZH 1:
-		'Không... Tôi'
+		'Không... Em chưa'
 		R
-		'chưa muốn chết... Cứu'
+		'muốn chết... Cứu'
 		R
-		'tôi với... Rance...'
+		'em... Anh Rance...'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{VAR0154 = 5:
 		\L_00e16:
 		ZH 1:
-		'Ờ...!!... Kh... Tôi có'
+		'Á...! Kh... Tôi...'
 		R
-		'thể... vẫn... chiến đấu...'
+		'vẫn còn... chiến đấu'
+		R
+		'được...'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{VAR0154 = 6:
 		\L_00e16:
 		ZH 1:
-		'Mgh... Thật đáng tiếc!'
+		'Uất hận...! Thần vô'
 		R
-		'Tôi không thể giúp được gì'
+		'dụng quá... Xin'
 		R
-		'nữa... Xin lỗi... Đức vua...'
+		'lỗi... Bệ hạ...'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{VAR0154 = 7:
 		\L_00e16:
 		ZH 1:
-		'Tôi có thể...'
+		'Thần vẫn... chiến'
 		R
-		'vẫn... chiến đấu...'
+		'đấu được... Vẫn...'
 		R
-		'tôi... có thể...'
+		'còn...'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{VAR0154 = 8:
 		\L_00e16:
 		ZH 1:
-		'Ồ!! Đồ khốn nạn...!...'
+		'A a!! Khốn kiếp...!'
 		R
-		'Fururu... Tha thứ... tôi...'
+		'Fururu... Tha... lỗi'
+		R
+		'cho anh...'
 		\L_00ecb:
 		\L_00ebe:
 	}
@@ -180,9 +194,9 @@
 	{VAR0154 = 10:
 		\L_00e16:
 		ZH 1:
-		'Không... Ôi'
+		'Không... Ôi không...'
 		R
-		'không... Ai đó-...ai đó...'
+		'Ai đó-...ai đó...'
 		\L_00ecb:
 		\L_00ebe:
 	}
@@ -190,23 +204,25 @@
 		!VAR0700 : 0!
 		\L_00e16:
 		ZH 1:
-		'Đau quá... Đau'
+		'Đau quá... Đau quá'
 		R
-		'quá~... Hick... Hick...'
+		'đi... Hức... Hức...'
 		\L_00ecb:
 		ZH 1:
-		'（Chaka） Nwah～～...'
+		'(Chaka) Oái... Chết'
 		R
-		'Chết, chết đi～...'
+		'mất, chết mất...'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{VAR0154 = 12:
 		\L_00e16:
 		ZH 1:
-		'... Uah... Kh... Tôi...'
+		'... Uah... Kh...'
 		R
-		'vẫn còn sống... ... À...'
+		'Tôi... vẫn còn'
+		R
+		'sống... ... À...'
 		\L_00ecb:
 		\L_00ebe:
 	}
@@ -215,18 +231,20 @@
 		ZH 1:
 		'Ôi không... Làm sao'
 		R
-		'tôi có thể chết được...?'
+		'tôi có thể chết'
+		R
+		'được...?'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{VAR0154 = 14:
 		\L_00e16:
 		ZH 1:
-		'Đây có phải là'
+		'Đến đây là hết'
 		R
-		'kết thúc...? Còn rất nhiều'
+		'sao... Tôi còn bao'
 		R
-		'điều nữa... Tôi muốn học...'
+		'điều muốn học...'
 		\L_00ecb:
 		\L_00ebe:
 	}
@@ -240,11 +258,11 @@
 	{VAR0154 = 16:
 		\L_00e16:
 		ZH 1:
-		'Hiin... Nghiên'
+		'Hức... Nghiên cứu'
 		R
-		'cứu của tôi... Và'
+		'còn dở... Cả Rance'
 		R
-		'Rance... Tôi xin lỗi...'
+		'nữa... Xin lỗi...'
 		\L_00ecb:
 		\L_00ebe:
 	}
@@ -252,18 +270,18 @@
 		{VAR0322 = 1:
 			\L_00e16:
 			ZH 1:
-			'... Điều này'
+			'... Điều này thật...'
 			R
-			'thật... đáng tiếc...'
+			'đáng tiếc...'
 			\L_00ecb:
 			\L_00ebe:
 			@L_00dec:
 		}
 		\L_00e16:
 		ZH 1:
-		'Ah... ... Có... tôi'
+		'À... Thôi... sao'
 		R
-		'không thể làm gì được...?'
+		'cũng được...'
 		\L_00ecb:
 		\L_00ebe:
 	}
@@ -277,41 +295,45 @@
 	{VAR0154 = 19:
 		\L_00e16:
 		ZH 1:
-		'Ah... Tôi... sắp chết'
+		'Ah... Tôi... sắp'
 		R
-		'à...? Đây là cái chết...'
+		'chết à...? Đây là'
+		R
+		'cái chết...'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{VAR0154 = 20:
 		\L_00e16:
 		ZH 1:
-		'Cuối cùng anh'
+		'Cuối cùng... cũng'
 		R
-		'cũng đến đón em...'
+		'đến lúc ta đi rồi...'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{VAR0154 = 21:
 		\L_00e16:
 		ZH 1:
-		'Ch... Tệ quá... Bố tôi sẽ'
+		'Ch... Tệ quá... Bố'
 		R
-		'mắng tôi ở kiếp sau mất...'
+		'tôi sẽ mắng tôi ở'
+		R
+		'kiếp sau mất...'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{VAR0154 = 22:
 		\L_00e16:
 		ZH 1:
-		'Oh... Ooh...'
+		'Ôi... Amira... Ta'
 		R
-		'Amiran... Điều hối tiếc'
+		'chỉ lo... khi phải'
 		R
-		'duy nhất của anh...'
+		'bỏ con ở lại...'
 		\L_00ecb:
 		ZH 1:
-		'là bỏ em lại phía sau...'
+		'mà ra đi thế này...'
 		\L_00ecb:
 		\L_00ebe:
 	}
@@ -320,34 +342,38 @@
 		ZH 1:
 		'Đau quá... tôi không'
 		R
-		'thể... chịu đựng được nữa...'
+		'thể... chịu đựng'
+		R
+		'được nữa...'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{VAR0154 = 24:
 		\L_00e16:
 		ZH 1:
-		'Hừm... Đó là những'
+		'Hừ... Thật thảm'
 		R
-		'gì tôi nhận được...'
+		'hại...'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{VAR0154 = 25:
 		\L_00e16:
 		ZH 1:
-		'Không! Tôi'
+		'Không! Tôi không'
 		R
-		'không muốn chết!'
+		'muốn chết!'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{VAR0154 = 26:
 		\L_00e16:
 		ZH 1:
-		'Trebbiano～. Lula～～.'
+		'Trebbiano～.'
 		R
-		'Bài hát mùa xuân~.'
+		'Lula～～. Bài hát'
+		R
+		'mùa xuân~.'
 		\L_00ecb:
 		\L_00ebe:
 	}
@@ -355,38 +381,38 @@
 		{VAR0561 = 4:
 			\L_00e16:
 			ZH 1:
-			'Làm sao tôi có'
+			'Chưa sinh đứa bé'
 			R
-			'thể chết... khi chưa'
+			'này... mà đã phải'
 			R
-			'sinh ra đứa con này?!'
+			'chết sao...!'
 			\L_00ecb:
 			\L_00ebe:
 		}
 		{VAR0561 > 4:
 			\L_00e16:
 			ZH 1:
-			'Vua Rance... Xin'
+			'Ngài Rance... Xin'
 			R
-			'hãy chăm sóc con'
+			'hãy chăm sóc đứa'
 			R
-			'của chúng tôi...'
+			'bé...'
 			\L_00ecb:
 			\L_00ebe:
 		}
 		{VAR0561 < 4:
 			\L_00e16:
 			ZH 1:
-			'Đây có phải'
+			'Nhà Yamamoto đến đây'
 			R
-			'là dấu chấm hết cho gia'
+			'là hết sao... Phụ'
 			R
-			'đình Yamamoto...? Cha...'
+			'thân...'
 			\L_00ecb:
 			ZH 1:
-			'Xin hãy tha thứ cho'
+			'Xin tha thứ cho đứa'
 			R
-			'con vì đã thất bại...'
+			'con bất tài này...'
 			\L_00ecb:
 			\L_00ebe:
 		}
@@ -403,9 +429,9 @@
 	{VAR0154 = 29:
 		\L_00e16:
 		ZH 1:
-		'Không đời nào tôi'
+		'Satella... đâu có'
 		R
-		'có thể thua được...!'
+		'thua chứ...!'
 		\L_00ecb:
 		\L_00ebe:
 	}
@@ -419,40 +445,40 @@
 	{VAR0154 = 31:
 		\L_00e16:
 		ZH 1:
-		'Kh... Miki. Tôi sẽ không'
+		'Miki... Anh không'
 		R
-		'thể quay lại Nhật Bản cùng'
+		'thể cùng em về Nhật'
 		R
-		'ngươi được... Xin lỗi...'
+		'nữa... Xin lỗi...'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{VAR0154 = 32:
 		\L_00e16:
 		ZH 1:
-		'Không... Đau'
+		'Không... Đau quá...'
 		R
-		'quá... Đau quá...'
+		'Đau quá...'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{VAR0154 = 33:
 		\L_00e16:
 		ZH 1:
-		'Không... Tôi'
+		'Không... Tôi không'
 		R
-		'không muốn chết đâu...'
+		'muốn chết đâu...'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{VAR0154 = 34:
 		\L_00e16:
 		ZH 1:
-		'Không thể'
+		'Không thể nào... Thế'
 		R
-		'nào... Thế còn...'
+		'còn... tham vọng của'
 		R
-		'tham vọng của tôi...!?'
+		'tôi...!?'
 		\L_00ecb:
 		\L_00ebe:
 		%0:
@@ -460,11 +486,9 @@
 	{VAR0154 = 35:
 		\L_00e16:
 		ZH 1:
-		'Tất nhiên...'
+		'Quả nhiên... Vĩnh'
 		R
-		'chuyện này sẽ xảy ra...'
-		R
-		'Tạm biệt... Bố... Mẹ...'
+		'biệt... Cha... Mẹ...'
 		\L_00ecb:
 		\L_00ebe:
 		%0:
@@ -472,7 +496,7 @@
 	{VAR0154 = 36:
 		\L_00e16:
 		ZH 1:
-		'Em yêu... anh xin lỗi.'
+		'Anh à... Em xin lỗi.'
 		\L_00ecb:
 		\L_00ebe:
 		%0:
@@ -480,11 +504,11 @@
 	{VAR0154 = 37:
 		\L_00e16:
 		ZH 1:
-		'Guhah... Nhưng'
+		'Hự... Chuyến hành'
 		R
-		'tôi vẫn chưa kết thúc'
+		'trình của ta... vẫn'
 		R
-		'hành trình của mình...!'
+		'chưa kết thúc...!'
 		\L_00ecb:
 		\L_00ebe:
 		%0:
@@ -492,11 +516,11 @@
 	{VAR0154 = 38:
 		\L_00e16:
 		ZH 1:
-		'Vua Rance...'
+		'Ngài Rance... Tôi đã'
 		R
-		'tôi đã rất vui...'
+		'hạnh phúc... Có lẽ'
 		R
-		'...tôi đoán vậy...'
+		'vậy...'
 		\L_00ecb:
 		\L_00ebe:
 		%0:
@@ -510,9 +534,9 @@
 			'Xin lỗi...'
 		}
 		ZH 1:
-		'... Mẹ... con đi'
+		'... Mẹ... con đi về'
 		R
-		'về phía mẹ đây...'
+		'phía mẹ đây...'
 		\L_00ecb:
 		\L_00ebe:
 		%0:
@@ -520,7 +544,7 @@
 	{VAR0154 = 40:
 		\L_00e16:
 		ZH 1:
-		'Cha-... đó...'
+		'Phụ... thân...'
 		\L_00ecb:
 		\L_00ebe:
 		%0:
@@ -528,34 +552,34 @@
 	{VAR0154 = 41:
 		\L_00e16:
 		ZH 1:
-		'Uhohoooy. Chuyện'
+		'Uhohoooy. Chuyện gì'
 		R
-		'gì đã xảy ra thế?!'
+		'đã xảy ra thế?!'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{VAR0154 = 42:
 		\L_00e16:
 		ZH 1:
-		'Không... Chúng'
+		'Không... Chúng ta sẽ'
 		R
-		'ta sẽ không bao'
+		'không bao giờ chia'
 		R
-		'giờ chia tay nữa...'
+		'tay nữa...'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{VAR0154 = 43:
 		\L_00e16:
 		ZH 1:
-		'Hoàng hậu Sheilaaa!!'
+		'Ngài Sheila ơi!!'
 		\L_00ecb:
 		\L_00ebe:
 	}
 	{VAR0154 = 44:
 		\L_00e16:
 		ZH 1:
-		'Chủ nghĩa AL sống lâu!!'
+		'AL giáo trường tồn!!'
 		\L_00ecb:
 		\L_00ebe:
 	}
@@ -563,18 +587,20 @@
 		{VAR0735 = 2:
 			\L_00e16:
 			ZH 1:
-			'Thưa cô... tôi xin lỗi...'
+			'Lady... Tôi xin'
+			R
+			'lỗi...'
 			\L_00ecb:
 			\L_00ebe:
 			%0:
 		}
 		\L_00e16:
 		ZH 1:
-		'Không thể'
+		'Không thể nào... Tôi'
 		R
-		'nào... Tôi chưa muốn...'
+		'chưa muốn... chết...'
 		R
-		'chết... ... Hỗn loạn...'
+		'Chaos...'
 		\L_00ecb:
 		\L_00ebe:
 		%0:
@@ -584,7 +610,9 @@
 		ZH 1:
 		'Không... Làm sao tôi'
 		R
-		'có thể chết được...?!'
+		'có thể chết'
+		R
+		'được...?!'
 		\L_00ecb:
 		\L_00ebe:
 	}
@@ -593,7 +621,9 @@
 		ZH 1:
 		'Này này... Đây không'
 		R
-		'phải chuyện đùa đâu...'
+		'phải chuyện đùa'
+		R
+		'đâu...'
 		\L_00ecb:
 		\L_00ebe:
 	}
@@ -602,7 +632,7 @@
 		ZH 1:
 		'Không thể nào...!'
 		R
-		'Làm sao tôi có thể...?'
+		'Sao tôi lại...'
 		\L_00ecb:
 		\L_00ebe:
 	}
@@ -610,9 +640,9 @@
 	MP 1, 8:
 	ZH 1:
 	R
-	'ngã xuống'
+	'ngã xuống trong trận'
 	R
-	'trong trận chiến.'
+	'chiến.'
 	\L_00ecb:
 	\L_00ebe:
 	%0:
@@ -621,9 +651,9 @@
 	MP 1, 8:
 	ZH 1:
 	R
-	'bị thương'
+	'bị thương trong trận'
 	R
-	'trong trận chiến.'
+	'chiến.'
 	\L_00ecb:
 	\L_00ebe:
 	%0:

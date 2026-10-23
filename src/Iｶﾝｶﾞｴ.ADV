@@ -2,22 +2,18 @@
 	\L_00c91:
 	\L_00c3d:
 	ZH 1:
-	'Được rồi, đã đến'
-	R
-	'lúc suy nghĩ... Hmmmm.'
+	'Được, suy nghĩ nào... Hừm...'
 	\L_00d62:
 	\L_00d55:
 	{VAR0399 < 10:
 		\L_00c59:
 		ZH 1:
-		'Sill đáng lẽ phải bị'
+		'Phải cứu Sill đang bị giam ở'
 		R
-		'giam ở Helman... Cuối cùng'
-		R
-		'ta sẽ lấy lại được nàng...'
+		'Helman... Nhất định phải'
 		\L_00d62:
 		ZH 1:
-		'Ta biết điều đó.'
+		'đưa em ấy trở về.'
 		\L_00d62:
 		\L_00d55:
 	}
@@ -38,9 +34,9 @@
 	{(VAR0401 > 1) * (VAR0401 < 7):
 		\L_00c59:
 		ZH 1:
-		'Sill biến mất...'
+		'Sill biến mất... Nàng đã đi'
 		R
-		'Nàng đã đi đâu??'
+		'đâu??'
 		\L_00d62:
 		\L_00d55:
 	}
@@ -97,14 +93,12 @@
 	{VAR0402 = 2:
 		\L_00c59:
 		ZH 1:
-		'Lia nói nàng có'
+		'Lia bảo có quà cho ta, muốn'
 		R
-		'quà cho ta nên nàng muốn'
-		R
-		'ta gọi nàng lên phòng.'
+		'ta gọi nàng tới phòng.'
 		\L_00d62:
 		ZH 1:
-		'Nó có thể là gì?'
+		'Là gì nhỉ?'
 		\L_00d62:
 		\L_00d55:
 	}
@@ -138,11 +132,11 @@
 	{VAR0345 = 6:
 		\L_00c59:
 		ZH 1:
-		'Cô gái bán'
+		'Cô gái bán hoa thích ta...'
 		R
-		'hoa thích ta hình như sống'
+		'Nghe ở Pawn. Đến đón nàng'
 		R
-		'ở Pawn. Ta nên đi gặp nàng.'
+		'thôi.'
 		\L_00d62:
 		\L_00d55:
 	}
@@ -178,46 +172,42 @@
 	{VAR0346 = 1:
 		\L_00c59:
 		ZH 1:
-		'Có một thần'
+		'Ở đài truyền hình thành phố'
 		R
-		'tượng của đài truyền hình'
-		R
-		'ở Prettiria tên là Kapala.'
+		'Prettiria có cô thần tượng'
 		\L_00d62:
 		ZH 1:
-		'Sẽ rất vui nếu'
+		'Kapala. Đến chơi cũng hay'
 		R
-		'được đi chơi với nàng.'
+		'đấy.'
 		\L_00d62:
 		\L_00d55:
 	}
 	{VAR0062 \ 0:
 		\L_00c59:
 		ZH 1:
-		'Milli mắc phải một căn'
+		'Milli mắc bệnh Genfluenza...'
 		R
-		'bệnh tên là genfluenza...'
-		R
-		'Ta phải làm gì đó...'
+		'Phải tìm cách chữa...'
 		\L_00d62:
 		\L_00d55:
 	}
 	{VAR0389 = 3:
 		\L_00c59:
 		ZH 1:
-		'Có một cô gái'
+		'Ở Tháp Magic có cô gái tên'
 		R
-		'tên Magic ở Magic’s Tower,'
+		'Magic,'
 		\L_00d62:
 		ZH 1:
-		'nhưng nàng đang ký'
+		'nhưng nàng đang lập khế ước'
 		R
-		'hợp đồng với một con quỷ.'
+		'với ác ma.'
 		\L_00d62:
 		ZH 1:
-		'Phải có cách nào'
+		'Phải có cách đưa nàng về với'
 		R
-		'đó để có được nàng...'
+		'ta... Cách nào đây...'
 		\L_00d62:
 		\L_00d55:
 	}
@@ -271,17 +261,17 @@
 	{VAR0355 = 3:
 		\L_00c59:
 		ZH 1:
-		'Ồ đúng rồi,'
+		'Ồ đúng rồi, Pastel có thai'
 		R
-		'Pastel có thai rồi...'
+		'rồi...'
 		R
 		!VAR0001 : VAR0356 - VAR0517!
 		{VAR0001 \ 0:
 			ZH 1:
-			'Sau'
+			'Còn '
 			H 0, VAR0001:
 			ZH 1:
-			'tuần'
+			' tuần nữa'
 			{VAR0001 \ 1:
 				ZH 1:
 				'...'
@@ -290,7 +280,7 @@
 		}
 		{VAR0001 = 0:
 			ZH 1:
-			'Cũng không lâu lắm nhỉ...?'
+			'Cũng sắp đến ngày rồi...'
 			R
 		}
 		ZH 1:
@@ -301,22 +291,18 @@
 	{VAR0355 = 4:
 		\L_00c59:
 		ZH 1:
-		'Con của Pastel,'
+		'Reset, con gái của Pastel...'
 		R
-		'Reset... Con bé là con gái ta.'
+		'Cũng là con gái ta.'
 		R
 		!VAR0001 : VAR0356 - VAR0517!
 		{VAR0001 \ 0:
 			ZH 1:
-			'Ta tự hỏi liệu'
-			R
-			'nàng đã trưởng thành chưa.'
+			'Bao giờ con bé mới lớn nhỉ?'
 		}
 		{VAR0001 = 0:
 			ZH 1:
-			'Có lẽ ta'
-			R
-			'nên kiểm tra nàng.'
+			'Đến lúc ghé thăm con rồi.'
 		}
 		\L_00d62:
 		\L_00d55:
@@ -329,14 +315,14 @@
 		'Aoi đó trở lại bình thường.'
 		\L_00d62:
 		ZH 1:
-		'Nàng đang được'
+		'Nàng đang được điều trị'
 		R
-		'điều trị trong lâu đài.'
+		'trong lâu đài.'
 		\L_00d62:
 		ZH 1:
-		'Ta có nên đi động'
+		'Ta có nên đi động viên nàng'
 		R
-		'viên nàng lần nữa không?'
+		'lần nữa không?'
 		\L_00d62:
 		\L_00d55:
 	}
@@ -344,11 +330,11 @@
 	{(VAR0567 = 4) * (VAR0102 \ 0):
 		\L_00c59:
 		ZH 1:
-		'Soul có một lá thư. Đó là'
+		'Soul có thư của anh trai'
 		R
-		'từ anh trai nàng, Bound...'
+		'Bound... Hắn vẫn còn sống'
 		R
-		'Hắn còn sống không??'
+		'sao?'
 		\L_00d62:
 		\L_00d55:
 	}
@@ -356,63 +342,61 @@
 	{(VAR0428 = 2) * (VAR0102 \ 0):
 		\L_00c59:
 		ZH 1:
-		'Maria nói'
+		'Maria nhờ xây cơ sở nghiên'
 		R
-		'gì đó về việc xây dựng'
-		R
-		'một cơ sở nghiên cứu...'
+		'cứu thì phải...'
 		\L_00d62:
 		ZH 1:
-		'Điều đó có hữu ích không??'
+		'Có giúp ích gì không nhỉ?'
 		\L_00d62:
 		\L_00d55:
 	}
 	{(VAR0429 = 1) * (VAR0102 \ 0):
 		\L_00c59:
 		ZH 1:
-		'Có vẻ như'
+		'Có vẻ như Maria đang thực'
 		R
-		'Maria đang thực hiện một'
+		'hiện một số nghiên cứu nguy'
 		R
-		'số nghiên cứu nguy hiểm...'
+		'hiểm...'
 		\L_00d62:
 		ZH 1:
-		'(Theo cấp dưới) Ta có'
+		'Thuộc hạ kể thế. Có nên ngăn'
 		R
-		'nên ngăn nàng lại không?'
+		'nàng lại không?'
 		\L_00d62:
 		\L_00d55:
 	}
 	{VAR0426 = 3:
 		\L_00c59:
 		ZH 1:
-		'Maria phải nhập viện'
+		'Maria nhập viện vì tai'
 		R
-		'do một tai nạn. Ta hơi lo'
+		'nạn... Hơi lo đấy. Đi thăm'
 		R
-		'lắng. Ta nên đi thăm nàng.'
+		'nàng thôi.'
 		\L_00d62:
 		\L_00d55:
 	}
 	{VAR0328 = 4:
 		\L_00c59:
 		ZH 1:
-		'Ta cần nói'
+		'Muốn điều tra bí mật'
 		R
-		'chuyện với Shariela về'
+		'Shangri-La, phải nói chuyện'
 		R
-		'bí mật của Shangri-La.'
+		'với Shariella.'
 		\L_00d62:
 		\L_00d55:
 	}
 	{VAR0328 = 5:
 		\L_00c59:
 		ZH 1:
-		'Ta cần tìm kiếm'
+		'Muốn điều tra bí mật'
 		R
-		'nơi ở của Descoco để điều'
+		'Shangri-La, phải khám xét'
 		R
-		'tra bí mật của Shangri-La.'
+		'dinh thự Descoco.'
 		\L_00d62:
 		\L_00d55:
 	}
@@ -441,25 +425,23 @@
 	{VAR0394 = 2:
 		\L_00c59:
 		ZH 1:
-		'Suzume có vẻ suy sụp vì'
+		'Cô hầu Suzume đang buồn vì'
 		R
-		'người cha độc ác của mình.'
+		'gã cha tồi tệ...'
 		\L_00d62:
 		ZH 1:
-		'Ta muốn làm'
-		R
-		'điều gì đó về nó.'
+		'Ta muốn giúp nàng.'
 		\L_00d62:
 		\L_00d55:
 	}
 	{VAR0394 = 3:
 		\L_00c59:
 		ZH 1:
-		'Ta sẽ không'
+		'Ta sẽ không bao giờ tha thứ'
 		R
-		'bao giờ tha thứ cho cha'
+		'cho cha của Suzume, Hayate'
 		R
-		'của Suzume, Hayate Katou.'
+		'Katou.'
 		\L_00d62:
 		\L_00d55:
 	}
@@ -484,21 +466,19 @@
 		'nếu ta mắc bệnh oku...'
 		\L_00d62:
 		ZH 1:
-		'Đang có một cơn sốt'
+		'Muốn mắc bệnh Okayu, phải'
 		R
-		'ở tầng 10 của Ngục tối'
-		R
-		'Kẻ thù Tự nhiên gần Cossack.'
+		'hôn quái vật Okayu Fever'
 		\L_00d62:
 		ZH 1:
-		'Ta sẽ mắc bệnh'
+		'ở tầng 10 Hang Thiên Địch'
 		R
-		'nếu ta hôn nó...'
+		'gần Cossack...'
 		\L_00d62:
 		ZH 1:
-		'Hmmm, nhưng điều'
+		'Hừm... Chẳng thích chút'
 		R
-		'đó thật kinh tởm...'
+		'nào...'
 		\L_00d62:
 		\L_00d55:
 	}
@@ -576,14 +556,14 @@
 		{VAR0405 = 6:
 			\L_00c59:
 			ZH 1:
-			'Trung tướng Đỏ, Menad...'
+			'Phó tướng Xích Quân Menad...'
 			R
-			'Maris nói với ta rằng nàng'
+			'Maris bảo nàng biển thủ vật'
 			R
-			'đang biển thủ tiền, nhưng...'
+			'tư.'
 			\L_00d62:
 			ZH 1:
-			'ta cần hỏi thẳng nàng.'
+			'Phải hỏi rõ mới được.'
 			\L_00d62:
 			\L_00d55:
 		}
@@ -609,14 +589,12 @@
 	{(VAR0435 = 3) * (VAR0451 = 0):
 		\L_00c59:
 		ZH 1:
-		'Sel đang cảm thấy'
+		'Sel ở Red đang tự trách vì'
 		R
-		'chán nản vì lỗi của nàng'
-		R
-		'mà Chaos đã bị đánh cắp...'
+		'để Chaos bị cướp mất...'
 		\L_00d62:
 		ZH 1:
-		'Đây là cơ hội của ta.'
+		'Cơ hội đây rồi.'
 		\L_00d62:
 		\L_00d55:
 	}
@@ -624,37 +602,31 @@
 		{VAR0476 < VAR0517:
 			\L_00c59:
 			ZH 1:
-			'Thư ký'
-			R
-			'của Lazeal, Raylee...'
+			'Thư ký của Lazeal, Raylee...'
 			\L_00d62:
 			ZH 1:
-			'Đã hơn một tháng'
+			'Đã quá một tháng hẹn ước...'
 			R
-			'kể từ lời hứa của chúng ta,'
-			R
-			'ta có nên đi đón nàng không?'
+			'Đến đón nàng thôi.'
 			\L_00d62:
 			\L_00d55:
 		}
 		{(VAR0476 > VAR0517) + (VAR0476 = VAR0517):
 			\L_00c59:
 			ZH 1:
-			'Thư ký'
-			R
-			'của Lazeal, Raylee...'
+			'Thư ký của Lazeal, Raylee...'
 			\L_00d62:
 			ZH 1:
-			'Nếu ta đợi'
+			'Chờ một tháng chưa đánh'
 			R
-			'một tháng để chinh phục'
+			'thành thì nàng sẽ thuộc về'
 			R
-			'họ, nàng sẽ là của ta...'
+			'ta...'
 			\L_00d62:
 			ZH 1:
-			'Aaah, tại sao thời gian'
+			'A, thời gian trôi nhanh lên'
 			R
-			'không thể trôi nhanh hơn...?'
+			'đi...'
 			\L_00d62:
 			\L_00d55:
 		}
@@ -663,14 +635,14 @@
 	{(VAR0567 = 5) * (VAR0102 \ 0):
 		\L_00c59:
 		ZH 1:
-		'Soul cuối cùng cũng đọc'
+		'Soul cuối cùng đã đọc thư'
 		R
-		'được lá thư của Bound... Hắn'
+		'Bound... Hắn đang đợi ở sào'
 		R
-		'đang đợi ở nơi ẩn náu cũ.'
+		'huyệt.'
 		\L_00d62:
 		ZH 1:
-		'Ta có nên tới đó không...?'
+		'Đến gặp hắn thôi...'
 		\L_00d62:
 		\L_00d55:
 	}
@@ -681,17 +653,17 @@
 		R
 		{VAR0562 > 2:
 			ZH 1:
-			'Chút nữa ta nên'
+			'Chút nữa ta nên đến gặp nàng'
 			R
-			'đến gặp nàng lần nữa.'
+			'lần nữa.'
 			\L_00d62:
 			\L_00d55:
 		}
 		{VAR0562 < 3:
 			ZH 1:
-			'Ta có nên đến'
+			'Ta có nên đến gặp nàng lần'
 			R
-			'gặp nàng lần nữa không?'
+			'nữa không?'
 			\L_00d62:
 		}
 		\L_00d55:
@@ -707,24 +679,20 @@
 		R
 		{VAR0562 > 2:
 			ZH 1:
-			'Lát nữa ta'
-			R
-			'sẽ ghé thăm lại.'
+			'Lát nữa ta sẽ ghé thăm lại.'
 			\L_00d62:
 			\L_00d55:
 		}
 		{VAR0562 < 3:
 			ZH 1:
-			'Ta có nên'
-			R
-			'gặp lại họ không?'
+			'Ta có nên gặp lại họ không?'
 			\L_00d62:
 		}
 		\L_00d55:
 	}
 	\L_00c3d:
 	ZH 1:
-	'Haah... Nghĩ xong rồi.'
+	'Phù... Nghĩ xong rồi.'
 	\L_00d62:
 	\L_00d55:
 	\L_00c9f:

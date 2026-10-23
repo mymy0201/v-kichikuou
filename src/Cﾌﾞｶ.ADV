@@ -196,7 +196,7 @@
 		@L_00e94:
 	}
 	ZH 1:
-	'部下番号エラー：'
+	'Lỗi mã thuộc hạ:'
 	H 0, VAR0516:
 	A
 *L_00550:
@@ -726,19 +726,17 @@
 	{VAR0154 \ 1:
 		\L_01e3a:
 		ZH 1:
-		'Đơn vị của '
+		'Đội quân của'
 		X 1:
-		'.'
-		R
-		'Ngươi muốn làm gì?'
+		'. Bệ hạ muốn làm gì ạ?'
 		R
 	}
 	{VAR0154 = 1:
 		\L_01e3a:
 		ZH 1:
-		'Đơn vị thân binh của'
+		'Đây là đội trực thuộc vua.'
 		R
-		'Nhà vua. Muốn làm gì?'
+		'Bệ hạ muốn làm gì ạ?'
 		R
 	}
 	ZH 1:
@@ -811,24 +809,24 @@
 	{VAR0679 = 1:
 		ZH 1:
 		$L_014d9$
-		'○Bổ sung binh lực'
+		'○Bù quân thiếu'
 		$
 		{VAR0001 \ 0:
 			ZH 1:
 			$L_012b5$
-			'○Thêm lính mới'
+			'○Tuyển thêm quân'
 			$
 		}
 	}
 	{VAR0679 = 0:
 		ZH 1:
 		$L_0117d$
-		'×Bổ sung binh lực'
+		'×Bù quân thiếu'
 		$
 		{VAR0001 \ 0:
 			ZH 1:
 			$L_0117d$
-			'×Thêm lính mới'
+			'×Tuyển thêm quân'
 			$
 		}
 	}
@@ -846,7 +844,7 @@
 	}
 	ZH 1:
 	$L_0127d$
-	'Không làm gì cả'
+	'Thôi'
 	$
 	]
 	@L_0127d:
@@ -868,15 +866,13 @@
 	\L_01ee2:
 	\L_01e3a:
 	ZH 1:
-	'Cấp thêm '
+	'Tuyển thêm'
 	H 0, VAR0003:
 	ZH 1:
-	' quân mới'
-	R
-	'chi phí là '
+	'quân, cần'
 	H 0, VAR0001:
 	ZH 1:
-	'00K Vàng.'
+	'00K G.'
 	\L_01eef:
 	\L_01ee2:
 	\L_01e72:
@@ -884,14 +880,14 @@
 	'Chi phí: '
 	H 5, VAR0001:
 	ZH 1:
-	'00K Vàng 　　　（'
+	'00K G ('
 	H 0, VAR0003:
 	ZH 1:
-	' quân) Ngân sách quốc gia:'
+	'quân) Ngân sách:'
 	R
 	H 5, VAR0519:
 	ZH 1:
-	'00K Vàng'
+	'00K G'
 *L_01358:
 	IM VAR0202, VAR0203:
 	{VAR0000:
@@ -899,17 +895,17 @@
 	}
 	ZH 1:
 	$L_013c2$
-	'Làm đi'
+	'Tuyển'
 	$
 	{VAR0001 < 10000:
 		ZH 1:
 		$L_012a9$
-		'Thêm nhiều hơn nữa'
+		'Tăng số quân tuyển'
 		$
 	}
 	ZH 1:
 	$L_013b8$
-	'Không'
+	'Thôi'
 	$
 	]
 	@L_0117d:
@@ -921,11 +917,9 @@
 	{VAR0519 < VAR0001:
 		\L_01e3a:
 		ZH 1:
-		'Vua Rance,'
+		'Bệ hạ Rance, ngân sách không'
 		R
-		'chúng tôi không có đủ'
-		R
-		'ngân sách cho việc đó.'
+		'đủ ạ.'
 		\L_01eef:
 		\L_01ee2:
 		@L_00f9b:
@@ -973,13 +967,13 @@
 	{VAR0074 = VAR0075:
 		\L_01e3a:
 		ZH 1:
-		'Đơn vị của '
+		'Đội quân của'
 		X 1:
-		' đã đủ'
+		'đã đạt giới hạn'
 		R
 		H 0, VAR0075:
 		ZH 1:
-		' quân, không thể thêm.'
+		'quân, không thể bổ sung.'
 		\L_01eef:
 		\L_01ee2:
 		\L_01e2c:
@@ -987,9 +981,9 @@
 		\L_01e1e:
 		\L_01de6:
 		ZH 1:
-		'Cái gì? Chết tiệt.'
+		'Gì chứ? Chết tiệt. Thôi,'
 		R
-		'Vậy thì ta sẽ dừng lại.'
+		'thôi đi.'
 		\L_01eef:
 		\L_01ee2:
 		\L_01e2c:
@@ -1016,7 +1010,7 @@
 	'Chi phí: '
 	H 0, VAR0226:
 	ZH 1:
-	'00K Vàng'
+	'00K G'
 	R
 	$L_01622$
 	'Làm'
@@ -1038,16 +1032,14 @@
 	{VAR0519 < VAR0226:
 		\L_01e3a:
 		ZH 1:
-		'Vua Rance,'
+		'Bệ hạ Rance, ngân sách không'
 		R
-		'chúng tôi không có đủ'
-		R
-		'ngân sách cho việc đó.'
+		'đủ ạ.'
 		\L_01eef:
 		\L_01ee2:
 		\L_01dca:
 		ZH 1:
-		'Ch...'
+		'Chậc...'
 		\L_01eef:
 		\L_01ee2:
 		@L_00f9b:
@@ -1062,12 +1054,12 @@
 	\L_01e1e:
 	\L_01dca:
 	ZH 1:
-	'Bổ sung quân đội.'
+	'Bù đủ số quân thiếu đi.'
 	\L_01eef:
 	\L_01ee2:
 	\L_01e3a:
 	ZH 1:
-	'Đã hiểu.'
+	'Thần tuân lệnh.'
 	\L_01eef:
 	\L_01ee2:
 	!VAR0001 : VAR0075 - VAR0074!
@@ -1100,7 +1092,7 @@
 	\L_01e1e:
 	\L_01de6:
 	ZH 1:
-	'Hm... Có lẽ ta sẽ gặp'
+	'Hừm... Gặp thử'
 	R
 	X 1:
 	'.'
@@ -1113,7 +1105,7 @@
 	\L_01e02:
 	ZH 1:
 	X 1:
-	'（Trận chiến LV'
+	'(Cấp chiến đấu'
 	H 0, VAR0105:
 	ZH 1:
 	') HP:'
@@ -1145,12 +1137,10 @@
 	ZH 1:
 	X 1:
 	R
-	'Tỉ lệ chiến lược:'
+	'Tỷ lệ mưu kế thành công:'
 	H 3, VAR0092:
 	ZH 1:
-	'%'
-	R
-	'Công/Thủ phép:'
+	'% Ma lực/kháng phép:'
 	H 3, VAR0093:
 	ZH 1:
 	R
@@ -1163,9 +1153,7 @@
 	}
 	{VAR0075 \ 0:
 		ZH 1:
-		'Chỉ huy theo tình huống'
-		R
-		'Khi tấn công （Atk'
+		'Chỉ huy: Công kích (Công'
 		{VAR0078 < 10:
 			ZH 1:
 			'＋'
@@ -1177,7 +1165,7 @@
 			H 0, VAR0078 - 10:
 		}
 		ZH 1:
-		'／Def'
+		'/Thủ'
 		{VAR0079 < 10:
 			ZH 1:
 			'＋'
@@ -1189,9 +1177,7 @@
 			H 0, VAR0079 - 10:
 		}
 		ZH 1:
-		'）'
-		R
-		'Khi phòng thủ （Atk'
+		') Phòng thủ (Công'
 		{VAR0080 < 10:
 			ZH 1:
 			'＋'
@@ -1203,7 +1189,7 @@
 			H 0, VAR0080 - 10:
 		}
 		ZH 1:
-		'／Def'
+		'/Thủ'
 		{VAR0081 < 10:
 			ZH 1:
 			'＋'
@@ -1215,9 +1201,7 @@
 			H 0, VAR0081 - 10:
 		}
 		ZH 1:
-		'）'
-		R
-		'Trong ngục tối （Atk'
+		') Mê cung (Công'
 		{VAR0082 < 10:
 			ZH 1:
 			'＋'
@@ -1229,7 +1213,7 @@
 			H 0, VAR0082 - 10:
 		}
 		ZH 1:
-		'／Def'
+		'/Thủ'
 		{VAR0083 < 10:
 			ZH 1:
 			'＋'
@@ -1280,51 +1264,49 @@
 		R
 		{VAR0152 = 1:
 			ZH 1:
-			'Chỉ huy　Tấn công +'
+			'Chỉ huy: Công +'
 			H 0, VAR0151:
 			ZH 1:
 			R
 		}
 		{VAR0152 = 2:
 			ZH 1:
-			'Chỉ huy phòng thủ +'
+			'Chỉ huy: Thủ +'
 			H 0, VAR0151:
 			ZH 1:
 			R
 		}
 		{VAR0152 = 3:
 			ZH 1:
-			'Cấp dưới　Tấn công ＋'
+			'Binh sĩ: Công +'
 			H 0, VAR0151:
 			ZH 1:
 			R
 		}
 		{VAR0152 = 4:
 			ZH 1:
-			'Phòng thủ cấp dưới +'
+			'Binh sĩ: Thủ +'
 			H 0, VAR0151:
 			ZH 1:
 			R
 		}
 		{VAR0152 = 5:
 			ZH 1:
-			'Chỉ huy ma thuật +'
+			'Chỉ huy: Ma lực +'
 			H 0, VAR0151:
 			ZH 1:
 			R
 		}
 		{VAR0152 = 6:
 			ZH 1:
-			'Chiến lược chỉ huy +'
+			'Chỉ huy: Mưu kế +'
 			H 0, VAR0151:
 			ZH 1:
 			R
 		}
 		{VAR0152 = 0:
 			ZH 1:
-			'Dữ liệu bất'
-			R
-			'thường （Mục S = 0）'
+			'Lỗi dữ liệu (vật phẩm S=0)'
 		}
 		\L_01f09:
 		{VAR0000 = 32:
@@ -1340,38 +1322,32 @@
 	\L_01e1e:
 	\L_01dca:
 	ZH 1:
-	'Hm... Tại sao,'
+	'Ơ... Chẳng phải chính ta'
 	R
-	'nếu không phải ta...?'
+	'sao... Gừ gừ.'
 	\L_01eef:
 	{VAR0469 < 10:
 		ZH 1:
-		'Mhm, hôm nay trông'
+		'Ừ, hôm nay ta vẫn đẹp như'
 		R
-		'vẫn ổn như mọi khi...'
+		'mọi khi...'
 		\L_01eef:
 		\L_01ee2:
 		\0:
 	}
 	{VAR0469 < 20:
 		ZH 1:
-		'Tuy nhiên,'
-		R
-		'ta không biết...'
+		'Mà nghĩ cũng lạ...'
 		\L_01eef:
 		ZH 1:
-		'Sẽ thật tuyệt nếu'
+		'Có thêm một người tài giỏi'
 		R
-		'có thêm ít nhất một người'
-		R
-		'xuất sắc như ta ở đây...'
+		'như ta thì nhàn biết mấy...'
 		\L_01eef:
 		ZH 1:
-		'Sẽ không'
+		'Thuộc hạ toàn đồ vô dụng,'
 		R
-		'tốt nếu tất cả cấp dưới'
-		R
-		'của ta đều vô giá trị.'
+		'khổ thật.'
 		\L_01eef:
 		\L_01ee2:
 		\0:

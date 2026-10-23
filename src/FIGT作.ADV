@@ -35,9 +35,9 @@
 	\L_009d1:
 	ZH 1:
 	R
-	'Chiến lược của quân'
+	'Mưu kế quân ta thành'
 	R
-	'đội đồng minh đã thành công.'
+	'công.'
 	\L_00a4e:
 	\L_00a41:
 	!VAR0606 : 1!
@@ -47,9 +47,9 @@
 	{VAR0154 = 2:
 		\L_009b5:
 		ZH 1:
-		'Xin lỗi. Tôi làm'
+		'Xin lỗi... Em làm vì'
 		R
-		'việc này vì Ngài Rance...'
+		'Chủ nhân Rance...'
 		\L_00a4e:
 		\L_00a41:
 		@L_00632:
@@ -57,21 +57,15 @@
 	{VAR0154 = 5:
 		\L_009b5:
 		ZH 1:
-		'Cuộc tấn công'
+		'Đánh úp phía sau'
 		R
-		'bất ngờ từ phía sau của'
-		R
-		'chúng tôi đã thành công.'
+		'thành công rồi.'
 		\L_00a4e:
 		ZH 1:
-		'Thế lực địch'
-		R
-		'đang hỗn loạn.'
+		'Địch đang rối loạn.'
 		\L_00a4e:
 		ZH 1:
-		'Bây giờ là cơ'
-		R
-		'hội của chúng ta.'
+		'Thời cơ tới rồi!'
 		\L_00a4e:
 		\L_00a41:
 		@L_00632:
@@ -79,19 +73,19 @@
 	{VAR0154 = 6:
 		\L_009b5:
 		ZH 1:
-		'Đó là một'
+		'Kế cơ bản theo binh'
 		R
-		'chiến lược rất cơ bản'
+		'pháp, nhưng hiệu quả'
 		R
-		'nhưng nó đã có hiệu quả.'
+		'đấy.'
 		\L_00a4e:
 		ZH 1:
-		'Luôn biết'
+		'Việc gì cũng cần căn'
 		R
-		'những điều cơ bản.'
+		'bản.'
 		\L_00a4e:
 		ZH 1:
-		'Bây giờ, bắt đầu!'
+		'Tấn công!'
 		\L_00a4e:
 		\L_00a41:
 		@L_00632:
@@ -99,9 +93,9 @@
 	{VAR0154 = 10:
 		\L_009b5:
 		ZH 1:
-		'Đã làm được. Chúng ta đã'
+		'Được rồi! Bao vây'
 		R
-		'bao vây thành công kẻ thù.'
+		'được địch rồi.'
 		\L_00a4e:
 		\L_00a41:
 		@L_00632:
@@ -109,11 +103,11 @@
 	{VAR0154 = 12:
 		\L_009b5:
 		ZH 1:
-		'Chúng tôi'
+		'Đã qua mặt được'
 		R
-		'đã có thể hạ gục kẻ thù'
+		'địch. Thành công'
 		R
-		'từ phía sau. Thành công.'
+		'rồi.'
 		\L_00a4e:
 		\L_00a41:
 		@L_00632:
@@ -121,9 +115,11 @@
 	{VAR0154 = 13:
 		\L_009b5:
 		ZH 1:
-		'Chiến thuật Quân sư Ex dạy'
+		'Mưu kế ngài Ex'
 		R
-		'tôi quả nhiên có hiệu quả.'
+		'dạy... Mình làm được'
+		R
+		'rồi.'
 		\L_00a4e:
 		\L_00a41:
 		@L_00632:
@@ -131,14 +127,14 @@
 	{VAR0154 = 14:
 		\L_009b5:
 		ZH 1:
-		'Ta đã nhìn thấu mọi'
+		'Mọi nước đi của các'
 		R
-		'hành động của các ngươi.'
+		'ngươi,'
 		\L_00a4e:
 		ZH 1:
-		'Các ngươi đang nằm'
+		'ta đều thấy rõ mồn'
 		R
-		'trong lòng bàn tay ta.'
+		'một.'
 		\L_00a4e:
 		\L_00a41:
 		@L_00632:
@@ -146,14 +142,9 @@
 	{VAR0154 = 15:
 		\L_009b5:
 		ZH 1:
-		'Tôi hiểu'
+		'Đẹp rồi! Đội hình V'
 		R
-		'rồi. Hãy sử dụng Đội'
-		R
-		'hình V cho việc này.'
-		R
-		R
-		'Sayoriiii!'
+		'đấy! Sayori ơi!'
 		\L_00a4e:
 		\L_00a41:
 		@L_00632:
@@ -161,11 +152,11 @@
 	{VAR0154 = 16:
 		\L_009b5:
 		ZH 1:
-		'Chiến lược thành'
+		'Mưu kế thành công!'
 		R
-		'công! Bây giờ chúng ta sẽ'
+		'Dùng Tulip diệt sạch'
 		R
-		'tiêu diệt chúng bằng Tulip.'
+		'thôi.'
 		\L_00a4e:
 		\L_00a41:
 		@L_00632:
@@ -173,11 +164,9 @@
 	{VAR0154 = 20:
 		\L_009b5:
 		ZH 1:
-		'Tôi đã học được'
+		'Ta sống mấy trăm năm'
 		R
-		'một số điều sau khi'
-		R
-		'sống hàng trăm năm.'
+		'đâu phải uổng công.'
 		\L_00a4e:
 		\L_00a41:
 		@L_00632:
@@ -185,9 +174,9 @@
 	{VAR0154 = 22:
 		\L_009b5:
 		ZH 1:
-		'Điều này là dành cho'
+		'Dù vì Amiran... vẫn'
 		R
-		'Amiran, nhưng nó vô ích...'
+		'thấy trống rỗng...'
 		\L_00a4e:
 		\L_00a41:
 		@L_00632:
@@ -197,27 +186,25 @@
 		{VAR0701 > 10:
 			\L_009b5:
 			ZH 1:
-			'Tôi rất vui vì đã'
+			'May mà tôi đã đến'
 			R
-			'gia nhập Quân đội Leazas.'
+			'quân Leazas.'
 			\L_00a4e:
 			ZH 1:
-			'Thực hiện'
+			'Mưu kế thành công là'
 			R
-			'các chiến lược thành công'
-			R
-			'là mục đích sống của tôi.'
+			'lẽ sống của tôi.'
 			\L_00a4e:
 			\L_00a41:
 			@L_00632:
 		}
 		\L_009b5:
 		ZH 1:
-		'Huhuhuhuhu. Khoảnh'
+		'Hừ hừ... Tôi sống'
 		R
-		'khắc này, đây là lý'
+		'chính vì khoảnh khắc'
 		R
-		'do tôi sống vì nó.'
+		'này.'
 		\L_00a4e:
 		\L_00a41:
 		@L_00632:
@@ -225,16 +212,14 @@
 	{VAR0154 = 34:
 		\L_009b5:
 		ZH 1:
-		'Tôi không hề mong đợi'
+		'Đúng là tôi có'
 		R
-		'gì hơn ở bản thân mình...'
+		'khác...'
 		\L_00a4e:
 		ZH 1:
-		'Một ngày nào đó tôi'
+		'Sau này sẽ là đại'
 		R
-		'sẽ trở thành vị tướng'
-		R
-		'vĩ đại nhất ở Leazas.'
+		'tướng quân Leazas!'
 		\L_00a4e:
 		\L_00a41:
 		@L_00632:
@@ -242,16 +227,14 @@
 	{VAR0154 = 35:
 		\L_009b5:
 		ZH 1:
-		'Haah... Có vẻ'
+		'Phù... Có vẻ thành'
 		R
-		'như nó đã thành công'
-		R
-		'bằng cách nào đó...'
+		'công rồi...'
 		\L_00a4e:
 		ZH 1:
-		'Tim tôi vẫn'
+		'Tim vẫn còn đập'
 		R
-		'đập thình thịch...'
+		'thình thịch...'
 		\L_00a4e:
 		\L_00a41:
 		@L_00632:
@@ -259,9 +242,9 @@
 	{VAR0154 = 36:
 		\L_009b5:
 		ZH 1:
-		'Được rồi, tốt rồi. Bây'
+		'Phải, thế là được.'
 		R
-		'giờ hãy bao vây chúng.'
+		'Giờ bao vây thôi.'
 		\L_00a4e:
 		\L_00a41:
 		@L_00632:
@@ -269,14 +252,14 @@
 	{VAR0154 = 37:
 		\L_00999:
 		ZH 1:
-		'Đồ ngu.'
+		'Đồ ngu xuẩn.'
 		\L_00a4e:
 		ZH 1:
-		'Tôi sẽ không thương hại bất'
+		'Mắc mưu trẻ con thế'
 		R
-		'kỳ kẻ thù nào rơi vào một'
+		'này, làm địch cũng'
 		R
-		'cái bẫy đơn giản như vậy!'
+		'đáng xấu hổ!'
 		\L_00a4e:
 		\L_00a41:
 		@L_00632:
@@ -289,19 +272,21 @@
 *L_00632:
 	\L_009d1:
 	ZH 1:
-	'Nhờ chiến lược thành công,'
+	'Nhờ mưu kế thành'
+	R
+	'công,'
 	R
 	{VAR0606 = 1:
 		ZH 1:
-		'sức chiến đấu của'
+		'hiệu quả chiến đấu'
 		R
-		'quân ta tăng. (+10%)'
+		'quân ta +10%.'
 	}
 	{VAR0606 = 2:
 		ZH 1:
-		'sức chiến đấu của'
+		'hiệu quả chiến đấu'
 		R
-		'quân ta tăng. (+50%)'
+		'quân ta +50%.'
 	}
 	\L_00a4e:
 	\L_00a41:
@@ -336,9 +321,9 @@
 	CC 0, 400, 640, 400, 0, 0:
 	\L_009d1:
 	ZH 1:
-	'Chiến lược của quân'
+	'Mưu kế quân địch'
 	R
-	'địch đã thành công.'
+	'thành công.'
 	\L_00a4e:
 	\L_00a41:
 	!VAR0606 : 11!
@@ -348,11 +333,9 @@
 	{VAR0156 = 1:
 		\L_009ed:
 		ZH 1:
-		'Chúng ta có'
+		'Quân ít hơn thì phải'
 		R
-		'số lượng ít hơn nên phải'
-		R
-		'chiến đấu bằng cái đầu.'
+		'dùng đầu óc mà đánh.'
 		\L_00a4e:
 		\L_00a41:
 		@L_00919:
@@ -360,9 +343,11 @@
 	{VAR0156 = 4:
 		\L_009ed:
 		ZH 1:
-		'Xin lỗi nhé, các ngươi'
+		'Xin lỗi nhé, các'
 		R
-		'đã rơi vào bẫy của ta.'
+		'ngươi đã mắc bẫy'
+		R
+		'rồi.'
 		\L_00a4e:
 		\L_00a41:
 		@L_00919:
@@ -370,11 +355,11 @@
 	{VAR0156 = 8:
 		\L_009ed:
 		ZH 1:
-		'Được rồi! Chiến'
+		'Được! Mưu kế thành'
 		R
-		'lược thành công.'
+		'công! Húc vào'
 		R
-		'Giải quyết Leazas!'
+		'Leazas!'
 		\L_00a4e:
 		\L_00a41:
 		@L_00919:
@@ -382,9 +367,9 @@
 	{VAR0156 = 22:
 		\L_00a09:
 		ZH 1:
-		'Được rồi... Bây giờ chiến'
+		'Được... Giờ dễ đánh'
 		R
-		'đấu sẽ dễ dàng hơn rồi...'
+		'hơn rồi...'
 		\L_00a4e:
 		\L_00a41:
 		@L_00919:
@@ -392,11 +377,9 @@
 	{VAR0156 = 45:
 		\L_009ed:
 		ZH 1:
-		'Aah... Điều'
+		'Chán thật... Dễ mắc'
 		R
-		'này thật nhàm chán...'
-		R
-		'Việc đó quá dễ dàng...'
+		'bẫy đến thế sao...'
 		\L_00a4e:
 		\L_00a41:
 		@L_00919:
@@ -409,19 +392,19 @@
 *L_00919:
 	\L_009d1:
 	ZH 1:
-	'Nhờ chiến lược thành công,'
+	'Do mưu kế của địch,'
 	R
 	{VAR0606 = 11:
 		ZH 1:
-		'sức chiến đấu của'
+		'hiệu quả chiến đấu'
 		R
-		'quân ta giảm. (-10%)'
+		'quân ta -10%.'
 	}
 	{VAR0606 = 12:
 		ZH 1:
-		'Sức chiến đấu của'
+		'hiệu quả chiến đấu'
 		R
-		'quân ta giảm. (-50%)'
+		'quân ta -50%.'
 	}
 	\L_00a4e:
 	\L_00a41:

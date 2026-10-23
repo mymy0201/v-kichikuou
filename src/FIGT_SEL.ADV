@@ -66,17 +66,17 @@
 	Y 1, 1:
 	{(VAR0616 = 0) * (VAR0613 > 2):
 		ZH 1:
-		'Ngươi sẽ làm'
+		'Chọn hành động'
 		R
-		'gì?（Nhấp chuột phải）'
+		'(Nhấp chuột phải)'
 		@L_003e6:
 	}
 	ZH 1:
-	'Tấn công ai?'
+	'Tấn công địch nào?'
 	R
 	{VAR0019 = 1:
 		ZH 1:
-		'［Công trực diện］'
+		'［Đánh thường］'
 	}
 	{VAR0019 = 2:
 		ZH 1:
@@ -100,7 +100,7 @@
 		}
 		{VAR0019 = 12:
 			ZH 1:
-			'Nhân Tiện (By the Way)'
+			'Nhân Tiện'
 		}
 		{VAR0019 = 13:
 			ZH 1:
@@ -140,11 +140,11 @@
 		}
 		{VAR0019 = 30:
 			ZH 1:
-			'Trứng Quái Thú'
+			'Viên nang Quái thú'
 		}
 		{VAR0019 = 31:
 			ZH 1:
-			'Trứng Quái Thú'
+			'Viên nang Quái thú'
 		}
 		{VAR0019 = 32:
 			ZH 1:
@@ -522,7 +522,7 @@
 	{VAR0019 \ 1:
 		ZH 1:
 		$L_009b1$
-		'Trực tiếp'
+		'Đánh thường'
 		$
 		!VAR0013 : VAR0013 + 20!
 		!VAR0015 : VAR0015 + 20!
@@ -549,7 +549,7 @@
 	{VAR0101 = 27:
 		ZH 1:
 		$L_00abb$
-		'Trứng Quái Thú'
+		'Viên nang Quái thú'
 		$
 		!VAR0013 : VAR0013 + 20!
 		!VAR0015 : VAR0015 + 20!
@@ -558,7 +558,7 @@
 	{VAR0101 = 26:
 		ZH 1:
 		$L_00ace$
-		'Trứng Quái Thú'
+		'Viên nang Quái thú'
 		$
 		!VAR0013 : VAR0013 + 20!
 		!VAR0015 : VAR0015 + 20!
@@ -589,7 +589,7 @@
 		{VAR0154 = 7:
 			ZH 1:
 			$L_009fd$
-			'Nhân Tiện (By the Way)'
+			'Nhân Tiện'
 			$
 			!VAR0013 : VAR0013 + 20!
 			!VAR0015 : VAR0015 + 20!

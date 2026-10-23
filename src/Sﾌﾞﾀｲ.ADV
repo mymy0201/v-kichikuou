@@ -164,9 +164,9 @@
 		\L_00eec:
 		\L_00e8f:
 		ZH 1:
-		'Ngươi không thể triển'
+		'Chưa chọn đơn vị thì'
 		R
-		'khai mà không chọn đơn vị.'
+		'không thể xuất trận.'
 		\L_00fd9:
 		\L_00fcc:
 		ZC 1, 255:
@@ -176,11 +176,11 @@
 		\L_00eec:
 		\L_00e8f:
 		ZH 1:
-		'Kinh phí'
+		'Không đủ quân phí.'
 		R
-		'không đủ. Vui lòng thay đổi'
+		'Hãy thay đổi'
 		R
-		'đơn vị triển khai của ngươi.'
+		'đội hình xuất trận.'
 		\L_00fd9:
 		\L_00fcc:
 		ZC 1, 255:
@@ -252,16 +252,16 @@
 	\L_00eec:
 	\L_00e8f:
 	ZH 1:
-	'Lên đến'
+	'Tối đa '
 	H 0, VAR0040:
 	ZH 1:
-	'đơn vị'
+	' đội'
 	{VAR0040 \ 1:
 		ZH 1:
-		'giây'
+		''
 	}
 	ZH 1:
-	'có thể xuất trận.'
+	' được xuất trận.'
 	\L_00fd9:
 	\L_00fcc:
 	ZC 1, 255:
@@ -332,7 +332,7 @@
 	R
 	ZM 16:
 	ZH 1:
-	'Chi phí chiến tranh:'
+	'Quân phí:'
 	H 5, VAR0016:
 	ZH 1:
 	'00K'
@@ -548,20 +548,20 @@
 	'　'
 	{(VAR0086 = 0) + (VAR0086 = 4) + (VAR0086 = 10):
 		ZH 1:
-		'［Mặt trước/－－］'
+		'［Tiền tuyến/－－］'
 	}
 	{(VAR0086 = 1) + (VAR0086 = 2) + (VAR0086 = 11):
 		ZH 1:
-		'［－－/Quay lại］'
+		'［－－/Hậu tuyến］'
 	}
 	{VAR0086 = 3:
 		ZH 1:
-		'［Trước/Sau］'
+		'［Tiền/Hậu tuyến］'
 	}
 	{VAR0101 \ 0:
 		ZH 1:
 		X VAR0201 + VAR0101 - 1:
-		'trang bị'
+		' (đang trang bị)'
 	}
 	ZH 1:
 	R

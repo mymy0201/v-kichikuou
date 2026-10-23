@@ -23,7 +23,7 @@
 	}
 	\L_00c45:
 	ZH 1:
-	'ロードセーブ．ＡＤＶエラー'
+	'Lỗi lưu/tải dữ liệu'
 	\L_00d32:
 	\L_00d25:
 	%0:
@@ -38,7 +38,7 @@
 		\L_00c45:
 		ZM 24:
 		ZH 1:
-		'＜　Đã xảy ra lỗi　）'
+		'＜ Đã xảy ra lỗi ＞'
 		\L_00d32:
 		\L_00d25:
 		@L_001ad:
@@ -47,7 +47,7 @@
 	\L_00c45:
 	ZM 24:
 	ZH 1:
-	'＜　Tự động lưu　）'
+	'＜ Tự động lưu ＞'
 	R
 	!VAR0000 : 1!
 	\L_00b31:
@@ -68,7 +68,7 @@
 	\L_00c45:
 	ZM 24:
 	ZH 1:
-	'＜　Tải xong　）'
+	'＜ Đã tải xong ＞'
 	R
 	!VAR0000 : VAR0022!
 	\L_00b31:
@@ -108,7 +108,7 @@
 	\L_00c45:
 	ZM 24:
 	ZH 1:
-	'＜　Tải dữ liệu　）'
+	'＜ Tải dữ liệu ＞'
 	R
 	ZM 16:
 	ZH 1:
@@ -308,24 +308,24 @@
 	ZH 1:
 	X 1:
 	R
-	'［ＬＰ：'
+	'[LP: '
 	H 4, VAR0537:
 	ZH 1:
-	', Tháng '
+	', tháng '
 	H 2, VAR0538:
 	ZH 1:
-	', Tuần '
+	', tuần '
 	H 2, VAR0539:
 	ZH 1:
-	'］'
+	']'
 	\0:
 *L_0067f:
 	ZH 1:
 	$L_0027f$
 	X 1:
-	'：： - - -'
+	'［LP: ----,'
 	R
-	'-, tháng--, Tuần -- ］'
+	'tháng --, tuần --］'
 	$
 	!VAR0021 : VAR0021 + 1!
 	\0:
@@ -335,7 +335,7 @@
 	\L_00c45:
 	ZM 24:
 	ZH 1:
-	'＜　Đang lưu dữ liệu　）'
+	'＜ Sao chép bản lưu ＞'
 	R
 	ZM 16:
 	LP 1, VAR0021, 1:
@@ -345,14 +345,14 @@
 	'Tự động　ＬＰ：'
 	H 4, VAR0537:
 	ZH 1:
-	', Tháng '
+	', tháng '
 	H 2, VAR0538:
 	ZH 1:
-	', Tuần '
+	', tuần '
 	H 2, VAR0539:
 	ZH 1:
 	R
-	'Đang lưu dữ liệu'
+	'Chép bản tự động lưu'
 	R
 	'từ đầu lượt chơi này.'
 *L_00739:
@@ -495,24 +495,24 @@
 	ZH 1:
 	X 1:
 	R
-	'［ＬＰ：'
+	'[LP: '
 	H 4, VAR0537:
 	ZH 1:
-	', Tháng '
+	', tháng '
 	H 2, VAR0538:
 	ZH 1:
-	', Tuần '
+	', tuần '
 	H 2, VAR0539:
 	ZH 1:
-	'］'
+	']'
 	\0:
 *L_00a4b:
 	ZH 1:
 	X 1:
 	R
-	'：： - - -'
+	'［LP: ----,'
 	R
-	'-, tháng--, Tuần -- ］'
+	'tháng --, tuần --］'
 	\0:
 *L_00a63:
 	QC VAR0022, 1:
@@ -567,10 +567,10 @@
 	'　　　　ＬＰ：'
 	H 4, VAR0537:
 	ZH 1:
-	', Tháng'
+	', tháng '
 	H 2, VAR0538:
 	ZH 1:
-	', Tuần'
+	', tuần '
 	H 2, VAR0539:
 	ZH 1:
 	\0:

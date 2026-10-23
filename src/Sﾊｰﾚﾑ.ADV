@@ -238,46 +238,46 @@
 	R
 	{VAR0170 \ 0:
 		ZH 1:
-		'Lần cuối triệu tập: LP'
+		'Lần gọi cuối: LP '
 		H 0, VAR0001:
 		ZH 1:
-		', Tháng'
+		', tháng '
 		H 0, VAR0002:
 		ZH 1:
-		', Tuần'
+		', tuần '
 		H 0, VAR0003:
 		ZH 1:
 	}
 	{VAR0170 = 0:
 		ZH 1:
-		'Lần cuối triệu tập: LP'
+		'Lần gọi cuối: LP '
 		{VAR0006 = 1:
 			ZH 1:
-			'－, Tháng'
+			'－, tháng '
 		}
 		{VAR0006 = 2:
 			ZH 1:
-			'－－, Tháng'
+			'－－, tháng '
 		}
 		{VAR0006 = 3:
 			ZH 1:
-			'－－－, Tháng'
+			'－－－, tháng '
 		}
 		{VAR0006 = 4:
 			ZH 1:
-			'－－－－, Tháng'
+			'－－－－, tháng '
 		}
 		{VAR0006 = 5:
 			ZH 1:
-			'－－－－－, Tháng'
+			'－－－－－, tháng '
 		}
 		{VAR0007 = 1:
 			ZH 1:
-			'－, Tuần'
+			'－, tuần '
 		}
 		{VAR0007 = 2:
 			ZH 1:
-			'－－, Tuần'
+			'－－, tuần '
 		}
 		ZH 1:
 		'－'

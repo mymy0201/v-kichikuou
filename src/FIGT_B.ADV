@@ -17,7 +17,7 @@
 	\L_013d9:
 	\L_01315:
 	ZH 1:
-	'Quân '
+	''
 	X 10:
 	R
 	'xuất hiện xung quanh'
@@ -32,12 +32,11 @@
 	\L_013a1:
 	\L_0134d:
 	ZH 1:
-	'Bệ hạ Rance, nếu'
-	R
-	'không sớm hành động,'
+	'Bệ hạ, nếu chậm trễ,'
 	R
 	X 8:
-	' sẽ bị chiếm đóng.'
+	R
+	'sẽ bị chiếm đóng.'
 	\L_01402:
 	ZH 1:
 	'Chúng ta nên làm gì?'
@@ -65,14 +64,14 @@
 *L_00152:
 	\L_012dd:
 	ZH 1:
-	'Lũ ngu! Dám bén mảng'
+	'Lũ ngu! Dám bén mảng đến'
 	R
-	'đến lãnh thổ của ta à?'
+	'lãnh thổ của ta à?'
 	\L_01402:
 	ZH 1:
-	'Còn phải hỏi'
+	'Còn phải hỏi sao? Giết sạch'
 	R
-	'sao? Giết sạch chúng!'
+	'chúng!'
 	\L_01402:
 	\L_013f5:
 	\L_0133f:
@@ -89,12 +88,14 @@
 			\L_01331:
 			\L_012dd:
 			ZH 1:
-			'Uh... Owowow... Tôi nghĩ có lẽ tôi bị tiêu chảy.'
+			'Ư... Ái da... Hình như ta bị'
+			R
+			'tiêu chảy rồi.'
 			\L_01402:
 			ZH 1:
-			'Xin lỗi, Vua Rance. Cho phép'
+			'Rance, xin lỗi. Cho ta nghỉ'
 			R
-			'tôi vắng mặt trong trận này.'
+			'trận này.'
 			\L_01402:
 			\L_013f5:
 			\L_01315:
@@ -113,14 +114,12 @@
 			\L_01331:
 			\L_012dd:
 			ZH 1:
-			'Ta (haniwa~) sẽ không'
-			R
-			'tham gia vào những cuộc'
+			'Tôi không có ý định tham gia'
 			\L_01402:
 			ZH 1:
-			'tranh cãi giữa đám người'
+			'trò tranh chấp thấp kém giữa'
 			R
-			'thấp kém như các ngươi.'
+			'loài người.'
 			\L_01402:
 			\L_013f5:
 			\L_01315:
@@ -139,9 +138,9 @@
 			\L_01331:
 			\L_012dd:
 			ZH 1:
-			'Đây không phải là'
+			'Đây... không phải cuộc chiến'
 			R
-			'cuộc chiến của chúng tôi.'
+			'của chúng ta.'
 			\L_01402:
 			\L_013f5:
 			\L_01315:
@@ -199,23 +198,22 @@
 	\L_013a1:
 	\L_012dd:
 	ZH 1:
-	'... Ừ, dân chúng'
+	'... Ừ, dân chúng sẽ chịu'
 	R
-	'sẽ chịu thiệt, nhưng như'
+	'thiệt, nhưng như thế tiện'
 	R
-	'thế tiện cho quân ta hơn.'
+	'cho quân ta hơn.'
 	\L_01402:
 	ZH 1:
-	'Maris, ta sẽ'
-	R
-	'giao chiến trong thành '
+	'Maris, ta đánh trong thành:'
 	X 8:
-	'. Được rồi?'
+	R
+	'Rõ chưa?'
 	\L_01402:
 	\L_013f5:
 	\L_0134d:
 	ZH 1:
-	'Đã hiểu.'
+	'Thần hiểu rồi.'
 	\L_01402:
 	\L_013f5:
 *L_0049b:
@@ -320,20 +318,18 @@
 	{(VAR0556 \ 0) * (VAR0557 \ 0) * (VAR0558 \ 0) * (VAR0559 \ 0) * (VAR0682 \ 0):
 		\L_0134d:
 		ZH 1:
-		'Xin lỗi, Bệ hạ'
+		'Bệ hạ Rance, hiện không có'
 		R
-		'Rance. Hiện không có ninja'
-		R
-		'nào sẵn sàng nhận lệnh.'
+		'ninja nào có thể hành động.'
 		\L_01402:
 		\L_013f5:
 		\L_012dd:
 		ZH 1:
-		'Hừ, thật bực'
+		'Hừ, thật bực mình. Đúng lúc'
 		R
-		'mình. Đúng lúc ta cần thì'
+		'ta cần thì chẳng đứa nào'
 		R
-		'chẳng đứa nào dùng được!'
+		'dùng được!'
 		\L_01402:
 		\L_013f5:
 		@L_00105:
@@ -382,7 +378,7 @@
 *L_00889:
 	\L_012dd:
 	ZH 1:
-	'... Không sao đâu.'
+	'...Nghĩ lại thì thôi vậy.'
 	\L_01402:
 	\L_013f5:
 	\L_0134d:
@@ -404,7 +400,9 @@
 	\L_013a1:
 	\L_01315:
 	ZH 1:
-	'Kanami Kentou lao xuống từ trần nhà.'
+	'Kanami Kentou lao xuống từ'
+	R
+	'trần nhà.'
 	\L_01402:
 	\L_013f5:
 	\L_01369:
@@ -453,7 +451,7 @@
 	\L_013f5:
 	\L_0134d:
 	ZH 1:
-	'Có việc gì vậy, Vua Rance?'
+	'Ngài Rance, có việc gì ạ?'
 	\L_01402:
 	\L_013f5:
 	@L_00ad4:
@@ -470,7 +468,9 @@
 	\L_013a1:
 	\L_01315:
 	ZH 1:
-	'Wichita bất ngờ xuất hiện phía sau Rance.'
+	'Wichita bất ngờ xuất hiện'
+	R
+	'phía sau Rance.'
 	\L_01402:
 	\L_013f5:
 	\L_0134d:
@@ -499,14 +499,12 @@
 *L_00ad4:
 	\L_012dd:
 	ZH 1:
-	'Được rồi,'
-	R
-	'nghe lệnh ta đây.'
+	'Nghe đây, ta giao nhiệm vụ.'
 	\L_01402:
 	ZH 1:
-	'Đi kiểm tra sức mạnh'
+	'Đi dò xét binh lực của địch'
 	R
-	'của kẻ thù đang đến gần.'
+	'đang tiến tới.'
 	\L_01402:
 	\L_013f5:
 	\L_0134d:
@@ -534,9 +532,9 @@
 		\L_013a1:
 		\L_01315:
 		ZH 1:
-		'Kanami quay'
+		'Kanami quay lại với thông'
 		R
-		'lại với thông tin.'
+		'tin.'
 		\L_01402:
 	}
 	{VAR0585 = 2:
@@ -544,9 +542,9 @@
 		\L_013a1:
 		\L_01315:
 		ZH 1:
-		'Freya quay lại'
+		'Freya quay lại với thông'
 		R
-		'với thông tin.'
+		'tin.'
 		\L_01402:
 	}
 	{VAR0585 = 3:
@@ -554,9 +552,9 @@
 		\L_013a1:
 		\L_01315:
 		ZH 1:
-		'Kaoru quay lại'
+		'Kaoru quay lại với thông'
 		R
-		'với thông tin.'
+		'tin.'
 		\L_01402:
 	}
 	{VAR0585 = 4:
@@ -564,9 +562,9 @@
 		\L_013a1:
 		\L_01315:
 		ZH 1:
-		'Wichita quay'
+		'Wichita quay lại với thông'
 		R
-		'lại với thông tin.'
+		'tin.'
 		\L_01402:
 	}
 	{VAR0585 = 5:
@@ -574,9 +572,9 @@
 		\L_013a1:
 		\L_01315:
 		ZH 1:
-		'Saitou quay'
+		'Saitou quay lại với thông'
 		R
-		'lại với thông tin.'
+		'tin.'
 		\L_01402:
 	}
 	ZH 1:
@@ -606,11 +604,11 @@
 		\L_00dad:
 	}
 	ZH 1:
-	'Chỉ huy'
+	'Số tướng: '
 	H 0, VAR0002:
 	ZH 1:
 	R
-	'Tổng số'
+	'Tổng quân: '
 	H 0, VAR0001:
 	ZH 1:
 	\L_01402:
@@ -626,9 +624,9 @@
 	\L_0134d:
 	{VAR0001 > 5000:
 		ZH 1:
-		'Một lực lượng khá'
+		'Binh lực khá mạnh đấy ạ. Bệ'
 		R
-		'mạnh. Chúng ta sẽ làm gì?'
+		'hạ định làm gì?'
 		\L_01402:
 	}
 	{VAR0001 < 5001:
@@ -663,9 +661,9 @@
 	\L_013f5:
 	\L_01315:
 	ZH 1:
-	'Rance chờ mãi, nhưng'
+	'Rance chờ mãi, nhưng không'
 	R
-	'không thấy ninja quay về.'
+	'thấy ninja quay về.'
 	\L_01402:
 	{VAR0585 = 1:
 		ZH 1:
@@ -732,21 +730,21 @@
 	\L_013f5:
 	\L_012dd:
 	ZH 1:
-	'Cứ mặc kệ.'
+	'Cứ mặc kệ. Ta không quan'
 	R
-	'Ta không quan tâm.'
+	'tâm.'
 	\L_01402:
 	\L_013f5:
 	\L_0134d:
 	ZH 1:
-	'Nhưng rồi...'
+	'Nhưng như vậy thì...'
 	\L_01402:
 	\L_013f5:
 	\L_012dd:
 	ZH 1:
-	'Im đi. Ta chẳng'
+	'Im đi. Đừng có ý kiến với'
 	R
-	'quan tâm cô nghĩ gì.'
+	'ta.'
 	\L_01402:
 	\L_013f5:
 	\L_0134d:
@@ -797,10 +795,14 @@
 		\L_013d9:
 		\L_01315:
 		ZH 1:
-		'Lâu đài đã sụp đổ... Leazas không còn nữa.'
+		'Thành thất thủ... Vương quốc'
+		R
+		'Leazas đã diệt vong.'
 		\L_01402:
 		ZH 1:
-		'Nhưng không ai có thể tìm thấy Vua Rance.'
+		'Nhưng chẳng ai tìm thấy tung'
+		R
+		'tích Quốc vương Rance.'
 		\L_01402:
 		\L_013f5:
 		\L_013e7:
@@ -820,9 +822,9 @@
 	%#PCMPLAY.ADV:
 	\L_01315:
 	ZH 1:
-	'Quân đội của chúng'
+	'Quân đội của chúng ta đã bị'
 	R
-	'ta đã bị đánh bại...'
+	'đánh bại...'
 	\L_01402:
 	ZH 1:
 	X 8:
@@ -851,14 +853,14 @@
 	{VAR0158 = 1:
 		\L_01315:
 		ZH 1:
-		'Lâu đài đã sụp'
+		'Thành thất thủ... Vương quốc'
 		R
-		'đổ... Leazas không còn nữa.'
+		'Leazas đã diệt vong.'
 		\L_01402:
 		ZH 1:
-		'Nhưng không ai có'
+		'Nhưng chẳng ai tìm thấy tung'
 		R
-		'thể tìm thấy Vua Rance.'
+		'tích Quốc vương Rance.'
 		\L_01402:
 		\L_013f5:
 		!VAR0805 : 2!

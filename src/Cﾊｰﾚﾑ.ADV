@@ -375,9 +375,9 @@
 	ZH 1:
 	'Ｃハーレム．ＡＤＶ'
 	R
-	'［すっぽ抜けＥＲＲＯＲ］'
+	'［Lỗi nhánh xử lý］'
 	R
-	'ＣＡＬＬ＝'
+	'CALL='
 	H 0, VAR0516:
 	A
 	@L_00610:
@@ -563,14 +563,14 @@
 	\L_00e95:
 	\L_00e79:
 	ZH 1:
-	'Rance nhận'
+	'Rance đã có thêm'
 	R
-	'thêm kinh nghiệm?'
+	'kinh nghiệm...?'
 	R
 	R
 	H 0, VAR0248:
 	ZH 1:
-	' kinh nghiệm nhận được.'
+	' điểm kinh nghiệm.'
 	\L_00f66:
 	!VAR0154 : 1!
 	!VAR0104 : VAR0104 + VAR0248!

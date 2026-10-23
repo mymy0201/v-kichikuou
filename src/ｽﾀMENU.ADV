@@ -169,11 +169,7 @@
 	@L_0026f:
 	\L_01266:
 	ZH 1:
-	'Ｘｓｐｅｃ'
-	R
-	'（ＧＡ／ＣＰＵｓｐｅｃ）'
-	R
-	'Đang đo lại.'
+	'Đo lại Xspec (GA/CPU).'
 	\L_01353:
 	\L_01346:
 	%#XSPEC.ADV:
@@ -347,7 +343,7 @@
 	ZH 1:
 	MS 1, "Rance":
 	R
-	MS 2, "Kỵ sĩ Leazas":
+	MS 2, "Binh sĩ Leazas":
 	MM VAR0198 + (VAR0154 - 1) * 3 + 0, 1:
 	MM VAR0198 + (VAR0154 - 1) * 3 + 1, 2:
 	MM VAR0198 + (VAR0154 - 1) * 3 + 2, 3:
@@ -441,7 +437,7 @@
 	ZH 1:
 	MS 1, "Rance":
 	R
-	MS 2, "Kỵ sĩ Leazas":
+	MS 2, "Binh sĩ Leazas":
 	MM VAR0198 + (VAR0154 - 1) * 3 + 0, 1:
 	MM VAR0198 + (VAR0154 - 1) * 3 + 1, 2:
 	MM VAR0198 + (VAR0154 - 1) * 3 + 2, 3:
@@ -593,80 +589,76 @@
 	{VAR0001 = 1:
 		\L_01266:
 		ZH 1:
-		'Thưởng thức'
+		'Nghe các bản nhạc dùng trong'
 		R
-		'những bản nhạc ngươi'
-		R
-		'đã nghe trong trò chơi.'
+		'trò chơi.'
 		\L_00e58:
 		\L_01346:
 	}
 	{VAR0001 = 2:
 		\L_01266:
 		ZH 1:
-		'Đến Dinh thự của Alice.'
+		'Vào Dinh thự Alice. Có thay'
 		R
-		'Đọc hướng dẫn cách chơi và'
+		'đổi so với sách hướng dẫn;'
 		R
-		'nhiều điều thú vị khác.'
+		'nhớ đọc nhé.'
 		\L_00e58:
 		\L_01346:
 	}
 	{VAR0001 = 3:
 		\L_01266:
 		ZH 1:
-		'Lắng nghe các'
+		'Xin hãy nghe lời thỉnh cầu'
 		R
-		'yêu cầu của ta.'
+		'của tôi.'
 		\L_00e58:
 		\L_01346:
 	}
 	{VAR0001 = 4:
 		\L_01266:
 		ZH 1:
-		'Đây là điệp viên'
+		'Saitou là điệp viên được một'
 		R
-		'Saitou. Cô được một kẻ phái'
-		R
-		'đến để do thám Alicesoft.'
+		'người phái tới Alicesoft.'
 		\L_00e58:
 		\L_01346:
 	}
 	{VAR0001 = 5:
 		\L_01266:
 		ZH 1:
-		'Tiếp tục trò chơi từ'
+		'Tiếp tục trò chơi từ dữ liệu'
 		R
-		'dữ liệu đã lưu trước đó.'
+		'đã lưu trước đó.'
 		\L_00e58:
 		\L_01346:
 	}
 	{VAR0001 = 6:
 		\L_01266:
 		ZH 1:
-		'Bắt đầu trò chơi'
+		'Bắt đầu trò chơi mới từ đoạn'
 		R
-		'mới từ đoạn mở đầu.'
+		'mở đầu.'
 		\L_00e58:
 		\L_01346:
 	}
 	{VAR0001 = 7:
 		\L_01266:
 		ZH 1:
-		'Chiêm ngưỡng các hình'
+		'Xem lại các hình CG đã mở'
 		R
-		'ảnh CG mà ngươi đã mở khóa.'
+		'khóa.'
 		\L_00e58:
 		\L_01346:
 	}
 	{VAR0001 = 10:
 		\L_01266:
 		ZH 1:
-		'Tựa đề của trò chơi này.'
+		'Đây là tên trò chơi. Không'
 		R
-		'Đừng trông chờ tên của hãng'
+		'hiện nhầm tên game của hãng'
 		R
-		'khác xuất hiện ở đây nhé.'
+		'khác chứ?'
 		\L_00e58:
 		\L_01346:
 	}

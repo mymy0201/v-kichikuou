@@ -2,19 +2,19 @@
 	\L_0046b:
 	ZH 1:
 	$L_008dd$
-	'Lệnh lại'
+	'Lặp lại lệnh'
 	$
 	R
 	$L_00110$
-	'Đồng minh lại di chuyển'
+	'Cho quân ta đi lại'
 	$
 	R
 	$L_00619$
-	'Tăng VÀNG'
+	'Tăng tiền'
 	$
 	R
 	$L_001d3$
-	'Tòa nhà'
+	'Xây dựng'
 	$
 	R
 	$L_006a8$
@@ -34,7 +34,7 @@
 	$
 	R
 	$L_007a4$
-	'Tất cả các mục'
+	'Nhận mọi vật phẩm'
 	$
 	R
 	$L_00669$
@@ -46,7 +46,7 @@
 	$
 	R
 	$L_0090d$
-	'Thử thách Chúa'
+	'Thách đấu thần'
 	$
 	R
 	$L_00924$
@@ -54,7 +54,7 @@
 	$
 	R
 	$L_00489$
-	'Phó chủ tịch'
+	'VP'
 	$
 	R
 	$L_00175$
@@ -62,7 +62,7 @@
 	$
 	R
 	$L_001a7$
-	'Tất cả CG'
+	'Mở toàn bộ CG'
 	$
 	R
 	$L_00020$
@@ -113,62 +113,62 @@
 	\L_0046b:
 	ZH 1:
 	$L_0033f$
-	'Học viện quân sự:'
+	'Học viện nữ sĩ quan: '
 	{VAR0550 = 1:
-		'ｏｎ'
+		'Bật'
 	}
 	{VAR0550 \ 1:
-		'ｏｆｆ'
+		'Tắt'
 	}
 	$
 	R
 	$L_00371$
-	'Thư viện 　：'
+	'Thư viện: '
 	{VAR0551 = 1:
-		'ｏｎ'
+		'Bật'
 	}
 	{VAR0551 \ 1:
-		'ｏｆｆ'
+		'Tắt'
 	}
 	$
 	R
 	$L_003a3$
-	'Bệnh viện thiên tài ：'
+	'Bệnh viện Thiên Tài: '
 	{VAR0552 = 1:
-		'ｏｎ'
+		'Bật'
 	}
 	{VAR0552 \ 1:
-		'ｏｆｆ'
+		'Tắt'
 	}
 	$
 	R
 	$L_003d5$
-	'Tháp S&M　 :'
+	'Tháp bạo dâm: '
 	{VAR0553 = 1:
-		'ｏｎ'
+		'Bật'
 	}
 	{VAR0553 \ 1:
-		'ｏｆｆ'
+		'Tắt'
 	}
 	$
 	R
 	$L_00407$
-	'Nghiên cứu của Maria ：'
+	'Viện nghiên cứu Maria: '
 	{VAR0554 = 1:
-		'ｏｎ'
+		'Bật'
 	}
 	{VAR0554 \ 1:
-		'ｏｆｆ'
+		'Tắt'
 	}
 	$
 	R
 	$L_00439$
-	'Nghiên cứu ma thuật 　：'
+	'Viện nghiên cứu ma thuật: '
 	{VAR0555 = 1:
-		'ｏｎ'
+		'Bật'
 	}
 	{VAR0555 \ 1:
-		'ｏｆｆ'
+		'Tắt'
 	}
 	$
 	R
@@ -321,7 +321,7 @@
 *L_00619:
 	\L_00bc7:
 	ZH 1:
-	'VÀNG tăng.'
+	'Đã tăng tiền.'
 	\L_00cb4:
 	\L_00ca7:
 	!VAR0519 : 10000 * 6!
@@ -357,7 +357,7 @@
 	\L_0073f:
 	\L_00bc7:
 	ZH 1:
-	'Hiện Tại'
+	'Hiện tại'
 	H 0, VAR0537:
 	ZH 1:
 	'－'
@@ -500,12 +500,12 @@
 	!VAR0431 : 2!
 	!VAR0102 : 1!
 	ZH 1:
-	MS 1, "Hanny King":
+	MS 1, "Vua Hanny":
 	!VAR0730 : 1!
 	!VAR0666 : 8!
 	!VAR0461 : 10!
 	ZH 1:
-	MS 2, "Hannies":
+	MS 2, "Haniwa":
 	!VAR0154 : 48!
 	MM VAR0198 + (VAR0154 - 1) * 3 + 0, 1:
 	MM VAR0198 + (VAR0154 - 1) * 3 + 1, 2:

@@ -32,14 +32,14 @@
 		!VAR0580 : 5000!
 		\L_0058a:
 		ZH 1:
-		'Quân địch muốn'
+		'Quân địch đã rời'
 		R
-		'một trận chiến'
+		'thành, đòi quyết chiến'
 		\L_00677:
 		ZH 1:
-		'quyết định ở một số vùng'
+		'trên đồng bằng'
 		R
-		'đồng bằng cách xa thành phố.'
+		'ngoài thành.'
 		\L_00677:
 		\L_0066a:
 	}
@@ -47,11 +47,11 @@
 		!VAR0580 : VAR0134!
 		\L_0058a:
 		ZH 1:
-		'Quân địch sẽ không'
+		'Quân địch cố thủ'
 		R
-		'rời khỏi thành phố.'
+		'trong thành, không chịu ra.'
 		R
-		'Trận chiến thành phố.'
+		'Sẽ giao chiến trong thành.'
 		\L_00677:
 		!VAR0070 : 902!
 		\L_0066a:
@@ -86,11 +86,11 @@
 		%#PCMPLAY.ADV:
 		\L_0058a:
 		ZH 1:
-		'［　Thất bại　］'
+		'［　Bại trận　］'
 		R
 		{(VAR0581 = 1) * (VAR0518 \ 0):
 			ZH 1:
-			'Nỗ lực chinh phục'
+			'Cuộc tấn công vào'
 			R
 			X 8:
 			' đã thất bại.'
@@ -128,7 +128,7 @@
 		%#M.ADV:
 		\L_0058a:
 		ZH 1:
-		'［　Thành công　］'
+		'［　Chiến thắng　］'
 		R
 		{(VAR0518 \ 0) * (VAR0581 = 1):
 			ZH 1:
