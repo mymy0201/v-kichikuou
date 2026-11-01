@@ -25,14 +25,13 @@
 	\L_01ce2:
 	ZM 32:
 	ZH 1:
-	'Thành Leazas'
+	'Điện yết kiến Leazas'
 	R
 	ZM 24:
 	ZH 1:
+	'Gọi Galtia rồi'
 	R
-	'Phòng yết kiến. Gọi Galtia'
-	R
-	'rồi mà... hắn chẳng tới.'
+	'mà... hắn chẳng tới.'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01d1a:
@@ -42,9 +41,7 @@
 	\L_01dc2:
 	\L_01caa:
 	ZH 1:
-	'Liệu hắn có thể ở đó lần nữa'
-	R
-	'không?'
+	'Hắn lại ở chỗ đó à?'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01d1a:
@@ -79,7 +76,6 @@
 	R
 	ZM 24:
 	ZH 1:
-	R
 	'Sabasaba. Quán Sakura &'
 	R
 	'Pasta. (Ngoàm ngoàm)'
@@ -97,7 +93,9 @@
 	'nhất thế giới!'
 	\L_01dcf:
 	ZH 1:
-	'Vậy rên lên vì ngon đi nào.'
+	'Martina: Vậy'
+	R
+	'trầm trồ lên nào.'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01caa:
@@ -132,7 +130,7 @@
 	\L_01dc2:
 	\L_01d1a:
 	ZH 1:
-	'Chắc chắn rồi.'
+	'Vâng!'
 	\L_01dcf:
 	\L_01dc2:
 	!VAR0516 : 0!
@@ -156,11 +154,10 @@
 	\L_01ce2:
 	ZM 32:
 	ZH 1:
-	'Vùng đất của quái vật'
+	'Ma Giới'
 	R
 	ZM 24:
 	ZH 1:
-	R
 	'Dinh thự Galtia. (Ọc ọc...)'
 	\L_01dcf:
 	ZH 1:
@@ -310,7 +307,7 @@
 	{VAR0690 = 1:
 		\L_01caa:
 		ZH 1:
-		'Ngon quá!! Nó rất tốt!!'
+		'Ngon!! Ngon quá đi mất!!'
 		\L_01dcf:
 		ZH 1:
 		'Làm sao mà thứ henderopa này'
@@ -345,7 +342,7 @@
 		'gì?'
 		\L_01dcf:
 		ZH 1:
-		'Nôm... Omnomnom...'
+		'Ngoàm... Ngoàm ngoàm...'
 		\L_01dcf:
 		ZH 1:
 		'Mm... Ừm... Mm... Chụp,'
@@ -385,9 +382,9 @@
 		'Vị miso rong biển.'
 		\L_01dcf:
 		ZH 1:
-		'Humhumhuuum. Nồm... Nhai,'
+		'Hư hư hừ... Ngoạm...'
 		R
-		'nhai...'
+		'Rộp rộp rộp...'
 		\L_01dcf:
 		ZH 1:
 		'Ngon quá!! Rồi, tiếp theo là'
@@ -419,16 +416,13 @@
 		\L_01ce2:
 		ZM 32:
 		ZH 1:
-		'Thành Leazas'
+		'Điện yết kiến Leazas'
 		R
 		ZM 24:
 		ZH 1:
+		'Bệ hạ Rance... Ma'
 		R
-		'Phòng yết kiến. Bệ hạ'
-		R
-		'Rance... Ma Nhân Galtia'
-		R
-		'lại...'
+		'Nhân Galtia lại...'
 		\L_01dcf:
 		\L_01dc2:
 		\L_01caa:
@@ -450,11 +444,11 @@
 		\L_01dc2:
 		\L_01ce2:
 		ZH 1:
-		'Rance nói trong khi nhai'
+		'Rance vừa nói vừa'
 		R
-		'khoai tây chiên có hương vị'
+		'nhai rộp rộp khoai'
 		R
-		'nước sốt.'
+		'tây chiên vị nước sốt.'
 		\L_01dcf:
 		\L_01dc2:
 		\L_01caa:
@@ -496,9 +490,9 @@
 		'Ừ. Kế độc dược.'
 		\L_01dcf:
 		ZH 1:
-		'Chuẩn bị tất cả chất độc của'
+		'Sai người chuẩn bị'
 		R
-		'chúng ta.'
+		'đủ loại chất độc đi.'
 		\L_01dcf:
 		\L_01dc2:
 		\L_01d1a:
@@ -541,11 +535,11 @@
 	\L_01dc2:
 	\L_01ce2:
 	ZH 1:
-	'Galtia tiến vào lãnh thổ bị'
+	'Galtia vào vùng chiếm'
 	R
-	'chiếm đóng, thu thập kỹ càng'
+	'đóng, vét sạch lương'
 	R
-	'tất cả thức ăn và ăn uống.'
+	'thực rồi ăn ngấu nghiến.'
 	\L_01dcf:
 	\L_01dc2:
 	!VAR0516 : 0!
@@ -563,7 +557,6 @@
 	R
 	ZM 24:
 	ZH 1:
-	R
 	'Phòng yết kiến. Bệ hạ'
 	R
 	'Rance...'
@@ -609,26 +602,24 @@
 	\L_01dc2:
 	\L_01caa:
 	ZH 1:
-	'Làm sao ngươi biết được điều'
-	R
-	'đó?'
+	'Sao biết được chuyện đó?'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01d1a:
 	ZH 1:
-	'Ai đó đã kiểm tra kho chứa'
+	'Nghe tiếng động lạ'
 	R
-	'thực phẩm sau'
+	'trong kho lương thực,'
 	\L_01dcf:
 	ZH 1:
-	'trong kho, có người vào xem,'
+	'có người vào xem,'
 	R
-	'thấy một kẻ đang vui vẻ ăn'
+	'bắt gặp một kẻ vui'
 	R
-	'ngấu nghiến...'
+	'vẻ ăn ngấu nghiến...'
 	\L_01dcf:
 	ZH 1:
-	'khi được hỏi,'
+	'Người ấy hỏi đủ chuyện,'
 	\L_01dcf:
 	ZH 1:
 	'hắn vừa ăn vừa khai lai'
@@ -638,9 +629,9 @@
 	'mất.'
 	\L_01dcf:
 	ZH 1:
-	'Chuyện quái gì vậy... Người'
+	'Rance: Chuyện gì vậy...'
 	R
-	'ấy nằm mơ à?'
+	'Người đó nằm mơ à?'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01d1a:
@@ -657,19 +648,21 @@
 	'hoàn toàn.'
 	\L_01dcf:
 	ZH 1:
-	'Sẽ tốn rất nhiều tiền để chi'
+	'Bù lại chỗ ấy... sẽ phải chi'
 	R
-	'trả cho việc này...'
+	'một khoản tiền khá lớn...'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01caa:
 	ZH 1:
-	'Ma Nhân không đánh quân ta,'
+	'Ma Nhân không'
+	R
+	'đánh bằng vũ lực,'
 	\L_01dcf:
 	ZH 1:
-	'chúng ta mà là lương thực'
+	'mà lại đánh vào'
 	R
-	'của chúng ta...'
+	'lương thực...'
 	\L_01dcf:
 	ZH 1:
 	'còn bực hơn là bị tấn công'
@@ -718,14 +711,14 @@
 	'độc chết đi.'
 	\L_01dcf:
 	ZH 1:
-	'Aah, đúng rồi. Đưa mệnh lệnh'
+	'À, phải rồi. Ra'
 	R
-	'này cho thị trưởng.'
+	'lệnh cho thị trưởng,'
 	\L_01dcf:
 	ZH 1:
-	'Nói với công dân ở đây rằng'
+	'cảnh báo người dân rằng'
 	R
-	'ăn thức ăn này sẽ giết họ.'
+	'ăn thức ăn này sẽ chết.'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01ce2:
@@ -789,26 +782,23 @@
 	\L_01ce2:
 	ZM 32:
 	ZH 1:
-	'Thành Leazas'
+	'Điện yết kiến Leazas'
 	R
 	ZM 24:
 	ZH 1:
+	'Bệ hạ, Galtia đã ăn'
 	R
-	'Phòng yết kiến. Bệ hạ,'
-	R
-	'Galtia đã ăn thức ăn có độc'
-	R
-	'rồi ạ.'
+	'thức ăn có độc rồi ạ.'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01caa:
 	ZH 1:
-	'Ta hiểu rồi. Vậy là hắn...'
+	'Thế à. Vậy là hắn...'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01d1a:
 	ZH 1:
-	'Còn sống.'
+	'Hắn còn sống ạ.'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01caa:
@@ -848,7 +838,7 @@
 	\L_01dc2:
 	\L_01d1a:
 	ZH 1:
-	'Vâng, hiểu rồi.'
+	'Vâng, thần tuân lệnh.'
 	\L_01dcf:
 	\L_01dc2:
 	!VAR0516 : 0!
@@ -879,7 +869,7 @@
 	\L_01dc2:
 	\L_01caa:
 	ZH 1:
-	'Whoa... Cái quái gì thế này?'
+	'Ôi... Cái gì thế này?'
 	\L_01dcf:
 	ZH 1:
 	'Tê tê cay cay, kích thích'
@@ -892,10 +882,10 @@
 	'thịt tê cay kích thích.'
 	\L_01dcf:
 	ZH 1:
-	'Tôi muốn nhiều hơn nữa...'
+	'Muốn ăn nữa quá...'
 	\L_01dcf:
 	ZH 1:
-	'Có ai ở đây không...?'
+	'Còn ở đâu không nhỉ...?'
 	\L_01dcf:
 	ZH 1:
 	'Ồ, có rồi! Ta ăn đây. Ngoàm'
@@ -919,14 +909,11 @@
 	\L_01ce2:
 	ZM 32:
 	ZH 1:
-	'Thành Leazas'
+	'Điện yết kiến Leazas'
 	R
 	ZM 24:
 	ZH 1:
-	R
-	'Phòng yết kiến. Bệ hạ Rance,'
-	R
-	'Galtia...'
+	'Bệ hạ Rance, Galtia...'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01caa:
@@ -936,7 +923,7 @@
 	\L_01dc2:
 	\L_01d1a:
 	ZH 1:
-	'Không, hắn còn sống.'
+	'Không, hắn vẫn sống ạ.'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01caa:
@@ -948,7 +935,7 @@
 	\L_01dc2:
 	\L_01d1a:
 	ZH 1:
-	'Không, hắn đã ăn nó.'
+	'Không, hắn ăn rồi ạ.'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01caa:
@@ -961,7 +948,7 @@
 	\L_01dc2:
 	\L_01d1a:
 	ZH 1:
-	'Có.'
+	'Vâng.'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01caa:
@@ -994,14 +981,14 @@
 		'Ôi... Martina...'
 		\L_01dcf:
 		ZH 1:
-		'Không phải ngươi không muốn'
+		'Chẳng phải cô không'
 		R
-		'đến lâu đài sao?'
+		'thích tới lâu đài sao?'
 		\L_01dcf:
 		ZH 1:
-		'Hay ngươi đã đến đây'
+		'Hay tới tận đây vì'
 		R
-		'từ khi ngươi muốn đụ ta...?'
+		'muốn được ta ôm...?'
 		\L_01dcf:
 		\L_01dc2:
 		\L_01d1a:
@@ -1016,18 +1003,18 @@
 		\L_01dc2:
 		\L_01caa:
 		ZH 1:
-		'Hắn đang ăn hết tiền của ta.'
+		'Hắn đang ăn sạch tài'
 		R
-		'Điều đó không thú vị chút'
+		'sản của ta đấy. Chẳng'
 		R
-		'nào.'
+		'thú vị chút nào.'
 		\L_01dcf:
 		\L_01dc2:
 		\L_01d1a:
 		ZH 1:
-		'Tôi nghĩ tôi có thể làm được'
+		'Tôi nghĩ có lẽ mình'
 		R
-		'điều gì đó với hắn.'
+		'giúp được gì đó.'
 		\L_01dcf:
 		\L_01dc2:
 		\L_01caa:
@@ -1054,14 +1041,14 @@
 		'phải trầm trồ đâu?'
 		\L_01dcf:
 		ZH 1:
-		'Tôi muốn thử xem liệu tôi có'
+		'Tôi muốn thử nấu ra'
 		R
-		'thể nấu món gì đó khiến hắn'
+		'món có thể khiến Ma'
 		R
-		'ấn tượng không.'
+		'Nhân phải trầm trồ.'
 		\L_01dcf:
 		ZH 1:
-		'Vậy hãy để tôi làm điều đó.'
+		'Vậy hãy cho tôi thử sức.'
 		\L_01dcf:
 		\L_01dc2:
 		\L_01caa:
@@ -1069,9 +1056,7 @@
 		'Hmmmmmmmm...'
 		\L_01dcf:
 		ZH 1:
-		'Nếu nó trở nên nguy hiểm'
-		R
-		'thì...'
+		'Nếu gặp nguy hiểm thì...'
 		\L_01dcf:
 		\L_01dc2:
 		\L_01d1a:
@@ -1198,7 +1183,7 @@
 	\L_01dc2:
 	\L_01d1a:
 	ZH 1:
-	'Vâng, đây!'
+	'Đây, món này!'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01d52:
@@ -1335,23 +1320,23 @@
 	\L_01dc2:
 	\L_01d1a:
 	ZH 1:
-	'Sau đó, tôi sẽ làm ramen'
+	'Vậy tôi sẽ cho cậu ăn'
 	R
-	'ngon hơn cho cậu.'
+	'ramen còn ngon hơn nữa.'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01caa:
 	ZH 1:
-	'Thực sự!?'
+	'Thật sao!?'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01d1a:
 	ZH 1:
-	'Vâng. Đổi lại, cậu phải lắng'
+	'Đúng. Đổi lại, phải'
 	R
-	'nghe người mà tôi sắp giới'
+	'tuyệt đối nghe lời người'
 	R
-	'thiệu với cậu.'
+	'tôi sắp giới thiệu.'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01caa:
@@ -1361,7 +1346,7 @@
 	'cũng nghe!!'
 	\L_01dcf:
 	ZH 1:
-	'S-Vì vậy, ramen...'
+	'V... Vì vậy, ramen...'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01d52:
@@ -1409,16 +1394,13 @@
 	\L_01ce2:
 	ZM 32:
 	ZH 1:
-	'Thành Leazas'
+	'Điện yết kiến Leazas'
 	R
 	ZM 24:
 	ZH 1:
+	'Vậy đó... Galtia đã thành'
 	R
-	'Phòng yết kiến. Vì thế,'
-	R
-	'Galtia đã làm thuộc hạ Bệ hạ'
-	R
-	'rồi đấy.'
+	'thuộc hạ Bệ hạ rồi đấy.'
 	\L_01dcf:
 	\L_01dc2:
 	\L_01d7c:
@@ -1441,7 +1423,7 @@
 	\L_01d6e:
 	\L_01d1a:
 	ZH 1:
-	'Huhu...'
+	'Hihi...'
 	\L_01dcf:
 	ZH 1:
 	'Galtia hứa không ăn lương'

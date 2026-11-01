@@ -1,0 +1,2646 @@
+	{VAR0520 = 1:
+		@L_00034:
+	}
+*L_00034:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1001!
+	\L_03087:
+	!VAR0516 : 1!
+	\L_02fdf:
+	\L_02f8b:
+	ZH 1:
+	'Hm... Có lẽ ta nên đến'
+	R
+	'viện nghiên cứu ma thuật.'
+	\L_030b0:
+	ZH 1:
+	'Nếu các nhà nghiên cứu'
+	R
+	'lười biếng, ta sẽ đánh họ.'
+	\L_030b0:
+	\L_030a3:
+	\L_02fc3:
+	ZH 1:
+	'Rance hướng đến viện'
+	R
+	'nghiên cứu ma thuật.'
+	\L_030b0:
+	\L_030a3:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1038!
+	\L_03087:
+	!VAR0516 : 1!
+	\L_02fdf:
+	{VAR0772 = 0:
+		!VAR0516 : 6!
+		\L_0304f:
+	}
+	\L_02fc3:
+	ZM 32:
+	ZH 1:
+	'Lâu đài Leazas'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Viện nghiên cứu ma thuật'
+	\L_030b0:
+	\L_030a3:
+	{VAR0772 = 0:
+		\L_028f5:
+		@L_00245:
+	}
+	\L_02f54:
+	{(VAR0465 \ 0) * (VAR0466 < VAR0517):
+		\L_00df5:
+		@L_00245:
+	}
+	!VAR0154 : 38!
+	{(VAR0102 \ 0) * (VAR0349 = 5):
+		!VAR0520 : 5!
+		%#Gｱﾆｽ.ADV:
+		@L_00245:
+	}
+	Y 4, 5:
+	{VAR0000 = 1:
+		!VAR0154 : 11!
+		{VAR0102 \ 0:
+			\L_01a22:
+			@L_00245:
+		}
+	}
+	{VAR0000 = 2:
+		!VAR0154 : 13!
+		{VAR0102 \ 0:
+			\L_01d3b:
+			@L_00245:
+		}
+	}
+	{VAR0000 = 3:
+		!VAR0154 : 17!
+		{VAR0102 \ 0:
+			\L_01fe7:
+			@L_00245:
+		}
+	}
+	{VAR0000 = 4:
+		!VAR0154 : 20!
+		{VAR0102 \ 0:
+			\L_022dc:
+			@L_00245:
+		}
+	}
+	{(VAR0000 = 5) * (VAR0651 = 10):
+		\L_025b6:
+		@L_00245:
+	}
+	\L_02e83:
+*L_00245:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_00245:
+	}
+	ZH 1:
+	$L_00380$
+	'Chỉ định nghiên cứu'
+	$
+	R
+	$L_00bda$
+	'Hỏi về tiến độ'
+	$
+	R
+	$L_00290$
+	'Rời đi'
+	$
+	]
+	@L_00245:
+*L_00290:
+	\L_02f8b:
+	ZH 1:
+	'Nào, về thôi... Đứng đây'
+	R
+	'nhìn mặt hắn cũng chẳng ích'
+	R
+	'gì.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Bệ hạ định về ạ?'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Về chứ. Đi ngắm gái thật cho'
+	R
+	'đã mắt.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Hah... Một cô'
+	R
+	'gái thật sự...?'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Ừ, nhìn mặt gã ái nam ái nữ'
+	R
+	'mãi chán rồi.'
+	\L_030b0:
+	\L_030a3:
+	\L_02fed:
+	\L_02fc3:
+	ZH 1:
+	'Rance quay gót, rời viện'
+	R
+	'nghiên cứu ma thuật.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Hức... Đâu phải tôi muốn có'
+	R
+	'khuôn mặt thế này...'
+	\L_030b0:
+	\L_030a3:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_00380:
+	{VAR0465 \ 0:
+		\L_009d9:
+		{VAR0001 = 1:
+			@L_00245:
+		}
+	}
+	\L_02f8b:
+	ZH 1:
+	'Tốt, nghiên cứu đi.'
+	\L_030b0:
+	ZH 1:
+	'Ta xây nơi này đâu phải để'
+	R
+	'nuôi gã ái nam ái nữ.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Ư... V... Vâng, Bệ hạ muốn'
+	R
+	'nghiên cứu gì ạ?'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Để ta nghĩ xem...'
+	\L_030b0:
+	\L_030a3:
+*L_0040f:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_0040f:
+	}
+	!VAR0154 : 2!
+	{VAR0102 \ 0:
+		ZH 1:
+		$L_00683$
+		'Tăng cường đơn vị Sill'
+		$
+	}
+	!VAR0154 : 11!
+	{VAR0102 \ 0:
+		ZH 1:
+		$L_006d1$
+		'Tăng cường đơn vị Asuka'
+		$
+	}
+	!VAR0154 : 13!
+	{VAR0102 \ 0:
+		ZH 1:
+		$L_00718$
+		'Tăng cường đơn vị Melfeis'
+		$
+	}
+	!VAR0154 : 17!
+	{VAR0102 \ 0:
+		ZH 1:
+		$L_00750$
+		'Tăng cường đơn vị Shizuka'
+		$
+	}
+	{VAR0771 = 0:
+		ZH 1:
+		$L_0079e$
+		'Thuốc tình yêu'
+		$
+	}
+	{(VAR0063 = 1) * (VAR0650 > 9):
+		ZH 1:
+		$L_00864$
+		'Vật phá kết giới'
+		$
+	}
+	ZH 1:
+	$L_0171b$
+	'Nam tính lên'
+	$
+	]
+	@L_0040f:
+*L_00512:
+	\L_02ffb:
+	ZH 1:
+	'Quân '
+	X 1:
+	' ma lực '
+	H 0, VAR0093:
+	ZH 1:
+	'.'
+	R
+	'Tăng 1 ma lực: '
+	H 0, VAR0093 * 2:
+	ZH 1:
+	' tuần.'
+	R
+	'Đồng ý chứ ạ?'
+	\L_030b0:
+	\L_030a3:
+*L_00571:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_00571:
+	}
+	ZH 1:
+	$L_00614$
+	'Bắt đầu ngay bây giờ'
+	$
+	R
+	$L_005af$
+	'Không đợi, bỏ thôi'
+	$
+	]
+	@L_00571:
+*L_005af:
+	\L_02f8b:
+	ZH 1:
+	'... Bớt thời gian một chút'
+	R
+	'nữa không được à? Việc ấy'
+	R
+	'hơi khó ạ...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Chậc, vô dụng. Tốn thời gian'
+	R
+	'thế ai đợi nổi. Thôi, bỏ đi.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Đã hiểu.'
+	\L_030b0:
+	\L_030a3:
+	@L_00245:
+*L_00614:
+	\L_02f8b:
+	ZH 1:
+	'Được, bắt đầu đi.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Rõ rồi.'
+	\L_030b0:
+	ZH 1:
+	'Bắt đầu nghiên cứu'
+	R
+	'tăng ma lực quân '
+	X 1:
+	'.'
+	\L_030b0:
+	\L_030a3:
+	!VAR0465 : VAR0154 + 100!
+	!VAR0466 : VAR0517 + VAR0093 * 2!
+	@L_00245:
+*L_00683:
+	\L_02f8b:
+	ZH 1:
+	'Đơn vị Sill yếu, yếu quá. Nô'
+	R
+	'lệ của ta mà thế thì mất'
+	R
+	'mặt.'
+	\L_030b0:
+	ZH 1:
+	'Tăng cường cho đơn vị ấy đi.'
+	\L_030b0:
+	\L_030a3:
+	!VAR0154 : 2!
+	MM 1, VAR0198 + (VAR0154 - 1) * 3:
+	@L_00512:
+*L_006d1:
+	\L_02f8b:
+	ZH 1:
+	'Tuy còn nhỏ, mạnh hơn chút'
+	R
+	'sẽ hữu ích. Tăng cường'
+	\L_030b0:
+	ZH 1:
+	'đơn vị Asuka đi.'
+	\L_030b0:
+	\L_030a3:
+	!VAR0154 : 11!
+	MM 1, VAR0198 + (VAR0154 - 1) * 3:
+	@L_00512:
+*L_00718:
+	\L_02f8b:
+	ZH 1:
+	'Melfeis khá gợi cảm. Tăng'
+	R
+	'cường đơn vị của Melfeis.'
+	\L_030b0:
+	\L_030a3:
+	!VAR0154 : 13!
+	MM 1, VAR0198 + (VAR0154 - 1) * 3:
+	@L_00512:
+*L_00750:
+	\L_02f8b:
+	ZH 1:
+	'Hừm, hỗn láo thật, nhưng'
+	R
+	'cũng mạnh...'
+	\L_030b0:
+	ZH 1:
+	'Tăng cường đơn vị Shizuka'
+	R
+	'đi.'
+	\L_030b0:
+	\L_030a3:
+	!VAR0154 : 17!
+	MM 1, VAR0198 + (VAR0154 - 1) * 3:
+	@L_00512:
+*L_0079e:
+	\L_02f8b:
+	ZH 1:
+	'Ừm... Một lọ'
+	R
+	'thuốc tình yêu.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Hả?'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Một kẻ kỳ quặc như ngươi'
+	R
+	'có lẽ sẽ không hiểu được,'
+	\L_030b0:
+	ZH 1:
+	'nhưng tình dược là'
+	R
+	'giấc mơ của đàn ông.'
+	\L_030b0:
+	ZH 1:
+	'Làm một lọ thuốc có'
+	R
+	'thể khiến bất kỳ người phụ'
+	R
+	'nữ nào cũng phải lòng ta,'
+	\L_030b0:
+	ZH 1:
+	'được chứ?'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Đã hiểu.'
+	\L_030b0:
+	\L_030a3:
+	!VAR0465 : 1!
+	!VAR0466 : VAR0517 + 10!
+	@L_00245:
+*L_00864:
+	\L_02f8b:
+	ZH 1:
+	'Kết giới bảo vệ cung điện'
+	R
+	'Zeth thật'
+	\L_030b0:
+	ZH 1:
+	'chướng mắt. Tạo phép phá nó'
+	R
+	'đi. Khẩn trương hết sức vào.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Vâng, tôi hiểu... Nhưng...'
+	R
+	'Bệ hạ.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Ừm, cái gì cơ?'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Nghiên cứu ma thuật nước ta'
+	R
+	'thua'
+	\L_030b0:
+	ZH 1:
+	'Zeth rất xa. Làm thứ phá kết'
+	R
+	'giới ấy có lẽ vô cùng khó.'
+	\L_030b0:
+	ZH 1:
+	'Nhưng...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Im đi! Đừng ỷ mình ẻo lả mà'
+	R
+	'nhõng nhẽo! Viện xây'
+	\L_030b0:
+	ZH 1:
+	'ra để nghiên cứu thứ đó, làm'
+	R
+	'đi!'
+	\L_030b0:
+	\L_030a3:
+	\L_02fc3:
+	ZH 1:
+	'(Bốp!)'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Đau... Tôi đang định nói:'
+	R
+	'nhưng sẽ dốc hết sức mà...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Hả? Ngươi nói gì, viện'
+	R
+	'trưởng Curtis ẻo lả?'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Không có gì... Tôi sẽ cố phá'
+	R
+	'kết giới Zeth.'
+	\L_030b0:
+	\L_030a3:
+	!VAR0465 : 2!
+	!VAR0466 : VAR0517 + 4!
+	@L_00245:
+*L_009d9:
+	!VAR0001 : 0!
+	\L_02f8b:
+	ZH 1:
+	'Nghiên cứu, nghiên cứu thôi.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Nhưng thưa Bệ hạ...'
+	\L_030b0:
+	ZH 1:
+	'Viện đang tiến hành nghiên'
+	R
+	'cứu khác.'
+	\L_030b0:
+	ZH 1:
+	'Ngài muốn dừng việc ấy,'
+	\L_030b0:
+	ZH 1:
+	'chuyển sang nghiên cứu mới'
+	R
+	'sao?'
+	\L_030b0:
+	\L_030a3:
+*L_00a4a:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_00a4a:
+	}
+	ZH 1:
+	$L_00b27$
+	'Vâng'
+	$
+	R
+	$L_00a88$
+	'Không'
+	$
+	]
+	@L_00a4a:
+*L_00a88:
+	\L_02f8b:
+	ZH 1:
+	'Không làm hai việc một lúc'
+	R
+	'được à?'
+	\L_030b0:
+	ZH 1:
+	'Đúng là gã ẻo lả cứng'
+	R
+	'nhắc...'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'T... Tôi đâu phải ái nam ái'
+	R
+	'nữ...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Im đi, gã ẻo lả. Cứ tiếp tục'
+	R
+	'nghiên cứu hiện tại. Rõ'
+	R
+	'chưa?'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Đã hiểu...'
+	\L_030b0:
+	\L_030a3:
+	!VAR0001 : 1!
+	\0:
+*L_00b27:
+	\L_02fc3:
+	ZH 1:
+	'(Cốc!)'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'A, đau.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Khỏi nhắc, ta biết rồi. Đừng'
+	R
+	'xen'
+	\L_030b0:
+	ZH 1:
+	'miệng, đồ mặt con gái.'
+	\L_030b0:
+	ZH 1:
+	'Bỏ nghiên cứu hiện'
+	\L_030b0:
+	ZH 1:
+	'tại đi. Mau làm việc mới ta'
+	R
+	'sắp giao.'
+	\L_030b0:
+	ZH 1:
+	'Rõ chưa?'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Vâng... Hiểu.'
+	\L_030b0:
+	\L_030a3:
+	\0:
+*L_00bda:
+	\L_02f8b:
+	ZH 1:
+	'Nghiên cứu tiến triển'
+	R
+	'thế nào? Ngươi không bỏ'
+	R
+	'việc để chải tóc phải không?'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Tôi có làm thế đâu...'
+	\L_030b0:
+	ZH 1:
+	'À, Bệ hạ muốn biết tiến độ'
+	R
+	'nhỉ? Nghiên cứu'
+	\L_030b0:
+	ZH 1:
+	'hiện tại là...'
+	\L_030b0:
+	\L_030a3:
+	{VAR0465 = 0:
+		\L_02ffb:
+		ZH 1:
+		'Hiện không nghiên cứu gì cả'
+		R
+		'ạ.'
+		\L_030b0:
+		\L_030a3:
+		\L_02f8b:
+		ZH 1:
+		'Không có gì!?'
+		\L_030b0:
+		\L_030a3:
+		\L_02ffb:
+		ZH 1:
+		'Ý tôi là... Bệ hạ chưa giao'
+		R
+		'nghiên cứu nào cả.'
+		\L_030b0:
+		\L_030a3:
+		@L_00245:
+	}
+	\L_02ffb:
+	ZH 1:
+	'Hiện đang nghiên cứu:'
+	R
+	{VAR0465 = 1:
+		ZH 1:
+		'thuốc tình yêu'
+	}
+	{VAR0465 = 2:
+		ZH 1:
+		'vật phá kết giới Zeth'
+	}
+	{VAR0465 > 100:
+		!VAR0154 : VAR0465 - 100!
+		MM 1, VAR0198 + (VAR0154 - 1) * 3:
+		ZH 1:
+		'quân'
+		R
+		X 1:
+		' tăng ma lực'
+	}
+	ZH 1:
+	'.'
+	\L_030b0:
+	\L_030a3:
+	{VAR0466 < VAR0517 + 2:
+		\L_02ffb:
+		ZH 1:
+		'Sắp xong rồi, có lẽ tuần tới'
+		R
+		'sẽ hoàn thành.'
+		\L_030b0:
+		\L_030a3:
+		@L_00245:
+	}
+	{VAR0466 < VAR0517 + 4:
+		\L_02ffb:
+		ZH 1:
+		'Cần thêm thời gian... Dự'
+		R
+		'kiến trong vòng một tháng'
+		R
+		'nữa sẽ xong.'
+		\L_030b0:
+		\L_030a3:
+		@L_00245:
+	}
+	\L_02ffb:
+	ZH 1:
+	'Có thể sẽ mất'
+	R
+	'nhiều thời gian hơn.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Ch, chậm quá...'
+	\L_030b0:
+	\L_030a3:
+	@L_00245:
+*L_00df5:
+	{(VAR0465 = 2) * (VAR0650 < 10):
+		\L_02e83:
+	}
+	!VAR0516 : 248!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Bệ hạ... Bệ hạ ơi!'
+	\L_030b0:
+	\L_030a3:
+	\L_02fc3:
+	ZH 1:
+	'(Nhào'
+	\L_030b0:
+	ZH 1:
+	'tới) Viện trưởng Curtis chạy'
+	R
+	'lon ton lại, cười rạng rỡ'
+	R
+	'rồi ôm chầm lấy Rance.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Whoa!!'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Xong rồi, Bệ hạ, xong rồi!'
+	\L_030b0:
+	ZH 1:
+	'Nghiên cứu ngài giao đã hoàn'
+	R
+	'thành!'
+	\L_030b0:
+	\L_030a3:
+	\L_02fc3:
+	ZH 1:
+	'（boff!）'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Ôi!'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Đồ ngốc, đàn ông'
+	R
+	'không được phép ôm ta!!'
+	\L_030b0:
+	ZH 1:
+	'Bộ ngực rộng của ta'
+	R
+	'chỉ dành cho con gái...'
+	\L_030b0:
+	ZH 1:
+	'Ta sẽ giết ngươi.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'A... Xin thất lễ... Vì vui'
+	R
+	'quá nên tôi lỡ...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Thế... Kết quả ra sao, viện'
+	R
+	'trưởng'
+	\L_030b0:
+	ZH 1:
+	'Curtis ẻo lả? Không có thành'
+	R
+	'quả tử tế thì ta giết.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Y-Vâng, tốt...'
+	R
+	{VAR0465 = 1:
+		@L_01514:
+	}
+	{VAR0465 = 2:
+		@L_01675:
+	}
+	{VAR0465 > 100:
+		@L_00fca:
+	}
+*L_00fca:
+	!VAR0154 : VAR0465 - 100!
+	!VAR0465 : 0!
+	!VAR0466 : 0!
+	MM 1, VAR0198 + (VAR0154 - 1) * 3:
+	ZH 1:
+	X 1:
+	' được tăng ma lực.'
+	\L_030b0:
+	ZH 1:
+	'Ma lực tăng, đơn vị mạnh'
+	R
+	'hơn. Vừa hay cô ấy cũng đang'
+	R
+	'có mặt ở đây.'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0093 : VAR0093 + 1!
+	{VAR0154 = 2:
+		!VAR0516 : 2!
+		\L_0304f:
+		\L_02ffb:
+		ZH 1:
+		'Chủ nhân Rance!'
+		\L_030b0:
+		\L_030a3:
+		\L_02fc3:
+		ZH 1:
+		'Sill chạy Đến'
+		R
+		'Rance, trông hạnh phúc.'
+		\L_030b0:
+		\L_030a3:
+		\L_02ffb:
+		ZH 1:
+		'Cảm ơn chủ nhân. Nhờ ngài ra'
+		R
+		'lệnh mà em mạnh hơn.'
+		\L_030b0:
+		ZH 1:
+		'Em sẽ cố gắng, chủ nhân'
+		R
+		'Rance. Nên... Xin đừng bỏ'
+		R
+		'em...'
+		\L_030b0:
+		ZH 1:
+		'Em sẽ cố mà...'
+		\L_030b0:
+		\L_030a3:
+		\L_02f8b:
+		ZH 1:
+		'Ừ, giữ lấy quyết tâm ấy.'
+		\L_030b0:
+		\L_030a3:
+		\L_02ffb:
+		ZH 1:
+		'Vâng!'
+		\L_030b0:
+		\L_030a3:
+		\L_0305d:
+		!VAR0516 : 248!
+		\L_0304f:
+	}
+	{VAR0154 = 11:
+		!VAR0516 : 430!
+		\L_0304f:
+		\L_02ffb:
+		ZH 1:
+		'Rance...'
+		\L_030b0:
+		ZH 1:
+		'(Chaka) Này, phải gọi là Bệ'
+		R
+		'hạ.'
+		\L_030b0:
+		ZH 1:
+		'Dạ. B... Bệ hạ.'
+		\L_030b0:
+		\L_030a3:
+		\L_02f8b:
+		ZH 1:
+		'Này nhóc.'
+		\L_030b0:
+		\L_030a3:
+		\L_02ffb:
+		ZH 1:
+		'Là Asuka cơ.'
+		\L_030b0:
+		\L_030a3:
+		\L_02f8b:
+		ZH 1:
+		'Sao cũng được.'
+		\L_030b0:
+		\L_030a3:
+		\L_02ffb:
+		ZH 1:
+		'(Chaka) Bệ hạ Rance, cảm ơn'
+		R
+		'ngài đã giúp tăng sức mạnh.'
+		R
+		'Lão thay'
+		\L_030b0:
+		ZH 1:
+		'cháu gái gửi lời cảm tạ.'
+		\L_030b0:
+		\L_030a3:
+		\L_02f8b:
+		ZH 1:
+		'Ừ. Nhớ làm việc cho tốt.'
+		R
+		'Tăng sức mạnh tốn tiền đấy.'
+		\L_030b0:
+		\L_030a3:
+		\L_02ffb:
+		ZH 1:
+		'(Chaka) Vâng, dĩ nhiên...'
+		\L_030b0:
+		ZH 1:
+		'Asuka sẽ cố... Rance...'
+		\L_030b0:
+		\L_030a3:
+		\L_02f8b:
+		ZH 1:
+		'Bệ hạ.'
+		\L_030b0:
+		\L_030a3:
+		\L_02ffb:
+		ZH 1:
+		'Aah... Bệ hạ~...'
+		\L_030b0:
+		\L_030a3:
+		\L_0305d:
+		!VAR0516 : 248!
+		\L_0304f:
+	}
+	{VAR0154 = 13:
+		!VAR0516 : 11!
+		\L_0304f:
+		\L_02ffb:
+		ZH 1:
+		'Ngài Rance...'
+		\L_030b0:
+		\L_030a3:
+		\L_02f8b:
+		ZH 1:
+		'Này, Melfeis.'
+		\L_030b0:
+		\L_030a3:
+		\L_02ffb:
+		ZH 1:
+		'Cảm ơn Bệ hạ... đã giúp em'
+		R
+		'mạnh hơn...'
+		\L_030b0:
+		\L_030a3:
+		\L_02f8b:
+		ZH 1:
+		'Ừm. Hãy thể hiện'
+		R
+		'lời cảm ơn thông qua'
+		R
+		'hành động của ngươi.'
+		\L_030b0:
+		\L_030a3:
+		\L_02ffb:
+		ZH 1:
+		'Vâng... Em sẽ hết sức làm'
+		R
+		'việc.'
+		\L_030b0:
+		\L_030a3:
+		\L_02f8b:
+		ZH 1:
+		'Vâng... Có cái'
+		R
+		'đó... Và cũng có cái này.'
+		\L_030b0:
+		\L_030a3:
+		\L_02fc3:
+		ZH 1:
+		'Rance sờ mó'
+		R
+		'Mông Của Melfeis.'
+		\L_030b0:
+		\L_030a3:
+		\L_02ffb:
+		ZH 1:
+		'Này!?'
+		\L_030b0:
+		\L_030a3:
+		\L_02f8b:
+		ZH 1:
+		'Gahahahaha!.'
+		\L_030b0:
+		\L_030a3:
+		\L_0305d:
+		!VAR0516 : 248!
+		\L_0304f:
+	}
+	{VAR0154 = 17:
+		!VAR0516 : 49!
+		\L_0304f:
+		\L_02ffb:
+		ZH 1:
+		'À, Rance...'
+		\L_030b0:
+		\L_030a3:
+		\L_02f8b:
+		ZH 1:
+		'Này, Shizuka.'
+		\L_030b0:
+		\L_030a3:
+		\L_02ffb:
+		ZH 1:
+		'Lệnh tăng sức mạnh... Anh ra'
+		R
+		'lệnh chứ gì. Dù sao'
+		\L_030b0:
+		ZH 1:
+		'cũng phải cảm ơn.'
+		\L_030b0:
+		ZH 1:
+		'Cảm ơn, Rance.'
+		\L_030b0:
+		\L_030a3:
+		\L_02f8b:
+		ZH 1:
+		'Này... Dù sao là sao? Đồ vô'
+		R
+		'ơn.'
+		\L_030b0:
+		\L_030a3:
+		\L_02ffb:
+		ZH 1:
+		'Không, à, ừm... Tôi cũng'
+		R
+		'biết ơn chứ, nhưng...'
+		\L_030b0:
+		\L_030a3:
+		\L_02f8b:
+		ZH 1:
+		'Ngươi có phải không?'
+		R
+		'Thế còn tối nay chúng ta...'
+		\L_030b0:
+		\L_030a3:
+		\L_02fc3:
+		ZH 1:
+		'(Bốp!!) Chính vì anh như vậy'
+		R
+		'nên tôi mới không cảm ơn tử'
+		R
+		'tế được, đồ ngốc!!'
+		\L_030b0:
+		\L_030a3:
+		\L_0305d:
+		\L_02fc3:
+		ZH 1:
+		'Sau khi Rance nắm lấy vai'
+		R
+		'Shizuka, cô đánh ngã hắn và'
+		R
+		'bỏ chạy.'
+		\L_030b0:
+		\L_030a3:
+		\L_02f8b:
+		ZH 1:
+		'Đau... Khốn kiếp, đồ đàn bà'
+		R
+		'bạo lực.'
+		\L_030b0:
+		\L_030a3:
+		!VAR0516 : 248!
+		\L_0304f:
+	}
+	\0:
+*L_01514:
+	!VAR0465 : 0!
+	!VAR0466 : 0!
+	!VAR0771 : 1!
+	ZH 1:
+	'Thuốc tình yêu đã xong.'
+	R
+	'Thành phẩm là viên uống tác'
+	R
+	'dụng tức thì.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Tốt, biến thái mà làm khá'
+	R
+	'đấy. Đưa đây, ta nhận cho.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Vâng, đây ạ. Chỉ có một'
+	R
+	'viên, xin Bệ hạ dùng cẩn'
+	R
+	'thận.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Cái gì, một viên? Làm thêm'
+	R
+	'đi! Rất tiếc... Đây là thứ'
+	\L_030b0:
+	ZH 1:
+	'tình cờ tạo ra lúc nghiên'
+	R
+	'cứu, không thể làm lại...'
+	\L_030b0:
+	ZH 1:
+	'Nói kỹ thì nguyên liệu'
+	\L_030b0:
+	ZH 1:
+	'gồm Hạ sĩ Hanny, chromium'
+	R
+	'cetylene, trình tự bazơ của'
+	\L_030b0:
+	ZH 1:
+	'kem vani...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Im đi, viện trưởng vô dụng.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Nức nở...'
+	\L_030b0:
+	\L_030a3:
+	\L_02fa7:
+	ZH 1:
+	'Chết tiệt, chỉ'
+	R
+	'có một thôi sao...?'
+	\L_030b0:
+	ZH 1:
+	'Ta sẽ phải suy'
+	R
+	'nghĩ thật kỹ xem sẽ'
+	R
+	'sử dụng nó cho ai...'
+	\L_030b0:
+	\L_030a3:
+	!VAR0160 : 13!
+	!VAR0150 : 100!
+	\0:
+*L_01675:
+	!VAR0465 : 0!
+	!VAR0466 : 0!
+	ZH 1:
+	'V... Vâng...'
+	\L_030b0:
+	ZH 1:
+	'Vật phá kết giới đã hoàn'
+	R
+	'thành. Đây là Lưỡi đao Kết'
+	R
+	'Giới.'
+	\L_030b0:
+	ZH 1:
+	'Chắc chắn phá được cả kết'
+	R
+	'giới Zeth.'
+	\L_030b0:
+	ZH 1:
+	'Bình minh ma thuật nước'
+	R
+	'ta... Hức...'
+	\L_030b0:
+	ZH 1:
+	'Xúc động quá, Bệ hạ.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Đừng sụt sùi nữa, đồ trai'
+	R
+	'mặt gái.'
+	\L_030b0:
+	\L_030a3:
+	!VAR0160 : 12!
+	!VAR0150 : 100!
+	\0:
+*L_0171b:
+	\L_02f8b:
+	ZH 1:
+	'Hãy nam tính hơn.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Hả?'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Cứ nam tính lên, đồ ẻo lả.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Ẻo lả... Không phải, tôi...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Không à? Đã thế sao còn xưng'
+	R
+	'tôi?'
+	\L_030b0:
+	ZH 1:
+	'Ghê quá. Đàn ông thì xưng ta'
+	R
+	'đi, ta ấy.'
+	\L_030b0:
+	ZH 1:
+	'Nói thử: ta là viện trưởng'
+	R
+	'Curtis.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'... Ta... là... Viện trưởng'
+	R
+	'Curtis... thưa Bệ hạ.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Lại lần nữa, cho đàng hoàng.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'... Ta là viện trưởng'
+	R
+	'Curtis.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'... ...'
+	\L_030b0:
+	ZH 1:
+	'Chẳng hợp chút nào.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Thì tôi đã bảo...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Vậy xưng tớ. Ít ra phải tớ'
+	R
+	'chứ.'
+	\L_030b0:
+	ZH 1:
+	'Không thì nhìn kiểu gì cũng'
+	R
+	'là con gái.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Tớ... Bệ hạ, ừm, tớ...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'............'
+	\L_030b0:
+	\L_030a3:
+	\L_02fc3:
+	ZH 1:
+	'Curtis bồn chồn lo lắng,'
+	R
+	'không biết phải làm gì...'
+	\L_030b0:
+	ZH 1:
+	'Nhưng anh nhìn'
+	R
+	'thẳng vào Rance.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'À... Vậy tớ... phải nói gì'
+	R
+	'bây giờ, thưa Bệ hạ...?'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'... Dừng lại đi.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Hả? À, vâng...???'
+	\L_030b0:
+	\L_030a3:
+	\L_02fa7:
+	ZH 1:
+	'Ugh... Ta'
+	R
+	'đã bật một chút... Điều'
+	R
+	'này cảm thấy thô thiển.'
+	\L_030b0:
+	ZH 1:
+	'Anh chàng này nguy hiểm.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Thưa Bệ hạ... Vậy... còn'
+	R
+	'nghiên cứu thì...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Im đi, ta về. Bị ám khí làm'
+	R
+	'choáng rồi.'
+	\L_030b0:
+	\L_030a3:
+	\L_02fed:
+	\L_02fc3:
+	ZH 1:
+	'Rance nhanh'
+	R
+	'chóng bước ra khỏi viện'
+	R
+	'nghiên cứu ma thuật.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Ám khí... Vì nhiều vật liệu'
+	R
+	'ma thuật quá chăng...?'
+	\L_030b0:
+	\L_030a3:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_01a22:
+	!VAR0516 : 430!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'A, B... Bệ hạ.'
+	\L_030b0:
+	ZH 1:
+	'(Chaka) Kính chào Bệ hạ'
+	R
+	'Rance.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Này. Nghiên cứu'
+	R
+	'thế nào rồi ông già?'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'（Chaka） nó sẽ đi...'
+	\L_030b0:
+	ZH 1:
+	'Thưa Bệ Hạ... Tôi'
+	R
+	'không thể chơi ở đây,'
+	R
+	'tôi không thích nó～.'
+	\L_030b0:
+	ZH 1:
+	'Tôi muốn đi tắm.'
+	R
+	'Chúng ta hãy cùng nhau'
+	R
+	'thực hiện, thưa Bệ hạ.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Chắc chắn. Trong 10 năm.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'10 năm??'
+	\L_030b0:
+	ZH 1:
+	'（Chaka） Vua... Bệ hạ'
+	R
+	'có nghiêm túc không...?'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Gahahahaha!. N'
+	R
+	'ếu nàng lớn lên dễ thương'
+	R
+	'thì tất nhiên là ta rồi!'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'（Chaka） Oh thân yêu...'
+	\L_030b0:
+	ZH 1:
+	'Nàng là cháu của'
+	R
+	'tôi, vì vậy tất nhiên'
+	R
+	'nàng sẽ dễ thương...'
+	\L_030b0:
+	ZH 1:
+	'Ôi em yêu...'
+	\L_030b0:
+	ZH 1:
+	'Có gì sai, Grampa?'
+	R
+	'Ông cần đi vệ sinh à?'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 248!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'A, Bệ hạ đã tới... Tôi chưa'
+	R
+	'kịp chào ngài...'
+	\L_030b0:
+	\L_030a3:
+	\L_02fc3:
+	ZH 1:
+	'Curtis chạy tới.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Ra đón chậm quá, Curtis ẻo'
+	R
+	'lả. Nhóc kia còn giỏi hơn'
+	R
+	'ngươi.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'A... Xin lỗi... Ha ha...'
+	\L_030b0:
+	ZH 1:
+	'Asuka ngoan lắm, có muốn kẹo'
+	R
+	'xoắn không?'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 430!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Cảm ơn chị.'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 248!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Kh... Không phải chị đâu,'
+	R
+	'Asuka.'
+	\L_030b0:
+	ZH 1:
+	'Anh nói bao nhiêu lần rồi'
+	R
+	'mà.'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 430!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'(Chaka) Này Asuka. Phải gọi'
+	R
+	'là anh.'
+	\L_030b0:
+	ZH 1:
+	'... Ơ? Nhưng... là chị mà...'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 248!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Ư... Chẳng chịu hiểu gì'
+	R
+	'cả...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Gahahahaha! Trẻ con thật thà'
+	R
+	'ghê.'
+	\L_030b0:
+	\L_030a3:
+	\0:
+*L_01d3b:
+	!VAR0516 : 11!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Bệ Hạ...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Ngươi cũng đang'
+	R
+	'nghiên cứu à, Melfeis?'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Vâng... Em nghĩ có kiến thức'
+	R
+	'vẫn tốt hơn không...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Cũng như nhiều người đẹp thì'
+	R
+	'hạnh phúc hơn chỉ một người'
+	\L_030b0:
+	ZH 1:
+	'nhỉ.'
+	\L_030b0:
+	ZH 1:
+	'Gahahahaha!'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'... Em không'
+	R
+	'biết về điều đó.'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 248!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'À, thưa bệ hạ... Chào mừng.'
+	R
+	'Xin chào, Melfeis.'
+	\L_030b0:
+	\L_030a3:
+	\L_02fc3:
+	ZH 1:
+	'Curtis xuất hiện'
+	R
+	'với nụ cười trên môi.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Này, Curtis ẻo lả.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Vâng, nó là gì? đây'
+	R
+	'là người phụ nữ của ta.'
+	R
+	'Không được bật bởi nàng.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Tôi... tôi sẽ không bao'
+	R
+	'giờ...! Tôi xin lỗi, Melfeis'
+	R
+	'rất hấp dẫn, nhưng tôi...!'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 11!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'B... Bệ hạ nói gì vậy! Nhưng'
+	R
+	'đó là sự thật mà.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Thôi... Em mặc kệ ngài!'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	\L_03033:
+	ZH 1:
+	'Melfeis che khuôn mặt đỏ'
+	R
+	'bừng của mình bằng cả hai'
+	R
+	'tay và bỏ chạy.'
+	\L_030b0:
+	\L_030a3:
+	!VAR0516 : 248!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'À, Melfeis...!'
+	\L_030b0:
+	ZH 1:
+	'... Bệ hạ, ừm,'
+	R
+	'xin đừng thô lỗ trước mặt'
+	R
+	'một quý cô như Melfeis...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'............'
+	\L_030b0:
+	\L_030a3:
+	\L_02fc3:
+	ZH 1:
+	'(Bốp!)'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Sao ngài đánh, đau lắm! Nghe'
+	R
+	'tiếng nặng thế cơ mà...!?'
+	\L_030b0:
+	ZH 1:
+	'Tại đầu ngươi ở đó chứ bộ.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Ờ...'
+	\L_030b0:
+	\L_030a3:
+	\0:
+*L_01fe7:
+	!VAR0516 : 49!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Ồ, đó không'
+	R
+	'phải là Rance sao?'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Ừ, Shizuka. Sao rồi, nghiên'
+	R
+	'cứu được bộn bề chưa?'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Bộn bề gì... Cũng vừa phải'
+	\L_030b0:
+	ZH 1:
+	'thôi. Được nghiên cứu vì'
+	R
+	'mình thì tôi cung'
+	\L_030b0:
+	ZH 1:
+	'cấp kết quả, thế thôi.'
+	\L_030b0:
+	ZH 1:
+	'Có ích cho Leazas hay không'
+	R
+	'là tùy viện trưởng Curtis'
+	R
+	'chứ?'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Chậc, vẫn cứ thích làm theo'
+	R
+	'ý mình... Ta cho ở đây thì'
+	R
+	'hợp tác thêm chút đi.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Tôi đâu thích ở đây!'
+	\L_030b0:
+	ZH 1:
+	'Không vừa ý thì cho tôi về'
+	R
+	'Custom đi!'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Thế thì ta cũng không chịu.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Trời ạ...!'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	\L_02ffb:
+	ZH 1:
+	'Ha ha... Có chuyện gì vậy?'
+	R
+	'Cô Shizuka, náo nhiệt quá'
+	R
+	'nhỉ.'
+	\L_030b0:
+	\L_030a3:
+	\L_02fc3:
+	ZH 1:
+	'Curtis bước vào'
+	R
+	'từ phòng bên cạnh.'
+	\L_030b0:
+	\L_030a3:
+	!VAR0516 : 248!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'A, Bệ hạ... Ha ha cái gì!'
+	R
+	'Viện trưởng Curtis, con bé'
+	R
+	'nghiên cứu'
+	\L_030b0:
+	ZH 1:
+	'viên này hỗn quá. Không làm'
+	R
+	'thuốc đổi tính nó'
+	\L_030b0:
+	ZH 1:
+	'được à? Thế... vô lý quá, Bệ'
+	R
+	'hạ...'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 49!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Viện trưởng Curtis, khỏi'
+	R
+	'nghe lời tên vua ngốc này.'
+	R
+	'...'
+	\L_030b0:
+	ZH 1:
+	'Đi đây, Rance.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Này, ngươi...!'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	\L_02fc3:
+	ZH 1:
+	'Shizuka rời Curtis và Rance.'
+	\L_030b0:
+	\L_030a3:
+	!VAR0516 : 248!
+	\L_0304f:
+	\L_02f8b:
+	ZH 1:
+	'Chết tiệt, nàng'
+	R
+	'thật đáng ghét.'
+	\L_030b0:
+	\L_030a3:
+	\L_02fc3:
+	ZH 1:
+	'(pow)'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Ah, ôi... Xin đừng trút'
+	R
+	'giận lên tôi, thưa Bệ hạ...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Im đi, ý kiến của gã ẻo lả'
+	R
+	'bị bác bỏ.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Nức nở...'
+	\L_030b0:
+	\L_030a3:
+	\0:
+*L_022dc:
+	!VAR0516 : 426!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Ồ, vua Leazas. Tới cả đây...'
+	\L_030b0:
+	ZH 1:
+	'Chẳng lẽ...'
+	\L_030b0:
+	ZH 1:
+	'Tới ngắm mặt viện trưởng'
+	R
+	'xinh đẹp sao?'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Ugh... Thật'
+	R
+	'kinh tởm, ông già!!'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'NGƯỜI DÂN'
+	R
+	'NHẬT bản có phong tục'
+	R
+	'đồng tính luyến ái,'
+	\L_030b0:
+	ZH 1:
+	'nơi những người'
+	R
+	'cai trị chờ đợi sự hấp'
+	R
+	'dẫn con trai, mặc dù...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Chuyện đó liên quan quái gì'
+	R
+	'tới ta!!'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 248!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Ồ, ở đây khá sôi động...'
+	R
+	'...!?'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Hyaaah!!!'
+	\L_030b0:
+	\L_030a3:
+	\L_02fc3:
+	ZH 1:
+	'(gwak)'
+	\L_030b0:
+	ZH 1:
+	'Curtis đến kiểm tra tình'
+	R
+	'hình và bị Rance bất ngờ đá.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Aah... Bệ'
+	R
+	'hạ... Tại sao...?'
+	\L_030b0:
+	\L_030a3:
+	\L_02fc3:
+	ZH 1:
+	'Curtis thu mình lại'
+	R
+	'trong nước mắt và ngước nhìn'
+	R
+	'Rance với vẻ mặt đa tình.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Urgh.. Im đi!!'
+	R
+	'Đó là lỗi của ngươi'
+	R
+	'mà ta...!!'
+	\L_030b0:
+	\L_030a3:
+	\L_02fc3:
+	ZH 1:
+	'(gwak)'
+	\L_030b0:
+	ZH 1:
+	'（thwack）'
+	\L_030b0:
+	ZH 1:
+	'（bùm!）'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 426!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'N... Này, dừng tay đi, vua'
+	R
+	'Leazas.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Này thì, này thì, này thì!'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 248!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'T... Tôi đã làm gì cơ'
+	R
+	'chứ...?'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Haah... Thật sảng khoái...'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 426!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Ôi... Tội nghiệp quá... Xin'
+	R
+	'lỗi cậu, viện trưởng...'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 248!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Nức nở...'
+	\L_030b0:
+	\L_030a3:
+	\0:
+*L_025b6:
+	!VAR0516 : 44!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Oooh, cậu Rance.'
+	R
+	'Bệ hạ đã đến gặp meeee chưa?'
+	\L_030b0:
+	ZH 1:
+	'（Nomicon） Không, Chị'
+	R
+	'ơi, hắn đến gặp tôi!'
+	\L_030b0:
+	ZH 1:
+	'Đối với một điểm'
+	R
+	'hẹn của tình yêu, KEKEKEH...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Im đi. Ai thèm tới gặp'
+	R
+	'ngươi, sách điên.'
+	\L_030b0:
+	ZH 1:
+	'Nghiên cứu thế nào, có'
+	R
+	'nghiêm túc không?'
+	\L_030b0:
+	ZH 1:
+	'Không làm trò nguy hiểm đấy'
+	R
+	'chứ?'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Tôi vẫn làm đúng lời viện'
+	R
+	'trưởng mà... Dù sao thì...'
+	\L_030b0:
+	ZH 1:
+	'Cậu Rance, tôi có việc muốn'
+	R
+	'nhờ.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Ừm, cái gì cơ?'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Có phiền không'
+	R
+	'nếu tôi ăn trưởng?'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'... Này, chuyện ấy... Ồ, vừa'
+	R
+	'nhắc tới thì Curtis tới.'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 248!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Thưa Bệ hạ...'
+	\L_030b0:
+	ZH 1:
+	'Xin thất lễ vì chào từ sau'
+	R
+	'cột... Kính mừng ngài tới...'
+	\L_030b0:
+	\L_030a3:
+	\L_02fc3:
+	ZH 1:
+	'Curtis run rẩy cúi đầu sau'
+	R
+	'chiếc cột cách đó một đoạn.'
+	\L_030b0:
+	\L_030a3:
+	\L_02fed:
+	!VAR0516 : 44!
+	\L_02fdf:
+	\L_02f8b:
+	ZH 1:
+	'Heeey Sếp, lại đây.'
+	\L_030b0:
+	ZH 1:
+	'Dooon đừng lo'
+	R
+	'lắng, tôi sẽ là một cô gái'
+	R
+	'ngoan trước mặt nhà vua.'
+	\L_030b0:
+	ZH 1:
+	'（Nomicon）'
+	R
+	'KEEEEEEEEEKEKEKEKEKEKEKE'
+	R
+	'KEKEH, Đến đây,'
+	\L_030b0:
+	ZH 1:
+	'inoshikachooo!'
+	\L_030b0:
+	ZH 1:
+	'Ba Người! KEKEKEKEKEKEH...'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Chào...'
+	\L_030b0:
+	\L_030a3:
+	\L_02fed:
+	!VAR0516 : 1!
+	\L_02fdf:
+	\L_02f8b:
+	ZH 1:
+	'...'
+	\L_030b0:
+	ZH 1:
+	'Papaya, ngươi không được'
+	R
+	'phép nhìn trìu mến bất kỳ'
+	R
+	'người đàn ông nào ngoài ta,'
+	\L_030b0:
+	ZH 1:
+	'vì vậy không được'
+	R
+	'động tay vào Curtis.'
+	\L_030b0:
+	ZH 1:
+	'Tuy nhiên,'
+	R
+	'ngươi có thể tiếp tục hù dọa'
+	R
+	'hắn, điều đó khá buồn cười.'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 44!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Được rồi, cậu Rance. Tạm biệt hai người...'
+	\L_030b0:
+	ZH 1:
+	'Ah. Sếp, tôi sẽ qua phòng anh sau.'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	\L_02fc3:
+	ZH 1:
+	'Papaya đi rồi.'
+	\L_030b0:
+	\L_030a3:
+	!VAR0516 : 248!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'C... Cô không cần tới đâu...'
+	R
+	'Cô Papaya... Ư...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Tốt cho ngươi, Queertis.'
+	\L_030b0:
+	\L_030a3:
+	\0:
+*L_028f5:
+	!VAR0772 : 1!
+	\L_02f8b:
+	ZH 1:
+	'Hừm, đủ thứ kỳ lạ... Quả là'
+	\L_030b0:
+	ZH 1:
+	'viện nghiên cứu ma thuật của'
+	R
+	'ta. Nhỉ, Maris.'
+	\L_030b0:
+	\L_030a3:
+	\L_02fc3:
+	ZH 1:
+	'Rance đi vòng quanh và'
+	R
+	'kiểm tra viện nghiên cứu.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'A, Bệ hạ Rance, phía'
+	R
+	'trước...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Ừm?... Ồ.'
+	\L_030b0:
+	\L_030a3:
+	\L_02fc3:
+	ZH 1:
+	'(Bịch!) Một'
+	\L_030b0:
+	ZH 1:
+	'người nhỏ nhắn có vẻ cũng'
+	R
+	'đang nhìn chỗ khác, đâm sầm'
+	R
+	'vào Rance.'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 248!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Wah... À... S-Xin Lỗi, tôi'
+	R
+	'đã xem một số cuốn sách...'
+	R
+	'Bệ hạ có bị thương không?'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Không, ta ổn. Ngươi còn ngồi'
+	R
+	'bệt đó mà lo cho người khác'
+	R
+	'sao? ... Nào.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'A, vâng... Cảm ơn Bệ hạ.'
+	\L_030b0:
+	ZH 1:
+	'Xin tự giới thiệu muộn...'
+	\L_030b0:
+	ZH 1:
+	'Tôi là Curtis, vừa nhận chức'
+	R
+	'viện trưởng ở đây.'
+	\L_030b0:
+	\L_030a3:
+	\L_02fc3:
+	ZH 1:
+	'Curtis nắm tay Rance đứng'
+	R
+	'dậy, mỉm cười.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Ồ? À... Ngươi là viện trưởng'
+	R
+	'à. Dễ thương quá, hì hì...'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Dễ thương ư... Không dám...'
+	R
+	'Sao lại không, ngươi dễ'
+	R
+	'thương lắm.'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 6!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Um, Bệ hạ...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Yên Lặng, Maris. Làm'
+	R
+	'thế nào về Nó, Curtis?'
+	\L_030b0:
+	ZH 1:
+	'Ngoài việc điều hành'
+	R
+	'viện nghiên cứu này,'
+	\L_030b0:
+	ZH 1:
+	'ngươi có thể gia nhập'
+	R
+	'hậu cung của ta và...'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Bệ hạ.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Im đi. Vì vậy, tối'
+	R
+	'nay hãy đến với ta...'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Bệ hạ, Curtis'
+	R
+	'Aberen là một người đàn ông.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'... Ờ?'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 248!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Ừm... Đúng vậy, tôi rất xin lỗi...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Ờ...'
+	\L_030b0:
+	ZH 1:
+	'Daaaaaaaaaaaaah,'
+	R
+	'ngươi nữ tính quá, nhưng'
+	R
+	'ngươi lại là đàn ông!?'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Nữ tính...'
+	R
+	'Vâng, tôi xin lỗi...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Ugh... Chết Tiệt, Maris!!'
+	\L_030b0:
+	ZH 1:
+	'Đáng lẽ ta phải gặp'
+	R
+	'một cô gái quyến rũ nào đó'
+	R
+	'vào những lúc như thế này!!'
+	\L_030b0:
+	ZH 1:
+	'Tại sao lại là'
+	R
+	'chàng trai trẻ này?!!'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 6!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Nhưng Bệ hạ, tài cậu Curtis'
+	R
+	'xuất sắc tới mức chẳng cần'
+	R
+	'xét tuổi...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Vấn đề không phải tuổi!!'
+	\L_030b0:
+	ZH 1:
+	'Là giới tính, giới tính ấy!!'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Giới tính lại'
+	\L_030b0:
+	ZH 1:
+	'càng không quan trọng.'
+	\L_030b0:
+	ZH 1:
+	'Cậu ấy là người phù hợp nhất'
+	R
+	'để phát'
+	\L_030b0:
+	ZH 1:
+	'triển ma thuật nước ta. Vì'
+	R
+	'đuổi kịp Zeth, xin Bệ hạ'
+	R
+	'nhẫn'
+	\L_030b0:
+	ZH 1:
+	'nại...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Hừ... Được, ta nhịn. Nhưng'
+	R
+	'Curtis,'
+	\L_030b0:
+	ZH 1:
+	'không làm việc cho tử tế thì'
+	R
+	'ta treo cổ ngươi.'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 248!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'A... V... Vâng... Tôi sẽ dốc'
+	R
+	'hết sức.'
+	\L_030b0:
+	\L_030a3:
+	\L_02fa7:
+	ZH 1:
+	'Đm cái anh chàng này...'
+	\L_030b0:
+	ZH 1:
+	'Khiến ta'
+	R
+	'bị thu hút bởi một người đàn'
+	R
+	'ông dù chỉ trong chốc lát...'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Gaaa, không tha! Từ nay ta'
+	R
+	'sẽ bắt nạt hắn. Quyết định'
+	R
+	'vậy!'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Á...!?'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 6!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'Xin bình tĩnh, Bệ hạ'
+	R
+	'Rance...'
+	\L_030b0:
+	ZH 1:
+	'Cậu Curtis sợ rồi. Cứ để hắn'
+	R
+	'sợ!! Phù, phù...'
+	\L_030b0:
+	\L_030a3:
+	\L_0305d:
+	!VAR0516 : 248!
+	\L_0304f:
+	\L_03017:
+	ZH 1:
+	'Cứ để sợ... Hức hức.'
+	\L_030b0:
+	\L_030a3:
+	\0:
+*L_02e83:
+	!VAR0516 : 248!
+	\L_0304f:
+	\L_02ffb:
+	ZH 1:
+	'À, thưa bệ'
+	R
+	'hạ... Chào mừng.'
+	\L_030b0:
+	\L_030a3:
+	\L_02fc3:
+	ZH 1:
+	'Viện trưởng Curtis dịu dàng'
+	R
+	'ra đón Rance.'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Hừ, ẻo lả quá.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Tôi... ẻo lả vậy sao...?'
+	\L_030b0:
+	\L_030a3:
+	\L_02f8b:
+	ZH 1:
+	'Phải, phải, cực kỳ luôn.'
+	R
+	'Ngươi'
+	\L_030b0:
+	ZH 1:
+	'nghiên cứu cách nhét thước'
+	R
+	'vào lưng cho thẳng đi.'
+	\L_030b0:
+	\L_030a3:
+	\L_02ffb:
+	ZH 1:
+	'Nức nở...'
+	\L_030b0:
+	\L_030a3:
+	\0:
+*L_02f54:
+	{VAR0465 > 100:
+		!VAR0154 : VAR0465 - 100!
+		{VAR0102 = 0:
+			!VAR0465 : 0!
+			!VAR0466 : 0!
+		}
+	}
+	\0:
+*L_02f8b:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02fa7:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02fc3:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02fdf:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02fed:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02ffb:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03017:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03033:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0304f:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0305d:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03087:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_030a3:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_030b0:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

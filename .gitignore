@@ -8,7 +8,16 @@
 tools/*
 !tools/rance_save_tool.py
 scratch/
+scratch_*
 *.py
+!pronoun_editor/**/*.py
+!pronoun_editor/*.py
+.pronoun-editor/
+pronoun_editor/runtime/
+pronoun_editor/dist/
+pronoun_editor/server*.log
+pronoun_editor/tests/integration_project/
+pronoun_editor/tests/ui_project/
 !tools/rance_save_tool.py
 *.pyc
 __pycache__/
@@ -17,6 +26,7 @@ __pycache__/
 orig_backup/
 bgm/
 Kichikuou Rance.zip
+savedata.zip
 _inmm.ini
 xsys_log.txt
 *.asd
@@ -30,7 +40,20 @@ test_pms/
 test_archiveb.ald
 translate_all.bat
 play_game.bat
+verified_build/
+
+# Root duplicates from xsys35c_tools
+/CHANGELOG.md
+/COPYING
+/docs/
 
 # System / OS
 Thumbs.db
 .DS_Store
+release_v0.8/
+Kichikuou_Rance_Vi_v0.8.zip
+.pronoun-editor/
+pronoun_editor/.build-deps/
+pronoun_editor/build/
+pronoun_editor/dist_build/
+pronoun_editor/tests/*_project/

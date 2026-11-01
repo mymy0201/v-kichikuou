@@ -1,0 +1,1904 @@
+--- before/FIGT_A.ADV
++++ src/FIGT_A.ADV
+@@ -32,14 +32,10 @@
+ 		!VAR0580 : 5000!
+ 		\L_0058a:
+ 		ZH 1:
+-		'Quân địch đã rời'
+-		R
+-		'thành, đòi quyết chiến'
+-		\L_00677:
+-		ZH 1:
+-		'trên đồng bằng'
+-		R
+-		'ngoài thành.'
++		'Quân địch rời thành, yêu cầu'
++		\L_00677:
++		ZH 1:
++		'quyết chiến trên đồng bằng.'
+ 		\L_00677:
+ 		\L_0066a:
+ 	}
+@@ -49,9 +45,9 @@
+ 		ZH 1:
+ 		'Quân địch cố thủ'
+ 		R
+-		'trong thành, không chịu ra.'
+-		R
+-		'Sẽ giao chiến trong thành.'
++		'trong thành, không'
++		R
++		'ra. Sẽ đánh trong phố.'
+ 		\L_00677:
+ 		!VAR0070 : 902!
+ 		\L_0066a:
+@@ -90,10 +86,10 @@
+ 		R
+ 		{(VAR0581 = 1) * (VAR0518 \ 0):
+ 			ZH 1:
+-			'Cuộc tấn công vào'
++			'Cuộc tấn công thất bại tại'
+ 			R
+ 			X 8:
+-			' đã thất bại.'
++			'.'
+ 		}
+ 		\L_00677:
+ 		!VAR0516 : 3!
+@@ -133,9 +129,9 @@
+ 		{(VAR0518 \ 0) * (VAR0581 = 1):
+ 			ZH 1:
+ 			X 8:
+-			' đã nằm dưới quyền'
++			' '
+ 			R
+-			'kiểm soát của quân ta.'
++			'đã thuộc quyền quân ta.'
+ 		}
+ 		\L_00677:
+ 		\L_0066a:
+--- before/Gﾌﾚｲｱ.ADV
++++ src/Gﾌﾚｲｱ.ADV
+@@ -2366,12 +2366,12 @@
+ 	\L_03876:
+ 	ZM 32:
+ 	ZH 1:
+-	'Khu Bần'
++	'Poor'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Hàn - Ngõ sau Hừm hừm hưm...'
++	'Ngõ sau. Hừm hừm hưm...'
+ 	\L_03963:
+ 	\L_03956:
+ 	!VAR0516 : 449!
+--- before/Gﾌﾞﾘﾃｨ.ADV
++++ src/Gﾌﾞﾘﾃｨ.ADV
+@@ -20,7 +20,7 @@
+ 	\L_0241f:
+ 	ZM 32:
+ 	ZH 1:
+-	'Mê cung Sơn Tặc,'
++	'Mê cung Sơn tặc'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+@@ -40,14 +40,14 @@
+ 	\L_0241f:
+ 	ZM 32:
+ 	ZH 1:
+-	'Mê cung Sơn Tặc,'
++	'Mê cung Sơn tặc'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'tầng 1. Hôm nay Julia lại'
+-	R
+-	'mang cơm tới cho British.'
++	'Tầng 1. Hôm nay Julia lại'
++	R
++	'mang cơm đến cho British.'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_023e7:
+@@ -62,27 +62,25 @@
+ 	\L_024ff:
+ 	\L_0241f:
+ 	ZH 1:
+-	'Julia nuôi người Anh'
++	'Julia đút cho British'
+ 	R
+ 	Y 4, 4:
+ 	!VAR0690 : VAR0000!
+ 	{VAR0690 = 1:
+ 		ZH 1:
+-		'một chiếc bánh'
+-		R
+-		'sandwich đầy mù tạt'
++		'bánh kẹp đầy mù tạt'
+ 	}
+ 	{VAR0690 = 2:
+ 		ZH 1:
+-		'cháo gạo'
++		'cháo nóng hổi'
+ 	}
+ 	{VAR0690 = 3:
+ 		ZH 1:
+-		'anpan'
++		'bánh mì nhân đậu đỏ'
+ 	}
+ 	{VAR0690 = 4:
+ 		ZH 1:
+-		'một hình nón tuyết dâu tây'
++		'đá bào vị dâu'
+ 	}
+ 	ZH 1:
+ 	'.'
+@@ -126,7 +124,7 @@
+ 		\L_024ff:
+ 		\L_023e7:
+ 		ZH 1:
+-		'Thật sao? Em rất vui.'
++		'Thật ạ? May quá.'
+ 		\L_0250c:
+ 		\L_024ff:
+ 	}
+@@ -151,14 +149,14 @@
+ 	{VAR0690 = 4:
+ 		\L_02457:
+ 		ZH 1:
+-		'Chậc... Ôi!! Tới rồi!! Đ...'
+-		R
+-		'đau đầu quá...'
++		'Ư... Ôi!! Lại rồi!!'
++		R
++		'Đ... Đầu tôi...'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_023e7:
+ 		ZH 1:
+-		'Ôi...'
++		'Ôi ôi ôi...'
+ 		\L_0250c:
+ 		\L_024ff:
+ 	}
+@@ -187,41 +185,45 @@
+ 	\L_0241f:
+ 	ZM 32:
+ 	ZH 1:
+-	'Mê cung Sơn'
++	'Mê cung Sơn tặc'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tặc, lối vào. Gần thành'
+-	R
+-	'Leazas có'
+-	\L_0250c:
+-	ZH 1:
+-	'khác, Quái Vật ở đây bị diệt'
+-	R
+-	'sạch.'
+-	\L_0250c:
+-	ZH 1:
+-	'Sơn tặc từng làm tổ nhưng'
+-	\L_0250c:
+-	ZH 1:
+-	'cũng bị ta đánh tan.'
+-	\L_0250c:
+-	ZH 1:
+-	'Giờ chỉ là hang thường.'
+-	\L_0250c:
+-	ZH 1:
+-	'Chắc chẳng có'
+-	\L_0250c:
+-	ZH 1:
+-	'gì, nhưng vào xem giết thời'
+-	R
+-	'gian vậy.'
+-	\L_0250c:
+-	\L_024ff:
+-	\L_0241f:
+-	ZH 1:
+-	'Rance bước vào ngục tối.'
++	'Lối vào. Rance「Gần'
++	R
++	'thành Leazas có khác,'
++	\L_0250c:
++	ZH 1:
++	'quái vật ở đây đã bị'
++	R
++	'diệt sạch tận gốc.'
++	\L_0250c:
++	ZH 1:
++	'Trước đây sơn'
++	R
++	'tặc từng làm tổ,'
++	\L_0250c:
++	ZH 1:
++	'nhưng cũng bị ta đánh tan,'
++	\L_0250c:
++	ZH 1:
++	'nên giờ chỉ còn'
++	R
++	'là hang thường.'
++	\L_0250c:
++	ZH 1:
++	'Chắc chẳng có gì, nhưng'
++	\L_0250c:
++	ZH 1:
++	'cứ vào xem cho'
++	R
++	'đỡ buồn vậy.」'
++	\L_0250c:
++	\L_024ff:
++	\L_0241f:
++	ZH 1:
++	'Rance bước vào mê cung.'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_02533:
+@@ -234,20 +236,22 @@
+ 	\L_0241f:
+ 	ZM 32:
+ 	ZH 1:
+-	'Mê cung Sơn Tặc,'
++	'Mê cung Sơn tặc'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'tầng 1. Hừ, chẳng có gì...'
+-	\L_0250c:
+-	ZH 1:
+-	'Rance nghĩ vậy, đi loanh'
+-	R
+-	'quanh thì...'
+-	\L_0250c:
+-	ZH 1:
+-	'...a...'
++	'Tầng 1. Rance「Hừ,'
++	R
++	'chẳng có gì...」'
++	\L_0250c:
++	ZH 1:
++	'Hắn vừa nghĩ vừa đi'
++	R
++	'loanh quanh thì nghe...'
++	\L_0250c:
++	ZH 1:
++	'... a...'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_023e7:
+@@ -257,7 +261,7 @@
+ 	\L_024ff:
+ 	\L_0241f:
+ 	ZH 1:
+-	'Rance căng tai.'
++	'Rance lắng tai nghe.'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_02457:
+@@ -265,7 +269,7 @@
+ 	'... Này...'
+ 	\L_0250c:
+ 	ZH 1:
+-	'... Heeee...'
++	'... Nàyyy...'
+ 	\L_0250c:
+ 	ZH 1:
+ 	'... Có ai ở đây không?'
+@@ -280,14 +284,14 @@
+ 	\L_024ff:
+ 	\L_023e7:
+ 	ZH 1:
+-	'Có lẽ ta nên đi tìm họ.'
+-	\L_0250c:
+-	\L_024ff:
+-	\L_0241f:
+-	ZH 1:
+-	'Rance đi theo'
+-	R
+-	'hướng của giọng nói.'
++	'Đến xem thử nào.'
++	\L_0250c:
++	\L_024ff:
++	\L_0241f:
++	ZH 1:
++	'Rance đi về phía'
++	R
++	'có tiếng gọi.'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	!VAR0516 : 481!
+@@ -304,17 +308,19 @@
+ 	\L_024ff:
+ 	\L_02457:
+ 	ZH 1:
+-	'Tôi là British. Xin cậu...'
+-	R
+-	'Tôi kẹt'
+-	\L_0250c:
+-	ZH 1:
+-	'thế này lâu lắm rồi... Cứu'
+-	R
+-	'với... Người đàn ông'
+-	\L_0250c:
+-	ZH 1:
+-	'cất giọng thảm hại.'
++	'Tôi tên British. Xin'
++	R
++	'cậu... Tôi bị kẹt'
++	\L_0250c:
++	ZH 1:
++	'thế này lâu lắm'
++	R
++	'rồi... Cứu tôi với...'
++	\L_0250c:
++	ZH 1:
++	'Người đàn ông cất'
++	R
++	'giọng thảm hại.'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	{VAR0101 = 1:
+@@ -323,14 +329,14 @@
+ 		\L_024ab:
+ 		\L_02457:
+ 		ZH 1:
+-		'（Chaos） British...?'
+-		R
+-		'（Rance）'
+-		\L_0250c:
+-		ZH 1:
+-		'Sao, Chaos? Ngươi quen gã'
+-		R
+-		'kẹt ở đây à?'
++		'Chaos「British...?」'
++		R
++		'Rance「Sao thế, Chaos?'
++		\L_0250c:
++		ZH 1:
++		'Ngươi quen gã'
++		R
++		'mắc kẹt ở đây à?」'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_02457:
+@@ -348,7 +354,7 @@
+ 		\L_024ab:
+ 		\L_02457:
+ 		ZH 1:
+-		'Ooooh...'
++		'Hu hu...'
+ 		\L_0250c:
+ 		\L_024ff:
+ 	}
+@@ -363,24 +369,24 @@
+ 	\L_0241f:
+ 	ZM 32:
+ 	ZH 1:
+-	'Mê cung Sơn'
++	'Mê cung Sơn tặc'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tặc, lối vào. Trong này có'
+-	R
+-	'lão British bị bê tông bọc'
+-	R
+-	'cứng.'
+-	\L_0250c:
+-	ZH 1:
+-	'Vào trêu lão chơi nào.'
+-	\L_0250c:
+-	\L_024ff:
+-	\L_0241f:
+-	ZH 1:
+-	'Rance bước vào ngục tối.'
++	'Lối vào. Rance「Trong'
++	R
++	'này có lão British'
++	R
++	'bị bê tông bọc cứng.'
++	\L_0250c:
++	ZH 1:
++	'Vào trêu lão chơi nào.」'
++	\L_0250c:
++	\L_024ff:
++	\L_0241f:
++	ZH 1:
++	'Rance bước vào mê cung.'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_02533:
+@@ -395,14 +401,12 @@
+ 	\L_0241f:
+ 	ZM 32:
+ 	ZH 1:
+-	'Mê cung Sơn Tặc, tầng'
+-	R
+-	'1.'
++	'Mê cung Sơn tặc'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'A, đây rồi.'
++	'Tầng 1. Rance「Ồ, đây rồi.」'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	!VAR0154 : 5!
+@@ -448,20 +452,24 @@
+ 	\L_024ff:
+ 	\L_0241f:
+ 	ZH 1:
+-	'Julia Lindum, cô ngốc bị coi'
+-	\L_0250c:
+-	ZH 1:
+-	'là gánh nặng của Cận Vệ'
+-	R
+-	'Leazas.'
+-	\L_0250c:
+-	ZH 1:
+-	'Đội vốn đòi hỏi thực lực, cô'
+-	\L_0250c:
+-	ZH 1:
+-	'vào được chỉ nhờ quan hệ cha'
+-	R
+-	'mẹ và được Lia yêu thích.'
++	'Julia Lindum, cô'
++	R
++	'nàng ngốc nghếch'
++	\L_0250c:
++	ZH 1:
++	'bị coi là gánh nặng'
++	R
++	'của Cận vệ Leazas.'
++	\L_0250c:
++	ZH 1:
++	'Đội cận vệ vốn'
++	R
++	'đòi hỏi thực lực,'
++	\L_0250c:
++	ZH 1:
++	'cô vào được chỉ nhờ quan hệ'
++	R
++	'cha mẹ và được Lia thích.'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_02457:
+@@ -500,9 +508,9 @@
+ 	\L_024ab:
+ 	\L_02457:
+ 	ZH 1:
+-	'Aaaaah, Juliaaaaaaaaa. Nàng'
+-	R
+-	'đi rồi... Haah...'
++	'Aaa, Julia ơi... Cháu'
++	R
++	'đi mất rồi... Hầy...'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_0248f:
+@@ -517,12 +525,14 @@
+ 	\L_024ff:
+ 	\L_02457:
+ 	ZH 1:
+-	'Không, không phải thế... Hôm'
+-	R
+-	'nay cậu tới cứu'
+-	\L_0250c:
+-	ZH 1:
+-	'tôi, đúng không?'
++	'Không, không phải'
++	R
++	'thế... Đâu có... Thế'
++	R
++	'hôm nay cậu đến cứu'
++	\L_0250c:
++	ZH 1:
++	'tôi phải không? Đúng không?'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_023e7:
+@@ -547,13 +557,13 @@
+ 	{VAR0492 > 1:
+ 		ZH 1:
+ 		$L_01075$
+-		'Hỏi Về KD'
++		'Hỏi về KD'
+ 		$
+ 	}
+ 	{VAR0492 > 1:
+ 		ZH 1:
+ 		$L_010de$
+-		'Hỏi Về Quán Cà Phê'
++		'Hỏi về Café'
+ 		$
+ 	}
+ 	ZH 1:
+@@ -562,7 +572,7 @@
+ 	$
+ 	R
+ 	$L_011cf$
+-	'Trợ giúp'
++	'Cứu giúp'
+ 	$
+ 	R
+ 	$L_01173$
+@@ -597,7 +607,7 @@
+ 	\L_024ff:
+ 	\L_02457:
+ 	ZH 1:
+-	'U-Uh...'
++	'À... Ừm...'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_023e7:
+@@ -607,9 +617,11 @@
+ 	\L_024ff:
+ 	\L_02457:
+ 	ZH 1:
+-	'Ah～... Nói gì đi... Này,'
+-	R
+-	'bên ngoài có chuyện gì thế?'
++	'À... Nói gì đi...'
++	R
++	'Chẳng hạn... Ngoài'
++	R
++	'kia giờ thế nào rồi?'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_023e7:
+@@ -619,9 +631,9 @@
+ 	\L_024ff:
+ 	\L_02457:
+ 	ZH 1:
+-	'Tôi chán'
+-	R
+-	'quá~... Làm ơn đi~...'
++	'Tôi chán quá...'
++	R
++	'Xin cậu đấy...'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_02403:
+@@ -645,14 +657,14 @@
+ *L_00cce:
+ 	\L_023e7:
+ 	ZH 1:
+-	'Ngươi có thực sự là'
+-	R
+-	'một chiến binh vĩ đại?'
+-	\L_0250c:
+-	\L_024ff:
+-	\L_02457:
+-	ZH 1:
+-	'Aah... Vâng...'
++	'Ngươi thật sự từng là'
++	R
++	'chiến binh tài giỏi sao?'
++	\L_0250c:
++	\L_024ff:
++	\L_02457:
++	ZH 1:
++	'Ừ... Đúng vậy...'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_023e7:
+@@ -667,16 +679,16 @@
+ 	\L_024ff:
+ 	\L_02457:
+ 	ZH 1:
+-	'Chà... Một số'
+-	R
+-	'điều đã xảy ra...'
+-	\L_0250c:
+-	\L_024ff:
+-	\L_023e7:
+-	ZH 1:
+-	'Hmm, ngươi giống như'
+-	R
+-	'một con khỉ ngu ngốc.'
++	'Chuyện đó... Ừm... Đã'
++	R
++	'xảy ra nhiều chuyện...'
++	\L_0250c:
++	\L_024ff:
++	\L_023e7:
++	ZH 1:
++	'Hừm, giống một con'
++	R
++	'khỉ ngốc nào đó ghê.'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_02457:
+@@ -689,16 +701,16 @@
+ 	!VAR0736 : 2!
+ 	\L_023e7:
+ 	ZH 1:
+-	'Tuy nhiên,'
+-	R
+-	'ta ghét việc có ngươi'
+-	R
+-	'ở cạnh lâu đài của ta.'
+-	\L_0250c:
+-	\L_024ff:
+-	\L_02457:
+-	ZH 1:
+-	'Ồ, ngươi là vua à?'
++	'Có gã bê tông thế'
++	R
++	'này ở gần thành của'
++	R
++	'ta, chướng mắt thật.'
++	\L_0250c:
++	\L_024ff:
++	\L_02457:
++	ZH 1:
++	'Hả, cậu là vua sao?'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_023e7:
+@@ -721,31 +733,29 @@
+ 	\L_024ff:
+ 	\L_02473:
+ 	ZH 1:
+-	'...Chẳng nhìn ra...'
+-	\L_0250c:
+-	ZH 1:
+-	'Tôi sống lâu vậy rồi, nhìn'
+-	\L_0250c:
+-	ZH 1:
+-	'kiểu gì mặt cậu cũng là ác'
+-	R
+-	'nhân...'
+-	\L_0250c:
+-	\L_024ff:
+-	\L_023e7:
+-	ZH 1:
+-	'Ồ, ta nghĩ ra một ý hay.'
+-	R
+-	'Ngươi không thấy nhiều người'
+-	R
+-	'bị mắc kẹt trong bê tông...'
+-	\L_0250c:
+-	ZH 1:
+-	'Có lẽ ta nên tổ'
+-	R
+-	'chức một buổi biểu diễn'
+-	R
+-	'kỳ dị và kiếm thêm tiền.'
++	'... Chẳng nhìn ra...'
++	\L_0250c:
++	ZH 1:
++	'Tôi sống lâu thế rồi, nhưng'
++	\L_0250c:
++	ZH 1:
++	'nhìn kiểu gì mặt cậu cũng'
++	R
++	'giống phường ác ôn...'
++	\L_0250c:
++	\L_024ff:
++	\L_023e7:
++	ZH 1:
++	'Phải rồi, ta có ý hay.'
++	R
++	'Người bị bê tông bọc'
++	R
++	'kín thế này hiếm lắm...'
++	\L_0250c:
++	ZH 1:
++	'Mở lều trưng bày cho thiên'
++	R
++	'hạ xem, kiếm chút tiền nhỉ.'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_02457:
+@@ -772,7 +782,7 @@
+ 	\L_024ff:
+ 	\L_02457:
+ 	ZH 1:
+-	'... Ồ...'
++	'... Phù...'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	@L_00ab0:
+@@ -787,9 +797,9 @@
+ 	\L_024ff:
+ 	\L_02457:
+ 	ZH 1:
+-	'Thực sự...?'
+-	R
+-	'Tôi không nhớ...'
++	'Vậy sao...? Tôi'
++	R
++	'chẳng nhớ gì cả...'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_02403:
+@@ -803,7 +813,7 @@
+ 	\L_024ff:
+ 	\L_0241f:
+ 	ZH 1:
+-	'（Bốp）'
++	'(Bốp)'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_02457:
+@@ -813,33 +823,33 @@
+ 	\L_024ff:
+ 	\L_0241f:
+ 	ZH 1:
+-	'(bash bash bash)'
+-	\L_0250c:
+-	ZH 1:
+-	'Rance bắt đầu đấm'
+-	R
+-	'người đàn ông bê tông.'
+-	\L_0250c:
+-	\L_024ff:
+-	\L_02457:
+-	ZH 1:
+-	'Ooow～... Anh'
+-	R
+-	'đang làm gì vậy...?!'
+-	\L_0250c:
+-	\L_024ff:
+-	\L_023e7:
+-	ZH 1:
+-	'（Rance） Tập đấm. Bao cát'
+-	R
+-	'tốt đấy. （British） Cậu ác'
+-	R
+-	'quá...'
+-	\L_0250c:
+-	ZH 1:
+-	'Chưa ai đối xử với tôi tàn'
+-	R
+-	'nhẫn thế này...'
++	'(Bốp bốp bốp)'
++	\L_0250c:
++	ZH 1:
++	'Rance bắt đầu đấm liên'
++	R
++	'hồi vào gã bê tông.'
++	\L_0250c:
++	\L_024ff:
++	\L_02457:
++	ZH 1:
++	'Đau quá... Cậu'
++	R
++	'làm gì vậy...!'
++	\L_0250c:
++	\L_024ff:
++	\L_023e7:
++	ZH 1:
++	'Rance「Tập đấm.'
++	R
++	'Bao cát tốt đấy.」'
++	R
++	'British「Cậu ác quá...'
++	\L_0250c:
++	ZH 1:
++	'Chưa bao giờ tôi bị'
++	R
++	'hành hạ thế này...」'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_023e7:
+@@ -851,60 +861,60 @@
+ *L_01075:
+ 	\L_02457:
+ 	ZH 1:
+-	'（British） KD là King'
+-	R
+-	'Dragon trên đỉnh núi'
+-	R
+-	'Shouryuu.'
+-	\L_0250c:
+-	ZH 1:
+-	'Nghe nói hắn mua tượng vàng'
+-	R
+-	'tôi bán cho thương nhân, cất'
+-	R
+-	'làm báu vật.'
+-	\L_0250c:
+-	ZH 1:
+-	'Ho Raga nói vậy chắc không'
+-	R
+-	'sai... （Rance） Biết thế'
+-	R
+-	'thì ta hết việc ở đây.'
++	'British「KD là King Dragon'
++	R
++	'trên Núi Thăng Long.'
++	\L_0250c:
++	ZH 1:
++	'Nghe nói hắn mua lại tượng'
++	R
++	'vàng tôi bán cho thương'
++	R
++	'nhân, giữ làm báu vật.'
++	\L_0250c:
++	ZH 1:
++	'Ho Raga nói thì chắc'
++	R
++	'đúng.」 Rance「Biết thế'
++	R
++	'là đủ. Ta đi đây.」'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	@L_01173:
+ *L_010de:
+ 	\L_02457:
+ 	ZH 1:
+-	'Café là bạn đồng hành của'
+-	\L_0250c:
+-	ZH 1:
+-	'chúng tôi. Cô kể đã cầu thần'
+-	R
+-	'ban nhan sắc và thân thể'
+-	R
+-	'khiến'
+-	\L_0250c:
+-	ZH 1:
+-	'mọi đàn ông say mê, cùng'
+-	R
+-	'tuổi'
+-	\L_0250c:
+-	ZH 1:
+-	'trẻ vĩnh cửu. Quả thật khác'
+-	R
+-	'hẳn Café tôi từng biết...'
+-	\L_0250c:
+-	ZH 1:
+-	'Tôi giật mình đấy.'
+-	\L_0250c:
+-	ZH 1:
+-	'Trao tượng vàng rồi, tôi'
+-	R
+-	'chẳng gặp lại, cũng không'
+-	\L_0250c:
+-	ZH 1:
+-	'biết cô ở đâu.'
++	'Café là bạn đồng'
++	R
++	'hành của chúng tôi.'
++	\L_0250c:
++	ZH 1:
++	'Cô kể đã cầu thần ban'
++	R
++	'nhan sắc và thân thể'
++	\L_0250c:
++	ZH 1:
++	'khiến bất cứ người'
++	R
++	'đàn ông nào say mê,'
++	\L_0250c:
++	ZH 1:
++	'cùng tuổi trẻ vĩnh cửu.'
++	R
++	'Và thần đã ban cho cô...'
++	\L_0250c:
++	ZH 1:
++	'Khác hẳn Café tôi từng'
++	R
++	'biết... Tôi giật mình đấy.'
++	\L_0250c:
++	ZH 1:
++	'Từ khi giao tượng vàng,'
++	R
++	'tôi chưa gặp lại cô,'
++	\L_0250c:
++	ZH 1:
++	'cũng chẳng biết cô ở đâu.'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_023e7:
+@@ -916,11 +926,9 @@
+ *L_01173:
+ 	\L_02457:
+ 	ZH 1:
+-	'Heeey, ngươi'
+-	R
+-	'có định...? Đừng'
+-	R
+-	'bỏ rơi tôi nhé.'
++	'Này, cậu đi thật sao...?'
++	R
++	'Đừng bỏ mặc tôi mà...'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_0241f:
+@@ -938,33 +946,35 @@
+ *L_011cf:
+ 	\L_0241f:
+ 	ZH 1:
+-	'Rance đã cố gắng giúp'
+-	R
+-	'đỡ người đàn ông bọc bê tông'
+-	R
+-	'đáng thương này, nhưng...'
+-	\L_0250c:
+-	ZH 1:
+-	'đây là loại bê tông'
+-	R
+-	'đặc biệt được làm bằng ma'
+-	R
+-	'thuật, và không thể phá hủy.'
+-	\L_0250c:
+-	\L_024ff:
+-	\L_02457:
+-	ZH 1:
+-	'Aaa... Không'
+-	\L_0250c:
+-	ZH 1:
+-	'phải... Phải phá ràng buộc'
+-	R
+-	'ma pháp của bê tông mới ra'
+-	R
+-	'được...'
+-	\L_0250c:
+-	ZH 1:
+-	'Xin cậu nghĩ cách đi...'
++	'Rance thử cứu người đàn'
++	R
++	'ông tội nghiệp bị chôn'
++	R
++	'trong bê tông, nhưng...'
++	\L_0250c:
++	ZH 1:
++	'bê tông này dường như'
++	R
++	'được tạo bằng ma thuật,'
++	R
++	'không thể phá hủy.'
++	\L_0250c:
++	\L_024ff:
++	\L_02457:
++	ZH 1:
++	'Aaa... Không phải...'
++	\L_0250c:
++	ZH 1:
++	'Phải phá lời nguyền ma'
++	R
++	'thuật trói buộc khối bê'
++	R
++	'tông này mới ra được...'
++	\L_0250c:
++	ZH 1:
++	'Xin cậu... Nghĩ'
++	R
++	'cách giúp tôi đi...'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_0241f:
+@@ -982,27 +992,27 @@
+ 	'Khoan... British...'
+ 	\L_0250c:
+ 	ZH 1:
+-	'Đúng là tên'
+-	\L_0250c:
+-	ZH 1:
+-	'kiếm sĩ trong đoàn thám hiểm'
+-	R
+-	'mà lão Ho Raga kể nhỉ.'
++	'Đúng là tên kiếm sĩ'
++	\L_0250c:
++	ZH 1:
++	'trong đoàn thám hiểm'
++	R
++	'mà lão Ho Raga từng kể.'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	{VAR0101 = 1:
+ 		\L_023e7:
+ 		ZH 1:
+-		'Chaos, gã này có phải'
+-		R
+-		'British, bạn đồng hành cũ'
+-		R
+-		'của'
+-		\L_0250c:
+-		ZH 1:
+-		'ngươi không? Người Ho Raga'
+-		R
+-		'đã kể ấy...'
++		'Chaos, gã này'
++		R
++		'chẳng phải British,'
++		\L_0250c:
++		ZH 1:
++		'bạn đồng hành cũ'
++		R
++		'của ngươi sao? Người'
++		R
++		'lão Ho Raga kể ấy...'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_024b9:
+@@ -1010,22 +1020,24 @@
+ 		\L_024ab:
+ 		\L_02457:
+ 		ZH 1:
+-		'Kẻ trùng tên đầy ra. Ta ghét'
+-		R
+-		'khen người'
+-		\L_0250c:
+-		ZH 1:
+-		'khác, nhưng gã ấy thì khác:'
+-		R
+-		'mạnh mẽ,'
+-		\L_0250c:
+-		ZH 1:
+-		'tài giỏi lắm. Sao lại là lão'
+-		\L_0250c:
+-		ZH 1:
+-		'bị nhốt trong bê tông, khóc'
+-		R
+-		'lóc ở đây được.'
++		'Người trùng tên đầy'
++		R
++		'ra. Ta ghét khen ai,'
++		\L_0250c:
++		ZH 1:
++		'nhưng hắn thì'
++		R
++		'khác. Vừa mạnh,'
++		\L_0250c:
++		ZH 1:
++		'vừa tài giỏi. Làm'
++		R
++		'sao lại là lão già'
++		\L_0250c:
++		ZH 1:
++		'bị bê tông bọc kín,'
++		R
++		'khóc hu hu ở đây được.'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_024b9:
+@@ -1036,14 +1048,12 @@
+ 		'Ồ...'
+ 		\L_0250c:
+ 		ZH 1:
+-		'Đó có phải là giọng của'
+-		R
+-		'Chaos không...?? Cậu ở đâu?'
+-		R
+-		'Cậu có ở đây không?'
+-		\L_0250c:
+-		ZH 1:
+-		'Đã quá lâu rồi...'
++		'Giọng Chaos phải không...??'
++		R
++		'Ở đâu? Cậu ở đâu?'
++		\L_0250c:
++		ZH 1:
++		'Lâu lắm rồi mới được nghe...'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_024b9:
+@@ -1072,9 +1082,9 @@
+ 		'Cái...'
+ 		\L_0250c:
+ 		ZH 1:
+-		'Trờời!! Đây là British!?'
+-		R
+-		'Thật là British sao!?'
++		'Trời đất!! Đây là British!?'
++		R
++		'Thật sự là British sao!?'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_024b9:
+@@ -1082,17 +1092,15 @@
+ 		\L_024ab:
+ 		\L_02457:
+ 		ZH 1:
+-		'cậu Đang Ở đâu, Chaos...?'
+-		R
+-		'Cậu còn sống?'
+-		\L_0250c:
+-		ZH 1:
+-		'Đã quá lâu kể từ khi tôi'
+-		R
+-		'nhìn thấy cậu.'
+-		\L_0250c:
+-		ZH 1:
+-		'Hãy để tôi gặp cậu.'
++		'Cậu ở đâu, Chaos...?'
++		R
++		'Cậu còn sống sao?'
++		\L_0250c:
++		ZH 1:
++		'Lâu lắm rồi mới gặp...'
++		\L_0250c:
++		ZH 1:
++		'Ra đây cho tôi thấy mặt nào.'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_0241f:
+@@ -1106,11 +1114,11 @@
+ 		\L_024ff:
+ 		\L_02457:
+ 		ZH 1:
+-		'Wah... Th-đó là'
+-		R
+-		'nguy hiểm... Đừng chỉ'
+-		R
+-		'lưỡi dao vào người...'
++		'Oái... Nguy hiểm quá...'
++		R
++		'Ai lại chĩa mũi kiếm'
++		R
++		'vào người khác...'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_023e7:
+@@ -1128,22 +1136,24 @@
+ 		\L_024ab:
+ 		\L_02457:
+ 		ZH 1:
+-		'Ừ, có sao? Ngươi thì thế'
+-		R
+-		'nào?'
+-		\L_0250c:
+-		ZH 1:
+-		'Thành tranh tường trong di'
+-		\L_0250c:
+-		ZH 1:
+-		'tích rồi... Tranh tường nổi'
+-		R
+-		'chỉ để'
+-		\L_0250c:
+-		ZH 1:
+-		'mua vui cho du khách thôi'
+-		R
+-		'đấy...'
++		'Phải, có sao không?'
++		R
++		'Còn ngươi thì sao?'
++		\L_0250c:
++		ZH 1:
++		'Trông như tranh tường'
++		R
++		'trong di tích...'
++		\L_0250c:
++		ZH 1:
++		'Tranh tường nổi'
++		R
++		'thế này chỉ để'
++		\L_0250c:
++		ZH 1:
++		'mua vui cho du'
++		R
++		'khách thôi chứ gì...'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_024b9:
+@@ -1156,10 +1166,10 @@
+ 		'ngay! Chaos, đúng là cậu!'
+ 		\L_0250c:
+ 		ZH 1:
+-		'Nhưng'
+-		\L_0250c:
+-		ZH 1:
+-		'thành kiếm sao...'
++		'Nhưng mà...'
++		\L_0250c:
++		ZH 1:
++		'lại thành thanh kiếm sao...'
+ 		\L_0250c:
+ 		ZH 1:
+ 		'Cậu cũng thảm hại rồi nhỉ.'
+@@ -1215,16 +1225,16 @@
+ 		\L_024ff:
+ 		\L_02457:
+ 		ZH 1:
+-		'...Xưa thì họ bình thường...'
++		'... Ngày xưa còn ra hồn...'
+ 		\L_0250c:
+ 		\L_024ff:
+ 	}
+ 	{VAR0101 = 2:
+ 		\L_0241f:
+ 		ZH 1:
+-		'Rance cắm thánh đao Nikkou'
+-		R
+-		'xuống đất.'
++		'Rance cắm Thánh đao'
++		R
++		'Nikkou xuống đất.'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_023e7:
+@@ -1234,9 +1244,9 @@
+ 		\L_024ff:
+ 		\L_0241f:
+ 		ZH 1:
+-		'Trong giây lát, thanh'
+-		R
+-		'kiếm biến thành Nikkou.'
++		'Thanh kiếm lóe lên rồi'
++		R
++		'trở về hình dạng Nikkou.'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_024b9:
+@@ -1249,9 +1259,11 @@
+ 		\L_024ff:
+ 		\L_023e7:
+ 		ZH 1:
+-		'Gã bê tông này... Rance vừa'
+-		R
+-		'nói thì British hét lên.'
++		'Rance「Gã bê tông'
++		R
++		'này...」 Chưa nói hết,'
++		R
++		'British đã hét lên.'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_024b9:
+@@ -1259,9 +1271,9 @@
+ 		\L_024ab:
+ 		\L_02457:
+ 		ZH 1:
+-		'Nikkou, cậu đấy phải không?!'
+-		R
+-		'Đó là tôi.'
++		'Nikkou! Là Nikkou phải'
++		R
++		'không! Tôi đây, tôi đây!'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_024b9:
+@@ -1298,14 +1310,12 @@
+ 		\L_024ab:
+ 		\L_02457:
+ 		ZH 1:
+-		'Vâng, đúng vậy. Tất nhiên là'
+-		R
+-		'tôi.'
+-		\L_0250c:
+-		ZH 1:
+-		'Tôi đã kết thúc trong trạng'
+-		R
+-		'thái không may này.'
++		'Ừ, đúng rồi. Tất'
++		R
++		'nhiên là tôi.'
++		\L_0250c:
++		ZH 1:
++		'Dù đã thành ra bộ dạng này.'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_023e7:
+@@ -1348,12 +1358,14 @@
+ 	\L_024ab:
+ 	\L_02457:
+ 	ZH 1:
+-	'Nhớ quá... Vui quá... Gặp'
+-	R
+-	'lại các bạn ở'
+-	\L_0250c:
+-	ZH 1:
+-	'đây, sống thật đáng!'
++	'Nhớ quá... Vui quá...'
++	R
++	'Gặp lại các bạn'
++	\L_0250c:
++	ZH 1:
++	'ở nơi thế này,'
++	R
++	'sống thật đáng!'
+ 	\L_0250c:
+ 	ZH 1:
+ 	'Từ lúc chia tay ở di tích cổ'
+@@ -1392,7 +1404,9 @@
+ 		\L_024ab:
+ 		\L_02457:
+ 		ZH 1:
+-		'...Thần... có ở đó sao...?'
++		'... Thần... thật'
++		R
++		'sự tồn tại sao...?'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_024b9:
+@@ -1410,7 +1424,9 @@
+ 		\L_024ab:
+ 		\L_02457:
+ 		ZH 1:
+-		'Vì vậy, cậu đã gặp nó, quá?'
++		'Vậy là cậu cũng...'
++		R
++		'gặp thần rồi à.'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_024b9:
+@@ -1418,9 +1434,9 @@
+ 		\L_024ab:
+ 		\L_02457:
+ 		ZH 1:
+-		'Nghe có vẻ như cậu đã biết'
+-		R
+-		'chuyện gì đã xảy ra.'
++		'Nghe cách ngươi nói thì có'
++		R
++		'vẻ đã biết trước đôi chút...'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_024b9:
+@@ -1428,22 +1444,24 @@
+ 		\L_024ab:
+ 		\L_02457:
+ 		ZH 1:
+-		'Thật ra trước đây tôi gặp'
+-		R
+-		'Café,'
+-		\L_0250c:
+-		ZH 1:
+-		'nghe cô kể rồi.'
+-		\L_0250c:
+-		ZH 1:
+-		'Chuyện ghê gớm quá nên tưởng'
+-		R
+-		'nói dối...'
+-		\L_0250c:
+-		ZH 1:
+-		'Nhưng tận mắt thấy cậu thành'
+-		R
+-		'kiếm, đành tin là thật.'
++		'Thật ra trước đây'
++		R
++		'tôi đã gặp Café,'
++		\L_0250c:
++		ZH 1:
++		'nghe cô kể chuyện ấy rồi.'
++		\L_0250c:
++		ZH 1:
++		'Nhưng khó tin quá nên'
++		R
++		'tôi cứ ngỡ là bịa...'
++		\L_0250c:
++		ZH 1:
++		'Giờ tận mắt thấy'
++		R
++		'cậu thành kiếm, đành'
++		R
++		'công nhận là thật.'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_024b9:
+@@ -1478,9 +1496,9 @@
+ 		\L_024ab:
+ 		\L_02457:
+ 		ZH 1:
+-		'Nó đã đáp ứng mong muốn của'
+-		R
+-		'cậu... Đại loại thế à?'
++		'Được thần thực hiện điều'
++		R
++		'ước... Ý cô là vậy chứ gì?'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_024b9:
+@@ -1496,36 +1514,40 @@
+ 		\L_024ab:
+ 		\L_02457:
+ 		ZH 1:
+-		'Thật ra tôi đã nghe Ho Raga'
+-		R
+-		'kể. Nhưng cậu'
+-		\L_0250c:
+-		ZH 1:
+-		'ấy hay bịa chuyện động trời'
+-		R
+-		'nên tôi bán'
+-		\L_0250c:
+-		ZH 1:
+-		'tín bán nghi. Nikkou nói thì'
+-		\L_0250c:
+-		ZH 1:
+-		'là thật rồi. Cô chưa từng'
+-		R
+-		'nói dối...'
+-		\L_0250c:
+-		ZH 1:
+-		'Các bạn đã khổ lắm...'
++		'Thật ra tôi đã nghe'
++		R
++		'Ho Raga kể chuyện ấy.'
++		\L_0250c:
++		ZH 1:
++		'Nhưng cậu ấy thỉnh thoảng'
++		R
++		'hay bịa chuyện động trời,'
++		\L_0250c:
++		ZH 1:
++		'nên tôi vẫn bán'
++		R
++		'tín bán nghi.'
++		\L_0250c:
++		ZH 1:
++		'Nikkou, cô nói thì'
++		R
++		'là thật rồi. Xưa nay'
++		R
++		'cô chưa hề nói dối.'
++		\L_0250c:
++		ZH 1:
++		'... Các bạn đã'
++		R
++		'khổ lắm rồi...'
+ 		\L_0250c:
+ 		ZH 1:
+ 		'Xin lỗi...'
+ 		\L_0250c:
+ 		ZH 1:
+-		'Là thủ lĩnh mà tới'
+-		\L_0250c:
+-		ZH 1:
+-		'phút cuối lại chẳng giúp'
+-		R
+-		'được gì...'
++		'Là thủ lĩnh mà đến phút cuối'
++		\L_0250c:
++		ZH 1:
++		'lại chẳng giúp được gì...'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_024b9:
+@@ -1546,9 +1568,9 @@
+ 		\L_024ab:
+ 		\L_02457:
+ 		ZH 1:
+-		'Ồ vâng, đúng vậy... Nhưng'
+-		R
+-		'tôi không thể không làm vậy.'
++		'Ừ, đúng là thế... Nhưng'
++		R
++		'biết làm sao được.'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_024b9:
+@@ -1559,16 +1581,16 @@
+ 		'British...'
+ 		\L_0250c:
+ 		ZH 1:
+-		'Sao anh lại thế này? Thời'
+-		R
+-		'gian'
+-		\L_0250c:
+-		ZH 1:
+-		'đã vượt xa tuổi thọ con'
+-		R
+-		'người rồi... Đã xảy ra'
+-		R
+-		'chuyện gì?'
++		'Nhưng... sao anh lại'
++		R
++		'thành ra thế này?'
++		\L_0250c:
++		ZH 1:
++		'Đã lâu quá tuổi thọ'
++		R
++		'con người rồi... Đã'
++		R
++		'có chuyện gì xảy ra?'
+ 		\L_0250c:
+ 		\L_024ff:
+ 	}
+@@ -1580,16 +1602,18 @@
+ 	'Hồi ấy...'
+ 	\L_0250c:
+ 	ZH 1:
+-	'Tôi bị thương, chờ các bạn.'
+-	R
+-	'Ba ngày'
+-	\L_0250c:
+-	ZH 1:
+-	'chẳng ai trở lại, tôi mang'
+-	R
+-	'bốn'
+-	\L_0250c:
+-	ZH 1:
++	'Tôi mang thương'
++	R
++	'tích chờ các bạn.'
++	\L_0250c:
++	ZH 1:
++	'Nhưng ba ngày chẳng'
++	R
++	'thấy ai trở lại,'
++	\L_0250c:
++	ZH 1:
++	'nên tôi mang bốn'
++	R
+ 	'tượng vàng ra khỏi'
+ 	\L_0250c:
+ 	ZH 1:
+@@ -1604,11 +1628,9 @@
+ 		\L_024ab:
+ 		\L_02457:
+ 		ZH 1:
+-		'Vật lưu niệm?? Đừng cho rằng'
+-		R
+-		'chúng ta đã chết... Chúa'
+-		R
+-		'ơi...'
++		'Di vật gì chứ?? Đừng'
++		R
++		'nói gở... Thật tình...'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_024b9:
+@@ -1616,21 +1638,25 @@
+ 		\L_024ab:
+ 		\L_02457:
+ 		ZH 1:
+-		'Xin lỗi. Lúc ấy tôi thật sự'
+-		R
+-		'nghĩ...'
+-		\L_0250c:
+-	}
+-	ZH 1:
+-	'Dĩ nhiên, biết các bạn'
+-	\L_0250c:
+-	ZH 1:
+-	'sống thì tôi sẽ trả tượng,'
+-	R
+-	'vì'
+-	\L_0250c:
+-	ZH 1:
+-	'cả đoàn cùng tìm thấy.'
++		'Xin lỗi, xin lỗi. Nhưng'
++		R
++		'lúc ấy tôi thật sự nghĩ...'
++		\L_0250c:
++	}
++	ZH 1:
++	'Dĩ nhiên, nếu biết'
++	R
++	'mọi người còn sống,'
++	\L_0250c:
++	ZH 1:
++	'tôi định trả lại'
++	R
++	'những tượng vàng ấy,'
++	\L_0250c:
++	ZH 1:
++	'vì chúng ta đã'
++	R
++	'cùng tìm thấy mà.'
+ 	\L_0250c:
+ 	ZH 1:
+ 	'Tôi đi khắp nơi, tin mọi'
+@@ -1638,37 +1664,43 @@
+ 	'người vẫn còn sống.'
+ 	\L_0250c:
+ 	ZH 1:
+-	'Rồi gặp Ho Raga và Café. Chờ'
+-	R
+-	'đợi không uổng!'
++	'Rồi gặp Ho Raga và'
++	R
++	'Café. Tin tưởng chờ'
++	R
++	'đợi quả không uổng.'
+ 	\L_0250c:
+ 	ZH 1:
+ 	'Mỗi người nhận một tượng.'
+ 	\L_0250c:
+ 	ZH 1:
+-	'Một tượng tôi bán để sống,'
+-	R
+-	'sau mới'
+-	\L_0250c:
+-	ZH 1:
+-	'nghe nó vào tay KD. Tượng'
+-	R
+-	'cuối vẫn giữ'
++	'Nhưng một tượng tôi đã'
++	R
++	'bán để sống qua ngày.'
++	\L_0250c:
++	ZH 1:
++	'Sau mới nghe nó vào'
++	R
++	'tay KD. Tượng cuối'
+ 	\L_0250c:
+ 	{VAR0101 = 1:
+ 		ZH 1:
+-		'đây, định cho Chaos.'
++		'tôi vẫn giữ, định'
++		R
++		'giao cho Chaos.'
+ 		\L_0250c:
+ 	}
+ 	{VAR0101 = 2:
+ 		ZH 1:
+-		'Nikkou, cô nhận đi. Tượng'
+-		R
+-		'chôn'
+-		\L_0250c:
+-	}
+-	ZH 1:
+-	'dưới chân tôi, lấy đi nhé.'
++		'Nikkou, tôi muốn cô'
++		R
++		'nhận tượng cuối ấy.'
++		\L_0250c:
++	}
++	ZH 1:
++	'Tôi chôn dưới chân'
++	R
++	'đây. Lấy đi nhé.'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_023e7:
+@@ -1678,9 +1710,7 @@
+ 	\L_024ff:
+ 	\L_02457:
+ 	ZH 1:
+-	'Vâng, Tôi sẽ'
+-	R
+-	'không nói dối.'
++	'Ừ, tôi không nói dối đâu.'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_0241f:
+@@ -1688,37 +1718,37 @@
+ 	'Rance đào đất.'
+ 	\L_0250c:
+ 	ZH 1:
+-	'Hắn đào'
+-	R
+-	'được một bức tượng vàng hình'
+-	R
+-	'quả bầu sáng bóng và lấy nó.'
+-	\L_0250c:
+-	\L_024ff:
+-	\L_023e7:
+-	ZH 1:
+-	'（Rance） Khá tinh xảo đấy.'
+-	R
+-	'（British）'
+-	\L_0250c:
+-	ZH 1:
+-	'Tiếp theo... chuyện tôi bị'
+-	R
+-	'bê tông bọc kín...'
+-	\L_0250c:
+-	\L_024ff:
+-	\L_023e7:
+-	ZH 1:
+-	'Đủ rồi. Ta'
+-	R
+-	'chán nghe ngươi rồi.'
+-	\L_0250c:
+-	\L_024ff:
+-	\L_02457:
+-	ZH 1:
+-	'Hả...? Tuy nhiên, điều'
+-	R
+-	'này cũng quan trọng...'
++	'Hắn tìm được một tượng'
++	R
++	'vàng hình quả bầu sáng'
++	R
++	'lấp lánh rồi cầm lên.'
++	\L_0250c:
++	\L_024ff:
++	\L_023e7:
++	ZH 1:
++	'Rance「Ừm, khá tinh'
++	R
++	'xảo.」 British「Tiếp'
++	R
++	'đến là chuyện...'
++	\L_0250c:
++	ZH 1:
++	'tại sao tôi lại bị'
++	R
++	'bê tông bọc kín...」'
++	\L_0250c:
++	\L_024ff:
++	\L_023e7:
++	ZH 1:
++	'Đủ rồi. Ta nghe chán rồi.'
++	\L_0250c:
++	\L_024ff:
++	\L_02457:
++	ZH 1:
++	'Hả...? Giờ mới đến'
++	R
++	'đoạn quan trọng mà...'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_023e7:
+@@ -1730,9 +1760,7 @@
+ 	\L_024ff:
+ 	\L_02457:
+ 	ZH 1:
+-	'Không... Đó'
+-	R
+-	'không phải là lý do...'
++	'Không... Đâu có...'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_023e7:
+@@ -1744,16 +1772,16 @@
+ 	\L_024ff:
+ 	\L_02457:
+ 	ZH 1:
+-	'... Ưu... sau'
+-	R
+-	'đó, ít nhất hãy đưa tôi'
+-	R
+-	'ra khỏi bê tông này...'
+-	\L_0250c:
+-	\L_024ff:
+-	\L_023e7:
+-	ZH 1:
+-	'Không. Nghe có vẻ rắc rối.'
++	'... Hu hu... Vậy ít'
++	R
++	'nhất hãy cứu tôi khỏi'
++	R
++	'khối bê tông này...'
++	\L_0250c:
++	\L_024ff:
++	\L_023e7:
++	ZH 1:
++	'Không. Phiền lắm.'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_02457:
+@@ -1774,9 +1802,9 @@
+ 		\L_024ab:
+ 		\L_02457:
+ 		ZH 1:
+-		'Ta là kiếm, có tay chân đâu'
+-		R
+-		'mà ra tay giúp. Gà hà hà hà!'
++		'Ta là kiếm, chẳng có tay'
++		R
++		'chân mà giúp. Gà hà hà hà!'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_024b9:
+@@ -1784,9 +1812,9 @@
+ 		\L_024ab:
+ 		\L_02457:
+ 		ZH 1:
+-		'đây không phải là một trò'
+-		R
+-		'đùa～... Đồ ngốc...'
++		'Chơi chữ gì mà chẳng ra'
++		R
++		'chơi chữ... Đồ xấu tính...'
+ 		\L_0250c:
+ 		\L_024ff:
+ 	}
+@@ -1807,11 +1835,11 @@
+ 		\L_024ff:
+ 		\L_023e7:
+ 		ZH 1:
+-		'Đừng bận tâm, Nikkou. Ta'
+-		R
+-		'sẽ không giúp một người đàn'
+-		R
+-		'ông. Ngươi nên biết điều đó.'
++		'Nikkou, đừng nói gì'
++		R
++		'thừa. Ta không cứu đàn'
++		R
++		'ông. Cô biết rồi đấy.'
+ 		\L_0250c:
+ 		\L_024ff:
+ 		\L_02457:
+@@ -1853,11 +1881,9 @@
+ 	}
+ 	\L_0241f:
+ 	ZH 1:
+-	'Rance nhìn chằm chằm'
+-	R
+-	'vào bức tượng vàng hình quả'
+-	R
+-	'bầu mà hắn đã có được.'
++	'Rance chăm chú nhìn tượng'
++	R
++	'vàng hình quả bầu trong tay.'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_023e7:
+@@ -1867,19 +1893,19 @@
+ 	'British lại...'
+ 	\L_0250c:
+ 	ZH 1:
+-	'Còn ba tượng vàng giống thế'
+-	R
+-	'này.'
+-	\L_0250c:
+-	ZH 1:
+-	'Dùng chúng mở cửa mê cung di'
+-	R
+-	'tích cổ thì'
+-	\L_0250c:
+-	ZH 1:
+-	'gặp được kẻ có thể là'
+-	R
+-	'thần...'
++	'Còn ba tượng vàng'
++	R
++	'tương tự thế này...'
++	\L_0250c:
++	ZH 1:
++	'Dùng chúng mở cánh cửa'
++	R
++	'trong mê cung di tích cổ,'
++	\L_0250c:
++	ZH 1:
++	'sẽ gặp được kẻ'
++	R
++	'có thể là thần...'
+ 	\L_0250c:
+ 	ZH 1:
+ 	'Cũng thú vị đấy...'
+@@ -1892,11 +1918,11 @@
+ 	\L_024ff:
+ 	\L_02457:
+ 	ZH 1:
+-	'（British） Sao... sao'
+-	R
+-	'lại... （Rance） Tùng tùng'
+-	R
+-	'tùng, a hò hò!'
++	'British「Sao... Sao'
++	R
++	'lại...」 Rance「Tùng'
++	R
++	'tùng tùng, a hò hò!」'
+ 	\L_0250c:
+ 	\L_024ff:
+ 	\L_02457:
+--- before/SET_MAP.ADV
++++ src/SET_MAP.ADV
+@@ -312,7 +312,7 @@
+ 	%#M.ADV:
+ 	!VAR0158 : 14!
+ 	ZH 1:
+-	MS 8, "Khu Bần Hàn":
++	MS 8, "Poor":
+ 	MM VAR0200 + VAR0158 - 1, 8:
+ 	!VAR0130 : 1!
+ 	!VAR0131 : 1!
+@@ -336,7 +336,7 @@
+ 	%#M.ADV:
+ 	!VAR0158 : 15!
+ 	ZH 1:
+-	MS 8, "Khu Phú Hào":
++	MS 8, "Rich":
+ 	MM VAR0200 + VAR0158 - 1, 8:
+ 	!VAR0130 : 1!
+ 	!VAR0131 : 2!
+@@ -528,7 +528,7 @@
+ 	%#M.ADV:
+ 	!VAR0158 : 23!
+ 	ZH 1:
+-	MS 8, "Xích Địa":
++	MS 8, "Red":
+ 	MM VAR0200 + VAR0158 - 1, 8:
+ 	!VAR0130 : 3!
+ 	!VAR0131 : 2!

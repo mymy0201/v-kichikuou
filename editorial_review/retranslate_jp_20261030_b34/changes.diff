@@ -1,0 +1,199 @@
+--- before/Gﾌｳｶ.ADV
++++ src/Gﾌｳｶ.ADV
+@@ -3010,11 +3010,11 @@
+ 	'gò cao ngoài thị trấn.'
+ 	\L_054da:
+ 	ZH 1:
+-	'Gió mạnh khác thường, quất'
+-	R
+-	'không thương tiếc vào thân'
+-	R
+-	'già.'
++	'Gió mạnh khác thường,'
++	R
++	'quất không thương tiếc'
++	R
++	'vào tấm thân già nua.'
+ 	\L_054da:
+ 	ZH 1:
+ 	'Dẫu vậy, ông vẫn bất động,'
+@@ -3024,9 +3024,9 @@
+ 	\L_054cd:
+ 	\L_053b5:
+ 	ZH 1:
+-	'Đã... đến lúc rồi sao... Mới'
+-	R
+-	'đó mà đã bốn năm rồi...'
++	'Đã... đến lúc rồi sao...'
++	R
++	'Đã bốn năm từ dạo ấy rồi...'
+ 	\L_054da:
+ 	ZH 1:
+ 	'Tiếng lẩm bẩm của ông lão'
+@@ -3036,16 +3036,16 @@
+ 	\L_054cd:
+ 	\L_053b5:
+ 	ZH 1:
+-	'Fuuka. Ông lão cất giọng rõ'
+-	R
+-	'ràng gọi.'
++	'Fuuka. Ông lão cất giọng'
++	R
++	'rắn rỏi gọi.'
+ 	\L_054da:
+ 	\L_054cd:
+ 	!VAR0516 : 100!
+ 	\L_05479:
+ 	\L_05425:
+ 	ZH 1:
+-	'Vâng... Thưa ông.'
++	'Vâng... thưa ông ạ.'
+ 	\L_054da:
+ 	ZH 1:
+ 	'Đáp lời là cô gái xinh đẹp,'
+@@ -3055,7 +3055,7 @@
+ 	\L_054cd:
+ 	\L_053b5:
+ 	ZH 1:
+-	'Fuuka... Cháu hiểu rồi chứ.'
++	'Fuuka... Cháu hiểu rồi chứ?'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_05425:
+@@ -3077,9 +3077,9 @@
+ 	'đau lòng.'
+ 	\L_054da:
+ 	ZH 1:
+-	'Một cô bé mới mười lăm...'
+-	R
+-	'lại phải bỏ cả mạng sống...'
++	'Mới mười lăm tuổi... mà đã'
++	R
++	'phải hi sinh tính mạng...'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_05425:
+@@ -3103,21 +3103,23 @@
+ 	ZH 1:
+ 	'Ông lão nín thở. Nét mặt'
+ 	R
+-	'Fuuka dường như cũng căng'
+-	R
+-	'lại.'
+-	\L_054da:
+-	\L_054cd:
+-	\L_05425:
+-	ZH 1:
+-	'Cơn giận của ngài sẽ nhấn'
+-	R
+-	'chìm JAPAN... Phải không'
+-	R
+-	'ông? Đúng thế.'
+-	\L_054da:
+-	ZH 1:
+-	'Vì vậy, Fuuka, cháu phải...'
++	'Fuuka dường như cũng'
++	R
++	'căng thẳng hơn.'
++	\L_054da:
++	\L_054cd:
++	\L_05425:
++	ZH 1:
++	'Nếu không, cơn giận'
++	R
++	'của ngài sẽ nhấn chìm'
++	R
++	'JAPAN... Phải không ông?'
++	\L_054da:
++	ZH 1:
++	'Đúng thế. Vì vậy,'
++	R
++	'Fuuka, cháu phải...'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_05425:
+@@ -3155,12 +3157,12 @@
+ 	'Ừ... Còn ba tháng nữa...'
+ 	\L_054da:
+ 	ZH 1:
+-	'Hãy thanh tẩy thân mình, chờ'
+-	R
+-	'đến lúc'
+-	\L_054da:
+-	ZH 1:
+-	'trở thành lễ vật xứng đáng'
++	'Hãy thanh tẩy thân mình'
++	R
++	'rồi chờ đến lúc ấy,'
++	\L_054da:
++	ZH 1:
++	'để xứng đáng làm lễ vật'
+ 	R
+ 	'dâng lên ngài Orochi.'
+ 	\L_054da:
+@@ -3172,14 +3174,12 @@
+ 	\L_054cd:
+ 	\L_053ed:
+ 	ZH 1:
+-	'Fuuka đáp không chút ngập'
+-	R
+-	'ngừng, nhưng ông lão đã'
+-	R
+-	'thấy...'
+-	\L_054da:
+-	ZH 1:
+-	'Đôi tay cô khẽ run.'
++	'Fuuka đáp không ngập ngừng,'
++	R
++	'nhưng ông lão đã trông thấy:'
++	\L_054da:
++	ZH 1:
++	'đôi tay cô khẽ run.'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_053d1:
+@@ -3194,12 +3194,12 @@
+ 	'vẫn ngập nỗi buồn bất lực.'
+ 	\L_054da:
+ 	ZH 1:
+-	'Đã tiễn biết bao người đi'
+-	R
+-	'hiến tế,'
+-	\L_054da:
+-	ZH 1:
+-	'ông thấm thía đến đau đớn'
++	'Đã từng tiễn biết'
++	R
++	'bao người đi hiến tế,'
++	\L_054da:
++	ZH 1:
++	'ông thấm thía đến đau lòng'
+ 	R
+ 	'rằng chẳng thể làm gì khác.'
+ 	\L_054da:
+@@ -3249,9 +3249,9 @@
+ 	\L_05479:
+ 	\L_053b5:
+ 	ZH 1:
+-	'Fuuka... Cuối cùng cũng đến'
+-	R
+-	'đêm nay rồi.'
++	'Fuuka... Vậy là'
++	R
++	'đêm nay đã tới rồi.'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_05425:
+@@ -3288,9 +3288,9 @@
+ 	\L_054cd:
+ 	\L_053b5:
+ 	ZH 1:
+-	'Vậy sao... Đã đến đêm nay'
+-	R
+-	'rồi sao...'
++	'Vậy sao... Đã đến'
++	R
++	'đêm nay rồi ư...'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_05425:

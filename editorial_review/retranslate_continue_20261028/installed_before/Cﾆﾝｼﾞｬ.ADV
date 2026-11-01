@@ -1,0 +1,1220 @@
+	\L_017e0:
+	!VAR0516 : 1!
+	\L_0171c:
+	\L_016c8:
+	ZH 1:
+	'Được rồi, đến lượt đội'
+	R
+	'ninja. Nên sai ai đi đây?'
+	\L_017ed:
+	\L_017e0:
+	{(VAR0556 \ 0) * (VAR0557 \ 0) * (VAR0558 \ 0) * (VAR0559 \ 0) * (VAR0682 \ 0):
+		!VAR0516 : 6!
+		\L_0178c:
+		\L_01738:
+		ZH 1:
+		'Thưa Bệ hạ, tiếc là hiện'
+		R
+		'không có ninja nào có thể'
+		R
+		'hành động.'
+		\L_017ed:
+		\L_017e0:
+		\L_016c8:
+		ZH 1:
+		'... Chẳng còn cách nào à...'
+		\L_017ed:
+		\L_017e0:
+		\L_01738:
+		ZH 1:
+		'... Hay Bệ hạ đích thân ra'
+		R
+		'tay?'
+		\L_017ed:
+		\L_017e0:
+		\L_016c8:
+		ZH 1:
+		'... Hừm. Không cần thiết.'
+		\L_017ed:
+		\L_017e0:
+		\L_0172a:
+		\L_0179a:
+		%0:
+	}
+*L_00112:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_00112:
+	}
+	{VAR0556 = 0:
+		ZH 1:
+		$L_001fa$
+		'Kanami'
+		$
+	}
+	{VAR0557 = 0:
+		ZH 1:
+		$L_0029a$
+		'Freya'
+		$
+	}
+	{VAR0558 = 0:
+		ZH 1:
+		$L_0032a$
+		'Kaoru'
+		$
+	}
+	{VAR0559 = 0:
+		ZH 1:
+		$L_003c4$
+		'Wichita'
+		$
+	}
+	{VAR0682 = 0:
+		ZH 1:
+		$L_00449$
+		'Saitou'
+		$
+	}
+	ZH 1:
+	$L_001d9$
+	'Dừng lại'
+	$
+	]
+*L_001d9:
+	\L_016c8:
+	ZH 1:
+	'... Thôi, không làm nữa.'
+	\L_017ed:
+	\L_017e0:
+	\L_0172a:
+	%0:
+*L_001fa:
+	!VAR0585 : 1!
+	!VAR0556 : 1!
+	Y 4, 5:
+	{(VAR0000 = 1) * (VAR0414 = 0):
+		!VAR0520 : 12!
+		%#Gｶﾅﾐ.ADV:
+		!VAR0556 : 0!
+		!VAR0585 : 0!
+		%0:
+	}
+	\L_016c8:
+	ZH 1:
+	'Này, Kanami.'
+	\L_017ed:
+	\L_017e0:
+	!VAR0516 : 9!
+	\L_0178c:
+	\L_01700:
+	ZH 1:
+	'Kanami Kentou lao xuống từ'
+	R
+	'trần nhà.'
+	\L_017ed:
+	\L_017e0:
+	\L_01754:
+	ZH 1:
+	'Nhiệm vụ à... Không cẩn thận'
+	R
+	'là mất mạng như chơi.'
+	\L_017ed:
+	\L_017e0:
+	@L_004f5:
+*L_0029a:
+	!VAR0585 : 2!
+	!VAR0557 : 1!
+	\L_016c8:
+	ZH 1:
+	'Này, Freya.'
+	\L_017ed:
+	\L_017e0:
+	!VAR0516 : 449!
+	\L_0178c:
+	\L_01700:
+	ZH 1:
+	'Freya bước ra từ phía sau'
+	R
+	'một chiếc ghế.'
+	\L_017ed:
+	\L_017e0:
+	\L_01754:
+	ZH 1:
+	'Kufufu. Đã đến lúc phải làm'
+	R
+	'việc.'
+	\L_017ed:
+	ZH 1:
+	'Phải làm cho trót lọt để'
+	R
+	'lĩnh thưởng thật hậu hĩnh'
+	R
+	'mới được.'
+	\L_017ed:
+	\L_017e0:
+	@L_004f5:
+*L_0032a:
+	!VAR0585 : 3!
+	!VAR0558 : 1!
+	\L_016c8:
+	ZH 1:
+	'Này, Kaoru.'
+	\L_017ed:
+	\L_017e0:
+	!VAR0516 : 72!
+	\L_0178c:
+	\L_01738:
+	ZH 1:
+	'Vâng... Bệ hạ Rance gọi tôi'
+	R
+	'ạ?'
+	\L_017ed:
+	\L_017e0:
+	\L_01700:
+	ZH 1:
+	'Kaoru khoan thai bước vào'
+	R
+	'phòng. ... Chẳng giống ninja'
+	R
+	'chút nào.'
+	\L_017ed:
+	\L_017e0:
+	\L_01738:
+	ZH 1:
+	'Có nhiệm vụ ạ... Hì hì, tôi'
+	R
+	'sẽ cố gắng.'
+	\L_017ed:
+	\L_017e0:
+	@L_004f5:
+*L_003c4:
+	!VAR0585 : 4!
+	!VAR0559 : 1!
+	\L_016c8:
+	ZH 1:
+	'Này, Wichita.'
+	\L_017ed:
+	\L_017e0:
+	!VAR0516 : 71!
+	\L_0178c:
+	\L_01738:
+	ZH 1:
+	'Có thần.'
+	\L_017ed:
+	\L_017e0:
+	\L_01700:
+	ZH 1:
+	'Wichita bất ngờ xuất hiện'
+	R
+	'phía sau Rance.'
+	\L_017ed:
+	\L_017e0:
+	\L_01738:
+	ZH 1:
+	'Xin Bệ hạ cứ ra lệnh.'
+	\L_017ed:
+	\L_017e0:
+	@L_004f5:
+*L_00449:
+	!VAR0585 : 5!
+	!VAR0682 : 1!
+	\L_016c8:
+	ZH 1:
+	'Này, Saitou.... Saitou,'
+	R
+	'Saitouuu!'
+	\L_017ed:
+	\L_017e0:
+	!VAR0516 : 94!
+	\L_0178c:
+	\L_01738:
+	ZH 1:
+	'À, ừ, ừ...'
+	\L_017ed:
+	\L_017e0:
+	\L_01700:
+	ZH 1:
+	'Điệp viên Saitou bước ra sau'
+	R
+	'tấm rèm.'
+	\L_017ed:
+	\L_017e0:
+	\L_016c8:
+	ZH 1:
+	'Gọi thì ra ngay chứ, lề mề'
+	R
+	'cái gì, đồ ngốc!'
+	\L_017ed:
+	\L_017e0:
+	\L_01738:
+	ZH 1:
+	'V-Vâng... Tôi xin lỗi.'
+	\L_017ed:
+	\L_017e0:
+	@L_004f5:
+*L_004f5:
+	!VAR0003 : 1!
+	{(VAR0130 = 6) * (VAR0325 = 0):
+		!VAR0003 : 0!
+	}
+	{(VAR0130 = 4) * (VAR0059 = 0):
+		!VAR0003 : 0!
+	}
+	{(VAR0130 = 7) * (VAR0060 = 0):
+		!VAR0003 : 0!
+	}
+	\L_016c8:
+	ZH 1:
+	'Đây là nhiệm vụ của ngươi...'
+	\L_017ed:
+	\L_017e0:
+*L_00558:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_00558:
+	}
+	Y 4, 5:
+	ZH 1:
+	$L_00652$
+	'Thu thập thông tin'
+	$
+	{VAR0003 = 1:
+		ZH 1:
+		$L_0088b$
+		'Phá hoại'
+		$
+	}
+	{(VAR0585 = 1) * (VAR0000 = 1):
+		ZH 1:
+		$L_00ba5$
+		'Mua hamburger cho ta'
+		$
+	}
+	ZH 1:
+	$L_005da$
+	'Không có nhiệm vụ'
+	$
+	]
+*L_005da:
+	\L_016c8:
+	ZH 1:
+	'Không có gì!'
+	\L_017ed:
+	\L_017e0:
+	\L_01738:
+	ZH 1:
+	'............'
+	\L_017ed:
+	\L_017e0:
+	\L_016c8:
+	ZH 1:
+	'Ngươi có thể rời đi.'
+	\L_017ed:
+	\L_017e0:
+	\L_0179a:
+	\L_016e4:
+	ZH 1:
+	'... Bỏ đi chẳng nói một'
+	R
+	'lời... Chán thật.'
+	\L_017ed:
+	\L_017e0:
+	\L_0172a:
+	%0:
+*L_00652:
+	\L_016c8:
+	ZH 1:
+	'Thu thập thông tin về thành'
+	R
+	'phố này.'
+	\L_017ed:
+	\L_017e0:
+	\L_01738:
+	ZH 1:
+	'............'
+	\L_017ed:
+	\L_017e0:
+	\L_0179a:
+	\L_01700:
+	ZH 1:
+	R
+	'.........'
+	\L_017ed:
+	\L_017e0:
+	{(VAR0585 = 1) * (VAR0358 = 0) * (VAR0130 = 7):
+		!VAR0520 : 1!
+		%#Gｺｰﾄﾞ.ADV:
+	}
+	{(VAR0585 = 1) * (VAR0358 = 2) * (VAR0130 = 7):
+		!VAR0520 : 3!
+		%#Gｺｰﾄﾞ.ADV:
+	}
+	Y 4, 100:
+	!VAR0160 : 8!
+	{(VAR0150 = 100) * (VAR0000 = 1):
+		\L_00bb1:
+		!VAR0000 : 2!
+	}
+	{VAR0000 = 1:
+		@L_00c00:
+	}
+	{VAR0585 = 1:
+		!VAR0516 : 9!
+		\L_0178c:
+		\L_01700:
+		ZH 1:
+		'Kanami quay lại với thông'
+		R
+		'tin.'
+		\L_017ed:
+	}
+	{VAR0585 = 2:
+		!VAR0516 : 449!
+		\L_0178c:
+		\L_01700:
+		ZH 1:
+		'Freya quay lại với thông'
+		R
+		'tin.'
+		\L_017ed:
+	}
+	{VAR0585 = 3:
+		!VAR0516 : 72!
+		\L_0178c:
+		\L_01700:
+		ZH 1:
+		'Kaoru quay lại với thông'
+		R
+		'tin.'
+		\L_017ed:
+	}
+	{VAR0585 = 4:
+		!VAR0516 : 71!
+		\L_0178c:
+		\L_01700:
+		ZH 1:
+		'Wichita quay lại với thông'
+		R
+		'tin.'
+		\L_017ed:
+	}
+	{VAR0585 = 5:
+		!VAR0516 : 94!
+		\L_0178c:
+		\L_01700:
+		ZH 1:
+		'Saitou quay lại với thông'
+		R
+		'tin.'
+		\L_017ed:
+	}
+	ZH 1:
+	'［Thông tin］ Kinh tế：'
+	H 0, VAR0132:
+	ZH 1:
+	R
+	'Phòng thủ:'
+	H 0, VAR0133:
+	ZH 1:
+	R
+	'Khu vực chiến đấu:'
+	H 0, VAR0134:
+	\L_017ed:
+	!VAR0231 : 1!
+	\L_017e0:
+	\L_0179a:
+	\L_0172a:
+	%0:
+*L_0088b:
+	{VAR0585 = 1:
+		\L_016c8:
+		ZH 1:
+		'Đi phá công sự phòng thủ của'
+		R
+		'thành phố này. Rõ chưa?'
+		\L_017ed:
+		\L_017e0:
+	}
+	{VAR0585 = 2:
+		\L_016c8:
+		ZH 1:
+		'Đi giết tướng sĩ địch. Rõ'
+		R
+		'chưa?'
+		\L_017ed:
+		\L_017e0:
+	}
+	{VAR0585 = 3:
+		\L_016c8:
+		ZH 1:
+		'Đi phá trang bị của địch. Rõ'
+		R
+		'chưa?'
+		\L_017ed:
+		\L_017e0:
+	}
+	{VAR0585 = 4:
+		\L_016c8:
+		ZH 1:
+		'Đi phá bệnh viện của địch.'
+		R
+		'Rõ chưa?'
+		\L_017ed:
+		\L_017e0:
+	}
+	{VAR0585 = 5:
+		\L_016c8:
+		ZH 1:
+		'... Hừm, cô làm được gì thì'
+		R
+		'cứ làm đi.'
+		\L_017ed:
+		\L_017e0:
+	}
+	\L_01738:
+	{VAR0585 = 1:
+		ZH 1:
+		'... Hiểu rồi...'
+		\L_017ed:
+	}
+	{VAR0585 = 2:
+		ZH 1:
+		'Cứ giao cho tôi. Ngài chờ'
+		R
+		'tin vui nhé.'
+		\L_017ed:
+	}
+	{VAR0585 = 3:
+		ZH 1:
+		'Vâng... Tôi xin phép lên'
+		R
+		'đường.'
+		\L_017ed:
+	}
+	{VAR0585 = 4:
+		ZH 1:
+		'Thần tuân lệnh.'
+		\L_017ed:
+	}
+	{VAR0585 = 5:
+		ZH 1:
+		'Vâng ạ. Tôi sẽ cố hết sức.'
+		\L_017ed:
+	}
+	\L_017e0:
+	\L_0179a:
+	\L_01700:
+	ZH 1:
+	R
+	'.........'
+	\L_017ed:
+	ZH 1:
+	R
+	'......'
+	\L_017ed:
+	ZH 1:
+	R
+	'...'
+	\L_017ed:
+	\L_017e0:
+	Y 4, 100:
+	{VAR0130 = 8:
+		Y 4, 300:
+	}
+	!VAR0160 : 8!
+	{(VAR0150 = 100) * (VAR0000 > 90):
+		\L_00bb1:
+		!VAR0000 : 1!
+	}
+	{VAR0000 > 90:
+		@L_00c00:
+	}
+	Y 4, 2:
+	{VAR0000 = 1:
+		!VAR0001 : 1!
+	}
+	{VAR0000 = 2:
+		!VAR0001 : 2!
+	}
+	{(VAR0585 = 1) * (VAR0358 = 0) * (VAR0130 = 7):
+		!VAR0520 : 1!
+		%#Gｺｰﾄﾞ.ADV:
+		!VAR0516 : 1!
+		\L_0171c:
+	}
+	{(VAR0585 = 1) * (VAR0358 = 2) * (VAR0130 = 7):
+		!VAR0520 : 3!
+		%#Gｺｰﾄﾞ.ADV:
+		!VAR0516 : 1!
+		\L_0171c:
+	}
+	{VAR0585 = 1:
+		\L_00cf7:
+	}
+	{VAR0585 = 2:
+		\L_00ed7:
+	}
+	{VAR0585 = 3:
+		\L_010e3:
+	}
+	{VAR0585 = 4:
+		\L_01319:
+	}
+	{VAR0585 = 5:
+		\L_01540:
+	}
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_00ba5:
+	!VAR0520 : 11!
+	%#Gｶﾅﾐ.ADV:
+	%0:
+*L_00bb1:
+	!VAR0150 : 0!
+	\L_01700:
+	ZH 1:
+	'Suýt bị bắt trên đất địch,'
+	\L_017ed:
+	ZH 1:
+	'nhưng nhờ ［Ninja thế thân］'
+	R
+	'Rance chuẩn bị nên thoát'
+	R
+	'nạn.'
+	\L_017ed:
+	ZH 1:
+	'［Ninja thế thân］ đã hỏng.'
+	\L_017ed:
+	\L_017e0:
+	\0:
+*L_00c00:
+	\L_01700:
+	ZH 1:
+	'Nhưng chờ mãi vẫn chẳng thấy'
+	R
+	'ninja trở về.'
+	\L_017ed:
+	{VAR0585 = 1:
+		ZH 1:
+		'Kanami Kentou đã bị bắt.'
+		\L_017ed:
+		!VAR0520 : 100!
+		%#Gｶﾅﾐ.ADV:
+	}
+	{VAR0585 = 2:
+		ZH 1:
+		'Freya đã bị bắt.'
+		\L_017ed:
+		!VAR0586 : 10!
+		{(VAR0130 = 4) * (VAR0059 = 1):
+			!VAR0520 : 100!
+			%#Gﾌﾚｲｱ.ADV:
+		}
+	}
+	{VAR0585 = 3:
+		ZH 1:
+		'Kaoru bị bắt.'
+		\L_017ed:
+		!VAR0587 : 0!
+	}
+	{VAR0585 = 4:
+		ZH 1:
+		'Wichita bị bắt.'
+		\L_017ed:
+		!VAR0588 : 0!
+	}
+	{VAR0585 = 5:
+		ZH 1:
+		'Mika Saitou bị bắt.'
+		\L_017ed:
+		!VAR0678 : 0!
+	}
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_00cf7:
+	!VAR0516 : 9!
+	\L_0178c:
+	\L_01700:
+	ZH 1:
+	'Kanami trở lại.'
+	\L_017ed:
+	\L_017e0:
+	{VAR0001 = 1:
+		!VAR0231 : 1!
+		\L_016c8:
+		ZH 1:
+		'Mọi chuyện diễn ra thế nào?'
+		\L_017ed:
+		\L_017e0:
+		\L_01738:
+		ZH 1:
+		'Ừm...'
+		\L_017ed:
+		\L_017e0:
+		\L_016c8:
+		ZH 1:
+		'Khỏi giải thích. Chỉ cần nói'
+		R
+		'thành công hay thất bại.'
+		\L_017ed:
+		\L_017e0:
+		\L_01738:
+		ZH 1:
+		'... Thành công. Sức phòng'
+		R
+		'thủ của chúng hẳn đã giảm'
+		R
+		'rồi.'
+		\L_017ed:
+		\L_017e0:
+		\L_016c8:
+		ZH 1:
+		'Vất vả rồi.'
+		\L_017ed:
+		ZH 1:
+		'Thế để thưởng công, bổn đại'
+		R
+		'gia sẽ ban cho siêu vũ khí'
+		R
+		'thật thỏa thuê nhé...'
+		\L_017ed:
+		\L_017e0:
+		\L_01738:
+		ZH 1:
+		'Ai thèm cơ chứ!!'
+		\L_017ed:
+		\L_017e0:
+		!VAR0133 : VAR0133 - 1!
+		\0:
+	}
+	\L_01738:
+	ZH 1:
+	'............'
+	\L_017ed:
+	\L_017e0:
+	\L_016c8:
+	ZH 1:
+	'Sao thế? Mau báo cáo đi.'
+	\L_017ed:
+	\L_017e0:
+	\L_01738:
+	ZH 1:
+	'............'
+	\L_017ed:
+	ZH 1:
+	'... Tôi đã phá hoại thất'
+	R
+	'bại...'
+	\L_017ed:
+	ZH 1:
+	'Nhưng...! Lần sau tôi nhất'
+	R
+	'định sẽ làm được!'
+	\L_017ed:
+	\L_017e0:
+	\L_016c8:
+	ZH 1:
+	'Đương nhiên phải thế rồi.'
+	\L_017ed:
+	\L_017e0:
+	\L_01754:
+	ZH 1:
+	'Tức thật... Sao lại thất bại'
+	R
+	'chứ...'
+	\L_017ed:
+	\L_017e0:
+	\L_01700:
+	ZH 1:
+	'Nỗ lực hạ thấp sức phòng thủ'
+	R
+	'của kẻ thù đã thất bại.'
+	\L_017ed:
+	\L_017e0:
+	\0:
+*L_00ed7:
+	{VAR0001 = 1:
+		\L_01652:
+		{(VAR0128 = 0) + (VAR0106 = 0):
+			!VAR0001 : 0!
+		}
+		{(VAR0128 \ 0) * (VAR0001 = 1):
+			Y 4, 200:
+			{VAR0106 < VAR0000:
+				Y 4, VAR0106:
+			}
+			!VAR0002 : VAR0000!
+			!VAR0106 : VAR0106 - VAR0000!
+		}
+	}
+	!VAR0516 : 449!
+	\L_0178c:
+	\L_01700:
+	ZH 1:
+	'Freya trở lại.'
+	\L_017ed:
+	\L_017e0:
+	{VAR0001 = 1:
+		!VAR0231 : 1!
+		\L_016c8:
+		ZH 1:
+		'Mọi chuyện thế nào rồi?'
+		\L_017ed:
+		\L_017e0:
+		\L_01738:
+		ZH 1:
+		'Tất nhiên là tôi đã thành'
+		R
+		'công.'
+		\L_017ed:
+		ZH 1:
+		'Hì hì... Giá mà ngài thấy'
+		R
+		'được bản lĩnh của tôi.'
+		\L_017ed:
+		ZH 1:
+		H 0, VAR0002:
+		ZH 1:
+		' lính của'
+		R
+		X 4:
+		R
+		'ngộ độc, không thể ra trận.'
+		\L_017ed:
+		\L_017e0:
+		\L_016c8:
+		ZH 1:
+		'Được rồi, làm tốt lắm.'
+		\L_017ed:
+		\L_017e0:
+		\0:
+	}
+	\L_01738:
+	ZH 1:
+	'............'
+	\L_017ed:
+	\L_017e0:
+	\L_016c8:
+	ZH 1:
+	'Có chuyện gì thế? Tại sao'
+	R
+	'ngươi lại im lặng như vậy?'
+	\L_017ed:
+	\L_017e0:
+	\L_01738:
+	ZH 1:
+	'Ơ.'
+	\L_017ed:
+	\L_017e0:
+	\L_016c8:
+	ZH 1:
+	'............'
+	\L_017ed:
+	\L_017e0:
+	\L_01738:
+	ZH 1:
+	'Đ-Đừng nhìn tôi như thế! Tôi'
+	R
+	'thất bại, đang tự ghét mình'
+	R
+	'đây!'
+	\L_017ed:
+	\L_017e0:
+	\L_016c8:
+	ZH 1:
+	'Rồi sao?'
+	\L_017ed:
+	\L_017e0:
+	\L_01738:
+	ZH 1:
+	'Tôi thất bại rồi. Tức quá'
+	R
+	'đi!! Thiên tài như tôi mà'
+	R
+	'cũng thất bại!!'
+	\L_017ed:
+	\L_017e0:
+	\0:
+*L_010e3:
+	{VAR0001 = 1:
+		\L_01652:
+		{VAR0128 = 0:
+			!VAR0001 : 0!
+		}
+		{VAR0128 \ 0:
+			Y 4, 2:
+			{VAR0000 = 1:
+				!VAR0108 : VAR0108 - 1!
+			}
+			{VAR0000 = 2:
+				!VAR0109 : VAR0109 - 1!
+			}
+		}
+	}
+	!VAR0516 : 72!
+	\L_0178c:
+	\L_01700:
+	ZH 1:
+	'Kaoru trở lại.'
+	\L_017ed:
+	\L_017e0:
+	{VAR0001 = 1:
+		!VAR0231 : 1!
+		\L_016c8:
+		ZH 1:
+		'Sao rồi? Làm được chứ?'
+		\L_017ed:
+		\L_017e0:
+		\L_01738:
+		ZH 1:
+		'Xin Bệ hạ Rance chớ lo...'
+		\L_017ed:
+		ZH 1:
+		'Tôi đã phá sạch trang bị'
+		R
+		'quân '
+		X 4:
+		R
+		'và đốt cả kho vũ khí.'
+		\L_017ed:
+		ZH 1:
+		'Tội cho họ thật,'
+		\L_017ed:
+		ZH 1:
+		'nhưng sức công lẫn sức thủ'
+		R
+		'của họ hẳn đều đã giảm.'
+		\L_017ed:
+		ZH 1:
+		'Như vậy được chưa ạ...?'
+		\L_017ed:
+		\L_017e0:
+		\L_016c8:
+		ZH 1:
+		'Ừ, tốt lắm. Trông thế mà cô'
+		R
+		'đáng sợ thật...'
+		\L_017ed:
+		\L_017e0:
+		\0:
+	}
+	\L_01738:
+	ZH 1:
+	'T-Tôi...'
+	\L_017ed:
+	\L_017e0:
+	\L_016c8:
+	ZH 1:
+	'Tôi làm sao?'
+	\L_017ed:
+	\L_017e0:
+	\L_01738:
+	ZH 1:
+	'Xin Bệ hạ Rance thứ lỗi...'
+	R
+	'Tôi đã thất bại...'
+	\L_017ed:
+	\L_017e0:
+	\L_01700:
+	ZH 1:
+	'Kaoru bắt đầu khóc. Nước mắt'
+	R
+	'cô rơi thành từng giọt lớn.'
+	\L_017ed:
+	\L_017e0:
+	\L_016c8:
+	ZH 1:
+	'Ôi, ninja gì dễ khóc thế?!'
+	\L_017ed:
+	\L_017e0:
+	\L_01738:
+	ZH 1:
+	'T-Tôi xin lỗi... Lại để mình'
+	R
+	'mất bình tĩnh thế này...'
+	R
+	'Hức...'
+	\L_017ed:
+	\L_017e0:
+	\L_016c8:
+	ZH 1:
+	'Thôi được rồi, về đi, về đi.'
+	\L_017ed:
+	\L_017e0:
+	\L_01700:
+	ZH 1:
+	'Vụ phá hoại thất bại.'
+	\L_017ed:
+	\L_017e0:
+	\0:
+*L_01319:
+	{VAR0001 = 1:
+		\L_01652:
+		{VAR0128 = 0:
+			!VAR0001 : 0!
+		}
+		{VAR0128 \ 0:
+			!VAR0124 : VAR0124 / 2!
+		}
+	}
+	!VAR0516 : 71!
+	\L_0178c:
+	\L_01700:
+	ZH 1:
+	'Wichita trở lại.'
+	\L_017ed:
+	\L_017e0:
+	{VAR0001 = 1:
+		!VAR0231 : 1!
+		\L_016c8:
+		ZH 1:
+		'Này, mọi chuyện thế nào rồi?'
+		\L_017ed:
+		\L_017e0:
+		\L_01738:
+		ZH 1:
+		'Thưa Bệ hạ, tôi đã phá'
+		R
+		'bệnh viện của quân'
+		R
+		X 4:
+		'.'
+		\L_017ed:
+		ZH 1:
+		'Thương binh của'
+		R
+		X 4:
+		R
+		'sẽ khó trở lại chiến trường.'
+		\L_017ed:
+		\L_017e0:
+		\L_016c8:
+		ZH 1:
+		'Được rồi, làm tốt lắm.'
+		\L_017ed:
+		\L_017e0:
+		\0:
+	}
+	\L_01738:
+	ZH 1:
+	'Bệ hạ Rance...'
+	\L_017ed:
+	\L_017e0:
+	\L_016c8:
+	ZH 1:
+	'Ừ, sao? Mọi việc thế nào?'
+	\L_017ed:
+	\L_017e0:
+	\L_01738:
+	ZH 1:
+	'Tuy chỉ phụng sự ít lâu, tôi'
+	R
+	'đã gây phiền cho ngài!'
+	\L_017ed:
+	ZH 1:
+	'Xin gửi lời chào của tôi tới'
+	R
+	'ngài Gandhi!'
+	\L_017ed:
+	\L_017e0:
+	\L_01700:
+	ZH 1:
+	'Wichita chợt rút dao găm, kề'
+	R
+	'vào cổ mình.'
+	\L_017ed:
+	\L_017e0:
+	\L_016c8:
+	ZH 1:
+	'Ối, làm gì thế! Dừng lại!'
+	\L_017ed:
+	\L_017e0:
+	\L_01738:
+	ZH 1:
+	'Xin hãy buông tôi ra.'
+	\L_017ed:
+	ZH 1:
+	'Là ninja mà nhiệm vụ thất'
+	R
+	'bại còn sống sót thì...!'
+	\L_017ed:
+	\L_017e0:
+	\L_016c8:
+	ZH 1:
+	'Đừng có chết! Ninja đã ít,'
+	R
+	'cô chết càng phiền cho ta!'
+	\L_017ed:
+	\L_017e0:
+	\L_01738:
+	ZH 1:
+	'V-Vâng... Tôi xin lỗi.'
+	\L_017ed:
+	\L_017e0:
+	\L_01700:
+	ZH 1:
+	'Wichita đã thất bại trong'
+	R
+	'nhiệm vụ của mình.'
+	\L_017ed:
+	\L_017e0:
+	\0:
+*L_01540:
+	!VAR0516 : 94!
+	\L_0178c:
+	\L_01700:
+	ZH 1:
+	'Điệp viên Saitou đã trở lại.'
+	\L_017ed:
+	\L_017e0:
+	\L_016c8:
+	ZH 1:
+	'Sao, có lập được công gì'
+	R
+	'không?'
+	\L_017ed:
+	\L_017e0:
+	\L_01738:
+	ZH 1:
+	'... Haa...'
+	\L_017ed:
+	\L_017e0:
+	\L_016c8:
+	ZH 1:
+	'Ừm?'
+	\L_017ed:
+	\L_017e0:
+	\L_01738:
+	ZH 1:
+	'Tôi... Ừm... không giỏi phá'
+	R
+	'hoại lắm...'
+	\L_017ed:
+	\L_017e0:
+	\L_016c8:
+	ZH 1:
+	'Nghĩa là sao...? Chẳng làm'
+	R
+	'gì mà còn vác mặt về à?'
+	\L_017ed:
+	\L_017e0:
+	\L_01738:
+	ZH 1:
+	'... Hí...'
+	\L_017ed:
+	\L_017e0:
+	\L_0179a:
+	\L_01700:
+	ZH 1:
+	'Điệp viên Saitou bỏ chạy.'
+	\L_017ed:
+	\L_017e0:
+	\L_016c8:
+	ZH 1:
+	'Chỉ có chạy trốn là ra dáng'
+	R
+	'điệp viên...'
+	\L_017ed:
+	\L_017e0:
+	\0:
+*L_01652:
+	!VAR0156 : 100!
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	{VAR0130 = 4:
+		Y 4, 30:
+		!VAR0156 : VAR0000 + 21!
+	}
+	{VAR0130 = 6:
+		Y 4, 12:
+		!VAR0156 : VAR0000 + 70!
+	}
+	{VAR0130 = 7:
+		Y 4, 28:
+		!VAR0156 : VAR0000 + 100!
+	}
+	MM 4, VAR0199 + (VAR0156 - 1) * 3:
+	\0:
+*L_016c8:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_016e4:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01700:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0171c:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0172a:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01738:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01754:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0178c:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0179a:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_017e0:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_017ed:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

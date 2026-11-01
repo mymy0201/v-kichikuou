@@ -1,0 +1,4056 @@
+--- before/Gｻｲﾄｳ.ADV
++++ src/Gｻｲﾄｳ.ADV
+@@ -69,19 +69,19 @@
+ 	\L_012a5:
+ 	ZH 1:
+ 	$L_0029e$
+-	'Chi tiết chuyến đi'
++	'Chuyến đi ra sao'
+ 	$
+ 	R
+ 	$L_003aa$
+-	'Khủng hoảng bữa tối'
++	'Bữa tối nguy cấp'
+ 	$
+ 	R
+ 	$L_00475$
+-	'Phép lạ Moomin'
++	'Moomin thần kỳ'
+ 	$
+ 	R
+ 	$L_004f8$
+-	'Máy tính rung'
++	'Máy run bần bật'
+ 	$
+ 	R
+ 	$L_005cb$
+@@ -89,11 +89,11 @@
+ 	$
+ 	R
+ 	$L_00696$
+-	'Tiểu sử kỳ lạ'
++	'Liệt truyện người kỳ quặc'
+ 	$
+ 	R
+ 	$L_00194$
+-	'Không còn nữa'
++	'Thôi đủ rồi'
+ 	$
+ 	]
+ 	@L_0010e:
+@@ -324,9 +324,9 @@
+ 	'Thế mà vẫn khỏe...'
+ 	\L_012b2:
+ 	ZH 1:
+-	'Thật đáng sợ... Tuy nhiên,'
+-	R
+-	'tôi ghen tị.'
++	'Đáng sợ thật... Nhưng'
++	R
++	'mà, ghen tị ghê.'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	@L_0010e:
+@@ -391,14 +391,14 @@
+ 	'chẳng mấy khi chơi...'
+ 	\L_012b2:
+ 	ZH 1:
+-	'Những người tham gia thông'
+-	R
+-	'thường là Orion, Kazushi,'
+-	R
+-	'Chimiroimu và Onigiri,'
+-	\L_012b2:
+-	ZH 1:
+-	'một người mới.'
++	'Thành viên hay góp'
++	R
++	'mặt là anh Orion, anh'
++	R
++	'Kazushi, anh Chimiroimu'
++	\L_012b2:
++	ZH 1:
++	'và cậu Onigiri mới vào.'
+ 	\L_012b2:
+ 	ZH 1:
+ 	'Đôi khi Moomin và một số'
+@@ -620,32 +620,26 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng ngủ của Rance'
+-	R
+-	'Giờ thì, eeheeheeheehee...'
++	'Phòng ngủ của Rance.'
++	R
++	'Rance「Nào, hi hi hi hi...」'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	\L_011c5:
+ 	ZH 1:
+-	'Rance trông có'
+-	R
+-	'vẻ hài lòng khi khởi'
+-	R
+-	'động trên giường.'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_0118d:
+-	ZH 1:
+-	'Hôm nay ta nên'
+-	R
+-	'làm gì với ai?'
+-	\L_012b2:
+-	ZH 1:
+-	'Có thể là'
+-	R
+-	'một nhóm người cùng'
+-	R
+-	'một lúc, gahahahahahaha.'
++	'Rance vừa khởi động trên'
++	R
++	'giường vừa cười toe toét.'
++	\L_012b2:
++	\L_012a5:
++	\L_0118d:
++	ZH 1:
++	'Hôm nay làm với ai đây nhỉ.'
++	\L_012b2:
++	ZH 1:
++	'Gộp mấy người một lúc'
++	R
++	'cũng hay, gahahahaha.'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	!VAR0516 : 94!
+@@ -657,14 +651,14 @@
+ 	\L_012a5:
+ 	\L_0118d:
+ 	ZH 1:
+-	'Ôi, Saitou...!'
+-	R
+-	'Em đến từ đâu?'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_011fd:
+-	ZH 1:
+-	'Dưới gầm giường...'
++	'Oái, Saitou...!'
++	R
++	'Chui từ đâu ra thế?'
++	\L_012b2:
++	\L_012a5:
++	\L_011fd:
++	ZH 1:
++	'Dưới gầm giường ạ...'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	\L_0118d:
+@@ -672,247 +666,213 @@
+ 	'Mgh...'
+ 	\L_012b2:
+ 	ZH 1:
+-	'Đó là thánh địa. Đừng'
+-	R
+-	'chui xuống gầm chiếc giường'
+-	R
+-	'riêng ngọt ngào của ta.'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_011fd:
+-	ZH 1:
+-	'Haah, nhưng...'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_0118d:
+-	ZH 1:
+-	'Im đi, đừng cãi lại.'
+-	R
+-	'Ta sẽ kéo đôi má của em.'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_011fd:
+-	ZH 1:
+-	'Ow, owowowow... Đừng'
+-	R
+-	'kéo má em nữa mà, ngài'
+-	R
+-	'Rance ơi...'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_0118d:
+-	ZH 1:
+-	'Không, không làm'
+-	R
+-	'tổn thương ta đâu.'
+-	\L_012b2:
+-	ZH 1:
+-	'Tại sao em lại ở'
+-	R
+-	'dưới gầm giường của ta?'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_011fd:
+-	ZH 1:
+-	'Uu... Đau quá... Bởi vì'
+-	R
+-	'em là gián điệp, nên em'
+-	R
+-	'phải đi thám thính bí mật'
+-	R
+-	'của Quốc vương chứ ạ.'
+-	\L_012b2:
+-	ZH 1:
+-	'Ưm... Chẳng hạn như hôm'
+-	R
+-	'qua ngài đã ân ái với ngài'
+-	R
+-	'Maris tận 3 lần liền...'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_0118d:
+-	ZH 1:
+-	'Cái gì!? Con khốn, đưa'
+-	R
+-	'cho ta ghi chú của em!!'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_011fd:
+-	ZH 1:
+-	'Ah, aaah...'
+-	R
+-	'Dừng lại... Không...'
++	'Đó là thánh địa. Đừng chui'
++	R
++	'vào chiếc giường riêng'
++	R
++	'ngọt ngào của bản đại gia.'
++	\L_012b2:
++	\L_012a5:
++	\L_011fd:
++	ZH 1:
++	'Dạ, nhưng...'
++	\L_012b2:
++	\L_012a5:
++	\L_0118d:
++	ZH 1:
++	'Ồn ào, cấm cãi. Ta'
++	R
++	'kéo má cô ra bây giờ.'
++	\L_012b2:
++	\L_012a5:
++	\L_011fd:
++	ZH 1:
++	'Đau, đau đau... Bệ hạ,'
++	R
++	'ngài kéo rồi còn gì...'
++	\L_012b2:
++	\L_012a5:
++	\L_0118d:
++	ZH 1:
++	'Kệ, ta có đau đâu.'
++	\L_012b2:
++	ZH 1:
++	'Sao lại nằm dưới gầm giường?'
++	\L_012b2:
++	\L_012a5:
++	\L_011fd:
++	ZH 1:
++	'Ư... đau... Vì tôi là'
++	R
++	'điệp viên mà... Tôi đang'
++	R
++	'dò bí mật của Bệ hạ.'
++	\L_012b2:
++	ZH 1:
++	'Ừm... chẳng hạn hôm qua ngài'
++	R
++	'với ngài Maris ba lần...'
++	\L_012b2:
++	\L_012a5:
++	\L_0118d:
++	ZH 1:
++	'Cái gì!? Ngươi, đưa'
++	R
++	'cuốn sổ đó đây!!'
++	\L_012b2:
++	\L_012a5:
++	\L_011fd:
++	ZH 1:
++	'A, a a... Không'
++	R
++	'được... không được ạ...'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	\L_011c5:
+ 	ZH 1:
+-	'Rance giật lấy'
+-	R
+-	'ghi chú gián điệp của'
+-	R
+-	'Saitou và nhìn chúng.'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_0118d:
+-	ZH 1:
+-	'Ừmmm...!'
++	'Rance giật lấy sổ tay điệp'
++	R
++	'viên của Saitou, mở ra xem.'
++	\L_012b2:
++	\L_012a5:
++	\L_0118d:
++	ZH 1:
++	'Hừmmm...!'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	\L_011c5:
+ 	!VAR0154 : 2!
+ 	{VAR0102 \ 0:
+ 		ZH 1:
+-		'［Hôm nay'
++		'[Hôm nay Bệ hạ làm với'
+ 		R
+-		'Nhà vua đã làm điều đó với'
+-		R
+-		'Sill trong tư thế nằm ngửa.'
++		'Sill từ phía sau...'
+ 		\L_012b2:
+ 		ZH 1:
+-		'Nó thật mãnh liệt...'
++		'Mãnh liệt quá...'
+ 		\L_012b2:
+ 		ZH 1:
+-		'Nó mang lại cho tôi'
+-		R
+-		'một cảm giác kỳ lạ...］'
++		'Tôi cũng thấy... là lạ...]'
+ 		\L_012b2:
+ 	}
+ 	{VAR0058 \ 0:
+ 		ZH 1:
+-		'［Hắn đã làm điều'
+-		R
+-		'đó với ninja Kanami đó...'
++		'[Ninja Kanami bị làm...'
+ 		\L_012b2:
+ 		ZH 1:
+-		'Tôi cũng là một ninja,'
++		'Tôi cũng là ninja, rồi sẽ'
+ 		R
+-		'có lẽ cuối cùng hắn cũng'
+-		R
+-		'sẽ làm điều đó với tôi...］'
++		'đến lượt mình... hồi hộp...]'
+ 		\L_012b2:
+ 	}
+ 	ZH 1:
+-	'［Tối nay hắn đã'
+-	R
+-	'làm điều đó với Lia...'
+-	\L_012b2:
+-	ZH 1:
+-	'Hai lần đi truyền'
+-	R
+-	'giáo, một lần ở cowgirl...'
+-	\L_012b2:
+-	ZH 1:
+-	'Một chút tù túng.'
+-	\L_012b2:
+-	ZH 1:
+-	'Khi nào hắn mới'
+-	R
+-	'làm vậy với mình?］ Chuyện'
+-	R
+-	'nhảm nhí gì vậy, Saitou?!!'
++	'[Tối nay là với'
++	R
++	'Nữ hoàng Lia...'
++	\L_012b2:
++	ZH 1:
++	'Hai lần nằm thường,'
++	R
++	'một lần nữ cưỡi trên...'
++	\L_012b2:
++	ZH 1:
++	'Còn trói một chút...'
++	\L_012b2:
++	ZH 1:
++	'Một ngày nào đó mình cũng'
++	R
++	'sẽ thế...?] Rance「Đùa'
++	R
++	'cái gì hả, Saitou!!」'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	\L_011c5:
+ 	ZH 1:
+-	'(riiiip)'
+-	\L_012b2:
+-	ZH 1:
+-	'Rance xé các ghi chú'
+-	R
+-	'gián điệp và ném chúng đi.'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_011fd:
+-	ZH 1:
+-	'Aaaah... Những ghi'
+-	R
+-	'chú quan trọng của em...'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_0118d:
+-	ZH 1:
+-	'Im đi, lần'
+-	R
+-	'sau em làm điều gì như'
+-	R
+-	'thế này em sẽ bị xử tử.'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_011fd:
+-	ZH 1:
+-	'... Hii... Em'
+-	R
+-	'không muốn bị xử tử...'
++	'(Xoẹt xoẹt!)'
++	\L_012b2:
++	ZH 1:
++	'Rance xé nát cuốn sổ'
++	R
++	'điệp viên rồi vứt đi.'
++	\L_012b2:
++	\L_012a5:
++	\L_011fd:
++	ZH 1:
++	'A a a... cuốn sổ'
++	R
++	'quý giá của tôi...'
++	\L_012b2:
++	\L_012a5:
++	\L_0118d:
++	ZH 1:
++	'Ồn ào, lần sau còn'
++	R
++	'làm thế thì tử hình.'
++	\L_012b2:
++	\L_012a5:
++	\L_011fd:
++	ZH 1:
++	'......Hí... Tôi không'
++	R
++	'muốn bị tử hình đâu...'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	\L_0125f:
+ 	\L_011c5:
+ 	ZH 1:
+-	'Điệp viên Saitou luống'
+-	R
+-	'cuống bỏ chạy thục mạng.'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_0118d:
+-	ZH 1:
+-	'Hmmm, đúng là'
+-	R
+-	'một tên gián điệp rắc rối…'
+-	R
+-	'Chẳng có tác dụng gì cả.'
+-	\L_012b2:
+-	ZH 1:
+-	'Điều đó khiến'
+-	R
+-	'nàng trở nên dễ thương một'
+-	R
+-	'chút, điều đó thật tuyệt,'
+-	\L_012b2:
+-	ZH 1:
+-	'nhưng chưa đủ để'
+-	R
+-	'khiến ta muốn làm nàng.'
+-	\L_012b2:
+-	ZH 1:
+-	'Hah...'
++	'Điệp viên Saitou'
++	R
++	'cuống cuồng bỏ chạy.'
++	\L_012b2:
++	\L_012a5:
++	\L_0118d:
++	ZH 1:
++	'Ừmmm, tên điệp viên'
++	R
++	'phiền phức... Vô dụng.'
++	\L_012b2:
++	ZH 1:
++	'Giá mà trông dễ thương'
++	R
++	'một chút thì còn được...'
++	\L_012b2:
++	ZH 1:
++	'chứ thế kia thì'
++	R
++	'ta chẳng có hứng.'
++	\L_012b2:
++	ZH 1:
++	'Hầy...'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	\L_011a9:
+ 	ZH 1:
+-	'Ồ, nếu ta che'
+-	R
+-	'mặt nàng bằng một chiếc'
+-	R
+-	'mặt nạ nóng thì sao...?!'
+-	\L_012b2:
+-	ZH 1:
+-	'Vâng, điều đó'
+-	R
+-	'có thể hiệu quả.'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_0118d:
+-	ZH 1:
+-	'Ờ...'
+-	\L_012b2:
+-	ZH 1:
+-	'Giờ nghĩ lại, ta là'
+-	R
+-	'một vị vua. Ta đang ở một vị'
+-	R
+-	'trí mà ta có thể kén chọn.'
+-	\L_012b2:
+-	ZH 1:
+-	'Không có ích gì'
+-	R
+-	'khi làm điều đó.'
+-	\L_012b2:
+-	ZH 1:
+-	'Ai đã đưa'
+-	R
+-	'nàng vào sổ đăng ký hậu'
+-	R
+-	'cung vậy...? Chết tiệt.'
++	'Ồ, phải rồi, bắt đeo mặt nạ'
++	R
++	'người đẹp lên mặt thì...!'
++	\L_012b2:
++	ZH 1:
++	'Được đấy, có khi được đấy.'
++	\L_012b2:
++	\L_012a5:
++	\L_0118d:
++	ZH 1:
++	'Hả...'
++	\L_012b2:
++	ZH 1:
++	'Nghĩ kỹ thì ta là vua'
++	R
++	'cơ mà. Ta có quyền'
++	R
++	'kén cá chọn canh.'
++	\L_012b2:
++	ZH 1:
++	'Thứ đó ta không cần.'
++	\L_012b2:
++	ZH 1:
++	'Đứa nào đưa nó vào danh sách'
++	R
++	'hậu cung vậy... chết tiệt.'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	!VAR0516 : 0!
+@@ -934,29 +894,29 @@
+ 	\L_011e1:
+ 	\L_0118d:
+ 	ZH 1:
+-	'Haah, haah, gần thế rồi...'
++	'Hà, hà, suýt nữa thì...'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	\L_011a9:
+ 	ZH 1:
+-	'Nhưng...'
+-	\L_012b2:
+-	ZH 1:
+-	'Em đã gặp rắc rối khi'
+-	R
+-	'thêm tên mình vào sổ đăng'
+-	\L_012b2:
+-	ZH 1:
+-	'ký hậu cung nhưng vẫn'
+-	R
+-	'không có gì xảy ra...'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_0118d:
+-	ZH 1:
+-	'Có lẽ em thực'
+-	R
+-	'sự xấu xí... Haah...'
++	'Nhưng mà...'
++	\L_012b2:
++	ZH 1:
++	'Mình đã cất công ghi tên'
++	R
++	'vào danh sách hậu cung'
++	\L_012b2:
++	ZH 1:
++	'vậy mà ngài chẳng'
++	R
++	'làm gì cả...'
++	\L_012b2:
++	\L_012a5:
++	\L_0118d:
++	ZH 1:
++	'Chẳng lẽ... mình xấu'
++	R
++	'thật sao... hầy...'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	!VAR0516 : 0!
+@@ -978,100 +938,90 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng ngủ của Rance'
+-	R
+-	'Mm... Hôm nay nắng làm chăn'
+-	R
+-	'ấm lên. Cảm thấy tốt, hah...'
++	'Phòng ngủ của Rance.'
++	R
++	'Rance「Ừm... chăn ấm sực.'
++	R
++	'Dễ chịu ghê, oáp...」'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	\L_011c5:
+ 	ZH 1:
+-	'Rance rúc vào chăn'
+-	R
+-	'một mình. Sau đó...'
+-	\L_012b2:
+-	ZH 1:
+-	'（tiếng xào xạc...）'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_0118d:
+-	ZH 1:
+-	'Hừm, tội phạm à!?'
++	'Rance một mình cuộn'
++	R
++	'chăn nằm ấm áp. Bỗng...'
++	\L_012b2:
++	ZH 1:
++	'(Sột soạt...)'
++	\L_012b2:
++	\L_012a5:
++	\L_0118d:
++	ZH 1:
++	'Hửm, kẻ gian à!?'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	\L_011c5:
+ 	ZH 1:
+-	'Rance nghe thấy âm'
+-	R
+-	'thanh từ góc phòng và'
+-	R
+-	'nhảy ra khỏi giường.'
++	'Nghe tiếng động ở góc'
++	R
++	'phòng, Rance bật dậy.'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	!VAR0516 : 94!
+ 	\L_01251:
+ 	\L_011fd:
+ 	ZH 1:
+-	'À, đúng rồi...'
+-	R
+-	'Một tên tội phạm, vì'
+-	R
+-	'em là gián điệp...'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_0118d:
+-	ZH 1:
+-	'Geh... Saitou.'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_011fd:
+-	ZH 1:
+-	'Vâng, là'
+-	R
+-	'em đây, Saitou...'
++	'A, vâng... là kẻ gian đây'
++	R
++	'ạ, vì tôi là điệp viên mà...'
++	\L_012b2:
++	\L_012a5:
++	\L_0118d:
++	ZH 1:
++	'Ặc... Saitou.'
++	\L_012b2:
++	\L_012a5:
++	\L_011fd:
++	ZH 1:
++	'Vâng, là Saitou đây...'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	\L_011c5:
+ 	ZH 1:
+-	'Người ở góc phòng ngủ'
+-	R
+-	'là Saitou Điệp Viên. Cô'
+-	R
+-	'đang bồn chồn không yên.'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_0118d:
+-	ZH 1:
+-	'Đây là phòng'
+-	R
+-	'riêng thân yêu của ta.'
+-	R
+-	'Em đến đây để làm gì?'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_011fd:
+-	ZH 1:
+-	'Vâng, à...'
+-	\L_012b2:
+-	ZH 1:
+-	'Vì Quốc vương triệu gọi'
+-	R
+-	'nên em đã chuẩn bị tâm lý'
+-	R
+-	'sẵn sàng rồi ạ.'
+-	\L_012b2:
+-	ZH 1:
+-	'Có lẽ chẳng có ích'
+-	R
+-	'gì khi phải đấu tranh…'
+-	\L_012b2:
+-	ZH 1:
+-	'Sự trong trắng mà em đã'
+-	R
+-	'giữ cho đến nay sẽ bị tước'
+-	R
+-	'đoạt… Ah, thật đáng tiếc.'
++	'Người ở góc phòng chính'
++	R
++	'là điệp viên Saitou. Cô'
++	R
++	'cứ bồn chồn ngượng nghịu.'
++	\L_012b2:
++	\L_012a5:
++	\L_0118d:
++	ZH 1:
++	'Đây là phòng riêng ngọt ngào'
++	R
++	'của bản đại gia. Đến làm gì?'
++	\L_012b2:
++	\L_012a5:
++	\L_011fd:
++	ZH 1:
++	'Vâng, ừm...'
++	\L_012b2:
++	ZH 1:
++	'Vì Bệ hạ cho gọi nên tôi đã'
++	R
++	'chuẩn bị tinh thần rồi...'
++	\L_012b2:
++	ZH 1:
++	'Có chống cự cũng'
++	R
++	'vô ích nhỉ...'
++	\L_012b2:
++	ZH 1:
++	'Sự trong trắng giữ gìn'
++	R
++	'bấy lâu sắp bị cướp mất...'
++	R
++	'A... tôi thật bất hạnh...'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	\L_0118d:
+@@ -1081,80 +1031,70 @@
+ 	\L_012a5:
+ 	\L_011fd:
+ 	ZH 1:
+-	'Ừm, xin đừng làm'
+-	R
+-	'tổn thương em... Không, em'
+-	R
+-	'không thể yêu cầu điều đó...'
+-	\L_012b2:
+-	ZH 1:
+-	'Trinh tiết của em sẽ'
+-	R
+-	'bị tước đi bằng vũ lực...'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_0118d:
+-	ZH 1:
+-	'Quay trở lại.'
+-	R
+-	'Ta không muốn em.'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_011fd:
+-	ZH 1:
+-	'Hả...? Ừm...'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_0118d:
+-	ZH 1:
+-	'Ta đã nói'
+-	R
+-	'là ta không muốn em. Quay'
+-	R
+-	'trở lại phòng của em.'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_011fd:
+-	ZH 1:
+-	'Nhưng Chủ nhân Rance đã'
+-	R
+-	'triệu hồi em...'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_0118d:
+-	ZH 1:
+-	'Ta đã phạm một số'
+-	R
+-	'sai lầm. Quay lại đi, điều'
+-	R
+-	'đó cũng tốt cho em hơn.'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_011fd:
+-	ZH 1:
+-	'Hah... Haah... Vậy'
+-	R
+-	'em sẽ quay lại...'
+-	\L_012b2:
+-	\L_012a5:
+-	\L_0118d:
+-	ZH 1:
+-	'Ừ, ngủ ngon nhé.'
++	'Ừm, xin đừng làm tôi'
++	R
++	'đau... À không... tôi'
++	R
++	'đâu dám nói thế...'
++	\L_012b2:
++	ZH 1:
++	'Trinh tiết sắp bị'
++	R
++	'cưỡng đoạt... tôi...'
++	\L_012b2:
++	\L_012a5:
++	\L_0118d:
++	ZH 1:
++	'Về đi. Không cần.'
++	\L_012b2:
++	\L_012a5:
++	\L_011fd:
++	ZH 1:
++	'Hả... ừm...'
++	\L_012b2:
++	\L_012a5:
++	\L_0118d:
++	ZH 1:
++	'Đã bảo không cần.'
++	R
++	'Về phòng mình đi.'
++	\L_012b2:
++	\L_012a5:
++	\L_011fd:
++	ZH 1:
++	'Nhưng... tôi được gọi mà...'
++	\L_012b2:
++	\L_012a5:
++	\L_0118d:
++	ZH 1:
++	'Nhầm lẫn gì đó thôi. Về'
++	R
++	'đi, thế tốt cho cô hơn.'
++	\L_012b2:
++	\L_012a5:
++	\L_011fd:
++	ZH 1:
++	'D... dạ... vậy tôi về...'
++	\L_012b2:
++	\L_012a5:
++	\L_0118d:
++	ZH 1:
++	'Ừ, ngủ đừng để bị cảm lạnh.'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	\L_011c5:
+ 	ZH 1:
+-	'Saitou the Spy'
+-	R
+-	'lê bước về phòng.'
++	'Điệp viên Saitou'
++	R
++	'lủi thủi trở về.'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	\L_0125f:
+ 	\L_0118d:
+ 	ZH 1:
+-	'Hừm, người tài ba như ta'
+-	R
+-	'mà cũng chọn nhầm đào.'
++	'Hừm, bản đại gia mà'
++	R
++	'cũng chọn nhầm cơ đấy.'
+ 	\L_012b2:
+ 	\L_012a5:
+ 	!VAR0516 : 0!
+--- before/Gｱﾘｽ2.ADV
++++ src/Gｱﾘｽ2.ADV
+@@ -3044,173 +3044,163 @@
+ 	\L_05b27:
+ 	\L_05a47:
+ 	ZH 1:
+-	'Cowly vội vàng'
++	'Cowly luống cuống'
+ 	R
+ 	'chuẩn bị pha trà.'
+ 	\L_05b34:
+ 	ZH 1:
+-	'Có lẽ vì lo'
+-	R
+-	'lắng nên tay cô run lên.'
+-	R
+-	'ngực của Ngươi rất lớn.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Rance đối mặt'
+-	R
+-	'với Cowly và nói.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'... T-tôi xin lỗi.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Cowly dùng tay giữ cơ thể'
+-	R
+-	'mình và vặn nó để cố giấu'
+-	R
+-	'bộ ngực của mình khỏi Rance.'
+-	\L_05b34:
+-	ZH 1:
+-	'nhìn.'
+-	\L_05b34:
+-	ZH 1:
+-	'Má cô đỏ bừng.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Nhưng tôi-tôi là'
+-	R
+-	'một cô chăn bò, nên'
+-	R
+-	'tôi là thế đấy...'
+-	\L_05b34:
+-	ZH 1:
+-	'Em đang xin'
+-	R
+-	'lỗi về điều gì? Ngực'
+-	R
+-	'lớn là một điều tốt.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'... Thật sao?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Tất nhiên. Rõ'
+-	R
+-	'ràng là có chúng thì tốt'
+-	R
+-	'hơn là không có chúng.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'... Nhưng tôi không'
+-	R
+-	'thể nghĩ ra điều gì tốt đẹp'
+-	R
+-	'khi có bộ ngực lớn cả...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Cowly vừa nói vừa rót'
+-	R
+-	'nước nóng vào ấm lá trà.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Họ làm cho vai tôi đau,'
+-	R
+-	'thật khó để tìm thấy quần'
+-	R
+-	'áo có kích thước của tôi...'
+-	\L_05b34:
+-	ZH 1:
+-	'Và...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Và?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'... Đàn ông nhìn'
+-	R
+-	'chằm chằm vào tôi.'
++	'Có lẽ vì căng thẳng,'
++	R
++	'tay cô khẽ run.'
++	R
++	'Rance「Ngực bự thật đấy.」'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Vừa mở miệng, Rance đã nói'
++	R
++	'thẳng với Cowly như thế.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'......X... xin lỗi ạ.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Cowly vòng tay ôm'
++	R
++	'người, vặn mình giấu'
++	R
++	'bộ ngực khỏi ánh mắt'
++	\L_05b34:
++	ZH 1:
++	'của Rance.'
++	\L_05b34:
++	ZH 1:
++	'Hai má cô đỏ bừng.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Nhưng... t-tôi là cô gái'
++	R
++	'bò nên đành chịu thôi...'
++	\L_05b34:
++	ZH 1:
++	'Rance「Xin lỗi cái gì. Ngực'
++	R
++	'bự là chuyện tốt chứ?」'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'......Vậy sao ạ?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Đương nhiên. Có thì hơn'
++	R
++	'không, rõ quá rồi còn gì?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'......Nhưng tôi chưa'
++	R
++	'từng được điều gì'
++	R
++	'hay vì ngực to cả...'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Vừa rót nước nóng vào ấm'
++	R
++	'trà, Cowly vừa nói khẽ.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Mỏi vai này, quần áo'
++	R
++	'không vừa cỡ này...'
++	\L_05b34:
++	ZH 1:
++	'Rồi thì...'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Rồi thì?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'......Đàn ông cứ'
++	R
++	'nhìn chằm chằm...'
+ 	\L_05b34:
+ 	ZH 1:
+ 	'..................'
+ 	\L_05b34:
+ 	ZH 1:
+-	'... Thật xấu hổ...'
++	'......Ngượng lắm ạ...'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a47:
+ 	ZH 1:
+ 	'Cowly càng đỏ mặt'
+ 	R
+-	'hơn và cô gục đầu xuống.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Đó là bởi vì'
+-	R
+-	'tất cả họ đều ngưỡng'
+-	R
+-	'mộ bộ ngực của ngươi.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Rance bò Lên'
+-	R
+-	'Cao, nắm lấy vai cô và xoay'
+-	R
+-	'người để đối mặt với anh ta.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Kyah...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Cowly hoảng sợ và cố'
+-	R
+-	'gắng lấy tay che ngực.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Đừng giấu chúng.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Rance kéo cánh tay Của'
+-	R
+-	'Cowly ra khỏi ngực cô.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'À...'
++	'hơn, cúi gằm xuống.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Đó là vì đám đàn ông đang'
++	R
++	'ngưỡng mộ bộ ngực của cô.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Rance sấn tới, hai tay'
++	R
++	'nắm vai Cowly, xoay cả'
++	R
++	'người cô về phía mình.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Kya...'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Cowly hốt hoảng định'
++	R
++	'lấy hai tay che ngực.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Đừng che.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Rance gạt phắt cánh tay'
++	R
++	'đang che ngực của Cowly ra.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'A...'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a47:
+@@ -3222,598 +3212,518 @@
+ 	\L_05b27:
+ 	\L_05a0f:
+ 	ZH 1:
+-	'Có vẻ như ngươi cảm thấy'
+-	R
+-	'kỳ lạ khi có bộ ngực lớn,'
+-	R
+-	'nhưng đó là một sai lầm lớn.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'(squish)'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance nắm chặt cả'
+-	R
+-	'hai Bộ ngực Của Cowly.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Chào...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Squishsquishsquishsquish'
+-	R
+-	'squishsq'
+-	R
+-	'uishsquishsquishsquishsq'
+-	\L_05b34:
+-	ZH 1:
+-	'uishsqui'
+-	R
+-	'shsquishsquishsquishsqui'
+-	R
+-	'sh squishsquishsquishsquish'
+-	\L_05b34:
+-	ZH 1:
+-	'squish Trong'
+-	R
+-	'khi Thở Hổn hển,'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance tận hưởng cảm'
+-	R
+-	'giác của bộ ngực của mình.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Ồ. Chúng siêu'
+-	R
+-	'mềm. Chúng cũng đầy sự vững'
+-	R
+-	'chắc. Đây là thiên đường.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Rance tiếp tục'
+-	R
+-	'xoa ngực Của Cowly.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'U-Um, Thưa Bệ Hạ...? bộ'
+-	R
+-	'ngực của em thật tuyệt vời.'
+-	R
+-	'Em nên tự hào khoe chúng.'
+-	\L_05b34:
+-	ZH 1:
+-	'Họ là một trong'
+-	R
+-	'những vũ khí tốt của'
+-	R
+-	'phụ nữ, em biết đấy.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Rance nhìn thẳng vào mắt'
+-	R
+-	'Cowly với ánh mắt nghiêm'
+-	\L_05b34:
+-	ZH 1:
+-	'túc trong khi'
+-	R
+-	'anh thuyết phục cô.'
+-	\L_05b34:
+-	ZH 1:
+-	'Nhưng...'
+-	\L_05b34:
+-	ZH 1:
+-	'Squishsquishsquishsquish'
+-	R
+-	'squishsq'
+-	R
+-	'uishsquishsquishsquishsq'
+-	\L_05b34:
+-	ZH 1:
+-	'uishsqui'
+-	R
+-	'shsquishsquishsquishsqui'
+-	R
+-	'sh squishsquishsquishsquish'
+-	\L_05b34:
+-	ZH 1:
+-	'squish Tay'
+-	R
+-	'anh không ngừng xoa bóp'
+-	R
+-	'ngực Cowly trong một giây.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Không cần phải ngần'
+-	R
+-	'ngại. Hãy sống cuộc sống tự'
+-	R
+-	'hào hơn về bộ ngực của em.'
+-	\L_05b34:
+-	ZH 1:
+-	'Ngươi có rất'
+-	R
+-	'nhiều kháng cáo.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Rance tháo các nút trên'
+-	R
+-	'Áo Của Cowly từng cái một.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'À... Ừm, thưa bệ hạ...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Cowly đang căng thẳng'
+-	R
+-	'về cách mọi chuyện đang diễn'
+-	R
+-	'ra mà cô không có ý kiến gì.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Ồ... Trà đã'
+-	R
+-	'xong rồi, nhưng...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'À? À, trà. Có'
+-	R
+-	'lẽ ta nên uống.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Rance cười toe toét trong'
+-	R
+-	'khi cọ xát Ngực Của Cowly.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'... Trà sữa tự'
+-	R
+-	'làm của ngươi đấy!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Hả!?'
++	'Có vẻ cô cứ bận tâm'
++	R
++	'chuyện ngực to, nhưng'
++	R
++	'thế là sai bét đấy.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'(Mềm...)'
++	\L_05b34:
++	ZH 1:
++	'Rance hai tay bóp'
++	R
++	'trọn bầu ngực Cowly.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Hí...'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'(Bóp bóp bóp bóp bóp bóp bóp'
++	\L_05b34:
++	ZH 1:
++	'bóp bóp bóp bóp bóp bóp...)'
++	\L_05b34:
++	ZH 1:
++	'Mặc Cowly nín thở,'
++	\L_05b34:
++	ZH 1:
++	'Rance thong thả tận hưởng'
++	R
++	'cảm giác bầu ngực của cô.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Ồ. Mềm kinh khủng.'
++	R
++	'Mà lại đầy đàn hồi.'
++	R
++	'Hàng thượng hạng đây.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Rance tiếp tục nắn'
++	R
++	'bóp ngực Cowly.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'A, ừm, Bệ hạ...? Rance「Ngực'
++	R
++	'tuyệt thế này thì cứ'
++	R
++	'đường hoàng khoe ra.'
++	\L_05b34:
++	ZH 1:
++	'Đó là vũ khí đáng'
++	R
++	'giá của đàn bà đấy?」'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Rance nhìn thẳng'
++	R
++	'vào mắt Cowly bằng'
++	R
++	'ánh mắt nghiêm túc,'
++	\L_05b34:
++	ZH 1:
++	'như đang khuyên răn.'
++	\L_05b34:
++	ZH 1:
++	'Thế nhưng,'
++	\L_05b34:
++	ZH 1:
++	'(Bóp bóp bóp bóp bóp bóp bóp'
++	\L_05b34:
++	ZH 1:
++	'bóp bóp bóp bóp bóp bóp...)'
++	\L_05b34:
++	ZH 1:
++	'suốt lúc ấy hai tay vẫn'
++	R
++	'không ngừng nắn ngực Cowly.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Đừng rụt rè. Hãy ưỡn ngực'
++	R
++	'mà sống đường hoàng hơn.'
++	\L_05b34:
++	ZH 1:
++	'Cô quyến rũ lắm đấy.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Rance cởi từng chiếc'
++	R
++	'cúc áo sơ mi của Cowly.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'A... ừm, Bệ hạ...'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Trước diễn biến một chiều,'
++	R
++	'mặt Cowly co rúm lại.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Tr... trà pha xong rồi ạ...'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Hả? À, trà à. Uống thôi.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Vừa nắn ngực Cowly,'
++	R
++	'Rance vừa cười nham nhở.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'......Ta sẽ uống trà sữa'
++	R
++	'pha sữa nhà làm của cô!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Hảaa!?'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	!VAR0516 : 362!
+ 	\L_059d3:
+ 	ZH 1:
+-	'Cowly'
+-	R
+-	'「Kyaaaaaaaaaaaaaaaaaaah! 」'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance xé quần Áo Của'
+-	R
+-	'Cowly với tốc độ tuyệt vời.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「Gahahahaha!, bóp vú!'
+-	R
+-	'Với bộ ngực đẹp như thế này'
+-	R
+-	'một số sữa phải đi ra!!」'
+-	\L_05b34:
+-	ZH 1:
+-	'Sau khi lột đồ Cowly,'
+-	R
+-	'anh ta nắm lấy ngực cô'
+-	R
+-	'và xoa bóp thật mạnh.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「Bây giờ đi'
+-	R
+-	'ra, đi ra, đi ra!」'
+-	\L_05b34:
+-	ZH 1:
+-	'Nghẹn ngào'
+-	R
+-	'「Aaahn! Điều đó là không'
+-	R
+-	'thể được, thưa bệ hạ!」'
+-	\L_05b34:
+-	ZH 1:
+-	'Cowly hét lên, nửa'
+-	R
+-	'chừng rơi nước mắt.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「điều gì là'
+-	R
+-	'không thể? Ngươi là một'
+-	R
+-	'cô gái bò, phải không?」'
+-	\L_05b34:
+-	ZH 1:
+-	'Cowly 「Ngay cả'
+-	R
+-	'bò cũng không cho sữa cho'
+-	R
+-	'đến khi chúng sinh con!」'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「... Thật sao?」'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance nghĩ rằng'
+-	R
+-	'bò luôn cho sữa.'
+-	\L_05b34:
+-	ZH 1:
+-	'Cowly 「Vâng... Vì vậy'
+-	R
+-	'xin vui lòng ngừng làm'
+-	R
+-	'điều này... Được chứ?」'
+-	\L_05b34:
+-	ZH 1:
+-	'Cowly cầu'
+-	R
+-	'xin với đôi mắt đẫm lệ.'
+-	R
+-	'Rance gật đầu với nàng.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「ta thấy, ta thấy...'
+-	R
+-	'Sau đó, có một điều để'
+-	R
+-	'làm.」'
+-	\L_05b34:
+-	ZH 1:
+-	'Ngượng ngùng 「Hả?」'
+-	\L_05b34:
+-	ZH 1:
+-	'Cowly có một'
+-	R
+-	'linh cảm không lành.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「ta'
+-	R
+-	'sẽ phải làm cho nó để cơ'
+-	R
+-	'thể ngươi sản xuất sữa!」'
+-	\L_05b34:
+-	ZH 1:
+-	'Nghẹn ngào'
+-	R
+-	'「Khôngggggggggggggggg'
+-	R
+-	'ggggggggggggggggggg!!」'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance đẩy Cowly lên giường'
+-	R
+-	'và mút núm vú phải của nàng.'
+-	\L_05b34:
+-	ZH 1:
+-	'Ngượng ngùng 「À...」'
+-	\L_05b34:
+-	ZH 1:
+-	'(sucksucksucksuck)'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance cố tình tạo ra'
+-	R
+-	'tiếng động lớn khi anh hút'
+-	R
+-	'và húc vào núm vú của cô.'
+-	\L_05b34:
+-	ZH 1:
+-	'Cùng lúc đó anh véo'
+-	R
+-	'núm vú bên trái của cô và'
+-	R
+-	'lăn và đẩy nó xung quanh.'
+-	\L_05b34:
+-	ZH 1:
+-	'Ngượng ngùng 「...........」'
+-	\L_05b34:
+-	ZH 1:
+-	'Cowly nhắm mắt'
+-	R
+-	'lại và không nói gì.'
+-	\L_05b34:
+-	ZH 1:
+-	'Cô chỉ rùng mình khi chịu'
+-	R
+-	'đựng sự vuốt ve của Rance.'
+-	\L_05b34:
+-	ZH 1:
+-	'Nhưng má nàng ửng hồng và có'
+-	R
+-	'thứ gì đó ngọt ngào bắt đầu'
+-	R
+-	'hòa vào hơi thở của nàng.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「...vì vậy họ nhạy'
+-	R
+-	'cảm trên đầu trang là lớn.」'
+-	\L_05b34:
+-	ZH 1:
+-	'Cowly 「Đó'
+-	R
+-	'là... không phải...」'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「nhưng đó là sự thật,'
+-	\L_05b34:
+-	ZH 1:
+-	'phải không?」 tay'
+-	R
+-	'Của Rance trượt xuống'
+-	R
+-	'phần Dưới Của Cowly.'
+-	\L_05b34:
+-	ZH 1:
+-	'Anh luồn những ngón'
+-	R
+-	'tay mình vào giữa hai'
+-	R
+-	'đùi khép chặt của cô.'
+-	\L_05b34:
+-	ZH 1:
+-	'Cowly 「Mm... Kh...!」'
+-	\L_05b34:
+-	ZH 1:
+-	'） splishsplishsplishsplish'
+-	R
+-	'） ngón Tay của Rance nhảy'
+-	\L_05b34:
+-	ZH 1:
+-	'múa Ở đáy Quần Của Cowly'
+-	R
+-	'và phát ra âm thanh ướt..'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「Mmm, âm'
+-	R
+-	'thanh hay. Gahahahaha!.」'
+-	\L_05b34:
+-	ZH 1:
+-	'Ngượng ngùng 「...........」'
+-	\L_05b34:
+-	ZH 1:
+-	'Má Cowly càng'
+-	R
+-	'đỏ bừng vì xấu hổ.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance tiếp tục'
+-	R
+-	'vuốt ve núm Vú Và háng'
+-	R
+-	'Của Cowly cùng một lúc.'
+-	\L_05b34:
+-	ZH 1:
+-	'slurpsplishslurpsplishsl'
+-	R
+-	'urpsplis h sự'
+-	R
+-	'vuốt ve khéo léo,'
+-	\L_05b34:
+-	ZH 1:
+-	'dai dẳng dần dần phá vỡ'
+-	R
+-	'bức tường được gọi là sự xấu'
+-	R
+-	'hổ trong cơ thể Của Cowly.'
+-	\L_05b34:
+-	ZH 1:
+-	'Cowly 「... À...'
+-	R
+-	'Hah... Haah... Ah... Ah!」'
+-	\L_05b34:
+-	ZH 1:
+-	'Cowly cuối'
+-	R
+-	'cùng không thể nhịn được'
+-	R
+-	'nữa và bắt đầu rên rỉ.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance lấy đó'
+-	R
+-	'làm tín hiệu và ấn tay lên'
+-	R
+-	'xương bánh chè của nàng.'
+-	\L_05b34:
+-	ZH 1:
+-	'Chân nàng dễ dàng mở'
+-	R
+-	'ra như thể việc khép chặt'
+-	R
+-	'lúc đó chưa từng xảy ra.'
+-	\L_05b34:
+-	ZH 1:
+-	'Mật ngọt tràn'
+-	R
+-	'ra từ âm hộ của nàng và'
+-	R
+-	'làm bẩn ga trải giường.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「Bây giờ,'
+-	\L_05b34:
+-	ZH 1:
+-	'ở đây đi!」 Rance giữ hông'
+-	R
+-	'Của Cowly và đẩy siêu vũ khí'
+-	\L_05b34:
+-	ZH 1:
+-	'đã được chuẩn bị sẵn của'
+-	R
+-	'mình vào âm hộ của nàng.'
+-	\L_05b34:
+-	ZH 1:
+-	'Cowly 「V-Bệ'
+-	R
+-	'hạ... Đừng...!」'
+-	\L_05b34:
+-	ZH 1:
+-	'Cowly cầu xin'
+-	R
+-	'với đôi mắt ướt át nhưng'
+-	R
+-	'Rance không còn nghe nữa.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「Ở Đó!!」'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance nhét siêu vũ'
+-	R
+-	'khí của mình vào Cowly.'
+-	\L_05b34:
+-	ZH 1:
+-	'Ngượng ngùng'
+-	R
+-	'「... À...!!」 tác động làm'
+-	R
+-	'Cho Vòm lưng Của Cowly.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「...'
+-	\L_05b34:
+-	ZH 1:
+-	'Ooh, ngươi cũng cảm thấy'
+-	R
+-	'tốt ở đây.」 bên trong âm hộ'
+-	R
+-	'Của Cowly ấm áp và mềm mại,'
+-	\L_05b34:
+-	ZH 1:
+-	'nhưng vẫn bám vào siêu'
+-	R
+-	'vũ khí của anh ta và không'
+-	R
+-	'buông tay như bị lụa co lại.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「ngươi thực sự'
+-	R
+-	'nên có một số sự tự tin.」'
+-	\L_05b34:
+-	ZH 1:
+-	'Ngượng ngùng'
+-	R
+-	'「... Thật sao...?」'
+-	\L_05b34:
+-	ZH 1:
+-	'Nước Mắt Rơi'
+-	R
+-	'vào Mắt Cowly.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「Ừ.」'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance bắt đầu sử'
+-	R
+-	'dụng hông từ từ, nhưng với'
+-	R
+-	'cường độ ngày càng tăng.'
+-	\L_05b34:
+-	ZH 1:
+-	'Cowly 「À...'
+-	R
+-	'À, à, à, à...!」'
+-	\L_05b34:
+-	ZH 1:
+-	'Cowly thở hổn hển'
+-	R
+-	'mỗi khi Rance di chuyển.'
+-	\L_05b34:
+-	ZH 1:
+-	'Mỗi khi cơ thể cô'
+-	R
+-	'lắc lư, âm hộ của cô lại bị'
+-	R
+-	'siết chặt bởi siêu vũ khí.'
+-	\L_05b34:
+-	ZH 1:
+-	'Cowly 「V-Bệ hạ,'
++	'Cowly「Kyaaaaaaaa!」'
++	\L_05b34:
++	ZH 1:
++	'Rance lột phăng quần áo'
++	R
++	'Cowly nhanh như chớp.'
++	\L_05b34:
++	ZH 1:
++	'Rance「Gahaha, vắt sữa'
++	R
++	'nào! Ngực đẹp thế này'
++	R
++	'chắc ra nhiều sữa lắm!!」'
++	\L_05b34:
++	ZH 1:
++	'Rance chộp lấy bầu'
++	R
++	'ngực trần của Cowly,'
++	R
++	'nắn bóp thật mạnh.'
++	\L_05b34:
++	ZH 1:
++	'Rance「Nào, ra đi,'
++	R
++	'ra đi, ra ào ào đi!」'
++	\L_05b34:
++	ZH 1:
++	'Cowly「Ứ! Không'
++	R
++	'được đâu ạ, Bệ hạ!」'
++	\L_05b34:
++	ZH 1:
++	'Cowly mếu máo kêu lên.'
++	\L_05b34:
++	ZH 1:
++	'Rance「Không được cái gì,'
++	R
++	'cô là cô gái bò cơ mà?」'
++	\L_05b34:
++	ZH 1:
++	'Cowly「Bò cũng phải có em'
++	R
++	'bé thì mới ra sữa chứ ạ!」'
++	\L_05b34:
++	ZH 1:
++	'Rance「......Thật à?」'
++	\L_05b34:
++	ZH 1:
++	'Rance cứ tưởng bò thì'
++	R
++	'lúc nào cũng ra sữa.'
++	\L_05b34:
++	ZH 1:
++	'Cowly「Đúng vậy mà... nên'
++	R
++	'xin ngài thôi đi ạ... nhé?」'
++	\L_05b34:
++	ZH 1:
++	'Trước Cowly mắt ngấn lệ'
++	R
++	'van nài, Rance gật gù.'
++	\L_05b34:
++	ZH 1:
++	'Rance「Vậy à, vậy à...'
++	R
++	'thế thì dễ thôi.」'
++	\L_05b34:
++	ZH 1:
++	'Cowly「Hở?」'
++	\L_05b34:
++	ZH 1:
++	'Linh cảm chẳng lành'
++	R
++	'của Cowly đã đúng.'
++	\L_05b34:
++	ZH 1:
++	'Rance「Bản đại gia sẽ biến'
++	R
++	'cô thành cơ thể ra sữa!」'
++	\L_05b34:
++	ZH 1:
++	'Cowly「Khônggggg!?」'
++	\L_05b34:
++	ZH 1:
++	'Rance đẩy Cowly ngã'
++	R
++	'xuống giường, mút'
++	R
++	'lấy đầu ngực phải.'
++	\L_05b34:
++	ZH 1:
++	'Cowly「A...」'
++	\L_05b34:
++	ZH 1:
++	'(Chụt chụt chùn chụt...)'
++	\L_05b34:
++	ZH 1:
++	'Rance cố ý mút thật'
++	R
++	'kêu, ngậm, mổ, hút'
++	R
++	'đầu ngực Cowly.'
++	\L_05b34:
++	ZH 1:
++	'Cùng lúc, ngón tay véo,'
++	R
++	'se, ấn đầu ngực trái.'
++	\L_05b34:
++	ZH 1:
++	'Cowly「......」'
++	\L_05b34:
++	ZH 1:
++	'Nhắm chặt mắt,'
++	R
++	'chẳng hé một tiếng,'
++	\L_05b34:
++	ZH 1:
++	'Cowly run khẽ từng'
++	R
++	'chặp, chịu đựng sự'
++	R
++	'mơn trớn của Rance.'
++	\L_05b34:
++	ZH 1:
++	'Nhưng má cô đã ửng hồng,'
++	R
++	'hơi thở bắt đầu lẫn vị ngọt.'
++	\L_05b34:
++	ZH 1:
++	'Rance「......Không'
++	R
++	'chỉ to mà độ nhạy'
++	R
++	'cũng hạng nhất nhỉ.」'
++	\L_05b34:
++	ZH 1:
++	'Cowly「Đâu... có...」'
++	\L_05b34:
++	ZH 1:
++	'Rance「Làm gì có chuyện'
++	\L_05b34:
++	ZH 1:
++	'không chứ?」 Tay Rance'
++	R
++	'trượt xuống phần'
++	R
++	'thân dưới của Cowly.'
++	\L_05b34:
++	ZH 1:
++	'Hắn luồn ngón tay vào giữa'
++	R
++	'hai đùi đang khép chặt.'
++	\L_05b34:
++	ZH 1:
++	'Cowly「Ưm... ư...!」'
++	\L_05b34:
++	ZH 1:
++	'(Nhóp nhép nhóp nhép...)'
++	R
++	'Ngón tay Rance nhảy múa'
++	\L_05b34:
++	ZH 1:
++	'giữa hai đùi Cowly, tấu'
++	R
++	'lên âm thanh ướt át.'
++	\L_05b34:
++	ZH 1:
++	'Rance「Ừm, tiếng'
++	R
++	'hay ghê. Gahahaha.」'
++	\L_05b34:
++	ZH 1:
++	'Cowly「......」'
++	\L_05b34:
++	ZH 1:
++	'Má Cowly càng đỏ'
++	R
++	'ửng vì xấu hổ.'
++	\L_05b34:
++	ZH 1:
++	'Rance cứ thế mơn trớn cả đầu'
++	R
++	'ngực lẫn giữa hai đùi Cowly.'
++	\L_05b34:
++	ZH 1:
++	'(Chụt nhóp chụt'
++	R
++	'nhóp...) Sự mơn trớn'
++	R
++	'khéo léo, dai dẳng ấy'
++	\L_05b34:
++	ZH 1:
++	'dần phá vỡ bức tường'
++	R
++	'mang tên xấu hổ'
++	R
++	'trong cơ thể Cowly.'
++	\L_05b34:
++	ZH 1:
++	'Cowly「......a...'
++	R
++	'hà... hà... a... a!」'
++	\L_05b34:
++	ZH 1:
++	'Cuối cùng Cowly không nhịn'
++	R
++	'nổi, bật ra tiếng rên.'
++	\L_05b34:
++	ZH 1:
++	'Như lấy đó làm hiệu,'
++	R
++	'Rance đặt tay lên'
++	R
++	'đầu gối cô mà ấn.'
++	\L_05b34:
++	ZH 1:
++	'Đôi chân vốn khép chặt mở ra'
++	R
++	'dễ dàng như chưa từng khép.'
++	\L_05b34:
++	ZH 1:
++	'Cánh hoa giữa đó tràn mật'
++	R
++	'đến loang cả ga giường.'
++	\L_05b34:
++	ZH 1:
++	'Rance「Vậy thì,'
++	\L_05b34:
++	ZH 1:
++	'vào đây!」 Rance ôm'
++	R
++	'hông Cowly, áp siêu'
++	R
++	'vũ khí đã sẵn sàng'
++	\L_05b34:
++	ZH 1:
++	'vào cánh hoa của cô.'
++	\L_05b34:
++	ZH 1:
++	'Cowly「B... Bệ hạ...'
++	R
++	'không được... ạ...!」'
++	\L_05b34:
++	ZH 1:
++	'Lời van nài với đôi mắt ướt'
++	R
++	'ấy không lọt tai Rance nữa.'
++	\L_05b34:
++	ZH 1:
++	'Rance「Này!!」'
++	\L_05b34:
++	ZH 1:
++	'Rance thúc trọn siêu'
++	R
++	'vũ khí vào trong Cowly.'
++	\L_05b34:
++	ZH 1:
++	'Cowly「......A...!!」'
++	R
++	'Chấn động khiến'
++	R
++	'Cowly ưỡn cong lưng.'
++	\L_05b34:
++	ZH 1:
++	'Rance「......'
++	\L_05b34:
++	ZH 1:
++	'Ồ, chỗ này cũng'
++	R
++	'ngon lành đấy.」 Bên'
++	R
++	'trong Cowly ấm, mềm,'
++	\L_05b34:
++	ZH 1:
++	'nhưng siết lấy siêu vũ'
++	R
++	'khí như bông gòn quấn'
++	R
++	'chặt, không buông.'
++	\L_05b34:
++	ZH 1:
++	'Rance「Cô cứ tự'
++	R
++	'tin lên đi.」'
++	\L_05b34:
++	ZH 1:
++	'Cowly「......Thật...'
++	R
++	'không ạ...?」'
++	\L_05b34:
++	ZH 1:
++	'Mắt Cowly rưng rưng nước.'
++	\L_05b34:
++	ZH 1:
++	'Rance「Ừ.」'
++	\L_05b34:
++	ZH 1:
++	'Rance bắt đầu thúc hông,'
++	R
++	'chậm rãi rồi dữ dội dần.'
++	\L_05b34:
++	ZH 1:
++	'Cowly「A... a, a, a, a...!」'
++	\L_05b34:
++	ZH 1:
++	'Cowly thở dốc theo nhịp'
++	R
++	'chuyển động của Rance.'
++	\L_05b34:
++	ZH 1:
++	'Mỗi lần người cô rung'
++	R
++	'lên, cánh hoa lại'
++	R
++	'siết siêu vũ khí.'
++	\L_05b34:
++	ZH 1:
++	'Cowly「B, Bệ hạ,'
+ 	R
+ 	'Bệ hạ, tôi...!」'
+ 	\L_05b34:
+ 	ZH 1:
+-	'Tiếng rên rỉ của'
+-	R
+-	'Cowly trở nên nóng'
+-	R
+-	'bỏng và mãnh liệt.'
+-	\L_05b34:
+-	ZH 1:
+-	'Đó là dấu hiệu'
+-	R
+-	'cho thấy cơn cực khoái'
+-	R
+-	'của cô đang đến gần.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「Được Rồi...'
+-	R
+-	'Bây giờ ta sẽ cho ngươi'
+-	R
+-	'ăn nhiều sữa của ta!!」'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance cũng tiếp cận'
+-	R
+-	'khoảnh khắc cuối cùng và'
+-	R
+-	'nâng cao tốc độ của hông.'
+-	\L_05b34:
+-	ZH 1:
+-	'Cowly 「Bệ hạ,'
+-	R
+-	'Bệ hạ, Bệ hạ...'
+-	\L_05b34:
+-	ZH 1:
+-	'Bệ hạ...!」'
+-	R
+-	'những cơn co thắt nhỏ tức'
+-	R
+-	'thì chạy qua cơ thể Cowly,'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance cũng lên đến'
+-	R
+-	'đỉnh điểm bên trong cô.'
++	'Hơi thở Cowly trở'
++	R
++	'nên nóng và gấp gáp.'
++	\L_05b34:
++	ZH 1:
++	'Đó là dấu hiệu đỉnh'
++	R
++	'điểm đã gần kề.'
++	\L_05b34:
++	ZH 1:
++	'Rance「Được... giờ bản'
++	R
++	'đại gia cho cô uống'
++	R
++	'sữa của ta thật no!!」'
++	\L_05b34:
++	ZH 1:
++	'Rance cũng tăng nhịp hông'
++	R
++	'hướng tới khoảnh khắc cuối.'
++	\L_05b34:
++	ZH 1:
++	'Cowly「Bệ hạ, Bệ hạ, Bệ...'
++	\L_05b34:
++	ZH 1:
++	'hạ...!」 Ngay lúc'
++	R
++	'cơn co giật nhỏ chạy'
++	R
++	'khắp người Cowly,'
++	\L_05b34:
++	ZH 1:
++	'Rance cũng xuất bằng chứng'
++	R
++	'đỉnh điểm vào trong cô.'
+ 	\L_05b34:
+ 	ZH 1:
+ 	R
+@@ -3841,47 +3751,41 @@
+ 	PF0 VAR0056:
+ 	\L_05b34:
+ 	ZH 1:
+-	'... Tôi xấu hổ quá...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Sau khi kết thúc,'
+-	R
+-	'Cowly vẫn cảm nhận được'
+-	R
+-	'hậu quả của cơn cực khoái.'
+-	\L_05b34:
+-	ZH 1:
+-	'cô mặc lại quần'
+-	R
+-	'áo và thì thầm.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Ừm?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Bởi vì tôi đã làm'
+-	R
+-	'điều này với một người đàn'
+-	R
+-	'ông tôi mới gặp hôm nay...'
+-	\L_05b34:
+-	ZH 1:
+-	'Và...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Cảm giác thực'
+-	R
+-	'sự rất tuyệt, đó có phải là'
+-	R
+-	'điều ngươi định nói không?'
++	'......Tôi xấu hổ quá...'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Xong chuyện, tỉnh'
++	R
++	'khỏi dư âm cực khoái,'
++	\L_05b34:
++	ZH 1:
++	'Cowly mặc lại quần'
++	R
++	'áo, lí nhí nói.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Hửm?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Mới gặp người ta lần đầu'
++	R
++	'hôm nay mà đã thế này...'
++	\L_05b34:
++	ZH 1:
++	'rồi thì...'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'......Còn sướng đến'
++	R
++	'thế nữa, chứ gì?'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a7f:
+@@ -3889,125 +3793,117 @@
+ 	'..................'
+ 	\L_05b34:
+ 	ZH 1:
+-	'lời Nói Của Rance'
+-	R
+-	'Khiến Cowly chuyển sang màu'
+-	R
+-	'đỏ đến tận đầu ngón tay.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Đừng lo lắng'
+-	R
+-	'về điều đó. Điều xảy ra'
+-	R
+-	'với mọi cô gái ta gặp.'
+-	\L_05b34:
+-	ZH 1:
+-	'Gahahahaha!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Rance phồng ngực và cười.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Và còn...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Rance nói như thể'
+-	R
+-	'hắn nhớ điều gì đó.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Ngươi đã tiêu thụ'
+-	R
+-	'rất nhiều sữa của ta.'
+-	\L_05b34:
+-	ZH 1:
+-	'Bây giờ cơ thể'
+-	R
+-	'ngươi cũng có thể sản'
+-	R
+-	'xuất sữa, phải không?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Tôi nghĩ là... không.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Tại sao vậy? chúng ta'
+-	R
+-	'“động vật” dường như không'
+-	R
+-	'thể sinh sản với con người.'
+-	\L_05b34:
+-	ZH 1:
+-	'Naritaya nói rằng'
+-	R
+-	'“nhiễm sắc thể” của'
+-	R
+-	'chúng ta khác nhau...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Cái gì, thực sự?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Rance nói trong khi'
+-	R
+-	'anh Ta Đến Gần Cowly'
+-	R
+-	'và chọc vào ngực cô.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Này, nếu ngươi có'
+-	R
+-	'con và có sữa, hãy gửi'
+-	R
+-	'cho ta một bình sữa.'
+-	\L_05b34:
+-	ZH 1:
+-	'Nếu không, việc cho'
+-	R
+-	'ngươi bú sữa của ta chỉ'
+-	R
+-	'là lãng phí. Được rồi?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Hả...? Được rồi.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Sau khi để lại một'
+-	R
+-	'nhận xét cuối cùng mơ'
+-	\L_05b34:
+-	ZH 1:
+-	'hồ không biết liệu nó'
+-	R
+-	'có nghiêm trọng hay không,'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance rời khỏi “tiệm”.'
++	'Nghe Rance nói, Cowly'
++	R
++	'đỏ đến tận đầu ngón'
++	R
++	'tay, co rúm lại.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Đừng bận tâm. Gái'
++	R
++	'nào gặp bản đại gia'
++	R
++	'cũng thành ra thế cả.'
++	\L_05b34:
++	ZH 1:
++	'Gahahahahaha.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Rance ưỡn ngực cười vang.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Mà này...'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Rance nói như chợt nhớ ra.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Ta cho cô uống bao'
++	R
++	'nhiêu sữa của ta rồi.'
++	\L_05b34:
++	ZH 1:
++	'Giờ cơ thể cô cũng'
++	R
++	'ra sữa được rồi chứ?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Tôi nghĩ... là không đâu ạ.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Rance「Sao?」 Cowly「Nghe'
++	R
++	'nói «thú» và người'
++	R
++	'không có con được.'
++	\L_05b34:
++	ZH 1:
++	'Vì «nhiễm sắc thể»'
++	R
++	'khác nhau, ông'
++	R
++	'Naritaya bảo thế...」'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Gì chứ, ra thế à.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Rance lại gần, vừa chọc'
++	R
++	'chọc vào ngực Cowly vừa nói.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Này, lỡ có con rồi'
++	R
++	'ra sữa thì gửi bản'
++	R
++	'đại gia một chai đấy.'
++	\L_05b34:
++	ZH 1:
++	'Không thì ta cho cô uống'
++	R
++	'sữa uổng công à. Nhớ đấy?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Hả?... Vâng.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Buông lại một câu'
++	R
++	'nửa đùa nửa thật,'
++	\L_05b34:
++	ZH 1:
++	'chẳng biết đâu mà lần,'
++	\L_05b34:
++	ZH 1:
++	'Rance rời khỏi'
++	R
++	'«phòng tiếp khách».'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	@L_030f9:
+@@ -4359,569 +4255,525 @@
+ 	\L_05b27:
+ 	\L_05a7f:
+ 	ZH 1:
+-	'Bây giờ, thưa Bệ hạ,'
+-	R
+-	'tôi sẽ làm cho ngài cảm'
+-	R
+-	'thấy thực sự tuyệt vời!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Này! Đợi một chút!!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Rance đã xúc phạm đến'
+-	R
+-	'sự thiếu kiểm soát mà'
+-	\L_05b34:
+-	ZH 1:
+-	'anh ta được trao và'
+-	R
+-	'cố gắng nhảy ra khỏi giường.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'... Ờ?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Nhưng cơ thể của'
+-	R
+-	'Rance bị mắc kẹt trong tư'
+-	R
+-	'thế cố gắng tấn công Mei.'
++	'Nào, Quốc vương Bệ hạ,'
++	R
++	'giờ tôi sẽ tiếp đãi'
++	R
++	'ngài thật sướng nha!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Này! Khoan đã, ngươi!!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Bực vì mọi chuyện'
++	R
++	'quá một chiều,'
++	\L_05b34:
++	ZH 1:
++	'Rance định nhảy khỏi giường.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'......Ơ?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Nhưng người Rance cứng'
++	R
++	'đờ ngay trong tư thế'
++	R
++	'định xông vào Mei.'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a2b:
+ 	ZH 1:
+-	'W-Cái Gì? Ta'
+-	R
+-	'không thể di chuyển!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Trời ạ, thưa bệ'
+-	R
+-	'hạ. Cậu phải ngồi yên.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Mei mím môi'
+-	R
+-	'một chút trong khi'
+-	R
+-	'xoay ngón trỏ phải.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Whoa!?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Ngay sau đó, cơ'
+-	R
+-	'thể của Rance xoay tròn và'
+-	R
+-	'anh ngã ngửa xuống giường.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Y-ngươi chó cái! Thủ'
+-	R
+-	'thuật kỳ lạ này ngươi đang'
+-	R
+-	'làm là gì?! Khi Nào Ta...?'
+-	\L_05b34:
+-	ZH 1:
+-	'hãy bình tĩnh, Thưa'
+-	R
+-	'ngươi. Đó là tất cả vì lợi'
+-	R
+-	'ích của việc phục vụ ngươi.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Mei tháo móc'
+-	R
+-	'áo giáp của Rance.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Này! Ngươi'
+-	R
+-	'không thể cởi quần áo'
+-	R
+-	'của người khác được!!'
+-	\L_05b34:
+-	ZH 1:
+-	'Dừng lại đi, đồ ngốc!!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Xấu hổ quá, thưa bệ hạ?'
+-	\L_05b34:
+-	ZH 1:
+-	'Vậy thì tôi'
+-	R
+-	'sẽ khỏa thân trước.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Mei mỉm cười và'
+-	R
+-	'trước khi nói xong,'
+-	\L_05b34:
+-	ZH 1:
+-	'cô bắt đầu hoàn'
+-	R
+-	'tác cái móc trên chiếc'
+-	R
+-	'váy Trung quốc của mình.'
+-	\L_05b34:
+-	ZH 1:
+-	'đó không'
+-	R
+-	'phải là probleeeem!'
++	'C... cái gì thế. Người ta'
++	R
++	'không cử động được...!?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Trời ạ, Quốc vương Bệ'
++	R
++	'hạ. Phải nằm yên chứ nha.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Mei hơi chu môi, khẽ'
++	R
++	'xoay ngón trỏ tay phải.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Oái!?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Lập tức người Rance'
++	R
++	'xoay tròn một vòng rồi'
++	R
++	'rơi ngửa xuống giường.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Đ... đồ khốn! Ngươi giở'
++	R
++	'yêu thuật gì với bản'
++	R
++	'đại gia! Từ lúc nào...'
++	\L_05b34:
++	ZH 1:
++	'Mei「Đừng giận, Quốc'
++	R
++	'vương Bệ hạ. Tất cả là để'
++	R
++	'tiếp đãi ngài thôi nha.」'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Mei lách cách tháo'
++	R
++	'khóa giáp của Rance.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Này, đồ khốn! Không được'
++	R
++	'tự tiện lột đồ người ta!!'
++	\L_05b34:
++	ZH 1:
++	'Thôi ngay, đồ ngốc!!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Ngại hả, Quốc vương Bệ hạ?'
++	\L_05b34:
++	ZH 1:
++	'Vậy để tôi cởi'
++	R
++	'trước cho nha.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Vừa cười tươi nói thế,'
++	\L_05b34:
++	ZH 1:
++	'Mei đã bắt đầu tháo móc'
++	R
++	'chiếc sườn xám của mình.'
++	\L_05b34:
++	ZH 1:
++	'Rance「Đâu phải'
++	R
++	'chuyện đóóó!」'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	!VAR0516 : 363!
+ 	\L_059d3:
+ 	ZH 1:
+-	'khi chiếc váy'
+-	R
+-	'Trung quốc rơi xuống chân,'
+-	R
+-	'Mei hoàn toàn khỏa thân.'
+-	\L_05b34:
+-	ZH 1:
+-	'Cô không mặc bất cứ'
+-	R
+-	'thứ gì bên dưới nó.'
+-	\L_05b34:
+-	ZH 1:
+-	'rance ngay lập tức quên'
+-	R
+-	'đi cơn thịnh nộ của mình'
+-	\L_05b34:
+-	ZH 1:
+-	'và nhìn chằm chằm vào'
+-	R
+-	'cơ thể trần truồng của Mei.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance（nàng kỳ'
+-	R
+-	'lạ, nhưng cơ thể nàng chắc'
+-	R
+-	'chắn có chất lượng cao.）'
+-	\L_05b34:
+-	ZH 1:
+-	'Làn da của cô rất'
+-	R
+-	'trắng và săn chắc. Tỷ lệ của'
+-	R
+-	'cô là đủ trong mọi lĩnh vực.'
+-	\L_05b34:
+-	ZH 1:
+-	'... Và một'
+-	R
+-	'cái đuôi dài kéo dài từ'
+-	R
+-	'cặp mông quyến rũ của cô.'
+-	\L_05b34:
+-	ZH 1:
+-	'Những chiếc vảy màu đỏ thẫm'
+-	R
+-	'bao phủ phần đuôi cũng phủ'
+-	R
+-	'kín một phần lưng của cô.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance（ta thấy, vì'
+-	R
+-	'vậy đó là những gì làm cho'
+-	R
+-	'nàng một “Cô gái Thằn Lằn”.'
+-	\L_05b34:
+-	ZH 1:
+-	'Nhưng thay vì'
+-	R
+-	'một con thằn lằn,'
+-	\L_05b34:
+-	ZH 1:
+-	'cô trông giống như'
+-	\L_05b34:
+-	ZH 1:
+-	'một...） Rance'
+-	R
+-	'(.....................）'
+-	R
+-	'Rance (...'
+-	\L_05b34:
+-	ZH 1:
+-	'Daaaaah!!'
+-	\L_05b34:
+-	ZH 1:
+-	'Đây không phải là lúc'
+-	R
+-	'để nghĩ về điều đó!!）'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「Này ngươi, hãy giải'
+-	R
+-	'phóng ta ngay bây giờ! Nếu'
+-	R
+-	'mày không, ta sẽ đụ mày!」'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei 「Bây giờ đến'
+-	R
+-	'lượt ngài, thưa bệ hạ.」'
+-	\L_05b34:
+-	ZH 1:
+-	'Vừa nói xong, Mei đưa tay'
+-	R
+-	'ra và bắt đầu nhanh chóng'
+-	R
+-	'cởi bỏ quần áo của Rance.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「Wah?'
+-	R
+-	'Này! Dừng lại!! Dừng'
+-	R
+-	'lại!! Nghe ta này!!」'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance cố gắng thoát'
+-	R
+-	'ra bằng cách nào đó,'
+-	\L_05b34:
+-	ZH 1:
+-	'nhưng anh buộc phải'
+-	R
+-	'ngổn ngang ngửa mặt'
+-	\L_05b34:
+-	ZH 1:
+-	'trên giường và không'
+-	R
+-	'thể cử động ngón tay.'
+-	\L_05b34:
+-	ZH 1:
+-	'Cuối cùng, sự vùng vẫy'
+-	R
+-	'của Rance vô ích và Mei đã'
+-	R
+-	'cởi hết quần áo của chàng.'
+-	\L_05b34:
+-	ZH 1:
+-	'cô cầm vũ khí'
+-	R
+-	'siêu mềm của mình.'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei 「Mmm, thậm chí'
+-	R
+-	'mềm cũng đẹp... Nhưng tôi'
+-	R
+-	'có thể làm cho nó đẹp hơn.」'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei lè lưỡi.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「Gegeh!?」'
+-	R
+-	'Rance tự nhiên rùng mình.'
+-	\L_05b34:
+-	ZH 1:
+-	'Cái lưỡi tràn ra'
+-	R
+-	'từ đôi môi quyến rũ của Mei'
+-	R
+-	'dài gấp vài lần lưỡi người.'
+-	\L_05b34:
+-	ZH 1:
+-	'Chiếc lưỡi dài của cô tiếp'
+-	R
+-	'cận siêu vũ khí trong tay.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「Này, đồ ngốc,'
+-	R
+-	'ngươi định liếm siêu vũ khí'
+-	R
+-	'của ta bằng thứ đó à?'
+-	\L_05b34:
+-	ZH 1:
+-	'Dừng lại! Kinh quá!」'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei 「Sẽ không tệ'
+-	R
+-	'đâu. Sẽ rất tuyệt.」'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei quấn lưỡi'
+-	R
+-	'quanh siêu vũ khí chống'
+-	R
+-	'lại ý muốn của Rance.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance (Uh...?）'
+-	\L_05b34:
+-	ZH 1:
+-	'Nó có cảm giác ẩm'
+-	R
+-	'ướt nhưng lại ấm áp.'
+-	\L_05b34:
+-	ZH 1:
+-	'Chiếc lưỡi dài của Mei'
+-	R
+-	'quấn quanh thân siêu vũ khí.'
+-	\L_05b34:
+-	ZH 1:
+-	'sau đó, lưỡi trượt'
+-	R
+-	'lên và xuống trong'
+-	R
+-	'khi quấn quanh nó.'
+-	\L_05b34:
+-	ZH 1:
+-	'Nó không chỉ'
+-	R
+-	'trượt mà Mei còn tinh tế'
+-	R
+-	'thay đổi sức mạnh ở lưỡi.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance（Th-Thế này... Kinh'
+-	R
+-	'thật, nhưng mà sướng...）'
+-	\L_05b34:
+-	ZH 1:
+-	'Sự vuốt ve của Mei'
+-	R
+-	'chuyển từ cuống lên đầu.'
+-	\L_05b34:
+-	ZH 1:
+-	'Mọi phần trên'
+-	R
+-	'đầu đều có cảm giác như'
+-	R
+-	'bị cọ xát cùng một lúc.'
+-	\L_05b34:
+-	ZH 1:
+-	'niềm vui kỳ lạ mà một'
+-	R
+-	'người phụ nữ không thể đưa'
+-	\L_05b34:
+-	ZH 1:
+-	'ra ngay lập tức chuẩn bị'
+-	R
+-	'siêu vũ khí cho trận chiến.'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei 「Có vẻ như ngài đã'
+-	R
+-	'sẵn sàng rồi, thưa bệ hạ.」'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei rút lưỡi khỏi'
+-	R
+-	'siêu vũ khí của Rance'
+-	R
+-	'và cưỡi lên Rance.'
+-	\L_05b34:
+-	ZH 1:
+-	'cô đặt ngón tay lên'
+-	R
+-	'vũ khí siêu cứng của'
+-	\L_05b34:
+-	ZH 1:
+-	'mình và hướng dẫn nó đến'
+-	R
+-	'âm hộ ẩm ướt của riêng mình.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「H-Này...」'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei 「Bây'
+-	R
+-	'giờ... bắt đầu thôi.」'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei từ từ hạ'
+-	R
+-	'hông xuống và vùi siêu vũ'
+-	R
+-	'khí của anh vào trong cô.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「Wah!?」 niềm vui'
+-	R
+-	'mãnh liệt đã tuôn ra ngay'
+-	R
+-	'lập tức Khiến Rance yelp.'
+-	\L_05b34:
+-	ZH 1:
+-	'Cùng lúc đó, thành âm'
+-	R
+-	'đạo của Mei quấn quanh'
+-	R
+-	'siêu vũ khí của Rance,'
+-	\L_05b34:
+-	ZH 1:
+-	'chúng nhấp nhô như những'
+-	R
+-	'gợn sóng khi kích thích nó.'
+-	\L_05b34:
+-	ZH 1:
+-	'siêu vũ khí dần dần bị'
+-	R
+-	'hạn chế từ căn cứ đến đầu.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance（W-đây là gì...!?）'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei thậm chí còn không'
+-	R
+-	'sử dụng hông của mình.'
+-	\L_05b34:
+-	ZH 1:
+-	'Nhưng Rance chắc chắn'
+-	R
+-	'đang đạt được cực khoái.'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei 「Thoải mái'
+-	R
+-	'chứ, thưa bệ hạ?」'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei nhìn Rance bằng'
+-	R
+-	'đôi mắt hơi ướt và mỉm cười.'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei 「Chỉ'
+-	R
+-	'cần đặt nó vào người tôi'
+-	R
+-	'đã cảm thấy dễ chịu...」'
+-	\L_05b34:
+-	ZH 1:
+-	'Tôi không kém mong'
+-	R
+-	'đợi người đàn ông nào có'
+-	R
+-	'thể có được cả thế giới...」'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei lơ đãng thở dài.'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei 「Thật đáng để'
+-	R
+-	'đến thế giới này...」'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「... Sao?」'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei nhìn'
+-	R
+-	'Rance bằng đôi mắt vàng'
+-	R
+-	'và khàn giọng thì thầm.'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei 「Bây giờ...'
+-	R
+-	'tôi sẽ làm cho cậu ngày'
+-	R
+-	'càng cảm thấy tốt hơn...!」'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei bắt đầu sử dụng hông'
+-	R
+-	'của mình một cách mạnh mẽ.'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance 「Uaaaaaaah!?」'
+-	\L_05b34:
+-	ZH 1:
+-	'Một niềm khoái cảm không'
+-	R
+-	'giống bất cứ thứ gì mà Rance'
+-	\L_05b34:
+-	ZH 1:
+-	'từng cảm thấy trước đây'
+-	R
+-	'tràn ngập khắp cơ thể anh.'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei đỏ mặt và'
+-	R
+-	'thở dài một cách nóng'
+-	\L_05b34:
+-	ZH 1:
+-	'nảy trong khi nhiệt tình'
+-	R
+-	'quằn quại hông trên Rance.'
+-	\L_05b34:
+-	ZH 1:
+-	'Mei 「Bây giờ, Rance...'
+-	\L_05b34:
+-	ZH 1:
+-	'Hãy cho tôi một mảnh sinh'
+-	R
+-	'lực nóng bỏng của ngươi vào'
+-	R
+-	'trong tôi...!」'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance'
+-	R
+-	'「Uoooooooooooooooooooh!! 」'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance gầm gừ như một con thú'
+-	R
+-	'và bắn dòng tinh dịch nóng'
++	'Sườn xám rơi xuống'
++	R
++	'chân, thân hình trần'
++	R
++	'trụi của Mei lộ ra.'
++	\L_05b34:
++	ZH 1:
++	'Dưới váy cô chẳng mặc gì cả.'
++	\L_05b34:
++	ZH 1:
++	'Trong thoáng chốc,'
++	R
++	'Rance quên cả cơn giận,'
++	\L_05b34:
++	ZH 1:
++	'nhìn chằm chằm thân'
++	R
++	'hình trần của Mei.'
++	\L_05b34:
++	ZH 1:
++	'Rance（Nói năng kỳ'
++	R
++	'cục nhưng thân hình'
++	R
++	'thì hàng xịn đấy chứ）'
++	\L_05b34:
++	ZH 1:
++	'Làn da trắng săn chắc. Vóc'
++	R
++	'dáng không chê vào đâu được.'
++	\L_05b34:
++	ZH 1:
++	'......Và từ cặp mông đẹp'
++	R
++	'mọc ra một cái đuôi dài.'
++	\L_05b34:
++	ZH 1:
++	'Lớp vảy đỏ thẫm phủ đuôi'
++	R
++	'lan đến cả một phần lưng.'
++	\L_05b34:
++	ZH 1:
++	'Rance（Ra thế, vì vậy mới'
++	R
++	'là «cô gái thằn lằn».'
++	\L_05b34:
++	ZH 1:
++	'Nhưng hình dạng kia'
++	R
++	'không giống thằn lằn,'
++	\L_05b34:
++	ZH 1:
++	'mà giống...'
++	\L_05b34:
++	ZH 1:
++	'...） Rance（......）'
++	R
++	'Rance（......'
++	\L_05b34:
++	ZH 1:
++	'Đááá!!'
++	\L_05b34:
++	ZH 1:
++	'Giờ đâu phải lúc'
++	R
++	'nghĩ chuyện đó!!）'
++	\L_05b34:
++	ZH 1:
++	'Rance「Này, thả bản'
++	R
++	'đại gia ra ngay! Không'
++	R
++	'thì biết tay ta!?」'
++	\L_05b34:
++	ZH 1:
++	'Mei「Nào, giờ tới lượt'
++	R
++	'Quốc vương Bệ hạ nha.」'
++	\L_05b34:
++	ZH 1:
++	'Dứt lời, Mei vươn'
++	R
++	'ngón tay thon, thoăn'
++	R
++	'thoắt cởi đồ Rance.'
++	\L_05b34:
++	ZH 1:
++	'Rance「Oái? Này!? Thôi'
++	R
++	'ngay!! Dừng lại!! Nghe'
++	R
++	'người ta nói đã!!」'
++	\L_05b34:
++	ZH 1:
++	'Rance cố giãy để thoát,'
++	\L_05b34:
++	ZH 1:
++	'nhưng bị đặt nằm'
++	R
++	'ngửa dang tay chân,'
++	\L_05b34:
++	ZH 1:
++	'không nhúc nhích'
++	R
++	'nổi một ngón tay.'
++	\L_05b34:
++	ZH 1:
++	'Rốt cuộc chống cự'
++	R
++	'vô ích, Rance bị Mei'
++	R
++	'lột sạch quần áo.'
++	\L_05b34:
++	ZH 1:
++	'Mei cầm lấy siêu'
++	R
++	'vũ khí còn mềm oặt.'
++	\L_05b34:
++	ZH 1:
++	'Mei「Ừm, thế này đã đáng'
++	R
++	'nể rồi nha... nhưng để'
++	R
++	'tôi làm nó oai hơn.」'
++	\L_05b34:
++	ZH 1:
++	'Mei thè lưỡi ra.'
++	\L_05b34:
++	ZH 1:
++	'Rance「Ặc!?」 Rance'
++	R
++	'sợ cũng phải thôi.'
++	\L_05b34:
++	ZH 1:
++	'Lưỡi thò ra từ đôi môi'
++	R
++	'xinh của Mei dài gấp'
++	R
++	'mấy lần lưỡi người.'
++	\L_05b34:
++	ZH 1:
++	'Mei đưa chiếc lưỡi dài lại'
++	R
++	'gần siêu vũ khí trong tay.'
++	\L_05b34:
++	ZH 1:
++	'Rance「Này đồ ngốc, ngươi'
++	R
++	'định liếm cái ấy của bản'
++	R
++	'đại gia bằng thứ đó à?'
++	\L_05b34:
++	ZH 1:
++	'Thôi đi! Gớm chết đi được!」'
++	\L_05b34:
++	ZH 1:
++	'Mei「Không gớm đâu.'
++	R
++	'Sướng lắm nha.」'
++	\L_05b34:
++	ZH 1:
++	'Mặc kệ Rance, Mei quấn chiếc'
++	R
++	'lưỡi dài quanh siêu vũ khí.'
++	\L_05b34:
++	ZH 1:
++	'Rance（Ư...?）'
++	\L_05b34:
++	ZH 1:
++	'Cảm giác trơn nhầy mà ấm áp.'
++	\L_05b34:
++	ZH 1:
++	'Chiếc lưỡi dài của Mei quấn'
++	R
++	'quanh thân siêu vũ khí.'
++	\L_05b34:
++	ZH 1:
++	'Rồi cứ quấn như thế mà trượt'
++	R
++	'dần lên xuống dọc thân.'
++	\L_05b34:
++	ZH 1:
++	'Không chỉ trượt, Mei còn'
++	R
++	'khéo đổi độ siết của lưỡi.'
++	\L_05b34:
++	ZH 1:
++	'Rance（Th... thế này'
++	R
++	'thì... gớm mà sướng...）'
++	\L_05b34:
++	ZH 1:
++	'Sự mơn trớn của Mei'
++	R
++	'chuyển từ thân lên đầu.'
++	\L_05b34:
++	ZH 1:
++	'Mọi chỗ trên đầu đều bị lưỡi'
++	R
++	'Mei cọ xát cùng một lúc.'
++	\L_05b34:
++	ZH 1:
++	'Trước khoái cảm kỳ'
++	R
++	'lạ mà đàn bà loài'
++	R
++	'người không mang lại,'
++	\L_05b34:
++	ZH 1:
++	'siêu vũ khí trong chớp'
++	R
++	'mắt đã sẵn sàng xung trận.'
++	\L_05b34:
++	ZH 1:
++	'Mei「Có vẻ sẵn sàng rồi'
++	R
++	'nha, Quốc vương Bệ hạ.」'
++	\L_05b34:
++	ZH 1:
++	'Mei rời lưỡi khỏi'
++	R
++	'siêu vũ khí, chuyển'
++	R
++	'sang cưỡi lên Rance.'
++	\L_05b34:
++	ZH 1:
++	'Cô đặt ngón tay lên siêu'
++	R
++	'vũ khí đang dựng đứng,'
++	\L_05b34:
++	ZH 1:
++	'dẫn nó tới cánh hoa đã ứa'
++	R
++	'mật trong suốt của mình.'
++	\L_05b34:
++	ZH 1:
++	'Rance「N... này...」'
++	\L_05b34:
++	ZH 1:
++	'Mei「Nào... bắt đầu nha.」'
++	\L_05b34:
++	ZH 1:
++	'Mei chậm rãi hạ hông, nuốt'
++	R
++	'trọn siêu vũ khí vào trong.'
++	\L_05b34:
++	ZH 1:
++	'Rance「Oa!?」 Khoái'
++	R
++	'cảm dữ dội trào lên'
++	R
++	'khiến Rance bật kêu.'
++	\L_05b34:
++	ZH 1:
++	'Thành trong của Mei nóng'
++	R
++	'hổi quấn lấy siêu vũ khí,'
++	\L_05b34:
++	ZH 1:
++	'đồng thời gợn sóng'
++	R
++	'kích thích nó.'
++	\L_05b34:
++	ZH 1:
++	'Rồi bao trọn, siết dần'
++	R
++	'từng nấc từ gốc lên đầu.'
++	\L_05b34:
++	ZH 1:
++	'Rance（C... con nhỏ'
++	R
++	'này là gì vậy...!?）'
++	\L_05b34:
++	ZH 1:
++	'Mei còn chưa hề động hông.'
++	\L_05b34:
++	ZH 1:
++	'Thế mà Rance đã bị'
++	R
++	'đẩy dần lên đỉnh.'
++	\L_05b34:
++	ZH 1:
++	'Mei「Sướng không,'
++	R
++	'Quốc vương Bệ hạ?」'
++	\L_05b34:
++	ZH 1:
++	'Mei nhìn Rance bằng đôi'
++	R
++	'mắt hơi ướt, mỉm cười.'
++	\L_05b34:
++	ZH 1:
++	'Mei「Tôi chỉ cho vào thôi'
++	R
++	'mà cũng sướng nha...'
++	\L_05b34:
++	ZH 1:
++	'Quả là bảo vật của người có'
++	R
++	'thể nắm cả thế giới này...」'
++	\L_05b34:
++	ZH 1:
++	'Hà... Mei thở dài mê đắm.'
++	\L_05b34:
++	ZH 1:
++	'Mei「Cất công đến tận'
++	R
++	'thế giới này thật'
++	R
++	'đáng lắm nha...」'
++	\L_05b34:
++	ZH 1:
++	'Rance「......Ngươi...'
++	R
++	'nói gì?」'
++	\L_05b34:
++	ZH 1:
++	'Đôi mắt vàng của Mei'
++	R
++	'nóng bỏng nhìn Rance,'
++	R
++	'giọng khàn thì thầm.'
++	\L_05b34:
++	ZH 1:
++	'Mei「Nào... để tôi làm ngài'
++	R
++	'sướng hơn nữa nha...!」'
++	\L_05b34:
++	ZH 1:
++	'Ngay khoảnh khắc ấy, Mei'
++	R
++	'bắt đầu thúc hông dữ dội.'
++	\L_05b34:
++	ZH 1:
++	'Rance「Ư aaaa!?」'
++	\L_05b34:
++	ZH 1:
++	'Khoái cảm không sao'
++	R
++	'so được với lúc trước,'
++	\L_05b34:
++	ZH 1:
++	'từ giữa hai chân lan'
++	R
++	'khắp người Rance.'
++	\L_05b34:
++	ZH 1:
++	'Mei cũng đỏ bừng má,'
++	R
++	'thở dốc nóng hổi,'
++	\L_05b34:
++	ZH 1:
++	'say sưa uốn hông lượn'
++	R
++	'sóng trên người Rance.'
++	\L_05b34:
++	ZH 1:
++	'Mei「Nào, Rance...'
++	\L_05b34:
++	ZH 1:
++	'cho tôi mảnh sinh mệnh'
++	R
++	'nóng bỏng của ngài'
++	R
++	'vào trong nha...!」'
++	\L_05b34:
++	ZH 1:
++	'Rance「Uoooooooooo!!」'
++	\L_05b34:
++	ZH 1:
++	'Gào lên như dã thú,'
++	R
++	'Rance phóng dòng nóng'
+ 	R
+ 	'bỏng vào trong Mei.'
+ 	\L_05b34:
+ 	ZH 1:
+-	'Mei 「À... Aah...!」'
+-	R
+-	'ý thức Của Rance nhanh'
+-	R
+-	'chóng chìm vào bóng tối.'
+-	\L_05b34:
+-	ZH 1:
+-	'Tất cả những gì'
+-	R
+-	'lặp lại trong đó Là Tiếng'
+-	R
+-	'hét của mei về niềm vui...'
++	'Mei「A... a a...!」'
++	R
++	'Ý thức Rance chìm'
++	R
++	'nhanh vào bóng tối,'
++	\L_05b34:
++	ZH 1:
++	'chỉ còn tiếng reo hân'
++	R
++	'hoan của Mei vọng lại...'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_059f9:
+@@ -4944,7 +4796,7 @@
+ 	\L_05b27:
+ 	\L_05a0f:
+ 	ZH 1:
+-	'Ngh...'
++	'Ưm...'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	!VAR0516 : 1!
+@@ -4958,63 +4810,55 @@
+ 	\L_05b27:
+ 	\L_05a0f:
+ 	ZH 1:
+-	'Ờ...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Chàng nhận thấy mình cảm'
+-	R
+-	'thấy mất năng lượng vì lý do'
+-	R
+-	'nào đó khi rời khỏi giường.'
+-	\L_05b34:
+-	ZH 1:
+-	'Mặc dù chàng không nhớ mặc'
+-	R
+-	'quần áo, vì một số lý do,'
+-	\L_05b34:
+-	ZH 1:
+-	'mọi thứ cho'
+-	R
+-	'đến áo giáp của chàng'
+-	R
+-	'đã trở lại với chàng.'
++	'Ư...'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Thấy người như'
++	R
++	'rã rời tận xương,'
++	\L_05b34:
++	ZH 1:
++	'Rance ngồi dậy khỏi giường.'
++	R
++	'Lạ thay, chẳng nhớ đã mặc'
++	\L_05b34:
++	ZH 1:
++	'mà quần áo, cả giáp cũng'
++	R
++	'đã mặc lại y nguyên.'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a2b:
+ 	ZH 1:
+-	'Cô gái thằn lằn đó có'
+-	R
+-	'mặc quần áo cho ta không...?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Nhưng khi nhìn quanh phòng,'
+-	R
+-	'anh không tìm thấy dấu'
+-	R
+-	'hiệu nào cho thấy Mei ở đó.'
++	'Con thằn lằn cái đó'
++	R
++	'mặc đồ cho ta à...?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Nhưng nhìn quanh phòng,'
++	R
++	'chẳng thấy bóng dáng hay'
++	R
++	'hơi hướng gì của Mei.'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a2b:
+ 	ZH 1:
+-	'Nàng vừa rời đi sau khi'
+-	R
+-	'làm tình với ta phải không?'
+-	R
+-	'Thật là một cô gái thô lỗ.'
+-	\L_05b34:
+-	ZH 1:
+-	'sau đó,'
+-	\L_05b34:
+-	ZH 1:
+-	'ký ức về tình dục đáng'
+-	R
+-	'kinh ngạc mà anh vừa quay'
+-	R
+-	'trở lại tâm trí của Rance.'
++	'Làm xong rồi chuồn'
++	R
++	'luôn à? Đồ vô lễ.'
++	\L_05b34:
++	ZH 1:
++	'Rance còn đang'
++	\L_05b34:
++	ZH 1:
++	'bực bội thì chuyện ân ái'
++	R
++	'ban nãy chợt lướt qua đầu.'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a2b:
+@@ -5022,26 +4866,26 @@
+ 	'..................'
+ 	\L_05b34:
+ 	ZH 1:
+-	'... Chết tiệt!'
+-	\L_05b34:
+-	ZH 1:
+-	'Người phụ nữ đó đã dẫn'
+-	R
+-	'dắt ta vượt qua mọi chuyện'
+-	R
+-	'và khiến ta xuất tinh...'
+-	\L_05b34:
+-	ZH 1:
+-	'Aaaaaaaaaaaaaaaaa!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Được rồi, đã'
+-	R
+-	'đến lúc đấu lại!! Lần này'
+-	R
+-	'ta sẽ khiến nàng rên rỉ!!'
++	'......Khốn kiếp!'
++	\L_05b34:
++	ZH 1:
++	'Bản đại gia mà bị đàn bà'
++	R
++	'xoay như chong chóng, còn'
++	R
++	'bị cho ra một chiều...'
++	\L_05b34:
++	ZH 1:
++	'Tức tức tức tức tức!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Được, tái đấu!! Lần'
++	R
++	'này bản đại gia sẽ'
++	R
++	'cho nó rên hí hí!!'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a7f:
+@@ -5286,40 +5130,38 @@
+ 	\L_05b27:
+ 	\L_05a0f:
+ 	ZH 1:
+-	'À? người đàn ông có'
+-	R
+-	'thể đoàn kết thế giới hỗn'
+-	R
+-	'loạn và chiến tranh này...'
+-	\L_05b34:
+-	ZH 1:
+-	'Ta muốn gặp ngươi và xem'
+-	R
+-	'ngươi là người như thế nào.'
+-	\L_05b34:
+-	ZH 1:
+-	'Ta có thể đi thẳng'
+-	R
+-	'đến lâu đài của ngươi,'
+-	R
+-	'nhưng nó sẽ quá dễ thấy.'
+-	\L_05b34:
+-	ZH 1:
+-	'khi ta biết ngươi'
+-	R
+-	'đang đến đây, Ta đã lừa Dối'
+-	R
+-	'Naritaya và trượt vào đây.'
+-	\L_05b34:
+-	ZH 1:
+-	'quan hệ tình dục ngày'
+-	R
+-	'hôm qua là một phương tiện'
+-	\L_05b34:
+-	ZH 1:
+-	'không thể tránh khỏi để'
+-	R
+-	'tìm hiểu thêm về ngươi.'
++	'Rance「Hả?」 Mei「Người đàn'
++	R
++	'ông có thể thống nhất'
++	R
++	'thế giới loạn lạc này...'
++	\L_05b34:
++	ZH 1:
++	'Tôi muốn gặp xem ngài'
++	R
++	'là người thế nào.'
++	\L_05b34:
++	ZH 1:
++	'Đến thẳng lâu đài cũng'
++	R
++	'được, nhưng tôi không'
++	R
++	'muốn quá lộ liễu nha.'
++	\L_05b34:
++	ZH 1:
++	'Biết ngài sẽ tới'
++	R
++	'đây, tôi lừa Naritaya'
++	R
++	'để trà trộn vào.'
++	\L_05b34:
++	ZH 1:
++	'Cuộc ân ái ban nãy cũng là'
++	\L_05b34:
++	ZH 1:
++	'cách bất đắc dĩ để'
++	R
++	'hiểu ngài hơn thôi.」'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a0f:
+@@ -5327,16 +5169,12 @@
+ 	'..................'
+ 	\L_05b34:
+ 	ZH 1:
+-	'Ngươi nói rằng'
+-	R
+-	'giống như ngươi đã làm điều'
+-	R
+-	'đó chỉ vì ngươi phải làm,'
+-	\L_05b34:
+-	ZH 1:
+-	'nhưng có vẻ như'
+-	R
+-	'ngươi rất thích nó.'
++	'Bảo là bất đắc dĩ,'
++	\L_05b34:
++	ZH 1:
++	'mà trông ngươi'
++	R
++	'sướng ra phết đấy.'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a7f:
+@@ -5398,16 +5236,14 @@
+ 	\L_05b27:
+ 	\L_05a0f:
+ 	ZH 1:
+-	'Này, đợi đã!'
+-	R
+-	'Hãy cho ta một trận đấu trở'
+-	R
+-	'lại trước khi em rời đi!!'
+-	\L_05b34:
+-	ZH 1:
+-	'Lần này ta'
+-	R
+-	'sẽ làm cho em...'
++	'Này, đứng lại! Trước'
++	R
++	'khi về phải tái đấu đã!!'
++	\L_05b34:
++	ZH 1:
++	'Lần này bản đại gia'
++	R
++	'sẽ cho ngươi rên hí...'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a7f:
+@@ -5415,24 +5251,22 @@
+ 	'Ahaha.'
+ 	\L_05b34:
+ 	ZH 1:
+-	'Dù ngươi có mạnh mẽ đến đâu,'
+-	\L_05b34:
+-	ZH 1:
+-	'bất kỳ con người nào'
+-	R
+-	'cũng sẽ hết sinh lực và chết'
+-	\L_05b34:
+-	ZH 1:
+-	'sau khi quan hệ tình dục'
+-	R
+-	'với tôi hai lần liên tiếp.'
+-	\L_05b34:
+-	ZH 1:
+-	'Anh chưa muốn em'
+-	R
+-	'chết đâu, nên hãy quan'
+-	R
+-	'hệ vào lúc khác nhé...'
++	'Dù mạnh đến đâu,'
++	\L_05b34:
++	ZH 1:
++	'người như ngài'
++	R
++	'mà ân ái với tôi'
++	\L_05b34:
++	ZH 1:
++	'hai lần liền là cạn kiệt'
++	R
++	'sinh lực mà chết đó.'
++	\L_05b34:
++	ZH 1:
++	'Tôi chưa muốn ngài chết đâu,'
++	R
++	'nên để lần sau nha......'
+ 	\L_05b34:
+ 	ZH 1:
+ 	'............'

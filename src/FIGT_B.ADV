@@ -93,9 +93,9 @@
 			'tiêu chảy rồi.'
 			\L_01402:
 			ZH 1:
-			'Rance, xin lỗi. Cho ta nghỉ'
+			'Bệ hạ Rance, xin lỗi,'
 			R
-			'trận này.'
+			'cho ta được nghỉ.'
 			\L_01402:
 			\L_013f5:
 			\L_01315:
@@ -114,12 +114,12 @@
 			\L_01331:
 			\L_012dd:
 			ZH 1:
-			'Tôi không có ý định tham gia'
+			'Tôi chẳng có ý tham gia'
 			\L_01402:
 			ZH 1:
-			'trò tranh chấp thấp kém giữa'
+			'mấy trò tranh giành thấp'
 			R
-			'loài người.'
+			'kém giữa loài người.'
 			\L_01402:
 			\L_013f5:
 			\L_01315:
@@ -325,11 +325,9 @@
 		\L_013f5:
 		\L_012dd:
 		ZH 1:
-		'Hừ, thật bực mình. Đúng lúc'
+		'Hừ, thật quá quắt. Đúng lúc'
 		R
-		'ta cần thì chẳng đứa nào'
-		R
-		'dùng được!'
+		'cần thì chẳng được việc gì!'
 		\L_01402:
 		\L_013f5:
 		@L_00105:
@@ -400,9 +398,9 @@
 	\L_013a1:
 	\L_01315:
 	ZH 1:
-	'Kanami Kentou lao xuống từ'
+	'Kanami Kentou từ trần'
 	R
-	'trần nhà.'
+	'nhà nhẹ nhàng đáp xuống.'
 	\L_01402:
 	\L_013f5:
 	\L_01369:
@@ -424,12 +422,14 @@
 	\L_013a1:
 	\L_01315:
 	ZH 1:
-	'Freya lao xuống từ trần nhà.'
+	'Freya từ trần nhà'
+	R
+	'nhẹ nhàng đáp xuống.'
 	\L_01402:
 	\L_013f5:
 	\L_0134d:
 	ZH 1:
-	'Để đó cho tôi!'
+	'Nhiệm vụ hả, cứ để tôi lo!'
 	\L_01402:
 	\L_013f5:
 	@L_00ad4:
@@ -468,9 +468,9 @@
 	\L_013a1:
 	\L_01315:
 	ZH 1:
-	'Wichita bất ngờ xuất hiện'
+	'Wichita lặng lẽ xuất'
 	R
-	'phía sau Rance.'
+	'hiện sau lưng Rance.'
 	\L_01402:
 	\L_013f5:
 	\L_0134d:
@@ -661,9 +661,9 @@
 	\L_013f5:
 	\L_01315:
 	ZH 1:
-	'Rance chờ mãi, nhưng không'
+	'Nhưng chờ mãi vẫn'
 	R
-	'thấy ninja quay về.'
+	'không thấy quay về.'
 	\L_01402:
 	{VAR0585 = 1:
 		ZH 1:
@@ -680,19 +680,19 @@
 	}
 	{VAR0585 = 3:
 		ZH 1:
-		'Kaoru bị bắt.'
+		'Kaoru đã bị bắt.'
 		\L_01402:
 		!VAR0587 : 0!
 	}
 	{VAR0585 = 4:
 		ZH 1:
-		'Wichita bị bắt.'
+		'Wichita đã bị bắt.'
 		\L_01402:
 		!VAR0588 : 0!
 	}
 	{VAR0585 = 5:
 		ZH 1:
-		'Mika Saitou bị bắt.'
+		'Mika Saitou đã bị bắt.'
 		\L_01402:
 		!VAR0678 : 0!
 	}
@@ -730,9 +730,9 @@
 	\L_013f5:
 	\L_012dd:
 	ZH 1:
-	'Cứ mặc kệ. Ta không quan'
+	'Cứ mặc kệ. Không'
 	R
-	'tâm.'
+	'sao, không sao.'
 	\L_01402:
 	\L_013f5:
 	\L_0134d:

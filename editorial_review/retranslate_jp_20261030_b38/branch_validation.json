@@ -1,0 +1,83 @@
+{
+  "method": "Actual JP and VI dispatch guards,random food cases and menu targets inspected. Static validation,not runtime playthrough.",
+  "Kite": {
+    "entry_dispatch": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10
+    ],
+    "rumor_guard": "VAR0381=0 gate retained; every following linear event read."
+  },
+  "Galtia": {
+    "entry_dispatch": [
+      1,
+      2,
+      3,
+      10,
+      20
+    ],
+    "random_food_cases": [
+      1,
+      2,
+      3
+    ],
+    "poison_sequence": "VAR0378 states1/2/3/4 with VAR0379=VAR0158 same-city checks retained; VAR0377=6 recruitment path,Martina VAR0377>4 entry retained.",
+    "result": "Original national-budget food cost retained."
+  },
+  "Moomin": {
+    "entry_state": "VAR0776=0 first booth,nonzero repeat; original state increments and >1 loop retained.",
+    "original_japanese_menus": [
+      {
+        "line": 77,
+        "text": "\t$L_002ea$本を開く$"
+      },
+      {
+        "line": 78,
+        "text": "\t$L_01746$見たくない$"
+      },
+      {
+        "line": 96,
+        "text": "\t$L_003cd$お仕事のコト$"
+      },
+      {
+        "line": 97,
+        "text": "\t$L_009f9$ゲームのコト$"
+      },
+      {
+        "line": 98,
+        "text": "\t$L_00dcd$車のコト$"
+      },
+      {
+        "line": 99,
+        "text": "\t$L_0137d$ＢＧＭのコト$"
+      },
+      {
+        "line": 100,
+        "text": "\t$L_014ef$欲しい物のコト$"
+      },
+      {
+        "line": 101,
+        "text": "\t$L_01746$もう読まない$"
+      }
+    ],
+    "topics": [
+      "work",
+      "games",
+      "car",
+      "BGM",
+      "wishes"
+    ],
+    "options": [
+      2,
+      6
+    ],
+    "all_topics_and_exit_paths_reviewed": true
+  },
+  "failures": []
+}

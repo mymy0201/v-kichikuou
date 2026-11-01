@@ -1,0 +1,40 @@
+{
+  "text_corrections": 205,
+  "changed_scripts": [
+    "Gｴｸｽ.ADV",
+    "Gﾊﾞﾚｽ.ADV",
+    "Gﾘｯｸ.ADV",
+    "Iｶﾝｶﾞｴ.ADV",
+    "Iﾄｳｿﾞｸ.ADV",
+    "Iﾊﾝﾗﾝ.ADV",
+    "Iﾌﾟﾛﾛｰｸﾞ.ADV"
+  ],
+  "compiler": "passed",
+  "decompiler_round_trip_scripts": 201,
+  "gameplay_commands": "identical to current Vietnamese baseline",
+  "existing_waits": "identical; no waits added or removed",
+  "layout": "changed lines measured with unifont_jp.otf at their actual font size",
+  "font_sha256": "5f20737a09f40c3f0b7511e6c657e48ca1f683e02f0bc0b9565a3c363827a887",
+  "font_config_sha256": "eb1d4393015b295e8a1da9e7ced7b74f89cbe74978f18d83b65c67e12ac1576e",
+  "unrelated_source_files": "unchanged",
+  "save_hashes": {
+    "KICHIKUSA.asd": "d319c1d179a0a10334f1919b5cca38197cacd318c4b64b067e2e4b1c3e24f32f",
+    "KICHIKUSB.asd": "0ed687d14685df3f0f6a96ae1378c7cbaad017a4a96dcf6e69b98a42dc749437",
+    "KICHIKUSC.asd": "11acc85fb7068d6ae47235276533be19d325959400dd35e0143c107837759a58",
+    "KICHIKUSD.asd": "67989bfdc42299fa17d8b629bfd73ca2a6daaefdbbabb87bf6946c037d6a1deb",
+    "KICHIKUSE.asd": "bfc6ed10a45104fb61def590b6169a8a6dc98bce453d99c0ec3a71a27380b9dc",
+    "KICHIKUSF.asd": "8ab33c29a78e09d3bc8a55448bd8d09cf0f8818eaa39e40bafa12aab2e6f943e",
+    "KICHIKUSG.asd": "d319c1d179a0a10334f1919b5cca38197cacd318c4b64b067e2e4b1c3e24f32f"
+  },
+  "rules_sha256": "d707b08790785d8495657aa2d36e157e4dd98757849f69f9f2c0e1ab0872d1a9",
+  "build_hashes": {
+    "KICHIKUSA.ALD": "24aa0a01542c41afdb23704644de92cf96022c7eca8d417ad68aa151ce3ace6a",
+    "System39.ain": "68b00c0aed338ebbbd19fdaff2da084f8928e64e2cdee737e392ab2b171c5fea"
+  },
+  "live_scene_visual_check": "not performed",
+  "installed_hashes": {
+    "KICHIKUSA.ALD": "24aa0a01542c41afdb23704644de92cf96022c7eca8d417ad68aa151ce3ace6a",
+    "System39.ain": "68b00c0aed338ebbbd19fdaff2da084f8928e64e2cdee737e392ab2b171c5fea"
+  },
+  "activation": "passed: installed files match staged and decompiled build"
+}

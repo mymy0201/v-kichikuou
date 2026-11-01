@@ -1,0 +1,10108 @@
+--- before/Gﾅｷﾞ.ADV
++++ src/Gﾅｷﾞ.ADV
+@@ -82,29 +82,31 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Nagi -'
+-	\L_07e76:
+-	ZH 1:
+-	'Phòng Chỉ Huy Một'
+-	R
+-	'người lính ma thuật'
+-	\L_07e76:
+-	ZH 1:
+-	'dưới quyền của Nagi đang'
+-	R
+-	'quỳ trước mặt cô và cúi đầu.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Thưa ngài Nagi, xin hãy cho'
+-	R
+-	'phép...!'
+-	\L_07e76:
+-	ZH 1:
+-	'Toàn thể quân ma pháp đều'
+-	R
+-	'muốn chiến đấu vì Zeth.'
++	'Tháp Nagi'
++	\L_07e76:
++	ZH 1:
++	'Phòng chỉ huy'
++	R
++	'Đội trưởng lính ma pháp'
++	R
++	'trực thuộc Nagi'
++	\L_07e76:
++	ZH 1:
++	'đang quỳ trước'
++	R
++	'mặt nàng, cúi đầu.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Thưa ngài Nagi, xin'
++	R
++	'ngài cho phép...!'
++	\L_07e76:
++	ZH 1:
++	'Toàn thể lính ma pháp đều'
++	R
++	'mong được chiến đấu vì Zeth.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -119,9 +121,9 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Cha của Nagi,'
+-	R
+-	'Ragarl, đi ngang qua họ.'
++	'Đúng lúc đó, cha của Nagi'
++	R
++	'là Ragarl đi ngang qua.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -129,14 +131,16 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'... Ồn ào quá. Chuyện gì?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Họ đang xin'
+-	R
+-	'phép tấn công Leazas.'
++	'......Ồn ào quá.'
++	R
++	'Chuyện gì vậy?'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Họ xin phép xuất kích'
++	R
++	'tấn công Leazas...'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07db3:
+@@ -144,15 +148,17 @@
+ 	\L_07da5:
+ 	\L_07d51:
+ 	ZH 1:
+-	'À...'
+-	\L_07e76:
+-	ZH 1:
+-	'Ngài Ragarl, xin ngài cũng'
+-	\L_07e76:
+-	ZH 1:
+-	'khuyên ngài Nagi cho phép'
+-	R
+-	'chúng tôi...'
++	'A...'
++	\L_07e76:
++	ZH 1:
++	'Ngài Ragarl, xin'
++	R
++	'ngài cũng nói giúp,'
++	\L_07e76:
++	ZH 1:
++	'để ngài Nagi cho'
++	R
++	'phép chúng tôi...'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -160,14 +166,14 @@
+ 	'Hừm...'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Vì đất nước...? Thật'
+-	R
+-	'là một vấn đề tầm thường.'
+-	\L_07e76:
+-	ZH 1:
+-	'Hãy để họ làm'
+-	R
+-	'những gì họ thích, Nagi.'
++	'Vì đất nước à...'
++	R
++	'chuyện cỏn con.'
++	\L_07e76:
++	ZH 1:
++	'Cứ để chúng làm'
++	R
++	'gì thì làm, Nagi.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07db3:
+@@ -175,11 +181,11 @@
+ 	\L_07da5:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Vâng. ... Tấn công Leazas.'
+-	R
+-	'Cho phép hành động theo phán'
+-	R
+-	'đoán của đội trưởng.'
++	'Vâng. ......Tấn công Leazas.'
++	R
++	'Cho phép hành động theo'
++	R
++	'phán đoán của đội trưởng.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -187,16 +193,14 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Đ-Vâng. Cảm'
+-	R
+-	'ơn rất nhiều.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Đội trưởng ma pháp vội vã'
+-	R
+-	'rời khỏi phòng.'
++	'D... dạ. Đa tạ ngài.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Đội trưởng ma pháp'
++	R
++	'vội vã rời khỏi phòng.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 0!
+@@ -218,37 +222,37 @@
+ 	\L_07d89:
+ 	ZM 32:
+ 	ZH 1:
+-	'Vùng đất của quỷ'
++	'Đất của ma nhân'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Lâu đài'
+-	R
+-	'Kesselring Một người'
+-	R
+-	'giúp việc đang dọn dẹp.'
+-	\L_07e76:
+-	ZH 1:
+-	'Cô đang mặc một bộ'
+-	R
+-	'đồng phục mới toanh và không'
+-	R
+-	'có vết cắn nào trên cổ.'
++	'Lâu đài Kesselring'
++	R
++	'Ở đó có một cô hầu gái'
++	R
++	'đang quét dọn.'
++	\L_07e76:
++	ZH 1:
++	'Cô mặc bộ đồng phục'
++	R
++	'mới tinh... trên cổ'
++	R
++	'không thấy vết cắn nào.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 469!
+ 	\L_07da5:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Sao rồi... Quen việc chưa,'
+-	R
+-	'Nagi?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'À...'
++	'Thế nào... quen'
++	R
++	'việc chưa, cô Nagi?'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'A......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	PF1 VAR0056:
+@@ -256,162 +260,156 @@
+ 	G 159:
+ 	\L_07e31:
+ 	ZH 1:
+-	'Nagi ngừng lau cầu thang, ngước nhìn cô hầu gái'
+-	R
+-	'đàn chị.'
++	'Nagi dừng tay lau cầu thang,'
++	R
++	'ngước nhìn cô hầu gái đàn chị.'
+ 	PF0 VAR0056:
+ 	\L_07e76:
+ *L_00501:
+ 	ZH 1:
+-	'Nagi 「Vâng, nó rất vui. Tôi'
+-	R
+-	'cũng muốn ở đây mãi mãi ... 」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi nở một nụ cười nhẹ và thì thầm'
+-	R
+-	'như thể cô đang mơ mộng. Cô không'
+-	\L_07e76:
+-	ZH 1:
+-	'còn chút lạnh lùng nào như trước nữa.'
+-	\L_07e76:
+-	ZH 1:
+-	'Cô hầu 「Tôi hiểu rồi... Tất'
+-	R
+-	'cả chúng tôi đang đợi cô.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Cô hầu gái 「Chúng ta sẽ làm việc cùng nhau mãi'
+-	\L_07e76:
+-	ZH 1:
+-	'mãi thì sao? Dành cho ông Kesselring...'
+-	\L_07e76:
+-	ZH 1:
+-	'À.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Kesselring 「Chào buổi sáng, ba'
+-	R
+-	'người... Alcarria, Varen... Nagi.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Kesselring xuất hiện không một tiếng động. Anh'
+-	\L_07e76:
+-	ZH 1:
+-	'ta mỉm cười tao nhã với những'
+-	R
+-	'người giúp việc của mình.'
+-	\L_07e76:
+-	ZH 1:
+-	'Người giúp việc 「Chào buổi sáng, ông'
+-	R
+-	'Kesselring.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Người giúp việc 「Bây giờ, chúng'
+-	R
+-	'tôi phải đi đây... Xin lỗi.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Những người hầu gái nhanh chóng'
+-	R
+-	'đoán ra chủ nhân của họ đến tìm ai,'
+-	\L_07e76:
+-	ZH 1:
+-	'duyên dáng cúi đầu và quay'
+-	R
+-	'trở lại công việc của mình.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「... Ông Kesselring...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi hơi bối rối không biết'
+-	\L_07e76:
+-	ZH 1:
+-	'phải làm gì một mình với Kesselring'
+-	R
+-	'khi cô ngước nhìn anh. Cô hơi đỏ mặt.'
+-	\L_07e76:
+-	ZH 1:
+-	'Kesselring 「Aah...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Ngươi dọn dẹp thật đẹp. Cô gái ngoan,'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi. Tôi hy vọng ngươi sẽ'
+-	R
+-	'sớm tham gia cùng chúng tôi.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Mr. Kesselring, tôi... tôi đã...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Đã sẵn sàng làm việc cho anh rồi...'
+-	\L_07e76:
+-	ZH 1:
+-	'Anh vẫn sẽ không rửa tội cho em sao...?」'
+-	\L_07e76:
+-	ZH 1:
+-	'Đôi mắt của Nagi ươn ướt đến đau'
+-	\L_07e76:
+-	ZH 1:
+-	'đớn. Kesselring đáp lại'
+-	R
+-	'bằng một nụ cười nhẹ nhàng.'
+-	\L_07e76:
+-	ZH 1:
+-	'Kesselring 「Tôi chưa thể,」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi. Cho đến khi ý chí chiến đấu'
+-	R
+-	'hoàn toàn biến mất khỏi trái tim cậu.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Tôi... Tôi có muốn chiến đấu không...?」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Tại sao...? Có một người mà tôi ghét...'
+-	\L_07e76:
+-	ZH 1:
+-	'Ai...? Tôi đang cố đánh bại ai vậy...?」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi nắm lấy vai cô và rùng'
+-	R
+-	'mình. Một cô gái đã được'
+-	\L_07e76:
+-	ZH 1:
+-	'tiết lộ trong ký ức đầy sương mù của mình...'
++	'Nagi 「Vâng, vui lắm ạ. Tôi cũng...'
++	R
++	'mong sớm được ở mãi thế này...」'
++	\L_07e76:
++	ZH 1:
++	'Nagi mỉm cười nhè nhẹ, thì thầm'
++	R
++	'như đang mơ. Ở nàng không còn'
++	\L_07e76:
++	ZH 1:
++	'chút lạnh lùng nào như ngày trước.'
++	\L_07e76:
++	ZH 1:
++	'Hầu gái 「Phải rồi... Tất cả'
++	R
++	'chúng tôi đều đang đợi cô.」'
++	\L_07e76:
++	ZH 1:
++	'Hầu gái 「Cùng nhau mãi mãi phụng sự'
++	\L_07e76:
++	ZH 1:
++	'ngài Kesselring của chúng ta nhé?......'
++	\L_07e76:
++	ZH 1:
++	'A.」'
++	\L_07e76:
++	ZH 1:
++	'Kesselring 「Chào buổi sáng, các'
++	R
++	'con... Alcaria, Fahren......... Nagi.」'
++	\L_07e76:
++	ZH 1:
++	'Kesselring xuất hiện không một tiếng động, rồi'
++	\L_07e76:
++	ZH 1:
++	'mỉm cười tao nhã với các hầu gái của mình.'
++	\L_07e76:
++	ZH 1:
++	'Hầu gái 「Chào buổi sáng, ngài Kesselring.」'
++	\L_07e76:
++	ZH 1:
++	'Hầu gái 「Vậy chúng tôi xin phép... cáo lui.」'
++	\L_07e76:
++	ZH 1:
++	'Các hầu gái lập tức hiểu chủ nhân đến tìm ai,'
++	\L_07e76:
++	ZH 1:
++	'nhẹ nhàng cúi đầu rồi quay về công việc của mình.'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「............Ngài Kesselring.........」'
++	\L_07e76:
++	ZH 1:
++	'Nagi hơi bối rối vì chỉ còn hai người,'
++	\L_07e76:
++	ZH 1:
++	'ngước nhìn Kesselring. Má nàng ửng hồng.'
++	\L_07e76:
++	ZH 1:
++	'Kesselring 「À......'
++	\L_07e76:
++	ZH 1:
++	'con lau dọn sạch sẽ lắm. Ngoan lắm,'
++	\L_07e76:
++	ZH 1:
++	'Nagi. Mau đến với chúng ta nhé.」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Ngài Kesselring, tôi.........'
++	R
++	'nếu là tôi thì đã......」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Tôi đã... sẵn sàng'
++	R
++	'hầu hạ bên ngài rồi......'
++	\L_07e76:
++	ZH 1:
++	'Ngài vẫn... chưa ban lễ'
++	R
++	'rửa tội cho tôi sao......?」'
++	\L_07e76:
++	ZH 1:
++	'Đôi mắt Nagi ngước lên long lanh đầy khắc khoải.'
++	\L_07e76:
++	ZH 1:
++	'Kesselring dịu dàng mỉm cười đáp lại.'
++	\L_07e76:
++	ZH 1:
++	'Kesselring 「Chưa được đâu,'
++	\L_07e76:
++	ZH 1:
++	'Nagi. Chừng nào tâm tranh đấu trong'
++	R
++	'lòng con còn chưa biến mất hẳn.」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Tôi đâu có... tranh đấu'
++	R
++	'gì............ tranh đấu......?」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Vì sao......... tôi lại'
++	R
++	'căm ghét một ai đó.........'
++	\L_07e76:
++	ZH 1:
++	'Ai......? .........Tôi định đánh bại ai.........」'
++	\L_07e76:
++	ZH 1:
++	'Nagi ôm lấy vai, khẽ run'
++	R
++	'rẩy. Từ trong ký ức mờ sương,'
++	\L_07e76:
++	ZH 1:
++	'bóng hình một cô gái chực hiện ra......'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Kesselring 「... Nagi.」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Nhưng điều đó đã bị chặn lại khi'
+-	R
+-	'Kesselring đặt tay lên vai cô.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「... Ông Kesselring...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Kesselring 「Quên chuyện đó đi, Nagi.'
+-	R
+-	'Thời gian ở đây là vĩnh cửu...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Ngươi nên trải qua thời gian trong yên bình.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「... Được rồi.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Khi họ nhìn Kesselring, đôi mắt'
+-	R
+-	'của Nagi dường như trống rỗng...'
++	'......Nhưng bàn tay Kesselring'
++	R
++	'đặt lên vai nàng đã chặn nó lại.'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「.........Ngài... Kesselring.........」'
++	\L_07e76:
++	ZH 1:
++	'Kesselring 「Quên đi, Nagi. Thời'
++	R
++	'gian ở đây là vĩnh cửu......'
++	\L_07e76:
++	ZH 1:
++	'Sống thật bình yên là tốt nhất.」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Vâ......ng」'
++	\L_07e76:
++	ZH 1:
++	'Dưới ánh nhìn của Kesselring... đôi'
++	R
++	'mắt Nagi dần trở nên trống rỗng......'
+ 	\L_07e76:
+ 	{VAR0520 = 302:
+ 		%0:
+@@ -438,86 +436,82 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng ngủ'
+-	R
+-	'của Rance Hảaaaa.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Rance nằm'
+-	R
+-	'xuống giường với chiếc'
+-	R
+-	'khăn quấn quanh hông.'
+-	\L_07e76:
+-	ZH 1:
+-	'Cơ thể chàng nóng'
+-	R
+-	'bừng sau khi tắm.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Bây giờ,'
+-	R
+-	'ta đã gột rửa được bao'
+-	R
+-	'mệt mỏi trong ngày...'
+-	\L_07e76:
+-	ZH 1:
+-	'Có lẽ ta'
+-	R
+-	'nên đổ mồ hôi thật nhiều'
+-	R
+-	'nữa.... Này, gọi Nagi đi.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'............ Một'
+-	R
+-	'lúc sau... Sau tiếng'
+-	R
+-	'gõ cửa, Nagi xuất hiện.'
++	'Phòng ngủ của Rance'
++	R
++	'Phù haaaaa.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Chỉ quấn mỗi chiếc'
++	R
++	'khăn ngang hông, Rance'
++	R
++	'nằm vật ra giường.'
++	\L_07e76:
++	ZH 1:
++	'Cơ thể vừa tắm xong'
++	R
++	'còn ấm hầm hập.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Nàooo, mệt mỏi cả ngày'
++	R
++	'đã gột sạch rồi...'
++	\L_07e76:
++	ZH 1:
++	'giờ đổ mồ hôi một'
++	R
++	'trận cho đã nào.'
++	R
++	'......Này, gọi Nagi tới.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'......Một lúc sau...'
++	R
++	'tiếng gõ cửa vang lên,'
++	R
++	'rồi Nagi xuất hiện.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 45!
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Cậu gọi là Vua của Leazas?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Mhm, cuối'
+-	R
+-	'cùng cũng đến lúc chúng ta'
+-	R
+-	'dành một đêm với nhau rồi.'
+-	\L_07e76:
+-	ZH 1:
+-	'Hãy khỏa thân và làm tình.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Hãy khỏa thân'
+-	R
+-	'và... Cái gì?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Làm tình đi, ta nói.'
+-	\L_07e76:
+-	ZH 1:
+-	'Làm cho siêu'
+-	R
+-	'vũ khí của ta cảm thấy dễ'
+-	R
+-	'chịu với âm hộ của ngươi.'
++	'Ngài gọi tôi, Vua Leazas.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Ừm, cuối cùng cũng đến'
++	R
++	'màn chính: hầu ta ban đêm.'
++	\L_07e76:
++	ZH 1:
++	'Cùng ta trần'
++	R
++	'truồng yêu nhau.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Trần truồng... làm gì?'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Yêu, yêu đấy.'
++	\L_07e76:
++	ZH 1:
++	'Siêu vũ khí này'
++	R
++	'của ta sẽ sướng rơn'
++	R
++	'trong chỗ đó của cô.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -525,28 +519,26 @@
+ 	'............'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Tôi hiểu rồi...'
+-	\L_07e76:
+-	ZH 1:
+-	'Qua một đêm với nhau'
+-	R
+-	'có nghĩa là cậu đang thực'
+-	R
+-	'hành nghệ thuật tình dục.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'... Cái gì?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Ý cậu là tôi sử dụng âm'
+-	R
+-	'đạo của mình để truyền năng'
+-	R
+-	'lượng đến dương vật của cậu.'
++	'Ra vậy......'
++	\L_07e76:
++	ZH 1:
++	'Thế thì hầu ban đêm'
++	R
++	'là phòng trung thuật.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Phòng... cái gì cơ?'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Dùng âm hộ để truyền'
++	R
++	'năng lượng vào dương'
++	R
++	'vật, phải không.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -556,18 +548,18 @@
+ 	\L_07e69:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Trong trường hợp đó, tôi'
+-	R
+-	'chỉ là người nhận, nhưng tôi'
+-	R
+-	'nghĩ mình có thể làm được.'
+-	\L_07e76:
+-	ZH 1:
+-	'Tôi sẽ cung cấp'
+-	R
+-	'cho cậu nhiều năng lượng'
+-	R
+-	'hơn con gái của Masou.'
++	'Nếu vậy thì tôi chỉ'
++	R
++	'từng làm bên nhận,'
++	R
++	'nhưng chắc là làm được.'
++	\L_07e76:
++	ZH 1:
++	'Tôi sẽ truyền cho Vua'
++	R
++	'Leazas nhiều năng lượng'
++	R
++	'hơn con gái Masou.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -575,16 +567,14 @@
+ 	'Đợi một chút...'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Vậy có nghĩa'
+-	R
+-	'là ngươi đã có kinh nghiệm.'
+-	R
+-	'Ch, không phải trinh nữ...'
+-	\L_07e76:
+-	ZH 1:
+-	'... Anh làm'
+-	R
+-	'chuyện đó với ai vậy?'
++	'Vậy là cô có kinh'
++	R
++	'nghiệm rồi. Chậc, không'
++	R
++	'phải trinh nữ à...'
++	\L_07e76:
++	ZH 1:
++	'......Làm với ai?'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -617,47 +607,43 @@
+ 	\L_07e69:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Không... Không, không. Qua'
+-	R
+-	'một đêm với ta không có gì'
+-	R
+-	'là lạ cả. Nó đáng kính hơn.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Tôi hiểu rồi... Hiểu rồi,'
+-	R
+-	'tôi đã nghe nói về điều này.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nghi lễ tương tự có thể'
+-	R
+-	'được sử dụng để sinh con.'
+-	\L_07e76:
+-	ZH 1:
+-	'Anh có muốn tôi'
+-	R
+-	'sinh con cho anh không?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Gaaaaaah, không,'
+-	R
+-	'không phải vậy!'
+-	\L_07e76:
+-	ZH 1:
+-	'Bố ngươi đã'
+-	R
+-	'dạy ngươi điều gì?'
+-	\L_07e76:
+-	ZH 1:
+-	'Ngươi đang giết chết'
+-	R
+-	'tất cả sự kích thích mà ta'
+-	R
+-	'đã gặp khó khăn để có được!'
++	'Không... không không. Hầu'
++	R
++	'ta ban đêm không phải thứ'
++	R
++	'mờ ám đó. Cao quý hơn nhiều.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Ra vậy... Hiểu rồi,'
++	R
++	'tôi từng nghe nói.'
++	\L_07e76:
++	ZH 1:
++	'Để sinh con cũng làm'
++	R
++	'cùng một nghi lễ như thế.'
++	\L_07e76:
++	ZH 1:
++	'Vua Leazas muốn'
++	R
++	'tôi sinh con sao.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Gaaaa, không phải'
++	R
++	'là không phải!'
++	\L_07e76:
++	ZH 1:
++	'Bố cô dạy dỗ kiểu gì vậy hả.'
++	\L_07e76:
++	ZH 1:
++	'Đang hứng tình thế'
++	R
++	'này cũng xìu hết cả!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -667,25 +653,23 @@
+ 	\L_07e69:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Thôi đi, im lặng đi.'
+-	R
+-	'Dù thế nào đi nữa, ta sẽ cố'
+-	R
+-	'gắng vui vẻ. Hãy khỏa thân.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Hiểu rồi...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Nagi trông không'
+-	R
+-	'hoàn toàn hài lòng khi cô'
+-	R
+-	'cởi bỏ bộ giáp của mình...'
++	'Ồn ào, im đi. Dù sao'
++	R
++	'cứ làm theo cách ta'
++	R
++	'thấy vui. Cởi đồ ra.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Hiểu rồi......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Nagi mặt mũi vẫn chưa'
++	R
++	'thông, cởi bỏ áo giáp...'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	PF1 VAR0056:
+@@ -695,7 +679,7 @@
+ 	SS 24:
+ 	\L_07e31:
+ 	ZH 1:
+-	'Rance 「Gahahahaha!, ta đi đây!」'
++	'Rance 「Gahahahaha, vậy thì nhào vô nàooo!」'
+ 	PF0 VAR0056:
+ 	\L_07e76:
+ *L_00bac:
+@@ -703,27 +687,25 @@
+ 	'Nagi 「À...」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Ngay khi Nagi khỏa thân, Rance'
+-	R
+-	'đã nhảy vào cô và ôm chặt cô.'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Hm... Đây là gì thế, Nagi?」'
+-	\L_07e76:
+-	ZH 1:
+-	'Những viên đá trông giống như đá quý được'
+-	\L_07e76:
+-	ZH 1:
+-	'gắn ở nhiều nơi khác nhau trên cơ thể Nagi.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Đó là những viên đá ma thuật...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Chủ nhân của tôi đã gắn chúng vào người'
+-	\L_07e76:
+-	ZH 1:
+-	'tôi để khuếch đại sức mạnh ma thuật của tôi.」'
++	'Rance vồ lấy Nagi vừa mới cởi trần, ôm chặt.'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Hửm......... cái gì đây, Nagi」'
++	\L_07e76:
++	ZH 1:
++	'Khắp người Nagi có gắn những viên đá'
++	\L_07e76:
++	ZH 1:
++	'trông như đá quý.'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Đó là ma thạch......'
++	\L_07e76:
++	ZH 1:
++	'Sư phụ gắn vào'
++	\L_07e76:
++	ZH 1:
++	'để khuếch đại ma lực.」'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Rance 「Geh,'
+@@ -734,146 +716,150 @@
+ 	'sửa đổi cô...? Bố cậu thật kinh tởm.」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Nagi 「Điều này cũng tệ à...? Cơ thể của'
+-	R
+-	'tôi có kém hơn con gái của Masou không?'
++	'Nagi 「Cái này cũng là chuyện xấu'
++	R
++	'sao... Cơ thể tôi kém con gái Masou à?'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Rance 「Không,'
+-	\L_07e76:
+-	ZH 1:
+-	'dù sao thì ta cũng không quan tâm. Sửa'
+-	R
+-	'đổi ai đó thật là nực cười,」 nhưng ta'
+-	\L_07e76:
+-	ZH 1:
+-	'không đặc biệt bận tâm về điều đó.'
++	'Rance 「Không, cả hai đều ngon.'
++	\L_07e76:
++	ZH 1:
++	'Cải tạo thì quá quắt,'
++	\L_07e76:
++	ZH 1:
++	'nhưng ta không bận tâm.'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Nagi 「Cậu không quan tâm...? Như vậy là chưa đủ.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Mgh... Nagi, cô có muốn'
+-	R
+-	'giỏi hơn Shizuka đến thế không?」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「... Tôi sẽ tốt hơn.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Vậy thì cậu phải cố gắng lên đây...!」'
++	'Nagi 「Cả hai đều được...'
++	R
++	'vậy thì...... không chịu.」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Hừm...... Nagi, cô muốn'
++	R
++	'vượt qua Shizuka đến thế à?」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「.........Sẽ vượt qua.」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Vậy thì phải cố'
++	R
++	'gắng ở chỗ này rồi......!」'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Nagi 「À...」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Trong khi Rance đỡ Nagi đứng lên,'
+-	\L_07e76:
+-	ZH 1:
+-	'anh vòng tay quanh người cô và sờ soạng háng cô.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Ừm...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi rùng mình và cắn môi.'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Này, rên rỉ. Nếu không thì'
+-	R
+-	'chẳng vui chút nào với ta cả.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Nhưng... Nếu tôi không tập trung, à...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance liếm sau gáy cô và tay anh lướt qua ngực cô.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Vua của Leazas...? Tại'
+-	R
+-	'sao cậu lại làm những điều vô'
+-	\L_07e76:
+-	ZH 1:
+-	'nghĩa này? Sức mạnh của ngươi sẽ lãng phí」'
+-	\L_07e76:
+-	ZH 1:
+-	'...'
++	'Rance để nguyên Nagi đứng đó,'
++	\L_07e76:
++	ZH 1:
++	'vòng tay từ phía sau mân mê giữa háng nàng.'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Ưm.........」'
++	\L_07e76:
++	ZH 1:
++	'Nagi khẽ run, cắn chặt môi.'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Này, rên lên đi. Không'
++	R
++	'thì ta chẳng vui gì cả.」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Nhưng......... không'
++	R
++	'tập trung thì, a......」'
++	\L_07e76:
++	ZH 1:
++	'Rance còn rê lưỡi lên gáy, đưa tay lên ngực nàng.'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Vua Leazas......? Sao ngài lại làm'
++	\L_07e76:
++	ZH 1:
++	'chuyện vô ích như vậy, sức lực sẽ......'
++	\L_07e76:
++	ZH 1:
++	'......'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Rance 「Này, im đi. Siêu vũ khí của ta'
+-	R
+-	'luôn tràn đầy sức mạnh nên không sao đâu!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「... Ờ...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Shizuka lần nào cũng rên rỉ sung'
+-	R
+-	'sướng. Cô có thể không làm điều đó? 」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Tôi... có thể.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Vậy thì hãy ngoan ngoãn'
+-	R
+-	'và làm đi! Gahahahaha!..!」'
++	'Rance 「Hừ, ồn ào. Sức mạnh của ta lúc nào cũng'
++	R
++	'tràn trề trong siêu vũ khí nên không sao!」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「.........Ư.........」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Shizuka lần nào cũng rên a a'
++	R
++	'sung sướng đấy. Cô không làm được à?」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Làm......... được.」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Vậy thì ngoan ngoãn kêu lên cho'
++	R
++	'ta nghe nàooo! Gahahahahaha......!」'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Nagi 「À...!」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Rance đẩy hông của Nagi ra và đâm siêu vũ'
+-	\L_07e76:
+-	ZH 1:
+-	'khí chứa đầy sức mạnh của hắn về phía trước.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Nngh... Kh...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi bị đẩy lên và hơi đau khi cô'
+-	R
+-	'đặt tay lên bức tường trước mặt.'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Cô thật dễ thương, Nagi...」'
++	'Rance bắt Nagi chổng hông'
++	R
++	'ra, rồi thọc mạnh siêu vũ'
++	\L_07e76:
++	ZH 1:
++	'khí đang tràn trề sức lực vào một mạch.'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Ưmm......... hự.........」'
++	\L_07e76:
++	ZH 1:
++	'Bị thúc lên, Nagi hơi khổ sở'
++	R
++	'chống tay vào bức tường trước mặt.'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Dễ thương lắm, Nagi......」'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Nagi 「À...!」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Khi sau tai cô bị liếm, cơ thể cô'
+-	R
+-	'run rẩy trong vòng tay của Rance.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Ngh... Đau quá...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi úp mặt vào tường và thì thầm.'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Hm?... Có chuyện gì thế?」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance hỏi mà không ngừng di'
+-	R
+-	'chuyển. Nagi vui vẻ trả lời.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「À... Vua của Leazas, tại sao...?」'
++	'Rance khẽ liếm sau tai, cơ thể'
++	R
++	'trong vòng tay hắn run lên bần bật.'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Ưm......... khó... chịu.........」'
++	\L_07e76:
++	ZH 1:
++	'Áp mặt vào tường, Nagi lẩm bẩm.'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Hửm? ......Sao thế?」'
++	\L_07e76:
++	ZH 1:
++	'Không ngừng chuyển động, Rance'
++	R
++	'hỏi. Nagi đáp như người mê sảng.'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「A......... Vua Leazas, sao lại.........」'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Nagi 「Nó... lớn hơn chủ nhân của tôi...'
+@@ -884,120 +870,114 @@
+ 	'Rance 「............」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Rance（Nàng dễ thương quá…）'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance ôm chặt Nagi, đưa tay vào'
+-	R
+-	'háng cô và đẩy mạnh hơn trước.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Ờ...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Ta hiểu rồi...'
+-	\L_07e76:
+-	ZH 1:
+-	'Mhm, ta đoán siêu vũ khí của ta sẽ'
+-	R
+-	'đau vì nó to và khổng lồ... Mhm.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Không... Tôi quen đau đớn rồi... Ah...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Vậy cậu đang rên rỉ về cái gì vậy? Hửm?」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Tôi không... biết...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Gahahahaha!, tốt, Nagi, rên rỉ nữa đi...!」'
++	'Rance (D... dễ thương quá đi.........)'
++	\L_07e76:
++	ZH 1:
++	'Rance ôm chặt Nagi, vươn tay xuống'
++	R
++	'háng nàng, thúc lên dữ dội hơn.'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Ưa.........」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Vậy à...... ừm ừm,'
++	\L_07e76:
++	ZH 1:
++	'siêu vũ khí của ta là Big Giant'
++	R
++	'nên khó chịu hả...... ừm ừm」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Không phải... đau đớn thì'
++	R
++	'tôi quen rồi...... a......!」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Thế sao lại rên? Hửm?」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Không...... biết.........」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Gahahahahaha, được'
++	R
++	'lắm Nagi, rên nữa đi......!」'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Nagi 「À...!」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Hắn ôm lấy mông cô bằng cả hai tay'
+-	R
+-	'và xoa bóp trong khi di chuyển hông.'
+-	\L_07e76:
+-	ZH 1:
+-	'Căn phòng tràn ngập âm thanh của'
+-	R
+-	'thịt va vào thịt và tiếng nước bắn'
+-	\L_07e76:
+-	ZH 1:
+-	'tung tóe. Nước tràn ra từ âm hộ của'
+-	R
+-	'Nagi chảy xuống siêu vũ khí của Rance.'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Uhaha, cậu ướt quá rồi đấy,'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi. Đây có phải là lần đầu'
+-	R
+-	'tiên cậu bị ướt thế này không?」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「À... Mmm... Vua của Leazas,'
+-	R
+-	'thật lãng phí năng lượng...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Ta đã nói với cô rằng'
+-	R
+-	'đừng lo lắng về điều đó!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Nhưng... Nó đang chảy ra...'
+-	\L_07e76:
+-	ZH 1:
+-	'Aah...!... A... Thật là lãng phí...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Im đi,'
+-	\L_07e76:
+-	ZH 1:
+-	'đừng phàn nàn nữa. Ta chỉ muốn nghe'
+-	R
+-	'những tiếng rên rỉ dễ thương của cô!」'
++	'Hai tay túm lấy mông, vừa nhào nắn vừa lắc hông.'
++	\L_07e76:
++	ZH 1:
++	'Khắp phòng vang tiếng da thịt va'
++	R
++	'chạm và tiếng nước. Mật dịch tràn'
++	\L_07e76:
++	ZH 1:
++	'ra từ cánh hoa Nagi chảy'
++	R
++	'dọc siêu vũ khí nhỏ xuống.'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Uhaha, ướt dữ quá nhỉ,'
++	\L_07e76:
++	ZH 1:
++	'Nagi. Lần đầu bị thế này à?」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「A......... ưm......... Vua'
++	R
++	'Leazas, năng lượng lãng phí.........」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Đã bảo đừng bận tâm chuyện đó!」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Nhưng......... chảy ra......... a a......!'
++	\L_07e76:
++	ZH 1:
++	'......A...... phí quá......」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Ồn ào, đừng nói chuyện bủn xỉn.'
++	\L_07e76:
++	ZH 1:
++	'Cô chỉ cần rên rỉ cho dễ thương là được!'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Nagi 「Àn...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance thỉnh thoảng ném khuấy xung'
+-	R
+-	'quanh bên trong cô vào hỗn hợp,'
+-	\L_07e76:
+-	ZH 1:
+-	'hướng tới kết thúc.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「À, à... Wah...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Được rồi... ta sẽ truyền năng'
+-	R
+-	'lượng của ta vào cô. Cậu cũng vậy...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Hii... Vua của Leazas...'
+-	R
+-	'... Ah... Aaaaaaaaaah!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Uh, kh...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance ôm chặt cơ thể Nagi và lên đỉnh.'
+-	R
+-	'Thân hình mảnh khảnh của Nagi rùng mình...'
++	'Nagi 「Ahn......!」'
++	\L_07e76:
++	ZH 1:
++	'Rance thỉnh thoảng xen vào những cú khuấy đảo,'
++	\L_07e76:
++	ZH 1:
++	'tiến dần tới đích.'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「A, a......... ưa.........!」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Được......... ta sẽ rót năng'
++	R
++	'lượng của ta vào, cô cũng ra đi......!」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Hiư......... Vua Leazas,'
++	R
++	'......... a......... aaaaaa!」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Ư, hự.........!」'
++	\L_07e76:
++	ZH 1:
++	'Ôm chặt lấy Nagi, Rance lên đỉnh.'
++	R
++	'Nagi khẽ run lên từng đợt......'
+ 	\L_07e76:
+ 	{VAR0520 = 301:
+ 		%0:
+@@ -1016,53 +996,49 @@
+ 	\L_07e15:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Haah, điều đó'
+-	R
+-	'thật tuyệt. Tốt, Nagi.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Rance vẫn khỏa'
+-	R
+-	'thân và nằm. Nagi ở bên cạnh'
+-	R
+-	'anh và đã mặc lại áo giáp.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Nó ngon à...? Nếu hai'
+-	R
+-	'người cùng lúc đạt cực khoái'
+-	R
+-	'như vậy thì thật vô nghĩa...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Aaaagh, ta không quan tâm'
+-	R
+-	'đến năng lượng hay gì cả.'
+-	R
+-	'Ta chỉ muốn cảm thấy tốt.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ngươi cũng nên như vậy.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Tôi không thể'
+-	R
+-	'hiểu được điều này.'
+-	\L_07e76:
+-	ZH 1:
+-	'Những hoạt động như vậy có'
+-	R
+-	'mục đích gì không...?…Chúng'
+-	R
+-	'thật vô nghĩa.'
++	'Phù, sướng thật, sướng'
++	R
++	'thật. Good lắm, Nagi.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Bên cạnh Rance vẫn trần'
++	R
++	'truồng nằm ườn ra, Nagi'
++	R
++	'đã mặc lại áo giáp.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Sướng... sao? Cả hai'
++	R
++	'cùng lên đỉnh một lúc'
++	R
++	'thì chẳng được gì cả...'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Aaa, năng lượng gì'
++	R
++	'đó ta chẳng quan'
++	R
++	'tâm. Sướng là được.'
++	\L_07e76:
++	ZH 1:
++	'Cô cũng nghĩ vậy đi.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Tôi không hiểu nổi.'
++	\L_07e76:
++	ZH 1:
++	'Việc đó có ý nghĩa gì'
++	R
++	'chứ... ......Vô nghĩa.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -1072,65 +1048,59 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Nagi có vẻ'
+-	R
+-	'như dù thế nào đi nữa'
+-	R
+-	'cũng sẽ không hài lòng.'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance đột nhiên'
+-	R
+-	'trông nghiêm túc.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'...'
++	'Mặt Nagi vẫn đầy'
++	R
++	'vẻ chưa thông.'
++	\L_07e76:
++	ZH 1:
++	'Rance bỗng nghiêm mặt.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'......'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Nagi,'
+ 	\L_07e76:
+ 	ZH 1:
+-	'nếu cậu không hiểu được điều'
+-	R
+-	'này thì cậu sẽ không bao'
+-	R
+-	'giờ giỏi bằng Shizuka được.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Cái gì...?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Aaaah, Shizuka đúng'
+-	R
+-	'là một người phụ nữ tốt.'
+-	\L_07e76:
+-	ZH 1:
+-	'Có lẽ rốt cuộc ta'
+-	R
+-	'không nên từ bỏ nàng.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'... Kh... hiểu rồi, lần'
+-	R
+-	'sau... Lần sau tôi sẽ hiểu.'
+-	\L_07e76:
+-	ZH 1:
+-	'Vì vậy, đừng nghĩ về người'
+-	R
+-	'phụ nữ mà cậu đã vứt bỏ,'
+-	R
+-	'Vua của Leazas. Bây giờ...'
+-	\L_07e76:
+-	ZH 1:
+-	'Xin lỗi.'
++	'không hiểu được cái này'
++	R
++	'thì không bằng Shizuka đâu.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Cái gì......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Aaa, Shizuka'
++	R
++	'đúng là gái ngon.'
++	\L_07e76:
++	ZH 1:
++	'Đáng lẽ không nên'
++	R
++	'buông nàng ra nhỉ.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'......Hự...... hiểu rồi,'
++	R
++	'lần sau...... nhất định'
++	R
++	'lần sau tôi sẽ hiểu.'
++	\L_07e76:
++	ZH 1:
++	'Nên Vua Leazas, đừng nghĩ'
++	R
++	'tới người đàn bà ngài đã bỏ.'
++	\L_07e76:
++	ZH 1:
++	'Vậy...... tôi xin phép.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -1141,9 +1111,9 @@
+ 	\L_07e69:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Uhahaha... Thôi, cố'
+-	R
+-	'gắng lên nhé, chúc ngủ ngon.'
++	'Uhahaha...... cứ cố'
++	R
++	'mà làm, ngủ ngon.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 0!
+@@ -1167,113 +1137,103 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng ngủ của'
+-	R
+-	'Rance Bây giờ, tối nay'
+-	R
+-	'tôi nên làm ai đây...?'
+-	\L_07e76:
+-	ZH 1:
+-	'Hôm nay là thứ Năm nên...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Rance lấy ra một'
+-	R
+-	'con súc sắc và tung nó.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'2...? Được rồi,'
+-	R
+-	'Nagi. Chàng trai, thật'
+-	R
+-	'tốt khi được làm vua.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Một thời gian'
+-	R
+-	'sau... Nagi xuất hiện'
+-	R
+-	'với vẻ mặt nghiêm túc.'
++	'Phòng ngủ của Rance'
++	R
++	'Nào, tối nay chọn ai đây...'
++	\L_07e76:
++	ZH 1:
++	'Thứ Năm thì......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Rance lấy xúc xắc'
++	R
++	'ra, lăn lóc cóc.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'2 à...... Được, vậy'
++	R
++	'chọn Nagi. Chààà,'
++	R
++	'làm vua sướng thật.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Một lúc sau......'
++	R
++	'Nagi xuất hiện với'
++	R
++	'vẻ mặt nghiêm trang.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 45!
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Chúng ta'
+-	R
+-	'có đang thực hiện nghi lễ'
+-	R
+-	'đó không, Vua của Leazas?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Ừm, đúng rồi. Bây'
+-	R
+-	'giờ hãy cởi quần áo ra.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Vua của Leazas, thật'
+-	R
+-	'khó để thực hiện nghi lễ'
+-	R
+-	'này khi tôi không biết tên.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nó được gọi là gì?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Hừm, cái tên...'
+-	R
+-	'...ta đoán vậy...'
+-	R
+-	'Giặt giũ tâm hồn.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Giặt giũ tâm hồn?... Điều'
+-	R
+-	'đó có nghĩa là gì...? Liệu'
+-	R
+-	'điều đó có thể xảy ra không?'
+-	\L_07e76:
+-	ZH 1:
+-	'Nghi thức không'
+-	R
+-	'giống như giặt giũ.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Aagh, sao'
+-	R
+-	'cũng được, cuối cùng thì'
+-	R
+-	'ngươi cũng sẽ hiểu thôi.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ngươi chỉ cần làm'
+-	R
+-	'điều đó rất nhiều,'
+-	R
+-	'vì vậy hãy cởi bỏ.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Hiểu rồi...'
++	'Lại làm nghi lễ đó'
++	R
++	'sao, Vua Leazas.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Ừm, đúng thế. Nào'
++	R
++	'cởi ra cởi ra.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Vua Leazas, không biết'
++	R
++	'tên nghi lễ đang làm'
++	R
++	'thì khó thực hiện.'
++	\L_07e76:
++	ZH 1:
++	'Nghi lễ đó gọi là gì?'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Hửm, tên...... ......xem'
++	R
++	'nào...... Giặt giũ tâm hồn.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Giặt giũ tâm hồn?'
++	R
++	'......Nghĩa là sao......'
++	R
++	'Chuyện đó có thể làm được à?'
++	\L_07e76:
++	ZH 1:
++	'Mà nghi lễ đó với'
++	R
++	'giặt giũ thì...'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Aaa thôi, mấy chuyện'
++	R
++	'đó rồi sẽ hiểu.'
++	\L_07e76:
++	ZH 1:
++	'Làm nhiều lần là'
++	R
++	'hiểu, nên cởi ra.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Hiểu rồi......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	PF1 VAR0056:
+@@ -1287,248 +1247,246 @@
+ 	PF0 VAR0056:
+ 	\L_07e76:
+ 	ZH 1:
+-	'Rance 「Đung đưa hông nhiều hơn đi,'
+-	R
+-	'Nagi. Cô sẽ không hiểu nếu cô không. 」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Như thế này à, Vua của Leazas...?」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Ừm, tốt!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance bắt Nagi đứng dựa vào tường. Hắn'
+-	\L_07e76:
+-	ZH 1:
+-	'đang đẩy siêu vũ khí của mình vào giữa đùi cô.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Vua của Leazas, tôi không hiểu...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Đây có thực sự là những gì mà việc giặt giũ tâm'
+-	\L_07e76:
+-	ZH 1:
+-	'hồn đòi hỏi không? Tôi cũng không hiểu điều đó...'
+-	\L_07e76:
+-	ZH 1:
+-	'Ừm...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Đừng đoán nữa,」 đặc biệt là khi cậu đã ướt'
+-	\L_07e76:
+-	ZH 1:
+-	'thế này rồi. Giặt giũ tâm hồn'
+-	R
+-	'là thứ mà ngươi cảm thấy...'
+-	\L_07e76:
+-	ZH 1:
+-	'ở đây.」'
++	'Rance 「Nagi, lắc hông mạnh nữa.'
++	R
++	'Không thì không hiểu được đâu」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Thế này à, Vua Leazas.........」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Ừm, good!」'
++	\L_07e76:
++	ZH 1:
++	'Rance bắt Nagi đứng sát tường,'
++	R
++	'kẹp siêu vũ khí vào giữa'
++	\L_07e76:
++	ZH 1:
++	'hai đùi trong của nàng...... cọ đùi.'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Vua Leazas, tôi không hiểu......'
++	\L_07e76:
++	ZH 1:
++	'Làm thế này thật sự sẽ hiểu được'
++	R
++	'chân ý của giặt giũ tâm hồn sao?'
++	\L_07e76:
++	ZH 1:
++	'Cả điều đó tôi cũng không hiểu.........'
++	\L_07e76:
++	ZH 1:
++	'Ưm......!」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Đừng lý sự, ướt nhẹp thế này rồi còn.'
++	\L_07e76:
++	ZH 1:
++	'Giặt giũ tâm hồn là thứ cảm nhận bằng cơ thể......'
++	\L_07e76:
++	ZH 1:
++	'đây này.」'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Nagi 「À...」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Anh nâng hông lên,'
+-	\L_07e76:
+-	ZH 1:
+-	'đưa mình lại gần âm hộ của Nagi. Khi'
+-	R
+-	'anh nhẹ nhàng di chuyển qua lại như thế,'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi cúi đầu lo lắng.'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Nhìn này... Cơ thể'
+-	R
+-	'của cô đang cố quấn lấy ta.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Nhưng...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Chủ nhân của tôi nói rằng hãy sử dụng tâm'
+-	\L_07e76:
+-	ZH 1:
+-	'trí để kiểm soát cơ thể một cách hoàn hảo...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Nếu cậu coi trọng chuyện nhảm nhí đó,'
+-	\L_07e76:
+-	ZH 1:
+-	'cậu sẽ không bao giờ đánh bại được Shizuka.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Ưu...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Nếu cô hiểu rồi, hãy để ta tận'
+-	R
+-	'hưởng. Cậu cũng nên tận hưởng nó đi.」'
++	'Hắn nhích hông lên,'
++	\L_07e76:
++	ZH 1:
++	'áp sát hơn vào cánh hoa Nagi.'
++	R
++	'Rồi cứ thế nhẹ nhàng lắc qua lại,'
++	\L_07e76:
++	ZH 1:
++	'Nagi bối rối cúi gằm mặt.'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Thấy chưa...... cơ thể'
++	R
++	'cô đang muốn quấn lấy ta đấy.」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Nhưng......'
++	\L_07e76:
++	ZH 1:
++	'sư phụ dạy phải dùng tinh thần'
++	\L_07e76:
++	ZH 1:
++	'khống chế thể xác một cách hoàn hảo......」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Còn tin lời nhảm nhí đó thật,'
++	\L_07e76:
++	ZH 1:
++	'thì không thắng nổi Shizuka đâu.」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Ư......」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Hiểu rồi thì làm ta vui đi.'
++	R
++	'Cô cũng phải vui đàng hoàng đấy.」'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Nagi 「............」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Nagi rụt rè cử động hông. Nước ép tràn ra của'
+-	\L_07e76:
+-	ZH 1:
+-	'cô đã làm ướt siêu vũ khí của Rance.'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Uhaha... Tốt, Nagi, ngon ngọt quá.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Ừm... Ah... Ah...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Một tiếng thở hổn hển lặng lẽ thoát'
+-	R
+-	'ra khỏi môi Nagi. Rance vòng tay'
+-	\L_07e76:
+-	ZH 1:
+-	'quanh bộ ngực đang ép vào tường của cô.'
++	'Nagi rụt rè lắc hông. Mật dịch tràn ra'
++	\L_07e76:
++	ZH 1:
++	'làm siêu vũ khí của Rance ướt đẫm.'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Uhauha......... được'
++	R
++	'lắm Nagi, mọng nước quá.」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Ưm............ a...... a............」'
++	\L_07e76:
++	ZH 1:
++	'Môi Nagi khẽ thoát ra tiếng thở. Rance đưa tay'
++	\L_07e76:
++	ZH 1:
++	'ôm lấy bầu ngực đang ép vào tường.'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Nagi 「À...」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Rance 「Mmm, họ cảm thấy tốt...'
+-	\L_07e76:
+-	ZH 1:
+-	'Đây chắc chắn là sự giặt giũ'
+-	R
+-	'tâm hồn.squishy squishy.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance sờ soạng bộ ngực đang lấp'
+-	R
+-	'đầy lòng bàn tay mình. Anh còn'
+-	\L_07e76:
+-	ZH 1:
+-	'véo núm vú cứng cáp của cô để kích thích.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nước ngâm siêu vũ khí của hắn tăng lên đều đặn.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Vua của Leazas, có gì đó kỳ'
+-	R
+-	'lạ... Ngực tôi đau quá... Ah...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Thật sao? Ta ổn, không'
+-	R
+-	'cảm thấy đau hay gì cả. 」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「... Hah...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi cắn ngón tay đang dựa vào tường.'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance ôm cô và hôn từ cổ, lên lưng, đến hông cô.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Ừm, mm... Kh...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Vậy, bắt đầu hiểu'
+-	R
+-	'được một chút rồi, Nagi...?」'
++	'Rance 「Ừmm, sướng thật, cảm giác này......'
++	\L_07e76:
++	ZH 1:
++	'đúng là giặt giũ tâm hồn. Nắn nắn」'
++	\L_07e76:
++	ZH 1:
++	'Rance nắn bóp bầu ngực đầy cả lòng bàn tay. Còn'
++	\L_07e76:
++	ZH 1:
++	'véo cả đầu ngực đang dựng lên để kích thích.'
++	\L_07e76:
++	ZH 1:
++	'Mật dịch làm ướt siêu vũ'
++	R
++	'khí mỗi lúc một nhiều hơn.'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Vua Leazas, lạ lắm...... ngực'
++	R
++	'khó chịu quá......... a............」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Thế à? Ta thì không'
++	R
++	'sao, chẳng khó chịu gì.」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「.........Phư.........」'
++	\L_07e76:
++	ZH 1:
++	'Nagi cắn ngón tay đang chống lên tường.'
++	\L_07e76:
++	ZH 1:
++	'Rance ôm nàng, hôn dần từ gáy'
++	R
++	'xuống lưng, từ lưng xuống hông.'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Ưm, ưm............... hự.........」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Sao rồi Nagi, đã hiểu'
++	R
++	'ra chút nào chưa......?」'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Nagi 「À...!」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Rance quỳ xuống sàn và đặt miệng'
+-	R
+-	'vào âm hộ của Nagi. Cô co giật.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「À, đ-đừng, Vua của Leazas...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nước ép không ngừng chảy ra từ âm hộ của cô'
+-	\L_07e76:
+-	ZH 1:
+-	'ấy. Rance cần mẫn trộn nước'
+-	R
+-	'bọt của mình với chúng.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Không... Nếu tôi đạt cực khoái mà'
+-	R
+-	'không có chúng tôi... đến với nhau...'
+-	\L_07e76:
+-	ZH 1:
+-	'Thật vô nghĩa...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Wah...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Vẫn nói những điều như'
+-	R
+-	'vậy à? Cô không hiểu gì cả,'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi. Cô cần một hình phạt!'
++	'Rance quỳ xuống sàn, đặt miệng lên'
++	R
++	'cánh hoa Nagi. Nagi giật nảy người.'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「A, kh......... không'
++	R
++	'được, Vua Leazas......!」'
++	\L_07e76:
++	ZH 1:
++	'Mật dịch không ngừng tràn ra từ cánh hoa.'
++	\L_07e76:
++	ZH 1:
++	'Rance tỉ mỉ trộn nước bọt của mình vào đó.'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Không được......... chưa kết'
++	R
++	'hợp mà đã lên đỉnh thì.........'
++	\L_07e76:
++	ZH 1:
++	'......vô nghĩa.........'
++	\L_07e76:
++	ZH 1:
++	'ưa......!」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Còn nói thế à...... Chẳng hiểu gì cả,'
++	\L_07e76:
++	ZH 1:
++	'Nagi. Phạt!'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Nagi 「Hii... Ah, aaaaaaaah...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance gặm âm vật lấp lánh màu đỏ'
+-	R
+-	'của Nagi và trêu chọc nó bằng lưỡi'
+-	\L_07e76:
+-	ZH 1:
+-	'của mình. Cái mông sưng tấy mà'
+-	R
+-	'anh đang đỡ trên tay run lên.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Mm... Haah, à...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Bây giờ, đã đến lúc kết thúc...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Vua của... Leazas!? À, tôi vẫn...! 」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Ta sẽ đặt nó vào, Nagi,'
+-	R
+-	'hãy rên rỉ dễ thương đi!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「A... Aaaaaaah!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance đâm siêu vũ khí của mình'
+-	R
+-	'vào Nagi sau khi cô vừa lên đỉnh.'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Gahahahaha!, tốt!! Aaah,'
+-	\L_07e76:
+-	ZH 1:
+-	'đây đúng là một cách sử'
+-	R
+-	'dụng thời gian ý nghĩa nhỉ,」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi?」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Uu... Wah...! A...!」'
++	'Nagi 「Hi......... a, aaaaa......!」'
++	\L_07e76:
++	ZH 1:
++	'Rance khẽ cắn hạt ngọc đỏ'
++	R
++	'ướt bóng của Nagi, dùng lưỡi'
++	\L_07e76:
++	ZH 1:
++	'đùa nghịch. Bờ mông hắn đỡ'
++	R
++	'bằng hai tay run lên từng chập.'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Ưm......... haa, a............」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Giờ thì, kết thúc nào......」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Vua... Leazas!? A, tôi vẫn còn.........!」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Ta cho vào đây Nagi,'
++	R
++	'rên cho dễ thương nhé!」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「A......... aaaaa!」'
++	\L_07e76:
++	ZH 1:
++	'Rance thọc siêu vũ khí vào'
++	R
++	'trong Nagi vừa mới lên đỉnh.'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Gahahahahaha, good!! Aaa,'
++	\L_07e76:
++	ZH 1:
++	'khoảng thời gian thật ý nghĩa,'
++	\L_07e76:
++	ZH 1:
++	'phải không Nagi.」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Ư......... ưa.........! a.........!」'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Rance 「Được rồi,'
+@@ -1542,64 +1500,62 @@
+ 	'không thể làm được. Đi thôi...!」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Nagi 「Aah... À, à...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance dùng hông một cách thô bạo và gây'
+-	\L_07e76:
+-	ZH 1:
+-	'áp lực lên Nagi. Âm hộ của cô đang bị kẹp chặt.'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Uck... Cảm thấy ổn chứ, Nagi?」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Tôi không... biết...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Ta hiểu rồi. Ta biết, gahahahahahaha!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi cào vào tường và chịu'
+-	R
+-	'đựng khoái cảm. Cơn chấn'
+-	\L_07e76:
+-	ZH 1:
+-	'động từ Rance khiến tóc cô nhảy múa điên cuồng.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Mmm... Ah, Vua của... Leazas...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi ngửa cổ ra sau và rên rỉ lớn.'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Ồ,」 ngươi sắp xuất tinh à...? Khá chắc là'
+-	\L_07e76:
+-	ZH 1:
+-	'cậu đã nói rằng sẽ chẳng có ích gì'
+-	R
+-	'nếu xuất tinh cùng nhau... Được rồi,'
+-	\L_07e76:
+-	ZH 1:
+-	'đến lúc kết thúc rồi!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance đập hông vào cặp mông'
+-	R
+-	'mềm mại của Nagi. Anh ôm'
+-	\L_07e76:
+-	ZH 1:
+-	'lấy hông cô thậm chí còn mạnh hơn và di chuyển.'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Ngh... Được rồi, đi...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi 「Aaaaaaaah... À, à...!!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Họ lên đỉnh cùng lúc...'
++	'Nagi 「A a......... a, a.........!」'
++	\L_07e76:
++	ZH 1:
++	'Rance lắc hông dữ dội, dồn Nagi lên cao.'
++	\L_07e76:
++	ZH 1:
++	'Cánh hoa siết chặt quấn lấy hắn.'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Ư hự......... sướng không, Nagi?」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Không...... biết.........!」'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Vậy à. Ta thì sướng lắm, gahahahahaha!」'
++	\L_07e76:
++	ZH 1:
++	'Nagi bấm móng vào tường, chịu đựng khoái cảm.'
++	\L_07e76:
++	ZH 1:
++	'Những cú lắc của Rance làm'
++	R
++	'búi tóc nàng tung bay dữ dội.'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Ưmm......... a, Vua... Leazas.........!」'
++	\L_07e76:
++	ZH 1:
++	'Ngửa cổ ra sau, Nagi rên lên cao vút.'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Ồ, sắp ra à......?'
++	\L_07e76:
++	ZH 1:
++	'Hình như cô bảo cùng lên đỉnh thì vô nghĩa nhỉ...'
++	\L_07e76:
++	ZH 1:
++	'......Được, kết thúc thôi!」'
++	\L_07e76:
++	ZH 1:
++	'Rance nện hông dồn dập vào'
++	R
++	'bờ mông mềm mại của Nagi.'
++	\L_07e76:
++	ZH 1:
++	'Còn nắm lấy hông nàng mà lắc theo.'
++	\L_07e76:
++	ZH 1:
++	'Rance 「Ưm......... được, ra đi......!」'
++	\L_07e76:
++	ZH 1:
++	'Nagi 「Aaaaa......... a, a.........!!」'
++	\L_07e76:
++	ZH 1:
++	'Hai người cùng lúc lên tới đỉnh......'
+ 	\L_07e76:
+ 	PF1 VAR0056:
+ 	\L_07e69:
+@@ -1615,9 +1571,11 @@
+ 	\L_07e15:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Ngah... Zzzzzz... Này,'
+-	R
+-	'Shizuka... Đụ Nagi...'
++	'Ngư......... khò'
++	R
++	'khò, này Shizuka...'
++	R
++	'quấn lấy Nagi đi...'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -1627,49 +1585,43 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Rance dường như đang có'
+-	R
+-	'một giấc mơ khó tin nào đó.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi ở bên cạnh'
+-	R
+-	'anh, đang mặc quần áo.'
++	'Bên cạnh Rance đang có vẻ'
++	R
++	'mơ một giấc mơ ghê gớm,'
++	\L_07e76:
++	ZH 1:
++	'Nagi mặc lại quần áo.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07ddd:
+ 	ZH 1:
+-	'Chỉ là tôi không hiểu…'
+-	R
+-	'Nghi lễ tẩy rửa linh hồn'
+-	R
+-	'có ý nghĩa hay công đức gì?'
+-	\L_07e76:
+-	ZH 1:
+-	'Tại sao Vua'
+-	R
+-	'của Leazas cứ muốn làm'
+-	R
+-	'điều này với tôi...?'
+-	\L_07e76:
+-	ZH 1:
+-	'... Đó là một điều'
+-	R
+-	'bí ẩn... Chủ nhân không dạy'
+-	R
+-	'tôi điều gì như thế này...'
+-	\L_07e76:
+-	ZH 1:
+-	'Haah...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Nagi suy'
+-	R
+-	'nghĩ kỹ rồi rời khỏi'
+-	R
+-	'phòng ngủ của Rance.'
++	'Quả nhiên, không hiểu...'
++	R
++	'Nghi lễ giặt giũ tâm hồn'
++	R
++	'có ý nghĩa, lợi ích gì...'
++	\L_07e76:
++	ZH 1:
++	'Sao Vua Leazas cứ muốn'
++	R
++	'làm chuyện này mãi......'
++	\L_07e76:
++	ZH 1:
++	'......Bí ẩn......'
++	R
++	'Sư phụ không dạy'
++	R
++	'tôi chuyện này......'
++	\L_07e76:
++	ZH 1:
++	'.........Phù.........'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Nagi trầm ngâm suy nghĩ, rời'
++	R
++	'khỏi phòng ngủ của Rance.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 0!
+@@ -1691,46 +1643,42 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Hành lang Ơ...'
+-	\L_07e76:
+-	ZH 1:
+-	'Thời tiết'
+-	R
+-	'đẹp quá. Ánh sáng ấm áp'
+-	R
+-	'đang tràn qua cửa sổ.'
+-	\L_07e76:
+-	ZH 1:
+-	'Đây là một ngày'
+-	R
+-	'hoàn hảo để đi dạo...'
+-	\L_07e76:
+-	ZH 1:
+-	'Hm?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Rance tìm'
+-	R
+-	'thấy một số người đi'
+-	R
+-	'trước anh ở hành lang.'
+-	\L_07e76:
+-	ZH 1:
+-	'Đó là một cặp hơi kỳ lạ.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Đó là... Nagi và Wendy.'
+-	R
+-	'Họ đang nói về cái gì vậy?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Rance quan sát thấy họ...'
++	'Hành lang'
++	R
++	'Oáp......... trời đẹp quá.'
++	\L_07e76:
++	ZH 1:
++	'Nắng qua cửa sổ ấm áp,'
++	\L_07e76:
++	ZH 1:
++	'đúng là ngày lý'
++	R
++	'tưởng để đi dạo.'
++	\L_07e76:
++	ZH 1:
++	'.........Hửm?'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Rance phát hiện có bóng'
++	R
++	'người ở cuối hành lang.'
++	\L_07e76:
++	ZH 1:
++	'Một cặp hơi lạ.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Kia là...... Nagi với Wendy.'
++	R
++	'Đang nói chuyện gì thế?'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Rance dò xét hai người......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07db3:
+@@ -1740,65 +1688,63 @@
+ 	\L_07e15:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Cậu cũng giặt đồ à, Wendy?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Hả? Vâng, tất'
+-	R
+-	'nhiên là tôi biết. Tôi'
+-	R
+-	'là một người giúp việc.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Vậy cậu có thể cho'
+-	R
+-	'tôi biết giặt tâm hồn là gì'
+-	R
+-	'và nó có tác dụng gì không?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Linh hồn... giặt đồ?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Nghi lễ mà Vua Leazas'
+-	R
+-	'thực hiện vào ban đêm.'
+-	\L_07e76:
+-	ZH 1:
+-	'Thỉnh thoảng hắn gọi'
+-	R
+-	'cho tôi nhưng tôi không'
+-	R
+-	'hiểu nó dùng để làm gì.'
+-	\L_07e76:
+-	ZH 1:
+-	'Vua Leazas nói rằng'
+-	R
+-	'nếu tôi không hiểu, tôi'
+-	R
+-	'thua kém kẻ thù của mình.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nếu cậu biết, tôi'
+-	R
+-	'muốn cậu nói cho tôi biết.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Cái mà cậu gọi'
+-	R
+-	'là giặt giũ linh hồn mà nhà'
+-	R
+-	'vua làm vào ban đêm là… Ah.'
++	'Wendy cũng giặt giũ à?'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Dạ? Vâng, tất nhiên là'
++	R
++	'có ạ. Tôi là hầu gái mà.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Vậy cô có thể cho tôi biết'
++	R
++	'giặt giũ tâm hồn là gì,'
++	R
++	'có công dụng gì không.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Giặt giũ...... tâm hồn?'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Là nghi lễ Vua Leazas'
++	R
++	'làm vào ban đêm.'
++	\L_07e76:
++	ZH 1:
++	'Thỉnh thoảng tôi cũng'
++	R
++	'hầu ngài, nhưng không'
++	R
++	'hiểu nó có ý nghĩa gì.'
++	\L_07e76:
++	ZH 1:
++	'Vua Leazas nói không'
++	R
++	'hiểu được nó thì tôi thua'
++	R
++	'kém kẻ thù truyền kiếp.'
++	\L_07e76:
++	ZH 1:
++	'Nếu cô biết,'
++	R
++	'mong cô chỉ cho.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Giặt giũ tâm hồn bệ'
++	R
++	'hạ làm ban đêm, thì'
++	R
++	'đó là......... a.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -1806,65 +1752,59 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Này, dừng lại'
+-	R
+-	'ở đó đi, Nagi.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Vua của Leazas.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Đó là gian lận, không'
+-	R
+-	'hỏi ý kiến ​​người khác.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ngươi sẽ tự hiểu nếu'
+-	R
+-	'làm việc đó với ta nhiều.'
+-	\L_07e76:
+-	ZH 1:
+-	'Mặt khác, ta'
+-	R
+-	'thực sự không thể nói rằng'
+-	R
+-	'ngươi đã vượt qua Shizuka.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Hiểu rồi...'
++	'Ấy, dừng ở đó thôi, Nagi.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Vua Leazas.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Thế là phạm luật, không'
++	R
++	'được hỏi người khác.'
++	\L_07e76:
++	ZH 1:
++	'Phải hầu ta thật nhiều'
++	R
++	'rồi tự mình hiểu ra.'
++	\L_07e76:
++	ZH 1:
++	'Không thì không thể nói'
++	R
++	'là đã vượt qua Shizuka.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Hiểu rồi......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07db3:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Nagi bước đi.'
++	'Nagi lủi thủi bước đi.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 36!
+ 	\L_07da5:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Bệ hạ... Ừm, có phải'
+-	R
+-	'tâm hồn đã được giặt giũ...?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Vâng, tâm hồn'
+-	R
+-	'ta đã giặt giũ.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'... Tôi biết rồi...'
++	'Bệ hạ...... ưm, giặt'
++	R
++	'giũ tâm hồn là......'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Ừ, giặt giũ tâm hồn của ta.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'.........Biết ngay mà......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 0!
+@@ -1888,140 +1828,128 @@
+ 	R
+ 	'Phòng yết kiến'
+ 	R
+-	'Rance gọi là Nagi.'
++	'Rance cho gọi Nagi.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 45!
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Cần gì đó, Vua của Leazas?'
+-	\L_07e76:
+-	ZH 1:
+-	'Dù thế nào đi nữa,'
+-	\L_07e76:
+-	ZH 1:
+-	'tôi hoàn toàn có'
+-	R
+-	'ý định thực hiện tất'
+-	\L_07e76:
+-	ZH 1:
+-	'cả các nhiệm vụ của con'
+-	R
+-	'gái Masou một cách hoàn hảo.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Giống ngươi quá.'
+-	R
+-	'Nhưng ngươi không thể nói'
+-	R
+-	'rằng ngươi đang làm mọi thứ.'
+-	\L_07e76:
+-	ZH 1:
+-	'Cậu vẫn còn ngây'
+-	R
+-	'thơ đấy, Nagi, huhuhu...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Ngây thơ...'
+-	R
+-	'Tôi đang thiếu gì'
+-	R
+-	'vậy, Vua của Leazas?'
+-	\L_07e76:
+-	ZH 1:
+-	'Không có gì con'
+-	R
+-	'gái của Masou có thể'
+-	R
+-	'làm mà tôi không thể.'
+-	\L_07e76:
+-	ZH 1:
+-	'Tôi đảm bảo với cậu'
+-	R
+-	'rằng tôi sẽ cải thiện,'
+-	R
+-	'tôi còn thiếu điều gì?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Huhuhuhu, ở'
+-	R
+-	'qua đêm với em.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Qua đêm với anh?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Đúng vậy, Shizuka luôn nỗ'
+-	R
+-	'lực rất nhiều vào việc đó...'
+-	\L_07e76:
+-	ZH 1:
+-	'Sự phục vụ của'
+-	R
+-	'nàng thật hoàn hảo.'
++	'Có việc gì không,'
++	R
++	'Vua Leazas.'
++	\L_07e76:
++	ZH 1:
++	'Mọi nhiệm vụ thay'
++	R
++	'cho con gái Masou,'
++	\L_07e76:
++	ZH 1:
++	'tôi nghĩ mình đều'
++	\L_07e76:
++	ZH 1:
++	'đang làm hoàn hảo.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Có vẻ thế. Nhưng chưa'
++	R
++	'thể nói là tất cả.'
++	\L_07e76:
++	ZH 1:
++	'Vẫn còn non lắm,'
++	R
++	'Nagi, hừ hừ hừ...'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Non...... Tôi còn'
++	R
++	'thiếu gì, Vua Leazas.'
++	\L_07e76:
++	ZH 1:
++	'Không có chuyện con'
++	R
++	'gái Masou làm được mà'
++	R
++	'tôi không làm được.'
++	\L_07e76:
++	ZH 1:
++	'Tôi nhất định sẽ hoàn'
++	R
++	'thành, tôi còn thiếu gì.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Hừ hừ hừ hừ, đó'
++	R
++	'là hầu ta ban đêm.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Hầu ban đêm?'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Phải, Shizuka lúc nào'
++	R
++	'cũng cố gắng lắm......'
++	\L_07e76:
++	ZH 1:
++	'Phục vụ mười'
++	R
++	'điểm, sướng rơn.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d6d:
+ 	ZH 1:
+-	'Sẽ thật tuyệt nếu tất cả'
+-	R
+-	'những điều đó là sự thật,'
+-	\L_07e76:
+-	ZH 1:
+-	'nhưng đó hoàn toàn'
+-	R
+-	'là một lời nói dối.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Con gái của Masou là...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Ừ, vậy cậu cũng'
+-	R
+-	'nên đến phòng ta khi ta gọi'
+-	R
+-	'cho cậu vào buổi tối nhé.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Hiểu rồi... Tôi'
+-	R
+-	'cũng sẽ qua đêm với cậu.'
+-	\L_07e76:
+-	ZH 1:
+-	'Tôi sẽ không thua'
+-	R
+-	'con gái của Masou.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Uheehee, cô'
+-	R
+-	'gái ngoan, Nagi.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Rance đã đánh'
+-	R
+-	'lừa thành công Nagi...'
++	'Giá mà được thế'
++	R
++	'thì tốt......'
++	\L_07e76:
++	ZH 1:
++	'(nói dối chút vậy.)'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Con gái Masou mà......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Phải, nên cô cũng thế, ta'
++	R
++	'gọi là phải tới phòng ngủ.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Hiểu rồi...... Tôi'
++	R
++	'cũng sẽ hầu ban đêm.'
++	\L_07e76:
++	ZH 1:
++	'Không thua con'
++	R
++	'gái Masou đâu.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Ừ ừ, ngoan lắm, Nagi.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Rance đã lừa Nagi'
++	R
++	'một vố ngon ơ...'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 0!
+@@ -2042,11 +1970,11 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Rance'
+-	R
+-	'đang ngồi không đúng tư thế'
+-	R
+-	'trên ngai vàng và thư giãn.'
++	'Phòng yết kiến'
++	R
++	'Rance ngồi ườn trên ngai'
++	R
++	'vàng thư giãn.'
+ 	\L_07e76:
+ 	!VAR0154 : 2!
+ 	{VAR0102 \ 0:
+@@ -2076,11 +2004,9 @@
+ 		\L_07e69:
+ 		\L_07d89:
+ 		ZH 1:
+-		'Sill cầm'
+-		R
+-		'lấy tách trà của Rance và'
+-		R
+-		'thổi nó hết sức có thể.'
++		'Sill cầm chén trà của'
++		R
++		'Rance, ra sức thổi phù phù.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07dc1:
+@@ -2102,7 +2028,7 @@
+ 		\L_07e69:
+ 		\L_07dc1:
+ 		ZH 1:
+-		'T-em xin lỗi...'
++		'X... xin lỗi ngài......'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07e23:
+@@ -2134,12 +2060,14 @@
+ 		\L_07e15:
+ 		\L_07dc1:
+ 		ZH 1:
+-		'Xin lỗi, Chủ nhân Rance...'
++		'Vậy, chủ nhân Rance......'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d89:
+ 		ZH 1:
+-		'Sill cúi đầu rời đi.'
++		'Sill khẽ cúi'
++		R
++		'chào rồi rời đi.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07e23:
+@@ -2160,21 +2088,17 @@
+ 	\L_07e69:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Ý ta không'
+-	R
+-	'phải là giống như những gì'
+-	R
+-	'ngươi nhìn thấy khi ngủ.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ý ta là ngươi muốn làm gì.'
+-	\L_07e76:
+-	ZH 1:
+-	'Phải có điều gì đó,'
+-	R
+-	'như trở thành phi công,'
+-	R
+-	'thủ tướng, hay cô dâu...'
++	'Nói trước, không phải cái'
++	R
++	'thấy trong lúc ngủ đâu.'
++	\L_07e76:
++	ZH 1:
++	'Là muốn trở thành gì ấy.'
++	\L_07e76:
++	ZH 1:
++	'Phải có gì chứ, phi công,'
++	R
++	'thủ tướng, cô dâu......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -2194,11 +2118,11 @@
+ 	'............'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Nếu tôi có thể vượt'
+-	R
+-	'qua con gái của Masou thì đó'
+-	R
+-	'là tất cả những gì tôi cần.'
++	'Chỉ cần tôi là người'
++	R
++	'vượt qua con gái'
++	R
++	'Masou, thế là đủ.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -2213,9 +2137,9 @@
+ 	'Tôi... không làm thế.'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Không để con gái Masou tới'
+-	R
+-	'chỗ cha đâu.'
++	'Không để con gái Masou'
++	R
++	'đi đến chỗ cha đâu.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d89:
+@@ -2242,9 +2166,9 @@
+ 	\L_07e23:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Nagi nhanh chóng bước'
+-	R
+-	'ra khỏi phòng tiếp khách.'
++	'Nagi bước nhanh ra'
++	R
++	'khỏi phòng yết kiến.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -2271,50 +2195,46 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Nagi -'
+-	\L_07e76:
+-	ZH 1:
+-	'Tầng Cao Nhất Trong một'
+-	R
+-	'khu vực huấn luyện được bao'
+-	\L_07e76:
+-	ZH 1:
+-	'quanh bởi những bức tường'
+-	R
+-	'bảo vệ ma thuật vững chắc,'
++	'Tháp Nagi'
++	\L_07e76:
++	ZH 1:
++	'Tầng thượng'
++	R
++	'Trong sân tập được bao bọc'
++	\L_07e76:
++	ZH 1:
++	'bởi lớp tường phòng'
++	R
++	'hộ ma pháp kiên cố,'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'có hai pháp sư đang đứng.'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Một người là chúa tể'
+-	R
+-	'của tòa tháp này, Nagi.'
+-	\L_07e76:
+-	ZH 1:
+-	'Người còn lại là'
+-	R
+-	'chủ nhân của cô...'
+-	\L_07e76:
+-	ZH 1:
+-	'... Ragarl,'
+-	R
+-	'một thầy phù thủy.'
+-	\L_07e76:
+-	ZH 1:
+-	'Được coi là'
+-	R
+-	'một trong những người'
+-	R
+-	'mạnh nhất ở Zeth,'
+-	\L_07e76:
+-	ZH 1:
+-	'được cho là vượt qua'
+-	R
+-	'cả Gandhi về phép thuật.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ông ấy cũng'
++	'Một là chủ nhân'
++	R
++	'tòa tháp, Nagi.'
++	\L_07e76:
++	ZH 1:
++	'Người kia là chủ'
++	R
++	'nhân của Nagi...'
++	\L_07e76:
++	ZH 1:
++	'......pháp sư Ragarl.'
++	\L_07e76:
++	ZH 1:
++	'Sức mạnh thuộc'
++	R
++	'hàng đầu nước Zeth,'
++	\L_07e76:
++	ZH 1:
++	'về ma lực được cho là'
++	R
++	'còn hơn cả vua Gandhi.'
++	\L_07e76:
++	ZH 1:
++	'Đồng thời cũng'
+ 	R
+ 	'là cha của Nagi.'
+ 	\L_07e76:
+@@ -2334,14 +2254,14 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'（kah... bùm!）'
+-	\L_07e76:
+-	ZH 1:
+-	'Phép thuật của'
+-	R
+-	'Nagi làm rung chuyển tòa'
+-	R
+-	'tháp. Họ đang tập luyện.'
++	'(lóe... ầm!)'
++	\L_07e76:
++	ZH 1:
++	'Phép của Nagi làm rung'
++	R
++	'chuyển tòa tháp. Có vẻ'
++	R
++	'hai người đang đặc huấn.'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Ragarl kiểm tra kích'
+@@ -2382,16 +2302,16 @@
+ 	\L_07e69:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Có.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Nagi gật đầu như con rối'
+-	R
+-	'máy. Ragarl khẽ vuốt đầu'
+-	R
+-	'nàng.'
++	'Vâng.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Nagi gật đầu như búp'
++	R
++	'bê máy. Bàn tay Ragarl'
++	R
++	'khẽ xoa đầu nàng.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -2421,9 +2341,11 @@
+ 	'ngắn.'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Ragarl lập tức xoay gót,'
+-	R
+-	'quay lưng về phía con gái.'
++	'Ragarl lập tức quay'
++	R
++	'gót, chỉ để con gái'
++	R
++	'thấy lưng áo choàng.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -2586,19 +2508,21 @@
+ 	'Nagi lặng lẽ cúi đầu.'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Trận đấu được nhắc đi nhắc'
+-	R
+-	'lại'
+-	\L_07e76:
+-	ZH 1:
+-	'từ nhỏ sắp thành hiện thực.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Và... Con gái của'
+-	R
+-	'Masou hiện đang ở đâu?'
++	'Trận đấu đã được'
++	R
++	'nhắc đi nhắc lại'
++	\L_07e76:
++	ZH 1:
++	'từ thuở nhỏ, sắp'
++	R
++	'thành hiện thực.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Vậy...... con gái'
++	R
++	'Masou giờ ở đâu.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d89:
+@@ -2665,17 +2589,17 @@
+ 	\L_07e69:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Huhahahahahaha...'
+-	\L_07e76:
+-	ZH 1:
+-	'Cuối cùng cũng đến'
+-	R
+-	'lúc giải quyết chuyện này.'
+-	\L_07e76:
+-	ZH 1:
+-	'Hãy xem nó'
+-	R
+-	'từ địa ngục, Masou...!'
++	'Hừ hahahahaha......'
++	\L_07e76:
++	ZH 1:
++	'Cuối cùng cũng'
++	R
++	'phân thắng bại,'
++	\L_07e76:
++	ZH 1:
++	'dưới địa ngục mà'
++	R
++	'xem đi, Masou......!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 0!
+@@ -2714,7 +2638,7 @@
+ 	\L_07e69:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Tất nhiên.'
++	'Vâng.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 0!
+@@ -2742,14 +2666,14 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Nagi - Tầng'
+-	R
+-	'Cao Nhất Trời đã khuya...'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl và Nagi đang'
+-	R
+-	'đứng gần một cửa sổ đang mở.'
++	'Tháp Nagi - Tầng thượng'
++	R
++	'Đêm khuya......'
++	\L_07e76:
++	ZH 1:
++	'Ragarl và Nagi đứng bên'
++	R
++	'khung cửa sổ mở toang.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -2761,7 +2685,7 @@
+ 	\L_07e69:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Có.'
++	'Vâng.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -2771,32 +2695,34 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Toàn thân Ragarl rung lên,'
+-	R
+-	'môi mấp máy không thành'
+-	R
+-	'tiếng.'
+-	\L_07e76:
+-	ZH 1:
+-	'Hắn đang tụng thần chú cao'
+-	R
+-	'cấp mà người thường không'
+-	R
+-	'nghe được.'
++	'Ragarl run mạnh toàn'
++	R
++	'thân, mấp máy môi'
++	R
++	'không thành tiếng.'
++	\L_07e76:
++	ZH 1:
++	'Hắn đang niệm một câu'
++	R
++	'chú cao cấp mà người'
++	R
++	'thường không nghe được.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07ddd:
+ 	ZH 1:
+-	'Con gái Masou... Ta đang gọi'
+-	R
+-	'ngươi. Nghe thấy không, con'
+-	R
+-	'gái'
+-	\L_07e76:
+-	ZH 1:
+-	'Masou... Kẻ thù chưa từng'
+-	R
+-	'gặp... Hãy tới chỗ ta...!'
++	'Con gái Masou...'
++	R
++	'Ta đang gọi, nghe'
++	R
++	'thấy không, con gái'
++	\L_07e76:
++	ZH 1:
++	'Masou... Kẻ thù truyền'
++	R
++	'kiếp chưa từng gặp'
++	R
++	'mặt. Hãy đến chỗ ta...!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -2804,14 +2730,16 @@
+ 	'... Được rồi.'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Tín hiệu chỉ pháp sư nghe'
+-	R
+-	'thấy... Con bé'
+-	\L_07e76:
+-	ZH 1:
+-	'đó hẳn sẽ tới một mình. Dù'
+-	R
+-	'phải mất mạng. Ha ha ha...!'
++	'Tín hiệu chỉ pháp sư'
++	R
++	'mới nghe được... Con bé'
++	\L_07e76:
++	ZH 1:
++	'đó hẳn sẽ đến một'
++	R
++	'mình. Dù có mất mạng'
++	R
++	'vì thế, ha ha ha...!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0158 : 1!
+@@ -2831,32 +2759,30 @@
+ 	\L_07d89:
+ 	ZM 32:
+ 	ZH 1:
+-	'Xung quanh lâu đài'
+-	R
+-	'Leazas'
++	'Quanh thành Leazas'
+ 	\L_07e76:
+ 	ZM 24:
+ 	ZH 1:
+-	'Thông điệp'
+-	R
+-	'tâm linh mà Ragarl gửi'
+-	R
+-	'đến tận Lâu đài Leazas.'
+-	\L_07e76:
+-	ZH 1:
+-	'“Tên tôi là Ragarl.'
+-	\L_07e76:
+-	ZH 1:
+-	'Gửi cô gái đang tìm kiếm'
+-	R
+-	'tôi, chúng ta sẽ giải quyết'
+-	R
+-	'chuyện này trong 3 ngày.'
+-	\L_07e76:
+-	ZH 1:
+-	'Tôi sẽ đợi ở'
+-	R
+-	'phía bắc Pháo đài Parapara.”'
++	'Sóng niệm Ragarl phát'
++	R
++	'ra vang vọng tới tận'
++	R
++	'thành Leazas xa xôi.'
++	\L_07e76:
++	ZH 1:
++	'［Ta là Ragarl.'
++	\L_07e76:
++	ZH 1:
++	'Hỡi đứa con gái đang'
++	R
++	'truy đuổi ta, hãy phân'
++	R
++	'thắng bại. 3 ngày nữa,'
++	\L_07e76:
++	ZH 1:
++	'ta chờ ở bình nguyên phía'
++	R
++	'bắc pháo đài Parapara］'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 0!
+@@ -2880,11 +2806,11 @@
+ 		\L_07da5:
+ 		\L_07d51:
+ 		ZH 1:
+-		'Hm... Cái gì'
+-		R
+-		'vậy...? Tuy nhiên, nó'
+-		R
+-		'không dành cho tôi...'
++		'Ưm... cái gì vừa rồi'
++		R
++		'thế... Nhưng không'
++		R
++		'phải gửi cho mình......'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07db3:
+@@ -2959,17 +2885,17 @@
+ 		\L_07da5:
+ 		\L_07d51:
+ 		ZH 1:
+-		'Ồn quá...'
+-		\L_07e76:
+-		ZH 1:
+-		'Đang nghĩ về Guardian kiểu'
+-		R
+-		'mới, đừng'
+-		\L_07e76:
+-		ZH 1:
+-		'phát niệm sóng kỳ quặc tới'
+-		R
+-		'chứ...'
++		'Ồn ào quá đi......'
++		\L_07e76:
++		ZH 1:
++		'Người ta đang nghĩ về'
++		R
++		'Guardian kiểu mới, đừng'
++		\L_07e76:
++		ZH 1:
++		'phát mấy cái sóng'
++		R
++		'niệm kỳ quặc chứ......'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07db3:
+@@ -2991,9 +2917,9 @@
+ 		\L_07da5:
+ 		\L_07d51:
+ 		ZH 1:
+-		'... Zzz... Zzz...'
+-		R
+-		'Zzz... Ừm, num...'
++		'......Khò... khò......'
++		R
++		'khò... ưm ưm......'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07db3:
+@@ -3013,14 +2939,12 @@
+ 	\L_07da5:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Hà…!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Shizuka nhảy'
+-	R
+-	'ra khỏi giường.'
++	'A......!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Shizuka bật dậy khỏi giường.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -3037,11 +2961,11 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Linh cảm'
+-	R
+-	'về trận chiến quyết định'
+-	R
+-	'khiến Shizuka rùng mình...'
++	'Một mình Shizuka run'
++	R
++	'lên trước linh cảm về'
++	R
++	'trận quyết chiến...'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0154 : 2!
+@@ -3082,44 +3006,40 @@
+ 		R
+ 		'Phòng yết kiến'
+ 		R
+-		'... Vậy đó là lý do tại sao'
+-		R
+-		'có rắc rối, Master Rance.'
++		'...Chuyện là vậy đó ạ.'
++		R
++		'Gay go lắm, chủ nhân Rance.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d51:
+ 		ZH 1:
+-		'Ung... Cái gì?'
+-		R
+-		'Còn sớm quá...'
+-		\L_07e76:
+-		ZH 1:
+-		'Ta không hề nghe'
+-		R
+-		'thấy điều đó. Em có chắc là'
+-		R
+-		'em không mơ thấy nó không?'
++		'Ngư...... gì thế,'
++		R
++		'sáng sớm tinh mơ......'
++		\L_07e76:
++		ZH 1:
++		'Ta có nghe thấy gì đâu. Em'
++		R
++		'ngái ngủ nên nghe nhầm à?'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07dc1:
+ 		ZH 1:
+-		'Em đã nói chỉ pháp sư mới'
+-		R
+-		'nghe...'
+-		\L_07e76:
+-		ZH 1:
+-		'Dù sao cũng phải đến xem,'
+-		R
+-		'chị Shizuka...'
++		'Thì em đã nói, chỉ'
++		R
++		'có pháp sư mới...'
++		\L_07e76:
++		ZH 1:
++		'Dù sao cũng đi xem thử'
++		R
++		'đi ạ, chị Shizuka...'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d51:
+ 		ZH 1:
+-		'Hmm, hai ngày'
+-		R
+-		'nữa...? Có lẽ ta sẽ'
+-		R
+-		'đi nếu có thời gian.'
++		'Hừm, 2 ngày nữa à......'
++		R
++		'Rảnh thì đi vậy.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07dc1:
+@@ -3171,9 +3091,9 @@
+ 	R
+ 	'Pháo đài Parapara'
+ 	R
+-	'- Đồng bằng phía Bắc Trên'
+-	R
+-	'một cánh đồng vắng người,'
++	'Bình nguyên phía bắc'
++	R
++	'Cánh đồng vắng người...'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Shizuka và Ragarl'
+@@ -3188,21 +3108,21 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Shizuka trừng mắt nhìn kẻ'
+-	R
+-	'thù của cha cô với cơn thịnh'
+-	R
+-	'nộ đã tích lũy nhiều năm.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl nheo mắt nhìn cô.'
++	'Shizuka sôi sục cơn giận'
++	R
++	'tích tụ bao năm, trừng'
++	R
++	'mắt nhìn kẻ thù giết cha.'
++	\L_07e76:
++	ZH 1:
++	'Ragarl... khẽ nheo mắt.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07ddd:
+ 	ZH 1:
+-	'Hoh... Nàng'
+-	R
+-	'trông giống Asmaase.'
++	'Hô...... giống'
++	R
++	'Asmaase như đúc.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -3256,13 +3176,13 @@
+ 	\L_07e69:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Ơ...'
++	'Hừ......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+ 	\L_07d89:
+ 	ZH 1:
+-	'（fsssssssssh...!）'
++	'(xèoooo......!)'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -3272,16 +3192,16 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Bất chợt, cột hơi nước bốc'
+-	R
+-	'lên giữa hai người.'
+-	\L_07e76:
+-	ZH 1:
+-	'Gió thổi tan màn hơi, một cô'
+-	R
+-	'gái đã đứng giữa Shizuka và'
+-	R
+-	'Ragarl.'
++	'Bất chợt, một cột hơi nước'
++	R
++	'bốc lên giữa hai người.'
++	\L_07e76:
++	ZH 1:
++	'Khi gió thổi tan màn hơi...'
++	R
++	'giữa Shizuka và Ragarl'
++	R
++	'đã có một cô gái đứng đó.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 45!
+@@ -3291,14 +3211,14 @@
+ 	'............'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Con gái... của'
+-	R
+-	'Masou... ... Shizuka Masou.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Cô... là ai...'
++	'Con gái... Masou.........'
++	R
++	'Masou Shizuka.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Gì chứ......... cô là......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -3358,28 +3278,28 @@
+ 		\L_07e15:
+ 		\L_07d51:
+ 		ZH 1:
+-		'... Staaaaare...'
++		'......Nhìn chằm chằmmm......'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d89:
+ 		ZH 1:
+-		'Rance và Sill'
+-		R
+-		'đang theo dõi từ xa...'
++		'Rance và Sill đang quan'
++		R
++		'sát cảnh đó từ xa......'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d51:
+ 		ZH 1:
+-		'Hmm, con gái'
+-		R
+-		'kẻ thù của bố Shizuka?'
+-		R
+-		'Điều đó hơi phức tạp...'
+-		\L_07e76:
+-		ZH 1:
+-		'Tuy nhiên, nàng là'
+-		R
+-		'một người phụ nữ tốt.'
++		'Hừm, con gái của kẻ'
++		R
++		'thù giết cha Shizuka'
++		R
++		'à. Rắc rối thật......'
++		\L_07e76:
++		ZH 1:
++		'Nhưng là gái ngon.'
++		R
++		'Chảy cả nước miếng.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07dc1:
+@@ -3393,7 +3313,7 @@
+ 		\L_07e69:
+ 		\L_07d51:
+ 		ZH 1:
+-		'Ồ, đúng rồi...'
++		'Ấy, phải rồi......'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07db3:
+@@ -3445,14 +3365,14 @@
+ 	'ưu việt hơn...'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Qua thời gian, nó sẽ chứng'
+-	R
+-	'minh giữa ta'
+-	\L_07e76:
+-	ZH 1:
+-	'và Masou, ai mới thực sự'
+-	R
+-	'vượt trội!'
++	'Để vượt thời gian mà'
++	R
++	'chứng minh giữa ta'
++	\L_07e76:
++	ZH 1:
++	'và Masou, ai mới'
++	R
++	'thực sự vượt trội!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -3473,7 +3393,7 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'（kiiiin...!）'
++	'(keng......!)'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -3496,21 +3416,15 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Vô ích thôi,'
+-	R
+-	'con gái của Masou...'
+-	\L_07e76:
+-	ZH 1:
+-	'Nếu cô không chấp nhận'
+-	R
+-	'lời thách đấu của Nagi,'
+-	\L_07e76:
+-	ZH 1:
+-	'điều đó chỉ'
+-	R
+-	'có nghĩa là phải chiến'
+-	R
+-	'đấu với cả hai chúng ta.'
++	'Vô ích, con gái Masou...'
++	\L_07e76:
++	ZH 1:
++	'Nếu không nhận đấu với Nagi,'
++	\L_07e76:
++	ZH 1:
++	'thì ngươi phải đấu'
++	R
++	'với cả hai bọn ta.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -3561,15 +3475,15 @@
+ 	\L_07e15:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Nagi ho ra máu'
+-	R
+-	'và ngã xuống đất.'
++	'Nagi ho ra một ít'
++	R
++	'máu, ngã gục xuống.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+ 	\L_07d51:
+ 	ZH 1:
+-	'... Tại sao...?'
++	'......Sao vậy......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 468!
+@@ -3623,9 +3537,9 @@
+ 	\L_07e69:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Con gái của'
+-	R
+-	'ông... Đồ quái vật...!'
++	'Với chính con gái mình......'
++	R
++	'đồ súc sinh......!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -3642,16 +3556,16 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Nagi cố gắng'
+-	R
+-	'nâng cơ thể run rẩy của'
+-	R
+-	'mình lên khỏi mặt đất.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl cười mà'
+-	R
+-	'không nhìn cô.'
++	'Nagi bò trên mặt đất,'
++	R
++	'cố gượng tấm thân'
++	R
++	'run rẩy đứng dậy.'
++	\L_07e76:
++	ZH 1:
++	'Ragarl chẳng thèm'
++	R
++	'nhìn sang, cười.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -3693,23 +3607,23 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Ragarl bước tới'
+-	R
+-	'chỗ Shizuka, người đã kiệt'
+-	R
+-	'sức sau trận chiến với Nagi.'
+-	\L_07e76:
+-	ZH 1:
+-	'Cơn thịnh nộ'
+-	R
+-	'của cô rất rõ ràng.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Tôi sẽ giết ông... Ragarl,'
+-	R
+-	'tôi sẽ giết ông...!!'
++	'Ragarl bước ra trước'
++	R
++	'mặt Shizuka đã tơi'
++	R
++	'tả sau trận với Nagi.'
++	\L_07e76:
++	ZH 1:
++	'Shizuka giận dữ ra mặt.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Ta sẽ giết ngươi......'
++	R
++	'Ragarl, ta sẽ'
++	R
++	'giết ngươi......!!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0154 : 1!
+@@ -3755,56 +3669,56 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Heh... Huhahaha, vô'
+-	R
+-	'lý. Masou... Đây là'
+-	R
+-	'con gái của anh...?!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Ragarl bước'
+-	R
+-	'tới chỗ Shizuka, người'
+-	R
+-	'đang nằm trên mặt đất.'
+-	\L_07e76:
+-	ZH 1:
+-	'Hắn nắm tóc cô'
+-	R
+-	'và kéo đầu cô lên.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'... Gh...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Huhu... Càng nhìn em'
+-	R
+-	'càng thấy giống nàng.'
++	'Hừ...... hừ hahaha, chẳng'
++	R
++	'ra gì. Masou...... đây là'
++	R
++	'con gái ngươi sao......!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Ragarl bước lại gần'
++	R
++	'Shizuka đang ngã gục.'
++	\L_07e76:
++	ZH 1:
++	'Túm tóc, bắt nàng ngẩng'
++	R
++	'gương mặt đang úp xuống lên.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'......Hự.........'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Hừ hừ...... càng'
++	R
++	'nhìn càng giống.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07ddd:
+ 	ZH 1:
+-	'Asmaase... Mái'
+-	R
+-	'tóc đẹp này... Đôi'
+-	R
+-	'mắt kiên định này...'
+-	\L_07e76:
+-	ZH 1:
+-	'Con gái của Masou'
+-	R
+-	'trông giống hệt cậu...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Cậu... là gì...?'
++	'Asmaase...... mái tóc'
++	R
++	'óng ả này...... đôi'
++	R
++	'mắt kiên định này......'
++	\L_07e76:
++	ZH 1:
++	'Con gái Masou...'
++	R
++	'giống nàng như đúc...'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Ngươi.........'
++	R
++	'làm gì.........'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'...!?'
+@@ -3812,39 +3726,39 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Trước khi cô kịp'
+-	R
+-	'nhận ra thì Ragarl'
+-	R
+-	'đã hôn lên môi cô.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Ng... Nnngh...!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Shizuka sửng sốt một lúc,'
+-	R
+-	'sau đó, lưỡi bị tước đoạt,'
+-	R
+-	'cô lắc đầu không đồng tình.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nhưng Ragarl đã'
+-	R
+-	'trói cô lại rồi. Hơi thở'
+-	R
+-	'của hắn thật hoang dã.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Buông tôi ra...! Bỏ'
+-	R
+-	'tôi ra, đồ khốn...!'
++	'Chẳng biết từ lúc'
++	R
++	'nào, Ragarl đã đặt'
++	R
++	'môi lên môi Shizuka.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Ưm......... ưmmm.........!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Sững sờ một lúc, mặc'
++	R
++	'cho lưỡi bị chiếm đoạt,'
++	R
++	'Shizuka giãy đầu thoát ra.'
++	\L_07e76:
++	ZH 1:
++	'Nhưng cơ thể nàng đã'
++	R
++	'bị Ragarl đè chặt. Hơi'
++	R
++	'thở Ragarl hổn hển.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Buông ra......! Buông ra'
++	R
++	'đồ khốn, tránh ra......!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -3854,7 +3768,9 @@
+ 	\L_07e69:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Hả...? Mẹ tôi...?'
++	'Hả...... m...'
++	R
++	'mẹ............?'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -3864,19 +3780,19 @@
+ 	\L_07e69:
+ 	\L_07d51:
+ 	ZH 1:
+-	'À... Khônggggg!!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	', riiiiiiip!）'
+-	\L_07e76:
+-	ZH 1:
+-	'Bàn tay của Ragarl,'
+-	R
+-	'chiếc găng tay của anh ta,'
+-	R
+-	'xé quần áo của Shizuka...'
++	'A...... khôngggg!!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'(roẹttttt!)'
++	\L_07e76:
++	ZH 1:
++	'Bàn tay Ragarl, chiếc'
++	R
++	'găng sắt, xé toạc'
++	R
++	'quần áo Shizuka......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	PF1 VAR0056:
+@@ -3886,352 +3802,360 @@
+ 	SS 3:
+ 	\L_07e31:
+ 	ZH 1:
+-	'Shizuka 「Cút ra... Cút đi!!」'
++	'Shizuka 「Buông......... ra, buông raaaaa!!」'
+ 	PF0 VAR0056:
+ 	\L_07e76:
+ *L_03f50:
+ 	ZH 1:
+-	'Ragarl dễ dàng ghìm Shizuka xuống và trói'
+-	\L_07e76:
+-	ZH 1:
+-	'hai tay cô ra sau lưng bằng bộ quần'
+-	R
+-	'áo mà anh ta xé ra khỏi người cô.'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「Kh...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka hoàn toàn mất khả năng'
+-	R
+-	'chống cự và nằm trong bụi rậm.'
+-	\L_07e76:
+-	ZH 1:
+-	'Chân của cô dễ dàng bị nhấc lên và dang rộng'
+-	\L_07e76:
+-	ZH 1:
+-	'ra. Cho dù cô có đá họ thế nào đi chăng nữa,'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl vẫn không hề nhúc nhích.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl 「Aah... Cậu trông giống Asmaase...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「Dừng lại...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Quần áo của cô cũng bị rách ở nửa dưới. Khuôn mặt'
+-	\L_07e76:
+-	ZH 1:
+-	'say xỉn của Ragarl đáng sợ hơn bất cứ thứ gì.'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「Không... Không... Mẹ... Cha...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl 「Giọng nói của cậu'
+-	R
+-	'nữa... Và cách cậu lắc đầu...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「Buông tôi ra... Chết'
+-	R
+-	'đi... Tôi sẽ giết anh...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl 「Asmaase không sử dụng ngôn ngữ như vậy.」'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「Nngh...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Môi hắn lại bao phủ môi cô. Đó là'
+-	R
+-	'một nụ hôn bạo lực chiếm lấy toàn'
+-	\L_07e76:
+-	ZH 1:
+-	'bộ lưỡi của cô. Sự điên cuồng của'
+-	R
+-	'Ragarl lan tỏa ngay cả từ nụ hôn đó.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl 「...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl nhảy lùi lại và máu chảy ra'
+-	R
+-	'từ môi anh ta. Shizuka nhăn mặt trước'
+-	\L_07e76:
+-	ZH 1:
+-	'mùi gỉ sắt lan tỏa trong miệng cô.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl 「Cậu...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'（bùm!）'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「Gh...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl 「Cậu có khuôn mặt giống'
+-	R
+-	'Asmaase, nhưng...! Cậu...! 」'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「!! Không... Khôngoooooooo!!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Trước khi cơn đau trên má sưng tấy của cô dịu đi,'
+-	\L_07e76:
+-	ZH 1:
+-	'cảm giác có vật gì đó lạ xuất hiện ở háng cô.'
+-	\L_07e76:
+-	ZH 1:
+-	'Cô bị Ragarl cưỡng hiếp. Sự ghê tởm và sợ hãi'
+-	\L_07e76:
+-	ZH 1:
+-	'mãnh liệt khiến tầm nhìn của cô trở'
+-	R
+-	'nên méo mó và trở nên trắng xóa.'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「C... Aaaaah...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl nhìn Shizuka rên rỉ khô khan,'
+-	R
+-	'thiếu suy nghĩ và mỉm cười hài lòng.'
+-	\L_07e76:
+-	ZH 1:
+-	'Rance 「Heh...'
+-	R
+-	'Huhuhuhu... Asmaase...'
+-	\L_07e76:
+-	ZH 1:
+-	'Đã 17 năm rồi chúng ta chưa quan hệ tình dục...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「Ugh... Kh...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl vung hông và đắm chìm vào bên trong'
+-	\L_07e76:
+-	ZH 1:
+-	'của Shizuka. Shizuka quên mất việc chống'
+-	R
+-	'cự và bị một khối hận thù xâm chiếm.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl 「Aah... Anh yêu em...'
+-	R
+-	'Em thuộc về anh, Asmaase...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「Vi St-Vi」'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl 「Có chuyện gì thế, Asmaase...?」'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「Dừng lại... tôi không phải... mẹ tôi...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Trong khi bị xuyên thấu và rung chuyển,'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka vẫn nhìn chằm chằm vào kẻ thù của cha'
+-	\L_07e76:
+-	ZH 1:
+-	'mình. Cơn thịnh nộ bất diệt của'
+-	R
+-	'cô khiến đôi mắt cô sáng trở lại.'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「Ta sẽ... giết ngươi...!...'
+-	R
+-	'Ngươi... Kẻ thù của cha ta...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「Ngoài ra...'
+-	\L_07e76:
+-	ZH 1:
+-	'Cậu cũng đã quan hệ tình dục với mẹ tôi...!? Sao'
+-	\L_07e76:
+-	ZH 1:
+-	'ngươi dám...」 ta sẽ bắt ngươi phải trả giá!!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl 「Heh...'
+-	\L_07e76:
+-	ZH 1:
+-	'Huhahaha...! Có chuyện gì thế, Asmaase?'
+-	R
+-	'Cho dù ngươi có chấp nhận hay không ... 」'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl 「Cậu biết cậu thuộc về tôi...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「Wah...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Móng vuốt hợp kim sáng chói của cánh'
+-	R
+-	'tay trái của Ragarl tóm lấy ngực của'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka. Nó cắt đứt làn da mỏng'
+-	R
+-	'manh của cô và máu chảy ra.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl 「Đúng vậy... Tôi sẽ khiến'
+-	R
+-	'mọi bộ phận của cậu thuộc về tôi...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Đúng vậy, từng centimet...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「Xin chào...!?」'
+-	\L_07e76:
+-	ZH 1:
+-	'Tiếng hét chói tai của cô bị nghẹn lại'
+-	\L_07e76:
+-	ZH 1:
+-	'trong cổ họng. Một chiếc lưỡi'
+-	R
+-	'đầy máu được thọc vào miệng cô...'
+-	\L_07e76:
+-	ZH 1:
+-	'Con cặc của Ragarl bị rút ra'
+-	R
+-	'khỏi âm hộ và đặt vào mông cô.'
++	'Ragarl dễ dàng ghì chặt'
++	R
++	'Shizuka, dùng mảnh áo xé rách'
++	\L_07e76:
++	ZH 1:
++	'trói hai cổ tay bị quặt ra sau lưng.'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「Hự.........」'
++	\L_07e76:
++	ZH 1:
++	'Bị tước hết khả năng chống'
++	R
++	'cự, Shizuka bị lăn ra bãi cỏ.'
++	\L_07e76:
++	ZH 1:
++	'Đôi chân bị nhấc bổng nhẹ tênh, banh rộng'
++	\L_07e76:
++	ZH 1:
++	'ra. Dù nàng có vùng vẫy đến mấy,'
++	\L_07e76:
++	ZH 1:
++	'Ragarl cũng chẳng nhíu mày.'
++	\L_07e76:
++	ZH 1:
++	'Ragarl 「A a...... giống hệt, Asmaase......」'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「Không.........!」'
++	\L_07e76:
++	ZH 1:
++	'Từ phần dưới bị banh rộng, y'
++	R
++	'phục lại bị xé toạc. Gương mặt'
++	\L_07e76:
++	ZH 1:
++	'ngây ngất của Ragarl đáng sợ hơn bất cứ thứ gì.'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「Đừng......... đừng.........'
++	R
++	'mẹ ơi...... cha ơi......!」'
++	\L_07e76:
++	ZH 1:
++	'Ragarl 「Cả giọng nói ấy......'
++	R
++	'cả điệu lắc đầu.........」'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「Buông ra......... ta'
++	R
++	'giết...... ta sẽ giết ngươi.........!」'
++	\L_07e76:
++	ZH 1:
++	'Ragarl 「Asmaase không dùng những lời như thế」'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「Ưmm.........!」'
++	\L_07e76:
++	ZH 1:
++	'Môi nàng lại bị bịt kín. Một'
++	R
++	'nụ hôn dữ dội bắt lấy đến tận'
++	\L_07e76:
++	ZH 1:
++	'gốc lưỡi. Như thể cơn điên'
++	R
++	'của Ragarl đang thấm qua đó.'
++	\L_07e76:
++	ZH 1:
++	'Ragarl 「.........!」'
++	\L_07e76:
++	ZH 1:
++	'Ragarl bật lùi lại, máu chảy trên'
++	R
++	'môi. Vị gỉ sắt lan khắp miệng,'
++	\L_07e76:
++	ZH 1:
++	'Shizuka nhăn mặt.'
++	\L_07e76:
++	ZH 1:
++	'Ragarl 「Con này......!」'
++	\L_07e76:
++	ZH 1:
++	'(bốp!)'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「Ư.........!」'
++	\L_07e76:
++	ZH 1:
++	'Ragarl 「Mang cùng gương mặt với'
++	R
++	'Asmaase......... con đàn bà này......!」'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「!! Không......... khônggggg!!」'
++	\L_07e76:
++	ZH 1:
++	'Cơn đau trên má bị tát chưa kịp dịu,'
++	\L_07e76:
++	ZH 1:
++	'giữa háng đã trỗi lên cảm giác dị vật.'
++	\L_07e76:
++	ZH 1:
++	'Nàng đang bị Ragarl cưỡng hiếp.'
++	R
++	'Ghê tởm và sợ hãi tột cùng'
++	\L_07e76:
++	ZH 1:
++	'khiến mọi thứ trước mắt méo mó trắng xóa.'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「A......... a a a.........」'
++	\L_07e76:
++	ZH 1:
++	'Nhìn Shizuka khản giọng như mất'
++	R
++	'hồn, Ragarl hài lòng nheo mắt.'
++	\L_07e76:
++	ZH 1:
++	'Ragarl 「Hừ......... hừ hừ'
++	R
++	'hừ......... Asmaase......'
++	\L_07e76:
++	ZH 1:
++	'17 năm rồi...... ta mới lại ôm nàng......!」'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「Ư......... hự.........!」'
++	\L_07e76:
++	ZH 1:
++	'Ragarl lắc hông, ngấu nghiến bên trong'
++	\L_07e76:
++	ZH 1:
++	'Shizuka. Quên cả chống cự, Shizuka'
++	R
++	'bị khối căm hận ấy xuyên thủng.'
++	\L_07e76:
++	ZH 1:
++	'Ragarl 「A a......... yêu dấu......'
++	R
++	'nàng là của ta, Asmaase......!」'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「.........đừng.........」'
++	\L_07e76:
++	ZH 1:
++	'Ragarl 「Sao thế, Asmaase......?」'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「Dừng......... lại.........'
++	R
++	'ta không phải... mẹ ta.........!」'
++	\L_07e76:
++	ZH 1:
++	'Bị xuyên thủng, bị lay giật,'
++	\L_07e76:
++	ZH 1:
++	'Shizuka vẫn nhìn thẳng vào'
++	R
++	'kẻ thù giết cha. Cơn giận'
++	\L_07e76:
++	ZH 1:
++	'không bao giờ cạn khiến đôi mắt nàng sáng trở lại.'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「Ta......... sẽ giết.........'
++	R
++	'ngươi......... kẻ thù của cha ta.........!」'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「Hơn nữa......'
++	\L_07e76:
++	ZH 1:
++	'ngươi còn... đã ôm cả mẹ ta......!? Không'
++	\L_07e76:
++	ZH 1:
++	'tha đâu......... nhất định không tha!!」'
++	\L_07e76:
++	ZH 1:
++	'Ragarl 「Hừ......'
++	\L_07e76:
++	ZH 1:
++	'hừ hahaha......! Sao thế Asmaase,'
++	R
++	'tha hay không tha gì......」'
++	\L_07e76:
++	ZH 1:
++	'Ragarl 「Nàng là của ta cơ mà......!」'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「Ưa.........!」'
++	\L_07e76:
++	ZH 1:
++	'Tay trái Ragarl...... bộ móng hợp'
++	R
++	'kim sáng loáng bóp nghiến lấy ngực'
++	\L_07e76:
++	ZH 1:
++	'Shizuka. Làn da mỏng manh rách ra, máu rỉ ra.'
++	\L_07e76:
++	ZH 1:
++	'Ragarl 「Phải rồi...... ta sẽ biến'
++	R
++	'tất cả của nàng thành của ta......'
++	\L_07e76:
++	ZH 1:
++	'phải, đến từng ngóc ngách......!」'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「Hi.........!?」'
++	\L_07e76:
++	ZH 1:
++	'Tiếng thét mảnh bị đẩy ngược vào cổ họng.'
++	\L_07e76:
++	ZH 1:
++	'Chiếc lưỡi mang vị máu thọc vào miệng nàng......'
++	\L_07e76:
++	ZH 1:
++	'Vật của Ragarl rút khỏi cánh hoa, kề vào hậu môn.'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Ragarl 「Asmaase...」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Shizuka 「Ugh...!!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl xuyên qua hậu môn của cô. Cảm giác đau đớn'
+-	\L_07e76:
+-	ZH 1:
+-	'và áp lực khiến ý thức của Shizuka chập chờn.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl 「Haah... Em là của tôi... Của tôi...」'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「À... Waaaah, à...!」'
++	'Shizuka 「Ự......!!」'
++	\L_07e76:
++	ZH 1:
++	'Ragarl xé toạc lối sau mà xâm'
++	R
++	'nhập. Cơn đau bỏng rát và cảm giác'
++	\L_07e76:
++	ZH 1:
++	'bị ép nghẹt khiến ý thức Shizuka chập chờn.'
++	\L_07e76:
++	ZH 1:
++	'Ragarl 「Haa......... là của'
++	R
++	'ta............ của ta.........」'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「A......... ưaaa, a.........!」'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Ragarl 「Asmaase... Asmaase...!」'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Ragarl di chuyển hông như thể đó là âm'
+-	\L_07e76:
+-	ZH 1:
+-	'đạo của cô. Những chuyển động đột ngột,'
+-	\L_07e76:
+-	ZH 1:
+-	'mạnh mẽ đã làm tổn thương lối vào mỏng manh.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl 「Tuyệt vời... Cơ thể của'
+-	R
+-	'cậu thật tuyệt vời về mọi mặt...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「Gh... Ah, ah...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Ruột của Shizuka bị dày vò bởi'
+-	R
+-	'cự vật hơi đẫm máu của anh ta.'
+-	\L_07e76:
+-	ZH 1:
+-	'Sự phản kháng và cơn thịnh nộ của cô bị cơn đau'
+-	\L_07e76:
+-	ZH 1:
+-	'đẩy sang một bên. Lực đẩy khiến cô hét lên.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl 「Thêm nữa...'
+-	\L_07e76:
+-	ZH 1:
+-	'Khóc nữa đi, Asmaase...! Hãy cho'
+-	R
+-	'tôi nghe giọng nói của ngươi ...! 」'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl đâm móng vuốt kim loại'
+-	R
+-	'của mình vào bên trong Shizuka.'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「Gh... A!!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Một vật sắc lạnh,'
+-	\L_07e76:
+-	ZH 1:
+-	'lạnh lẽo tra tấn phía trước'
+-	R
+-	'cô. Shizuka hét lên một'
+-	\L_07e76:
+-	ZH 1:
+-	'lần nữa. Cơn đau còn hơn cả ở mông cô.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl 「Heheh... Đẹp... Máu của cậu thật đẹp...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「Aaaah...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl khuấy động phía trước và phía sau của'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka một cách liều lĩnh. Máu chảy'
+-	R
+-	'vào cặc hắn và lại bị nhét vào trong.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl 「Heh... Heheh...'
+-	\L_07e76:
+-	ZH 1:
+-	'Tôi sẽ đổ nó ra, Asmaase...! Bên trong ngươi...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka 「... A... À... Kahah...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Không cho Shizuka cơ hội để thở,'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl tiếp tục thúc đẩy'
+-	R
+-	'ham muốn đạt đến đỉnh điểm.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl 「Kh... Haah...!」'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka(... Cha -...'
+-	\L_07e76:
+-	ZH 1:
+-	'kia...) Ruột của Shizuka nhận được tinh'
+-	R
+-	'dịch của kẻ thù không đội trời chung,'
+-	\L_07e76:
+-	ZH 1:
+-	'và cô bất tỉnh...'
++	'Ragarl lắc hông như thể đó là'
++	\L_07e76:
++	ZH 1:
++	'âm hộ. Cử động thô bạo đột ngột'
++	\L_07e76:
++	ZH 1:
++	'làm rách lối vào mỏng manh.'
++	\L_07e76:
++	ZH 1:
++	'Ragarl 「Tuyệt vời...... cơ thể'
++	R
++	'nàng, chỗ nào cũng tuyệt vời......!」'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「Hự......... a, a ư.........!」'
++	\L_07e76:
++	ZH 1:
++	'Ruột gan Shizuka bị dương vật'
++	R
++	'chỉ dính chút máu giày vò.'
++	\L_07e76:
++	ZH 1:
++	'Kháng cự và giận dữ đều tan biến sau cơn đau,'
++	\L_07e76:
++	ZH 1:
++	'nàng chỉ biết rên rỉ đau đớn theo từng cú thúc.'
++	\L_07e76:
++	ZH 1:
++	'Ragarl 「Nữa......'
++	\L_07e76:
++	ZH 1:
++	'kêu nữa đi, Asmaase......!'
++	R
++	'Cho ta nghe giọng nàng......!」'
++	\L_07e76:
++	ZH 1:
++	'Ragarl lén luồn bộ móng kim'
++	R
++	'loại vào bên trong Shizuka.'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「Á......... aaa!!」'
++	\L_07e76:
++	ZH 1:
++	'Thứ gì đó sắc nhọn,'
++	\L_07e76:
++	ZH 1:
++	'lạnh buốt hành hạ phía trước. Shizuka lại hét'
++	\L_07e76:
++	ZH 1:
++	'lên. Dù đã bị xuyên thủng phía'
++	R
++	'sau, cơn đau vẫn không có giới hạn.'
++	\L_07e76:
++	ZH 1:
++	'Ragarl 「Khục khục...... đẹp'
++	R
++	'quá...... dòng máu đẹp quá......!」'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「Aaaa......!」'
++	\L_07e76:
++	ZH 1:
++	'Ragarl khuấy đảo điên loạn cả trước lẫn sau'
++	\L_07e76:
++	ZH 1:
++	'của Shizuka. Hắn dùng dương vật'
++	R
++	'miết máu tràn ra, rồi lại ấn vào.'
++	\L_07e76:
++	ZH 1:
++	'Ragarl 「Khục... khục khục......'
++	\L_07e76:
++	ZH 1:
++	'Ta sẽ rót vào, Asmaase......!'
++	R
++	'Vào trong nàng.........!」'
++	\L_07e76:
++	ZH 1:
++	'Shizuka 「............A............'
++	R
++	'a......... khục......!」'
++	\L_07e76:
++	ZH 1:
++	'Trong Shizuka đến thở cũng không nổi,'
++	\L_07e76:
++	ZH 1:
++	'Ragarl cứ thế thúc mãi để tìm đến cực đỉnh.'
++	\L_07e76:
++	ZH 1:
++	'Ragarl 「Hự......... haa......!」'
++	\L_07e76:
++	ZH 1:
++	'Shizuka (.........Cha......'
++	\L_07e76:
++	ZH 1:
++	'ơi.........) Nhận dòng tinh'
++	R
++	'dịch của kẻ thù vào trong ruột,'
++	\L_07e76:
++	ZH 1:
++	'Shizuka lịm đi......'
+ 	\L_07e76:
+ 	{VAR0520 = 300:
+ 		%0:
+@@ -4253,97 +4177,91 @@
+ 	\L_07e69:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'... Mẹ-...'
+-	\L_07e76:
+-	ZH 1:
+-	'... Chủ nhân.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Ờ...'
++	'.........phụ.........'
++	\L_07e76:
++	ZH 1:
++	'.........Sư phụ.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Hả......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 45!
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Chủ nhân, tôi đã bình'
+-	R
+-	'phục rồi... Tôi xin lỗi.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Không, không sao đâu...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Ragarl lơ'
+-	R
+-	'đãng lắc đầu. Nagi đứng'
+-	R
+-	'trước mặt hắn, vô cảm.'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka nằm dưới chân'
+-	R
+-	'hắn sau khi bị cưỡng hiếp'
+-	R
+-	'đến kiệt sức và bất tỉnh.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Việc tôi'
+-	R
+-	'vừa làm... Con gái của Masou'
+-	R
+-	'khiến tôi mất hết lý trí...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Thầy?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Mm, không có gì...'
+-	\L_07e76:
+-	ZH 1:
+-	'Hãy quay lại tòa tháp'
+-	R
+-	'thôi, Nagi. Tôi phải điều'
+-	R
+-	'chỉnh lại cơ thể của cậu.'
+-	\L_07e76:
+-	ZH 1:
+-	'Đưa con gái'
+-	R
+-	'của Masou đi. Cậu là'
+-	R
+-	'người chiến thắng.'
+-	\L_07e76:
+-	ZH 1:
+-	'Bị giết vì phép'
+-	R
+-	'thuật tối thượng là một'
+-	R
+-	'số phận thích hợp với cô.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Vâng, thưa Thầy.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Shizuka bị Ragarl'
+-	R
+-	'và Nagi bắt đi...'
++	'Sư phụ, con đã hồi'
++	R
++	'phục... Xin lỗi người.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Không, được rồi.........'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Ragarl lắc cái đầu'
++	R
++	'mơ hồ đục ngầu. Trước'
++	R
++	'mặt là Nagi vô cảm.'
++	\L_07e76:
++	ZH 1:
++	'Dưới chân, Shizuka'
++	R
++	'bị làm nhục đến kiệt'
++	R
++	'cùng, nằm ngất lịm.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Ta mà lại...... vì con gái'
++	R
++	'Masou mà mất lý trí......'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Sư phụ?'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Hửm, không......'
++	\L_07e76:
++	ZH 1:
++	'Về tháp thôi, Nagi. Phải'
++	R
++	'điều chỉnh lại cơ thể con.'
++	\L_07e76:
++	ZH 1:
++	'Mang con gái Masou đi,'
++	R
++	'con là người thắng.'
++	\L_07e76:
++	ZH 1:
++	'Con gái của hắn...'
++	R
++	'đáng làm vật tế cho ma'
++	R
++	'pháp tối thượng......'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Vâng, sư phụ.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Shizuka bị hai'
++	R
++	'người mang đi...'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 0!
+@@ -4358,37 +4276,35 @@
+ 	\L_07db3:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Khoan đã! Thế là hèn lắm'
+-	R
+-	'đấy, lão kia.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Mgh... Ai ở đó vậy!?'
++	'Này này, khoan đã! Thế'
++	R
++	'là hèn đấy, lão già.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Hừm...... kẻ nào!?'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 1!
+ 	\L_07da5:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Gahahahaha! Rance, vua'
+-	R
+-	'Leazas đây!'
+-	\L_07e76:
+-	ZH 1:
+-	'Ta tới cứu thuộc hạ đang'
+-	R
+-	'nguy khốn!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Rance dũng cảm'
+-	R
+-	'đứng dậy từ bụi cây'
+-	R
+-	'mà hắn đang trốn.'
++	'Gahahahahaha, Vua Leazas,'
++	R
++	'Rance đại gia đây!'
++	\L_07e76:
++	ZH 1:
++	'Tới cứu thuộc hạ'
++	R
++	'đang gặp nguy đây!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Rance hiên ngang đứng'
++	R
++	'dậy từ bụi cỏ đang nấp.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -4404,31 +4320,29 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Rance...!'
+-	R
+-	'Và Sill nữa...!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Hừm... Tình trạng của'
+-	R
+-	'cô khá tệ đấy, Shizuka.'
+-	\L_07e76:
+-	ZH 1:
+-	'Này ông già, Shizuka'
+-	R
+-	'yếu đuối và kiệt sức,'
+-	\L_07e76:
+-	ZH 1:
+-	'ngay cả một đứa trẻ'
+-	R
+-	'cũng có thể đánh được nàng.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ngươi có vui khi'
+-	R
+-	'đánh nàng như vậy không?'
++	'Rance......! Cả'
++	R
++	'Sill nữa......!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Hừ...... tơi tả'
++	R
++	'quá nhỉ, Shizuka.'
++	\L_07e76:
++	ZH 1:
++	'Này lão già, Shizuka'
++	R
++	'yếu ớt tơi tả thế kia'
++	\L_07e76:
++	ZH 1:
++	'thì đến con nít'
++	R
++	'cũng hạ được.'
++	\L_07e76:
++	ZH 1:
++	'Làm thế mà lão thấy vui à.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -4436,11 +4350,11 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Hừm... Như tôi đã'
+-	R
+-	'nghe, ông đúng là một kẻ'
+-	R
+-	'man rợ, Vua của Leazas.'
++	'Hừ...... đúng như lời'
++	R
++	'đồn, một gã trông thật'
++	R
++	'man rợ, Vua Leazas.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -4448,19 +4362,19 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Tránh ra, Rance! Tôi'
+-	R
+-	'vẫn có thể chiến đấu...!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Xạo vừa thôi. Này.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'À...'
++	'Đừng xen vào, Rance! Tôi'
++	R
++	'vẫn còn đánh được......!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Xạo vừa thôi, đây này.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'A......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07db3:
+@@ -4490,28 +4404,28 @@
+ 	\L_07da5:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Thấy chưa, đứng còn chẳng'
+-	R
+-	'vững. ... Nào, lão kia.'
+-	\L_07e76:
+-	ZH 1:
+-	'Giờ đến lượt hai người bảo'
+-	R
+-	'hộ đánh nhau.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Ai là người bảo hộ của ai'
+-	R
+-	'chứ... Ư...!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Bị thương thì im mà xem. Lên'
+-	R
+-	'đây!!'
++	'Thấy chưa, đứng còn không'
++	R
++	'vững. ......Nào lão già,'
++	\L_07e76:
++	ZH 1:
++	'giờ là trận giữa'
++	R
++	'hai người giám hộ.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Ai là giám hộ của ai'
++	R
++	'chứ...... hự......!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Người bị thương thì'
++	R
++	'im mà xem. Lên đây!!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -4519,7 +4433,7 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Hừm...!'
++	'Hừ......!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0569 : 1!
+@@ -4565,20 +4479,22 @@
+ 	\L_07e69:
+ 	\L_07d51:
+ 	ZH 1:
+-	'À, chờ đã, ông già!'
++	'A, đứng lại đó, lão già!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Ragarl và Nagi trốn thoát.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Để con gái lại đây! Chiến'
+-	R
+-	'lợi phẩm của ta cơ mà...!'
++	'Ragarl và Nagi'
++	R
++	'bỏ chạy khỏi đó.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Để con bé lại đã chứ! Chiến'
++	R
++	'lợi phẩm của ta mà......!'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Khốn kiếp, pháp sư chạy'
+@@ -4590,11 +4506,9 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Em không nghĩ'
+-	R
+-	'điều đó có liên quan'
+-	R
+-	'gì đến phép thuật...'
++	'Em nghĩ chuyện đó chẳng liên'
++	R
++	'quan gì đến phép thuật......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -4602,7 +4516,9 @@
+ 	'Hừ, thôi kệ...'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Này, Shizuka. Thấy sao? Ta'
++	'......Này, Shizuka.'
++	R
++	'Thế nào, bản đại gia'
+ 	R
+ 	'ngầu lắm đúng không.'
+ 	\L_07e76:
+@@ -4617,16 +4533,14 @@
+ 	\L_07e69:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Này, ta đang hỏi'
+-	R
+-	'ngươi xem ta có ngầu không.'
+-	R
+-	'Hãy cho ta một lời cảm ơn.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Im đi...!'
++	'Này, ta đang hỏi có ngầu'
++	R
++	'không đấy. Cảm ơn đi chứ.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Ồn ào quá......!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -4634,16 +4548,14 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'À, Shizuka...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Nước mắt chảy'
+-	R
+-	'dài trên má Shizuka và'
+-	R
+-	'cô nổi giận với Rance.'
++	'A, chị Shizuka......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Shizuka nước mắt lã'
++	R
++	'chã, xông vào cự Rance.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -4651,50 +4563,52 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Tại sao cậu'
+-	R
+-	'lại cản đường?!'
+-	\L_07e76:
+-	ZH 1:
+-	'Cuối cùng tôi'
+-	R
+-	'đã giết được kẻ thù của'
+-	R
+-	'cha tôi…! Hic... Cha...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Cứ thế này thì'
+-	R
+-	'cô sẽ bị giết, Shizuka.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Tôi quan tâm'
+-	R
+-	'làm gì...?! Tôi...'
+-	\L_07e76:
+-	ZH 1:
+-	'cuối cùng tôi đã'
+-	R
+-	'tìm thấy hắn...! Ragarl...!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'À...'
+-	\L_07e76:
+-	ZH 1:
+-	'Để đó cho ta.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ta sẽ tìm vị trí của'
+-	R
+-	'họ cho ngươi, vì vậy ngươi'
+-	R
+-	'sẽ có cơ hội chiến đấu khác.'
++	'Sao lại cản tôi chứ...!'
++	\L_07e76:
++	ZH 1:
++	'Chỉ chút nữa là trả được'
++	R
++	'thù cho cha rồi......!'
++	R
++	'Hức...... cha ơi.........'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Cứ thế thì...... cô bị'
++	R
++	'giết rồi đấy, Shizuka.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Chuyện đó tôi cần gì'
++	R
++	'biết chứ...! Tôi... tôi'
++	R
++	'muốn báo thù cho cha...!'
++	\L_07e76:
++	ZH 1:
++	'Khó khăn lắm mới tìm'
++	R
++	'được, Ragarl......!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Thôi......'
++	\L_07e76:
++	ZH 1:
++	'cứ giao cho ta. Ít'
++	R
++	'nhất ta sẽ điều tra'
++	R
++	'chỗ ở của bọn chúng,'
++	\L_07e76:
++	ZH 1:
++	'rồi sớm muộn cô'
++	R
++	'cũng có cơ hội đánh.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -4714,20 +4628,18 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Hick... Thật'
+-	R
+-	'sao, Rance...? Cậu thực'
+-	R
+-	'sự sẽ tìm thấy hắn...?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Vâng, ta'
+-	R
+-	'sẽ xem xét nó. Vì vậy,'
+-	R
+-	'hãy để ta đụ cô.'
++	'Hức...... thật chứ,'
++	R
++	'Rance......? Thật sự'
++	R
++	'sẽ tìm Ragarl......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Ừ, ta sẽ điều tra.'
++	R
++	'Nên cho ta ôm.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -4737,40 +4649,38 @@
+ 	\L_07e69:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Ch... Vậy thì ta sẽ'
+-	R
+-	'không đi tìm hắn nữa.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Uu... Được rồi,'
+-	R
+-	'anh sẽ làm tình với em! Vậy'
+-	R
+-	'thì sẽ ổn thôi, phải không?!'
+-	\L_07e76:
+-	ZH 1:
+-	'Vâng, nếu tôi có thể'
+-	R
+-	'chiến đấu với người đàn'
+-	R
+-	'ông đó và giết anh ta...'
+-	\L_07e76:
+-	ZH 1:
+-	'tôi sẽ làm bất cứ điều'
+-	R
+-	'gì cậu nói. Vậy làm ơn...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Có gì không?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Bất cứ điều gì!!'
++	'Chậc...... vậy thì'
++	R
++	'không điều tra nữa.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Ư...... được rồi, cho ôm thì'
++	R
++	'cho! Cho ôm là được chứ gì!'
++	\L_07e76:
++	ZH 1:
++	'Phải, nếu tôi đấu được với'
++	R
++	'gã đó, kết liễu được hắn...'
++	\L_07e76:
++	ZH 1:
++	'thì anh bảo gì tôi'
++	R
++	'cũng nghe. Nên, gã'
++	R
++	'đó...... nhờ anh.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Gì cũng được á?'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Gì cũng được!!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -4778,25 +4688,25 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Ừm... Sh-Shizuka...'
+-	R
+-	'Cậu có chắc là nên'
+-	R
+-	'nói thế không...?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Đừng xen vào, Sill. Được'
+-	R
+-	'rồi, ta nghe thấy rồi...'
+-	\L_07e76:
+-	ZH 1:
+-	'Ta đảm bảo'
+-	R
+-	'sẽ tìm ra tên đó và để em'
+-	R
+-	'giết hắn. Neeheeheehee.'
++	'Ưm...... ch... chị'
++	R
++	'Shizuka...... vậy có được'
++	R
++	'không ạ, chuyện đó......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Đừng nói thừa,'
++	R
++	'Sill. Đượcccc, ta'
++	R
++	'nghe rồi nhé......'
++	\L_07e76:
++	ZH 1:
++	'Nhất định phải để Shizuka'
++	R
++	'giết lão đó. Hì hì hì.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -4806,11 +4716,11 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Quá mệt mỏi trước hoàn cảnh'
+-	R
+-	'của mình, Shizuka đã đưa'
+-	R
+-	'ra một lời hứa ngu ngốc...'
++	'Bị cuốn theo tình thế,'
++	R
++	'Shizuka lỡ đưa ra một'
++	R
++	'lời hứa ngu ngốc......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 0!
+@@ -4838,46 +4748,42 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Nagi - Tầng'
+-	R
+-	'Cao Nhất Tia laser tuyết!!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Cậu phản'
+-	R
+-	'ứng quá chậm! Làm sắc nét'
+-	R
+-	'hơn các giác quan của cậu!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Vâng...'
+-	R
+-	'Lightni-... .........'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Hừm... Có'
+-	R
+-	'người xen ngang à?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Họ ngừng tập'
+-	R
+-	'luyện và nhìn ra cửa.'
+-	\L_07e76:
+-	ZH 1:
+-	'Sau khi gõ'
+-	R
+-	'vài lần, một chỉ huy'
+-	R
+-	'ma thuật đã mở nó ra.'
++	'Tháp Nagi - Tầng thượng'
++	R
++	'Snow Laser!!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Phản ứng chậm quá! Mài'
++	R
++	'sắc ngũ giác hơn nữa!'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Vâng......! Lightni......'
++	R
++	'............'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Hửm...... có kẻ quấy rầy à.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Hai người dừng'
++	R
++	'tập, nhìn ra cửa.'
++	\L_07e76:
++	ZH 1:
++	'Tiếng gõ vang lên rồi'
++	R
++	'cánh cửa mở, đội trưởng'
++	R
++	'ma pháp xuất hiện.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -4885,16 +4791,14 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Chúa tể Nagi,'
+-	R
+-	'ông Ragarl, Quân đội'
+-	R
+-	'Leazas đã xuất hiện.'
+-	\L_07e76:
+-	ZH 1:
+-	'Họ đang nhắm tới tòa tháp'
+-	R
+-	'này và tiến thẳng tới đây.'
++	'Ngài Nagi, ngài Ragarl,'
++	R
++	'quân Leazas đã xuất hiện.'
++	\L_07e76:
++	ZH 1:
++	'Chúng đang tiến thẳng'
++	R
++	'về phía tòa tháp này.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -4902,11 +4806,11 @@
+ 	'Hmph...'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Họ thậm chí còn không'
+-	R
+-	'thể sử dụng tốt phép thuật.'
+-	R
+-	'Hãy đi gửi họ trở lại, Nagi.'
++	'Lũ chẳng dùng nổi phép'
++	R
++	'thuật ra hồn. Đi nào'
++	R
++	'Nagi, đánh bật chúng về.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -4914,7 +4818,7 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Có.'
++	'Vâng.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 0!
+@@ -4935,62 +4839,58 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Nagi -'
+-	R
+-	'Tầng Cao Nhất Haah...'
+-	R
+-	'Haah, haah... Haah...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Nagi đang'
+-	R
+-	'quỳ trên sàn đá của khu'
+-	R
+-	'tập luyện và thở dốc.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ragarl nắm tóc cô kéo lên.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Đồ ngốc, cậu'
+-	R
+-	'đã xuống chưa?!'
+-	\L_07e76:
+-	ZH 1:
+-	'Cậu có nghĩ'
+-	R
+-	'mình có thể đánh con gái'
+-	R
+-	'của Masou như vậy không?!'
+-	\L_07e76:
+-	ZH 1:
+-	'Vô giá trị...!'
+-	\L_07e76:
+-	ZH 1:
+-	'Nếu cậu nâng cao khả'
+-	R
+-	'năng phục hồi của cơ thể,'
+-	\L_07e76:
+-	ZH 1:
+-	'cậu có thể thắng'
+-	R
+-	'trận chiến đó với nàng...!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Tôi... xin lỗi...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Tôi mệt mỏi với'
+-	R
+-	'những lời bào chữa!'
++	'Tháp Nagi - Tầng thượng'
++	R
++	'Haa.........'
++	R
++	'haa, haa...... haa.........'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Nagi quỳ trên sàn'
++	R
++	'đá sân tập, thở dốc.'
++	\L_07e76:
++	ZH 1:
++	'Ragarl không chút nương'
++	R
++	'tay túm búi tóc con'
++	R
++	'gái, bắt ngẩng lên.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Đồ ngốc, đã gục rồi à!'
++	\L_07e76:
++	ZH 1:
++	'Thế này mà nghĩ thắng'
++	R
++	'được con gái Masou sao!'
++	\L_07e76:
++	ZH 1:
++	'Vô dụng......!'
++	\L_07e76:
++	ZH 1:
++	'Nếu con chịu nâng sức'
++	R
++	'chịu đựng của cơ thể lên,'
++	\L_07e76:
++	ZH 1:
++	'thì lúc đó đã thắng'
++	R
++	'được rồi......!'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Con xin...... lỗi......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Nghe chán tai rồi!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -4998,41 +4898,37 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Tôi xin lỗi'
+-	R
+-	'vì đã làm gián đoạn quá'
+-	R
+-	'trình tập luyện của cậu.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Một chỉ huy'
+-	R
+-	'ma thuật bước vào.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Chúa tể Nagi,'
+-	R
+-	'ông Ragarl, Quân đội'
+-	R
+-	'Leazas đã xuất hiện.'
+-	\L_07e76:
+-	ZH 1:
+-	'Họ đang nhắm tới tòa tháp'
+-	R
+-	'này và tiến thẳng tới đây.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Hừm... Quân'
+-	R
+-	'Leazas? Con gái của Masou'
+-	R
+-	'có nằm trong số đó không?'
++	'Xin thứ lỗi đã làm'
++	R
++	'phiền buổi tập.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Đúng lúc đó, đội trưởng'
++	R
++	'ma pháp bước vào.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Ngài Nagi, ngài Ragarl,'
++	R
++	'quân Leazas đã xuất hiện.'
++	\L_07e76:
++	ZH 1:
++	'Chúng đang tiến thẳng'
++	R
++	'về phía tòa tháp này.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Hừ...... quân Leazas'
++	R
++	'à. Trong đó có con'
++	R
++	'gái Masou không?'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0001 : 0!
+@@ -5043,17 +4939,19 @@
+ 		!VAR0457 : 1!
+ 		\L_07dc1:
+ 		ZH 1:
+-		'Shizuka Masou... Đúng vậy.'
++		'Masou Shizuka......'
++		R
++		'vâng, có ạ.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d51:
+ 		ZH 1:
+-		'Tôi hiểu rồi...'
+-		R
+-		'Vậy là nàng đến...?'
+-		\L_07e76:
+-		ZH 1:
+-		'Shizuka... Masou...'
++		'Vậy à...... nó'
++		R
++		'đến rồi à......'
++		\L_07e76:
++		ZH 1:
++		'Masou...... Shizuka.........'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		SS 0:
+@@ -5067,202 +4965,196 @@
+ 		PF0 VAR0056:
+ 		\L_07d6d:
+ 		ZH 1:
+-		'Shizuka... Nàng...'
+-		\L_07e76:
+-		ZH 1:
+-		'Không... Sai rồi.'
+-		R
+-		'Nàng không phải Asmaase...'
+-		R
+-		'Nàng là con gái của Masou...'
+-		\L_07e76:
+-		ZH 1:
+-		'Đúng...'
+-		\L_07e76:
+-		ZH 1:
+-		'Của hắn...'
++		'Shizuka...... ta, với'
++		R
++		'con bé đó.........'
++		\L_07e76:
++		ZH 1:
++		'Không...... không phải. Con'
++		R
++		'bé đó không phải Asmaase...'
++		R
++		'Nó là con gái Masou......'
++		\L_07e76:
++		ZH 1:
++		'Phải......'
++		\L_07e76:
++		ZH 1:
++		'con của hắn.........'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d89:
+ 		ZH 1:
+-		'Hình ảnh cha'
+-		R
+-		'của Shizuka, Masou, hiện'
+-		R
+-		'lên trong tâm trí Ragarl.'
+-		\L_07e76:
+-		ZH 1:
+-		'Khi còn trẻ, Ragarl và'
+-		R
+-		'Masou học cùng một thầy.'
+-		\L_07e76:
+-		ZH 1:
+-		'Họ cạnh tranh với tư cách'
+-		R
+-		'là hai học sinh mạnh nhất.'
+-		\L_07e76:
+-		ZH 1:
+-		'Masou bước'
+-		R
+-		'đi trên con đường của'
+-		R
+-		'một pháp sư công chính,'
+-		\L_07e76:
+-		ZH 1:
+-		'trong khi Ragarl tìm'
+-		R
+-		'kiếm mọi thứ bằng sức mạnh.'
+-		\L_07e76:
+-		ZH 1:
+-		'Anh ta ghét Masou'
+-		R
+-		'và chủ nhân của anh'
+-		\L_07e76:
+-		ZH 1:
+-		'ta đến mức nào vì đã'
+-		R
+-		'cố gắng cải tạo anh ta...?'
++		'Trong đầu Ragarl'
++		R
++		'hiện lên hình bóng'
++		R
++		'cha Shizuka, Masou.'
++		\L_07e76:
++		ZH 1:
++		'Thuở trẻ...... Ragarl'
++		R
++		'và Masou cùng theo'
++		R
++		'học một sư phụ.'
++		\L_07e76:
++		ZH 1:
++		'Ở đó, hai người có thực'
++		R
++		'lực ngang ngửa nhất nhì.'
++		\L_07e76:
++		ZH 1:
++		'Masou đi theo chính'
++		R
++		'đạo của pháp sư,'
++		\L_07e76:
++		ZH 1:
++		'còn Ragarl tìm kiếm'
++		R
++		'mọi thứ ở sức mạnh.'
++		\L_07e76:
++		ZH 1:
++		'Hắn đã căm ghét biết bao'
++		R
++		'Masou, kẻ cùng sư phụ'
++		\L_07e76:
++		ZH 1:
++		'luôn tìm cách uốn nắn hắn...'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d6d:
+ 		ZH 1:
+-		'Dù vậy...'
+-		\L_07e76:
+-		ZH 1:
+-		'Asmaase. Nếu không có'
+-		R
+-		'anh, có lẽ tôi đã không'
+-		R
+-		'chiến đấu với anh ta...'
++		'Dù vậy...... Asmaase.'
++		\L_07e76:
++		ZH 1:
++		'Nếu không có nàng,'
++		R
++		'có lẽ ta đã không'
++		R
++		'tranh đấu với hắn...'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d89:
+ 		ZH 1:
+-		'Ragarl tin rằng chiến đấu'
+-		R
+-		'đến chết là điều ngu ngốc.'
+-		\L_07e76:
+-		ZH 1:
+-		'Anh ta sẽ'
+-		R
+-		'chỉ giết kẻ thù mà anh ta'
+-		R
+-		'có thể giết bằng một tay.'
+-		\L_07e76:
+-		ZH 1:
+-		'Vì vậy, hắn sẽ'
+-		R
+-		'không chiến đấu với Masou,'
+-		R
+-		'người ngang hàng với hắn.'
+-		\L_07e76:
+-		ZH 1:
+-		'Tuy nhiên, họ lại'
+-		R
+-		'yêu cùng một cô gái. Bà ấy'
+-		R
+-		'là Asmaase...mẹ của Shizuka.'
+-		\L_07e76:
+-		ZH 1:
+-		'Asmaase kết hôn với'
+-		R
+-		'Masou và rời thị trấn.'
+-		\L_07e76:
+-		ZH 1:
+-		'Ragarl bị thúc'
+-		R
+-		'đẩy bởi sự phẫn nộ mãnh'
+-		R
+-		'liệt và tìm kiếm Masou.'
+-		\L_07e76:
+-		ZH 1:
+-		'Một năm sau, anh ta thách'
+-		R
+-		'thức anh ta và giết chết'
+-		R
+-		'anh ta một cách bất ngờ.'
++		'Ragarl từng nghĩ'
++		R
++		'đánh nhau sống chết'
++		R
++		'là chuyện ngu xuẩn.'
++		\L_07e76:
++		ZH 1:
++		'Chỉ cần giết những kẻ giết'
++		R
++		'được bằng một tay là đủ.'
++		\L_07e76:
++		ZH 1:
++		'Cho nên hắn chưa từng'
++		R
++		'đấu với Masou, kẻ'
++		R
++		'ngang tài với mình.'
++		\L_07e76:
++		ZH 1:
++		'Thế nhưng, hai người lại'
++		R
++		'yêu cùng một cô gái. Đó'
++		R
++		'là Asmaase... mẹ Shizuka.'
++		\L_07e76:
++		ZH 1:
++		'Asmaase kết hôn với Masou,'
++		R
++		'rồi rời khỏi thị trấn.'
++		\L_07e76:
++		ZH 1:
++		'Bị oán hận dữ dội'
++		R
++		'thúc đẩy, Ragarl truy'
++		R
++		'tìm tung tích......'
++		\L_07e76:
++		ZH 1:
++		'1 năm sau, hắn'
++		R
++		'thách đấu Masou, rồi'
++		R
++		'đánh lén giết chết.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d6d:
+ 		ZH 1:
+-		'Heh... Huhu... Cậu'
+-		R
+-		'thật xinh đẹp, Asmaase...'
+-		\L_07e76:
+-		ZH 1:
+-		'Khi tôi cho cậu'
+-		R
+-		'xem xác của Masou và khuôn'
+-		R
+-		'mặt cậu không còn màu sắc...'
++		'Hừ...... hừ hừ...... nàng'
++		R
++		'đẹp lắm, Asmaase......'
++		\L_07e76:
++		ZH 1:
++		'lúc ta cho nàng xem'
++		R
++		'xác Masou, nàng mặt cắt'
++		R
++		'không còn giọt máu......'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d89:
+ 		ZH 1:
+-		'Hắn nhìn xuống tay mình'
+-		R
+-		'và cảm thấy vòng tay mềm mại'
+-		\L_07e76:
+-		ZH 1:
+-		'của Asmaase quay'
+-		R
+-		'trở lại với anh.'
+-		\L_07e76:
+-		ZH 1:
+-		'Ragarl đã cưỡng'
+-		R
+-		'hiếp Asmaase và biến'
+-		R
+-		'cô thành vợ của anh'
+-		\L_07e76:
+-		ZH 1:
+-		'ta trong vài tháng và'
+-		R
+-		'vài năm ngắn ngủi cho đến'
+-		R
+-		'khi cô chết vì suy nhược.'
+-		\L_07e76:
+-		ZH 1:
+-		'Asmaase đóng cửa'
+-		R
+-		'trái tim mình, phát điên'
+-		R
+-		'và sau đó sinh ra Nagi.'
+-		\L_07e76:
+-		ZH 1:
+-		'Ragarl sau'
+-		R
+-		'đó phát hiện ra Masou'
+-		R
+-		'có một cô con gái...'
++		'Nhìn xuống bàn tay, cảm'
++		R
++		'giác ôm Asmaase mềm mại'
++		\L_07e76:
++		ZH 1:
++		'lại sống dậy.'
++		\L_07e76:
++		ZH 1:
++		'Ragarl cưỡng hiếp Asmaase,'
++		R
++		'và trong mấy năm ngắn ngủi'
++		\L_07e76:
++		ZH 1:
++		'cho đến khi nàng kiệt'
++		R
++		'sức mà chết, đã biến'
++		R
++		'nàng thành vợ mình.'
++		\L_07e76:
++		ZH 1:
++		'Asmaase khép chặt tâm'
++		R
++		'hồn, phát điên, và trong'
++		R
++		'cơn điên sinh ra Nagi.'
++		\L_07e76:
++		ZH 1:
++		'Rồi sau đó, Ragarl mới biết'
++		R
++		'Masou có một đứa con gái...'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d6d:
+ 		ZH 1:
+-		'Shizuka...'
+-		R
+-		'Shizuka Masou...'
+-		\L_07e76:
+-		ZH 1:
+-		'Đúng vậy... Nagi'
+-		R
+-		'là đứa con gái duy nhất mà'
+-		R
+-		'Asmaase yêu quý của tôi cần.'
+-		\L_07e76:
+-		ZH 1:
+-		'Dù nàng trông giống'
+-		R
+-		'Asmaase đến mấy... Nàng'
+-		R
+-		'vẫn là con gái của Masou.'
+-		\L_07e76:
+-		ZH 1:
+-		'Tôi sẽ không cho'
+-		R
+-		'phép con gái của hắn'
+-		R
+-		'và Asmaase tồn tại…!'
++		'Shizuka.........'
++		R
++		'Masou Shizuka.........'
++		\L_07e76:
++		ZH 1:
++		'Phải...... con gái'
++		R
++		'của Asmaase mà ta yêu,'
++		R
++		'chỉ cần Nagi là đủ.'
++		\L_07e76:
++		ZH 1:
++		'Dù có giống Asmaase'
++		R
++		'như đúc...... Shizuka'
++		R
++		'vẫn là con gái Masou.'
++		\L_07e76:
++		ZH 1:
++		'Đứa con gái của hắn và'
++		R
++		'Asmaase... không được'
++		R
++		'phép tồn tại......!'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		!VAR0516 : 45!
+@@ -5270,7 +5162,7 @@
+ 		SS VAR0515:
+ 		\L_07dc1:
+ 		ZH 1:
+-		'... Chủ nhân.'
++		'.........Sư phụ.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07e90:
+@@ -5289,23 +5181,23 @@
+ 		\L_07e69:
+ 		\L_07dc1:
+ 		ZH 1:
+-		'Có chuyện gì vậy thưa'
+-		R
+-		'Thầy? Quân Leazas đang tới.'
++		'Sư phụ, người sao vậy.'
++		R
++		'Quân Leazas đang......'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d51:
+ 		ZH 1:
+-		'Aah, à... Không có gì'
+-		R
+-		'đâu. Hãy rời đi và tấn'
+-		R
+-		'công con gái của Masou.'
++		'À, không...... không có'
++		R
++		'gì. Xuất kích thôi, nghênh'
++		R
++		'chiến con gái Masou.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07dc1:
+ 		ZH 1:
+-		'Có.'
++		'Vâng.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		!VAR0516 : 0!
+@@ -5315,16 +5207,16 @@
+ 	{VAR0001 = 1:
+ 		\L_07dc1:
+ 		ZH 1:
+-		'Đúng vậy.'
++		'Vâng, có ạ.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d51:
+ 		ZH 1:
+-		'Được rồi... Đứng lên,'
+-		R
+-		'Nagi. Lần này, hãy lấy mạng'
+-		R
+-		'con gái của Masou. Được rồi?'
++		'Được...... đứng dậy, Nagi.'
++		R
++		'Lần này phải dứt mạng'
++		R
++		'con gái Masou. Rõ chưa.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07e23:
+@@ -5332,7 +5224,7 @@
+ 		\L_07e15:
+ 		\L_07dc1:
+ 		ZH 1:
+-		'Có.'
++		'Vâng.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		!VAR0516 : 0!
+@@ -5341,21 +5233,19 @@
+ 	}
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Không, nàng'
+-	R
+-	'không phải vậy.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Ch...'
+-	\L_07e76:
+-	ZH 1:
+-	'Rác có bao nhiêu cũng'
+-	R
+-	'làm tôi chán. Đi thôi, Nagi.'
+-	R
+-	'Chúng ta sẽ đánh bại chúng.'
++	'Không, không có ạ.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Chậc......'
++	\L_07e76:
++	ZH 1:
++	'Lũ cặn bã, tới bao nhiêu'
++	R
++	'cũng chỉ thêm chán. Xuất'
++	R
++	'kích, Nagi. Quét sạch chúng.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -5363,7 +5253,7 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Có.'
++	'Vâng.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 0!
+@@ -5395,7 +5285,7 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Nagi - Tầng Cao Nhất'
++	'Tháp Nagi - Tầng thượng'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 468!
+@@ -5409,82 +5299,78 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Ragarl mở cánh cửa sắt và'
+-	R
+-	'quay trở lại khu tập luyện.'
+-	R
+-	'Nagi đang ở trên vai anh.'
+-	\L_07e76:
+-	ZH 1:
+-	'Đúng hơn là xác của cô.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Chết tiệt...'
+-	R
+-	'Tại sao...? Tại sao'
+-	R
+-	'điều này lại xảy ra?!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Ragarl ném hài'
+-	R
+-	'cốt của Nagi xuống đất'
+-	R
+-	'và quỳ xuống cạnh cô.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Nagi, tại sao'
+-	R
+-	'cậu lại thua...!? Cậu được'
+-	R
+-	'cho là pháp sư mạnh nhất!'
+-	\L_07e76:
+-	ZH 1:
+-	'Tại sao...!?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Nagi không đưa'
+-	R
+-	'ra phản hồi nào.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Kh... Đây là'
+-	R
+-	'lỗi của Masou...'
+-	\L_07e76:
+-	ZH 1:
+-	'Hắn khiến tôi phát'
+-	R
+-	'điên...! Tất cả đều'
+-	R
+-	'là lỗi của hắn...!'
+-	\L_07e76:
+-	ZH 1:
+-	'Làm sao tôi'
+-	R
+-	'có thể mục nát ở đây'
+-	R
+-	'như thế này...? Guhah...'
++	'Mở cánh cửa sắt nặng nề,'
++	R
++	'Ragarl quay về sân tập.'
++	R
++	'Trên vai hắn vác Nagi.'
++	\L_07e76:
++	ZH 1:
++	'......Thi thể của Nagi.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Khốn kiếp...... vì sao......'
++	R
++	'vì sao lại thế này......!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Quăng thi thể Nagi'
++	R
++	'xuống sàn, Ragarl'
++	R
++	'quỳ xuống bên cạnh.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Nagi, vì sao con thua......!'
++	R
++	'Con lẽ ra phải là pháp'
++	R
++	'sư mạnh nhất......!'
++	\L_07e76:
++	ZH 1:
++	'Vì sao......!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Nagi không đáp lời.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Hự...... tại Masou,'
++	R
++	'tại hắn......'
++	\L_07e76:
++	ZH 1:
++	'Hắn đã làm ta phát'
++	R
++	'điên......! Tất cả'
++	R
++	'là tại hắn......!'
++	\L_07e76:
++	ZH 1:
++	'Ở nơi thế này...... mục'
++	R
++	'rữa theo cách thế này'
++	R
++	'sao...... ......khục......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07db3:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Sau đó Ragarl cũng'
+-	R
+-	'gục xuống và không bao'
+-	R
+-	'giờ đứng dậy được nữa.'
++	'Rồi...... Ragarl cũng'
++	R
++	'gục xuống tại đó, không'
++	R
++	'bao giờ đứng dậy nữa.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0156 : 109!
+@@ -5508,14 +5394,14 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Nagi - Tầng'
+-	R
+-	'Cao Nhất Đồ ngốc!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'（baaaaaam...!）'
++	'Tháp Nagi - Tầng thượng'
++	R
++	'Đồ ngu xuẩn......!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'(bốp......!)'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -5525,65 +5411,63 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Ragarl đấm Nagi, người'
+-	R
+-	'đã bị thương trong trận'
+-	R
+-	'chiến, không hề nương tay.'
+-	\L_07e76:
+-	ZH 1:
+-	'Cô ngã xuống sàn'
+-	R
+-	'mà không hề rên rỉ.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Hãy xấu hổ đi, Nagi!'
+-	\L_07e76:
+-	ZH 1:
+-	'Trên hết, làm sao'
+-	R
+-	'cậu có thể thua đội quân mà'
+-	R
+-	'con gái của Masou tham gia?!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Tôi... xin lỗi... tôi...'
+-	R
+-	'tôi sẽ luyện tập nhiều hơn'
+-	R
+-	'để... ... Ugh... Guh...!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Máu Nagi ho ra'
+-	R
+-	'trên sàn lan rộng. Ragarl'
+-	R
+-	'lạnh lùng nhìn xuống nó.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Hừm... Rốt cuộc thì'
+-	R
+-	'cậu cũng vô dụng à...? Cậu'
+-	R
+-	'không giống nàng chút nào...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'... Chủ nhân...?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'（bang!!）'
++	'Ragarl không chút nương'
++	R
++	'tay tát Nagi vốn đã bị'
++	R
++	'thương sau trận chiến.'
++	\L_07e76:
++	ZH 1:
++	'Không rên một tiếng,'
++	R
++	'Nagi ngã xuống sàn.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Biết nhục đi, Nagi!'
++	\L_07e76:
++	ZH 1:
++	'Lại thua đúng đạo quân'
++	R
++	'có con gái Masou......!'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Con xin...... lỗi...... con'
++	R
++	'sẽ... tu luyện... thêm......'
++	R
++	'......ư...... khụ......!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Máu tươi Nagi nôn ra'
++	R
++	'loang trên sàn đá. Ragarl'
++	R
++	'lạnh lùng nhìn xuống.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Hừ...... rốt cuộc con'
++	R
++	'cũng chẳng được à... Con'
++	R
++	'không giống nàng......'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'......Sư......phụ.........?'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'(rầm!!)'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -5593,9 +5477,9 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Cánh cửa bật'
+-	R
+-	'mở... Shizuka ở đó.'
++	'Cánh cửa bật tung......'
++	R
++	'Shizuka xuất hiện.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -5603,14 +5487,14 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Quá tuyệt vời!!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Cậu đã đến...'
+-	R
+-	'Con gái của Masou.'
++	'Ragaaarl!!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Đến rồi à......'
++	R
++	'con gái Masou.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -5624,32 +5508,30 @@
+ 	\L_07e69:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Heh... Huhu,'
+-	R
+-	'à... Cậu có muốn đấu một'
+-	R
+-	'trận trả thù không, Nagi?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Ragarl túm cổ Nagi'
+-	R
+-	'và buộc cô đứng dậy.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Cái gì...?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Chiến đấu đi,'
+-	R
+-	'Nagi. Nhiệm vụ của cậu là'
+-	R
+-	'đánh bại con gái của Masou.'
++	'Hừ...... hừ hừ, phải'
++	R
++	'rồi...... trận rửa hận'
++	R
++	'nhỉ...... ............Nagi.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Ragarl túm gáy Nagi đang'
++	R
++	'bò dưới sàn, kéo đứng dậy.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Cái......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Chiến đấu đi, Nagi. Nhiệm vụ'
++	R
++	'của con là hạ con gái Masou.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07db3:
+@@ -5657,27 +5539,23 @@
+ 	\L_07da5:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Đ-... Vâng,'
+-	R
+-	'thưa Chủ nhân...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Ragarl! Cậu đang'
+-	R
+-	'dùng cô gái bị thương'
+-	R
+-	'này làm lá chắn à...!?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Im lặng đi,'
+-	R
+-	'con gái của Masou. Tôi'
+-	R
+-	'có thể chiến đấu...!'
++	'V......âng, sư phụ......'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Ragarl! Ngươi định lấy'
++	R
++	'đứa con gái bị thương thế'
++	R
++	'này làm lá chắn......!?'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Im đi con gái Masou,'
++	R
++	'tôi đánh được......!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0520 : 11!
+@@ -5700,34 +5578,36 @@
+ 	\L_07e69:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Tội nghiệp'
+-	R
+-	'cô gái.............'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Shizuka nhìn thoáng qua'
+-	R
+-	'lưng Nagi, rồi nhìn Ragarl.'
++	'Cô bé... tội'
++	R
++	'nghiệp...... ...........'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Shizuka thoáng nhìn'
++	R
++	'tấm lưng Nagi... rồi'
++	R
++	'nhìn thẳng vào Ragarl.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 468!
+ 	\L_07da5:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'... Ragarl, giờ chỉ'
+-	R
+-	'còn lại anh thôi...!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Heh... Cậu'
+-	R
+-	'định đánh tôi à...? Đừng'
+-	R
+-	'làm tôi cười nhé cô gái!!'
++	'.........Ragarl, giờ chỉ'
++	R
++	'còn mình ngươi thôi......!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Hừ...... ngươi định'
++	R
++	'thắng ta......? Đừng'
++	R
++	'làm ta cười, con ranh!!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0520 : 12!
+@@ -5742,11 +5622,11 @@
+ 	\L_07e15:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Phép thuật của Ragarl'
+-	R
+-	'vượt xa Shizuka. Một làn'
+-	R
+-	'sóng bóng tối thổi bay cô.'
++	'Phép của Ragarl áp đảo'
++	R
++	'phép của Shizuka. Làn sóng'
++	R
++	'hắc ám thổi bay Shizuka.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -5756,47 +5636,41 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'（đổ lỗi...!）'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka đâm vào'
+-	R
+-	'tường, gục xuống và'
+-	R
+-	'không thể di chuyển.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Tôi hiểu rồi...'
+-	R
+-	'Cậu thực sự là con gái của'
+-	R
+-	'Masou. Cậu đã khá mạnh mẽ...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Ragarl từ từ'
+-	R
+-	'tiếp cận Shizuka.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Nhưng cậu thậm'
+-	R
+-	'chí còn không thể sánh được'
+-	R
+-	'với bộ dạng của hắn lúc đó.'
+-	\L_07e76:
+-	ZH 1:
+-	'Cha của ngươi'
+-	R
+-	'rất mạnh mẽ...'
+-	\L_07e76:
+-	ZH 1:
+-	'Có thể so sánh với ta...'
++	'(ầm......!)'
++	\L_07e76:
++	ZH 1:
++	'Shizuka đập vào tường, ngã'
++	R
++	'gục... không cử động nổi.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Ra vậy...... đúng là'
++	R
++	'con gái của Masou. Sức'
++	R
++	'mạnh cũng khá đấy...'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Ragarl chầm chậm'
++	R
++	'tiến lại gần Shizuka.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Nhưng còn lâu mới'
++	R
++	'bằng Masou hồi đó.'
++	\L_07e76:
++	ZH 1:
++	'Cha ngươi mạnh lắm......'
++	\L_07e76:
++	ZH 1:
++	'ngang tài với ta......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -5806,23 +5680,21 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Ragarl nắm lấy'
+-	R
+-	'hàm của Shizuka.'
+-	\L_07e76:
+-	ZH 1:
+-	'Anh bắt cô ngước lên'
+-	R
+-	'và nhìn thẳng vào mặt cô.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Cậu thực'
+-	R
+-	'sự trông giống nàng... Hình'
+-	R
+-	'ảnh đáng ghét của Asmaase...'
++	'Ragarl bóp cằm Shizuka.'
++	\L_07e76:
++	ZH 1:
++	'Bắt nàng ngẩng mặt,'
++	R
++	'chằm chằm nhìn.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Quả nhiên, giống'
++	R
++	'thật...... giống Asmaase'
++	R
++	'như hai giọt nước......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -5830,28 +5702,30 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Như-....maase...?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Nagi đột nhiên mở miệng.'
+-	R
+-	'Cô lảo đảo lảo đảo đứng dậy.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Đó là... Chủ'
+-	R
+-	'nhân... Đó là tên của mẹ...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Vâng... Đúng'
+-	R
+-	'vậy. Tên vợ tôi...'
++	'Asu......maase.........?'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Nagi bỗng lên tiếng. Ngơ'
++	R
++	'ngác, lảo đảo nhổm dậy.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Đó là......... sư'
++	R
++	'phụ, đó chẳng phải...'
++	R
++	'tên của mẹ sao......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'À...... phải. Là'
++	R
++	'tên vợ ta......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -5859,53 +5733,53 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Cái gì...? Cậu'
+-	R
+-	'đã nói gì...?!!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Heheh... Heh...'
+-	R
+-	'Đúng vậy, hai người'
+-	R
+-	'là chị em cùng một mẹ.'
+-	\L_07e76:
+-	ZH 1:
+-	'Người yêu'
+-	R
+-	'của tôi, người chồng mà'
+-	R
+-	'tôi đã giết để lấy...'
+-	\L_07e76:
+-	ZH 1:
+-	'Người mà tôi đã hãm hiếp,'
+-	R
+-	'khiến nàng phát điên và đẩy'
+-	R
+-	'đến chết... Con của Asmaase!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Cậu...!! Cậu thậm chí'
+-	R
+-	'còn giết mẹ tôi...?!!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Cậu khá bền'
+-	R
+-	'bỉ, Shizuka Masou...'
+-	\L_07e76:
+-	ZH 1:
+-	'Cậu khác với Asmaase'
+-	R
+-	'ở điểm đó. Nó khiến tôi'
+-	R
+-	'càng muốn giết anh hơn...!'
++	'Cái...... ngươi'
++	R
++	'nói gì.........!!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Khục khục......'
++	R
++	'khục...... phải, hai'
++	R
++	'đứa là chị em cùng mẹ.'
++	\L_07e76:
++	ZH 1:
++	'Người đàn bà duy nhất'
++	R
++	'ta yêu, kẻ ta giết'
++	R
++	'chồng để cướp lấy...'
++	\L_07e76:
++	ZH 1:
++	'bị ta cưỡng hiếp, phát'
++	R
++	'điên rồi chết... Các'
++	R
++	'ngươi là con nàng...'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Ngươi......!! Ngươi dám'
++	R
++	'làm cả mẹ ta......!!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Cứng cỏi đấy,'
++	R
++	'Masou Shizuka...'
++	\L_07e76:
++	ZH 1:
++	'Chỗ đó thì không giống'
++	R
++	'Asmaase. Khiến ta'
++	R
++	'muốn giết ngươi......!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -5915,101 +5789,97 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Móng vuốt hợp kim'
+-	R
+-	'của Ragarl tạo ra những vết'
+-	R
+-	'cắt nông trên má Shizuka.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ngài yêu thương'
+-	R
+-	'rải máu đang chảy ra.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Tôi đã muốn giết cậu kể'
+-	R
+-	'từ khi tôi biết cậu tồn tại.'
+-	\L_07e76:
+-	ZH 1:
+-	'Tôi muốn xé xác'
+-	R
+-	'anh ra từng mảnh.'
+-	\L_07e76:
+-	ZH 1:
+-	'Cậu, cô con'
+-	R
+-	'gái mà Asmaase mong'
+-	R
+-	'muốn với Masou...'
+-	\L_07e76:
+-	ZH 1:
+-	'Đó là lý do'
+-	R
+-	'tại sao tôi nuôi Nagi như'
+-	R
+-	'một vũ khí ma thuật sống.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'... Ưu...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Ragarl tiếp tục nói'
+-	R
+-	'trong trạng thái thôi miên.'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka muốn hét lại nhưng'
+-	R
+-	'không thể. Cơn điên loạn'
+-	R
+-	'của Ragarl khiến cô hóa đá.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Là chị em cùng cha khác'
+-	R
+-	'mẹ, sức mạnh của các em khác'
+-	R
+-	'với sức mạnh của chúng tôi.'
+-	\L_07e76:
+-	ZH 1:
+-	'Tôi muốn Nagi giết cậu'
+-	R
+-	'để xúc phạm Masou lần nữa.'
+-	\L_07e76:
+-	ZH 1:
+-	'Tôi đã nghĩ'
+-	R
+-	'mình sẽ không thể chấp nhận'
+-	R
+-	'việc Nagi thua lần nữa...'
+-	\L_07e76:
+-	ZH 1:
+-	'Rằng tôi không thể'
+-	R
+-	'thua Masou lần nữa...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Tay Ragarl buông'
+-	R
+-	'hàm của Shizuka.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Nhưng... điều đó'
+-	R
+-	'không còn quan trọng nữa.'
++	'Bộ móng hợp kim của'
++	R
++	'Ragarl rạch một vết'
++	R
++	'nông trên má Shizuka.'
++	\L_07e76:
++	ZH 1:
++	'Ragarl âu yếm miết'
++	R
++	'dòng máu chảy ra.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Từ khi biết có đứa'
++	R
++	'con gái là ngươi...'
++	R
++	'ta đã luôn muốn giết.'
++	\L_07e76:
++	ZH 1:
++	'Ta muốn xé xác ngươi...'
++	\L_07e76:
++	ZH 1:
++	'con gái Masou mà Asmaase'
++	R
++	'tự nguyện sinh ra......'
++	\L_07e76:
++	ZH 1:
++	'Vì thế ta nuôi Nagi... như'
++	R
++	'một vũ khí ma pháp sống.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'.........Ư.........'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Ragarl say sưa nói tiếp.'
++	\L_07e76:
++	ZH 1:
++	'Shizuka muốn mắng mà'
++	R
++	'không thốt nên lời, bị'
++	R
++	'cơn điên ấy giam cầm.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Cùng mẹ khác cha, chênh'
++	R
++	'lệch sức mạnh là chênh'
++	R
++	'lệch hai người cha...'
++	\L_07e76:
++	ZH 1:
++	'Để sỉ nhục Masou'
++	R
++	'thêm lần nữa, ta'
++	R
++	'muốn Nagi giết ngươi.'
++	\L_07e76:
++	ZH 1:
++	'Và ta đã nghĩ... không'
++	R
++	'thể để Nagi thua...'
++	\L_07e76:
++	ZH 1:
++	'không thể thua Masou'
++	R
++	'thêm lần nữa... đã'
++	R
++	'nghĩ... như vậy......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Bàn tay Ragarl rời'
++	R
++	'khỏi cằm Shizuka.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Nhưng...... giờ'
++	R
++	'thì sao cũng được.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -6019,16 +5889,16 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Bàn tay rời khỏi má'
+-	R
+-	'cô giờ vòng qua lưng cô.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Shizuka...'
+-	R
+-	'Shizuka... Anh muốn em...!'
++	'Bàn tay vừa rời ra, giờ'
++	R
++	'vòng ra sau lưng nàng.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Shizuka...... Shizuka......'
++	R
++	'ta muốn có ngươi.........!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -6038,52 +5908,54 @@
+ 	\L_07e69:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Cậu trông giống'
+-	R
+-	'Asmaase. Giá như...'
+-	\L_07e76:
+-	ZH 1:
+-	'Giá như em'
+-	R
+-	'là con gái của anh...!'
+-	R
+-	'Asmaase... anh yêu em...!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Ragarl ôm chặt Shizuka.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Dừng lại... Buông'
+-	R
+-	'tôi ra! Cậu, cậu...!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Ragarl không hề nới'
+-	R
+-	'lỏng sức mạnh trong'
+-	\L_07e76:
+-	ZH 1:
+-	'vòng tay mình bất chấp'
+-	R
+-	'sự yếu đuối của Shizuka.'
+-	\L_07e76:
+-	ZH 1:
+-	'Anh cọ má mình vào má cô.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Anh cần em...'
+-	R
+-	'Không phải Nagi,'
+-	R
+-	'anh cần... Guhah...'
++	'Ngươi giống Asmaase như đúc,'
++	R
++	'ta...... giá mà chính ngươi'
++	\L_07e76:
++	ZH 1:
++	'là con gái của'
++	R
++	'ta......! Asmaase......'
++	R
++	'ta yêu nàng......!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Ragarl siết chặt'
++	R
++	'Shizuka vào lòng.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Dừng lại...... buông ra,'
++	R
++	'ngươi, đồ như ngươi......!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Dù Shizuka yếu ớt giãy giụa,'
++	\L_07e76:
++	ZH 1:
++	'Ragarl không nới'
++	R
++	'lỏng vòng tay.'
++	\L_07e76:
++	ZH 1:
++	'Hắn áp má mình'
++	R
++	'vào má Shizuka.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Ta cần ngươi...... không'
++	R
++	'phải Nagi, với ta, chính'
++	R
++	'ngươi mới là...... khục...'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07dc1:
+@@ -6096,73 +5968,69 @@
+ 	\L_07da5:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Thầy... Cha.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Cơ thể của Ragarl'
+-	R
+-	'ngã xuống sàn và mở ra'
+-	R
+-	'tầm nhìn của Shizuka.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi đang ở'
+-	R
+-	'trước mặt cô. Một thanh'
+-	R
+-	'kiếm ở sau lưng Ragarl.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Cha... Cha đang bỏ'
+-	R
+-	'rơi con phải không?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Nagi, cậu...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Chắc chắn là'
+-	R
+-	'không rồi thưa Cha. Tôi làm'
+-	R
+-	'mọi thứ cậu yêu cầu tôi làm.'
+-	\L_07e76:
+-	ZH 1:
+-	'Tôi sẽ không thua'
+-	R
+-	'con gái của Masou.'
+-	\L_07e76:
+-	ZH 1:
+-	'Cậu là người đã dạy tôi'
+-	R
+-	'không thể thua, phải không?'
+-	R
+-	'Vì vậy tôi sẽ không làm vậy.'
+-	\L_07e76:
+-	ZH 1:
+-	'Tôi sẽ không'
+-	R
+-	'thua bất cứ điều gì,'
+-	\L_07e76:
+-	ZH 1:
+-	'thậm chí không giành'
+-	R
+-	'được tình yêu của cậu...'
+-	\L_07e76:
+-	ZH 1:
+-	'Tôi sẽ thắng.'
+-	R
+-	'Nàng sẽ không cướp cậu khỏi'
+-	R
+-	'tôi. Cậu nên thích điều đó.'
++	'Sư phụ...... Cha.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Cơ thể Ragarl từ'
++	R
++	'từ trượt xuống, tầm'
++	R
++	'nhìn Shizuka mở ra.'
++	\L_07e76:
++	ZH 1:
++	'Trước mặt là Nagi. Sau lưng'
++	R
++	'Ragarl cắm một thanh kiếm.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Cha...... cha định'
++	R
++	'vứt bỏ con sao?'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Nagi, cô......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Cha sẽ không vứt bỏ con'
++	R
++	'đâu nhỉ. Con luôn tuân'
++	R
++	'theo mệnh lệnh của cha.'
++	\L_07e76:
++	ZH 1:
++	'Con sẽ không thua'
++	R
++	'con gái Masou.'
++	\L_07e76:
++	ZH 1:
++	'Người dạy con không được'
++	R
++	'thua là cha mà, đúng không?'
++	R
++	'Nên con sẽ không thua.'
++	\L_07e76:
++	ZH 1:
++	'Chuyện gì con'
++	R
++	'cũng không thua,'
++	\L_07e76:
++	ZH 1:
++	'kể cả tình yêu của cha......'
++	\L_07e76:
++	ZH 1:
++	'Con sẽ thắng, không để'
++	R
++	'ai cướp mất. Như thế là'
++	R
++	'được phải không, cha.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -6170,13 +6038,13 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'... Na-...gi...'
++	'......Na...... gi......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+ 	\L_07d89:
+ 	ZH 1:
+-	'（dậm chân）'
++	'(rầm rầm rầm rầm)'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -6186,11 +6054,11 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Đột nhiên bên ngoài trở'
+-	R
+-	'nên ồn ào và hàng tấn binh'
+-	R
+-	'lính Leazas bước vào trong.'
++	'Bên ngoài bỗng ồn'
++	R
++	'ào, rồi rất đông'
++	R
++	'lính Leazas xông vào.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07db3:
+@@ -6198,14 +6066,14 @@
+ 	\L_07da5:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Cô ổn chứ, cô Masou?'
++	'Cô không sao chứ, cô Masou?'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 49!
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Vâng... Bằng cách nào đó.'
++	'Ừ...... cũng tạm...... ổn.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07db3:
+@@ -6214,42 +6082,38 @@
+ 	\L_07da5:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Gahahahaha!, Vua Rance đến'
+-	R
+-	'rồi... Ồ, ông ấy chết rồi.'
+-	R
+-	'Ngươi đã làm được điều đó.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'... Hắn đã nhận'
+-	R
+-	'được những gì đang đến với'
+-	R
+-	'mình. Tôi không làm gì cả.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Ừm, thật sao?'
+-	R
+-	'Này này, dù sao thì điều'
+-	R
+-	'này cũng tốt. Cằm lên.'
+-	\L_07e76:
+-	ZH 1:
+-	'Bây giờ...'
+-	\L_07e76:
+-	ZH 1:
+-	'Uhaha, ta có việc cần làm'
+-	R
+-	'với cô gái này. Này, cô gái.'
+-	\L_07e76:
+-	ZH 1:
+-	'Tên ngươi là'
+-	R
+-	'Nagi phải không?'
++	'Gahahaha, Rance đại gia giá'
++	R
++	'đáo. Thế nào Shizuka... ồ,'
++	R
++	'lão già chết rồi. Được đấy.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'......Gọi là quả báo'
++	R
++	'đấy. Không phải tôi giết.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Hửm, vậy à? Mà thôi, tốt'
++	R
++	'chứ sao. Hả dạ rồi nhé.'
++	\L_07e76:
++	ZH 1:
++	'Nào......'
++	\L_07e76:
++	ZH 1:
++	'uhaha, việc của bản'
++	R
++	'đại gia là với cô'
++	R
++	'con gái. Này, cô kia.'
++	\L_07e76:
++	ZH 1:
++	'Tên là Nagi nhỉ.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -6257,23 +6121,21 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'... Cái gì,'
+-	R
+-	'Vua của Leazas?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Ta đã nhìn thấy'
+-	R
+-	'ngươi ở vùng đồng bằng.'
+-	R
+-	'Ngươi thật dễ thương.'
+-	\L_07e76:
+-	ZH 1:
+-	'Hãy đến Leazas và trở'
+-	R
+-	'thành người phụ nữ của ta.'
++	'......Gì, Vua Leazas.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Từ lúc ở bình nguyên'
++	R
++	'ta đã để mắt tới rồi.'
++	R
++	'Cô dễ thương lắm.'
++	\L_07e76:
++	ZH 1:
++	'Về Leazas, làm'
++	R
++	'đàn bà của ta đi.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -6281,16 +6143,16 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Lại nữa...!?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Rance đưa tay ra nắm lấy'
+-	R
+-	'cánh tay của Nagi. Cô cúi'
+-	R
+-	'xuống và im lặng nhìn anh.'
++	'Lại thế nữa......!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Rance đưa tay định nắm'
++	R
++	'tay Nagi. Nagi lùi phắt'
++	R
++	'lại, lặng lẽ nhìn Rance.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -6303,40 +6165,34 @@
+ 	\L_07e69:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Ồ, khuôn mặt lạnh'
+-	R
+-	'lùng đó thật tuyệt...'
+-	\L_07e76:
+-	ZH 1:
+-	'Ngươi đang đánh giá ta à?'
+-	\L_07e76:
+-	ZH 1:
+-	'Ta chỉ có thể'
+-	R
+-	'nói với ngươi rằng giá'
+-	R
+-	'trị của ta là vô hạn.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'... Tôi không'
+-	R
+-	'phiền đâu. Tôi có thể'
+-	R
+-	'trở thành của cậu.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Ồ, không mất nhiều'
+-	R
+-	'thời gian để ngươi...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Với một điều kiện.'
++	'Ồ, được đấy, gương'
++	R
++	'mặt lạnh lùng đó......'
++	\L_07e76:
++	ZH 1:
++	'Định giá ta à?'
++	\L_07e76:
++	ZH 1:
++	'Nói trước, giá trị'
++	R
++	'của ta là vô hạn đấy.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'............Được thôi.'
++	R
++	'Làm của ngươi cũng được.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Ồ, hiểu chuyện ghê......'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Có điều.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07db3:
+@@ -6349,18 +6205,18 @@
+ 	\L_07e69:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Nagi ngắt lời Rance và chỉ'
+-	R
+-	'vào Shizuka, người đang được'
+-	R
+-	'lính của Leazas chăm sóc.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Chỉ khi cậu lái'
+-	R
+-	'Shizuka Masou khỏi Leazas.'
++	'Nagi cắt ngang lời Rance,'
++	R
++	'chỉ vào Shizuka đang được'
++	R
++	'lính Leazas chăm sóc.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Nếu ngươi đuổi Masou'
++	R
++	'Shizuka khỏi Leazas.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07db3:
+@@ -6368,7 +6224,7 @@
+ 	\L_07da5:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Trời... Tại sao vậy?'
++	'Hả...... sao lại thế.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -6376,11 +6232,11 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Ý cậu là tại'
+-	R
+-	'sao? Cậu có dự định giữ'
+-	R
+-	'cả hai chúng tôi không?'
++	'Sao với chả trăng gì'
++	R
++	'nữa. Anh định ôm cả'
++	R
++	'tôi lẫn con bé này à?'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07db3:
+@@ -6388,33 +6244,31 @@
+ 	\L_07da5:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Con gái của'
+-	R
+-	'Masou đã cướp mất vị trí của'
+-	R
+-	'tôi. Cha tôi... Thầy tôi...'
+-	\L_07e76:
+-	ZH 1:
+-	'Vậy nên tôi cũng'
+-	R
+-	'sẽ cướp của nàng.'
++	'Con gái Masou đã'
++	R
++	'cướp chỗ của tôi.'
++	R
++	'Cha......... sư phụ......'
++	\L_07e76:
++	ZH 1:
++	'Nên tôi cũng cướp lại.'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Địa vị của con gái Masou'
+ 	R
+-	'ở Leazas sẽ thuộc về tôi.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'... Trạng'
+-	R
+-	'thái... Tôi không cần thứ'
+-	R
+-	'đó. Cậu có thể có nó...'
+-	\L_07e76:
+-	ZH 1:
+-	'Hãy làm những gì cậu muốn.'
++	'ở Leazas, tôi sẽ lấy.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'.........Địa vị......'
++	R
++	'Tôi chẳng cần thứ'
++	R
++	'đó. Cho cô......'
++	\L_07e76:
++	ZH 1:
++	'muốn làm gì thì làm?'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07db3:
+@@ -6422,49 +6276,45 @@
+ 	\L_07da5:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Này, chờ đã, ngươi'
+-	R
+-	'không được quyết định đâu.'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka, em vẫn'
+-	R
+-	'còn lời hứa với anh.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nếu ngươi đánh bại'
+-	R
+-	'Ragarl, ngươi hãy nghe ta.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Tôi không đánh...'
+-	R
+-	'... Sao cũng được. Tranh'
+-	R
+-	'luận trở nên khó chịu...'
+-	\L_07e76:
+-	ZH 1:
+-	'Vậy thì hãy'
+-	R
+-	'làm điều này. Rance,'
+-	R
+-	'quyết định chọn ai.'
+-	\L_07e76:
+-	ZH 1:
+-	'Tôi giữ lời'
+-	R
+-	'hứa nếu cậu chọn tôi, nếu'
+-	R
+-	'không thì tôi sẽ không.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Mgh... Thật là'
+-	R
+-	'vô trách nhiệm.'
++	'Khoan đã nào, đừng tự quyết.'
++	\L_07e76:
++	ZH 1:
++	'Shizuka, cô vẫn'
++	R
++	'còn lời hứa đấy.'
++	\L_07e76:
++	ZH 1:
++	'Hạ được Ragarl thì cái'
++	R
++	'gì cũng nghe ta cơ mà.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Có phải tôi hạ đâu......'
++	R
++	'......Thôi được. Phiền'
++	R
++	'chết đi được......'
++	\L_07e76:
++	ZH 1:
++	'Vậy thì thế này đi.'
++	R
++	'Rance quyết định chọn ai.'
++	\L_07e76:
++	ZH 1:
++	'Chọn tôi thì tôi giữ'
++	R
++	'lời, chọn con bé thì'
++	R
++	'lời hứa xóa sạch.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Hừm...... sao nghe'
++	R
++	'buông xuôi thế.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -6472,11 +6322,11 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'... Hãy chọn sớm đi,'
+-	R
+-	'Vua của Leazas. Cậu sẽ đưa'
+-	R
+-	'tôi hay con gái của Masou?'
++	'......Chọn nhanh'
++	R
++	'đi, Vua Leazas. Tôi'
++	R
++	'hay con gái Masou.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d51:
+@@ -6495,7 +6345,7 @@
+ 	$
+ 	R
+ 	$L_06a4e$
+-	'Xuka'
++	'Shizuka'
+ 	$
+ 	R
+ 	$L_06f06$
+@@ -6506,11 +6356,11 @@
+ *L_06927:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Đó là điều hiển'
+-	R
+-	'nhiên. Shizuka là người'
+-	R
+-	'phụ nữ dễ thương của tôi.'
++	'Chuyện đó khỏi phải'
++	R
++	'nghĩ. Shizuka là đàn'
++	R
++	'bà dễ thương của ta.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -6518,9 +6368,9 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Cậu đang gọi người'
+-	R
+-	'phụ nữ của mình là ai...?'
++	'Ai là đàn bà của'
++	R
++	'anh chứ......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -6533,23 +6383,19 @@
+ 	\L_07e69:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Nhưng Nagi'
+-	R
+-	'cũng giỏi. Cô không thua'
+-	R
+-	'khi nói đến sự dễ thương.'
+-	\L_07e76:
+-	ZH 1:
+-	'Vậy cô phải là'
+-	R
+-	'người phụ nữ của tôi.'
+-	R
+-	'Tôi chọn cả hai ngươi.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Vậy thì tôi sẽ giết anh.'
++	'Nhưng Nagi cũng được,'
++	R
++	'dễ thương chẳng kém.'
++	\L_07e76:
++	ZH 1:
++	'Nên cũng phải làm đàn bà'
++	R
++	'của ta. Tức là, cả hai.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Vậy thì tôi sẽ giết ngươi.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -6557,30 +6403,22 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Điều đó tôi cũng'
+-	R
+-	'không thể chấp nhận được,'
+-	\L_07e76:
+-	ZH 1:
+-	'nếu phải'
+-	R
+-	'ở bên con gái kẻ thù của bố'
+-	R
+-	'tôi thì tôi sẽ bỏ mình đi.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Ugh, những'
+-	R
+-	'người phụ nữ này...'
+-	\L_07e76:
+-	ZH 1:
+-	'Chết tiệt,'
+-	R
+-	'tôi nên chọn cái nào'
+-	R
+-	'đây?... Hmmmmmmmmmm.'
++	'Tôi cũng xin kiếu,'
++	\L_07e76:
++	ZH 1:
++	'ở chung với con gái kẻ thù'
++	R
++	'giết cha à...... tôi tự đi.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Ư, mấy con đàn bà này......'
++	\L_07e76:
++	ZH 1:
++	'Khốn thật, chọn ai'
++	R
++	'đây...... .........Ừmmmm.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	@L_068dc:
+@@ -6590,11 +6428,9 @@
+ 	!VAR0795 : VAR0517!
+ 	\L_07d51:
+ 	ZH 1:
+-	'Mmgh... Được'
+-	R
+-	'rồi, tôi quyết định rồi.'
+-	R
+-	'Shizuka, tôi chọn Shizuka.'
++	'Ừmmmmm...... được, quyết'
++	R
++	'rồi. Shizuka, chọn Shizuka.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -6602,7 +6438,7 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Trời ạ...'
++	'Ặc......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -6615,202 +6451,184 @@
+ 	\L_07e69:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Đừng nghĩ xấu'
+-	R
+-	'về tôi, Nagi.'
+-	\L_07e76:
+-	ZH 1:
+-	'Nếu tôi không bắt'
+-	R
+-	'cô giữ lời hứa thì tôi'
+-	R
+-	'chẳng làm việc gì cả.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Tôi hiểu rồi...'
+-	R
+-	'Vậy cậu cũng chọn'
+-	R
+-	'con gái của Masou à?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Tôi vừa nói rồi,'
+-	R
+-	'chúng ta có một lời hứa.'
+-	\L_07e76:
+-	ZH 1:
+-	'Tôi có thể đưa ngươi'
+-	R
+-	'vào phòng xa nhất có thể'
+-	R
+-	'với cô, vì vậy ngươi nên...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'（tuyệt vời!）'
++	'Đừng giận nhé, Nagi.'
++	\L_07e76:
++	ZH 1:
++	'Không bắt cô ấy giữ lời thì'
++	R
++	'ta thành làm không công mất.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Vậy à...... Vua Leazas'
++	R
++	'cũng chọn con gái Masou.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Thì đấy, lời hứa mà.'
++	\L_07e76:
++	ZH 1:
++	'Nếu muốn thì ta xếp'
++	R
++	'phòng xa nhau hết'
++	R
++	'mức, nên cô cũng......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'(rầm!)'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Ôi.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Nagi đẩy Rance ra'
+-	R
+-	'và lao ra khỏi phòng.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Ah, này, đi theo cô...'
+-	R
+-	'Cậu sẽ không thoát được đâu!'
+-	\L_07e76:
+-	ZH 1:
+-	'Giờ nghĩ lại thì tôi'
+-	R
+-	'đã thắng nên lẽ ra tôi nên'
+-	R
+-	'dùng vũ lực để chiếm lấy cô.'
+-	\L_07e76:
+-	ZH 1:
+-	'Đuổi theo cô!'
++	'Oái.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Nagi đẩy Rance ra,'
++	R
++	'lao vụt khỏi phòng.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'A, này, đuổi theo......'
++	R
++	'đừng để nó thoát!'
++	\L_07e76:
++	ZH 1:
++	'Nghĩ kỹ thì ta là kẻ'
++	R
++	'thắng, cứ cưỡng ép cướp'
++	R
++	'về khỏi nói nhiều là xong.'
++	\L_07e76:
++	ZH 1:
++	'Đuổi theo, đuổi theo!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 471!
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Vâng, Vua Rance...!'
++	'Rõ......!'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Quân Leazas đuổi'
+-	R
+-	'Nagi ra khỏi phòng.'
+-	\L_07e76:
+-	ZH 1:
+-	'Khi họ còn lại'
+-	R
+-	'một mình, Rance quay'
+-	R
+-	'Shizuka về phía anh.'
++	'Đám lính Leazas cũng đuổi'
++	R
++	'theo Nagi ra khỏi phòng.'
++	\L_07e76:
++	ZH 1:
++	'Còn lại hai người,'
++	R
++	'Rance quay sang Shizuka.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 49!
+ 	\L_07e15:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Bây giờ, Shizuka.'
+-	R
+-	'Có lẽ sự trả thù của'
+-	R
+-	'ngươi đã kết thúc.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Có lẽ vậy...'
+-	R
+-	'Một cách kết thúc kỳ lạ,'
+-	R
+-	'nhưng khi tôi nhìn Nagi...'
+-	\L_07e76:
+-	ZH 1:
+-	'tôi nghĩ nó có thể hay.'
+-	\L_07e76:
+-	ZH 1:
+-	'Hết rồi... Cha... Mẹ...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Shizuka nhẹ'
+-	R
+-	'nhàng nhắm mắt lại. Cô có'
+-	R
+-	'vẻ mặt yên bình và mệt mỏi.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Bây giờ, sao ngươi'
+-	R
+-	'không giữ lời hứa của mình?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'（swoosh）'
+-	\L_07e76:
+-	ZH 1:
+-	'Đôi mắt nhắm'
+-	R
+-	'nghiền của cô sớm mở to.'
+-	R
+-	'Rance vòng tay qua vai cô.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Đợi đã, cậu'
+-	R
+-	'đang làm gì vậy?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Cái gì, cậu'
+-	R
+-	'định thất hứa rồi à?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Ờ...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Uhaha, bây giờ không'
+-	R
+-	'lấy lại được đâu, Shizuka.'
+-	\L_07e76:
+-	ZH 1:
+-	'Ngươi đã nói điều'
+-	R
+-	'đó hai lần, hồi ở vùng đồng'
+-	R
+-	'bằng và khi tôi chọn ngươi.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Uu, ggh, ggh...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Thôi, nhanh quay'
+-	R
+-	'lại và chết tiệt.'
+-	\L_07e76:
+-	ZH 1:
+-	'Tôi sẽ nhẹ nhàng để không'
+-	R
+-	'làm tổn thương vết thương'
+-	R
+-	'của ngươi. Hãy biết ơn.'
++	'Nào, Shizuka. Mối thù'
++	R
++	'của cô cũng xong rồi nhỉ.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Ừ thì...... kết thúc'
++	R
++	'kỳ quặc thật, nhưng'
++	R
++	'nhìn con bé đó......'
++	\L_07e76:
++	ZH 1:
++	'tôi nghĩ có lẽ thế lại hay.'
++	\L_07e76:
++	ZH 1:
++	'Kết thúc rồi......'
++	R
++	'cha......... mẹ.........'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Shizuka khẽ nhắm mắt. Vẻ'
++	R
++	'mặt thanh thản như đang ngủ.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Vậy thì, giữ lời'
++	R
++	'hứa thôi nhỉ.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'(bừng)'
++	\L_07e76:
++	ZH 1:
++	'Đôi mắt vừa nhắm đã phải'
++	R
++	'mở ra ngay. Rance đang'
++	R
++	'vòng tay qua vai nàng.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Này, làm gì đấy.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Gì, định nuốt lời luôn à?'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Ư.........'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Uhaha, giờ không rút'
++	R
++	'lại được đâu, Shizuka.'
++	\L_07e76:
++	ZH 1:
++	'Cô đã tuyên bố hai'
++	R
++	'lần rồi, ở bình nguyên'
++	R
++	'và lúc ta chọn cô.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Ư, hự, hự......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Thế thì, làm luôn ở'
++	R
++	'đây. Trước hết một phát,'
++	\L_07e76:
++	ZH 1:
++	'ta sẽ nhẹ nhàng cho khỏi'
++	R
++	'động vết thương, biết ơn đi.'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'Gahahahaha!'
+@@ -6818,16 +6636,16 @@
+ 	\L_07e69:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Thật vô lý...!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Rance tiến lại gần và'
+-	R
+-	'Shizuka lùi lại... Sau đó'
+-	R
+-	'một người lính quay lại.'
++	'Sao lại, vô lý thế......!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Rance tiến lại, Shizuka'
++	R
++	'lùi dần...... đúng'
++	R
++	'lúc đó, lính quay về.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -6835,38 +6653,36 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Vua Rance, tôi xin lỗi.'
+-	R
+-	'Chúng tôi đã mất dấu Nagi.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Ch, đồ ngu... Ngươi chỉ'
+-	R
+-	'nhanh chóng quay lại thôi.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Hả? Hah...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Thôi, sao cũng được...'
+-	\L_07e76:
+-	ZH 1:
+-	'Anh không thể'
+-	R
+-	'thoát khỏi lời hứa của mình'
+-	R
+-	'được. Hiểu chưa, Shizuka?'
+-	\L_07e76:
+-	ZH 1:
+-	'Khi tôi gọi cho'
+-	R
+-	'ngươi, hãy đến phòng tôi.'
++	'Bệ hạ Rance, thần xin lỗi.'
++	R
++	'Đã để mất dấu pháp sư Nagi.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Chậc, đồ chậm chạp......'
++	R
++	'được mỗi cái về nhanh.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Dạ? Dạ......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Thôi được......'
++	\L_07e76:
++	ZH 1:
++	'lời hứa thì không chạy'
++	R
++	'đâu. Rõ chưa, Shizuka.'
++	\L_07e76:
++	ZH 1:
++	'Ta gọi là phải'
++	R
++	'tới phòng đấy.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -6874,7 +6690,7 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Đ-Được rồi...'
++	'Đ, được rồi mà.........'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 0!
+@@ -6883,39 +6699,35 @@
+ *L_06f06:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Mmmmmmmmmmmmmmmmmmgh.'
+-	R
+-	'Điề u này thật khó khăn...'
++	'Ừmmmmmmmmmm.'
++	R
++	'Khó quá.........'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d6d:
+ 	ZH 1:
+-	'Tuy nhiên, Nagi có'
+-	R
+-	'vẻ thích tôi hơn Shizuka...'
+-	\L_07e76:
+-	ZH 1:
+-	'Ngoài ra, tôi đã'
+-	R
+-	'làm Shizuka vài lần, nhưng'
+-	R
+-	'chưa bao giờ làm Nagi...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Hmmmmmmmmmmmmmmmmmmmmmmm'
+-	R
+-	'm. Chà, tôi không thể'
+-	R
+-	'để một cô gái đi được.'
+-	\L_07e76:
+-	ZH 1:
+-	'Huyền thoại'
+-	R
+-	'của tôi sẽ phải chịu đựng'
+-	R
+-	'điều đó. Tôi chọn Nagi.'
++	'Nhưng Nagi có vẻ thích'
++	R
++	'ta hơn Shizuka......'
++	\L_07e76:
++	ZH 1:
++	'Lại nữa, Shizuka thì'
++	R
++	'ta làm mấy lần rồi,'
++	R
++	'còn Nagi thì chưa......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Ừmmmmmmmmmm. Phải rồi,'
++	R
++	'không được để sót.'
++	\L_07e76:
++	ZH 1:
++	'Huyền thoại của ta sẽ'
++	R
++	'bị vấy bẩn. Chọn Nagi.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -6936,30 +6748,30 @@
+ 	\L_07e69:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Cái gì...? Này, tôi đã'
+-	R
+-	'nói là tôi chọn Nagi mà.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Vậy điều đó có nghĩa'
+-	R
+-	'là cậu đang ném con gái của'
+-	R
+-	'Masou đi, Vua của Leazas.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Không, điều đó'
+-	R
+-	'không hẳn đúng, nhưng...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Nagi đến gặp Rance.'
++	'Gì thế...... này, ta'
++	R
++	'bảo chọn Nagi rồi mà.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Vậy là Vua Leazas'
++	R
++	'bỏ con gái Masou.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Không, cũng không'
++	R
++	'hẳn là thế......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Nagi nhẹ nhàng đến'
++	R
++	'bên cạnh Rance.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -6975,28 +6787,26 @@
+ 	\L_07da5:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Ra ngoài đi, con gái của'
+-	R
+-	'Masou. Đây là chỗ của tôi.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'... Tôi không'
+-	R
+-	'phải là một đứa trẻ.'
+-	\L_07e76:
+-	ZH 1:
+-	'Tôi đã nói'
+-	R
+-	'là tôi sẽ nhường chỗ'
+-	R
+-	'cho cậu ngay từ đầu.'
+-	\L_07e76:
+-	ZH 1:
+-	'Thôi, tôi để việc đó'
+-	R
+-	'cho tên vua ngu ngốc đó.'
++	'Đi đi, con gái Masou.'
++	R
++	'Đây là chỗ của tôi.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'............Có'
++	R
++	'phải trẻ con đâu.'
++	\L_07e76:
++	ZH 1:
++	'Ngay từ đầu tôi đã'
++	R
++	'bảo nhường rồi còn gì.'
++	\L_07e76:
++	ZH 1:
++	'Vậy, giao tên vua'
++	R
++	'ngốc đó cho cô.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07db3:
+@@ -7004,11 +6814,9 @@
+ 	\L_07da5:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Này Shizuka, ngươi'
+-	R
+-	'đang nói ai là ngu'
+-	R
+-	'ngốc vậy? Ngươi...'
++	'Này Shizuka, ai ngốc'
++	R
++	'hả, cái con......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -7016,11 +6824,9 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Vua của Leazas,'
+-	R
+-	'đừng bận tâm đến người'
+-	R
+-	'mà cậu đã vứt bỏ.'
++	'Vua Leazas, đừng bận'
++	R
++	'tâm đến kẻ đã bị bỏ.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -7028,25 +6834,25 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'............ Rance,'
+-	R
+-	'nói với Maria và những'
+-	R
+-	'người khác giúp tôi.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Này, Shizuka...'
+-	R
+-	'Cậu định đi đâu thế?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'... Nơi nào'
+-	R
+-	'đó không có cậu.'
++	'...............Rance,'
++	R
++	'cho tôi gửi lời'
++	R
++	'tới nhóm Maria nhé.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Này, Shizuka......'
++	R
++	'cô định đi đâu?'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'............Nơi'
++	R
++	'không có anh.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07e23:
+@@ -7059,28 +6865,26 @@
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Vua của Leazas, ngài'
+-	R
+-	'không làm như đã hứa sao?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Ờ... Ừm...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Rance bị Nagi giữ lại'
+-	R
+-	'và nhìn theo bóng lưng'
+-	R
+-	'Shizuka khi cô bước đi.'
+-	\L_07e76:
+-	ZH 1:
+-	'Shizuka Masou rút'
+-	R
+-	'khỏi Quân đội Leazas.'
++	'Vua Leazas, định'
++	R
++	'nuốt lời sao.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Hừm......... ừm......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Bị Nagi giữ lại, Rance đành'
++	R
++	'nhìn theo bóng lưng Shizuka.'
++	\L_07e76:
++	ZH 1:
++	'Masou Shizuka đã rời'
++	R
++	'khỏi quân Leazas.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0154 : 17!
+@@ -7107,28 +6911,26 @@
+ 	\L_07d89:
+ 	ZM 32:
+ 	ZH 1:
+-	'Vùng đất của quỷ'
++	'Đất của ma nhân'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Rừng xương Bầu'
+-	R
+-	'không khí lầy lội, và quái'
+-	R
+-	'vật tràn ngập khắp nơi...'
+-	\L_07e76:
+-	ZH 1:
+-	'Trong khu rừng'
+-	R
+-	'này, một người bình thường'
+-	R
+-	'sẽ không trụ được một giờ.'
+-	\L_07e76:
+-	ZH 1:
+-	'Một cô gái đang đi bộ một'
+-	R
+-	'mình qua đó. Cô gái đã thua'
++	'Rừng Xương'
++	R
++	'Khí độc đặc quánh xoáy'
++	R
++	'cuộn, quái vật nhung nhúc...'
++	\L_07e76:
++	ZH 1:
++	'Khu rừng mà người thường'
++	R
++	'không sống nổi một giờ.'
++	\L_07e76:
++	ZH 1:
++	'Một cô gái đang đi'
++	R
++	'qua đó. Kẻ đã thua'
+ 	R
+ 	'Shizuka, Nagi su Ragarl.'
+ 	\L_07e76:
+@@ -7137,54 +6939,44 @@
+ 	\L_07da5:
+ 	\L_07d6d:
+ 	ZH 1:
+-	'Shizuka... Masou... Tôi'
+-	R
+-	'sẽ không tha thứ cho anh...'
+-	\L_07e76:
+-	ZH 1:
+-	'Ngay cả khi không'
+-	R
+-	'có chủ nhân của tôi...'
+-	\L_07e76:
+-	ZH 1:
+-	'tôi cũng'
+-	R
+-	'sẽ không làm vậy. Tôi'
+-	R
+-	'phải đánh bại cậu...'
+-	\L_07e76:
+-	ZH 1:
+-	'Ở đây... Trong'
+-	R
+-	'Khu rừng Quái vật...'
+-	R
+-	'Tôi sẽ huấn luyện...'
+-	\L_07e76:
+-	ZH 1:
+-	'Tôi sẽ gặp'
+-	R
+-	'một con quỷ... Và'
+-	R
+-	'có được sức mạnh...'
+-	\L_07e76:
+-	ZH 1:
+-	'Nếu điều đó'
+-	R
+-	'giúp đánh bại Shizuka...'
+-	\L_07e76:
+-	ZH 1:
+-	'Tôi sẽ vứt bỏ'
+-	R
+-	'nhân tính của mình và trở'
+-	R
+-	'thành tông đồ của quỷ...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Nagi tiếp tục đi'
+-	R
+-	'bộ xuyên rừng một mình...'
++	'Masou...... Shizuka......'
++	R
++	'không tha......'
++	\L_07e76:
++	ZH 1:
++	'Dù không còn sư phụ......'
++	\L_07e76:
++	ZH 1:
++	'không tha, phải thắng......'
++	\L_07e76:
++	ZH 1:
++	'Ở đây...... trong'
++	R
++	'khu rừng ma vật......'
++	R
++	'ta sẽ tu luyện......'
++	\L_07e76:
++	ZH 1:
++	'Gặp ma nhân...... đoạt'
++	R
++	'lấy sức mạnh ấy...'
++	\L_07e76:
++	ZH 1:
++	'Nếu là để hạ Shizuka......'
++	\L_07e76:
++	ZH 1:
++	'ta sẽ vứt bỏ làm'
++	R
++	'người, trở thành sứ'
++	R
++	'đồ của ma nhân......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Nagi một mình tiếp tục bước'
++	R
++	'qua khu rừng ma vật......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 0!
+@@ -7213,166 +7005,160 @@
+ 	\L_07d89:
+ 	ZM 32:
+ 	ZH 1:
+-	'Vùng đất của quỷ'
++	'Đất của ma nhân'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+ 	'Lâu đài Kesselring'
+ 	R
+-	'Nagi đang lang thang'
+-	R
+-	'trong Khu rừng quái vật,'
+-	\L_07e76:
+-	ZH 1:
+-	'kiệt sức sau vô số trận'
+-	R
+-	'chiến thì đến một lâu đài.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Lâu đài này...'
+-	\L_07e76:
+-	ZH 1:
+-	'Có ai ở đây không...? Đây'
+-	R
+-	'có phải là lâu đài của quái'
+-	R
+-	'vật không...?... Ai ở đó!?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Nagi đứng cảnh giác và quay'
+-	R
+-	'lại, cô nhìn thấy một cô gái'
+-	R
+-	'bình thường đang cầm chổi.'
++	'Lang thang trong rừng ma'
++	R
++	'vật, kiệt sức sau bao trận'
++	\L_07e76:
++	ZH 1:
++	'đánh quái vật...... Nagi đến'
++	R
++	'được một tòa lâu đài lớn.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Đây là......'
++	\L_07e76:
++	ZH 1:
++	'Có ai không...... lâu đài'
++	R
++	'của quái vật sao......'
++	R
++	'............Ai đó!?'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Nagi lập tức thủ thế quay'
++	R
++	'lại, ở đó là một cô gái'
++	R
++	'bình thường cầm chổi.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 469!
+ 	\L_07e15:
+ 	\L_07dc1:
+ 	ZH 1:
+-	'Ôi...!'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Một con người... Tại'
+-	R
+-	'sao cậu... ở đây...?'
++	'Kyah......!'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Con người......... ở nơi'
++	R
++	'thế này...... vì sao......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07db3:
+ 	\L_07d89:
+ 	ZH 1:
+-	'（nghẹt thở...）'
+-	\L_07e76:
+-	ZH 1:
+-	'Nagi cạn kiệt năng'
+-	R
+-	'lượng và gục xuống.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Đó là điều tôi muốn hỏi...'
+-	\L_07e76:
+-	ZH 1:
+-	'Tại sao cậu'
+-	R
+-	'lại...?…Ồ không, vết thương'
+-	R
+-	'của nàng thật khủng khiếp.'
+-	\L_07e76:
+-	ZH 1:
+-	'Tệ quá, tôi'
+-	R
+-	'phải làm sao đây...?'
+-	\L_07e76:
+-	ZH 1:
+-	'Dù thế nào đi'
+-	R
+-	'nữa, tôi sẽ đưa nàng'
+-	R
+-	'về phòng của mình...'
+-	\L_07e76:
+-	ZH 1:
+-	'À.'
++	'(bịch...)'
++	\L_07e76:
++	ZH 1:
++	'Đến đó thì cạn sức,'
++	R
++	'Nagi gục xuống.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Câu đó phải là tôi'
++	R
++	'hỏi mới đúng...'
++	\L_07e76:
++	ZH 1:
++	'Này, cô ơi, sao lại......'
++	R
++	'......không được,'
++	R
++	'vết thương nặng quá.'
++	\L_07e76:
++	ZH 1:
++	'Gay rồi, làm sao đây......'
++	\L_07e76:
++	ZH 1:
++	'Dù sao cũng đưa cô'
++	R
++	'ấy về phòng đã...'
++	\L_07e76:
++	ZH 1:
++	'......A.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 416!
+ 	\L_07da5:
+ 	\L_07d51:
+ 	ZH 1:
+-	'Có chuyện gì vậy Varen?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Một người'
+-	R
+-	'đàn ông mặc áo choàng'
+-	R
+-	'đen tuyền xuất hiện....'
+-	\L_07e76:
+-	ZH 1:
+-	'Đó là'
+-	R
+-	'Kesselring, một con quỷ.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Cô gái này'
+-	R
+-	'đến đây với những vết'
+-	R
+-	'thương nặng và gục xuống.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Hô, một cô gái xinh đẹp...'
+-	\L_07e76:
+-	ZH 1:
+-	'Nàng đến đây với'
+-	R
+-	'cơ thể con người...?'
+-	R
+-	'Điều đó khá ấn tượng.'
+-	\L_07e76:
+-	ZH 1:
+-	'Cậu đã tìm được nàng rất'
+-	R
+-	'tốt, Varen... Tôi sẽ tặng'
+-	R
+-	'cậu một con tem khen thưởng.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07dc1:
+-	ZH 1:
+-	'Ah... Cảm'
+-	R
+-	'ơn ông... Ông Kesselring,'
+-	R
+-	'ông có nhận nàng vào không?'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Vâng, có lẽ tôi sẽ'
+-	R
+-	'kết bạn mới với nàng.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Nagi được Kesselring'
+-	R
+-	'đón và đưa về lâu đài...'
++	'Có chuyện gì thế, Fahren.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Đúng lúc đó, một người'
++	R
++	'đàn ông khoác áo choàng'
++	R
++	'đen tuyền xuất hiện.'
++	\L_07e76:
++	ZH 1:
++	'......Ma nhân Kesselring.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'Cô gái này...... bị thương'
++	R
++	'nặng lắm, ngã gục ở đây ạ.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Hô, một cô gái đẹp......'
++	\L_07e76:
++	ZH 1:
++	'Thân là người mà'
++	R
++	'một mình đến tận đây'
++	R
++	'sao...... đáng nể.'
++	\L_07e76:
++	ZH 1:
++	'Fahren, tìm được giỏi'
++	R
++	'lắm... ta sẽ đóng dấu'
++	R
++	'khen thưởng cho con.'
++	\L_07e76:
++	\L_07e69:
++	\L_07dc1:
++	ZH 1:
++	'A...... cảm ơn ngài......'
++	R
++	'Vậy ngài Kesselring,'
++	R
++	'cô gái này.........'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'À, có khi sẽ thành bạn'
++	R
++	'mới của các con đấy.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Nagi được Kesselring bế'
++	R
++	'lên, đón vào lâu đài......'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 0!
+@@ -7395,81 +7181,77 @@
+ 	\L_07d89:
+ 	ZM 32:
+ 	ZH 1:
+-	'Vùng đất của quỷ'
++	'Đất của ma nhân'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Rừng xương'
++	'Rừng Xương'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 45!
+ 	\L_07da5:
+ 	\L_07d89:
+ 	ZH 1:
+-	'Nagi đang loạng choạng'
+-	R
+-	'giữa khung cảnh hoang vắng.'
+-	\L_07e76:
+-	ZH 1:
+-	'Cơ thể cô bị thương và'
+-	R
+-	'rách nát, có thể do phải vật'
+-	R
+-	'lộn qua nhiều trận chiến.'
++	'Giữa cảnh hoang tàn,'
++	R
++	'Nagi lảo đảo bước đi.'
++	\L_07e76:
++	ZH 1:
++	'Đã vượt qua biết bao'
++	R
++	'trận chiến, thân thể'
++	R
++	'nàng thương tích tơi tả.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	\L_07d6d:
+ 	ZH 1:
+-	'Tôi sẽ không thua...'
+-	R
+-	'Tôi sẽ thắng... Tôi sẽ'
+-	R
+-	'đánh bại... Shizuka Masou...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'（nghẹt thở...）'
+-	\L_07e76:
+-	ZH 1:
+-	'Chân của Nagi kiệt'
+-	R
+-	'sức và cô ngã xuống đất.'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d51:
+-	ZH 1:
+-	'Thầy...'
+-	\L_07e76:
+-	ZH 1:
+-	'... Cha...'
+-	\L_07e76:
+-	\L_07e69:
+-	\L_07d89:
+-	ZH 1:
+-	'Nagi cảm thấy'
+-	R
+-	'cơ thể mình dần dần'
+-	R
+-	'ngừng chuyển động.'
+-	\L_07e76:
+-	ZH 1:
+-	'Sau đó cô'
+-	R
+-	'cảm nhận được những con'
+-	R
+-	'quái vật đang đến gần cô.'
++	'Không thua...... phải'
++	R
++	'thắng...... thắng'
++	R
++	'Masou Shizuka......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'(phịch......)'
++	\L_07e76:
++	ZH 1:
++	'Đôi chân rã rời vấp vào'
++	R
++	'nhau, Nagi ngã xuống đất.'
++	\L_07e76:
++	\L_07e69:
++	\L_07d51:
++	ZH 1:
++	'Sư phụ......'
++	\L_07e76:
++	ZH 1:
++	'......Cha...... ơi......'
++	\L_07e76:
++	\L_07e69:
++	\L_07d89:
++	ZH 1:
++	'Nagi cảm nhận cơ thể mình'
++	R
++	'dần không cử động được nữa.'
++	\L_07e76:
++	ZH 1:
++	'Và cả hơi hướng của lũ'
++	R
++	'quái vật đang đến gần......'
+ 	\L_07e76:
+ 	ZH 1:
+ 	'............'
+ 	\L_07e76:
+ 	ZH 1:
+-	'Cuộc đời của Nagi su Ragarl'
+-	R
+-	'kết thúc ở lãnh thổ quái'
+-	R
+-	'vật, cách xa nền văn minh.'
++	'Nagi su Ragarl đã kết'
++	R
++	'thúc cuộc đời nơi đất'
++	R
++	'ma vật xa xôi hẻo lánh.'
+ 	\L_07e76:
+ 	\L_07e69:
+ 	!VAR0516 : 0!
+@@ -7491,60 +7273,52 @@
+ 		ZM 24:
+ 		ZH 1:
+ 		R
+-		'Tháp Nagi - Tầng Cao Nhất'
+-		R
+-		'Ragarl đang lơ đãng nhìn ra'
+-		R
+-		'ngoài cửa sổ khu tập luyện.'
+-		\L_07e76:
+-		ZH 1:
+-		'Nagi đang đợi'
+-		R
+-		'phía sau anh.'
++		'Tháp Nagi - Tầng thượng'
++		R
++		'Ragarl lơ đãng nhìn ra'
++		R
++		'ngoài cửa sổ sân tập.'
++		\L_07e76:
++		ZH 1:
++		'Nagi quỳ hầu phía sau hắn.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		!VAR0516 : 45!
+ 		\L_07e15:
+ 		\L_07dc1:
+ 		ZH 1:
+-		'Chủ nhân, tôi'
+-		R
+-		'có thể bắt đầu buổi huấn'
+-		R
+-		'luyện hôm nay được không?'
++		'Sư phụ, buổi tập hôm'
++		R
++		'nay không cần sao ạ.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d51:
+ 		ZH 1:
+-		'Aah, Nagi...'
+-		R
+-		'Vâng... Nếu cậu muốn.'
++		'À, Nagi đấy à......'
++		R
++		'phải rồi...... tùy con.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07dc1:
+ 		ZH 1:
+-		'Ý cậu là gì nếu tôi muốn?'
++		'Tùy...... là sao ạ?'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d51:
+ 		ZH 1:
+-		'Cậu có thể làm'
+-		R
+-		'theo ý mình muốn.'
+-		\L_07e76:
+-		ZH 1:
+-		'Cậu tham gia khóa'
+-		R
+-		'đào tạo nào và có nên thực'
+-		R
+-		'hiện việc đó hay không...'
++		'Con tự quyết là được.'
++		\L_07e76:
++		ZH 1:
++		'Nội dung tập luyện,'
++		R
++		'tập hay không tập...'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07dc1:
+ 		ZH 1:
+-		'... Phải. Sau đó tôi sẽ'
+-		R
+-		'thực hiện ba hiệp từ Menu B.'
++		'......Vâng. Vậy con'
++		R
++		'tập 3 lượt thực đơn B.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d51:
+@@ -7666,7 +7440,7 @@
+ 	{VAR0128 \ 0:
+ 		\L_07d89:
+ 		ZH 1:
+-		'（cốc cốc）'
++		'(cốc cốc)'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07e23:
+@@ -7674,74 +7448,70 @@
+ 		\L_07e15:
+ 		\L_07dc1:
+ 		ZH 1:
+-		'Lãnh chúa Nagi,'
+-		R
+-		'ông Ragarl, có lệnh'
+-		R
+-		'từ lãnh chúa Chizuko.'
+-		\L_07e76:
+-		ZH 1:
+-		'Dẫn đầu đơn'
+-		R
+-		'vị chiến đấu với Leazas'
+-		R
+-		'ngay lập tức, nàng nói...'
++		'Ngài Nagi, ngài Ragarl,'
++		R
++		'có lệnh của ngài Chizuko.'
++		\L_07e76:
++		ZH 1:
++		'Lập tức dẫn quân xuất'
++		R
++		'kích đánh Leazas...'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d51:
+ 		ZH 1:
+-		'Im lặng.'
++		'Im.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07dc1:
+ 		ZH 1:
+-		'Đúng, nhưng...'
++		'D, dạ, nhưng mà......'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d51:
+ 		ZH 1:
+-		'Tôi nói im lặng.'
++		'Ta đã bảo im.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d89:
+ 		ZH 1:
+-		'Ragarl giơ'
+-		R
+-		'cánh tay trái lên.'
+-		\L_07e76:
+-		ZH 1:
+-		'Chiếc găng tay chứa đầy'
+-		R
+-		'ma thuật của anh ta bay'
+-		\L_07e76:
+-		ZH 1:
+-		'ra và ghim quần áo của'
+-		R
+-		'pháp sư đưa tin vào tường.'
++		'Ragarl khẽ nhấc'
++		R
++		'cánh tay trái.'
++		\L_07e76:
++		ZH 1:
++		'Chiếc găng mang'
++		R
++		'ma lực bay ra,'
++		\L_07e76:
++		ZH 1:
++		'ghim chặt tên pháp'
++		R
++		'sư đưa tin vào tường.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07dc1:
+ 		ZH 1:
+-		'Agh... M-Mr. Ragarl...!'
++		'Ự...... ng, ngài'
++		R
++		'Ragarl......!'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d51:
+ 		ZH 1:
+-		'Lần sau tôi sẽ giết anh,'
+-		R
+-		'đừng nói thêm lời nào nữa.'
+-		\L_07e76:
+-		ZH 1:
+-		'Tôi sẽ không'
+-		R
+-		'cho phép việc tập luyện'
+-		R
+-		'của Nagi bị gián đoạn.'
++		'Lần sau là kết liễu, không'
++		R
++		'được hé răng nửa lời.'
++		\L_07e76:
++		ZH 1:
++		'Ta không cho phép ai quấy'
++		R
++		'rầy việc tu luyện của Nagi.'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07dc1:
+ 		ZH 1:
+-		'... Chào...'
++		'.........Hi.........'
+ 		\L_07e76:
+ 		\L_07e69:
+ 		\L_07d51:

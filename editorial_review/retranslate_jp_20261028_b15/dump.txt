@@ -1,0 +1,2043 @@
+=== Gﾏﾘｱ.ADV 476 VI groups 485 JP groups
+  JP0 [L_000b9 sNone/None]: 　　　ノースの街 　　Ｃ２ゴリアテ砲発射台
+ g0 [L_000eb L38 sNone/None]
+   b0: Thị trấn North - Bệ pháo C2 / Goliath
+  JP1 [L_000b9 sNone/None]: チューリップ２号ゴリアテの 攻撃目標を変えようと思ったが マリアがいないので出来ない。
+ g1 [L_000eb L47 sNone/None]
+   b0: Không có Maria, mục / tiêu của Tulip 2 Goliath / không thể thay đổi được.
+  JP2 [L_000b9 s1/None]: マリアがいないと、これもただ の鉄クズか……
+ g2 [L_000eb L58 s1/None]
+   b0: Không có Maria thì thứ này / cũng chỉ là sắt vụn...
+  JP3 [L_000b9 s50/1]: あっ、ランス。
+ g3 [L_000eb L75 s50/1]
+   b0: À, Rance.
+  JP4 [L_000b9 sNone/1]: チューリップ２号ゴリアテを整備 していたマリアが振り向いた。
+ g4 [L_000eb L80 sNone/1]
+   b0: Đang bảo dưỡng Tulip 2 / Goliath, Maria quay lại nhìn / Rance.
+  JP5 [L_000b9 s50/1]: ゴリアテの攻撃目標を 変更するのね？
+ g5 [L_000eb L89 s50/1]
+   b0: Cậu muốn đổi mục tiêu của / Goliath phải không?
+  JP6 [L_000b9 s1/50]: そうだ。
+ g6 [L_000eb L96 s1/50]
+   b0: Đúng vậy.
+  JP7 [L_000b9 s50/1]: 現在は、 を 目標としているけど…… どこに変える？ 目標とする都市を教えてね。
+ g7 [L_000eb L101 s50/1]
+   b0: Nó hiện đang nhắm mục tiêu
+   b1: ... Cậu muốn / đổi nó sang đâu?
+   b2: Chỉ cần cho tôi biết / mục tiêu là thành phố nào.
+  JP8 [L_002bf s50/1]: それじゃあ、ゴリアテの目標は、 に セットするね。
+ g8 [L_0028a L130 s50/1]
+   b0: Sau đó Goliath sẽ / được đặt mục tiêu là 
+   b1: .
+  JP9 [L_002bf s1/50]: うむ、いいぞ。
+ g9 [L_0028a L139 s1/50]
+   b0: Ừ, được đấy.
+  JP10 [L_002bf s50/1]: 一週間に一度だけ、目標の都市で 戦闘があったら、ゴリアテが支援 攻撃するから楽しみにしてね。
+ g10 [L_0028a L144 s50/1]
+   b0: Mỗi tuần một lần, nếu có / giao chiến ở thành phố mục / tiêu, Goliath sẽ bắn yểm
+   b1: trợ. Cứ chờ xem nhé.
+  JP11 [L_002bf s1/50]: １度だけか……ぼろいなぁ。
+ g11 [L_0028a L156 s1/50]
+   b0: Chỉ một lần thôi à... Kém / thật.
+  JP12 [L_002bf s50/1]: ぷう……なんて事を…… これでも凄いのよ。
+ g12 [L_0028a L163 s50/1]
+   b0: Hừ... Cậu nói gì vậy... Được / thế này đã giỏi lắm rồi.
+  JP13 [L_00471 sNone/1]: 　　　リーザス城 　　　　　技術研究所 ランスはその中に入った。
+ g13 [L_00425 L206 sNone/1]
+   b0: Lâu đài Leazas
+   b1: Viện nghiên cứu công / nghệ Rance đi vào trong.
+  JP14 [L_00471 s1/50]: ここには、設計段階からこっそり 入れておいた更衣室ののぞき穴 がある。くすくす。
+ g14 [L_00425 L218 s1/50]
+   b0: Nơi này có một lỗ nhìn / trộm vào phòng thay đồ được
+   b1: bí mật bổ sung trong / giai đoạn lập kế hoạch.
+   b2: Hehe.
+  JP15 [L_00564 s1/50]: なんかもういいや。 帰って、アイスでも食おう。
+ g15 [L_004ac L238 s1/50]
+   b0: Gặp Maria
+   b1: Sử dụng lỗ nhìn trộm
+   b2: Rời khỏi cơ sở
+ g16 [L_004f7 L253 s1/50]
+   b0: Tôi xong việc ở đây / rồi. Tôi sẽ quay lại / và ăn kem hay gì đó.
+  JP16 [L_00564 sNone/1]: ランスは技術研究所を後にした。
+ g17 [L_004f7 L262 sNone/1]
+   b0: Rance rời khỏi cơ / sở nghiên cứu công nghệ.
+  JP17 [L_005d6 sNone/1]: 　　　リーザス城 　　　　ランスの寝室
+ g18 [L_00562 L287 sNone/1]
+   b0: Lâu đài Leazas
+   b1: Phòng ngủ của Rance / Chuyện gì vậy, Rance?
+   b2: Tại sao ngươi lại gọi / cho tôi muộn thế này?
+  JP18 [L_005d6 s50/1]: なぁに、ランス？ こんな時間に呼び出したりして…
+  JP19 [L_005d6 s1/50]: 別に用事がある訳じゃないが… 退屈だから呼んだ。 俺とトランプでもしないか？ 負けた方が脱ぐという事で…
+ g19 [L_00562 L304 s1/50]
+   b0: Không có lý / do cụ thể nào cả, ta / chỉ thấy chán thôi.
+   b1: Muốn chơi bài hay / gì đó không? Người / thua cởi quần áo.
+  JP20 [L_005d6 s50/1]: えっ…えっち！ そんなトランプ、絶対にしない もん！
+ g20 [L_00562 L320 s50/1]
+   b0: A... Đồ biến / thái! Tôi sẽ không chơi / một trò chơi như thế!
+  JP21 [L_005d6 sNone/1]: 　　＜ばたんっっ＞
+ g21 [L_00562 L329 sNone/1]
+   b0: （sụp đổ）
+  JP22 [L_005d6 sNone/1]: マリアはぷりぷりと怒って 部屋を出た。
+ g22 [L_00562 L335 sNone/1]
+   b0: Maria nổi điên / và rời khỏi phòng.
+  JP23 [L_005d6 s1/None]: ………つまらん。 くそ、くそ、くそ…
+ g23 [L_00562 L342 s1/None]
+   b0: ... Khập / khiễng. Chết tiệt, / chết tiệt, chết tiệt...
+  JP24 [L_0076e sNone/1]: 　　　リーザス城 　　　　　謁見の間 ランスはマリアを待っている。
+ g24 [L_00694 L363 sNone/1]
+   b0: Lâu đài Leazas
+   b1: Phòng yết kiến / Rance đang đợi Maria.
+  JP25 [L_0076e s50/1]: はあっ… 遅くなってごめんなさい。
+ g25 [L_00694 L377 s50/1]
+   b0: Phù... Xin lỗi, tôi đến / muộn.
+  JP26 [L_0076e s1/50]: 本当に遅いな。 何をしていた？
+ g26 [L_00694 L384 s1/50]
+   b0: Muộn thật đấy. Cô làm gì / vậy?
+  JP27 [L_0076e s50/1]: 色々と忙しいの。
+ g27 [L_00694 L391 s50/1]
+   b0: Tôi đang bận nhiều việc.
+  JP28 [L_0076e s1/50]: その色々とは、なんだ？
+ g28 [L_00694 L396 s1/50]
+   b0: Chẳng hạn như?
+  JP29 [L_0076e s50/1]: どうしてそんな事、ランスに言う 必要があるのよ。
+ g29 [L_00694 L401 s50/1]
+   b0: Tại sao tôi phải / nói cho cậu biết?
+  JP30 [L_0076e s1/50]: 俺は王様だぞ。すべてを知る権利 がある。
+ g30 [L_00694 L408 s1/50]
+   b0: Ta là Vua. Ta / có quyền biết mọi thứ.
+  JP31 [L_0076e s50/1]: ……そんなの知らないわよ。
+ g31 [L_00694 L415 s50/1]
+   b0: ... Tôi chẳng quan tâm.
+  JP32 [L_0076e s1/50]: うう……生意気な奴。
+ g32 [L_00694 L420 s1/50]
+   b0: Hừ... Láo thật.
+  JP33 [L_0076e s50/1]: ………… …ランス… ひとつ聞いていい？
+ g33 [L_00694 L425 s50/1]
+   b0: .............
+   b1: ... Rance... Tôi có thể / hỏi cậu một điều được không?
+  JP34 [L_0076e s1/50]: なんだ？
+ g34 [L_00694 L435 s1/50]
+   b0: Cái gì?
+  JP35 [L_0076e s50/1]: どうして、リーザスの王に なったの？
+ g35 [L_00694 L440 s50/1]
+   b0: Tại sao cậu lại / trở thành Vua của Leazas?
+  JP36 [L_0076e s1/50]: 俺が偉いからだ。
+ g36 [L_00694 L447 s1/50]
+   b0: Bởi vì ta tuyệt vời.
+  JP37 [L_0076e sNone/1]: ランスはえっへんと威張って みせた。
+ g37 [L_00694 L452 sNone/1]
+   b0: Rance ưỡn ngực, ra vẻ oai / vệ.
+  JP38 [L_0076e s50/1]: そうじゃなくて……
+ g38 [L_00694 L459 s50/1]
+   b0: Không phải vậy...
+  JP39 [L_0076e s1/50]: なにぃ、俺様が偉くないという のか！
+ g39 [L_00694 L464 s1/50]
+   b0: Cái gì, cô không / nghĩ ta tuyệt vời sao?!
+  JP40 [L_0076e s50/1]: じゃなくて…… 私が言いたいのは、どうして リア様と結婚したの…って事… ランス、リア様の事が本当に 好きなの？
+ g40 [L_00694 L471 s50/1]
+   b0: Không phải...
+   b1: Ý tôi là tại sao cậu kết hôn / với nữ hoàng Lia...
+   b2: Rance, cậu thật sự yêu nữ / hoàng Lia chứ?
+  JP41 [L_0076e s1/50]: ……ほーーー… お前、妬いているのか？
+ g41 [L_00694 L486 s1/50]
+   b0: ... Hooooh... / Cô ghen tị à?
+  JP42 [L_0076e s50/1]: ちっ…違うわよ！！ これじゃ…シィルちゃんが… 可哀想じゃないかなっ…てっ…
+ g42 [L_00694 L493 s50/1]
+   b0: Kh... Không phải!
+   b1: Tôi chỉ nghĩ... như thế thì / tội nghiệp Sill quá...
+  JP43 [L_0076e s1/50]: …あれは、奴隷だ。
+ g43 [L_00694 L503 s1/50]
+   b0: ... Nàng là một nô lệ.
+  JP44 [L_0076e s50/1]: ……ランス！ ん……もう、いいわよ。 そうよ…私が色々と言う権利 なんか…
+ g44 [L_00694 L508 s50/1]
+   b0: Rance...
+   b1: Thôi, được rồi. Đúng thế... / Tôi làm gì có quyền nói này / nói nọ...
+  JP45 [L_0076e s1/50]: マリア…何が言いたい？ さっぱりわからんぞ？
+ g45 [L_00694 L520 s1/50]
+   b0: Maria... Cô muốn nói gì / vậy? Ta thực sự không hiểu.
+  JP46 [L_0076e s50/1]: いいの、もう。
+ g46 [L_00694 L527 s50/1]
+   b0: Thôi, đủ rồi.
+  JP47 [L_0076e s1/50]: わかった。じゃあこれからは、 俺様の為に頑張って働け。 いいな。
+ g47 [L_00694 L532 s1/50]
+   b0: Được rồi. Vậy từ giờ / trở đi, hãy làm việc chăm / chỉ nhất có thể vì ta nhé.
+   b1: Hiểu rồi?
+  JP48 [L_0076e s50/1]: はい、はい。
+ g48 [L_00694 L544 s50/1]
+   b0: Vâng, vâng.
+  JP49 [L_0076e s1/50]: 返事は、３回だ。
+ g49 [L_00694 L549 s1/50]
+   b0: Phải đáp ba lần.
+  JP50 [L_0076e s50/1]: ……はい　はい　はい。
+ g50 [L_00694 L554 s50/1]
+   b0: ... Vâng, vâng, vâng.
+  JP51 [L_0076e sNone/1]: ぷりぷりしながら、マリアは 去った。
+ g51 [L_00694 L560 sNone/1]
+   b0: Maria bực tức bỏ đi.
+  JP52 [L_0076e s1/None]: うーん…１回の方が良かった だろうか…
+ g52 [L_00694 L565 s1/None]
+   b0: Hừm... Bảo đáp một lần có / hơn không nhỉ...
+  JP53 [L_00c5a sNone/1]: 　　　リーザス城 　　　　　謁見の間
+ g53 [L_00a91 L583 sNone/1]
+   b0: Lâu đài Leazas
+   b1: Phòng yết kiến
+  JP54 [L_00c5a s50/1]: 呼んだ？ ランス。
+ g54 [L_00a91 L595 s50/1]
+   b0: Cậu đã gọi à, Rance?
+  JP55 [L_00c5a s1/50]: 実はな、マリアに聞きたい事が あったのだ。
+ g55 [L_00a91 L600 s1/50]
+   b0: Vấn đề là ta có / điều này muốn hỏi cô.
+  JP56 [L_00c5a s50/1]: ………何？
+ g56 [L_00a91 L607 s50/1]
+   b0: ... Cái gì?
+  JP57 [L_00c5a s1/50]: この難しい本でどうしても読め ない漢字があってな。 ここだ、見てくれ。
+ g57 [L_00a91 L612 s1/50]
+   b0: Ta đang đọc cuốn sách khó / này, và có một từ ta không / biết. Đây, hãy nhìn xem.
+  JP58 [L_00c5a s50/1]: へー、珍しい。 ランスが難しい本を見るなんて。 どこどこ、見てあげるわ。
+ g58 [L_00a91 L621 s50/1]
+   b0: Hừ, không thấy cậu thường / xuyên đọc những cuốn sách / khó. Tôi sẽ nhìn, nó ở đâu?
+  JP59 [L_00c5a s1/50]: ここだ。
+ g59 [L_00a91 L630 s1/50]
+   b0: Đây.
+  JP60 [L_00c5a sNone/1]: マリアは、本を覗き込んだ。
+ g60 [L_00a91 L635 sNone/1]
+   b0: Maria lén nhìn cuốn sách.
+  JP61 [L_00c5a s50/1]: えっ…… これって…
+ g61 [L_00a91 L640 s50/1]
+   b0: Hả...?
+   b1: Cái này...?
+  JP62 [L_00c5a s1/50]: そう、この字だ。 これはなんと読む？
+ g62 [L_00a91 L648 s1/50]
+   b0: Vâng, cái này. Làm / thế nào để cô nói nó?
+  JP63 [L_00c5a s50/1]: それは…その……
+ g63 [L_00a91 L655 s50/1]
+   b0: À... Ừm...
+  JP64 [L_00c5a s1/50]: なんだ、読めないのか？ 意外と馬鹿だな。 あーあ、失望したぞ。
+ g64 [L_00a91 L660 s1/50]
+   b0: Cái gì, cô / không biết à? Cô thật ngu / ngốc. Ôi thật là thất vọng.
+  JP65 [L_00c5a s50/1]: よっ…読めるわよ！ でっ…でも…
+ g65 [L_00a91 L669 s50/1]
+   b0: T-tôi có thể / đọc được nó! N-Nhưng...
+  JP66 [L_00c5a s1/50]: じゃあ、読んでみろ！
+ g66 [L_00a91 L676 s1/50]
+   b0: Vậy thì làm đi!
+  JP67 [L_00c5a s50/1]: うっ…！
+ g67 [L_00a91 L681 s50/1]
+   b0: Ưu...!
+  JP68 [L_00c5a sNone/1]: マリアは真っ赤になった。
+ g68 [L_00a91 L686 sNone/1]
+   b0: Maria đỏ mặt.
+  JP69 [L_00c5a s50/1]: 読むわよ！ 読めばいいんでしょ！ こっ…これは、痴漢（ちかん） よ！！
+ g69 [L_00a91 L694 s50/1]
+   b0: Tôi sẽ làm vậy! / Tôi sẽ đọc nó! N-Nó / nói... kẻ quấy rối!!
+  JP70 [L_00c5a s1/50]: で、どういう意味だ？
+ g70 [L_00a91 L703 s1/50]
+   b0: Và điều đó có nghĩa là gì?
+  JP71 [L_00c5a s50/1]: …意味って… 知っているでしょ！
+ g71 [L_00a91 L708 s50/1]
+   b0: Cậu biết nó / nghĩa là gì mà, Rance!
+  JP72 [L_00c5a s1/50]: 知らん、教えてくれ。
+ g72 [L_00a91 L715 s1/50]
+   b0: Không, ta không / biết, hãy nói cho ta biết.
+  JP73 [L_00c5a s50/1]: ……えっちな事をする…悪い人の 事……！！
+ g73 [L_00a91 L722 s50/1]
+   b0: ... Một kẻ xấu / làm chuyện tình dục...!!
+  JP74 [L_00c5a s1/50]: もっと詳しく。
+ g74 [L_00a91 L729 s1/50]
+   b0: Chi tiết hơn.
+  JP75 [L_00c5a s50/1]: えっ…そのっ… 狭い所でお尻さわったり… 胸さわったり…
+ g75 [L_00a91 L734 s50/1]
+   b0: Uh... Ừm... Giống / như, một người chạm vào mông / cậu ở những nơi chật hẹp...
+   b1: Hoặc ngực của cậu...
+  JP76 [L_00c5a s1/50]: ほう、こんな風にか？
+ g76 [L_00a91 L746 s1/50]
+   b0: Hả, thế này à?
+  JP77 [L_00c5a sNone/1]: 　　＜さわわっ＞ ランスはマリアの尻をさわった。
+ g77 [L_00a91 L751 sNone/1]
+   b0: （chạm）
+   b1: Rance chạm vào mông Maria.
+  JP78 [L_00c5a s50/1]: きゃっ、えっち！！ 何するのよ！！
+ g78 [L_00a91 L759 s50/1]
+   b0: Kyah, đồ biến thái!! / Cậu đang làm gì thế?!!
+  JP79 [L_00c5a s1/50]: がはははは！！
+ g79 [L_00a91 L766 s1/50]
+   b0: Gahahahaha!
+  JP80 [L_00c5a s50/1]: ……しん…
+ g80 [L_00a91 L773 s50/1]
+   b0: ... Phòng thí nghiệm-...
+  JP81 [L_00c5a s1/50]: 聞こえん、聞こえん。 もっと大きな声でぇ！
+ g81 [L_00a91 L778 s1/50]
+   b0: Không thể nghe thấy / cô. Hãy nói to hơn!
+  JP82 [L_00c5a s50/1]: しょっ… 小陰唇（しょういんしん）… じゃない…
+ g82 [L_00a91 L785 s50/1]
+   b0: L-Môi bé...
+  JP83 [L_00c5a s1/50]: どういう意味なんだ？
+ g83 [L_00a91 L790 s1/50]
+   b0: Nó có nghĩa là gì?
+  JP84 [L_00c5a s50/1]: いっ…意味って…
+ g84 [L_00a91 L795 s50/1]
+   b0: Đ-Nó có nghĩa là...
+  JP85 [L_00c5a s1/50]: さあ、詳しく教えてくれ。
+ g85 [L_00a91 L800 s1/50]
+   b0: Kể chi tiết / cho ta nghe đi.
+  JP86 [L_00c5a s50/1]: そっ… そんな事、女の子一杯押し倒して いるランスの方が詳しいでしょ、 馬鹿！
+ g86 [L_00a91 L807 s50/1]
+   b0: Cậu...
+   b1: Cậu nên biết nhiều hơn / tôi về tất cả những cô gái / mà cậu tấn công, đồ ngốc!
+  JP87 [L_00c5a s1/50]: がははははは！！
+ g87 [L_00a91 L819 s1/50]
+   b0: Gahahahaha!
+  JP88 [L_00c5a s50/1]: …これは…官能（かんのう）って 読むのよ。
+ g88 [L_00a91 L826 s50/1]
+   b0: ... Xác thịt.
+  JP89 [L_00c5a s1/50]: なんなんだ？ それは？
+ g89 [L_00a91 L831 s1/50]
+   b0: Cái gì? Đó là cái gì vậy?
+  JP90 [L_00c5a s50/1]: ……知ってて… そんな事言うのね…まったく…
+ g90 [L_00a91 L836 s50/1]
+   b0: Cậu biết nó là / gì rồi... Trời ạ...
+  JP91 [L_00c5a s1/50]: マーーーリア。 意味を教えろ。 お前、お勉強得意なんだろう？
+ g91 [L_00a91 L843 s1/50]
+   b0: Maaaaaaaaaaria. Hãy cho ta / biết nó có ý nghĩa gì. Chắc / bạn học giỏi lắm phải không?
+  JP92 [L_00c5a s50/1]: …………… 性的感覚の事をさす言葉よ。
+ g92 [L_00a91 L852 s50/1]
+   b0: ............
+   b1: Đó là một từ / chỉ cảm xúc tình dục.
+  JP93 [L_00c5a s1/50]: それじゃあ、難しい。 もっと簡潔に説明しろ。
+ g93 [L_00a91 L862 s1/50]
+   b0: Điều đó quá phức tạp. / Giải thích nó đơn giản hơn.
+  JP94 [L_00c5a s50/1]: …………… ランスがちんちんをさわったり、 女の子に突っ込んだりする時に 感じる気持ちの事よ。
+ g94 [L_00a91 L869 s50/1]
+   b0: ............
+   b1: Khi cậu chạm vào dương vật / của mình hoặc đặt nó vào một / cô gái, đó là cảm giác đó.
+  JP95 [L_00c5a s1/50]: 女の子が、ちんちんなんて 言うな。 はしたない。
+ g95 [L_00a91 L881 s1/50]
+   b0: Con gái không / nên nói dương vật. Điều / đó thật không đứng đắn.
+  JP96 [L_00c5a s50/1]: はしたない事を言わせたかった から、こんな事、私に聞くん でしょ！ はしたない事を言わせたくなかっ たら、そんな事聞かない事ね！！
+ g96 [L_00a91 L890 s50/1]
+   b0: Anh hỏi tôi điều này ngay / từ đầu là vì muốn tôi nói / điều gì đó không đứng đắn!
+   b1: Nếu cậu không / muốn thì đừng hỏi tôi / những điều như thế này!!
+  JP97 [L_00c5a sNone/1]: 　　＜べしっっ＞ マリアはランスの持っている本を 取り上げると、ランスの顔に押し つけた。
+ g97 [L_00a91 L906 sNone/1]
+   b0: (bash)
+   b1: Maris lấy / cuốn sách Rance đang cầm / và đẩy nó vào mặt hắn.
+  JP98 [L_00c5a s1/50]: おぶっ！
+ g98 [L_00a91 L918 s1/50]
+   b0: Ôi!
+  JP99 [L_00c5a s50/1]: ……………
+ g99 [L_00a91 L925 s50/1]
+   b0: ............
+  JP100 [L_00c5a s1/50]: どうした？
+ g100 [L_00a91 L930 s1/50]
+   b0: Có chuyện gì vậy?
+  JP101 [L_00c5a s50/1]: …………………
+ g101 [L_00a91 L935 s50/1]
+   b0: ............
+  JP102 [L_00c5a s1/50]: なんだ、読めないのか。 じゃあ、俺様が読んでやろう。 これは膣（ちつ）だ。 俺様のハイパー兵器がうはうはと 喜ぶ場所の事だ。 と、いう訳で、マリア… 俺様と一発…
+ g102 [L_00a91 L940 s1/50]
+   b0: Cái gì, không / đọc được à? Thế thì ta sẽ / làm vậy. Nó nói âm đạo.
+   b1: Nó có nghĩa là nơi khiến / siêu vũ khí của ta hạnh / phúc. Có nghĩa là, Maria...
+   b2: quan hệ tình / dục với ta và...
+  JP103 [L_00c5a sNone/1]: 　　＜ぺしんっっ＞ マリアはランスの頭を平手で 叩いた。
+ g103 [L_00a91 L961 sNone/1]
+   b0: （tát）
+   b1: Maria tát vào mặt Rance.
+  JP104 [L_00c5a s1/50]: なっ…何をする！！
+ g104 [L_00a91 L969 s1/50]
+   b0: C-Anh đang làm gì vậy?!!
+  JP105 [L_00c5a s50/1]: それっくらい読めるし、わかっ てるわよ！ 馬鹿な事聞いてんじゃないの！ ランスは、王様なんでしょ！
+ g105 [L_00a91 L974 s50/1]
+   b0: Rõ ràng là tôi có thể / đọc được, ai cũng có thể!
+   b1: Đừng ngu ngốc! Cậu / phải là một vị vua!
+  JP106 [L_00c5a s1/50]: それは、それ。 これは、これだ。
+ g106 [L_00a91 L986 s1/50]
+   b0: Điều đó không liên / quan gì đến chuyện này.
+  JP107 [L_00c5a s50/1]: こっ…これは、… 亀頭（きとう）よっ！
+ g107 [L_00a91 L995 s50/1]
+   b0: N-Nó nói quy đầu!
+  JP108 [L_00c5a s1/50]: なんなんだ？ それは……
+ g108 [L_00a91 L1000 s1/50]
+   b0: Đó là gì?
+  JP109 [L_00c5a s50/1]: うっ……
+ g109 [L_00a91 L1005 s50/1]
+   b0: Ờ...
+  JP110 [L_00c5a s1/50]: マーーリーーアーーちゃん。 僕に教えてくれないのかい？
+ g110 [L_00a91 L1010 s1/50]
+   b0: Maaaaaaaaariiiiiiiaaaaaa / aa. Cô sẽ không / nói cho ta biết à?
+  JP111 [L_00c5a s50/1]: ばっ……馬鹿！！
+ g111 [L_00a91 L1019 s50/1]
+   b0: Đ-Ngốc quá!!
+  JP112 [L_00c5a s1/50]: ふんふんふーーん。
+ g112 [L_00a91 L1024 s1/50]
+   b0: Hmhmhmmmm.
+  JP113 [L_00c5a s50/1]: もう、知らない！ 一つでも多くのチューリップ１号 を作らないといけないのに… 馬鹿、馬鹿、馬鹿！ ランスなんか、嫌い！
+ g113 [L_00a91 L1030 s50/1]
+   b0: Trời ạ, tôi / không biết! Cậu đang lãng / phí thời gian của tôi.
+   b1: Tôi phải làm / thêm hoa Tulip 1...
+   b2: Ngu ngốc, ngu ngốc, ngu / ngốc! Tôi ghét cậu, Rance!
+  JP114 [L_00c5a sNone/1]: マリアは真っ赤になって、 玉座前から去った。
+ g114 [L_00a91 L1050 sNone/1]
+   b0: Maria đỏ mặt và / rời khỏi ngai vàng.
+  JP115 [L_01747 sNone/1]: 　　　リーザス城 　　　　ランスの寝室
+ g115 [L_01334 L1069 sNone/1]
+   b0: Lâu đài Leazas
+   b1: Phòng ngủ của Rance Ừ... / Đã lâu rồi tôi chưa quan / hệ tình dục với Maria...
+   b2: Làm gì thì tốt với cô...?
+  JP116 [L_01747 s1/None]: うむ…マリアとの久々のえっち か…どういう趣向で楽しもう…
+  JP117 [L_01747 sNone/1]: 　　＜とんとんとん…＞
+ g116 [L_01334 L1086 sNone/1]
+   b0: （cốc cốc cốc...）
+  JP118 [L_01747 s1/None]: うむ、許す。 入れ。
+ g117 [L_01334 L1091 s1/None]
+   b0: Mhm, ta cho phép cô vào.
+  JP119 [L_01747 s50/1]: 何…ランス… こんな夜更けに…
+ g118 [L_01334 L1098 s50/1]
+   b0: Chuyện gì vậy, / Rance...? Đã muộn rồi...
+  JP120 [L_01747 s1/50]: そんなもの、決まっている だろう。 俺とお前の仲なんだし。
+ g119 [L_01334 L1105 s1/50]
+   b0: Điều đó là / hiển nhiên. Xem xét mối / quan hệ của chúng ta.
+  JP121 [L_01747 s50/1]: だっ…誰が、俺とお前の仲 なのよ！！
+ g120 [L_01334 L1114 s50/1]
+   b0: Đ-Chúng ta yêu / nhau từ khi nào vậy?!!
+  JP122 [L_01747 s1/50]: まあまあ。 マリア、お前を抱いてやろう。 王様の夜伽だぞ。 がはははははは。
+ g121 [L_01334 L1121 s1/50]
+   b0: Vâng. Maria, anh / sẽ làm tình với em. Cô đang / phục vụ nhà vua. Gahahahaha!
+  JP123 [L_01747 s50/1]: ……いや。
+ g122 [L_01334 L1130 s50/1]
+   b0: ... Không.
+  JP124 [L_01747 s1/50]: 何ぃ？
+ g123 [L_01334 L1135 s1/50]
+   b0: Cái gì?!
+  JP125 [L_01747 s50/1]: どうして私がランスに 抱かれなきゃいけないのよ。
+ g124 [L_01334 L1140 s50/1]
+   b0: Tại sao tôi phải / quan hệ tình dục với cậu?
+  JP126 [L_01747 s1/50]: 俺が王様で、お前が部下 だからだ。 当然の原則だ。
+ g125 [L_01334 L1147 s1/50]
+   b0: Bởi vì ta là Vua / và ngươi là cấp dưới của ta. / Đó là một quy luật tự nhiên.
+  JP127 [L_01747 s50/1]: ……何が当然よ。 馬鹿…嫌い。
+ g126 [L_01334 L1156 s50/1]
+   b0: ... Đó không phải / là điều tự nhiên. Đồ / ngốc... tôi ghét cậu.
+  JP128 [L_01747 sNone/1]: マリアはランスの部屋を出て 行った。
+ g127 [L_01334 L1166 sNone/1]
+   b0: Maria rời / khỏi phòng Rance.
+  JP129 [L_01747 s1/None]: …なんだ、あいつ、今さら… これまで何回も俺様に抱かれて きたくせに、恥ずかしがる事ない じゃないか…ふん…つまらーん。
+ g128 [L_01334 L1173 s1/None]
+   b0: ... Tại sao / bây giờ nàng lại hành / động như thế này...?
+   b1: Ta đã quan hệ / với nàng mấy lần rồi, nàng / còn ngại ngùng không? Hừm...
+   b2: khập khiễng.
+  JP130 [L_01a2b sNone/1]: 　　　リーザス城 　　　　ランスの寝室 ベッドの上では、ランスが難しい 顔をして、腕組みをしている。
+ g129 [L_0156b L1204 sNone/1]
+   b0: Lâu đài Leazas
+   b1: Phòng ngủ của / Rance Trên giường,
+   b2: Rance đang ngồi khoanh / tay và vẻ mặt phức tạp.
+  JP131 [L_01a2b s1/None]: マリアが俺様の言う事をきかず、 えっちが出来ん… これはゆゆしき問題だ。 今日も今日とて、呼び出したが… しかし、普通に呼び出しても抵抗 するだけだからな… 無理やりやっちゃうか。 一度やれば、後はなしくずしに なるに違いない。 マリアとは、そういう女だ。 ふふふふ。
+ g130 [L_0156b L1221 s1/None]
+   b0: Maria không nghe / khi ta bảo nàng quan / hệ tình dục với ta...
+   b1: Đây là một / vấn đề nghiêm trọng.
+   b2: Hôm nay ta đã / gọi lại cho nàng, nhưng...
+   b3: Nếu ta chỉ gọi nàng một / cách bình thường thì nàng sẽ
+   b4: không làm gì khác / ngoài việc chống cự…
+   b5: Ta có nên / cưỡng hiếp nàng không?
+   b6: Nếu chúng ta làm điều đó / một lần, ta chắc chắn rằng / nàng sẽ tiếp tục quay lại.
+   b7: Maria là loại con / gái như vậy. Gahahahaha!
+  JP132 [L_01a2b s1/None]: よし、そうと決めれば…
+ g131 [L_0156b L1267 s1/None]
+   b0: Được rồi, nếu đó / là kế hoạch thì...
+  JP133 [L_01a2b sNone/1]: ランスはすっくと立ち上がると、 部屋の電気を消した。
+ g132 [L_0156b L1274 sNone/1]
+   b0: Rance đứng dậy và / tắt đèn trong phòng.
+  JP134 [L_01a2b sNone/1]: 　　＜ぱっっ＞
+ g133 [L_0156b L1283 sNone/1]
+   b0: （pah）
+  JP135 [L_01a2b s1/None]: うむ…真っ暗だ… これで、マリアを待って… ひひひひひ…
+ g134 [L_0156b L1288 s1/None]
+   b0: Đúng, tối đen / như mực... Bây giờ hãy đợi / Maria... Heeheeheeheehee...
+  JP136 [L_01a2b sNone/1]: 　　＜とんとんとん＞
+ g135 [L_0156b L1297 sNone/1]
+   b0: （cốc cốc cốc）
+  JP137 [L_01a2b s1/None]: おっと…来たな…
+ g136 [L_0156b L1302 s1/None]
+   b0: Ồ, nàng đây rồi...
+  JP138 [L_01a2b sNone/1]: ランスはそっと、扉の反対側の 壁に身を寄せた。
+ g137 [L_0156b L1307 sNone/1]
+   b0: Rance ép mình vào bức / tường đối diện với cánh cửa.
+  JP139 [L_01a2b s50/1]: ランス。 何回呼んだって私は…… あら、真っ暗？
+ g138 [L_0156b L1316 s50/1]
+   b0: Rance, cho dù cậu / có gọi cho tôi bao nhiêu / lần đi chăng nữa, tôi...
+   b1: Ủa, sao trời tối thế?
+  JP140 [L_01a2b s1/50]: きしししし……
+ g139 [L_0156b L1328 s1/50]
+   b0: Keeheeheeheehee...
+  JP141 [L_01a2b s50/1]: …ランス？？ あれ？
+ g140 [L_0156b L1333 s50/1]
+   b0: ... Rance?? Hả?
+  JP142 [L_01a2b sNone/1]: マリアは不安そうに、真っ暗な 部屋に一歩足を踏み入れた。
+ g141 [L_0156b L1338 sNone/1]
+   b0: Maria bước / một bước vào căn phòng tối, / trông có vẻ không thoải mái.
+  JP143 [L_01a2b s50/1]: ……いないの？ もう、人を呼んでおいて… ……………… ランス……
+ g142 [L_0156b L1347 s50/1]
+   b0: ... Hắn không có ở / đây sao? Trời ạ, gọi / cho tôi rồi bỏ đi...
+   b1: ............
+   b2: Rance...
+  JP144 [L_01a2b sNone/1]: マリアがぽつりと呟いた瞬間 だった。 　　＜ばたんっっ＞
+ g143 [L_0156b L1362 sNone/1]
+   b0: Ngay khi Maria lẩm / bẩm điều đó với chính mình, / chuyện gì đó đã xảy ra.
+   b1: （sụp đổ）
+  JP145 [L_01a2b s50/1]: きゃっ！？
+ g144 [L_0156b L1374 s50/1]
+   b0: Này!?
+  JP146 [L_01a2b sNone/1]: 扉が急に閉じた。 ランスの仕業なのだが、ランスが 部屋にいないと思っているマリア にとっては…
+ g145 [L_0156b L1379 sNone/1]
+   b0: Cánh cửa đột / nhiên đóng lại.
+   b1: Rance đóng nó lại, / nhưng với Maria, người nghĩ / rằng hắn không có ở đó...
+  JP147 [L_01a2b s50/1]: えっ……誰！？ 誰かいるの！？
+ g146 [L_0156b L1393 s50/1]
+   b0: Hả...? Đó là ai!? / Có ai ở đây không!?
+  JP148 [L_01a2b s1/50]: ぐぅえへへへへへへ！！
+ g147 [L_0156b L1400 s1/50]
+   b0: Ôi trời!!
+  JP149 [L_01a2b s50/1]: きゃあああ！！
+ g148 [L_0156b L1405 s50/1]
+   b0: Kyaaah!!
+  JP150 [L_01a2b s1/50]: おとなしくしな！！
+ g149 [L_0156b L1410 s1/50]
+   b0: Ngồi yên!!
+  JP151 [L_01a2b s50/1]: きゃああああ！！
+ g150 [L_0156b L1415 s50/1]
+   b0: Kyaaaaaah!!
+  JP152 [L_01a2b sNone/1]: 暗闇を利用し、ランスは声色を 変え、マリアに襲いかかった。
+ g151 [L_0156b L1420 sNone/1]
+   b0: Rance sử dụng bóng / tối, ngụy trang giọng nói / của mình và tấn công Maria.
+  JP153 [L_01a2b sNone/1]: マリア「いやーーーー！！ 　　　　さわらないでぇ！！」 渾身の力を振り絞り、強盗（ランス）の腕を必死で 振りほどこうとするマリア。 ランス「ぐげへぇへぇへぇ！ 　　　　いい尻しやがってぇ！！」 強盗（ランス）の手が、マリアの尻を服の上から 撫でる。 マリア「ひっ……！！」 マリアの躰に、さらに力が篭る。 マリア「いっ…嫌ぁぁ！！ 　　　　助けてっ…ランス！」 強盗（ランス）は、マリアの服を無理に脱がして いき、激しく胸を揉みしだく。 マリア「くっ……嫌ぁぁ！！ 　　　　助けてっ…ランスっ…ランスぅ！！」 マリアは強盗（ランス）の頭を叩いたり、暴れたり するが、強盗（ランス）の手は離れない。 マリア「ひんっ…嫌よおっ…こんなの…！！ 　　　　ランス…っ助けてっ…ランス！」 　　＜ぱちっ＞ 電気がついた。 マリア「えっ……」 ランス「助けにきてやったぜ、お姫様」 マリア「えっ……」 ランス「いやー、照れるなぁ。 　　　　俺の事、そんなに好きか？」 ランス「ランス、ランスと恋しい俺様の名を 　　　　何度も叫ぶとは……」 マリア「うっ……」 マリア「馬鹿、馬鹿、馬鹿！！ 　　　　どうして、こんな事するのよ……ひっく 　　　　本当に…怖かったんだから……！！」 マリアはランスの胸に顔を埋めると、 大声で泣き出した。 マリア「あっ……」
+ g152 [L_0156b L1432 sNone/1 WIDE]
+   b0: Maria 「Khônggggggg!! Đừng chạm vào tôi!! 」
+   b1: Maria dồn hết sức lực để cố gắng / thoát khỏi kẻ hiếp dâm (Rance).
+   b2: Rance 「Gugeheeeheeeheeeh! Mông đẹp quá!!」
+   b3: Tay của kẻ hiếp dâm (Rance) xoa / mông Maria qua quần áo của cô.
+   b4: Maria 「Xin chào...!!」
+   b5: Cơ thể Maria căng thẳng hơn.
+   b6: Maria 「K-Không!! Cứu tôi với, Rance! 」
+   b7: Kẻ hiếp dâm (Rance) đã cưỡng bức quần áo
+   b8: của Maria và xoa bóp ngực cô một cách thô bạo.
+   b9: Maria 「Kh... Không!! Cứu / tôi với... Rance... Rance!!」
+   b10: Maria đánh vào đầu kẻ hiếp dâm (Rance) và vùng
+   b11: vẫy nhưng cô không thể thoát khỏi tay hắn.
+   b12: Maria 「Hiin... Tôi không thích điều / này...!! Rance... Cứu tôi... Rance!」
+   b13: （nhấp chuột）
+   b14: Đèn bật sáng.
+   b15: Maria 「Hả...?」
+   b16: Rance 「Ta đến để cứu cô, công chúa của ta.」
+   b17: Maria 「Hả...?」
+   b18: Rance 「Ồ, đừng ngại. Em có / yêu ta nhiều đến vậy không? 」
+   b19: Rance 「Em đã nhiều lần gọi / tên ta một cách khao khát ...」
+   b20: Maria 「Ưu...」
+   b21: Maria 「Ngu ngốc, ngu ngốc,
+   b22: ngu ngốc!! Tại sao ngươi làm điều / đó...? Hick...」 tôi thực sự sợ hãi...!!
+   b23: 」
+   b24: Maria vùi mặt vào ngực Rance và bắt đầu khóc lớn.
+   b25: Maria 「À...」
+  JP154 [L_022b4 sNone/1]: そのマリアの服をさらに剥いでいくランス。 ランス「俺に抱かれたいくせに意地をはる 　　　　からだ」 マリア「抱かれたくなんか……ないもん…」 そういう言い合いをしている間にも、マリアの上着と ズボンを脱がせるランス。 ランス「おい…尻をあげろ。 　　　　これじゃあ、パンツどころか、ズボンも 　　　　脱がせられん」 マリア「……嫌……」 マリアはそう言いながらも、こっそり尻を持ち上げた。 ランス「ふん…いいか。お前は、俺の女だ。 　　　　そこんとこ忘れるな」 ランス「俺が一介の戦士であろうと、国王であろうと 　　　　同じだ。 　　　　わかったな？」 マリア「うっ…うん…でも…それとこれが 　　　　どう繋がるか…」 ランス「黙れ」 マリア「あっ…！！」 ランス「なんだ、もう濡れているぞ。 　　　　きゃあきゃあ言ってたわりに…」 マリア「だっ…だって…ランスだってわかったら…」 ランス「俺だとわかったら…ここがこうなったのか？」 マリア「あっ…！！」 ランスはマリアの花弁に指を這わせ、わざと 湿った音を聞かせた。 マリア「だっ…だって…だって…」 ランス「うむ…そうだな……」 ランスはマリアの足を抱え… ランス「お前を抱くのも久しぶりだからな… 　　　　躰が俺様のハイパー兵器を恋しがっても 　　　　仕方ない事だな」 マリア「ばっ…馬鹿っ…あっ…あんっ……！！」 ランスはマリアの中にハイパー兵器をずっぽりと おさめた。 ランス「くっ…なんだ…まだそんな動いてないのに、 　　　　そんなに絞めるな」 マリア「いっ…嫌っ…言わないでっ…あっ…！」 ランスはマリアの足を大きく広げると、ハイパー兵器を 出し入れし、そしてこすりつけ、マリアの珠を刺激した。 マリア「あっ…ランスっ…！」 ランス「よし…じゃあ今からバックで 　　　　獣の様に犯してやるぜ！！」 ランスはマリアの腰を掴んだ。 マリア「あっ…待って…！」 ランス「なんだ？ 　　　　こんなところでやめる事は……」 マリア「違う…違うの…」 ランス「何が？」 マリア「お願い…今日だけは、私を見て…して… 　　　　私もランスを見ていたいの……」 ランス「…よし、今日だけだぞ。 　　　　次は、バックとかするからな」 マリア「……うん……」 ランス「じゃあ、遠慮はせん。 　　　　いいな？」 マリア「ああっ…！！」 ランスはマリアの腰を抱くと、彼女の躰が浮き上がらん ばかりに、ピストン運動を開始した。 マリア「あっ…ランスっ…ランスっ…！！」 マリアはランスの首にしがみつき、ランスの腰に 腰を合わせる。 ランス「こっ…こらっ…そんなに激しく…」 マリア「だって…だって…ランス…ランス…」 マリアは泣く様な声をあげ、腰を激しく使って ランスのものを必要以上に刺激してくる。 ランス「くっ……」 ランスはマリアの躰をぐっと抱きしめた。 マリア「ああっ……！！」 ランスの体温を躰中で感じ、マリアが大きく 震え、そして中に埋められているランスのハイパー兵器 をきつく絞めあげた。 ランス「くっ……！！」 ランスもまた、マリアをきつく抱き、 マリアの中に思い切り放った。
+ g153 [L_01b0f L1528 sNone/1 WIDE]
+   b0: Rance xé quần áo nhiều hơn.
+   b1: Rance 「Bởi vì em muốn quan hệ tình / dục với ta nhưng lại kiềm chế.」
+   b2: Maria 「Tôi... không...」
+   b3: Trong cuộc tranh luận của họ, / Rance đã cởi áo và quần của Maria.
+   b4: Rance 「Này...」
+   b5: Nhấc mông lên. Nếu không thì tôi / thậm chí còn không thể cởi được
+   b6: quần của ngươi chứ đừng / nói đến quần lót của ngươi.
+   b7: 」
+   b8: Maria 「... Không...」
+   b9: Mặc dù nói vậy nhưng Maria / hơi ngẩng đầu lên một chút.
+   b10: Rance 「Hmph... Nghe này, em là / người phụ nữ của anh. Đừng quên.」
+   b11: Rance 「Dù ta là một chiến binh / bình thường hay một vị vua thì
+   b12: ta vẫn là một người như」 vậy. Hiểu chưa?」
+   b13: Maria 「V-Ừ... Nhưng... Chuyện đó / thì liên quan gì tới chuyện này...?」
+   b14: Rance 「Im lặng đi.」
+   b15: Maria 「À...!!」
+   b16: Rance 「Cái gì, ướt rồi à? Mặc / dù cô đã la hét rất nhiều...」
+   b17: Maria 「B-Bởi vì... Khi tôi biết đó là cậu...」
+   b18: Rance 「Khi cô biết đó là ta... Nó ướt thế này à?」
+   b19: Maria 「À...!!」
+   b20: Rance lướt ngón tay trên âm hộ của Maria,
+   b21: cố tình tạo ra âm thanh ướt / át để cô có thể nghe thấy.
+   b22: Maria 「B-Bởi vì... Bởi vì...」
+   b23: Rance 「Mhm... Để xem nào...」
+   b24: Rance nhấc chân Maria lên...
+   b25: Rance 「Chà, đã lâu rồi chúng ta chưa làm tình...」
+   b26: Em không thể không khao / khát siêu vũ khí của ta ...」
+   b27: Maria 「Đ-Ngốc quá... Ah... Ahn...!!」
+   b28: Rance đưa siêu vũ khí của / mình vào sâu bên trong Maria.
+   b29: Rance 「Kh...
+   b30: Cái gì...? Chúng ta thậm chí còn chưa di / chuyển và em đang bị co thắt rất nhiều. 」
+   b31: Maria 「Đ-Đừng nói thế... Ah...!」
+   b32: Rance dang rộng hai chân của Maria,
+   b33: đẩy siêu vũ khí của hắn ra / vào và xoa bóp âm vật của cô.
+   b34: Maria 「À... Rance...!」
+   b35: Rance 「Được rồi... Giờ ta sẽ đụ / cô từ phía sau như một con thú!!」
+   b36: Rance nắm chặt hông Maria.
+   b37: Maria 「À... Đợi đã...!」
+   b38: Rance 「Cái gì? Ta không thể dừng lại bây giờ. 」
+   b39: Maria 「K-Không đúng rồi...」
+   b40: Rance 「Cái gì không?」
+   b41: Maria 「Làm ơn... Ít nhất là trong / ngày hôm nay, hãy nhìn tôi...
+   b42: Tôi cũng muốn gặp ngươi...」
+   b43: Rance 「... Được rồi, chỉ hôm nay thôi. / Lần tới ta muốn thử nó từ phía sau. 」
+   b44: Maria 「... Được rồi...」
+   b45: Rance 「Vậy thì ta sẽ không / nương tay đâu. Được không?」
+   b46: Maria 「Aah...!!」
+   b47: Rance nâng hông của Maria lên và bắt đầu piston.
+   b48: Maria 「À... Rance... Rance...!!」
+   b49: Maria bám vào cổ Rance và di / chuyển hông đồng bộ với anh.
+   b50: Rance 「H-Này... Em di chuyển mạnh quá...」
+   b51: Maria 「Bởi vì... Bởi vì... Rance... Rance...」
+   b52: Maria rên rỉ và dùng hông một cách thô bạo, / kích thích cặc Rance hơn mức cần thiết.
+   b53: Rance 「Kh...」
+   b54: Rance ôm chặt Maria.
+   b55: Maria 「Aah...!!」
+   b56: Maria cảm nhận được sức nóng của / Rance xuyên suốt cơ thể mình,
+   b57: run rẩy dữ dội và siết chặt siêu / vũ khí của Rance bên trong cô.
+   b58: Rance 「Kh...!!」
+   b59: Rance lại ôm chặt Maria và bắn / tất cả những gì anh có vào cô.
+  JP155 [L_022b4 s50/1]: ……………
+ g154 [L_01b0f L1766 s50/1]
+   b0: ............
+  JP156 [L_022b4 s1/50]: ぐがあ…ぐがあ……
+ g155 [L_01b0f L1771 s1/50]
+   b0: Gugaaahaaahaha!haha!... / Gugaaahaaahaha!haha!...
+  JP157 [L_022b4 sNone/1]: マリアは服を着替えながら、 高いびきで眠っているランスを 見つめている。
+ g156 [L_01b0f L1778 sNone/1]
+   b0: Maria đang thay / quần áo trong khi / nhìn Rance ngáy to.
+  JP158 [L_022b4 s50/1]: …また…しちゃった…… 駄目ね… もう…諦めなきゃって… 決心したのに…
+ g157 [L_01b0f L1787 s50/1]
+   b0: ... Tôi đã / làm lại lần nữa...
+   b1: Sau khi tôi quyết / định phải từ bỏ...
+  JP159 [L_022b4 s1/50]: ふがっ……
+ g158 [L_01b0f L1799 s1/50]
+   b0: Ôi...
+  JP160 [L_022b4 sNone/1]: ランスは寝返りをうつと、布団を 蹴飛ばした。
+ g159 [L_01b0f L1804 sNone/1]
+   b0: Rance trở / mình trong giấc ngủ và / đá văng chiếc chăn ra.
+  JP161 [L_022b4 s50/1]: ふふっ…
+ g160 [L_01b0f L1813 s50/1]
+   b0: Huhu...
+  JP162 [L_022b4 sNone/1]: にっこり笑って、ランスに布団を かけ直してやるマリア。
+ g161 [L_01b0f L1818 sNone/1]
+   b0: Maria mỉm cười và / đắp chăn lại cho Rance.
+  JP163 [L_022b4 s50/1]: ランス…… 貴方にとって、私は多くの女の子 の一人かもしれないけど… 私…私は…
+ g162 [L_01b0f L1825 s50/1]
+   b0: Rance...
+   b1: Đối với anh, / em có thể chỉ là một cô gái / khác, nhưng... em... em...
+  JP164 [L_022b4 sNone/1]: 震えながら、ランスに顔を寄せる マリア。 マリアはそっとランスの額にキス をすると、静かに部屋を出た。
+ g163 [L_01b0f L1837 sNone/1]
+   b0: Maria run rẩy khi đến / gần khuôn mặt của Rance.
+   b1: Cô nhẹ nhàng / hôn lên trán anh rồi / lặng lẽ rời khỏi phòng.
+  JP165 [L_02d0d sNone/1]: 　　　リーザス城 　　　　ランスの寝室
+ g164 [L_0205e L1862 sNone/1]
+   b0: Lâu đài Leazas
+   b1: Phòng ngủ của Rance Hohoh... / Mm～～... Hoy!
+  JP166 [L_02d0d s1/50]: ほっほっ…ん～～… ほいっ！
+  JP167 [L_02d0d sNone/1]: ランスは体操らしきものをして、 マリアを待っている。
+ g165 [L_0205e L1874 sNone/1]
+   b0: Rance đang tập thể / dục khi đợi Maria.
+  JP168 [L_02d0d sNone/1]: 　　＜とんとんとん＞
+ g166 [L_0205e L1881 sNone/1]
+   b0: （cốc cốc cốc）
+  JP169 [L_02d0d s1/50]: 入れ。
+ g167 [L_0205e L1886 s1/50]
+   b0: Vào.
+  JP170 [L_02d0d s50/1]: ランス、用って…
+ g168 [L_0205e L1893 s50/1]
+   b0: Rance, cậu làm gì...
+  JP171 [L_02d0d s1/50]: がはははははははは！！！
+ g169 [L_0205e L1898 s1/50]
+   b0: Gahahahaha! ha!!!
+  JP172 [L_02d0d s50/1]: きゃあああ！！
+ g170 [L_0205e L1903 s50/1]
+   b0: Kyaaah!!
+  JP173 [L_02d0d sNone/1]: ランスは、マリアの所に走ると、 マリアを抱き上げ、ベッドに直行 した。
+ g171 [L_0205e L1908 sNone/1]
+   b0: Rance chạy / đến chỗ Maria, bế cô lên / và đưa thẳng lên giường.
+  JP174 [L_02d0d s50/1]: なんなのよ…ランス…
+ g172 [L_0205e L1917 s50/1]
+   b0: Chuyện gì vậy, Rance...?
+  JP175 [L_02d0d s1/50]: 白々しいなぁ。 用はわかっているはずだ。 ちゃーんと新しい下着を着てきた んだろ？
+ g173 [L_0205e L1922 s1/50]
+   b0: Đừng giả vờ. / Cô biết ta muốn gì. Cô đang / mặc đồ lót mới phải không?
+  JP176 [L_02d0d s50/1]: きゃんっ！
+ g174 [L_0205e L1931 s50/1]
+   b0: Kyan!
+  JP177 [L_02d0d sNone/1]: ランスはそう言いながら、ズボン の上からマリアのやや大きめの尻 を撫でた。
+ g175 [L_0205e L1936 sNone/1]
+   b0: Rance cọ / xát cặp mông khá lớn của / Maria qua quần của cô.
+  JP178 [L_02d0d s50/1]: 馬鹿！ 女の子がそういう気遣いしていて も…男の子は見て見ぬふりすると か…… もうちょっと、いい雰囲気になっ てから褒めるってしないと…
+ g176 [L_0205e L1945 s50/1]
+   b0: Ngu ngốc!
+   b1: Con trai phải giả / vờ như không để ý khi con / gái lo lắng về điều đó...
+   b2: Cậu phải bớt / thẳng thắn hơn đi, như khen / tôi hôm nay trông đẹp đấy...
+  JP179 [L_02d0d s1/50]: がははははは！！！
+ g177 [L_0205e L1964 s1/50]
+   b0: Gahahahaha!
+  JP180 [L_02d0d s50/1]: もうっ…！ ちょっとは、人の話…聞いて… きゃああん！
+ g178 [L_0205e L1969 s50/1]
+   b0: Trời ạ...! / Hãy lắng nghe tôi / chỉ một... Kyaaaaaan!
+  JP181 [L_02d0d sNone/1]: ランス「お前のここだって、俺様を待ち続けていた 　　　　はずだ。 　　　　なあ、そうだろ？」 ランスはマリアの股間に顔を突っ込んで 目の前のものに語りかけた。 マリア「きゃっ…きゃあー！ 　　　　馬鹿、馬鹿！ 　　　　どこ見て喋って…」 ランス「マリアの…可愛いここだ」 ランスは舌を伸ばす。 マリア「んっ……！！」 ランス「ひと嘗めしただけなのに… 　　　　もうとろとろしたのが出て来たぞ」 マリア「ひっ…んっ…… 　　　　やめて…そんな事、言わないで…」 ランス「言って欲しくないんだったら… 　　　　俺様のものもさわるんだな」 マリア「え……」 マリアの掌に、まだまだこれから元気になりますと いう状態のハイパー兵器が置かれた。 マリア「あっ……」 マリアは目を閉じて、それをゆっくりとさわり 出した。 ランス「こっ…こら。 　　　　もう少し強くだ。くすぐったいぞ」 マリア「あっ…ごっ…ごっ…ごめん… 　　　　こう……？」 恐々と…それでもさっきより強く、少し握る様に、 マリアはランスのハイパー兵器を愛撫しだした。 マリア「んっ…んんっ……」 ランスの舌の感触と、掌のものの感触に、 マリアがふるふると震え出す。 マリアがふれる。 ランスのハイパー兵器が、むくむくと大きくなる。 ランスの舌が這う。 マリアのそこが、溶けた様にとろとろになる。 二人の行為が呼応しあうかの様に、互いの躰が 準備ＯＫになりだした。 ランス「よし…離せ…」 マリア「うっ…うん……」 マリアがランスのハイパー兵器を離す。 ランスの舌も、マリアのそこから離れ… 舌の代わりにハイパー兵器の先端が宛われる。 マリア「あっ……」 マリアの躰は横に倒され、片足はランスが 脇に抱えている。 マリア「あっ……！！」 ランスのハイパー兵器が、すべて、 マリアの中に飲み込まれた。 ランス「よし、今日はこのままバックに 　　　　もっていくぜ！」 マリア「えっ……あっ…あう！」 ランスはマリアの腰をくるんと回すと、 マリアの手をベッドにつかせ、尻をあげさせた。 マリア「あっ…くぁっ……」 ランス「がはははは！！！ 　　　　いい感じだぞ、マリア！」 ランスはマリアの尻を掌でふれ、揉みしだき、 そして、掴む様にして、マリアの中をハイパー兵器で 貫き、抜き、そして、汁を滴らせる。 体液の雫はシーツの上に、小さな花を 咲かせる様に、ぽたぽたと零れ落ちた。 マリア「あっ…ランスっ…！！」 マリアはシーツをぐっと掴み、腹で尻を叩く ランスの動きに合わせ、躰を揺らす。 ランス「いいぞ、マリア… 　　　　そのままだ！」 ランスはマリアの太股を腰辺りに抱えると、 マリアの中を貪った。 マリア「んっ…んんっーっ…！」 不安定な体位になっても、健気に腰を合わせ、 ランスに合わせるマリア。 ランス「そら…出してやるぞ、受け取れ！」 マリア「ああっ……！！」 ランスはマリアの中にハイパー兵器を深く埋めると、 マリアの中に思う様、吐き出した。 マリア「あっ……あんっ…！！」 そして、マリアもランスの行為に合わせ、 躰を大きく震わせた。
+ g179 [L_0205e L1984 sNone/1 WIDE]
+   b0: Rance 「Âm hộ của em có lẽ / đang đợi ta. Đúng không?」
+   b1: Rance thọc mặt vào háng / Maria và nói chuyện với nó.
+   b2: Maria 「Kyah... Kyaaah! Ngu ngốc, ngu ngốc! / Cậu đang nói chuyện với cái gì vậy...?」
+   b3: Rance 「Con mèo dễ thương của em.」
+   b4: Rance thè lưỡi ra.
+   b5: Maria 「Ừm...!!」
+   b6: Rance 「Ta chỉ liếm em một lần, / nhưng em đã nhỏ giọt rồi.」
+   b7: Maria 「Hii... Mm... Dừng lại... / Đừng nói những điều như thế...」
+   b8: Rance 「Nếu em không muốn ta nói / vậy thì hãy chạm vào cặc ta.」
+   b9: Maria 「Hả...?」
+   b10: Lòng bàn tay của Maria được / đặt trên siêu vũ khí. Nó
+   b11: vẫn ở trong tình trạng có / thể trở nên khó khăn hơn.
+   b12: Maria 「À...」
+   b13: Maria nhắm mắt lại và từ từ bắt đầu chạm vào nó.
+   b14: Rance 「N-Này, làm mạnh hơn nữa đi. Nhột quá.」
+   b15: Maria 「À... X-X-Xin lỗi... Như thế này...?」
+   b16: Maria rụt rè nhưng vẫn mạnh mẽ hơn trước,
+   b17: nắm lấy siêu vũ khí của / Rance và bắt đầu vuốt ve nó.
+   b18: Maria 「Ừm... Ừm...」
+   b19: Cảm giác từ lưỡi của Rance và thứ trong lòng
+   b20: bàn tay cô khiến Maria bắt đầu run rẩy.
+   b21: Maria cảm động. Siêu vũ khí của Rance đã tăng vọt.
+   b22: Rance liếm lưỡi. Âm hộ của Maria ngày càng ẩm ướt.
+   b23: Giống như họ đồng bộ với nhau,
+   b24: cơ thể của cả hai đều đạt đến trạng / thái hoàn toàn sẵn sàng cùng một lúc.
+   b25: Rance 「Được rồi... Buông ra...」
+   b26: Maria 「Đ-Được rồi...」
+   b27: Maria buông siêu vũ khí của Rance. Lưỡi
+   b28: của Rance cũng rời khỏi âm hộ của Maria...
+   b29: Hắn thay thế nó bằng đầu cặc của mình.
+   b30: Maria 「À...」
+   b31: Rance đặt Maria xuống và kẹp một / chân của cô dưới cánh tay anh.
+   b32: Maria 「À...!!」
+   b33: Siêu vũ khí của Rance đã bị tiêu / hao hoàn toàn bên trong Maria.
+   b34: Rance 「Được rồi, hôm nay ta sẽ làm từ phía sau!」
+   b35: Maria 「Hả...? A... Aah!」
+   b36: Rance xoay hông Maria, đặt tay / xuống giường và nâng mông lên.
+   b37: Maria 「À... Kwah...」
+   b38: Rance 「Gahahahaha!!! / Cảm giác thật tuyệt, Maria!」
+   b39: Rance dùng lòng bàn tay chạm vào
+   b40: mông Maria và bắt đầu xoa bóp. Anh đâm / siêu vũ khí của mình vào và ra khỏi cô,
+   b41: khiến nước ép của cô chảy ra.
+   b42: Những giọt chất lỏng rải rác trên tấm / trải giường như cánh hoa rơi sau khi nở.
+   b43: Maria 「À... Rance...!!」
+   b44: Maria nắm chặt tấm trải giường và lắc
+   b45: người để phù hợp với chuyển động / của dạ dày Rance đập vào mông cô.
+   b46: Rance 「Tốt, Maria... Hãy tiếp tục làm như vậy!」
+   b47: Rance nâng hông của Maria lên / và thưởng thức xác thịt của cô.
+   b48: Maria 「Ừm... Mmmmmm...!」
+   b49: Bất chấp tư thế không ổn định,
+   b50: Maria vẫn tiếp tục di chuyển hông / của mình để phù hợp với Rance.
+   b51: Rance 「Đó... sắp ra rồi, cầm lấy đi!」
+   b52: Maria 「Aah...!!」
+   b53: Rance chôn siêu vũ khí của / mình vào sâu bên trong Maria
+   b54: và bộc lộ tất cả những gì anh có bên trong cô.
+   b55: Maria 「À... Ahn...!!」
+   b56: Sau đó, Maria đi theo Rance / và cơ thể cô rung chuyển mạnh.
+  JP182 [L_02d0d s1/50]: ふ～～う…
+ g180 [L_0205e L2209 s1/50]
+   b0: Haaaaa...
+  JP183 [L_02d0d s50/1]: むう……
+ g181 [L_0205e L2214 s50/1]
+   b0: Ừm...
+  JP184 [L_02d0d s1/50]: なんだ？ やり足りないのか？
+ g182 [L_0205e L2219 s1/50]
+   b0: Cái gì? Không có đủ?
+  JP185 [L_02d0d s50/1]: 違うの… ランスったら…苦しい体勢で するから…躰が…痛いの…
+ g183 [L_0205e L2224 s50/1]
+   b0: Không... Anh đặt em / vào thế đau đớn nên / người em đau nhức...
+  JP186 [L_02d0d s1/50]: よし、わかった。 やり足りないのだな。
+ g184 [L_0205e L2233 s1/50]
+   b0: Được rồi, vậy / là cô chưa có đủ.
+  JP187 [L_02d0d sNone/1]: ランスはマリアの上に 覆い被さった。
+ g185 [L_0205e L2240 sNone/1]
+   b0: Rance lờ mờ nhìn Maria.
+  JP188 [L_02d0d s50/1]: ちょっ…だからぁ！ 違う、違うって！
+ g186 [L_0205e L2245 s50/1]
+   b0: Này... Tôi không / nói vậy đâu, dừng lại!
+  JP189 [L_02d0d s1/50]: そう言えば、前からされるのが 好きだって言ってたな。 じゃあ、次は前から、マリアを 犯して、あんあん鳴く顔をじっと 見といてやるぜ。
+ g187 [L_0205e L2252 s1/50]
+   b0: Nghĩ lại thì, trước / đây cô đã nói rằng cô thích / làm việc đó ngay từ đầu.
+   b1: Vậy tiếp theo ta sẽ đụ cô / từ phía trước và ngắm nhìn / khuôn mặt rên rỉ của cô.
+  JP190 [L_02d0d s50/1]: だっ…だから…
+ g188 [L_0205e L2268 s50/1]
+   b0: N-Nhưng tôi đã nói...
+  JP191 [L_02d0d s1/50]: がはははははは！！
+ g189 [L_0205e L2273 s1/50]
+   b0: Gahahahaha!
+  JP192 [L_02d0d s50/1]: きゃあああん！ ランスの馬鹿ぁぁ！！
+ g190 [L_0205e L2278 s50/1]
+   b0: Kyaaaaaaaahn! Cậu / thật ngu ngốc, Rance!!
+  JP193 [L_03a14 sNone/1]: 　　　リーザス城 　　　　ランスの寝室
+ g191 [L_027f6 L2297 sNone/1]
+   b0: Lâu đài Leazas
+   b1: Phòng ngủ của / Rance ... Mất một lúc...
+   b2: Đã 30 phút trôi qua kể / từ khi tôi gọi cho cô...
+  JP194 [L_03a14 s1/50]: ……遅い…… 呼びにやってもう３０分は…
+  JP195 [L_03a14 sNone/1]: 　　＜とん…とん…＞
+ g192 [L_027f6 L2314 sNone/1]
+   b0: （cốc...cốc...）
+  JP196 [L_03a14 s1/50]: おそーーーい！！
+ g193 [L_027f6 L2319 s1/50]
+   b0: Điều gì khiến cô / mất nhiều thời gian thế?!!
+  JP197 [L_03a14 s50/1]: …………
+ g194 [L_027f6 L2328 s50/1]
+   b0: ............
+  JP198 [L_03a14 sNone/1]: マリアがこの世の終わりの様な 暗い顔をして、黙ったまま入って 来た。
+ g195 [L_027f6 L2333 sNone/1]
+   b0: Maria lặng lẽ bước / vào phòng với vẻ mặt u ám / như thể đây là ngày tận thế.
+  JP199 [L_03a14 s1/50]: どうした？ 爆発の事をまだ気にしてるのか？ そんな事、俺様がこのハイパー 兵器で忘れさせてやるぞ。 がはははははは！
+ g196 [L_027f6 L2342 s1/50]
+   b0: Có chuyện gì vậy? Cô / vẫn còn lo lắng về những / gì đã xảy ra với vụ nổ?
+   b1: Ta sẽ khiến cô / quên nó đi bằng siêu vũ / khí của ta. Gahahahaha!
+  JP200 [L_03a14 s50/1]: ………………
+ g197 [L_027f6 L2358 s50/1]
+   b0: ............
+  JP201 [L_03a14 s1/50]: ええい、人が気にするなと言って いるのに… いい加減にしないか！！ それともなんだ？ この俺様に抱かれたくないとでも 言うのか？
+ g198 [L_027f6 L2363 s1/50]
+   b0: Này, ta bảo cô đừng lo / lắng về điều đó... Cô không / làm được điều đó sao?!!
+   b1: Hay là gì?
+   b2: Cô sẽ nói với ta / rằng cô không muốn quan hệ / tình dục với ta phải không?
+  JP202 [L_03a14 s50/1]: …………
+ g199 [L_027f6 L2382 s50/1]
+   b0: ............
+  JP203 [L_03a14 s1/50]: こら、マリア…なんとか…
+ g200 [L_027f6 L2387 s1/50]
+   b0: Này, Maria... Ờ...
+  JP204 [L_03a14 s50/1]: ランス……
+ g201 [L_027f6 L2392 s50/1]
+   b0: Rance...
+  JP205 [L_03a14 s1/50]: ………………
+ g202 [L_027f6 L2397 s1/50]
+   b0: ............
+  JP206 [L_03a14 s50/1]: ………いいわ…… どうせ、隠しても仕方ないし…
+ g203 [L_027f6 L2402 s50/1]
+   b0: ... Không sao đâu...
+   b1: Che giấu nó / cũng chẳng ích gì...
+  JP207 [L_03a14 s1/50]: ん、隠す？？ 何の事だ。
+ g204 [L_027f6 L2412 s1/50]
+   b0: Hm, giấu cái gì cơ??
+  JP208 [L_03a14 s50/1]: ………………
+ g205 [L_027f6 L2417 s50/1]
+   b0: ............
+  JP209 [L_03a14 sNone/1]: マリアは黙って上着を 脱ぎだした。
+ g206 [L_027f6 L2422 sNone/1]
+   b0: Maria lặng lẽ cởi áo ra.
+  JP210 [L_03a14 s50/1]: ランス……ランス……私…
+ g207 [L_027f6 L2427 s50/1]
+   b0: Rance... Rance... Tôi...
+  JP211 [L_03a14 sNone/1]: ぶるぶるとマリアは震えている。
+ g208 [L_027f6 L2432 sNone/1]
+   b0: Maria run rẩy.
+  JP212 [L_03a14 s1/50]: どうしたんだ、一体…
+ g209 [L_027f6 L2437 s1/50]
+   b0: Có chuyện gì vậy...?
+  JP213 [L_03a14 sNone/1]: ランスはマリアに手を伸ばした。 が、マリアがその手を遮る。 そして、ゆっくりと上着を… 下着を脱いだ。
+ g210 [L_027f6 L2442 sNone/1]
+   b0: Rance đưa tay / về phía Maria.
+   b1: Nhưng Maria đã / ngăn họ lại. Sau đó cô từ từ / cởi áo sơ mi và áo ngực ra.
+  JP214 [L_03a14 s1/50]: あ……
+ g211 [L_027f6 L2456 s1/50]
+   b0: À...
+  JP215 [L_03a14 sNone/1]: マリアの胸には、爆発の時に受けた傷が 生々しく残っていた。 マリア「…………………」
+ g212 [L_027f6 L2466 sNone/1 WIDE]
+   b0: Một vết sẹo từ vụ nổ rõ ràng / đã để lại trên ngực Maria.
+   b1: Maria 「............」
+  JP216 [L_03e58 sNone/1]: ランスから視線を避け、マリアは震えながら じっとしている。 ランス「マリア…これは…」 マリア「これ…消えないかもって… 　　　　もう…私……」 マリア「…ランス…こんな私、嫌でしょ？ 　　　　醜いでしょ？ 　　　　だからっ…だからっ…！」 マリアの目の端に大粒の涙が生まれた。 マリア「私…私…傷物だもんね… 　　　　王様のランスにはふさわくないから… 　　　　ごめん、ごめんなさい……」 マリアは上着をゆっくり手に取り、 身につけようとした。 マリア「えっ……」 マリアを抱きしめるランス。 マリア「あっ…！」 ランスはマリアに唇を重ねた。 マリア「んっ…んん！」 ランスはマリアの胸を掌におさめた。 マリア「ランス、どうして…」 ランス「うだうだ言うな、さっさとズボン 　　　　も脱げ」 マリア「でっ…でも…ランス…私… 　　　　こんなっ……」 ランス「自分で脱がないんだったら、 　　　　俺様が脱がしてやる！」 マリア「えっ…きゃあ！」 ランスはマリアの服を剥いでしまうと、 胸の中央に顔を埋め、舌を出した。 マリア「あっ…やめっ…ランス！」 ランスはマリアの乾いた傷口をゆっくりと 嘗める。 マリア「嫌…もう…やめて、ランス… 　　　　…駄目っ…！」 ランス「うるさい！」 マリア「あっ…！」 ランスはマリアの花弁に強引に指を入れた。 ランス「どんなになっても、お前は俺様の女だ。 　　　　今からそれを躰に叩き込んでやる！」 マリア「あっ…ああ！」 ランスはぐりぐりとマリアの中を指で混ぜた。 ランスの指がうっすらと蜜で濡れる。 ランス「もう入れてやる。 　　　　いつもみたいにちゃんと腰を合わせろよ」 マリア「ランス……」 自然に足を開くマリア。 マリア「んっ……んんっーーっ…！！」 少しきついが、なんとかランスのハイパー兵器は マリアの中におさまった。 ランス「そら！」 マリア「あっ…！」 マリアの足を大きく開かせ、ランスはハイパー兵器を がんがんと動かす。 マリア「くっ…んっ…んんっ……」 ランスに言われた通りなのか、それとも 自分の意志なのか…マリアもランスに合わせ、 腰をくねらせた。 マリア「っ……んっ…ぅぅっ……」 マリアの目に涙が溜まる。 マリア「ランス……ランス！！」 マリアは上体を起こし、ランスに抱きついた。 マリア「あっ…！」 マリアを抱き上げ、自分の足の上に乗せる。 そのままマリアを上下に揺らし、抱くランス。 マリア「んっ…んんっ～っ……！」 涙と涙声を喉奥に飲み込み、懸命にランスに 合わせるマリア。 マリア「あっ……ああ！」 ランスはマリアから躰を離し、マリアの傷を 嘗め出した。 マリア「あっ…ランス…ランス… 　　　　……あっ…ああっ…」 ランスの頭を抱きかかえる様にして、マリアは ランスの様々な愛撫を受ける。 マリア「ランス…私…私……」 マリアがランスの肩をぐっと強く掴んだ。 ランス「よし…動いてやるぞ。 　　　　そらっ！！」 マリア「あっ！！」 ランスはマリアを激しく攻めたてた。 マリア「あっ…ああっ……」 マリア「んっ……んんっーーっ…！」 マリアは大きく震え、ランスの胸の中に 躰を預けた。 ランス「そら…いつもの通り…出してやるぜ！」 マリア「あっ…」 ランスの躰が震える。 マリア「ああっ……！」 それを受け、マリアは再び躰を 大きく震わせた。
+ g213 [L_02b64 L2476 sNone/1 WIDE]
+   b0: Maria tránh ánh mắt của Rance và run rẩy.
+   b1: Rance 「Maria... Đây là...」
+   b2: Maria 「Họ nói chuyện này có thể / sẽ không biến mất... Tôi...」
+   b3: Maria 「... Rance,
+   b4: cậu không thích tôi nữa phải không? / Thật kinh khủng phải không? Vậy...
+   b5: Vậy...!」
+   b6: Những giọt nước mắt lớn hình / thành nơi khóe mắt Maria.
+   b7: Maria 「Tôi... tôi là đồ hư hỏng... / Không phù hợp với một vị vua như ngài...
+   b8: Tôi xin lỗi...」
+   b9: Maria từ từ nhặt quần áo lên và định mặc lại.
+   b10: Maria 「Hả...?」
+   b11: Rance ôm Maria.
+   b12: Maria 「À...!」
+   b13: Môi anh chạm môi cô.
+   b14: Maria 「Ừm... Ừm!」
+   b15: Anh đặt tay lên ngực cô.
+   b16: Maria 「Rance, tại sao...?」
+   b17: Rance 「Nói đủ rồi, nhanh cởi quần ra đi.」
+   b18: Maria 「N-Nhưng Rance... tôi...」
+   b19: Rance 「Nếu em không tự cởi chúng / ra, ta sẽ cởi chúng ra cho em!」
+   b20: Maria 「Hả...? Kyaah!」
+   b21: Rance xé quần áo của Maria, / vùi mặt vào ngực cô và lè lưỡi.
+   b22: Maria 「À... Dừng lại, Rance!」
+   b23: Rance từ từ liếm vết sẹo của Maria.
+   b24: Maria 「Không... Dừng lại, / Rance... ... Dừng lại...!」
+   b25: Rance 「Im đi!」
+   b26: Maria 「À...!」
+   b27: Rance thọc một ngón tay vào âm hộ của mình.
+   b28: Rance 「Dù có chuyện gì xảy ra,」 em vẫn là người
+   b29: phụ nữ của anh. Tôi sẽ đập nó vào cơ thể ngươi!
+   b30: 」
+   b31: Maria 「À... Aah!」
+   b32: Rance khuấy động ngón tay của mình xung quanh bên
+   b33: trong Maria. Ngón tay anh ướt đẫm nước trái cây.
+   b34: Rance 「Ta sẽ đặt nó vào bây giờ. Hãy đối / xử với ta với hông của em như mọi khi.
+   b35: 」
+   b36: Maria 「Rance...」
+   b37: Maria theo bản năng mở rộng chân mình.
+   b38: Maria 「Ừm... Mmmmmmm...!!」
+   b39: Nó hơi chật,
+   b40: nhưng bằng cách nào đó Rance đã đưa được siêu
+   b41: vũ khí của mình vào bên trong cô.
+   b42: Rance 「Đó!」
+   b43: Maria 「À...!」
+   b44: Rance dang rộng hai chân của Maria / và đâm siêu vũ khí của mình vào.
+   b45: Maria 「Kh... Ừm... Ừm...」
+   b46: Như Rance đã bảo cô, hoặc / có lẽ theo ý muốn của cô,
+   b47: Maria vặn hông để phù hợp với Rance.
+   b48: Maria 「... Ừm... Uuu...」
+   b49: Nước mắt dâng lên trong mắt Maria.
+   b50: Maria 「Rance... Rance!!」
+   b51: Maria nâng phần thân trên / của mình lên và ôm lấy Rance.
+   b52: Maria 「À...!」
+   b53: Anh bế Maria lên và đặt cô lên chân mình. / Anh lắc cô lên xuống khi làm tình với cô.
+   b54: Maria 「Ừm... Mmmmm...!」
+   b55: Maria cố kìm nước mắt và rên rỉ. / Cô phù hợp với Rance nhất có thể.
+   b56: Maria 「À... Aah!」
+   b57: Rance tách mình ra khỏi cơ thể Maria / và bắt đầu liếm vết sẹo của cô.
+   b58: Maria 「À... Rance... Rance... ... À... Aah...」
+   b59: Maria ôm đầu Rance và nhận / được sự vuốt ve của anh.
+   b60: Maria 「Rance... tôi... tôi...」
+   b61: Maria nắm chặt vai Rance.
+   b62: Rance 「Được rồi... ta sẽ di chuyển. Đó!!」
+   b63: Maria 「À!!」
+   b64: Rance hành hung Maria một cách thô bạo.
+   b65: Maria 「À... Aah...」
+   b66: Maria 「Ừm... Mmmmmmmmm...!」
+   b67: Maria run rẩy và dựa vào ngực Rance.
+   b68: Rance 「Này... ta sẽ xuất tinh / vào trong cô như mọi khi!」
+   b69: Maria 「À...」
+   b70: Cơ thể Rance rùng mình.
+   b71: Maria 「Aah...!」
+   b72: Maria nhận lấy nó và cơ thể / cô lại run rẩy một lần nữa.
+  JP217 [L_03e58 s50/1]: ……………
+ g214 [L_02b64 L2748 s50/1]
+   b0: ............
+  JP218 [L_03e58 sNone/1]: すべてが終わった後…マリアは ゆっくりと立ち上がり、服を 纏い出した。
+ g215 [L_02b64 L2753 sNone/1]
+   b0: Sau khi mọi chuyện / kết thúc, Maria đứng dậy / và bắt đầu mặc quần áo vào.
+  JP219 [L_03e58 s50/1]: ありがとう…ランス…
+ g216 [L_02b64 L2762 s50/1]
+   b0: Cảm ơn, Rance...
+  JP220 [L_03e58 s1/50]: 何がだ？
+ g217 [L_02b64 L2767 s1/50]
+   b0: Để làm gì?
+  JP221 [L_03e58 s50/1]: 我慢してでも… こんな私を抱いてくれて、 嬉しかった… 最後にいい思い出になったわ… ありがとう。
+ g218 [L_02b64 L2772 s50/1]
+   b0: Tôi rất vui vì cậu đã / bao dung vì giờ tôi đã đủ để / quan hệ tình dục với tôi...
+   b1: Đây sẽ là một kỷ niệm / đẹp cuối cùng... Cảm ơn.
+  JP222 [L_03e58 s1/50]: ばーか、思い出なんて言うのは まだ早いぞ。これからもっと激し く抱いてやる。いいな？
+ g219 [L_02b64 L2786 s1/50]
+   b0: Đồ ngốc, / còn quá sớm để nói về những / kỷ niệm hay bất cứ điều gì.
+   b1: Chúng ta đang làm việc / đó thậm chí còn khó khăn hơn / kể từ bây giờ. Hiểu chưa?
+  JP223 [L_03e58 s50/1]: えっ……
+ g220 [L_02b64 L2802 s50/1]
+   b0: Hả...?
+  JP224 [L_03e58 s1/50]: それから、少し太ってきたんじゃ ないか？ 腰の辺りが前よりむちむちっと した感触がするぞ。 まあ…それはそれで悪くないが、 太り過ぎには注意しろ。
+ g221 [L_02b64 L2807 s1/50]
+   b0: Ngoài ra, cô đã tăng / cân một chút phải không?
+   b1: Cảm giác như vùng hông / của cô đầy đặn hơn một chút.
+   b2: Chà... Cũng không tệ / lắm đâu, nhưng hãy cẩn / thận kẻo béo quá đấy.
+  JP225 [L_03e58 s50/1]: ランス…いいの？ こんな私で…
+ g222 [L_02b64 L2826 s50/1]
+   b0: Rance... Cậu thực / sự vẫn ổn với tôi chứ?
+  JP226 [L_03e58 s1/50]: 飽きるまでは可愛がってやる。 また今度だ。 それまで楽しみにしていろ。
+ g223 [L_02b64 L2833 s1/50]
+   b0: Anh sẽ mãi yêu em cho / đến khi chán. Ta sẽ đụ cô / lần nữa. Hãy mong chờ nó.
+  JP227 [L_03e58 s50/1]: ……うん。
+ g224 [L_02b64 L2842 s50/1]
+   b0: ... Được rồi.
+  JP228 [L_03e58 s50/1]: ありがとう…ランス… ランス… 好きよ…
+ g225 [L_02b64 L2847 s50/1]
+   b0: Cảm ơn... Rance... / Rance... Anh yêu em...
+  JP229 [L_04a05 sNone/1]: 　　　リーザス城 　　　　ランスの寝室
+ g226 [L_031f2 L2867 sNone/1]
+   b0: Lâu đài Leazas
+   b1: Phòng ngủ của / Rance ...
+  JP230 [L_04a05 s50/1]: ランス…
+  JP231 [L_04a05 s1/50]: 何をぼさっと立っている。 それとも今日はえっちな事が出来 ない日なのか？
+ g227 [L_031f2 L2879 s1/50]
+   b0: Cô đang đứng / xung quanh để làm gì?
+   b1: Hôm nay cô / có thể không quan hệ tình / dục hay gì đó được không?
+  JP232 [L_04a05 s50/1]: そうじゃ…ないけど…
+ g228 [L_031f2 L2893 s50/1]
+   b0: Không, nhưng...
+  JP233 [L_04a05 sNone/1]: マリアは服の上から自分の胸に 手を置いた。 そこにある傷痕が痛むかの様に。
+ g229 [L_031f2 L2898 sNone/1]
+   b0: Maria đặt tay lên / ngực phía trên quần áo. Như / thể vết sẹo ở đó đang đau.
+  JP234 [L_04a05 s1/50]: だったら、来い。 俺様は我慢が嫌いなんだ。
+ g230 [L_031f2 L2907 s1/50]
+   b0: Vậy thì hãy đến. / Ta ghét chờ đợi.
+  JP235 [L_04a05 s50/1]: あ…ランス…！
+ g231 [L_031f2 L2914 s50/1]
+   b0: À... Rance...!
+  JP236 [L_04a05 sNone/1]: ランスはマリアの手首を掴むと 強引にベッドに押し倒した。
+ g232 [L_031f2 L2919 sNone/1]
+   b0: Rance nắm lấy cổ tay / Maria và ấn cô xuống giường.
+  JP237 [L_04a05 sNone/1]: ランス「そりゃそりゃそりゃ！」 マリア「きゃっ…もう…ランス！」 ランスはマリアの上着をがはははと 剥いでいく。 マリア「あ……」 それまでは普段と同じ様なマリアだったが、 傷痕をランスの目の前に晒し、そしてそれに空気の ふれる感触がすると、そっと躰を閉じた。 マリア「アーヤさんに…まだ若いから、徐々に 　　　　消えていくって言われたんだけど…… 　　　　……すぐには…消えない…から…」 ランス「当たり前だろう。 　　　　大怪我をしたんだから」 マリア「でも……」 ランス「マリア」 マリア「あっ…！」 ランスはマリアの胸を両手で鷲掴みにした。 ランス「うむ。 　　　　アーヤさんの処置は完璧以上だったんじゃあ 　　　　ないのか？」 マリア「えっ…どうして…？」 ランス「揉み心地が前よりいいぞ。 　　　　張りも、肌に吸い付く感じも、グッドだ」 マリア「もう…馬鹿な事言わないでよ…」 ランス「馬鹿な事じゃない。 　　　　本当の事だ」 ランスはマリアの乳房をそのまま揉み出した。 マリア「あっ…あんっ…！」 ランス「さて…今日は俺様のゴージャスハイパー兵器を 　　　　舌でぺろぺろと嘗めてくれ」 マリア「えっ…うっ…うん…」 マリアはおずおずとランスの股間に顔を寄せ、 髪を耳の端にかきあげた。 マリア「んっ……」 片手で竿を持ち、舌は先端を刺激する。 舌の動きは、なんだかぎこちない。 ランス「えっちする時にちゃんと腰を合わせて 　　　　くるのに…これはいつまでたっても 　　　　うまくならんなぁ、お前…」 マリア「む……ほっといてよ… 　　　　じゃあ、もうしない…」 ランス「よし、じゃ次は、俺様の上になって 　　　　下の口で俺のハイパー兵器を 　　　　気持ちよくしろ」 マリア「えっ…でも…私、まだ…」 ランス「入れるだけが気持ちよくなる 　　　　方法じゃあないだろう。 　　　　ほら」 マリア「きゃ…！」 ランスはマリアを抱えると、自分の上に乗せた。 ランス「さあ、やれ」 マリア「う…わかったわよ…」 マリアはランスのハイパー兵器に自分のものを 合わせた。 マリア「っ……んっ…んんっ…」 そして、腰を前後に振る。 ランス「わかってるじゃないか。 　　　　それでこそ、俺様の女だ」 マリア「ばっ…馬鹿っ…あっ…！」 ランスはマリアの胸を掴んだ。 マリア「あっ…ランス……」 ランス「ほれ、動け、動け」 マリア「んっ…ぁっ……」 ランスの掌が、マリアの乳房を弄ぶ。 マリアはランスの上で動く。 そうして、そこから湿った音が高く響き出した。 ランス「よし…マリア、自分で入れろ」 マリア「えっ……嫌よ…そんな…」 ランス「仕方ないなぁ…腰を上げろ」 マリア「こ…こう…？」 ランス「そうだ…どりゃぁぁ！！」 マリア「あっ……！」 ランス「がははは！！」 ランスは起き上がるとマリアを倒した。 マリア「きゃっ…！」 奇妙な格好で、ランスはマリアの中を がしがしと蹂躪していく。 ランス「おお、新たな発見！ 　　　　この体位はいいぞ！ 　　　　どうだ？マリア」 マリア「くっ…っ…！」 ランスはマリアの両腕を引っ張る様にして固定し、 マリアの躰を縦横無尽に揺さぶった。 マリア「だっ…駄目っ… 　　　　強いよ…ランス…」 ランス「がははははは！！ 　　　　俺様がよければいいのだぁ！！」 マリア「あっ……！」 ランスはさらに腰を浮かせ、マリアを攻めたてる。 マリアは首と後頭部で体重を支える様な格好で、 ランスに貫かれていた。 マリア「んっ…んんっ～っ…んっ…！」 マリアは宙に浮かびそうになる足をきつく絞め、 ランスの躰に巻きつける。 ランス「よし…受け取るんだぞ、王様の 　　　　ありがたい体液だ！！」 マリア「あっ…ランスっ…！！」 マリアはぎゅっとランスに巻きつけている足に 力を込めた。 ランス「がははははは！！」 マリア「あっ…あううっ……！！」 マリアの腰がぐっと大きくしなった。 それと同時に大きく震える。 それに、ランスも。 ランス「ふう…すっきりしたぞ……」 マリア「きゃっ…重い…！」 ランスはマリアの上に覆い被さり、達した後の 脱力感に身を任せた。
+ g233 [L_031f2 L2932 sNone/1 WIDE]
+   b0: Rance 「Lấy cái này, cái này và cái này!」
+   b1: Maria 「Kyah... Trời ạ, Rance!」
+   b2: Rance xé áo Maria ra.
+   b3: Maria 「À...」
+   b4: Lúc đó Maria vẫn cư xử bình thường,
+   b5: nhưng khi vết sẹo của cô tiếp xúc / với Rance và bị không khí chạm vào,
+   b6: cô đã khép cơ thể lại.
+   b7: Maria 「Aya nói rằng vì tôi vẫn còn trẻ nên nó
+   b8: sẽ dần dần biến mất,」 nhưng nó / sẽ không xảy ra ngay lập tức...」
+   b9: Rance 「Rõ ràng rồi. Đó là một / vết thương khá nghiêm trọng.」
+   b10: Maria 「Nhưng...」
+   b11: Rance 「Maria.」
+   b12: Maria 「À...!」
+   b13: Rance ôm chặt ngực Maria bằng cả hai tay.
+   b14: Rance 「Ừm. Có vẻ như cách đối / xử của Aya còn hơn cả hoàn hảo.」
+   b15: Maria 「Hả...? Tại sao...?」
+   b16: Rance 「Ngực của em cảm thấy / tốt hơn trước. Khả năng
+   b17: phục hồi và cảm giác bám dính của chúng rất」 / tốt.」
+   b18: Maria 「Trời ạ... / Đừng nói những điều ngu ngốc...」
+   b19: Rance 「Nó không ngu ngốc. Đó là sự thật.」
+   b20: Rance bắt đầu xoa ngực Maria.
+   b21: Maria 「A... Ahn...!」
+   b22: Rance 「Bây giờ... Hôm nay em sẽ / liếm siêu vũ khí tuyệt đẹp của ta.」
+   b23: Maria 「Ờ... Đ-Được rồi...」
+   b24: Maria rụt rè đưa mặt về phía háng / Rance và vén tóc ra sau tai cô.
+   b25: Maria 「Ừm...」
+   b26: Cô cầm trục bằng một tay và dùng lưỡi
+   b27: kích thích đầu. Cử động lưỡi của cô thật vụng về.
+   b28: Rance 「Em rất giỏi trong việc di chuyển / hông của mình khi chúng ta làm điều đó...」
+   b29: Ngươi dường như không thể làm tốt việc này ...」
+   b30: Maria 「Mgh... Để tôi yên... Tôi / sẽ không làm thế nữa đâu...」
+   b31: Rance 「Được rồi,」 hãy lên người ta và làm cho
+   b32: siêu vũ khí của ta cảm thấy thoải / mái bằng miệng còn lại của em.」
+   b33: Maria 「Hả...? Nhưng tôi vẫn...」
+   b34: Rance 「Em có thể khiến ta cảm thấy dễ / chịu mà không cần ta đặt nó vào. Đây.」
+   b35: Maria 「Kyah...!」
+   b36: Rance bế Maria lên và đặt cô vào người anh.
+   b37: Rance 「Bây giờ làm đi.」
+   b38: Maria 「Ưu... Được rồi...」
+   b39: Maria đặt âm hộ của mình chống / lại siêu vũ khí của Rance.
+   b40: Maria 「... Ừm... Ừm...」
+   b41: Sau đó cô lắc hông về phía trước và phía sau.
+   b42: Rance 「Vậy là em biết cách làm điều đó. / Thực sự xứng đáng là người phụ nữ của ta.
+   b43: 」
+   b44: Maria 「Đ-Ngốc quá... Ah...!」
+   b45: Rance nắm lấy ngực của Maria.
+   b46: Maria 「À... Rance...」
+   b47: Rance 「Nào, di chuyển, di chuyển.」
+   b48: Maria 「Ừm... À...」
+   b49: Rance chơi đùa với ngực của Maria. / Maria di chuyển lên trên anh. Một âm
+   b50: thanh lớn và ẩm ướt bắt đầu / phát ra từ âm hộ của cô.
+   b51: Rance 「Được rồi... / Maria, đặt nó vào trong cô đi.」
+   b52: Maria 「Hả...? Không... tôi không thể... 」
+   b53: Rance 「Được rồi, vậy... Nâng hông lên.」
+   b54: Maria 「L-Thích cái này...?」
+   b55: Rance 「Ừ... Taaake cái này!!」
+   b56: Maria 「À...!」
+   b57: Rance 「Gahahahaha!」
+   b58: Rance đứng dậy và Maria ngã xuống.
+   b59: Maria 「Kyah...!」
+   b60: Rance đập vào Maria trong tư thế kỳ lạ.
+   b61: Rance 「Ồ, một khám phá mới! Đây là / một vị trí tốt! Thế nào rồi, Maria?」
+   b62: Maria 「Kh...!」
+   b63: Rance kéo tay Maria để giữ / cô tại chỗ và tự do lắc cô.
+   b64: Maria 「D-Dừng lại... / Cậu vất vả quá rồi, Rance...」
+   b65: Rance 「Gahahahaha!! Miễn là ta thấy thoải mái!!」
+   b66: Maria 「À...!」
+   b67: Rance nâng hông lên cao hơn và / tấn công Maria. Ở tư thế đó,
+   b68: chỉ có cổ và gáy đỡ cô khi bị Rance đâm xuyên qua.
+   b69: Maria 「Ừm... Mmmmmm... Mm...!」
+   b70: Maria siết chặt đôi chân lơ lửng / của mình quanh cơ thể Rance.
+   b71: Rance 「Được rồi...
+   b72: Hãy nhận lấy thứ này, tinh dịch / của Nhà vua, như lời cảm ơn!!」
+   b73: Maria 「À... Rance...!!」
+   b74: Chân Maria siết chặt quanh Rance hơn.
+   b75: Rance 「Gahahahaha! ahaha!!」
+   b76: Maria 「À... Aaaah...!!」
+   b77: Lưng của Maria cong về phía sau. Đồng thời,
+   b78: cô rùng mình dữ dội. Rồi Rance cũng vậy.
+   b79: Rance 「Haah... Cảm giác thật tuyệt...」
+   b80: Maria 「Kyah... Nặng quá...!」
+   b81: Vì kiệt sức sau cơn cực / khoái, Rance ngã đè lên Maria.
+  JP238 [L_056ae sNone/1]: 　　　リーザス城 　　　　　謁見の間 ランスが玉座でかき氷を食べて いる。
+ g234 [L_0387a L3246 sNone/1]
+   b0: Lâu đài Leazas
+   b1: Phòng yết kiến / Rance đang ngồi trên ngai / vàng, ăn một ít đá bào.
+  JP239 [L_056ae s1/50]: ふ～極楽、極楽。 アイスもいいが、たまにはこう いうものも最高だ。 やはり、氷いちごだな。
+ g235 [L_0387a L3260 s1/50]
+   b0: Hah~, đây là thiên đường. / Kem rất ngon, nhưng đôi / khi món này cũng rất tuyệt.
+   b1: Đặc biệt là hương dâu.
+  JP240 [L_056ae s50/1]: ランス…
+ g236 [L_0387a L3274 s50/1]
+   b0: Rance...
+  JP241 [L_056ae s1/50]: んーー、なんだ。朝っぱらから… ＳＥＸして欲しいのか？
+ g237 [L_0387a L3279 s1/50]
+   b0: Ừm, cái gì / cơ? Cô đến đây sớm... / Muốn quan hệ tình dục?
+  JP242 [L_056ae s50/1]: 馬鹿、違うわよ。 これ… これ見て、見て。
+ g238 [L_0387a L3288 s50/1]
+   b0: Không, đồ / ngốc. Đây, nhìn này.
+  JP243 [L_056ae sNone/1]: と、にこにこしてマリアはランス にノートを見せた。
+ g239 [L_0387a L3295 sNone/1]
+   b0: Maria mỉm cười và đưa / cho Rance một tờ giấy nhắn.
+  JP244 [L_056ae s1/50]: なんだ、これは？
+ g240 [L_0387a L3302 s1/50]
+   b0: Đây là cái gì?
+  JP245 [L_056ae s50/1]: 科学技術タワーの設計図よ。
+ g241 [L_0387a L3307 s50/1]
+   b0: Quy hoạch tháp / khoa học công nghệ.
+  JP246 [L_056ae s1/50]: なんだ？ 話が見えんぞ。
+ g242 [L_0387a L3314 s1/50]
+   b0: Cái gì? Ta thậm chí / còn không biết đó là gì.
+  JP247 [L_056ae s50/1]: ランス…お願いがあるの。 今の施設じゃ、これ以上、大量の 兵器を作ったり、色々な研究を するには、辛いの…… だから、これ。 これがあれば、もっと凄い武器の 開発が出来るわ。
+ g243 [L_0387a L3321 s50/1]
+   b0: Rance... Tôi có / chuyện muốn nhờ.
+   b1: Chúng tôi / sẽ khó có thể chế tạo nhiều / vũ khí và thực hiện các loại
+   b2: nghiên cứu khác nhau với / cơ sở vật chất hiện tại...
+   b3: Vậy là có cái này.
+   b4: Với điều này, / chúng ta có thể phát triển / những vũ khí tuyệt vời hơn.
+  JP248 [L_056ae s1/50]: うーん、いくらくらいかかる んだ？
+ g244 [L_0387a L3350 s1/50]
+   b0: Hmm, nó sẽ / tốn bao nhiêu tiền?
+  JP249 [L_056ae s50/1]: よくわからないけど… その……いっぱい。
+ g245 [L_0387a L3357 s50/1]
+   b0: Tôi không biết, / nhưng... Ừm... Rất nhiều.
+  JP250 [L_056ae sNone/1]: マリアは遠慮がちに少し声を低く 小さくしてそう言った。
+ g246 [L_0387a L3364 sNone/1]
+   b0: Maria nói nhỏ / nhẹ và dè dặt.
+  JP251 [L_056ae s1/50]: だから、金にしてどれくらいだ？
+ g247 [L_0387a L3371 s1/50]
+   b0: Và bao nhiêu là nhiều?
+  JP252 [L_056ae s50/1]: そっ…そのっ…… 半年分の国家予算くらい…… ちょっと多いかな……？？
+ g248 [L_0387a L3376 s50/1]
+   b0: Ư-Ừm...
+   b1: Ngân sách quốc gia / trị giá khoảng nửa năm...
+   b2: Thế có phải / là quá đáng không...??
+  JP253 [L_056ae s1/50]: 当たり前だ、馬鹿野郎。
+ g249 [L_0387a L3391 s1/50]
+   b0: Rõ ràng rồi, đồ ngốc.
+  JP254 [L_056ae sNone/1]: 　　＜びりっっ＞
+ g250 [L_0387a L3396 sNone/1]
+   b0: （teeear）
+  JP255 [L_056ae s50/1]: あーーー！！
+ g251 [L_0387a L3401 s50/1]
+   b0: Áaaa!!
+  JP256 [L_056ae sNone/1]: ランスはマリアの持って来た ノートをびりびりと破った。
+ g252 [L_0387a L3406 sNone/1]
+   b0: Rance xé tờ / giấy mà Maria mang / cho hắn làm đôi.
+  JP257 [L_056ae s50/1]: ああ…やっぱり… でもまあ…そうだよねぇ… うん…… ごめんなさい… 我が侭言って… じゃあ……
+ g253 [L_0387a L3415 s50/1]
+   b0: Aah... Tôi biết rồi...
+   b1: Nhưng, à... Cậu / nói đúng... Ừ...
+   b2: Xin lỗi... tôi đã / ích kỷ... Tạm biệt...
+  JP258 [L_056ae sNone/1]: マリアはとぼとぼと帰って 行った。
+ g254 [L_0387a L3431 sNone/1]
+   b0: Maria lê bước đi.
+  JP259 [L_056ae s1/None]: うーん、確かに軍の強化の為に 研究施設を作るというのは、悪く ない案だな…… これは大げさだが、もっと安いの を考えてやってもいいだろう。
+ g255 [L_0387a L3436 s1/None]
+   b0: Ừm,
+   b1: xây dựng một cơ sở / nghiên cứu để tăng cường sức
+   b2: mạnh cho quân đội không / phải là một ý tưởng tồi,
+   b3: chắc chắn vậy...
+   b4: Cái này thì quá đắt, nhưng / nếu nàng có thể nghĩ ra thứ / gì đó rẻ hơn thì tốt quá.
+  JP260 [L_05b81 s50/1]: あら、ランス…… どうしたの、こんな所に？
+ g256 [L_03c25 L3468 s50/1]
+   b0: Ôi, Rance... Điều / gì mang cậu đến đây?
+  JP261 [L_05b81 s1/50]: せっかく俺様が建ててやったん だ。有効に使っているか視察だ。
+ g257 [L_03c25 L3475 s1/50]
+   b0: Tôi là người đã phải / vất vả xây dựng nơi này.
+   b1: Tôi đang điều tra xem nó / có được sử dụng tốt không.
+  JP262 [L_05b81 s50/1]: ……建てたのは、国民の血税 でしょ。
+ g258 [L_03c25 L3487 s50/1]
+   b0: ... Tôi nghĩ đó là do / việc đánh thuế nặng nề vào / những người đã xây dựng nó.
+  JP263 [L_05b81 s1/50]: ふん。
+ g259 [L_03c25 L3496 s1/50]
+   b0: Hừm.
+  JP264 [L_05b81 s50/1]: でも…ありがとう、ランス。 いい設備だわ。 これなら、とってもいい武器を 開発出来そう。私、がんばる。
+ g260 [L_03c25 L3501 s50/1]
+   b0: Nhưng...
+   b1: Cảm ơn, Rance. Đây / là một cơ sở tốt đẹp.
+   b2: Tôi nghĩ tôi có thể / tạo ra những vũ khí thực / sự tuyệt vời với thứ này.
+   b3: Tôi sẽ cố gắng hết sức.
+  JP265 [L_05b81 s1/50]: そうだな。 頑張って貰わんと、せっかくの 国民の血税が、ぱあになって しまうからな。
+ g261 [L_03c25 L3521 s1/50]
+   b0: Ngươi tốt hơn. Nếu / không, tất cả những khoản / thuế đó sẽ bị lãng phí.
+  JP266 [L_05b81 s50/1]: もうっ…人の言った事、逆手に 取らないでよ…子供みたい……
+ g262 [L_03c25 L3530 s50/1]
+   b0: Trời ạ... / Đừng lấy những gì tôi nói mà / dùng nó để chống lại tôi...
+   b1: Trẻ con quá...
+  JP267 [L_05b81 s1/50]: がははははは！！ 王様は、何をしても許される のだ！ それではしっかりやれよ。 マリア。
+ g263 [L_03c25 L3542 s1/50]
+   b0: Gahahahaha!! Nhà / vua có thể nói bất cứ / điều gì ông ấy muốn!
+   b1: Dù sao thì hãy / cố gắng nhé Maria.
+  JP268 [L_05b81 s50/1]: うん… ランスも国のお仕事、 頑張ってね。
+ g264 [L_03c25 L3556 s50/1]
+   b0: Được rồi... / tôi sẽ làm những gì tốt nhất / có thể, cho cậu và đất nước.
+  JP269 [L_05b81 s1/50]: 当たり前だ。 がははははははは。
+ g265 [L_03c25 L3565 s1/50]
+   b0: Tất nhiên là ngươi / sẽ làm vậy. Gahahahaha!
+  JP270 [L_05da6 s50/1]: ランス、珍しいわね。 こんな油まみれの所は、嫌いじゃ なかったの？
+ g266 [L_03dc6 L3578 s50/1]
+   b0: Thật là bất / ngờ đấy, Rance.
+   b1: Cậu có ghét / những nơi nhiều dầu / mỡ như thế này không?
+  JP271 [L_05da6 s1/50]: もちろん、嫌いだ。 油まみれ女より、脂ののった ピチピチとした娘の方が… へへへ。
+ g267 [L_03dc6 L3592 s1/50]
+   b0: Tất nhiên là tôi / biết. Tôi thích những cô / gái da dầu hơn. Heheheh.
+  JP272 [L_05e3d s50/1]: ……相変わらずね…まったく… そうそう、報告しておくわね。
+ g268 [L_03e2d L3608 s50/1]
+   b0: Công việc cuối / cùng của lò phản ứng
+   b1: Kết thúc công / việc của Tulip 100
+   b2: ... Vẫn như / mọi khi... Trời ạ...
+   b3: Ồ vâng, tôi sẽ để lại / cho ngươi một bản báo cáo.
+  JP273 [L_05e3d s1/50]: うむ。 隠さずにすべて言え。
+ g269 [L_03e2d L3641 s1/50]
+   b0: Ừm. Hãy kể / cho tôi mọi chuyện, đừng / giấu bất kỳ chi tiết nào.
+  JP274 [L_05e3d s50/1]: 今は特に、新しく開発する物が ないの…何がいいかなぁ？ 海をもぐる船とか…砂漠を動く 戦車とか考えたのだけど……
+ g270 [L_03e2d L3651 s50/1]
+   b0: Tôi chưa thực / sự phát triển bất cứ điều / gì mới... Điều gì sẽ tốt?
+   b1: Tôi đang nghĩ đến một con / tàu có thể lặn dưới biển,
+   b2: hay một chiếc xe tăng có / thể di chuyển qua sa mạc...
+  JP275 [L_05e3d s1/50]: いまいちつまらんな。 どんな女でも喜ばすバイブとかは どうだ？
+ g271 [L_03e2d L3670 s1/50]
+   b0: Nghe chán quá.
+   b1: Thế còn một chiếc / máy rung có thể làm
+   b2: hài lòng bất kỳ phụ nữ / hay thứ gì đó thì sao?
+  JP276 [L_05e3d s50/1]: いや。
+ g272 [L_03e2d L3685 s50/1]
+   b0: Không.
+  JP277 [L_05e3d s1/50]: ………………
+ g273 [L_03e2d L3690 s1/50]
+   b0: .........
+  JP278 [L_05e3d s50/1]: ………
+ g274 [L_03e2d L3695 s50/1]
+   b0: ......
+  JP279 [L_05e3d s1/50]: まあいい。頑張れ。
+ g275 [L_03e2d L3700 s1/50]
+   b0: Thôi, sao cũng / được. Làm việc chăm chỉ.
+  JP280 [L_05e3d s50/1]: うん。 そうするわ。
+ g276 [L_03e2d L3707 s50/1]
+   b0: Được rồi. Tôi / sẽ làm điều đó.
+  JP281 [L_05e3d s1/50]: じゃあな。
+ g277 [L_03e2d L3714 s1/50]
+   b0: Hẹn gặp lại.
+  JP282 [L_05e3d s50/1]: あ…また来てね。
+ g278 [L_03e2d L3719 s50/1]
+   b0: À... Thỉnh thoảng / hãy quay lại nhé.
+  JP283 [L_05e3d s1/50]: ああ、気が向いたらな。
+ g279 [L_03e2d L3726 s1/50]
+   b0: Chắc chắn rồi, / nếu tôi thấy thích.
+  JP284 [L_05e3d sNone/1]: ランスは研究所を出た。
+ g280 [L_03e2d L3733 sNone/1]
+   b0: Rance rời viện nghiên cứu.
+  JP285 [L_05e3d s50/1]: 今日からチューリップ１号改の 研究を始めるの。 今でも充分強いけど、さらにパワ ーアップさせて、重装甲兵でも いちころにしちゃう。 期待してね。
+ g281 [L_03e2d L3743 s50/1]
+   b0: Hôm nay tôi bắt đầu / phát triển New Tulip 1.
+   b1: Nó vốn đã rất mạnh / rồi, nhưng tôi sẽ làm / cho nó mạnh hơn nữa,
+   b2: đủ để hạ / gục lính thiết giáp.
+   b3: Hãy mong chờ nó.
+  JP286 [L_05e3d s50/1]: 今は、チューリップ１号改の開発 をしているわ。 現在の開発状況は、４０％って所。 早く出来ないかな、出来たら私の 部隊に配備するの。 そうしたら、私の部隊はすっごく 強くなるわよ。
+ g282 [L_03e2d L3768 s50/1]
+   b0: Tôi đang trong quá trình / phát triển New Tulip 1.
+   b1: Hiện nó đã hoàn thành / được 40%. Tôi tự hỏi liệu nó / có được thực hiện sớm không.
+   b2: Khi hoàn / thành, tôi sẽ trang bị chúng / cho toàn bộ đơn vị của mình.
+   b3: Khi đó đơn vị của / tôi sẽ thực sự mạnh mẽ.
+  JP287 [L_05e3d s50/1]: チューリップ１号改は、もうすぐ 完成よ。 それと平行して開発中なのがチュ ーリップ１００号。
+ g283 [L_03e2d L3797 s50/1]
+   b0: The New Tulip 1 / gần như đã hoàn thành.
+   b1: Tôi đang phát triển / Tulip 100 cùng lúc.
+  JP288 [L_05e3d s1/50]: どうして、急に１００なんだ？ 前は４だったろ。
+ g284 [L_03e2d L3809 s1/50]
+   b0: Tại sao lại là / 100 rồi? Cái cuối cùng là / 4, nếu tôi nhớ không lầm.
+  JP289 [L_05e3d s50/1]: 細かい事は、気にしないで。 これが私の夢なんだから。
+ g285 [L_03e2d L3818 s50/1]
+   b0: Đừng lo lắng về những / chi tiết như thế. Đó là giấc / mơ của tôi, ngươi thấy đấy.
+  JP290 [L_05e3d sNone/1]: マリアは、空を見て指さした。
+ g286 [L_03e2d L3827 sNone/1]
+   b0: Maria nhìn lên và / chỉ lên bầu trời.
+  JP291 [L_05e3d s1/50]: で、なんなんだそれは？
+ g287 [L_03e2d L3834 s1/50]
+   b0: Vậy nó là gì?
+  JP292 [L_05e3d s50/1]: 空の上に行く機械よ。 そう…あの雲の上、そして空に 輝く星まで！
+ g288 [L_03e2d L3839 s50/1]
+   b0: Một cỗ máy có thể / bay trên bầu trời. Vâng...
+   b1: Trên mây, rồi lên / tới những vì sao sáng!
+  JP293 [L_05e3d s1/50]: …………… はあ…そんな高く飛んで何になる んだ？ 馬鹿馬鹿しい…
+ g289 [L_03e2d L3851 s1/50]
+   b0: ............
+   b1: Huh... Làm sao / ngươi có thể bay cao đến / thế? Điều đó thật vô lý.
+  JP294 [L_05e3d s50/1]: ひどいなぁ。 夢よ、夢…… 利益になるとか役に立つとかじゃ なくって、飛ぶ事に意味がある の。わかる？
+ g290 [L_03e2d L3863 s50/1]
+   b0: Đừng ác ý. Đó / là giấc mơ của tôi...
+   b1: Một chiếc máy / bay có giá trị,
+   b2: ngay cả khi / nó không mang lại lợi nhuận / hoặc mục đích sử dụng nào.
+   b3: Hiểu?
+  JP295 [L_05e3d s1/50]: ……まあ、好きにしてくれ。
+ g291 [L_03e2d L3885 s1/50]
+   b0: ... Được rồi, hãy / làm theo ý ngươi.
+  JP296 [L_05e3d s50/1]: うん。
+ g292 [L_03e2d L3892 s50/1]
+   b0: Được rồi.
+  JP297 [L_05e3d s50/1]: チューリップ１号改が完成したの。 うれしいわ。 前のチューリップ１号よりヒララ エネルギー変換率を４０％程ＵＰ して、熱放出用の空冷式の…
+ g293 [L_03e2d L3903 s50/1]
+   b0: The New Tulip 1 đã được / hoàn thành. Tôi rất vui.
+   b1: Tỷ lệ chuyển đổi năng lượng / hirara của nó lớn hơn 40% so
+   b2: với phiên bản trước và / thiết bị làm mát của nó...
+  JP298 [L_05e3d s1/50]: えーい、難しい事を言うな。 わからん。
+ g294 [L_03e2d L3920 s1/50]
+   b0: Này, không / có cuộc nói chuyện phức tạp / nào đâu. Tôi không hiểu nó.
+  JP299 [L_05e3d s50/1]: んじゃ…色々と説明したいとこを はしょって、結果だけ言うと… とにかく強さが１．５倍になった の。もう私の部隊に配備が始まっ ているから、次の戦いに、期待 してね。
+ g295 [L_03e2d L3929 s50/1]
+   b0: Chà...
+   b1: Vậy thì tôi sẽ gác lại phần / lớn lời giải thích và chỉ / cho ngươi biết kết quả...
+   b2: Nó mạnh hơn 1,5 lần.
+   b3: Tôi đã bắt / đầu trang bị cho đơn vị / của mình những thứ đó,
+   b4: vì vậy hãy chờ / đợi trận chiến tiếp theo.
+  JP300 [L_05e3d s1/50]: うむ…失望しない程度に、頑張っ てくれ。
+ g296 [L_03e2d L3956 s1/50]
+   b0: Ừm... Cố gắng hết sức để / không làm tôi thất vọng nhé.
+  JP301 [L_05e3d s50/1]: もう…本当に、口の悪い人 なんだから…
+ g297 [L_03e2d L3963 s50/1]
+   b0: Trời ạ... Tất / cả những gì ngươi từng nói / đều là những điều tồi tệ...
+  JP302 [L_05e3d s50/1]: 今は、敵都市を直接ここから長距 離砲撃が出来る、巨大砲チュー リップ２号ゴリアテを開発中よ。 現在の開発状況は１０％って所。 画期的な兵器だわ… これだったら味方の損害がない から、とってもいいわよ。
+ g298 [L_03e2d L3975 s50/1]
+   b0: Tôi đang phát / triển Tulip 2 Goliath,
+   b1: một khẩu pháo tầm / xa khổng lồ có thể
+   b2: tấn công trực tiếp vào / thành phố của kẻ thù từ đây.
+   b3: Hiện nó đã / hoàn thành được 10%. / Một vũ khí đột phá...
+   b4: Với điều này,
+   b5: chúng ta có thể / giành chiến thắng trong trận
+   b6: chiến mà không làm tổn / thương đồng minh của mình,
+   b7: vì vậy nó sẽ rất hữu ích.
+  JP303 [L_05e3d s50/1]: 実はね…チューリップ２号ゴリア テの開発が…難航してるの。 何キロも先の目標に弾をあてるの が難しくて、どうしても数百メー トルの誤差が出るの…… これじゃまだまだ実用的じゃ ないわ。 誰かが目標地点で発信器を持って 待っていてくれたら、うまくいく んだけど… そうはいかないわよね… ああー…どうしよう～～…
+ g299 [L_03e2d L4018 s50/1]
+   b0: Vấn đề là... / Việc phát triển Tulip / 2 Goliath rất khó khăn.
+   b1: Thật khó để / khiến nó bắn trúng mục / tiêu cách xa hàng km.
+   b2: Dù chúng ta / có làm gì thì nó cũng sẽ / cách xa hàng trăm mét...
+   b3: Nó vẫn chưa thực tế lắm.
+   b4: Nếu ai đó mang thiết / bị truyền dẫn đến mục tiêu / và đợi thì nó sẽ hoạt động,
+   b5: nhưng điều đó không ổn…
+   b6: Aaah... Phải / làm sao đây～～...
+  JP304 [L_05e3d s1/50]: まあ、頑張れ。 俺はよくわからん。
+ g300 [L_03e2d L4059 s1/50]
+   b0: Thôi, làm việc chăm chỉ / nhé. Tôi thực sự không hiểu.
+  JP305 [L_05e3d s50/1]: んっ…もう…人が悩んでるのに、 そんな冷たい事言わなくっても…
+ g301 [L_03e2d L4066 s50/1]
+   b0: Ôi trời ơi... / Tôi đau khổ quá, / đừng lạnh lùng thế...
+  JP306 [L_05e3d s1/50]: 楽しそうに見えるが…
+ g302 [L_03e2d L4075 s1/50]
+   b0: Có vẻ như ngươi / đang vui vẻ với tôi hơn.
+  JP307 [L_05e3d s50/1]: ……ぷんっ。
+ g303 [L_03e2d L4082 s50/1]
+   b0: ... Hừm.
+  JP308 [L_05e3d s50/1]: あっ…でもね… あれは、うまく進んでいるの。
+ g304 [L_03e2d L4090 s50/1]
+   b0: À... Nhưng dự án khác / của tôi đang tiến triển tốt.
+  JP309 [L_05e3d s50/1]: チューリップ２号ゴリアテは、 もう、ほとんど完成よ。 現在は最終調整の段階なの。
+ g305 [L_03e2d L4100 s50/1]
+   b0: Tulip 2 Goliath / gần như đã hoàn thiện.
+   b1: Chúng tôi hiện / đang thực hiện những / điều chỉnh cuối cùng.
+  JP310 [L_05e3d s1/50]: ほう…で…
+ g306 [L_03e2d L4114 s1/50]
+   b0: Hô... Vậy...
+  JP311 [L_05e3d s50/1]: あっ、ごめん…今、いい所なの。 じゃあ、またね。 ああ、忙しい忙しい。
+ g307 [L_03e2d L4119 s50/1]
+   b0: À, xin lỗi... / Hiện tại tôi đang bận một số / việc hay. Hẹn gặp lại sau.
+   b1: Aa, bận quá.
+  JP312 [L_05e3d sNone/1]: マリアはわたわたしながら、研究 に戻った。
+ g308 [L_03e2d L4132 sNone/1]
+   b0: Maria vội vã quay / lại nghiên cứu của mình.
+  JP313 [L_05e3d s1/None]: つまらんな…帰るとするか。
+ g309 [L_03e2d L4139 s1/None]
+   b0: Khập khiễng... Có / lẽ tôi nên quay lại.
+  JP314 [L_05e3d sNone/1]: ランスは研究所を離れた。
+ g310 [L_03e2d L4146 sNone/1]
+   b0: Rance rời cơ / sở nghiên cứu.
+  JP315 [L_05e3d sNone/1]: チューリップ２号ゴリアテが 完成したわ。 これで、どんなに離れている 敵も攻撃出来るわ。
+ g311 [L_03e2d L4160 sNone/1]
+   b0: Tulip 2 / Goliath đã hoàn thành.
+   b1: Bây giờ chúng ta có thể / tấn công bất kỳ kẻ thù nào, / bất kể chúng ở xa đến đâu.
+  JP316 [L_05e3d s1/None]: よし、よくやった。
+ g312 [L_03e2d L4174 s1/None]
+   b0: Được rồi, làm tốt lắm.
+  JP317 [L_05e3d sNone/1]: ゴリアテは、大きいから ノースの街に配備するね。
+ g313 [L_03e2d L4179 sNone/1]
+   b0: Goliath rất lớn nên / tôi sẽ bố trí nó ở phía Bắc.
+  JP318 [L_05e3d s1/None]: リーザス城にしないのか？
+ g314 [L_03e2d L4186 s1/None]
+   b0: Không có ở lâu đài Leazas?
+  JP319 [L_05e3d sNone/1]: 発射の時の音が大きいから、 リア様が怒るの……
+ g315 [L_03e2d L4191 sNone/1]
+   b0: Nó phát ra âm / thanh lớn khi bắn, nên Nữ / hoàng Lia sẽ nổi điên...
+  JP320 [L_05e3d s1/None]: ノースの街の住民は…… いいのか？？？
+ g316 [L_03e2d L4200 s1/None]
+   b0: ... Người dân miền Bắc có / đồng ý với điều đó không???
+  JP321 [L_05e3d sNone/1]: ノースの街でゴリアテの照準を 合わせておいてね。
+ g317 [L_03e2d L4207 sNone/1]
+   b0: Đi về phía Bắc nếu / ngươi muốn nhắm vào Goliath.
+  JP322 [L_05e3d s1/None]: めんどうだなぁ…… 自動で出来ないのか？
+ g318 [L_03e2d L4214 s1/None]
+   b0: Điều đó thật rắc / rối... Việc này không thể / thực hiện tự động được sao?
+  JP323 [L_05e3d sNone/1]: うん…… でもでも、使ってね！ せっかく作ったんだから。
+ g319 [L_03e2d L4223 sNone/1]
+   b0: Ừ...
+   b1: Nhưng hãy sử dụng / nó! Rốt cuộc thì tôi đã gặp / khó khăn khi làm được nó.
+  JP324 [L_05e3d s1/None]: あ～～～……
+ g320 [L_03e2d L4235 s1/None]
+   b0: À～～～...
+  JP325 [L_05e3d sNone/1]: ………ね？
+ g321 [L_03e2d L4240 sNone/1]
+   b0: ... Được chứ?
+  JP326 [L_05e3d s1/None]: 考えておく。
+ g322 [L_03e2d L4245 s1/None]
+   b0: Tôi sẽ suy / nghĩ về điều đó.
+  JP327 [L_05e3d sNone/1]: うん…きっとよ。
+ g323 [L_03e2d L4252 sNone/1]
+   b0: Được rồi... / Hãy chắc chắn nhé.
+  JP328 [L_05e3d sNone/1]: 今、開発しているのは、ヒララ合 金の出力するエネルギーを、２重 ３重に利用する高速増殖回路な の。 これが出来たらこれまでの１／５ のヒララ合金で同じだけのエネル ギーが出せるわ。 これまで行動する費用の高かった 私の部隊や、チューリップ２号ゴ リアテの使用料が著しく安くなる の。
+ g324 [L_03e2d L4262 sNone/1]
+   b0: Hiện tại,
+   b1: tôi đang nghiên / cứu một lò phản ứng tốc / độ cao sẽ thu được năng
+   b2: lượng gấp hai hoặc ba / lần từ hợp kim hirara.
+   b3: Nếu tôi có thể / làm được điều này,
+   b4: tôi sẽ có thể làm được / những điều tương tự như tôi
+   b5: đã làm với 1/5 / lượng hợp kim hirara.
+   b6: Nó sẽ giảm đáng kể chi / phí cao cho đơn vị của tôi
+   b7: để hành động và chi phí / sử dụng Tulip 2 Gô-li-át.
+  JP329 [L_05e3d s1/None]: そうか。 それは凄いな。頑張れ。
+ g325 [L_03e2d L4304 s1/None]
+   b0: Tôi hiểu / rồi. Điều đó thật tuyệt / vời. Làm hết sức mình.
+  JP330 [L_05e3d sNone/1]: うん。
+ g326 [L_03e2d L4313 sNone/1]
+   b0: Được rồi.
+  JP331 [L_05e3d sNone/1]: マリアは嬉しそうに破顔した。
+ g327 [L_03e2d L4318 sNone/1]
+   b0: Maria cười tươi.
+  JP332 [L_05e3d s1/None]: あれの研究は進んでいるか？
+ g328 [L_03e2d L4326 s1/None]
+   b0: Nghiên cứu / của ngươi về dự án đó có / đang tiến triển không?
+  JP333 [L_05e3d sNone/1]: うん…… でも…難しいの… 頑張ってるけど…えへへ。
+ g329 [L_03e2d L4335 sNone/1]
+   b0: Ừ...
+   b1: Tuy nhiên, điều đó thật / khó khăn... Tôi đang cố gắng / hết sức, nhưng... Eheheh.
+  JP334 [L_05e3d s1/None]: そうか。 非常に期待しているからな。
+ g330 [L_03e2d L4347 s1/None]
+   b0: Tôi hiểu / rồi. Tôi thực sự mong chờ / những gì ngươi nghĩ ra.
+  JP335 [L_05e3d sNone/1]: う…うん…頑張る…
+ g331 [L_03e2d L4356 sNone/1]
+   b0: Đ-Được rồi... / Tôi sẽ cố hết sức...
+  JP336 [L_05e3d s1/None]: どうした？ 元気ないな。
+ g332 [L_03e2d L4363 s1/None]
+   b0: Có chuyện gì thế? / Ngươi có vẻ mệt mỏi.
+  JP337 [L_05e3d sNone/1]: えっ……そんな事… ない…よ…うん。
+ g333 [L_03e2d L4370 sNone/1]
+   b0: Ờ... tôi không mệt... Ừ.
+  JP338 [L_05e3d sNone/1]: あっ、そうだ… これも見て。
+ g334 [L_03e2d L4378 sNone/1]
+   b0: Ồ, đúng rồi... / Nhìn cái này nữa.
+  JP339 [L_05e3d sNone/1]: 高速増殖回路だけど… 出来るのはわかっているん だけど……
+ g335 [L_03e2d L4388 sNone/1]
+   b0: Lò phản ứng / tốc độ cao... Tôi biết mình / có thể làm được, nhưng...
+  JP340 [L_05e3d s1/None]: それなら、頑張れ。 期待している。
+ g336 [L_03e2d L4397 s1/None]
+   b0: Trong trường hợp đó, / hãy cố gắng hết sức. / Tôi đang mong chờ nó.
+  JP341 [L_05e3d sNone/1]: でも…… あれ、本当に必要？
+ g337 [L_03e2d L4406 sNone/1]
+   b0: Nhưng...
+   b1: Chúng ta có thực / sự cần nó không?
+  JP342 [L_05e3d s1/None]: コストが安くなるんだろ？ 必要だ。 それがあれば余った金で、もっと 遊べる。 だから、とにかく期待している。 いいな？
+ g338 [L_03e2d L4416 s1/None]
+   b0: Nó sẽ giảm / chi phí phải không? / Chúng tôi cần điều đó.
+   b1: Với điều đó / tôi có thể xoay sở với / số tiền còn sót lại.
+   b2: Dù sao thì tôi cũng / rất mong chờ nó. Hiểu chưa?
+  JP343 [L_05e3d sNone/1]: う……うん…
+ g339 [L_03e2d L4437 sNone/1]
+   b0: Đ-Ừ...
+  JP344 [L_06ed0 s1/None]: いらん。 誰がこんな棒の中に入るか… つまらん。
+ g340 [L_04b21 L4445 s1/None]
+   b0: Không. Ai muốn / vào bên trong cây gậy / lớn đó? Khập khiễng.
+  JP345 [L_06ed0 sNone/1]: ………そう…
+ g341 [L_04b21 L4454 sNone/1]
+   b0: ... Tôi hiểu rồi...
+  JP346 [L_06ed0 sNone/1]: マリアは少し怒った様 な… とっても残念そうな顔をした。
+ g342 [L_04b21 L4459 sNone/1]
+   b0: Maria có vẻ hơi tức / giận và rất thất vọng.
+  JP347 [L_06ed0 s1/None]: マリアの中なら入りたいがな。 げへへへへ。
+ g343 [L_04b21 L4466 s1/None]
+   b0: Anh sẽ đi vào bên / trong em, Maria. Geheheheh.
+  JP348 [L_06ed0 sNone/1]: 馬鹿。
+ g344 [L_04b21 L4473 sNone/1]
+   b0: Đồ ngốc.
+  JP349 [L_06f8f sNone/1]: ランス、ランス、チューリップ １００号だけど、見て見て。
+ g345 [L_04bbf L4480 sNone/1]
+   b0: Chạy đi, chạy đi! / Hãy nhìn vào Tulip 100.
+  JP350 [L_06f8f s1/None]: お…おい、こら。 そんなに引っ張るな！ こける！
+ g346 [L_04bbf L4487 s1/None]
+   b0: N-Này, đừng giật tay / tôi như thế! Tôi sẽ ngã mất!
+  JP351 [L_06f8f sNone/1]: じゃ～～～～ん！！
+ g347 [L_04bbf L4494 sNone/1]
+   b0: Tadaaaaaaaa!!
+  JP352 [L_06f8f sNone/1]: マリアがランスを連れて来たのは 科学技術塔の広間だ。 そこには巨大な砲弾、高さ２０ メートルにもおよぶ物があった。
+ g348 [L_04bbf L4499 sNone/1]
+   b0: Maria đưa / Rance vào một căn phòng lớn / trong tòa nhà nghiên cứu.
+   b1: Bên trong là / thứ trông giống như một / quả đạn pháo cao 20 mét.
+  JP353 [L_06f8f s1/None]: でかいな。
+ g349 [L_04bbf L4515 s1/None]
+   b0: Nó rất lớn.
+  JP354 [L_06f8f sNone/1]: 凄いでしょ。 これで空に行けるの。 開発状況は、８９％だけど、多分 もう飛べるわよ。 中も色々と出来てるの。 見てみる？
+ g350 [L_04bbf L4520 sNone/1]
+   b0: Thật không thể / tin được phải không?
+   b1: Với điều này chúng ta / có thể đi lên bầu trời.
+   b2: Bây giờ nó đã / hoàn thành được 89% nhưng / có lẽ nó có thể bay được.
+   b3: Bên trong cũng / có rất nhiều thứ. / Muốn xem qua không?
+  JP355 [L_07128 s1/None]: じゃあ、少し入ってみるか。
+ g351 [L_04ca3 L4551 sNone/1]
+   b0: Nhìn kìa
+   b1: Không
+ g352 [L_04ce1 L4562 s1/None]
+   b0: Chắc chắn rồi, có lẽ / tôi sẽ vào trong một chút.
+  JP356 [L_07128 sNone/1]: そーこなくっちゃ！ はい、どうぞ。
+ g353 [L_04ce1 L4569 sNone/1]
+   b0: Tôi đoán là ngươi sẽ làm / thế! Được rồi, tiếp tục đi.
+  JP357 [L_07128 sNone/1]: ランスはマリアの案内で、チュー リップ１００号の中に入った。
+ g354 [L_04ce1 L4576 sNone/1]
+   b0: Maria hướng dẫn / Rance vào Tulip 100.
+  JP358 [L_07128 s1/None]: 狭いなぁ… ４畳半くらいしかない… それに…なんだ？ 計器が一杯あるぞ。 ごてごてした部屋だ。 内装は、これだけか？ 外から見たら、やたらでか かったが。
+ g355 [L_04ce1 L4583 s1/None]
+   b0: Ở đây khá chật / chội... Nó giống như kích / thước của một cái tủ vậy.
+   b1: Ngoài ra...
+   b2: Đây là gì? Có một / loạt các máy đo. Căn phòng / này được trang trí quá tệ.
+   b3: Đây có phải là tất / cả những gì ở đây không? Nó / trông rất lớn từ bên ngoài.
+  JP359 [L_07128 sNone/1]: うん、これだけよ。 全長の残りは、これを高く上げる 為のエンジンなの。 …もうすぐだわ…… もうすぐ完成。 ねぇ…ランス…私…… もしかしたら戻れないかもしれ ないけど…… その時は、ごめんね。
+ g356 [L_04ce1 L4609 sNone/1]
+   b0: Ừ, thế đấy. Phần chiều / dài còn lại của thứ này dành / cho động cơ đẩy nó lên trời.
+   b1: ... Sớm... Sẽ / sớm kết thúc thôi.
+   b2: Này, Rance... / Có khả năng là tôi sẽ không / thể quay lại được, nhưng...
+   b3: Tôi xin lỗi nếu / điều đó xảy ra.
+  JP360 [L_07128 s1/None]: へっ？
+ g357 [L_04ce1 L4635 s1/None]
+   b0: Hả?
+  JP361 [L_07128 sNone/1]: このチューリップ１００号…… 空の彼方まで飛べるけど、戻って 来る事は…出来ないかもしれない の。
+ g358 [L_04ce1 L4640 sNone/1]
+   b0: Tulip 100 có thể / bay vượt bầu trời, nhưng có / thể không quay trở lại được.
+  JP362 [L_07128 s1/None]: …………… 何、そんな危険な物なのか？
+ g359 [L_04ce1 L4649 s1/None]
+   b0: ............
+   b1: Cái gì, nó thực sự / nguy hiểm đến vậy à?
+  JP363 [L_07128 sNone/1]: ……初めて海に浮かんだ船も、 初めて空を飛んだグライダー も…… みんな危険を乗り越えてきたの よ。
+ g360 [L_04ce1 L4659 sNone/1]
+   b0: Con tàu đầu tiên và tàu / lượn đầu tiên cũng vậy...
+   b1: Họ đều đã vượt / qua được nguy hiểm.
+  JP364 [L_07128 s1/None]: ……じゃ、お前以外の誰かを 乗せたらいいじゃないか。 そうだ、バレスを乗せよう。 あいつなら死んでもいい。
+ g361 [L_04ce1 L4671 s1/None]
+   b0: ... Vậy để người khác / lái nó thì sao? Vâng, / hãy để Barres cưỡi nó.
+   b1: Không ai quan / tâm nếu anh ta chết.
+  JP365 [L_07128 sNone/1]: ランス…違うの…… 私…貴方の事が好き… でも、貴方は私だけを見てくれ そうにない…… だから…貴方の側には…… もう居れないの。 ……私
+ g362 [L_04ce1 L4685 sNone/1]
+   b0: Rance... Cậu / không hiểu đâu...
+   b1: Anh yêu em, / nhưng đổi lại em sẽ không / chỉ yêu một mình anh...
+   b2: Vậy là... anh không thể / ở bên em được nữa....tôi...
+  JP366 [L_07128 s1/None]: なっ、マリア。 そうだ、それがいい。 俺が決めた。そうしろ。
+ g363 [L_04ce1 L4704 s1/None]
+   b0: Này, Maria. Điều đó sẽ / tốt thôi. Tôi đã sẵn sàng. / Chúng tôi đang làm điều đó.
+  JP367 [L_07128 sNone/1]: いえ、私が乗りたいの… その為に作ったの。
+ g364 [L_04ce1 L4713 sNone/1]
+   b0: Không, tôi muốn / lái nó... Đó là mục / đích tôi tạo ra nó.
+  JP368 [L_07128 s1/None]: 駄目だ、許可できん。 俺様の女がみすみす危険な目に合 うのを黙って見過ごせるか！！
+ g365 [L_04ce1 L4722 s1/None]
+   b0: Không, tôi không / thể cho phép điều đó.
+   b1: Ngươi nghĩ tôi / sẽ ngồi đây và để người phụ / nữ của tôi gặp nguy hiểm?!!
+  JP369 [L_07128 sNone/1]: ランスは勢いをつけ、 立ち上がった。 　　＜がすっっっ＞ 　　＜かちっ＞
+ g366 [L_04ce1 L4736 sNone/1]
+   b0: Rance nhảy dựng lên.
+   b1: (bang)
+   b2: （nhấp chuột）
+  JP370 [L_07128 s1/None]: でっ！！？？
+ g367 [L_04ce1 L4747 s1/None]
+   b0: Hả!!??
+  JP371 [L_07128 sNone/1]: あーーーー！！
+ g368 [L_04ce1 L4752 sNone/1]
+   b0: Áaaaaaaaaa!!
+  JP372 [L_07128 s1/None]: なっ……なんだ？
+ g369 [L_04ce1 L4757 s1/None]
+   b0: C-Gì vậy?
+  JP373 [L_07128 sNone/1]: 　　＜ウィーーーーン＞ 　　［セフティロック解除 　　　発射準備に入りました］
+ g370 [L_04ce1 L4762 sNone/1]
+   b0: （whiiiiiiiir）
+   b1: ［Khóa an toàn đã được mở. / Chuẩn bị ra mắt.］ Hả...?
+  JP374 [L_07128 s1/None]: え……？
+  JP375 [L_07128 sNone/1]: あっ…ああ…どうしよう！
+ g371 [L_04ce1 L4772 sNone/1]
+   b0: Ah... Aah... Chúng / ta nên làm gì đây?!
+  JP376 [L_07128 sNone/1]: 　　［カウントダウン開始 　　　２０　１９　１８…］
+ g372 [L_04ce1 L4779 sNone/1]
+   b0: ［Bắt đầu đếm / ngược.20, 19, 18...］ Maria! / Chuyện gì đã xảy ra thế?
+  JP377 [L_07128 s1/None]: マリア！ 何がどうなったんだ？
+  JP378 [L_07128 sNone/1]: 　　［１６　１５　１４　１３］
+ g373 [L_04ce1 L4788 sNone/1]
+   b0: ［16, 15, 14, 13］ / Đồ ngốc... Ngươi đã / nhấn nút khởi chạy.
+  JP379 [L_07128 sNone/1]: 馬鹿…ランスが発射ボタンを 押したんじゃない。
+  JP380 [L_07128 sNone/1]: 　　［９　８　７　６　５］
+ g374 [L_04ce1 L4797 sNone/1]
+   b0: ［9, 8, 7, 6, / 5］ Trời!! Chúng ta không / thể ngăn nó lại sao!?
+  JP381 [L_07128 s1/None]: げっ！！ 止められないのか！？
+  JP382 [L_07128 sNone/1]: 　　［３　２］
+ g375 [L_04ce1 L4806 sNone/1]
+   b0: ［3, 2］ Đ-Chúng ta / đã hết thời gian rồi...!!
+  JP383 [L_07128 sNone/1]: まっ…間に合わないっ……！！
+  JP384 [L_07128 sNone/1]: 　　＜ご　ご　ご　ご　ご　ご＞ 　　＜ごーーーー！！！！！＞
+ g376 [L_04ce1 L4813 sNone/1]
+   b0: ））））
+   b1: （RUMBLEEEEE!!!!!）
+  JP385 [L_07128 s1/None]: おわっ！！
+ g377 [L_04ce1 L4821 s1/None]
+   b0: Ôi!!
+  JP386 [L_07128 sNone/1]: きゃ！！
+ g378 [L_04ce1 L4826 sNone/1]
+   b0: Ôi!!
+  JP387 [L_07128 s1/50]: 凄まじいＧがランスと マリアにかかった。 　　［０　発射］ 　　＜ごーーーーーーーーーー＞ チューリップ１００号は、 天高く飛んで行った。 なんなんだーーー！！ ここは、どこだーーー！！
+ g379 [L_04ce1 L4831 s1/50]
+   b0: Lực mạnh tấn / công Rance và Maria.
+   b1: ［0, cất cánh.］
+   b2: , rumbleeeeeeee.
+   b3: Chiếc Tulip 100 / bay cao lên trời.
+   b4: Cái gì cơ?!! Cô / đang ở đâu vậy?!!
+  JP388 [L_07128 s50/1]: あ…ああ… 嘘ぉ……
+ g380 [L_04ce1 L4872 s50/1]
+   b0: Ah... Aah... / Không thể nào...
+  JP389 [L_07128 sNone/1]: 　　［第１ロケット　切り離し］ 　　＜ガチャン＞ 　　＜ごーーーーーーーーーー＞ 　　＜……ごーー………＞ 　　＜………ーーー……＞
+ g381 [L_04ce1 L4879 sNone/1]
+   b0: ［Tháo tên lửa 1］ / （kachunk）
+   b1: (ruuumbleeeeee)
+   b2: （...rumbleee...）
+   b3: 　　（............）
+  JP390 [L_07128 s1/50]: ん…？ 静かになった様だな。
+ g382 [L_04ce1 L4895 s1/50]
+   b0: Ừm...? Nó trở / nên khá yên tĩnh.
+  JP391 [L_07128 s50/1]: ……うん。
+ g383 [L_04ce1 L4902 s50/1]
+   b0: ... Ừ.
+  JP392 [L_07128 sNone/1]: ランスは、部屋についている 小さな窓から外を見た。
+ g384 [L_04ce1 L4907 sNone/1]
+   b0: Rance nhìn ra ngoài qua / một cửa sổ nhỏ trong phòng.
+  JP393 [L_07128 s1/50]: なんだ…これは…？
+ g385 [L_04ce1 L4914 s1/50]
+   b0: Đây là cái gì...?
+  JP394 [L_07128 sNone/1]: その正面にランス達がいた大陸が 見えていた。 そう…すべてが見えた。
+ g386 [L_04ce1 L4919 sNone/1]
+   b0: Rance và Maria nhìn / thấy lục địa mà họ vừa đến. / Vâng... Toàn bộ sự việc.
+  JP395 [L_07128 s1/50]: …なんてこった… 空中にある時の闘神都市から見る 風景が、さらにちっちゃくなって いる…… という事は、あれよりも高い場所 に来たという事か？？
+ g387 [L_04ce1 L4928 s1/50]
+   b0: ... Cái quái gì thế...?
+   b1: Mọi thứ trông nhỏ hơn nhiều / so với khi nhìn từ Thành phố / Toushin khi nó đang bay...
+   b2: Điều đó có nghĩa là / chúng ta thậm chí còn cao / hơn thế nữa phải không??
+  JP396 [L_07128 s50/1]: ランス…ごめんなさい… 私達もう…
+ g388 [L_04ce1 L4947 s50/1]
+   b0: Rance... Tôi xin / lỗi... Đây là chuyện / của chúng tôi...
+  JP397 [L_07128 s1/50]: もしかして帰れないのか？？
+ g389 [L_04ce1 L4956 s1/50]
+   b0: Chúng ta có thể / không quay lại được không?
+  JP398 [L_07128 s50/1]: うん…… まだ、帰る為の装置を作って いなかったから……
+ g390 [L_04ce1 L4963 s50/1]
+   b0: Ừ...
+   b1: Tôi chưa làm / thiết bị để về...
+  JP399 [L_07128 s1/50]: …………… もしかして、ずっとこのまま？
+ g391 [L_04ce1 L4973 s1/50]
+   b0: .............
+   b1: Chúng ta có bị mắc / kẹt ở đây mãi mãi không?
+  JP400 [L_07128 s50/1]: …………うん…
+ g392 [L_04ce1 L4983 s50/1]
+   b0: ... Ừ...
+  JP401 [L_07128 s1/50]: そうだ、食料は？
+ g393 [L_04ce1 L4988 s1/50]
+   b0: Ồ vâng, còn đồ ăn thì sao?
+  JP402 [L_07128 s50/1]: …非常用のが２週間分… 二人だと一週間……
+ g394 [L_04ce1 L4993 s50/1]
+   b0: ... Có giá / trị trong hai tuần cho / trường hợp khẩn cấp...
+   b1: Đối với hai người, nó / sẽ kéo dài một tuần...
+  JP403 [L_07128 s1/50]: えーっと、どうなる？
+ g395 [L_04ce1 L5007 s1/50]
+   b0: Uuh, chúng ta / nên làm gì đây?
+  JP404 [L_07128 s50/1]: ……わからない…… 燃料もないから…このまま流され るまま……
+ g396 [L_04ce1 L5014 s50/1]
+   b0: ... Tôi không biết...
+   b1: Cũng không còn / nhiên liệu nên chúng ta / cứ trôi đi như thế này…
+  JP405 [L_07128 s1/50]: ……………
+ g397 [L_04ce1 L5026 s1/50]
+   b0: ............
+  JP406 [L_07128 s50/1]: ……ランス。
+ g398 [L_04ce1 L5031 s50/1]
+   b0: ... Rance.
+  JP407 [L_07128 s1/50]: ………… ちっ。 まあ、起こってしまった事は、 仕方がない。
+ g399 [L_04ce1 L5036 s1/50]
+   b0: .........
+   b1: Ch. Vâng, những / gì xảy ra, xảy ra.
+  JP408 [L_07128 s50/1]: えっ…？ きゃっ…！
+ g400 [L_04ce1 L5047 s50/1]
+   b0: Hả...?
+   b1: Ôi...!
+  JP409 [L_07128 sNone/1]: ランスはマリアを抱き寄せると、 強引にキスをした。
+ g401 [L_04ce1 L5055 sNone/1]
+   b0: Rance ôm Maria / và cưỡng hôn cô.
+  JP410 [L_07128 s50/1]: ちょっ…ちょっと、ランス！ 何をするつもりよ！
+ g402 [L_04ce1 L5062 s50/1]
+   b0: Đ-Đợi đã, Rance! / Cậu đang làm gì thế?!
+  JP411 [L_07128 s1/50]: もちろん、ＳＥＸ。 個室、そして二人っきりでする事 は、一つしかないじゃないか。
+ g403 [L_04ce1 L5069 s1/50]
+   b0: Tất nhiên là tình dục.
+   b1: Chúng ta có phòng / riêng và chỉ có một mình, / chúng ta có thể làm gì khác?
+  JP412 [L_07128 s50/1]: あんまり、暴れると、酸素が減る から……
+ g404 [L_04ce1 L5081 s50/1]
+   b0: Nếu chúng ta sử dụng / quá nhiều năng lượng, oxy / sẽ cạn kiệt nhanh hơn...
+  JP413 [L_07128 s1/50]: 知った事か。
+ g405 [L_04ce1 L5090 s1/50]
+   b0: Ai quan tâm?
+  JP414 [L_07128 sNone/1]: ランスはマリアの乳房を鷲掴みに した。
+ g406 [L_04ce1 L5095 sNone/1]
+   b0: Rance nắm chặt ngực Maria.
+  JP415 [L_07128 s50/1]: あっ…！
+ g407 [L_04ce1 L5100 s50/1]
+   b0: À...!
+  JP416 [L_07128 s1/50]: がははははは！！！
+ g408 [L_04ce1 L5105 s1/50]
+   b0: Gahahahaha!
+  JP417 [L_07128 sNone/1]: 宇宙空間に投げ出されたランスと マリア…… 二人ははたしてどうなるか… チューリップ１００号は、食料の ある内に別の大陸へ流れつけるの か……
+ g409 [L_04ce1 L5113 sNone/1]
+   b0: Rance và Maria bị / ném vào không gian... Chuyện / gì sẽ xảy ra với họ...?
+   b1: Liệu Tulip 100 có trôi / dạt đến lục địa khác trước / khi hết thức ăn không...?
+  JP418 [L_07128 s50/1]: ……もうすぐ死ぬかも……しれ ない。 でも、ここでは私とランスだけ… ランスを独占したいっていう願い が叶った…のかな…
+ g410 [L_04ce1 L5129 s50/1]
+   b0: ... Chúng ta có / thể sẽ chết sớm thôi.
+   b1: Nhưng bây giờ tôi / có thể có Rance cho riêng / mình như tôi mong muốn...
+   b2: Tôi đoán vậy...
+  JP419 [L_07128 s1/50]: マリア、どうした？
+ g411 [L_04ce1 L5146 s1/50]
+   b0: Có chuyện gì vậy Maria?
+  JP420 [L_07128 s50/1]: んん、なんでもない…… ランス……
+ g412 [L_04ce1 L5151 s50/1]
+   b0: Ồ, không có gì...
+   b1: Rance...
+  JP421 [L_07128 s1/50]: ん？
+ g413 [L_04ce1 L5159 s1/50]
+   b0: Ừm?
+  JP422 [L_07128 s50/1]: 好きだよ……
+ g414 [L_04ce1 L5164 s50/1]
+   b0: Anh yêu em...
+  JP423 [L_07128 sNone/1]: 　　ＧＡＭＥ　ＯＶＥＲ
+ g415 [L_04ce1 L5169 sNone/1]
+   b0: TRÒ CHƠI KẾT THÚC
+  JP424 [L_07fac s1/50]: マリア、今作っている奴だが…
+ g416 [L_057d6 L5178 s1/50]
+   b0: Maria, về thứ em / đang làm bây giờ...
+  JP425 [L_07fac s50/1]: 高速増殖装置？
+ g417 [L_057d6 L5185 s50/1]
+   b0: Lò phản ứng tốc độ cao?
+  JP426 [L_07fac s1/50]: ああ、そうだ。 あれはなんかやばそうな気がす るので、やめろ。 いいな。
+ g418 [L_057d6 L5190 s1/50]
+   b0: Ừ, cái đó. Tôi có / cảm giác nó nguy hiểm. Đừng / làm việc đó nữa. Được rồi?
+  JP427 [L_07fac s50/1]: ……は、はい。わかりました。 私もなんかやばいなぁと思ってた から…よかった。
+ g419 [L_057d6 L5199 s50/1]
+   b0: ... O-Được / rồi, hiểu rồi. Tôi cũng / nghĩ nó sẽ nguy hiểm...
+   b1: Tôi rất vui / vì ngươi đã hỏi.
+  JP428 [L_07fac sNone/1]: マリアはほっと胸を撫で 降ろした。
+ g420 [L_057d6 L5213 sNone/1]
+   b0: Maria thở phào nhẹ nhõm.
+  JP429 [L_08094 s1/50]: マリア、あのチューリップ１００ 号とかいう奴だが… お前、乗る気だったのか？
+ g421 [L_0588e L5221 s1/50]
+   b0: Maria, về chiếc Tulip / 100 mà ngươi đang làm... / Ngươi có định lái nó không?
+  JP430 [L_08094 s50/1]: …そ…そうだけど…
+ g422 [L_0588e L5230 s50/1]
+   b0: ... C-À, ừ...
+  JP431 [L_08094 s1/50]: とにかくやめろ。 いいな。
+ g423 [L_0588e L5235 s1/50]
+   b0: Dù thế nào / đi nữa, hãy ngừng làm / việc đó đi. Được rồi?
+  JP432 [L_08094 s50/1]: えーーーー、そんなぁ！
+ g424 [L_0588e L5244 s50/1]
+   b0: Cái gì, tại sao?!
+  JP433 [L_08094 s1/50]: うるさい。 命令だ。中止しろ。
+ g425 [L_0588e L5249 s1/50]
+   b0: Im đi. Đó là một / mệnh lệnh. Tắt nó đi.
+  JP434 [L_08094 s50/1]: どうして…
+ g426 [L_0588e L5256 s50/1]
+   b0: Tại sao...?
+  JP435 [L_08094 s1/50]: とにかく気にいらん。 チューリップ１００号は、 中止。 作りかけのも解体して、薪にでも していまえ。
+ g427 [L_0588e L5261 s1/50]
+   b0: Bởi vì tôi / không thích nó. Hãy ngừng / làm việc với Tulip 100.
+   b1: Tháo rời những / gì ngươi đã làm và sử dụng / nó làm củi hoặc thứ gì đó.
+  JP436 [L_08094 s50/1]: でも…
+ g428 [L_0588e L5277 s50/1]
+   b0: Nhưng...
+  JP437 [L_08094 s1/50]: わかったな？
+ g429 [L_0588e L5282 s1/50]
+   b0: Hiểu chưa?
+  JP438 [L_08094 s50/1]: ……う…うん……
+ g430 [L_0588e L5287 s50/1]
+   b0: ... Đ-Được rồi...
+  JP439 [L_08211 s1/50]: それじゃ、帰るとするか。 じゃあな。
+ g431 [L_059d2 L5294 s1/50]
+   b0: Vậy thì tôi sẽ / đi đây. Thấy ngươi.
+  JP440 [L_08211 s50/1]: うん、また見に来てね。
+ g432 [L_059d2 L5301 s50/1]
+   b0: Được rồi, lúc nào / đó hãy quay lại nhé.
+  JP441 [L_08211 s1/50]: そうだな… もっとエッチな装置でも 作ったらな。
+ g433 [L_059d2 L5308 s1/50]
+   b0: Tôi không biết...
+   b1: Có lẽ nếu ngươi / làm thứ gì đó gợi tình / hơn thì tôi sẽ quay lại.
+  JP442 [L_08211 s50/1]: 作る訳ないじゃない！ 馬鹿！
+ g434 [L_059d2 L5320 s50/1]
+   b0: Tôi sẽ không / làm những việc như / thế đâu! Ngốc nghếch!
+  JP443 [L_08211 s1/50]: がははははは。 それじゃあな。
+ g435 [L_059d2 L5329 s1/50]
+   b0: Gahahahaha! Dù / sao, gặp lại ngươi sau.
+  JP444 [L_08211 sNone/1]: ランスは研究所を後にした。
+ g436 [L_059d2 L5336 sNone/1]
+   b0: Rance rời viện nghiên cứu.
+  JP445 [L_082f7 sNone/1]: 　　　リーザス城 　　　　　謁見の間 ランスは、きんっと冷えたピンク ウニューンをちゅうちゅうと ストローで飲んでいる。
+ g437 [L_05aa5 L5356 sNone/1]
+   b0: Lâu đài Leazas
+   b1: Phòng yết kiến Rance / đang nhét một ít unyuun màu / hồng ướp lạnh qua ống hút.
+  JP446 [L_082f7 s1/50]: う～ん、マンダム。 美味いぞ、これは。
+ g438 [L_05aa5 L5370 s1/50]
+   b0: Ừm, cái này tốt đấy.
+  JP447 [L_082f7 s6/1]: ランス王！ 大変です！
+ g439 [L_05aa5 L5377 s6/1]
+   b0: Vua Rance! Có rắc rối!
+  JP448 [L_082f7 s1/6]: なんだ？ 妊娠でもしたのか？
+ g440 [L_05aa5 L5382 s1/6]
+   b0: Cái gì? Ngươi / có thai hay gì đó?
+  JP449 [L_082f7 s6/1]: …そんな軽口を言える事態では ありません。 マリア殿の科学技術棟が、爆発 しました。
+ g441 [L_05aa5 L5389 s6/1]
+   b0: ... Đây không phải / là lúc để đùa giỡn.
+   b1: Tòa nhà nghiên cứu / của Maria phát nổ.
+  JP450 [L_082f7 s1/6]: えっ……
+ g442 [L_05aa5 L5401 s1/6]
+   b0: Hả...?
+  JP451 [L_082f7 s6/1]: 生き残った研究員の話ですと、 高速増殖回路の研究中に爆発が 起こったとの事です。 多数の死傷者が出ています。
+ g443 [L_05aa5 L5406 s6/1]
+   b0: Theo các nhà / nghiên cứu sống sót,
+   b1: một vụ nổ đã / xảy ra trong quá trình / nghiên cứu lò phản ứng.
+   b2: Nhiều người đã chết.
+  JP452 [L_082f7 s1/6]: …マリアは…無事だろうな？
+ g444 [L_05aa5 L5423 s1/6]
+   b0: ... Nhưng Maria / vẫn ổn phải không?
+  JP453 [L_082f7 s6/1]: …………
+ g445 [L_05aa5 L5433 s6/1]
+   b0: ............
+  JP454 [L_082f7 s1/6]: …まさか…？
+ g446 [L_05aa5 L5438 s1/6]
+   b0: ... Có phải nàng không...?
+  JP455 [L_082f7 s6/1]: 爆発の中心地点にいた様で… 遺体も残らない程…
+ g447 [L_05aa5 L5443 s6/1]
+   b0: Rõ ràng nàng là / trung tâm của vụ nổ...
+   b1: Thậm chí không có / bất kỳ tàn tích nào / trên cơ thể nàng...
+  JP456 [L_082f7 s1/6]: …………… じゃあ、生きているという事は…
+ g448 [L_05aa5 L5457 s1/6]
+   b0: ............
+   b1: Vậy thì ngươi đang / nói rằng nàng đã chết...
+  JP457 [L_082f7 s6/1]: ………………
+ g449 [L_05aa5 L5467 s6/1]
+   b0: ............
+  JP458 [L_082f7 s1/6]: ………… …くそっ…！！
+ g450 [L_05aa5 L5472 s1/6]
+   b0: .........
+   b1: ... Chết tiệt...!!
+  JP459 [L_082f7 s6/1]: はい…… 現在、病院に入っていますが、 命には別状はありません。 全治２週間くらいだそうです。
+ g451 [L_05aa5 L5484 s6/1]
+   b0: Vâng...
+   b1: Nàng hiện đang ở bệnh / viện, nhưng tính mạng của / nàng không gặp nguy hiểm.
+   b2: Nàng sẽ bình phục hoàn / toàn trong khoảng hai tuần.
+  JP460 [L_082f7 s1/6]: そうか… 後で見舞いに行ってやってくれ。
+ g452 [L_05aa5 L5501 s1/6]
+   b0: Ta hiểu rồi... Gửi / cho nàng một món quà / chúc sức khỏe cho ta.
+  JP461 [L_082f7 s6/1]: はい。
+ g453 [L_05aa5 L5510 s6/1]
+   b0: Có.
+  JP462 [L_082f7 s1/6]: マリア……なんて事だ。 そうか、危険があぶなかったん だな… それであの装置を作るのを、 嫌がっていたのか…… そうならそうと言えばいいのに… ……馬鹿が！
+ g454 [L_05aa5 L5515 s1/6]
+   b0: Maria... Ngươi đã / làm gì với chính mình? Điều / đó thực sự rất nguy hiểm...
+   b1: Có lẽ nàng ghét làm / việc trên thiết bị đó...
+   b2: Trong trường / hợp đó, lẽ ra nàng nên / nói vậy thôi... Đồ ngốc!
+  JP463 [L_08712 sNone/1]: 　　　リーザス城 　　　　　謁見の間
+ g455 [L_05df8 L5550 sNone/1]
+   b0: Lâu đài Leazas
+   b1: Phòng yết kiến Thưa / vua Rance, hôm nọ cô Maria / đã được xuất viện an toàn.
+  JP464 [L_08712 s6/1]: ランス王、マリア様が先日無事に 退院なされました。
+  JP465 [L_08712 s1/6]: そうか。 それは良かった。
+ g456 [L_05df8 L5564 s1/6]
+   b0: Ta hiểu rồi. Tốt đấy.
+  JP466 [L_08712 s6/1]: こちらにお見えです。 お通ししますか？
+ g457 [L_05df8 L5569 s6/1]
+   b0: Nàng đến đây để / gặp cậu. Tôi có nên / cho nàng qua không?
+  JP467 [L_08712 s1/6]: ああ、通せ。
+ g458 [L_05df8 L5578 s1/6]
+   b0: Ừ, cứ tiếp tục đi.
+  JP468 [L_08712 s6/1]: はい。 わかりました。
+ g459 [L_05df8 L5583 s6/1]
+   b0: Vâng, hiểu rồi.
+  JP469 [L_08712 s50/1]: ランス……
+ g460 [L_05df8 L5591 s50/1]
+   b0: Rance...
+  JP470 [L_08712 s1/50]: おお、元気そうだな。 よしよし。
+ g461 [L_05df8 L5596 s1/50]
+   b0: Này, cô trông / ổn đấy. Tốt, tốt.
+  JP471 [L_08712 s50/1]: ごめんなさい… 私、大事な研究員達に怪我を させてしまった… それに、科学技術棟も壊して…
+ g462 [L_05df8 L5603 s50/1]
+   b0: Tôi xin lỗi... / Vì tôi mà các nhà nghiên cứu / của tôi đã bị tổn thương...
+   b1: Ngoài ra, viện / nghiên cứu đã bị phá hủy...
+  JP472 [L_08712 sNone/1]: マリアは、目の端に浮かんだ涙の 粒を悟られまいと、うつむいた。
+ g463 [L_05df8 L5617 sNone/1]
+   b0: Khi Maria nhận thấy / nước mắt đang dâng lên trong / mắt mình, cô cúi đầu xuống.
+  JP473 [L_08712 s1/50]: …終わった事だ、気にするな。 なんなら、もう一度、科学技術棟 を建てて…
+ g464 [L_05df8 L5626 s1/50]
+   b0: ... Việc gì đã xong, / đừng lo lắng. Chúng ta có / thể xây dựng một cái khác...
+  JP474 [L_08712 s50/1]: ううん…もういいです… ごめんなさい。
+ g465 [L_05df8 L5635 s50/1]
+   b0: Không... Đừng bận / tâm... Tôi xin lỗi.
+  JP475 [L_08712 s1/50]: …そうか。 まあ、気にするな。 これまで通り、俺の元で働け。
+ g466 [L_05df8 L5642 s1/50]
+   b0: ... Ta hiểu rồi.
+   b1: Đừng lo lắng về điều / đó. Hãy tiếp tục làm việc / cho ta như cô đã từng làm.
+  JP476 [L_08712 s50/1]: ……うん。
+ g467 [L_05df8 L5654 s50/1]
+   b0: ... Được rồi.
+  JP477 [L_089b9 s1/50]: よーし、のぞき穴でも見るか。
+ g468 [L_06041 L5665 s1/50]
+   b0: Được rồi, có lẽ tôi / sẽ nhìn qua lỗ nhìn trộm.
+  JP478 [L_089b9 sNone/1]: ランスは、チューリップ研究所の 裏口から、隠し部屋に入った。
+ g469 [L_06041 L5672 sNone/1]
+   b0: Rance bước vào một / căn phòng bí mật phía sau / Viện Nghiên cứu Hoa Tulip.
+  JP479 [L_089b9 s1/50]: 俺しか持ってないシークレット キーを使って……
+ g470 [L_06041 L5681 s1/50]
+   b0: Tôi chỉ cần sử / dụng chiếc chìa khóa bí mật / duy nhất mà tôi có, và...
+  JP480 [L_089b9 sNone/1]: 　　＜かち……＞
+ g471 [L_06041 L5690 sNone/1]
+   b0: （nhấp chuột...）
+  JP481 [L_089b9 s1/50]: よし。 グッドだ。 もちろん、向こうからは、穴が開 いているのが見えない様に作られ ている。 ここで俺様がしている事は、だぁ れにもわからんという事だ。 これぞ、王様の特権。 さぁて…どれどれ… ん… …………お ……おおっ… おーーー……
+ g472 [L_06041 L5695 s1/50]
+   b0: Được rồi, tốt.
+   b1: Tất nhiên, nó được làm để / họ không thể thấy được cái / lỗ đang mở từ phía bên kia.
+   b2: Bằng cách đó sẽ không ai / biết tôi đang làm gì. Đây là / quyền đặc biệt của nhà vua.
+   b3: Bây giờ hãy xem... Ừm...
+   b4: ... Ồ.
+   b5: ... Ồ...
+   b6: Ố ồ...
+  JP482 [L_089b9 sNone/1]: ランス（何やら話しているな…どれどれ…） ランスは聞き耳をたてた。 女の子１「ねえ、あれ… 　　　　　大丈夫なのかいな？」 女の子２「あれって… 　　　　　高速増殖回路の研究の事？」 女の子１「うん、そうそう！」 女の子３「あたしもやばいなって… 　　　　　思ってたの…」 女の子１「あたし達みたいな下っ端がやばそうって 　　　　　思ってるんだったら…マリア博士も気づいて 　　　　　ないはずないよね…？」 女の子３「そうだと思う…けど……」 女の子２「他の子に聞いたんだけど… 　　　　　なんでもランス王が、回路にめっちゃくちゃ 　　　　　期待してるって…」 女の子１「ああ…だから、やめるにやめられない 　　　　　んだ…」 女の子２「そうだけど…でも、危ないわ。 　　　　　いつ爆発するか、わかんないのに…」 女の子３「そうよね… 　　　　　マリア博士、ランス王に進言出来ないの 　　　　　かしら…？」 女の子１「…進言したら、じゃあ言う事きいてやるから 　　　　　一発やらせろって言われるのが嫌なんだった 　　　　　りして…」 女の子達「きゃはははは！！ 　　　　　そうだったりしてぇ！」 女の子１「…………でも……」 女の子２「そうだね…危ないのは…嫌だわ、私…」 女の子３「やめたいけど…マリア博士を 　　　　　置いていく訳にもいかないし… 　　　　　困ったもんね…まったく…」 ランス（…………………） ランス（？？？） ランス（どういう事だ。危険って…… 　　　　マリアは、そんな事を言っていなかったが…） ランス（うーーーーん……どうしたものかな…） ランスは思案にくれながら、その場を去った。
+ g473 [L_06041 L5729 sNone/1 WIDE]
+   b0: Rance（Họ đang nói về điều / gì đó... Hãy nghe này...）
+   b1: Rance đã nghe lén họ.
+   b2: Cô gái 1 「Này... Dự án đó có ổn không?」
+   b3: Cô gái 2 「Cậu đang nói về / lò phản ứng tốc độ cao à?」
+   b4: Cô gái 1 「Ừ, cái đó!」
+   b5: Cô gái 3 「Tôi cũng nghĩ nó nguy hiểm...」
+   b6: Cô gái 1 「Nếu những trợ lý như chúng tôi
+   b7: nghĩ rằng nó nguy hiểm thì bác sĩ / Maria cũng nghĩ vậy,」 phải không...?」
+   b8: Cô gái 3 「Tôi cũng nghĩ vậy, nhưng...」
+   b9: Cô gái 2 「Tôi nghe từ một cô gái khác rằng / Vua Rance rất mong chờ lò phản ứng...」
+   b10: Cô gái 1 「Aah... Vậy là nàng / không thể dừng lại được...」
+   b11: Cô gái 2 「Ừ... Nhưng nó vẫn nguy hiểm. / Ai biết khi nào nó có thể phát nổ...?」
+   b12: Cô gái 3 「Ừ...
+   b13: Bác sĩ Maria có thể không đưa ra ý / kiến của mình với Vua Rance không...?」
+   b14: Cô gái 1 「... Nếu nàng làm vậy, / hắn sẽ nói “Anh sẽ nghe lời em,
+   b15: nên hãy để anh đụ em’ hay gì đó, / và cô không thích điều đó...」
+   b16: Các cô gái 「Kyahahahaha!! Đó / hoàn toàn là điều sẽ xảy ra!」
+   b17: Cô gái 1 「... Nhưng...」
+   b18: Cô gái 「Ừ... / Nguy hiểm lắm, tôi không thích nó...」
+   b19: Cô gái 3 「Tôi muốn dừng lại, nhưng tôi / cũng không muốn bỏ rơi bác sĩ Maria...
+   b20: Tệ rồi...」
+   b21: Trời ạ...」
+   b22: Rance（............）
+   b23: Rance（???
+   b24: Rance（Ý họ là sao, nguy hiểm quá…? / Maria chưa nói gì về chuyện đó...）
+   b25: Rance（Hmmmmm... Không biết có / chuyện gì xảy ra không nhỉ...）
+   b26: Rance rời đi trong khi đang suy nghĩ.
+  JP483 [L_089b9 sNone/1]: 女の子１「ねー知ってる？ 　　　　　マリア博士だけど…」 女の子１「あのチューリップ１００号に乗るつもり 　　　　　みたいよ」 女の子２「えー、ほんとなの、それ？ 　　　　　最初はハニーを乗せて、実験する予定じゃあ 　　　　　なかったの？」 女の子３「そうよね、あれ…帰還成功確率が 　　　　　０．０３％しか……」 女の子１「うん…どうしてだろう。 　　　　　そんなの…あたしだったら、怖くて 　　　　　乗れないもんねぇ…」 女の子２「失恋でもしたのかな…マリア博士…」 女の子３「え…だって……マリア博士は、ランス王の 　　　　　これよ、これ」 女の子１「きゃーーー！ 　　　　　やめなよ、その指ぃ！ 　　　　　下品だよぉ！」 女の子３「えーーーだってぇ！」 ランス（マリアがチューリップ１００号に乗る？ 　　　　どういう事だ？？） ランス（帰還確率０．０３％のものに乗りたがる 　　　　なんて…俺だったら、この子達と一緒で絶対に 　　　　嫌だがな…） ランス（そんなに自分の作った物と心中したい 　　　　のか？？） ランスはうんうん考えながら、その場を去った。
+ g474 [L_06041 L5849 sNone/1 WIDE]
+   b0: Cô gái 1 「Này, cậu đã nghe nói về bác sĩ Maria / chưa?」
+   b1: Cô gái 1 「Rõ ràng là nàng định đi trên chiếc / Tulip 100.」
+   b2: Cô gái 2 「Ồ,」 thật sao?
+   b3: Chẳng phải trước tiên chúng ta định
+   b4: cho Hanny cưỡi nó như một cuộc thử nghiệm sao?」
+   b5: Cô gái 3 「Ừ, và cơ hội quay trở lại thành công / chỉ trong 0,03%...」
+   b6: Cô gái 1 「Ừ...」
+   b7: Tôi thắc mắc tại sao cô lại muốn làm điều đó.
+   b8: Nếu là tôi, tôi sẽ sợ không dám cưỡi nó...」
+   b9: Cô gái 2 「Có lẽ nàng đã có một trái tim tan / vỡ...」
+   b10: Cô gái 3 「Hả...? Nhưng bác sĩ Maria, cậu biết / đấy, như thế này với King Rance.」
+   b11: Cô gái 1 「Kyaaah! Đừng chạm vào tôi như thế nữa! / Thật bẩn thỉu!」
+   b12: Cô gái 3 「Ồ, thôi nào!」
+   b13: Rance（Maria sẽ lái chiếc Tulip 100? / Ý nghĩa của việc này là gì?）
+   b14: Rance（Nó chỉ có 0,03% cơ hội quay trở lại...
+   b15: Nếu là tôi,
+   b16: tôi sẽ giống như những / cô gái này và không làm điều
+   b17: đó...) Rance（Cô muốn chết cùng với thứ cô tạo ra / nhiều đến vậy sao??）
+   b18: Rance nghĩ thầm khi rời đi.
+  JP484 [L_0928c sNone/1]: ランス（うむ。 　　　　うはうはのげはげはだ。 　　　　ぐへへへへへへへへへへへへ） 女の子１「あー今日はなんだか疲れちゃった」 女の子２「うん、そーだねぇー。 　　　　　そうだ、今日は寄り道しない？」 女の子３「だったらあたし、ビヤガーデンがいいわ。 　　　　　疲れたとこに冷たいのをごくごくって 　　　　　感じで……」 女の子１「えーーー！ 　　　　　あたし、喫茶店でケーキセットがいいと 　　　　　思ってたのにぃ」 女の子２「あたしは、焼鳥屋で熱燗を……」 女の子１「それ、絶対や」 女の子３「あたしも」 女の子２「えーーどうして、どうしてぇ！」 女の子３「絶対、ビヤホール！」 女の子１「ケーキ、ケーキ、ケーキ！！」 女の子２「よし…じゃあ、じゃんけんよ！」 女の子達「じゃーーーんけーーーん！」 ランス（女の子にも色々あるのだな。 　　　　うむ、いい事を勉強させて貰ったぞ。 　　　　かきかきかき…と…） ランスはメモを取りながら、その場を去った。 女の子２「今日ねぇ、警備員の福田君に、付き合って 　　　　　くれって言われたー」 女の子１「えーーーー！！ 　　　　　いいなぁ……」 女の子３「……あんた…美意識どっか壊れてない？」 女の子１「え…でも福田君って、普通じゃん。 　　　　　別にいいと思うけど……」 女の子３「若いうちは、もっと高望みしても 　　　　　許されるのよ」 女の子３「反対の事を言えば、若いうちしか高望み 　　　　　出来ないって事なのよ」 女の子２「それも、かなりきっつい理論…」 女の子３「だから貴女…彼氏作らないの？」 女の子３「あたしの事は、どーーでもいいのよーー！」 女の子達「きゃーーー！あはははは！」 ランス（……女の子ってのは、影で男の事をボロクソに 　　　　言うのか…わかってはいたが…胃が痛くなる 　　　　光景だ…） ランスは腹をさすりさすり、その場を去った。 女の子２「ねえ、今日の朝刊見た？」 女の子３「ああ、バーゲンの広告？」 女の子２「そうそう！ 　　　　　ブランド物が６割引なんて… 　　　　　夢みたい…」 女の子１「あたし、行きたいなぁ……」 女の子２「じゃあ今日、よってく？」 女の子３「そうね… 　　　　　だったらその後、飲みに行きましょうよ」 女の子２「あん、それよりボーリングに 　　　　　しようよ」 女の子１「オートテニスがいい…」 女の子３「仕事でくたくたで、さらに体力のいるバーゲン 　　　　　に行って…そんでもって運動なんか出来ない 　　　　　わよぉ！」 女の子３「それに…お金がすっからかんでも、 　　　　　飲み屋で男の子のグループ引っ掛かって 　　　　　来たら、伝票押し付ける事出来るじゃない」 女の子１「相変わらずあこぎな事して飲み代 　　　　　浮かしてんのね～…」 女の子３「あら、向こうだって女の子と知り合いに 　　　　　なりたいって下心があるから……」 女の子３「そんな寂しさを埋めてあげるんじゃないの。 　　　　　フィフティフィフティじゃない」 女の子３「それに、そんな事で引っ掛けてくるのって 　　　　　大抵、適当に稼いでるおじさんだから… 　　　　　あんまり良心とがまないわよ」 女の子２「私…そういうのって体験してみたい…」 女の子３「決定！ 　　　　　飲みにいこーーー！」 女の子１「あ…あたし…パス…」 女の子３「何言ってんのよ。 　　　　　さあ、バーゲン行って、飲みに行くわよ」 女の子１「きゃーーーきゃーーー！」 ランス（……女って…ひょっとして怖い生き物 　　　　なのか…？） ランスは哲学の域まで思考を飛ばしながら、 その場を去った。
+ g475 [L_064a3 L5932 sNone/1 WIDE]
+   b0: Rance（Ừm. Những thứ gợi cảm. / Guhehehehehehehehehe heheh.）
+   b1: Cô gái 1 「Aaah, hôm nay tôi hơi mệt.」
+   b2: Cô gái 2 「Ừ, tôi cũng vậy. Muốn đi ăn nhà hàng / hay gì đó trên đường về nhà không?」
+   b3: Cô gái 3 「Tôi muốn đến / vườn bia. Một cốc bia lạnh,」
+   b4: ngon chỉ là thứ dành cho ngươi khi ngươi kiệt / sức...」
+   b5: Cô gái 1 「Cái gì?! / Tôi muốn đặt một suất bánh ở quán cà phê.」
+   b6: Cô gái 2 「Tôi muốn uống rượu sake nóng ở quán / yakitori...」
+   b7: Cô gái 1 「Chắc chắn là không muốn điều đó.」
+   b8: Cô gái 3 「Tôi cũng vậy.」
+   b9: Cô gái 2 「Cái gì, tại sao?!」
+   b10: Cô gái 3 「Chúng ta sẽ đến quán bia!」
+   b11: Cô gái 1 「Bánh, bánh, bánh!!」
+   b12: Cô gái 2 「Được rồi... / Hãy chơi trò oẳn tù tì để quyết định!」
+   b13: Các cô gái 「Rooock, paaaper, kéo!」
+   b14: Rance（Ta đoán con gái cũng làm được rất nhiều / việc.
+   b15: Đây là một kinh nghiệm học tập tốt.
+   b16: Phải viết cái này ra...) Rance ghi chép khi rời / khỏi tòa nhà.
+   b17: Cô gái 2 「Vậy hôm nay Fukuda, người bảo vệ đó, đã / hẹn hò với tôi.」
+   b18: Cô gái 1 「Thật sao?!! Điều đó thật tuyệt...」
+   b19: Cô gái 3 「... Chắc mắt cậu có vấn đề rồi.」
+   b20: Cô gái 1 「Hả...? Tôi / nghĩ Fukuda trông khá bình / thường. Thế là đủ rồi...」
+   b21: Cô gái 3 「Khi còn trẻ, cậu có thể dám đặt mục / tiêu cao hơn thế.」
+   b22: Cô gái 3 「Cậu thậm chí có thể nói đây
+   b23: là lần duy nhất cậu có / thể nhắm mục tiêu cao hơn.」
+   b24: Cô gái 2 「Đó là một lý thuyết khá khắc nghiệt / ...」
+   b25: Cô gái 3 「Vậy cậu có định có cậu trai không?」
+   b26: Cô gái 3 「Cá nhân tôi không thực sự quan tâm đến / việc có được một cái!」
+   b27: Các cô gái 「Kyaaaaaaah! Ahahahaha!」
+   b28: Rance(...
+   b29: Ta biết các cô gái nói / xấu sau lưng các chàng trai,
+   b30: nhưng ta thấy phát ngán khi xem nó...)) Rance xoa / bụng khi rời khỏi tòa nhà.
+   b31: Cô gái 2 「Này, cậu đã đọc bài báo hôm nay chưa?」
+   b32: Cô gái 3 「Ừ, cậu đang nói về quảng cáo giảm giá / à?」
+   b33: Cô gái 2 「Ừ! / Giảm giá 60% cho các mặt hàng hàng hiệu...
+   b34: Cứ như một giấc mơ vậy...」
+   b35: Cô gái 1 「Tôi muốn đi...」
+   b36: Cô gái 2 「Vậy hôm nay chúng ta có nên đi không?」
+   b37: Cô gái 3 「Chắc chắn rồi... / Chúng ta có thể đi uống nước sau đó.」
+   b38: Cô gái 2 「À, tôi thích đi chơi bowling hơn thế.」
+   b39: Cô gái 1 「Auto tennis sẽ rất tuyệt...」
+   b40: Cô gái 3 「Sau một ngày làm việc vất vả và tiêu
+   b41: tốn nhiều năng lượng hơn,」 / làm sao cậu có thể tập thể dục?!」
+   b42: Cô gái 3 「Ngoài ra, nếu chúng ta đến quán bar,
+   b43: ngay cả khi chúng ta hết / tiền,」 miễn là có một nhóm
+   b44: con trai đến thì chúng / ta có thể bắt họ trả tiền.」
+   b45: Cô gái 1 「Anh lúc nào cũng tham lam khi tiết kiệm / tiền uống rượu...」
+   b46: Cô gái 3 「Chà, dù sao thì họ cũng chỉ đến với hy / vọng gặp được con gái thôi mà...」
+   b47: Cô gái 3 「Vậy nên tôi đang chôn vùi nỗi cô đơn / của họ. Đó là 50/50.」
+   b48: Cô gái 3 「Ngoài ra,」 những người tôi thường làm / việc này đều là những người
+   b49: lớn tuổi hơn và có rất nhiều tiền,
+   b50: nên tôi không thực sự cảm thấy tệ đâu.」
+   b51: Cô gái 2 「Tôi muốn thử làm điều đó...」
+   b52: Cô gái 3 「Vậy thì quyết định rồi! Đi uống nào!」
+   b53: Cô gái 1 「Tôi-tôi sẽ vượt qua...」
+   b54: Cô gái 3 「Ồ, thôi nào. Hãy đến khu mua sắm giá / hời rồi đi uống rượu nhé.」
+   b55: Cô gái 1 「Kyaaaah, kyaaaaaah!」
+   b56: Rance(... Con gái có thể khá đáng sợ...)
+   b57: Rance bị đẩy đến giới hạn của tư duy triết học khi / rời khỏi tòa nhà.

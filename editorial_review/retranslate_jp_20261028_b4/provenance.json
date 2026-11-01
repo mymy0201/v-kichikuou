@@ -1,0 +1,10 @@
+{
+ "semantic_base": "verified Japanese: editorial_review/japanese_base_20261022/reference/japanese",
+ "english_reference": "reference only",
+ "japanese_sha256": {
+  "Iﾏｼﾞﾝ.ADV": "f17f798ad37e229567437be3119055d89b86f5f010d088306360389386248d50"
+ },
+ "rules_sha256": "99349d9b52261378d65000e74fad2b84811dedfa5e19b0da663fd21c6311e171",
+ "method": "Every group read in Japanese; Vietnamese hand-written per box in edits.txt; tools/retranslate_jp.py fits text into existing boxes only. No machine translation or bulk pronoun pipeline.",
+ "queue": "largest-first among Pronoun Studio scripts not marked complete"
+}

@@ -1,0 +1,11 @@
+{
+  "file": "Cﾃｷﾄｼ.ADV",
+  "groups": [
+    13,
+    25
+  ],
+  "action": "Add word/line boundaries around X8 map names after handwritten wording. No waits or executable operations changed.",
+  "inserted_R_operations": 3,
+  "source_sha256_after": "263faa3cb0e6d663a2515956d3f4b9a423612ceec5f6401a2b2a83e749ac0bc3",
+  "reason": "Long map names were concatenated with narrative text; preserve actual variable output and fit each full message in <=3 rows."
+}

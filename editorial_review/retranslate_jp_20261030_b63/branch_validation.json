@@ -1,0 +1,26 @@
+{
+  "file": "Gﾐｷ.ADV",
+  "vi_menu_group": 443,
+  "original_japanese_menu": [
+    {
+      "source_line": 3746,
+      "text": "$L_08393$このまま植物人間$"
+    },
+    {
+      "source_line": 3747,
+      "text": "$L_084bc$きっと助かる$"
+    }
+  ],
+  "vi_targets": [
+    "$L_05e86$",
+    "$L_05f6c$"
+  ],
+  "source_alignment": {
+    "L_08393": "L_05e86: permanent-unconsciousness response; full branch read",
+    "L_084bc": "L_05f6c: reassurance/recovery response; full branch read"
+  },
+  "conditions_and_target_order_unchanged": true,
+  "all_Miki_VAR0520_dispatch_targets_identical": "validation.json and source command skeleton check",
+  "live_playthrough": false,
+  "failures": []
+}

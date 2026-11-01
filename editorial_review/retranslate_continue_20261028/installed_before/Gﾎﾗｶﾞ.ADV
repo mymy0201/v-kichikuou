@@ -1,0 +1,3827 @@
+	!VAR0154 : VAR0569!
+	MM 1, VAR0198 + (VAR0154 - 1) * 3:
+	!VAR0621 : 0!
+	{(VAR0154 = 1) + (VAR0154 = 3) + (VAR0154 = 7) + (VAR0154 = 14) + (VAR0154 = 21) + (VAR0154 = 31):
+		!VAR0621 : 1!
+	}
+	{VAR0520 = 1:
+		@L_00243:
+	}
+	{VAR0520 = 2:
+		@L_04049:
+	}
+	{VAR0520 = 3:
+		@L_000b2:
+	}
+*L_000b2:
+	!VAR0162 : 5!
+	!VAR0045 : VAR0145!
+	!VAR0046 : VAR0146!
+	!VAR0516 : 1!
+	%#M.ADV:
+	!VAR0043 : VAR0045!
+	!VAR0044 : VAR0046!
+	!VAR0516 : 10!
+	%#M.ADV:
+	!VAR0516 : 1017!
+	\L_043f9:
+	!VAR0516 : 476!
+	\L_04351:
+	\L_04335:
+	ZM 32:
+	ZH 1:
+	'Tháp Hồ Raga'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng Tầng Trên Cùng'
+	R
+	'Ho Raga vừa làm pho mát'
+	R
+	'vừa nói chuyện với Yodel,'
+	\L_04422:
+	ZH 1:
+	'chú chó yêu quý của anh.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Thật là nhàm chán'
+	R
+	'với số lượng khách ghé thăm'
+	R
+	'gần đây của chúng ta, Yodel.'
+	\L_04422:
+	ZH 1:
+	'(Yodel) Woof!!'
+	\L_04422:
+	ZH 1:
+	'Huhu... Đúng rồi...'
+	R
+	'Sống động thì tốt...'
+	\L_04422:
+	ZH 1:
+	'Sống động'
+	R
+	'nhưng lại có vẻ ngoài'
+	R
+	'không hề sợ hãi... À...'
+	\L_04422:
+	ZH 1:
+	'Cũng hay'
+	R
+	'khi chúng mềm dẻo như một'
+	R
+	'cây roi... Heh... Huhuhu...'
+	\L_04422:
+	ZH 1:
+	'(Yodel) Woof woof!!'
+	\L_04422:
+	ZH 1:
+	'Huhu... Đừng'
+	R
+	'hoảng sợ, Yodel...'
+	R
+	'Đây là Tháp Trí tuệ...'
+	\L_04422:
+	ZH 1:
+	'Cuối cùng thì'
+	R
+	'họ cũng phải đến.'
+	\L_04422:
+	ZH 1:
+	'Huhu... hóng quá...'
+	\L_04422:
+	ZH 1:
+	'(Yodel) Woof!!'
+	\L_04422:
+	\L_04415:
+	\L_04335:
+	ZH 1:
+	'Yodel vẫy đuôi hào hứng.'
+	\L_04422:
+	\L_04415:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_00243:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1017!
+	\L_043f9:
+	\L_04335:
+	ZM 32:
+	ZH 1:
+	'Tháp Hồ Raga'
+	\L_04422:
+	ZM 24:
+	{VAR0621 = 0:
+		ZH 1:
+		'cổng khổng lồ của'
+		R
+		'tháp đã bị đóng chặt.'
+		\L_04422:
+	}
+	{VAR0621 = 1:
+		ZH 1:
+		'cổng khổng lồ'
+		R
+		'của tháp đã mở rộng.'
+		\L_04422:
+	}
+	\L_04415:
+*L_002c1:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_002c1:
+	}
+	{VAR0621 = 1:
+		ZH 1:
+		$L_0039c$
+		'Nhập'
+		$
+	}
+	{VAR0621 = 0:
+		ZH 1:
+		$L_00361$
+		'Cổng Mở'
+		$
+	}
+	ZH 1:
+	$L_00330$
+	'Rời đi'
+	$
+	]
+	@L_002c1:
+*L_00330:
+	SS VAR0515:
+	\L_04335:
+	ZH 1:
+	X 1:
+	'rời Tháp Hồ Raga.'
+	\L_04422:
+	\L_04415:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_00361:
+	\L_04335:
+	ZH 1:
+	'Cố gắng mở cổng, nhưng...'
+	\L_04422:
+	ZH 1:
+	'Thậm chí'
+	R
+	'tấn công bằng toàn bộ quân'
+	R
+	'đội cũng không mở được cổng.'
+	\L_04422:
+	\L_04415:
+	@L_002c1:
+*L_0039c:
+	!VAR0001 : 0!
+	SS 26:
+	{VAR0147 = 1:
+		@L_03ed2:
+	}
+	!VAR0516 : VAR0097!
+	\L_043c1:
+	\L_04335:
+	ZH 1:
+	X 1:
+	'vào Tháp Hồ Raga.'
+	\L_04422:
+	ZH 1:
+	'Anh leo lên'
+	R
+	'cầu thang xoắn ốc khổng lồ'
+	R
+	'và đến cánh cửa trên cùng.'
+	\L_04422:
+	ZM 32:
+	ZH 1:
+	'Tháp Hồ Raga'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng Tầng Trên Cùng'
+	R
+	'Vì lý do nào đó, khung cảnh'
+	R
+	'ở đó giống như một sườn núi.'
+	\L_04422:
+	ZH 1:
+	'bầu trời xanh.'
+	\L_04422:
+	ZH 1:
+	'đồng bằng tràn ngập mùi cây'
+	R
+	'xanh trên những ngọn đồi kéo'
+	R
+	'dài một khoảng cách rất xa.'
+	\L_04422:
+	ZH 1:
+	'Giữa khung'
+	R
+	'cảnh đó là một căn lều'
+	R
+	'nhỏ đơn độc với mái đỏ.'
+	\L_04422:
+	ZH 1:
+	'Trong khi nhóm nhìn'
+	R
+	'chằm chằm vào cảnh kỳ lạ,'
+	\L_04422:
+	ZH 1:
+	'nhà hiền triết Ho raga'
+	R
+	'và chú chó lớn yodel của'
+	R
+	'ông xuất hiện từ túp lều.'
+	\L_04422:
+	\L_04415:
+	!VAR0516 : 476!
+	\L_04351:
+	\L_042fd:
+	ZH 1:
+	'Chào mừng tới chốn hẻo lánh'
+	R
+	'này.'
+	\L_04422:
+	ZH 1:
+	'Lão già này giúp được gì cho'
+	R
+	'ngươi?'
+	\L_04422:
+	\L_04415:
+	\L_04335:
+	ZH 1:
+	'Ho Raga mỉm'
+	R
+	'cười và đưa tay ra.'
+	\L_04422:
+	\L_04415:
+*L_0050f:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_0050f:
+	}
+	{(VAR0101 = 1) * (VAR0492 = 0):
+		@L_01c8c:
+	}
+	{(VAR0101 = 2) * (VAR0492 = 0):
+		@L_020f5:
+	}
+	ZH 1:
+	$L_00b0b$
+	'Đặt câu hỏi'
+	$
+	!VAR0160 : 18!
+	{(VAR0150 = 0) * (VAR0492 > 1) * (VAR0154 = 1):
+		ZH 1:
+		$L_005b0$
+		'Nhận Tượng Vàng'
+		$
+	}
+	ZH 1:
+	$L_00330$
+	'Rời đi'
+	$
+	]
+	@L_0050f:
+*L_005b0:
+	{(VAR0492 = 4) + (VAR0518 = 4) * (VAR0327 > 9):
+		@L_006f4:
+	}
+	{VAR0492 = 2:
+		@L_009aa:
+	}
+	\L_0436d:
+	ZH 1:
+	'Lão già, giao cho ta tượng'
+	R
+	'vàng British đã tặng lão.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Dùng thứ đó làm gì? Còn gì'
+	R
+	'nữa.'
+	\L_04422:
+	ZH 1:
+	'Ta sẽ tới di tích cổ gặp'
+	R
+	'thần. Gahahahaha!'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Ngươi không được!!'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Ối, giật cả mình.'
+	\L_04422:
+	ZH 1:
+	'Đó là thứ con người không'
+	R
+	'được chạm tới, không được'
+	R
+	'biết đến!'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Nhưng ông già ơi...'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Chàng trai tuấn tú... Xin'
+	R
+	'hãy từ bỏ... Chỉ chúng'
+	\L_04422:
+	ZH 1:
+	'ta làm nạn nhân là quá đủ'
+	R
+	'rồi...'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'............'
+	\L_04422:
+	\L_04415:
+	@L_0050f:
+*L_006f4:
+	!VAR0492 : 5!
+	\L_0436d:
+	ZH 1:
+	'Rudrasaum đã hành động để'
+	R
+	'giết chúng ta.'
+	\L_04422:
+	ZH 1:
+	'Chỉ còn cách qua cửa thần,'
+	\L_04422:
+	ZH 1:
+	'hạ hắn. Vì thế hãy'
+	\L_04422:
+	ZH 1:
+	'giao tượng đây.'
+	\L_04422:
+	ZH 1:
+	'Cứ thế này thì tất cả sẽ'
+	R
+	'chết.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Không. Con người rồi cũng'
+	R
+	'chết.'
+	\L_04422:
+	ZH 1:
+	'Chẳng biết cái chết nào chờ'
+	R
+	'đợi, nhưng chấp nhận nó mới'
+	R
+	'là...'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Im đi!!'
+	\L_04422:
+	\L_04415:
+	\L_04335:
+	ZH 1:
+	'(pow)'
+	\L_04422:
+	ZH 1:
+	'Rance đấm Ho'
+	R
+	'raga vào bụng.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Ự...!'
+	\L_04422:
+	ZH 1:
+	'Đừng giảng đạo kiểu già nua'
+	\L_04422:
+	ZH 1:
+	'ấy với người trẻ như'
+	\L_04422:
+	ZH 1:
+	'ta!'
+	\L_04422:
+	ZH 1:
+	'Lão có ra sao ta chẳng quan'
+	R
+	'tâm!'
+	\L_04422:
+	ZH 1:
+	'Nhưng ta và gái đẹp có'
+	\L_04422:
+	ZH 1:
+	'thể chết, sao ta ngồi yên'
+	R
+	'được!'
+	\L_04422:
+	ZH 1:
+	'Mau giao báu vật đây!'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Được...'
+	\L_04422:
+	ZH 1:
+	'Cứ làm theo ý ngươi...'
+	\L_04422:
+	\L_04415:
+	\L_04335:
+	ZH 1:
+	'Cuối cùng Ho Raga đành chịu'
+	R
+	'thua, giao tượng vàng cho'
+	R
+	'Rance.'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Được rồi...'
+	R
+	'Đáng lẽ cậu nên đưa nó'
+	R
+	'cho tôi ngay từ đầu.'
+	\L_04422:
+	ZH 1:
+	'... Nhân tiện, ông'
+	R
+	'già... Ông lấy cái này ở đâu'
+	R
+	'thế? Nó cảm thấy khá ấm áp.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Heh... Đàn'
+	R
+	'ông có rất nhiều túi'
+	R
+	'bí mật trên người...'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'... Eeeeeew, tôi cần'
+	R
+	'phải xóa cái này đi.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'(Yodel) Woof!!'
+	\L_04422:
+	ZH 1:
+	'Này, Yodel không phải'
+	R
+	'là một miếng vải bụi.'
+	\L_04422:
+	\L_04415:
+	\L_04335:
+	ZH 1:
+	'Rance có được'
+	R
+	'bức tượng vàng.'
+	\L_04422:
+	\L_04415:
+	!VAR0160 : 18!
+	!VAR0150 : 100!
+	@L_0050f:
+*L_009aa:
+	!VAR0492 : 3!
+	\L_0436d:
+	ZH 1:
+	'Lão già, tượng vàng ở đâu?'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'... Trong miệng Yodel.'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Được rồi, mở ra!!'
+	\L_04422:
+	\L_04415:
+	\L_04335:
+	ZH 1:
+	'Rance đối mặt với Yodel.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'（Yodel） Nnah～～...'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Wah!!'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'（Yodel） Crunch,'
+	R
+	'crunch, crunch.'
+	\L_04422:
+	\L_04415:
+	\L_04335:
+	ZH 1:
+	'Yodel thò lưỡi dài ra,'
+	R
+	'múc một con ốc sên và ăn nó.'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Đáng sợ thật...'
+	\L_04422:
+	ZH 1:
+	'Này, lão giấu tượng vàng'
+	R
+	'trong chỗ ấy sao?!'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Làm sao giấu ở đó được.'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Gh... Ggggggh...'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Nghe lão khuyên đi. Bỏ'
+	R
+	'chuyện đó đi.'
+	\L_04422:
+	\L_04415:
+	@L_0050f:
+*L_00b0b:
+	{VAR0001 = 0:
+		@L_015ac:
+	}
+	\L_042fd:
+	ZH 1:
+	'ngươi có thể hỏi tôi về'
+	R
+	'bất cứ điều gì ngươi thích.'
+	\L_04422:
+	ZH 1:
+	'(Yodel) Woof!!'
+	\L_04422:
+	\L_04415:
+*L_00b4d:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_00b4d:
+	}
+	ZH 1:
+	$L_00d5d$
+	'Thời Tiết Ngày Mai'
+	$
+	!VAR0160 : 12!
+	{(VAR0063 = 1) * (VAR0150 = 0):
+		ZH 1:
+		$L_00e0b$
+		'Rào Cản Của Zeth'
+		$
+	}
+	!VAR0160 : 14!
+	{(VAR0389 = 3) * (VAR0150 = 0):
+		ZH 1:
+		$L_00ffb$
+		'Hợp đồng ma quỷ'
+		$
+	}
+	{VAR0564 = 5:
+		ZH 1:
+		$L_01156$
+		'Bệnh Okayu'
+		$
+	}
+	{VAR0401 = 7:
+		ZH 1:
+		$L_0122f$
+		'Bệ chữa bệnh'
+		$
+	}
+	{VAR0492 \ 0:
+		ZH 1:
+		$L_0135d$
+		'Về quá khứ'
+		$
+	}
+	{VAR0376 = 2:
+		ZH 1:
+		$L_00c4b$
+		'Kesselring'
+		$
+	}
+	]
+	@L_00b4d:
+*L_00c4b:
+	!VAR0376 : 3!
+	\L_042fd:
+	ZH 1:
+	'Mhm... Vậy Kesselring'
+	R
+	'của Elite Four của quỷ đang'
+	R
+	'gây rắc rối cho ngươi à...?'
+	\L_04422:
+	ZH 1:
+	'Ừm... Hắn... Ờ...'
+	\L_04422:
+	\L_04415:
+	\L_04335:
+	ZH 1:
+	'Ho Raga có'
+	R
+	'vẻ đang suy nghĩ.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Ông có tám'
+	R
+	'người giúp việc.'
+	\L_04422:
+	ZH 1:
+	'khi ông bị phá hủy, họ'
+	R
+	'thu thập tro cốt của ông,'
+	\L_04422:
+	ZH 1:
+	'đặt họ vào quan tài'
+	R
+	'có mùi thơm hoa hồng và'
+	R
+	'thực hiện nghi lễ máu...'
+	\L_04422:
+	ZH 1:
+	'Mà hồi sinh ông.'
+	R
+	'điều quan trọng đối với nghi'
+	R
+	'lễ phục sinh đó là quan tài.'
+	\L_04422:
+	ZH 1:
+	'Đập quan tài ra từng mảnh.'
+	\L_04422:
+	ZH 1:
+	'Nếu ngươi làm'
+	R
+	'vậy, Kesselring sẽ không'
+	R
+	'thể hồi sinh được nữa.'
+	\L_04422:
+	ZH 1:
+	'đó là tất cả những gì'
+	R
+	'tôi có thể nói với ngươi.'
+	\L_04422:
+	\L_04415:
+	@L_03073:
+*L_00d5d:
+	\L_042fd:
+	ZH 1:
+	'Cậu đến tận đây để'
+	R
+	'hỏi tôi câu đó à...?'
+	\L_04422:
+	ZH 1:
+	'Được rồi. Tôi'
+	R
+	'sẽ trả lời ngươi.'
+	\L_04422:
+	\L_04415:
+	\L_04335:
+	ZH 1:
+	'Ho Raga lôi một cuốn'
+	R
+	'sách ra khỏi kệ phía'
+	R
+	'sau và lật từng trang.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Ừm, ừm... ngày Mai'
+	R
+	'trời sẽ nắng ở khắp mọi nơi.'
+	\L_04422:
+	ZH 1:
+	'Nhưng ở miền nam Zeth,'
+	R
+	'lúc 4 giờ chiều trời sẽ'
+	R
+	'chỉ mưa trong ba mươi phút.'
+	\L_04422:
+	ZH 1:
+	'đó là tất cả.'
+	\L_04422:
+	\L_04415:
+	@L_03073:
+*L_00e0b:
+	\L_042fd:
+	ZH 1:
+	'rào cản bao'
+	R
+	'quanh Vương Quốc Zeth...?'
+	\L_04422:
+	ZH 1:
+	'Vâng... Đó chắc'
+	R
+	'chắn là rắc rối.'
+	\L_04422:
+	ZH 1:
+	'Đó là rào cản tối thượng,'
+	\L_04422:
+	ZH 1:
+	'được kích hoạt'
+	R
+	'khi 300 pháp sư hy sinh'
+	R
+	'mạng sống của mình...'
+	\L_04422:
+	ZH 1:
+	'Nó không thể dễ'
+	R
+	'dàng vượt qua được.'
+	\L_04422:
+	ZH 1:
+	'Hãy xem...'
+	\L_04422:
+	\L_04415:
+	\L_04335:
+	ZH 1:
+	'Ho Raga bắt'
+	R
+	'đầu nhìn qua những chiếc kệ'
+	R
+	'chất đầy đủ thứ khác nhau.'
+	\L_04422:
+	\L_04415:
+	{VAR0650 < 8:
+		\L_042fd:
+		ZH 1:
+		'Hmmm... Rào'
+		R
+		'cản ma thuật... Rào'
+		R
+		'chắn... Mmmmm...'
+		\L_04422:
+		ZH 1:
+		'Tôi nghĩ tôi có'
+		R
+		'thứ gì đó, nhưng...'
+		\L_04422:
+		ZH 1:
+		'Điều gì sẽ là tốt nhất...?'
+		\L_04422:
+		ZH 1:
+		'Xin Lỗi, nhưng hãy cho tôi'
+		R
+		'một chút thời gian để tìm'
+		R
+		'những gì sẽ phù hợp nhất.'
+		\L_04422:
+		ZH 1:
+		'Sau đó, tôi sẽ chuẩn bị'
+		R
+		'một món đồ tuyệt vời, nguy'
+		R
+		'hiểm cho ngươi... Huhuhu...'
+		\L_04422:
+		ZH 1:
+		'(Yodel) Woof!!'
+		\L_04422:
+		\L_04415:
+		@L_00b4d:
+	}
+	!VAR0160 : 12!
+	!VAR0150 : 100!
+	\L_042fd:
+	ZH 1:
+	'Ừm, thế này đây.'
+	R
+	'Ngươi có thể lấy nó.'
+	\L_04422:
+	ZH 1:
+	'Đây Là Lưỡi'
+	R
+	'Rào Chắn, nó có thể cắt'
+	R
+	'giảm hầu hết các rào cản.'
+	\L_04422:
+	ZH 1:
+	'Nếu ngươi bị'
+	R
+	'bao quanh bởi sương mù của'
+	R
+	'rào chắn đó, hãy vung nó.'
+	\L_04422:
+	ZH 1:
+	'Nó sẽ biến'
+	R
+	'mất ngay lập tức.'
+	\L_04422:
+	\L_04415:
+	\L_04335:
+	ZH 1:
+	'Nhận Được Lưỡi Rào chắn.'
+	\L_04422:
+	\L_04415:
+	@L_03073:
+*L_00ffb:
+	!VAR0160 : 14!
+	!VAR0150 : 100!
+	\L_042fd:
+	ZH 1:
+	'Tôi hiểu rồi...'
+	\L_04422:
+	ZH 1:
+	'Vậy là một cô gái tên'
+	R
+	'Magic đã lập khế ước với một'
+	\L_04422:
+	ZH 1:
+	'con quỷ và nó đang cố'
+	R
+	'lấy đi linh hồn của nàng...'
+	\L_04422:
+	ZH 1:
+	'Một sai lầm của'
+	R
+	'tuổi trẻ, có lẽ...'
+	\L_04422:
+	ZH 1:
+	'Tất cả tuổi trẻ trong'
+	R
+	'suốt lịch sử đều giống nhau.'
+	\L_04422:
+	ZH 1:
+	'Nếu nàng vẫn'
+	R
+	'ngồi trên Ghế Hợp đồng'
+	R
+	'thì nàng sẽ ổn thôi.'
+	\L_04422:
+	ZH 1:
+	'Vẫn có thể ngăn chặn nó.'
+	\L_04422:
+	ZH 1:
+	'Lấy cái này.'
+	\L_04422:
+	\L_04415:
+	\L_04335:
+	ZH 1:
+	'Ho Raga lấy một'
+	R
+	'lá bùa có dòng chữ'
+	\L_04422:
+	ZH 1:
+	'“Tịch thu tài sản” trên'
+	R
+	'đó từ ngăn kéo bàn làm việc.'
+	\L_04422:
+	ZH 1:
+	'ngươi chỉ cần dán'
+	R
+	'cái này lên cô gái đó.'
+	\L_04422:
+	ZH 1:
+	'Đó là một “ Tuyệt'
+	R
+	'Đối Foreclosure Quyến rũ”.'
+	\L_04422:
+	ZH 1:
+	'Nó có thể vô'
+	R
+	'hiệu bất kỳ hợp đồng'
+	R
+	'nào. Dán nó lên nàng.'
+	\L_04422:
+	\L_04415:
+	\L_04335:
+	ZH 1:
+	'Nhận được Bùa tịch'
+	R
+	'thu tài sản tuyệt đối.'
+	\L_04422:
+	\L_04415:
+	@L_03073:
+*L_01156:
+	!VAR0564 : 6!
+	\L_042fd:
+	ZH 1:
+	'Bệnh Okayu?'
+	R
+	'Ngươi đang hỏi về một'
+	R
+	'căn bệnh khá hiếm gặp.'
+	\L_04422:
+	ZH 1:
+	'Đó là một căn bệnh'
+	R
+	'đáng sợ khiến người bị nhiễm'
+	R
+	'bệnh trở thành cơn sốt oku.'
+	\L_04422:
+	ZH 1:
+	'Bệnh Okayu ban đầu'
+	R
+	'là một căn bệnh dành'
+	\L_04422:
+	ZH 1:
+	'riêng cho sốt okayu làm'
+	R
+	'biến cơ thể họ màu tím.'
+	\L_04422:
+	ZH 1:
+	'Con người sẽ mắc phải'
+	R
+	'bệnh này khi hôn lên môi'
+	R
+	'một con sốt oku màu tím.'
+	\L_04422:
+	ZH 1:
+	'Nhân tiện... Có thêm'
+	R
+	'một thông tin nữa nhé.'
+	\L_04422:
+	ZH 1:
+	'có một cơn sốt okayu bị'
+	\L_04422:
+	ZH 1:
+	'nhiễm bệnh okayu trên'
+	R
+	'tầng 10 Của Kẻ Thù Tự nhiên'
+	R
+	'Ngục tối bên ngoài Cossack.'
+	\L_04422:
+	\L_04415:
+	@L_03073:
+*L_0122f:
+	!VAR0401 : 8!
+	\L_042fd:
+	ZH 1:
+	'Một phương pháp để'
+	R
+	'biến một con người bị'
+	\L_04422:
+	ZH 1:
+	'nguyền rủa thành một con'
+	R
+	'bò trở lại bình thường...?'
+	\L_04422:
+	ZH 1:
+	'có một cách, nhưng'
+	R
+	'ngươi cần phải hôn tôi'
+	R
+	'nếu ngươi muốn biết...'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'............'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'... Người trẻ'
+	R
+	'không nên nóng nảy. Đó'
+	R
+	'rõ ràng là một trò đùa.'
+	\L_04422:
+	ZH 1:
+	'Đây, cầm lấy cái này.'
+	\L_04422:
+	\L_04415:
+	\L_04335:
+	ZH 1:
+	'Ho Raga đưa ra một cái'
+	R
+	'chai trông giống như một quả'
+	\L_04422:
+	ZH 1:
+	'cầu thủy tinh màu xanh'
+	R
+	'đặt trên người anh ta.'
+	\L_04422:
+	ZH 1:
+	'bàn. đây là “ Curer Bò”.'
+	\L_04422:
+	ZH 1:
+	'Chỉ cần làm cho'
+	R
+	'người bị biến thành'
+	R
+	'một con bò uống nó.'
+	\L_04422:
+	\L_04415:
+	\L_04335:
+	ZH 1:
+	'Đã nhận được'
+	R
+	'“Người chữa bệnh cho bò”.'
+	\L_04422:
+	\L_04415:
+	@L_03073:
+*L_0135d:
+	\L_042fd:
+	ZH 1:
+	'ngươi muốn nghe một'
+	R
+	'ông già nói về quá khứ...?'
+	\L_04422:
+	ZH 1:
+	'Đó là khá đáng'
+	R
+	'khen ngợi của ngươi.'
+	\L_04422:
+	ZH 1:
+	'Chà...'
+	\L_04422:
+	ZH 1:
+	'Khi tôi ở tuổi của ngươi,'
+	R
+	'thế giới con người không'
+	R
+	'yên bình như bây giờ...'
+	\L_04422:
+	ZH 1:
+	'Bởi vì lục'
+	R
+	'địa này được cai trị'
+	R
+	'bởi Ma Vương Gilles...'
+	\L_04422:
+	ZH 1:
+	'Con khốn đó'
+	R
+	'ác độc đến mức...'
+	\L_04422:
+	ZH 1:
+	'Đi ra ngoài vào'
+	R
+	'ban đêm là tự sát...'
+	\L_04422:
+	ZH 1:
+	'Kết quả là mọi người sợ'
+	R
+	'màn đêm và luôn cố gắng gia'
+	R
+	'cố các bức tường của mình.'
+	\L_04422:
+	ZH 1:
+	'Nhưng lũ quái'
+	R
+	'vật sẽ tấn công chúng'
+	R
+	'tôi bất cứ lúc nào.'
+	\L_04422:
+	ZH 1:
+	'Ngày tốt hơn đêm,'
+	\L_04422:
+	ZH 1:
+	'nhưng một người'
+	R
+	'không may mắn vẫn'
+	\L_04422:
+	ZH 1:
+	'có thể thấy mình bị dày'
+	R
+	'vò bởi những con quái vật...'
+	\L_04422:
+	ZH 1:
+	'Hầu hết mọi'
+	R
+	'người chỉ có thể run rẩy'
+	R
+	'chờ đợi họ nói xong...'
+	\L_04422:
+	ZH 1:
+	'Khi Gai tiếp quản, tôi'
+	R
+	'nghĩ mọi thứ sẽ ổn định...'
+	R
+	'Hắn có lẽ cũng vậy...'
+	\L_04422:
+	ZH 1:
+	'Nhưng con người, giống'
+	R
+	'như đang cố gắng trút giận,'
+	\L_04422:
+	ZH 1:
+	'đã chiến đấu với'
+	R
+	'lũ quỷ nhiều hơn...'
+	\L_04422:
+	ZH 1:
+	'Theo tôi,'
+	R
+	'không cần thiết phải làm'
+	R
+	'điều ngu ngốc như vậy...'
+	\L_04422:
+	ZH 1:
+	'Nhưng, à... Chiến tranh'
+	R
+	'chỉ là thứ để cải thiện'
+	R
+	'mức sống của người dân...'
+	\L_04422:
+	ZH 1:
+	'Sau đó, cuộc sống'
+	R
+	'của người dân trở'
+	R
+	'nên dễ dàng hơn...'
+	\L_04422:
+	ZH 1:
+	'Nếu không'
+	R
+	'có điều đó thì chúng ta'
+	R
+	'sẽ không có điều này...'
+	\L_04422:
+	ZH 1:
+	'Mọi thứ xung'
+	R
+	'quanh chúng ta bây giờ đều'
+	R
+	'nhờ vào cuộc chiến đó...'
+	\L_04422:
+	ZH 1:
+	'Bên trong này, con người là'
+	R
+	'những người lúng túng xung'
+	R
+	'quanh trong sự nhầm lẫn...'
+	\L_04422:
+	ZH 1:
+	'Cho dù họ nhận thấy'
+	R
+	'đó là một vấn đề khác.'
+	\L_04422:
+	\L_04415:
+	@L_03073:
+*L_015ac:
+	\L_042fd:
+	ZH 1:
+	'Đúng như dự đoán của ngươi,'
+	R
+	'tôi có đủ kiến ​​thức để'
+	R
+	'trả lời câu hỏi của ngươi.'
+	\L_04422:
+	ZH 1:
+	'Tuy nhiên... chỉ'
+	R
+	'có một điều kiện để tôi cung'
+	R
+	'cấp cho ngươi kiến thức đó.'
+	\L_04422:
+	ZH 1:
+	'Nếu ngươi bằng lòng'
+	R
+	'ở lại với tôi một đêm,'
+	\L_04422:
+	ZH 1:
+	'tôi sẽ truyền đạt kiến'
+	R
+	'​​thức của mình cho ngươi.'
+	\L_04422:
+	\L_04415:
+	\L_04335:
+	ZH 1:
+	'Ho Raga nhìn chăm chú'
+	X 1:
+	'với đôi mắt lạnh lùng.'
+	\L_04422:
+	\L_04415:
+*L_01643:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_01643:
+	}
+	ZH 1:
+	$L_016ca$
+	'Chấp nhận'
+	$
+	R
+	$L_01681$
+	'Từ chối'
+	$
+	]
+	@L_01643:
+*L_01681:
+	\L_042fd:
+	ZH 1:
+	'Tôi hiểu rồi... Vậy'
+	R
+	'thì tôi không có ý định nói'
+	R
+	'với ngươi bất cứ điều gì...'
+	\L_04422:
+	ZH 1:
+	'Tôi không cần'
+	R
+	'tiền. Một đêm với em'
+	R
+	'còn quý giá hơn thế.'
+	\L_04422:
+	\L_04415:
+	@L_0050f:
+*L_016ca:
+	!VAR0001 : 1!
+	{VAR0154 = 1:
+		\L_0436d:
+		ZH 1:
+		'Được rồi, chắc chắn'
+		R
+		'rồi. Một đêm không là gì cả.'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Hô... vậy à...?'
+		\L_04422:
+		\L_04415:
+		\L_04389:
+		ZH 1:
+		'Có thể chắc chắn rằng đêm'
+		R
+		'của một ông già sẽ kết thúc'
+		R
+		'sớm. Tôi chỉ cần đợi thôi...'
+		\L_04422:
+		ZH 1:
+		'Guhuhuhu.'
+		\L_04422:
+		ZH 1:
+		'Thật là một'
+		R
+		'công việc dễ dàng.'
+		\L_04422:
+		\L_04415:
+		{VAR0101 = 1:
+			\L_043cf:
+			!VAR0516 : 80!
+			\L_043c1:
+			\L_0436d:
+			ZH 1:
+			'Này...'
+			\L_04422:
+			ZH 1:
+			'Tôi chắc là ngài đã suy nghĩ'
+			R
+			'kỹ về ý nghĩa câu'
+			\L_04422:
+			ZH 1:
+			'trả lời của mình trước khi'
+			R
+			'trả lời phải không?'
+			\L_04422:
+			\L_04415:
+			\L_043cf:
+			!VAR0516 : 1!
+			\L_043c1:
+			\L_0436d:
+			ZH 1:
+			'Vâng... Ta chỉ cần chơi với'
+			R
+			'một ông già bất diệt trong'
+			R
+			'một đêm, phải không?'
+			\L_04422:
+			\L_04415:
+			\L_043cf:
+			!VAR0516 : 80!
+			\L_043c1:
+			\L_0436d:
+			ZH 1:
+			'............'
+			\L_04422:
+			\L_04415:
+			\L_043cf:
+			!VAR0516 : 1!
+			\L_043c1:
+			\L_0436d:
+			ZH 1:
+			'............'
+			\L_04422:
+			\L_04415:
+			\L_043cf:
+			!VAR0516 : 80!
+			\L_043c1:
+			\L_0436d:
+			ZH 1:
+			'... Không...'
+			\L_04422:
+			ZH 1:
+			'Không... tôi... tôi không'
+			R
+			'thể nói được.'
+			\L_04422:
+			ZH 1:
+			'Bởi vì tôi sẽ bỏ chạy. Đây'
+			R
+			'là thứ duy nhất còn đáng sợ'
+			R
+			'hơn cả ma quỷ.'
+			\L_04422:
+			\L_04415:
+			\L_043cf:
+			!VAR0516 : 1!
+			\L_043c1:
+		}
+	}
+	{VAR0154 = 3:
+		\L_0436d:
+		ZH 1:
+		'Vâng, nó ổn. Ta mạnh mẽ vào'
+		R
+		'ban đêm. Ta hiểu rồi, ta sẽ'
+		R
+		'rửa lưng cho ngươi.'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Hô... Tôi'
+		R
+		'mong chờ nó quá...'
+		\L_04422:
+		ZH 1:
+		'Tuyệt vời.'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'Gahahahaha!ha. Ừ, ta'
+		R
+		'cũng sẽ uống với ngươi.'
+		\L_04422:
+		\L_04415:
+	}
+	{VAR0154 = 7:
+		\L_0436d:
+		ZH 1:
+		'Ta hiểu. Ta'
+		R
+		'không thể từ chối yêu cầu'
+		R
+		'của một nhà thông thái.'
+		\L_04422:
+		ZH 1:
+		'Nếu anh đủ tốt với em...'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Vâng... Anh giỏi lắm...'
+		\L_04422:
+		\L_04415:
+	}
+	{VAR0154 = 14:
+		\L_0436d:
+		ZH 1:
+		'Chà...'
+		\L_04422:
+		ZH 1:
+		'Không thường xuyên ngươi'
+		R
+		'có cơ hội nói chuyện với ai'
+		R
+		'đó có kiến thức về thế giới,'
+		\L_04422:
+		ZH 1:
+		'vì vậy...'
+		\L_04422:
+		ZH 1:
+		'Rất vui.'
+		\L_04422:
+		ZH 1:
+		'Nếu có liên quan'
+		R
+		'đến việc uống rượu trong'
+		R
+		'khi chúng ta nói chuyện.'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Hiểu rồi... Vậy chúng'
+		R
+		'ta hãy dành chút thời gian'
+		R
+		'để... tìm hiểu nhau nhé...'
+		\L_04422:
+		ZH 1:
+		'Huhu...'
+		\L_04422:
+		\L_04415:
+	}
+	{VAR0154 = 21:
+		\L_0436d:
+		ZH 1:
+		'Ta không giỏi từ chối'
+		R
+		'yêu cầu của một ông già.'
+		\L_04422:
+		ZH 1:
+		'Chà... Hãy lấy một ít đồ'
+		R
+		'uống và đi chơi với phụ nữ.'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Huhu... Chỉ cần em ở'
+		R
+		'bên anh là được rồi...'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'Ahahahahaha. Nghe có'
+		R
+		'vẻ biến thái đấy ông già ạ.'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Huhuhuhuhu...'
+		\L_04422:
+		\L_04415:
+	}
+	{VAR0154 = 31:
+		\L_0436d:
+		ZH 1:
+		'Nếu ta đủ tốt'
+		R
+		'thì xin vui lòng.'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Huhuhu... Tôi thích'
+		R
+		'những chàng trai lịch sự.'
+		\L_04422:
+		\L_04415:
+		{VAR0101 = 2:
+			\L_043cf:
+			!VAR0516 : 34!
+			\L_043c1:
+			\L_0436d:
+			ZH 1:
+			'... Ông có tỉnh táo không,'
+			R
+			'ông Kentarou...?'
+			\L_04422:
+			\L_04415:
+			\L_043cf:
+			!VAR0516 : 55!
+			\L_043c1:
+			\L_0436d:
+			ZH 1:
+			'Hả? Tại sao? Chỉ là dành'
+			R
+			'thời gian với một ông già'
+			R
+			'thôi, phải không?'
+			\L_04422:
+			ZH 1:
+			'Bất cứ ai cũng sẽ cô đơn nếu'
+			R
+			'sống một mình ở một nơi như'
+			R
+			'thế này.'
+			\L_04422:
+			ZH 1:
+			'Nếu dành thời gian với hắn'
+			R
+			'sẽ giúp ích được thì...'
+			\L_04422:
+			\L_04415:
+			\L_043cf:
+			!VAR0516 : 34!
+			\L_043c1:
+			\L_04389:
+			ZH 1:
+			'............'
+			\L_04422:
+			ZH 1:
+			'Hắn không hiểu... Aah...'
+			R
+			'Nhưng tôi nên giải thích thế'
+			R
+			'nào đây...?'
+			\L_04422:
+			ZH 1:
+			'... Trời ạ...'
+			\L_04422:
+			ZH 1:
+			'“sở thích” của hắn đã là một'
+			R
+			'điều khó hiểu cách đây 1500'
+			R
+			'năm rồi...'
+			\L_04422:
+			\L_04415:
+			\L_043cf:
+			!VAR0516 : VAR0097!
+			\L_043c1:
+		}
+	}
+	\L_042fd:
+	ZH 1:
+	'Cuộc đàm phán đã hoàn tất.'
+	R
+	'Ngươi muốn hỏi điều gì?'
+	\L_04422:
+	\L_04415:
+	@L_0050f:
+*L_01c8c:
+	!VAR0492 : 1!
+	!VAR0516 : 80!
+	\L_043c1:
+	\L_0436d:
+	ZH 1:
+	'Nngwoooaaaaaaaaaaaaah!!!!'
+	\L_04422:
+	\L_04415:
+	\L_043cf:
+	!VAR0516 : 1!
+	\L_043c1:
+	\L_0436d:
+	ZH 1:
+	'W-Cái Gì!?'
+	\L_04422:
+	\L_04415:
+	\L_043a5:
+	ZH 1:
+	'Sự hỗn loạn gầm'
+	R
+	'lên từ hông Rance.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Tôi biết rồi...'
+	\L_04422:
+	ZH 1:
+	'Thanh kiếm ghen tị'
+	R
+	'đeo trên hông anh chàng'
+	R
+	'đẹp trai đó là Chaos...'
+	\L_04422:
+	ZH 1:
+	'Đã lâu rồi...'
+	\L_04422:
+	\L_04415:
+	\L_043cf:
+	!VAR0516 : 80!
+	\L_043c1:
+	\L_0436d:
+	ZH 1:
+	'Tránh xa tôi ra, perv!! ngài'
+	R
+	'sẽ ổn thôi...'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Daaaaaaaaa!! Im đi, im'
+	R
+	'đi! Ai sẽ... ai sẽ...?'
+	\L_04422:
+	\L_04415:
+	\L_043cf:
+	!VAR0516 : 1!
+	\L_043c1:
+	\L_0436d:
+	ZH 1:
+	'Cái gì? Hai người có biết'
+	R
+	'nhau không?'
+	\L_04422:
+	\L_04415:
+	\L_043cf:
+	!VAR0516 : 80!
+	\L_043c1:
+	\L_0436d:
+	ZH 1:
+	'Vâng... Chúng tôi làm,'
+	R
+	'nhưng... Tôi ghét anh chàng'
+	R
+	'này.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Không phải ngươi'
+	R
+	'ghét tất cả đàn ông'
+	R
+	'hơn mình sao...? Ơ...'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Đồ ngu! Có rất nhiều'
+	R
+	'điều về ngài mà tôi ghét!'
+	\L_04422:
+	ZH 1:
+	'Aah, tránh xa'
+	R
+	'tôi ra! Tôi sẽ bắt được'
+	R
+	'sự ngoan cố của ngài!'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Nói rằng khi'
+	R
+	'ngươi chỉ đuổi theo lừa của'
+	R
+	'phụ nữ là vô lý. Chờ đã...'
+	\L_04422:
+	ZH 1:
+	'Không có'
+	R
+	'một phần nào đó ngươi sẽ'
+	R
+	'nhìn trộm? đóng uuuup!!'
+	\L_04422:
+	\L_04415:
+	\L_043cf:
+	!VAR0516 : 1!
+	\L_043c1:
+	\L_0436d:
+	ZH 1:
+	'im đi!'
+	\L_04422:
+	\L_04415:
+	\L_043a5:
+	ZH 1:
+	'(clang)'
+	\L_04422:
+	ZH 1:
+	'Rance ném Hỗn'
+	R
+	'loạn xuống sàn.'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Này ông già. Giải thích'
+	R
+	'tất cả những điều này là gì.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Được rồi...'
+	\L_04422:
+	\L_04415:
+	\L_023d8:
+	\L_043cf:
+	!VAR0516 : 80!
+	\L_043c1:
+	\L_0436d:
+	ZH 1:
+	'Vậy Thì... Ngài đã sống vô'
+	R
+	'tư trong tòa tháp này suốt'
+	R
+	'thời gian đó chưa?'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Vô tư... Đúng... Tôi chắc'
+	R
+	'chắn đã từng như vậy. Tôi'
+	R
+	'không còn muốn làm gì nữa.'
+	\L_04422:
+	ZH 1:
+	'Nhưng không thể chết được,'
+	\L_04422:
+	ZH 1:
+	'tôi quyết định từ đây nhìn'
+	R
+	'thế giới tàn lụi cùng chú'
+	R
+	'chó cưng của mình, Yodel...'
+	\L_04422:
+	ZH 1:
+	'(Yodel) Woof.'
+	\L_04422:
+	ZH 1:
+	'Còn ngươi...? Cậu vẫn đuổi'
+	R
+	'theo mông các cô gái ngay cả'
+	R
+	'khi đã trở thành như vậy à?'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Tôi đã chiến đấu. Tôi'
+	R
+	'sử dụng sức mạnh của mình để'
+	R
+	'đánh bại lũ quỷ vì công lý.'
+	\L_04422:
+	\L_04415:
+	\L_043cf:
+	!VAR0516 : 1!
+	\L_043c1:
+	\L_0436d:
+	ZH 1:
+	'ngươi nghe có vẻ khá tự hào'
+	R
+	'vì là một công cụ!'
+	\L_04422:
+	ZH 1:
+	'Ta là người chiến đấu để'
+	R
+	'đánh bại ma quỷ.'
+	\L_04422:
+	\L_04415:
+	\L_043cf:
+	!VAR0516 : 80!
+	\L_043c1:
+	\L_0436d:
+	ZH 1:
+	'Hừm, cậu đang nói cái gì'
+	R
+	'vậy?'
+	\L_04422:
+	ZH 1:
+	'Ngài không thể giết bất kỳ'
+	R
+	'con quỷ nào mà không có tôi.'
+	R
+	'Hừm.'
+	\L_04422:
+	\L_04415:
+	\L_043cf:
+	!VAR0516 : 1!
+	\L_043c1:
+	\L_0436d:
+	ZH 1:
+	'Im đi, im đi!! Ngươi thậm'
+	R
+	'chí không thể di chuyển mà'
+	R
+	'không có ta!!'
+	\L_04422:
+	ZH 1:
+	'hai người này khá giống'
+	R
+	'nhau...'
+	\L_04422:
+	\L_04415:
+	@L_0050f:
+*L_020f5:
+	!VAR0492 : 1!
+	\L_043a5:
+	ZH 1:
+	'Ngươi...'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Hả?'
+	\L_04422:
+	\L_04415:
+	\L_043cf:
+	!VAR0516 : 34!
+	\L_043c1:
+	\L_04335:
+	ZH 1:
+	'Nikkou tỏa sáng'
+	X 1:
+	'bàn tay của nàng và trở lại'
+	R
+	'hình dạng con người của'
+	R
+	'nàng.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Ồ... Nếu đó không'
+	R
+	'phải là Nikkou thì sao?'
+	R
+	'Đã được một thời gian rồi.'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Tôi nghĩ đó'
+	R
+	'có thể là cậu từ cái tên Ho'
+	R
+	'Raga, nhưng... Thực sự là...'
+	\L_04422:
+	\L_04415:
+	{VAR0154 = 1:
+		\L_043cf:
+		!VAR0516 : 1!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'Đừng phớt lờ ta và nói'
+		R
+		'chuyện với hắn. Hai người'
+		R
+		'quen nhau à?'
+		\L_04422:
+		\L_04415:
+	}
+	{VAR0154 = 31:
+		\L_043cf:
+		!VAR0516 : 55!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'Cậu có biết hắn không,'
+		R
+		'Nikkou?'
+		\L_04422:
+		\L_04415:
+	}
+	\L_043cf:
+	!VAR0516 : 34!
+	\L_043c1:
+	\L_0436d:
+	ZH 1:
+	'Vâng, đúng vậy.'
+	\L_04422:
+	\L_04415:
+	\L_023d8:
+	\L_043cf:
+	!VAR0516 : 34!
+	\L_043c1:
+	\L_0436d:
+	ZH 1:
+	'Ho Raga... Từ đó đến nay ông'
+	R
+	'ẩn dật trong tòa tháp này'
+	R
+	'phải không?'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Vâng. Không có'
+	R
+	'gì khác để làm...'
+	\L_04422:
+	ZH 1:
+	'Thỉnh thoảng tôi'
+	R
+	'chỉ chơi với một người'
+	R
+	'đến hỏi tôi điều gì đó.'
+	\L_04422:
+	ZH 1:
+	'Một cuộc sống'
+	R
+	'không có gì mới để học... Có'
+	R
+	'phải là khốn khổ không...?'
+	\L_04422:
+	ZH 1:
+	'Ngươi đã làm'
+	R
+	'gì, Nikkou? Ngươi vẫn đang'
+	R
+	'chiến đấu với những con quỷ?'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'... Ừ... Đó là'
+	R
+	'lý do tôi sống.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Vẫn nghiêm khắc'
+	R
+	'như mọi khi... Heh...'
+	\L_04422:
+	ZH 1:
+	'Đó là một trong những'
+	R
+	'điểm tốt của cậu đấy.'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Huhu... Thật nhẹ nhõm khi'
+	R
+	'biết mình không hề thay đổi.'
+	\L_04422:
+	ZH 1:
+	'Nhưng tôi cho rằng ít'
+	R
+	'nhất cậu cũng đã già đi.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Heh... Cậu đánh'
+	R
+	'tôi chỗ đau đấy.'
+	\L_04422:
+	\L_04415:
+	!VAR0516 : VAR0097!
+	\L_043c1:
+	@L_0050f:
+*L_023d8:
+	\L_042fd:
+	ZH 1:
+	'Vâng...'
+	\L_04422:
+	ZH 1:
+	'Lúc đó đã'
+	R
+	'là 1500 năm trước.'
+	\L_04422:
+	ZH 1:
+	'Đó là thời kỳ đen tối khi'
+	R
+	'Chúa quỷ Gilles sử dụng quái'
+	R
+	'vật để thống trị thế giới...'
+	\L_04422:
+	ZH 1:
+	'Con người không'
+	R
+	'hơn gì côn trùng.'
+	\L_04422:
+	ZH 1:
+	'chúng tôi đứng'
+	R
+	'dậy để cố gắng đánh'
+	R
+	'bại Ma Vương Gilles.'
+	\L_04422:
+	ZH 1:
+	'Có tôi, pháp sư Ho raga...'
+	\L_04422:
+	ZH 1:
+	'Bây giờ vẫn là'
+	R
+	'một chàng trai tốt,'
+	\L_04422:
+	ZH 1:
+	'nhưng hồi đó'
+	R
+	'tôi là một người đàn'
+	R
+	'ông má hồng hấp dẫn.'
+	\L_04422:
+	ZH 1:
+	'chiến binh,'
+	R
+	'Người Anh... Vẻ đẹp của'
+	R
+	'tôi... Mọi thứ của tôi...'
+	\L_04422:
+	ZH 1:
+	'Tôi chưa'
+	R
+	'bao giờ biết một người đàn'
+	R
+	'ông nào tuyệt vời như hắn...'
+	\L_04422:
+	ZH 1:
+	'lý do tôi quyết'
+	R
+	'định thử và đánh bại'
+	\L_04422:
+	ZH 1:
+	'những con quỷ là vì anh'
+	R
+	'ta muốn sức mạnh của tôi...'
+	\L_04422:
+	ZH 1:
+	'Tôi không có động cơ'
+	R
+	'nào khác. samurai, Nikkou.'
+	\L_04422:
+	ZH 1:
+	'Một người phụ'
+	R
+	'nữ samurai dũng'
+	R
+	'cảm, dũng cảm...'
+	\L_04422:
+	ZH 1:
+	'Nếu nàng'
+	R
+	'là đàn ông thì nàng sẽ'
+	R
+	'là mẫu người của tôi...'
+	\L_04422:
+	{VAR0101 = 2:
+		\L_04415:
+		\L_043cf:
+		!VAR0516 : 34!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'Đừng nói thế, đáng sợ lắm…'
+		\L_04422:
+		ZH 1:
+		'Nếu tôi là đàn ông, tôi sẽ'
+		R
+		'đứng ngoài đảng để bảo vệ sự'
+		R
+		'trong trắng của mình.'
+		\L_04422:
+		\L_04415:
+		\L_043cf:
+		\L_042fd:
+	}
+	ZH 1:
+	'tên trộm, Ma kiếm Chaos.'
+	\L_04422:
+	ZH 1:
+	'Tham gia lực lượng với một'
+	R
+	'người đàn ông'
+	\L_04422:
+	ZH 1:
+	'bẩn thỉu như vậy là điều tôi'
+	R
+	'chưa bao giờ làm trong'
+	R
+	'đời...'
+	\L_04422:
+	{VAR0101 = 1:
+		\L_04415:
+		\L_043cf:
+		!VAR0516 : 80!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'N-Nếu tôi biết anh là loại'
+		R
+		'người như thế nào, tôi'
+		R
+		'sẽ...!'
+		\L_04422:
+		ZH 1:
+		'Aaaaaaaaa!! Tôi thậm chí'
+		R
+		'không muốn nhớ nó!'
+		\L_04422:
+		ZH 1:
+		'Tôi đồng cảm với những người'
+		R
+		'đàn'
+		\L_04422:
+		ZH 1:
+		'ông hấp dẫn từng là kẻ thù'
+		R
+		'của chúng tôi!tôi...'
+		\L_04422:
+		\L_04415:
+		\L_043cf:
+		!VAR0516 : 1!
+		\L_043c1:
+		\L_042fd:
+	}
+	ZH 1:
+	'nữ tu sĩ chiến binh, Quán Cà'
+	R
+	'phê.'
+	\L_04422:
+	ZH 1:
+	'nàng thấp bé, không hấp dẫn'
+	R
+	'khủng khiếp, và có một cái'
+	R
+	'miệng to...'
+	\L_04422:
+	ZH 1:
+	'Tôi không ghét nàng...'
+	\L_04422:
+	ZH 1:
+	'Aah... Nghĩ lại thì, ở đâu'
+	R
+	'đó có người còn tệ hơn'
+	R
+	'tôi...'
+	\L_04422:
+	ZH 1:
+	'Huhuhuhu...'
+	\L_04422:
+	ZH 1:
+	'Chà...'
+	\L_04422:
+	ZH 1:
+	'Trong mọi trường hợp, chúng'
+	R
+	'tôi thực sự là đội mạnh nhất'
+	R
+	'vào thời điểm đó.'
+	\L_04422:
+	ZH 1:
+	'vì vậy, chúng tôi đã đi để'
+	R
+	'giết Ma Vương.'
+	\L_04422:
+	ZH 1:
+	'...'
+	\L_04422:
+	ZH 1:
+	'Hoặc tôi nói vậy,'
+	\L_04422:
+	ZH 1:
+	'nhưng sức mạnh của con người'
+	R
+	'thậm chí còn không thể làm'
+	R
+	'hại được quỷ,'
+	\L_04422:
+	ZH 1:
+	'chứ đừng nói đến Chúa quỷ.'
+	\L_04422:
+	ZH 1:
+	'để làm được điều đó, chúng'
+	R
+	'tôi cần một vũ khí huyền'
+	R
+	'thoại...'
+	\L_04422:
+	ZH 1:
+	'Vì vậy, chúng tôi đã tìm'
+	R
+	'kiếm.'
+	\L_04422:
+	ZH 1:
+	'Chúng tôi đã đi khắp thế'
+	R
+	'giới...'
+	\L_04422:
+	ZH 1:
+	'sau đó, chúng tôi bước vào'
+	R
+	'Đống Đổ Nát Cổ xưa,'
+	\L_04422:
+	ZH 1:
+	'được cho là ngục tối lớn'
+	R
+	'nhất thế giới.'
+	\L_04422:
+	ZH 1:
+	'Bên trong nó, chúng tôi tìm'
+	R
+	'thấy một cánh cửa khổng lồ.'
+	\L_04422:
+	ZH 1:
+	'tuy nhiên, cánh cửa không mở'
+	R
+	'cho dù chúng tôi đã làm'
+	R
+	'gì...'
+	\L_04422:
+	ZH 1:
+	'chúng tôi tìm thấy bốn bức'
+	R
+	'tượng vàng trong đống đổ'
+	R
+	'nát,'
+	\L_04422:
+	ZH 1:
+	'và khi chúng tôi đặt chúng'
+	R
+	'trên bệ trước cửa, nó mở ra.'
+	\L_04422:
+	ZH 1:
+	'chúng tôi bước vào.'
+	\L_04422:
+	ZH 1:
+	'Đó là một hầm ngục vô lý...'
+	R
+	'sau đó...'
+	\L_04422:
+	ZH 1:
+	'Ngoài cánh cửa, chúng tôi đã'
+	R
+	'gặp một vị thần.'
+	\L_04422:
+	{VAR0101 = 1:
+		\L_04415:
+		\L_043cf:
+		!VAR0516 : 80!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'đó là một vị thần...? Không'
+		R
+		'phải là một con quỷ?'
+		\L_04422:
+		\L_04415:
+		\L_043cf:
+		\L_042fd:
+		ZH 1:
+		'Không... Đó là một vị thần.'
+		\L_04422:
+	}
+	ZH 1:
+	'Rằng đức chúa trời nói tên'
+	R
+	'của nó là Người Lập kế'
+	R
+	'hoạch.'
+	\L_04422:
+	ZH 1:
+	'Nó ca ngợi chúng tôi vì đã'
+	R
+	'làm cho nó ở đó...'
+	\L_04422:
+	ZH 1:
+	'Ngươi nghĩ có bao nhiêu'
+	R
+	'người được thần linh khen'
+	R
+	'ngợi?'
+	\L_04422:
+	ZH 1:
+	'chúng tôi rất hạnh phúc, ít'
+	R
+	'nhiều ngây ngất...'
+	\L_04422:
+	ZH 1:
+	'đức chúa trời nói với chúng'
+	R
+	'ta rằng để tưởng nhớ chúng'
+	R
+	'ta làm cho nó ở đó,'
+	\L_04422:
+	ZH 1:
+	'nó sẽ ban cho mỗi chúng ta'
+	R
+	'một điều ước.'
+	\L_04422:
+	ZH 1:
+	'những mong muốn chúng tôi'
+	R
+	'đã chọn là một sai lầm...'
+	\L_04422:
+	{VAR0101 = 1:
+		\L_04415:
+		\L_043cf:
+		!VAR0516 : 80!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'Của ngài là, ít nhất. Tôi đã'
+		R
+		'không quên mục tiêu thực sự'
+		R
+		'của chúng tôi.'
+		\L_04422:
+		\L_04415:
+		\L_043cf:
+		\L_042fd:
+	}
+	{VAR0101 = 2:
+		\L_04415:
+		\L_043cf:
+		!VAR0516 : 34!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'Tôi không nghĩ đó là một'
+		R
+		'sai lầm... Không phải vậy...'
+		\L_04422:
+		\L_04415:
+		\L_043cf:
+		\L_042fd:
+	}
+	ZH 1:
+	'Chaos và Nikkou đều lên'
+	R
+	'tiếng ngay lập tức.'
+	\L_04422:
+	ZH 1:
+	'“tôi mong muốn sức mạnh để'
+	R
+	'giết quỷ và Ma Vương.” Tôi'
+	R
+	'ước có được mọi kiến thức.'
+	\L_04422:
+	ZH 1:
+	'Trên hết,'
+	\L_04422:
+	ZH 1:
+	'Café mong muốn có được'
+	R
+	'“Khuôn mặt và thân hình'
+	\L_04422:
+	ZH 1:
+	'có thể thu hút bất kỳ người'
+	R
+	'đàn ông nào”...'
+	\L_04422:
+	ZH 1:
+	'thiên chúa nói rằng nó sẽ'
+	R
+	'ban cho mong muốn của chúng'
+	R
+	'tôi và cười.'
+	\L_04422:
+	ZH 1:
+	'... Ừ, nó cười...'
+	\L_04422:
+	ZH 1:
+	'Sau đó, chúng tôi bất tỉnh.'
+	\L_04422:
+	ZH 1:
+	'............ quyền năng của'
+	R
+	'đức chúa trời đã thực sự cho'
+	R
+	'tôi tất cả kiến thức.'
+	\L_04422:
+	ZH 1:
+	'Tôi cũng có được sự bất tử.'
+	\L_04422:
+	ZH 1:
+	'Tôi biết tất cả mọi thứ.'
+	\L_04422:
+	ZH 1:
+	'Nhưng nó chẳng có ý nghĩa gì'
+	R
+	'cả.'
+	\L_04422:
+	ZH 1:
+	'Có những điều ngươi chưa'
+	R
+	'biết chính là điều khiến'
+	R
+	'cuộc sống trở nên thú vị.'
+	\L_04422:
+	ZH 1:
+	'Khát khao kiến thức...'
+	\L_04422:
+	ZH 1:
+	'Tôi sống để có trí tò mò và'
+	R
+	'ước mơ...'
+	\L_04422:
+	ZH 1:
+	'Nhưng sau khi tôi đã biết'
+	R
+	'mọi chuyện, chẳng có gì mới'
+	R
+	'thúc đẩy tôi cả…'
+	\L_04422:
+	ZH 1:
+	'khoảnh khắc tôi biết tất cả'
+	R
+	'mọi thứ, tôi không quan tâm'
+	R
+	'đến điều gì...'
+	\L_04422:
+	ZH 1:
+	'Kể cả lũ quỷ hay Chúa quỷ...'
+	\L_04422:
+	ZH 1:
+	'Mọi thứ về thế giới và cách'
+	R
+	'mọi thứ tương tác...'
+	\L_04422:
+	ZH 1:
+	'Tôi đã biết... mọi thứ...'
+	\L_04422:
+	ZH 1:
+	'Từ góc này đến góc kia của'
+	R
+	'thế giới này...'
+	\L_04422:
+	ZH 1:
+	'Trong khoảnh khắc đó, tôi'
+	R
+	'mất hết ý chí.'
+	\L_04422:
+	\L_04415:
+	{VAR0101 = 1:
+		\L_043cf:
+		!VAR0516 : 80!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'Tôi đã biến thành một thanh'
+		R
+		'kiếm, như ngài có thể thấy'
+		R
+		'rõ.'
+		\L_04422:
+		ZH 1:
+		'Bây giờ chắc chắn có sức'
+		R
+		'mạnh giết quỷ.'
+		\L_04422:
+		ZH 1:
+		'Nhưng tôi không thể tự mình'
+		R
+		'làm được việc gì. Nikkou'
+		R
+		'cũng vậy.'
+		\L_04422:
+		\L_04415:
+	}
+	{VAR0101 = 2:
+		\L_043cf:
+		!VAR0516 : 34!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'Như cậu có thể thấy, tôi đã'
+		R
+		'trở thành một thanh kiếm...'
+		\L_04422:
+		ZH 1:
+		'Điều tương tự dường như cũng'
+		R
+		'xảy ra với Chaos.'
+		\L_04422:
+		ZH 1:
+		'Chúng tôi trở thành thanh'
+		R
+		'kiếm giết quỷ huyền thoại...'
+		\L_04422:
+		ZH 1:
+		'Nhưng chúng tôi không thể'
+		R
+		'tự mình di chuyển được...'
+		\L_04422:
+		\L_04415:
+	}
+	{VAR0154 = 1:
+		\L_043cf:
+		!VAR0516 : 1!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'Ta hiểu rồi. Các ngươi thật'
+		R
+		'ngu ngốc.'
+		\L_04422:
+		ZH 1:
+		'Nhân tiện, không phải có năm'
+		R
+		'người trong số các ngươi'
+		R
+		'sao?'
+		\L_04422:
+		ZH 1:
+		'Chắc chắn có một chiến'
+		R
+		'binh...'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'À, người Anh.'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'Vâng, hắn ước gì?'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'... Anh ta'
+		R
+		'không gặp được thần...'
+		\L_04422:
+		ZH 1:
+		'Hắn đã hy sinh bản thân'
+		R
+		'để cứu chúng ta trước Cửa'
+		R
+		'Chúa và bị thương nặng...'
+		\L_04422:
+		ZH 1:
+		'sau đó, hắn'
+		R
+		'ra lệnh cho chúng tôi đi'
+		R
+		'một mình để gặp chúa...'
+		\L_04422:
+		ZH 1:
+		'Mặc dù hắn có'
+		R
+		'thể chết nếu bị bỏ'
+		R
+		'lại ở đó như thế...'
+		\L_04422:
+		ZH 1:
+		'Chàng đã quyết'
+		R
+		'định như vậy và ở lại để'
+		R
+		'không cản trở chúng tôi...'
+		\L_04422:
+		ZH 1:
+		'Khi tôi nghĩ về'
+		R
+		'nó... Nó làm tổn thương trái'
+		R
+		'tim tôi ngay cả bây giờ...'
+		\L_04422:
+		ZH 1:
+		'Tôi tự hỏi'
+		R
+		'liệu tôi có nên sử dụng'
+		R
+		'phép thuật ở đó không...'
+		\L_04422:
+		ZH 1:
+		'À à...'
+		\L_04422:
+		ZH 1:
+		'Hắn cũng nói rằng hắn nghĩ'
+		R
+		'rằng nếu có chuyện gì xảy'
+		R
+		'ra với những bức tượng vàng,'
+		\L_04422:
+		ZH 1:
+		'chúng tôi sẽ gặp nguy hiểm…'
+		\L_04422:
+		ZH 1:
+		'Tôi nghĩ hắn cũng ở'
+		R
+		'lại để chăm sóc họ.'
+		\L_04422:
+		\L_04415:
+	}
+	{VAR0154 = 31:
+		\L_043cf:
+		!VAR0516 : 55!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'Nikkou...'
+		\L_04422:
+		ZH 1:
+		'Tôi hiểu rồi… Đây là lần đầu'
+		R
+		'tiên tôi nghe về điều đó.'
+		\L_04422:
+		ZH 1:
+		'Nhân tiện, người thứ 5,'
+		R
+		'chiến binh người Anh đã làm'
+		R
+		'gì?'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'... Anh ta'
+		R
+		'không gặp được thần...'
+		\L_04422:
+		ZH 1:
+		'Hắn đã hy sinh bản thân'
+		R
+		'để cứu chúng ta trước Cửa'
+		R
+		'Chúa và bị thương nặng...'
+		\L_04422:
+		ZH 1:
+		'sau đó, hắn'
+		R
+		'ra lệnh cho chúng tôi đi'
+		R
+		'một mình để gặp chúa...'
+		\L_04422:
+		ZH 1:
+		'Mặc dù hắn có'
+		R
+		'thể chết nếu bị bỏ'
+		R
+		'lại ở đó như thế...'
+		\L_04422:
+		ZH 1:
+		'Chàng đã quyết'
+		R
+		'định như vậy và ở lại để'
+		R
+		'không cản trở chúng tôi...'
+		\L_04422:
+		ZH 1:
+		'Khi tôi nghĩ về'
+		R
+		'nó... Nó làm tổn thương trái'
+		R
+		'tim tôi ngay cả bây giờ...'
+		\L_04422:
+		ZH 1:
+		'Tôi tự hỏi'
+		R
+		'liệu tôi có nên sử dụng'
+		R
+		'phép thuật ở đó không...'
+		\L_04422:
+		ZH 1:
+		'À à...'
+		\L_04422:
+		ZH 1:
+		'Hắn cũng nói rằng hắn nghĩ'
+		R
+		'rằng nếu có chuyện gì xảy'
+		R
+		'ra với những bức tượng vàng,'
+		\L_04422:
+		ZH 1:
+		'chúng tôi sẽ gặp nguy hiểm…'
+		\L_04422:
+		ZH 1:
+		'Tôi nghĩ hắn cũng ở'
+		R
+		'lại để chăm sóc họ.'
+		\L_04422:
+		\L_04415:
+	}
+	\0:
+*L_03073:
+	\L_042fd:
+	ZH 1:
+	'Bây giờ, tôi đã'
+	R
+	'truyền đạt kiến ​​thức'
+	R
+	'của mình cho ngươi.'
+	\L_04422:
+	ZH 1:
+	'Tiếp theo đến lượt'
+	R
+	'ngươi giữ lời hứa.'
+	\L_04422:
+	ZH 1:
+	'(Yodel) Woof.'
+	\L_04422:
+	ZH 1:
+	'Thời gian để dành'
+	R
+	'một đêm với tôi...'
+	\L_04422:
+	\L_04415:
+	\L_04335:
+	ZH 1:
+	'Ho Raga cười nhẹ.'
+	\L_04422:
+	ZH 1:
+	R
+	'.........'
+	\L_04422:
+	ZH 1:
+	R
+	'......'
+	\L_04422:
+	ZH 1:
+	R
+	'...'
+	\L_04422:
+	ZH 1:
+	X 1:
+	'đã dành một'
+	R
+	'đêm với Ho raga.'
+	\L_04422:
+	\L_04415:
+	SS VAR0515:
+	{VAR0154 = 1:
+		PF1 VAR0056:
+		!VAR0516 : 0!
+		%#M.ADV:
+		!VAR0516 : 1046!
+		\L_043f9:
+		!VAR0516 : 1!
+		\L_04351:
+		!VAR0516 : 5!
+		\L_043c1:
+		PF0 VAR0056:
+		\L_04335:
+		ZM 32:
+		ZH 1:
+		'Lâu đài Leazas'
+		R
+		ZM 24:
+		ZH 1:
+		R
+		'Phòng yết'
+		R
+		'kiến ............'
+		R
+		'có gì sai, Em Yêu?'
+		\L_04422:
+		ZH 1:
+		'ngươi đã làm cho Nó trở'
+		R
+		'lại ổn Từ Tháp Của Ho raga,'
+		\L_04422:
+		ZH 1:
+		'nhưng ngươi trông'
+		R
+		'không quá nóng...'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'... Ờ...'
+		\L_04422:
+		ZH 1:
+		'Ugyaaaaaaaaaah!! Đừng'
+		R
+		'nói tên hắn... Đừng nói!!'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'Hả...? Tại sao thiếp'
+		R
+		'không nên nói Ho Raga?'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Ugyaaaaaaaaah'
+		R
+		'ugyaaaaaaah!!'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'Chàng yêu, bình'
+		R
+		'tĩnh đi... Chàng yêu.'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Ugyaaaaaaah'
+		R
+		'ugyaaaaaaaah!!!!'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'Yaaahn, chàng'
+		R
+		'yêu của brokeeen!'
+		\L_04422:
+		\L_04415:
+		\L_043cf:
+		!VAR0516 : 6!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'Có vẻ như Vua Rance đã trải'
+		R
+		'qua điều gì đó khá kinh'
+		R
+		'hoàng tại Tháp Ho Raga...'
+		\L_04422:
+		\L_04415:
+		\L_043cf:
+		!VAR0516 : 5!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'Maris... Chàng có nghe thấy'
+		R
+		'chuyện gì đã xảy ra không?'
+		\L_04422:
+		\L_04415:
+		\L_043cf:
+		!VAR0516 : 6!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'Không...'
+		\L_04422:
+		ZH 1:
+		'Tôi chỉ cho là vì chỉ nói Ho'
+		R
+		'Raga thôi cũng khiến hắn trở'
+		R
+		'nên như vậy...'
+		\L_04422:
+		\L_04415:
+		\L_043cf:
+		!VAR0516 : 5!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'Tháp Ho Raga có phải là...'
+		R
+		'ngôi nhà ma ám không??'
+		\L_04422:
+		\L_04415:
+		\L_043cf:
+		!VAR0516 : 6!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'... Ờ...'
+		\L_04422:
+		\L_04415:
+		\L_04335:
+		ZH 1:
+		'Những gì đã xảy'
+		R
+		'ra là một bí ẩn,'
+		\L_04422:
+		ZH 1:
+		'nhưng cơn thịnh nộ'
+		R
+		'của Rance vẫn tiếp tục'
+		R
+		'trong một thời gian.'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Ugyaaaaaaaaaaaaaaaaah!!!!!'
+		\L_04422:
+		\L_04415:
+	}
+	{VAR0154 = 3:
+		PF1 VAR0056:
+		!VAR0516 : 0!
+		%#M.ADV:
+		!VAR0516 : 1046!
+		\L_043f9:
+		!VAR0516 : 1!
+		\L_04351:
+		PF0 VAR0056:
+		\L_04335:
+		ZM 32:
+		ZH 1:
+		'Lâu đài Leazas'
+		R
+		ZM 24:
+		ZH 1:
+		R
+		'Phòng yết kiến'
+		\L_04422:
+		\L_04415:
+		!VAR0516 : 3!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'Ông chủ...'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Này, cái gì vậy? Trông'
+		R
+		'ngươi thật sự mệt mỏi...'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'Tôi-tôi...'
+		\L_04422:
+		ZH 1:
+		'Tôi... Ưu... Ưu...'
+		\L_04422:
+		\L_04415:
+		\L_04335:
+		ZH 1:
+		'Bound bắt đầu oang'
+		R
+		'oang như một đứa trẻ.'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Chuyện gì,'
+		R
+		'chuyện gì đã xảy ra?'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'Uu... I... I...'
+		R
+		'Tôi đã bị ô uế...'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Hả?'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'Tôi... tôi...'
+		\L_04422:
+		ZH 1:
+		'Ờ...'
+		\L_04422:
+		ZH 1:
+		'Bây giờ xin'
+		R
+		'đừng ghét tôi nữa,'
+		R
+		'Boss... Uu... Uuu...'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Vâng, những'
+		R
+		'gì thậm chí...?'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'Waaaaaaaaaaaaah!!'
+		\L_04422:
+		\L_04415:
+		\L_043cf:
+		\L_043a5:
+		ZH 1:
+		'Bound kêu lên và rời khỏi'
+		R
+		'Rance.'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Chuyện gì đã xảy ra...?'
+		\L_04422:
+		\L_04415:
+	}
+	{VAR0154 = 7:
+		PF1 VAR0056:
+		!VAR0516 : 0!
+		%#M.ADV:
+		!VAR0516 : 1046!
+		\L_043f9:
+		!VAR0516 : 1!
+		\L_04351:
+		!VAR0516 : 403!
+		\L_043c1:
+		PF0 VAR0056:
+		\L_04335:
+		ZM 32:
+		ZH 1:
+		'Lâu đài Leazas'
+		R
+		ZM 24:
+		ZH 1:
+		R
+		'Phòng yết kiến'
+		R
+		'Này, Rick. Làm tốt lắm.'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'... Không có gì đâu...'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Ta chắc chắn là'
+		R
+		'trời lạnh. Tắm thật'
+		R
+		'lâu và thư giãn.'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'Tắm à...? Tôi'
+		R
+		'nghĩ điều đó sẽ khiến vết'
+		R
+		'thương của tôi nhức nhối...'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Vết Thương?'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'À, ừ... Quên'
+		R
+		'chuyện đó đi, không'
+		R
+		'có gì đâu. Xin lỗi.'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'... Rick...'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'... Ừ...?'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Ngươi luôn bước đi lúng'
+		R
+		'túng như thế phải không?'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'À...!!'
+		\L_04422:
+		ZH 1:
+		'À...'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Ừm?'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'............'
+		\L_04422:
+		\L_04415:
+		\L_043cf:
+		\L_043a5:
+		ZH 1:
+		'Rick rời Rance mà không nói'
+		R
+		'một lời.'
+		\L_04422:
+		\L_04415:
+		\L_04319:
+		ZH 1:
+		'Ta nghĩ nước mắt đã chảy'
+		R
+		'ra từ mũ bảo hiểm của hắn...'
+		\L_04422:
+		ZH 1:
+		'Chuyện quái gì'
+		R
+		'đã xảy ra vậy...??'
+		\L_04422:
+		\L_04415:
+	}
+	{VAR0154 = 14:
+		PF1 VAR0056:
+		!VAR0516 : 0!
+		%#M.ADV:
+		!VAR0516 : 1046!
+		\L_043f9:
+		!VAR0516 : 1!
+		\L_04351:
+		!VAR0516 : 405!
+		\L_043c1:
+		PF0 VAR0056:
+		\L_04335:
+		ZM 32:
+		ZH 1:
+		'Lâu đài Leazas'
+		R
+		ZM 24:
+		ZH 1:
+		R
+		'Phòng yết kiến Ex'
+		R
+		'đang quỳ trước ngai vàng sau'
+		R
+		'khi trở về từ Tháp Ho Raga.'
+		\L_04422:
+		ZH 1:
+		'ngươi đã'
+		R
+		'làm cho nó trở lại được chứ?'
+		R
+		'Đó là điều quan trọng nhất.'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'... Không...'
+		R
+		'Tôi không biết liệu cậu có'
+		R
+		'thể nói rằng tôi ổn không...'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Ừm?'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'Vua Rance...'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Vâng, cái gì? thế giới'
+		R
+		'là một nơi rộng lớn...'
+		\L_04422:
+		ZH 1:
+		'Ta đã suy nghĩ rất nhiều về'
+		R
+		'việc nếu ở thế giới bên kia'
+		R
+		'có một ông già như vậy...'
+		\L_04422:
+		ZH 1:
+		'Ta... ta...'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Ông già... Hồ Raga?'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'... Phải...'
+		\L_04422:
+		ZH 1:
+		'Xin lỗi... tôi'
+		R
+		'cảm thấy hơi mệt...'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'... Ừ... Có chuyện gì'
+		R
+		'đã xảy ra ở Tháp Ho Raga à?'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'.........'
+		\L_04422:
+		ZH 1:
+		'... Chỉ là chuyện'
+		R
+		'tầm thường thôi... Ừ...'
+		\L_04422:
+		ZH 1:
+		'Nếu có thể thì xin'
+		R
+		'đừng hỏi về chuyện đó...'
+		\L_04422:
+		ZH 1:
+		'Xin lỗi...'
+		\L_04422:
+		\L_04415:
+		\L_043cf:
+		\L_043a5:
+		ZH 1:
+		'Ex lảo đảo rời khỏi ngai'
+		R
+		'vàng như một kẻ mộng du.'
+		\L_04422:
+		\L_04415:
+		\L_04319:
+		ZH 1:
+		'... Cái quái gì thế...?'
+		R
+		'Chuyện gì đã xảy ra thế!?'
+		\L_04422:
+		\L_04415:
+	}
+	{VAR0154 = 21:
+		PF1 VAR0056:
+		!VAR0516 : 0!
+		%#M.ADV:
+		!VAR0516 : 1046!
+		\L_043f9:
+		!VAR0516 : 1!
+		\L_04351:
+		PF0 VAR0056:
+		\L_04335:
+		ZM 32:
+		ZH 1:
+		'Lâu đài Leazas'
+		R
+		ZM 24:
+		ZH 1:
+		R
+		'Phòng yết kiến'
+		R
+		'Hubert chết tiệt...'
+		\L_04422:
+		ZH 1:
+		'Tôi biết chàng đã trở'
+		R
+		'về từ Tháp Ho Raga, tại sao'
+		R
+		'chàng không báo cáo với tôi?'
+		\L_04422:
+		ZH 1:
+		'Agh... Được rồi, tôi'
+		R
+		'sẽ trực tiếp đến gặp'
+		R
+		'hắn và cảnh báo hắn!'
+		\L_04422:
+		\L_04415:
+		\L_04335:
+		ZH 1:
+		'Rance đi đến'
+		R
+		'Phòng Của Hubert.'
+		\L_04422:
+		\L_04415:
+		!VAR0516 : 0!
+		%#M.ADV:
+		!VAR0516 : 1001!
+		\L_043f9:
+		!VAR0516 : 1!
+		\L_04351:
+		\L_04335:
+		ZM 32:
+		ZH 1:
+		'Lâu đài Leazas'
+		R
+		ZM 24:
+		ZH 1:
+		R
+		'Trước phòng Hubert Cái gì?'
+		\L_04422:
+		\L_04415:
+		\L_04335:
+		ZH 1:
+		'Một tờ giấy nhắn được'
+		R
+		'dán trên cửa phòng Hubert.'
+		\L_04422:
+		ZH 1:
+		'Please Xin hãy để'
+		R
+		'tôi yên］ đây là gì...?'
+		R
+		'Này, ra đây! Hubert!!'
+		\L_04422:
+		\L_04415:
+		!VAR0516 : 37!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'Ừm... Không có ích gì...'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Aah... Suzume... Tại sao?'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'Ông Hubert thậm'
+		R
+		'chí còn không cho chúng'
+		R
+		'tôi dọn dẹp... Vì vậy...'
+		\L_04422:
+		ZH 1:
+		'Vô ích thôi...'
+		\L_04422:
+		\L_04415:
+		\L_043cf:
+		\L_043a5:
+		ZH 1:
+		'Suzume cúi đầu và rời Rance'
+		R
+		'sau khi nàng nói xong.'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Chết tiệt... Chuyện'
+		R
+		'gì đã xảy ra vậy...?'
+		\L_04422:
+		\L_04415:
+	}
+	{VAR0154 = 31:
+		PF1 VAR0056:
+		!VAR0516 : 0!
+		%#M.ADV:
+		!VAR0516 : 1001!
+		\L_043f9:
+		!VAR0516 : 1!
+		\L_04351:
+		PF0 VAR0056:
+		\L_04335:
+		ZM 32:
+		ZH 1:
+		'Lâu đài Leazas'
+		R
+		ZM 24:
+		ZH 1:
+		R
+		'Hành lang'
+		R
+		'Này, Kentarou. Làm'
+		R
+		'cho nó sống lại?'
+		\L_04422:
+		\L_04415:
+		!VAR0516 : 55!
+		\L_043c1:
+		\L_0436d:
+		ZH 1:
+		'À...'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Cái gì? Trông anh'
+		R
+		'như sắp chết vậy...'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'... Aah... Có lẽ tôi'
+		R
+		'chết đi thì tốt hơn...'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Hả?'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'... Nhưng... tôi không'
+		R
+		'thể chết... Kể cả sau đó...'
+		R
+		'tôi cần phải sống vì Miki...'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Sau cái gì?'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'Vua Rance!!'
+		\L_04422:
+		\L_04415:
+		\L_04335:
+		ZH 1:
+		'Kentarou nắm chặt vai'
+		R
+		'Rance bằng cả hai tay.'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'Chết tiệt!!'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'Làm ơn! sau'
+		R
+		'đó, hắn đưa khuôn mặt'
+		R
+		'của mình lại gần...'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'Làm ơn đừng'
+		R
+		'kể cho ai nghe điều tôi vừa'
+		R
+		'nói... Đặc biệt là Miki...'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'... Ờ... Ừ...'
+		\L_04422:
+		\L_04415:
+		\L_0436d:
+		ZH 1:
+		'À à...'
+		\L_04422:
+		ZH 1:
+		'Điều đó... Đó là...'
+		\L_04422:
+		\L_04415:
+		\L_043cf:
+		\L_043a5:
+		ZH 1:
+		'Kentarou lẩm bẩm một mình'
+		R
+		'trong khi bước đi.'
+		\L_04422:
+		\L_04415:
+		\L_042fd:
+		ZH 1:
+		'... Đó là một cú sốc...'
+		\L_04422:
+		\L_04415:
+	}
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_03ed2:
+	!VAR0147 : 2!
+	!VAR0516 : VAR0097!
+	\L_043c1:
+	\L_04335:
+	ZH 1:
+	X 1:
+	'vào tháp Hồ'
+	R
+	'Raga. bên trong tháp là một'
+	R
+	'cầu thang xoắn ốc khổng lồ.'
+	\L_04422:
+	ZH 1:
+	'Ngươi không'
+	R
+	'thể nhìn thấy đỉnh nhìn'
+	R
+	'lên, chỉ có bóng tối.'
+	\L_04422:
+	ZH 1:
+	X 1:
+	'bắt đầu leo'
+	R
+	'lên cầu thang dài.'
+	\L_04422:
+	PF1 VAR0056:
+	PF0 VAR0056:
+	ZM 32:
+	ZH 1:
+	'Tháp Hồ Raga'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Phòng Tầng Trên Cùng'
+	R
+	'Vì lý do nào đó, khung cảnh'
+	R
+	'ở đó giống như một sườn núi.'
+	\L_04422:
+	ZH 1:
+	'bầu trời xanh.'
+	\L_04422:
+	ZH 1:
+	'đồng bằng tràn ngập mùi cây'
+	R
+	'xanh trên những ngọn đồi kéo'
+	R
+	'dài một khoảng cách rất xa.'
+	\L_04422:
+	ZH 1:
+	'Giữa khung'
+	R
+	'cảnh đó là một căn lều'
+	R
+	'nhỏ đơn độc với mái đỏ.'
+	\L_04422:
+	ZH 1:
+	'Trong khi nhóm nhìn'
+	R
+	'chằm chằm vào cảnh kỳ lạ,'
+	\L_04422:
+	ZH 1:
+	'nhà hiền triết Ho raga'
+	R
+	'và chú chó lớn yodel của'
+	R
+	'ông xuất hiện từ túp lều.'
+	\L_04422:
+	\L_04415:
+	!VAR0516 : 476!
+	\L_04351:
+	\L_042fd:
+	ZH 1:
+	'Chào mừng đến với'
+	R
+	'khu vực hẻo lánh này.'
+	\L_04422:
+	ZH 1:
+	'Một ông già như tôi'
+	R
+	'có thể sử dụng cho cậu?'
+	\L_04422:
+	\L_04415:
+	@L_0050f:
+*L_04049:
+	!VAR0147 : 1!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1!
+	\L_04351:
+	!VAR0516 : 6!
+	\L_043c1:
+	\L_042fd:
+	ZH 1:
+	'đây là Gì “Tháp Hồ Raga”?'
+	R
+	'nó đang làm gì cho đến'
+	R
+	'nay trong khu vực lạnh này?'
+	\L_04422:
+	ZH 1:
+	'Ta đoán đây là'
+	R
+	'một nơi quyến rũ với nữ'
+	R
+	'hoàng tuyết hay gì đó.'
+	\L_04422:
+	ZH 1:
+	'Trong trường hợp đó, có'
+	R
+	'lẽ ta nên đi ngay bây giờ...'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Không phải vậy. Tháp'
+	R
+	'Ho Raga thuộc về người'
+	R
+	'hiểu biết nhất thế giới.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Có phải là một'
+	R
+	'phụ nữ nóng bỏng?'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Không, rõ'
+	R
+	'ràng đó là một nhà hiền'
+	R
+	'triết già tên là Ho Raga.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Một ông già?'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'... Một ông già, vâng.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Hừm, khập khiễng.'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Vậy thì đừng đi. Tôi'
+	R
+	'nghĩ rằng đó sẽ là tốt nhất.'
+	\L_04422:
+	ZH 1:
+	'nhà hiền triết chỉ được'
+	R
+	'đồn đại là có mặt ở đó...'
+	\L_04422:
+	ZH 1:
+	'Và tiến qua tuyết'
+	R
+	'đó là quá rủi ro.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'... Không, ta'
+	R
+	'nghĩ ta sẽ đi.'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'Tại Sao,'
+	R
+	'Vua Rance? ông già ở đó chỉ'
+	R
+	'là một tin đồn, phải không?'
+	\L_04422:
+	ZH 1:
+	'điều đó có nghĩa là nó'
+	R
+	'thực sự có thể là người'
+	\L_04422:
+	ZH 1:
+	'phụ nữ nóng bỏng'
+	R
+	'cuối cùng trong đó.'
+	\L_04422:
+	\L_04415:
+	\L_0436d:
+	ZH 1:
+	'... Tôi không nghĩ vậy.'
+	\L_04422:
+	\L_04415:
+	\L_042fd:
+	ZH 1:
+	'Chà... Nếu'
+	R
+	'có một ta sẽ được hạnh'
+	R
+	'phúc, vì vậy ta sẽ đi.'
+	\L_04422:
+	ZH 1:
+	'Tất cả những người'
+	R
+	'phụ nữ tốt trên thế'
+	R
+	'giới đều thuộc về ta.'
+	\L_04422:
+	ZH 1:
+	'Gahahahaha!.'
+	\L_04422:
+	\L_04415:
+	\L_04389:
+	ZH 1:
+	'...'
+	\L_04422:
+	ZH 1:
+	'Có lẽ tôi nên xem'
+	R
+	'xét lại xu hướng không'
+	\L_04422:
+	ZH 1:
+	'nghe lời người khác'
+	R
+	'của hắn sau chuyện này...'
+	\L_04422:
+	\L_04415:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_042fd:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_04319:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_04335:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_04351:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0436d:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+*L_04389:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+*L_043a5:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_043c1:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_043cf:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_043f9:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_04415:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_04422:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 3!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 4!
+	%#WAO_SUB.ADV:
+	\0:

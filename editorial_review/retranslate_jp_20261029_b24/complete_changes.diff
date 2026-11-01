@@ -1,0 +1,1064 @@
+--- before/Gｱﾘｽ2.ADV
++++ src/Gｱﾘｽ2.ADV
+@@ -921,98 +921,90 @@
+ *L_010b8:
+ 	\L_05a47:
+ 	ZH 1:
+-	'Rance bước vào'
+-	R
+-	'một gian hàng đầy hình'
+-	R
+-	'ảnh và thú nhồi bông.'
+-	\L_05b34:
+-	ZH 1:
+-	'Một vật trang trí kỳ'
+-	R
+-	'lạ đang được đặt trên ghế.'
++	'Rance sải bước tới góc làm'
++	R
++	'việc đầy tranh và thú bông.'
++	\L_05b34:
++	ZH 1:
++	'Một món đồ trang trí kỳ'
++	R
++	'lạ đang ngồi trên ghế.'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	!VAR0516 : 357!
+ 	\L_05ad3:
+ 	\L_05a0f:
+ 	ZH 1:
+-	'đây là gì? Haniwa đầu'
+-	R
+-	'tiên, bây giờ là daruma?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Thật thô lỗ! Cậu'
+-	R
+-	'đang gọi ai là daruma!?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Whoa, nó nói chuyện!?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Trang trí (?)'
+-	R
+-	'xuống ghế và cúi đầu.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Rất vui được'
+-	R
+-	'gặp, tôi là Naritaya! Tôi là'
+-	R
+-	'một nghệ sĩ đồ họa máy tính.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Naritaya xoa hai tay'
+-	R
+-	'vào nhau như người bán hàng.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'... Ngươi đang hành'
+-	R
+-	'động quá quen thuộc.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Chà, vấn đề là gì?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Naritaya cười lớn.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Nhưng ngài có'
+-	R
+-	'biết lần này phát triển khó'
+-	R
+-	'khăn thế nào không, King?!'
+-	\L_05b34:
+-	ZH 1:
+-	'Trước đây tôi chưa'
+-	R
+-	'bao giờ tạo 256 CG màu,'
+-	\L_05b34:
+-	ZH 1:
+-	'và thật khó'
+-	R
+-	'để điều chỉnh để chuyển'
+-	R
+-	'sang dự án này ở giữa.'
++	'Cái gì đây? Hết Haniwa, giờ'
++	R
++	'lại tới búp bê Daruma à?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Thất lễ quá! Tôi'
++	R
++	'đâu phải Daruma!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Ối, nó biết nói!?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Món đồ trang trí (?)'
++	R
++	'xuống ghế, cúi đầu chào.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Xin chào, tôi là Naritaya,'
++	R
++	'họa sĩ đồ họa máy tính.'
++	R
++	'Mong được chiếu cố!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Naritaya xoa tay như'
++	R
++	'tay buôn vải ở Senba.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'...Ngươi tự nhiên quá nhỉ.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Thôi mà, có sao đâu nào.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Naritaya cười ha hả.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Bệ hạ biết không, lần này'
++	R
++	'làm game vất vả lắm đấy!'
++	\L_05b34:
++	ZH 1:
++	'Tôi chưa từng tô CG 256 màu,'
++	\L_05b34:
++	ZH 1:
++	'lại chuyển từ dự án'
++	R
++	'khác sang giữa chừng,'
++	R
++	'khó mà bắt nhịp...'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a0f:
+@@ -1022,18 +1014,18 @@
+ 	\L_05b27:
+ 	\L_05a7f:
+ 	ZH 1:
+-	'Và một điều nữa,'
+-	R
+-	'tại sao trò chơi này lại'
+-	R
+-	'không có quái vật nữ nào?!'
+-	\L_05b34:
+-	ZH 1:
+-	'Có điều gì để tôi, “Bậc'
+-	R
+-	'thầy động vật của Alice (tự'
+-	R
+-	'xưng)” thưởng thức không!?'
++	'Khổ nhất là Rance'
++	R
++	'Bạo Chúa lần này'
++	R
++	'chẳng có nữ quái vật!'
++	\L_05b34:
++	ZH 1:
++	'Vậy «bậc thầy thú của'
++	R
++	'Alice» tự phong như'
++	R
++	'tôi còn vui gì nữa!'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a0f:
+@@ -1043,118 +1035,112 @@
+ 	\L_05b27:
+ 	\L_05a7f:
+ 	ZH 1:
+-	'Chà, Tôi'
+-	R
+-	'đã học được rất nhiều từ'
+-	R
+-	'việc tạo RA CGS 256 màu.'
+-	\L_05b34:
+-	ZH 1:
+-	'Ngoài ra,'
+-	\L_05b34:
+-	ZH 1:
+-	'tôi còn có thể phụ trách'
+-	R
+-	'con quái vật gal (?) đột'
+-	R
+-	'nhiên xuất hiện ở phần cuối,'
+-	\L_05b34:
+-	ZH 1:
+-	'vì Vậy, tôi'
+-	R
+-	'rất vui Vì Tôi...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'（doink!!）'
+-	\L_05b34:
+-	ZH 1:
+-	'Rance đá Naritaya.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Ôi~. Cậu đang làm gì vậy?!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Im đi, daruma! Đủ bập bẹ'
+-	R
+-	'của ngươi! Tao sẽ giết mày!!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Rance rút kiếm ra.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Hyeeeh! Tôi xin lỗi!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Naritaya hoảng sợ quỳ lạy.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Tôi sẽ mời'
+-	R
+-	'cậu đến “Sở thú” tại nhà'
+-	R
+-	'tôi như một lời xin lỗi,'
+-	\L_05b34:
+-	ZH 1:
+-	'vì vậy hãy'
+-	R
+-	'tha thứ cho tôi～～!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'“Sở thú”?'
+-	R
+-	'Tuy nhiên, không có gì'
+-	R
+-	'đặc biệt về một sở thú.'
+-	\L_05b34:
+-	ZH 1:
+-	'điều này đặc'
+-	R
+-	'biệt, mặc dù. Nó không có'
+-	R
+-	'động vật, nó có “động vật”.'
+-	\L_05b34:
+-	ZH 1:
+-	'Vườn thú của tôi'
+-	R
+-	'có con lai giữa con gái và'
+-	R
+-	'động vật. như quái vật gal?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Vâng, Cậu có thể'
+-	R
+-	'nghĩ về họ theo cách đó.'
+-	\L_05b34:
+-	ZH 1:
+-	'Là một công việc phụ,'
+-	\L_05b34:
+-	ZH 1:
+-	'tôi thu thập'
+-	R
+-	'những cô gái đó và để chúng'
+-	R
+-	'sống trong sở thú của tôi.'
+-	\L_05b34:
+-	ZH 1:
+-	'Cậu đến, Vua?'
++	'Dù sao, tô CG 256 màu cũng'
++	R
++	'giúp tôi học được nhiều lắm.'
++	\L_05b34:
++	ZH 1:
++	'Với lại,'
++	\L_05b34:
++	ZH 1:
++	'tôi còn phụ trách nữ'
++	R
++	'quái vật (?) đột ngột'
++	R
++	'xuất hiện cuối game,'
++	\L_05b34:
++	ZH 1:
++	'nên rốt cuộc cũng'
++	R
++	'mừng vì đã tham gia...'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'(Bốp!!)'
++	\L_05b34:
++	ZH 1:
++	'Rance đá văng Naritaya.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Đau quá~! Ngài làm gì vậy?!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Câm đi, đồ Daruma!'
++	R
++	'Tự tiện lải nhải mãi!'
++	R
++	'Tao giết mày giờ!!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Rance đặt tay lên'
++	R
++	'thanh kiếm bên hông.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Ááá! Tôi xin lỗi!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Naritaya vội vàng'
++	R
++	'quỳ rạp xuống.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Để tạ lỗi, xin mời ngài'
++	R
++	'tới «vườn thú» nhà tôi,'
++	\L_05b34:
++	ZH 1:
++	'xin ngài tha cho tôi~~!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'«Vườn thú»? Vườn thú'
++	R
++	'thì có gì lạ đâu.'
++	\L_05b34:
++	ZH 1:
++	'Khác chứ! Chẳng'
++	R
++	'phải thú thường, mà'
++	R
++	'là «thú» đặc biệt.'
++	\L_05b34:
++	ZH 1:
++	'Nửa người nửa thú,'
++	R
++	'dân sành mới thích.'
++	R
++	'Như nữ quái vật à?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Vâng, ngài cứ hiểu như thế.'
++	\L_05b34:
++	ZH 1:
++	'Tôi làm thêm nghề sưu tầm,'
++	\L_05b34:
++	ZH 1:
++	'cho các cô ấy sống trong'
++	R
++	'«vườn thú» nhà tôi.'
++	\L_05b34:
++	ZH 1:
++	'Bệ hạ có muốn tới không?'
+ 	\L_05b34:
+ 	\L_05b27:
+ *L_014ba:
+@@ -1164,93 +1150,83 @@
+ 	}
+ 	ZH 1:
+ 	$L_015d3$
+-	'Đi thôi'
++	'Đi'
+ 	$
+ 	R
+ 	$L_014f8$
+-	'Không, cảm ơn'
++	'Không đi'
+ 	$
+ 	]
+ 	@L_014ba:
+ *L_014f8:
+ 	\L_05a0f:
+ 	ZH 1:
+-	'Không, cảm ơn.'
+-	\L_05b34:
+-	ZH 1:
+-	'Tôi đã nhìn thấy rất nhiều'
+-	R
+-	'loại quái vật nữ tính đến'
+-	R
+-	'nỗi tôi phát ngán với chúng.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Huh, tôi hiểu rồi.'
+-	\L_05b34:
+-	ZH 1:
+-	'... Như tôi'
+-	R
+-	'đã nghe nói, không lịch'
+-	R
+-	'sự chút nào với đàn ông.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'... Đó là gì vậy?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Không có gì!'
+-	R
+-	'Không có gì cả!'
+-	\L_05b34:
+-	ZH 1:
+-	'Tôi sẽ đợi'
+-	R
+-	'chuyến thăm tiếp'
+-	R
+-	'theo của bạniiiiiiiii....'
++	'Khỏi.'
++	\L_05b34:
++	ZH 1:
++	'Ta nhìn nữ quái vật'
++	R
++	'nhiều đến phát chán rồi.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'À, vậy sao.'
++	\L_05b34:
++	ZH 1:
++	'...Đúng như lời đồn, chẳng'
++	R
++	'niềm nở gì với đàn ông.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'...Ngươi nói gì?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Không không! Chẳng có gì cả!'
++	\L_05b34:
++	ZH 1:
++	'Mong ngài lần'
++	R
++	'sau lại ghéééé...'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05ae1:
+ 	\L_05a47:
+ 	ZH 1:
+-	'Naritaya dịch chuyển'
+-	R
+-	'về phía đỏ trong khi'
+-	\L_05b34:
+-	ZH 1:
+-	'bỏ chạy với tốc độ gấp'
+-	R
+-	'3 lần tốc độ ánh sáng.'
+-	\L_05b34:
+-	ZH 1:
+-	'(không thực sự)'
++	'Naritaya vừa chạy'
++	R
++	'vừa dịch về phía đỏ,'
++	\L_05b34:
++	ZH 1:
++	'nhanh gấp ba lần ánh sáng.'
++	\L_05b34:
++	ZH 1:
++	'(Xạo đấy.)'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	%0:
+ *L_015d3:
+ 	\L_05a0f:
+ 	ZH 1:
+-	'Được rồi. Dẫn ta'
+-	R
+-	'tới đó. điều Chắc chắn!'
+-	\L_05b34:
+-	ZH 1:
+-	'Tôi chắc rằng các cô'
+-	R
+-	'gái của tôi sẽ hài lòng.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Naritaya dẫn'
+-	R
+-	'Rance đến “Sở thú”.'
++	'Được. Mau dẫn'
++	R
++	'đường. Đa tạ ngài!'
++	\L_05b34:
++	ZH 1:
++	'Các cô nhà tôi'
++	R
++	'chắc cũng mừng lắm.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Naritaya dẫn Rance'
++	R
++	'tới «vườn thú».'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	!VAR0516 : 0!
+@@ -1263,21 +1239,19 @@
+ 	\L_05ad3:
+ 	\L_05a47:
+ 	ZH 1:
+-	'Nó được chia'
+-	R
+-	'thành nhiều phòng riêng,'
+-	\L_05b34:
+-	ZH 1:
+-	'và trong mỗi phòng có'
+-	R
+-	'nhiều “động vật” khác nhau.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Cậu muốn nhìn'
+-	R
+-	'thấy cô gái nào?'
++	'Bên trong chia thành'
++	R
++	'nhiều phòng riêng,'
++	\L_05b34:
++	ZH 1:
++	'mỗi phòng đều có các'
++	R
++	'loại «thú» khác nhau.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Ngài muốn gặp cô nào?'
+ 	\L_05b34:
+ 	\L_05b27:
+ *L_016a9:
+@@ -1288,25 +1262,25 @@
+ 	{VAR0657 = 0:
+ 		ZH 1:
+ 		$L_01af2$
+-		'“ Con Chó Cô Gái”'
++		'«Cô gái chó»'
+ 		$
+ 	}
+ 	{VAR0658 = 0:
+ 		ZH 1:
+ 		$L_031c1$
+-		'“ Bò Cô Gái”'
++		'«Cô gái bò»'
+ 		$
+ 	}
+ 	{VAR0659 = 0:
+ 		ZH 1:
+ 		$L_04264$
+-		'“Cô Gái Thằn Lằn”'
++		'«Cô gái thằn lằn»'
+ 		$
+ 	}
+ 	{(VAR0657 \ 0) * (VAR0658 \ 0) * (VAR0659 \ 0):
+ 		ZH 1:
+ 		$L_01750$
+-		'Đã đóng cửa'
++		'Đóng cửa'
+ 		$
+ 	}
+ 	]
+@@ -1314,45 +1288,39 @@
+ *L_01750:
+ 	\L_05a7f:
+ 	ZH 1:
+-	'À... Chết tiệt.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Naritaya đột'
+-	R
+-	'nhiên nhớ ra điều gì đó'
+-	R
+-	'và quay về phía Rance.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Xin Lỗi, Vua.'
+-	R
+-	'Tôi quên chúng tôi đã'
+-	R
+-	'đóng cửa ngày hôm nay!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Nghiêm túc?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Tôi quá bận rộn với'
+-	R
+-	'công việc thường ngày của'
+-	\L_05b34:
+-	ZH 1:
+-	'mình đến nỗi tôi hoàn'
+-	R
+-	'toàn quên mất điều đó.'
+-	\L_05b34:
+-	ZH 1:
+-	'Xin lỗi, xin lỗi, wahaha.'
++	'A... Chết rồi.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Chợt nhớ ra điều gì,'
++	R
++	'Naritaya quay về phía Rance.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Xin lỗi Bệ hạ. Tôi'
++	R
++	'quên khuấy mất hôm'
++	R
++	'nay vườn thú nghỉ!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Cái gì?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Công việc chính bận quá,'
++	\L_05b34:
++	ZH 1:
++	'thành ra tôi lú lẫn mất rồi.'
++	\L_05b34:
++	ZH 1:
++	'Xin lỗi, xin lỗi, wahahaha!'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a0f:
+@@ -1362,76 +1330,64 @@
+ 	\L_05b27:
+ 	\L_05a47:
+ 	ZH 1:
+-	'(shiiiiin)'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Wahaha... Này, Anh'
+-	R
+-	'đang làm Gì Vậy, King?'
+-	\L_05b34:
+-	ZH 1:
+-	'Tại sao ngươi chỉ'
+-	R
+-	'cần rút kiếm của ngươi?'
+-	\L_05b34:
+-	ZH 1:
+-	'Đó là nguy hiểm.'
+-	R
+-	'ngươi nói rằng ngươi'
+-	R
+-	'sẽ giải trí cho tôi...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Rance đẩy thanh'
+-	R
+-	'kiếm rút ra của mình'
+-	R
+-	'trước Mặt Naritaya.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Ngươi không có kế hoạch'
+-	R
+-	'đưa tôi ra khỏi đây chỉ để'
+-	\L_05b34:
+-	ZH 1:
+-	'nói với tôi rằng'
+-	R
+-	'ngươi đang nghỉ ngơi,'
+-	\L_05b34:
+-	ZH 1:
+-	'là ngươi!?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'K-N-N-Không, tất'
+-	R
+-	'nhiên là không!!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Naritaya lắc'
+-	R
+-	'đầu điên cuồng.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'... À, đúng rồi! Nếu cần,'
+-	R
+-	'tôi có thể ca ngợi ngươi!!'
+-	\L_05b34:
+-	ZH 1:
+-	'Điều đó sẽ làm'
+-	R
+-	'ngươi vui lên ngay!'
++	'(Soạt)'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Wahaha... Kìa, Bệ'
++	R
++	'hạ, ngài làm gì vậy?'
++	\L_05b34:
++	ZH 1:
++	'Tự dưng lại rút kiếm ra...'
++	\L_05b34:
++	ZH 1:
++	'Nguy hiểm lắm đấy. Ngươi'
++	R
++	'nói sẽ tiếp đãi ta mà...'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Rance chĩa thanh kiếm'
++	R
++	'vừa rút vào Naritaya.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Cất công đưa ta tới tận đây,'
++	\L_05b34:
++	ZH 1:
++	'ngươi tưởng chỉ'
++	R
++	'nói «hôm nay nghỉ»'
++	\L_05b34:
++	ZH 1:
++	'là xong sao!?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'K-k-không! Nào dám ạ!!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Naritaya vội'
++	R
++	'lắc đầu lia lịa.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'...À, đúng rồi! Để tôi'
++	R
++	'hát một bài ca tụng Bệ hạ!'
++	\L_05b34:
++	ZH 1:
++	'Xin ngài nguôi giận nhé!'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a47:
+@@ -1441,106 +1397,104 @@
+ 	\L_05b27:
+ 	\L_05a7f:
+ 	ZH 1:
+-	'Zucha zucha zucha...'
+-	\L_05b34:
+-	ZH 1:
+-	'(khúc dạo đầu) （ngươi ở'
+-	R
+-	'phía trước của màn hình, hát'
+-	R
+-	'này như Hashire Kotaro!）'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Một cuộc chiến tranh lớn sắp'
+-	R
+-	'bắt đầu Một cuộc đấu tranh'
+-	R
+-	'bạo lực giữa Leazas, Helman,'
+-	\L_05b34:
+-	ZH 1:
+-	'Zeth, Ác quỷ, Chúc mừng'
+-	R
+-	'người chiến thắng （hah!）'
+-	\L_05b34:
+-	ZH 1:
+-	'Tháng ba, diễu hành, Vua'
+-	R
+-	'tàn bạo Cướp đất, hãm hiếp'
+-	R
+-	'phụ nữ Tháng ba, tuần hành,'
+-	\L_05b34:
+-	ZH 1:
+-	'Vua tàn bạo'
+-	R
+-	'tấn công, sạc, giết!'
+-	\L_05b34:
+-	ZH 1:
+-	'Zucha zucha'
+-	R
+-	'zucha (xen kẽ) ） chém）'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Wowaaaaaaaaaaaa...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Naritaya bị'
+-	R
+-	'Rance chém gục.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'S-sự tàn ác Như vậy...'
+-	\L_05b34:
+-	ZH 1:
+-	'Và tôi đã dự định'
+-	R
+-	'biến bài hát này thành'
+-	\L_05b34:
+-	ZH 1:
+-	'bài hát chủ đề'
+-	R
+-	'và làm một bộ truyện tranh'
+-	R
+-	'có tên “Green Brutal Vua”,'
+-	\L_05b34:
+-	ZH 1:
+-	'nữa...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Chém chém chém chém!!!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Kwaaaaaaaaaaaa...'
+-	\L_05b34:
+-	ZH 1:
+-	'Tôi-tôi định'
+-	R
+-	'làm một trò chơi về “động'
+-	R
+-	'vật” một ngày nào đó...'
+-	\L_05b34:
+-	ZH 1:
+-	'Hừ!'
++	'Chum cha chum'
++	R
++	'cha... (dạo đầu)'
++	\L_05b34:
++	ZH 1:
++	'(Mọi người trước màn'
++	R
++	'hình, cùng hát theo điệu'
++	R
++	'Hashire Ko○taro nhé!)'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Đại chiến sắp bắt đầu,'
++	R
++	'Leazas, Helman, Zeth, Ma'
++	R
++	'Nhân chen nhau tranh đấu,'
++	\L_05b34:
++	ZH 1:
++	'Thắng làm vua, vui'
++	R
++	'biết bao! (Ha!)'
++	\L_05b34:
++	ZH 1:
++	'Tiến lên, tiến lên,'
++	R
++	'Bạo Chúa! Cướp đất,'
++	R
++	'cưỡng hiếp phụ nữ!'
++	\L_05b34:
++	ZH 1:
++	'Tiến lên, tiến lên,'
++	R
++	'Bạo Chúa! Xông vào,'
++	R
++	'đột kích, giết sạch!'
++	\L_05b34:
++	ZH 1:
++	'Chum cha chum cha...'
++	R
++	'(nhạc dạo) (Xoẹt!)'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Áááááááá...'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Naritaya bị Rance chém gục.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'S-sao tàn nhẫn thế...'
++	\L_05b34:
++	ZH 1:
++	'Tôi còn định lấy bài'
++	R
++	'này làm nhạc chủ đề,'
++	\L_05b34:
++	ZH 1:
++	'vẽ truyện tranh'
++	R
++	'«Bạo Chúa màu xanh»,'
++	\L_05b34:
++	ZH 1:
++	'vậy mà...'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Xoẹt xoẹt xoẹt xoẹt!!!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Áááááááá...'
++	\L_05b34:
++	ZH 1:
++	'R-rồi có ngày tôi'
++	R
++	'sẽ làm game «thú»...'
++	\L_05b34:
++	ZH 1:
++	'Hự!'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05ae1:
+ 	\L_05a71:
+ 	\L_05a47:
+ 	ZH 1:
+-	'Rance rời đi'
+-	R
+-	'mà không nhìn lại.'
++	'Rance rời đi, chẳng'
++	R
++	'buồn ngoảnh lại.'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	%0:

@@ -1,0 +1,5023 @@
+--- before/Gｱｰﾔ.ADV
++++ src/Gｱｰﾔ.ADV
+@@ -35,25 +35,27 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Bệnh viện thiên tài Aya.'
+-	\L_0390c:
+-	ZH 1:
+-	'Ôi!'
+-	\L_0390c:
+-	ZH 1:
+-	'Aaaaaaaaaaaaaaaaaaaaa!!'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Yeeees～?'
++	'Bệnh viện Thiên Tài'
++	R
++	'Rance「Aya.'
++	\L_0390c:
++	ZH 1:
++	'Aya ơi!'
++	\L_0390c:
++	ZH 1:
++	'Aaaa~yaaa~ ơiii!!」'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Dạaa~.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	!VAR0516 : 79!
+ 	\L_038ab:
+ 	\L_03857:
+ 	ZH 1:
+-	'Xin chào～, thưa ngài～.'
++	'Chào Bệ hạ~.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_037e7:
+@@ -63,9 +65,9 @@
+ 	\L_038ff:
+ 	\L_03857:
+ 	ZH 1:
+-	'Ngài đến đây'
+-	R
+-	'để kiểm tra à?'
++	'Hôm nay ngài đến'
++	R
++	'khám định kỳ ạ~?'
+ 	\L_0390c:
+ 	\L_038ff:
+ *L_001a1:
+@@ -75,94 +77,90 @@
+ 	}
+ 	ZH 1:
+ 	$L_0037c$
+-	'Nói Chuyện Với Aya'
++	'Nói chuyện với Aya'
+ 	$
+ 	{(VAR0428 = 15) * (VAR0426 < 6):
+ 		ZH 1:
+ 		$L_00d99$
+-		'Phòng của Maria'
++		'Phòng bệnh Maria'
+ 		$
+ 	}
+ 	{VAR0062 \ 0:
+ 		ZH 1:
+ 		$L_011f4$
+-		'Phòng của Milli'
++		'Phòng bệnh Milli'
+ 		$
+ 	}
+ 	{(VAR0486 = 2) * (VAR0480 \ 2):
+ 		ZH 1:
+ 		$L_00d84$
+-		'Phòng của Merim'
++		'Phòng bệnh Merim'
+ 		$
+ 	}
+ 	ZH 1:
+ 	$L_00248$
+-	'Đi Dạo'
++	'Đi dạo'
+ 	$
+ 	]
+ 	@L_001a1:
+ *L_00248:
+ 	\L_037e7:
+ 	ZH 1:
+-	'Ta chỉ đang đi dạo thôi.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Trong bệnh viện～?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Vâng.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Ngươi không nên làm điều'
+-	R
+-	'đó～. Đừng đến bệnh viện để'
+-	R
+-	'đi dạo～, ngươi sẽ bị ốm～.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Bất cứ Điều gì. Ta'
+-	R
+-	'đi bất cứ nơi nào trên đường'
+-	R
+-	'đi bộ của ta. sau đó~...'
+-	\L_0390c:
+-	ZH 1:
+-	'Miễn là ngươi còn ở'
+-	R
+-	'đây, hãy thử nghiệm một'
+-	R
+-	'số loại thuốc mới nhé~.'
+-	\L_0390c:
+-	ZH 1:
+-	'Tôi chỉ đang'
+-	R
+-	'tìm một người khỏe mạnh'
+-	R
+-	'để thử nghiệm nó thôi ~.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Ồ, ta vừa'
+-	R
+-	'nhớ ra có việc cần'
+-	R
+-	'phải làm! Tạm biệt!!'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Được rồi~. Hãy'
+-	R
+-	'chăm sóc bản thân nhé~.'
++	'Ta chỉ đến đi dạo thôi.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Đi dạo trong bệnh viện ạ~?'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Đúng.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Thế không được đâu~. Bệnh'
++	R
++	'viện đâu phải chỗ để đi'
++	R
++	'dạo~, là chỗ chữa bệnh mà~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Được. Ta bảo đây là'
++	R
++	'đường đi dạo thì nó là'
++	R
++	'đường đi dạo. Aya「Vậy~...'
++	\L_0390c:
++	ZH 1:
++	'nhân tiện đi dạo,'
++	R
++	'ngài làm mẫu thử'
++	R
++	'thuốc mới cho em nhé~.'
++	\L_0390c:
++	ZH 1:
++	'Em đang tìm đúng một mẫu'
++	R
++	'thử còn khỏe mạnh đây~.」'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'A, ta chợt nhớ ra'
++	R
++	'có việc! Tạm biệt!!'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Dạaa~. Ngài giữ'
++	R
++	'gìn sức khỏe nhé~.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	!VAR0516 : 0!
+@@ -196,61 +194,61 @@
+ *L_0040c:
+ 	\L_037e7:
+ 	ZH 1:
+-	'Tình dục. Siêu vũ khí của'
+-	R
+-	'ta muốn đoàn kết với ngươi.'
+-	\L_0390c:
+-	ZH 1:
+-	'những gì bệnh nhân nói'
+-	R
+-	'là tuyệt đối, phải không?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'ngài, không còn～.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Nhưng cả hai chúng ta'
+-	R
+-	'đều không thể hài lòng'
+-	R
+-	'sau lần đó phải không?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Bây giờ, quay'
+-	R
+-	'lại làm việc thôi~.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Này, đừng phớt lờ ta. Ta'
+-	R
+-	'là Vua. sau đó, Ngươi nên'
+-	R
+-	'làm Công Việc của Nhà Vua～.'
+-	\L_0390c:
+-	ZH 1:
+-	'Nếu ngươi không,'
+-	R
+-	'tôi sẽ thiết lập CHO BẠN'
+-	R
+-	'MỘT IV mà không có bữa ăn.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Ôi.'
++	'SEX. Siêu vũ khí của'
++	R
++	'ta muốn kết hợp với em.'
++	\L_0390c:
++	ZH 1:
++	'Nào, lời bệnh nhân'
++	R
++	'là tuyệt đối mà nhỉ?'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Bệ hạ lúc nào cũng'
++	R
++	'chỉ có chuyện đó~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Tại vì lần đó chưa'
++	R
++	'được đã lắm... Đúng'
++	R
++	'không? Cả ta lẫn Aya.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Nào~, làm việc thôi,'
++	R
++	'làm việc thôi~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Này, đừng có lờ ta đi. Ta'
++	R
++	'là vua đấy. Aya「Là vua thì'
++	R
++	'đi làm việc của vua đi ạ~.'
++	\L_0390c:
++	ZH 1:
++	'Không thì em sẽ truyền dịch'
++	R
++	'thay cơm cho ngài đấy~.」'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Úi úi úi.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Rance chạy ra'
++	'Rance chạy biến'
+ 	R
+ 	'khỏi bệnh viện.'
+ 	\L_0390c:
+@@ -262,49 +260,43 @@
+ *L_0052b:
+ 	\L_037e7:
+ 	ZH 1:
+-	'Tất nhiên'
+-	R
+-	'là ta... ra rồi để nói'
+-	R
+-	'chuyện với ngươi rồi, Aya.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Aah~. Tôi xin lỗi~.'
+-	R
+-	'Hiện giờ tôi đang bận~.'
+-	\L_0390c:
+-	ZH 1:
+-	'Một trường hợp'
+-	R
+-	'khẩn cấp đã đến ~.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Nói chuyện'
+-	R
+-	'với ta quan trọng hơn'
+-	R
+-	'là đối phó với điều đó.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Đó là một'
+-	R
+-	'cô gái dễ thương~.'
+-	\L_0390c:
+-	ZH 1:
+-	'Sẽ rất buồn'
+-	R
+-	'nếu tôi không chữa trị'
+-	R
+-	'cho họ nhanh chóng~?'
+-	\L_0390c:
+-	ZH 1:
+-	'đó là sự thật...'
++	'Tất nhiên là đến để'
++	R
++	'nói chuyện với Aya rồi.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Aa~. Em xin lỗi~.'
++	R
++	'Giờ em đang bận~.'
++	\L_0390c:
++	ZH 1:
++	'Có bệnh nhân cấp'
++	R
++	'cứu mới đến~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Nói chuyện với ta quan trọng'
++	R
++	'hơn bệnh nhân cấp cứu chứ.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Là một cô gái'
++	R
++	'dễ thương đấy~.'
++	\L_0390c:
++	ZH 1:
++	'Không chữa nhanh thì'
++	R
++	'tội nghiệp lắm nhỉ~?'
++	\L_0390c:
++	ZH 1:
++	'Rance「Cũng đúng...」'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_03857:
+@@ -312,33 +304,27 @@
+ 	'Vậy thì...'
+ 	\L_0390c:
+ 	ZH 1:
+-	'Ta ra mất rồi... đây'
+-	R
+-	'để làm công việc của ta.'
+-	\L_0390c:
+-	ZH 1:
+-	'Ngươi cũng nên làm'
+-	R
+-	'công việc của mình.'
++	'tôi đi làm việc đây.'
++	\L_0390c:
++	ZH 1:
++	'Bệ hạ Rance cũng'
++	R
++	'đi làm việc đi.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0388f:
+ 	ZH 1:
+-	'Aya nói chuyện với Rance'
+-	R
+-	'giống như cách nàng nói với'
+-	\L_0390c:
+-	ZH 1:
+-	'một bệnh nhân mà'
+-	R
+-	'nàng đang chăm sóc.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Vâng, chắc'
+-	R
+-	'chắn, chắc chắn.'
++	'Aya nói với Rance bằng'
++	R
++	'thái độ nghiêm nghị'
++	\L_0390c:
++	ZH 1:
++	'như khi khám cho bệnh nhân.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Rồi rồi, biết rồi biết rồi.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	!VAR0516 : 0!
+@@ -348,84 +334,82 @@
+ *L_00658:
+ 	\L_03857:
+ 	ZH 1:
+-	'Vì Vậy~, ngài. Cơ'
+-	R
+-	'thể của ngươi thế nào?'
+-	\L_0390c:
+-	ZH 1:
+-	'Thỉnh thoảng hãy đến'
+-	R
+-	'kiểm tra sức khỏe nhé~.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Không. sau đó~, làm'
+-	R
+-	'thế nào về một tiêm chủng~?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Không. sau đó~,'
+-	R
+-	'xin vui lòng dùng thuốc'
+-	R
+-	'này, ít nhất~. đó là gì?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Chỉ là một số loại'
+-	R
+-	'thuốc sức khỏe thông thường'
+-	R
+-	'thôi~. Đây... Ah... Ah～…'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Ôi, ôi, nóng quá!!'
++	'Sao rồi ạ~, Bệ hạ. Người'
++	R
++	'ngợm có khỏe không~?'
++	\L_0390c:
++	ZH 1:
++	'Thỉnh thoảng cũng đến khám'
++	R
++	'định kỳ một lần đi mà~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Khô~ng. Aya「Vậy thì~,'
++	R
++	'tiêm phòng nhé~.」'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Khô~ng. Aya「Vậy thì~, ít'
++	R
++	'nhất cũng uống thuốc này'
++	R
++	'đi ạ~.」 Rance「Gì thế?」'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Chỉ là thuốc bổ thôi'
++	R
++	'ạ~. Đây... a... aa~...'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Nóng nóng nóng!!'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0388f:
+ 	ZH 1:
+-	'Aya làm đổ trà'
+-	R
+-	'lên đầu gối của Rance.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Ahaha～, xin lỗi, xin lỗi~.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Đồ vụng về!!'
+-	\L_0390c:
+-	ZH 1:
+-	'Aah... Ta'
+-	R
+-	'ướt hết rồi... Hôm'
+-	R
+-	'nay ta phải đi đây.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Được rồi, hãy bảo'
+-	R
+-	'trọng bản thân nhé～～.'
++	'Aya làm đổ cả ấm'
++	R
++	'trà lên đùi Rance.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'A ha ha~, hỏng'
++	R
++	'rồi, hỏng rồi~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Đồ hậu đậu!!'
++	\L_0390c:
++	ZH 1:
++	'Aa... ướt sũng cả'
++	R
++	'rồi... Hôm nay ta về.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Dạaa~, ngài giữ'
++	R
++	'gìn sức khỏe nhé~~.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_03803:
+ 	ZH 1:
+-	'Trời ạ... Ta'
+-	R
+-	'không thể tin nổi nàng lại'
+-	R
+-	'là một bác sĩ thiên tài...'
++	'Thật tình... cái đó mà'
++	R
++	'là danh y hiếm có, chậm'
++	R
++	'chạp không tưởng nổi...'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	!VAR0516 : 0!
+@@ -435,46 +419,42 @@
+ *L_00818:
+ 	\L_037e7:
+ 	ZH 1:
+-	'Hôm nay chúng'
+-	R
+-	'ta hãy hẹn hò nhé.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Aah~. Hôm nay tôi'
+-	R
+-	'đã bận rộn rồi...'
+-	\L_0390c:
+-	ZH 1:
+-	'Xin hãy hỏi lại vào'
+-	R
+-	'lúc khác. Bây giờ thì.'
++	'Hôm nay hẹn hò đi.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Aa~. Hôm nay tôi'
++	R
++	'kín việc rồi...'
++	\L_0390c:
++	ZH 1:
++	'Để dịp khác đi. Vậy nhé.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_038b9:
+ 	\L_0388f:
+ 	ZH 1:
+-	'Aya từ chối lời'
+-	R
+-	'mời của Rance với'
+-	\L_0390c:
+-	ZH 1:
+-	'giọng điệu cứng rắn và'
+-	R
+-	'bỏ đi đến phòng thi phòng.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Cái gì?'
++	'Từ chối lời mời'
++	R
++	'của Rance bằng'
++	\L_0390c:
++	ZH 1:
++	'giọng dứt khoát, Aya bước'
++	R
++	'lộp cộp về phòng khám.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Gì thế nhỉ?'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Rance theo sau Aya và'
+-	R
+-	'nhìn nàng trong phòng thi.'
++	'Rance đuổi theo Aya,'
++	R
++	'lén nhìn vào phòng khám.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+@@ -485,128 +465,116 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Bệnh viện'
+-	R
+-	'Genius - Phòng của Aya'
++	'Bệnh viện Thiên Tài'
++	R
++	'Phòng của Aya'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	!VAR0516 : 79!
+ 	\L_038ab:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Aya đang tập trung đọc'
+-	R
+-	'một loại tài liệu nào đó.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Đó là gì?'
++	'Aya đang chăm chú đọc'
++	R
++	'thứ gì đó như tài liệu.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Cái gì thế này?'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Rance vô tư bước vào'
+-	R
+-	'phòng và nói chuyện với Aya.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Một bài báo học thuật.'
+-	R
+-	'Tôi phải đọc những điều'
+-	R
+-	'này để theo kịp thời đại.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Hmmm... Vậy là bác sĩ'
+-	R
+-	'cũng phải học à? đúng vậy.'
+-	\L_0390c:
+-	ZH 1:
+-	'Bất cứ ai trong bất'
+-	R
+-	'kỳ nghề nghiệp nào cũng làm.'
++	'Rance tự tiện bước vào'
++	R
++	'phòng, bắt chuyện với Aya.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Bài báo của hội y'
++	R
++	'học. Không đọc thì sẽ'
++	R
++	'bị thời đại bỏ lại.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Hừm... làm bác sĩ rồi'
++	R
++	'mà vẫn phải học à.'
++	R
++	'Aya「Đương nhiên rồi.'
++	\L_0390c:
++	ZH 1:
++	'Nghề nào cũng vậy.」'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0388f:
+ 	ZH 1:
+-	'（gõ gõ）'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Ủa?'
++	'(Cốc cốc)'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Vâng?'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0388f:
+ 	ZH 1:
+-	'Tiến sĩ Aya! Tình'
+-	R
+-	'trạng bệnh nhân ở phòng'
+-	R
+-	'1055 đột nhiên thay đổi!'
+-	\L_0390c:
+-	ZH 1:
+-	'giọng nói của một y'
+-	R
+-	'tá ở cuối trí thông minh'
+-	\L_0390c:
+-	ZH 1:
+-	'của nàng đến từ phía'
+-	R
+-	'bên kia của cánh cửa.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Được rồi. Tôi sẽ'
+-	R
+-	'đến đó ngay lập tức.'
+-	\L_0390c:
+-	ZH 1:
+-	'ngài! Hãy mang'
+-	R
+-	'cái túi đó cho tôi.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Chắc chắn rồi!'
++	'Bác sĩ Aya! Bệnh nhân phòng'
++	R
++	'1055 trở nặng đột ngột!'
++	\L_0390c:
++	ZH 1:
++	'Giọng cô y tá hốt hoảng'
++	\L_0390c:
++	ZH 1:
++	'vang lên từ bên'
++	R
++	'kia cánh cửa.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Tôi biết rồi. Tôi tới ngay.'
++	\L_0390c:
++	ZH 1:
++	'Bệ hạ! Xách cái túi'
++	R
++	'kia đi theo tôi.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Ờ!'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Rance bị choáng ngợp'
+-	R
+-	'bởi Cường độ Của Aya và'
+-	\L_0390c:
+-	ZH 1:
+-	'làm theo hướng dẫn của'
+-	R
+-	'nàng để lấy chiếc túi.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'... Đợi đã...'
+-	\L_0390c:
+-	ZH 1:
+-	'Ta là Vua. Ta'
+-	R
+-	'đang làm gì vậy...?'
++	'Bị khí thế của'
++	R
++	'Aya áp đảo, Rance'
++	\L_0390c:
++	ZH 1:
++	'xách cái túi Aya chỉ.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'......Mà khoan...'
++	\L_0390c:
++	ZH 1:
++	'Ta là vua cơ mà. Lầm bầm...'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Dù vậy, Rance'
+-	R
+-	'vẫn theo sau Aya với'
+-	R
+-	'chiếc túi trên tay.'
++	'Miệng thì nói vậy, Rance'
++	R
++	'vẫn xách túi đuổi theo Aya.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	!VAR0516 : 0!
+@@ -617,65 +585,61 @@
+ 	!VAR0564 : 1!
+ 	\L_037e7:
+ 	ZH 1:
+-	'Tất nhiên, ta... ra'
+-	R
+-	'rồi để thắt chặt mối quan hệ'
+-	R
+-	'với bác sĩ riêng của ta.'
+-	\L_0390c:
+-	ZH 1:
+-	'Bác sĩ và bệnh'
+-	R
+-	'nhân cần phải biết nhau.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Chắc chắn rồi～. Tôi'
+-	R
+-	'biết ngài sẽ là người'
+-	R
+-	'hiểu được, thưa ngài~.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Gahahahaha!. V'
+-	R
+-	'ậy hãy đến đây.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Hả~? chỉ có một cách'
+-	R
+-	'một người đàn ông và phụ nữ'
+-	R
+-	'có thể hiểu nhau. Thôi nào.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'... Aaah... Cậu đang'
+-	R
+-	'nói về tình dục đấy à～?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Đừng thẳng thừng thế...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Tôi từ chối~. Tôi không có'
+-	R
+-	'hứng thú với tình dục～...'
+-	\L_0390c:
+-	ZH 1:
+-	'Làm ơn làm điều'
+-	R
+-	'đó với người khác đi～.'
++	'Tất nhiên là đến để'
++	R
++	'thân thiết hơn với Aya,'
++	R
++	'bác sĩ riêng của ta.'
++	\L_0390c:
++	ZH 1:
++	'Bác sĩ với bệnh nhân'
++	R
++	'phải hiểu rõ nhau mà.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Đúng vậy ạ~. Bệ hạ'
++	R
++	'hiểu chuyện ghê~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Gahahahaha. Thế nên,'
++	R
++	'lại đây, lại đây.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Hả~? Rance「Đàn ông với'
++	R
++	'đàn bà hiểu nhau thì chỉ'
++	R
++	'có cái đó thôi. Nào nào.」'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'......A~a... là'
++	R
++	'chuyện SEX ạ~?'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Đừng nói trắng ra thế......'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Không được đâu~. Em không'
++	R
++	'hứng thú với SEX~...'
++	\L_0390c:
++	ZH 1:
++	'Ngài tìm người khác đi ạ~.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_037e7:
+@@ -685,76 +649,66 @@
+ 	\L_038ff:
+ 	\L_03857:
+ 	ZH 1:
+-	'Kể từ～...'
+-	\L_0390c:
+-	ZH 1:
+-	'Tôi đã nhìn thấy rất nhiều'
+-	R
+-	'người đàn ông khỏa thân và'
+-	\L_0390c:
+-	ZH 1:
+-	'bộ phận sinh dục của'
+-	R
+-	'họ trong công việc của mình,'
+-	\L_0390c:
+-	ZH 1:
+-	'tôi không thể'
+-	R
+-	'quan tâm đến họ được~.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'... Của ta khác'
+-	R
+-	'với những thứ đó.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Tôi có ý này hay hơn~.'
+-	R
+-	'Còn việc hiến máu thì sao～?'
+-	\L_0390c:
+-	ZH 1:
+-	'Sau đó, tôi'
+-	R
+-	'có thể tìm hiểu về ngươi'
+-	R
+-	'thông qua dna của ngươi～.'
++	'Tại vì~...'
++	\L_0390c:
++	ZH 1:
++	'do nghề nghiệp, em nhìn quen'
++	\L_0390c:
++	ZH 1:
++	'cả cơ thể trần truồng lẫn'
++	R
++	'bộ phận sinh dục nam rồi,'
++	\L_0390c:
++	ZH 1:
++	'nên chẳng hứng'
++	R
++	'lên được nữa~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'......Của ta khác hẳn đấy.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Thay vì xả bằng thứ đó,'
++	R
++	'Bệ hạ~, hiến máu nhé~?'
++	\L_0390c:
++	ZH 1:
++	'Thế này em sẽ hiểu Bệ hạ'
++	R
++	'tới tận cấp độ gen luôn~.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0388f:
+ 	ZH 1:
+-	'Aya mỉm cười và'
+-	R
+-	'rút ra một ống tiêm'
+-	R
+-	'và thuốc khử trùng.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Ờ...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Bây giờ, đưa tay'
+-	R
+-	'trái của ngươi ra ~.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Tạm biệt nhé...'
++	'Aya cười tươi, lấy ra ống'
++	R
++	'tiêm và thuốc sát trùng.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Ơ...'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Nào, đưa tay trái ra nào~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'T... tạm biệt, tạm biệt...'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Rance lao ra khỏi bệnh'
+-	R
+-	'viện nhanh như một con thỏ.'
++	'Rance chuồn khỏi bệnh'
++	R
++	'viện nhanh như thỏ.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	!VAR0516 : 0!
+@@ -773,88 +727,76 @@
+ 		!VAR0426 : 4!
+ 		\L_037e7:
+ 		ZH 1:
+-		'Ta ra mất rồi...'
+-		R
+-		'gặp Maria. Được không?'
++		'Ta đến gặp Maria. Được chứ?'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_03857:
+ 		ZH 1:
+-		'Không~.'
++		'Không được ạ~.'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_037e7:
+ 		ZH 1:
+-		'... Nàng có trở'
+-		R
+-		'nên tệ hơn không?'
++		'Trở nặng... rồi sao?'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_03857:
+ 		ZH 1:
+-		'Không~... Tính'
+-		R
+-		'mạng của nàng không gặp nguy'
+-		R
+-		'hiểm gì nghiêm trọng đâu~.'
++		'Không~... tính mạng'
++		R
++		'thì không sao ạ~.'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_037e7:
+ 		ZH 1:
+-		'Ta hiểu rồi... Thế thì...'
++		'Thế à... vậy thì...'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_03857:
+ 		ZH 1:
+-		'Không~... Vết'
+-		R
+-		'thương trong tâm hồn'
+-		R
+-		'nàng vẫn chưa lành hẳn~.'
++		'Không được ạ~... vết'
++		R
++		'thương lòng vẫn chưa lành~.'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_037e7:
+ 		ZH 1:
+-		'... Linh hồn'
+-		R
+-		'của nàng? có～...'
+-		\L_0390c:
+-		ZH 1:
+-		'... Một vết sẹo'
+-		R
+-		'đã được để lại trên'
+-		R
+-		'cơ thể của Maria~...'
++		'Vết thương... lòng?'
++		R
++		'Aya「Vâng~......'
++		\L_0390c:
++		ZH 1:
++		'Cô Maria... bị để lại'
++		R
++		'sẹo trên người~...」'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_037e7:
+ 		ZH 1:
+-		'............ điều'
+-		R
+-		'đó phải khó khăn cho'
+-		R
+-		'bất kỳ cô gái nào～...'
++		'............ Aya「Với'
++		R
++		'con gái thì~... vẫn'
++		R
++		'đau lòng lắm ạ~...」'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_037e7:
+ 		ZH 1:
+-		'Ta không'
+-		R
+-		'quan tâm. Dù sao thì'
+-		R
+-		'ta cũng sẽ gặp nàng.'
++		'Chuyện đó không quan'
++		R
++		'trọng. Dù sao ta cũng gặp.'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_03857:
+ 		ZH 1:
+-		'Không～...'
+-		\L_0390c:
+-		ZH 1:
+-		'Là một bác sĩ, tôi'
+-		R
+-		'phải làm theo mong muốn của'
+-		R
+-		'bệnh nhân～. Làm ơn rời đi~!'
++		'Không được ạ~...'
++		\L_0390c:
++		ZH 1:
++		'Bệnh nhân muốn thế'
++		R
++		'thì bác sĩ cũng theo'
++		R
++		'ạ~. Ngài về đi~!'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_037e7:
+@@ -862,26 +804,28 @@
+ 		'............'
+ 		\L_0390c:
+ 		ZH 1:
+-		'Được rồi... Chết tiệt...'
+-		\L_0390c:
+-		ZH 1:
+-		'Chỉ cần nói'
+-		R
+-		'với Maria điều này.'
+-		\L_0390c:
+-		ZH 1:
+-		'Thất bại là điều cần thiết'
+-		R
+-		'để thử nghiệm. Đừng lo lắng'
+-		R
+-		'về nó. được rồi~, tôi sẽ~.'
++		'Biết rồi... chết tiệt...'
++		\L_0390c:
++		ZH 1:
++		'À phải, nhắn Maria'
++		R
++		'giùm ta câu này.'
++		\L_0390c:
++		ZH 1:
++		'Thí nghiệm thì thất bại là'
++		R
++		'chuyện thường. Đừng bận tâm.'
++		R
++		'Aya「Dạ~ em biết rồi~.」'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_0381f:
+ 		ZH 1:
+-		'Aya cúi đầu và'
+-		R
+-		'Rance rời Bệnh viện Genius.'
++		'Rance để lại Aya đang'
++		R
++		'cúi đầu chào, rời khỏi'
++		R
++		'Bệnh viện Thiên Tài.'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		!VAR0516 : 0!
+@@ -893,109 +837,111 @@
+ 		!VAR0426 : 5!
+ 		\L_037e7:
+ 		ZH 1:
+-		'Ta ra mất'
+-		R
+-		'rồi... gặp Maria.'
+-		R
+-		'phòng Của cô Ấy Ở đâu?'
++		'Ta đến gặp Maria đây.'
++		R
++		'Phòng bệnh ở đâu?'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_03857:
+ 		ZH 1:
+-		'Haah～, về Maria～, hãy cầm'
+-		R
+-		'lấy cái này～, thưa ngài～.'
++		'Ha~ về cô Maria thì~,'
++		R
++		'Bệ hạ~, cái này ạ~.'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_0381f:
+ 		ZH 1:
+-		'Aya đưa cho Rance'
+-		R
+-		'một lá thư. đây là gì?'
++		'Aya đưa cho Rance một'
++		R
++		'lá thư. Rance「Gì đây?」'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_03857:
+ 		ZH 1:
+-		'Một lá thư～, từ'
+-		R
+-		'Maria gửi cho ngươi～.'
+-		\L_0390c:
+-		ZH 1:
+-		'Maria nói~, nàng không'
+-		R
+-		'muốn gặp cậu lúc này~...'
++		'Là thư cô Maria'
++		R
++		'gửi Bệ hạ ạ~.'
++		\L_0390c:
++		ZH 1:
++		'Cô Maria bảo~ giờ chưa'
++		R
++		'muốn gặp Bệ hạ~...'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_0381f:
+ 		ZH 1:
+-		'Rance xé con dấu và bắt'
+-		R
+-		'đầu đọc bức thư bên trong.'
+-		\L_0390c:
+-		ZH 1:
+-		'Xin Lỗi, Rance.'
+-		\L_0390c:
+-		ZH 1:
+-		'Tôi đã phá hủy'
+-		R
+-		'cơ sở nghiên cứu mà ngươi'
+-		R
+-		'đã hào phóng làm cho tôi.'
+-		\L_0390c:
+-		ZH 1:
+-		'Rất nhiều nhà'
++		'Rance xoạt một tiếng'
++		R
++		'xé phong bì, bắt đầu'
++		R
++		'đọc lá thư bên trong.'
++		\L_0390c:
++		ZH 1:
++		'［Xin lỗi anh, Rance.'
++		\L_0390c:
++		ZH 1:
++		'Tôi đã làm hỏng viện'
++		R
++		'nghiên cứu anh cất'
++		R
++		'công xây cho tôi.'
++		\L_0390c:
++		ZH 1:
++		'Lại còn làm nhiều nhà'
+ 		R
+ 		'nghiên cứu bị thương.'
+ 		\L_0390c:
+ 		ZH 1:
+-		'... Tôi xin lỗi. Và...'
+-		R
+-		'Xin hãy cho tôi thêm chút'
+-		R
+-		'thời gian... Maria］ Hm...'
+-		\L_0390c:
+-		ZH 1:
+-		'Chuyện này là sao vậy?'
+-		R
+-		'Thêm thời gian để làm gì...?'
+-		\L_0390c:
+-		ZH 1:
+-		'ngài～, trong mọi trường'
+-		R
+-		'hợp, xin hãy để nó ở đó～...'
++		'...Xin lỗi. Cho tôi thêm'
++		R
++		'chút thời gian......'
++		R
++		'Maria］ Rance「Ừm...'
++		\L_0390c:
++		ZH 1:
++		'nghĩa là sao? Cho'
++		R
++		'thêm thời gian...」'
++		\L_0390c:
++		ZH 1:
++		'Aya「Bệ hạ~, dù sao'
++		R
++		'thì bây giờ xin cứ'
++		R
++		'để cô ấy yên ạ~...'
+ 		\L_0390c:
+ 		ZH 1:
+ 		'Đó là mong muốn'
+ 		R
+-		'của bệnh nhân của tôi～.'
++		'của bệnh nhân~.」'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_037e7:
+ 		ZH 1:
+-		'... Được rồi...'
+-		R
+-		'Nàng ổn chứ? có～.'
+-		\L_0390c:
+-		ZH 1:
+-		'Nàng không ăn'
+-		R
+-		'nhiều như vậy,nhưng nàng'
+-		R
+-		'ăn đủ～. điều đó đủ tốt.'
+-		\L_0390c:
+-		ZH 1:
+-		'Ta để mọi thứ cho'
+-		R
+-		'ngươi. được rồi~, tôi sẽ'
+-		R
+-		'làm những gì tôi có thể~.'
++		'......Được rồi... Cô ấy vẫn'
++		R
++		'khỏe đấy chứ? Aya「Vâng~.'
++		\L_0390c:
++		ZH 1:
++		'Ăn tuy ít nhưng vẫn'
++		R
++		'ăn uống đầy đủ ạ~.」'
++		R
++		'Rance「Vậy là được.'
++		\L_0390c:
++		ZH 1:
++		'Phần còn lại giao'
++		R
++		'cho em.」 Aya「Dạ~'
++		R
++		'em sẽ cố hết sức~.」'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_0381f:
+ 		ZH 1:
+-		'Rance rời'
+-		R
+-		'Bệnh viện Genius.'
++		'Rance rời khỏi Bệnh'
++		R
++		'viện Thiên Tài.'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		!VAR0516 : 0!
+@@ -1014,108 +960,106 @@
+ 	SS 6:
+ 	\L_037e7:
+ 	ZH 1:
+-	'Ta có thể'
+-	R
+-	'gặp Milli được không?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'... Thấy nàng không～?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Vâng. cách'
+-	R
+-	'này, xin vui lòng~.'
++	'Gặp Milli được không?'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'...Ngài muốn gặp ạ~?'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Ừ. Aya「Vậy thì, mời'
++	R
++	'ngài đi lối này~.」'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0388f:
+ 	ZH 1:
+-	'Aya dẫn Rance đến một'
+-	R
+-	'căn phòng nơi ánh sáng bị'
+-	R
+-	'che khuất bởi một tấm màn,'
+-	\L_0390c:
+-	ZH 1:
+-	'đó là đầy máy'
+-	R
+-	'lẻ, ống và dây.'
+-	\L_0390c:
+-	ZH 1:
+-	'Trên chiếc'
+-	R
+-	'giường giữa phòng là Milli,'
+-	R
+-	'người phủ đầy dây và ống.'
+-	\L_0390c:
+-	ZH 1:
+-	'dấu hiệu duy'
+-	R
+-	'nhất nàng còn sống là đôi'
+-	R
+-	'khi ngực nàng phập phồng.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Cần rất nhiều sự quan tâm để'
+-	R
+-	'giữ cho nàng sống sót～...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Ta hiểu rồi...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Ta biết căn bệnh mà Milli'
+-	R
+-	'đang mắc phải được gọi là'
+-	R
+-	'genfluenza, nhưng～...'
+-	\L_0390c:
+-	ZH 1:
+-	'Vẫn chưa tìm'
+-	R
+-	'ra cách chữa trị～...'
+-	\L_0390c:
+-	ZH 1:
+-	'Tất nhiên rồi~...'
+-	\L_0390c:
+-	ZH 1:
+-	'Tôi đã nghe nói về các loại'
+-	R
+-	'thảo mộc có thể ngăn chặn'
+-	R
+-	'bệnh tiến triển, nhưng ~...'
+-	\L_0390c:
+-	ZH 1:
+-	'chúng rất hiếm～...'
+-	\L_0390c:
+-	ZH 1:
+-	'Tuy nhiên, ngay'
+-	R
+-	'cả với những thứ đó,'
+-	\L_0390c:
+-	ZH 1:
+-	'nó chỉ có thể bị ức chế'
+-	R
+-	'chứ không thể chữa khỏi ~...'
+-	\L_0390c:
+-	ZH 1:
+-	'Tôi đã kiểm tra một số cuốn'
+-	R
+-	'sách～ và hỏi các chuyên gia'
+-	R
+-	'trên khắp thế giới,'
+-	\L_0390c:
+-	ZH 1:
+-	'nhưng～...'
++	'Căn phòng Aya dẫn tới'
++	R
++	'bị rèm che kín ánh sáng,'
++	\L_0390c:
++	ZH 1:
++	'đầy những máy móc'
++	R
++	'kỳ lạ, ống và dây.'
++	\L_0390c:
++	ZH 1:
++	'Trên chiếc giường giữa'
++	R
++	'phòng, Milli nằm đó, khắp'
++	R
++	'người toàn dây và ống.'
++	\L_0390c:
++	ZH 1:
++	'Chỉ có lồng ngực thỉnh'
++	R
++	'thoảng phập phồng là bằng'
++	R
++	'chứng Milli còn sống.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Giữ cho cô ấy không chết'
++	R
++	'thế này đã là hết sức của'
++	R
++	'y học hiện nay rồi~...'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Thế à...'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Em đã biết căn bệnh'
++	R
++	'đang hành hạ cô Milli'
++	R
++	'gọi là genfluenza~...'
++	\L_0390c:
++	ZH 1:
++	'nhưng y học hiện nay'
++	R
++	'không chữa được~...'
++	\L_0390c:
++	ZH 1:
++	'Em nhớ là~...'
++	\L_0390c:
++	ZH 1:
++	'nghe nói có một loại'
++	R
++	'thảo dược có thể chặn'
++	R
++	'bệnh tiến triển~...'
++	\L_0390c:
++	ZH 1:
++	'nhưng thảo dược đó cũng gần'
++	R
++	'như là truyền thuyết~...'
++	\L_0390c:
++	ZH 1:
++	'Mà kể cả có nó,'
++	\L_0390c:
++	ZH 1:
++	'cũng chỉ chặn được, không'
++	R
++	'chữa khỏi được ạ~...'
++	\L_0390c:
++	ZH 1:
++	'Em đã tra đủ thứ'
++	R
++	'sách~, hỏi các chuyên'
++	R
++	'gia khắp thế giới,'
++	\L_0390c:
++	ZH 1:
++	'nhưng~...'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_037e7:
+@@ -1128,9 +1072,11 @@
+ 	'Rance nhìn Milli.'
+ 	\L_0390c:
+ 	ZH 1:
+-	'Da bà nhợt nhạt, mắt'
+-	R
+-	'trũng sâu, má hóp và gầy đi.'
++	'Khác hẳn lúc còn khỏe,'
++	R
++	'da Milli xám như đất, mắt'
++	R
++	'trũng, má hóp, gầy rộc.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	!VAR0154 : 25!
+@@ -1140,52 +1086,48 @@
+ 		\L_038ab:
+ 		\L_03857:
+ 		ZH 1:
+-		'Cái gì...?'
+-		R
+-		'Tại sao cậu không thể chữa'
+-		R
+-		'khỏi cho nàng? cậu quack!!'
+-		\L_0390c:
+-		ZH 1:
+-		'Nếu cậu giết em gái'
+-		R
+-		'tôi, tôi sẽ không bao'
+-		R
+-		'giờ tha thứ cho cậu!!'
+-		\L_0390c:
+-		ZH 1:
+-		'Uu... Waah... Waaaaaaah!'
++		'Sao chứ...... Sao không'
++		R
++		'chữa được? Đồ lang băm!!'
++		\L_0390c:
++		ZH 1:
++		'Mà để chị tôi chết thì tôi'
++		R
++		'không tha đâu! Không tha!!'
++		\L_0390c:
++		ZH 1:
++		'Ư... hu... oaaa!'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_0388f:
+ 		ZH 1:
+-		'Mill đập vào Aya bằng'
+-		R
+-		'nắm đấm nhỏ xíu của mình.'
++		'Mill dùng nắm tay nhỏ xíu'
++		R
++		'đấm thùm thụp vào người Aya.'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_037e7:
+ 		ZH 1:
+-		'Aya đang cố giúp đỡ'
+-		R
+-		'Mill. Hãy tôn trọng hơn.'
++		'Mill, Aya cũng đang cố'
++		R
++		'hết sức. Đừng có bướng.'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_03857:
+ 		ZH 1:
+-		'Nhưng... Nhưng...!'
+-		R
+-		'các nhân viên ở đây'
+-		R
+-		'đang làm mọi thứ có thể.'
++		'Nhưng... nhưng...!'
++		R
++		'Rance「Khổ nhất là người'
++		R
++		'làm trực tiếp đấy.」'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_03857:
+ 		ZH 1:
+-		'Ờ...'
+-		\L_0390c:
+-		ZH 1:
+-		'... Tôi xin lỗi...'
++		'Ư......'
++		\L_0390c:
++		ZH 1:
++		'......Em xin... lỗi...'
+ 		\L_0390c:
+ 		\L_038ff:
+ 		\L_038b9:
+@@ -1193,31 +1135,29 @@
+ 		\L_038ab:
+ 		\L_03857:
+ 		ZH 1:
+-		'Không sao'
+-		R
+-		'đâu~... Bản thân tôi cũng'
+-		R
+-		'chẳng có tác dụng gì cả~...'
++		'Không đâu~... chính'
++		R
++		'em mới là người chẳng'
++		R
++		'giúp được gì~...'
+ 		\L_0390c:
+ 		\L_038ff:
+ 	}
+ 	\L_037e7:
+ 	ZH 1:
+-	'Hãy làm những gì có'
+-	R
+-	'thể để giúp Milli, Aya.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'... Vâng, thưa ngài.'
++	'Aya, Milli nhờ em đấy.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Vâng... thưa Bệ hạ.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Rance rời'
+-	R
+-	'Bệnh viện Genius.'
++	'Rance rời khỏi Bệnh'
++	R
++	'viện Thiên Tài.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	!VAR0516 : 0!
+@@ -1241,20 +1181,20 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết'
+-	R
+-	'kiến Maris đến gặp Rance'
+-	R
+-	'mang theo một tài liệu.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Bệ hạ Rance, bệnh viện hiện'
+-	R
+-	'đại được xây dựng bấy lâu'
+-	R
+-	'nay đã hoàn thành.'
++	'Phòng yết kiến'
++	R
++	'Maris mang tài liệu đến chỗ'
++	R
++	'Rance.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Bệ hạ Rance, bệnh viện'
++	R
++	'hiện đại khởi công từ'
++	R
++	'lâu nay đã hoàn thành.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_037e7:
+@@ -1277,11 +1217,11 @@
+ 	\L_038ff:
+ 	\L_037e7:
+ 	ZH 1:
+-	'Ừ, cái tên tuyệt vời, nghe'
+-	R
+-	'đã thấy chữa bệnh nhanh khỏi'
+-	R
+-	'rồi còn gì.'
++	'Ừ, nghe là thấy chữa'
++	R
++	'bệnh nhanh khỏi, cái'
++	R
++	'tên tuyệt vời chứ hả.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_03857:
+@@ -1319,20 +1259,18 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Bệnh viện'
+-	R
+-	'thiên tài Rance và Maris'
+-	R
+-	'vào Bệnh viện Thiên tài.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Mhm, có cảm giác'
+-	R
+-	'khá tốt. Không có gì ngoài'
+-	R
+-	'những cô y tá nóng bỏng.'
++	'Bệnh viện Thiên Tài'
++	R
++	'Rance và Maris bước vào'
++	R
++	'Bệnh viện Thiên Tài.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Ừm, khá được đấy.'
++	R
++	'Toàn y tá xinh đẹp cả.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_03857:
+@@ -1342,52 +1280,50 @@
+ 	'Rance.'
+ 	\L_0390c:
+ 	ZH 1:
+-	'Giờ thần xin giới thiệu cô'
+-	R
+-	'Fujinomiya, người sẽ làm bác'
+-	R
+-	'sĩ phụ trách Bệ hạ.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Ta không bị bệnh.'
+-	R
+-	'Ta không cần bác sĩ.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'...'
+-	\L_0390c:
+-	ZH 1:
+-	'Dù đó là phụ nữ sao ạ?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Thật ra ta vốn rất yếu, hay'
+-	R
+-	'đau ốm lắm.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Mới nghe là phụ nữ đã...'
+-	\L_0390c:
+-	ZH 1:
+-	'Dù cô ấy thuộc kiểu Bệ hạ'
+-	R
+-	'không ưa, ngài vẫn nói được'
+-	R
+-	'câu ấy sao?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Chuyện xa xưa như thế ta'
+-	R
+-	'quên ngay rồi.'
++	'Giờ thần xin giới thiệu'
++	R
++	'cô Fujinomiya, bác sĩ'
++	R
++	'phụ trách của Bệ hạ.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Ta có bệnh tật gì đâu.'
++	R
++	'Không cần bác sĩ phụ trách.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'......'
++	\L_0390c:
++	ZH 1:
++	'Là phụ nữ đấy ạ.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Thật ra ta vốn ốm yếu lắm.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Vừa nghe là phụ nữ đã...'
++	\L_0390c:
++	ZH 1:
++	'Nếu cô ấy là kiểu Bệ hạ'
++	R
++	'không ưa thì câu vừa rồi'
++	R
++	'ngài còn nói được không?'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Chuyện xưa như'
++	R
++	'thế ta quên ngay.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_03857:
+@@ -1397,9 +1333,9 @@
+ 	\L_038ff:
+ 	\L_0388f:
+ 	ZH 1:
+-	'Một thời gian sau, họ'
+-	R
+-	'nghe thấy tiếng bước chân.'
++	'Một lúc sau, có tiếng'
++	R
++	'bước chân lạch bạch.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_038b9:
+@@ -1407,29 +1343,29 @@
+ 	\L_038ab:
+ 	\L_03857:
+ 	ZH 1:
+-	'Để ngài đợi lâu rồi~. Em là'
+-	R
+-	'Aya Fujinomiya~, được giao'
+-	R
+-	'làm bác sĩ phụ trách ngài~.'
++	'Để ngài chờ rồi~. Em là'
++	R
++	'Aya Fujinomiya~, bác sĩ'
++	R
++	'phụ trách của Bệ hạ ạ~.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0388f:
+ 	ZH 1:
+-	'Phần tự giới thiệu của Aya'
+-	R
+-	'chậm đến mức có thể khiến'
+-	R
+-	'một con ruồi phải dừng lại.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Dễ thương～...'
+-	R
+-	'Nhưng bác sĩ~, chậm thế'
+-	R
+-	'này~, thực sự ổn à~?'
++	'Aya tự giới thiệu chậm'
++	R
++	'rì rì, chậm đến mức'
++	R
++	'ruồi cũng đậu được.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Dễ thương~... nhưng'
++	R
++	'bác sĩ~ chậm thế'
++	R
++	'này~... có ổn không~?'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_038b9:
+@@ -1437,26 +1373,26 @@
+ 	\L_038ab:
+ 	\L_03857:
+ 	ZH 1:
+-	'Bệ hạ Rance, ngài bị lây'
+-	R
+-	'giọng cô ấy rồi...'
+-	\L_0390c:
+-	ZH 1:
+-	'Bỏ qua cách nói chuyện, cô'
++	'Bệ hạ Rance, ngài bị'
++	R
++	'lây giọng rồi kìa...'
++	\L_0390c:
++	ZH 1:
++	'Bỏ qua cách nói chuyện,'
++	R
++	'đúng như Bệ hạ yêu cầu, cô'
+ 	R
+ 	'ấy là người phụ nữ trẻ đẹp,'
+ 	\L_0390c:
+ 	ZH 1:
+-	'thành thạo mọi kỹ thuật điều'
+-	R
+-	'dưỡng đúng như yêu cầu của'
+-	R
+-	'ngài.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'... Không thấy nó...'
++	'đã thành thạo mọi'
++	R
++	'kỹ thuật điều dưỡng.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'...Nhìn chẳng giống...'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_038b9:
+@@ -1471,31 +1407,29 @@
+ 	\L_038ff:
+ 	\L_037e7:
+ 	ZH 1:
+-	'Chà... Nàng dễ thương,'
+-	R
+-	'vì vậy bất cứ điều gì.'
+-	\L_0390c:
+-	ZH 1:
+-	'Ta sẽ cho phép nàng'
+-	R
+-	'làm bác sĩ riêng của ta.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Cảm ơn~. Tôi sẽ'
+-	R
+-	'làm hết sức mình～.'
+-	\L_0390c:
+-	ZH 1:
+-	'ngài～, xin hãy đến'
+-	R
+-	'kiểm tra sức khỏe định kỳ～.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Chắc chắn, chắc chắn.'
++	'Thôi... dễ thương là được.'
++	\L_0390c:
++	ZH 1:
++	'Ta chấp nhận em làm'
++	R
++	'bác sĩ riêng của ta.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Em cảm ơn ạ~.'
++	R
++	'Em... sẽ cố gắng~.'
++	\L_0390c:
++	ZH 1:
++	'Bệ hạ~ nhớ đến'
++	R
++	'khám định kỳ nhé~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Ừm ừm.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	!VAR0516 : 0!
+@@ -1518,16 +1452,16 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Hành lang Rance'
+-	R
+-	'đang đi bộ xuống hội'
+-	R
+-	'trường đến sân trong.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Ừm...?'
++	'Hành lang'
++	R
++	'Rance đang lững thững đi'
++	R
++	'dọc hành lang ra sân trong.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Hửm...?'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_03849:
+@@ -1537,174 +1471,168 @@
+ 	\L_038ab:
+ 	\L_037e7:
+ 	ZH 1:
+-	'U-Um... Cậu từ'
+-	R
+-	'chối không có vấn đề gì,'
+-	R
+-	'sau đó? có～. Xin lỗi～.'
++	'À... ừm... dù thế nào...'
++	R
++	'cũng không được... sao ạ?'
++	R
++	'Aya「Vâng~. Em xin lỗi~.」'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Nói với giọng dịu'
+-	R
+-	'dàng như mọi khi, Aya cúi'
+-	R
+-	'đầu trước một người lính.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'... Tôi cho là nó có lý...'
+-	\L_0390c:
+-	ZH 1:
+-	'Một người tuyệt vời như'
+-	R
+-	'cậu sẽ không hẹn hò với'
+-	\L_0390c:
+-	ZH 1:
+-	'một người lính bình'
+-	R
+-	'thường như tôi đâu...'
+-	\L_0390c:
+-	ZH 1:
+-	'Gahahahaha!h... Thật'
+-	R
+-	'là một giấc mơ ngớ'
+-	R
+-	'ngẩn mà tôi đã có...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Làm ơn đừng hạ thấp'
+-	R
+-	'bản thân như vậy mà~. Chỉ'
+-	R
+-	'là tôi không hẹn hò thôi~.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Aya... Vẫn tử tế vào'
+-	R
+-	'thời điểm thế này... Đó'
+-	R
+-	'là một tội ác... Aah...'
+-	\L_0390c:
+-	ZH 1:
+-	'Nhưng cậu có thể tự do'
+-	R
+-	'nghĩ những gì mình muốn...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Có～, tốt～.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Vậy thì tôi sẽ cổ vũ'
+-	R
+-	'cho cậu từ trong bóng tối.'
+-	\L_0390c:
+-	ZH 1:
+-	'Chúc may mắn với'
+-	R
+-	'công việc của cậu...'
+-	\L_0390c:
+-	ZH 1:
+-	'Uu...! người'
+-	R
+-	'lính chạy đi với những'
+-	R
+-	'giọt nước mắt sáng ngời.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'À~.'
++	'Bằng giọng thong thả'
++	R
++	'như mọi khi, Aya cúi'
++	R
++	'đầu xin lỗi người lính.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'......Cũng phải thôi...'
++	\L_0390c:
++	ZH 1:
++	'Một người giỏi'
++	R
++	'giang như cô Aya'
++	\L_0390c:
++	ZH 1:
++	'sao lại chịu hẹn hò với một'
++	R
++	'tên lính quèn như tôi...'
++	\L_0390c:
++	ZH 1:
++	'Ha ha... mình đã mơ mộng'
++	R
++	'gì thế không biết...'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Xin đừng tự hạ thấp mình như'
++	R
++	'thế~. Chỉ là vì lý do của em'
++	R
++	'nên em không hẹn hò thôi~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Cô Aya... tử tế với'
++	R
++	'tôi vào lúc thế này...'
++	R
++	'thật có tội đấy... A...'
++	\L_0390c:
++	ZH 1:
++	'Nhưng... thầm thương thì...'
++	R
++	'vẫn là quyền tự do nhỉ...'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Vâng~ thì~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Vậy thì... tôi sẽ cổ vũ'
++	R
++	'cô Aya từ trong bóng tối.'
++	\L_0390c:
++	ZH 1:
++	'Cô làm việc... cố lên nhé...'
++	\L_0390c:
++	ZH 1:
++	'Ư......! Người lính rưng'
++	R
++	'rưng nước mắt, chạy đi.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'A~.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Aya từ từ đưa tay ra,'
+-	R
+-	'nhưng người lính đã đi mất.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Haah～... Chết tiệt~.'
++	'Aya đưa tay ra chậm'
++	R
++	'một nhịp, nhưng người'
++	R
++	'lính đã biến mất.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Ha~... khó xử ghê~.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	!VAR0516 : 1!
+ 	\L_0383b:
+ 	\L_037e7:
+ 	ZH 1:
+-	'Cái gì? Nó không phải'
+-	R
+-	'là tốt để được phổ biến?'
+-	\L_0390c:
+-	ZH 1:
+-	'Hay sao? Em đã từ chối hắn'
+-	R
+-	'vì ta? uh～, không～.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'... Anh không cần'
+-	R
+-	'phải thẳng thừng như vậy...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Nhưng～, tôi～... tôi không'
+-	R
+-	'có hứng thú với đàn ông~.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Thế có nghĩa là anh'
+-	R
+-	'thích phụ nữ phải không?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Không~. Aah... Vậy'
+-	R
+-	'có lẽ tôi nên nói là tôi'
+-	R
+-	'cũng không quan tâm đâu~?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'... Nếu em không'
+-	R
+-	'thích con người, thì...'
+-	\L_0390c:
+-	ZH 1:
+-	'Ta hiểu rồi, em có'
+-	R
+-	'một niềm đam mê quái vật!'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'À～, Không~.'
+-	\L_0390c:
+-	ZH 1:
+-	'Chỉ là tôi không thể'
+-	R
+-	'cảm thấy ham muốn gì với'
+-	R
+-	'cơ thể con người thôi~.'
++	'Sao thế? Được mến là'
++	R
++	'chuyện tốt còn gì.'
++	\L_0390c:
++	ZH 1:
++	'Hay là sao? Em từ'
++	R
++	'chối vì có ta à?'
++	R
++	'Aya「Ơ~ không phải ạ~.」'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'...Không cần phủ nhận'
++	R
++	'dứt khoát thế đâu...'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Tại vì~ em~... không'
++	R
++	'hứng thú với đàn ông ạ~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Thế nghĩa là em'
++	R
++	'thích phụ nữ hơn à?'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Không ạ~. A... vậy chắc là'
++	R
++	'cả hai đều không được nhỉ~?'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'...Con người'
++	R
++	'không được thì...'
++	\L_0390c:
++	ZH 1:
++	'Hiểu rồi, mê quái vật!'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'A~ không phải ạ~.'
++	\L_0390c:
++	ZH 1:
++	'Chỉ là~ cơ địa em không'
++	R
++	'thể nổi dục với cơ'
++	R
++	'thể con người thôi~.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_037e7:
+@@ -1714,30 +1642,26 @@
+ 	\L_038ff:
+ 	\L_03857:
+ 	ZH 1:
+-	'Có lẽ là do tôi'
+-	R
+-	'dành toàn bộ thời gian'
+-	R
+-	'cho việc học y khoa～...'
+-	\L_0390c:
+-	ZH 1:
+-	'Tôi chỉ có thể coi bất kỳ cơ'
+-	R
+-	'thể nào là đối tượng của'
+-	R
+-	'nghiên cứu y học～.'
+-	\L_0390c:
+-	ZH 1:
+-	'mẹ kiếp...?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Haah～... Giống như～, giả'
+-	R
+-	'sử có ai đó đến gặp tôi để'
+-	R
+-	'phẫu thuật hẹp bao quy đầu～.'
++	'Có lẽ vì em học y suốt~...'
++	\L_0390c:
++	ZH 1:
++	'nên cơ thể sinh vật'
++	R
++	'nào em cũng chỉ thấy là'
++	R
++	'đối tượng y học thôi~.'
++	\L_0390c:
++	ZH 1:
++	'Rance「Cái gì thế...」'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Ha~... ví dụ nhé~, có'
++	R
++	'người đến nhờ em phẫu'
++	R
++	'thuật hẹp bao quy đầu~.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_037e7:
+@@ -1747,95 +1671,89 @@
+ 	\L_038ff:
+ 	\L_03857:
+ 	ZH 1:
+-	'Trong trường'
+-	R
+-	'hợp đó～, cơ quan sinh sản'
+-	R
+-	'là bộ phận được điều trị～.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Chắc chắn rồi.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Cứ làm thế đi~, và'
+-	R
+-	'cậu sẽ quen với nó thôi~.'
+-	\L_0390c:
+-	ZH 1:
+-	'Tôi không thấy có gì'
+-	R
+-	'đáng thèm muốn trong đó cả~,'
+-	\L_0390c:
+-	ZH 1:
+-	'tôi thậm chí còn'
+-	R
+-	'không muốn chạm vào nó~.'
+-	\L_0390c:
+-	ZH 1:
+-	'Ngoài ra～, nó khiến'
+-	R
+-	'bất cứ ai tôi gặp cũng trở'
+-	R
+-	'thành bệnh nhân của tôi～.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Nhưng ta'
+-	R
+-	'là bệnh nhân của em, ta đã'
+-	R
+-	'cương cứng và muốn làm tình.'
+-	\L_0390c:
+-	ZH 1:
+-	'Vì vậy, đụ thôi.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Không~. Không quan tâm～.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Vậy làm sao ta có'
+-	R
+-	'thể thuyết phục được em?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Ngài có phải'
+-	R
+-	'làm vậy không～?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Ta phải làm vậy~, vâng.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Tôi hiểu rồi~.'
+-	R
+-	'Rắc rối gì vậy~...'
++	'Lúc đó~ bộ phận sinh'
++	R
++	'dục là vùng bệnh~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Ừ.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Cứ thế mãi~, có lẽ'
++	R
++	'vì nhìn quen rồi~'
++	R
++	'nên không được nữa~.'
++	\L_0390c:
++	ZH 1:
++	'Nhìn cũng chẳng nổi dục~,'
++	\L_0390c:
++	ZH 1:
++	'sờ cũng không được~.'
++	\L_0390c:
++	ZH 1:
++	'Mà nữa~, ai em gặp cũng'
++	R
++	'thành bệnh nhân của em hết~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Nhưng ta thì dù có thành'
++	R
++	'bệnh nhân của Aya, cái'
++	R
++	'cần cương vẫn cương,'
++	\L_0390c:
++	ZH 1:
++	'muốn làm vẫn muốn làm.'
++	R
++	'Nên cho ta làm đi.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Không được ạ~. Em'
++	R
++	'không có hứng~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Vậy chuyện gì xảy ra thì'
++	R
++	'em mới chịu cho ta làm?'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Ngài nhất quyết~ muốn ạ~?'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Nhất quyết~.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Vậy~ à~. Khó xử ghê~......'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0388f:
+ 	ZH 1:
+-	'Aya suy nghĩ kỹ càng,'
+-	R
+-	'làm vẻ mặt căng thẳng.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Bệnh Okayu～.'
++	'Aya nhăn mặt suy'
++	R
++	'nghĩ một hồi, rồi...'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Bệnh Okayu~.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_037e7:
+@@ -1845,127 +1763,119 @@
+ 	\L_038ff:
+ 	\L_03857:
+ 	ZH 1:
+-	'Nếu ngài mắc'
+-	R
+-	'bệnh oku, tôi sẽ chăm sóc'
+-	R
+-	'ngài~. bệnh okayu là gì?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Bản thân tôi cũng chưa'
+-	R
+-	'từng thấy trường hợp nào có'
+-	R
+-	'người mắc phải căn bệnh này,'
++	'Bệ hạ mắc bệnh Okayu'
++	R
++	'thì em sẽ chăm sóc ạ~.'
++	R
++	'Rance「Bệnh Okayu là gì?」'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Dạ~ em cũng chưa từng'
++	R
++	'thấy ca bệnh nào~...'
+ 	\L_0390c:
+ 	ZH 1:
+ 	'nhưng~...'
+ 	\L_0390c:
+ 	ZH 1:
+-	'Theo những gì tôi nghe'
+-	R
+-	'được～, nếu ngài mắc phải'
+-	R
+-	'nó,'
+-	\L_0390c:
+-	ZH 1:
+-	'ngài dần dần trở nên'
+-	R
+-	'giống như một cơn sốt oku～.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Vậy tại sao em lại đụ'
+-	R
+-	'ta nếu ta có điều đó?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Nó có cách'
+-	R
+-	'chữa trị độc đáo~.'
+-	\L_0390c:
+-	ZH 1:
+-	'Ngài phải quan hệ'
+-	R
+-	'tình dục và sử dụng'
+-	R
+-	'một câu thần chú để'
+-	\L_0390c:
+-	ZH 1:
+-	'điều trị nó bằng dịch âm'
+-	R
+-	'đạo như một chất xúc tác～.'
+-	\L_0390c:
+-	ZH 1:
+-	'Ngoài ra～, đây là một căn'
+-	R
+-	'bệnh hiếm gặp nên tôi rất tò'
+-	R
+-	'mò muốn xem… Chỉ vậy thôi~.'
+-	\L_0390c:
+-	ZH 1:
+-	'Đó là căn bệnh'
+-	R
+-	'mà nhiều bác sĩ chưa'
+-	R
+-	'từng gặp trong đời～...'
+-	\L_0390c:
+-	ZH 1:
+-	'Sẽ thật tuyệt nếu'
+-	R
+-	'tôi có thể nhìn thấy'
+-	R
+-	'nó, tôi nghĩ vậy~...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Được rồi, vậy nếu'
+-	R
+-	'ta mắc phải thì em sẽ quan'
+-	R
+-	'hệ với ta để chữa trị nhé?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Yee ~ ees... Chà...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Gahahahaha! ế là ổn'
+-	R
+-	'thỏa! Ta sẽ lây bệnh cho em!'
++	'nghe nói~ hễ bị nhiễm là'
++	\L_0390c:
++	ZH 1:
++	'người sẽ dần dần trở'
++	R
++	'nên giống Okayu Fever~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Thế sao bị cái đó thì'
++	R
++	'em lại cho ta làm?'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Dạ~. Cách chữa trị'
++	R
++	'đặc biệt lắm ạ~.'
++	\L_0390c:
++	ZH 1:
++	'Phải quan hệ, rồi'
++	R
++	'lấy dịch trong âm'
++	R
++	'đạo làm chất xúc tác'
++	\L_0390c:
++	ZH 1:
++	'để niệm chú chữa'
++	R
++	'trị mới được~.'
++	\L_0390c:
++	ZH 1:
++	'Với lại~ bệnh hiếm'
++	R
++	'nên em tò mò muốn xem'
++	R
++	'thử...... Chỉ vậy thôi ạ~.'
++	\L_0390c:
++	ZH 1:
++	'Nghe nói là bệnh mà'
++	R
++	'nhiều người làm bác sĩ'
++	R
++	'cả đời cũng chưa gặp~...'
++	\L_0390c:
++	ZH 1:
++	'Nếu được thấy nó~ thì'
++	R
++	'cũng được thôi~...'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Được, vậy nếu ta mắc bệnh'
++	R
++	'đó thì Aya sẽ làm tình'
++	R
++	'để chữa cho ta chứ gì?'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Dạaa... nhưng...'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Gahahahaha!! Đã quyết'
++	R
++	'thế thì nhanh thôi! Ta sẽ'
++	R
++	'mắc bệnh Okayu cho xem!'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_03849:
+ 	\L_03857:
+ 	ZH 1:
+-	'... Trời ạ～... Hầu như'
+-	R
+-	'không có ai mắc căn bệnh đó'
+-	R
+-	'cả~... Vậy nên... Aah～...'
+-	\L_0390c:
+-	ZH 1:
+-	'Hắn đã khỏi'
+-	R
+-	'rồi～... một người đàn ông'
+-	R
+-	'khó tính như vậy～. Oh tốt~.'
++	'...Trời ạ~... bệnh này'
++	R
++	'hầu như chẳng ai mắc'
++	R
++	'đâu~. ......Ơ... a~...'
++	\L_0390c:
++	ZH 1:
++	'đi mất rồi~... Người'
++	R
++	'gì đâu~. Thôi~ kệ vậy~.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0388f:
+ 	ZH 1:
+-	'Aya nhàn nhã quay'
+-	R
+-	'lại Bệnh viện Genius.'
++	'Aya thong thả quay về'
++	R
++	'Bệnh viện Thiên Tài.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	!VAR0516 : 0!
+@@ -1981,41 +1891,41 @@
+ 	\L_0381f:
+ 	ZM 32:
+ 	ZH 1:
+-	'Ngục tối của'
+-	R
+-	'kẻ thù tự nhiên'
++	'Mê cung Thiên Địch'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tầng hầm 10F Haah... Đúng'
+-	R
+-	'là một cơn sốt kỳ lạ nhỉ...'
+-	\L_0390c:
+-	ZH 1:
+-	'rance dùng kiếm đâm vào xác'
+-	R
+-	'của cơn sốt okayu màu tím'
+-	R
+-	'trong khi hắn nghỉ ngơi.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Bây giờ...'
++	'Tầng hầm 10'
++	R
++	'Rance「Phù... Okayu Fever'
++	R
++	'ghê thật đấy...」'
++	\L_0390c:
++	ZH 1:
++	'Rance lấy kiếm chọc chọc'
++	R
++	'cái xác Okayu Fever tím'
++	R
++	'ngắt trước mặt, thở phào.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Nào...'
+ 	\L_0390c:
+ 	{VAR0564 = 5:
+ 		ZH 1:
+-		'Ta nên làm gì'
+-		R
+-		'để mắc bệnh okayu...?'
++		'Làm sao để nhiễm'
++		R
++		'bệnh Okayu nhỉ...'
+ 		\L_0390c:
+ 	}
+ 	{VAR0564 = 6:
+ 		ZH 1:
+-		'Nếu ta hôn thứ này,'
+-		R
+-		'ta sẽ mắc bệnh oku...'
++		'Hình như hôn nó là mắc'
++		R
++		'bệnh Okayu được thì phải...'
+ 		\L_0390c:
+ 	}
+ 	\L_038ff:
+@@ -2026,11 +1936,11 @@
+ 	}
+ 	ZH 1:
+ 	$L_02368$
+-	'Không làm gì cả'
++	'Không làm gì'
+ 	$
+ 	R
+ 	$L_023cd$
+-	'Liên lạc'
++	'Sờ thử'
+ 	$
+ 	R
+ 	$L_02463$
+@@ -2038,33 +1948,29 @@
+ 	$
+ 	R
+ 	$L_025a6$
+-	'Nụ hôn'
++	'Hôn'
+ 	$
+ 	]
+ 	@L_02310:
+ *L_02368:
+ 	\L_03803:
+ 	ZH 1:
+-	'Hmm, ghê quá đúng'
+-	R
+-	'như ta tưởng tượng...'
+-	\L_0390c:
+-	ZH 1:
+-	'Dù ta có muốn đụ Aya'
+-	R
+-	'đến thế nào đi chăng nữa'
+-	\L_0390c:
+-	ZH 1:
+-	'thì ta cũng không thể'
+-	R
+-	'chạm vào thứ này được nhé.'
++	'Ừm, đúng là ghê thật...'
++	\L_0390c:
++	ZH 1:
++	'Dù là để được làm'
++	R
++	'tình với Aya đi nữa...'
++	\L_0390c:
++	ZH 1:
++	'Okayu này thì không được.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Rance rời khỏi xác chết'
+-	R
+-	'của cơn sốt okayu và bỏ đi.'
++	'Rance bỏ mặc xác Okayu'
++	R
++	'Fever, rời khỏi chỗ đó.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_03849:
+@@ -2072,34 +1978,30 @@
+ *L_023cd:
+ 	\L_03803:
+ 	ZH 1:
+-	'Chà, có lẽ'
+-	R
+-	'ta có thể mắc bệnh chỉ bằng'
+-	R
+-	'cách chạm vào nó. Hãy thử...'
++	'Phải rồi, sờ vào có khi'
++	R
++	'nhiễm được. Sờ sờ...'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Rance đã'
+-	R
+-	'cố gắng chạm vào xác chết'
+-	R
+-	'màu tím của okayu fever.'
++	'Rance thử sờ vào cái xác'
++	R
++	'Okayu Fever tím ngắt.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_03803:
+ 	ZH 1:
+-	'Hmmmm, ta không cảm'
+-	R
+-	'thấy khác biệt chút nào.'
++	'Ừmmm, hình như chẳng'
++	R
++	'thay đổi gì cả.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Rance rời khỏi xác chết'
+-	R
+-	'của cơn sốt okayu và bỏ đi.'
++	'Rance bỏ mặc xác Okayu'
++	R
++	'Fever, rời khỏi chỗ đó.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_03849:
+@@ -2107,35 +2009,35 @@
+ *L_02463:
+ 	\L_03803:
+ 	ZH 1:
+-	'Có lẽ ta sẽ mắc'
+-	R
+-	'bệnh nếu ăn một chút.'
++	'Ăn thử một chút'
++	R
++	'có khi lại nhiễm.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Rance dùng kiếm cắt'
+-	R
+-	'đứt một chút thịt của okayu.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Hãy xem...'
+-	\L_0390c:
+-	ZH 1:
+-	'sau đó, hắn dán thịt lên'
+-	R
+-	'đầu thanh kiếm của hắn và'
+-	R
+-	'bắt đầu nấu nó bằng bật lửa.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Được rồi... Trung'
+-	R
+-	'bình. Đến giờ ăn rồi.'
++	'Rance dùng kiếm xẻo'
++	R
++	'một chút thịt Okayu.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Để xem...'
++	\L_0390c:
++	ZH 1:
++	'Rồi hắn xiên miếng'
++	R
++	'thịt lên mũi kiếm, dùng'
++	R
++	'bật lửa nướng xèo xèo.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Được... tái vừa.'
++	R
++	'Ăn thôi. Măm.'
+ 	\L_0390c:
+ 	ZH 1:
+ 	'............'
+@@ -2144,25 +2046,25 @@
+ 	'............'
+ 	\L_0390c:
+ 	ZH 1:
+-	'Ôiiiiiii!!! Tuyệt'
+-	R
+-	'vời!!! Rance nhổ thịt sốt'
+-	R
+-	'okayu màu tím (trung bình).'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Aah... Chết tiệt!'
+-	R
+-	'Ta không cần cái này!'
++	'Phụtttt!!! Kinh quáaaa!!!'
++	R
++	'Rance nhổ miếng thịt Okayu'
++	R
++	'Fever tím (tái vừa) ra.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Aa... thôi... đủ'
++	R
++	'rồi! Không thèm!'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Rance rời khỏi xác chết'
+-	R
+-	'của cơn sốt okayu và bỏ đi.'
++	'Rance bỏ mặc xác Okayu'
++	R
++	'Fever, rời khỏi chỗ đó.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_03849:
+@@ -2171,30 +2073,28 @@
+ 	!VAR0564 : 7!
+ 	\L_03803:
+ 	ZH 1:
+-	'Sh-Ta có nên'
+-	R
+-	'hôn nó không...? ôiiiiiii...'
++	'H... hôn sao......'
++	R
++	'Ưưư.........'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Rance nắm lấy'
+-	R
+-	'khuôn mặt của cơn sốt okayu'
+-	R
+-	'màu tím bằng cả hai tay.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Ta thực sự không muốn...'
++	'Rance hai tay nắm lấy'
++	R
++	'mặt Okayu Fever tím ngắt.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Quả nhiên...... ghê quá...'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+ 	ZH 1:
+-	'PLO plop） đầu của'
+-	R
+-	'okayu rơi xuống đất.'
++	'(Lộc cộc) Đầu con'
++	R
++	'Okayu rơi xuống đất.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_037e7:
+@@ -2202,19 +2102,17 @@
+ 	'............'
+ 	\L_0390c:
+ 	ZH 1:
+-	'Ờ...'
+-	\L_0390c:
+-	ZH 1:
+-	'Chết tiệt!!'
+-	R
+-	'Ta tuyệt vọng!!'
++	'Ơ......'
++	\L_0390c:
++	ZH 1:
++	'Hừ!! Liều luôn!!'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Rance nhắm mắt lại và'
+-	R
+-	'nhặt đầu okayu một lần nữa.'
++	'Rance nhắm mắt, lại'
++	R
++	'nắm lấy đầu con Okayu.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_037e7:
+@@ -2222,11 +2120,9 @@
+ 	'........'
+ 	\L_0390c:
+ 	ZH 1:
+-	'............ sau'
+-	R
+-	'đó, anh ta từ từ đưa khuôn'
+-	R
+-	'mặt của mình về phía nó...'
++	'Rồi, hắn chầm chậm'
++	R
++	'đưa mặt lại gần...'
+ 	\L_0390c:
+ 	ZH 1:
+ 	'　　（............）'
+@@ -2235,7 +2131,7 @@
+ 	'　　（............）'
+ 	\L_0390c:
+ 	ZH 1:
+-	'（...smooch...）'
++	'(......chụt......)'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_037e7:
+@@ -2246,47 +2142,43 @@
+ 	'.........'
+ 	\L_0390c:
+ 	ZH 1:
+-	'Uuuuugh!! Đưa ta nước'
+-	R
+-	'súc miệng, nhanh lên!!'
++	'Ọeee!! Nước súc'
++	R
++	'miệng, nhanh nhanh!!'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	!VAR0516 : 471!
+ 	\L_038ab:
+ 	\L_03857:
+ 	ZH 1:
+-	'Vua ơi, sao'
+-	R
+-	'vua lại làm thế...?'
++	'Bệ hạ, sao ngài lại'
++	R
++	'làm chuyện đó...'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0388f:
+ 	ZH 1:
+-	'Một người lính đang theo'
+-	R
+-	'dõi Rance hỏi khi anh ta'
+-	R
+-	'đưa một ít nước súc miệng.'
+-	\L_0390c:
+-	ZH 1:
+-	'có những lúc'
+-	R
+-	'một người đàn ông chỉ'
+-	R
+-	'cần làm một cái gì đó.'
+-	\L_0390c:
+-	ZH 1:
+-	'Súc miệng, súc'
+-	R
+-	'miệng, súc miệng...'
+-	\L_0390c:
+-	ZH 1:
+-	'Haa!!'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Haa...'
++	'Người lính theo dõi từng'
++	R
++	'hành động của Rance vừa'
++	R
++	'đưa nước súc miệng vừa hỏi.'
++	\L_0390c:
++	ZH 1:
++	'Rance「Đàn ông có lúc'
++	R
++	'phải làm điều phải làm.'
++	\L_0390c:
++	ZH 1:
++	'Ục ục ục...'
++	\L_0390c:
++	ZH 1:
++	'Phụt!!」'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Dạ......'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_03849:
+@@ -2310,70 +2202,64 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Chàng yêu,'
+-	R
+-	'chàng yêu!! Ừm, ừm, vậy hôm'
+-	R
+-	'nay...'
+-	\L_0390c:
+-	ZH 1:
+-	'... Em yêu?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'... Nnnah? có'
+-	R
+-	'gì sai...? Khuôn mặt'
+-	R
+-	'của nàng nhợt nhạt...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Uuuh... khuôn'
+-	R
+-	'mặt Của Rance trở nên nhợt'
+-	R
+-	'nhạt hơn và hắn cúi đầu.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Chàng yêu!?'
++	'Phòng yết kiến'
++	R
++	'Lia「Chàng ơi, chàng ơi!!'
++	R
++	'Nè, nè, hôm nay, hôm nay...'
++	\L_0390c:
++	ZH 1:
++	'......Chàng?」'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'......Hửừ? Lia「Sao'
++	R
++	'thế...? Mặt tái mét...」'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Ưư...... Rance mặt tái'
++	R
++	'mét, cúi gằm xuống.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Chàng!?'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_03803:
+ 	ZH 1:
+-	'Ugeeeeh... Ta'
+-	R
+-	'cảm thấy như cứt...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Chàng yêu, này chàng yêu!!'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Uuuuugh! Ngực ta đau...'
+-	\L_0390c:
+-	ZH 1:
+-	'Uh... Uu...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Chàng yêu!!'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Ờ...'
+-	\L_0390c:
+-	ZH 1:
+-	'... Ờ...'
++	'Ọe... khó chịu... quá...'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Chàng, nè, chàng ơi!!'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Ọeee! Ngực đau quá......'
++	\L_0390c:
++	ZH 1:
++	'Ư... ưư...'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Chàng!!'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Ư......'
++	\L_0390c:
++	ZH 1:
++	'...upo...'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_03857:
+@@ -2383,21 +2269,19 @@
+ 	\L_038ff:
+ 	\L_037e7:
+ 	ZH 1:
+-	'Ừm...? Thật kỳ'
+-	R
+-	'lạ... Tại sao ta lại...?'
+-	\L_0390c:
+-	ZH 1:
+-	'... Upo.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Chàng ổn chứ,'
+-	R
+-	'chàng yêu? Upo là điều mà'
+-	R
+-	'những cơn sốt oku nói...'
++	'Hử......? Lạ'
++	R
++	'thật... ta mà lại...'
++	\L_0390c:
++	ZH 1:
++	'...upo.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Chàng ổn không? Upo...'
++	R
++	'giống Okayu Fever thế...'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_037e7:
+@@ -2405,23 +2289,19 @@
+ 	'............'
+ 	\L_0390c:
+ 	ZH 1:
+-	'Okayu... Ta thấy.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Có chuyện gì'
+-	R
+-	'thế chàng yêu?'
++	'Okayu... à phải.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Chàng sao thế?'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_03803:
+ 	ZH 1:
+-	'Ta đã làm'
+-	R
+-	'được rồi... Ta mắc bệnh'
+-	R
+-	'OKu... Ta sẽ đi gặp Aya...'
++	'Được rồi... mắc bệnh Okayu'
++	R
++	'rồi... Ta đi tìm Aya đây...'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_03857:
+@@ -2431,16 +2311,14 @@
+ 	\L_038ff:
+ 	\L_037e7:
+ 	ZH 1:
+-	'Không có gì phải'
+-	R
+-	'lo lắng cả... Upo.'
++	'Đừng lo... upo.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Rance không kiên'
+-	R
+-	'định đến bệnh viện.'
++	'Rance loạng choạng'
++	R
++	'bước tới bệnh viện.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	!VAR0516 : 0!
+@@ -2459,162 +2337,150 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Bệnh viện thiên'
+-	R
+-	'tài Aya... Aya... Upo...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Ồ~, có chuyện'
+-	R
+-	'gì vậy, thưa ngài～?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Gahahahaha!... Upo.'
+-	\L_0390c:
+-	ZH 1:
+-	'Ta bị... sốt rồi... Upo...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Hả～～～～...? Không,'
+-	R
+-	'không...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Upo, em nghĩ ta'
+-	R
+-	'là một kẻ nói dối...?'
+-	R
+-	'... Lên... À... Lên...'
+-	\L_0390c:
+-	ZH 1:
+-	'Ta cảm thấy ốm...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Vâng, khuôn mặt của ngài'
+-	R
+-	'chuyển sang màu tím～... Điều'
+-	R
+-	'này chắc chắn phải là nó～...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Uh... Upopo...!'
++	'Bệnh viện Thiên Tài'
++	R
++	'Rance「Aya... Aya ơi...'
++	R
++	'upo...」'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Ơ~ ngài sao vậy~. Bệ hạ~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Gahahaha... upo.'
++	\L_0390c:
++	ZH 1:
++	'Mắc... bệnh Okayu...'
++	R
++	'rồi đây... upo...'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Ơ~~~~... Không thể nào...'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Upo, có gì mà không thể...'
++	R
++	'...upo... a... upo...'
++	\L_0390c:
++	ZH 1:
++	'Khó chịu quá...'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Đúng thật~... mặt'
++	R
++	'chuyển tím rồi~... quả'
++	R
++	'nhiên~ cái này là~...'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Ư... upopo...!'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_03849:
+ 	\L_0381f:
+ 	ZH 1:
+-	'（thud）'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance chuyển sang'
+-	R
+-	'màu tím và sụp đổ trước'
+-	R
+-	'Mặt Aya. oh thân mến~...'
+-	\L_0390c:
+-	ZH 1:
+-	'Điều này là xấu.'
+-	R
+-	'Ai đó mang theo cáng～!'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Lên... Thành'
+-	R
+-	'công... Lên...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'ngài~... Ngài'
+-	R
+-	'có ngu ngốc không?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Gahahahaha!... Upo...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Trời ạ~... Cậu'
+-	R
+-	'có thể chết mất~...'
+-	\L_0390c:
+-	ZH 1:
+-	'Dù thế nào đi nữa,'
+-	R
+-	'tôi sẽ chữa trị cho ngài'
+-	R
+-	'ngay lập tức～... Nhưng～...'
+-	\L_0390c:
+-	ZH 1:
+-	'Căn bệnh này'
+-	R
+-	'rắc rối quá~...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Gahahahaha!... Đúng'
+-	R
+-	'vậy～... Sex～... Upo.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Aah～... Tôi'
+-	R
+-	'biết rồi mà~...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Aya... Ta thực sự'
+-	R
+-	'muốn em, Aya. Cố lên.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Điều này là quá xa, mặc dù~.'
+-	R
+-	'Tốt～... Tôi sẽ làm những gì'
+-	R
+-	'tôi phải～...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Lên... Upopo...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Haah～... Lần đầu tiên'
+-	R
+-	'này sẽ lạ lắm đây~...'
++	'(Rầm)'
++	\L_0390c:
++	ZH 1:
++	'Rance tím tái, đổ gục trước'
++	R
++	'mặt Aya. Aya「Ôi ôi ôi~...'
++	\L_0390c:
++	ZH 1:
++	'Gay go, gay go. Ai'
++	R
++	'đó~ mang cáng~!」'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Upo... được rồi... upo...'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Bệ hạ... lẽ nào~... ngốc ạ?'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Gahahaha... upo...'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Trời ạ~... ngài chết'
++	R
++	'em cũng mặc kệ đấy~...'
++	\L_0390c:
++	ZH 1:
++	'Dù sao cũng phải chữa'
++	R
++	'gấp~... Nhưng~...'
++	\L_0390c:
++	ZH 1:
++	'khó xử quá~...'
++	R
++	'bệnh này thì~...'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Gahahaha... đúng'
++	R
++	'thế~... ân ái~... upo.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Ư~... quả nhiên~...'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Aya... ta... siêu'
++	R
++	'muốn Aya. Upo upo.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Đừng có siêu này siêu'
++	R
++	'nọ~. Đúng vậy~...'
++	R
++	'đành chịu thôi~...'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Upo... upopo...'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Ha~... lần đầu tiên này'
++	R
++	'chắc kỳ quặc lắm đây~...'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_0388f:
+ 	ZH 1:
+-	'Aya đi cạnh cáng mà Rance'
+-	R
+-	'đang được khiêng và gãi đầu.'
++	'Vừa lững thững đi bên cáng'
++	R
++	'chở Rance, Aya vừa gãi đầu.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	PF1 VAR0056:
+@@ -2622,401 +2488,375 @@
+ 	\L_038c7:
+ 	PF0 VAR0056:
+ 	ZH 1:
+-	'Aya 「Bây giờ~... Hãy bắt đầu điều trị.」'
+-	\L_0390c:
+-	ZH 1:
+-	'Giọng nói của Aya trở nên'
+-	R
+-	'căng thẳng. Bầu không khí'
+-	\L_0390c:
+-	ZH 1:
+-	'xung quanh cô cũng tự nhiên trở nên căng thẳng.'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Em sẽ tiêm thuốc cho'
+-	R
+-	'bệnh nhân. Khử trùng cánh'
+-	\L_0390c:
+-	ZH 1:
+-	'tay phải của hắn. Mang thuốc cho tôi.」'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「N - Không, ta không muốn tiêm, upo!」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Bệnh nhân nên tin tưởng bác'
+-	R
+-	'sĩ của mình. À, cảm ơn ngài.」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya lấy ống tiêm từ y tá.'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「Upo～, upo～.」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Im lặng.」'
+-	\L_0390c:
+-	ZH 1:
+-	'(psh)'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「Upoooooooo!!」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Điều đó sẽ tốt thôi...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「W-đó là gì? Lên.」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Thuốc kích thích tình dục dành cho'
+-	R
+-	'nam giới. Nó sẽ làm giảm cơn đau ... 」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Tất nhiên,'
+-	\L_0390c:
+-	ZH 1:
+-	'tôi tưởng tượng điều này cũng sẽ'
+-	\L_0390c:
+-	ZH 1:
+-	'làm tổn thương tôi,」 vì vậy có lẽ tôi nên'
+-	R
+-	'cố tình làm tổn thương ngươi? Huhuhu.」'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「Lên~~~...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Giờ đến lượt em...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya nhặt được 3 viên thuốc màu hồng.'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Ngh...」 nàng nuốt chúng.'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Haah...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「ngươi cũng bị bệnh Hay gì đó...??'
+-	R
+-	'Lên lên.」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Đó là một loại thuốc kích thích'
+-	R
+-	'tình dục khác. Em không thể làm'
+-	\L_0390c:
+-	ZH 1:
+-	'được điều này nếu tôi」 không bị ướt.」'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「ta thấy... Lên.」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Mm... Nó đang có hiệu lực...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Má của Aya đỏ bừng.'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Cởi quần áo của bệnh nhân.」'
+-	\L_0390c:
+-	ZH 1:
+-	'Y tá 「Vâng.」'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「Uh... Upo~!」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Hể...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Y tá 「Ồ...!」'
+-	\L_0390c:
+-	ZH 1:
+-	'Y tá 「Kyah!?」'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「Wh-Cái Gì...? Lên. Là một'
+-	R
+-	'cái gì đó sai với ta... Upo?」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Chà... Em chưa bao giờ'
+-	R
+-	'thấy một cái nào lớn như vậy...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Tôi không biết liệu mình có'
+-	R
+-	'thể nhét nó vào được không.'
+-	\L_0390c:
+-	ZH 1:
+-	'Ai đó hãy chuẩn bị một ít dầu bôi trơn.」'
+-	\L_0390c:
+-	ZH 1:
+-	'Y tá 「Vâng.」'
+-	\L_0390c:
+-	ZH 1:
+-	'Có lẽ do căn bệnh này mà siêu vũ khí'
+-	\L_0390c:
+-	ZH 1:
+-	'của Rance thậm chí còn to hơn bình'
+-	R
+-	'thường. Chu vi của nó đã tăng gấp đôi.'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「U-Upo... Ta cảm thấy thiếu máu...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Tệ quá...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Do kích thước sưng tấy của nó nên nó lấy nhiều máu'
+-	\L_0390c:
+-	ZH 1:
+-	'hơn bình thường. Tôi phải chữa nó nhanh lên...!'
++	'Aya「Vậy thì~... bắt đầu chữa trị thôi」'
++	\L_0390c:
++	ZH 1:
++	'Giọng Aya trở nên dứt khoát. Bầu không khí'
++	\L_0390c:
++	ZH 1:
++	'xung quanh cũng tự nhiên căng lên.'
++	\L_0390c:
++	ZH 1:
++	'Aya「Tôi sẽ tiêm cho bệnh nhân. Sát trùng'
++	\L_0390c:
++	ZH 1:
++	'cánh tay phải. Thuốc thì...」'
++	\L_0390c:
++	ZH 1:
++	'Rance「T... tiêm, không chịu đâu, upo!」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Bệnh nhân không được bướng. A, cảm ơn」'
++	\L_0390c:
++	ZH 1:
++	'Aya nhận ống tiêm từ cô y tá.'
++	\L_0390c:
++	ZH 1:
++	'Rance「Upo~ upo~」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Im lặng」'
++	\L_0390c:
++	ZH 1:
++	'(Phập)'
++	\L_0390c:
++	ZH 1:
++	'Rance「Upooooo!!」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Thế là bên đó xong...」'
++	\L_0390c:
++	ZH 1:
++	'Rance「V... vừa rồi là gì? upo」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Thuốc kích dục cho đàn ông. Đau thì...」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Vì tôi sắp phải chịu đau,'
++	\L_0390c:
++	ZH 1:
++	'nên cố tình...'
++	\L_0390c:
++	ZH 1:
++	'chăng? Phư phư phư」'
++	\L_0390c:
++	ZH 1:
++	'Rance「Upooo~~~...」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Nào... tiếp theo đến lượt tôi...」'
++	\L_0390c:
++	ZH 1:
++	'Aya lấy ba viên thuốc hồng ra lòng bàn tay.'
++	\L_0390c:
++	ZH 1:
++	'Aya「Ưm...」 Rồi uống cạn.'
++	\L_0390c:
++	ZH 1:
++	'Aya「Hà......」'
++	\L_0390c:
++	ZH 1:
++	'Rance「Sao Aya chữa trị mà cũng...?? upo upo」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Thì biết làm sao. Không ướt thì...'
++	\L_0390c:
++	ZH 1:
++	'thuốc kích dục đấy...」'
++	\L_0390c:
++	ZH 1:
++	'Rance「Ra thế... upo」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Ưm... có tác dụng rồi......」'
++	\L_0390c:
++	ZH 1:
++	'Má Aya ửng đỏ.'
++	\L_0390c:
++	ZH 1:
++	'Aya「Cởi quần áo bệnh nhân ra」'
++	\L_0390c:
++	ZH 1:
++	'Y tá「Vâng」'
++	\L_0390c:
++	ZH 1:
++	'Rance「Ư... upo~!」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Hả......」'
++	\L_0390c:
++	ZH 1:
++	'Y tá「Ôi...!」'
++	\L_0390c:
++	ZH 1:
++	'Y tá「Kya!?」'
++	\L_0390c:
++	ZH 1:
++	'Rance「G... gì thế... upo.'
++	R
++	'Của ta... upo... lạ lắm à?」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Ôi... to thế này...'
++	\L_0390c:
++	ZH 1:
++	'lần đầu tôi thấy đấy... có vào được không...?'
++	\L_0390c:
++	ZH 1:
++	'Ai đó... chuẩn bị cả gel nữa」'
++	\L_0390c:
++	ZH 1:
++	'Y tá「Vâng」'
++	\L_0390c:
++	ZH 1:
++	'Không ngờ, siêu vũ khí vốn đã'
++	R
++	'siêu của Rance, có lẽ vì bệnh,'
++	\L_0390c:
++	ZH 1:
++	'lại còn sưng to hơn nữa. Chu vi lớn hơn hai vòng.'
++	\L_0390c:
++	ZH 1:
++	'Rance「Ư... upo... thiếu máu......」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Gay rồi...'
++	\L_0390c:
++	ZH 1:
++	'Vì sưng to quá nên máu dồn hết về đó rồi.'
++	\L_0390c:
++	ZH 1:
++	'Phải chữa gấp thôi...!'
+ 	\L_0390c:
+ 	ZH 1:
+ 	'」'
+ 	\L_0390c:
+ 	ZH 1:
+-	'Aya cởi quần áo của mình.'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「... Được rồi. Trói tay và chân'
+-	R
+-	'của bệnh nhân để đảm bảo an toàn.」'
+-	\L_0390c:
+-	ZH 1:
+-	'Y tá 「Vâng.」 các y tá trói tay'
+-	R
+-	'và chân Của Rance bằng thắt lưng.'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Húp...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya lên giường và bắt đầu'
+-	R
+-	'xoa dầu bôi trơn lên tay.'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Em tự hỏi liệu nó có vừa không...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Ranc 「Ah... Aheheh? Upopo.」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya xoa chất bôi trơn lên siêu'
+-	R
+-	'vũ khí phóng to của Rance.'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「Ah... Ồ... Điều này thật'
+-	R
+-	'kỳ lạ... Điều này cảm thấy...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Y tá 「Ừm... Bác sĩ Aya...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Thay vào đó tôi làm việc đó thì sao? Đây'
+-	R
+-	'không phải là lần đầu tiên của ngươi. 」'
+-	\L_0390c:
+-	ZH 1:
+-	'Một y tá lớn tuổi hơn đã đề nghị với Aya.'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Không, em sẽ làm điều đó,'
+-	\L_0390c:
+-	ZH 1:
+-	'tôi đã đi xa đến mức này rồi. Ngoài'
+-	R
+-	'ra,」 đó là điều nhà vua muốn...'
+-	\L_0390c:
+-	ZH 1:
+-	'bằng cách nào đó tôi sẽ làm được.」'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「Lên～～...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Ngh... Thích thế này à?」'
+-	\L_0390c:
+-	ZH 1:
+-	'Chất lỏng trong suốt chảy xuống đùi Aya.'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Đây rồi...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya lên Rance.'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「Upopo～...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance thậm chí còn bị kích thích nhiều hơn'
+-	R
+-	'ngay khi hắn là âm hộ ẩm Ướt Của Aya.'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Aah... Nó to hơn rồi...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya cầm siêu vũ khí của Rance trong tay.'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Ngh...」 sau đó, nàng'
+-	R
+-	'nhắm nó vào âm hộ của mình.'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Haah...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Yaaaaaah!!」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya thả lỏng hông cùng một lúc.'
++	'Aya cởi phăng quần áo.'
++	\L_0390c:
++	ZH 1:
++	'Aya「...Được. Để chắc ăn, cố'
++	R
++	'định tay chân bệnh nhân lại」'
++	\L_0390c:
++	ZH 1:
++	'Y tá「Vâng」 Các y tá dùng đai cố'
++	R
++	'định tay chân Rance vào giường.'
++	\L_0390c:
++	ZH 1:
++	'Aya「Hây dà...」'
++	\L_0390c:
++	ZH 1:
++	'Aya trèo lên giường, đổ gel ra lòng bàn tay.'
++	\L_0390c:
++	ZH 1:
++	'Aya「Có vào được không nhỉ......」'
++	\L_0390c:
++	ZH 1:
++	'Rance「A... a hê hê? upopo」'
++	\L_0390c:
++	ZH 1:
++	'Aya bôi gel lên siêu vũ khí sưng to của Rance.'
++	\L_0390c:
++	ZH 1:
++	'Rance「A... ơ kìa... lạ lắm... cảm giác...」'
++	\L_0390c:
++	ZH 1:
++	'Y tá「Thưa... bác sĩ Aya... để tôi làm thay nhé?'
++	\L_0390c:
++	ZH 1:
++	'Nếu bác sĩ là lần đầu thì... cái'
++	R
++	'này... khá là... Tôi thì không sao đâu」'
++	\L_0390c:
++	ZH 1:
++	'Một cô y tá lớn tuổi hơn đề nghị với Aya.'
++	\L_0390c:
++	ZH 1:
++	'Aya「Không, đã đến nước này rồi,'
++	\L_0390c:
++	ZH 1:
++	'tôi sẽ làm. Dù sao cũng là ý muốn của nhà vua...'
++	\L_0390c:
++	ZH 1:
++	'tôi sẽ cố xoay xở」'
++	\L_0390c:
++	ZH 1:
++	'Rance「Upo~~......」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Ưm... thế này... được chưa nhỉ?」'
++	\L_0390c:
++	ZH 1:
++	'Mật trong suốt chảy xuống đùi Aya.'
++	\L_0390c:
++	ZH 1:
++	'Aya「Hây... dà...」'
++	\L_0390c:
++	ZH 1:
++	'Aya ngồi lên người Rance.'
++	\L_0390c:
++	ZH 1:
++	'Rance「Upopo~...」'
++	\L_0390c:
++	ZH 1:
++	'Thoáng thấy cánh hoa ướt mật của'
++	R
++	'Aya, Rance càng hưng phấn hơn.'
++	\L_0390c:
++	ZH 1:
++	'Aya「A... lại to ra nữa......」'
++	\L_0390c:
++	ZH 1:
++	'Aya cầm lấy siêu vũ khí của Rance.'
++	\L_0390c:
++	ZH 1:
++	'Aya「Ưm......」 Rồi áp nó vào cánh hoa của mình.'
++	\L_0390c:
++	ZH 1:
++	'Aya「Ơ......」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Hâyyyyyy!!」'
++	\L_0390c:
++	ZH 1:
++	'Aya hạ hông xuống một lèo.'
+ 	\L_0390c:
+ 	G 195:
+ 	SS 24:
+ 	ZH 1:
+-	'Rance 「Ah... Aheheh?」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「À... Oooooooooooooow!!」'
++	'Rance「A... a hê hê?」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Đ... đauuuuuu!!」'
+ 	\L_0390c:
+ *L_03282:
+ 	ZH 1:
+-	'Máu chảy ra từ âm hộ của Aya, làm'
+-	R
+-	'ướt siêu vũ khí phóng to của Rance.'
+-	\L_0390c:
+-	ZH 1:
+-	'điều trông đau đớn hơn bất cứ thứ gì là cách siêu'
+-	\L_0390c:
+-	ZH 1:
+-	'vũ khí mở rộng trong cô khiến bụng cô phình ra.'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Ối...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Cơ thể của Aya co giật vì đau đớn,'
+-	R
+-	'nhưng nàng lắc đầu và tỏ ra nghiêm túc.'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Đau quá... Nhưng em phải làm điều này...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「Aah...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「... Ngài cảm thấy thế nào?」'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「các giác quan của Ta bị mờ đi... Lên.'
+-	\L_0390c:
+-	ZH 1:
+-	'Mặc dù đó là lần đầu tiên của chúng ta... Lên.」'
+-	\L_0390c:
+-	ZH 1:
+-	'... Ta không cảm thấy gì cả... Lên～...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Yên lặng, kiên nhẫn.」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Ngh...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Cơ thể của Aya bắt đầu phát sáng mờ nhạt.'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Chichin puipui... Được rồi... Poi...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Bàn tay của Aya tỏa sáng rực rỡ.'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「Lên!」'
+-	\L_0390c:
+-	ZH 1:
+-	'Cảm giác như một cú sốc điện'
+-	R
+-	'yếu ớt chạy qua cơ thể Rance.'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Chichin pui... Được rồi.. Poi...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「Lên～～...」 cơ thể Của Rance chậm chạp,'
+-	\L_0390c:
+-	ZH 1:
+-	'nhưng điện chạy qua hắn khiến hắn co giật.'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「Aah... Ta không cảm thấy gì'
+-	R
+-	'cả... Điều này không cảm thấy tốt...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Chichin puipui!!」'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「Lên~~~~!」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Em đang phải chịu đựng rất nhiều đau đớn...'
+-	\L_0390c:
+-	ZH 1:
+-	'Vì vậy, hãy im lặng một chút đi, làm ơn...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「Lên～...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Nnnnngh... Ngh!!」'
+-	\L_0390c:
+-	ZH 1:
+-	'Bàn tay của nàng tỏa sáng hơn và'
+-	R
+-	'nàng đặt chúng lên ngực Rance.'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「Lên～～...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Ánh sáng chạy xuyên qua cơ thể Rance. Anh có'
+-	\L_0390c:
+-	ZH 1:
+-	'cảm giác như đang ngâm mình trong làn nước ấm.'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Ngh... Ối...」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「À... Em sẽ làm lại lần nữa...'
+-	R
+-	'Chichin puipui... Được rồi poi!」'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「Lên~~~!!」'
+-	\L_0390c:
+-	ZH 1:
+-	'Aya 「Xử lý nó đi!」'
+-	\L_0390c:
+-	ZH 1:
+-	'Rance 「Lên～～...」'
++	'Máu chợt nhỏ xuống từ cánh hoa của Aya,'
++	R
++	'làm ướt siêu vũ khí sưng to của Rance.'
++	\L_0390c:
++	ZH 1:
++	'Và trông đau nhất là, vì siêu vũ khí sưng to,'
++	\L_0390c:
++	ZH 1:
++	'bụng dưới của Aya phồng hẳn lên.'
++	\L_0390c:
++	ZH 1:
++	'Aya「Đ...」'
++	\L_0390c:
++	ZH 1:
++	'Thân thể Aya co giật vì đau, nhưng cô'
++	R
++	'lắc đầu, gương mặt trở nên nghiêm túc.'
++	\L_0390c:
++	ZH 1:
++	'Aya「Đau... đau... nhưng'
++	R
++	'phải làm cho đàng hoàng...」'
++	\L_0390c:
++	ZH 1:
++	'Rance「Aa......」'
++	\L_0390c:
++	ZH 1:
++	'Aya「S... sao vậy?」'
++	\L_0390c:
++	ZH 1:
++	'Rance「Cảm giác cứ tê tê... upo.'
++	\L_0390c:
++	ZH 1:
++	'Đã cất công phá trinh rồi mà... cứ... upo.'
++	\L_0390c:
++	ZH 1:
++	'......Chẳng thấy gì... upo~...」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Bệnh nhân im lặng đi」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Ưm......」'
++	\L_0390c:
++	ZH 1:
++	'Thân thể Aya bắt đầu tỏa ánh sáng mờ.'
++	\L_0390c:
++	ZH 1:
++	'Aya「Phù phép phù phép... Okayu... bay đi...」'
++	\L_0390c:
++	ZH 1:
++	'Hai lòng bàn tay Aya lóe sáng rực.'
++	\L_0390c:
++	ZH 1:
++	'Rance「Upo!」'
++	\L_0390c:
++	ZH 1:
++	'Một cảm giác như dòng điện'
++	R
++	'yếu chạy lan khắp người Rance.'
++	\L_0390c:
++	ZH 1:
++	'Aya「Phù phép... Okayu... bay đi......」'
++	\L_0390c:
++	ZH 1:
++	'Rance「Upooo~~......」 Người thì uể oải,'
++	\L_0390c:
++	ZH 1:
++	'nhưng dòng điện chạy khắp'
++	R
++	'khiến thân Rance giật giật.'
++	\L_0390c:
++	ZH 1:
++	'Rance「Aa... chẳng thấy'
++	R
++	'gì... chẳng sướng gì cả...」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Phù phép phù phép!!」'
++	\L_0390c:
++	ZH 1:
++	'Rance「Upooo~~~~!」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Tôi đang phải chịu đau đây...'
++	\L_0390c:
++	ZH 1:
++	'nên làm ơn im lặng chút đi...」'
++	\L_0390c:
++	ZH 1:
++	'Rance「Upo~......」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Ưmmm~... ưm!!」'
++	\L_0390c:
++	ZH 1:
++	'Hai bàn tay càng sáng hơn được áp lên ngực Rance.'
++	\L_0390c:
++	ZH 1:
++	'Rance「Upo~~......」'
++	\L_0390c:
++	ZH 1:
++	'Luồng sáng chạy khắp người Rance. Cảm giác như'
++	\L_0390c:
++	ZH 1:
++	'đang ngâm mình trong nước ấm.'
++	\L_0390c:
++	ZH 1:
++	'Aya「Ưm... đau...」'
++	\L_0390c:
++	ZH 1:
++	'Aya「A... lại phải làm lại rồi...'
++	R
++	'Phù phép phù phép... Okayu bay đi!」'
++	\L_0390c:
++	ZH 1:
++	'Rance「Upooo~~~!!」'
++	\L_0390c:
++	ZH 1:
++	'Aya「Chịu đi!」'
++	\L_0390c:
++	ZH 1:
++	'Rance「Upo~~......」'
+ 	\L_0390c:
+ 	{VAR0520 = 300:
+ 		%0:
+@@ -3031,7 +2871,9 @@
+ 	\L_0390c:
+ 	ZH 1:
+ 	R
+-	'... việc điều trị tiếp tục trong 4 giờ...'
++	'...Và thế là, việc chữa trị'
++	R
++	'kéo dài bốn tiếng đồng hồ...'
+ 	\L_0390c:
+ 	PF1 VAR0056:
+ 	\L_038ff:
+@@ -3046,161 +2888,143 @@
+ 	\L_038ab:
+ 	\L_037e7:
+ 	ZH 1:
+-	'Ồ... Cứ như thể ta chưa'
+-	R
+-	'bao giờ bị bệnh vậy. Giống'
+-	R
+-	'như ta trước khi mắc bệnh.'
+-	\L_0390c:
+-	ZH 1:
+-	'Ta biết em'
+-	R
+-	'có thể làm được mà,'
+-	R
+-	'bác sĩ thiên tài Aya.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Cảm ơn~, rất nhiều~...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Ừm? Có chuyện gì'
+-	R
+-	'vậy? Em có mệt không?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Tất nhiên rồi～... Đây'
+-	R
+-	'là lần đầu tiên của anh~...'
+-	\L_0390c:
+-	ZH 1:
+-	'Và anh đã chữa trị cho'
+-	R
+-	'em~, suốt 4 tiếng đồng hồ...'
+-	\L_0390c:
+-	ZH 1:
+-	'Sẽ thật lạ lùng~,'
+-	R
+-	'nếu tôi không mệt~.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Ta hiểu rồi...'
+-	\L_0390c:
+-	ZH 1:
+-	'Sau đó, làm thế nào về ta'
+-	R
+-	'sử dụng vũ khí siêu nóng của'
+-	R
+-	'ta để chữa mệt mỏi của em?'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Tôi ổn mà~...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Ta thì không.'
+-	R
+-	'Ta không thể cảm nhận được'
+-	R
+-	'da thịt của em do bị bệnh.'
+-	\L_0390c:
+-	ZH 1:
+-	'vì vậy, chúng'
+-	R
+-	'ta hãy làm điều đó một lần'
+-	R
+-	'nữa khi ta được chữa khỏi.'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Không còn'
+-	R
+-	'nữa~... Làm sao chuyện'
+-	R
+-	'này có thể vui được~...?'
+-	\L_0390c:
+-	ZH 1:
+-	'Geez～... Toàn thân'
+-	R
+-	'tôi đang run rẩy...'
+-	R
+-	'Hông tôi đau quá~...'
+-	\L_0390c:
+-	ZH 1:
+-	'Cảm giác như chết rồi~...'
+-	\L_0390c:
+-	ZH 1:
+-	'Tôi sẽ không thể đứng'
+-	R
+-	'bình thường trong thời gian'
+-	R
+-	'còn lại trong ngày đâu~...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Nhưng bây giờ em không'
+-	R
+-	'còn trinh nên lần sau...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_03857:
+-	ZH 1:
+-	'Không, không'
+-	R
+-	'còn nữa~. Ngài đã khỏi'
+-	R
+-	'bệnh rồi, thưa ngài~.'
+-	\L_0390c:
+-	ZH 1:
+-	'Hãy chăm sóc'
+-	R
+-	'bản thân nhé~.'
++	'Ồ... cái mệt mỏi lúc nãy cứ'
++	R
++	'như chưa từng có. Ta thấy'
++	R
++	'còn khỏe hơn trước khi bệnh.'
++	\L_0390c:
++	ZH 1:
++	'Đúng là danh y.'
++	R
++	'Aya giỏi thật.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Vâng~ cảm ơn ngài~......'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Hửm? Sao thế? Mệt à?'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Đương nhiên rồi~...'
++	R
++	'lần đầu~... lại còn'
++	\L_0390c:
++	ZH 1:
++	'vừa làm vừa chữa trị~'
++	R
++	'suốt bốn tiếng...'
++	\L_0390c:
++	ZH 1:
++	'Không mệt mới~ là lạ ạ~.'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Thế à...'
++	\L_0390c:
++	ZH 1:
++	'Vậy để chữa mệt cho'
++	R
++	'em, ta cho em một phát'
++	R
++	'siêu vũ khí nóng hổi...'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Không cần đâu ạ~...'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Không chịu. Lúc bệnh cứ'
++	R
++	'thấy kỳ kỳ, chẳng cảm'
++	R
++	'nhận được thân thể Aya.'
++	\L_0390c:
++	ZH 1:
++	'Nên giờ khỏi rồi, làm lại'
++	R
++	'lần nữa cho đàng hoàng.'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Thôi đủ rồi ạ~... cái này'
++	R
++	'mà vui thì... lạ lắm~...'
++	\L_0390c:
++	ZH 1:
++	'Trời ơi~... người ngợm rã'
++	R
++	'rời... lưng thì đau~...'
++	\L_0390c:
++	ZH 1:
++	'nhất là~... khớp háng~...'
++	R
++	'ch... chết rồi~...'
++	\L_0390c:
++	ZH 1:
++	'Hôm nay em không đứng bình'
++	R
++	'thường được nữa đâu~...'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'Nhưng lúc nãy ta chưa'
++	R
++	'kịp tận hưởng trinh'
++	R
++	'tiết của em, nên giờ...'
++	\L_0390c:
++	\L_038ff:
++	\L_03857:
++	ZH 1:
++	'Vâng, đủ rồi ạ~. Bệ'
++	R
++	'hạ đã khỏe lại rồi~.'
++	\L_0390c:
++	ZH 1:
++	'Ngài giữ gìn sức khỏe nhé~.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_03873:
+ 	ZH 1:
+-	'Aah～... Thật là một trải'
+-	R
+-	'nghiệm đầu tiên tồi tệ...'
+-	\L_0390c:
+-	ZH 1:
+-	'Dù sao thì tôi'
+-	R
+-	'cũng không có hứng thú'
+-	R
+-	'với tình dục, nhưng...'
+-	\L_0390c:
+-	ZH 1:
+-	'Vì lý do nào đó mà tôi cảm'
+-	R
+-	'thấy không hài lòng～...'
+-	R
+-	'Haah～～...'
+-	\L_0390c:
+-	\L_038ff:
+-	\L_037e7:
+-	ZH 1:
+-	'Này, đợi đã!'
++	'A~... lần đầu kiểu này......'
++	\L_0390c:
++	ZH 1:
++	'Thôi... dù sao em cũng'
++	R
++	'chẳng có ham muốn...'
++	R
++	'nên cũng được...'
++	\L_0390c:
++	ZH 1:
++	'Nhưng... sao cứ thấy không'
++	R
++	'cam lòng~...... Haa~~......'
++	\L_0390c:
++	\L_038ff:
++	\L_037e7:
++	ZH 1:
++	'N... này, khoan!'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_038b9:
+ 	\L_0381f:
+ 	ZH 1:
+-	'Rance bị các y tá'
+-	R
+-	'đẩy ra khỏi bệnh viện.'
++	'Rance bị các cô y tá tống'
++	R
++	'cổ ra khỏi phòng bệnh.'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	\L_037e7:
+@@ -3208,9 +3032,7 @@
+ 	'............'
+ 	\L_0390c:
+ 	ZH 1:
+-	'Ch... ta cảm'
+-	R
+-	'thấy cô đơn...'
++	'Chậc... cô đơn quá......'
+ 	\L_0390c:
+ 	\L_038ff:
+ 	!VAR0516 : 0!

@@ -1,0 +1,99 @@
+{
+  "workflow": {
+    "path": "D:\\Vestaria\\TRANSLATION_EDITING_WORKFLOW.md",
+    "sha256": "f2f70512956b0a6bddc05d1cfeaed08f397b5e7966538d350da64785f445f466"
+  },
+  "japanese": {
+    "url": "https://d1.alicefree.fastlast.org/d/zip/kichikuou.zip",
+    "distributor_page": "https://alicefree.fastlast.org/",
+    "format": "original MODE1/2352 disc image; scenario ALD extracted without execution",
+    "archive_sha256": "a615ec19a9334853cd614f9915df5fa1a98ea2cfa92346849305d1d65b8f9bff",
+    "original_disc_scenario": "GAMEDATA/鬼畜王SA.ALD"
+  },
+  "english": {
+    "url": "https://haniwa.website/games/kichikuou_en.tar.gz",
+    "role": "reference only",
+    "archive_sha256": "6e91e52aace570c3a91b4036631c6704381645c62695074ed76c235de38d20b8"
+  },
+  "rules_sha256": "469fce0f566f694d0479351cf36d3199d4ded49ea2ba3cc702206990a6bda44a",
+  "reference_hashes": {
+    "english_binary\\KICHIKUSA.ALD": "699d0d5bf2f80629a356ea73ce27a622573a11296cbf018349cfb26928c031ba",
+    "english_binary\\System39.ain": "9e7631ece3e580802799bd6e05747201b9b01a0f4a634b71a176ec08eead5f70",
+    "japanese_binary\\KICHIKUSA.ALD": "2fda9060fa41095086025009357c0df0c47674a5af8557acdc5ccfc88a059328",
+    "japanese_binary\\�S�{��SA.ALD": "2fda9060fa41095086025009357c0df0c47674a5af8557acdc5ccfc88a059328"
+  },
+  "vi_source": "current src after size_order_133_142_tail_20261024",
+  "reference_directory": "D:\\Download\\Kichikuou Rance\\editorial_review\\japanese_base_20261022\\reference",
+  "script_reference_hashes": {
+    "jp": {
+      "Cﾃｷﾄｼ.ADV": "19b170b03db6fd92c6382354408a81599d16bc6f2ad2e9432c3454e14a18fc6d",
+      "Cﾌﾞｶ.ADV": "341e8796274ab21c56a8ffecaa0b2e94404d1f5c2440d3b83db1e46d3fdb8b65",
+      "Cｼﾊｲﾄｼ.ADV": "21843f58a1b5c31773577498814f375ede8920c30cf8910dda01a65b88a116c3",
+      "Cﾃｷﾄｼ2.ADV": "4ab5acdfced93ab0a9a70a1259cdb953750e2232390c5d8a1c7b967416712250"
+    },
+    "en": {
+      "Cﾃｷﾄｼ.ADV": "a99775e2bdc927cdae216e52ca1fa54be88a7c3af0e60587490dcf99ad8d67e4",
+      "Cﾌﾞｶ.ADV": "4e402562f792c9fee421858e3903e1c1d6bbf40bcdd78ba3c3a7b51ab387a65f",
+      "Cｼﾊｲﾄｼ.ADV": "c58ca1bd580a56c039e1b04b3648da2301d7e390ddd79d5b5b02bd573d590a4d",
+      "Cﾃｷﾄｼ2.ADV": "3fb39398cfc0472679cc2cfb0804620b8e9b95b9bbcb8615175d5e04c1de12ed"
+    }
+  },
+  "workflow_current_sha256": "1fbdc5dba7ed2474558f3983fc47656cff156d30db84c04ecdd637efe539c953",
+  "prior_installed_review": "editorial_review\\size_order_123_127_20261023",
+  "alignment_note": "Original Japanese semantic base, English only reference. Dialogue command matches checked against scene meaning. UI Japanese groups verified independently; JP/VI ordinals not assumed equal. Four-row dynamic layouts tested against all91 current map names and faction labels. Original source/exclusion inventories retained.",
+  "prior_batch": "fuuka_full_ordinary_20261024",
+  "selected_order_ranks": [
+    12,
+    69,
+    91,
+    165
+  ],
+  "additional_followup_files": [],
+  "english_additions": "Retained per explicit user instruction; no invented Japanese alignment.",
+  "selection": "Explicit screenshot-targeted UI fixes and independent city negotiations, not pending size queue",
+  "protected_assets_before": {
+    "unifont_jp.otf": "5f20737a09f40c3f0b7511e6c657e48ca1f683e02f0bc0b9565a3c363827a887",
+    ".xsys35rc": "eb1d4393015b295e8a1da9e7ced7b74f89cbe74978f18d83b65c67e12ac1576e"
+  },
+  "actual_workspace": "D:\\Download\\Kichikuou Rance",
+  "installed_before": {
+    "installed_vs_current_source_text_mismatches": [],
+    "installed_archive_hashes": {
+      "KICHIKUSA.ALD": "4750fc21c3e66c8d2b1a8287c05acd7aa9e34c01781fb460480036521e0c88b4",
+      "System39.ain": "9443412fb5ef2415037c7e04affad92b6607ece47bbd1b2b15d105e6a40eaa50"
+    },
+    "note": "Current workspace archives differ from historical recorded build hashes; compare actual current source before edits and preserve current archive backups."
+  },
+  "evidence_note": "GAL raw menus recorded separately; source group ordinals are evidence coordinates, not scene counts. GAL late recruitment/summoning and entry scenes manually aligned.",
+  "installed_baseline_hashes": {
+    "KICHIKUSA.ALD": "f66003b33f0406fa713d3161afdc8d450233bedc42c4f029f3371d467d7bb8fc",
+    "System39.ain": "d80eb7dd82eb3074480f36926929c0f219889463dffc138f64ce42c83ef3e446"
+  },
+  "prior_review": "fuuka_full_ordinary_20261024",
+  "installed_baseline": {
+    "installed_matches_current_source_scripts": 201,
+    "latest_manual_source_changes_since_prior_review": [
+      "Cｼｮｳﾆﾝ.ADV"
+    ],
+    "installed_hashes": {
+      "KICHIKUSA.ALD": "75b417b4b7bc080387906053503a62e3f2318294073446c229fd7b2543b63d1c",
+      "System39.ain": "3840b11facc076458b9234e1985871b0ef8e3b44470f4680d561a1a4ccf2a5ea"
+    },
+    "preserved_manual_source_hash": "571f35dd566b013404525de34b2853df7e4bae56d4be5b956b790e62d266350a"
+  },
+  "baseline_check": "Installed archive and every source matched prior Fuuka batch before changes.",
+  "screenshots": [
+    {
+      "file": "codex-clipboard-35e400f7-78dc-4ce0-af6b-06178541570f.png",
+      "finding": "Shared subordinate-stat page2 combines long strategy and magic labels plus dynamic numbers on one row"
+    },
+    {
+      "file": "codex-clipboard-0d0f622d-5fcb-4da9-90dd-1d435eee8d4d.png",
+      "finding": "Owned city name, faction, economy/defense all concatenate on first row"
+    },
+    {
+      "file": "codex-clipboard-ca474e9d-9047-46bf-ba6e-d4b414f22ebc.png",
+      "finding": "Cﾃｷﾄｼ Graco negotiation: Japanese asks king to turn a blind eye to DX activities"
+    }
+  ]
+}

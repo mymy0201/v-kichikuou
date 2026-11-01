@@ -1,0 +1,53 @@
+{
+  "method": "Original JP and current VI guards/targets inspected; executable skeleton and all literal output round trips checked. Static verification,not runtime playthrough.",
+  "entry_dispatch_values": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    10
+  ],
+  "five_commander_branches": [
+    {
+      "unit_id": 14,
+      "report_flag": 1,
+      "commander": "Ex"
+    },
+    {
+      "unit_id": 15,
+      "report_flag": 2,
+      "commander": "Shinoda"
+    },
+    {
+      "unit_id": 28,
+      "report_flag": 3,
+      "commander": "Cream"
+    },
+    {
+      "unit_id": 35,
+      "report_flag": 4,
+      "commander": "Arlcoate"
+    },
+    {
+      "unit_id": 6,
+      "report_flag": 5,
+      "commander": "Barres"
+    }
+  ],
+  "deployment_checks": "All four VAR0569-572 positions with VAR0102 guard retained. Initial audience VAR0102=0 early exit retained.",
+  "trap_building": "VAR0384=0 versus nonzero branches read; second existing pit is filled before replacement.",
+  "outcomes": [
+    "Pit immobilization,monument and departure from front",
+    "Direct battle death,burning and unnoticed red orb"
+  ],
+  "dynamic_city_source": "SET_MAP MS8/MM8 catalog; source catalog unchanged",
+  "numeric_facts_preserved": [
+    "2223 centimetres",
+    "2-3 days",
+    "50/50 prediction in Barres branch"
+  ],
+  "menus": 0,
+  "failures": []
+}

@@ -1,0 +1,5 @@
+{
+  "initial_direct_write": "OS invalid-argument error; both sources verified hash-identical to frozen baseline before retry",
+  "recovery": "Write complete sibling source then replace; permit interrupted pre-write backup only when current source matches verified backup",
+  "validation": "Both source edits applied successfully; original backups retained; all 201 compiled literal/MS round trips and all command/box/wait checks passed"
+}

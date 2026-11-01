@@ -1,0 +1,17 @@
+{
+ "num":62,"prev":"retranslate_jp_20261030_b61",
+ "title":"British complete story and battle approach/results",
+ "files":{
+  "Gﾌﾞﾘﾃｨ.ADV":{
+   "merged":{"16":[16,17],"18":[19,20,21],"27":[30,31],"28":[32,33],"31":[36,37],"33":[39,40],"83":[89,90],"85":[92,93],"117":[125,126],"148":[157,158],"169":[179,180]},
+   "menus":[49],"dynamic":[4],"complete":true,
+   "scope":"All172 VI/183 JP groups: all four Julia food/reaction variants, first and repeat cave visits, Julia feeding scene, all five menu actions and all random conversation topics, KD/Café clues, attempted rescue, reunion with Chaos/Nikkou, ancient expedition and all four golden-statue outcomes. Non-graphic insulting line retained unchanged. Food conditional composition checked separately."
+  },
+  "FIGT_A.ADV":{"dynamic":[2,3],"complete":true,"scope":"All four approach/result text groups and conditional city-name messages: field battle, urban battle, defeat and victory. Existing gameplay branches, combat UI, city-name slot X8 and waits preserved; complete composed result messages checked with every current city name."}
+ },
+ "decisions":[
+  "British is a proper name, never người Anh. Café remains a proper name in the menu and dialogue. British tôi/cậu with Rance/Chaos, tôi/cô with Nikkou, bác/cháu with Julia; Rance ta/ngươi and cô to Nikkou. Chaos ta/ngươi to British. Julia cháu/bác to British and em/Rance to Rance.",
+  "Use Mê cung Sơn tặc, Núi Thăng Long and King Dragon (KD). Ancient statues, three days, several hundred years, eternal youth and immortality-related lore follow Japanese meaning without new detail.",
+  "Preserve the existing number of waits and text clusters; reflow within each box only. Read all dynamic food alternatives and actual menu conditions/targets, not just concatenated group text."
+ ]
+}

@@ -1,0 +1,18 @@
+{
+  "semantic_base": "Verified original Japanese; English reference only.",
+  "verified_source_provenance_sha256": "9282664cf553185e695a9490bd8e0a3dce1876ba2ece7df0bb398a64ceb6577e",
+  "sources": {
+    "FIGT.ADV": {
+      "japanese_sha256": "4cf7a31fad1a8fba8594be369dca652628ffcbea3c7212dfa1d1821e92f581b9",
+      "normalized_sha256": "f1c4810456bcdc03364eaf83c023e464e467d1f7daf294e46b1f222499f60536",
+      "english_reference_sha256": "a0977b0b79f7573f764df11e10bdebf9637e4b7d0b105a6ded370d1c4b187ebd"
+    }
+  },
+  "rules_sha256": "84f0bcc969eada57b3427bada0934c07f44433e22adcb5a71d860cb91006da05",
+  "method": "Direct handwritten Vietnamese after reading every scene and branch; English-derived machine text replaced.",
+  "decisions": [
+    "決闘 Đấu tay đôi; 同時戦闘可能数 số trận đồng thời; 部下 quân số; 総被害 tổng thiệt hại; 必殺技 Tuyệt kỹ; 突撃 Đột kích; リーダー攻撃回数 số đòn của chỉ huy.",
+    "Menu 退却する/退却中止 Rút lui/Hủy rút lui. Debug error strings left in Japanese as in the original.",
+    "g20.b3-b4 summon-increase fragment left unchanged: its code adds to the summon counter, so the JP 人望の杖 wording cannot be matched safely."
+  ]
+}

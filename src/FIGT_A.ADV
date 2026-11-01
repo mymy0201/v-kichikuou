@@ -32,14 +32,10 @@
 		!VAR0580 : 5000!
 		\L_0058a:
 		ZH 1:
-		'Quân địch đã rời'
-		R
-		'thành, đòi quyết chiến'
+		'Quân địch rời thành, yêu cầu'
 		\L_00677:
 		ZH 1:
-		'trên đồng bằng'
-		R
-		'ngoài thành.'
+		'quyết chiến trên đồng bằng.'
 		\L_00677:
 		\L_0066a:
 	}
@@ -49,9 +45,9 @@
 		ZH 1:
 		'Quân địch cố thủ'
 		R
-		'trong thành, không chịu ra.'
+		'trong thành, không'
 		R
-		'Sẽ giao chiến trong thành.'
+		'ra. Sẽ đánh trong phố.'
 		\L_00677:
 		!VAR0070 : 902!
 		\L_0066a:
@@ -90,10 +86,10 @@
 		R
 		{(VAR0581 = 1) * (VAR0518 \ 0):
 			ZH 1:
-			'Cuộc tấn công vào'
+			'Cuộc tấn công thất bại tại'
 			R
 			X 8:
-			' đã thất bại.'
+			'.'
 		}
 		\L_00677:
 		!VAR0516 : 3!
@@ -133,9 +129,9 @@
 		{(VAR0518 \ 0) * (VAR0581 = 1):
 			ZH 1:
 			X 8:
-			' đã nằm dưới quyền'
+			' '
 			R
-			'kiểm soát của quân ta.'
+			'đã thuộc quyền quân ta.'
 		}
 		\L_00677:
 		\L_0066a:

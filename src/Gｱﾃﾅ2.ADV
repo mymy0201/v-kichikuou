@@ -17,22 +17,22 @@
 	ZM 24:
 	ZH 1:
 	R
-	'Trước nhà Rance. Hừm, nhà ta'
+	'Trước nhà Rance. Ừm, nhà'
 	R
-	'vẫn nguyên vẹn đấy.'
+	'ta vẫn còn nguyên vẹn.'
 	\L_010da:
 	ZH 1:
-	'Athena vẫn trông nhà đàng'
+	'Con bé Athena có trông'
 	R
-	'hoàng chứ?'
+	'nhà tử tế không đây?'
 	\L_010da:
 	ZH 1:
-	'Ta về rồi đây!'
+	'Ta về rồi đây!!'
 	\L_010da:
 	\L_010cd:
 	\L_00fed:
 	ZH 1:
-	'Rance sải bước vào nhà.'
+	'Rance hùng hổ bước vào nhà.'
 	\L_010da:
 	{VAR0729 = 0:
 		@L_00132:
@@ -53,22 +53,24 @@
 *L_00132:
 	!VAR0729 : 1!
 	ZH 1:
-	'Nhân tiện nói thêm,'
+	'Nhân tiện,'
 	\L_010da:
 	ZH 1:
-	'Athena 2 là người nhân tạo'
+	'Athena 2 là'
 	R
-	'do'
+	'người nhân tạo do'
 	\L_010da:
 	ZH 1:
-	'bà lão Frostbine ở Toushin'
+	'bà lão Frostbine, cư dân'
 	R
-	'City chế tạo.'
+	'Toushin City, chế tạo.'
 	\L_010da:
 	ZH 1:
-	'Hơi ngốc nghếch, nhưng đó'
+	'Hơi ngốc nghếch một'
 	R
-	'cũng là nét đáng yêu của cô.'
+	'chút chính là nét'
+	R
+	'quyến rũ của cô.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
@@ -78,9 +80,9 @@
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Athena! Rance đại nhân về'
+	'Athenaaa!! Rance đại nhân về'
 	R
-	'rồi! Mau ra đây!'
+	'rồi!! Còn không mau ra đây!!'
 	\L_010da:
 	\L_010cd:
 	\L_00fed:
@@ -88,9 +90,9 @@
 	'Rance hét lên.'
 	\L_010da:
 	ZH 1:
-	'Nhưng Athena 2 không có dấu'
+	'Nhưng chẳng thấy dấu'
 	R
-	'hiệu xuất hiện.'
+	'hiệu nào của Athena 2.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
@@ -100,14 +102,14 @@
 	\L_010cd:
 	\L_00fed:
 	ZH 1:
-	'Rance đi vào phòng ngủ của'
+	'Rance sồng sộc'
 	R
-	'mình.'
+	'bước vào phòng ngủ.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Hm...'
+	'Hừm...'
 	\L_010da:
 	ZH 1:
 	'Giờ nhìn lại,'
@@ -120,16 +122,16 @@
 	'thế này...'
 	\L_010da:
 	ZH 1:
-	'Gahahahaha! Lên làm vua rồi,'
+	'Hừm hừm... Từ khi làm'
 	R
-	'ta quen sống xa hoa mất'
+	'vua, ta đã quen sống'
 	R
-	'rồi...'
+	'xa hoa mất rồi...'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'Có kẻ đột nhập ạ!'
+	'Có kẻ gian ạ!'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
@@ -139,12 +141,12 @@
 	\L_010cd:
 	\L_00fed:
 	ZH 1:
-	'Có ai đó túm lấy chân Rance.'
+	'Rance bị ai đó túm lấy chân.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Dwaaah!!'
+	'Oaaa!!'
 	\L_010da:
 	\L_010cd:
 	\L_00fed:
@@ -152,14 +154,14 @@
 	'(Bịch!)'
 	\L_010da:
 	ZH 1:
-	'Rance ngã chổng vó.'
+	'Rance ngã sấp mặt thật đau.'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'Kẻ đột nhập ạ. Bắt được rồi'
+	'Có kẻ gian ạ. Bắt được'
 	R
-	'ạ. Em ăn thịt đây ạ.'
+	'rồi ạ. Ăn thịt luôn ạ.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
@@ -167,28 +169,30 @@
 	'Giọng nói đó...'
 	\L_010da:
 	ZH 1:
-	'Athenaaaaaaa!'
+	'Athenaaa!'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'Hả...?'
+	'Hơ...'
 	\L_010da:
 	\L_010cd:
 	!VAR0516 : 253!
 	\L_01079:
 	\L_01025:
 	ZH 1:
-	'A... Chủ nhân đấy ạ. Vậy Chủ'
+	'A... Là Chủ nhân ạ. Vậy'
 	R
-	'nhân là kẻ đột nhập ạ.'
+	'Chủ nhân là kẻ gian ạ.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Sao lại thành ra thế... Mà'
+	'Sao lại thành ra'
 	R
-	'cô vừa chui từ đâu ra?'
+	'thế... Mà... vừa rồi'
+	R
+	'cô chui từ đâu ra?'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
@@ -205,49 +209,49 @@
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Thế trông nhà thì liên quan'
+	'Ta đang hỏi tại sao'
 	R
-	'gì tới...'
+	'trông nhà lại...'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'Dưới gầm giường mát lắm, dễ'
+	'Vì dưới gầm giường mát'
 	R
-	'chịu lắm ạ.'
+	'lạnh, dễ chịu lắm ạ.'
 	\L_010da:
 	ZH 1:
-	'Chủ nhân cũng chui xuống'
+	'Chủ nhân cũng'
 	R
-	'nhé?'
+	'xuống thử không ạ?'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Không.'
+	'Khỏi.'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
 	ZH 1:
 	'Athena「Hức...」 Rance「Vậy'
 	R
-	'là cô vẫn trông nhà hẳn hoi'
+	'là cô vẫn trông'
 	R
-	'đấy à.」'
+	'nhà đàng hoàng hả.」'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'Vâng ạ. Em làm đúng lời Chủ'
+	'Vâng ạ. Em giữ đúng'
 	R
-	'nhân dặn ạ.'
+	'lời Chủ nhân dặn ạ.'
 	\L_010da:
 	ZH 1:
-	'Người mời đặt báo tới, em'
+	'Người mời đặt báo'
 	R
-	'không ký nhưng vẫn lấy quà'
+	'tới, em không ký mà'
 	R
-	'tặng ạ.'
+	'vẫn giật được quà ạ.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
@@ -257,17 +261,17 @@
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'Người thu phí NNK tới thì em'
+	'Người thu phí NNK tới, em cứ'
 	\L_010da:
 	ZH 1:
-	'cứ bảo nhà mình không có'
+	'bảo nhà không có'
 	R
-	'tiền ạ.'
+	'tiền, từ chối hoài ạ.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Được rồi.'
+	'Tốt.'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
@@ -294,19 +298,19 @@
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'Ơ? Chủ nhân không đưa em tới'
+	'Ơ? Chủ nhân không dẫn'
 	R
-	'lâu đài sao ạ?'
+	'em lên lâu đài sao ạ?'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Không.'
+	'Không dẫn.'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'... Nức nở.'
+	'......Hức.'
 	\L_010da:
 	\L_010cd:
 	\L_00fed:
@@ -324,19 +328,19 @@
 	\L_01079:
 	\L_01025:
 	ZH 1:
-	'Vâng, em đây ạ!'
+	'Vâââng!'
 	\L_010da:
 	ZH 1:
-	'A, Chủ nhân ạ. Mừng ngài về'
+	'A, Chủ nhân ạ.'
 	R
-	'nhà ạ.'
+	'Mừng Chủ nhân về ạ.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Ừ, ta về rồi. Lúc ta vắng'
+	'Ừ. Ta về rồi. Lúc ta'
 	R
-	'nhà có gì lạ không?'
+	'đi vắng có gì lạ không?'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
@@ -346,62 +350,66 @@
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Ừ, ừ. Cô đang làm gì thế?'
+	'Ừ ừ. Vừa rồi cô đang làm gì?'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'Em dọn nhà ạ.'
+	'Dọn dẹp ạ.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Ừ, giỏi lắm. Ta cho kẹo này.'
+	'Ừ, đáng khen.'
+	R
+	'Ta cho cái kẹo.'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'Hoan hô! Em vui lắm ạ. Kẹo'
+	'Hoan hô ạ! Em vui lắm'
 	R
-	'to, kẹo to ạ!'
+	'ạ. Kẹo to, kẹo to!'
 	\L_010da:
 	ZH 1:
 	'............'
 	\L_010da:
 	ZH 1:
-	'Chủ nhân... Kẹo chảy ra,'
+	'Chủ nhân... Kẹo này chảy'
 	R
-	'dính hết rồi ạ.'
+	'ra, dính nhớp nháp ạ.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Đừng lo lắng về điều đó.'
+	'Đừng để ý.'
 	\L_010da:
 	ZH 1:
 	'... Nhưng...'
 	\L_010da:
 	ZH 1:
-	'Bảo là đang dọn mà sao nhà'
+	'Bảo là dọn dẹp mà sao'
 	R
-	'lại bừa bộn hơn thế này...'
+	'trông bừa bộn thế này...'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'Kỳ lạ lắm ạ.'
+	'Lạ lắm ạ.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Rance「Gì cơ?」 Athena「Càng'
+	'Rance「Cái gì?」'
 	R
-	'dọn càng bừa. Kỳ lạ quá ạ.」'
+	'Athena「Càng dọn'
+	R
+	'càng bừa. Lạ lắm ạ.」'
 	\L_010da:
 	ZH 1:
-	'Em không làm khéo được như'
+	'Em không làm giỏi'
 	R
-	'Sill ạ.'
+	'được như Sill ạ.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
@@ -409,21 +417,25 @@
 	'............'
 	\L_010da:
 	ZH 1:
-	'Trả lại kẹo đó đi.'
+	'Trả lại cái kẹo'
+	R
+	'ta vừa cho đây.'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'Không ạ. Kẹo của Athena rồi.'
+	'Không chịu ạ. Cái này là'
 	R
-	'Lêu lêu!'
+	'của Athena ạ. Lêu lêu.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Thật tình... Dọn cho sạch sẽ'
+	'...Thật tình... Phải'
 	R
-	'đấy, rõ chưa?'
+	'dọn dẹp cho sạch sẽ đàng'
+	R
+	'hoàng đấy, hiểu chưa?'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
@@ -433,9 +445,9 @@
 	\L_010cd:
 	\L_00fed:
 	ZH 1:
-	'Rance để Athena ở nhà rồi bỏ'
+	'Rance để Athena ở'
 	R
-	'đi.'
+	'lại nhà rồi rời đi.'
 	\L_010da:
 	\L_010cd:
 	!VAR0516 : 0!
@@ -448,9 +460,9 @@
 	\L_01079:
 	\L_01025:
 	ZH 1:
-	'A, Chủ nhân ạ. Mừng ngài về'
+	'A, Chủ nhân ạ.'
 	R
-	'nhà ạ.'
+	'Mừng Chủ nhân về ạ.'
 	\L_010da:
 	\L_010cd:
 	\L_01087:
@@ -458,7 +470,9 @@
 	\L_01079:
 	\L_01025:
 	ZH 1:
-	'Ồ... Lão xin phép ghé chơi.'
+	'Ờ... lão đang'
+	R
+	'ghé chơi đây...'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
@@ -471,9 +485,11 @@
 	\L_01079:
 	\L_01025:
 	ZH 1:
-	'Ông Gosaku hàng xóm ạ. Ông'
+	'Là ông Gosaku hàng'
 	R
-	'cho em khoai lang ạ.'
+	'xóm ạ. Ông Gosaku cho'
+	R
+	'Athena khoai lang ạ.'
 	\L_010da:
 	\L_010cd:
 	\L_01087:
@@ -481,26 +497,24 @@
 	\L_01079:
 	\L_01025:
 	ZH 1:
-	'Oh... Oh～... Oh～...'
-	R
-	'Oh～...'
+	'Ôi... Ôi~... Ôi~... Ôi~...'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'... Cái gì, ông già?'
+	'......Gì thế, lão già...'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'Nghe nói Chủ nhân của Athena'
+	'Nghe nói chủ nhân'
 	R
-	'là vua... Quả là nhà vua'
+	'của Athena là vua...'
 	R
-	'thật...'
+	'Đúng là vua thật...'
 	\L_010da:
 	ZH 1:
-	'Thật tuyệt vời, Athena.'
+	'Ghê quá... Athena nhỉ.'
 	\L_010da:
 	\L_010cd:
 	\L_01087:
@@ -508,16 +522,14 @@
 	\L_01079:
 	\L_01025:
 	ZH 1:
-	'Vâng, tuyệt lắm ạ.'
+	'Vâng, ghê lắm ạ.'
 	\L_010da:
 	\L_010cd:
 	\L_00fed:
 	ZH 1:
-	'Ông Gosaku sờ hết chỗ này'
+	'Rance bị ông Gosaku'
 	R
-	'tới chỗ khác trên người'
-	R
-	'Rance.'
+	'sờ nắn khắp người.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
@@ -536,12 +548,14 @@
 	'Athena này,'
 	\L_010da:
 	ZH 1:
-	'lão gọi các bạn ở hội người'
+	'lão gọi bạn bè'
+	R
+	'trong hội người'
 	\L_010da:
 	ZH 1:
-	'cao tuổi tới sờ nhà vua được'
+	'cao tuổi tới sờ'
 	R
-	'chứ?'
+	'nhà vua được không?'
 	\L_010da:
 	\L_010cd:
 	\L_01087:
@@ -549,18 +563,18 @@
 	\L_01079:
 	\L_01025:
 	ZH 1:
-	'Được ạ. Ta cùng chơi đố vui'
+	'Được ạ. Chơi cả trò'
 	R
-	'bấm chuông cho người cao'
+	'đố vui bấm chuông cho'
 	R
-	'tuổi nữa ạ.'
+	'người cao tuổi nữa ạ.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Cái... Cô đừng tự ý quyết'
+	'Cái... Đừng có tự tiện'
 	R
-	'định! Ta về đây!!'
+	'quyết thế! Ta về!!'
 	\L_010da:
 	\L_010cd:
 	\L_01087:
@@ -568,7 +582,7 @@
 	\L_01079:
 	\L_01025:
 	ZH 1:
-	'À... Aaah～...'
+	'Ơ... ơ ơ ơ~...'
 	\L_010da:
 	\L_010cd:
 	\L_01087:
@@ -576,22 +590,24 @@
 	\L_01079:
 	\L_01025:
 	ZH 1:
-	'Đợi đã ạ, Chủ nhân!'
+	'Đợi đã ạ. Chủ nhân~!'
 	\L_010da:
 	ZH 1:
-	'Ngài còn được làm người dẫn'
+	'Ngài được làm người dẫn trò'
 	R
-	'trò đố vui bấm chuông nữa ạ!'
+	'đố vui bấm chuông đấy ạ~!'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Ta chẳng muốn làm trò đó!'
+	'Ai thèm làm trò đó!'
 	\L_010da:
 	\L_010cd:
 	\L_00fed:
 	ZH 1:
-	'Rance xông ra khỏi nhà hắn.'
+	'Rance hầm hầm bỏ'
+	R
+	'ra khỏi nhà mình.'
 	\L_010da:
 	\L_010cd:
 	!VAR0516 : 0!
@@ -604,14 +620,12 @@
 	\L_01079:
 	\L_01025:
 	ZH 1:
-	'A ha... Chủ nhân đấy ạ...'
+	'Hơ a~~... Chủ nhân ạ~~.'
 	\L_010da:
 	\L_010cd:
 	\L_00fed:
 	ZH 1:
-	'Athena 2 lảo đảo bước ra'
-	R
-	'khỏi nhà.'
+	'Athena 2 lảo đảo bước ra.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
@@ -621,33 +635,33 @@
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'Em... đang giặt đồ... ạ...'
+	'Em~ đang~ giặt~ đồ~ ạ~.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Giặt ủi??'
+	'Giặt đồ??'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'Vââng... ạ...'
+	'Vâ~ng~ ạ~...'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Thế sao lại loạng choạng thế'
+	'Thế sao lại'
 	R
-	'này...??'
+	'loạng choạng...??'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'Em nhìn lồng máy giặt'
+	'Em nhìn cái lồng máy'
 	R
-	'xoay... A... Quay mòng mòng'
+	'giặt quay vòng vòng'
 	R
-	'rồi ạ...'
+	'ạ~ A~ vòng vòng~~.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
@@ -657,7 +671,7 @@
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'A ha... Quay mòng mòng...'
+	'A he~~... Vòng vòng~~...'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
@@ -667,53 +681,55 @@
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'Vââng... ạ...?'
+	'Vâ~ng~ ạ~.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Từ giờ cấm nhìn máy giặt'
+	'Từ nay cấm nhìn'
 	R
-	'quay.'
+	'thứ quay vòng vòng.'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'Ơơơ...'
+	'Ơơ~~...'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Không được ơ! Nghe chưa, cấm'
+	'Không ơ gì hết! Nghe'
 	R
-	'nhìn đấy!'
+	'chưa, cấm nhìn đấy!'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'À~～...'
+	'A~~...'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Thật tình... Nhớ trông nhà'
+	'Thật tình... Nhớ trông'
 	R
-	'cho đàng hoàng.'
+	'nhà đàng hoàng đấy.'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
 	ZH 1:
-	'Vââng... ạ...'
+	'Vâ~ng~ ạ~.'
 	\L_010da:
 	\L_010cd:
 	\L_00fd1:
 	ZH 1:
-	'...Chẳng yên tâm chút nào...'
+	'......Lo quá......'
 	\L_010da:
 	\L_010cd:
 	\L_00fed:
 	ZH 1:
-	'Rance nghĩ khi rời khỏi nhà.'
+	'Rance vừa nghĩ vậy'
+	R
+	'vừa rời khỏi nhà.'
 	\L_010da:
 	\L_010cd:
 	!VAR0516 : 0!
@@ -753,7 +769,7 @@
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Điều đó.'
+	'Chính cái đó.'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
@@ -771,14 +787,14 @@
 	'Nói thế vui đó nha.'
 	\L_010da:
 	ZH 1:
-	'Em học trên phim hoạt hình'
+	'Em học từ phim hoạt hình'
 	R
-	'chiếu lại sáng nay đó nha.'
+	'chiếu lại buổi sáng đó nha.'
 	\L_010da:
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Không còn nữa.'
+	'Không được.'
 	\L_010da:
 	\L_010cd:
 	\L_01025:
@@ -788,9 +804,9 @@
 	\L_010cd:
 	\L_00fb5:
 	ZH 1:
-	'Ta sẽ quay lại. Đến lúc đó'
+	'Ta sẽ quay lại. Trước lúc'
 	R
-	'phải sửa cách nói đi đó nha.'
+	'đó phải sửa cho xong đó nha.'
 	\L_010da:
 	ZH 1:
 	'A, lây sang ta rồi còn gì.'

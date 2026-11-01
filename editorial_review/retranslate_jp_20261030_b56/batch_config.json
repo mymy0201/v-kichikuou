@@ -1,0 +1,17 @@
+{
+ "num": 56,
+ "prev": "retranslate_jp_20261030_b55",
+ "title": "FIGT complete",
+ "files": {
+  "FIGT.ADV": {
+   "dynamic": [0, 8, 9, 10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+   "scope": "All22 VI/22 JP groups: battle-type and simultaneous-battle labels, Land of Death attrition, time-out/annihilation/victory/retreat results, retreat menu, unit order messages, unit status panels, fog card, Miki concentration, defence, combat command panel, casualty/EXP report and level-up bonuses. Runtime-composed fragments kept in place; only wording corrected.",
+   "complete": true
+  }
+ },
+ "decisions": [
+  "決闘 Đấu tay đôi; 同時戦闘可能数 số trận đồng thời; 部下 quân số; 総被害 tổng thiệt hại; 必殺技 Tuyệt kỹ; 突撃 Đột kích; リーダー攻撃回数 số đòn của chỉ huy.",
+  "Menu 退却する/退却中止 Rút lui/Hủy rút lui. Debug error strings left in Japanese as in the original.",
+  "g20.b3-b4 summon-increase fragment left unchanged: its code adds to the summon counter, so the JP 人望の杖 wording cannot be matched safely."
+ ]
+}

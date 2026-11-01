@@ -1,0 +1,11437 @@
+--- before/Gｶﾌｪ.ADV
++++ src/Gｶﾌｪ.ADV
+@@ -51,14 +51,14 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Đội'
+-	R
+-	'trưởng Carfeknight đến trước'
+-	\L_07e59:
+-	ZH 1:
+-	'ngai vàng theo lời'
+-	R
+-	'kêu gọi của Rance.'
++	'Phòng yết kiến'
++	R
++	'Được Rance cho gọi, đội'
++	R
++	'trưởng Carfeknight'
++	\L_07e59:
++	ZH 1:
++	'đã có mặt trước ngai vàng.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -70,22 +70,22 @@
+ 	\L_07e4c:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Không.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Tên ngươi là gì?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Không cần nói.'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi chỉ là thuộc hạ của'
+-	R
+-	'Lady.'
++	'Không muốn.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Tên cô là gì?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Không cần phải nói.'
++	\L_07e59:
++	ZH 1:
++	'Tôi chỉ là thuộc hạ'
++	R
++	'của Madam Lady thôi.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -100,26 +100,26 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Lạnh nhạt thật...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Dĩ nhiên. Ngài giữ con tin,'
+-	R
+-	'bắt chúng tôi ra trận mà.'
+-	\L_07e59:
+-	ZH 1:
+-	'Lady thực sự vẫn an toàn'
+-	R
+-	'chứ?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Tất nhiên. Vì'
+-	R
+-	'ta muốn nàng.'
++	'Chẳng niềm nở gì cả...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Đương nhiên. Bị bắt giữ con'
++	R
++	'tin, bị ép ra trận cơ mà.'
++	\L_07e59:
++	ZH 1:
++	'Madam Lady thật sự'
++	R
++	'vẫn bình an chứ?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Đương nhiên. Thứ ta'
++	R
++	'muốn chính là Lady mà.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -131,19 +131,19 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'À...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Có chuyện gì?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Lady là thủ lĩnh của'
+-	R
+-	'một nhóm gái mại dâm...'
++	'Này...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Chuyện gì ạ?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Lady vốn là thủ lĩnh'
++	R
++	'của đám kỹ nữ nhỉ...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -153,18 +153,14 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Nàng đang'
+-	R
+-	'kiếm tiền bằng cách bán'
+-	R
+-	'phụ nữ khác phải không?'
+-	\L_07e59:
+-	ZH 1:
+-	'Vậy tại sao'
+-	R
+-	'các ngươi lại trung'
+-	R
+-	'thành với nàng đến vậy?'
++	'Bán phụ nữ khác để'
++	R
++	'kiếm tiền, đúng không?'
++	\L_07e59:
++	ZH 1:
++	'Vậy sao các cô lại trung'
++	R
++	'thành với bà ta đến thế?'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -172,26 +168,24 @@
+ 	'............'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Tất cả gái mại'
+-	R
+-	'dâm trong Lady Caravan'
+-	\L_07e59:
+-	ZH 1:
+-	'đều ở trong hoàn cảnh'
+-	R
+-	'thuận lợi hơn khi ở đó.'
+-	\L_07e59:
+-	ZH 1:
+-	'Vì vậy chúng'
+-	R
+-	'tôi nợ Ma’am Lady.'
+-	\L_07e59:
+-	ZH 1:
+-	'Chẳng phải'
+-	R
+-	'tự nhiên mà quý trọng'
+-	R
+-	'người mà cậu mắc nợ sao?'
++	'Những cô gái làm kỹ nữ'
++	R
++	'trong Lady Caravan...'
++	\L_07e59:
++	ZH 1:
++	'ai cũng từng ở hoàn cảnh'
++	R
++	'mà làm kỹ nữ còn khá hơn.'
++	\L_07e59:
++	ZH 1:
++	'Vì thế, Madam Lady là'
++	R
++	'ân nhân của chúng tôi.'
++	\L_07e59:
++	ZH 1:
++	'Quý trọng ân nhân là chuyện'
++	R
++	'đương nhiên, đúng không?'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -202,9 +196,9 @@
+ 	\L_07e06:
+ 	\L_07d6c:
+ 	ZH 1:
+-	'Carfeknight rời'
+-	R
+-	'Rance mà không nói gì.'
++	'Carfeknight không nói'
++	R
++	'gì, rời khỏi chỗ Rance.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 0!
+@@ -239,9 +233,9 @@
+ 	\L_07e4c:
+ 	\L_07da4:
+ 	ZH 1:
+-	'... Ngài đang làm chuyện phi'
+-	R
+-	'thường đấy...'
++	'...Ngài đang làm một'
++	R
++	'chuyện ghê gớm đấy...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -251,19 +245,21 @@
+ 	\L_07e4c:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Thời của tôi... Cùng ma nhân'
+-	R
+-	'hợp sức chiến đấu là chuyện'
+-	R
+-	'không tưởng...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Ừ, phải... Jill ấy...'
+-	\L_07e59:
+-	ZH 1:
+-	'Trông tàn nhẫn lắm.'
++	'Thời chúng tôi... bắt tay'
++	R
++	'với ma nhân mà chiến đấu'
++	R
++	'là chuyện không tưởng...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'À... đúng thật...'
++	R
++	'Con mụ Jill ấy...'
++	\L_07e59:
++	ZH 1:
++	'trông có vẻ tàn bạo lắm...'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'Ma nhân phải tuyệt đối phục'
+@@ -280,26 +276,26 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Ta đã làm nàng.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Có phải nàng...?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Nàng đã bị phong ấn bởi'
+-	R
+-	'Chaos. Ta đã nắm lấy cơ hội.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Để... Làm nàng??'
+-	R
+-	'Điều đó thật kỳ lạ...'
++	'Làm rồi.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Làm... là sao...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Ả bị phong ấn bằng Chaos.'
++	R
++	'Ta giải ấn ra nên...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Thế mà... cũng làm'
++	R
++	'á?? Bình thường thì...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -307,11 +303,11 @@
+ 	'Gahahahaha!!'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Ta coi việc quan hệ tình'
+-	R
+-	'dục với những người phụ nữ'
+-	R
+-	'hiếm hoi là một thành tựu!'
++	'Làm được với gái'
++	R
++	'hiếm có, với ta là'
++	R
++	'một tấm huân chương!'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -321,21 +317,21 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Cô ghét sống chung với ma'
+-	R
+-	'nhân à?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Thành thật... Bảo không chút'
++	'Ghét à? Sống chung'
++	R
++	'với ma nhân ấy.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Nói thật... bảo không chút'
+ 	R
+ 	'e ngại thì là nói dối.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Thành thật mà nói thì tốt.'
++	'Thật thà, tốt lắm.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -349,53 +345,49 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Thật tốt khi'
+-	R
+-	'nhìn về phía trước.'
+-	\L_07e59:
+-	ZH 1:
+-	'Ta thưởng cho ngươi'
+-	R
+-	'tình dục thì sao?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Không'
+-	\L_07e59:
+-	ZH 1:
+-	'được đâu. Tôi chỉ nói vậy'
+-	R
+-	'thôi. Giờ còn đi hẹn hò...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Gì cơ!!?? Tìm được đàn ông'
+-	R
+-	'tốt rồi à?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Hì hì. Chỉ hẹn chơi với mấy'
+-	R
+-	'đứa trẻ dưới phố thôi. Tạm'
+-	R
+-	'biệt nhé.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Vâng.'
++	'Lạc quan, tốt lắm.'
++	\L_07e59:
++	ZH 1:
++	'Ta ôm cô một trận'
++	R
++	'làm phần thưởng nhé?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Khôôông'
++	\L_07e59:
++	ZH 1:
++	'được. Chuyện chỉ có thế.'
++	R
++	'Giờ tôi còn đi hẹn hò...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Cáiii gì!!?? Tìm'
++	R
++	'được trai ngon rồi à?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Hì hì. Chỉ hẹn chơi với bọn'
++	R
++	'trẻ dưới phố thôi. Chào nhé.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Ờ.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07e06:
+ 	\L_07d6c:
+ 	ZH 1:
+-	'Café nhẹ nhàng'
+-	R
+-	'rời khỏi ngai vàng.'
++	'Café bước chân nhẹ tênh'
++	R
++	'rời khỏi trước ngai vàng.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 0!
+@@ -426,33 +418,33 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Chuyện'
+-	R
+-	'gì vậy, Vua của Leazas?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Này, Café.'
+-	R
+-	'Ngươi làm tốt chứ?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Vâng, nhờ mọi người cả.'
+-	\L_07e59:
+-	ZH 1:
+-	'Thỉnh thoảng tôi tới trường'
+-	R
+-	'tiểu học tập thể dục theo'
+-	R
+-	'đài cùng bọn trẻ.'
+-	\L_07e59:
+-	ZH 1:
+-	'Kết bạn được với chúng, vui'
+-	R
+-	'lắm.'
++	'Phòng yết kiến'
++	R
++	'Có chuyện gì thế, Vua'
++	R
++	'Leazas?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Ồ, Café. Khỏe không?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Vâng, nhờ trời.'
++	\L_07e59:
++	ZH 1:
++	'Thỉnh thoảng tôi theo bọn'
++	R
++	'trẻ đi tập thể dục theo'
++	R
++	'đài ở trường tiểu học.'
++	\L_07e59:
++	ZH 1:
++	'Kết bạn được với'
++	R
++	'lũ trẻ, vui lắm.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -462,7 +454,7 @@
+ 	\L_07e4c:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Cái gì?'
++	'Gì thế?'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -470,37 +462,39 @@
+ 	'Không...'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Với chiều cao của cô, lẫn'
+-	R
+-	'trong'
+-	\L_07e59:
+-	ZH 1:
+-	'bọn trẻ chắc chẳng ai thấy'
+-	R
+-	'lạ...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Thật là! Đến ngài cũng nói'
+-	R
+-	'thế... Bọn trẻ cũng'
+-	\L_07e59:
+-	ZH 1:
+-	'trêu tôi như vậy đấy. Hứ!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Gahahahaha! Trẻ con mồm mép'
+-	\L_07e59:
+-	ZH 1:
+-	'lắm.'
+-	\L_07e59:
+-	ZH 1:
+-	'Thế... Tìm được đàn ông tốt'
+-	R
+-	'chưa?'
++	'Với chiều cao của'
++	R
++	'cô thì lẫn giữa'
++	\L_07e59:
++	ZH 1:
++	'đám trẻ con chắc cũng'
++	R
++	'chẳng ai thấy lạ...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Thật là! Đến cả'
++	R
++	'Vua Leazas cũng...'
++	\L_07e59:
++	ZH 1:
++	'Bọn trẻ cũng nói'
++	R
++	'tôi thế đấy. Hứ!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Gahahahaha.'
++	\L_07e59:
++	ZH 1:
++	'Trẻ con mồm mép lắm.'
++	\L_07e59:
++	ZH 1:
++	'Thế... tìm được'
++	R
++	'trai ngon chưa?'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -525,21 +519,19 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Ta hiểu rồi.'
+-	\L_07e59:
+-	ZH 1:
+-	'Ồ, nếu ban'
+-	R
+-	'đêm ngươi thấy cô đơn'
+-	R
+-	'thì cứ nói với ta nhé.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Chắc chắn rồi, tôi sẽ làm'
+-	R
+-	'điều đó. Cảm ơn, thưa bệ hạ.'
++	'Vậy à.'
++	\L_07e59:
++	ZH 1:
++	'À, đêm có thấy cô'
++	R
++	'đơn thì cứ nói với ta'
++	R
++	'bất cứ lúc nào nhé.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Ừ, tôi sẽ thế. Cảm ơn bệ hạ.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -570,16 +562,16 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Cuộc'
+-	R
+-	'gọi đột ngột là sao vậy?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'?? Ngươi đang'
+-	R
+-	'cầm cái gì thế?'
++	'Phòng yết kiến'
++	R
++	'Có chuyện gì thế? Gọi tôi'
++	R
++	'đột ngột vậy...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'?? Cô cầm gì thế?'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -596,7 +588,7 @@
+ 	\L_07df8:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Tặng tôi... sao?'
++	'Tặng tôi... ư?'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07e06:
+@@ -621,11 +613,11 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Café, phần ta đâu? Ta muốn'
+-	R
+-	'hình cô gái dễ thương thêu'
+-	R
+-	'trên đó.'
++	'Café, của ta đâu?'
++	R
++	'Ta muốn thêu hình'
++	R
++	'cô gái dễ thương cơ.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07e06:
+@@ -645,9 +637,7 @@
+ 	'Hừm, keo kiệt.'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Vậy thì ta'
+-	R
+-	'sẽ lấy thứ khác.'
++	'Vậy ta sẽ lấy thứ khác.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -657,25 +647,25 @@
+ 	\L_07e4c:
+ 	\L_07d6c:
+ 	ZH 1:
+-	'Rance nhanh'
+-	R
+-	'chóng đưa tay ra.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Suýt quên. Thứ đã nói ấy.'
+-	R
+-	'Tượng vàng.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'À, phải rồi. Tôi nhớ phải'
+-	R
+-	'đưa nên vẫn mang sát bên'
+-	R
+-	'người. Đây.'
++	'Rance chìa tay ra'
++	R
++	'trước mặt Café.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Suýt quên, cái món'
++	R
++	'đó. Tượng vàng.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'À, phải rồi. Tôi cũng nhớ'
++	R
++	'phải đưa nên lúc nào cũng'
++	R
++	'mang theo người. Đây.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d6c:
+@@ -692,9 +682,9 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Ồ... Thế này à?'
+-	R
+-	'Ta sẽ lấy nó, Café.'
++	'Ồ... cái này đây.'
++	R
++	'Ta lấy nhé, Café.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -702,45 +692,43 @@
+ 	'Được thôi...'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Nhưng ngài Rance... Tôi'
+-	R
+-	'không khuyên ngài'
+-	\L_07e59:
+-	ZH 1:
+-	'tới đó. Các bạn tôi hẳn cũng'
+-	R
+-	'nói vậy...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Gahahahaha!, ta'
+-	R
+-	'sẽ ổn thôi. Không'
+-	R
+-	'có gì phải lo lắng.'
+-	\L_07e59:
+-	ZH 1:
+-	'Ta đã khá xinh đẹp và'
+-	R
+-	'nổi tiếng rồi nên ta sẽ'
+-	\L_07e59:
+-	ZH 1:
+-	'không thực hiện điều ước'
+-	R
+-	'ngu ngốc như ngươi đã làm.'
+-	\L_07e59:
+-	ZH 1:
+-	'pth!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Gahahahaha! Ta đã'
+-	R
+-	'làm được, ta đã có được'
+-	R
+-	'bức tượng. Gahahahaha!'
++	'Nhưng... Vua Leazas...'
++	R
++	'tôi không khuyên ngài'
++	\L_07e59:
++	ZH 1:
++	'đến chỗ đó đâu... Các bạn'
++	R
++	'tôi chắc cũng nói thế...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Gahahahaha, không'
++	R
++	'sao. Chuyện nhỏ.'
++	\L_07e59:
++	ZH 1:
++	'Vả lại ta vốn đã đẹp'
++	R
++	'trai, đắt gái sẵn rồi,'
++	\L_07e59:
++	ZH 1:
++	'nên chẳng đi ước điều'
++	R
++	'ngu ngốc như cô đâu.'
++	\L_07e59:
++	ZH 1:
++	'Hứ!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Gahahahaha. Được rồi,'
++	R
++	'được rồi, có trong'
++	R
++	'tay rồi. Gahahaha.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07e06:
+@@ -748,45 +736,41 @@
+ 	\L_07df8:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Hãy cho thiếp'
+-	R
+-	'xem nữa, chàng yêu.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Không. Hao đi mất.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Ahn, đừng có ác ý thế!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance nhanh'
+-	R
+-	'chóng né tránh bàn tay'
+-	R
+-	'đang tiếp cận của Lia.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Gahahahaha!.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Ahn, chàng yêu!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance lao đi và'
+-	R
+-	'Lia đuổi theo hắn.'
++	'Chàng yêu, cho Lia xem với.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Không được, mòn mất.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Ứ, đừng có ăn hiếp thiếp mà!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Rance nhanh nhẹn né'
++	R
++	'bàn tay Lia vươn tới.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Gahahahaha.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Ứ, chàng yêu!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Rance vụt chạy,'
++	R
++	'Lia đuổi theo.'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'Một cuộc rượt đuổi bắt'
+@@ -799,9 +783,9 @@
+ 	\L_07df8:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Quả nhiên cô vất vả nhất,'
+-	R
+-	'Maris nhỉ...'
++	'Quả nhiên người vất vả'
++	R
++	'nhất là cô... cô Maris...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07e06:
+@@ -809,7 +793,7 @@
+ 	\L_07df8:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Hô hô hô...'
++	'Hohoho......'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 0!
+@@ -833,7 +817,7 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Nơi nghỉ ngơi'
++	'Bãi dừng chân'
+ 	R
+ 	'của Lady Caravan'
+ 	\L_07e59:
+@@ -849,55 +833,47 @@
+ 	}
+ 	\L_07d34:
+ 	ZH 1:
+-	'Hừm. Nhộn nhịp thế này tốt'
+-	R
+-	'đấy.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Đúng vậy.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Khu vực này'
+-	R
+-	'đông đúc với những toa xe'
+-	R
+-	'đã dừng của Lady Caravan.'
+-	\L_07e59:
+-	ZH 1:
+-	'Những chiếc lều'
+-	R
+-	'được dựng lên khắp nơi và'
+-	R
+-	'có cả những cửa hàng nữa.'
+-	\L_07e59:
+-	ZH 1:
+-	'Tiếng ồn ào của những'
+-	R
+-	'người bán hàng rong hung hãn'
+-	\L_07e59:
+-	ZH 1:
+-	'và những lời tán tỉnh'
+-	R
+-	'của phụ nữ hòa quyện vào'
+-	R
+-	'nhau như một giai điệu.'
++	'Hừm. Sôi nổi thế này là tốt.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Vâng.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Ở đó, xe ngựa của Lady'
++	R
++	'Caravan đỗ kín chỗ.'
++	\L_07e59:
++	ZH 1:
++	'Lều dựng khắp nơi, có'
++	R
++	'vẻ còn có cả hàng quán.'
++	\L_07e59:
++	ZH 1:
++	'Tiếng rao hàng sang'
++	R
++	'sảng và tiếng cười'
++	\L_07e59:
++	ZH 1:
++	'lả lơi của phụ nữ hòa vào'
++	R
++	'nhau như một bản nhạc.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07e06:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Ngài là vua Leazas phải'
+-	R
+-	'không?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Vâng.'
++	'Ngài là Vua'
++	R
++	'Leazas phải không?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Ờ.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 88!
+@@ -918,11 +894,9 @@
+ 	\L_07e4c:
+ 	\L_07d6c:
+ 	ZH 1:
+-	'Rance vừa'
+-	R
+-	'nói vừa chạm vào ngực'
+-	R
+-	'của hiệp sĩ áo trắng.'
++	'Vừa nói, Rance vừa thò tay'
++	R
++	'sờ ngực hiệp sĩ áo trắng.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -932,33 +906,33 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Hả?'
++	'Ơ?'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07ddc:
+ 	ZH 1:
+-	'Người hiệp sĩ'
+-	R
+-	'không phản ứng.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Mời đi lối này. Tôi sẽ dẫn'
+-	R
+-	'ngài tới lều Lady.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'... Cô gái nhàm chán...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance càu nhàu trong'
+-	R
+-	'khi đi theo hiệp sĩ.'
++	'Hiệp sĩ chẳng hề phản ứng.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Mời ngài đi lối này.'
++	R
++	'Tôi sẽ dẫn ngài tới'
++	R
++	'lều của Madam Lady.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'......Đồ chán ngắt...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Rance vừa lầm bầm vừa lững'
++	R
++	'thững đi theo hiệp sĩ.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	{(VAR0492 > 1) * (VAR0365 = 2) * (VAR0101 = 1):
+@@ -967,12 +941,12 @@
+ 	\L_07d6c:
+ 	ZM 32:
+ 	ZH 1:
+-	'Đoàn lữ hành quý bà'
++	'Lady Caravan'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Bên trong lều tiểu thư'
++	'Trong lều của Lady'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07e06:
+@@ -1014,17 +988,17 @@
+ 	'Hừ...'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Chán thật. Thôi,'
+-	\L_07e59:
+-	ZH 1:
+-	'trước mắt có mỹ nhân rồi.'
+-	R
+-	'Gahahahaha!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Tôi rất vinh dự.'
++	'Chán thật. Thôi được,'
++	\L_07e59:
++	ZH 1:
++	'trước mắt đang có mỹ'
++	R
++	'nhân mà. Gahahahaha.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Ngài quá khen.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	@L_019d8:
+@@ -1032,72 +1006,76 @@
+ 	!VAR0365 : 2!
+ 	\L_07d34:
+ 	ZH 1:
+-	'Ừm...? Đây là cái gì vậy?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Hàng trăm xe lớn nhỏ cùng vô'
+-	R
+-	'số lều bạt...'
+-	\L_07e59:
+-	ZH 1:
+-	'Cả đoàn ở đó gần như một'
+-	R
+-	'thành phố.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Ngài Rance, đây là thương'
+-	R
+-	'đội Lady.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Thương đội Lady?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Đúng vậy, một nhóm đi'
+-	R
+-	'khắp lục địa để buôn bán.'
+-	\L_07e59:
+-	ZH 1:
+-	'Tuy nhiên, họ'
+-	R
+-	'chủ yếu tập trung vào'
+-	R
+-	'buôn bán tình dục...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Vậy họ là một'
+-	R
+-	'nhóm gái điếm à?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Có.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Hmmmmm... Khá đấy.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Họ còn có quân đội tự vệ, có'
+-	\L_07e59:
+-	ZH 1:
+-	'thể gọi là một quốc gia di'
+-	R
+-	'động.'
++	'Hửm...? Cái gì thế này?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Hàng trăm xe ngựa lớn'
++	R
++	'nhỏ và vô số lều bạt...'
++	\L_07e59:
++	ZH 1:
++	'Một đoàn người gần như cả'
++	R
++	'một thành phố đang ở đó.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Bệ hạ Rance, đây'
++	R
++	'là Lady Caravan ạ.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Lady Caravan?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Vâng, là đoàn người'
++	R
++	'vừa di chuyển khắp'
++	R
++	'lục địa vừa buôn bán.'
++	\L_07e59:
++	ZH 1:
++	'Về cơ bản, họ chủ yếu'
++	R
++	'buôn bán chuyện ăn nằm...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Nghĩa là một đám'
++	R
++	'gái bán hoa à?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Vâng.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Hừmmm... Nhưng mà,'
++	R
++	'hoành tráng thật.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Họ còn có quân đội'
++	R
++	'riêng để tự vệ, nên'
++	\L_07e59:
++	ZH 1:
++	'gọi là một quốc gia di'
++	R
++	'động cũng không sai.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -1105,9 +1083,9 @@
+ 	'Ra vậy...'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Thú vị đấy, vào xem nào.'
+-	R
+-	'Gahahahaha!'
++	'Dù sao trông cũng thú vị,'
++	R
++	'ghé xem thử nào. Gahahahaha.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	@L_014aa:
+@@ -1115,64 +1093,60 @@
+ 	!VAR0365 : 2!
+ 	\L_07d34:
+ 	ZH 1:
+-	'Vậy đây là'
+-	R
+-	'Lady Caravan được'
+-	R
+-	'đồn đại à...? Ồ.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Nhìn đoàn xe của thương đội'
+-	R
+-	'Lady, Rance'
+-	\L_07e59:
+-	ZH 1:
+-	'hơi sửng sốt. Có tới một'
+-	R
+-	'nghìn xe lớn nhỏ chăng...'
+-	\L_07e59:
+-	ZH 1:
+-	'Quy mô gần như một đạo quân'
+-	R
+-	'hành quân.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Thật ngạc nhiên'
+-	R
+-	'khi đây lại là một nhóm gái'
+-	R
+-	'điếm đi du lịch... Đúng vậy.'
+-	\L_07e59:
+-	ZH 1:
+-	'... Ngửi đi...'
+-	\L_07e59:
+-	ZH 1:
+-	'... Sniffsniff, ta'
+-	R
+-	'ngửi thấy mùi phụ nữ...'
+-	R
+-	'Mm～～... Mùi thơm quá.'
+-	\L_07e59:
+-	ZH 1:
+-	'Không phải là'
+-	R
+-	'ta thiếu phụ nữ,'
+-	\L_07e59:
+-	ZH 1:
+-	'nhưng thưởng'
+-	R
+-	'thức kỹ thuật của dân chuyên'
+-	R
+-	'nghiệp cũng không tệ đâu...'
+-	\L_07e59:
+-	ZH 1:
+-	'Điều đó có nghĩa là'
+-	R
+-	'ta nên đi kiểm tra chúng.'
++	'Đây là Lady Caravan trong'
++	R
++	'lời đồn à... Ghê thật.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Nhìn đoàn xe của'
++	R
++	'Lady Caravan, Rance'
++	\L_07e59:
++	ZH 1:
++	'hơi sửng sốt. Xe ngựa'
++	R
++	'lớn nhỏ chắc phải'
++	R
++	'đến 1000 chiếc...'
++	\L_07e59:
++	ZH 1:
++	'Gần bằng cả một đạo'
++	R
++	'quân đang hành quân.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Thế mà đây lại là'
++	R
++	'một đoàn kỹ nữ lưu'
++	R
++	'động... Ghê thật... ừ.'
++	\L_07e59:
++	ZH 1:
++	'......Hít......'
++	\L_07e59:
++	ZH 1:
++	'......Hít hà, mùi đàn'
++	R
++	'bà... Ừmm～... thơm phết.'
++	\L_07e59:
++	ZH 1:
++	'Nào, cũng chẳng phải'
++	R
++	'ta thiếu đàn bà gì,'
++	\L_07e59:
++	ZH 1:
++	'nhưng thỉnh thoảng nếm'
++	R
++	'thử kỹ thuật dân chuyên'
++	R
++	'nghiệp cũng không tệ...'
++	\L_07e59:
++	ZH 1:
++	'Thế nên, đi xem thử thôi.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	@L_014aa:
+@@ -1180,21 +1154,21 @@
+ 	\L_07d6c:
+ 	ZM 32:
+ 	ZH 1:
+-	'Đoàn lữ hành quý bà'
++	'Lady Caravan'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Bên trong lều tiểu thư'
+-	R
+-	'Rance tận dụng tối đa địa vị'
+-	R
+-	'vua của mình để ngay lập tức'
+-	\L_07e59:
+-	ZH 1:
+-	'tìm kiếm thủ lĩnh'
+-	R
+-	'của đoàn lữ hành.'
++	'Trong lều của Lady'
++	R
++	'Rance tận dụng tối đa địa'
++	R
++	'vị quốc vương,'
++	\L_07e59:
++	ZH 1:
++	'lập tức cho gọi người'
++	R
++	'đứng đầu đoàn tới.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07e06:
+@@ -1207,19 +1181,19 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Ừm. Làm'
+-	R
+-	'nhanh lên, gahahahaha.'
++	'Ừm. Nhanh lên'
++	R
++	'đấy, gahahahaha.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07e06:
+ 	\L_07d6c:
+ 	ZH 1:
+-	'Rance được đưa vào một'
+-	R
+-	'chiếc lều sang trọng. Hắn'
+-	R
+-	'ngồi trên chiếc đệm êm ái.'
++	'Rance được đưa vào sâu trong'
++	R
++	'một chiếc lều sang trọng,'
++	R
++	'ngồi xuống chiếc đệm êm ái.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -1259,24 +1233,26 @@
+ 	\L_07e4c:
+ 	\L_07d6c:
+ 	ZH 1:
+-	'Lúc ấy, từ sau'
+-	\L_07e59:
+-	ZH 1:
+-	'rèm vang lên giọng nói rõ'
+-	\L_07e59:
+-	ZH 1:
+-	'và trầm tĩnh, đầy quyến rũ.'
++	'Đúng lúc ấy, từ sau tấm rèm'
++	\L_07e59:
++	ZH 1:
++	'vang lên một giọng'
++	R
++	'nói vang mà trầm tĩnh,'
++	\L_07e59:
++	ZH 1:
++	'đầy quyến rũ.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 86!
+ 	\L_07df8:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Rất hân hạnh, vua Leazas.'
+-	R
+-	'Tôi là Lady, người phụ trách'
+-	R
+-	'nơi này.'
++	'Hân hạnh được gặp, Vua'
++	R
++	'Leazas. Tôi là Lady,'
++	R
++	'người đứng đầu nơi này.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -1289,9 +1265,9 @@
+ 	\L_07e4c:
+ 	\L_07d50:
+ 	ZH 1:
+-	'... Ờ... Wow...'
+-	R
+-	'Chỉ là... Wow...'
++	'......Ư... ghê thật...'
++	R
++	'sao mà... ghê thật...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d6c:
+@@ -1301,16 +1277,16 @@
+ 	'nên lời khi nhìn Lady.'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Mặc dù khá quen với phụ'
+-	R
+-	'nữ nhưng không hiểu sao hắn'
+-	R
+-	'lại thấy mình choáng váng.'
++	'Không phải hắn chưa quen'
++	R
++	'đàn bà, vậy mà chẳng hiểu'
++	R
++	'sao lại thành ra thế.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d50:
+ 	ZH 1:
+-	'Muốn có nàng...'
++	'Muốn có......'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d6c:
+@@ -1320,36 +1296,36 @@
+ 	\L_07e4c:
+ 	\L_07d50:
+ 	ZH 1:
+-	'Ta muốn nàng chỉ thuộc về'
+-	\L_07e59:
+-	ZH 1:
+-	'mình... Chẳng hiểu tại'
+-	R
+-	'sao... Chỉ của riêng ta...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'... Cái gì?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Ờ...'
++	'Ta muốn độc chiếm'
++	R
++	'người này...'
++	\L_07e59:
++	ZH 1:
++	'Chẳng hiểu vì sao...'
++	R
++	'Chỉ của riêng ta thôi...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'...Có chuyện gì ạ?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Ư......'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07ddc:
+ 	ZH 1:
+-	'Giọng nói của Lady'
+-	R
+-	'khiến Rance tỉnh lại.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'K-Không có'
+-	R
+-	'gì... Không có gì cả.'
++	'Nghe giọng Lady, Rance'
++	R
++	'giật mình tỉnh lại.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Kh... không... không có gì.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d6c:
+@@ -1366,75 +1342,77 @@
+ 	\L_07e4c:
+ 	\L_07dc0:
+ 	ZH 1:
+-	'Cuối cùng,'
+-	\L_07e59:
+-	ZH 1:
+-	'ngay cả một người đàn ông'
+-	R
+-	'tự mình trở thành vua cũng'
+-	R
+-	'chỉ là một người đàn ông...'
+-	\L_07e59:
+-	ZH 1:
+-	'Đáng lẽ tôi không nên'
+-	R
+-	'mong đợi bất cứ điều gì...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Cô nói mình tên Lady nhỉ.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Có.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Lệnh vua đây. Đến chỗ ta.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Tôi từ chối.'
++	'Rốt cuộc,'
++	\L_07e59:
++	ZH 1:
++	'dù là kẻ lên ngôi bằng thực'
++	R
++	'lực thì cũng chỉ đến thế...'
++	R
++	'một gã đàn ông tầm thường...'
++	\L_07e59:
++	ZH 1:
++	'Không... là lỗi tôi'
++	R
++	'đã mong đợi... dù'
++	R
++	'biết là không thể...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Cô tên Lady phải không.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Vâng.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Lệnh của quốc'
++	R
++	'vương. Về chỗ ta.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Tôi xin từ chối.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07dc0:
+ 	ZH 1:
+-	'Lại thế... Dù người đàn ông'
+-	R
+-	'trước mặt là ai, phản ứng'
+-	R
+-	'vẫn giống nhau...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Ngươi đã nói gì?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Tôi đã từ'
+-	R
+-	'chối lời đề nghị tương tự từ'
+-	R
+-	'những người cai trị các quốc'
+-	\L_07e59:
+-	ZH 1:
+-	'gia khác nhiều'
+-	R
+-	'lần trong quá khứ,'
+-	\L_07e59:
+-	ZH 1:
+-	'cậu thấy đấy...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Kẻ khác mặc kệ. Ta là ta.'
++	'Quả nhiên... người đàn ông'
++	R
++	'trước mặt có ra sao, ai'
++	R
++	'cũng phản ứng y như nhau...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Cô nói gì?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Trước đây đã mấy lần...'
++	\L_07e59:
++	ZH 1:
++	'vua của các cường quốc'
++	R
++	'khác cũng mời tôi như vậy,'
++	\L_07e59:
++	ZH 1:
++	'và tôi đều từ chối cả...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Chuyện ở đâu ta'
++	R
++	'mặc kệ. Ta là ta.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -1444,51 +1422,49 @@
+ 	ZH 1:
+ 	'Nếu ngài nhất quyết, chúng'
+ 	R
+-	'tôi sẵn sàng giao chiến với'
+-	R
+-	'đội tự vệ Carfeknight.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Lady nói với'
+-	R
+-	'giọng lạnh lùng.'
+-	\L_07e59:
+-	ZH 1:
+-	'Căng thẳng lan'
+-	R
+-	'khắp nhóm Carfeknights'
+-	R
+-	'đứng yên phía sau cô.'
++	'tôi sẵn sàng dùng đội tự vệ'
++	R
++	'Carfeknight để giao chiến.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Lady nói bằng'
++	R
++	'giọng đanh thép.'
++	\L_07e59:
++	ZH 1:
++	'Đám Carfeknight'
++	R
++	'đứng sau lưng nàng'
++	R
++	'lập tức căng thẳng.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d50:
+ 	ZH 1:
+-	'Hmmmmm... Nàng'
+-	R
+-	'trông có vẻ nghiêm'
+-	R
+-	'túc... ... Chết tiệt...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Được rồi. Ta sẽ'
+-	R
+-	'từ bỏ ngày hôm nay.'
++	'Ừmmm... mắt nghiêm túc'
++	R
++	'thật... ...Thế này thì...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Được rồi. Hôm nay'
++	R
++	'ta tạm bỏ qua.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07dc0:
+ 	ZH 1:
+-	'Nói bao lần cũng thế... Tôi'
+-	R
+-	'sẽ không thuộc về bất kỳ ai.'
+-	R
+-	'Tôi đã quyết rồi...'
+-	\L_07e59:
+-	ZH 1:
+-	'Từ lâu...'
++	'Nói bao nhiêu lần cũng'
++	R
++	'vậy... tôi sẽ không thuộc'
++	R
++	'về ai... tôi đã quyết rồi...'
++	\L_07e59:
++	ZH 1:
++	'Từ lâu rồi...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	@L_019d8:
+@@ -1503,27 +1479,27 @@
+ 	$
+ 	R
+ 	$L_02dd8$
+-	'Mua gái điếm'
++	'Mua kỹ nữ'
+ 	$
+ 	R
+ 	$L_01b46$
+-	'Nói chuyện với quý cô'
++	'Nói chuyện với Lady'
+ 	$
+ 	{VAR0365 = 3:
+ 		ZH 1:
+ 		$L_05770$
+-		'Nhận Tượng Vàng'
++		'Nhận tượng vàng'
+ 		$
+ 	}
+ 	{VAR0365 = 5:
+ 		ZH 1:
+ 		$L_0678f$
+-		'Trở lại bình thường'
++		'Biến lại như cũ'
+ 		$
+ 	}
+ 	ZH 1:
+ 	$L_01ee2$
+-	'Hiếp dâm quý cô'
++	'Cưỡng bức Lady'
+ 	$
+ 	R
+ 	$L_01a7e$
+@@ -1537,12 +1513,14 @@
+ 	'Thôi, ta về đây.'
+ 	\L_07e59:
+ 	ZH 1:
+-	'À, tiếp theo đi đâu?'
+-	\L_07e59:
+-	ZH 1:
+-	'Các cô cứ tùy ý di chuyển,'
+-	R
+-	'tìm khó thật.'
++	'À phải. Lần tới'
++	R
++	'các cô đi đâu?'
++	\L_07e59:
++	ZH 1:
++	'Các cô cứ tùy tiện di'
++	R
++	'chuyển, tìm vất vả lắm.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -1567,9 +1545,9 @@
+ 	\L_07e4c:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Vâng, thưa bệ hạ.'
+-	R
+-	'Hãy chăm sóc bản thân.'
++	'Vâng... thưa bệ'
++	R
++	'hạ. Ngài bảo trọng.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d6c:
+@@ -1584,28 +1562,26 @@
+ 	{VAR0365 = 5:
+ 		\L_07da4:
+ 		ZH 1:
+-		'Nếu ngươi có thể đưa'
++		'Nếu ngài trả tôi'
+ 		R
+-		'tôi trở lại cơ thể ban đầu,'
+-		\L_07e59:
+-		ZH 1:
+-		'tôi sẽ tặng'
++		'về lại cơ thể cũ,'
++		\L_07e59:
++		ZH 1:
++		'tôi sẽ tặng ngài bức'
+ 		R
+-		'ngươi bức tượng vàng'
++		'tượng vàng mà ngài muốn.'
++		\L_07e59:
++		ZH 1:
++		'Có điều chắc là'
+ 		R
+-		'mà ngươi mong muốn.'
+-		\L_07e59:
+-		ZH 1:
+-		'Tuy nhiên, điều đó'
+-		R
+-		'có lẽ là không thể...'
++		'không thể đâu......'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07d34:
+ 		ZH 1:
+-		'Huhuhu... Ta biết cách'
++		'Hừ hừ hừ... Ta biết cách'
+ 		R
+-		'để em trở lại bình thường.'
++		'trả cô về như cũ đấy.'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07da4:
+@@ -1615,32 +1591,28 @@
+ 		\L_07e4c:
+ 		\L_07d34:
+ 		ZH 1:
+-		'Vấn đề là'
++		'Thật ra, tinh dịch của ta có'
+ 		R
+-		'tinh trùng của ta có khả'
++		'sức mạnh phá giải bùa chú.'
++		\L_07e59:
++		ZH 1:
++		'Nên chỉ cần H'
+ 		R
+-		'năng phá bỏ lời nguyền.'
+-		\L_07e59:
+-		ZH 1:
+-		'Vì vậy, ngươi chỉ cần'
+-		R
+-		'quan hệ tình dục với ta.'
++		'một phát là xong.'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07da4:
+ 		ZH 1:
+-		'... Hãy ngừng những'
+-		R
+-		'trò đùa kinh tởm đó đi.'
++		'......Đừng đùa nhảm nữa.'
+ 		\L_07e59:
+ 		ZH 1:
+ 		'Tôi...'
+ 		\L_07e59:
+ 		ZH 1:
+-		'Tôi thực sự... Uu...'
+-		\L_07e59:
+-		ZH 1:
+-		'Ối...'
++		'Tôi nghiêm túc mà... hu...'
++		\L_07e59:
++		ZH 1:
++		'hức......'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07d34:
+@@ -1656,7 +1628,7 @@
+ 		\L_07d88:
+ 		\L_07d34:
+ 		ZH 1:
+-		'Ờ... À... Café.'
++		'Nhưng mà... chà... Café này.'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07da4:
+@@ -1671,24 +1643,22 @@
+ 		\L_07e4c:
+ 		\L_07d34:
+ 		ZH 1:
+-		'Có chuyện gì thế?'
+-		\L_07e59:
+-		ZH 1:
+-		'Chết tiệt...'
++		'Quan trọng gì chuyện đó.'
++		\L_07e59:
++		ZH 1:
++		'Thật tình... cô biến'
+ 		R
+-		'Sao cậu lại thay đổi'
++		'thành bộ dạng đó...'
++		\L_07e59:
++		ZH 1:
++		'Cô là chỗ gác khuỷu'
+ 		R
+-		'hình dạng như vậy...?'
+-		\L_07e59:
+-		ZH 1:
+-		'Đáng lẽ em phải là'
++		'tay của ta cơ mà?'
++		\L_07e59:
++		ZH 1:
++		'Giờ ta hết chỗ gác'
+ 		R
+-		'chỗ tựa tay của ta.'
+-		\L_07e59:
+-		ZH 1:
+-		'Làm sao ta có thể đặt'
+-		R
+-		'tay lên người cậu như vậy?'
++		'khuỷu tay rồi còn gì.'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07da4:
+@@ -1703,21 +1673,23 @@
+ 		'............'
+ 		\L_07e59:
+ 		ZH 1:
+-		'Ôi!'
++		'Ồ!'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07da4:
+ 		ZH 1:
+-		'Hừm. Nếu ngươi định'
++		'Hừ. Nếu chỉ đến để'
+ 		R
+-		'đến đây để làm một việc'
++		'nói chuyện ngớ ngẩn'
+ 		R
+-		'ngu ngốc thì hãy biến đi!'
++		'thì về ngay đi!'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07d34:
+ 		ZH 1:
+-		'Điều này thật khó chịu...'
++		'Sao thấy cay cú'
++		R
++		'thế nào ấy......'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07d96:
+@@ -1725,7 +1697,7 @@
+ 		\L_07d88:
+ 		\L_07d34:
+ 		ZH 1:
+-		'Ngươi đừng nói nữa.'
++		'Mày im đi.'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		@L_019d8:
+@@ -1735,61 +1707,61 @@
+ 	'Này,'
+ 	\L_07e59:
+ 	ZH 1:
+-	'quản lý đoàn lữ hành'
+-	R
+-	'này một mình và cùng lúc'
+-	\L_07e59:
+-	ZH 1:
+-	'lang thang khắp nơi chắc'
+-	R
+-	'khó khăn lắm phải không?'
+-	\L_07e59:
+-	ZH 1:
+-	'Hãy đi với ta. Ta sẽ làm'
+-	R
+-	'điều đó để em có thể sống'
+-	R
+-	'một cuộc sống dễ dàng hơn.'
+-	\L_07e59:
+-	ZH 1:
+-	'Aah, tuy nhiên,'
+-	R
+-	'buổi tối của em có thể'
+-	R
+-	'hơi khó khăn một chút.'
+-	\L_07e59:
+-	ZH 1:
+-	'Ta là vô song, em'
+-	R
+-	'thấy đấy. Gahahahaha! ha!!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Tôi từ chối.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'... Em không cần'
+-	R
+-	'phải trả lời quá nhanh...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Như đã nói, chúng tôi'
+-	\L_07e59:
+-	ZH 1:
+-	'thích sống thế này. Vì vậy'
+-	\L_07e59:
+-	ZH 1:
+-	'chẳng thấy khổ sở gì cả.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'... Ch...'
++	'đàn bà một mình gánh vác'
++	R
++	'cả đoàn buôn thế này,'
++	\L_07e59:
++	ZH 1:
++	'lại còn lang bạt khắp'
++	R
++	'nơi, cực lắm phải không?'
++	\L_07e59:
++	ZH 1:
++	'Về chỗ ta đi. Ta sẽ cho'
++	R
++	'cô sống sung sướng hơn.'
++	\L_07e59:
++	ZH 1:
++	'À, ban đêm thì có'
++	R
++	'khi hơi cực đấy.'
++	\L_07e59:
++	ZH 1:
++	'Vì ta sung sức vô địch'
++	R
++	'mà. Gahahahahahaha!!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Tôi xin từ chối.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'...Có cần trả lời dứt'
++	R
++	'khoát vậy không...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Như tôi vẫn nói từ'
++	R
++	'trước, chúng tôi'
++	\L_07e59:
++	ZH 1:
++	'sống thế này là'
++	R
++	'vì thích. Cho nên'
++	\L_07e59:
++	ZH 1:
++	'chẳng có gì khổ cực cả.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'......Chậc...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	@L_019d8:
+@@ -1799,59 +1771,45 @@
+ 	'Kh...'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Khi ta thực sự'
+-	R
+-	'nghĩ về điều đó,'
+-	\L_07e59:
+-	ZH 1:
+-	'người phụ nữ này'
+-	R
+-	'thực sự là một con khốn nạn'
+-	R
+-	'vì đã không cho phép ta,'
+-	\L_07e59:
+-	ZH 1:
+-	'người thống trị, đụ nàng.'
+-	\L_07e59:
+-	ZH 1:
+-	'Những lúc như'
+-	R
+-	'thế này, lựa chọn duy'
+-	R
+-	'nhất là dùng vũ lực.'
+-	\L_07e59:
+-	ZH 1:
+-	'Nói chung thì ta'
+-	R
+-	'là Vua. Tất cả phụ nữ trên'
+-	R
+-	'thế giới đều thuộc về ta.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'... Có chuyện gì'
+-	R
+-	'vậy, Vua của Leazas?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Tôi hỏi lại'
+-	R
+-	'cô nhé, thưa cô.'
+-	\L_07e59:
+-	ZH 1:
+-	'Ngươi có ý định quan'
+-	R
+-	'hệ tình dục với tôi không?'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi chắc'
+-	R
+-	'chắn rằng ngươi biết điều gì'
+-	R
+-	'sẽ xảy ra nếu ngươi từ chối.'
++	'Nghĩ kỹ thì,'
++	\L_07e59:
++	ZH 1:
++	'không cho bản đại gia'
++	R
++	'trong thiên hạ này H,'
++	\L_07e59:
++	ZH 1:
++	'đúng là con đàn bà láo toét.'
++	\L_07e59:
++	ZH 1:
++	'Những lúc thế này,'
++	R
++	'phải... cưỡng ép mới được.'
++	\L_07e59:
++	ZH 1:
++	'Dù gì ta cũng là vua. Đàn'
++	R
++	'bà trên đời đều là của ta.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'......Ngài sao'
++	R
++	'thế ạ? Vua Leazas.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Lady, ta hỏi lại lần nữa.'
++	\L_07e59:
++	ZH 1:
++	'Cô không định để ta ôm sao?'
++	\L_07e59:
++	ZH 1:
++	'Cự tuyệt ta thì sẽ ra'
++	R
++	'sao, cô biết rồi chứ?'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -1859,23 +1817,19 @@
+ 	'............'
+ 	\L_07e59:
+ 	ZH 1:
+-	'... Tôi vẫn sẽ'
+-	R
+-	'không làm điều đó.'
+-	\L_07e59:
+-	ZH 1:
+-	'Nếu ngươi nói rằng ngươi sẽ'
+-	R
+-	'không có vấn đề gì, thì bằng'
+-	R
+-	'mọi cách hãy sử dụng vũ lực.'
+-	\L_07e59:
+-	ZH 1:
+-	'Chúng tôi sẽ'
+-	R
+-	'thách thức ngươi với đơn'
+-	R
+-	'vị tự vệ của chúng tôi.'
++	'......Dù vậy,'
++	R
++	'vẫn không được.'
++	\L_07e59:
++	ZH 1:
++	'Nếu ngài nhất quyết,'
++	R
++	'xin cứ dùng thực lực.'
++	\L_07e59:
++	ZH 1:
++	'Chúng tôi cũng sẽ dùng'
++	R
++	'đội tự vệ để đối đầu.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ *L_01ff4:
+@@ -1885,7 +1839,7 @@
+ 	}
+ 	ZH 1:
+ 	$L_02095$
+-	'Tôi vẫn sẽ làm điều đó'
++	'Cứ làm tới'
+ 	$
+ 	R
+ 	$L_02032$
+@@ -1899,17 +1853,17 @@
+ 	'............'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Gahahahaha!, đùa thôi.'
+-	\L_07e59:
+-	ZH 1:
+-	'Ta sẽ đợi cho đến khi'
+-	R
+-	'trái tim băng giá của ngươi'
+-	\L_07e59:
+-	ZH 1:
+-	'tan băng và ngươi nhận'
+-	R
+-	'ra con người thật của ta.'
++	'Gahahaha, đùa thôi.'
++	\L_07e59:
++	ZH 1:
++	'Ta sẽ đợi đến khi trái'
++	R
++	'tim băng giá của cô'
++	\L_07e59:
++	ZH 1:
++	'tan chảy, và cô nhận ra'
++	R
++	'con người thật của ta.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -1921,26 +1875,24 @@
+ *L_02095:
+ 	\L_07d6c:
+ 	ZH 1:
+-	'Rance đứng'
+-	R
+-	'thẳng lên khỏi ghế.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'... Vua của Leazas...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Tôi muốn đụ ngươi.'
+-	R
+-	'Không có vấn đề gì nó cần.'
+-	\L_07e59:
+-	ZH 1:
+-	'Ngay cả khi tôi'
+-	R
+-	'phải giết hàng trăm người.'
++	'Rance đứng phắt dậy.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'......Vua Leazas......'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Ta muốn ôm cô,'
++	R
++	'Lady. Bằng mọi giá.'
++	\L_07e59:
++	ZH 1:
++	'Dù có hàng trăm'
++	R
++	'người phải chết.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -1950,14 +1902,14 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Tôi sẽ quay lại lâu đài'
+-	R
+-	'của mình để lấy quân đội.'
+-	\L_07e59:
+-	ZH 1:
+-	'Nếu ngươi không muốn'
+-	R
+-	'chạy thì hãy đợi ở đây.'
++	'Giờ ta về thành,'
++	R
++	'dẫn quân tới.'
++	\L_07e59:
++	ZH 1:
++	'Nếu không định bỏ'
++	R
++	'chạy thì cứ đợi ở đây.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -1967,7 +1919,9 @@
+ 	\L_07e4c:
+ 	\L_07d6c:
+ 	ZH 1:
+-	'Rance rời khỏi lều.'
++	'Nói xong, Rance hùng'
++	R
++	'hổ bỏ ra khỏi lều.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0621 : VAR0158!
+@@ -1996,7 +1950,7 @@
+ 	R
+ 	'Phòng yết kiến'
+ 	R
+-	'Tôi đã trở lại!!'
++	'Ta về rồi!!'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -2031,7 +1985,7 @@
+ 	ZH 1:
+ 	'Chuẩn bị xuất'
+ 	R
+-	'kích ngay lập tức.'
++	'quân ngay lập tức.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	{(VAR0365 > 2) * (VAR0101 = 1):
+@@ -2050,7 +2004,7 @@
+ 		\L_07d88:
+ 		\L_07d34:
+ 		ZH 1:
+-		'Ta sẽ đánh. Ngươi đừng cản.'
++		'Làm. Mày đừng có cãi.'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 	}
+@@ -2085,14 +2039,12 @@
+ 		\L_07df8:
+ 		\L_07da4:
+ 		ZH 1:
+-		'Vậy chàng sẽ'
+-		R
+-		'chơi với thiếp chứ?'
++		'Vậy chàng chơi với Lia nhé?'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07d34:
+ 		ZH 1:
+-		'... Ta đi ngủ đây. pth!!'
++		'......Ngủ. Hứ!!'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		!VAR0516 : 0!
+@@ -2156,26 +2108,26 @@
+ 		\L_07d6c:
+ 		ZM 32:
+ 		ZH 1:
+-		'Đoàn lữ hành quý bà'
++		'Lady Caravan'
+ 		R
+ 		ZM 24:
+ 		ZH 1:
+ 		R
+-		'Bên trong lều tiểu'
++		'Trong lều của Lady'
+ 		R
+-		'thư Lại một trận chiến'
++		'Lại chiến tranh...'
+ 		R
+-		'nữa... Aah, trời ạ...!'
+-		\L_07e59:
+-		ZH 1:
+-		'Tại sao điều'
++		'A... thật là...!'
++		\L_07e59:
++		ZH 1:
++		'Sao lúc nào cũng'
+ 		R
+-		'này lại xảy ra...?'
+-		\L_07e59:
+-		ZH 1:
+-		'Có lẽ tôi không'
++		'thành ra thế này...'
++		\L_07e59:
++		ZH 1:
++		'Có lẽ tôi không nên xuất'
+ 		R
+-		'nên gặp mọi người nữa...'
++		'hiện trước người khác nữa...'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		!VAR0516 : 88!
+@@ -2192,58 +2144,54 @@
+ 		\L_07e4c:
+ 		\L_07d34:
+ 		ZH 1:
+-		'Tôi hiểu rồi. Làm tốt lắm.'
+-		\L_07e59:
+-		ZH 1:
+-		'Xin hãy ra lệnh'
++		'Vậy à, vất vả'
+ 		R
+-		'cho mọi người hãy'
++		'cho các cô rồi.'
++		\L_07e59:
++		ZH 1:
++		'Hãy bảo mọi người'
+ 		R
+-		'nghỉ ngơi thật tốt.'
++		'nghỉ ngơi cho đầy đủ.'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07da4:
+ 		ZH 1:
+-		'Vâng... Lady cũng xin đừng'
++		'Vâng... Madam Lady cũng'
+ 		R
+-		'quá sức...'
++		'xin đừng quá sức...'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07d34:
+ 		ZH 1:
+-		'Cảm ơn... Cô bé tốt bụng...'
++		'Cảm ơn... cô bé ngoan...'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07da4:
+ 		ZH 1:
+-		'Vậy xin thứ lỗi.'
++		'Vậy tôi xin phép.'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07e06:
+ 		\L_07d50:
+ 		ZH 1:
+-		'Anh ta cũng'
++		'Ông vua đó cũng như'
+ 		R
+-		'giống như tất cả những kẻ'
++		'những ông vua trước...'
++		\L_07e59:
++		ZH 1:
++		'chỉ nghĩ đến chuyện dùng'
+ 		R
+-		'thống trị khác trước đây...'
+-		\L_07e59:
+-		ZH 1:
+-		'Anh ta chỉ có thể'
++		'vũ lực cướp lấy tôi...'
++		\L_07e59:
++		ZH 1:
++		'Sự tồn tại của tôi làm lòng'
+ 		R
+-		'nghĩ đến việc đánh cắp tôi'
++		'người trở nên xấu xa...'
++		\L_07e59:
++		ZH 1:
++		'Một người như'
+ 		R
+-		'bằng lực lượng quân sự...'
+-		\L_07e59:
+-		ZH 1:
+-		'Sự tồn tại của'
+-		R
+-		'tôi khiến trái tim mọi'
+-		R
+-		'người phải thối nát...'
+-		\L_07e59:
+-		ZH 1:
+-		'Tôi không thể...'
++		'tôi... thà rằng...'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		!VAR0516 : 0!
+@@ -2258,18 +2206,18 @@
+ 	\L_07d88:
+ 	\L_07d6c:
+ 	ZH 1:
+-	'Đoàn lữ hành quý bà'
++	'Lady Caravan'
+ 	\L_07e59:
+ 	ZM 24:
+ 	ZH 1:
+-	'Đoàn lữ hành rực'
+-	R
+-	'rỡ đã bị thiêu rụi thành cái'
+-	R
+-	'bóng của chính nó trước đây.'
+-	\L_07e59:
+-	ZH 1:
+-	'Nó có màu đen với tro.'
++	'Đoàn buôn từng rực rỡ'
++	R
++	'giờ cháy hừng hực, không'
++	R
++	'còn bóng dáng ngày trước,'
++	\L_07e59:
++	ZH 1:
++	'rồi dần ám đen tro muội.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -2277,21 +2225,17 @@
+ 	'Gahahahaha!!'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Thật ngu ngốc khi một'
+-	R
+-	'đoàn lữ hành đơn thuần dám'
+-	R
+-	'thách thức đất nước của ta!'
+-	\L_07e59:
+-	ZH 1:
+-	'Hãy lắng nghe!'
+-	R
+-	'Tìm kiếm tiểu thư!'
+-	\L_07e59:
+-	ZH 1:
+-	'Hãy mang nàng đến cho'
+-	R
+-	'ta khi em tìm thấy nàng!!'
++	'Một đoàn buôn quèn mà dám'
++	R
++	'chống lại đất nước của'
++	R
++	'ta, đúng là liều mạng!'
++	\L_07e59:
++	ZH 1:
++	'Nghe đây! Tìm Lady!'
++	\L_07e59:
++	ZH 1:
++	'Tìm được thì đưa về chỗ ta!!'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 471!
+@@ -2301,25 +2245,21 @@
+ 	'Đã hiểu.'
+ 	\L_07e59:
+ 	ZH 1:
+-	'À, còn những gái'
+-	R
+-	'mại dâm khác thì sao.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Người cấp dưới'
+-	R
+-	'hỏi Rance với giọng'
+-	R
+-	'điệu có phần cầu xin.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'... Chà, để'
+-	R
+-	'ta suy nghĩ đã.'
++	'À... còn những kỹ nữ'
++	R
++	'khác thì xử lý sao ạ?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Tên thuộc hạ hỏi Rance,'
++	R
++	'giọng có phần nài nỉ.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'......Để xem nào.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -2329,7 +2269,7 @@
+ 	\L_07e4c:
+ 	\L_07dc0:
+ 	ZH 1:
+-	'Ôi trời... Ôi trời...'
++	'Hồi hộp... háo hức...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -2359,9 +2299,9 @@
+ 	\L_07e4c:
+ 	\L_07dc0:
+ 	ZH 1:
+-	'... Bweh... Tại sao chỉ'
+-	R
+-	'có Nhà vua mới được phép...?'
++	'......Xì... sao chỉ'
++	R
++	'mỗi nhà vua được...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -2378,7 +2318,7 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Tốt.'
++	'Ờ.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07e06:
+@@ -2396,9 +2336,9 @@
+ 	'...'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Một thời gian sau, một'
+-	R
+-	'người lính mang Lady đến.'
++	'Một lúc sau, lính'
++	R
++	'đưa Lady tới.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 86!
+@@ -2412,17 +2352,17 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Cái gì?'
+-	\L_07e59:
+-	ZH 1:
+-	'Ngươi là người đã nói hãy sử'
+-	R
+-	'dụng sức mạnh của ta và tấn'
+-	R
+-	'công nếu ta muốn đụ ngươi.'
+-	\L_07e59:
+-	ZH 1:
+-	'Ta chỉ vâng lời.'
++	'Gì chứ,'
++	\L_07e59:
++	ZH 1:
++	'chính Lady bảo muốn ôm'
++	R
++	'thì cứ dùng thực lực'
++	R
++	'mà tấn công đấy thôi.'
++	\L_07e59:
++	ZH 1:
++	'Ta chỉ làm theo.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -2432,34 +2372,30 @@
+ 	\L_07e4c:
+ 	\L_07d6c:
+ 	ZH 1:
+-	'Lady trừng mắt'
+-	R
+-	'nhìn Rance với ánh mắt'
+-	R
+-	'lạnh lùng, xuyên thấu.'
++	'Lady trừng trừng nhìn'
++	R
++	'Rance bằng ánh mắt lạnh'
++	R
++	'lùng mà sắc như dao.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d50:
+ 	ZH 1:
+-	'... Đáng sợ...'
+-	R
+-	'Tuy nhiên, người phụ'
+-	R
+-	'nữ tốt bụng... Aah...'
+-	\L_07e59:
+-	ZH 1:
+-	'Ta không thể'
+-	R
+-	'kiềm chế được...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Được rồi. Đưa nàng vào'
+-	R
+-	'nhà tù ở Lâu đài Leazas như'
+-	R
+-	'một tội phạm chiến tranh.'
++	'......Hừừm...... Nhưng mà,'
++	R
++	'đúng là gái ngon... A...'
++	\L_07e59:
++	ZH 1:
++	'Ta không nhịn nổi nữa...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Được. Ả là tội phạm'
++	R
++	'chiến tranh, giam vào'
++	R
++	'ngục thành Leazas.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07e06:
+@@ -2475,11 +2411,11 @@
+ 		!VAR0150 : 100!
+ 		\L_07d6c:
+ 		ZH 1:
+-		'Rance nói chuyện với'
++		'Sau khi Lady bị giải'
+ 		R
+-		'cấp dưới còn lại của mình'
++		'đi, Rance nói với'
+ 		R
+-		'sau khi Lady bị bắt đi.'
++		'đám thuộc hạ còn lại.'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07d34:
+@@ -2491,7 +2427,7 @@
+ 		\L_07e4c:
+ 		\L_07da4:
+ 		ZH 1:
+-		'Đã hiểu.'
++		'Rõ.'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07e06:
+@@ -2518,7 +2454,7 @@
+ 		\L_07e4c:
+ 		\L_07d34:
+ 		ZH 1:
+-		'Này, cái gì cơ?'
++		'Ờ, gì thế?'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07da4:
+@@ -2556,14 +2492,14 @@
+ 	}
+ 	\L_07d6c:
+ 	ZH 1:
+-	'Vì vậy, Rance đã'
+-	R
+-	'tiêu diệt Lady Caravan'
+-	R
+-	'và bắt giữ Lady,'
+-	\L_07e59:
+-	ZH 1:
+-	'cô gái điếm huyền thoại.'
++	'Thế là Rance đã tiêu'
++	R
++	'diệt Lady Caravan'
++	\L_07e59:
++	ZH 1:
++	'và bắt được Lady,'
++	R
++	'kỹ nữ huyền thoại.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0365 : 10!
+@@ -2574,30 +2510,24 @@
+ *L_02c53:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Ta nghe nói ở'
+-	R
+-	'đây anh bán phụ nữ.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Chính xác'
+-	R
+-	'hơn, chúng tôi bán cho đàn'
+-	R
+-	'ông một khoảnh khắc vui vẻ.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Thế thì ta sẽ'
+-	R
+-	'mua cô, thưa cô. Ta sẽ trả'
+-	R
+-	'bao nhiêu tùy ý ngươi muốn.'
+-	\L_07e59:
+-	ZH 1:
+-	'Để ta đụ cô.'
++	'Chỗ này bán đàn bà nhỉ.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Nói đúng hơn là bán cho đàn'
++	R
++	'ông khoái lạc nhất thời.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Vậy thì, Lady. Ta mua cô.'
++	R
++	'Bao nhiêu tiền cũng được.'
++	\L_07e59:
++	ZH 1:
++	'Cho ta ôm.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -2612,40 +2542,38 @@
+ 	\L_07e4c:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Tôi sẽ chỉ ngủ với'
+-	R
+-	'người mà tôi chấp nhận.'
+-	\L_07e59:
+-	ZH 1:
+-	'Không có tiền hay quyền lực'
+-	R
+-	'nào có thể cho phép ngươi'
+-	R
+-	'quan hệ tình dục với tôi.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Thế thì sao? Ngươi'
+-	R
+-	'không chấp nhận tôi?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Tôi thì không.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'... Aaaaagh...!! Không'
+-	R
+-	'có người đàn ông nào khác'
+-	R
+-	'trên thế giới tốt như tôi.'
+-	\L_07e59:
+-	ZH 1:
+-	'Nghiêm túc.'
++	'Tôi chỉ để người tôi'
++	R
++	'công nhận ôm mình.'
++	\L_07e59:
++	ZH 1:
++	'Tiền hay quyền lực đều'
++	R
++	'không thể có được tôi.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Vậy là sao? Ý là cô'
++	R
++	'không công nhận ta...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Vâng.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'......Tức chết điii...!!'
++	R
++	'Trên đời này không có'
++	R
++	'gã nào ngon như ta đâu.'
++	\L_07e59:
++	ZH 1:
++	'Thật đấy.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -2655,41 +2583,39 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'... Kh... Chết'
+-	R
+-	'tiệt! Thật là bực bội.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance đá đổ'
+-	R
+-	'thùng rác gần đó.'
++	'......Hự... khó'
++	R
++	'chịu! Khó chịu thật.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Rance đá văng cái'
++	R
++	'thùng rác bên cạnh.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	@L_019d8:
+ *L_02dd8:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Ta bận tâm'
+-	R
+-	'xuống đây, nên ta cũng'
+-	R
+-	'có thể chơi loanh quanh.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Cảm ơn ngươi. Xin'
+-	R
+-	'hãy dành thời gian...'
+-	\L_07e59:
+-	ZH 1:
+-	'Cho phép tôi'
+-	R
+-	'giải thích các khóa học. Đầu'
+-	R
+-	'tiên là khóa học cơ bản...'
++	'Đã mất công tới đây, vậy thì'
++	R
++	'để ta chơi ở đây chút vậy.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Cảm ơn ngài. ......Xin'
++	R
++	'cứ thong thả......'
++	\L_07e59:
++	ZH 1:
++	'Vậy tôi xin giới thiệu'
++	R
++	'các gói dịch vụ. Trước'
++	R
++	'tiên là gói Cơ Bản...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -2697,80 +2623,66 @@
+ 	'Bỏ qua chi tiết.'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Hãy cho ta khóa học'
+-	R
+-	'đặc biệt với những người phụ'
+-	R
+-	'nữ giỏi nhất, đẳng cấp nhất.'
+-	\L_07e59:
+-	ZH 1:
+-	'Ta không quan tâm'
+-	R
+-	'nó có giá bao nhiêu.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Đã hiểu. Vậy thì hãy để'
+-	R
+-	'tôi chuẩn bị Khóa học Vua.'
+-	\L_07e59:
+-	ZH 1:
+-	'Điều đó sẽ có giá'
+-	R
+-	'1.000.000 VÀNG cho một đêm.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Được thôi, ta có'
+-	R
+-	'thể trả số tiền đó.'
++	'Cho ta gói đặc biệt hạng'
++	R
++	'nhất, với cô gái ngon nhất.'
++	\L_07e59:
++	ZH 1:
++	'Đắt cũng được.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Vâng. Vậy tôi xin chuẩn'
++	R
++	'bị gói King cho ngài.'
++	\L_07e59:
++	ZH 1:
++	'Giá là 1.000.000'
++	R
++	'VÀNG một đêm.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Được, cỡ đó thì ổn.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	{VAR0519 < 10:
+ 		\L_07d6c:
+ 		ZH 1:
+-		'Nhưng Rance không có'
++		'Nhưng Rance lại không'
+ 		R
+-		'nhiều tiền đến thế...'
++		'có số tiền đó...'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07d34:
+ 		ZH 1:
+-		'Không thể nào... Lẽ ra'
+-		R
+-		'ta phải là một vị vua...'
++		'Vô lý... ta là vua cơ mà...'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07da4:
+ 		ZH 1:
+-		'Đó là thứ hạng thấp'
++		'Vậy thì hạng thấp hơn'
+ 		R
+-		'hơn, nhưng ngươi có thể tham'
+-		R
+-		'gia Khóa học tuyệt đẹp...'
++		'một chút, gói Gorgeous...'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07d34:
+ 		ZH 1:
+-		'Không! Ta không'
++		'Không! Ta phải có'
+ 		R
+-		'chấp nhận mức thấp'
+-		R
+-		'hơn mức tốt nhất.'
+-		\L_07e59:
+-		ZH 1:
+-		'Ta sẽ quay'
+-		R
+-		'lại vào lúc khác.'
++		'loại tốt nhất cơ.'
++		\L_07e59:
++		ZH 1:
++		'Ta sẽ quay lại sau.'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07d6c:
+ 		ZH 1:
+-		'Rance khiến Lady Caravan'
++		'Rance rời Lady Caravan'
+ 		R
+-		'cảm thấy hơi thất vọng.'
++		'với chút cay cú.'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		!VAR0516 : 0!
+@@ -2788,30 +2700,28 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Thế đấy...'
+-	R
+-	'Giờ cho phép ta được'
+-	R
+-	'vui vẻ một chút nhé.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Có.'
+-	\L_07e59:
+-	ZH 1:
+-	'Các cô... Hãy dẫn dắt'
+-	R
+-	'khách hàng của chúng tôi...'
++	'Thế là được... Nào,'
++	R
++	'để ta vui vẻ nào.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Vâng.'
++	\L_07e59:
++	ZH 1:
++	'Các cô... dẫn'
++	R
++	'quý khách đi...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d6c:
+ 	ZH 1:
+ 	'Theo lệnh của Lady,'
+ 	R
+-	'Carfeknights hướng dẫn Rance'
+-	R
+-	'đến một chiếc lều cụ thể.'
++	'Carfeknight dẫn Rance'
++	R
++	'tới một chiếc lều.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	PF1 VAR0056:
+@@ -2821,429 +2731,403 @@
+ 	SS 24:
+ 	\L_07e14:
+ 	ZH 1:
+-	'Rance 「Gahahahaha!'
+-	R
+-	'ahahahahahahahahahahaha!!」'
++	'Rance 「Gahahahahahahahahahahaha!!」'
+ 	PF0 VAR0056:
+ 	\L_07e59:
+ *L_03050:
+ 	ZH 1:
+-	'Vô số cô gái dễ thương,'
+-	\L_07e59:
+-	ZH 1:
+-	'hoàn hảo trong trang phục quyến'
+-	R
+-	'rũ đang đợi Rance bên trong lều.'
+-	\L_07e59:
+-	ZH 1:
+-	'Whore 「Chào mừng, thưa bệ hạ. Cảm ơn'
+-	R
+-	'cậu đã yêu cầu Khóa học dành cho Vua.」'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm quỳ trước mặt'
+-	R
+-	'Rance và cởi quần áo hắn.'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Bây giờ, thưa Bệ hạ...'
+-	\L_07e59:
+-	ZH 1:
+-	'Cho phép tôi tắm rửa cơ thể'
+-	R
+-	'cho ngài. Hãy đi lối này...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Chắc chắn rồi.」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance được dẫn tới một bồn tắm đẹp đến mức khó'
+-	\L_07e59:
+-	ZH 1:
+-	'có thể tin rằng đó là trong một chiếc lều.'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Bây giờ, xin lỗi.」'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm cúi đầu và bắt đầu từ từ dội'
+-	R
+-	'nước nóng vào Rance từ chân trở lên.'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Nhiệt độ có tốt không?」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Ừ,」 không sao đâu. Bây giờ nhanh'
+-	R
+-	'lên và rửa cho ta. Ta thực sự mong đợi'
+-	\L_07e59:
+-	ZH 1:
+-	'dịch vụ tiếp theo của ngươi.'
++	'Bên trong lều, nhiều cô gái xinh xắn, ai cũng đẹp,'
++	\L_07e59:
++	ZH 1:
++	'trong dáng vẻ khêu gợi đang chờ Rance.'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Chào mừng bệ hạ. Cảm'
++	R
++	'ơn ngài đã chọn gói King.」'
++	\L_07e59:
++	ZH 1:
++	'Một kỹ nữ quỳ trước Rance,'
++	R
++	'bắt đầu cởi y phục cho hắn.'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Nào, thưa bệ hạ...'
++	\L_07e59:
++	ZH 1:
++	'Để chúng tôi tắm rửa cho'
++	R
++	'ngài. Mời ngài lối này...」'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Ờ.」'
++	\L_07e59:
++	ZH 1:
++	'Rance được dẫn vào một phòng tắm lộng lẫy đến mức'
++	\L_07e59:
++	ZH 1:
++	'khó tin đây là bên trong một chiếc lều.'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Vậy, xin phép ngài.」'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ khẽ cúi đầu, rồi từ từ dội nước'
++	R
++	'nóng lên người Rance, bắt đầu từ chân.'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Nước có nóng quá không ạ?」'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Ừm, ổn cả. Nào, mau tắm đi.'
++	\L_07e59:
++	ZH 1:
++	'Ta đang cực kỳ mong chờ dịch vụ tiếp theo đấy.'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'」'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Con điếm 「Vâng... Đã hiểu, thưa bệ hạ...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Sau khi một con điếm tắm rửa cơ'
+-	R
+-	'thể Rance một cách trang nhã,'
+-	\L_07e59:
+-	ZH 1:
+-	'ba người khác cũng nhẹ nhàng lau người'
+-	R
+-	'cho hắn bằng những chiếc khăn mềm,'
+-	\L_07e59:
+-	ZH 1:
+-	'chất lượng cao để lau khô cho hắn.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Gahahahaha!! Bây giờ,'
+-	\L_07e59:
+-	ZH 1:
+-	'hãy làm điều đó! Ngươi có thể tấn'
+-	R
+-	'công ta bao nhiêu tùy thích!!」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance ngồi phịch xuống ghế sofa và trưng bày siêu'
+-	\L_07e59:
+-	ZH 1:
+-	'vũ khí đã được chuẩn bị đầy'
+-	R
+-	'đủ của mình cho lũ điếm.'
+-	\L_07e59:
+-	ZH 1:
+-	'Whore 「Rất tuyệt, thưa Bệ hạ...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi rất vui khi được phục vụ'
+-	R
+-	'một thứ tuyệt vời như vậy...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Một trong số họ cười toe toét và nhẹ'
+-	R
+-	'nhàng đặt ngón tay lên cặc của Rance.'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Huhu...thật sự đấy.」'
+-	\L_07e59:
+-	ZH 1:
+-	'Một người khác từ từ lè lưỡi và bắt'
++	'Kỹ nữ 「Vâng... tôi hiểu rồi, thưa bệ hạ...」'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ cẩn thận dội sạch người Rance, rồi'
++	\L_07e59:
++	ZH 1:
++	'ba người cùng tỉ mỉ lau khô người hắn'
++	\L_07e59:
++	ZH 1:
++	'bằng những chiếc khăn mềm mại, thượng hạng.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Gahahahaha!! Nào,'
++	\L_07e59:
++	ZH 1:
++	'làm thôi! Bao nhiêu người cũng cứ xông lên!!」'
++	\L_07e59:
++	ZH 1:
++	'Rance ngồi phịch xuống ghế sofa, khoe siêu vũ khí'
++	\L_07e59:
++	ZH 1:
++	'đã sẵn sàng đâu vào đấy trước đám kỹ nữ.'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Tuyệt quá... thưa bệ hạ...'
++	\L_07e59:
++	ZH 1:
++	'Được phục vụ một thứ oai vệ thế này...」'
++	\L_07e59:
++	ZH 1:
++	'Một cô mỉm cười, khẽ đặt'
++	R
++	'ngón tay lên vật của Rance.'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Fufu... đúng thật đấy ạ.」'
++	\L_07e59:
++	ZH 1:
++	'Một cô khác chầm chậm thè lưỡi, bắt'
+ 	R
+ 	'đầu chạm vào siêu vũ khí của Rance.'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Con điếm 「Tôi sẽ bắt đầu ở'
+-	R
+-	'đây, nếu cậu không phiền...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm đó bắt đầu liếm từng ngón tay'
+-	R
+-	'của Rance một cách chậm rãi và tinh tế.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Aheh... Uheheheh...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance làm bộ mặt ngơ ngác và'
+-	R
+-	'nhận được sự vuốt ve của lũ điếm.'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Bệ hạ... Tắm bằng nước'
+-	R
+-	'nóng có làm ngài khát không?」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Ừ... Một chút, giờ em nhắc đến nó...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Vậy thì xin lỗi...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm nhấp một ngụm chất lỏng màu tím tuyệt'
+-	\L_07e59:
+-	ZH 1:
+-	'đẹp vào miệng và nhẹ nhàng đặt tay lên má Rance.'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Ừm...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Sau đó, họ hôn nhau và chất'
+-	R
+-	'lỏng chảy xuống cổ họng Rance.'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Sao vậy...?」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Ừm... W-Rượu...? Dù sao thì nó cũng tốt.」'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Nó có phù hợp với sở thích của cậu'
+-	\L_07e59:
+-	ZH 1:
+-	'không...? Đây là rượu tự làm của đoàn lữ hành.」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Mhm, cho ta một ngụm nữa.」'
++	'Kỹ nữ 「Vậy... tôi xin phép bên này...」'
++	\L_07e59:
++	ZH 1:
++	'Cô kỹ nữ ấy chầm chậm liếm từng'
++	R
++	'ngón tay của Rance, thật tỉ mỉ.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Ahê... uhêhêhê......」'
++	\L_07e59:
++	ZH 1:
++	'Mặt mũi như sắp tan chảy, Rance'
++	R
++	'tận hưởng sự vuốt ve của đám kỹ nữ.'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Bệ hạ... vừa tắm'
++	R
++	'xong, ngài có khát không ạ?」'
++	\L_07e59:
++	ZH 1:
++	'Rance 「À... nghe nói mới thấy, hơi khát...」'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Vậy, xin phép ngài...」'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ ngậm một ngụm chất lỏng màu tím tuyệt đẹp,'
++	\L_07e59:
++	ZH 1:
++	'rồi khẽ đặt tay lên má Rance.'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Ưm......」'
++	\L_07e59:
++	ZH 1:
++	'Rồi môi kề môi, cô mớm chất lỏng'
++	R
++	'trong miệng vào cổ họng Rance.'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Ngài thấy thế nào ạ...?」'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Ừm... r... rượu à... Nhưng mà ngon đấy.」'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Có hợp khẩu vị ngài không ạ...?'
++	\L_07e59:
++	ZH 1:
++	'Đây là rượu vang nhà làm của thương đội.」'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Ừm, thêm ngụm nữa.」'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'Con điếm 「Vâng, thưa bệ hạ.」'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Con điếm lại rót đầy rượu vào miệng và'
+-	R
+-	'nhẹ nhàng đưa nó xuống cổ họng Rance.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rượu không kịp vào miệng chảy'
+-	R
+-	'xuống cằm và rơi xuống ngực.'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Ồ... Thật bất cẩn.」'
+-	\L_07e59:
+-	ZH 1:
+-	'Một con điếm khác liếm chỗ rượu chảy ra từ hắn.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Uuuh...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Nàng chậm rãi và duyên dáng,'
+-	R
+-	'nhưng với ham muốn xác thịt,'
+-	\L_07e59:
+-	ZH 1:
+-	'liếm lên ngực và cổ họng của Rance.'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Ừm... Mmm...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Trong khi Rance đang uống rượu,'
+-	\L_07e59:
+-	ZH 1:
+-	'con điếm liếm siêu vũ khí của hắn bắt'
+-	\L_07e59:
+-	ZH 1:
+-	'đầu từ từ đưa nó vào và ra khỏi miệng nàng,'
+-	\L_07e59:
+-	ZH 1:
+-	'theo chuyển động của pít-tông.'
+-	\L_07e59:
+-	ZH 1:
+-	'Lại có bàn tay của một con điếm khác'
+-	R
+-	'đang từ từ vuốt ve phần thân cây không'
+-	\L_07e59:
+-	ZH 1:
+-	'nằm trong miệng của người kia. Cô thỉnh'
+-	R
+-	'thoảng cũng trêu chọc quả bóng của hắn.'
+-	\L_07e59:
+-	ZH 1:
+-	'Tay còn lại của cô mò mẫm chân'
+-	R
+-	'Rance để tìm điểm yếu của hắn,'
+-	\L_07e59:
+-	ZH 1:
+-	'sau đó không ngừng vuốt ve chúng'
+-	R
+-	'để khiến hắn tiếp tục hưng phấn.'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm chăm sóc những ngón tay của'
+-	R
+-	'Rance bắt đầu liếm không chỉ những'
+-	\L_07e59:
+-	ZH 1:
+-	'ngón tay đó mà còn cả cánh tay và nách của hắn.'
+-	\L_07e59:
+-	ZH 1:
+-	'Với thời điểm dễ chịu, rượu'
+-	R
+-	'trôi xuống cổ họng Rance.'
+-	\L_07e59:
+-	ZH 1:
+-	'Người đang liếm ngực hắn tiếp tục vuốt ve'
+-	\L_07e59:
+-	ZH 1:
+-	'thật kỹ chỗ đó bằng lưỡi và tay của mình.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Ngh... sắp xuất tinh...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Vậy thì đừng chần chừ nữa...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Các ngón tay và lưỡi của các cô gái'
+-	R
+-	'điếm đồng loạt bắt đầu di chuyển'
+-	\L_07e59:
+-	ZH 1:
+-	'nhanh hơn và quyến rũ hơn sau khi Rance nói.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「... À... À... Aheh...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Một cảm giác khoái cảm như có'
+-	R
+-	'dòng điện chạy qua môi, ngực,'
+-	\L_07e59:
+-	ZH 1:
+-	'ngón tay và dương vật hắn bắt đầu nhói lên.'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Ngh...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Đôi má chứa siêu vũ khí của hắn co lại.'
+-	\L_07e59:
+-	ZH 1:
+-	'Đôi bàn tay vuốt ve cây gậy và quả bóng của hắn'
+-	\L_07e59:
+-	ZH 1:
+-	'di chuyển nhanh đến mức trở thành một vệt mờ.'
+-	\L_07e59:
+-	ZH 1:
+-	'Núm vú của hắn bị liếm và gặm.'
+-	\L_07e59:
+-	ZH 1:
+-	'Một chiếc lưỡi đẩy vào gốc các ngón tay của hắn.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Kh...!!」'
+-	\L_07e59:
+-	ZH 1:
+-	'Cơ thể Rance rùng mình.'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「À...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Vũ khí siêu mạnh mẽ nhảy ra khỏi'
+-	R
+-	'miệng con điếm và bơm ra tinh dịch.'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Ừm... Mmm...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Một người đã đánh vào mặt nàng. Một người liếm nó.'
+-	\L_07e59:
+-	ZH 1:
+-	'Sau đó, một người khác liếm'
+-	R
+-	'cây gậy vẫn còn đập của mình.'
+-	\L_07e59:
+-	ZH 1:
+-	'Mặc dù nó vẫn tiếp tục phóng ra,'
+-	\L_07e59:
+-	ZH 1:
+-	'nhưng một người khác lại dùng ngón tay vuốt ve'
+-	\L_07e59:
+-	ZH 1:
+-	'quả bóng của hắn như thể nàng đang vắt thêm ra.'
+-	\L_07e59:
+-	ZH 1:
+-	'Thêm một người nữa dùng lưỡi vuốt ve đôi'
+-	R
+-	'môi của Rance. Một người khác nắm lấy'
+-	\L_07e59:
+-	ZH 1:
+-	'tay hắn. Còn một người nữa ôm chặt lấy cơ thể hắn.'
+-	\L_07e59:
+-	ZH 1:
+-	'Bị bao vây bởi họ, Rance lên đến đỉnh điểm.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「... Hweeeh...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Trời... Thần không'
+-	R
+-	'mong đợi gì hơn, Bệ hạ...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Ngay cả sau khi xuất tinh, người vẫn'
+-	R
+-	'không mất đi độ cứng của mình...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Hai trong số những con điếm đang'
+-	R
+-	'liếm sạch siêu vũ khí của Rance.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Mhm... Ta vẫn chưa xuống.」'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Tôi rất vui khi nghe'
+-	R
+-	'điều đó... Bây giờ, Bệ hạ...'
+-	\L_07e59:
+-	ZH 1:
+-	'Xin hãy nằm xuống đây.」'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm chỉ chiếc giường có màn che cho Rance.'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Cô chỉ cần nghỉ ngơi ở đây'
+-	R
+-	'thôi... Chúng tôi sẽ làm mọi thứ cho cô...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Tất nhiên,'
+-	\L_07e59:
+-	ZH 1:
+-	'khi ngươi muốn hành động,」 ngươi có thể'
+-	R
+-	'tự do làm điều đó. Chúng tôi có thể xử'
+-	\L_07e59:
+-	ZH 1:
+-	'lý một trong hai. Dành cho ngài,'
+-	\L_07e59:
+-	ZH 1:
+-	'thưa bệ hạ...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Gahahahaha!! Ta có thể đi với'
+-	R
+-	'một trong hai! Được rồi, đến đây!」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance bước tới giường.'
+-	\L_07e59:
+-	ZH 1:
+-	'Các cô gái điếm đi theo, có'
+-	R
+-	'người nằm trên giường chào hắn,'
+-	\L_07e59:
+-	ZH 1:
+-	'có người quỳ bên cạnh chờ hắn ra tay.'
+-	\L_07e59:
+-	ZH 1:
+-	'Con điếm 「Đêm chỉ mới bắt đầu thôi...'
+-	R
+-	'Bây giờ... Hãy tận hưởng đi...」'
++	'Kỹ nữ lại ngậm rượu, khẽ mớm vào cổ họng Rance.'
++	\L_07e59:
++	ZH 1:
++	'Chỗ rượu không kịp trôi xuống chảy'
++	R
++	'dọc cằm Rance, rơi xuống ngực.'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Ôi... thật sơ suất quá...」'
++	\L_07e59:
++	ZH 1:
++	'Một kỹ nữ khác, không phải người đang kề môi'
++	R
++	'với Rance, liếm chỗ rượu rơi trên người hắn.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Ư ư......」'
++	\L_07e59:
++	ZH 1:
++	'Chậm rãi, thanh nhã, nhưng lại khơi dậy dục vọng,'
++	\L_07e59:
++	ZH 1:
++	'chiếc lưỡi bò lên ngực và cổ Rance.'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Ưm... ưmm......」'
++	\L_07e59:
++	ZH 1:
++	'Trong lúc Rance được mớm rượu,'
++	\L_07e59:
++	ZH 1:
++	'siêu vũ khí được cô kỹ nữ đang'
++	R
++	'liếm ngậm vào miệng, nhả ra,'
++	\L_07e59:
++	ZH 1:
++	'rồi chậm rãi bắt đầu chuyển động ra vào'
++	\L_07e59:
++	ZH 1:
++	'đều đặn như pít-tông.'
++	\L_07e59:
++	ZH 1:
++	'Tay một kỹ nữ khác chậm rãi vuốt'
++	R
++	've phần thân không nằm trong miệng.'
++	\L_07e59:
++	ZH 1:
++	'Thỉnh thoảng, cô lại mơn'
++	R
++	'trớn túi bi như đùa nghịch.'
++	\L_07e59:
++	ZH 1:
++	'Tay còn lại lần mò chân'
++	R
++	'Rance, tìm ra chỗ nhạy cảm,'
++	\L_07e59:
++	ZH 1:
++	'rồi dai dẳng vuốt ve nơi ấy,'
++	R
++	'khiến Rance càng thêm mê mẩn.'
++	\L_07e59:
++	ZH 1:
++	'Cô kỹ nữ đang liếm ngón tay'
++	R
++	'Rance giờ không chỉ liếm ngón,'
++	\L_07e59:
++	ZH 1:
++	'mà còn bò lưỡi lên cánh tay, lên tận nách hắn.'
++	\L_07e59:
++	ZH 1:
++	'Rượu được mớm vào cổ họng Rance'
++	R
++	'đúng những lúc dễ chịu nhất.'
++	\L_07e59:
++	ZH 1:
++	'Còn người đang liếm ngực thì cứ thế từ tốn'
++	\L_07e59:
++	ZH 1:
++	'dùng lưỡi và tay âu yếm riêng chỗ đó.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Ưm... sắp ra rồi đấy......」'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Vậy thì... xin ngài đừng cố nhịn......」'
++	\L_07e59:
++	ZH 1:
++	'Nghe Rance nói, ngón tay và'
++	R
++	'lưỡi của đám kỹ nữ đồng loạt'
++	\L_07e59:
++	ZH 1:
++	'chuyển động nhanh hơn, mê hoặc hơn.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「......A... a... ahê......」'
++	\L_07e59:
++	ZH 1:
++	'Môi, ngực, ngón tay, rồi cả cậu nhỏ, một khoái cảm'
++	\L_07e59:
++	ZH 1:
++	'như điện giật bắt đầu nhói lên từng đợt.'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Ưm......」'
++	\L_07e59:
++	ZH 1:
++	'Đôi má đang ngậm siêu vũ khí bỗng hóp chặt lại.'
++	\L_07e59:
++	ZH 1:
++	'Bàn tay vuốt ve thân và túi bi'
++	\L_07e59:
++	ZH 1:
++	'lướt đi nhanh như gió.'
++	\L_07e59:
++	ZH 1:
++	'Đầu ngực bị đầu lưỡi đùa'
++	R
++	'nghịch, rồi bị răng cắn nhẹ.'
++	\L_07e59:
++	ZH 1:
++	'Chiếc lưỡi bò lên như ép vào gốc ngón tay.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Hự...!!」'
++	\L_07e59:
++	ZH 1:
++	'Người Rance giật nảy.'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「A......」'
++	\L_07e59:
++	ZH 1:
++	'Siêu vũ khí đang hăng bật khỏi'
++	R
++	'miệng kỹ nữ, phun tinh dịch mạnh mẽ.'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Ưm...... ưmm......」'
++	\L_07e59:
++	ZH 1:
++	'Có người hứng nó lên mặt. Có người liếm nó.'
++	\L_07e59:
++	ZH 1:
++	'Có người thè lưỡi liếm cái thân vẫn đang phun ra.'
++	\L_07e59:
++	ZH 1:
++	'Có người, dù nó vẫn đang ra,'
++	\L_07e59:
++	ZH 1:
++	'vẫn dùng ngón tay bóp bóp túi bi'
++	\L_07e59:
++	ZH 1:
++	'như muốn vắt cho kiệt.'
++	\L_07e59:
++	ZH 1:
++	'Có người trìu mến dùng lưỡi âu'
++	R
++	'yếm môi Rance. Có người nắm chặt'
++	\L_07e59:
++	ZH 1:
++	'bàn tay Rance lúc lên đỉnh. Có'
++	R
++	'người ôm chặt lấy người hắn.'
++	\L_07e59:
++	ZH 1:
++	'Giữa vòng vây ấy, Rance lên đỉnh.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「......Phêêê......」'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Ôi chao... quả không hổ là bệ hạ...'
++	\L_07e59:
++	ZH 1:
++	'ra rồi mà vẫn chẳng mềm đi chút nào......」'
++	\L_07e59:
++	ZH 1:
++	'Hai kỹ nữ cùng dùng lưỡi liếm'
++	R
++	'sạch siêu vũ khí của Rance.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Ừm... ta còn lâu mới cạn sức.」'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Thật đáng mừng ạ... Vậy, thưa bệ hạ...'
++	\L_07e59:
++	ZH 1:
++	'mời ngài ngả lưng bên này.」'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ chỉ cho Rance chiếc giường có màn trướng.'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Bệ hạ chỉ cần nằm đây thôi...'
++	R
++	'Chúng tôi sẽ cử động vì bệ hạ......」'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Tất nhiên, nếu bệ hạ muốn tự cử động'
++	\L_07e59:
++	ZH 1:
++	'thì xin cứ tùy ý ngài.'
++	\L_07e59:
++	ZH 1:
++	'Kiểu nào chúng tôi cũng chiều được.'
++	\L_07e59:
++	ZH 1:
++	'Tất cả vì bệ hạ...」'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Gahahahaha!! Ta thì kiểu'
++	R
++	'nào cũng OK! Được, lại đây!」'
++	\L_07e59:
++	ZH 1:
++	'Rance huỳnh huỵch bước về phía giường.'
++	\L_07e59:
++	ZH 1:
++	'Đám kỹ nữ theo sau, có người nằm'
++	R
++	'xuống chiếc giường rộng đón hắn,'
++	\L_07e59:
++	ZH 1:
++	'có người quỳ bên giường chờ hắn hành động.'
++	\L_07e59:
++	ZH 1:
++	'Kỹ nữ 「Đêm chỉ mới bắt đầu...'
++	R
++	'Nào... xin ngài tận hưởng......」'
+ 	\L_07e59:
+ 	{VAR0520 = 300:
+ 		%0:
+ 	}
+ 	ZH 1:
+-	'Rance 「Ừ, đi thôi! Haaaaaaaaaaaaaah!!!」'
++	'Rance 「Ồ, xông lên đây! Đaaaaaaaaa!!!」'
+ 	\L_07e59:
+ 	PF1 VAR0056:
+ 	\L_07e4c:
+@@ -3260,61 +3144,61 @@
+ 	\L_07d6c:
+ 	ZM 32:
+ 	ZH 1:
+-	'Đoàn lữ hành quý bà'
++	'Lady Caravan'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Bên trong lều'
+-	R
+-	'tiểu thư Hoheh～～～...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Dịch vụ của'
+-	R
+-	'chúng tôi thế nào?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Tốt nhất... Tốt. Nó'
+-	R
+-	'rất tốt. Ta sẽ đến lần nữa.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Cảm ơn cậu...'
+-	\L_07e59:
+-	ZH 1:
+-	'Chúng tôi tặng cái này cho'
+-	R
+-	'tất cả những người sử dụng'
+-	R
+-	'dịch vụ của chúng tôi...'
+-	\L_07e59:
+-	ZH 1:
+-	'Vui lòng sử dụng nó vào'
+-	R
+-	'lần sau. Một phiếu giảm giá.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Không hẳn'
+-	R
+-	'là nhiều lắm... Nhưng ta'
+-	R
+-	'sẽ chấp nhận. Gahahahaha!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance rời đi với'
+-	R
+-	'tâm trạng vui vẻ.'
++	'Trong lều của Lady'
++	R
++	'Phê quááá～～～...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Dịch vụ của chúng tôi...'
++	R
++	'ngài thấy thế nào ạ?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Tuyệt cú mèo... Good.'
++	R
++	'Sướng lắm. Ta sẽ lại tới.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Cảm ơn ngài...'
++	\L_07e59:
++	ZH 1:
++	'Chúng tôi tặng thứ này'
++	R
++	'cho mọi vị khách đã dùng'
++	R
++	'dịch vụ của thương đội...'
++	\L_07e59:
++	ZH 1:
++	'Mời ngài dùng vào lần'
++	R
++	'sau. Phiếu giảm giá ạ.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Sao thấy keo kiệt'
++	R
++	'kiểu gì ấy... Nhưng cứ'
++	R
++	'nhận đã. Gahahahahaha.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Rance rời khỏi đó,'
++	R
++	'tâm trạng phơi phới.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 0!
+@@ -3337,7 +3221,7 @@
+ 	R
+ 	'Phòng ngủ của Rance'
+ 	R
+-	'Bây giờ, hôm nay ta nên...?'
++	'Nào, hôm nay gọi ai...'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'............'
+@@ -3346,40 +3230,34 @@
+ 	'......'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Không...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance đứng thẳng lên.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Ừ, việc ta'
+-	R
+-	'nên làm là hiển nhiên rồi...'
+-	R
+-	'Hôm nay ta sẽ làm thưa cô...'
+-	\L_07e59:
+-	ZH 1:
+-	'Siêu vũ khí'
+-	R
+-	'của ta đang rung lên với'
+-	R
+-	'mong muốn được đụ Lady.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance bị khuất phục'
+-	R
+-	'bởi ham muốn quan hệ'
+-	\L_07e59:
+-	ZH 1:
+-	'tình dục với Lady và đi'
+-	R
+-	'lang thang về phía ngục tối.'
++	'......Không......'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Rance đứng phắt dậy.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Phải rồi, khỏi phải nghĩ...'
++	R
++	'hôm nay sẽ làm với Lady...'
++	\L_07e59:
++	ZH 1:
++	'Siêu vũ khí đang rạo'
++	R
++	'rực muốn ôm Lady đây.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Thèm Lady đến không'
++	R
++	'chịu nổi, Rance'
++	\L_07e59:
++	ZH 1:
++	'lảo đảo đi xuống ngục ngầm.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	@L_03927:
+@@ -3399,14 +3277,16 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Ngục tối Rance bước đi'
+-	R
+-	'đều đặn qua nơi tối tăm.'
+-	\L_07e59:
+-	ZH 1:
+-	'Đích đến của hắn'
+-	R
+-	'là phòng giam của Lady.'
++	'Ngục ngầm'
++	R
++	'Rance lộp cộp bước qua nơi'
++	R
++	'tối tăm.'
++	\L_07e59:
++	ZH 1:
++	'Đích đến là phòng'
++	R
++	'giam của Lady.'
+ 	\L_07e59:
+ 	ZM 32:
+ 	ZH 1:
+@@ -3415,7 +3295,7 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng giam của quý cô'
++	'Phòng giam của Lady'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	{VAR0365 = 10:
+@@ -3423,9 +3303,9 @@
+ 	}
+ 	\L_07d34:
+ 	ZH 1:
+-	'Này. Vẫn giữ mình'
+-	R
+-	'sống sót à, thưa cô?'
++	'Này. Vẫn còn sống'
++	R
++	'đàng hoàng chứ? Lady.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 86!
+@@ -3437,21 +3317,21 @@
+ 	\L_07e4c:
+ 	\L_07d6c:
+ 	ZH 1:
+-	'Lady bị xích cổ và tay'
+-	R
+-	'vào ngục tối như thường lệ.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Hắn thấy có lỗi nhưng'
+-	R
+-	'hắn sẽ không để em ra ngoài.'
+-	\L_07e59:
+-	ZH 1:
+-	'Ngươi là người đã'
+-	R
+-	'yêu cầu làm điều này.'
++	'Lady vẫn bị xích cổ và'
++	R
++	'tay, giam trong ngục ngầm.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Thấy tội nghiệp đấy, nhưng'
++	R
++	'ta không thả cô ra đâu.'
++	\L_07e59:
++	ZH 1:
++	'Vì người bảo làm'
++	R
++	'thế là cô mà.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -3461,18 +3341,16 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Bây giờ... Hôm nay hãy'
+-	R
+-	'vui vẻ hơn nữa nhé, thưa cô.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance bước vào'
+-	R
+-	'phòng giam, cởi quần áo'
+-	R
+-	'và đứng trước mặt Lady.'
++	'Nào... hôm nay cũng để'
++	R
++	'ta vui vẻ nhé, Lady.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Rance vào trong ngục, cởi'
++	R
++	'đồ rồi đứng trước mặt Lady.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	PF1 VAR0056:
+@@ -3487,333 +3365,325 @@
+ 	\L_07e59:
+ *L_03b02:
+ 	ZH 1:
+-	'Rance cười toe toét trong khi nhìn chằm'
+-	\L_07e59:
+-	ZH 1:
+-	'chằm vào Lady như thể hắn đang liếm'
+-	R
+-	'trên cơ thể trần truồng của nàng.'
+-	\L_07e59:
+-	ZH 1:
+-	'Ngược lại, Lady lại vô cảm và nhìn'
+-	R
+-	'lại với ánh mắt lạnh như băng.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Ngay cả sau khi bị nhốt ở đây,'
+-	\L_07e59:
+-	ZH 1:
+-	'cơ thể của ngươi vẫn không mất đi vẻ bóng bẩy...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Tốt lắm...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Môi của Rance từ từ tiến lại gần Lady.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance mở mắt khi hôn Lady. Cô cũng'
+-	R
+-	'không nhắm mắt. Chẳng mấy chốc,'
+-	\L_07e59:
+-	ZH 1:
+-	'một tiếng nước bắn tung tóe vang lên.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance dùng tay mở rộng miệng Lady,'
+-	R
+-	'sau đó dùng tay hắn liếm lưỡi cô.'
+-	\L_07e59:
+-	ZH 1:
+-	'Lady không phản ứng,'
+-	\L_07e59:
+-	ZH 1:
+-	'nhưng Rance vẫn mút như thể hắn đang kéo'
+-	\L_07e59:
+-	ZH 1:
+-	'lưỡi cô ra và tận hưởng cảm giác'
+-	R
+-	'bên trong miệng cô bằng cách liếm.'
+-	\L_07e59:
+-	ZH 1:
+-	'Bàn tay không giữ chặt quai hàm của Lady đã chạm'
+-	\L_07e59:
+-	ZH 1:
+-	'vào bộ ngực đầy đặn của cô và thoải'
+-	R
+-	'mái tận hưởng cảm giác về chúng.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance di chuyển. Phu nhân cảm'
+-	R
+-	'động. Những sợi xích kêu leng keng.'
++	'Rance cười nham nhở, nhìn chằm chằm'
++	\L_07e59:
++	ZH 1:
++	'như muốn liếm khắp thân thể trần trụi của Lady.'
++	\L_07e59:
++	ZH 1:
++	'Trái lại, Lady vô cảm, nhìn'
++	R
++	'Rance bằng đôi mắt lạnh như băng.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Bị nhốt ở chỗ thế này'
++	\L_07e59:
++	ZH 1:
++	'mà làn da của cô chẳng kém đi chút nào...'
++	\L_07e59:
++	ZH 1:
++	'Được lắm...」'
++	\L_07e59:
++	ZH 1:
++	'Rance chầm chậm đưa môi lại gần Lady.'
++	\L_07e59:
++	ZH 1:
++	'Rance hôn Lady mà vẫn mở mắt. Lady'
++	R
++	'cũng không nhắm mắt. Chẳng mấy chốc,'
++	\L_07e59:
++	ZH 1:
++	'tiếng chụt chụt ướt át bắt đầu vang lên.'
++	\L_07e59:
++	ZH 1:
++	'Rance dùng tay banh rộng miệng Lady,'
++	R
++	'rồi dùng lưỡi mút mát lưỡi nàng.'
++	\L_07e59:
++	ZH 1:
++	'Lady không đáp lại,'
++	\L_07e59:
++	ZH 1:
++	'nhưng Rance vẫn mút như muốn kéo lưỡi nàng ra,'
++	\L_07e59:
++	ZH 1:
++	'liếm láp, tận hưởng mọi cảm'
++	R
++	'giác trong khoang miệng.'
++	\L_07e59:
++	ZH 1:
++	'Bàn tay không giữ cằm vươn'
++	R
++	'tới bầu ngực đầy đặn của Lady,'
++	\L_07e59:
++	ZH 1:
++	'thỏa thích tận hưởng cảm giác căng tròn ấy.'
++	\L_07e59:
++	ZH 1:
++	'Rance cử động. Lady bị lay'
++	R
++	'theo. Xích sắt kêu loảng xoảng.'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'Rance 「Giờ thì...」'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Rance rời môi khỏi Lady và'
+-	R
+-	'quỳ xuống trước mặt nàng.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Ta cầu nguyện rằng miệng dưới của ngươi'
+-	\L_07e59:
+-	ZH 1:
+-	'không bướng bỉnh như miệng trên của ngươi.」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance giật mạnh hai chân của Lady mở ra'
+-	\L_07e59:
+-	ZH 1:
+-	'và đẩy đầu hắn lên trên đế của chúng.'
+-	\L_07e59:
+-	ZH 1:
+-	'Âm hộ hơi ướt của Lady ở chóp mũi Rance có màu đỏ.'
++	'Rance rời môi, quỳ xuống trước mặt Lady.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Cầu cho cái miệng dưới'
++	\L_07e59:
++	ZH 1:
++	'không cứng đầu như cái miệng trên nhé.」'
++	\L_07e59:
++	ZH 1:
++	'Rance banh mạnh hai chân Lady ra,'
++	\L_07e59:
++	ZH 1:
++	'rồi rúc đầu vào giữa háng nàng.'
++	\L_07e59:
++	ZH 1:
++	'Ngay trước mũi Rance, cánh'
++	R
++	'hoa hơi ướt của Lady ửng đỏ.'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'Rance 「Để xem nào...」'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Rance lè lưỡi và chạm vào nó.'
+-	\L_07e59:
+-	ZH 1:
+-	'Hắn cảm thấy một sự mềm mại độc đáo'
+-	R
+-	'và uốn éo lưỡi. Hắn liên tục liếm'
+-	\L_07e59:
+-	ZH 1:
+-	'đi liếm lại phần trước âm hộ của cô.'
+-	\L_07e59:
+-	ZH 1:
+-	'Hắn liếm nó nhiều đến nỗi nước dãi chảy ra từ'
+-	\L_07e59:
+-	ZH 1:
+-	'khóe miệng. Sau đó hắn'
+-	R
+-	'thọc một ngón tay vào giữa.'
+-	\L_07e59:
+-	ZH 1:
+-	'Quý cô 「............」'
+-	\L_07e59:
+-	ZH 1:
+-	'Lady hơi nhăn mặt, nhưng cả mắt,'
+-	\L_07e59:
+-	ZH 1:
+-	'ngón tay và lưỡi của cô đều không nhận'
+-	R
+-	'ra Rance khi hắn tập trung vào háng cô.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Mm... Có thể hơi khó khăn, nhưng'
+-	R
+-	'không phải là không thể vào được...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Thưa cô, hôm nay tôi chắc chắn sẽ nghe'
+-	R
+-	'thấy tiếng rên rỉ dễ thương của cô.」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance bắt đầu di chuyển chậm rãi'
+-	R
+-	'ngón tay hắn đã cắm vào bên trong cô.'
+-	\L_07e59:
+-	ZH 1:
+-	'Quý cô 「...........」'
+-	\L_07e59:
+-	ZH 1:
+-	'Lady không trả lời bằng giọng nói.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Nếu vậy thì cũng đáng'
+-	R
+-	'để chạm vào ngươi ở đây.」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance dùng các ngón tay khác'
+-	R
+-	'để nắm lấy âm vật của Lady.'
+-	\L_07e59:
+-	ZH 1:
+-	'Quý cô 「............」'
+-	\L_07e59:
+-	ZH 1:
+-	'Cơ thể cô gái co giật.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Mm... Em hơi ướt rồi. Nó'
+-	R
+-	'đang quấn quanh ngón tay của ta...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Có thoải mái không, thưa cô? 」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance nhanh chóng di chuyển'
+-	R
+-	'ngón tay của mình vào và ra.'
+-	\L_07e59:
+-	ZH 1:
+-	'Quý cô 「.........」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Bây giờ...'
+-	\L_07e59:
+-	ZH 1:
+-	'Chuyện trẻ con này đã kết thúc rồi. Đã'
+-	R
+-	'đến lúc bắt đầu chơi như người lớn rồi!」'
++	'Rance thè lưỡi, chạm vào đó.'
++	\L_07e59:
++	ZH 1:
++	'Cảm nhận độ mềm đặc biệt, lưỡi'
++	R
++	'hắn cựa quậy. Rance liếm, liếm,'
++	\L_07e59:
++	ZH 1:
++	'liếm mãi đầu cánh hoa.'
++	\L_07e59:
++	ZH 1:
++	'Hắn chỉ liếm mỗi đầu cánh hoa'
++	R
++	'của Lady đến mức nước dãi chảy'
++	\L_07e59:
++	ZH 1:
++	'ra khóe môi. Rồi bất thình lình'
++	R
++	'thọc ngón tay vào chính giữa.'
++	\L_07e59:
++	ZH 1:
++	'Lady 「............」'
++	\L_07e59:
++	ZH 1:
++	'Đôi mày Lady khẽ nhíu lại, nhưng mắt,'
++	\L_07e59:
++	ZH 1:
++	'ngón tay lẫn lưỡi Rance đều đang mải'
++	R
++	'mê nơi háng nên hắn không nhận ra.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Ưm... hơi chật, nhưng'
++	R
++	'không phải không vào được...'
++	\L_07e59:
++	ZH 1:
++	'Lady, hôm nay nhất định ta sẽ được'
++	R
++	'nghe tiếng rên đáng yêu của cô.」'
++	\L_07e59:
++	ZH 1:
++	'Nói rồi, Rance bắt đầu chầm'
++	R
++	'chậm cử động ngón tay bên trong.'
++	\L_07e59:
++	ZH 1:
++	'Lady 「..................」'
++	\L_07e59:
++	ZH 1:
++	'Lady không rên một tiếng.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Thế mới bõ công làm chứ.」'
++	\L_07e59:
++	ZH 1:
++	'Rance dùng ngón tay khác ấn'
++	R
++	'mạnh vào hột le của Lady.'
++	\L_07e59:
++	ZH 1:
++	'Lady 「............」'
++	\L_07e59:
++	ZH 1:
++	'Người Lady giật nảy.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Ưm... ướt chút rồi đấy.'
++	R
++	'Nhớp nháp bám vào ngón tay ta...'
++	\L_07e59:
++	ZH 1:
++	'Lady, sướng không?」'
++	\L_07e59:
++	ZH 1:
++	'Rance nhanh chóng thọc ngón tay ra vào.'
++	\L_07e59:
++	ZH 1:
++	'Lady 「.........」'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Nào...'
++	\L_07e59:
++	ZH 1:
++	'giờ chơi trẻ con hết rồi. Giờ'
++	R
++	'của người lớn... bắt đầu đây!」'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'Rance đứng dậy,'
+ 	\L_07e59:
+ 	ZH 1:
+-	'đặt siêu vũ khí của mình vào âm hộ'
+-	R
+-	'của cô và đẩy hông về phía trước.'
+-	\L_07e59:
+-	ZH 1:
+-	'Quý cô 「...!」'
+-	\L_07e59:
+-	ZH 1:
+-	'Con cặc của Rance đã đâm vào âm hộ của Lady. Những'
+-	\L_07e59:
+-	ZH 1:
+-	'nếp gấp của cô quấn chặt quanh siêu vũ khí.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Kh...'
+-	\L_07e59:
+-	ZH 1:
+-	'Hơi đau một chút, nhưng có vẻ như bên'
+-	R
+-	'trong ướt, nên nếu ta cử động vài lần...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance giữ yên hông của Lady'
+-	R
+-	'và từ từ đẩy vào ra hai lần.'
+-	\L_07e59:
+-	ZH 1:
+-	'Khi hắn làm vậy,'
+-	\L_07e59:
+-	ZH 1:
+-	'nước ép của Lady bao phủ siêu vũ khí của hắn'
+-	\L_07e59:
+-	ZH 1:
+-	'và khiến chuyển động của hắn trơn trượt hơn.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Gahahahaha!! Hãy chiếm lấy niềm'
+-	R
+-	'đam mê nóng bỏng của ta, thưa cô!!」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance nhấc chân của Lady lên và bắt đầu di chuyển'
+-	\L_07e59:
+-	ZH 1:
+-	'siêu vũ khí và hông của mình với tốc độ tối đa.'
+-	\L_07e59:
+-	ZH 1:
+-	'Những sợi xích kêu leng keng dữ'
+-	R
+-	'dội hơn cả khi hắn sờ ngực cô.'
+-	\L_07e59:
+-	ZH 1:
+-	'Quý cô 「.........」'
+-	\L_07e59:
+-	ZH 1:
+-	'Mỗi lần Rance di chuyển, lưng của'
+-	R
+-	'Lady ấn vào tường và cọ xát lên xuống.'
+-	\L_07e59:
+-	ZH 1:
+-	'Nhiều vết thương mỏng,'
+-	\L_07e59:
+-	ZH 1:
+-	'sắc nhọn xuất hiện và máu rỉ ra từ chúng.'
+-	R
+-	'Lượng máu nhỏ đó cũng được lau vào tường.'
++	'kề siêu vũ khí vào cánh hoa'
++	R
++	'Lady, rồi đẩy mạnh hông tới.'
++	\L_07e59:
++	ZH 1:
++	'Lady 「...!」'
++	\L_07e59:
++	ZH 1:
++	'Vật của Rance bị ấn mạnh vào cánh hoa Lady.'
++	\L_07e59:
++	ZH 1:
++	'Các nếp thịt siết chặt quấn lấy siêu vũ khí.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Hự...'
++	\L_07e59:
++	ZH 1:
++	'hơi đau... nhưng bên trong có'
++	R
++	'vẻ ướt... cử động vài lần là...」'
++	\L_07e59:
++	ZH 1:
++	'Rance giữ chặt hông Lady,'
++	R
++	'chầm chậm ra vào hai lượt.'
++	\L_07e59:
++	ZH 1:
++	'Thế là'
++	\L_07e59:
++	ZH 1:
++	'mật dịch sâu bên trong quấn lấy siêu vũ khí,'
++	\L_07e59:
++	ZH 1:
++	'khiến Rance ra vào trơn tru hơn.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Gahahahaha!! Đón lấy nhiệt'
++	R
++	'huyết nóng bỏng của ta đi, Lady!!」'
++	\L_07e59:
++	ZH 1:
++	'Rance ôm lấy chân Lady, cho siêu vũ khí'
++	\L_07e59:
++	ZH 1:
++	'chạy hết công suất, hông nện liên hồi.'
++	\L_07e59:
++	ZH 1:
++	'Xích sắt kêu dữ dội hơn cả lúc hắn sờ ngực.'
++	\L_07e59:
++	ZH 1:
++	'Lady 「.........」'
++	\L_07e59:
++	ZH 1:
++	'Mỗi lần Rance cử động, lưng Lady'
++	R
++	'bị ép vào tường, cọ lên cọ xuống.'
++	\L_07e59:
++	ZH 1:
++	'Nhiều vết xước sắc mảnh xuất hiện,'
++	\L_07e59:
++	ZH 1:
++	'máu rỉ ra, và cả chút máu'
++	R
++	'ấy cũng bị miết lên tường.'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'Rance 「Gahahahaha!!」'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Không biết ít nhất hành động của mình'
+-	R
+-	'đã khiến Lady phải trải qua điều gì,'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance đẩy hông theo ý muốn của mình.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Mmmgh, nó đến rồi! Tuyệt quá!!」'
+-	\L_07e59:
+-	ZH 1:
+-	'Trong khi vẫn ôm chân Lady,'
+-	\L_07e59:
+-	ZH 1:
+-	'cơ thể Rance rùng mình và hắn'
+-	R
+-	'đổ chất lỏng vào trong cô.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Haah...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Điều đó thật tuyệt. Tuy nhiên,'
+-	\L_07e59:
+-	ZH 1:
+-	'vẫn chưa thể thực hiện được. Tôi vẫn'
+-	R
+-	'chưa nghe thấy tiếng rên rỉ của cô,'
+-	\L_07e59:
+-	ZH 1:
+-	'thưa cô.」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance giữ chặt đôi má hồng hào'
+-	R
+-	'sinh lý của Lady bằng ngón tay'
+-	\L_07e59:
+-	ZH 1:
+-	'cái và ngón trỏ và nhìn chằm chằm'
+-	R
+-	'vào khuôn mặt xinh đẹp của nàng.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Tiếp theo là làm từ phía'
+-	R
+-	'sau. Bây giờ để quay lại ... 」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance thả chân Lady xuống, đặt tay lên'
+-	R
+-	'hông cô và xoay cô quay mặt về phía sau.'
+-	\L_07e59:
+-	ZH 1:
+-	'Tấm lưng của Lady lộ ra trước mắt'
+-	R
+-	'Rance, trắng đến mức gần như trong suốt.'
+-	\L_07e59:
+-	ZH 1:
+-	'Vết thương trên lưng của Lady'
+-	R
+-	'từ tư thế trước đó đã lành.'
+-	\L_07e59:
+-	ZH 1:
+-	'Vì vậy, Rance không bao giờ biết rằng'
+-	R
+-	'lưng của cô thậm chí còn bị thương.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Đã đến lúc cho vòng 2!! Gahahahaha!!」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance chôn siêu vũ khí vẫn đang'
+-	R
+-	'hoành hành của mình vào trong Lady.'
++	'Chẳng hề hay biết hành động của'
++	R
++	'mình khiến Lady chịu cảnh ấy,'
++	\L_07e59:
++	ZH 1:
++	'Rance cứ thế mặc sức nện hông.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Ừm, tới rồi tới rồi! Ra đâyyy!!」'
++	\L_07e59:
++	ZH 1:
++	'Vẫn ôm chân Lady,'
++	\L_07e59:
++	ZH 1:
++	'người Rance run bần bật, mặc sức'
++	R
++	'xuất thể dịch vào trong nàng.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Phù... sướng thật.'
++	\L_07e59:
++	ZH 1:
++	'Nhưng chưa thể gục được.'
++	\L_07e59:
++	ZH 1:
++	'Vì cô còn chưa rên rỉ gì,'
++	\L_07e59:
++	ZH 1:
++	'Lady ạ.」'
++	\L_07e59:
++	ZH 1:
++	'Rance dùng ngón trỏ và ngón'
++	R
++	'cái tay phải giữ lấy đôi má'
++	\L_07e59:
++	ZH 1:
++	'ửng hồng theo bản năng của Lady,'
++	R
++	'nhìn chằm chằm vào dung nhan ấy.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Nào, giờ thì từ đằng'
++	R
++	'sau. Quay lưng lại nào...」'
++	\L_07e59:
++	ZH 1:
++	'Rance thả chân Lady xuống, đặt tay'
++	R
++	'lên hông, xoay nàng quay lưng lại.'
++	\L_07e59:
++	ZH 1:
++	'Trước mắt Rance hiện ra tấm lưng'
++	R
++	'trắng đến trong suốt của Lady.'
++	\L_07e59:
++	ZH 1:
++	'Những vết thương trên lưng'
++	R
++	'nàng từ lúc nãy đã lành.'
++	\L_07e59:
++	ZH 1:
++	'Vì thế, Rance chẳng hề biết'
++	R
++	'lưng Lady từng bị thương.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Nào, phát thứ hai!! Gahahahahahahaha!!」'
++	\L_07e59:
++	ZH 1:
++	'Rance thọc mạnh siêu vũ khí'
++	R
++	'vẫn chưa nguôi vào trong Lady.'
+ 	\L_07e59:
+ 	{VAR0520 = 301:
+ 		%0:
+@@ -3834,26 +3704,24 @@
+ 	\L_07e4c:
+ 	\L_07d6c:
+ 	ZH 1:
+-	'Thưa cô, người hắn'
+-	R
+-	'hằng khao khát đã ở đó.'
+-	\L_07e59:
+-	ZH 1:
+-	'(bang)'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance nắm'
+-	R
+-	'lấy song sắt nhà tù và'
+-	R
+-	'lén nhìn vào bên trong.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Cuộc sống trong phòng giam'
+-	R
+-	'như thế nào? Nó có tệ không?'
++	'Ở đó là Lady mà'
++	R
++	'hắn hằng khao khát.'
++	\L_07e59:
++	ZH 1:
++	'(choang)'
++	\L_07e59:
++	ZH 1:
++	'Rance nắm song sắt,'
++	R
++	'nhòm vào trong.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Sống trong ngục'
++	R
++	'thế nào? Khổ không?'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 86!
+@@ -3865,54 +3733,52 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Hmm... Đang phớt lờ tôi à?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Tôi biết cậu muốn'
+-	R
+-	'gì. Hãy tiếp tục.'
++	'Hửm... lờ ta à?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Tôi biết mục đích'
++	R
++	'của ngài. Xin mời.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07ddc:
+ 	ZH 1:
+-	'Lady nói với'
+-	R
+-	'giọng lạnh lùng.'
+-	\L_07e59:
+-	ZH 1:
+-	'Thông thường khi một'
+-	R
+-	'cô gái có thái độ đó, Rance'
+-	R
+-	'sẽ nổi điên hoặc cười nhạo,'
+-	\L_07e59:
+-	ZH 1:
+-	'nhưng...'
++	'Lady nói bằng'
++	R
++	'giọng lạnh lẽo.'
++	\L_07e59:
++	ZH 1:
++	'Rance thường ngày gặp con'
++	R
++	'gái có thái độ thế thì sẽ'
++	R
++	'nổi giận hoặc cười xòa...'
++	\L_07e59:
++	ZH 1:
++	'vậy mà...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d50:
+ 	ZH 1:
+-	'... Ta không thể chờ đợi'
+-	R
+-	'được nữa. Ta phải đụ nàng!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance mở'
+-	R
+-	'khóa cửa và bước vào'
+-	R
+-	'phòng giam của Lady.'
+-	\L_07e59:
+-	ZH 1:
+-	'Sau đó, hắn'
+-	R
+-	'ném quần áo của mình sang'
+-	R
+-	'một bên và hành hung Lady.'
++	'......Rạo rực quá,'
++	R
++	'hết chịu nổi rồi. Thèm'
++	R
++	'làm đến phát điên!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Rance mở khóa, bước'
++	R
++	'vào phòng giam Lady.'
++	\L_07e59:
++	ZH 1:
++	'Rồi hắn quăng quần'
++	R
++	'áo đi, lao vào Lady.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	PF1 VAR0056:
+@@ -3922,249 +3788,247 @@
+ 	SS 24:
+ 	\L_07e14:
+ 	ZH 1:
+-	'Quý cô có đeo vòng cổ. Không chỉ vậy,'
+-	\L_07e59:
+-	ZH 1:
+-	'một sợi dây xích dày còn nối cổ áo với'
+-	R
+-	'tường để hạn chế hơn nữa sự tự do của cô.'
++	'Lady bị đeo vòng cổ. Đã ở tình'
++	R
++	'cảnh không thể tự do như vậy,'
++	\L_07e59:
++	ZH 1:
++	'vòng cổ còn gắn sợi xích to, cố định vào tường.'
+ 	PF0 VAR0056:
+ 	\L_07e59:
+ 	ZH 1:
+-	'Cổ tay của cô cũng bị xích ra sau lưng.'
++	'Hai cổ tay thì bị quặt ra'
++	R
++	'sau, quấn xích chằng chịt.'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'Rance 「Haah... Haah...」'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Rance thở hổn hển dữ dội, như thể hắn'
+-	R
+-	'đang chịu tác dụng của khí độc.'
+-	\L_07e59:
+-	ZH 1:
+-	'Chỉ cần nhìn Lady khỏa thân,'
+-	\L_07e59:
+-	ZH 1:
+-	'siêu vũ khí của hắn đã run lên và đứng vững'
+-	\L_07e59:
+-	ZH 1:
+-	'với sức mạnh đến mức có thể chạm tới thiên đường.'
+-	\L_07e59:
+-	ZH 1:
+-	'Ngược lại,'
+-	\L_07e59:
+-	ZH 1:
+-	'Lady nhìn chằm chằm vào Rance với đôi mắt'
+-	\L_07e59:
+-	ZH 1:
+-	'rất lạnh lùng khiến nàng trông điềm tĩnh,'
+-	\L_07e59:
+-	ZH 1:
+-	'thậm chí đôi khi còn thoải mái. Cô vẫn đứng.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Uoh...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance chạy đến chỗ Lady. Hắn mở'
+-	R
+-	'rộng vòng tay và ôm cô thật chặt.'
+-	\L_07e59:
+-	ZH 1:
+-	'(clatterrr)'
+-	\L_07e59:
+-	ZH 1:
+-	'Dây xích kêu lạch cạch.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Ta đã muốn em từ lâu'
+-	R
+-	'rồi... Chết tiệt... Chết tiệt...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Hơi thở mãnh liệt của Rance dao'
+-	R
+-	'động, rồi hắn lao vào ngực của Lady.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「À... Aah...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Hắn mút chúng như thể hắn phát điên.'
+-	\L_07e59:
+-	ZH 1:
+-	'Quý cô 「............」'
+-	\L_07e59:
+-	ZH 1:
+-	'Quý cô dường như đã quen với cách đối'
+-	R
+-	'xử này của đàn ông. Cô tiếp nhận mọi'
+-	\L_07e59:
+-	ZH 1:
+-	'việc hắn làm mà không hề co giật một chút nào.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance（À... Chết tiệt...'
+-	\L_07e59:
+-	ZH 1:
+-	'Chuyện gì đang xảy ra vậy...? Ta'
+-	R
+-	'không cảm thấy mình là chính mình...）'
+-	\L_07e59:
+-	ZH 1:
+-	'Ngay cả khi Rance nghĩ như vậy với bản thân,'
+-	\L_07e59:
+-	ZH 1:
+-	'hắn vẫn không thể tách mình ra khỏi Lady.'
+-	\L_07e59:
+-	ZH 1:
+-	'Sự mất cân bằng giữa cơ thể và tâm trí Rance'
+-	\L_07e59:
+-	ZH 1:
+-	'càng khuấy động cảm xúc của hắn nhiều hơn.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Ừm... Mmm...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance gần như đưa tay chạm vào háng Lady.'
+-	R
+-	'Vì nàng khỏa thân nên nó hoàn toàn không'
+-	\L_07e59:
+-	ZH 1:
+-	'được che đậy. Những quán rượu thưa thớt'
+-	R
+-	'của nàng đã được chải chuốt xung quanh.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Kh... Chết tiệt... Muốn'
+-	R
+-	'cho nó vào sớm... Ngh... Mmm...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance liều lĩnh vuốt ve âm hộ của Lady.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「À... Aaah...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance đặt vũ khí siêu cứng của'
+-	R
+-	'mình vào háng Lady và vung hông.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「À... Kh...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Niềm vui mà Rance có được từ thứ khô ráo nhưng'
+-	\L_07e59:
+-	ZH 1:
+-	'mềm mại mà hắn chỉ đang gặm nhấm khiến'
+-	R
+-	'hắn di chuyển hông nhanh hơn nữa.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Chuyện gì đang xảy ra vậy...?'
+-	R
+-	'Kh... Chết tiệt... Kh... Kh...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Tay của Rance sờ soạng ngực của Lady một cách'
+-	\L_07e59:
+-	ZH 1:
+-	'thô bạo. Hắn đắm chìm trong môi cô.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「À... À...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance buộc miệng Lady mở ra'
+-	R
+-	'và quấn lưỡi hắn với lưỡi cô.'
+-	\L_07e59:
+-	ZH 1:
+-	'Mặc dù Lady không làm gì cả, Rance'
+-	R
+-	'vẫn run rẩy như một cô gái còn trinh.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「À... Ờ!!」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance ôm chặt lấy cơ thể Lady.'
+-	\L_07e59:
+-	ZH 1:
+-	'Quý cô 「............」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Chết tiệt... Đã đến rồi...'
+-	R
+-	'Ta thậm chí còn không muốn...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance bực bội nhìn siêu vũ khí'
+-	R
+-	'dính đầy tinh dịch của mình.'
+-	\L_07e59:
+-	ZH 1:
+-	'Nhưng có lẽ vì sự hưng phấn không bị dập'
+-	R
+-	'tắt nên nó run rẩy và khao khát âm đạo.'
+-	\L_07e59:
+-	ZH 1:
+-	'Lady vẫn im lặng quan sát Rance'
+-	R
+-	'với ánh mắt lạnh lùng như cũ.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Ồ đúng rồi...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Ngay cả khi ngươi không bị ướt,'
+-	\L_07e59:
+-	ZH 1:
+-	'có lẽ siêu vũ khí của tôi'
+-	R
+-	'bị ướt sẽ giúp nó đi vào...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance chộp lấy siêu vũ khí của mình mà'
+-	R
+-	'không kìm nén hơi thở dữ dội của mình.'
+-	\L_07e59:
+-	ZH 1:
+-	'Hắn đặt đầu của nó vào âm hộ của Lady.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Nó có đi vào không...?!!」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance ép hông mình chìm về phía trước.'
+-	\L_07e59:
+-	ZH 1:
+-	'Quý cô 「.........」'
+-	\L_07e59:
+-	ZH 1:
+-	'Quý cô nhăn mặt trong giây lát.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Kh... chật quá... Nhưng'
+-	R
+-	'nó ở trong... Uh... Kh...!!」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance bắt đầu lắc hông trong trạng thái đó.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Quý cô... Kh... Cô ổn... Ah... Ooh...!」'
+-	\L_07e59:
+-	ZH 1:
+-	'Quý cô 「............」'
+-	\L_07e59:
+-	ZH 1:
+-	'Tiếng gầm dã thú của Rance'
+-	R
+-	'tràn ngập căn phòng tối.'
++	'Như trúng phải khí độc, Rance thở dốc dữ dội.'
++	\L_07e59:
++	ZH 1:
++	'Chỉ mới nhìn thân thể trần trụi của Lady,'
++	\L_07e59:
++	ZH 1:
++	'siêu vũ khí đã dựng đứng như muốn chọc trời,'
++	\L_07e59:
++	ZH 1:
++	'run lên từng chập.'
++	\L_07e59:
++	ZH 1:
++	'Còn Lady thì'
++	\L_07e59:
++	ZH 1:
++	'nhìn Rance bằng đôi mắt điềm'
++	R
++	'tĩnh... lạnh lẽo đến mức'
++	\L_07e59:
++	ZH 1:
++	'đôi lúc còn có vẻ tàn nhẫn.'
++	\L_07e59:
++	ZH 1:
++	'Nàng vẫn đứng im bất động.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Uô......」'
++	\L_07e59:
++	ZH 1:
++	'Rance rảo bước tới trước Lady, dang'
++	R
++	'rộng hai tay, ôm chặt lấy nàng.'
++	\L_07e59:
++	ZH 1:
++	'(loảng xoảng)'
++	\L_07e59:
++	ZH 1:
++	'Xích sắt kêu vang.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Ta đã... muốn có cô từ'
++	R
++	'lâu... khốn thật... khốn thật......」'
++	\L_07e59:
++	ZH 1:
++	'Hơi thở Rance run rẩy dồn dập,'
++	R
++	'rồi hắn ngấu nghiến bầu ngực Lady.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「A... ahư......」'
++	\L_07e59:
++	ZH 1:
++	'Và hắn mút ngực nàng như kẻ điên.'
++	\L_07e59:
++	ZH 1:
++	'Lady 「..................」'
++	\L_07e59:
++	ZH 1:
++	'Phải chăng Lady đã quen với kiểu hành động'
++	R
++	'ấy của đàn ông. Nàng không nhúc nhích,'
++	\L_07e59:
++	ZH 1:
++	'mặc Rance muốn làm gì thì làm.'
++	\L_07e59:
++	ZH 1:
++	'Rance (A... khốn thật... cái gì thế này...'
++	\L_07e59:
++	ZH 1:
++	'Cảm giác như ta không còn là ta nữa......)'
++	\L_07e59:
++	ZH 1:
++	'Dù trong lòng nghĩ vậy,'
++	\L_07e59:
++	ZH 1:
++	'Rance vẫn không thể rời khỏi cơ thể Lady.'
++	\L_07e59:
++	ZH 1:
++	'Sự lệch lạc, mất cân bằng giữa tâm trí và cơ thể'
++	\L_07e59:
++	ZH 1:
++	'càng khiến Rance thêm kích động.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Ưm... ưmm......」'
++	\L_07e59:
++	ZH 1:
++	'Rance thô bạo thò tay xuống háng'
++	R
++	'Lady. Lady trần truồng nên nơi ấy'
++	\L_07e59:
++	ZH 1:
++	'phơi ra không che chắn.'
++	R
++	'Đám lông thưa khẽ lay động.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Hự... khốn... muốn vào'
++	R
++	'nhanh... nhanh lên... ưm... ưmm......」'
++	\L_07e59:
++	ZH 1:
++	'Rance cuống cuồng nhào nắn nơi ấy của Lady.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「A... a ư......」'
++	\L_07e59:
++	ZH 1:
++	'Rance kề siêu vũ khí đang dựng đứng'
++	R
++	'vào háng Lady, tự mình lắc hông.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「A... hự......」'
++	\L_07e59:
++	ZH 1:
++	'Sướng rơn vì phía trên được'
++	R
++	'bao lấy bởi thứ khô ráo'
++	\L_07e59:
++	ZH 1:
++	'nhưng mềm mại, Rance càng lắc hông nhanh hơn.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Cái gì thế này...'
++	R
++	'hự... khốn... hự... hự......」'
++	\L_07e59:
++	ZH 1:
++	'Tay Rance thô bạo sờ soạng ngực Lady,'
++	\L_07e59:
++	ZH 1:
++	'rồi ngấu nghiến đôi môi nàng.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「A... a......」'
++	\L_07e59:
++	ZH 1:
++	'Rance cưỡng ép miệng Lady mở'
++	R
++	'ra, quấn lưỡi vào lưỡi nàng.'
++	\L_07e59:
++	ZH 1:
++	'Lady chẳng làm gì cả, vậy mà Rance'
++	R
++	'lại run bần bật như một trinh nữ.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「A...... ư!!」'
++	\L_07e59:
++	ZH 1:
++	'Rance ôm siết lấy cơ thể Lady.'
++	\L_07e59:
++	ZH 1:
++	'Lady 「..................」'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Khốn... ra mất rồi...'
++	R
++	'ta không muốn ra mà...」'
++	\L_07e59:
++	ZH 1:
++	'Rance bực dọc nhìn siêu vũ khí'
++	R
++	'dính đầy thể dịch trắng đục.'
++	\L_07e59:
++	ZH 1:
++	'Nhưng có lẽ cơn hưng phấn chưa nguôi, nó'
++	R
++	'vẫn giật giật, thèm khát cảm giác âm hộ.'
++	\L_07e59:
++	ZH 1:
++	'Lady vẫn lặng im, nhìn dáng vẻ ấy của'
++	R
++	'Rance bằng đôi mắt lạnh lùng không đổi.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Phải rồi...'
++	\L_07e59:
++	ZH 1:
++	'dù cô không ướt, nếu bên này ướt sẵn...'
++	\L_07e59:
++	ZH 1:
++	'thì chắc... vào được nhỉ...」'
++	\L_07e59:
++	ZH 1:
++	'Chẳng buồn kìm hơi thở dồn'
++	R
++	'dập, Rance cầm lấy siêu vũ khí.'
++	\L_07e59:
++	ZH 1:
++	'Rồi kề đầu nó vào cánh hoa Lady.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Vào... được... không...!!」'
++	\L_07e59:
++	ZH 1:
++	'Rance cưỡng ép hạ hông xuống.'
++	\L_07e59:
++	ZH 1:
++	'Lady 「.........」'
++	\L_07e59:
++	ZH 1:
++	'Lady thoáng nhíu mày trong chốc lát.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Hự... chật quá... hự...'
++	R
++	'nhưng... vào... rồi... ư... hự...!!」'
++	\L_07e59:
++	ZH 1:
++	'Rance cứ thế bắt đầu lắc hông.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Lady... hự... sướng quá... a... ôô...!」'
++	\L_07e59:
++	ZH 1:
++	'Lady 「..................」'
++	\L_07e59:
++	ZH 1:
++	'Tiếng gầm như thú của Rance'
++	R
++	'vang vọng trong căn phòng tối.'
+ 	\L_07e59:
+ 	PF1 VAR0056:
+ 	\L_07e4c:
+@@ -4186,74 +4050,72 @@
+ 	R
+ 	'Phòng yết kiến'
+ 	R
+-	'Cho đến khi...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance trở về'
+-	R
+-	'từ ngục tối và nuốt cả'
+-	R
+-	'một cốc nước tăng lực.'
++	'Phù......'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Từ ngục ngầm trở về,'
++	R
++	'Rance nốc cạn một'
++	R
++	'chai nước tăng lực.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d50:
+ 	ZH 1:
+-	'... Chết tiệt...'
+-	\L_07e59:
+-	ZH 1:
+-	'Lần làm tình'
+-	R
+-	'với Lady hôm nay thực sự'
+-	R
+-	'không giống ta chút nào...'
+-	\L_07e59:
+-	ZH 1:
+-	'Ta cảm thấy kỳ lạ...'
+-	\L_07e59:
+-	ZH 1:
+-	'Không hiểu sao'
+-	R
+-	'ta không thể giữ bình'
+-	R
+-	'tĩnh khi nhìn nàng...'
+-	\L_07e59:
+-	ZH 1:
+-	'Như một trinh'
+-	R
+-	'nữ tham lam...'
+-	\L_07e59:
+-	ZH 1:
+-	'Aah... Ta thật'
+-	R
+-	'đáng xấu hổ...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance ôm đầu trong tay.'
++	'......Khốn thật......'
++	\L_07e59:
++	ZH 1:
++	'Lần làm tình với Lady'
++	R
++	'hôm nay chẳng giống'
++	R
++	'ta chút nào......'
++	\L_07e59:
++	ZH 1:
++	'Cảm giác cũng... lạ lắm...'
++	\L_07e59:
++	ZH 1:
++	'Không hiểu sao, vừa nhìn'
++	R
++	'Lady là ta mất bình tĩnh...'
++	\L_07e59:
++	ZH 1:
++	'cứ như thằng trai'
++	R
++	'tân háu đói...'
++	\L_07e59:
++	ZH 1:
++	'A... mất mặt quá...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Rance ôm đầu.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d50:
+ 	ZH 1:
+-	'Chết tiệt... Lần sau ta sẽ'
+-	R
+-	'không làm tệ đến thế đâu...'
+-	\L_07e59:
+-	ZH 1:
+-	'Hôm nay ta không thể khiến'
+-	R
+-	'nàng phản ứng, nhưng lần sau'
+-	R
+-	'ta sẽ khiến nàng rên rỉ...'
++	'Khốn thật... lần sau ta'
++	R
++	'sẽ không để lộ bộ dạng'
++	R
++	'thảm hại này nữa...'
++	\L_07e59:
++	ZH 1:
++	'Hôm nay nàng chẳng phản ứng'
++	R
++	'gì, nhưng lần sau nhất định'
++	R
++	'sẽ khiến nàng rên rỉ...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 6!
+ 	\L_07df8:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Làm ai rên rỉ?'
++	'Rên rỉ... sao ạ?'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -4261,18 +4123,16 @@
+ 	'Hả?? À... Maris...'
+ 	\L_07e59:
+ 	ZH 1:
+-	'... Đợi đã, cái gì'
+-	R
+-	'cơ?? Ta đã nói to điều đó à?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Tôi chỉ đoán'
+-	R
+-	'qua biểu hiện của cậu'
+-	R
+-	'và yêu cầu xác nhận.'
++	'......Ơ?? Ta...'
++	R
++	'vừa nói ra miệng à?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Thấy ngài mang vẻ mặt ấy,'
++	R
++	'tôi chỉ thử dò thôi ạ.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -4282,44 +4142,40 @@
+ 	\L_07e4c:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Chúng ta nên làm'
+-	R
+-	'gì đây, Vua Rance?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Về cái gì?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Về những'
+-	R
+-	'người sống sót mà chúng tôi'
+-	R
+-	'đã bắt được từ Lady Caravan.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Những người sống'
+-	R
+-	'sót... Gái mại dâm?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Không, những'
+-	R
+-	'người chúng tôi bắt đều có'
+-	R
+-	'liên quan đến chiến đấu.'
+-	\L_07e59:
+-	ZH 1:
+-	'Carfeknights, những'
+-	R
+-	'người bảo vệ của Lady.'
++	'Bệ hạ Rance, chúng'
++	R
++	'ta xử lý thế nào ạ?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Chuyện gì?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Chúng ta đang bắt giữ'
++	R
++	'những người sống sót'
++	R
++	'của Lady Caravan...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Người sống sót... kỹ nữ à?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Không, những người bị bắt'
++	R
++	'là bên lo việc quân sự.'
++	\L_07e59:
++	ZH 1:
++	'Đội cận vệ của Lady,'
++	R
++	'gọi là Carfeknight.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -4329,70 +4185,60 @@
+ 	'chiến binh đó...'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Họ khá ngầu'
+-	R
+-	'nên ta đoán là ta sẽ thêm'
+-	R
+-	'họ vào đội quân của mình.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Tuy nhiên, tôi'
+-	R
+-	'không thể nghĩ ra cách'
+-	R
+-	'nào để thuyết phục họ…'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Đe dọa họ bằng cách nói'
+-	R
+-	'rằng chúng ta có Quý cô'
+-	\L_07e59:
+-	ZH 1:
+-	'trong ngục'
+-	R
+-	'tối và chúng ta sẽ giết'
+-	R
+-	'nàng nếu họ không nghe.'
+-	\L_07e59:
+-	ZH 1:
+-	'Ta chắc chắn'
+-	R
+-	'họ sẽ tham gia.'
++	'Trông cũng ngầu đấy, cho'
++	R
++	'vào quân ta cũng được.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Có điều, tôi không nghĩ'
++	R
++	'họ sẽ chịu đâu ạ...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Nếu không chịu làm thuộc'
++	R
++	'hạ, thì dọa là sẽ giết'
++	\L_07e59:
++	ZH 1:
++	'Lady đang bị giam'
++	R
++	'dưới ngục ngầm.'
++	\L_07e59:
++	ZH 1:
++	'Chắc chắn họ sẽ theo ta.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07dc0:
+ 	ZH 1:
+-	'... Luôn luôn'
+-	R
+-	'như thế này...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Đã hiểu. Vậy thì'
+-	R
+-	'tôi sẽ làm điều đó.'
++	'......Sao ngài nghĩ ra'
++	R
++	'được chuyện đó chứ...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Tôi hiểu rồi. Vậy'
++	R
++	'tôi sẽ làm theo.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+ 	\L_07e06:
+ 	\L_07d6c:
+ 	ZH 1:
+-	'Đúng như dự đoán của Rance,'
+-	\L_07e59:
+-	ZH 1:
+-	'họ đã có thể khiến các'
+-	\L_07e59:
+-	ZH 1:
+-	'Carfeknights gia nhập'
+-	R
+-	'Quân đội Leazas bằng cách'
+-	R
+-	'sử dụng Lady làm con tin.'
++	'Đúng như Rance dự tính,'
++	\L_07e59:
++	ZH 1:
++	'vì Lady bị bắt làm con tin,'
++	\L_07e59:
++	ZH 1:
++	'Carfeknight đã gia'
++	R
++	'nhập quân đội Leazas.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0154 : 45!
+@@ -4444,12 +4290,12 @@
+ 	\L_07d6c:
+ 	ZM 32:
+ 	ZH 1:
+-	'Đoàn lữ hành quý bà'
++	'Lady Caravan'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Bên trong lều tiểu thư'
++	'Trong lều của Lady'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07e06:
+@@ -4457,41 +4303,41 @@
+ 	\L_07df8:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Đó không phải là Vua của'
+-	R
+-	'Leazas. Cảm ơn cậu như mọi'
+-	R
+-	'khi đã nhìn thấy chúng tôi.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Lady chào Rance'
+-	R
+-	'khi hắn bước vào, trông'
+-	R
+-	'vẫn xinh đẹp như mọi khi.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Mmm... Mmm... Nàng không'
+-	R
+-	'bao giờ ngừng xinh đẹp...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tại sao nàng không'
+-	R
+-	'để ta đụ nàng...? Ta'
+-	R
+-	'thực sự muốn... Grrr...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance nói chỉ'
+-	R
+-	'để Chaos nghe được.'
++	'Ôi, Vua Leazas... Cảm'
++	R
++	'ơn ngài lần này lại'
++	R
++	'chiếu cố chúng tôi.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Bước vào trong, Lady'
++	R
++	'xinh đẹp như mọi'
++	R
++	'khi ra đón Rance.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Ưmm... ưmm... lúc nào'
++	R
++	'nhìn cũng là gái ngon...'
++	\L_07e59:
++	ZH 1:
++	'Sao không cho ta ôm'
++	R
++	'chứ... Muốn ôm quá...'
++	R
++	'rạo rực rạo rực...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Rance nói khẽ, chỉ'
++	R
++	'đủ cho Chaos nghe.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -4499,21 +4345,23 @@
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Mmmmm... Nàng trông khá'
+-	R
+-	'ổn... Cảm giác thật tuyệt...'
+-	R
+-	'Tôi muốn làm nàng~...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi muốn làm nàng~...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Chaos đáp lại để chỉ'
+-	R
+-	'Rance có thể nghe thấy.'
++	'Ưmm～... đúng thật...'
++	R
++	'gái ngon gì đâu...'
++	R
++	'khoái quá... hí hí...'
++	\L_07e59:
++	ZH 1:
++	'Thèm làm quá～...'
++	R
++	'thèm làm quá～...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Chaos đáp lại, khẽ đến'
++	R
++	'mức chỉ Rance nghe được.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -4521,19 +4369,19 @@
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Đúng vậy phải không?'
+-	\L_07e59:
+-	ZH 1:
+-	'Nàng không phải là'
+-	R
+-	'người đẹp nhất hay gì cả,'
+-	\L_07e59:
+-	ZH 1:
+-	'nhưng vì lý do nào'
+-	R
+-	'đó mà ta thực sự bị thôi'
+-	R
+-	'thúc phải làm như nàng...'
++	'Phải không... phải'
++	R
++	'không, đúng thế đấy.'
++	\L_07e59:
++	ZH 1:
++	'Cũng chẳng phải tuyệt'
++	R
++	'sắc giai nhân gì...'
++	\L_07e59:
++	ZH 1:
++	'nhưng sao cứ bị hút'
++	R
++	'hồn... thèm làm...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -4541,14 +4389,14 @@
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Mhm, mhm... Tôi đồng ý...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi muốn'
+-	R
+-	'đâm chuôi kiếm của mình vào'
+-	R
+-	'nàng và khiến nàng rên rỉ...'
++	'Ừm ừm... ta cũng thấy thế...'
++	\L_07e59:
++	ZH 1:
++	'Ta muốn thọc phần chuôi'
++	R
++	'này vào một phát cho'
++	R
++	'nàng rên a ha～n quá...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -4556,19 +4404,17 @@
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Chuôi kiếm của'
+-	R
+-	'ngươi...? Đừng có bị cuốn'
+-	R
+-	'đi thế, thanh kiếm ngu ngốc!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'(ung c)'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance ném Chaos xuống sàn.'
++	'Thọc chuôi vào á...? Đừng có'
++	R
++	'lên mặt, thanh kiếm ngu này!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'(bốp)'
++	\L_07e59:
++	ZH 1:
++	'Rance đập Chaos xuống đất.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -4576,14 +4422,14 @@
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Ôi!! Ôi...'
+-	\L_07e59:
+-	ZH 1:
+-	'Đồ ngu, ngươi đang làm'
+-	R
+-	'gì với ta vậy, Thanh kiếm'
+-	R
+-	'hỏng thiêng liêng, Chaos?'
++	'Ối!! Đau...'
++	\L_07e59:
++	ZH 1:
++	'Thằng ngu này, dám làm'
++	R
++	'thế với ma kiếm thần'
++	R
++	'thánh Chaos đại nhân à...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -4596,10 +4442,10 @@
+ 	\L_07e4c:
+ 	\L_07d6c:
+ 	ZH 1:
+-	'（nghiền）'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance dẫm phải Chaos.'
++	'(di di)'
++	\L_07e59:
++	ZH 1:
++	'Rance giẫm lên Chaos.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -4607,17 +4453,17 @@
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Ah... Dừng lại...'
+-	\L_07e59:
+-	ZH 1:
+-	'Cảm giác bị một người phụ'
+-	R
+-	'nữ giẫm lên thật dễ chịu,'
+-	\L_07e59:
+-	ZH 1:
+-	'nhưng thật kinh tởm khi'
+-	R
+-	'đó là một người đàn ông...'
++	'A... thôi đi...'
++	\L_07e59:
++	ZH 1:
++	'Bị chân đàn bà'
++	R
++	'giẫm thì sướng,'
++	\L_07e59:
++	ZH 1:
++	'chứ bị đàn ông giẫm'
++	R
++	'thì kinh chết...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -4625,19 +4471,19 @@
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Gahahahaha!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'（nghiền）'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Đây là những gì'
+-	R
+-	'ngươi nhận được, Chaos...'
++	'Gahahahaha!!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'(di di)'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Chaos, loại như mày thì'
++	R
++	'phải thế này, thế này...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07dc0:
+@@ -4647,61 +4493,53 @@
+ 	\L_07e4c:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Ừm... Vua của Leazas.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'À, xin lỗi,'
+-	R
+-	'xin lỗi. Thanh kiếm ngu'
+-	R
+-	'ngốc này thật đáng ghét.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance cõng Chaos trên'
+-	R
+-	'tấm lưng rộng của mình.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Không... Vừa'
+-	R
+-	'nãy cậu gọi thanh kiếm'
+-	R
+-	'đó là... Chaos...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Vâng, ngươi có thể không'
+-	R
+-	'nghĩ vậy nhưng nó thực sự là'
+-	R
+-	'một thanh kiếm huyền thoại.'
+-	\L_07e59:
+-	ZH 1:
+-	'Thanh kiếm'
+-	R
+-	'hỏng, Chaos...'
+-	\L_07e59:
+-	ZH 1:
+-	'Nó có thể tiêu diệt quỷ.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'... Tôi biết mà... Chaos...'
+-	R
+-	'Tên trộm Chaos!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Ừm, ngươi biết hắn à?'
++	'Ưm... Vua Leazas.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'À, xin lỗi, xin lỗi. Thanh'
++	R
++	'kiếm ngu này cứ láo toét.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Rance đeo Chaos'
++	R
++	'lên tấm lưng rộng.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Không... thanh kiếm vừa'
++	R
++	'rồi... ngài gọi là Chaos...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'À, thế này thôi chứ nó'
++	R
++	'là kiếm huyền thoại đấy.'
++	\L_07e59:
++	ZH 1:
++	'Ma kiếm Chaos...'
++	\L_07e59:
++	ZH 1:
++	'Kiếm chém được ma nhân.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'......Quả nhiên......'
++	R
++	'Chaos...... Thief Chaos!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Hửm, cô biết nó à?'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -4709,139 +4547,135 @@
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Kẻ trộm Chaos là cái'
+-	R
+-	'tên tôi đã sử dụng từ lâu...'
+-	\L_07e59:
+-	ZH 1:
+-	'Chỉ những'
+-	R
+-	'người biết tôi khi tôi còn'
+-	R
+-	'là con người mới biết...'
+-	\L_07e59:
+-	ZH 1:
+-	'... Nhưng tôi không'
+-	R
+-	'biết người phụ nữ này...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi sẽ không thể quên'
+-	R
+-	'một người nóng bỏng thế này'
+-	R
+-	'sau khi gặp họ một lần...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Phần đó của cậu không'
+-	R
+-	'hề thay đổi chút nào, Chaos.'
+-	\L_07e59:
+-	ZH 1:
+-	'Lady là bí'
+-	R
+-	'danh... Tên thật của tôi'
+-	R
+-	'là Café. Café Artful.'
+-	\L_07e59:
+-	ZH 1:
+-	'Chúng ta đã xa nhau'
+-	R
+-	'khá lâu rồi... Và bây giờ'
+-	R
+-	'tôi trông như thế này...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tất nhiên là'
+-	R
+-	'cậu sẽ không biết.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Ca-...'
+-	\L_07e59:
+-	ZH 1:
+-	'Café!!??'
+-	R
+-	'Anh... anh, anh...'
+-	\L_07e59:
+-	ZH 1:
+-	'Cậu là cô gái đeo'
+-	R
+-	'kính nhỏ bé đó, Café!!??'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'... Đúng vậy... Cô'
+-	R
+-	'gái mà anh luôn đặt tay lên'
+-	R
+-	'đầu!! Cô bé đeo kính, Café.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'À...'
+-	\L_07e59:
+-	ZH 1:
+-	'Cái đó... Cái'
+-	R
+-	'đó không thể...'
+-	\L_07e59:
+-	ZH 1:
+-	'... Gah~...'
+-	\L_07e59:
+-	ZH 1:
+-	'Gaaaaaah... Gaaaaaah...'
+-	\L_07e59:
+-	ZH 1:
+-	'Không... Café nhỏ'
+-	R
+-	'hơn... Và mũm mĩm hơn...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Bản thân cậu trông'
+-	R
+-	'gầy và đen hơn rất nhiều.'
+-	\L_07e59:
+-	ZH 1:
+-	'Đó có phải là'
+-	R
+-	'điều xảy ra khi cậu khao'
+-	R
+-	'khát quyền lực không?'
+-	\L_07e59:
+-	ZH 1:
+-	'Điều tương tự có'
+-	R
+-	'xảy ra với Nikkou không?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Nikkou đã trở thành Thánh'
+-	R
+-	'Katana, đối diện của tôi...'
+-	\L_07e59:
+-	ZH 1:
+-	'Nàng cũng có thể mang'
+-	R
+-	'hình dạng con người... Nàng'
+-	R
+-	'đã làm tốt hơn... Grrr...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Tôi hiểu rồi... Vậy'
+-	R
+-	'Nikkou cũng vẫn còn sống...'
++	'Thief Chaos à... cái'
++	R
++	'biệt danh cũ thật...'
++	\L_07e59:
++	ZH 1:
++	'Còn có kẻ biết cái tên'
++	R
++	'hồi ta còn là người...'
++	\L_07e59:
++	ZH 1:
++	'......Nhưng mà... ta'
++	R
++	'không biết cô......'
++	\L_07e59:
++	ZH 1:
++	'Gái đẹp gặp một lần là'
++	R
++	'ta chẳng bao giờ quên...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Cái tính đó vẫn chẳng'
++	R
++	'đổi chút nào nhỉ, Chaos.'
++	\L_07e59:
++	ZH 1:
++	'Lady là tên khác của'
++	R
++	'tôi... Tên thật là'
++	R
++	'Café. Café Artful.'
++	\L_07e59:
++	ZH 1:
++	'Chúng ta chia tay từ'
++	R
++	'lâu lắm rồi... tôi lại'
++	R
++	'trong bộ dạng này...'
++	\L_07e59:
++	ZH 1:
++	'Ông không nhận ra cũng phải.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'C......'
++	\L_07e59:
++	ZH 1:
++	'Caféééé!!??'
++	R
++	'Cô... cô cô cô...'
++	\L_07e59:
++	ZH 1:
++	'Cô là con nhóc Café bé'
++	R
++	'tí đeo kính đó á!!??'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'...Phải... Café bé tí đeo'
++	R
++	'kính, bị ông lấy đầu làm'
++	R
++	'chỗ gác khuỷu tay suốt!!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'A......'
++	\L_07e59:
++	ZH 1:
++	'Kh... không... không thể...'
++	\L_07e59:
++	ZH 1:
++	'......Gaa～......'
++	\L_07e59:
++	ZH 1:
++	'Choáaaang... choáaaang...'
++	\L_07e59:
++	ZH 1:
++	'Không đúng... Café phải'
++	R
++	'là... nhỏ nhỏ xinh xinh...'
++	R
++	'tròn tròn mềm mềm...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Chính ông cũng thành ra gầy'
++	R
++	'guộc, đen đúa thế kia...'
++	\L_07e59:
++	ZH 1:
++	'Đó là... kết quả của việc'
++	R
++	'khao khát sức mạnh à...?'
++	\L_07e59:
++	ZH 1:
++	'Lẽ nào... cả cô'
++	R
++	'Nikkou cũng...?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Nikkou... là thánh'
++	R
++	'kiếm, hoàn toàn'
++	R
++	'trái ngược với ta...'
++	\L_07e59:
++	ZH 1:
++	'Còn hóa được thành'
++	R
++	'người nữa... được thiên'
++	R
++	'vị mà... lầm bầm...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Vậy à... thế thì'
++	R
++	'cô Nikkou... vẫn'
++	R
++	'còn trên đời này...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -4849,26 +4683,24 @@
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Hai người đang nói chuyện'
+-	R
+-	'gì vậy? Ta không thể theo'
+-	R
+-	'dõi cuộc trò chuyện này.'
+-	\L_07e59:
+-	ZH 1:
+-	'Giải thích cho ta.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'... Ừ, được rồi.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Lady bắt đầu chậm'
+-	R
+-	'rãi kể về quá khứ.'
++	'Hai người lầm bầm cái gì'
++	R
++	'thế... Ta chẳng hiểu gì cả.'
++	\L_07e59:
++	ZH 1:
++	'Giải thích đi.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'......Vâng, tôi hiểu rồi.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Lady chậm rãi kể'
++	R
++	'lại chuyện quá khứ.'
+ 	\L_07e59:
+ 	ZH 1:
+ 	R
+@@ -4885,77 +4717,65 @@
+ 	\L_07e4c:
+ 	\L_07d50:
+ 	ZH 1:
+-	'Để tóm tắt'
+-	R
+-	'câu chuyện của nàng...'
+-	\L_07e59:
+-	ZH 1:
+-	'Lady là tên'
+-	R
+-	'giả và tên thật của'
+-	R
+-	'nàng rõ ràng là Café.'
++	'Tóm tắt lời nàng kể thì...'
++	\L_07e59:
++	ZH 1:
++	'Lady là tên giả, tên'
++	R
++	'thật của nàng là Café.'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'1500 năm trước,'
+ 	\L_07e59:
+ 	ZH 1:
+-	'cô là một trong'
+-	R
+-	'những đồng minh của Chaos'
+-	R
+-	'đã thách thức Ma Vương.'
+-	\L_07e59:
+-	ZH 1:
+-	'Như ta đã nghe từ'
+-	R
+-	'Ho Raga và người Anh,'
+-	\L_07e59:
+-	ZH 1:
+-	'Café cũng gặp được'
+-	R
+-	'thứ mà họ tin là thần thánh'
+-	R
+-	'và thực hiện một điều ước.'
+-	\L_07e59:
+-	ZH 1:
+-	'Muốn có vẻ đẹp vĩnh cửu...'
+-	\L_07e59:
+-	ZH 1:
+-	'Ta đoán trước đây'
+-	R
+-	'nàng xấu nên có mặc'
+-	R
+-	'cảm xấu về điều đó.'
+-	\L_07e59:
+-	ZH 1:
+-	'Tuy nhiên,'
+-	R
+-	'nàng không thực sự đi sâu'
+-	R
+-	'vào chi tiết về điều đó.'
+-	\L_07e59:
+-	ZH 1:
+-	'Dù thế nào đi nữa, có'
+-	R
+-	'vẻ như nàng đã sống một cuộc'
+-	R
+-	'đời lang thang kể từ đó...'
+-	\L_07e59:
+-	ZH 1:
+-	'Ừm...'
+-	\L_07e59:
+-	ZH 1:
+-	'Vẻ đẹp được ban'
+-	R
+-	'tặng bởi một vị thần...?'
+-	\L_07e59:
+-	ZH 1:
+-	'Vậy ra đó là lý do tại'
+-	R
+-	'sao ngay cả ta cũng bị nàng'
+-	R
+-	'thu hút một cách vô vọng...'
++	'nàng là đồng đội'
++	R
++	'của nhóm Chaos từng'
++	R
++	'thách đấu Ma Vương.'
++	\L_07e59:
++	ZH 1:
++	'Giống như ta đã nghe'
++	R
++	'từ Ho Raga và British,'
++	\L_07e59:
++	ZH 1:
++	'Café cũng gặp kẻ có vẻ là'
++	R
++	'thần, rồi nói ra điều ước.'
++	\L_07e59:
++	ZH 1:
++	'Hãy cho tôi vẻ'
++	R
++	'đẹp vĩnh cửu...'
++	\L_07e59:
++	ZH 1:
++	'Hình như vốn khá xấu, nên'
++	R
++	'vì mặc cảm mà ước thế chăng?'
++	\L_07e59:
++	ZH 1:
++	'Chuyện đó nàng'
++	R
++	'không kể chi tiết...'
++	\L_07e59:
++	ZH 1:
++	'Dù sao, từ đó đến nay,'
++	R
++	'có vẻ nàng sống kiếp'
++	R
++	'phiêu bạt thế này...'
++	\L_07e59:
++	ZH 1:
++	'Hừm......'
++	\L_07e59:
++	ZH 1:
++	'Vẻ đẹp do thần ban à......'
++	\L_07e59:
++	ZH 1:
++	'Thảo nào đến cả bản đại gia'
++	R
++	'như ta cũng bị hút hồn......'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -4963,86 +4783,74 @@
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Đúng là một'
+-	R
+-	'người phụ nữ ngu ngốc!'
+-	\L_07e59:
+-	ZH 1:
+-	'Tuy nhiên,'
+-	R
+-	'ngoại hình của cậu đã thay'
+-	R
+-	'đổi, cậu vẫn chỉ là cậu...'
+-	\L_07e59:
+-	ZH 1:
+-	'Cô bé đeo kính.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'... Sao cũng được...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi... tôi không'
+-	R
+-	'nghĩ đó là điều tôi muốn'
+-	R
+-	'khi chuyện đó xảy ra...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi đã định'
+-	R
+-	'ước một điều gì đó tương'
+-	R
+-	'tự như các em... Nhưng...'
+-	\L_07e59:
+-	ZH 1:
+-	'Nhưng...'
+-	\L_07e59:
+-	ZH 1:
+-	'Lúc đó, tôi đã tự hỏi'
+-	R
+-	'liệu việc tôi đi phiêu lưu'
+-	R
+-	'cùng các em có đúng không...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tất cả những gì'
+-	R
+-	'tôi có thể làm là học, nên'
+-	R
+-	'tôi đã học hết sức có thể...'
+-	\L_07e59:
+-	ZH 1:
+-	'và trở nên mạnh mẽ hơn...'
+-	\L_07e59:
+-	ZH 1:
+-	'Nhưng lúc'
+-	R
+-	'đó tôi không thể mạnh'
+-	R
+-	'bằng Ho Raga được...'
+-	\L_07e59:
+-	ZH 1:
+-	'Nếu Ho Raga không sử'
+-	R
+-	'dụng phép thuật giỏi đến'
+-	R
+-	'vậy thì ai biết được...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Vậy khi cậu'
+-	R
+-	'nghĩ về điều đó khi còn'
+-	R
+-	'làm việc trước Planner...'
+-	\L_07e59:
+-	ZH 1:
+-	'Cuối cùng cậu lại'
+-	R
+-	'muốn có cái đẹp...?'
++	'Đúng là con ngốc!'
++	\L_07e59:
++	ZH 1:
++	'Hình dáng có thay'
++	R
++	'đổi thế nào thì cô'
++	R
++	'vẫn chỉ là cô thôi...'
++	\L_07e59:
++	ZH 1:
++	'Nhóc kính cận.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'......Thì đã sao...'
++	\L_07e59:
++	ZH 1:
++	'Chính tôi... cũng'
++	R
++	'đâu ngờ đến phút chót'
++	R
++	'mình lại ước thứ đó...'
++	\L_07e59:
++	ZH 1:
++	'Tôi cũng định ước giống'
++	R
++	'mọi người... nhưng...'
++	\L_07e59:
++	ZH 1:
++	'nhưng... lúc đó tôi...'
++	\L_07e59:
++	ZH 1:
++	'tự hỏi liệu mình có xứng'
++	R
++	'đi cùng mọi người không...'
++	\L_07e59:
++	ZH 1:
++	'Tôi chỉ biết học,'
++	R
++	'nên cố hết sức học...'
++	\L_07e59:
++	ZH 1:
++	'để trở nên mạnh...'
++	\L_07e59:
++	ZH 1:
++	'Nhưng tôi không mạnh'
++	R
++	'được như Ho Raga'
++	R
++	'lúc ấy... Lúc ấy,'
++	\L_07e59:
++	ZH 1:
++	'nếu Ho Raga không tung được'
++	R
++	'phép cho đàng hoàng thì...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Vừa nghĩ mấy chuyện đó'
++	R
++	'vừa đứng trước Planner...'
++	\L_07e59:
++	ZH 1:
++	'nên cô mới muốn'
++	R
++	'có sắc đẹp à...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -5052,39 +4860,33 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Ngu ngốc.'
+-	R
+-	'Cậu đúng là ngu ngốc!! Ngu'
+-	R
+-	'ngốc, ngu ngốc, ngu ngốc!!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Áaaaaaa! Im đi, im đi!!'
+-	\L_07e59:
+-	ZH 1:
+-	'Vua của Leazas!'
+-	R
+-	'Cậu nên vứt thanh kiếm'
+-	R
+-	'ngu ngốc này đi đi!!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Ngu ngốc,'
+-	R
+-	'ngu ngốc, ngu ngốc! Ngu'
+-	R
+-	'ngốc ngu ngốc ngu ngốc!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Im đi uu! Cậu không biết'
+-	R
+-	'tôi cảm thấy thế nào đâu...'
++	'Ngốc. Cô đúng là đồ'
++	R
++	'ngốc!! Ngốc, ngốc, ngốc!!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Ứaaa! Im đi, im đi!!'
++	\L_07e59:
++	ZH 1:
++	'Vua Leazas! Vứt quách thanh'
++	R
++	'kiếm ngu này đi cho rồi!!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Ngốc ngốc đồ ngốccc!'
++	R
++	'Ngốc ngốc ngốc!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Im điiii! Chẳng hiểu'
++	R
++	'lòng người ta gì cả...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -5092,27 +4894,21 @@
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Thưa cô.... Nếu ta vứt anh'
+-	R
+-	'ta đi, ngươi có cho ta quan'
+-	R
+-	'hệ tình dục với ngươi không?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'... Đ-Chuyện'
+-	R
+-	'đó không liên quan'
+-	R
+-	'gì đến việc này cả.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'... Vậy thì ta sẽ'
+-	R
+-	'không vứt anh ta đi.'
++	'Lady. ......Nếu ta vứt'
++	R
++	'nó đi, cô cho ta ôm chứ?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'......Ch... chuyện đó với'
++	R
++	'chuyện này... khác nhau.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'......Vậy thì không vứt.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -5120,14 +4916,14 @@
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Tất nhiên là cậu sẽ không'
+-	R
+-	'làm vậy. Không thể chiến đấu'
+-	R
+-	'với lũ quỷ nếu không có tôi.'
+-	\L_07e59:
+-	ZH 1:
+-	'Gahahahaha!'
++	'Đương nhiên rồi. Không'
++	R
++	'có bản đại gia đây thì'
++	R
++	'sao đánh được lũ ma nhân.'
++	\L_07e59:
++	ZH 1:
++	'Gahahahaha.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -5135,16 +4931,14 @@
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Chà, không thử thì'
+-	R
+-	'không biết có đúng không.'
+-	\L_07e59:
+-	ZH 1:
+-	'Bây giờ ngươi'
+-	R
+-	'khá đáng ghét, vì'
+-	R
+-	'vậy ta sẽ ném ngươi.'
++	'Chuyện đó phải thử đủ'
++	R
++	'đường mới biết được.'
++	\L_07e59:
++	ZH 1:
++	'Thái độ vừa rồi'
++	R
++	'láo quá, vứt.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -5152,9 +4946,7 @@
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Này, này! Đợi'
+-	R
+-	'đã, chờ đã...'
++	'Ấy ấy! Khoan, khoan...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -5167,55 +4959,49 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Ủa? Cái gì, ngu ngốc?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Tôi chưa'
+-	R
+-	'bao giờ nghĩ rằng mình sẽ'
+-	R
+-	'gặp lại cậu như thế này...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Không chỉ có'
+-	R
+-	'tôi. Những người khác'
+-	R
+-	'vẫn còn ở xung quanh.'
+-	\L_07e59:
+-	ZH 1:
+-	'Cuộc gặp lại của chúng'
+-	R
+-	'ta sau hàng trăm năm có thể'
+-	\L_07e59:
+-	ZH 1:
+-	'là dấu hiệu cho thấy'
+-	R
+-	'chúng ta đang tiến gần đến'
+-	R
+-	'sự thay đổi của thời đại,'
+-	\L_07e59:
+-	ZH 1:
+-	'tuy nhiên...'
+-	\L_07e59:
+-	ZH 1:
+-	'Vậy, Café. Có vẻ như'
+-	R
+-	'cậu đã gặp người Anh.'
+-	\L_07e59:
+-	ZH 1:
+-	'Hắn có tặng cậu'
+-	R
+-	'một bức tượng vàng không?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'... Vâng.'
++	'Hả? Gì, đồ ngốc.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Không ngờ lại gặp được'
++	R
++	'Chaos ở nơi thế này...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Không chỉ có ta đâu.'
++	\L_07e59:
++	ZH 1:
++	'Những đứa khác cũng còn'
++	R
++	'đấy. Mà chúng ta gặp'
++	R
++	'lại sau mấy trăm năm,'
++	\L_07e59:
++	ZH 1:
++	'có khi cũng là dấu hiệu'
++	R
++	'thời đại sắp đổi thay...'
++	\L_07e59:
++	ZH 1:
++	'Thôi...'
++	\L_07e59:
++	ZH 1:
++	'Mà, Café này. Cô đã'
++	R
++	'gặp British rồi nhỉ.'
++	\L_07e59:
++	ZH 1:
++	'Lúc đó cô đã nhận được'
++	R
++	'tượng vàng, đúng không?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'......Ừ.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -5228,30 +5014,30 @@
+ 	\L_07e4c:
+ 	\L_07da4:
+ 	ZH 1:
+-	'... Không. Nó là của tôi.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Cái gì?!'
+-	R
+-	'Mặc dù Vua của Thế giới'
+-	R
+-	'đang yêu cầu điều đó?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Dù thế nào đi nữa,'
+-	R
+-	'không có nghĩa là không.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Aaaaaagh!! Chaos,'
+-	R
+-	'ngươi cũng nói với nàng!'
++	'......Không đâu.'
++	R
++	'Nó là của tôi mà.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Cáiii gì? Đây là bản'
++	R
++	'đại gia, vua của thế'
++	R
++	'giới đang nhờ đấy?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Dù vậy, không là không ạ.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Tức chết điii!! Chaos,'
++	R
++	'mày cũng nói gì đi!'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -5259,19 +5045,19 @@
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Cô bé đeo kính, đưa'
+-	R
+-	'cho ta bức tượng vàng.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Không được! Bleeeeee!!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Không hoạt động...'
++	'Nhóc kính cận, đưa'
++	R
++	'tượng vàng cho ta.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Khôôông! Lêu lêuuu!!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Hết cách rồi......'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -5279,39 +5065,35 @@
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Có lẽ có cách tốt hơn'
+-	R
+-	'mà ngươi có thể hỏi nàng!!'
+-	\L_07e59:
+-	ZH 1:
+-	'Nàng là ngươi cũ'
+-	R
+-	'của anh, chết tiệt...'
+-	\L_07e59:
+-	ZH 1:
+-	'Thôi, sao cũng'
+-	R
+-	'được. Ta sẽ hỏi lại.'
+-	\L_07e59:
+-	ZH 1:
+-	'Hãy cho ta bức tượng'
+-	R
+-	'vàng. Nếu không thì hãy'
+-	R
+-	'để ta làm tình với ngươi.'
+-	\L_07e59:
+-	ZH 1:
+-	'Cái này hay cái kia.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Tôi cũng từ chối làm.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'... À.'
++	'Phải có cách nói khác chứ!!'
++	\L_07e59:
++	ZH 1:
++	'Đồng đội cũ cơ'
++	R
++	'mà, thật tình...'
++	\L_07e59:
++	ZH 1:
++	'Thôi được. Ta'
++	R
++	'nói lại lần nữa.'
++	\L_07e59:
++	ZH 1:
++	'Đưa tượng vàng đây.'
++	R
++	'Không thì cho ta ôm.'
++	\L_07e59:
++	ZH 1:
++	'Một trong hai.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Cả hai tôi đều xin từ chối.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'......Bực mình.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	@L_019d8:
+@@ -5319,9 +5101,7 @@
+ 	!VAR0365 : 4!
+ 	\L_07d34:
+ 	ZH 1:
+-	'Đưa cho tôi'
+-	R
+-	'bức tượng vàng.'
++	'Vậy thì, đưa tượng vàng đây.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -5329,57 +5109,57 @@
+ 	'............'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Hoàn toàn không.'
+-	\L_07e59:
+-	ZH 1:
+-	'Là một vị vua, tôi'
+-	R
+-	'chắc chắn rằng ngươi đã có'
+-	R
+-	'rất nhiều tiền phải không?'
+-	\L_07e59:
+-	ZH 1:
+-	'Hay ngươi chỉ thích'
+-	R
+-	'những thứ sáng bóng?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Tôi đang tập hợp bốn'
+-	R
+-	'bức tượng để vào Di tích Cổ.'
+-	\L_07e59:
+-	ZH 1:
+-	'Sau đó tôi sẽ gặp'
+-	R
+-	'thần và trở thành bất tử.'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi đã có sức mạnh'
+-	R
+-	'tối thượng và ngoại hình đẹp'
+-	R
+-	'nên đó là vấn đề duy nhất.'
+-	\L_07e59:
+-	ZH 1:
+-	'Gahahahaha!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'... Tôi sẽ không'
+-	R
+-	'đưa nó cho ngươi đâu.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Cái gì...? Ý ngươi là chỉ'
+-	R
+-	'có ngươi mới trở nên xinh'
+-	R
+-	'đẹp và hạnh phúc? Ngươi...'
++	'Nhất định không.'
++	\L_07e59:
++	ZH 1:
++	'Không cần thứ đó thì là'
++	R
++	'vua, ngài cũng có tiền'
++	R
++	'nhiều phát ngấy rồi chứ?'
++	\L_07e59:
++	ZH 1:
++	'Hay là... ngài chỉ đơn'
++	R
++	'giản mê đồ vàng óng ánh?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Gom đủ 4 tượng vàng'
++	R
++	'rồi vào di tích cổ đại.'
++	\L_07e59:
++	ZH 1:
++	'Ta sẽ gặp thần. Rồi'
++	R
++	'thành bất lão bất tử.'
++	\L_07e59:
++	ZH 1:
++	'Sức mạnh tối thượng với'
++	R
++	'vẻ đẹp trai ta có sẵn rồi,'
++	R
++	'chỉ còn mỗi chuyện đó.'
++	\L_07e59:
++	ZH 1:
++	'Gahahahaha.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'......Tôi không'
++	R
++	'thể đưa được.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Cáiii gì...? Chỉ vì'
++	R
++	'mình cô đẹp ra rồi'
++	R
++	'hạnh phúc... đồ......'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -5389,16 +5169,14 @@
+ 	\L_07e4c:
+ 	\L_07ddc:
+ 	ZH 1:
+-	'Đôi mắt của quý cô'
+-	R
+-	'phát ra ánh sáng mờ ảo.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Ngươi nói tôi'
+-	R
+-	'hạnh phúc à...?'
++	'Đôi mắt Lady lóe lên'
++	R
++	'một tia sáng đục.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Ngài nói tôi hạnh phúc ư...?'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -5408,112 +5186,106 @@
+ 	\L_07e4c:
+ 	\L_07da4:
+ 	ZH 1:
+-	'... Anh thậm chí'
+-	R
+-	'còn không biết gì cả...'
++	'......Chẳng biết'
++	R
++	'gì cả mà......'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07ddc:
+ 	ZH 1:
+-	'Quý cô từ từ đứng dậy.'
+-	\L_07e59:
+-	ZH 1:
+-	'（bùm）'
+-	\L_07e59:
+-	ZH 1:
+-	'Lady đẩy Rance đi bằng'
+-	R
+-	'toàn bộ sức lực của mình.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Ôi!?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Cút ra!! Tôi thậm'
+-	R
+-	'chí còn không muốn'
+-	R
+-	'nhìn thấy mặt anh!!'
+-	\L_07e59:
+-	ZH 1:
+-	'Ngươi không biết tôi đã'
+-	R
+-	'phải trải qua bao nhiêu'
+-	\L_07e59:
+-	ZH 1:
+-	'chuyện trong 1500 năm'
+-	R
+-	'qua chỉ vì một sai lầm!!'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi ghét'
+-	R
+-	'ngươi! Chaos và Bệ hạ,'
+-	R
+-	'tôi ghét cả hai người!'
+-	\L_07e59:
+-	ZH 1:
+-	'Ngu ngốc, ngu'
+-	R
+-	'ngốc, ngu ngốc!!'
++	'Lady chậm rãi đứng dậy.'
++	\L_07e59:
++	ZH 1:
++	'(bịch!)'
++	\L_07e59:
++	ZH 1:
++	'Rance bị Lady dồn'
++	R
++	'hết sức đẩy văng.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Ối!?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Đi ra!! Tôi không muốn'
++	R
++	'nhìn mặt ngài nữa!!'
++	\L_07e59:
++	ZH 1:
++	'Tôi... suốt 1500 năm...'
++	R
++	'chỉ vì một lần sai lầm,'
++	\L_07e59:
++	ZH 1:
++	'đã phải chịu những gì,'
++	R
++	'ngài không biết đâu...!!'
++	\L_07e59:
++	ZH 1:
++	'Ghét, ghét lắm! Cả'
++	R
++	'bệ hạ lẫn Chaos, tôi'
++	R
++	'ghét cay ghét đắng!'
++	\L_07e59:
++	ZH 1:
++	'Đồ ngốc, đồ'
++	R
++	'ngốc, đồ ngốccc!!'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07e06:
+ 	\L_07d6c:
+ 	ZH 1:
+-	'Rance đang đứng chết'
+-	R
+-	'lặng trước lều của Lady.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Cái gì...?'
++	'Rance đứng sững'
++	R
++	'sờ trước lều Lady.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Cái quái gì thế...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 80!
+ 	\L_07df8:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Chà...'
+-	\L_07e59:
+-	ZH 1:
+-	'Nàng cũng rất đáng sợ khi'
+-	R
+-	'chụp ảnh cách đây 1500 năm,'
+-	\L_07e59:
+-	ZH 1:
+-	'nhưng có vẻ như'
+-	R
+-	'nàng đã lên cấp.'
+-	\L_07e59:
+-	ZH 1:
+-	'Này, cậu có'
+-	R
+-	'nghĩ vậy không?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Hồi đó tôi thậm chí còn'
+-	R
+-	'không có nhiều tinh trùng'
+-	R
+-	'trong quả bóng của bố tôi,'
+-	\L_07e59:
+-	ZH 1:
+-	'tôi cũng không thể đồng ý.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Ồ vâng, đúng rồi...'
+-	R
+-	'Xin lỗi về điều đó...'
++	'Ghê thật...'
++	\L_07e59:
++	ZH 1:
++	'1500 năm trước, nổi khùng'
++	R
++	'lên cũng đáng sợ lắm rồi,'
++	\L_07e59:
++	ZH 1:
++	'nhưng giờ còn lên'
++	R
++	'tay hơn hồi đó,'
++	\L_07e59:
++	ZH 1:
++	'này, cậu thấy thế không?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Kể chuyện từ hồi ta còn chưa'
++	R
++	'có trong bi của ông già,'
++	\L_07e59:
++	ZH 1:
++	'thì ta gật đầu sao được.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Nói mới nhớ, đúng thật...'
++	R
++	'Không, tại ta buột miệng...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 0!
+@@ -5526,161 +5298,145 @@
+ 	'Được rồi.'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Hôm nọ ta đã bị đuổi đi,'
+-	\L_07e59:
+-	ZH 1:
+-	'nhưng hôm nay ta'
+-	R
+-	'sẽ lấy được bức tượng'
+-	R
+-	'vàng bằng cách nào đó.'
++	'Hôm trước bị đuổi về,'
++	\L_07e59:
++	ZH 1:
++	'nhưng hôm nay bằng mọi cách'
++	R
++	'phải lấy được tượng vàng.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d50:
+ 	ZH 1:
+-	'Tại sao Lady lại'
+-	R
+-	'nổi điên như vậy?'
+-	\L_07e59:
+-	ZH 1:
+-	'Nếu ta nhớ không lầm'
+-	R
+-	'thì nàng đã thực sự tức'
+-	\L_07e59:
+-	ZH 1:
+-	'giận sau khi ta'
+-	R
+-	'nói rằng nàng rất vui sau'
+-	R
+-	'khi trở nên nóng bỏng...'
+-	\L_07e59:
+-	ZH 1:
+-	'Điều đó thật đáng sợ.'
+-	\L_07e59:
+-	ZH 1:
+-	'Thôi, sao cũng được.'
+-	R
+-	'Ta sẽ biết khi gặp nàng.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Xin lỗi!!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance bước'
+-	R
+-	'vào lều của Lady.'
++	'Nhưng mà... Lady... sao'
++	R
++	'lại nổi giận đến thế nhỉ?'
++	\L_07e59:
++	ZH 1:
++	'Hình như ta nói cô ta'
++	R
++	'đẹp ra, hạnh phúc rồi,'
++	\L_07e59:
++	ZH 1:
++	'thế là cô ta nổi giận'
++	R
++	'đùng đùng... Sợ thật...'
++	\L_07e59:
++	ZH 1:
++	'Thót cả tim...'
++	\L_07e59:
++	ZH 1:
++	'Thôi được. Gặp là biết.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Có ai không!!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Rance bước vào lều Lady.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d6c:
+ 	ZM 32:
+ 	ZH 1:
+-	'Đoàn lữ hành quý bà'
++	'Lady Caravan'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Bên trong lều tiểu thư'
++	'Trong lều của Lady'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 86!
+ 	\L_07df8:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Cậu lại đến nữa'
+-	R
+-	'à, Vua của Leazas...?'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi không có ý định'
+-	R
+-	'quan hệ tình dục với'
+-	\L_07e59:
+-	ZH 1:
+-	'cậu cho dù cậu có đến'
+-	R
+-	'bao nhiêu lần đi chăng nữa.'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi cũng sẽ không tặng'
+-	R
+-	'cậu bức tượng vàng đâu.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Tệ quá. Tôi sẽ dùng'
+-	R
+-	'bức tượng vàng để gọi thần'
+-	R
+-	'và đạt được điều mình muốn.'
+-	\L_07e59:
+-	ZH 1:
+-	'Bởi vì em có vẻ'
+-	R
+-	'hạnh phúc khi ta nhìn em...'
+-	\L_07e59:
+-	ZH 1:
+-	'À, đừng giận,'
+-	R
+-	'hãy nghe ta nói cho'
+-	R
+-	'đến khi ta nói xong.'
+-	\L_07e59:
+-	ZH 1:
+-	'Em đã trở nên xinh'
+-	R
+-	'đẹp như em hằng mong ước.'
+-	\L_07e59:
+-	ZH 1:
+-	'Nhiều đến'
+-	R
+-	'mức tôi không thể kìm được'
+-	R
+-	'ham muốn được làm ngươi,'
+-	\L_07e59:
+-	ZH 1:
+-	'nên ngươi thực'
+-	R
+-	'sự rất nóng bỏng.'
+-	\L_07e59:
+-	ZH 1:
+-	'Có lẽ có rất nhiều'
+-	R
+-	'đàn ông cũng nghĩ như vậy...'
+-	\L_07e59:
+-	ZH 1:
+-	'Vậy là ngươi đã đạt'
+-	R
+-	'được điều mình muốn và trở'
+-	R
+-	'nên nổi tiếng, phải không?'
+-	\L_07e59:
+-	ZH 1:
+-	'Ngoài ra,'
+-	\L_07e59:
+-	ZH 1:
+-	'ngươi đã tận dụng cơ thể'
+-	R
+-	'đó và trở nên giàu có để'
+-	\L_07e59:
+-	ZH 1:
+-	'có được đoàn lữ'
+-	R
+-	'hành khổng lồ này.'
+-	\L_07e59:
+-	ZH 1:
+-	'Đó không phải là'
+-	R
+-	'hạnh phúc thì là gì?!!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance chỉ tay vào Lady.'
++	'Vua Leazas, ngài'
++	R
++	'lại đến sao......'
++	\L_07e59:
++	ZH 1:
++	'Dù ngài đến bao'
++	R
++	'nhiêu lần, tôi cũng'
++	\L_07e59:
++	ZH 1:
++	'không có ý để ngài ôm đâu.'
++	\L_07e59:
++	ZH 1:
++	'Tượng vàng tôi cũng'
++	R
++	'không định trao.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Không chịu. Ta sẽ dùng'
++	R
++	'tượng vàng gọi thần ra'
++	R
++	'để có được thứ mình muốn.'
++	\L_07e59:
++	ZH 1:
++	'Bởi vì nhìn cô, trông cô'
++	R
++	'có vẻ hạnh phúc lắm...'
++	\L_07e59:
++	ZH 1:
++	'À, đừng giận, nghe'
++	R
++	'ta nói hết đã.'
++	\L_07e59:
++	ZH 1:
++	'Cô đã được đẹp như ý muốn.'
++	\L_07e59:
++	ZH 1:
++	'Đẹp đến mức ngay cả bản đại'
++	R
++	'gia này cũng muốn nhào vào,'
++	\L_07e59:
++	ZH 1:
++	'thì đúng là tuyệt sắc đấy.'
++	\L_07e59:
++	ZH 1:
++	'Hẳn không ít gã đàn'
++	R
++	'ông cũng nghĩ như ta...'
++	\L_07e59:
++	ZH 1:
++	'Vậy là cô toại nguyện,'
++	R
++	'được nhiều kẻ theo'
++	R
++	'đuổi, đúng không?'
++	\L_07e59:
++	ZH 1:
++	'Thêm nữa,'
++	\L_07e59:
++	ZH 1:
++	'cô lấy cơ thể ấy làm vốn'
++	R
++	'kiếm tiền, giàu đến mức'
++	\L_07e59:
++	ZH 1:
++	'có cả thương'
++	R
++	'đội lớn thế này.'
++	\L_07e59:
++	ZH 1:
++	'Thế mà không gọi là hạnh'
++	R
++	'phúc thì gọi là gì!!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Rance chỉ thẳng'
++	R
++	'ngón tay vào Lady.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -5688,26 +5444,28 @@
+ 	'............'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Cậu thấy tôi có vui không?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Trông ngươi không'
+-	R
+-	'có vẻ gì là không vui.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Tôi cho rằng cậu không'
+-	R
+-	'biết việc trở nên xinh'
+-	\L_07e59:
+-	ZH 1:
+-	'đẹp có thể mang'
+-	R
+-	'đến bao nhiêu bất hạnh...'
++	'Vua Leazas thấy tôi'
++	R
++	'trông hạnh phúc sao?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Trông chẳng có vẻ'
++	R
++	'gì là bất hạnh cả.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Ngài không biết'
++	R
++	'trở nên xinh đẹp'
++	\L_07e59:
++	ZH 1:
++	'là bất hạnh đến'
++	R
++	'mức nào......'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -5717,67 +5475,63 @@
+ 	\L_07e4c:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Tôi thật xấu xí...'
+-	\L_07e59:
+-	ZH 1:
+-	'Sẽ không có ai nhìn tôi...'
+-	\L_07e59:
+-	ZH 1:
+-	'Và tôi đang'
+-	R
+-	'ở cùng một người phụ nữ'
+-	R
+-	'xinh đẹp tên là Nikkou...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi thích Nikkou,'
+-	R
+-	'nhưng đâu đó trong thâm tâm,'
+-	R
+-	'tôi ghen tị… Tôi ghen tị…'
+-	\L_07e59:
+-	ZH 1:
+-	'Cậu có biết có bao'
+-	R
+-	'nhiêu chàng trai đánh giá ai'
+-	R
+-	'trong số hai người phụ nữ dễ'
+-	\L_07e59:
+-	ZH 1:
+-	'thương hơn khi họ'
+-	R
+-	'xếp hàng cạnh nhau không...?'
+-	\L_07e59:
+-	ZH 1:
+-	'Mọi người sẽ nhìn'
+-	R
+-	'Nikkou... Nhưng... tôi...'
+-	\L_07e59:
+-	ZH 1:
+-	'Khi đàn ông va'
+-	R
+-	'vào Nikkou, họ xin lỗi,'
+-	R
+-	'nhưng khi đến lượt tôi,'
+-	\L_07e59:
+-	ZH 1:
+-	'họ thường'
+-	R
+-	'nổi điên và nói “Cẩn'
+-	R
+-	'thận đấy, xấu xí”...'
+-	\L_07e59:
+-	ZH 1:
+-	'Ngài cũng có khuôn'
+-	R
+-	'mặt đẹp đấy, Vua Rance...'
+-	\L_07e59:
+-	ZH 1:
+-	'Những người như'
+-	R
+-	'ngài không bao giờ có thể'
+-	R
+-	'hiểu được cảm giác này...'
++	'Tôi từng xấu xí......'
++	\L_07e59:
++	ZH 1:
++	'Chẳng ai thèm ngoái nhìn...'
++	\L_07e59:
++	ZH 1:
++	'Bên cạnh lại có một người'
++	R
++	'đẹp tên Nikkou......'
++	\L_07e59:
++	ZH 1:
++	'Tôi quý cô Nikkou...'
++	R
++	'nhưng tận đáy lòng, tôi'
++	R
++	'ngưỡng mộ... và ghen tị...'
++	\L_07e59:
++	ZH 1:
++	'Ngài biết không...?'
++	R
++	'Đàn ông ấy... thấy hai'
++	R
++	'cô gái đứng cạnh nhau'
++	\L_07e59:
++	ZH 1:
++	'thì nhiều kẻ sẽ cân đo'
++	R
++	'xem ai dễ thương hơn...'
++	\L_07e59:
++	ZH 1:
++	'Ai cũng nhìn cô'
++	R
++	'Nikkou... Còn tôi...'
++	\L_07e59:
++	ZH 1:
++	'Đàn ông lỡ va vào cô'
++	R
++	'Nikkou thì vội xin'
++	R
++	'lỗi, còn với tôi,'
++	\L_07e59:
++	ZH 1:
++	'phần nhiều lại quay ra mắng:'
++	R
++	'coi chừng chứ, đồ xấu xí...'
++	\L_07e59:
++	ZH 1:
++	'Ngài cũng có gương'
++	R
++	'mặt đẹp, Vua Rance...'
++	\L_07e59:
++	ZH 1:
++	'Người như ngài... chắc'
++	R
++	'chắn không hiểu được cảm'
++	R
++	'giác này của tôi đâu...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -5785,210 +5539,204 @@
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Tôi không'
+-	R
+-	'nhớ có ai trong chúng tôi đã'
+-	R
+-	'từng nói điều đó với cậu!!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Ừ... Cậu, người'
+-	R
+-	'Anh... Và Ho Raga,'
+-	R
+-	'người ghét phụ nữ...'
+-	\L_07e59:
+-	ZH 1:
+-	'Cậu không đối xử'
++	'Bọn ta chưa từng nói'
++	R
++	'câu nào như thế!!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Ừ... Chaos...'
++	R
++	'British... cả Ho Raga'
++	R
++	'ghét đàn bà ấy nữa...'
++	\L_07e59:
++	ZH 1:
++	'đều không đối xử'
+ 	R
+ 	'với tôi như vậy...'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Tôi rất vui... Thật đấy.'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi quá hạnh phúc...'
+-	R
+-	'tôi thấy khó chịu...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi đã nghĩ có lẽ'
+-	R
+-	'sẽ có ngày các em cũng nói'
+-	R
+-	'chuyện với tôi như vậy...'
+-	\L_07e59:
+-	ZH 1:
+-	'Đau quá...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'... Cậu có ngốc không...?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Ừ... Giờ'
+-	R
+-	'nghĩ lại, tôi tự hỏi tại sao'
+-	R
+-	'mình lại lo lắng đến vậy...'
+-	\L_07e59:
+-	ZH 1:
+-	'Thật là ngớ ngẩn...'
+-	\L_07e59:
+-	ZH 1:
+-	'Nhưng tôi thực sự'
+-	R
+-	'tin vào điều đó. Không...'
+-	\L_07e59:
+-	ZH 1:
+-	'tôi nghĩ tôi đã tin'
+-	R
+-	'vào điều đó quá nhiều...'
+-	\L_07e59:
+-	ZH 1:
+-	'Hồi gặp kẻ thù đó,'
+-	R
+-	'nếu người Anh không hy sinh'
+-	R
+-	'thì chúng tôi đã chết rồi...'
+-	\L_07e59:
+-	ZH 1:
+-	'Nhưng tôi...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi không thể'
+-	R
+-	'sử dụng phép thuật tấn công'
+-	R
+-	'cho người Anh... Thực ra...'
+-	\L_07e59:
+-	ZH 1:
+-	'tôi đã cố cản đường'
+-	R
+-	'Ho Raga, cậu biết không...?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'... Chà, cậu'
+-	R
+-	'có thể làm gì...? Hồi đó cậu'
+-	R
+-	'có cảm tình với người Anh...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'... Cậu biết không?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'... Hừm. Cậu thật khó'
+-	R
+-	'xử. Mọi người đều biết.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Đó là sự thật...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi thích người Anh...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi quan'
+-	R
+-	'tâm đến cuộc sống của người'
+-	R
+-	'Anh hơn là mối nguy hiểm mà'
+-	\L_07e59:
+-	ZH 1:
+-	'những người khác đang'
+-	R
+-	'gặp phải vào thời điểm đó...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi cứ ngỡ hắn là'
+-	R
+-	'tình yêu của đời mình...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi không ngừng học tập'
+-	R
+-	'và trở nên mạnh mẽ hơn...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi tưởng đó chính là'
+-	R
+-	'mục đích sống của mình.'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi trở nên'
+-	R
+-	'mạnh mẽ... Đủ để không'
+-	R
+-	'ai có thể phàn nàn...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi được khen'
+-	R
+-	'ngợi và sợ hãi...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi không có vấn đề gì'
+-	R
+-	'với việc giết người nếu điều'
+-	\L_07e59:
+-	ZH 1:
+-	'đó là để đạt được'
+-	R
+-	'mục tiêu của chúng tôi...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi vốn là vậy đó.'
+-	\L_07e59:
+-	ZH 1:
+-	'Nhưng... ... Sau khi không'
+-	R
+-	'thể chiến đấu vì người Anh,'
+-	R
+-	'tôi đã nghĩ... Rất nhiều...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi nghĩ nếu tôi đẹp thì'
+-	R
+-	'người Anh có thể coi tôi'
+-	\L_07e59:
+-	ZH 1:
+-	'là người khác giới chứ'
+-	R
+-	'không chỉ là đồng minh.'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi nghĩ'
+-	R
+-	'có lẽ tôi có thể ở bên anh'
+-	R
+-	'như người yêu hoặc vợ anh.'
+-	\L_07e59:
+-	ZH 1:
+-	'Bởi vì tôi đã nghĩ...'
+-	\L_07e59:
+-	ZH 1:
+-	'cuộc đời mình'
+-	R
+-	'thật vô nghĩa!'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi thậm chí còn không'
+-	R
+-	'hữu dụng với phép thuật!'
++	'Tôi vui lắm... vui lắm...'
++	\L_07e59:
++	ZH 1:
++	'Vui quá mức... nên tôi'
++	R
++	'lại thấy bất an......'
++	\L_07e59:
++	ZH 1:
++	'Biết đâu một ngày,'
++	R
++	'những người này cũng'
++	R
++	'sẽ nói tôi như thế...'
++	\L_07e59:
++	ZH 1:
++	'Nghĩ vậy... tôi'
++	R
++	'thấy đau khổ lắm...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'......Ngốc à... cô......'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Ừ... giờ nghĩ lại,'
++	R
++	'chẳng hiểu sao lúc đó'
++	R
++	'lại bất an đến thế...'
++	\L_07e59:
++	ZH 1:
++	'Ngốc thật...'
++	\L_07e59:
++	ZH 1:
++	'Nhưng... tôi đã tin mọi'
++	R
++	'người... thật đấy. Không...'
++	\L_07e59:
++	ZH 1:
++	'tôi nghĩ mình đã'
++	R
++	'tin quá mức...'
++	\L_07e59:
++	ZH 1:
++	'Đúng lúc ấy gặp kẻ thù đó...'
++	R
++	'không hy sinh British thì'
++	R
++	'cả nhóm có thể đã chết...'
++	\L_07e59:
++	ZH 1:
++	'Vậy mà... tôi...'
++	\L_07e59:
++	ZH 1:
++	'không thể tung phép'
++	R
++	'tấn công vào British...'
++	R
++	'Chẳng những thế...'
++	\L_07e59:
++	ZH 1:
++	'tôi còn định cản trở'
++	R
++	'Ho Raga nữa cơ...?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'......Thì... cũng đành'
++	R
++	'chịu thôi... Hồi đó cô'
++	R
++	'phải lòng British mà...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'......Ông biết à?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'......Hừ. Cô vụng về thế'
++	R
++	'cơ mà. Ai mà chẳng biết.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Phải......'
++	\L_07e59:
++	ZH 1:
++	'Tôi đã yêu British...'
++	\L_07e59:
++	ZH 1:
++	'Lúc ấy... với tôi,'
++	R
++	'tính mạng British'
++	\L_07e59:
++	ZH 1:
++	'còn quý hơn cả cơn'
++	R
++	'nguy của cả nhóm...'
++	\L_07e59:
++	ZH 1:
++	'Tôi... từng nghĩ cả đời này'
++	R
++	'sẽ không bao giờ yêu ai...'
++	\L_07e59:
++	ZH 1:
++	'chỉ học, học mãi...'
++	R
++	'để trở nên mạnh...'
++	\L_07e59:
++	ZH 1:
++	'Tôi tưởng ý nghĩa tồn'
++	R
++	'tại của mình chỉ có thế.'
++	\L_07e59:
++	ZH 1:
++	'Tôi đã mạnh lên...'
++	R
++	'Không ai dám phàn nàn...'
++	\L_07e59:
++	ZH 1:
++	'được khen ngợi...'
++	R
++	'thậm chí bị kính sợ...'
++	\L_07e59:
++	ZH 1:
++	'Đến giết người... tôi'
++	R
++	'cũng không ngần ngại...'
++	\L_07e59:
++	ZH 1:
++	'vì mục đích của chúng ta...'
++	\L_07e59:
++	ZH 1:
++	'Một người như tôi......'
++	\L_07e59:
++	ZH 1:
++	'Vậy mà... sau lần không'
++	R
++	'thể tấn công vì British,'
++	R
++	'tôi đã nghĩ... rất nhiều...'
++	\L_07e59:
++	ZH 1:
++	'Giá mà tôi xinh đẹp...'
++	R
++	'thì British đã nhìn tôi'
++	\L_07e59:
++	ZH 1:
++	'như một người khác giới...'
++	R
++	'chứ không chỉ là đồng đội...'
++	\L_07e59:
++	ZH 1:
++	'Biết đâu tôi đã được ở'
++	R
++	'bên anh ấy, như người'
++	R
++	'yêu hay người vợ...'
++	\L_07e59:
++	ZH 1:
++	'Vì... tôi đã nghĩ...'
++	\L_07e59:
++	ZH 1:
++	'một kẻ chẳng được tích sự'
++	R
++	'gì về phép thuật như tôi...'
++	\L_07e59:
++	ZH 1:
++	'thì sống chẳng còn'
++	R
++	'giá trị gì nữa...!'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -5998,138 +5746,130 @@
+ 	\L_07e4c:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Khi tôi hỏi vị thần điều ước'
+-	R
+-	'của mình, tôi đã không thắc'
+-	R
+-	'mắc về lựa chọn của mình...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi không quan tâm đến'
+-	R
+-	'thế giới hay lũ quỷ...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi muốn những'
+-	R
+-	'gì tôi không có...'
+-	\L_07e59:
+-	ZH 1:
+-	'Những gì'
+-	R
+-	'tôi không thể có được dù tôi'
+-	R
+-	'có khao khát đến thế nào...!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Lady lau đi những giọt'
+-	R
+-	'nước mắt đang đọng trên mắt.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Cậu không nhớ chính xác'
+-	R
+-	'chuyện gì đã xảy ra sau khi'
+-	\L_07e59:
+-	ZH 1:
+-	'nói với vị thần điều'
+-	R
+-	'ước của mình phải không,'
+-	\L_07e59:
+-	ZH 1:
+-	'Chaos?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Ừ...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Tôi cũng vậy.'
+-	\L_07e59:
+-	ZH 1:
+-	'Nhưng điều đầu tiên'
+-	R
+-	'tôi nhớ là, tôi đang ở'
+-	R
+-	'trong một khu rừng...'
+-	\L_07e59:
+-	ZH 1:
+-	'Và tôi thấy mình phản'
+-	R
+-	'chiếu trong một dòng suối...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi vẫn nhớ đã mất bao lâu'
+-	R
+-	'để chấp nhận rằng hình dạng'
+-	R
+-	'tôi có bây giờ là tôi...'
+-	\L_07e59:
+-	ZH 1:
+-	'Sau đó tôi quay'
+-	R
+-	'lại chỗ mọi người...'
+-	\L_07e59:
+-	ZH 1:
+-	'Mọi thứ đã thay đổi...'
+-	\L_07e59:
+-	ZH 1:
+-	'Khi tôi đi'
+-	R
+-	'bộ qua thị trấn, mọi'
+-	R
+-	'người đều nhìn tôi.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rất nhiều người đàn'
+-	R
+-	'ông đã gọi điện cho tôi.'
+-	\L_07e59:
+-	ZH 1:
+-	'Trước đây chưa từng có'
+-	R
+-	'chuyện như vậy xảy ra với'
+-	\L_07e59:
+-	ZH 1:
+-	'tôi nên tôi đã ngu'
+-	R
+-	'ngốc chiều theo nó và quên'
+-	R
+-	'mất hoàn toàn tiếng Anh...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi rất vui... Tôi hẹn'
+-	R
+-	'hò với rất nhiều đàn ông...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi thậm'
+-	R
+-	'chí còn không nhớ mình đã'
+-	R
+-	'ngủ với bao nhiêu người...'
+-	\L_07e59:
+-	ZH 1:
+-	'... Nhưng có'
+-	R
+-	'gì đó không ổn...'
+-	\L_07e59:
+-	ZH 1:
+-	'Đàn ông chỉ thích khuôn'
+-	R
+-	'mặt và cơ thể của tôi...'
+-	\L_07e59:
+-	ZH 1:
+-	'Họ không quan tâm đến'
+-	R
+-	'con người thật của tôi...'
++	'Lúc ấy... khi được'
++	R
++	'thần hỏi điều ước, tôi'
++	R
++	'chẳng hề do dự......'
++	\L_07e59:
++	ZH 1:
++	'Thế giới hay ma nhân,'
++	R
++	'tôi đều mặc kệ......'
++	\L_07e59:
++	ZH 1:
++	'Tôi muốn thứ'
++	R
++	'mình không có...'
++	\L_07e59:
++	ZH 1:
++	'thứ dù khao khát đến mấy'
++	R
++	'cũng không có được...!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Lady khẽ lau giọt nước'
++	R
++	'mắt đọng nơi khóe mắt.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Ký ức sau khi nói'
++	R
++	'điều ước với thần...'
++	\L_07e59:
++	ZH 1:
++	'ông cũng không'
++	R
++	'nhớ rõ phải không,'
++	\L_07e59:
++	ZH 1:
++	'Chaos...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Ờ......'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Tôi cũng vậy...'
++	\L_07e59:
++	ZH 1:
++	'Nhưng khi tỉnh lại,'
++	R
++	'tôi đã ở trong rừng...'
++	\L_07e59:
++	ZH 1:
++	'rồi... bóng mình phản'
++	R
++	'chiếu trên mặt suối...'
++	\L_07e59:
++	ZH 1:
++	'Đến giờ tôi vẫn nhớ,'
++	R
++	'mất rất lâu tôi mới hiểu'
++	R
++	'hình dạng này là mình...'
++	\L_07e59:
++	ZH 1:
++	'Rồi tôi quay về'
++	R
++	'nơi có người...'
++	\L_07e59:
++	ZH 1:
++	'Mọi thứ đã khác......'
++	\L_07e59:
++	ZH 1:
++	'Đi trên phố, ai'
++	R
++	'cũng nhìn tôi.'
++	\L_07e59:
++	ZH 1:
++	'Rất nhiều đàn ông'
++	R
++	'bắt chuyện với tôi.'
++	\L_07e59:
++	ZH 1:
++	'Chưa từng gặp chuyện'
++	R
++	'như thế bao giờ, tôi...'
++	\L_07e59:
++	ZH 1:
++	'ngốc hơn nữa, mải được tâng'
++	R
++	'bốc đến quên cả British...'
++	\L_07e59:
++	ZH 1:
++	'Tôi đã hạnh phúc... Qua'
++	R
++	'lại với đủ loại đàn ông...'
++	\L_07e59:
++	ZH 1:
++	'Chẳng nhớ nổi đã ăn nằm'
++	R
++	'với bao nhiêu người...'
++	\L_07e59:
++	ZH 1:
++	'......Nhưng, không'
++	R
++	'phải vậy......'
++	\L_07e59:
++	ZH 1:
++	'Đàn ông chỉ thích khuôn mặt'
++	R
++	'và cơ thể tôi thôi......'
++	\L_07e59:
++	ZH 1:
++	'Họ đâu có yêu tôi...'
++	R
++	'con người thật, có'
++	R
++	'trái tim của tôi...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -6139,187 +5879,171 @@
+ 	\L_07e4c:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Một gia đình hoàng gia'
+-	R
+-	'đã giam giữ tôi. Ngày nào'
+-	R
+-	'họ cũng làm tình với tôi...'
+-	\L_07e59:
+-	ZH 1:
+-	'Không thể chết được,'
+-	R
+-	'họ giữ tôi suốt ba thế hệ...'
+-	\L_07e59:
+-	ZH 1:
+-	'Nhưng khi gia đình hoàng'
+-	R
+-	'gia đó sụp đổ, tôi đã được'
+-	R
+-	'một chiến binh giải cứu...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi đã nghĩ'
+-	R
+-	'hắn sẽ là người'
+-	R
+-	'duy nhất... Nhưng...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tất nhiên là như nhau'
+-	R
+-	'rồi... Anh nhốt tôi vào'
+-	R
+-	'căn lều không ai đến...'
+-	\L_07e59:
+-	ZH 1:
+-	'Để giữ tôi'
+-	R
+-	'cho riêng mình...'
+-	\L_07e59:
+-	ZH 1:
+-	'Kể cả sau đó, tôi'
+-	R
+-	'cũng gặp vô số khó khăn xoay'
+-	R
+-	'quanh ngoại hình của mình.'
+-	\L_07e59:
+-	ZH 1:
+-	'Vì thế tôi'
+-	R
+-	'tạo ra đoàn lữ hành này'
+-	R
+-	'để bảo vệ chính mình.'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi không còn tin'
+-	R
+-	'tưởng vào đàn ông nữa...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi không muốn giao phó'
+-	R
+-	'thân xác của mình cho họ...'
+-	\L_07e59:
+-	ZH 1:
+-	'Đó là lý'
+-	R
+-	'do tại sao tôi không bán'
+-	R
+-	'mình dù đã làm nhà thổ...'
+-	\L_07e59:
+-	ZH 1:
+-	'Nếu tôi quan'
+-	R
+-	'hệ tình dục, tôi muốn với'
+-	R
+-	'một người đàn ông thực sự,'
+-	\L_07e59:
+-	ZH 1:
+-	'người mà'
+-	R
+-	'tôi chấp nhận, không chỉ'
+-	R
+-	'là người chấp nhận tôi...'
+-	\L_07e59:
+-	ZH 1:
+-	'Chỉ một lần thôi...'
+-	\L_07e59:
+-	ZH 1:
+-	'Nhưng thời gian là một'
+-	R
+-	'thứ tàn nhẫn... Mọi thứ đều'
+-	R
+-	'thay đổi trước mắt tôi...'
+-	\L_07e59:
+-	ZH 1:
+-	'Bị bỏ lại'
+-	R
+-	'phía sau vì mình bất'
+-	R
+-	'tử... Thật kinh khủng...'
+-	\L_07e59:
+-	ZH 1:
+-	'... Chaos...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Vâng, cái gì?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Em có biết em không'
+-	R
+-	'thay đổi khiến anh thấy'
+-	R
+-	'nhẹ nhõm đến thế nào không?'
+-	\L_07e59:
+-	ZH 1:
+-	'Cậu trông khác nhưng'
+-	R
+-	'bên trong cậu vẫn vậy...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi rất vui vì tôi thực'
+-	R
+-	'sự có thể nói chuyện với ai'
+-	R
+-	'đó sau một thời gian dài...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi rất'
+-	R
+-	'hạnh phúc, Chaos...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi... Uu... Waah... Tôi'
+-	R
+-	'muốn quay lại ngày xưa...'
+-	\L_07e59:
+-	ZH 1:
+-	'Cậu... Ho'
+-	R
+-	'Raga... Nikkou...'
+-	R
+-	'Và... Và người Anh...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi muốn quay'
+-	R
+-	'lại thời điểm chúng ta'
+-	R
+-	'cùng nhau phiêu lưu...!!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Nước mắt chảy'
+-	R
+-	'ra từ mắt Lady và nàng'
+-	R
+-	'ôm Chaos vào ngực mình.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Này, đừng'
+-	R
+-	'khóc... Tôi biết điều đó'
+-	R
+-	'thật khó khăn, nhưng...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Uu... Wah... Hick...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Aah, anh cậu...'
+-	R
+-	'Đừng khóc... Ngu ngốc...'
++	'Có một dòng vương tộc'
++	R
++	'đã giam cầm tôi... rồi'
++	R
++	'ngày nào cũng ôm tôi...'
++	\L_07e59:
++	ZH 1:
++	'Tôi bất lão bất tử,'
++	R
++	'nên bị dòng vương tộc'
++	R
++	'ấy giữ qua ba đời...'
++	\L_07e59:
++	ZH 1:
++	'Nhưng khi vương tộc'
++	R
++	'đó sụp đổ, tôi được'
++	R
++	'một chiến binh cứu...'
++	\L_07e59:
++	ZH 1:
++	'Tôi tưởng chính người'
++	R
++	'này...... nhưng......'
++	\L_07e59:
++	ZH 1:
++	'rốt cuộc vẫn như nhau...'
++	R
++	'Người đó nhốt tôi vào túp'
++	R
++	'lều không ai lui tới...'
++	\L_07e59:
++	ZH 1:
++	'để giữ tôi làm của riêng...'
++	\L_07e59:
++	ZH 1:
++	'Sau đó nữa... bao lần'
++	R
++	'người ta tranh giành'
++	R
++	'nhau vì nhan sắc của tôi.'
++	\L_07e59:
++	ZH 1:
++	'Vì thế, để tự bảo vệ,'
++	R
++	'tôi lập ra thương đội.'
++	\L_07e59:
++	ZH 1:
++	'Tôi không tin'
++	R
++	'đàn ông nữa......'
++	\L_07e59:
++	ZH 1:
++	'Nên tôi không muốn giao'
++	R
++	'thân cho đàn ông nữa...'
++	\L_07e59:
++	ZH 1:
++	'Tôi lập nhà thổ, nhưng'
++	R
++	'không tự mình ra làm'
++	R
++	'hàng, cũng vì thế...'
++	\L_07e59:
++	ZH 1:
++	'Nếu phải để ai ôm...'
++	R
++	'thì không phải người'
++	R
++	'công nhận tôi...'
++	\L_07e59:
++	ZH 1:
++	'mà là một người đàn ông'
++	R
++	'thực thụ mà tôi công nhận...'
++	\L_07e59:
++	ZH 1:
++	'Chỉ một lần thôi......'
++	\L_07e59:
++	ZH 1:
++	'Vì... thời gian tàn nhẫn'
++	R
++	'lắm... mọi thứ đều đổi'
++	R
++	'thay trước mắt tôi...'
++	\L_07e59:
++	ZH 1:
++	'bỏ lại tôi, kẻ đã thành'
++	R
++	'bất lão bất tử... ác lắm...'
++	\L_07e59:
++	ZH 1:
++	'...Chaos...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Ờ, gì.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Ông... chẳng thay đổi'
++	R
++	'gì... Ông biết tôi nhẹ'
++	R
++	'nhõm thế nào không...?'
++	\L_07e59:
++	ZH 1:
++	'Hình dáng thì thành'
++	R
++	'ra thế kia... nhưng'
++	R
++	'bên trong vẫn vậy...'
++	\L_07e59:
++	ZH 1:
++	'Tôi vui lắm... lâu lắm'
++	R
++	'rồi mới được cãi nhau'
++	R
++	'thật lòng với ai đó...'
++	\L_07e59:
++	ZH 1:
++	'Vui lắm... Chaos......'
++	\L_07e59:
++	ZH 1:
++	'Tôi... hu... hức...'
++	R
++	'muốn quay về ngày xưa...'
++	\L_07e59:
++	ZH 1:
++	'Chaos... Ho Raga... cô'
++	R
++	'Nikkou... và, và British...'
++	\L_07e59:
++	ZH 1:
++	'Tôi muốn quay về hồi cùng'
++	R
++	'nhau đi khắp nơi...!!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Lady khóc lã chã,'
++	R
++	'ôm Chaos vào lòng.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Này này, đã bảo đừng khóc'
++	R
++	'mà... làm ta khó xử...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Hu... hức... hức...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'A... thật là... đừng khóc'
++	R
++	'nữa...... đồ ngốc......'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d96:
+@@ -6327,25 +6051,25 @@
+ 	\L_07d88:
+ 	\L_07d50:
+ 	ZH 1:
+-	'... Ta hiểu rồi... Đó'
+-	R
+-	'không phải là hạnh phúc...'
+-	R
+-	'Giờ ta cảm thấy thật tệ.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Bây giờ ta biết chuyện'
+-	R
+-	'gì đã xảy ra với ngươi.'
+-	\L_07e59:
+-	ZH 1:
+-	'Nhưng điều đó'
+-	R
+-	'không liên quan gì đến ta.'
+-	R
+-	'Hãy cho ta bức tượng vàng.'
++	'......Ra vậy... thế'
++	R
++	'thì đâu phải hạnh'
++	R
++	'phúc... Thấy tội cô quá.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Thôi... chuyện cô đã'
++	R
++	'trải qua, ta hiểu rồi.'
++	\L_07e59:
++	ZH 1:
++	'Nhưng chuyện đó với chuyện'
++	R
++	'này là hai việc khác.'
++	R
++	'Đưa tượng vàng cho ta.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -6353,143 +6077,141 @@
+ 	'............'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Được rồi... Vậy'
+-	R
+-	'cậu có thể nghe theo yêu'
+-	R
+-	'cầu của tôi được không?'
+-	\L_07e59:
+-	ZH 1:
+-	'Nếu cậu làm vậy, tôi'
+-	R
+-	'sẽ tặng cậu bức tượng vàng.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Chắc chắn rồi, nó là gì?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Tôi muốn trở lại cơ'
+-	R
+-	'thể ban đầu của mình.'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi không'
+-	R
+-	'cần sự bất tử... Tôi'
+-	R
+-	'không cần sắc đẹp...'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi muốn cơ thể mà'
+-	R
+-	'cha mẹ đã cho tôi...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Như vậy có hơi lãng phí...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Ờ...'
+-	\L_07e59:
+-	ZH 1:
+-	'Ôi chao!! Cậu không hiểu'
+-	R
+-	'bất cứ điều gì tôi nói cả!!'
+-	\L_07e59:
+-	ZH 1:
+-	'Nếu đúng như vậy, tôi'
+-	R
+-	'sẽ sử dụng Chaos và...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'H-Này, đừng vội thế!'
+-	R
+-	'Được rồi, được rồi...'
+-	\L_07e59:
+-	ZH 1:
+-	'Ta chỉ cần'
+-	R
+-	'đưa ngươi trở lại bình'
+-	R
+-	'thường thôi, phải không?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Đ-Ừ... Nếu có thể thì tôi'
+-	R
+-	'sẽ tặng cậu bức tượng vàng.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Được rồi, đó'
+-	R
+-	'là một lời hứa.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Được rồi...'
++	'Được rồi... vậy thì...'
++	R
++	'ngài nghe một điều ước'
++	R
++	'của tôi được không?'
++	\L_07e59:
++	ZH 1:
++	'Nếu ngài làm được, tôi'
++	R
++	'sẽ trao tượng vàng.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Ờ, gì nào?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Điều ước của tôi là'
++	R
++	'được trở về cơ thể cũ.'
++	\L_07e59:
++	ZH 1:
++	'Không cần bất lão bất tử...'
++	R
++	'không cần xinh đẹp......'
++	\L_07e59:
++	ZH 1:
++	'Chỉ cần cơ thể vốn có'
++	R
++	'cha mẹ đã cho tôi......'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Thế thì... hơi phí nhỉ...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Hu......'
++	\L_07e59:
++	ZH 1:
++	'Oa oa oa!! Vua Leazas'
++	R
++	'chẳng hiểu gì những'
++	R
++	'điều tôi nói cả!!'
++	\L_07e59:
++	ZH 1:
++	'Đã thế này thì,'
++	R
++	'tôi lấy Chaos mà...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'N... này, đừng làm liều!'
++	R
++	'Được rồi, được rồi......'
++	\L_07e59:
++	ZH 1:
++	'Biến cô lại như'
++	R
++	'cũ là được chứ gì?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Hức... ừ... nếu làm'
++	R
++	'được thì... lúc đó tôi'
++	R
++	'sẽ trao tượng vàng.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Được, hứa rồi đấy.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Ừ......'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07dc0:
+ 	ZH 1:
+-	'Nhưng thật'
+-	R
+-	'không may cho em, ta'
+-	R
+-	'chẳng mong đợi gì cả.'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi cũng sử dụng'
+-	R
+-	'đoàn lữ hành để tìm kiếm'
+-	R
+-	'thế giới để quay trở lại.'
+-	\L_07e59:
+-	ZH 1:
+-	'1500 năm đã trôi qua nhưng'
+-	R
+-	'tôi vẫn chưa tìm thấy gì...'
++	'Nhưng... xin lỗi Vua'
++	R
++	'Leazas... tôi không'
++	R
++	'mong đợi gì đâu...'
++	\L_07e59:
++	ZH 1:
++	'Tôi dẫn thương đội đi khắp'
++	R
++	'thế giới cũng là để tìm'
++	R
++	'cách trở lại như cũ...'
++	\L_07e59:
++	ZH 1:
++	'Đã 1500 năm... mà'
++	R
++	'chẳng có gì cả...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	@L_019d8:
+ *L_0678f:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Tiểu thư...'
+-	\L_07e59:
+-	ZH 1:
+-	'Cô nói nếu ta đưa cơ'
+-	R
+-	'thể cô trở lại bình thường,'
+-	\L_07e59:
+-	ZH 1:
+-	'cô sẽ đưa cho'
+-	R
+-	'ta bức tượng vàng...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'... Vâng.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Hiểu rồi. Ta sẽ làm'
+-	R
+-	'điều đó, hãy đi với ta.'
++	'Lady......'
++	\L_07e59:
++	ZH 1:
++	'cô nói nếu biến được'
++	R
++	'cơ thể cô lại như cũ'
++	\L_07e59:
++	ZH 1:
++	'thì sẽ trao tượng'
++	R
++	'vàng nhỉ......'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'......Vâng.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Được. Ta sẽ biến'
++	R
++	'lại cho, theo ta.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -6508,18 +6230,18 @@
+ 	\L_07df8:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Vua của Leazas, ngài'
+-	R
+-	'định đưa tôi đi đâu?'
++	'Vua Leazas, ngài định'
++	R
++	'đưa tôi đi đâu vậy?'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 1!
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Huhu, hãy im lặng và'
+-	R
+-	'đi cùng. Một nơi tốt.'
++	'Hừ hừ, cứ im lặng mà'
++	R
++	'theo ta. Chỗ hay lắm.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -6527,19 +6249,15 @@
+ 	'...'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Tôi chắc chắn rằng cậu'
+-	R
+-	'không nghĩ đến việc làm bất'
+-	\L_07e59:
+-	ZH 1:
+-	'cứ điều gì liên quan'
+-	R
+-	'đến tình dục phải không?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Vâng, không hề.'
++	'Ngài không nghĩ'
++	\L_07e59:
++	ZH 1:
++	'chuyện bậy bạ gì đấy chứ?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Ờ, không nghĩ đâu.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 0!
+@@ -6554,9 +6272,9 @@
+ 	ZH 1:
+ 	'［'
+ 	X 8:
+-	'］ Vua của'
+-	R
+-	'Leazas... Có gì ở đây à?'
++	'］ Vua Leazas...'
++	R
++	'chỗ này là gì vậy?'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 1!
+@@ -6575,29 +6293,27 @@
+ 		!VAR0485 : 0!
+ 		\L_07da4:
+ 		ZH 1:
+-		'... Vua của Leazas.'
++		'......Vua Leazas.'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07d34:
+ 		ZH 1:
+-		'Vâng, cái gì?'
++		'Ờ, gì?'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07da4:
+ 		ZH 1:
+-		'Thế là đủ rồi...'
+-		R
+-		'Tôi quay lại đây.'
++		'Đủ rồi...... Tôi về đây.'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07d34:
+ 		ZH 1:
+-		'À, chờ đã... Heeey.'
++		'A, khoan... ê này.'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07ddc:
+ 		ZH 1:
+-		'Phu nhân quay lại.'
++		'Lady bỏ về.'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 	}
+@@ -6618,23 +6334,21 @@
+ 	\L_07d88:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Đây... Tốt rồi.'
++	'Đây......... đây là được.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 86!
+ 	\L_07df8:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Ngục tối này là gì?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Nếu muốn lấy lại'
+-	R
+-	'cơ thể ban đầu của mình thì'
+-	R
+-	'hãy im lặng và đi cùng ta.'
++	'Mê cung này có gì sao?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Muốn trở về cơ thể cũ thì'
++	R
++	'im lặng mà theo bản đại gia.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -6644,23 +6358,23 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Cái gì, không đến à?'
++	'Gì, không đi à?'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07dc0:
+ 	ZH 1:
+-	'Phải chăng'
+-	R
+-	'anh ta đang định đưa tôi vào'
+-	R
+-	'ngục tối và hành hung tôi?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Nếu em không muốn thì ta'
+-	R
+-	'sẽ không đưa em đi, nhưng...'
++	'Không lẽ ngài định đưa'
++	R
++	'tôi vào mê cung rồi tấn'
++	R
++	'công tôi trong đó...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Không muốn thì'
++	R
++	'thôi vậy......'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -6668,7 +6382,7 @@
+ 	'............'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Được rồi, tôi sẽ đi cùng.'
++	'Được rồi, tôi sẽ đi theo.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -6683,16 +6397,16 @@
+ 	!VAR0485 : 0!
+ 	\L_07d34:
+ 	ZH 1:
+-	'Được rồi... Mùa'
+-	R
+-	'xuân này hãy đi.'
++	'Được... giờ thì,'
++	R
++	'xuống suối này đi.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 86!
+ 	\L_07df8:
+ 	\L_07da4:
+ 	ZH 1:
+-	'... Tôi...?'
++	'......Tôi sao......'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -6707,11 +6421,11 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Đây là Suối'
+-	R
+-	'Vô Nguyền, nó phá bỏ lời'
+-	R
+-	'nguyền. Bây giờ đi vào.'
++	'Đây là Suối giải nguyền,'
++	R
++	'dòng suối để hóa giải lời'
++	R
++	'nguyền. Nào, xuống đi.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -6721,48 +6435,46 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'Tiếp tục nào!'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Được rồi...'
++	'Nào nào!'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Phải rồi...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07dc0:
+ 	ZH 1:
+-	'Ừ... Mong chờ bất'
+-	R
+-	'cứ điều gì thì chỉ đau lòng'
+-	R
+-	'thôi... Mình không nên...'
+-	\L_07e59:
+-	ZH 1:
+-	'Hắn chỉ đang bắt mình tắm'
+-	R
+-	'rửa vì mình đang đổ mồ hôi.'
++	'Phải... vì mong đợi nên'
++	R
++	'mới đau khổ... không'
++	R
++	'mong đợi là được...'
++	\L_07e59:
++	ZH 1:
++	'Mình đổ mồ hôi rồi... coi'
++	R
++	'như xuống rửa cho trôi......'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07ddc:
+ 	ZH 1:
+-	'Phu nhân cởi quần áo và'
+-	R
+-	'từ từ nhúng chân vào suối.'
+-	\L_07e59:
+-	ZH 1:
+-	'Sau đó cô từ'
+-	R
+-	'từ hạ hông xuống.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Ừm...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'À...!!'
++	'Lady cởi đồ, chậm rãi'
++	R
++	'nhúng chân xuống suối.'
++	\L_07e59:
++	ZH 1:
++	'Rồi từ từ hạ người xuống.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Ưm......'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'A...!!'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0000 : 80!
+@@ -6772,21 +6484,21 @@
+ 	PW0 VAR0056:
+ 	\L_07d6c:
+ 	ZH 1:
+-	'Mùa xuân bừng sáng.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'À... Ối...'
++	'Mặt suối bừng sáng.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Á... chói mắt...'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07ddc:
+ 	ZH 1:
+-	'Rance nhắm'
+-	R
+-	'mắt lại để che chúng'
+-	R
+-	'khỏi ánh sáng chói lóa.'
++	'Ánh sáng chói đến'
++	R
++	'mức khó mở mắt, Rance'
++	R
++	'phải nhắm mắt lại.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d6c:
+@@ -6805,66 +6517,58 @@
+ 	\L_07e4c:
+ 	\L_07d34:
+ 	ZH 1:
+-	'C-Chuyện gì đã'
+-	R
+-	'xảy ra vậy...?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance dụi mắt trong'
+-	R
+-	'khi dần dần mở chúng ra.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'À... Tiểu thư đâu rồi...?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Ngay tại đây.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'... Hả?'
++	'Ch... chuyện gì rồi...?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Rance vừa dụi mắt'
++	R
++	'vừa cố mở mí ra.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'A... Lady đâu...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Đây này, đây này.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'......Hả?'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0516 : 87!
+ 	\L_07df8:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Vua của Leazas... tôi...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Nếu ngươi'
+-	R
+-	'gọi tôi là Vua của Leazas,'
+-	R
+-	'thì điều đó có nghĩa là...'
+-	\L_07e59:
+-	ZH 1:
+-	'Cô là... Quý cô!?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Ừ... Nhưng tại sao'
+-	R
+-	'cậu lại làm vẻ mặt đó...?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Hãy nhìn'
+-	R
+-	'vào hình ảnh phản chiếu'
+-	R
+-	'của ngươi trong mùa xuân!'
++	'Vua Leazas... tôi......'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Gọi ta là Vua'
++	R
++	'Leazas... vậy thì...'
++	\L_07e59:
++	ZH 1:
++	'cô... là Lady!?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Phải... nhưng sao ngài'
++	R
++	'lại làm vẻ mặt đó...?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Soi mặt xuống suối mà xem!'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+@@ -6875,227 +6579,213 @@
+ 	'... À...'
+ 	\L_07e59:
+ 	ZH 1:
+-	'À à...'
+-	\L_07e59:
+-	ZH 1:
+-	'Aaaaaaaaaaaa!! Tôi đã'
+-	R
+-	'trở lại bình thường rồi!!'
++	'A a......'
++	\L_07e59:
++	ZH 1:
++	'Aaaaaaa!! Trở lại'
++	R
++	'như cũ rồiiii!!'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07ddc:
+ 	ZH 1:
+-	'Khí phu nhân...'
+-	\L_07e59:
+-	ZH 1:
+-	'Đúng hơn, Café nhìn'
+-	R
+-	'thấy khuôn mặt, ngực,'
+-	\L_07e59:
+-	ZH 1:
+-	'tay và chân của nàng trong'
+-	R
+-	'hình ảnh phản chiếu, nàng'
+-	R
+-	'sờ soạng khuôn mặt của nàng.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Tôi rất vui mừng...!! Cảm'
+-	R
+-	'ơn vua của Leazas! Kyaaah!'
++	'Lady...'
++	\L_07e59:
++	ZH 1:
++	'không, Café nhìn khuôn'
++	R
++	'mặt in trên mặt suối,'
++	\L_07e59:
++	ZH 1:
++	'rồi ngực, tay, chân,'
++	R
++	'và tự sờ lên mặt mình.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Vui quá...!! Cảm ơn'
++	R
++	'ngài, Vua Leazas! Kyaaa!'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07ddc:
+ 	ZH 1:
+-	'Café chạy vào suối'
++	'Café lội bì bõm trong suối'
+ 	R
+ 	'như đứa trẻ nghịch nước.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07da4:
+ 	ZH 1:
+-	'Cảm ơn, Vua của Leazas!'
+-	\L_07e59:
+-	ZH 1:
+-	'Từ giờ trở đi tôi'
+-	R
+-	'sẽ tìm kiếm bất cứ hạnh'
+-	R
+-	'phúc nhỏ bé nào có thể!'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi sẽ tìm'
+-	R
+-	'được người nói rằng họ'
+-	R
+-	'thích tôi thực sự để yêu.'
+-	\L_07e59:
+-	ZH 1:
+-	'Điều đó không'
+-	R
+-	'tuyệt vời sao?'
++	'Cảm ơn ngài, Vua Leazas!'
++	\L_07e59:
++	ZH 1:
++	'Từ giờ, tôi sẽ đi tìm'
++	R
++	'một hạnh phúc nho nhỏ!'
++	\L_07e59:
++	ZH 1:
++	'Tôi sẽ yêu một người'
++	R
++	'đàn ông nói rằng yêu'
++	R
++	'con người thật của tôi.'
++	\L_07e59:
++	ZH 1:
++	'Tuyệt lắm phải không?'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07ddc:
+ 	ZH 1:
+-	'Café mỉm cười trong khi'
+-	R
+-	'nói cách xa Rance một chút.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Ta không biết điều'
+-	R
+-	'này có tốt hay không...'
+-	R
+-	'Ta cảm thấy mâu thuẫn...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'À, cũng...!!'
+-	\L_07e59:
+-	ZH 1:
+-	'Khi về đến nhà,'
+-	R
+-	'tôi sẽ tặng cậu bức'
+-	R
+-	'tượng vàng của tôi.'
+-	\L_07e59:
+-	ZH 1:
+-	'Tôi không muốn đưa nó cho'
+-	R
+-	'bất kỳ ai vì tôi nhận được'
+-	R
+-	'nó từ người Anh, nhưng...'
+-	\L_07e59:
+-	ZH 1:
+-	'Lời hứa là lời hứa.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Ừ, làm đi.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance đang ngồi'
+-	R
+-	'trên một tảng đá hơi cao'
+-	R
+-	'gần đó và nhìn vào Café.'
++	'Café vừa cười vừa nói vậy,'
++	R
++	'ở chỗ cách Rance một chút.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Thấy như tốt... mà cũng như'
++	R
++	'không tốt... rối rắm thật...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'À, còn nữa...!!'
++	\L_07e59:
++	ZH 1:
++	'Về đến nhà, tôi sẽ đưa ngài'
++	R
++	'bức tượng vàng của tôi.'
++	\L_07e59:
++	ZH 1:
++	'Nó là của British'
++	R
++	'tặng... nên tôi không'
++	R
++	'muốn trao cho ai...'
++	\L_07e59:
++	ZH 1:
++	'Nhưng hứa rồi mà.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Ờ, cứ thế đi.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Rance ngồi lên một'
++	R
++	'tảng đá hơi nhô cao'
++	R
++	'gần đó, nhìn Café.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d50:
+ 	ZH 1:
+-	'Chắc chắn là không nóng'
+-	R
+-	'bỏng như khi còn là Lady,'
+-	\L_07e59:
+-	ZH 1:
+-	'nhưng nàng có một'
+-	R
+-	'vẻ ngoài rất lanh lợi.'
+-	\L_07e59:
+-	ZH 1:
+-	'Vấn đề là gì?'
+-	\L_07e59:
+-	ZH 1:
+-	'Ngươi không bao giờ'
+-	R
+-	'biết được mọi người sẽ lo'
+-	R
+-	'lắng về điều gì... Thật đấy.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Vua của Leazas.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Vâng, cái gì?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Có lúc Café đã đến gần chân'
+-	R
+-	'Rance và mỉm cười với hắn'
+-	R
+-	'như một đứa trẻ tinh nghịch.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Vẫn muốn làm tình với tôi'
+-	R
+-	'như anh vẫn nói trước đây?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Ờ...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Ơ...'
+-	\L_07e59:
+-	ZH 1:
+-	'tôi đùa đấy.'
+-	\L_07e59:
+-	ZH 1:
+-	'Có lẽ khi tôi là Lady thì'
+-	R
+-	'ổn, nhưng cô bé đeo kính như'
+-	R
+-	'tôi không hợp với cậu đâu...'
+-	\L_07e59:
+-	ZH 1:
+-	'Vì ngay cả người phục'
+-	R
+-	'vụ của cậu cũng là một'
+-	R
+-	'phụ nữ xinh đẹp. Huhu...'
+-	\L_07e59:
+-	ZH 1:
+-	'Hả...?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance bước vào'
+-	R
+-	'suối và ôm lấy Café.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Ngươi không nóng bỏng'
+-	R
+-	'nhưng ngươi có sức quyến'
+-	R
+-	'rũ. Ta sẽ chết tiệt ngươi.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'... Hả...? Nhưng...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance cởi quần áo'
+-	R
+-	'của Café mà không đợi xem'
+-	R
+-	'nàng có đồng ý hay không.'
++	'Đúng là so với lúc còn là'
++	R
++	'Lady thì không đẹp bằng...'
++	\L_07e59:
++	ZH 1:
++	'nhưng trông tràn đầy'
++	R
++	'sức sống, cũng hay chứ.'
++	\L_07e59:
++	ZH 1:
++	'Con người ấy à...'
++	\L_07e59:
++	ZH 1:
++	'đúng là sinh vật khó hiểu,'
++	R
++	'chẳng biết sẽ nghĩ quẩn'
++	R
++	'chuyện gì... thật tình.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Vua Leazas.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Ờ, gì?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Café đến bên chân Rance'
++	R
++	'từ lúc nào, mỉm cười'
++	R
++	'như đứa trẻ sắp bày trò.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Như ngài từng nói... ngài'
++	R
++	'vẫn... muốn ôm tôi chứ?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Hể......'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Khúc khích...'
++	\L_07e59:
++	ZH 1:
++	'Đùa thôi.'
++	\L_07e59:
++	ZH 1:
++	'Lady thì còn được, chứ nhóc'
++	R
++	'kính cận bé tí này thì nhà'
++	R
++	'vua chẳng thèm đâu nhỉ...'
++	\L_07e59:
++	ZH 1:
++	'Đến thị nữ hầu cận'
++	R
++	'Vua Leazas cũng toàn'
++	R
++	'mỹ nhân. Fufu...'
++	\L_07e59:
++	ZH 1:
++	'Ơ......'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Rance bước xuống suối,'
++	R
++	'ôm chặt lấy Café.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Không xinh đẹp nhưng'
++	R
++	'quyến rũ lắm. Ta ôm đây.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'......Ơ...... nhưng mà......'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Chẳng để Café kịp nói gì,'
++	R
++	'Rance cởi phăng quần áo.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	{VAR0101 = 1:
+@@ -7104,31 +6794,31 @@
+ 		\L_07d88:
+ 		\L_07d34:
+ 		ZH 1:
+-		'Waaaaaaaaaaa!! Không'
++		'Khoaaaan đãaa!!'
+ 		R
+-		'phải Café!'
+-		\L_07e59:
+-		ZH 1:
+-		'Đợi đã, Rance, nàng'
++		'Café thì không được!'
++		\L_07e59:
++		ZH 1:
++		'Nó là của ta, khoan'
+ 		R
+-		'là của tôi!! Cho dù'
++		'đã, Rance!! Dù là cậu'
+ 		R
+-		'là anh, tôi... tôi...'
++		'đi nữa... ta... ta...'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07d34:
+ 		ZH 1:
+-		'Dwaaah!!'
++		'Ối trờiii!!!'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 		\L_07d96:
+ 		\L_07d6c:
+ 		ZH 1:
+-		'Rance đặt Chaos vào bao'
++		'Rance tra Chaos vào vỏ,'
+ 		R
+-		'kiếm, dùng áo choàng quấn'
++		'lấy áo choàng quấn tròn'
+ 		R
+-		'nó lại và ném nó đi.'
++		'mấy vòng rồi quăng đi.'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 	}
+@@ -7139,307 +6829,305 @@
+ 	SS 24:
+ 	\L_07e14:
+ 	ZH 1:
+-	'Café 「Vua của Leazas...」'
++	'Café 「Vua Leazas......」'
+ 	PF0 VAR0056:
+ 	\L_07e59:
+ *L_07313:
+ 	ZH 1:
+-	'Café nhìn chằm chằm vào Rance trước'
+-	R
+-	'mặt trong khi tim cô đập thình thịch.'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「À... Nghĩ lại thì...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Cái gì?」'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「Đây là lần đầu tiên tôi quan'
+-	R
+-	'hệ tình dục theo hình thức này...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Ta hiểu rồi... Lần đầu tiên'
+-	R
+-	'của ngươi? Thế thì ta sẽ nhẹ nhàng.」'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「À... Vua của Leazas...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance nhẹ nhàng ôm Café. Cô đón nhận'
+-	R
+-	'cái ôm của hắn với vẻ mặt phục tùng.'
++	'Café hồi hộp nhìn Rance đang ở ngay trước mặt.'
++	\L_07e59:
++	ZH 1:
++	'Café 「A... nhắc mới nhớ......」'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Gì?」'
++	\L_07e59:
++	ZH 1:
++	'Café 「Tôi... được đàn ông ôm trong'
++	R
++	'hình dạng này... là lần đầu......」'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Vậy à... lần đầu sao.'
++	R
++	'Thế thì ta sẽ nhẹ nhàng.」'
++	\L_07e59:
++	ZH 1:
++	'Café 「A... Vua Leazas......」'
++	\L_07e59:
++	ZH 1:
++	'Rance khẽ ôm Café. Café ngây'
++	R
++	'ngất đón nhận vòng tay của Rance.'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'Café 「À...」'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Khuôn mặt hắn từ từ tiến lại gần cô.'
+-	R
+-	'Café cũng đưa mặt lên nhắm mắt lại.'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「Ừm... Ừm...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Cơ thể Café cứng đờ và tay cô'
+-	R
+-	'run rẩy khi chạm vào môi Rance.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Ngươi thật dễ thương, Café...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Lưỡi của Rance rơi từ má Café xuống cổ nàng.'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「Không thể nào... Điều đó không đúng...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Đúng vậy... Nếu ta nói ngươi'
+-	R
+-	'dễ thương thì ngươi dễ thương.」'
++	'Gương mặt Rance chầm chậm tiến lại.'
++	R
++	'Café cũng từ từ ghé mặt, nhắm mắt.'
++	\L_07e59:
++	ZH 1:
++	'Café 「Ưm... ưư......」'
++	\L_07e59:
++	ZH 1:
++	'Khoảnh khắc môi Rance chạm vào,'
++	R
++	'người Café co lại, bàn tay run run.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Dễ thương lắm, Café......」'
++	\L_07e59:
++	ZH 1:
++	'Lưỡi Rance trượt từ má xuống cổ Café.'
++	\L_07e59:
++	ZH 1:
++	'Café 「Xạo... làm gì... có chuyện đó......」'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Không xạo đâu... Bản đại'
++	R
++	'gia nói dễ thương là dễ thương.」'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'Café 「À...!!」'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Rance đặt Café lên đầu gối của mình,'
+-	R
+-	'vùi mặt vào ngực cô, từ từ mò mẫm,'
+-	\L_07e59:
+-	ZH 1:
+-	'liếm chúng và đặt tay quanh mông cô.'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「À... Vua của Leazas... Vua của Leazas...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Chưa có ai từng dịu dàng với'
+-	R
+-	'tôi như vậy trước đây...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Một tiếng rên rỉ tách biệt khỏi vị'
+-	R
+-	'ngọt lẫn vào giọng điệu của Café.'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「Khi tôi còn là Quý cô, mọi người...'
+-	\L_07e59:
+-	ZH 1:
+-	'mọi người đều phát điên khi'
+-	R
+-	'nhìn thấy tôi khỏa thân...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Họ chỉ làm những gì họ muốn...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Này, đừng nhớ những thứ như thế nữa!」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance di chuyển các ngón tay của mình xung'
+-	\L_07e59:
+-	ZH 1:
+-	'quanh mông của Café và nhét một'
+-	R
+-	'ngón tay vào âm hộ của nàng.'
++	'Rance đặt Café lên đùi, vùi mặt vào ngực'
++	R
++	'nàng, chầm chậm mân mê bầu ngực, liếm láp,'
++	\L_07e59:
++	ZH 1:
++	'rồi vòng tay xuống mông nàng.'
++	\L_07e59:
++	ZH 1:
++	'Café 「A... Vua Leazas... Vua Leazas......'
++	\L_07e59:
++	ZH 1:
++	'Lần đầu tiên... có người dịu'
++	R
++	'dàng với tôi thế này......」'
++	\L_07e59:
++	ZH 1:
++	'Trong giọng Café ngoài vị ngọt'
++	R
++	'ngào còn lẫn tiếng nghẹn ngào.'
++	\L_07e59:
++	ZH 1:
++	'Café 「Ai cũng... ai cũng thế...'
++	R
++	'thấy Lady... thấy tôi khỏa thân'
++	\L_07e59:
++	ZH 1:
++	'là như phát điên...'
++	\L_07e59:
++	ZH 1:
++	'chỉ biết làm điều mình muốn......」'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Ê, đừng nhớ lại mấy chuyện đó nữa!」'
++	\L_07e59:
++	ZH 1:
++	'Rance vòng ngón tay từ phía mông,'
++	\L_07e59:
++	ZH 1:
++	'đưa ngón tay vào cánh hoa của Café.'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'Café 「Ahn!」'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Bên trong nàng đã ướt sũng rồi.'
+-	\L_07e59:
+-	ZH 1:
+-	'Café vẫn cứng đờ ôm chặt đầu Rance. Đôi'
+-	\L_07e59:
+-	ZH 1:
+-	'chân run rẩy của cô quấn quanh hông Rance.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Ồ... Tuyệt vời...'
+-	\L_07e59:
+-	ZH 1:
+-	'Chúng ta đang ở trong một con suối,'
+-	R
+-	'nên có lẽ là do nước hòa vào.」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance thử khuấy động ngón tay xung quanh cô.'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「À...!!... K-Không... Thực'
+-	R
+-	'ra tôi đang rất hứng thú...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「Tôi rất hứng thú vì cậu dịu dàng...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Café nhìn Rance với đôi mắt đẫm lệ.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Được rồi... Ta có'
+-	R
+-	'thể đặt cái khác vào không?」'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「... Tiếp đi...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Café bám chặt vào cổ Rance để đáp trả.'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「... Hãy dịu dàng... Hãy nhẹ nhàng hơn...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Được rồi, để đó cho ta!! Gahahahaha!!!!」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance xoay Café để lưng cô quay về phía'
+-	R
+-	'hắn và dùng tay hắn nâng mông cô lên cao.'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「À... Không... Thật xấu hổ...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Đừng lo lắng về điều đó.」'
+-	\L_07e59:
+-	ZH 1:
+-	'Hắn đặt siêu vũ khí của mình vào'
+-	R
+-	'âm hộ của cô và hạ hông xuống.'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「Ừm... Uuu...!!」'
+-	\L_07e59:
+-	ZH 1:
+-	'Cơ thể của Café rung lên mạnh mẽ và'
+-	R
+-	'một tiếng rên lớn thoát ra khỏi môi cô.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Rên hay đấy, Café. Và mông'
+-	R
+-	'của ngươi cũng có hình dáng đẹp nữa.」'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「... Yah...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Toàn bộ cơ thể của Café phản ứng'
+-	\L_07e59:
+-	ZH 1:
+-	'với lời nói của Rance và nàng siết'
+-	R
+-	'chặt cự vật của Rance bên trong mình.'
++	'Bên trong Café đã ướt mềm như tan chảy.'
++	\L_07e59:
++	ZH 1:
++	'Café co người lại, ôm chặt đầu Rance. Đôi'
++	\L_07e59:
++	ZH 1:
++	'chân run rẩy quấn lấy hông hắn.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Oa... ghê thật...'
++	\L_07e59:
++	ZH 1:
++	'Đang ở dưới suối... nên lẫn cả nước à?」'
++	\L_07e59:
++	ZH 1:
++	'Rance thử xoay xoay ngón'
++	R
++	'tay vừa trượt vào dễ dàng.'
++	\L_07e59:
++	ZH 1:
++	'Café 「A...!! K... không phải... Là'
++	R
++	'vì... tôi đang thấy rất sướng...」'
++	\L_07e59:
++	ZH 1:
++	'Café 「Vua Leazas dịu dàng quá... nên'
++	R
++	'tôi... tôi... chỉ thế thôi đã...」'
++	\L_07e59:
++	ZH 1:
++	'Café rưng rưng nhìn Rance.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Được... vậy giờ cho vào được chưa?」'
++	\L_07e59:
++	ZH 1:
++	'Café 「......Ừ...」'
++	\L_07e59:
++	ZH 1:
++	'Đáp xong, Café bám chặt lấy cổ Rance.'
++	\L_07e59:
++	ZH 1:
++	'Café 「......Nhẹ nhàng...'
++	R
++	'nhẹ nhàng hơn nữa nhé...」'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Ờ, cứ giao cho bản'
++	R
++	'đại gia!! Gahahahahaha!!!!」'
++	\L_07e59:
++	ZH 1:
++	'Rance xoay Café quay lưng lại,'
++	R
++	'dùng tay nâng mông nàng lên cao.'
++	\L_07e59:
++	ZH 1:
++	'Café 「A... không... ngượng lắm......」'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Có sao đâu, có sao đâu.」'
++	\L_07e59:
++	ZH 1:
++	'Rồi hắn kề siêu vũ khí vào'
++	R
++	'cánh hoa, ấn mạnh hông xuống.'
++	\L_07e59:
++	ZH 1:
++	'Café 「Ưm... ưư...!!」'
++	\L_07e59:
++	ZH 1:
++	'Người Café run lên dữ dội,'
++	R
++	'một tiếng rên cao vút bật ra.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Tiếng rên hay lắm, Café.'
++	R
++	'Mà mông cô cũng đẹp dáng đấy.」'
++	\L_07e59:
++	ZH 1:
++	'Café 「......Đừng......」'
++	\L_07e59:
++	ZH 1:
++	'Trước lời Rance, toàn thân Café phản ứng,'
++	\L_07e59:
++	ZH 1:
++	'siết chặt lấy vật của Rance bên trong.'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'Café 「À...!!」'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Khi hông của Rance bắt đầu di chuyển từ từ,'
+-	\L_07e59:
+-	ZH 1:
+-	'Café rên rỉ và bắt đầu tự mình di chuyển hông.'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「Vua của Leazas... Ah... Ah...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Café lảo đảo đưa tay cho Rance như người mộng du.'
++	'Hông Rance bắt đầu chầm chậm chuyển động,'
++	\L_07e59:
++	ZH 1:
++	'Café bật rên, rồi chính'
++	R
++	'nàng cũng bắt đầu lắc hông.'
++	\L_07e59:
++	ZH 1:
++	'Café 「Vua Leazas... a... a...」'
++	\L_07e59:
++	ZH 1:
++	'Như người mộng du, Café chới'
++	R
++	'với đưa tay về phía Rance.'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'Café 「À...」'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Rance nắm lấy tay nàng.'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「À... Vua của Leazas... À... Ahn!」'
+-	\L_07e59:
+-	ZH 1:
+-	'Cơ thể Café rung lắc dữ dội. Nàng đã lên đỉnh.'
++	'Rance nắm lấy bàn tay ấy.'
++	\L_07e59:
++	ZH 1:
++	'Café 「A... Vua Leazas... a... ahn!」'
++	\L_07e59:
++	ZH 1:
++	'Người Café run lên mạnh mẽ. Nàng đã lên đỉnh.'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'Café 「À...」'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Sự căng thẳng quá mức thoát ra khỏi cơ thể Café.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Ta vẫn chưa xong, nên'
+-	R
+-	'hãy để ta tiếp tục. Được chứ?」'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「O-Được rồi...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Café nhắm mắt lại và lắc hông đồng'
+-	R
+-	'bộ với Rance một cách đáng ngưỡng mộ.'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「Mm... Ah... Ahn... Ah!」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance nhặt Café lên và xoay cơ thể'
+-	R
+-	'nhỏ nhắn của nàng về phía trước.'
++	'Cơ thể Café thả lỏng hẳn.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Ta thì chưa xong đâu,'
++	R
++	'nên cho ta làm tiếp. Được chứ?」'
++	\L_07e59:
++	ZH 1:
++	'Café 「V... vâng......」'
++	\L_07e59:
++	ZH 1:
++	'Café nhắm mắt, ngoan ngoãn'
++	R
++	'lắc hông theo nhịp của Rance.'
++	\L_07e59:
++	ZH 1:
++	'Café 「Ưm...... a... ahn...... a!」'
++	\L_07e59:
++	ZH 1:
++	'Rance ôm Café lên, xoay thân hình nhỏ'
++	R
++	'nhắn của nàng quay mặt về phía mình.'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'Café 「À...」'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Mắt Café ươn ướt. Đôi môi ẩm ướt, bóng'
+-	R
+-	'mượt của cô thu hút sự chú ý của Rance.'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Ngươi thật sự rất dễ thương...'
+-	R
+-	'Rất thú vị.」'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「À...! Aa!」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance lắc Café lên xuống một cách thô'
+-	\L_07e59:
+-	ZH 1:
+-	'bạo và di chuyển siêu vũ khí của hắn ra vào.'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「À... Vua của Leazas... Ah... Aah...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Café đặt tay lên vai Rance'
+-	R
+-	'để hắn di chuyển dễ dàng hơn.'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「À... Ừm... Ừm...!」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Sẽ xuất hiện... Café...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Café 「Được rồi... Vua của Leazas... Ah...」'
+-	\L_07e59:
+-	ZH 1:
+-	'Rance 「Lấy cái này đi!!」'
++	'Đôi mắt Café long lanh. Đôi môi ướt'
++	R
++	'át bóng mọng cứ thế đập vào mắt Rance.'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Dễ thương thật đấy... phê quá đi.」'
++	\L_07e59:
++	ZH 1:
++	'Café 「A...! A a!」'
++	\L_07e59:
++	ZH 1:
++	'Rance nhấc Café lên xuống dồn dập,'
++	\L_07e59:
++	ZH 1:
++	'cho siêu vũ khí ra vào liên hồi.'
++	\L_07e59:
++	ZH 1:
++	'Café 「A... Vua Leazas... a... a ư...」'
++	\L_07e59:
++	ZH 1:
++	'Café đặt tay lên vai Rance cho hắn dễ cử động.'
++	\L_07e59:
++	ZH 1:
++	'Café 「Ahư, ưm... ưmm...!」'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Ra đây... Café......」'
++	\L_07e59:
++	ZH 1:
++	'Café 「Ừ... Vua Leazas... a...」'
++	\L_07e59:
++	ZH 1:
++	'Rance 「Hây aaa!!」'
+ 	\L_07e59:
+ 	ZH 1:
+ 	'Café 「Ừm...!!」'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Rance lên đến đỉnh điểm bên trong Café.'
++	'Rance lên đỉnh bên trong Café.'
+ 	\L_07e59:
+ 	{VAR0520 = 302:
+ 		%0:
+@@ -7458,137 +7146,125 @@
+ 	\L_07d6c:
+ 	ZM 32:
+ 	ZH 1:
+-	'Mùa xuân không lời'
+-	R
+-	'nguyền'
++	'Suối giải nguyền'
+ 	\L_07e59:
+ 	ZM 24:
+ 	ZH 1:
+-	'Rance đang ngồi dưới suối'
+-	R
+-	'với Café quỳ trên đầu gối.'
+-	\L_07e59:
+-	ZH 1:
+-	'Café kiệt sức và'
+-	R
+-	'nằm tựa vào người Rance.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Tôi hạnh phúc...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Về việc quan hệ'
+-	R
+-	'tình dục với ta?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Ừ... Đây là lần'
+-	R
+-	'đầu tiên tôi thấy vui đến'
+-	R
+-	'thế khi quan hệ tình dục...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Gahahahaha! Tất'
+-	R
+-	'nhiên rồi. Kể từ khi'
+-	R
+-	'ngươi làm điều đó với ta.'
+-	\L_07e59:
+-	ZH 1:
+-	'Ngoài ra, Café.'
+-	R
+-	'Ngươi đã tốt.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Trời ạ...'
+-	\L_07e59:
+-	ZH 1:
+-	'Đừng nói với tôi những'
+-	R
+-	'điều như thế sau khi mọi'
+-	R
+-	'chuyện kết thúc, đồ ngốc...'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Ồ vâng, đúng vậy. Café.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'Cái gì...?'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Ngươi thực sự không'
+-	R
+-	'còn việc gì khác để làm phải'
+-	R
+-	'không? Tham gia cùng ta.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'... Nếu ngài'
+-	R
+-	'muốn, Vua của Leazas, thì'
+-	R
+-	'tôi sẽ hợp tác với ngài.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d34:
+-	ZH 1:
+-	'Ngoài ra, hãy vào hậu'
+-	R
+-	'cung của ta. Ta sẽ đụ ngươi'
+-	R
+-	'bất cứ khi nào ngươi muốn.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'... Tôi rất vui'
+-	R
+-	'với lời đề nghị này,'
+-	R
+-	'nhưng tôi từ chối.'
+-	\L_07e59:
+-	ZH 1:
+-	'Như tôi đã nói trước đây,'
+-	R
+-	'tôi muốn tìm kiếm một niềm'
+-	R
+-	'hạnh phúc nho nhỏ nào đó...'
+-	\L_07e59:
+-	ZH 1:
+-	'Anh có rất nhiều phụ'
+-	R
+-	'nữ... Nếu tôi ở trong số họ,'
+-	R
+-	'tôi sẽ lại cảm thấy tự ti...'
+-	\L_07e59:
+-	ZH 1:
+-	'Thế nên không... Tôi'
+-	R
+-	'sẽ đợi cho đến khi người chỉ'
++	'Rance ngồi xuống trong'
++	R
++	'suối, đặt Café lên đùi.'
++	\L_07e59:
++	ZH 1:
++	'Café mềm nhũn, tựa'
++	R
++	'cả người vào Rance.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Vui quá......'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Vì được bản đại gia ôm à?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Ừ...... được đàn ông'
++	R
++	'ôm mà vui đến thế'
++	R
++	'này... là lần đầu......'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Gahahahahaha. Đương'
++	R
++	'nhiên rồi. Vì đối phương'
++	R
++	'là bản đại gia mà.'
++	\L_07e59:
++	ZH 1:
++	'Còn nữa, Café. Cô'
++	R
++	'cũng tuyệt lắm.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Thật là...'
++	\L_07e59:
++	ZH 1:
++	'Xong rồi mới nói'
++	R
++	'thế... đồ ngốc...'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Ồ, phải rồi. Café.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'Gì vậy...?'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Đằng nào cô cũng chẳng'
++	R
++	'có việc gì khác làm nhỉ?'
++	R
++	'Làm thuộc hạ của ta đi.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'......Nếu Vua Leazas muốn...'
++	R
++	'tôi xin được hợp tác.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d34:
++	ZH 1:
++	'Thêm nữa, vào hậu cung của'
++	R
++	'ta. Lúc nào ta cũng ôm cô.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'......Tấm lòng thì tôi'
++	R
++	'xin nhận... Tôi vui lắm,'
++	R
++	'nhưng... tôi xin thôi.'
++	\L_07e59:
++	ZH 1:
++	'Như tôi vừa nói... tôi muốn'
++	R
++	'tìm một hạnh phúc nho nhỏ...'
++	\L_07e59:
++	ZH 1:
++	'Vua Leazas có rất nhiều'
++	R
++	'phụ nữ bên cạnh... Vào'
++	R
++	'đó, tôi lại mặc cảm mất...'
++	\L_07e59:
++	ZH 1:
++	'Nên không được... tôi sẽ'
++	R
++	'đợi... đến khi người chỉ'
+ 	R
+ 	'yêu mình tôi xuất hiện...'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Không vội vàng.'
++	'Từ từ, không vội.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	\L_07d34:
+@@ -7596,26 +7272,24 @@
+ 	'.........'
+ 	\L_07e59:
+ 	ZH 1:
+-	'Được rồi, hãy làm'
+-	R
+-	'những gì ngươi muốn.'
+-	\L_07e59:
+-	ZH 1:
+-	'Hãy quan hệ lần'
+-	R
+-	'cuối cùng trước đó nhé.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07da4:
+-	ZH 1:
+-	'... Được rồi.'
+-	\L_07e59:
+-	\L_07e4c:
+-	\L_07d6c:
+-	ZH 1:
+-	'Rance và Café'
+-	R
+-	'lại đổ lên nhau.'
++	'Được rồi, tùy cô.'
++	\L_07e59:
++	ZH 1:
++	'Trước đó làm thêm một'
++	R
++	'phát nữa đi, phát cuối.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07da4:
++	ZH 1:
++	'......Vâng.'
++	\L_07e59:
++	\L_07e4c:
++	\L_07d6c:
++	ZH 1:
++	'Rance và Café lại'
++	R
++	'quấn lấy nhau.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	{VAR0101 = 1:
+@@ -7625,60 +7299,60 @@
+ 		\L_07d88:
+ 		\L_07d34:
+ 		ZH 1:
+-		'Chết tiệt... Cuối'
++		'Khốn thật... cuối cùng'
+ 		R
+-		'cùng cũng xảy ra à...?'
+-		\L_07e59:
+-		ZH 1:
+-		'Café...'
+-		\L_07e59:
+-		ZH 1:
+-		'... Nah...'
++		'cũng bị làm rồi à...'
++		\L_07e59:
++		ZH 1:
++		'Café......'
++		\L_07e59:
++		ZH 1:
++		'......Không... có khi'
+ 		R
+-		'Có lẽ thế này ổn... Giờ tôi'
++		'thế lại hay... Giờ ta'
+ 		R
+-		'đã có được cơ thể này rồi...'
+-		\L_07e59:
+-		ZH 1:
+-		'Và có lẽ Café'
++		'mang cái thân thế này...'
++		\L_07e59:
++		ZH 1:
++		'Mà có lẽ Café'
+ 		R
+-		'chưa để ý, nhưng...'
+-		\L_07e59:
+-		ZH 1:
+-		'Tôi chắc'
++		'chưa nhận ra...'
++		\L_07e59:
++		ZH 1:
++		'nhưng quả thật ta đã thay'
+ 		R
+-		'chắn đã thay đổi...cả về'
++		'đổi... cả thân... lẫn tâm...'
++		\L_07e59:
++		ZH 1:
++		'Ta là ma kiếm...'
+ 		R
+-		'thể xác lẫn tinh thần...'
+-		\L_07e59:
+-		ZH 1:
+-		'Tôi là Thanh kiếm'
++		'chẳng còn trái tim của'
+ 		R
+-		'hư hỏng... Tôi không còn'
++		'con người nữa......'
++		\L_07e59:
++		ZH 1:
++		'Thế thì... cô thân'
+ 		R
+-		'linh hồn con người nữa...'
+-		\L_07e59:
+-		ZH 1:
+-		'Vậy có lẽ tốt nhất là'
++		'thiết với tên đó là'
+ 		R
+-		'cậu nên đi cùng hắn, Café...'
++		'tốt nhất... Café...'
+ 		\L_07e59:
+ 		ZH 1:
+ 		'Lần sau đừng làm'
+ 		R
+-		'điều gì ngu ngốc nữa'
++		'chuyện ngu ngốc nữa'
+ 		R
+-		'nhé cô bé đeo kính...'
++		'đấy... nhóc kính cận...'
+ 		\L_07e59:
+ 		\L_07e4c:
+ 	}
+ 	\L_07d6c:
+ 	ZH 1:
+-	'Vì vậy, Café đã'
+-	R
+-	'dẫn đầu Carfeknights của'
+-	R
+-	'mình và gia nhập Rance.'
++	'Thế là Café dẫn theo'
++	R
++	'thuộc hạ Carfeknight, gia'
++	R
++	'nhập dưới trướng Rance.'
+ 	\L_07e59:
+ 	\L_07e4c:
+ 	!VAR0365 : 20!

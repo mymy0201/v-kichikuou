@@ -1,0 +1,603 @@
+--- before/Cﾒｲｷｭｳ.ADV
++++ src/Cﾒｲｷｭｳ.ADV
+@@ -265,30 +265,30 @@
+ 	\L_0755b:
+ 	ZH 1:
+ 	$L_008d1$
+-	'Bắt đầu tìm kiếm'
++	'Bắt đầu thám hiểm'
+ 	$
+ 	{(VAR0486 = 1) * (VAR0480 = 0):
+ 		ZH 1:
+ 		$L_072b8$
+-		'Mang theo Merim'
++		'Dẫn Merim theo'
+ 		$
+ 	}
+ 	{(VAR0486 = 1) * (VAR0480 = 1):
+ 		ZH 1:
+ 		$L_07344$
+-		'Rời khỏi Merim'
++		'Để Merim ở lại'
+ 		$
+ 	}
+ 	{(VAR0162 = 10) * (VAR0147 = 2) * (VAR0401 = 7):
+ 		ZH 1:
+ 		$L_0712e$
+-		'Mang theo con bò hồng'
++		'Dẫn bò hồng theo'
+ 		$
+ 	}
+ 	{(VAR0162 = 30) * (VAR0487 \ 0):
+ 		ZH 1:
+ 		$L_05437$
+-		'Cửa Thiên Chúa'
++		'Cửa Thần'
+ 		$
+ 	}
+ 	ZH 1:
+@@ -324,9 +324,9 @@
+ 	'Vâng...'
+ 	\L_076a4:
+ 	ZH 1:
+-	'Xin bệ hạ chọn đơn vị đi'
+-	R
+-	'thám hiểm.'
++	'Xin Bệ hạ chọn đơn'
++	R
++	'vị đi thám hiểm.'
+ 	\L_076a4:
+ 	\L_07697:
+ 	!VAR0021 : 1!
+@@ -652,7 +652,7 @@
+ 	ZH 1:
+ 	$L_01127$
+ 	H 0, VAR0148:
+-	'F Bật'
++	'F trở đi'
+ 	$
+ 	R
+ 	$L_0111d$
+@@ -876,30 +876,30 @@
+ 	{(VAR0483 = 1) * (VAR0481 \ 1):
+ 		ZH 1:
+ 		$L_01c0a$
+-		'Đi lên (bấm lên)'
++		'Leo lên'
+ 		$
+ 	}
+ 	{(VAR0483 = 2) * (VAR0481 < VAR0482):
+ 		ZH 1:
+ 		$L_01982$
+-		'Đi lên (bấm lên)'
++		'Đi lên'
+ 		$
+ 	}
+ 	{(VAR0483 = 2) * (VAR0481 \ 1):
+ 		ZH 1:
+ 		$L_01c0a$
+-		'Đi xuống (bấm xuống)'
++		'Đi xuống'
+ 		$
+ 	}
+ 	{(VAR0483 = 1) * (VAR0481 < VAR0482):
+ 		ZH 1:
+ 		$L_01982$
+-		'Đi xuống (bấm xuống)'
++		'Xuống dưới'
+ 		$
+ 	}
+ 	ZH 1:
+ 	$L_0181c$
+-	'Rút lui'
++	'Thoát khẩn cấp'
+ 	$
+ 	]
+ 	@L_016b4:
+@@ -946,7 +946,7 @@
+ 	$
+ 	R
+ 	$L_018c3$
+-	'Tiếp tục đi'
++	'Tiếp tục'
+ 	$
+ 	]
+ 	]
+@@ -963,11 +963,11 @@
+ 	}
+ 	ZH 1:
+ 	$L_018cd$
+-	'Kết thúc tìm kiếm'
++	'Kết thúc thám hiểm'
+ 	$
+ 	R
+ 	$L_018c3$
+-	'Tiếp tục đi'
++	'Tiếp tục'
+ 	$
+ 	]
+ *L_018c3:
+--- before/Gｱﾘｽ2.ADV
++++ src/Gｱﾘｽ2.ADV
+@@ -2907,49 +2907,47 @@
+ 	!VAR0658 : 1!
+ 	\L_05a0f:
+ 	ZH 1:
+-	'Cho ta gặp'
+-	R
+-	'“Cô gái chăn bò”.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Ờ. Đã hiểu.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'... Đợi một chút.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Rance dừng Naritaya khi'
+-	R
+-	'hắn chuẩn bị rung chuông.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Cow girl là phiên'
+-	R
+-	'bản con gái của những'
+-	R
+-	'thứ “Mya～”, phải không?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Không, không.'
+-	R
+-	'Làm ơn thư giãn đi.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Naritaya hướng dẫn'
+-	R
+-	'Rance đến “phòng khách”.'
++	'Cho ta gặp «cô gái bò».'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Vâng, tôi hiểu rồi.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'...Chờ chút.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Rance ngăn Naritaya khi ông'
++	R
++	'ta định rung chuông gọi.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Cô gái bò... Đừng'
++	R
++	'bảo là bản nữ của cái'
++	R
++	'thứ kêu «mya~» nhé?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Không, không phải'
++	R
++	'đâu. Ngài cứ yên tâm.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Naritaya dẫn Rance tới'
++	R
++	'«phòng tiếp khách».'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	!VAR0516 : 0!
+@@ -2962,69 +2960,61 @@
+ 	\L_05ad3:
+ 	\L_05a47:
+ 	ZH 1:
+-	'Đó là một căn phòng'
+-	R
+-	'trông rất giống phòng ngủ'
+-	R
+-	'của Rance ở Lâu đài Leazas.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Gần đây, thiết'
+-	R
+-	'kế nội thất đã được'
+-	R
+-	'chuẩn hóa khá nhiều.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Naritaya rung'
+-	R
+-	'chiếc chuông trên tay.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Thật hèn hạ, thật hèn'
+-	R
+-	'hạ! Đến đây một chút! Hãy tỏ'
+-	R
+-	'lòng hiếu khách với nhà vua!'
++	'Căn phòng được bài trí'
++	R
++	'rất giống phòng ngủ của'
++	R
++	'Rance ở thành Leazas.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Kiểu nội thất này'
++	R
++	'đang thịnh hành đấy ạ.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Naritaya rung chiếc chuông'
++	R
++	'trong tay, leng keng.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Cowly, Cowly! Lại đây'
++	R
++	'nào! Ra tiếp đãi Bệ hạ!'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05ae1:
+ 	\L_05a7f:
+ 	ZH 1:
+-	'（O-Được Rồi...）'
+-	R
+-	'cô gái bò tên Cowly'
+-	R
+-	'rụt rè đến gần Rance.'
++	'(V-vââng...) Cô gái'
++	R
++	'bò tên Cowly rụt'
++	R
++	'rè tới trước Rance.'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	!VAR0516 : 359!
+ 	\L_05ad3:
+ 	\L_05a7f:
+ 	ZH 1:
+-	'Y-Bệ hạ, chào'
+-	R
+-	'mừng. M-tên Tôi Là Cowly.'
+-	R
+-	'Tôi hy vọng chúng tôi...'
+-	\L_05b34:
+-	ZH 1:
+-	'hòa hợp với nhau...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Cowly có vẻ xấu hổ'
+-	R
+-	'khi giới thiệu bản thân'
+-	R
+-	'bằng một giọng khó nghe.'
++	'B-Bệ hạ, kính chào ngài.'
++	R
++	'T-tôi là Cowly. Mong được...'
++	\L_05b34:
++	ZH 1:
++	'ngài chiếu cố...'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Cowly thẹn thùng chào, giọng'
++	R
++	'nhỏ gần như không nghe thấy.'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05ae1:
+@@ -3032,16 +3022,14 @@
+ 	\L_05ad3:
+ 	\L_05a7f:
+ 	ZH 1:
+-	'Hãy tận hưởng đi...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Một nụ cười đầy ý nghĩa hiện'
+-	R
+-	'lên trên khuôn mặt Naritaya'
+-	R
+-	'và anh rời khỏi phòng.'
++	'Vậy xin ngài cứ thong thả...'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Naritaya nở nụ cười đầy'
++	R
++	'ẩn ý rồi ra khỏi phòng.'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05ae1:
+@@ -3049,9 +3037,9 @@
+ 	\L_05ad3:
+ 	\L_05a7f:
+ 	ZH 1:
+-	'U-Um, tôi sẽ pha trà'
+-	R
+-	'ngay bây giờ, vì vậy...'
++	'T-thưa ngài, tôi sẽ'
++	R
++	'mang trà ra ngay...'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a47:
+--- before/Gｶﾞﾝｼﾞｰ.ADV
++++ src/Gｶﾞﾝｼﾞｰ.ADV
+@@ -35,14 +35,14 @@
+ 	\L_05707:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Leazas'
++	'Thành Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+ 	'Phòng yết kiến'
+ 	R
+-	'Rance triệu Tập Gandhi.'
++	'Rance triệu Gandhi tới.'
+ 	\L_057f4:
+ 	\L_057e7:
+ 	!VAR0516 : 42!
+@@ -60,20 +60,20 @@
+ 	{VAR0690 = 1:
+ 		\L_0573f:
+ 		ZH 1:
+-		'Thưa bệ hạ Rance... Thật'
+-		R
+-		'mừng khi thấy hôm nay ngài'
+-		R
+-		'vẫn mạnh khỏe.'
++		'Thưa Bệ hạ Rance...'
++		R
++		'Thật mừng vì hôm nay'
++		R
++		'ngài vẫn mạnh khỏe.'
+ 		\L_057f4:
+ 		\L_057e7:
+ 		\L_056cf:
+ 		ZH 1:
+-		'Ồn quá, đừng cố dùng từ khó'
+-		R
+-		'hiểu. Ta không thích kiểu'
+-		R
+-		'khách sáo ấy.'
++		'Ồn quá, đừng cố dùng'
++		R
++		'từ khó. Ta không thích'
++		R
++		'kiểu hình thức ấy.'
+ 		\L_057f4:
+ 		\L_057e7:
+ 		\L_0573f:
+@@ -89,65 +89,63 @@
+ 		\L_057e7:
+ 		\L_056cf:
+ 		ZH 1:
+-		'Chính cái đó. Ta đang thắc'
+-		R
+-		'mắc về nó.'
++		'Cái đó. Ta đang'
++		R
++		'thắc mắc về cái đó.'
+ 		\L_057f4:
+ 		\L_057e7:
+ 		\L_05707:
+ 		ZH 1:
+-		'Rance dùng mũi chân chỉ vào'
+-		R
+-		'vai Gandhi đang quỳ. Con'
+-		R
+-		'chim đó là gì?'
++		'Rance lấy mũi chân chỉ'
++		R
++		'vai Gandhi đang quỳ.'
++		R
++		'Con chim ấy là gì?'
+ 		\L_057f4:
+ 		\L_057e7:
+ 		\L_0573f:
+ 		ZH 1:
+-		'À, đây là loài chim Mach'
+-		R
+-		'Piyo... Nó tên Yashichi.'
++		'À, loài chim này gọi là Mach'
++		R
++		'Piyo... Tên nó là Yashichi.'
+ 		\L_057f4:
+ 		\L_057e7:
+ 		\L_056cf:
+ 		ZH 1:
+-		'Một mach piyo?'
++		'Mach Piyo?'
+ 		\L_057f4:
+ 		\L_057e7:
+ 		\L_0573f:
+ 		ZH 1:
+-		'Ta cũng không hiểu rõ tập'
+-		R
+-		'tính của chúng.'
+-		\L_057f4:
+-		ZH 1:
+-		'Một hôm đi đường, đang'
+-		\L_057f4:
+-		ZH 1:
+-		'ăn ngoài trời thì có thứ bay'
+-		R
+-		'tới.'
+-		\L_057f4:
+-		ZH 1:
+-		'Tưởng ruồi, ta lấy đũa gắp,'
+-		R
+-		'hóa ra là Yashichi.'
+-		\L_057f4:
+-		ZH 1:
+-		'（Yashichi） Piyooo!'
+-		\L_057f4:
+-		ZH 1:
+-		'Từ đó nó cứ quấn lấy ta, bay'
+-		R
+-		'quanh vai thế này.'
++		'Ta cũng không hiểu rõ'
++		R
++		'tập tính của loài này...'
++		\L_057f4:
++		ZH 1:
++		'Một hôm trên đường du hành,'
++		\L_057f4:
++		ZH 1:
++		'đang ăn ngoài trời'
++		R
++		'thì có thứ bay tới.'
++		\L_057f4:
++		ZH 1:
++		'Tưởng ruồi, ta gắp bằng'
++		R
++		'đũa, hóa ra là Yashichi.'
++		\L_057f4:
++		ZH 1:
++		'(Yashichi) Piyooo!'
++		\L_057f4:
++		ZH 1:
++		'Từ đó nó cứ quấn lấy ta,'
++		R
++		'bay quanh vai thế này.'
+ 		\L_057f4:
+ 		\L_057e7:
+ 		\L_056cf:
+ 		ZH 1:
+-		'Nó đang đậu trên vai ngươi'
+-		R
+-		'đấy thôi.'
++		'...Nó đang đậu đấy thôi.'
+ 		\L_057f4:
+ 		\L_057e7:
+ 		\L_0573f:
+@@ -155,21 +153,19 @@
+ 		'Không, đó là tàn ảnh.'
+ 		\L_057f4:
+ 		ZH 1:
+-		'Nghe nói Mach Piyo mà dừng'
++		'Mach Piyo mà dừng'
+ 		R
+ 		'lại thì sẽ chết, nên'
+ 		\L_057f4:
+ 		ZH 1:
+-		'nó luôn bay với tốc độ'
+-		R
+-		'cao...'
++		'nó luôn bay với'
++		R
++		'tốc độ cao...'
+ 		\L_057f4:
+ 		\L_057e7:
+ 		\L_056cf:
+ 		ZH 1:
+-		'... Ta hiểu'
+-		R
+-		'rồi. Đủ. Biến đi.'
++		'...Hiểu rồi. Đủ rồi. Lui đi.'
+ 		\L_057f4:
+ 		\L_057e7:
+ 		\L_0573f:
+@@ -179,19 +175,17 @@
+ 		\L_057e7:
+ 		\L_056cf:
+ 		ZH 1:
+-		'Ồ, và còn một điều nữa.'
++		'À, còn một điều nữa.'
+ 		\L_057f4:
+ 		\L_057e7:
+ 		\L_0573f:
+ 		ZH 1:
+-		'Vâng, ngài còn điều gì?'
++		'Vâng, ngài muốn hỏi gì?'
+ 		\L_057f4:
+ 		\L_057e7:
+ 		\L_056cf:
+ 		ZH 1:
+-		'Con chim đó'
+-		R
+-		'có ăn được không?'
++		'Con chim đó ăn được không?'
+ 		\L_057f4:
+ 		\L_057e7:
+ 		\L_0573f:
+@@ -211,7 +205,7 @@
+ 		\L_057e7:
+ 		\L_056cf:
+ 		ZH 1:
+-		'Được rồi, đi đi.'
++		'Được rồi, lui đi.'
+ 		\L_057f4:
+ 		\L_057e7:
+ 		\L_0573f:
+@@ -222,18 +216,18 @@
+ 		\L_057a1:
+ 		\L_05707:
+ 		ZH 1:
+-		'Gandhi cúi đầu kính cẩn và'
+-		R
+-		'rời khỏi phòng tiếp kiến.'
++		'Gandhi kính cẩn cúi chào'
++		R
++		'rồi rời phòng yết kiến.'
+ 		\L_057f4:
+ 		\L_057e7:
+ 		\L_056eb:
+ 		ZH 1:
+-		'Vì để ý thứ kỳ quặc ấy mà ta'
+-		R
+-		'mất thời gian nghe chuyện vô'
+-		R
+-		'nghĩa...'
++		'Hừ... Để ý cái thứ kỳ'
++		R
++		'quặc ấy, làm ta phí'
++		R
++		'thời gian vô nghĩa...'
+ 		\L_057f4:
+ 		\L_057e7:
+ 		!VAR0516 : 0!

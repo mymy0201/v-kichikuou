@@ -1,0 +1,581 @@
+--- before/FIGT_B.ADV
++++ src/FIGT_B.ADV
+@@ -93,9 +93,9 @@
+ 			'tiêu chảy rồi.'
+ 			\L_01402:
+ 			ZH 1:
+-			'Rance, xin lỗi. Cho ta nghỉ'
++			'Bệ hạ Rance, xin lỗi,'
+ 			R
+-			'trận này.'
++			'cho ta được nghỉ.'
+ 			\L_01402:
+ 			\L_013f5:
+ 			\L_01315:
+@@ -114,12 +114,12 @@
+ 			\L_01331:
+ 			\L_012dd:
+ 			ZH 1:
+-			'Tôi không có ý định tham gia'
++			'Tôi chẳng có ý tham gia'
+ 			\L_01402:
+ 			ZH 1:
+-			'trò tranh chấp thấp kém giữa'
++			'mấy trò tranh giành thấp'
+ 			R
+-			'loài người.'
++			'kém giữa loài người.'
+ 			\L_01402:
+ 			\L_013f5:
+ 			\L_01315:
+@@ -325,11 +325,9 @@
+ 		\L_013f5:
+ 		\L_012dd:
+ 		ZH 1:
+-		'Hừ, thật bực mình. Đúng lúc'
+-		R
+-		'ta cần thì chẳng đứa nào'
+-		R
+-		'dùng được!'
++		'Hừ, thật quá quắt. Đúng lúc'
++		R
++		'cần thì chẳng được việc gì!'
+ 		\L_01402:
+ 		\L_013f5:
+ 		@L_00105:
+@@ -400,9 +398,9 @@
+ 	\L_013a1:
+ 	\L_01315:
+ 	ZH 1:
+-	'Kanami Kentou lao xuống từ'
+-	R
+-	'trần nhà.'
++	'Kanami Kentou từ trần'
++	R
++	'nhà nhẹ nhàng đáp xuống.'
+ 	\L_01402:
+ 	\L_013f5:
+ 	\L_01369:
+@@ -424,12 +422,14 @@
+ 	\L_013a1:
+ 	\L_01315:
+ 	ZH 1:
+-	'Freya lao xuống từ trần nhà.'
+-	\L_01402:
+-	\L_013f5:
+-	\L_0134d:
+-	ZH 1:
+-	'Để đó cho tôi!'
++	'Freya từ trần nhà'
++	R
++	'nhẹ nhàng đáp xuống.'
++	\L_01402:
++	\L_013f5:
++	\L_0134d:
++	ZH 1:
++	'Nhiệm vụ hả, cứ để tôi lo!'
+ 	\L_01402:
+ 	\L_013f5:
+ 	@L_00ad4:
+@@ -468,9 +468,9 @@
+ 	\L_013a1:
+ 	\L_01315:
+ 	ZH 1:
+-	'Wichita bất ngờ xuất hiện'
+-	R
+-	'phía sau Rance.'
++	'Wichita lặng lẽ xuất'
++	R
++	'hiện sau lưng Rance.'
+ 	\L_01402:
+ 	\L_013f5:
+ 	\L_0134d:
+@@ -661,9 +661,9 @@
+ 	\L_013f5:
+ 	\L_01315:
+ 	ZH 1:
+-	'Rance chờ mãi, nhưng không'
+-	R
+-	'thấy ninja quay về.'
++	'Nhưng chờ mãi vẫn'
++	R
++	'không thấy quay về.'
+ 	\L_01402:
+ 	{VAR0585 = 1:
+ 		ZH 1:
+@@ -680,19 +680,19 @@
+ 	}
+ 	{VAR0585 = 3:
+ 		ZH 1:
+-		'Kaoru bị bắt.'
++		'Kaoru đã bị bắt.'
+ 		\L_01402:
+ 		!VAR0587 : 0!
+ 	}
+ 	{VAR0585 = 4:
+ 		ZH 1:
+-		'Wichita bị bắt.'
++		'Wichita đã bị bắt.'
+ 		\L_01402:
+ 		!VAR0588 : 0!
+ 	}
+ 	{VAR0585 = 5:
+ 		ZH 1:
+-		'Mika Saitou bị bắt.'
++		'Mika Saitou đã bị bắt.'
+ 		\L_01402:
+ 		!VAR0678 : 0!
+ 	}
+@@ -730,9 +730,9 @@
+ 	\L_013f5:
+ 	\L_012dd:
+ 	ZH 1:
+-	'Cứ mặc kệ. Ta không quan'
+-	R
+-	'tâm.'
++	'Cứ mặc kệ. Không'
++	R
++	'sao, không sao.'
+ 	\L_01402:
+ 	\L_013f5:
+ 	\L_0134d:
+--- before/Gｶﾗｰ.ADV
++++ src/Gｶﾗｰ.ADV
+@@ -3414,81 +3414,73 @@
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Chào mừng Trở lại, Rance.'
+-	\L_0685f:
+-	ZH 1:
+-	'Nếu cậu quay'
+-	R
+-	'lại, điều đó có nghĩa'
+-	R
+-	'là cậu đã vượt qua...'
+-	\L_0685f:
+-	ZH 1:
+-	'Tôi không biết cậu nên'
+-	R
+-	'coi đó là điều tồi tệ hay là'
+-	R
+-	'thoát chết trong gang tấc.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Cái gì? Cái chết?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Cậu đã được'
+-	R
+-	'chọn làm nguồn giống.'
+-	\L_0685f:
+-	ZH 1:
+-	'nhà tù này là'
+-	R
+-	'để nhốt những người'
+-	\L_0685f:
+-	ZH 1:
+-	'đàn ông của con người để'
+-	R
+-	'thu hoạch tinh dịch của họ.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Whaaaat!?'
+-	\L_0685f:
+-	ZH 1:
+-	'không có Kalar nam, vì'
+-	R
+-	'vậy họ cần chúng ta có con,'
+-	\L_0685f:
+-	ZH 1:
+-	'nhưng nó'
+-	R
+-	'khá khắc nghiệt “công'
+-	R
+-	'việc” đối với chúng ta...'
+-	\L_0685f:
+-	ZH 1:
+-	'Ta đã nghĩ đó là một khóa'
+-	R
+-	'đào tạo mà ta phải trải qua'
+-	R
+-	'và ta đang cố gắng hết sức.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'... Theo công'
+-	R
+-	'việc, ý mày là quan'
+-	R
+-	'hệ tình dục phải không?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Không... Đó là...'
++	'Mừng anh trở về, anh Rance.'
++	\L_0685f:
++	ZH 1:
++	'Anh quay lại được nghĩa'
++	R
++	'là... đã bị chấm đạt rồi...'
++	\L_0685f:
++	ZH 1:
++	'Nên bảo là đáng thương,'
++	R
++	'hay là thoát chết đây...'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Gì? Thoát chết là sao...'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Nghĩa là anh đã bị'
++	R
++	'chọn làm gia súc.'
++	\L_0685f:
++	ZH 1:
++	'Nhà ngục này là'
++	\L_0685f:
++	ZH 1:
++	'nơi nhốt đàn ông loài người'
++	R
++	'để vắt lấy tinh dịch đấy.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Cái gìiii!?'
++	\L_0685f:
++	ZH 1:
++	'Arios「Với tộc Kalar không'
++	R
++	'có đàn ông, đó là việc'
++	R
++	'cần để duy trì nòi giống,'
++	\L_0685f:
++	ZH 1:
++	'nhưng «công việc» họ bắt'
++	R
++	'làm khá tàn nhẫn đấy...'
++	\L_0685f:
++	ZH 1:
++	'Thôi, tôi coi đây cũng'
++	R
++	'là một phần tu luyện'
++	R
++	'của số mệnh mà cố gắng.」'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'......Công việc...'
++	R
++	'là ôm đàn bà à?'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Không... chuyện là...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+@@ -4037,87 +4029,73 @@
+ 	'Ừm...'
+ 	\L_0685f:
+ 	ZH 1:
+-	'rance nhìn Vào Thức'
+-	R
+-	'ăn Mà Arios mang đến cho'
+-	\L_0685f:
+-	ZH 1:
+-	'anh ta và thấy mình'
+-	R
+-	'thua lỗ vì lời nói.'
+-	\L_0685f:
+-	ZH 1:
+-	'đây là gì...? Không có'
+-	R
+-	'gì nhưng shit lành mạnh...'
+-	\L_0685f:
+-	ZH 1:
+-	'đó là bởi'
+-	R
+-	'vì chúng ta đang được'
+-	R
+-	'đối xử như vật nuôi.'
+-	\L_0685f:
+-	ZH 1:
+-	'chúng ta chỉ có'
+-	R
+-	'thể ăn những thứ sẽ giúp'
+-	R
+-	'họ thu hoạch nhiều hơn.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Khóc Nức nở...'
+-	\L_0685f:
+-	ZH 1:
+-	'Có vẻ như ta đã bị'
+-	R
+-	'ném vào nơi tồi tệ nhất mà'
+-	R
+-	'một người đàn ông có thể...'
+-	\L_0685f:
+-	ZH 1:
+-	'Vâng, ta nên ăn.'
+-	R
+-	'Còn anh thì sao?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Tôi đã ăn rồi.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Aah, ta hiểu'
+-	R
+-	'rồi... Nom nom... ...'
+-	R
+-	'Tốt quá... Chết tiệt...'
+-	\L_0685f:
+-	ZH 1:
+-	'Nhưng... ta không biết.'
+-	\L_0685f:
+-	ZH 1:
+-	'Nó nhận được'
+-	R
+-	'kết quả tương tự,'
+-	\L_0685f:
+-	ZH 1:
+-	'mày không nghĩ rằng họ'
+-	R
+-	'sẽ hạnh phúc hơn với'
+-	\L_0685f:
+-	ZH 1:
+-	'tình dục thực sự hơn'
+-	R
+-	'những gì họ đang làm?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Chà... Có lẽ?'
++	'Nhìn bữa ăn Arios mang tới,'
++	\L_0685f:
++	ZH 1:
++	'Rance cứng họng.'
++	\L_0685f:
++	ZH 1:
++	'Rance「Gì thế này... toàn'
++	R
++	'đồ bổ dương lộ liễu...」'
++	\L_0685f:
++	ZH 1:
++	'Arios「Vì bị đối'
++	R
++	'xử như gia súc mà.'
++	\L_0685f:
++	ZH 1:
++	'Họ chỉ cho ăn toàn thứ'
++	R
++	'giúp ra được nhiều thôi.」'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Chán đời...'
++	\L_0685f:
++	ZH 1:
++	'Bị tống vào chỗ tệ nhất'
++	R
++	'đối với đàn ông rồi...'
++	\L_0685f:
++	ZH 1:
++	'Thôi, ăn vậy. Mời'
++	R
++	'cả nhà. Còn ngươi?'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Tôi ăn rồi.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'À, vậy à... nhồm nhoàm...'
++	R
++	'...Ngon đấy... chết tiệt...'
++	\L_0685f:
++	ZH 1:
++	'Mà này...'
++	\L_0685f:
++	ZH 1:
++	'Cùng là ra cả,'
++	\L_0685f:
++	ZH 1:
++	'ngươi không thấy'
++	R
++	'cho vào rồi ra'
++	\L_0685f:
++	ZH 1:
++	'thì sướng hơn'
++	R
++	'cái kiểu đó sao?'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Chà... vậy sao ạ?'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0673a:
+@@ -4125,10 +4103,10 @@
+ 	'............'
+ 	\L_0685f:
+ 	ZH 1:
+-	'Mày có... Một'
+-	\L_0685f:
+-	ZH 1:
+-	'trinh nữ?'
++	'Chẳng lẽ ngươi...'
++	\L_0685f:
++	ZH 1:
++	'còn trai tân?'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_067aa:
+@@ -4138,66 +4116,58 @@
+ 	\L_06852:
+ 	\L_0673a:
+ 	ZH 1:
+-	'Một trinh nữ bị'
+-	R
+-	'ép phải trải qua chuyện'
+-	R
+-	'đó... Thương anh quá.'
+-	\L_0685f:
+-	ZH 1:
+-	'Đừng nghĩ rằng tất'
+-	R
+-	'cả phụ nữ đều như vậy.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Vâng. I... đừng'
+-	R
+-	'nghĩ đó là vấn đề.'
+-	\L_0685f:
+-	ZH 1:
+-	'Tại sao cậu'
+-	R
+-	'nghĩ rằng họ làm điều'
+-	R
+-	'này để có con, mặc dù?'
+-	\L_0685f:
+-	ZH 1:
+-	'Kalars cũng là sinh'
+-	R
+-	'vật sống phải không?'
+-	\L_0685f:
+-	ZH 1:
+-	'lý do gì'
+-	R
+-	'để họ phải đi ngược lại'
+-	R
+-	'cách tự nhiên của sự vật?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'... Họ nói đó là'
+-	R
+-	'lệnh của Nữ hoàng Pastel.'
+-	\L_0685f:
+-	ZH 1:
+-	'Có vẻ như nữ hoàng nhỏ'
+-	R
+-	'bé đó đang ở đằng sau nó.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Cậu nên ăn nhiều hơn.'
+-	\L_0685f:
+-	ZH 1:
+-	'cậu đang bị bỏ lại còn sống'
+-	R
+-	'miễn là cậu có thể sản xuất'
+-	R
+-	'tinh dịch, sau khi tất cả.'
++	'Trai tân mà bị bắt làm việc'
++	R
++	'kiểu đó... tội nghiệp thật.'
++	\L_0685f:
++	ZH 1:
++	'Đừng tưởng đàn bà'
++	R
++	'ai cũng như thế nhé.'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Vâng. Chuyện đó...'
++	R
++	'chắc không sao đâu.'
++	\L_0685f:
++	ZH 1:
++	'Nhưng sao họ lại duy trì'
++	R
++	'nòi giống bằng cách đó nhỉ?'
++	\L_0685f:
++	ZH 1:
++	'Kalar thì cũng là'
++	R
++	'sinh vật sống chứ?'
++	\L_0685f:
++	ZH 1:
++	'Lý do để làm trái'
++	R
++	'lẽ tự nhiên là...'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'......Họ có nói là lệnh'
++	R
++	'của Nữ hoàng Pastel...'
++	\L_0685f:
++	ZH 1:
++	'Xem ra cô nữ hoàng'
++	R
++	'bé tí đó là đầu sỏ.'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Anh nên ăn thêm đi.'
++	\L_0685f:
++	ZH 1:
++	'Còn ra được tinh thì'
++	R
++	'còn được sống mà.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0673a:

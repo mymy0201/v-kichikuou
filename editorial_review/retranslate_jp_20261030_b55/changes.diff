@@ -1,0 +1,3900 @@
+--- before/Gｹｲﾌﾞﾘｽ.ADV
++++ src/Gｹｲﾌﾞﾘｽ.ADV
+@@ -53,9 +53,9 @@
+ 	\L_03878:
+ 	\L_03824:
+ 	ZH 1:
+-	'Được rồi... Tiến lên... Sẵn'
+-	R
+-	'sàng chứ, Caesar?'
++	'Được rồi... Tiến lên...'
++	R
++	'Sẵn sàng chưa, Caesar?'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03886:
+@@ -63,7 +63,7 @@
+ 	\L_03878:
+ 	\L_03824:
+ 	ZH 1:
+-	'VÂNG, THƯA NGÀI SATELLA.'
++	'VÂNG, CHỦ NHÂN SATELLA.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03886:
+@@ -76,9 +76,9 @@
+ 	\L_0393c:
+ 	\L_0385c:
+ 	ZH 1:
+-	'Đúng lúc Satella định tiến'
+-	R
+-	'quân thì chuyện xảy ra.'
++	'Đúng lúc Satella'
++	R
++	'định tiến quân thì...'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03824:
+@@ -88,66 +88,62 @@
+ 	\L_0393c:
+ 	\L_0385c:
+ 	ZH 1:
+-	'Một uy áp dày đặc đến bất'
+-	R
+-	'thường xuất hiện trước mặt'
+-	R
+-	'Satella.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Đây là cái gì...?'
++	'Một uy áp dày đặc đến kỳ lạ'
++	R
++	'xuất hiện trước mặt Satella.'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Cái gì... thế này...'
+ 	\L_03949:
+ 	\L_0393c:
+ 	!VAR0516 : 466!
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'... Satella... Ngươi làm trò'
+-	R
+-	'gì ở đằng ấy, dám chống lại'
+-	R
+-	'ta hả?'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'K-...'
+-	\L_03949:
+-	ZH 1:
+-	'... Kayblis... Cảm'
+-	R
+-	'giác đó... Có lẽ nào...?'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Đúng, chính là thế đấy.'
+-	\L_03949:
+-	ZH 1:
+-	'Ta đã trở thành Ma Vương. Ma'
+-	R
+-	'Vương Kayblis vĩ đại đây!'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Không thể nào...'
+-	R
+-	'Không thể nào...'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Chuyện đó có thật hay không,'
+-	R
+-	'dòng máu Ma Nhân trong người'
+-	R
+-	'ngươi phải biết rõ'
+-	\L_03949:
+-	ZH 1:
+-	'nhất chứ?'
++	'......Satella......'
++	R
++	'Ngươi đứng đó chống lại'
++	R
++	'ta...... làm cái trò gì hả?'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'K......'
++	\L_03949:
++	ZH 1:
++	'......Kayblis... Cảm'
++	R
++	'giác này... lẽ nào...'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Ờ, đúng là lẽ nào đấy.'
++	\L_03949:
++	ZH 1:
++	'Ta đã thành Ma Vương. Ma'
++	R
++	'Vương Kayblis đại nhân đây!'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Không thể... sao lại...'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Có phải bịa hay không,'
++	R
++	'dòng máu Ma Nhân chảy'
++	R
++	'trong người ngươi'
++	\L_03949:
++	ZH 1:
++	'hiểu rõ nhất còn gì?'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03824:
+@@ -155,18 +151,18 @@
+ 	'Ư... a...'
+ 	\L_03949:
+ 	ZH 1:
+-	'A... Ngài Little Princess...'
+-	R
+-	'Ngài Hornet...'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Nào, Satella. Ngươi biết'
+-	R
+-	'tiếp theo phải làm gì rồi'
+-	R
+-	'chứ?'
++	'A... Ngài Little'
++	R
++	'Princess... Ngài Hornet...'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Nào, Satella. Ngươi'
++	R
++	'biết tiếp theo phải'
++	R
++	'làm gì rồi chứ?'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03824:
+@@ -174,48 +170,48 @@
+ 	'Ư...'
+ 	\L_03949:
+ 	ZH 1:
+-	'Phải... Tôi chẳng còn lý do'
+-	R
+-	'gì để chiến đấu với các'
+-	R
+-	'người nữa...'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Gahahahaha! Biết điều đấy,'
++	'Phải... nhỉ... Tôi chẳng'
++	R
++	'còn... lý do để đánh với'
++	R
++	'các người nữa rồi......'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Gahahahaha! Ngoan lắm,'
+ 	R
+ 	'Satella! Nào, lại đây.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03824:
+ 	ZH 1:
+-	'...'
+-	\L_03949:
+-	ZH 1:
+-	'V... vâng...'
++	'............'
++	\L_03949:
++	ZH 1:
++	'......V...âng...'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03840:
+ 	ZH 1:
+-	'Không thể trái lệnh...'
+-	R
+-	'Satella là Ma Nhân...'
+-	\L_03949:
+-	ZH 1:
+-	'Không thể chống lệnh Ma'
+-	R
+-	'Vương...'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Đúng... Ngoan lắm. Kh...'
+-	R
+-	'Kukeke...'
+-	\L_03949:
+-	ZH 1:
+-	'Gehahahahahaha!'
++	'Không thể chống lại...'
++	R
++	'Satella là Ma Nhân......'
++	\L_03949:
++	ZH 1:
++	'Không thể chống lại'
++	R
++	'lệnh của Ma Vương...'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Phải... ngoan lắm.'
++	R
++	'Khục... khục kẹt kẹt...'
++	\L_03949:
++	ZH 1:
++	'Gehhahhahhahhahhahhah!'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_0385c:
+@@ -244,16 +240,14 @@
+ 	\L_0393c:
+ 	\L_0385c:
+ 	ZH 1:
+-	'Meglass quan'
+-	R
+-	'sát chiến trường.'
+-	\L_03949:
+-	ZH 1:
+-	'Khi hắn chuẩn'
+-	R
+-	'bị tiếp cận nó, một'
+-	R
+-	'điều gì đó đã xảy ra.'
++	'Meglass quan sát'
++	R
++	'chiến trường.'
++	\L_03949:
++	ZH 1:
++	'Rồi đúng lúc hắn định'
++	R
++	'tiến về phía đó...'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03824:
+@@ -261,26 +255,26 @@
+ 	'............'
+ 	\L_03949:
+ 	ZH 1:
+-	'Không thể nào...'
+-	\L_03949:
+-	ZH 1:
+-	'Không thể nào!!'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Meglass hiểu'
+-	R
+-	'cảm giác choáng ngợp trước'
+-	R
+-	'mặt mình là gì và hét lên.'
++	'Vô lý......'
++	\L_03949:
++	ZH 1:
++	'Vô lý!!'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Nhận ra cảm giác'
++	R
++	'đè nén trước mặt là'
++	R
++	'gì, Meglass hét lên.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	!VAR0516 : 466!
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'điều gì là không thể? Này.'
++	'Ai vô lý hả? Này.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03824:
+@@ -290,23 +284,21 @@
+ 	\L_0393c:
+ 	\L_03894:
+ 	ZH 1:
+-	'Hừm... Anh có nhận thấy sự'
+-	R
+-	'biến đổi của tôi không, anh'
+-	R
+-	'chàng im lặng? cậu... Anh...'
+-	\L_03949:
+-	ZH 1:
+-	'đúng vậy. Tôi'
+-	R
+-	'Là Kayblis, Ma Vương.'
+-	\L_03949:
+-	ZH 1:
+-	'Bây giờ hãy quỳ xuống'
+-	R
+-	'trước mặt tôi, Meglass! Tôi'
+-	R
+-	'là chủ nhân của cậu!'
++	'Hừ... nhận ra rồi à, thằng'
++	R
++	'câm. Meglass「Ngươi...'
++	R
++	'không... ngài là...」'
++	\L_03949:
++	ZH 1:
++	'Ờ. Ma Vương Kayblis'
++	R
++	'đại nhân đây.'
++	\L_03949:
++	ZH 1:
++	'Nào, quỳ xuống, Meglass!'
++	R
++	'Ta là chủ của ngươi!'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03824:
+@@ -314,43 +306,41 @@
+ 	'............'
+ 	\L_03949:
+ 	ZH 1:
+-	'Tôi biết... chúng tôi'
+-	R
+-	'đã mất lý do để chiến đấu...'
+-	\L_03949:
+-	ZH 1:
+-	'Tôi sẽ đặt mình dưới'
+-	R
+-	'sự kiểm soát của cậu...'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Vâng... Tốt lắm...'
+-	\L_03949:
+-	ZH 1:
+-	'Cậu bé ngoan,'
+-	R
+-	'Meglass. Cậu có lời'
+-	R
+-	'khen ngợi của tôi...'
+-	\L_03949:
+-	ZH 1:
+-	'Gahahahaha!'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'............'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Meglass gia'
+-	R
+-	'nhập lực lượng của'
+-	R
+-	'Ma Vương Kayblis...'
++	'Biết rồi... Chúng ta đã'
++	R
++	'hết lý do để chiến đấu...'
++	\L_03949:
++	ZH 1:
++	'Ta sẽ phục tùng'
++	R
++	'Ma Vương......'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Phải... thế là được...'
++	\L_03949:
++	ZH 1:
++	'Ngoan lắm... Meglass.'
++	R
++	'Ta khen đấy......'
++	\L_03949:
++	ZH 1:
++	'Gahahahaha!!'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'..................'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Ma Nhân Meglass đã trở'
++	R
++	'thành thuộc hạ của Ma'
++	R
++	'Vương Kayblis......'
+ 	\L_03949:
+ 	\L_0393c:
+ 	!VAR0001 : 30!
+@@ -368,35 +358,33 @@
+ 	\L_03878:
+ 	\L_03824:
+ 	ZH 1:
+-	'Được rồi! Bây giờ'
+-	R
+-	'để chiến đấu. Nhưng'
+-	R
+-	'trước tiên, thức ăn!'
+-	\L_03949:
+-	ZH 1:
+-	'Aaaaaaaaah, đồ ăn'
+-	R
+-	'ngon quá. Giờ thì...'
+-	\L_03949:
+-	ZH 1:
+-	'...??'
+-	\L_03949:
+-	ZH 1:
+-	'Hả...?? Cái'
+-	R
+-	'gì...? Cảm giác không thể'
+-	R
+-	'chối cãi này là gì...???'
++	'Hây! Nào, đánh cho'
++	R
++	'đã, rồi thì đi ăn!'
++	\L_03949:
++	ZH 1:
++	'Khàaa~~~~ tuyệt.'
++	R
++	'Vậy thì......'
++	\L_03949:
++	ZH 1:
++	'......??'
++	\L_03949:
++	ZH 1:
++	'Ơ......?? Gì thế này......'
++	R
++	'cái cảm giác không cưỡng'
++	R
++	'lại được này......??'
+ 	\L_03949:
+ 	\L_0393c:
+ 	!VAR0516 : 466!
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'Này, Galtia. Đoán là'
+-	R
+-	'cậu vẫn chưa thay đổi.'
++	'Chào, Galtia.'
++	R
++	'Vẫn như xưa nhỉ.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03824:
+@@ -404,86 +392,86 @@
+ 	'............'
+ 	\L_03949:
+ 	ZH 1:
+-	'whawhawha~?'
+-	\L_03949:
+-	ZH 1:
+-	'Welp... Có vẻ'
+-	R
+-	'như cậu đã đạt được mục'
+-	R
+-	'tiêu của mình, Kayblis.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Hehe. Tôi có thể làm'
+-	R
+-	'được nhiều việc hơn cậu.'
+-	\L_03949:
+-	ZH 1:
+-	'Bây giờ, Galtia. Cậu'
+-	R
+-	'sống ở thế giới nào?'
++	'Ối chà chà~?'
++	\L_03949:
++	ZH 1:
++	'To chuyện rồi đây...'
++	R
++	'hay là đạt chí nguyện'
++	R
++	'nhỉ... được đấy, Kayblis.'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Hừm hừm. Ta khác'
++	R
++	'với ngươi mà.'
++	\L_03949:
++	ZH 1:
++	'Nào, Galtia. Thế giới'
++	R
++	'của ngươi là bên nào?'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03840:
+ 	ZH 1:
+-	'Aaaaah... Ước gì'
+-	R
+-	'tôi được ăn nhiều mì ramen'
+-	R
+-	'của Martina hơn... Nức nở...'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Tôi đi đây, Kayblis.'
+-	R
+-	'Cậu đã thắng. chúng ta không'
+-	R
+-	'thể không vâng lời Ma Vương.'
+-	\L_03949:
+-	ZH 1:
+-	'đúng vậy... Không có'
+-	R
+-	'vấn đề gì tôi có cậu làm.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Này, này... Đừng lạm'
+-	R
+-	'dụng cấp dưới của cậu.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Nếu cậu không muốn'
+-	R
+-	'tôi, hãy bù đắp mọi sự phản'
+-	R
+-	'bội của cậu bằng công việc.'
+-	\L_03949:
+-	ZH 1:
+-	'Cậu đã phản bội tôi'
+-	R
+-	'một lần... Sẽ không đủ nếu'
+-	R
+-	'chỉ làm việc bình thường...'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Hehe. Tôi biết.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Do đó, con quỷ'
+-	R
+-	'háu ăn Galtia gia nhập'
+-	R
+-	'Chúa Tể Quỷ Kayblis.'
++	'Aaa... Giá mà ăn'
++	R
++	'thêm mì ramen của'
++	R
++	'Martina... huhu~...'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Đi thôi, Kayblis. Anh'
++	R
++	'thắng rồi. Bọn tôi tuyệt'
++	R
++	'đối phục tùng Ma Vương mà.'
++	\L_03949:
++	ZH 1:
++	'Kayblis「Đúng... dù'
++	R
++	'bị làm gì đi nữa.」'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Này này... đừng bắt'
++	R
++	'nạt thuộc hạ chứ.'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Không muốn bị bắt nạt'
++	R
++	'thì làm việc bù cho phần'
++	R
++	'chống lại ta bấy lâu.'
++	\L_03949:
++	ZH 1:
++	'Ngươi... từng phản bội'
++	R
++	'ta... làm bình thường thì'
++	R
++	'ta chẳng công nhận đâu......'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Vâng vâng. Biết rồi.'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Thế là Ma Nhân háu ăn'
++	R
++	'Galtia trở thành thuộc'
++	R
++	'hạ của Ma Vương Kayblis.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	!VAR0001 : 41!
+@@ -514,99 +502,85 @@
+ 	\L_0385c:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Ma Vương'
++	'Thành Ma Vương'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+ 	'Phòng yết kiến'
+ 	R
+-	'Whaaat ngươi đã saaay?!'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Khuôn mặt của Kayblis'
+-	R
+-	'méo mó rõ rệt sau khi'
+-	R
+-	'nghe báo cáo của cấp dưới.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Những kẻ ngốc... Tôi'
+-	R
+-	'Là Vua Của Quái vật.'
+-	\L_03949:
+-	ZH 1:
+-	'Sao chúng dám trơ tráo'
+-	R
+-	'tấn công lâu đài này...?'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Kayblis nắm'
+-	R
+-	'lấy chiếc bàn bên cạnh'
+-	R
+-	'và ném nó vào tường.'
+-	\L_03949:
+-	ZH 1:
+-	'( tai nạn) bàn bị'
+-	R
+-	'vỡ vụn khi va chạm.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Thật thú vị...'
+-	R
+-	'Đoán xem tôi sẽ chấp'
+-	R
+-	'nhận thử thách của họ.'
+-	\L_03949:
+-	ZH 1:
+-	'Nhưng...'
+-	\L_03949:
+-	ZH 1:
+-	'tôi không biết. Bằng'
+-	R
+-	'cách này hay cách khác,'
+-	R
+-	'họ không phù hợp với tôi.'
+-	\L_03949:
+-	ZH 1:
+-	'... Để tôi nghĩ xem...'
+-	\L_03949:
+-	ZH 1:
+-	'Tôi sẽ bật chúng như'
+-	R
+-	'bong bóng bọc. Vâng, đó'
+-	R
+-	'là một ý tưởng tốt. Ừm.'
+-	\L_03949:
+-	ZH 1:
+-	'Đây sẽ là một'
+-	R
+-	'cuộc chiến nhàm chán.'
+-	\L_03949:
+-	ZH 1:
+-	'Tôi sẽ may mắn nếu'
+-	R
+-	'gặp được một chút kháng cự.'
+-	\L_03949:
+-	ZH 1:
+-	'Haaah, tôi.'
+-	R
+-	'Không thể giúp được nếu họ'
+-	R
+-	'muốn đến. Tôi nổi tiếng.'
++	'Kayblis「Cái gìiii cơơơ?」'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Nghe thuộc hạ báo cáo,'
++	R
++	'mặt Kayblis méo xệch.'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Lũ ngu......Ta là vua'
++	R
++	'của lũ quái vật đấy.'
++	\L_03949:
++	ZH 1:
++	'Thế mà dám láo... đánh'
++	R
++	'vào thành này......'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Kayblis chộp lấy cái bàn bên'
++	R
++	'cạnh, ném thẳng vào tường.'
++	\L_03949:
++	ZH 1:
++	'(Rầm) Cái bàn vỡ tan tành.'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Hay đấy...... Để'
++	R
++	'ta tiếp bọn chúng.'
++	\L_03949:
++	ZH 1:
++	'Mà...'
++	\L_03949:
++	ZH 1:
++	'nói là tiếp chứ, bọn chúng'
++	R
++	'đâu đủ làm địch của ta.'
++	\L_03949:
++	ZH 1:
++	'......Phải rồi......'
++	\L_03949:
++	ZH 1:
++	'Bóp lụp bụp như bóp bong'
++	R
++	'bóng. Ừm, đúng thế. Ừm ừm.'
++	\L_03949:
++	ZH 1:
++	'Một trận chiến chán ngắt,'
++	\L_03949:
++	ZH 1:
++	'có tí sức kháng'
++	R
++	'cự đã là may.'
++	\L_03949:
++	ZH 1:
++	'Haa~~ thật là......'
++	R
++	'Biết sao được. Ta'
++	R
++	'đây đắt khách quá mà.'
+ 	R
+ 	{VAR0385 = 0:
+ 		ZH 1:
+-		'Gwagaaaaaaaaaah!!'
++		'Gwagaahaahaa!!'
+ 		\L_03949:
+ 	}
+ 	{VAR0385 = 2:
+@@ -615,38 +589,34 @@
+ 		\L_03949:
+ 	}
+ 	ZH 1:
+-	'Được rồi, di'
+-	R
+-	'chuyển ra ngoài!'
+-	\L_03949:
+-	ZH 1:
+-	'Họ có thể yếu,'
+-	R
+-	'nhưng hãy tấn công'
+-	R
+-	'bằng mọi thứ cậu có!'
+-	\L_03949:
+-	ZH 1:
+-	'Đừng nửa vời nữa!'
+-	R
+-	'Hãy dồn nỗi sợ hãi của chúng'
+-	R
+-	'ta vào những con người đó!!'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Như Vậy,'
++	'Được, xuất kích!'
++	\L_03949:
++	ZH 1:
++	'Dù chúng yếu, cũng phải'
++	R
++	'dốc toàn lực mà đánh!'
++	\L_03949:
++	ZH 1:
++	'Không được nương tay!'
++	R
++	'Nện cho lũ người biết'
++	R
++	'sự đáng sợ của bọn ta!!'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Thế là,'
+ 	{VAR0385 = 0:
+ 		ZH 1:
+-		'con quỷ'
++		'Ma Nhân'
+ 	}
+ 	{VAR0385 = 2:
+ 		ZH 1:
+-		'Chúa quỷ'
++		'Ma Vương'
+ 	}
+ 	ZH 1:
+-	'Kayblis bắt đầu di chuyển.'
++	'Kayblis bắt đầu hành động.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	!VAR0516 : 0!
+@@ -684,76 +654,68 @@
+ 	\L_03878:
+ 	\L_03824:
+ 	ZH 1:
+-	'Ch... Không thể'
+-	R
+-	'tin được là họ đã chiếm'
+-	R
+-	'được Silky’s Castle...'
+-	\L_03949:
+-	ZH 1:
+-	'Nếu chuyện đến nước này,'
+-	\L_03949:
+-	ZH 1:
+-	'tôi thực sự phải'
+-	R
+-	'gọi lính canh của mình từ'
+-	R
+-	'Thung lũng Đau buồn đến đây.'
+-	\L_03949:
+-	ZH 1:
+-	'Này!! Có ai không!!'
+-	R
+-	'Gọi vệ sĩ của tôi tới đây!!'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Mệnh lệnh của Kayblis được'
+-	R
+-	'thực hiện và lính canh của'
+-	R
+-	'anh ta nhanh chóng đến nơi.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Ồ, cậu đã đến. Heheheh.'
+-	\L_03949:
+-	ZH 1:
+-	'Tuyệt quá!'
+-	R
+-	'Hãy chiến đấu như thể cậu'
+-	R
+-	'định chết vậy, lính canh!!'
+-	\L_03949:
+-	ZH 1:
+-	'Hãy tàn sát những'
+-	R
+-	'con người xấu xa đó!!'
+-	\L_03949:
+-	ZH 1:
+-	'Gwagaaaaaaa!! Tốt, đơn'
+-	R
+-	'vị của tôi! Như những người'
+-	R
+-	'bảo vệ của tôi phải vậy!!'
+-	\L_03949:
+-	ZH 1:
+-	'Gwagahaaaaaaaa!!'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Sau đó, giống'
+-	R
+-	'như họ đang đáp lại'
+-	R
+-	'giọng nói của anh ta,'
+-	\L_03949:
+-	ZH 1:
+-	'Đội Quân Quái vật'
+-	R
+-	'đã tấn công con người.'
++	'Chậc... trời đất, để mất'
++	R
++	'cả thành của Silky......'
++	\L_03949:
++	ZH 1:
++	'Đến nước này thì,'
++	\L_03949:
++	ZH 1:
++	'chỉ còn cách gọi thân'
++	R
++	'vệ đội của ta ở Thung'
++	R
++	'lũng Than Khóc về đây.'
++	\L_03949:
++	ZH 1:
++	'Nàyyy!! Đứa nào cũng'
++	R
++	'được!! Gọi thân vệ'
++	R
++	'đội của ta về đây!!'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Lệnh của Kayblis được'
++	R
++	'thi hành, thân vệ đội'
++	R
++	'Kayblis lập tức có mặt.'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Được, tới rồi. Hề hề hề.'
++	\L_03949:
++	ZH 1:
++	'Xông lênnn! Liều chết mà'
++	R
++	'đánh, thân vệ đội của ta!!'
++	\L_03949:
++	ZH 1:
++	'Giết sạch lũ người xấu xa!!'
++	\L_03949:
++	ZH 1:
++	'Gwagaahaahaa!! Tốt lắm,'
++	R
++	'đội quân của ta! Đúng'
++	R
++	'là thân vệ đội Kayblis!!'
++	\L_03949:
++	ZH 1:
++	'Gwagahaahaahaa!!'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Rồi như đáp lời hắn,'
++	\L_03949:
++	ZH 1:
++	'đạo quân quái vật lao'
++	R
++	'vào tấn công con người.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	!VAR0158 : 81!
+@@ -1464,172 +1426,162 @@
+ 	R
+ 	'Phòng yết kiến'
+ 	R
+-	'Kayblis ngồi trên'
+-	R
+-	'ngai vàng tráng lệ.'
+-	\L_03949:
+-	ZH 1:
+-	'Những con quỷ đáng chú ý'
+-	R
+-	'đang xếp hàng trước mặt anh.'
+-	\L_03949:
+-	ZH 1:
+-	'Sau khi liếc nhìn'
+-	R
+-	'những khuôn mặt trước'
+-	R
+-	'mặt, Kayblis đứng dậy.'
++	'Trên ngai vàng xa hoa là'
++	R
++	'Kayblis.'
++	\L_03949:
++	ZH 1:
++	'Trước mặt hắn, các Ma Nhân'
++	R
++	'lừng danh đứng thành hàng.'
++	\L_03949:
++	ZH 1:
++	'Lườm một lượt những gương'
++	R
++	'mặt tề tựu trước mặt,'
++	R
++	'Kayblis đứng phắt dậy.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	{VAR0334 \ 12:
+ 		\L_03824:
+ 		ZH 1:
+-		'Tôi chắc chắn các'
+-		R
+-		'em đều biết, nhưng...'
+-		\L_03949:
+-		ZH 1:
+-		'những con người bẩn thỉu,'
+-		\L_03949:
+-		ZH 1:
+-		'tồi tệ đã quên mất'
+-		R
+-		'họ bất lực như thế nào và'
+-		R
+-		'chọn một cuộc chiến với tôi.'
+-		\L_03949:
+-		ZH 1:
+-		'Đây là tất cả vì Sự'
+-		R
+-		'tào lao Của Gai với việc'
+-		R
+-		'để con người được tự do.'
+-		\L_03949:
+-		ZH 1:
+-		'Hắn đã làm hỏng chúng.'
+-		\L_03949:
+-		ZH 1:
+-		'Thật khó chịu... Điều này'
+-		R
+-		'có nghĩa là chúng tôi đang'
+-		R
+-		'dọn dẹp mớ hỗn độn của Gai.'
++		'Chắc bọn mày'
++		R
++		'cũng biết rồi...'
++		\L_03949:
++		ZH 1:
++		'láo toét thay, đám người'
++		\L_03949:
++		ZH 1:
++		'chẳng khác gì rác rưởi,'
++		R
++		'quên mình bất lực,'
++		R
++		'dám gây sự với ta.'
++		\L_03949:
++		ZH 1:
++		'Tất cả là tại Gai nuông'
++		R
++		'chiều lũ người quá'
++		R
++		'mức, để chúng tự do.'
++		\L_03949:
++		ZH 1:
++		'Phiền phức thật...'
++		\L_03949:
++		ZH 1:
++		'Nghĩa là bọn ta phải'
++		R
++		'đi dọn bãi chiến'
++		R
++		'trường cho Gai đấy.'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_0385c:
+ 		ZH 1:
+-		'Kayblis buộc phải thở dài,'
+-		\L_03949:
+-		ZH 1:
+-		'nhưng mọi người ở đó'
+-		R
+-		'đều biết anh rất hào hứng'
+-		R
+-		'với cuộc thảm sát sắp tới.'
++		'Hắn thở dài ra vẻ,'
++		\L_03949:
++		ZH 1:
++		'nhưng ai ở đó cũng biết'
++		R
++		'Kayblis đang hồ hởi trước'
++		R
++		'cuộc tàn sát sắp tới.'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03824:
+ 		ZH 1:
+-		'Điều này thật'
+-		R
+-		'nực cười làm sao?'
+-		\L_03949:
+-		ZH 1:
+-		'Cậu không nghĩ rằng'
+-		R
+-		'chúng ta nên nhắc nhở'
+-		\L_03949:
+-		ZH 1:
+-		'họ rằng chúng ta là loại'
+-		R
+-		'sinh vật như thế nào sao?'
++		'Có chuyện vô lý'
++		R
++		'thế này không chứ?'
++		\L_03949:
++		ZH 1:
++		'Bọn mày không thấy cần'
++		\L_03949:
++		ZH 1:
++		'cho chúng biết'
++		R
++		'chúng là thứ gì sao?'
+ 		\L_03949:
+ 		\L_0393c:
+ 	}
+ 	{VAR0334 = 12:
+ 		\L_03824:
+ 		ZH 1:
+-		'Tôi đã ngồi'
+-		R
+-		'đây, suy nghĩ bằng bộ não'
+-		R
+-		'siêu phàm của mình và...'
+-		\L_03949:
+-		ZH 1:
+-		'Tôi nghĩ chúng ta cần'
+-		R
+-		'phải trừng phạt những con'
+-		\L_03949:
+-		ZH 1:
+-		'người bị hư hỏng vì'
+-		R
+-		'sự ngu ngốc của Gai.'
++		'Ta đây... ngồi đây,'
++		R
++		'nghĩ bằng cái đầu'
++		R
++		'siêu việt này...'
++		\L_03949:
++		ZH 1:
++		'thấy cần phải trừng phạt'
++		\L_03949:
++		ZH 1:
++		'lũ người được đà lấn'
++		R
++		'tới vì thằng ngu Gai.'
+ 		\L_03949:
+ 		\L_0393c:
+ 	}
+ 	\L_0385c:
+ 	ZH 1:
+-	'Kayblis nhìn quanh một'
+-	R
+-	'lần nữa, mở miệng và nói.'
+-	\L_03949:
+-	ZH 1:
+-	'những sinh vật được'
+-	R
+-	'gọi là con người là đồ chơi'
+-	R
+-	'dùng một lần để quỷ chúng ta'
+-	\L_03949:
+-	ZH 1:
+-	'thưởng thức trong cuộc'
+-	R
+-	'sống lâu dài của chúng ta...'
+-	\L_03949:
+-	ZH 1:
+-	'Chúng Ta phải khắc nó'
+-	R
+-	'vào từng nếp gấp của bộ não'
+-	\L_03949:
+-	ZH 1:
+-	'của họ để biết ơn ngay cả'
+-	R
+-	'khi chúng ta sử dụng của họ!'
+-	\L_03949:
+-	ZH 1:
+-	'Mọi người ở đây đều'
+-	R
+-	'đồng ý với tôi phải không?'
+-	\L_03949:
+-	ZH 1:
+-	'Được rồi, được rồi.'
+-	R
+-	'Sau đó tôi sẽ công bố các'
+-	R
+-	'đội trừng phạt con người.'
+-	\L_03949:
+-	ZH 1:
+-	'Heheheh...'
+-	\L_03949:
+-	ZH 1:
+-	'Tôi đã mất cả đêm'
+-	R
+-	'để nghĩ về những điều này.'
+-	R
+-	'Thật tuyệt vời phải không?'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Kayblis rút'
+-	R
+-	'ra một mảnh giấy từ'
+-	R
+-	'dưới áo giáp của mình.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Babolat.'
++	'Kayblis lại nhìn quanh'
++	R
++	'một lượt rồi mở miệng nói.'
++	\L_03949:
++	ZH 1:
++	'Kayblis「Cái giống người'
++	R
++	'là đồ chơi dùng một lần'
++	\L_03949:
++	ZH 1:
++	'trong suốt quãng đời dài'
++	R
++	'của Ma Nhân chúng ta...'
++	\L_03949:
++	ZH 1:
++	'Phải khắc vào từng nếp'
++	R
++	'nhăn trong óc chúng rằng'
++	\L_03949:
++	ZH 1:
++	'được sống đã là'
++	R
++	'phải biết ơn!'
++	\L_03949:
++	ZH 1:
++	'Ai ở đây cũng cùng'
++	R
++	'ý kiến chứ hả?'
++	\L_03949:
++	ZH 1:
++	'Được, OK. Vậy ta công'
++	R
++	'bố đội hình đội trừng'
++	R
++	'phạt loài người.'
++	\L_03949:
++	ZH 1:
++	'Hề hề hề......'
++	\L_03949:
++	ZH 1:
++	'Ta thức trắng đêm để nghĩ'
++	R
++	'đấy. Sao, giỏi chứ hả.」'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Kayblis lục lọi lôi ra một'
++	R
++	'mẩu giấy từ dưới bộ giáp.'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Babora.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	!VAR0516 : 454!
+@@ -1641,7 +1593,7 @@
+ 	\L_0393c:
+ 	\L_03824:
+ 	ZH 1:
+-	'Mắt Đỏ.'
++	'Redeye.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -1649,7 +1601,7 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'Được rồi, CÓ. Kayblis.'
++	'Vâng, YES. Kayblis.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03824:
+@@ -1662,7 +1614,7 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'... Ờ...'
++	'...Ừm......'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03824:
+@@ -1675,24 +1627,20 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'Bắt đầu nào.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Tất cả các'
+-	R
+-	'em sẽ xâm chiếm lĩnh vực của'
+-	R
+-	'con người nhiều nhất có thể.'
+-	\L_03949:
+-	ZH 1:
+-	'Sử dụng bất cứ'
+-	R
+-	'phương pháp nào cậu thích.'
+-	\L_03949:
+-	ZH 1:
+-	'Bây giờ... Piar. Cậu...'
++	'Có ngay.'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Bọn mày cứ xông vào thế giới'
++	R
++	'loài người hết mức có thể.'
++	\L_03949:
++	ZH 1:
++	'Làm thế nào thì tùy.'
++	\L_03949:
++	ZH 1:
++	'Còn... Piar. Mày thì...'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -1700,79 +1648,73 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'Chờ Đã, Kayblis.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Uhn?'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Em có thể có thêm'
+-	R
+-	'chút thời gian được không?'
+-	\L_03949:
+-	ZH 1:
+-	'Nếu có thể, em'
+-	R
+-	'muốn bắt đầu sau khi nghiên'
+-	R
+-	'cứu của em tiến triển hơn.'
+-	\L_03949:
+-	ZH 1:
+-	'chắc chắn ngài không có'
+-	R
+-	'kế hoạch hỗ trợ con người...'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Tất nhiên'
+-	R
+-	'là không. Em ghét những sinh'
+-	R
+-	'vật thấp hèn như con người.'
+-	\L_03949:
+-	ZH 1:
+-	'đó là lý do tại sao'
+-	R
+-	'em trở thành một con quỷ...'
+-	\L_03949:
+-	ZH 1:
+-	'Ngài rất khó khăn với'
+-	R
+-	'những con quỷ từng là con'
+-	R
+-	'người... Thân mến, thân yêu.'
+-	\L_03949:
+-	ZH 1:
+-	'Phải không, Kite?'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Aagh, đủ rồi. Nói chuyện'
+-	R
+-	'với cậu làm tôi đau đầu quá.'
+-	\L_03949:
+-	ZH 1:
+-	'Vì vậy, tôi sẽ'
+-	R
+-	'để cậu đi lần này.'
+-	\L_03949:
+-	ZH 1:
+-	'Lần tới khi cậu từ chối'
+-	R
+-	'mệnh lệnh của tôi, cậu sẽ bị'
+-	R
+-	'xử tử như một kẻ phản bội.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Hiểu, Kayblis.'
++	'Khoan đã, Kayblis.'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Hả?'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Cho tôi thêm chút'
++	R
++	'thời gian được không?'
++	\L_03949:
++	ZH 1:
++	'Tôi muốn đợi nghiên cứu'
++	R
++	'tiến triển thêm đã...'
++	\L_03949:
++	ZH 1:
++	'Kayblis「Mày, lẽ nào định'
++	R
++	'đứng về phía loài người...」'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Làm gì có chuyện đó.'
++	R
++	'Tôi ghét loại sinh vật'
++	R
++	'hạ đẳng như con người.'
++	\L_03949:
++	ZH 1:
++	'Vì thế mới thành'
++	R
++	'Ma Nhân chứ...'
++	\L_03949:
++	ZH 1:
++	'Chỉ vì từ người thành'
++	R
++	'Ma Nhân mà bị soi mói'
++	R
++	'ghê thật...... Chán ghê.'
++	\L_03949:
++	ZH 1:
++	'Nhỉ, Kite.'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Aa, đủ rồi, đủ rồi. Nói'
++	R
++	'chuyện với mày đau cả đầu.'
++	\L_03949:
++	ZH 1:
++	'Nên lần này ta bỏ qua.'
++	\L_03949:
++	ZH 1:
++	'Lần sau mà từ chối thì coi'
++	R
++	'như phản đồ, chặt đầu đấy.'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Tôi hiểu rồi, Kayblis.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -1780,51 +1722,45 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'Tôi nên làm gì, Kay?'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Chưa có gì cả.'
+-	R
+-	'Tôi muốn chơi với Alefgard.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Ồ... Anh chán em'
+-	R
+-	'rồi à? Bây giờ cậu có quan'
+-	R
+-	'tâm đến những ông già không?'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Kế. Cậu biết tôi'
+-	R
+-	'muốn nói gì mà, im đi.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Gahahahaha!ha. Chắc'
+-	R
+-	'chắn, chắc chắn.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'À, Kesselring.'
+-	R
+-	'Tôi thực sự không có bất kỳ'
+-	R
+-	'đơn đặt hàng nào cho cậu.'
+-	\L_03949:
+-	ZH 1:
+-	'Hãy tấn công khi cậu'
+-	R
+-	'nhìn thấy cơ hội tốt.'
++	'Còn tôi thì sao'
++	R
++	'đây? Kay cưng.'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Mày thì chưa. Ta còn'
++	R
++	'muốn chơi với Alefgard.'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Ôi chà...... Chán tôi rồi,'
++	R
++	'chuyển sang thích ông già à?'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Hừ. Biết thừa rồi'
++	R
++	'còn lải nhải. Im đi.'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Ha ha ha ha. Vâng vâng.'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'À, Kesselring. Ngươi thì ta'
++	R
++	'chẳng định ra lệnh gì riêng.'
++	\L_03949:
++	ZH 1:
++	'Xem thời cơ mà tấn công.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -1832,36 +1768,34 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'... Như cậu mong muốn.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'（whisper...）'
+-	\L_03949:
+-	ZH 1:
+-	'Đột nhiên, có'
+-	R
+-	'tiếng ồn ở hàng ghế sau.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Ừm?'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Có vẻ như'
+-	R
+-	'thiếu nữ xinh đẹp của anh'
+-	R
+-	'đã trở lại rồi, Kayblis.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Uh... Uuh... Hả??'
++	'......Tuân lệnh.'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'(Xì xào......)'
++	\L_03949:
++	ZH 1:
++	'Hàng sau chợt xôn xao.'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Hửm?'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Có vẻ mỹ nhân diễm'
++	R
++	'lệ của ngươi đã trở'
++	R
++	'về rồi. Kayblis.'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Ơ...... ơơ... hả??'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -1874,47 +1808,47 @@
+ 	\L_0393c:
+ 	\L_03824:
+ 	ZH 1:
+-	'C-C-C-C-... Camilla...'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Sự xuất hiện của con'
+-	R
+-	'quỷ yêu quý của Kayblis'
+-	\L_03949:
+-	ZH 1:
+-	'khiến anh cứng rắn cả'
+-	R
+-	'về thể xác lẫn tinh thần.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Tôi... không bắt'
+-	R
+-	'được Công chúa nhỏ.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Giọng nói trầm,'
+-	R
+-	'dễ nghe của nàng chứa'
+-	R
+-	'đựng một chút xấu hổ.'
+-	\L_03949:
+-	ZH 1:
+-	'Nhưng vì nàng không'
+-	R
+-	'chấp nhận thất bại,'
+-	\L_03949:
+-	ZH 1:
+-	'nàng dường như càng'
+-	R
+-	'thất vọng về bản thân'
+-	R
+-	'khi thừa nhận điều đó.'
++	'C-c-c-c... nàng'
++	R
++	'Ca... Camilla......'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Trước sự xuất hiện'
++	R
++	'của Ma Nhân yêu dấu,'
++	\L_03949:
++	ZH 1:
++	'Kayblis cứng đờ'
++	R
++	'cả người lẫn hồn.'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Đoạt lại Little Princess...'
++	R
++	'......thất bại... rồi.'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Giọng nói trầm vang'
++	R
++	'lộ rõ vẻ nhục nhã.'
++	\L_03949:
++	ZH 1:
++	'Nhưng có lẽ không'
++	R
++	'nhận thất bại'
++	\L_03949:
++	ZH 1:
++	'còn khiến mình thảm hại'
++	R
++	'hơn, nên Camilla đã thừa'
++	R
++	'nhận lỗi của mình thành lời.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -1922,50 +1856,46 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'Ông Kayblis, đó không phải'
+-	R
+-	'lỗi của cô Camilla!'
+-	\L_03949:
+-	ZH 1:
+-	'Làm ơn, nếu có thể, đừng'
+-	R
+-	'nghĩ đến việc trừng phạt'
+-	R
+-	'nàng!'
+-	\L_03949:
+-	ZH 1:
+-	'Tôi sẽ chấp nhận mọi hình'
+-	R
+-	'phạt mà cậu dành cho nàng!'
+-	R
+-	'Vì thế...!!'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Tôi biết.'
+-	R
+-	'Hừ, ngươi chỉ là tông'
+-	R
+-	'đồ thôi, đừng xen vào!'
+-	\L_03949:
+-	ZH 1:
+-	'Quan trọng'
+-	R
+-	'hơn là cậu! Cậu không định'
+-	R
+-	'nhường chỗ cho C-C-C-...'
+-	\L_03949:
+-	ZH 1:
+-	'Camilla cạnh tôi sao?!'
+-	\L_03949:
+-	ZH 1:
+-	'Nhanh lên và làm đi!'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'À... Vâng!'
++	'Ngài Kayblis, không phải'
++	R
++	'lỗi của Đại nhân Camilla!'
++	\L_03949:
++	ZH 1:
++	'Nên xin ngài, đừng nghĩ đến'
++	R
++	'chuyện trừng phạt người!'
++	\L_03949:
++	ZH 1:
++	'Có hình phạt nào dành cho'
++	R
++	'Đại nhân Camilla, xin để'
++	R
++	'tôi chịu hết! Nên...!!'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Biết rồi. Hừ, hạng sứ'
++	R
++	'đồ đừng có xen vào!'
++	\L_03949:
++	ZH 1:
++	'Mà mày nữa! Không mau dọn'
++	R
++	'chỗ ngồi cho nàng C-c-c...'
++	\L_03949:
++	ZH 1:
++	'Camilla bên cạnh'
++	R
++	'ghế của ta à!'
++	\L_03949:
++	ZH 1:
++	'Nhanh lên!'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'A... vâng!'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -1978,19 +1908,19 @@
+ 	\L_0393c:
+ 	\L_03824:
+ 	ZH 1:
+-	'Bây giờ, Camilla,'
+-	R
+-	'chắc em mệt rồi. Tôi...'
+-	\L_03949:
+-	ZH 1:
+-	'tôi biết tôi đã đưa'
+-	R
+-	'ra một yêu cầu khó khăn'
+-	R
+-	'như vậy đối với cậu...'
+-	\L_03949:
+-	ZH 1:
+-	'Tôi xin lỗi, Camilla...'
++	'Nào, nàng Camilla,'
++	R
++	'mệt rồi phải không?'
++	\L_03949:
++	ZH 1:
++	'T... tại tôi nhờ nàng'
++	R
++	'chuyện kỳ cục......'
++	\L_03949:
++	ZH 1:
++	'Xin lỗi nàng,'
++	R
++	'nàng Camilla...'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03894:
+@@ -2000,25 +1930,27 @@
+ 	\L_0393c:
+ 	\L_0385c:
+ 	ZH 1:
+-	'Camilla lặng'
+-	R
+-	'lẽ ngồi xuống đống đệm mà'
+-	R
+-	'Reincock đã chuẩn bị sẵn.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Đừng quá buồn... Được'
+-	R
+-	'chứ? Hãy uống trà sau nhé.'
++	'Camilla im lặng'
++	R
++	'ngồi xuống đống gối'
++	R
++	'Reincock đã chuẩn bị.'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Đừng ủ rũ thế...'
++	R
++	'nhé? Lát nữa ta uống'
++	R
++	'trà, uống trà nhé.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	!VAR0156 : 92!
+ 	{VAR0128 \ 0:
+ 		\L_03824:
+ 		ZH 1:
+-		'Này, Lôi!!'
++		'Này, Rei!!'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_038f6:
+@@ -2026,34 +1958,32 @@
+ 		\L_038e8:
+ 		\L_03894:
+ 		ZH 1:
+-		'... Cái gì?'
++		'......Gì?'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03824:
+ 		ZH 1:
+-		'Là lỗi của cậu mà lòng'
+-		R
+-		'kiêu hãnh của Camilla đã'
+-		R
+-		'bị tổn thương phải không?!!'
+-		\L_03949:
+-		ZH 1:
+-		'sự bất tài của Cậu có'
+-		R
+-		'hại cho tất cả mọi người!'
+-		\L_03949:
+-		ZH 1:
+-		'Hãy Suy nghĩ về những gì cậu'
+-		R
+-		'đã làm và làm việc để trở'
+-		R
+-		'Nên hữu ích Hơn Với Camilla,'
+-		\L_03949:
+-		ZH 1:
+-		'cậu rác rưởi!!'
+-		\L_03949:
+-		ZH 1:
+-		'Cậu là một trở ngại!!'
++		'Tại mày mà lòng kiêu'
++		R
++		'hãnh của nàng Camilla'
++		R
++		'bị tổn thương rồi đấy!!'
++		\L_03949:
++		ZH 1:
++		'Mày vô dụng là tại mày hết!'
++		\L_03949:
++		ZH 1:
++		'Biết điều mà phản'
++		R
++		'tỉnh, cố gắng làm nàng'
++		R
++		'Camilla hài lòng hơn đi,'
++		\L_03949:
++		ZH 1:
++		'đồ rác rưởi!!'
++		\L_03949:
++		ZH 1:
++		'Đồ vướng chân!!'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03894:
+@@ -2063,21 +1993,19 @@
+ 		\L_0393c:
+ 		\L_0385c:
+ 		ZH 1:
+-		'Lei đang lặng'
+-		R
+-		'lẽ lắng nghe Kayblis,'
+-		\L_03949:
+-		ZH 1:
+-		'nhưng cơn'
+-		R
+-		'thịnh nộ sôi sục bên trong'
+-		R
+-		'cơ thể anh quấn quanh anh...'
+-		\L_03949:
+-		ZH 1:
+-		'các dòng điện tanh'
+-		R
+-		'tách tiết lộ tất cả mọi thứ.'
++		'Rei im lặng nghe'
++		R
++		'Kayblis nói,'
++		\L_03949:
++		ZH 1:
++		'nhưng cơn giận sục'
++		R
++		'sôi trong người hắn...'
++		\L_03949:
++		ZH 1:
++		'được tố cáo hết bởi dòng'
++		R
++		'điện tí tách bao quanh hắn.'
+ 		\L_03949:
+ 		\L_0393c:
+ 	}
+@@ -2098,7 +2026,7 @@
+ 		\L_0393c:
+ 		\L_03824:
+ 		ZH 1:
+-		'Đó là lỗi của cậu.'
++		'Lỗi của mày.'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03894:
+@@ -2108,77 +2036,73 @@
+ 		\L_0393c:
+ 		\L_03824:
+ 		ZH 1:
+-		'Camilla như vậy là vì em'
+-		R
+-		'là đồ ngốc! Hãy nhìn nàng!'
+-		\L_03949:
+-		ZH 1:
+-		'nàng run'
+-		R
+-		'rẩy vì chấn thương trái'
+-		R
+-		'tim mà nàng không cần.'
+-		\L_03949:
+-		ZH 1:
+-		'Tôi cử cậu đến Camilla để'
+-		R
+-		'ngăn điều này xảy ra!! làm'
+-		R
+-		'việc chăm chỉ hơn! Đồ ngốc!'
++		'Vì mày ngu nên nàng'
++		R
++		'Camilla, nhìn đi!'
++		\L_03949:
++		ZH 1:
++		'Đang run lên vì vết'
++		R
++		'thương lòng lẽ ra'
++		R
++		'không phải chịu đó.'
++		\L_03949:
++		ZH 1:
++		'Ta cử mày tới bên nàng'
++		R
++		'Camilla đâu phải để thế'
++		R
++		'này!! Làm cho tử tế! Ngu!'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03894:
+ 		ZH 1:
+-		'... Tôi cho'
+-		R
+-		'là cậu nói đúng...'
+-		\L_03949:
+-		ZH 1:
+-		'Tuy nhiên, Kayblis...'
+-		\L_03949:
+-		ZH 1:
+-		'Con người'
+-		R
+-		'đang tiến hóa theo nhiều'
+-		R
+-		'cách hơn chúng ta nghĩ.'
+-		\L_03949:
+-		ZH 1:
+-		'Ở nhân gian tôi học được'
+-		R
+-		'rằng chúng ta phải chấp nhận'
+-		\L_03949:
+-		ZH 1:
+-		'sự thật đó và tuyệt'
+-		R
+-		'đối không được bất cẩn,'
+-		\L_03949:
+-		ZH 1:
+-		'quỷ hay không...'
+-		\L_03949:
+-		ZH 1:
+-		'Đặc biệt là về'
+-		R
+-		'vị vua đó, Rance...'
+-		\L_03949:
+-		ZH 1:
+-		'Ông ấy không'
+-		R
+-		'giống bất kỳ con người nào'
+-		R
+-		'tôi từng thấy trước đây...'
++		'......Ngài nói phải......'
++		\L_03949:
++		ZH 1:
++		'Nhưng, Kayblis...'
++		\L_03949:
++		ZH 1:
++		'Con người tiến bộ về nhiều'
++		R
++		'mặt hơn chúng ta tưởng.'
++		\L_03949:
++		ZH 1:
++		'Đó là sự thật buộc phải'
++		R
++		'công nhận, và dù là Ma Nhân,'
++		\L_03949:
++		ZH 1:
++		'cũng tuyệt đối không được lơ'
++		R
++		'là, đó là điều tôi học được'
++		\L_03949:
++		ZH 1:
++		'ở thế giới loài người...'
++		\L_03949:
++		ZH 1:
++		'Nhất là, vua Rance đó......'
++		\L_03949:
++		ZH 1:
++		'Hắn có điểm gì đó khác'
++		R
++		'hẳn những con người'
++		R
++		'tôi từng gặp......'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03824:
+ 		ZH 1:
+-		'Tuyệt vời quá!!'
++		'Gebaagahaahaa!!'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_0385c:
+ 		ZH 1:
+-		'Kayblis cười lớn.'
+-		R
+-		'Camilla cau có bên cạnh anh.'
++		'Kayblis cười rống'
++		R
++		'lên. Camilla bên'
++		R
++		'cạnh khẽ nhíu mày.'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03824:
+@@ -2186,26 +2110,22 @@
+ 		'Này, Sieg.'
+ 		\L_03949:
+ 		ZH 1:
+-		'Đừng nghĩ rằng cậu'
+-		R
+-		'có thể thuyết phục tôi'
+-		\L_03949:
+-		ZH 1:
+-		'rằng thất bại của cậu là'
+-		R
+-		'do chúng ta thiếu học tập!'
++		'Mày định đổ lỗi của mình cho'
++		\L_03949:
++		ZH 1:
++		'việc bọn ta học hành'
++		R
++		'chưa tới à, hạng bét!'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03894:
+ 		ZH 1:
+-		'Không, tôi...'
++		'Không, tôi......'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03824:
+ 		ZH 1:
+-		'Aagh, đủ rồi!'
+-		R
+-		'Hãy im lặng!!'
++		'Aa, đủ rồi! Im đi!!'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03894:
+@@ -2219,24 +2139,24 @@
+ 	'Bây giờ...'
+ 	\L_03949:
+ 	ZH 1:
+-	'Dù thế nào đi nữa, hãy cho'
+-	R
+-	'con người nếm trải nỗi kinh'
+-	R
+-	'hoàng của lũ quỷ. Keh...'
+-	\L_03949:
+-	ZH 1:
+-	'Kugegeh...'
+-	\L_03949:
+-	ZH 1:
+-	'các đơn vị đầu tiên'
+-	R
+-	'sẽ là những người này...'
+-	\L_03949:
+-	ZH 1:
+-	'Tự chọc mình bằng'
+-	R
+-	'cú sốc, con người...'
++	'Trước hết, cho lũ người'
++	R
++	'nếm sự đáng sợ của các'
++	R
++	'Ma Nhân đại nhân. Khục...'
++	\L_03949:
++	ZH 1:
++	'Khục ghê ghê......'
++	\L_03949:
++	ZH 1:
++	'Đội đầu tiên là'
++	R
++	'tên này đây......'
++	\L_03949:
++	ZH 1:
++	'Sợ són ra quần'
++	R
++	'đi, lũ người......'
+ 	\L_03949:
+ 	\L_0393c:
+ 	!VAR0334 : 20!
+@@ -2265,7 +2185,7 @@
+ 	\L_0385c:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Ma Vương'
++	'Thành Ma Vương'
+ 	\L_03949:
+ 	ZM 24:
+ 	\L_0393c:
+@@ -2276,37 +2196,37 @@
+ 	\L_0393c:
+ 	\L_0385c:
+ 	ZH 1:
+-	'Cơ thể bị'
+-	R
+-	'thương của Kayblis'
+-	R
+-	'đang nằm trên mặt đất.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Ngh.. Cái gì...? Làm'
+-	R
+-	'sao điều này có thể...'
+-	R
+-	'ôi... lại xảy ra...?!!'
+-	\L_03949:
+-	ZH 1:
+-	'Tôi là... d-quỷ...'
+-	R
+-	'Con người không thể...'
+-	\L_03949:
+-	ZH 1:
+-	'Tôi... tôi...'
+-	R
+-	'là... một vị vua... Thế'
+-	R
+-	'giới sẽ là của tôi...'
+-	\L_03949:
+-	ZH 1:
+-	'điều đó có nghĩa'
+-	R
+-	'là cậu đã thất bại.'
++	'Kayblis bò lết trên sàn với'
++	R
++	'thân thể đầy thương tích.'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Ưm...... v... vô lý'
++	R
++	'thế...... a... ui ui......'
++	R
++	'sao lại có thể......!!'
++	\L_03949:
++	ZH 1:
++	'Ta... là... Ma'
++	R
++	'Nhân... Ma Nhân lại...'
++	R
++	'thua bọn người...'
++	\L_03949:
++	ZH 1:
++	'Ta... ta mới... là'
++	R
++	'vua... Ta... mới'
++	R
++	'là... của thế giới...'
++	\L_03949:
++	ZH 1:
++	'Rance「Nghĩa là'
++	R
++	'mày hụt rồi đấy.」'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03894:
+@@ -2318,181 +2238,169 @@
+ 	\L_03878:
+ 	\L_03824:
+ 	ZH 1:
+-	'Gahahahaha! ôn g'
+-	R
+-	'ổn đấy, Kayblis.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Cậu... Cậu bastaaard!!'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Rance đã lên ngôi.'
+-	R
+-	'Hắn đã đạt được nó trước.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Chà, Ngươi chắc chắn'
+-	R
+-	'đã bị tổn thương rất nhiều.'
+-	R
+-	'Nhưng đây là kết thúc.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'W-Chờ Đã...'
+-	R
+-	'Tôi không thể chiến đấu'
+-	R
+-	'nữa... Tôi đầu hàng...'
+-	\L_03949:
+-	ZH 1:
+-	'Hãy nhìn tôi này. Cậu'
+-	R
+-	'nghĩ tôi có thể chiến đấu'
+-	R
+-	'như thế này à? Nghiêm túc?'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Ngươi có thể di'
+-	R
+-	'chuyển được phải không?'
+-	\L_03949:
+-	ZH 1:
+-	'Đôi mắt đẹp của anh'
+-	R
+-	'đã thấy em bò vào đây.'
+-	\L_03949:
+-	ZH 1:
+-	'vì vậy, ta không'
+-	R
+-	'thể quá an toàn. Mọi'
+-	R
+-	'người đều mắc sai lầm.'
+-	\L_03949:
+-	ZH 1:
+-	'Chết tiệt!!'
+-	R
+-	'Rance Atatattấn công!!'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Gyaaaaaaaaaaaah!!!'
+-	\L_03949:
+-	ZH 1:
+-	'cuộc tấn công'
+-	R
+-	'cuối cùng xé toạc Kayblis,'
+-	R
+-	'người đã hầu như bất lực.'
++	'Gahahahaha!! Trông'
++	R
++	'được đấy, Kayblis cưng.'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'M... mày... thằng khốnnn!!'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Rance đã đứng trước'
++	R
++	'ngai vàng. Hắn đã'
++	R
++	'đi tắt tới trước.'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Chà, mày bắt ta vất vả quá'
++	R
++	'trời. Nhưng đến đây là hết.'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Kh... khoan đã...'
++	R
++	'Tao hết đánh nổi'
++	R
++	'rồi... đầu hàng......'
++	\L_03949:
++	ZH 1:
++	'Với lại...... nhìn này.'
++	R
++	'Người thế này mà mày nghĩ'
++	R
++	'còn đánh được à? Thật hả?'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Vẫn cử động được đấy thôi.'
++	\L_03949:
++	ZH 1:
++	'Đôi mắt đẹp đẽ của ta đã'
++	R
++	'thấy mày bò lết lết đấy.'
++	\L_03949:
++	ZH 1:
++	'Nên chớ có chủ quan. Khỉ'
++	R
++	'cũng có lúc rơi khỏi cây.'
++	\L_03949:
++	ZH 1:
++	'Chết đi!! Rance'
++	R
++	'Atatatatttack!!'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Áaaaaaaaa!!!'
++	\L_03949:
++	ZH 1:
++	'Đòn cuối cùng xé toạc'
++	R
++	'Kayblis vốn gần như'
++	R
++	'không cử động nổi.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	!VAR0516 : 492!
+ 	\L_038e8:
+ 	\L_0385c:
+ 	ZH 1:
+-	'Sau khi cơ thể to'
+-	R
+-	'lớn của anh ta biến mất,'
+-	\L_03949:
+-	ZH 1:
+-	'linh hồn máu quỷ của'
+-	R
+-	'anh ta lăn xuống đất.'
+-	\L_03949:
+-	ZH 1:
+-	'Nhưng Rance không'
+-	R
+-	'để ý đến điều đó.'
++	'Và khi thân hình'
++	R
++	'khổng lồ ấy biến mất,'
++	\L_03949:
++	ZH 1:
++	'Ma Huyết Hồn của'
++	R
++	'Kayblis lăn ra đất.'
++	\L_03949:
++	ZH 1:
++	'Nhưng Rance chẳng'
++	R
++	'thèm liếc đến.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+ 	\L_03824:
+ 	ZH 1:
+-	'Hừm, việc cắt anh ta thậm'
+-	R
+-	'chí còn không thú vị chút'
+-	R
+-	'nào. Gahahahaha!'
+-	\L_03949:
+-	ZH 1:
+-	'haha!ha!haha!ha!hahahaha'
+-	R
+-	'!!'
+-	\L_03949:
+-	ZH 1:
+-	'Được rồi, cuối cùng cũng có'
+-	R
+-	'Lâu đài của Ma Vương.'
+-	\L_03949:
+-	ZH 1:
+-	'Có thể có điều gì đó thú vị'
+-	R
+-	'ở đây.'
+-	\L_03949:
+-	ZH 1:
+-	'Bây giờ, hãy tìm kiếm!!'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Theo lệnh của Rance,'
+-	\L_03949:
+-	ZH 1:
+-	'cấp dưới của anh'
+-	R
+-	'ta bắt đầu chạy xung'
+-	\L_03949:
+-	ZH 1:
+-	'quanh để tìm kiếm những'
+-	R
+-	'thứ anh ta có thể thích.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Haah, anh mày. Ta'
+-	R
+-	'sẽ ở lại đây trong'
+-	R
+-	'thời gian chờ đợi.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Rance ngồi trên'
+-	R
+-	'ngai Vàng Của Ma Vương.'
++	'Hừm, lỡ chém phải thứ chẳng'
++	R
++	'ra gì rồi. Gahahahaha!!'
++	\L_03949:
++	ZH 1:
++	'Gahahahahaha!!'
++	\L_03949:
++	ZH 1:
++	'Được rồi, đã tới'
++	R
++	'tận thành Ma Vương.'
++	\L_03949:
++	ZH 1:
++	'Biết đâu có thứ gì hay ho.'
++	\L_03949:
++	ZH 1:
++	'Nào, lục soát đi!!'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Rance vừa ra lệnh,'
++	\L_03949:
++	ZH 1:
++	'đám thuộc hạ đã'
++	R
++	'lũ lượt chạy đi'
++	\L_03949:
++	ZH 1:
++	'lục tìm những thứ có'
++	R
++	'vẻ Rance sẽ thích.'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Phù, thật là. Trong lúc'
++	R
++	'đó ta nghỉ chút ở đây.'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Nói rồi, Rance ngồi xuống'
++	R
++	'ngai vàng của Ma Vương.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	!VAR0154 : 2!
+ 	{VAR0102 \ 0:
+ 		\L_03824:
+ 		ZH 1:
+-		'Siiiiiiiiiii.'
++		'Siiiiiiiill.'
+ 		\L_03949:
+ 		\L_0393c:
+ 		!VAR0516 : 2!
+ 		\L_038e8:
+ 		\L_03894:
+ 		ZH 1:
+-		'À, vâng, Chủ nhân Rance?'
++		'A, vâng. Chủ nhân Rance.'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03824:
+ 		ZH 1:
+-		'Ta mệt rồi. Ta sẽ'
+-		R
+-		'để em xoa tay ta.'
++		'Ta mệt rồi. Cho'
++		R
++		'em đấm tay cho ta.'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03894:
+@@ -2502,51 +2410,41 @@
+ 		\L_0393c:
+ 		\L_0385c:
+ 		ZH 1:
+-		'Rance đưa'
+-		R
+-		'tay ra Và Sill bắt đầu cọ'
+-		R
+-		'xát chúng hết mức có thể.'
++		'Rance chìa tay ra,'
++		R
++		'Sill hết sức xoa bóp.'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03894:
+ 		ZH 1:
+-		'Chủ nhân Rance...'
+-		R
+-		'Điều này thật tuyệt vời.'
+-		\L_03949:
+-		ZH 1:
+-		'Ngay cả khi đó'
+-		R
+-		'không phải là Chúa quỷ,'
+-		\L_03949:
+-		ZH 1:
+-		'ngài vẫn'
+-		R
+-		'có thể đánh bại một con'
+-		R
+-		'quỷ thực sự mạnh mẽ...'
++		'Chủ nhân Rance... giỏi quá.'
++		\L_03949:
++		ZH 1:
++		'Dù không phải Ma Vương,'
++		\L_03949:
++		ZH 1:
++		'ngài vẫn hạ được cả Ma Nhân'
++		R
++		'mạnh khủng khiếp như thế...'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03824:
+ 		ZH 1:
+-		'Gahahahaha! Đó'
+-		R
+-		'là điều xảy ra khi ta'
+-		R
+-		'nghiêm túc một chút!'
+-		\L_03949:
+-		ZH 1:
+-		'Và tất nhiên là ta đã'
+-		R
+-		'thắng. Ta là một anh hùng.'
+-		\L_03949:
+-		ZH 1:
+-		'Sill, tự hào được sử'
+-		R
+-		'dụng như một nô lệ bởi một'
+-		R
+-		'con người tuyệt vời như ta.'
++		'Gahahahaha!! Ta mà nghiêm'
++		R
++		'túc chút là thế đấy!'
++		\L_03949:
++		ZH 1:
++		'Thắng là đương nhiên.'
++		R
++		'Vì ta là anh hùng.'
++		\L_03949:
++		ZH 1:
++		'Sill, được người tuyệt'
++		R
++		'vời như ta dùng làm nô lệ,'
++		R
++		'em phải lấy làm tự hào.'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03894:
+@@ -2556,7 +2454,7 @@
+ 		\L_0393c:
+ 		\L_03824:
+ 		ZH 1:
+-		'Gahahahaha!.'
++		'Gahahahaha.'
+ 		\L_03949:
+ 		\L_0393c:
+ 	}
+@@ -2565,7 +2463,7 @@
+ 		\L_038e8:
+ 		\L_03894:
+ 		ZH 1:
+-		'Chàng yêu!!'
++		'Chàng ơi!!'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03824:
+@@ -2575,37 +2473,39 @@
+ 		\L_0393c:
+ 		\L_0385c:
+ 		ZH 1:
+-		'Lia chạy vào ôm lấy Rance.'
++		'Lia chạy lạch bạch'
++		R
++		'tới, ôm chầm lấy Rance.'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03894:
+ 		ZH 1:
+-		'Chà, Em Yêu! Chàng'
+-		R
+-		'đánh bại những con quỷ!'
+-		R
+-		'Thiếp biết chàng có thể!'
++		'Giỏi quá, chàng ơi!'
++		R
++		'Hạ được cả Ma Nhân!'
++		R
++		'Đúng là chàng của Lia!'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03824:
+ 		ZH 1:
+-		'Nàng đang làm gì'
+-		R
+-		'ở đây? Nguy hiểm quá.'
++		'Gì vậy, đến tận'
++		R
++		'đây...... Nguy hiểm đấy.'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03894:
+ 		ZH 1:
+-		'Thiếp ổn. Chàng'
+-		R
+-		'sẽ vượt qua băng giá hoặc'
+-		R
+-		'lửa để gặp em, Chàng yêu.'
++		'Không sao đâu. Để gặp'
++		R
++		'chàng thì dù vào nước'
++		R
++		'sôi lửa bỏng cũng được.'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03824:
+ 		ZH 1:
+-		'Ugh, nàng thật khó chịu...'
++		'Ư, đáng yêu ghê.........'
+ 		\L_03949:
+ 		\L_0393c:
+ 	}
+@@ -2615,114 +2515,112 @@
+ 		\L_038e8:
+ 		\L_03894:
+ 		ZH 1:
+-		'Xin lỗi... Vua Rance.'
++		'Thần xin phép......'
++		R
++		'Bệ hạ Rance.'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_0385c:
+ 		ZH 1:
+-		'Một cấp dưới nhợt nhạt'
+-		R
+-		'đến báo cáo. nó là gì?'
+-		\L_03949:
+-		ZH 1:
+-		'Ngươi nhợt nhạt'
+-		R
+-		'một cách bất thường.'
++		'Mặt tái mét, một thuộc hạ'
++		R
++		'tới báo cáo. Rance「Sao thế?'
++		\L_03949:
++		ZH 1:
++		'Mặt mày tái mét như'
++		R
++		'không phải người ấy.」'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03894:
+ 		ZH 1:
+-		'Y-Vâng... Đó là bởi vì...'
+-		\L_03949:
+-		ZH 1:
+-		'Tôi đang tìm kiếm'
+-		R
+-		'trong ngục tối, nhưng...'
+-		\L_03949:
+-		ZH 1:
+-		'có một núi xác chết,'
+-		R
+-		'và mùi hôi thối của thịt'
+-		R
+-		'thối rữa thật kinh khủng...'
+-		\L_03949:
+-		ZH 1:
+-		'Tôi không thể xác nhận'
+-		R
+-		'con số chính xác, nhưng...'
+-		\L_03949:
+-		ZH 1:
+-		'Xét theo các'
+-		R
+-		'bộ phận cơ thể riêng lẻ,'
+-		R
+-		'rải rác, có hàng trăm...'
+-		\L_03949:
+-		ZH 1:
+-		'Chúng tôi không thể'
+-		R
+-		'điều tra tất cả những'
+-		R
+-		'xác chết đó, nhưng...'
+-		\L_03949:
+-		ZH 1:
+-		'có vô số người'
+-		R
+-		'mà Chúng tôi tin Rằng'
+-		R
+-		'Kayblis đã tra tấn...'
++		'V... vâng......'
++		R
++		'Chuyện là......'
++		\L_03949:
++		ZH 1:
++		'thần đang kiểm tra'
++		R
++		'ngục tối thì......'
++		\L_03949:
++		ZH 1:
++		'xác chất thành núi...'
++		R
++		'mùi xác thối cũng'
++		R
++		'kinh khủng lắm......'
++		\L_03949:
++		ZH 1:
++		'Không xác định'
++		R
++		'được số lượng,'
++		\L_03949:
++		ZH 1:
++		'nhưng ước theo các phần'
++		R
++		'bị chặt rời thì phải'
++		R
++		'đến hàng trăm......'
++		\L_03949:
++		ZH 1:
++		'Thần chưa kiểm hết các xác,'
++		\L_03949:
++		ZH 1:
++		'nhưng có vô số dấu vết có'
++		R
++		'vẻ do Kayblis hành hạ......'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03824:
+ 		ZH 1:
+-		'Ta hiểu rồi, vậy'
+-		R
+-		'là không ai trong số họ còn'
+-		R
+-		'sống...? có hai, nhưng...'
+-		\L_03949:
+-		ZH 1:
+-		'Họ biến mất ở đâu đó...'
++		'Thế à, không còn ai sống sót'
++		R
++		'sao......... Thuộc hạ「Có'
++		R
++		'khoảng hai người......'
++		\L_03949:
++		ZH 1:
++		'nhưng đã biến mất'
++		R
++		'đâu đó rồi......」'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03824:
+ 		ZH 1:
+-		'Hai sinh'
+-		R
+-		'vật sống trong số tất cả'
+-		R
+-		'những gì đã chạy trốn...'
+-		\L_03949:
+-		ZH 1:
+-		'Có lẽ họ không'
+-		R
+-		'phải là con người...'
++		'Sống sót giữa chốn đó'
++		R
++		'mà lại bỏ trốn......'
++		\L_03949:
++		ZH 1:
++		'có khi không'
++		R
++		'phải người đâu...'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03894:
+ 		ZH 1:
+-		'À... Ừm...'
++		'À... dạ......'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03824:
+ 		ZH 1:
+-		'Aah, hãy chôn cất họ đi.'
+-		\L_03949:
+-		ZH 1:
+-		'Và nếu ngươi phải'
+-		R
+-		'nôn, hãy làm ở nơi nào đó ta'
+-		R
+-		'sẽ không ngửi thấy mùi đó.'
++		'Ừ, chôn cất họ đi.'
++		\L_03949:
++		ZH 1:
++		'Còn nếu muốn nôn thì'
++		R
++		'đi tới chỗ mùi không'
++		R
++		'bay tới ta hẵng nôn.'
+ 		\L_03949:
+ 		\L_0393c:
+ 		\L_03894:
+ 		ZH 1:
+-		'Y-Vâng! Xin lỗi!!'
+-		R
+-		'cấp dưới không thể giữ nó'
+-		R
+-		'nữa và điên cuồng bỏ chạy.'
++		'V... vâng! Thần xin phép!!'
++		R
++		'Gã thuộc hạ như không chịu'
++		R
++		'nổi nữa, hớt hải chạy đi.'
+ 		\L_03949:
+ 		\L_0393c:
+ 		@L_03810:
+@@ -2738,42 +2636,38 @@
+ 	\L_0393c:
+ 	\L_03824:
+ 	ZH 1:
+-	'Ừm, cái gì'
+-	R
+-	'vậy? Muốn đụ à?'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Không. Tôi mang theo một'
+-	R
+-	'người để giới thiệu với anh.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Ơ...'
+-	\L_03949:
+-	ZH 1:
+-	'Nếu ngươi giới'
+-	R
+-	'thiệu họ với một người'
+-	R
+-	'đàn ông cao cấp như ta,'
+-	\L_03949:
+-	ZH 1:
+-	'vậy thì họ đến từ'
+-	R
+-	'một nền tảng cao cấp?'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Tôi không biết'
+-	R
+-	'cậu thế nào, nhưng chắc chắn'
+-	R
+-	'là có. Lối này, cô Hornet...'
++	'Hửm, sao thế? Muốn ta ôm à?'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Không phải. Tôi đưa'
++	R
++	'tới một người anh'
++	R
++	'nhất định phải gặp.'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Hô...'
++	\L_03949:
++	ZH 1:
++	'người được đưa tới gặp'
++	\L_03949:
++	ZH 1:
++	'bậc cao quý như ta, vậy là'
++	R
++	'người xuất thân cao quý à?'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Anh thì không biết, nhưng'
++	R
++	'vị này xuất thân cao quý.'
++	R
++	'Xin mời... Ngài Hornet...'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -2787,30 +2681,30 @@
+ 	\L_0393c:
+ 	\L_0385c:
+ 	ZH 1:
+-	'Satella trân trọng nắm'
+-	R
+-	'Lấy Tay Hornet và nhẹ nhàng'
+-	R
+-	'mời cô trước Mặt Rance.'
++	'Satella cung kính nắm'
++	R
++	'tay Hornet, nhẹ nhàng mời'
++	R
++	'nàng tới trước mặt Rance.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03840:
+ 	ZH 1:
+-	'Ooh... Nàng thực sự'
+-	R
+-	'rất nóng bỏng... Nàng cũng'
+-	R
+-	'có vẻ khá thông minh...'
+-	\L_03949:
+-	ZH 1:
+-	'Chắc chắn là nàng'
+-	R
+-	'thuộc tầng lớp cao rồi...'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Nàng là ai?'
++	'Ồ... mỹ nhân tuyệt'
++	R
++	'sắc...... lại có vẻ'
++	R
++	'rất thông minh nữa...'
++	\L_03949:
++	ZH 1:
++	'Đúng là xuất thân'
++	R
++	'cao quý thật...'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Ai đây?'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -2818,37 +2712,37 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'Đừng chỉ trỏ. Đây là cô'
+-	R
+-	'Hornet. Con gái duy nhất của'
+-	R
+-	'Gai, cựu Ma Vương.'
+-	\L_03949:
+-	ZH 1:
+-	'Nàng đang thực hiện mong'
+-	R
+-	'muốn sắp chết của hắn.'
+-	\L_03949:
+-	ZH 1:
+-	'Nàng bị Kayblis bắt, nhưng'
+-	R
+-	'kể từ khi cậu đánh anh ta,'
+-	R
+-	'tôi đã có thể cứu nàng.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Gahahahaha!. V ì ta mạnh mẽ.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Cô Hornet. Đây là'
+-	R
+-	'Vua loài người mà tôi'
+-	R
+-	'vừa kể với cậu, Rance.'
++	'Đừng chỉ tay. Vị này là Ngài'
++	R
++	'Hornet. Con gái duy nhất'
++	R
++	'của Ma Vương tiền nhiệm Gai,'
++	\L_03949:
++	ZH 1:
++	'người kế thừa di'
++	R
++	'nguyện của ngài.'
++	\L_03949:
++	ZH 1:
++	'Người bị Kayblis bắt giữ...'
++	R
++	'Nhờ anh hạ hắn mà tôi'
++	R
++	'mới cứu được Ngài Hornet.'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Gahahahaha. Vì ta mạnh mà.'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Ngài Hornet. Đây là'
++	R
++	'vua loài người Rance'
++	R
++	'mà Satella vừa kể.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -2856,54 +2750,58 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'Rất vui được gặp cậu... Tên'
+-	R
+-	'tôi là Hornet...'
+-	\L_03949:
+-	ZH 1:
+-	'Nhờ cậu đánh bại kẻ thù lớn'
+-	R
+-	'Của chúng tôi, Kayblis, tôi'
++	'Hân hạnh được gặp'
++	R
++	'ngài...... Tôi là Hornet...'
++	\L_03949:
++	ZH 1:
++	'Nhờ ngài hạ được'
++	R
++	'kẻ thù Kayblis, tôi'
+ 	R
+ 	'đã được giải thoát.'
+ 	\L_03949:
+ 	ZH 1:
+-	'Lời cảm ơn của tôi không thể'
+-	R
+-	'diễn tả bằng lời.'
+-	\L_03949:
+-	ZH 1:
+-	'Cảm ơn Cậu rất nhiều vì đã'
+-	R
+-	'chăm Sóc Công Chúa Nhỏ... Và'
+-	R
+-	'bạn thân Của Tôi, Satella.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Cái gì? Ngươi không cần'
+-	R
+-	'phải cảm ơn ta vì điều đó.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Bây giờ tôi muốn cậu để tôi'
+-	R
+-	'để Công chúa nhỏ thay thế'
+-	R
+-	'nàng làm Chúa quỷ, vì vậy,'
+-	\L_03949:
+-	ZH 1:
+-	'chúng ta có thể cùng'
+-	R
+-	'tồn tại với nhân loại...'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Ta không thể làm điều đó.'
++	'Lòng biết ơn này, nói'
++	R
++	'bao nhiêu lời cũng'
++	R
++	'không diễn tả hết.'
++	\L_03949:
++	ZH 1:
++	'Cảm ơn ngài đã bảo vệ'
++	R
++	'Ngài Little Princess... và'
++	R
++	'bạn thân Satella của tôi.'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Có gì đâu, chuyện'
++	R
++	'chẳng đáng để cảm ơn.'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Việc còn lại là để Ngài'
++	R
++	'Little Princess chính'
++	R
++	'thức trở thành Ma Vương,'
++	\L_03949:
++	ZH 1:
++	'dựng nên một thế giới'
++	R
++	'cùng tồn tại, cùng thịnh'
++	R
++	'vượng với loài người......'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Chuyện đó thì không được.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03894:
+@@ -2942,11 +2840,9 @@
+ 	\L_0393c:
+ 	\L_03824:
+ 	ZH 1:
+-	'Tại sao ngươi'
+-	R
+-	'lại nhìn ta như vậy? Lên'
+-	R
+-	'kế hoạch chống lại ta?'
++	'Gì thế, ánh mắt đó?'
++	R
++	'Định chống lại ta à?'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -2954,7 +2850,9 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'Cô Hornet, đó là...'
++	'Ngài Hornet,'
++	R
++	'chuyện đó.........'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -2962,24 +2860,22 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'Không, tôi không có ý định'
+-	R
+-	'làm vậy...'
+-	\L_03949:
+-	ZH 1:
+-	'Chỉ là... Xin cho phép tôi'
+-	R
+-	'hỏi cậu một điều.'
+-	\L_03949:
+-	ZH 1:
+-	'Đó có phải là điều Công chúa'
+-	R
+-	'nhỏ...'
+-	\L_03949:
+-	ZH 1:
+-	'Đúng hơn, đó có phải là điều'
+-	R
+-	'cô Miki muốn không?'
++	'Không, tôi không'
++	R
++	'có ý đó......'
++	\L_03949:
++	ZH 1:
++	'Chỉ là...... xin cho'
++	R
++	'tôi hỏi một điều.'
++	\L_03949:
++	ZH 1:
++	'Đó có phải là mong muốn của'
++	R
++	'Little Princess.........'
++	\L_03949:
++	ZH 1:
++	'à không, của Tiểu thư Miki?'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03824:
+@@ -2987,16 +2883,16 @@
+ 	'............'
+ 	\L_03949:
+ 	ZH 1:
+-	'Này, đưa Miki đến đây.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Theo lệnh'
+-	R
+-	'của Rance, Miki được'
+-	R
+-	'đưa đến chỗ hắn.'
++	'Này, đưa Miki tới đây.'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Theo lệnh Rance, Miki'
++	R
++	'vội vàng được đưa'
++	R
++	'tới trước mặt hắn.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -3004,9 +2900,7 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'U-Um... Ông có gọi Không,'
+-	R
+-	'Thưa Bệ hạ?'
++	'D... dạ... Bệ hạ gọi em ạ?'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_0385c:
+@@ -3018,11 +2912,11 @@
+ 	\L_0393c:
+ 	\L_03894:
+ 	ZH 1:
+-	'Uh... À... Ừm... Những người'
+-	R
+-	'này... Ừm... họ muốn nhóc'
+-	R
+-	'trở thành Ma Vương.'
++	'Ơ... a... dạ... mấy người'
++	R
++	'này... Rance「Cô này muốn'
++	R
++	'em làm Ma Vương đấy.」'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03894:
+@@ -3035,57 +2929,53 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'Tôi sẽ giới thiệu bản thân'
+-	R
+-	'mình?'
+-	\L_03949:
+-	ZH 1:
+-	'Tôi tin rằng cậu đã nghe nói'
+-	R
+-	'đến tôi qua Satella.'
+-	\L_03949:
+-	ZH 1:
+-	'Tên tôi là Hornet...'
+-	\L_03949:
+-	ZH 1:
+-	'con gái Của Ma Vương Gai,'
+-	R
+-	'người đàn ông đã chọn cậu'
+-	R
+-	'làm người kế vị.'
+-	\L_03949:
+-	ZH 1:
+-	'Cô Miki... Cô nên trở thành'
+-	R
+-	'Ma Vương.'
+-	\L_03949:
+-	ZH 1:
+-	'đó sẽ là điều tốt nhất cho'
+-	R
+-	'hòa bình cho tất cả mọi'
+-	R
+-	'người.'
+-	\L_03949:
+-	ZH 1:
+-	'Chúa quỷ Gai cũng mong muốn'
+-	R
+-	'điều này.'
+-	\L_03949:
+-	ZH 1:
+-	'Nếu Không Có Một Ma Vương'
+-	R
+-	'với sức mạnh tuyệt đối, thế'
+-	R
+-	'giới sẽ rơi vào đống đổ nát.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Một số thất'
+-	R
+-	'vọng có thể được nghe thấy'
+-	R
+-	'trong Giọng Nói Của Hornet.'
++	'Có lẽ nên nói là'
++	R
++	'hân hạnh được gặp?'
++	\L_03949:
++	ZH 1:
++	'Chắc người đã nghe'
++	R
++	'về tôi qua Satella.'
++	\L_03949:
++	ZH 1:
++	'Tôi là Hornet...'
++	\L_03949:
++	ZH 1:
++	'con gái của Ma Vương'
++	R
++	'Gai, người đã chọn'
++	R
++	'người làm kế vị.'
++	\L_03949:
++	ZH 1:
++	'Tiểu thư Miki... người'
++	R
++	'nên trở thành Ma Vương.'
++	\L_03949:
++	ZH 1:
++	'Vì hòa bình của tất cả,'
++	R
++	'đó là điều tốt nhất.'
++	\L_03949:
++	ZH 1:
++	'Ma Vương tiền nhiệm'
++	R
++	'Gai cũng mong như vậy.'
++	\L_03949:
++	ZH 1:
++	'Không có Ma Vương nắm'
++	R
++	'quyền lực tuyệt đối,'
++	R
++	'thế gian sẽ loạn lạc.'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Giọng Hornet nghe như'
++	R
++	'có phần tiếc nuối.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -3093,47 +2983,47 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'... Nhưng... tôi...'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03824:
+-	ZH 1:
+-	'Nghe này, Miki.'
+-	R
+-	'Thế giới sẽ hòa bình ngay'
+-	R
+-	'cả khi không có Ma Vương.'
+-	\L_03949:
+-	ZH 1:
+-	'Vì nó có'
+-	R
+-	'ta. Chỉ cần có một người'
+-	R
+-	'có sức mạnh tuyệt đối.'
+-	\L_03949:
+-	ZH 1:
+-	'Nhưng đó sẽ là'
+-	R
+-	'ta, không phải Ma Vương.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'............ vì vậy,'
+-	R
+-	'nhóc không cần phải trở'
+-	R
+-	'thành Ma Vương, Miki.'
+-	\L_03949:
+-	ZH 1:
+-	'Nhưng nhóc sẽ làm'
+-	R
+-	'gì? Nhóc quyết định.'
+-	\L_03949:
+-	ZH 1:
+-	'Nhóc sẽ trở thành Chúa quỷ'
+-	R
+-	'như Hornet ở đây hỏi chứ?'
++	'......Sao lại'
++	R
++	'thế... em......'
++	\L_03949:
++	\L_0393c:
++	\L_03824:
++	ZH 1:
++	'Nghe này, Miki. Không có Ma'
++	R
++	'Vương thì thế gian vẫn yên.'
++	\L_03949:
++	ZH 1:
++	'Vì đã có ta. Kẻ nắm'
++	R
++	'quyền tuyệt đối đúng'
++	R
++	'là chỉ cần một người.'
++	\L_03949:
++	ZH 1:
++	'Nhưng đó là ta,'
++	R
++	'không phải Ma Vương.'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'............ Rance「Nên'
++	R
++	'Miki, em không'
++	R
++	'cần làm Ma Vương.'
++	\L_03949:
++	ZH 1:
++	'Nhưng em tính'
++	R
++	'sao? Em tự quyết.'
++	\L_03949:
++	ZH 1:
++	'Em có thành Ma Vương'
++	R
++	'như Hornet nói không?」'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03894:
+@@ -3146,7 +3036,9 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'Công chúa nhỏ...'
++	'Ngài Little'
++	R
++	'Princess.........'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -3154,35 +3046,33 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'... Ừm... tôi...'
+-	\L_03949:
+-	ZH 1:
+-	'Tôi xin lỗi!'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Miki đối mặt với'
+-	R
+-	'Hornet và cúi đầu thật sâu.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Tôi... muốn trở thành'
+-	R
+-	'con người. Tôi muốn trở'
+-	R
+-	'thành con người một lần nữa.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Vốn là một đứa trẻ'
+-	R
+-	'hay khóc nhè, Miki đã kìm'
+-	R
+-	'nước mắt và nói rõ ràng.'
++	'......Dạ...... em.........'
++	\L_03949:
++	ZH 1:
++	'Em xin lỗi!'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Miki cúi đầu thật'
++	R
++	'sâu trước Hornet.'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Em... muốn làm người. Em'
++	R
++	'muốn trở lại làm người ạ.'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Cô bé Miki vốn hay'
++	R
++	'khóc đã cố nén nước'
++	R
++	'mắt, nói dứt khoát.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -3190,35 +3080,33 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'............ vì vậy, đó là'
+-	R
+-	'cách nó được. Hiểu Chưa,'
+-	R
+-	'Hornet?'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Hornet đứng dậy'
+-	R
+-	'mà không nói gì.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_03894:
+-	ZH 1:
+-	'Hiểu. Tôi muốn'
+-	R
+-	'Công Chúa Nhỏ... xin lỗi,'
+-	R
+-	'Cô Miki cũng hạnh phúc.'
+-	\L_03949:
+-	ZH 1:
+-	'Tôi sẽ không ép buộc nàng.'
+-	\L_03949:
+-	ZH 1:
+-	'Chỉ cho phép tôi'
+-	R
+-	'một yêu cầu thôi.'
++	'............ Rance「Là thế'
++	R
++	'đấy. Hiểu chưa, Hornet.」'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Không nói một lời, Hornet'
++	R
++	'nhẹ nhàng đứng dậy.'
++	\L_03949:
++	\L_0393c:
++	\L_03894:
++	ZH 1:
++	'Tôi hiểu. Tôi cũng mong'
++	R
++	'Little Princess... à, Tiểu'
++	R
++	'thư Miki được hạnh phúc.'
++	\L_03949:
++	ZH 1:
++	'Tôi sẽ không ép buộc.'
++	\L_03949:
++	ZH 1:
++	'Chỉ có một điều'
++	R
++	'thỉnh cầu thôi.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -3234,21 +3122,21 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'Cựu Ma Vương Gai ra lệnh cho'
+-	R
+-	'tôi bảo vệ cô Miki...'
+-	\L_03949:
+-	ZH 1:
+-	'Làm ơn, ít nhất hãy cho phép'
+-	R
+-	'tôi thực hiện mệnh lệnh đó.'
+-	\L_03949:
+-	ZH 1:
+-	'Kể từ bây giờ tôi muốn trở'
+-	R
+-	'thành người bảo vệ cho cô'
+-	R
+-	'Miki.'
++	'Tôi đã nhận lệnh của Ma'
++	R
++	'Vương tiền nhiệm Gai là'
++	R
++	'bảo vệ Tiểu thư Miki......'
++	\L_03949:
++	ZH 1:
++	'Ít nhất xin cho tôi được'
++	R
++	'thực hiện mệnh lệnh ấy.'
++	\L_03949:
++	ZH 1:
++	'Từ nay, tôi muốn được làm'
++	R
++	'hộ vệ cho Tiểu thư Miki.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -3267,21 +3155,21 @@
+ 	'À...'
+ 	\L_03949:
+ 	ZH 1:
+-	'Tôi đang theo dõi cô Hornet.'
+-	R
+-	'Xin hãy để tôi làm Li-...'
+-	\L_03949:
+-	ZH 1:
+-	'người bảo vệ cho cô Miki'
+-	R
++	'Tôi cũng theo Ngài Hornet.'
++	R
++	'Xin cho tôi được làm hộ'
++	R
++	'vệ cho Li... Tiểu thư Miki'
++	\L_03949:
++	ZH 1:
+ 	'nữa!'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03824:
+ 	ZH 1:
+-	'Ừm, được rồi. Sẽ'
+-	R
+-	'vô hại thôi, Miki.'
++	'Ừm, thôi được. Nhỉ, Miki.'
++	R
++	'Họ không hại gì đâu.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_038f6:
+@@ -3289,14 +3177,14 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'À... Được rồi. Tôi mong được'
+-	R
+-	'làm việc với cậu.'
+-	\L_03949:
+-	\L_0393c:
+-	\L_0385c:
+-	ZH 1:
+-	'Miki điên cuồng'
++	'A...... vâng. Mong'
++	R
++	'mọi người giúp đỡ ạ.'
++	\L_03949:
++	\L_0393c:
++	\L_0385c:
++	ZH 1:
++	'Miki cuống quýt'
+ 	R
+ 	'cúi đầu lần nữa.'
+ 	\L_03949:
+@@ -3306,15 +3194,17 @@
+ 	\L_038e8:
+ 	\L_03894:
+ 	ZH 1:
+-	'Tôi cũng vậy, cô Miki.'
++	'Tôi mới phải mong người'
++	R
++	'chỉ giáo, Tiểu thư Miki.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	\L_03886:
+ 	\L_0385c:
+ 	ZH 1:
+-	'Do Đó, Hornet'
+-	R
+-	'gia nhập Rance.'
++	'Thế là Hornet trở thành'
++	R
++	'thuộc hạ của Rance.'
+ 	\L_03949:
+ 	\L_0393c:
+ 	{VAR0359 = 8:
+@@ -3324,9 +3214,11 @@
+ 		\L_038e8:
+ 		\L_0385c:
+ 		ZH 1:
+-		'Sau đó, Silky bị bắt trong'
+-		R
+-		'ngục tối và gia nhập Rance.'
++		'Sau đó, Ma Nhân Silky bị'
++		R
++		'giam dưới ngục cũng được'
++		R
++		'tìm thấy, theo về Rance.'
+ 		\L_03949:
+ 		\L_0393c:
+ 	}

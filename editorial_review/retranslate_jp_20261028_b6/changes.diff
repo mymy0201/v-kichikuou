@@ -1,0 +1,7729 @@
+--- before/Gｼｨﾙ.ADV
++++ src/Gｼｨﾙ.ADV
+@@ -167,11 +167,11 @@
+ 	'Cái gì thế hả, cái gì thế!'
+ 	\L_09789:
+ 	ZH 1:
+-	'Chạm vào ngữ nô lệ đó'
+-	R
+-	'bẩn tay chàng ra! Muốn sờ'
+-	R
+-	'ngực thì có Lia đây cơ mà!'
++	'Chạm vào nô lệ là bẩn tay'
++	R
++	'chàng đấy! Muốn sờ ngực'
++	R
++	'thì có Lia vợ chàng đây!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -184,9 +184,9 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Cái con nhỏ lắm mồm này!'
+-	R
+-	'Dám xía vào chuyện ta làm à!'
++	'Ồn ào quá đấy. Định xía'
++	R
++	'vào chuyện ta làm à!!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -211,14 +211,16 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Giữa thiếp và ả nô lệ đó,'
+-	R
+-	'chàng thích ai hơn hả?'
+-	\L_09789:
+-	ZH 1:
+-	'Chính thất Lia, hay là thứ'
+-	R
+-	'đàn bà rác rưởi đó hả chàng?'
++	'Giữa Lia với con nô lệ'
++	R
++	'đó, chàng thích ai hơn?'
++	\L_09789:
++	ZH 1:
++	'Chính thất Lia, hay'
++	R
++	'thứ đàn bà như rác rưởi'
++	R
++	'đó... nói đi chàng.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09680:
+@@ -231,29 +233,29 @@
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Chuyện đó... ngài Rance...'
+-	R
+-	'Em xin lỗi... Em...'
++	'Ưm... ngài Rance...'
++	R
++	'em xin lỗi... em...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Nói rồi, Sill vội chạy'
+-	R
+-	'trối chết khỏi phòng.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Kìa, Sill...'
++	'Nói rồi, Sill chạy vụt đi'
++	R
++	'như muốn trốn khỏi nơi đó.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Này, Sill...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 5!
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Fufufu, thắng rồi nhé......!'
++	'Fufufu, thắng rồi......!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 0!
+@@ -278,14 +280,16 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng của Sill Có thể vì'
+-	R
+-	'Lia đã ra lệnh nên phòng'
+-	\L_09789:
+-	ZH 1:
+-	'của Sill là phòng'
+-	R
+-	'xa phòng Rance nhất.'
++	'Phòng của Sill'
++	R
++	'Chẳng rõ có phải do Lia ra'
++	R
++	'lệnh hay không,'
++	\L_09789:
++	ZH 1:
++	'mà phòng Sill được xếp ở'
++	R
++	'nơi xa phòng Rance nhất.'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Sill đang ngồi trên ghế.'
+@@ -298,9 +302,11 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Nàng đã thở dài vô số'
+-	R
+-	'lần trong vài phút vừa qua.'
++	'Từ nãy đến giờ nàng'
++	R
++	'đã thở dài không'
++	R
++	'biết bao nhiêu lần.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -310,41 +316,45 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sill dùng ngón'
+-	R
+-	'tay lau nước mắt.'
++	'Sill lấy ngón tay gạt'
++	R
++	'giọt nước mắt vừa ứa ra.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096f0:
+ 	ZH 1:
+-	'Chủ nhân Rance thành đạt, em'
+-	R
+-	'rất mừng... Nhưng cứ'
+-	\L_09789:
+-	ZH 1:
+-	'như ngài đã trở thành người'
+-	R
+-	'xa vời...'
++	'Chủ nhân Rance được thăng'
++	R
++	'tiến, em mừng lắm...'
++	\L_09789:
++	ZH 1:
++	'nhưng sao ngài cứ như đã'
++	R
++	'thành người ở thật xa......'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Em sẽ ra sao đây...'
+ 	\L_09789:
+ 	ZH 1:
+-	'Cứ ở mãi đây thế này...'
++	'Cứ thế này... ở'
++	R
++	'mãi nơi đây...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 1!
+ 	\L_096b8:
+ 	\L_09664:
+ 	ZH 1:
+-	'Cái gì, em lại nhốt'
+-	R
+-	'mình trong phòng nữa à...?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Rance đang đứng ở cửa.'
++	'Gì thế, em lại nhốt mình'
++	R
++	'trong phòng nữa à...'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Người đang đứng'
++	R
++	'ở cửa là Rance.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -354,28 +364,28 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Ta có lệnh đây. Người phụ nữ'
+-	R
+-	'số một của ta.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Người phụ nữ số một của'
+-	R
+-	'ngài...?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Phải. Ta có cả đống phụ nữ,'
++	'Lệnh đây. Người'
++	R
++	'đàn bà số 1 của ta.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Người đàn bà số'
++	R
++	'1 của ngài...?'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Phải. Ta có cả đống đàn bà,'
+ 	R
+ 	'nhớ tên từng người sao nổi.'
+ 	\L_09789:
+ 	ZH 1:
+-	'Em là số một. Nói thêm, có'
+-	R
+-	'đến số 1300 đấy.'
++	'Em là số 1. Tiện nói luôn,'
++	R
++	'có đến tận số 1300 đấy.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -385,34 +395,34 @@
+ 	\L_0977c:
+ 	\L_096f0:
+ 	ZH 1:
+-	'... Số một... Nghĩa là đứng'
+-	R
+-	'đầu sao...? Chủ nhân'
+-	R
+-	'Rance...'
+-	\L_09789:
+-	ZH 1:
+-	'Lẽ nào... Thật vậy sao...?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Giờ nghe lệnh đây.'
+-	\L_09789:
+-	ZH 1:
+-	'Làm mì lạnh rồi mang tới'
+-	R
+-	'phòng ta. Tự nhiên'
+-	\L_09789:
+-	ZH 1:
+-	'thèm ăn quá. Đừng dùng đồ'
+-	R
+-	'trong thành, ra siêu thị'
+-	\L_09789:
+-	ZH 1:
+-	'mua nguyên liệu. Ta thích vị'
+-	R
+-	'bình dân. Hết.'
++	'...Số 1... nghĩa là đứng đầu'
++	R
++	'sao...? Chủ nhân Rance...'
++	\L_09789:
++	ZH 1:
++	'Lẽ nào... là thật sao...?'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Lệnh là thế này.'
++	\L_09789:
++	ZH 1:
++	'Mang món mì lạnh do em'
++	R
++	'tự làm tới phòng ta.'
++	\L_09789:
++	ZH 1:
++	'Tự dưng ta thấy thèm.'
++	R
++	'Nguyên liệu đừng'
++	R
++	'lấy đồ trong thành,'
++	\L_09789:
++	ZH 1:
++	'ra siêu thị mà mua. Ta'
++	R
++	'thích vị bình dân. Hết.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096c6:
+@@ -431,9 +441,11 @@
+ 	'Vâng, em sẽ cố gắng.'
+ 	\L_09789:
+ 	ZH 1:
+-	'Phải làm món mì lạnh cho chủ'
+-	R
+-	'nhân thật vui mới được.'
++	'Phải làm món mì lạnh'
++	R
++	'thật ngon cho ngài'
++	R
++	'Rance vui mới được.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0969c:
+@@ -470,9 +482,7 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Sill xuất'
+-	R
+-	'hiện trước Rance.'
++	'Sill tìm đến chỗ Rance.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -484,28 +494,28 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'... Hm, có chuyện gì vậy?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Em... nhàn rỗi quá... Dọn'
+-	R
+-	'dẹp hay nấu ăn'
+-	\L_09789:
+-	ZH 1:
+-	'đều có người chuyên lo rồi.'
+-	R
+-	'Chẳng còn việc gì em làm'
+-	R
+-	'được...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Thế càng tốt, được nhàn mà.'
+-	R
+-	'Ta thích nhàn lắm.'
++	'...Hửm, sao thế?'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Dạ... em cứ rảnh tay mãi...'
++	R
++	'Dọn dẹp, nấu nướng đều'
++	\L_09789:
++	ZH 1:
++	'đã có người chuyên'
++	R
++	'lo, em chẳng còn'
++	R
++	'việc gì làm được...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Thế chẳng tốt sao, được'
++	R
++	'nhàn mà. Ta thích nhàn lắm.'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Em cũng cứ thong thả đi.'
+@@ -518,23 +528,23 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Đó là tất cả những gì em'
+-	R
+-	'cần à? Vậy hãy về phòng đi.'
++	'Chỉ có thế thôi à?'
++	R
++	'Vậy thì về phòng đi.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096f0:
+ 	ZH 1:
+-	'Chủ nhân Rance... Dù nghèo,'
+-	R
+-	'dù bận đến chẳng làm nổi'
+-	R
+-	'việc khác, em'
+-	\L_09789:
+-	ZH 1:
+-	'vẫn thích lúc chỉ có hai ta'
+-	R
+-	'hơn...'
++	'Chủ nhân Rance...'
++	R
++	'dù nghèo, dù bận đến'
++	R
++	'chẳng làm được gì khác,'
++	\L_09789:
++	ZH 1:
++	'em vẫn thích hồi chỉ'
++	R
++	'có em với ngài hơn...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -544,20 +554,22 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Không, em xin lỗi... Chủ'
+-	R
+-	'nhân Rance. Em về phòng đây.'
++	'Không... em xin lỗi, chủ'
++	R
++	'nhân Rance. Em về đây.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sill lê bước khỏi Rance.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Lạ thật...'
++	'Sill lủi thủi rời'
++	R
++	'khỏi chỗ Rance.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Đồ kỳ quặc...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 0!
+@@ -579,9 +591,9 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng của Sill Sill đang'
+-	R
+-	'đọc sách trong phòng nàng.'
++	'Phòng của Sill'
++	R
++	'Sill đang ngồi đọc sách.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -591,36 +603,36 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Khẽ thở dài, Sill gấp sách'
+-	R
+-	'lại.'
+-	\L_09789:
+-	ZH 1:
+-	'Có vẻ nàng vừa đọc truyện'
+-	R
+-	'tình cảm.'
++	'Khẽ thở ra một tiếng mơ'
++	R
++	'màng, Sill gấp sách lại.'
++	\L_09789:
++	ZH 1:
++	'Hình như nàng đang'
++	R
++	'đọc truyện tình cảm.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096f0:
+ 	ZH 1:
+-	'... Ước gì chủ nhân Rance'
+-	R
+-	'cũng giống trong sách hơn'
+-	R
+-	'một chút...'
++	'...Giá mà chủ nhân Rance'
++	R
++	'cũng được như trong cuốn'
++	R
++	'sách này một chút...'
+ 	\L_09789:
+ 	ZH 1:
+ 	'............'
+ 	\L_09789:
+ 	ZH 1:
+-	'Hay với ngài... em chỉ là nô'
+-	R
+-	'lệ...? Vì thế nên...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Cánh cửa cọt kẹt mở ra...'
++	'Hay là... với ngài... em chỉ'
++	R
++	'là một nô lệ...? Cho nên...'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Cạch, cánh cửa mở ra.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -628,7 +640,7 @@
+ 	'Kyah, ai vậy...?'
+ 	\L_09789:
+ 	ZH 1:
+-	'... À, Chủ nhân Rance.'
++	'...A, chủ nhân Rance.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 1!
+@@ -642,16 +654,16 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'K-Không... không phải đâu ạ!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Học hành chưa đủ đâu.'
+-	R
+-	'Em phải học cách chiều ta'
+-	R
+-	'sướng chứ. Thật hết nói.'
++	'Kh... không phải đâu ạ!'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Học hành kém quá. Phải học'
++	R
++	'chuyện dâm nhiều hơn để làm'
++	R
++	'ta sướng chứ. Thật tình.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -678,16 +690,16 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Quần áo đấy. Thấy vứt ở đó'
+-	R
+-	'nên ta cho em.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Quần áo, cho'
+-	R
+-	'em à...? Thật sự...?'
++	'Quần áo đấy. Có người'
++	R
++	'vứt đi nên ta cho em.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'...Quần áo... thật'
++	R
++	'sao ạ...? Cho em...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -707,12 +719,12 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'……Thế còn ngài Rance……'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Dĩ nhiên là ta ngồi xem.'
++	'...Ưm, còn ngài Rance thì...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Dĩ nhiên là ta xem rồi.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -727,14 +739,14 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Nhanh lên nào, mau lên.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Rance ngồi phịch xuống ghế'
+-	R
+-	'rồi giục giã Sill mau lên.'
++	'Nào, nhanh lên, nhanh lên.'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Rance ngồi phịch xuống'
++	R
++	'ghế, giục Sill nhanh lên.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -749,25 +761,25 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sill thẹn thùng thay đồ,'
+-	R
+-	'vừa cố hết sức để không lộ'
+-	R
+-	'nội y ra ngoài.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Hừm hừm... Nhìn ngon mắt'
+-	R
+-	'đấy, Sill.'
+-	\L_09789:
+-	ZH 1:
+-	'Để phục vụ khán giả,'
+-	R
+-	'sao không lấp ló khoe ngực'
+-	R
+-	'với quần lót thêm tí nữa hả?'
++	'Sill vừa ngượng ngùng'
++	R
++	'thay đồ vừa cố hết sức'
++	R
++	'để không lộ đồ lót.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Hừm hừm... được'
++	R
++	'lắm đấy, Sill.'
++	\L_09789:
++	ZH 1:
++	'Chiều khán giả chút đi,'
++	R
++	'khoe lấp ló ngực với'
++	R
++	'quần lót thêm nữa nào.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -777,7 +789,7 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Sill đã thay xong.'
++	'Rồi Sill cũng thay đồ xong.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -788,9 +800,9 @@
+ 	'Ôi...'
+ 	\L_09789:
+ 	ZH 1:
+-	'Dễ thương quá...! Lần đầu em'
+-	R
+-	'có đồ thế này.'
++	'Dễ thương quá...! Lần đầu'
++	R
++	'tiên em được mặc thế này.'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Em cảm ơn chủ nhân Rance!'
+@@ -815,14 +827,14 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Cái gì?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'À... Em mặc... có hợp không'
+-	R
+-	'ạ?'
++	'Gì?'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Ưm... em mặc...'
++	R
++	'có hợp không ạ?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -835,15 +847,15 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Hả? Cái gì?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Ừm.'
+-	\L_09789:
+-	ZH 1:
+-	'... Ờ...'
++	'Dạ? Ngài nói gì ạ?'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Hừm.'
++	\L_09789:
++	ZH 1:
++	'...Này...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -853,11 +865,11 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Nếu ta xé toạc bộ đồ này'
+-	R
+-	'rồi mây mưa với em'
+-	R
+-	'thì em tính sao hả?'
++	'Nếu ta bảo muốn xé'
++	R
++	'toạc bộ đồ đó rồi làm'
++	R
++	'chuyện ấy, em tính sao?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -867,48 +879,48 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Áaaa! Ta đùa đấy,'
+-	R
+-	'đừng khóc! Trời ạ...'
+-	\L_09789:
+-	ZH 1:
+-	'Thật hạnh phúc chỉ'
+-	R
+-	'vì vài bộ quần áo...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Rance gãi đầu và đứng dậy.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'U-Ừm... Chủ nhân Rance?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Em đang làm'
+-	R
+-	'gì vậy? Đi thôi.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Hả...?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Ra phố mua sắm. Em xách đồ'
+-	R
+-	'đấy.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Vâ...'
++	'Aaa! Đùa thôi, đừng'
++	R
++	'khóc! Thật tình...'
++	\L_09789:
++	ZH 1:
++	'Có bộ đồ thôi mà'
++	R
++	'mừng quýnh lên...'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Rance gãi đầu sồn'
++	R
++	'sột rồi đứng dậy.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'D... dạ... chủ nhân Rance?'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Còn làm gì đấy. Đi thôi.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Dạ...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Ra phố. Đi mua sắm.'
++	R
++	'Em xách đồ đấy.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Dạ...'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Vâng, chủ nhân Rance!'
+@@ -916,19 +928,19 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'... Hmph... Ta chỉ mang'
+-	R
+-	'em theo để xách túi thôi...'
+-	R
+-	'Đừng vui mừng thế, đồ ngốc.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Ơ...'
+-	\L_09789:
+-	ZH 1:
+-	'À, đợi em với!'
++	'...Hừ... ta chỉ dẫn em'
++	R
++	'theo để xách đồ thôi...'
++	R
++	'đừng có mừng, đồ ngốc.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Fufu...'
++	\L_09789:
++	ZH 1:
++	'A, đợi em với!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 0!
+@@ -950,53 +962,53 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Thị trấn lâu'
+-	R
+-	'đài Huhu... Lalala...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Sill đang đi mua sắm, mỉm'
+-	R
+-	'cười và tràn đầy năng lượng.'
+-	\L_09789:
+-	ZH 1:
+-	'Nàng đang mặc bộ quần'
+-	R
+-	'áo mà Rance tặng cho nàng.'
++	'Thị trấn dưới thành'
++	R
++	'Fufu... la la la...'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Sill tươi cười ngân'
++	R
++	'nga, ra phố mua sắm.'
++	\L_09789:
++	ZH 1:
++	'Bộ đồ nàng mặc'
++	R
++	'là đồ Rance tặng.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09680:
+ 	ZH 1:
+-	'Hôm nay mình sẽ dùng tiền'
+-	R
+-	'tiết kiệm mua quà tặng'
+-	R
+-	'ngài Rance mới được...'
++	'Hôm nay mình sẽ lấy'
++	R
++	'tiền tiêu vặt mua quà'
++	R
++	'tặng ngài Rance...'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Nên tặng gì được nhỉ...?'
+ 	\L_09789:
+ 	ZH 1:
+-	'Vỏ sò chăng... Hay là...'
+-	R
+-	'sách khiêu dâm đây...'
+-	\L_09789:
+-	ZH 1:
+-	'Kyah... bậy quá...'
+-	R
+-	'mình nghĩ cái quái gì thế!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Huhu...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Sill có vẻ hạnh phúc.'
++	'Vỏ sò được không nhỉ...'
++	R
++	'Hay là... sách người lớn...'
++	\L_09789:
++	ZH 1:
++	'Kyah... ghét ghê...'
++	R
++	'mình nghĩ gì thế này...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Fufu...'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Trông Sill thật hạnh phúc.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 0!
+@@ -1029,39 +1041,37 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Không được!! Hứ hứ! Chàng'
+-	R
+-	'yêu, đừng để ý đến con bé nô'
+-	R
+-	'lệ ấy!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Im đi. Đừng'
++	'Ểeeee!! Hứ hứ! Chàng'
++	R
++	'yêu, không được'
++	R
++	'bận tâm tới nô lệ!'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Im đi. Đừng có'
+ 	R
+ 	'ra lệnh cho ta.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Nhưng, nhưng...'
+-	R
+-	'thiếp là vợ của chàng!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Chỉ vì em là'
+-	R
+-	'vợ ta không có nghĩa là em'
+-	R
+-	'có thể bảo ta phải làm gì!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Boo～～～～...'
++	'Nhưng mà, nhưng mà...'
++	R
++	'Lia là vợ chàng cơ mà!'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Là vợ cũng chẳng có'
++	R
++	'quyền ra lệnh cho ta!'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Hứ～～～～...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -1069,16 +1079,16 @@
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'À... Chủ nhân Rance gọi em'
+-	R
+-	'ạ...?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Đến rồi à. Này, giặt chỗ này'
+-	R
+-	'đi.'
++	'Dạ... ngài gọi em'
++	R
++	'ạ? Chủ nhân Rance...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Đến rồi à. Này, đem'
++	R
++	'cái này đi giặt.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0969c:
+@@ -1090,9 +1100,9 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Vâng... Đồ cần giặt ạ. Em'
+-	R
+-	'hiểu rồi.'
++	'Vâng... đồ cần giặt'
++	R
++	'ạ. Em hiểu rồi.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -1103,30 +1113,32 @@
+ 	'Chàng yêu!'
+ 	\L_09789:
+ 	ZH 1:
+-	'Cứ để hầu gái riêng thiếp'
+-	R
+-	'tặng'
+-	\L_09789:
+-	ZH 1:
+-	'chàng giặt là được mà!'
++	'Giặt giũ thì cứ'
++	R
++	'để hầu gái riêng'
++	\L_09789:
++	ZH 1:
++	'mà Lia tặng chàng'
++	R
++	'làm là được mà!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Lia bám vào'
+-	R
+-	'cánh tay Rance để chắc chắn'
+-	R
+-	'rằng Sill có thể nhìn thấy.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Thường thì vậy... Nhưng'
+-	R
+-	'riêng quần lót của ta phải'
+-	R
+-	'để Sill giặt.'
++	'Lia bám chặt lấy tay'
++	R
++	'Rance như cố tình'
++	R
++	'khoe cho Sill thấy.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Thường thì vậy... nhưng'
++	R
++	'riêng quần lót của ta'
++	R
++	'thì phải để Sill giặt.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -1142,30 +1154,32 @@
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Cái gì? Thiếp có thể...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Em định giặt quần lót của ta'
+-	R
+-	'sao?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'... Hứ! Thiếp là công chúa!'
+-	R
+-	'Công chúa không giặt đồ!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Thì đúng rồi. Sill, giặt'
+-	R
+-	'sạch vào. Phải như mới đấy.'
+-	R
+-	'Rõ chưa?'
++	'Gì chứ, Lia cũng...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Em định giặt quần'
++	R
++	'lót cho ta à?'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'...Hứ! Lia là công'
++	R
++	'chúa đấy! Công chúa'
++	R
++	'không giặt giũ đâu!'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Thì đúng thế. Sill,'
++	R
++	'giặt cho sạch. Phải'
++	R
++	'như mới ấy. Rõ chưa?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -1178,11 +1192,11 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sill cúi đầu, xách túi giấy'
+-	R
+-	'đầy quần lót rời khỏi ngai'
+-	R
+-	'vàng.'
++	'Sill khẽ cúi đầu, xách'
++	R
++	'túi giấy đầy quần lót'
++	R
++	'rời khỏi trước ngai vàng.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 0!
+@@ -1220,9 +1234,9 @@
+ 	}
+ 	\L_09680:
+ 	ZH 1:
+-	'Có lẽ hôm nay'
+-	R
+-	'ta nên triệu hồi Sill.'
++	'Phải rồi, hôm nay'
++	R
++	'gọi Sill tới vậy.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	ZH 1:
+@@ -1247,23 +1261,21 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Đến muộn thế hả!!'
++	'Chậm quá!!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 2!
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'X-Xin lỗi ngài! Em thành'
+-	R
+-	'thật xin lỗi ạ!!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Sốt cả ruột... Mau cởi'
+-	R
+-	'quần áo ra nhanh lên.'
++	'X... xin lỗi! Em xin lỗi ạ!!'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Bực cả mình...'
++	R
++	'Cởi ra nhanh lên.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -1273,11 +1285,11 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Giờ này gọi nô lệ tới thì'
+-	R
+-	'chỉ có một chuyện thôi chứ'
+-	R
+-	'gì nữa! Mau lên coi!'
++	'Giờ này gọi nô lệ'
++	R
++	'tới thì chỉ có một'
++	R
++	'việc thôi! Nhanh lên!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -1289,20 +1301,16 @@
+ 	ZH 1:
+ 	'Sill rụt rè đưa tay cởi'
+ 	R
+-	'áo, trong khi Rance nhìn'
+-	R
+-	'chằm chằm vào cô không rời'
+-	R
+-	'mắt.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'A... ngài Rance... Xin'
+-	R
+-	'ngài đừng nhìn thế... ngại'
+-	R
+-	'lắm ạ...'
++	'áo. Còn Rance thì nhìn'
++	R
++	'chằm chằm không rời mắt.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'A... ưm... xin ngài đừng'
++	R
++	'nhìn thế... em ngượng lắm...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -1319,16 +1327,16 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sill ngượng ngùng đỏ mặt'
+-	R
+-	'nhưng vẫn cởi đồ ra.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Được rồi, phần ta đã chuẩn'
+-	R
+-	'bị sẵn sàng cả rồi!'
++	'Sill dù ngượng'
++	R
++	'ngùng vẫn cởi đồ ra.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Được, phía ta'
++	R
++	'thì sẵn sàng rồi.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0969c:
+@@ -1348,16 +1356,14 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Kìa... em vẫn chưa... cởi'
+-	R
+-	'xong đồ mà...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Lằng nhằng, điếc cả tai!'
+-	R
+-	'Gahahahaha!!'
++	'Sao lại... em vẫn'
++	R
++	'chưa... quần áo...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Ồn ào quá đi. Gahahahaha!!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -1394,11 +1400,9 @@
+ 	'cho em...」'
+ 	\L_09789:
+ 	ZH 1:
+-	'Rance 「Thứ đó ta mua bao'
+-	R
+-	'nhiêu bộ cho em mà chẳng'
+-	R
+-	'được.」'
++	'Rance 「Thứ đó muốn bao'
++	R
++	'nhiêu ta mua cho bấy nhiêu.」'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Rance vòng tay áp trọn lên'
+@@ -1409,13 +1413,9 @@
+ 	'Sill 「A...!」'
+ 	\L_09789:
+ 	ZH 1:
+-	'Rance 「Giờ ta là Quốc'
+-	R
+-	'vương đấy. Em không cần bận'
+-	R
+-	'tâm chuyện tiền bạc nữa. Cả'
+-	R
+-	'việc thêu thùa nữa.」'
++	'Rance 「Giờ ta là Quốc vương đấy. Em không cần'
++	R
++	'lo tiền bạc nữa. Cả việc làm thêm cũng thôi.」'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Sill 「Ngài Rance......」'
+@@ -1695,11 +1695,9 @@
+ 	'Rance 「Hự...!!」'
+ 	\L_09789:
+ 	ZH 1:
+-	'Huyệt đạo thắt chặt đến'
+-	R
+-	'mức buốt cả siêu vũ khí của'
+-	R
+-	'Rance.'
++	'Bên trong siết chặt siêu vũ'
++	R
++	'khí của Rance đến phát đau.'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Rance 「Ấy dà...」'
+@@ -1722,9 +1720,7 @@
+ 	'Sill 「Hức......」'
+ 	\L_09789:
+ 	ZH 1:
+-	'Khuôn mặt Sill lập tức'
+-	R
+-	'rưng rưng ực trào nước mắt.'
++	'Khuôn mặt Sill lập tức méo xệch, chực bật khóc.'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Rance 「Nếu không muốn'
+@@ -1846,9 +1842,9 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Tiếng thở đều đặn và tiếng'
+-	R
+-	'ngáy to tướng của Rance.'
++	'Tiếng ngáy to và'
++	R
++	'đều đều của Rance.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -1858,9 +1854,7 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sill nằm co ro bên cạnh'
+-	R
+-	'chàng.'
++	'Sill nằm bên cạnh hắn.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -1870,13 +1864,11 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sill khẽ thì thầm một'
+-	R
+-	'câu... Rồi sau đó, gian'
+-	R
+-	'phòng chỉ còn lại tiếng ngáy'
+-	R
+-	'của Rance.'
++	'Sill khẽ thì thầm... rồi'
++	R
++	'trong phòng chỉ còn vang'
++	R
++	'tiếng ngáy của Rance.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 0!
+@@ -1901,9 +1893,9 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng ngủ của Rance (cốc'
+-	R
+-	'cốc...)'
++	'Phòng ngủ của Rance'
++	R
++	'(cốc cốc...)'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -1920,18 +1912,16 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Lại đây mau. Lâu lắm mới'
+-	R
+-	'gặp, chắc mừng lắm hả. Ta sẽ'
+-	R
+-	'ôm ấp em cho bõ.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Rance giơ tay về phía'
+-	R
+-	'Sill.'
++	'Lại đây mau. Lâu lắm'
++	R
++	'mới được thế này, mừng'
++	R
++	'lắm hả. Ta ôm em đây.'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Rance chìa tay về phía Sill.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -1941,11 +1931,11 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Thế nhưng, Sill lùi lại'
+-	R
+-	'một bước, đôi mắt buồn bã'
+-	R
+-	'nhìn chằm chằm vào Rance.'
++	'Nhưng Sill lại lùi một'
++	R
++	'bước, đôi mắt buồn bã'
++	R
++	'nhìn Rance không chớp.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -1965,16 +1955,16 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Tại sao... ngài lại kết'
+-	R
+-	'hôn với ngài Lia ạ...?'
++	'Vì sao... ngài lại'
++	R
++	'cưới Nữ hoàng Lia ạ...?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Trong giọng nói của cô'
+-	R
+-	'thoáng chút hờn ghen ấm ức.'
++	'Trong lời nàng phảng'
++	R
++	'phất chút bất mãn.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -1993,11 +1983,9 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Sao còn đứng ỳ ra đấy. Cứ'
+-	R
+-	'lề mề là ta đè ra đâm vào'
+-	R
+-	'thật đấy nhé.'
++	'Còn lề mề gì nữa. Cứ thế'
++	R
++	'là ta cưỡng ép đâm vào đấy.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -2012,29 +2000,29 @@
+ 	'chỉ làm những gì ta thích!'
+ 	\L_09789:
+ 	ZH 1:
+-	'Ta có lấy vợ thì em vẫn là'
+-	R
+-	'nô lệ của ta, có gì khác'
+-	R
+-	'đâu!'
++	'Có vợ hay có con thì'
++	R
++	'ta vẫn là ta! Bất khả'
++	R
++	'chiến bại, gahahaha!!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+ 	'Nhưng... ngài Rance...'
+ 	R
+-	'Ngài đã trở thành người quá'
+-	R
+-	'xa vời với Sill mất rồi...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Phiền phức, điếc cả tai!'
+-	R
+-	'Thân phận nô lệ mà dám cằn'
+-	R
+-	'nhằn à? Muốn bị phạt hả!'
++	'ngài Rance đã thành người'
++	R
++	'ở thật xa Sill mất rồi...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Lải nhải! Nô lệ mà dám'
++	R
++	'bất mãn à? Hay em mơ được'
++	R
++	'cưới ta!! Nô lệ quèn mà...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -2044,9 +2032,9 @@
+ 	'Tại vì ngài Rance...'
+ 	\L_09789:
+ 	ZH 1:
+-	'ngài lại đi kết hôn...'
+-	R
+-	'Hức...... hu hu......'
++	'kết hôn gì chứ... kết hôn...'
++	R
++	'Hức... hu hu... hức...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -2063,11 +2051,11 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Đừng tưởng ta lấy vợ là em'
+-	R
+-	'được giải thoát khỏi kiếp nô'
+-	R
+-	'lệ nhé, không có đâu!'
++	'Em tưởng ta lấy vợ thì'
++	R
++	'em được thoát kiếp nô'
++	R
++	'lệ à? Mơ đẹp quá nhỉ?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -2086,11 +2074,11 @@
+ 	'ta!'
+ 	\L_09789:
+ 	ZH 1:
+-	'Ta sẽ không bao giờ thả em'
+-	R
+-	'đi, cũng chẳng nhường em cho'
+-	R
+-	'ai hết! Đã hiểu chưa hả!!'
++	'Nên ta không định buông'
++	R
++	'em ra đâu! Nên em cứ'
++	R
++	'hầu hạ ta. Rõ chưa!?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -2100,9 +2088,9 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Thế thì làm thôi. Mau...'
+-	R
+-	'cởi đồ ra nhanh lên!!'
++	'Vậy làm thôi.'
++	R
++	'Mau... cởi ra!!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -2117,11 +2105,11 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Rance vừa xé toạc đồ của'
+-	R
+-	'Sill, vừa đè nghiến cô xuống'
+-	R
+-	'giường.'
++	'Rance vừa xé toạc quần'
++	R
++	'áo Sill, vừa đẩy ngã'
++	R
++	'nàng xuống giường.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	PF1 VAR0056:
+@@ -2487,48 +2475,46 @@
+ 	PF0 VAR0056:
+ 	\L_09664:
+ 	ZH 1:
+-	'Ưm... Quả nhiên là mệt'
+-	R
+-	'thật.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Đúng như đã tuyên bố, sau'
+-	R
+-	'bảy hiệp... Rance nằm lăn'
+-	R
+-	'quay ra giường.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'A... ngài Rance...'
++	'Ưm～... mệt thật đấy.'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Đúng như tuyên bố,'
++	R
++	'sau bảy lần... Rance'
++	R
++	'nằm vật ra giường.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'A... ưm...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sill dù cũng mệt lả nhưng'
+-	R
+-	'vẫn quỳ gối ngay bên gối'
+-	R
+-	'nhìn Rance.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Ngài Rance... Cảm ơn ngài'
+-	R
+-	'đã đến cứu em ạ...... Em vẫn'
+-	R
+-	'luôn tin ngài sẽ đến.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Hừ, ta hứng chí thì tiện'
+-	R
+-	'tay cứu thôi.'
++	'Sill hẳn cũng đã mệt,'
++	R
++	'vẫn quỳ ngay ngắn'
++	R
++	'bên gối, nhìn Rance.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Ngài Rance... cảm ơn ngài'
++	R
++	'đã đến cứu em... Em vẫn'
++	R
++	'tin chắc ngài sẽ đến...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Hừ, hứng lên thì'
++	R
++	'tiện tay cứu thôi.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -2540,9 +2526,9 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Biết ơn thì hãy dốc lòng'
+-	R
+-	'phục vụ ta đến chết đi.'
++	'Biết ơn thì cứ biết ơn'
++	R
++	'đi. Hầu hạ ta tới chết.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -2550,11 +2536,11 @@
+ 	'Dạ vâng.'
+ 	\L_09789:
+ 	ZH 1:
+-	'A, ngài Rance... nếu được,'
+-	R
+-	'em muốn cùng chiến đấu với'
+-	R
+-	'ngài.'
++	'A, ngài Rance... nếu'
++	R
++	'ngài cho phép, em sẽ'
++	R
++	'cùng chiến đấu với ngài.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -2564,20 +2550,18 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Em sẽ cố gắng hết sức. Em'
+-	R
+-	'muốn giúp ích cho ngài'
+-	R
+-	'Rance.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'......Thôi được rồi. Kẻ vô'
+-	R
+-	'dụng như em chắc chẳng dùng'
+-	R
+-	'làm gì, nhưng cho gia nhập.'
++	'Em sẽ cố gắng. Em muốn'
++	R
++	'giúp ích cho ngài Rance.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'...Thôi được. Đồ vô dụng'
++	R
++	'như em chắc chẳng dùng tới,'
++	R
++	'nhưng ta cho phép lập quân.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -2589,9 +2573,9 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sill chính thức gia nhập'
+-	R
+-	'vào quân đội của Rance.'
++	'Sill được gia nhập'
++	R
++	'quân đội của Rance.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 0!
+@@ -2619,91 +2603,87 @@
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Chủ nhân Rance...'
+-	R
+-	'Chủ nhân có ở đây không?'
++	'Ngài Rance... ngài'
++	R
++	'có ở đây không ạ?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sill rụt rè bước vào.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Nó là gì?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Em có thể vào được không?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Chắc chắn rồi.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Ư-Ừm...'
+-	\L_09789:
+-	ZH 1:
+-	'Làm ơn, chúng ta hãy'
+-	R
+-	'ngừng làm kẻ trộm và sớm trở'
+-	R
+-	'lại cuộc sống bình thường.'
++	'Sill rụt rè ló mặt vào.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Gì thế?'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Em vào được không ạ?'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Ờ.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'A... ưm...'
++	\L_09789:
++	ZH 1:
++	'Em xin ngài, hãy thôi'
++	R
++	'làm sơn tặc, mau quay về'
++	R
++	'cuộc sống như trước đi ạ.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sill tuyên'
+-	R
+-	'bố điều này với Rance'
+-	R
+-	'với vẻ mặt nghiêm túc.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Lại nữa à...?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Rance dùng'
+-	R
+-	'ngón út ngoáy tai hắn'
+-	R
+-	'với vẻ không hài lòng.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Em không nghĩ đây'
+-	R
+-	'là công việc tốt.'
+-	\L_09789:
+-	ZH 1:
+-	'Dù khiêm tốn nhưng'
+-	R
+-	'ngài cũng nên sống'
+-	\L_09789:
+-	ZH 1:
+-	'cuộc sống của mình bằng'
+-	R
+-	'số tiền ngài tự kiếm được...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Này, im đi!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'（nấu ăn）'
++	'Sill nghiêm mặt'
++	R
++	'van nài Rance.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Lại chuyện đó à...'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Rance ngoáy tai, mặt'
++	R
++	'lộ rõ vẻ khó chịu.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Em nghĩ làm việc'
++	R
++	'này không tốt đâu ạ.'
++	\L_09789:
++	ZH 1:
++	'Dù đạm bạc, nhưng'
++	R
++	'sống bằng tiền'
++	\L_09789:
++	ZH 1:
++	'tự tay làm ra mới'
++	R
++	'là con người...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Ồn ào quá đi!'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'(cốc!)'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Rance đánh vào đầu Sill.'
+@@ -2716,23 +2696,21 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Em là nô lệ của'
+-	R
+-	'ta, em không thể bảo ta phải'
+-	R
+-	'làm gì!! Em nên giữ im lặng.'
+-	\L_09789:
+-	ZH 1:
+-	'Nếu tất cả'
+-	R
+-	'những gì em định làm là bỏ'
+-	R
+-	'rơi ta thì ta sẽ bỏ rơi em.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'N-Nhưng...'
++	'Nô lệ mà dám xía vào chuyện'
++	R
++	'của ta!! Em chỉ việc im'
++	R
++	'lặng theo ta là được.'
++	\L_09789:
++	ZH 1:
++	'Cứ ăn nói hỗn hào mãi'
++	R
++	'là ta vứt em đi đấy.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'S... sao lại thế......'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -2742,50 +2720,52 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Rance chỉ'
+-	R
+-	'vào chiếc giường.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Được rồi...'
++	'Rance chỉ tay vào giường.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Vâng...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sill vâng lời Rance'
+-	R
+-	'và ngồi thẳng trên giường.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Được rồi.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Rance tựa đầu'
+-	R
+-	'vào đùi Sill.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Tai ta ngứa. Cào chúng.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Được rồi... Hiểu rồi.'
++	'Sill ngoan ngoãn làm'
++	R
++	'theo, quỳ ngồi ngay'
++	R
++	'ngắn trên giường.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Hây dà.'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Rance gối đầu lên đùi'
++	R
++	'Sill rồi nằm xuống.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Ngứa tai quá.'
++	R
++	'Ngoáy tai cho ta.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Vâng... em hiểu rồi.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sill trả lời,'
+-	R
+-	'có vẻ hơi vui.'
++	'Sill đáp, gương mặt'
++	R
++	'thoáng vẻ hạnh phúc.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 0!
+@@ -2832,16 +2812,14 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sill ngoan ngoãn nghe lời'
+-	R
+-	'Rance, từng bước nhỏ đi lại'
+-	R
+-	'bên cạnh chàng.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Nào, mây mưa thôi.'
++	'Sill nghe lời Rance, lon'
++	R
++	'ton bước lại bên hắn.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Nào, làm thôi.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -2853,11 +2831,9 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Đêm hôm gọi nô lệ thì'
+-	R
+-	'ngoài chuyện làm tình ra còn'
+-	R
+-	'việc gì nữa hả. Mau lên!'
++	'Đêm hôm gọi nô lệ thì ngoài'
++	R
++	'SEX ra còn việc gì nữa. Nào!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -2867,9 +2843,9 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Rance kéo tuột Sill ngã'
+-	R
+-	'nhào lên giường.'
++	'Rance thô bạo kéo'
++	R
++	'Sill lên giường.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	PF1 VAR0056:
+@@ -2887,11 +2863,9 @@
+ 	PF0 VAR0056:
+ 	\L_09789:
+ 	ZH 1:
+-	'Bầu ngực của cô bị Rance'
+-	R
+-	'thô bạo xoa nắn trong bàn'
+-	R
+-	'tay.'
++	'Nhìn bầu ngực mình biến dạng'
++	R
++	'trong tay Rance, Sill nhíu mày.'
+ 	\L_09789:
+ *L_0311e:
+ 	ZH 1:
+@@ -3221,9 +3195,9 @@
+ 	PF0 VAR0056:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Rance gối đầu lên đùi'
+-	R
+-	'Sill, nằm lăn quay ra ngủ.'
++	'Rance gối đầu lên'
++	R
++	'đùi Sill, nằm ườn ra.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -3233,25 +3207,21 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Chuyện gì?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'……Em…… Liệu em có bị ngài'
+-	R
+-	'vứt bỏ... vì không giỏi'
+-	R
+-	'chiều chuộng ngài bằng chị'
+-	R
+-	'Soul không ạ...?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Nếu vụng về thì đúng là'
+-	R
+-	'thế đấy.'
++	'Gì?'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'...Em... vì kém hơn'
++	R
++	'chị Soul... nên sẽ bị'
++	R
++	'ngài vứt bỏ sao ạ...?'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Nếu kém thì có đấy.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -3261,27 +3231,25 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Thế nên là ráng mà tiến bộ'
+-	R
+-	'lên. Có thế thì ta mới không'
+-	R
+-	'vứt bỏ.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'……Vâng ạ…… Em sẽ nỗ lực'
+-	R
+-	'hết sức ạ……'
++	'Thế thì giỏi lên đi.'
++	R
++	'Rồi ta sẽ không vứt em.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'......Vâng...... em'
++	R
++	'sẽ... cố gắng......'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096f0:
+ 	ZH 1:
+-	'Nhưng mà... xấu hổ quá...'
+-	R
+-	'Rốt cuộc mình phải làm thế'
+-	R
+-	'nào để tiến bộ đây chứ...'
++	'Nhưng mà... ngượng'
++	R
++	'quá... cố gắng thì'
++	R
++	'phải làm thế nào đây...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0969c:
+@@ -3321,39 +3289,39 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Thành phố nhà tù Volgo Z'
+-	R
+-	'Nhiều tội phạm, kẻ phản bội,'
+-	\L_09789:
+-	ZH 1:
+-	'quân địch'
+-	R
+-	'và những thứ tương tự đang'
+-	R
+-	'tập trung tại thành phố này,'
+-	\L_09789:
+-	ZH 1:
+-	'nơi có Nhà tù Volgo.'
+-	\L_09789:
+-	ZH 1:
+-	'Sill và Soul'
+-	R
+-	'bị giam trong một căn'
+-	R
+-	'phòng của nhà tù đó.'
++	'Thành phố ngục tù Volgo Z'
++	R
++	'Thành phố có nhà tù Volgo,'
++	\L_09789:
++	ZH 1:
++	'nơi giam giữ đủ hạng'
++	R
++	'tội phạm, kẻ chống'
++	R
++	'đối vương quốc,'
++	\L_09789:
++	ZH 1:
++	'lính địch...'
++	\L_09789:
++	ZH 1:
++	'Trong một phòng giam'
++	R
++	'đôi ở đó, Sill và'
++	R
++	'Soul đang bị giam.'
+ 	\L_09789:
+ 	SS 3:
+ 	ZH 1:
+-	'Họ ngồi dựa vào'
+-	R
+-	'bức tường đối diện, ôm đầu'
+-	R
+-	'gối và quay mặt vào nhau.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Trời lạnh...'
++	'Hai người ngồi bó'
++	R
++	'gối dựa vào hai bức'
++	R
++	'tường đối diện nhau.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Lạnh nhỉ......'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -3363,145 +3331,135 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Vì lạnh giá và'
+-	R
+-	'bất lực, mỗi ngày trôi'
+-	R
+-	'qua họ càng ít nói.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Chuyện gì sẽ xảy'
+-	R
+-	'ra với chúng ta...?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Cuối cùng họ sẽ'
+-	R
+-	'thả chúng ta ra...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'... Đại ca có ngốc không?'
+-	\L_09789:
+-	ZH 1:
+-	'Chúng em là kẻ'
+-	R
+-	'trộm, đại ca biết đấy.'
+-	\L_09789:
+-	ZH 1:
+-	'Khi những'
+-	R
+-	'tên trộm bị bắt, đó là'
+-	R
+-	'kết thúc của chúng...'
+-	\L_09789:
+-	ZH 1:
+-	'Hành quyết... Rõ ràng'
+-	R
+-	'là chúng ta sẽ bị giết.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
++	'Vì lạnh và vì lo sợ,'
++	R
++	'ngày qua ngày hai'
++	R
++	'người càng ít nói.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Rồi bọn mình...'
++	R
++	'sẽ ra sao đây...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Biết đâu sẽ có'
++	R
++	'ngày được thả...'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'......Cô... ngốc à?'
++	\L_09789:
++	ZH 1:
++	'Bọn mình là sơn tặc đấy?'
++	\L_09789:
++	ZH 1:
++	'Sơn tặc bị bắt'
++	R
++	'là hết đời......'
++	\L_09789:
++	ZH 1:
++	'Xử tử... chắc chắn'
++	R
++	'sẽ bị giết thôi.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Sao lại thế......'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Hồi trước tôi'
++	R
++	'nghe anh hai kể...'
++	\L_09789:
++	ZH 1:
++	'là có cái gọi là xét xử...'
++	R
++	'nhưng chỉ làm cho có thôi...'
++	\L_09789:
++	ZH 1:
++	'Sau đó là ngay lập tức...'
++	\L_09789:
++	\L_0977c:
++	\L_0970c:
++	ZH 1:
++	'Soul tự bóp chặt'
++	R
++	'lấy cổ mình.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Chị Soul......'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Khóc cũng vô ích'
++	R
++	'thôi. Tôi cũng......'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Chị không sợ sao...?'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Sợ chứ sao không.'
++	R
++	'Sẽ chết... đấy...'
++	\L_09789:
+ 	ZH 1:
+ 	'Nhưng...'
+ 	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Cách đây không lâu'
+-	R
+-	'anh trai em đã nói với'
+-	R
+-	'em điều này, nhưng...'
+-	\L_09789:
+-	ZH 1:
+-	'Có gì đó giống như'
+-	R
+-	'một cuộc thử thách... Nhưng'
+-	R
+-	'đó chỉ là hình thức thôi...'
+-	\L_09789:
+-	ZH 1:
+-	'Ngay sau đó...'
++	ZH 1:
++	'Chẳng làm gì được.'
++	R
++	'Đồng bọn thì tan tác'
++	R
++	'mỗi người một ngả.'
++	\L_09789:
++	ZH 1:
++	'Dù có ai còn sống, cũng'
++	R
++	'chẳng cách nào biết'
++	R
++	'bọn mình ở đây......'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'............'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'...Haizz... Trước khi chết,'
++	R
++	'muốn được làm thêm lần nữa'
++	R
++	'với đại ca Rance ghê...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Soul'
+-	R
+-	'ôm lấy cổ mình như thể'
+-	R
+-	'đang bóp cổ chính mình.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Soul...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Khóc cũng vô'
+-	R
+-	'ích. Bởi vì em...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Ngài không sợ sao...?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Tất nhiên là em'
+-	R
+-	'sợ. Em... sẽ chết...'
+-	\L_09789:
+-	ZH 1:
+-	'Nhưng...'
+-	\L_09789:
+-	ZH 1:
+-	'Em không'
+-	R
+-	'thể làm gì được. Đồng minh'
+-	R
+-	'của chúng ta đã biến mất.'
+-	\L_09789:
+-	ZH 1:
+-	'Và ngay cả khi họ còn'
+-	R
+-	'sống, họ cũng không có cách'
+-	R
+-	'nào biết chúng ta ở đây...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'............'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'... Aaah... Trước'
+-	R
+-	'khi chết... em muốn làm điều'
+-	R
+-	'đó với Rance một lần nữa...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0970c:
+-	ZH 1:
+-	'(swoooosh)'
+-	\L_09789:
+-	ZH 1:
+-	'Bên ngoài,'
+-	R
+-	'gió lớn gào thét.'
++	'(vù vù...)'
++	\L_09789:
++	ZH 1:
++	'Bên ngoài, gió'
++	R
++	'rít lên dữ dội.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	SS 0:
+@@ -3533,26 +3491,26 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Thành phố nhà tù Volgo Z'
+-	R
+-	'Nhiều tội phạm, kẻ phản bội,'
+-	\L_09789:
+-	ZH 1:
+-	'quân địch'
+-	R
+-	'và những thứ tương tự đang'
+-	R
+-	'tập trung tại thành phố này,'
+-	\L_09789:
+-	ZH 1:
+-	'nơi có Nhà tù Volgo.'
+-	\L_09789:
+-	ZH 1:
+-	'Sill và Soul'
+-	R
+-	'bị giam trong một căn'
+-	R
+-	'phòng của nhà tù đó.'
++	'Thành phố ngục tù Volgo Z'
++	R
++	'Thành phố có nhà tù Volgo,'
++	\L_09789:
++	ZH 1:
++	'nơi giam giữ đủ hạng'
++	R
++	'tội phạm, kẻ chống'
++	R
++	'đối vương quốc,'
++	\L_09789:
++	ZH 1:
++	'lính địch...'
++	\L_09789:
++	ZH 1:
++	'Trong một phòng giam'
++	R
++	'đôi ở đó, Sill và'
++	R
++	'Soul đang bị giam.'
+ 	\L_09789:
+ 	SS 3:
+ 	\L_0977c:
+@@ -3568,11 +3526,9 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sự im lặng'
+-	R
+-	'bao trùm căn phòng của'
+-	R
+-	'họ như một tấm chăn.'
++	'Sự im lặng buông xuống'
++	R
++	'căn phòng như một tấm màn.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -3582,17 +3538,15 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Soul cắn móng'
+-	R
+-	'tay thật mạnh.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Hả...?'
+-	\L_09789:
+-	ZH 1:
+-	'Này!!'
++	'Soul cắn chặt móng tay.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Ư......'
++	\L_09789:
++	ZH 1:
++	'Khốn kiếp!!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+@@ -3602,51 +3556,55 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Thả em ra!!'
++	'Thả ra!!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'（Điều khoản）'
+-	\L_09789:
+-	ZH 1:
+-	'Soul dùng hết sức'
+-	R
+-	'lực đá vào cánh cửa.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Thả em ra!! Anh định nhốt'
+-	R
+-	'em ở nơi buồn bã này đến'
+-	R
+-	'bao giờ nữa?!! Thả em ra!!'
+-	\L_09789:
+-	ZH 1:
+-	'Hiện nay!!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Dừng lại đi Soul Soul...'
+-	R
+-	'Chân em sẽ đau đấy...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Cậu có thể tiếp tục ngồi'
+-	R
+-	'đó nếu muốn!! Em đã có nó!!'
+-	\L_09789:
+-	ZH 1:
+-	'Ờ...'
+-	\L_09789:
+-	ZH 1:
+-	'Em sẽ không ngồi'
+-	R
+-	'chờ chết ở đây đâu...!!'
++	'(rầm!)'
++	\L_09789:
++	ZH 1:
++	'Soul dồn hết sức'
++	R
++	'đá vào cánh cửa.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Thả ra!! Định nhốt bọn'
++	R
++	'tao ở chỗ ngột ngạt'
++	R
++	'này đến bao giờ hả!!'
++	\L_09789:
++	ZH 1:
++	'Thả ra!! Thả ngay!!'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Chị Soul, đừng mà...'
++	R
++	'Chân chị sẽ đau đấy...'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Sao cô ngồi im chịu'
++	R
++	'đựng được thế!! Tôi'
++	R
++	'chịu hết nổi rồi!!'
++	\L_09789:
++	ZH 1:
++	'Ở cái... chỗ thế này...'
++	\L_09789:
++	ZH 1:
++	'ngồi im chờ chết'
++	R
++	'thế này...!! Tôi'
++	R
++	'không chịu đâu!!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+@@ -3658,40 +3616,36 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Chúng ta vẫn còn'
+-	R
+-	'có Chủ nhân Rance.'
+-	\L_09789:
+-	ZH 1:
+-	'Em chắc chắn chúng'
+-	R
+-	'em sẽ được an toàn'
+-	R
+-	'nhờ có chủ nhân...'
+-	\L_09789:
+-	ZH 1:
+-	'Chủ nhân sẽ'
+-	R
+-	'cứu chúng ta...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Làm thế nào? Đây là'
+-	R
+-	'nhà tù phải không? Cho dù'
+-	R
+-	'Rance có mạnh đến đâu...'
+-	\L_09789:
+-	ZH 1:
+-	'Làm sao đại ca biết'
+-	R
+-	'được chúng ta đang ở đây?!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Đó là...'
++	'Vẫn còn ngài Rance mà.'
++	\L_09789:
++	ZH 1:
++	'Ngài Rance thì chắc'
++	R
++	'chắn vẫn bình an...'
++	\L_09789:
++	ZH 1:
++	'Ngài Rance nhất'
++	R
++	'định sẽ đến cứu...'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Bằng cách nào? Đây là'
++	R
++	'nhà tù đấy? Đại ca Rance'
++	R
++	'có mạnh mấy đi nữa...'
++	\L_09789:
++	ZH 1:
++	'thì làm sao biết được tin'
++	R
++	'bọn mình đang ở đây chứ!'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Chuyện đó...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -3699,65 +3653,65 @@
+ 	'............'
+ 	\L_09789:
+ 	ZH 1:
+-	'Ờ...'
+-	\L_09789:
+-	ZH 1:
+-	'Không...'
+-	\L_09789:
+-	ZH 1:
+-	'Không... Bị ràng'
+-	R
+-	'buộc... Em muốn về nhà...'
++	'Hức......'
++	\L_09789:
++	ZH 1:
++	'Không......'
++	\L_09789:
++	ZH 1:
++	'Không chịu đâu... Anh hai'
++	R
++	'ơi... em muốn về nhà...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Nước mắt bắt đầu chảy'
+-	R
+-	'dài trên khuôn mặt của Soul.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Soul...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Sill chạy đến chỗ'
+-	R
+-	'Soul và ôm cô thật chặt.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'H-Hick... Waah...'
++	'Soul nhăn nhúm mặt mày,'
++	R
++	'òa khóc ngay tại chỗ.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Chị Soul......'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Sill chạy lại, nhẹ'
++	R
++	'nhàng ôm Soul vào lòng.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'H... hức...... oa......'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Soul nức nở'
+-	R
+-	'trong lồng ngực Sill.'
+-	\L_09789:
+-	ZH 1:
+-	'Sill vuốt tóc Soul.'
++	'Soul thổn thức'
++	R
++	'trong lòng Sill.'
++	\L_09789:
++	ZH 1:
++	'Sill khẽ vuốt tóc Soul.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09680:
+ 	ZH 1:
+-	'Chủ nhân Rance...'
+-	\L_09789:
+-	ZH 1:
+-	'Ngài tin em... Em sẽ đến...'
+-	\L_09789:
+-	ZH 1:
+-	'Em ở đây...'
+-	R
+-	'Xin hãy cứu em...'
+-	\L_09789:
+-	ZH 1:
+-	'Chủ nhân Rance...'
++	'Ngài Rance......'
++	\L_09789:
++	ZH 1:
++	'Em tin... ngài sẽ đến...'
++	\L_09789:
++	ZH 1:
++	'Sill ở đây... xin'
++	R
++	'ngài hãy đến cứu em...'
++	\L_09789:
++	ZH 1:
++	'Ngài Rance......'
+ 	\L_09789:
+ 	\L_0977c:
+ 	SS 0:
+@@ -3790,26 +3744,26 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Thành phố nhà tù Volgo Z'
+-	R
+-	'Nhiều tội phạm, kẻ phản bội,'
+-	\L_09789:
+-	ZH 1:
+-	'quân địch'
+-	R
+-	'và những thứ tương tự đang'
+-	R
+-	'tập trung tại thành phố này,'
+-	\L_09789:
+-	ZH 1:
+-	'nơi có Nhà tù Volgo.'
+-	\L_09789:
+-	ZH 1:
+-	'Sill và Soul'
+-	R
+-	'bị giam trong một căn'
+-	R
+-	'phòng của nhà tù đó.'
++	'Thành phố ngục tù Volgo Z'
++	R
++	'Thành phố có nhà tù Volgo,'
++	\L_09789:
++	ZH 1:
++	'nơi giam giữ đủ hạng'
++	R
++	'tội phạm, kẻ chống'
++	R
++	'đối vương quốc,'
++	\L_09789:
++	ZH 1:
++	'lính địch...'
++	\L_09789:
++	ZH 1:
++	'Trong một phòng giam'
++	R
++	'đôi ở đó, Sill và'
++	R
++	'Soul đang bị giam.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	SS 3:
+@@ -3818,17 +3772,17 @@
+ 	'Này, tránh ra!'
+ 	\L_09789:
+ 	ZH 1:
+-	'Nhưng...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Nó có thể là gì...?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Ồn ào quá...'
++	'Nhưng mà...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Chuyện gì vậy nhỉ...?'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'...Ồn ào thật...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -3838,24 +3792,24 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Nếu tôi làm vậy...'
+-	\L_09789:
+-	ZH 1:
+-	'Không sao đâu. Bất cứ điều'
+-	R
+-	'gì tôi làm sẽ được tha thứ.'
+-	\L_09789:
+-	ZH 1:
+-	'Họ nghe thấy giọng nói của'
+-	R
+-	'một người bảo vệ đang bối'
+-	R
+-	'rối và một phụ nữ lớn tuổi.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'... Em có linh cảm xấu.'
++	'Bà làm vậy thì...'
++	\L_09789:
++	ZH 1:
++	'Được mà. Ta làm gì cũng'
++	R
++	'được phép hết đấy nhé.'
++	\L_09789:
++	ZH 1:
++	'Có tiếng cai ngục bối'
++	R
++	'rối cùng giọng một'
++	R
++	'người đàn bà đứng tuổi.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'......Thấy ghê ghê sao ấy.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -3865,9 +3819,9 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Ôi trời, chúng'
+-	R
+-	'trông đẹp quá.'
++	'Ồ, có hàng tốt đây này.'
++	R
++	'Lại còn những hai đứa.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -3875,106 +3829,100 @@
+ 	\L_09728:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Một người phụ nữ đang'
+-	R
+-	'nhìn họ qua song sắt nhà tù.'
++	'Một người đàn bà'
++	R
++	'nhòm vào phòng hai'
++	R
++	'người qua song sắt.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09680:
+ 	ZH 1:
+-	'... Cái gì?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Huhu... ... Ừ.'
+-	\L_09789:
+-	ZH 1:
+-	'Tốt. Rất tốt. Hohohohohoh.'
++	'......Gì vậy?'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Hừm hừm...... ......Ừm'
++	\L_09789:
++	ZH 1:
++	'được đấy. Rất được'
++	R
++	'đấy nhé. Ohohohoho.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Tiếng cười của'
+-	R
+-	'người phụ nữ chói tai.'
+-	\L_09789:
+-	ZH 1:
+-	'Sau đó tất'
+-	R
+-	'cả những gì họ nghe thấy là'
+-	R
+-	'người bảo vệ đang run rẩy.'
++	'Người đàn bà cười the thé.'
++	\L_09789:
++	ZH 1:
++	'Còn gã cai ngục chỉ'
++	R
++	'biết luống cuống.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09680:
+ 	ZH 1:
+-	'Em sợ...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Sill vô cùng sợ hãi.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Tôi đã đưa ra quyết'
+-	R
+-	'định của mình. Một trong hai'
+-	R
+-	'người này sẽ về nhà với tôi.'
++	'Sợ quá...'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Sill run sợ.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Quyết rồi. Một trong hai'
++	R
++	'đứa này, ta sẽ mang về.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'N-Nhưng... Bà'
+-	R
+-	'không thể làm vậy được,'
+-	R
+-	'bà Gorch. Theo quy định...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Sill...'
+-	\L_09789:
+-	ZH 1:
+-	'Em biết điều gì'
+-	R
+-	'sẽ xảy ra nếu em không vâng'
+-	R
+-	'lời ta rồi đấy, đúng không?'
+-	\L_09789:
+-	ZH 1:
+-	'Em muốn đi đâu?'
+-	\L_09789:
+-	ZH 1:
+-	'Làm lính canh'
+-	R
+-	'ở Siberia thì sao?'
++	'S... sao lại... Thế thì'
++	R
++	'khổ tôi, Madame Gorch.'
++	R
++	'Theo quy định thì...'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Ngươi...'
++	\L_09789:
++	ZH 1:
++	'biết chống lại ta thì'
++	R
++	'sẽ ra sao rồi chứ hả?'
++	\L_09789:
++	ZH 1:
++	'Muốn đi đâu nào?'
++	\L_09789:
++	ZH 1:
++	'Làm cai ngục ở'
++	R
++	'Siberia thì sao?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Không thể nghe'
+-	R
+-	'thấy giọng nói nào,'
+-	\L_09789:
+-	ZH 1:
+-	'nhưng người'
+-	R
+-	'đàn ông cứng đờ và biết rằng'
+-	R
+-	'mình không nên nói gì thêm.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Hãy xem...'
+-	\L_09789:
+-	ZH 1:
+-	'Em sẽ ổn thôi.'
++	'Dù không nghe thấy tiếng,'
++	\L_09789:
++	ZH 1:
++	'nhưng không khí cho'
++	R
++	'thấy gã đàn ông đã cứng'
++	R
++	'đờ, không thốt nên lời.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Xem nào...'
++	\L_09789:
++	ZH 1:
++	'Cô đây được đấy.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096c6:
+@@ -3987,88 +3935,86 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Bà Gorch đang'
+-	R
+-	'chỉ vào Soul.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Tại sao lại là em...?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Nhanh lên và mở khóa cửa.'
++	'Ngón tay Madame Gorch'
++	R
++	'chỉ thẳng vào Soul.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Gì chứ, tôi thì sao...'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Mau mở khóa ra.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Người bảo vệ im'
+-	R
+-	'lặng làm theo mệnh lệnh.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Hô hô hô hô.'
++	'Gã cai ngục lặng'
++	R
++	'lẽ mở khóa cửa.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Ohohohohoho.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Bà Gorch'
+-	R
+-	'bước vào phòng giam và dùng'
+-	R
+-	'ngón tay nâng cằm Soul lên.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Ôi, thật là'
+-	R
+-	'hoang dã... Tôi chưa bao giờ'
+-	R
+-	'có một cô gái như thế này.'
+-	\L_09789:
+-	ZH 1:
+-	'Nàng sẽ hét lên'
+-	R
+-	'như thế nào...? Tôi'
+-	R
+-	'nóng lòng muốn xem.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Cậu vừa nói gì thế'
+-	R
+-	'hả đồ khốn?! Sao mày dám!!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Ừm...'
+-	\L_09789:
+-	ZH 1:
+-	'Đấm nàng.'
++	'Madame Gorch bước vào'
++	R
++	'phòng giam, đưa ngón'
++	R
++	'tay nâng cằm Soul lên.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Chà, đầy chất hoang'
++	R
++	'dã... Loại con gái thế'
++	R
++	'này ta chưa có bao giờ.'
++	\L_09789:
++	ZH 1:
++	'Không biết sẽ kêu rên ra sao'
++	R
++	'đây... Thật đáng mong chờ.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Gì hả, mụ già!'
++	R
++	'Vô lễ vừa thôi!!'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Hừm......'
++	\L_09789:
++	ZH 1:
++	'Đánh nó.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'(pow)'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'À!!'
++	'(bốp!)'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Á!!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Soul bị vệ sĩ của'
+-	R
+-	'bà Gorch đấm vào mặt.'
++	'Soul bị gã vệ sĩ theo hầu'
++	R
++	'Madame Gorch đấm vào má.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096c6:
+@@ -4076,95 +4022,93 @@
+ 	\L_096b8:
+ 	\L_09664:
+ 	ZH 1:
+-	'Soul!!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Soul'
+-	R
+-	'dường như bất tỉnh và ngã úp'
+-	R
+-	'mặt xuống giường, bất động.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Bây giờ, hãy'
+-	R
+-	'mang nàng theo.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Cái...'
+-	\L_09789:
+-	ZH 1:
+-	'Đợi đã, ngài'
+-	R
+-	'định làm gì với Soul?'
++	'Chị Soul!!'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Hình như Soul đã ngất'
++	R
++	'đi, nằm úp mặt trên'
++	R
++	'giường, không cử động.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Nào, mang đi đi.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Kh......'
++	\L_09789:
++	ZH 1:
++	'Khoan đã, bà định'
++	R
++	'làm gì chị Soul?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Bà Gorch quay lại.'
+-	\L_09789:
+-	ZH 1:
+-	'Ánh mắt giống như con rắn'
+-	R
+-	'của cô khiến Sill lùi lại.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Cuối cùng, điều tương tự'
+-	R
+-	'mà ta sẽ làm với ngươi...'
+-	\L_09789:
+-	ZH 1:
+-	'Hô hô...'
+-	\L_09789:
+-	ZH 1:
+-	'Hohohohohohohoh. Tôi không'
+-	R
+-	'thể đợi được. Tôi sẽ sớm vui'
+-	R
+-	'vẻ với ngươi... Được chứ?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Soul! Soul!!'
++	'Madame Gorch chầm'
++	R
++	'chậm quay lại.'
++	\L_09789:
++	ZH 1:
++	'Ánh mắt như rắn khiến'
++	R
++	'Sill rùng mình co rúm.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Rồi sớm muộn cô'
++	R
++	'bé cũng......'
++	\L_09789:
++	ZH 1:
++	'Hôhô......'
++	\L_09789:
++	ZH 1:
++	'Ohohohohohoho. Thật đáng'
++	R
++	'mong chờ. Niềm vui phải'
++	R
++	'từ từ tận hưởng... nhỉ?'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Chị Soul! Chị Soul!!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Soul'
+-	R
+-	'được người vệ sĩ trên vai'
+-	R
+-	'khiêng ra khỏi phòng giam.'
+-	\L_09789:
+-	ZH 1:
+-	'（đứng dậy）'
+-	\L_09789:
+-	ZH 1:
+-	'Sill cố gắng đuổi'
+-	R
+-	'họ ra ngoài, nhưng chóp mũi'
+-	R
+-	'của cô đã chạm vào cánh cửa.'
+-	\L_09789:
+-	ZH 1:
+-	'Nó bị đóng sầm'
+-	R
+-	'lại và khóa lại.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Soul...'
++	'Soul bị gã vệ sĩ'
++	R
++	'vác lên vai, mang'
++	R
++	'ra khỏi phòng giam.'
++	\L_09789:
++	ZH 1:
++	'(rầm)'
++	\L_09789:
++	ZH 1:
++	'Sill chạy theo, nhưng'
++	R
++	'cánh cửa đã đóng sập'
++	R
++	'ngay trước mũi nàng,'
++	\L_09789:
++	ZH 1:
++	'rồi bị khóa lại.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Chị Soul......'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 0!
+@@ -4194,93 +4138,89 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Thành phố nhà tù Volgo Z'
+-	R
+-	'Nhiều tội phạm, kẻ phản bội,'
+-	\L_09789:
+-	ZH 1:
+-	'quân địch'
+-	R
+-	'và những thứ tương tự đang'
+-	R
+-	'tập trung tại thành phố này,'
+-	\L_09789:
+-	ZH 1:
+-	'nơi có Nhà tù Volgo.'
++	'Thành phố ngục tù Volgo Z'
++	R
++	'Thành phố có nhà tù Volgo,'
++	\L_09789:
++	ZH 1:
++	'nơi giam giữ đủ hạng'
++	R
++	'tội phạm, kẻ chống'
++	R
++	'đối vương quốc,'
++	\L_09789:
++	ZH 1:
++	'lính địch...'
+ 	\L_09789:
+ 	SS 3:
+ 	ZH 1:
+-	'Sill bị nhốt'
+-	R
+-	'một mình trong một căn'
+-	R
+-	'phòng của nhà tù đó.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'…Ồ.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Sau một tiếng'
+-	R
+-	'hắt hơi lặng lẽ, Sill'
+-	R
+-	'vòng tay ôm lấy mình.'
++	'Trong một phòng giam đôi ở'
++	R
++	'đó, Sill bị nhốt một mình.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'......Hắt xì.'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Hắt hơi khẽ một cái,'
++	R
++	'Sill tự ôm chặt lấy mình.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09680:
+ 	ZH 1:
+-	'Trời lạnh...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'（swoooooosh）'
+-	\L_09789:
+-	ZH 1:
+-	'Một cơn gió mạnh thổi qua.'
++	'Lạnh quá......'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'(vù vù...)'
++	\L_09789:
++	ZH 1:
++	'Gió thổi mạnh.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09680:
+ 	ZH 1:
+-	'Em tự hỏi chuyện gì'
+-	R
+-	'đã xảy ra với Soul...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Ờ...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Nước mắt cô trào ra.'
++	'Từ hôm đó... chị Soul'
++	R
++	'không biết ra sao rồi...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Hức......'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Nước mắt lăn dài.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09680:
+ 	ZH 1:
+-	'Em cô đơn...'
+-	\L_09789:
+-	ZH 1:
+-	'Em cô đơn...'
+-	R
+-	'Chủ nhân Rance...'
+-	\L_09789:
+-	ZH 1:
+-	'Xin hãy đến'
+-	R
+-	'sớm... Chủ nhân Rance...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Sill ngồi ôm chân và'
+-	R
+-	'vùi mặt vào đầu gối.'
++	'Cô đơn quá......'
++	\L_09789:
++	ZH 1:
++	'Em cô đơn lắm...'
++	R
++	'ngài Rance...'
++	\L_09789:
++	ZH 1:
++	'Xin ngài mau đến......'
++	R
++	'ngài Rance......'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Sill ngồi bó gối, vùi'
++	R
++	'mặt vào giữa hai đầu gối.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 0!
+@@ -4385,12 +4325,14 @@
+ 	'Ugoaa!!'
+ 	\L_09789:
+ 	ZH 1:
+-	'Có tiếng cãi vã giữa một'
+-	R
+-	'giọng phụ nữ the thé'
+-	\L_09789:
+-	ZH 1:
+-	'và người lính coi ngục.'
++	'Có tiếng một người đàn'
++	R
++	'bà đứng tuổi the thé'
++	\L_09789:
++	ZH 1:
++	'đang cãi nhau'
++	R
++	'với gã cai ngục.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09680:
+@@ -4411,9 +4353,9 @@
+ 	'＜Cạch＞'
+ 	\L_09789:
+ 	ZH 1:
+-	'Ổ khóa buồng giam giam giữ'
+-	R
+-	'Sill đã được mở tung.'
++	'Khóa cửa phòng giam'
++	R
++	'nhốt Sill bật mở.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 410!
+@@ -4425,9 +4367,9 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'May quá rồi. Cô bé vẫn còn'
+-	R
+-	'sống nhăn răng nhỉ.'
++	'Tốt quá. Cô bé vẫn'
++	R
++	'còn sống đấy nhỉ.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -4439,14 +4381,14 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Nó đang sống rất vui vẻ ở'
+-	R
+-	'dinh thự của ta.'
+-	\L_09789:
+-	ZH 1:
+-	'Ta đến đây là để mời cả cô'
+-	R
+-	'bé đến chơi đấy.'
++	'Nó đang sống vui'
++	R
++	'vẻ ở nhà ta đấy.'
++	\L_09789:
++	ZH 1:
++	'Ta đến để mời cả'
++	R
++	'cô bé về chơi đây.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -4494,9 +4436,9 @@
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Chao ôi, một cô bé yếu ớt'
+-	R
+-	'ở nơi tồi tàn này...'
++	'Chao ôi, con gái một'
++	R
++	'mình ở chỗ thế này...'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Chắc là sợ hãi lắm nhỉ?'
+@@ -4565,11 +4507,9 @@
+ 	'giá.'
+ 	\L_09789:
+ 	ZH 1:
+-	'Ở đất nước này, tiếng nói'
+-	R
+-	'của ta cũng có trọng lượng'
+-	R
+-	'lắm đấy.'
++	'Ở đất nước này, ta là'
++	R
++	'người có quyền thế đấy.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09680:
+@@ -4655,9 +4595,9 @@
+ 	'＜Cạch＞'
+ 	\L_09789:
+ 	ZH 1:
+-	'Chiếc lắc chân bằng vàng'
+-	R
+-	'siết chặt vào cổ chân Sill.'
++	'Một chiếc vòng vàng được'
++	R
++	'đeo vào cổ chân Sill.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -4676,12 +4616,10 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'À, phải rồi...'
+-	\L_09789:
+-	ZH 1:
+-	'Cô bé có muốn gặp nó không'
+-	R
+-	'nào?'
++	'À......'
++	\L_09789:
++	ZH 1:
++	'Muốn gặp nó à?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0969c:
+@@ -4710,21 +4648,19 @@
+ 	'gặp nó.'
+ 	\L_09789:
+ 	ZH 1:
+-	'Sau đó, cô bé cũng sẽ trở'
+-	R
+-	'thành một thành viên trong'
+-	R
+-	'đó nhé.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Thành viên...?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Nào, đi thôi.'
++	'Rồi cô bé cũng sẽ sớm'
++	R
++	'nhập hội với nó thôi.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Nhập hội...?'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Nào, lối này.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -4744,16 +4680,16 @@
+ 	'sang một căn phòng khác.'
+ 	\L_09789:
+ 	ZH 1:
+-	'Đó là một căn phòng u tối'
+-	R
+-	'và nồng nặc mùi hôi hám.'
++	'Đó là một căn phòng hơi tối,'
++	R
++	'phảng phất mùi gì đó u uất.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09680:
+ 	ZH 1:
+-	'Chị Soul... đang ở đây'
+-	R
+-	'sao...?'
++	'Chị Soul... ở chỗ'
++	R
++	'thế này sao...?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0969c:
+@@ -4765,7 +4701,7 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Nhìn kìa.'
++	'Nhìn xem này.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -4933,12 +4869,10 @@
+ 	'Sill 「...Ủa?」'
+ 	\L_09789:
+ 	ZH 1:
+-	'Gorch 「...Kìa kìa...」'
+-	\L_09789:
+-	ZH 1:
+-	'Sill 「...Tại sao em lại'
+-	R
+-	'không dùng được ma pháp?」'
++	'Gorch 「......Khúc khích......」'
++	\L_09789:
++	ZH 1:
++	'Sill 「Sao... lại không dùng được ma pháp?」'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Gorch 「Hohohohohoho!」'
+@@ -5139,11 +5073,9 @@
+ 	'Hôoooo-ho-ho-ho-ho-ho!」'
+ 	\L_09789:
+ 	ZH 1:
+-	'Sill (Chủ...) Sill (Chủ'
+-	R
+-	'nhân... Rance......) Sill'
+-	R
+-	'gục đầu xuống.'
++	'Sill (Ran...) Sill (Ngài...'
++	R
++	'Rance......) Sill gục đầu xuống.'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Gorch 「Ôi chao... Ngất xỉu'
+@@ -5170,11 +5102,9 @@
+ 	'hai cánh hoa của Sill.'
+ 	\L_09789:
+ 	ZH 1:
+-	'Gorch 「Hức...... hức'
+-	R
+-	'hức......'
+-	R
+-	'hohohohohohohohoho!」'
++	'Gorch 「Khục...... khục'
++	R
++	'khục...... hohohohohohoho!」'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Gorch'
+@@ -5437,14 +5367,14 @@
+ 	R
+ 	'Thành phố ngục tù Volgo Z'
+ 	R
+-	'Lùng sục khắp nơi cho ta!!!'
+-	\L_09789:
+-	ZH 1:
+-	'Từ từng ngọn cỏ đến từng'
+-	R
+-	'kẽ hở trong mỗi ngôi nhà!!'
+-	R
+-	'Tất cả mọi nơi!!'
++	'Tìm điiii!!!'
++	\L_09789:
++	ZH 1:
++	'Từ gốc cỏ cho tới'
++	R
++	'kẽ hở trong nhà, lục'
++	R
++	'tung hết cho ta!!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0969c:
+@@ -5454,30 +5384,26 @@
+ 	'riết sục sạo khắp thành phố.'
+ 	\L_09789:
+ 	ZH 1:
+-	'Hắn nhận được nguồn tin'
+-	R
+-	'tình báo cho biết'
+-	\L_09789:
+-	ZH 1:
+-	'Sill đang bị giam cầm ở'
+-	R
+-	'một nơi nào đó trong thành'
+-	R
+-	'phố này.'
++	'Bởi hắn đã nhận được tin'
++	\L_09789:
++	ZH 1:
++	'Sill đang bị giam'
++	R
++	'ở thành phố này.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09680:
+ 	ZH 1:
+-	'Sill... Em ở đâu hả đồ'
+-	R
+-	'ngốc này!!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Mau tìm đi!! Đừng có đứng'
+-	R
+-	'đực mặt ra đấy!!'
++	'Sill... em ở đâu'
++	R
++	'hả. Đồ ngốc!!'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Tìm đi!! Hừừừừừ...'
++	R
++	'còn lề mề cái gìiii!!!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	{VAR0399 < 5:
+@@ -5499,7 +5425,7 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Chỗ này sao?!'
++	'Chỗ này à!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0969c:
+@@ -5509,16 +5435,14 @@
+ 	'của Madame Gorch.'
+ 	\L_09789:
+ 	ZH 1:
+-	'Rance đã lần ra được Sill'
+-	R
+-	'đang ở đây'
+-	\L_09789:
+-	ZH 1:
+-	'sau khi đánh nhừ tử tên'
+-	R
+-	'cai ngục nơi cô từng bị'
+-	R
+-	'nhốt.'
++	'Hắn đã đấm bay tên giám'
++	R
++	'ngục nơi giam Sill,'
++	\L_09789:
++	ZH 1:
++	'và lần ra được chỗ'
++	R
++	'Sill bị đưa tới.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -5528,11 +5452,9 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Sau khi quát lệnh cho'
+-	R
+-	'thuộc hạ, hắn đạp tung cánh'
+-	R
+-	'cổng.'
++	'Quát lệnh cho thuộc hạ'
++	R
++	'xong, Rance đạp tung cửa.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -5546,58 +5468,56 @@
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Cái gì thế này?! Sao các'
+-	R
+-	'người dám tự tiện xông vào'
+-	R
+-	'nhà người khác...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Bà là mụ Gorch phải không?'
+-	R
+-	'Đồ mụ già khốn kiếp.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Ối trời ôi, chao ôi!! Thật'
+-	R
+-	'là thô lỗ vô giáo dục!'
+-	\L_09789:
+-	ZH 1:
+-	'Mà nhìn kỹ thì... ngươi'
+-	R
+-	'cũng là một gã đàn ông ngon'
+-	R
+-	'lành đấy chứ.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Ta đây ngon lành hơn bất'
+-	R
+-	'kỳ ai trên đời này, chuyện'
+-	R
+-	'đó cần gì mụ nói.'
+-	\L_09789:
+-	ZH 1:
+-	'Mau thả Sill ra ngay, mụ'
++	'Gì thế này! Dám'
++	R
++	'vào nhà người ta mà'
++	R
++	'không xin phép...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Mụ là Madame'
++	R
++	'Gorch hả. Mụ già.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Ối, ối, ối trờiii!! Dám'
++	R
++	'gọi ta là mụ già, vô lễ!'
++	\L_09789:
++	ZH 1:
++	'Ơ kìa... nhìn kỹ thì'
++	R
++	'cũng là một chàng'
++	R
++	'trai khá bảnh đấy chứ.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Ta bảnh thì chính ta'
++	R
++	'biết rõ hơn ai hết.'
++	\L_09789:
++	ZH 1:
++	'Thả Sill ra, mụ'
+ 	R
+ 	'già chết tiệt.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Được thôi, ta sẽ thả con'
+-	R
+-	'bé ra...'
+-	\L_09789:
+-	ZH 1:
+-	'Với điều kiện ngươi phải'
+-	R
+-	'thế chỗ cho Sill.'
++	'Thả cũng được,'
++	R
++	'nhưng đổi lại...'
++	\L_09789:
++	ZH 1:
++	'ngươi phải thế'
++	R
++	'chỗ cho Sill đấy.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -5614,9 +5534,7 @@
+ 	ZH 1:
+ 	'Nếu ngươi chịu làm đồ chơi'
+ 	R
+-	'cho ta, rên rỉ khóc lóc dưới'
+-	R
+-	'chân ta thì...'
++	'cho ta, rên khóc thật hay...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+@@ -5626,7 +5544,7 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Gyaaa!!'
++	'Hiii!!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+@@ -5637,32 +5555,26 @@
+ 	\L_09736:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Madame Gorch bị Rance đâm'
+-	R
+-	'nhiều nhát kiếm chí mạng'
+-	R
+-	'chết tươi.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Dám xem Sill là đồ chơi'
+-	R
+-	'của mụ à...?'
+-	\L_09789:
+-	ZH 1:
+-	'Nực cười!! Kẻ duy nhất'
+-	R
+-	'trên đời này có quyền chơi'
+-	R
+-	'đùa với em ấy chỉ có ta!!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Rance giẫm đạp lên xác mụ'
+-	R
+-	'già.'
++	'Madame Gorch bị'
++	R
++	'Rance đâm chết.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Dám coi Sill là đồ chơi...?'
++	\L_09789:
++	ZH 1:
++	'Đừng giỡn mặt!! Trên'
++	R
++	'đời chỉ một người được'
++	R
++	'đùa giỡn với nó! Là ta!!'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Rance giẫm mạnh lên cái xác.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -5680,11 +5592,11 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Cánh cửa mà Rance đạp tung'
+-	R
+-	'dẫn vào căn phòng trụy lạc'
+-	R
+-	'của mụ Gorch đã chết.'
++	'Căn phòng Rance mở'
++	R
++	'cửa là phòng hoan lạc'
++	R
++	'của cố Madame Gorch.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -5792,16 +5704,14 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Rance gầm lên như muốn xé'
+-	R
+-	'tan cảm giác uất ức đè nghẹn'
+-	R
+-	'trong lồng ngực.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Đồ ngốc này... Chết tiệt!!'
++	'Rance hét lên như để kìm nén'
++	R
++	'nỗi bất an không gì tả nổi.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Sill...... Siiiilll!!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0969c:
+@@ -5811,11 +5721,9 @@
+ 	'Sill.'
+ 	\L_09789:
+ 	ZH 1:
+-	'Cuối cùng... bóng dáng của'
+-	R
+-	'một người đã lọt vào tầm mắt'
+-	R
+-	'hắn.'
++	'Rồi... một bóng'
++	R
++	'người hiện ra.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -5830,9 +5738,9 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Rance lao nhanh tới bóng'
+-	R
+-	'người ấy.'
++	'Rance chạy vội tới'
++	R
++	'chỗ bóng người.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	{VAR0399 = 7:
+@@ -5850,9 +5758,7 @@
+ 	'Rance 「Sill...?」'
+ 		\L_09789:
+ 		ZH 1:
+-	'Sill không hề có một chút'
+-	R
+-	'phản ứng cử động.'
++	'Sill không hề nhúc nhích.'
+ 		\L_09789:
+ 		ZH 1:
+ 	'Rance 「Này, Sill!!」'
+@@ -5863,30 +5769,22 @@
+ 	'vai Sill.'
+ 		\L_09789:
+ 		ZH 1:
+-	'Khóe môi nàng rỉ máu tươi.'
+-	R
+-	'Cô đã tự cắn đứt lưỡi mình.'
++	'Khóe môi nàng rỉ máu. Nàng đã cắn lưỡi.'
+ 		\L_09789:
+ 		ZH 1:
+-	'Dưới khóe mắt nàng vẫn còn'
+-	R
+-	'đọng lại những vệt nước mắt'
+-	R
+-	'chưa khô.'
++	'Từ dưới mắt xuống má, vệt nước'
++	R
++	'mắt chồng lên nhau nhiều lớp.'
+ 		\L_09789:
+ 		ZH 1:
+-	'Rance 「............」 Rance'
+-	R
+-	'lặng lẽ ôm lấy thân thể của'
+-	R
+-	'Sill. Lạnh ngắt như băng.'
++	'Rance 「............」 Rance lặng lẽ ôm'
++	R
++	'Sill vào lòng. Lạnh ngắt. Như băng.'
+ 		\L_09789:
+ 		ZH 1:
+-	'Dù hắn có làm gì đi nữa,'
+-	R
+-	'hơi ấm ấy cũng vĩnh viễn'
+-	R
+-	'không bao giờ trở lại.'
++	'Cơ thể lúc nào cũng lẽo đẽo theo hắn, ôm vào'
++	R
++	'lúc nào cũng ấm áp ấy, giờ không còn nữa.'
+ 		\L_09789:
+ 		ZH 1:
+ 	'Rance 「Ưư...」'
+@@ -5934,13 +5832,9 @@
+ 	'ngốc, đồ đại ngốc này...」'
+ 		\L_09789:
+ 		ZH 1:
+-	'Hắn ôm chặt Sill vào lòng'
+-	R
+-	'hết sức bình sinh. Nàng'
+-	R
+-	'chẳng còn biết đau hay rên'
+-	R
+-	'rỉ.'
++	'Hắn dùng hết sức ôm chặt Sill. Nàng'
++	R
++	'chẳng kêu đau, cũng chẳng kêu khó chịu.'
+ 		\L_09789:
+ 		ZH 1:
+ 	'Rance 「Ưư...」'
+@@ -5959,9 +5853,7 @@
+ 		\L_096b8:
+ 		\L_0969c:
+ 		ZH 1:
+-	'Rance lảo đảo gượng đứng'
+-	R
+-	'dậy.'
++	'Rance chậm rãi đứng dậy.'
+ 		\L_09789:
+ 		\L_0977c:
+ 		\L_09664:
+@@ -5971,11 +5863,11 @@
+ 		\L_0977c:
+ 		\L_0969c:
+ 		ZH 1:
+-	'Rance bế bổng xác Sill'
+-	R
+-	'trên tay, lấy áo choàng bọc'
+-	R
+-	'kín lấy nàng.'
++	'Trong vòng tay Rance'
++	R
++	'là thi thể Sill được'
++	R
++	'bọc trong áo choàng.'
+ 		\L_09789:
+ 		\L_0977c:
+ 		\L_09664:
+@@ -5985,34 +5877,30 @@
+ 	'ở trong lâu đài rồi...'
+ 		\L_09789:
+ 		ZH 1:
+-	'Em sẽ không bao giờ phải'
+-	R
+-	'làm lụng vất vả nữa đâu...'
++	'Em đâu cần phải làm việc'
++	R
++	'vặt kiếm tiền nữa...'
+ 		\L_09789:
+ 		ZH 1:
+ 	'Sill...'
+ 		\L_09789:
+ 		ZH 1:
+-	'Lũ người Helman đã làm hại'
+-	R
+-	'em thế này... Ta sẽ giết'
+-	R
+-	'sạch bọn chúng để tế em...'
++	'Lũ Helman đã làm em ra'
++	R
++	'nông nỗi này... ta sẽ'
++	R
++	'giết sạch để tế em...'
+ 		\L_09789:
+ 		ZH 1:
+-	'...Ta sẽ giết hết...'
++	'...Giết......'
+ 		\L_09789:
+ 		ZH 1:
+-	'Ta sẽ giết sạch không chừa'
+-	R
+-	'một mống!!'
++	'Nhất định ta sẽ giết chúng!!'
+ 		\L_09789:
+ 		\L_0977c:
+ 		\L_0969c:
+ 		ZH 1:
+-	'Rance lầm lũi từng bước'
+-	R
+-	'bước ra ngoài.'
++	'Rance chậm rãi bước đi.'
+ 		\L_09789:
+ 		\L_0977c:
+ 		!VAR0516 : 0!
+@@ -6061,9 +5949,7 @@
+ 	'ngài thôi...'
+ 	\L_09789:
+ 	ZH 1:
+-	'Em xin lỗi... em... em bẩn'
+-	R
+-	'mất rồi...!」'
++	'Em xin lỗi...... em...... em...!」'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Rance 「Đủ rồi, đừng nói'
+@@ -6089,16 +5975,12 @@
+ 	'Sill 「A......」'
+ 	\L_09789:
+ 	ZH 1:
+-	'Đã bao lâu rồi cô mới lại'
+-	R
+-	'được cảm nhận đôi môi và'
+-	R
+-	'chiếc lưỡi ấy.'
+-	\L_09789:
+-	ZH 1:
+-	'Sill vụng về cử động lưỡi'
+-	R
+-	'hòa cùng nhịp thở của Rance.'
++	'Cảm giác đôi môi và chiếc'
++	R
++	'lưỡi mà nàng hằng mong nhớ.'
++	\L_09789:
++	ZH 1:
++	'Sill cũng cử động lưỡi theo Rance.'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Sill 「Ưm......」'
+@@ -6114,9 +5996,7 @@
+ 	'ngài......」'
+ 	\L_09789:
+ 	ZH 1:
+-	'Rance chặt đứt xiềng xích,'
+-	R
+-	'giải thoát cho Sill.'
++	'Rance bắt tay vào tháo xiềng cho Sill.'
+ 	\L_09789:
+ 	PF1 VAR0056:
+ 	\L_0977c:
+@@ -6142,7 +6022,7 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Vâng...?'
++	'Vâng...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -6152,14 +6032,14 @@
+ 	'thứ đấy, đồ ngốc.'
+ 	\L_09789:
+ 	ZH 1:
+-	'Từ giờ phải hầu hạ ta chu'
+-	R
+-	'đáo'
+-	\L_09789:
+-	ZH 1:
+-	'hơn, bù cả những ngày qua'
+-	R
+-	'nữa.'
++	'Từ giờ, tính cả'
++	R
++	'phần những ngày qua,'
++	\L_09789:
++	ZH 1:
++	'phải hầu hạ ta'
++	R
++	'chu đáo hơn nữa.'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Rõ chưa!!'
+@@ -6167,36 +6047,36 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'... Được rồi.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Về nhà, trước tiên phải'
++	'......Vâng.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Trước hết, về là'
+ 	R
+ 	'ngoáy tai cho ta.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Được rồi.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Sau đó hãy rửa lưng cho'
+-	R
+-	'ta trong khi ta đang tắm.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Được rồi!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Rồi... ừm... ừm...'
++	'Vâng.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Tiếp đó, vào bồn'
++	R
++	'kỳ lưng cho ta.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Vâng!'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Tiếp nữa thì... ừmmm, ừm...'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Gì cũng được. Ta bảo gì thì'
+@@ -6206,19 +6086,17 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Được rồi!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Rance sải bước đi.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Ah... Đợi em'
+-	R
+-	'đã, Chủ nhân Rance.'
++	'Vâng!'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Rance sải bước hùng hổ đi.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'A... đợi em với, ngài Rance.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+@@ -6230,24 +6108,26 @@
+ 	PF0 VAR0056:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Dinh thự Madame Gorch cháy'
+-	R
+-	'ngùn'
+-	\L_09789:
+-	ZH 1:
+-	'ngụt trước mắt họ. Rance đã'
+-	R
+-	'sai đốt nơi'
+-	\L_09789:
+-	ZH 1:
+-	'đáng ghét ấy. Thuộc hạ hắn'
+-	R
+-	'đã đưa'
+-	\L_09789:
+-	ZH 1:
+-	'Soul ra. Có lẽ cô sẽ phải'
+-	R
+-	'nhập viện.'
++	'Trước mặt nhóm Rance,'
++	R
++	'dinh thự Madame Gorch'
++	R
++	'đang cháy ngùn ngụt.'
++	\L_09789:
++	ZH 1:
++	'Rance đã sai người phóng'
++	R
++	'hỏa tòa nhà đáng ghét này.'
++	\L_09789:
++	ZH 1:
++	'Soul đã được thuộc'
++	R
++	'hạ của Rance đưa ra.'
++	\L_09789:
++	ZH 1:
++	'Có lẽ cô sẽ phải'
++	R
++	'nhập viện luôn.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -6257,11 +6137,9 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Chủ nhân'
+-	R
+-	'Rance... Chuyện gì đã'
+-	R
+-	'xảy ra với bà Gorch...?'
++	'Ngài Rance... còn'
++	R
++	'bà Gorch thì...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -6274,16 +6152,16 @@
+ 	'Mụ ở trong đám cháy kia.'
+ 	\L_09789:
+ 	ZH 1:
+-	'Khô quắt thế, chắc cháy sạch'
+-	R
+-	'ngay rồi.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Lẽ nào... lúc đó bà ấy còn'
+-	R
+-	'sống ạ?'
++	'Khô đét thế kia, chắc'
++	R
++	'cháy rụi nhanh thôi.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Lẽ nào... bà ấy'
++	R
++	'bị thiêu sống ạ?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -6293,22 +6171,22 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Em hiểu rồi...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Cái gì...?'
+-	\L_09789:
+-	ZH 1:
+-	'Em có muốn tiếp tục bị'
+-	R
+-	'bà già đó ngược đãi không?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Tất nhiên là không!!'
++	'Vậy ạ......'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Gì thế...'
++	\L_09789:
++	ZH 1:
++	'Em muốn bị mụ già'
++	R
++	'đó hành hạ tiếp à?'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Làm gì có chuyện đó ạ!!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -6318,14 +6196,14 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Được rồi!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Rance và Sill rời khỏi'
+-	R
+-	'dinh thự của Madame Gorch.'
++	'Vâng!'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Nhóm Rance rời khỏi'
++	R
++	'dinh thự Madame Gorch.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 0!
+@@ -6336,9 +6214,7 @@
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Cái-Cái gì?! Tất'
+-	R
+-	'cả các ngài là ai?!'
++	'C... các người là ai thế!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -6375,9 +6251,9 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Rance đã vào được'
+-	R
+-	'bên trong nhà tù.'
++	'Rance tiến sâu'
++	R
++	'vào trong ngục.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0397 : 1!
+@@ -6396,14 +6272,14 @@
+ 		\L_0977c:
+ 		\L_096d4:
+ 		ZH 1:
+-		'Âm thanh vừa rồi...'
++		'Vừa rồi......'
+ 		\L_09789:
+ 		\L_0977c:
+ 		\L_09664:
+ 		ZH 1:
+-		'Soul, chị cũng nghe thấy'
++		'Chị Soul cũng'
+ 		R
+-		'chứ?'
++		'nghe thấy chứ ạ?'
+ 		\L_09789:
+ 		\L_0977c:
+ 		\L_096d4:
+@@ -6416,9 +6292,9 @@
+ 		'Sill!!'
+ 		\L_09789:
+ 		ZH 1:
+-		'Giọng nói'
++		'Giọng nói mỗi'
+ 		R
+-		'ngày càng gần hơn.'
++		'lúc một gần hơn.'
+ 		\L_09789:
+ 		\L_0977c:
+ 		\L_09664:
+@@ -6441,9 +6317,9 @@
+ 		'Ở đó à!! Sill! Soul!!'
+ 		\L_09789:
+ 		ZH 1:
+-		'Tiếng chân từ đi bộ chuyển'
++		'Tiếng bước chân chuyển'
+ 		R
+-		'thành chạy.'
++		'từ đi sang chạy.'
+ 		\L_09789:
+ 		\L_0977c:
+ 		\L_096c6:
+@@ -6451,7 +6327,7 @@
+ 		\L_096b8:
+ 		\L_09664:
+ 		ZH 1:
+-		'Em có ở đây không?!'
++		'Ở đây à!'
+ 		\L_09789:
+ 		\L_0977c:
+ 		\L_0969c:
+@@ -6461,7 +6337,7 @@
+ 		\L_0977c:
+ 		\L_096d4:
+ 		ZH 1:
+-		'Đại ca!!'
++		'Đại ca Rance!!'
+ 		\L_09789:
+ 		\L_0977c:
+ 		\L_0970c:
+@@ -6482,7 +6358,7 @@
+ 		\L_0977c:
+ 		\L_09664:
+ 		ZH 1:
+-		'Ừ. Em vẫn ổn chứ, Soul?'
++		'Ừ. Không sao chứ, Soul.'
+ 		\L_09789:
+ 		\L_0977c:
+ 		!VAR0516 : 2!
+@@ -6494,38 +6370,38 @@
+ 		\L_0977c:
+ 		\L_096f0:
+ 		ZH 1:
+-		'Em biết ngài sẽ'
++		'Em đã tin... ngài sẽ'
+ 		R
+-		'đến... Chủ nhân Rance.'
++		'đến. Chủ nhân Rance.'
+ 		\L_09789:
+ 		\L_0977c:
+ 		\L_0970c:
+ 		ZH 1:
+-		'Sill mỉm cười'
+-		R
+-		'và nhìn Rance.'
++		'Sill mỉm cười nhìn Rance.'
+ 		\L_09789:
+ 		\L_0977c:
+ 		\L_09664:
+ 		ZH 1:
+-		'Xin lỗi vì đã phải đợi ta.'
++		'Để em phải đợi rồi.'
+ 		\L_09789:
+ 		\L_0977c:
+ 		\L_096d4:
+ 		ZH 1:
+-		'Vâng... Em luôn tin. Nhất'
++		'Không ạ... em đã tin.'
+ 		R
+-		'định chủ nhân sẽ đến...'
++		'Tin rằng nhất định'
++		R
++		'chủ nhân sẽ đến...'
+ 		\L_09789:
+ 		\L_0977c:
+ 		\L_09664:
+ 		ZH 1:
+-		'Hừ. Không có em, ta bất tiện'
++		'Hừ. Không có em thì bất'
+ 		R
+-		'lắm. Chỗ này u ám quá.'
++		'tiện lắm. Chỗ này u ám quá.'
+ 		\L_09789:
+ 		ZH 1:
+-		'Ra ngoài mau.'
++		'Mau ra thôi.'
+ 		\L_09789:
+ 		\L_0977c:
+ 		\L_0969c:
+@@ -6539,7 +6415,7 @@
+ 		\L_0977c:
+ 		\L_096d4:
+ 		ZH 1:
+-		'Được rồi.'
++		'Vâng.'
+ 		\L_09789:
+ 		\L_0977c:
+ 		\L_0970c:
+@@ -6551,9 +6427,7 @@
+ 		%#M.ADV:
+ 		\L_0969c:
+ 		ZH 1:
+-		'Sill và Soul'
+-		R
+-		'được giải cứu.'
++		'Đã giải cứu Sill và Soul.'
+ 		\L_09789:
+ 		\L_0977c:
+ 		!VAR0516 : 0!
+@@ -6576,19 +6450,19 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Sill!! Nếu em ở'
+-	R
+-	'đây, hãy trả lời ta!!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'... Chủ nhân...'
+-	\L_09789:
+-	ZH 1:
+-	'Chủ nhân Rance! Em ở đây!! Ở'
+-	R
+-	'đây ạ!!'
++	'Sill!! Có ở đây thì'
++	R
++	'trả lời đi chứ!!'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'......Ngài......'
++	\L_09789:
++	ZH 1:
++	'Chủ nhân Rance! Em'
++	R
++	'ở đây!! Em ở đây ạ!!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 1!
+@@ -6600,7 +6474,7 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'À... Chủ nhân Rance!!'
++	'A...... Chủ nhân Rance!!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -6610,20 +6484,22 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Đ-Được rồi.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Hyaaah!!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'＜RẦM!!＞ Rance'
+-	\L_09789:
+-	ZH 1:
+-	'phá khóa, bước vào trong.'
++	'V... vâng.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Hây a!!'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'(rắc!!)'
++	\L_09789:
++	ZH 1:
++	'Rance phá khóa rồi'
++	R
++	'bước vào trong.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -6633,16 +6509,16 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sill nhảy vào'
+-	R
+-	'Rance và ôm lấy hắn.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Đồ ngốc... Bất cẩn để bị bắt'
+-	R
+-	'thế này...'
++	'Sill lao tới ôm'
++	R
++	'chầm lấy Rance.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Đồ ngốc... hậu đậu'
++	R
++	'thế không biết...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -6650,7 +6526,7 @@
+ 	'Em xin lỗi...'
+ 	\L_09789:
+ 	ZH 1:
+-	'Nhưng... Em luôn tin chủ'
++	'Nhưng... em đã tin chủ'
+ 	R
+ 	'nhân sẽ đến cứu em...'
+ 	\L_09789:
+@@ -6664,9 +6540,9 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Rance bế Sill lên'
+-	R
+-	'và ôm cô qua vai.'
++	'Rance cứ thế vác'
++	R
++	'Sill lên vai.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -6688,21 +6564,17 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Kyah... A-Ai đó ạ...?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Đồ ngốc. Em gầy rộc đi thế'
+-	R
+-	'này, bóp mất cả nửa độ sướng'
+-	R
+-	'rồi.'
+-	\L_09789:
+-	ZH 1:
+-	'Về đến nơi ta sẽ vỗ béo'
+-	R
+-	'cho em.'
++	'Kyah... ngài làm gì thế...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Đồ ngốc. Gầy đi rồi,'
++	R
++	'sờ chẳng sướng tay nữa.'
++	\L_09789:
++	ZH 1:
++	'Về rồi thì béo lên chút đi.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -6715,26 +6587,24 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Nó là gì?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Soul đã...!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Có chuyện gì đã'
+-	R
+-	'xảy ra với Soul à?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Nàng đã bị bắt đi và'
+-	R
+-	'không bao giờ quay trở lại!'
++	'Sao thế?'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Chị Soul...!'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Soul làm sao?'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Chị ấy bị đưa đi rồi'
++	R
++	'không thấy quay về nữa!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -6749,16 +6619,16 @@
+ 	'Gorch...'
+ 	\L_09789:
+ 	ZH 1:
+-	'Em chỉ biết tên, không biết'
+-	R
+-	'nhà ở đâu.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Được rồi. Ta sẽ cho người'
+-	R
+-	'tìm.'
++	'Em chỉ biết tên, không'
++	R
++	'biết nhà bà ta ở đâu.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Được, biết rồi. Ta sẽ'
++	R
++	'cho người điều tra.'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Về nhà thôi.'
+@@ -6766,16 +6636,14 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Chủ nhân Rance... Ngài lại'
+-	R
+-	'làm sơn tặc sao...?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Đồ ngốc. Bây giờ'
+-	R
+-	'ta là một vị vua.'
++	'Chủ nhân Rance... ngài lại'
++	R
++	'đi làm sơn tặc nữa sao ạ...?'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Đồ ngốc. Giờ ta là vua đấy.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -6799,28 +6667,28 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Ngay khi'
+-	R
+-	'quay trở lại Thành Leazas,'
+-	\L_09789:
+-	ZH 1:
+-	'Rance đã ra lệnh'
+-	R
+-	'điều tra vị trí của Soul.'
++	'Phòng yết kiến'
++	R
++	'Vừa về đến thành Leazas,'
++	\L_09789:
++	ZH 1:
++	'Rance lập tức cho người'
++	R
++	'điều tra nơi ở của Soul.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 6!
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Bệ hạ Rance. Thần có'
+-	R
+-	'thể nói chuyện được không?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Nó là gì?'
++	'Thưa Bệ hạ Rance. Thần xin'
++	R
++	'phép bẩm báo được không ạ?'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Chuyện gì?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -6832,21 +6700,19 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Còn nàng thì sao?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'... Thần sẽ'
+-	R
+-	'báo cáo những gì chúng'
+-	R
+-	'thần tìm thấy trước.'
+-	\L_09789:
+-	ZH 1:
+-	'Soul Less chết trong'
+-	R
+-	'trạng thái cuồng loạn.'
++	'Sao rồi?'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'......Thần xin'
++	R
++	'báo kết quả trước.'
++	\L_09789:
++	ZH 1:
++	'Soul Less đã chết'
++	R
++	'trong điên loạn.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -6856,9 +6722,9 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Bị biến thành món đồ tiêu'
+-	R
+-	'khiển trong dinh thự'
++	'Cô ấy bị biến thành đồ'
++	R
++	'tiêu khiển trong dinh thự'
+ 	\L_09789:
+ 	ZH 1:
+ 	'của một quý tộc Helman tên'
+@@ -6883,21 +6749,19 @@
+ 	\L_0977c:
+ 	\L_09680:
+ 	ZH 1:
+-	'Không đến kịp'
+-	R
+-	'à...? Soul... Em là'
+-	R
+-	'một người phụ nữ tốt...'
+-	\L_09789:
+-	ZH 1:
+-	'Ta cảm thấy tồi tệ...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Rance đã không giải'
+-	R
+-	'cứu Soul kịp thời...'
++	'Không kịp à... Soul... con'
++	R
++	'bé là một cô gái tốt...'
++	\L_09789:
++	ZH 1:
++	'Tội nghiệp nó quá...'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Rance đã không kịp'
++	R
++	'giải cứu Soul...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 0!
+@@ -6923,18 +6787,18 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Rance và Lia'
+-	R
+-	'đang ăn anmitsu trên ngai'
+-	R
+-	'vàng thì Maris xuất hiện.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Bệ hạ Rance... Cô'
+-	R
+-	'Sill đã mất tích...'
++	'Phòng yết kiến'
++	R
++	'Maris đến khi Rance và Lia'
++	R
++	'đang ăn anmitsu trên ngai.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Bệ hạ Rance... Tiểu thư'
++	R
++	'Sill mất tích rồi...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -6944,38 +6808,38 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Đến giờ ăn sáng mà tiểu thư'
+-	R
+-	'Sill chưa ra, hầu gái hầu'
+-	R
+-	'cận thấy lạ'
+-	\L_09789:
+-	ZH 1:
+-	'nên đến phòng xem. Nhưng'
+-	R
+-	'chẳng thấy'
+-	\L_09789:
+-	ZH 1:
+-	'bóng dáng đâu... Sau đó mọi'
+-	R
+-	'người cùng tìm, mà'
+-	\L_09789:
+-	ZH 1:
+-	'khắp trong thành... không'
+-	R
+-	'đâu có...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Điều đó thật nực cười.'
+-	R
+-	'Nàng không thể rời đi được.'
+-	\L_09789:
+-	ZH 1:
+-	'Chủ nhân của'
+-	R
+-	'nàng vẫn còn ở đây...'
++	'Đến giờ ăn sáng mà'
++	R
++	'tiểu thư Sill chưa ra,'
++	R
++	'hầu gái riêng thấy lạ'
++	\L_09789:
++	ZH 1:
++	'bèn tới phòng, nhưng chẳng'
++	R
++	'thấy bóng dáng đâu...'
++	\L_09789:
++	ZH 1:
++	'Sau đó nhiều người cùng giúp'
++	R
++	'tìm tiểu thư Sill, nhưng'
++	\L_09789:
++	ZH 1:
++	'trong thành... không'
++	R
++	'thấy ở đâu cả...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Vô lý. Con bé đó không'
++	R
++	'bao giờ biến mất được.'
++	\L_09789:
++	ZH 1:
++	'Khi mà chủ nhân của'
++	R
++	'nó là ta vẫn ở đây...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -6988,16 +6852,12 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Dù thế nào'
+-	R
+-	'đi nữa, hãy tìm kiếm'
+-	R
+-	'nàng ấy một lần nữa.'
+-	\L_09789:
+-	ZH 1:
+-	'Có lẽ nàng ấy đang'
+-	R
+-	'ở đâu đó quanh đây.'
++	'Dù sao thì cứ'
++	R
++	'tìm lại lần nữa.'
++	\L_09789:
++	ZH 1:
++	'Chắc nó đang ở đâu đó thôi.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -7029,16 +6889,12 @@
+ 	'...'
+ 	\L_09789:
+ 	ZH 1:
+-	'Ba ngày trôi'
+-	R
+-	'qua kể từ đó...'
+-	\L_09789:
+-	ZH 1:
+-	'Dù họ có'
+-	R
+-	'tìm kiếm bao nhiêu cũng'
+-	R
+-	'không thể tìm thấy Sill.'
++	'Ba ngày sau đó......'
++	\L_09789:
++	ZH 1:
++	'Tìm kiếm cách mấy cũng'
++	R
++	'không thấy Sill đâu.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 1!
+@@ -7052,14 +6908,16 @@
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Bệ hạ Rance... Thần sẽ mở'
+-	R
+-	'rộng tìm kiếm ra phố. Xin'
+-	R
+-	'người'
+-	\L_09789:
+-	ZH 1:
+-	'đừng quá buồn...'
++	'Bệ hạ Rance... thần'
++	R
++	'sẽ mở rộng tìm kiếm'
++	R
++	'ra cả ngoài phố.'
++	\L_09789:
++	ZH 1:
++	'Xin người đừng'
++	R
++	'quá buồn lòng...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -7067,21 +6925,21 @@
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Maris!! Mất có một đứa nô'
+-	R
+-	'lệ, chàng yêu sao phải buồn'
+-	R
+-	'chứ!'
+-	\L_09789:
+-	ZH 1:
+-	'Chàng yêu này, thiếp tặng'
+-	R
+-	'chàng nô lệ mới nhé!'
+-	\L_09789:
+-	ZH 1:
+-	'Nào, nhé? Nhé? Quên con bé'
+-	R
+-	'ấy đi...'
++	'Maris!! Mất có một con'
++	R
++	'nô lệ thôi, chàng yêu'
++	R
++	'đâu đến mức buồn chứ!'
++	\L_09789:
++	ZH 1:
++	'Nè nè, chàng yêu. Lia'
++	R
++	'sẽ tặng chàng nô lệ mới!'
++	\L_09789:
++	ZH 1:
++	'Cho nên... nhé? Nhé?'
++	R
++	'Quên con nô lệ đó đi...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -7091,14 +6949,14 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Khi Lia lắc tay, Rance'
+-	R
+-	'đang chìm trong suy nghĩ,'
+-	\L_09789:
+-	ZH 1:
+-	'như thể hắn'
+-	R
+-	'không hề để ý đến nàng.'
++	'Mặc cho Lia lay'
++	R
++	'lay cánh tay mình,'
++	\L_09789:
++	ZH 1:
++	'Rance vẫn trầm ngâm suy'
++	R
++	'nghĩ, như chẳng hề để ý.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 0!
+@@ -7120,14 +6978,14 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Rance'
+-	R
+-	'nhìn chằm chằm vào cuốn'
+-	\L_09789:
+-	ZH 1:
+-	'sách nhỏ bán hàng mà'
+-	R
+-	'hắn nhận được từ Pluepet.'
++	'Phòng yết kiến'
++	R
++	'Rance đang xem cuốn'
++	\L_09789:
++	ZH 1:
++	'catalog sản phẩm'
++	R
++	'nhận được từ Pluepet.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09680:
+@@ -7144,7 +7002,7 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Ừm?'
++	'Hửm?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 51!
+@@ -7156,11 +7014,11 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Cái gì? Tại sao lại có một'
+-	R
+-	'con bò trong lâu đài...? Và'
+-	R
+-	'tại sao nó lại có màu hồng??'
++	'Cái gì thế? Sao trong'
++	R
++	'lâu đài lại có con'
++	R
++	'bò... lại còn màu hồng??'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -7179,14 +7037,14 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Này, đừng dính vào'
+-	R
+-	'ta nữa, đồ súc vật!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Rance đá con bò hồng đi.'
++	'Ê, đừng có bám, đồ súc vật!'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Rance khẽ đá con'
++	R
++	'bò hồng một cái.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -7196,9 +7054,9 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Con bò lộn ngược, lăn lông'
+-	R
+-	'lốc.'
++	'Con bò lộn ngược ra'
++	R
++	'sau, lăn lông lốc.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -7213,11 +7071,9 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Trong khi'
+-	R
+-	'liếc nhìn Rance, con'
+-	R
+-	'bò lê bước ra ngoài.'
++	'Con bò vừa liếc nhìn'
++	R
++	'Rance vừa lủi thủi bỏ đi.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 0!
+@@ -7239,9 +7095,11 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Rance'
+-	R
+-	'đang ngồi trên ngai vàng.'
++	'Phòng yết kiến'
++	R
++	'Rance ngồi phịch xuống'
++	R
++	'ngai vàng.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -7249,14 +7107,12 @@
+ 	'Để xem nào...'
+ 	\L_09789:
+ 	ZH 1:
+-	'Hôm nay ta có'
+-	R
+-	'thể kiểm tra tình trạng của'
+-	R
+-	'những người hầu của mình,'
+-	\L_09789:
+-	ZH 1:
+-	'hoặc ta có thể...'
++	'Hôm nay đi xem tình'
++	R
++	'hình đám gia nô của ta,'
++	\L_09789:
++	ZH 1:
++	'hay là...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -7283,9 +7139,9 @@
+ 	'màu hồng bám vào chân Rance,'
+ 	\L_09789:
+ 	ZH 1:
+-	'kêu meo meo liên tục'
+-	R
+-	'như đang cố nói điều gì đó.'
++	'liên tục kêu như đang'
++	R
++	'muốn nói điều gì.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -7316,9 +7172,7 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Con bò tách'
+-	R
+-	'mình ra khỏi Rance.'
++	'Con bò rời khỏi Rance.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -7334,28 +7188,32 @@
+ 	\L_09736:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Rance dùng kiếm đuổi'
+-	R
+-	'con bò đi và nó lê bước đi.'
++	'Rance vung kiếm xua'
++	R
++	'đuổi, con bò lủi'
++	R
++	'thủi biến đi đâu mất.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09680:
+ 	ZH 1:
+-	'Thật là... Thành gì mà bò đi'
+-	R
+-	'lang thang khắp nơi.'
+-	\L_09789:
+-	ZH 1:
+-	'Canh gác chẳng ra sao. Phải'
+-	R
+-	'phạt!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Rance ngồi trên ngai vàng,'
+-	R
+-	'bực bội ra mặt.'
++	'Cái quái gì thế... Thành'
++	R
++	'gì mà có bò đi lang'
++	R
++	'thang, kỳ cục thật.'
++	\L_09789:
++	ZH 1:
++	'Canh gác chẳng ra gì.'
++	R
++	'Phải phạt mới được.'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Rance ngồi trên'
++	R
++	'ngai, hậm hực.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 0!
+@@ -7382,50 +7240,48 @@
+ 	R
+ 	'Phòng ngủ của Rance'
+ 	R
+-	'Bây giờ, hôm nay ta nên gọi'
+-	R
+-	'cho ai đây...? Heeheeheehee.'
+-	\L_09789:
+-	ZH 1:
+-	'Ta đang cảm thấy ở trạng'
+-	R
+-	'thái hoàn hảo nên ta có'
+-	R
+-	'thể làm điều đó mười lần...'
++	'Nào, hôm nay gọi ai đây'
++	R
++	'nhỉ... hì hì hì hì.'
++	\L_09789:
++	ZH 1:
++	'Cậu nhỏ đang sung lắm,'
++	R
++	'em nào được gọi hôm nay'
++	R
++	'chắc phải mười phát...'
+ 	\L_09789:
+ 	ZH 1:
+ 	'............'
+ 	\L_09789:
+ 	ZH 1:
+-	'... Hmmmmmm...'
+-	\L_09789:
+-	ZH 1:
+-	'... Sill đã đi đâu rồi?'
+-	\L_09789:
+-	ZH 1:
+-	'Ngay cả một em gái'
+-	R
+-	'mất tích trong hậu cung'
+-	R
+-	'của ta cũng thực sự...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'... Chết'
+-	R
+-	'tiệt!! (cra craaash)'
+-	\L_09789:
+-	ZH 1:
+-	'Rance đá đổ'
++	'......Ừmmm...'
++	\L_09789:
++	ZH 1:
++	'...Sill đi đâu mất rồi chứ.'
++	\L_09789:
++	ZH 1:
++	'Hậu cung của ta thiếu'
++	R
++	'dù chỉ một người cũng'
++	R
++	'thấy cứ sao sao...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'......Chết tiệt!! (choang!!)'
++	\L_09789:
++	ZH 1:
++	'Rance đá văng cái'
+ 	R
+ 	'thùng rác gần đó.'
+ 	\L_09789:
+ 	ZH 1:
+-	'(bang)'
+-	\L_09789:
+-	ZH 1:
+-	'Thùng rác đập vào kệ.'
++	'(rầm)'
++	\L_09789:
++	ZH 1:
++	'Thùng rác đập vào tủ.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -7447,33 +7303,33 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Từ sau tủ, con bò hồng cứ'
+-	R
+-	'thò'
+-	\L_09789:
+-	ZH 1:
+-	'đầu ra rồi lại sợ hãi rụt'
+-	R
+-	'vào, lặp đi lặp lại.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'... Một con'
+-	R
+-	'bò?? Ngươi lại...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Con bò nhận ra hôm nay Rance'
+-	R
+-	'có vẻ khác'
+-	\L_09789:
+-	ZH 1:
+-	'với những lần xua đuổi nó'
+-	R
+-	'trước đây.'
++	'Từ sau cái tủ đó, con bò'
++	R
++	'hồng cứ muốn thò đầu ra,'
++	\L_09789:
++	ZH 1:
++	'rồi lại sợ hãi rụt vào,'
++	R
++	'cứ thế lặp đi lặp lại.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'......Bò?? Lại'
++	R
++	'là mày à......'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Con bò cảm nhận được Rance'
++	R
++	'hôm nay có gì đó khác'
++	\L_09789:
++	ZH 1:
++	'với Rance trước giờ'
++	R
++	'vẫn xua đuổi nó.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -7483,9 +7339,9 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'... Nào, lại đây. Hôm nay ta'
+-	R
+-	'không bắt nạt đâu.'
++	'......Nào, lại đây lại đây.'
++	R
++	'Hôm nay ta không bắt nạt.'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Ăn giăm bông không?'
+@@ -7498,16 +7354,16 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Con bò rụt rè'
+-	R
+-	'bước ra từ phía sau kệ'
+-	R
+-	'và chạy về phía Rance.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Nào, ăn đi. Há miệng... a...'
++	'Con bò rụt rè ló ra'
++	R
++	'từ sau tủ, lon ton'
++	R
++	'bước lại gần Rance.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Nào, ăn đi. Aaaa...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -7532,19 +7388,21 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Rance vuốt ve đầu con'
+-	R
+-	'bò khi nó ăn giăm bông.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'... Bò gì lạ thật. Màu hồng'
+-	R
+-	'cơ đấy...'
+-	\L_09789:
+-	ZH 1:
+-	'Hồng à... Con ngốc Sill...'
++	'Rance xoa đầu con bò'
++	R
++	'đang ăn giăm bông.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'...Mày đúng là con bò kỳ'
++	R
++	'lạ. Lại màu hồng nữa...'
++	\L_09789:
++	ZH 1:
++	'Hồng à... Sill,'
++	R
++	'cái con ngốc ấy.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -7554,16 +7412,14 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Hôm nay ta sẽ'
+-	R
+-	'đi ngủ. Không chơi nữa.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Rance nằm xuống và'
+-	R
+-	'trùm chăn lên đầu.'
++	'Hôm nay ngủ thôi. Hết chơi.'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Rance nằm xuống,'
++	R
++	'trùm chăn kín đầu.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -7573,21 +7429,19 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Con bò ngồi'
+-	R
+-	'bên giường Rance như'
+-	R
+-	'thể quan tâm đến anh.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Cho chút đồ ăn là quấn lấy'
+-	R
+-	'ta!'
+-	\L_09789:
+-	ZH 1:
+-	'Đừng chui vào chăn.'
++	'Như lo lắng cho Rance, con'
++	R
++	'bò ngồi xuống bên gối hắn.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Ê, mới cho tí đồ'
++	R
++	'ăn đã bám lấy,'
++	\L_09789:
++	ZH 1:
++	'đừng có chui vào chăn.'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Ra ngoài!!'
+@@ -7595,9 +7449,9 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Rance tóm lấy gáy con'
+-	R
+-	'bò và đặt nó xuống sàn.'
++	'Rance túm gáy con'
++	R
++	'bò, đặt xuống sàn.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -7626,38 +7480,38 @@
+ 	R
+ 	'Phòng yết kiến'
+ 	R
+-	'Gọi cho Pluepet.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Rance đã ra lệnh đó, và...'
++	'Gọi Pluepet tới.'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Rance vừa ra lệnh thì...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 470!
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Cảm ơn sự quan'
+-	R
+-	'tâm của Bệ hạ～～～!!'
+-	\L_09789:
+-	ZH 1:
+-	'Hôm nay đẹp trời quá,'
+-	R
+-	'phải không, Bệ hạ Rance?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Ừ, ta đoán vậy.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Hãy bắt tay vào công'
+-	R
+-	'việc ngay. Hôm nay tôi có...'
++	'Kính chào～～～!!'
++	\L_09789:
++	ZH 1:
++	'Hôm nay trời đẹp'
++	R
++	'ghê ha, Bệ hạ Rance.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Ừ, phải đấy.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Vậy tôi xin phép vào'
++	R
++	'việc buôn bán luôn nhé.'
++	R
++	'Hôm nay có món này...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+@@ -7667,12 +7521,12 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'À, này!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Ừm?'
++	'A, này!'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Hửm?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -7685,9 +7539,9 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Này, sao lại tới đây? Xùy,'
+-	R
+-	'xùy!'
++	'Này, sao lại mò tới'
++	R
++	'đây. Xùy, xùy xùy.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -7700,71 +7554,73 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Cái gì, Pluepet? Ngươi'
+-	R
+-	'bị tiêu chảy đột ngột?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Không phải thế!! Wow...'
+-	R
+-	'Đó là một mẫu vật khá hiếm.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Cái gì?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Con bò đó.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Aah... Nó đang lang'
+-	R
+-	'thang quanh lâu đài...'
+-	\L_09789:
+-	ZH 1:
+-	'Nó không gây hại gì'
+-	R
+-	'cả nên ta để nó vậy.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Con bò hồng này vốn là người'
+-	\L_09789:
+-	ZH 1:
+-	'bị bí dược biến thành đấy.'
+-	\L_09789:
+-	ZH 1:
+-	'Và đây mới là chuyện hay!'
+-	R
+-	'Thịt nó nấu'
+-	\L_09789:
+-	ZH 1:
+-	'lẩu thì ngon tuyệt, được xem'
+-	R
+-	'là'
+-	\L_09789:
+-	ZH 1:
+-	'nguyên liệu huyền thoại hiếm'
+-	R
+-	'có!'
+-	\L_09789:
+-	ZH 1:
+-	'Chính tôi cũng lần đầu được'
+-	R
+-	'thấy!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Đó là một người...??'
++	'Gì thế, Pluepet.'
++	R
++	'Đau bụng đi ngoài à?'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Không phải, không'
++	R
++	'phải!! Ôi chao... đây'
++	R
++	'là hàng hiếm đấy ạ.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Gì?'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Con bò này đấy ạ.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'À... hình như dạo gần'
++	R
++	'đây nó lạc vào thành...'
++	\L_09789:
++	ZH 1:
++	'Chẳng hại gì nên ta mặc kệ.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Con bò hồng này'
++	R
++	'là hình dạng người'
++	\L_09789:
++	ZH 1:
++	'bị biến thành nhờ một'
++	R
++	'loại bí dược đấy ạ.'
++	\L_09789:
++	ZH 1:
++	'Và... đây mới là chuyện hay!'
++	\L_09789:
++	ZH 1:
++	'Con bò hồng này đem'
++	R
++	'nấu lẩu thì ngon tuyệt,'
++	\L_09789:
++	ZH 1:
++	'được gọi là nguyên liệu'
++	R
++	'huyền thoại hiếm có!'
++	\L_09789:
++	ZH 1:
++	'Chính tôi cũng là lần'
++	R
++	'đầu được thấy đấy!'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Là người......??'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -7781,16 +7637,14 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Số tiền Pluepet'
+-	R
+-	'viết trên một tờ giấy'
+-	R
+-	'là 1.000.000 VÀNG.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Ừm...'
++	'Số tiền Pluepet viết ra'
++	R
++	'giấy là 1.000.000 VÀNG.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Ừmm......'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -7806,7 +7660,7 @@
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Hô hô.'
++	'Hí hí hí.'
+ 	\L_09789:
+ 	\L_0977c:
+ *L_08167:
+@@ -7829,7 +7683,7 @@
+ 	!VAR0519 : VAR0519 + 10!
+ 	\L_09664:
+ 	ZH 1:
+-	'Ừ, được. Ta bán cho ngươi.'
++	'Hừm, được thôi. Ta bán cho.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -7845,16 +7699,14 @@
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Ồ!! Đúng'
+-	R
+-	'như tôi mong đợi! Bệ hạ'
+-	R
+-	'quả là người tuyệt vời!!'
+-	\L_09789:
+-	ZH 1:
+-	'Bây giờ, một, hai,'
+-	R
+-	'ba... Đó, 1.000.000 VÀNG.'
++	'Ôôôôô!! Đúng là Bệ hạ!'
++	R
++	'Người tốt quá điiii!!'
++	\L_09789:
++	ZH 1:
++	'Vậy thì, một, hai, ba...'
++	R
++	'đây, 1.000.000 VÀNG.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -7872,11 +7724,9 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Này, im đi.'
+-	R
+-	'Lỗi của ngươi khi'
+-	R
+-	'lảng vảng quanh đây.'
++	'Ồn ào quá. Ai bảo mày lạc'
++	R
++	'vào chỗ này. Lỗi tại mày.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -7884,12 +7734,14 @@
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Nào nào. Ngươi là nguyên'
+-	\L_09789:
+-	ZH 1:
+-	'liệu hảo hạng. Trước khi ăn,'
+-	R
+-	'ta sẽ chăm thật kỹ.'
++	'Rồi rồi rồi. Cưng'
++	R
++	'là nguyên liệu ngon,'
++	\L_09789:
++	ZH 1:
++	'trước khi ăn tôi sẽ'
++	R
++	'chăm cưng thật kỹ.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -7902,9 +7754,9 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Pluepet cưỡi trên lưng'
+-	R
+-	'con bò màu hồng, và...'
++	'Pluepet cưỡi lên lưng'
++	R
++	'con bò hồng, rồi...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -7912,14 +7764,14 @@
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Vậy thì, cảm ơn'
+-	R
+-	'ngài rất nhiều.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Ừ. Cứ thế mà làm.'
++	'Vậy xin chào,'
++	R
++	'đa tạ Bệ hạ nhé.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Ừ. Cứ liệu mà làm.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -7933,21 +7785,19 @@
+ 	\L_09736:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Con bò màu hồng'
+-	R
+-	'đã bị Pluepet bắt đi.'
+-	\L_09789:
+-	ZH 1:
+-	'Tiếng meo meo buồn'
+-	R
+-	'bã của con bò màu hồng có'
+-	R
+-	'thể được nghe thấy một lúc,'
+-	\L_09789:
+-	ZH 1:
+-	'nhưng nó nhanh'
+-	R
+-	'chóng biến mất.'
++	'Con bò hồng đã bị'
++	R
++	'Pluepet dắt đi.'
++	\L_09789:
++	ZH 1:
++	'Tiếng kêu buồn bã của'
++	R
++	'nó còn vọng lại một lúc,'
++	\L_09789:
++	ZH 1:
++	'nhưng chẳng mấy'
++	R
++	'chốc đã tắt hẳn.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -7966,35 +7816,37 @@
+ *L_08430:
+ 	\L_09664:
+ 	ZH 1:
+-	'Ngươi nói đó'
+-	R
+-	'là một người được biến đổi'
+-	R
+-	'bởi thuốc tiên, phải không?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Vâng. Thế... Bệ hạ Rance có'
+-	R
+-	'bán cho tôi không??'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Không.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Hả...? Ôi, bệ hạ cũng biết'
+-	R
+-	'làm khó người ta! Được rồi.'
+-	\L_09789:
+-	ZH 1:
+-	'Tôi trả 2.000.000 VÀNG. Vậy'
+-	R
+-	'thì...'
++	'Ngươi bảo đó là con'
++	R
++	'vật do người dùng'
++	R
++	'bí dược biến thành?'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Vâng ạ. Vậy... Bệ hạ Rance.'
++	R
++	'Ngài bán cho tôi chứ ạ??'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Không bán.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Hả...? ...Ôi chao, Bệ'
++	R
++	'hạ Rance thật biết làm'
++	R
++	'khó người ta. Được rồi.'
++	\L_09789:
++	ZH 1:
++	'Tôi trả 2.000.000'
++	R
++	'VÀNG. Vậy thì...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -8006,17 +7858,21 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Ối～～! Sao nỡ thế...'
+-	\L_09789:
+-	ZH 1:
+-	'Nhưng thôi, đành vậy. Hôm'
+-	R
+-	'nay tôi xin rút.'
+-	\L_09789:
+-	ZH 1:
+-	'Lần tới mong bệ hạ lại chiếu'
+-	R
+-	'cố.'
++	'Úi～～～～! Sao'
++	R
++	'tàn nhẫn thế～.'
++	\L_09789:
++	ZH 1:
++	'...Nhưng... thôi...'
++	R
++	'đành vậy. Hôm nay'
++	R
++	'tôi xin cáo lui.'
++	\L_09789:
++	ZH 1:
++	'Lần sau mong Bệ hạ'
++	R
++	'lại chiếu cố nhé.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -8027,16 +7883,16 @@
+ 	\L_09736:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Pluepet, đúng là tấm gương'
+-	R
+-	'của giới buôn, lủi thủi rời'
+-	R
+-	'khỏi ngai vàng.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Bây giờ...'
++	'Pluepet, quả không hổ tấm'
++	R
++	'gương thương nhân, lủi thủi'
++	R
++	'rời khỏi trước ngai vàng.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Nào...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 51!
+@@ -8048,9 +7904,9 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Rance đặt con bò lên'
+-	R
+-	'đùi và quay nó về phía anh.'
++	'Rance đặt con bò lên đùi,'
++	R
++	'xoay nó về phía mình.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8060,14 +7916,16 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Nó nhìn Rance với'
+-	R
+-	'ánh mắt yêu thương.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Cho ta xem có gì ở đây.'
++	'Con bò nhìn Rance bằng'
++	R
++	'ánh mắt quấn quýt.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Cho ta xem bên'
++	R
++	'trong cái này.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8077,18 +7935,18 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Rance nhìn vào chiếc'
++	'Rance xem đồ trong chiếc'
+ 	R
+ 	'túi treo trên cổ con bò.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'... Đây là vỏ'
+-	R
+-	'kirukiru mà ta đã đưa'
+-	R
+-	'cho Sill để bảo quản.'
++	'Đây là... vỏ sò Kirukiru'
++	R
++	'ta bảo Sill phải'
++	R
++	'giữ gìn cẩn thận...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8098,12 +7956,12 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Có thể nào...?'
+-	\L_09789:
+-	ZH 1:
+-	'Này, bò... Ngươi'
+-	R
+-	'có... Sill không?'
++	'Lẽ nào...'
++	\L_09789:
++	ZH 1:
++	'Này, bò... mày...'
++	R
++	'lẽ nào là Sill?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8113,22 +7971,22 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'... Nói thế sao hiểu được...'
+-	\L_09789:
+-	ZH 1:
+-	'Làm sao đây... Phải rồi.'
+-	R
+-	'Hiểu lời ta thì kêu'
+-	\L_09789:
+-	ZH 1:
+-	'thế này: Đúng: nya, nya,'
+-	R
+-	'nya. Không:'
+-	\L_09789:
+-	ZH 1:
+-	'nya, nya. Không biết:'
+-	R
+-	'nya～～.'
++	'......Thế này thì nói'
++	R
++	'chuyện sao được...'
++	\L_09789:
++	ZH 1:
++	'Làm sao đây... Phải rồi,'
++	R
++	'hiểu lời ta thì kêu thế này.'
++	\L_09789:
++	ZH 1:
++	'Đúng thì: nya nya'
++	R
++	'nya. Sai thì: nya nya.'
++	\L_09789:
++	ZH 1:
++	'Không biết thì: nya～～.'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Hiểu chưa?'
+@@ -8141,12 +7999,10 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'... Được rồi.'
+-	\L_09789:
+-	ZH 1:
+-	'Ngươi có phải'
+-	R
+-	'là Sill không?'
++	'......Được.'
++	\L_09789:
++	ZH 1:
++	'Mày là Sill phải không?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8176,9 +8032,7 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Vậy ngươi chắc chắn'
+-	R
+-	'là Sill phải không?'
++	'Chắc chắn là Sill chứ?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8188,9 +8042,7 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Hmmm, tại sao'
+-	R
+-	'ngươi lại là một con bò?'
++	'Ừmmm, vậy sao lại thành bò?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8200,7 +8052,7 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'... Em không biết à?'
++	'......Ý là không biết à?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8210,11 +8062,9 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Vậy thì có'
+-	R
+-	'thể làm gì để ngươi'
+-	R
+-	'trở lại bình thường?'
++	'Vậy làm sao để'
++	R
++	'biến lại như cũ?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8227,9 +8077,9 @@
+ 	'............'
+ 	\L_09789:
+ 	ZH 1:
+-	'Hiểu rồi. Ở'
+-	R
+-	'trong phòng ta, Sill.'
++	'Được rồi. Ở trong'
++	R
++	'phòng ta đi, Sill.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8242,9 +8092,7 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Rance ôm chặt Sill đang mang'
+-	R
+-	'hình bò.'
++	'Rance ôm chặt lấy Sill-bò.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8254,12 +8102,10 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Tưởng em mất'
+-	\L_09789:
+-	ZH 1:
+-	'tích, ai ngờ lại biến thành'
+-	R
+-	'bò...'
++	'Tưởng em biến đâu mất,'
++	\L_09789:
++	ZH 1:
++	'ai ngờ lại hóa thành bò...'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Đồ ngốc.'
+@@ -8288,25 +8134,23 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng ngủ'
+-	R
+-	'của Rance Rance mang Cow'
+-	R
+-	'Sill về phòng của mình.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Sẽ thật tệ nếu'
+-	R
+-	'ai đó giết ngươi khi ngươi'
+-	R
+-	'đang lang thang ở nơi khác.'
+-	\L_09789:
+-	ZH 1:
+-	'Ở lại đây'
+-	R
+-	'càng nhiều càng tốt.'
++	'Phòng ngủ của Rance'
++	R
++	'Rance đưa Sill-bò về'
++	R
++	'phòng mình.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Lỡ đi lang thang chỗ khác'
++	R
++	'mà bị giết thì phiền.'
++	\L_09789:
++	ZH 1:
++	'Cố mà ở yên đây'
++	R
++	'hết mức có thể.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8332,14 +8176,14 @@
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Có chuyện gì thế?'
+-	R
+-	'Ngài đã hét lên...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Vấn đề là...'
++	'Có chuyện gì vậy ạ?'
++	R
++	'Ngài hét lớn thế...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Chuyện là thế này...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0969c:
+@@ -8363,9 +8207,9 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Cũng có chuyện khiến cô ngạc'
+-	R
+-	'nhiên sao?'
++	'Cô mà cũng có lúc'
++	R
++	'ngạc nhiên cơ à.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8379,7 +8223,7 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Vậy con bò này thì sao?'
++	'Vậy, con bò này thì sao?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -8395,37 +8239,31 @@
+ 	\L_09728:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Thần cho rằng thần không'
+-	R
+-	'còn lựa chọn nào khác ngoài'
+-	R
+-	'việc tin vào điều đó...'
+-	\L_09789:
+-	ZH 1:
+-	'Nếu những gì'
+-	R
+-	'Pluepet nói là đúng...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Vậy, biết cách nào để'
+-	R
+-	'nàng trở lại bình thường?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'... Thật không'
+-	R
+-	'may là không...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Vậy thì Sill sẽ mắc'
+-	R
+-	'kẹt như thế này mãi à?'
++	'Thần... đành phải'
++	R
++	'tin thôi ạ...'
++	\L_09789:
++	ZH 1:
++	'nếu chuyện Pluepet'
++	R
++	'nói là thật...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Thế, cô có biết cách'
++	R
++	'nào biến lại không?'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'......Tiếc là không ạ...'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Vậy Sill cứ thế này mãi sao?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8437,11 +8275,9 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Rõ ràng là vậy. Ta không'
+-	R
+-	'thể để mọi người coi nô'
+-	R
+-	'lệ của mình là một con bò.'
++	'Đương nhiên. Nô lệ của ta'
++	R
++	'mà là bò thì... mất mặt lắm.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -8457,32 +8293,34 @@
+ 	\L_09728:
+ 	\L_096f0:
+ 	ZH 1:
+-	'Thần thấy thế này cũng dễ'
+-	\L_09789:
+-	ZH 1:
+-	'thương... Nhưng hẳn bệ hạ'
+-	R
+-	'đang lo lắm...'
+-	\L_09789:
+-	ZH 1:
+-	'Có điều...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'À...!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Nó là gì?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Hay hỏi hiền giả ở Tháp Ho'
+-	R
+-	'Raga?'
++	'Thần thấy thế này'
++	R
++	'cũng đáng yêu,'
++	\L_09789:
++	ZH 1:
++	'nhưng Bệ hạ hẳn'
++	R
++	'đang sốt ruột lắm...'
++	\L_09789:
++	ZH 1:
++	'Có điều......'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'A...!'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Sao thế?'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Hỏi hiền giả ở Tháp'
++	R
++	'Ho Raga thì sao ạ?'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Người ta nói mọi tri thức'
+@@ -8495,9 +8333,9 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Nhà hiền triết của'
+-	R
+-	'Tháp Ho Raga? Ừm...'
++	'Hiền giả Tháp Ho Raga'
++	R
++	'à...... Phải rồi......'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -8538,11 +8376,9 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Rance vừa vào phòng, Sill'
+-	R
+-	'trong hình bò đã nhảy nhót'
+-	R
+-	'ra đón hắn.'
++	'Rance vừa vào phòng, Sill-bò'
++	R
++	'đã nhảy tưng tưng ra đón.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -8557,25 +8393,23 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Rance thình lình túm lấy'
+-	R
+-	'chân bò Sill, banh rộng hai'
+-	R
+-	'bên.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Mô~~! Mô~~~!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'...Đã là giống cái... thì'
+-	R
+-	'hẳn cũng có “chỗ đó” nhỉ...'
+-	R
+-	'Chỗ này à?'
++	'Rance thình lình túm'
++	R
++	'chân Sill-bò, banh ra.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Nya～! Nyanya～～!'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'...Là con cái... thì'
++	R
++	'chắc cũng có chỗ đó'
++	R
++	'nhỉ... Chỗ này à?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0969c:
+@@ -8585,47 +8419,43 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Mô~~~~~...!!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'...Mình đang làm cái trò'
+-	R
+-	'gì thế này? Thật ngớ ngẩn.'
+-	R
+-	'Ai lại đi làm tình với bò'
+-	R
+-	'bao giờ.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Này...'
++	'Nya～～～～...!!'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'...Đùa thôi. Đừng'
++	R
++	'tưởng thật. Ai thèm làm'
++	R
++	'với bò chứ. Với bò...'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Nya......'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Cow Sill tiến lại gần hơn.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Đồ ngốc... Em chán như'
+-	R
+-	'bò, nhưng... ta hiểu rồi.'
+-	\L_09789:
+-	ZH 1:
+-	'Ngươi có thể là'
+-	R
+-	'chiếc gối của ta.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Rance dùng Sill đang mang'
+-	R
+-	'hình bò làm gối.'
++	'Sill-bò dụi vào người hắn.'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'...Đồ ngốc... bò thì'
++	R
++	'chán chết đi được...'
++	\L_09789:
++	ZH 1:
++	'À phải. Ít ra cũng'
++	R
++	'làm gối cho ta.'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Rance lấy Sill-bò làm gối.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8635,9 +8465,9 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Sill... Ta chắc chắn sẽ'
+-	R
+-	'biến em trở lại bình thường.'
++	'Sill... nhất định ta'
++	R
++	'sẽ biến em lại như cũ.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8657,9 +8487,9 @@
+ 	\L_0977c:
+ 	\L_0969c:
+ 	ZH 1:
+-	'Rance cứ thế gối đầu lên'
+-	R
+-	'Sill trong hình bò mà ngủ.'
++	'Rance cứ thế gối đầu'
++	R
++	'lên Sill-bò mà ngủ.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 0!
+@@ -8686,11 +8516,11 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng ngủ của'
+-	R
+-	'Rance Rance bước vào phòng'
+-	R
+-	'và đặt Cow Sill lên giường.'
++	'Phòng ngủ của Rance'
++	R
++	'Rance về phòng, đặt Sill-bò'
++	R
++	'lên giường.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8700,25 +8530,21 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Sill, ta sẽ'
+-	R
+-	'biến em trở lại bình'
+-	R
+-	'thường. Uống cái này đi.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Rance cho Sill đang mang'
+-	R
+-	'hình bò uống thuốc vừa kiếm'
+-	R
+-	'được.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'... Nha...'
++	'Sill, ta sẽ biến em lại'
++	R
++	'như cũ. Nào, uống đi.'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Rance cho Sill-bò uống'
++	R
++	'thứ thuốc vừa kiếm được.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'......Nya...'
+ 	\L_09789:
+ 	ZH 1:
+ 	'Nya nya nya～～!'
+@@ -8731,9 +8557,9 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sill trong hình bò nhảy'
+-	R
+-	'nhót, chạy khắp phòng.'
++	'Sill-bò nhảy nhót,'
++	R
++	'chạy khắp phòng.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8743,9 +8569,7 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sau đó cô nhảy'
+-	R
+-	'vào một góc giường.'
++	'Rồi lao vào góc giường.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09736:
+@@ -8756,9 +8580,7 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Này Sill? Có'
+-	R
+-	'chuyện gì vậy?'
++	'Này, Sill? Sao thế?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	PF1 VAR0056:
+@@ -8777,14 +8599,14 @@
+ 	\L_0977c:
+ 	\L_096d4:
+ 	ZH 1:
+-	'Á... a... Ra... Chủ nhân'
+-	R
+-	'Rance...?'
+-	\L_09789:
+-	\L_0977c:
+-	\L_09664:
+-	ZH 1:
+-	'Tốt rồi, em đã trở lại.'
++	'A... a... a～... C...'
++	R
++	'chủ nhân Rance...?'
++	\L_09789:
++	\L_0977c:
++	\L_09664:
++	ZH 1:
++	'Được, em trở lại như cũ rồi.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8796,9 +8618,9 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Sill vừa khóc'
+-	R
+-	'vừa ôm Rance.'
++	'Sill vừa khóc vừa'
++	R
++	'ôm chầm lấy Rance.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8810,9 +8632,11 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Khóc gì chứ, đồ ngốc. Đã trở'
+-	R
+-	'lại rồi thì vui lên.'
++	'Khóc cái gì, đồ ngốc.'
++	R
++	'Đã trở lại rồi thì'
++	R
++	'phải vui lên chứ.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8824,9 +8648,7 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Em có thực'
+-	R
+-	'sự biết ơn không?'
++	'Thật sự biết ơn không?'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8836,50 +8658,44 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'Vậy thì, hãy dùng thân thể'
+-	R
+-	'để chứng minh điều đó'
+-	R
+-	'điiii!!'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Dứt lời, Rance lập tức lột'
+-	R
+-	'phăng y phục, lao vào Sill.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Kyah... C-Chủ nhân'
+-	R
+-	'Rance... Không được mà'
+-	R
+-	'ngài......!!'
++	'Vậy thì thể hiện bằng cơ'
++	R
++	'thể cho ta xem điiii!!'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Rance lột phăng quần'
++	R
++	'áo trong chớp mắt,'
++	R
++	'rồi vồ lấy Sill.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Kyah... chủ nhân'
++	R
++	'Rance... sao lại thế...!!'
+ 	\L_09789:
+ 	\L_0977c:
+ 	EC 0:
+ 	G 806:
+ 	\L_09744:
+ 	ZH 1:
+-	'Gahahahaha!'
+-	\L_09789:
+-	ZH 1:
+-	'A... k-không được'
+-	R
+-	'đâu...... Aah, C-Chủ nhân'
+-	R
+-	'Ranceee!'
+-	\L_09789:
+-	ZH 1:
+-	'Gahahahaha!'
+-	\L_09789:
+-	ZH 1:
+-	'Gahahahaha......'
+-	\L_09789:
+-	ZH 1:
+-	'Phù......'
++	'Rance 「Gahahahahaha!!」'
++	\L_09789:
++	ZH 1:
++	'Sill 「A... không... aaa... chủ nhân Ranceee!」'
++	\L_09789:
++	ZH 1:
++	'Rance 「Gahahahahaha」'
++	\L_09789:
++	ZH 1:
++	'Rance 「Gahahaha......」'
++	\L_09789:
++	ZH 1:
++	'Rance 「Gahaha...」'
+ 	\L_09789:
+ 	\L_0977c:
+ 	PF1 VAR0056:
+@@ -8897,36 +8713,34 @@
+ 	'Ừm...'
+ 	\L_09789:
+ 	ZH 1:
+-	'Hả... Ta ngủ'
+-	R
+-	'quên khi nào vậy?hwaa...'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Rance dụi mắt'
+-	R
+-	'và từ từ đứng dậy.'
++	'Hửm... ta ngủ quên'
++	R
++	'lúc nào thế. Oáp......'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Rance dụi mắt,'
++	R
++	'chầm chậm ngồi dậy.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09680:
+ 	ZH 1:
+-	'Chăn... À, Sill đắp cho'
+-	R
+-	'mình à.'
++	'Chăn... à, Sill'
++	R
++	'đắp cho ta à.'
+ 	\L_09789:
+ 	ZH 1:
+ 	'............'
+ 	\L_09789:
+ 	ZH 1:
+-	'Quả nhiên là thân thể của'
+-	R
+-	'em quen thuộc nhất,'
+-	\L_09789:
+-	ZH 1:
+-	'làm tình với em vẫn là'
+-	R
+-	'sướng nhất.'
++	'Quả nhiên vẫn là'
++	R
++	'cơ thể em đã quen,'
++	\L_09789:
++	ZH 1:
++	'là hợp với ta nhất.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_096d4:
+@@ -8936,18 +8750,18 @@
+ 	\L_0977c:
+ 	\L_0970c:
+ 	ZH 1:
+-	'Bên cạnh Rance,'
+-	R
+-	'Sill đang thở nhẹ trong'
+-	R
+-	'giấc ngủ. Cô lăn qua.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_096d4:
+-	ZH 1:
+-	'Chủ nhân'
+-	R
+-	'Rance... Cảm ơn... ngài...'
++	'Sill đang thở khẽ'
++	R
++	'trong giấc ngủ bên'
++	R
++	'cạnh Rance, trở mình.'
++	\L_09789:
++	\L_0977c:
++	\L_096d4:
++	ZH 1:
++	'Chủ nhân Rance... cảm...'
++	R
++	'ơn... ngài... ạ...'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09664:
+@@ -8962,17 +8776,21 @@
+ 	\L_0977c:
+ 	\L_09664:
+ 	ZH 1:
+-	'... Nói mớ cũng cảm ơn ta à.'
+-	R
+-	'... Đồ ngốc. Không có'
+-	\L_09789:
+-	ZH 1:
+-	'em, ta bất tiện lắm đấy.'
+-	\L_09789:
+-	\L_0977c:
+-	\L_0969c:
+-	ZH 1:
+-	'Rance nghịch tóc của Sill.'
++	'...Nói mớ cũng cảm ơn'
++	R
++	'à. ......Đồ ngốcccc.'
++	\L_09789:
++	ZH 1:
++	'Không có em là ta'
++	R
++	'bất tiện lắm đấy.'
++	\L_09789:
++	\L_0977c:
++	\L_0969c:
++	ZH 1:
++	'Rance kéo kéo tóc'
++	R
++	'Sill, nghịch ngợm.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	\L_09680:
+@@ -8987,19 +8805,21 @@
+ 	'mới được.'
+ 	\L_09789:
+ 	ZH 1:
+-	'...Thật là... Mình cũng'
+-	R
+-	'đoán được là ai rồi...'
+-	\L_09789:
+-	ZH 1:
+-	'Thiệt tình...'
+-	\L_09789:
+-	ZH 1:
+-	'Phải gọi ả ra khỏi hậu'
+-	R
+-	'cung rồi trừng phạt cho ra'
+-	R
+-	'trò mới được.'
++	'......Ầy, thôi...'
++	R
++	'ta biết rồi. Kẻ làm'
++	R
++	'chuyện này là ai thì...'
++	\L_09789:
++	ZH 1:
++	'Thật tình...'
++	\L_09789:
++	ZH 1:
++	'Gọi ả tới hậu cung...'
++	R
++	'rồi phập một phát...'
++	R
++	'phạt thật nặng.'
+ 	\L_09789:
+ 	\L_0977c:
+ 	!VAR0516 : 0!

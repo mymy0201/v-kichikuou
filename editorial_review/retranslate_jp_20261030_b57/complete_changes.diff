@@ -1,0 +1,5188 @@
+--- before/G1.ADV
++++ src/G1.ADV
+@@ -59,11 +59,11 @@
+ 	\L_03b3a:
+ 	\L_03a5a:
+ 	ZH 1:
+-	'Giữa lúc đi trong mê cung,'
+-	R
+-	'một luồng sáng lấp lánh bỗng'
+-	R
+-	'hiện ra,'
++	'Đang đi trong mê'
++	R
++	'cung, bỗng một luồng'
++	R
++	'sáng lấp lánh hiện ra'
+ 	\L_03b47:
+ 	ZH 1:
+ 	'rồi hóa thành một cô gái.'
+@@ -73,29 +73,31 @@
+ 	\L_03ae6:
+ 	\L_03a92:
+ 	ZH 1:
+-	'Xin chào! Youko đây. Mọi'
+-	R
+-	'người vẫn khỏe chứ?'
+-	\L_03b47:
+-	ZH 1:
+-	'Chắc mọi người đến gặp ngài'
+-	R
+-	'Hanny King nhỉ.'
+-	\L_03b47:
+-	ZH 1:
+-	'Đây là thánh địa của các'
+-	R
+-	'Hanny.'
+-	\L_03b47:
+-	ZH 1:
+-	'Nếu con người bước vào, họ'
+-	R
+-	'sẽ quyết liệt tấn công đấy.'
+-	\L_03b47:
+-	ZH 1:
+-	'Muốn quay về thì tranh thủ'
+-	R
+-	'ngay nhé. Chào nhé!'
++	'Xin chàooo. Youko đây.'
++	R
++	'Mọi người khỏe không?'
++	\L_03b47:
++	ZH 1:
++	'Quả nhiên là đến gặp'
++	R
++	'Đức Vua Hanny nhỉ.'
++	\L_03b47:
++	ZH 1:
++	'Đây là thánh địa'
++	R
++	'của các Hanny.'
++	\L_03b47:
++	ZH 1:
++	'Con người mà bước'
++	R
++	'vào là các Hanny sẽ'
++	R
++	'quả cảm tấn công đấy.'
++	\L_03b47:
++	ZH 1:
++	'Muốn quay về thì nhân'
++	R
++	'lúc này nhé. Tạm biệt!'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	\L_03af4:
+@@ -122,15 +124,13 @@
+ 	\L_03b3a:
+ 	\L_03a5a:
+ 	ZH 1:
+-	'Tuy nhiên,'
+-	R
+-	'ở hồ Titi chẳng có gì'
+-	R
+-	'ngoài những đợt sóng vỗ.'
++	'Nhưng hồ Titi chỉ'
++	R
++	'lặng lẽ gợn sóng.'
+ 	\L_03b47:
+ 	ZH 1:
+ 	X 1:
+-	'đơn vị của quay trở lại.'
++	'Đơn vị của quay về.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 0!
+@@ -143,61 +143,59 @@
+ 	\L_03a5a:
+ 	ZH 1:
+ 	X 1:
+-	'vô tình làm rơi'
+-	R
+-	'rìu nhôm trong hồ.'
++	'lỡ tay đánh rơi chiếc rìu'
++	R
++	'nhôm đang cầm xuống hồ.'
+ 	\L_03b47:
+ 	ZH 1:
+ 	X 1:
+-	'hoảng loạn, nhưng...'
+-	\L_03b47:
+-	ZH 1:
+-	'po pohwan pohwan） khoảnh'
+-	R
+-	'khắc họ nghe thấy một âm'
+-	\L_03b47:
+-	ZH 1:
+-	'thanh dễ thương'
+-	R
+-	'từ bên trong hồ,'
+-	\L_03b47:
+-	ZH 1:
+-	'một cô gái mỉm cười'
+-	R
+-	'xuất hiện từ bên trong nó.'
++	'cuống cả lên, nhưng...'
++	\L_03b47:
++	ZH 1:
++	'(Bùm bủm bùm bủm) Vừa'
++	R
++	'nghe thấy một âm thanh'
++	\L_03b47:
++	ZH 1:
++	'dễ thương vọng'
++	R
++	'lên từ trong hồ,'
++	\L_03b47:
++	ZH 1:
++	'thì một cô gái mỉm cười'
++	R
++	'tươi tắn hiện ra từ mặt hồ.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 250!
+ 	\L_03ae6:
+ 	\L_03a92:
+ 	ZH 1:
+-	'Xin chào. Youko là tinh linh'
+-	R
+-	'của hồ này.'
+-	\L_03b47:
+-	ZH 1:
+-	'Cô gái tự giới thiệu, rồi lễ'
+-	R
+-	'phép cúi đầu.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Cậu có đánh rơi'
+-	R
+-	'chiếc rìu nhôm này không?'
+-	R
+-	'Hay là chiếc rìu vàng này?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Youko mỉm'
+-	R
+-	'cười khi thể hiện'
++	'Xin chào. Youko là Youko,'
++	R
++	'tinh linh của hồ ạ.'
++	\L_03b47:
++	ZH 1:
++	'Cô gái tự giới thiệu,'
++	R
++	'rồi lễ phép cúi đầu.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Thứ bạn đánh rơi là...'
++	R
++	'chiếc rìu nhôm này?'
++	R
++	'Hay chiếc rìu vàng?'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Youko tươi cười đưa rìu'
+ 	R
+ 	X 1:
+-	'các trục.'
++	'cho xem.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ *L_0042e:
+@@ -224,20 +222,20 @@
+ 	'Đồ nói dối.'
+ 	\L_03b47:
+ 	ZH 1:
+-	'Nhưng thôi, cho đấy.'
++	'Nhưng không sao.'
++	R
++	'Cho bạn đấy.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	\L_03a5a:
+ 	ZH 1:
+ 	X 1:
+-	'nhận được một'
+-	R
+-	'chiếc rìu vàng.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Tạm biệt.'
++	'nhận được chiếc rìu vàng.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Vậy thì, tạm biệt.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	\L_03af4:
+@@ -261,44 +259,40 @@
+ 	!VAR0666 : 2!
+ 	\L_03a92:
+ 	ZH 1:
+-	'Woo! Ngươi rất trung thực.'
+-	\L_03b47:
+-	ZH 1:
+-	'Rìu nhôm của ngươi đây.'
+-	\L_03b47:
+-	ZH 1:
+-	'Và như một phần thưởng,'
+-	R
+-	'Tôi sẽ tạo điều kiện cho'
+-	R
+-	'ngươi đến được đáy hồ này,'
+-	\L_03b47:
+-	ZH 1:
+-	'nơi có cung điện'
+-	R
+-	'của Vua Hanny là.'
+-	\L_03b47:
+-	ZH 1:
+-	'Nếu ngươi gặp Hanny'
+-	R
+-	'King, tôi chắc chắn điều'
+-	R
+-	'gì đó tuyệt vời sẽ xảy ra.'
+-	\L_03b47:
+-	ZH 1:
+-	'Nếu ngươi'
+-	R
+-	'đang có ý định đến Cung điện'
+-	R
+-	'Hanny thì hãy đến hồ Titi.'
+-	\L_03b47:
+-	ZH 1:
+-	'Một nàng tiên bí ẩn'
+-	R
+-	'sẽ dẫn ngươi đến cung điện.'
+-	\L_03b47:
+-	ZH 1:
+-	'Hẹn gặp lại. Byebyyye.'
++	'Oaaa! Thật là'
++	R
++	'người thật thà.'
++	\L_03b47:
++	ZH 1:
++	'Vậy thì rìu nhôm nhé.'
++	\L_03b47:
++	ZH 1:
++	'Còn phần thưởng, Youko'
++	R
++	'sẽ cho bạn đến được'
++	\L_03b47:
++	ZH 1:
++	'cung điện của Đức Vua'
++	R
++	'Hanny dưới lòng hồ này.'
++	\L_03b47:
++	ZH 1:
++	'Gặp Đức Vua Hanny chắc'
++	R
++	'chắn sẽ có chuyện tốt đấy.'
++	\L_03b47:
++	ZH 1:
++	'Muốn đến Cung điện Hanny'
++	R
++	'thì cứ đến hồ Titi này nhé.'
++	\L_03b47:
++	ZH 1:
++	'Một chú tiên kỳ lạ sẽ dẫn'
++	R
++	'bạn tới cung điện ngay thôi.'
++	\L_03b47:
++	ZH 1:
++	'Vậy nhé. Bai baiii.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	\L_03af4:
+@@ -307,7 +301,7 @@
+ 	'＜Ùm ùm＞'
+ 	\L_03b47:
+ 	ZH 1:
+-	'Youko trở xuống hồ.'
++	'Youko trở về lòng hồ.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 0!
+@@ -325,94 +319,86 @@
+ 	\L_03ae6:
+ 	\L_03a92:
+ 	ZH 1:
+-	'Xin lỗi, vua Rance.'
+-	R
+-	'Tôi tìm thấy cái này...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Nó là gì?'
+-	R
+-	'người lính đang cho Rance'
+-	R
+-	'xem một chiếc rìu nhôm cũ.'
+-	\L_03b47:
+-	ZH 1:
+-	'đó chỉ là'
+-	R
+-	'một chiếc rìu nhôm bình'
+-	R
+-	'thường, phải không?'
+-	\L_03b47:
+-	ZH 1:
+-	'Có vẻ như nó'
+-	R
+-	'cũng đang sụp đổ.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Vâng... Đó chắc'
+-	R
+-	'chắn là cách nó xuất hiện,'
+-	R
+-	'nhưng... Nhìn này, làm ơn.'
+-	\L_03b47:
+-	ZH 1:
+-	'người lính chỉ ra tay cầm.'
+-	\L_03b47:
+-	ZH 1:
+-	'：mục Quan trọng. Nó'
+-	R
+-	'hữu ích： được viết trên đó'
+-	R
+-	'bằng chữ viết tay vụng về.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Nó trông giống như'
+-	R
+-	'một nét vẽ nguệch ngoạc.'
+-	R
+-	'ta sẽ vứt nó đi, sau đó?'
+-	\L_03b47:
+-	ZH 1:
+-	'Ta nghĩ nó'
+-	R
+-	'rất thú vị, nhưng...'
++	'Thần xin phép, Bệ hạ Rance.'
++	R
++	'Thần tìm thấy thứ này...'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Gì đấy? Thứ thuộc hạ mang'
++	R
++	'tới trước mặt Rance là'
++	R
++	'một chiếc rìu nhôm cũ kỹ.'
++	\L_03b47:
++	ZH 1:
++	'Rance「Gì thế, chỉ là'
++	R
++	'cái rìu nhôm thường.'
++	\L_03b47:
++	ZH 1:
++	'Lại còn cũ nát. Rìu bỏ đi.」'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Vâng... đúng là bề'
++	R
++	'ngoài như vậy, nhưng...'
++	R
++	'xin ngài xem chỗ này.'
++	\L_03b47:
++	ZH 1:
++	'Thuộc hạ chỉ vào cán rìu.'
++	\L_03b47:
++	ZH 1:
++	'Trên đó viết nguệch'
++	R
++	'ngoạc: [Vật phẩm quan'
++	R
++	'trọng. Có ích đấy]'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Gì chứ, chỉ là vẽ bậy. Thuộc'
++	R
++	'hạ「Vậy thần vứt đi nhé?'
++	\L_03b47:
++	ZH 1:
++	'Thần thấy hơi tò mò...」'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	\L_03a3e:
+ 	ZH 1:
+-	'Quăng nó... Không,'
+-	R
+-	'chờ đã... Nó có thể'
+-	R
+-	'thực sự quan trọng...?'
+-	\L_03b47:
+-	ZH 1:
+-	'Có lẽ là không, nhưng...'
+-	R
+-	'vâng, bất cứ điều gì. Nó'
+-	R
+-	'sẽ không cản đường ít nhất.'
+-	\L_03b47:
+-	ZH 1:
+-	'Giữ nó.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Vâng, thưa ngài.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Thu được một'
+-	R
+-	'chiếc rìu nhôm rỉ sét.'
++	'Vứt... không,'
++	R
++	'khoan... lẽ nào đúng'
++	R
++	'là vật quan trọng...'
++	\L_03b47:
++	ZH 1:
++	'không, làm gì có...'
++	R
++	'nhưng mà... Thôi, cũng'
++	R
++	'được. Chẳng vướng víu gì.'
++	\L_03b47:
++	ZH 1:
++	'Giữ lấy.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Vâng.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Thu được chiếc'
++	R
++	'rìu nhôm cũ nát.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 0!
+@@ -425,11 +411,9 @@
+ 	\L_03b1e:
+ 	\L_03a5a:
+ 	ZH 1:
+-	'Rance và những'
+-	R
+-	'người khác đến Mount'
+-	R
+-	'Salen để đi dã ngoại.'
++	'Bọn Rance tới núi'
++	R
++	'Salen đi dã ngoại.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0154 : 2!
+@@ -439,42 +423,38 @@
+ 		\L_03a76:
+ 		\L_03a22:
+ 		ZH 1:
+-		'Hả. Thời tiết'
+-		R
+-		'khá đẹp ở đây.'
+-		\L_03b47:
+-		ZH 1:
+-		'Ta không biết điều đó có'
+-		R
+-		'thể xảy ra bên trong Helman.'
+-		\L_03b47:
+-		ZH 1:
+-		'Gahahahaha!.'
++		'Ồi. Trời đẹp ghê.'
++		\L_03b47:
++		ZH 1:
++		'Chẳng giống đất'
++		R
++		'Helman chút nào.'
++		\L_03b47:
++		ZH 1:
++		'Gahahahaha.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		!VAR0516 : 5!
+ 		\L_03ae6:
+ 		\L_03a92:
+ 		ZH 1:
+-		'Nhìn đằng kia đi chàng'
+-		R
+-		'yêu. Có một cô chăn cừu.'
++		'Chàng ơi, đằng kia'
++		R
++		'kìa. Có cô bé chăn cừu.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a22:
+ 		ZH 1:
+-		'Ừm. Có lẽ ta'
+-		R
+-		'nên tấn công nàng.'
++		'Ừm. Vậy đi tán tỉnh nào.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a92:
+ 		ZH 1:
+-		'À, không!'
+-		R
+-		'Anh không nên làm thế'
+-		R
+-		'khi vợ anh đang ở đây.'
++		'A, không được! Trước'
++		R
++		'mặt vợ là Lia thì'
++		R
++		'không được làm thế.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		{VAR0058 \ 0:
+@@ -483,14 +463,12 @@
+ 			\L_03ae6:
+ 			\L_03a92:
+ 			ZH 1:
+-			'Nghiêm túc...'
++			'Thật tình......'
+ 			\L_03b47:
+ 			ZH 1:
+-			'Cậu sẽ cảm thấy tồi tệ về'
++			'Đến tận đây rồi còn háu'
+ 			R
+-			'việc tham lam như vậy ngay'
+-			R
+-			'cả khi ra khỏi đây, Rance.'
++			'đói, mất mặt lắm đấy, Rance.'
+ 			\L_03b47:
+ 			\L_03b3a:
+ 			\L_03af4:
+@@ -499,19 +477,19 @@
+ 		}
+ 		\L_03a22:
+ 		ZH 1:
+-		'Hừm, khập khiễng.'
+-		\L_03b47:
+-		ZH 1:
+-		'... Ồ. Lia,'
+-		R
+-		'nhìn này. Có một số động'
+-		R
+-		'vật kỳ lạ. Gahahahaha!.'
++		'Hừ, chán.'
++		\L_03b47:
++		ZH 1:
++		'......Ồ. Nhìn kìa,'
++		R
++		'Lia. Có con vật gì'
++		R
++		'lạ lắm. Gahahahaha.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a92:
+ 		ZH 1:
+-		'Ahn, chàng yêu, đợi đã!'
++		'A, đợi thiếp với, chàng ơi!'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		{VAR0058 \ 0:
+@@ -520,9 +498,9 @@
+ 			\L_03ae6:
+ 			\L_03a92:
+ 			ZH 1:
+-			'Ôi, Nữ hoàng Lia!'
++			'A, Công chúa Lia!'
+ 			R
+-			'Đừng chạy, nguy hiểm lắm!'
++			'Chạy là nguy hiểm đấy!'
+ 			\L_03b47:
+ 			\L_03b3a:
+ 		}
+@@ -531,16 +509,16 @@
+ 		\L_03ae6:
+ 		\L_03aae:
+ 		ZH 1:
+-		'Tốt... Nữ hoàng'
+-		R
+-		'Lia có vẻ hạnh phúc...'
++		'Tốt quá...... Công chúa'
++		R
++		'Lia trông hạnh phúc......'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a5a:
+ 		ZH 1:
+-		'Maris lơ đãng nhìn'
+-		R
+-		'cặp vợ chồng ấm áp.'
++		'Maris ngây ngất nhìn cuộc'
++		R
++		'sống vợ chồng êm đềm ấy.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03af4:
+@@ -548,7 +526,7 @@
+ 		\L_03ae6:
+ 		\L_03a92:
+ 		ZH 1:
+-		'Cố lên, Maris!'
++		'Maris, nhanh lên!'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		@L_00e5b:
+@@ -561,183 +539,163 @@
+ 	\L_03b02:
+ *L_00aae:
+ 	ZH 1:
+-	'Rance 「Leeet đi đến fooorest.'
+-	R
+-	'Cô gái trẻ. Eeheeeehee.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Sill 「Chủ nhân Rance... Đó không'
+-	R
+-	'phải là cách bài hát diễn ra...」'
+-	\L_03b47:
+-	ZH 1:
+-	'Rance 「Im đi. Nó ổn theo cách này.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Rance 「Bằng cách này, hãy chắc'
+-	R
+-	'chắn để giữ cho bữa ăn trưa, Sill.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Nếu ngươi thả nó, ngươi đang'
+-	R
+-	'nhận được một đánh đòn.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Sill 「Vâng, Chủ nhân Rance...」'
+-	\L_03b47:
+-	ZH 1:
+-	'Sill đã nỗ lực hết sức để mang theo'
+-	R
+-	'một hộp cơm trưa với thức ăn cho'
+-	\L_03b47:
+-	ZH 1:
+-	'năm người trong đó trong khi tham'
+-	R
+-	'gia vào môi trường xung quanh.'
+-	\L_03b47:
+-	ZH 1:
+-	'Sill 「thật đẹp...'
+-	R
+-	'Em thích nơi Này, Sư Phụ Rance.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Rance 「Mhm, nơi hoàn hảo cho một'
+-	R
+-	'số quan hệ tình dục ngoài trời.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Sill 「Ah... Ahaha...」'
+-	\L_03b47:
+-	ZH 1:
+-	'Lia 「Chàng yêu! Nhìn đi, nhìn đi!! Một'
+-	R
+-	'dòng suối!! Hãy bắt vài con cá nào!」'
+-	\L_03b47:
+-	ZH 1:
+-	'Rance 「Mhm. Ta sẽ tìm vỏ. Bắt cá một mình.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Lia 「Aaaw! Thế thì thiếp cũng sẽ đi tìm'
+-	R
+-	'vỏ sò! Thiếp muốn một vỏ hoa chàng đào.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Rance 「bất kỳ vỏ sakura là của ta.'
+-	R
+-	'Ngươi có thể có tất cả vỏ ngao.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Lia 「Trời, chàng thật xấu tính!」'
+-	\L_03b47:
+-	ZH 1:
+-	'Rance 「Gahahahaha! ha!」'
+-	\L_03b47:
+-	ZH 1:
+-	'Rance 「Hm? Có chuyện Gì Vậy,'
+-	R
+-	'Maris? Ngươi nhìn xuống...」'
+-	\L_03b47:
+-	ZH 1:
+-	'Maris 「Không có gì đâu...」'
+-	\L_03b47:
+-	ZH 1:
+-	'Maris（Haah... Tại sao chúng ta lại mang'
+-	R
+-	'theo lá cờ này chỉ để đi dã ngoại...?）'
+-	\L_03b47:
+-	ZH 1:
+-	'Rance 「Nâng cao lá cờ đó. Đó là để nói'
+-	R
+-	'với mọi người rằng nhà vua đang ở đây.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Gahahahaha! !!」'
+-	\L_03b47:
+-	ZH 1:
+-	'Maris 「Ừ, được thôi.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Lia 「À, Harumaki! Hãy nhìn'
+-	R
+-	'những con chim đang bay!」'
+-	\L_03b47:
+-	ZH 1:
+-	'Harumaki 「Raaawr raaawr.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Lia 「Harumaki cũng đang vui đấy, Chàng yêu.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Rance 「Hohoh. Những con thú đơn thuần'
+-	R
+-	'thậm chí không biết niềm vui là gì.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Gahahahaha! ha.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Lia 「Chàng cũng nên bay đi, Harumaki. Đi!」'
+-	\L_03b47:
+-	ZH 1:
+-	'Harumaki 「Rawrawraaawr.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Lia 「Huhuhu. Chàng nghe có'
+-	R
+-	'vẻ thảm hại nhỉ, Harumaki.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Rance 「được rồi, chúng ta sẽ ăn'
+-	R
+-	'ở đây chứ? Lấy thức ăn ra, Sill.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Sill 「Vâng, Chủ nhân Rance.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Rance 「Ngươi chắc chắn sẽ đặt'
+-	R
+-	'pink unyuun vào đó, phải không?」'
+-	\L_03b47:
+-	ZH 1:
+-	'Sill 「Vâng, trời lạnh như'
+-	R
+-	'ngài thích. Ở đó ngài đi.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Rance 「Mm... Munch, munch,'
+-	R
+-	'munch... Haaah～～, điều đó tốt!!」'
+-	\L_03b47:
+-	ZH 1:
+-	'Lia 「Còn thiếp thì sao, nô lệ?」'
+-	\L_03b47:
+-	ZH 1:
+-	'Sill 「Ah, ở đây Ngài đi, Nữ Hoàng Lia.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Lia 「Hmph... Tốt lắm, Chàng yêu.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Rance 「Ừ.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Sill 「Đây là Của Ngài, Cô Maris...」'
+-	\L_03b47:
+-	ZH 1:
+-	'Maris 「Cảm ơn.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Sill 「Ừm... Sư Phụ Rance...'
+-	R
+-	'Em cũng có thể ăn được không?」'
+-	\L_03b47:
+-	ZH 1:
+-	'Rance 「ngươi nhận được nước.」'
+-	\L_03b47:
+-	ZH 1:
+-	'Sill 「... Khóc nức nở...」'
++	'Rance「Đi vào ruuừng nàaao. Cô bé ơiii. Ê hê hê」'
++	\L_03b47:
++	ZH 1:
++	'Sill「Chủ nhân Rance... lời'
++	R
++	'bài hát hình như hơi sai...」'
++	\L_03b47:
++	ZH 1:
++	'Rance「Im đi. Thế này mới đúng」'
++	\L_03b47:
++	ZH 1:
++	'Rance「Mà Sill, mang hộp cơm cẩn thận đấy.'
++	\L_03b47:
++	ZH 1:
++	'Làm rơi là bị phét mông đấy nhé」'
++	\L_03b47:
++	ZH 1:
++	'Sill「Vâng, Chủ nhân Rance... hự... hự...」'
++	\L_03b47:
++	ZH 1:
++	'Sill dốc sức khiêng hộp cơm cho năm người,'
++	\L_03b47:
++	ZH 1:
++	'vừa mải ngắm cảnh vật xung quanh.'
++	\L_03b47:
++	ZH 1:
++	'Sill「Đẹp quá...... chỗ này'
++	R
++	'hay thật, Chủ nhân Rance」'
++	\L_03b47:
++	ZH 1:
++	'Rance「Ừm, hợp để làm chuyện ấy ngoài trời ghê」'
++	\L_03b47:
++	ZH 1:
++	'Sill「A... a ha ha......」'
++	\L_03b47:
++	ZH 1:
++	'Lia「Chàng ơi! Nhìn kìa nhìn'
++	R
++	'kìa!! Suối!! Đi bắt cá đi!」'
++	\L_03b47:
++	ZH 1:
++	'Rance「Ừm. Ta đi nhặt sò. Cá thì tự đi mà bắt」'
++	\L_03b47:
++	ZH 1:
++	'Lia「Hừm! Vậy Lia cũng nhặt'
++	R
++	'sò! Lia muốn sò hoa anh đào」'
++	\L_03b47:
++	ZH 1:
++	'Rance「Sò hoa anh đào là'
++	R
++	'của ta. Lia nhặt hến là đủ」'
++	\L_03b47:
++	ZH 1:
++	'Lia「Đáng ghét, đáng ghét!」'
++	\L_03b47:
++	ZH 1:
++	'Rance「Gahahahaha!」'
++	\L_03b47:
++	ZH 1:
++	'Rance「Hử? Sao thế? Maris.'
++	R
++	'Mặt mũi ủ dột thế......」'
++	\L_03b47:
++	ZH 1:
++	'Maris「Không... không có gì......」'
++	\L_03b47:
++	ZH 1:
++	'Maris（Haa... sao đi dã ngoại mà'
++	R
++	'phải mang cả lá cờ thế này......）'
++	\L_03b47:
++	ZH 1:
++	'Rance「Giơ cờ cho cao vào. Phải cho'
++	R
++	'thiên hạ biết nhà vua đang ở đây chứ.'
++	\L_03b47:
++	ZH 1:
++	'Gahahahahaha!!」'
++	\L_03b47:
++	ZH 1:
++	'Maris「Vâng vâng」'
++	\L_03b47:
++	ZH 1:
++	'Lia「A, Harumaki! Chim đang bay kìa!」'
++	\L_03b47:
++	ZH 1:
++	'Harumaki「Gào gào」'
++	\L_03b47:
++	ZH 1:
++	'Lia「Chàng ơi, Harumaki bảo vui lắm」'
++	\L_03b47:
++	ZH 1:
++	'Rance「Hừm hừm. Thân súc vật'
++	R
++	'mà cũng biết vui cơ đấy.'
++	\L_03b47:
++	ZH 1:
++	'Gahahahahaha」'
++	\L_03b47:
++	ZH 1:
++	'Lia「Harumaki cũng bay đi. Nào!」'
++	\L_03b47:
++	ZH 1:
++	'Harumaki「Gào ào ào ào」'
++	\L_03b47:
++	ZH 1:
++	'Lia「Hì hì. Harumaki này, kêu gì mà thảm thế」'
++	\L_03b47:
++	ZH 1:
++	'Rance「Được, ăn cơm ở đây thôi. Sill, bày ra」'
++	\L_03b47:
++	ZH 1:
++	'Sill「Vâng, Chủ nhân Rance」'
++	\L_03b47:
++	ZH 1:
++	'Rance「Có mang Pink Unyun theo đấy chứ?」'
++	\L_03b47:
++	ZH 1:
++	'Sill「Vâng, em mang loại ướp lạnh'
++	R
++	'buốt ngài thích đây ạ. Mời ngài」'
++	\L_03b47:
++	ZH 1:
++	'Rance「Ừm...... ực... ực...'
++	R
++	'ực... phùùù~~... ngon!!」'
++	\L_03b47:
++	ZH 1:
++	'Lia「Nô lệ, của Lia đâu?」'
++	\L_03b47:
++	ZH 1:
++	'Sill「A, mời Công chúa Lia」'
++	\L_03b47:
++	ZH 1:
++	'Lia「Hừm... ngon nhỉ, chàng」'
++	\L_03b47:
++	ZH 1:
++	'Rance「Ờ」'
++	\L_03b47:
++	ZH 1:
++	'Sill「Cả cô Maris nữa......」'
++	\L_03b47:
++	ZH 1:
++	'Maris「Cảm ơn em」'
++	\L_03b47:
++	ZH 1:
++	'Sill「Dạ... Chủ nhân Rance......'
++	R
++	'em cũng uống được không ạ?」'
++	\L_03b47:
++	ZH 1:
++	'Rance「Em uống nước」'
++	\L_03b47:
++	ZH 1:
++	'Sill「......hức......」'
+ 	\L_03b47:
+ 	{VAR0520 = 300:
+ 		%0:
+@@ -745,14 +703,12 @@
+ 	!VAR0154 : 6!
+ 	{VAR0102 \ 0:
+ 		ZH 1:
+-		'Barres 「Vua Rance, đằng kia có một cây'
+-		R
+-		'thông khá đẹp. Chúng ta đi xem nó nhé?」'
+-		\L_03b47:
+-		ZH 1:
+-		'Rance 「Này, Maris!! Khi nào'
+-		R
+-		'ta nói mang Theo Barres??」'
++		'Barres「Bệ hạ Rance, đằng kia có cây'
++		R
++		'thông tuyệt đẹp. Ngài đi xem không ạ?」'
++		\L_03b47:
++		ZH 1:
++		'Rance「Này, Maris!! Ai bảo dẫn Barres theo hả??」'
+ 		\L_03b47:
+ 	}
+ 	\L_03b3a:
+@@ -765,19 +721,19 @@
+ *L_00e5b:
+ 	\L_03a22:
+ 	ZH 1:
+-	'Được rồi, chúng'
+-	R
+-	'ta quay lại nhé?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Huuuh... Đã rồi à?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Vâng. Đi thôi.'
++	'Nào, về thôi.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ơơơ... đã về rồi á?'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Phải. Quạ kêu'
++	R
++	'thì về nhà thôi.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0154 : 32!
+@@ -786,44 +742,40 @@
+ 		!VAR0150 : 100!
+ 		\L_03a3e:
+ 		ZH 1:
+-		'Uuuuh... Có'
+-		R
+-		'một cái gì đó...'
++		'Ừmm... có gì đó...'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a22:
+ 		ZH 1:
+-		'Ồ đúng rồi, tôi phải'
+-		R
+-		'mua một cái cho Miki.'
++		'À phải, phải lấy'
++		R
++		'cái đó cho Miki.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a5a:
+ 		ZH 1:
+-		'Rance lấy một quả'
+-		R
+-		'chanh hirami từ một cái cây.'
++		'Nói rồi, Rance hái một'
++		R
++		'quả chanh hirami trên cây.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a22:
+ 		ZH 1:
+-		'Hmm... Có'
+-		R
+-		'vẻ chua chát. Nó làm'
+-		R
+-		'tôi chảy nước miếng...'
++		'Ừm... nhìn thôi đã thấy'
++		R
++		'chua. Ứa cả nước miếng...'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a5a:
+ 		ZH 1:
+-		'Rance đặt nó'
+-		R
+-		'trong một hộp làm mát.'
++		'Rance bỏ nó vào'
++		R
++		'thùng giữ lạnh.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a22:
+ 		ZH 1:
+-		'Chúng tôi đi Đây.'
++		'Thế là xong.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 	}
+@@ -832,14 +784,16 @@
+ 	\L_03ae6:
+ 	\L_03a92:
+ 	ZH 1:
+-	'Chúng ta sẽ đi, Vua Rance?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Vâng, đi thôi. cuộc dã'
+-	R
+-	'ngoại vui vẻ kết thúc.'
++	'Vậy chúng ta đi thôi'
++	R
++	'chứ ạ, Bệ hạ Rance.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Ờ. Về thôi. Phút giây dã'
++	R
++	'ngoại vui vẻ đã kết thúc.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 0!
+@@ -849,17 +803,19 @@
+ *L_00feb:
+ 	\L_03a5a:
+ 	ZH 1:
+-	'Đến một căn phòng với'
+-	R
+-	'những bức tường lấp lánh như'
+-	R
+-	'chưa từng thấy trước đây.'
++	'Tới một căn phòng có'
++	R
++	'những bức tường sáng'
++	R
++	'lóa chưa từng thấy.'
+ 	\L_03b47:
+ 	ZH 1:
+ 	X 1:
+-	'kiểm tra cẩn thận'
+-	R
+-	'phòng. họ tìm thấy 5 nút.'
++	'thận trọng xem xét'
++	R
++	'căn phòng. Và phát'
++	R
++	'hiện năm cái nút.'
+ *L_01035:
+ 	IM VAR0202, VAR0203:
+ 	{VAR0000:
+@@ -867,27 +823,27 @@
+ 	}
+ 	ZH 1:
+ 	$L_01147$
+-	'Nhấn Nút A'
++	'Ấn nút A'
+ 	$
+ 	R
+ 	$L_01220$
+-	'Nút Nhấn B'
++	'Ấn nút B'
+ 	$
+ 	R
+ 	$L_012bb$
+-	'Nút Nhấn C'
++	'Ấn nút C'
+ 	$
+ 	R
+ 	$L_01356$
+-	'Nút Nhấn D'
++	'Ấn nút D'
+ 	$
+ 	R
+ 	$L_013f0$
+-	'Nút Nhấn E'
++	'Ấn nút E'
+ 	$
+ 	R
+ 	$L_010a7$
+-	'Đẩy Không Có Gì'
++	'Không ấn gì'
+ 	$
+ 	]
+ 	@L_01035:
+@@ -898,14 +854,14 @@
+ 	\L_03b3a:
+ 	\L_03a5a:
+ 	ZH 1:
+-	'Trong khoảnh khắc đó,'
+-	R
+-	'xung quanh rung chuyển và'
++	'Ngay khoảnh khắc ấy, cảnh'
++	R
++	'vật xung quanh chao đảo,'
+ 	R
+ 	X 1:
+-	'đơn vị của nó'
+-	R
+-	'nằm ngoài thiết giáp hạm.'
++	'và đơn vị của đã ở'
++	R
++	'bên ngoài chiến hạm.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 0!
+@@ -915,16 +871,16 @@
+ 	\L_03b3a:
+ 	\L_03a5a:
+ 	ZH 1:
+-	'） pch）'
+-	\L_03b47:
+-	ZH 1:
+-	'Nhấn một nút.'
+-	\L_03b47:
+-	ZH 1:
+-	'Nhưng không có gì xảy ra.'
++	'(Tách)'
++	\L_03b47:
++	ZH 1:
++	'Ấn nút.'
++	\L_03b47:
++	ZH 1:
++	'Nhưng chẳng có gì xảy ra.'
+ 	R
+ 	X 1:
+-	'thở dài nhẹ nhõm.'
++	'thở phào nhẹ nhõm.'
+ 	\L_03b47:
+ 	@L_010a7:
+ *L_01147:
+@@ -935,24 +891,26 @@
+ 	\L_03b3a:
+ 	\L_03a5a:
+ 	ZH 1:
+-	'） pch）'
+-	\L_03b47:
+-	ZH 1:
+-	'Nút Nhấn A.'
++	'(Tách)'
++	\L_03b47:
++	ZH 1:
++	'Ấn nút A.'
+ 	\L_03b47:
+ 	ZH 1:
+ 	X 1:
+-	'cơ thể phát sáng.'
+-	\L_03b47:
+-	ZH 1:
+-	'Tấn công LÊN'
++	'Thế là thân thể'
++	R
++	'bắt đầu tỏa sáng.'
++	\L_03b47:
++	ZH 1:
++	'Công TĂNG'
+ 	H 0, VAR0087:
+ 	ZH 1:
+ 	'）'
+ 	H 0, VAR0087 + 1:
+ 	\L_03b47:
+ 	ZH 1:
+-	'Phòng thủ TĂNG'
++	'Thủ TĂNG'
+ 	H 0, VAR0088:
+ 	ZH 1:
+ 	'）'
+@@ -969,17 +927,19 @@
+ 	\L_03a5a:
+ 	!VAR0338 : 1!
+ 	ZH 1:
+-	'） pch）'
+-	\L_03b47:
+-	ZH 1:
+-	'Nút Nhấn B.'
++	'(Tách)'
++	\L_03b47:
++	ZH 1:
++	'Ấn nút B.'
+ 	\L_03b47:
+ 	ZH 1:
+ 	X 1:
+-	'cơ thể phát sáng.'
+-	\L_03b47:
+-	ZH 1:
+-	'Tấn công LÊN'
++	'Thế là thân thể'
++	R
++	'bắt đầu tỏa sáng.'
++	\L_03b47:
++	ZH 1:
++	'Công TĂNG'
+ 	H 0, VAR0087:
+ 	ZH 1:
+ 	'）'
+@@ -995,17 +955,19 @@
+ 	\L_03a5a:
+ 	!VAR0339 : 1!
+ 	ZH 1:
+-	'） pch）'
+-	\L_03b47:
+-	ZH 1:
+-	'Nút Nhấn C.'
++	'(Tách)'
++	\L_03b47:
++	ZH 1:
++	'Ấn nút C.'
+ 	\L_03b47:
+ 	ZH 1:
+ 	X 1:
+-	'cơ thể phát sáng.'
+-	\L_03b47:
+-	ZH 1:
+-	'HP TĂNG'
++	'Thế là thân thể'
++	R
++	'bắt đầu tỏa sáng.'
++	\L_03b47:
++	ZH 1:
++	'Sinh lực TĂNG'
+ 	H 0, VAR0091:
+ 	ZH 1:
+ 	'）'
+@@ -1023,26 +985,24 @@
+ 	\L_03b3a:
+ 	\L_03a5a:
+ 	ZH 1:
+-	'） pch）'
+-	\L_03b47:
+-	ZH 1:
+-	'Nút Nhấn D.'
+-	R
+-	'cl clunk）） cuộn）'
+-	\L_03b47:
+-	ZH 1:
+-	'Một cái gì đó có hình dạng'
+-	R
+-	'giống như một quả trứng lăn'
+-	R
+-	'ra khỏi thiết bị trước đây'
++	'(Tách)'
++	\L_03b47:
++	ZH 1:
++	'Ấn nút D.'
++	R
++	'(Cạch... lăn lóc)'
++	\L_03b47:
++	ZH 1:
++	'Từ cỗ máy trước mặt, một vật'
++	R
++	'trông như quả trứng lăn ra'
+ 	X 1:
+ 	'.'
+ 	\L_03b47:
+ 	ZH 1:
+-	'Đã nhận được'
+-	R
+-	'［Viên nang Kaiju A］.'
++	'Thu được [Quái'
++	R
++	'Thú Viên Nang A].'
+ 	\L_03b47:
+ 	@L_010a7:
+ *L_013f0:
+@@ -1055,26 +1015,24 @@
+ 	\L_03b3a:
+ 	\L_03a5a:
+ 	ZH 1:
+-	'） pch）'
+-	\L_03b47:
+-	ZH 1:
+-	'Nút Nhấn E.'
+-	R
+-	'cl clunk）） cuộn）'
+-	\L_03b47:
+-	ZH 1:
+-	'Một cái gì đó có hình dạng'
+-	R
+-	'giống như một quả trứng lăn'
+-	R
+-	'ra khỏi thiết bị trước đây'
++	'(Tách)'
++	\L_03b47:
++	ZH 1:
++	'Ấn nút E.'
++	R
++	'(Cạch... lăn lóc)'
++	\L_03b47:
++	ZH 1:
++	'Từ cỗ máy trước mặt, một vật'
++	R
++	'trông như quả trứng lăn ra'
+ 	X 1:
+ 	'.'
+ 	\L_03b47:
+ 	ZH 1:
+-	'Đã nhận được'
+-	R
+-	'［Viên nang Kaiju B］.'
++	'Thu được [Quái'
++	R
++	'Thú Viên Nang B].'
+ 	\L_03b47:
+ 	@L_010a7:
+ *L_0148a:
+@@ -1115,19 +1073,15 @@
+ *L_0155b:
+ 	\L_03a5a:
+ 	ZH 1:
+-	'Tuy nhiên, cánh cửa của'
+-	R
+-	'tàu chiến khổng lồ đã đóng'
+-	R
+-	'chặt và không thể vào được.'
++	'Nhưng cửa chiến hạm'
++	R
++	'khổng lồ đóng chặt,'
++	R
++	'không thể vào được.'
+ 	\L_03b47:
+ 	ZH 1:
+ 	X 1:
+-	'đơn vị của'
+-	R
+-	'không có lựa chọn nào khác'
+-	R
+-	'ngoài việc quay trở lại.'
++	'Đơn vị của đành phải rút về.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 0!
+@@ -1137,19 +1091,19 @@
+ 	!VAR0342 : 2!
+ 	\L_03a5a:
+ 	ZH 1:
+-	'cánh cửa của thiết giáp'
+-	R
+-	'hạm khổng lồ bị đóng chặt.'
+-	\L_03b47:
+-	ZH 1:
+-	'Nó được mở bằng “Chìa khóa'
+-	R
+-	'chiến hạm khổng lồ” được'
+-	R
+-	'tìm thấy trong Đường dẫn,'
+-	\L_03b47:
+-	ZH 1:
+-	'giúp ngươi có thể vào được.'
++	'Cửa chiến hạm'
++	R
++	'khổng lồ đóng chặt.'
++	\L_03b47:
++	ZH 1:
++	'Nhưng nhờ [Chìa khóa Chiến'
++	R
++	'hạm Khổng lồ] tìm được ở'
++	R
++	'thành phố Path, cửa đã mở,'
++	\L_03b47:
++	ZH 1:
++	'giờ đã có thể vào trong.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 0!
+@@ -1165,108 +1119,98 @@
+ 	\L_03ae6:
+ 	\L_03a22:
+ 	ZH 1:
+-	'Maris, thứ to'
+-	R
+-	'lớn này là gì vậy?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Bản thân tôi cũng'
+-	R
+-	'không biết. Nó hoàn toàn'
+-	R
+-	'bị che giấu trong bí ẩn.'
+-	\L_03b47:
+-	ZH 1:
+-	'Ai đã làm ra nó'
+-	R
+-	'và tại sao không rõ.'
+-	\L_03b47:
+-	ZH 1:
+-	'Một giả thuyết'
+-	R
+-	'cho rằng nó rơi từ trên trời'
+-	R
+-	'xuống hàng ngàn năm trước.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Hmmm... Một'
+-	R
+-	'chiến hạm khổng lồ ẩn chứa'
+-	R
+-	'những bí ẩn khổng lồ...?'
+-	\L_03b47:
+-	ZH 1:
+-	'Có vẻ mát'
+-	R
+-	'mẻ. Bất kỳ người đàn ông'
+-	R
+-	'thực sự sẽ bị hấp dẫn.'
+-	\L_03b47:
+-	ZH 1:
+-	'Được rồi, ta có'
+-	R
+-	'nên kiểm tra nó không?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Tuy nhiên, nếu muốn đến'
+-	R
+-	'được tàu chiến khổng lồ,'
+-	\L_03b47:
+-	ZH 1:
+-	'cậu cần phải đi qua'
+-	R
+-	'một khu vực băng giá.'
+-	\L_03b47:
+-	ZH 1:
+-	'Thật nguy hiểm.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Có Lẽ Tại sao nó vẫn'
+-	R
+-	'còn là một bí ẩn, sau đó.'
+-	\L_03b47:
+-	ZH 1:
+-	'Nếu nó ở'
+-	R
+-	'một nơi an toàn, các nhà'
+-	R
+-	'thám hiểm sẽ ở khắp nơi.'
+-	\L_03b47:
+-	ZH 1:
+-	'Gaha'
+-	R
+-	'hahaha!ha!haha!ha!hahaha ha.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Có lẽ, nhưng...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Có lẽ có điều gì đó'
+-	R
+-	'hay ho ở đó. Nếu ta tìm thấy'
+-	R
+-	'nó... Uhee... Uheehee...'
++	'Maris, cái thứ khổng'
++	R
++	'lồ này là gì vậy?'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Thần cũng không rõ. Tất'
++	R
++	'cả đều phủ trong bí ẩn.'
++	\L_03b47:
++	ZH 1:
++	'Ai làm ra nó, làm'
++	R
++	'ra để làm gì...'
++	\L_03b47:
++	ZH 1:
++	'Cũng có thuyết nói nó'
++	R
++	'từ trên trời rơi xuống'
++	R
++	'cả nghìn năm trước...'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Ừm... Một chiến hạm'
++	R
++	'khổng lồ phủ trong'
++	R
++	'bí ẩn khổng lồ à...'
++	\L_03b47:
++	ZH 1:
++	'Hay đấy. Sặc mùi'
++	R
++	'lãng mạn đàn ông.'
++	\L_03b47:
++	ZH 1:
++	'Được, điều tra nó thôi.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Có điều, muốn tới gần'
++	R
++	'chiến hạm khổng lồ đó'
++	\L_03b47:
++	ZH 1:
++	'phải băng qua vùng'
++	R
++	'băng tuyết giá buốt.'
++	\L_03b47:
++	ZH 1:
++	'Rất nguy hiểm ạ.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Vì thế nên tới giờ nó'
++	R
++	'vẫn là bí ẩn chứ gì.'
++	\L_03b47:
++	ZH 1:
++	'Có thứ đó ở chỗ an'
++	R
++	'toàn thì giờ bị đám mạo'
++	R
++	'hiểm giả vét sạch rồi.'
++	\L_03b47:
++	ZH 1:
++	'Gahahahaha.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Đúng vậy, nhưng......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Biết đâu có thứ hay'
++	R
++	'ho. Mà tìm được thì...'
++	R
++	'ư hì... ư hì hì...'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	\L_03aae:
+ 	ZH 1:
+-	'... Hắn đang'
+-	R
+-	'nghĩ gì vậy...? Thật tốt'
+-	R
+-	'là hắn rất dễ nhận ra...'
++	'...Đang nghĩ gì... dễ'
++	R
++	'đoán thật, đỡ mệt ghê...'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 0!
+@@ -1278,65 +1222,65 @@
+ 	\L_03ae6:
+ 	\L_03a92:
+ 	ZH 1:
+-	'Vua Rance,'
+-	R
+-	'tôi tìm thấy cái này ở'
+-	R
+-	'một tiệm cầm đồ ở Path.'
++	'Bệ hạ Rance, thần tìm'
++	R
++	'được thứ này ở tiệm'
++	R
++	'cầm đồ thành phố Path.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 1!
+ 	\L_03a76:
+ 	\L_03a22:
+ 	ZH 1:
+-	'Nó là gì? người lính'
+-	R
+-	'cho Rance xem một chiếc chìa'
+-	R
+-	'khóa có hình dạng kỳ lạ.'
+-	\L_03b47:
+-	ZH 1:
+-	'cái này để làm gì?'
+-	\L_03b47:
+-	ZH 1:
+-	'họ có thể đã nói dối,'
+-	\L_03b47:
+-	ZH 1:
+-	'nhưng người đàn ông'
+-	R
+-	'ở cửa hàng cầm đồ cho'
+-	\L_03b47:
+-	ZH 1:
+-	'biết họ mở con tàu'
++	'Gì đây gì đây. Thứ thuộc'
++	R
++	'hạ đưa ra là một chiếc'
++	R
++	'chìa khóa hình thù kỳ lạ.'
++	\L_03b47:
++	ZH 1:
++	'Rance「Cái này thì sao?」'
++	\L_03b47:
++	ZH 1:
++	'Thuộc hạ「Không'
++	R
++	'biết thật giả,'
++	\L_03b47:
++	ZH 1:
++	'nhưng ở tiệm cầm'
++	R
++	'đồ, người ta bán nó'
++	\L_03b47:
++	ZH 1:
++	'bảo là chìa để vào con tàu'
+ 	R
+ 	'khổng lồ trong sông băng,'
+ 	\L_03b47:
+ 	ZH 1:
+-	'vì vậy...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'... Chiến hạm'
+-	R
+-	'khổng lồ bí ẩn ở phía'
+-	R
+-	'bắc nơi này...? Ừmmm.'
+-	\L_03b47:
+-	ZH 1:
+-	'vâng, bất cứ điều'
+-	R
+-	'gì. Ta sẽ lấy nó.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Vâng, thưa ngài.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Nhận được Chìa khóa'
++	'nên...」'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'...Cái chiến hạm khổng'
++	R
++	'lồ bí ẩn ở phía bắc'
++	R
++	'Path à...... hừmm.'
++	\L_03b47:
++	ZH 1:
++	'Thôi được. Giữ lấy.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Rõ.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Thu được Chìa khóa'
+ 	R
+ 	'Chiến hạm Khổng lồ.'
+ 	\L_03b47:
+@@ -1350,45 +1294,43 @@
+ 	\L_03a76:
+ 	\L_03a22:
+ 	ZH 1:
+-	'Vua Rance,'
+-	\L_03b47:
+-	ZH 1:
+-	'tôi tìm thấy một số lượng'
+-	R
+-	'lớn thanh kiếm pha lê trong'
+-	R
+-	'phòng chứa đồ ở Lang Bau.'
++	'Bệ hạ Rance,'
++	\L_03b47:
++	ZH 1:
++	'thần tìm thấy rất'
++	R
++	'nhiều Pha Lê Kiếm'
++	R
++	'trong kho ở Lang Bau.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 1!
+ 	\L_03ae6:
+ 	\L_03a92:
+ 	ZH 1:
+-	'Những thanh kiếm pha lê...'
+-	R
+-	'Aah, đơn vị của con khốn'
+-	R
+-	'Mineva đó đã sử dụng chúng.'
+-	\L_03b47:
+-	ZH 1:
+-	'Được rồi, mang'
+-	R
+-	'họ về lâu đài.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Vâng, thưa ngài.'
++	'Pha Lê Kiếm...... à,'
++	R
++	'thứ vũ khí hiểm ác quân'
++	R
++	'của con mụ Mineva dùng.'
++	\L_03b47:
++	ZH 1:
++	'Được, mang về đi.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Rõ.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	\L_03a84:
+ 	\L_03a5a:
+ 	ZH 1:
+-	'Đã thu được đủ thanh'
+-	R
+-	'kiếm pha lê để trang'
+-	R
+-	'bị cho cả một đơn vị.'
++	'Thu được một lượng lớn'
++	R
++	'Pha Lê Kiếm đủ trang'
++	R
++	'bị cho cả một đạo quân.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 0!
+@@ -1400,93 +1342,75 @@
+ 	\L_03a76:
+ 	\L_03a22:
+ 	ZH 1:
+-	'Vua Rance, tôi'
+-	R
+-	'tìm thấy cái này.'
++	'Bệ hạ Rance, thần'
++	R
++	'tìm được thứ này.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 1!
+ 	\L_03ae6:
+ 	\L_03a92:
+ 	ZH 1:
+-	'nó là gì...?'
+-	R
+-	'Uh... Đây không chỉ là một'
+-	R
+-	'chậu cây bình thường sao?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Không, đây là một'
+-	R
+-	'vật phẩm có giá trị được'
+-	R
+-	'gọi là Cây cảnh an toàn.'
+-	\L_03b47:
+-	ZH 1:
+-	'Nếu cậu giữ cái'
+-	R
+-	'này, cậu sẽ thấy ít quái'
+-	R
+-	'vật hơn trong ngục tối.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Nếu ta gọi nó'
+-	R
+-	'là cây trồng trong chậu thì'
+-	R
+-	'đó là cây trồng trong chậu.'
+-	\L_03b47:
+-	ZH 1:
+-	'Ta không'
+-	R
+-	'cần bất cứ lời giải'
+-	R
+-	'thích nào của ngươi.'
++	'Gì đây...... gì chứ......'
++	R
++	'chỉ là cái chậu cây thôi mà?'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Không, đây là vật phẩm'
++	R
++	'quý gọi là Bonsai An Toàn,'
++	\L_03b47:
++	ZH 1:
++	'nghe nói mang theo nó'
++	R
++	'thì đi sâu trong mê cung'
++	R
++	'cũng khó gặp quái vật.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ta đã bảo là chậu cây'
++	R
++	'thì nó là chậu cây.'
++	\L_03b47:
++	ZH 1:
++	'Đừng lải nhải.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	\L_03a3e:
+ 	ZH 1:
+-	'Uh oh...'
+-	R
+-	'Nếu tôi không hài lòng Với'
+-	R
+-	'Nhà Vua, tôi sẽ bị giết...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Tôi-tôi cho là'
+-	R
+-	'cậu nói đúng.lúc đó'
+-	R
+-	'tôi sẽ vứt nó đi...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Không, chờ'
+-	R
+-	'đã. Đó thực sự là một chậu'
+-	R
+-	'cây đẹp. Hãy chăm sóc nó.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Haa...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Bonsai An'
+-	R
+-	'toàn, huh? Ta có một món'
+-	R
+-	'đồ khá tuyệt, huhuhuhu.'
++	'Gay rồi...... làm phật ý'
++	R
++	'nhà vua là bị giết đấy...'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'D... dạ phải. Vậy'
++	R
++	'thần vứt nó đi......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Không, khoan. Chậu cây'
++	R
++	'khá đẹp đấy. Cất giữ đi.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Dạ......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Bonsai An Toàn à. Được'
++	R
++	'món hời rồi, hừ hừ hừ.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 0!
+@@ -1502,12 +1426,12 @@
+ *L_01b30:
+ 	\L_03a5a:
+ 	ZH 1:
+-	'Tìm thấy ánh sáng mờ'
+-	R
+-	'nhạt ở sâu trong ngục tối.'
++	'Sâu dưới đáy mê cung'
++	R
++	'có ánh sáng mờ mờ.'
+ 	R
+ 	X 1:
+-	'đi về phía nó.'
++	'đi về phía đó.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : VAR0097!
+@@ -1519,25 +1443,21 @@
+ 	}
+ 	\L_03a92:
+ 	ZH 1:
+-	'Chào Mừng, Ông'
+-	R
+-	'King. Như mọi khi, Tôi Là'
+-	R
+-	'Arcy, thầy bói thiên tài.'
+-	\L_03b47:
+-	ZH 1:
+-	'Có điều gì khiến'
+-	R
+-	'cậu lo lắng không? Hãy'
+-	R
+-	'cho tôi biết nó là gì.'
+-	\L_03b47:
+-	ZH 1:
+-	'Dù có vấn đề gì đi chăng'
+-	R
+-	'nữa, chỉ với 1 chiếc kẹo'
+-	R
+-	'tôi có thể tìm ra giải pháp.'
++	'Chào anh vua ơi. Hôm'
++	R
++	'nay vẫn là thầy bói'
++	R
++	'thiên tài Arcy đây.'
++	\L_03b47:
++	ZH 1:
++	'Anh có chuyện gì lo'
++	R
++	'lắng à? Kể với Arcy đi.'
++	\L_03b47:
++	ZH 1:
++	'Lo lắng gì cũng chỉ cần'
++	R
++	'một cái kẹo là giải quyết.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	@L_01d24:
+@@ -1545,87 +1465,83 @@
+ 	!VAR0343 : 3!
+ 	\L_03a5a:
+ 	ZH 1:
+-	'nguồn ánh sáng'
+-	R
+-	'là một cô gái nhỏ, ngồi'
+-	R
+-	'ở bàn nhỏ và mỉm cười.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Chào ông. Tôi là'
+-	R
+-	'Arcy, thầy bói thiên tài.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Thiên tài... Nghe'
+-	R
+-	'nhảm thật đấy nhóc.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Đó là sự thật. Tôi là'
+-	R
+-	'thầy bói giỏi nhất thế giới.'
+-	\L_03b47:
+-	ZH 1:
+-	'Giống như,'
+-	R
+-	'ngươi là vua phải không?'
+-	R
+-	'Vợ ngươi có mái tóc xanh...'
+-	\L_03b47:
+-	ZH 1:
+-	'Và nàng thực'
+-	R
+-	'sự rất bạo hành.'
++	'Nguồn sáng là... một'
++	R
++	'cô bé nhỏ xíu ngồi bên'
++	R
++	'chiếc bàn nhỏ, mỉm cười.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Chào anh. Em là Arcy.'
++	R
++	'Thầy bói thiên tài đó.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Thiên tài...... nghe lừa'
++	R
++	'đảo thế, nhóc con mà.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Không phải lừa đảo đâu,'
++	R
++	'em là thầy bói thiên'
++	R
++	'tài giỏi nhất thế giới.'
++	\L_03b47:
++	ZH 1:
++	'Ví dụ nha, anh là vua đúng'
++	R
++	'không? Vợ anh tóc xanh......'
++	\L_03b47:
++	ZH 1:
++	'là đứa hay bắt'
++	R
++	'nạt người khác.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	\L_03a3e:
+ 	ZH 1:
+-	'Whoa, phát hiện ra...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Tôi có đúng'
+-	R
+-	'không? Nào, tin tôi đi.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Ừm... tôi sẽ tin cậu.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Sau đó, tôi'
+-	R
+-	'sẽ giải quyết những'
+-	R
+-	'rắc rối của ngươi.'
+-	\L_03b47:
+-	ZH 1:
+-	'Hỏi tôi bất cứ'
+-	R
+-	'điều gì, được chứ?'
+-	\L_03b47:
+-	ZH 1:
+-	'Nhưng để trả tiền,'
+-	R
+-	'tôi muốn đồ ngọt ngon.'
+-	\L_03b47:
+-	ZH 1:
+-	'Đây là công'
+-	R
+-	'việc của tôi nên tôi sẽ'
+-	R
+-	'không làm nó miễn phí.'
++	'Ồ, trúng phóc...'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Trúng rồi đúng không?'
++	R
++	'Tin em đi, tin đi mà.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Ừm...... cũng không'
++	R
++	'phải không tin.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Vậy lo lắng của anh,'
++	\L_03b47:
++	ZH 1:
++	'em giải quyết cho.'
++	R
++	'Hỏi gì cũng được nha?'
++	\L_03b47:
++	ZH 1:
++	'Nhưng tiền bói là phải'
++	R
++	'cho em bánh kẹo ngon.'
++	\L_03b47:
++	ZH 1:
++	'Vì là công việc mà,'
++	R
++	'không làm không công đâu.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	@L_01d24:
+@@ -1640,11 +1556,11 @@
+ 	$
+ 	R
+ 	$L_01f83$
+-	'Tặng ngọt ngào'
++	'Đưa bánh kẹo'
+ 	$
+ 	R
+ 	$L_0230b$
+-	'Nhận được vận may'
++	'Nhờ xem bói'
+ 	$
+ 	R
+ 	$L_03393$
+@@ -1658,109 +1574,101 @@
+ 	{VAR0690 = 1:
+ 		\L_03a22:
+ 		ZH 1:
+-		'Nhân tiện... Chúng'
+-		R
+-		'ta đã từng gặp nhau'
+-		R
+-		'ở đâu rồi phải không?'
++		'Mà này, nhóc......'
++		R
++		'ta từng gặp nhóc ở'
++		R
++		'đâu rồi phải không?'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a92:
+ 		ZH 1:
+-		'Ở đâu?'
++		'Ở đâu là ở đâu nhỉ?'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a22:
+ 		ZH 1:
+-		'Hmmmmmm... Đừng'
+-		R
+-		'nhớ. Kể vận mệnh của'
+-		R
+-		'tôi để tôi có thể nhớ.'
++		'Ừmmm...... không nhớ ra.'
++		R
++		'Bói đi, hoặc là nhớ ra đi.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a92:
+ 		ZH 1:
+-		'Không. Chỉ khi ngươi cho'
+-		R
+-		'tôi đồ ngọt thôi. Heehee...'
++		'Không. Muốn bói thì cho'
++		R
++		'kẹo. Khúc khích......'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a22:
+ 		ZH 1:
+-		'Mmgh... Cô gái đáng ngờ.'
++		'Hừm......... con'
++		R
++		'nhóc khả nghi.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 	}
+ 	{VAR0690 = 2:
+ 		\L_03a22:
+ 		ZH 1:
+-		'Ngươi ở đây một mình'
+-		R
+-		'à? Điều đó thật nguy hiểm.'
+-		\L_03b47:
+-		ZH 1:
+-		'gần đây đã có'
+-		R
+-		'những kẻ ấu dâm, vì vậy'
+-		R
+-		'trẻ em không an toàn.'
+-		\L_03b47:
+-		ZH 1:
+-		'Tuy nhiên, tôi'
+-		R
+-		'không như vậy.'
++		'Nhóc...... sao lại ở'
++		R
++		'chỗ thế này một mình?'
++		\L_03b47:
++		ZH 1:
++		'Nguy hiểm đấy. Dạo này'
++		R
++		'có lắm kẻ xấu, trẻ con'
++		R
++		'cũng chẳng an toàn đâu.'
++		\L_03b47:
++		ZH 1:
++		'Ta thì khác.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a92:
+ 		ZH 1:
+-		'Đừng lo lắng.'
+-		R
+-		'Tôi dùng bói để tìm'
+-		R
+-		'những nơi an toàn.'
+-		\L_03b47:
+-		ZH 1:
+-		'điều đó có nghĩa'
+-		R
+-		'là nó an toàn ở đây?'
++		'Không sao đâu. Em bói'
++		R
++		'chỗ an toàn rồi mới tới'
++		R
++		'mà. Rance「Thế là chỗ này'
++		\L_03b47:
++		ZH 1:
++		'an toàn á?」'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a92:
+ 		ZH 1:
+-		'Vâng, an toàn hơn'
+-		R
+-		'bất kỳ thành phố nào.'
++		'Đúng vậy, an toàn'
++		R
++		'hơn thành phố.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 	}
+ 	{VAR0690 = 3:
+ 		\L_03a22:
+ 		ZH 1:
+-		'ngươi khá nhỏ.'
+-		R
+-		'Ngươi bao nhiêu tuổi?'
++		'Săm soi...... bé'
++		R
++		'tí. Mấy tuổi rồi?'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a92:
+ 		ZH 1:
+-		'Thật thô'
+-		R
+-		'lỗ khi hỏi tuổi của một'
+-		R
+-		'quý cô, thưa ông. Hừm.'
+-		\L_03b47:
+-		ZH 1:
+-		'ngươi đang gọi mình là một'
+-		R
+-		'phụ nữ? Có lẽ trong 10 năm'
+-		R
+-		'ngươi có thể nói điều đó.'
++		'Anh ơi, hỏi tuổi quý cô'
++		R
++		'là bất lịch sự đó. Hứ.'
++		\L_03b47:
++		ZH 1:
++		'Rance「Quý cô cái gì. Đợi'
++		R
++		'mười năm nữa hẵng nói.」'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a92:
+ 		ZH 1:
+-		'10 năm? Heehee...'
++		'Mười năm? Khúc khích......'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 	}
+@@ -1768,18 +1676,18 @@
+ *L_01f83:
+ 	\L_03a22:
+ 	ZH 1:
+-	'Được rồi, vậy'
+-	R
+-	'tôi chỉ cần cho ngươi'
+-	R
+-	'một viên kẹo thôi nhé?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Vâng, gimme. Nhưng chỉ'
+-	R
+-	'có chất lượng tốt nhất.'
++	'Được, cho kẹo'
++	R
++	'là được chứ gì?'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ừ, cho em đi cho'
++	R
++	'em đi. Nhưng phải'
++	R
++	'loại thượng hạng cơ.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ *L_01fc3:
+@@ -1791,109 +1699,97 @@
+ 	{VAR0150 \ 0:
+ 		ZH 1:
+ 		$L_021a2$
+-		'Ulimate Ngọt Ngào'
++		'Cho điểm tâm tối thượng'
+ 		$
+ 	}
+ 	!VAR0160 : 25!
+ 	{VAR0150 \ 0:
+ 		ZH 1:
+ 		$L_0225e$
+-		'Ngọt Ngào Tối Cao'
++		'Cho điểm tâm chí tôn'
+ 		$
+ 	}
+ 	ZH 1:
+ 	$L_020b2$
+-	'Đồ ngọt còn sót lại'
++	'Cho kẹo thừa'
+ 	$
+ 	R
+ 	$L_02049$
+-	'Không cho gì cả'
++	'Không cho'
+ 	$
+ 	]
+ 	@L_01fc3:
+ *L_02049:
+ 	\L_03a22:
+ 	ZH 1:
+-	'Ngươi muốn một số đồ ngọt?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Vâng, vâng, tôi làm.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Sau đó, tôi sẽ'
+-	R
+-	'không cho ngươi bất kỳ.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Uu... Ý anh là.'
++	'Muốn kẹo không?'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Muốn muốn. Muốn lắm.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Vậy thì khô~ng cho.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ư...... ác quá.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	@L_01d24:
+ *L_020b2:
+ 	\L_03a22:
+ 	ZH 1:
+-	'Sau đó, tôi sẽ'
+-	R
+-	'cung cấp cho ngươi điều'
+-	R
+-	'này. Đây, 1 ngọt ngào.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'） plunk）'
+-	\L_03b47:
+-	ZH 1:
+-	'Rance bàn giao một'
+-	R
+-	'số sô cô la khẩn cấp'
+-	R
+-	'trong túi của mình.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Nom nom... Uu,'
+-	R
+-	'cái này không ngon chút'
+-	R
+-	'nào. Không có may mắn.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Cái gì? Tôi'
+-	R
+-	'đã hy sinh sô cô la đó và'
+-	R
+-	'ngươi không cho tôi gì cả!?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Cảm ơn, thưa ông.'
+-	R
+-	'Nhưng tôi sẽ không nói'
+-	R
+-	'với tài sản của ngươi.'
+-	\L_03b47:
+-	ZH 1:
+-	'Mang cho tôi một số'
+-	R
+-	'đồ ngọt chất lượng cao hơn.'
++	'Vậy cho cái này.'
++	R
++	'Đây, một cái kẹo.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'(Đây)'
++	\L_03b47:
++	ZH 1:
++	'Rance đưa thanh sô cô'
++	R
++	'la dự phòng trong túi.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Măm măm......... ư, không'
++	R
++	'ngon thế này em không'
++	R
++	'chịu. Không bói đâu.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Cái gì. Đã cho rồi mà một'
++	R
++	'câu cảm ơn cũng không à!?'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Cảm ơn anh. Nhưng'
++	R
++	'em không bói đâu.'
++	\L_03b47:
++	ZH 1:
++	'Mang loại kẹo cao'
++	R
++	'cấp hơn tới nha.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	\L_03a3e:
+ 	ZH 1:
+-	'Aaargh... Cô'
+-	R
+-	'gái đáng ghét.'
++	'Bực mình......... láo thật.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	@L_01d24:
+@@ -1903,42 +1799,38 @@
+ 	!VAR0344 : 1!
+ 	\L_03a22:
+ 	ZH 1:
+-	'tôi sẽ cho ngươi điều'
+-	R
+-	'này. Ngọt Ngào Cuối Cùng.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Rance Đã'
+-	R
+-	'Cho Arcy Vị Ngọt Cuối'
+-	R
+-	'cùng, “Bánh Mì Mèo”.'
+-	\L_03b47:
+-	ZH 1:
+-	'） meooow）'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Yaaay, trông siêu'
+-	R
+-	'tốt. Munch munch, nom nom.'
++	'Vậy cho cái này.'
++	R
++	'Điểm tâm tối thượng.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Rance đưa cho Arcy điểm tâm'
++	R
++	'tối thượng [Bánh mì mèo].'
++	\L_03b47:
++	ZH 1:
++	'(Meoo)'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Yeee, ngon quá, ngon'
++	R
++	'quá, nhai nhai, măm măm.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	\L_03a3e:
+ 	ZH 1:
+-	'Nàng thực sự'
+-	R
+-	'đã ăn thứ đó...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Haah, thế thì tốt rồi.'
+-	R
+-	'Hãy hỏi tôi bất cứ điều gì.'
++	'Ăn được cả cái thứ đó...'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Phù, cảm ơn vì bữa ngon.'
++	R
++	'Hỏi gì cũng được nha.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	@L_023c6:
+@@ -1948,39 +1840,37 @@
+ 	!VAR0344 : 1!
+ 	\L_03a22:
+ 	ZH 1:
+-	'Vậy tôi sẽ'
+-	R
+-	'đưa cho ngươi cái này.'
+-	R
+-	'Sự ngọt ngào tối cao.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Rance bàn Giao Vị'
+-	R
+-	'Ngọt Tối Cao, “Kururipu”.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Yaaay, nó mềm'
+-	R
+-	'mượt và ngọt ngào...'
+-	R
+-	'Nom nom, nó tốt.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Tôi hiểu rồi, thế thì tốt.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Haah, thế thì tốt rồi.'
+-	R
+-	'Hãy hỏi tôi bất cứ điều gì.'
++	'Vậy cho cái này.'
++	R
++	'Điểm tâm chí tôn.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Rance đưa cho Arcy điểm'
++	R
++	'tâm chí tôn [Kuriripu].'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Yeee, mịn mịn, ngọt'
++	R
++	'ngọt...... giòn'
++	R
++	'giòn, ngon quá.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Thế à, tốt rồi.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Phù, cảm ơn vì bữa ngon.'
++	R
++	'Hỏi gì cũng được nha.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	@L_023c6:
+@@ -1988,49 +1878,43 @@
+ 	{VAR0344 = 0:
+ 		\L_03a22:
+ 		ZH 1:
+-		'Được rồi, hãy kể'
+-		R
+-		'vận mệnh của tôi đi.'
++		'Được, bói cho ta đi.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a92:
+ 		ZH 1:
+-		'Không, cho tôi đồ ngọt đi.'
+-		\L_03b47:
+-		ZH 1:
+-		'Tôi đã nói là tôi sẽ không'
+-		R
+-		'bói toán cho ngươi bằng'
+-		R
+-		'cách khác, phải không? Hừm.'
++		'Không được không'
++		R
++		'được, cho kẹo đã.'
++		\L_03b47:
++		ZH 1:
++		'Em bảo không cho kẹo'
++		R
++		'là không bói mà. Hứ hứ.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a22:
+ 		ZH 1:
+-		'Ch, khập khiễng.'
++		'Chậc, chán.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		@L_01d24:
+ 	}
+ 	\L_03a22:
+ 	ZH 1:
+-	'Được rồi, hãy kể vận mệnh'
+-	R
+-	'cho tôi. Tôi đã cho ngươi'
+-	R
+-	'một chiếc kẹo, phải không?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Vâng, tôi'
+-	R
+-	'nhớ. Vì vậy, tôi sẽ nói'
+-	R
+-	'với tài sản của ngươi.'
+-	\L_03b47:
+-	ZH 1:
+-	'Hỏi tôi bất cứ điều gì.'
++	'Được, bói đi. Ta'
++	R
++	'cho kẹo rồi còn gì.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ừ, em nhớ mà.'
++	R
++	'Nên em bói cho.'
++	\L_03b47:
++	ZH 1:
++	'Hỏi gì cũng được nha.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ *L_023c6:
+@@ -2040,44 +1924,44 @@
+ 	}
+ 	ZH 1:
+ 	$L_03240$
+-	'Tuổi thọ của tôi'
++	'Tuổi thọ của ta'
+ 	$
+ 	{(VAR0454 > 2) * (VAR0586 < 10) * (VAR0059 = 1):
+ 		ZH 1:
+ 		$L_030e3$
+-		'Vị Trí Của Spy'
++		'Chỗ trốn của gián điệp'
+ 		$
+ 	}
+ 	{(VAR0455 > 0) * (VAR0455 < 4):
+ 		ZH 1:
+ 		$L_02efb$
+-		'Thông Tin Có Giá Trị'
++		'Thông tin có lợi'
+ 		$
+ 	}
+ 	{VAR0474 = 1:
+ 		ZH 1:
+ 		$L_02df4$
+-		'Đánh bại sao Hỏa'
++		'Cách hạ Đại vương Mars'
+ 		$
+ 	}
+ 	{VAR0062 \ 0:
+ 		ZH 1:
+ 		$L_02cb5$
+-		'Chữa Milli'
++		'Cách chữa cho Milli'
+ 		$
+ 	}
+ 	!VAR0160 : 12!
+ 	{(VAR0063 = 1) * (VAR0150 = 0):
+ 		ZH 1:
+ 		$L_0251f$
+-		'Rào Cản Của Zeth'
++		'Kết giới của Zeth'
+ 		$
+ 	}
+ 	!VAR0160 : 14!
+ 	{(VAR0389 = 3) * (VAR0150 = 0):
+ 		ZH 1:
+ 		$L_02773$
+-		'Hợp đồng ma quỷ'
++		'Giải khế ước ác ma'
+ 		$
+ 	}
+ 	{VAR0564 = 5:
+@@ -2089,109 +1973,105 @@
+ 	{VAR0401 = 7:
+ 		ZH 1:
+ 		$L_02b23$
+-		'Chữa bệnh Sill'
++		'Chữa cho Sill'
+ 		$
+ 	}
+ 	ZH 1:
+ 	$L_03069$
+-	'Đừng hỏi'
++	'Thôi không hỏi'
+ 	$
+ 	]
+ 	@L_023c6:
+ *L_0251f:
+ 	\L_03a22:
+ 	ZH 1:
+-	'Cung Điện Zeth được bảo'
+-	R
+-	'vệ bởi một rào cản khó chịu.'
+-	\L_03b47:
+-	ZH 1:
+-	'Làm cách'
+-	R
+-	'nào để phá vỡ các rào cản'
+-	R
+-	'xung quanh bốn tòa tháp?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Vâng, Đó Là Rào'
+-	R
+-	'Cản Phòng Thủ Cuối cùng.'
+-	\L_03b47:
+-	ZH 1:
+-	'Tôi sẽ nói với tài'
+-	R
+-	'sản của ngươi sau đó.'
+-	\L_03b47:
+-	ZH 1:
+-	'Namunamunamu...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Arcy xoa xoa'
+-	R
+-	'quả cầu bí ẩn đang đặt trên'
+-	R
+-	'bàn. Một thời gian sau...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Mhm... Ừ, tôi thấy rồi.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Hohoh, ngươi thấy gì thế?'
++	'Cung điện Zeth được kết'
++	R
++	'giới bảo vệ, láo thật.'
++	\L_03b47:
++	ZH 1:
++	'Muốn phá kết giới của bốn'
++	R
++	'tòa tháp đó thì làm sao?'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ừ, Kết Giới Phòng'
++	R
++	'Ngự Tối Thượng nhỉ.'
++	\L_03b47:
++	ZH 1:
++	'Vậy em bói nha,'
++	\L_03b47:
++	ZH 1:
++	'nam mô nam mô nam mô...'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Arcy xoay xoay xoa xoa'
++	R
++	'viên ngọc kỳ lạ đặt trên'
++	R
++	'bàn. Một lúc sau......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ừm......... a'
++	R
++	'a, ừ, thấy rồi.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Hô hô, thấy gì?'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	{VAR0650 < 8:
+ 		\L_03a92:
+ 		ZH 1:
+-		'À... nó là'
+-		R
+-		'gì?! Ngươi đã thấy một cái'
+-		R
+-		'gì đó tuyệt vời, hoặc...?'
++		'A......... Rance「Sao'
++		R
++		'thế! Có chuyện gì'
++		R
++		'ghê gớm, hay là...」'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a92:
+ 		ZH 1:
+-		'Tôi đã nghĩ điều này có'
+-		R
+-		'thể xảy ra khi ngươi đưa ra'
+-		R
+-		'yêu cầu của mình, nhưng...'
+-		\L_03b47:
+-		ZH 1:
+-		'Hiện tại'
+-		R
+-		'chưa phải lúc nên hãy'
+-		R
+-		'quay lại sau một chút.'
++		'Cái này, em đoán sẽ'
++		R
++		'có chuyện này nên đã'
++		R
++		'đặt hàng rồi......'
++		\L_03b47:
++		ZH 1:
++		'nhưng chưa giao tới, nên'
++		R
++		'lát nữa anh quay lại nha.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a22:
+ 		ZH 1:
+-		'Ừm, thế nghĩa là sao?'
++		'Hửm, thế là sao?'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a92:
+ 		ZH 1:
+-		'Hãy quay lại đây'
+-		R
+-		'một lát nữa và tôi sẽ cho'
+-		R
+-		'ngươi một công cụ phá rào.'
++		'Thì, lát nữa anh'
++		R
++		'quay lại, lúc đó em'
++		R
++		'cho đồ phá kết giới.'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		\L_03a22:
+ 		ZH 1:
+-		'Hrrrm, nhưng tôi'
+-		R
+-		'muốn nó ngay bây giờ...'
++		'Ưm, ta muốn ngay'
++		R
++		'bây giờ cơ...'
+ 		\L_03b47:
+ 		\L_03b3a:
+ 		@L_023c6:
+@@ -2201,41 +2081,37 @@
+ 	!VAR0344 : 0!
+ 	\L_03a92:
+ 	ZH 1:
+-	'Được rồi,'
+-	R
+-	'tôi sẽ đưa cái này cho'
+-	R
+-	'ngươi. Lưỡi kiếm rào cản!'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Arcy rút một'
+-	R
+-	'thanh kiếm từ gầm bàn'
+-	R
+-	'ra và đưa cho Rance.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Tại sao điều này'
+-	R
+-	'dưới bàn của ngươi...?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Bất kỳ đơn vị'
+-	R
+-	'nào nắm giữ đều có thể phá'
+-	R
+-	'vỡ rào cản. Chúc may mắn.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Nhận được Thanh kiếm chắn.'
++	'Đây, em cho anh cái'
++	R
++	'này. Kiếm Phá Kết Giới!'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Arcy lấy từ gầm bàn ra một'
++	R
++	'thanh kiếm, đưa cho Rance.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Thứ này mà ở dưới'
++	R
++	'gầm bàn......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Đơn vị nào mang nó'
++	R
++	'tấn công thì kết giới'
++	R
++	'sẽ vỡ. Cố lên nha.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Thu được Kiếm Phá Kết Giới.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	@L_01d24:
+@@ -2245,32 +2121,32 @@
+ 	!VAR0150 : 100!
+ 	\L_03a22:
+ 	ZH 1:
+-	'có một cô gái Tên Là'
+-	R
+-	'Magic đã tự mình ký hợp đồng'
+-	R
+-	'với ma quỷ. Làm gì đó về nó.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Hửm? Tôi hiểu rồi, linh'
+-	R
+-	'hồn của nàng sẽ bị lấy đi.'
+-	\L_03b47:
+-	ZH 1:
+-	'Hãy để tôi'
+-	R
+-	'thử bói xem, namunamunamu...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Arcy xoa xoa'
+-	R
+-	'quả cầu bí ẩn đang đặt trên'
+-	R
+-	'bàn. Một thời gian sau...'
++	'Cô nàng Magic ký khế ước với'
++	R
++	'ác ma, gay lắm. Dễ thương mà'
++	R
++	'chẳng đụng được, làm gì đi.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Hừm hừm? Ra vậy, sẽ bị'
++	R
++	'lấy mất linh hồn nhỉ.'
++	\L_03b47:
++	ZH 1:
++	'Để em bói thử, nam'
++	R
++	'mô nam mô nam mô...'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Arcy xoay xoay xoa xoa'
++	R
++	'viên ngọc kỳ lạ đặt trên'
++	R
++	'bàn. Một lúc sau......'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	\L_03a92:
+@@ -2278,69 +2154,65 @@
+ 	'Hmmmmm...'
+ 	\L_03b47:
+ 	ZH 1:
+-	'Ừ, tôi thấy rồi. Tất'
+-	R
+-	'nhiên là tôi sẽ làm vậy,'
+-	R
+-	'vì tôi là một thiên tài.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Được rồi,'
+-	R
+-	'vậy hãy cho tôi một'
+-	R
+-	'giải pháp, thiên tài.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Chờ một chút...'
+-	R
+-	'Xong rồi, anh đi đây.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Hừm, cái gì thế'
+-	R
+-	'này...?“Tịch thu tài sản”???'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Arcy đưa một'
+-	R
+-	'mảnh giấy có chữ “Tịch'
+-	R
+-	'thu tài sản” cho Rance.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Heehee, đó là'
+-	R
+-	'“Bùa tịch thu tài sản tuyệt'
+-	R
+-	'đối”. Dán nó lên cô gái đó.'
+-	\L_03b47:
+-	ZH 1:
+-	'Nó có thể vô hiệu'
+-	R
+-	'hóa hoàn toàn mọi hợp đồng.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Hoàn toàn? Ừm, tốt.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Nhận được Bùa tịch'
+-	R
+-	'thu tài sản tuyệt đối.'
++	'Ừ, thấy rồi. Đúng'
++	R
++	'là thiên tài mà.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Được, giải quyết'
++	R
++	'đi, thiên tài.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Đợi chút nha, xoẹt'
++	R
++	'xoẹt xoẹt, vút vút...'
++	R
++	'xong, cho anh này.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Hửm, gì đây......'
++	R
++	'[Tịch biên]???'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Arcy đưa cho Rance tấm bùa'
++	R
++	'giấy viết chữ [Tịch biên].'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Khúc khích, là [Bùa Tịch'
++	R
++	'Biên Tuyệt Đối] đó. Dán'
++	R
++	'lên cô gái đó là được.'
++	\L_03b47:
++	ZH 1:
++	'Khế ước nào cũng vô hiệu'
++	R
++	'được hết, chắc ăn luôn.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Chắc ăn à, ừm, good.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Thu được Bùa Tịch'
++	R
++	'Biên Tuyệt Đối.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	@L_01d24:
+@@ -2349,124 +2221,108 @@
+ 	!VAR0344 : 0!
+ 	\L_03a22:
+ 	ZH 1:
+-	'Tôi muốn'
+-	R
+-	'mắc bệnh OKu. Hãy cho'
+-	R
+-	'tôi biết làm thế nào.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Hả, cậu muốn mắc'
+-	R
+-	'bệnh sao nhỉ...? Tốt'
+-	R
+-	'nhất là đừng bắt nó.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Bất cứ Điều gì, chỉ'
+-	R
+-	'cần nói với tài sản của tôi.'
+-	R
+-	'Tôi đã cho ngươi đồ ngọt.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Uuuuu, được rồi,'
+-	R
+-	'sau đó... Tôi không muốn,'
+-	R
+-	'mặc dù... Namunamunamu...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Arcy xoa xoa'
+-	R
+-	'quả cầu bí ẩn đang đặt trên'
+-	R
+-	'bàn. Một thời gian sau...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Vâng... Tôi đã thấy'
+-	R
+-	'nó. Điều này là xấu.'
+-	\L_03b47:
+-	ZH 1:
+-	'Um, khi một cơn sốt okayu'
+-	R
+-	'bắt được bệnh okayu, cơ thể'
+-	R
+-	'của nó chuyển sang màu tím.'
+-	\L_03b47:
+-	ZH 1:
+-	'Để con người có thể'
+-	R
+-	'mắc phải nó, họ phải hôn'
+-	R
+-	'lên môi con sốt màu tím.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Geh, hôn họ'
+-	R
+-	'đi!? Hôn một người bệnh,'
+-	R
+-	'không hơn không kém...'
+-	\L_03b47:
+-	ZH 1:
+-	'Ngươi có chắc'
+-	R
+-	'là đúng không?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Tất nhiên, tôi là'
+-	R
+-	'một thầy bói thiên tài!'
+-	\L_03b47:
+-	ZH 1:
+-	'Nếu ngươi không'
+-	R
+-	'tin tưởng tôi, tôi sẽ không'
+-	R
+-	'bói toán cho ngươi nữa. Hừm.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Vâng, vâng, tôi'
+-	R
+-	'hiểu rồi. Tôi tin anh.'
+-	R
+-	'Aaagh, hôn một okayu...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Heehee, nếu'
+-	R
+-	'ngươi tin tôi thì tôi'
+-	R
+-	'sẽ kể thêm cho ngươi.'
+-	\L_03b47:
+-	ZH 1:
+-	'có một cơn sốt okayu'
+-	R
+-	'với bệnh okayu trên tầng 10'
+-	\L_03b47:
+-	ZH 1:
+-	'Của Hang Động Kẻ Thù'
+-	R
+-	'Tự Nhiên bên ngoài Cossack.'
++	'Ta muốn mắc bệnh Okayu.'
++	R
++	'Bói về bệnh Okayu đi.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ơ, anh muốn mắc bệnh Okayu'
++	R
++	'à... thôi đi thì hơn.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Kệ ta, bói đi. Ta'
++	R
++	'cho kẹo rồi còn gì.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ưưư, vậy em bói nha......'
++	R
++	'không muốn chút nào......'
++	R
++	'nam mô nam mô nam mô......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Arcy xoay xoay xoa xoa'
++	R
++	'viên ngọc kỳ lạ đặt trên'
++	R
++	'bàn. Một lúc sau......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ừ...... thấy rồi.'
++	R
++	'Không thích chút nào.'
++	\L_03b47:
++	ZH 1:
++	'Này nha, Okayu Fever mà'
++	R
++	'mắc bệnh Okayu thì người'
++	R
++	'chuyển sang màu tím.'
++	\L_03b47:
++	ZH 1:
++	'Người muốn nhiễm thì'
++	R
++	'phải hôn lên môi con'
++	R
++	'Okayu Fever màu tím.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Ọe, hôn lên môi á!? Lại còn'
++	R
++	'là Okayu Fever bị bệnh...'
++	\L_03b47:
++	ZH 1:
++	'Chắc chắn chứ hả?'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Thật mà, Arcy là thầy'
++	R
++	'bói thiên tài đó!?'
++	\L_03b47:
++	ZH 1:
++	'Không tin thì em'
++	R
++	'không bói nữa đâu. Hứ.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Rồi, rồi, hiểu rồi. Tin,'
++	R
++	'tin. Ưư, hôn Okayu......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Khúc khích, anh tin em'
++	R
++	'thì em nói thêm một điều.'
++	\L_03b47:
++	ZH 1:
++	'Okayu Fever mắc bệnh Okayu'
++	R
++	'ở tầng 10 Hang Thiên Địch.'
++	\L_03b47:
++	ZH 1:
++	'Hang Thiên Địch ở rìa'
++	R
++	'thành phố Cossack.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	@L_01d24:
+@@ -2475,106 +2331,90 @@
+ 	!VAR0344 : 0!
+ 	\L_03a22:
+ 	ZH 1:
+-	'Nô lệ khốn nạn'
+-	R
+-	'của tôi bằng cách nào đó'
+-	R
+-	'đã biến thành một con bò.'
+-	\L_03b47:
+-	ZH 1:
+-	'Điều đó thật khó chịu,'
+-	R
+-	'nên có lẽ tôi muốn biết'
+-	R
+-	'cách thay đổi nàng trở lại.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Heehee... Tôi có thể nhìn'
+-	R
+-	'thấu ngươi, thưa ông, tôi'
+-	R
+-	'là một thầy bói thiên tài.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'W-Ý ngươi là gì?!'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Heehee, vậy'
+-	R
+-	'tôi sẽ bói vận may cho'
+-	R
+-	'ngươi. Namunamunamu...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Arcy xoa xoa'
+-	R
+-	'quả cầu bí ẩn đang đặt trên'
+-	R
+-	'bàn. Một thời gian sau...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Tôi đã thấy'
+-	R
+-	'rồi, tôi đã thấy rồi.'
+-	R
+-	'Điều này sẽ giúp...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Arcy lấy màu xanh lam,'
+-	\L_03b47:
+-	ZH 1:
+-	'chai thủy tinh có hình'
+-	R
+-	'dạng giống như một quả'
+-	\L_03b47:
+-	ZH 1:
+-	'bóng ra khỏi ngăn'
+-	R
+-	'kéo trên bàn của nàng'
+-	R
+-	'và đưa nó Cho Rance.'
+-	\L_03b47:
+-	ZH 1:
+-	'thuốc này có'
+-	R
+-	'hiệu quả không?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Vâng, đó là “Curer Bò”.'
+-	\L_03b47:
+-	ZH 1:
+-	'Đặt nó trên đầu'
+-	R
+-	'của một người đã được'
+-	R
+-	'biến thành một con bò,'
+-	\L_03b47:
+-	ZH 1:
+-	'và họ sẽ quay lại ngay.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Ừm... Tôi sẽ lấy nó.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Thu được Cow Curer.'
++	'Con nô lệ của ta vụng'
++	R
++	'về để bị biến thành bò.'
++	\L_03b47:
++	ZH 1:
++	'Bất tiện quá, nên ta muốn'
++	R
++	'hỏi cách biến lại......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Khúc khích... thầy bói'
++	R
++	'thiên tài nhìn thấu hết mà.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Gì cơ, nhìn thấu cái gì!'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Khúc khích, vậy em bói nha,'
++	R
++	'nam mô nam mô nam mô...'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Arcy xoay xoay xoa xoa'
++	R
++	'viên ngọc kỳ lạ đặt trên'
++	R
++	'bàn. Một lúc sau......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Thấy rồi, thấy rồi.'
++	R
++	'Hình như thuốc đó......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Arcy lấy từ ngăn kéo bàn ra'
++	\L_03b47:
++	ZH 1:
++	'một chiếc lọ như viên'
++	R
++	'bi thủy tinh xanh,'
++	\L_03b47:
++	ZH 1:
++	'đưa cho Rance.'
++	\L_03b47:
++	ZH 1:
++	'Rance「Thuốc này'
++	R
++	'có hiệu quả à?」'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ừ, đó là [Thuốc Hết-Bò].'
++	\L_03b47:
++	ZH 1:
++	'Đổ lên đầu người'
++	R
++	'bị biến thành bò,'
++	\L_03b47:
++	ZH 1:
++	'là bùm một cái trở lại ngay.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Ừm...... ta lấy.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Thu được [Thuốc Hết-Bò].'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	@L_01d24:
+@@ -2582,93 +2422,77 @@
+ 	!VAR0344 : 0!
+ 	\L_03a22:
+ 	ZH 1:
+-	'Tôi biết một người'
+-	R
+-	'mắc bệnh cúm genfluenza...'
+-	\L_03b47:
+-	ZH 1:
+-	'Ngươi đúng là'
+-	R
+-	'thiên tài phải không?'
+-	\L_03b47:
+-	ZH 1:
+-	'Bệnh này có'
+-	R
+-	'chữa được không?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Tôi là thiên tài, nhưng...'
+-	R
+-	'tôi là thầy bói. Tôi'
+-	R
+-	'không thể chữa khỏi bệnh.'
+-	\L_03b47:
+-	ZH 1:
+-	'Nhưng tôi sẽ'
+-	R
+-	'bói toán cho ngươi...'
+-	\L_03b47:
+-	ZH 1:
+-	'Điều đó sẽ'
+-	R
+-	'mở ra một con đường'
+-	R
+-	'cho ngươi. Namunamunamu...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Arcy xoa xoa một'
+-	R
+-	'quả cầu bí ẩn đang nằm trên'
+-	R
+-	'bàn. Một thời gian sau...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Uh... Hm... Hmmm...'
+-	R
+-	'... Vâng, tôi đã thấy nó.'
+-	\L_03b47:
+-	ZH 1:
+-	'Nhưng nó không thể được chữa'
+-	R
+-	'trị theo cách thông thường'
+-	R
+-	'nên có rất ít thông tin.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Đừng quan tâm,'
+-	R
+-	'hãy nói cho tôi biết'
+-	R
+-	'những gì ngươi biết.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Ừm, nếu ngươi đi vào một'
+-	R
+-	'ngục tối ở đâu đó được gọi'
+-	R
+-	'Là Ngục Tối Của Holy gal,'
+-	\L_03b47:
+-	ZH 1:
+-	'ngươi có thể'
+-	R
+-	'tìm ra điều gì đó.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Ngục Tối Của'
+-	R
+-	'Holy gal... Được rồi.'
++	'Có đứa đang mắc cái bệnh'
++	R
++	'gọi là genfluenza......'
++	\L_03b47:
++	ZH 1:
++	'Nhóc là thiên tài cơ mà.'
++	\L_03b47:
++	ZH 1:
++	'Chữa được không?'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Em là thiên tài,'
++	R
++	'nhưng...... là thầy bói'
++	R
++	'mà. Chữa bệnh thì em chịu.'
++	\L_03b47:
++	ZH 1:
++	'Nhưng em bói cho anh nha...'
++	\L_03b47:
++	ZH 1:
++	'Bói là sẽ mở ra lối đi.'
++	R
++	'Nam mô nam mô nam mô...'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Arcy xoay xoay xoa xoa'
++	R
++	'viên ngọc kỳ lạ đặt trên'
++	R
++	'bàn. Một lúc sau......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ư......... ừm......'
++	R
++	'ừmm...... ......ừ, thấy rồi.'
++	\L_03b47:
++	ZH 1:
++	'Nhưng đây là bệnh'
++	R
++	'vốn không chữa được,'
++	R
++	'nên thông tin ít lắm.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Không sao, nói đi.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ừm, nếu xuống Mê cung'
++	R
++	'Thánh Nữ ở đâu đó,'
++	\L_03b47:
++	ZH 1:
++	'có khi sẽ có cách đó.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Mê cung Thánh'
++	R
++	'Nữ à...... được.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	@L_01d24:
+@@ -2676,68 +2500,62 @@
+ 	!VAR0344 : 0!
+ 	\L_03a22:
+ 	ZH 1:
+-	'có một anh chàng kỳ'
+-	R
+-	'lạ tên Là Mars Đại đế đang'
+-	R
+-	'tấn công chúng ta zombie.'
+-	\L_03b47:
+-	ZH 1:
+-	'Tôi có thể làm gì?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Một anh chàng cực'
+-	R
+-	'kỳ kỳ lạ? Hiểu rồi, tôi'
+-	R
+-	'sẽ bói toán cho ngươi.'
+-	\L_03b47:
+-	ZH 1:
+-	'Namunamunamu...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Arcy xoa xoa'
+-	R
+-	'quả cầu bí ẩn đang đặt trên'
+-	R
+-	'bàn. Một thời gian sau...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Vâng... Nó đây'
+-	R
+-	'rồi. Tôi đã thấy nó.'
+-	\L_03b47:
+-	ZH 1:
+-	'Mhm... Anh chàng đó là'
+-	R
+-	'một pháp sư chiêu hồn.'
+-	\L_03b47:
+-	ZH 1:
+-	'bí mật cho sự hồi sinh'
+-	R
+-	'của hắn là ở trụ sở của hắn.'
+-	\L_03b47:
+-	ZH 1:
+-	'Đưa một cô gái am'
+-	R
+-	'hiểu khảo cổ học lên'
+-	R
+-	'sao Hỏa để điều tra.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Ai đó biết khảo'
+-	R
+-	'cổ học... Tôi có biết'
+-	R
+-	'ai đó như thế không?'
++	'Gã Đại vương Mars siêuuu'
++	R
++	'kỳ quặc dẫn zombie tới'
++	R
++	'đánh, phiền chết được.'
++	\L_03b47:
++	ZH 1:
++	'Làm gì được không?'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Người siêuuuu kỳ quặc?'
++	R
++	'Biết rồi, em bói nha.'
++	\L_03b47:
++	ZH 1:
++	'Nam mô nam mô nam mô...'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Arcy xoay xoay xoa xoa'
++	R
++	'viên ngọc kỳ lạ đặt trên'
++	R
++	'bàn. Một lúc sau......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ừm...... tới rồi. Thấy rồi.'
++	\L_03b47:
++	ZH 1:
++	'Hừm hừm...... ông chú'
++	R
++	'đó là thuật sư gọi hồn.'
++	\L_03b47:
++	ZH 1:
++	'Bí mật hồi sinh nằm'
++	R
++	'ở căn cứ của ông ta.'
++	\L_03b47:
++	ZH 1:
++	'Dẫn theo người rành khảo'
++	R
++	'cổ học đi điều tra thành'
++	R
++	'phố Hỏa Tinh là được.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Người rành khảo cổ'
++	R
++	'học à...... có ai nhỉ?'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	@L_01d24:
+@@ -2745,124 +2563,112 @@
+ 	!VAR0344 : 0!
+ 	\L_03a22:
+ 	ZH 1:
+-	'Ngươi biết'
+-	R
+-	'thông tin nào có giá trị'
+-	R
+-	'không? Bất cứ điều gì cả.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Ừm? Ừ, được rồi.'
+-	R
+-	'Để đó cho tôi. Thời gian'
+-	R
+-	'may mắn... Namunamunamu...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Arcy xoa xoa'
+-	R
+-	'quả cầu bí ẩn đang đặt trên'
+-	R
+-	'bàn. Một thời gian sau...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'À... tôi thấy ai đó...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Cái gì? Có phải là'
+-	R
+-	'một cô gái nóng bỏng?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Ừm, không.'
+-	R
+-	'Đó là một chàng trai tuyệt'
+-	R
+-	'vời. Một người tuyệt vời...'
+-	\L_03b47:
+-	ZH 1:
+-	'Và anh ta có thể trở'
+-	R
+-	'thành cấp dưới của ngươi.'
++	'Có thông tin gì biết'
++	R
++	'thì có lợi không? Gì'
++	R
++	'cũng được, nói đi.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Hửm? Ừ, được thôi. Cứ để'
++	R
++	'em. Bói nào bói nào......'
++	R
++	'nam mô nam mô nam mô...'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Arcy xoay xoay xoa xoa'
++	R
++	'viên ngọc kỳ lạ đặt trên'
++	R
++	'bàn. Một lúc sau......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'A......... có ai đó......'
++	R
++	'thấy rồi, hình dáng......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Gì? Ai ở đó, mỹ nhân à?'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ừm, không phải. Một'
++	R
++	'người đàn ông xuất chúng.'
++	R
++	'Người rất giỏi......'
++	\L_03b47:
++	ZH 1:
++	'Và chú ấy có thể sẽ thành'
++	R
++	'đồng đội của anh đấy.'
+ 	\L_03b47:
+ 	{VAR0455 = 1:
+ 		ZH 1:
+-		'Zeo'
++		'Thành phố Zeo'
+ 	}
+ 	{VAR0455 = 2:
+ 		ZH 1:
+-		'Đỏ'
++		'Thành phố Red'
+ 	}
+ 	{VAR0455 = 3:
+ 		ZH 1:
+-		'Lười biếng'
+-	}
+-	ZH 1:
+-	'Lazeal sẽ rất hữu ích khi'
+-	R
+-	'tìm kiếm. Tôi chắc chắn hắn'
+-	R
+-	'sẽ là một đồng minh mạnh mẽ.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Hmmm, nhưng đó là'
+-	R
+-	'một người đàn ông...'
+-	R
+-	'Thật là khập khiễng.'
++		'Thành phố Razeel'
++	}
++	ZH 1:
++	'Tìm thử ở đó nha. Chắc chắn'
++	R
++	'sẽ thành đồng minh mạnh đó.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Ừmmm, nhưng đàn ông'
++	R
++	'thì... chán thật.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	@L_01d24:
+ *L_03069:
+ 	\L_03a22:
+ 	ZH 1:
+-	'Hmmmm... Không.'
+-	R
+-	'Tôi không cần một'
+-	R
+-	'tài sản ngay bây giờ.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Thật sao?'
+-	R
+-	'Ngươi có thể nhận được'
+-	R
+-	'một sau đó, sau đó.'
+-	\L_03b47:
+-	ZH 1:
+-	'Nếu ngươi cho tôi'
+-	R
+-	'đồ ngọt, tôi sẽ nhớ.'
+-	\L_03b47:
+-	ZH 1:
+-	'Nếu ngươi muốn'
+-	R
+-	'hỏi điều gì đó, hãy'
+-	R
+-	'đến bất cứ lúc nào.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Tuy nhiên, tôi chỉ'
+-	R
+-	'có thể đến vào tuần'
+-	R
+-	'đầu tiên của tháng.'
++	'Ừmmm...... thôi.'
++	R
++	'Giờ chưa cần bói.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Thế à? Vậy để lần'
++	R
++	'sau cũng được.'
++	\L_03b47:
++	ZH 1:
++	'Anh cho kẹo rồi thì'
++	R
++	'em nhớ chuyện đó.'
++	\L_03b47:
++	ZH 1:
++	'Có câu hỏi thì cứ tới'
++	R
++	'bất cứ lúc nào nha.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Nghe nói chỉ tuần đầu'
++	R
++	'tiên mới tới được thôi.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	@L_01d24:
+@@ -2872,72 +2678,62 @@
+ 	MM 8, VAR0200 + VAR0158 - 1:
+ 	\L_03a22:
+ 	ZH 1:
+-	'Có thông tin nào'
+-	R
+-	'có hại cho tôi hoặc'
+-	R
+-	'đất nước tôi không?'
+-	\L_03b47:
+-	ZH 1:
+-	'Điều gì đó sẽ'
+-	R
+-	'tồi tệ nếu chúng ta không'
+-	R
+-	'tránh nó nhanh chóng.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Để đó cho'
+-	R
+-	'tôi. Tôi sẽ bói toán vận may'
+-	R
+-	'của ngươi. Namunamunamu...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Arcy xoa xoa'
+-	R
+-	'quả cầu bí ẩn đang đặt trên'
+-	R
+-	'bàn. Một thời gian sau...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'À... tôi thấy'
+-	R
+-	'rồi. Sự nguy hiểm.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'W-loại nguy hiểm Nào?!'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Một điệp viên tên'
+-	R
+-	'Freya đang ẩn náu ở'
++	'Có thông tin gì bất lợi'
++	R
++	'cho ta và nước ta không?'
++	\L_03b47:
++	ZH 1:
++	'Phải tránh sớm,'
++	R
++	'kẻo thành nguy to.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Để em, để em. Vậy em bói'
++	R
++	'nha. Nam mô nam mô nam mô...'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Arcy xoay xoay xoa xoa'
++	R
++	'viên ngọc kỳ lạ đặt trên'
++	R
++	'bàn. Một lúc sau......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'A......... thấy'
++	R
++	'rồi, nguy to.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Gì, nguy kiểu gì!'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ở có gián điệp tên Freya'
+ 	R
+ 	X 8:
+-	'và làm những điều'
+-	R
+-	'xấu. ngươi nên tìm và'
+-	R
+-	'bắt nàng nhanh chóng.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Không cần'
+-	R
+-	'phải nói với tôi!'
++	'lẻn vào âm mưu chuyện'
++	R
++	'xấu đó. Em nghĩ nên'
++	R
++	'mau tìm bắt cô ta.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Không cần nhóc nói!'
+ 	R
+ 	X 8:
+-	'hả?'
++	'chứ hả.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	ZH 1:
+@@ -2946,158 +2742,144 @@
+ *L_03240:
+ 	\L_03a22:
+ 	ZH 1:
+-	'Tôi muốn'
+-	R
+-	'biết tuổi thọ của mình. Tôi'
+-	R
+-	'sẽ sống đến bao nhiêu tuổi?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Được Rồi, tuổi thọ'
+-	R
+-	'của ngươi, sau đó. Tôi nghĩ'
+-	R
+-	'sẽ tốt hơn nếu không biết...'
+-	\L_03b47:
+-	ZH 1:
+-	'Namunamunamu...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Arcy xoa xoa'
+-	R
+-	'quả cầu bí ẩn đang đặt trên'
+-	R
+-	'bàn. Một thời gian sau...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Vâng... Tôi'
+-	R
+-	'đã thấy nó. Nếu ngươi sống'
+-	R
+-	'tốt, ngươi sẽ sống đến 62.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'“Nếu ngươi sống'
+-	R
+-	'tốt ” có nghĩa là gì? Đó'
+-	R
+-	'là mơ hồ hơn bình thường.'
+-	\L_03b47:
+-	ZH 1:
+-	'Và ngươi tự gọi'
+-	R
+-	'mình là một thiên tài.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Um, một số lượng'
+-	R
+-	'lớn các yếu tố ảnh hưởng'
+-	R
+-	'đến tuổi thọ của ngươi.'
+-	\L_03b47:
+-	ZH 1:
+-	'Rất có thể'
+-	R
+-	'ngươi sẽ chết sớm.'
+-	\L_03b47:
+-	ZH 1:
+-	'để có được kết quả tốt hơn,'
+-	\L_03b47:
+-	ZH 1:
+-	'tôi cần nói'
+-	R
+-	'với vận may của những'
+-	R
+-	'người xung quanh ngươi.'
+-	\L_03b47:
+-	ZH 1:
+-	'Ngươi muốn biết chính'
+-	R
+-	'xác khi nào ngươi sẽ chết?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Không... Đừng bận'
+-	R
+-	'tâm, tôi không muốn.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Vâng, tốt hơn'
+-	R
+-	'là không biết.'
++	'Ta muốn biết tuổi'
++	R
++	'thọ của mình. Sống'
++	R
++	'được đến mấy tuổi?'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Rồi rồi, tuổi thọ nhỉ. Em'
++	R
++	'nghĩ không biết thì hơn đó,'
++	\L_03b47:
++	ZH 1:
++	'nam mô nam mô nam mô...'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Arcy xoay xoay xoa xoa'
++	R
++	'viên ngọc kỳ lạ đặt trên'
++	R
++	'bàn. Một lúc sau......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ừ...... thấy rồi. Nếu'
++	R
++	'suôn sẻ thì 62 tuổi.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Gì cái [nếu suôn sẻ] đó.'
++	\L_03b47:
++	ZH 1:
++	'Vênh váo thế mà ẩu ghê.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Này nha, đời anh bị'
++	R
++	'chi phối bởi ý chí'
++	R
++	'của rất nhiều người.'
++	\L_03b47:
++	ZH 1:
++	'Khả năng chết giữa'
++	R
++	'chừng cũng cao lắm.'
++	\L_03b47:
++	ZH 1:
++	'Muốn ra kết quả'
++	R
++	'thật chính xác'
++	\L_03b47:
++	ZH 1:
++	'thì phải bói cả những'
++	R
++	'người xung quanh anh...'
++	\L_03b47:
++	ZH 1:
++	'Làm cũng được, nhưng anh'
++	R
++	'muốn biết chết vào ngày'
++	R
++	'tháng năm nào không?'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Không......... thôi khỏi.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ừ, thế thì hơn đó.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	@L_01d24:
+ *L_03393:
+ 	\L_03a22:
+ 	ZH 1:
+-	'tôi có nên đi'
+-	R
+-	'không...? Vậy thì tạm biệt.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Vâng, tạm biệt. Rance'
+-	R
+-	'vẫy tay, Và Arcy vẫy lại'
+-	R
+-	'bàn tay nhỏ bé của mình.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'... Này, sao ngươi không'
+-	R
+-	'quay lại lâu đài của tôi với'
+-	R
+-	'tôi? Ở đó sẽ an toàn hơn.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Điều đó không đúng. ...'
+-	R
+-	'Tôi biết nó không an toàn.'
+-	R
+-	'Lâu đài đó có thể nguy hiểm.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Lâu đài Leazas là gì?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Vâng... Heehee.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Ừm... Hmmmmmmmm. Dù'
+-	R
+-	'sao đi nữa, tôi sẽ rời đi.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Hãy đến lần'
+-	R
+-	'nữa. Đây là Arcy.'
++	'Về thôi nhỉ......'
++	R
++	'vậy, bai bai.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ừ, bai bai. Rance vẫy'
++	R
++	'tay, Arcy cũng vẫy'
++	R
++	'lại bàn tay nhỏ xíu.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'......Phải rồi, có muốn'
++	R
++	'cùng về thành của ta không?'
++	R
++	'An toàn hơn ở đây đấy.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Không phải đâu. ......Không'
++	R
++	'an toàn đâu, em biết mà, tòa'
++	R
++	'thành đó có khi nguy hiểm.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Thành Leazas á?'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ừ............ khúc khích.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Ư...... ừmmm. Dù'
++	R
++	'sao cũng về đây.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Lại tới nha, Arcy chào anh.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	EC 0:
+@@ -3108,28 +2890,22 @@
+ 	!VAR0343 : 2!
+ 	\L_03b47:
+ 	ZH 1:
+-	'Sau khi đi'
+-	R
+-	'một đoạn đường, người ta'
+-	R
+-	'tìm thấy một dấu hiệu.'
+-	\L_03b47:
+-	ZH 1:
+-	'đây là những'
+-	R
+-	'gì dấu hiệu nói.'
+-	\L_03b47:
+-	ZH 1:
+-	': Chú Ý:: Nhân vật'
+-	R
+-	'chính chỉ, xin vui lòng.'
+-	\L_03b47:
+-	ZH 1:
+-	'： ：tôi sẽ không'
+-	R
+-	'thấy các nhân vật phụ.：'
+-	R
+-	'：Tôi thích đồ ngọt. ：'
++	'Đi được một đoạn thì'
++	R
++	'thấy một tấm biển.'
++	\L_03b47:
++	ZH 1:
++	'Trên biển viết:'
++	\L_03b47:
++	ZH 1:
++	'： Chú ý ： ： Chỉ nhân'
++	R
++	'vật chính mời vào ：'
++	\L_03b47:
++	ZH 1:
++	'： Không gặp vai phụ ：'
++	R
++	'： Rất thích bánh kẹo ：'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	%0:
+@@ -3148,96 +2924,94 @@
+ 	\L_03b3a:
+ 	\L_03a92:
+ 	ZH 1:
+-	'Nó được gọi'
+-	R
+-	'là Đảo Đền biệt lập. Nó'
+-	R
+-	'thường không thể đạt được.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Thông thường...'
+-	R
+-	'Điều đó có nghĩa là có'
+-	R
+-	'một cách để có được nó?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Có, Trong những đêm của'
+-	R
+-	'tuần đầu tiên của một tháng,'
+-	\L_03b47:
+-	ZH 1:
+-	'một con đường ánh sáng bí'
+-	R
+-	'ẩn kết nối nó với lục địa.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Hmmm... Nơi xa lạ. Vì'
+-	R
+-	'vậy, có cái gì đó ở đó?'
+-	\L_03b47:
+-	ZH 1:
+-	'Ta sẽ phát'
+-	R
+-	'điên nếu không có một thủ'
+-	R
+-	'thuật phức tạp như vậy.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Tất cả chỉ có'
+-	R
+-	'một ngục tối duy nhất.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Một ngục tối? Thế thì'
+-	R
+-	'phải có cái gì đó trong đó.'
+-	\L_03b47:
+-	ZH 1:
+-	'Vâng... Giống'
+-	R
+-	'như một số cô gái siêu'
+-	R
+-	'nóng, hoặc mega hot girl.'
+-	\L_03b47:
+-	ZH 1:
+-	'Uheeheeheeheeheehee.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Bây giờ, không phải'
+-	R
+-	'là không thể có một người'
+-	R
+-	'phụ nữ trong đó, nhưng...'
+-	\L_03b47:
+-	ZH 1:
+-	'Không ai rời khỏi ngục tối'
+-	R
+-	'từng nói những gì bên trong,'
+-	\L_03b47:
+-	ZH 1:
+-	'vì vậy không có'
+-	R
+-	'cách nào để biết.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Ừm... Rất đáng nghi.'
+-	R
+-	'Chắc chắn đáng để điều tra.'
++	'Nơi này gọi là Đảo Cung'
++	R
++	'Biệt Lập. Bình thường'
++	R
++	'không thể sang được.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Bình thường......'
++	R
++	'nghĩa là có cách sang'
++	R
++	'chứ gì? Làm thế nào?'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Vâng, chỉ vào một đêm'
++	R
++	'trong tuần đầu mỗi tháng,'
++	\L_03b47:
++	ZH 1:
++	'con đường ánh sáng kỳ lạ'
++	R
++	'nối đất liền với đảo. Đi'
++	R
++	'qua con đường ấy......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Hừm...... chỗ kỳ quặc'
++	R
++	'thật. Thế có gì ở đó?'
++	\L_03b47:
++	ZH 1:
++	'Bày trò cầu kỳ thế mà chẳng'
++	R
++	'có gì thì ta nổi giận đấy.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Nghe nói chỉ có một'
++	R
++	'hầm ngục thôi ạ.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Hầm ngục? Vậy chắc'
++	R
++	'bên trong có gì đó.'
++	\L_03b47:
++	ZH 1:
++	'Để xem...... mỹ nhân'
++	R
++	'bốc lửa, hay mỹ nữ'
++	R
++	'cỡ megaton chẳng hạn.'
++	\L_03b47:
++	ZH 1:
++	'Ư hì hì hì hì hì.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Chưa chắc đã có'
++	R
++	'phụ nữ đâu ạ......'
++	\L_03b47:
++	ZH 1:
++	'Những người ra khỏi'
++	R
++	'hầm ngục đều không'
++	R
++	'kể gì về bên trong,'
++	\L_03b47:
++	ZH 1:
++	'nên không ai biết được.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Ừm ừm...... càng đáng ngờ.'
++	R
++	'Đáng để điều tra thử đấy.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 0!
+@@ -3247,10 +3021,9 @@
+ 	!VAR0548 : 1!
+ 	\L_03a5a:
+ 	ZH 1:
+-	'Đảo đền biệt lập'
+-	R
+-	R
+-	'Tắt hoàn toàn'
++	'Đảo Cung Biệt Lập'
++	R
++	'Đóng kín hoàn toàn'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 1032!
+@@ -3261,54 +3034,48 @@
+ 	\L_03ae6:
+ 	\L_03a22:
+ 	ZH 1:
+-	'Ta sắp ra'
+-	R
+-	'ngoài. Đã đến lúc tìm'
+-	R
+-	'kiếm hòn đảo đền thờ!'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Nếu ngài muốn'
+-	R
+-	'thử, Vua Rance,'
+-	\L_03b47:
+-	ZH 1:
+-	'nhưng con đường'
+-	R
+-	'đến đó chỉ xuất hiện vào'
+-	R
+-	'tuần đầu tiên của tháng.'
+-	\L_03b47:
+-	ZH 1:
+-	'Ngay bây giờ...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Sẽ không thể đến'
+-	R
+-	'đó được phải không?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Có.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Hừm, xây một'
+-	R
+-	'cây cầu dẫn tới đó. Là'
+-	R
+-	'một dự án công cộng ...'
+-	\L_03b47:
+-	ZH 1:
+-	'Điều đó là'
+-	R
+-	'không thể được...'
++	'Vậy thì xuất phát. Đi'
++	R
++	'thám hiểm Đảo Cung thôi!'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Xin phép nói, Bệ hạ Rance.'
++	\L_03b47:
++	ZH 1:
++	'Đường sang Đảo Cung'
++	R
++	'Biệt Lập chỉ xuất hiện'
++	R
++	'vào tuần đầu mỗi tháng,'
++	\L_03b47:
++	ZH 1:
++	'nên giờ thì......'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Ý là không được chứ gì.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Vâng.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Hừm, trước lần sau'
++	R
++	'bắc cầu sang đó đi.'
++	R
++	'Công trình công cộng.'
++	\L_03b47:
++	ZH 1:
++	'Maris「......Không'
++	R
++	'thể đâu ạ......」'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 0!
+@@ -3317,12 +3084,9 @@
+ *L_037ea:
+ 	\L_03a5a:
+ 	ZH 1:
+-	'Đảo đền biệt lập'
+-	R
+-	R
+-	'Con Đường Ánh'
+-	R
+-	'Sáng Hiện Diện'
++	'Đảo Cung Biệt Lập'
++	R
++	'Đường ánh sáng đã hiện ra'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 1032!
+@@ -3331,32 +3095,32 @@
+ 	\L_03a76:
+ 	\L_03a22:
+ 	ZH 1:
+-	'Vậy thì ta sẽ đến'
+-	R
+-	'Đảo Đền Thờ Biệt Lập.'
+-	\L_03b47:
+-	ZH 1:
+-	'con đường ánh sáng'
+-	R
+-	'mà ta không hiểu là hiện'
+-	R
+-	'tại, vì vậy có thể đến đó.'
++	'Vậy thì sang Đảo'
++	R
++	'Cung Biệt Lập thôi.'
++	\L_03b47:
++	ZH 1:
++	'Giờ có cái con đường'
++	R
++	'ánh sáng khó hiểu'
++	R
++	'kia rồi nên đi được.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	\L_03a84:
+ 	\L_03a5a:
+ 	ZH 1:
+-	'Như Vậy,'
+-	\L_03b47:
+-	ZH 1:
+-	'Rance và đơn vị của'
+-	R
+-	'hắn băng qua con đường'
+-	\L_03b47:
+-	ZH 1:
+-	'ánh sáng và đến ngục'
+-	R
+-	'tối trên Đền biệt lập Đảo.'
++	'Thế là,'
++	\L_03b47:
++	ZH 1:
++	'bọn Rance đi qua'
++	R
++	'con đường ánh sáng,'
++	\L_03b47:
++	ZH 1:
++	'tới trước mê cung trên'
++	R
++	'Đảo Cung Biệt Lập.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	%0:
+@@ -3375,69 +3139,69 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Ngục tối Rance đi xuống'
+-	R
+-	'ngục tối của Lâu đài Leazas.'
++	'Ngục tối'
++	R
++	'Rance xuống ngục tối của'
++	R
++	'thành Leazas.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	\L_03a3e:
+ 	ZH 1:
+-	'Hmm, ở đây chán quá.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Rance đã tìm kiếm nó.'
+-	\L_03b47:
+-	ZH 1:
+-	'Mỗi bước chân vang'
+-	R
+-	'vọng khắp ngục tối.'
++	'Ừm, đúng là chỗ ảm đạm.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Rance lục soát nơi đó.'
++	\L_03b47:
++	ZH 1:
++	'Tiếng bước chân lộp'
++	R
++	'cộp vang khắp nơi.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 5!
+ 	\L_03ae6:
+ 	\L_03a92:
+ 	ZH 1:
+-	'Anh đang làm'
+-	R
+-	'gì Vậy, Em Yêu?'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'Ừm, Lia...? ngục'
+-	R
+-	'tối thật nhàm chán.'
+-	\L_03b47:
+-	ZH 1:
+-	'Thay vào đó, nàng nên làm'
+-	R
+-	'điều gì đó vui vẻ với ta.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Lia mỉm cười'
+-	R
+-	'và kéo tay Rance.'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a22:
+-	ZH 1:
+-	'À... Này!'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a92:
+-	ZH 1:
+-	'Ủa...'
+-	\L_03b47:
+-	\L_03b3a:
+-	\L_03a5a:
+-	ZH 1:
+-	'Lia kéo Rance'
+-	R
+-	'ra khỏi ngục tối.'
++	'Chàng ơi, chàng làm gì thế?'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'Hửm, Lia à...'
++	R
++	'Lia「Ngục tối chán lắm.'
++	\L_03b47:
++	ZH 1:
++	'Đi làm chuyện'
++	R
++	'vui với Lia đi.」'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Lia cười tươi, nắm'
++	R
++	'tay Rance kéo đi.'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a22:
++	ZH 1:
++	'A... này, khoan!'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a92:
++	ZH 1:
++	'Ư hư hư...'
++	\L_03b47:
++	\L_03b3a:
++	\L_03a5a:
++	ZH 1:
++	'Rance như bị Lia lôi'
++	R
++	'đi, rời khỏi ngục tối.'
+ 	\L_03b47:
+ 	\L_03b3a:
+ 	!VAR0516 : 0!

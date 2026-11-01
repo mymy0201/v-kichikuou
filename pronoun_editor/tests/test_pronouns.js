@@ -1,0 +1,14 @@
+const assert=require('node:assert/strict');
+const {prepare,replace}=require('../web/pronouns.js');
+const row={text:'Suzume「Nếu đó là điều chàng thích... Cứ tiếp tục.」',spans:[]};
+const start=Array.from(row.text.slice(0,row.text.indexOf('chàng'))).length;
+row.spans=[{start,end:start+5,text:'chàng',role:'unknown'}];
+let ready=prepare(row,'call');
+assert.equal(ready.needsChoice,undefined);
+assert.equal(replace(ready.row,{call:'ngài'}).text,'Suzume「Nếu đó là điều ngài thích... Cứ tiếp tục.」');
+assert.equal(row.spans[0].role,'unknown','preview must not mutate baseline');
+assert.equal(prepare({...row,spans:[...row.spans,{start:0,end:2,text:'cô',role:'unknown'}]},'call').needsChoice,true);
+assert.equal(prepare({...row,spans:row.spans.map(s=>({...s,role:'other'}))},'call').needsChoice,true,'never replace explicitly ignored third person');
+const emoji={text:'🙂 Chàng gọi chàng.',spans:[{start:2,end:7,text:'Chàng',role:'unknown'},{start:12,end:17,text:'chàng',role:'unknown'}]};
+assert.equal(replace(prepare(emoji,'call').row,{call:'ngài'}).text,'🙂 Ngài gọi ngài.');
+console.log('5 pronoun regression checks passed');

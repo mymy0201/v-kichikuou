@@ -31,7 +31,9 @@ Dự án này sử dụng bộ công cụ dịch mã nguồn và biên dịch ch
    - Bảng hiển thị thông số: Binh lực hai bên, sĩ khí, ưu thế, thông báo Thắng lợi / Thất bại.
 5. **Giao diện Quản lý Thành thị, Cơ sở & Thao lược (`Cﾃｷﾄｼ.ADV`, `Cﾃｷﾄｼ2.ADV`, `Cﾒｲｷｭｳ.ADV`, `Cｼｮｳﾆﾝ.ADV`, `Cﾃｲﾄ.ADV`, `Cｼﾊｲﾄｼ.ADV`, `Cﾆﾝｼﾞｬ.ADV`, `Cﾊｰﾚﾑ.ADV`, `Cﾌﾞｶ.ADV`)**:
    - Quản lý thành thị chiếm đóng: Trưng thu tạm thời, Gia cố phòng thủ, Đào hố bẫy lớn, Đặt thức ăn tẩm độc, Kinh tế, Phòng thủ.
-   - Xây dựng Hoàng đô Leazas, Labyrinth/Mê cung thám hiểm, Cửa hàng thương nhân mua bán trang bị.
+   - Bản đồ chiến lược: Giữ nguyên các tên địa danh tiếng Anh chuẩn gồm **North**, **South**, **Wes**, **Ice** (đồng bộ với Ys, Oaks, Alan, Scale,...).
+   - Thám hiểm Mê cung (`src/Cﾒｲｷｭｳ.ADV`): Menu di chuyển tầng hiển thị rõ ràng: `Đi lên (bấm lên)` và `Đi xuống (bấm xuống)`. Tích hợp tính năng điều khiển bằng phím mũi tên Lên/Xuống (Up/Down) trên bàn phím để di chuyển nhanh chóng giữa các tầng mà không cần click chuột liên tục.
+   - Xây dựng Hoàng đô Leazas, Cửa hàng thương nhân mua bán trang bị.
    - Chiến dịch Ninja trinh sát và do thám các phe phái.
 6. **Quản lý Đội hình, Hậu cung, Vật phẩm & Thống kê (`Sﾌﾞﾀｲ.ADV`, `Sﾌﾞｶ.ADV`, `Sﾊｰﾚﾑ.ADV`, `Sｱｲﾃﾑ.ADV`, `各種DATA.ADV`, `CG.ADV`, `OVER.ADV`, `TEST.ADV`)**:
    - Bổ sung binh lực, thêm lính mới, giới hạn xuất trận, chi phí chiến tranh.
@@ -78,6 +80,13 @@ Dự án này sử dụng bộ công cụ dịch mã nguồn và biên dịch ch
 
 ### Chơi game:
 - Chạy trực tiếp [play_game.bat](file:///d:/Kichikuou%20Rance/play_game.bat) hoặc nhấp đúp vào [xsystem35.exe](file:///d:/Kichikuou%20Rance/xsystem35.exe).
+
+### Điều khiển & Phím tắt tiện ích trong game:
+- **Phím mũi tên Lên (Up) / Xuống (Down)**: Đi lên / Đi xuống trong mê cung (`Đi lên (bấm lên)` và `Đi xuống (bấm xuống)`), hoặc duyệt chuyển giữa các mục lựa chọn trong menu.
+- **Phím Enter (Return)**: Xác nhận lựa chọn trong menu.
+- **Phím Space / Esc / Chuột phải**: Thoát/hủy bỏ menu lựa chọn, tua nhanh hội thoại.
+- **Phím F1**: Bật / tắt chế độ tua nhanh tin nhắn (Skip mode).
+- **Phím F4**: Bật / tắt chế độ toàn màn hình (Fullscreen).
 
 ### Khi bạn chỉnh sửa mã nguồn kịch bản trong `src/*.ADV`:
 - Chạy [build_vietnamese.bat](file:///d:/Kichikuou%20Rance/build_vietnamese.bat) để tự động biên dịch kịch bản UTF-8 thành file `KICHIKUSA.ALD` và `System39.ain`.

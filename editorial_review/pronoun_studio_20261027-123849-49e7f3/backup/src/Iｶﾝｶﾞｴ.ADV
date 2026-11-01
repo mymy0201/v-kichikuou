@@ -1,0 +1,808 @@
+	!VAR0516 : 1!
+	\L_00c91:
+	\L_00c3d:
+	ZH 1:
+	'Được, suy nghĩ nào... Hừm...'
+	\L_00d62:
+	\L_00d55:
+	{VAR0399 < 10:
+		\L_00c59:
+		ZH 1:
+		'Phải cứu Sill đang bị giam ở'
+		R
+		'Helman... Nhất định phải'
+		\L_00d62:
+		ZH 1:
+		'đưa em ấy trở về.'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0397 = 1:
+		\L_00c59:
+		ZH 1:
+	'Ta đã cứu được Sill về'
+	R
+	'rồi. Lâu lắm rồi mới lại'
+	R
+	'được ôm em ấy cho đến khi'
+	R
+	'hông mềm nhũn.'
+		\L_00d62:
+		ZH 1:
+	'Đã lâu lắm rồi nhỉ.'
+		\L_00d62:
+		\L_00d55:
+	}
+	{(VAR0401 > 1) * (VAR0401 < 7):
+		\L_00c59:
+		ZH 1:
+		'Sill biến mất... Nàng đã đi'
+		R
+		'đâu??'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0401 = 7:
+		\L_00c59:
+		ZH 1:
+	'Sill chẳng hiểu sao lại bị'
+	R
+	'biến thành bò mất rồi. Không'
+	R
+	'biến em ấy trở lại thì làm'
+	R
+	'sao mà làm tình được cơ chứ.'
+		\L_00d62:
+		ZH 1:
+	'Không làm tình được thì'
+	R
+	'bực thật đấy.'
+		\L_00d62:
+		\L_00d55:
+	}
+	{(VAR0365 = 10) + (VAR0365 = 11):
+		\L_00c59:
+		ZH 1:
+	'Nào là quý cô Lady, quý cô'
+	R
+	'Lady... Đang bị giam dưới'
+	R
+	'ngục tối nên...'
+		\L_00d62:
+		ZH 1:
+	'Gahahahaha! Muốn làm tình'
+	R
+	'bao nhiêu tùy thích!'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0402 = 0:
+		\L_00c59:
+		ZH 1:
+	'Lia là vợ ta sao...? Con'
+	R
+	'bé rắc rối thật đấy, nhưng'
+	R
+	'bổn đại gia sẽ huấn luyện tử'
+	R
+	'tế cho xem.'
+		\L_00d62:
+		ZH 1:
+	'Huấn luyện ban đêm trên'
+	R
+	'giường... Hehehe.'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0402 = 2:
+		\L_00c59:
+		ZH 1:
+		'Lia bảo có quà cho ta, muốn'
+		R
+		'ta gọi nàng tới phòng.'
+		\L_00d62:
+		ZH 1:
+		'Là gì nhỉ?'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0393 = 0:
+		\L_00c59:
+		ZH 1:
+	'Một khi đã lên ngôi Vua'
+	R
+	'thì cả nàng Maris đó cũng'
+	R
+	'thuộc về ta.'
+		\L_00d62:
+		ZH 1:
+	'Đã lâu rồi chưa ân ái, có'
+	R
+	'khi phải gọi nàng đến ôm ấp'
+	R
+	'một phen thôi.'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0058 = 1:
+		\L_00c59:
+		ZH 1:
+	'Kanami cũng đã thành thuộc'
+	R
+	'hạ của ta rồi. Phải dùng'
+	R
+	'thân thể dạy dỗ cho em ấy'
+	R
+	'biết thế nào là thuộc hạ mới'
+	R
+	'được...'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0345 = 6:
+		\L_00c59:
+		ZH 1:
+		'Cô gái bán hoa thích ta...'
+		R
+		'Nghe ở Pawn. Đến đón nàng'
+		R
+		'thôi.'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0431 = 2:
+		\L_00c59:
+		ZH 1:
+	'Mill đã thành người lớn'
+	R
+	'rồi. Bên trong vẫn là con'
+	R
+	'nít nhưng bên ngoài phổng'
+	R
+	'phao mây mưa lắm. Phải đè ra'
+	R
+	'ôm ấp thôi.'
+		\L_00d62:
+		ZH 1:
+	'Phải làm tình một trận mới'
+	R
+	'được.'
+		\L_00d62:
+		\L_00d55:
+	}
+	!VAR0154 : 5!
+	{(VAR0415 = 3) * (VAR0102 \ 0):
+		\L_00c59:
+		ZH 1:
+	'Chị Leila đã hứa sẽ cho ta'
+	R
+	'làm tình rồi.'
+		\L_00d62:
+		ZH 1:
+	'Ừm, phải gọi nàng tới'
+	R
+	'phòng ngay lập tức!'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0346 = 1:
+		\L_00c59:
+		ZH 1:
+		'Ở đài truyền hình thành phố'
+		R
+		'Prettiria có cô thần tượng'
+		\L_00d62:
+		ZH 1:
+		'Kapala. Đến chơi cũng hay'
+		R
+		'đấy.'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0062 \ 0:
+		\L_00c59:
+		ZH 1:
+		'Milli mắc bệnh Genfluenza...'
+		R
+		'Phải tìm cách chữa...'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0389 = 3:
+		\L_00c59:
+		ZH 1:
+		'Ở Tháp Magic có cô gái tên'
+		R
+		'Magic,'
+		\L_00d62:
+		ZH 1:
+		'nhưng nàng đang lập khế ước'
+		R
+		'với ác ma.'
+		\L_00d62:
+		ZH 1:
+		'Phải có cách đưa nàng về với'
+		R
+		'ta... Cách nào đây...'
+		\L_00d62:
+		\L_00d55:
+	}
+	!VAR0154 : 29!
+	{(VAR0102 \ 0) * ((VAR0449 = 3) + (VAR0449 = 4)):
+		\L_00c59:
+		ZH 1:
+	'Phải rồi, Satella. Sắp tới'
+	R
+	'lúc làm một nháy tung tóe'
+	R
+	'rồi, háo hức thật đấy.'
+		\L_00d62:
+		\L_00d55:
+	}
+	!VAR0154 : 46!
+	{(VAR0353 = 1) * (VAR0102 \ 0):
+		\L_00c59:
+		ZH 1:
+	'Cô bé Somita tộc Kalar đã'
+	R
+	'gia nhập quân ta...'
+		\L_00d62:
+		ZH 1:
+	'Có nên nếm thử chút vị'
+	R
+	'không nhỉ.'
+		\L_00d62:
+		\L_00d55:
+	}
+	{(VAR0353 = 4) * (VAR0102 \ 0):
+		\L_00c59:
+		ZH 1:
+	'Somita đã hứa nếu trở'
+	R
+	'thành thiên thần thì sẽ cho'
+	R
+	'ta làm tình.'
+		\L_00d62:
+		ZH 1:
+	'Mau thành thiên thần đi'
+	R
+	'nào! Để ta cầu nguyện cho.'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0355 = 3:
+		\L_00c59:
+		ZH 1:
+		'Ồ đúng rồi, Pastel có thai'
+		R
+		'rồi...'
+		R
+		!VAR0001 : VAR0356 - VAR0517!
+		{VAR0001 \ 0:
+			ZH 1:
+			'Còn '
+			H 0, VAR0001:
+			ZH 1:
+			' tuần nữa'
+			{VAR0001 \ 1:
+				ZH 1:
+				'...'
+			}
+			R
+		}
+		{VAR0001 = 0:
+			ZH 1:
+			'Cũng sắp đến ngày rồi...'
+			R
+		}
+		ZH 1:
+		'Con ta hả...?'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0355 = 4:
+		\L_00c59:
+		ZH 1:
+		'Reset, con gái của Pastel...'
+		R
+		'Cũng là con gái ta.'
+		R
+		!VAR0001 : VAR0356 - VAR0517!
+		{VAR0001 \ 0:
+			ZH 1:
+			'Bao giờ con bé mới lớn nhỉ?'
+		}
+		{VAR0001 = 0:
+			ZH 1:
+			'Đến lúc ghé thăm con rồi.'
+		}
+		\L_00d62:
+		\L_00d55:
+	}
+	{(VAR0421 \ 100) * (VAR0421 > 9):
+		\L_00c59:
+		ZH 1:
+	'Nô lệ tình dục bé Aoi,'
+	R
+	'phải làm cách nào đó giúp'
+	R
+	'con bé trở lại bình thường'
+	R
+	'mới được.'
+		\L_00d62:
+		ZH 1:
+		'Nàng đang được điều trị'
+		R
+		'trong lâu đài.'
+		\L_00d62:
+		ZH 1:
+		'Ta có nên đi động viên nàng'
+		R
+		'lần nữa không?'
+		\L_00d62:
+		\L_00d55:
+	}
+	!VAR0154 : 4!
+	{(VAR0567 = 4) * (VAR0102 \ 0):
+		\L_00c59:
+		ZH 1:
+		'Soul có thư của anh trai'
+		R
+		'Bound... Hắn vẫn còn sống'
+		R
+		'sao?'
+		\L_00d62:
+		\L_00d55:
+	}
+	!VAR0154 : 16!
+	{(VAR0428 = 2) * (VAR0102 \ 0):
+		\L_00c59:
+		ZH 1:
+		'Maria nhờ xây cơ sở nghiên'
+		R
+		'cứu thì phải...'
+		\L_00d62:
+		ZH 1:
+		'Có giúp ích gì không nhỉ?'
+		\L_00d62:
+		\L_00d55:
+	}
+	{(VAR0429 = 1) * (VAR0102 \ 0):
+		\L_00c59:
+		ZH 1:
+		'Có vẻ như Maria đang thực'
+		R
+		'hiện một số nghiên cứu nguy'
+		R
+		'hiểm...'
+		\L_00d62:
+		ZH 1:
+		'Thuộc hạ kể thế. Có nên ngăn'
+		R
+		'nàng lại không?'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0426 = 3:
+		\L_00c59:
+		ZH 1:
+		'Maria nhập viện vì tai'
+		R
+		'nạn... Hơi lo đấy. Đi thăm'
+		R
+		'nàng thôi.'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0328 = 4:
+		\L_00c59:
+		ZH 1:
+		'Muốn điều tra bí mật'
+		R
+		'Shangri-La, phải nói chuyện'
+		R
+		'với Shariella.'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0328 = 5:
+		\L_00c59:
+		ZH 1:
+		'Muốn điều tra bí mật'
+		R
+		'Shangri-La, phải khám xét'
+		R
+		'dinh thự Descoco.'
+		\L_00d62:
+		\L_00d55:
+	}
+	!VAR0154 : 12!
+	{(VAR0410 = 0) * (VAR0102 \ 0):
+		\L_00c59:
+		ZH 1:
+	'Con gái của Barres,'
+	R
+	'Haurein sao...?'
+		\L_00d62:
+		ZH 1:
+	'Mới làm tình có một lần,'
+	R
+	'lát nữa phải gọi em ấy đến'
+	R
+	'làm nháy nữa mới được.'
+		\L_00d62:
+		ZH 1:
+	'Phải gọi đến làm tình'
+	R
+	'thôi.'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0394 = 2:
+		\L_00c59:
+		ZH 1:
+		'Cô hầu Suzume đang buồn vì'
+		R
+		'gã cha tồi tệ...'
+		\L_00d62:
+		ZH 1:
+		'Ta muốn giúp nàng.'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0394 = 3:
+		\L_00c59:
+		ZH 1:
+		'Ta sẽ không bao giờ tha thứ'
+		R
+		'cho cha của Suzume, Hayate'
+		R
+		'Katou.'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0564 = 5:
+		\L_00c59:
+		ZH 1:
+	'Bác sĩ Aya đã bảo hễ ta'
+	R
+	'mắc bệnh Okayu thì nàng sẽ'
+	R
+	'cho ta làm tình...'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0564 = 6:
+		\L_00c59:
+		ZH 1:
+	'Bác sĩ Aya đã bảo hễ ta'
+	R
+	'mắc bệnh Okayu thì nàng sẽ'
+	R
+	'cho ta làm tình... Muốn mắc'
+	R
+	'bệnh Okayu thì phải đến Hang'
+	R
+	'Thiên Địch gần Cossack tầng'
+	R
+	'10 hôn quái vật Okayu'
+	R
+	'Fever... Hừm, ghét thật'
+	R
+	'đấy...'
+		\L_00d62:
+		ZH 1:
+		'Muốn mắc bệnh Okayu, phải'
+		R
+		'hôn quái vật Okayu Fever'
+		\L_00d62:
+		ZH 1:
+		'ở tầng 10 Hang Thiên Địch'
+		R
+		'gần Cossack...'
+		\L_00d62:
+		ZH 1:
+		'Hừm... Chẳng thích chút'
+		R
+		'nào...'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0564 = 7:
+		\L_00c59:
+		ZH 1:
+	'Để được làm tình với bác'
+	R
+	'sĩ Aya, dù ghét cay ghét'
+	R
+	'đắng nhưng ta cũng đã hôn'
+	R
+	'quái vật Okayu Fever rồi.'
+		\L_00d62:
+		ZH 1:
+	'Giờ chỉ việc đi gặp nàng'
+	R
+	'Aya thôi...'
+		\L_00d62:
+		ZH 1:
+	'Chỉ việc gặp nàng thôi.'
+		\L_00d62:
+		\L_00d55:
+	}
+	!VAR0154 : 13!
+	{(VAR0560 < 10) * (VAR0102 \ 0):
+		\L_00c59:
+		ZH 1:
+	'Vì lời nguyền,'
+		\L_00d62:
+		ZH 1:
+	'nếu bổn đại gia không ôm'
+	R
+	'ấp nàng Melfeis mỗi hai'
+	R
+	'tháng một lần thì nàng sẽ'
+	R
+	'phát điên mất...'
+		\L_00d62:
+		ZH 1:
+	'Phải gọi nàng vào hậu cung'
+	R
+	'để không bị quên mới được.'
+		\L_00d62:
+		{VAR0560 > 7:
+			ZH 1:
+	'Nghĩ lại thì cũng sắp đến'
+	R
+	'hạn rồi đấy.'
+			\L_00d62:
+		}
+		\L_00d55:
+	}
+	!VAR0154 : 10!
+	{(VAR0102 \ 0) * (VAR0406 \ 0) * (VAR0405 < 7):
+		{VAR0405 < 6:
+			\L_00c59:
+			ZH 1:
+	'Phó tướng Xích Quân, bé'
+	R
+	'Menad.'
+			\L_00d62:
+			ZH 1:
+	'Con bé đáng yêu thật đấy,'
+	R
+	'ngặt nỗi mãi chẳng chịu cho'
+	R
+	'ta làm tình...'
+			\L_00d62:
+			ZH 1:
+	'Chẳng lẽ không có cách nào'
+	R
+	'đè được bé Menad ra sao...'
+	R
+	'Hừmmm.'
+			\L_00d62:
+			\L_00d55:
+		}
+		{VAR0405 = 6:
+			\L_00c59:
+			ZH 1:
+			'Phó tướng Xích Quân Menad...'
+			R
+			'Maris bảo nàng biển thủ vật'
+			R
+			'tư.'
+			\L_00d62:
+			ZH 1:
+			'Phải hỏi rõ mới được.'
+			\L_00d62:
+			\L_00d55:
+		}
+	}
+	{(VAR0435 = 1) + (VAR0435 = 2):
+		\L_00c59:
+		ZH 1:
+	'Rõ ràng đang cần Ma kiếm'
+	R
+	'Chaos... thế mà chị Sel cứ'
+	R
+	'nhất quyết không chịu giao'
+	R
+	'ra.'
+		\L_00d62:
+		ZH 1:
+	'Có nên đè nàng ra đụ liên'
+	R
+	'tục cho đến khi chịu đổi ý'
+	R
+	'không nhỉ?'
+		\L_00d62:
+		\L_00d55:
+	}
+	{(VAR0435 = 3) * (VAR0451 = 0):
+		\L_00c59:
+		ZH 1:
+		'Sel ở Red đang tự trách vì'
+		R
+		'để Chaos bị cướp mất...'
+		\L_00d62:
+		ZH 1:
+		'Cơ hội đây rồi.'
+		\L_00d62:
+		\L_00d55:
+	}
+	{VAR0476 \ 0:
+		{VAR0476 < VAR0517:
+			\L_00c59:
+			ZH 1:
+			'Thư ký của Lazeal, Raylee...'
+			\L_00d62:
+			ZH 1:
+			'Đã quá một tháng hẹn ước...'
+			R
+			'Đến đón nàng thôi.'
+			\L_00d62:
+			\L_00d55:
+		}
+		{(VAR0476 > VAR0517) + (VAR0476 = VAR0517):
+			\L_00c59:
+			ZH 1:
+			'Thư ký của Lazeal, Raylee...'
+			\L_00d62:
+			ZH 1:
+			'Chờ một tháng chưa đánh'
+			R
+			'thành thì nàng sẽ thuộc về'
+			R
+			'ta...'
+			\L_00d62:
+			ZH 1:
+			'A, thời gian trôi nhanh lên'
+			R
+			'đi...'
+			\L_00d62:
+			\L_00d55:
+		}
+	}
+	!VAR0154 : 4!
+	{(VAR0567 = 5) * (VAR0102 \ 0):
+		\L_00c59:
+		ZH 1:
+		'Soul cuối cùng đã đọc thư'
+		R
+		'Bound... Hắn đang đợi ở sào'
+		R
+		'huyệt.'
+		\L_00d62:
+		ZH 1:
+		'Đến gặp hắn thôi...'
+		\L_00d62:
+		\L_00d55:
+	}
+	{(VAR0462 = 2) + (VAR0462 = 3):
+		\L_00c59:
+		ZH 1:
+		'Rafalia thực sự rất tuyệt.'
+		R
+		{VAR0562 > 2:
+			ZH 1:
+			'Chút nữa ta nên đến gặp nàng'
+			R
+			'lần nữa.'
+			\L_00d62:
+			\L_00d55:
+		}
+		{VAR0562 < 3:
+			ZH 1:
+			'Ta có nên đến gặp nàng lần'
+			R
+			'nữa không?'
+			\L_00d62:
+		}
+		\L_00d55:
+	}
+	{VAR0462 = 4:
+		\L_00c59:
+		ZH 1:
+	'Bé Rafalia trông cũng ngon'
+	R
+	'lành cành đào đấy chứ.'
+	R
+	'Hehehehe.'
+		R
+		{VAR0562 > 2:
+			ZH 1:
+			'Lát nữa ta sẽ ghé thăm lại.'
+			\L_00d62:
+			\L_00d55:
+		}
+		{VAR0562 < 3:
+			ZH 1:
+			'Ta có nên gặp lại họ không?'
+			\L_00d62:
+		}
+		\L_00d55:
+	}
+	\L_00c3d:
+	ZH 1:
+	'Phù... Nghĩ xong rồi.'
+	\L_00d62:
+	\L_00d55:
+	\L_00c9f:
+	\L_00d47:
+	%0:
+*L_00c3d:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_00c59:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_00c91:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+*L_00c9f:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+*L_00d47:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_00d55:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_00d62:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

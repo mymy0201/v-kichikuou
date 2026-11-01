@@ -1,0 +1,2943 @@
+	{VAR0520 = 1:
+		@L_00c64:
+	}
+	{VAR0520 = 2:
+		@L_009ef:
+	}
+	{VAR0520 = 3:
+		@L_006ec:
+	}
+	{VAR0520 = 4:
+		@L_0041d:
+	}
+	{VAR0520 = 5:
+		@L_000c2:
+	}
+	{VAR0520 = 10:
+		@L_0142b:
+	}
+	{VAR0520 = 300:
+		@L_00aea:
+	}
+	{VAR0520 = 301:
+		@L_0206c:
+	}
+*L_000c2:
+	!VAR0712 : 1!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1001!
+	\L_03557:
+	!VAR0516 : 68!
+	\L_034af:
+	!VAR0516 : 63!
+	\L_0351f:
+	\L_03493:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'    Hallway'
+	\L_03580:
+	ZH 1:
+	'Mill and Merim were talking.'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Hey, Merim.'
+	R
+	'You know all sorts of legends,'
+	R
+	'right?'
+	\L_03580:
+	ZH 1:
+	'Then do you know some way to'
+	R
+	'turn into an adult, like an'
+	R
+	'item? I’d do anything to'
+	R
+	'become an adult.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Why?'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Rance says he won’t have sex'
+	R
+	'with me as long as I’m a kid...'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'............'
+	\L_03580:
+	ZH 1:
+	'Huh?'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'I want to have sex with Rance.'
+	R
+	'As a fellow woman, you can'
+	R
+	'understand my pain, can’t you?'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Ah... Aaaah...'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Come on, Merim.'
+	R
+	'Tell me, please.'
+	\L_03580:
+	\L_03573:
+	\L_034e7:
+	ZH 1:
+	'Uu～～... Hm...'
+	R
+	'I don’t get how she feels, but'
+	R
+	'I do wonder whether such a'
+	R
+	'thing exists...'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Give me a moment...'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Okay!'
+	R
+	'I can’t wait...'
+	\L_03580:
+	\L_03573:
+	\L_03493:
+	ZH 1:
+	'Merim flipped through a book'
+	R
+	'she was holding.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'...Hm...'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'What?'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Maybe something like this??'
+	\L_03580:
+	ZH 1:
+	'Um... The Fountain of Growth...'
+	R
+	'It’s somewhere in the Uncurse'
+	R
+	'Dungeon...'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'That’s it!!'
+	R
+	'Yeah, that’ll definitely work!!'
+	\L_03580:
+	ZH 1:
+	'Let’s go, Merim!'
+	R
+	'Right now.'
+	R
+	'Let’s go～!!'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Wait... I don’t know whether'
+	R
+	'this is really what you want,'
+	R
+	'so... How about we got after I'
+	R
+	'make sure... Okay?'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Yeah... Okay...'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'But I don’t know if it’ll be'
+	R
+	'what you want, so... don’t get'
+	R
+	'your hopes up too much.'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'No.'
+	R
+	'I’m totally getting my hopes'
+	R
+	'up. I can’t wait.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Aah...'
+	\L_03580:
+	\L_03573:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0041d:
+	SS 26:
+	{(VAR0712 = 0) + (VAR0712 = 1):
+		@L_00562:
+	}
+	!VAR0154 : VAR0569!
+	{(VAR0154 = 25) * (VAR0431 < 2) * (VAR0062 = 0) * ((VAR0700 = 0) + (VAR0700 = 8)):
+		!VAR0520 : 1!
+		%#Gﾐﾙ.ADV:
+		SS 21:
+		%0:
+	}
+	\L_03573:
+	!VAR0516 : 63!
+	\L_034af:
+	\L_03493:
+	ZH 1:
+	'The previously discovered'
+	R
+	'muddy, yellow fountain was'
+	R
+	'there.'
+	\L_03580:
+	ZH 1:
+	'The Fountain of Growth.'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Hmmm... It’s a pretty'
+	R
+	'mysterious fountain. Who made'
+	R
+	'it, anyway?'
+	\L_03580:
+	ZH 1:
+	'Maybe a great, ancient mage?'
+	R
+	'I wonder what they were'
+	R
+	'thinking...'
+	\L_03580:
+	ZH 1:
+	'Maybe they were thinking of'
+	R
+	'using it to raise crops fast'
+	R
+	'to stop food crises... Sounds'
+	R
+	'like a great old story...'
+	\L_03580:
+	ZH 1:
+	'Ah, everyone... Wait, don’t'
+	R
+	'leave me behind...'
+	\L_03580:
+	\L_03573:
+	\L_03493:
+	ZH 1:
+	'Merim frantically returned to'
+	R
+	'her allies.'
+	\L_03580:
+	\L_03573:
+	\L_034bd:
+	SS 21:
+	%0:
+*L_00562:
+	!VAR0712 : 2!
+	\L_03573:
+	!VAR0516 : 63!
+	\L_034af:
+	\L_0345b:
+	ZH 1:
+	'Ah... What’s that...?'
+	\L_03580:
+	\L_03573:
+	\L_03493:
+	ZH 1:
+	'Merim found a small spring in'
+	R
+	'a corner of the dungeon.'
+	R
+	'It was filled with muddy,'
+	R
+	'yellow water.'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Hm...'
+	\L_03580:
+	\L_03573:
+	\L_03493:
+	ZH 1:
+	'Merim pulled an old book out'
+	R
+	'of her bag and looked at it.'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Ah, I knew it...'
+	R
+	'This is the Fountain of Growth.'
+	R
+	'Wow, it really exists.'
+	\L_03580:
+	ZH 1:
+	'Let’s try an experiment...'
+	\L_03580:
+	\L_03573:
+	\L_03493:
+	ZH 1:
+	'　　＜splash...＞'
+	\L_03580:
+	ZH 1:
+	'Merim put in a sunflower seed'
+	R
+	'she had with her.'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Wah...'
+	\L_03580:
+	\L_03573:
+	\L_03493:
+	ZH 1:
+	'When she did, it rapidly'
+	R
+	'bloomed into a flower, then'
+	R
+	'withered.'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Hmmm... Certainly seems to be'
+	R
+	'the Fountain of Growth...'
+	R
+	'Scary... If I were careless,'
+	R
+	'I’d end up an old lady.'
+	\L_03580:
+	ZH 1:
+	'...I need to tell Mill about'
+	R
+	'this...'
+	\L_03580:
+	\L_03573:
+	\L_034bd:
+	SS 21:
+	%0:
+*L_006ec:
+	!VAR0486 : 1!
+	{VAR0493 = 3:
+		!VAR0493 : 4!
+	}
+	{VAR0493 = 6:
+		!VAR0493 : 7!
+	}
+	{VAR0493 = 10:
+		!VAR0493 : 11!
+	}
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_03557:
+	!VAR0516 : 1!
+	\L_034af:
+	!VAR0516 : 63!
+	\L_0351f:
+	\L_03493:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　Audience Room'
+	\L_03580:
+	ZH 1:
+	'Merim was standing before'
+	R
+	'Rance, smiling energetically.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'I’ve successfully left the'
+	R
+	'hospital. I came to thank you'
+	R
+	'for what you did for me.'
+	\L_03580:
+	ZH 1:
+	'Thanks for coming to see me'
+	R
+	'while I was in the hospital.'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Mhm, mhm.'
+	R
+	'So... How’s your body?'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Good!'
+	R
+	'I’m already good to go'
+	R
+	'exploring at any time!'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Mhm... Let’s see.'
+	\L_03580:
+	\L_03573:
+	\L_03493:
+	ZH 1:
+	'Rance approached Merim.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'??'
+	\L_03580:
+	\L_03573:
+	\L_03493:
+	ZH 1:
+	'　　＜touch＞'
+	\L_03580:
+	ZH 1:
+	'Rance touched Merim’s ass.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Kyah!?'
+	\L_03580:
+	\L_03573:
+	\L_03493:
+	ZH 1:
+	'　　＜touch touch＞'
+	\L_03580:
+	ZH 1:
+	'Rance grabbed Merim’s boobs.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'R-Rance, please stop!'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Gahahahahaha!!'
+	R
+	'Alright, you’re good!!'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'...What kind of testing method'
+	R
+	'was that...?'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Mhm.'
+	R
+	'You’re well enough that I’ll'
+	R
+	'take you with on a search at'
+	R
+	'any time.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Thank you!'
+	R
+	'So... When??'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'No need to rush.'
+	R
+	'Wait on standby in your room.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Okaaay.'
+	\L_03580:
+	ZH 1:
+	'Oh boy... I love exploring.'
+	\L_03580:
+	\L_03573:
+	\L_0352d:
+	\L_03493:
+	ZH 1:
+	'Merim skipped back to her room'
+	R
+	'as Rance ordered her to.'
+	\L_03580:
+	\L_03573:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_009ef:
+	\L_0345b:
+	ZH 1:
+	'I want to see Merim.'
+	R
+	'Where’s her room?'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Uuum～... Right now～, Merim is'
+	R
+	'on～, rehab time～.'
+	R
+	'The rehab room is～...'
+	\L_03580:
+	ZH 1:
+	'Aah～...'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'What～?'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'She’s back～.'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Hm～?'
+	\L_03580:
+	\L_03573:
+	\L_03503:
+	ZH 1:
+	'Aya’s relaxed speech'
+	R
+	'transmitted to Rance.'
+	R
+	'He lazily looked where she was'
+	R
+	'lazily pointing.'
+	\L_03580:
+	\L_03573:
+	PF1 VAR0056:
+	SS 0:
+	G 806:
+	G 170:
+	\L_0353b:
+	ZH 1:
+	'Merim「Ah... Rance...」'
+	PF0 VAR0056:
+	\L_03580:
+*L_00aea:
+	ZH 1:
+	'Rance「Oh, you seem to be doing better than I'
+	R
+	'      thought.」'
+	\L_03580:
+	ZH 1:
+	'Merim「Yes.'
+	R
+	'      The rehab doctor tells me that I’m getting'
+	R
+	'      better really fast.」'
+	\L_03580:
+	ZH 1:
+	'Merim「But if I don’t get better fast, I can’t go'
+	R
+	'      exploring again, right?'
+	R
+	'      So I’m doing the best I can.」'
+	\L_03580:
+	ZH 1:
+	'Rance「Hoh, in what way?」'
+	\L_03580:
+	ZH 1:
+	'Merim「I’m eating healthy food, even if I don’t like'
+	R
+	'      it.」'
+	\L_03580:
+	ZH 1:
+	'Merim「Also, I’m reading up on how to get better'
+	R
+	'      faster...」'
+	\L_03580:
+	ZH 1:
+	'Merim「I’m taking naps and making sure to rest at'
+	R
+	'      night too, to get lots of sleep.」'
+	\L_03580:
+	ZH 1:
+	'Merim「I’m getting more sleep than I ever had in my'
+	R
+	'      life... Huhuhu.」'
+	\L_03580:
+	ZH 1:
+	'Rance「I see... So...」'
+	\L_03580:
+	ZH 1:
+	'Rance「If you get lonely at night, how about I sneak'
+	R
+	'      in and do lots of good stuff to you?」'
+	\L_03580:
+	ZH 1:
+	'Merim「I could do without that...」'
+	\L_03580:
+	ZH 1:
+	'Merim sweetly shook her head.'
+	\L_03580:
+	ZH 1:
+	'Rance「I see... That’s too bad.'
+	R
+	'      Well, now I know how you’re doing...'
+	R
+	'      I’ll be going.」'
+	\L_03580:
+	ZH 1:
+	'Merim「Ah... Thank you.'
+	R
+	'      I know you’re busy now that you’re a king...」'
+	\L_03580:
+	ZH 1:
+	'Rance「It’s fine.'
+	R
+	'      See you.」'
+	\L_03580:
+	{VAR0520 = 300:
+		%0:
+	}
+	ZH 1:
+	'Rance left Genius Hospital.'
+	\L_03580:
+	\L_03573:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_00c64:
+	!VAR0480 : 0!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_03557:
+	!VAR0516 : 6!
+	\L_0351f:
+	\L_03493:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'    Audience Room'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'King Rance... King Rance!?'
+	\L_03580:
+	\L_03573:
+	\L_03493:
+	ZH 1:
+	'Maris came to the throne.'
+	R
+	'But Rance wasn’t there.'
+	\L_03580:
+	\L_03573:
+	\L_034e7:
+	ZH 1:
+	'Where did he run off to...?'
+	R
+	'...This is really something I'
+	R
+	'need to tell him soon...'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'King Rance!'
+	\L_03580:
+	\L_03573:
+	!VAR0516 : 1!
+	\L_034af:
+	\L_0345b:
+	ZH 1:
+	'Hey, here I am.'
+	\L_03580:
+	\L_03573:
+	\L_03493:
+	ZH 1:
+	'Rance approached, wiping his'
+	R
+	'hands with his cape.'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'I’m so busy, I can’t even go'
+	R
+	'to the bathroom. What is it?'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'There’s trouble.'
+	R
+	'Something happened to Ms.'
+	R
+	'Merim during a dungeon search.'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'What happened?'
+	\L_03580:
+	\L_03573:
+	{VAR0486 = 2:
+		\L_034cb:
+		ZH 1:
+		'She suffered severe injuries'
+		R
+		'in the dungeon and is'
+		R
+		'currently hospitalized in'
+		R
+		'Genius Hospital.'
+		\L_03580:
+		\L_03573:
+		\L_0345b:
+		ZH 1:
+		'What...?!!'
+		R
+		'She’s okay, isn’t she?'
+		\L_03580:
+		\L_03573:
+		\L_034cb:
+		ZH 1:
+		'Yes... Thankfully, her life'
+		R
+		'isn’t in danger.'
+		\L_03580:
+		\L_03573:
+		\L_0345b:
+		ZH 1:
+		'I’ll go see her immediately.'
+		\L_03580:
+		\L_03573:
+		\L_034cb:
+		ZH 1:
+		'Yes, King Rance.'
+		\L_03580:
+		\L_03573:
+		\L_03493:
+		ZH 1:
+		'Rance rushed to Genius'
+		R
+		'Hospital.'
+		\L_03580:
+		\L_03573:
+		!VAR0516 : 0!
+		%#M.ADV:
+		!VAR0516 : 1034!
+		\L_03557:
+		!VAR0516 : 1!
+		\L_034af:
+		\L_03493:
+		ZM 32:
+		ZH 1:
+		'　　　Leazas Castle'
+		R
+		ZM 24:
+		ZH 1:
+		R
+		'　　　Genius Hospital'
+		\L_03580:
+		\L_03573:
+		\L_0345b:
+		ZH 1:
+		'Merim!!'
+		R
+		'Where are you?'
+		R
+		'Meriiiiiiim!!'
+		\L_03580:
+		\L_03573:
+		\L_03503:
+		ZH 1:
+		'Rance...?'
+		\L_03580:
+		\L_03573:
+		\L_0345b:
+		ZH 1:
+		'Ooh, Merim!!'
+		\L_03580:
+		\L_03573:
+		PF1 VAR0056:
+		SS 0:
+		G 806:
+		G 170:
+		\L_0353b:
+		ZH 1:
+		'Merim「Rance...」'
+		PF0 VAR0056:
+		\L_03580:
+		ZH 1:
+		'Merim was in a pitiful state, using crutches to'
+		R
+		'stand.'
+		\L_03580:
+		ZH 1:
+		'Rance「Ooh, so you’re alive... That’s good.'
+		R
+		'      Can you walk?」'
+		\L_03580:
+		ZH 1:
+		'Merim「Yes... My injuries aren’t as bad as they'
+		R
+		'      look... More importantly... I’m sorry...」'
+		\L_03580:
+		ZH 1:
+		'Rance「What?」'
+		\L_03580:
+		ZH 1:
+		'Merim「I came along on the search, but I ended up'
+		R
+		'      being a burden to everyone...」'
+		\L_03580:
+		ZH 1:
+		'Rance「That’s not...」'
+		\L_03580:
+		ZH 1:
+		'Merim「But I want to explore ruins...'
+		R
+		'      I’ll do better next time!'
+		R
+		'      So...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Stupid.'
+		R
+		'      Think about that after your injuries heal.」'
+		\L_03580:
+		ZH 1:
+		'Merim「But... I’m worried...'
+		R
+		'      Um... If I was told I couldn’t do anymore...'
+		R
+		'      I...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Aagh, god! I’m telling you to worry about your'
+		R
+		'      body right now!'
+		R
+		'      I’m not saying you can’t go anymore!!」'
+		\L_03580:
+		ZH 1:
+		'Merim「Huh...? Then...」'
+		\L_03580:
+		ZH 1:
+		'Rance「I’ll think about it.」'
+		\L_03580:
+		ZH 1:
+		'Merim「Thank you... Rance...」'
+		\L_03580:
+		ZH 1:
+		'Rance「So... What were you doing here?」'
+		\L_03580:
+		ZH 1:
+		'Merim「Ah... Returning from an examination...'
+		R
+		'      I think I’ll go back to my room now...」'
+		\L_03580:
+		ZH 1:
+		'Rance「I see... Want me to go with you?」'
+		\L_03580:
+		ZH 1:
+		'Merim「No... I’m fine...'
+		R
+		'      Rance...」'
+		\L_03580:
+		ZH 1:
+		'Rance「What?」'
+		\L_03580:
+		ZH 1:
+		'Merim「Thank you for coming to see me...'
+		R
+		'      I’m glad.」'
+		\L_03580:
+		ZH 1:
+		'Rance「..............」'
+		\L_03580:
+		ZH 1:
+		'Merim「Bye...」'
+		\L_03580:
+		ZH 1:
+		'Merim bowed, then used her crutches to walk down the'
+		R
+		'hallway.'
+		\L_03580:
+		PF1 VAR0056:
+		\L_03573:
+		!VAR0516 : 0!
+		%#M.ADV:
+		SS VAR0515:
+		PF0 VAR0056:
+		!VAR0516 : 1034!
+		\L_03557:
+		!VAR0516 : 1!
+		\L_034af:
+		\L_0345b:
+		ZH 1:
+		'Astonishing girl...'
+		R
+		'Man...'
+		\L_03580:
+		\L_03573:
+		!VAR0516 : 79!
+		\L_0351f:
+		\L_034cb:
+		ZH 1:
+		'Definitely～.'
+		R
+		'Even after the danger she went'
+		R
+		'through～...'
+		\L_03580:
+		\L_03573:
+		\L_0345b:
+		ZH 1:
+		'Wah!!'
+		\L_03580:
+		\L_03573:
+		\L_034cb:
+		ZH 1:
+		'Hyaah!'
+		\L_03580:
+		\L_03573:
+		\L_0345b:
+		ZH 1:
+		'Y-You surprised me!'
+		R
+		'Don’t suddenly come up behind'
+		R
+		'me like that.'
+		\L_03580:
+		\L_03573:
+		\L_034cb:
+		ZH 1:
+		'Well～... I wasn’t really'
+		R
+		'trying to surprise you～...'
+		\L_03580:
+		\L_03573:
+		\L_0345b:
+		ZH 1:
+		'Aya, are you taking care of'
+		R
+		'Merim?'
+		\L_03580:
+		\L_03573:
+		\L_034cb:
+		ZH 1:
+		'Yes～...'
+		R
+		'I’m the one who performed her'
+		R
+		'examination～.'
+		\L_03580:
+		\L_03573:
+		\L_0345b:
+		ZH 1:
+		'I see.'
+		\L_03580:
+		\L_03573:
+		\L_034cb:
+		ZH 1:
+		'Don’t worry too much about'
+		R
+		'Merim～. She’ll be just fine'
+		R
+		'after a bit of time in the'
+		R
+		'hospital～.'
+		\L_03580:
+		\L_03573:
+		\L_0345b:
+		ZH 1:
+		'I see...'
+		\L_03580:
+		\L_03573:
+		\L_034cb:
+		ZH 1:
+		'So～, leave it to us, please～.'
+		R
+		'Ah, and you can come visit'
+		R
+		'whenever you want～.'
+		\L_03580:
+		\L_03573:
+		\L_0345b:
+		ZH 1:
+		'Got it.'
+		R
+		'I’ll be back.'
+		\L_03580:
+		\L_03573:
+		\L_034cb:
+		ZH 1:
+		'Okay～.'
+		\L_03580:
+		\L_03573:
+		\L_03493:
+		ZH 1:
+		'Rance left Genius Hospital.'
+		\L_03580:
+		\L_03573:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	{VAR0486 = 3:
+		\L_034cb:
+		ZH 1:
+		'She was attacked by monsters'
+		R
+		'in the dungeon... And...'
+		\L_03580:
+		\L_03573:
+		\L_0345b:
+		ZH 1:
+		'...And...?'
+		\L_03580:
+		ZH 1:
+		'Is it what I think happened?'
+		\L_03580:
+		\L_03573:
+		\L_034cb:
+		ZH 1:
+		'Yes, unfortunately...'
+		\L_03580:
+		\L_03573:
+		\L_0345b:
+		ZH 1:
+		'Damn it...'
+		R
+		'I didn’t make her go into the'
+		R
+		'dungeon or anything...'
+		\L_03580:
+		ZH 1:
+		'............'
+		\L_03580:
+		ZH 1:
+		'Hold a funeral for her.'
+		\L_03580:
+		\L_03573:
+		\L_034cb:
+		ZH 1:
+		'Understood...'
+		\L_03580:
+		\L_03573:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0142b:
+	!VAR0248 : 4!
+	{VAR0419 = 1:
+		@L_01449:
+	}
+	@L_01cf0:
+*L_01449:
+	!VAR0419 : 2!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1002!
+	\L_03557:
+	!VAR0516 : 1!
+	\L_034af:
+	\L_03493:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　Rance’s Bedroom'
+	\L_03580:
+	ZH 1:
+	'　　＜knock knock＞'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Enter.'
+	\L_03580:
+	\L_03573:
+	!VAR0516 : 63!
+	\L_0351f:
+	\L_034cb:
+	ZH 1:
+	'Um... Good evening...'
+	R
+	'Did you call for me?'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Yeah, come in, come in.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Okay...'
+	\L_03580:
+	\L_03573:
+	\L_03503:
+	ZH 1:
+	'Merim quietly entered.'
+	\L_03580:
+	\L_03573:
+	\L_03477:
+	ZH 1:
+	'Come to think of it...'
+	R
+	'She got sold to that Bicci guy'
+	R
+	'and suffered a lot of bad'
+	R
+	'treatment from him.'
+	\L_03580:
+	ZH 1:
+	'Some hard S&M...'
+	R
+	'I beat Bicci and had sex with'
+	R
+	'her. So I’ll be gentle.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Um... Rance?'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'I’ll give you special'
+	R
+	'treatment and fuck you gently'
+	R
+	'today.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Huh...?'
+	\L_03580:
+	ZH 1:
+	'But anything you want to do is'
+	R
+	'fine, Rance...'
+	\L_03580:
+	ZH 1:
+	'It’s all I can do for you...'
+	\L_03580:
+	\L_03573:
+	\L_03503:
+	ZH 1:
+	'Merim smiled like she had'
+	R
+	'already given up.'
+	\L_03580:
+	\L_03573:
+	\L_03477:
+	ZH 1:
+	'............'
+	\L_03580:
+	ZH 1:
+	'Strange...'
+	\L_03580:
+	ZH 1:
+	'I was planning on doing her'
+	R
+	'gently, but...'
+	\L_03580:
+	ZH 1:
+	'When I look at Merim’s face,'
+	R
+	'it makes me want to abuse her.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Rance?'
+	\L_03580:
+	\L_03573:
+	\L_03477:
+	ZH 1:
+	'I see... I got it.'
+	R
+	'She’s the kind of girl that’s'
+	R
+	'just asking to be abused.'
+	\L_03580:
+	ZH 1:
+	'In that case, I should abuse'
+	R
+	'her. Yeah. Definitely.'
+	\L_03580:
+	ZH 1:
+	'But it’d be boring to just do'
+	R
+	'that.'
+	\L_03580:
+	ZH 1:
+	'............'
+	\L_03580:
+	ZH 1:
+	'Oh yeah... I’ve got something'
+	R
+	'good, actually.'
+	\L_03580:
+	\L_03573:
+	\L_03493:
+	ZH 1:
+	'Rance took out a suitcase.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'What’s that...?'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Heeheeheehee.'
+	R
+	'Something I got as a New'
+	R
+	'Year’s gift.'
+	\L_03580:
+	ZH 1:
+	'I didn’t have anyone to use it'
+	R
+	'on, but I’ll use it'
+	R
+	'exclusively on you, Merim.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'??'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Now, here I go!!'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Kyah...'
+	\L_03580:
+	\L_03573:
+	\L_03493:
+	ZH 1:
+	'Rance leapt at Merim like a'
+	R
+	'beast.'
+	\L_03580:
+	\L_03573:
+	PF1 VAR0056:
+	SS 0:
+	G 806:
+	G 171:
+	SS 24:
+	\L_0353b:
+	ZH 1:
+	'Merim「O-Ow...」'
+	PF0 VAR0056:
+	\L_03580:
+	ZH 1:
+	'Rance「Gahahahahaha.'
+	R
+	'      Your pain gets me hot.」'
+	\L_03580:
+	ZH 1:
+	'Merim「Rance... You said you would be gentle...」'
+	\L_03580:
+	ZH 1:
+	'Rance「I changed my mind.'
+	R
+	'      Men are prone to mood swings, you know.'
+	R
+	'      Nothing you can do about it.」'
+	\L_03580:
+	ZH 1:
+	'Merim「That’s usually attributed to women...」'
+	\L_03580:
+	ZH 1:
+	'Rance「Whatever, shut up.'
+	R
+	'      Take this!」'
+	\L_03580:
+	ZH 1:
+	'Rance took out his hyper weapon, hard just from'
+	R
+	'tying up Merim, and pushed it against her still dry'
+	R
+	'pussy.'
+	\L_03580:
+	ZH 1:
+	'Merim「Ra-... Wait a moment...」'
+	\L_03580:
+	ZH 1:
+	'Rance「Shut up, shut up.'
+	R
+	'      Taaaake this!!」'
+	\L_03580:
+	ZH 1:
+	'Rance swung his hips and rubbed his hyper weapon'
+	R
+	'against Merim’s pussy.'
+	\L_03580:
+	ZH 1:
+	'Merim「Hii... Hiin... No...」'
+	\L_03580:
+	ZH 1:
+	'Rance「Your mouth can complain as much as it wants,'
+	R
+	'      your lower mouth is still drooling.」'
+	\L_03580:
+	ZH 1:
+	'Merim「But...」'
+	\L_03580:
+	ZH 1:
+	'Rance「Heeeeeere goes!!」'
+	\L_03580:
+	ZH 1:
+	'Merim「Aah...!!」'
+	\L_03580:
+	ZH 1:
+	'Rance forced his way into Merim.'
+	\L_03580:
+	PF1 4:
+	PF0 4:
+	ZH 1:
+	'Rance「Haah... Haah...」'
+	\L_03580:
+	ZH 1:
+	'Merim「Hick... How cruel...」'
+	\L_03580:
+	ZH 1:
+	'Rance「You’re totally sopping here, as you’d expect'
+	R
+	'      after doing it three times.」'
+	\L_03580:
+	ZH 1:
+	'Merim「No... Don’t look...」'
+	\L_03580:
+	ZH 1:
+	'Rance（Ooh...）'
+	\L_03580:
+	ZH 1:
+	'Merim「Hick... Sob...」'
+	\L_03580:
+	ZH 1:
+	'Rance（Oooooooh...）'
+	\L_03580:
+	ZH 1:
+	'Rance grinned.'
+	\L_03580:
+	ZH 1:
+	'Rance「Alright, next is this.」'
+	\L_03580:
+	ZH 1:
+	'Rance opened the suitcase.'
+	\L_03580:
+	ZH 1:
+	'Merim「Hii...」'
+	\L_03580:
+	ZH 1:
+	'Rance「First, I’ll use a normal one.'
+	R
+	'      How about it?」'
+	\L_03580:
+	ZH 1:
+	'Merim「No... No...」'
+	\L_03580:
+	ZH 1:
+	'Rance「Complain all you want, I already decided to'
+	R
+	'      put it in. Now...」'
+	\L_03580:
+	ZH 1:
+	'Rance pushed Merim’s knees down on her upper body,'
+	R
+	'exposing her pussy that was drenched with both their'
+	R
+	'juices.'
+	\L_03580:
+	ZH 1:
+	'Merim「Stop... Ah... Aah!!」'
+	\L_03580:
+	ZH 1:
+	'Rance「Alright, it’s in...'
+	R
+	'      How is it?'
+	R
+	'　     Feel good?」'
+	\L_03580:
+	ZH 1:
+	'Merim「Ngh... Nngh...」'
+	\L_03580:
+	ZH 1:
+	'Merim sobbed quietly.'
+	\L_03580:
+	ZH 1:
+	'Rance「I see, so you like my cock more?'
+	R
+	'      Since it can do this!」'
+	\L_03580:
+	ZH 1:
+	'Rance grabbed the vibrator and violently moved it in'
+	R
+	'and out of Merim.'
+	\L_03580:
+	ZH 1:
+	'Merim「Aah!!」'
+	\L_03580:
+	ZH 1:
+	'Rance「Listen, Merim!'
+	R
+	'      To the sound of being fucked by a machine!!」'
+	\L_03580:
+	ZH 1:
+	'Rance intentionally made noise as he moved the'
+	R
+	'vibrator in and out.'
+	\L_03580:
+	ZH 1:
+	'Merim「Mm... No, no...!」'
+	\L_03580:
+	ZH 1:
+	'Merim shook her head.'
+	\L_03580:
+	ZH 1:
+	'Rance「By the way, you haven’t cummed yet, have you?'
+	R
+	'      I’ll make you cum like this!」'
+	\L_03580:
+	ZH 1:
+	'Rance focused on his hand that was holding the'
+	R
+	'vibrator.'
+	\L_03580:
+	ZH 1:
+	'He rubbed her clit. Her inner walls were stimulated'
+	R
+	'in a way that no human could stimulate them.'
+	\L_03580:
+	ZH 1:
+	'Merim「Mmmmmmm...!!'
+	R
+	'      Aaaah... Mm...!!」'
+	\L_03580:
+	ZH 1:
+	'Merim’s body twitched.'
+	\L_03580:
+	ZH 1:
+	'Rance「Gonna cum already?'
+	R
+	'      You want to cum, don’t you?」'
+	\L_03580:
+	ZH 1:
+	'Merim「...No...」'
+	\L_03580:
+	ZH 1:
+	'Merim just cried and cowered.'
+	\L_03580:
+	ZH 1:
+	'Rance「I see, so you want to cum?'
+	R
+	'      There, there, there!!」'
+	\L_03580:
+	ZH 1:
+	'Rance stimulated Merim’s sopping insides with the'
+	R
+	'vibrator even more.'
+	\L_03580:
+	ZH 1:
+	'Merim「Mm... Mmmmmm...!!」'
+	\L_03580:
+	ZH 1:
+	'Merim’s body trembled hard and spat out the'
+	R
+	'vibrator.'
+	\L_03580:
+	PF1 VAR0056:
+	\L_03573:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	PF0 VAR0056:
+	!VAR0516 : 1002!
+	\L_03557:
+	!VAR0516 : 1!
+	\L_034af:
+	!VAR0516 : 63!
+	\L_0351f:
+	\L_0345b:
+	ZH 1:
+	'Haah... That was pretty'
+	R
+	'satisfying.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Hick...'
+	R
+	'Rance... That was too much...'
+	R
+	'And you said you would be'
+	R
+	'gentle...'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'That was the plan, but...'
+	R
+	'What happened??'
+	\L_03580:
+	ZH 1:
+	'It’s definitely because you'
+	R
+	'made a face just asking to be'
+	R
+	'abused. That settles'
+	R
+	'everything. Gahahahahahahaha.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Hick... So mean...'
+	\L_03580:
+	\L_03573:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_01cf0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1002!
+	\L_03557:
+	!VAR0516 : 1!
+	\L_034af:
+	\L_03493:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	' 　　Rance’s Bedroom'
+	\L_03580:
+	\L_03573:
+	!VAR0516 : 63!
+	\L_0351f:
+	\L_034cb:
+	ZH 1:
+	'Um... Good evening...'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Oh, there you are.'
+	R
+	'Get over here.'
+	\L_03580:
+	\L_03573:
+	\L_03477:
+	ZH 1:
+	'............'
+	\L_03580:
+	ZH 1:
+	'Maybe I should be gentle this'
+	R
+	'time...'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Rance?'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Alright, Merim.'
+	R
+	'Today I’ll actually be gentle.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'............'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Why’re you looking at me like'
+	R
+	'that?'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Because you’re just saying'
+	R
+	'that...'
+	\L_03580:
+	\L_03573:
+	\L_03503:
+	ZH 1:
+	'Merim made pouting eyes.'
+	\L_03580:
+	\L_03573:
+	\L_03477:
+	ZH 1:
+	'Oooh...'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'In that case...'
+	R
+	'You should just say you’ll be'
+	R
+	'rough from the start...'
+	\L_03580:
+	\L_03573:
+	\L_03477:
+	ZH 1:
+	'Oooooooh...'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'That way... I...'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Hey, enough talking!'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Huh...?'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'You call for abuse, so I’ll'
+	R
+	'give you abuse!!'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Kyaah...!'
+	\L_03580:
+	\L_03573:
+	PF1 VAR0056:
+	SS 0:
+	G 806:
+	G 171:
+	SS 24:
+	\L_0353b:
+	ZH 1:
+	'Rance「Alright!!'
+	R
+	'      You’re as tight as usual, Merim!」'
+	PF0 VAR0056:
+	\L_03580:
+	ZH 1:
+	'Merim「Mm... Mmm...!!」'
+	\L_03580:
+	ZH 1:
+	'Rance handcuffed Merim and was deep inside her.'
+	\L_03580:
+	ZH 1:
+	'Rance「Kh... Gonna cum, Merim!!」'
+	\L_03580:
+	ZH 1:
+	'Rance「Take this!!」'
+	\L_03580:
+	ZH 1:
+	'Rance raised Merim’s ass high and poured his seed'
+	R
+	'inside her.'
+	\L_03580:
+	ZH 1:
+	'Merim「Uu... Ack...」'
+	\L_03580:
+	ZH 1:
+	'Rance「Hah～～～...」'
+	\L_03580:
+	ZH 1:
+	'After the third orgasm, Rance lay next to Merim, who'
+	R
+	'was completely exhausted, and gave a satisfied sigh.'
+	\L_03580:
+	ZH 1:
+	'Rance「Now, maybe this next.」'
+	\L_03580:
+	ZH 1:
+	'Merim「Huh...? I can’t take anymore...」'
+	\L_03580:
+	ZH 1:
+	'Merim shook her head in refusal, but Rance excitedly'
+	R
+	'took out the suitcase with vibrators in it.'
+	\L_03580:
+	ZH 1:
+	'Rance「Hmhmhmmmmmm.」'
+	\L_03580:
+	ZH 1:
+	'Merim「No... Rance... I can’t...」'
+	\L_03580:
+	ZH 1:
+	'Rance「Now...」'
+	\L_03580:
+	ZH 1:
+	'Rance「Alright, this one!!」'
+	\L_03580:
+	{VAR0419 = 2:
+*L_0206c:
+		ZH 1:
+		'Rance「Standard ones are the best turn-ons, I think.」'
+		\L_03580:
+		ZH 1:
+		'Merim「Rance... Stop...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Shut up.'
+		R
+		'      I’m on a pursuit right now.」'
+		\L_03580:
+		ZH 1:
+		'Rance stroked Merim’s ass, and...'
+		\L_03580:
+		ZH 1:
+		'Merim「Aah...!!」'
+		\L_03580:
+		ZH 1:
+		'He put the vibrator in Merim.'
+		\L_03580:
+		ZH 1:
+		'Rance「Mmgh... Merim.'
+		R
+		'      Your pussy lips are twitching.'
+		R
+		'      Does it feel good?」'
+		\L_03580:
+		ZH 1:
+		'Merim「Uu... Hick...'
+		R
+		'      ...No... Please take it out...」'
+		\L_03580:
+		ZH 1:
+		'Rance「I see, so you want it deeper?」'
+		\L_03580:
+		ZH 1:
+		'Rance pushed the vibrator in as far as it would go.'
+		\L_03580:
+		ZH 1:
+		'Merim「Aaaah...!!」'
+		\L_03580:
+		ZH 1:
+		'Rance「Alright, that’s good. Switch, ON!」'
+		\L_03580:
+		ZH 1:
+		'　　＜bzzzz...＞'
+		\L_03580:
+		ZH 1:
+		'Rance hit the switch on the vibrator.'
+		\L_03580:
+		ZH 1:
+		'Merim「Ack...!」'
+		\L_03580:
+		ZH 1:
+		'Merim groaned loudly.'
+		\L_03580:
+		ZH 1:
+		'Rance「How is it?'
+		R
+		'      Does it feel better than when I just put it'
+		R
+		'      in?」'
+		\L_03580:
+		ZH 1:
+		'Merim「No... I don’t like this...」'
+		\L_03580:
+		ZH 1:
+		'Rance「But Merim, your pussy’s reacting to this thing'
+		R
+		'      raging inside you by twitching...」'
+		\L_03580:
+		ZH 1:
+		'Merim「Mm!!」'
+		\L_03580:
+		ZH 1:
+		'Rance ran his finger over Merim’s pussy.'
+		\L_03580:
+		ZH 1:
+		'Rance「Why are you reacting like this if you don’t'
+		R
+		'      like it so much, I wonder?」'
+		\L_03580:
+		ZH 1:
+		'Merim「I... don’t know...'
+		R
+		'      I... I don’t like it...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Alright, next I’ll try grinding it against'
+		R
+		'      you.」'
+		\L_03580:
+		ZH 1:
+		'Rance grabbed the vibrator and stirred it around,'
+		R
+		'against her walls.'
+		\L_03580:
+		ZH 1:
+		'Merim「Aaaah...!」'
+		\L_03580:
+		ZH 1:
+		'Rance「Ooh, this seems good.'
+		R
+		'      Just hearing your voice made me hard again,'
+		R
+		'      Merim.」'
+		\L_03580:
+		ZH 1:
+		'Merim「Uu...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Alright, grab this.」'
+		\L_03580:
+		ZH 1:
+		'Rance made Merim grab his cock.'
+		\L_03580:
+		ZH 1:
+		'Rance「Good girl, Merim.'
+		R
+		'      Treat my cock kindly.」'
+		\L_03580:
+		ZH 1:
+		'Then he took the vibrator that was inside Merim and'
+		R
+		'started to slowly caress her insides with it.'
+		\L_03580:
+		ZH 1:
+		'Merim「Mm...!!」'
+		\L_03580:
+		ZH 1:
+		'Rance「Your hand isn’t doing anything.」'
+		\L_03580:
+		ZH 1:
+		'Merim「Kh... Ngh...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Alright... Good girl, here.」'
+		\L_03580:
+		ZH 1:
+		'Rance rotated the vibrator inside her.'
+		\L_03580:
+		ZH 1:
+		'Merim「Mmmmmm...!!」'
+		\L_03580:
+		ZH 1:
+		'Merim「Ah... Ah... Aaaaaah...!!」'
+		\L_03580:
+		{VAR0520 = 301:
+			%0:
+		}
+		ZH 1:
+		'Merim had no opportunity to caress Rance’s cock as'
+		R
+		'she orgasmed.'
+		\L_03580:
+	}
+	{VAR0419 = 3:
+		ZH 1:
+		'Rance「I’ll try one a little bigger than standard'
+		R
+		'      today.」'
+		\L_03580:
+		ZH 1:
+		'Rance excitedly took out one that was a little'
+		R
+		'thick.'
+		\L_03580:
+		ZH 1:
+		'Rance「Ooh, this one has a part for stimulating the'
+		R
+		'      clit. Pretty fancy, huh, Merim?」'
+		\L_03580:
+		ZH 1:
+		'Merim「Mmm～...!」'
+		\L_03580:
+		ZH 1:
+		'Merim shook her head, in a way that could indicate'
+		R
+		'nothing but disagreement.'
+		\L_03580:
+		ZH 1:
+		'Rance「I see, so you think so too?'
+		R
+		'      Then I’ll use this...」'
+		\L_03580:
+		ZH 1:
+		'Rance took out a small bottle.'
+		\L_03580:
+		ZH 1:
+		'Rance「I’ll try smearing this on you and putting it'
+		R
+		'      in.」'
+		\L_03580:
+		ZH 1:
+		'Rance「...Looking at this vibrator closely, it’s'
+		R
+		'      about the size of my hyper weapon.'
+		R
+		'      You glad, Merim?」'
+		\L_03580:
+		ZH 1:
+		'Merim「Uu... Uuuuu...」'
+		\L_03580:
+		ZH 1:
+		'Rance「I see, I see.'
+		R
+		'      If you enjoy it that much, it makes me feel'
+		R
+		'      like my abuse is worth it.」'
+		\L_03580:
+		ZH 1:
+		'Merim「That’s not...」'
+		\L_03580:
+		ZH 1:
+		'Rance「There...」'
+		\L_03580:
+		ZH 1:
+		'Rance poured the syrupy liquid from the small'
+		R
+		'bottle into Merim.'
+		\L_03580:
+		ZH 1:
+		'Merim「Ah...!!」'
+		\L_03580:
+		ZH 1:
+		'It absorbed into Merim’s mucous membrane, and her'
+		R
+		'body immediately showed signs of change.'
+		\L_03580:
+		ZH 1:
+		'Rance「Huhuhu.'
+		R
+		'      You’re overflowing.」'
+		\L_03580:
+		ZH 1:
+		'Merim「N-No... I feel hot... Ah...」'
+		\L_03580:
+		ZH 1:
+		'Merim wrenched her body.'
+		\L_03580:
+		ZH 1:
+		'Rance「Want me to put it in?」'
+		\L_03580:
+		ZH 1:
+		'Merim「Uu...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Then ask me to put it in.」'
+		\L_03580:
+		ZH 1:
+		'Rance waggled the vibrator around in front of Merim.'
+		\L_03580:
+		ZH 1:
+		'Merim「...Put...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Nnaah?」'
+		\L_03580:
+		ZH 1:
+		'Merim「Put it in... Please...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Well, I dunno...」'
+		\L_03580:
+		ZH 1:
+		'Rance prodded the vibrator against Merim’s pussy,'
+		R
+		'and...'
+		\L_03580:
+		ZH 1:
+		'Rance「There!!」'
+		\L_03580:
+		ZH 1:
+		'Merim「Aah!!」'
+		\L_03580:
+		ZH 1:
+		'He violently thrust it into Merim.'
+		\L_03580:
+		ZH 1:
+		'Merim「...Ah...」'
+		\L_03580:
+		ZH 1:
+		'Rance「What, did you cum just like that?'
+		R
+		'      That’s boring.」'
+		\L_03580:
+		ZH 1:
+		'Next he hit the switch.'
+		\L_03580:
+		ZH 1:
+		'Merim「Aaah!!」'
+		\L_03580:
+		ZH 1:
+		'Merim’s hard clit and her insides were assaulted at'
+		R
+		'once.'
+		\L_03580:
+		ZH 1:
+		'Rance「Does it feel good?」'
+		\L_03580:
+		ZH 1:
+		'Merim「Uu... Uuu...」'
+		\L_03580:
+		ZH 1:
+		'Rance「I’ll move it, then.」'
+		\L_03580:
+		ZH 1:
+		'Merim「No... If you do that...'
+		R
+		'      Ah... Uu... Aaaaaah!」'
+		\L_03580:
+		ZH 1:
+		'Merim「No... Mmm... Uu...」'
+		\L_03580:
+		ZH 1:
+		'Merim「Mmmmmmmmm...!!」'
+		\L_03580:
+		ZH 1:
+		'Merim’s fingers and toes tensed, and her whole body'
+		R
+		'shuddered hard.'
+		\L_03580:
+	}
+	{VAR0419 = 4:
+		ZH 1:
+		'Rance「I’ll try this one with all the bumps on it.」'
+		\L_03580:
+		ZH 1:
+		'Rance took out the vibrator that had pearls embedded'
+		R
+		'in the shaft.'
+		\L_03580:
+		ZH 1:
+		'Merim「No... Stop...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Stop, you say?」'
+		\L_03580:
+		ZH 1:
+		'Rance「Is it an inherent trait of yours as a girl'
+		R
+		'      that draws abuse that makes me want to do it'
+		R
+		'      more when you say that?」'
+		\L_03580:
+		ZH 1:
+		'Rance grinned vulgarly.'
+		\L_03580:
+		ZH 1:
+		'Merim「Rance...!」'
+		\L_03580:
+		ZH 1:
+		'Rance「Now, experiment time!」'
+		\L_03580:
+		ZH 1:
+		'Merim「Ah!!」'
+		\L_03580:
+		ZH 1:
+		'Rance made Merim do a handstand and forced her legs'
+		R
+		'open.'
+		\L_03580:
+		ZH 1:
+		'Merim「Nooo...!!」'
+		\L_03580:
+		ZH 1:
+		'Through her legs, her breasts and red, flushed'
+		R
+		'cheeks were visible.'
+		\L_03580:
+		ZH 1:
+		'Rance「This is a sexy position...'
+		R
+		'　　　　　I’ll make it look even better!」'
+		\L_03580:
+		ZH 1:
+		'Merim「Aah...!!」'
+		\L_03580:
+		ZH 1:
+		'Rance rammed the bumpy vibrator into Merim.'
+		\L_03580:
+		ZH 1:
+		'Merim「Uu... Uuu...」'
+		\L_03580:
+		ZH 1:
+		'Rance「How is it?'
+		R
+		'      Do the bumps feel good?」'
+		\L_03580:
+		ZH 1:
+		'Merim「No... No...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Don’t like it?'
+		R
+		'      I see, I see.」'
+		\L_03580:
+		ZH 1:
+		'Rance hit the switch on the vibrator.'
+		\L_03580:
+		ZH 1:
+		'Merim「Kh!!」'
+		\L_03580:
+		ZH 1:
+		'Merim’s body jumped like it was jolted by'
+		R
+		'electricity.'
+		\L_03580:
+		ZH 1:
+		'Rance「How’s that?'
+		R
+		'      Feel good?」'
+		\L_03580:
+		ZH 1:
+		'Merim「No... Please turn it off...」'
+		\L_03580:
+		ZH 1:
+		'Rance「If you tell me what it feels like, then I’ll'
+		R
+		'      turn it off.」'
+		\L_03580:
+		ZH 1:
+		'Merim「Uu...」'
+		\L_03580:
+		ZH 1:
+		'Merim「It hurts...'
+		R
+		'      And... The motor is whirring inside me...」'
+		\L_03580:
+		ZH 1:
+		'Rance「It just hurts?」'
+		\L_03580:
+		ZH 1:
+		'Merim「...Yes...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Liar.」'
+		\L_03580:
+		ZH 1:
+		'Rance sporadically moved the mechanically moving'
+		R
+		'vibrator.'
+		\L_03580:
+		ZH 1:
+		'Merim「Aah!!」'
+		\L_03580:
+		ZH 1:
+		'Rance「You’ve gotten so wet and you’re shaking so'
+		R
+		'      much that you can’t just be in pain.'
+		R
+		'      Now be honest.」'
+		\L_03580:
+		ZH 1:
+		'Merim「Uu...」'
+		\L_03580:
+		ZH 1:
+		'Merim「It hurts... But... It feels good...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Alright, here’s your reward.」'
+		\L_03580:
+		ZH 1:
+		'Rance started thrusting the vibrator deep inside her'
+		R
+		'and quickly pulling it back in a piston motion.'
+		\L_03580:
+		ZH 1:
+		'Merim「Mmmm!!」'
+		\L_03580:
+		ZH 1:
+		'Her red clit was rubbed by the bumps.'
+		\L_03580:
+		ZH 1:
+		'Merim「Ah, ah... Ah, ah... Hah...」'
+		\L_03580:
+		ZH 1:
+		'Merim「Mmmm...!」'
+		\L_03580:
+		ZH 1:
+		'Merim orgasmed in an instant.'
+		\L_03580:
+	}
+	{VAR0419 = 5:
+		ZH 1:
+		'Rance「What’s this...?'
+		R
+		'      It’s skinnier than the others.」'
+		\L_03580:
+		ZH 1:
+		'Rance took out a black vibrator and stared at it.'
+		\L_03580:
+		ZH 1:
+		'Merim「That’s... for anal...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Aaaaaaaah...nal.」'
+		\L_03580:
+		ZH 1:
+		'Merim「............」'
+		\L_03580:
+		ZH 1:
+		'Rance「D-Don’t look at me like that!!'
+		R
+		'      But why do you know what this is for, Merim?」'
+		\L_03580:
+		ZH 1:
+		'Merim「...Mr. Bicci...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Aah, I see.'
+		R
+		'      So he used one on you?」'
+		\L_03580:
+		ZH 1:
+		'Merim「...Yes...」'
+		\L_03580:
+		ZH 1:
+		'Rance（That kind of pisses me off...）'
+		\L_03580:
+		ZH 1:
+		'Rance「Merim.'
+		R
+		'      I’m gonna use this on you today.」'
+		\L_03580:
+		ZH 1:
+		'Merim「Huh...? No...'
+		R
+		'      That’s...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Too bad.'
+		R
+		'      Uuuuuuuuh... Like this?」'
+		\L_03580:
+		ZH 1:
+		'Merim「Nooooo...!!」'
+		\L_03580:
+		ZH 1:
+		'Rance put the vibrator in Merim’s anus. Thanks to'
+		R
+		'the juices that flowed down from her pussy, it'
+		R
+		'entered her rectum with little resistance.'
+		\L_03580:
+		ZH 1:
+		'Rance「Hm... There’s sort of a different appeal to'
+		R
+		'      putting something in here.'
+		R
+		'      How is it, Merim?」'
+		\L_03580:
+		ZH 1:
+		'Merim「Uu... Sob... I don’t like it...'
+		R
+		'      Please take it out...」'
+		\L_03580:
+		ZH 1:
+		'Rance「What if I did this...?」'
+		\L_03580:
+		ZH 1:
+		'Rance tried moving the vibrator.'
+		\L_03580:
+		ZH 1:
+		'Merim「Aah!!」'
+		\L_03580:
+		ZH 1:
+		'Merim groaned. Whether it was from pleasure or not'
+		R
+		'was unknown.'
+		\L_03580:
+		ZH 1:
+		'Rance「Hmmmmm... I’ll do this, then.」'
+		\L_03580:
+		ZH 1:
+		'Rance hit the switch on the vibrator.'
+		\L_03580:
+		ZH 1:
+		'Merim「Aah!!」'
+		\L_03580:
+		ZH 1:
+		'Merim’s body jumped in shock.'
+		\L_03580:
+		ZH 1:
+		'Rance「Does it feel good?」'
+		\L_03580:
+		ZH 1:
+		'Merim「N-No...」'
+		\L_03580:
+		ZH 1:
+		'Rance「That’s lame... How about this, then!?」'
+		\L_03580:
+		ZH 1:
+		'Merim「Ah!!」'
+		\L_03580:
+		ZH 1:
+		'Rance raised Merim’s ass high with the vibrator'
+		R
+		'still stuck in it.'
+		R
+		'It faced the ceiling.'
+		\L_03580:
+		ZH 1:
+		'Merim「Kyaah...!!」'
+		\L_03580:
+		ZH 1:
+		'Rance「There!!」'
+		\L_03580:
+		ZH 1:
+		'Rance aimed and put his hyper weapon in her pussy.'
+		\L_03580:
+		ZH 1:
+		'Merim「!!」'
+		\L_03580:
+		ZH 1:
+		'Merim’s body shuddered from the surprise.'
+		\L_03580:
+		ZH 1:
+		'Rance「Ooh... I can feel the vibrating through your'
+		R
+		'      flesh, Merim...」'
+		\L_03580:
+		ZH 1:
+		'Merim「No... No... It hurts...!」'
+		\L_03580:
+		ZH 1:
+		'Rance「What? We’re just getting started!」'
+		\L_03580:
+		ZH 1:
+		'Rance started pistoning the anal vibrator while'
+		R
+		'violently piercing her insides.'
+		\L_03580:
+		ZH 1:
+		'Merim「Aaaah!!」'
+		\L_03580:
+		ZH 1:
+		'Rance「Ooh, this is pretty good...」'
+		\L_03580:
+		ZH 1:
+		'Rance grinned, then started to more vigorously enjoy'
+		R
+		'his hyper weapon inside her and the vibrator.'
+		\L_03580:
+		ZH 1:
+		'Merim「Ah... Ack... Ah... Ah!!」'
+		\L_03580:
+		ZH 1:
+		'Merim endured the incomprehensible assault.'
+		\L_03580:
+		ZH 1:
+		'Rance「Kh... Gonna cum.」'
+		\L_03580:
+		ZH 1:
+		'Rance climaxed inside Merim.'
+		\L_03580:
+	}
+	{VAR0419 = 6:
+		ZH 1:
+		'Rance「I wonder if this’ll fit.」'
+		\L_03580:
+		ZH 1:
+		'Rance took out the second biggest vibrator.'
+		\L_03580:
+		ZH 1:
+		'Merim「That’s...!」'
+		\L_03580:
+		ZH 1:
+		'Rance「Then I’ll put it in... Go!」'
+		\L_03580:
+		ZH 1:
+		'Merim「O-Ow...!!」'
+		\L_03580:
+		ZH 1:
+		'Rance pushed the tip of the vibrator into her pussy.'
+		R
+		'It was contorted into a shape he’d never seen'
+		R
+		'before.'
+		\L_03580:
+		ZH 1:
+		'Rance「Ooh... Wow.」'
+		\L_03580:
+		ZH 1:
+		'Merim「Stop, it hurts... Stop...」'
+		\L_03580:
+		ZH 1:
+		'Rance「No, not yet.'
+		R
+		'      I can get more in there.」'
+		\L_03580:
+		ZH 1:
+		'Merim「Ack!!」'
+		\L_03580:
+		ZH 1:
+		'Rance sank more of the vibrator into Merim.'
+		\L_03580:
+		ZH 1:
+		'Rance「Owah!」'
+		\L_03580:
+		ZH 1:
+		'The vibrator passed the frame of Merim’s pussy and'
+		R
+		'got swallowed up by her stomach in an instant.'
+		\L_03580:
+		ZH 1:
+		'Merim「Kh... Kkkkh...!」'
+		\L_03580:
+		ZH 1:
+		'Rance「Look, Merim.'
+		R
+		'      Your stomach’s all puffed up due to this'
+		R
+		'      thing inside you.」'
+		\L_03580:
+		ZH 1:
+		'Merim「Nooooo...」'
+		\L_03580:
+		ZH 1:
+		'Rance「How’s it look?」'
+		\L_03580:
+		ZH 1:
+		'When he looked, he saw her pussy spread so much that'
+		R
+		'the rim looked like it would tear.'
+		\L_03580:
+		ZH 1:
+		'Rance（Looks like it’s be hard to move it around...）'
+		\L_03580:
+		ZH 1:
+		'Merim「Don’t... Don’t look!」'
+		\L_03580:
+		ZH 1:
+		'Rance「Hmmmm... This is a bit boring.」'
+		\L_03580:
+		ZH 1:
+		'Rance flicked Merim’s hard clit.'
+		\L_03580:
+		ZH 1:
+		'Merim「Mm...!!」'
+		\L_03580:
+		ZH 1:
+		'Merim let out a sweet moan.'
+		\L_03580:
+		ZH 1:
+		'Rance「Hm?」'
+		\L_03580:
+		ZH 1:
+		'Rance did it again.'
+		\L_03580:
+		ZH 1:
+		'Merim「Ah...!」'
+		\L_03580:
+		ZH 1:
+		'Merim was undeniably moaning loudly.'
+		\L_03580:
+		ZH 1:
+		'Rance「I see... So this feels good?」'
+		\L_03580:
+		ZH 1:
+		'Rance flicked her clit a bit harder.'
+		\L_03580:
+		ZH 1:
+		'Merim「Kkh!!」'
+		\L_03580:
+		ZH 1:
+		'Rance「Wahahaha, this is fun.」'
+		\L_03580:
+		ZH 1:
+		'Rance flicked even harder.'
+		\L_03580:
+		ZH 1:
+		'Merim「Ah... Ahn... Mm... Ah...!」'
+		\L_03580:
+		ZH 1:
+		'No sooner did Merim’s hips start twitching than...'
+		\L_03580:
+		ZH 1:
+		'Merim「Mm... Ah!!」'
+		\L_03580:
+		ZH 1:
+		'She orgasmed.'
+		\L_03580:
+	}
+	{VAR0419 = 7:
+		ZH 1:
+		'Rance「Will this fit?」'
+		\L_03580:
+		ZH 1:
+		'Rance took out the biggest vibrator.'
+		\L_03580:
+		ZH 1:
+		'Merim「No!!'
+		R
+		'      It can’t... There’s no way!」'
+		\L_03580:
+		ZH 1:
+		'Rance「Well.'
+		R
+		'      Won’t know if we don’t try.」'
+		\L_03580:
+		ZH 1:
+		'Merim「It’s impossible... No... Nooo!!'
+		R
+		'      I’m gonna break!!」'
+		\L_03580:
+		ZH 1:
+		'Rance「Whoa... Not even the thin part at the tip will'
+		R
+		'      go in.'
+		R
+		'      ...Take this!」'
+		\L_03580:
+		ZH 1:
+		'Rance put some strength into it in an effort to get'
+		R
+		'the vibrator in.'
+		\L_03580:
+		ZH 1:
+		'Merim「Ooooooow!!」'
+		\L_03580:
+		ZH 1:
+		'Rance「Haah... Maybe you aren’t wet enough...」'
+		\L_03580:
+		ZH 1:
+		'Rance set the vibrator down, forced Merim’s legs'
+		R
+		'open and thrust his face in between them.'
+		\L_03580:
+		ZH 1:
+		'Rance「Ngh... Bleeeh!! Now that I think of it, I came'
+		R
+		'      in here a ton already, so it’s all sticky with'
+		R
+		'      my stuff!」'
+		\L_03580:
+		ZH 1:
+		'Rance「Bleh, blargh!'
+		R
+		'      It’d be fine if it was just a girl’s juices,'
+		R
+		'      but I licked my own... Uu...」'
+		\L_03580:
+		ZH 1:
+		'Merim「Stop... Stop...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Well, if it’s come to this, I have to get it'
+		R
+		'      in at any cost...」'
+		\L_03580:
+		ZH 1:
+		'Merim「Nooooo!!!」'
+		\L_03580:
+		ZH 1:
+		R
+		'.........'
+		\L_03580:
+		ZH 1:
+		R
+		'......'
+		\L_03580:
+		ZH 1:
+		R
+		'...'
+		\L_03580:
+		ZH 1:
+		'Merim「Uu... Hick... Hick...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Hmmmm... Maybe there really is no way to get'
+		R
+		'      it in...」'
+		\L_03580:
+		ZH 1:
+		'Rance stared at the extra-large vibrator in his'
+		R
+		'hand.'
+		\L_03580:
+		ZH 1:
+		'Rance「Maybe all I can do with this is rub with it.」'
+		\L_03580:
+		ZH 1:
+		'Rance placed it on her crotch and started slowly'
+		R
+		'rubbing it against her pussy.'
+		\L_03580:
+		ZH 1:
+		'Merim「Ah...!」'
+		\L_03580:
+		ZH 1:
+		'Rance「Hm...?」'
+		\L_03580:
+		ZH 1:
+		'Rance continued the erotic rubbing motion.'
+		\L_03580:
+		ZH 1:
+		'Merim「Ah...」'
+		\L_03580:
+		ZH 1:
+		'Rance「...Does it feel good?」'
+		\L_03580:
+		ZH 1:
+		'Merim「M-More than trying to force it in...」'
+		\L_03580:
+		ZH 1:
+		'Rance「I see.」'
+		\L_03580:
+		ZH 1:
+		'Rance started to slowly, slowly tease Merim’s clit'
+		R
+		'with the vibrator.'
+		\L_03580:
+		ZH 1:
+		'Merim「Ah... Ahn...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Doesn’t seem to be any other way to use'
+		R
+		'      this...」'
+		\L_03580:
+		ZH 1:
+		'Merim「Ah...」'
+		\L_03580:
+		ZH 1:
+		'Rance「Lame... Enough of this.」'
+		\L_03580:
+		ZH 1:
+		'Rance tossed the extra-large vibrator away.'
+		\L_03580:
+	}
+	{VAR0419 \ 8:
+		!VAR0419 : VAR0419 + 1!
+	}
+	{VAR0419 = 8:
+		!VAR0419 : 2!
+	}
+	ZH 1:
+	'Rance「Maybe we’ll leave it here for today.」'
+	\L_03580:
+	ZH 1:
+	'Merim「Ah... Then can you take off the handcuffs?」'
+	\L_03580:
+	ZH 1:
+	'Rance「At least, I was going to, but...」'
+	\L_03580:
+	ZH 1:
+	'Rance「I’ll give you one more round as a finale!!'
+	R
+	'      Go!!」'
+	\L_03580:
+	ZH 1:
+	'Rance spread Merim’s legs and rammed his already'
+	R
+	'hard hyper weapon in.'
+	\L_03580:
+	ZH 1:
+	'Merim「Aaaaah...!!」'
+	\L_03580:
+	PF1 VAR0056:
+	\L_03573:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	PF0 VAR0056:
+	!VAR0516 : 1002!
+	\L_03557:
+	!VAR0516 : 1!
+	\L_034af:
+	!VAR0516 : 63!
+	\L_0351f:
+	\L_03493:
+	ZH 1:
+	'Rance and Merim were lying on'
+	R
+	'the bed.'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Hwah～, that was satisfying.'
+	R
+	'Right, Merim?'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'............'
+	\L_03580:
+	ZH 1:
+	'Ah... Um...'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'What?'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Rance... I don’t...'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'What, do you not like this?'
+	\L_03580:
+	\L_03573:
+	\L_03503:
+	ZH 1:
+	'Merim nodded silently.'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Then...'
+	\L_03580:
+	ZH 1:
+	'What could I do that you would'
+	R
+	'like?'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Huh...?!'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'If there’s something you don’t'
+	R
+	'like, there must be something'
+	R
+	'you do like, too.'
+	R
+	'Now tell me.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'But...'
+	\L_03580:
+	\L_03573:
+	\L_03503:
+	ZH 1:
+	'Merim gripped the sheets and'
+	R
+	'hid her face in them.'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'Come on, tell me.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'I... I...'
+	\L_03580:
+	\L_03573:
+	\L_0345b:
+	ZH 1:
+	'If you can’t, then I’ll keep'
+	R
+	'doing this. Gahahahahaha.'
+	\L_03580:
+	\L_03573:
+	\L_034cb:
+	ZH 1:
+	'Uu... Uuuuuu...'
+	\L_03580:
+	\L_03573:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0345b:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03477:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03493:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_034af:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+*L_034bd:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_034cb:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+*L_034e7:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03503:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0351f:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0352d:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0353b:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03557:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03573:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03580:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

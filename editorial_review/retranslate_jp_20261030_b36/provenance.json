@@ -1,0 +1,28 @@
+{
+  "semantic_base": "Verified original Japanese; English reference only",
+  "verified_source_provenance_sha256": "9282664cf553185e695a9490bd8e0a3dce1876ba2ece7df0bb398a64ceb6577e",
+  "sources": {
+    "Gﾚﾘｭｰｺﾌ.ADV": {
+      "japanese_sha256": "5b8df760d2abc2a10753ef52c1d8c091c086f47e96ee998265a5034f7e74a0f3",
+      "normalized_sha256": "3d7a6bcec041e8d475a111bf1c9731bc44a940bff6c0c574d44d57f4bd3775a8",
+      "english_reference_sha256": "e714efdade11655a41f4f3af273df9c5ec90e769530e2e01ca15185f8296e025"
+    },
+    "Gﾊｳﾚｰﾝ.ADV": {
+      "japanese_sha256": "0b4174a549b5a04fe23c4b811b8d60be7911f1e0b41e1c3af5a7f825714090f8",
+      "normalized_sha256": "5363f8cd45200e4c7bd42e781fc56803e599cd12faa19aeefddb369d53b73e58",
+      "english_reference_sha256": "765c0dc5c5d4eb826b9483eea84c9fcdf4ab6480c4e7e5ab1cc197652dac49be"
+    }
+  },
+  "rules_sha256": "84f0bcc969eada57b3427bada0934c07f44433e22adcb5a71d860cb91006da05",
+  "wrapper_sha256": "1ad5bd0081d5623dea48f407da7bbb85f3eb869ba487cd7532b8748715add124",
+  "method": "Direct handwritten corrections after reading full Lelyukov scenes and all branches. Explicit merged-source mappings and speaker labels; faithful previous manual text retained. Haurein remainder boundary screening only and frozen. No MT/bulk-pronoun pipeline.",
+  "decisions": [
+    "Lelyukov uses lão phu in resistance/captivity, lão thần to the monarch after submission and to Sheila, cha/con with Amiran; Rance ta/lão in contempt. Preserve scene-specific registers rather than global pronoun replacement.",
+    "Restore wish to see Amiran safe; source names and established Lelyukov Berkov romanization retained. Archgrad is explicitly a planned city.",
+    "Lelyukov is speaker of quân kỷ warning inside merged soldier group137; explicit label added. Hèn hạ likewise attributed to Lelyukov in merged Rance group60.",
+    "Stesselうらなり means weak/pasty here; use yếu ớt, not feminizing ẻo lả. Restore gather/lead nuance and coherent clauses across waits.",
+    "Narration explicitly says10 men despite general plus10 soldiers; preserve source wording and gameplay counts. Rance stair/ghost pun retains current Vietnamese cầu thang/cầu hồn adaptation.",
+    "All original prisoner options, return-to-menu behavior, flags and execution/death counts retained. Haurein entire script byte-identical."
+  ],
+  "english_reference_consulted": "Lelyukov capture assessment and prisoner outcomes; Japanese primary."
+}

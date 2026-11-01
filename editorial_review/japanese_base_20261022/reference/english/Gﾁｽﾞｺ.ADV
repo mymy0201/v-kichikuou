@@ -1,0 +1,5641 @@
+	{VAR0520 = 1:
+		@L_030ed:
+	}
+	{VAR0520 = 2:
+		@L_03ea1:
+	}
+	{VAR0520 = 3:
+		@L_04b8f:
+	}
+	{VAR0520 = 4:
+		@L_05900:
+	}
+	{VAR0520 = 5:
+		@L_05a8b:
+	}
+	{VAR0520 = 6:
+		@L_00135:
+	}
+	{VAR0520 = 10:
+		@L_00117:
+	}
+	{VAR0520 = 20:
+		@L_000ea:
+	}
+	{VAR0520 = 300:
+		@L_024b6:
+	}
+	{VAR0520 = 301:
+		@L_02d47:
+	}
+*L_000ea:
+	{VAR0320 = 6:
+		@L_008fb:
+	}
+	{VAR0320 = 5:
+		@L_00d19:
+	}
+	@L_0129a:
+*L_00117:
+	!VAR0248 : 4!
+	{VAR0320 = 3:
+		@L_015c9:
+	}
+	@L_0217a:
+*L_00135:
+	!VAR0158 : 68!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 1!
+	%#M.ADV:
+	!VAR0043 : VAR0045!
+	!VAR0044 : VAR0046!
+	!VAR0516 : 10!
+	%#M.ADV:
+	MM 8, VAR0200 + VAR0158 - 1:
+	!VAR0516 : VAR0135!
+	\L_062d6:
+	!VAR0516 : 43!
+	\L_0622e:
+	\L_06212:
+	ZM 32:
+	ZH 1:
+	'　　　　Zeth'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Chizuko’s Tower - Command Room'
+	\L_062ff:
+	\L_062f2:
+	{(VAR0650 = 8) + (VAR0650 = 9):
+		\L_061da:
+		ZH 1:
+		'Haah...'
+		R
+		'HaaaaaAAAAaaaahhh...'
+		\L_062ff:
+		\L_062f2:
+		!VAR0516 : 478!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'Lord Chizuko... Lord Chizuko!'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Huh?'
+		R
+		'Oh, yes, haah...'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Please get a hold of'
+		R
+		'yourself...'
+		R
+		'We want permission to sortie.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Aah... Sortie?'
+		R
+		'...Okay, go ahead...'
+		R
+		'Do what you think is best.'
+		\L_062ff:
+		ZH 1:
+		'If you see King Gandhi...'
+		R
+		'Uu, if you see him...'
+		R
+		'...Uuu...'
+		\L_062ff:
+		ZH 1:
+		'Please... Deliver my message'
+		R
+		'to him... Uuuu...'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Haah... Understood.'
+		R
+		'We’ll depart, then.'
+		\L_062ff:
+		\L_062f2:
+		\L_06212:
+		ZH 1:
+		'Chizuko’s subordinate left the'
+		R
+		'command room with a troubled'
+		R
+		'look on her face.'
+		\L_062ff:
+		\L_062f2:
+		\L_062ac:
+		\L_061da:
+		ZH 1:
+		'Uu... King Gandhiii...'
+		\L_062ff:
+		\L_062f2:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	{VAR0336 = 6:
+		!VAR0156 : 168!
+		!VAR0128 : 0!
+		!VAR0773 : 1!
+	}
+	!VAR0156 : 168!
+	{VAR0128 \ 0:
+		@L_0065c:
+	}
+	{VAR0773 = 0:
+		!VAR0773 : 1!
+		!VAR0516 : 52!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'Lord Chizuko, I’ll do it this'
+		R
+		'time! Please let me deploy!'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'No. I don’t have time to send'
+		R
+		'a screw-up like you out.'
+		R
+		'There’s plenty of more capable'
+		R
+		'units waiting.'
+		\L_062ff:
+		ZH 1:
+		'...So you guys go. Do a good'
+		R
+		'enough job that Annis stops'
+		R
+		'whining.'
+		\L_062ff:
+		\L_062f2:
+		\L_062ac:
+		!VAR0516 : 478!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'Yes, as you wish.'
+		\L_062ff:
+		\L_062f2:
+		\L_062ac:
+		!VAR0516 : 52!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'I’m stronger, though...'
+		R
+		'Lord Chizuko, at least let us'
+		R
+		'compare our skill first...!'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'The amount of a bacteria is'
+		R
+		'squared every minute. If you'
+		R
+		'start with one, how many are'
+		R
+		'there in an hour?'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Uh... Huh?'
+		\L_062ff:
+		\L_062f2:
+		\L_062ac:
+		!VAR0516 : 478!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'One.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Alright. You go.'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Then we’ll be off.'
+		\L_062ff:
+		\L_062f2:
+		\L_062ac:
+		\L_06212:
+		ZH 1:
+		'The magic commander left the'
+		R
+		'room.'
+		\L_062ff:
+		\L_062f2:
+		!VAR0516 : 52!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'Lord Chizukooo...'
+		R
+		'I meant comparing magic'
+		R
+		'power... I want to fight too.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Hey, shut up.'
+		R
+		'I’m not sending you out!'
+		\L_062ff:
+		\L_062f2:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	!VAR0516 : 478!
+	\L_0629e:
+	\L_061da:
+	ZH 1:
+	'Um, let’s see...'
+	R
+	'You, and you, and then all of'
+	R
+	'you. Lead the slave troops and'
+	R
+	'sortie, please.'
+	\L_062ff:
+	ZH 1:
+	'Go with your honor as one of'
+	R
+	'the Four Lords of Zeth’s'
+	R
+	'subordinates and beat up the'
+	R
+	'Leazas Army.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Yes.'
+	R
+	'By the way, won’t you deploy,'
+	R
+	'Lord Chizuko?'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'I’m the commander, I’m busy.'
+	R
+	'Besides, if I sortied, my skin'
+	R
+	'and these wonderful magic'
+	R
+	'clothes would get dirty.'
+	\L_062ff:
+	ZH 1:
+	'I’ll leave the actual fighting'
+	R
+	'to all of you. You work for me,'
+	R
+	'so you should be excellent.'
+	R
+	'Prove that you are.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Haah...'
+	R
+	'Then we’ll be off.'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0065c:
+	\L_061da:
+	ZH 1:
+	'Damn you, Leazas Army...'
+	R
+	'How dare you go to war with us'
+	R
+	'when you’re an inferior nation'
+	R
+	'that only has crappy magic.'
+	\L_062ff:
+	ZH 1:
+	'I have to show you the'
+	R
+	'difference in our strength,'
+	R
+	'here... Maybe it’s finally'
+	R
+	'time for me to fight...'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 52!
+	\L_0629e:
+	\L_0624a:
+	ZH 1:
+	'Lord Chizuko, I’ve been'
+	R
+	'waiting to hear you say that!!'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Whoa, Annis!'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Annis ran into the room.'
+	R
+	'Chizuko covered her mouth when'
+	R
+	'she heard the unpleasant sound,'
+	R
+	'but it was too late.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'So you’re fighting, Lord'
+	R
+	'Chizuko!? I, I, I’ll go too!'
+	R
+	'I’ll kill all the Leazas'
+	R
+	'soldiers!'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'You would kill all our allies!'
+	R
+	'I remember when you hunted for'
+	R
+	'a criminal in a mountain and'
+	R
+	'burned the whole mountain too.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Yes, um, but, this time it’s'
+	R
+	'war... I-I’ll be careful...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Telling me that won’t do you'
+	R
+	'much good. I can’t trust what'
+	R
+	'an idiot says.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Aaw...'
+	R
+	'I wanna be useful too, Lord'
+	R
+	'Chizuko.'
+	\L_062ff:
+	\L_062f2:
+	\L_061f6:
+	ZH 1:
+	'Hmmm, Annis does have the'
+	R
+	'highest destructive power in'
+	R
+	'Zeth, though... I don’t want'
+	R
+	'to leave her unwatched, but...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'...Alright... You have'
+	R
+	'permission to sortie. On the'
+	R
+	'condition you go with no guard'
+	R
+	'units. You only get your unit.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Huh? But...'
+	R
+	'It’s dangerous to go without'
+	R
+	'any slave troops.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Going with you would be'
+	R
+	'dangerous for the slaves!'
+	R
+	'And they’re more important to'
+	R
+	'Zeth than you. Get over it.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'U-Understood...'
+	R
+	'I’ll be going, then!'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Annis leapt out of the command'
+	R
+	'room...'
+	\L_062ff:
+	\L_062f2:
+	!VAR0530 : 168!
+	!VAR0531 : 0!
+	!VAR0532 : 0!
+	!VAR0533 : 0!
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_008fb:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_062d6:
+	!VAR0516 : 1!
+	\L_0622e:
+	\L_06212:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　Audience Room'
+	\L_062ff:
+	ZH 1:
+	'Rance called Chizuko.'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 61!
+	\L_0629e:
+	!VAR0690 : 0!
+	!VAR0154 : 37!
+	{VAR0102 \ 0:
+		Y 4, 2:
+		!VAR0690 : VAR0000!
+	}
+	{VAR0690 = 1:
+		\L_0624a:
+		ZH 1:
+		'King Rance, it’s an honor to'
+		R
+		'be summoned by you...'
+		R
+		'Do you have some business with'
+		R
+		'me...?'
+		\L_062ff:
+		\L_062f2:
+		\L_06212:
+		ZH 1:
+		'Chizuko looked at Rance and'
+		R
+		'blushed.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Yeah, there’s something I want'
+		R
+		'to ask.'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'What is it...?'
+		R
+		'Please ask anything you like,'
+		R
+		'and I’ll answer with all the'
+		R
+		'knowledge I have.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Mhm, who do you like more'
+		R
+		'between me and Gandhi?'
+		R
+		'Rank both of us on a scale of'
+		R
+		'1 to 100.'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Uh, aah...'
+		R
+		'I like you more, but a score...'
+		R
+		'That’s difficult to say.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Mhm, mhm.'
+		R
+		'So if said I ordered Gandhi to'
+		R
+		'marry you, what would you do?'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Huh...?'
+		R
+		'...Marry... King Gandhi...'
+		\L_062ff:
+		ZH 1:
+		'Are you saying that you don’t'
+		R
+		'need me anymore...?'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Hm?'
+		R
+		'No, that’s not...'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'No, please don’t abandon me,'
+		R
+		'King Rance... I, I belong to'
+		R
+		'you now...!'
+		\L_062ff:
+		\L_062f2:
+		\L_06212:
+		ZH 1:
+		'Chizuko covered her meek face'
+		R
+		'and began to cry.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Whoa, stop crying, I was'
+		R
+		'joking! Alright, keep that'
+		R
+		'dedication up.'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'O-Okay...'
+		R
+		'Being with you makes me happy.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Gahahahaha, you’re cute.'
+		\L_062ff:
+		\L_062f2:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	\L_0624a:
+	ZH 1:
+	'Good morning, King Rance.'
+	R
+	'Do you have some business with'
+	R
+	'me? Uhuhu...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'What are you smiling about?'
+	R
+	'How is your magic unit doing?'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'It has no problems at all.'
+	R
+	'We can fight flawlessly at any'
+	R
+	'time. I command them strictly'
+	R
+	'for you, King Rance...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'I see. So... Are there cute'
+	R
+	'girls in your unit? If there'
+	R
+	'are, hand them over. I’ll'
+	R
+	'command them strictly myself.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'There aren’t any.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'That was a quick reply.'
+	R
+	'Is it true?'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Of course, I wouldn’t lie...'
+	R
+	'There are no girls fit for'
+	R
+	'your eyes in my unit.'
+	\L_062ff:
+	ZH 1:
+	'They’re all mediocre.'
+	R
+	'If I’m a 100, they’re around a'
+	R
+	'10.'
+	\L_062ff:
+	ZH 1:
+	'So I’m sorry, King Rance, but'
+	R
+	'please settle for just me for'
+	R
+	'now... Huhuhuhu...'
+	\L_062ff:
+	\L_062f2:
+	\L_061f6:
+	ZH 1:
+	'Something’s strange...'
+	R
+	'Is she telling the truth...?'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_00d19:
+	!VAR0320 : 6!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1001!
+	\L_062d6:
+	!VAR0516 : 1!
+	\L_0622e:
+	\L_06212:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　　Treasure Room'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 61!
+	\L_0629e:
+	\L_0624a:
+	ZH 1:
+	'King Rance...?'
+	R
+	'Why did you call me here...?'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko appeared tilting her'
+	R
+	'head with confusion.'
+	R
+	'She was wearing the same dress'
+	R
+	'as usual.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Mhm, so the thing is, there’s'
+	R
+	'something I want to know...'
+	R
+	'Since you were the leader of'
+	R
+	'Zeth’s mages, you might help.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'My, you have a request for me?'
+	R
+	'I’m happy to hear it, I’ll do'
+	R
+	'the best I can.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Yeah, do that.'
+	R
+	'So... Climb that ladder there'
+	R
+	'and take one box off that'
+	R
+	'shelf.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Huh...?'
+	R
+	'But, um... I...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko mumbled and looked at'
+	R
+	'the floor.'
+	\L_062ff:
+	\L_062f2:
+	\L_06266:
+	ZH 1:
+	'What should I do?'
+	R
+	'It’s King Rance’s order, but I'
+	R
+	'can’t do it in this skirt...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Hm, what’s wrong?'
+	R
+	'It’s a simple, safe task.'
+	R
+	'I set up the ladder myself.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Aah, then maybe...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Whatever, just do it.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'...Okay...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko readied herself and'
+	R
+	'climbed the ladder Rance set'
+	R
+	'up.'
+	\L_062ff:
+	\L_062f2:
+	\L_06266:
+	ZH 1:
+	'Yes, it’s King Rance, he'
+	R
+	'forgave me for everything...'
+	\L_062ff:
+	ZH 1:
+	'Don’t be embarrassed if you'
+	R
+	'make any mistakes. Do your'
+	R
+	'best, Chizuko.'
+	\L_062ff:
+	\L_062f2:
+	\L_061f6:
+	ZH 1:
+	'Uheehee, she’s climbing up...'
+	R
+	'Let’s see.'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Rance made a vulgar face and'
+	R
+	'looked up.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Ooh... There it is...'
+	\L_062ff:
+	\L_062f2:
+	\L_061f6:
+	ZH 1:
+	'Yeah, just as planned.'
+	R
+	'If you peek up this kind of'
+	R
+	'dress in this way you can see'
+	R
+	'everything.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Mmm, great...'
+	R
+	'Fantastic view.'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Rance subconsciously crossed'
+	R
+	'his arms and nodded. Chizuko'
+	R
+	'heard him talking to himself'
+	R
+	'and frantically looked down.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Uh, King Rance...'
+	R
+	'Um, what are you...? Kyaah!'
+	\L_062ff:
+	\L_062f2:
+	\L_062ac:
+	\L_061da:
+	ZH 1:
+	'Whoa, you moron!'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'  ＜booooom!＞'
+	\L_062ff:
+	ZH 1:
+	'  ＜baaang...＞'
+	\L_062ff:
+	ZH 1:
+	'Chizuko completely misstepped'
+	R
+	'on the ladder and slipped. The'
+	R
+	'ladder fell and threw dust up'
+	R
+	'throughout the treasure room.'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 61!
+	\L_0629e:
+	\L_0624a:
+	ZH 1:
+	'...?'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Ow... You’re heavy...'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Ah!?'
+	R
+	'Kyah, I’m sorry...'
+	R
+	'Are you hurt!?'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'No, that’s how I’m able to'
+	R
+	'stand like this.'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko’s fall was cushioned'
+	R
+	'by Rance. They coincidentally'
+	R
+	'ended up in a position where'
+	R
+	'he held her in his arms.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Sorry...'
+	R
+	'Um... Thank you.'
+	R
+	'You saved me...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Yeah, it’s no big deal.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'............'
+	\L_062ff:
+	\L_062f2:
+	\L_06266:
+	ZH 1:
+	'I’ve never been in such a'
+	R
+	'girlish situation before...'
+	\L_062ff:
+	ZH 1:
+	'It’s just like King Gandhi'
+	R
+	'said... I can be happy if I’m'
+	R
+	'with King Rance...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Hey, I’m putting you down,'
+	R
+	'Chizuko.'
+	R
+	'Hey!'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Uuuuuh... Ah, okay...!'
+	R
+	'...King Rance, I’m happy...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Where did that come from?'
+	R
+	'You’re weird...'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0129a:
+	{VAR0320 = 4:
+		!VAR0320 : 5!
+	}
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_062d6:
+	!VAR0516 : 1!
+	\L_0622e:
+	\L_06212:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　Audience Room'
+	\L_062ff:
+	ZH 1:
+	'Rance called Chizuko.'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 61!
+	\L_0629e:
+	\L_0624a:
+	ZH 1:
+	'Good morning, King Rance.'
+	R
+	'What do you need?'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'How are you doing?'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Not bad, but... Um...'
+	R
+	'I don’t know about this'
+	R
+	'dress...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Hm, is it hard to move in?'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Haah... I was wondering if you'
+	R
+	'could let me wear more proper'
+	R
+	'clothes...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'That dress is cute, so it’s'
+	R
+	'good enough.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'But I can’t use my power'
+	R
+	'properly in this dress.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'I see...'
+	R
+	'You can change, then.'
+	R
+	'Wear more proper clothes. Make'
+	R
+	'sure they’re actually proper.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Yes, thank you very much.'
+	R
+	'I’ll go change, then.'
+	\L_062ff:
+	\L_062f2:
+	\L_062ac:
+	\L_06212:
+	ZH 1:
+	'Chizuko cheerfully headed to a'
+	R
+	'changing room.'
+	R
+	'Some time later...'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 43!
+	\L_0629e:
+	\L_0624a:
+	ZH 1:
+	'King Rance, I changed!'
+	R
+	'What do you think? Here’s some'
+	R
+	'proper clothes!'
+	\L_062ff:
+	ZH 1:
+	'These are really the kind of'
+	R
+	'clothes mages should wear!'
+	\L_062ff:
+	ZH 1:
+	'Aah... Wearing good clothes'
+	R
+	'fills me with power...'
+	R
+	'I’ll work hard for you, King'
+	R
+	'Rance.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'............'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'...King Rance?'
+	R
+	'What is it?'
+	R
+	'Have my wonderful magic'
+	R
+	'clothes caught your eye?'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Change back into the dress.'
+	R
+	'Then throw those clothes away.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Huuuh? But...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Do it, this is an order from'
+	R
+	'the King. If you don’t like it'
+	R
+	'then get out.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Sob...'
+	R
+	'Understood...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko dejectedly left the'
+	R
+	'audience room.'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_015c9:
+	!VAR0320 : 4!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1002!
+	\L_062d6:
+	!VAR0516 : 1!
+	\L_0622e:
+	\L_06212:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　Rance’s Bedroom'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Yeah...'
+	R
+	'Maybe I should call Chizuko'
+	R
+	'today.'
+	\L_062ff:
+	ZH 1:
+	'She’s that obnoxious Zeth girl,'
+	R
+	'but she’s sweet with that'
+	R
+	'dress on. Maybe she’ll be'
+	R
+	'unexpectedly good.'
+	\L_062ff:
+	ZH 1:
+	'...Hey, call Chizuko.'
+	R
+	'Oh, and don’t forget to tell'
+	R
+	'her to come with normal, cute'
+	R
+	'clothes and underwear.'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'............'
+	R
+	'Some time later, Chizuko'
+	R
+	'appeared with a dress on.'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 61!
+	\L_0629e:
+	\L_0624a:
+	ZH 1:
+	'Um...'
+	R
+	'Excuse me, King Rance.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Ooh, good. You came with some'
+	R
+	'decent clothes...'
+	R
+	'I assume you’re not wearing'
+	R
+	'snakeskin panties or anything.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Haah, no, um...'
+	\L_062ff:
+	ZH 1:
+	'King Gandhi picked out these'
+	R
+	'clothes for me to wear when'
+	R
+	'you call me to your bedroom...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Mgh, Gandhi...'
+	R
+	'That’s kind of annoying to'
+	R
+	'know.'
+	\L_062ff:
+	ZH 1:
+	'I’m sure wearing that fills'
+	R
+	'your head with love towards'
+	R
+	'Gandhi.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Of course not...'
+	R
+	'Please don’t take offense,'
+	R
+	'King. I’m in love with you.'
+	R
+	'I would do anything for you...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko frowned and looked up'
+	R
+	'at Rance.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Hm, is that so...?'
+	R
+	'Well, good to know you would'
+	R
+	'do anything.'
+	\L_062ff:
+	ZH 1:
+	'So, let’s have sex. Alright?'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'...Ah...'
+	\L_062ff:
+	ZH 1:
+	'...Okay...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Uheehee.'
+	R
+	'Then let’s go!'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Ah...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'While she was at a loss as to'
+	R
+	'what to do, Rance pushed'
+	R
+	'Chizuko down on the bed...'
+	\L_062ff:
+	\L_062f2:
+	PF1 VAR0056:
+	G 806:
+	SS 24:
+	\L_062ba:
+	ZH 1:
+	'Rance「Hmmm, dresses are a hassle...'
+	R
+	'      Not that it takes me much time to take them'
+	R
+	'      off, anyway.」'
+	PF0 VAR0056:
+	\L_062ff:
+	ZH 1:
+	'Chizuko「............」'
+	\L_062ff:
+	ZH 1:
+	'Rance’s hand skillfully undid the hook on Chizuko’s'
+	R
+	'dress.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko meekly grasped herself and suppressed her'
+	R
+	'nervousness.'
+	\L_062ff:
+	ZH 1:
+	'Rance「Alright, now open!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Ah, no...!」'
+	\L_062ff:
+	ZH 1:
+	'But Chizuko covered her chest with her hands when'
+	R
+	'her dress was removed.'
+	\L_062ff:
+	ZH 1:
+	'Rance「Mgh... Are you defying me?'
+	R
+	'      You just said you’d do anything, though.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Uu... Yes, but...'
+	R
+	'        Um... I’m embarrassed because of this'
+	R
+	'        strange underwear...」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Hoh, strange...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「King Gandhi picked it. I don’t care what he'
+	R
+	'        thinks, but it’s too embarrassing to show'
+	R
+	'        you...」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Mhm, mhm...'
+	R
+	'      Then you really have to show me everything!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Kyaaah!」'
+	\L_062ff:
+	ZH 1:
+	'Rance tore off Chizuko’s dress in one pull.'
+	\L_062ff:
+	G 163:
+	ZH 1:
+	'Chizuko「No... Please don’t look... King...」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Hohoh, just as I though.'
+	R
+	'      Super cute. Good underwear.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Huh...? It’s so strange...」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Be quiet and remember this.'
+	R
+	'      What you think is strange is actually good.'
+	R
+	'      Your fashion sense is out of whack.」'
+	\L_062ff:
+	ZH 1:
+	'  ＜rub rub rub＞'
+	\L_062ff:
+	ZH 1:
+	'Rance lectured Chizuko while rubbing her breasts.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「But... Uh, ah, no...!」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Hey, stop complaining!'
+	R
+	'      I told you, if you’ll do anything for me then'
+	R
+	'      we’re having sex!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Uu, hah... But my breasts are so small that'
+	R
+	'        it’s embarrassing...」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Hm? Aah...'
+	R
+	'      Now that you mention it, they are pretty'
+	R
+	'      small. The size of my palm. Maybe smaller.」'
+	\L_062ff:
+	ZH 1:
+	'  ＜rub rub rub rub＞'
+	\L_062ff:
+	ZH 1:
+	'Rance nodded seriously and rubbed Chizuko’s breasts'
+	R
+	'closely to examine their size.'
+	R
+	'Chizuko’s distraught face grew redder.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Ah... Aah...」'
+	\L_062ff:
+	ZH 1:
+	'Rance「I don’t really care, though.'
+	R
+	'      They aren’t better than big ones, but small'
+	R
+	'      ones are fine too.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「King... Rance...」'
+	\L_062ff:
+	ZH 1:
+	'Rance’s fingertips played with her nipples through'
+	'her bra. He soon felt them harden.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Mm...」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Small or not, they still seem to be'
+	R
+	'      sensitive...'
+	R
+	'      Your nipples are hard, Chizuko.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Don’t tell me that...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko whined and covered her face when Rance'
+	R
+	'whispered into her ear.'
+	\L_062ff:
+	ZH 1:
+	'Rance「Gahahahaha, nothing to be embarrassed about,'
+	R
+	'      your body’s honest. Now then...'
+	R
+	'      Maybe I should make myself feel good.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Ah...」'
+	\L_062ff:
+	ZH 1:
+	'Rance removed his pants so that Chizuko could see.'
+	\L_062ff:
+	ZH 1:
+	'Then he thrust his towering hyper weapon right under'
+	R
+	'Chizuko’s nose.'
+	\L_062ff:
+	ZH 1:
+	'Rance「Here, say hello to my cute dick.'
+	R
+	'      Lick.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「O-Okay... Um... I’m honored.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko gave a confused greeting and started licking'
+	R
+	'the hyper weapon...'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「...Mm...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko’s tongue licked around the head.'
+	R
+	'Pleasure crawled up Rance’s back.'
+	\L_062ff:
+	ZH 1:
+	'Rance「Mmgh, this is kind of dull.'
+	R
+	'      How about you make it more intense?」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「O-Okay...」'
+	\L_062ff:
+	ZH 1:
+	'The hyper weapon was consumed by her wet lips.'
+	R
+	'They awkwardly moved up and down over it.'
+	\L_062ff:
+	ZH 1:
+	'Rance「Still boring...'
+	R
+	'      Can’t you at least do this? Here.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Mmm...!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko’s throat was pierced by light thrusts and'
+	R
+	'she moaned. Her tongued moved up and down with her'
+	R
+	'moans, stimulating Rance’s hyper weapon.'
+	\L_062ff:
+	ZH 1:
+	'Rance「Uhahaha...'
+	R
+	'      Good, not bad. Nice and slippery.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Mm... Yes, ngh...!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko tried her best to lick around Rance’s cock'
+	R
+	'as it thrusted in her mouth.'
+	\L_062ff:
+	ZH 1:
+	'Rance nimbly bent over and peeked at Chizuko’s'
+	R
+	'crotch.'
+	\L_062ff:
+	ZH 1:
+	'Rance「...Now, how about here?」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Ah, King Rance...!?」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Whatever, just suck it now. King’s orders.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Hah... Aah...!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko writhed under him.'
+	R
+	'Her pussy glistened with juices.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Mm... Mmmm, ah...!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko continued to service Rance even as he buried'
+	R
+	'his face in her crotch and sucked her juices.'
+	\L_062ff:
+	ZH 1:
+	'Occasional moans escaped despite her attempts to'
+	R
+	'suppress them. Her juices flowed out endlessly.'
+	\L_062ff:
+	ZH 1:
+	'Rance「Gahahahaha, you’re easy to get wet, good!'
+	R
+	'      Now, here’s your reward!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Uh... Ah...!」'
+	\L_062ff:
+	ZH 1:
+	'Rance raised Chizuko’s legs high and rammed his'
+	R
+	'hyper weapon in.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Ow...!」'
+	\L_062ff:
+	ZH 1:
+	'Rance「...Hm?」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Ouch... Kh...」'
+	\L_062ff:
+	ZH 1:
+	'Rance「...Hmmmmm!?」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko bit her lip and endured the pain.'
+	R
+	'Her hands were grasping Rance’s shoulders and'
+	R
+	'shivering.'
+	\L_062ff:
+	ZH 1:
+	'Rance「...You’re a virgin?」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Yes... Until just now...」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Ooh, I see, so it’s your first time...'
+	R
+	'      Alright... Be glad, Chizuko, now I’ll make you'
+	R
+	'      into my kind of woman...!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Hah... I’m honored to... Ah...!」'
+	\L_062ff:
+	ZH 1:
+	'Rance violently thrust before she could finish'
+	R
+	'speaking. Chizuko’s response was cut off as she'
+	R
+	'could barely even breathe.'
+	\L_062ff:
+	ZH 1:
+	'Rance「Gahahahahahaha, good, Chizuko...'
+	R
+	'      You’ve got a pretty sexy body for getting this'
+	R
+	'      wet on your first time...!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Mm... Kh, King... Rance...!」'
+	\L_062ff:
+	ZH 1:
+	'In accordance with his violent thrusting, Chizuko’s'
+	R
+	'neglected bra swayed on her breasts.'
+	\L_062ff:
+	ZH 1:
+	'The dry sound of their skin slamming together and'
+	R
+	'the wet sound coming from the place where they were'
+	R
+	'united filled the room.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko（King Gandhi... King Gandhi...'
+	R
+	'        I can’t go back now...）'
+	\L_062ff:
+	ZH 1:
+	'Chizuko（Loving King Rance and working for him is the'
+	R
+	'        way I should live now...）'
+	\L_062ff:
+	ZH 1:
+	'Rance「Oh?」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko’s arms wrapped around Rance’s neck.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「King Rance... King Rance...!'
+	R
+	'        Let me be with you...'
+	R
+	'        Please don’t... abandon me...!」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Where did that come from...? You’re weird...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Hick... Hiin...'
+	R
+	'        Ah... I would do anything... Ah...!」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Aagh, I get it, don’t cry.'
+	R
+	'      Here, let’s go...!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Uu... Aah...!」'
+	\L_062ff:
+	ZH 1:
+	'Rance’s speed increased a level.'
+	R
+	'A cacophony came from Chizuko’s insides.'
+	\L_062ff:
+	ZH 1:
+	'Rance「Kh...!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Ah... Ah...!'
+	R
+	'        King... Rance...!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko gave a hoarse groan and Rance released his'
+	R
+	'pleasure inside her...'
+	\L_062ff:
+	PF1 VAR0056:
+	\L_062f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	PF0 VAR0056:
+	!VAR0516 : 1002!
+	\L_062d6:
+	!VAR0516 : 61!
+	\L_0629e:
+	\L_0624a:
+	ZH 1:
+	'...Guh...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Then, after they went three'
+	R
+	'more rounds...'
+	\L_062ff:
+	ZH 1:
+	'Chizuko put the dress back on'
+	R
+	'her aching body after she was'
+	R
+	'finally released.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Um, well, King Rance...'
+	R
+	'Ah...'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 1!
+	\L_0622e:
+	\L_061da:
+	ZH 1:
+	'Zzzzzz...'
+	R
+	'Zzzzzzzzzzzzzzzz...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'When she turned to tell Rance'
+	R
+	'she was leaving, she found he'
+	R
+	'was already asleep.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'............'
+	\L_062ff:
+	ZH 1:
+	'...Heh.'
+	\L_062ff:
+	ZH 1:
+	'Then excuse me, King Rance.'
+	R
+	'Thank you for your affection...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'  ＜smooch＞'
+	\L_062ff:
+	\L_062f2:
+	\L_062ac:
+	\L_06212:
+	ZH 1:
+	'Chizuko kissed Rance on the'
+	R
+	'forehead as he slept and left'
+	R
+	'the room.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Hmmmmm, Chizuko...'
+	R
+	'Could you stop with all the'
+	R
+	'purple...? Zzzzzzzzzz...'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0217a:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1002!
+	\L_062d6:
+	!VAR0516 : 1!
+	\L_0622e:
+	\L_06212:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　Rance’s Bedroom'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Hmmmm, I’m in a Chizuko kind'
+	R
+	'of mood today for some reason.'
+	R
+	'I should call Chizuko.'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'............'
+	R
+	'Some time later, Chizuko'
+	R
+	'appeared. She was blushing'
+	R
+	'slightly.'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 61!
+	\L_0629e:
+	\L_0624a:
+	ZH 1:
+	'King Rance...'
+	R
+	'Thank you for summoning me.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Mhm. Be thankful.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Now, um... Excuse me.'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko bowed and started'
+	R
+	'removing her dress.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Mm, wait a second.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Huh...?'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Doing it normally is boring.'
+	R
+	'Let’s see, today...'
+	\L_062ff:
+	\L_062f2:
+*L_022e8:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_022e8:
+	}
+	{VAR0553 = 1:
+		ZH 1:
+		$L_02a41$
+		'S&M Play'
+		$
+	}
+	ZH 1:
+	$L_02338$
+	'Make Her Masturbate'
+	$
+	]
+	@L_022e8:
+*L_02338:
+	\L_061f6:
+	ZH 1:
+	'Alright, I’ll make her'
+	R
+	'masturbate. Since she’s got a'
+	R
+	'lot of pride, neeheeheehee...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Hey, I don’t really feel like'
+	R
+	'doing it today. So get me in'
+	R
+	'the mood, alright?'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Hah... Get you in the mood...?'
+	R
+	'Okay, but how...?'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Hmmm, try pleasuring yourself.'
+	R
+	'Masturbate.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Huh...? Ah, uu...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'If you don’t want to then go'
+	R
+	'back. I won’t fuck you.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'But...'
+	R
+	'Understood, I’ll do it, so...'
+	R
+	'Please don’t hate me...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Alright, good.'
+	R
+	'Make it reeeeally sexy.'
+	R
+	'If you don’t, I’ll hate you.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'O-Okay...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko removed her dress and'
+	R
+	'lay down in her underwear...'
+	\L_062ff:
+	\L_062f2:
+	PF1 VAR0056:
+	SS 0:
+	G 806:
+	G 163:
+	SS 24:
+	\L_062ba:
+	ZH 1:
+	'Chizuko「............」'
+	PF0 VAR0056:
+	\L_062ff:
+*L_024b6:
+	ZH 1:
+	'Chizuko slowly ran her hands over her breasts.'
+	R
+	'She traced circles over her bra.'
+	\L_062ff:
+	ZH 1:
+	'Rance「Staaaaaaaaaaaaaaare...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「............」'
+	\L_062ff:
+	ZH 1:
+	'Then her fingertips disappeared into her bra.'
+	R
+	'She seemed to be rubbing her nipple under the mint'
+	R
+	'green cloth.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「...Ah...」'
+	\L_062ff:
+	ZH 1:
+	'A quiet sigh escaped Chizuko’s lips.'
+	R
+	'The nipple she wasn’t touching appeared stiff'
+	R
+	'through her bra, too.'
+	\L_062ff:
+	ZH 1:
+	'Rance「This is pretty weak. What about down there?」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Ah, okay...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko’s left hand remained at her breasts, and her'
+	R
+	'right hand went lower.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko（Hiin, this is embarrassing...）'
+	\L_062ff:
+	ZH 1:
+	'She turned a deep red as she ran her fingers over'
+	R
+	'the light cloth covering her crotch.'
+	\L_062ff:
+	ZH 1:
+	'Rance「Spread your legs, more like a prostitute.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Uu...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko spread her legs wide and looked like she'
+	R
+	'was about to cry as she stroked her crotch.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「...Mm...」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Oh?'
+	R
+	'      What’s that little wet spot there?」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Uu... Hyah...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko’s body jumped when Rance prodded her'
+	R
+	'underwear.'
+	\L_062ff:
+	ZH 1:
+	'Rance「You don’t want your panties getting dirty.'
+	R
+	'      I’ll take them off for you. There!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Ah, King Rance...!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko had no time to prepare herself before her'
+	R
+	'small underwear was pulled from her legs.'
+	\L_062ff:
+	ZH 1:
+	'Rance「There, fully exposed.'
+	R
+	'      I’ll be watching, continue.'
+	R
+	'      Gahahahahaha...!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「O-Okay...」'
+	\L_062ff:
+	ZH 1:
+	'While Rance held her ankles in place, Chizuko’s hand'
+	R
+	'started groping her crotch again.'
+	\L_062ff:
+	ZH 1:
+	'She pinched her hard nipple and rolled around her'
+	R
+	'glistening clit with her fingertips.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「...Ah... Mm...」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Mhm, mhm... You’re really skilled at this for'
+	R
+	'      having just been a virgin.'
+	R
+	'      ...Who are you thinking of?」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Uu... Um... King Gandhi...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko’s voice was on the verge of disappearing,'
+	R
+	'but she still answered honestly.'
+	R
+	'Rance ignored her with a serious expression.'
+	\L_062ff:
+	ZH 1:
+	'Rance「Hmmmm...'
+	R
+	'      So do you like me or Gandhi more right now?」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Um... You...」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Really?」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Yes...」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Then how about showing me proof that you love'
+	R
+	'      me?」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko saw Rance grin and looked uneasy.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Proof...?」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Spread your pussy.'
+	R
+	'      Let me see all the way in.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Uu...」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Can’t do it? So you don’t love me after all...'
+	R
+	'      I guess you’re still Zeth’s leadership even'
+	R
+	'      now...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「I-I can do it, I can do it...!'
+	R
+	'        If it’s for you, King Rance...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko’s fingers reached for her pussy.'
+	R
+	'She spread herself and juices leaked out.'
+	\L_062ff:
+	ZH 1:
+	'Rance「Ooh, pretty wet... You must be unsatisfied'
+	R
+	'      without my hyper weapon in you, Chizuko.'
+	R
+	'      Try putting a finger in.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Like this...?」'
+	\L_062ff:
+	ZH 1:
+	'Her finger sank into her wet pussy.'
+	R
+	'Her ankles shuddered in Rance’s grip.'
+	\L_062ff:
+	ZH 1:
+	'Rance「Don’t just put it in, stir it around.'
+	R
+	'      Oh, and my hyper weapon’s not that thin.'
+	R
+	'      Put three fingers in.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Three...'
+	R
+	'        ...O-Okay...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko shut her eyes and did as Rance ordered.'
+	R
+	'Somehow she got the fingers in and tried slowly'
+	R
+	'moving them.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Mmm... Kh...!」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Uhaha, one of Zeth’s leaders is getting into'
+	R
+	'      it... This is pretty sexy to watch.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Yah... Please don’t say that...」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Why?'
+	R
+	'      You’re sopping wet and fervently masturbating,'
+	R
+	'      you can’t say anything.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Hiin... Sob, nooo...'
+	R
+	'        ...Aah...!」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Gahahahaha,'
+	R
+	'      Don’t like doing it alone, Chizuko?'
+	R
+	'      Then beg me.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Uu... Wah...」'
+	\L_062ff:
+	ZH 1:
+	'Without stopping her hand, Chizuko looked up at'
+	R
+	'Rance through tear-filled eyes.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Please, King Rance...'
+	R
+	'        ...Inside me...」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Hmm, too refined.'
+	R
+	'      I don’t get what you want to say.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Ah, aah...'
+	R
+	'        Please put it in me... Your...'
+	R
+	'        c-cock...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Please...'
+	R
+	'        Don’t make me do this alone...」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Gahahahahaha, alright, well said!'
+	R
+	'      I’ll put my hyper weapon in you...!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Aaaah...!」'
+	\L_062ff:
+	ZH 1:
+	'Rance picked up Chizuko’s hips and penetrated her.'
+	\L_062ff:
+	ZH 1:
+	'Rance「How’s that? Feel good?'
+	R
+	'      Gahahahahahahahaha...!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Aah... King Rance, I...'
+	R
+	'        I love you, ah...!」'
+	\L_062ff:
+	ZH 1:
+	'Rance「You’re cute, Chizuko...'
+	R
+	'      Gahahahaha, gahahahahaha...!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Nnah... Ah, aah...!」'
+	\L_062ff:
+	ZH 1:
+	'In the room in the middle of the night, Rance’s'
+	R
+	'loud laugh echoed endlessly...'
+	\L_062ff:
+	{VAR0520 = 300:
+		%0:
+	}
+	PF1 VAR0056:
+	\L_062f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	PF0 VAR0056:
+	%0:
+*L_02a41:
+	\L_061f6:
+	ZH 1:
+	'Alright, let’s play in the S&M'
+	R
+	'Tower. It should be'
+	R
+	'interesting to tease Chizuko.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'...Hey, Chizuko.'
+	R
+	'We’re gonna do it somewhere'
+	R
+	'else today. Come with me.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Huh...?'
+	R
+	'Ah, o-okay...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko frantically followed'
+	R
+	'Rance out of the room.'
+	\L_062ff:
+	\L_062f2:
+	PF1 VAR0056:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1036!
+	\L_062d6:
+	!VAR0516 : 1!
+	\L_0622e:
+	!VAR0516 : 61!
+	\L_0629e:
+	PF0 VAR0056:
+	\L_0624a:
+	ZH 1:
+	'This is...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Well, don’t restrain yourself,'
+	R
+	'go in.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'But...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'I want you to.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'...Understood...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'They entered the S&M Tower'
+	R
+	'together...'
+	\L_062ff:
+	\L_062f2:
+	PF1 VAR0056:
+	G 806:
+	SS 0:
+	\L_062ba:
+	ZH 1:
+	'  ＜creak... slam＞'
+	PF0 VAR0056:
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Ah...」'
+	\L_062ff:
+	ZH 1:
+	'The room they entered had no windows, and when the'
+	R
+	'door was closed it was pitch black.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「King... Rance...?」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko mumbled uneasily.'
+	\L_062ff:
+	ZH 1:
+	'Rance「You’ll be fine, just stand still.」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Um, what are you...? Ah...」'
+	\L_062ff:
+	ZH 1:
+	'In the darkness so deep she couldn’t see right in'
+	R
+	'front of her face, the hook on her dress was undone.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Why...?'
+	R
+	'        King Rance... Um...'
+	R
+	'        I can’t see anything... King Rance...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko’s pieces of clothing were removed one by'
+	R
+	'one during her confusion.'
+	R
+	'Then her naked body was bound with rope.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Ah...! Um, King Rance...!'
+	R
+	'        Why are you doing this?'
+	R
+	'        How can you see...?」'
+	\L_062ff:
+	ZH 1:
+	'Rance「Huhuhuhuhu...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Ah, King Rance... Mmmmmm!?」'
+	\L_062ff:
+	ZH 1:
+	'She was gagged.'
+	R
+	'Chizuko’s eyes became even more tearful.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Mmm... Mmmmmm!」'
+	\L_062ff:
+	ZH 1:
+	'Rance（Huhuhuhu... I can see perfectly.'
+	R
+	'      It was worth it to have these made...）'
+	\L_062ff:
+	ZH 1:
+	'Rance（These night vision goggles are really useful!）'
+	\L_062ff:
+	ZH 1:
+	'Rance opened his eyes inside the goggles and gazed'
+	R
+	'at Chizuko.'
+	\L_062ff:
+	G 164:
+	{VAR0520 \ 301:
+		SS 24:
+	}
+	ZH 1:
+	'Rance（Uhahahaha... Good!'
+	R
+	'      I tied her up pretty well.）'
+	\L_062ff:
+*L_02d47:
+	ZH 1:
+	'Chizuko「...Mmmm...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko forgot about struggling and was simply'
+	R
+	'scared.'
+	R
+	'Rance held back his laughter and began teasing her.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Mm...!」'
+	\L_062ff:
+	ZH 1:
+	'First, he gripped her breasts that were bound by'
+	R
+	'the straw rope. They were throbbing.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko（King Rance...'
+	R
+	'        Why do this in the dark...?）'
+	\L_062ff:
+	ZH 1:
+	'Rance continued by playing with her nipples.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Mmm...!?」'
+	\L_062ff:
+	ZH 1:
+	'Rance（Gahahahaha, nice and round...）'
+	\L_062ff:
+	ZH 1:
+	'He laughed inside his mind while rolling her'
+	R
+	'nipples around.'
+	R
+	'He put his tongue on a hardened one and sucked.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Ngh... Mm, hgh...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko’s face distorted like she was about to cry.'
+	R
+	'She breathed exasperatedly.'
+	R
+	'Her bound body shuddered with tension.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko（No... I’m scared, King Rance...'
+	R
+	'        Why won’t you say anything...?）'
+	\L_062ff:
+	ZH 1:
+	'Rance（Hmmm, what should I do next...?）'
+	\L_062ff:
+	ZH 1:
+	'Rance’s fingers brushed over Chizuko’s side.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Hii...!」'
+	\L_062ff:
+	ZH 1:
+	'Rance（Alright, time for my rapid attack!）'
+	\L_062ff:
+	ZH 1:
+	'Rance got as far from Chizuko’s paralyzed body as'
+	R
+	'possible and rubbed all over her shoulders, ass and'
+	R
+	'neck.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko（Yah... Where are you, King Rance...?'
+	R
+	'        Where...!?）'
+	\L_062ff:
+	ZH 1:
+	'Every time he touched her, Chizuko looked in the'
+	R
+	'direction his hand came from, only to find darkness.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko（Where are you...?'
+	R
+	'        ...King Rance...?'
+	R
+	'        ...Or someone else...?）'
+	\L_062ff:
+	ZH 1:
+	'The anxiety inside Chizuko grew.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko（Could it be some low-life...?'
+	R
+	'        ...No, that can’t be...）'
+	\L_062ff:
+	ZH 1:
+	'The next instant, Rance’s hand slid onto Chizuko’s'
+	R
+	'crotch.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Mmmmmmmmmmmmmmmmm!!」'
+	\L_062ff:
+	ZH 1:
+	'Rance（Uhahahaha, Chizuko’s cute.）'
+	\L_062ff:
+	ZH 1:
+	'He restrained Chizuko from struggling and slowly'
+	R
+	'caressed her pussy.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Mm...!'
+	R
+	'        Mmmm, kh...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko rubbed her legs together and tried to'
+	R
+	'resist, but the man’s fingers were unaffected and'
+	R
+	'entered her.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Uu... Kh, hgh...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko hung her head and shook it.'
+	R
+	'A hot sigh escaped her lips against her will.'
+	\L_062ff:
+	ZH 1:
+	'Rance（Hmmm, I want to tell her that her body’s'
+	R
+	'      honest, but I have to hold back...）'
+	\L_062ff:
+	ZH 1:
+	'Rance made a serious face in the darkness and'
+	R
+	'continued to play with Chizuko.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko（King Rance... King Rance... Nooo...）'
+	\L_062ff:
+	ZH 1:
+	'When Chizuko’s pussy was moist, Rance stood behind'
+	R
+	'her.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Mmm...!?」'
+	\L_062ff:
+	ZH 1:
+	'He pulled her ass over and forced her legs open.'
+	R
+	'Chizuko mustered up the last of her strength to'
+	R
+	'resist.'
+	\L_062ff:
+	ZH 1:
+	'Chizuko（No... No, who are you...?!'
+	R
+	'        I don’t want anyone but King Rance...!）'
+	\L_062ff:
+	ZH 1:
+	'Rance（Alright... Time for this finish!）'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Mmmmmmmmmmm...!」'
+	\L_062ff:
+	ZH 1:
+	'Rance ignored Chizuko’s struggling and pushed his'
+	R
+	'hyper weapon into her pussy.'
+	\L_062ff:
+	ZH 1:
+	'Rance「Gahahahahaha.'
+	R
+	'      You’re sopping wet, Chizuko...!'
+	R
+	'      Gahahahahahahahaha...!」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko「Mm... mm, mm...」'
+	\L_062ff:
+	ZH 1:
+	'Chizuko（Aah... It’s King Rance’s voice...'
+	R
+	'        ...Hoh...）'
+	\L_062ff:
+	ZH 1:
+	'Chizuko calmed down and gave herself up to Rance...'
+	\L_062ff:
+	{VAR0520 = 301:
+		%0:
+	}
+	PF1 VAR0056:
+	\L_062f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	PF0 VAR0056:
+	%0:
+*L_030ed:
+	!VAR0516 : 1040!
+	\L_062d6:
+	!VAR0516 : 43!
+	\L_0622e:
+	\L_06212:
+	ZM 32:
+	ZH 1:
+	'　　　Zeth'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Chizuko’s Tower - Command Room'
+	\L_062ff:
+	{VAR0650 = 9:
+		@L_034e7:
+	}
+	{VAR0336 = 6:
+		ZH 1:
+		'  ＜slam!＞'
+		\L_062ff:
+		\L_062f2:
+		!VAR0516 : 478!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'Lord Chizuko, the Leazas Army'
+		R
+		'is approaching our tower!'
+		\L_062ff:
+		\L_062f2:
+		\L_06212:
+		ZH 1:
+		'One of the mages working for'
+		R
+		'Chizuko appeared with a report.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'I see... So those fools have'
+		R
+		'come. Let’s intercept them.'
+		\L_062ff:
+		ZH 1:
+		'Have everyone defend...'
+		R
+		'Formation X!'
+		R
+		'Annihilate them all!'
+		\L_062ff:
+		ZH 1:
+		'I’ll show that savage nation'
+		R
+		'how great our wonderful King’s'
+		R
+		'people are...'
+		R
+		'Hooohohohohohoho...!'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Um, Lord Chizuko...'
+		R
+		'What is Formation X...?'
+		\L_062ff:
+		\L_062f2:
+		\L_06212:
+		ZH 1:
+		'  ＜kh!＞'
+		\L_062ff:
+		ZH 1:
+		'Chizuko glared at her'
+		R
+		'subordinate.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'You’re obnoxious...'
+		R
+		'Watch what you say.'
+		\L_062ff:
+		ZH 1:
+		'I just said that to go with'
+		R
+		'the spirit of things. Are you'
+		R
+		'trying to ruin the mood I went'
+		R
+		'to the trouble of creating?'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Huh, the mood...'
+		R
+		'I’ll go with the spirit of'
+		R
+		'things and challenge them with'
+		R
+		'Formation X, then.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Mm, good.'
+		\L_062ff:
+		\L_062f2:
+		\L_06266:
+		ZH 1:
+		'Haah...'
+		R
+		'It’s hard without Annis'
+		R
+		'Sawatari around...'
+		\L_062ff:
+		\L_062f2:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	ZH 1:
+	'  ＜dahdahdahdahdahdah...!＞'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Lord Chizuko, they’re here...!'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'The sound of Annis running up'
+	R
+	'the stairs could be heard from'
+	R
+	'the other side of the door.'
+	\L_062ff:
+	ZH 1:
+	'  ＜slam＞'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 52!
+	\L_0629e:
+	\L_0624a:
+	ZH 1:
+	'The Leazas Army’s here... Ah!?'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'  ＜bzzzzzzzzzzzzzt!＞'
+	\L_062ff:
+	ZH 1:
+	'Intense electricity assaulted'
+	R
+	'Annis from above the door.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Ow... Ouch...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Ouch nothing, a normal person'
+	R
+	'would’ve died...'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Lord Chizuko, the Leazas Army'
+	R
+	'is...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'I know, I heard you.'
+	R
+	'You don’t need to be that loud.'
+	\L_062ff:
+	ZH 1:
+	'More importantly, I know I'
+	R
+	'told you I set up \"Annis'
+	R
+	'Repellent\".'
+	R
+	'Be a bit more careful.'
+	\L_062ff:
+	ZH 1:
+	'Now... I’m going.'
+	R
+	'I have to drive the filthy'
+	R
+	'Leazas Army away from this'
+	R
+	'tower... and from Zeth.'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko quickly prepared'
+	R
+	'herself and left the room.'
+	\L_062ff:
+	\L_062f2:
+	\L_0623c:
+	\L_0624a:
+	ZH 1:
+	'Lord Chizuko... If you don’t'
+	R
+	'disable the \"Annis Repellent\",'
+	R
+	'I can’t get out of this room...'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_034e7:
+	{VAR0320 = 0:
+		@L_037db:
+	}
+	\L_062f2:
+	{VAR0336 = 6:
+		!VAR0516 : 478!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'Lord Chizuko, the Leazas Army'
+		R
+		'is heading here again.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'I see...'
+		R
+		'Then prepare to deploy...'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Yes.'
+		\L_062ff:
+		\L_062f2:
+		\L_062ac:
+	}
+	{VAR0336 = 7:
+		!VAR0516 : 52!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'Um... Are you the real Lord'
+		R
+		'Chizuko...?'
+		\L_062ff:
+		ZH 1:
+		'The Leazas Army is here again,'
+		R
+		'but as far as orders, um...'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'I see...'
+		R
+		'Tell everyone to prepare to'
+		R
+		'sortie...'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Y-Yes.'
+		\L_062ff:
+		\L_062f2:
+		\L_062ac:
+		\L_06212:
+		ZH 1:
+		'While Annis left the room, she'
+		R
+		'was strangely startled by how'
+		R
+		'lifeless Chizuko was.'
+		\L_062ff:
+		\L_062f2:
+	}
+	\L_061da:
+	ZH 1:
+	'Haaah...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko took a long sigh and'
+	R
+	'hung her head.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Aah...'
+	R
+	'What should I do...?'
+	R
+	'Sob, King Gandhi...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'She looked at the letter in'
+	R
+	'her hands and hung her head'
+	R
+	'even lower.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'If it was going to be this...'
+	R
+	'I shouldn’t have sent that'
+	R
+	'letter...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'The other day, Chizuko sent a'
+	R
+	'letter to Gandhi saying, \"I'
+	R
+	'want to fight with you. I’ll'
+	R
+	'betray Zeth and go to Leazas.\"'
+	\L_062ff:
+	ZH 1:
+	'The letter she was holding now'
+	R
+	'was Gandhi’s response.'
+	\L_062ff:
+	ZH 1:
+	'...The response was simple.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'.........'
+	R
+	'\"You’re one of Zeth’s Four'
+	R
+	'Lords. Die with Zeth.\"'
+	\L_062ff:
+	ZH 1:
+	'Aaah, I can’t take this, King'
+	R
+	'Gandhi...! Uu... Uuu...'
+	\L_062ff:
+	ZH 1:
+	'Sob, hii...'
+	R
+	'...Haah...'
+	R
+	'But if you say so...'
+	\L_062ff:
+	ZH 1:
+	'Then all I can do is die with'
+	R
+	'Zeth... I’ll fight, King'
+	R
+	'Gandhi... For you...'
+	\L_062ff:
+	ZH 1:
+	'But...'
+	R
+	'In the end, I at least want to'
+	R
+	'die in your hands... In your'
+	R
+	'arms... King Gandhi...'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_037db:
+	!VAR0320 : 1!
+	{VAR0336 = 6:
+		ZH 1:
+		'  ＜slam!＞'
+		\L_062ff:
+		\L_062f2:
+		!VAR0516 : 478!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'Lord Chizuko, the Leazas Army'
+		R
+		'is approaching our tower!'
+		\L_062ff:
+		\L_062f2:
+		\L_06212:
+		ZH 1:
+		'One of the mages working for'
+		R
+		'Chizuko appeared with a report.'
+		\L_062ff:
+		\L_062f2:
+	}
+	{VAR0336 = 7:
+		ZH 1:
+		'  ＜kabooooooom!＞'
+		\L_062ff:
+		ZH 1:
+		'Annis smashed down the iron'
+		R
+		'door and ran into the room.'
+		\L_062ff:
+		\L_062f2:
+		!VAR0516 : 52!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'Lord Chizuko, they’re here...!'
+		R
+		'The Leazas Army is here...'
+		R
+		'Ah!?'
+		\L_062ff:
+		\L_062f2:
+		\L_06212:
+		ZH 1:
+		'Her eyes opened wide with'
+		R
+		'shock.'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'You aren’t mad...!?'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Moron... How rude.'
+		R
+		'It’s not like I’m mad all the'
+		R
+		'time. Repair that door...'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Hoh...'
+		R
+		'You still called me rude, but'
+		R
+		'I can’t believe you aren’t'
+		R
+		'mad...'
+		\L_062ff:
+		\L_062f2:
+	}
+	\L_061da:
+	ZH 1:
+	'I see...'
+	R
+	'So the Leazas Army’s here...'
+	\L_062ff:
+	ZH 1:
+	'Leazas...'
+	R
+	'King Gandhi... Aah...'
+	\L_062ff:
+	\L_062f2:
+	{VAR0336 = 6:
+		\L_0624a:
+		ZH 1:
+		'Lord Chizuko, um...'
+		R
+		'Please give your orders.'
+		\L_062ff:
+		\L_062f2:
+	}
+	{VAR0336 = 7:
+		\L_0624a:
+		ZH 1:
+		'Lord Chizuko, please give your'
+		R
+		'orders for the defense captain.'
+		\L_062ff:
+		\L_062f2:
+	}
+	\L_061da:
+	ZH 1:
+	'...Haah...'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Lord Chizuko... Lord Chizuko!'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Ah...'
+	R
+	'Yes, okay... Orders...'
+	\L_062ff:
+	\L_062f2:
+	{VAR0336 = 6:
+		\L_0624a:
+		ZH 1:
+		'Please get ahold of yourself,'
+		R
+		'if this is how our commander'
+		R
+		'is, then we’re...'
+		\L_062ff:
+		\L_062f2:
+	}
+	{VAR0336 = 7:
+		\L_0624a:
+		ZH 1:
+		'Please get ahold of yourself...'
+		R
+		'It scares me to see you like'
+		R
+		'this...'
+		\L_062ff:
+		\L_062f2:
+	}
+	\L_061da:
+	ZH 1:
+	'I see... Sorry.'
+	\L_062ff:
+	\L_062f2:
+	{VAR0336 = 6:
+		\L_0623c:
+		!VAR0516 : 478!
+		\L_0622e:
+		\L_061da:
+		ZH 1:
+		'Hii...'
+		R
+		'What did I just hear!?'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'I can’t believe it...'
+		R
+		'Lord Chizuko just said she was'
+		R
+		'sorry...'
+		\L_062ff:
+		\L_062f2:
+		\L_0623c:
+		!VAR0516 : 43!
+		\L_0622e:
+		\L_061da:
+	}
+	{VAR0336 = 7:
+		\L_0624a:
+		ZH 1:
+		'Hii...!?'
+		\L_062ff:
+		ZH 1:
+		'D-Did Lord Chizuko just say'
+		R
+		'\"Sorry\"...!?'
+		\L_062ff:
+		ZH 1:
+		'Oh no, I’m scared...!'
+		\L_062ff:
+		\L_062f2:
+		\L_062ac:
+		\L_06212:
+		ZH 1:
+		'Annis ran out of the room.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'What’s with her...?'
+		R
+		'Geez, I can’t deal with this'
+		R
+		'idiot anymore. I have to get'
+		R
+		'serious...'
+		\L_062ff:
+	}
+	ZH 1:
+	'Haah... Yes...'
+	R
+	'He’ll laugh at me if I don’t'
+	R
+	'fight seriously...'
+	\L_062ff:
+	ZH 1:
+	'Yes... even if he’s my enemy...'
+	R
+	'...My enemy...'
+	R
+	'Uu... Hick...'
+	\L_062ff:
+	\L_062f2:
+	{VAR0336 = 6:
+		\L_0624a:
+		ZH 1:
+		'Um...'
+		R
+		'Is something wrong, Lord'
+		R
+		'Chizuko...? Are you feeling'
+		R
+		'okay...?'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Nothing’s wrong...'
+		R
+		'I just had some dust in my eye.'
+		\L_062ff:
+	}
+	{VAR0336 = 7:
+		\L_06212:
+		ZH 1:
+		'After hanging her head for a'
+		R
+		'bit, Chizuko wiped away her'
+		R
+		'tears.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'...No, I can’t cry. This isn’t'
+		R
+		'the time to think about that,'
+		R
+		'King Gandhi will laugh at me.'
+		R
+		'...Captain! Defense captain!'
+		\L_062ff:
+		\L_062f2:
+		!VAR0516 : 478!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'Yes... You called?'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'The Leazas Army is approaching.'
+		R
+	}
+	ZH 1:
+	'Deploy everyone in advance...'
+	R
+	'I’ll go out shortly, too.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Yes...'
+	R
+	'We’ll be waiting, then.'
+	\L_062ff:
+	\L_062f2:
+	\L_062ac:
+	\L_061da:
+	ZH 1:
+	'............'
+	\L_062ff:
+	\L_062f2:
+	\L_061f6:
+	ZH 1:
+	'King Gandhi... Please at least'
+	R
+	'be here. Come here to defeat'
+	R
+	'me...'
+	\L_062ff:
+	ZH 1:
+	'I don’t want to be beaten by a'
+	R
+	'random Leazas soldier...'
+	R
+	'King Gandhi...'
+	\L_062ff:
+	\L_062f2:
+	{VAR0336 = 7:
+		!VAR0516 : 52!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'Prepare yourself, imposter'
+		R
+		'Lord Chizuko!'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'...Huh?'
+		\L_062ff:
+		\L_062f2:
+		\L_06212:
+		ZH 1:
+		'Annis came through the door'
+		R
+		'with a weapon.'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Take this!'
+		R
+		'Snow La-...'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Lightning.'
+		\L_062ff:
+		\L_062f2:
+		\L_06212:
+		ZH 1:
+		'  ＜kabooooooooom!!＞'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Ack...'
+		\L_062ff:
+		\L_062f2:
+		\L_062ac:
+		\L_061f6:
+		ZH 1:
+		'Haah... King Gandhi...'
+		R
+		'I want you to beat me...'
+		R
+		'Come here...'
+		\L_062ff:
+		\L_062f2:
+	}
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_03ea1:
+	!VAR0001 : 0!
+	SS 3:
+	{(VAR0569 = 37) + (VAR0570 = 37) + (VAR0571 = 37) + (VAR0572 = 37):
+		!VAR0154 : 37!
+		{VAR0102 \ 0:
+			!VAR0001 : 1!
+		}
+	}
+	{(VAR0001 = 0) * (VAR0650 = 9):
+		@L_043d9:
+	}
+	{(VAR0001 = 1) * (VAR0650 = 9):
+		@L_04575:
+	}
+	!VAR0774 : 2!
+	!VAR0516 : 1040!
+	\L_062d6:
+	!VAR0516 : 43!
+	\L_0622e:
+	\L_06212:
+	ZM 32:
+	ZH 1:
+	'　　　　Zeth'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'   Chizuko’s Tower - 6F'
+	\L_062ff:
+	ZH 1:
+	'  ＜tahtahtahtah...＞'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Haah, haah, haah, haah...!'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko was injured and'
+	R
+	'running up the dimly lit'
+	R
+	'staircase.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'...Why...? Why did I lose...?'
+	R
+	'I can’t... believe...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko couldn’t run anymore'
+	R
+	'and sat down in the middle of'
+	R
+	'the stairs.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Haah, haah...'
+	R
+	'I see...'
+	R
+	'This has to be a test...'
+	\L_062ff:
+	ZH 1:
+	'I’m being pushed to the limit'
+	R
+	'to awaken some new power...'
+	R
+	'I’m sure I’ll learn some new'
+	R
+	'special attack...'
+	\L_062ff:
+	ZH 1:
+	'I’ll be okay... I’ll never'
+	R
+	'lose, if I did I couldn’t look'
+	R
+	'King Gandhi in the face...'
+	R
+	'I’ll resurrect like a phoenix.'
+	\L_062ff:
+	ZH 1:
+	'...Hm... Who’s there...?'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 477!
+	\L_0629e:
+	\L_0624a:
+	ZH 1:
+	'Kekeh... Your subordinate’s'
+	R
+	'subordinate’s subordinate’s'
+	R
+	'subordinate’s... underlings.'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Six Zeth slave troops appeared'
+	R
+	'before Chizuko.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Filthy slaves...'
+	R
+	'Go away.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'No.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'What did you say!?'
+	\L_062ff:
+	\L_062f2:
+	\L_0623c:
+	!VAR0516 : 477!
+	\L_0622e:
+	\L_061da:
+	ZH 1:
+	'Hey, you heard what she was'
+	R
+	'sayin’? That stuff about bein’'
+	R
+	'like a phoenix.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'I thought the only joke she'
+	R
+	'had was her clothes.'
+	\L_062ff:
+	\L_062f2:
+	\L_0623c:
+	!VAR0516 : 43!
+	\L_0622e:
+	\L_061da:
+	ZH 1:
+	'You dare to insult me?'
+	R
+	'I’ll have your whole family'
+	R
+	'put to death.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Keh, you don’t scare us!'
+	R
+	'Leazas’ll kill us anyway!'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Ah...!'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'The slave troops rushed at'
+	R
+	'Chizuko with bloodshot eyes.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Filth, get off me...!'
+	R
+	'Snow Laser!!'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Gwah...!'
+	\L_062ff:
+	\L_062f2:
+	\L_062ac:
+	\L_06212:
+	ZH 1:
+	'The cast magic obliterated'
+	R
+	'three of the slave troops.'
+	R
+	'But the remaining three'
+	R
+	'restrained Chizuko.'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 477!
+	\L_0629e:
+	\L_0624a:
+	ZH 1:
+	'No strugglin’!'
+	R
+	'You’d get caught and raped by'
+	R
+	'the Leazas soldiers anyway...!'
+	\L_062ff:
+	ZH 1:
+	'Be thankful allies from the'
+	R
+	'same country’ll rape you first!'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Who are you calling an ally?'
+	R
+	'You’re slaves, you aren’t even'
+	R
+	'close to my level!'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'We’re on the same level if we'
+	R
+	'pull you down...!'
+	\L_062ff:
+	\L_062f2:
+	{VAR0336 = 7:
+		\L_061da:
+		ZH 1:
+		'Yah... Annis!'
+		R
+		'Aaaaaaaanniiiiiiiis!!'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Keh, wastin’ your time!'
+		R
+		'She’s already bein’ raped'
+		R
+		'somewhere else...!'
+		\L_062ff:
+		\L_062f2:
+	}
+	\L_061da:
+	ZH 1:
+	'No... Stop...'
+	R
+	'King Gandhiii...!'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Heh, too bad we were assigned'
+	R
+	'to this weird bitch’s tower...'
+	R
+	'Wish we could’ve had the'
+	R
+	'princess...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'............'
+	\L_062ff:
+	ZH 1:
+	'Chizuko was ultimately'
+	R
+	'gang-raped by a total of 20'
+	R
+	'slave troops and killed.'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_043d9:
+	!VAR0516 : 1040!
+	\L_062d6:
+	!VAR0516 : 43!
+	\L_0622e:
+	\L_06212:
+	ZM 32:
+	ZH 1:
+	'　　　　Zeth'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'   Chizuko’s Tower - 7F'
+	\L_062ff:
+	ZH 1:
+	'Chizuko was sitting in a dark,'
+	R
+	'narrow storage room.'
+	\L_062ff:
+	ZH 1:
+	'There was a trail of blood'
+	R
+	'that appeared to have been'
+	R
+	'wiped over the floor in front'
+	R
+	'of her. She was injured.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'King Gandhi...'
+	R
+	'Huhu, King Gandhi...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko leaned on the wall and'
+	R
+	'laughed quietly.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'I got stronger because I'
+	R
+	'wanted to be with you...'
+	R
+	'I studied magic because I'
+	R
+	'wanted you to talk to me...'
+	\L_062ff:
+	ZH 1:
+	'I did inhuman things for you...'
+	R
+	'But... But, but...'
+	\L_062ff:
+	ZH 1:
+	'You won’t even come to see me'
+	R
+	'die... Huhu... Huhu, I’m such'
+	R
+	'an idiot...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'She picked up a nearby'
+	R
+	'dagger...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'I hate you, King Gandhi...!'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko thrust it into her'
+	R
+	'heart...'
+	\L_062ff:
+	ZH 1:
+	'Chizuko Yamada, leader of'
+	R
+	'Zeth’s Four Lords, died.'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_04575:
+	!VAR0320 : 2!
+	!VAR0516 : 1040!
+	\L_062d6:
+	!VAR0516 : 43!
+	\L_0622e:
+	\L_06212:
+	ZM 32:
+	ZH 1:
+	'　　　　Zeth'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Chizuko’s Tower - Command Room'
+	\L_062ff:
+	ZH 1:
+	'Chizuko staggered back into'
+	R
+	'the room, injured and in'
+	R
+	'tatters.'
+	\L_062ff:
+	\L_062f2:
+	\L_061f6:
+	ZH 1:
+	'Haah...'
+	R
+	'I can’t go on...'
+	\L_062ff:
+	ZH 1:
+	'I wonder if King Gandhi will'
+	R
+	'find my corpse...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko took out a dagger and'
+	R
+	'placed it against the left'
+	R
+	'side of her chest.'
+	R
+	'She gripped it with both hands.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Goodbye, King Gandhi...!'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Just then...'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Wait, Chizuko!'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'A low, familiar voice reached'
+	R
+	'Chizuko’s ears.'
+	\L_062ff:
+	ZH 1:
+	'The dagger fell from Chizuko’s'
+	R
+	'hands.'
+	R
+	'Tears poured from her eyes.'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 42!
+	\L_0629e:
+	\L_061da:
+	ZH 1:
+	'K-King Gandhi...'
+	R
+	'King Gandhi...!'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Fool...'
+	R
+	'I didn’t teach you to commit'
+	R
+	'suicide.'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Gandhi laughed gently and'
+	R
+	'helped Chizuko back up after'
+	R
+	'she sank to the floor.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Chizuko... You fought well.'
+	R
+	'Thanks to all your fighting,'
+	R
+	'Zeth can have a beautiful'
+	R
+	'collapse...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Uu... Uhn, hyeh...'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Do you understand my'
+	R
+	'intentions, Chizuko...?'
+	\L_062ff:
+	ZH 1:
+	'The Four Lords have to be'
+	R
+	'defeated for the people of'
+	R
+	'Zeth to accept merging with'
+	R
+	'Leazas.'
+	\L_062ff:
+	ZH 1:
+	'It’s all to unite the world...'
+	R
+	'Zeth will be destroyed, but'
+	R
+	'humanity won’t.'
+	R
+	'This is a good thing...'
+	\L_062ff:
+	ZH 1:
+	'I had to hurt you for my'
+	R
+	'ambitions, Chizuko.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Hick...'
+	R
+	'...It hurt a lot...'
+	\L_062ff:
+	ZH 1:
+	'King Gandhi, King Gandhi...!'
+	R
+	'It was really hard...!'
+	R
+	'Fighting for a country whose'
+	R
+	'king had left it...!'
+	\L_062ff:
+	ZH 1:
+	'Uu... Uuu, uu...'
+	R
+	'Please don’t ever leave again,'
+	R
+	'King Gandhi...'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'...Chizuko... I’m not a king'
+	R
+	'anymore. I’m merely a soldier'
+	R
+	'for Leazas. This country will'
+	R
+	'be destroyed...'
+	\L_062ff:
+	ZH 1:
+	'You come to Leazas too,'
+	R
+	'Chizuko. Fight with me under'
+	R
+	'King Rance to protect humanity'
+	R
+	'from the monsters.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'............'
+	\L_062ff:
+	ZH 1:
+	'Then... King Gandhi...'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'What?'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko neglected to wipe her'
+	R
+	'tears and looked up at Gandhi.'
+	R
+	'She grasped the clothes on his'
+	R
+	'chest with her thin fingers.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Please marry me.'
+	R
+	'I’ve always loved you...'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'...Chizuko.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'I always have, but I could'
+	R
+	'never say it...'
+	R
+	'Because you were the King...'
+	R
+	'But now that you’re not...!'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Chizuko... I think of you like'
+	R
+	'my own daughter. Also...'
+	R
+	'...She’s passed away, but I'
+	R
+	'still love my wife.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'King Gandhi...'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Sorry...'
+	R
+	'It’s not just you, I can’t'
+	R
+	'marry anyone...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Uu... Uu, uu...'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'But Chizuko, I do want to make'
+	R
+	'you happy.'
+	\L_062ff:
+	ZH 1:
+	'Yes... I want you to have'
+	R
+	'happiness that someone like me'
+	R
+	'can’t give you himself.'
+	\L_062ff:
+	ZH 1:
+	'Come to Leazas, Chizuko.'
+	R
+	'And work for King Rance.'
+	R
+	'Love him... Be his mistress,'
+	R
+	'and have his child.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Wha...?'
+	R
+	'King Gandhi, I...!'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Listen, Chizuko.'
+	R
+	'King Rance is the prophesied'
+	R
+	'messiah. A hero.'
+	\L_062ff:
+	ZH 1:
+	'Receive the messiah’s love and'
+	R
+	'have his child...'
+	R
+	'There’s likely no greater'
+	R
+	'happiness in the world.'
+	\L_062ff:
+	ZH 1:
+	'That’s what I want for you.'
+	R
+	'Understand, Chizuko?'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'King Gandhi...'
+	R
+	'Are you saying you want to'
+	R
+	'give me the greatest possible'
+	R
+	'happiness in the world...?'
+	\L_062ff:
+	ZH 1:
+	'And that that’s to be loved by'
+	R
+	'King Rance...?'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Mhm, that’s right.'
+	R
+	'That’s my honest wish.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Your wish...'
+	R
+	'Understood, I’ll...'
+	R
+	'work for King Rance...'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_04b8f:
+	!VAR0320 : 3!
+	!VAR0154 : 38!
+	!VAR0102 : 2!
+	SS 5:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_062d6:
+	!VAR0516 : 1!
+	\L_0622e:
+	\L_06212:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　Audience Room'
+	\L_062ff:
+	ZH 1:
+	'Rance was reclining on the'
+	R
+	'throne and making a girl serve'
+	R
+	'him...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	!VAR0154 : 2!
+	{VAR0102 \ 0:
+		ZH 1:
+		'Hmmmmm...'
+		R
+		'Sill, come here for a bit.'
+		\L_062ff:
+		\L_062f2:
+		!VAR0516 : 2!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'Yes, do you need something,'
+		R
+		'Master Rance?'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Mhm, let me rub your boobs.'
+		\L_062ff:
+		\L_062f2:
+		\L_06212:
+		ZH 1:
+		'  ＜rub rub＞'
+		\L_062ff:
+		\L_062f2:
+		\L_062ac:
+		!VAR0516 : 5!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'Ah, Darling!!'
+		R
+		'Don’t touch that slave.'
+		\L_062ff:
+		\L_062f2:
+		\L_062ac:
+		!VAR0516 : 2!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'Kyah... Master Rance, don’t do'
+		R
+		'this in front of people...'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Hey, no complaining, I’m happy.'
+		R
+	}
+	!VAR0154 : 16!
+	{VAR0102 \ 0:
+		ZH 1:
+		'...Hey, Maria.'
+		R
+		'Come here, and no complaining.'
+		\L_062ff:
+		\L_062f2:
+		\L_062ac:
+		!VAR0516 : 50!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'Huh...? N-No.'
+		R
+		'I have a bad feeling.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Shut up, just be quiet and let'
+		R
+		'me rub your ass.'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Ah...!'
+		\L_062ff:
+		\L_062f2:
+		\L_06212:
+		ZH 1:
+		'  ＜boink＞'
+		\L_062ff:
+		ZH 1:
+		'Rance caught Maria’s ass'
+		R
+		'before she could run away and'
+		R
+		'rubbed it.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Yep, good ass.'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Geez, stupid pervert!'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Gahahahahaha.'
+		R
+	}
+	!VAR0154 : 17!
+	{VAR0102 \ 0:
+		ZH 1:
+		'...Uh, Shizuka.'
+		R
+		'Strip for me.'
+		\L_062ff:
+		\L_062f2:
+		\L_062ac:
+		!VAR0516 : 49!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'.........'
+		R
+		'No thanks, pervert!'
+		\L_062ff:
+		\L_062f2:
+		\L_062ac:
+		\L_061da:
+		ZH 1:
+		'Ch... She left.'
+		R
+	}
+	ZH 1:
+	'Hey, Lia...'
+	\L_062ff:
+	\L_062f2:
+	\L_062ac:
+	!VAR0516 : 5!
+	\L_0629e:
+	\L_0624a:
+	ZH 1:
+	'Whaaat is it, Darling?'
+	R
+	'Will you play with me?'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Nah, I’ve been bored of you'
+	R
+	'recently. Hire more new maids'
+	R
+	'and stuff for the castle.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Boooo, Darling, you only play'
+	R
+	'with other girls.'
+	R
+	'Play with me once in a while.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Shut up. No thanks.'
+	\L_062ff:
+	\L_062f2:
+	\L_062ac:
+	!VAR0516 : 6!
+	\L_0629e:
+	\L_0624a:
+	ZH 1:
+	'Um, King Rance...'
+	\L_062ff:
+	ZH 1:
+	'Mr. Gandhi told me the other'
+	R
+	'day that a woman that was high'
+	R
+	'up in Zeth came here.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Hm? Ooh, ooh.'
+	R
+	'A new woman? I should meet'
+	R
+	'with her. Let her in here.'
+	\L_062ff:
+	\L_062f2:
+	\L_062ac:
+	!VAR0516 : 5!
+	\L_0629e:
+	\L_0624a:
+	ZH 1:
+	'Geez...'
+	R
+	'You’re so mean, Darling.'
+	\L_062ff:
+	\L_062f2:
+	\L_061f6:
+	ZH 1:
+	'A lot of hot girls work for'
+	R
+	'Gandhi...'
+	R
+	'I’ve got high expectations.'
+	R
+	'Uhaha.'
+	\L_062ff:
+	\L_062f2:
+	\L_062ac:
+	\L_06212:
+	ZH 1:
+	'.........'
+	R
+	'Chizuko appeared before Rance,'
+	R
+	'who was tittering with'
+	R
+	'anticipation.'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 43!
+	\L_0629e:
+	\L_0624a:
+	ZH 1:
+	'Nice to meet you, King Rance...'
+	R
+	'I’m Chizuko, formerly the'
+	R
+	'leader of Zeth’s Four Lords.'
+	\L_062ff:
+	ZH 1:
+	'I came at Gandhi’s order...'
+	R
+	'I’m ready.'
+	\L_062ff:
+	ZH 1:
+	'Whether I work for you or be'
+	R
+	'your mistress, I want to love'
+	R
+	'with all my heart and be as'
+	R
+	'useful as I can.'
+	\L_062ff:
+	ZH 1:
+	'Please let me be by your side.'
+	R
+	'I’ll do anything.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'.........'
+	R
+	'Nah, you’re way too gawdy.'
+	\L_062ff:
+	\L_062f2:
+	\L_06266:
+	ZH 1:
+	'Gaaaaah...'
+	\L_062ff:
+	ZH 1:
+	'Aaaah...'
+	\L_062ff:
+	ZH 1:
+	'Aaah...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	R
+	'.........'
+	\L_062ff:
+	ZH 1:
+	R
+	'......'
+	\L_062ff:
+	ZH 1:
+	R
+	'...'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1061!
+	\L_062d6:
+	\L_06212:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　Gandhi’s Room'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko was crying in front of'
+	R
+	'Gandhi...'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 43!
+	\L_0622e:
+	\L_061da:
+	ZH 1:
+	'King Gandhi, I can’t do it...'
+	R
+	'I can’t...! Uu, hwah, King'
+	R
+	'Rance hates me, uu...'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 42!
+	\L_0629e:
+	\L_0624a:
+	ZH 1:
+	'Now now, don’t cry, Chizuko.'
+	R
+	'You’ll be okay.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'H-How will I be okay...?'
+	R
+	'It’s no use, all I can do now'
+	R
+	'is die...!'
+	\L_062ff:
+	ZH 1:
+	'Hick, I’m ugly...'
+	R
+	'So he hates me...'
+	R
+	'And you rejected me too...'
+	\L_062ff:
+	ZH 1:
+	'Sob, uhn, all of King Rance’s'
+	R
+	'mistresses are beautiful...'
+	R
+	'There’s no way I can be one...!'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Chizuko... This isn’t like you.'
+	R
+	'What happened to your self-'
+	R
+	'confidence? You’re beautiful.'
+	R
+	'Have confidence.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'But... King Rance...'
+	R
+	'The person I should love...'
+	R
+	'He said I’m gawdy and doesn’t'
+	R
+	'want me... Uuu...'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Mgh... That’s true, so we have'
+	R
+	'no choice. It would be best'
+	R
+	'for him to love you for who'
+	R
+	'you are, but...'
+	\L_062ff:
+	\L_062f2:
+	\L_062ac:
+	\L_061da:
+	ZH 1:
+	'...?'
+	R
+	'King Gandhi, what is it...?'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Gandhi handed Chizuko a trunk'
+	R
+	'that was sitting in a corner'
+	R
+	'of the room.'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 42!
+	\L_0629e:
+	\L_0624a:
+	ZH 1:
+	'Wear these, Chizuko.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Huh...?'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'A set of clothing was in the'
+	R
+	'trunk.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'If you wear this and meet with'
+	R
+	'King Rance, I’m sure he’ll'
+	R
+	'like you. Your current clothes'
+	R
+	'should be sealed.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'But... These are wonderful'
+	R
+	'magic clothes, with the best'
+	R
+	'design... There’s nothing'
+	R
+	'better than these...'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Don’t worry about it, just'
+	R
+	'wear this. You have to stop'
+	R
+	'looking like that. That’s the'
+	R
+	'path to King Rance’s love.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'...Uu... Understood...'
+	R
+	'It’s probably pointless, but'
+	R
+	'I’ll try it...'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Don’t lose heart, Chizuko...!'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1001!
+	\L_062d6:
+	\L_06212:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　　Changing Room'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 43!
+	\L_0622e:
+	\L_061da:
+	ZH 1:
+	'Haah...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko was fidgeting as she'
+	R
+	'removed her magic clothes.'
+	R
+	'She was gazing at the clothes'
+	R
+	'in the trunk and sighing.'
+	\L_062ff:
+	\L_062f2:
+	\L_061f6:
+	ZH 1:
+	'...King Gandhi, your fashion'
+	R
+	'sense is bad... You’re such a'
+	R
+	'great person, but these'
+	R
+	'clothes are embarrassing...'
+	\L_062ff:
+	ZH 1:
+	'Haah... Do I really have to'
+	R
+	'see King Rance in this...?'
+	R
+	'This doesn’t have a mage’s'
+	R
+	'majesty or anything...'
+	\L_062ff:
+	ZH 1:
+	'Also, this...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Haah... These clothes make it'
+	R
+	'easy to tell how small my'
+	R
+	'breasts are... So embarrassing.'
+	R
+	'I don’t like them...'
+	\L_062ff:
+	ZH 1:
+	'...No, you have to do this,'
+	R
+	'Chizuko. You promised King'
+	R
+	'Gandhi. All you can do is wear'
+	R
+	'this and go.'
+	\L_062ff:
+	\L_062f2:
+	\L_061f6:
+	ZH 1:
+	'If King Rance hates me now...'
+	R
+	'He probably will, but...'
+	R
+	'I’ll die...'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_062d6:
+	!VAR0516 : 1!
+	\L_0622e:
+	!VAR0516 : 6!
+	\L_0629e:
+	\L_06212:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　Audience Room'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'King Rance, Chizuko is here to'
+	R
+	'see you.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Hm? Aah, the gawdy girl from'
+	R
+	'Zeth... Don’t need to see her,'
+	R
+	'send her back. I only care'
+	R
+	'about using hot girls.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'I assumed you would say as'
+	R
+	'much, but... Actually, she’s'
+	R
+	'already being led here.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Uhn?'
+	R
+	'Hey, Maris...'
+	\L_062ff:
+	\L_062f2:
+	\L_062ac:
+	!VAR0516 : 61!
+	\L_0629e:
+	\L_0624a:
+	ZH 1:
+	'Um, I’m sorry, King Rance...'
+	R
+	'King Gandhi and I had an'
+	R
+	'unreasonable request for'
+	R
+	'Maris...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'.........'
+	R
+	'...Who are you?'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Huh?'
+	R
+	'I’m Chizuko.'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko was covering her chest'
+	R
+	'with her hands and squirming'
+	R
+	'around with embarrassment.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Geh, you are?'
+	R
+	'The Chizuko with the gawdy,'
+	R
+	'flashy, weird fashion sense?'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Weird...'
+	R
+	'It isn’t weird...'
+	R
+	'...But yes, I’m Chizuko.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Ooh, good, I like you...'
+	R
+	'Yeah, you’re pretty nice...'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Um... Will you let me be with'
+	R
+	'you...?'
+	\L_062ff:
+	ZH 1:
+	'I’ll do anything.'
+	R
+	'I’ll love you with all my'
+	R
+	'heart. Please, for my sake,'
+	R
+	'let me be with you...'
+	\L_062ff:
+	\L_062f2:
+	\L_061f6:
+	ZH 1:
+	'Gh...'
+	R
+	'Sh-She’s pretty cute, huh?'
+	R
+	'As different as she could be...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Uuh... Ahem.'
+	R
+	'Alright, since I’m generous.'
+	R
+	'I’d feel bad about abandoning'
+	R
+	'you, so I’ll use you.'
+	\L_062ff:
+	ZH 1:
+	'On the condition you keep'
+	R
+	'wearing that. When you fight,'
+	R
+	'too, even if it lowers your'
+	R
+	'fighting power a bit. Uhahaha.'
+	\L_062ff:
+	\L_062f2:
+	\L_0624a:
+	ZH 1:
+	'Haah, okay...'
+	R
+	'Understood, thank you, King'
+	R
+	'Rance. Excuse me...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko left the audience room'
+	R
+	'a bit astonished.'
+	\L_062ff:
+	\L_062f2:
+	\L_0623c:
+	\L_06266:
+	ZH 1:
+	'How does he like these weird'
+	R
+	'clothes more...?'
+	R
+	'How strange...'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	%0:
+*L_05900:
+	!VAR0516 : 1040!
+	\L_062d6:
+	!VAR0516 : 43!
+	\L_0622e:
+	\L_06212:
+	ZM 32:
+	ZH 1:
+	'　　　　Zeth'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'Chizuko’s Tower - Command Room'
+	\L_062ff:
+	ZH 1:
+	'  ＜stomp... stomp...＞'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Haah...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko was pacing around and'
+	R
+	'sighing. Even her footsteps'
+	R
+	'were completely devoid of'
+	R
+	'energy.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'King Gandhi...'
+	R
+	'What should I do...?'
+	R
+	'Haah...'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'  ＜gsh...＞'
+	\L_062ff:
+	ZH 1:
+	'Chizuko stopped and bit her'
+	R
+	'lip. She unconsciously teared'
+	R
+	'up.'
+	\L_062ff:
+	\L_062f2:
+	\L_061f6:
+	ZH 1:
+	'I want to go to you...'
+	R
+	'To Leazas... I finally know'
+	R
+	'where you are...'
+	\L_062ff:
+	ZH 1:
+	'But if I went, I’m sure you’d'
+	R
+	'be mad... But if I don’t do'
+	R
+	'anything, I’ll have to fight'
+	R
+	'you...'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Sob, King Gandhi...'
+	R
+	'What should I do...?'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'But nobody was around to'
+	R
+	'answer Chizuko’s question...'
+	\L_062ff:
+	\L_062f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_05a8b:
+	!VAR0516 : 1040!
+	\L_062d6:
+	!VAR0516 : 43!
+	\L_0622e:
+	\L_06212:
+	ZM 32:
+	ZH 1:
+	'　　　　Zeth'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'   Chizuko’s Tower - Top Floor'
+	\L_062ff:
+	ZH 1:
+	'  ＜step step step...＞'
+	\L_062ff:
+	ZH 1:
+	'Chizuko was pacing, her brisk'
+	R
+	'footsteps filling the room.'
+	\L_062ff:
+	\L_062f2:
+	\L_061da:
+	ZH 1:
+	'Hohohohohoh...'
+	R
+	'Just watch, Leazas...!'
+	R
+	'Our country’s backed by the'
+	R
+	'Flash’s power.'
+	\L_062ff:
+	ZH 1:
+	'We’ll destroy your country and'
+	R
+	'its stupid, brutal king in no'
+	R
+	'time at all!'
+	R
+	'Hoooohohohohohohoh...!'
+	\L_062ff:
+	\L_062f2:
+	\L_06212:
+	ZH 1:
+	'Chizuko gazed out the window'
+	R
+	'at the world below and laughed'
+	R
+	'loudly.'
+	\L_062ff:
+	\L_062f2:
+	{VAR0336 = 6:
+		!VAR0516 : 478!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'Um, that’s Zeth territory,'
+		R
+		'Lord Chizuko...'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'...Don’t bug me. What do you'
+		R
+		'want, magic commander?'
+		R
+		'You’re bringing me down from'
+		R
+		'my good mood.'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Are you sure we shouldn’t'
+		R
+		'march?'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'March?'
+		R
+		'...Of course we should.'
+		R
+		'Just when we attack Leazas'
+		R
+		'Castle, though.'
+		\L_062ff:
+		ZH 1:
+		'I’m such a good commander, you'
+		R
+		'could call me a star, or even'
+		R
+		'a superstar.'
+		\L_062ff:
+		\L_062f2:
+		\L_06266:
+		ZH 1:
+		'A star...'
+		R
+		'I’m a star now...'
+		R
+		'A superstar, at that...'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'A superstar doesn’t need to'
+		R
+		'bother fighting small fry.'
+		R
+		'We can wait to the end for a'
+		R
+		'cool appearance.'
+		\L_062ff:
+		ZH 1:
+		'So stay on alert for a while,'
+		R
+		'magic commander. Let’s prepare'
+		R
+		'in this tower.'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'As you wish...'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Hohohohohoh, King Gandhi...'
+		R
+		'I’m giving it my all,'
+		R
+		'Hooooohohohohohohoh,'
+		R
+		'Hooooooohohohohohohohoh...!'
+		\L_062ff:
+		\L_062f2:
+		\L_06212:
+		ZH 1:
+		'Chizuko threw her head back'
+		R
+		'and cackled.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Hooooooohohohohohohoh,'
+		R
+		'hooooooooohohohohohohohoh...!'
+		R
+		'But, haah...'
+		\L_062ff:
+		ZH 1:
+		'Aah... I’m lonely.'
+		R
+		'Come back soon, King Gandhi...'
+		\L_062ff:
+		\L_062f2:
+		\L_06266:
+		ZH 1:
+		'I wonder if it’s really safe'
+		R
+		'to entrust the country with'
+		R
+		'this person...'
+		\L_062ff:
+		\L_062f2:
+	}
+	{VAR0336 = 7:
+		!VAR0516 : 52!
+		\L_0629e:
+		\L_0624a:
+		ZH 1:
+		'Is it finally time to sortie,'
+		R
+		'Lord Chizuko?!'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Whoa, Annis!'
+		R
+		'Why did you come in from the'
+		R
+		'window?!'
+		\L_062ff:
+		\L_062f2:
+		\L_06212:
+		ZH 1:
+		'Annis jumped in from the top'
+		R
+		'floor window.'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Well, there was a leak on the'
+		R
+		'roof and... Wait, more'
+		R
+		'importantly, we’re deploying,'
+		R
+		'right!?'
+		\L_062ff:
+		ZH 1:
+		'I’ll do my best!'
+		R
+		'I’ll come back with 200 Leazas'
+		R
+		'soldiers’ heads!'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'No need, that would be'
+		R
+		'disgusting.'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Aah, I’m so excited.'
+		R
+		'Please watch, Lord Chizuko.'
+		R
+		'I’m dumb, but I’m strong, so'
+		R
+		'I’ll be useful this time.'
+		\L_062ff:
+		ZH 1:
+		'If heads are too big for war'
+		R
+		'spoils, maybe ears, or noses...'
+		R
+		'What would be good, Lord'
+		R
+		'Chizuko? Maybe fingers?'
+		\L_062ff:
+		ZH 1:
+		'Also, I can spend 200 GOLD on'
+		R
+		'snacks, right? Should I get a'
+		R
+		'banana? Should I make tea for'
+		R
+		'my canteen...?!'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Shut up.'
+		R
+		'You’re staying to watch the'
+		R
+		'tower, Annis.'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Huuuuuuuuuuh!?'
+		R
+		'But Lord Chizuko...!'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Stupid to get so excited, how'
+		R
+		'uncivilized... I’m a great'
+		R
+		'commander, you know. We won’t'
+		R
+		'deploy like it’s nothing.'
+		\L_062ff:
+		ZH 1:
+		'Regardless, I don’t know what'
+		R
+		'it is you’re thinking when you'
+		R
+		'fight, but you attack allies.'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Well, um, I’m really trying to'
+		R
+		'do good...'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'And somehow that makes you'
+		R
+		'destroy ally units!　Change'
+		R
+		'that way of thinking, let'
+		R
+		'Papaya burn it out of you!'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'S-Sorry.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Well... If you really want to'
+		R
+		'attack Leazas that much, then'
+		R
+		'quit being my pupil.'
+		R
+		'Just be a third class soldier.'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Haah...'
+		R
+		'Am I fired...?'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Well... Maybe.'
+		R
+		'If you were it would be a'
+		R
+		'relief for me.'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Please don’t abandon me, Lord'
+		R
+		'Chizukooo.'
+		\L_062ff:
+		\L_062f2:
+		\L_06212:
+		ZH 1:
+		'Annis made a truly pitiful'
+		R
+		'face. Chizuko felt superior'
+		R
+		'and smiled with satisfaction.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Heheh...'
+		R
+		'I’m sure a complete screw-up'
+		R
+		'like you would give the'
+		R
+		'military problems, too...'
+		\L_062ff:
+		ZH 1:
+		'This is an important political'
+		R
+		'time, so wait here.'
+		R
+		'My reputation would drop if I'
+		R
+		'let an idiot go unchecked.'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Ah... Thank you so much, I’ll'
+		R
+		'stay here!'
+		\L_062ff:
+		\L_062f2:
+		\L_061f6:
+		ZH 1:
+		'She’s an idiot, but she’s'
+		R
+		'endowed with a lot of power...'
+		\L_062ff:
+		ZH 1:
+		'If it came down to it, she can'
+		R
+		'be used as an ingredient for'
+		R
+		'the Flash, so I should keep'
+		R
+		'her on hand.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'Huhuhu, huhuhuhu...'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Ahaha, ahahahaha.'
+		R
+		'Ahahahahahahahaha.'
+		R
+		'This is fun, Lord Chizuko.'
+		\L_062ff:
+		\L_062f2:
+		\L_061da:
+		ZH 1:
+		'You don’t need to laugh!'
+		R
+		'If you’ve got time to laugh'
+		R
+		'then do your job! How long are'
+		R
+		'you going to stand here?!!'
+		\L_062ff:
+		\L_062f2:
+		\L_0624a:
+		ZH 1:
+		'Oooookay!'
+		\L_062ff:
+		\L_062f2:
+	}
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_061da:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_061f6:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_06212:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0622e:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0623c:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0624a:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+*L_06266:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0629e:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_062ac:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+*L_062ba:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_062d6:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_062f2:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_062ff:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

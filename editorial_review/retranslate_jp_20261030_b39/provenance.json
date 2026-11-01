@@ -1,0 +1,26 @@
+{
+ "semantic_base": "Verified original Japanese; English reference only.",
+ "verified_source_provenance_sha256": "9282664cf553185e695a9490bd8e0a3dce1876ba2ece7df0bb398a64ceb6577e",
+ "sources": {
+  "Cﾌﾞｶ.ADV": {
+   "japanese_sha256": "341e8796274ab21c56a8ffecaa0b2e94404d1f5c2440d3b83db1e46d3fdb8b65",
+   "normalized_sha256": "6a610dd373464b10e634b985bf93a876ee93274d96fba8c0575559d2acc0bd3a",
+   "english_reference_sha256": "4e402562f792c9fee421858e3903e1c1d6bbf40bcdd78ba3c3a7b51ab387a65f"
+  },
+  "Cﾃｲﾄ.ADV": {
+   "japanese_sha256": "0cdcf9abc0f241a1749c4d5640499a70f70f27c9916275fdf0dcc945c48f2ced",
+   "normalized_sha256": "75e5a1df8bc953c6a2b9e1a61606b9c074cd239247445c758991bf4557aea125",
+   "english_reference_sha256": "739cfe6c0fea0be4482ce381d41895de3a976423eb1085fd66f1cb44b545938a"
+  }
+ },
+ "rules_sha256": "84f0bcc969eada57b3427bada0934c07f44433e22adcb5a71d860cb91006da05",
+ "method": "Direct handwritten Vietnamese after complete JP/VI scene and branch reading; retained faithful manual text. No MT or bulk pronoun pipeline.",
+ "decisions": [
+  "Rance ta/Maris thần/Bệ hạ retained. エリート中のエリート architects retained,not generic builders; 王の居住区 specifies royal residence,not whole kingdom.",
+  "Hehehehe follows originalひひ/へへ; do not force Gahahahaha onto every Rance laugh. Library,peeping-room placement and hospital/pool demands follow JP subject and wording.",
+  "状況に応じた戦闘指揮修正値 means command corrections by combat situation,not terrain. Compact existing combat/stat labels and every arithmetic expression unchanged.",
+  "Six full facility names retained in actual menus/cards. Status-only aliases Nữ SQ/TV/BV/SM/Maria/Phép keep all6 objects visible on one row even when guards co-emit; alias mapping in layout_reflow.json. Single-week colloquial thêm tuần nữa means another week; existing display condition and H variable retained.",
+  "All original currency conversions/suffixes,construction months/costs,selection targets,availability guards,portrait calls and message box/wait counts unchanged. Only text and R line breaks changed."
+ ],
+ "english_reference_consulted": "Reference inventory retained; Japanese controls all edits,including laughs and command-heading meaning."
+}

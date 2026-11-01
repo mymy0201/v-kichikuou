@@ -1,0 +1,74 @@
+{
+  "file": "Gﾚﾘｭｰｺﾌ.ADV",
+  "method": "Original Japanese menu targets,VI targets,actual guards/jumps and resulting event sequences inspected. Static control validation,not runtime playthrough.",
+  "entry_dispatch_values": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    20
+  ],
+  "prison_recruitment_guard": "Original VAR65=2 or3 / VI VAR0065=2 or3 branches to daughter-hostage recruitment. Other path taunts national status and returns.",
+  "prisoner_menu": {
+    "vi_group": 164,
+    "original_japanese": [
+      {
+        "line": 1288,
+        "text": "\t$L_02aef$死刑$"
+      },
+      {
+        "line": 1289,
+        "text": "\t$L_02c66$部下にする$"
+      },
+      {
+        "line": 1290,
+        "text": "\t$L_02d84$牢に入れる$"
+      },
+      {
+        "line": 1291,
+        "text": "\t$L_0298d$逃がす$"
+      }
+    ],
+    "choices": [
+      {
+        "label": "Xử tử",
+        "jp_target": "L_02aef",
+        "vi_target": "L_0214b",
+        "vi_groups": [
+          171,
+          176
+        ]
+      },
+      {
+        "label": "Thu nhận",
+        "jp_target": "L_02c66",
+        "vi_target": "L_0227b",
+        "vi_groups": [
+          177,
+          179
+        ],
+        "next": "returns to prisoner choice menu after refusal"
+      },
+      {
+        "label": "Giam giữ",
+        "jp_target": "L_02d84",
+        "vi_target": "L_02320",
+        "vi_groups": [
+          180,
+          185
+        ]
+      },
+      {
+        "label": "Thả tự do",
+        "jp_target": "L_0298d",
+        "vi_target": "L_02049",
+        "vi_groups": [
+          165,
+          170
+        ]
+      }
+    ]
+  },
+  "failures": []
+}

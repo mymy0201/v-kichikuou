@@ -1,0 +1,6 @@
+{
+  "before_sha256": "42db4ad46ac7952310c966029a61dede0cceeb72793fbdd02f1db34a572d00dd",
+  "after_sha256": "36ec8780f244e867d6723546c027ce49f09eeef6f9ff3c46205b6e9aa0217a41",
+  "change": "SET_CHR skip header now follows current queue user_deferred flag. User revoked the skip; no classification or source-text logic changed.",
+  "validation": "Rebuild plus --check after final metadata."
+}

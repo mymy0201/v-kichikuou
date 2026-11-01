@@ -1,0 +1,5908 @@
+	{VAR0520 = 1:
+		@L_00425:
+	}
+	{VAR0520 = 2:
+		@L_05aa5:
+	}
+	{VAR0520 = 3:
+		@L_05df8:
+	}
+	{VAR0520 = 4:
+		@L_000eb:
+	}
+	{VAR0520 = 5:
+		@L_0028a:
+	}
+	{VAR0520 = 10:
+		@L_003c6:
+	}
+	{VAR0520 = 20:
+		@L_00380:
+	}
+	{VAR0520 = 300:
+		@L_064a3:
+	}
+	{VAR0520 = 301:
+		@L_01b0f:
+	}
+	{VAR0520 = 302:
+		@L_02b64:
+	}
+*L_000eb:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : VAR0135!
+	\L_069c4:
+	\L_06900:
+	ZH 1:
+	'　　　North'
+	R
+	R
+	' T2 Goliath'
+	\L_069ed:
+	\L_069e0:
+	!VAR0154 : 16!
+	{VAR0102 = 0:
+		\L_06900:
+		ZH 1:
+		'Without Maria, the Tulip 2'
+		R
+		'Goliath’s target can’t be'
+		R
+		'changed.'
+		\L_069ed:
+		\L_069e0:
+		!VAR0516 : 1!
+		\L_0691c:
+		\L_068c8:
+		ZH 1:
+		'Without Maria, this thing’s'
+		R
+		'just a hunk of metal...'
+		\L_069ed:
+		\L_069e0:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	!VAR0516 : 1!
+	\L_0691c:
+	!VAR0516 : 50!
+	\L_0698c:
+	!VAR0158 : VAR0758!
+	MM 8, VAR0200 + VAR0158 - 1:
+	\L_06938:
+	ZH 1:
+	'Ah, Rance.'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Maria turned around from doing'
+	R
+	'maintenance work on the Tulip'
+	R
+	'2 Goliath to face Rance.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'You want to change the'
+	R
+	'Goliath’s target, I assume?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'That’s right.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'It’s currently targeting'
+	R
+	X 8:
+	'...'
+	R
+	'Where would you like to change'
+	R
+	'it to?'
+	\L_069ed:
+	ZH 1:
+	'Just tell me which city to'
+	R
+	'target.'
+	\L_069ed:
+	\L_069e0:
+	!VAR0485 : 2!
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0028a:
+	!VAR0758 : VAR0158!
+	!VAR0485 : 0!
+	MM 8, VAR0200 + VAR0158 - 1:
+	!VAR0516 : VAR0135!
+	\L_069c4:
+	!VAR0516 : 1!
+	\L_0691c:
+	!VAR0516 : 50!
+	\L_0698c:
+	\L_06938:
+	ZH 1:
+	'Then Goliath will be set to'
+	R
+	'target '
+	X 8:
+	'.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Mhm, sounds good.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Just once a week, if you'
+	R
+	'attack the targeted city, the'
+	R
+	'Goliath will support you.'
+	R
+	'Look forward to it.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Just once...? What a piece of'
+	R
+	'shit.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Ppth... It is not...'
+	R
+	'Even that much is great.'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_00380:
+	{VAR0426 > 5:
+		@L_00562:
+	}
+	{VAR0428 = 0:
+		@L_00694:
+	}
+	{(VAR0426 \ 0) * (VAR0428 = 1):
+		@L_0387a:
+	}
+	@L_00a91:
+*L_003c6:
+	{VAR0426 = 6:
+		@L_027f6:
+	}
+	{VAR0426 > 6:
+		@L_031f2:
+	}
+	{(VAR0426 = 1) * (VAR0428 \ 0):
+		@L_0156b:
+	}
+	{(VAR0426 = 0) + (VAR0428 = 0):
+		@L_01334:
+	}
+	@L_0205e:
+*L_00425:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1039!
+	\L_069c4:
+	!VAR0516 : 1!
+	\L_0691c:
+	\L_06900:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	' Tech Research Institute'
+	\L_069ed:
+	ZH 1:
+	'Rance went inside.'
+	\L_069ed:
+	\L_069e0:
+	\L_068e4:
+	ZH 1:
+	'This place has a peephole to'
+	R
+	'the changing room secretly'
+	R
+	'added during the planning'
+	R
+	'stage. Heheh.'
+	\L_069ed:
+	\L_069e0:
+*L_004ac:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_004ac:
+	}
+	ZH 1:
+	$L_00549$
+	'See Maria'
+	$
+	R
+	$L_06041$
+	'Use Peephole'
+	$
+	R
+	$L_004f7$
+	'Leave Facility'
+	$
+	]
+	@L_004ac:
+*L_004f7:
+	\L_068e4:
+	ZH 1:
+	'I’m done here. I’ll go back'
+	R
+	'and eat some ice cream or'
+	R
+	'something.'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance left the technology'
+	R
+	'research facility.'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_00549:
+	{VAR0428 = 2:
+		@L_03c25:
+	}
+	@L_03dc6:
+*L_00562:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1002!
+	\L_069c4:
+	!VAR0516 : 1!
+	\L_0691c:
+	!VAR0516 : 50!
+	\L_0698c:
+	\L_06900:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　Rance’s Bedroom'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'What is it, Rance?'
+	R
+	'Why did you call me this late?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'No particular reason, I was'
+	R
+	'just bored. Want to play cards'
+	R
+	'or something?'
+	R
+	'Loser takes their clothes off.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Ah... Pervert!'
+	R
+	'I’m not gonna play a game like'
+	R
+	'that!'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'　　＜slam＞'
+	\L_069ed:
+	\L_069e0:
+	\L_0699a:
+	\L_06970:
+	ZH 1:
+	'Maria got mad and left the'
+	R
+	'room.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'...Lame.'
+	R
+	'Shit, shit, shit...'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_00694:
+	!VAR0428 : 1!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_069c4:
+	!VAR0516 : 1!
+	\L_0691c:
+	\L_06900:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　Audience Room'
+	\L_069ed:
+	ZH 1:
+	'Rance was waiting for Maria.'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 50!
+	\L_0698c:
+	\L_06938:
+	ZH 1:
+	'Haah...'
+	R
+	'Sorry I took so long.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'You’re really late.'
+	R
+	'What were you doing?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'I’m busy with a bunch of stuff.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Such as?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Why should I have to tell you?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'I’m the King. It’s my right to'
+	R
+	'know everything.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...I don’t know about that.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Ugh... Obnoxious girl.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'.............'
+	\L_069ed:
+	ZH 1:
+	'...Rance...'
+	R
+	'Can I ask you one thing?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'What?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Why did you become the King of'
+	R
+	'Leazas?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Because I’m great.'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance cleared his throat and'
+	R
+	'acted important.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'That’s not it...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'What, do you not think I’m'
+	R
+	'great?!'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'No, that’s not what I mean...'
+	\L_069ed:
+	ZH 1:
+	'What I’m trying to say is, why'
+	R
+	'did you marry Queen Lia...?'
+	\L_069ed:
+	ZH 1:
+	'Do you really love Queen Lia,'
+	R
+	'Rance?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'...Hooooh...'
+	R
+	'Are you jealous?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'N-No!!'
+	\L_069ed:
+	ZH 1:
+	'I just... Feel kind of sorry'
+	R
+	'for Sill...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'...She’s a slave.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...Rance!'
+	\L_069ed:
+	ZH 1:
+	'Ngh... Well, whatever.'
+	R
+	'Yeah... Not my place to say'
+	R
+	'anything...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Maria... What is it you want'
+	R
+	'to say? I don’t really'
+	R
+	'understand.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Whatever, geez.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Alright. Then from now on,'
+	R
+	'work as hard as you can for me.'
+	R
+	'Got it?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Sure, sure.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Answer me 3 times.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...Sure sure sure.'
+	\L_069ed:
+	\L_069e0:
+	\L_0699a:
+	\L_06970:
+	ZH 1:
+	'Maria left in a huff.'
+	\L_069ed:
+	\L_069e0:
+	\L_068e4:
+	ZH 1:
+	'Hmmm... Maybe just once would'
+	R
+	'have been better...'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_00a91:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_069c4:
+	!VAR0516 : 1!
+	\L_0691c:
+	\L_06900:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　Audience Room'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 50!
+	\L_0698c:
+	\L_06938:
+	ZH 1:
+	'You called, Rance?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'So the thing is, there’s'
+	R
+	'something I wanted to ask you.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...What?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'I’m reading this hard book,'
+	R
+	'and there’s this word I don’t'
+	R
+	'know. Here, take a look.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Huh, don’t see you reading'
+	R
+	'hard books often. I’ll look,'
+	R
+	'where is it?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Here.'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'Maria peeked at the book.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Huh...?'
+	\L_069ed:
+	ZH 1:
+	'This...?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Yeah, this one.'
+	R
+	'How do you say it?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Well... Um...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'What, you don’t know?'
+	R
+	'You’re shockingly dumb.'
+	R
+	'Oh what a disappointment.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'I-I can read it!'
+	R
+	'B-But...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Then do it!'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Uu...!'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'Maria blushed.'
+	\L_069ed:
+	\L_069e0:
+	Y 4, 5:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		\L_06938:
+		ZH 1:
+		'I will!'
+		R
+		'I’ll read it!'
+		R
+		'I-It says... molester!!'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'And what does that mean?'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'You know what it means, Rance!'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'No I don’t, tell me.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'...A bad person that does'
+		R
+		'sexual things...!!'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'In more detail.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Uh... Um...'
+		R
+		'Like, a person that touches'
+		R
+		'your butt in narrow places...'
+		R
+		'Or your breasts...'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Hoh, like this?'
+		\L_069ed:
+		\L_069e0:
+		\L_06900:
+		ZH 1:
+		'　　＜touch＞'
+		\L_069ed:
+		ZH 1:
+		'Rance touched Maria’s butt.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Kyah, pervert!!'
+		R
+		'What are you doing?!!'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Gahahahaha!!'
+		\L_069ed:
+		\L_069e0:
+	}
+	{VAR0690 = 2:
+		\L_06938:
+		ZH 1:
+		'...Lab-...'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Can’t hear you.'
+		R
+		'Say it louder!'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'L-Labia minora...'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'What does it mean?'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'I-It means...'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Go on, tell me in detail.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'You...'
+		\L_069ed:
+		ZH 1:
+		'You should know more than me'
+		R
+		'with all the girls you assault,'
+		R
+		'stupid!'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Gahahahahaha!!'
+		\L_069ed:
+		\L_069e0:
+	}
+	{VAR0690 = 3:
+		\L_06938:
+		ZH 1:
+		'...Carnality.'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'What?'
+		R
+		'What’s that?'
+		\L_069ed:
+		\L_069e0:
+		\L_06954:
+		ZH 1:
+		'You know what it is...'
+		R
+		'Geez...'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Maaaaaaaaaaria.'
+		R
+		'Tell me what it means.'
+		R
+		'You’re supposed to be good at'
+		R
+		'studying, right?'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'............'
+		\L_069ed:
+		ZH 1:
+		'It’s a word for sexual feeling.'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'That’s too complicated.'
+		R
+		'Explain it more simply.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'............'
+		\L_069ed:
+		ZH 1:
+		'When you touch your penis, or'
+		R
+		'put it in a girl, it’s that'
+		R
+		'feeling.'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Girls shouldn’t say penis.'
+		R
+		'That’s indecent.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'You asked me this because you'
+		R
+		'wanted to make me say'
+		R
+		'something indecent in the'
+		R
+		'first place!'
+		\L_069ed:
+		ZH 1:
+		'If you don’t want me to, then'
+		R
+		'don’t ask me things like this!!'
+		\L_069ed:
+		\L_069e0:
+		\L_06970:
+		ZH 1:
+		'　　＜bash＞'
+		\L_069ed:
+		ZH 1:
+		'Maris took the book Rance was'
+		R
+		'holding and pushed it into his'
+		R
+		'face.'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Agh!'
+		\L_069ed:
+		\L_069e0:
+	}
+	{VAR0690 = 4:
+		\L_06938:
+		ZH 1:
+		'............'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'What’s wrong?'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'............'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'What, can’t read it?'
+		R
+		'Then I will.'
+		R
+		'It says vagina.'
+		\L_069ed:
+		ZH 1:
+		'It means the place that makes'
+		R
+		'my hyper weapon happy.'
+		R
+		'Which is to say, Maria...'
+		R
+		'Have sex with me and...'
+		\L_069ed:
+		\L_069e0:
+		\L_06970:
+		ZH 1:
+		'　　＜slap＞'
+		\L_069ed:
+		ZH 1:
+		'Maria smacked Rance in the'
+		R
+		'face.'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'W-What are you doing?!!'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Obviously I could read that,'
+		R
+		'anyone could!'
+		\L_069ed:
+		ZH 1:
+		'Don’t be stupid!'
+		R
+		'You’re supposed to be a king!'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'That’s got nothing to do with'
+		R
+		'this.'
+		\L_069ed:
+		\L_069e0:
+	}
+	{VAR0690 = 5:
+		\L_06938:
+		ZH 1:
+		'I-It says glans!'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'What’s that?'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Uu...'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Maaaaaaaaariiiiiiiaaaaaaaa.'
+		R
+		'Won’t you tell me?'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'S-Stupid!!'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Hmhmhmmmm.'
+		\L_069ed:
+		\L_069e0:
+	}
+	\L_06938:
+	ZH 1:
+	'Geez, I don’t know!'
+	R
+	'You’re wasting my time. I have'
+	R
+	'to make more Tulip 1’s...'
+	\L_069ed:
+	ZH 1:
+	'Stupid, stupid, stupid!'
+	R
+	'I hate you, Rance!'
+	\L_069ed:
+	\L_069e0:
+	\L_0699a:
+	\L_06970:
+	ZH 1:
+	'Maria blushed and walked away'
+	R
+	'from the throne.'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_01334:
+	!VAR0426 : 1!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1002!
+	\L_069c4:
+	!VAR0516 : 1!
+	\L_0691c:
+	\L_06900:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　Rance’s Bedroom'
+	\L_069ed:
+	\L_069e0:
+	\L_068e4:
+	ZH 1:
+	'Yeah... It’s been a while'
+	R
+	'since I’ve had sex with'
+	R
+	'Maria... What would be good to'
+	R
+	'do with her...?'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'　　＜knock knock knock...＞'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Mhm, I permit you to come in.'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 50!
+	\L_0698c:
+	\L_06938:
+	ZH 1:
+	'What is it, Rance...?'
+	R
+	'It’s late...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'It should be obvious.'
+	R
+	'Considering our relationship.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'S-Since when were we in a'
+	R
+	'relationship?!!'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Well. Maria, I’m gonna have'
+	R
+	'sex with you. You’re servicing'
+	R
+	'the King. Gahahahahahaha.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...No.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'What?!'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Why should I have to have sex'
+	R
+	'with you?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Because I’m the King, and'
+	R
+	'you’re my subordinate.'
+	R
+	'It’s natural that would be a'
+	R
+	'rule.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...It is not natural.'
+	R
+	'Dummy... I hate you.'
+	\L_069ed:
+	\L_069e0:
+	\L_0699a:
+	\L_06970:
+	ZH 1:
+	'Maria left Rance’s room.'
+	\L_069ed:
+	\L_069e0:
+	\L_068e4:
+	ZH 1:
+	'...Why’s she acting like this'
+	R
+	'now...? I’ve had sex with her'
+	R
+	'several times already, is she'
+	R
+	'still shy...? Hmph... Lame.'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0156b:
+	!VAR0426 : 2!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1002!
+	\L_069c4:
+	!VAR0516 : 1!
+	\L_0691c:
+	\L_06900:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　Rance’s Bedroom'
+	\L_069ed:
+	ZH 1:
+	'On the bed, Rance was sitting'
+	R
+	'with his arms crossed and a'
+	R
+	'complicated look on his face.'
+	\L_069ed:
+	\L_069e0:
+	\L_068e4:
+	ZH 1:
+	'Maria won’t listen to me when'
+	R
+	'I tell her to have sex with'
+	R
+	'me... This is a serious'
+	R
+	'problem.'
+	\L_069ed:
+	ZH 1:
+	'I called her again today,'
+	R
+	'but...'
+	\L_069ed:
+	ZH 1:
+	'If I just call her normally'
+	R
+	'she’s not going to do anything'
+	R
+	'but resist...'
+	R
+	'Should I rape her?'
+	\L_069ed:
+	ZH 1:
+	'If we do it once, I’m sure'
+	R
+	'she’ll keep coming back.'
+	R
+	'Maria’s that kind of girl.'
+	R
+	'Huhuhuhu.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Alright, if that’s the plan,'
+	R
+	'then...'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance got up and turned off'
+	R
+	'the lights in the room.'
+	\L_069ed:
+	\L_069e0:
+	EC 0:
+	SS 0:
+	\L_06900:
+	ZH 1:
+	'　　＜pah＞'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Yep, pitch black...'
+	R
+	'Now to wait for Maria...'
+	R
+	'Heeheeheeheehee...'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'　　＜knock knock knock＞'
+	\L_069ed:
+	\L_069e0:
+	\L_068e4:
+	ZH 1:
+	'Oh, there she is...'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance flattened himself'
+	R
+	'against the wall opposite the'
+	R
+	'door.'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 50!
+	\L_0698c:
+	\L_06938:
+	ZH 1:
+	'Rance, no matter how many'
+	R
+	'times you call me, I...'
+	\L_069ed:
+	ZH 1:
+	'Huh, why’s it dark?'
+	\L_069ed:
+	\L_069e0:
+	\L_068e4:
+	ZH 1:
+	'Keeheeheeheehee...'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...Rance??'
+	R
+	'Huh?'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'Maria took a step forward into'
+	R
+	'the dark room, looking'
+	R
+	'uncomfortable.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...Is he not here?'
+	R
+	'Geez, calling me and then'
+	R
+	'leaving...'
+	\L_069ed:
+	ZH 1:
+	'............'
+	\L_069ed:
+	ZH 1:
+	'Rance...'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'The instant Maria muttered'
+	R
+	'that to herself, something'
+	R
+	'happened.'
+	\L_069ed:
+	ZH 1:
+	'　　＜slam＞'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Kyah!?'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'The door suddenly closed.'
+	R
+	'Rance closed it, but to Maria,'
+	R
+	'who thought he wasn’t there...'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Huh...? Who is it!?'
+	R
+	'Is someone here!?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Gweheheheheheheh!!'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Kyaaaaah!!'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Sit still!!'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Kyaaaaaaaaah!!'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance used the darkness,'
+	R
+	'disguised his voice and'
+	R
+	'assaulted Maria.'
+	\L_069ed:
+	\L_069e0:
+	EC 0:
+	G 806:
+	!VAR0248 : 6!
+	\L_069a8:
+	ZH 1:
+	'Maria「Noooooooooo!!'
+	R
+	'      Don’t touch me!!」'
+	\L_069ed:
+	ZH 1:
+	'Maria mustered up all her strength to try and shake'
+	R
+	'off the rapist (Rance).'
+	\L_069ed:
+	ZH 1:
+	'Rance「Gugeheeeheeeheeeh!'
+	R
+	'      Nice ass!!」'
+	\L_069ed:
+	ZH 1:
+	'The rapist’s (Rance’s) hand rubbed Maria’s ass'
+	R
+	'through her clothes.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Hii...!!」'
+	\L_069ed:
+	ZH 1:
+	'More tension filled Maria’s body.'
+	\L_069ed:
+	ZH 1:
+	'Maria「N-Noooo!!'
+	R
+	'      Save me, Rance!」'
+	\L_069ed:
+	ZH 1:
+	'The rapist (Rance) forcibly removed Maria’s clothes'
+	R
+	'and violently rubbed her breasts.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Kh... Noooo!!'
+	R
+	'      Save me... Rance... Rance!!」'
+	\L_069ed:
+	ZH 1:
+	'Maria hit the rapist (Rance) in the head and'
+	R
+	'struggled, but she couldn’t escape his hands.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Hiin... I don’t like this...!!'
+	R
+	'      Rance... Save me... Rance!」'
+	\L_069ed:
+	SS 0:
+	G 190:
+	SS 24:
+	ZH 1:
+	'　　＜click＞'
+	\L_069ed:
+	ZH 1:
+	'The lights turned on.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Huh...?」'
+	\L_069ed:
+	ZH 1:
+	'Rance「I came to save you, my princess.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Huh...?」'
+	\L_069ed:
+	ZH 1:
+	'Rance「Oh, don’t be shy.'
+	R
+	'      Do you love me that much?」'
+	\L_069ed:
+	ZH 1:
+	'Rance「You did longingly call my name a bunch of'
+	R
+	'      times...」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Uu...」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Stupid, stupid, stupid!!'
+	R
+	'      Why did you do that...? Hick...'
+	R
+	'      I was really scared...!!」'
+	\L_069ed:
+	ZH 1:
+	'Maria buried her face in Rance’s chest and started'
+	R
+	'crying loudly.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah...」'
+	\L_069ed:
+*L_01b0f:
+	ZH 1:
+	'Rance tore her clothes more.'
+	\L_069ed:
+	ZH 1:
+	'Rance「Because you wanted to have sex with me but'
+	R
+	'      were holding back.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「I... did not...」'
+	\L_069ed:
+	ZH 1:
+	'During their debate, Rance removed Maria’s shirt and'
+	R
+	'pants.'
+	\L_069ed:
+	ZH 1:
+	'Rance「Hey... Raise your ass.'
+	R
+	'      Otherwise I can’t even get your pants all the'
+	R
+	'      way off let alone your panties.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「...No...」'
+	\L_069ed:
+	ZH 1:
+	'In spite of saying that, Maria raised her ass a bit.'
+	\L_069ed:
+	ZH 1:
+	'Rance「Hmph... Listen, you’re my woman.'
+	R
+	'      Don’t forget.」'
+	\L_069ed:
+	ZH 1:
+	'Rance「Whether I’m an ordinary warrior or a king I’m'
+	R
+	'      the same person.'
+	R
+	'      Got that?」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Y-Yeah... But... What does that have to do'
+	R
+	'      with this...?」'
+	\L_069ed:
+	ZH 1:
+	'Rance「Be quiet.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah...!!」'
+	\L_069ed:
+	ZH 1:
+	'Rance「What, already wet?'
+	R
+	'      Even though you were screaming so much...」'
+	\L_069ed:
+	ZH 1:
+	'Maria「B-Because... When I learned it was you...」'
+	\L_069ed:
+	ZH 1:
+	'Rance「When you learned it was me...'
+	R
+	'      It got this wet?」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah...!!」'
+	\L_069ed:
+	ZH 1:
+	'Rance ran his fingers over Maria’s pussy,'
+	R
+	'intentionally making a wet sound so she could hear.'
+	\L_069ed:
+	ZH 1:
+	'Maria「B-Because... Because...」'
+	\L_069ed:
+	ZH 1:
+	'Rance「Mhm... Let’s see...」'
+	\L_069ed:
+	ZH 1:
+	'Rance picked up Maria’s legs...'
+	\L_069ed:
+	ZH 1:
+	'Rance「Well, it has been a while since we’ve'
+	R
+	'      fucked... You can’t help it if you’re longing'
+	R
+	'      for my hyper weapon...」'
+	\L_069ed:
+	ZH 1:
+	'Maria「S-Stupid... Ah... Ahn...!!」'
+	\L_069ed:
+	ZH 1:
+	'Rance put his hyper weapon all the way inside Maria.'
+	\L_069ed:
+	ZH 1:
+	'Rance「Kh... What...? We haven’t even gotten moving'
+	R
+	'      and you’re constricting a lot.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「D-Don’t say that... Ah...!」'
+	\L_069ed:
+	ZH 1:
+	'Rance spread Maria’s legs wide, pushed his hyper'
+	R
+	'weapon in and out and rubbed her clit.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah... Rance...!」'
+	\L_069ed:
+	ZH 1:
+	'Rance「Alright... Now I’m gonna fuck you from behind'
+	R
+	'      like an animal!!」'
+	\L_069ed:
+	ZH 1:
+	'Rance gripped Maria’s hips.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah... Wait...!」'
+	\L_069ed:
+	ZH 1:
+	'Rance「What?'
+	R
+	'      I can’t stop now.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「I-It’s not right...」'
+	\L_069ed:
+	ZH 1:
+	'Rance「What isn’t?」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Please... At least for today, look at me...'
+	R
+	'      I want to see you too...」'
+	\L_069ed:
+	ZH 1:
+	'Rance「...Alright, just for today.'
+	R
+	'      Next time I want to try it from behind.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「...Okay...」'
+	\L_069ed:
+	ZH 1:
+	'Rance「I won’t hold back, then.'
+	R
+	'      That okay?」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Aah...!!」'
+	\L_069ed:
+	ZH 1:
+	'Rance held Maria’s hips up and started pistoning.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah... Rance... Rance...!!」'
+	\L_069ed:
+	ZH 1:
+	'Maria clung to Rance’s neck and moved her hips in'
+	R
+	'sync with his.'
+	\L_069ed:
+	ZH 1:
+	'Rance「H-Hey... You’re moving so intensely...」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Because... Because... Rance... Rance...」'
+	\L_069ed:
+	ZH 1:
+	'Maria whined and violently used her hips,'
+	R
+	'stimulating Rance’s cock more than necessary.'
+	\L_069ed:
+	ZH 1:
+	'Rance「Kh...」'
+	\L_069ed:
+	ZH 1:
+	'Rance hugged Maria tight.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Aah...!!」'
+	\L_069ed:
+	ZH 1:
+	'Maria felt Rance’s heat through her whole body,'
+	R
+	'trembled hard and constricted tightly on Rance’s'
+	R
+	'hyper weapon inside her.'
+	\L_069ed:
+	ZH 1:
+	'Rance「Kh...!!」'
+	\L_069ed:
+	ZH 1:
+	'Rance hugged Maria tight again and fired everything'
+	R
+	'he had into her.'
+	\L_069ed:
+	{VAR0520 = 301:
+		%0:
+	}
+	\L_069e0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	!VAR0516 : 1002!
+	\L_069c4:
+	!VAR0516 : 50!
+	\L_0698c:
+	\L_06938:
+	ZH 1:
+	'............'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Gugaah... Gugaah...'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'Maria was changing her clothes'
+	R
+	'while watching Rance snore'
+	R
+	'loudly.'
+	\L_069ed:
+	\L_069e0:
+	\L_06954:
+	ZH 1:
+	'...I did it again...'
+	\L_069ed:
+	ZH 1:
+	'After I decided I had to give'
+	R
+	'up...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Hugah...'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance turned over in his sleep'
+	R
+	'and kicked the blanket off.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Huhu...'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'Maria smiled and put the'
+	R
+	'blanket back on Rance.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Rance...'
+	\L_069ed:
+	ZH 1:
+	'To you, I might just be'
+	R
+	'another girl, but...'
+	R
+	'I... I...'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'Maria trembled as she'
+	R
+	'approached Rance’s face.'
+	\L_069ed:
+	ZH 1:
+	'She gently kissed him on the'
+	R
+	'forehead and quietly left the'
+	R
+	'room.'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0205e:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1002!
+	\L_069c4:
+	!VAR0516 : 1!
+	\L_0691c:
+	\L_06900:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　Rance’s Bedroom'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Hohoh... Mm～～...'
+	R
+	'Hoy!'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance was exercising as he'
+	R
+	'waited for Maria.'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'　　＜knock knock knock＞'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Enter.'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 50!
+	\L_0698c:
+	\L_06938:
+	ZH 1:
+	'Rance, what do you...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Gahahahahahahahaha!!!'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Kyaaaaah!!'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance ran to Maria, picked her'
+	R
+	'up and brought her straight to'
+	R
+	'the bed.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'What is it, Rance...?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Don’t pretend.'
+	R
+	'You know what I want.'
+	R
+	'You’re wearing some new'
+	R
+	'underwear, aren’t you?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Kyan!'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance rubbed Maria’s fairly'
+	R
+	'large ass through her pants.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Stupid!'
+	R
+	'Boys are supposed to pretend'
+	R
+	'not to notice when girls worry'
+	R
+	'themselves with that...'
+	\L_069ed:
+	ZH 1:
+	'You have to be less direct,'
+	R
+	'like compliment me for looking'
+	R
+	'good today...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Gahahahahaha!!!'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Geez...!'
+	R
+	'Listen to me for just a...'
+	R
+	'Kyaaaaaaan!'
+	\L_069ed:
+	\L_069e0:
+	PF1 VAR0056:
+	SS 0:
+	G 806:
+	G 190:
+	SS 24:
+	!VAR0248 : 5!
+	\L_069a8:
+	ZH 1:
+	'Rance「Your pussy was probably waiting for me.'
+	R
+	'      Right?」'
+	PF0 VAR0056:
+	\L_069ed:
+	ZH 1:
+	'Rance thrust his face in Maria’s crotch and talked'
+	R
+	'into it.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Kyah... Kyaaah!'
+	R
+	'      Stupid, stupid!'
+	R
+	'      What are you talking to...?」'
+	\L_069ed:
+	ZH 1:
+	'Rance「Your cute pussy.」'
+	\L_069ed:
+	ZH 1:
+	'Rance stretched out his tongue.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Mm...!!」'
+	\L_069ed:
+	ZH 1:
+	'Rance「I only licked you once, but you’re already'
+	R
+	'      dripping.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Hii... Mm...'
+	R
+	'      Stop... Don’t say stuff like that...」'
+	\L_069ed:
+	ZH 1:
+	'Rance「If you don’t want me to say that, then touch'
+	R
+	'      my cock.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Huh...?」'
+	\L_069ed:
+	ZH 1:
+	'Maria’s palm was placed on the hyper weapon.'
+	R
+	'It was still in a state where it could get harder.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah...」'
+	\L_069ed:
+	ZH 1:
+	'Maria closed her eyes and slowly started touching'
+	R
+	'it.'
+	\L_069ed:
+	ZH 1:
+	'Rance「H-Hey, do it more strongly.'
+	R
+	'      That tickles.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah... S-S-Sorry...'
+	R
+	'      Like this...?」'
+	\L_069ed:
+	ZH 1:
+	'Maria timidly, but still stronger than before,'
+	R
+	'grasped Rance’s hyper weapon and began to caress it.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Mm... Mmm...」'
+	\L_069ed:
+	ZH 1:
+	'The sensation of Rance’s tongue and the thing in her'
+	R
+	'palm made Maria start to tremble.'
+	\L_069ed:
+	ZH 1:
+	'Maria touched.'
+	R
+	'Rance’s hyper weapon towered up.'
+	\L_069ed:
+	ZH 1:
+	'Rance’s tongue licked.'
+	R
+	'Maria’s pussy grew wetter.'
+	\L_069ed:
+	ZH 1:
+	'Like they were in sync with each other, their bodies'
+	R
+	'both reached a fully ready state at the same time.'
+	\L_069ed:
+	ZH 1:
+	'Rance「Alright... Let go...」'
+	\L_069ed:
+	ZH 1:
+	'Maria「O-Okay...」'
+	\L_069ed:
+	ZH 1:
+	'Maria let go of Rance’s hyper weapon.'
+	R
+	'Rance’s tongue left Maria’s pussy, as well...'
+	R
+	'He replaced it with the tip of his cock.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah...」'
+	\L_069ed:
+	ZH 1:
+	'Rance laid Maria down and held one of her legs under'
+	R
+	'his arm.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah...!!」'
+	\L_069ed:
+	ZH 1:
+	'Rance’s hyper weapon was entirely consumed inside'
+	R
+	'Maria.'
+	\L_069ed:
+	ZH 1:
+	'Rance「Alright, today I’m doing it from behind!」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Huh...? Ah... Aah!」'
+	\L_069ed:
+	ZH 1:
+	'Rance turned Maria’s hips, put her hands down on the'
+	R
+	'bed and raised her ass.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah... Kwah...」'
+	\L_069ed:
+	ZH 1:
+	'Rance「Gahahahaha!!!'
+	R
+	'      Feels good, Maria!」'
+	\L_069ed:
+	ZH 1:
+	'Rance touched Maria’s ass with his palms and began'
+	R
+	'to rub. He thrust his hyper weapon in and out of'
+	R
+	'her, making her juices drip.'
+	\L_069ed:
+	ZH 1:
+	'The drops of fluid scattered on the sheets like'
+	R
+	'petals dropping from a flower after it blooms.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah... Rance...!!」'
+	\L_069ed:
+	ZH 1:
+	'Maria gripped the sheets and shook her body to match'
+	R
+	'the motion of Rance’s stomach slamming against her'
+	R
+	'ass.'
+	\L_069ed:
+	ZH 1:
+	'Rance「Good, Maria...'
+	R
+	'      Keep doing that!」'
+	\L_069ed:
+	ZH 1:
+	'Rance picked up Maria’s hips and indulged in her'
+	R
+	'flesh.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Mm... Mmmmmm...!」'
+	\L_069ed:
+	ZH 1:
+	'Despite the unstable position she was in, Maria'
+	R
+	'continued to move her hips to match Rance’s.'
+	\L_069ed:
+	ZH 1:
+	'Rance「There... Gonna cum, take it!」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Aah...!!」'
+	\L_069ed:
+	ZH 1:
+	'Rance buried his hyper weapon deep inside Maria and'
+	R
+	'let out all he had inside her.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah... Ahn...!!」'
+	\L_069ed:
+	ZH 1:
+	'Then, Maria followed Rance and her body shook hard.'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	!VAR0516 : 1002!
+	\L_069c4:
+	!VAR0516 : 1!
+	\L_0691c:
+	!VAR0516 : 50!
+	\L_0698c:
+	\L_068c8:
+	ZH 1:
+	'Haaaaaah...'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Mmgh...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'What?'
+	R
+	'Didn’t have enough?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'No...'
+	R
+	'You put me in a painful'
+	R
+	'position, so my body aches...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Alright, so you didn’t have'
+	R
+	'enough, then.'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance loomed over Maria.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Hey... That’s not what I said,'
+	R
+	'stop!'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Come to think of it, you said'
+	R
+	'before that you like doing it'
+	R
+	'from the front.'
+	\L_069ed:
+	ZH 1:
+	'So next I’ll fuck you from the'
+	R
+	'front and watch your moaning'
+	R
+	'face.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'B-But I said...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Gahahahahahaha!!'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Kyaaaaaaaahn!'
+	R
+	'You’re so dumb, Rance!!'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_027f6:
+	!VAR0426 : 7!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1002!
+	\L_069c4:
+	!VAR0516 : 1!
+	\L_0691c:
+	\L_06900:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　Rance’s Bedroom'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'...Taking a while...'
+	R
+	'It’s already been 30 minutes'
+	R
+	'since I called her...'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'　　＜knock... knock...＞'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'What took you so long?!!'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 50!
+	\L_0698c:
+	\L_06938:
+	ZH 1:
+	'............'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'Maria silently entered the'
+	R
+	'room with a gloomy look on her'
+	R
+	'face, like it was the end of'
+	R
+	'the world.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'What’s wrong?'
+	R
+	'Are you still worried about'
+	R
+	'what happened with the'
+	R
+	'explosion?'
+	\L_069ed:
+	ZH 1:
+	'I’ll make you forget about it'
+	R
+	'with my hyper weapon.'
+	R
+	'Gahahahahahaha!'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'............'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Hey, I’m telling you not to'
+	R
+	'worry about it...'
+	R
+	'Can’t you do that?!!'
+	\L_069ed:
+	ZH 1:
+	'Or what?'
+	R
+	'Are you gonna tell me you'
+	R
+	'don’t want to have sex with'
+	R
+	'me?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'............'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Hey, Maria... Uh...'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Rance...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'............'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...It’s fine...'
+	\L_069ed:
+	ZH 1:
+	'There’s no use in hiding it...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Hm, hiding what??'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'............'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'Maria silently began to remove'
+	R
+	'her shirt.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Rance... Rance... I...'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'Maria was trembling.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'What the hell’s wrong...?'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance reached his hands'
+	R
+	'towards Maria.'
+	\L_069ed:
+	ZH 1:
+	'But Maria stopped them.'
+	R
+	'Then she slowly removed her'
+	R
+	'shirt and bra.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Ah...'
+	\L_069ed:
+	\L_069e0:
+	PF1 VAR0056:
+	SS 0:
+	G 806:
+	G 191:
+	!VAR0248 : 5!
+	\L_069a8:
+	ZH 1:
+	'A scar from the explosion was clearly left on'
+	R
+	'Maria’s chest.'
+	PF0 VAR0056:
+	\L_069ed:
+	ZH 1:
+	'Maria「............」'
+	\L_069ed:
+*L_02b64:
+	ZH 1:
+	'Maria avoided Rance’s gaze and trembled.'
+	\L_069ed:
+	ZH 1:
+	'Rance「Maria... This is...」'
+	\L_069ed:
+	ZH 1:
+	'Maria「They said this might not go away...'
+	R
+	'      I...」'
+	\L_069ed:
+	ZH 1:
+	'Maria「...Rance, you don’t like me anymore, do you?'
+	R
+	'      It’s horrible, isn’t it?'
+	R
+	'      So... So...!」'
+	\L_069ed:
+	ZH 1:
+	'Big teardrops formed in the corners of Maria’s'
+	R
+	'eyes.'
+	\L_069ed:
+	ZH 1:
+	'Maria「I... I’m damaged goods...'
+	R
+	'      Not fit for a king like you...'
+	R
+	'      I’m sorry...」'
+	\L_069ed:
+	ZH 1:
+	'Maria slowly picked up her clothes and was about to'
+	R
+	'put them back on.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Huh...?」'
+	\L_069ed:
+	ZH 1:
+	'Rance hugged Maria.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah...!」'
+	\L_069ed:
+	ZH 1:
+	'His lips met hers.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Mm... Mmm!」'
+	\L_069ed:
+	ZH 1:
+	'He put his hands on her breasts.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Rance, why...?」'
+	\L_069ed:
+	{VAR0520 \ 302:
+		SS 24:
+	}
+	ZH 1:
+	'Rance「Enough talking, hurry up and take your pants'
+	R
+	'      off too.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「B-But Rance... I’m...」'
+	\L_069ed:
+	ZH 1:
+	'Rance「If you won’t take them off yourself, I’ll take'
+	R
+	'      them off for you!」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Huh...? Kyaah!」'
+	\L_069ed:
+	ZH 1:
+	'Rance tore Maria’s clothes off, buried his face in'
+	R
+	'her breasts and stuck out his tongue.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah... Stop, Rance!」'
+	\L_069ed:
+	ZH 1:
+	'Rance slowly licked Maria’s scar.'
+	\L_069ed:
+	ZH 1:
+	'Maria「No... Stop, Rance...'
+	R
+	'      ...Stop...!」'
+	\L_069ed:
+	ZH 1:
+	'Rance「Shut up!」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah...!」'
+	\L_069ed:
+	ZH 1:
+	'Rance forced a finger into her pussy.'
+	\L_069ed:
+	ZH 1:
+	'Rance「No matter what happens, you’re my woman.'
+	R
+	'      I’ll pound that into your body!」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah... Aah!」'
+	\L_069ed:
+	ZH 1:
+	'Rance stirred his finger around inside Maria.'
+	R
+	'His finger got wet with juices.'
+	\L_069ed:
+	ZH 1:
+	'Rance「I’m gonna put it in now.'
+	R
+	'      Match me with your hips like always.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Rance...」'
+	\L_069ed:
+	ZH 1:
+	'Maria instinctively opened her legs.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Mm... Mmmmmmm...!!」'
+	\L_069ed:
+	ZH 1:
+	'It was a bit tight, but Rance somehow managed to get'
+	R
+	'his hyper weapon inside her.'
+	\L_069ed:
+	ZH 1:
+	'Rance「There!」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah...!」'
+	\L_069ed:
+	ZH 1:
+	'Rance opened Maria’s legs wide and thrust his hyper'
+	R
+	'weapon.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Kh... Mm... Mmm...」'
+	\L_069ed:
+	ZH 1:
+	'As Rance told her to, or perhaps at her own will,'
+	R
+	'Maria twisted her hips to match Rance.'
+	\L_069ed:
+	ZH 1:
+	'Maria「...Mm... Uuu...」'
+	\L_069ed:
+	ZH 1:
+	'Tears built up in Maria’s eyes.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Rance... Rance!!」'
+	\L_069ed:
+	ZH 1:
+	'Maria raised her upper body and hugged Rance.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah...!」'
+	\L_069ed:
+	ZH 1:
+	'He picked up Maria and put her on his legs.'
+	R
+	'He shook her up and down as he had sex with her.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Mm... Mmmmm...!」'
+	\L_069ed:
+	ZH 1:
+	'Maria held back her tears and whined.'
+	R
+	'She matched Rance as best she could.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah... Aah!」'
+	\L_069ed:
+	ZH 1:
+	'Rance separated himself from Maria’s body and'
+	R
+	'started licking her scar.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah... Rance... Rance...'
+	R
+	'      ...Ah... Aah...」'
+	\L_069ed:
+	ZH 1:
+	'Maria held Rance’s head and received his caressing.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Rance... I... I...」'
+	\L_069ed:
+	ZH 1:
+	'Maria gripped Rance’s shoulders tight.'
+	\L_069ed:
+	ZH 1:
+	'Rance「Alrght... I’m gonna move.'
+	R
+	'      There!!」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah!!」'
+	\L_069ed:
+	ZH 1:
+	'Rance violently assaulted Maria.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah... Aah...」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Mm... Mmmmmmmmm...!」'
+	\L_069ed:
+	ZH 1:
+	'Maria trembled hard and leaned on Rance’s chest.'
+	\L_069ed:
+	ZH 1:
+	'Rance「There...'
+	R
+	'      I’m gonna cum in you like I always do!」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah...」'
+	\L_069ed:
+	ZH 1:
+	'Rance’s body shuddered.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Aah...!」'
+	\L_069ed:
+	ZH 1:
+	'Maria received it and her body trembled hard once'
+	R
+	'again.'
+	\L_069ed:
+	{VAR0520 = 302:
+		%0:
+	}
+	PF1 VAR0056:
+	\L_069e0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	PF0 VAR0056:
+	!VAR0516 : 1002!
+	\L_069c4:
+	!VAR0516 : 1!
+	\L_0691c:
+	!VAR0516 : 50!
+	\L_0698c:
+	\L_06938:
+	ZH 1:
+	'............'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'After it was all over, Maria'
+	R
+	'stood up and started putting'
+	R
+	'her clothes on.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Thanks, Rance...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'For what?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'I’m glad you tolerated how I'
+	R
+	'am now enough to have sex with'
+	R
+	'me...'
+	\L_069ed:
+	ZH 1:
+	'It’ll be a good last memory...'
+	R
+	'Thanks.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Idiot, it’s too early to be'
+	R
+	'talking about memories or'
+	R
+	'whatever. We’re doing it even'
+	R
+	'harder from now on. Got that?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Huh...?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Also, you’ve gained a bit of'
+	R
+	'weight haven’t you? Felt like'
+	R
+	'you were a bit more plump'
+	R
+	'around the hips.'
+	\L_069ed:
+	ZH 1:
+	'Well... It’s not too bad as is,'
+	R
+	'but be careful about getting'
+	R
+	'too fat.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Rance... Are you really okay'
+	R
+	'with me still?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'I’ll keep loving you until I’m'
+	R
+	'bored of it. I’ll fuck you'
+	R
+	'again. Look forward to it.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...Okay.'
+	\L_069ed:
+	\L_069e0:
+	\L_06954:
+	ZH 1:
+	'Thanks... Rance...'
+	R
+	'Rance...'
+	R
+	'I love you...'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_031f2:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1002!
+	\L_069c4:
+	!VAR0516 : 1!
+	\L_0691c:
+	!VAR0516 : 50!
+	\L_0698c:
+	\L_06900:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　Rance’s Bedroom'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Rance...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'What are you standing around'
+	R
+	'for? Can you not have sex'
+	R
+	'today or something?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'No, but...'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'Maria put her hand on her'
+	R
+	'chest over her clothes.'
+	R
+	'As though the scar there was'
+	R
+	'hurting.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Then come.'
+	R
+	'I hate waiting.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Ah... Rance...!'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance grabbed Maria’s wrists'
+	R
+	'and forced her down on the bed.'
+	\L_069ed:
+	\L_069e0:
+	PF1 VAR0056:
+	SS 0:
+	G 806:
+	G 191:
+	SS 24:
+	!VAR0248 : 5!
+	\L_069a8:
+	ZH 1:
+	'Rance「Take this, and this, and this!」'
+	PF0 VAR0056:
+	\L_069ed:
+	ZH 1:
+	'Maria「Kyah... Geez, Rance!」'
+	\L_069ed:
+	ZH 1:
+	'Rance tore Maria’s shirt off.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah...」'
+	\L_069ed:
+	ZH 1:
+	'Maria acted normal up to then, but when her scar was'
+	R
+	'exposed to Rance and touched by the air, she closed'
+	R
+	'up her body.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Aya said that since I’m still young, it’ll'
+	R
+	'      slowly disappear, but it won’t happen'
+	R
+	'      immediately...」'
+	\L_069ed:
+	ZH 1:
+	'Rance「Obviously.'
+	R
+	'      It was a pretty serious injury.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「But...」'
+	\L_069ed:
+	ZH 1:
+	'Rance「Maria.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah...!」'
+	\L_069ed:
+	ZH 1:
+	'Rance gripped Maria’s breasts tight with both hands.'
+	\L_069ed:
+	ZH 1:
+	'Rance「Mhm.'
+	R
+	'      Seems that Aya’s treatment was beyond'
+	R
+	'      perfect.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Huh...? Why...?」'
+	\L_069ed:
+	ZH 1:
+	'Rance「Your tits feel better than before.'
+	R
+	'      Their resilience and the clingy feeling are'
+	R
+	'      good.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Geez... Don’t say stupid stuff...」'
+	\L_069ed:
+	ZH 1:
+	'Rance「It’s not stupid.'
+	R
+	'      It’s true.」'
+	\L_069ed:
+	ZH 1:
+	'Rance started rubbing Maria’s breasts.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah... Ahn...!」'
+	\L_069ed:
+	ZH 1:
+	'Rance「Now... Today you’re gonna lick my gorgeous'
+	R
+	'      hyper weapon.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Uh... O-Okay...」'
+	\L_069ed:
+	ZH 1:
+	'Maria timidly brought her face towards Rance’s'
+	R
+	'crotch and brushed her hair behind her ears.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Mm...」'
+	\L_069ed:
+	ZH 1:
+	'She held the shaft in one hand and stimulated the'
+	R
+	'head with her tongue.'
+	R
+	'Her tongue’s movement was awkward.'
+	\L_069ed:
+	ZH 1:
+	'Rance「You’re so good at moving your hips when we’re'
+	R
+	'      doing it, though...'
+	R
+	'      You just can’t seem to get good at this...」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Mgh... Leave me alone...'
+	R
+	'      I won’t do it anymore, then...」'
+	\L_069ed:
+	ZH 1:
+	'Rance「Alright, then get on me and make my hyper'
+	R
+	'      weapon feel good with your other mouth.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Huh...? But I’m still...」'
+	\L_069ed:
+	ZH 1:
+	'Rance「You can make me feel good without me putting'
+	R
+	'      it in.'
+	R
+	'      Here.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Kyah...!」'
+	\L_069ed:
+	ZH 1:
+	'Rance picked up Maria and put her on him.'
+	\L_069ed:
+	ZH 1:
+	'Rance「Now do it.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Uu... Alright...」'
+	\L_069ed:
+	ZH 1:
+	'Maria put her pussy against Rance’s hyper weapon.'
+	\L_069ed:
+	ZH 1:
+	'Maria「...Mm... Mmm...」'
+	\L_069ed:
+	ZH 1:
+	'Then she swung her hips forward and back.'
+	\L_069ed:
+	ZH 1:
+	'Rance「So you do know how to do it.'
+	R
+	'      Truly worthy of being my woman.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「S-Stupid... Ah...!」'
+	\L_069ed:
+	ZH 1:
+	'Rance grabbed Maria’s breasts.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah... Rance...」'
+	\L_069ed:
+	ZH 1:
+	'Rance「Come on, move, move.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Mm... Ah...」'
+	\L_069ed:
+	ZH 1:
+	'Rance played with Maria’s breasts.'
+	R
+	'Maria moved on top of him.'
+	R
+	'A loud, wet sound started coming from her pussy.'
+	\L_069ed:
+	ZH 1:
+	'Rance「Alright... Maria, put it in you.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Huh...? No... I can’t...」'
+	\L_069ed:
+	ZH 1:
+	'Rance「Fine, then... Raise your hips.」'
+	\L_069ed:
+	ZH 1:
+	'Maria「L-Like this...?」'
+	\L_069ed:
+	ZH 1:
+	'Rance「Yeah... Taaake this!!」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah...!」'
+	\L_069ed:
+	ZH 1:
+	'Rance「Gahahaha!!」'
+	\L_069ed:
+	ZH 1:
+	'Rance got up and Maria fell over.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Kyah...!」'
+	\L_069ed:
+	ZH 1:
+	'Rance pounded into Maria in the strange position.'
+	\L_069ed:
+	ZH 1:
+	'Rance「Ooh, a new discovery!'
+	R
+	'      This is a good position!'
+	R
+	'      How is it, Maria?」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Kh...!」'
+	\L_069ed:
+	ZH 1:
+	'Rance pulled on Maria’s arms to hold her in place'
+	R
+	'and freely shook her about.'
+	\L_069ed:
+	ZH 1:
+	'Maria「S-Stop...'
+	R
+	'      You’re doing it too hard, Rance...」'
+	\L_069ed:
+	ZH 1:
+	'Rance「Gahahahahaha!!'
+	R
+	'      As long as it feels good for me!!」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah...!」'
+	\L_069ed:
+	ZH 1:
+	'Rance raised his hips more and attacked Maria.'
+	R
+	'In that position, only her neck and the back of her'
+	R
+	'head supported her while being pierced by Rance.'
+	\L_069ed:
+	ZH 1:
+	'Maria「Mm... Mmmmmm... Mm...!」'
+	\L_069ed:
+	ZH 1:
+	'Maria constricted her suspended legs around Rance’s'
+	R
+	'body.'
+	\L_069ed:
+	ZH 1:
+	'Rance「Alright... Take this, the King’s semen, as'
+	R
+	'      thanks!!」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah... Rance...!!」'
+	\L_069ed:
+	ZH 1:
+	'Maria’s legs tightened around Rance more.'
+	\L_069ed:
+	ZH 1:
+	'Rance「Gahahahahaha!!」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Ah... Aaaah...!!」'
+	\L_069ed:
+	ZH 1:
+	'Maria’s back arched far backward.'
+	R
+	'At the same time, she shuddered hard.'
+	R
+	'Then Rance did too.'
+	\L_069ed:
+	ZH 1:
+	'Rance「Haah... That felt nice...」'
+	\L_069ed:
+	ZH 1:
+	'Maria「Kyah... Heavy...!」'
+	\L_069ed:
+	ZH 1:
+	'From the exhaustion of his post-orgasm, Rance fell'
+	R
+	'over on Maria.'
+	\L_069ed:
+	PF1 VAR0056:
+	\L_069e0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS VAR0515:
+	PF0 VAR0056:
+	%0:
+*L_0387a:
+	!VAR0428 : 2!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_069c4:
+	!VAR0516 : 1!
+	\L_0691c:
+	\L_06900:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　Audience Room'
+	\L_069ed:
+	ZH 1:
+	'Rance was on the throne,'
+	R
+	'eating some shaved ice.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Hah～, this is paradise.'
+	R
+	'Ice cream’s good, but'
+	R
+	'sometimes this is great too.'
+	R
+	'Especially strawberry flavor.'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 50!
+	\L_0698c:
+	\L_06938:
+	ZH 1:
+	'Rance...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Mmm, what? You’re here early...'
+	R
+	'Want sex?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'No, stupid.'
+	R
+	'Here, look at this.'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'Maria smiled and showed Rance'
+	R
+	'a note.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'What’s this?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Plans for a science and'
+	R
+	'technology tower.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'What?'
+	R
+	'I don’t even know what that is.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Rance... I have a favor to ask.'
+	\L_069ed:
+	ZH 1:
+	'It’s gonna be hard for us to'
+	R
+	'make a lot of weapons and do'
+	R
+	'different kinds of research'
+	R
+	'with our current facilities...'
+	\L_069ed:
+	ZH 1:
+	'So there’s this.'
+	R
+	'With this, we could develop'
+	R
+	'more amazing weapons.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Hmm, how much would it cost?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'I dunno, but...'
+	R
+	'Um... A lot.'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'Maria said quietly and'
+	R
+	'reservedly.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'And how much is a lot?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'U-Um...'
+	\L_069ed:
+	ZH 1:
+	'About half a year’s worth of'
+	R
+	'national budget...'
+	\L_069ed:
+	ZH 1:
+	'Is that too much...??'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Obviously, moron.'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'　　＜teeeear＞'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Aaaaaah!!'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance ripped the note Maria'
+	R
+	'brought him in half.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Aah... I knew it...'
+	\L_069ed:
+	ZH 1:
+	'But, well... You’re right...'
+	R
+	'Yeah...'
+	\L_069ed:
+	ZH 1:
+	'Sorry...'
+	R
+	'I was selfish...'
+	R
+	'Bye...'
+	\L_069ed:
+	\L_069e0:
+	\L_0699a:
+	\L_06970:
+	ZH 1:
+	'Maria trudged away.'
+	\L_069ed:
+	\L_069e0:
+	\L_068e4:
+	ZH 1:
+	'Hmm, making a research'
+	R
+	'facility to strengthen the'
+	R
+	'army’s not a bad idea, to be'
+	R
+	'sure...'
+	\L_069ed:
+	ZH 1:
+	'This is way too expensive, but'
+	R
+	'if she could think of'
+	R
+	'something cheaper, that’d be'
+	R
+	'nice.'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_03c25:
+	!VAR0428 : 3!
+	!VAR0516 : 50!
+	\L_0698c:
+	\L_06938:
+	ZH 1:
+	'Oh, Rance...'
+	R
+	'What brings you here?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'I’m the one that went through'
+	R
+	'the trouble of building this'
+	R
+	'place. I’m investigating if'
+	R
+	'it’s being used well.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...I think it’s the heavy'
+	R
+	'taxing on the people that'
+	R
+	'built it.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Hmph.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'But... Thanks, Rance. This is'
+	R
+	'a nice facility. I think I can'
+	R
+	'make really great weapons with'
+	R
+	'this. I’ll do my best.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'You better. If you don’t, all'
+	R
+	'those taxes will have gone to'
+	R
+	'waste.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Geez... Don’t take what I said'
+	R
+	'and use it against me...'
+	R
+	'That’s so childish...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Gahahahahaha!!'
+	R
+	'The King can say whatever he'
+	R
+	'wants!'
+	\L_069ed:
+	ZH 1:
+	'Anyway, work hard Maria.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Okay...'
+	R
+	'I’ll do the best I can, for'
+	R
+	'you and the country.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Of course you will.'
+	R
+	'Gahahahahahahahaha.'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_03dc6:
+	!VAR0516 : 50!
+	\L_0698c:
+	\L_06938:
+	ZH 1:
+	'This is a surprise, Rance.'
+	R
+	'Don’t you hate oily places'
+	R
+	'like this?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Of course I do.'
+	R
+	'I prefer oily girls.'
+	R
+	'Heheheh.'
+	\L_069ed:
+	\L_069e0:
+	{(VAR0429 = 1) + (VAR0430 = 1):
+*L_03e2d:
+		IM VAR0202, VAR0203:
+		{VAR0000:
+			@L_03e2d:
+		}
+		{VAR0429 = 1:
+			ZH 1:
+			$L_057d6$
+			'End Reactor Work'
+			$
+		}
+		{VAR0430 = 1:
+			ZH 1:
+			$L_0588e$
+			'End Tulip 100 Work'
+			$
+		}
+		]
+		@L_03e2d:
+	}
+	{VAR0428 < 14:
+		!VAR0428 : VAR0428 + 1!
+	}
+	\L_06938:
+	ZH 1:
+	'...Same as ever... Geez...'
+	R
+	'Oh yeah, I’ll leave you with a'
+	R
+	'report.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Mhm.'
+	R
+	'Tell me everything, don’t hide'
+	R
+	'any details.'
+	\L_069ed:
+	\L_069e0:
+	{VAR0429 = 2:
+		\L_06938:
+		ZH 1:
+		'I haven’t really developed'
+		R
+		'anything new... What would be'
+		R
+		'good?'
+		\L_069ed:
+		ZH 1:
+		'I was thinking a ship that can'
+		R
+		'dive in the sea, or a tank'
+		R
+		'that can move through the'
+		R
+		'desert...'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Those sound super boring.'
+		R
+		'How about a vibrator that can'
+		R
+		'pleasure any woman or'
+		R
+		'something?'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'No.'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'.........'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'......'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Well, whatever. Work hard.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Okay.'
+		R
+		'I’ll do that.'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'See you.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Ah... Come again sometime.'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Sure, if I feel like it.'
+		\L_069ed:
+		\L_069e0:
+		\L_06900:
+		ZH 1:
+		'Rance left the research'
+		R
+		'institute.'
+		\L_069ed:
+		\L_069e0:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	{VAR0428 = 4:
+		\L_06938:
+		ZH 1:
+		'Today I’m starting development'
+		R
+		'on the New Tulip 1.'
+		\L_069ed:
+		ZH 1:
+		'It’s already really strong,'
+		R
+		'but I’ll make it even better,'
+		R
+		'enough to beat down armored'
+		R
+		'soldiers. Look forward to it.'
+		\L_069ed:
+		\L_069e0:
+		@L_059d2:
+	}
+	{VAR0428 = 5:
+		\L_06938:
+		ZH 1:
+		'I’m in the middle of'
+		R
+		'developing the New Tulip 1.'
+		\L_069ed:
+		ZH 1:
+		'It’s currently 40% complete.'
+		R
+		'I wonder if it’ll be done soon.'
+		R
+		'When it’s done, I’ll equip my'
+		R
+		'whole unit with them.'
+		\L_069ed:
+		ZH 1:
+		'Then my unit’ll be really'
+		R
+		'strong.'
+		\L_069ed:
+		\L_069e0:
+		@L_059d2:
+	}
+	{VAR0428 = 6:
+		\L_06938:
+		ZH 1:
+		'The New Tulip 1 is almost'
+		R
+		'complete.'
+		\L_069ed:
+		ZH 1:
+		'I’m developing the Tulip 100'
+		R
+		'at the same time.'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Why 100 already?'
+		R
+		'The last one was 4, if I'
+		R
+		'remember right.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Don’t worry about details like'
+		R
+		'that. It’s my dream, you see.'
+		\L_069ed:
+		\L_069e0:
+		\L_06900:
+		ZH 1:
+		'Maria looked up and pointed at'
+		R
+		'the sky.'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'So, what is it?'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'A machine that can go above'
+		R
+		'the sky.'
+		R
+		'Yes... Above the clouds, then'
+		R
+		'up to the shining stars!'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'............'
+		\L_069ed:
+		ZH 1:
+		'Huh... How could you possibly'
+		R
+		'fly that high? That’s absurd.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Don’t be mean.'
+		R
+		'It’s my dream...'
+		\L_069ed:
+		ZH 1:
+		'There’s value in a flying'
+		R
+		'machine, even if there’s no'
+		R
+		'profit or use to be gained'
+		R
+		'from it. Understand?'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'...Well, do as you please.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Okay.'
+		\L_069ed:
+		\L_069e0:
+		@L_059d2:
+	}
+	{VAR0428 = 7:
+		!VAR0154 : 16!
+		!VAR0076 : 14!
+		!VAR0087 : 14!
+		\L_06938:
+		ZH 1:
+		'The New Tulip 1 was completed.'
+		R
+		'I’m glad.'
+		\L_069ed:
+		ZH 1:
+		'Its hirara energy conversion'
+		R
+		'rate is 40% greater than the'
+		R
+		'previous version, and its'
+		R
+		'cooling device is...'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Hey, none of that complicated'
+		R
+		'talk. I don’t understand it.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Well... Then I’ll set aside'
+		R
+		'most of the explanation and'
+		R
+		'just tell you the results...'
+		\L_069ed:
+		ZH 1:
+		'It’s 1.5 times stronger.'
+		R
+		'I’ve already begun outfitting'
+		R
+		'my unit with them, so look'
+		R
+		'forward to the next battle.'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Mhm... Do your best to not'
+		R
+		'disappoint me.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Geez... All you ever say is'
+		R
+		'bad stuff...'
+		\L_069ed:
+		\L_069e0:
+		@L_059d2:
+	}
+	{VAR0428 = 8:
+		\L_06938:
+		ZH 1:
+		'I’m developing the Tulip 2'
+		R
+		'Goliath, a giant long-range'
+		R
+		'cannon that can hit enemy'
+		R
+		'cities directly from here.'
+		\L_069ed:
+		ZH 1:
+		'It’s currently 10% complete.'
+		R
+		'A ground-breaking weapon...'
+		\L_069ed:
+		ZH 1:
+		'With this we could win fights'
+		R
+		'without our allies being hurt,'
+		R
+		'so it should be very useful.'
+		\L_069ed:
+		\L_069e0:
+		@L_059d2:
+	}
+	{VAR0428 = 9:
+		\L_06938:
+		ZH 1:
+		'The thing is... Development of'
+		R
+		'the Tulip 2 Goliath has been'
+		R
+		'difficult.'
+		\L_069ed:
+		ZH 1:
+		'It’s hard to get it to hit a'
+		R
+		'target kilometers away.'
+		R
+		'No matter what we do it ends'
+		R
+		'up hundreds of meters off...'
+		\L_069ed:
+		ZH 1:
+		'It’s not very practical yet.'
+		\L_069ed:
+		ZH 1:
+		'If someone brought a'
+		R
+		'transmission device to the'
+		R
+		'target and waited it’d work,'
+		R
+		'but that’s no good...'
+		\L_069ed:
+		ZH 1:
+		'Aaah... What to do～～...'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Well, work hard.'
+		R
+		'I don’t really understand.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Oh, geez... I’m distressed,'
+		R
+		'don’t be so cold...'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Looks more like you’re having'
+		R
+		'fun to me.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'...Hmph.'
+		\L_069ed:
+		\L_069e0:
+		{VAR0430 = 2:
+			@L_059d2:
+		}
+		\L_06938:
+		ZH 1:
+		'Ah... But my other project’s'
+		R
+		'been progressing well.'
+		\L_069ed:
+		\L_069e0:
+		@L_04bbf:
+	}
+	{VAR0428 = 10:
+		\L_06938:
+		ZH 1:
+		'The Tulip 2 Goliath is almost'
+		R
+		'complete. We’re currently'
+		R
+		'making the final adjustments.'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Hoh... So...'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Ah, sorry... I’m in the middle'
+		R
+		'of some good stuff right now.'
+		R
+		'See you later. Aah, so busy.'
+		\L_069ed:
+		\L_069e0:
+		\L_0699a:
+		\L_06970:
+		ZH 1:
+		'Maria hurried back to her'
+		R
+		'research.'
+		\L_069ed:
+		\L_069e0:
+		\L_068e4:
+		ZH 1:
+		'Lame... Maybe I should go back.'
+		\L_069ed:
+		\L_069e0:
+		\L_06900:
+		ZH 1:
+		'Rance left the research'
+		R
+		'facility.'
+		\L_069ed:
+		\L_069e0:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	{VAR0428 = 11:
+		!VAR0685 : 1!
+		!VAR0758 : 1!
+		\L_06938:
+		ZH 1:
+		'The Tulip 2 Goliath was'
+		R
+		'finished. Now we can attack'
+		R
+		'any enemy, no matter how far'
+		R
+		'away they are.'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Alright, well done.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'The Goliath’s big, so I’m'
+		R
+		'setting it up in North.'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Not in Leazas Castle?'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'It makes a loud sound when it'
+		R
+		'fires, so Queen Lia would be'
+		R
+		'mad...'
+		\L_069ed:
+		\L_069e0:
+		\L_068e4:
+		ZH 1:
+		'...Are the citizens of North'
+		R
+		'alright with that???'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Go to North if you want to aim'
+		R
+		'the Goliath.'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'That’s a hassle...'
+		R
+		'Can’t it be done'
+		R
+		'automatically?'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Yeah...'
+		\L_069ed:
+		ZH 1:
+		'But use it!'
+		R
+		'I went to the trouble of'
+		R
+		'making it, after all.'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'Ah～～～...'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'...Okay?'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'I’ll think about it.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Okay... Be sure to.'
+		\L_069ed:
+		\L_069e0:
+		@L_059d2:
+	}
+	{VAR0428 = 12:
+		\L_06938:
+		ZH 1:
+		'Right now, I’m working on a'
+		R
+		'high-speed reactor that’ll get'
+		R
+		'two or three times as much'
+		R
+		'energy out of hirara alloy.'
+		\L_069ed:
+		ZH 1:
+		'If I can make this, I’ll be'
+		R
+		'able to do the same things'
+		R
+		'I’ve been doing with 1/5th the'
+		R
+		'amount of hirara alloy.'
+		\L_069ed:
+		ZH 1:
+		'It’ll considerably decrease'
+		R
+		'the high cost of my unit to'
+		R
+		'act and the cost of using the'
+		R
+		'Tulip 2 Goliath.'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'I see.'
+		R
+		'That’s amazing. Do your best.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Okay.'
+		\L_069ed:
+		\L_069e0:
+		\L_06970:
+		ZH 1:
+		'Maria smiled broadly.'
+		\L_069ed:
+		\L_069e0:
+		@L_059d2:
+	}
+	{VAR0428 = 13:
+		\L_068c8:
+		ZH 1:
+		'Is your research on that'
+		R
+		'project progressing?'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Yeah...'
+		\L_069ed:
+		ZH 1:
+		'It’s tough, though...'
+		R
+		'I’m trying hard, but...'
+		R
+		'Eheheh.'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'I see.'
+		R
+		'I’m really looking forward to'
+		R
+		'what you come up with.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'O-Okay... I’ll do my best...'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'What’s wrong?'
+		R
+		'You seem tired.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Uh... I’m not tired... Yeah.'
+		\L_069ed:
+		\L_069e0:
+		{VAR0430 = 2:
+			@L_059d2:
+		}
+		\L_06938:
+		ZH 1:
+		'Oh, that’s right...'
+		R
+		'Look at this, too.'
+		\L_069ed:
+		\L_069e0:
+		@L_04bbf:
+	}
+	{VAR0428 = 14:
+		\L_06938:
+		ZH 1:
+		'The high-speed reactor...'
+		R
+		'I know I can make it, but...'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'In that case, do your best.'
+		R
+		'I’m looking forward to it.'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'But...'
+		\L_069ed:
+		ZH 1:
+		'Do we really need it?'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'It’ll reduce costs, right?'
+		R
+		'We need that. With that I can'
+		R
+		'screw around with the leftover'
+		R
+		'money.'
+		\L_069ed:
+		ZH 1:
+		'Anyway, I’m looking forward to'
+		R
+		'it. Got that?'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Y-Yeah...'
+		\L_069ed:
+		\L_069e0:
+		@L_059d2:
+	}
+*L_04b21:
+	\L_068c8:
+	ZH 1:
+	'Nah.'
+	R
+	'Who would want to go inside'
+	R
+	'that big rod? Lame.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...I see...'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'Maria seemed slightly angry,'
+	R
+	'and very disappointed.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'I would go inside you, Maria.'
+	R
+	'Geheheheheh.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Idiot.'
+	\L_069ed:
+	\L_069e0:
+	@L_059d2:
+*L_04bbf:
+	\L_06938:
+	ZH 1:
+	'Rance, Rance! Take a look at'
+	R
+	'the Tulip 100.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'H-Hey, don’t yank on my arm'
+	R
+	'like that! I’m gonna fall over!'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Tadaaaaaaaah!!'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'Maria took Rance into a large'
+	R
+	'room in the research building.'
+	R
+	'Inside was what looked like a'
+	R
+	'20 meter tall artillery shell.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'It’s huge.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Isn’t it incredible?'
+	R
+	'With this we can go to the sky.'
+	R
+	'It’s 89% complete now, but it'
+	R
+	'can probably fly.'
+	\L_069ed:
+	ZH 1:
+	'There’s lots of stuff inside,'
+	R
+	'too. Want to take a look?'
+	\L_069ed:
+	\L_069e0:
+*L_04ca3:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_04ca3:
+	}
+	ZH 1:
+	$L_04ce1$
+	'Look'
+	$
+	R
+	$L_04b21$
+	'Don’t'
+	$
+	]
+	@L_04ca3:
+*L_04ce1:
+	\L_068c8:
+	ZH 1:
+	'Sure, maybe I’ll go inside for'
+	R
+	'a bit.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'I figured you would!'
+	R
+	'Okay, go ahead.'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'Maria guided Rance into the'
+	R
+	'Tulip 100.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Pretty cramped in here...'
+	R
+	'It’s like, the size of a'
+	R
+	'closet.'
+	\L_069ed:
+	ZH 1:
+	'Also... What are these?'
+	R
+	'There’s a bunch of gauges.'
+	R
+	'This room’s so decked out with'
+	R
+	'crap.'
+	\L_069ed:
+	ZH 1:
+	'Is this all that’s in here?'
+	R
+	'It looked huge from the'
+	R
+	'outside.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Yeah, that’s it.'
+	R
+	'The rest of the length of this'
+	R
+	'thing is for the engine that'
+	R
+	'propels it into the sky.'
+	\L_069ed:
+	ZH 1:
+	'...Soon...'
+	R
+	'Soon it’ll be finished.'
+	\L_069ed:
+	ZH 1:
+	'Hey, Rance...'
+	R
+	'There’s a chance I might not'
+	R
+	'be able to return, but...'
+	\L_069ed:
+	ZH 1:
+	'I’m sorry if that happens.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Huh?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'The Tulip 100 can fly beyond'
+	R
+	'the sky, but it might not be'
+	R
+	'able to return.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'............'
+	\L_069ed:
+	ZH 1:
+	'What, it’s really that'
+	R
+	'dangerous?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'So was the first ship, and the'
+	R
+	'first glider...'
+	\L_069ed:
+	ZH 1:
+	'They all overcame danger.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'...How about having someone'
+	R
+	'else ride it, then?'
+	R
+	'Yeah, let’s have Barres ride'
+	R
+	'it. Nobody cares if he dies.'
+	\L_069ed:
+	\L_069e0:
+	\L_06954:
+	ZH 1:
+	'Rance... You don’t'
+	R
+	'understand...'
+	\L_069ed:
+	ZH 1:
+	'I love you, but you’re not'
+	R
+	'going to love only me in'
+	R
+	'return...'
+	\L_069ed:
+	ZH 1:
+	'So... I can’t be by your side'
+	R
+	'anymore.'
+	R
+	'...I...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Hey, Maria.'
+	R
+	'That should be good.'
+	R
+	'I’m set on it. We’re doing'
+	R
+	'that.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'No, I want to ride it...'
+	R
+	'That’s what I made it for.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'No, I can’t allow that.'
+	R
+	'You think I’m gonna sit here'
+	R
+	'and let my woman put herself'
+	R
+	'in danger?!!'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance jumped up.'
+	\L_069ed:
+	ZH 1:
+	'　　＜bang＞'
+	\L_069ed:
+	ZH 1:
+	'　　＜click＞'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Deh!!??'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Aaaaaaaaaaah!!'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'W-What is it?'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'　　＜whiiiiiiir＞'
+	\L_069ed:
+	ZH 1:
+	'  ［Safety lock released.'
+	R
+	'   Prepared for launch.］'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Huh...?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Ah... Aah... What should we'
+	R
+	'do?!'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'　　［Beginning countdown.'
+	R
+	'　　　20, 19, 18...］'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Maria!'
+	R
+	'What happened?'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'　　［16, 15, 14, 13］'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Idiot... You pushed the launch'
+	R
+	'button.'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'　　［9, 8, 7, 6, 5］'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Geh!!'
+	R
+	'Can’t we stop it!?'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'　　［3, 2］'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'W-We’re out of time...!!'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'　　＜rumblerumblerumble＞'
+	\L_069ed:
+	ZH 1:
+	'　　＜RUMBLEEEE!!!!!＞'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Owah!!'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Kyah!!'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'The immense force hit Rance'
+	R
+	'and Maria.'
+	\L_069ed:
+	ZH 1:
+	'　　［0, lift-off.］'
+	\L_069ed:
+	{VAR0071 \ 0:
+		SS 0:
+	}
+	!VAR0000 : 63!
+	\L_068ac:
+	ZH 1:
+	'　　＜rumbleeeeeeeeee＞'
+	\L_069ed:
+	ZH 1:
+	'The Tulip 100 flew high into'
+	R
+	'the sky.'
+	\L_069ed:
+	PF1 VAR0056:
+	\L_06a14:
+	EC 0:
+	SS 0:
+	PF0 VAR0056:
+	\L_068ba:
+	!VAR0516 : 1063!
+	\L_069c4:
+	!VAR0516 : 1!
+	\L_0691c:
+	!VAR0516 : 50!
+	\L_0698c:
+	\L_068c8:
+	ZH 1:
+	'Whaaaaaat?!!'
+	R
+	'Where are weeee?!!'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Ah... Aah...'
+	R
+	'No way...'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'　　［Detaching Rocket 1］'
+	\L_069ed:
+	ZH 1:
+	'　　＜kachunk＞'
+	\L_069ed:
+	ZH 1:
+	'　　＜ruuumbleeeeee＞'
+	\L_069ed:
+	ZH 1:
+	'　　＜...rumbleee...＞'
+	\L_069ed:
+	ZH 1:
+	'　　＜............＞'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Hm...?'
+	R
+	'It’s gotten pretty quiet.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...Yeah.'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance looked outside through a'
+	R
+	'small window in the room.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'What is this...?'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance and Maria saw the'
+	R
+	'continent they were just on.'
+	R
+	'Yes... The entire thing.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'...What the hell...?'
+	R
+	'Everything looks much smaller'
+	R
+	'than from the Toushin City'
+	R
+	'when that was flying...'
+	\L_069ed:
+	ZH 1:
+	'Does that mean we’re even'
+	R
+	'higher up than that was??'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Rance... I’m sorry...'
+	R
+	'This is it for us...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Can we not go back??'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Yeah...'
+	\L_069ed:
+	ZH 1:
+	'I hadn’t made the device for'
+	R
+	'returning yet...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'.............'
+	\L_069ed:
+	ZH 1:
+	'Are we stuck here forever?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...Yeah...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Oh yeah, what about food?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...Two weeks’ worth for'
+	R
+	'emergency use... For two'
+	R
+	'people, it’ll last one week...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Uuh, what should we do?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...I don’t know...'
+	\L_069ed:
+	ZH 1:
+	'There’s no fuel either, so'
+	R
+	'we’re just going to keep'
+	R
+	'drifting like this...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'............'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...Rance.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'.........'
+	\L_069ed:
+	ZH 1:
+	'Ch.'
+	R
+	'Well, what happens, happens.'
+	\L_069ed:
+	\L_069e0:
+	SS 24:
+	\L_06938:
+	ZH 1:
+	'Huh...?'
+	\L_069ed:
+	ZH 1:
+	'Kyah...!'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance hugged Maria and'
+	R
+	'forcibly kissed her.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'W-Wait, Rance!'
+	R
+	'What are you doing?!'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Sex, of course.'
+	R
+	'We’ve got a private room and'
+	R
+	'we’re all alone, what else'
+	R
+	'could we do?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'If we exert too much energy,'
+	R
+	'the oxygen’s going to run out'
+	R
+	'faster...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Who cares?'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance gripped Maria’s breasts.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Ah...!'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Gahahahahaha!!!'
+	\L_069ed:
+	\L_069e0:
+	PF1 VAR0056:
+	EC 0:
+	PF0 VAR0056:
+	\L_06900:
+	ZH 1:
+	'Rance and Maria were flung out'
+	R
+	'into space...'
+	R
+	'What will become of them...?'
+	\L_069ed:
+	ZH 1:
+	'Will the Tulip 100 drift to'
+	R
+	'another continent before they'
+	R
+	'run out of food...?'
+	\L_069ed:
+	\L_069e0:
+	\L_06954:
+	ZH 1:
+	'...We might die very soon.'
+	\L_069ed:
+	ZH 1:
+	'But now I can have Rance all'
+	R
+	'to myself just as I wished...'
+	R
+	'I guess...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'What is it, Maria?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Oh, nothing...'
+	\L_069ed:
+	ZH 1:
+	'Rance...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Hm?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'I love you...'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'　　GAME OVER'
+	\L_069ed:
+	\L_069e0:
+	!VAR0805 : 5!
+	&#OVER.ADV:
+*L_057d6:
+	!VAR0429 : 2!
+	\L_068c8:
+	ZH 1:
+	'Maria, about that thing you’re'
+	R
+	'making right now...'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'The high-speed reactor?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Yeah, that.'
+	R
+	'I have a feeling it’s'
+	R
+	'dangerous. Stop working on it.'
+	R
+	'Okay?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...O-Okay, got it.'
+	R
+	'I was thinking it would be'
+	R
+	'dangerous, too... I’m glad you'
+	R
+	'asked.'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'Maria let out a sigh of relief.'
+	\L_069ed:
+	\L_069e0:
+	@L_059d2:
+*L_0588e:
+	!VAR0430 : 2!
+	\L_068c8:
+	ZH 1:
+	'Maria, about that Tulip 100'
+	R
+	'thing you’re making...'
+	R
+	'Are you planning to ride that?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...W-Well, yeah...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'In any case, stop working on'
+	R
+	'it. Okay?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Whaaat, why?!'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Shut up.'
+	R
+	'That’s an order. Shut it down.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Why...?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Because I don’t like it.'
+	R
+	'Stop working on the Tulip 100.'
+	\L_069ed:
+	ZH 1:
+	'Disassemble what you’ve made'
+	R
+	'and use it as firewood or'
+	R
+	'something.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'But...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Got it?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...O-Okay...'
+	\L_069ed:
+	\L_069e0:
+	@L_059d2:
+*L_059d2:
+	\L_068c8:
+	ZH 1:
+	'Guess I’ll get going, then.'
+	R
+	'See you.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Okay, come again sometime.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'I dunno...'
+	\L_069ed:
+	ZH 1:
+	'Maybe if you made something'
+	R
+	'more erotic I’d come back.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'I wouldn’t make something like'
+	R
+	'that! Stupid!'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Gahahahahaha.'
+	R
+	'Anyway, see you later.'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance left the research'
+	R
+	'institute.'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_05aa5:
+	!VAR0428 : 15!
+	!VAR0426 : 3!
+	!VAR0154 : 16!
+	!VAR0102 : 0!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_069c4:
+	!VAR0516 : 1!
+	\L_0691c:
+	\L_06900:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　Audience Room'
+	\L_069ed:
+	ZH 1:
+	'Rance was slurping some'
+	R
+	'chilled pink unyuun through a'
+	R
+	'straw.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Mmm, this is good.'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 6!
+	\L_0698c:
+	\L_06938:
+	ZH 1:
+	'King Rance!'
+	R
+	'There’s trouble!'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'What?'
+	R
+	'Did you get pregnant or'
+	R
+	'something?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...This isn’t the time to be'
+	R
+	'joking around.'
+	\L_069ed:
+	ZH 1:
+	'Maria’s research building'
+	R
+	'exploded.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Huh...?'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'According to the researchers'
+	R
+	'that survived, an explosion'
+	R
+	'occurred during research on a'
+	R
+	'reactor. Many died.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'...But Maria’s okay, isn’t'
+	R
+	'she?'
+	\L_069ed:
+	\L_069e0:
+	{VAR0552 \ 1:
+		!VAR0428 : 100!
+		!VAR0426 : 100!
+		\L_06938:
+		ZH 1:
+		'............'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'...Is she not...?'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'Apparently she was at the'
+		R
+		'center of the explosion...'
+		R
+		'There’s not even any remains'
+		R
+		'of her body...'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'............'
+		\L_069ed:
+		ZH 1:
+		'Then you’re saying she’s'
+		R
+		'dead...'
+		\L_069ed:
+		\L_069e0:
+		\L_06938:
+		ZH 1:
+		'............'
+		\L_069ed:
+		\L_069e0:
+		\L_068c8:
+		ZH 1:
+		'.........'
+		\L_069ed:
+		ZH 1:
+		'...Damn it...!!'
+		\L_069ed:
+		\L_069e0:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	\L_06938:
+	ZH 1:
+	'Yes...'
+	\L_069ed:
+	ZH 1:
+	'She’s currently in the'
+	R
+	'hospital, but her life isn’t'
+	R
+	'in danger. She should be fully'
+	R
+	'recovered in about two weeks.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'I see...'
+	R
+	'Send her a get-well gift for'
+	R
+	'me.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Yes.'
+	\L_069ed:
+	\L_069e0:
+	\L_068e4:
+	ZH 1:
+	'Maria... What did you do to'
+	R
+	'yourself? That was really'
+	R
+	'dangerous...'
+	\L_069ed:
+	ZH 1:
+	'Maybe she hated working on'
+	R
+	'that device...'
+	\L_069ed:
+	ZH 1:
+	'In that case, she should have'
+	R
+	'just said so... Idiot!'
+	\L_069ed:
+	\L_069e0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_05df8:
+	!VAR0426 : 6!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_069c4:
+	!VAR0516 : 1!
+	\L_0691c:
+	!VAR0516 : 6!
+	\L_0698c:
+	\L_06900:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　Audience Room'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'King Rance, Ms. Maria was'
+	R
+	'safely discharged from the'
+	R
+	'hospital the other day.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'I see.'
+	R
+	'That’s good.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'She’s here to see you.'
+	R
+	'Shall I let her through?'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Yeah, go ahead.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'Yes, understood.'
+	\L_069ed:
+	\L_069e0:
+	\L_0699a:
+	!VAR0516 : 50!
+	\L_0698c:
+	\L_06938:
+	ZH 1:
+	'Rance...'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'Hey, you look well.'
+	R
+	'Good, good.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'I’m sorry...'
+	R
+	'Because of me, my researchers'
+	R
+	'got hurt...'
+	\L_069ed:
+	ZH 1:
+	'Also, the research institute'
+	R
+	'was destroyed...'
+	\L_069ed:
+	\L_069e0:
+	\L_06970:
+	ZH 1:
+	'When Maria noticed the tears'
+	R
+	'building up in her eyes, she'
+	R
+	'lowered her head.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'...What’s done is done, don’t'
+	R
+	'worry about it. We can just'
+	R
+	'build another one...'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'No... Don’t bother...'
+	R
+	'I’m sorry.'
+	\L_069ed:
+	\L_069e0:
+	\L_068c8:
+	ZH 1:
+	'...I see.'
+	\L_069ed:
+	ZH 1:
+	'Well, don’t worry about it.'
+	R
+	'Keep working for me as you'
+	R
+	'have been.'
+	\L_069ed:
+	\L_069e0:
+	\L_06938:
+	ZH 1:
+	'...Okay.'
+	\L_069ed:
+	\L_069e0:
+	!VAR0154 : 16!
+	!VAR0102 : 2!
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_06041:
+	\L_068e4:
+	ZH 1:
+	'Alright, maybe I’ll take a'
+	R
+	'look through the peephole.'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'Rance entered a secret room'
+	R
+	'behind the Tulip Research'
+	R
+	'Institute.'
+	\L_069ed:
+	\L_069e0:
+	\L_068e4:
+	ZH 1:
+	'I just need to use this secret'
+	R
+	'key only I have, and...'
+	\L_069ed:
+	\L_069e0:
+	\L_06900:
+	ZH 1:
+	'　　＜click...＞'
+	\L_069ed:
+	\L_069e0:
+	\L_068e4:
+	ZH 1:
+	'Alright, good.'
+	\L_069ed:
+	ZH 1:
+	'Of course, it was made so they'
+	R
+	'can’t see that the hole is'
+	R
+	'open from the other side.'
+	\L_069ed:
+	ZH 1:
+	'That way nobody will know what'
+	R
+	'I’m doing. This is the King’s'
+	R
+	'special right.'
+	\L_069ed:
+	ZH 1:
+	'Now let’s see...'
+	R
+	'Hm...'
+	\L_069ed:
+	ZH 1:
+	'...Oh.'
+	\L_069ed:
+	ZH 1:
+	'...Ooh...'
+	\L_069ed:
+	ZH 1:
+	'Oooooooh...'
+	\L_069ed:
+	\L_069e0:
+	PF1 VAR0056:
+	G 806:
+	G 150:
+	\L_069a8:
+	ZH 1:
+	'Rance（They’re talking about something...'
+	R
+	'      Let’s listen...）'
+	PF0 VAR0056:
+	\L_069ed:
+	ZH 1:
+	'Rance eavesdropped on them.'
+	\L_069ed:
+	{(VAR0428 > 12) * (VAR0429 = 0):
+		!VAR0429 : 1!
+		ZH 1:
+		'Girl 1「Hey...'
+		R
+		'       Will that project turn out okay?」'
+		\L_069ed:
+		ZH 1:
+		'Girl 2「Are you talking about the high-speed'
+		R
+		'       reactor?」'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「Yeah, that!」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「I think it’s dangerous too...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「If assistants like us think it’s dangerous,'
+		R
+		'       then Dr. Maria should too, right...?」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「I would think so, but...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 2「I heard from another girl that King Rance is'
+		R
+		'       really looking forward to the reactor...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「Aah... So she can’t stop...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 2「Yeah... But it’s still dangerous.'
+		R
+		'　      Who knows when it could explode...?」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「Yeah...'
+		R
+		'       Can Dr. Maria not give her opinion to King'
+		R
+		'       Rance...?」'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「...If she did, he’d say \"I’ll listen to you,'
+		R
+		'       so let me fuck you\" or something, and she'
+		R
+		'       doesn’t like that...」'
+		\L_069ed:
+		ZH 1:
+		'Girls「Kyahahahaha!!'
+		R
+		'　　　　　That’s totally what would happen!」'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「...But...」'
+		\L_069ed:
+		ZH 1:
+		'Girl「Yeah... It’s dangerous, I don’t like it...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「I want to stop, but I don’t want to abandon'
+		R
+		'       Dr. Maria, either...'
+		R
+		'　      This is bad... Geez...」'
+		\L_069ed:
+		ZH 1:
+		'Rance（............）'
+		\L_069ed:
+		ZH 1:
+		'Rance（???）'
+		\L_069ed:
+		ZH 1:
+		'Rance（What do they mean, it’s dangerous...?'
+		R
+		'      Maria hasn’t said anything about that...）'
+		\L_069ed:
+		ZH 1:
+		'Rance（Hmmmmm... I wonder if something happened...）'
+		\L_069ed:
+		ZH 1:
+		'Rance left while thinking to himself.'
+		\L_069ed:
+		\L_069e0:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	Y 4, 5:
+	{(VAR0428 > 5) * (VAR0000 = 1) * (VAR0430 = 0):
+		!VAR0430 : 1!
+		ZH 1:
+		'Girl 1「Hey, have you heard about Dr. Maria?」'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「Apparently she’s planning to ride on the'
+		R
+		'       Tulip 100.」'
+		\L_069ed:
+		ZH 1:
+		'Girl 2「Wow, really?'
+		R
+		'       Weren’t we planning to make a hanny ride it'
+		R
+		'       as an experiment first?」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「Yeah, and the chance of successfully'
+		R
+		'       returning in only 0.03%...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「Yeah... I wonder why she wants to do that.'
+		R
+		'       If it were me, I’d be too scared to ride'
+		R
+		'       it...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 2「Maybe she has a broken heart...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「Huh...? But Dr. Maria’s, you know, like this'
+		R
+		'       with King Rance.」'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「Kyaaah!'
+		R
+		'　      Stop touching me like that!'
+		R
+		'　      It’s filthy!」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「Oh, come on!」'
+		\L_069ed:
+		ZH 1:
+		'Rance（Maria’s gonna ride the Tulip 100?'
+		R
+		'      What’s the meaning of this??）'
+		\L_069ed:
+		ZH 1:
+		'Rance（It only has a 0.03% chance of coming back...'
+		R
+		'      If it were me, I’d be like these girls and not'
+		R
+		'      do it...）'
+		\L_069ed:
+		ZH 1:
+		'Rance（Does she want to die with the thing she'
+		R
+		'      created that much??）'
+		\L_069ed:
+		ZH 1:
+		'Rance thought to himself as he left.'
+		\L_069ed:
+		\L_069e0:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+	Y 4, 3:
+	{VAR0000 = 1:
+*L_064a3:
+		ZH 1:
+		'Rance（Mhm.'
+		R
+		'      Sexy stuff.'
+		R
+		'      Guheheheheheheheheheheheheh.）'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「Aaah, I’m kinda tired today.」'
+		\L_069ed:
+		ZH 1:
+		'Girl 2「Yeah, me too.'
+		R
+		'　      Want to go to a restaurant or something on'
+		R
+		'       the way home?」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「I want to go to the beer garden.'
+		R
+		'       A nice, cold beer is just the thing for when'
+		R
+		'       you’re exhausted...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「What?!'
+		R
+		'       I wanted to get a cake set at the cafe.」'
+		\L_069ed:
+		ZH 1:
+		'Girl 2「I want hot sake at the yakitori place...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「Definitely don’t want that.」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「Neither do I.」'
+		\L_069ed:
+		ZH 1:
+		'Girl 2「What, why?!」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「We’re going to the beer hall!」'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「Cake, cake, cake!!」'
+		\L_069ed:
+		ZH 1:
+		'Girl 2「Alright...'
+		R
+		'       Let’s do rock-paper-scissors to decide!」'
+		\L_069ed:
+		ZH 1:
+		'Girls「Rooock, paaaper, scissors!」'
+		\L_069ed:
+		ZH 1:
+		'Rance（I guess girls do lots of things, too.'
+		R
+		'      This was a good learning experience.'
+		R
+		'      Gotta write this down...）'
+		\L_069ed:
+		ZH 1:
+		'Rance took notes as he left the building.'
+		\L_069ed:
+		{VAR0520 = 300:
+			%0:
+		}
+	}
+	{VAR0000 = 2:
+		ZH 1:
+		'Girl 2「So Fukuda, that guard, asked me out on a date'
+		R
+		'       today.」'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「Really?!!'
+		R
+		'　      That’s nice...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「...There must be something wrong with your'
+		R
+		'       eyes.」'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「Huh...? I think Fukuda looks pretty average.'
+		R
+		'       That’s good enough...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「When you’re young, you can bear to aim higher'
+		R
+		'       than that.」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「You could even say it’s the only time you can'
+		R
+		'       aim higher.」'
+		\L_069ed:
+		ZH 1:
+		'Girl 2「That’s a pretty harsh theory...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「So, are you gonna get a boyfriend?」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「I don’t really care about getting one,'
+		R
+		'       personally!」'
+		\L_069ed:
+		ZH 1:
+		'Girls「Kyaaaaaaah! Ahahahaha!」'
+		\L_069ed:
+		ZH 1:
+		'Rance（...I knew girls talked trash about guys'
+		R
+		'      behind their backs, but it makes me sick to'
+		R
+		'      watch it...）'
+		\L_069ed:
+		ZH 1:
+		'Rance rubbed his stomach as he left the building.'
+		\L_069ed:
+	}
+	{VAR0000 = 3:
+		ZH 1:
+		'Girl 2「Hey, did you read today’s paper?」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「Yeah, are you talking about the sale'
+		R
+		'       advertisement?」'
+		\L_069ed:
+		ZH 1:
+		'Girl 2「Yeah!'
+		R
+		'　      60% off brand-name items...'
+		R
+		'　      It’s like a dream...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「I wanna go...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 2「Should we go today, then?」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「Sure...'
+		R
+		'　      We can get drinks afterwards.」'
+		\L_069ed:
+		ZH 1:
+		'Girl 2「Ah, I’d rather go bowling than that.」'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「Auto tennis would be nice...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「After a hard day of work and using even more'
+		R
+		'       energy shopping, how could you exercise?!」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「Also, if we go to the bar, even if we’re'
+		R
+		'       broke, as long as a group of boys comes we'
+		R
+		'       can get them to pay.」'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「You’re always so greedy when it comes to'
+		R
+		'       saving on drinking money...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「Well, they only come hoping to meet girls'
+		R
+		'       anyway...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「So I’m burying their loneliness.'
+		R
+		'       It’s 50/50.」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「Also, the guys I usually get doing this are'
+		R
+		'       older guys with plenty of money, so I don’t'
+		R
+		'       really feel bad.」'
+		\L_069ed:
+		ZH 1:
+		'Girl 2「I wanna try doing that...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「Then it’s decided!'
+		R
+		'　      Let’s go drinkiiing!」'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「I-I’ll pass...」'
+		\L_069ed:
+		ZH 1:
+		'Girl 3「Oh, come on.'
+		R
+		'　      Let’s go to the bargain sale and then go'
+		R
+		'       drink.」'
+		\L_069ed:
+		ZH 1:
+		'Girl 1「Kyaaaah, kyaaaaaah!」'
+		\L_069ed:
+		ZH 1:
+		'Rance（...Girls might be pretty terrifying...）'
+		\L_069ed:
+		ZH 1:
+		'Rance was pushed to the limits of philosophical'
+		R
+		'thinking as he left the building.'
+		\L_069ed:
+	}
+	\L_069e0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_068ac:
+	!VAR0516 : 0!
+	%#PCMPLAY.ADV:
+	\0:
+*L_068ba:
+	!VAR0516 : 3!
+	%#PCMPLAY.ADV:
+	\0:
+*L_068c8:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_068e4:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_06900:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0691c:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_06938:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+*L_06954:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+*L_06970:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0698c:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0699a:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+*L_069a8:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_069c4:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_069e0:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_069ed:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 3!
+	%#WAO_SUB.ADV:
+	\0:
+*L_06a14:
+	!VAR0521 : 4!
+	%#WAO_SUB.ADV:
+	\0:

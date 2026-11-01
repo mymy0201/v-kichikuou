@@ -1,0 +1,1157 @@
+--- before/Gｱﾘｽ2.ADV
++++ src/Gｱﾘｽ2.ADV
+@@ -1502,19 +1502,19 @@
+ 	!VAR0657 : 1!
+ 	\L_05a0f:
+ 	ZH 1:
+-	'Cho ta gặp “Cô gái chó”.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Chắc chắn rồi.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Naritaya hướng dẫn'
+-	R
+-	'Rance đến “phòng khách”.'
++	'Cho ta gặp «cô gái chó».'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Vâng, tôi hiểu rồi.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Naritaya dẫn Rance tới'
++	R
++	'«phòng tiếp khách».'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	!VAR0516 : 0!
+@@ -1527,49 +1527,45 @@
+ 	\L_05ad3:
+ 	\L_05a47:
+ 	ZH 1:
+-	'Đó là một'
+-	R
+-	'căn phòng rất giống'
+-	R
+-	'phòng ngủ của Rance.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Tôi được phép'
+-	R
+-	'làm nó giống phòng'
+-	R
+-	'của cậu một chút.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Naritaya rút'
+-	R
+-	'một chiếc chuông ra'
+-	R
+-	'khỏi túi và rung lên.'
++	'Căn phòng có cách bài'
++	R
++	'trí rất giống phòng ngủ'
++	R
++	'của Rance ở thành Leazas.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Tôi có bắt chước phòng'
++	R
++	'của Bệ hạ một chút.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Naritaya lấy chiếc'
++	R
++	'chuông trong ngực áo'
++	R
++	'ra, rung leng keng.'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a7f:
+ 	ZH 1:
+ 	'Portie, Portie, ra'
+ 	R
+-	'đây và tiếp đãi nhà vua!'
++	'tiếp đãi Bệ hạ nào!'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05ae1:
+ 	\L_05a7f:
+ 	ZH 1:
+-	'（Oooooooooookaaaaaaaaaaa'
+-	R
+-	'aaay!） cô gái chó Được gọi'
+-	\L_05b34:
+-	ZH 1:
+-	'là Portie nhảy'
+-	R
+-	'ra trước Rance.'
++	'(Vâââng!) Cô gái chó tên'
++	\L_05b34:
++	ZH 1:
++	'Portie nhảy chân sáo'
++	R
++	'tới trước mặt Rance.'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05ae1:
+@@ -1577,20 +1573,18 @@
+ 	\L_05ad3:
+ 	\L_05a7f:
+ 	ZH 1:
+-	'Chào Mừng,'
+-	R
+-	'Bệ Hạ! Tôi Là Portie!'
+-	R
+-	'Rất vui được gặp cậu!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Portie ngồi'
+-	R
+-	'trước Rance, vẫy cái đuôi'
+-	R
+-	'mềm mại và tự giới thiệu.'
++	'Chào Bệ hạ! Portie đây! Rất'
++	R
++	'vui được gặp ngài! Nhé, nhé!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Portie ngồi ngay'
++	R
++	'ngắn trước Rance, vẫy'
++	R
++	'cái đuôi xù để chào.'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05ae1:
+@@ -1598,18 +1592,14 @@
+ 	\L_05ad3:
+ 	\L_05a7f:
+ 	ZH 1:
+-	'Bây giờ hãy'
+-	R
+-	'tận hưởng đi...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Một nụ cười đầy ý nghĩa hiện'
+-	R
+-	'lên trên khuôn mặt Naritaya'
+-	R
+-	'và anh rời khỏi phòng.'
++	'Vậy xin ngài cứ thong thả...'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Naritaya nở nụ cười đầy'
++	R
++	'ẩn ý rồi ra khỏi phòng.'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05ae1:
+@@ -1617,41 +1607,35 @@
+ 	\L_05ad3:
+ 	\L_05a7f:
+ 	ZH 1:
+-	'Bệ Hạ, Bệ Hạ!'
+-	R
+-	'Chúng ta sẽ chơi gì?!'
+-	R
+-	'Chúng ta sẽ chơi gì?!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'... Ngươi'
+-	R
+-	'khá sôi nổi.(ý hắn'
+-	R
+-	'là khó chịu) Vâng!'
+-	\L_05b34:
+-	ZH 1:
+-	'Sư phụ nói tốt'
+-	R
+-	'nhất là sống động!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Thầy?... À,'
+-	R
+-	'con daruma đó à?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Hắn không phải'
+-	R
+-	'là daruma. Hắn là'
+-	R
+-	'chủ nhân của tôi!'
++	'Bệ hạ, Bệ hạ! Chơi gì'
++	R
++	'bây giờ?! Chơi gì nào?!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'...Sôi nổi thật.'
++	R
++	'(Ý là ồn.) Vâng!'
++	\L_05b34:
++	ZH 1:
++	'Chủ nhân cũng bảo vui vẻ,'
++	R
++	'khỏe mạnh là tốt nhất mà!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Chủ nhân?... À, cái'
++	R
++	'gã Daruma ấy hả?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Không phải Daruma! Là'
++	R
++	'chủ nhân của Portie!'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a47:
+@@ -1661,208 +1645,194 @@
+ 	\L_05b27:
+ 	\L_05a0f:
+ 	ZH 1:
+-	'Hắn không'
+-	R
+-	'phù hợp để trở thành bậc'
+-	R
+-	'thầy của bất cứ điều gì.'
+-	\L_05b34:
+-	ZH 1:
+-	'Daruma là một mô'
+-	R
+-	'tả đủ tốt cho anh ta.'
+-	\L_05b34:
+-	ZH 1:
+-	'uu~!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Portie gầm gừ'
+-	R
+-	'không hài lòng.'
+-	\L_05b34:
+-	ZH 1:
+-	'Những chiếc'
+-	R
+-	'răng nanh dài của cô lộ'
+-	R
+-	'ra khi cô nghiến răng.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Hắn không'
+-	R
+-	'phải là daruma! Hắn là chủ'
+-	R
+-	'nhân của tôi! Bậc thầy!!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Portie sủa Ở Rance là'
+-	R
+-	'thích hợp của một con chó.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Masteeeeeeeeeee!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'.................. được'
+-	R
+-	'rồi, được rồi. Sư phụ.'
+-	R
+-	'Ta hiểu rồi, im lặng đi.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'... Được chứ?'
+-	\L_05b34:
+-	ZH 1:
+-	'Bất kể anh ta trông giống'
+-	R
+-	'daruma đến mức nào, không'
+-	R
+-	'được gọi anh ta là daruma,'
+-	\L_05b34:
+-	ZH 1:
+-	'thưa Bệ hạ.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Rance sửa mình, Vì'
+-	R
+-	'vậy Portie mỉm cười.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Trời ạ... Ngươi vui vẻ'
+-	R
+-	'như một con chó thực sự vậy.'
+-	\L_05b34:
+-	ZH 1:
+-	'Đừng cắn ta hay gì cả.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Tôi sẽ không bao'
+-	R
+-	'giờ làm điều đó!'
+-	\L_05b34:
+-	ZH 1:
+-	'Thầy dạy tôi phải'
+-	R
+-	'hiếu khách với khách.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Ồ vậy à?... Rồi lắc.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Tai!'
++	'Cái gã Daruma ấy có chỗ'
++	R
++	'nào ra dáng chủ nhân chứ.'
++	\L_05b34:
++	ZH 1:
++	'Gọi Daruma là đủ rồi.'
++	\L_05b34:
++	ZH 1:
++	'Gừừ~!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Portie gầm gừ bất mãn.'
++	\L_05b34:
++	ZH 1:
++	'Giữa hàm răng nghiến chặt'
++	R
++	'lộ ra những chiếc nanh dài.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Không phải Daruma! Là'
++	R
++	'chủ nhân! Chủ nhân cơ!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Portie sủa vào mặt Rance,'
++	R
++	'đúng như một con chó.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Là chủ nhââân cơ mà!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'...Rồi, rồi. Chủ'
++	R
++	'nhân chứ gì. Ta hiểu'
++	R
++	'rồi, im một chút đi.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'...Ngài hiểu chưa?'
++	\L_05b34:
++	ZH 1:
++	'Dù có giống tới đâu cũng'
++	R
++	'không được gọi là Daruma,'
++	\L_05b34:
++	ZH 1:
++	'Bệ hạ nhé?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Rance đã sửa lời, nên'
++	R
++	'Portie lại cười tươi.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Trời ạ... Sủa ăng'
++	R
++	'ẳng như chó thật.'
++	\L_05b34:
++	ZH 1:
++	'Đừng có cắn ta đấy.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Portie không làm thế đâu!'
++	\L_05b34:
++	ZH 1:
++	'Chủ nhân đã dạy Portie'
++	R
++	'phải ngoan ngoãn'
++	R
++	'khi tiếp khách mà.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Thế à?... Vậy «bắt tay» xem.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Gâu!'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a47:
+ 	ZH 1:
+ 	'Portie đặt tay'
+ 	R
+-	'phải Lên Tay Rance.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Và mặt khác.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Woof woof!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Portie thay thế tay'
+-	R
+-	'phải bằng tay trái.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Cuộn qua ba Lần và vỏ cây!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'(rollrollroll)'
+-	R
+-	'Woof woof woof!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Ta hiểu rồi. Vậy là ngươi'
+-	R
+-	'đã được đào tạo? heheh.'
+-	R
+-	'Ta thông minh phải không?'
++	'phải lên tay Rance.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'«Đổi tay».'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Gâu gâu!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Portie đổi tay phải'
++	R
++	'thành tay trái.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Quay ba vòng rồi'
++	R
++	'sủa một tiếng!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'(Quay quay quay)'
++	R
++	'Gâu gâu gâu!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Ra vậy. Cũng được dạy dỗ'
++	R
++	'đấy. Hì hì, Portie giỏi chứ?'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a2b:
+ 	ZH 1:
+-	'Ch... Cô'
+-	R
+-	'gái này bị sao vậy? Nàng'
+-	R
+-	'giống như một đứa trẻ.'
+-	\L_05b34:
+-	ZH 1:
+-	'... Khập khiễng.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'... Ừ. Ngươi chắc'
+-	R
+-	'chắn là người thông minh.'
+-	R
+-	'Rance vuốt ve Đầu Portie.'
+-	\L_05b34:
+-	ZH 1:
+-	'... Nhưng...'
+-	\L_05b34:
+-	ZH 1:
+-	'Ngay lúc đó,'
+-	R
+-	'Portie nhảy vào cổ Rance.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Tôi hạnh phúc!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'W-ngươi đang'
+-	R
+-	'làm gì Bây giờ?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Cậu ca ngợi tôi, Bệ Hạ!'
++	'Chậc... Sao lại như'
++	R
++	'trẻ con thế này?'
++	\L_05b34:
++	ZH 1:
++	'...Chán thật.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'...Ừ. Giỏi, giỏi.'
++	R
++	'Giỏi lắm. Rance xoa'
++	R
++	'đầu Portie qua loa.'
++	\L_05b34:
++	ZH 1:
++	'...Nhưng...'
++	\L_05b34:
++	ZH 1:
++	'Ngay lúc ấy, Portie nhảy'
++	R
++	'tới ôm choàng cổ Rance.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Vui quá!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'N-này, sao tự'
++	R
++	'nhiên lại làm thế?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Vì Bệ hạ vừa khen Portie mà!'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a0f:
+@@ -1872,30 +1842,26 @@
+ 	\L_05b27:
+ 	\L_05a7f:
+ 	ZH 1:
+-	'Nếu cậu khen tôi'
+-	R
+-	'thì có nghĩa tôi là một'
+-	R
+-	'cô gái ngoan phải không?'
+-	\L_05b34:
+-	ZH 1:
+-	'Thế là tôi hạnh phúc!'
++	'Được khen chứng tỏ'
++	R
++	'Portie ngoan, đúng không?'
++	\L_05b34:
++	ZH 1:
++	'Thế nên Portie vui lắm!'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a2b:
+ 	ZH 1:
+-	'Tuy nhiên, ta không'
+-	R
+-	'thực sự khen ngợi nàng...'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Mặc dù Rance đang nghĩ'
+-	R
+-	'điều gì đó thô lỗ, Portie'
+-	R
+-	'vẫn mỉm cười khi ôm anh.'
++	'Ta có khen đâu mà...'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Rance đang nghĩ lạnh'
++	R
++	'nhạt như thế, Portie'
++	R
++	'vẫn cười tươi ôm hắn.'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a2b:
+@@ -1923,96 +1889,88 @@
+ 	\L_05b27:
+ 	\L_05a47:
+ 	ZH 1:
+-	'Trong khi Rance nghĩ'
+-	R
+-	'rằng, Portie giật mình'
+-	R
+-	'trên tay áo của mình.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'... Cái gì?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Rance bối'
+-	R
+-	'rối. Portie nhìn anh với'
+-	R
+-	'đôi mắt sáng ngời và nói.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Bệ Hạ! Đi ra ngoài thôi!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'À?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Ở trong nhà thật nhàm'
+-	R
+-	'chán! Hãy chơi bên ngoài!'
+-	\L_05b34:
+-	ZH 1:
+-	'Thôi nào, chúng ta'
+-	R
+-	'có thể, phải không?!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Portie cố gắng'
+-	R
+-	'kéo Rance ra ngoài mà'
+-	R
+-	'không cần chờ phản hồi.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Này, đợi đã! Ta không muốn'
+-	R
+-	'chơi với chó, điều đó thật'
+-	R
+-	'trẻ con! Ta bảo chờ đã!!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Nhưng sức mạnh của'
+-	R
+-	'Portie lớn hơn nhiều so với'
+-	\L_05b34:
+-	ZH 1:
+-	'những gì có thể tưởng'
+-	R
+-	'tượng từ vẻ ngoài của cô,'
+-	\L_05b34:
+-	ZH 1:
+-	'và ngay cả Rance'
+-	R
+-	'cũng không thể rũ bỏ cô.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Này, đồ ngu, ta'
+-	R
+-	'bảo mày thả ta ra!!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Rance bất lực'
+-	R
+-	'bị lôi ra ngoài.'
++	'Giữa lúc Rance đang'
++	R
++	'nghĩ ngợi, Portie'
++	R
++	'chợt kéo tay áo hắn.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'...Gì thế?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Trước vẻ ngờ vực của Rance,'
++	R
++	'Portie mắt sáng ngời nói:'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Bệ hạ! Ra ngoài đi!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Hả?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Trong phòng chán lắm!'
++	R
++	'Ra ngoài chơi đi!'
++	\L_05b34:
++	ZH 1:
++	'Nhé? Được chứ, được chứ?!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Chẳng chờ trả lời, Portie'
++	R
++	'đã kéo Rance ra ngoài.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Này, chờ đã! Ta không'
++	R
++	'chơi với chó như trẻ'
++	R
++	'con đâu! Đã bảo chờ mà!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Nhưng sức Portie mạnh'
++	\L_05b34:
++	ZH 1:
++	'ngoài sức tưởng tượng, chẳng'
++	R
++	'hợp với vẻ ngoài chút nào.'
++	\L_05b34:
++	ZH 1:
++	'Ngay cả Rance cũng'
++	R
++	'không giằng ra nổi.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Này, đồ ngốc! Bỏ ra!'
++	R
++	'Ta bảo bỏ ra mà!!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Rance đành chịu để'
++	R
++	'Portie lôi đi xềnh xệch.'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a71:
+@@ -2041,50 +1999,42 @@
+ 	\L_05ad3:
+ 	\L_05a47:
+ 	ZH 1:
+-	'Rance và Portie'
+-	R
+-	'đang ở một khoảng trống'
+-	R
+-	'cách “Sở thú’ không xa.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'... Lần này'
+-	R
+-	'ta sẽ ném nó xa hơn'
+-	R
+-	'một chút. Đây... Đây!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Woof woof woof!!'
++	'Rance và Portie đang ở bãi'
++	R
++	'đất trống gần «vườn thú».'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'...Lần này xa hơn một chút.'
++	R
++	'Ta ném đây, ném đây... Nào!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Gâu gâu gâu!!'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05ae1:
+ 	\L_05a47:
+ 	ZH 1:
+-	'Portie lao'
+-	R
+-	'tới sau khi quả Bóng Ném'
+-	R
+-	'như một mũi tên tăng tốc.'
+-	\L_05b34:
+-	ZH 1:
+-	'cách cô chạy bằng cả tay'
+-	R
+-	'và chân đã cho tốc độ của'
+-	\L_05b34:
+-	ZH 1:
+-	'cô tương đương với'
+-	R
+-	'một con chó thực sự.'
+-	\L_05b34:
+-	ZH 1:
+-	'cô nhảy và bắt'
+-	R
+-	'bóng trong miệng ngay'
++	'Portie lao như tên bắn về'
++	R
++	'phía quả bóng Rance vừa ném.'
++	\L_05b34:
++	ZH 1:
++	'Chạy bằng cả tay lẫn chân,'
++	\L_05b34:
++	ZH 1:
++	'cô nhanh chẳng'
++	R
++	'kém chó săn thật.'
++	\L_05b34:
++	ZH 1:
++	'Cô nhảy vọt lên,'
++	R
++	'ngoạm lấy bóng ngay'
+ 	R
+ 	'trước khi nó chạm đất.'
+ 	\L_05b34:
+@@ -2093,54 +2043,50 @@
+ 	\L_05ad3:
+ 	\L_05a7f:
+ 	ZH 1:
+-	'... Đã hiểu'
+-	R
+-	'rồi, thưa bệ hạ!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Portie quay lại ngay sau'
+-	R
+-	'đó và Đưa bóng Cho Rance.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Được rồi. Ngươi'
+-	R
+-	'khá vui vẻ. Rance'
+-	R
+-	'vuốt ve Đầu Portie.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Woof woof woof! cô mỉm'
+-	R
+-	'cười với hạnh phúc thực sự.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Một lần nữa... Đó!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Woof woof!!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Rance bị cuốn vào'
+-	R
+-	'thái độ Của Portie'
+-	\L_05b34:
+-	ZH 1:
+-	'và cuối cùng có một số'
+-	R
+-	'niềm vui lành mạnh với cô.'
++	'...Bóng đây, Bệ hạ!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Chẳng mấy chốc Portie đã'
++	R
++	'trở lại, đưa bóng cho Rance.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Tốt, tốt. Ngươi cũng'
++	R
++	'thú vị đấy. Rance'
++	R
++	'vỗ nhẹ đầu Portie.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Gâu gâu gâu! Portie cười'
++	R
++	'tươi, vui sướng thật lòng.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Thêm lần nữa nhé... Nào!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Gâu gâu!!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Bị Portie cuốn theo,'
++	\L_05b34:
++	ZH 1:
++	'Rance lại chơi đùa'
++	R
++	'lành mạnh với cô.'
+ 	\L_05b34:
+ 	ZH 1:
+ 	R
+@@ -2155,33 +2101,29 @@
+ 	'...'
+ 	\L_05b34:
+ 	ZH 1:
+-	'Sau khi chơi như vậy vài'
+-	R
+-	'lần, Rance và Portie ngồi'
+-	R
+-	'trong bóng râm nghỉ ngơi.'
+-	\L_05b34:
+-	ZH 1:
+-	'Portie đang rúc vào Rance'
+-	R
+-	'và liếm lòng bàn tay hắn.'
+-	\L_05b34:
+-	ZH 1:
+-	'ngươi có vẻ'
+-	R
+-	'hạnh phúc quá mức.'
+-	\L_05b34:
+-	ZH 1:
+-	'đó là bởi vì tôi đã không'
+-	R
+-	'chơi bên ngoài này nhiều'
+-	R
+-	'trong một thời gian dài!'
+-	\L_05b34:
+-	ZH 1:
+-	'Và ngài khen ngợi tôi'
+-	R
+-	'rất nhiều, thưa bệ hạ...'
++	'Chơi như vậy vài'
++	R
++	'lượt, Rance và Portie'
++	R
++	'nghỉ dưới bóng cây.'
++	\L_05b34:
++	ZH 1:
++	'Portie nép bên Rance,'
++	R
++	'liếm lòng bàn tay hắn.'
++	\L_05b34:
++	ZH 1:
++	'Trông ngươi vui quá nhỉ.'
++	\L_05b34:
++	ZH 1:
++	'Lâu lắm rồi Portie mới được'
++	R
++	'ra ngoài chơi nhiều thế này!'
++	\L_05b34:
++	ZH 1:
++	'Với lại Bệ hạ còn khen'
++	R
++	'Portie bao nhiêu điều nữa...'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a47:
+@@ -2930,38 +2872,34 @@
+ 	\L_05ad3:
+ 	\L_05a47:
+ 	ZH 1:
+-	'Khi Rance'
+-	R
+-	'chuẩn bị rời khỏi “Sở Thú”,'
+-	R
+-	'Naritaya bước ra chào anh.'
++	'Thấy Rance định rời «vườn'
++	R
++	'thú», Naritaya ra đón.'
+ 	PF0 VAR0056:
+ 	\L_05b34:
+ 	\L_05b27:
+ 	\L_05a7f:
+ 	ZH 1:
+-	'Thế nào rồi, vua?'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a0f:
+-	ZH 1:
+-	'Không sao đâu. Ta'
+-	R
+-	'sẽ quay lại nếu ta'
+-	R
+-	'cảm thấy thích nó.'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a7f:
+-	ZH 1:
+-	'Ơ! Bất cứ lúc nào!'
+-	\L_05b34:
+-	\L_05b27:
+-	\L_05a47:
+-	ZH 1:
+-	'Naritaya cúi đầu thật sâu'
+-	R
+-	'và Rance rời khỏi “Sở thú”.'
++	'Bệ hạ thấy thế nào?'
++	\L_05b34:
++	\L_05b27:
++	\L_05a0f:
++	ZH 1:
++	'Cũng tạm. Khi nào'
++	R
++	'có hứng ta lại ghé.'
++	\L_05b34:
++	\L_05b27:
++	\L_05a7f:
++	ZH 1:
++	'Vâng! Xin đa tạ ngài!'
++	\L_05b34:
++	\L_05b27:
++	\L_05a47:
++	ZH 1:
++	'Naritaya cúi chào thật sâu,'
++	R
++	'tiễn Rance rời «vườn thú».'
+ 	\L_05b34:
+ 	\L_05b27:
+ 	%0:

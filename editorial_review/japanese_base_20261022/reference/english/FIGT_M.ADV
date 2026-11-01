@@ -1,0 +1,10353 @@
+	!VAR0621 : 0!
+	{(VAR0618 = 1) * (VAR0619 = 2):
+		!VAR0618 : 2!
+	}
+	Y 4, 2:
+	{VAR0618 = 1:
+		!VAR0000 : 1!
+	}
+	{VAR0618 = 2:
+		!VAR0000 : 2!
+	}
+	{VAR0618 = 3:
+		!VAR0000 : 1!
+	}
+	{VAR0618 = 4:
+		!VAR0000 : 2!
+	}
+	{VAR0000 = 1:
+		@L_000b5:
+	}
+	{VAR0000 = 2:
+		@L_036f2:
+	}
+*L_000b5:
+	Y 4, 3:
+	{VAR0154 = 1:
+		@L_0ac75:
+	}
+	{VAR0154 = 2:
+		@L_0ab18:
+	}
+	{VAR0154 = 3:
+		@L_0aa40:
+	}
+	{VAR0154 = 4:
+		@L_0a952:
+	}
+	{VAR0154 = 5:
+		@L_0a6ed:
+	}
+	{VAR0154 = 6:
+		@L_0a496:
+	}
+	{VAR0154 = 7:
+		@L_097ed:
+	}
+	{VAR0154 = 8:
+		@L_09b88:
+	}
+	{VAR0154 = 9:
+		@L_0a2fc:
+	}
+	{VAR0154 = 10:
+		@L_09dc5:
+	}
+	{VAR0154 = 11:
+		@L_0a041:
+	}
+	{VAR0154 = 12:
+		{VAR0156 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Sir Ex...'
+			R
+			'Please forgive'
+			R
+			'me...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Sir Pegasus!'
+			R
+			'Surrender!'
+			\L_0c576:
+			\L_0c569:
+			\L_0c515:
+			ZH 1:
+			'Hey, shut up!'
+			R
+			'Traitor!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 4:
+			\L_0c4c1:
+			ZH 1:
+			'Melfeis!'
+			R
+			'Please...'
+			R
+			'Run away...!'
+			\L_0c576:
+			\L_0c569:
+			\L_0c515:
+			ZH 1:
+			'Haurein...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{(VAR0156 = 5) + (VAR0156 = 6) + (VAR0156 = 7):
+			\L_0c4c1:
+			ZH 1:
+			'Everyone...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'I’m a knight...'
+			R
+			'I’ll use this'
+			R
+			'battle to prove'
+			R
+			'that to King'
+			R
+			'Rance.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Now...'
+			R
+			'Let’s do it...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Let’s go!'
+			R
+			'Don’t fall behind!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 13:
+		{VAR0618 = 1:
+			\L_0c4c1:
+			{VAR0156 = 1:
+				ZH 1:
+				'Sir Ex...'
+				R
+				'I’m sorry.'
+				R
+			}
+			{VAR0156 = 2:
+				ZH 1:
+				'Haurein...'
+				R
+				'This feels'
+				R
+				'strange...'
+				R
+			}
+			{VAR0156 = 3:
+				ZH 1:
+				'Sir Pegasus...'
+				R
+				'I...'
+				\L_0c576:
+				\L_0c569:
+				\L_0c515:
+				ZH 1:
+				'Now, come at me!'
+				R
+				'Melfeis!'
+				\L_0c576:
+				\L_0c569:
+				\L_0c4c1:
+			}
+			ZH 1:
+			'Ice Arrow!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Kh...'
+			R
+			'I’m no good on the'
+			R
+			'front lines...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Everyone...'
+			R
+			'You must be'
+			R
+			'careful...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'You don’t need to'
+			R
+			'pick fights you'
+			R
+			'can’t win! Do what'
+			R
+			'you can while'
+			R
+			'staying alive!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 14:
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Die for Leazas’s'
+			R
+			'future. Please'
+			R
+			'prepare yourself.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4dd:
+			ZH 1:
+			'I’ll win...'
+			R
+			'Then the King will'
+			R
+			'know my loyalty is'
+			R
+			'real...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Don’t lose your'
+			R
+			'composure. But'
+			R
+			'don’t get cocky,'
+			R
+			'either.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 15:
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Formation Z!'
+			R
+			'Break through the'
+			R
+			'center and'
+			R
+			'touchdown!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Naah～～～～!!'
+			R
+			'Watch, Sayori!'
+			R
+			'This is a sign of'
+			R
+			'my love for you!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'The enemy’s before'
+			R
+			'us! Huddle and'
+			R
+			'hustle!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 16:
+		{VAR0618 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Tulip volley!'
+			R
+			'Fire!'
+			\L_0c576:
+			{VAR0156 = 55:
+				\L_0c569:
+				\L_0c4dd:
+				ZH 1:
+				'I’m sorry...'
+				R
+				'Hubert...'
+				\L_0c576:
+			}
+			{VAR0156 = 55:
+				\L_0c569:
+				\L_0c4dd:
+				ZH 1:
+				'...Run...'
+				R
+				'Freak...'
+				\L_0c576:
+			}
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Calm down.'
+			R
+			'Our attack won’t'
+			R
+			'miss.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Yaaaaahn!'
+			R
+			'Stay awaaay!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Huhuhu...'
+			R
+			'My Tulip is'
+			R
+			'unstoppable!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 17:
+		{VAR0156 = 107:
+			{VAR0322 = 1:
+				\L_0c4c1:
+				ZH 1:
+				'You’re in the'
+				R
+				'way... Move it!!'
+				\L_0c576:
+				\L_0c569:
+				%0:
+			}
+			\L_0c4c1:
+			ZH 1:
+			'As you wish...'
+			R
+			'I’ll settle this!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 109:
+			\L_0c4c1:
+			ZH 1:
+			'Ragaaaarl!!'
+			R
+			'I’ll kill you...!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0607 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'White Destruction'
+			R
+			'Beam!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0618 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Fire Laser!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4dd:
+			ZH 1:
+			'Stupid Rance!'
+			R
+			'Don’t make me'
+			R
+			'fight directly!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Running’s the'
+			R
+			'best option...'
+			R
+			'I’ll open an'
+			R
+			'escape route!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'I’m not gonna die'
+			R
+			'for Rance!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 18:
+		{VAR0607 \ 0:
+			\L_0c4c1:
+			ZH 1:
+			'Oraoraoraora'
+			R
+			'oraoraoraora'
+			R
+			'oraoraoraora'
+			R
+			'oraoraoraoraaa!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 22:
+			\L_0c4c1:
+			ZH 1:
+			'Let’s go...'
+			R
+			'Lelyukov...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 32:
+			\L_0c4c1:
+			ZH 1:
+			'Do I really have'
+			R
+			'to fight you...?'
+			R
+			'Aristoles...'
+			R
+			'This won’t be'
+			R
+			'easy...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 39:
+			\L_0c4c1:
+			ZH 1:
+			'Minevaaa!!'
+			R
+			'Because of you,'
+			R
+			'I... I...!!'
+			R
+			'I’ll never forgive'
+			R
+			'you!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 44:
+			\L_0c4c1:
+			ZH 1:
+			'Your fighting'
+			R
+			'style’s as'
+			R
+			'old-fashioned as'
+			R
+			'ever... Nero.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 50:
+			\L_0c4c1:
+			ZH 1:
+			'Rolex...'
+			R
+			'You’re still'
+			R
+			'fighting...?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Don’t falter!'
+			R
+			'Hesitation will'
+			R
+			'mean death if you'
+			R
+			'show an opening!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'So stubborn!'
+			R
+			'I’ll beat you!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Hmph!!'
+			R
+			'Come at me!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 19:
+		{VAR0156 = 22:
+			\L_0c4c1:
+			ZH 1:
+			'...Sorry.'
+			R
+			'General Lelyukov...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 32:
+			\L_0c4c1:
+			ZH 1:
+			'Aristoles...'
+			R
+			'This is hard for'
+			R
+			'Patton too...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 39:
+			\L_0c4c1:
+			ZH 1:
+			'.........'
+			R
+			'I won’t go easy.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Now then...'
+			R
+			'Should I do it?'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Hmph...'
+			R
+			'War’s been going'
+			R
+			'on forever...'
+			R
+			'I wonder when'
+			R
+			'it’ll end...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Alright, let’s go.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 20:
+		{VAR0156 = 22:
+			\L_0c4c1:
+			ZH 1:
+			'Ah, man...'
+			R
+			'What are we'
+			R
+			'geezers doing...?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 32:
+			\L_0c4c1:
+			ZH 1:
+			'As I always say,'
+			R
+			'yesterday’s enemy'
+			R
+			'is today’s'
+			R
+			'friend...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 39:
+			\L_0c4c1:
+			ZH 1:
+			'You gave us a lot'
+			R
+			'of trouble, too...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 130:
+			@L_0bddd:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Hey, don’t gang up'
+			R
+			'on the elderly!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Hyah!'
+			R
+			'Let’s go.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Mgh～～...'
+			R
+			'Mmmmgh...'
+			R
+			'...Haah...'
+			R
+			'Charge!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 21:
+		{VAR0156 = 22:
+			\L_0c4c1:
+			ZH 1:
+			'My dad’s close'
+			R
+			'friend, now my'
+			R
+			'enemy...'
+			R
+			'Dad must be sad.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 32:
+			\L_0c4c1:
+			ZH 1:
+			'Ah, man...'
+			R
+			'An annoying'
+			R
+			'opponent’s showed'
+			R
+			'up.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 39:
+			\L_0c4c1:
+			ZH 1:
+			'.........'
+			R
+			'I can’t forgive'
+			R
+			'you. Prepare'
+			R
+			'yourself.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 44:
+			\L_0c4c1:
+			ZH 1:
+			'Haah...'
+			R
+			'Now here’s a'
+			R
+			'stubborn person.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 50:
+			\L_0c4c1:
+			ZH 1:
+			'Go back now.'
+			R
+			'I have no business'
+			R
+			'with drunks.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Yah, yah, yaaah!'
+			R
+			'Anyone who wants'
+			R
+			'to die, come to'
+			R
+			'me!! I’ll grant'
+			R
+			'your wish!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Charge!'
+			R
+			'Anyone that falls'
+			R
+			'behind is going'
+			R
+			'through a'
+			R
+			'punishment game'
+			R
+			'later!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Hmph...'
+			R
+			'Things have'
+			R
+			'gotten'
+			R
+			'interesting.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 22:
+		{VAR0156 = 32:
+			\L_0c4c1:
+			ZH 1:
+			'I suppose I can'
+			R
+			'get a taste of the'
+			R
+			'power of the 2nd'
+			R
+			'Army now...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 39:
+			\L_0c4dd:
+			ZH 1:
+			'.........'
+			R
+			'What are you'
+			R
+			'thinking...?'
+			R
+			'Mineva...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 44:
+			\L_0c4c1:
+			ZH 1:
+			'...I’m sure you'
+			R
+			'think I’m a'
+			R
+			'villain, given'
+			R
+			'your'
+			R
+			'temperament...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 50:
+			\L_0c4c1:
+			ZH 1:
+			'Is there some'
+			R
+			'reason you’re'
+			R
+			'still fighting,'
+			R
+			'Rolex...?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4dd:
+			ZH 1:
+			'Amiran...'
+			R
+			'It doesn’t matter'
+			R
+			'if I must live in'
+			R
+			'shame... As long'
+			R
+			'as you’re safe...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Move out.'
+			R
+			'Don’t die for'
+			R
+			'nothing...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4dd:
+			ZH 1:
+			'Thoma...'
+			R
+			'Laugh at me...'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 23:
+		{VAR0618 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Lightning!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'...I’m sorry...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4dd:
+			ZH 1:
+			'...Aah...'
+			R
+			'Why this...?'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Um...'
+			R
+			'Everyone...'
+			R
+			'Move out...'
+			R
+			'Without getting'
+			R
+			'too out of'
+			R
+			'order...'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 24:
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Alright, shall we'
+			R
+			'go together?!'
+			R
+			'Okay! Let’s gooo.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'All you good kids'
+			R
+			'that defeat a'
+			R
+			'looot of enemies'
+			R
+			'are getting a'
+			R
+			'reward later.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'It’d be nice if I'
+			R
+			'can go home'
+			R
+			'alive...'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 25:
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Hyaaah!'
+			R
+			'Take this!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Kyahooo!'
+			R
+			'Take that!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Alright, let’s go!'
+			R
+			'Phantom beasts!'
+			R
+			'Beat all the bad'
+			R
+			'guys!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 26:
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Huhuhuhuhu...'
+			R
+			'Bentora.'
+			R
+			'Mm～...'
+			R
+			'Marvelous...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Mm～～...'
+			R
+			'C’est si bon.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Mm～～...'
+			R
+			'Let’s beat them.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 27:
+		{VAR0607 \ 0:
+			\L_0c4c1:
+			ZH 1:
+			'Roar!!'
+			R
+			'Hayatemaru!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0618 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Everyone, fire!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c4dd:
+		ZH 1:
+		'I don’t hate you,'
+		R
+		'but this is for'
+		R
+		'the Yamamoto'
+		R
+		'family. Please'
+		R
+		'give me your life!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0154 = 28:
+		{VAR0156 = 22:
+			\L_0c4c1:
+			ZH 1:
+			'Now... How will'
+			R
+			'you fight?'
+			R
+			'General'
+			R
+			'Lelyukov...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 32:
+			\L_0c4c1:
+			ZH 1:
+			'Huhu... I’m glad I'
+			R
+			'get a chance to'
+			R
+			'see your skill.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 33:
+			\L_0c4dd:
+			ZH 1:
+			'...You seem'
+			R
+			'heavy...'
+			R
+			'As always...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 39:
+			\L_0c4c1:
+			ZH 1:
+			'General Mineva...?'
+			R
+			'The way you fight'
+			R
+			'seems completely'
+			R
+			'against my code...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 44:
+			\L_0c4c1:
+			ZH 1:
+			'...I’ll show you'
+			R
+			'just how wrong the'
+			R
+			'way you do things'
+			R
+			'is...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 50:
+			\L_0c4c1:
+			ZH 1:
+			'You still smell'
+			R
+			'like booze,'
+			R
+			'General Rolex...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4dd:
+			ZH 1:
+			'No...'
+			R
+			'This is not a'
+			R
+			'beautiful way to'
+			R
+			'fight. We must use'
+			R
+			'our heads...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4dd:
+			ZH 1:
+			'Direct combat is'
+			R
+			'most unelegant...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4dd:
+			ZH 1:
+			'Everyone, move'
+			R
+			'out.'
+			R
+			'Keep your cool.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 29:
+		{(VAR0518 < 3) * (VAR0156 = 91) * (VAR0634 = 0):
+			@L_0ba24:
+		}
+		{(VAR0518 < 3) * (VAR0156 = 92) * (VAR0635 = 0):
+			@L_0bb6d:
+		}
+		{VAR0156 = 72:
+			\L_0c4c1:
+			ZH 1:
+			'A demon...?'
+			R
+			'There’s something'
+			R
+			'strange about him,'
+			R
+			'though...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 90:
+			\L_0c4c1:
+			ZH 1:
+			'Stupid Seizel.'
+			R
+			'You won’t even'
+			R
+			'think about'
+			R
+			'Hawzel’s'
+			R
+			'feelings...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 91:
+			\L_0c4c1:
+			ZH 1:
+			'Camilla!'
+			R
+			'You should just'
+			R
+			'lie down and stay'
+			R
+			'down!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 92:
+			\L_0c4dd:
+			ZH 1:
+			'Lei, I thought'
+			R
+			'you hated'
+			R
+			'Kayblis... Why are'
+			R
+			'you on his side?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 93:
+			\L_0c4c1:
+			ZH 1:
+			'Out of the way,'
+			R
+			'Sieg!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 98:
+			\L_0c4c1:
+			ZH 1:
+			'Something strange'
+			R
+			'happened somewhere'
+			R
+			'in the world...'
+			R
+			'How could you have'
+			R
+			'shown up?!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 129:
+			\L_0c4c1:
+			ZH 1:
+			'Out of the way,'
+			R
+			'you resilient'
+			R
+			'moron!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 130:
+			\L_0c4c1:
+			ZH 1:
+			'I hate you,'
+			R
+			'stupid!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 135:
+			\L_0c4c1:
+			ZH 1:
+			'...Die!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Let’s go!!'
+			R
+			'Everyone in front'
+			R
+			'of me’s my enemy!'
+			R
+			'Slaughter them'
+			R
+			'all!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'You’re in the way!'
+			R
+			'Hurry up and die!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'I won’t go down'
+			R
+			'that easily.'
+			R
+			'Prepare yourself!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 30:
+		{(VAR0518 < 3) * (VAR0156 = 93) * (VAR0636 = 0):
+			@L_0bc93:
+		}
+		{VAR0607 \ 0:
+			\L_0c4c1:
+			ZH 1:
+			'...Let’s go.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 135:
+			\L_0c4c1:
+			ZH 1:
+			'...Kayblis!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c4c1:
+		ZH 1:
+		'.........'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0154 = 31:
+		{VAR0607 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Let’s go!'
+			R
+			'Raaance Attack!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 135:
+			\L_0c4c1:
+			ZH 1:
+			'It’s your fault'
+			R
+			'that Miki...'
+			R
+			'Prepare yourself!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Haaaaah!!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'I won’t run or'
+			R
+			'hide! Come on!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Bring it!'
+			R
+			'I’ll smash you!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 32:
+		{VAR0607 \ 0:
+			\L_0c4c1:
+			ZH 1:
+			'No moooore!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 135:
+			\L_0c4c1:
+			ZH 1:
+			'Hii...!!'
+			R
+			'No, nooo!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'No... Stay away...'
+			R
+			'I’m scared...'
+			R
+			'Stay awaaay...!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Nooo!!'
+			R
+			'Mooooom!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Hick...'
+			R
+			'Sob..'
+			R
+			'I don’t like'
+			R
+			'this...'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 33:
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Time to gooo!'
+			R
+			'Nyahahaha!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Take thiiis.'
+			R
+			'Yaaaaaaah!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Heheheeeh!'
+			R
+			'I’m strong!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 34:
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4dd:
+			ZH 1:
+			'I’ll move up in'
+			R
+			'the world...'
+			R
+			'I’ll do great, and'
+			R
+			'the King will'
+			R
+			'approve of me!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Attack!'
+			R
+			'For my future!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Float like a'
+			R
+			'butterfly, sting'
+			R
+			'like a bee...'
+			R
+			'That’s my sword'
+			R
+			'style!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 35:
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4dd:
+			ZH 1:
+			'Teacher... God...'
+			R
+			'Watch over me...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'I-I’m not scared...'
+			R
+			'I won’t fail...'
+			R
+			'I thought this'
+			R
+			'through as hard as'
+			R
+			'I could...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Ah...'
+			R
+			'Uh, um...'
+			R
+			'Let’s charge.'
+			R
+			'Everyone...'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 36:
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4dd:
+			ZH 1:
+			'Haah...'
+			R
+			'The laundry’s'
+			R
+			'piling up...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4dd:
+			ZH 1:
+			'Leila... Watch me.'
+			R
+			'I’ll draw my sword'
+			R
+			'in your place...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'I’m going...!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 37:
+		{VAR0607 \ 0:
+			\L_0c4c1:
+			ZH 1:
+			'Evil-Purging'
+			R
+			'Overlord’s Light!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 101:
+			\L_0c4c1:
+			ZH 1:
+			'Chizuko...'
+			R
+			'Die defending'
+			R
+			'Zeth!'
+			\L_0c576:
+			\L_0c569:
+			\L_0c515:
+			ZH 1:
+			'Uu...'
+			R
+			'No... King'
+			R
+			'Gandhi...!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 104:
+			\L_0c4c1:
+			ZH 1:
+			'You fool!'
+			R
+			'You will never be'
+			R
+			'forgiven for the'
+			R
+			'Flash!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{(VAR0156 = 107) + (VAR0156 = 109):
+			\L_0c4c1:
+			ZH 1:
+			'This is your'
+			R
+			'punishment...'
+			R
+			'Perish, Zeth!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 110:
+			\L_0c515:
+			ZH 1:
+			'Dad...'
+			R
+			'Are you attacking'
+			R
+			'me!?'
+			\L_0c576:
+			\L_0c569:
+			\L_0c4c1:
+			ZH 1:
+			'Don’t despise me,'
+			R
+			'Magic!'
+			R
+			'Your father’s'
+			R
+			'decision won’t be'
+			R
+			'swayed by blood!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{(VAR0156 = 113) + (VAR0156 = 117):
+			\L_0c4c1:
+			ZH 1:
+			'This is not only'
+			R
+			'about Zeth, but'
+			R
+			'all of mankind...'
+			R
+			'Forgive me!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 121:
+			\L_0c4c1:
+			ZH 1:
+			'Sorry, old man...'
+			R
+			'You’ll have to'
+			R
+			'suffer to the end.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 125:
+			\L_0c4c1:
+			ZH 1:
+			'If you truly want'
+			R
+			'Magic, you’ll have'
+			R
+			'to defeat this'
+			R
+			'traitorous king!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 168:
+			\L_0c4c1:
+			ZH 1:
+			'Mgh... Annis.'
+			R
+			'It’s been a while,'
+			R
+			'but I won’t go'
+			R
+			'easy!'
+			\L_0c576:
+			\L_0c569:
+			\L_0c515:
+			ZH 1:
+			'Huh? Who are you,'
+			R
+			'mister...?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0618 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Super Royal Fire'
+			R
+			'Laser!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'When there’s'
+			R
+			'pleasure, pain'
+			R
+			'comes again!'
+			R
+			'That is the cycle'
+			R
+			'of humanity...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Look at the big'
+			R
+			'picture!'
+			R
+			'King Rance is'
+			R
+			'clearly our hero'
+			R
+			'and messiah!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Forgive me!'
+			R
+			'This battle, too,'
+			R
+			'is for the sake of'
+			R
+			'humanity!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 38:
+		{VAR0607 \ 0:
+			\L_0c4c1:
+			ZH 1:
+			'Hoooohohohoh!'
+			R
+			'Black Destruction'
+			R
+			'Beam!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 104:
+			\L_0c4c1:
+			ZH 1:
+			'I thought about it'
+			R
+			'after King Gandhi'
+			R
+			'scolded me, and...'
+			R
+			'Yeah, the Flash'
+			R
+			'was bad.'
+			\L_0c576:
+			\L_0c569:
+			\L_0c515:
+			ZH 1:
+			'Ah, how could'
+			R
+			'yooou?!'
+			R
+			'That’s terrible,'
+			R
+			'Chizukooo!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 110:
+			\L_0c4c1:
+			ZH 1:
+			'When will you stop'
+			R
+			'being stubborn!?'
+			R
+			'Hurry up and'
+			R
+			'surrender!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{(VAR0156 = 113) + (VAR0156 = 125):
+			\L_0c4c1:
+			ZH 1:
+			'Hmph, you look so'
+			R
+			'unconcerned...'
+			R
+			'I could never'
+			R
+			'stand that.'
+			R
+			'This is my chance!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{(VAR0156 > 95) * (VAR0156 < 129):
+			{VAR0618 = 1:
+				\L_0c4c1:
+				ZH 1:
+				'I’m fighting for'
+				R
+				'King Rance...'
+				R
+				'Don’t think poorly'
+				R
+				'of me.'
+				R
+				'Darkness Beam!!'
+				\L_0c576:
+				\L_0c569:
+				%0:
+			}
+			\L_0c4c1:
+			ZH 1:
+			'King Rance...'
+			R
+			'I won’t betray'
+			R
+			'you, even for my'
+			R
+			'homeland!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0618 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Hohohohohoh,'
+			R
+			'Darkness Beam!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4dd:
+			ZH 1:
+			'I’m trying hard...'
+			R
+			'Please don’t'
+			R
+			'abandon me...'
+			R
+			'King Rance...'
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Kh...'
+			R
+			'I won’t step'
+			R
+			'aside. I wouldn’t'
+			R
+			'be able to face'
+			R
+			'King Rance if I'
+			R
+			'did!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Hooohohohohoh!'
+			R
+			'Go, for King'
+			R
+			'Rance!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 39:
+		{VAR0607 \ 0:
+			\L_0c4c1:
+			ZH 1:
+			'White Destruction'
+			R
+			'Beam!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 101:
+			\L_0c4c1:
+			ZH 1:
+			'Sorry, Chizuko.'
+			R
+			'I’ve got orders,'
+			R
+			'so let me attack'
+			R
+			'you.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 104:
+			\L_0c4c1:
+			ZH 1:
+			'Papaya, let’s end'
+			R
+			'this futile'
+			R
+			'fighting... Stop'
+			R
+			'your mad research'
+			R
+			'and surrender!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 107:
+			\L_0c4c1:
+			ZH 1:
+			'Nagi... I’ve'
+			R
+			'fought with you'
+			R
+			'before. You don’t'
+			R
+			'scare me.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 109:
+			\L_0c4c1:
+			ZH 1:
+			'I’m different from'
+			R
+			'my dad... I know'
+			R
+			'your existence is'
+			R
+			'worthless to Zeth,'
+			R
+			'Ragarl.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{(VAR0156 = 113) + (VAR0156 = 117) + (VAR0156 = 121):
+			\L_0c4c1:
+			ZH 1:
+			'Sorry...'
+			R
+			'Forgive me,'
+			R
+			'everyone...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{(VAR0156 > 95) * (VAR0156 < 129):
+			{VAR0618 = 1:
+				\L_0c4c1:
+				ZH 1:
+				'Everyone...'
+				R
+				'Surrender now!'
+				R
+				R
+				'Now isn’t the time'
+				R
+				'to defy him...!'
+				\L_0c576:
+				\L_0c569:
+				%0:
+			}
+			\L_0c4c1:
+			ZH 1:
+			'Intentionally'
+			R
+			'having me face'
+			R
+			'Zeth... Are you'
+			R
+			'testing me, King'
+			R
+			'Rance...?!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0618 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Uuuum...'
+			R
+			'Fire Laser.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Let’s end this'
+			R
+			'fast and go home.'
+			R
+			'I’m gonna complain'
+			R
+			'to King Rance for'
+			R
+			'this order!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Don’t be'
+			R
+			'reckless...'
+			R
+			'You’re a complete'
+			R
+			'fool if you die in'
+			R
+			'war.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Well, let’s do'
+			R
+			'this without'
+			R
+			'dying.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 40:
+		{VAR0607 \ 0:
+			\L_0c4c1:
+			ZH 1:
+			'Black Destruction'
+			R
+			'Beam.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0618 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Fire Laser.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'.........'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'...Go.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Everyone, attack.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 41:
+		{(VAR0156 = 90) + (VAR0156 = 91) + (VAR0156 = 92) + (VAR0156 = 93) + (VAR0156 = 129) + (VAR0156 = 133) + (VAR0156 = 134):
+			\L_0c4c1:
+			ZH 1:
+			'Come here.'
+			R
+			'This’ll be fun.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 98:
+			\L_0c4c1:
+			ZH 1:
+			'Hey, hey...'
+			R
+			'Seriously?'
+			R
+			'Boring.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 135:
+			\L_0c4c1:
+			ZH 1:
+			'Don’t berate me'
+			R
+			'too much, Kayblis.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Let’s finish fast'
+			R
+			'and go eat!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Hyaaah!'
+			R
+			'Wahahahahaha.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Martinaaa!'
+			R
+			'I want ramen as'
+			R
+			'soon as I get'
+			R
+			'back!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 42:
+		{VAR0618 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Friendship Beam!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c4c1:
+		ZH 1:
+		'I’m sorry... to'
+		R
+		'the people that'
+		R
+		'will fall in this'
+		R
+		'battle...'
+		R
+		'Forgive me...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0154 = 43:
+		{VAR0156 = 54:
+			\L_0c4c1:
+			ZH 1:
+			'Patton...'
+			R
+			'I won’t do'
+			R
+			'anything so'
+			R
+			'selfish as asking'
+			R
+			'forgiveness. Come.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 55:
+			\L_0c4c1:
+			ZH 1:
+			'...I don’t care'
+			R
+			'if you hate me...'
+			R
+			'Hubert... Protect'
+			R
+			'Patton for me.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 56:
+			\L_0c4c1:
+			ZH 1:
+			'...I did what I'
+			R
+			'desired...'
+			R
+			'No need to hold'
+			R
+			'back, Freak.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 57:
+			\L_0c4c1:
+			ZH 1:
+			'I wonder what you'
+			R
+			'think of me,'
+			R
+			'Hanty...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Go!'
+			R
+			'We live for'
+			R
+			'Empress Sheila!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Let’s go!'
+			R
+			'Victory is before'
+			R
+			'us!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Empress Sheila...'
+			R
+			'Please pray for'
+			R
+			'our victory.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 44:
+		\L_0c4c1:
+		ZH 1:
+		'We shall'
+		R
+		'overcome!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0154 = 45:
+		{VAR0735 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Goooo!!'
+			R
+			'For Lady...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{(VAR0156 = 90) + (VAR0156 = 91) + (VAR0156 = 92) + (VAR0156 = 93) + (VAR0156 = 98) + (VAR0156 = 129) + (VAR0156 = 130) + (VAR0156 = 131) + (VAR0156 = 132) + (VAR0156 = 133) + (VAR0156 = 134):
+			\L_0c4c1:
+			ZH 1:
+			'A demon...'
+			R
+			'Don’t hold back!'
+			R
+			'Take them!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 135:
+			\L_0c4c1:
+			ZH 1:
+			'You must be the'
+			R
+			'leader of the'
+			R
+			'demons... Hmph...'
+			R
+			'I hate you!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Charge!!'
+			R
+			'You’re good girls,'
+			R
+			'so don’t get'
+			R
+			'injured!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Keep focused!'
+			R
+			'Don’t be startled!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Let’s go!'
+			R
+			'Follow me!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 46:
+		{VAR0618 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Hyaaaaah!!'
+			R
+			'Lightning!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Sorry!'
+			R
+			'It’ll hurt, but'
+			R
+			'please bear with'
+			R
+			'it!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Hyaaah!'
+			R
+			'Huhu.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Yeah!'
+			R
+			'I’ll do my best!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 47:
+		{VAR0607 \ 0:
+			\L_0c4c1:
+			ZH 1:
+			'Type 2 Soaring'
+			R
+			'Wave!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 54:
+			\L_0c4c1:
+			ZH 1:
+			'Patton...'
+			R
+			'Sorry.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 55:
+			\L_0c4c1:
+			ZH 1:
+			'Hubert...?'
+			R
+			'I never thought'
+			R
+			'making enemies of'
+			R
+			'someone would feel'
+			R
+			'this bad.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 56:
+			\L_0c4c1:
+			ZH 1:
+			'Let’s go, Freak!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0156 = 57:
+			\L_0c4c1:
+			ZH 1:
+			'A scary lady'
+			R
+			'showed up, huh...?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'I don’t fear'
+			R
+			'death!'
+			R
+			'Don’t stand in my'
+			R
+			'way!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Haah!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Attack!'
+			R
+			'You’ll die if you'
+			R
+			'hesitate!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{(VAR0154 = 48) * (VAR0730 = 1):
+		\L_0c4c1:
+		ZH 1:
+		'Aiyaaa.'
+		R
+		'Aiyaaa.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0154 = 49:
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Gyahahahaha!!'
+			R
+			'Die, die!!'
+			R
+			'Diiiie!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'Yaaaah!!'
+			R
+			'Diiie!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Gyahahaha!!'
+			R
+			'I’ll slaughter'
+			R
+			'you!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 50:
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c4c1:
+			ZH 1:
+			'Since you’ve'
+			R
+			'become my enemy, I'
+			R
+			'can’t let you'
+			R
+			'live.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c4c1:
+			ZH 1:
+			'.........'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c4c1:
+			ZH 1:
+			'Don’t think that'
+			R
+			'you’ll be'
+			R
+			'returning home'
+			R
+			'alive.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0154 = 51:
+		{VAR0097 = 9:
+			\L_0c4c1:
+			ZH 1:
+			'Menad...'
+			R
+			'I’ve got you'
+			R
+			'covered!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0097 = 449:
+			\L_0c4c1:
+			ZH 1:
+			'Hey, sexy.'
+			R
+			'I’ll assist you.'
+			R
+			'Don’t forget.'
+			R
+			'You owe me a'
+			R
+			'favor.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0097 = 72:
+			\L_0c4c1:
+			ZH 1:
+			'Mr. Gandhi.'
+			R
+			'Allow me to help'
+			R
+			'you to the best of'
+			R
+			'my meager'
+			R
+			'abilities.'
+			R
+			'Yah!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0097 = 71:
+			\L_0c4c1:
+			ZH 1:
+			'You’re out of it,'
+			R
+			'Magic.'
+			R
+			'Don’t let your'
+			R
+			'mind wander on the'
+			R
+			'battlefield.'
+			R
+			'Taaah!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+	}
+	%0:
+*L_036f2:
+	Y 4, 3:
+	{VAR0156 = 1:
+		{VAR0154 = 1:
+			\L_0c515:
+			ZH 1:
+			'King Rance...'
+			R
+			'If you didn’t'
+			R
+			'become King,'
+			R
+			'then...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 7:
+			\L_0c515:
+			ZH 1:
+			'It feels strange'
+			R
+			'to see you on the'
+			R
+			'other side,'
+			R
+			'Rick...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Now, let’s go...'
+			R
+			'This will be a'
+			R
+			'painful fight,'
+			R
+			'but...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'...Attack.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'If I win... Will I'
+			R
+			'be happy...?'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 2:
+		{VAR0154 = 1:
+			\L_0c515:
+			ZH 1:
+			'If only you'
+			R
+			'weren’t around, my'
+			R
+			'father wouldn’t'
+			R
+			'have lost his'
+			R
+			'honor!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 6:
+			\L_0c515:
+			ZH 1:
+			'Father!!'
+			R
+			'I won’t go easy,'
+			R
+			'even on you!!'
+			\L_0c576:
+			\L_0c569:
+			\L_0c4c1:
+			ZH 1:
+			'Haurein...'
+			R
+			'You foooool!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Everyone, for the'
+			R
+			'sake of Leazas,'
+			R
+			'open your eyes!'
+			R
+			'You mustn’t trust'
+			R
+			'that brutal king!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Please!'
+			R
+			'Listen to me!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'This is for our'
+			R
+			'country!'
+			R
+			'I don’t believe'
+			R
+			'I’m wrong!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 3:
+		{VAR0154 = 1:
+			\L_0c515:
+			ZH 1:
+			'Are you Rance?!!'
+			R
+			'You villain,'
+			R
+			'stealing our'
+			R
+			'country!'
+			R
+			'I’ll punish you.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 6:
+			\L_0c515:
+			ZH 1:
+			'Barres... You must'
+			R
+			'be quite senile...'
+			R
+			'Pathetic!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 7:
+			\L_0c515:
+			ZH 1:
+			'Rick, it’s still'
+			R
+			'not too late.'
+			R
+			'Come with us.'
+			\L_0c576:
+			\L_0c569:
+			\L_0c4c1:
+			ZH 1:
+			'No thanks...'
+			R
+			'You’re'
+			R
+			'misunderstanding'
+			R
+			'King Rance.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'We’re not of the'
+		R
+		'same country.'
+		R
+		'You’ve been fooled'
+		R
+		'by a villain. Take'
+		R
+		'justice’s fist and'
+		R
+		'open your eyes.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 4:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Lightning!!'
+			R
+			'Match the timing'
+			R
+			'on the chanting!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'Please, step back!'
+		R
+		'I don’t want to'
+		R
+		'kill you!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 5:
+		\L_0c515:
+		ZH 1:
+		'We believe in Sir'
+		R
+		'Ex. For the sake'
+		R
+		'of Leazas...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 6:
+		\L_0c515:
+		ZH 1:
+		'Let’s go!'
+		R
+		'For our'
+		R
+		'convictions!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 7:
+		\L_0c515:
+		ZH 1:
+		'Long live Leazas!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 8:
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Wahahahaha!'
+			R
+			'I’m completely'
+			R
+			'invincible!'
+			R
+			'Taaaaaackle!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Huhuhuhuhu.'
+			R
+			'Do you think you'
+			R
+			'can win against'
+			R
+			'me? The god of'
+			R
+			'football is on my'
+			R
+			'side!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Take this!'
+			R
+			'Play of justice!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 9:
+		\L_0c515:
+		ZH 1:
+		'Leazas is taking'
+		R
+		'our freedom.'
+		R
+		'Kill them!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 10:
+		\L_0c515:
+		ZH 1:
+		'I’m not scared!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 11:
+		\L_0c515:
+		ZH 1:
+		'...I’m sorry...'
+		R
+		'But... I have to'
+		R
+		'fight...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 12:
+		\L_0c515:
+		ZH 1:
+		'Die, for our idol,'
+		R
+		'the mayor!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 13:
+		\L_0c515:
+		ZH 1:
+		'Sieg, Zeo!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 14:
+		\L_0c515:
+		ZH 1:
+		'Don’t falter!'
+		R
+		'Push, push, push!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 15:
+		\L_0c515:
+		ZH 1:
+		'Why did you start'
+		R
+		'this war, you'
+		R
+		'fools?!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 16:
+		\L_0c515:
+		ZH 1:
+		'You shall not'
+		R
+		'pass!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 17:
+		\L_0c515:
+		ZH 1:
+		'Castellas,'
+		R
+		'tobacco, I’m not'
+		R
+		'giving you either.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 18:
+		\L_0c515:
+		ZH 1:
+		'Die and turn to'
+		R
+		'sand!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 19:
+		\L_0c515:
+		ZH 1:
+		'Allahu Akbar!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 20:
+		\L_0c515:
+		ZH 1:
+		'You’re dying'
+		R
+		'before I do!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 21:
+		\L_0c515:
+		ZH 1:
+		'Allow me to fight'
+		R
+		'you.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 22:
+		{VAR0154 = 1:
+			\L_0c515:
+			ZH 1:
+			'King of Leazas.'
+			R
+			'Prepare yourself!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 6:
+			\L_0c515:
+			ZH 1:
+			'Allow me this bout'
+			R
+			'with you.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 18:
+			\L_0c515:
+			ZH 1:
+			'Prince Patton...'
+			R
+			'Did you detest'
+			R
+			'Helman that much?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 19:
+			\L_0c515:
+			ZH 1:
+			'I don’t want to'
+			R
+			'fight, but...'
+			R
+			'This is for'
+			R
+			'Helman!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 20:
+			\L_0c515:
+			ZH 1:
+			'Mr. Freak...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 21:
+			\L_0c515:
+			ZH 1:
+			'...Let’s go, son'
+			R
+			'of Thoma.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 43:
+			\L_0c515:
+			ZH 1:
+			'...Was Empress'
+			R
+			'Sheila that'
+			R
+			'important to you,'
+			R
+			'Sir Aristoles...?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 47:
+			\L_0c515:
+			ZH 1:
+			'Sir Rolex...'
+			R
+			'What are you'
+			R
+			'doing there?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Leazas scum...'
+			R
+			'Prepare yourself!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Attack!'
+			R
+			'Assume battle'
+			R
+			'stance!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Advance the entire'
+			R
+			'army. Attack.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 23:
+		\L_0c515:
+		ZH 1:
+		'Nwaaaah!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 24:
+		\L_0c515:
+		ZH 1:
+		'Damn you, Leazas!'
+		R
+		'Your actions are'
+		R
+		'absolutely'
+		R
+		'inexcusable!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 25:
+		\L_0c515:
+		ZH 1:
+		'Uwaaah!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 26:
+		\L_0c531:
+		ZH 1:
+		'Murder, murder,'
+		R
+		'murder...'
+		R
+		'Kill, kill,'
+		R
+		'kill...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 27:
+		\L_0c515:
+		ZH 1:
+		'For General'
+		R
+		'Lelyukov!'
+		R
+		'For the'
+		R
+		'motherland!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 28:
+		\L_0c531:
+		ZH 1:
+		'Ms. Amiran...'
+		R
+		'I always yearned'
+		R
+		'for you...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 29:
+		\L_0c515:
+		ZH 1:
+		'Leazas scum...'
+		R
+		'You think you can'
+		R
+		'best us...?'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 30:
+		\L_0c515:
+		ZH 1:
+		'Attack, attack...'
+		R
+		'Attaaack!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{(VAR0156 = 31) * (VAR0518 = 0):
+		\L_0c515:
+		ZH 1:
+		'Our opponents are'
+		R
+		'thieves...'
+		R
+		'A cluster of'
+		R
+		'weaklings. The'
+		R
+		'odds are with us.'
+		R
+		'Don’t falter.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 31:
+		{VAR0154 = 22:
+			\L_0c515:
+			ZH 1:
+			'General'
+			R
+			'Lelyukov... Why!?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Kh...'
+			R
+			'Leazas scum...'
+			R
+			'How did you get'
+			R
+			'all the way'
+			R
+			'here...?!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Not yet...'
+			R
+			'It’s too early to'
+			R
+			'think of losing...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Kh...'
+			R
+			'This is bad...'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 32:
+		{VAR0154 = 22:
+			\L_0c531:
+			ZH 1:
+			'Why is General'
+			R
+			'Lelyukov, of all'
+			R
+			'people, on'
+			R
+			'Leazas’s side...?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 18:
+			\L_0c515:
+			ZH 1:
+			'Patton...'
+			R
+			'You were alive...?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 19:
+			\L_0c515:
+			ZH 1:
+			'Huhu... This'
+			R
+			'situation...'
+			R
+			'has become quite'
+			R
+			'amusing.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 20:
+			\L_0c515:
+			ZH 1:
+			'I never thought I'
+			R
+			'would fight'
+			R
+			'against Mr.'
+			R
+			'Freak...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 21:
+			\L_0c515:
+			ZH 1:
+			'This isn’t how I'
+			R
+			'thought we’d meet'
+			R
+			'again, Hubert...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'This is for'
+			R
+			'Empress Sheila.'
+			R
+			'Leazas... I hold'
+			R
+			'nothing against'
+			R
+			'you, but allow me'
+			R
+			'to destroy you.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Assume proper'
+			R
+			'stance.'
+			R
+			'Let’s go...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Advance!'
+			R
+			'Destroy Leazas!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 33:
+		{VAR0154 = 18:
+			\L_0c515:
+			ZH 1:
+			'Wha?!'
+			R
+			'Is it a ghost?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 19:
+			\L_0c515:
+			ZH 1:
+			'Waaah... This'
+			R
+			'ain’t the kinda'
+			R
+			'gal I’d want to'
+			R
+			'fight.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 20:
+			\L_0c515:
+			ZH 1:
+			'Whoa～.'
+			R
+			'Forgive meee.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 21:
+			\L_0c515:
+			ZH 1:
+			'Agh, man...'
+			R
+			'This is a really'
+			R
+			'tough guy～!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 22:
+			\L_0c515:
+			ZH 1:
+			'Awawah!?'
+			R
+			'The fuck’re you'
+			R
+			'doin’?!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'Yepyepyepyep.'
+		R
+		'You’re gonna die～.'
+		R
+		'If you curse'
+		R
+		'anyone, curse the'
+		R
+		'person that gave'
+		R
+		'my orders～.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 34:
+		\L_0c515:
+		ZH 1:
+		'Empress Sheila...'
+		R
+		'We fight for'
+		R
+		'Empress Sheila...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 35:
+		\L_0c515:
+		ZH 1:
+		'Maybe Mr. Stessel'
+		R
+		'will praise me if'
+		R
+		'I win here...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 36:
+		\L_0c515:
+		ZH 1:
+		'Here I go.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 37:
+		\L_0c531:
+		ZH 1:
+		'My cute, cute'
+		R
+		'monsters...Uhu...'
+		R
+		'Uhuhu...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 38:
+		\L_0c515:
+		ZH 1:
+		'Hu～...Hu～...'
+		R
+		'Huhu...Hu～...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 39:
+		{VAR0154 = 1:
+			\L_0c515:
+			ZH 1:
+			'Heheh...'
+			R
+			'It’s really fun'
+			R
+			'fighting you, boy.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 18:
+			\L_0c515:
+			ZH 1:
+			'...You’re still'
+			R
+			'alive...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 19:
+			\L_0c515:
+			ZH 1:
+			'...Hmph...'
+			R
+			'He’s a worthless'
+			R
+			'bastard child.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 20:
+			\L_0c515:
+			ZH 1:
+			'Ghosts have legs'
+			R
+			'now, apparently.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 21:
+			\L_0c515:
+			ZH 1:
+			'Well, die,'
+			R
+			'redhead!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Now, who wants to'
+			R
+			'die first?'
+			R
+			'You!?'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Ahahaha!!'
+			R
+			'What fun.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Now, I’ll give you'
+			R
+			'death!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 40:
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Uwaaah!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'...You won’t pass.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'...Let’s go.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 41:
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'N-No...'
+			R
+			'I’m scared...'
+			R
+			'Mineva...'
+			R
+			'Save me...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Noooo!'
+			R
+			'I’m scared, I’m'
+			R
+			'scaaaared!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Hii...'
+			R
+			'Hiiii!'
+			R
+			'Everyone, fight!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 42:
+		\L_0c515:
+		ZH 1:
+		'Hyaaaah!!'
+		R
+		'Shitheads...'
+		R
+		'Diiie!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 43:
+		\L_0c515:
+		ZH 1:
+		'Gyahahahaha!!'
+		R
+		'Hyaaah!'
+		R
+		'Die, diiie!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 44:
+		{VAR0154 = 1:
+			\L_0c515:
+			ZH 1:
+			'Die for me, King'
+			R
+			'of Leazas.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 18:
+			\L_0c515:
+			ZH 1:
+			'Prince Patton...'
+			R
+			'Have you betrayed'
+			R
+			'us? In that case,'
+			R
+			'I won’t hold back.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 28:
+			\L_0c515:
+			ZH 1:
+			'Cream!'
+			R
+			'You traitor!!'
+			R
+			'This is why I'
+			R
+			'don’t trust women!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 43:
+			\L_0c515:
+			ZH 1:
+			'Aristoles...!'
+			R
+			'Do you have no'
+			R
+			'loyalty?!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 47:
+			\L_0c515:
+			ZH 1:
+			'You drunken'
+			R
+			'traitor!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Weaklings...'
+			R
+			'What an eyesore.'
+			R
+			'Clear them out'
+			R
+			'immediately.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'We are knights of'
+			R
+			'Helman!'
+			R
+			'Don’t forget that!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Attack!!'
+			R
+			'Don’t let the'
+			R
+			'enemy see your'
+			R
+			'backs!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 45:
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Direct combat...'
+			R
+			'How inelegant.'
+			R
+			'That’s a fitting'
+			R
+			'way of fighting'
+			R
+			'for Leazas, I'
+			R
+			'suppose.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Now, charge.'
+			R
+			'But don’t do'
+			R
+			'anything stupid.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Aah... This feels'
+			R
+			'oppressive...'
+			R
+			'I want to hold the'
+			R
+			'fight off longer.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 46:
+		\L_0c515:
+		ZH 1:
+		'Haaaaaaah!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 47:
+		\L_0c515:
+		ZH 1:
+		'Uwaaaaah!!!'
+		R
+		'Uwah... Stay away,'
+		R
+		'stay awaaay!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 48:
+		\L_0c515:
+		ZH 1:
+		'Destroy them!'
+		R
+		'Don’t leave a'
+		R
+		'single man'
+		R
+		'unharmed!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 49:
+		\L_0c515:
+		ZH 1:
+		'Hushu～...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 50:
+		{VAR0154 = 1:
+			\L_0c515:
+			ZH 1:
+			'...Hmmm...'
+			R
+			'The King of'
+			R
+			'Leazas, huh...?'
+			R
+			'Heheh...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 18:
+			\L_0c515:
+			ZH 1:
+			'...Prince Patton?'
+			R
+			'Man... Is the'
+			R
+			'booze making me'
+			R
+			'lose it...?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 21:
+			\L_0c515:
+			ZH 1:
+			'Hubert...?'
+			R
+			'Why...?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 22:
+			\L_0c515:
+			ZH 1:
+			'There’s some guy'
+			R
+			'that looks like'
+			R
+			'Sir Lelyukov...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 43:
+			\L_0c515:
+			ZH 1:
+			'Aristoles...?'
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Ugh... People in'
+			R
+			'our way... Guess I'
+			R
+			'gotta deal with'
+			R
+			'’em...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Heheheh... Oh...'
+			R
+			'Oops... My leg...'
+			R
+			'Heh... Heheh.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Heh...'
+			R
+			'Worthless...'
+			R
+			'I’m the most...'
+			R
+			'worthless'
+			R
+			'person...'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 51:
+		{VAR0154 = 1:
+			\L_0c531:
+			ZH 1:
+			'That’s the King of'
+			R
+			'Leazas... I wonder'
+			R
+			'how much cash he’s'
+			R
+			'got.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Aaahn, geez!'
+			R
+			'My clothes are'
+			R
+			'gonna get dirty if'
+			R
+			'I fight, you know!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Ah, geez!'
+			R
+			'Hurry up and die!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Hey, jerks!'
+			R
+			'Where are you'
+			R
+			'going?! Aaargh!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 52:
+		{VAR0154 = 1:
+			\L_0c515:
+			ZH 1:
+			'The King of'
+			R
+			'Leazas... He’s'
+			R
+			'good looking, but'
+			R
+			'I don’t care'
+			R
+			'unless he’s got'
+			R
+			'money...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Mii～...'
+			R
+			'Let’s do it,'
+			R
+			'everyone!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Waaaaaaah!'
+			R
+			'No, stop it!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'I hate you, I hate'
+			R
+			'you!'
+			R
+			'Go away, stupid!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 53:
+		\L_0c515:
+		ZH 1:
+		'Nwaaaaaah!!'
+		R
+		'Kaaaaaah!!'
+		R
+		'Uoh... Uooooh!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 54:
+		{VAR0154 = 1:
+			\L_0c515:
+			ZH 1:
+			'Prepare yourself,'
+			R
+			'King of Leazas!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 6:
+			\L_0c515:
+			ZH 1:
+			'Leazas’s Black'
+			R
+			'General...?'
+			R
+			'A suitable'
+			R
+			'opponent!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 7:
+			\L_0c515:
+			ZH 1:
+			'Alright...'
+			R
+			'Let’s go.'
+			R
+			'Red Reaper.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 22:
+			\L_0c515:
+			ZH 1:
+			'...Lelyukov...'
+			R
+			'Let’s do this.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 43:
+			\L_0c515:
+			ZH 1:
+			'Come, Aristoles!'
+			R
+			'Show me how far'
+			R
+			'your love for'
+			R
+			'Sheila goes!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 47:
+			\L_0c515:
+			ZH 1:
+			'Rolex... The'
+			R
+			'world’s become so'
+			R
+			'complicated...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Owaaaah!! Not'
+			R
+			'wasting my time'
+			R
+			'with you'
+			R
+			'weaklings! Bring'
+			R
+			'out the commander!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Hyaaah!!'
+			R
+			'Let’s go!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Man...'
+			R
+			'This is so'
+			R
+			'annoying! Come at'
+			R
+			'me all at once!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 55:
+		{VAR0154 = 1:
+			\L_0c515:
+			ZH 1:
+			'Alright... Show me'
+			R
+			'what you’ve got,'
+			R
+			'King of Leazas.'
+			R
+			'No holding back.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 22:
+			\L_0c515:
+			ZH 1:
+			'...I wouldn’t want'
+			R
+			'my dad to see me'
+			R
+			'like this...'
+			R
+			'Ah, man...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 43:
+			\L_0c515:
+			ZH 1:
+			'Now, come at me.'
+			R
+			'No need to hold'
+			R
+			'back.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 47:
+			\L_0c515:
+			ZH 1:
+			'...Heh...'
+			R
+			'Ah, man...'
+			R
+			'You’re on their'
+			R
+			'side...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Heh...'
+			R
+			'Let’s go!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Alright, brace'
+			R
+			'yourselves.'
+			R
+			'Let’s get going.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Right, let’s go!'
+			R
+			'Follow me!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 56:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Hiyaaaah!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Ah, man.'
+			R
+			'Gotta fight even'
+			R
+			'at my age.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Guess I’ve gotta'
+			R
+			'do a little'
+			R
+			'fighting.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Hmhm...'
+			R
+			'Should we do it?'
+			R
+			'Hey, let’s go.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 57:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Haaaah...'
+			R
+			'Lightning Laser!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Prepare yourself!'
+			R
+			'I won’t go easy!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Aah, how annoying.'
+			R
+			'One after'
+			R
+			'another...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'...Do your best,'
+			R
+			'Patton.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{(VAR0156 = 58) * (VAR0518 = 0):
+		Y 4, 2:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'This is our city.'
+			R
+			'You think we’ll'
+			R
+			'let some thieves'
+			R
+			'invade us?!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Get out, thieves!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 58:
+		\L_0c515:
+		ZH 1:
+		'Stay back!'
+		R
+		'Go away!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 59:
+		\L_0c515:
+		ZH 1:
+		'We’ll protect the'
+		R
+		'city! Nobody’ll'
+		R
+		'lay a hand on it!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 60:
+		\L_0c515:
+		ZH 1:
+		'Keh... Hyahyahya!!'
+		R
+		'Too beautiful!'
+		R
+		'My unit!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 62:
+		{VAR0154 = 1:
+			\L_0c515:
+			ZH 1:
+			'Diiie!'
+			R
+			'Brute!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Have no fear.'
+			R
+			'We’ll win with a'
+			R
+			'knight’s spirit.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Deserting in the'
+			R
+			'face of the enemy'
+			R
+			'is a grave crime.'
+			R
+			'I’ll kill anyone'
+			R
+			'that tries!!'
+			R
+			'Move out!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Do it!!'
+			R
+			'Do anything you'
+			R
+			'can!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 63:
+		\L_0c531:
+		ZH 1:
+		'If I get'
+		R
+		'injured...'
+		R
+		'I wonder if Cell'
+		R
+		'will take care of'
+		R
+		'me...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 64:
+		\L_0c515:
+		ZH 1:
+		'Stay awaaaaay!!'
+		R
+		'Go back where you'
+		R
+		'came from!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 65:
+		\L_0c515:
+		ZH 1:
+		'Goooo!!'
+		R
+		'Don’t let yourself'
+		R
+		'lose to any'
+		R
+		'invaders!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 66:
+		\L_0c515:
+		ZH 1:
+		'You’re pretty'
+		R
+		'obnoxious for'
+		R
+		'being with'
+		R
+		'Rance!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 67:
+		\L_0c515:
+		ZH 1:
+		'You moroooon!!'
+		R
+		'I hate youuuu!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 68:
+		\L_0c515:
+		ZH 1:
+		'Uraaaah!!'
+		R
+		'You’re gonna get'
+		R
+		'whacked!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 69:
+		\L_0c515:
+		ZH 1:
+		'Diiie!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 70:
+		\L_0c515:
+		ZH 1:
+		'Come!'
+		R
+		'I’ll be your'
+		R
+		'opponent!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 71:
+		\L_0c515:
+		ZH 1:
+		'Huhuhuhuhu...'
+		R
+		'Bentora.'
+		R
+		'Mm～...'
+		R
+		'Marvelous...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 72:
+		\L_0c515:
+		ZH 1:
+		'Time to teach you'
+		R
+		'a lesson!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 73:
+		\L_0c515:
+		ZH 1:
+		'Ngh, filthy'
+		R
+		'foreigner!'
+		R
+		'Prepare yourself!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 74:
+		\L_0c515:
+		ZH 1:
+		'Sit still and'
+		R
+		'become rust on my'
+		R
+		'blade!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 75:
+		\L_0c515:
+		ZH 1:
+		'Hahahahahah!'
+		R
+		'Kill them all,'
+		R
+		'don’t let a single'
+		R
+		'one of them go'
+		R
+		'back alive!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 76:
+		\L_0c515:
+		ZH 1:
+		'JAPAN won’t fall'
+		R
+		'so easily!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 77:
+		\L_0c515:
+		ZH 1:
+		'You’re good'
+		R
+		'targets!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 78:
+		\L_0c515:
+		ZH 1:
+		'You’re more'
+		R
+		'foolish than a'
+		R
+		'boar to stand'
+		R
+		'against me!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 79:
+		\L_0c515:
+		ZH 1:
+		'Allow me to have'
+		R
+		'your head!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 80:
+		\L_0c515:
+		ZH 1:
+		'Judgment!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 81:
+		\L_0c515:
+		ZH 1:
+		'Give them a storm'
+		R
+		'of arrows!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 82:
+		\L_0c515:
+		ZH 1:
+		'To clear my'
+		R
+		'father’s name...'
+		R
+		'Destroy them!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 83:
+		Y 4, 3:
+		{VAR0000 = 1:
+			\L_0c515:
+			ZH 1:
+			'Long live the'
+			R
+			'Japanese Empire!!'
+			\L_0c576:
+		}
+		{VAR0000 = 2:
+			\L_0c515:
+			ZH 1:
+			'Aiyaaa, attack!'
+			\L_0c576:
+		}
+		{VAR0000 = 3:
+			\L_0c515:
+			ZH 1:
+			'Hanihooo'
+			R
+			'　Hanihooo'
+			R
+			R
+			'Hanihooo'
+			R
+			'Hanihooo'
+			\L_0c576:
+		}
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 84:
+		Y 4, 3:
+		{VAR0000 = 1:
+			\L_0c515:
+			ZH 1:
+			'For the nation,'
+			R
+			'burn to ashes!'
+			\L_0c576:
+		}
+		{VAR0000 = 2:
+			\L_0c515:
+			ZH 1:
+			'This dungeon’s our'
+			R
+			'paradise! We have'
+			R
+			'to protect it!'
+			\L_0c576:
+		}
+		{VAR0000 = 3:
+			\L_0c515:
+			ZH 1:
+			'Aiyaaa.'
+			R
+			'Fight hard.'
+			R
+			'Don’t let us lose!'
+			\L_0c576:
+		}
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 85:
+		\L_0c515:
+		ZH 1:
+		'Full speed ahead!!'
+		R
+		'The enemy’s right'
+		R
+		'before us, be'
+		R
+		'careful!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 86:
+		\L_0c515:
+		ZH 1:
+		'KUGYAAAAA'
+		R
+		'GEGEGEGEH!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 87:
+		\L_0c515:
+		ZH 1:
+		'DIIIIIE!!'
+		R
+		'SLAUGHTER!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 88:
+		\L_0c515:
+		ZH 1:
+		'I’ll show you the'
+		R
+		'power of monsters.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 89:
+		\L_0c515:
+		ZH 1:
+		'Still resisting?'
+		R
+		'A futile effort...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 90:
+		{VAR0618 = 2:
+			{VAR0093 < 4:
+				\L_0c515:
+				ZH 1:
+				'Don’t have much'
+				R
+				'magic resistance,'
+				R
+				'do they? Maybe.'
+				R
+				R
+				'There, freeze!'
+				\L_0c576:
+				\L_0c569:
+				%0:
+			}
+			\L_0c515:
+			ZH 1:
+			'Taaake that!!'
+			R
+			'Snow Laser.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Hmph.'
+			R
+			'Don’t waste my'
+			R
+			'time with'
+			R
+			'weaklings.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Do you seriously'
+			R
+			'think you can win?'
+			R
+			'Are you stupid?'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Hahaha!!'
+			R
+			'Freeze!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 91:
+		{VAR0154 = 1:
+			\L_0c515:
+			ZH 1:
+			'...Eyesore...'
+			R
+			'You should die.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{(VAR0154 = 29) + (VAR0154 = 30) + (VAR0154 = 41) + (VAR0154 = 42):
+			\L_0c515:
+			ZH 1:
+			'...Can you still'
+			R
+			'call yourself a'
+			R
+			'demon?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 32:
+			\L_0c515:
+			ZH 1:
+			'...Little'
+			R
+			'Princess...'
+			R
+			'This is... the'
+			R
+			'Demon Lord?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'...Garbage...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Disappear.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'...Die.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 92:
+		{VAR0154 = 1:
+			\L_0c515:
+			ZH 1:
+			'Uooooh!!'
+			R
+			'If I kill you...!'
+			R
+			'Mary...!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{(VAR0154 = 29) + (VAR0154 = 30):
+			\L_0c515:
+			ZH 1:
+			'Sorry, but die.'
+			R
+			'Farewell.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 32:
+			\L_0c515:
+			ZH 1:
+			'Demon Lord!'
+			R
+			'I’ll beat you!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Hmph.'
+			R
+			'Die.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Out of my sight!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Hyaaah!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 93:
+		{VAR0154 = 1:
+			\L_0c515:
+			ZH 1:
+			'Now, let’s have a'
+			R
+			'fair fight, King'
+			R
+			'Rance.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 32:
+			\L_0c515:
+			ZH 1:
+			'Let us go.'
+			R
+			'I’ll be gentle,'
+			R
+			'Little Princess.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{(VAR0154 = 29) + (VAR0154 = 30) + (VAR0154 = 41) + (VAR0154 = 42):
+			\L_0c515:
+			ZH 1:
+			'Cease this'
+			R
+			'foolishness and'
+			R
+			'return to our'
+			R
+			'side...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Let’s go.'
+			R
+			'Haah!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Forgive my'
+			R
+			'rudeness.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Now, let’s fight.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 94:
+		%0:
+	}
+	{VAR0156 = 95:
+		%0:
+	}
+	{VAR0156 = 96:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Namu namu namu...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'I’ll protect Zeth'
+		R
+		'while King'
+		R
+		'Gandhi’s away!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 97:
+		\L_0c515:
+		ZH 1:
+		'I am the devil'
+		R
+		'Xacalite.'
+		R
+		'I have a contract'
+		R
+		'to fulfill...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 98:
+		\L_0c515:
+		ZH 1:
+		'Are you the one'
+		R
+		'that made me'
+		R
+		'remember my own'
+		R
+		'existence...?'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 100:
+		{VAR0120 = 1414:
+			\L_0c515:
+			ZH 1:
+			'For God, we will'
+			R
+			'kill the evil god,'
+			R
+			'Rance!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0120 = 1493:
+			\L_0c515:
+			ZH 1:
+			'Yellow Breath!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0120 = 1494:
+			\L_0c515:
+			ZH 1:
+			'Yellow...'
+			R
+			'Were you'
+			R
+			'beaten...?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0120 = 1495:
+			\L_0c515:
+			ZH 1:
+			'I’ll kill you all.'
+			R
+			'Fools.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0120 = 1496:
+			\L_0c515:
+			ZH 1:
+			'Gggggh...'
+			R
+			'I’ll burn you to a'
+			R
+			'crisp!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0120 = 1497:
+			\L_0c515:
+			ZH 1:
+			'Black!!'
+			R
+			'Breeeeath!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0123 = 75:
+			\L_0c515:
+			ZH 1:
+			'Rance!!'
+			R
+			'Prepare yourself!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0123 = 484:
+			\L_0c515:
+			ZH 1:
+			'Keheheheheheh.'
+			R
+			'Let’s kill this'
+			R
+			'guy and rape the'
+			R
+			'woman.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'.........'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 101:
+		{VAR0154 = 37:
+			\L_0c515:
+			ZH 1:
+			'Ah... Ah...'
+			R
+			'King Gandhi, what'
+			R
+			'should I do...?!'
+			\L_0c576:
+			\L_0c569:
+			\L_0c4dd:
+			ZH 1:
+			'Forgive me,'
+			R
+			'Chizuko...'
+			R
+			'I’ve made things'
+			R
+			'difficult for'
+			R
+			'you...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 39:
+			\L_0c515:
+			ZH 1:
+			'Waiiit a second!!'
+			R
+			'What are you doing'
+			R
+			'switching to'
+			R
+			'Leazas’s side!?'
+			\L_0c576:
+			\L_0c569:
+			\L_0c4c1:
+			ZH 1:
+			'Shut up, it’s not'
+			R
+			'like I like being'
+			R
+			'on my dad’s side'
+			R
+			'or anything!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 40:
+			\L_0c515:
+			ZH 1:
+			'You’ve betrayed'
+			R
+			'us, Nagi...!'
+			\L_0c576:
+			\L_0c569:
+			\L_0c4c1:
+			ZH 1:
+			'...I guess.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Learn the power'
+			R
+			'of the magical'
+			R
+			'country of Zeth!'
+			R
+			'Black Wave!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Kick around those'
+			R
+			'filthy followers'
+			R
+			'of the Brutal'
+			R
+			'King!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Even if I die I'
+			R
+			'won’t let you'
+			R
+			'bring ruin to'
+			R
+			'Zeth!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'King Gandhi...'
+			R
+			'Please protect me!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 102:
+		\L_0c515:
+		ZH 1:
+		'Uraah, let’s get'
+		R
+		'workin’! Lord'
+		R
+		'Chizuko’ll beat us'
+		R
+		'if we don’t!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 103:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Namu namu namu...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'I won’t allow you'
+		R
+		'to dirty Zeth’s'
+		R
+		'land.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 104:
+		{VAR0154 = 37:
+			\L_0c515:
+			ZH 1:
+			'It’s not the'
+			R
+			'Flash’s fault...!'
+			R
+			'It’s because it’s'
+			R
+			'an amazing magic!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 38:
+			\L_0c515:
+			ZH 1:
+			'Chizukooo, without'
+			R
+			'you they aren’t'
+			R
+			'gonna let me'
+			R
+			'continue my'
+			R
+			'research～.'
+			\L_0c576:
+			\L_0c569:
+			\L_0c4c1:
+			ZH 1:
+			'Th-Then don’t'
+			R
+			'attack me! Your'
+			R
+			'reasoning doesn’t'
+			R
+			'make any sense...!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 39:
+			\L_0c515:
+			ZH 1:
+			'Hee... Heeheehee...'
+			R
+			'Look, Nomicon.'
+			R
+			'She looks just'
+			R
+			'like Magic～.'
+			R
+			'Should we kill her'
+			R
+			'for dissection～?'
+			\L_0c576:
+			\L_0c569:
+			\L_0c4c1:
+			ZH 1:
+			'Wait...'
+			R
+			'I’m the real'
+			R
+			'Magic!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 40:
+			\L_0c515:
+			ZH 1:
+			'Oh, Nagi. I’m'
+			R
+			'happy to see you.'
+			R
+			'I wanted to try'
+			R
+			'fighting a'
+			R
+			'modified human'
+			R
+			'at least once～.'
+			\L_0c576:
+			\L_0c569:
+			\L_0c4c1:
+			ZH 1:
+			'...Hmph...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Um...'
+			R
+			'Maaaybe I should'
+			R
+			'use nerve gas.'
+			R
+			'Hee, heeheehee...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Heeey, look,'
+			R
+			'Nomicon, there’s'
+			R
+			'sooo many test'
+			R
+			'subjects.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Hee, Heeheehee...'
+			R
+			'Can I huuurt you?'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'What should we do,'
+			R
+			'Nomicon?'
+			R
+			'...Huh, attack?'
+			R
+			'Then leeet’s go,'
+			R
+			'everyone!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 105:
+		\L_0c515:
+		ZH 1:
+		'If we don’t do a'
+		R
+		'good job then'
+		R
+		'we’re gonna get'
+		R
+		'dissected!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 106:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Namu namu namu...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'Aah, I’m no good'
+		R
+		'at physical'
+		R
+		'labor...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 107:
+		{VAR0154 = 17:
+			\L_0c515:
+			ZH 1:
+			'Daughter of'
+			R
+			'Masou...'
+			R
+			'I will defeat you.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Fire Laser.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'.........'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Kill them.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Go, annihilate'
+			R
+			'them.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 108:
+		\L_0c515:
+		ZH 1:
+		'Ora ora oraaa,'
+		R
+		'KEKEKEKEKEH...!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 109:
+		{VAR0154 = 1:
+			{VAR0322 = 1:
+				\L_0c515:
+				ZH 1:
+				'Not retreating,'
+				R
+				'youngster?!'
+				\L_0c576:
+				\L_0c569:
+				%0:
+			}
+		}
+		{VAR0154 = 17:
+			\L_0c515:
+			ZH 1:
+			'Hah...'
+			R
+			'Huhahahahahahaha!'
+			R
+			'I’ll take'
+			R
+			'everything from'
+			R
+			'you again, Masou!'
+			\L_0c576:
+			\L_0c569:
+			\L_0c4c1:
+			ZH 1:
+			'Shut up...'
+			R
+			'Don’t laugh!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 37:
+			\L_0c515:
+			ZH 1:
+			'If it isn’t'
+			R
+			'Your Majesty...?'
+			R
+			'Glad to see you.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 39:
+			\L_0c515:
+			ZH 1:
+			'Oh, the King’s'
+			R
+			'daughter...'
+			R
+			'She could be'
+			R
+			'interesting as a'
+			R
+			'test subject.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Watch closely,'
+			R
+			'Nagi.'
+			R
+			'Poison Gauntlet!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Hmph...'
+			R
+			'A foolish battle.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Ch...'
+			R
+			'Is there anyone'
+			R
+			'here to act as a'
+			R
+			'shield?!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Ridiculous.'
+			R
+			'Let’s end this'
+			R
+			'fast and get back'
+			R
+			'to training.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 110:
+		{VAR0154 = 37:
+			\L_0c515:
+			ZH 1:
+			'I’ll protect this'
+			R
+			'country! If you'
+			R
+			'won’t come to your'
+			R
+			'senses, die!'
+			\L_0c576:
+			\L_0c569:
+			\L_0c4c1:
+			ZH 1:
+			'As you wish...'
+			R
+			'Come, Magic!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 38:
+			\L_0c515:
+			ZH 1:
+			'Chizukoooo!'
+			R
+			'Why did you change'
+			R
+			'sides?! Don’t be'
+			R
+			'misled by my dad!'
+			R
+			'Tasteless moron!!'
+			\L_0c576:
+			\L_0c569:
+			\L_0c4c1:
+			ZH 1:
+			'As insulting as'
+			R
+			'ever...!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 40:
+			\L_0c515:
+			ZH 1:
+			'Nagi...'
+			R
+			'I knew you didn’t'
+			R
+			'care what happens'
+			R
+			'to Zeth.'
+			\L_0c576:
+			\L_0c569:
+			\L_0c4c1:
+			ZH 1:
+			'...You’re right.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0650 = 9:
+			{VAR0618 = 2:
+				\L_0c515:
+				ZH 1:
+				'Leazas...'
+				R
+				'Further aggression'
+				R
+				'won’t be'
+				R
+				'tolerated!!'
+				R
+				'Lightning Laser!!'
+				\L_0c576:
+				\L_0c569:
+				%0:
+			}
+			Y 4, 3:
+			!VAR0690 : VAR0000!
+			{VAR0690 = 1:
+				\L_0c515:
+				ZH 1:
+				'Kh... Did we'
+				R
+				'falter?!'
+				\L_0c576:
+				\L_0c569:
+			}
+			{VAR0690 = 2:
+				\L_0c515:
+				ZH 1:
+				'I won’t lose...!'
+				R
+				'I’ll never lose!!'
+				\L_0c576:
+				\L_0c569:
+			}
+			{VAR0690 = 3:
+				\L_0c515:
+				ZH 1:
+				'This is our'
+				R
+				'country...'
+				R
+				'Get out!'
+				\L_0c576:
+				\L_0c569:
+			}
+			%0:
+		}
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Haah...'
+			R
+			'This is annoying.'
+			R
+			'Lightning Laser!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'I have to get my'
+		R
+		'homework done...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 111:
+		\L_0c515:
+		ZH 1:
+		'Ukekekekeh,'
+		R
+		'ukekekekekekeh...!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 112:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Namu namu namu...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'Leazas was'
+		R
+		'supposed to be an'
+		R
+		'inferior country!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 113:
+		{VAR0154 = 37:
+			\L_0c515:
+			ZH 1:
+			'Why are you with'
+			R
+			'Leazas, King?!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 38:
+			\L_0c515:
+			ZH 1:
+			'Lord Chizuko...'
+			R
+			'Allow me to return'
+			R
+			'my many years of'
+			R
+			'debt.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 39:
+			\L_0c515:
+			ZH 1:
+			'Magic...!'
+			R
+			'Have you lost your'
+			R
+			'mind?!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 40:
+			\L_0c515:
+			ZH 1:
+			'Lord Nagi...'
+			R
+			'I heard you’d'
+			R
+			'disappeared,'
+			R
+			'but...!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Ngh...'
+			R
+			'Fire Laser!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Attack...'
+			R
+			'Watch the enemy’s'
+			R
+			'movements!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Ah, man...'
+			R
+			'The front line?'
+			R
+			'Things have gotten'
+			R
+			'tough.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Uspira...'
+			R
+			'I fight for you.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 114:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Namu namu namu...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'I’ll show you how'
+		R
+		'well I can do,'
+		R
+		'General Saias!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 115:
+		\L_0c515:
+		ZH 1:
+		'Blood...'
+		R
+		'Heeheehee, blood...!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 116:
+		\L_0c515:
+		ZH 1:
+		'Well, do all you'
+		R
+		'can without'
+		R
+		'getting yourselves'
+		R
+		'killed.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 117:
+		{VAR0154 = 37:
+			\L_0c531:
+			ZH 1:
+			'Why...?'
+			R
+			R
+			'Why am I fighting'
+			R
+			'you...?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 38:
+			\L_0c531:
+			ZH 1:
+			'I see... You'
+			R
+			'decided to go to'
+			R
+			'your loved one...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 39:
+			\L_0c515:
+			ZH 1:
+			'I suppose you have'
+			R
+			'some idea, Magic.'
+			R
+			R
+			'But I will'
+			R
+			'fight...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 40:
+			\L_0c515:
+			ZH 1:
+			'I’m shocked...'
+			R
+			'Lord Nagi has'
+			R
+			'joined Leazas.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'...'
+			R
+			'Snow Laser.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'I mustn’t run'
+			R
+			'away...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Let’s go.'
+			R
+			'There’s no need'
+			R
+			'to be afraid...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'...Let’s repel'
+			R
+			'them.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 118:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Namu namu namu...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'Everyone, charge!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 119:
+		\L_0c515:
+		ZH 1:
+		'Diiiiiie!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 120:
+		\L_0c515:
+		ZH 1:
+		'Gawhawhawhaw, kill'
+		R
+		'them aaaall!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 121:
+		{VAR0154 = 37:
+			\L_0c515:
+			ZH 1:
+			'It’s been a while'
+			R
+			'since we’ve had a'
+			R
+			'bout...'
+			R
+			'King Gandhi...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 38:
+			\L_0c515:
+			ZH 1:
+			'Lord Chizuko,'
+			R
+			'forgive me!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 39:
+			\L_0c515:
+			ZH 1:
+			'Dear, I even have'
+			R
+			'to fight you,'
+			R
+			'Miss...?'
+			R
+			'A soldier’s life'
+			R
+			'is tough.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 40:
+			\L_0c515:
+			ZH 1:
+			'Lord Nagi...?'
+			R
+			'This is'
+			R
+			'complicated.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Let’s see...'
+			R
+			'How about we'
+			R
+			'scatter them?'
+			R
+			'Lightning Laser.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'A slight'
+			R
+			'disadvantage...'
+			R
+			'But I have to do'
+			R
+			'it.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'We do not fear'
+			R
+			'swords.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'We’re protecting'
+			R
+			'the country in'
+			R
+			'the King’s'
+			R
+			'absence. Let’s'
+			R
+			'go, everyone.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 122:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Namu namu namu...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'General Kabachahn,'
+		R
+		'we’re going!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 123:
+		\L_0c515:
+		ZH 1:
+		'I hate pain...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 124:
+		\L_0c515:
+		ZH 1:
+		'The old man’s'
+		R
+		'watching, don’t'
+		R
+		'slack off!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 125:
+		{VAR0154 = 37:
+			\L_0c515:
+			ZH 1:
+			'Your Majesty,'
+			R
+			'please return to'
+			R
+			'your country!'
+			R
+			'I don’t wish to'
+			R
+			'fight you...!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 38:
+			\L_0c515:
+			ZH 1:
+			'Lord Chizuko...'
+			R
+			'Even you’ve'
+			R
+			'turned your back'
+			R
+			'on Zeth?!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 40:
+			\L_0c515:
+			ZH 1:
+			'Lord Nagi...?'
+			R
+			'What are you'
+			R
+			'doing?!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Sorry, but...'
+			R
+			'We have something'
+			R
+			'to protect, too!'
+			R
+			'Light Bomb!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Kh... We won’t'
+			R
+			'hand this city'
+			R
+			'over! Hang in'
+			R
+			'there, everyone!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'More than magic,'
+			R
+			'the sword...!'
+			R
+			'That’s what His'
+			R
+			'Majesty would'
+			R
+			'always say...!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Your Majesty...'
+			R
+			'I won’t give up on'
+			R
+			'Magic...!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 126:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Namu namu namu...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'We won’t yield to'
+		R
+		'violence!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 127:
+		\L_0c515:
+		ZH 1:
+		'Hyaaaahahaha, die,'
+		R
+		'diiiiie!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 128:
+		\L_0c515:
+		ZH 1:
+		'Beg for your life!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 129:
+		{VAR0154 = 1:
+			\L_0c515:
+			ZH 1:
+			'Mm...Aaaah～...'
+			R
+			'The King...'
+			R
+			'Die...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 29:
+			\L_0c515:
+			ZH 1:
+			'S-Satella??'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 30:
+			\L_0c515:
+			ZH 1:
+			'M-Meglass??'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 41:
+			\L_0c515:
+			ZH 1:
+			'...Galtia...'
+			R
+			'Why...? Ah...'
+			R
+			'Aaah...?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Mm... Naaah～...'
+			R
+			'Gah... Raaawr...'
+			R
+			'Baaaah!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'P-Punch～...'
+			R
+			'I guess...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'E-Excited...'
+			R
+			'Puh～...'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 130:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Mm～...'
+			R
+			'Miracle Straight'
+			R
+			'Flaaaaaaaaash!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'KILL YOU～!'
+			R
+			'Whatever you do,'
+			R
+			'ME NO HELP!'
+			R
+			'KILL YOU～!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'MAAAAAAKE'
+			R
+			'DRAAAAAMA!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'This called,'
+			R
+			'KILL YOU～!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 131:
+		{(VAR0154 = 29) + (VAR0154 = 30) + (VAR0154 = 42):
+			\L_0c515:
+			ZH 1:
+			'Sorry, Kayblis’s'
+			R
+			'orders.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 32:
+			\L_0c515:
+			ZH 1:
+			'Heheh... Little'
+			R
+			'Princess. Be kind.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Hey!'
+			R
+			'Agh, god!'
+			R
+			'Don’t make me do'
+			R
+			'things that’ll'
+			R
+			'make me hungrier!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Ah～～!!'
+			R
+			'I’m so hungry, I’m'
+			R
+			'getting irritated!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Alright, time to'
+			R
+			'eat!'
+			R
+			'Hahahaha.'
+			R
+			'Just kidding.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 132:
+		{(VAR0154 = 29) + (VAR0154 = 30) + (VAR0154 = 41) + (VAR0154 = 42):
+			\L_0c515:
+			ZH 1:
+			'Doesn’t this'
+			R
+			'embarrass you, as'
+			R
+			'a demon?'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 32:
+			\L_0c515:
+			ZH 1:
+			'...'
+			R
+			'Prepare yourself!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Oooooh!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'I can’t die yet!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Calory...'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 133:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'The winds of'
+			R
+			'destruction...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Let’s scatter'
+			R
+			'them...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Now...'
+			R
+			'Time to kill you.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'...Goodbye.'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 134:
+		{VAR0154 = 1:
+			\L_0c515:
+			ZH 1:
+			'The King of'
+			R
+			'Leazas...'
+			R
+			'Men bore me. Die.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 29:
+			\L_0c515:
+			ZH 1:
+			'Satella!'
+			R
+			'Time for your'
+			R
+			'punishment!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{(VAR0154 = 30) + (VAR0154 = 41):
+			\L_0c515:
+			ZH 1:
+			'Die right now!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 32:
+			\L_0c515:
+			ZH 1:
+			'Huhu... So cute...'
+			R
+			'You’re the type I'
+			R
+			'love to tease.'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Hohohohoh!!'
+			R
+			'If you don’t'
+			R
+			'entertain me, I’ll'
+			R
+			'kill you!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Alefgard～.'
+			R
+			'I wanna take a'
+			R
+			'bath as soon as I'
+			R
+			'get home.'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Geez! I’m bored of'
+			R
+			'fighting, hurry up'
+			R
+			'and die!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 135:
+		{VAR0154 = 1:
+			\L_0c515:
+			ZH 1:
+			'What’s the King of'
+			R
+			'Humans to me?!'
+			R
+			'I’m the King of'
+			R
+			'Monsters!!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{(VAR0154 = 29) + (VAR0154 = 30) + (VAR0154 = 41) + (VAR0154 = 42):
+			\L_0c515:
+			ZH 1:
+			'Graaaah!!'
+			R
+			'You think you’re'
+			R
+			'safe on their'
+			R
+			'side?! Do you?!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		{VAR0154 = 32:
+			\L_0c515:
+			ZH 1:
+			'Little Princess!'
+			R
+			'I’ll have your'
+			R
+			'head! Don’t move!'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		Y 4, 4:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'Uraaah!！'
+			R
+			'Die!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'Ooooooh!!'
+			R
+			'Gahahahaha!!'
+			R
+			'Attack!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'Uraaah!!'
+			R
+			'Bite, kick,'
+			R
+			'smash!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 4:
+			\L_0c515:
+			ZH 1:
+			'Oooooh!!'
+			R
+			'Kayblis Attaaack!!'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 136:
+		\L_0c515:
+		ZH 1:
+		'Die!'
+		R
+		'Filthy humans!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 137:
+		\L_0c515:
+		ZH 1:
+		'There’s no value'
+		R
+		'in you living.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 138:
+		\L_0c515:
+		ZH 1:
+		'BE ERASED.'
+		R
+		'THAT IS MASTER'
+		R
+		'PIAR’S WISH.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 139:
+		\L_0c515:
+		ZH 1:
+		'This is a crusade.'
+		R
+		'A crusade!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 140:
+		\L_0c515:
+		ZH 1:
+		'You’re all going'
+		R
+		'to Hell!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 141:
+		\L_0c515:
+		ZH 1:
+		'My sword is your'
+		R
+		'one way ticket to'
+		R
+		'Hell. Take it!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 142:
+		\L_0c515:
+		ZH 1:
+		'...Die.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 143:
+		\L_0c515:
+		ZH 1:
+		'Die, you damned'
+		R
+		'dogs of that'
+		R
+		'vulgar king.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 144:
+		\L_0c515:
+		ZH 1:
+		'If it’s to protect'
+		R
+		'Lady, I would'
+		R
+		'sacrifice my life!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 145:
+		\L_0c515:
+		ZH 1:
+		'We won’t let you'
+		R
+		'do what you like'
+		R
+		'with Lady!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 146:
+		\L_0c515:
+		ZH 1:
+		'Fools...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 147:
+		\L_0c515:
+		ZH 1:
+		'Blasphemous fools.'
+		R
+		'I’ll send you'
+		R
+		'straight to the'
+		R
+		'Oni King.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 148:
+		\L_0c515:
+		ZH 1:
+		'Imitating the'
+		R
+		'commander.'
+		R
+		'MAKE DRAMAAA!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 149:
+		\L_0c515:
+		ZH 1:
+		'Please die!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 150:
+		\L_0c515:
+		ZH 1:
+		'Gogyaaaah!!'
+		R
+		'Guh... Gugaaah!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 151:
+		\L_0c515:
+		ZH 1:
+		'Charge!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 152:
+		\L_0c515:
+		ZH 1:
+		'Guoooo!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 153:
+		\L_0c515:
+		ZH 1:
+		'Haaaah...!'
+		R
+		'Give me your life!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 154:
+		\L_0c515:
+		ZH 1:
+		'Get some anpan for'
+		R
+		'Commander Galtia!'
+		R
+		'Oooh!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 155:
+		\L_0c515:
+		ZH 1:
+		'Damn iiit!!'
+		R
+		'Die!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 156:
+		Y 4, 3:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			\L_0c515:
+			ZH 1:
+			'...I’ll at least'
+			R
+			'make your trip to'
+			R
+			'the afterlife'
+			R
+			'easy...'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 2:
+			\L_0c515:
+			ZH 1:
+			'...Go!'
+			\L_0c576:
+			\L_0c569:
+		}
+		{VAR0690 = 3:
+			\L_0c515:
+			ZH 1:
+			'...Farewell...'
+			\L_0c576:
+			\L_0c569:
+		}
+		%0:
+	}
+	{VAR0156 = 157:
+		@L_0b958:
+	}
+	{VAR0156 = 158:
+		\L_0c515:
+		ZH 1:
+		'.........'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 159:
+		\L_0c515:
+		ZH 1:
+		'Punch attaaaack.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 160:
+		\L_0c515:
+		ZH 1:
+		'Doggies.'
+		R
+		'Go, woof.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 161:
+		\L_0c515:
+		ZH 1:
+		'Mm～～...'
+		R
+		'Woof, woof!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 162:
+		\L_0c515:
+		ZH 1:
+		'Protect Mr. Lis’s'
+		R
+		'castle!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 163:
+		\L_0c515:
+		ZH 1:
+		'Kitties,'
+		R
+		'goooooooo!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 164:
+		\L_0c515:
+		ZH 1:
+		'Kitties.'
+		R
+		'Do your best,'
+		R
+		'meow.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 165:
+		\L_0c515:
+		ZH 1:
+		'Graaaaaaaaaaaaah,'
+		R
+		'get outta here!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 166:
+		\L_0c515:
+		ZH 1:
+		'KEEEKEKEKEKEKEH!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 167:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Namu namu namu...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'Savage nation.'
+		R
+		'Lay yourselves'
+		R
+		'down!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 168:
+		\L_0c515:
+		ZH 1:
+		'Take this, Leazas'
+		R
+		'Army!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 169:
+		\L_0c515:
+		ZH 1:
+		'Adrenaline at'
+		R
+		'maximum!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 170:
+		\L_0c515:
+		ZH 1:
+		'Don’t die!'
+		R
+		'You’re getting a'
+		R
+		'raise if you'
+		R
+		'survive!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 171:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Namu namu namu...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'Where are you'
+		R
+		'going...?'
+		R
+		'Wheeeeere?!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 172:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Namu namu namu...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'Hmph... Your'
+		R
+		'country’s magic'
+		R
+		'is pathetic!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 173:
+		\L_0c515:
+		ZH 1:
+		'Meat... Eat meat.'
+		R
+		'Leazas meat...!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 174:
+		\L_0c515:
+		ZH 1:
+		'I can’t take'
+		R
+		'anymooore!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 175:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Namu namu namu...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'Aah... It’s times'
+		R
+		'like this when I'
+		R
+		'wish King Gandhi'
+		R
+		'were here...!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 176:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Namu namu namu...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'Uu, this looks'
+		R
+		'bad...'
+		R
+		'But I won’t lose!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 177:
+		\L_0c515:
+		ZH 1:
+		'I want to fuck'
+		R
+		'that loudmouthed'
+		R
+		'princess just'
+		R
+		'once...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 178:
+		\L_0c515:
+		ZH 1:
+		'Ukeh...'
+		R
+		'Ukekyokiiii!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 179:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Namu namu namu...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'Countries where'
+		R
+		'most people can’t'
+		R
+		'use magic are so'
+		R
+		'uncool!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 180:
+		{VAR0618 = 2:
+			\L_0c515:
+			ZH 1:
+			'Namu namu namu...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+		\L_0c515:
+		ZH 1:
+		'Zeth won’t lose!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 181:
+		\L_0c515:
+		ZH 1:
+		'Commandeeer!'
+		R
+		'I’ll win, so don’t'
+		R
+		'kill meee!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 182:
+		\L_0c515:
+		ZH 1:
+		'I’ll do my best'
+		R
+		'for the commander.'
+		R
+		'Oooh!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 183:
+		\L_0c515:
+		ZH 1:
+		'Heh... Heheh...'
+		R
+		'Blood...'
+		R
+		'Yep...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 184:
+		\L_0c515:
+		ZH 1:
+		'Poop, hahaha～.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 185:
+		\L_0c515:
+		ZH 1:
+		'Uhohoh, ugaaah.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 186:
+		\L_0c515:
+		ZH 1:
+		'Yep, we’re elite'
+		R
+		'guards.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 187:
+		\L_0c515:
+		ZH 1:
+		'Gaaaaaah!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 188:
+		\L_0c515:
+		ZH 1:
+		'Kugyaaaah!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 189:
+		\L_0c515:
+		ZH 1:
+		'Garururururu!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 190:
+		\L_0c515:
+		ZH 1:
+		'Giiiiiiii!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{(VAR0156 > 190) * (VAR0156 < 200):
+		\L_0c515:
+		ZH 1:
+		'Die, die!!'
+		R
+		'Kill those humans'
+		R
+		'and eat them!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	%0:
+*L_097ed:
+	{VAR0607 \ 0:
+		\L_0c4c1:
+		ZH 1:
+		'By la Way!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 1:
+		\L_0c4c1:
+		ZH 1:
+		'Ex!!'
+		R
+		'Why are you'
+		R
+		'doing this...?!'
+		\L_0c576:
+		\L_0c569:
+		\L_0c515:
+		ZH 1:
+		'Rick...'
+		R
+		'That’s what I want'
+		R
+		'to ask you...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'Haurein... I won’t'
+		R
+		'go easy just'
+		R
+		'because you’re Sir'
+		R
+		'Barres’s daughter.'
+		R
+		'For the King...'
+		\L_0c576:
+		\L_0c569:
+		\L_0c515:
+		ZH 1:
+		'That’s fine by me,'
+		R
+		'Red Reaper.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 3:
+		\L_0c4c1:
+		ZH 1:
+		'Sir Pegasus!'
+		R
+		'Please rethink'
+		R
+		'this! I don’t want'
+		R
+		'us to fight this'
+		R
+		'way!'
+		\L_0c576:
+		\L_0c569:
+		\L_0c515:
+		ZH 1:
+		'Have you become a'
+		R
+		'coward?!'
+		R
+		'Red Reaper!'
+		R
+		'Come at me!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 4:
+		\L_0c4c1:
+		ZH 1:
+		'Ms. Melfeis...'
+		R
+		'Please run if you'
+		R
+		'can...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{(VAR0156 = 5) + (VAR0156 = 6) + (VAR0156 = 7):
+		\L_0c4c1:
+		ZH 1:
+		'...Run away...'
+		R
+		'I can’t go easy on'
+		R
+		'you...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 54:
+		\L_0c4c1:
+		ZH 1:
+		'...For us to be'
+		R
+		'fighting after'
+		R
+		'everything...'
+		R
+		'It’s unfortunate I'
+		R
+		'have to do this...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 55:
+		\L_0c4c1:
+		ZH 1:
+		'...This is the'
+		R
+		'second time that'
+		R
+		'we’ve been'
+		R
+		'enemies, is it...?'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 56:
+		\L_0c4c1:
+		ZH 1:
+		'Mr. Freak...'
+		R
+		'Don’t hold back...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 57:
+		\L_0c4c1:
+		ZH 1:
+		'...Sorry...'
+		R
+		'Ms. Hanty.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	Y 4, 4:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		\L_0c4c1:
+		ZH 1:
+		'You have no'
+		R
+		'tomorrow.'
+		R
+		'Apologies in'
+		R
+		'advance.'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'Charge!!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 3:
+		\L_0c4c1:
+		ZH 1:
+		'Now!!'
+		R
+		'Cut them up!!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 4:
+		\L_0c4c1:
+		ZH 1:
+		'Oooooh!!'
+		\L_0c576:
+		\L_0c569:
+	}
+	%0:
+*L_09b88:
+	{VAR0156 = 1:
+		\L_0c4c1:
+		ZH 1:
+		'Ex!!'
+		R
+		'You great fool!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'Haurein!'
+		R
+		'You’re a fool!'
+		R
+		'Why didn’t you'
+		R
+		'stop Ex?! You were'
+		R
+		'his adjutant,'
+		R
+		'weren’t you?!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 3:
+		\L_0c4c1:
+		ZH 1:
+		'Sir Pegasus!'
+		R
+		'Even you’re'
+		R
+		'supporting the'
+		R
+		'rebels?! Why?!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 4:
+		\L_0c4c1:
+		ZH 1:
+		'You’re a good'
+		R
+		'woman, so I won’t'
+		R
+		'kill you, Melfeis.'
+		R
+		'Please, surrender'
+		R
+		'to us!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{(VAR0156 = 5) + (VAR0156 = 6) + (VAR0156 = 7):
+		\L_0c4c1:
+		ZH 1:
+		'You utter fools!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	Y 4, 4:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		\L_0c4c1:
+		ZH 1:
+		'Gahahahaha!'
+		R
+		'Quite courageous'
+		R
+		'of you to stand'
+		R
+		'against me. You'
+		R
+		'have my praise!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'Now go!'
+		R
+		'Show them our'
+		R
+		'power!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 3:
+		\L_0c4c1:
+		ZH 1:
+		'Listen!'
+		R
+		'Don’t let them'
+		R
+		'escape!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 4:
+		\L_0c4dd:
+		ZH 1:
+		'I’ll practice my'
+		R
+		'harmonica when'
+		R
+		'this is over...'
+		R
+		'Mhm. Time to focus'
+		R
+		'and go.'
+		\L_0c576:
+		\L_0c569:
+	}
+	%0:
+*L_09dc5:
+	{VAR0156 = 1:
+		\L_0c4c1:
+		ZH 1:
+		'Sir Ex...'
+		R
+		'I don’t want to do'
+		R
+		'this!'
+		\L_0c576:
+		\L_0c569:
+		\L_0c515:
+		ZH 1:
+		'It’s fine...'
+		R
+		'Come. I’ll fight'
+		R
+		'seriously as well.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'Haurein!'
+		R
+		'Please rethink'
+		R
+		'this!! You’re'
+		R
+		'fighting an'
+		R
+		'unwinnable'
+		R
+		'battle!!'
+		\L_0c576:
+		\L_0c569:
+		\L_0c515:
+		ZH 1:
+		'Shut up!'
+		R
+		'I’m not just doing'
+		R
+		'this because I'
+		R
+		'feel like it!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 3:
+		\L_0c4c1:
+		ZH 1:
+		'Sir Pegasus!'
+		R
+		'Please stop!'
+		R
+		'I don’t want to'
+		R
+		'kill you!'
+		\L_0c576:
+		\L_0c569:
+		\L_0c515:
+		ZH 1:
+		'Shut up, girl!'
+		R
+		'This is war!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 4:
+		\L_0c4c1:
+		ZH 1:
+		'Melfeis...'
+		R
+		'No... I can’t...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{(VAR0156 = 5) + (VAR0156 = 6) + (VAR0156 = 7):
+		\L_0c4c1:
+		ZH 1:
+		'Why is this'
+		R
+		'happening...?'
+		R
+		'Everyone’s'
+		R
+		'stupid...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	Y 4, 3:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		\L_0c4c1:
+		ZH 1:
+		'I won’t lose...'
+		R
+		'I can’t!'
+		R
+		'Let’s go,'
+		R
+		'everyone!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'Do your best,'
+		R
+		'everyone!'
+		R
+		'Let’s go!'
+		R
+		'Follow me!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 3:
+		\L_0c4dd:
+		ZH 1:
+		'Calm down...'
+		R
+		'Everything’s'
+		R
+		'okay... Yeah...'
+		R
+		'I can do this...'
+		\L_0c576:
+		\L_0c569:
+	}
+	%0:
+*L_0a041:
+	{VAR0607 \ 0:
+		\L_0c4c1:
+		ZH 1:
+		'Chuhai, go, go.'
+		R
+		'Ooh ooh.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0700 = 0:
+		{(VAR0590 = 25) + (VAR0591 = 25) + (VAR0592 = 25) + (VAR0593 = 25) * (VAR0431 < 2):
+			!VAR0700 : 1!
+			\L_0c4c1:
+			ZH 1:
+			'　　（Chaka）'
+			R
+			'Now, Asuka.'
+			R
+			'Attack.'
+			R
+			'Go, go.'
+			\L_0c576:
+			ZH 1:
+			'Chubby, chubby～...'
+			\L_0c576:
+			ZH 1:
+			'　　（Chaka）'
+			R
+			'Hm??'
+			\L_0c576:
+			ZH 1:
+			'Mill’s things...'
+			R
+			'They’re chubby'
+			R
+			'and round～...'
+			R
+			'I like them～...'
+			\L_0c576:
+			ZH 1:
+			'　　（Chaka）'
+			R
+			'Ooh, the phantom'
+			R
+			'beasts. We can'
+			R
+			'talk about them'
+			R
+			'later. Asuka,'
+			R
+			'attack!'
+			\L_0c576:
+			ZH 1:
+			'Ah～～...'
+			\L_0c576:
+			\L_0c569:
+			%0:
+		}
+	}
+	{VAR0618 = 1:
+		\L_0c4c1:
+		{VAR0156 = 1:
+			ZH 1:
+			'Ah, Mr. Ex.'
+			R
+			'Let’s go～.'
+			R
+		}
+		{VAR0156 = 2:
+			ZH 1:
+			'Haurein?'
+			R
+			'Is this okay...?'
+			R
+			'She never spanked'
+			R
+			'me.'
+			R
+		}
+		{VAR0156 = 3:
+			ZH 1:
+			'Mr. Pega.'
+			R
+			'Hello～.'
+			R
+		}
+		{VAR0156 = 4:
+			ZH 1:
+			'Melfy...'
+			R
+			'Why?'
+			R
+			'...Uu～, whatever.'
+			R
+			'Let’s go～.'
+			R
+		}
+		{(VAR0156 = 5) + (VAR0156 = 6) + (VAR0156 = 7):
+			ZH 1:
+			'Oooh?'
+			R
+			'Mister...'
+			R
+			'...Uu, here I go.'
+			R
+		}
+		ZH 1:
+		'White Chiiill!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	Y 4, 3:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		\L_0c4c1:
+		ZH 1:
+		'This’ll hurt.'
+		R
+		'Go away.'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'Aah～～...'
+		R
+		'Take this!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 3:
+		\L_0c4c1:
+		ZH 1:
+		'Puipui!'
+		R
+		'Puu～～!!'
+		\L_0c576:
+		\L_0c569:
+	}
+	%0:
+*L_0a2fc:
+	{VAR0156 = 1:
+		\L_0c4dd:
+		ZH 1:
+		'I’ll destroy them'
+		R
+		'and get all the'
+		R
+		'fame...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'Ms. Haurein...?'
+		R
+		'I’ll try to fight'
+		R
+		'without harming'
+		R
+		'you.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 3:
+		\L_0c4dd:
+		ZH 1:
+		'Just an old'
+		R
+		'soldier... Not'
+		R
+		'the least bit'
+		R
+		'beautiful...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 4:
+		\L_0c4dd:
+		ZH 1:
+		'Melfeis...?'
+		R
+		'Your beauty’s'
+		R
+		'wasted on being'
+		R
+		'Ex’s concubine.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	Y 4, 3:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		\L_0c4c1:
+		ZH 1:
+		'Do what you’re'
+		R
+		'paid to do.'
+		R
+		'Go!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'Now...'
+		R
+		'Shall we move out?'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 3:
+		\L_0c4c1:
+		ZH 1:
+		'I’ll show you what'
+		R
+		'our job is about.'
+		\L_0c576:
+		\L_0c569:
+	}
+	%0:
+*L_0a496:
+	{VAR0156 = 1:
+		\L_0c4c1:
+		ZH 1:
+		'I thought you were'
+		R
+		'wise, but what is'
+		R
+		'the meaning of'
+		R
+		'this, Sir Ex?!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'You embarrass me,'
+		R
+		'Haurein! Let your'
+		R
+		'father punish you.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 3:
+		\L_0c4c1:
+		ZH 1:
+		'Sir Pegasus!!'
+		R
+		'How sad you’ve'
+		R
+		'made me!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 4:
+		\L_0c4c1:
+		ZH 1:
+		'Ms. Melfeis.'
+		R
+		'If you’re going'
+		R
+		'to resist, then'
+		R
+		'prepare'
+		R
+		'yourself...!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{(VAR0156 = 5) + (VAR0156 = 6) + (VAR0156 = 7):
+		\L_0c4c1:
+		ZH 1:
+		'Take this, you'
+		R
+		'fooools!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	Y 4, 5:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		\L_0c4c1:
+		ZH 1:
+		'Listen. Keep calm'
+		R
+		'and attack.'
+		R
+		'There’s no'
+		R
+		'opponent we can’t'
+		R
+		'beat.'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'Keep cool.'
+		R
+		'Show them the'
+		R
+		'fruits of your'
+		R
+		'labors.'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 3:
+		\L_0c4c1:
+		ZH 1:
+		'Don’t die...'
+		R
+		'You’re all my'
+		R
+		'precious'
+		R
+		'subordinates...'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 4:
+		\L_0c4c1:
+		ZH 1:
+		'Now, attack!'
+		R
+		'Brace yourselves.'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 5:
+		\L_0c4c1:
+		ZH 1:
+		'Alright, now!'
+		\L_0c576:
+		\L_0c569:
+	}
+	%0:
+*L_0a6ed:
+	{VAR0156 = 1:
+		\L_0c4c1:
+		ZH 1:
+		'My apologies,'
+		R
+		'General Ex.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'Haurein...'
+		R
+		'I’m sorry we have'
+		R
+		'to see each other'
+		R
+		'under these'
+		R
+		'conditions...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 3:
+		\L_0c4c1:
+		ZH 1:
+		'Sir Pegasus...'
+		R
+		'Why are you doing'
+		R
+		'this...?'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 4:
+		\L_0c4c1:
+		ZH 1:
+		'Melfeis...'
+		R
+		'Of course...'
+		R
+		'Because General Ex'
+		R
+		'is on the other'
+		R
+		'side...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 55:
+		\L_0c4c1:
+		ZH 1:
+		'Hubert...'
+		R
+		'We meet again'
+		R
+		'under these'
+		R
+		'conditions...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 56:
+		\L_0c4c1:
+		ZH 1:
+		'Freak...'
+		R
+		'If you can...'
+		R
+		'Run away...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	Y 4, 5:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		\L_0c4c1:
+		ZH 1:
+		'.........'
+		R
+		'Go...!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'Haaaah...!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 3:
+		\L_0c4c1:
+		ZH 1:
+		'How strong are'
+		R
+		'you...? Show me.'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 4:
+		\L_0c4c1:
+		ZH 1:
+		'Attack!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 5:
+		\L_0c4c1:
+		ZH 1:
+		'Everyone...'
+		R
+		'Don’t let your'
+		R
+		'guard down!'
+		\L_0c576:
+		\L_0c569:
+	}
+	%0:
+*L_0a952:
+	{(VAR0156 = 83) + (VAR0156 = 84) + (VAR0156 = 85):
+		\L_0c4c1:
+		ZH 1:
+		'Monsters are no'
+		R
+		'match for me...'
+		R
+		'Come on!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	Y 4, 3:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		\L_0c4c1:
+		ZH 1:
+		'Do your best.'
+		R
+		'Let’s kill 100 of'
+		R
+		'them for Rance.'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'Anyone who wants'
+		R
+		'to die, come to'
+		R
+		'me!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 3:
+		\L_0c4c1:
+		ZH 1:
+		'Let’s go!'
+		R
+		'Out of the way!'
+		\L_0c576:
+		\L_0c569:
+	}
+	%0:
+*L_0aa40:
+	{VAR0618 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'Listen, you guys!'
+		R
+		'Pray you’re not'
+		R
+		'hit by an attack'
+		R
+		'and run away!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	Y 4, 3:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		\L_0c4c1:
+		ZH 1:
+		'Show them our'
+		R
+		'spirit, guys!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0000 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'For the boss!'
+		R
+		'Do it!!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0000 = 3:
+		\L_0c4c1:
+		ZH 1:
+		'No big deal.'
+		R
+		'Let’s go!!'
+		\L_0c576:
+		\L_0c569:
+	}
+	%0:
+*L_0ab18:
+	{(VAR0000 = 1) * (VAR0618 = 1):
+		\L_0c4c1:
+		ZH 1:
+		'Flame Arrow!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{(VAR0000 = 2) * (VAR0618 = 1):
+		\L_0c4c1:
+		ZH 1:
+		'Ice Arrow!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	Y 4, 5:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		\L_0c4c1:
+		ZH 1:
+		'I’ll do my best,'
+		R
+		'Master Rance.'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'If I don’t do my'
+		R
+		'best, I’ll get'
+		R
+		'scolded later...'
+		R
+		'I’m sorry!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 3:
+		\L_0c4c1:
+		ZH 1:
+		'Taaake that!'
+		R
+		'Please go awaaay!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 4:
+		\L_0c4c1:
+		ZH 1:
+		'Take that!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 5:
+		\L_0c4dd:
+		ZH 1:
+		'Sob...'
+		R
+		'I’m scared...'
+		\L_0c576:
+		\L_0c569:
+	}
+	%0:
+*L_0ac75:
+	{(VAR0156 = 93) * ((VAR0450 = 2) + (VAR0450 = 3)):
+		!VAR0520 : 4!
+		\L_0c0fc:
+		%0:
+	}
+	{VAR0607 = 1:
+		\L_0c4c1:
+		ZH 1:
+		'Finishing strike!!'
+		R
+		'Raaance Attack!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{(VAR0518 = 0) * (VAR0156 = 31):
+		\L_0c4c1:
+		ZH 1:
+		'Militias are'
+		R
+		'trash.'
+		R
+		'Kick them around!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 1:
+		\L_0c4c1:
+		ZH 1:
+		'That’s the'
+		R
+		'mastermind...?'
+		R
+		'Eeeergh...'
+		R
+		'Kill him!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'Hm... A female'
+		R
+		'general? I’ll'
+		R
+		'capture her and'
+		R
+		'rape her!'
+		R
+		'Gahahahahaha!!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 3:
+		\L_0c4c1:
+		ZH 1:
+		'Old men are'
+		R
+		'worthless!'
+		R
+		'Hurry up and die!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 4:
+		\L_0c4c1:
+		ZH 1:
+		'Looks like they'
+		R
+		'might be mages.'
+		R
+		'Oh, and the'
+		R
+		'commander’s a'
+		R
+		'woman! Bring her'
+		R
+		'to me unharmed.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 11:
+		\L_0c4c1:
+		ZH 1:
+		'Uhee...'
+		R
+		'Uheeheehee...'
+		R
+		'Such a good woman,'
+		R
+		'and yet...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 33:
+		\L_0c4c1:
+		ZH 1:
+		'Die, pig!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 39:
+		\L_0c4c1:
+		ZH 1:
+		'Die, hag!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 45:
+		\L_0c4c1:
+		ZH 1:
+		'Ooh, found a nice'
+		R
+		'woman. Catch her'
+		R
+		'alive. Gahahahaha.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 51:
+		\L_0c4c1:
+		ZH 1:
+		'Gahahahaha!!'
+		R
+		'All cute girls'
+		R
+		'belong to me!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 52:
+		\L_0c4c1:
+		ZH 1:
+		'Mm, good!'
+		R
+		'Be sure not to'
+		R
+		'kill her! You get'
+		R
+		'the death penalty'
+		R
+		'if you do!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 55:
+		\L_0c4c1:
+		ZH 1:
+		'An enemy and an'
+		R
+		'ally this time?'
+		R
+		'I won’t go easy'
+		R
+		'just because I'
+		R
+		'know you!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 56:
+		\L_0c4c1:
+		ZH 1:
+		'Come here, old'
+		R
+		'man. It’s more fun'
+		R
+		'on our side.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 57:
+		\L_0c4c1:
+		ZH 1:
+		'Hmm??'
+		R
+		'A black-haired'
+		R
+		'kalar??'
+		R
+		'How rare.'
+		R
+		'I wanna fuck her.'
+		R
+		'Gahahahaha.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 62:
+		\L_0c4c1:
+		ZH 1:
+		'You’re it,'
+		R
+		'Sanakia. Can you'
+		R
+		'catch me?'
+		R
+		'Gahahahaha.'
+		\L_0c576:
+		\L_0c569:
+		\L_0c515:
+		ZH 1:
+		'Shut up!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 71:
+		\L_0c4c1:
+		ZH 1:
+		'Hey, fucking'
+		R
+		'freak!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 72:
+		\L_0c4c1:
+		ZH 1:
+		'Your intensity’s'
+		R
+		'oppressive, stay'
+		R
+		'away from me!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 75:
+		\L_0c4c1:
+		ZH 1:
+		'Let’s go,'
+		R
+		'sideburns guy!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 82:
+		\L_0c4c1:
+		ZH 1:
+		'Mgh!'
+		R
+		'A cute girl showed'
+		R
+		'up!! Capture her!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 90:
+		\L_0c4c1:
+		ZH 1:
+		'Cute, but she’s'
+		R
+		'pretty cold, huh?'
+		R
+		'Gahahahaha!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 91:
+		\L_0c4c1:
+		ZH 1:
+		'Uooooh!!'
+		R
+		'You’ll be mine,'
+		R
+		'curvy lady!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 92:
+		\L_0c4c1:
+		ZH 1:
+		'Let’s go,'
+		R
+		'sparky!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 93:
+		\L_0c4c1:
+		ZH 1:
+		'Die, slug guy!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 98:
+		\L_0c4c1:
+		ZH 1:
+		'God or not, my'
+		R
+		'enemy’s my enemy.'
+		R
+		'Die.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 101:
+		\L_0c4c1:
+		ZH 1:
+		'...Those clothes'
+		R
+		'are quite'
+		R
+		'something...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 104:
+		\L_0c4c1:
+		ZH 1:
+		'Definitely a'
+		R
+		'voluptuous girl!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 107:
+		\L_0c4c1:
+		ZH 1:
+		'I’ll be sure not'
+		R
+		'to kill you!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 110:
+		\L_0c4c1:
+		ZH 1:
+		'Mm, a schoolgirl!'
+		R
+		'Good!'
+		R
+		'Capture her!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 117:
+		\L_0c4c1:
+		ZH 1:
+		'She’s got a nice'
+		R
+		'ass.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 129:
+		\L_0c4c1:
+		ZH 1:
+		'You’re in the way,'
+		R
+		'big guy!!'
+		R
+		'Hurry up and die!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 130:
+		\L_0c4c1:
+		ZH 1:
+		'Die, you hunk of'
+		R
+		'junk!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 131:
+		\L_0c4c1:
+		ZH 1:
+		'Give me back'
+		R
+		'my snacks!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 132:
+		\L_0c4c1:
+		ZH 1:
+		'Fuck off, demon!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 133:
+		\L_0c4c1:
+		ZH 1:
+		'Fuck off, you'
+		R
+		'smug old man!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 134:
+		\L_0c4c1:
+		ZH 1:
+		'She’s got a nice'
+		R
+		'face, but she’s'
+		R
+		'pretty big...'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 135:
+		\L_0c4c1:
+		ZH 1:
+		'I’ll kill you!!'
+		R
+		'I’ll definitely'
+		R
+		'kill you!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 136:
+		\L_0c4c1:
+		ZH 1:
+		'Beat, strip,'
+		R
+		'strip... Uheehee.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 137:
+		\L_0c4c1:
+		ZH 1:
+		'I’m looking'
+		R
+		'forward to what'
+		R
+		'happens after'
+		R
+		'this battle.'
+		R
+		'Gahahahaha!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 156:
+		\L_0c4c1:
+		ZH 1:
+		'Big...'
+		R
+		'But the girl'
+		R
+		'is small. Maybe'
+		R
+		'that’s good...'
+		R
+		'Mhm.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 157:
+		\L_0c4c1:
+		ZH 1:
+		'Saaaatellaaa!!'
+		R
+		'You traitooor!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 158:
+		\L_0c4c1:
+		ZH 1:
+		'Fucking traitor!'
+		R
+		'Here’s your'
+		R
+		'punishment!!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 159:
+		\L_0c4c1:
+		ZH 1:
+		'Pretty cute for an'
+		R
+		'apostle. I wanna'
+		R
+		'fuck her!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0156 = 162:
+		\L_0c4c1:
+		ZH 1:
+		'Mm, I like this'
+		R
+		'apostle. Capture'
+		R
+		'her! I wanna'
+		R
+		'fuck her!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{(VAR0112 > 9) * (VAR0101 = 1):
+		\L_0c4c1:
+		ZH 1:
+		'Gahahahahahahaha.'
+		R
+		'Chaos, our'
+		R
+		'opponent’s a'
+		R
+		'demon. If you’re'
+		R
+		'not useful here,'
+		R
+		'I’m tossing you!!'
+		\L_0c576:
+		ZH 1:
+		'　　（Chaos）'
+		R
+		'Hey, try and'
+		R
+		'throw me away'
+		R
+		'if you can!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	{VAR0074 = 0:
+		\L_0c4c1:
+		ZH 1:
+		'Even without any'
+		R
+		'troops, I’m'
+		R
+		'strong.'
+		R
+		'Come at me!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	Y 4, 10:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		\L_0c4c1:
+		ZH 1:
+		'Gahahahahahaha!!'
+		R
+		'Gooo!!'
+		R
+		'Attack!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 2:
+		\L_0c4c1:
+		ZH 1:
+		'I’m invincible.'
+		R
+		'I’ll never lose!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 3:
+		\L_0c4c1:
+		ZH 1:
+		'Advance!!'
+		R
+		'If you try to run,'
+		R
+		'I’ll kill you!'
+		\L_0c569:
+	}
+	{VAR0690 = 4:
+		\L_0c4c1:
+		ZH 1:
+		'Gahahahahahahaha.'
+		R
+		'Die, everyone!!'
+		R
+		'Regret becoming my'
+		R
+		'enemy in death!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 5:
+		\L_0c4c1:
+		ZH 1:
+		'Taaake this!!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 6:
+		\L_0c4c1:
+		ZH 1:
+		'Take the judgment'
+		R
+		'of my magnificent'
+		R
+		'sword and die!!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 7:
+		\L_0c4c1:
+		ZH 1:
+		'If they get back'
+		R
+		'up, kill them!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 8:
+		\L_0c4c1:
+		ZH 1:
+		'Now, who should I'
+		R
+		'kill first?!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 9:
+		\L_0c4c1:
+		ZH 1:
+		'Let’s go!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 10:
+		\L_0c4c1:
+		ZH 1:
+		'No matter who you'
+		R
+		'are, you’ll become'
+		R
+		'rust on my sword!'
+		\L_0c576:
+		\L_0c569:
+	}
+	%0:
+*L_0b958:
+	{VAR0154 = 1:
+		\L_0c515:
+		ZH 1:
+		'Rance...!'
+		R
+		'Die, already!'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	Y 4, 3:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		\L_0c515:
+		ZH 1:
+		'Die!!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 2:
+		\L_0c515:
+		ZH 1:
+		'Fight!'
+		\L_0c576:
+		\L_0c569:
+	}
+	{VAR0690 = 3:
+		\L_0c531:
+		ZH 1:
+		'...Damn it...'
+		R
+		'No more...'
+		R
+		'This is too'
+		R
+		'much...'
+		\L_0c576:
+		\L_0c569:
+	}
+	%0:
+*L_0ba24:
+	!VAR0634 : 1!
+	\L_0c4c1:
+	ZH 1:
+	'Camilla!!'
+	\L_0c576:
+	\L_0c569:
+	\L_0c515:
+	ZH 1:
+	'Satella...'
+	\L_0c576:
+	ZH 1:
+	'You’re shaming'
+	R
+	'your fellow'
+	R
+	'demons... Being'
+	R
+	'used by humans...'
+	\L_0c576:
+	ZH 1:
+	'Well... That suits'
+	R
+	'a demon like'
+	R
+	'yourself.'
+	\L_0c576:
+	\L_0c569:
+	\L_0c4c1:
+	ZH 1:
+	'Shut up!! I’m'
+	R
+	'protecting Little'
+	R
+	'Princess! I’m not'
+	R
+	'fighting for the'
+	R
+	'humans!'
+	\L_0c576:
+	\L_0c569:
+	\L_0c515:
+	ZH 1:
+	'That doesn’t'
+	R
+	'matter to me...'
+	R
+	'You’ve appeared'
+	R
+	'before me as an'
+	R
+	'enemy... You won’t'
+	R
+	'leave alive.'
+	\L_0c576:
+	ZH 1:
+	'Now, give in...'
+	R
+	'You can never win'
+	R
+	'against me...'
+	\L_0c576:
+	\L_0c569:
+	\L_0c4c1:
+	ZH 1:
+	'I’ll never know'
+	R
+	'if I don’t try!'
+	\L_0c576:
+	\L_0c569:
+	\L_0c515:
+	ZH 1:
+	'.........'
+	R
+	'Pitiable girl...'
+	\L_0c576:
+	\L_0c569:
+	%0:
+*L_0bb6d:
+	!VAR0635 : 1!
+	\L_0c4c1:
+	ZH 1:
+	'Lei... Even you’re'
+	R
+	'going after Little'
+	R
+	'Princess?'
+	\L_0c576:
+	\L_0c569:
+	\L_0c515:
+	ZH 1:
+	'Yeah...'
+	R
+	'I’ve got'
+	R
+	'my reasons.'
+	\L_0c576:
+	ZH 1:
+	'Hey, hand over'
+	R
+	'Little Princess'
+	R
+	'right now.'
+	\L_0c576:
+	ZH 1:
+	'We won’t need to'
+	R
+	'go through any'
+	R
+	'needless fighting'
+	R
+	'if you do.'
+	\L_0c576:
+	\L_0c569:
+	\L_0c4c1:
+	ZH 1:
+	'I can’t do that!'
+	\L_0c576:
+	ZH 1:
+	'If we could just'
+	R
+	'do that...'
+	R
+	'We would never'
+	R
+	'resort to killing'
+	R
+	'our own race,'
+	R
+	'would we?!'
+	\L_0c576:
+	\L_0c569:
+	\L_0c515:
+	ZH 1:
+	'In theory...'
+	\L_0c576:
+	ZH 1:
+	'But things can’t'
+	R
+	'stop once they get'
+	R
+	'going. We’ll start'
+	R
+	'fighting now...'
+	R
+	'Go!!'
+	\L_0c576:
+	\L_0c569:
+	%0:
+*L_0bc93:
+	!VAR0636 : 1!
+	\L_0c4c1:
+	ZH 1:
+	'.........'
+	\L_0c576:
+	\L_0c569:
+	\L_0c515:
+	ZH 1:
+	'Meglass...'
+	R
+	'...Long time'
+	R
+	'no see.'
+	\L_0c576:
+	\L_0c569:
+	\L_0c4c1:
+	ZH 1:
+	'.........'
+	\L_0c576:
+	\L_0c569:
+	\L_0c515:
+	ZH 1:
+	'Huhu... As silent'
+	R
+	'as always...'
+	\L_0c576:
+	ZH 1:
+	'By the way,'
+	R
+	'Meglass... I don’t'
+	R
+	'wish to fight you.'
+	\L_0c576:
+	ZH 1:
+	'I don’t dislike'
+	R
+	'you... Couldn’t'
+	R
+	'you return to us?'
+	\L_0c576:
+	\L_0c569:
+	\L_0c4c1:
+	ZH 1:
+	'.........'
+	\L_0c576:
+	\L_0c569:
+	\L_0c515:
+	ZH 1:
+	'.........'
+	\L_0c576:
+	ZH 1:
+	'Understood...'
+	R
+	'I’m reluctant, but'
+	R
+	'I will fight'
+	R
+	'seriously.'
+	\L_0c576:
+	\L_0c569:
+	\L_0c4c1:
+	ZH 1:
+	'.........'
+	\L_0c576:
+	\L_0c569:
+	\L_0c515:
+	ZH 1:
+	'...Please say'
+	R
+	'something...'
+	\L_0c576:
+	\L_0c569:
+	%0:
+*L_0bddd:
+	{VAR0638 = 0:
+		!VAR0638 : 1!
+		\L_0c4c1:
+		ZH 1:
+		'That body... Is it'
+		R
+		'a Toushin? No...'
+		R
+		'There’s something'
+		R
+		'off about it...'
+		\L_0c576:
+		ZH 1:
+		'Wait...'
+		R
+		'It has to be!'
+		R
+		'That’s Toushin'
+		R
+		'Gamma!'
+		\L_0c576:
+		ZH 1:
+		'No... The man that'
+		R
+		'rode Gamma died.'
+		R
+		'So why is this'
+		R
+		'Toushin active?'
+		\L_0c576:
+		\L_0c569:
+		\L_0c515:
+		ZH 1:
+		'Hmmmm?'
+		R
+		'OLD man.'
+		R
+		'Is there something'
+		R
+		'you want with my'
+		R
+		'glorious BODY?'
+		\L_0c576:
+		\L_0c569:
+		\L_0c4c1:
+		ZH 1:
+		'What are you?'
+		R
+		'Why are you'
+		R
+		'using Gamma?'
+		\L_0c576:
+		\L_0c569:
+		\L_0c515:
+		ZH 1:
+		'Oh～...'
+		R
+		'YOU know about the'
+		R
+		'Toushins?'
+		R
+		'Great, BEAUTIFUL.'
+		R
+		'An outstanding'
+		R
+		'OLD man.'
+		\L_0c576:
+		\L_0c569:
+		\L_0c4dd:
+		ZH 1:
+		'What’s with this'
+		R
+		'thing...?'
+		\L_0c576:
+		\L_0c569:
+		\L_0c4c1:
+		ZH 1:
+		'Hey, will you'
+		R
+		'answer my'
+		R
+		'question?!'
+		\L_0c576:
+		\L_0c569:
+		\L_0c515:
+		ZH 1:
+		'Oh～...'
+		\L_0c576:
+		ZH 1:
+		'I found this body'
+		R
+		'during the Demon'
+		R
+		'War. This dead'
+		R
+		'BODY belongs to'
+		R
+		'ME now.'
+		\L_0c576:
+		ZH 1:
+		'It’s strong and'
+		R
+		'durable. Perfect'
+		R
+		'for ME. JUST'
+		R
+		'BATCH. Mm～～.'
+		\L_0c576:
+		ZH 1:
+		'Perfect.'
+		R
+		'Cool.'
+		\L_0c576:
+		\L_0c569:
+		\L_0c4c1:
+		ZH 1:
+		'Uuuungh!!'
+		R
+		'How dare you mock'
+		R
+		'the dead!!'
+		\L_0c576:
+		ZH 1:
+		'The man that died'
+		R
+		'using that was my'
+		R
+		'friend!!'
+		\L_0c576:
+		ZH 1:
+		'If you ridicule my'
+		R
+		'friend, I can’t'
+		R
+		'let you live!!'
+		R
+		'Prepare yourself!!'
+		\L_0c576:
+		\L_0c569:
+		\L_0c515:
+		ZH 1:
+		'Mm～～...'
+		R
+		'The OLD man’s'
+		R
+		'COLD water～.'
+		\L_0c576:
+		\L_0c569:
+		%0:
+	}
+	\L_0c4c1:
+	ZH 1:
+	'Kh...'
+	\L_0c576:
+	\L_0c569:
+	\L_0c4dd:
+	ZH 1:
+	'It’s no good...'
+	R
+	'This body can’t'
+	R
+	'stand against a'
+	R
+	'Toushin...'
+	\L_0c576:
+	\L_0c569:
+	\L_0c515:
+	ZH 1:
+	'HEY, OLD man.'
+	R
+	'THE end??'
+	\L_0c576:
+	\L_0c569:
+	\L_0c4dd:
+	ZH 1:
+	'...Has the day'
+	R
+	'finally come for'
+	R
+	'me to become a'
+	R
+	'Toushin, too...?'
+	R
+	'After all this'
+	R
+	'time...'
+	\L_0c576:
+	\L_0c569:
+	%0:
+*L_0c0fc:
+	!VAR0450 : 4!
+	!VAR0451 : 1!
+	{VAR0568 = 1:
+		!VAR0568 : 2!
+	}
+	!VAR0160 : 1!
+	!VAR0150 : 1!
+	ZH 1:
+	MS 4, "Sieg":
+	R
+	MS 5, "Maneshitas":
+	!VAR0156 : 93!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1325!
+	!VAR0121 : 1326!
+	!VAR0122 : 1327!
+	!VAR0123 : 59!
+	!VAR0125 : 0!
+	!VAR0126 : 0!
+	!VAR0127 : 0!
+	!VAR0154 : 1!
+	!VAR0101 : 1!
+	!VAR0095 : 1358!
+	!VAR0096 : 1361!
+	\L_0c515:
+	ZH 1:
+	'　　（Chaos）'
+	R
+	'...There’s a face'
+	R
+	'I haven’t seen in'
+	R
+	'a while. My'
+	R
+	'lecherous friend.'
+	\L_0c576:
+	\L_0c569:
+	\L_0c4c1:
+	ZH 1:
+	'Gahahahahahaha.'
+	R
+	'You seem to be'
+	R
+	'doing well, huh,'
+	R
+	'Chaos?'
+	\L_0c576:
+	ZH 1:
+	'It’d be better to'
+	R
+	'be with me than a'
+	R
+	'guy like that!'
+	R
+	'Now, come!!'
+	\L_0c576:
+	\L_0c569:
+	\L_0c515:
+	ZH 1:
+	'　　（Chaos）'
+	R
+	'Hm, well...'
+	\L_0c576:
+	ZH 1:
+	'　　（Chaos）'
+	R
+	'This guy’s no fun.'
+	R
+	'he gets mad if I'
+	R
+	'talk about erotic'
+	R
+	'stuff and won’t'
+	R
+	'let me fuck.'
+	\L_0c576:
+	ZH 1:
+	'　　（Chaos）'
+	R
+	'It’s stressing me'
+	R
+	'out. Life should'
+	R
+	'be much better'
+	R
+	'with you.'
+	\L_0c576:
+	\L_0c569:
+	\L_0c515:
+	ZH 1:
+	'What?'
+	\L_0c576:
+	\L_0c569:
+	\L_0c515:
+	ZH 1:
+	'　　（Chaos）'
+	R
+	'See you, hardass.'
+	R
+	'I’m weak to'
+	R
+	'pleasure.'
+	\L_0c576:
+	\L_0c569:
+	\L_0c515:
+	ZH 1:
+	'Wait, Chaos!'
+	\L_0c576:
+	\L_0c569:
+	\L_0c4c1:
+	ZH 1:
+	'Oho. You’ve come'
+	R
+	'back to me, huh,'
+	R
+	'Chaos?'
+	\L_0c576:
+	ZH 1:
+	'　　（Chaos）'
+	R
+	'Huhuhuhu, it’s'
+	R
+	'been a while...'
+	R
+	'You been doing'
+	R
+	'well?'
+	\L_0c576:
+	\L_0c569:
+	\L_0c4c1:
+	ZH 1:
+	'Yeah, I’ve been'
+	R
+	'alright. Now, I’ll'
+	R
+	'work you hard,'
+	R
+	'Chaos.'
+	\L_0c576:
+	\L_0c569:
+	\L_0c4c1:
+	ZH 1:
+	'　　（Chaos）'
+	R
+	'That’s fine, but'
+	R
+	'let me have sex'
+	R
+	'with a woman.'
+	R
+	'A good woman.'
+	\L_0c576:
+	\L_0c569:
+	\L_0c4c1:
+	ZH 1:
+	'Gahahahaha.'
+	R
+	'As lustful as'
+	R
+	'always. You’re a'
+	R
+	'good sword.'
+	\L_0c576:
+	\L_0c569:
+	\L_0c4c1:
+	ZH 1:
+	'　　（Chaos）'
+	R
+	'Hmph... Don’t'
+	R
+	'praise me like'
+	R
+	'that.'
+	\L_0c576:
+	\L_0c569:
+	\L_0c515:
+	ZH 1:
+	'Chaos!'
+	R
+	'You traitorous'
+	R
+	'man...!'
+	\L_0c576:
+	\L_0c569:
+	\L_0c4c1:
+	ZH 1:
+	'　　（Chaos）'
+	R
+	'I’m not a person.'
+	R
+	'I’m an object.'
+	\L_0c576:
+	\L_0c569:
+	\L_0c4c1:
+	ZH 1:
+	'Gahahahahaha!!'
+	R
+	'Oooooookay!!'
+	R
+	'Let’s go!!'
+	\L_0c576:
+	\L_0c569:
+	\L_0c4c1:
+	ZH 1:
+	'　　（Chaos）'
+	R
+	'Okay.'
+	R
+	'Let’s have an orgy'
+	R
+	'when we’re done.'
+	\L_0c576:
+	\L_0c569:
+	\0:
+*L_0c4c1:
+	!VAR0521 : 141!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 241!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0c4dd:
+	!VAR0521 : 142!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 242!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 143!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 243!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0c515:
+	!VAR0521 : 151!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 251!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0c531:
+	!VAR0521 : 152!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 252!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 153!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 253!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0c569:
+	!VAR0521 : 10!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0c576:
+	!VAR0521 : 11!
+	%#WAO_SUB.ADV:
+	\0:

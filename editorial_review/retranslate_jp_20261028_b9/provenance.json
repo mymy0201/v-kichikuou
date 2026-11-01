@@ -1,0 +1,15 @@
+{
+ "semantic_base": "verified Japanese reference",
+ "english_reference": "reference only",
+ "japanese_primary": "editorial_review/japanese_base_20261022/reference/japanese",
+ "source_provenance_sha256": "9282664cf553185e695a9490bd8e0a3dce1876ba2ece7df0bb398a64ceb6577e",
+ "japanese_sha256": {
+  "Gﾏｼﾞｯｸ.ADV": "730dd1b650cdac5cbd55993baee80408fd19b23e72ebf00fd3ef56241f83ddbe"
+ },
+ "english_reference_sha256": {
+  "Gﾏｼﾞｯｸ.ADV": "d02093682d524d396859ef68a58025ea83c4bd89af3b6dfdb6b1e9241e7fcc73"
+ },
+ "rules_sha256": "84f0bcc969eada57b3427bada0934c07f44433e22adcb5a71d860cb91006da05",
+ "method": "Every scene read against Japanese; boxes hand-written in edits.txt and fitted by tools/retranslate_jp.py; no machine translation.",
+ "queue": "largest-first among scripts not marked complete"
+}

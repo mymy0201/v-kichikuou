@@ -1,0 +1,27 @@
+{
+  "semantic_base": "Verified original Japanese; English reference only",
+  "verified_source_provenance_sha256": "9282664cf553185e695a9490bd8e0a3dce1876ba2ece7df0bb398a64ceb6577e",
+  "sources": {
+    "Gﾌｳｶ.ADV": {
+      "japanese_sha256": "4d20c6cc515b4f95aefa003f3fbd180edf4b5d700782cd4463219d987078a791",
+      "normalized_sha256": "a9f896f26dc1f8270a7edb9adcff61c5f9a9b33e5ca9cacc2ce645593928d043",
+      "english_reference_sha256": "a8e54eca0718fc69dd524f49a3210e0e155d656d8e6f39b58068763e32bdc582"
+    },
+    "Gﾙﾄﾞﾗ.ADV": {
+      "japanese_sha256": "05932b9b5d18addf74e5cdf464153ba761d6bd231ab9e49ba4433348b5433062",
+      "normalized_sha256": "41c31cca4e6eafac531c8db9837a6aa685633495ddbae1e52977bd31034a0799",
+      "english_reference_sha256": "f8ece4bedb5420f819f8b0a7747897c9a56058254e3620bcf83d08a729b41746"
+    }
+  },
+  "rules_sha256": "84f0bcc969eada57b3427bada0934c07f44433e22adcb5a71d860cb91006da05",
+  "wrapper_sha256": "1ad5bd0081d5623dea48f407da7bbb85f3eb869ba487cd7532b8748715add124",
+  "method": "Direct handwritten Vietnamese after complete selected ordinary scenes/branches; preserve faithful existing translations. No MT or bulk pronoun pipeline. Explicit Japanese merge mapping; original excluded content frozen.",
+  "decisions": [
+    "Fuuka grandfather uses ông/cháu in direct family speech; monologue ta retained. Do not confuse ông lão with ông già in narration.",
+    "Rudrasaum giggling remains laughter, not hừm/humming. Recreate world is a claim by this whale, not a denial that gods exist: 神でもあるまいし takes priority over English.",
+    "Kou dream uses respectful ngài for Rudrasaum. Rance retains mocking con cá voi; Maris formal Bệ hạ.",
+    "Initial creator monologue is wide50/600px; dialogue28/336px. Castle caption condensed with every source fact retained, redundant blank removed to fit3 total rows.",
+    "Fuuka mixed sexual range365-410 unchanged;15-year age verified by JP315. This file remains incomplete; it does not count as the required full file."
+  ],
+  "english_reference_consulted": "Rudrasaum revelation42-47; Japanese supersedes English43 suggestion that no gods exist."
+}

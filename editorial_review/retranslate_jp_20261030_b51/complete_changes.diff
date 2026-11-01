@@ -1,0 +1,5020 @@
+--- before/Gｼﾙｷｨ.ADV
++++ src/Gｼﾙｷｨ.ADV
+@@ -41,7 +41,7 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Nam'
++	'Phía nam'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_036c9:
+@@ -51,66 +51,68 @@
+ 	\L_03771:
+ 	\L_03691:
+ 	ZH 1:
+-	'Tên tướng quái vật rẽ bụi'
+-	R
+-	'rậm trong rừng, tháo chạy.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Uh... Waaaah!!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'(gsh)'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Gyaaaaaa!!'
++	'Một viên tướng quái'
++	R
++	'vật rẽ bụi rậm trong'
++	R
++	'rừng, tháo chạy.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Ư... oáaaa!!'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'(Phập)'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Áaaaaa!!'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_0372b:
+ 	\L_03691:
+ 	ZH 1:
+-	'Một đòn từ phía sau kết liễu'
+-	R
+-	'tên tướng quái vật.'
++	'Một đòn từ phía sau kết'
++	R
++	'liễu viên tướng quái vật.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	!VAR0516 : 73!
+ 	\L_036ad:
+ 	\L_03659:
+ 	ZH 1:
+-	'Hạng tép riu như ngươi...'
+-	R
+-	'cũng tưởng bắt được ta'
+-	R
+-	'sao...'
+-	\L_0377e:
+-	ZH 1:
+-	'Từ sau lưng tên tướng quái'
+-	R
+-	'vật gục ngã, Ma Nhân Silky'
+-	R
+-	'hiện ra.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Tên Kayblis...'
++	'Hạng tép riu như'
++	R
++	'ngươi... cũng tưởng'
++	R
++	'bắt được ta sao......'
++	\L_0377e:
++	ZH 1:
++	'Kẻ hiện ra sau lưng viên'
++	R
++	'tướng quái vật vừa gục'
++	R
++	'ngã là Ma Nhân Silky.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Kayblis khốn kiếp...'
+ 	\L_0377e:
+ 	ZH 1:
+ 	'Coi thường ta sao?'
+ 	\L_0377e:
+ 	ZH 1:
+-	'Muốn bắt ta thật thì phái Ma'
+-	R
+-	'Nhân tới...'
+-	\L_0377e:
+-	ZH 1:
+-	'Khốn kiếp...'
++	'Muốn bắt ta thật thì'
++	R
++	'phái Ma Nhân tới đây...'
++	\L_0377e:
++	ZH 1:
++	'Khốn thật...'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03691:
+@@ -118,32 +120,32 @@
+ 	'Nhưng Silky đang sốt ruột.'
+ 	\L_0377e:
+ 	ZH 1:
+-	'Đánh du kích thế này hầu như'
+-	R
+-	'chẳng gây tổn thất cho quân'
+-	R
+-	'Kayblis.'
+-	\L_0377e:
+-	ZH 1:
+-	'Cứ thế thì không thể nào cứu'
+-	R
+-	'được Hornet.'
++	'Đánh du kích thế này hầu'
++	R
++	'như chẳng gây được tổn'
++	R
++	'thất gì cho quân Kayblis.'
++	\L_0377e:
++	ZH 1:
++	'Còn cứu Hornet thì'
++	R
++	'lại càng không thể.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03675:
+ 	ZH 1:
+-	'Ta muốn có thêm sức mạnh...'
+-	R
+-	'Sức mạnh đủ để hạ Kayblis...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Silky nhìn'
+-	R
+-	'vào lòng bàn tay của'
+-	R
+-	'nàng và nghĩ như vậy.'
++	'Ta cần thêm sức'
++	R
++	'mạnh......... Sức mạnh'
++	R
++	'đủ để hạ Kayblis...'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Silky đăm đăm nhìn lòng'
++	R
++	'bàn tay mình, nghĩ như vậy.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	!VAR0516 : 0!
+@@ -175,29 +177,31 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Nam Silky ở trong'
+-	R
+-	'khu rừng yên tĩnh.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'............ cô mở'
+-	R
+-	'chiếc hộp nhỏ trên tay và'
+-	R
+-	'kéo một quả cầu màu đỏ ra.'
++	'Phía nam'
++	R
++	'Giữa khu rừng tĩnh lặng,'
++	R
++	'Silky đứng đó.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'...... Nàng mở chiếc'
++	R
++	'hộp nhỏ trên tay, lấy'
++	R
++	'ra một viên ngọc đỏ.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	!VAR0516 : 492!
+ 	\L_0371d:
+ 	\L_03691:
+ 	ZH 1:
+-	'Đó là tinh thể máu của Ma'
+-	R
+-	'Nhân Redeye vừa bị tiêu'
+-	R
+-	'diệt.'
++	'Đó là tinh thể máu'
++	R
++	'của Ma Nhân Redeye'
++	R
++	'vừa bị tiêu diệt.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	{VAR0359 = 1:
+@@ -205,46 +209,46 @@
+ 	}
+ 	\L_03659:
+ 	ZH 1:
+-	'Redeye, ngươi chết thật bất'
+-	R
+-	'hạnh.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'... Giọng nói đó, Silky?'
+-	\L_0377e:
+-	ZH 1:
+-	'Xin hãy hồi sinh TÔI.'
+-	\L_0377e:
+-	ZH 1:
+-	'Không quan trọng là'
+-	R
+-	'ai, hãy sử dụng bất kỳ'
+-	R
+-	'con người nào cậu muốn,'
+-	\L_0377e:
+-	ZH 1:
+-	'chỉ cần lấy quả cầu'
+-	R
+-	'sự sống của TÔI và...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Xin lỗi, Redeye. Ta không'
+-	R
+-	'thể làm thế.'
+-	\L_0377e:
+-	ZH 1:
+-	'Toàn bộ sức mạnh của ngươi,'
+-	R
+-	'ta sẽ nhận lấy...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'What? ... Chẳng lẽ, ngươi...'
++	'Redeye, ngươi chết'
++	R
++	'thật bất hạnh.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'......Voice đó, Silky à?'
++	\L_0377e:
++	ZH 1:
++	'Please, hồi sinh Me đi.'
++	\L_0377e:
++	ZH 1:
++	'Gì cũng được, con'
++	R
++	'người nào cũng được,'
++	\L_0377e:
++	ZH 1:
++	'chỉ cần lấy viên ngọc sinh'
++	R
++	'mệnh này của Me mà......'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Tiếc thật, Redeye.'
++	R
++	'Không được đâu.'
++	\L_0377e:
++	ZH 1:
++	'Toàn bộ sức mạnh của'
++	R
++	'ngươi, ta sẽ lấy hết......'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'What? ......Lẽ'
++	R
++	'nào, You......'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03659:
+@@ -254,13 +258,15 @@
+ 	\L_03771:
+ 	\L_036c9:
+ 	ZH 1:
+-	'KHÔNGOOOOOO!'
++	'Nooooo!'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_0372b:
+ 	\L_03691:
+ 	ZH 1:
+-	'Silky nuốt quả cầu màu đỏ.'
++	'Silky nuốt chửng'
++	R
++	'viên ngọc đỏ.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03659:
+@@ -268,10 +274,10 @@
+ 	'............'
+ 	\L_0377e:
+ 	ZH 1:
+-	'Ờ...'
+-	\L_0377e:
+-	ZH 1:
+-	'Ờ...!!'
++	'Hự......'
++	\L_0377e:
++	ZH 1:
++	'Ư.........!!'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03701:
+@@ -279,21 +285,21 @@
+ 	'Silky ôm bụng, suýt ngã quỵ.'
+ 	\L_0377e:
+ 	ZH 1:
+-	'Cơn đau khủng khiếp ập đến.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Uh... Waaaah...'
+-	\L_0377e:
+-	ZH 1:
+-	'... Kh... À...'
++	'Cơn đau dữ dội ập đến Silky.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Ư... ư aaa...'
++	\L_0377e:
++	ZH 1:
++	'Hư... hự... a...'
+ 	\L_0377e:
+ 	ZH 1:
+ 	'............'
+ 	\L_0377e:
+ 	ZH 1:
+-	'Ờ...'
++	'Phù............'
+ 	\L_0377e:
+ 	\L_03771:
+ 	@L_0125a:
+@@ -315,43 +321,43 @@
+ 	\L_03691:
+ 	ZM 32:
+ 	ZH 1:
+-	'Xé Rừng'
++	'Rừng Xé Nát'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Nội thất doanh nghiệp'
+-	R
+-	'Không có chúa của nó,'
+-	\L_0377e:
+-	ZH 1:
+-	'con tàu từng là Nơi ở'
+-	R
+-	'Của Piar đã bị bỏ rơi.'
+-	\L_0377e:
+-	ZH 1:
+-	'Silky đã ở đó.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Đây Rồi, Piar.'
++	'Bên trong Enterprise'
++	\L_0377e:
++	ZH 1:
++	'Con tàu từng là thành trì'
++	R
++	'của Ma Nhân Piar, nay mất'
++	R
++	'chủ, chỉ còn là phế tích.'
++	\L_0377e:
++	ZH 1:
++	'Ma Nhân Silky đang ở đó.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Ở đó sao, Piar.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	!VAR0516 : 492!
+ 	\L_0371d:
+ 	\L_03691:
+ 	ZH 1:
+-	'Khi Silky chỉ vào'
+-	R
+-	'nó, quả cầu màu đỏ nằm ở một'
+-	R
+-	'góc của hành lang trôi nổi.'
+-	\L_0377e:
+-	ZH 1:
+-	'Đó là tinh thể máu'
+-	R
+-	'của con quỷ Piar đã chết.'
++	'Silky chỉ tay, viên'
++	R
++	'ngọc đỏ lăn lóc ở góc'
++	R
++	'hành lang liền bay lên.'
++	\L_0377e:
++	ZH 1:
++	'Đó là tinh thể máu của Ma'
++	R
++	'Nhân Piar đã bị tiêu diệt.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	{VAR0359 = 1:
+@@ -359,72 +365,70 @@
+ 	}
+ 	\L_03659:
+ 	ZH 1:
+-	'Piar... Cậu đã có'
+-	R
+-	'một kết thúc khó coi.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'... Silky...? Tại'
+-	R
+-	'sao cậu lại ở đây...?'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Xin Lỗi, nhưng hãy để'
+-	R
+-	'tôi có quyền lực của cậu.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Hả...? Cậu không nghiêm'
+-	R
+-	'túc, phải không? Tốt nhất'
+-	R
+-	'là không nên làm điều này.'
+-	\L_0377e:
+-	ZH 1:
+-	'Sẽ đau đấy, Silky.'
+-	\L_0377e:
+-	ZH 1:
+-	'Nếu cậu lấy quá nhiều'
+-	R
+-	'máu quỷ vào cơ thể, thì...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Tôi biết.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Ngoài ra, nếu cậu nghĩ'
+-	R
+-	'rằng cậu có thể hấp thụ sức'
+-	R
+-	'mạnh của tôi, cậu thực sự...'
+-	\L_0377e:
+-	ZH 1:
+-	'cậu nói quá'
+-	R
+-	'nhiều... Thậm chí như thế...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Waaaaaaaaah!!'
++	'Piar... Ngươi chết'
++	R
++	'thật thảm hại.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'...Silky...? Sao'
++	R
++	'cô lại ở chỗ này...'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Xin lỗi, nhưng sức mạnh ấy'
++	R
++	'của ngươi, ta sẽ kế thừa.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Hả... đùa à?'
++	R
++	'Thôi đi thì hơn.'
++	\L_0377e:
++	ZH 1:
++	'Người cô sẽ đau'
++	R
++	'lắm đấy, Silky.'
++	\L_0377e:
++	ZH 1:
++	'Với cơ thể cô, mà đưa máu'
++	R
++	'của nhiều Ma Nhân vào thì...'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Ta biết.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Mà nữa, cô nghĩ hấp thụ được'
++	R
++	'sức mạnh của tôi thật à...'
++	\L_0377e:
++	ZH 1:
++	'Silky「Lắm lời... Ngươi...'
++	R
++	'dù đã thành ra thế này...」'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Oáaaaaa!!'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_0372b:
+ 	\L_03701:
+ 	ZH 1:
+-	'Silky lấy linh hồn máu'
+-	R
+-	'quỷ Của Piar và nuốt nó.'
++	'Silky cầm lấy Ma Huyết Hồn'
++	R
++	'của Piar, nuốt ực một cái.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03659:
+@@ -432,36 +436,36 @@
+ 	'............'
+ 	\L_0377e:
+ 	ZH 1:
+-	'Ờ...'
+-	\L_0377e:
+-	ZH 1:
+-	'Uaaah...!!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Cơ Thể Của Silky'
+-	R
+-	'được nghiền từ bên trong.'
+-	\L_0377e:
+-	ZH 1:
+-	'nỗi đau lớn đã đưa cô'
+-	R
+-	'đến đầu gối và khiến cô ôm'
+-	R
+-	'lấy cơ thể của chính mình.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Ờ...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Cơ Thể Của Silky'
+-	R
+-	'rùng mình vì cơn đau.'
++	'Hự......'
++	\L_0377e:
++	ZH 1:
++	'Ư aaa...!!'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Cơ thể Silky răn'
++	R
++	'rắc từ bên trong.'
++	\L_0377e:
++	ZH 1:
++	'Đau quá đỗi, Silky'
++	R
++	'khuỵu gối, tự ôm'
++	R
++	'chặt lấy thân mình.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Hự......'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Vì cơn đau, thân thể'
++	R
++	'Silky run lên bần bật.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	@L_0125a:
+@@ -484,62 +488,56 @@
+ 	\L_03691:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Kayblis'
++	'Thành Kayblis'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Trước phòng'
+-	R
+-	'Medusa Alefgard đang'
+-	R
+-	'dọn dẹp căn phòng,'
+-	\L_0377e:
+-	ZH 1:
+-	'người phụ nữ mà'
+-	R
+-	'anh phải phục vụ vẫn'
+-	R
+-	'còn trong cơ thể anh.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Haah... Trời'
+-	R
+-	'ơi... Ôi, lưng tôi...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Alefgard bối rối'
+-	R
+-	'vì cơn đau đột ngột'
+-	R
+-	'duỗi người ra sau.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Những lúc như thế này, nếu'
+-	R
+-	'tiểu thư của tôi còn sống...'
+-	\L_0377e:
+-	ZH 1:
+-	'Nàng sẽ đánh'
+-	R
+-	'vào lưng tôi... cậu thực'
+-	R
+-	'sự khó chịu, con người...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Nếu ngươi'
+-	R
+-	'muốn gặp Medusa đến vậy thì'
+-	R
+-	'tôi sẽ để ngươi làm điều đó.'
++	'Trước phòng Medusa'
++	\L_0377e:
++	ZH 1:
++	'Alefgard, mang tiểu thư'
++	R
++	'cần hầu hạ vùi trong người,'
++	R
++	'đang lúi húi dọn phòng.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Phù... thật là......'
++	R
++	'Ối ối... cái lưng......'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Vội duỗi cái lưng'
++	R
++	'đang khom, Alefgard'
++	R
++	'đau đến luống cuống.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Những lúc thế này, nếu'
++	R
++	'tiểu thư còn sống...'
++	R
++	'sẽ đấm lưng cho lão...'
++	\L_0377e:
++	ZH 1:
++	'Thật đáng hận, lũ'
++	R
++	'con người......'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Muốn gặp Medusa đến thế'
++	R
++	'thì ta cho ngươi gặp.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_036c9:
+@@ -551,27 +549,29 @@
+ 	\L_036ad:
+ 	\L_03659:
+ 	ZH 1:
+-	'Là tôi đây, Alefgard.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'M-Bà. Silky?'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Linh Hồn Của Medusa Ở đâu?'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'T-tôi không biết!'
+-	\L_0377e:
+-	ZH 1:
+-	'Tôi không biết gì'
+-	R
+-	'cả! Vâng, thực sự...'
++	'Là ta. Alefgard.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Đ... Đại nhân Silky?'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Linh hồn của'
++	R
++	'Medusa... ở đâu?'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'L... lão không biết!'
++	\L_0377e:
++	ZH 1:
++	'Lão chẳng biết gì cả!'
++	R
++	'Vâng, thật mà......'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03659:
+@@ -579,7 +579,7 @@
+ 	'............'
+ 	\L_0377e:
+ 	ZH 1:
+-	'... Ở đó...?'
++	'......Ở đó sao......'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_036c9:
+@@ -589,24 +589,26 @@
+ 	\L_03771:
+ 	\L_03659:
+ 	ZH 1:
+-	'Bây giờ, tôi sẽ'
+-	R
+-	'tiễn cậu đến với Medusa...'
+-	R
+-	'Tạm biệt, Alefgard!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Gyaaaaaa!!'
++	'Nào, ta đưa ngươi tới'
++	R
++	'chỗ gần Medusa......'
++	R
++	'Vĩnh biệt, Alefgard!'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Áaaaaa!!'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_0372b:
+ 	\L_03691:
+ 	ZH 1:
+-	'Silky dùng đôi tay Dày Của'
+-	R
+-	'Little để xé Đôi Alefgard.'
++	'Silky dùng cánh tay'
++	R
++	'to khỏe của Little xé'
++	R
++	'toạc Alefgard làm đôi.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03659:
+@@ -616,23 +618,23 @@
+ 	\L_03771:
+ 	\L_03691:
+ 	ZH 1:
+-	'Xác của Alefgard'
+-	R
+-	'bị ném xuống sàn.'
+-	\L_0377e:
+-	ZH 1:
+-	'Một quả cầu màu đỏ'
+-	R
+-	'nổi lên từ bên trong nó.'
++	'Xác Alefgard bị'
++	R
++	'vứt xuống sàn.'
++	\L_0377e:
++	ZH 1:
++	'Từ bên trong... một'
++	R
++	'viên ngọc đỏ bay lên.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	!VAR0516 : 492!
+ 	\L_0371d:
+ 	\L_03691:
+ 	ZH 1:
+-	'Đó là linh hồn'
+-	R
+-	'máu quỷ của Medusa.'
++	'Đó chính là Ma Huyết Hồn'
++	R
++	'của Medusa đã bị tiêu diệt.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	{VAR0359 = 1:
+@@ -640,60 +642,60 @@
+ 	}
+ 	\L_03659:
+ 	ZH 1:
+-	'Medusa, xin lỗi,'
+-	R
+-	'nhưng cô sẽ không có'
+-	R
+-	'cơ hội hồi sinh đâu.'
+-	\L_0377e:
+-	ZH 1:
+-	'Tôi đang lấy đi tất'
+-	R
+-	'cả sức mạnh của cậu.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Huhuhu...'
+-	R
+-	'Huhuhuhu... Đó là một lối'
+-	R
+-	'vào hoành tráng, Silky...'
+-	\L_0377e:
+-	ZH 1:
+-	'Được rồi...'
+-	\L_0377e:
+-	ZH 1:
+-	'Tôi sẽ ăn linh hồn của cậu'
+-	R
+-	'từ bên trong cậu, và cuối'
+-	R
+-	'cùng tôi sẽ trở thành cậu...'
+-	\L_0377e:
+-	ZH 1:
+-	'Huhuhuhu...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Vâng... Làm như cậu'
+-	R
+-	'muốn... Nhưng sẽ vô ích nếu'
+-	R
+-	'cậu mất quá nhiều thời gian.'
+-	\L_0377e:
+-	ZH 1:
+-	'Dù sao thì tôi'
+-	R
+-	'cũng sẽ chết sớm thôi…'
++	'Medusa, tiếc thật,'
++	R
++	'ngươi không có cơ'
++	R
++	'hội hồi sinh đâu.'
++	\L_0377e:
++	ZH 1:
++	'Toàn bộ sức mạnh'
++	R
++	'ấy, ta sẽ lấy hết.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Phư phư phư... phư...'
++	R
++	'phư phư... Dám nói'
++	R
++	'lớn nhỉ, Silky...'
++	\L_0377e:
++	ZH 1:
++	'Được thôi...'
++	\L_0377e:
++	ZH 1:
++	'Ta sẽ gặm nát tinh thần'
++	R
++	'ngươi từ bên trong, rồi'
++	R
++	'sẽ trở thành ngươi......'
++	\L_0377e:
++	ZH 1:
++	'Phư phư phư phư...'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Phải... cứ tùy ý...'
++	R
++	'Nhưng nếu tốn quá nhiều'
++	R
++	'thời gian... thì vô ích.'
++	\L_0377e:
++	ZH 1:
++	'Dù sao ta cũng'
++	R
++	'sắp chết rồi......'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_0372b:
+ 	\L_03691:
+ 	ZH 1:
+-	'Silky nuốt Quả'
+-	R
+-	'cầu Của Medusa.'
++	'Silky nuốt viên'
++	R
++	'ngọc của Medusa.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03659:
+@@ -701,29 +703,29 @@
+ 	'............'
+ 	\L_0377e:
+ 	ZH 1:
+-	'Kh...'
+-	\L_0377e:
+-	ZH 1:
+-	'À...!!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Một tác động'
+-	R
+-	'như sét đánh xuyên qua cơ'
+-	R
+-	'thể Silky và cô bất tỉnh.'
++	'Hự......'
++	\L_0377e:
++	ZH 1:
++	'A...!!'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Một cú chấn động như'
++	R
++	'sét đánh chạy khắp người'
++	R
++	'Silky, khiến nàng ngất lịm.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	PF1 VAR0056:
+ 	PF0 VAR0056:
+ 	\L_03659:
+ 	ZH 1:
+-	'Ờ...'
+-	\L_0377e:
+-	ZH 1:
+-	'Kh... Chết tiệt...'
++	'Ư......'
++	\L_0377e:
++	ZH 1:
++	'Hự... khốn kiếp......!'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03691:
+@@ -753,77 +755,69 @@
+ 	\L_03691:
+ 	ZM 32:
+ 	ZH 1:
+-	'Vùng đất của quỷ'
++	'Xứ Ma Nhân'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Lâu đài Kesselring -'
+-	R
+-	'Hầm rượu hầm đã bị bỏ hoang.'
+-	\L_0377e:
+-	ZH 1:
+-	'các mảnh'
+-	R
+-	'vỡ của Quan tài Rance bị phá'
+-	R
+-	'hủy nằm rải rác xung quanh.'
+-	\L_0377e:
+-	ZH 1:
+-	'Silky đang'
+-	R
+-	'đứng đó một mình.'
++	'Thành Kesselring, tầng hầm'
++	R
++	'Căn hầm hoang phế. Những'
++	R
++	'mảnh quan tài bị Rance phá'
++	\L_0377e:
++	ZH 1:
++	'nát nằm vương vãi khắp nơi.'
++	\L_0377e:
++	ZH 1:
++	'Silky đứng đó một mình.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03675:
+ 	ZH 1:
+-	'Tôi không thể tin'
+-	R
+-	'được ngay cả Kesselring'
+-	R
+-	'cũng bị đánh bại...'
+-	\L_0377e:
+-	ZH 1:
+-	'Liệu người'
+-	R
+-	'Rance này có sức mạnh bất'
+-	R
+-	'thường nào đó không...?'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Silky đã lang thang'
+-	R
+-	'quanh hầm một lúc. Cô dừng'
+-	R
+-	'lại ở một vị trí cụ thể.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Thuyền...'
++	'Không ngờ đến cả'
++	R
++	'Kesselring cũng bị hạ......'
++	\L_0377e:
++	ZH 1:
++	'Gã tên Rance ấy, lẽ nào sở'
++	R
++	'hữu sức mạnh phi thường...?'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Silky đi lòng vòng trong'
++	R
++	'căn hầm một lúc, rồi'
++	R
++	'dừng chân ở một chỗ.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Kesselring......'
+ 	\L_0377e:
+ 	\L_03771:
+ 	!VAR0516 : 492!
+ 	\L_0371d:
+ 	\L_03691:
+ 	ZH 1:
+-	'máu Đỏ phun Ra'
+-	R
+-	'từ sàn đá, và nó cứng lại'
+-	R
+-	'thành một quả cầu màu đỏ.'
+-	\L_0377e:
+-	ZH 1:
+-	'Nó lơ lửng'
+-	R
+-	'trong không trung.'
+-	\L_0377e:
+-	ZH 1:
+-	'Đó là linh hồn'
+-	R
+-	'máu quỷ của Kesselring.'
++	'Máu đỏ trào lên như'
++	R
++	'suối từ sàn đá, đông lại'
++	R
++	'thành một viên ngọc đỏ.'
++	\L_0377e:
++	ZH 1:
++	'Viên ngọc lơ lửng'
++	R
++	'giữa không trung.'
++	\L_0377e:
++	ZH 1:
++	'Đó là Ma Huyết Hồn của'
++	R
++	'Ma Nhân Kesselring.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	{VAR0359 = 1:
+@@ -831,55 +825,49 @@
+ 	}
+ 	\L_03659:
+ 	ZH 1:
+-	'Xin Lỗi,'
+-	R
+-	'Nhưng tôi đang nắm quyền'
+-	R
+-	'của Cậu, Kesselring...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'... Ngươi có ý'
+-	R
+-	'định chết à, Silky...?'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Tôi đã chuẩn bị cho'
+-	R
+-	'điều đó ngay từ đầu.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Silky nhẹ'
+-	R
+-	'nhàng lấy quả cầu Của'
+-	R
+-	'Kesselring và nuốt nó.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Áa...!!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Cơ Thể Nhỏ Nhắn'
+-	R
+-	'Của Silky co thắt'
+-	R
+-	'lặp đi lặp lại,'
+-	\L_0377e:
+-	ZH 1:
+-	'và lắc rất nhiều ngay cả đôi'
+-	R
+-	'chân của nàng cũng bị treo'
+-	R
+-	'lơ lửng trong không khí.'
++	'Xin lỗi, ta lấy sức mạnh'
++	R
++	'của ngươi đây. Kesselring...'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'......Định chết'
++	R
++	'sao... Silky...'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Ta đã quyết từ đầu rồi.'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Silky nhẹ nhàng cầm'
++	R
++	'lấy viên ngọc của'
++	R
++	'Kesselring, nuốt ực xuống.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Aaa...!!'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Thân thể nhỏ bé của'
++	R
++	'Silky co giật dữ dội hết'
++	R
++	'lần này đến lần khác,'
++	\L_0377e:
++	ZH 1:
++	'bị lắc mạnh đến mức cả đôi'
++	R
++	'chân cũng nhấc bổng lên.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	@L_0125a:
+@@ -902,127 +890,115 @@
+ 	\L_03691:
+ 	ZM 32:
+ 	ZH 1:
+-	'Vùng đất của quỷ'
++	'Xứ Ma Nhân'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Lâu đài của'
+-	R
+-	'Camilla - Hầm rượu Không'
+-	R
+-	'có chủ nhân của nó,'
+-	\L_0377e:
+-	ZH 1:
+-	'tòa nhà thanh'
+-	R
+-	'lịch một thời đã bị hủy'
+-	R
+-	'hoại, đã bị cướp phá.'
+-	\L_0377e:
+-	ZH 1:
+-	'Nó không giống với bản'
+-	R
+-	'thân trước đây của nó.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Đây...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Silky xuất hiện.'
+-	\L_0377e:
+-	ZH 1:
+-	'Silky bước vào lâu'
+-	R
+-	'đài và đang tìm kiếm qua'
+-	\L_0377e:
+-	ZH 1:
+-	'các phòng khi cô tiến'
+-	R
+-	'xa hơn vào bên trong.'
+-	\L_0377e:
+-	ZH 1:
+-	'sau đó, cô đến một căn phòng'
+-	R
+-	'sang trọng đáng chú ý, với'
+-	R
+-	'những đống ren dệt kim mỏng,'
+-	\L_0377e:
+-	ZH 1:
+-	'thanh lịch.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Cậu có ở'
+-	R
+-	'đây không, Camilla...?'
+-	R
+-	'Đúng vậy phải không?'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Silky bước'
+-	R
+-	'vào phòng và gọi tên'
+-	R
+-	'chủ sở hữu cũ của nó.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'... Đó.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Silky đưa tay'
+-	R
+-	'về phía giường và đặt'
+-	R
+-	'nó vào ga trải giường.'
++	'Thành Camilla, tầng hầm'
++	R
++	'Tòa nhà từng thanh lịch, giờ'
++	R
++	'mất chủ, bị cướp phá tan'
++	\L_0377e:
++	ZH 1:
++	'hoang, điêu tàn chẳng còn'
++	\L_0377e:
++	ZH 1:
++	'chút dáng vẻ ngày xưa.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Là chỗ này...'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Kẻ xuất hiện là Silky.'
++	\L_0377e:
++	ZH 1:
++	'Silky bước vào thành,'
++	R
++	'vừa lục soát từng phòng'
++	\L_0377e:
++	ZH 1:
++	'vừa tiến sâu vào trong.'
++	\L_0377e:
++	ZH 1:
++	'Rồi nàng tới một căn'
++	R
++	'phòng đặc biệt xa hoa,'
++	R
++	'với lớp lớp rèm ren mỏng'
++	\L_0377e:
++	ZH 1:
++	'tao nhã.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Ở đây sao... Camilla...'
++	R
++	'Camilla... cô ở'
++	R
++	'đây phải không?'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Silky bước vào phòng, gọi'
++	R
++	'tên chủ nhân cũ của nó.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'......Ở đó.'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Silky đưa tay về'
++	R
++	'phía giường, luồn'
++	R
++	'vào trong tấm ga.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	!VAR0516 : 492!
+ 	\L_0371d:
+ 	\L_03691:
+ 	ZH 1:
+-	'Linh hồn'
+-	R
+-	'máu quỷ của Camilla nằm'
+-	R
+-	'trong lòng bàn tay Silky.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Kể cả thế'
+-	R
+-	'này thì em vẫn'
+-	R
+-	'lười biếng, Camilla...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Đó là... đúng...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Camilla... Tôi đang'
+-	R
+-	'lấy sức mạnh của cậu.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Hãy tiếp tục...'
++	'Trong lòng bàn tay Silky là'
++	R
++	'Ma Huyết Hồn của Camilla.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Thành ra thế này'
++	R
++	'rồi... mà vẫn lười như'
++	R
++	'cũ nhỉ... Camilla...'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'......Phải... nhỉ...'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Camilla... sức mạnh'
++	R
++	'của cô... tôi xin nhận.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Tùy cô...'
+ 	\L_0377e:
+ 	\L_03771:
+ 	{VAR0359 = 1:
+@@ -1030,36 +1006,34 @@
+ 	}
+ 	\L_03691:
+ 	ZH 1:
+-	'Silky nuốt Quả'
+-	R
+-	'cầu Của Camilla.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Kh... Uuu!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Toàn Bộ Cơ Thể thanh'
+-	R
+-	'nhã Của Silky bị tấn'
+-	\L_0377e:
+-	ZH 1:
+-	'công bởi một sức'
+-	R
+-	'nóng như thể nàng bị tiêu'
+-	R
+-	'thụ bởi vô hình ngọn lửa.'
+-	\L_0377e:
+-	ZH 1:
+-	'sau đó, nỗi đau cũng đến.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Uu... Aaaah...!'
++	'Silky nuốt ực viên'
++	R
++	'ngọc của Camilla.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Hự... ưư!'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Một sức nóng như ngọn'
++	R
++	'lửa vô hình bao trùm'
++	\L_0377e:
++	ZH 1:
++	'toàn bộ thân thể'
++	R
++	'mảnh mai của Silky.'
++	\L_0377e:
++	ZH 1:
++	'Rồi cả cơn đau nữa...'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Ư... aaaa...!'
+ 	\L_0377e:
+ 	\L_03771:
+ 	@L_0125a:
+@@ -1067,34 +1041,30 @@
+ 	!VAR0359 : VAR0359 + 1!
+ 	\L_03691:
+ 	ZH 1:
+-	'Silky trở nên mạnh mẽ hơn'
+-	R
+-	'nhiều bằng cách hấp thụ sức'
+-	R
+-	'mạnh của một con quỷ khác.'
++	'Hấp thụ sức mạnh của'
++	R
++	'các Ma Nhân khác, Silky'
++	R
++	'đã mạnh lên rất nhiều.'
+ 	\L_0377e:
+ 	{VAR0359 = 2:
+ 		!VAR0364 : VAR0517 + 12!
+ 		ZH 1:
+-		'Nhưng phản'
+-		R
+-		'ứng trước sự gia tăng sức'
+-		R
+-		'mạnh cực độ là rất lớn,'
+-		\L_0377e:
+-		ZH 1:
+-		'và Cơ thể Của Silky đang'
+-		R
+-		'dần sụp đổ từ bên trong.'
++		'Nhưng cái giá của việc cưỡng'
++		R
++		'ép tăng sức mạnh rất lớn,'
++		\L_0377e:
++		ZH 1:
++		'cơ thể Silky đang dần'
++		R
++		'sụp đổ từ bên trong.'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03675:
+ 		ZH 1:
+-		'Gh... Cơ thể này'
+-		R
+-		'có lẽ còn phải sống'
+-		R
+-		'thêm ba tháng nữa...'
++		'Hự...... Cơ thể này... chắc'
++		R
++		'chỉ trụ được ba tháng nữa...'
+ 		\L_0377e:
+ 		\L_03771:
+ 	}
+@@ -1102,23 +1072,19 @@
+ 		\L_03771:
+ 		\L_03659:
+ 		ZH 1:
+-		'Được rồi, giờ tôi'
+-		R
+-		'có thể đi được rồi...'
+-		\L_0377e:
+-		ZH 1:
+-		'Tôi có thể'
+-		R
+-		'chiến đấu với Kayblis'
+-		R
+-		'bằng sức mạnh này.'
+-		\L_0377e:
+-		ZH 1:
+-		'Nếu tôi sẵn sàng chết'
+-		R
+-		'và hạ gục hắn, tôi chắc'
+-		R
+-		'chắn mình có thể thắng...'
++		'Được rồi, giờ đi'
++		R
++		'được rồi......'
++		\L_0377e:
++		ZH 1:
++		'Với sức mạnh này thì ta'
++		R
++		'đánh được với Kayblis.'
++		\L_0377e:
++		ZH 1:
++		'Nếu sẵn sàng đồng quy vu tận'
++		R
++		'thì chắc chắn sẽ thắng...'
+ 		\L_0377e:
+ 		\L_03771:
+ 		!VAR0516 : 0!
+@@ -1128,45 +1094,41 @@
+ 	\L_03771:
+ 	\L_03659:
+ 	ZH 1:
+-	'Hah... hah...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Hơi thở Của Silky rất thô.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Chưa... Thế'
++	'Hà...... hà......'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Silky thở hổn hển.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Chưa được... thế'
+ 	R
+ 	'này vẫn chưa đủ...'
+ 	\L_0377e:
+ 	ZH 1:
+-	'Nếu tôi không tăng'
+-	R
+-	'thêm sức mạnh, tôi không'
+-	R
+-	'thể đánh bại Kayblis...'
+-	\L_0377e:
+-	ZH 1:
+-	'Tôi không còn lựa chọn'
+-	R
+-	'nào khác ngoài việc chờ đợi'
+-	R
+-	'lực lượng con người sao...?'
+-	\L_0377e:
+-	ZH 1:
+-	'Hãy nhanh'
+-	R
+-	'chóng giết thêm nhiều'
+-	R
+-	'con quỷ cho tôi...'
+-	\L_0377e:
+-	ZH 1:
+-	'Trước khi cuộc'
+-	R
+-	'đời tôi kết thúc...'
++	'Không mạnh thêm'
++	R
++	'nữa thì không thắng'
++	R
++	'nổi Kayblis......'
++	\L_0377e:
++	ZH 1:
++	'Chỉ còn trông vào quân'
++	R
++	'đội loài người thôi sao...'
++	\L_0377e:
++	ZH 1:
++	'Mau hạ thêm các'
++	R
++	'Ma Nhân khác đi...'
++	\L_0377e:
++	ZH 1:
++	'Trước khi mạng này'
++	R
++	'tàn............'
+ 	\L_0377e:
+ 	\L_03771:
+ 	!VAR0516 : 0!
+@@ -1175,47 +1137,43 @@
+ *L_013d4:
+ 	\L_03675:
+ 	ZH 1:
+-	'Đây là nguồn sức'
+-	R
+-	'mạnh của một con quỷ...'
+-	\L_0377e:
+-	ZH 1:
+-	'ngươi thậm chí có'
+-	R
+-	'thể nói rằng máu này là tất'
+-	R
+-	'cả mọi thứ một con quỷ là.'
+-	\L_0377e:
+-	ZH 1:
+-	'Bản thân'
+-	R
+-	'bình thường của tôi không đủ'
+-	R
+-	'tốt để đánh bại Kayblis...'
+-	\L_0377e:
+-	ZH 1:
+-	'Tôi phải mạnh mẽ hơn...'
+-	\L_0377e:
+-	ZH 1:
+-	'Nếu tôi nuốt linh hồn'
+-	R
+-	'máu quỷ này, tôi có thể'
+-	R
+-	'trở nên mạnh mẽ hơn...'
+-	\L_0377e:
+-	ZH 1:
+-	'Có lẽ để đổi lấy'
+-	R
+-	'cuộc sống của tôi, nhưng tôi'
+-	R
+-	'sẽ trở nên mạnh mẽ hơn...'
+-	\L_0377e:
+-	ZH 1:
+-	'Kayblis... Nếu'
+-	R
+-	'tôi giết được cô,'
+-	R
+-	'tôi sẽ không hối hận.'
++	'Đây là nguồn sức mạnh'
++	R
++	'của Ma Nhân......'
++	\L_0377e:
++	ZH 1:
++	'Không, có thể nói'
++	R
++	'dòng máu này là tất'
++	R
++	'cả của một Ma Nhân.'
++	\L_0377e:
++	ZH 1:
++	'Muốn hạ Kayblis, ta như bình'
++	R
++	'thường thì không được...'
++	\L_0377e:
++	ZH 1:
++	'Phải tăng sức mạnh,'
++	R
++	'phải mạnh hơn nữa......'
++	\L_0377e:
++	ZH 1:
++	'Uống Ma Huyết Hồn này'
++	R
++	'vào, ta sẽ mạnh lên......'
++	\L_0377e:
++	ZH 1:
++	'Có lẽ phải đổi bằng'
++	R
++	'mạng sống, nhưng ta'
++	R
++	'sẽ mạnh lên......'
++	\L_0377e:
++	ZH 1:
++	'Kayblis... Để hạ được hắn,'
++	R
++	'mạng này ta chẳng tiếc.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\0:
+@@ -1234,84 +1192,82 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Nam Silky đang'
+-	R
+-	'nằm trên mặt đất.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Uu... Aaaaah...!! cô định'
+-	R
+-	'kỳ co thắt trong đau đớn.'
+-	\L_0377e:
+-	ZH 1:
+-	'Nàng đã hấp thụ sức'
+-	R
+-	'mạnh của những con quỷ khác'
+-	R
+-	'vào nàng để tăng sức mạnh,'
+-	\L_0377e:
+-	ZH 1:
+-	'nhưng sức mạnh quá'
+-	R
+-	'mức đã phá hủy cơ thể cô.'
+-	\L_0377e:
+-	ZH 1:
+-	'Bây giờ Nàng đang'
+-	R
+-	'trên bờ vực của cái chết.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Haah... Haaah...'
++	'Phía nam'
++	R
++	'Silky đang nằm gục.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Ư... a ưư...!! Silky'
++	R
++	'thỉnh thoảng run giật,'
++	R
++	'quằn quại đau đớn.'
++	\L_0377e:
++	ZH 1:
++	'Nàng đã hấp thụ sức mạnh'
++	R
++	'của các Ma Nhân khác'
++	R
++	'vào người để mạnh lên,'
++	\L_0377e:
++	ZH 1:
++	'nhưng thứ sức mạnh'
++	R
++	'cưỡng ép ấy đã khiến'
++	R
++	'cơ thể nàng tan nát.'
++	\L_0377e:
++	ZH 1:
++	'Và giờ... nàng đang hấp hối.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Hà... hààà......'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03675:
+ 	ZH 1:
+-	'Cơ thể tôi không'
+-	R
+-	'chịu nổi nữa sao...?'
+-	\L_0377e:
+-	ZH 1:
+-	'Tôi biết... có lẽ tôi'
+-	R
+-	'còn lại ba ngày nữa...'
+-	\L_0377e:
+-	ZH 1:
+-	'Có lẽ tôi nên hấp thụ nhiều'
+-	R
+-	'linh hồn máu quỷ hơn để'
+-	R
+-	'đánh bại Kayblis, nhưng...'
+-	\L_0377e:
+-	ZH 1:
+-	'không còn thời gian.'
+-	\L_0377e:
+-	ZH 1:
+-	'Tất cả những gì tôi có'
+-	R
+-	'thể làm là làm điều đó.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Ờ...!!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Silky tập hợp sức mạnh'
+-	R
+-	'còn lại của mình để đứng.'
+-	\L_0377e:
+-	ZH 1:
+-	'Điểm đến của'
+-	R
+-	'cô là Kayblis trong'
+-	R
+-	'Lâu đài Ma Vương.'
++	'Hết rồi sao...'
++	\L_0377e:
++	ZH 1:
++	'Cơ thể của mình mà... ta'
++	R
++	'biết...... chỉ trụ được'
++	R
++	'chừng ba ngày nữa...'
++	\L_0377e:
++	ZH 1:
++	'Muốn hạ tên Kayblis...'
++	R
++	'lẽ ra phải hấp thụ thêm'
++	R
++	'nhiều Ma Huyết Hồn nữa...'
++	\L_0377e:
++	ZH 1:
++	'nhưng không còn thời gian.'
++	\L_0377e:
++	ZH 1:
++	'Chỉ còn cách làm thôi.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Hự...!!'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Silky dồn chút sức tàn'
++	R
++	'cuối cùng đứng dậy.'
++	\L_0377e:
++	ZH 1:
++	'Mục tiêu là Kayblis'
++	R
++	'đang ở Thành Ma Vương.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	{VAR0385 = 2:
+@@ -1328,50 +1284,50 @@
+ 	\L_03691:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Ma Vương'
++	'Thành Ma Vương'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng của Kayblis'
+-	R
+-	'Gyaaaaaaaah!!! có tiếng'
+-	R
+-	'thét của một người phụ nữ.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Ch... Đã chết rồi'
+-	R
+-	'à? Phụ nữ loài người không'
+-	R
+-	'tốt chút nào. Quá mong manh.'
+-	\L_0377e:
+-	ZH 1:
+-	'Sẽ thật tuyệt nếu tôi có'
+-	R
+-	'thứ gì đó mà tôi có thể tận'
+-	\L_0377e:
+-	ZH 1:
+-	'dụng được nhiều'
+-	R
+-	'hơn khi chơi cùng.'
+-	\L_0377e:
+-	ZH 1:
+-	'Ồ vâng... Có Hornet...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'(bang)'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Này, gõ cửa trước khi'
+-	R
+-	'vào phòng mọi người nhé!'
++	'Phòng Kayblis'
++	R
++	'Áaaaaa!!! Tiếng thét rợn'
++	R
++	'người của đàn bà vang lên.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Chậc... chết rồi à.'
++	R
++	'Đàn bà loài người kém'
++	R
++	'thật. Mỏng manh quá.'
++	\L_0377e:
++	ZH 1:
++	'Phải có thứ gì'
++	R
++	'đó... chơi đã hơn'
++	\L_0377e:
++	ZH 1:
++	'thì mới thích...'
++	\L_0377e:
++	ZH 1:
++	'Phải rồi... Hornet'
++	R
++	'chẳng hạn...'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'(Rầm)'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Này, vào phòng người ta thì'
++	R
++	'phải gõ cửa chứ, gõ cửa!'
+ 	\L_0377e:
+ 	\L_03771:
+ 	!VAR0516 : 73!
+@@ -1383,42 +1339,38 @@
+ 	\L_03771:
+ 	\L_03659:
+ 	ZH 1:
+-	'Ồ, có đồ chơi mới'
+-	R
+-	'cho tôi à? Cảm ơn, Silky.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Im đi...!!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Hừm... Cậu đã nghĩ về điều'
+-	R
+-	'này rồi, Silky. Có vẻ như'
+-	R
+-	'cậu đã trở nên khá mạnh mẽ…'
+-	\L_0377e:
+-	ZH 1:
+-	'Ăn thịt những con'
+-	R
+-	'quỷ khác... Muốn chết à?'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'... Nếu tôi có'
+-	R
+-	'thể giết được anh thì'
+-	R
+-	'tôi không sợ chết...'
+-	\L_0377e:
+-	ZH 1:
+-	'Hãy chuẩn bị'
+-	R
+-	'tinh thần đi!!'
++	'Gì đây, đồ chơi mới tự mò'
++	R
++	'tới à. Cảm ơn nhé, Silky.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Câm miệng...!!'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Hừ... tính kỹ đấy,'
++	R
++	'Silky. Xem ra mạnh'
++	R
++	'lên khá nhiều rồi nhỉ.'
++	\L_0377e:
++	ZH 1:
++	'Nuốt cả Ma Nhân'
++	R
++	'khác... muốn chết à?'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'......Chỉ cần hạ được'
++	R
++	'ngươi, ta chẳng sợ chết...'
++	\L_0377e:
++	ZH 1:
++	'Chuẩn bị đi!!'
+ 	\L_0377e:
+ 	\L_03771:
+ 	!VAR0520 : 26!
+@@ -1433,48 +1385,46 @@
+ 	\L_0371d:
+ 	\L_036c9:
+ 	ZH 1:
+-	'Ờ...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Hah～... Cảm ơn'
+-	R
+-	'vì đã giúp tôi giết'
+-	R
+-	'thời gian, Silky.'
++	'Hự......'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Hà~... cũng đỡ buồn chán'
++	R
++	'được chút đấy, Silky.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03701:
+ 	ZH 1:
+-	'Kayblis gãi'
+-	R
+-	'má bằng móng tay dài trong'
+-	R
+-	'khi nói một cách khinh bỉ.'
+-	\L_0377e:
+-	ZH 1:
+-	'Silky đang'
+-	R
+-	'chết và nằm dưới chân'
+-	R
+-	'Kayblis. quá tệ, Silky.'
+-	\L_0377e:
+-	ZH 1:
+-	'Đoán ngươi chỉ là'
+-	R
+-	'một liiittle quá yếu.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Đóng cửa...'
+-	\L_0377e:
+-	ZH 1:
+-	'À...'
+-	\L_0377e:
+-	ZH 1:
+-	'Khụ... khụ...!'
++	'Kayblis lấy móng'
++	R
++	'tay dài gãi gãi má,'
++	R
++	'giọng đầy khinh miệt.'
++	\L_0377e:
++	ZH 1:
++	'Silky thoi thóp nằm'
++	R
++	'dưới chân Kayblis.'
++	R
++	'Kayblis「Tiếc nhỉ, Silky.'
++	\L_0377e:
++	ZH 1:
++	'Xem ra sức ngươi'
++	R
++	'còn thiếu một chút.」'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Câm...'
++	\L_0377e:
++	ZH 1:
++	'A...'
++	\L_0377e:
++	ZH 1:
++	'Khụ... khụ khụ...!'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03691:
+@@ -1484,194 +1434,188 @@
+ 	\L_03771:
+ 	\L_03659:
+ 	ZH 1:
+-	'Trời ạ, tôi không thể tin'
+-	R
+-	'được là anh vẫn còn sống.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Kayblis nắm tay Silky.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Ờ...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Ờ... Ờ... Ờ...'
++	'Thật là. Con bé phiền phức.'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Kayblis giơ tay lên'
++	R
++	'trên người Silky.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Ư......'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Hừm... hừm hừm......'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03691:
+ 	ZH 1:
+ 	{VAR0359 = 2:
+ 		ZH 1:
+-		'Một quả cầu màu đỏ'
++		'Một viên,'
+ 	}
+ 	{VAR0359 = 3:
+ 		ZH 1:
+-		'Hai quả cầu màu đỏ'
++		'hai viên,'
+ 	}
+ 	{VAR0359 = 4:
+ 		ZH 1:
+-		'Ba quả cầu màu đỏ'
++		'ba viên,'
+ 	}
+ 	{VAR0359 = 5:
+ 		ZH 1:
+-		'Bốn quả cầu màu đỏ'
++		'bốn viên ngọc đỏ'
+ 	}
+ 	ZH 1:
+-	'tan ra khỏi cơ'
+-	R
+-	'thể cô. đó là tốt.'
+-	\L_0377e:
+-	ZH 1:
+-	'Tôi đã lấy linh hồn của'
+-	R
+-	'những con quỷ khác xa lạ'
+-	\L_0377e:
+-	ZH 1:
+-	'với cơ thể của'
+-	R
+-	'ngươi ra khỏi ngươi.'
+-	\L_0377e:
+-	ZH 1:
+-	'Bây giờ ngươi'
+-	R
+-	'sẽ không chết. tại'
+-	R
+-	'sao ngươi cứu tôi...?'
+-	\L_0377e:
+-	ZH 1:
+-	'một số màu'
+-	R
+-	'trở lại Khuôn mặt Của Silky.'
+-	R
+-	'Cô đứng dậy và nhìn Kayblis.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Chẳng phải điều đó'
+-	R
+-	'là hiển nhiên sao?'
+-	\L_0377e:
+-	ZH 1:
+-	'Cậu đã nghe những gì'
+-	R
+-	'tôi nói trước đó về một món'
+-	R
+-	'đồ chơi mới rồi phải không?'
+-	\L_0377e:
+-	ZH 1:
+-	'bây giờ cậu là đồ chơi'
+-	R
+-	'của tôi. Và cũng, Silky...'
+-	\L_0377e:
+-	ZH 1:
+-	'Tôi là con quỷ'
+-	R
+-	'sẽ trở thành Ma Vương.'
+-	\L_0377e:
+-	ZH 1:
+-	'Tôi phải cho thấy điều'
+-	R
+-	'gì sẽ xảy ra với bất kỳ con'
+-	R
+-	'quỷ nào dám thách thức tôi.'
+-	\L_0377e:
+-	ZH 1:
+-	'Vì vậy, tôi sẽ để'
+-	R
+-	'cậu sống. Như một ví dụ.'
+-	\L_0377e:
+-	ZH 1:
+-	'Tôi thậm chí sẽ'
+-	R
+-	'không để cậu tự sát.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Cái gì...?! Sau đó, chỉ'
+-	R
+-	'cần giết tôi ngay bây giờ!!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Rõ ràng là tôi'
+-	R
+-	'sẽ không làm vậy.'
+-	\L_0377e:
+-	ZH 1:
+-	'Cậu được sống trong cùng'
+-	R
+-	'ngục tối với ngài Hornet yêu'
+-	R
+-	'quý của mình.'
+-	\L_0377e:
+-	ZH 1:
+-	'Cậu không vui sao?'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Ặc...!!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Silky...'
+-	\L_0377e:
+-	ZH 1:
+-	'Hãy từ bỏ. Lỗi của'
+-	R
+-	'cậu vì đã thách thức tôi.'
+-	\L_0377e:
+-	ZH 1:
+-	'Tôi là người mạnh nhất.'
+-	R
+-	'Tất cả các em đều yếu đuối.'
+-	\L_0377e:
+-	ZH 1:
+-	'Vì vậy, đây là'
+-	R
+-	'những gì xảy ra.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Im đi...!!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Ế...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Im đi...!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Gugeh...'
+-	\L_0377e:
+-	ZH 1:
+-	'Gugeeekekeh!!'
+-	R
+-	'Gagyaaahaha !! đóng uuup!!'
++	'lăn ra như tan chảy'
++	R
++	'khỏi cơ thể Silky.'
++	R
++	'Kayblis「Thế là được.'
++	\L_0377e:
++	ZH 1:
++	'Ta đã lôi Ma Huyết Hồn'
++	R
++	'của mấy tên Ma Nhân khác,'
++	\L_0377e:
++	ZH 1:
++	'thứ dị vật trong người'
++	R
++	'ngươi, ra rồi đấy.'
++	\L_0377e:
++	ZH 1:
++	'Giờ thì ngươi khỏi'
++	R
++	'chết nữa.」 Silky「Sao'
++	R
++	'lại cứu ta...?」'
++	\L_0377e:
++	ZH 1:
++	'Sắc mặt đã khá hơn đôi chút,'
++	R
++	'Silky đứng dậy nhìn Kayblis.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Chuyện đó thì rõ'
++	R
++	'quá rồi còn gì.'
++	\L_0377e:
++	ZH 1:
++	'Ta đã nói lúc nãy rồi'
++	R
++	'mà? Đồ chơi mới đã tới...'
++	\L_0377e:
++	ZH 1:
++	'Giờ ngươi là đồ chơi'
++	R
++	'của ta. Còn nữa, Silky.'
++	\L_0377e:
++	ZH 1:
++	'Ta là Ma Nhân sẽ'
++	R
++	'trở thành Ma Vương.'
++	\L_0377e:
++	ZH 1:
++	'Cần làm gương cho thấy'
++	R
++	'dù là Ma Nhân, chống'
++	R
++	'lại ta thì sẽ ra sao.'
++	\L_0377e:
++	ZH 1:
++	'Nên ta để ngươi'
++	R
++	'sống. Để làm gương.'
++	\L_0377e:
++	ZH 1:
++	'Đừng hòng tự sát.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Cái gì...! Vậy thì'
++	R
++	'giết ta luôn đi!!'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Đã bảo là không mà.'
++	\L_0377e:
++	ZH 1:
++	'Chỗ ở của ngươi là'
++	R
++	'ngục tối, giống Hornet'
++	R
++	'yêu quý của ngươi.'
++	\L_0377e:
++	ZH 1:
++	'Vui chứ hả?'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Hự...!!'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Silky này...'
++	\L_0377e:
++	ZH 1:
++	'Bỏ cuộc đi. Ngươi chọn'
++	R
++	'nhầm đối thủ rồi...'
++	\L_0377e:
++	ZH 1:
++	'Ta là mạnh nhất.'
++	R
++	'Các ngươi yếu.'
++	\L_0377e:
++	ZH 1:
++	'Vì thế mới thành ra thế này.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Câm miệng...!!'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Hự...'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Câm miệng...!'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Gưghê...'
++	\L_0377e:
++	ZH 1:
++	'Gưgheekekekeke!!'
++	R
++	'Gagyaahahaha!!'
++	R
++	'Silky「Câm miệngggg!!」'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03701:
+ 	ZH 1:
+-	'Giọng Nói Của Silky'
+-	R
+-	'vang vọng không có kết quả.'
++	'Tiếng Silky vang vọng'
++	R
++	'một cách vô vọng.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	PF1 VAR0056:
+@@ -1683,7 +1627,7 @@
+ 	\L_03691:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Ma Vương'
++	'Thành Ma Vương'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+@@ -1698,228 +1642,224 @@
+ 	SS 17:
+ 	\L_03739:
+ 	ZH 1:
+-	'Silky 「Aaaah...!!」'
++	'Silky「A a ư......!!」'
+ 	PF0 VAR0056:
+ 	\L_0377e:
+ *L_01cd1:
+ 	ZH 1:
+-	'Trong ngục tối tối tăm, bẩn thỉu, Silky'
+-	R
+-	'bị vô số quái vật bẩn thỉu xâm phạm.'
+-	\L_0377e:
+-	ZH 1:
+-	'Quái vật 「Heheh... Ông Kayblis thật hào phóng.」'
+-	\L_0377e:
+-	ZH 1:
+-	'Một con quái vật vừa nói vừa'
+-	R
+-	'liếm ngực Silky và húp xì xụp.'
+-	\L_0377e:
+-	ZH 1:
+-	'Monster 「Nghiêm túc mà nói,」 anh'
+-	R
+-	'ta đang để chúng ta đụ những con'
+-	\L_0377e:
+-	ZH 1:
+-	'quỷ như Ngài Hornet và Cô Silky. Hắn là'
+-	R
+-	'một chàng trai tốt.」 con quái vật với'
+-	\L_0377e:
+-	ZH 1:
+-	'vòi nước của nó bị chôn Vùi Trong Silky'
+-	R
+-	'Nói khi nó vui vẻ lắc hông của nó.'
+-	\L_0377e:
+-	ZH 1:
+-	'Silky 「Uu...!!」'
+-	\L_0377e:
+-	ZH 1:
+-	'Nó quá lớn so với cơ thể yếu đuối của'
+-	R
+-	'Silky và khiến cô phải kêu lên đau đớn.'
+-	\L_0377e:
+-	ZH 1:
+-	'Trinh tiết của cô đã bị Kayblis lấy đi. Anh ta'
+-	\L_0377e:
+-	ZH 1:
+-	'cười và thốt ra những lời'
+-	R
+-	'thông cảm khi xâm phạm cô.'
+-	\L_0377e:
+-	ZH 1:
+-	'Nhỏ giọt máu phủ lên môi Silky. Kayblis'
+-	R
+-	'có vẻ rất hạnh phúc khi mút đôi môi đó.'
+-	\L_0377e:
+-	ZH 1:
+-	'Sau đó, không ai biết có bao'
+-	R
+-	'nhiêu quái vật đã sử dụng Silky.'
+-	\L_0377e:
+-	ZH 1:
+-	'Một cảm giác buồn tẻ được hồi sinh'
+-	R
+-	'bởi cự vật được vặn vào trong cô,'
+-	\L_0377e:
+-	ZH 1:
+-	'và điều tiếp theo xảy ra là'
+-	R
+-	'một khoái cảm không mong muốn.'
+-	\L_0377e:
+-	ZH 1:
+-	'Silky 「Ah... Dừng lại... Dừng lại...!」'
+-	\L_0377e:
+-	ZH 1:
+-	'Quái vật 「Ồ, này,'
+-	\L_0377e:
+-	ZH 1:
+-	'cô đang yêu cầu những con quái vật'
+-	R
+-	'thấp kém như chúng tôi phải không,」 cô'
+-	\L_0377e:
+-	ZH 1:
+-	'Silky?」 con quái vật liên tục cọ Xát Bộ ngực nhỏ,'
+-	\L_0377e:
+-	ZH 1:
+-	'cứng rắn Của Silky dính lưỡi vào'
+-	R
+-	'tai cô và nói với niềm đam mê.'
+-	\L_0377e:
+-	ZH 1:
+-	'Quái vật 「Cậu không nên làm điều đó.'
+-	R
+-	'Ngài Hornet giữ im lặng và nhận lấy.」'
+-	\L_0377e:
+-	ZH 1:
+-	'Silky 「...!!」'
+-	\L_0377e:
+-	ZH 1:
+-	'Quái vật 「Gyahahahaha!! Thế thôi. Cấp'
+-	\L_0377e:
+-	ZH 1:
+-	'dưới nên thừa nhận thất bại'
+-	R
+-	'trước cấp trên của mình!'
+-	\L_0377e:
+-	ZH 1:
+-	'」 những con quái vật đều'
+-	R
+-	'đồng loạt cười Nhạo Silky.'
+-	\L_0377e:
+-	ZH 1:
+-	'Silky 「Uu...」'
+-	\L_0377e:
+-	ZH 1:
+-	'Silky rên rỉ một chút và nhắm mắt lại.'
+-	\L_0377e:
+-	ZH 1:
+-	'Quái vật 「Heheh... Nghĩ lại thì,'
+-	R
+-	'chưa có ai đưa cậu đến đây cả.」'
+-	\L_0377e:
+-	ZH 1:
+-	'Silky 「...!」 con quái vật đặt'
+-	R
+-	'ngón tay lên Hậu môn Của Silky.'
+-	\L_0377e:
+-	ZH 1:
+-	'Quái vật 「Vì nó quá nhỏ. Không'
+-	R
+-	'có cách nào để đưa nó vào được.」'
+-	\L_0377e:
+-	ZH 1:
+-	'Quái vật 「Heheh...'
+-	\L_0377e:
+-	ZH 1:
+-	'Vậy thì làm việc này thì sao...?」 con'
+-	R
+-	'quái vật đó đã biến cự vật của nó thành'
+-	\L_0377e:
+-	ZH 1:
+-	'một hình dạng thuôn nhọn.'
+-	\L_0377e:
+-	ZH 1:
+-	'Quái vật 「Đây rồi!」'
+-	\L_0377e:
+-	ZH 1:
+-	'Silky 「Ah...'
+-	\L_0377e:
+-	ZH 1:
+-	'Aaaaaaaah!!」 thứ mỏng, nhưng nóng,'
+-	\L_0377e:
+-	ZH 1:
+-	'xoắn vuốt ve Trực tràng Của Silky'
+-	R
+-	'từ bên trong và đẩy sâu hơn.'
+-	\L_0377e:
+-	ZH 1:
+-	'Silky 「Uu... Gh... À...」 cảm giác ghê'
+-	R
+-	'tởm khiến Silky cảm thấy buồn nôn.'
+-	\L_0377e:
+-	ZH 1:
+-	'Quái vật 「Gahahahaha! ạn là người'
+-	R
+-	'duy nhất có thể làm」 điều đó!'
++	'Trong ngục tối âm u bẩn thỉu, Silky'
++	R
++	'đang bị vô số quái vật hạ đẳng giày vò.'
++	\L_0377e:
++	ZH 1:
++	'Quái vật「Hề hề... Đại nhân'
++	R
++	'Kayblis cũng hào phóng ghê」'
++	\L_0377e:
++	ZH 1:
++	'Một con quái vật vừa thè lưỡi liếm'
++	R
++	'ngực Silky, vừa húp sùm sụp vừa nói.'
++	\L_0377e:
++	ZH 1:
++	'Quái vật「Thật đấy, Đại nhân'
++	R
++	'Hornet, Đại nhân Silky...'
++	\L_0377e:
++	ZH 1:
++	'cho tụi mình ôm cả Ma Nhân. Đúng'
++	R
++	'là người tốt」 Con quái vật đang vùi'
++	\L_0377e:
++	ZH 1:
++	'dương vật trong Silky vừa'
++	R
++	'nói vừa khoái chí lắc hông.'
++	\L_0377e:
++	ZH 1:
++	'Silky「Ư...!!」'
++	\L_0377e:
++	ZH 1:
++	'Thứ quá lớn so với thân hình nhỏ nhắn'
++	R
++	'khiến Silky bật lên tiếng đau đớn.'
++	\L_0377e:
++	ZH 1:
++	'Trinh tiết của nàng đã bị'
++	R
++	'Kayblis cướp đi. Kayblis vừa'
++	\L_0377e:
++	ZH 1:
++	'cười vừa buông lời thương hại, vừa giày vò Silky.'
++	\L_0377e:
++	ZH 1:
++	'Hắn bôi máu nhỏ giọt lên môi Silky rồi hôn'
++	R
++	'mút đôi môi ấy, trông thực sự khoái trá.'
++	\L_0377e:
++	ZH 1:
++	'Sau đó... chẳng biết bao nhiêu con'
++	R
++	'quái vật đã đi qua thân thể Silky.'
++	\L_0377e:
++	ZH 1:
++	'Cảm giác sắp tê dại lại bị những'
++	R
++	'dương vật cưỡng ép thúc vào đánh thức,'
++	\L_0377e:
++	ZH 1:
++	'và thứ ập đến tiếp theo là khoái cảm chẳng ai cần.'
++	\L_0377e:
++	ZH 1:
++	'Silky「A... dừng lại... dừng...!」'
++	\L_0377e:
++	ZH 1:
++	'Quái vật「Ối chà,'
++	\L_0377e:
++	ZH 1:
++	'Đại nhân Silky đi van xin bọn hạ đẳng'
++	\L_0377e:
++	ZH 1:
++	'như tụi tôi à?」 Con quái vật đang'
++	R
++	'dai dẳng nắn bóp bầu ngực nhỏ cứng'
++	\L_0377e:
++	ZH 1:
++	'của Silky thè lưỡi vào tai'
++	R
++	'nàng, nói đầy thích thú.'
++	\L_0377e:
++	ZH 1:
++	'Quái vật「Không được đâu... thế'
++	R
++	'thì không được. Đại nhân Hornet'
++	R
++	'vẫn im lặng tiếp nhận tụi tôi đấy」'
++	\L_0377e:
++	ZH 1:
++	'Silky「Ư......!!」'
++	\L_0377e:
++	ZH 1:
++	'Quái vật「Gyahahahaha!! Đúng'
++	R
++	'đúng. Thuộc hạ không được'
++	\L_0377e:
++	ZH 1:
++	'kêu ca trước cấp trên đâu!'
++	\L_0377e:
++	ZH 1:
++	'」 Lũ quái vật đồng loạt cười nhạo Silky.'
++	\L_0377e:
++	ZH 1:
++	'Silky「Ư......」'
++	\L_0377e:
++	ZH 1:
++	'Khẽ rên một tiếng, Silky nhắm mắt lại.'
++	\L_0377e:
++	ZH 1:
++	'Quái vật「Hề hề... nói mới nhớ,'
++	R
++	'chỗ này vẫn chưa ai đụng tới nhỉ」'
++	\L_0377e:
++	ZH 1:
++	'Silky「Ư...!」 Con quái vật đưa'
++	R
++	'ngón tay lên hậu môn Silky.'
++	\L_0377e:
++	ZH 1:
++	'Quái vật「Bé quá mà. Không vào được đâu」'
++	\L_0377e:
++	ZH 1:
++	'Quái vật「Hề hề...'
++	\L_0377e:
++	ZH 1:
++	'vậy thì làm thế này chẳng phải được sao...」'
++	R
++	'Con quái vật biến dương vật của mình'
++	\L_0377e:
++	ZH 1:
++	'thành hình thon nhọn.'
++	\L_0377e:
++	ZH 1:
++	'Quái vật「Này!」'
++	\L_0377e:
++	ZH 1:
++	'Silky「A...'
++	\L_0377e:
++	ZH 1:
++	'aaaaaa!!」 Một thứ mảnh nhưng nóng rực, uốn éo,'
++	\L_0377e:
++	ZH 1:
++	'mơn trớn trực tràng Silky từ'
++	R
++	'bên trong rồi đẩy sâu vào.'
++	\L_0377e:
++	ZH 1:
++	'Silky「Ư... hự... aa...」 Cảm giác'
++	R
++	'ghê tởm khiến Silky buồn nôn.'
++	\L_0377e:
++	ZH 1:
++	'Quái vật「Gahahahaha!! Chỗ đó dành'
++	R
++	'riêng cho mày, thằng làm được trò ấy!'
+ 	\L_0377e:
+ 	ZH 1:
+ 	'」'
+ 	\L_0377e:
+ 	ZH 1:
+-	'Monster 「Ừ,'
+-	\L_0377e:
+-	ZH 1:
+-	'chúng tôi có nàng ở đây.」 con quái'
+-	R
+-	'vật có vòi nước được chôn trong'
+-	\L_0377e:
+-	ZH 1:
+-	'Âm Hộ Của Silky dữ dội di chuyển nó vào và ra,'
+-	\L_0377e:
+-	ZH 1:
+-	'tạo ra một âm thanh ướt lớn.'
+-	\L_0377e:
+-	ZH 1:
+-	'Silky 「...!!!」 cảm giác tấn công đột'
+-	R
+-	'ngột khiến Tiếng thở Hổn hển Silky.'
+-	\L_0377e:
+-	ZH 1:
+-	'Quái vật 「Này, tôi là người tiếp'
+-	R
+-	'theo. Tôi muốn tăng sức mạnh. 」'
+-	\L_0377e:
+-	ZH 1:
+-	'Quái vật 「Chắc chắn, chắc chắn...'
+-	R
+-	'Đợi một chút... Chúa ơi...」'
+-	\L_0377e:
+-	ZH 1:
+-	'Silky 「Uah...」 cự vật rút Ra Khỏi'
+-	R
+-	'Silky với một tiếng ồn cẩu thả.'
+-	\L_0377e:
+-	ZH 1:
+-	'Nó làm cô co giật.'
+-	\L_0377e:
+-	ZH 1:
+-	'Quái vật 「Heheheh...'
+-	\L_0377e:
+-	ZH 1:
+-	'Hãy vui vẻ nhé,'
+-	\L_0377e:
+-	ZH 1:
+-	'cô Silky. Điều này đang diễn ra trong'
+-	R
+-	'ngươi bây giờ.」 con quái vật vui'
+-	\L_0377e:
+-	ZH 1:
+-	'vẻ xoa cự vật cao chót vót của nó lên má Silky.'
+-	\L_0377e:
+-	ZH 1:
+-	'Tiếng hét chói tai của cô vang'
+-	R
+-	'vọng khắp hành lang của ngục tối...'
++	'Quái vật「Đúng đúng,'
++	\L_0377e:
++	ZH 1:
++	'tụi tôi ở bên này」 Con quái'
++	R
++	'vật đang vùi dương vật trong'
++	\L_0377e:
++	ZH 1:
++	'cánh hoa của Silky thô bạo rút ra đâm vào,'
++	\L_0377e:
++	ZH 1:
++	'phát ra tiếng ướt át chói tai.'
++	\L_0377e:
++	ZH 1:
++	'Silky「......!!!」 Cảm giác ập đến'
++	R
++	'đột ngột khiến Silky nghẹn thở.'
++	\L_0377e:
++	ZH 1:
++	'Quái vật「Này, đến lượt tao.'
++	R
++	'Tao cũng muốn mạnh lên」'
++	\L_0377e:
++	ZH 1:
++	'Quái vật「Rồi rồi... đợi chút coi... thật là...」'
++	\L_0377e:
++	ZH 1:
++	'Silky「Ư a...」 Dương vật'
++	R
++	'rút ra kèm tiếng nhóp nhép,'
++	\L_0377e:
++	ZH 1:
++	'khiến Silky giật nảy người.'
++	\L_0377e:
++	ZH 1:
++	'Quái vật「Hề hề hề...'
++	\L_0377e:
++	ZH 1:
++	'Đại nhân Silky...'
++	\L_0377e:
++	ZH 1:
++	'mong được chỉ giáo. Giờ thứ này sẽ'
++	R
++	'vào đây」 Con quái vật khoái chí cọ'
++	\L_0377e:
++	ZH 1:
++	'thứ đang cương cứng lên má Silky.'
++	\L_0377e:
++	ZH 1:
++	'Tiếng thét mảnh mai của người con'
++	R
++	'gái vang khắp hành lang ngục tối...'
+ 	\L_0377e:
+ 	{VAR0520 = 300:
+ 		%0:
+@@ -1947,74 +1887,70 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Nam'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Hah... hah...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Silky bằng cách'
+-	R
+-	'nào đó đã cố gắng đứng'
+-	R
+-	'bằng cách nằm trên cây.'
+-	\L_0377e:
+-	ZH 1:
+-	'Toàn thân cô đổ'
+-	R
+-	'mồ hôi khó chịu.'
+-	\L_0377e:
+-	ZH 1:
+-	'cho đến nay'
+-	R
+-	'nàng đã hấp thụ Máu Của'
+-	R
+-	'Redeye, Piar, Medusa,'
+-	\L_0377e:
+-	ZH 1:
+-	'kesselring và Camilla.'
+-	\L_0377e:
+-	ZH 1:
+-	'Kết quả là cô có đủ sức mạnh'
+-	R
+-	'để chiến đấu ngang hàng với'
+-	R
+-	'Kayblis, con quỷ mạnh nhất.'
+-	\L_0377e:
+-	ZH 1:
+-	'Nhưng bù lại, cơ thể'
+-	R
+-	'cô đang trên đà suy sụp.'
+-	\L_0377e:
+-	ZH 1:
+-	'Tuy nhiên, khuôn'
+-	R
+-	'mặt cô vẫn tươi sáng.'
++	'Phía nam'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Hà... hà...'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Silky gắng gượng'
++	R
++	'đứng, như dựa hẳn'
++	R
++	'vào một thân cây lớn.'
++	\L_0377e:
++	ZH 1:
++	'Toàn thân nàng ướt'
++	R
++	'đẫm mồ hôi khó chịu.'
++	\L_0377e:
++	ZH 1:
++	'Đến giờ nàng đã hấp thụ máu'
++	R
++	'của Redeye, Piar, Medusa,'
++	\L_0377e:
++	ZH 1:
++	'Kesselring và Camilla.'
++	\L_0377e:
++	ZH 1:
++	'Nhờ vậy nàng đã có đủ sức'
++	R
++	'mạnh để đánh ngang ngửa với'
++	R
++	'Kayblis, Ma Nhân mạnh nhất.'
++	\L_0377e:
++	ZH 1:
++	'Nhưng cái giá là thân thể'
++	R
++	'nàng đang cận kề sụp đổ.'
++	\L_0377e:
++	ZH 1:
++	'Thế nhưng, gương mặt'
++	R
++	'nàng lại rạng rỡ.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03675:
+ 	ZH 1:
+-	'Với điều này, tôi'
+-	R
+-	'có thể đánh Bại Kayblis...'
+-	R
+-	'Tôi có thể cứu Ngài Hornet.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Ờ...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Silky từ từ'
+-	R
+-	'bắt đầu di chuyển.'
++	'Thế này là hạ được'
++	R
++	'Kayblis... Có thể'
++	R
++	'cứu Ngài Hornet.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Ư...'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Silky chầm chậm cất bước.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	!VAR0154 : 29!
+@@ -2037,40 +1973,38 @@
+ 		\L_03691:
+ 		ZM 32:
+ 		ZH 1:
+-		'Lâu đài Leazas'
++		'Thành Leazas'
+ 		R
+ 		ZM 24:
+ 		ZH 1:
+ 		R
+-		'Phòng Của Satella'
+-		R
+-		'Satella vừa ra khỏi bồn tắm.'
+-		\L_0377e:
+-		ZH 1:
+-		'Caesar đang sấy tóc'
+-		R
+-		'bằng bàn tay lớn của mình.'
++		'Phòng Satella'
++		R
++		'Satella vừa tắm xong.'
++		\L_0377e:
++		ZH 1:
++		'Caesar dùng bàn tay'
++		R
++		'to lớn lau tóc cho cô.'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03659:
+ 		ZH 1:
+-		'Tôi nóng quá... Caesar,'
+-		R
+-		'tôi muốn thứ gì đó lạnh.'
+-		R
+-		'Đá bào sẽ tốt. Có vị dâu.'
++		'Nóng quá... Caesar, cho'
++		R
++		'cái gì mát mát đi. Đá'
++		R
++		'bào nhé. Siro dâu nha.'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_036c9:
+ 		ZH 1:
+-		'CÓ, thưa cô. SATELLA.'
++		'VÂNG, CHỦ NHÂN SATELLA.'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03691:
+ 		ZH 1:
+-		'Caesar nghe'
+-		R
+-		'lệnh của Satella và'
++		'Caesar nghe lệnh Satella,'
+ 		R
+ 		'đi sang phòng khác.'
+ 		\L_0377e:
+@@ -2081,47 +2015,47 @@
+ 		'............'
+ 		\L_0377e:
+ 		ZH 1:
+-		'Cậu đang kìm nén sự'
+-		R
+-		'hiện diện của mình, nhưng'
+-		R
+-		'ai đó ở đó, phải không?'
+-		\L_0377e:
+-		ZH 1:
+-		'Làm thế nào về việc đi ra?'
++		'Từ nãy tới giờ cứ giấu'
++		R
++		'khí tức... nhưng có'
++		R
++		'ai ở đó, đúng không?'
++		\L_0377e:
++		ZH 1:
++		'Ra đây đi thì sao?'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03691:
+ 		ZH 1:
+-		'Satella nói'
+-		R
+-		'về phía bức màn.'
++		'Satella nói với'
++		R
++		'kẻ ở sau tấm rèm.'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03675:
+ 		ZH 1:
+-		'Tôi không cảm thấy'
+-		R
+-		'thù địch gì cả... Nhưng có'
+-		R
+-		'vẻ như có người giống tôi...'
+-		\L_0377e:
+-		ZH 1:
+-		'Một con quỷ... Nhưng...'
++		'Không có sát khí...'
++		R
++		'Nhưng cảm thấy cùng'
++		R
++		'một thứ như Satella...'
++		\L_0377e:
++		ZH 1:
++		'Ma Nhân... nhưng mà...'
+ 		\L_0377e:
+ 		\L_03771:
+ 		!VAR0516 : 73!
+ 		\L_0371d:
+ 		\L_036c9:
+ 		ZH 1:
+-		'Có vẻ như cậu đã không nhận'
+-		R
+-		'được bất kỳ yếu hơn cho tất'
+-		\L_0377e:
+-		ZH 1:
+-		'cả thời gian này cậu đã'
+-		R
+-		'ở trong thế giới con người,'
++		'Ở thế giới loài người'
++		R
++		'lâu như vậy mà sức mạnh'
++		\L_0377e:
++		ZH 1:
++		'có vẻ chẳng suy'
++		R
++		'giảm chút nào nhỉ,'
+ 		\L_0377e:
+ 		ZH 1:
+ 		'Satella.'
+@@ -2134,32 +2068,26 @@
+ 		\L_03771:
+ 		\L_03691:
+ 		ZH 1:
+-		'Silky bước'
+-		R
+-		'ra từ phía sau bức màn và'
+-		R
+-		'Satella chạy đến chỗ cô.'
++		'Satella chạy ào tới Silky'
++		R
++		'vừa bước ra từ sau tấm rèm.'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03659:
+ 		ZH 1:
+-		'Silky, tại sao...?'
++		'Silky, sao lại...'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_036c9:
+ 		ZH 1:
+-		'Rất nhiều chuyện'
+-		R
+-		'đã xảy ra... Ah!'
++		'Nhiều chuyện lắm... A!'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03701:
+ 		ZH 1:
+-		'Silky tiến một'
+-		R
+-		'hoặc hai bước về phía'
+-		R
+-		'trước, sau đó vấp ngã.'
++		'Bước được một hai bước,'
++		R
++		'Silky loạng choạng.'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03659:
+@@ -2169,26 +2097,26 @@
+ 		\L_03771:
+ 		\L_03691:
+ 		ZH 1:
+-		'Satella điên'
+-		R
+-		'cuồng bắt gặp nàng.'
+-		\L_0377e:
+-		ZH 1:
+-		'Silky, người thậm chí'
+-		R
+-		'còn nhỏ hơn Satella, dễ dàng'
+-		R
+-		'rơi vào ngực cô. có gì sai?'
+-		\L_0377e:
+-		ZH 1:
+-		'Đã làm ai đó...'
++		'Satella vội đỡ lấy.'
++		\L_0377e:
++		ZH 1:
++		'Silky, còn nhỏ hơn cả'
++		R
++		'Satella vốn đã nhỏ nhắn,'
++		R
++		'ngã gọn vào lòng cô.'
++		\L_0377e:
++		ZH 1:
++		'Satella「Sao thế?'
++		R
++		'Bị kẻ nào đánh...」'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03701:
+ 		ZH 1:
+-		'Satella cảm thấy một sức'
+-		R
+-		'mạnh khuếch đại Từ Silky.'
++		'Satella cảm nhận được sức'
++		R
++		'mạnh đã khuếch đại từ Silky.'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03659:
+@@ -2198,9 +2126,9 @@
+ 		\L_03771:
+ 		\L_036c9:
+ 		ZH 1:
+-		'Huhu... Cậu có'
+-		R
+-		'nhận ra không...?'
++		'Phư phư... Cô'
++		R
++		'nhận ra rồi à...?'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03659:
+@@ -2208,18 +2136,18 @@
+ 		'Ừ...'
+ 		\L_0377e:
+ 		ZH 1:
+-		'Nhưng tại sao?'
+-		R
+-		'Tại sao cậu lại làm điều gì'
+-		R
+-		'đó nguy hiểm như vậy ...?'
++		'Nhưng sao lại thế?'
++		R
++		'Sao lại làm chuyện...'
++		R
++		'nguy hiểm thế này...'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_036c9:
+ 		ZH 1:
+-		'Rõ ràng là...'
+-		R
+-		'Để đánh bại Kayblis...'
++		'Còn phải hỏi... Để'
++		R
++		'thắng Kayblis...'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03659:
+@@ -2229,32 +2157,32 @@
+ 		\L_03771:
+ 		\L_03701:
+ 		ZH 1:
+-		'Những Cơn Lốc hận thù'
+-		R
+-		'đã ở trong Mắt Silky.'
++		'Trong đôi mắt Silky, hận'
++		R
++		'thù cuộn xoáy. Và chính'
++		R
++		'nó đang chống đỡ nàng...'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_036c9:
+ 		ZH 1:
+-		'Hôm nay thiếp...'
+-		R
+-		'ra rồi... để hỏi cậu'
+-		R
+-		'một điều... Satella...'
++		'Hôm nay... tôi đến... vì có'
++		R
++		'việc muốn nhờ... Satella...'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03659:
+ 		ZH 1:
+-		'... Cái gì?'
++		'......Việc gì?'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_036c9:
+ 		ZH 1:
+-		'Tôi định giết Kayblis...'
+-		R
+-		'Tôi không nghĩ mình sẽ'
+-		R
+-		'sống sót qua chuyện đó.'
++		'Tôi định... đồng quy vu tận'
++		R
++		'với Kayblis... Đúng hơn...'
++		R
++		'tôi chỉ trụ được đến đó.'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03659:
+@@ -2264,38 +2192,32 @@
+ 		\L_03771:
+ 		\L_036c9:
+ 		ZH 1:
+-		'Tôi chưa xong đâu... Bình'
+-		R
+-		'tĩnh và nghe này... Vậy...'
+-		\L_0377e:
+-		ZH 1:
+-		'Sau khi tôi làm'
+-		R
+-		'xong, hãy cứu cô Hornet...'
+-		\L_0377e:
+-		ZH 1:
+-		'Tôi tin cậu có'
+-		R
+-		'thể làm được... Satella...'
+-		\L_0377e:
+-		ZH 1:
+-		'Lẽ ra người đó'
+-		R
+-		'thực sự phải là tôi...'
+-		\L_0377e:
+-		ZH 1:
+-		'Chính vì phán đoán'
+-		R
+-		'sai lầm của tôi mà cô Hornet'
+-		R
+-		'đã bị Kayblis bắt giữ...'
+-		\L_0377e:
+-		ZH 1:
+-		'Vì vậy, tôi'
+-		R
+-		'phải đi làm điều này,'
+-		R
+-		'nhưng... Làm Ơn, Satella...'
++		'Chưa xong đâu... bình tĩnh'
++		R
++		'nghe tôi nói... Vậy nên...'
++		\L_0377e:
++		ZH 1:
++		'sau đó, xin cô hãy'
++		R
++		'cứu Ngài Hornet...'
++		\L_0377e:
++		ZH 1:
++		'Tôi tin... cô làm'
++		R
++		'được... Satella...'
++		\L_0377e:
++		ZH 1:
++		'Lẽ ra phải là tôi......'
++		\L_0377e:
++		ZH 1:
++		'Vì tôi phán đoán sai mà Ngài'
++		R
++		'Hornet bị Kayblis bắt...'
++		\L_0377e:
++		ZH 1:
++		'Nên lẽ ra tôi phải đi...'
++		R
++		'nhưng xin cô... Satella...'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03659:
+@@ -2303,43 +2225,39 @@
+ 		'.........'
+ 		\L_0377e:
+ 		ZH 1:
+-		'Đừng buồn bã như'
+-		R
+-		'thế... Hãy sống sót'
+-		R
+-		'trở về đi, Silky...'
+-		\L_0377e:
+-		ZH 1:
+-		'Đừng nói như'
+-		R
+-		'thể cậu không thể...!'
++		'Đừng nói... những chuyện'
++		R
++		'buồn như thế... Hãy'
++		R
++		'quay về... Silky...'
++		\L_0377e:
++		ZH 1:
++		'Đừng nói những lời'
++		R
++		'yếu đuối thế...!'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_036c9:
+ 		ZH 1:
+-		'Silky...'
+-		\L_0377e:
+-		ZH 1:
+-		'Làm ơn...'
++		'Satella......'
++		\L_0377e:
++		ZH 1:
++		'Xin cô......'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03659:
+ 		ZH 1:
+-		'... Được rồi...'
+-		\L_0377e:
+-		ZH 1:
+-		'Nếu điều đó có nghĩa là cậu'
+-		R
+-		'có thể chiến đấu mà không'
+-		R
+-		'cần lo lắng về điều đó...'
+-		\L_0377e:
+-		ZH 1:
+-		'Nhưng hãy hứa với anh điều'
+-		R
+-		'này nhé. Hãy làm mọi thứ có'
+-		R
+-		'thể để sống sót trở về...'
++		'...Được rồi...'
++		\L_0377e:
++		ZH 1:
++		'Nếu như thế giúp Silky'
++		R
++		'chiến đấu hết sức...'
++		\L_0377e:
++		ZH 1:
++		'Nhưng hãy hứa với tôi. Sẽ'
++		R
++		'cố hết sức để quay về...'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_036c9:
+@@ -2347,39 +2265,37 @@
+ 		'............'
+ 		\L_0377e:
+ 		ZH 1:
+-		'... Được rồi...'
++		'......Ừ...'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03701:
+ 		ZH 1:
+-		'Silky từ từ đứng dậy'
+-		R
+-		'khỏi cánh tay Của Satella.'
++		'Silky chầm chậm đứng dậy'
++		R
++		'khỏi vòng tay Satella.'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_036c9:
+ 		ZH 1:
+-		'Bây giờ... Nó nằm'
+-		R
+-		'trong tay cậu. Tôi không còn'
+-		R
+-		'nhiều thời gian nữa nên...'
+-		\L_0377e:
+-		ZH 1:
+-		'tôi cần phải đi...'
++		'Vậy... nhờ cô nhé.'
++		R
++		'Thời gian của tôi...'
++		R
++		'chẳng còn bao nhiêu...'
++		\L_0377e:
++		ZH 1:
++		'nên tôi đi đây...'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03659:
+ 		ZH 1:
+-		'... Được rồi...'
++		'......Ừ...'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_0372b:
+ 		\L_03701:
+ 		ZH 1:
+-		'Silky mỉm'
+-		R
+-		'cười và biến mất.'
++		'Silky mỉm cười rồi biến mất.'
+ 		\L_0377e:
+ 		\L_03771:
+ 		\L_03659:
+@@ -2387,9 +2303,9 @@
+ 		'Silky...'
+ 		\L_0377e:
+ 		ZH 1:
+-		'Tại sao...? Tại sao'
+-		R
+-		'điều này xảy ra...?'
++		'Tại sao... Tại sao lại'
++		R
++		'thành ra thế này...'
+ 		\L_0377e:
+ 		\L_03771:
+ 	}
+@@ -2412,59 +2328,59 @@
+ 	\L_03691:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Ma Vương'
++	'Thành Ma Vương'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng của Kayblis'
+-	R
+-	'Gyaaaaaaaah!!! có tiếng'
+-	R
+-	'thét của một người phụ nữ.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Ch... Đã chết rồi'
+-	R
+-	'à? Phụ nữ loài người không'
+-	R
+-	'tốt chút nào. Quá mong manh.'
+-	\L_0377e:
+-	ZH 1:
+-	'Sẽ thật tuyệt nếu tôi có'
+-	R
+-	'thứ gì đó mà tôi có thể tận'
+-	\L_0377e:
+-	ZH 1:
+-	'dụng được nhiều'
+-	R
+-	'hơn khi chơi cùng.'
+-	\L_0377e:
+-	ZH 1:
+-	'Giống như Hornet.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Ngươi sẽ làm'
+-	R
+-	'gì Với Ngài Hornet?'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Đó là ai?'
++	'Phòng Kayblis'
++	R
++	'Áaaaaa!!! Tiếng thét rợn'
++	R
++	'người của đàn bà vang lên.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Chậc... chết rồi à.'
++	R
++	'Đàn bà loài người kém'
++	R
++	'thật. Mỏng manh quá.'
++	\L_0377e:
++	ZH 1:
++	'Phải có thứ gì'
++	R
++	'đó... chơi đã hơn'
++	\L_0377e:
++	ZH 1:
++	'thì mới thích...'
++	\L_0377e:
++	ZH 1:
++	'Phải rồi... Hornet'
++	R
++	'chẳng hạn...'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Ngươi định... làm'
++	R
++	'gì Ngài Hornet?'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Đứa nào?'
+ 	\L_0377e:
+ 	\L_03771:
+ 	!VAR0516 : 73!
+ 	\L_0371d:
+ 	\L_036c9:
+ 	ZH 1:
+-	'Có vẻ như cậu'
+-	R
+-	'đang làm tốt đấy, Kayblis.'
++	'Có vẻ đang vui'
++	R
++	'nhỉ. Kayblis...'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03659:
+@@ -2474,102 +2390,98 @@
+ 	\L_03771:
+ 	\L_03691:
+ 	ZH 1:
+-	'Kayblis đột nhiên cảm'
+-	R
+-	'thấy mình run rẩy. áp'
+-	R
+-	'lực dữ dội này là Gì?'
+-	\L_0377e:
+-	ZH 1:
+-	'áp lực đến từ Silky.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Cái gì...?'
+-	R
+-	'Anh... có gì sai? Tôi có'
+-	R
+-	'đáng sợ Không, Kayblis?'
++	'Kayblis bỗng thấy toàn'
++	R
++	'thân run lên. Kayblis「Cái'
++	R
++	'gì... thế này... ...uy áp?」'
++	\L_0377e:
++	ZH 1:
++	'Luồng uy áp ấy'
++	R
++	'tỏa ra từ Silky.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Cái gì... ngươi......'
++	R
++	'Silky「Sao thế? Sợ'
++	R
++	'ta à? Kayblis.」'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03701:
+ 	ZH 1:
+-	'Silky cười nhẹ. Đôi'
+-	R
+-	'mắt cô hoàn toàn nhìn Xuống'
+-	R
+-	'Kayblis. ngươi đã nói gì!?'
+-	\L_0377e:
+-	ZH 1:
+-	'... Nhưng... Làm thế'
+-	R
+-	'nào...? Đáng lẽ ngươi không'
+-	R
+-	'nên mạnh hơn thế này...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Hừm...'
+-	\L_0377e:
+-	ZH 1:
+-	'Tôi đoán ngay cả một kẻ'
+-	R
+-	'cục súc ngu ngốc như cậu'
+-	\L_0377e:
+-	ZH 1:
+-	'cũng có thể nhận ra'
+-	R
+-	'rằng tôi đã thay đổi.'
+-	\L_0377e:
+-	ZH 1:
+-	'Tốt cho cậu.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Tôi... tôi hiểu'
+-	R
+-	'rồi!! Chết tiệt, cậu'
+-	R
+-	'đã ăn bao nhiêu rồi?!!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'... Không thành vấn đề...'
+-	\L_0377e:
+-	ZH 1:
+-	'Tôi sẽ làm bất'
+-	R
+-	'cứ điều gì nếu điều đó có'
+-	R
+-	'nghĩa là giết chết cậu...'
+-	\L_0377e:
+-	ZH 1:
+-	'đó là tất cả những gì có.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Không thể nào...!'
+-	\L_0377e:
+-	ZH 1:
+-	'Làm sao một con quỷ đơn giản'
+-	R
+-	'có thể tiêu thụ sức mạnh'
+-	R
+-	'của nhiều người như vậy?!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Anh đã làm tất cả'
+-	R
+-	'vì em! Cảm ơn tôi và đi sang'
+-	R
+-	'thế giới bên kia, Kayblis!!'
++	'Silky cười nhạt, ánh'
++	R
++	'mắt hoàn toàn coi thường'
++	R
++	'Kayblis. Kayblis「Cái gìii!?'
++	\L_0377e:
++	ZH 1:
++	'......Nhưng... sao chứ...'
++	R
++	'ngươi... lẽ ra không'
++	R
++	'mạnh được thế này...」'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Hừ...'
++	\L_0377e:
++	ZH 1:
++	'Đến kẻ ngu chỉ có sức trâu'
++	\L_0377e:
++	ZH 1:
++	'cũng nhận ra ta'
++	R
++	'đã thay đổi sao.'
++	\L_0377e:
++	ZH 1:
++	'Đáng khen đấy.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'B... biết rồi!! Mày đã'
++	R
++	'nuốt bao nhiêu đứa hả!!'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'...Chuyện đó không'
++	R
++	'quan trọng...'
++	\L_0377e:
++	ZH 1:
++	'Để giết được ngươi...'
++	R
++	'ta làm gì cũng được...'
++	\L_0377e:
++	ZH 1:
++	'chỉ vậy thôi.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Đồ ngu...!'
++	\L_0377e:
++	ZH 1:
++	'Một Ma Nhân quèn mà dám nuốt'
++	R
++	'sức mạnh của bấy nhiêu đứa!'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Tất cả là vì ngươi đấy!'
++	R
++	'Hãy biết ơn ta mà xuống'
++	R
++	'suối vàng đi, Kayblis!!'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_036bb:
+@@ -2579,169 +2491,157 @@
+ 	'............'
+ 	\L_0377e:
+ 	ZH 1:
+-	'Silky đã'
+-	R
+-	'chiến Đấu Với Kayblis với'
+-	R
+-	'tất cả sức mạnh mà cô có.'
+-	\L_0377e:
+-	ZH 1:
+-	'30 giây sau...'
++	'Silky dốc toàn bộ sức mạnh'
++	R
++	'chiến đấu với Kayblis.'
++	\L_0377e:
++	ZH 1:
++	'Rồi ba mươi giây sau......'
+ 	\L_0377e:
+ 	\L_03771:
+ 	!VAR0516 : 415!
+ 	\L_036ad:
+ 	\L_03659:
+ 	ZH 1:
+-	'Nhân chứng...'
+-	\L_0377e:
+-	ZH 1:
+-	'Hah... hah...'
+-	\L_0377e:
+-	ZH 1:
+-	'Mẹ kiếp... Nực'
+-	R
+-	'cười! Chỉ để cứu một'
+-	R
+-	'con quỷ ốm yếu...!!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Kayblis đã kiệt sức'
+-	R
+-	'và phải dựa vào tường.'
+-	\L_0377e:
+-	ZH 1:
+-	'Bằng cách nào đó'
+-	R
+-	'hắn vẫn còn sống.'
+-	\L_0377e:
+-	ZH 1:
+-	'Silky đang nằm dưới'
+-	R
+-	'chân hắn. Nàng đã chết...'
+-	\L_0377e:
+-	ZH 1:
+-	'Khuôn mặt cô vừa đau đớn'
+-	R
+-	'vừa buồn bã. đó là gần...'
+-	\L_0377e:
+-	ZH 1:
+-	'Gần đến nỗi đó'
+-	R
+-	'là một điều kỳ diệu'
+-	R
+-	'mà tôi vẫn còn sống.'
+-	\L_0377e:
+-	ZH 1:
+-	'Anh ngươi...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Cơ thể Của Silky'
+-	R
+-	'biến mất trong chớp mắt,'
+-	\L_0377e:
+-	ZH 1:
+-	'và sau đó chỉ còn'
+-	R
+-	'lại sáu linh hồn máu quỷ.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Ai đó... Có'
+-	R
+-	'ai ở đây không?!!'
++	'Hự...'
++	\L_0377e:
++	ZH 1:
++	'Hà... hà...'
++	\L_0377e:
++	ZH 1:
++	'Mẹ kiếp... con nhãi'
++	R
++	'gì thế! Chỉ để cứu một'
++	R
++	'Ma Nhân yếu ớt......!!'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Kayblis tơi tả,'
++	R
++	'dựa lưng vào tường.'
++	\L_0377e:
++	ZH 1:
++	'Hắn chỉ vừa đủ sống sót.'
++	\L_0377e:
++	ZH 1:
++	'Silky nằm lăn dưới chân'
++	R
++	'hắn. Đã tắt thở......'
++	\L_0377e:
++	ZH 1:
++	'Gương mặt ấy trông như đau'
++	R
++	'đớn, mà cũng như buồn bã...'
++	R
++	'một gương mặt như thế.'
++	\L_0377e:
++	ZH 1:
++	'Kayblis「Suýt chết'
++	R
++	'thật... Ta còn sống được'
++	\L_0377e:
++	ZH 1:
++	'cũng là lạ đấy. Mẹ kiếp...」'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Thân thể Silky tan'
++	R
++	'biến trong chớp mắt,'
++	\L_0377e:
++	ZH 1:
++	'chỉ còn lại sáu viên'
++	R
++	'Ma Huyết Hồn lăn lóc.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Có ai... có ai ở đây không!!'
+ 	\L_0377e:
+ 	\L_03771:
+ 	!VAR0516 : 483!
+ 	\L_0371d:
+ 	\L_036c9:
+ 	ZH 1:
+-	'Y-Vâng!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Đồ ngu!! Cậu thậm chí'
+-	R
+-	'còn bảo vệ nơi này?!!'
+-	\L_0377e:
+-	ZH 1:
+-	'Silky vào đây! Đôi'
+-	R
+-	'mắt của cậu có phải'
+-	R
+-	'là viên bi không?!!'
+-	\L_0377e:
+-	ZH 1:
+-	'Thùng rác vô giá trị!!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Th-đó là bởi'
+-	R
+-	'vì tất cả các lính canh'
+-	R
+-	'bên ngoài đã bị giết...'
+-	\L_0377e:
+-	ZH 1:
+-	'Chúng tôi cũng vậy...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Im đi!! Bảo'
+-	R
+-	'vệ tốt hơn!! Đó là'
+-	R
+-	'lệnh. Hiểu chưa?!!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Y-Vâng!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Thế là xong. Ra khỏi đây!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Vâng... Xin lỗi...'
++	'V... vâng!'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Đồ ngu!! Bọn mày'
++	R
++	'canh gác kiểu gì hả!!'
++	\L_0377e:
++	ZH 1:
++	'Silky lẻn vào tận đây đấy!'
++	R
++	'Mắt chúng mày là bi ve à!!'
++	\L_0377e:
++	ZH 1:
++	'Lũ vô dụng chết tiệt!!'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Th... thưa... lính gác bên'
++	R
++	'ngoài đều đã bị giết...'
++	\L_0377e:
++	ZH 1:
++	'Chúng tôi cũng...'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Im mồm!! Canh gác cho tử tế'
++	R
++	'vào!! Đây là lệnh. Rõ chưa!!'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'V... vâng!'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Có thế thôi. Mau'
++	R
++	'cút ra đằng kia!'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Vâng... xin cáo lui...'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_0372b:
+ 	\L_03659:
+ 	ZH 1:
+-	'Agh... Ôi... Chết tiệt...!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Kayblis vuốt ve'
+-	R
+-	'những chỗ đau đớn bằng lòng'
+-	R
+-	'bàn tay trong khi chửi rủa.'
++	'Ui... ui da... khốn kiếp...!'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Kayblis vừa lấy lòng bàn tay'
++	R
++	'xoa chỗ đau vừa chửi rủa.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03675:
+ 	ZH 1:
+-	'Ngay cả đối với tôi, bị'
+-	R
+-	'tấn công bây giờ sẽ rất tệ…'
+-	\L_0377e:
+-	ZH 1:
+-	'Tôi phải làm gì đó'
+-	R
+-	'cho đến khi bình phục…'
++	'Đến ta đây mà giờ bị'
++	R
++	'đánh thì cũng nguy...'
++	\L_0377e:
++	ZH 1:
++	'Phải làm gì đó cho'
++	R
++	'tới khi hồi phục...'
+ 	\L_0377e:
+ 	\L_03771:
+ 	!VAR0156 : 135!
+@@ -2771,51 +2671,49 @@
+ 	\L_03691:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Ma Vương'
++	'Thành Ma Vương'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng của Kayblis Trong'
+-	R
+-	'căn phòng lớn, Kayblis, giờ'
+-	R
+-	'là Ma Vương, đang thư giãn.'
+-	\L_0377e:
+-	ZH 1:
+-	'Hornet đã ở dưới chân hắn.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Có chuyện gì Vậy,'
+-	R
+-	'Hornet...? Sẽ không không'
+-	R
+-	'vâng lời tôi nữa? Keh...'
+-	\L_0377e:
+-	ZH 1:
+-	'Kukukukeh...'
+-	\L_0377e:
+-	ZH 1:
+-	'Không phải là cậu'
+-	R
+-	'có thể nếu cậu muốn...'
+-	\L_0377e:
+-	ZH 1:
+-	'Bởi vì ta'
+-	R
+-	'là Ma Vương, kẻ thống'
+-	R
+-	'trị lũ quỷ các ngươi.'
+-	\L_0377e:
+-	ZH 1:
+-	'Từ bây giờ tôi sẽ sử'
+-	R
+-	'dụng cậu làm nô lệ của mình.'
+-	\L_0377e:
+-	ZH 1:
+-	'Cậu không vui sao?'
++	'Phòng Kayblis'
++	R
++	'Trong căn phòng khổng lồ,'
++	R
++	'Kayblis, nay là Ma Vương,'
++	\L_0377e:
++	ZH 1:
++	'đang thư thái. Dưới chân'
++	R
++	'hắn là Ma Nhân Hornet.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Sao thế, Hornet... Không'
++	R
++	'chống lại ta nữa à? Hự...'
++	\L_0377e:
++	ZH 1:
++	'Khục khục khục kẹt...'
++	\L_0377e:
++	ZH 1:
++	'Muốn cũng chẳng'
++	R
++	'làm được đâu nhỉ...'
++	\L_0377e:
++	ZH 1:
++	'Vì ta là Ma Vương, chủ nhân'
++	R
++	'của lũ Ma Nhân các ngươi.'
++	\L_0377e:
++	ZH 1:
++	'Từ nay ta sẽ coi'
++	R
++	'ngươi là nô lệ của ta.'
++	\L_0377e:
++	ZH 1:
++	'Vui chứ hả?'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_036c9:
+@@ -2825,26 +2723,24 @@
+ 	\L_03771:
+ 	\L_03691:
+ 	ZH 1:
+-	'Kayblis giẫm'
+-	R
+-	'lòng bàn chân của'
+-	R
+-	'mình vào mặt Hornet.'
+-	\L_0377e:
+-	ZH 1:
+-	'Hornet im lặng nhận lấy.'
++	'Kayblis day day lòng'
++	R
++	'bàn chân lên mặt Hornet.'
++	\L_0377e:
++	ZH 1:
++	'Hornet im lặng chịu đựng.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03701:
+ 	ZH 1:
+-	'( bang) cánh cửa đột'
+-	R
+-	'nhiên bị đóng sầm mở.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Cái gì...? Im lặng!!'
++	'(Rầm) Đúng lúc đó, cánh cửa'
++	R
++	'bất ngờ bật mở thật mạnh.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Gì thế... ồn ào quá!!'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_0372b:
+@@ -2866,11 +2762,11 @@
+ 	\L_03659:
+ 	\L_03659:
+ 	ZH 1:
+-	'Chà, Nếu'
+-	R
+-	'cô Không Silky? Đến để'
+-	R
+-	'lấy thùng rác của tôi?'
++	'Gì đây, chẳng phải Silky'
++	R
++	'sao. Tới đổi giấy vụn'
++	R
++	'lấy giấy vệ sinh à?'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_0372b:
+@@ -2878,99 +2774,99 @@
+ 	\L_0371d:
+ 	\L_036c9:
+ 	ZH 1:
+-	'Đóng cửa...'
++	'Câm...'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03701:
+ 	ZH 1:
+-	'Silky mở to mắt vì sốc.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Có chuyện gì vậy?'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Không thể nào... Cậu...'
+-	\L_0377e:
+-	ZH 1:
+-	'Cậu Là Ma Vương...!?'
+-	R
+-	'đúng vậy. Ta cai trị quỷ.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Kayblis cong một bên'
+-	R
+-	'môi lên thành một nụ cười.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'... Cái gì...?'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Bây giờ,'
+-	R
+-	'cậu có thể trả lời câu hỏi'
+-	R
+-	'của Ma Vương không, Silky?'
+-	\L_0377e:
+-	ZH 1:
+-	'Cậu đến đây để làm gì?'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Kh...'
++	'Silky trợn tròn'
++	R
++	'mắt kinh hãi.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Sao thế?'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Lẽ nào... ng...'
++	R
++	'không... ngươi là...'
++	\L_0377e:
++	ZH 1:
++	'Ma Vương...!? Kayblis「Đúng'
++	R
++	'thế. Chủ nhân của lũ'
++	R
++	'Ma Nhân các ngươi.」'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Kayblis nhếch một'
++	R
++	'bên khóe môi cười.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'.........Sao......'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Nào, trả lời câu'
++	R
++	'hỏi của Ma Vương đại'
++	R
++	'nhân đi chứ, Silky.'
++	\L_0377e:
++	ZH 1:
++	'Ngươi đến đây làm gì?'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Hự...'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_036e5:
+ 	ZH 1:
+-	'Tôi không thể'
+-	R
+-	'di chuyển được...!'
+-	\L_0377e:
+-	ZH 1:
+-	'Kẻ thù đáng'
+-	R
+-	'ghét của tôi Kayblis đang ở'
+-	R
+-	'ngay trước mặt tôi, nhưng...'
+-	\L_0377e:
+-	ZH 1:
+-	'hắn là Chúa quỷ...'
+-	\L_0377e:
+-	ZH 1:
+-	'Quỷ chúng ta không'
+-	R
+-	'bao giờ có thể không'
+-	R
+-	'vâng lời anh ta...!!'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Này, có chuyện'
+-	R
+-	'gì vậy, Silky?'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Ặc...!!'
++	'Cơ thể không cử'
++	R
++	'động được...!'
++	\L_0377e:
++	ZH 1:
++	'Dù Kayblis đáng hận đang'
++	R
++	'ở ngay trước mặt......'
++	\L_0377e:
++	ZH 1:
++	'Không ngờ hắn đã trở'
++	R
++	'thành Ma Vương......'
++	\L_0377e:
++	ZH 1:
++	'Ma Nhân chúng ta tuyệt đối'
++	R
++	'không thể chống lại......!!'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Này, sao thế, Silky.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Hự...!!'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03701:
+ 	ZH 1:
+-	'Silky ôm ngực'
+-	R
+-	'và quỳ xuống.'
++	'Silky ôm ngực, khuỵu gối.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_0372b:
+@@ -2983,18 +2879,16 @@
+ 	\L_03771:
+ 	\L_03659:
+ 	ZH 1:
+-	'Tôi hiểu rồi...'
+-	R
+-	'... Bệ hạ đã ăn chúng à?'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Kayblis đưa tay'
+-	R
+-	'về phía Silky trong'
+-	R
+-	'khi cô quỳ trên sàn.'
++	'Ra vậy... ...Ngươi'
++	R
++	'đã nuốt vào à.'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Kayblis đưa tay về phía'
++	R
++	'Silky đang quỳ gối.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_0372b:
+@@ -3002,64 +2896,62 @@
+ 	\L_0371d:
+ 	\L_036c9:
+ 	ZH 1:
+-	'Áa...!!'
++	'Aaa...!!'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03701:
+ 	ZH 1:
+-	'Cơ thể đang'
+-	R
+-	'cúi về phía trước của'
+-	R
+-	'nàng giật ngược lại.'
+-	\L_0377e:
+-	ZH 1:
+-	'sau đó,'
+-	\L_0377e:
+-	ZH 1:
+-	'những quả cầu màu đỏ'
+-	R
+-	'tan ra khỏi cơ thể cô và'
+-	\L_0377e:
+-	ZH 1:
+-	'nổi lên lòng Bàn tay'
+-	R
+-	'Của Kayblis phía trên cô.'
++	'Thân thể Silky đang gập'
++	R
++	'lại bỗng ưỡn ngược ra sau.'
++	\L_0377e:
++	ZH 1:
++	'Rồi,'
++	\L_0377e:
++	ZH 1:
++	'từ cơ thể Silky, những'
++	R
++	'viên ngọc đỏ tan chảy ra,'
++	\L_0377e:
++	ZH 1:
++	'nổi lên phía lòng'
++	R
++	'bàn tay Kayblis đang'
++	R
++	'giơ trên người nàng.'
+ 	\L_0377e:
+ 	H 0, VAR0359 - 1:
+ 	ZH 1:
+-	'những quả cầu màu'
+-	R
+-	'đỏ được hút vào lòng'
+-	R
+-	'bàn tay của Kayblis.'
+-	\L_0377e:
+-	ZH 1:
+-	'để bắt đầu, đây là'
+-	R
+-	'máu Của Ma Vương của tôi.'
+-	\L_0377e:
+-	ZH 1:
+-	'Điều này là'
+-	R
+-	'quá nhiều đối với một con'
+-	R
+-	'quỷ đơn thuần như ngươi.'
+-	\L_0377e:
+-	ZH 1:
+-	'Biết giới hạn của ngươi.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Silky vẫn còn mờ'
+-	R
+-	'nhạt. Kayblis dẫm lên cô.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'Wah!'
++	'Những viên ngọc đỏ'
++	R
++	'ấy bị hút thẳng vào'
++	R
++	'lòng bàn tay Kayblis.'
++	\L_0377e:
++	ZH 1:
++	'Kayblis「Vốn dĩ đó là máu'
++	R
++	'của ta... của Ma Vương.'
++	\L_0377e:
++	ZH 1:
++	'Loại Ma Nhân quèn như ngươi'
++	R
++	'ôm nhiều thế là quá sức.'
++	\L_0377e:
++	ZH 1:
++	'Biết thân biết phận đi.」'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Kayblis đạp mạnh lên'
++	R
++	'Silky vẫn còn mơ màng.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'Ư a!'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_0372b:
+@@ -3072,9 +2964,9 @@
+ 	\L_03771:
+ 	\L_03659:
+ 	ZH 1:
+-	'Cái gì...? Có phàn'
+-	R
+-	'nàn Gì không, Hornet?'
++	'Gì thế... Có gì bất'
++	R
++	'mãn à? Hornet...'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_036c9:
+@@ -3084,32 +2976,34 @@
+ 	\L_03771:
+ 	\L_03701:
+ 	ZH 1:
+-	'Hornet có vẻ'
+-	R
+-	'muốn nói điều gì đó'
+-	R
+-	'nhưng lại không thể.'
+-	\L_0377e:
+-	ZH 1:
+-	'Bởi vì cô là một con quỷ'
+-	R
+-	'nên cô chỉ có thể vâng lời.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'... Ồ, vâng... Tôi đã nghĩ'
+-	R
+-	'ra một ý tưởng hay, Hornet.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Kayblis tiếp cận'
+-	R
+-	'Hornet và nắm lấy chiếc quai'
+-	R
+-	'hàm mảnh khảnh của nàng.'
++	'Ánh mắt Hornet như'
++	R
++	'muốn nói gì đó, nhưng'
++	R
++	'không thành lời.'
++	\L_0377e:
++	ZH 1:
++	'Vì phải phục tùng'
++	R
++	'Ma Vương... vì định'
++	R
++	'mệnh của Ma Nhân.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'......Phải rồi... ta nghĩ'
++	R
++	'ra trò hay rồi... Hornet.'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Kayblis tiến lại gần'
++	R
++	'Hornet, bóp lấy chiếc'
++	R
++	'cằm thon của nàng.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_036c9:
+@@ -3119,30 +3013,30 @@
+ 	\L_03771:
+ 	\L_03659:
+ 	ZH 1:
+-	'Tôi sẽ đụ cô bé'
+-	R
+-	'này. Giúp tôi với, Hornet.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'............ đó là'
+-	R
+-	'mệnh Lệnh Của Ma Vương.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'... Phải...'
++	'Giờ ta sẽ làm con nhóc'
++	R
++	'lùn này. Ngươi cũng'
++	R
++	'giúp một tay, Hornet.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'...... Kayblis「Lệnh'
++	R
++	'của Ma Vương đấy.」'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'......Vâng...'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03701:
+ 	ZH 1:
+-	'Hornet đáp lại'
+-	R
+-	'Kayblis bằng một giọng'
+-	R
+-	'run run và lặng lẽ.'
++	'Hornet đáp lại Kayblis'
++	R
++	'bằng giọng nhỏ run rẩy.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_0372b:
+@@ -3150,70 +3044,66 @@
+ 	\L_0371d:
+ 	\L_036c9:
+ 	ZH 1:
+-	'Cô... Hornet...'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Nghe này, Silky.'
+-	\L_0377e:
+-	ZH 1:
+-	'Từ nay trở đi'
+-	R
+-	'ngươi thề trung thành với'
+-	R
+-	'ta và làm mọi điều ta nói.'
+-	\L_0377e:
+-	ZH 1:
+-	'câu trả lời'
+-	R
+-	'của cậu Là gì!?'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03691:
+-	ZH 1:
+-	'Kayblis ấn mạnh'
+-	R
+-	'chân hơn vào đầu Silky.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_036c9:
+-	ZH 1:
+-	'... V-Vâng...!!'
++	'Ngài... Hornet...'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Nghe đây, Silky.'
++	\L_0377e:
++	ZH 1:
++	'Từ nay hãy thề trung'
++	R
++	'thành với ta, Ma Vương, và'
++	R
++	'nghe theo mọi lời ta nói.'
++	\L_0377e:
++	ZH 1:
++	'Trả lời đâu!?'
++	\L_0377e:
++	\L_03771:
++	\L_03691:
++	ZH 1:
++	'Kayblis càng đạp'
++	R
++	'mạnh lên đầu Silky.'
++	\L_0377e:
++	\L_03771:
++	\L_036c9:
++	ZH 1:
++	'......V... vâng...!!'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03701:
+ 	ZH 1:
+-	'Silky đáp lại bằng một'
+-	R
+-	'giọng thò ra từ đáy bụng.'
+-	\L_0377e:
+-	\L_03771:
+-	\L_03659:
+-	ZH 1:
+-	'Được rồi...'
+-	R
+-	'Cô gái ngoan...'
+-	\L_0377e:
+-	ZH 1:
+-	'Đây là lần đầu'
+-	R
+-	'tiên của em phải không?'
+-	R
+-	'Tôi sẽ nhẹ nhàng...'
+-	\L_0377e:
+-	ZH 1:
+-	'Tôi rất nhân từ...'
+-	\L_0377e:
+-	ZH 1:
+-	'Gahahahaha!'
+-	R
+-	'hahahahahahahaha!!'
+-	\L_0377e:
+-	ZH 1:
+-	'Bây giờ, Hornet. Liếm'
+-	R
+-	'mượt. Khắp cơ thể cô.'
++	'Silky đáp bằng giọng'
++	R
++	'như vắt ra từ đáy lòng.'
++	\L_0377e:
++	\L_03771:
++	\L_03659:
++	ZH 1:
++	'Tốt... ngoan lắm...'
++	\L_0377e:
++	ZH 1:
++	'Ngươi... lần đầu phải không?'
++	R
++	'Ta sẽ nhẹ nhàng cho...'
++	\L_0377e:
++	ZH 1:
++	'Ta nhân từ lắm...'
++	\L_0377e:
++	ZH 1:
++	'Gahahahaha!!'
++	R
++	'Gehhahahahahaha!!'
++	\L_0377e:
++	ZH 1:
++	'Nào, Hornet. Liếm cho'
++	R
++	'Silky đi. Khắp mọi'
++	R
++	'ngóc ngách cơ thể.'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_0372b:
+@@ -3221,14 +3111,12 @@
+ 	\L_0371d:
+ 	\L_036c9:
+ 	ZH 1:
+-	'... Phải...'
++	'......Vâng...'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_036e5:
+ 	ZH 1:
+-	'Silky... Tha'
+-	R
+-	'thứ cho tôi...'
++	'Silky... tha thứ cho ta...'
+ 	\L_0377e:
+ 	\L_03771:
+ 	\L_03659:
+@@ -3244,11 +3132,9 @@
+ 	PF0 VAR0056:
+ 	\L_03701:
+ 	ZH 1:
+-	'Do đó, Silky'
+-	R
+-	'được đặt dưới Sự kiểm'
+-	R
+-	'soát của Kayblis...'
++	'Thế là Silky trở thành'
++	R
++	'thuộc hạ của Kayblis...'
+ 	\L_0377e:
+ 	\L_03771:
+ 	!VAR0359 : 10!

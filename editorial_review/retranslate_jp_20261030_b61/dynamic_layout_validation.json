@@ -1,0 +1,41 @@
+{
+  "hanny_composed_pages": [
+    {
+      "group": 97,
+      "names_tested": 50,
+      "max_pixels": 300.0,
+      "limit": 336,
+      "max_lines": 3
+    },
+    {
+      "group": 100,
+      "names_tested": 50,
+      "max_pixels": 288.0,
+      "limit": 336,
+      "max_lines": 3
+    },
+    {
+      "group": 107,
+      "names_tested": 50,
+      "max_pixels": 336.0,
+      "limit": 336,
+      "max_lines": 3
+    }
+  ],
+  "catalog_names": 50,
+  "population_numbers_preserved": true,
+  "stat_effects_preserved": true,
+  "menu_conditions_and_targets_unchanged": true,
+  "map_window": [
+    300,
+    40
+  ],
+  "map_diagnostic_pixels": 264.0,
+  "map_coordinate_extreme": "Ｘ＝1920：Ｙ＝800",
+  "map_coordinate_pixels": 204.0,
+  "pcm_worst_16bit_values": "Lỗi lệnh PCM［65535／65535］",
+  "pcm_pixels": 336.0,
+  "pcm_note": "Existing diagnostic layout unchanged; complete inline composition measured, no new wrapping or waits.",
+  "failures": [],
+  "live_playthrough": false
+}

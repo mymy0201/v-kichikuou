@@ -1,0 +1,11122 @@
+--- before/Gｱﾋﾞｧﾄｰﾙ.ADV
++++ src/Gｱﾋﾞｧﾄｰﾙ.ADV
+@@ -26,9 +26,9 @@
+ 	R
+ 	'Hành lang'
+ 	R
+-	'Maris và Aviator đang đứng'
+-	R
+-	'nói chuyện về công việc...'
++	'Tạm dừng công việc, Maris và'
++	R
++	'Aviator đứng nói chuyện...'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 6!
+@@ -37,73 +37,87 @@
+ 	\L_078d9:
+ 	\L_07815:
+ 	ZH 1:
+-	'Chắc cô vất vả lắm...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Khi kết hôn, tôi đã hứa sẽ'
+-	R
+-	'rời quân đội.'
+-	\L_0793a:
+-	ZH 1:
+-	'Giờ anh ấy giận, tôi cũng'
+-	R
+-	'hiểu.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Xin lỗi cô. Vì tình thế cấp'
+-	R
+-	'bách, tôi lại phải nhờ cô'
+-	R
+-	'trở về...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Không sao.'
+-	\L_0793a:
+-	ZH 1:
+-	'Bảo vệ Leazas cũng là bảo'
+-	\L_0793a:
+-	ZH 1:
+-	'vệ chồng tôi.'
+-	\L_0793a:
+-	ZH 1:
+-	'Dù có phải ly'
+-	\L_0793a:
+-	ZH 1:
+-	'hôn, tôi cũng sẽ không'
+-	\L_0793a:
+-	ZH 1:
+-	'rời quân đội'
+-	\L_0793a:
+-	ZH 1:
+-	'cho tới khi đất nước'
+-	\L_0793a:
+-	ZH 1:
+-	'thanh bình.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Cảm ơn cô... Xin lỗi cô,'
+-	R
+-	'Aviator.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Đừng xin lỗi nữa. Cô đâu có'
+-	R
+-	'lỗi gì.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Được rồi...'
++	'Vậy à...... cô'
++	R
++	'đã vất vả quá.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Ừ, nhưng tôi kết hôn với lời'
++	R
++	'hứa sẽ rời Đội Cận vệ......'
++	\L_0793a:
++	ZH 1:
++	'nên chồng tôi giận'
++	R
++	'cũng phải thôi.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Xin lỗi cô, chỉ vì tôi đã'
++	R
++	'nhờ một chuyện quá sức......'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Không sao đâu, đừng'
++	R
++	'bận tâm, cô Maris.'
++	\L_0793a:
++	ZH 1:
++	'Đang lúc nguy cấp'
++	R
++	'mà...... đành vậy thôi.'
++	\L_0793a:
++	ZH 1:
++	'Tôi sẽ chiến'
++	R
++	'đấu vì Leazas...'
++	\L_0793a:
++	ZH 1:
++	'Chính vì nguy cấp, tôi'
++	R
++	'càng phải chiến đấu'
++	R
++	'để bảo vệ chồng mình.'
++	\L_0793a:
++	ZH 1:
++	'Dù cho...... có bị ly hôn,'
++	\L_0793a:
++	ZH 1:
++	'tôi cũng không rời'
++	R
++	'chức đội trưởng Cận vệ.'
++	\L_0793a:
++	ZH 1:
++	'Cho tới khi'
++	\L_0793a:
++	ZH 1:
++	'hòa bình trở lại......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Cảm ơn cô......xin'
++	R
++	'lỗi cô, Aviator.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Kìa, lại xin lỗi nữa.'
++	R
++	'Cô không cần xin lỗi'
++	R
++	'tôi đâu, cô Maris.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừ......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+@@ -122,7 +136,7 @@
+ 	R
+ 	'Phòng yết kiến'
+ 	R
+-	'Rance gọi là Phi công.'
++	'Rance cho gọi Aviator.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 1!
+@@ -134,113 +148,111 @@
+ 	{VAR0690 = 1:
+ 		\L_07885:
+ 		ZH 1:
+-		'Bệ hạ cho gọi thần ạ? Cô vẫn'
++		'Vâng, Bệ hạ cho gọi tôi'
+ 		R
+-		'xinh đẹp như mọi khi. Tốt'
++		'ạ? Rance「Vẫn xinh đẹp'
+ 		R
+-		'lắm!'
++		'như mọi khi nhỉ, good!」'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07885:
+ 		ZH 1:
+-		'Thần rất vui. Nhưng thần'
++		'Ôi... Bệ hạ khéo nói.'
+ 		R
+-		'biết ngài đang đùa.'
++		'Nhưng không được đâu ạ.'
++		R
++		'Đùa là tôi biết ngay.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07815:
+ 		ZH 1:
+-		'Ta có đùa đâu.'
++		'Ta có đùa đâu. Đẹp là đẹp.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07885:
+ 		ZH 1:
+-		'Thần hơn ngài bảy tuổi, lại'
++		'Thôi mà... một bà'
+ 		R
+-		'đã có chồng. Chỉ là một bà'
++		'cô có gia đình, lớn'
+ 		R
+-		'cô thôi mà.'
++		'hơn ngài tới 7 tuổi.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07815:
+ 		ZH 1:
+-		'Bất cứ điều'
++		'Đượcccc hết, hoàn toàn OK.'
++		\L_0793a:
++		ZH 1:
++		'Vợ người ta hay lớn tuổi hơn'
+ 		R
+-		'gì, đó là okay.'
++		'cũng được, miễn là mỹ nhân.'
+ 		\L_0793a:
+ 		ZH 1:
+-		'Dù em đã kết hôn và'
++		'Ngủ với ta đi, Aviator.'
+ 		R
+-		'lớn tuổi hơn ta thì miễn'
+-		R
+-		'là em nóng bỏng là được.'
+-		\L_0793a:
+-		ZH 1:
+-		'Ngủ Với Ta, Phi công.'
+-		R
+-		'Hãy quan hệ tình dục.'
++		'Làm SEX đi, SEX.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07885:
+ 		ZH 1:
+-		'Trời ạ...'
++		'Thật là...'
+ 		\L_0793a:
+ 		ZH 1:
+-		'Kể cả những'
++		'Đùa cũng có giới hạn'
+ 		R
+-		'trò đùa cũng có giới'
++		'thôi chứ, Vua Rance.'
++		\L_0793a:
++		ZH 1:
++		'Tôi đã có người'
+ 		R
+-		'hạn của nó, Vua Rance.'
++		'chồng quý giá.'
+ 		\L_0793a:
+ 		ZH 1:
+-		'Tôi có một người'
++		'Dù là đùa, tôi cũng'
+ 		R
+-		'chồng mà tôi quan tâm.'
++		'không thể nói lời'
++		R
++		'phản bội chồng mình.'
+ 		\L_0793a:
+ 		ZH 1:
+-		'cho dù ngài'
++		'Nên lần sau, câu đùa'
+ 		R
+-		'có nghiêm túc hay không,'
++		'chào hỏi xin ngài đổi'
+ 		R
+-		'tôi Sẽ không phản bội hắn.'
+-		\L_0793a:
+-		ZH 1:
+-		'vì vậy, hãy'
+-		R
+-		'nghĩ về một trò đùa khác'
+-		R
+-		'để chào tôi với lần sau.'
++		'nội dung khác nhé.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07815:
+ 		ZH 1:
+-		'Một câu nói đùa để'
++		'Gì chứ, câu đùa chào'
+ 		R
+-		'chào hỏi... Ta không biết.'
++		'hỏi... kiểu ［làm'
++		R
++		'ăn khấm khá chứ］ à?'
+ 		\L_0793a:
+ 		ZH 1:
+-		'sau đó cố gắng'
++		'Aviator「Vâng, cũng'
+ 		R
+-		'nghĩ ra điều gì đó.'
++		'tàm tạm ạ. Vậy tôi'
+ 		R
+-		'Xin Lỗi, Vua Rance.'
++		'xin phép, Vua Rance.」'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_0784d:
+ 		ZH 1:
+-		'Aviator nhẹ nhàng gật'
++		'Aviator nhẹ nhàng'
+ 		R
+-		'đầu rồi rời đi. cô khá lạ...'
++		'cúi chào rồi lui ra.'
++		R
++		'Rance「Người kỳ lạ thật...'
+ 		\L_0793a:
+ 		ZH 1:
+-		'Có vẻ như cô sẽ'
++		'Nhưng tán lúc nào cũng chẳng'
+ 		R
+-		'không cố gắng quyến rũ cô'
+-		R
+-		'một cách nghiêm túc. Ch...'
++		'chịu tin là thật. Chậc...'
+ 		\L_0793a:
+ 		ZH 1:
+-		'Khập khiễng.'
++		'chán ngắt.」'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		!VAR0516 : 0!
+@@ -249,50 +261,52 @@
+ 	}
+ 	\L_07885:
+ 	ZH 1:
+-	'Vậy ngài gọi thần có việc gì'
+-	R
+-	'ạ?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Chồng cô cũng'
+-	\L_0793a:
+-	ZH 1:
+-	'là quân nhân à?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng. Anh ấy thuộc Thanh'
+-	\L_0793a:
+-	ZH 1:
+-	'Quân, học cùng khóa với thần'
+-	R
+-	'ở học viện quân sự.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Thôi, ta không hỏi chuyện'
+-	R
+-	'tình yêu.'
+-	\L_0793a:
+-	ZH 1:
+-	'Đã là quân nhân thì có thể'
+-	R
+-	'chết.'
+-	\L_0793a:
+-	ZH 1:
+-	'Hắn giữ chức'
+-	\L_0793a:
+-	ZH 1:
+-	'gì, đóng quân ở đâu?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'W-Tốt, um...'
++	'Vua Rance, ngài'
++	R
++	'cho gọi tôi ạ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ờ, ta muốn hỏi chút'
++	R
++	'về chồng cô. Chồng cô'
++	\L_0793a:
++	ZH 1:
++	'là quân nhân phải không?'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, anh ấy thuộc Thanh'
++	\L_0793a:
++	ZH 1:
++	'Quân. Chúng tôi học cùng'
++	R
++	'khóa ở trường sĩ quan...'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'À thôi, chuyện quen'
++	R
++	'nhau thì khỏi, khỏi.'
++	\L_0793a:
++	ZH 1:
++	'Thanh Quân à...... có'
++	R
++	'vẻ dễ chết đấy nhỉ.'
++	\L_0793a:
++	ZH 1:
++	'Thế, dưới quyền ai?'
++	\L_0793a:
++	ZH 1:
++	'Đơn vị và cấp bậc cụ thể?'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'D-dạ, ừm......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -300,25 +314,27 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Bệ hạ, gia đình rất quan'
+-	R
+-	'trọng với cô Aviator. Nếu'
+-	R
+-	'chồng'
+-	\L_0793a:
+-	ZH 1:
+-	'mất, có lẽ cô ấy sẽ rời quân'
+-	R
+-	'đội, thậm chí rời đất nước'
+-	R
+-	'này.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ta đã bảo sẽ ám sát chồng cô'
+-	R
+-	'ta đâu.'
++	'Bệ hạ Rance, cô'
++	R
++	'Aviator rất coi trọng'
++	R
++	'gia đình. Nếu chồng'
++	\L_0793a:
++	ZH 1:
++	'cô ấy mất, thần nghĩ cô'
++	R
++	'ấy sẽ rời quân đội và'
++	R
++	'rời khỏi nước luôn đấy.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ư...... ồn ào, Maris.'
++	R
++	'Có ai nói sẽ mưu'
++	R
++	'sát chồng cô ta đâu.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -326,24 +342,26 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Thưa bệ hạ, ngài còn việc gì'
+-	R
+-	'không ạ?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Không. Cô về đi.'
+-	\L_0793a:
+-	ZH 1:
+-	'Nếu ly hôn thì nhớ báo ta.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Thần xin phép, bệ hạ Rance.'
+-	R
+-	'Tạm biệt cô, Maris.'
++	'Ừm, Vua Rance......'
++	R
++	'vậy ngài cần gì ạ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Chẳng có gì, về được rồi.'
++	\L_0793a:
++	ZH 1:
++	'À, ly dị chồng'
++	R
++	'rồi thì báo ta.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, tôi xin phép. ...Cô'
++	R
++	'Maris, tạm biệt nhé.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -351,28 +369,30 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Tạm biệt cô.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Hai người mỉm cười chào'
+-	R
+-	'nhau.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Chết tiệt, ngươi đang'
+-	R
+-	'âm mưu chống lại ta ...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Cô ấy là người bạn quý của'
+-	R
+-	'thần.'
++	'Vâng, tạm biệt.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Trao nụ cười qua ánh'
++	R
++	'mắt với Maris đứng cạnh'
++	R
++	'Rance, Aviator rời phòng.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Chết tiệt, đàn bà với'
++	R
++	'nhau cấu kết......'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vì cô ấy là người'
++	R
++	'bạn quý của thần.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+@@ -405,21 +425,25 @@
+ 	}
+ 	\L_07885:
+ 	ZH 1:
+-	'Thưa bệ hạ, thần muốn giới'
+-	R
+-	'thiệu một người với ngài.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Người đẹp à? Vậy ta gặp.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, rất đẹp. Cô Aviator,'
+-	R
+-	'mời vào.'
++	'Bệ hạ Rance, có người'
++	R
++	'thần muốn giới thiệu với'
++	R
++	'ngài...... được chứ ạ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Người đẹp à? Chắc là người'
++	R
++	'đẹp nhỉ. Người đẹp thì gặp.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng... vậy là người đẹp'
++	R
++	'ạ...... Cô Aviator, mời vào.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_0784d:
+@@ -427,9 +451,9 @@
+ 	'Được Maris gọi,'
+ 	\L_0793a:
+ 	ZH 1:
+-	'một mỹ nữ điềm đạm bước vào'
+-	R
+-	'phòng yết kiến.'
++	'một mỹ nữ phong thái điềm'
++	R
++	'đạm bước vào phòng yết kiến.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -437,16 +461,16 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Vâng, thần xin phép.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ừm, tốt!! Muốn vào'
+-	R
+-	'hậu cung của ta à? Ta'
+-	R
+-	'chắc chắn là em biết.'
++	'Vâng, tôi xin phép.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hừm, good!! Xin vào'
++	R
++	'hậu cung hả? Phải'
++	R
++	'rồi, chắc chắn là vậy.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -455,37 +479,43 @@
+ 	{VAR0550 \ 1:
+ 		\L_07885:
+ 		ZH 1:
+-		'Đây là người sẽ thay cô'
++		'Không phải ạ.'
++		R
++		'Cô ấy sẽ thay cô'
+ 		\L_0793a:
+ 		ZH 1:
+-		'Julia quá cố làm đội trưởng'
++		'Julia quá cố đảm nhiệm'
+ 		R
+-		'cận vệ.'
++		'đội trưởng Đội Cận vệ.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07815:
+ 		ZH 1:
+-		'Aah, ta hiểu rồi...'
++		'À, vậy à......'
+ 		R
+-		'Thế chỗ của Julia...'
++		'thay Julia à...'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07885:
+ 		ZH 1:
+-		'Trước cô Leila, cô ấy từng'
++		'Cô Aviator từng làm'
+ 		R
+-		'làm đội trưởng'
++		'đội trưởng Cận vệ'
++		R
++		'trước ngài Leila,'
+ 		\L_0793a:
+ 		ZH 1:
+-		'cận vệ. Sau khi kết hôn'
++		'nhưng đã giải ngũ'
++		R
++		'khi kết hôn...'
+ 		\L_0793a:
+ 		ZH 1:
+-		'thì giải ngũ, nhưng vì tình'
++		'Vì tình thế khẩn cấp,'
++		\L_0793a:
++		ZH 1:
++		'thần đã nài nỉ'
+ 		R
+-		'thế'
+-		\L_0793a:
+-		ZH 1:
+-		'khẩn cấp, cô ấy đã trở lại.'
++		'cô ấy trở lại.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_078e7:
+@@ -493,81 +523,95 @@
+ 		\L_078d9:
+ 		\L_07885:
+ 		ZH 1:
+-		'Thần là Aviator.'
++		'Xin ra mắt Vua Rance...'
++		R
++		'Tôi là Aviator.'
+ 		\L_0793a:
+ 		ZH 1:
+-		'Kính mong bệ hạ chỉ dạy.'
++		'Tôi còn non kém,'
++		R
++		'mong ngài chỉ giáo.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07815:
+ 		ZH 1:
+-		'Ừ, cùng cố gắng nhé.'
++		'Ừm, chỉ giáo nhau nhé.'
+ 		\L_0792d:
+ 	}
+ 	{VAR0550 = 1:
+ 		\L_07885:
+ 		ZH 1:
+-		'Không phải. Thần muốn cô ấy'
++		'Không phải ạ. Thần'
++		R
++		'định nhờ cô ấy'
+ 		\L_0793a:
+ 		ZH 1:
+-		'làm đội trưởng cận vệ'
++		'đảm nhiệm chức đội trưởng'
+ 		\L_0793a:
+ 		ZH 1:
+-		'mới...'
++		'Cận vệ mới...'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07815:
+ 		ZH 1:
+-		'Chà, tại sao'
++		'Hừm, được đấy chứ. Đẹp,'
+ 		R
+-		'không? Nàng nóng, thế là đủ'
+-		R
+-		'rồi. Có lý do gì để do dự?'
++		'good. Có gì phải do dự à?'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07885:
+ 		ZH 1:
+-		'Chỉ cô Aviator đủ năng lực'
++		'Vâng, theo thần thì ngoài'
+ 		R
+-		'đảm nhiệm. Nhưng hiện cô'
++		'cô Aviator đây không ai'
++		R
++		'hợp làm đội trưởng Cận vệ'
+ 		\L_0793a:
+ 		ZH 1:
+-		'ấy đang'
++		'cả, nhưng...'
+ 		\L_0793a:
+ 		ZH 1:
+-		'làm giáo quan trưởng tại'
++		'cô ấy hiện đang làm hiệu'
+ 		R
+-		'trường quân sự nữ...'
++		'trưởng kiêm giáo quan'
++		R
++		'trường sĩ quan nữ...'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07815:
+ 		ZH 1:
+-		'Đóng cửa trường đi.'
++		'Hửm...... trường sĩ quan'
++		R
++		'nữ. Phải rồi, có cái đó nhỉ.'
+ 		\L_0793a:
+ 		ZH 1:
+-		'Cho cô ta'
++		'Không cần, không cần,'
++		R
++		'đóng cửa. Aviator,'
+ 		\L_0793a:
+ 		ZH 1:
+-		'làm đội trưởng.'
++		'làm đội trưởng Cận vệ đi.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07885:
+ 		ZH 1:
+-		'Vậy...'
++		'Ừm......'
+ 		\L_0793a:
+ 		ZH 1:
+-		'vừa'
++		'vậy thì,'
+ 		\L_0793a:
+ 		ZH 1:
+-		'nhờ cô làm giáo quan'
++		'chuyện hiệu'
++		R
++		'trưởng, chính tôi'
+ 		\L_0793a:
+ 		ZH 1:
+-		'trưởng lại phải đổi nhiệm'
++		'đã nhờ cô, giờ'
+ 		R
+-		'vụ.'
++		'lại thế này......'
+ 		\L_0793a:
+ 		ZH 1:
+-		'Thật xin lỗi cô...'
++		'thật xin lỗi cô......'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_078e7:
+@@ -575,29 +619,29 @@
+ 		\L_078d9:
+ 		\L_07885:
+ 		ZH 1:
+-		'Không sao đâu, cô Maris.'
++		'Không, không sao'
+ 		R
+-		'Thần là Aviator,'
++		'đâu, cô Maris. Xin'
++		R
++		'ra mắt Vua Rance...'
+ 		\L_0793a:
+ 		ZH 1:
+-		'hân hạnh được'
++		'tôi là Aviator.'
+ 		\L_0793a:
+ 		ZH 1:
+-		'yết kiến bệ hạ. Tuy còn non'
++		'Tuy còn non kém,'
+ 		R
+-		'kém, thần xin'
++		'tôi xin được'
+ 		\L_0793a:
+ 		ZH 1:
+-		'trở lại phục vụ. Mong bệ hạ'
++		'trở lại phục vụ.'
+ 		R
+-		'chỉ dạy.'
++		'Mong ngài chỉ giáo...'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07815:
+ 		ZH 1:
+-		'Hừm, được'
+-		R
+-		'phục hồi rồi à...?'
++		'Hửm, trở lại...?'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_078e7:
+@@ -607,35 +651,37 @@
+ 		ZH 1:
+ 		'Vâng, cô Aviator là đội'
+ 		R
+-		'trưởng cận vệ trước cô'
++		'trưởng Cận vệ trước ngài'
+ 		R
+-		'Leila. Cô ấy giải ngũ khi'
++		'Leila. Đã giải ngũ khi'
+ 		\L_0793a:
+ 		ZH 1:
+-		'kết hôn, nhưng thần đã cố'
++		'kết hôn, thần nài nỉ'
+ 		R
+-		'thuyết phục cô ấy trở lại...'
++		'mãi cô ấy mới chịu...'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07815:
+ 		ZH 1:
+-		'Có chồng cũng được mà.'
++		'Gì chứ... vậy là vợ người'
++		R
++		'ta à. Nhưng thôi, được.'
+ 		\L_0792d:
+ 	}
+ 	\L_07815:
+ 	ZH 1:
+-	'Dù sao thì'
+-	R
+-	'chúng ta cũng nên thân'
+-	R
+-	'thiện trên giường nhé?'
+-	\L_0793a:
+-	ZH 1:
+-	'Đối với một số'
+-	R
+-	'liên kết vua-chủ đề.'
+-	R
+-	'Thế còn nó thì sao?'
++	'Trước mắt, chúng ta'
++	R
++	'nói chuyện thân mật'
++	R
++	'trên giường nhé?'
++	\L_0793a:
++	ZH 1:
++	'Vì sự thấu hiểu lẫn'
++	R
++	'nhau giữa vua và'
++	R
++	'thuộc hạ mà. Nhỉ.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -643,48 +689,46 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Tôi... không thể làm'
+-	R
+-	'vậy được, Vua Rance.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi là phụ nữ lớn tuổi'
+-	R
+-	'đã có chồng, cậu sẽ không'
+-	R
+-	'muốn dính dáng gì đến tôi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ta thực sự không'
+-	R
+-	'quan tâm. Nghiêm túc.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Trời ạ... Làm'
+-	R
+-	'ơn đừng giễu cợt người'
+-	R
+-	'lớn tuổi của mình nữa.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Aviator đang'
+-	R
+-	'cười khúc khích, gạt nó'
+-	R
+-	'đi một cách thành thục.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Này, ông không coi'
+-	R
+-	'trọng ta đâu.khập khiễng...'
++	'Thôi mà...... không'
++	R
++	'được đâu, Vua Rance.'
++	\L_0793a:
++	ZH 1:
++	'Đừng trêu một bà cô'
++	R
++	'có chồng như tôi chứ.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ta có trêu đâu.'
++	R
++	'Ta nghiêm túc đấy.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Thật là... không được'
++	R
++	'mà, đừng trêu người'
++	R
++	'lớn tuổi hơn chứ.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Aviator cười khúc'
++	R
++	'khích với vẻ điềm tĩnh'
++	R
++	'của người từng trải.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ư, chẳng chịu tin là'
++	R
++	'thật. Chán ngắt......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0550 : 3!
+@@ -697,21 +741,23 @@
+ 	!VAR0462 : 10!
+ 	\L_07885:
+ 	ZH 1:
+-	'Chúng ta cần bổ nhiệm đội'
+-	R
+-	'trưởng cận vệ mới.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Julia không còn nữa rồi à...'
+-	R
+-	'Có mặt thì'
+-	\L_0793a:
+-	ZH 1:
+-	'ồn ào, nhưng vắng cô ấy cũng'
+-	R
+-	'buồn thật.'
++	'Vua Rance, về Đội Cận vệ...'
++	R
++	'cần một đội trưởng mới.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hừm, Đội Cận vệ... phải'
++	R
++	'rồi, Julia không còn'
++	R
++	'nữa...... Có mặt thì'
++	\L_0793a:
++	ZH 1:
++	'ồn ào, nhưng mất đi'
++	R
++	'rồi lại thấy buồn.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -719,11 +765,9 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Thiếp cũng buồn lắm. Thiếu'
+-	R
+-	'Julia, thiếp thấy trống'
+-	R
+-	'trải...'
++	'Lia cũng buồn lắm...'
++	R
++	'huhu, Julia ơi...'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -731,15 +775,19 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Nhưng chúng ta không thể mãi'
+-	R
+-	'đau buồn.'
+-	\L_0793a:
+-	ZH 1:
+-	'Cần sớm bổ nhiệm'
+-	\L_0793a:
+-	ZH 1:
+-	'người thay thế.'
++	'Bệ hạ Rance...... Nữ hoàng'
++	R
++	'Lia. Không thể cứ chìm đắm'
++	R
++	'trong đau buồn mãi được.'
++	\L_0793a:
++	ZH 1:
++	'Đội Cận vệ là cần'
++	R
++	'thiết... Phải bổ nhiệm'
++	\L_0793a:
++	ZH 1:
++	'đội trưởng mới thôi ạ.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -747,14 +795,16 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Ừ, chị nói đúng... Chàng yêu'
+-	R
+-	'muốn chọn ai?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Maris làm đi.'
++	'Hức, cũng phải...'
++	R
++	'Chàng yêu muốn chọn ai?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Để xem...... vậy'
++	R
++	'ngươi làm đi.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -762,141 +812,155 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Thần ạ?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ngươi đủ năng lực mà.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Thưa bệ hạ, thần chỉ là thị'
+-	R
+-	'nữ của nữ hoàng Lia.'
+-	\L_0793a:
+-	ZH 1:
+-	'Không dám nhận trọng'
+-	\L_0793a:
+-	ZH 1:
+-	'trách đội trưởng cận vệ...'
++	'Dạ, thần sao...?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Đúng, ngươi thích hợp đấy.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Tiếc là, Bệ hạ Rance...'
++	R
++	'thần chỉ là thị nữ'
++	R
++	'của Nữ hoàng Lia.'
++	\L_0793a:
++	ZH 1:
++	'Không dám nhận trọng trách'
++	\L_0793a:
++	ZH 1:
++	'như đội trưởng Đội Cận vệ...'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07831:
+ 	ZH 1:
+-	'Ngày nào'
+-	\L_0793a:
+-	ZH 1:
+-	'ngươi chẳng làm nhiều'
+-	\L_0793a:
+-	ZH 1:
+-	'việc hơn một hầu gái.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Thôi, Maris chọn người đi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Thần biết một người thích'
+-	R
+-	'hợp. Để thần gọi cô ấy.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Gọi ngay đi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Screela, vào đây.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_078e7:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, cô Maris. Người phụ nữ'
+-	R
+-	'tên Screela bước vào, cử chỉ'
+-	R
+-	'nhanh gọn, đầy tự tin.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Hm... Đưa cô ra khỏi đây.'
++	'Giờ còn nói gì...'
++	\L_0793a:
++	ZH 1:
++	'ngày nào ngươi'
++	R
++	'chẳng làm toàn'
++	\L_0793a:
++	ZH 1:
++	'việc quá phận thị nữ.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Vậy giao cho ngươi. Không'
++	R
++	'biết ai thích hợp sao?'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Để xem, vậy thì... thần thử'
++	R
++	'gọi người thần nghĩ tới nhé.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Gì chứ, có sẵn còn'
++	R
++	'gì. Gọi đi, gọi mau.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng. Screela, vào đây.'
++	\L_0793a:
++	\L_0792d:
++	\L_078e7:
++	\L_07885:
++	ZH 1:
++	'Vâng, ngài Maris. Người phụ'
++	R
++	'nữ tên Screela bước vào,'
++	R
++	'dáng nhanh nhẹn gọn gàng.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hửm...... đuổi ra.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 6!
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Ơ...? Nhưng thưa bệ hạ...?'
+-	R
+-	'Phụ nữ xấu thì không được.'
+-	\L_0793a:
+-	ZH 1:
+-	'Giỏi đến đâu cũng mặc.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Nhưng...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ta mặc kệ. Đừng mang phụ nữ'
+-	R
+-	'xấu đến cho ta.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, bệ hạ Rance.'
+-	\L_0793a:
+-	ZH 1:
+-	'Screela tài giỏi nhưng kém'
+-	R
+-	'sắc bị đuổi khỏi phòng yết'
+-	R
+-	'kiến.'
+-	\L_0793a:
+-	ZH 1:
+-	'Vậy bệ hạ muốn ai làm đội'
+-	R
+-	'trưởng cận vệ?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Aviator'
++	'Dạ...... nhưng Bệ'
++	R
++	'hạ......? Rance「Đồ'
++	R
++	'xấu xí thì khỏi bàn.'
++	\L_0793a:
++	ZH 1:
++	'Chưa tới chuyện tài năng.」'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Nhưng mà...'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Bảo rồi, đừng để đồ'
++	R
++	'xấu xí lại gần ta.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng.'
++	\L_0793a:
++	ZH 1:
++	'Người phụ nữ tên Screela,'
++	R
++	'có tài nhưng xấu, bị'
++	R
++	'đuổi khỏi phòng yết kiến.'
++	\L_0793a:
++	ZH 1:
++	'Vậy, Bệ hạ Rance... ai sẽ'
++	R
++	'làm đội trưởng Cận vệ ạ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừmmm... ừmmmm... À phải,'
++	R
++	'người đó được. Cô giáo'
++	R
++	'trường sĩ quan nữ. Aviator'
+ 	\L_0793a:
+ 	ZH 1:
+ 	'ấy.'
+ 	\L_0793a:
+ 	ZH 1:
+-	'Cô đang dạy ở trường quân'
+-	R
+-	'sự.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Nhưng cô ấy còn nhiệm vụ'
+-	R
+-	'giảng dạy...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Đóng cửa trường. Gọi cô ta'
+-	R
+-	'đến.'
++	'Cô ấy dạy ở'
++	R
++	'trường sĩ quan nữ.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Nhưng Bệ hạ, cô ấy còn'
++	R
++	'nhiệm vụ giáo quan...'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ồn ào, trường lớp gì'
++	R
++	'thì thôi. Gọi cô ta tới.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07885:
+@@ -906,72 +970,82 @@
+ 	\L_0792d:
+ 	\L_07815:
+ 	ZH 1:
+-	'Làm đi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'... Đã hiểu.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_078e7:
+-	\L_0784d:
+-	ZH 1:
+-	'... Sau một thời gian...'
+-	\L_0793a:
+-	ZH 1:
+-	'Phi công xuất'
+-	R
+-	'hiện trước ngai vàng.'
++	'Gọi.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'.........Thần hiểu rồi.'
++	\L_0793a:
++	\L_0792d:
++	\L_078e7:
++	\L_0784d:
++	ZH 1:
++	'......Một lúc sau......'
++	\L_0793a:
++	ZH 1:
++	'Aviator xuất hiện'
++	R
++	'trước ngai vàng.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 76!
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Bệ hạ cho gọi thần ạ?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Cô Aviator,'
+-	\L_0793a:
+-	ZH 1:
+-	'từ giờ hãy thôi dạy'
+-	\L_0793a:
+-	ZH 1:
+-	'học, làm đội trưởng cận vệ'
+-	R
+-	'đi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vậy trường quân sự thì sao'
+-	R
+-	'ạ?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Đóng cửa. Ta quyết rồi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Thần hiểu rồi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Aviator trở thành đội trưởng'
+-	R
+-	'cận vệ. Trường quân'
+-	\L_0793a:
+-	ZH 1:
+-	'sự nữ cũng kết thúc lịch sử'
+-	R
+-	'ngắn ngủi của mình.'
++	'Ngài cho gọi tôi'
++	R
++	'ạ, Vua Rance?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Tới rồi à, cô giáo'
++	R
++	'Aviator. ......Không...'
++	\L_0793a:
++	ZH 1:
++	'từ giờ thôi làm'
++	R
++	'cô giáo. Aviator,'
++	\L_0793a:
++	ZH 1:
++	'từ hôm nay làm đội'
++	R
++	'trưởng Cận vệ. Lệnh đấy.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng...... nhưng Bệ hạ,'
++	R
++	'còn trường thì sao ạ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'À, cái đó quyết định'
++	R
++	'đóng cửa. Được chứ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, tôi tuân lệnh.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Thế là Aviator trở thành'
++	R
++	'tân đội trưởng Cận vệ...'
++	R
++	'và trường sĩ quan nữ'
++	\L_0793a:
++	ZH 1:
++	'Leazas khép lại lịch'
++	R
++	'sử ngắn ngủi của mình.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+@@ -991,14 +1065,12 @@
+ 	'Được rồi...'
+ 	\L_0793a:
+ 	ZH 1:
+-	'Ta có nên đi xem'
+-	R
+-	'học viện quân sự không?'
+-	\L_0793a:
+-	ZH 1:
+-	'Ta chắc chắn rằng bà'
+-	R
+-	'Phi công đang đợi ta.'
++	'Đi xem trường sĩ quan thôi.'
++	\L_0793a:
++	ZH 1:
++	'Cô giáo Aviator chắc'
++	R
++	'chắn đang đợi ta.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+@@ -1015,17 +1087,17 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Học viện quân sự nữ'
++	'Trường sĩ quan nữ'
+ 	\L_0793a:
+ 	{(VAR0462 = 4) * (VAR0562 = 0):
+ 		@L_04b6a:
+ 	}
+ 	ZH 1:
+-	'Rance vào học viện'
+-	R
+-	'quân sự. Nó có một'
+-	R
+-	'mùi hương nữ tính.'
++	'Rance bước vào ngôi'
++	R
++	'trường sĩ quan nồng'
++	R
++	'nặc mùi con gái.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	{VAR0462 = 100:
+@@ -1068,37 +1140,33 @@
+ 	\L_078d9:
+ 	\L_07815:
+ 	ZH 1:
+-	'Ừm... Maris.'
+-	R
+-	'Học Viện Quân Sự Nữ Sinh'
+-	R
+-	'đã xong rồi phải không?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, nó đã có khai trương'
+-	R
+-	'chính thức trong lâu đài.'
+-	R
+-	'Tôi sẽ chỉ cho cậu ở đó chứ?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ừm, tôi sẽ đi xem.'
+-	\L_0793a:
+-	ZH 1:
+-	'Gahahahaha!, nóng lòng'
+-	R
+-	'muốn xem ngôi trường quân'
+-	R
+-	'sự dành cho nữ sinh này.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vậy thì đi thôi.'
++	'Ừm...... Maris. Trường sĩ'
++	R
++	'quan nữ xây xong rồi nhỉ.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, đã khai giảng'
++	R
++	'trong thành rồi ạ. Thần'
++	R
++	'dẫn ngài đi xem nhé?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừm, đi xem.'
++	\L_0793a:
++	ZH 1:
++	'Gahahahaha, vườn hoa'
++	R
++	'con gái à, háo hức quá.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vậy ta đi thôi ạ.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+@@ -1117,39 +1185,39 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Học viện quân sự nữ'
+-	R
+-	'Rance được Dẫn Dắt Bởi Maris'
+-	R
+-	'vào Học viện Quân Sự Nữ...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Hô hô... nơi này được'
+-	R
+-	'xây dựng khá độc đáo.'
+-	\L_0793a:
+-	ZH 1:
+-	'Như lẽ ra phải có tất'
+-	R
+-	'cả số tiền được ném vào đó.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, nó khá'
+-	R
+-	'tuyệt đẹp về mọi mặt.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ở đây có nhiều'
+-	R
+-	'cô gái được đào tạo để trở'
+-	R
+-	'thành tướng quân không...?'
++	'Trường sĩ quan nữ'
++	R
++	'Được Maris dẫn đường,'
++	R
++	'Rance bước vào trường...'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hô, hô... xây cũng xinh'
++	R
++	'xắn gọn gàng ra phết.'
++	\L_0793a:
++	ZH 1:
++	'Không uổng công đổ'
++	R
++	'cả đống tiền vào.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, quả là có nét'
++	R
++	'gì đó tươi tắn ạ.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ở đây có nhiều cô gái'
++	R
++	'đang được huấn luyện để'
++	R
++	'thành tướng quân à......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07831:
+@@ -1179,9 +1247,9 @@
+ 	\L_0792d:
+ 	\L_07885:
+ 	ZH 1:
+-	'Vua Rance...?...'
+-	R
+-	'À, Phi công.'
++	'Bệ hạ Rance......?'
++	R
++	'......A, cô Aviator.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -1189,10 +1257,12 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Chào buổi sáng, Maris.'
+-	\L_0793a:
+-	ZH 1:
+-	'Chào Mừng, Vua Rance.'
++	'Chào buổi sáng, cô Maris.'
++	\L_0793a:
++	ZH 1:
++	'Chào mừng ngài đã'
++	R
++	'tới, Vua Rance.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07815:
+@@ -1202,64 +1272,58 @@
+ 	\L_0792d:
+ 	\L_0784d:
+ 	ZH 1:
+-	'Một người phụ nữ hấp'
+-	R
+-	'dẫn với phong thái điềm tĩnh'
+-	R
+-	'xuất hiện trước mặt Rance.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Rất vui được'
+-	R
+-	'gặp cậu. Tôi là giảng viên'
+-	R
+-	'trưởng của học viện này.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tên tôi là Phi công.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ta hiểu rồi,'
+-	\L_0793a:
+-	ZH 1:
+-	'tất nhiên ông sẽ cần một'
+-	R
+-	'giáo viên nóng bỏng để nuôi'
+-	\L_0793a:
+-	ZH 1:
+-	'dạy những cô gái dễ'
+-	R
+-	'thương trở thành tướng quân.'
+-	\L_0793a:
+-	ZH 1:
+-	'Nàng mang lại cho ta'
+-	R
+-	'những rung cảm tốt đẹp.'
++	'Trước mặt Rance là một mỹ'
++	R
++	'nữ phong thái điềm đạm.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Xin ra mắt ngài, tôi'
++	R
++	'là hiệu trưởng kiêm'
++	R
++	'giáo quan của trường,'
++	\L_0793a:
++	ZH 1:
++	'tên là Aviator.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Vậy à,'
++	\L_0793a:
++	ZH 1:
++	'muốn đào tạo ra những'
++	R
++	'nữ tướng dễ thương'
++	\L_0793a:
++	ZH 1:
++	'thì cô giáo cũng'
++	R
++	'phải xinh nhỉ.'
++	\L_0793a:
++	ZH 1:
++	'Aviator, được đấy.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07831:
+ 	ZH 1:
+-	'Vâng... Học'
+-	R
+-	'sinh nên theo đuổi'
+-	R
+-	'giáo viên của họ...'
+-	\L_0793a:
+-	ZH 1:
+-	'Có lẽ ta nên'
+-	R
+-	'kiểm tra xem Ms. Aviator có'
+-	R
+-	'dùng được trên giường không.'
+-	\L_0793a:
+-	ZH 1:
+-	'Triệt để,'
+-	R
+-	'muheeheeheeheehee.'
++	'Phải rồi... người ta nói'
++	R
++	'học trò giống thầy......'
++	\L_0793a:
++	ZH 1:
++	'nên có lẽ cũng nên kiểm tra'
++	R
++	'xem cô giáo Aviator có dùng'
++	R
++	'được trên giường không.'
++	\L_0793a:
++	ZH 1:
++	'Kiểm tra từng ngóc'
++	R
++	'ngách, muhihihihi.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -1267,40 +1331,36 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Vua Rance, Aviator'
+-	R
+-	'là đội trưởng của Đội cận'
+-	R
+-	'vệ Hoàng gia trước Leila.'
+-	\L_0793a:
+-	ZH 1:
+-	'Nàng là một người'
+-	R
+-	'phụ nữ khá nổi bật.'
+-	\L_0793a:
+-	ZH 1:
+-	'nàng đã nghỉ'
+-	R
+-	'hưu khi kết hôn, và thành'
+-	R
+-	'lập một gia đình, nhưng...'
++	'Bệ hạ Rance, cô Aviator'
++	R
++	'là đội trưởng Cận'
++	R
++	'vệ trước ngài Leila,'
++	\L_0793a:
++	ZH 1:
++	'một người phụ nữ ưu tú.'
++	\L_0793a:
++	ZH 1:
++	'Cô ấy đã giải ngũ'
++	R
++	'khi kết hôn và lo'
++	R
++	'việc gia đình......'
+ 	\L_0793a:
+ 	!VAR0154 : 6!
+ 	ZH 1:
+-	'Tôi đã yêu cầu'
+-	R
+-	'nàng trở thành hiệu trưởng'
+-	R
+-	'Học viện Quân sự Nữ sinh'
++	'lần này, nhờ ngài'
++	R
++	'Barres tiến cử,'
+ 	{VAR0102 \ 0:
+ 		ZH 1:
+-		'với Sự chứng'
+-		R
+-		'Thực Của Sir Barres'
++		'thần đã nài nỉ cô ấy'
+ 	}
+ 	{VAR0102 = 0:
+ 		ZH 1:
+-		', có lẽ là vô lý'
++		'nhận chức hiệu trưởng'
++		R
++		'trường sĩ quan nữ'
+ 	}
+ 	ZH 1:
+ 	'.'
+@@ -1308,18 +1368,16 @@
+ 	\L_0792d:
+ 	\L_07815:
+ 	ZH 1:
+-	'Cái gì, vì vậy'
+-	R
+-	'nàng đã kết hôn...?'
+-	R
+-	'đó là tốt mặc dù.'
+-	\L_0793a:
+-	ZH 1:
+-	'Nếu chồng nàng'
+-	R
+-	'chết, nàng sẽ là một'
+-	R
+-	'góa phụ. Gahahahaha!.'
++	'Gì chứ, vậy là vợ'
++	R
++	'người ta à... Nhưng'
++	R
++	'vợ người ta cũng hay.'
++	\L_0793a:
++	ZH 1:
++	'Chồng chết là thành'
++	R
++	'góa phụ. Gahahahaha.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -1327,92 +1385,88 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Um, Vua Rance...?'
+-	R
+-	'uh, xin lỗi, chỉ cần'
+-	R
+-	'suy nghĩ một cái gì đó.'
+-	\L_0793a:
+-	ZH 1:
+-	'Vì vậy, cậu đã nuôi dạy'
+-	R
+-	'bất kỳ cô gái dễ thương,'
+-	\L_0793a:
+-	ZH 1:
+-	'xuất sắc phù hợp để'
+-	R
+-	'trở thành cấp dưới của ta?'
+-	\L_0793a:
+-	ZH 1:
+-	'Nếu chúng'
+-	R
+-	'dễ thương thì ta muốn'
+-	R
+-	'lấy chúng ngay bây giờ.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Heh... Ngài'
+-	R
+-	'quả là một người thiếu'
+-	R
+-	'kiên nhẫn, Vua Rance.'
+-	\L_0793a:
+-	ZH 1:
+-	'học viện này chỉ mới mở.'
+-	\L_0793a:
+-	ZH 1:
+-	'Các sinh viên đều'
+-	R
+-	'xuất sắc, nhưng họ yêu'
+-	R
+-	'cầu đào tạo nhiều hơn.'
+-	\L_0793a:
+-	ZH 1:
+-	'Xin vui lòng chờ đợi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Mhm... Vậy thì'
+-	R
+-	'ta sẽ chờ đợi.'
+-	\L_0793a:
+-	ZH 1:
+-	'Sản xuất một số cô'
+-	R
+-	'gái đủ khả năng để họ làm'
+-	R
+-	'cho đàn ông trông vô dụng.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tất nhiên, chúng'
+-	R
+-	'phải nóng. Không'
+-	R
+-	'có cô gái xấu xí.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Haah... Được rồi, ta'
+-	R
+-	'sẽ cố gắng hết sức có thể.'
+-	R
+-	'Hãy chờ đợi nhé, làm ơn.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Vậy ta sẽ quay lại.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Rance rời học'
+-	R
+-	'viện quân sự.'
++	'Ừm, Vua Rance......?'
++	R
++	'Rance「Không,'
++	R
++	'chuyện đó để sau.'
++	\L_0793a:
++	ZH 1:
++	'Thế, đã đào tạo được'
++	R
++	'cô gái nào dễ thương,'
++	\L_0793a:
++	ZH 1:
++	'ưu tú, hợp làm thuộc'
++	R
++	'hạ của ta chưa?'
++	\L_0793a:
++	ZH 1:
++	'Dễ thương là ta'
++	R
++	'dẫn về ngay.」'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Khúc khích... ngài thật'
++	R
++	'nóng vội, Vua Rance.'
++	\L_0793a:
++	ZH 1:
++	'Trường chúng tôi'
++	R
++	'mới khai giảng thôi.'
++	\L_0793a:
++	ZH 1:
++	'Học trò nào cũng ưu'
++	R
++	'tú, nhưng còn phải'
++	R
++	'rèn luyện nhiều.'
++	\L_0793a:
++	ZH 1:
++	'Xin ngài đợi thêm'
++	R
++	'một thời gian.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừm...... vậy à,'
++	R
++	'ta trông đợi đấy.'
++	\L_0793a:
++	ZH 1:
++	'Đào tạo nhân tài ưu'
++	R
++	'tú tới mức bọn đàn'
++	R
++	'ông thành đồ vô dụng.'
++	\L_0793a:
++	ZH 1:
++	'Đương nhiên toàn mỹ'
++	R
++	'nhân. Đồ xấu xí thì khỏi.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Haa...... vâng, tôi sẽ dốc'
++	R
++	'hết sức. Xin ngài chờ xem.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Vậy ta sẽ lại tới.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Rance rời khỏi'
++	R
++	'trường sĩ quan.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+@@ -1422,104 +1476,100 @@
+ 	!VAR0462 : 2!
+ 	\L_07815:
+ 	ZH 1:
+-	'ta có nên gặp Bà Aviator'
+-	R
+-	'không? Cô có thể ở đâu...?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'(nhìn xem)'
+-	\L_0793a:
+-	ZH 1:
+-	'(nhìn nhìn xem)'
+-	\L_0793a:
+-	ZH 1:
+-	'Rance nhìn xung'
+-	R
+-	'quanh. Sau đó...'
++	'Nào, đi gặp cô giáo'
++	R
++	'Aviator thôi. Không'
++	R
++	'biết đang ở đâu...'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'＜Ngó nghiêng＞'
++	\L_0793a:
++	ZH 1:
++	'＜Ngó nghiêng ngó nghiêng＞'
++	\L_0793a:
++	ZH 1:
++	'Rance nhìn quanh'
++	R
++	'quất. Thì......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 78!
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Hôm nay lại'
+-	R
+-	'quan sát học viện của'
+-	R
+-	'chúng ta à, thưa bệ hạ?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Một cô gái có vẻ là học'
+-	R
+-	'sinh ở đây chạy đến chỗ anh.'
+-	\L_0793a:
+-	ZH 1:
+-	'sau đó, cô đặt một'
+-	R
+-	'khuôn mặt nghiêm trang và'
+-	R
+-	'nghiêng đầu sang một bên.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ừm... Ừ,'
+-	R
+-	'nhưng ngươi là ai?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Tôi xin lỗi vì đã không'
+-	R
+-	'giới thiệu bản thân sớm hơn.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi là Rafalia, đại diện'
+-	R
+-	'hạng nhất của học viện này.'
++	'Bệ hạ. Hôm nay ngài'
++	R
++	'lại tới thị sát ạ?'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Một cô gái trông như học'
++	R
++	'viên ở đây lon ton chạy tới.'
++	\L_0793a:
++	ZH 1:
++	'Rồi với vẻ mặt hơi làm'
++	R
++	'bộ, cô nghiêng đầu nhìn.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hửm...... đúng'
++	R
++	'thế, còn cô là?'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Thứ lỗi vì giới'
++	R
++	'thiệu muộn, tôi là'
++	\L_0793a:
++	ZH 1:
++	'Rafalia, đại diện khóa 1'
++	R
++	'trường sĩ quan nữ Leazas.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07831:
+ 	ZH 1:
+-	'Hô... Cô khá dễ thương...'
+-	\L_0793a:
+-	ZH 1:
+-	'Hơn hết, cô phải khá'
+-	R
+-	'xuất sắc mới có thể đại'
+-	R
+-	'diện cho lớp của mình.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tốt, ta có cảm'
+-	R
+-	'giác tốt từ cô.'
+-	\L_0793a:
+-	ZH 1:
+-	'Có lẽ cô'
+-	R
+-	'nên là học sinh đầu tiên ta'
+-	R
+-	'đưa vào quân đội của mình.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Bệ Hạ...? Rance lơ đãng'
+-	R
+-	'cười toe toét, Và Rafalia'
+-	R
+-	'nhìn lên anh ta, bí ẩn.'
+-	\L_0793a:
+-	ZH 1:
+-	'Sau đó Phi'
+-	R
+-	'công đi ngang qua.'
++	'Hô... khá dễ'
++	R
++	'thương đấy......'
++	\L_0793a:
++	ZH 1:
++	'Mà đã là đại diện'
++	R
++	'khóa thì hẳn là ưu tú.'
++	\L_0793a:
++	ZH 1:
++	'Được, được lắm.'
++	\L_0793a:
++	ZH 1:
++	'Có khi đứa này sẽ'
++	R
++	'là học viên đầu tiên'
++	R
++	'vào quân của ta.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Bệ hạ......? Rafalia ngơ'
++	R
++	'ngác ngước nhìn Rance đang'
++	R
++	'bất giác cười tủm tỉm.'
++	\L_0793a:
++	ZH 1:
++	'Đúng lúc đó, Aviator'
++	R
++	'đi ngang qua.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -1527,14 +1577,14 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Ah, ngài đến rồi'
+-	R
+-	'à, Vua Rance?…Ồ, Rafalia.'
+-	\L_0793a:
+-	ZH 1:
+-	'Cậu có giới Thiệu'
+-	R
+-	'Mình Với Nhà Vua không?'
++	'A, ngài tới rồi'
++	R
++	'ạ, Vua Rance...'
++	R
++	'......Ơ kìa, Rafalia.'
++	\L_0793a:
++	ZH 1:
++	'Em chào hỏi Bệ hạ à?'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -1542,11 +1592,9 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Vâng, ta chỉ'
+-	R
+-	'tình cờ gặp hắn, vì vậy'
+-	R
+-	'ta quyết định ta nên.'
++	'Vâng, vừa đúng lúc em'
++	R
++	'trông thấy ngài ạ...'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -1554,45 +1602,45 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Tôi hiểu rồi...'
+-	\L_0793a:
+-	ZH 1:
+-	'Ồ, đây là một cơ'
+-	R
+-	'hội tốt. Vua Rance, cho phép'
+-	R
+-	'ta giới thiệu lại nàng.'
+-	\L_0793a:
+-	ZH 1:
+-	'Đây Là rafalia,'
+-	R
+-	'hiện là học sinh xuất sắc'
+-	R
+-	'nhất trong trường của ta.'
+-	\L_0793a:
+-	ZH 1:
+-	'Khả năng chiến thuật,'
+-	R
+-	'chiến lược và đấu kiếm của'
+-	R
+-	'nàng đều rất xuất sắc...'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi tin rằng nàng sẽ'
+-	R
+-	'trở thành một vị tướng giỏi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Hô, em đã được sự'
+-	R
+-	'đồng ý của hiệu trưởng à?'
+-	\L_0793a:
+-	ZH 1:
+-	'Có vẻ như ta có thể'
+-	R
+-	'mong đợi rất nhiều ở em.'
++	'Vậy à......'
++	\L_0793a:
++	ZH 1:
++	'Phải rồi, dịp tốt đây.'
++	R
++	'Vua Rance, cho phép'
++	R
++	'tôi giới thiệu lại.'
++	\L_0793a:
++	ZH 1:
++	'Em này là học viên'
++	R
++	'xuất sắc nhất trường'
++	R
++	'hiện nay, Rafalia.'
++	\L_0793a:
++	ZH 1:
++	'Chiến thuật, chiến lược,'
++	R
++	'kiếm thuật, môn nào'
++	R
++	'cũng rất xuất sắc...'
++	\L_0793a:
++	ZH 1:
++	'Tôi tin em ấy sẽ trở'
++	R
++	'thành một vị tướng giỏi.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hô, được hiệu'
++	R
++	'trưởng bảo đảm à.'
++	\L_0793a:
++	ZH 1:
++	'Vậy thì có vẻ đáng'
++	R
++	'trông đợi đấy.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -1600,91 +1648,83 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Vâng, Thưa Bệ Hạ.'
+-	R
+-	'Tôi sẽ cố hết sức...'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi chắc chắn'
+-	R
+-	'sẽ cho cậu thấy ta có thể'
+-	R
+-	'là một vị tướng có giá trị.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Tốt, thái độ'
+-	R
+-	'tốt. Nhân tiện, Rafalia...'
+-	R
+-	'Cậu có ngươi trai à?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Hah... Không,'
+-	R
+-	'thưa bệ hạ. Tôi có ý định'
+-	R
+-	'trở thành một người lính.'
+-	\L_0793a:
+-	ZH 1:
+-	'Một người thân'
+-	R
+-	'yêu sẽ chỉ cản đường một'
+-	R
+-	'người lính, phải không?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Hừ, ngươi khá'
+-	R
+-	'là thiếu linh hoạt.'
+-	\L_0793a:
+-	ZH 1:
+-	'Thật là khập'
+-	R
+-	'khiễng khi những cô'
+-	R
+-	'gái dễ thương như vậy.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Heh... chắc vậy,'
+-	R
+-	'nhưng có một người mà'
+-	R
+-	'ta đang tưởng tượng.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Cái gì!? Thật ngu'
+-	R
+-	'ngốc, đừng làm thế.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi không biết đó là ai'
+-	R
+-	'nhưng họ chắc chắn xấu hơn,'
+-	\L_0793a:
+-	ZH 1:
+-	'yếu đuối hơn và dở'
+-	R
+-	'chuyện chăn gối hơn ta.'
+-	\L_0793a:
+-	ZH 1:
+-	'Hãy quên họ đi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Nhưng, thưa bệ hạ...'
+-	R
+-	'ta đang nói đến ngài đấy.'
++	'Vâng, thưa Bệ hạ.'
++	R
++	'Tôi sẽ cố gắng...'
++	\L_0793a:
++	ZH 1:
++	'Cố gắng...... nhất'
++	R
++	'định sẽ trở thành vị'
++	R
++	'tướng có ích cho Bệ hạ.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Tốt, tinh thần tốt'
++	R
++	'đấy. Mà này, Rafalia...'
++	R
++	'có bạn trai chưa?'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Dạ...... Bệ hạ thật là.'
++	R
++	'Tôi là quân nhân tương lai.'
++	\L_0793a:
++	ZH 1:
++	'Với quân nhân, người'
++	R
++	'yêu chỉ thêm vướng'
++	R
++	'víu, đâu cần thiết ạ.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Gì chứ... cứng nhắc quá.'
++	\L_0793a:
++	ZH 1:
++	'Cô gái dễ thương mà'
++	R
++	'thế thì chán lắm.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Khúc khích... cũng phải'
++	R
++	'ạ, nhưng... tôi cũng có'
++	R
++	'người trong lòng đấy.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Cái gì!? Vớ vẩn, thôi ngay.'
++	\L_0793a:
++	ZH 1:
++	'Không biết là thằng nào,'
++	R
++	'nhưng chắc chắn xấu hơn,'
++	\L_0793a:
++	ZH 1:
++	'yếu hơn, dở'
++	R
++	'chuyện ấy hơn ta.'
++	\L_0793a:
++	ZH 1:
++	'Thôi đi.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Bệ hạ thật là... khúc khích,'
++	R
++	'người đó chính là Bệ hạ mà.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07815:
+@@ -1694,49 +1734,45 @@
+ 	\L_0792d:
+ 	\L_07885:
+ 	ZH 1:
+-	'Mỗi ngày, tôi đều mơ ước'
+-	R
+-	'được làm việc cho cậu với'
+-	R
+-	'tư cách là một người lính...'
+-	\L_0793a:
+-	ZH 1:
+-	'khi tôi nghĩ về cậu, nó'
+-	R
+-	'mang lại cho tôi động lực để'
+-	R
+-	'rèn luyện hết sức có thể...'
+-	\L_0793a:
+-	ZH 1:
+-	'Vì vậy, tôi'
+-	R
+-	'không cần tình yêu, nhưng'
+-	R
+-	'cậu là người tôi nghĩ đến.'
+-	\L_0793a:
+-	ZH 1:
+-	'Cậu có thể nói'
+-	R
+-	'điều đó, phải không?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'... Mm, mhm,'
+-	R
+-	'ngươi có thể. Tốt.'
+-	R
+-	'Ngươi thật dễ thương.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tiếp tục luyện tập'
+-	R
+-	'trong khi nghĩ về tôi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, thưa bệ hạ.'
++	'Tôi... ngày nào cũng mơ'
++	R
++	'tới ngày được phục vụ Bệ'
++	R
++	'hạ với tư cách quân nhân...'
++	\L_0793a:
++	ZH 1:
++	'Hình dung dáng Bệ'
++	R
++	'hạ làm động lực, tôi'
++	R
++	'dốc sức luyện tập...'
++	\L_0793a:
++	ZH 1:
++	'Vì vậy tôi không cần'
++	R
++	'yêu đương... nhưng người'
++	R
++	'trong lòng tôi là Bệ hạ.'
++	\L_0793a:
++	ZH 1:
++	'Có thể nói vậy được chứ ạ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'......Ừm, ừm, được.'
++	R
++	'Tốt, đứa dễ thương.'
++	\L_0793a:
++	ZH 1:
++	'Từ nay cứ lấy ta làm'
++	R
++	'động lực mà luyện tập.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, thưa Bệ hạ.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -1744,11 +1780,9 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Bây giờ,'
+-	R
+-	'Rafalia... Đã gần đến'
+-	R
+-	'giờ rồi. Trở lại lớp học.'
++	'Nào nào, Rafalia... sắp'
++	R
++	'tới giờ rồi. Về lớp đi em.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -1756,114 +1790,106 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Vâng, Người Hướng'
+-	R
+-	'Dẫn... Rất vui được'
+-	R
+-	'gặp Ngài, Thưa Bệ hạ.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi mong chờ lần'
+-	R
+-	'sau chúng ta gặp nhau.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_078e7:
+-	\L_0784d:
+-	ZH 1:
+-	'Rafalia cúi đầu và trở'
+-	R
+-	'lại tòa nhà của trường.'
++	'Vâng, thưa giáo'
++	R
++	'quan...... Xin chào Bệ hạ.'
++	\L_0793a:
++	ZH 1:
++	'Tôi mong chờ ngày'
++	R
++	'được gặp lại ngài.'
++	\L_0793a:
++	\L_0792d:
++	\L_078e7:
++	\L_0784d:
++	ZH 1:
++	'Rafalia cúi đầu chào'
++	R
++	'rồi trở về khu học.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 76!
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Cậu nghĩ Sao, Vua Rance?'
+-	\L_0793a:
+-	ZH 1:
+-	'Nàng hơi sớm,'
+-	R
+-	'nhưng nàng là một cô'
+-	R
+-	'gái tốt, phải không?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Vâng, cô khá nóng.'
+-	R
+-	'Tôi cũng thích tính cách'
+-	R
+-	'xa cách, mạnh mẽ của cô.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Ừm, ý tôi'
+-	R
+-	'không phải vậy...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Chà, Nếu cô có khả'
+-	R
+-	'năng vượt lên trên điều đó,'
+-	\L_0793a:
+-	ZH 1:
+-	'tôi muốn đưa cô vào quân'
+-	R
+-	'đội của tôi ngay bây giờ.'
+-	\L_0793a:
+-	ZH 1:
+-	'Bà Aviator, hãy tốt nghiệp'
+-	R
+-	'ngay lập tức. Tôi sẽ bắt'
+-	R
+-	'đầu sử dụng cô vào ngày mai.'
+-	\L_0793a:
+-	ZH 1:
+-	'tuy nhiên, có một số'
+-	R
+-	'điều tôi chưa dạy cô...'
+-	\L_0793a:
+-	ZH 1:
+-	'Nếu ngươi để cô ở'
+-	R
+-	'học viện này lâu hơn,'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi sẽ có thể phát'
+-	R
+-	'huy hết tiềm năng của cô.'
+-	\L_0793a:
+-	ZH 1:
+-	'Xin hãy đợi đến'
++	'Ngài thấy sao, Vua Rance?'
++	\L_0793a:
++	ZH 1:
++	'Em ấy có phần hơi già trước'
++	R
++	'tuổi... nhưng là đứa chững'
++	R
++	'chạc, ngoan đúng không ạ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừ, khá được đấy,'
++	R
++	'đẹp. Vẻ kiêu kiêu,'
++	R
++	'cứng cỏi cũng hay.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Ừm, ý tôi không phải vậy...'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Phải rồi, mà còn có'
++	R
++	'thực lực nữa thì...'
++	\L_0793a:
++	ZH 1:
++	'ta muốn đưa vào quân ngay.'
++	\L_0793a:
++	ZH 1:
++	'Cô giáo Aviator, cho'
++	R
++	'đứa đó tốt nghiệp'
++	R
++	'ngay đi. Mai ta dùng.'
++	\L_0793a:
++	ZH 1:
++	'Sao được ạ, chuyện đó... vẫn'
++	R
++	'còn vài điều tôi chưa dạy...'
++	\L_0793a:
++	ZH 1:
++	'Nếu ngài để em ấy ở'
++	R
++	'trường thêm ít lâu,'
++	\L_0793a:
++	ZH 1:
++	'tôi có thể phát huy tối'
++	R
++	'đa thực lực của em ấy.'
++	\L_0793a:
++	ZH 1:
++	'Xin ngài hãy đợi tới'
+ 	R
+ 	'lúc đó, Vua Rance.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07815:
+ 	ZH 1:
+-	'Mgh... Được'
+-	R
+-	'rồi, tôi sẽ đợi nếu cần.'
+-	R
+-	'Làm cho nó nhanh chóng.'
+-	\L_0793a:
+-	ZH 1:
+-	'được rồi, xin vui'
+-	R
+-	'lòng để lại cho tôi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Rance rời học'
+-	R
+-	'viện quân sự.'
++	'Hừm...... đành vậy,'
++	R
++	'ta đợi. Nhanh lên đấy.'
++	\L_0793a:
++	ZH 1:
++	'Aviator「Vâng, xin'
++	R
++	'cứ giao cho tôi.」'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Rance rời khỏi'
++	R
++	'trường sĩ quan.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+@@ -1872,77 +1898,77 @@
+ *L_02090:
+ 	\L_07815:
+ 	ZH 1:
+-	'Ồ, đó là Bà Aviator'
+-	R
+-	'phải không? Này, Phi công.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Aviator nhìn thấy Rance'
+-	R
+-	'vẫy tay với cô và rời khỏi'
+-	R
+-	'trường học để đến gần anh.'
++	'Ồ, kia là...... cô'
++	R
++	'giáo Aviator chứ'
++	R
++	'ai. Này, cô giáo.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Thấy Rance vẫy tay, Aviator'
++	R
++	'từ trong trường bước ra.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 76!
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Chào Mừng, Vua Rance.'
+-	\L_0793a:
+-	ZH 1:
+-	'Đó là một'
+-	R
+-	'vinh dự cho cậu để quan sát'
+-	R
+-	'chúng tôi rất thường xuyên.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Mhm, tôi hay đến những'
+-	R
+-	'nơi có các cô gái nóng bỏng.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Chà, Tôi rất vui. Nhưng'
+-	R
+-	'cậu không nên trêu chọc'
+-	R
+-	'phụ nữ lớn tuổi như vậy...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Vậy, các cô gái thế nào?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Họ là những cô gái có'
+-	R
+-	'khả năng nhất được lựa chọn'
+-	R
+-	'từ khắp nơi trên đất nước,'
+-	\L_0793a:
+-	ZH 1:
+-	'vì vậy, tôi có'
+-	R
+-	'những kỳ vọng lớn về họ.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi chắc chắn rằng'
+-	R
+-	'họ sẽ phát triển thành'
+-	\L_0793a:
+-	ZH 1:
+-	'những người lính tốt'
+-	R
+-	'có thể hữu ích cho cậu.'
++	'Chào mừng ngài, Vua Rance.'
++	\L_0793a:
++	ZH 1:
++	'Ngài thường xuyên tới thị'
++	R
++	'sát... thật vinh hạnh.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừm, chỗ nào có mỹ'
++	R
++	'nhân thì ta tới bao'
++	R
++	'nhiêu lần cũng được.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Ôi, ngài khéo nói.'
++	R
++	'Không được trêu người'
++	R
++	'lớn tuổi hơn đâu......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Thế, sao rồi? Tình'
++	R
++	'hình các cô gái...'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, các em đều là những'
++	R
++	'đứa có tố chất, được'
++	R
++	'tuyển chọn khắp cả nước...'
++	\L_0793a:
++	ZH 1:
++	'nên rất đáng trông đợi.'
++	\L_0793a:
++	ZH 1:
++	'Rồi các em sẽ'
++	R
++	'trưởng thành thành'
++	\L_0793a:
++	ZH 1:
++	'những quân nhân giỏi,'
++	R
++	'có ích cho Vua Rance.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07831:
+@@ -1956,179 +1982,163 @@
+ 	\L_0792d:
+ 	\L_07885:
+ 	ZH 1:
+-	'Vua Rance...? Cậu'
+-	R
+-	'hạnh phúc vì điều gì?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Uh, không'
+-	R
+-	'có gì. Tôi muốn đi kiểm tra'
+-	R
+-	'một lớp học. Không sao chứ?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'À, tất nhiên rồi, nhưng...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'（ding dong ding dong...）'
+-	R
+-	'tiếng chuông vang lên qua'
+-	R
+-	'ngôi trường tuyệt đẹp.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Trường vừa kết'
+-	R
+-	'thúc trong ngày.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Hả, tôi hiểu rồi...'
+-	R
+-	'Hm? Có gì đó ồn ào.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Xáo trộn,'
+-	R
+-	'xáo trộn... Kyaaaah,'
+-	R
+-	'kyakyah... Kyahahahahahah...'
+-	\L_0793a:
+-	ZH 1:
+-	'din là một'
+-	R
+-	'cơn sốt của các cô gái rời'
+-	R
+-	'khỏi tòa nhà trường học.'
+-	\L_0793a:
+-	ZH 1:
+-	'Sau đó, họ nhìn'
+-	R
+-	'Thấy Rance từ xa và'
+-	R
+-	'thì thầm với nhau...'
+-	\L_0793a:
+-	ZH 1:
+-	'Kyah, đó là nhà vua...'
+-	\L_0793a:
+-	ZH 1:
+-	'Đàn ông khá cao...'
+-	\L_0793a:
+-	ZH 1:
+-	'Hắn ngầu hơn tôi tưởng...'
+-	\L_0793a:
+-	ZH 1:
+-	'Thì thầm... Thì'
+-	R
+-	'thầm... Kyah kyah...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Tôi xin lỗi, mấy'
+-	R
+-	'cô gái lắm chuyện lắm...'
+-	R
+-	'họ đang ở độ tuổi đó...'
+-	\L_0793a:
+-	ZH 1:
+-	'Không có con trai'
+-	R
+-	'nào được phép vào trường, vì'
+-	R
+-	'vậy họ không thấy nhiều lắm.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Không, không sao'
+-	R
+-	'đâu. Tôi thích nó.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Nhưng...'
+-	\L_0793a:
+-	ZH 1:
+-	'tiếp tục đi,'
+-	R
+-	'tất cả các em.'
+-	\L_0793a:
+-	ZH 1:
+-	'Cậu đang thô lỗ với'
+-	R
+-	'nhà vua đấy, nhanh chóng trở'
+-	R
+-	'về ký túc xá của mình đi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Phi công vỗ tay và...'
+-	\L_0793a:
+-	ZH 1:
+-	'Kyaaah, bà'
+-	R
+-	'Aviator, tôi xin lỗi!'
+-	\L_0793a:
+-	ZH 1:
+-	'Xin hãy quay'
+-	R
+-	'lại, thưa bệ hạ!'
+-	\L_0793a:
+-	ZH 1:
+-	'Tạm biệt!'
+-	\L_0793a:
+-	ZH 1:
+-	'Xáo trộn, xáo'
+-	R
+-	'trộn, xáo trộn...'
+-	\L_0793a:
+-	ZH 1:
+-	'các cô gái bỏ'
+-	R
+-	'lại một quán ăn khi họ rút'
+-	R
+-	'khỏi tòa nhà của trường.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ngươi không cần phải'
+-	R
+-	'xua đuổi chúng... Chà,'
+-	R
+-	'có lẽ tôi cũng nên đi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Xin hãy quay lại'
+-	R
+-	'lần nữa, Vua Rance.'
+-	\L_0793a:
+-	ZH 1:
+-	'rance rời học viện'
+-	R
+-	'cảm thấy tốt sau khi'
+-	\L_0793a:
+-	ZH 1:
+-	'đắm mình trong sự chú'
+-	R
+-	'ý của rất nhiều cô gái.'
++	'Vua Rance......? Có'
++	R
++	'chuyện gì vui sao ạ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Không, chẳng có gì.'
++	R
++	'Ta muốn dự giờ một'
++	R
++	'tiết học, được chứ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'À, tất nhiên rồi'
++	R
++	'ạ, nhưng......'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'＜Kính coong kính coong...＞'
++	R
++	'Tiếng chuông vang khắp'
++	R
++	'ngôi trường rực rỡ.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vừa đúng giờ tan học ạ.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Gì chứ, vậy à......'
++	R
++	'hửm? Ồn ào nhỉ.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Xì xào xì xào...... Kyaaa,'
++	R
++	'kya kya... kyahahaha......'
++	\L_0793a:
++	ZH 1:
++	'Kèm tiếng rì rầm nghe'
++	R
++	'nhột nhột, cả đám nữ'
++	R
++	'sinh từ khu học ùa ra.'
++	\L_0793a:
++	ZH 1:
++	'Rồi các em đứng từ xa nhìn'
++	R
++	'Rance, thì thầm với nhau...'
++	\L_0793a:
++	ZH 1:
++	'Kya, nhà vua kìa, nhà vua...'
++	\L_0793a:
++	ZH 1:
++	'Đúng là cao thật,'
++	R
++	'đàn ông mà...'
++	\L_0793a:
++	ZH 1:
++	'Có khi ngầu hơn'
++	R
++	'mình tưởng...'
++	\L_0793a:
++	ZH 1:
++	'Thì thầm... thì'
++	R
++	'thầm... kya kya...'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Xin lỗi ngài, mấy đứa'
++	R
++	'lắm điều quá......'
++	R
++	'cũng tới tuổi ấy rồi...'
++	\L_0793a:
++	ZH 1:
++	'Trong trường cấm nam'
++	R
++	'giới, nên các em hiếm'
++	R
++	'khi thấy đàn ông.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Không, được mà. Thấy'
++	R
++	'cũng sướng sướng.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Nhưng mà......'
++	\L_0793a:
++	ZH 1:
++	'Nào nào, các em.'
++	\L_0793a:
++	ZH 1:
++	'Thất lễ với Bệ hạ đấy,'
++	R
++	'mau về ký túc xá đi.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Aviator vỗ tay'
++	R
++	'bộp bộp, thì......'
++	\L_0793a:
++	ZH 1:
++	'Kyaa, cô ơi, em xin lỗi!'
++	\L_0793a:
++	ZH 1:
++	'Bệ hạ, ngài lại tới nhé!'
++	\L_0793a:
++	ZH 1:
++	'Chúng em xin phépppp!'
++	\L_0793a:
++	ZH 1:
++	'Xì xào xì xào......'
++	\L_0793a:
++	ZH 1:
++	'Để lại tiếng rì rầm, đám'
++	R
++	'nữ sinh rút vào khu học.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Đâu cần đuổi đi'
++	R
++	'chứ... Thôi, về vậy.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Ngài lại tới nhé, Vua Rance.'
++	\L_0793a:
++	ZH 1:
++	'Được bao cô gái chú'
++	R
++	'ý, Rance khoan khoái'
++	\L_0793a:
++	ZH 1:
++	'rời khỏi trường.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+@@ -2145,19 +2155,21 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'À... Chào mừng, Vua Rance.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Vâng, tôi ở đây.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Aviator bước ra'
+-	R
+-	'khỏi trường học.'
++	'A...... chào mừng ngài'
++	R
++	'đã tới, Vua Rance.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừ, ta tới đây.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Aviator từ trong'
++	R
++	'trường bước ra.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0001 : 0!
+@@ -2169,21 +2181,21 @@
+ 	}
+ 	ZH 1:
+ 	$L_02a0c$
+-	'Quyến Rũ'
++	'Tán tỉnh'
+ 	$
+ 	{VAR0002 = 0:
+ 		ZH 1:
+ 		$L_026b9$
+-		'Về Rafalia'
++		'Chuyện Rafalia'
+ 		$
+ 	}
+ 	ZH 1:
+ 	$L_02ba7$
+-	'Xem Rafalia'
++	'Gặp Rafalia'
+ 	$
+ 	R
+ 	$L_025b9$
+-	'Quay lại'
++	'Về'
+ 	$
+ 	]
+ 	@L_0254d:
+@@ -2191,54 +2203,50 @@
+ 	{VAR0001 = 0:
+ 		\L_07815:
+ 		ZH 1:
+-		'Hmmmm... Tôi quay lại đây.'
++		'Ừmmm...... về thôi.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07885:
+ 		ZH 1:
+-		'À, ừm, ngươi cần gì...?'
++		'Dạ, ừm, ngài cần gì ạ...'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07815:
+ 		ZH 1:
+-		'Đừng lo lắng về điều'
++		'Không, chẳng có hứng.'
+ 		R
+-		'đó. Tôi đi đây, hẹn gặp lại.'
++		'Ta về đây, tạm biệt.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07885:
+ 		ZH 1:
+-		'Được Rồi, um,'
++		'Vâng, ừm... ngài lại'
+ 		R
+-		'xin Vui lòng đến một'
+-		R
+-		'Lần nữa, Vua Rance...'
++		'tới nhé, Vua Rance...'
+ 		\L_0793a:
+ 		\L_0792d:
+ 	}
+ 	{VAR0001 \ 0:
+ 		\L_07815:
+ 		ZH 1:
+-		'Vậy thì tôi nên'
++		'Vậy ta về thôi. Ta'
+ 		R
+-		'đi rồi. Tôi sẽ quay lại'
+-		R
+-		'một thời gian, rất lâu.'
++		'sẽ lại tới, tạm biệt.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07885:
+ 		ZH 1:
+-		'Được rồi, tôi'
++		'Vâng, tôi đợi'
+ 		R
+-		'sẽ đợi, Vua Rance.'
++		'ngài, Vua Rance.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 	}
+ 	\L_0784d:
+ 	ZH 1:
+-	'Aviator tiễn Rance và'
+-	R
+-	'anh rời học viện quân sự.'
++	'Được Aviator tiễn ra, Rance'
++	R
++	'rời khỏi trường sĩ quan.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+@@ -2249,74 +2257,68 @@
+ 	!VAR0002 : 1!
+ 	\L_07815:
+ 	ZH 1:
+-	'Rafalia thế nào rồi?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Cô đang làm xuất'
+-	R
+-	'sắc như trước đây.'
+-	\L_0793a:
+-	ZH 1:
+-	'Điểm của cô là'
+-	R
+-	'tốt nhất trong trường'
+-	R
+-	'trong mọi môn học.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Mm...'
+-	\L_0793a:
+-	ZH 1:
+-	'Thực ra thì tôi đang cân'
+-	R
+-	'nhắc việc đưa cô vào quân'
+-	R
+-	'đội của mình sớm thôi...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'... Còn quá sớm'
+-	R
+-	'cho việc đó, Vua Rance.'
+-	\L_0793a:
+-	ZH 1:
+-	'cô chắc chắn'
+-	R
+-	'là một học sinh xuất sắc,'
+-	R
+-	'nhưng ít nhất hãy cho cô'
++	'Rafalia dạo này thế nào?'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, vẫn xuất'
++	R
++	'sắc như trước ạ.'
++	\L_0793a:
++	ZH 1:
++	'Lúc nào cũng đứng'
++	R
++	'nhất trường ở mọi môn.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừm......'
++	\L_0793a:
++	ZH 1:
++	'thật ra ta đang tính'
++	R
++	'sắp tới đưa con bé'
++	R
++	'vào quân của ta...'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Chuyện đó...... Vua'
++	R
++	'Rance, vẫn còn quá sớm ạ.'
++	\L_0793a:
++	ZH 1:
++	'Em ấy quả thật xuất'
++	R
++	'sắc, nhưng ít nhất'
++	R
++	'cũng cần học thêm'
+ 	R
+ 	{VAR0562 > 1:
+ 		H 0, VAR0562:
+ 		ZH 1:
+-		'nhiều tuần để'
+-		R
+-		'học tại trường này.'
++		' tuần ở trường nữa.'
+ 	}
+ 	{VAR0562 = 1:
+ 		ZH 1:
+-		'một tuần nữa để'
+-		R
+-		'học tại trường này.'
++		'một tuần ở trường nữa.'
+ 	}
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07815:
+ 	ZH 1:
+-	'Ừm,'
++	'Ừmmm, '
+ 	{VAR0562 > 1:
+ 		H 0, VAR0562:
+ 		ZH 1:
+-		'tuần...?'
++		' tuần à......?'
+ 	}
+ 	{VAR0562 = 1:
+ 		ZH 1:
+-		'một tuần nữa...?'
++		'thêm một tuần à......?'
+ 	}
+ 	\L_0793a:
+ 	\L_0792d:
+@@ -2327,45 +2329,39 @@
+ 	}
+ 	ZH 1:
+ 	$L_028af$
+-	'Đưa Cô Ấy Vào Phục Vụ'
++	'Vẫn cho nhập ngũ'
+ 	$
+ 	R
+ 	$L_02843$
+-	'Chờ Lâu Hơn Một Chút'
++	'Đợi thêm chút nữa'
+ 	$
+ 	]
+ 	@L_02805:
+ *L_02843:
+ 	\L_07815:
+ 	ZH 1:
+-	'Được rồi, tôi'
+-	R
+-	'sẽ đợi. Hãy cho cô một'
+-	R
+-	'nền giáo dục hoàn hảo.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Được rồi, để'
+-	R
+-	'đó cho tôi, Vua Rance. Cô'
+-	R
+-	'có tài năng xuất chúng...'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi sẽ cho ngươi thấy'
+-	R
+-	'tôi có thể biến cô thành'
+-	R
+-	'một vị tướng hàng đầu.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Mhm, tôi hy'
+-	R
+-	'vọng ngươi làm được.'
++	'Được, ta đợi thêm chút.'
++	R
++	'Dạy dỗ cho hoàn hảo vào.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, xin cứ giao'
++	R
++	'cho tôi, Vua Rance.'
++	R
++	'Em ấy là nhân tài...'
++	\L_0793a:
++	ZH 1:
++	'Tôi sẽ dạy dỗ để em ấy thành'
++	R
++	'một vị tướng xuất sắc nhất.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừm, nhờ cả vào cô.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	@L_0254d:
+@@ -2377,83 +2373,81 @@
+ 	'Không...'
+ 	\L_0793a:
+ 	ZH 1:
+-	'Thế giới đang trong tình'
+-	R
+-	'trạng khó khăn. Chúng tôi'
+-	R
+-	'đang chạy đua với thời gian.'
+-	\L_0793a:
+-	ZH 1:
+-	'Học sinh cần vận động.'
+-	\L_0793a:
+-	ZH 1:
+-	'Hiểu không?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Haah... Thế'
+-	R
+-	'nghĩa là sao...?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Bây giờ tôi sắp cho'
+-	R
+-	'Rafalia tốt nghiệp và đưa'
+-	R
+-	'cô vào quân đội của tôi.'
+-	\L_0793a:
+-	ZH 1:
+-	'Cô không cần giáo dục nữa.'
+-	\L_0793a:
+-	ZH 1:
+-	'Bản thân'
+-	R
+-	'tôi sẽ hết sức cẩn thận để'
+-	R
+-	'dạy cô chiến đấu thực sự.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Nhưng, thưa'
+-	R
+-	'vua... ngôi trường này được'
+-	R
+-	'xây dựng để làm gì vậy...?'
+-	\L_0793a:
+-	ZH 1:
+-	'đó là một mệnh lệnh.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, hiểu. Tôi'
+-	R
+-	'sẽ gửi cô đến lâu đài'
+-	R
+-	'vào tuần tới, sau đó.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Được rồi, tốt. Vậy'
+-	R
+-	'có lẽ tôi nên quay lại.'
+-	\L_0793a:
+-	ZH 1:
+-	'Có một vụ thu'
+-	R
+-	'hoạch bội thu, Gahahahaha!.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Rance rời học'
+-	R
+-	'viện quân sự.'
++	'tình hình thế giới'
++	R
++	'đang ngặt nghèo. Từng'
++	R
++	'giây từng phút đều quý,'
++	\L_0793a:
++	ZH 1:
++	'phải động viên'
++	R
++	'học sinh ra trận.'
++	\L_0793a:
++	ZH 1:
++	'Hiểu chứ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Haa... động viên'
++	R
++	'học sinh ạ......?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Cho Rafalia tốt nghiệp'
++	R
++	'ngay, đưa tới quân của ta.'
++	\L_0793a:
++	ZH 1:
++	'Không cần dạy thêm nữa,'
++	\L_0793a:
++	ZH 1:
++	'phần còn lại ta sẽ tận'
++	R
++	'tay chỉ bảo thực địa.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Nhưng Bệ hạ... như thế'
++	R
++	'thì ý nghĩa thành lập'
++	R
++	'ngôi trường này......'
++	\L_0793a:
++	ZH 1:
++	'Rance「Lệnh đấy.」'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Dạ, tôi hiểu rồi.'
++	R
++	'Vậy tuần sau tôi sẽ'
++	R
++	'cho em ấy lên thành.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Được lắm, thế được'
++	R
++	'rồi. Vậy về thôi.'
++	\L_0793a:
++	ZH 1:
++	'Thu hoạch, thu'
++	R
++	'hoạch, gahahahaha.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Rance rời khỏi'
++	R
++	'trường sĩ quan.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+@@ -2463,307 +2457,289 @@
+ 	!VAR0001 : 1!
+ 	\L_07815:
+ 	ZH 1:
+-	'Bà Aviator, chúng'
+-	R
+-	'ta hãy quan hệ đi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'... Hả?'
+-	\L_0793a:
+-	ZH 1:
+-	'Um, Tôi xin'
+-	R
+-	'Lỗi, Vua... Tôi tin rằng'
+-	R
+-	'tôi đã nghe nhầm ngươi.'
+-	\L_0793a:
+-	ZH 1:
+-	'Ngươi có phiền'
+-	R
+-	'lặp lại chính mình...?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Tôi nói tình dục.'
+-	R
+-	'Hãy quan hệ tình dục.'
+-	\L_0793a:
+-	ZH 1:
+-	'Ngươi nên vui mừng khi có'
+-	R
+-	'thể làm điều đó với Nhà vua.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Trời ạ... Dừng lại đi,'
+-	R
+-	'Vua Rance. Đừng trêu chọc'
+-	R
+-	'người lớn tuổi của ngươi ...'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi hơn ngươi 7'
+-	R
+-	'tuổi, ngươi biết đấy.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Vâng, tốt, đó'
+-	R
+-	'là tốt với tôi.'
+-	\L_0793a:
+-	ZH 1:
+-	'Nếu ngươi nóng'
+-	R
+-	'thì tôi không quan tâm'
+-	R
+-	'ngươi bao nhiêu tuổi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Làm ơn đừng trêu'
+-	R
+-	'chọc tôi như thế nữa.'
+-	\L_0793a:
+-	ZH 1:
+-	'Ngươi không thể nghiêm'
+-	R
+-	'túc nói rằng tôi nóng bỏng.'
+-	\L_0793a:
+-	ZH 1:
+-	'vấn đề Là'
+-	R
+-	'gì? Tôi nghiêm túc.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Trời ạ... Lại thế nữa.'
+-	R
+-	'Hơn nữa tôi còn có chồng.'
+-	\L_0793a:
+-	ZH 1:
+-	'Hãy đùa như thế với'
+-	R
+-	'một cô gái trẻ hơn, King.'
+-	\L_0793a:
+-	ZH 1:
+-	'Nhưng không phải học'
+-	R
+-	'sinh của tôi, được chứ?'
+-	\L_0793a:
+-	ZH 1:
+-	'Sẽ là vấn'
+-	R
+-	'đề nếu một trong số'
+-	R
+-	'họ coi trọng ngươi...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Tuy nhiên, tôi hoàn'
+-	R
+-	'toàn nghiêm túc... Ngươi'
+-	R
+-	'ơi, ngươi thật bướng bỉnh.'
+-	\L_0793a:
+-	ZH 1:
+-	'Khập khiễng.'
++	'Cô giáo Aviator,'
++	R
++	'làm SEX với ta đi.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'............Dạ?'
++	\L_0793a:
++	ZH 1:
++	'Ừm, xin lỗi Bệ hạ... hình'
++	R
++	'như tôi nghe nhầm gì đó.'
++	\L_0793a:
++	ZH 1:
++	'Ngài nói lại lần'
++	R
++	'nữa được không ạ...?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'SEX đấy, SEX. Làm SEX đi,'
++	\L_0793a:
++	ZH 1:
++	'được làm với ta, nhà vua'
++	R
++	'đây, là hạnh phúc đấy.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Thôi mà...... không được'
++	R
++	'đâu, Vua Rance. Đừng'
++	R
++	'trêu một bà cô thế này...'
++	\L_0793a:
++	ZH 1:
++	'Tôi lớn hơn ngài'
++	R
++	'tới 7 tuổi đấy?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hửm, được mà, hoàn toàn OK.'
++	\L_0793a:
++	ZH 1:
++	'Mỹ nhân thì tuổi tác'
++	R
++	'thế nào cũng được.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vì thế nên, xin đừng'
++	R
++	'trêu tôi kiểu đó.'
++	\L_0793a:
++	ZH 1:
++	'Mỹ nhân gì chứ...'
++	R
++	'tôi tin thật bây giờ?'
++	\L_0793a:
++	ZH 1:
++	'Rance「Thì cứ tin'
++	R
++	'đi, ta nói thật mà.」'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Thật là...... lại nữa.'
++	R
++	'Vả lại tôi đã có chồng.'
++	\L_0793a:
++	ZH 1:
++	'Những câu đùa ấy, xin ngài'
++	R
++	'dành cho các cô trẻ hơn.'
++	\L_0793a:
++	ZH 1:
++	'Có điều, không được'
++	R
++	'với học trò đâu nhé?'
++	\L_0793a:
++	ZH 1:
++	'Có đứa tin thật'
++	R
++	'thì khổ......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Đã bảo tin thật cũng'
++	R
++	'được mà... Người'
++	R
++	'gì cứng nhắc thế,'
++	\L_0793a:
++	ZH 1:
++	'chán ngắt.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	@L_0254d:
+ *L_02ba7:
+ 	\L_07815:
+ 	ZH 1:
+-	'Rafalia Đâu? cô đang ở'
+-	R
+-	'trong lớp ngay bây giờ.'
+-	\L_0793a:
+-	ZH 1:
+-	'Nếu ngươi có'
+-	R
+-	'kinh doanh với cô, tôi có'
+-	R
+-	'nên đưa cô ra ngoài không?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ừm. Tôi có chuyện muốn nói'
+-	R
+-	'với cô. Gọi cô ra ngoài...'
+-	\L_0793a:
+-	ZH 1:
+-	'Không, có lẽ'
+-	R
+-	'tôi nên đến gặp cô?'
+-	\L_0793a:
+-	ZH 1:
+-	'phải có một'
+-	R
+-	'lớp học trống, nơi chúng ta'
+-	R
+-	'có thể nói chuyện một mình.'
+-	\L_0793a:
+-	ZH 1:
+-	'Gọi cho cô ở đó.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, hiểu... ... Vua'
+-	R
+-	'Rance, Anh đi đâu vậy?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_078e7:
+-	\L_0784d:
+-	ZH 1:
+-	'Rance đi'
+-	R
+-	'thẳng đến một lớp học trống'
+-	R
+-	'mà không được hướng dẫn...'
++	'Rafalia đâu? Aviator「Đang'
++	R
++	'trong giờ học ạ.'
++	\L_0793a:
++	ZH 1:
++	'Nếu ngài có việc, tôi'
++	R
++	'dẫn em ấy tới nhé?」'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừm. Ta có chuyện cần nói'
++	R
++	'trực tiếp. Gọi tới đây......'
++	\L_0793a:
++	ZH 1:
++	'không, ta đi gặp vậy.'
++	\L_0793a:
++	ZH 1:
++	'Ta muốn nói chuyện'
++	R
++	'riêng, chắc cũng có một'
++	R
++	'phòng học bỏ trống chứ.'
++	\L_0793a:
++	ZH 1:
++	'Gọi con bé tới đó.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, tôi hiểu rồi...'
++	R
++	'...Ơ kìa, Vua Rance,'
++	R
++	'ngài đi đâu vậy...?'
++	\L_0793a:
++	\L_0792d:
++	\L_078e7:
++	\L_0784d:
++	ZH 1:
++	'Rance chẳng cần ai'
++	R
++	'dẫn đường, đi thẳng'
++	R
++	'tới phòng học trống...'
+ 	\L_0793a:
+ 	PF1 VAR0056:
+ 	PF0 VAR0056:
+ 	ZM 32:
+ 	ZH 1:
+-	'Học viện quân sự nữ'
++	'Trường sĩ quan nữ'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Lớp học trống ............'
++	'Phòng học trống'
++	R
++	'..................'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 78!
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Xin lỗi, thưa bệ hạ.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Rafalia cúi đầu thật'
+-	R
+-	'sâu và bước vào lớp học.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Này, tôi đang'
+-	R
+-	'đợi đây. Vào đi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Tôi rất vinh dự'
+-	R
+-	'nhận được lời mời của ngài,'
+-	R
+-	'thưa Bệ hạ. vì vậy, um...'
+-	\L_0793a:
+-	ZH 1:
+-	'Về việc đưa'
+-	R
+-	'tôi vào phục vụ...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Suy nghĩ'
+-	R
+-	'về nó. Nhưng chưa, hãy'
+-	R
+-	'đợi lâu hơn một chút.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, như cậu muốn...'
+-	R
+-	'Nhưng, Thưa Bệ Hạ...?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ừm, cái gì cơ?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Tôi tin rằng sẽ rất có'
+-	R
+-	'giá trị nếu để tôi thể'
+-	\L_0793a:
+-	ZH 1:
+-	'hiện tài năng của mình'
+-	R
+-	'trong trận chiến thực sự.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tất cả các trận đấu giả'
+-	R
+-	'mà tôi thắng ở trường chẳng'
+-	\L_0793a:
+-	ZH 1:
+-	'mang lại cho tôi'
+-	R
+-	'gì ngoài điểm số.'
+-	\L_0793a:
+-	ZH 1:
+-	'Đối với tôi, việc không'
+-	R
+-	'tham gia quân đội là một'
+-	R
+-	'điểm trừ lớn đối với Leazas.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ngươi luôn tràn'
+-	R
+-	'đầy tự tin, Rafalia.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, tất nhiên.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi sẽ không phù hợp'
+-	R
+-	'để trở thành một người'
+-	\L_0793a:
+-	ZH 1:
+-	'lính nếu tôi không tin'
+-	R
+-	'vào sức mạnh của chính mình,'
+-	\L_0793a:
+-	ZH 1:
+-	'phải không?'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi có một yêu cầu,'
+-	R
+-	'thưa bệ hạ. Hãy chiêu mộ'
+-	R
+-	'tôi vào Quân đội Leazas.'
+-	\L_0793a:
+-	ZH 1:
+-	'Nếu cậu làm'
+-	R
+-	'thế thì thật tuyệt...'
++	'Tôi xin phép, thưa Bệ hạ.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Cúi chào thật sâu, Rafalia'
++	R
++	'bước vào phòng học.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ờ, ta đợi mãi.'
++	R
++	'Vào đi, vào đi.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Bệ hạ đã cất công tới'
++	R
++	'tận đây, thật là vinh'
++	R
++	'hạnh. Vậy, ừm......'
++	\L_0793a:
++	ZH 1:
++	'chuyện tôi được'
++	R
++	'nhập ngũ thì......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ta đang cân nhắc. Nhưng'
++	R
++	'chưa đâu, đợi thêm chút.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, xin tuân theo'
++	R
++	'ý Bệ hạ... Nhưng,'
++	R
++	'thưa Bệ hạ......?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hửm, gì thế.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Tôi nghĩ năng lực của'
++	R
++	'tôi chỉ có ý nghĩa'
++	\L_0793a:
++	ZH 1:
++	'khi được phát huy'
++	R
++	'trong thực chiến.'
++	\L_0793a:
++	ZH 1:
++	'Thắng bao nhiêu'
++	R
++	'trận giả ở trường'
++	\L_0793a:
++	ZH 1:
++	'cũng chỉ thành điểm số.'
++	\L_0793a:
++	ZH 1:
++	'Việc tôi không được tham'
++	R
++	'gia quân đội là một tổn'
++	R
++	'thất lớn cho Leazas.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Lúc nào nói chuyện cũng tự'
++	R
++	'tin ngút trời nhỉ, Rafalia.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, tất nhiên ạ.'
++	\L_0793a:
++	ZH 1:
++	'Không tin vào sức mình'
++	\L_0793a:
++	ZH 1:
++	'thì sao làm quân nhân được,'
++	\L_0793a:
++	ZH 1:
++	'phải không ạ?'
++	\L_0793a:
++	ZH 1:
++	'Bệ hạ, tôi xin ngài. Hãy'
++	R
++	'sớm cho tôi vào quân Leazas.'
++	\L_0793a:
++	ZH 1:
++	'Như thế quân đội'
++	R
++	'sẽ vượt bậc...'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07815:
+@@ -3110,7 +3086,7 @@
+ 	\L_0792d:
+ 	\L_0784d:
+ 	ZH 1:
+-	'（gõ gõ）'
++	'＜Cốc cốc＞'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -3118,16 +3094,16 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'... Xin lỗi. Tôi'
+-	R
+-	'đã cử Rafalia đến gặp'
+-	R
+-	'cô theo lệnh, nhưng...'
+-	\L_0793a:
+-	ZH 1:
+-	'Cuộc phỏng vấn của'
+-	R
+-	'cậu với nàng thế nào...?'
++	'......Tôi xin phép.'
++	R
++	'Theo lệnh ngài, tôi'
++	R
++	'tới đón Rafalia......'
++	\L_0793a:
++	ZH 1:
++	'Buổi nói chuyện với'
++	R
++	'Rafalia thế nào ạ...?'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07815:
+@@ -3141,9 +3117,7 @@
+ 	\L_0792d:
+ 	\L_07885:
+ 	ZH 1:
+-	'Xin hãy quay lại'
+-	R
+-	'lần nữa, Vua Rance.'
++	'Ngài lại tới nhé, Vua Rance.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -3151,16 +3125,16 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Tôi sẽ đợi'
+-	R
+-	'chuyến thăm tiếp theo'
+-	R
+-	'của ngài, thưa Bệ hạ.'
+-	\L_0793a:
+-	ZH 1:
+-	'rance rời học viện'
+-	R
+-	'quân sự cảm thấy sảng khoái.'
++	'Lần sau nhất định...... tôi'
++	R
++	'sẽ đợi ngài, thưa Bệ hạ.'
++	\L_0793a:
++	ZH 1:
++	'Rance rời khỏi trường'
++	R
++	'sĩ quan với tâm'
++	R
++	'trạng khoan khoái.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+@@ -3173,44 +3147,42 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Ah... Chào mừng, Vua'
+-	R
+-	'Rance. Tôi đã chờ đợi...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Phi công vội vã chạy'
+-	R
+-	'tới khi nhìn thấy Rance.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ừm, tôi ở đây. Ngươi'
+-	R
+-	'đang cười về điều gì vậy...?'
+-	R
+-	'Hoho, tôi hiểu rồi...'
+-	\L_0793a:
+-	ZH 1:
+-	'ngươi muốn quan hệ tình'
+-	R
+-	'dục với tôi, phải không?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Lại đùa giỡn'
+-	R
+-	'như vậy nữa...'
+-	\L_0793a:
+-	ZH 1:
+-	'Hôm nay có một'
+-	R
+-	'cô gái mà tôi rất muốn'
+-	R
+-	'giới thiệu với các em.'
++	'A...... chào mừng ngài'
++	R
++	'đã tới, Vua Rance.'
++	R
++	'Tôi đợi ngài mãi......'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Thấy bóng Rance, Aviator'
++	R
++	'rảo bước chạy tới.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừm, ta tới đây. Gì thế'
++	R
++	'cô giáo, cười tủm tỉm'
++	R
++	'thế... À há, ra vậy......'
++	\L_0793a:
++	ZH 1:
++	'muốn được ta ôm nên'
++	R
++	'mới chạy tới chứ gì?'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Lại đùa nữa rồi...'
++	\L_0793a:
++	ZH 1:
++	'Hôm nay có một em tôi'
++	R
++	'rất muốn ngài gặp.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07815:
+@@ -3222,21 +3194,21 @@
+ 	\L_0792d:
+ 	\L_07885:
+ 	ZH 1:
+-	'Không, ôi...'
+-	R
+-	'Nàng là học sinh mới,'
+-	R
+-	'nhưng dù sao thì...'
+-	\L_0793a:
+-	ZH 1:
+-	'Aah, dù sao thì, King,'
+-	R
+-	'xin hãy đến phòng giáo viên.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi muốn cậu nói'
+-	R
+-	'chuyện với nàng ở đó.'
++	'Đã bảo không phải mà...'
++	R
++	'Là học viên mới nhập'
++	R
++	'học, dù sao thì......'
++	\L_0793a:
++	ZH 1:
++	'À, dù sao thì Bệ hạ, xin'
++	R
++	'ngài tới phòng giáo viên.'
++	\L_0793a:
++	ZH 1:
++	'Tôi muốn ngài nói'
++	R
++	'vài lời với em ấy.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07815:
+@@ -3255,16 +3227,16 @@
+ 	\L_0792d:
+ 	\L_07885:
+ 	ZH 1:
+-	'Hả? Đ-Được rồi...'
+-	R
+-	'đi thôi. Lối này.'
++	'Dạ? Haa, vâng......'
++	R
++	'ta đi thôi ạ, lối này.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_0784d:
+ 	ZH 1:
+ 	'Rance theo Aviator'
+ 	R
+-	'đến phòng giáo viên.'
++	'tới phòng giáo viên.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	PF1 VAR0056:
+@@ -3272,38 +3244,36 @@
+ 	\L_0784d:
+ 	ZM 32:
+ 	ZH 1:
+-	'Học viện quân sự nữ'
++	'Trường sĩ quan nữ'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng Nhân'
+-	R
+-	'Viên （gõ, gõ...） có một'
+-	R
+-	'tiếng gõ yếu. Sau đó...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_078e7:
+-	\L_07885:
+-	ZH 1:
+-	'Ừm, bà có gọi Cho'
+-	R
+-	'tôi không, Bà Aviator...?'
++	'Phòng giáo viên'
++	R
++	'＜Cốc, cốc...＞ Tiếng gõ cửa'
++	R
++	'yếu ớt. Tiếp đó......'
++	\L_0793a:
++	\L_0792d:
++	\L_078e7:
++	\L_07885:
++	ZH 1:
++	'Ừm, cô gọi em ạ, cô giáo...'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 76!
+ 	\L_078d9:
+ 	\L_0784d:
+ 	ZH 1:
+-	'âm thanh yên tĩnh của'
+-	R
+-	'giọng nói của một cô gái.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, đến Arlcoate.'
++	'Một giọng con gái'
++	R
++	'nhỏ nhẹ vang lên.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Ừ, vào đi, Arlcoate.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -3311,18 +3281,18 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Được rồi, xin lỗi...'
+-	R
+-	'Ah... Một người đàn ông...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Arlcoate hóa đá'
+-	R
+-	'khi nhìn thấy Rance đang ngả'
+-	R
+-	'lưng trong phòng giáo viên.'
++	'Vâng, em xin phép...'
++	R
++	'A...... đàn ông......'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Thấy Rance ngả ngớn trong'
++	R
++	'phòng giáo viên, cô học'
++	R
++	'viên Arlcoate đứng sững.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -3330,16 +3300,14 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Đừng thô lỗ'
+-	R
+-	'thế, Arlcoate. Đây là'
+-	R
+-	'Rance, Vua của Leazas.'
+-	\L_0793a:
+-	ZH 1:
+-	'Bây giờ hãy'
+-	R
+-	'giới thiệu bản thân.'
++	'Thất lễ đấy, Arlcoate.'
++	R
++	'Đây là Vua của'
++	R
++	'Leazas, ngài Rance.'
++	\L_0793a:
++	ZH 1:
++	'Nào, chào hỏi đi em.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -3347,37 +3315,37 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Được Rồi, um,'
+-	R
+-	'Tôi... Tôi Là Arlcoate,'
+-	R
+-	'một năm đầu tiên...'
+-	\L_0793a:
+-	ZH 1:
+-	'Thật vinh dự'
+-	R
+-	'khi được gặp anh...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Phần tự giới thiệu của'
+-	R
+-	'Arlcoate căng thẳng đến mức'
+-	\L_0793a:
+-	ZH 1:
+-	'cô tưởng chừng'
+-	R
+-	'như sắp ngất đi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Trời ạ, cô gái này đang'
+-	R
+-	'lo lắng thật đấy... Tại sao'
+-	R
+-	'lại giới thiệu tôi với cô?'
++	'Vâng, ừm, em... em'
++	R
++	'tên là Arlcoate, học'
++	R
++	'viên năm nhất......'
++	\L_0793a:
++	ZH 1:
++	'Được gặp ngài,'
++	R
++	'thật vinh hạnh ạ...'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Lời chào của Arlcoate'
++	R
++	'căng thẳng tới mức'
++	\L_0793a:
++	ZH 1:
++	'người xem cũng'
++	R
++	'muốn hoa cả mắt...'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Gì thế này, con bé rụt'
++	R
++	'rè ghê...... Con bé'
++	R
++	'này thì sao, cô giáo?'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -3385,99 +3353,93 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Arlcoate có'
+-	R
+-	'tài năng chỉ xuất hiện'
+-	R
+-	'một lần trong 100 năm.'
+-	\L_0793a:
+-	ZH 1:
+-	'Nàng hơi'
+-	R
+-	'rụt rè, vì vậy thật khó'
+-	R
+-	'để nhìn thấy, tuy nhiên.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Hoh, tài'
+-	R
+-	'năng đó. Ngươi nói đúng, tôi'
+-	R
+-	'không thể thấy điều đó cả.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Nhưng nàng là'
+-	R
+-	'một thiên tài. Khả năng chỉ'
+-	R
+-	'huy của nàng thật xuất sắc.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi nổi da gà'
+-	R
+-	'khi nhìn thấy nó...'
+-	\L_0793a:
+-	ZH 1:
+-	'Khả năng đọc diễn biến'
+-	R
+-	'trận chiến và cách nàng thực'
+-	R
+-	'hiện chiến lược của mình'
+-	\L_0793a:
+-	ZH 1:
+-	'vượt xa những gì chúng'
+-	R
+-	'tôi có thể tưởng tượng.'
+-	\L_0793a:
+-	ZH 1:
+-	'Kiếm thuật của nàng không'
+-	R
+-	'thể so sánh với Rafalia,'
+-	\L_0793a:
+-	ZH 1:
+-	'nhưng chỉ huy của nàng'
+-	R
+-	'là tốt nhất trong trường.'
+-	\L_0793a:
+-	ZH 1:
+-	'Thậm chí có lẽ...'
+-	\L_0793a:
+-	ZH 1:
+-	'Tốt hơn bất kỳ'
+-	R
+-	'ai trong Quân đội Leazas.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Hả, thật sao...?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Khi Rance nhìn Arlcoate,'
+-	R
+-	'cô đã bị sốc và trốn sau'
+-	R
+-	'lưng giáo viên của mình.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Này, không cần'
+-	R
+-	'phải sợ. Tôi thực sự tử tế'
+-	R
+-	'với những cô gái dễ thương.'
+-	\L_0793a:
+-	ZH 1:
+-	'Vì vậy, ngươi là một thiên'
+-	R
+-	'tài? Điều đó khá ấn tượng.'
++	'Vâng, Arlcoate là nhân'
++	R
++	'tài trăm năm mới có một.'
++	\L_0793a:
++	ZH 1:
++	'Em ấy hơi nhút nhát'
++	R
++	'nên khó mà nhận ra...'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hô, trăm năm mới có'
++	R
++	'một. Đúng là trông'
++	R
++	'chẳng giống thật.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Nhưng em ấy là thiên'
++	R
++	'tài. Cực kỳ giỏi'
++	R
++	'chỉ huy chiến đấu,'
++	\L_0793a:
++	ZH 1:
++	'nhìn mà nổi cả da gà...'
++	\L_0793a:
++	ZH 1:
++	'Khả năng đọc diễn biến chiến'
++	R
++	'trường, đường hướng chiến'
++	R
++	'lược em ấy vạch ra......'
++	\L_0793a:
++	ZH 1:
++	'tất cả vượt xa sức tưởng'
++	R
++	'tượng của chúng tôi.'
++	\L_0793a:
++	ZH 1:
++	'Kiếm thuật thì không'
++	R
++	'bằng Rafalia...'
++	\L_0793a:
++	ZH 1:
++	'nhưng năng lực chỉ'
++	R
++	'huy giỏi nhất trường,'
++	\L_0793a:
++	ZH 1:
++	'không, có khi......'
++	\L_0793a:
++	ZH 1:
++	'mạnh nhất cả quân'
++	R
++	'Leazas cũng nên.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hể, con bé này à......'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Rance vừa nhìn, Arlcoate'
++	R
++	'giật thót, nấp ngay'
++	R
++	'sau lưng cô giáo.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Thôi nào, không sợ,'
++	R
++	'không sợ. Ta rất tử tế'
++	R
++	'với các cô bé dễ thương.'
++	\L_0793a:
++	ZH 1:
++	'Arlcoate là thiên'
++	R
++	'tài à, giỏi ghê.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -3485,30 +3447,28 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'À...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Arlcoate chỉ'
+-	R
+-	'ló ra được nửa đường'
+-	R
+-	'từ phía sau Aviator.'
+-	\L_0793a:
+-	ZH 1:
+-	'điều đó không thực'
+-	R
+-	'sự đúng... Tôi không có tài'
+-	R
+-	'năng... Tôi luôn sợ hãi...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'... Thầy có ý kiến ​​gì về'
+-	R
+-	'điều đó, thưa thầy?'
++	'Đâu có ạ......'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Arlcoate chỉ ló nửa người'
++	R
++	'ra từ sau lưng Aviator.'
++	\L_0793a:
++	ZH 1:
++	'Em... không phải vậy đâu'
++	R
++	'ạ... Em không có tài...'
++	R
++	'lúc nào cũng sợ......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'......Con bé nói'
++	R
++	'vậy đấy, cô giáo?'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -3516,34 +3476,36 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Hah... Xin lỗi,'
+-	R
+-	'nàng không có tự tin...'
+-	\L_0793a:
+-	ZH 1:
+-	'Nếu nàng có thể vượt'
+-	R
+-	'qua được rào cản đó,'
+-	\L_0793a:
+-	ZH 1:
+-	'nàng có thể trở thành'
+-	R
+-	'một chiến lược gia vô song.'
+-	\L_0793a:
+-	ZH 1:
+-	'Việc này cần được'
+-	R
+-	'giải quyết nhanh chóng.'
+-	\L_0793a:
+-	ZH 1:
+-	'Haah...'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi tưởng nói chuyện'
+-	R
+-	'với Đức Vua có thể nâng cao'
+-	R
+-	'sự tự tin của nàng, nhưng...'
++	'Dạ...... xin lỗi ngài,'
++	R
++	'dù sao em ấy cũng không'
++	R
++	'tự tin vào bản thân...'
++	\L_0793a:
++	ZH 1:
++	'Chỉ cần vượt qua'
++	R
++	'được điều đó,'
++	\L_0793a:
++	ZH 1:
++	'em ấy chắc chắn sẽ'
++	R
++	'thành quân sư hiếm có.'
++	\L_0793a:
++	ZH 1:
++	'Phải, ngay bây'
++	R
++	'giờ cũng được...'
++	\L_0793a:
++	ZH 1:
++	'Phù......'
++	\L_0793a:
++	ZH 1:
++	'Hôm nay tôi cứ nghĩ được'
++	R
++	'nói chuyện với nhà vua, em'
++	R
++	'ấy sẽ tự tin hơn chút......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -3551,42 +3513,40 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Bà phi công...'
+-	R
+-	'Tôi không xứng đáng nói'
++	'Cô ơi, em đâu phải...'
++	R
++	'người đáng được nói'
+ 	R
+ 	'chuyện với nhà vua...'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07815:
+ 	ZH 1:
+-	'Không, gái đẹp phải'
+-	R
+-	'nói chuyện với tôi.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tuy nhiên, những'
+-	R
+-	'cô gái xấu xí thì chướng'
+-	R
+-	'mắt. Vì vậy, Arlcoat...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Ah... Thế thì'
+-	R
+-	'lẽ ra tôi không nên'
+-	R
+-	'ở đây... Xin lỗi...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_078e7:
+-	\L_0784d:
+-	ZH 1:
+-	'Arlcoate rời phòng'
+-	R
+-	'giáo viên trong nước mắt.'
++	'Không, con gái xinh đẹp'
++	R
++	'thì phải nói chuyện với ta.'
++	\L_0793a:
++	ZH 1:
++	'Đứa xấu xí thì chướng mắt.'
++	R
++	'Nên Arlcoate thì......'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'A...... vậy thì, em'
++	R
++	'không nên ở đây rồi...'
++	R
++	'......em xin phép...'
++	\L_0793a:
++	\L_0792d:
++	\L_078e7:
++	\L_0784d:
++	ZH 1:
++	'Arlcoate rời phòng giáo'
++	R
++	'viên, mắt rưng rưng.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 76!
+@@ -3605,23 +3565,21 @@
+ 	\L_0792d:
+ 	\L_07885:
+ 	ZH 1:
+-	'Được rồi...'
+-	R
+-	'Geez, cô gái đó...'
+-	\L_0793a:
+-	ZH 1:
+-	'Bằng cách nào đó, tôi'
+-	R
+-	'dự định bắt đầu dạy nàng'
+-	R
+-	'cách tự tin vào bản thân.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tuy nhiên, tôi'
+-	R
+-	'không còn gì để dạy nàng khi'
+-	R
+-	'nói đến khả năng thực tế.'
++	'Vâng...... thật là,'
++	R
++	'con bé này......'
++	\L_0793a:
++	ZH 1:
++	'Từ giờ tôi định tìm cách dạy'
++	R
++	'em ấy biết tin vào bản thân.'
++	\L_0793a:
++	ZH 1:
++	'Thật ra xét về thực'
++	R
++	'lực, tôi chẳng còn gì'
++	R
++	'để dạy em ấy nữa......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07815:
+@@ -3640,10 +3598,10 @@
+ 	\L_0792d:
+ 	\L_07885:
+ 	ZH 1:
+-	'Được rồi.'
+-	\L_0793a:
+-	ZH 1:
+-	'Xin hãy đến lần nữa, Vua.'
++	'Vâng.'
++	\L_0793a:
++	ZH 1:
++	'Ngài lại tới nhé, Bệ hạ.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -3651,187 +3609,183 @@
+ 	ZH 1:
+ 	'Rance rời khỏi'
+ 	R
+-	'phòng nhân viên.'
++	'phòng giáo viên.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_0784d:
+ 	ZM 32:
+ 	ZH 1:
+-	'Học viện quân sự nữ'
++	'Trường sĩ quan nữ'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Cổng Trường hôm nay ngươi'
+-	R
+-	'có công việc gì, Thưa Bệ hạ?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ừm... Nghe giống Rafalia.'
++	'Cổng trường'
++	R
++	'Thưa Bệ hạ. Hôm nay'
++	R
++	'ngài tới có việc gì ạ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hửm...... giọng'
++	R
++	'này là Rafalia.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 78!
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Vâng, Thưa Bệ'
+-	R
+-	'Hạ. Tôi rất vinh dự khi cậu'
+-	R
+-	'nhận ra giọng nói của tôi...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Rafalia bước ra từ'
+-	R
+-	'phía sau giá để giày.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Ngài đã gặp nàng'
+-	R
+-	'chưa, thưa bệ hạ...?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Arlcoat? Vâng.'
+-	R
+-	'Tôi đoán cô là một thiên'
+-	R
+-	'tài. Cô cũng dễ thương.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Ngay cả cậu cũng'
+-	R
+-	'tin rằng nàng là thiên'
+-	R
+-	'tài... Không phải vậy.'
+-	\L_0793a:
+-	ZH 1:
+-	'người hướng dẫn trưởng'
+-	R
+-	'nghĩ quá nhiều về nàng.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Hả? cô chỉ'
+-	R
+-	'gặp may mắn với tất cả các'
+-	R
+-	'điểm của mình cho đến nay.'
+-	\L_0793a:
+-	ZH 1:
+-	'Cô không có'
+-	R
+-	'tài năng thực sự...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'... Điều đó không'
+-	R
+-	'thuyết phục chút nào.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Wha...? Nhưng nàng'
+-	R
+-	'thực sự chỉ gặp may mắn!'
+-	\L_0793a:
+-	ZH 1:
+-	'không có cách nào một'
+-	R
+-	'kẻ hèn nhát như nàng có thể'
+-	R
+-	'là một chỉ huy có khả năng!'
+-	\L_0793a:
+-	ZH 1:
+-	'cậu cần tự tin'
+-	R
+-	'để trở thành một sĩ'
+-	R
+-	'quan trong quân đội!'
+-	\L_0793a:
+-	ZH 1:
+-	'Nàng chỉ có'
+-	R
+-	'thể hoạt động trong các'
+-	R
+-	'trận chiến giả thuyết!'
+-	\L_0793a:
+-	ZH 1:
+-	'Bệ Hạ, nếu cậu biến'
+-	R
+-	'nàng thành một vị tướng,'
+-	\L_0793a:
+-	ZH 1:
+-	'nó sẽ có'
+-	R
+-	'tác động tiêu cực nghiêm'
+-	R
+-	'trọng đến chiến tranh.'
+-	\L_0793a:
+-	ZH 1:
+-	'Hãy sử dụng tôi thay thế.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Rafalia nhìn'
+-	R
+-	'Rance với khuôn mặt đau'
+-	R
+-	'đớn hơn bao giờ hết...'
++	'Vâng, thưa Bệ hạ.'
++	R
++	'Ngài nhận ra giọng'
++	R
++	'tôi, thật vinh hạnh...'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Rafalia bước ra'
++	R
++	'từ sau tủ giày.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Bệ hạ đã gặp con bé đó'
++	R
++	'rồi phải không ạ...?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'À, Arlcoate à. Nghe'
++	R
++	'nói là thiên tài,'
++	R
++	'lại dễ thương nữa.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Đến cả Bệ hạ cũng'
++	R
++	'bảo là thiên tài...'
++	R
++	'Không phải đâu ạ.'
++	\L_0793a:
++	ZH 1:
++	'Hiệu trưởng đánh giá'
++	R
++	'con bé quá cao thôi.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hô, hô? Rafalia「Con bé'
++	R
++	'chỉ tình cờ...... được'
++	R
++	'điểm tốt tới giờ thôi.'
++	\L_0793a:
++	ZH 1:
++	'Thứ đó đâu phải'
++	R
++	'thực lực của nó...」'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'......Chẳng có sức'
++	R
++	'thuyết phục gì cả.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'C...... nhưng mà,'
++	R
++	'là tình cờ thật!'
++	\L_0793a:
++	ZH 1:
++	'Một đứa nhát gan như thế...'
++	R
++	'sao chỉ huy được như vậy!'
++	\L_0793a:
++	ZH 1:
++	'Người không tin vào bản thân'
++	R
++	'thì không làm võ quan được!'
++	\L_0793a:
++	ZH 1:
++	'Con bé đó chỉ làm được trận'
++	R
++	'giả trên bàn thôi......!'
++	\L_0793a:
++	ZH 1:
++	'Bệ hạ, nếu cho'
++	R
++	'con bé làm tướng,'
++	\L_0793a:
++	ZH 1:
++	'cục diện chiến trận'
++	R
++	'sẽ rối tung lên.'
++	\L_0793a:
++	ZH 1:
++	'Tướng quân của Leazas,'
++	R
++	'xin hãy dùng tôi......'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Rafalia nhìn Rance'
++	R
++	'với vẻ mặt đau khổ'
++	R
++	'hơn bao giờ hết......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07831:
+ 	ZH 1:
+-	'Hohoh... Rafalia'
+-	R
+-	'đang lo lắng về việc cô'
+-	R
+-	'gái đó sẽ vượt qua cô...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Chà, Tôi sẽ tiếp'
+-	R
+-	'tục suy nghĩ về nó.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'À...'
++	'À há...... Rafalia'
++	R
++	'đang cuống lên vì bị'
++	R
++	'con bé đó vượt mặt...'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Để xem, chuyện tướng'
++	R
++	'quân thì ta sẽ suy nghĩ.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'A...'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07877:
+ 	\L_0784d:
+ 	ZH 1:
+-	'Rance bỏ đi.'
++	'Rance rời khỏi đó.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078a1:
+ 	ZH 1:
+-	'W-Cái Gì...?'
+-	R
+-	'Tại Sao Arlcoate...?'
+-	\L_0793a:
+-	ZH 1:
+-	'Rõ ràng tôi là'
+-	R
+-	'người vượt trội, điều này'
+-	R
+-	'không thể tha thứ được…!'
++	'C...... cái gì chứ......'
++	\L_0793a:
++	ZH 1:
++	'Cái gì chứ, Arlcoate...'
++	R
++	'mình giỏi hơn mà, không'
++	R
++	'thể tha thứ......!'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+@@ -3844,21 +3798,19 @@
+ 	ZH 1:
+ 	'Vua Rance, hôm nay'
+ 	R
+-	'ngài có việc gì ở đây không?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Này cô giáo.'
+-	R
+-	'Ngươi trông vẫn gợi'
+-	R
+-	'cảm như mọi khi. Tốt.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Haa...'
++	'ngài tới có việc gì ạ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Chà, cô giáo. Lúc nào'
++	R
++	'nhìn cũng gợi cảm. Good.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Haa......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0001 : 0!
+@@ -3872,11 +3824,11 @@
+ 	}
+ 	ZH 1:
+ 	$L_0404c$
+-	'Nói Chuyện Với Phi Công'
++	'Nói chuyện với cô giáo'
+ 	$
+ 	R
+ 	$L_047a6$
+-	'Về hai người đó'
++	'Chuyện hai em'
+ 	$
+ 	{VAR0001 = 0:
+ 		ZH 1:
+@@ -3887,12 +3839,12 @@
+ 	{VAR0002 = 0:
+ 		ZH 1:
+ 		$L_0443e$
+-		'Gặp gỡ Arlcoat'
++		'Gặp Arlcoate'
+ 		$
+ 	}
+ 	ZH 1:
+ 	$L_049e2$
+-	'Quay lại'
++	'Về'
+ 	$
+ 	]
+ 	@L_03fc2:
+@@ -3900,29 +3852,31 @@
+ 	{VAR0003 \ 0:
+ 		\L_07815:
+ 		ZH 1:
+-		'Này, khi nào chồng cô'
++		'Cô giáo, đám tang chồng'
+ 		R
+-		'chết thì gọi cho tôi nhé.'
++		'cô nhớ gọi ta nhé.'
+ 		\L_0793a:
+ 		ZH 1:
+-		'Tôi sẽ an ủi'
++		'Ta sẽ an ủi góa'
+ 		R
+-		'ngươi trong nỗi đau khổ.'
++		'phụ đang đau lòng.'
+ 		\L_0793a:
+ 		ZH 1:
+-		'Gahahahaha!.'
++		'Gahahahahaha.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07885:
+ 		ZH 1:
+-		'Tôi không mong chồng'
++		'Chồng tôi chưa có dự'
+ 		R
+-		'mình sẽ sớm qua đời.'
++		'định qua đời trong'
++		R
++		'thời gian tới ạ.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07815:
+ 		ZH 1:
+-		'Ch.'
++		'Chậc.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		@L_03fc2:
+@@ -3930,46 +3884,46 @@
+ 	!VAR0003 : 1!
+ 	\L_07815:
+ 	ZH 1:
+-	'vậy, chồng'
+-	R
+-	'ngươi đã chết chưa?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Uh... Chồng tôi?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Vâng, Nếu hắn chết,'
+-	R
+-	'hãy chắc chắn nói với tôi.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi sẽ mời ngươi tham gia'
+-	R
+-	'hậu cung của tôi. um, chồng'
+-	R
+-	'tôi hiện đang khỏe mạnh...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Hmmmmm... À, hắn có thể'
+-	R
+-	'chết trong một tai nạn hoặc'
+-	R
+-	'trên chiến trường hay gì đó.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vua Rance...'
+-	R
+-	'Ừm, tôi tin tưởng anh,'
+-	R
+-	'nên... vâng, tin tôi đi.'
++	'Mà này, cô giáo. Chồng'
++	R
++	'cô vẫn chưa chết à?'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Dạ...... chồng tôi ấy ạ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừ, chồng chết thì'
++	R
++	'cứ nói, đừng ngại.'
++	\L_0793a:
++	ZH 1:
++	'Ta sẽ mời cô vào hậu cung.'
++	R
++	'Aviator「Ừm, chồng tôi còn'
++	R
++	'khỏe mạnh lâu dài ạ......」'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hừmmm... nhưng biết đâu,'
++	R
++	'chết vì tai nạn, hay bị'
++	R
++	'bỏ rơi ngoài chiến trường.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vua Rance...... ừm,'
++	R
++	'tôi tin Bệ hạ mà...'
++	R
++	'Rance「Ừm, cứ tin đi.」'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	@L_03fc2:
+@@ -3977,75 +3931,69 @@
+ 	!VAR0001 : 1!
+ 	\L_07815:
+ 	ZH 1:
+-	'Tôi muốn nói chuyện với'
+-	R
+-	'Rafalia. Gọi cô ra ngoài.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, hiểu rồi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_078e7:
+-	\L_0784d:
+-	ZH 1:
+-	'Aviator bước đi và một'
+-	R
+-	'lúc sau Rafalia xuất hiện.'
++	'Ta muốn nói chuyện với'
++	R
++	'Rafalia. Gọi con bé tới đây.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, tôi hiểu rồi.'
++	\L_0793a:
++	\L_0792d:
++	\L_078e7:
++	\L_0784d:
++	ZH 1:
++	'Aviator đi khỏi, một lúc'
++	R
++	'sau...... Rafalia xuất hiện.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 78!
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Tôi rất vinh dự khi được'
+-	R
+-	'ngài yêu cầu, thưa Bệ hạ.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Này, ngươi thế'
+-	R
+-	'nào rồi với Arlcoate?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'............'
+-	\L_0793a:
+-	ZH 1:
+-	'Thưa Bệ hạ, Quân'
+-	R
+-	'Đội Leazas không cần một kẻ'
+-	R
+-	'hèn nhát như một vị tướng.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi sẽ không'
+-	R
+-	'bao giờ thua nàng,'
+-	\L_0793a:
+-	ZH 1:
+-	'ngay cả khi điều đó'
+-	R
+-	'có nghĩa là tôi phải'
+-	\L_0793a:
+-	ZH 1:
+-	'dành toàn bộ thời gian'
+-	R
+-	'để cải thiện bản thân.'
+-	\L_0793a:
+-	ZH 1:
+-	'Đừng quan tâm đến nàng.'
++	'Được Bệ hạ cho gọi,'
++	R
++	'thật là vinh hạnh.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ờ, sao rồi? Với Arlcoate ấy.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'..................'
++	\L_0793a:
++	ZH 1:
++	'Bệ hạ, quân Leazas không'
++	R
++	'cần một vị tướng nhát gan.'
++	\L_0793a:
++	ZH 1:
++	'Để con bé đó không bao giờ'
++	\L_0793a:
++	ZH 1:
++	'được chọn lên, dù'
++	R
++	'có nhầm lẫn......'
++	\L_0793a:
++	ZH 1:
++	'tôi chỉ việc rèn'
++	R
++	'giũa bản thân thôi.'
++	\L_0793a:
++	ZH 1:
++	'Con bé đó, tôi'
++	R
++	'chẳng để vào mắt.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07831:
+ 	ZH 1:
+-	'Đôi mắt cô'
+-	R
+-	'đang sáng lên...'
++	'Thế à, mắt rực lửa kìa...'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07885:
+@@ -4119,9 +4067,9 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Cậu nói xong chưa?'
+-	R
+-	'Rafalia thế nào rồi...?'
++	'Ngài nói chuyện xong rồi'
++	R
++	'ạ? Rafalia thế nào ạ...'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07815:
+@@ -4135,7 +4083,7 @@
+ 	\L_0792d:
+ 	\L_07885:
+ 	ZH 1:
+-	'Hả...?'
++	'Dạ......?'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	@L_03fc2:
+@@ -4143,219 +4091,211 @@
+ 	!VAR0002 : 1!
+ 	\L_07815:
+ 	ZH 1:
+-	'Arlcoate, tôi muốn'
+-	R
+-	'Arlcoate. Gọi cho cô.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, hiểu rồi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_078e7:
+-	\L_0784d:
+-	ZH 1:
+-	'Aviator rời đi, và một'
+-	R
+-	'lúc sau Arlcoate xuất hiện.'
++	'Arlcoate, gặp Arlcoate.'
++	R
++	'Gọi đi, gọi đi.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, tôi hiểu rồi.'
++	\L_0793a:
++	\L_0792d:
++	\L_078e7:
++	\L_0784d:
++	ZH 1:
++	'Aviator đi khỏi,'
++	R
++	'một lúc sau......'
++	R
++	'Arlcoate xuất hiện.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 77!
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'U-Um... Xin chào, thời'
+-	R
+-	'tiết đẹp hôm nay, không có ở'
+-	R
+-	'đó, Thưa Bệ hạ...? Uh, um...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Aaaah, anh ngươi.'
+-	R
+-	'Đừng cứng nhắc thế. Việc'
+-	R
+-	'học của ngươi thế nào rồi?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Tôi... tôi không thể'
+-	R
+-	'làm được, đáng sợ quá...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Đáng Sợ... Ngươi có'
+-	R
+-	'nghĩ rằng đấu kiếm đáng sợ?'
+-	\L_0793a:
+-	ZH 1:
+-	'Hay Là Bà'
+-	R
+-	'Aviator thực sự là một'
+-	R
+-	'giáo viên siêu độc ác?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'K-Không. Nàng tốt'
+-	R
+-	'bụng và nghiêm khắc...'
+-	R
+-	'Một giáo viên tốt...'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi... tôi sợ mất...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Hả,'
+-	\L_0793a:
+-	ZH 1:
+-	'nhưng cậu luôn'
+-	R
+-	'đạt được chiến'
+-	\L_0793a:
+-	ZH 1:
+-	'thắng hoàn hảo trong các'
+-	R
+-	'trận chiến giả phải không?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Nhưng khi tôi ra'
+-	R
+-	'lệnh, bụng tôi lại đau… Đau'
+-	R
+-	'quá, tôi không thể làm được…'
+-	\L_0793a:
+-	ZH 1:
+-	'Bất cứ khi'
+-	R
+-	'nào tôi chiến đấu, tôi cảm'
+-	R
+-	'thấy như mình sẽ thua...'
+-	\L_0793a:
+-	ZH 1:
+-	'Vì tôi vô giá trị...'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi nghĩ rằng nếu'
+-	R
+-	'tôi thua, tôi sẽ trở nên'
+-	R
+-	'vô dụng hơn rất nhiều...'
+-	\L_0793a:
+-	ZH 1:
+-	'sau đó, ngay cả Bà'
+-	R
+-	'Aviator cũng sẽ bỏ rơi'
+-	R
+-	'tôi trong sự ghê tởm...'
+-	\L_0793a:
+-	ZH 1:
+-	'Đó là điều tôi sợ...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ngươi đang nói'
+-	R
+-	'về điều gì...?'
+-	\L_0793a:
+-	ZH 1:
+-	'Chỉ những cô gái'
+-	R
+-	'xấu xí mới cần lo lắng về'
+-	R
+-	'giá trị bản thân của mình.'
+-	\L_0793a:
+-	ZH 1:
+-	'ngươi dễ thương, Arlcoate.'
+-	\L_0793a:
+-	ZH 1:
+-	'Điều đó mang'
+-	R
+-	'lại cho ngươi giá trị'
+-	R
+-	'trong và của chính nó.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Nhưng... Ngài nói'
+-	R
+-	'dối, tôi xấu...!'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Tôi là Vua. Lời'
+-	R
+-	'của nhà vua là...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Chúa sẽ trừng phạt'
+-	R
+-	'tôi vì đã khiến Đức vua'
+-	R
+-	'nói dối...! Aah... Ah...'
+-	\L_0793a:
+-	ZH 1:
+-	'Xin lỗi...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_078e7:
+-	\L_0784d:
+-	ZH 1:
+-	'Arlcoate khóc và bỏ chạy.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'... Sự trừng'
+-	R
+-	'phạt của Thiên Chúa.'
+-	\L_0793a:
+-	ZH 1:
+-	'Hừm, thật ngu ngốc.'
+-	R
+-	'Nếu Chúa trừng phạt ngươi,'
+-	R
+-	'hãy trừng phạt Chúa lại.'
++	'À, ừm...... xin chào, hôm'
++	R
++	'nay trời đẹp nhỉ, thưa nhà'
++	R
++	'vua...... rồi, ừm......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Thôi thôi, được rồi.'
++	R
++	'Đừng căng thẳng thế.'
++	R
++	'Việc học sao rồi......?'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Em...... không được'
++	R
++	'ạ, sợ lắm......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Sợ. Sợ kiếm thuật à?'
++	\L_0793a:
++	ZH 1:
++	'Hay cô giáo Aviator thật ra'
++	R
++	'là giáo quan ác quỷ......'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'K-không phải ạ. Cô'
++	R
++	'vừa hiền vừa nghiêm,'
++	R
++	'là cô giáo tốt......'
++	\L_0793a:
++	ZH 1:
++	'Em...... em sợ'
++	R
++	'thua lắm......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hể,'
++	\L_0793a:
++	ZH 1:
++	'nhưng nghe nói Arlcoate'
++	\L_0793a:
++	ZH 1:
++	'lúc nào cũng thắng tuyệt đối'
++	R
++	'trong các trận giả cơ mà.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Nhưng mà...... hễ chỉ huy'
++	R
++	'là em đau dạ dày... khổ'
++	R
++	'sở lắm, không được ạ......'
++	\L_0793a:
++	ZH 1:
++	'Đánh lúc nào cũng có'
++	R
++	'cảm giác sắp thua......'
++	\L_0793a:
++	ZH 1:
++	'Em chẳng có điểm gì tốt...'
++	\L_0793a:
++	ZH 1:
++	'Thua trận này thì em'
++	R
++	'sẽ hoàn toàn chẳng còn'
++	R
++	'giá trị gì nữa......'
++	\L_0793a:
++	ZH 1:
++	'Rồi chắc chắn cô giáo cũng'
++	R
++	'sẽ chán ngán mà bỏ mặc em...'
++	\L_0793a:
++	ZH 1:
++	'Em sợ chuyện đó lắm......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Gì chứ, chuyện đó à...'
++	\L_0793a:
++	ZH 1:
++	'Giá trị bản thân ấy à, chỉ'
++	R
++	'đứa xấu xí mới phải lo.'
++	\L_0793a:
++	ZH 1:
++	'Arlcoate dễ thương mà.'
++	\L_0793a:
++	ZH 1:
++	'Đứa dễ thương thì chỉ thế'
++	R
++	'thôi đã có giá trị rồi.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Sao lại...... ngài nói'
++	R
++	'dối, em xấu xí mà......!'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ta là vua đấy. Lời của'
++	R
++	'quốc vương mà......'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Em đã khiến nhà vua phải nói'
++	R
++	'dối, chắc chắn em sẽ bị trời'
++	R
++	'phạt......! A a... a......'
++	\L_0793a:
++	ZH 1:
++	'em xin phép......'
++	\L_0793a:
++	\L_0792d:
++	\L_078e7:
++	\L_0784d:
++	ZH 1:
++	'Arlcoate vừa'
++	R
++	'khóc vừa chạy đi.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'...............Trời phạt.'
++	\L_0793a:
++	ZH 1:
++	'Hừ, vớ vẩn. Thứ đó mà'
++	R
++	'trúng phải thì cứ phạt'
++	R
++	'ngược lại là được.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 76!
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Ồ, Arlcoate là... Vua'
+-	R
+-	'Rance, Arlcoate thế nào...?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Hmmm, cô khá là lo lắng.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Hah... Tôi'
+-	R
+-	'xin lỗi, tôi sẽ huấn luyện'
+-	R
+-	'nàng bằng cách nào đó...'
++	'Ơ kìa, Arlcoate đâu...'
++	R
++	'Vua Rance, Arlcoate'
++	R
++	'thế nào ạ......?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừm, lo xa kinh'
++	R
++	'khủng. Khổ thật.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Dạ...... xin lỗi'
++	R
++	'ngài, tôi sẽ tìm cách'
++	R
++	'hướng dẫn em ấy...'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	@L_03fc2:
+@@ -4363,19 +4303,19 @@
+ 	{VAR0004 \ 0:
+ 		\L_07885:
+ 		ZH 1:
+-		'bài kiểm tra'
++		'Kỳ thi tốt nghiệp'
+ 		R
+-		'tốt nghiệp là trong'
++		'sẽ tổ chức từ'
+ 		R
+ 		H 0, VAR0562:
+ 		ZH 1:
+-		'tuần'
++		' tuần'
+ 		{VAR0562 > 1:
+ 			ZH 1:
+-			'giây'
++			''
+ 		}
+ 		ZH 1:
+-		', Vua Rance.'
++		' nữa trở đi, Vua Rance.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07815:
+@@ -4403,187 +4343,179 @@
+ 	!VAR0004 : 1!
+ 	\L_07885:
+ 	ZH 1:
+-	'rafalia và Arlcoate'
+-	R
+-	'đứng xa những người khác.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi đang cân'
+-	R
+-	'nhắc việc sớm cho một trong'
+-	R
+-	'số họ tốt nghiệp nâng cao.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Được rồi, chắc chắn rồi.'
+-	\L_0793a:
+-	ZH 1:
+-	'Cuối cùng tôi sẽ có thể'
+-	R
+-	'thêm một vị tướng dễ thương'
+-	R
+-	'vào quân đội của mình.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Sau đó, tôi sẽ tốt'
+-	R
+-	'nghiệp một trong số họ,'
+-	\L_0793a:
+-	ZH 1:
+-	'nhưng cả hai vẫn'
+-	R
+-	'cần học thêm một chút.'
++	'Rafalia và Arlcoate'
++	R
++	'giỏi vượt trội hẳn.'
++	\L_0793a:
++	ZH 1:
++	'Tôi định sắp tới sẽ'
++	R
++	'cho một trong hai em'
++	R
++	'tốt nghiệp đặc cách...'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'À, được đấy.'
++	\L_0793a:
++	ZH 1:
++	'Cuối cùng quân của ta cũng'
++	R
++	'có thêm nữ tướng dễ thương.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vậy, cho em nào tốt'
++	R
++	'nghiệp thì... để xem,'
++	\L_0793a:
++	ZH 1:
++	'cả hai đều vẫn cần'
++	R
++	'học thêm chút nữa...'
+ 	\L_0793a:
+ 	H 0, VAR0562:
+ 	ZH 1:
+-	'tuần'
++	' tuần'
+ 	{VAR0562 > 1:
+ 		ZH 1:
+-		'giây'
++		''
+ 	}
+ 	ZH 1:
+-	'từ bây giờ,'
+-	\L_0793a:
+-	ZH 1:
+-	'bài kiểm tra cuối'
+-	R
+-	'cùng sẽ là vào một trong'
+-	R
+-	'những ngày nghỉ của ngươi.'
+-	\L_0793a:
+-	ZH 1:
+-	'Hãy chắc chắn để đến xem.'
+-	\L_0793a:
+-	ZH 1:
+-	'Ngươi hãy nhìn vào kết'
+-	R
+-	'quả và tự mình lựa chọn giữa'
+-	\L_0793a:
+-	ZH 1:
+-	'Rafalia hoặc Arlcoate'
+-	R
+-	'sắp được đưa vào sử dụng?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Vâng, chắc chắn rồi.'
+-	\L_0793a:
+-	ZH 1:
+-	'cả hai đều dễ thương,'
+-	\L_0793a:
+-	ZH 1:
+-	'vì vậy cũng có thể phá vỡ'
+-	R
+-	'mối quan hệ bằng cách quyết'
+-	R
+-	'định ai có năng lực hơn.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Trong'
++	' nữa trở đi,'
++	\L_0793a:
++	ZH 1:
++	'vào một ngày Bệ hạ'
++	R
++	'rảnh, chúng tôi sẽ'
++	R
++	'tổ chức kỳ thi cuối.'
++	\L_0793a:
++	ZH 1:
++	'Xin ngài nhất định tới xem.'
++	\L_0793a:
++	ZH 1:
++	'Xem kết quả rồi Bệ'
++	R
++	'hạ quyết định giúp:'
++	\L_0793a:
++	ZH 1:
++	'cho Rafalia hay Arlcoate'
++	R
++	'nhập ngũ, được không ạ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừ, được.'
++	\L_0793a:
++	ZH 1:
++	'Cả hai đều dễ thương,'
++	\L_0793a:
++	ZH 1:
++	'nên quyết bằng thực'
++	R
++	'lực cũng không tệ.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vậy thì, từ '
+ 	H 0, VAR0562:
+ 	ZH 1:
+-	'tuần'
++	' tuần'
+ 	{VAR0562 > 1:
+ 		ZH 1:
+-		'giây'
++		''
+ 	}
+ 	ZH 1:
+-	', thì...'
++	' nữa trở đi......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	@L_03fc2:
+ *L_049e2:
+ 	\L_07815:
+ 	ZH 1:
+-	'Vậy tôi sẽ quay lại. Tôi'
+-	R
+-	'sẽ quay lại vào lúc khác.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Ah, Vua'
+-	R
+-	'Rance... Ngài quên mất'
+-	R
+-	'thanh kiếm của mình.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Thật tệ nếu tôi'
+-	R
+-	'quên điều đó... ... Oh yeah,'
+-	R
+-	'có một điều khác tôi quên.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'À, cái gì vậy?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'( nắm chặt) Rance'
+-	R
+-	'nắm chặt tay Phi công.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Anh quên đưa em'
+-	R
+-	'về phòng cùng anh.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Ppth...'
+-	\L_0793a:
+-	ZH 1:
+-	'Dừng lại đi, Vua Rance.'
+-	R
+-	'Làm ơn ngừng đùa giỡn và'
+-	R
+-	'nghiêm túc hơn đi, heehee...'
++	'Vậy ta về đây.'
++	R
++	'Ta sẽ lại tới.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'A, Vua Rance...'
++	R
++	'ngài quên kiếm kìa.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ối, quên thì gay...'
++	R
++	'......À phải, còn một'
++	R
++	'thứ nữa ta để quên.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'À, vâng, là gì vậy ạ?'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'＜Nắm chặt＞ Rance nắm'
++	R
++	'chặt lấy tay Aviator.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Suýt nữa thì quên'
++	R
++	'mang em về phòng.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Phụt......'
++	\L_0793a:
++	ZH 1:
++	'Thôi mà, Bệ hạ. Nói câu đó'
++	R
++	'nghiêm trang thế... Xin ngài'
++	R
++	'đừng đùa nữa, khúc khích...'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07831:
+ 	ZH 1:
+-	'Ugh, tôi không'
+-	R
+-	'nói đùa và tôi hoàn toàn'
+-	R
+-	'nghiêm túc... Đừng cười.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Chết tiệt, tôi'
+-	R
+-	'đi đây. Tôi sẽ quay'
+-	R
+-	'lại vào lúc khác.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Được rồi, tôi sẽ đợi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Rance rời học'
+-	R
+-	'viện quân sự một mình.'
++	'Ư, đâu phải đùa, ta'
++	R
++	'nghiêm túc hết mức'
++	R
++	'mà...... bị cười mất rồi.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Chết tiệt, về đây.'
++	R
++	'Ta sẽ lại tới đấy.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, tôi đợi ngài.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Rance một mình rời'
++	R
++	'khỏi trường sĩ quan.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+@@ -4593,14 +4525,14 @@
+ 	!VAR0562 : 20!
+ 	ZM 32:
+ 	ZH 1:
+-	'Kỳ Thi Xuất'
+-	R
+-	'Sắc Của Học Sinh'
++	'Kỳ Thi Chọn Học'
++	R
++	'Viên Xuất Sắc'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Ngày Của'
++	'Ngày Thi'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 1!
+@@ -4609,83 +4541,77 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Ah... Cảm ơn Chúa vì'
+-	R
+-	'ngài đã đến, Vua Rance...'
+-	\L_0793a:
+-	ZH 1:
+-	'Khi cậu không đến'
+-	R
+-	'vào thời điểm tôi nhắn tin'
+-	R
+-	'cho cậu, tôi đã lo lắng...!'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Rance đi dạo'
+-	R
+-	'vào trường và Phi công bước'
+-	R
+-	'ra chào anh ta, thở hổn hển.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ừm, à, ừ.'
+-	\L_0793a:
+-	ZH 1:
+-	'Nhắc mới nhớ, ta đã'
+-	R
+-	'nhận được một tin nhắn vào'
+-	R
+-	'sáng hôm qua. Ta quên mất.'
+-	\L_0793a:
+-	ZH 1:
+-	'vì vậy, nó đang xảy'
+-	R
+-	'ra ngày hôm nay, phải không?'
+-	\L_0793a:
+-	ZH 1:
+-	'bài kiểm tra sẽ quyết định'
+-	R
+-	'xem Rafalia hay Arlcoate'
+-	R
+-	'vào quân đội của ta...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Trời ạ... Việc này đã được'
+-	R
+-	'sắp xếp để diễn ra vào thời'
+-	R
+-	'điểm thuận tiện cho cậu.'
+-	\L_0793a:
+-	ZH 1:
+-	'Chỗ Ngồi Đặc biệt được thiết'
+-	R
+-	'lập trong sân vận động,'
+-	R
+-	'xin vui lòng nhanh lên đó.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Được rồi, chỗ ngồi'
+-	R
+-	'đặc biệt, tuyệt vời. Như'
+-	R
+-	'ta xứng đáng, Gahahahaha!.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Họ đi đến'
+-	R
+-	'một sân vận động nhỏ ở một'
+-	R
+-	'góc của học viện quân sự.'
++	'A... Vua Rance, may quá...'
++	\L_0793a:
++	ZH 1:
++	'Ngài không tới đúng như'
++	R
++	'đã báo, tôi lo quá......!'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Rance thong thả dạo'
++	R
++	'vào trường, Aviator'
++	R
++	'thở hổn hển ra đón.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hửm, à, vậy à.'
++	\L_0793a:
++	ZH 1:
++	'Nhắc mới nhớ, hôm qua'
++	R
++	'hình như ta có cho báo sẽ'
++	R
++	'tới buổi sáng. Quên mất.'
++	\L_0793a:
++	ZH 1:
++	'Vậy là hôm nay tổ chức à.'
++	\L_0793a:
++	ZH 1:
++	'Kỳ thi quyết định'
++	R
++	'Rafalia hay Arlcoate'
++	R
++	'vào quân của ta......'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Thật là...... chúng'
++	R
++	'tôi tổ chức theo lịch'
++	R
++	'của Vua Rance mà.'
++	\L_0793a:
++	ZH 1:
++	'Ở sân thi đấu đã chuẩn'
++	R
++	'bị chỗ ngồi đặc biệt,'
++	R
++	'xin ngài mau tới ạ.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừ, tốt tốt, chỗ ngồi'
++	R
++	'đặc biệt. Xứng với'
++	R
++	'ta đấy, gahahaha.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Hai người đi tới sân'
++	R
++	'thi đấu nhỏ ở một góc'
++	R
++	'trường sĩ quan......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	PF1 VAR0056:
+@@ -4693,29 +4619,25 @@
+ 	\L_0784d:
+ 	ZM 32:
+ 	ZH 1:
+-	'Sân vận động Học viện'
++	'Sân thi đấu'
++	R
++	'trường sĩ quan'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Chỗ Ngồi Đặc Biệt Của'
+-	R
+-	'Du Khách Thật vui vì tôi'
+-	\L_0793a:
+-	ZH 1:
+-	'đã có được chiếc ghế'
+-	R
+-	'giám khảo đặc biệt này,'
+-	\L_0793a:
+-	ZH 1:
+-	'nhưng chẳng có'
+-	R
+-	'gì xảy ra ở đây cả.'
+-	\L_0793a:
+-	ZH 1:
+-	'Điều này là khập'
+-	R
+-	'khiễng, không đủ dịch vụ.'
++	'Ghế Khách Quý Đặc Biệt'
++	R
++	'Ghế giám khảo đặc biệt......'
++	\L_0793a:
++	ZH 1:
++	'...tới thì tới rồi,'
++	\L_0793a:
++	ZH 1:
++	'nhưng có ai thi gì đâu.'
++	\L_0793a:
++	ZH 1:
++	'Chán quá, phục vụ kém.'
+ 	\L_0793a:
+ 	ZH 1:
+ 	'Tôi có thể xem qua vài'
+@@ -4727,62 +4649,142 @@
+ 	\L_0792d:
+ 	\L_07885:
+ 	ZH 1:
+-	'Um, Vua, đó là một chỗ'
+-	R
+-	'ngồi du khách đặc biệt...'
+-	\L_0793a:
+-	ZH 1:
+-	'Ngoài ra, đây không phải'
+-	R
+-	'là một lễ hội thể thao...'
+-	\L_0793a:
+-	ZH 1:
+-	'Hiện tại không có'
+-	R
+-	'gì xảy ra vì chúng tôi đang'
+-	R
+-	'trong thời gian nghỉ ngơi.'
+-	\L_0793a:
+-	ZH 1:
+-	'Sau đây là trận chiến'
+-	R
+-	'giả định cuối cùng trên bàn.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Cái gì, đã'
+-	R
+-	'là trận đấu cuối cùng'
+-	R
+-	'ngay sau khi ta đến?'
+-	\L_0793a:
+-	ZH 1:
+-	'Sau khi ta đã cố'
+-	R
+-	'gắng rất nhiều để xuất hiện.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'............'
+-	\L_0793a:
+-	ZH 1:
+-	'Nhân tiện, King,'
+-	\L_0793a:
+-	ZH 1:
+-	'đây là kết quả'
+-	R
+-	'của các cuộc kiểm tra tính'
+-	R
+-	'đến thời điểm hiện tại...'
+-	\L_0793a:
+-	ZH 1:
+-	'rafalia chiếm vị trí'
+-	R
+-	'số 1 trong phần đấu kiếm'
+-	R
+-	'vào buổi sáng, tất nhiên.'
++	'Bệ hạ, ừm, là ghế'
++	R
++	'khách quý đặc biệt ạ...'
++	\L_0793a:
++	ZH 1:
++	'Vả lại đây đâu'
++	R
++	'phải hội thao......'
++	\L_0793a:
++	ZH 1:
++	'Bây giờ không có gì là'
++	R
++	'vì vừa đúng giờ nghỉ.'
++	\L_0793a:
++	ZH 1:
++	'Sau giờ nghỉ sẽ là'
++	R
++	'trận chung kết đấu'
++	R
++	'trận giả trên bàn.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Gì chứ, vừa tới đã'
++	R
++	'là chung kết rồi à.'
++	\L_0793a:
++	ZH 1:
++	'Ta đã cất công lặn'
++	R
++	'lội tới đây cơ mà.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'..................'
++	\L_0793a:
++	ZH 1:
++	'Nhân tiện, Bệ hạ,'
++	\L_0793a:
++	ZH 1:
++	'kết quả các phần'
++	R
++	'thi tới giờ...'
++	\L_0793a:
++	ZH 1:
++	'phần kiếm thuật sáng'
++	R
++	'nay, quả nhiên Rafalia'
++	R
++	'giành hạng nhất.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hừm, hừm.'
++	\L_0793a:
++	ZH 1:
++	'Đến thiên tài Arlcoate'
++	\L_0793a:
++	ZH 1:
++	'cũng không địch'
++	R
++	'nổi về kiếm à.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng...... nhưng Arlcoate'
++	R
++	'cũng đánh tốt, xếp hạng 3.'
++	\L_0793a:
++	ZH 1:
++	'Còn từ buổi chiều là phần'
++	R
++	'đấu trận giả trên bàn.'
++	\L_0793a:
++	ZH 1:
++	'Ngài biết đấu trận'
++	R
++	'giả trên bàn chứ ạ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừm, mô phỏng chiến trường,'
++	R
++	'di chuyển quân cờ trên bản'
++	R
++	'đồ để so tài chiến lược.'
++	\L_0793a:
++	ZH 1:
++	'Ta đọc trên tạp chí'
++	R
++	'trò chơi bàn rồi.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng. Phần này là sân'
++	R
++	'khấu riêng của Arlcoate.'
++	\L_0793a:
++	ZH 1:
++	'Em ấy thắng tuyệt đối mọi'
++	R
++	'trận để vào chung kết.'
++	\L_0793a:
++	ZH 1:
++	'Còn người kia vượt qua'
++	R
++	'để vào chung kết là...'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Rafalia à.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng.'
++	\L_0793a:
++	ZH 1:
++	'Em ấy cũng thể hiện'
++	R
++	'sức mạnh ổn định'
++	\L_0793a:
++	ZH 1:
++	'để đi tiếp...'
++	\L_0793a:
++	ZH 1:
++	'Cả hai đúng là'
++	R
++	'không phụ kỳ vọng.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07815:
+@@ -4790,135 +4792,31 @@
+ 	'Ừm.'
+ 	\L_0793a:
+ 	ZH 1:
+-	'Vậy ngay cả một'
+-	R
+-	'thiên tài như Arlcoate cũng'
+-	\L_0793a:
+-	ZH 1:
+-	'không thể so sánh được'
+-	R
+-	'với kiếm thuật của nàng?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Có... Nhưng'
+-	R
+-	'Arlcoate đã chiến đấu'
+-	R
+-	'tốt và có vị trí thứ 3.'
+-	\L_0793a:
+-	ZH 1:
+-	'Sau đó vào buổi chiều,'
+-	R
+-	'chúng tôi đã thực hiện các'
+-	R
+-	'trận chiến giả trên bàn.'
+-	\L_0793a:
+-	ZH 1:
+-	'Cậu có biết'
+-	R
+-	'đó là gì không?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Vâng, Một mô phỏng'
+-	R
+-	'trận chiến nơi ông di chuyển'
+-	R
+-	'các mảnh trên một bảng giấy.'
+-	\L_0793a:
+-	ZH 1:
+-	'Ta đọc về'
+-	R
+-	'nó trên một tạp chí trò'
+-	R
+-	'chơi trên máy tính bảng.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Có. Không'
+-	R
+-	'ai có thể cạnh tranh'
+-	R
+-	'Với Arlcoate trong đó.'
+-	\L_0793a:
+-	ZH 1:
+-	'nàng đã đạt được những chiến'
+-	R
+-	'thắng hoàn hảo trong tất'
+-	R
+-	'cả các trận đấu của mình.'
+-	\L_0793a:
+-	ZH 1:
+-	'Sau đó, có'
+-	R
+-	'một người khác đã lọt vào'
+-	R
+-	'trận chung kết, nhưng...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Có phải Rafalia không?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng.'
+-	\L_0793a:
+-	ZH 1:
+-	'Cô cũng bình tĩnh thể'
+-	R
+-	'hiện sức mạnh của mình và'
+-	\L_0793a:
+-	ZH 1:
+-	'giành chiến thắng trong'
+-	R
+-	'các trận đấu của mình...'
+-	\L_0793a:
+-	ZH 1:
+-	'Đúng như dự đoán'
+-	R
+-	'của hai người họ.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ừm.'
+-	\L_0793a:
+-	ZH 1:
+-	'Đó là lý do tại sao một'
+-	R
+-	'trong số họ sẽ gia nhập quân'
+-	R
+-	'đội của ta vào tuần tới.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Bây giờ...'
+-	\L_0793a:
+-	ZH 1:
+-	'còn 5 phút nữa'
+-	R
+-	'là hết giờ nghỉ.'
+-	\L_0793a:
+-	ZH 1:
+-	'Xin hãy theo dõi'
+-	R
+-	'cuộc chiến của họ'
+-	R
+-	'một cách cẩn thận.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Trong khi Rance đang'
+-	R
+-	'nói chuyện với Aviator...'
++	'Dù sao một trong hai sẽ vào'
++	R
++	'quân của ta tuần tới mà.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Nào...'
++	\L_0793a:
++	ZH 1:
++	'còn khoảng 5 phút'
++	R
++	'nữa là hết giờ nghỉ.'
++	\L_0793a:
++	ZH 1:
++	'Xin ngài hãy xem kỹ'
++	R
++	'cách các em chiến đấu.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Trong lúc Rance đang nói'
++	R
++	'chuyện với Aviator...'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	PF1 VAR0056:
+@@ -4928,19 +4826,19 @@
+ 	\L_0784d:
+ 	ZM 32:
+ 	ZH 1:
+-	'Học viện quân sự nữ'
++	'Trường sĩ quan nữ'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Kho PE Trong nhà kho u ám,'
+-	\L_0793a:
+-	ZH 1:
+-	'Arlcoate bị vây'
+-	R
+-	'quanh bởi Rafalia và'
+-	R
+-	'những người theo cô.'
++	'Kho dụng cụ thể thao'
++	R
++	'Trong nhà kho tối mờ,'
++	\L_0793a:
++	ZH 1:
++	'Rafalia và đám bạn đi'
++	R
++	'theo vây quanh Arlcoate.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 78!
+@@ -4949,109 +4847,111 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'... Rafalia... Lại nữa...?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Tôi chỉ hỏi cậu'
+-	R
+-	'một lần thôi, Arlcoate.'
+-	\L_0793a:
+-	ZH 1:
+-	'chắc chắn cậu'
+-	R
+-	'không có ý định chiến'
+-	R
+-	'thắng tôi, phải không?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'............ Ừm...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Cậu đang do dự vì điều'
+-	R
+-	'gì? Cậu chậm như cậu trơ'
+-	R
+-	'tráo. vâng, bất cứ điều gì.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi đã biết tôi sẽ thắng.'
+-	\L_0793a:
+-	ZH 1:
+-	'Nhưng tôi sẽ'
+-	R
+-	'cho cậu một điểm chấp để'
+-	R
+-	'nó không quá nhàm chán...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Wha...? À...! những người'
+-	R
+-	'theo Dõi Rafalia đã trói'
+-	R
+-	'tay Arlcoate sau lưng cô.'
+-	\L_0793a:
+-	ZH 1:
+-	'rafalia buộc'
+-	R
+-	'arlcoate mở miệng và đổ'
+-	R
+-	'một loại thuốc lỏng vào.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Ngh... khụ khụ...!'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Tôi đã chuẩn bị loại thuốc'
+-	R
+-	'đặc biệt này cho cậu để tiếp'
+-	R
+-	'thêm năng lượng cho cậu.'
+-	\L_0793a:
+-	ZH 1:
+-	'Điều này thậm chí nên'
+-	R
+-	'sân chơi một chút. Uhuhu...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Kh...'
++	'......Đàn chị'
++	R
++	'Rafalia...... lại nữa......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Chị chỉ hỏi một'
++	R
++	'lần thôi, Arlcoate.'
++	\L_0793a:
++	ZH 1:
++	'Em không định'
++	R
++	'thắng chị đấy chứ.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'..................'
++	R
++	'Chuyện đó......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ấp úng gì thế. Đúng là'
++	R
++	'đứa vừa chậm chạp vừa'
++	R
++	'trơ tráo...... Thôi được.'
++	\L_0793a:
++	ZH 1:
++	'Đằng nào chị cũng thắng.'
++	\L_0793a:
++	ZH 1:
++	'Nhưng... như thế thì'
++	R
++	'chán, nên chị cho em'
++	R
++	'chấp một chút......'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'C...... a......! Đám'
++	R
++	'bạn của Rafalia khóa'
++	R
++	'chặt hai tay Arlcoate.'
++	\L_0793a:
++	ZH 1:
++	'Rafalia ép Arlcoate'
++	R
++	'há miệng, đổ một'
++	R
++	'thứ thuốc nước vào.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Ưm...... khụ, khụ......!'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Thuốc chị đặc biệt'
++	R
++	'chuẩn bị cho em đấy,'
++	R
++	'uống vào là có sức.'
++	\L_0793a:
++	ZH 1:
++	'Thế này chắc đấu cũng đáng'
++	R
++	'hơn chút. Ufufufu......'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Khư......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07877:
+ 	\L_0784d:
+ 	ZH 1:
+-	'Arlcoate khuỵu xuống.'
+-	R
+-	'Rafalia và những người theo'
+-	R
+-	'cô rời khỏi nhà kho PE.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Khóc Nức nở... Khóc nức'
+-	R
+-	'nở... tại sao...? Tôi vô giá'
+-	R
+-	'trị ở bất cứ điều gì khác...'
+-	\L_0793a:
+-	ZH 1:
+-	'Tại sao tôi không nên'
+-	R
+-	'giành chiến thắng ở đây...?'
++	'Bỏ lại Arlcoate khuỵu'
++	R
++	'gối, Rafalia và đám'
++	R
++	'bạn rời khỏi nhà kho.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Hức...... hức...... tại'
++	R
++	'sao...... em...... chẳng'
++	R
++	'có điểm gì tốt khác...'
++	\L_0793a:
++	ZH 1:
++	'vậy mà...... không được'
++	R
++	'thắng...... sao......?'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 1!
+@@ -5061,45 +4961,45 @@
+ 	\L_0784d:
+ 	ZM 32:
+ 	ZH 1:
+-	'Sân vận động Học viện'
++	'Sân thi đấu'
++	R
++	'trường sĩ quan'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Trận Chung Kết Trên'
+-	R
+-	'Bàn Bắt đầu rồi, Vua.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Mhm... Dù vậy, đây là'
+-	R
+-	'một trận chiến khá đơn giản.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Một chiếc'
+-	R
+-	'bàn duy nhất được kê ở'
+-	R
+-	'giữa sân vận động nhỏ.'
+-	\L_0793a:
+-	ZH 1:
+-	'Phía trên bàn là một bản'
+-	R
+-	'đồ thể hiện chiến trường,'
++	'Chung kết đấu trận giả'
++	R
++	'Bắt đầu rồi đấy, Bệ hạ.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừm... nhưng mà, gì nhỉ. Trận'
++	R
++	'đấu trông nhạt nhẽo thật.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Giữa sân thi đấu không rộng'
++	R
++	'lắm, lẻ loi một chiếc bàn.'
++	\L_0793a:
++	ZH 1:
++	'Trên bàn là bản'
++	R
++	'đồ chiến trường,'
+ 	\L_0793a:
+ 	ZH 1:
+ 	'nhiều quân cờ và'
+ 	R
+-	'một số viên xúc xắc.'
+-	\L_0793a:
+-	ZH 1:
+-	'Rafalia và Arlcoate đang'
+-	R
+-	'đối mặt với nhau trên bàn...'
++	'vài con xúc xắc.'
++	\L_0793a:
++	ZH 1:
++	'Rafalia và Arlcoate ngồi đối'
++	R
++	'diện nhau qua chiếc bàn...'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07877:
+@@ -5110,7 +5010,7 @@
+ 	\L_078d9:
+ 	\L_07815:
+ 	ZH 1:
+-	'Ủa...'
++	'Ufufu......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07885:
+@@ -5123,39 +5023,39 @@
+ 	'Bắt đầu.'
+ 	\L_0793a:
+ 	ZH 1:
+-	'Theo chỉ dẫn của trọng'
+-	R
+-	'tài, họ bắt đầu âm thầm di'
+-	R
+-	'chuyển quân cờ của mình...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'... Triển khai'
+-	R
+-	'tập trung ở Berlin...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ồ, đột nhiên bước'
+-	R
+-	'sang một bên? Uhuhu, nhưng'
+-	R
+-	'cậu sẽ không lừa tôi đâu...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Arlcoate đã giăng'
+-	R
+-	'bẫy quân của Rafalia.'
+-	\L_0793a:
+-	ZH 1:
+-	'Sau đó Rafalia đã nhìn'
+-	R
+-	'thấu cô và tránh được nó...'
++	'Theo hiệu lệnh trọng'
++	R
++	'tài, hai người lặng lẽ'
++	R
++	'di chuyển quân cờ...'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'...Tập trung... bố'
++	R
++	'trí ở... Berlin......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ơ kìa, định rút lui'
++	R
++	'ngay à? Ufufu, nhưng'
++	R
++	'chị không mắc bẫy đâu...'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Arlcoate giăng'
++	R
++	'bẫy quân Rafalia.'
++	\L_0793a:
++	ZH 1:
++	'Còn Rafalia nhìn'
++	R
++	'thấu, né tránh......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07877:
+@@ -5166,21 +5066,21 @@
+ 	\L_078d9:
+ 	\L_07815:
+ 	ZH 1:
+-	'đây là một cuộc chiến dài.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, đây là một trận'
+-	R
+-	'chiến của trí thông minh.'
+-	\L_0793a:
+-	ZH 1:
+-	'Nhưng hôm nay'
+-	R
+-	'rafalia đang cẩn thận'
+-	R
+-	'một cách bất thường...'
++	'Có vẻ thành trận'
++	R
++	'đánh dài đây.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, thành cuộc'
++	R
++	'đấu trí ngầm rồi.'
++	\L_0793a:
++	ZH 1:
++	'Nhưng hôm nay Rafalia thận'
++	R
++	'trọng khác thường......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07877:
+@@ -5191,133 +5091,127 @@
+ 	\L_078d9:
+ 	\L_07815:
+ 	ZH 1:
+-	'Huhu, có chuyện gì'
+-	R
+-	'vậy? Tiếp tục và tấn công...'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi đảm bảo với'
+-	R
+-	'cậu rằng tôi sẽ không...'
++	'Ufufu, sao thế, mau'
++	R
++	'tấn công đi chứ...'
++	\L_0793a:
++	ZH 1:
++	'Chị tuyệt đối không tấn'
++	R
++	'công trước đâu......?'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078a1:
+ 	ZH 1:
+-	'Tại sao...?'
+-	R
+-	'Tại sao có vẻ như nàng đang'
+-	R
+-	'cố tình vẽ ra điều này...?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'... Vậy tôi'
+-	R
+-	'sẽ... ... À...!?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Uhuhu... Thuốc'
+-	R
+-	'có hiệu lực. Hãy để Tôi'
+-	R
+-	'nói Với Cậu, Arlcoate...'
+-	\L_0793a:
+-	ZH 1:
+-	'thuốc đó là'
+-	R
+-	'thuốc lợi tiểu.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'... Hả...?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Nhưng cậu không'
+-	R
+-	'thể đi vệ sinh và làm gián'
+-	R
+-	'đoạn trận đấu trước mặt Vua.'
+-	\L_0793a:
+-	ZH 1:
+-	'điều đó sẽ'
+-	R
+-	'rất đáng hổ thẹn.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'... À... À...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Vì vậy, làm thế nào'
+-	R
+-	'về chúng tôi tiếp tục?'
+-	\L_0793a:
+-	ZH 1:
+-	'Ngay sau khi một trong'
+-	R
+-	'hai chúng tôi giành chiến'
+-	R
+-	'thắng, trận đấu sẽ kết thúc.'
+-	\L_0793a:
+-	ZH 1:
+-	'sau đó, cậu có'
+-	R
+-	'thể đi vệ sinh.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Kh... À...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Không được khóc.'
+-	R
+-	'Một người lính sẽ không'
+-	R
+-	'khóc khi họ gặp bất lợi.'
+-	\L_0793a:
+-	ZH 1:
+-	'đó là những gì'
+-	R
+-	'một đứa trẻ sẽ làm.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi chắc chắn'
+-	R
+-	'rằng Vua và Bà.'
+-	\L_0793a:
+-	ZH 1:
+-	'Aviator sẽ rất thất vọng'
+-	R
+-	'khi thấy cậu làm điều đó...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'... Kh...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Arlcoate đỏ'
+-	R
+-	'mặt và đối mặt với sự'
+-	R
+-	'tàn ác của Rafalia...'
+-	\L_0793a:
+-	ZH 1:
+-	'Nhưng...'
++	'Tại sao...... đàn chị'
++	R
++	'Rafalia cứ như cố tình'
++	R
++	'kéo dài trận đấu...'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'......Vậy thì,'
++	R
++	'bên này.........'
++	R
++	'.........A......!?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ufufu...... thuốc ngấm'
++	R
++	'rồi nhỉ. Chị nói cho'
++	R
++	'em biết, Arlcoate...'
++	\L_0793a:
++	ZH 1:
++	'thuốc lúc nãy là'
++	R
++	'thuốc lợi tiểu đấy.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'......Ơ......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Nhưng trước mặt Bệ hạ'
++	R
++	'mà xin đi vệ sinh, làm'
++	R
++	'gián đoạn trận đấu...'
++	\L_0793a:
++	ZH 1:
++	'thì không thể đâu nhỉ.'
++	R
++	'Chuyện khiếm nhã như vậy...'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'......A......... a a......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Nào, mau tiếp tục thôi?'
++	\L_0793a:
++	ZH 1:
++	'Đơn giản mà, một trong hai'
++	R
++	'thắng là trận đấu kết thúc.'
++	\L_0793a:
++	ZH 1:
++	'Thế là em đi vệ sinh được.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Khư...... ư a......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Khóc cũng không được đâu.'
++	R
++	'Thế trận bất lợi mà khóc,'
++	\L_0793a:
++	ZH 1:
++	'đâu phải quân nhân.'
++	R
++	'Như trẻ con ấy.'
++	\L_0793a:
++	ZH 1:
++	'Thấy học trò như'
++	R
++	'vậy, chắc hẳn Bệ hạ'
++	\L_0793a:
++	ZH 1:
++	'lẫn cô giáo sẽ thất'
++	R
++	'vọng lắm nhỉ...'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'......Ư.........khư......'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Arlcoate đỏ bừng mặt,'
++	R
++	'cố chịu đựng sự hành'
++	R
++	'hạ của Rafalia...'
++	\L_0793a:
++	ZH 1:
++	'Nhưng mà......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07877:
+@@ -5328,14 +5222,16 @@
+ 	\L_078d9:
+ 	\L_07815:
+ 	ZH 1:
+-	'Nngaaaah... Zzzzzzzzz...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'K-Vua Rance...'
+-	R
+-	'Trận đấu vẫn đang...'
++	'Ngáaa...... khò......'
++	R
++	'khò khò......'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'B-Bệ hạ Rance... trận'
++	R
++	'đấu vẫn còn......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_0784d:
+@@ -5351,49 +5247,47 @@
+ 	\L_078d9:
+ 	\L_07815:
+ 	ZH 1:
+-	'Uhuhu... Có'
+-	R
+-	'lẽ tôi nên tấn công, sau'
+-	R
+-	'đó. Rất chậm, mặc dù...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Kh... Ưu...'
+-	R
+-	'rafalia dần dần tiến quân.'
+-	\L_0793a:
+-	ZH 1:
+-	'Arlcoate đã bày'
+-	R
+-	'ra một đội hình chiến'
+-	R
+-	'đấu bất lợi cho mình,'
+-	\L_0793a:
+-	ZH 1:
+-	'không để ý'
+-	R
+-	'rằng Rance đang ngủ.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Tôi thấy cậu có'
+-	R
+-	'ý định thua nhanh chóng...'
+-	R
+-	'Nghĩ hay đấy, Arlcoate.'
+-	\L_0793a:
+-	ZH 1:
+-	'Xứng đáng là một'
+-	R
+-	'nhà chiến thuật thiên tài.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Rafa-...lia...'
++	'Ufufu...... vậy thì, chị'
++	R
++	'tấn công nhé. Nhưng từ'
++	R
++	'từ, thật từ từ thôi...'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Khư...... ư ư......'
++	R
++	'Rafalia từ từ tiến quân.'
++	\L_0793a:
++	ZH 1:
++	'Arlcoate thì chẳng hề'
++	R
++	'để ý Rance đang ngủ gật,'
++	\L_0793a:
++	ZH 1:
++	'cứ thế dàn trận'
++	R
++	'bất lợi cho mình.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Đúng rồi, em định thua'
++	R
++	'sớm à...... Quyết định'
++	R
++	'sáng suốt đấy, Arlcoate.'
++	\L_0793a:
++	ZH 1:
++	'Không hổ là quân'
++	R
++	'sư thiên tài.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Đàn chị... Rafa... lia......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07877:
+@@ -5404,14 +5298,14 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'W - Điều gì'
+-	R
+-	'có thể sai Với Arlcoate...?'
+-	\L_0793a:
+-	ZH 1:
+-	'Tại sao nàng lại chọn'
+-	R
+-	'một chiến lược như vậy...?'
++	'S-sao thế nhỉ,'
++	R
++	'Arlcoate......'
++	\L_0793a:
++	ZH 1:
++	'lại chọn chiến'
++	R
++	'lược như vậy......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07815:
+@@ -5440,39 +5334,39 @@
+ 	\L_078d9:
+ 	\L_0784d:
+ 	ZH 1:
+-	'quân Đội Của Rafalia'
+-	R
+-	'dễ dàng đập Tan Arlcoate.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Uhuhu, tôi đã'
+-	R
+-	'thắng rồi... Tôi sẽ là người'
+-	R
+-	'trở thành tướng Leazas...!'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'... Kh... Haah...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Trong khi thở hổn hển,'
+-	R
+-	'Arlcoate di chuyển các mảnh'
+-	R
+-	'của mình và tung xúc xắc.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Hả...? Làm sao điều'
+-	R
+-	'này có thể xảy ra...!?'
++	'Quân Rafalia ào ạt'
++	R
++	'đánh tan quân Arlcoate.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ufufu, thắng chắc rồi......'
++	R
++	'Người trở thành tướng quân'
++	R
++	'Leazas chính là chị......!'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'...Khư...... hư.........'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Thở hổn hển từng hơi,'
++	R
++	'Arlcoate tiến quân'
++	R
++	'cờ, tung xúc xắc.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ơ...... sao lại,'
++	R
++	'thế được...!?'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07877:
+@@ -5480,44 +5374,42 @@
+ 	\L_07869:
+ 	\L_07815:
+ 	ZH 1:
+-	'À...!? Xin hãy tỉnh dậy'
+-	R
+-	'đi, Vua Rance! Nhìn kìa...!'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Haa... Heh...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Arlcoate lau'
+-	R
+-	'mồ hôi lạnh trên trán'
+-	R
+-	'và cười nhẹ một mình.'
+-	\L_0793a:
+-	ZH 1:
+-	'quân Đội'
+-	R
+-	'Của Rafalia, được cho'
+-	R
+-	'là ở vị trí cấp trên,'
+-	\L_0793a:
+-	ZH 1:
+-	'đột nhiên bị bao vây'
+-	R
+-	'bởi quân Đội Của Arlcoate...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Chà... Rất'
+-	R
+-	'ấn tượng, Arlcoate...! Nàng'
+-	R
+-	'thực sự là một thiên tài...!'
++	'A...!? Bệ hạ Rance, xin ngài'
++	R
++	'dậy đi! Ngài nhìn kìa......!'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Phù...... khúc khích......'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Lau mồ hôi lạnh trên trán,'
++	R
++	'Arlcoate khẽ mỉm cười.'
++	\L_0793a:
++	ZH 1:
++	'Quân Rafalia lẽ ra'
++	R
++	'đang chiếm thế thượng'
++	R
++	'phong hoàn toàn,'
++	\L_0793a:
++	ZH 1:
++	'tự lúc nào đã bị quân'
++	R
++	'Arlcoate bao vây......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Giỏi quá... giỏi quá,'
++	R
++	'Arlcoate...! Quả nhiên'
++	R
++	'em ấy là thiên tài...!'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07877:
+@@ -5525,47 +5417,47 @@
+ 	\L_07869:
+ 	\L_07815:
+ 	ZH 1:
+-	'Không... Không,'
+-	R
+-	'điều này là không thể...!'
+-	R
+-	'Cậu đã uống thuốc đó...'
+-	\L_0793a:
+-	ZH 1:
+-	'Cậu thậm chí'
+-	R
+-	'còn đổ mồ hôi...!'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Nhanh chóng...'
+-	R
+-	'Làm ơn đi, Rafalia...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Kh... Tôi biết rồi!'
+-	R
+-	'rafalia điên cuồng cố gắng'
+-	R
+-	'lấy lại vị trí của mình...'
+-	\L_0793a:
+-	ZH 1:
+-	'Tuy nhiên, làn sóng'
+-	R
+-	'chiến tranh đã đảo ngược...'
+-	\L_0793a:
+-	ZH 1:
+-	'3 lượt sau, người chiến'
+-	R
+-	'thắng đã được phân định.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Kh...!'
++	'Không thể...... không'
++	R
++	'thể nào, thế này...! Con'
++	R
++	'bé đã bị uống thuốc...'
++	\L_0793a:
++	ZH 1:
++	'mồ hôi lạnh đầm đìa'
++	R
++	'thế kia mà......!'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Mau... đi tiếp đi'
++	R
++	'ạ, đàn chị......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Khư... không cần em'
++	R
++	'bảo! Rafalia ra sức'
++	R
++	'gượng lại thế trận...'
++	\L_0793a:
++	ZH 1:
++	'Nhưng chiến cục'
++	R
++	'đã đảo ngược...'
++	\L_0793a:
++	ZH 1:
++	'3 lượt sau, thắng'
++	R
++	'bại đã phân.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Khư......!'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07877:
+@@ -5576,19 +5468,21 @@
+ 	\L_078d9:
+ 	\L_07815:
+ 	ZH 1:
+-	'Nngaaaah... Zzzzzzz...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Trời ơi...'
+-	\L_0793a:
+-	ZH 1:
+-	'Xin hãy tỉnh dậy'
+-	R
+-	'đi, Vua Rance! Người chiến'
+-	R
+-	'thắng đã được quyết định...'
++	'Ngáaaa...... khò'
++	R
++	'khò...... khò......'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Thật là......'
++	\L_0793a:
++	ZH 1:
++	'xin ngài dậy đi, Vua'
++	R
++	'Rance! Đã có người'
++	R
++	'thắng chung kết rồi...'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07815:
+@@ -5602,14 +5496,14 @@
+ 	\L_0792d:
+ 	\L_07885:
+ 	ZH 1:
+-	'Cậu vẫn đang ngủ một nửa!'
+-	\L_0793a:
+-	ZH 1:
+-	'Arlcoate, cô đã giành'
+-	R
+-	'chiến thắng với một cuộc'
+-	R
+-	'tấn công bất ngờ tuyệt vời!'
++	'Xin ngài đừng ngái ngủ nữa!'
++	\L_0793a:
++	ZH 1:
++	'Arlcoate ạ, Arlcoate'
++	R
++	'thắng bằng một đòn'
++	R
++	'kỳ tập tuyệt đẹp...!'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07877:
+@@ -5620,21 +5514,23 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Haah, haah... Kết'
+-	R
+-	'thúc rồi, Rafalia...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Kh... Ưu...!'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Arlcoate mỉm cười yếu'
+-	R
+-	'ớt và Rafalia cắn môi.'
++	'Hộc, hộc...... trận'
++	R
++	'đấu...... kết thúc rồi'
++	R
++	'nhỉ, đàn chị Rafalia......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Khư...... ư ư.........!'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Arlcoate khẽ mỉm cười,'
++	R
++	'còn Rafalia cắn chặt môi.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -5642,44 +5538,46 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'đó là một trận đấu tuyệt'
+-	R
+-	'vời, hai cậu...! Cậu cũng'
+-	R
+-	'đã làm rất tốt, Rafalia!'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Làm ơn dừng lại đi! Tôi'
+-	R
+-	'đã làm được điều gì tốt...?!'
+-	\L_0793a:
+-	ZH 1:
+-	'Tướng thua trận'
+-	R
+-	'có được khen không...?! Thất'
+-	R
+-	'bại vẫn chỉ là thất bại...!'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Rafalia...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Hơn nữa... Kh... Không một'
+-	R
+-	'phần nào của trận đấu này'
+-	R
+-	'có thể coi là xuất sắc...!'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi... tôi... tôi'
+-	R
+-	'muốn thắng quá...!'
++	'Cả hai em đều đấu rất'
++	R
++	'tuyệt vời...! Rafalia'
++	R
++	'cũng cố gắng lắm!'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Xin cô thôi đi! Tuyệt'
++	R
++	'vời, cố gắng lắm,'
++	R
++	'nghĩa là gì chứ......!'
++	\L_0793a:
++	ZH 1:
++	'Ngoài chiến trường, tướng'
++	R
++	'thua đâu được khen đánh'
++	R
++	'hay...! Thua là thua!'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Rafalia......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hơn nữa... khư... trận đấu'
++	R
++	'thế này là gì chứ...! Chẳng'
++	R
++	'tuyệt vời chút nào cả...!'
++	\L_0793a:
++	ZH 1:
++	'Em...... em...... đã muốn'
++	R
++	'thắng đến thế cơ mà...!'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -5687,43 +5585,43 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Rafa-...lia...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Tránh xa tôi'
+-	R
+-	'ra! Tôi ghét cậu...!'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'À...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Arlcoate cố'
+-	R
+-	'gắng nói chuyện với Rafalia,'
+-	R
+-	'nhưng Rafalia đã đẩy cô ra.'
+-	\L_0793a:
+-	ZH 1:
+-	'Arlcoate ngã'
+-	R
+-	'vào phía sau cô.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'À...!?... Chào... Không...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'... À...'
++	'Đàn chị...... Rafa......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Đừng lại gần! Chị ghét'
++	R
++	'em nhất trên đời......!'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'A......'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Arlcoate định lên'
++	R
++	'tiếng, Rafalia bất'
++	R
++	'giác đẩy mạnh em ra.'
++	\L_0793a:
++	ZH 1:
++	'Arlcoate ngã ngồi xuống đất.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'A......!? ......Hí......'
++	R
++	'không......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'......A......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07877:
+@@ -5731,7 +5629,7 @@
+ 	\L_07869:
+ 	\L_07815:
+ 	ZH 1:
+-	'Sơn phủ...?'
++	'Arlcoate......?'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07877:
+@@ -5739,26 +5637,26 @@
+ 	\L_07869:
+ 	\L_07815:
+ 	ZH 1:
+-	'Ừm...?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Không... Khôngoooooooo...!'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'...!'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Arlcoate tè và'
+-	R
+-	'bất tỉnh trước sự chứng'
+-	R
+-	'kiến của mọi người...'
++	'Hửm.........?'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Không......'
++	R
++	'khôngggggg............!'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'.........!'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Trước bao ánh mắt, Arlcoate'
++	R
++	'tè ra quần rồi ngất đi...'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07877:
+@@ -5784,110 +5682,104 @@
+ 	\L_0784d:
+ 	ZM 32:
+ 	ZH 1:
+-	'Học viện quân sự nữ'
++	'Trường sĩ quan nữ'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng Nhân Viên'
+-	R
+-	'... Aah... Vậy ra đây'
+-	R
+-	'là chuyện đã xảy ra...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Rance đang ngả lưng trên ghế'
+-	R
+-	'như hắn vẫn thường làm, Và'
+-	R
+-	'Aviator đang treo đầu cô...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Tôi biết rằng Rafalia và'
+-	R
+-	'các học sinh lớp trên khác'
+-	\L_0793a:
+-	ZH 1:
+-	'thường xuyên'
+-	R
+-	'chọn Arlcoate...'
+-	\L_0793a:
+-	ZH 1:
+-	'Và ở đây tôi nghĩ'
+-	R
+-	'rằng việc họ thi đấu'
+-	\L_0793a:
+-	ZH 1:
+-	'sẽ là động lực tốt'
+-	R
+-	'để họ tiến bộ chính họ...'
+-	\L_0793a:
+-	ZH 1:
+-	'Vua Rance, có phải'
+-	R
+-	'tôi đã sai lầm trong cách'
+-	R
+-	'giảng dạy của mình không…?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Hmmm, ta không biết.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Uu... Trong mọi trường'
+-	R
+-	'hợp, một điều không may như'
+-	R
+-	'vậy đã xảy ra trước cậu...'
+-	\L_0793a:
+-	ZH 1:
+-	'Hãy chờ đợi để đưa'
+-	R
+-	'ai đó vào phục vụ...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Không, ta sẽ đưa'
+-	R
+-	'một trong số chúng vào'
+-	R
+-	'sử dụng theo kế hoạch.'
+-	\L_0793a:
+-	ZH 1:
+-	'Không thay đổi'
+-	R
+-	'điều đó bây giờ.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Hah... Vậy'
+-	R
+-	'cậu sẽ tuyển ai?'
++	'Phòng giáo viên'
++	R
++	'......A......... Không ngờ'
++	R
++	'lại thành ra thế này......'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Trước mặt Rance đang ngả'
++	R
++	'ngớn trên ghế như mọi khi,'
++	R
++	'Aviator cúi đầu ủ rũ...'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Tôi đã biết chuyện Rafalia'
++	R
++	'và các học viên khóa trên'
++	\L_0793a:
++	ZH 1:
++	'thường xuyên bắt'
++	R
++	'nạt Arlcoate...'
++	\L_0793a:
++	ZH 1:
++	'Tôi cứ nghĩ để hai'
++	R
++	'em thi đấu với nhau'
++	\L_0793a:
++	ZH 1:
++	'sẽ là động lực tốt,'
++	R
++	'cùng nhau tiến bộ...'
++	\L_0793a:
++	ZH 1:
++	'Vua Rance, phải chăng cách'
++	R
++	'dạy dỗ của tôi đã sai......?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừmmm, ta chịu.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Ư...... dù sao thì, đã'
++	R
++	'xảy ra chuyện đáng xấu'
++	R
++	'hổ trước mặt Bệ hạ...'
++	\L_0793a:
++	ZH 1:
++	'lần nhập ngũ này,'
++	R
++	'xin hủy bỏ......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Không, theo kế hoạch,'
++	\L_0793a:
++	ZH 1:
++	'ta vẫn cho một đứa'
++	R
++	'nhập ngũ. Đã quyết rồi.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Dạ...... vậy ngài'
++	R
++	'sẽ chọn em nào ạ?'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07831:
+ 	ZH 1:
+-	'Hmm, cái nào thực sự...?'
+-	R
+-	'rafalia đầy tham vọng,'
+-	R
+-	'nói chung là xuất sắc...?'
+-	\L_0793a:
+-	ZH 1:
+-	'Hoặc thiên'
+-	R
+-	'tài chiến thuật Nhưng'
+-	R
+-	'Arlcoate cực kỳ rụt rè...?'
++	'Ừm, chọn ai đây......'
++	R
++	'Rafalia năng lực tổng hợp'
++	R
++	'xuất sắc, đầy tham vọng...'
++	\L_0793a:
++	ZH 1:
++	'hay Arlcoate thiên'
++	R
++	'tài chiến lược nhưng'
++	R
++	'cực kỳ nhút nhát...'
+ 	\L_0793a:
+ 	\L_0792d:
+ *L_06024:
+@@ -5901,7 +5793,7 @@
+ 	$
+ 	R
+ 	$L_060ed$
+-	'Arcoatat'
++	'Arlcoate'
+ 	$
+ 	]
+ 	@L_06024:
+@@ -5910,30 +5802,26 @@
+ 	!VAR0463 : 1!
+ 	\L_07815:
+ 	ZH 1:
+-	'Vâng... Tôi chọn Rafalia.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tất cả những tham vọng'
+-	R
+-	'đó của cô khiến cô hứa hẹn.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Hiểu. Sau'
+-	R
+-	'đó, tôi sẽ ra lệnh cho cô'
+-	R
+-	'đến lâu đài vào tuần tới.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Vậy có lẽ tôi sẽ quay'
+-	R
+-	'lại. Tôi cũng muốn sớm phong'
+-	R
+-	'Arlcoate lên làm tướng.'
++	'Để xem... ta chọn Rafalia.'
++	\L_0793a:
++	ZH 1:
++	'Tham vọng ngùn ngụt cỡ đó'
++	R
++	'cũng đáng tin cậy ra phết.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Tôi hiểu rồi. Vậy tôi sẽ cho'
++	R
++	'em ấy lên thành từ tuần sau.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Vậy ta về đây. Arlcoate rồi'
++	R
++	'ta cũng sẽ cho làm tướng.'
+ 	\L_0793a:
+ 	ZH 1:
+ 	'Hãy biến cô thành'
+@@ -5947,29 +5835,23 @@
+ 	!VAR0464 : 1!
+ 	\L_07815:
+ 	ZH 1:
+-	'Vâng... Tôi chọn Arlcoate.'
+-	R
+-	'Tất cả khác sang một'
+-	R
+-	'bên, cô là một thiên tài.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Hiểu. Sau'
+-	R
+-	'đó, tôi sẽ ra lệnh cho cô'
+-	R
+-	'đến lâu đài vào tuần tới.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Vậy có lẽ tôi sẽ'
+-	R
+-	'quay lại. Tôi cũng muốn sớm'
+-	R
+-	'đưa Rafalia lên làm tướng.'
++	'Để xem... ta chọn Arlcoate.'
++	R
++	'Dù gì cũng là thiên tài.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Tôi hiểu rồi. Vậy tôi sẽ cho'
++	R
++	'em ấy lên thành từ tuần sau.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Vậy ta về đây. Rafalia rồi'
++	R
++	'ta cũng sẽ cho làm tướng.'
+ 	\L_0793a:
+ 	ZH 1:
+ 	'Hãy biến cô thành'
+@@ -5980,7 +5862,7 @@
+ *L_0617a:
+ 	\L_07885:
+ 	ZH 1:
+-	'Vâng, hiểu rồi.'
++	'Vâng, tôi hiểu rồi.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -5988,53 +5870,49 @@
+ 	ZH 1:
+ 	'Rance rời khỏi'
+ 	R
+-	'phòng nhân viên.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ồ... Rafalia.'
++	'phòng giáo viên.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ồ...... Rafalia.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 78!
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'... Bệ hạ...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Có vẻ như Rafalia'
+-	R
+-	'đã đợi Rance một lúc.'
+-	\L_0793a:
+-	ZH 1:
+-	'cô rụt rè'
+-	R
+-	'tiếp cận từ bức tường'
+-	R
+-	'mà cô đang dựa vào.'
+-	\L_0793a:
+-	ZH 1:
+-	'có lẽ ngươi'
+-	R
+-	'không nên rời khỏi ký túc'
+-	R
+-	'xá của mình ngay bây giờ.'
+-	\L_0793a:
+-	ZH 1:
+-	'Ngươi không nên quay lại?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Thưa Bệ Hạ, Tôi... Tôi'
+-	R
+-	'muốn giành chiến thắng...'
+-	\L_0793a:
+-	ZH 1:
+-	'Ừm... Cậu đã chọn ai...?'
++	'......Bệ hạ......'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Hình như Rafalia'
++	R
++	'đã đợi Rance suốt.'
++	\L_0793a:
++	ZH 1:
++	'Cô rụt rè bước lại từ'
++	R
++	'bức tường đang dựa lưng.'
++	\L_0793a:
++	ZH 1:
++	'Rance「Rafalia đang'
++	R
++	'bị cấm túc chứ gì.'
++	\L_0793a:
++	ZH 1:
++	'Không về ký túc xá được à?」'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Bệ hạ, tôi...... đã'
++	R
++	'muốn thắng...... ừm...'
++	\L_0793a:
++	ZH 1:
++	'kết quả tuyển chọn......?'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07815:
+@@ -6042,24 +5920,24 @@
+ 	'............'
+ 	\L_0793a:
+ 	ZH 1:
+-	'Đợi đến tuần sau.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Đ-Được rồi...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Rafalia treo đầu.'
+-	\L_0793a:
+-	ZH 1:
+-	'Rance rời bỏ cô'
+-	R
+-	'ở đâu và rời khỏi'
+-	R
+-	'học viện quân sự.'
++	'Đợi tuần sau đi.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'V...... vâng......'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Bỏ lại Rafalia'
++	R
++	'đang cúi đầu ủ rũ,'
++	\L_0793a:
++	ZH 1:
++	'Rance rời khỏi'
++	R
++	'trường sĩ quan.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+@@ -6070,33 +5948,33 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Chào Mừng, Vua Rance.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Phi công bước'
+-	R
+-	'ra chào Rance.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ừm...'
+-	\L_0793a:
+-	ZH 1:
+-	'Arlcoate thế nào'
+-	R
+-	'rồi? Làm việc chăm chỉ để cô'
+-	R
+-	'có thể vào quân đội của tôi?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, tốt... Cậu có'
+-	R
+-	'muốn gặp nàng không...?'
++	'Chào mừng ngài đã'
++	R
++	'tới, Vua Rance.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Aviator ra đón Rance.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hửm......'
++	\L_0793a:
++	ZH 1:
++	'Arlcoate sao rồi? Có cố gắng'
++	R
++	'để vào quân của ta không?'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, chuyện là......'
++	R
++	'ngài có muốn gặp'
++	R
++	'em ấy không ạ...?'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07815:
+@@ -6108,14 +5986,14 @@
+ 	\L_0792d:
+ 	\L_07885:
+ 	ZH 1:
+-	'...???'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Phi công hướng dẫn'
+-	R
+-	'Rance đến ký túc xá...'
++	'............???'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Aviator dẫn Rance'
++	R
++	'tới ký túc xá......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	PF1 VAR0056:
+@@ -6123,19 +6001,21 @@
+ 	\L_0784d:
+ 	ZM 32:
+ 	ZH 1:
+-	'Học viện quân sự nữ'
++	'Trường sĩ quan nữ'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Ký Túc Xá Sinh Viên'
+-	R
+-	'Tôi vào đây đây, Arlcoate.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Phi công gõ nhẹ và mở cửa.'
++	'Ký túc xá học viên'
++	R
++	'Cô vào nhé, Arlcoate.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Gõ cửa khẽ, Aviator'
++	R
++	'mở cửa một căn phòng.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -6143,7 +6023,7 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Được rồi... Thưa Bệ Hạ...'
++	'Vâng...... a, nhà vua......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -6151,14 +6031,16 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'nàng đã nghỉ'
+-	R
+-	'học kể từ đó...'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi thực sự không còn'
+-	R
+-	'gì để dạy nàng nữa, nhưng...'
++	'Từ dạo đó, em ấy'
++	R
++	'hay nghỉ học...'
++	\L_0793a:
++	ZH 1:
++	'Thật ra những gì dạy'
++	R
++	'trên lớp em ấy cũng'
++	R
++	'chẳng cần nữa......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -6166,74 +6048,70 @@
+ 	\L_078d9:
+ 	\L_0784d:
+ 	ZH 1:
+-	'Arlcoate ngước nhìn'
+-	R
+-	'Rance với ánh mắt sợ hãi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Ừm... Tại trận chung'
+-	R
+-	'Kết mock battle, I...'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi đã làm điều'
+-	R
+-	'gì đó khủng khiếp trước'
+-	R
+-	'mặt Ngài, Thưa Bệ hạ...'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi có xúc phạm'
+-	R
+-	'cậu không...? Tôi có'
+-	R
+-	'phải đi tù không...?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Đừng ngu ngốc.'
+-	R
+-	'Nhà tù là dành cho'
++	'Arlcoate ngước nhìn Rance'
++	R
++	'bằng ánh mắt sợ hãi.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Ừm... em, ở trận chung'
++	R
++	'kết đấu trận giả...'
++	\L_0793a:
++	ZH 1:
++	'đã trót... thất lễ kinh'
++	R
++	'khủng trước nhà vua......'
++	\L_0793a:
++	ZH 1:
++	'Em... phạm tội bất'
++	R
++	'kính ạ......? Em phải'
++	R
++	'vào ngục sao......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Nói ngốc gì thế.'
+ 	!VAR0154 : 6!
+ 	{VAR0102 \ 0:
+ 		ZH 1:
+-		'những người đàn'
++		'Ngục tù thì để lão'
+ 		R
+-		'ông già như Barres.'
++		'già Barres vào là đủ.'
+ 	}
+ 	{VAR0102 = 0:
+ 		ZH 1:
+-		'đàn ông xấu xí.'
++		'Đàn ông xấu xí là đủ rồi.'
+ 	}
+ 	ZH 1:
+-	'những người không phải'
+-	R
+-	'là những cô gái dễ thương.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'À... Thế thì tôi...!'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Daaaaaaah, ngươi'
+-	R
+-	'thật dễ thương! Ngươi'
+-	R
+-	'thật dễ thương, Arlcoate!'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi là Vua, hãy tin tôi!'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi sẽ không xếp ngươi vào'
+-	R
+-	'nhóm những cô gái xấu xí và'
++	'Cô bé dễ thương'
++	R
++	'thì không vào.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'A...... vậy thì, em......!'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Áaaa, dễ thương quá!'
++	R
++	'Arlcoate dễ thương lắm!'
++	\L_0793a:
++	ZH 1:
++	'Quốc vương là ta'
++	R
++	'nói đấy, tin đi!'
++	\L_0793a:
++	ZH 1:
++	'Đừng tự xếp mình chung'
++	R
++	'với lũ xấu xí hay '
+ 	{VAR0102 \ 0:
+ 		ZH 1:
+ 		'ông già'
+@@ -6248,22 +6126,22 @@
+ 	\L_0792d:
+ 	\L_07885:
+ 	ZH 1:
+-	'Áa...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ahem, hm...'
+-	\L_0793a:
+-	ZH 1:
+-	'Uh, thật tệ về'
+-	R
+-	'trận đấu cuối cùng đó.'
+-	\L_0793a:
+-	ZH 1:
+-	'Ngươi đã thắng, nhưng'
+-	R
+-	'tôi vẫn chọn Rafalia...'
++	'Áư......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'E hèm, ưm, ưm......'
++	\L_0793a:
++	ZH 1:
++	'À, trận chung kết'
++	R
++	'đáng tiếc nhỉ.'
++	\L_0793a:
++	ZH 1:
++	'Em đã cất công thắng, vậy'
++	R
++	'mà ta lại chọn Rafalia......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -6271,14 +6149,14 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Vua Rance... Ngài'
+-	R
+-	'không giúp được gì...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ủa, nghĩ vậy à?'
++	'Vua Rance...... nói vậy'
++	R
++	'đâu phải là an ủi...'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ơ, thế à?'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -6286,37 +6164,37 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Không... Không'
+-	R
+-	'sao đâu, tất nhiên là'
+-	R
+-	'cậu sẽ chọn Rafalia...'
+-	\L_0793a:
+-	ZH 1:
+-	'Bởi vì tôi là một'
+-	R
+-	'tên ngốc... Tôi cần phải'
+-	R
+-	'học lại mọi thứ từ đầu...'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi không có'
+-	R
+-	'tài năng, nhưng ít nhất tôi'
+-	R
+-	'có thể làm được chiến thuật.'
+-	\L_0793a:
+-	ZH 1:
+-	'Uu... Không, tôi'
+-	R
+-	'phải rất khó coi...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Arlcoate cuộn tròn như'
+-	R
+-	'một quả bóng trên sàn nhà...'
++	'Không...... không sao'
++	R
++	'đâu ạ, nhà vua chọn đàn'
++	R
++	'chị là đương nhiên......'
++	\L_0793a:
++	ZH 1:
++	'Em ngốc lắm...... em'
++	R
++	'sẽ học lại từ đầu...'
++	\L_0793a:
++	ZH 1:
++	'Chính em cũng nghĩ mình'
++	R
++	'không có tài, nhưng em chỉ'
++	R
++	'biết mỗi chiến thuật...'
++	\L_0793a:
++	ZH 1:
++	'Hức...... người như em'
++	R
++	'thì không được nhỉ...'
++	R
++	'trông thảm hại quá...'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Arlcoate thẫn thờ ngồi vẽ'
++	R
++	'vòng tròn trên sàn nhà......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -6324,90 +6202,80 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Nàng đã như thế'
+-	R
+-	'này kể từ đó...'
+-	\L_0793a:
+-	ZH 1:
+-	'Có lẽ sự cố ở'
+-	R
+-	'trận chung kết là một'
+-	R
+-	'cú sốc lớn với nàng…'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Hmmm, nhưng'
+-	R
+-	'tôi không nghĩ cô thực sự'
+-	R
+-	'khác biệt so với trước đó.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Chà... Bây'
+-	R
+-	'giờ cậu đã đề cập đến'
+-	R
+-	'nó, cậu có thể đúng...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Cuối cùng,'
+-	R
+-	'Arlcoate cũng sẽ gia'
+-	R
+-	'nhập quân đội của tôi,'
+-	\L_0793a:
+-	ZH 1:
+-	'vì vậy hãy đảm bảo'
+-	R
+-	'giáo dục cô thật tốt.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, hiểu. Tôi tin rằng'
+-	R
+-	'sự cải tạo của nàng sẽ mất'
++	'Từ dạo đó em ấy'
++	R
++	'luôn như thế này...'
++	\L_0793a:
++	ZH 1:
++	'Có lẽ chuyện ở trận chung'
++	R
++	'kết là cú sốc quá lớn...'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừmmm, nhưng ta thấy cũng'
++	R
++	'chẳng khác trước là mấy.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'N...... nghe ngài nói vậy,'
++	R
++	'hình như cũng đúng......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Rồi ta cũng sẽ cho'
++	R
++	'Arlcoate vào quân của ta.'
++	\L_0793a:
++	ZH 1:
++	'Cứ từ từ dạy dỗ con bé.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, tôi hiểu rồi.'
++	R
++	'Để xem...... việc dạy'
++	R
++	'lại, tôi định mất thêm '
+ 	H 0, VAR0562:
+ 	ZH 1:
+-	'tuần'
++	' tuần'
+ 	{VAR0562 \ 1:
+ 		ZH 1:
+-		'giây'
++		''
+ 	}
+ 	ZH 1:
+-	', điều đó có'
+-	R
+-	'được chấp nhận không?'
++	' nữa, được không ạ?'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07815:
+ 	{VAR0562 > 9:
+ 		ZH 1:
+-		'Ch,'
++		'M... mất '
+ 		H 0, VAR0562:
+ 		ZH 1:
+-		'tuần'
++		' tuần'
+ 		{VAR0562 \ 1:
+ 			ZH 1:
+-			'giây'
++			''
+ 		}
+ 		ZH 1:
+-		'? Đó là một thời gian dài.'
++		' à? Lâu quá.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07885:
+ 		ZH 1:
+-		'Việc mang lại cho cô'
++		'Giúp em ấy tự tin'
+ 		R
+-		'gái này sự tự tin không phải'
++		'đâu phải chuyện một'
+ 		R
+-		'chuyện một sớm một chiều.'
++		'sớm một chiều......'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07815:
+@@ -6415,28 +6283,26 @@
+ 	{VAR0562 < 10:
+ 		H 0, VAR0562:
+ 		ZH 1:
+-		'tuần'
++		' tuần'
+ 		{VAR0562 \ 1:
+ 			ZH 1:
+-			'giây'
++			''
+ 		}
+ 		ZH 1:
+-		'...? Vậy thì sẽ'
+-		R
+-		'sớm xảy ra thôi.'
++		' à... cũng sắp rồi nhỉ.'
+ 		R
+ 	}
+ 	ZH 1:
+-	'Hiểu rồi. Vậy tôi sẽ'
+-	R
+-	'đến đón cô khi thời cơ đến.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, xin vui lòng chờ đợi'
+-	R
+-	'cho đến khi thời gian đến.'
++	'Được rồi. Vậy lúc'
++	R
++	'nào đó ta sẽ tới đón.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, xin ngài đợi'
++	R
++	'thêm một thời gian.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -6444,14 +6310,16 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Tạm biệt, thưa bệ hạ...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Rance rời học'
+-	R
+-	'viện quân sự.'
++	'Thưa nhà vua......'
++	R
++	'chào ngài...'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Rance rời khỏi'
++	R
++	'trường sĩ quan.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+@@ -6462,74 +6330,74 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'À... Thưa bệ hạ. Tôi'
+-	R
+-	'rất vui vì cậu đã đến.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Rafalia vội Vã Chạy'
+-	R
+-	'Đến Khi cô nhìn thấy anh ta.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ngươi khỏe'
+-	R
+-	'không? Làm tốt chứ?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Tất nhiên rồi, thưa Bệ hạ.'
+-	\L_0793a:
+-	ZH 1:
+-	'Một người không thể điều'
+-	R
+-	'chỉnh sức khỏe của bản thân'
+-	\L_0793a:
+-	ZH 1:
+-	'sẽ không đủ tư cách'
+-	R
+-	'để lãnh đạo quân đội.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Tôi hiểu rồi... Ngươi'
+-	R
+-	'chẳng hề thay đổi chút nào.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Tôi đã hoàn hảo rồi…'
+-	R
+-	'Tôi không cần phải thay đổi.'
+-	\L_0793a:
+-	ZH 1:
+-	'Thật đáng tiếc'
+-	R
+-	'khi cậu đã chọn nàng'
+-	R
+-	'chứ không phải tôi...'
+-	\L_0793a:
+-	ZH 1:
+-	'Này, thưa bệ hạ,'
+-	R
+-	'vẫn chưa quá muộn đâu.'
+-	\L_0793a:
+-	ZH 1:
+-	'Bắn nàng đi...'
+-	\L_0793a:
+-	ZH 1:
+-	'Không, cậu có thể'
+-	R
+-	'để nàng ở đó, chỉ cần phong'
+-	R
+-	'tôi làm tướng Leazas...'
++	'A...... Bệ hạ. Ngài'
++	R
++	'đã tới, tôi vui quá.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Thấy bóng Rance,'
++	R
++	'Rafalia chạy vội tới.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Thế nào, vẫn khỏe chứ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Tất nhiên rồi ạ, thưa Bệ hạ.'
++	\L_0793a:
++	ZH 1:
++	'Không tự lo được'
++	R
++	'sức khỏe của mình'
++	\L_0793a:
++	ZH 1:
++	'thì sao làm tướng chỉ'
++	R
++	'huy một đạo quân được.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Vậy à...... vẫn'
++	R
++	'y như cũ nhỉ.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Tôi là thành phẩm'
++	R
++	'hoàn hảo rồi... chẳng'
++	R
++	'cần thay đổi gì cả.'
++	\L_0793a:
++	ZH 1:
++	'Bệ hạ thật đã làm một việc'
++	R
++	'đáng tiếc... lại cho con bé'
++	R
++	'đó nhập ngũ thay tôi......'
++	\L_0793a:
++	ZH 1:
++	'Bệ hạ này, giờ'
++	R
++	'vẫn chưa muộn đâu.'
++	\L_0793a:
++	ZH 1:
++	'Đuổi con bé đó đi......'
++	\L_0793a:
++	ZH 1:
++	'không, cứ giữ nguyên cũng'
++	R
++	'được, chỉ cần phong tôi'
++	R
++	'làm tướng quân Leazas......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_0784d:
+@@ -6546,25 +6414,21 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Này, cậu đang làm gì vậy?!'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'... Phi công'
+-	R
+-	'nói khi cô đi ngang qua'
+-	R
+-	'và đánh vào đầu Rafalia.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Này, bà Phi công.'
+-	R
+-	'Ngươi thậm chí còn nóng'
+-	R
+-	'bỏng khi ngươi nổi điên.'
++	'Này, em đang làm gì vậy hả!'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'...Aviator đi ngang qua,'
++	R
++	'cốc vào đầu Rafalia một cái.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ồ, cô giáo. Giận lên'
++	R
++	'cũng đẹp, được đấy.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -6572,9 +6436,9 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Ôi... trời ơi,'
+-	R
+-	'bà phi công...'
++	'Đau...... cô ơi,'
++	R
++	'thật là......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -6582,11 +6446,11 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'ý cậu là'
+-	R
+-	'gì, “ Geez”...? Cậu đang thô'
+-	R
+-	'lỗ Với Nhà Vua. Trở lại lớp.'
++	'［Thật là］ gì mà thật'
++	R
++	'là... Thất lễ với Bệ'
++	R
++	'hạ đấy. Về lớp đi.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -6594,154 +6458,148 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Ch... Đánh tôi...'
+-	R
+-	'Xin bệ hạ hãy xem xét'
+-	R
+-	'những gì tôi đã đề cập.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_078e7:
+-	\L_0784d:
+-	ZH 1:
+-	'Rafalia nhanh nhẹn'
+-	R
+-	'cúi đầu, không hề rụt'
+-	R
+-	'rè và trở lại trường.'
++	'Chậc...... lầm bầm......'
++	R
++	'Vậy thưa Bệ hạ, chuyện'
++	R
++	'lúc nãy, nhờ ngài cả nhé.'
++	\L_0793a:
++	\L_0792d:
++	\L_078e7:
++	\L_0784d:
++	ZH 1:
++	'Rafalia chẳng chút áy'
++	R
++	'náy, nhẹ nhàng cúi chào'
++	R
++	'rồi trở về khu học.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 76!
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Tôi-tôi xin'
+-	R
+-	'lỗi, Vua Rance... Nàng'
+-	R
+-	'phát triển quá sớm...'
+-	\L_0793a:
+-	ZH 1:
+-	'Ở độ tuổi mà nàng'
+-	R
+-	'muốn vượt qua chính mình.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Không, tôi'
+-	R
+-	'không phiền đâu.'
+-	\L_0793a:
+-	ZH 1:
+-	'Nhân tiện, tôi'
+-	R
+-	'cũng muốn đưa Rafalia'
+-	R
+-	'vào quân đội của mình.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Được rồi, nhưng Rafalia'
+-	R
+-	'đã thất bại vì những gì nàng'
+-	R
+-	'đã làm ở trận đấu cuối cùng,'
+-	\L_0793a:
+-	ZH 1:
+-	'nên...'
+-	\L_0793a:
+-	ZH 1:
+-	'Sẽ là một chuyện khác'
++	'X-xin lỗi ngài, Vua'
++	R
++	'Rance...... con bé già'
++	R
++	'trước tuổi lắm......'
++	\L_0793a:
++	ZH 1:
++	'đang tuổi muốn tỏ'
++	R
++	'ra người lớn ấy mà.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Không, ta chẳng để ý đâu.'
++	\L_0793a:
++	ZH 1:
++	'Mà này, ta cũng muốn cho'
++	R
++	'Rafalia vào quân của ta...'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, nhưng mà......'
++	R
++	'Rafalia bị đánh trượt để'
++	R
++	'phạt vụ trận chung kết,'
++	\L_0793a:
++	ZH 1:
++	'nên......'
++	\L_0793a:
++	ZH 1:
++	'còn phải mất '
+ 	H 0, VAR0562:
+ 	ZH 1:
+-	'tuần'
++	' tuần'
+ 	{VAR0562 \ 1:
+ 		ZH 1:
+-		'giây'
++		''
+ 	}
+ 	ZH 1:
+-	'cho đến khi'
+-	R
+-	'nàng tốt nghiệp. Điều đó'
+-	R
+-	'có chấp nhận được không?'
++	' nữa mới tốt nghiệp. Như'
++	R
++	'vậy có được không ạ?'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07815:
+ 	{VAR0562 > 9:
+ 		ZH 1:
+-		'Ch,'
++		'M... mất '
+ 		H 0, VAR0562:
+ 		ZH 1:
+-		'tuần'
++		' tuần'
+ 		{VAR0562 \ 1:
+ 			ZH 1:
+-			'giây'
++			''
+ 		}
+ 		ZH 1:
+-		'? Chờ đợi quá lâu.'
++		' á? Không chịu, lâu quá. Bớt'
+ 		R
+-		'Làm cho nó khoảng 3 tuần.'
++		'xuống còn tầm 3 tuần đi.'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07885:
+ 		ZH 1:
+-		'Nhưng nếu Arlcoate'
++		'Nhưng...... nếu để'
+ 		R
+-		'và Rafalia gặp lại nhau'
++		'Arlcoate và Rafalia'
+ 		R
+-		'sau một thời gian ngắn...'
++		'gặp lại nhau quá sớm,'
+ 		\L_0793a:
+ 		ZH 1:
+-		'Arlcoate có'
++		'Arlcoate sẽ sợ hãi,'
+ 		R
+-		'thể quá sợ hãi để có thể sử'
++		'dù ở trong quân cũng'
+ 		R
+-		'dụng được trong quân đội.'
++		'có thể thành vô dụng.'
+ 		\L_0793a:
+ 		ZH 1:
+-		'Chờ cho đến khi vết'
++		'Cho tới khi vết thương'
+ 		R
+-		'thương của nàng lành lại...'
++		'lòng của em ấy lành lại...'
+ 		\L_0793a:
+ 		\L_0792d:
+ 		\L_07815:
+ 		ZH 1:
+-		'Ugh... Nếu tôi phải.'
++		'Ư...... đành vậy.'
+ 		R
+ 	}
+ 	{VAR0562 < 10:
+ 		H 0, VAR0562:
+ 		ZH 1:
+-		'tuần'
++		' tuần'
+ 		{VAR0562 \ 1:
+ 			ZH 1:
+-			'giây'
++			''
+ 		}
+ 		ZH 1:
+-		'...? Hầu như ở đó.'
++		' à... cũng sắp rồi nhỉ.'
+ 		R
+ 	}
+ 	ZH 1:
+-	'Hiểu rồi. Vậy tôi sẽ'
+-	R
+-	'đến đón cô khi thời cơ đến.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, xin vui lòng chờ đợi'
+-	R
+-	'cho đến khi thời gian đến.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Rance rời học'
+-	R
+-	'viện quân sự.'
++	'Được rồi. Vậy lúc'
++	R
++	'nào đó ta sẽ tới đón.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, xin ngài đợi'
++	R
++	'thêm một thời gian.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Rance rời khỏi'
++	R
++	'trường sĩ quan.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+@@ -6754,76 +6612,76 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Chào Mừng, Vua'
+-	R
+-	'Rance... Cậu có ở Đây'
+-	R
+-	'để Có Được Arlcoate?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Aviator nhìn thấy'
+-	R
+-	'Rance đang đi lang thang'
+-	R
+-	'và mỉm cười tiến lại gần.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Aah... Tôi hạnh'
+-	R
+-	'phúc như thể tôi là nàng'
+-	R
+-	'vậy. Cảm ơn rất nhiều.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ừm? À,'
+-	R
+-	'đúng rồi. Arlcoat...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Vâng, việc cải'
+-	R
+-	'tạo của nàng đã kết'
+-	R
+-	'thúc. Vì vậy, um...'
+-	\L_0793a:
+-	ZH 1:
+-	'Cậu đang ở đây để'
+-	R
+-	'có được nàng, phải không?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Vâng, vâng, tất nhiên.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi muốn nhìn thấy khuôn mặt'
+-	R
+-	'của cô trước khi cô được gửi'
+-	R
+-	'đến lâu đài vào tuần tới.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Được rồi...'
+-	R
+-	'Arlcoate. Arlcoate!'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Arlcoate xuất hiện theo'
+-	R
+-	'lời kêu gọi của Aviator.'
++	'Vua Rance, chào mừng'
++	R
++	'ngài...... ngài tới đón'
++	R
++	'Arlcoate phải không ạ?'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Thấy Rance đang đi'
++	R
++	'lang thang, Aviator'
++	R
++	'tươi cười chạy tới.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'A a...... tôi vui như'
++	R
++	'chính chuyện của mình'
++	R
++	'vậy, cảm ơn ngài.'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hửm, à, vậy à. Arlcoate...'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng, em ấy đã hoàn'
++	R
++	'thành thời gian dạy'
++	R
++	'lại. Vậy, ừm......'
++	\L_0793a:
++	ZH 1:
++	'chẳng phải ngài'
++	R
++	'tới đón em ấy sao?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'À, tất nhiên,'
++	R
++	'đương nhiên rồi.'
++	\L_0793a:
++	ZH 1:
++	'Từ tuần sau sẽ cho'
++	R
++	'lên thành, trước đó'
++	R
++	'ta ghé xem mặt chút.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng......'
++	R
++	'Arlcoate, Arlcoate!'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Được Aviator gọi,'
++	R
++	'Arlcoate xuất hiện.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -6831,20 +6689,20 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Ừm... Xin chào, thời'
+-	R
+-	'tiết đẹp hôm nay, phải'
+-	R
+-	'không, Thưa Bệ hạ...?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'............ Uh...'
+-	R
+-	'Cô dường như không thay'
+-	R
+-	'đổi gì cả, cô sẽ ổn chứ?'
++	'Ừm...... xin chào,'
++	R
++	'hôm nay trời đẹp'
++	R
++	'nhỉ, thưa nhà vua...'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'.................. Sao'
++	R
++	'ấy...... ta thấy chẳng thay'
++	R
++	'đổi tí nào, có ổn không đấy.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -6852,16 +6710,16 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Y-cậu sẽ'
+-	R
+-	'ổn Thôi, Arlcoate.'
+-	\L_0793a:
+-	ZH 1:
+-	'Cậu sẽ có thể thể'
+-	R
+-	'hiện sức mạnh của mình Trong'
+-	R
+-	'Quân Đội Leazas, phải không?'
++	'Ổ... ổn mà, đúng'
++	R
++	'không Arlcoate.'
++	\L_0793a:
++	ZH 1:
++	'Ở quân Leazas, em'
++	R
++	'sẽ phát huy hết thực'
++	R
++	'lực, đúng không?'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_0792d:
+@@ -6870,9 +6728,9 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Ừm... Bà Phi Công...'
+-	R
+-	'Tôi không phải là rất confi-'
++	'Ừm...... cô ơi, em......'
++	R
++	'......không tự tin lắm...'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_0792d:
+@@ -6881,36 +6739,36 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Uh, Vua Rance...!'
+-	R
+-	'Nàng thực sự rất nhiều'
+-	R
+-	'khả năng, vì vậy...!'
+-	\L_0793a:
+-	ZH 1:
+-	'Ừm, ừm...'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi tin rằng nếu'
+-	R
+-	'nàng chiến đấu thực sự,'
+-	\L_0793a:
+-	ZH 1:
+-	'nàng sẽ có thể thể'
+-	R
+-	'hiện tài năng của mình...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Được rồi, được rồi.'
+-	\L_0793a:
+-	ZH 1:
+-	'Ngươi là một vị tướng bắt'
+-	R
+-	'đầu vào tuần tới, hãy chắc'
+-	R
+-	'chắn đến lâu đài, Arlcoate.'
++	'Ừm, Vua Rance...!'
++	R
++	'Vốn dĩ thực lực em'
++	R
++	'ấy đã thừa đủ ạ...!'
++	\L_0793a:
++	ZH 1:
++	'E hèm, khụ khụ, ừm...'
++	\L_0793a:
++	ZH 1:
++	'Tôi tin là khi ra trận'
++	R
++	'thực sự trong quân,'
++	\L_0793a:
++	ZH 1:
++	'em ấy sẽ phát huy'
++	R
++	'được thực lực...'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Biết rồi, biết rồi.'
++	\L_0793a:
++	ZH 1:
++	'Từ tuần sau là tướng quân'
++	R
++	'rồi, nhớ tới thành cho'
++	R
++	'đàng hoàng đấy, Arlcoate.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -6918,7 +6776,9 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Đ-Được rồi, thưa bệ hạ...'
++	'V...... vâng,'
++	R
++	'thưa nhà vua......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07831:
+@@ -6942,16 +6802,16 @@
+ 	\L_0792d:
+ 	\L_07815:
+ 	ZH 1:
+-	'Mhm, được rồi, không'
+-	R
+-	'thành vấn đề. Vậy tôi sẽ đi.'
+-	\L_0793a:
+-	ZH 1:
+-	'Hãy chắc chắn'
+-	R
+-	'rằng Arlcoate sẽ tới'
+-	R
+-	'lâu đài, bà Aviator.'
++	'Ừm, được, không vấn'
++	R
++	'đề. Vậy ta về đây.'
++	\L_0793a:
++	ZH 1:
++	'Cô giáo, nhớ cho'
++	R
++	'Arlcoate tới thành'
++	R
++	'cho đàng hoàng nhé.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -6959,7 +6819,7 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Vâng, tất nhiên.'
++	'Vâng, tất nhiên ạ.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -6967,14 +6827,14 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Tạm biệt, thưa bệ hạ...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Rance rời học'
+-	R
+-	'viện quân sự.'
++	'Chào nhà vua......'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Rance rời khỏi'
++	R
++	'trường sĩ quan.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+@@ -6987,66 +6847,62 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Ah, bệ hạ đã đến'
+-	R
+-	'rồi! Cậu đến vì tôi...!'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Khi rafalia'
+-	R
+-	'nhìn thấy Rance, cô'
+-	R
+-	'chạy đến chỗ anh ta.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Thưa Bệ hạ, tôi'
+-	R
+-	'đã hoàn thành việc cải tạo'
+-	R
+-	'khó chịu đó. Tôi tốt nghiệp!'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Ừm, à, tôi hiểu'
+-	R
+-	'rồi. Có lẽ đã lâu lắm rồi'
+-	R
+-	'tôi mới tuyển dụng Arlcoate.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Kh... Uh,'
+-	R
+-	'ừm... Này, Bệ Hạ...?'
+-	\L_0793a:
+-	ZH 1:
+-	'Phải mất một thời'
+-	R
+-	'gian dài nhưng giờ'
+-	\L_0793a:
+-	ZH 1:
+-	'đây tôi cuối cùng cũng'
+-	R
+-	'có thể hữu ích cho ngài,'
+-	\L_0793a:
+-	ZH 1:
+-	'thưa Bệ hạ.'
+-	\L_0793a:
+-	ZH 1:
+-	'Cậu sẽ cho'
+-	R
+-	'phép tôi giúp cậu...?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Hmmm, tôi không biết.'
++	'A, Bệ hạ, ngài tới'
++	R
++	'rồi! Tới đón tôi......!'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Thấy bóng Rance,'
++	R
++	'Rafalia chạy vội tới.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Bệ hạ, tôi đã xong cái'
++	R
++	'thời gian dạy lại đáng ghét'
++	R
++	'kia rồi. Tốt nghiệp rồi ạ!'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Hửm, à, vậy à. Từ lúc'
++	R
++	'tuyển Arlcoate tới giờ,'
++	R
++	'đã lâu thế rồi nhỉ.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Khư...... ừm, chuyện'
++	R
++	'là...... này, Bệ hạ...?'
++	\L_0793a:
++	ZH 1:
++	'Để ngài đợi lâu rồi,'
++	\L_0793a:
++	ZH 1:
++	'nhưng cuối cùng'
++	R
++	'tôi cũng có thể'
++	\L_0793a:
++	ZH 1:
++	'giúp ích cho Bệ hạ.'
++	\L_0793a:
++	ZH 1:
++	'Ngài sẽ cho tôi... giúp'
++	R
++	'ích, phải không ạ......?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừmmm, để xem nào.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_07885:
+@@ -7095,23 +6951,21 @@
+ 	\L_0792d:
+ 	\L_07815:
+ 	ZH 1:
+-	'Ơ?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Rance hạ'
+-	R
+-	'thấp cái nhìn của mình'
+-	R
+-	'từ nhìn lên trên và...'
+-	\L_0793a:
+-	ZH 1:
+-	'Anh nhìn thấy'
+-	R
+-	'Aviator, nắm đấm của'
+-	R
+-	'cô trên đầu Rafalia.'
++	'Đau?'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Rance đang ngửa mặt lâng'
++	R
++	'lâng, hạ mắt xuống thì...'
++	\L_0793a:
++	ZH 1:
++	'ngay trước mặt, phía'
++	R
++	'sau đầu Rafalia, Aviator'
++	R
++	'đang đứng nắm chặt tay.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -7119,16 +6973,16 @@
+ 	\L_078d9:
+ 	\L_07815:
+ 	ZH 1:
+-	'Này, bà Phi công.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Rafalia! Phù'
+-	R
+-	'phiếm ôm Lấy Nhà Vua một'
+-	R
+-	'lần nữa? Thật thô lỗ!'
++	'Chào, cô giáo.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Này, Rafalia! Lại ôm'
++	R
++	'lấy Bệ hạ tùy tiện như'
++	R
++	'thế... thất lễ lắm!'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -7136,18 +6990,16 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Uu... Cậu'
+-	R
+-	'không thích nó...?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Vâng, tôi không'
+-	R
+-	'bận tâm chút nào.'
+-	R
+-	'Tôi hoan nghênh nó.'
++	'Ư... ngài ấy'
++	R
++	'đang vui mà......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừm, ta hoàn toàn không phiền'
++	R
++	'đâu. Hoan nghênh hết mức.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -7155,17 +7007,17 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Trời ạ...'
+-	\L_0793a:
+-	ZH 1:
+-	'Vua không nên trêu'
+-	R
+-	'chọc học sinh. Cậu sẽ sớm'
+-	R
+-	'tốt nghiệp thôi, Rafalia.'
+-	\L_0793a:
+-	ZH 1:
+-	'Kiềm chế bản thân.'
++	'Thật là......'
++	\L_0793a:
++	ZH 1:
++	'không được đâu, Bệ hạ.'
++	R
++	'Đừng trêu học trò... Em'
++	R
++	'cũng sắp tốt nghiệp rồi.'
++	\L_0793a:
++	ZH 1:
++	'Giữ ý tứ đi, Rafalia.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -7173,7 +7025,7 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'... Vâng, thưa bà Aviator.'
++	'Vââng...... thưa giáo quan.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -7181,25 +7033,21 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Haah... Vua Rance, Rafalia'
+-	R
+-	'đã hoàn thành quá trình'
+-	R
+-	'cải tạo. Cậu muốn làm gì?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Hmmm, tôi đã nói'
+-	R
+-	'điều đó được một lúc rồi.'
+-	\L_0793a:
+-	ZH 1:
+-	'Rafalia rất'
+-	R
+-	'hấp dẫn nên tôi sẽ bổ'
+-	R
+-	'nhiệm cô như đã hứa.'
++	'Phù... Vua Rance, Rafalia'
++	R
++	'cũng đã xong thời gian dạy'
++	R
++	'lại. Ngài định thế nào ạ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừmmm, thì, bị nhắc mãi rồi.'
++	\L_0793a:
++	ZH 1:
++	'Rafalia cũng xinh... ta sẽ'
++	R
++	'cho nhập ngũ như đã hứa.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -7207,28 +7055,26 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Tôi rất vui...! Cảm ơn'
+-	R
+-	'ngài rất nhiều, thưa bệ hạ.'
+-	\L_0793a:
+-	ZH 1:
+-	'Tôi sẽ phục vụ cậu'
+-	R
+-	'bằng hết khả năng của mình!'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Tốt, tốt. Vậy tuần'
+-	R
+-	'sau hãy đến lâu đài nhé.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Được rồi. Xin hãy nhìn'
+-	R
+-	'về phía trước, Thưa Bệ hạ...'
++	'Vui quá......! Cảm ơn Bệ hạ.'
++	\L_0793a:
++	ZH 1:
++	'Tôi sẽ hết lòng'
++	R
++	'phục vụ ngài!'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Tốt, tốt. Vậy nhé, từ'
++	R
++	'tuần sau lên thành đấy.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Vâng. Xin ngài chờ'
++	R
++	'xem, thưa Bệ hạ......'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	\L_078e7:
+@@ -7236,26 +7082,24 @@
+ 	\L_078d9:
+ 	\L_078a1:
+ 	ZH 1:
+-	'Tôi thấy hơi khó'
+-	R
+-	'chịu về điều này...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Rafalia và Phi'
+-	R
+-	'công đã tiễn Rance,'
+-	\L_0793a:
+-	ZH 1:
+-	'rafalia với'
+-	R
+-	'một nụ cười Và Phi công với'
+-	R
+-	'một biểu hiện căng thẳng,'
+-	\L_0793a:
+-	ZH 1:
+-	'và anh ta rời đi.'
++	'Sao tôi thấy bất an quá...'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Được Rafalia mỉm'
++	R
++	'cười đầy bí ẩn'
++	\L_0793a:
++	ZH 1:
++	'và Aviator với vẻ'
++	R
++	'mặt phức tạp tiễn ra,'
++	\L_0793a:
++	ZH 1:
++	'Rance rời khỏi'
++	R
++	'trường sĩ quan.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+@@ -7266,66 +7110,64 @@
+ 	\L_078d9:
+ 	\L_07885:
+ 	ZH 1:
+-	'Ah, Vua Rance...'
+-	R
+-	'Ngài lại đến quan sát à?'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Vâng, Tôi đến để quan'
+-	R
+-	'sát vẻ đẹp của ngươi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Ôi, dừng lại'
+-	R
+-	'đi, Vua Rance... Anh lúc'
+-	R
+-	'nào cũng trêu chọc tôi.'
+-	\L_0793a:
+-	ZH 1:
+-	'vì vậy, bất kỳ cô gái'
+-	R
+-	'dễ thương nổi bật nào đủ để'
+-	R
+-	'tham gia lực lượng của tôi?'
+-	\L_0793a:
+-	ZH 1:
+-	'thật không'
+-	R
+-	'may... Không ai lên đến'
++	'A, Vua Rance... ngài'
++	R
++	'lại tới thị sát ạ?'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Ừm, ta tới thị sát vẻ'
++	R
++	'đẹp của cô giáo Aviator.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Thôi mà, Vua Rance... ngài'
++	R
++	'cứ trêu bà cô này mãi.'
++	\L_0793a:
++	ZH 1:
++	'Rance「Thế, đã có cô gái'
++	R
++	'nào dễ thương, ưu tú, xứng'
++	R
++	'với quân của ta chưa?」'
++	\L_0793a:
++	ZH 1:
++	'Tiếc là... chưa'
++	R
++	'có em nào giỏi như '
+ 	{VAR0464 = 0:
+ 		ZH 1:
+-		'Rafalia ’ s'
++		'Rafalia'
+ 	}
+ 	{VAR0464 \ 0:
+ 		ZH 1:
+-		'Rafalia và Arlcoate ’ s'
++		'hai em kia'
+ 	}
+ 	ZH 1:
+-	'mức độ đã cắt lên...'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07815:
+-	ZH 1:
+-	'Tôi hiểu rồi... Thật là'
+-	R
+-	'khập khiễng. Vậy tôi sẽ đi.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_07885:
+-	ZH 1:
+-	'Tạm biệt, Vua Rance.'
+-	\L_0793a:
+-	\L_0792d:
+-	\L_0784d:
+-	ZH 1:
+-	'Rance rời học'
+-	R
+-	'viện quân sự.'
++	' cả......'
++	\L_0793a:
++	\L_0792d:
++	\L_07815:
++	ZH 1:
++	'Vậy à...... chán'
++	R
++	'ngắt. Thôi về vậy.'
++	\L_0793a:
++	\L_0792d:
++	\L_07885:
++	ZH 1:
++	'Chào ngài, Vua Rance.'
++	\L_0793a:
++	\L_0792d:
++	\L_0784d:
++	ZH 1:
++	'Rance rời khỏi'
++	R
++	'trường sĩ quan.'
+ 	\L_0793a:
+ 	\L_0792d:
+ 	!VAR0516 : 0!
+--- before/Gﾊﾟﾊﾟｲｱ.ADV
++++ src/Gﾊﾟﾊﾟｲｱ.ADV
+@@ -349,7 +349,7 @@
+ 	!VAR0158 : 69!
+ 	{VAR0130 = 1:
+ 		ZH 1:
+-		'Cựu'
++		'Cựu '
+ 	}
+ 	ZH 1:
+ 	'thần dân Zeth kia! Vua'
+@@ -6246,7 +6246,7 @@
+ 		@L_068fb:
+ 	}
+ 	ZH 1:
+-	'Gandhi cùng'
++	'Gandhi cùng '
+ 	{(VAR0588 \ 0) * (VAR0587 = 0):
+ 		ZH 1:
+ 		'Wichita'

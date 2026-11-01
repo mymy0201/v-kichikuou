@@ -1,0 +1,2851 @@
+	!VAR0527 : 6!
+	ZH 1:
+	MS 10, "JAPAN Army":
+	!VAR0529 : 3!
+	!VAR0528 : 0!
+	{(VAR0645 \ 0) * (VAR0645 \ 5):
+		\L_006ac:
+		!VAR0528 : 1!
+	}
+	Y 4, 2:
+	{(VAR0000 = 1) * (VAR0327 = 1) * (VAR0528 = 0):
+		!VAR0528 : 1!
+		!VAR0520 : 4!
+		%#Gｺｳﾋﾒ.ADV:
+	}
+	Y 4, 2:
+	{(VAR0000 = 1) * (VAR0327 = 0) * (VAR0528 = 0):
+		!VAR0528 : 1!
+		!VAR0520 : 3!
+		%#Gｺｳﾋﾒ.ADV:
+	}
+	Y 4, 4:
+	{VAR0000 = 1:
+		{VAR0528 = 0:
+			\L_0327c:
+		}
+		%0:
+	}
+	Y 4, 5:
+	{VAR0000 = 1:
+		!VAR0001 : 72!
+		!VAR0002 : 73!
+		!VAR0003 : 74!
+		!VAR0004 : 78!
+		!VAR0005 : 77!
+		!VAR0006 : 75!
+		!VAR0007 : 82!
+		!VAR0008 : 79!
+		!VAR0009 : 80!
+	}
+	{(VAR0000 = 2) + (VAR0000 = 3):
+		!VAR0001 : 75!
+		!VAR0002 : 76!
+		!VAR0003 : 77!
+		!VAR0004 : 78!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{(VAR0000 = 4) + (VAR0000 = 5):
+		!VAR0001 : 79!
+		!VAR0002 : 80!
+		!VAR0003 : 81!
+		!VAR0004 : 82!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	\L_004b3:
+	\L_0046d:
+	{VAR0530 = 0:
+		%0:
+	}
+	{VAR0516 < 500:
+		%0:
+	}
+	!VAR0158 : 55!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	!VAR0158 : 28!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	!VAR0158 : 27!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	{VAR0130 = 3:
+		@L_00366:
+	}
+	!VAR0158 : 25!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	!VAR0158 : 26!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	{VAR0130 = 3:
+		@L_00366:
+	}
+	!VAR0158 : 24!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	{VAR0130 = 3:
+		@L_00366:
+	}
+	!VAR0158 : 23!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	{VAR0130 = 3:
+		@L_00366:
+	}
+	!VAR0158 : 6!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	!VAR0158 : 3!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	!VAR0158 : 2!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	!VAR0158 : 5!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	!VAR0158 : 4!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+	!VAR0158 : 1!
+	{VAR0130 = 1:
+		%#FIGT_B.ADV:
+		%0:
+	}
+*L_00366:
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 1!
+	%#M.ADV:
+	!VAR0043 : VAR0045!
+	!VAR0044 : VAR0046!
+	!VAR0516 : 10!
+	%#M.ADV:
+	MM 8, VAR0200 + VAR0158 - 1:
+	!VAR0516 : VAR0135!
+	\L_033f2:
+	\L_0332e:
+	ZH 1:
+	'The '
+	X 10:
+	' appeared'
+	R
+	'around '
+	X 8:
+	'.'
+	\L_0341b:
+	ZH 1:
+	R
+	X 10:
+	R
+	'   ＶＳ'
+	R
+	X 8:
+	\L_0341b:
+	ZH 1:
+	R
+	'　　In Battle'
+	\L_0341b:
+	ZH 1:
+	X 8:
+	' was'
+	R
+	'occupied by the'
+	R
+	X 10:
+	'.'
+	\L_0341b:
+	\L_0340e:
+	!VAR0130 : VAR0527!
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0046d:
+	!VAR0516 : 0!
+	!VAR0156 : VAR0530!
+	!VAR0516 : VAR0516 + VAR0106!
+	!VAR0156 : VAR0531!
+	!VAR0516 : VAR0516 + VAR0106!
+	!VAR0156 : VAR0532!
+	!VAR0516 : VAR0516 + VAR0106!
+	!VAR0156 : VAR0533!
+	!VAR0516 : VAR0516 + VAR0106!
+	\0:
+*L_004b3:
+	!VAR0530 : 0!
+	!VAR0531 : 0!
+	!VAR0532 : 0!
+	!VAR0533 : 0!
+	!VAR0156 : VAR0001!
+	{VAR0128 \ 0:
+		\L_00625:
+	}
+	!VAR0156 : VAR0002!
+	{VAR0128 \ 0:
+		\L_00625:
+	}
+	!VAR0156 : VAR0003!
+	{VAR0128 \ 0:
+		\L_00625:
+	}
+	!VAR0156 : VAR0004!
+	{VAR0128 \ 0:
+		\L_00625:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0005!
+	{VAR0128 \ 0:
+		\L_00625:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0006!
+	{VAR0128 \ 0:
+		\L_00625:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0007!
+	{VAR0128 \ 0:
+		\L_00625:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0008!
+	{VAR0128 \ 0:
+		\L_00625:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0009!
+	{VAR0128 \ 0:
+		\L_00625:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	\0:
+*L_00625:
+	{(VAR0106 < 190) * (VAR0530 \ 0):
+		\0:
+	}
+	{VAR0530 = 0:
+		!VAR0530 : VAR0156!
+		\0:
+	}
+	{VAR0531 = 0:
+		!VAR0531 : VAR0156!
+		\0:
+	}
+	{VAR0532 = 0:
+		!VAR0532 : VAR0156!
+		\0:
+	}
+	{VAR0533 = 0:
+		!VAR0533 : VAR0156!
+		\0:
+	}
+	\0:
+*L_006ac:
+	Y 4, 2:
+	!VAR0154 : 1!
+	{VAR0102 = 2:
+		Y 4, 3:
+	}
+	{VAR0000 = 2:
+		@L_024b0:
+	}
+	!VAR0158 : 1!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 1!
+	%#M.ADV:
+	!VAR0043 : VAR0045!
+	!VAR0044 : VAR0046!
+	!VAR0516 : 10!
+	%#M.ADV:
+	!VAR0516 : 1001!
+	\L_033f2:
+	\L_0332e:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'   Before the Castle Wall'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Next to the giant castle wall,'
+	R
+	'a shadow was settling.'
+	\L_0341b:
+	ZH 1:
+	'It wavered a bit. In the next'
+	R
+	'instant, it was gone.'
+	\L_0341b:
+	ZH 1:
+	'The towering wall was useless'
+	R
+	'against this being.'
+	\L_0341b:
+	ZH 1:
+	'The shadow slipped into the'
+	R
+	'castle.'
+	R
+	'It was JAPAN’s ninja, Gekkou.'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 421!
+	\L_0334a:
+	\L_032f6:
+	ZH 1:
+	'Now then...'
+	\L_0341b:
+	\L_0340e:
+	Y 4, 2:
+	{VAR0000 = 1:
+		@L_00a2b:
+	}
+	\L_0332e:
+	ZH 1:
+	'Gekkou proceeded through the'
+	R
+	'castle. His legs suddenly'
+	R
+	'stopped.'
+	\L_0341b:
+	\L_0340e:
+	Y 4, 3:
+	!VAR0690 : VAR0000!
+	\L_032f6:
+	{VAR0690 = 1:
+		ZH 1:
+		'This seems to be where their'
+		R
+		'war funds are managed...'
+		R
+		'Perfect.'
+		\L_0341b:
+		\L_0340e:
+		\L_0332e:
+		ZH 1:
+		'Gekkou got through the'
+		R
+		'numerous locks with zero'
+		R
+		'effort.'
+		\L_0341b:
+		\L_0340e:
+		\L_032f6:
+		ZH 1:
+		'Let’s see... I’ll take half.'
+		\L_0341b:
+		\L_0340e:
+		\L_03358:
+		\L_0332e:
+		ZH 1:
+		'He stole 50% of the war funds,'
+		R
+		'and left like a shadow once'
+		R
+		'more.'
+		\L_0341b:
+		!VAR0519 : VAR0519 / 2!
+	}
+	{VAR0690 = 2:
+		ZH 1:
+		'This seems to be where their'
+		R
+		'war funds are managed...'
+		R
+		'Perfect.'
+		\L_0341b:
+		\L_0340e:
+		\L_0332e:
+		ZH 1:
+		'Gekkou got through the'
+		R
+		'numerous locks with zero'
+		R
+		'effort.'
+		\L_0341b:
+		\L_0340e:
+		\L_032f6:
+		ZH 1:
+		'Let’s see... Just a fourth'
+		R
+		'should be fine.'
+		\L_0341b:
+		\L_0340e:
+		\L_03358:
+		\L_0332e:
+		ZH 1:
+		'He stole 25% of the war funds,'
+		R
+		'and left like a shadow once'
+		R
+		'more.'
+		\L_0341b:
+		!VAR0519 : VAR0519 / 4 * 3!
+	}
+	{VAR0690 = 3:
+		ZH 1:
+		'Now then... Maybe around here'
+		R
+		'would be good.'
+		\L_0341b:
+		\L_0340e:
+		\L_0332e:
+		ZH 1:
+		'Gekkou dropped the bucket he'
+		R
+		'was holding to the floor.'
+		\L_0341b:
+		ZH 1:
+		'Its contents were dumped out'
+		R
+		'in the hallway. An intense'
+		R
+		'smell instantly filled the'
+		R
+		'area.'
+		\L_0341b:
+		\L_0340e:
+		\L_032f6:
+		ZH 1:
+		'This would be a good chance to'
+		R
+		'plant some seeds in the'
+		R
+		'hallway. Hahahah.'
+		\L_0341b:
+		\L_0340e:
+		\L_03358:
+		\L_0332e:
+		ZH 1:
+		'Gekkou covered Leazas Castle’s'
+		R
+		'halls in manure, then left'
+		R
+		'like a shadow once more.'
+		\L_0341b:
+	}
+	\L_0340e:
+	\L_03400:
+	\0:
+*L_00a2b:
+	\L_03358:
+	Y 4, 6:
+	!VAR0154 : 6!
+	{(VAR0000 = 1) * (VAR0102 \ 0):
+		@L_00b86:
+	}
+	!VAR0154 : 7!
+	{(VAR0000 = 2) * (VAR0102 \ 0):
+		@L_00f8b:
+	}
+	!VAR0154 : 8!
+	{(VAR0000 = 3) * (VAR0102 \ 0):
+		@L_012f5:
+	}
+	!VAR0154 : 14!
+	{(VAR0000 = 4) * (VAR0102 \ 0):
+		@L_016ab:
+	}
+	!VAR0154 : 23!
+	{(VAR0000 = 5) * (VAR0102 \ 0):
+		@L_01b07:
+	}
+	!VAR0154 : 15!
+	{(VAR0000 = 6) * (VAR0102 \ 0):
+		@L_01e9c:
+	}
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Gekkou was wandering the halls,'
+	R
+	'but...'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 421!
+	\L_0334a:
+	\L_032f6:
+	ZH 1:
+	'I was planning on killing'
+	R
+	'someone in their sleep, but'
+	R
+	'there doesn’t seem to be'
+	R
+	'anyone worth bothering with.'
+	\L_0341b:
+	ZH 1:
+	'Boring.'
+	\L_0341b:
+	\L_0340e:
+	\L_03358:
+	\L_0332e:
+	ZH 1:
+	'Perhaps due to loss of'
+	R
+	'interest, Gekkou left Leazas'
+	R
+	'Castle, his eyes cold.'
+	\L_0341b:
+	\L_0340e:
+	\L_03400:
+	\0:
+*L_00b86:
+	\L_0332e:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　Hallway'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 402!
+	\L_0334a:
+	{VAR0102 = 2:
+		!VAR0102 : 0!
+		\L_032f6:
+		ZH 1:
+		'Dear, dear... Hard work'
+		R
+		'today... Old age takes its'
+		R
+		'toll on you.'
+		\L_0341b:
+		ZH 1:
+		'But even so, I can’t retire'
+		R
+		'just yet.'
+		\L_0341b:
+		\L_0340e:
+		\L_03366:
+		ZH 1:
+		'Then if you died now, you'
+		R
+		'could say you served for your'
+		R
+		'whole life.'
+		\L_0341b:
+		\L_0340e:
+		\L_032f6:
+		ZH 1:
+		'Who is it?'
+		\L_0341b:
+		\L_0340e:
+		!VAR0516 : 421!
+		\L_033ba:
+		\L_0339e:
+		ZH 1:
+		'Gekkou appeared before Barres'
+		R
+		'without a sound.'
+		\L_0341b:
+		\L_0340e:
+		\L_032f6:
+		ZH 1:
+		'You...'
+		\L_0341b:
+		\L_0340e:
+		\L_0339e:
+		ZH 1:
+		'Gekkou silently moved to'
+		R
+		'Barres’s back.'
+		\L_0341b:
+		\L_0340e:
+		\L_032f6:
+		ZH 1:
+		'Gh... Huh?'
+		\L_0341b:
+		\L_0340e:
+		\L_0332e:
+		ZH 1:
+		'Barres groaned and a fountain'
+		R
+		'of blood shot from his throat.'
+		\L_0341b:
+		ZH 1:
+		'However, not a drop of blood'
+		R
+		'stained Gekkou’s sword.'
+		\L_0341b:
+		\L_0340e:
+		\L_03312:
+		ZH 1:
+		'I-I’m sorry... King Rance...!!'
+		\L_0341b:
+		\L_0340e:
+		\L_03358:
+		\L_0332e:
+		ZH 1:
+		'Barres’s old body crashed to'
+		R
+		'the ground.'
+		\L_0341b:
+		\L_0340e:
+		\L_03366:
+		ZH 1:
+		'Heheh...'
+		\L_0341b:
+		\L_0340e:
+		\L_03358:
+		\L_0332e:
+		ZH 1:
+		'Gekkou disappeared.'
+		\L_0341b:
+		ZH 1:
+		R
+		'.........'
+		\L_0341b:
+		ZH 1:
+		R
+		'......'
+		\L_0341b:
+		ZH 1:
+		R
+		'...'
+		\L_0341b:
+		ZH 1:
+		'Barres’s cold body was found'
+		R
+		'the next day.'
+		\L_0341b:
+		\L_0340e:
+		\0:
+	}
+	\L_032f6:
+	ZH 1:
+	'Haah...'
+	\L_0341b:
+	ZH 1:
+	'Why doesn’t King Rance have me'
+	R
+	'fight...? I may be old, but'
+	R
+	'I’m still in the army...'
+	R
+	'I can fight, but...'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 421!
+	\L_033ba:
+	\L_032f6:
+	ZH 1:
+	'Wh-Who are you...?'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Barres drew his sword faster'
+	R
+	'than he finished speaking.'
+	\L_0341b:
+	\L_0340e:
+	\L_03366:
+	ZH 1:
+	'Sh!'
+	\L_0341b:
+	\L_0340e:
+	\L_0339e:
+	ZH 1:
+	'Gekkou jumped at Barres.'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'　　＜claaaaaaang＞'
+	\L_0341b:
+	ZH 1:
+	'The two swords clashed'
+	R
+	'together.'
+	\L_0341b:
+	\L_0340e:
+	\L_03382:
+	ZH 1:
+	'I failed...'
+	R
+	'You have some good luck.'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Barres stopped Gekkou’s attack.'
+	R
+	'Gekkou managed to use the'
+	R
+	'force from the clash to head'
+	R
+	'to the window.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Running away?!!'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Barres followed him.'
+	\L_0341b:
+	\L_0340e:
+	\L_033c8:
+	\L_0332e:
+	ZH 1:
+	'　　＜craaaaaash＞'
+	\L_0341b:
+	ZH 1:
+	'Gekkou smashed through the'
+	R
+	'window and escaped the castle.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Damn it...'
+	R
+	'I’ll never live down this'
+	R
+	'blunder! How could I let a'
+	R
+	'criminal escape?'
+	\L_0341b:
+	\L_0340e:
+	\0:
+*L_00f8b:
+	\L_0332e:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　Rick’s Room'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 403!
+	\L_0334a:
+	\L_032f6:
+	ZH 1:
+	'Now... My duties are'
+	R
+	'finished... I fought, but'
+	R
+	'survived once again...'
+	R
+	'Maybe I should rest...'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 421!
+	\L_033ba:
+	\L_03366:
+	ZH 1:
+	'Rick Addison, are you?'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'That outfit...'
+	R
+	'Are you from JAPAN!?'
+	\L_0341b:
+	\L_0340e:
+	\L_03366:
+	ZH 1:
+	'............'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Gekkou threw several shurikens'
+	R
+	'before Rick had a chance to'
+	R
+	'respond.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Damn it...!'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Rick drew his sword and'
+	R
+	'quickly cut them down.'
+	\L_0341b:
+	\L_0340e:
+	{VAR0102 = 2:
+		!VAR0102 : 0!
+		\L_032f6:
+		ZH 1:
+		'Uh...?'
+		\L_0341b:
+		\L_0340e:
+		\L_0332e:
+		ZH 1:
+		'But due to the damage he'
+		R
+		'suffered from today’s battle,'
+		R
+		'he missed one shuriken and it'
+		R
+		'hit his knee.'
+		\L_0341b:
+		\L_0340e:
+		\L_03366:
+		ZH 1:
+		'...Heh...'
+		R
+		'Your fate is sealed...'
+		R
+		'Red Reaper...'
+		\L_0341b:
+		\L_0340e:
+		\L_033c8:
+		\L_032f6:
+		ZH 1:
+		'Wha...?'
+		\L_0341b:
+		ZH 1:
+		'Ugh...!!'
+		\L_0341b:
+		\L_0340e:
+		\L_0332e:
+		ZH 1:
+		'Rick collapsed to the ground.'
+		\L_0341b:
+		\L_0340e:
+		\L_032f6:
+		ZH 1:
+		'Poison...'
+		\L_0341b:
+		ZH 1:
+		'...Ugh...'
+		\L_0341b:
+		ZH 1:
+		'Kh... Damn it... I can’t...'
+		R
+		'die... here...'
+		\L_0341b:
+		\L_0340e:
+		\L_03358:
+		\L_0332e:
+		ZH 1:
+		R
+		'.........'
+		\L_0341b:
+		ZH 1:
+		R
+		'......'
+		\L_0341b:
+		ZH 1:
+		R
+		'...'
+		\L_0341b:
+		ZH 1:
+		'The next day... Rick Addison,'
+		R
+		'the genius swordsman called'
+		R
+		'Leazas’s Red Reaper, was'
+		R
+		'found dead in his room.'
+		\L_0341b:
+		\L_0340e:
+		\0:
+	}
+	\L_03366:
+	ZH 1:
+	'Hoh...'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'All the shurikens Gekkou threw'
+	R
+	'were knocked to the ground.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Haaaah...!'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Rick immediately charged at'
+	R
+	'Gekkou.'
+	\L_0341b:
+	\L_0340e:
+	\L_033c8:
+	\L_032f6:
+	ZH 1:
+	'!!'
+	R
+	'He disappeared!?'
+	\L_0341b:
+	ZH 1:
+	'Where are you?!!'
+	R
+	'Show yourself, coward!!'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Gekkou failed his'
+	R
+	'assassination, but'
+	R
+	'successfully escaped.'
+	\L_0341b:
+	\L_0340e:
+	\0:
+*L_012f5:
+	\L_0332e:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　Cordoba’s Room'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 404!
+	\L_0334a:
+	\L_032f6:
+	ZH 1:
+	'Let’s see, what to write...?'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Cordoba was on night watch'
+	R
+	'duty this week and couldn’t go'
+	R
+	'home, so he was writing a'
+	R
+	'letter to his wife.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'My beloved Fururu.'
+	R
+	'How are you?'
+	R
+	'I’m...'
+	\L_0341b:
+	ZH 1:
+	'............'
+	\L_0341b:
+	ZH 1:
+	'Who’s there?'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Cordoba replaced the pen with'
+	R
+	'an axe and stood up.'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 421!
+	\L_033ba:
+	\L_03366:
+	ZH 1:
+	'Are you Cordoba Burn?'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Hm, a ninja...?'
+	R
+	'You’re a fool to come here to'
+	R
+	'assassinate me!!'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Cordoba swung his axe.'
+	\L_0341b:
+	ZH 1:
+	'Gekkou’s katana approached'
+	R
+	'Cordoba at the same time.'
+	\L_0341b:
+	{VAR0102 = 2:
+		!VAR0102 : 0!
+		ZH 1:
+		'　　＜crack...＞'
+		\L_0341b:
+		ZH 1:
+		'The axe had taken some damage'
+		R
+		'in the day’s battle, and broke'
+		R
+		'upon being hit by Gekkou’s'
+		R
+		'sword.'
+		\L_0341b:
+		\L_0340e:
+		\L_032f6:
+		ZH 1:
+		'Wha...?!!'
+		\L_0341b:
+		ZH 1:
+		'Gaaaah!!'
+		\L_0341b:
+		\L_0340e:
+		\L_0332e:
+		ZH 1:
+		'With an opening made, Gekkou'
+		R
+		'tore open Cordoba’s throat.'
+		\L_0341b:
+		\L_0340e:
+		\L_032f6:
+		ZH 1:
+		'Guhbah...'
+		\L_0341b:
+		\L_0340e:
+		\L_03358:
+		\L_03366:
+		ZH 1:
+		'Heh... So long.'
+		\L_0341b:
+		\L_0340e:
+		\L_033c8:
+		\L_0332e:
+		ZH 1:
+		'Cordoba would normally get his'
+		R
+		'axe repaired after a battle,'
+		R
+		'but today he was writing a'
+		R
+		'letter instead...'
+		\L_0341b:
+		ZH 1:
+		'The blood-covered letter'
+		R
+		'became his last message to the'
+		R
+		'world.'
+		\L_0341b:
+		\L_0340e:
+		\0:
+	}
+	ZH 1:
+	'　　＜claaaaang!!＞'
+	\L_0341b:
+	ZH 1:
+	'The solid axe blocked Gekkou’s'
+	R
+	'sharp blade.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Wahahahahaha!'
+	R
+	'Don’t think that you could'
+	R
+	'take my head with an attack'
+	R
+	'like that.'
+	\L_0341b:
+	\L_0340e:
+	\L_03366:
+	ZH 1:
+	'............'
+	\L_0341b:
+	\L_0340e:
+	\L_033c8:
+	\L_0332e:
+	ZH 1:
+	'Having failed his duty, Gekkou'
+	R
+	'disappeared without a sound.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Ah, where’d you disappear to?!!'
+	R
+	'Damn it!!'
+	R
+	'You fool!!'
+	\L_0341b:
+	ZH 1:
+	'Man...'
+	\L_0341b:
+	ZH 1:
+	'...That was close, though...'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'He returned to writing his'
+	R
+	'letter.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Well, we are in the middle of'
+	R
+	'war right now. Never know if'
+	R
+	'this letter could become my'
+	R
+	'last words...'
+	\L_0341b:
+	ZH 1:
+	'Fururu...'
+	\L_0341b:
+	\L_0340e:
+	\0:
+*L_016ab:
+	\L_0332e:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'  　　　　Hallway'
+	\L_0341b:
+	{VAR0102 = 2:
+		!VAR0102 : 0!
+		ZH 1:
+		'Ex was walking through the dim,'
+		R
+		'unpopulated hallway. He had'
+		R
+		'taken some time to deal with'
+		R
+		'post-battle proceedings.'
+		\L_0341b:
+		\L_0340e:
+		!VAR0516 : 405!
+		\L_0334a:
+		\L_032f6:
+		ZH 1:
+		'Haah... Managed to survive'
+		R
+		'another day... Thanks to'
+		R
+		'everyone’s hard work...'
+		\L_0341b:
+		\L_0340e:
+		!VAR0516 : 421!
+		\L_033ba:
+		\L_032f6:
+		ZH 1:
+		'Ah...'
+		\L_0341b:
+		\L_0340e:
+		\L_0332e:
+		ZH 1:
+		'Ex was surprised and stopped'
+		R
+		'in his tracks.'
+		\L_0341b:
+		ZH 1:
+		'And then...'
+		\L_0341b:
+		ZH 1:
+		'　　＜gsh＞'
+		\L_0341b:
+		\L_0340e:
+		\L_032f6:
+		ZH 1:
+		'Kh...!!'
+		\L_0341b:
+		\L_0340e:
+		\L_03312:
+		ZH 1:
+		'I didn’t think I could get'
+		R
+		'away, but... I wanted to do'
+		R
+		'more for Leazas... For the'
+		R
+		'King...'
+		\L_0341b:
+		\L_0340e:
+		\L_03358:
+		\L_0332e:
+		ZH 1:
+		'Ex had no chance to resist'
+		R
+		'before Gekkou slashed his'
+		R
+		'throat.'
+		\L_0341b:
+		\L_0340e:
+		\L_033c8:
+		\L_0332e:
+		ZH 1:
+		'When Gekkou confirmed that Ex'
+		R
+		'was dead, he slipped into the'
+		R
+		'darkness.'
+		\L_0341b:
+		\L_0340e:
+		\0:
+	}
+	ZH 1:
+	'Ex was walking through the'
+	R
+	'hall with one of his staff'
+	R
+	'officers.'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 405!
+	\L_0334a:
+	!VAR0516 : 479!
+	\L_033ba:
+	\L_03366:
+	ZH 1:
+	'Sir Ex, please place me at'
+	R
+	'your side in the next fight.'
+	R
+	'I want to watch the God of'
+	R
+	'Strategy’s commanding.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'You sure do love studying...'
+	R
+	'Alright then. Work hard to'
+	R
+	'become a better general than'
+	R
+	'me and work for Leazas.'
+	\L_0341b:
+	\L_0340e:
+	\L_03366:
+	ZH 1:
+	'Oh, I’m not there yet...'
+	\L_0341b:
+	\L_0340e:
+	\L_033c8:
+	!VAR0516 : 421!
+	\L_033ba:
+	\L_03366:
+	ZH 1:
+	'Wise General Ex.'
+	R
+	'Die.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Huh...?'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Gekkou appeared before them'
+	R
+	'without a sound and slashed'
+	R
+	'with his sword.'
+	\L_0341b:
+	\L_0340e:
+	\L_03312:
+	ZH 1:
+	'Oh...'
+	\L_0341b:
+	\L_0340e:
+	\L_033c8:
+	!VAR0516 : 479!
+	\L_033ba:
+	\L_03366:
+	ZH 1:
+	'General Ex, watch out!'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'　　＜gsh＞'
+	\L_0341b:
+	\L_0340e:
+	\L_03366:
+	ZH 1:
+	'Ah...'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'You!!'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'The young soldier got stabbed'
+	R
+	'protecting Ex.'
+	\L_0341b:
+	\L_0340e:
+	\L_033c8:
+	!VAR0516 : 421!
+	\L_033ba:
+	\L_03366:
+	ZH 1:
+	'Ch...'
+	\L_0341b:
+	\L_0340e:
+	\L_033c8:
+	\L_0339e:
+	ZH 1:
+	'Gekkou clicked his tongue and'
+	R
+	'immediately vanished.'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 479!
+	\L_033ba:
+	\L_03366:
+	ZH 1:
+	'Sir... Ex...'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Hang in there!!'
+	R
+	'You fool...'
+	R
+	'Why...?'
+	\L_0341b:
+	\L_0340e:
+	\L_03366:
+	ZH 1:
+	'...I did... my part... Ah...'
+	\L_0341b:
+	\L_0340e:
+	\L_033c8:
+	\L_032f6:
+	ZH 1:
+	'...Aah...'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'The young man died to protect'
+	R
+	'Ex...'
+	\L_0341b:
+	\L_0340e:
+	\0:
+*L_01b07:
+	\L_0332e:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　 Eleanor Ran’s Room'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 66!
+	\L_0334a:
+	{VAR0102 = 2:
+		!VAR0102 : 0!
+		\L_032f6:
+		ZH 1:
+		'Haah... Whatever clothes I'
+		R
+		'wear during a fight end up'
+		R
+		'getting sweaty...'
+		\L_0341b:
+		\L_0340e:
+		\L_0332e:
+		ZH 1:
+		'She could make a subordinate'
+		R
+		'do her laundry, but enjoyed'
+		R
+		'doing things herself to make'
+		R
+		'sure they go as she wants.'
+		\L_0341b:
+		ZH 1:
+		'She picked up her white'
+		R
+		'panties...'
+		\L_0341b:
+		\L_0340e:
+		\L_032f6:
+		ZH 1:
+		'Hmm, maybe I should try buying'
+		R
+		'a color other than white next'
+		R
+		'time...'
+		R
+		'What color, though...?'
+		\L_0341b:
+		\L_0340e:
+		\L_03366:
+		ZH 1:
+		'Red is nice.'
+		\L_0341b:
+		\L_0340e:
+		\L_032f6:
+		ZH 1:
+		'Huh...?'
+		\L_0341b:
+		\L_0340e:
+		!VAR0516 : 421!
+		\L_033ba:
+		\L_0332e:
+		ZH 1:
+		'　　＜gsh＞'
+		\L_0341b:
+		\L_0340e:
+		\L_03358:
+		\L_033c8:
+		\L_0332e:
+		ZH 1:
+		'The underwear she was holding'
+		R
+		'was soaked red with her'
+		R
+		'blood...'
+		\L_0341b:
+		\L_0340e:
+		\0:
+	}
+	\L_032f6:
+	ZH 1:
+	'Haah...'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Ran sighed.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'My unit is left watching the'
+	R
+	'castle again... Does Rance not'
+	R
+	'believe in me...?'
+	\L_0341b:
+	ZH 1:
+	'It would be nice if I could'
+	R
+	'just not fight, but then that'
+	R
+	'work would be pushed to'
+	R
+	'someone else.'
+	\L_0341b:
+	ZH 1:
+	'I have to get stronger...'
+	R
+	'Am I weak because I haven’t'
+	R
+	'trained enough...?'
+	\L_0341b:
+	ZH 1:
+	'............'
+	\L_0341b:
+	ZH 1:
+	'Alright!'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Ran stood and picked up her'
+	R
+	'sword.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Haah!'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'She drew her sword, trying a'
+	R
+	'quick slash.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'...Huh?'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'She slashed at what appeared'
+	R
+	'to be nothing, but grazed'
+	R
+	'against something.'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 421!
+	\L_033ba:
+	\L_032f6:
+	ZH 1:
+	'...Uh...'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'The sleeve of the ninja that'
+	R
+	'suddenly appeared before Ran’s'
+	R
+	'eyes was ripped open.'
+	\L_0341b:
+	\L_0340e:
+	\L_033c8:
+	\L_032f6:
+	ZH 1:
+	'Kyah...'
+	\L_0341b:
+	ZH 1:
+	'Kyaaaaaah...'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Ran let out a moan that wasn’t'
+	R
+	'quite a scream and weakly'
+	R
+	'crumbled to the floor.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'I-I didn’t notice...'
+	R
+	'A n-n-ninja...'
+	\L_0341b:
+	ZH 1:
+	'I could’ve been killed...'
+	\L_0341b:
+	\L_0340e:
+	\0:
+*L_01e9c:
+	{VAR0102 = 2:
+		!VAR0102 : 0!
+		\L_0332e:
+		ZM 32:
+		ZH 1:
+		'　　　Leazas Castle'
+		R
+		ZM 24:
+		ZH 1:
+		R
+		'　　　Shinoda’s Room'
+		\L_0341b:
+		\L_0340e:
+		!VAR0516 : 413!
+		\L_0334a:
+		!VAR0516 : 12!
+		\L_033ba:
+		\L_032f6:
+		ZH 1:
+		'Th-Th-This is for me?'
+		\L_0341b:
+		\L_0340e:
+		\L_03366:
+		ZH 1:
+		'Yes... Um...'
+		R
+		'Do you not like it?'
+		\L_0341b:
+		\L_0340e:
+		\L_032f6:
+		ZH 1:
+		'No!'
+		R
+		'Of course I like it!!'
+		R
+		'This is a nice play on my'
+		R
+		'heart!!'
+		\L_0341b:
+		\L_0340e:
+		\L_0332e:
+		ZH 1:
+		'Shinoda got a hand-knit'
+		R
+		'sweater from Sayori as a'
+		R
+		'present when he returned home'
+		R
+		'from battle.'
+		\L_0341b:
+		\L_0340e:
+		\L_032f6:
+		ZH 1:
+		'Aah... I love this.'
+		R
+		'I’m glad we got married...'
+		\L_0341b:
+		\L_0340e:
+		\L_03366:
+		ZH 1:
+		'............'
+		\L_0341b:
+		\L_0340e:
+		\L_032f6:
+		ZH 1:
+		'U-Um...'
+		R
+		'May I try it on?'
+		\L_0341b:
+		\L_0340e:
+		\L_03366:
+		ZH 1:
+		'Ah... Yes, go ahead.'
+		\L_0341b:
+		\L_0340e:
+		\L_0332e:
+		ZH 1:
+		'Shinoda excitedly put on the'
+		R
+		'sweater.'
+		\L_0341b:
+		\L_0340e:
+		\L_032f6:
+		ZH 1:
+		'H-H-H-How does it look?'
+		R
+		'I like...'
+		\L_0341b:
+		ZH 1:
+		'...it...'
+		\L_0341b:
+		\L_0340e:
+		\L_03366:
+		ZH 1:
+		'...Gengorou...?'
+		\L_0341b:
+		\L_0340e:
+		\L_032f6:
+		ZH 1:
+		'Ugh...'
+		\L_0341b:
+		\L_0340e:
+		\L_0332e:
+		ZH 1:
+		'Shinoda threw up a large'
+		R
+		'amount of blood.'
+		\L_0341b:
+		\L_0340e:
+		\L_03366:
+		ZH 1:
+		'Kyah... Kyaaaah!!'
+		\L_0341b:
+		\L_0340e:
+		\L_03358:
+		!VAR0516 : 421!
+		\L_0334a:
+		\L_0332e:
+		ZH 1:
+		'As Shinoda hit the ground, the'
+		R
+		'black-clothed ninja behind him'
+		R
+		'smiled coldly and sheathed his'
+		R
+		'sword.'
+		\L_0341b:
+		\L_0340e:
+		\L_03358:
+		\L_0332e:
+		ZH 1:
+		'Then he disappeared.'
+		\L_0341b:
+		ZH 1:
+		'Someone in the hall heard'
+		R
+		'Sayori’s scream and ran over...'
+		\L_0341b:
+		ZH 1:
+		'But Shinoda was already beyond'
+		R
+		'help...'
+		\L_0341b:
+		\L_0340e:
+		\0:
+	}
+	\L_0332e:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　Recreation Room'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 413!
+	\L_0334a:
+	\L_032f6:
+	ZH 1:
+	'Oooooh～～.'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'There was a huge, 50-inch'
+	R
+	'magicvision. A single man was'
+	R
+	'watching it.'
+	\L_0341b:
+	ZH 1:
+	'It was Shinoda.'
+	R
+	'A late night football game was'
+	R
+	'on.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'That’s it...!'
+	R
+	'Gooooo, touch down!!'
+	\L_0341b:
+	ZH 1:
+	'Aaaah...!!'
+	R
+	'That was frustrating...'
+	\L_0341b:
+	ZH 1:
+	'Oh... Ooooh...'
+	\L_0341b:
+	ZH 1:
+	'Ooooooooooh!!'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Shinoda was completely'
+	R
+	'engrossed in cheering.'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 421!
+	\L_033ba:
+	\L_0339e:
+	ZH 1:
+	'Gekkou lowered himself behind'
+	R
+	'Shinoda without a sound.'
+	\L_0341b:
+	ZH 1:
+	'He slowly approached to'
+	R
+	'assassinate Shinoda...'
+	\L_0341b:
+	ZH 1:
+	'　　＜slam!!＞'
+	\L_0341b:
+	\L_0340e:
+	\L_033c8:
+	!VAR0516 : 5!
+	\L_033ba:
+	\L_03366:
+	ZH 1:
+	'Shut up, it’s the middle of'
+	R
+	'the night!!'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Lia suddenly came in.'
+	R
+	'Gekkou frantically hid himself.'
+	\L_0341b:
+	\L_0340e:
+	\L_03366:
+	ZH 1:
+	'Calm down, I shouldn’t be able'
+	R
+	'to hear you all the way from'
+	R
+	'this room!'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Ah... Just wait a bit,'
+	R
+	'please... It’s getting good...'
+	\L_0341b:
+	ZH 1:
+	'Ooooooooooooooh!!'
+	R
+	'There, gooooooo!!'
+	\L_0341b:
+	\L_0340e:
+	\L_03366:
+	ZH 1:
+	'I’m not waiting!!'
+	R
+	'Women need to get their sleep!!'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Why not take naps during the'
+	R
+	'day, in that case?'
+	R
+	'Oh... Oooh... Oh～～～...!'
+	\L_0341b:
+	\L_0340e:
+	\L_03366:
+	ZH 1:
+	'Aaaaagh!!'
+	R
+	'You annoying jerk!'
+	R
+	'I’m the queen!!'
+	\L_0341b:
+	ZH 1:
+	'Harumaki!!'
+	R
+	'Do something about this'
+	R
+	'weirdo!!'
+	\L_0341b:
+	ZH 1:
+	'　　（Harumaki）'
+	R
+	'Raaaawr.'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'　　＜crackle!!＞'
+	\L_0341b:
+	ZH 1:
+	'　　＜booooom!!＞'
+	\L_0341b:
+	ZH 1:
+	'Harumaki shot lightning and'
+	R
+	'fried the 50-inch magicvision.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Aaaaaaah!!'
+	R
+	'The game...'
+	R
+	'I can’t watch the game...'
+	\L_0341b:
+	\L_0340e:
+	\L_03366:
+	ZH 1:
+	'Aaaaah, finally.'
+	R
+	'Now I can sleep in peace and'
+	R
+	'quiet.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Ah... Aaaah...'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Lia’s sudden intrusion foiled'
+	R
+	'Gekkou’s assassination attempt.'
+	\L_0341b:
+	\L_0340e:
+	\0:
+*L_024b0:
+	!VAR0645 : VAR0645 + 1!
+	!VAR0158 : 1!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 1!
+	%#M.ADV:
+	!VAR0043 : VAR0045!
+	!VAR0044 : VAR0046!
+	!VAR0516 : 10!
+	%#M.ADV:
+	!VAR0516 : 1001!
+	\L_033f2:
+	\L_0332e:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	' 　Within the Castle'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 422!
+	\L_0334a:
+	\L_032f6:
+	ZH 1:
+	'Where is he...?'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Someone was running like the'
+	R
+	'wind through the hall. It was'
+	R
+	'JAPAN’s kunoichi, Shinobu.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Where’s King Rance...?'
+	\L_0341b:
+	ZH 1:
+	'There!'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 1!
+	\L_033ba:
+	\L_03366:
+	ZH 1:
+	'Mgh, who are you...?'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Before Rance could say more,'
+	R
+	'Shinobu pulled a small incense'
+	R
+	'burner out of her pocket.'
+	\L_0341b:
+	\L_0340e:
+	\L_03312:
+	ZH 1:
+	'The kunoichi’s special aroma...'
+	R
+	'No man can resist this scent...'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'The smell, to say nothing of'
+	R
+	'the ominous light in Shinobu’s'
+	R
+	'eyes, engulfed Rance.'
+	\L_0341b:
+	\L_0340e:
+	\L_03366:
+	ZH 1:
+	'A woman...? It’s a kid, though.'
+	R
+	'Wait, huh? But... Uh...'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'...Huhu.'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Rance dizzily got up and'
+	R
+	'staggered.'
+	\L_0341b:
+	ZH 1:
+	'Shinobu nodded. She was'
+	R
+	'affirming to herself that the'
+	R
+	'technique was a success.'
+	\L_0341b:
+	\L_0340e:
+	\L_03366:
+	ZH 1:
+	'Why...?'
+	R
+	'Why am I so turned on...?'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Without being touched at all,'
+	R
+	'Rance’s hyper weapon gradually'
+	R
+	'grew bigger and harder.'
+	\L_0341b:
+	ZH 1:
+	'Shinobu took off her garments'
+	R
+	'one by one to excite him.'
+	\L_0341b:
+	\L_0340e:
+	\L_03366:
+	ZH 1:
+	'I wanna fuck, I wanna fuck'
+	R
+	'right now! Muhuhuhu!'
+	\L_0341b:
+	\L_0340e:
+	\L_03312:
+	ZH 1:
+	'It worked!'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'A wicked, satisfied smile came'
+	R
+	'to Shinobu’s face.'
+	\L_0341b:
+	\L_0340e:
+	\L_03366:
+	ZH 1:
+	'Uh, uooooooooooooooh!'
+	\L_0341b:
+	\L_0340e:
+	!VAR0154 : 1!
+	{VAR0102 = 2:
+		@L_02851:
+	}
+	\L_033c8:
+	\L_0332e:
+	ZH 1:
+	'Rance suddenly roared and ran'
+	R
+	'away from Shinobu to his'
+	R
+	'bedroom.'
+	\L_0341b:
+	ZH 1:
+	'Shinobu didn’t understand what'
+	R
+	'happened and just stood there.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Wha...?'
+	\L_0341b:
+	ZH 1:
+	'Why...? Why didn’t he have sex'
+	R
+	'with me?!'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'No matter how much she thought,'
+	R
+	'she couldn’t find an answer.'
+	R
+	'This technique had succeeded'
+	R
+	'countless times.'
+	\L_0341b:
+	ZH 1:
+	'Shinobu was incapable of'
+	R
+	'understanding why she failed.'
+	\L_0341b:
+	\L_0340e:
+	{VAR0645 = 5:
+		@L_02c04:
+	}
+	\L_03358:
+	\L_03400:
+	\0:
+*L_02851:
+	\L_0332e:
+	ZH 1:
+	'Rance suddenly roared and'
+	R
+	'violently seized Shinobu’s'
+	R
+	'hand.'
+	\L_0341b:
+	\L_0340e:
+	\L_03366:
+	ZH 1:
+	'It’s too much of a hassle to'
+	R
+	'go all the way back to my'
+	R
+	'room! Even you’ll do right now,'
+	R
+	'just come with me!'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Shinobu didn’t object.'
+	R
+	'She gave Rance a sweet smile.'
+	\L_0341b:
+	\L_0340e:
+	\L_03366:
+	ZH 1:
+	'Uh... Already about to burst...'
+	R
+	'I could cum at any time...'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Rance jumped into a small room'
+	R
+	'nearby and quickly took his'
+	R
+	'clothes off.'
+	\L_0341b:
+	\L_0340e:
+	PF1 VAR0056:
+	G 806:
+	G 133:
+	\L_033d6:
+	ZH 1:
+	'Rance（Uh... What am I doing...?）'
+	PF0 VAR0056:
+	\L_0341b:
+	ZH 1:
+	'Shinobu’s hips were straddling Rance and'
+	R
+	'wiggling bewitchingly. That wiggling'
+	R
+	'assaulted Rance with intense stimulation.'
+	\L_0341b:
+	ZH 1:
+	'Rance「Aah... This is good, gonna cum again...」'
+	\L_0341b:
+	ZH 1:
+	'At the start Rance thrust up from below,'
+	R
+	'but by now he was content to just accept'
+	R
+	'Shinobu’s attack.'
+	\L_0341b:
+	ZH 1:
+	'Rance（So tight... That alone could do it...）'
+	\L_0341b:
+	ZH 1:
+	'The opening at Shinobu’s crotch didn’t look'
+	R
+	'like it could possibly contain Rance’s cock.'
+	R
+	'But Rance forced it in.'
+	\L_0341b:
+	ZH 1:
+	'And somehow, it completely engulfed Rance’s'
+	R
+	'cock up to the base.'
+	\L_0341b:
+	ZH 1:
+	'Shinobu’s flesh licked the head of Rance’s cock.'
+	R
+	'Then her pussy, still tight with his cock inside,'
+	R
+	'constricted all around it.'
+	\L_0341b:
+	ZH 1:
+	'Rance（What am I doing...? This is a kid...'
+	R
+	'      Uh... Uu.）'
+	\L_0341b:
+	ZH 1:
+	'Though he knew that, Rance couldn’t pull'
+	R
+	'himself out of her. He didn’t even try to.'
+	\L_0341b:
+	ZH 1:
+	'Rance ejaculated inside Shinobu, unable to'
+	R
+	'restrain the impulse.'
+	\L_0341b:
+	ZH 1:
+	'Shinobu had also orgasmed several times, but'
+	R
+	'still didn’t make any move away from Rance.'
+	\L_0341b:
+	ZH 1:
+	'Rance couldn’t remember how many times he’s'
+	R
+	'done it anymore. He couldn’t even figure out'
+	R
+	'why his hyper weapon wasn’t going down.'
+	\L_0341b:
+	ZH 1:
+	'Rance（Ch... Can’t even raise my arms anymore...'
+	R
+	'      This is bad.）'
+	\L_0341b:
+	ZH 1:
+	'Shinobu raised her hips. She stopped just'
+	R
+	'on the verge of pulling Rance’s cock out.'
+	\L_0341b:
+	ZH 1:
+	'She rolled her hips.'
+	R
+	'Her pussy rubbed the head of his cock.'
+	\L_0341b:
+	ZH 1:
+	'Rance「Hey... Cumming again.」'
+	\L_0341b:
+	ZH 1:
+	'Rance groaned. Shinobu grinned.'
+	R
+	'She sank her hips deep.'
+	\L_0341b:
+	ZH 1:
+	'Rance「Hgh...!」'
+	\L_0341b:
+	ZH 1:
+	'Rance no longer had any desire to continue,'
+	R
+	'but his body obediently kept working towards'
+	R
+	'ejaculating.'
+	\L_0341b:
+	ZH 1:
+	'Rance「Hah... Hah... I’m done... Hey...」'
+	\L_0341b:
+	ZH 1:
+	'Rance tried to get Shinobu off of him,'
+	R
+	'but his legs, arms, and even his fingers'
+	R
+	'refused to move.'
+	\L_0341b:
+	ZH 1:
+	'Shinobu continued to straddle Rance with his'
+	R
+	'cock inside her.'
+	\L_0341b:
+	ZH 1:
+	'Rance「Get off... Come on.」'
+	\L_0341b:
+	ZH 1:
+	'She was gripping something in her hand.'
+	\L_0341b:
+	ZH 1:
+	'Rance「You... Uu...」'
+	\L_0341b:
+	ZH 1:
+	'Rance only saw her hand swiftly drop straight down.'
+	R
+	'Shinobu’s fist was on Rance’s chest.'
+	\L_0341b:
+	ZH 1:
+	'She opened her hand. There was the handle'
+	R
+	'of a dagger inside. The blade cleanly sank'
+	R
+	'inside Rance’s body.'
+	\L_0341b:
+	ZH 1:
+	'Rance「What...?!」'
+	\L_0341b:
+	ZH 1:
+	'Rance writhed slightly. The stab wound opened'
+	R
+	'a bit and red spray gushed out.'
+	\L_0341b:
+	ZH 1:
+	'Shinobu watched this happen without batting an eye.'
+	\L_0341b:
+	ZH 1:
+	'Rance「My last time was with... a kid...'
+	R
+	'      Pathetic...」'
+	\L_0341b:
+	ZH 1:
+	'Rance ceased to move.'
+	\L_0341b:
+	PF1 VAR0056:
+	\L_0340e:
+	!VAR0516 : 0!
+	%#M.ADV:
+	PF0 VAR0056:
+	!VAR0805 : 4!
+	&#OVER.ADV:
+	\0:
+*L_02c04:
+	!VAR0154 : 5!
+	{VAR0102 = 0:
+		\L_0340e:
+		!VAR0516 : 6!
+		\L_033ba:
+		\L_03366:
+		ZH 1:
+		'That’s as far as you go.'
+		R
+		'We already have you surrounded.'
+		\L_0341b:
+		\L_0340e:
+		\L_032f6:
+		ZH 1:
+		'Hah...'
+		\L_0341b:
+		\L_0340e:
+		\L_0332e:
+		ZH 1:
+		'Shinobu quickly came to her'
+		R
+		'senses and checked her'
+		R
+		'surroundings. She scowled and'
+		R
+		'glared at Maris before her.'
+		\L_0341b:
+		\L_0340e:
+		\L_03366:
+		ZH 1:
+		'No matter what special'
+		R
+		'training you might have, you'
+		R
+		'can’t do anything about this'
+		R
+		'many guards.'
+		\L_0341b:
+		ZH 1:
+		'We already have guards on'
+		R
+		'standby in the courtyard, too.'
+		R
+		'Give up and surrender.'
+		\L_0341b:
+		\L_0340e:
+		\L_0332e:
+		ZH 1:
+		'The dozens of guards all'
+		R
+		'pointed their weapons at'
+		R
+		'Shinobu.'
+		\L_0341b:
+		@L_02ddd:
+	}
+	\L_0340e:
+	!VAR0516 : 7!
+	\L_033ba:
+	\L_03366:
+	ZH 1:
+	'You can’t get away!'
+	R
+	'Surrender peacefully!'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Wha!?'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Shinobu quickly returned to'
+	R
+	'her senses and looked around.'
+	\L_0341b:
+	ZH 1:
+	'Dozens of Leazas royal guards'
+	R
+	'were surrounding her.'
+	\L_0341b:
+	\L_0340e:
+	\L_03366:
+	ZH 1:
+	'You may look like a little'
+	R
+	'girl, but I know you’re a'
+	R
+	'trained kunoichi.'
+	\L_0341b:
+	ZH 1:
+	'I won’t let my guard down.'
+	R
+	'It’d be best for you to give'
+	R
+	'up.'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Shinobu glared at Leila'
+	R
+	'pointing a sword at her.'
+	\L_0341b:
+*L_02ddd:
+	\L_0340e:
+	\L_03358:
+	\L_033c8:
+	\L_0332e:
+	ZH 1:
+	'A strange silence and piercing'
+	R
+	'tension enveloped the area.'
+	\L_0341b:
+	ZH 1:
+	'It was broken by a man’s'
+	R
+	'scream.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'Shinobu!'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'A window was broken.'
+	R
+	'Glass shards scattered across'
+	R
+	'the floor.'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 421!
+	\L_0334a:
+	\L_0332e:
+	ZH 1:
+	'The man that jumped through'
+	R
+	'the window landed on the glass'
+	R
+	'shards without making a sound.'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 422!
+	\L_033ba:
+	\L_03366:
+	ZH 1:
+	'...Gekkou.'
+	\L_0341b:
+	!VAR0154 : 5!
+	{VAR0102 = 0:
+		\L_0340e:
+		!VAR0516 : 6!
+		\L_033ba:
+		\L_03366:
+		ZH 1:
+		'What are you doing?'
+		R
+		'Capture them!'
+		\L_0341b:
+		\L_0340e:
+		\L_0332e:
+		ZH 1:
+		'Maris order the guards, but'
+		R
+		'but the strange shine in'
+		R
+		'Gekkou’s eyes stopped them'
+		R
+		'from moving.'
+		\L_0341b:
+	}
+	\L_0340e:
+	!VAR0516 : 7!
+	\L_033ba:
+	\L_03366:
+	ZH 1:
+	'E-Everyone, capture them!'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Leila ordered, but everyone'
+	R
+	'including herself faltered at'
+	R
+	'the strange shine in Gekkou’s'
+	R
+	'eyes.'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 422!
+	\L_033ba:
+	\L_032f6:
+	ZH 1:
+	'Are you ready?'
+	\L_0341b:
+	\L_0340e:
+	\L_03366:
+	ZH 1:
+	'...Yeah. I know.'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Gekkou smiled with'
+	R
+	'satisfaction at Shinobu’s'
+	R
+	'response.'
+	\L_0341b:
+	\L_0340e:
+	\L_032f6:
+	ZH 1:
+	'We’ll always be together.'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'Gekkou’s words made Shinobu'
+	R
+	'return the smile.'
+	\L_0341b:
+	ZH 1:
+	'They both pulled something'
+	R
+	'shaped like a pipe out of'
+	R
+	'their pockets.'
+	\L_0341b:
+	\L_0340e:
+	\L_03358:
+	\L_033c8:
+	!VAR0154 : 5!
+	{VAR0102 = 0:
+		!VAR0516 : 6!
+		\L_033ba:
+		\L_03366:
+		ZH 1:
+		'What...?'
+		\L_0341b:
+		ZH 1:
+		'Everyone, take cover!'
+		\L_0341b:
+		\L_0340e:
+		\L_033c8:
+		\L_0332e:
+		ZH 1:
+		'Everyone was shocked by'
+		R
+		'Maris’s yell and frantically'
+		R
+		'followed her order, just when'
+		R
+		'it happened.'
+		\L_0341b:
+		ZH 1:
+		'KABOOOOOOOOOOOOOOOOOOM!'
+		\L_0341b:
+		ZH 1:
+		'The ear-shattering sound shook'
+		R
+		'not only the castle but the'
+		R
+		'surrounding area.'
+		\L_0341b:
+		ZH 1:
+		'Maris and the soldiers that'
+		R
+		'took cover were rained upon'
+		R
+		'with stone, ashes and the two'
+		R
+		'ninjas’ blood and flesh.'
+		\L_0341b:
+		\L_0340e:
+		!VAR0516 : 6!
+		\L_033ba:
+		\L_03366:
+		ZH 1:
+		'It looks like it’s really true'
+		R
+		'that ninjas take their own'
+		R
+		'life if they fail their'
+		R
+		'mission...'
+		\L_0341b:
+		\L_0340e:
+		\L_0332e:
+		ZH 1:
+		'Maris, normally exceedingly'
+		R
+		'composed, was pale and wiping'
+		R
+		'the blood off of her.'
+		\L_0341b:
+		@L_03268:
+	}
+	!VAR0516 : 7!
+	\L_033ba:
+	\L_03366:
+	ZH 1:
+	'That’s... Everyone, take cover!'
+	\L_0341b:
+	\L_0340e:
+	\L_033c8:
+	\L_0332e:
+	ZH 1:
+	'Everyone was shocked by'
+	R
+	'Leila’s yell and frantically'
+	R
+	'followed her order, just'
+	R
+	'before it happened.'
+	\L_0341b:
+	ZH 1:
+	'KABOOOOOOOOOOOOOOOOM!'
+	\L_0341b:
+	ZH 1:
+	'The ear-shattering sound shook'
+	R
+	'not only the castle but the'
+	R
+	'surrounding area.'
+	\L_0341b:
+	ZH 1:
+	'Leila and the soldiers that'
+	R
+	'took cover were rained upon'
+	R
+	'with stone, ashes and the two'
+	R
+	'ninjas’ blood and flesh.'
+	\L_0341b:
+	\L_0340e:
+	!VAR0516 : 7!
+	\L_033ba:
+	\L_03382:
+	ZH 1:
+	'It looks like it’s really true'
+	R
+	'that ninjas take their own'
+	R
+	'life if they fail their'
+	R
+	'mission...'
+	\L_0341b:
+	\L_0340e:
+	\L_0332e:
+	ZH 1:
+	'When the smoke cleared up,'
+	R
+	'Leila gazed at the empty spot'
+	R
+	'where the two ninjas had been'
+	R
+	'standing.'
+	\L_0341b:
+*L_03268:
+	\L_0340e:
+	\L_033c8:
+	\L_03400:
+	\0:
+*L_0327c:
+	Y 4, 4:
+	{VAR0000 = 1:
+		!VAR0520 : 1!
+		%#Gｺｳﾋﾒ.ADV:
+		\0:
+	}
+	{VAR0000 = 2:
+		!VAR0520 : 2!
+		%#Gｺｳﾋﾒ.ADV:
+		\0:
+	}
+	{VAR0000 = 3:
+		!VAR0520 : 7!
+		%#IJAPAN.ADV:
+		\0:
+	}
+	{VAR0000 = 4:
+		!VAR0520 : 8!
+		%#IJAPAN.ADV:
+		\0:
+	}
+	\0:
+*L_032f6:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03312:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0332e:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0334a:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03358:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03366:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03382:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0339e:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_033ba:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_033c8:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+*L_033d6:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_033f2:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+*L_03400:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0340e:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0341b:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

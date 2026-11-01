@@ -1,0 +1,4478 @@
+--- before/Gｶﾐｰﾗ.ADV
++++ src/Gｶﾐｰﾗ.ADV
+@@ -40,7 +40,7 @@
+ 	\L_05e26:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài của Camilla'
++	'Thành Camilla'
+ 	\L_05f13:
+ 	ZM 24:
+ 	ZH 1:
+@@ -49,41 +49,39 @@
+ 	\L_05f06:
+ 	\L_05dee:
+ 	ZH 1:
+-	'Bây giờ... Nữ hoàng ở đâu?'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Rance tìm'
+-	R
+-	'Kiếm Camilla, người'
+-	R
+-	'nên bị thương.'
+-	\L_05f13:
+-	ZH 1:
+-	'Cuối cùng hắn cũng'
+-	R
+-	'đến được một căn phòng'
+-	\L_05f13:
+-	ZH 1:
+-	'được trang trí bằng'
+-	R
+-	'những tấm rèm nhiều màu.'
+-	\L_05f13:
+-	ZH 1:
+-	'Sau đó, trên đỉnh của một'
+-	R
+-	'cầu thang dốc thoai thoải,'
+-	R
+-	'hắn tìm thấy một đống đệm.'
+-	\L_05f13:
+-	ZH 1:
+-	'Và ai đó ở trên họ...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Cô Đây rồi.'
++	'Nào... Nữ hoàng ở đâu nhỉ?'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Rance tìm Camilla, người'
++	R
++	'hẳn đang bị thương.'
++	\L_05f13:
++	ZH 1:
++	'Tìm một hồi, hắn'
++	R
++	'tới căn phòng'
++	\L_05f13:
++	ZH 1:
++	'treo những lớp rèm'
++	R
++	'đủ màu nối tiếp nhau.'
++	\L_05f13:
++	ZH 1:
++	'Trên đầu bậc thang'
++	R
++	'thoai thoải, hắn thấy'
++	R
++	'một nơi chất đầy đệm.'
++	\L_05f13:
++	ZH 1:
++	'Và cả bóng người trên đó...'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Ở đó à.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	!VAR0516 : 31!
+@@ -95,18 +93,18 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Camilla ngồi'
+-	R
+-	'trên đống đệm như một nữ'
+-	R
+-	'hoàng. Cô bị thương và chết.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'... Anh đến...'
+-	R
+-	'để giết ta à...?'
++	'Camilla trọng thương,'
++	R
++	'cận kề cái chết, vẫn ngồi'
++	R
++	'uy nghi như nữ hoàng.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'...Ngươi đến...'
++	R
++	'giết ta sao...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -1241,7 +1239,7 @@
+ 	\L_05e26:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài của Camilla'
++	'Thành Camilla'
+ 	\L_05f13:
+ 	ZM 24:
+ 	ZH 1:
+@@ -1255,9 +1253,9 @@
+ 	'kém, đang ở bên nàng.'
+ 	\L_05f13:
+ 	ZH 1:
+-	'Con người cũng giỏi hơn ta'
+-	R
+-	'tưởng...'
++	'Camilla「Con người...'
++	R
++	'cũng khá hơn ta tưởng...」'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e5e:
+@@ -1284,26 +1282,24 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Cô Camilla!?'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Ta sắp tiêu vong'
+-	\L_05f13:
+-	ZH 1:
+-	'rồi... Trở lại làm người thì'
+-	R
+-	'ngươi hẳn sẽ được cứu. Không'
+-	R
+-	'còn'
+-	\L_05f13:
+-	ZH 1:
+-	'chủ để phụng sự mà vẫn bất'
+-	R
+-	'lão bất tử thì... tàn nhẫn'
+-	R
+-	'quá...'
++	'Ngài Camilla!?'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Ta sắp tiêu vong rồi...'
++	\L_05f13:
++	ZH 1:
++	'Ngươi trở lại làm người'
++	R
++	'thì hẳn được cứu. Không có'
++	\L_05f13:
++	ZH 1:
++	'chủ quân để phụng sự'
++	R
++	'mà vẫn bất lão bất'
++	R
++	'tử... tàn nhẫn quá...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e5e:
+@@ -1369,11 +1365,11 @@
+ 	\L_05f06:
+ 	\L_05dee:
+ 	ZH 1:
+-	'Sau khi đủ thời'
+-	R
+-	'gian trôi qua, ta có thể'
+-	R
+-	'hồi sinh... Nhưng ngươi...'
++	'Qua một thời gian...'
++	R
++	'ta còn có thể hồi'
++	R
++	'sinh... Nhưng ngươi...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e5e:
+@@ -1404,15 +1400,13 @@
+ 	\L_05f13:
+ 	ZH 1:
+ 	'Xin hãy giết tôi... Không,'
+-	R
+-	'xin hãy'
+-	\L_05f13:
+-	ZH 1:
+-	'giết em. Là nam mà mang'
+-	R
+-	'gương mặt này, em bị cha mẹ'
+-	R
+-	'khinh rẻ...'
++	\L_05f13:
++	ZH 1:
++	'xin hãy giết em. Là nam'
++	R
++	'mà có gương mặt này, em'
++	R
++	'bị cha mẹ khinh rẻ...'
+ 	\L_05f13:
+ 	ZH 1:
+ 	'Chính ngài đã cứu em lúc gần'
+@@ -1434,32 +1428,30 @@
+ 	\L_05f06:
+ 	\L_05dee:
+ 	ZH 1:
+-	'Ta'
+-	\L_05f13:
+-	ZH 1:
+-	'cũng sẽ tìm ngươi,'
+-	R
+-	'Reincock...'
+-	\L_05f13:
+-	ZH 1:
+-	'Dù khi đó ngươi là nam hay'
+-	R
+-	'nữ, thậm chí chẳng phải'
+-	\L_05f13:
+-	ZH 1:
+-	'con người... Bất kể ngươi'
+-	R
+-	'muốn'
+-	\L_05f13:
+-	ZH 1:
+-	'hay không, ta cũng sẽ biến'
+-	R
+-	'ngươi thành sứ đồ. Chuẩn bị'
+-	R
+-	'tinh'
+-	\L_05f13:
+-	ZH 1:
+-	'thần đi...'
++	'Ta cũng...'
++	\L_05f13:
++	ZH 1:
++	'Ta cũng sẽ tìm'
++	R
++	'ngươi, Reincock...'
++	\L_05f13:
++	ZH 1:
++	'Dù lúc đó là nam...'
++	R
++	'là nữ... hay thậm chí'
++	\L_05f13:
++	ZH 1:
++	'không phải con người...'
++	R
++	'Bất kể ý nguyện'
++	\L_05f13:
++	ZH 1:
++	'của ngươi, ta cũng biến'
++	R
++	'ngươi thành sứ đồ...'
++	\L_05f13:
++	ZH 1:
++	'Cứ chuẩn bị tinh thần đi...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e5e:
+@@ -1489,46 +1481,44 @@
+ 	\L_05e26:
+ 	ZH 1:
+ 	R
++	'.........'
++	\L_05f13:
++	ZH 1:
++	R
++	'......'
++	\L_05f13:
++	ZH 1:
++	R
+ 	'...'
+ 	\L_05f13:
+ 	ZH 1:
+-	R
+-	'Thi'
+-	\L_05f13:
+-	ZH 1:
+-	R
+-	'thể'
+-	\L_05f13:
+-	ZH 1:
+-	'Reincock nằm đó, lồng ngực'
+-	R
+-	'bị móng vuốt Camilla xuyên'
+-	R
+-	'thủng.'
+-	\L_05f13:
+-	ZH 1:
+-	'Ngay bên cạnh, như đang nép'
+-	R
+-	'vào chàng...'
++	'Thi thể Reincock bị móng'
++	R
++	'vuốt Camilla xuyên ngực.'
++	\L_05f13:
++	ZH 1:
++	'Ngay bên cạnh, như'
++	R
++	'đang nép vào cậu...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	!VAR0516 : 492!
+ 	\L_05eb2:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Ma huyết hồn của Camilla nằm'
+-	R
+-	'đó.'
+-	\L_05f13:
+-	ZH 1:
+-	'Một trong'
+-	\L_05f13:
+-	ZH 1:
+-	'Tứ Thiên Vương Ma Nhân,'
+-	R
+-	'Camilla, đã cùng sứ đồ diệt'
+-	R
+-	'vong.'
++	'Ma huyết hồn của'
++	R
++	'Camilla nằm đó.'
++	\L_05f13:
++	ZH 1:
++	'Thế là...'
++	\L_05f13:
++	ZH 1:
++	'Một trong Tứ Thiên'
++	R
++	'Vương Ma Nhân, Camilla,'
++	R
++	'cùng sứ đồ diệt vong.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	!VAR0516 : 0!
+@@ -1556,63 +1546,63 @@
+ 	\L_05e26:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài của Camilla'
++	'Thành Camilla'
+ 	\L_05f13:
+ 	ZM 24:
+ 	ZH 1:
+-	'Camilla đang'
+-	R
+-	'nằm nghỉ trên ghế dài và'
+-	R
+-	'không làm gì đặc biệt.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Bà.'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla, nếu cô chán,'
+-	\L_05f13:
+-	ZH 1:
+-	'tôi sẽ bắt cóc vài người'
+-	R
+-	'đàn ông phù hợp từ thành'
+-	R
+-	'phố cho cô lần nữa nhé?'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Ta ổn... Quan trọng'
+-	R
+-	'hơn, chuẩn bị nước tắm...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Vâng, Cô Camilla.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Reincock mỉm cười và chuẩn'
+-	R
+-	'bị nước hoa có mùi hoa hồng,'
+-	R
+-	'khăn tắm và áo choàng tắm.'
+-	\L_05f13:
+-	ZH 1:
+-	'( knockknockknock) có'
+-	R
+-	'một tiếng gõ căng thẳng.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Ồ, cô Camilla...'
+-	R
+-	'Chúng ta có khách. Vâng?'
++	'Camilla ngồi lặng lẽ trên'
++	R
++	'ghế dài, chẳng làm gì.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Thưa ngài'
++	\L_05f13:
++	ZH 1:
++	'Camilla, nếu'
++	R
++	'người thấy chán,'
++	\L_05f13:
++	ZH 1:
++	'tôi lại vào thành'
++	R
++	'bắt vài người đàn'
++	R
++	'ông thích hợp về nhé?'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Không cần... Chuẩn bị'
++	R
++	'nước tắm thì hơn...'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Vâng, thưa ngài Camilla.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Reincock mỉm cười, chuẩn'
++	R
++	'bị tinh dầu hoa hồng,'
++	R
++	'khăn và áo choàng tắm.'
++	\L_05f13:
++	ZH 1:
++	'(Cốc cốc cốc!) Tiếng gõ cửa'
++	R
++	'đầy căng thẳng vang lên.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Ôi, ngài Camilla...'
++	R
++	'Có khách ạ. Vââng.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e26:
+@@ -1630,9 +1620,9 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'... X-Xin'
+-	R
+-	'chào. C-C-C-... Camilla...'
++	'...Xi... Xin chào.'
++	R
++	'Ca... Ca... Camilla...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -1645,7 +1635,7 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'... Ô-Ông Kayblis!'
++	'K... Ngài Kayblis!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -1658,32 +1648,30 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'U-Um... Tôi thực sự'
+-	R
+-	'muốn gặp anh... Heheh...'
+-	\L_05f13:
+-	ZH 1:
+-	'À, đây là'
+-	R
+-	'một món quà nhỏ. Hãy sử dụng'
+-	R
+-	'nó nếu cậu muốn... Eheheh.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Kayblis đặt'
+-	R
+-	'một chiếc túi xuống'
+-	R
+-	'trước mặt Reincock.'
+-	\L_05f13:
+-	ZH 1:
+-	'chiếc túi được nhồi'
+-	R
+-	'nhét thức ăn, quần áo'
+-	R
+-	'và kho báu chất lượng.'
++	'À... Tôi muốn gặp cô quá'
++	R
++	'nên tự đến đây... Hề hề...'
++	\L_05f13:
++	ZH 1:
++	'À, đây là quà. Có đủ'
++	R
++	'thứ... Nếu thích thì'
++	R
++	'dùng nhé... Hê hê.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Kayblis đặt phịch một chiếc'
++	R
++	'túi trước mặt Reincock.'
++	\L_05f13:
++	ZH 1:
++	'Trong đó nhét lẫn đủ'
++	R
++	'thứ đồ xa xỉ đắt tiền,'
++	R
++	'quần áo và đá quý.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -1693,14 +1681,12 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Ừm... Camilla...'
+-	R
+-	'Bây giờ Tôi Là Vua Của Quái'
+-	R
+-	'vật... Không phải là mát mẻ?'
+-	\L_05f13:
+-	ZH 1:
+-	'Cậu có ấn tượng không?'
++	'À... Camilla... Tôi đã'
++	R
++	'thành vua ma vật rồi...'
++	\L_05f13:
++	ZH 1:
++	'Ghê không? Ghê không?'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -1710,18 +1696,18 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Camilla quay lưng lại'
+-	R
+-	'với Kayblis và không nói gì.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Ừm... Vậy... Cậu'
+-	R
+-	'có nghĩ đến việc hẹn'
+-	R
+-	'hò với tôi sớm không?'
++	'Camilla ngoảnh mặt đi, chẳng'
++	R
++	'nói với Kayblis một lời.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'À... Vậy nên... Cô có thể'
++	R
++	'nghiêm túc nghĩ chuyện'
++	R
++	'quen tôi được không?'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e26:
+@@ -1740,23 +1726,23 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Camilla thực sự'
+-	R
+-	'ghét Kayblis. Chỉ vì một'
+-	R
+-	'lý do. Chàng không đẹp.'
+-	\L_05f13:
+-	ZH 1:
+-	'Đối Với Camilla,'
+-	R
+-	'chỉ những thứ đẹp đẽ'
+-	R
+-	'mới xứng đáng tồn tại.'
+-	\L_05f13:
+-	ZH 1:
+-	'Vì vậy, cô không thể chấp'
+-	R
+-	'nhận sự tồn tại của Kayblis.'
++	'Camilla rất ghét'
++	R
++	'Kayblis. Chỉ vì một'
++	R
++	'lẽ: hắn không đẹp.'
++	\L_05f13:
++	ZH 1:
++	'Với nàng, chỉ thứ đẹp đẽ'
++	R
++	'mới có lý do để tồn tại.'
++	\L_05f13:
++	ZH 1:
++	'Vì thế, sự tồn tại của'
++	R
++	'Kayblis là điều nàng'
++	R
++	'không chấp nhận nổi.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -1764,16 +1750,14 @@
+ 	\L_05eb2:
+ 	\L_05e7a:
+ 	ZH 1:
+-	'Hắn đang'
+-	R
+-	'làm phiền cô Camilla...'
+-	R
+-	'Tôi phải làm gì đó...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'U-Um, Ông Kayblis!'
++	'Ngài Camilla đang khó xử...'
++	R
++	'Phải tìm cách mới được...'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'À... Thưa ngài Kayblis!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -1786,16 +1770,14 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Cái gì?!! Tôi đang thảo'
+-	R
+-	'luận điều gì đó quan trọng'
+-	R
+-	'Với Camilla ngay bây giờ!'
+-	\L_05f13:
+-	ZH 1:
+-	'Ngồi yên và'
+-	R
+-	'im lặng, sứ đồ!!'
++	'Gì hả!! Ta đang nói chuyện'
++	R
++	'quan trọng với Camilla!'
++	\L_05f13:
++	ZH 1:
++	'Sứ đồ thì câm miệng,'
++	R
++	'ngồi yên đấy!!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -1803,18 +1785,12 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'U-Um, Cô'
+-	R
+-	'Camilla không được khỏe'
+-	R
+-	'vào lúc này... Ừm...'
+-	\L_05f13:
+-	ZH 1:
+-	'Nếu cậu có'
+-	R
+-	'thể cứu công việc kinh'
+-	R
+-	'doanh của mình sau này...'
++	'À... Ngài Camilla hiện không'
++	R
++	'khỏe... Chuyện quan trọng...'
++	\L_05f13:
++	ZH 1:
++	'Xin ngài để khi khác thì...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -1827,12 +1803,14 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Tôi đã bảo cậu im đi!!'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'（bam）'
++	'Đã bảo sứ đồ thì'
++	R
++	'câm miệng rồi mà!!'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'(Bốp!)'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -1845,26 +1823,26 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Kayblis đẩy Reincock ra.'
+-	\L_05f13:
+-	ZH 1:
+-	'Reincock bị đập vào'
+-	R
+-	'tường và gục xuống sàn.'
+-	\L_05f13:
+-	ZH 1:
+-	'Một con người có thể bị giết'
+-	R
+-	'ngay lập tức, nhưng tông'
+-	R
+-	'đồ bền bỉ hơn con người.'
+-	\L_05f13:
+-	ZH 1:
+-	'Reincock chắc chắn bị thiệt'
+-	R
+-	'hại nặng nề bất kể, nhưng đã'
+-	R
+-	'cố gắng dũng cảm để trở lại.'
++	'Kayblis hất văng Reincock.'
++	\L_05f13:
++	ZH 1:
++	'Cậu bay đi, lưng đập vào'
++	R
++	'tường rồi gục xuống sàn.'
++	\L_05f13:
++	ZH 1:
++	'Người thường hẳn đã chết'
++	R
++	'ngay, nhưng sứ đồ bền'
++	R
++	'bỉ hơn nên chưa chết.'
++	\L_05f13:
++	ZH 1:
++	'Dù bị thương rất nặng,'
++	R
++	'Reincock vẫn kiên'
++	R
++	'cường định đứng dậy.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -1877,22 +1855,20 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'vẫn còn ý thức...?'
+-	\L_05f13:
+-	ZH 1:
+-	'... Ờ...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Kayblis ngừng di chuyển.'
+-	\L_05f13:
+-	ZH 1:
+-	'Những móng tay'
+-	R
+-	'dài của Camilla cắm'
+-	R
+-	'sâu vào cổ Kayblis.'
++	'Thằng này vẫn còn...'
++	\L_05f13:
++	ZH 1:
++	'...Ự...'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Kayblis khựng lại.'
++	\L_05f13:
++	ZH 1:
++	'Móng vuốt vươn dài của'
++	R
++	'Camilla đã kề vào cổ hắn.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e5e:
+@@ -1910,20 +1886,18 @@
+ 	'Camilla không nói gì,'
+ 	\L_05f13:
+ 	ZH 1:
+-	'nhưng một cơn khát máu dày'
+-	R
+-	'như hắc covered bao phủ cơ'
+-	R
+-	'thể cô và hướng Về Kayblis.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Tại sao cậu'
+-	R
+-	'quan tâm rất nhiều đến'
+-	R
+-	'một sứ đồ thấp hèn...?'
++	'Sát khí đặc quánh như'
++	R
++	'hắc ín bao phủ nàng,'
++	R
++	'hướng thẳng vào Kayblis.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Sao cô phải liều đến thế...'
++	R
++	'chỉ vì một tên sứ đồ...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e26:
+@@ -1935,16 +1909,16 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Được rồi... Tôi sẽ dừng'
+-	R
+-	'lại... cậu phải thích nó'
+-	R
+-	'rất nhiều... Tôi xin lỗi...'
+-	\L_05f13:
+-	ZH 1:
+-	'Ừm... Không có cảm'
+-	R
+-	'giác khó khăn, phải không?'
++	'Tôi hiểu rồi... Sẽ'
++	R
++	'dừng... Cô quý hắn'
++	R
++	'lắm nhỉ... Xin lỗi...'
++	\L_05f13:
++	ZH 1:
++	'À... Cô thật sự'
++	R
++	'không khỏe sao?'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -1961,21 +1935,19 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'... Được rồi... Hãy'
+-	R
+-	'cho tôi câu trả lời khi cậu'
+-	R
+-	'cảm thấy tốt hơn, sau đó...'
++	'...Hiểu rồi... Khi khỏe'
++	R
++	'hơn, hãy trả lời tôi...'
++	R
++	'Tôi chờ... Nhưng...'
+ 	\L_05f13:
+ 	ZH 1:
+ 	'Tôi sẽ đợi... Nhưng...'
+ 	\L_05f13:
+ 	ZH 1:
+-	'Nếu cậu mất quá nhiều'
+-	R
+-	'thời gian... tôi sẽ phải'
+-	R
+-	'ép cậu... C-C-... Camilla...'
++	'Lâu quá thì... Tôi sẽ dùng'
++	R
++	'sức... với Ca... Camilla...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -1994,7 +1966,7 @@
+ 	ZH 1:
+ 	'Kayblis cúi đầu,'
+ 	R
+-	'rũ vai và trở về nhà.'
++	'rũ vai ra về.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -2002,25 +1974,25 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'... Bà. Camilla...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Reincock, bằng'
+-	R
+-	'cách nào đó có thể di'
+-	R
+-	'chuyển, đi đến Camilla.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Tôi xin lỗi'
+-	R
+-	'vì không thể giúp'
+-	R
+-	'cậu... Tôi xin lỗi...'
++	'...Thưa ngài Camilla...'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Reincock vừa gượng'
++	R
++	'cử động được đã bước'
++	R
++	'đến bên Camilla.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Xin lỗi... Tôi không'
++	R
++	'giúp được gì cho'
++	R
++	'người... Xin lỗi...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -2030,36 +2002,34 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'... Ừ?'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Còn việc tắm'
+-	R
+-	'của ta thì sao...?'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Cô Camilla...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Khuôn mặt Của Reincock'
+-	R
+-	'rực rỡ với niềm vui.'
+-	\L_05f13:
+-	ZH 1:
+-	'Nhận được một đơn đặt hàng'
+-	R
+-	'có nghĩa là không bị vứt bỏ.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Vâng, Ngay lập tức.'
++	'...Vâng?'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Nước tắm... đâu?'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Ngài Camilla...'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Gương mặt Reincock'
++	R
++	'bừng lên vui sướng.'
++	\L_05f13:
++	ZH 1:
++	'Còn được giao mệnh lệnh'
++	R
++	'nghĩa là chưa bị vứt bỏ.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Vâng, tôi chuẩn bị ngay.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -2069,16 +2039,14 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Camilla chứng'
+-	R
+-	'kiến ​​Reincock,'
+-	\L_05f13:
+-	ZH 1:
+-	'mặc dù gặp khó khăn trong'
+-	R
+-	'việc di chuyển nhưng vẫn'
+-	R
+-	'làm việc chăm chỉ cho cô.'
++	'Camilla lặng lẽ'
++	R
++	'nhìn Reincock,'
++	\L_05f13:
++	ZH 1:
++	'dù loạng choạng vẫn cố'
++	R
++	'hết sức làm việc vì nàng.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	!VAR0516 : 0!
+@@ -2107,28 +2075,28 @@
+ 	\L_05e26:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài của Camilla'
++	'Thành Camilla'
+ 	\L_05f13:
+ 	ZM 24:
+ 	ZH 1:
+-	'Reincock đang đặt hoa'
+-	R
+-	'hồng vào lọ Cho Camilla'
+-	\L_05f13:
+-	ZH 1:
+-	'trong khi cô đang nghỉ'
+-	R
+-	'ngơi trên một chiếc ghế dài.'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla không tỏ ra vẻ'
+-	R
+-	'mặt u sầu thường ngày,'
+-	\L_05f13:
+-	ZH 1:
+-	'nhưng thay vì nhăn mặt'
+-	R
+-	'như cô nghĩ với chính mình.'
++	'Reincock đang cắm hoa'
++	R
++	'hồng vào bình cho Camilla,'
++	\L_05f13:
++	ZH 1:
++	'còn nàng tựa mình'
++	R
++	'trên ghế dài.'
++	\L_05f13:
++	ZH 1:
++	'Không mang vẻ u sầu'
++	R
++	'lơ đãng như mọi khi,'
++	\L_05f13:
++	ZH 1:
++	'nàng hơi cau đôi mày'
++	R
++	'đẹp, chìm trong suy nghĩ.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -2138,14 +2106,14 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Vâng, Cô Camilla?'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Reincock dừng lại'
+-	R
+-	'và quỳ Xuống Camilla.'
++	'Vâng, thưa ngài Camilla.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Reincock dừng tay, quỳ'
++	R
++	'xuống dưới chân Camilla.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -2157,7 +2125,7 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Cô Camilla?'
++	'Ngài Camilla?'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -2171,11 +2139,11 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Điều này Không'
+-	R
+-	'giống Như Cậu, Cô Camilla...'
+-	R
+-	'Có vấn đề gì không?'
++	'Không giống người chút'
++	R
++	'nào... Có chuyện gì'
++	R
++	'thế, ngài Camilla?'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -2185,23 +2153,21 @@
+ 	'mất kiên nhẫn…'
+ 	\L_05f13:
+ 	ZH 1:
+-	'Nếu ta không làm'
+-	R
+-	'theo ý hắn, nó sẽ biến'
+-	R
+-	'thành một cuộc chiến.'
+-	\L_05f13:
+-	ZH 1:
+-	'Sức mạnh của hắn thậm'
+-	R
+-	'chí còn vượt qua cả ta...'
+-	R
+-	'Ta phải vâng lời hắn...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Tôi sẽ bảo vệ cậu...!'
++	'Không phục tùng thì'
++	R
++	'ắt phải giao chiến.'
++	\L_05f13:
++	ZH 1:
++	'Sức mạnh hắn... đã'
++	R
++	'vượt cả ta... Ta chỉ'
++	R
++	'còn cách phục tùng...'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Tôi sẽ bảo vệ người...!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -2211,43 +2177,45 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Đối với Ông'
+-	\L_05f13:
+-	ZH 1:
+-	'Kayblis, nhưng tình cảm'
+-	R
+-	'của anh dành cho em sẽ không'
+-	R
+-	'thua bất cứ ai khác đâu!'
+-	\L_05f13:
+-	ZH 1:
+-	'Cô Camilla! Xin đừng'
+-	R
+-	'nghĩ đến việc trao thân cho'
+-	R
+-	'người mà cậu không thích!'
+-	\L_05f13:
+-	ZH 1:
+-	'Nếu bị đẩy,'
+-	R
+-	'tôi sẽ làm mồi nhử để dụ'
+-	R
+-	'Kayblis đi! Thế thì cậu...'
+-	\L_05f13:
+-	ZH 1:
+-	'Tôi chắc rằng lòng kiêu'
+-	R
+-	'hãnh của cô sẽ không cho'
+-	R
+-	'phép cô bỏ chạy, nhưng...'
+-	\L_05f13:
+-	ZH 1:
+-	'tôi không muốn'
+-	R
+-	'cô chết, cô Camilla!'
+-	\L_05f13:
+-	ZH 1:
+-	'Làm ơn... Cô Camilla...'
++	'Trước ngài Kayblis, tôi'
++	R
++	'chẳng bằng con bọ chét...'
++	\L_05f13:
++	ZH 1:
++	'Nhưng tấm lòng dành'
++	R
++	'cho người, tôi chưa'
++	R
++	'từng thấy mình thua ai!'
++	\L_05f13:
++	ZH 1:
++	'Ngài Camilla! Xin đừng'
++	R
++	'bao giờ nghĩ đến việc trao'
++	R
++	'thân cho kẻ mình ghét!'
++	\L_05f13:
++	ZH 1:
++	'Cùng lắm tôi sẽ làm mồi'
++	R
++	'nhử kéo ngài Kayblis'
++	R
++	'đi! Còn người...'
++	\L_05f13:
++	ZH 1:
++	'Tôi biết lòng kiêu'
++	R
++	'hãnh của người không'
++	R
++	'cho phép bỏ chạy...'
++	\L_05f13:
++	ZH 1:
++	'Dù vậy... tôi không'
++	R
++	'muốn người diệt vong!'
++	\L_05f13:
++	ZH 1:
++	'Xin người... ngài Camilla...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -2257,11 +2225,11 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Reincock bám Vào'
+-	R
+-	'Mắt Cá Chân Của Camilla. Cô'
+-	R
+-	'múc một bó Tóc Của Reincock.'
++	'Camilla nâng một lọn'
++	R
++	'tóc của Reincock đang'
++	R
++	'bám lấy cổ chân nàng.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	!VAR0516 : 0!
+@@ -2293,52 +2261,50 @@
+ 	\L_05e26:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài của Camilla'
++	'Thành Camilla'
+ 	\L_05f13:
+ 	ZM 24:
+ 	ZH 1:
+-	'Reincock đang đọc'
+-	R
+-	'to một bức thư có kích'
+-	R
+-	'thước bằng một tờ báo.'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla đang ngồi'
+-	R
+-	'trên ghế và lắng nghe.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'... Vậy...'
+-	\L_05f13:
+-	ZH 1:
+-	'Làm ơn đi, Camilla. Hãy'
+-	R
+-	'lắng nghe yêu cầu của tôi.'
+-	\L_05f13:
+-	ZH 1:
+-	'Tôi không thể chờ'
+-	R
+-	'đợi lâu hơn được nữa.'
+-	\L_05f13:
+-	ZH 1:
+-	'Lần sau gặp em, hãy bảo'
+-	R
+-	'anh biến em thành của anh'
+-	R
+-	'nhé. Trân trọng, Kayblis...'
+-	\L_05f13:
+-	ZH 1:
+-	'Cô Camilla...!'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Reincock đọc xong bức'
+-	R
+-	'thư Của Kayblis và tái mặt.'
++	'Reincock đọc to tờ giấy'
++	R
++	'thư to như tờ báo, vừa'
++	R
++	'lấy từ phong bì lớn.'
++	\L_05f13:
++	ZH 1:
++	'Camilla nằm trên'
++	R
++	'ghế dài lắng nghe.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Kayblis viết: ...Vì vậy...'
++	\L_05f13:
++	ZH 1:
++	'Xin cô, Camilla. Xin nghe'
++	R
++	'lời thỉnh cầu của tôi.'
++	\L_05f13:
++	ZH 1:
++	'Tôi không nhẫn nại nổi nữa.'
++	\L_05f13:
++	ZH 1:
++	'Khi tôi còn giữ được mình'
++	R
++	'trước cô, xin nói sẽ thuộc'
++	R
++	'về tôi. Kayblis của cô.'
++	\L_05f13:
++	ZH 1:
++	'Reincock「Ngài Camilla...!」'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Đọc xong thư Kayblis,'
++	R
++	'Reincock tái mét.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -2348,21 +2314,17 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Cô Camilla, chúng ta'
+-	R
+-	'hãy ra khỏi đây ngay!'
+-	\L_05f13:
+-	ZH 1:
+-	'Nếu chúng ta đến'
+-	R
+-	'thế giới loài người,'
+-	\L_05f13:
+-	ZH 1:
+-	'ngay cả ông Kayblis'
+-	R
+-	'cũng sẽ gặp khó khăn'
+-	R
+-	'khi tìm thấy chúng ta!'
++	'Ngài Camilla, ta'
++	R
++	'hãy rời đây ngay!'
++	\L_05f13:
++	ZH 1:
++	'Lẩn vào Nhân giới,'
++	\L_05f13:
++	ZH 1:
++	'đến ngài Kayblis'
++	R
++	'cũng khó tìm ra ta!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -2372,45 +2334,39 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Tôi sẽ bắt đầu'
+-	R
+-	'đóng gói. Hãy lấy mọi'
+-	R
+-	'thứ chúng ta có thể.'
+-	\L_05f13:
+-	ZH 1:
+-	'Rất May,'
+-	\L_05f13:
+-	ZH 1:
+-	'chúng tôi có thể kiếm được'
+-	R
+-	'nhiều tiền với tất cả những'
+-	R
+-	'gì Ông Kayblis đã cho cậu.'
+-	\L_05f13:
+-	ZH 1:
+-	'Nếu chúng ta bán hết'
+-	R
+-	'và chi tiêu tiết kiệm,'
+-	\L_05f13:
+-	ZH 1:
+-	'chúng ta sẽ có thể có được'
+-	R
+-	'một nơi tốt đẹp để ẩn náu.'
+-	\L_05f13:
+-	ZH 1:
+-	'Về phần máu, tôi có'
+-	R
+-	'thể tiếp tục bắt đàn ông'
+-	R
+-	'cho cậu như trước đây...'
+-	\L_05f13:
+-	ZH 1:
+-	'Cậu sẽ không phải'
+-	R
+-	'lo lắng về một điều. Tôi'
+-	R
+-	'sẽ làm mọi thứ cho cậu.'
++	'Tôi thu xếp hành lý ngay.'
++	R
++	'Mang được gì thì mang.'
++	\L_05f13:
++	ZH 1:
++	'May là,'
++	\L_05f13:
++	ZH 1:
++	'trong số quà ngài'
++	R
++	'Kayblis tặng có nhiều'
++	R
++	'thứ nhỏ gọn mà đáng giá.'
++	\L_05f13:
++	ZH 1:
++	'Bán lấy tiền, ta sẽ'
++	R
++	'không phải vì tiết kiệm'
++	\L_05f13:
++	ZH 1:
++	'mà chui rúc nơi dơ bẩn, chật'
++	R
++	'chội không xứng với người.'
++	\L_05f13:
++	ZH 1:
++	'Còn máu, tôi vẫn dụ đàn'
++	R
++	'ông đến như trước...'
++	\L_05f13:
++	ZH 1:
++	'Người không cần lo gì cả.'
++	R
++	'Mọi việc cứ để tôi lo liệu.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e26:
+@@ -2424,9 +2380,7 @@
+ 	\L_05f06:
+ 	\L_05dee:
+ 	ZH 1:
+-	'Tiếng bước chân...'
+-	R
+-	'Nghe như đã muộn rồi.'
++	'Xem ra... chậm một bước rồi.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e5e:
+@@ -2436,7 +2390,7 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'(baaaaang)'
++	'(Rầm!)'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e5e:
+@@ -2459,11 +2413,9 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'............... cánh'
+-	R
+-	'cửa đột nhiên mở ra, để'
+-	R
+-	'Lộ Kayblis ở phía bên kia.'
++	'Kayblis「...」 Sau cánh cửa'
++	R
++	'đột ngột mở ra là Kayblis.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e5e:
+@@ -2473,19 +2425,17 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Kayblis cố gắng hết'
+-	R
+-	'sức để kiềm chế hơi'
+-	\L_05f13:
+-	ZH 1:
+-	'thở hoang dã của mình'
+-	R
+-	'và trừng mắt nhìn Camilla.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Camila...'
++	'Kayblis cố nén'
++	R
++	'hơi thở dồn dập,'
++	\L_05f13:
++	ZH 1:
++	'trừng mắt nhìn Camilla.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Camilla... à...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e26:
+@@ -2497,9 +2447,9 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Tôi đến vì câu'
+-	R
+-	'trả lời của cậu...'
++	'Tôi đến... nghe'
++	R
++	'câu trả lời...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -2512,7 +2462,7 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Cô Camilla...'
++	'Ngài Camilla...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -2532,9 +2482,9 @@
+ 	'từ bước tới chỗ Kayblis.'
+ 	\L_05f13:
+ 	ZH 1:
+-	'Cô đứng để bảo'
+-	R
+-	'vệ Reincock sau lưng.'
++	'Nàng đứng chắn'
++	R
++	'Reincock sau lưng mình.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -2547,22 +2497,22 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Camila...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Đôi mắt của Kayblis là đôi'
+-	R
+-	'mắt ẩm ướt của người ta đang'
+-	R
+-	'nhìn người mình yêu thương.'
+-	\L_05f13:
+-	ZH 1:
+-	'Anh đưa tay ra.'
+-	\L_05f13:
+-	ZH 1:
+-	'（thwack）'
++	'Camilla...'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Kayblis nhìn Camilla,'
++	R
++	'mắt long lanh như'
++	R
++	'nhìn vật yêu dấu.'
++	\L_05f13:
++	ZH 1:
++	'Hắn vươn tay.'
++	\L_05f13:
++	ZH 1:
++	'(Bốp!)'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -2588,11 +2538,11 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Camilla đánh không'
+-	R
+-	'thương tiếc vào bàn tay'
+-	R
+-	'Kayblis đưa về phía cô.'
++	'Camilla không chút nương'
++	R
++	'tay, đập vào bàn tay'
++	R
++	'Kayblis vừa chìa ra.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -2600,14 +2550,12 @@
+ 	'Cặn bã...!!'
+ 	\L_05f13:
+ 	ZH 1:
+-	'Ngươi có nghĩ rằng ta'
+-	R
+-	'sẽ để ngươi chạm vào ta với'
+-	R
+-	'bàn tay xấu xí của ngươi?'
+-	\L_05f13:
+-	ZH 1:
+-	'Đừng vô lý!!'
++	'Bàn tay xấu xí ấy mà dám'
++	R
++	'mong chạm vào ta sao!'
++	\L_05f13:
++	ZH 1:
++	'Ngông cuồng!!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e26:
+@@ -2621,88 +2569,82 @@
+ 	\L_05f06:
+ 	\L_05dee:
+ 	ZH 1:
+-	'Ta thậm chí còn'
+-	R
+-	'ghét nhìn vào mặt ngươi!!'
+-	\L_05f13:
+-	ZH 1:
+-	'Ta về phe'
+-	R
+-	'anh vì cô bé luôn'
+-	R
+-	'cho rằng mình đúng...'
+-	\L_05f13:
+-	ZH 1:
+-	'Ta càng ghét Hornet hơn nên'
+-	R
+-	'ta không còn cách nào khác'
+-	R
+-	'ngoài đứng về phía anh!!'
+-	\L_05f13:
+-	ZH 1:
+-	'vì vậy, ta'
+-	R
+-	'chỉ đi cùng với bất cứ'
+-	R
+-	'điều gì ngươi đã làm!'
+-	\L_05f13:
+-	ZH 1:
+-	'Và để làm gì?'
+-	\L_05f13:
+-	ZH 1:
+-	'Ngươi nói rằng ngươi sẽ giết'
+-	R
+-	'ta nếu ta không cho ngươi'
+-	R
+-	'một câu trả lời hay ...'
+-	\L_05f13:
+-	ZH 1:
+-	'Mối Đe dọa Cặn bã'
+-	R
+-	'cho một mảnh cặn bã...'
+-	\L_05f13:
+-	ZH 1:
+-	'Được rồi. Nếu ngươi định'
+-	R
+-	'giết ta thì hãy làm điều đó.'
+-	\L_05f13:
+-	ZH 1:
+-	'Nhưng hãy nhớ điều'
+-	R
+-	'này!! Giết ta sẽ không'
+-	R
+-	'biến ta thành của ngươi!'
+-	\L_05f13:
+-	ZH 1:
+-	'Nếu sống đồng nghĩa'
+-	R
+-	'với việc phải chịu đựng'
+-	R
+-	'nỗi nhục nhã khi bị gọi'
+-	\L_05f13:
+-	ZH 1:
+-	'là người phụ nữ của anh'
+-	R
+-	'thì ta thà chết còn hơn!!'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'... Ồ... điều'
+-	R
+-	'này không thể... Là nó... Có'
+-	R
+-	'phải là April Fool không??'
+-	\L_05f13:
+-	ZH 1:
+-	'Thôi Nào, Camilla...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Đừng gọi tên ta!! Ngươi'
+-	R
+-	'đang làm cho nó bẩn thỉu!'
++	'Ta ghét ngươi đến mức'
++	R
++	'chẳng muốn thấy mặt!!'
++	\L_05f13:
++	ZH 1:
++	'Ta chỉ về phe ngươi'
++	R
++	'vì còn ghét con ranh'
++	R
++	'tự cho mình đúng đắn,'
++	\L_05f13:
++	ZH 1:
++	'thanh cao ấy... Hornet...'
++	R
++	'hơn nữa! Nên đành'
++	R
++	'đứng trong quân ngươi!'
++	\L_05f13:
++	ZH 1:
++	'Bởi vậy, ngươi làm gì ta'
++	R
++	'cũng chẳng hề xiêu lòng!'
++	\L_05f13:
++	ZH 1:
++	'Thế mà sao?'
++	\L_05f13:
++	ZH 1:
++	'Không được câu trả lời vừa'
++	R
++	'ý thì ngươi giết ta sao...'
++	\L_05f13:
++	ZH 1:
++	'Thứ hạ tiện lại đem'
++	R
++	'lời đe dọa hạ tiện'
++	R
++	'hơn nữa ra với ta...'
++	\L_05f13:
++	ZH 1:
++	'Được. Muốn giết'
++	R
++	'thì cứ giết đi.'
++	\L_05f13:
++	ZH 1:
++	'Nhưng nhớ kỹ!! Giết'
++	R
++	'được ta cũng không biến'
++	R
++	'ta thành của ngươi!'
++	\L_05f13:
++	ZH 1:
++	'Nếu phải mang'
++	R
++	'cái danh nhục nhã'
++	\L_05f13:
++	ZH 1:
++	'là người đàn bà của ngươi'
++	R
++	'thì ta thà diệt vong!!'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'...Ơ... Không... Vừa rồi...'
++	R
++	'Hôm nay là Cá tháng Tư à??'
++	\L_05f13:
++	ZH 1:
++	'Này... Camilla...'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Đừng gọi tên ta thân'
++	R
++	'mật thế!! Bẩn cả tên ta!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e5e:
+@@ -2729,18 +2671,20 @@
+ 	\L_05f06:
+ 	\L_05e7a:
+ 	ZH 1:
+-	'Cô Camilla có niềm'
+-	R
+-	'kiêu hãnh lớn đến thế...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Reincock cảm động'
+-	R
+-	'sâu sắc Và trực tiếp trước'
+-	R
+-	'Niềm tự hào Của Camilla.'
++	'Đến mức ấy... Ngài'
++	R
++	'Camilla vẫn chọn giữ'
++	R
++	'lấy niềm kiêu hãnh...'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Chứng kiến lòng kiêu hãnh'
++	R
++	'của chủ nhân, Reincock'
++	R
++	'vô cùng xúc động.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -2773,25 +2717,21 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Không!! Lẽ'
+-	R
+-	'ra tôi phải nghe những lời'
+-	R
+-	'yêu thương tử tế của cậu!'
+-	\L_05f13:
+-	ZH 1:
+-	'Nhưng cái'
+-	R
+-	'đó... cái đó...!!'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Những giọt nước mắt'
+-	R
+-	'lớn rơi xuống từ mắt Kayblis'
+-	R
+-	'và anh ta run rẩy dữ dội.'
++	'Không!! Lẽ ra ta phải'
++	R
++	'nghe những lời yêu'
++	R
++	'dịu dàng của Camilla!'
++	\L_05f13:
++	ZH 1:
++	'Vậy mà... Vậy mà!!'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Kayblis rơi nước mắt lã'
++	R
++	'chã, thân hình chao đảo.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e50:
+@@ -2799,26 +2739,26 @@
+ 	\L_05e42:
+ 	\L_05dee:
+ 	ZH 1:
+-	'Cô Camilla, hãy cẩn thận!'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Reincock cảm'
+-	R
+-	'thấy Rằng Kayblis sẽ làm Hại'
+-	R
+-	'Camilla, nhảy vào giữa họ...'
+-	\L_05f13:
+-	ZH 1:
+-	'Và đẩy Camilla lùi lại.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Cậu lại cản đường tôi nữa'
+-	R
+-	'phải không?! Sứ đồ hèn mọn!!'
++	'Nguy hiểm, ngài Camilla!'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Biết Kayblis sắp hại'
++	R
++	'Camilla, Reincock lao'
++	R
++	'vào giữa hai người...'
++	\L_05f13:
++	ZH 1:
++	'đẩy Camilla về phía sau.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Lại định cản ta sao!'
++	R
++	'Cái thứ sứ đồ này!!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e26:
+@@ -2830,14 +2770,14 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Camilla đáng lẽ'
+-	R
+-	'phải di chuyển ra'
+-	\L_05f13:
+-	ZH 1:
+-	'phía sau Reincock nhưng'
+-	R
+-	'lại lảo đảo về phía trước.'
++	'Thân hình Camilla'
++	R
++	'lẽ ra đã lùi lại,'
++	\L_05f13:
++	ZH 1:
++	'giờ bỗng nghiêng'
++	R
++	'về phía trước.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -2862,7 +2802,7 @@
+ 	'đòn tấn công của Kayblis.'
+ 	\L_05f13:
+ 	ZH 1:
+-	'（zshah）'
++	'(Phập!)'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -2889,25 +2829,25 @@
+ 	\L_05f06:
+ 	\L_05dee:
+ 	ZH 1:
+-	'Kh... Chạy... Cô'
+-	R
+-	'Camilla... đôi cánh của Cậu'
+-	R
+-	'không sao, phải không...?'
+-	\L_05f13:
+-	ZH 1:
+-	'Vì vậy, ít nhất'
+-	R
+-	'cậu có thể trốn thoát...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Vẫn không thể tin được Việc'
+-	R
+-	'chống Lại ngực Của Camilla,'
+-	R
+-	'Reincock lo lắng cho cô.'
++	'Ch... Chạy đi... Ngài'
++	R
++	'Camilla... Cánh người'
++	R
++	'vẫn lành lặn chứ...?'
++	\L_05f13:
++	ZH 1:
++	'Vậy thì... ít nhất'
++	R
++	'xin người thoát đi...'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Chưa tin nổi mình đang'
++	R
++	'được Camilla ôm trước ngực,'
++	R
++	'Reincock vẫn lo cho nàng.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e50:
+@@ -2915,9 +2855,9 @@
+ 	\L_05e42:
+ 	\L_05dee:
+ 	ZH 1:
+-	'... Không có em... Làm'
+-	R
+-	'sao anh có được máu...?'
++	'...Không có ngươi... ta'
++	R
++	'uống máu bằng cách nào...?'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e26:
+@@ -2932,7 +2872,7 @@
+ 	\L_05e42:
+ 	\L_05dee:
+ 	ZH 1:
+-	'... Bà. Camilla?'
++	'Ngài... Camilla?'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e5e:
+@@ -2940,26 +2880,22 @@
+ 	'Gwaaaaaah!!'
+ 	\L_05f13:
+ 	ZH 1:
+-	'Tôi ghét cậu!'
+-	R
+-	'Tôi ghét cậuuu!'
+-	\L_05f13:
+-	ZH 1:
+-	'Ở bên tôi sao có'
+-	R
+-	'thể là một sự xúc phạm?!'
+-	\L_05f13:
+-	ZH 1:
+-	'Cậu thậm chí còn ôm lấy'
+-	R
+-	'vị tông đồ kỳ quặc đó nữa!'
+-	\L_05f13:
+-	ZH 1:
+-	'Cậu thà ở'
+-	R
+-	'bên người giả gái đó'
+-	R
+-	'hơn Tôi, Camilla?!'
++	'Ta ghét! Ta ghééét!!'
++	\L_05f13:
++	ZH 1:
++	'Là người đàn bà của'
++	R
++	'ta thì nhục chỗ nào!'
++	\L_05f13:
++	ZH 1:
++	'Còn mình lại ôm tên sứ'
++	R
++	'đồ nửa nam nửa nữ ấy!'
++	\L_05f13:
++	ZH 1:
++	'Thà chọn thằng giả gái ấy'
++	R
++	'còn hơn ta sao, Camilla!!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e50:
+@@ -2970,9 +2906,9 @@
+ 	'.........'
+ 	\L_05f13:
+ 	ZH 1:
+-	'... Heh... Heheheh...'
+-	R
+-	'Gahahahaha!... Gahahahaha!'
++	'...Kh... Khư khư...'
++	R
++	'Ha ha... Ha ha ha!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e50:
+@@ -2980,18 +2916,16 @@
+ 	\L_05e42:
+ 	\L_05dee:
+ 	ZH 1:
+-	'Nhưng... Cô'
+-	R
+-	'Camilla, sao cô lại lo'
+-	R
+-	'lắng cho tôi thế...?'
+-	\L_05f13:
+-	ZH 1:
+-	'Tôi... tôi chỉ'
+-	R
+-	'là một tông đồ... Cậu quan'
+-	R
+-	'trọng hơn tôi rất nhiều...'
++	'Sao... Ngài Camilla'
++	R
++	'lại lo cho kẻ như em...'
++	\L_05f13:
++	ZH 1:
++	'Em chỉ là sứ đồ...'
++	R
++	'Người xứng đáng với'
++	R
++	'một người hơn thế...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e50:
+@@ -3025,7 +2959,7 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'(gchah)'
++	'(Rắc!)'
+ 	\L_05f13:
+ 	ZH 1:
+ 	'Nắm đấm của Kayblis'
+@@ -3040,7 +2974,7 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'（gshah）'
++	'(Rắc!)'
+ 	\L_05f13:
+ 	ZH 1:
+ 	'Cú dậm của Kayblis'
+@@ -3057,23 +2991,21 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Dừng lại! âm thanh của'
+-	R
+-	'thịt được nghiền thành bột.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Dừng lại!! âm thanh của'
+-	R
+-	'xương được nghiền thành bột.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Stoooooooooo!!!'
+-	R
+-	'Ugaaaaaaaah!!'
++	'Kayblis「Dừng lại!」 Tiếng'
++	R
++	'thịt bị nghiền nát.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Kayblis「Dừng lại!!」 Tiếng'
++	R
++	'xương bị nghiền nát.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Dừng lạiiii!!! Ugaaaaa!!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -3108,7 +3040,7 @@
+ 	'............'
+ 	\L_05f13:
+ 	ZH 1:
+-	'Hick... Ối...'
++	'Hức... Sụt sịt...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e26:
+@@ -3118,9 +3050,9 @@
+ 	'đã trôi qua kể từ đó.'
+ 	\L_05f13:
+ 	ZH 1:
+-	'Thi thể của Camilla và'
+-	R
+-	'Reincock không có ở đó.'
++	'Chẳng còn thân thể'
++	R
++	'Camilla hay Reincock nữa.'
+ 	\L_05f13:
+ 	ZH 1:
+ 	'Tất cả những'
+@@ -3130,20 +3062,18 @@
+ 	'Kayblis là một vũng máu.'
+ 	\L_05f13:
+ 	ZH 1:
+-	'Kayblis đang ngồi'
+-	R
+-	'duỗi chân trên đó, người'
+-	R
+-	'đầy máu, và nhìn xuống.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Cậu rất xấu'
+-	R
+-	'Tính, Camilla... tôi'
+-	R
+-	'phải làm gì Bây giờ...?'
++	'Kayblis ngồi phệt trước'
++	R
++	'đó, duỗi đôi chân đẫm'
++	R
++	'máu, gục đầu xuống.'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Ác quá... Ác quá, Camilla...'
++	R
++	'Tôi phải làm gì bây giờ...'
+ 	\L_05f13:
+ 	ZH 1:
+ 	'Trái tim tôi tan vỡ...'
+@@ -3151,21 +3081,21 @@
+ 	'Thật buồn... Đau quá...'
+ 	\L_05f13:
+ 	ZH 1:
+-	'Tôi ghét bị tổn thương'
+-	R
+-	'nên... tôi phát điên...'
+-	\L_05f13:
+-	ZH 1:
+-	'... Tôi điên quá...'
+-	R
+-	'Ồ, phải rồi... Con người...'
+-	\L_05f13:
+-	ZH 1:
+-	'Tôi sẽ giết vài'
+-	R
+-	'người để bình tĩnh lại... Ừ,'
+-	R
+-	'đó là một ý tưởng hay... Ừ.'
++	'Tôi ghét đau khổ...'
++	R
++	'Bực bội quá...'
++	\L_05f13:
++	ZH 1:
++	'...Bực bội... Phải'
++	R
++	'rồi... Con người...'
++	\L_05f13:
++	ZH 1:
++	'Giết con người để'
++	R
++	'xả cơn bực... Phải,'
++	R
++	'cứ làm thế... Ừ, ừ.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e26:
+@@ -3177,23 +3107,19 @@
+ 	\L_05f06:
+ 	\L_05dee:
+ 	ZH 1:
+-	'Tôi sẽ lấy'
+-	R
+-	'chiếc đệm này để làm'
+-	R
+-	'tôi nhớ đến Camilla...'
+-	\L_05f13:
+-	ZH 1:
+-	'Hôm nay tôi ngâm điều'
+-	R
+-	'này với nước mắt của tôi...'
+-	\L_05f13:
+-	ZH 1:
+-	'Từ ngày mai, tôi'
+-	R
+-	'sẽ chuyển nỗi đau này sang'
+-	R
+-	'việc săn lùng con người...'
++	'Tôi lấy một chiếc đệm này...'
++	R
++	'làm kỷ vật của Camilla...'
++	\L_05f13:
++	ZH 1:
++	'Hôm nay... cứ để nước'
++	R
++	'mắt thấm đẫm nó...'
++	\L_05f13:
++	ZH 1:
++	'Từ mai, tôi sẽ săn người'
++	R
++	'để quên đi nỗi buồn này...'
+ 	\L_05f13:
+ 	ZH 1:
+ 	'... Aah...'
+@@ -3206,34 +3132,30 @@
+ 	\L_05e50:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Kayblis lê bước'
+-	R
+-	'ra khỏi phòng Camilla.'
+-	\L_05f13:
+-	ZH 1:
+-	'Sau đó, Một khi'
+-	R
+-	'Kayblis không còn có'
+-	R
+-	'thể được nhìn thấy...'
++	'Kayblis bước nặng nề'
++	R
++	'rời phòng Camilla.'
++	\L_05f13:
++	ZH 1:
++	'Khi bóng hắn đã hoàn'
++	R
++	'toàn khuất dạng...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	!VAR0516 : 492!
+ 	\L_05e42:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Lõi của Camilla,'
+-	R
+-	'linh hồn máu quỷ của'
+-	R
+-	'cô, nổi lên từ vũng máu.'
+-	\L_05f13:
+-	ZH 1:
+-	'Ngay cả đến phút cuối'
+-	R
+-	'cùng, Camilla cũng không để'
+-	R
+-	'mình bị Kayblis chiếm đoạt.'
++	'Từ vũng máu, ma huyết'
++	R
++	'hồn, phần cốt lõi'
++	R
++	'của Camilla, nổi lên.'
++	\L_05f13:
++	ZH 1:
++	'Đến tận phút cuối, Camilla'
++	R
++	'vẫn không chấp nhận Kayblis.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	!VAR0516 : 0!
+@@ -3898,9 +3820,7 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Nơi ẩn náu'
+-	R
+-	'của đơn vị Camilla'
++	'Chỗ ẩn náu của nhóm Camilla'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	Y 4, 3:
+@@ -3916,16 +3836,16 @@
+ *L_042b8:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Cô đây, cô Camilla...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Reincock tôn trọng'
+-	R
+-	'trao một chiếc gương tay'
+-	R
+-	'vàng thanh lịch cho Camilla.'
++	'Mời người... ngài Camilla...'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Reincock cung kính đưa'
++	R
++	'Camilla chiếc gương tay'
++	R
++	'bằng vàng chạm trổ tinh xảo.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -3942,68 +3862,62 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'À... Xin lỗi. Tóc'
+-	R
+-	'bên phải của ngươi'
+-	R
+-	'cách bên trái 5 mm.'
+-	\L_05f13:
+-	ZH 1:
+-	'Tôi sẽ sửa'
+-	R
+-	'nó ngay lập tức.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Reincock đỏ mặt vì thích'
+-	R
+-	'thú khi chạm vào Tóc Camilla'
+-	\L_05f13:
+-	ZH 1:
+-	'và lấy lại chiếc gương'
+-	R
+-	'với một bàn tay run rẩy.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Sẽ phải mất một'
+-	R
+-	'thời gian nữa trước khi dụng'
+-	R
+-	'cụ uốn tóc của cô sẵn sàng,'
+-	\L_05f13:
+-	ZH 1:
+-	'cô Camilla.'
+-	\L_05f13:
+-	ZH 1:
+-	'Hãy thưởng thức đồ'
+-	R
+-	'uống cho đến lúc đó nhé.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Reincock đổ một ít'
+-	R
+-	'rượu ướp lạnh vào ly để'
+-	R
+-	'đánh bóng để tỏa sáng.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Cô đây, cô Camilla.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Reincock đặt'
+-	R
+-	'nó trên bàn bên cạnh Chiếc'
+-	R
+-	'ghế Dài Mà Camilla đang nằm.'
++	'À... Xin lỗi. Phần tóc bên'
++	R
++	'phải lệch chừng năm milimét.'
++	\L_05f13:
++	ZH 1:
++	'Tôi chỉnh lại ngay.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Được chạm vào tóc Camilla,'
++	R
++	'Reincock đỏ mặt vui sướng,'
++	\L_05f13:
++	ZH 1:
++	'bàn tay hơi run khi nhận'
++	R
++	'lại chiếc gương từ nàng.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Thưa ngài Camilla,'
++	R
++	'chuẩn bị lô uốn tóc'
++	\L_05f13:
++	ZH 1:
++	'sẽ hơi mất thời gian.'
++	\L_05f13:
++	ZH 1:
++	'Trong lúc chờ, mời người'
++	R
++	'dùng chút đồ uống này.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Reincock rót vang đỏ'
++	R
++	'lạnh vừa độ vào chiếc'
++	R
++	'ly đánh bóng sáng loáng.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Mời người, ngài Camilla.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Cậu đặt ly lên bàn'
++	R
++	'nhỏ cạnh chiếc ghế dài'
++	R
++	'Camilla đang tựa mình.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -4013,72 +3927,66 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'À, vâng? Ngươi có'
+-	R
+-	'muốn ăn phô mai không?'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Dù sao thì tôi cũng ổn...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Vâng, Cô Camilla.'
+-	\L_05f13:
+-	ZH 1:
+-	'Sau đó, tôi sẽ'
+-	R
+-	'mang ra phô mai uniuni'
+-	R
+-	'mà Ông Kayblis đã gửi.'
+-	\L_05f13:
+-	ZH 1:
+-	'phô mai Uniuni rất'
+-	R
+-	'đắt, nhưng Kayblis sẽ'
+-	R
+-	'dành tất cả thời gian,'
+-	\L_05f13:
+-	ZH 1:
+-	'tiền bạc và nỗ lực'
+-	R
+-	'hắn có thể Cho Camilla.'
+-	\L_05f13:
+-	ZH 1:
+-	'Nhưng Camilla không'
+-	R
+-	'làm gì cho Kayblis.'
+-	\L_05f13:
+-	ZH 1:
+-	'Cô chỉ đứng về'
+-	R
+-	'Phía Kayblis vì cô không'
+-	R
+-	'thể đồng ý với Hornet.'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla từ từ đưa rượu và'
+-	R
+-	'phô mai lên miệng trong khi'
+-	\L_05f13:
+-	ZH 1:
+-	'Reincock chạy quanh làm'
+-	R
+-	'việc chăm chỉ bên cạnh cô.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Xin Lỗi vì sự chờ đợi, Cô'
+-	R
+-	'Camilla... Xin cho phép tôi'
+-	R
+-	'chạm vào tóc của ngươi...'
+-	\L_05f13:
+-	ZH 1:
+-	'Xin lỗi...'
++	'À, vâng. Phô mai được chứ ạ?'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Gì cũng được...'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Vâng, thưa ngài Camilla.'
++	\L_05f13:
++	ZH 1:
++	'Vậy tôi lấy phô mai Uniuni'
++	R
++	'ngài Kayblis tặng hôm trước.'
++	\L_05f13:
++	ZH 1:
++	'Phô mai Uniuni rất'
++	R
++	'đắt, nhưng Kayblis'
++	\L_05f13:
++	ZH 1:
++	'chẳng tiếc tiền bạc,'
++	R
++	'thời gian hay công'
++	R
++	'sức phục vụ Camilla.'
++	\L_05f13:
++	ZH 1:
++	'Song nàng chẳng bao'
++	R
++	'giờ làm gì vì hắn.'
++	\L_05f13:
++	ZH 1:
++	'Nàng theo phe hắn chỉ vì'
++	R
++	'không thể tán thành Hornet.'
++	\L_05f13:
++	ZH 1:
++	'Bên Camilla thong thả'
++	R
++	'nhấm nháp vang và phô mai,'
++	\L_05f13:
++	ZH 1:
++	'Reincock tất bật chạy tới'
++	R
++	'chạy lui, hết lòng hầu hạ.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Để người chờ rồi, ngài'
++	R
++	'Camilla... Xin cho phép'
++	R
++	'tôi chạm vào tóc người...'
++	\L_05f13:
++	ZH 1:
++	'Thất lễ...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e26:
+@@ -4086,37 +3994,35 @@
+ 	'Camilla không nói gì.'
+ 	\L_05f13:
+ 	ZH 1:
+-	'Nhưng Reincock biết rằng'
+-	R
+-	'đó là một dấu hiệu thì không'
+-	R
+-	'sao cả và từ từ đưa tay ra.'
++	'Biết đó là dấu hiệu'
++	R
++	'đồng ý, Reincock'
++	R
++	'chậm rãi đưa tay ra.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e7a:
+ 	ZH 1:
+-	'Aah... Tóc của'
+-	R
+-	'cô Camilla... Đẹp quá...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Reincock bắt đầu thở'
+-	R
+-	'mạnh vì thích thú khi có thể'
+-	R
+-	'chạm vào Tóc Của Camilla.'
+-	\L_05f13:
+-	ZH 1:
+-	'Sau đó,'
+-	\L_05f13:
+-	ZH 1:
+-	'Reincock đặt các dụng cụ'
+-	R
+-	'uốn tóc trên tóc để làm cho'
+-	R
+-	'cô trông đẹp nhất có thể.'
++	'A... Tóc ngài Camilla...'
++	R
++	'Đẹp... Đẹp biết bao...'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Được chạm vào tóc Camilla,'
++	R
++	'Reincock vui sướng'
++	R
++	'đến hơi thở dồn dập.'
++	\L_05f13:
++	ZH 1:
++	'Rồi cậu bắt đầu'
++	\L_05f13:
++	ZH 1:
++	'sửa tóc sao cho'
++	R
++	'nàng trông đẹp nhất.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	!VAR0516 : 0!
+@@ -4126,20 +4032,18 @@
+ *L_045f0:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Ừm... Cô Camilla...'
+-	R
+-	'Ngươi đã nhận được một'
+-	R
+-	'lá thư từ Ông Kayblis...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Reincock đang cầm một phong'
+-	R
+-	'bì có kích thước áp phích'
+-	R
+-	'và đưa Nó cho Camilla xem.'
++	'À... Ngài Camilla... Lại'
++	R
++	'có thư của ngài Kayblis...'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Reincock ôm phong bì'
++	R
++	'to như tấm áp phích,'
++	R
++	'đưa cho Camilla xem.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -4156,33 +4060,33 @@
+ 	'cô muốn xem nội dung.'
+ 	\L_05f13:
+ 	ZH 1:
+-	'tín hiệu không'
+-	R
+-	'thoát Khỏi Reincock.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Vâng, Cô Camilla. Xin lỗi.'
+-	\L_05f13:
+-	ZH 1:
+-	'reincock cắt con dấu'
+-	R
+-	'trên phong bì bằng một con'
+-	R
+-	'dao chữ rất đắt tiền nó có'
+-	\L_05f13:
+-	ZH 1:
+-	'thể cho phép một'
+-	R
+-	'người nghỉ hưu suốt đời.'
+-	\L_05f13:
+-	ZH 1:
+-	'bức thư bên trong cao bằng'
+-	R
+-	'Reincock. Nó được trải ra'
+-	R
+-	'Để Camilla có thể nhìn thấy.'
++	'Reincock không bỏ'
++	R
++	'sót dấu hiệu ấy.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Vâng, thưa ngài'
++	R
++	'Camilla. Thất lễ.'
++	\L_05f13:
++	ZH 1:
++	'Reincock mở niêm phong bằng'
++	R
++	'dao rọc giấy đắt đến mức'
++	\L_05f13:
++	ZH 1:
++	'người thường có thể sống'
++	R
++	'nhàn cả đời với số tiền ấy.'
++	\L_05f13:
++	ZH 1:
++	'Cậu mở tờ thư cao'
++	R
++	'bằng mình, trải ra'
++	R
++	'cho Camilla nhìn thấy.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -4192,63 +4096,55 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Camilla lặng lẽ đọc'
+-	R
+-	'nó. Đây là những gì cô đọc.'
+-	\L_05f13:
+-	ZH 1:
+-	'Với Camilla'
+-	R
+-	'yêu quý của tôi, tôi đang'
+-	R
+-	'làm tốt. Anh khỏe không?'
+-	\L_05f13:
+-	ZH 1:
+-	'Tôi rất vui vì ngươi'
+-	R
+-	'đã chấp nhận yêu cầu'
+-	R
+-	'rất táo bạo của tôi.'
+-	\L_05f13:
+-	ZH 1:
+-	'Lần sau tôi'
+-	R
+-	'sẽ đến cho vui nên hãy đi ăn'
+-	R
+-	'ở đâu đó nhé. À, tôi sẽ trả.'
+-	\L_05f13:
+-	ZH 1:
+-	'Vậy tôi sẽ mang'
+-	R
+-	'cho ngươi nhiều quà hơn'
+-	R
+-	'nữa. Xin hãy chờ đợi nó.'
+-	\L_05f13:
+-	ZH 1:
+-	'À, còn việc bắt Công'
+-	R
+-	'chúa nhỏ, xin cứ từ từ nhé.'
+-	\L_05f13:
+-	ZH 1:
+-	'đối với Tôi, ngươi'
+-	R
+-	'quan trọng hơn Công'
+-	R
+-	'Chúa Nhỏ. chăm sóc.'
+-	\L_05f13:
+-	ZH 1:
+-	'Nó sẽ làm cho tôi'
+-	R
+-	'hạnh phúc nếu ngươi trả lời.'
+-	R
+-	'Từ, Kayblis ............'
+-	\L_05f13:
+-	ZH 1:
+-	'nội dung'
+-	R
+-	'được viết kém chất Lượng'
+-	R
+-	'Khiến Camilla nhăn mặt.'
++	'Camilla im lặng đọc.'
++	R
++	'Trong thư viết như sau:'
++	\L_05f13:
++	ZH 1:
++	'Gửi Camilla yêu quý. Tôi'
++	R
++	'vẫn khỏe. Cô có khỏe không?'
++	\L_05f13:
++	ZH 1:
++	'Tôi vui lắm vì cô'
++	R
++	'đã nhận lời thỉnh'
++	R
++	'cầu quá sức của tôi.'
++	\L_05f13:
++	ZH 1:
++	'Lần tới tôi ghé chơi, ta'
++	R
++	'cùng ăn nhé. À, tôi mời.'
++	\L_05f13:
++	ZH 1:
++	'Khi ấy tôi sẽ mang'
++	R
++	'thật nhiều quà. Cô'
++	R
++	'cứ mong chờ nhé.'
++	\L_05f13:
++	ZH 1:
++	'À, chuyện bắt lại Little'
++	R
++	'Princess, cô cứ thong thả.'
++	\L_05f13:
++	ZH 1:
++	'Với tôi, Camilla quan'
++	R
++	'trọng hơn Little Princess.'
++	R
++	'Chúc cô mạnh khỏe.'
++	\L_05f13:
++	ZH 1:
++	'Được cô hồi âm thì tôi'
++	R
++	'vui lắm. Kayblis. ...'
++	\L_05f13:
++	ZH 1:
++	'Camilla cau mày trước'
++	R
++	'những lời lẽ vụng về ấy.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e5e:
+@@ -4258,47 +4154,39 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Camilla nắm'
+-	R
+-	'chặt nó và thả một tay'
+-	R
+-	'xuống hết mức có thể.'
+-	\L_05f13:
+-	ZH 1:
+-	'có một âm thanh'
+-	R
+-	'cao, khô khan khi bức thư'
+-	R
+-	'tình Của Kayblis bị rách.'
+-	\L_05f13:
+-	ZH 1:
+-	'sau đó, cô ném tờ'
+-	R
+-	'giấy mà cô đang cầm đi.'
+-	\L_05f13:
+-	ZH 1:
+-	'Reincock quỳ xuống'
+-	R
+-	'và làm sạch Các mảnh'
+-	R
+-	'Giấy Camilla rải rác.'
+-	\L_05f13:
+-	ZH 1:
+-	'Sau đó Reincock ngay'
+-	R
+-	'lập tức chạy ra ngoài,'
+-	\L_05f13:
+-	ZH 1:
+-	'và khi trở về đang'
+-	R
+-	'cầm một chiếc khăn ướt hấp.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Bà Camilla. Xin hãy'
+-	R
+-	'đưa tay của ngươi...'
++	'Camilla nắm chặt tờ thư,'
++	R
++	'giật mạnh tay xuống.'
++	\L_05f13:
++	ZH 1:
++	'Một tiếng xoẹt khô'
++	R
++	'khốc, chói tai. Bức thư'
++	R
++	'tình Kayblis rách toạc.'
++	\L_05f13:
++	ZH 1:
++	'Nàng vung tay tung'
++	R
++	'những mảnh giấy ra.'
++	\L_05f13:
++	ZH 1:
++	'Reincock lập tức quỳ xuống'
++	R
++	'nhặt các mảnh giấy nàng rải.'
++	\L_05f13:
++	ZH 1:
++	'Rồi cậu vội chạy đi,'
++	\L_05f13:
++	ZH 1:
++	'trở lại với chiếc'
++	R
++	'khăn còn bốc hơi nóng.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Ngài Camilla. Xin đưa tay...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -4311,11 +4199,9 @@
+ 	'Camilla uể oải đưa tay ra.'
+ 	\L_05f13:
+ 	ZH 1:
+-	'Reincock mở'
+-	R
+-	'khăn và bọc Tay Camilla'
+-	R
+-	'trong đó để lau sạch.'
++	'Reincock mở khăn, bọc lấy'
++	R
++	'tay nàng rồi lau sạch.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	!VAR0516 : 0!
+@@ -4438,9 +4324,11 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Ngõ Sau Heheheh...'
+-	R
+-	'Tối nay sẽ vui lắm đây...'
++	'Ngõ khuất. Thanh'
++	R
++	'niên「Hê hê... Thú'
++	R
++	'vui tối nay đây...」'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e26:
+@@ -4454,7 +4342,7 @@
+ 	\L_05f06:
+ 	\L_05dee:
+ 	ZH 1:
+-	'Heeey, thưa ông.'
++	'Anh... gì... ơi.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e5e:
+@@ -4466,35 +4354,33 @@
+ 	\L_05e42:
+ 	\L_05dee:
+ 	ZH 1:
+-	'Hu.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Wah...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Reincock đối mặt với'
+-	R
+-	'chàng trai trẻ và mỉm cười.'
+-	\L_05f13:
+-	ZH 1:
+-	'đối với người'
+-	R
+-	'đàn ông, nó trông giống như'
+-	R
+-	'nụ cười của một thiên thần.'
++	'Ư hư.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Oa...'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Reincock mỉm cười'
++	R
++	'với chàng thanh niên.'
++	\L_05f13:
++	ZH 1:
++	'Trong mắt anh ta, đó'
++	R
++	'là nụ cười thiên thần.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e0a:
+ 	ZH 1:
+-	'Ch... Không đẹp như tôi'
+-	R
+-	'nghĩ... Cô Camilla sẽ không'
+-	R
+-	'hài lòng với hắn đâu...'
++	'Chậc... Chẳng ngon lành như'
++	R
++	'tưởng tượng... Thế này ngài'
++	R
++	'Camilla không hài lòng...'
+ 	\L_05f13:
+ 	ZH 1:
+ 	'... Được rồi...'
+@@ -4502,18 +4388,18 @@
+ 	\L_05f06:
+ 	\L_05dee:
+ 	ZH 1:
+-	'Ừm... Cậu có'
+-	R
+-	'phiền giúp tôi không?'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'W - với cái gì?'
+-	R
+-	'Tôi-tôi sẽ giúp nếu tôi có'
+-	R
+-	'thể! người đàn ông đập ngực.'
++	'À... Anh giúp'
++	R
++	'tôi được không?'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Thanh niên「Ch... Chuyện'
++	R
++	'gì? Giúp được thì tôi'
++	R
++	'giúp!」 Anh ta vỗ ngực.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -4523,11 +4409,11 @@
+ 	'kẻ xấu bắt giữ...'
+ 	\L_05f13:
+ 	ZH 1:
+-	'Cậu có thể tập hợp'
+-	R
+-	'một vài người cậu và đi cùng'
+-	R
+-	'tôi để cứu hắn không...?'
++	'Anh gọi mấy người bạn'
++	R
++	'cùng đến cứu anh ấy'
++	R
++	'với tôi được không...?'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e26:
+@@ -4542,21 +4428,17 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Th-đó là khủng'
+-	R
+-	'khiếp!! Được rồi!'
+-	\L_05f13:
+-	ZH 1:
+-	'Tôi sẽ gọi cho bạn bè'
+-	R
+-	'của tôi và chúng tôi sẽ đi'
+-	R
+-	'giúp anh ta ngay lập tức!'
++	'Ch... Chuyện lớn'
++	R
++	'thế sao!! Được rồi!'
++	\L_05f13:
++	ZH 1:
++	'Tôi gọi bạn bè đến cứu ngay!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e0a:
+ 	ZH 1:
+-	'Đơn giản.'
++	'Dễ dụ thật.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -4566,27 +4448,25 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Cái gì? người đàn'
+-	R
+-	'ông đối mặt Với Reincock'
+-	R
+-	'và mỉm cười nhẹ nhàng.'
+-	\L_05f13:
+-	ZH 1:
+-	'Nhưng anh ta đang'
+-	R
+-	'đặt một bàn tay đầy động cơ'
+-	R
+-	'thầm kín lên vai Reincock.'
++	'Thanh niên「Chuyện gì?」'
++	R
++	'Anh ta quay sang Reincock,'
++	R
++	'mỉm cười dịu dàng.'
++	\L_05f13:
++	ZH 1:
++	'Nhưng bàn tay đầy ý'
++	R
++	'đồ đã đặt lên vai cậu.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e0a:
+ 	ZH 1:
+-	'Trời ạ... Tại sao đàn ông'
+-	R
+-	'xấu lại không nhận ra mình'
+-	R
+-	'xấu? Họ luôn làm điều này...'
++	'Thật tình... Sao bọn xấu'
++	R
++	'trai chẳng biết thân,'
++	R
++	'cứ làm thế này nhỉ...'
+ 	\L_05f13:
+ 	ZH 1:
+ 	'Đồ ngốc.'
+@@ -4597,25 +4477,25 @@
+ 	'Dù nghĩ như vậy,'
+ 	\L_05f13:
+ 	ZH 1:
+-	'Reincock nhẹ nhàng nắm'
+-	R
+-	'lấy tay người đàn ông và'
+-	R
+-	'xoa má hồng nhạt vào nó.'
+-	\L_05f13:
+-	ZH 1:
+-	'kẻ xấu yếu'
+-	R
+-	'đối với những chàng trai'
+-	R
+-	'có khuôn mặt xinh đẹp...'
+-	\L_05f13:
+-	ZH 1:
+-	'vì vậy, Ngươi'
+-	R
+-	'có thể có được những người'
+-	R
+-	'như thế nếu ngươi có thể?'
++	'Reincock vẫn nhẹ'
++	R
++	'nhàng nắm tay anh ta,'
++	R
++	'áp vào má ửng hồng.'
++	\L_05f13:
++	ZH 1:
++	'Reincock「Kẻ xấu'
++	R
++	'ấy... yếu lòng trước'
++	R
++	'đàn ông đẹp trai...'
++	\L_05f13:
++	ZH 1:
++	'Nên anh gọi giúp'
++	R
++	'những người càng đẹp'
++	R
++	'trai càng tốt nhé?」'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e5e:
+@@ -4625,29 +4505,25 @@
+ 	'Tôi sẽ làm điều đó!'
+ 	\L_05f13:
+ 	ZH 1:
+-	'người đàn ông trở nên tự'
+-	R
+-	'phụ vì Reincock và thậm chí'
+-	R
+-	'chấp nhận yêu cầu kỳ quái.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Cảm ơn... Sau'
+-	R
+-	'đó làm điều đó một'
+-	R
+-	'cách nhanh chóng...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Môi Của Reincock cong vênh'
+-	R
+-	'thành một nụ cười quỷ quái'
+-	R
+-	'trong ngực người đàn ông.'
++	'Mê mẩn Reincock, anh ta gật'
++	R
++	'đầu cả với lời nhờ kỳ lạ ấy.'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Cảm ơn... Vậy xin'
++	R
++	'anh mau lên...'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Nép trong ngực anh'
++	R
++	'ta, Reincock nở nụ'
++	R
++	'cười tiểu ác ma.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	!VAR0516 : 0!
+@@ -4675,12 +4551,14 @@
+ 	\L_05e26:
+ 	ZM 32:
+ 	ZH 1:
+-	'Thế Giới Của Quái Vật'
++	'Thế giới ma vật'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Rừng lâu đài Kesselring'
++	'Khu rừng gần'
++	R
++	'thành Kesselring'
+ 	\L_05f13:
+ 	Y 4, 3:
+ 	!VAR0690 : VAR0000!
+@@ -4692,48 +4570,44 @@
+ 		\L_05eb2:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'Không. Không được'
+-		R
+-		'đi đường vòng, Kaybnyan.'
++		'Không được đâu~. Đi'
++		R
++		'lạc đường là không'
++		R
++		'được, Kaybnyan à~.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Meo, meo, nhưng'
+-		R
+-		'Kaybwan... có một chatsumi'
+-		R
+-		'đẹp trai ở đó tôi muốn lấy!'
++		'Nyan, nyan, nhưng Kaybwan...'
++		R
++		'Có Chatsumi hay lắm'
++		R
++		'đằng kia! Muốn bắt nyan!'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e26:
+ 		ZH 1:
+-		'Hai con quái vật đang'
+-		R
+-		'đi bộ xuống Con Đường địa'
+-		R
+-		'ngục hiếm khi được sử dụng.'
+-		\L_05f13:
+-		ZH 1:
+-		'Họ Là Các'
+-		R
+-		'tông đồ Của Kayblis,'
+-		R
+-		'Kaybwan và Kaybnyan.'
++		'Hai ma vật đi trên con'
++		R
++		'đường Ma Giới mà người'
++		R
++		'thường khó lòng qua nổi.'
++		\L_05f13:
++		ZH 1:
++		'Đó là hai sứ đồ của Kayblis,'
++		R
++		'Kaybnyan và Kaybwan.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'Nhưng nếu'
+-		R
+-		'chúng ta không làm việc'
+-		R
+-		'vặt của ông Kayblis,'
+-		\L_05f13:
+-		ZH 1:
+-		'ông ấy sẽ'
+-		R
+-		'đánh bại chúng ta~.'
++		'Nhưng không làm xong'
++		R
++		'việc ngài Kayblis giao,'
++		\L_05f13:
++		ZH 1:
++		'ngài ấy sẽ đấm cho đấy~.'
+ 		\L_05f13:
+ 		ZH 1:
+ 		'Sẽ đau lắm đấy~.'
+@@ -4741,20 +4615,20 @@
+ 		\L_05f06:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Uu... Nó'
+-		R
+-		'không đáng để chết cho một'
+-		R
+-		'chatsumi. Ồ, meo meo...'
++		'Ư... Chết vì Chatsumi'
++		R
++		'thì không đáng nyan.'
++		R
++		'Đành đi thôi nyan...'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'À, Kaybnyan, đợi đã~.'
+-		R
+-		'họ điên cuồng đi đến Nơi ẩn'
+-		R
+-		'náu trên núi Của Camilla.'
++		'Kaybwan「A, chờ với~,'
++		R
++		'Kaybnyan.」 Cả hai vội tới'
++		R
++		'chỗ Camilla trong núi.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		!VAR0045 : 1377!
+@@ -4779,26 +4653,24 @@
+ 		ZM 24:
+ 		ZH 1:
+ 		R
+-		'Nơi ẩn náu của'
+-		R
+-		'đơn vị Camilla Meo～～!!'
+-		\L_05f13:
+-		ZH 1:
+-		'Các tông đồ vĩ đại'
+-		R
+-		'của ngài Kayblis đang ở đây!'
+-		\L_05f13:
+-		ZH 1:
+-		'Hãy ra ngoài và chào'
+-		R
+-		'chúng tôi ngay bây giờ!'
++		'Chỗ ẩn náu Camilla.'
++		R
++		'Kaybnyan「Nyaaan!!'
++		\L_05f13:
++		ZH 1:
++		'Sứ đồ vĩ đại của ngài'
++		R
++		'Kayblis đến rồi nyan!'
++		\L_05f13:
++		ZH 1:
++		'Mau ra đón đi nyan!」'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'Chúng tôi có một cái'
+-		R
+-		'gì đó Từ Ông Kayblis～.'
++		'Có đồ ngài Kayblis'
++		R
++		'gửi đến đây~.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e26:
+@@ -4816,43 +4688,39 @@
+ 		\L_05f06:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Hừm, chúng'
+-		R
+-		'tôi làm việc chăm chỉ hơn'
+-		R
+-		'bất kỳ con quỷ nào nhiều.'
+-		\L_05f13:
+-		ZH 1:
+-		'chúng tôi sẽ đến mỗi khi'
+-		R
+-		'Ông Lis nói với chúng tôi.'
++		'Hừ, khác với vị ma'
++		R
++		'nhân nào đó, bọn này'
++		R
++		'chăm chỉ lắm nyan.'
++		\L_05f13:
++		ZH 1:
++		'Ngài Lis sai việc thì'
++		R
++		'bao lần cũng đến nyan.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'Cái gì?! Cô có'
+-		R
+-		'xúc phạm Cô Camilla không?!'
+-		\L_05f13:
+-		ZH 1:
+-		'Cậu là 1.000.000 năm'
+-		R
+-		'quá sớm để làm điều đó!'
++		'Nói gì cơ! Dám chê'
++		R
++		'ngài Camilla của ta...'
++		\L_05f13:
++		ZH 1:
++		'Còn sớm một triệu năm đấy!'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Pweh, hag già.'
+-		\L_05f13:
+-		ZH 1:
+-		'Tôi là một con mèo con,'
+-		\L_05f13:
+-		ZH 1:
+-		'vì vậy tôi có'
+-		R
+-		'thể kéo dài thêm 1.000.000'
+-		R
+-		'năm nữa không có vấn đề gì.'
++		'Xì, đồ già!'
++		\L_05f13:
++		ZH 1:
++		'Nyan còn trẻ măng nyan,'
++		\L_05f13:
++		ZH 1:
++		'thêm một triệu năm'
++		R
++		'cũng chẳng sao nyan.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05ec0:
+@@ -4860,16 +4728,14 @@
+ 		\L_05eb2:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'Được rồi,'
+-		R
+-		'hàng của cậu đây~.'
++		'Đây, đồ gửi đến này~.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e26:
+ 		ZH 1:
+-		'Kaybwan tiếp tục đi'
+-		R
+-		'theo tốc độ của riêng mình.'
++		'Một người vẫn cứ theo nhịp'
++		R
++		'riêng, chẳng bận tâm ai.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05ec0:
+@@ -4877,25 +4743,23 @@
+ 		\L_05eb2:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'Cô Camilla sẽ không đọc'
+-		R
+-		'cái này dù tôi có lấy nó hay'
+-		R
+-		'không! Giữ nó và ra ngoài!!'
++		'Có nhận thì ngài'
++		R
++		'Camilla cũng chẳng'
++		R
++		'đọc đâu! Mang về đi!!'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Không, nếu'
+-		R
+-		'chúng ta làm vậy thì anh Li'
+-		R
+-		'sẽ đánh chúng ta gần chết!'
+-		\L_05f13:
+-		ZH 1:
+-		'Tôi sẽ bị lột da'
+-		R
+-		'và dùng làm đàn shamisen!'
++		'Không chịu nyan! Mang về'
++		R
++		'thì ngài Lis đánh gần chết!'
++		\L_05f13:
++		ZH 1:
++		'Bị lột da làm đàn'
++		R
++		'nyamisen mất nyan!'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05ec0:
+@@ -4903,11 +4767,11 @@
+ 		\L_05eb2:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'Tôi sẽ được'
+-		R
+-		'dùng làm tấm thảm lâu đài~.'
+-		R
+-		'Tôi không thích đau đớn~.'
++		'Tôi thì chắc bị làm'
++		R
++		'thảm trải trong thành~.'
++		R
++		'Không thích đau đâu~.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05ec0:
+@@ -4915,32 +4779,30 @@
+ 		\L_05eb2:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'Trời ạ... Được'
+-		R
+-		'rồi, vậy thì...'
++		'Thật là... Chẳng'
++		R
++		'còn cách nào...'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e26:
+ 		ZH 1:
+-		'Reincock chấp'
+-		R
+-		'nhận Thư Của Kayblis.'
++		'Reincock nhận'
++		R
++		'lấy thư Kayblis.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Cậu có chắc chắn đọc nó'
+-		R
+-		'không? Nếu cậu không, chúng'
+-		R
+-		'tôi sẽ bị đánh đập, meow.'
++		'Nhớ đọc cho đàng hoàng nyan?'
++		R
++		'Không thì ăn đấm đó nyan.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'Im đi. Chúng tôi sẽ'
+-		R
+-		'làm những gì chúng tôi muốn.'
++		'Ồn quá. Đọc hay không'
++		R
++		'là chuyện của bọn này.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05ec0:
+@@ -4948,11 +4810,9 @@
+ 		\L_05eb2:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'... Ừm...'
+-		R
+-		'Reincock... Phần thưởng'
+-		R
+-		'của chúng ta thế nào??'
++		'...Này... Reincock...'
++		R
++		'Phần thưởng đâu??'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05ec0:
+@@ -4968,16 +4828,16 @@
+ 		\L_05eb2:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'Hm... Tôi nghĩ'
+-		R
+-		'xương chó sẽ rất tuyệt~.'
++		'Phần thưởng... Muốn'
++		R
++		'xương gặm Gonta-kun cơ~.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Tôi sẽ chấp nhận'
+-		R
+-		'thức ăn cho mèo.'
++		'Nyan chỉ cần Mon'
++		R
++		'Petit là tha cho.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05ec0:
+@@ -4991,11 +4851,11 @@
+ 		\L_05ec0:
+ 		\L_05e26:
+ 		ZH 1:
+-		'( slam) cánh cửa đã'
+-		R
+-		'tàn nhẫn đóng sầm vào họ'
+-		R
+-		'mà không có phần thưởng.'
++		'(Rầm!) Cửa lạnh lùng'
++		R
++		'đóng lại, chẳng có'
++		R
++		'phần thưởng nào.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		!VAR0516 : 246!
+@@ -5007,50 +4867,46 @@
+ 		\L_05f06:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Meooooo! Cậu là'
+-		R
+-		'một kẻ keo kiệt, hag!!'
++		'Nyaaaa!! Đồ già,'
++		R
++		'keo kiệt quá nyan!!'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'Oh tốt, chúng'
+-		R
+-		'ta hãy về nhà~.'
+-		\L_05f13:
+-		ZH 1:
+-		'Chúng ta có'
+-		R
+-		'thể mua một số đồ ăn nhẹ'
+-		R
+-		'để ăn trên đường trở về.'
++		'Đành vậy, về'
++		R
++		'thôi~, Kaybnyan.'
++		\L_05f13:
++		ZH 1:
++		'Mua chút quà vặt ăn'
++		R
++		'trên đường về nhé.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Uuu, tôi đoán vậy...'
+-		\L_05f13:
+-		ZH 1:
+-		'Tôi sẽ mua'
+-		R
+-		'một ít xương chó và thức ăn'
+-		R
+-		'cho mèo bằng tiền của mình.'
+-		\L_05f13:
+-		ZH 1:
+-		'Uum, cái túi Mà Ông'
+-		R
+-		'Lis đưa cho tôi ở đâu...?'
+-		\L_05f13:
+-		ZH 1:
+-		'Meo! Tôi quên mất nó!!'
++		'Ưư... Đành chịu thôi nyan...'
++		\L_05f13:
++		ZH 1:
++		'Nyan lấy tiền tiêu vặt mua'
++		R
++		'xương gặm và Mon Petit nyan.'
++		\L_05f13:
++		ZH 1:
++		'Để xem, túi đeo mèo'
++		R
++		'con ngài Lis tặng...'
++		\L_05f13:
++		ZH 1:
++		'Nyaaa! Quên ví rồi nyan!!'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'Aaah～... Ối... hai'
+-		R
+-		'sứ đồ lê bước về nhà.'
++		'Kaybwan「Aaa~...」 Hai'
++		R
++		'sứ đồ tiu nghỉu ra về.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 	}
+@@ -5060,63 +4916,57 @@
+ 		\L_05e42:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Cảm giác thật'
+-		R
+-		'tuyệt vời～. Gâu.'
++		'Nhà nuôi chó hàng'
++		R
++		'đầu~. Gâu gâu.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e26:
+ 		ZH 1:
+-		'Trong một khu rừng'
+-		R
+-		'tối tăm vào buổi chiều.'
+-		\L_05f13:
+-		ZH 1:
+-		'Sứ đồ Kaybwan của'
+-		R
+-		'Kayblis đang bước đi với'
+-		R
+-		'một lá thư lớn trên tay.'
++		'Trong khu rừng ban'
++		R
++		'ngày vẫn tối tăm,'
++		\L_05f13:
++		ZH 1:
++		'sứ đồ Kaybwan của Kayblis'
++		R
++		'ôm lá thư lớn bước đi.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Công việc của tôi hôm'
+-		R
+-		'nay là chuyển lá thư của ông'
+-		R
+-		'Kayblis cho cô Camilla～...'
+-		\L_05f13:
+-		ZH 1:
+-		'Sẽ thật tệ nếu'
+-		R
+-		'tôi đánh mất nó...'
+-		\L_05f13:
+-		ZH 1:
+-		'Nếu tôi làm vậy, ông'
+-		R
+-		'Kayblis sẽ đánh tôi mất~...'
+-		R
+-		'Ôi trời... Ôi trời...'
+-		\L_05f13:
+-		ZH 1:
+-		'Ừm, ừm, ừm...'
++		'Việc hôm nay là giao'
++		R
++		'thư ngài Kayblis'
++		R
++		'cho ngài Camilla~...'
++		\L_05f13:
++		ZH 1:
++		'Mất thư thì nguy to...'
++		\L_05f13:
++		ZH 1:
++		'Mất là ngài Kayblis'
++		R
++		'cho ăn đấm~... Nguy'
++		R
++		'quá... Nguy quá...'
++		\L_05f13:
++		ZH 1:
++		'Lộc cộc, lộc cộc...'
+ 		\L_05f13:
+ 		ZH 1:
+ 		'............'
+ 		\L_05f13:
+ 		ZH 1:
+-		'... Ờ ồ~...'
++		'...Nguy rồi~...'
+ 		\L_05f13:
+ 		ZH 1:
+ 		'Tôi muốn đi tiểu~...'
+ 		\L_05f13:
+ 		ZH 1:
+-		'Aah... Ah～～... Tôi nên làm'
+-		R
+-		'gì đây～...? Xung quanh không'
+-		R
+-		'có cột điện thoại đâu～～...'
++		'A... Aa~... Làm sao đây~...'
++		R
++		'Chẳng có cột điện nào cả~...'
+ 		\L_05f13:
+ 		ZH 1:
+ 		'Aah～～...'
+@@ -5141,9 +4991,9 @@
+ 		\L_05f06:
+ 		\L_05dee:
+ 		ZH 1:
+-		'... Haah... Gần'
+-		R
+-		'quá rồi~... Haah...'
++		'...Phù... Vừa thoát'
++		R
++		'nguy hiểm~... Phù...'
+ 		\L_05f13:
+ 		ZH 1:
+ 		'............'
+@@ -5161,7 +5011,7 @@
+ 		\L_05f06:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Uh oooooh...'
++		'Nguy to rồi...'
+ 		\L_05f13:
+ 		ZH 1:
+ 		'... À à...'
+@@ -5173,74 +5023,66 @@
+ 		'............'
+ 		\L_05f13:
+ 		ZH 1:
+-		'Aah... Tôi sẽ chỉ nói là'
+-		R
+-		'tôi đã đưa nó cho họ nhưng'
+-		R
+-		'không nhận được phản hồi~.'
+-		\L_05f13:
+-		ZH 1:
+-		'đó luôn là'
+-		R
+-		'những gì xảy ra, vì vậy điều'
+-		R
+-		'đó sẽ hoạt động～. Haah~~...'
+-		\L_05f13:
+-		ZH 1:
+-		'Khủng hoảng ngăn chặn.'
+-		\L_05f13:
+-		ZH 1:
+-		'Bây giờ... Mình nên đi'
+-		R
+-		'chơi đâu đó rồi về nhà.'
+-		\L_05f13:
+-		ZH 1:
+-		'Hmmmmm... Có lẽ'
+-		R
+-		'nên đi chơi điện tử ở'
+-		R
+-		'thế giới loài người～.'
+-		\L_05f13:
+-		ZH 1:
+-		'Tôi là sát'
+-		R
+-		'thủ trong các trò chơi mang'
+-		R
+-		'tính cạnh tranh～. Hohoho.'
+-		\L_05f13:
+-		ZH 1:
+-		'Một người phụ'
+-		R
+-		'nữ tàn nhẫn~.'
++		'A... Cứ nói đã giao'
++		R
++		'thư, nhưng không nhận'
++		R
++		'được hồi âm là được~.'
++		\L_05f13:
++		ZH 1:
++		'Lần nào cũng vậy, chắc'
++		R
++		'lừa được thôi~. Phù~...'
++		\L_05f13:
++		ZH 1:
++		'Thoát hiểm rồi.'
++		\L_05f13:
++		ZH 1:
++		'Vậy... Ghé đâu'
++		R
++		'chơi rồi về thôi.'
++		\L_05f13:
++		ZH 1:
++		'Ừm... Sang Nhân'
++		R
++		'giới chơi điện tử~.'
++		\L_05f13:
++		ZH 1:
++		'Chơi đối kháng, dồn góc đánh'
++		R
++		'tới chết luôn~. Hô hô hô.'
++		\L_05f13:
++		ZH 1:
++		'Đúng là người'
++		R
++		'phụ nữ vô tình~.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e26:
+ 		ZH 1:
+-		'Vì vậy, Kaybwan đã đi'
+-		R
+-		'lạc khỏi nhiệm vụ của mình.'
+-		\L_05f13:
+-		ZH 1:
+-		'bức thư Kayblis đổ trái'
+-		R
+-		'tim anh vào sẽ không bao'
+-		R
+-		'giờ chạm đến Mắt Camilla...'
++		'Thế là Kaybwan lấp'
++		R
++		'liếm nhiệm vụ của mình.'
++		\L_05f13:
++		ZH 1:
++		'Bức thư tình Kayblis dồn'
++		R
++		'hết tâm huyết viết sẽ'
++		R
++		'chẳng đến mắt Camilla...'
+ 		\L_05f13:
+ 		\L_05f06:
+ 	}
+ 	{VAR0690 = 3:
+ 		ZH 1:
+-		'Một cô gái nhỏ'
+-		R
+-		'(?) đang đi bộ qua một'
+-		R
+-		'khu rừng đầy quái vật,'
+-		\L_05f13:
+-		ZH 1:
+-		'trao đổi một lá thư khổng'
+-		R
+-		'lồ giữa hai bàn tay của cô.'
++		'Một cô bé (?) đi qua'
++		R
++		'khu rừng đầy ma vật,'
++		\L_05f13:
++		ZH 1:
++		'vung vẩy hai tay,'
++		R
++		'mang lá thư khổng lồ.'
+ 		\L_05f13:
+ 		ZH 1:
+ 		'Đó là sứ'
+@@ -5252,11 +5094,11 @@
+ 		\L_05e42:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Một ngày nào đó. Tôi'
+-		R
+-		'đã đi qua điều đầu tiên. Meo'
+-		R
+-		'meo meo meo. Khi tôi gặp...'
++		'Một ngày nọ~, trong'
++		R
++		'khu rừng~, gặp một'
++		R
++		'chú... A, gấu!!'
+ 		\L_05f13:
+ 		ZH 1:
+ 		'À, một con gấu!!'
+@@ -5264,21 +5106,19 @@
+ 		\L_05f06:
+ 		\L_05e26:
+ 		ZH 1:
+-		'Kaybnyan tình cờ'
+-		R
+-		'gặp một con gấu.'
++		'Kaybnyan thấy con gấu lững'
++		R
++		'thững đi sâu trong rừng.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Meooooo! Nó'
+-		R
+-		'đang săn lùng tôi!! Nó'
+-		R
+-		'đang trêu chọc tôi à!?'
+-		\L_05f13:
+-		ZH 1:
+-		'Chạy, soooosh!!'
++		'Nyaaa, săn thôi, săn thôi'
++		R
++		'nyan!! Lắc mông nào nyan!?'
++		\L_05f13:
++		ZH 1:
++		'Lao vút tới nyan!!'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e50:
+@@ -5287,50 +5127,54 @@
+ 		'Kaybnyan lao vào con gấu.'
+ 		\L_05f13:
+ 		ZH 1:
+-		': rawr, rawr,'
+-		\L_05f13:
+-		ZH 1:
+-		', rawr... raaawr!?）'
++		'(Meo, meo!)'
++		\L_05f13:
++		ZH 1:
++		'(Meo... Meoo!?)'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Meeeow, Kitty'
+-		R
+-		'Puunch! Áa!! Đá, kiiiik!!'
++		'Nyaaa, phừừ! Miêu'
++		R
++		'quyền! Cắn cắn!! Đá đá!!'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e26:
+ 		ZH 1:
+-		', rawr... chang Ờ...'
++		'(Meo... Gục!)'
++		R
++		'Kaybnyan「Hả...」'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		!VAR0516 : 247!
+ 		\L_05e42:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Gahahahaha!... Đã'
+-		R
+-		'hạ gục con gấu.'
+-		\L_05f13:
+-		ZH 1:
+-		'Xin Lỗi, Tôi phải'
+-		R
+-		'đưa Cái này Đến Camilla. Nếu'
+-		R
+-		'Không Ông Lis sẽ nổi điên.'
+-		\L_05f13:
+-		ZH 1:
+-		'Hoh, đó là gần...'
++		'Ơ... Mải đánh gấu mà mất'
++		R
++		'hết tỉnh táo rồi nyan.'
++		\L_05f13:
++		ZH 1:
++		'Không được, phải giao'
++		R
++		'thư cho Camilla. Ngài'
++		R
++		'Lis nổi giận mất nyan.'
++		\L_05f13:
++		ZH 1:
++		'Phù, nguy hiểm'
++		R
++		'thật đấy nyan...'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e26:
+ 		ZH 1:
+-		'Kaybnyan bỏ lại con gấu'
+-		R
+-		'bất tỉnh tại chỗ và đi đến'
+-		R
+-		'nơi ẩn náu của Camilla...'
++		'Bỏ lại con gấu đã'
++		R
++		'chết, Kaybnyan tới'
++		R
++		'chỗ ẩn náu Camilla...'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		!VAR0045 : 1377!
+@@ -5353,62 +5197,56 @@
+ 		ZM 24:
+ 		ZH 1:
+ 		R
+-		'Nơi ẩn náu'
+-		R
+-		'của đơn vị Camilla Meo～～!!'
+-		R
+-		'Tôi ở đây, mở Reincock ra!!'
++		'Chỗ ẩn náu Camilla.'
++		R
++		'Kaybnyan「Nyaaan!! Đến'
++		R
++		'rồi! Mở ra, Reincock!!」'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e26:
+ 		ZH 1:
+-		'Kaybnyan cào vào cửa.'
++		'Kaybnyan cào cửa chỗ'
++		R
++		'ẩn náu để mài móng.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		!VAR0516 : 442!
+ 		\L_05eb2:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'Kyaaah!! Đừng làm'
+-		R
+-		'thế với cửa nhà chúng'
+-		R
+-		'tôi!! Đồ mèo ngu ngốc!'
++		'Áá!! Làm gì cửa nhà người'
++		R
++		'ta thế!! Đồ mèo ngốc!'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Im đi, chỉ Có'
+-		R
+-		'Ông Lis mới có thể cho'
+-		R
+-		'tôi biết phải làm gì.'
+-		\L_05f13:
+-		ZH 1:
+-		'Tôi có thư của anh'
+-		R
+-		'Lis, bảo Camilla rửa tai cho'
+-		R
+-		'nàng để nàng có thể nghe.'
++		'Ồn quá, chỉ ngài Lis'
++		R
++		'được sai bảo nyan thôi.'
++		\L_05f13:
++		ZH 1:
++		'Thư của ngài Lis đây,'
++		R
++		'bảo Camilla ngoáy'
++		R
++		'tai nghe cho kỹ nyan.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'Tôi phải nói với cậu bao'
+-		R
+-		'nhiêu lần đây?!! Phải gọi'
+-		R
+-		'tôi là cô!'
+-		\L_05f13:
+-		ZH 1:
+-		'Camilla, hãy tôn'
+-		R
+-		'trọng hơn chút đi!!'
+-		\L_05f13:
+-		ZH 1:
+-		'Và tai của'
+-		R
+-		'nàng luôn sạch sẽ!!'
++		'Phải nói bao lần nữa!! Đã'
++		R
++		'bảo đừng gọi tên trống không'
++		\L_05f13:
++		ZH 1:
++		'với ngài Camilla cơ mà!!'
++		\L_05f13:
++		ZH 1:
++		'Với lại, đến trong tai'
++		R
++		'người cũng sạch sẽ đấy!!'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e26:
+@@ -5418,105 +5256,99 @@
+ 		'lời phàn nàn của Reincock.'
+ 		\L_05f13:
+ 		ZH 1:
+-		'cô ngâm nga trong khi'
+-		R
+-		'tìm kiếm xung quanh trong'
+-		R
+-		'chiếc áo choàng của mình.'
++		'Nó vừa ngân nga vừa lục'
++		R
++		'bên trong áo choàng.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Ừm hm hm～～. Công việc'
+-		R
+-		'của tôi là chuyển thư cho'
+-		R
+-		'anh Lis～～. nó đã đi đâu～?'
+-		\L_05f13:
+-		ZH 1:
+-		'Nó rất lớn, vì'
+-		R
+-		'vậy tôi khá chắc chắn rằng'
+-		R
+-		'tôi đang cầm nó trong tay...'
+-		\L_05f13:
+-		ZH 1:
+-		'... Đợi đã...'
+-		\L_05f13:
+-		ZH 1:
+-		'Meeeeow, tôi làm mất'
+-		R
+-		'thư của anh Li rồi!!'
+-		\L_05f13:
+-		ZH 1:
+-		'Có phải vì con gấu!?'
+-		\L_05f13:
+-		ZH 1:
+-		'Đó là lỗi của'
+-		R
+-		'con gấu, nhưng, nhưng, tôi'
+-		R
+-		'nên làm gì, Reincock～～?!!'
++		'Hừm hưm~. Nyan đi giao'
++		R
++		'thư~, thư ngài Lis~.'
++		R
++		'Cất đâu rồi nyan~?'
++		\L_05f13:
++		ZH 1:
++		'To quá nên chắc chắn'
++		R
++		'đã cầm thế này...'
++		\L_05f13:
++		ZH 1:
++		'...Đã cầm...'
++		\L_05f13:
++		ZH 1:
++		'Nyaaaa!! Làm mất thư'
++		R
++		'ngài Lis rồi nyan!!'
++		\L_05f13:
++		ZH 1:
++		'Tại con gấu nyan!?'
++		\L_05f13:
++		ZH 1:
++		'Con gấu có lỗi nyan!'
++		R
++		'Nhưng, nhưng, làm'
++		R
++		'sao đây, Reincock~~!!'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'Tại sao tôi nên quan'
+-		R
+-		'tâm đến vấn đề của cậu?!'
++		'Sao ta phải lo chuyện'
++		R
++		'ấy cho ngươi chứ!'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05dee:
+ 		ZH 1:
+-		'Hii, nhưng nếu anh Lis mà'
+-		R
+-		'phát hiện ra hắn sẽ giết tôi'
+-		R
+-		'mất! Tôi phải làm gì...? Ồ.'
++		'Híí, không, lộ ra thì ngài'
++		R
++		'Lis giết nyan mất! Làm'
++		R
++		'sao đây... (Cuống quýt.)'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'Đồ ngốc. Dù sao thì cô'
+-		R
+-		'Camilla cũng sẽ không viết'
+-		R
+-		'thư trả lời cho ông Kayblis.'
+-		\L_05f13:
+-		ZH 1:
+-		'Chỉ cần nói với hắn'
+-		R
+-		'rằng cậu không thể nhận được'
+-		R
+-		'phản hồi và cậu sẽ ổn thôi.'
++		'Đồ ngốc. Dù sao ngài'
++		R
++		'Camilla cũng chẳng bao giờ'
++		R
++		'hồi âm cho ngài Kayblis.'
++		\L_05f13:
++		ZH 1:
++		'Cứ báo không nhận được thư'
++		R
++		'trả lời là xong chứ gì.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05dee:
+ 		ZH 1:
+-		'À, ừ... Anh khá'
+-		R
+-		'tử tế đấy, Reincock.'
++		'À, ra vậy... Reincock'
++		R
++		'cũng tốt bụng ghê nyan.'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e5e:
+ 		ZH 1:
+-		'Hừm. Tôi chỉ nói'
+-		R
+-		'lên một sự thật thôi!'
++		'Hừ. Ta chỉ nói'
++		R
++		'đúng sự thật thôi!'
+ 		\L_05f13:
+ 		\L_05f06:
+ 		\L_05e26:
+ 		ZH 1:
+-		'Vì vậy, Kaybnyan đã đi'
+-		R
+-		'lạc khỏi nhiệm vụ của mình.'
+-		\L_05f13:
+-		ZH 1:
+-		'bức thư Kayblis đổ trái'
+-		R
+-		'tim anh vào sẽ không bao'
+-		R
+-		'giờ chạm đến Mắt Camilla...'
++		'Thế là Kaybnyan lấp'
++		R
++		'liếm nhiệm vụ của mình.'
++		\L_05f13:
++		ZH 1:
++		'Bức thư tình Kayblis dồn'
++		R
++		'hết tâm huyết viết sẽ'
++		R
++		'chẳng đến mắt Camilla...'
+ 		\L_05f13:
+ 		\L_05f06:
+ 	}

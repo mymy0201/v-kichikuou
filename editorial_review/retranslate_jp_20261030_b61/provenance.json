@@ -1,0 +1,44 @@
+{
+  "semantic_base": "Verified original Japanese; English reference only.",
+  "verified_source_provenance_sha256": "9282664cf553185e695a9490bd8e0a3dce1876ba2ece7df0bb398a64ceb6577e",
+  "sources": {
+    "Gﾘｯｸ.ADV": {
+      "japanese_sha256": "03c831b351db6ab74f79c771c83907008209f25c91b5bfe6db94adf10ccedc52",
+      "normalized_sha256": "4bfa68b111c4b9a382ba86865f1fd94eda43cd538b859622db1dd9fc6e9d884e",
+      "english_reference_sha256": "880582a1af9db123e4cf65d2571652f5be3265e4fcca0452cfc66be678d9dcf3"
+    },
+    "PCMPLAY.ADV": {
+      "japanese_sha256": "491b3205eff9c193d0aa380f1fef2a33757b09633b0f53b858b0bc027faeda16",
+      "normalized_sha256": "491b3205eff9c193d0aa380f1fef2a33757b09633b0f53b858b0bc027faeda16",
+      "english_reference_sha256": "6bccdd5e5d433311ab2dce35584ebd1718992f42b7211154fcdcf4f7e70b307b"
+    },
+    "WAO_MAP.ADV": {
+      "japanese_sha256": "296f622520533b372f7d2d4a3ccab1ac9cb397451f33aa245a977d4ae3bfd1f8",
+      "normalized_sha256": "2a71eaa6d0f6df1d6d6d2ecbdc8b0efc6087623bf5eb9645020339e5293641f7",
+      "english_reference_sha256": "4ad5c2d769fc3a2b7838405f7c90d2fe77a3b802e57e4bf407557b41fa672643"
+    },
+    "M.ADV": {
+      "japanese_sha256": "777fcf16dea397de2b9f4ee3e9be481c24455da9e48f3cb7fcf5f04f68d45fa0",
+      "normalized_sha256": "4a71c1d84e2238fbe69b6548d1b399a0963902ffd1dd3e9f5f493933bd3eeba4",
+      "english_reference_sha256": "18a9293f8a77db0ec9f3f5d5cac2ba509ba4671dfd7f0127b142c103c938cb45"
+    },
+    "Gﾊﾆｰ.ADV": {
+      "japanese_sha256": "89e9aa851865cd40b63cb456ee71259b9c2caf4467e171cce53c96b507762045",
+      "normalized_sha256": "479a18e261c22b5bdbf1d49bd00b7c059929d54f19a18ee20575b68f52d0433b",
+      "english_reference_sha256": "665bff5636fb6070b557f45e973ad4fa2a5e9b7dc3262fed7c95c3184623919b"
+    }
+  },
+  "rules_sha256": "84f0bcc969eada57b3427bada0934c07f44433e22adcb5a71d860cb91006da05",
+  "method": "Direct handwritten Vietnamese after reading every scene and branch; English-derived machine text replaced.",
+  "decisions": [
+    "Rick thần/Bệ hạ to Rance, tôi/cô to Maris after she requests less formal address; Maris tôi/ngài to Rick and thần/Bệ hạ to Rance. Rance ta/ngươi. Preserve the scene-specific request to stop using the formal title.",
+    "Merged dialogue/narration explicitly attributed without adding portraits or waits. Adult relationship jokes remain non-graphic. 死神 rendered as Tử thần in this comparison, preserving the actual Japanese epithet rather than replacing it with Xích Quỷ.",
+    "すっぽぬけエラー appears after all dispatch branches: Lỗi luồng. PCM command error remains Lỗi lệnh PCM. Preserve all dynamic number slots and coordinate labels.",
+    "Hanny ta/cậu to Rance or visiting leader, ta/em to Julia; no blanket Bệ hạ for arbitrary expedition leader. Population numbers 2,200,003,270/268/275/257 and attack/defense/HP/attack-count effects retained exactly."
+  ],
+  "baseline_reconciliation": "baseline_reconciliation.json",
+  "current_installed_baseline": "baseline/installation.json",
+  "unchanged_existing_translation": [
+    "PCMPLAY.ADV"
+  ]
+}

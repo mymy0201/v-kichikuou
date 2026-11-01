@@ -1,0 +1,1837 @@
+--- before/Gﾒﾅﾄﾞ.ADV
++++ src/Gﾒﾅﾄﾞ.ADV
+@@ -77,7 +77,7 @@
+ 	\L_05d24:
+ 	\L_05cd0:
+ 	ZH 1:
+-	'Hah... Gahahahaha!haha!!'
++	'Ha... ha ha ha ha!!'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05c60:
+@@ -87,40 +87,38 @@
+ 	\L_05d78:
+ 	\L_05cd0:
+ 	ZH 1:
+-	'Lực lượng của'
+-	R
+-	'họ thật điên rồ...'
+-	\L_05d85:
+-	ZH 1:
+-	'Ngay khi chúng ta xử'
+-	R
+-	'lý xong bọn quái vật,'
+-	\L_05d85:
+-	ZH 1:
+-	'một thứ thậm chí còn'
+-	R
+-	'tồi tệ hơn xuất hiện...'
+-	\L_05d85:
+-	ZH 1:
+-	'Mọi chuyện đã kết thúc...'
+-	R
+-	'Tất cả những gì còn lại đối'
+-	R
+-	'với chúng ta là cái chết!'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'Đ-Đợi đã! Nó vẫn chưa'
+-	R
+-	'kết thúc! Chúng ta có Vua!'
+-	\L_05d85:
+-	ZH 1:
+-	'Chỉ cần chúng ta có'
+-	R
+-	'Anh Zarak, em chắc chắn'
+-	R
+-	'điều gì đó có thể...'
++	'Cái đạo quân ấy'
++	R
++	'là thế nào chứ...'
++	\L_05d85:
++	ZH 1:
++	'Cứ tưởng đánh'
++	R
++	'xong quái vật rồi,'
++	\L_05d85:
++	ZH 1:
++	'giờ lại đến lũ còn'
++	R
++	'chẳng hiểu là thứ gì...'
++	\L_05d85:
++	ZH 1:
++	'Hết rồi... Chúng ta'
++	R
++	'chỉ còn nước chết thôi!'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'Kh-Khoan đã! Chưa phân'
++	R
++	'thắng bại mà! Chúng'
++	R
++	'ta còn có nhà vua!'
++	\L_05d85:
++	ZH 1:
++	'Ngài ấy chắc chắn'
++	R
++	'sẽ nghĩ được cách...'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05cd0:
+@@ -130,29 +128,29 @@
+ 	\L_05d78:
+ 	\L_05c60:
+ 	ZH 1:
+-	'À...!'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c98:
+-	ZH 1:
+-	'Zarak hất tay'
+-	R
+-	'Menad đặt lên vai mình.'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05cd0:
+-	ZH 1:
+-	'Đừng cố gắng an ủi tôi'
+-	R
+-	'bằng hy vọng vô căn cứ nữa!!'
+-	\L_05d85:
+-	ZH 1:
+-	'Ai có thể chống'
+-	R
+-	'lại những thiên em đó...?'
+-	\L_05d85:
+-	ZH 1:
+-	'Tôi chưa muốn chết!'
++	'A...!'
++	\L_05d85:
++	\L_05d78:
++	\L_05c98:
++	ZH 1:
++	'Zarak hất phăng bàn tay'
++	R
++	'Menad đang đặt trên vai hắn.'
++	\L_05d85:
++	\L_05d78:
++	\L_05cd0:
++	ZH 1:
++	'Đừng an ủi anh bằng'
++	R
++	'những lời vô căn cứ nữa!!'
++	\L_05d85:
++	ZH 1:
++	'Đối đầu với thứ'
++	R
++	'đó, ai mà chẳng...'
++	\L_05d85:
++	ZH 1:
++	'Anh chưa muốn chết đâu!'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05c60:
+@@ -167,16 +165,16 @@
+ 	\L_05d78:
+ 	\L_05c60:
+ 	ZH 1:
+-	'Anh muốn tiếp tục'
+-	R
+-	'sống với em... Lấy chồng...'
+-	R
+-	'Có con... Nuôi chúng...'
+-	\L_05d85:
+-	ZH 1:
+-	'Tận hưởng tiếng'
+-	R
+-	'cười của họ... Em muốn'
++	'Em còn muốn sống với'
++	R
++	'anh, Zarak... Kết hôn...'
++	R
++	'Sinh con... Nuôi con...'
++	\L_05d85:
++	ZH 1:
++	'Con cười thì chúng mình'
++	R
++	'cũng vui... Em muốn'
+ 	R
+ 	'một gia đình như thế...'
+ 	\L_05d85:
+@@ -528,46 +526,42 @@
+ 	\L_05d24:
+ 	\L_05c98:
+ 	ZH 1:
+-	'Menad và cấp dưới'
+-	R
+-	'Zarak của cô ở một mình.'
+-	\L_05d85:
+-	ZH 1:
+-	'Zarak đang nắm'
+-	R
+-	'lấy cổ áo Menad.'
+-	\L_05d85:
+-	ZH 1:
+-	'Anh ta tức'
+-	R
+-	'giận đến nỗi vừa nhổ'
+-	R
+-	'nước bọt vừa hét lên.'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05cd0:
+-	ZH 1:
+-	'Này, trận chiến đó là cái'
+-	R
+-	'quái gì thế hả?!! Em đã đặt'
+-	R
+-	'tôi vào một nơi nguy hiểm!'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'... Đây là'
+-	R
+-	'một cuộc chiến... Ở'
+-	R
+-	'đâu cũng nguy hiểm...'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05cd0:
+-	ZH 1:
+-	'Aah... tôi hiểu rồi. Em'
+-	R
+-	'thực sự ghét tôi phải không?'
++	'Chỉ có Menad và'
++	R
++	'thuộc hạ Zarak ở đó.'
++	\L_05d85:
++	ZH 1:
++	'Zarak túm lấy cổ áo Menad,'
++	\L_05d85:
++	ZH 1:
++	'giận đến mức hét'
++	R
++	'bắn cả nước bọt.'
++	\L_05d85:
++	\L_05d78:
++	\L_05cd0:
++	ZH 1:
++	'Trận đánh hôm nay là thế'
++	R
++	'quái nào?! Em lại bố trí'
++	R
++	'anh ở chỗ nguy hiểm thế!'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'Nhưng... Đây là chiến'
++	R
++	'tranh mà... Làm gì có'
++	R
++	'nơi không nguy hiểm...'
++	\L_05d85:
++	\L_05d78:
++	\L_05cd0:
++	ZH 1:
++	'À... Ra vậy. Thật ra em'
++	R
++	'ghét anh, đúng không?'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05c60:
+@@ -577,21 +571,19 @@
+ 	\L_05d78:
+ 	\L_05cd0:
+ 	ZH 1:
+-	'Nó có ý nghĩa.'
+-	\L_05d85:
+-	ZH 1:
+-	'Em không thể'
+-	R
+-	'nghiêm túc thích một chàng'
+-	R
+-	'trai ở vị trí thấp hơn mình.'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'Zarak... Điều'
+-	R
+-	'đó không đúng...'
++	'Phải rồi nhỉ.'
++	\L_05d85:
++	ZH 1:
++	'Đời nào em thật lòng'
++	R
++	'yêu một người đàn ông'
++	R
++	'có địa vị thấp hơn mình.'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'Zarak... Không phải đâu...'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05cd0:
+@@ -599,9 +591,7 @@
+ 	'............'
+ 	\L_05d85:
+ 	ZH 1:
+-	'Chúng ta có nên'
+-	R
+-	'chia tay không, Menad?'
++	'Hay mình chia tay đi, Menad.'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05c60:
+@@ -611,14 +601,12 @@
+ 	\L_05d78:
+ 	\L_05cd0:
+ 	ZH 1:
+-	'Hãy quên tôi'
+-	R
+-	'đi. Hẹn gặp lại.'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'À...'
++	'Quên anh đi. Vĩnh biệt.'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'Kh-Không...'
+ 	\L_05d85:
+ 	ZH 1:
+ 	'Đợi đã! Đừng đi!'
+@@ -626,50 +614,46 @@
+ 	\L_05d78:
+ 	\L_05cd0:
+ 	ZH 1:
+-	'Vậy em sẽ'
+-	R
+-	'bố trí tôi ở nơi nào'
+-	R
+-	'đó an toàn hơn chứ?'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'Đó là, ừm...'
+-	\L_05d85:
+-	ZH 1:
+-	'Em là chỉ huy'
+-	R
+-	'nên em phải gác chuyện'
+-	R
+-	'cá nhân sang một bên…'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05cd0:
+-	ZH 1:
+-	'Có nghĩa là...'
+-	\L_05d85:
+-	ZH 1:
+-	'Nếu tôi chết thì'
+-	R
+-	'em có buồn không?'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'... Em thậm chí còn'
+-	R
+-	'không muốn nghĩ về nó...'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05cd0:
+-	ZH 1:
+-	'Vậy thì... Hiểu chưa?'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'À...'
++	'Vậy em chịu bố trí anh ở chỗ'
++	R
++	'tốt hơn, an toàn hơn chứ?'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'Chuyện đó... Nhưng em...'
++	\L_05d85:
++	ZH 1:
++	'Em là chỉ huy, không thể'
++	R
++	'đem tình riêng vào được...'
++	\L_05d85:
++	\L_05d78:
++	\L_05cd0:
++	ZH 1:
++	'Menad...'
++	\L_05d85:
++	ZH 1:
++	'Anh mà chết thì em buồn'
++	R
++	'lắm, đúng không...?'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'...Em chẳng muốn'
++	R
++	'nghĩ đến chuyện ấy...'
++	\L_05d85:
++	\L_05d78:
++	\L_05cd0:
++	ZH 1:
++	'Vậy thì... nhé?'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'A...'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05d08:
+@@ -679,14 +663,14 @@
+ 	\L_05d78:
+ 	\L_05cd0:
+ 	ZH 1:
+-	'Tôi yêu em,'
+-	R
+-	'Menad. Vậy... Hiểu không?'
+-	\L_05d85:
+-	ZH 1:
+-	'Đừng đối xử với tôi'
+-	R
+-	'giống như những kẻ khác...'
++	'Anh yêu em, Menad.'
++	R
++	'Vì thế... nhé?'
++	\L_05d85:
++	ZH 1:
++	'Đừng đối xử với anh'
++	R
++	'giống những người khác...'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05c60:
+@@ -696,12 +680,12 @@
+ 	\L_05d78:
+ 	\L_05cd0:
+ 	ZH 1:
+-	'Có nghĩa là...'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'À...'
++	'Menad...'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'A...'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05c98:
+--- before/Gﾌｳｶ.ADV
++++ src/Gﾌｳｶ.ADV
+@@ -1368,18 +1368,18 @@
+ 	\L_054cd:
+ 	\L_053b5:
+ 	ZH 1:
+-	'Này ông già! Ta'
+-	R
+-	'đang gọi, ra đây!'
+-	\L_054da:
+-	\L_054cd:
+-	\L_053ed:
+-	ZH 1:
+-	'Một lúc sau'
+-	R
+-	'khi Rance hét vào ngôi'
+-	R
+-	'đền, ông già xuất hiện.'
++	'Này, lão già! Ta gọi'
++	R
++	'đấy, mau lăn ra đây!'
++	\L_054da:
++	\L_054cd:
++	\L_053ed:
++	ZH 1:
++	'Rance hét về phía'
++	R
++	'điện thờ. Một lúc sau,'
++	R
++	'ông lão xuất hiện.'
+ 	\L_054da:
+ 	\L_054cd:
+ 	!VAR0516 : 497!
+@@ -1503,9 +1503,9 @@
+ 	\L_054cd:
+ 	\L_053b5:
+ 	ZH 1:
+-	'Không có gì là không'
+-	R
+-	'thể đối với ta, ông già ạ!'
++	'Với ta, chẳng có gì'
++	R
++	'là không thể, lão già!'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_05417:
+@@ -2690,9 +2690,9 @@
+ 	\L_054cd:
+ 	\L_05425:
+ 	ZH 1:
+-	'Fuuka hiện đang đi'
+-	R
+-	'mua sắm trong thị trấn.'
++	'Fuuka đang đi chợ'
++	R
++	'trong thị trấn.'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_053b5:
+@@ -2707,11 +2707,9 @@
+ 	'nữa...'
+ 	\L_054da:
+ 	ZH 1:
+-	'Nên tôi đang cho nó tập dần'
+-	R
+-	'cuộc sống của một cô gái'
+-	R
+-	'bình thường.'
++	'Nên tôi đang cho con bé tập'
++	R
++	'dần cuộc sống bình thường.'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_05417:
+@@ -2778,9 +2776,9 @@
+ 	\L_05409:
+ 	\L_053ed:
+ 	ZH 1:
+-	'Rance đang leo lên các'
+-	R
+-	'bậc thang đến đền thờ.'
++	'Rance leo những bậc'
++	R
++	'đá dẫn lên sân đền.'
+ 	\L_054da:
+ 	\L_054cd:
+ 	!VAR0516 : 100!
+@@ -2873,7 +2871,7 @@
+ 		ZH 1:
+ 		'Nói chuyện với mọi người,'
+ 		R
+-		'tôi hay bị lệch ý...'
++		'tôi hay lạc nhịp với họ...'
+ 		\L_054da:
+ 		@L_03206:
+ 	}
+@@ -2901,9 +2899,9 @@
+ 	'Ừ, cũng có chuyện như thế...'
+ 	\L_054da:
+ 	ZH 1:
+-	'Thế nào, Fuuka, cô có muốn'
+-	R
+-	'đến lâu đài của ta không?'
++	'Fuuka này, cô có muốn'
++	R
++	'đến thành của ta không?'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_05425:
+@@ -2952,7 +2950,7 @@
+ 	\L_054cd:
+ 	\L_05425:
+ 	ZH 1:
+-	'Gh... Geh... Gggggh...'
++	'Kh... khụ... ựựự...'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_053ed:
+--- before/Gﾊｳﾚｰﾝ.ADV
++++ src/Gﾊｳﾚｰﾝ.ADV
+@@ -970,11 +970,9 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Rance'
+-	R
+-	'đang ngồi trên ngai vàng'
+-	R
+-	'với một đầu gối co lên,'
++	'Phòng yết kiến. Rance'
++	R
++	'ngồi co một gối trên ngai,'
+ 	\L_04c91:
+ 	ZH 1:
+ 	'và Barres ở bên cạnh hắn.'
+@@ -984,40 +982,34 @@
+ 	\L_04c30:
+ 	\L_04bdc:
+ 	ZH 1:
+-	'Kh... Buông em ra!'
+-	\L_04c91:
+-	ZH 1:
+-	'Ngay cả khi không có tất'
+-	R
+-	'cả những thứ này trên người,'
+-	R
+-	'em sẽ không chạy trốn!'
++	'Kh... Buông tôi ra!'
++	\L_04c91:
++	ZH 1:
++	'Không cần trói thế'
++	R
++	'này, tôi cũng chẳng'
++	R
++	'chạy hay trốn đâu!'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04c14:
+ 	ZH 1:
+-	'Được đưa'
+-	R
+-	'đến trước mặt họ là con'
+-	R
+-	'gái của Barres, Haurein,'
+-	\L_04c91:
+-	ZH 1:
+-	'trung tướng của'
+-	R
+-	'tướng nổi dậy Ex.'
+-	\L_04c91:
+-	ZH 1:
+-	'Cô bị trói bằng'
+-	R
+-	'dây sau khi bị đánh'
+-	R
+-	'bại trong trận chiến,'
+-	\L_04c91:
+-	ZH 1:
+-	'và hai người lính'
+-	R
+-	'đã đưa cô đến Rance.'
++	'Người bị giải đến là'
++	R
++	'Haurein, con gái Barres,'
++	\L_04c91:
++	ZH 1:
++	'phó tướng của tướng Ex'
++	R
++	'thuộc quân phản loạn.'
++	\L_04c91:
++	ZH 1:
++	'Bại trận, cô bị trói chặt,'
++	\L_04c91:
++	ZH 1:
++	'lính áp giải hai bên,'
++	R
++	'đưa đến trước Rance.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	!VAR0516 : 1!
+@@ -1027,28 +1019,26 @@
+ 	'Ồ. Vậy cô là Haurein?'
+ 	\L_04c91:
+ 	ZH 1:
+-	'Ừm...'
+-	\L_04c91:
+-	ZH 1:
+-	'Ta đã nghĩ'
+-	R
+-	'cô sẽ là một con điếm xấu xí'
+-	R
+-	'vì cô là con gái của Barres,'
+-	\L_04c91:
+-	ZH 1:
+-	'nhưng cô lại nóng bỏng'
+-	R
+-	'một cách đáng ngạc nhiên.'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04ba4:
+-	ZH 1:
+-	'Rance nhìn'
+-	R
+-	'lên xuống cơ thể của'
+-	R
+-	'Haurein một cách thô lỗ.'
++	'Hừ...'
++	\L_04c91:
++	ZH 1:
++	'Nghe là con gái Barres,'
++	R
++	'ta tưởng sẽ xấu xí lắm...'
++	\L_04c91:
++	ZH 1:
++	'Không ngờ cũng'
++	R
++	'xinh đẹp đấy chứ.'
++	\L_04c91:
++	\L_04c84:
++	\L_04ba4:
++	ZH 1:
++	'Rance nói, mắt nhìn'
++	R
++	'Haurein từ trên xuống'
++	R
++	'dưới một cách sỗ sàng.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04bdc:
+@@ -1058,11 +1048,9 @@
+ 	\L_04c84:
+ 	\L_04c14:
+ 	ZH 1:
+-	'Haurein lặng lẽ'
+-	R
+-	'trừng mắt nhìn Rance với'
+-	R
+-	'thái độ thù địch rõ ràng.'
++	'Haurein im lặng nhìn Rance,'
++	R
++	'ánh mắt lạnh lẽo đầy địch ý.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04bce:
+@@ -1075,38 +1063,32 @@
+ 	\L_04c84:
+ 	\L_04ba4:
+ 	ZH 1:
+-	'Barres từ từ'
+-	R
+-	'bước đến gần cô.'
+-	\L_04c91:
+-	ZH 1:
+-	'(smaaaack)'
+-	\L_04c91:
+-	ZH 1:
+-	'Barres đánh'
+-	R
+-	'vào má Haurein.'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04b6c:
+-	ZH 1:
+-	'Con... Đồ con'
+-	R
+-	'gái ngu ngốc!!'
+-	\L_04c91:
+-	ZH 1:
+-	'Công việc'
+-	R
+-	'của chúng cha là bày tỏ lòng'
+-	R
+-	'trung thành với Nhà vua...'
+-	\L_04c91:
+-	ZH 1:
+-	'Vậy mà con đã'
+-	R
+-	'làm một điều vô lý đến mức'
+-	R
+-	'đứng lên chống lại ông ấy!!'
++	'Barres chậm rãi đến'
++	R
++	'trước mặt con gái.'
++	\L_04c91:
++	ZH 1:
++	'(Chát!)'
++	\L_04c91:
++	ZH 1:
++	'Ông tát vào má Haurein.'
++	\L_04c91:
++	\L_04c84:
++	\L_04b6c:
++	ZH 1:
++	'Con... Đồ con gái ngu ngốc!!'
++	\L_04c91:
++	ZH 1:
++	'Bổn phận chúng ta là'
++	R
++	'tận trung với nhà vua!'
++	\L_04c91:
++	ZH 1:
++	'Vậy mà con dám phản'
++	R
++	'lại đức vua, thật'
++	R
++	'không thể dung thứ!!'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04bdc:
+@@ -1116,9 +1098,9 @@
+ 	'đến tương lai của đất nước!!'
+ 	\L_04c91:
+ 	ZH 1:
+-	'Con không làm điều'
+-	R
+-	'đó vì con thích nó!'
++	'Con có thích thú gì'
++	R
++	'chuyện nổi loạn đâu!'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04b6c:
+@@ -1128,11 +1110,9 @@
+ 	\L_04c84:
+ 	\L_04ba4:
+ 	ZH 1:
+-	'Barres thở'
+-	R
+-	'mạnh và hét vào mặt'
+-	R
+-	'Haurein vì kích động.'
++	'Kích động đến thở hổn'
++	R
++	'hển, Barres quát Haurein.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04bdc:
+@@ -1147,9 +1127,9 @@
+ 	\L_04c84:
+ 	\L_04ba4:
+ 	ZH 1:
+-	'Barres từ từ rút thanh'
+-	R
+-	'kiếm ra khỏi bao kiếm.'
++	'Barres chậm rãi'
++	R
++	'rút kiếm khỏi vỏ.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04bdc:
+@@ -1159,20 +1139,24 @@
+ 	\L_04c84:
+ 	\L_04b6c:
+ 	ZH 1:
+-	'Không thương xót...'
+-	\L_04c91:
+-	ZH 1:
+-	'Chết dưới tay cha...'
+-	\L_04c91:
+-	ZH 1:
+-	'Thanh kiếm của cha con!'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04ba4:
+-	ZH 1:
+-	'Barres vung'
+-	R
+-	'kiếm vào Haurein.'
++	'Đây là chút tình'
++	R
++	'cuối cùng...'
++	\L_04c91:
++	ZH 1:
++	'Hãy chết dưới lưỡi'
++	R
++	'kiếm của ta...'
++	\L_04c91:
++	ZH 1:
++	'Dưới lưỡi kiếm của cha con!'
++	\L_04c91:
++	\L_04c84:
++	\L_04ba4:
++	ZH 1:
++	'Barres giơ kiếm lên,'
++	R
++	'hướng về Haurein.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04bce:
+@@ -1185,14 +1169,12 @@
+ 	\L_04c84:
+ 	\L_04ba4:
+ 	ZH 1:
+-	'(ptssssh)'
+-	\L_04c91:
+-	ZH 1:
+-	'Rance đánh vào tay'
+-	R
+-	'Barres, khiến ông'
+-	R
+-	'đánh rơi thanh kiếm.'
++	'(Bốp!)'
++	\L_04c91:
++	ZH 1:
++	'Rance đánh vào tay Barres,'
++	R
++	'làm rơi thanh kiếm.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04c3e:
+@@ -1200,19 +1182,17 @@
+ 	\L_04c30:
+ 	\L_04bdc:
+ 	ZH 1:
+-	'K-Bệ hạ...'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04b6c:
+-	ZH 1:
+-	'Ta không muốn thấy'
+-	R
+-	'điều gì ngu ngốc như một'
+-	\L_04c91:
+-	ZH 1:
+-	'người cha giết chết'
+-	R
+-	'chính con gái mình.'
++	'B-Bệ hạ Rance...'
++	\L_04c91:
++	\L_04c84:
++	\L_04b6c:
++	ZH 1:
++	'Đừng giở trò ngu ngốc'
++	R
++	'như cha giết con gái'
++	\L_04c91:
++	ZH 1:
++	'ngay trước mặt ta!'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04b88:
+@@ -1237,16 +1217,16 @@
+ 	\L_04c84:
+ 	\L_04bdc:
+ 	ZH 1:
+-	'Ôi... Thật là'
+-	R
+-	'những lời từ bi...'
+-	\L_04c91:
+-	ZH 1:
+-	'Haurein! con đã'
+-	R
+-	'nổi dậy chống lại người'
+-	R
+-	'đàn ông hào phóng này!!'
++	'Ôi... Những lời'
++	R
++	'thật nhân từ...'
++	\L_04c91:
++	ZH 1:
++	'Haurein! Con đã nổi'
++	R
++	'loạn chống lại một vị'
++	R
++	'vua khoan dung thế này!'
+ 	\L_04c91:
+ 	ZH 1:
+ 	'Con có hiểu không?!!'
+@@ -1265,46 +1245,46 @@
+ 	\L_04c30:
+ 	\L_04bdc:
+ 	ZH 1:
+-	'Haurein!! con có'
+-	R
+-	'trả lời hay không?!!'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04b6c:
+-	ZH 1:
+-	'Thanh chắn!'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04bdc:
+-	ZH 1:
+-	'Vâng!'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04b6c:
+-	ZH 1:
+-	'Ta muốn nói chuyện với'
+-	R
+-	'Haurein. Ta sẽ mượn cô ấy.'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04bdc:
+-	ZH 1:
+-	'Như Bệ hạ mong muốn...'
+-	\L_04c91:
+-	ZH 1:
+-	'Sự bất tài của lão thần'
+-	R
+-	'với tư cách một người cha'
+-	\L_04c91:
+-	ZH 1:
+-	'chẳng làm được gì ngoài việc'
+-	R
+-	'gây rắc rối cho Bệ hạ...'
+-	\L_04c91:
+-	ZH 1:
+-	'Uu... ...lão'
+-	R
+-	'thần... xin lỗi...'
++	'Haurein!! Sao'
++	R
++	'không trả lời!!'
++	\L_04c91:
++	\L_04c84:
++	\L_04b6c:
++	ZH 1:
++	'Barres!'
++	\L_04c91:
++	\L_04c84:
++	\L_04bdc:
++	ZH 1:
++	'Có lão thần!'
++	\L_04c91:
++	\L_04c84:
++	\L_04b6c:
++	ZH 1:
++	'Ta muốn nói chuyện'
++	R
++	'với Haurein. Mượn con'
++	R
++	'gái ngươi một lát.'
++	\L_04c91:
++	\L_04c84:
++	\L_04bdc:
++	ZH 1:
++	'Vâng...'
++	\L_04c91:
++	ZH 1:
++	'Chỉ vì lão thần làm'
++	R
++	'cha không ra gì,'
++	\L_04c91:
++	ZH 1:
++	'để Bệ hạ phải phiền lòng...'
++	\L_04c91:
++	ZH 1:
++	'Hức... Lão thần...'
++	R
++	'xin tạ tội...'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04c14:
+@@ -1321,7 +1301,7 @@
+ 	\L_04c84:
+ 	\L_04b6c:
+ 	ZH 1:
+-	'Hãy đến.'
++	'Đi theo ta.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04ba4:
+@@ -1334,16 +1314,14 @@
+ 	\L_04c30:
+ 	\L_04bdc:
+ 	ZH 1:
+-	'Ngài Rance đang làm gì'
+-	R
+-	'vậy?!! Buông tôi ra!!'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04ba4:
+-	ZH 1:
+-	'Rance đưa cô'
+-	R
+-	'vào phòng hắn.'
++	'Làm gì vậy!! Buông tôi ra!!'
++	\L_04c91:
++	\L_04c84:
++	\L_04ba4:
++	ZH 1:
++	'Rance cứ thế đưa'
++	R
++	'cô về phòng mình.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	!VAR0516 : 0!
+@@ -1363,39 +1341,35 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng ngủ của'
+-	R
+-	'Rance Haaaaah, anh cô.'
+-	\L_04c91:
+-	ZH 1:
+-	'Đối phó với'
+-	R
+-	'cơn cuồng loạn của ông già'
+-	R
+-	'ngu ngốc đó thật mệt mỏi.'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04bdc:
+-	ZH 1:
+-	'Đừng dám xúc phạm cha em.'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04b6c:
+-	ZH 1:
+-	'Cô nghĩ cô có'
+-	R
+-	'thể nói chuyện như vậy'
+-	R
+-	'với ta à? Ta là Vua.'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04bdc:
+-	ZH 1:
+-	'Dù sao đi nữa, Ngài Rance muốn'
+-	R
+-	'nói về điều gì? Hãy giết'
+-	R
+-	'tôi ngay khi Ngài Rance làm xong.'
++	'Phòng ngủ Rance.'
++	R
++	'Phù, mệt thật.'
++	\L_04c91:
++	ZH 1:
++	'Dây vào cơn kích'
++	R
++	'động của lão già lẩm'
++	R
++	'cẩm cũng mệt người.'
++	\L_04c91:
++	\L_04c84:
++	\L_04bdc:
++	ZH 1:
++	'Đừng nhạo báng cha tôi.'
++	\L_04c91:
++	\L_04c84:
++	\L_04b6c:
++	ZH 1:
++	'Ăn nói kiểu gì thế?'
++	R
++	'Ta là quốc vương đấy.'
++	\L_04c91:
++	\L_04c84:
++	\L_04bdc:
++	ZH 1:
++	'Bỏ chuyện đó đi. Muốn nói'
++	R
++	'gì? Nói mau rồi giết tôi đi.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04b6c:
+@@ -1405,30 +1379,28 @@
+ 	\L_04c84:
+ 	\L_04bdc:
+ 	ZH 1:
+-	'... Ngài Rance sẽ không giết tôi'
+-	R
+-	'vì tôi là con gái của Tướng'
+-	R
+-	'quân áo đen Barres chứ...?'
+-	\L_04c91:
+-	ZH 1:
+-	'Mặc dù tôi là'
+-	R
+-	'một kẻ nổi loạn?'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04b6c:
+-	ZH 1:
+-	'Ta không quan'
+-	R
+-	'tâm đến những ông già'
+-	R
+-	'ngu ngốc như ông ta.'
+-	\L_04c91:
+-	ZH 1:
+-	'Công việc kinh doanh'
+-	R
+-	'của ta đặc biệt là với cô.'
++	'...Vì tôi là con gái'
++	R
++	'tướng Hắc Quân Barres'
++	R
++	'nên không giết sao...?'
++	\L_04c91:
++	ZH 1:
++	'Nên dù phản loạn'
++	R
++	'cũng không giết à?'
++	\L_04c91:
++	\L_04c84:
++	\L_04b6c:
++	ZH 1:
++	'Ta chẳng quan tâm đến'
++	R
++	'lão già lẩm cẩm ấy.'
++	\L_04c91:
++	ZH 1:
++	'Ta bảo có chuyện với cô'
++	R
++	'thì là có chuyện với cô!'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04ba4:
+@@ -2316,31 +2288,31 @@
+ 		ZM 24:
+ 		ZH 1:
+ 		R
+-		'Phòng yết kiến Tôi có'
++		'Phòng yết kiến. Bệ hạ,'
+ 		R
+-		'một yêu cầu, Ngài Rance.'
++		'tôi có lời thỉnh cầu.'
+ 		\L_04c91:
+ 		\L_04c84:
+ 		\L_04b6c:
+ 		ZH 1:
+-		'Về cái gì? Nói cho ta.'
++		'Chuyện gì? Cứ nói đi.'
+ 		\L_04c91:
+ 		\L_04c84:
+ 		\L_04bdc:
+ 		ZH 1:
+-		'Giới thiệu chung Ex.'
++		'Về tướng Ex.'
+ 		\L_04c91:
+ 		ZH 1:
+-		'Như tôi đã'
++		'Như tôi đã thưa,'
+ 		R
+-		'nói trước đây, tôi nổi dậy'
++		'cuộc nổi dậy cũng vì'
+ 		R
+-		'vì lợi ích của đất nước...'
++		'nghĩ cho đất nước...'
+ 		\L_04c91:
+ 		ZH 1:
+-		'Tướng Ex làm như vậy'
++		'Tướng Ex cũng chiến'
+ 		R
+-		'cũng vì lý do tương tự.'
++		'đấu vì tâm nguyện ấy.'
+ 		\L_04c91:
+ 		\L_04c84:
+ 		\L_04b6c:
+@@ -2350,47 +2322,41 @@
+ 		\L_04c84:
+ 		\L_04bdc:
+ 		ZH 1:
+-		'Ngài Rance không thể đề'
++		'Xin Bệ hạ chủ động đề'
+ 		R
+-		'xuất hòa bình sao?'
++		'nghị hòa bình được không?'
+ 		\L_04c91:
+ 		\L_04c84:
+ 		\L_04b6c:
+ 		ZH 1:
+-		'Cô có nghiêm túc'
++		'Cái gì? Ta chỉ đáp lại'
+ 		R
+-		'không? Ta chỉ chấp nhận'
+-		R
+-		'lời thách đấu của hắn.'
++		'kẻ đến gây sự với ta.'
+ 		\L_04c91:
+ 		ZH 1:
+-		'Thà ta làm thế còn'
++		'Kẻ gây sự mới phải dập đầu'
+ 		R
+-		'hơn là quỳ lạy xin lỗi.'
++		'xuống đất mà xin lỗi chứ!'
+ 		\L_04c91:
+ 		ZH 1:
+-		'Ta chắc chắn sẽ'
++		'Ta tuyệt đối không'
+ 		R
+-		'không đề xuất hòa bình.'
++		'chủ động cầu hòa đâu.'
+ 		\L_04c91:
+ 		\L_04c84:
+ 		\L_04bdc:
+ 		ZH 1:
+-		'Tôi hiểu rồi. Nhưng...'
++		'Tuy vậy... Xin Bệ hạ...'
+ 		\L_04c91:
+ 		ZH 1:
+-		'Làm ơn... Hãy'
++		'Mong ngài rộng'
+ 		R
+-		'khoan dung với anh ấy...'
++		'lượng xử trí...'
+ 		\L_04c91:
+ 		\L_04c84:
+ 		\L_04b6c:
+ 		ZH 1:
+-		'Khi ta nói ta'
+-		R
+-		'không quan tâm, ý ta'
+-		R
+-		'là ta không quan tâm.'
++		'Ta đã nói mặc kệ là mặc kệ.'
+ 		\L_04c91:
+ 		\L_04c84:
+ 		\L_04bdc:
+@@ -2398,17 +2364,17 @@
+ 		'............'
+ 		\L_04c91:
+ 		ZH 1:
+-		'Đã hiểu...'
++		'Tôi hiểu rồi...'
+ 		\L_04c91:
+ 		ZH 1:
+-		'Xin lỗi...'
++		'Tôi xin phép lui...'
+ 		\L_04c91:
+ 		\L_04c84:
+ 		\L_04c14:
+ 		ZH 1:
+-		'Haurein cúi đầu và'
++		'Haurein cúi chào, lui'
+ 		R
+-		'rời khỏi ngai vàng.'
++		'khỏi trước ngai vàng.'
+ 		\L_04c91:
+ 		\L_04c84:
+ 		!VAR0516 : 0!
+@@ -2446,18 +2412,14 @@
+ 	\L_04c30:
+ 	\L_04bdc:
+ 	ZH 1:
+-	'Ngài Rance đã triệu'
+-	R
+-	'tập tôi phải không?'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04b6c:
+-	ZH 1:
+-	'Ừm, ta đã làm'
+-	R
+-	'vậy. Thực ra ta có một nhiệm'
+-	R
+-	'vụ quan trọng dành cho cô.'
++	'Bệ hạ cho gọi tôi ạ?'
++	\L_04c91:
++	\L_04c84:
++	\L_04b6c:
++	ZH 1:
++	'Ừ. Ta có một nhiệm vụ'
++	R
++	'quan trọng giao cho cô.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04bdc:
+@@ -2467,31 +2429,29 @@
+ 	\L_04c84:
+ 	\L_04b6c:
+ 	ZH 1:
+-	'Đúng rồi, cho ta'
+-	R
+-	'mượn tai một chút.'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04ba4:
+-	ZH 1:
+-	'Rance ra hiệu cho Haurein.'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04bdc:
+-	ZH 1:
+-	'Được rồi. Xin lỗi.'
++	'Đúng thế. Ghé tai lại đây.'
++	\L_04c91:
++	\L_04c84:
++	\L_04ba4:
++	ZH 1:
++	'Rance vẫy Haurein lại gần.'
++	\L_04c91:
++	\L_04c84:
++	\L_04bdc:
++	ZH 1:
++	'Vâng, xin phép Bệ hạ.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04c14:
+ 	ZH 1:
+-	'Haurein đến gần Rance'
+-	R
+-	'và đưa mặt cô lại gần.'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04ba4:
+-	ZH 1:
+-	'(ôm hôn)'
++	'Haurein đến gần'
++	R
++	'Rance, ghé mặt lại.'
++	\L_04c91:
++	\L_04c84:
++	\L_04ba4:
++	ZH 1:
++	'(Chụt!)'
+ 	\L_04c91:
+ 	ZH 1:
+ 	'Rance nhanh chóng'
+@@ -2506,26 +2466,24 @@
+ 	\L_04c84:
+ 	\L_04b6c:
+ 	ZH 1:
+-	'Gahahahaha! Có cô rồi.'
+-	\L_04c91:
+-	ZH 1:
+-	'"À" đó thật'
+-	R
+-	'sự rất dễ thương.'
+-	R
+-	'Vâng, vâng. Tốt, tốt.'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04bdc:
+-	ZH 1:
+-	'Đó có phải là'
+-	R
+-	'nhiệm vụ quan trọng không?'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04b6c:
+-	ZH 1:
+-	'Vâng, đúng vậy.'
++	'Gahahahaha! Mắc lừa rồi nhé!'
++	\L_04c91:
++	ZH 1:
++	'Tiếng “A” vừa rồi dễ thương'
++	R
++	'đấy. Ừ, tốt lắm, tốt lắm.'
++	\L_04c91:
++	\L_04c84:
++	\L_04bdc:
++	ZH 1:
++	'Đó là nhiệm vụ quan'
++	R
++	'trọng mà ngài nói sao?'
++	\L_04c91:
++	\L_04c84:
++	\L_04b6c:
++	ZH 1:
++	'Ừ, đúng thế.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04bdc:
+@@ -2536,18 +2494,16 @@
+ 	'Tôi đang bận.'
+ 	\L_04c91:
+ 	ZH 1:
+-	'Nếu Ngài Rance định'
+-	R
+-	'chơi, hãy chơi với người'
+-	R
+-	'có nhiều thời gian hơn!!'
++	'Muốn đùa thì tìm kẻ'
++	R
++	'rảnh rỗi mà đùa!!'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04c14:
+ 	ZH 1:
+-	'Haurein dậm'
+-	R
+-	'chân khỏi ngai vàng.'
++	'Haurein giậm chân, bước'
++	R
++	'khỏi trước ngai vàng.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	!VAR0516 : 0!
+@@ -2576,33 +2532,29 @@
+ 	\L_04c30:
+ 	\L_04bdc:
+ 	ZH 1:
+-	'Ngài Rance có việc gì'
+-	R
+-	'cần làm với tôi không?'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04b6c:
+-	ZH 1:
+-	'Về ông già câm...'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04bdc:
+-	ZH 1:
+-	'Ông già ngu ngốc??'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04b6c:
+-	ZH 1:
+-	'À, ôi. Barres,'
+-	R
+-	'ý ta là Barres.'
+-	\L_04c91:
+-	ZH 1:
+-	'Cô có biết'
+-	R
+-	'hắn không ngừng nhắc đến'
+-	R
+-	'chuyện hẹn hò với cô không?'
++	'Bệ hạ có việc gì sai bảo?'
++	\L_04c91:
++	\L_04c84:
++	\L_04b6c:
++	ZH 1:
++	'Về lão già lẩm cẩm...'
++	\L_04c91:
++	\L_04c84:
++	\L_04bdc:
++	ZH 1:
++	'Lão già lẩm cẩm??'
++	\L_04c91:
++	\L_04c84:
++	\L_04b6c:
++	ZH 1:
++	'À, nhầm. Barres, Barres ấy.'
++	\L_04c91:
++	ZH 1:
++	'Gần đây lão cứ đến'
++	R
++	'chỗ cô, liên tục nhắc'
++	R
++	'chuyện xem mắt nhỉ?'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04bdc:
+@@ -2610,18 +2562,16 @@
+ 	'............'
+ 	\L_04c91:
+ 	ZH 1:
+-	'Nói thẳng như vậy'
+-	R
+-	'thì khá rắc rối đấy.'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04b6c:
+-	ZH 1:
+-	'Có lẽ phụ'
+-	R
+-	'nữ có rất nhiều vấn đề'
+-	R
+-	'khác nhau cần giải quyết.'
++	'Nói thẳng ra, tôi'
++	R
++	'rất phiền lòng.'
++	\L_04c91:
++	\L_04c84:
++	\L_04b6c:
++	ZH 1:
++	'Làm phụ nữ cũng lắm'
++	R
++	'chuyện vất vả nhỉ.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04bdc:
+@@ -2658,21 +2608,19 @@
+ 	\L_04bc0:
+ 	\L_04b6c:
+ 	ZH 1:
+-	'Con có ở'
+-	R
+-	'đây không, Haurein?'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04bdc:
+-	ZH 1:
+-	'Chà?'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04b6c:
+-	ZH 1:
+-	'Thời điểm hoàn hảo. Xin'
+-	R
+-	'hãy xem qua nhé, Bệ hạ.'
++	'Con ở đây à, Haurein.'
++	\L_04c91:
++	\L_04c84:
++	\L_04bdc:
++	ZH 1:
++	'Cha?'
++	\L_04c91:
++	\L_04c84:
++	\L_04b6c:
++	ZH 1:
++	'Vừa hay. Xin Bệ'
++	R
++	'hạ cũng xem qua.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04ba4:
+@@ -2686,57 +2634,51 @@
+ 	\L_04c84:
+ 	\L_04b6c:
+ 	ZH 1:
+-	'Còn người đàn'
+-	R
+-	'ông này thì sao?'
+-	\L_04c91:
+-	ZH 1:
+-	'Anh ta điều hành một'
+-	R
+-	'tiệm bánh ở Thành phố Tự do.'
+-	\L_04c91:
+-	ZH 1:
+-	'Tuổi của hai người'
+-	R
+-	'hơi khác một chút, nhưng...'
+-	\L_04c91:
+-	ZH 1:
+-	'Sống với một người'
+-	R
+-	'đàn ông như hắn sẽ...'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04bdc:
+-	ZH 1:
+-	'Xin hãy lo việc'
+-	R
+-	'của mình đi, thưa Cha!!'
+-	\L_04c91:
+-	ZH 1:
+-	'Ngày qua ngày'
+-	R
+-	'cha cho con xem những người'
+-	R
+-	'này và nói về hôn nhân...'
+-	\L_04c91:
+-	ZH 1:
+-	'Cha đang cố gắng nhanh'
+-	R
+-	'chóng loại bỏ đứa con gái đã'
+-	\L_04c91:
+-	ZH 1:
+-	'tham gia vào một cuộc'
+-	R
+-	'đảo chính của mình sao!?'
++	'Con thấy người này thế nào?'
++	\L_04c91:
++	ZH 1:
++	'Ông ấy mở tiệm bánh ở'
++	R
++	'các Thành phố Tự do.'
++	\L_04c91:
++	ZH 1:
++	'Tuy chênh lệch'
++	R
++	'tuổi tác, nhưng...'
++	\L_04c91:
++	ZH 1:
++	'Có khi sống cùng người'
++	R
++	'đàn ông như thế này'
++	R
++	'lại hợp với con...'
++	\L_04c91:
++	\L_04c84:
++	\L_04bdc:
++	ZH 1:
++	'Đủ rồi, thưa cha!!'
++	\L_04c91:
++	ZH 1:
++	'Ngày nào gặp con cũng'
++	R
++	'xem mắt, kết hôn...'
++	\L_04c91:
++	ZH 1:
++	'Cha muốn tống khứ'
++	R
++	'cho mau đứa con gái'
++	\L_04c91:
++	ZH 1:
++	'từng gây đảo chính'
++	R
++	'này đến thế sao!?'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04c14:
+ 	ZH 1:
+-	'Nắm đấm của'
+-	R
+-	'Haurein run lên khi'
+-	R
+-	'cô hét vào mặt Barres.'
++	'Haurein siết nắm tay'
++	R
++	'run rẩy, quát Barres.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04b6c:
+@@ -2750,30 +2692,28 @@
+ 	\L_04c84:
+ 	\L_04bdc:
+ 	ZH 1:
+-	'Cha nghĩ điều gì'
+-	R
+-	'sẽ khiến con hạnh phúc?!!'
+-	\L_04c91:
+-	ZH 1:
+-	'Nếu hôn nhân là hạnh'
+-	R
+-	'phúc đối với phụ nữ, tại sao'
+-	R
+-	'cha lại nuôi con đi lính!?'
+-	\L_04c91:
+-	ZH 1:
+-	'Công việc'
+-	R
+-	'này là thứ xa vời nhất'
+-	R
+-	'so với hôn nhân...!!'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04b6c:
+-	ZH 1:
+-	'... Đó là cách duy nhất'
+-	R
+-	'cha biết để nuôi dạy con...'
++	'Hạnh phúc theo định'
++	R
++	'nghĩa của cha là gì?!!'
++	\L_04c91:
++	ZH 1:
++	'Nếu phụ nữ lấy chồng là'
++	R
++	'hạnh phúc, sao cha lại'
++	R
++	'dạy con làm võ nhân!?'
++	\L_04c91:
++	ZH 1:
++	'Một nghề xa vời với chuyện'
++	R
++	'kết hôn đến thế...!!'
++	\L_04c91:
++	\L_04c84:
++	\L_04b6c:
++	ZH 1:
++	'Bởi... Cha chỉ biết'
++	R
++	'dạy con như thế...'
+ 	\L_04c91:
+ 	ZH 1:
+ 	'Lúc đầu cha nghĩ'
+@@ -2781,11 +2721,9 @@
+ 	'sẽ ổn thôi, nhưng...'
+ 	\L_04c91:
+ 	ZH 1:
+-	'Khi cha nhìn'
+-	R
+-	'thấy những người phụ nữ tầm'
+-	R
+-	'tuổi con trong bộ váy cưới,'
++	'Thấy những cô gái trạc'
++	R
++	'tuổi con mặc áo cưới,'
+ 	\L_04c91:
+ 	ZH 1:
+ 	'mỉm cười...'
+@@ -2796,11 +2734,11 @@
+ 	\L_04c84:
+ 	\L_04bdc:
+ 	ZH 1:
+-	'Con biết rằng'
+-	R
+-	'cha thực sự lo lắng cho'
+-	R
+-	'con dựa trên quá khứ...'
++	'Nhìn hồ sơ những người cha'
++	R
++	'giới thiệu, con biết cha'
++	R
++	'thật lòng lo cho con...'
+ 	\L_04c91:
+ 	ZH 1:
+ 	'Tuy nhiên...'
+@@ -2811,29 +2749,25 @@
+ 	'là trẻ con nữa.'
+ 	\L_04c91:
+ 	ZH 1:
+-	'Con có thể tự'
+-	R
+-	'mình quyết định điều gì'
+-	R
+-	'sẽ khiến con hạnh phúc!!'
+-	\L_04c91:
+-	ZH 1:
+-	'Xin hãy cho'
+-	R
+-	'con được tự do!!'
+-	\L_04c91:
+-	ZH 1:
+-	'Xin lỗi, Bệ hạ.'
++	'Con tự biết điều gì là'
++	R
++	'hạnh phúc của mình!!'
++	\L_04c91:
++	ZH 1:
++	'Lúc này, xin hãy'
++	R
++	'để con tự do!'
++	\L_04c91:
++	ZH 1:
++	'Bệ hạ, tôi xin phép lui.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04c3e:
+ 	\L_04b6c:
+ 	ZH 1:
+-	'Này, con không'
+-	R
+-	'đợi được sao?! Lão thần'
+-	R
+-	'vẫn muốn nói chuyện...'
++	'Này, đứng lại! Cha'
++	R
++	'còn chưa nói xong...'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04bce:
+@@ -2843,23 +2777,21 @@
+ 	\L_04c30:
+ 	\L_04b6c:
+ 	ZH 1:
+-	'Thật là một'
+-	R
+-	'gia đình bạo lực.'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04bdc:
+-	ZH 1:
+-	'Con... Làm cha là'
+-	R
+-	'một điều cô đơn...'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04b6c:
+-	ZH 1:
+-	'Lẽ ra nên để nàng đi'
+-	R
+-	'trước khi chuyện đó xảy ra.'
++	'Cha con nhà này dữ dội thật.'
++	\L_04c91:
++	\L_04c84:
++	\L_04bdc:
++	ZH 1:
++	'Bệ hạ Rance... Làm'
++	R
++	'cha thật cô đơn...'
++	\L_04c91:
++	\L_04c84:
++	\L_04b6c:
++	ZH 1:
++	'Trước hết, ngươi phải'
++	R
++	'tập để con tự lập đã.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	!VAR0516 : 0!

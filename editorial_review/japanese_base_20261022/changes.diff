@@ -1,0 +1,4205 @@
+--- before/Iﾌﾟﾛﾛｰｸﾞ.ADV
++++ src/Iﾌﾟﾛﾛｰｸﾞ.ADV
+@@ -47,7 +47,7 @@
+ 	\L_00cd4:
+ 	\L_00c2c:
+ 	ZH 1:
+-	'... Rance...'
++	'... Chủ nhân...'
+ 	\L_00ce1:
+ 	\L_00cd4:
+ 	\L_00bbc:
+@@ -61,7 +61,7 @@
+ 	\L_00cd4:
+ 	\L_00c2c:
+ 	ZH 1:
+-	'... Rance...'
++	'... Chủ nhân...'
+ 	\L_00ce1:
+ 	\L_00cd4:
+ 	!VAR0516 : 2!
+@@ -97,7 +97,7 @@
+ 	\L_00cd4:
+ 	\L_00c2c:
+ 	ZH 1:
+-	'Á-Đau em...'
++	'Á... Đau quá...'
+ 	\L_00ce1:
+ 	\L_00cd4:
+ 	\L_00bbc:
+@@ -187,18 +187,18 @@
+ 	\L_00cd4:
+ 	\L_00bf4:
+ 	ZH 1:
+-	'Rance và Sill đang ở một'
+-	R
+-	'vùng núi non hiểm trở nằm'
+-	R
+-	'giữa Vladivostok và Golak.'
+-	\L_00ce1:
+-	ZH 1:
+-	'Sào huyệt của băng sơn tặc'
+-	R
+-	'mà Rance và Sill đang tham'
+-	R
+-	'gia nằm ngay tại nơi này.'
++	'Rance và Sill đang ở vùng'
++	R
++	'núi giữa Vladivostok và'
++	R
++	'Golak. Đây là sào huyệt'
++	\L_00ce1:
++	ZH 1:
++	'của một băng sơn tặc. Hiện'
++	R
++	'cả hai sống tại đây với thân'
++	R
++	'phận sơn tặc.'
+ 	\L_00ce1:
+ 	\L_00cd4:
+ 	\L_00c2c:
+@@ -225,23 +225,23 @@
+ 	'Đồ ngốc.'
+ 	\L_00ce1:
+ 	ZH 1:
+-	'Làm sao ta có thể làm'
+-	R
+-	'mấy việc vớ vẩn đó sau khi'
+-	R
+-	'nếm mùi thú vị của việc này?'
+-	\L_00ce1:
+-	ZH 1:
+-	'Hơn nữa,'
+-	R
+-	'ở đây ta không phải nhìn'
+-	R
+-	'cái bản mặt trọc lốc kia.'
+-	\L_00ce1:
+-	ZH 1:
+-	'Chừng đó cũng'
+-	R
+-	'đủ lý do để ở lại.'
++	'Đã quen cái nghề nhàn hạ thế'
++	R
++	'này, làm sao ta chịu quay'
++	R
++	'lại làm mấy việc chán ngắt'
++	\L_00ce1:
++	ZH 1:
++	'kia được? Với lại, ở đây ta'
++	R
++	'khỏi phải nhìn mặt lão trọc'
++	R
++	'ấy.'
++	\L_00ce1:
++	ZH 1:
++	'Chỉ thế thôi đã quá tuyệt'
++	R
++	'rồi.'
+ 	\L_00ce1:
+ 	ZH 1:
+ 	'Gahahahaha!'
+@@ -305,16 +305,16 @@
+ 	\L_00cd4:
+ 	\L_00c64:
+ 	ZH 1:
+-	'Cô gái vừa bước vào'
+-	R
+-	'giữa họ là Soul Less.'
+-	\L_00ce1:
+-	ZH 1:
+-	'Nàng là con gái'
+-	R
+-	'của tên trùm sơn tặc trước'
+-	R
+-	'đây mà Rance đã bắt sống.'
++	'Cô gái vừa chen vào giữa hai'
++	R
++	'người là Soul Less.'
++	\L_00ce1:
++	ZH 1:
++	'Nàng là con gái của thủ lĩnh'
++	R
++	'cũ của băng sơn tặc mà Rance'
++	R
++	'đã chiếm quyền.'
+ 	\L_00ce1:
+ 	\L_00cd4:
+ 	\L_00c1e:
+@@ -491,11 +491,11 @@
+ 	\L_00cd4:
+ 	\L_00c2c:
+ 	ZH 1:
+-	'Vụ cướp đoàn thương'
+-	R
+-	'nhân mấy ngày trước đã'
+-	R
+-	'xong rồi, thưa đại ca.'
++	'Đã chia xong chiến lợi phẩm'
++	R
++	'từ vụ cướp đoàn thương nhân'
++	R
++	'hôm trước, thưa đại ca.'
+ 	\L_00ce1:
+ 	\L_00cd4:
+ 	\L_00bbc:
+@@ -624,23 +624,25 @@
+ 	\L_00cd4:
+ 	\L_00c48:
+ 	ZH 1:
+-	'Không, không hẳn vậy...'
++	'... Nghĩ lại thì, anh đã dạy'
++	R
++	'em như thế thật...'
+ 	\L_00ce1:
+ 	\L_00cd4:
+ 	\L_00c64:
+ 	ZH 1:
+-	'Cách cư xử'
+-	R
+-	'đó vốn rất tự nhiên với kẻ'
+-	R
+-	'lớn lên giữa bầy sơn tặc,'
+-	\L_00ce1:
+-	ZH 1:
+-	'nhưng đôi'
+-	R
+-	'lúc Bound vẫn tự hỏi điều đó'
+-	R
+-	'tốt hay xấu cho em gái mình.'
++	'Lớn lên giữa bầy sơn tặc thì'
++	R
++	'cư xử như thế cũng là lẽ'
++	R
++	'thường. Nhưng vì'
++	\L_00ce1:
++	ZH 1:
++	'thương em gái, đôi lúc Bound'
++	R
++	'vẫn bối rối, chẳng biết như'
++	R
++	'vậy là tốt hay xấu.'
+ 	\L_00ce1:
+ 	\L_00cd4:
+ 	\L_00c1e:
+--- before/Iﾊﾝﾗﾝ.ADV
++++ src/Iﾊﾝﾗﾝ.ADV
+@@ -72,12 +72,14 @@
+ 	\L_0283f:
+ 	ZM 32:
+ 	ZH 1:
+-	'Thành phố phía Bắc Leazas'
++	'Maunes — thành phố ở'
++	R
++	'miền Bắc'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Maunes'
++	'Leazas'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_028a1:
+@@ -97,70 +99,56 @@
+ 	Y 3, 30:
+ 	\L_0283f:
+ 	ZH 1:
+-	'Ở giữa con'
+-	R
+-	'đường đó là tòa nhà giám'
+-	R
+-	'sát của Quân đội Leazas.'
+-	\L_028bc:
+-	ZH 1:
+-	'Họ đã nhận được'
+-	R
+-	'một số thông tin về'
+-	\L_028bc:
+-	ZH 1:
+-	'hoạt động đáng ngờ xảy'
+-	R
+-	'ra quanh biên giới Helman.'
+-	\L_028bc:
+-	ZH 1:
+-	'Để xác nhận thông'
+-	R
+-	'tin đó, ninja cá nhân của'
+-	R
+-	'hoàng gia, Kanami Kentou,'
+-	\L_028bc:
+-	ZH 1:
+-	'đang đi bộ'
+-	R
+-	'qua những ngọn núi.'
++	'Lưng chừng đường có một trạm'
++	R
++	'gác của quân Leazas.'
++	\L_028bc:
++	ZH 1:
++	'Trạm báo có động tĩnh'
++	\L_028bc:
++	ZH 1:
++	'khả nghi dọc biên giới'
++	R
++	'Helman.'
++	\L_028bc:
++	ZH 1:
++	'Để xác minh, Kanami Kentou,'
++	R
++	'ninja trực thuộc hoàng cung,'
++	\L_028bc:
++	ZH 1:
++	'đã lên đường vào núi.'
+ 	\L_028bc:
+ 	\L_028af:
+ 	!VAR0516 : 9!
+ 	\L_0285b:
+ 	\L_02807:
+ 	ZH 1:
+-	'... Haah... Chẳng có'
+-	R
+-	'chuyện gì thực sự xảy ra cả.'
+-	\L_028bc:
+-	ZH 1:
+-	'Vừa kết thúc'
+-	R
+-	'việc tìm kiếm một số'
+-	R
+-	'tội phạm trong nước...'
+-	\L_028bc:
+-	ZH 1:
+-	'Chà, tôi mừng vì'
+-	R
+-	'chúng ta không phải chuẩn'
+-	R
+-	'bị cho một cuộc tấn công.'
+-	\L_028bc:
+-	ZH 1:
+-	'Tôi nên nhanh chóng'
+-	R
+-	'quay lại và nói với cô Maris'
+-	R
+-	'rằng mọi chuyện đều ổn.'
++	'... Phù... Hóa ra chẳng có'
++	R
++	'gì. Họ chỉ'
++	\L_028bc:
++	ZH 1:
++	'đang truy tìm tội phạm trong'
++	R
++	'nước thôi...'
++	\L_028bc:
++	ZH 1:
++	'May mà không phải chuẩn bị'
++	R
++	'đánh sang nước mình.'
++	\L_028bc:
++	ZH 1:
++	'Phải mau về báo để cô Maris'
++	R
++	'yên tâm mới được.'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_0283f:
+ 	ZH 1:
+-	'Nhưng sau đó,'
+-	R
+-	'Kanami dừng bước...'
++	'Nhưng chợt có thứ khiến'
++	R
++	'Kanami khựng bước...'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_02807:
+@@ -182,33 +170,27 @@
+ 	\L_028af:
+ 	\L_02807:
+ 	ZH 1:
+-	'... Hắn bất'
+-	R
+-	'tỉnh rồi à? Chắc lại là'
+-	R
+-	'một người tị nạn nữa.'
+-	\L_028bc:
+-	ZH 1:
+-	'Helman nghèo'
+-	R
+-	'đến mức có rất nhiều'
+-	R
+-	'người chạy đến đây,'
+-	\L_028bc:
+-	ZH 1:
+-	'nhưng cuối cùng họ'
+-	R
+-	'lại gây rắc rối...'
+-	\L_028bc:
+-	ZH 1:
+-	'Trời ạ...'
+-	\L_028bc:
+-	ZH 1:
+-	'... Mặc dù'
+-	R
+-	'vậy, nhưng... tôi không'
+-	R
+-	'thể bỏ mặc hắn được...'
++	'... Có người gục bên đường'
++	R
++	'sao? Chắc lại là dân tị nạn.'
++	\L_028bc:
++	ZH 1:
++	'Biết Helman nghèo rồi, nhưng'
++	R
++	'người cứ chạy sang'
++	\L_028bc:
++	ZH 1:
++	'đông thế này thì cũng khó xử'
++	R
++	'lắm...'
++	\L_028bc:
++	ZH 1:
++	'Thật tình...'
++	\L_028bc:
++	ZH 1:
++	'Dù vậy, mình đâu thể bỏ mặc'
++	R
++	'người ta được...'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_0283f:
+@@ -334,7 +316,7 @@
+ 	\L_028af:
+ 	\L_02807:
+ 	ZH 1:
+-	'Hắn ta... nặng quá...'
++	'N-Nặng quá...'
+ 	\L_028bc:
+ 	\L_028af:
+ 	!VAR0516 : 11!
+@@ -442,9 +424,7 @@
+ 	\L_028af:
+ 	\L_02797:
+ 	ZH 1:
+-	'...'
+-	R
+-	'Gahahahaha!...'
++	'... Khò... khò...'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_02807:
+@@ -456,7 +436,7 @@
+ 	\L_028af:
+ 	\L_02797:
+ 	ZH 1:
+-	'... Gaaaaah... Zzzzzz.'
++	'... Khò... Khò khò...'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_02807:
+@@ -495,12 +475,12 @@
+ 	\L_028af:
+ 	\L_02797:
+ 	ZH 1:
+-	'Gahahahaha!...'
+-	\L_028bc:
+-	\L_028af:
+-	\L_02807:
+-	ZH 1:
+-	'Úc... Hừ...'
++	'Khò... khò...'
++	\L_028bc:
++	\L_028af:
++	\L_02807:
++	ZH 1:
++	'Hức... hức...'
+ 	\L_028bc:
+ 	\L_028af:
+ 	!VAR0516 : 11!
+@@ -587,7 +567,7 @@
+ 	\L_028af:
+ 	\L_02797:
+ 	ZH 1:
+-	'Này!?'
++	'Á!?'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_02807:
+@@ -609,10 +589,10 @@
+ 	\L_027eb:
+ 	\L_02797:
+ 	ZH 1:
+-	'Ngh...'
+-	\L_028bc:
+-	ZH 1:
+-	'Im đi...'
++	'Ưm...'
++	\L_028bc:
++	ZH 1:
++	'Ồn quá...'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_02807:
+@@ -640,9 +620,9 @@
+ 	\L_028af:
+ 	\L_02807:
+ 	ZH 1:
+-	'Cám ơn Chúa, Chàng'
+-	R
+-	'yêu. Cảm ơn chúa!!'
++	'May quá, chàng yêu! May quá'
++	R
++	'rồi!!'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_02797:
+@@ -660,9 +640,9 @@
+ 	\L_028af:
+ 	\L_02807:
+ 	ZH 1:
+-	'Một nụ hôn đánh'
+-	R
+-	'thức thiếp, Chàng yêu.'
++	'Thiếp hôn chào chàng tỉnh'
++	R
++	'giấc đấy, chàng yêu.'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_02797:
+@@ -709,7 +689,7 @@
+ 	\L_028af:
+ 	\L_02797:
+ 	ZH 1:
+-	'Nhai bột nhàu.'
++	'Nhồm nhoàm, nhồm nhoàm...'
+ 	\L_028bc:
+ 	\L_028af:
+ 	!VAR0516 : 5!
+@@ -732,44 +712,46 @@
+ 	\L_028af:
+ 	\L_02807:
+ 	ZH 1:
+-	'Được rồi, thiếp'
+-	R
+-	'sẽ lấy thêm cho chàng.'
+-	R
+-	'Một sự giúp đỡ rất lớn.'
+-	\L_028bc:
+-	ZH 1:
+-	'Đây rồi Chàng yêu!'
+-	\L_028bc:
+-	\L_028af:
+-	\L_02797:
+-	ZH 1:
+-	'Ừm.'
+-	\L_028bc:
+-	ZH 1:
+-	'Nhai bột nhàu...'
+-	\L_028bc:
+-	ZH 1:
+-	'Haah... Cuối cùng'
+-	R
+-	'cũng được thư giãn.'
+-	\L_028bc:
+-	\L_028af:
+-	\L_02807:
+-	ZH 1:
+-	'Thiếp xong chưa Chàng yêu?'
+-	\L_028bc:
+-	\L_028af:
+-	\L_02797:
+-	ZH 1:
+-	'Vâng.'
+-	\L_028bc:
+-	\L_028af:
+-	\L_02807:
+-	ZH 1:
+-	'Thế đấy Chàng yêu. Chuyện'
+-	R
+-	'gì đã xảy ra với chàng vậy?'
++	'Vâng, để thiếp xới thêm cho'
++	R
++	'chàng. Đầy vun, vun thật cao'
++	R
++	'nào.'
++	\L_028bc:
++	ZH 1:
++	'Của chàng đây, chàng yêu!'
++	\L_028bc:
++	\L_028af:
++	\L_02797:
++	ZH 1:
++	'Ừ.'
++	\L_028bc:
++	ZH 1:
++	'Nhồm nhoàm, nhồm'
++	\L_028bc:
++	ZH 1:
++	'nhoàm... Phù... Cuối cùng'
++	R
++	'cũng lại sức rồi.'
++	\L_028bc:
++	\L_028af:
++	\L_02807:
++	ZH 1:
++	'Chàng ăn xong rồi sao, chàng'
++	R
++	'yêu?'
++	\L_028bc:
++	\L_028af:
++	\L_02797:
++	ZH 1:
++	'Ừ, no rồi.'
++	\L_028bc:
++	\L_028af:
++	\L_02807:
++	ZH 1:
++	'Chàng yêu, rốt cuộc đã có'
++	R
++	'chuyện gì vậy?'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_02797:
+@@ -817,11 +799,9 @@
+ 	\L_028af:
+ 	\L_02807:
+ 	ZH 1:
+-	'Thiếp hiểu rồi...'
+-	R
+-	'Có vẻ như thiếp đã gặp'
+-	R
+-	'khó khăn rồi, Chàng yêu.'
++	'Ra là vậy... Chàng đã vất vả'
++	R
++	'lắm, chàng yêu.'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_02869:
+@@ -834,12 +814,10 @@
+ 	\L_0285b:
+ 	\L_02807:
+ 	ZH 1:
+-	'Rance, à...'
+-	\L_028bc:
+-	ZH 1:
+-	'Ngài Rance không ở cùng'
+-	R
+-	'với Sill phải không?'
++	'Rance, này...'
++	\L_028bc:
++	ZH 1:
++	'Sill không đi cùng ngài sao?'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_02797:
+@@ -849,9 +827,9 @@
+ 	\L_028af:
+ 	\L_02807:
+ 	ZH 1:
+-	'Tôi tưởng ngài Rance luôn ở'
+-	R
+-	'bên nàng. Nàng ấy ở đâu?'
++	'Lúc nào cô bé cũng đi cùng'
++	R
++	'ngài mà. Sill đâu rồi?'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_02869:
+@@ -886,7 +864,7 @@
+ 	\L_0285b:
+ 	\L_02807:
+ 	ZH 1:
+-	'... Sill là...'
++	'... Sill bị bắt rồi sao...'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_02869:
+@@ -926,16 +904,14 @@
+ 	\L_028af:
+ 	\L_02797:
+ 	ZH 1:
+-	'Ta sẽ tiêu'
+-	R
+-	'diệt Helman vì sự ô nhục'
+-	R
+-	'mà họ đã gây ra cho ta.'
+-	\L_028bc:
+-	ZH 1:
+-	'Ta sẽ tấn công họ,'
+-	R
+-	'bắt đầu ngay bây giờ.'
++	'Ta sẽ san bằng Helman, cho'
++	R
++	'chúng biết cái giá của việc'
++	\L_028bc:
++	ZH 1:
++	'làm nhục ta. Xuất quân ngay'
++	R
++	'bây giờ!'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_02807:
+@@ -1075,16 +1051,14 @@
+ 	\L_028af:
+ 	\L_02807:
+ 	ZH 1:
+-	'Chàng không muốn'
+-	R
+-	'trả thù Helman sao?'
+-	\L_028bc:
+-	ZH 1:
+-	'Chàng có thể'
+-	R
+-	'có được nó với sức mạnh'
+-	R
+-	'của Leazas, phải không?'
++	'Chàng chẳng muốn trả thù'
++	R
++	'Helman sao?'
++	\L_028bc:
++	ZH 1:
++	'Muốn thế thì phải nhờ sức'
++	R
++	'mạnh của Leazas chứ?'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_02797:
+@@ -1163,14 +1137,14 @@
+ 	\L_0285b:
+ 	\L_02807:
+ 	ZH 1:
+-	'Thế này có ổn'
+-	R
+-	'không, Thị nữ trưởng Maris?'
+-	\L_028bc:
+-	ZH 1:
+-	'Tôi không biết về việc Nữ'
+-	R
+-	'hoàng Lia kết hôn với hắn...'
++	'Thế này có ổn không, Thị nữ'
++	R
++	'trưởng'
++	\L_028bc:
++	ZH 1:
++	'Maris? Để Nữ hoàng Lia lấy'
++	R
++	'một kẻ như hắn...'
+ 	\L_028bc:
+ 	\L_028af:
+ 	!VAR0516 : 6!
+@@ -1340,9 +1314,9 @@
+ 	'Haurein của ta làm lễ thành hôn thế này…）'
+ 	\L_028bc:
+ 	ZH 1:
+-	'Barres（Hừm... Một lão già từng trải'
+-	R
+-	'như ta sao lại rơi lệ thế này...）'
++	'Barres（Hừm... Già rồi, nước mắt cũng dễ rơi'
++	R
++	'quá...）'
+ 	\L_028bc:
+ 	ZH 1:
+ 	'Maris（Thật tốt quá... Nữ hoàng Lia'
+@@ -1378,11 +1352,9 @@
+ 	'Rick（Ngày này cuối cùng cũng đã đến.）'
+ 	\L_028bc:
+ 	ZH 1:
+-	'Rick（Với kiếm thuật xuất chúng và sự'
+-	R
+-	'quyết đoán táo bạo ấy... Thần không phản'
+-	R
+-	'đối việc ngài trở thành Quốc vương...）'
++	'Rick（Kiếm thuật xuất chúng, lại quyết đoán táo'
++	R
++	'bạo... Làm vua thì chẳng còn gì để chê...）'
+ 	\L_028bc:
+ 	ZH 1:
+ 	'Ex（Người đàn ông được Nữ hoàng'
+@@ -1392,9 +1364,9 @@
+ 	'ngài ấy là người như thế nào...）'
+ 	\L_028bc:
+ 	ZH 1:
+-	'Ex（Thần rất mong đợi bài diễn thuyết'
+-	R
+-	'trước toàn dân của ngài vào ngày mai.）'
++	'Ex（Mong được nghe bài diễn thuyết trước dân chúng'
++	R
++	'ngày mai quá.）'
+ 	\L_028bc:
+ 	ZH 1:
+ 	'Sel（... Như vậy liệu có ổn không? Mình cứ ngỡ'
+@@ -1412,9 +1384,11 @@
+ 	'là phu quân của Nữ hoàng Lia Parapara Leazas,」'
+ 	\L_028bc:
+ 	ZH 1:
+-	'Linh mục 「Kế vị ngai vàng, và trở thành'
+-	R
+-	'Quốc vương của Vương quốc Leazas!」'
++	'Linh mục 「Ngài được truyền ngôi và, dưới sự che'
++	R
++	'chở của Đức Chúa Cha, được công nhận là Quốc vương'
++	R
++	'Leazas.」'
+ 	\L_028bc:
+ 	{VAR0520 = 300:
+ 		%0:
+@@ -1428,16 +1402,16 @@
+ 	\L_02893:
+ 	\L_027cf:
+ 	ZH 1:
+-	'Một tiếng chuông trong thị'
+-	R
+-	'trấn vang lên để chúc phúc'
+-	R
+-	'cho cuộc hôn nhân của họ.'
+-	\L_028bc:
+-	ZH 1:
+-	'Rance và Lia đang đi dọc'
+-	R
+-	'lối đi và hướng ra ngoài.'
++	'Tiếng chuông khắp thành phố'
++	R
++	'ngân vang, chúc phúc cho đôi'
++	R
++	'tân hôn. Rance'
++	\L_028bc:
++	ZH 1:
++	'và Lia bước dọc lối đi trải'
++	R
++	'thảm rồi ra ngoài.'
+ 	\L_028bc:
+ 	\L_028af:
+ 	!VAR0516 : 1!
+@@ -1446,11 +1420,11 @@
+ 	\L_0285b:
+ 	\L_027cf:
+ 	ZH 1:
+-	'Những người được'
+-	R
+-	'mời đang ở dưới tầm mắt'
+-	R
+-	'của họ, ở cuối cầu thang.'
++	'Các vị khách đang đứng dưới'
++	R
++	'chân cầu thang, ngay phía'
++	R
++	'dưới hai người.'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_027f9:
+@@ -1458,16 +1432,16 @@
+ 	\L_027eb:
+ 	\L_02797:
+ 	ZH 1:
+-	'Bây giờ, Nữ hoàng Lia. Nữ'
+-	R
+-	'hoàng Lia phải ném bó hoa.'
++	'Nào, Nữ hoàng Lia. Đến lúc'
++	R
++	'người tung bó hoa rồi.'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_027cf:
+ 	ZH 1:
+-	'Maris thì thầm với'
+-	R
+-	'Lia để hỗ trợ nàng.'
++	'Maris, người phụ giúp cô'
++	R
++	'dâu, ghé tai nhắc Lia.'
+ 	\L_028bc:
+ 	\L_028af:
+ 	!VAR0516 : 5!
+@@ -1506,21 +1480,21 @@
+ 	\L_0285b:
+ 	\L_02807:
+ 	ZH 1:
+-	'Xin chúc mừng. Em'
+-	R
+-	'là người tiếp theo, Maria.'
+-	\L_028bc:
+-	\L_028af:
+-	\L_02797:
+-	ZH 1:
+-	'Aa... Gahahahaha!..'
++	'Chúc mừng nhé. Tiếp theo là'
++	R
++	'cậu đấy, Maria.'
++	\L_028bc:
++	\L_028af:
++	\L_02797:
++	ZH 1:
++	'A ha... ha ha...'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_027b3:
+ 	ZH 1:
+-	'Cảm giác đó có vẻ'
+-	R
+-	'là một điều tồi tệ...'
++	'Thế này đúng là... họa vô'
++	R
++	'đơn chí...'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_027f9:
+@@ -2029,7 +2003,7 @@
+ 	\L_028af:
+ 	\L_02797:
+ 	ZH 1:
+-	'Chắc chắn rồi.'
++	'Ừ.'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_027cf:
+@@ -2060,9 +2034,9 @@
+ 	\L_028af:
+ 	\L_02797:
+ 	ZH 1:
+-	'Ồ. Ồ. Ta không'
+-	R
+-	'biết có bao nhiêu người.'
++	'Ồ, đông thật đấy. Không biết'
++	R
++	'có đến bao nhiêu người nhỉ?'
+ 	\L_028bc:
+ 	\L_028af:
+ 	!VAR0516 : 6!
+@@ -2140,12 +2114,12 @@
+ 	\L_028af:
+ 	\L_02797:
+ 	ZH 1:
+-	'Ừm.'
+-	\L_028bc:
+-	ZH 1:
+-	'Ta là Rance,'
+-	R
+-	'Vua mới của Leazas.'
++	'E hèm.'
++	\L_028bc:
++	ZH 1:
++	'Ta chính là Rance, tân vương'
++	R
++	'của Leazas!'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_0283f:
+@@ -2168,28 +2142,24 @@
+ 	\L_028af:
+ 	\L_027b3:
+ 	ZH 1:
+-	'Gahahahaha! Đúng thế.'
+-	R
+-	'Ta là vua của các ngươi.'
+-	R
+-	'Tất cả đều phải phục vụ ta.'
+-	\L_028bc:
+-	ZH 1:
+-	'Tất cả các ngươi'
+-	R
+-	'đều là nô lệ của ta.'
+-	\L_028bc:
+-	ZH 1:
+-	'Ta sẽ phải nói điều'
+-	R
+-	'gì đó để cho họ thấy sự'
+-	R
+-	'vĩ đại của vị Vua của họ.'
+-	\L_028bc:
+-	ZH 1:
+-	'Bằng cách đó họ sẽ'
+-	R
+-	'không đánh giá thấp ta.'
++	'Hừ hừ, phải rồi. Ta là vua'
++	R
++	'cơ mà. Đám người ở đây đều'
++	R
++	'là'
++	\L_028bc:
++	ZH 1:
++	'thuộc hạ của ta, là nô lệ'
++	R
++	'của ta.'
++	\L_028bc:
++	ZH 1:
++	'Phải ra oai cho chúng biết'
++	R
++	'uy nghiêm của nhà vua,'
++	\L_028bc:
++	ZH 1:
++	'kẻo chúng lại coi thường ta.'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_027cf:
+@@ -2248,16 +2218,16 @@
+ 	\L_028af:
+ 	\L_0283f:
+ 	ZH 1:
+-	'Người dân càng'
+-	R
+-	'trở nên im lặng hơn.'
+-	\L_028bc:
+-	ZH 1:
+-	'Mọi người im'
+-	R
+-	'lặng nhìn vị vua mới của'
+-	R
+-	'họ với ánh mắt căm ghét.'
++	'Dân chúng càng im phăng'
++	R
++	'phắc.'
++	\L_028bc:
++	ZH 1:
++	'Thậm chí có người lặng lẽ'
++	R
++	'nhìn tân vương bằng ánh mắt'
++	R
++	'căm hận.'
+ 	\L_028bc:
+ 	\L_028af:
+ 	!VAR0516 : 6!
+@@ -2294,11 +2264,11 @@
+ 	\L_02869:
+ 	\L_0283f:
+ 	ZH 1:
+-	'Tiếng cười của'
+-	R
+-	'Rance vang vọng khắp Lâu'
+-	R
+-	'đài Leazas vốn im lặng.'
++	'Khắp Thành Leazas, chỉ còn'
++	R
++	'tiếng cười của Rance vang'
++	R
++	'vọng.'
+ 	\L_028bc:
+ 	\L_028af:
+ 	\L_027cf:
+--- before/Iｶﾝｶﾞｴ.ADV
++++ src/Iｶﾝｶﾞｴ.ADV
+@@ -10,14 +10,12 @@
+ 	{VAR0399 < 10:
+ 		\L_00c59:
+ 		ZH 1:
+-		'Sill đáng lẽ phải bị'
+-		R
+-		'giam ở Helman... Cuối cùng'
+-		R
+-		'ta sẽ lấy lại được nàng...'
+-		\L_00d62:
+-		ZH 1:
+-		'Ta biết điều đó.'
++		'Phải đưa Sill đang bị giam ở'
++		R
++		'Helman về... Nhất định phải'
++		\L_00d62:
++		ZH 1:
++		'đưa em ấy về.'
+ 		\L_00d62:
+ 		\L_00d55:
+ 	}
+@@ -301,22 +299,20 @@
+ 	{VAR0355 = 4:
+ 		\L_00c59:
+ 		ZH 1:
+-		'Con của Pastel,'
+-		R
+-		'Reset... Con bé là con gái ta.'
++		'Reset, con gái của Pastel...'
++		R
++		'Cũng là con gái ta.'
+ 		R
+ 		!VAR0001 : VAR0356 - VAR0517!
+ 		{VAR0001 \ 0:
+ 			ZH 1:
+-			'Ta tự hỏi liệu'
+-			R
+-			'nàng đã trưởng thành chưa.'
++			'Không biết bao giờ con bé'
++			R
++			'mới lớn nhỉ?'
+ 		}
+ 		{VAR0001 = 0:
+ 			ZH 1:
+-			'Có lẽ ta'
+-			R
+-			'nên kiểm tra nàng.'
++			'Đến lúc ghé thăm con rồi.'
+ 		}
+ 		\L_00d62:
+ 		\L_00d55:
+@@ -576,14 +572,14 @@
+ 		{VAR0405 = 6:
+ 			\L_00c59:
+ 			ZH 1:
+-			'Trung tướng Đỏ, Menad...'
+-			R
+-			'Maris nói với ta rằng nàng'
+-			R
+-			'đang biển thủ tiền, nhưng...'
+-			\L_00d62:
+-			ZH 1:
+-			'ta cần hỏi thẳng nàng.'
++			'Menad, phó tướng Xích'
++			R
++			'Quân... Maris nói em ấy đang'
++			R
++			'biển thủ vật tư... Phải'
++			\L_00d62:
++			ZH 1:
++			'hỏi cho ra lẽ mới được.'
+ 			\L_00d62:
+ 			\L_00d55:
+ 		}
+@@ -609,14 +605,14 @@
+ 	{(VAR0435 = 3) * (VAR0451 = 0):
+ 		\L_00c59:
+ 		ZH 1:
+-		'Sel đang cảm thấy'
+-		R
+-		'chán nản vì lỗi của nàng'
+-		R
+-		'mà Chaos đã bị đánh cắp...'
+-		\L_00d62:
+-		ZH 1:
+-		'Đây là cơ hội của ta.'
++		'Sel ở thành phố Red đang'
++		R
++		'buồn bã, cho rằng tại mình'
++		R
++		'mà Chaos bị cướp mất...'
++		\L_00d62:
++		ZH 1:
++		'Cơ hội đây rồi.'
+ 		\L_00d62:
+ 		\L_00d55:
+ 	}
+--- before/Gﾊﾞﾚｽ.ADV
++++ src/Gﾊﾞﾚｽ.ADV
+@@ -73,11 +73,11 @@
+ 	\L_00ef7:
+ 	\L_00e4f:
+ 	ZH 1:
+-	'Gahahahaha!haha. Trẻ'
+-	R
+-	'con cứ hiếu động là'
+-	R
+-	'tốt. Phải không, Asuka?'
++	'Ha ha ha! Trẻ con cứ hiếu'
++	R
++	'động là tốt. Phải không,'
++	R
++	'Asuka?'
+ 	\L_00f04:
+ 	\L_00ef7:
+ 	\L_00ddf:
+@@ -213,9 +213,9 @@
+ 	\L_00e33:
+ 	\L_00ddf:
+ 	ZH 1:
+-	'Ta không trả'
+-	R
+-	'nợ hộ ngươi đâu.'
++	'Ta không cho ngươi vay tiền'
++	R
++	'đâu.'
+ 	\L_00f04:
+ 	\L_00ef7:
+ 	\L_00e4f:
+@@ -236,9 +236,9 @@
+ 	\L_00ef7:
+ 	\L_00ddf:
+ 	ZH 1:
+-	'Đưa ta cái ảnh đàn'
+-	R
+-	'ông vô dụng này làm gì?'
++	'Ảnh tên đàn ông trông chẳng'
++	R
++	'có gì nổi trội này là sao?'
+ 	\L_00f04:
+ 	\L_00ef7:
+ 	\L_00e4f:
+@@ -248,9 +248,9 @@
+ 	\L_00ef7:
+ 	\L_00ddf:
+ 	ZH 1:
+-	'Xem mặt? ... Ngươi'
+-	R
+-	'định cưới đàn ông à?'
++	'Xem mặt? ... Ngươi định tái'
++	R
++	'hôn với đàn ông à?'
+ 	\L_00f04:
+ 	\L_00ef7:
+ 	\L_00e4f:
+@@ -269,21 +269,25 @@
+ 	\L_00ef7:
+ 	\L_00e4f:
+ 	ZH 1:
+-	'Mẹ nàng mất sớm,'
+-	R
+-	'chẳng thể lo chuyện này...'
+-	\L_00f04:
+-	ZH 1:
+-	'Giờ lão thần thấy hối hận'
+-	R
+-	'vì đã cho Haurein nhập ngũ.'
+-	\L_00f04:
+-	ZH 1:
+-	'Làm cha thì phải tìm'
+-	R
+-	'cho con một người chồng tốt.'
+-	R
+-	'Người này làm ngân hàng...'
++	'Mẹ con bé mất sớm, lão thần'
++	R
++	'chẳng chăm lo được gì nhiều'
++	R
++	'cho nó...'
++	\L_00f04:
++	ZH 1:
++	'Giờ lại nghĩ, để nó theo'
++	R
++	'nghiệp võ cũng là lỗi của'
++	R
++	'lão thần. Đến lúc phải'
++	\L_00f04:
++	ZH 1:
++	'làm tròn bổn phận người cha,'
++	R
++	'tìm cho con một tấm chồng'
++	R
++	'tốt. Vị này làm ngân hàng...'
+ 	\L_00f04:
+ 	\L_00ef7:
+ 	\L_00ddf:
+@@ -384,21 +388,21 @@
+ 	{VAR0000 = 1:
+ 		\L_00ddf:
+ 		ZH 1:
+-		'Ừ, đúng thế. Bé Barres.'
+-		\L_00f04:
+-		\L_00ef7:
+-		\L_00e4f:
+-		ZH 1:
+-		'B-Bé Barres??'
+-		\L_00f04:
+-		\L_00ef7:
+-		\L_00ddf:
+-		ZH 1:
+-		'Ta cũng chẳng'
+-		R
+-		'có gì để nói với ngươi. Ra'
+-		R
+-		'đằng kia trồng cây chuối đi.'
++		'Ừ, ta gọi đấy. Cậu Barres.'
++		\L_00f04:
++		\L_00ef7:
++		\L_00e4f:
++		ZH 1:
++		'C-Cậu Barres ư??'
++		\L_00f04:
++		\L_00ef7:
++		\L_00ddf:
++		ZH 1:
++		'Ta gọi ngươi đến chỉ để...'
++		R
++		'Ra kia trồng cây chuối cho'
++		R
++		'ta xem.'
+ 		\L_00f04:
+ 		\L_00ef7:
+ 		\L_00e4f:
+@@ -548,35 +552,37 @@
+ 	{VAR0000 = 3:
+ 		\L_00e4f:
+ 		ZH 1:
+-		'Bệ hạ gọi thật'
+-		R
+-		'đúng lúc. Lão thần cũng'
+-		R
+-		'có chuyện muốn thưa...'
+-		\L_00f04:
+-		ZH 1:
+-		'Xin mạn phép, Bệ hạ'
+-		R
+-		'Rance, cách hành xử của Bệ'
++		'Thật đúng lúc. Lão thần cũng'
++		R
++		'có điều muốn thưa với Bệ'
++		R
++		'hạ...'
++		\L_00f04:
++		ZH 1:
++		'Xin nghe cho, Bệ hạ Rance.'
++		R
++		'Lời nói và việc làm của Bệ'
+ 		R
+ 		'hạ chưa xứng với một vị vua.'
+ 		\L_00f04:
+ 		ZH 1:
+-		'Với thần dân,'
+-		R
+-		'mọi hành vi của nhà'
+-		R
+-		'vua đều là khuôn mẫu.'
+-		\L_00f04:
+-		ZH 1:
+-		'Xin Bệ hạ giữ'
+-		R
+-		'phong thái quân vương hơn...'
+-		\L_00f04:
+-		ZH 1:
+-		'Và xin đừng ngủ khi lão'
+-		R
+-		'thần đang nói! Bệ hạ Rance!'
++		'Với thần dân nước này, lời'
++		R
++		'vua là mệnh lệnh tuyệt đối.'
++		R
++		'Xin Bệ hạ'
++		\L_00f04:
++		ZH 1:
++		'ghi nhớ điều ấy và hành xử'
++		R
++		'đúng tư cách quân vương...'
++		\L_00f04:
++		ZH 1:
++		'Ấy, lão thần còn đang nói,'
++		R
++		'xin Bệ hạ đừng ngủ! Bệ hạ'
++		R
++		'Rance!'
+ 		\L_00f04:
+ 		\L_00ef7:
+ 		\L_00ddf:
+@@ -681,16 +687,16 @@
+ 	\L_00ef7:
+ 	\L_00ddf:
+ 	ZH 1:
+-	'Barres, thuộc'
+-	R
+-	'hạ của mình mà ngươi'
+-	R
+-	'chẳng biết gì. Đồ ngốc.'
+-	\L_00f04:
+-	ZH 1:
+-	'Hayate Katou bán con'
+-	R
+-	'gái để trục lợi đấy.'
++	'Barres, ít ra cũng phải nắm'
++	R
++	'rõ chuyện thuộc hạ chứ. Đồ'
++	R
++	'ngốc.'
++	\L_00f04:
++	ZH 1:
++	'Hayate Katou là kẻ bán con'
++	R
++	'gái ruột để tiến thân đấy.'
+ 	\L_00f04:
+ 	\L_00ef7:
+ 	\L_00e4f:
+--- before/Iﾄｳｿﾞｸ.ADV
++++ src/Iﾄｳｿﾞｸ.ADV
+@@ -23,54 +23,50 @@
+ 	\L_028cf:
+ 	\L_027b7:
+ 	ZH 1:
+-	'Cái gì? Lúc này'
+-	R
+-	'ta đang tổ chức lực lượng'
+-	R
+-	'của bọn ta. Đừng cản đường.'
+-	\L_028dc:
+-	\L_028cf:
+-	\L_02827:
+-	ZH 1:
+-	'À, là thế này'
+-	R
+-	'ạ, thưa Chủ nhân Rance...'
+-	\L_028dc:
+-	ZH 1:
+-	'Trong cuộc chiến trước đó,'
+-	R
+-	'em đã được đặt ở tiền tuyến'
+-	R
+-	'và bị đánh bại, vì vậy...'
+-	\L_028dc:
+-	\L_028cf:
+-	\L_027b7:
+-	ZH 1:
+-	'... À...'
+-	R
+-	'Chuyện đó đã xảy ra. Bởi vì'
+-	R
+-	'em yếu đuối. Ta hiểu rồi.'
+-	\L_028dc:
+-	ZH 1:
+-	'đó là bởi vì thứ tự chúng'
+-	R
+-	'ta chọn chỉ huy của mình sẽ'
+-	R
+-	'xác định cách họ triển khai.'
+-	\L_028dc:
+-	ZH 1:
+-	'Uh~~~~...'
+-	\L_028dc:
+-	ZH 1:
+-	'Hai đơn vị đầu tiên sẽ'
+-	R
+-	'được chọn đi ở tiền tuyến,'
+-	\L_028dc:
+-	ZH 1:
+-	'sau đó hai đơn vị'
+-	R
+-	'sau thì ở hậu phương.'
++	'Gì? Ta sắp biên chế đội'
++	R
++	'hình. Đừng có cản trở.'
++	\L_028dc:
++	\L_028cf:
++	\L_02827:
++	ZH 1:
++	'Thưa Chủ nhân Rance, chính'
++	R
++	'chuyện xếp đội hình'
++	\L_028dc:
++	ZH 1:
++	'ấy ạ... Nếu lại bị đưa lên'
++	R
++	'tiền tuyến như trận trước,'
++	R
++	'em sẽ bị đánh gục mất...'
++	\L_028dc:
++	\L_028cf:
++	\L_027b7:
++	ZH 1:
++	'... À, đúng rồi. Em yếu quá'
++	R
++	'mà. Ta biết.'
++	\L_028dc:
++	ZH 1:
++	'Thứ tự chọn tướng khi biên'
++	R
++	'chế sẽ quyết định vị trí'
++	R
++	'trong trận.'
++	\L_028dc:
++	ZH 1:
++	'Ừm...'
++	\L_028dc:
++	ZH 1:
++	'Hai đội chọn đầu tiên đứng'
++	R
++	'tiền tuyến,'
++	\L_028dc:
++	ZH 1:
++	'hai đội còn lại đứng hậu'
++	R
++	'tuyến.'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	\L_02827:
+@@ -78,14 +74,14 @@
+ 	'Vâng, Chủ nhân Rance.'
+ 	\L_028dc:
+ 	ZH 1:
+-	'Nếu một pháp sư như em'
+-	R
+-	'bị tấn công trực tiếp, em'
+-	R
+-	'sẽ bị hạ gục ngay lập tức,'
+-	\L_028dc:
+-	ZH 1:
+-	'vì vậy hãy đặt em ở sau.'
++	'Pháp sư như em mà trúng đòn'
++	R
++	'trực tiếp thì sẽ bị hạ ngay.'
++	R
++	'Xin ngài'
++	\L_028dc:
++	ZH 1:
++	'xếp em ở hậu tuyến ạ.'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	\L_027b7:
+@@ -124,24 +120,20 @@
+ 		\L_0280b:
+ 		\L_027b7:
+ 		ZH 1:
+-		'Được rồi, có lẽ'
+-		R
+-		'chúng ta nên tấn công lại!'
+-		\L_028dc:
+-		ZH 1:
+-		'.........'
+-		\L_028dc:
+-		ZH 1:
+-		'... Mặc dù... Ta hơi'
+-		R
+-		'mệt. Ngoài ra, ta không'
+-		R
+-		'nên làm việc quá sức.'
+-		\L_028dc:
+-		ZH 1:
+-		'rốt cuộc chúng'
+-		R
+-		'ta nên dừng lại.'
++		'Được, lại xuất quân thôi!'
++		R
++		'...'
++		\L_028dc:
++		ZH 1:
++		'Nhưng mà...'
++		\L_028dc:
++		ZH 1:
++		'Buồn ngủ quá. Với lại làm'
++		R
++		'việc quá sức không tốt.'
++		\L_028dc:
++		ZH 1:
++		'Thôi, nghỉ vậy.'
+ 		\L_028dc:
+ 		\L_028cf:
+ 		\L_02819:
+@@ -215,71 +207,65 @@
+ 		\L_028cf:
+ 		\L_027b7:
+ 		ZH 1:
+-		'được rồi, chúng ta'
+-		R
+-		'sẽ bắt đầu làm việc ngay bây'
+-		R
+-		'giờ! Hiểu chưa, mọi người?!'
++		'Được rồi, đến giờ làm việc!'
++		R
++		'Nghe rõ chưa, lũ bay?!'
+ 		\L_028dc:
+ 		\L_028cf:
+ 		\L_0285f:
+ 		ZH 1:
++		'RÕ!!'
++		\L_028dc:
++		ZH 1:
++		'Tiếng hô ồm ồm của đám đàn'
++		R
++		'ông đồng loạt vang lên.'
++		\L_028dc:
++		\L_028cf:
++		\L_027b7:
++		ZH 1:
++		'Lần này, ta đánh vào thành'
++		R
++		'phố. Trong thành phố có'
++		R
++		'nhiều tiền hơn.'
++		\L_028dc:
++		\L_028cf:
++		\L_0285f:
++		ZH 1:
+ 		'Ồ!!'
+ 		\L_028dc:
+-		ZH 1:
+-		'Giọng nói khàn'
+-		R
+-		'khàn của nhiều người đàn'
+-		R
+-		'ông đồng loạt vang lên.'
+-		\L_028dc:
+ 		\L_028cf:
+ 		\L_027b7:
+ 		ZH 1:
+-		'Lần này, chúng'
+-		R
+-		'ta đang tấn công các thành'
+-		R
+-		'phố. Các thành phố có tiền.'
++		'Các thành phố có phụ nữ.'
+ 		\L_028dc:
+ 		\L_028cf:
+ 		\L_0285f:
+ 		ZH 1:
+-		'Ồ!!'
++		'Ồ!'
+ 		\L_028dc:
+ 		\L_028cf:
+ 		\L_027b7:
+ 		ZH 1:
+-		'Các thành phố có phụ nữ.'
++		'Tuy nhiên, các thành phố'
++		R
++		'có hơi nguy hiểm một chút.'
+ 		\L_028dc:
+ 		\L_028cf:
+ 		\L_0285f:
+ 		ZH 1:
+-		'Ồ!'
++		'　　.........'
+ 		\L_028dc:
+ 		\L_028cf:
+ 		\L_027b7:
+ 		ZH 1:
+-		'Tuy nhiên, các thành phố'
+-		R
+-		'có hơi nguy hiểm một chút.'
+-		\L_028dc:
+-		\L_028cf:
+-		\L_0285f:
+-		ZH 1:
+-		'　　.........'
+-		\L_028dc:
+-		\L_028cf:
+-		\L_027b7:
+-		ZH 1:
+-		'Nhưng mà, cứ sợ mãi'
+-		R
+-		'thì chán lắm! Hãy nhìn xem,'
+-		R
+-		'ngươi sẽ có ta với ngươi.'
+-		\L_028dc:
+-		ZH 1:
+-		'Đừng sợ hãi!!'
++		'Nhưng cứ sợ thì còn gì vui!'
++		R
++		'Có ta đây rồi.'
++		\L_028dc:
++		ZH 1:
++		'Cứ yên tâm!!'
+ 		\L_028dc:
+ 		\L_028cf:
+ 		\L_0285f:
+@@ -311,9 +297,7 @@
+ 	!VAR0529 : 1!
+ 	\L_027ef:
+ 	ZH 1:
+-	'Hãy lựa chọn đơn'
+-	R
+-	'vị nào sẽ triển khai.'
++	'Hãy chọn các đội xuất kích.'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	{VAR0665 = 0:
+@@ -480,21 +464,21 @@
+ 		\L_028cf:
+ 		\L_02827:
+ 		ZH 1:
+-		'Có một tiệm bánh gần'
+-		R
+-		'ngoại ô thành phố này có'
+-		\L_028dc:
+-		ZH 1:
+-		'một cặp vợ chồng già'
+-		R
+-		'đã giúp đỡ Soul và tôi'
+-		R
+-		'khi chúng tôi còn nhỏ.'
+-		\L_028dc:
+-		ZH 1:
+-		'Ít nhất tôi'
+-		R
+-		'muốn bỏ qua chúng...'
++		'Ở tiệm bánh ngoài rìa thành'
++		R
++		'phố có hai ông'
++		\L_028dc:
++		ZH 1:
++		'bà từng cưu mang anh em Soul'
++		R
++		'và em hồi nhỏ. Xin đại ca'
++		R
++		'tha'
++		\L_028dc:
++		ZH 1:
++		'cho riêng nhà ấy được'
++		R
++		'không...'
+ 		\L_028dc:
+ 		\L_028cf:
+ 		\L_027b7:
+@@ -511,46 +495,40 @@
+ 		\L_028cf:
+ 		\L_027b7:
+ 		ZH 1:
+-		'Chà, chú mày có'
+-		R
+-		'thể làm gì? Cứ làm việc'
+-		R
+-		'theo cách chú mày muốn.'
++		'Nhưng thôi, đành vậy. Đổi'
++		R
++		'lại, chú mày phải làm việc'
++		R
++		'cho ra trò đấy.'
+ 		\L_028dc:
+ 		\L_028cf:
+ 		\L_02827:
+ 		ZH 1:
+-		'Được rồi! Cảm'
+-		R
+-		'ơn Đại ca rất nhiều!!'
++		'Rõ! Em cảm ơn đại ca!!'
+ 		\L_028dc:
+ 		\L_028cf:
+ 		\L_02843:
+ 		ZH 1:
+-		'Tôi biết Đại ca là'
+-		R
+-		'người tốt. Tôi vui mừng vì'
+-		R
+-		'đã phản bội bố vì Đại ca.'
++		'Đại ca quả là người tốt.'
++		R
++		'Mình phản cha để theo ngài'
++		R
++		'ấy đúng là không sai.'
+ 		\L_028dc:
+ 		\L_028cf:
+ 		\L_027d3:
+ 		ZH 1:
+-		'Một cặp vợ chồng già…'
+-		\L_028dc:
+-		ZH 1:
+-		'Nếu họ không'
+-		R
+-		'có cô gái trẻ nào thì tấn'
+-		R
+-		'công họ cũng chẳng ích gì.'
+-		\L_028dc:
+-		ZH 1:
+-		'Chà, việc rời bỏ một cơ'
+-		R
+-		'sở có lẽ sẽ không thay đổi'
+-		R
+-		'nhiều thu nhập của chúng ta.'
++		'Hai lão già à...'
++		\L_028dc:
++		ZH 1:
++		'Không có gái trẻ thì cướp'
++		R
++		'cũng chẳng đáng.'
++		\L_028dc:
++		ZH 1:
++		'Tha một nhà chắc cũng chẳng'
++		R
++		'hụt bao nhiêu.'
+ 		\L_028dc:
+ 		\L_028cf:
+ 		\L_02889:
+@@ -584,9 +562,9 @@
+ 		\L_028cf:
+ 		\L_027b7:
+ 		ZH 1:
+-		'Được rồi. Cướp'
+-		R
+-		'bóc một cách mạnh mẽ!'
++		'Được. Hăng hái đi vét sạch'
++		R
++		'cho ta!'
+ 		\L_028dc:
+ 		\L_028cf:
+ 		\L_02889:
+@@ -1045,7 +1023,7 @@
+ 	\L_0287b:
+ 	\L_02827:
+ 	ZH 1:
+-	'Được rồi.'
++	'Dạ, em tới ngay!'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	\L_0285f:
+@@ -1066,11 +1044,7 @@
+ 	\L_028cf:
+ 	\L_027b7:
+ 	ZH 1:
+-	'Mhm, nhanh'
+-	R
+-	'quá. Em xứng đáng với'
+-	R
+-	'lời khen ngợi của ta.'
++	'Ừ, nhanh đấy. Ta khen em.'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	\L_02827:
+@@ -1109,7 +1083,7 @@
+ 	\L_0287b:
+ 	\L_02827:
+ 	ZH 1:
+-	'Ố ồ!!'
++	'Đại ca ơi!!'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	\L_0285f:
+@@ -1121,9 +1095,7 @@
+ 	\L_028cf:
+ 	\L_027b7:
+ 	ZH 1:
+-	'Nó là gì? Chú'
+-	R
+-	'mày đang ồn ào.'
++	'Chuyện gì? Ồn ào quá.'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	\L_02827:
+@@ -1153,16 +1125,14 @@
+ 	\L_0287b:
+ 	\L_02827:
+ 	ZH 1:
+-	'Chủ nhân Rance,'
+-	R
+-	'đã quá nhiều thời'
+-	R
+-	'gian trôi qua rồi...'
+-	\L_028dc:
+-	ZH 1:
+-	'Nếu chúng ta không sơ'
+-	R
+-	'tán sớm, lính canh sẽ...'
++	'Chủ nhân Rance, chúng ta ở'
++	R
++	'đây lâu quá rồi...'
++	\L_028dc:
++	ZH 1:
++	'Nếu không sớm rút lui, đội'
++	R
++	'cảnh vệ sẽ...'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	\L_027b7:
+@@ -1282,7 +1252,7 @@
+ 	\L_028cf:
+ 	\L_02827:
+ 	ZH 1:
+-	'K-không...'
++	'K-Không...'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	\L_02889:
+@@ -1340,16 +1310,16 @@
+ 	\L_028cf:
+ 	\L_02827:
+ 	ZH 1:
+-	'Lính canh đây, Đại ca!'
+-	R
+-	'Họ đã bao vây chúng ta!!'
+-	\L_028dc:
+-	\L_028cf:
+-	\L_027b7:
+-	ZH 1:
+-	'Chết tiệt...'
+-	R
+-	'Helman khá tự mãn!'
++	'Đội cảnh vệ đấy, đại ca!'
++	R
++	'Chúng bao vây bọn em rồi!!'
++	\L_028dc:
++	\L_028cf:
++	\L_027b7:
++	ZH 1:
++	'Khốn kiếp... Lũ Helman mà'
++	R
++	'cũng dám lên mặt!'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	\L_02819:
+@@ -1358,28 +1328,26 @@
+ 	\L_0280b:
+ 	\L_027ef:
+ 	ZH 1:
+-	'Chỉ huy Đội'
+-	R
+-	'bảo vệ tàn tích quân đội'
+-	R
+-	'Helman, Ruberan Tser,'
+-	\L_028dc:
+-	ZH 1:
+-	'đã tổ chức cuộc bao vây.'
+-	\L_028dc:
+-	\L_028cf:
+-	\L_027b7:
+-	ZH 1:
+-	'Chú ý, kẻ trộm! Chúng'
+-	R
+-	'tao đã bao vây các ngươi!'
+-	\L_028dc:
+-	ZH 1:
+-	'Các ngươi không'
+-	R
+-	'thể trốn thoát được! Đầu'
+-	R
+-	'hàng một cách hòa bình!!'
++	'Quân Helman lập vòng vây'
++	R
++	'dưới quyền Ruberan Tser, đội'
++	\L_028dc:
++	ZH 1:
++	'trưởng đội cảnh vệ di tích.'
++	\L_028dc:
++	\L_028cf:
++	\L_027b7:
++	ZH 1:
++	'Bọn sơn tặc nghe đây! Quân'
++	R
++	'ta đã bao vây hoàn toàn.'
++	\L_028dc:
++	ZH 1:
++	'Các ngươi không thoát được'
++	R
++	'đâu! Hãy ngoan ngoãn đầu'
++	R
++	'hàng!!'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	\L_02819:
+@@ -1398,21 +1366,17 @@
+ 	\L_0287b:
+ 	\L_02827:
+ 	ZH 1:
+-	'Nhưng thưa Đại ca...'
+-	R
+-	'Chúng ta hoàn toàn'
+-	R
+-	'áp đảo về quân số!'
+-	\L_028dc:
+-	ZH 1:
+-	'Không chỉ vậy,'
+-	R
+-	'họ còn là những người'
+-	R
+-	'lính được huấn luyện!'
+-	\L_028dc:
+-	ZH 1:
+-	'Cơ hội của chúng ta là...'
++	'Nhưng đại ca... Quân địch'
++	R
++	'đông hơn ta'
++	\L_028dc:
++	ZH 1:
++	'áp đảo! Lại còn là quân'
++	R
++	'chính quy nữa!'
++	\L_028dc:
++	ZH 1:
++	'Làm sao thắng nổi...'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	\L_027b7:
+@@ -1429,14 +1393,12 @@
+ 	\L_0287b:
+ 	\L_02827:
+ 	ZH 1:
+-	'Đại ca đang lo lắng về điều'
+-	R
+-	'gì? Đại ca sẽ không bao giờ'
+-	R
+-	'biết cho đến khi Đại ca thử.'
+-	\L_028dc:
+-	ZH 1:
+-	'Ngốc nghếch.'
++	'Anh sợ cái gì chứ? Chưa thử'
++	R
++	'sao biết được!'
++	\L_028dc:
++	ZH 1:
++	'Đồ ngốc!'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	\L_02889:
+@@ -1577,7 +1539,7 @@
+ 	'Rance "Ch!!」'
+ 	\L_028dc:
+ 	ZH 1:
+-	'Rance đá xuống đất.'
++	'Rance đạp mạnh chân, lao đi.'
+ 	\L_028dc:
+ 	ZH 1:
+ 	'Rance（Dù sao thì tất cả những gì'
+@@ -1665,7 +1627,7 @@
+ 	\L_028cf:
+ 	\L_02827:
+ 	ZH 1:
+-	'Tôi xin lỗi sâu sắc!'
++	'Thuộc hạ xin chịu tội!'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	\L_027b7:
+@@ -1691,11 +1653,9 @@
+ 	\L_0287b:
+ 	\L_02827:
+ 	ZH 1:
+-	'Cảm ơn chúa...'
+-	R
+-	'Có vẻ như Chủ nhân Rance'
+-	R
+-	'đã trốn thoát an toàn...'
++	'May quá... Hình như Chủ nhân'
++	R
++	'Rance đã thoát được rồi...'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	!VAR0516 : 4!
+@@ -1711,9 +1671,9 @@
+ 	\L_028cf:
+ 	\L_02827:
+ 	ZH 1:
+-	'Ừ... Cảm ơn'
+-	R
+-	'chúa... Thật sự...'
++	'Vâng... May quá... Thật sự'
++	R
++	'may quá...'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	\L_02889:
+@@ -1728,14 +1688,14 @@
+ 	\L_028cf:
+ 	\L_027b7:
+ 	ZH 1:
+-	'Có chuyện gì vậy?!'
+-	\L_028dc:
+-	ZH 1:
+-	'Đừng đổ lỗi cho chúng em'
+-	R
+-	'chỉ vì các ngươi đã để Đại ca'
+-	R
+-	'của chúng em chạy thoát!!'
++	'Nói vài câu thì đã'
++	\L_028dc:
++	ZH 1:
++	'sao?! Để thủ lĩnh bọn ta'
++	R
++	'trốn mất rồi quay sang trút'
++	R
++	'giận lên bọn ta à?!'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	\L_02827:
+@@ -1776,12 +1736,12 @@
+ 	\L_028cf:
+ 	\L_027b7:
+ 	ZH 1:
+-	'À...'
+-	\L_028dc:
+-	ZH 1:
+-	'Xin hãy sắp xếp chỗ ở'
+-	R
+-	'cho họ tại Nhà tù Volgo Z.'
++	'Ừm...'
++	\L_028dc:
++	ZH 1:
++	'Giải chúng vào nhà tù Volgo'
++	R
++	'Z.'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	\L_02827:
+@@ -1842,7 +1802,7 @@
+ 	\L_027ef:
+ 	ZM 32:
+ 	ZH 1:
+-	'Nhật ký B'
++	'Thành phố Log B'
+ 	\L_028dc:
+ 	ZM 24:
+ 	\L_028cf:
+@@ -1889,9 +1849,7 @@
+ 	'Rance rút kiếm ra.'
+ 	\L_028dc:
+ 	ZH 1:
+-	'Rance "Hyaaaaaaaaah!!!'
+-	R
+-	'Rance Attaaaaaaaaaack!!」'
++	'Rance 「Hyaaaa! Rance Đột Kích!!」'
+ 	\L_028dc:
+ 	ZH 1:
+ 	'Người lính 「Gyaaaah!!!」'
+@@ -1911,9 +1869,9 @@
+ 	'Rance 「Chết tiệt!!'
+ 	\L_028dc:
+ 	ZH 1:
+-	'Liên tục đuổi thêm nhiều người ra ngoài'
+-	R
+-	'là tất cả những gì họ biết làm sao?!」'
++	'Lũ chúng mày chỉ biết lấy thịt đè người thôi'
++	R
++	'sao?!」'
+ 	\L_028dc:
+ 	ZH 1:
+ 	'Rance lại bỏ chạy.'
+@@ -1922,9 +1880,9 @@
+ 	'Hắn đói. Nhưng hắn không có một xu dính túi.'
+ 	\L_028dc:
+ 	ZH 1:
+-	'Thanh kiếm và áo giáp của hắn đều vỡ'
+-	R
+-	'vụn. Nhưng hắn không có một xu dính túi.'
++	'Kiếm với giáp đều tả tơi. Mà hắn thì vẫn chẳng có'
++	R
++	'lấy một đồng.'
+ 	\L_028dc:
+ 	ZH 1:
+ 	'Rance（Ta sẽ giết chúng…) Rance（Ta sẽ'
+@@ -1937,7 +1895,7 @@
+ 	'với ta hả?!!!) Rance tiếp tục chạy.'
+ 	\L_028dc:
+ 	ZH 1:
+-	'Rance 「Chết tiệt iiiiiiiiiit!!!!!」'
++	'Rance 「Khốn kiếếếp!!!!!」'
+ 	{VAR0520 = 300:
+ 		\L_028dc:
+ 		%0:
+@@ -2132,11 +2090,11 @@
+ 	\L_028cf:
+ 	\L_027b7:
+ 	ZH 1:
+-	'Sau đó, chúng ta sẽ'
+-	R
+-	'chuyển đến căn cứ ở Zeth!!'
+-	R
+-	'Và mọi người sẽ đến cùng!!'
++	'Từ nay, chuyển đại bản doanh'
++	R
++	'sang Zeth! Tất cả lên đường.'
++	R
++	'Đi ngay!!'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	\L_02889:
+@@ -2162,9 +2120,9 @@
+ 	\L_0287b:
+ 	\L_02827:
+ 	ZH 1:
+-	'Zeth à...? Nóng lòng muốn'
+-	R
+-	'xem tôi ở đó như thế nào.'
++	'Zeth à... Ngứa tay lắm rồi'
++	R
++	'đây.'
+ 	\L_028dc:
+ 	\L_028cf:
+ 	\L_02889:
+@@ -2254,7 +2212,7 @@
+ 	PF0 VAR0056:
+ 	\L_027ef:
+ 	ZH 1:
+-	'Sau đó, vài năm sau...'
++	'Rồi vài năm sau...'
+ 	\L_028dc:
+ 	ZH 1:
+ 	'Họ đã trở thành băng'
+--- before/Gﾘｯｸ.ADV
++++ src/Gﾘｯｸ.ADV
+@@ -54,18 +54,18 @@
+ 	\L_0192e:
+ 	\L_01816:
+ 	ZH 1:
+-	'Vâng. Ta đã làm, ta đã'
+-	R
+-	'làm. Có điều ta muốn hỏi.'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01886:
+-	ZH 1:
+-	'Được rồi... Nó có liên'
+-	R
+-	'quan đến tình trạng quân'
+-	R
+-	'đội của thần không? Hoặc...'
++	'Ừ, ta gọi đấy. Có chuyện'
++	R
++	'muốn hỏi ngươi.'
++	\L_0193b:
++	\L_0192e:
++	\L_01886:
++	ZH 1:
++	'Vâng... Bệ hạ muốn hỏi'
++	R
++	'chuyện nội bộ quân ta sao?'
++	R
++	'Hay là...'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_01816:
+@@ -115,11 +115,11 @@
+ 	\L_0192e:
+ 	\L_01886:
+ 	ZH 1:
+-	'Hả...??hử...?? Ah...'
+-	R
+-	'Đ-Điều đó chắc chắn... không'
+-	R
+-	'trang trọng chút nào...'
++	'H-Hả...?? À... Đ-Đúng là...'
++	R
++	'không phải chuyện nghiêm túc'
++	R
++	'thật...'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_01816:
+@@ -133,16 +133,16 @@
+ 	\L_0192e:
+ 	\L_01886:
+ 	ZH 1:
+-	'W-Tốt... Đôi khi chúng'
+-	R
+-	'ta có những lý lẽ nhỏ...'
+-	\L_0193b:
+-	ZH 1:
+-	'Nhưng mối quan'
+-	R
+-	'hệ của chúng thần tốt'
+-	R
+-	'đẹp hơn... Thần nghĩ...'
++	'D-Dạ... Thỉnh thoảng chúng'
++	R
++	'thần cũng cãi nhau đôi'
++	\L_0193b:
++	ZH 1:
++	'chút... Nhưng thần nghĩ...'
++	R
++	'cả hai vẫn khá hòa thuận...'
++	R
++	'Vâng...'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_0184e:
+@@ -280,11 +280,9 @@
+ 	\L_0192e:
+ 	\L_01886:
+ 	ZH 1:
+-	'Chà... Ồ, thần chỉ'
+-	R
+-	'nhớ thần có một cái gì đó'
+-	R
+-	'thần cần phải đi chăm sóc.'
++	'Ai biết được... À, tôi chợt'
++	R
++	'nhớ còn có việc phải làm.'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_018e8:
+@@ -297,18 +295,16 @@
+ 	\L_018da:
+ 	\L_018a2:
+ 	ZH 1:
+-	'Đó là Sự thật, Nhà'
+-	R
+-	'Vua là một ví dụ xấu...'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_0184e:
+-	ZH 1:
+-	'Rick nghĩ về'
+-	R
+-	'một số điều. Má hồng của'
+-	R
+-	'chàng sẽ không biến mất.'
++	'Đúng là Bệ hạ... có hơi...'
++	\L_0193b:
++	\L_0192e:
++	\L_0184e:
++	ZH 1:
++	'Bao ý nghĩ cứ quẩn quanh,'
++	R
++	'khiến Rick mãi vẫn chưa hết'
++	R
++	'đỏ mặt.'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	!VAR0516 : 0!
+@@ -338,11 +334,11 @@
+ 	\L_0192e:
+ 	\L_01886:
+ 	ZH 1:
+-	'Bệ hạ đã triệu'
+-	R
+-	'tập thần...? giọng Nói của'
+-	R
+-	'Rick hơi thiếu trong lái xe.'
++	'Bệ hạ cho gọi thần...? Dường'
++	R
++	'như giọng Rick thiếu hẳn vẻ'
++	R
++	'hăng hái thường ngày.'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_01816:
+@@ -356,7 +352,9 @@
+ 	\L_0192e:
+ 	\L_0184e:
+ 	ZH 1:
+-	'Rance đưa vé Cho Rick.'
++	'Rance đưa cho Rick một tấm'
++	R
++	'vé.'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_01886:
+@@ -383,7 +381,9 @@
+ 	\L_0192e:
+ 	\L_0184e:
+ 	ZH 1:
+-	'Rance vỗ Vai rick.'
++	'Rance vỗ bồm bộp lên vai'
++	R
++	'Rick đang cầm tấm vé.'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_01886:
+@@ -412,72 +412,66 @@
+ 	\L_0192e:
+ 	\L_01886:
+ 	ZH 1:
+-	'............'
+-	\L_0193b:
+-	ZH 1:
+-	'Thưa Bệ'
+-	R
+-	'hạ, thần rất vui vì được'
+-	R
+-	'ngài quan tâm. Nhưng...'
+-	\L_0193b:
+-	ZH 1:
+-	'rick nhẹ nhàng'
+-	R
+-	'trả lại vé Cho Rance.'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01886:
+-	ZH 1:
+-	'Thần chỉ có'
+-	R
+-	'thể nhận lời chia buồn'
+-	R
+-	'của Bệ hạ... Xin lỗi...'
+-	\L_0193b:
+-	ZH 1:
+-	'để không thô lỗ, Rick'
+-	R
+-	'chăm sóc cúi đầu Sâu Sắc'
+-	R
+-	'Để Rance, sau đó bỏ đi.'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01816:
+-	ZH 1:
+-	'............'
+-	\L_0193b:
+-	ZH 1:
+-	'Ah... Ừm... Nếu điều'
+-	R
+-	'đó đủ khiến hắn cảm thấy dễ'
+-	R
+-	'chịu hơn thì không sao cả...'
+-	\L_0193b:
+-	ZH 1:
+-	'... Nhưng...'
+-	R
+-	'Trời... Haah... Leila...'
+-	\L_0193b:
+-	ZH 1:
+-	'Khi nàng'
+-	R
+-	'trở thành Của Rick, ta đã có'
+-	R
+-	'thể chịu đựng được, nhưng...'
+-	\L_0193b:
+-	ZH 1:
+-	'Nếu nàng chết thì'
+-	R
+-	'có ý nghĩa gì...?'
+-	\L_0193b:
+-	ZH 1:
+-	'... Chết tiệt... Ta'
+-	R
+-	'cũng đang chán nản đây...'
+-	\L_0193b:
+-	ZH 1:
+-	'Haa... Leila...'
++	'...'
++	\L_0193b:
++	ZH 1:
++	'Bệ hạ, thần cảm kích tấm'
++	R
++	'lòng của ngài. Nhưng...'
++	\L_0193b:
++	ZH 1:
++	'Rick nhẹ nhàng trả lại tấm'
++	R
++	'vé cho Rance.'
++	\L_0193b:
++	\L_0192e:
++	\L_01886:
++	ZH 1:
++	'Thần xin nhận tấm lòng của'
++	R
++	'Bệ hạ thôi... Xin phép'
++	\L_0193b:
++	ZH 1:
++	'ngài... Rick cẩn thận cúi'
++	R
++	'chào Rance cho phải lễ rồi'
++	R
++	'lui ra.'
++	\L_0193b:
++	\L_0192e:
++	\L_01816:
++	ZH 1:
++	'... Ừ...'
++	\L_0193b:
++	ZH 1:
++	'Cũng phải... Nếu chỉ thế mà'
++	R
++	'làm hắn vui lên được thì đã'
++	R
++	'chẳng khó...'
++	\L_0193b:
++	ZH 1:
++	'Nhưng mà... Hầy... Leila...'
++	\L_0193b:
++	ZH 1:
++	'Nàng thuộc về Rick thì ta'
++	R
++	'còn cố nhịn được... Chứ nàng'
++	R
++	'chết rồi,'
++	\L_0193b:
++	ZH 1:
++	'còn nhịn với chẳng nhịn gì'
++	R
++	'nữa...'
++	\L_0193b:
++	ZH 1:
++	'Chết thật... Đến ta cũng'
++	R
++	'buồn theo rồi...'
++	\L_0193b:
++	ZH 1:
++	'Hầy... Leila...'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_0184e:
+@@ -553,7 +547,9 @@
+ 	\L_0192e:
+ 	\L_01816:
+ 	ZH 1:
+-	'Thế nào? Ngượng lắm hả?'
++	'Ủa? Ngươi không thấy ngượng'
++	R
++	'à?'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_01886:
+@@ -585,15 +581,23 @@
+ 	\L_018da:
+ 	\L_01886:
+ 	ZH 1:
+-	'Từ nhỏ thần đã không giỏi đối phó với quái vật.'
+-	\L_0193b:
+-	ZH 1:
+-	'Nhưng khi đội chiếc mũ mang kinh'
+-	R
+-	'nghiệm của các đời tướng Xích Quân này,'
+-	\L_0193b:
+-	ZH 1:
+-	'thần lại có dũng khí phi thường.'
++	'Từ nhỏ thần đã sợ quái vật'
++	R
++	'và những thứ trông như ma'
++	R
++	'quỷ. Nhưng'
++	\L_0193b:
++	ZH 1:
++	'khi đội chiếc mũ gửi gắm tâm'
++	R
++	'ý các đời Xích tướng, thần'
++	R
++	'lại thấy dũng khí dâng lên'
++	\L_0193b:
++	ZH 1:
++	'đến chính mình cũng không'
++	R
++	'tin nổi.'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_01816:
+@@ -607,11 +611,11 @@
+ 	\L_0192e:
+ 	\L_01886:
+ 	ZH 1:
+-	'Thần tự thấy mình'
+-	R
+-	'còn nhiều điểm yếu. Phải tìm'
+-	R
+-	'cách khắc phục mới được...'
++	'Thần thấy đó đã là điểm yếu'
++	R
++	'lớn rồi. Phải tìm cách chữa'
++	R
++	'mới được...'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_01816:
+@@ -713,9 +717,9 @@
+ 	\L_0192e:
+ 	\L_01816:
+ 	ZH 1:
+-	'Không! Đấu với ngươi'
+-	R
+-	'mệt hơn cả cái lợi thu được.'
++	'Không! Đấu với ngươi mệt quá'
++	R
++	'mức cần thiết.'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_01886:
+@@ -747,16 +751,16 @@
+ 	\L_018da:
+ 	\L_01886:
+ 	ZH 1:
+-	'Bệ hạ Rance, sao ngài'
+-	R
+-	'không rộng lượng một chút,'
+-	R
+-	'đấu với Bệ hạ vài hiệp?'
+-	\L_0193b:
+-	ZH 1:
+-	'Làm vậy cũng giúp tăng'
+-	R
+-	'cường sức mạnh quân ta...'
++	'Bệ hạ Rance, sao ngài phải'
++	R
++	'lạnh nhạt như thế? Đấu tập'
++	R
++	'cùng tướng quân vài hiệp có'
++	\L_0193b:
++	ZH 1:
++	'phải hơn không? Làm vậy cũng'
++	R
++	'giúp quân ta mạnh lên...'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_01816:
+@@ -789,21 +793,21 @@
+ 	\L_0192e:
+ 	\L_01816:
+ 	ZH 1:
+-	'Cứ như hắn'
+-	R
+-	'quên hết mọi lo nghĩ, rồi'
+-	R
+-	'đột nhiên cười toe toét.'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01886:
+-	ZH 1:
+-	'............'
+-	\L_0193b:
+-	ZH 1:
+-	'Nghe như chuyện'
+-	R
+-	'trong phim trừ tà vậy...'
++	'Hắn ra đòn dồn dập khác'
++	R
++	'thường, rồi bất chợt còn'
++	R
++	'nhoẻn miệng cười nữa.'
++	\L_0193b:
++	\L_0192e:
++	\L_01886:
++	ZH 1:
++	'... Nghe cứ như'
++	\L_0193b:
++	ZH 1:
++	'cảnh phim kinh dị hiện ra'
++	R
++	'ngay trước mắt vậy...'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_01816:
+@@ -874,241 +878,249 @@
+ 	\L_0192e:
+ 	\L_01832:
+ 	ZH 1:
++	'Quan tổng quản Maris...'
++	\L_0193b:
++	\L_0192e:
++	\L_0184e:
++	ZH 1:
++	'Rick dừng'
++	R
++	'bước, người cứng đờ.'
++	\L_0193b:
++	\L_0192e:
++	\L_01832:
++	ZH 1:
++	'... Ở đây'
++	R
++	'chỉ có hai người... Chắc'
++	R
++	'chẳng còn dịp nào tốt hơn...'
++	\L_0193b:
++	ZH 1:
++	'Có nên nói ngay không?'
++	\L_0193b:
++	\L_0192e:
++	\L_01886:
++	ZH 1:
++	'Tướng quân Rick.'
++	\L_0193b:
++	\L_0192e:
++	\L_01816:
++	ZH 1:
++	'V-Vâng! Quan tổng quản'
++	R
++	'Maris!'
++	\L_0193b:
++	\L_0192e:
++	\L_01886:
++	ZH 1:
++	'Xin đừng gọi tôi trịnh trọng'
++	R
++	'thế.'
++	\L_0193b:
++	ZH 1:
++	'Tôi chỉ là thị nữ của Nữ'
++	R
++	'hoàng Lia thôi.'
++	\L_0193b:
++	\L_0192e:
++	\L_01816:
++	ZH 1:
++	'Không... Đối với tôi, cô'
++	R
++	'là...'
++	\L_0193b:
++	\L_0192e:
++	\L_01886:
++	ZH 1:
++	'... Ngài vẫn cứng nhắc như'
++	R
++	'mọi khi.'
++	\L_0193b:
++	ZH 1:
++	'Cứ thế này,'
++	\L_0193b:
++	ZH 1:
++	'có lẽ cả đời ngài cũng chẳng'
++	R
++	'nhận ra cô gái vẫn lặng lẽ'
++	R
++	'dành tình cảm cho mình đâu.'
++	\L_0193b:
++	\L_0192e:
++	\L_01816:
++	ZH 1:
++	'Hả...? Nhưng tôi...'
++	\L_0193b:
++	ZH 1:
++	'Tôi đã có người mình yêu'
++	R
++	'rồi...'
++	\L_0193b:
++	\L_0192e:
++	\L_01886:
++	ZH 1:
++	'Ồ... Vậy sao...?'
++	\L_0193b:
++	\L_0192e:
++	\L_01816:
++	ZH 1:
++	'V-Vâng...'
++	\L_0193b:
++	ZH 1:
++	'Là...'
++	\L_0193b:
++	ZH 1:
++	'Là người đang đứng ngay'
++	R
++	'trước mặt tôi...!'
++	\L_0193b:
++	\L_0192e:
++	\L_01886:
++	ZH 1:
++	'............'
++	\L_0193b:
++	\L_0192e:
++	\L_01832:
++	ZH 1:
++	'M-Mình nói ra rồi...'
++	\L_0193b:
++	\L_0192e:
++	\L_01816:
++	ZH 1:
++	'Cô Maris! Tôi đã luôn dành'
++	R
++	'tình cảm cho cô...!'
++	\L_0193b:
++	\L_0192e:
++	\L_01886:
++	ZH 1:
++	'Vâng... Tôi đã nhận ra,'
++	R
++	'nhưng vẫn im lặng.'
++	\L_0193b:
++	\L_0192e:
++	\L_01816:
++	ZH 1:
++	'Hả...?'
++	\L_0193b:
++	\L_0192e:
++	\L_01886:
++	ZH 1:
++	'Vì tôi không thể đáp lại'
++	R
++	'tình cảm của ngài.'
++	\L_0193b:
++	\L_0192e:
++	\L_01816:
++	ZH 1:
++	'............'
++	\L_0193b:
++	\L_0192e:
++	\L_01886:
++	ZH 1:
++	'Tướng quân Rick... Cảm ơn'
++	R
++	'tình cảm của ngài... Nhưng'
++	R
++	'tôi chỉ cần'
++	\L_0193b:
++	ZH 1:
++	'có Nữ hoàng Lia. Chỉ mình'
++	R
++	'người thôi. Dù người có yêu'
++	R
++	'Bệ hạ Rance...'
++	\L_0193b:
++	\L_0192e:
++	\L_01816:
++	ZH 1:
++	'............'
++	\L_0193b:
++	\L_0192e:
++	\L_01886:
++	ZH 1:
++	'Tướng quân Rick... Xin đừng'
++	R
++	'quên lời tôi vừa nói. Như'
++	R
++	'ngài đang'
++	\L_0193b:
++	ZH 1:
++	'khổ vì thương nhớ tôi, cũng'
++	R
++	'có một cô gái đang khổ vì'
++	R
++	'thương nhớ ngài... Xin hãy'
++	\L_0193b:
++	ZH 1:
++	'nhận ra tình cảm của cô'
++	R
++	'ấy...'
++	\L_0193b:
++	\L_0192e:
++	\L_01816:
++	ZH 1:
++	'Đó là...'
++	\L_0193b:
++	\L_0192e:
++	\L_01886:
++	ZH 1:
++	'Tôi không thể nói là ai. Như'
++	R
++	'thế sẽ thiếu tôn trọng tình'
++	R
++	'cảm của cô ấy...'
++	\L_0193b:
++	ZH 1:
++	'Chuyện này phải để chính hai'
++	R
++	'người tự giải quyết.'
++	\L_0193b:
++	\L_0192e:
++	\L_01816:
++	ZH 1:
+ 	'Cô Maris...'
+ 	\L_0193b:
+ 	\L_0192e:
+-	\L_0184e:
+-	ZH 1:
+-	'Rick dừng'
+-	R
+-	'bước, người cứng đờ.'
++	\L_01886:
++	ZH 1:
++	'Vậy tôi xin phép...'
++	\L_0193b:
++	\L_0192e:
++	\L_018e8:
++	\L_0184e:
++	ZH 1:
++	'Rick đứng sững, còn Maris'
++	R
++	'bước đi như chưa có chuyện gì.'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_01832:
+ 	ZH 1:
+-	'... Ở đây'
+-	R
+-	'chỉ có hai người... Chắc'
+-	R
+-	'chẳng còn dịp nào tốt hơn...'
+-	\L_0193b:
+-	ZH 1:
+-	'Có nên nói ngay không?'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01886:
+-	ZH 1:
+-	'Tướng quân Rick.'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01816:
+-	ZH 1:
+-	'V-Vâng?! Cô Maris!'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01886:
+-	ZH 1:
+-	'Xin đừng gọi thần'
+-	R
+-	'trịnh trọng như thế.'
+-	\L_0193b:
+-	ZH 1:
+-	'Thần chỉ là thị nữ'
+-	R
+-	'của Nữ hoàng Lia thôi.'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01816:
+-	ZH 1:
+-	'Không... Đối'
+-	R
+-	'với thần, cô là...'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01886:
+-	ZH 1:
+-	'... Anh lúc'
+-	R
+-	'nào cũng cố chấp.'
+-	\L_0193b:
+-	ZH 1:
+-	'Cứ như thế,'
+-	\L_0193b:
+-	ZH 1:
+-	'có khi cả đời anh cũng'
+-	R
+-	'không nhận ra có một cô gái'
+-	R
+-	'thích mình mà chẳng dám nói.'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01816:
+-	ZH 1:
+-	'Hả...? Nhưng thần...'
+-	\L_0193b:
+-	ZH 1:
+-	'T-Thần có người'
+-	R
+-	'mình yêu rồi...'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01886:
+-	ZH 1:
+-	'Ồ... Vậy sao...?'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01816:
+-	ZH 1:
+-	'V-Vâng...'
+-	\L_0193b:
+-	ZH 1:
+-	'Là...'
+-	\L_0193b:
+-	ZH 1:
+-	'Người đang đứng'
+-	R
+-	'ngay trước mặt thần...!'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01886:
+-	ZH 1:
+-	'............'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01832:
+-	ZH 1:
+-	'M-Mình nói ra rồi...'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01816:
+-	ZH 1:
+-	'Cô Maris! Thần đã'
+-	R
+-	'luôn thương nhớ cô...!'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01886:
+-	ZH 1:
+-	'Vâng... Thần biết,'
+-	R
+-	'nhưng vẫn giữ im lặng.'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01816:
+-	ZH 1:
+-	'Hả...?'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01886:
+-	ZH 1:
+-	'Vì thần không thể đáp'
+-	R
+-	'lại tình cảm của anh.'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01816:
+-	ZH 1:
+-	'............'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01886:
+-	ZH 1:
+-	'Tướng quân Rick... Thần'
+-	R
+-	'rất vui khi biết tình cảm'
+-	R
+-	'của anh. Cảm ơn anh nhiều...'
+-	\L_0193b:
+-	ZH 1:
+-	'Nhưng chỉ cần có Nữ hoàng'
+-	R
+-	'Lia là thần mãn nguyện rồi.'
+-	R
+-	'Dù người yêu Ngài Rance...'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01816:
+-	ZH 1:
+-	'............'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01886:
+-	ZH 1:
+-	'Tướng quân Rick... Xin'
+-	R
+-	'đừng quên điều thần vừa nói.'
+-	\L_0193b:
+-	ZH 1:
+-	'Cũng như anh'
+-	R
+-	'thương nhớ thần, có một cô'
+-	R
+-	'gái luôn thương nhớ anh...'
+-	\L_0193b:
+-	ZH 1:
+-	'Xin hãy để ý đến nàng...'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01816:
+-	ZH 1:
+-	'Đó là...'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01886:
+-	ZH 1:
+-	'Thần không thể nói là ai.'
+-	R
+-	'Như vậy sẽ phụ lòng nàng...'
+-	\L_0193b:
+-	ZH 1:
+-	'Chuyện này nên để'
+-	R
+-	'hai người tự giải quyết.'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01816:
+-	ZH 1:
+-	'Cô Maris...'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01886:
+-	ZH 1:
+-	'Thần xin phép...'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_018e8:
+-	\L_0184e:
+-	ZH 1:
+-	'Rick đứng sững, còn Maris'
+-	R
+-	'bước đi như chưa có chuyện gì.'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01832:
+-	ZH 1:
+-	'............'
+-	\L_0193b:
+-	ZH 1:
+-	'Hầy... Mình'
+-	R
+-	'biết trước rồi, nhưng...'
+-	R
+-	'Dù sao cũng đáng thử...'
++	'... Hầy...'
++	\L_0193b:
++	ZH 1:
++	'Biết trước rồi, nhưng...'
++	R
++	'Không ngờ lại bị từ chối'
++	R
++	'thẳng thừng đến thế...'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_018be:
+ 	ZH 1:
+-	'“Cũng như anh'
+-	R
+-	'thương nhớ tôi,'
+-	\L_0193b:
+-	ZH 1:
+-	'có một cô gái luôn'
+-	R
+-	'thương nhớ anh...” Lời của'
+-	\L_0193b:
+-	ZH 1:
+-	'Maris chợt vang lên'
++	'“Như ngài đang khổ vì thương'
++	R
++	'nhớ'
++	\L_0193b:
++	ZH 1:
++	'tôi, cũng có một cô gái đang'
++	R
++	'khổ vì thương nhớ ngài...”'
++	\L_0193b:
++	ZH 1:
++	'Lời Maris chợt vang lên'
+ 	R
+ 	'trong tâm trí Rick.'
+ 	\L_0193b:
+@@ -1172,18 +1184,18 @@
+ 	\L_0192e:
+ 	\L_01816:
+ 	ZH 1:
+-	'Nhưng... Ngài'
+-	R
+-	'làm việc rất chăm chỉ... Và'
+-	R
+-	'ngài cũng khá dễ thương...'
+-	\L_0193b:
+-	ZH 1:
+-	'À... Xin lỗi.'
+-	R
+-	'Có lẽ ngài không muốn nghe'
+-	R
+-	'điều đó ở tuổi của ngài...'
++	'Vì... ngài nghiêm túc quá'
++	R
++	'mà... Trông đáng yêu lắm...'
++	R
++	'A, xin lỗi ngài.'
++	\L_0193b:
++	ZH 1:
++	'Tôi lại nói thế với một'
++	R
++	'người đàn ông lớn tuổi hơn'
++	R
++	'mình...'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_01886:
+@@ -1193,9 +1205,7 @@
+ 	\L_0192e:
+ 	\L_01816:
+ 	ZH 1:
+-	'À, thưa Chủ nhân.'
+-	R
+-	'Ngài có khỏe không?'
++	'A, Bệ hạ. Kính chào ngài.'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_01886:
+@@ -1208,7 +1218,7 @@
+ 	\L_0186a:
+ 	\L_01816:
+ 	ZH 1:
+-	'Ừm. Khá tốt, cảm ơn.'
++	'Ừ, chào cô.'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_01878:
+@@ -1216,11 +1226,11 @@
+ 	\L_0186a:
+ 	\L_01816:
+ 	ZH 1:
+-	'À, ngài có'
+-	R
+-	'việc gì với Ngài Rick'
+-	R
+-	'không? Xin lỗi nhé.'
++	'A, ngài có việc với tướng'
++	R
++	'quân Rick phải không? Vậy'
++	R
++	'tôi xin phép lui.'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_01878:
+@@ -1275,9 +1285,9 @@
+ 	\L_0192e:
+ 	\L_01816:
+ 	ZH 1:
+-	'Gahahahaha! ôi chỉ đang'
+-	R
+-	'đùa giỡn với ngươi thôi.'
++	'Gahahahaha! Ta chỉ trêu'
++	R
++	'ngươi thôi.'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_01886:
+@@ -1300,16 +1310,16 @@
+ 	'Gahahahaha!'
+ 	\L_0193b:
+ 	ZH 1:
+-	'Aah~, vui thật'
+-	R
+-	'đấy. Thấy ngươi.'
+-	\L_0193b:
+-	\L_0192e:
+-	\L_01886:
+-	ZH 1:
+-	'Hả? Bệ hạ không cần'
+-	R
+-	'bất cứ điều gì với thần?'
++	'A, vui thật đấy. Thôi, ta đi'
++	R
++	'đây.'
++	\L_0193b:
++	\L_0192e:
++	\L_01886:
++	ZH 1:
++	'Ơ? Bệ hạ không có việc cần'
++	R
++	'gặp thần sao?'
+ 	\L_0193b:
+ 	\L_0192e:
+ 	\L_01816:
+--- before/Gｴｸｽ.ADV
++++ src/Gｴｸｽ.ADV
+@@ -492,14 +492,18 @@
+ 	\L_0396b:
+ 	\L_03917:
+ 	ZH 1:
+-	'Nhưng chàng ơi, nhờ Ex can thiệp'
+-	R
+-	'mà lâu đài mới bình yên đấy.'
+-	\L_039cc:
+-	ZH 1:
+-	'Cho Ex về phe mình nhé. Chàng sẽ không'
+-	R
+-	'phản bội nữa đâu. Đúng không, Ex?'
++	'Nhưng chàng ơi, nhờ Ex đến'
++	R
++	'cứu mà thành vẫn an toàn.'
++	R
++	'Cho Ex'
++	\L_039cc:
++	ZH 1:
++	'trở lại với chúng ta đi. Anh'
++	R
++	'ấy sẽ không phản bội nữa'
++	R
++	'đâu. Phải không, Ex?'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_03979:
+@@ -639,26 +643,32 @@
+ 	'Vâng...'
+ 	\L_039cc:
+ 	ZH 1:
+-	'Nhưng quan trọng hơn, quân sư Ex,'
+-	R
+-	'xin ngài trở lại quân đội Leazas.'
+-	\L_039cc:
+-	ZH 1:
+-	'Lúc này đất nước cần ít nhất một'
+-	R
+-	'người biết lo toan việc nước.'
+-	\L_039cc:
+-	ZH 1:
+-	'Nhà vua như vậy thì những người'
+-	R
+-	'bên cạnh càng phải có trách nhiệm.'
++	'Nhưng trước hết, Quân sư Ex,'
++	R
++	'xin ngài trở lại quân đội'
++	R
++	'Leazas.'
++	\L_039cc:
++	ZH 1:
++	'Lúc này, đất nước cần càng'
++	R
++	'nhiều người hết lòng vì nước'
++	R
++	'càng tốt.'
++	\L_039cc:
++	ZH 1:
++	'Nhà vua như thế thì những'
++	R
++	'người bên cạnh càng phải'
++	R
++	'vững vàng...'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_038c3:
+ 	ZH 1:
+-	'... Nói thế'
+-	R
+-	'là có ý gì hả??'
++	'... Nhà vua như thế... Là'
++	R
++	'nói ta à??'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_03917:
+@@ -675,7 +685,7 @@
+ 	\L_0396b:
+ 	\L_03917:
+ 	ZH 1:
+-	'Haurein... Nhưng thần...'
++	'Haurein... Nhưng tôi...'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_03979:
+@@ -746,16 +756,22 @@
+ 	\L_0396b:
+ 	\L_03933:
+ 	ZH 1:
+-	'... Tướng quân... Ngài gầy đi rồi...'
+-	\L_039cc:
+-	ZH 1:
+-	'Nhưng từ giờ chúng ta lại được cùng chiến đấu.'
+-	\L_039cc:
+-	ZH 1:
+-	'Ở bên ngài, mình sẽ giúp ngài phấn chấn hơn...'
+-	\L_039cc:
+-	ZH 1:
+-	'Mình phải cố gắng...'
++	'... Quân sư... Ngài gầy đi'
++	R
++	'rồi...'
++	\L_039cc:
++	ZH 1:
++	'Nhưng từ nay lại được cùng'
++	R
++	'chiến đấu. Mình ở bên hỗ'
++	\L_039cc:
++	ZH 1:
++	'trợ thì chắc cũng giúp ngài'
++	R
++	'bớt lo toan phần nào...'
++	\L_039cc:
++	ZH 1:
++	'Phải cố gắng mới được...'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_03909:
+@@ -776,7 +792,7 @@
+ 	\L_038fb:
+ 	\L_038a7:
+ 	ZH 1:
+-	'Ví dụ...'
++	'Ex...'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_03917:
+@@ -786,7 +802,7 @@
+ 	\L_039bf:
+ 	\L_038a7:
+ 	ZH 1:
+-	'Tại sao Bệ hạ lại bỏ chạy?'
++	'Sao cậu lại bỏ đi?'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_03917:
+@@ -796,21 +812,15 @@
+ 	\L_039bf:
+ 	\L_038a7:
+ 	ZH 1:
+-	'Nhà Vua là một'
+-	R
+-	'người đàn ông hào phóng.'
+-	\L_039cc:
+-	ZH 1:
+-	'Và Nữ Hoàng'
+-	R
+-	'Lia cũng tha thứ cho sự'
+-	R
+-	'phản bội của Bệ hạ...'
+-	\L_039cc:
+-	ZH 1:
+-	'Có vẻ như'
+-	R
+-	'Bệ hạ đang ngoan cố ép'
++	'Bệ hạ là người rộng lượng.'
++	\L_039cc:
++	ZH 1:
++	'Nữ hoàng Lia cũng đã nói sẽ'
++	R
++	'tha thứ cho cậu...'
++	\L_039cc:
++	ZH 1:
++	'Vậy mà cậu cứ khăng khăng ép'
+ 	R
+ 	'mình rời khỏi đất nước...'
+ 	\L_039cc:
+@@ -822,19 +832,21 @@
+ 	\L_039bf:
+ 	\L_038a7:
+ 	ZH 1:
+-	'Ý thần là nếu Bệ'
+-	R
+-	'hạ ở lại cũng không sao.'
+-	\L_039cc:
+-	ZH 1:
+-	'Ngoài ra... với'
+-	R
+-	'bốn đội quân, chúng ta thực'
+-	R
+-	'sự có thể bảo vệ Leazas...'
+-	\L_039cc:
+-	ZH 1:
+-	'Hãy quay lại... làm ơn...'
++	'Bệ hạ đã cho phép cậu ở lại'
++	R
++	'rồi.'
++	\L_039cc:
++	ZH 1:
++	'Hơn nữa... Phải đủ bốn đạo'
++	R
++	'quân thì mới thật sự bảo vệ'
++	R
++	'được Leazas...'
++	\L_039cc:
++	ZH 1:
++	'Hãy trở về đi. Tôi xin'
++	R
++	'cậu...'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_03917:
+@@ -844,9 +856,7 @@
+ 	\L_039bf:
+ 	\L_038a7:
+ 	ZH 1:
+-	'Vua!! Thần cũng sẽ'
+-	R
+-	'cầu xin Bệ hạ! Làm ơn...'
++	'Bệ hạ! Thần cũng xin ngài!'
+ 	R
+ 	'Xin hãy tha thứ cho Ex!'
+ 	\L_039cc:
+@@ -856,12 +866,14 @@
+ 	\L_0396b:
+ 	\L_03917:
+ 	ZH 1:
+-	'vì Vậy, thiếp Sẽ Đến, Thiếp Yêu!!'
+-	\L_039cc:
+-	\L_039bf:
+-	\L_038a7:
+-	ZH 1:
+-	'Vua...!'
++	'Thiếp cũng xin chàng đấy.'
++	R
++	'Chàng yêu, đồng ý đi mà!'
++	\L_039cc:
++	\L_039bf:
++	\L_038a7:
++	ZH 1:
++	'Bệ hạ...!'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_03909:
+@@ -869,7 +881,7 @@
+ 	\L_038fb:
+ 	\L_038a7:
+ 	ZH 1:
+-	'Ví dụ.'
++	'Ex.'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_03979:
+@@ -905,50 +917,42 @@
+ 	\L_039bf:
+ 	\L_03917:
+ 	ZH 1:
+-	'Vua...'
+-	\L_039cc:
+-	\L_039bf:
+-	\L_038a7:
+-	ZH 1:
+-	'Đổi lại, đừng'
+-	R
+-	'phản bội chúng ta nữa.'
+-	\L_039cc:
+-	ZH 1:
+-	'Hãy chuẩn bị sẵn sàng để'
+-	R
+-	'bảo vệ ta khỏi một mũi tên'
+-	\L_039cc:
+-	ZH 1:
+-	'bằng cơ thể trần'
+-	R
+-	'truồng của ngươi nếu'
+-	R
+-	'ngươi phải làm vậy.'
+-	\L_039cc:
+-	ZH 1:
+-	'Hãy Vứt bỏ cuộc'
+-	R
+-	'sống của ngươi cho ta.'
+-	\L_039cc:
+-	ZH 1:
+-	'Nếu ngươi có thể làm điều'
+-	R
+-	'đó, ngươi có thể quay lại.'
+-	\L_039cc:
+-	\L_039bf:
+-	\L_03917:
+-	ZH 1:
+-	'Cảm ơn Bệ hạ...'
+-	R
+-	'Thần rất vui... ...'
+-	\L_039cc:
+-	ZH 1:
+-	'Thần, Ex, sẽ'
+-	R
+-	'cam kết cuộc sống của thần'
+-	R
+-	'Với Nhà Vua và Nữ Hoàng.'
++	'Bệ hạ...'
++	\L_039cc:
++	\L_039bf:
++	\L_038a7:
++	ZH 1:
++	'Đổi lại, đừng bao giờ'
++	\L_039cc:
++	ZH 1:
++	'phản bội ta nữa. Hãy sẵn'
++	R
++	'sàng lấy'
++	\L_039cc:
++	ZH 1:
++	'thân che tên cho ta, dù'
++	R
++	'không có giáp!'
++	\L_039cc:
++	ZH 1:
++	'Hãy liều mạng vì ta.'
++	\L_039cc:
++	ZH 1:
++	'Làm được thì ngươi có thể'
++	R
++	'trở về.'
++	\L_039cc:
++	\L_039bf:
++	\L_03917:
++	ZH 1:
++	'Đội ơn Bệ hạ... Thật vinh'
++	R
++	'hạnh...'
++	\L_039cc:
++	ZH 1:
++	'Ex này xin thề tận trung với'
++	R
++	'Bệ hạ và Nữ hoàng...'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_03979:
+@@ -956,7 +960,7 @@
+ 	\L_0396b:
+ 	\L_03917:
+ 	ZH 1:
+-	'Vua...'
++	'Bệ hạ...'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_038a7:
+@@ -988,7 +992,7 @@
+ 	\L_0396b:
+ 	\L_03917:
+ 	ZH 1:
+-	'Cảm ơn lòng tốt, Ex.'
++	'May quá, Ex.'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_03979:
+@@ -1222,7 +1226,7 @@
+ 	\L_039bf:
+ 	\L_038a7:
+ 	ZH 1:
+-	'Ví dụ...'
++	'Ex...'
+ 	\L_039cc:
+ 	ZH 1:
+ 	'... Tên phản bội ấy à?'
+@@ -1272,42 +1276,44 @@
+ 	\L_038df:
+ 	ZM 32:
+ 	ZH 1:
+-	'Cây sồi'
++	'Thành'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Bộ chỉ huy quân nổi'
+-	R
+-	'loạn Leazas Tòa công sở'
+-	\L_039cc:
+-	ZH 1:
+-	'lớn nhất Oaks hiện là'
+-	R
+-	'bộ chỉ huy quân nổi loạn.'
+-	\L_039cc:
+-	ZH 1:
+-	'Trong phòng họp lớn nhất tòa'
+-	R
+-	'nhà, mười người nam nữ mặc'
+-	R
+-	'giáp đang ngồi tranh luận.'
+-	\L_039cc:
+-	ZH 1:
+-	'Ngồi ở vị trí trung'
+-	R
+-	'tâm là Ex, tướng Bạch Quân'
+-	R
+-	'nổi tiếng về tài thao lược.'
++	'phố Oaks. Bộ chỉ huy quân'
++	R
++	'nổi loạn Leazas.'
++	\L_039cc:
++	ZH 1:
++	'Tòa công sở lớn nhất thành'
++	R
++	'phố nay là tổng hành dinh'
++	R
++	'quân'
++	\L_039cc:
++	ZH 1:
++	'nổi loạn. Trong phòng họp'
++	R
++	'lớn nhất, hơn mười người nam'
++	R
++	'nữ mặc giáp đang tranh luận.'
++	\L_039cc:
++	ZH 1:
++	'Ngồi giữa là Ex, tướng Bạch'
++	R
++	'Quân được mệnh danh là trí'
++	R
++	'tướng số một Leazas.'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	!VAR0516 : 405!
+ 	\L_038fb:
+ 	\L_038a7:
+ 	ZH 1:
+-	'... Thần đã sai.'
+-	R
+-	'Kế hoạch có sơ hở.'
++	'... Thất bại rồi. Chính kế'
++	R
++	'hoạch của tôi đã sai.'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	!VAR0516 : 407!
+@@ -1352,18 +1358,16 @@
+ 	\L_039bf:
+ 	\L_038a7:
+ 	ZH 1:
+-	'... Binh lực của'
+-	R
+-	'quân nổi loạn chưa'
+-	R
+-	'bằng nửa dự tính...'
+-	\L_039cc:
+-	ZH 1:
+-	'Thần đã mời'
+-	R
+-	'cả Rick và tướng quân'
+-	R
+-	'Cordoba tham gia, nhưng...'
++	'... Quân nổi loạn chưa được'
++	R
++	'nửa binh lực dự tính...'
++	\L_039cc:
++	ZH 1:
++	'Tôi đã mời cả tướng quân'
++	R
++	'Cordoba và Rick tham gia,'
++	R
++	'nhưng...'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_03917:
+@@ -1392,9 +1396,9 @@
+ 	\L_039bf:
+ 	\L_038a7:
+ 	ZH 1:
+-	'... Có lẽ là vì'
+-	R
+-	'chưa nhìn rõ tương lai...'
++	'... Biết đâu người chưa nhìn'
++	R
++	'rõ tương lai lại là...'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_03917:
+@@ -1431,11 +1435,11 @@
+ 	\L_039bf:
+ 	\L_038a7:
+ 	ZH 1:
+-	'... Có lẽ vậy. Dù'
+-	R
+-	'sao đã đứng lên rồi, chúng'
+-	R
+-	'ta chỉ còn cách chiến đấu.'
++	'... Đúng vậy. Dù sao, đã nổi'
++	R
++	'dậy rồi thì chúng ta phải'
++	R
++	'thắng.'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_03917:
+@@ -1475,14 +1479,14 @@
+ 	\L_038df:
+ 	ZM 32:
+ 	ZH 1:
+-	'Cây sồi'
++	'Thành phố'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Bộ chỉ huy'
+-	R
+-	'quân nổi loạn Leazas'
++	'Oaks. Bộ chỉ huy quân nổi'
++	R
++	'loạn Leazas.'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	!VAR0516 : 405!
+@@ -1491,22 +1495,22 @@
+ 	\L_0396b:
+ 	\L_03917:
+ 	ZH 1:
+-	'Cuối cùng cũng đến lúc'
+-	R
+-	'tiến công rồi, quân sư Ex.'
+-	\L_039cc:
+-	ZH 1:
+-	'Em không muốn giao'
+-	R
+-	'chiến với đồng đội, nhưng...'
+-	\L_039cc:
+-	ZH 1:
+-	'đây cũng là'
+-	R
+-	'vì tương lai Leazas...'
+-	\L_039cc:
+-	ZH 1:
+-	'............'
++	'Cuối cùng cũng đến lúc tiến'
++	R
++	'công rồi, Quân sư Ex.'
++	\L_039cc:
++	ZH 1:
++	'Giao chiến với đồng đội thật'
++	R
++	'chẳng dễ chịu,'
++	\L_039cc:
++	ZH 1:
++	'nhưng... cũng là vì'
++	R
++	'Leazas...'
++	\L_039cc:
++	ZH 1:
++	'...'
+ 	\L_039cc:
+ 	ZH 1:
+ 	'Quân sư Ex?'
+@@ -1514,9 +1518,9 @@
+ 	\L_039bf:
+ 	\L_038a7:
+ 	ZH 1:
+-	'Hửm? Thần không sao...'
+-	R
+-	'Vẫn đang nghe đây, Haurein.'
++	'Hửm? Không sao... Tôi vẫn'
++	R
++	'nghe đây, Haurein.'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_03917:
+@@ -1540,31 +1544,31 @@
+ 	\L_039bf:
+ 	\L_03917:
+ 	ZH 1:
+-	'Tất nhiên. Em không mang'
++	'Tất nhiên. Tôi không mang'
+ 	R
+ 	'tình riêng ra chiến trường.'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_038a7:
+ 	ZH 1:
+-	'Thần hiểu rồi... Haurein.'
+-	\L_039cc:
+-	\L_039bf:
+-	\L_03917:
+-	ZH 1:
+-	'Không... Có lẽ em'
+-	R
+-	'vẫn có chút tình riêng...'
+-	\L_039cc:
+-	ZH 1:
+-	'Vua Rance đang'
+-	R
+-	'che mờ mắt cha em.'
+-	\L_039cc:
+-	ZH 1:
+-	'Nên em tin đây là'
+-	R
+-	'cơ hội giúp cha tỉnh ngộ.'
++	'Tôi hiểu rồi... Haurein.'
++	\L_039cc:
++	\L_039bf:
++	\L_03917:
++	ZH 1:
++	'Không... Có lẽ vẫn có chút'
++	R
++	'tình riêng...'
++	\L_039cc:
++	ZH 1:
++	'Cha tôi cứ mù quáng trước'
++	R
++	'Rance.'
++	\L_039cc:
++	ZH 1:
++	'Đây là cơ hội giúp ông sáng'
++	R
++	'mắt ra.'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_038a7:
+@@ -1574,9 +1578,9 @@
+ 	\L_039bf:
+ 	\L_03917:
+ 	ZH 1:
+-	'Em không nghĩ đó là'
+-	R
+-	'lời khen dành cho quân nhân.'
++	'Tôi không nghĩ đó là lời'
++	R
++	'khen dành cho một quân nhân.'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_038a7:
+@@ -1588,9 +1592,9 @@
+ 	\L_039bf:
+ 	\L_03917:
+ 	ZH 1:
+-	'Không sao... Vậy'
+-	R
+-	'em ra tiền tuyến đây.'
++	'Vâng... Vậy tôi ra tiền'
++	R
++	'tuyến đây.'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_038a7:
+@@ -1607,7 +1611,9 @@
+ 	\L_039bf:
+ 	\L_03917:
+ 	ZH 1:
+-	'Cảm ơn ngài. Em xin phép.'
++	'Cảm ơn ngài. Vậy tôi xin'
++	R
++	'phép.'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_03979:
+@@ -1779,28 +1785,26 @@
+ 	\L_038fb:
+ 	\L_038c3:
+ 	ZH 1:
+-	'Cuối cùng'
+-	R
+-	'họ đã tiến đến đây...?'
+-	R
+-	'Nhanh hơn mình tưởng.'
+-	\L_039cc:
+-	ZH 1:
+-	'À, nhưng không thể cứ'
+-	R
+-	'ngồi đây khen họ được.'
+-	\L_039cc:
+-	ZH 1:
+-	'Trận quyết định'
+-	R
+-	'sẽ diễn ra tại đây.'
+-	\L_039cc:
+-	ZH 1:
+-	'Lực lượng'
+-	R
+-	'tinh nhuệ nhất của quân nổi'
+-	R
+-	'loạn sẽ chặn ngươi, Rance...'
++	'Họ đã đến tận đây rồi sao...'
++	R
++	'Nhanh hơn tôi tưởng.'
++	\L_039cc:
++	ZH 1:
++	'Nhưng không thể cứ ngồi khâm'
++	R
++	'phục mãi.'
++	\L_039cc:
++	ZH 1:
++	'Trận quyết chiến sẽ ở thành'
++	R
++	'phố này.'
++	\L_039cc:
++	ZH 1:
++	'Tôi sẽ dốc tối đa binh lực'
++	R
++	'quân nổi loạn để nghênh'
++	R
++	'chiến, Rance...'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	!VAR0156 : 3!
+@@ -1809,7 +1813,7 @@
+ 		\L_0396b:
+ 		\L_03917:
+ 		ZH 1:
+-		'Cậu có đây không, Ex?'
++		'Ex. Hóa ra cậu ở đây.'
+ 		\L_039cc:
+ 		\L_039bf:
+ 		\L_0394f:
+@@ -1829,11 +1833,11 @@
+ 		\L_039bf:
+ 		\L_03917:
+ 		ZH 1:
+-		'Nhưng chưa có nghĩa là ta'
+-		R
+-		'đã thua. Chúng ta chiến đấu'
+-		R
+-		'vì Leazas. Cậu hiểu chứ, Ex?'
++		'Nhưng chúng ta không được'
++		R
++		'thua. Cũng là vì Leazas. Cậu'
++		R
++		'hiểu chứ, Ex?'
+ 		\L_039cc:
+ 		\L_039bf:
+ 		\L_038a7:
+@@ -1912,9 +1916,9 @@
+ 		\L_039bf:
+ 		\L_03917:
+ 		ZH 1:
+-		'Em không có tin'
+-		R
+-		'tốt để báo cáo.'
++		'Tôi có tin không hay cần báo'
++		R
++		'cáo.'
+ 		\L_039cc:
+ 		\L_039bf:
+ 		\L_038a7:
+@@ -1926,19 +1930,19 @@
+ 		\L_039bf:
+ 		\L_03917:
+ 		ZH 1:
+-		'Rõ.'
+-		\L_039cc:
+-		ZH 1:
+-		'Gần đây, binh sĩ'
+-		R
+-		'đào ngũ ngày càng nhiều.'
+-		\L_039cc:
+-		ZH 1:
+-		'Chúng em đã'
+-		R
+-		'siết kỷ luật và giám sát,'
+-		R
+-		'nhưng không mấy hiệu quả.'
++		'Vâng.'
++		\L_039cc:
++		ZH 1:
++		'Gần đây, số lính đào ngũ bắt'
++		R
++		'đầu tăng. Chúng tôi'
++		\L_039cc:
++		ZH 1:
++		'đã siết kỷ luật và tăng giám'
++		R
++		'sát, nhưng hiệu quả chẳng'
++		R
++		'được bao nhiêu.'
+ 		\L_039cc:
+ 		\L_039bf:
+ 		\L_038a7:
+@@ -1959,60 +1963,58 @@
+ 		\L_039bf:
+ 		\L_038a7:
+ 		ZH 1:
+-		'Vì cô là phó tướng nên'
+-		R
+-		'thần mới nói. Nói với ngài'
+-		R
+-		'Pegasus thì chắc ăn đấm rồi.'
+-		\L_039cc:
+-		ZH 1:
+-		'Thần chỉ có trí óc thôi.'
+-		\L_039cc:
+-		ZH 1:
+-		'Nếu phải đọ'
+-		R
+-		'sức mạnh thuần túy thì'
+-		R
+-		'chẳng làm được mấy...'
+-		\L_039cc:
+-		ZH 1:
+-		'Đào ngũ sao...?'
++		'Vì cô là phó tướng của tôi'
++		R
++		'nên tôi mới nói thế. Nói với'
++		R
++		'ngài Pegasus thì chắc'
++		\L_039cc:
++		ZH 1:
++		'đã ăn đấm rồi. Tôi chỉ'
++		\L_039cc:
++		ZH 1:
++		'được cái đầu óc, chứ đánh'
++		R
++		'giáp lá cà thì chẳng ra'
++		R
++		'gì...'
++		\L_039cc:
++		ZH 1:
++		'Lính đào ngũ à...'
+ 		\L_039cc:
+ 		\L_039bf:
+ 		\L_03917:
+ 		ZH 1:
+-		'Em rất xin lỗi. Giá'
+-		R
+-		'mà em làm được gì đó...'
++		'Tôi thật có lỗi. Tôi sẽ cố'
++		R
++		'không để thêm ai...'
+ 		\L_039cc:
+ 		\L_039bf:
+ 		\L_038a7:
+ 		ZH 1:
+-		'Cô không cần xin lỗi.'
+-		\L_039cc:
+-		ZH 1:
+-		'Chúng ta đang chống'
+-		R
+-		'lại chính quê hương.'
+-		\L_039cc:
+-		ZH 1:
+-		'Tình thế'
+-		R
+-		'nguy ngập, họ bỏ chạy'
+-		R
+-		'cũng không thể trách.'
+-		\L_039cc:
+-		ZH 1:
+-		'Họ còn gia'
+-		R
+-		'đình. Cứ để họ đi.'
+-		\L_039cc:
+-		ZH 1:
+-		'À, hãy nhân'
+-		R
+-		'danh thần bãi bỏ những'
+-		R
+-		'quy định siết chặt ấy.'
++		'Cô đâu cần xin lỗi.'
++		\L_039cc:
++		ZH 1:
++		'Ta đang chống lại chính quê'
++		R
++		'hương.'
++		\L_039cc:
++		ZH 1:
++		'Tình thế vừa bất lợi đã bỏ'
++		R
++		'đi, cũng khó trách họ.'
++		\L_039cc:
++		ZH 1:
++		'Họ còn gia đình. Cứ để họ'
++		R
++		'đi.'
++		\L_039cc:
++		ZH 1:
++		'À, nhân danh tôi bãi bỏ'
++		R
++		'những quy định vừa siết chặt'
++		R
++		'ấy.'
+ 		\L_039cc:
+ 		\L_039bf:
+ 		\L_03917:
+@@ -2024,22 +2026,24 @@
+ 	}
+ 	\L_038c3:
+ 	ZH 1:
+-	'............'
+-	\L_039cc:
+-	ZH 1:
+-	'... Có lẽ chúng ta đã thua cuộc chiến này rồi.'
++	'...'
++	\L_039cc:
++	ZH 1:
++	'Có lẽ chúng ta đã thua trận'
++	R
++	'này rồi...'
+ 	\L_039cc:
+ 	ZH 1:
+ 	'Hừm...'
+ 	\L_039cc:
+ 	ZH 1:
+-	'Xem ra mình đã đánh giá sai hắn...'
+-	\L_039cc:
+-	ZH 1:
+-	'............'
+-	\L_039cc:
+-	ZH 1:
+-	'Vũ Rance sao...?'
++	'Xem ra mình chẳng biết nhìn'
++	\L_039cc:
++	ZH 1:
++	'người... ...'
++	\L_039cc:
++	ZH 1:
++	'Vua Rance sao...'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	SS VAR0515:
+@@ -2055,24 +2059,24 @@
+ 	\L_038df:
+ 	ZM 32:
+ 	ZH 1:
+-	'Cây sồi'
++	'Thành phố Oaks.'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+ 	'Bộ chỉ huy quân nổi loạn'
+ 	R
+-	'Leazas So với lúc mới nổi'
+-	R
+-	'loạn, tòa nhà giờ vắng tanh.'
+-	\L_039cc:
+-	ZH 1:
+-	'Chỉ còn Ex một mình.'
+-	\L_039cc:
+-	ZH 1:
+-	'Anh ngồi trên'
+-	R
+-	'ghế, mắt nhắm nghiền.'
++	'Leazas. So với lúc khởi'
++	R
++	'binh, nơi đây giờ vắng tanh.'
++	\L_039cc:
++	ZH 1:
++	'Chỉ có Ex ngồi một'
++	\L_039cc:
++	ZH 1:
++	'mình trên ghế, lặng lẽ nhắm'
++	R
++	'mắt.'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_038c3:
+@@ -2225,11 +2229,11 @@
+ 	\L_039bf:
+ 	\L_038a7:
+ 	ZH 1:
+-	'Đánh chặn.'
+-	R
+-	'Các đơn vị vào vị trí đã'
+-	R
+-	'định. Chuẩn bị tiến công.'
++	'Nghênh chiến. Các đơn vị vào'
++	R
++	'vị trí đã định. Chuẩn bị đón'
++	R
++	'đợt tấn công.'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_03917:
+@@ -2279,14 +2283,16 @@
+ 	\L_0396b:
+ 	\L_03917:
+ 	ZH 1:
+-	'Quân sư Ex được gọi là “Văn'
+-	R
+-	'tướng”. Ngài rất am hiểu binh pháp.'
+-	\L_039cc:
+-	ZH 1:
+-	'Vì vậy cậu chiến đấu bằng mưu'
+-	R
+-	'lược, không phải sức mạnh.'
++	'Quân sư Ex am hiểu binh pháp'
++	R
++	'đến mức được gọi là “Văn'
++	R
++	'tướng”.'
++	\L_039cc:
++	ZH 1:
++	'Ngài ấy là vị tướng dùng'
++	R
++	'trí, không phải dùng sức.'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_038a7:
+@@ -2438,21 +2444,21 @@
+ 	\L_0396b:
+ 	\L_0394f:
+ 	ZH 1:
+-	'Theo lệnh Rance,'
+-	R
+-	'người ta chuẩn bị lễ mổ bụng'
+-	R
+-	'của Ex trong vườn lâu đài.'
+-	\L_039cc:
+-	ZH 1:
+-	'Một tấm chiếu'
+-	R
+-	'tatami được trải ra.'
+-	\L_039cc:
+-	ZH 1:
+-	'Ex ngồi trên đó, trước'
+-	R
+-	'mặt là một con dao găm.'
++	'Theo lệnh Rance, người ta'
++	R
++	'chuẩn bị việc mổ bụng trong'
++	R
++	'vườn thành.'
++	\L_039cc:
++	ZH 1:
++	'Một tấm vải rộng bằng chiếu'
++	R
++	'tatami được'
++	\L_039cc:
++	ZH 1:
++	'trải ra. Ex ngồi lên đó,'
++	R
++	'trước mặt là dao ngắn.'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_038a7:
+@@ -2506,18 +2512,18 @@
+ 	\L_039bf:
+ 	\L_038a7:
+ 	ZH 1:
+-	'Ồ, chờ đã, Ex. Ta phải'
+-	R
+-	'đọc thơ tiễn ngươi chết chứ.'
+-	\L_039cc:
+-	\L_039bf:
+-	\L_03917:
+-	ZH 1:
+-	'Thần không thích'
+-	R
+-	'thơ... Với người sắp chết,'
+-	R
+-	'cũng chẳng biết có ích gì...'
++	'À, phải rồi, Ex. Ngươi chưa'
++	R
++	'đọc bài thơ tuyệt mệnh đấy.'
++	\L_039cc:
++	\L_039bf:
++	\L_03917:
++	ZH 1:
++	'Thần không giỏi thơ... Cũng'
++	R
++	'chẳng biết sắp chết rồi thì'
++	R
++	'nên để lại điều gì...'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_038a7:
+@@ -2561,16 +2567,14 @@
+ 	!VAR0390 : 100!
+ 	\L_038a7:
+ 	ZH 1:
+-	'Ex. Hình'
+-	R
+-	'phạt cho tội chống lại'
+-	R
+-	'nhà vua của ngươi là...'
+-	\L_039cc:
+-	ZH 1:
+-	'Diễu phố rồi'
+-	R
+-	'xử tử công khai!!'
++	'Ex. Dám chống lại nhà vua'
++	R
++	'này thì ngươi sẽ bị... diễu'
++	R
++	'phố'
++	\L_039cc:
++	ZH 1:
++	'rồi đóng lên giá hành hình!!'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	!VAR0516 : 0!
+@@ -2811,9 +2815,9 @@
+ 		\L_039bf:
+ 		\L_038a7:
+ 		ZH 1:
+-		'Tưởng ngươi khá'
+-		R
+-		'hơn rồi chứ, đồ ngốc.'
++		'Ta còn tưởng ngươi càng ngày'
++		R
++		'càng lẩm cẩm rồi đấy.'
+ 		\L_039cc:
+ 		\L_039bf:
+ 	}
+@@ -2974,7 +2978,7 @@
+ 	\L_039bf:
+ 	\L_038a7:
+ 	ZH 1:
+-	'Tại sao?'
++	'Ngươi nói cái gì?'
+ 	\L_039cc:
+ 	\L_039bf:
+ 	\L_03917:

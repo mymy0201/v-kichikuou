@@ -1,0 +1,1823 @@
+--- before/Gﾒﾅﾄﾞ.ADV
++++ src/Gﾒﾅﾄﾞ.ADV
+@@ -1904,28 +1904,28 @@
+ 	\L_05d78:
+ 	\L_05cd0:
+ 	ZH 1:
+-	'Đ-Ngài Rance!?'
+-	\L_05d85:
+-	ZH 1:
+-	'Ha... Gahahahaha!..'
+-	\L_05d85:
+-	ZH 1:
+-	'Chỉ huy Menad. Hãy xem'
+-	R
+-	'xét những gì ta đã nói.'
+-	\L_05d85:
+-	ZH 1:
+-	'Ngài Rance,'
+-	R
+-	'chỉ huy, xin lỗi!!'
++	'B-Bệ hạ!?'
++	\L_05d85:
++	ZH 1:
++	'Hả... ha ha ha...'
++	\L_05d85:
++	ZH 1:
++	'Chỉ huy Menad,'
++	R
++	'chuyện ấy nhờ cô nhé.'
++	\L_05d85:
++	ZH 1:
++	'Bệ hạ, chỉ huy,'
++	R
++	'tôi xin phép!'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05d32:
+ 	\L_05c98:
+ 	ZH 1:
+-	'Zarak bỏ chạy, như'
+-	R
+-	'thể đang trốn chạy.'
++	'Zarak vội vã chạy'
++	R
++	'đi như trốn tránh.'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	!VAR0516 : 8!
+@@ -1937,21 +1937,21 @@
+ 	\L_05d78:
+ 	\L_05d08:
+ 	ZH 1:
+-	'Menad lúng túng rời'
+-	R
+-	'mắt khỏi Rance và đứng dậy.'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'Đó có phải là em'
+-	R
+-	'trai của em không, Menad?'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05cd0:
+-	ZH 1:
+-	'............'
++	'Menad đứng lúng túng,'
++	R
++	'tránh ánh mắt Rance.'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'Vừa rồi là người'
++	R
++	'yêu của em à, Menad?'
++	\L_05d85:
++	\L_05d78:
++	\L_05cd0:
++	ZH 1:
++	'D-Dạ...'
+ 	\L_05d85:
+ 	ZH 1:
+ 	'Vâng... Đúng vậy...'
+@@ -1960,14 +1960,14 @@
+ 	'À, nhưng không sao đâu.'
+ 	\L_05d85:
+ 	ZH 1:
+-	'Em sẽ không đối xử với'
+-	R
+-	'ngài khác biệt với những cấp'
+-	\L_05d85:
+-	ZH 1:
+-	'dưới khác của em chỉ vì'
+-	R
+-	'ngài là em trai của em!'
++	'Tuy là người yêu,'
++	R
++	'nhưng trong đơn vị,'
++	\L_05d85:
++	ZH 1:
++	'em vẫn đối xử với anh ấy như'
++	R
++	'một thuộc hạ bình thường!'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05c60:
+@@ -1982,11 +1982,9 @@
+ 	\L_05d78:
+ 	\L_05c60:
+ 	ZH 1:
+-	'Anh ta thật bẩn'
+-	R
+-	'thỉu. Em có thể nói'
+-	R
+-	'chỉ bằng cách nhìn.'
++	'Thằng ấy là đồ cặn bã.'
++	R
++	'Nhìn mắt là ta biết.'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05cd0:
+@@ -2010,27 +2008,27 @@
+ 	'Tại sao...?'
+ 	\L_05d85:
+ 	ZH 1:
+-	'Tại sao ngài lại nói với'
+-	R
+-	'em điều đó, ngài Rance...?'
+-	\L_05d85:
+-	ZH 1:
+-	'Em thích Zarak...'
+-	\L_05d85:
+-	ZH 1:
+-	'Có nên không?'
+-	\L_05d85:
+-	ZH 1:
+-	'Em không biết...'
++	'Sao ngài lại nói'
++	R
++	'thế, ngài Rance...?'
++	\L_05d85:
++	ZH 1:
++	'Em chỉ yêu Zarak thôi mà...'
++	\L_05d85:
++	ZH 1:
++	'Yêu anh ấy là sai sao?'
++	\L_05d85:
++	ZH 1:
++	'Em không hiểu...'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05d08:
+ 	ZH 1:
+-	'Lời tuyên'
+-	R
+-	'bố bất ngờ của Rance đối với'
+-	R
+-	'cô khiến Menad rơi nước mắt.'
++	'Lời nói bất ngờ của'
++	R
++	'Rance khiến khóe'
++	R
++	'mắt Menad rưng rưng.'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	!VAR0516 : 0!
+@@ -2051,72 +2049,64 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Khu vực doanh'
+-	R
+-	'trại Ngài Rance!!'
++	'Gần doanh trại. Ngài Rance!!'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	!VAR0516 : 8!
+ 	\L_05d24:
+ 	\L_05c60:
+ 	ZH 1:
+-	'Này, Menad. Em'
+-	R
+-	'có khỏe không?'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05cd0:
+-	ZH 1:
+-	'Em ổn.'
+-	\L_05d85:
+-	ZH 1:
+-	'Ừm... Thưa'
+-	R
+-	'ngài Rance. Trong trận'
+-	R
+-	'chiến tiếp theo...'
+-	\L_05d85:
+-	ZH 1:
+-	'Xin hãy cho đơn vị của'
+-	R
+-	'em một cơ hội chiến đấu.'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'Ồ. Thái độ tốt. Ta sẽ'
+-	R
+-	'sử dụng em nếu ta nhớ.'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05cd0:
+-	ZH 1:
+-	'Được rồi! Cảm ơn rất'
+-	R
+-	'nhiều! Vậy em sẽ quay lại'
+-	R
+-	'với việc tập luyện của mình.'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'Được rồi.'
+-	R
+-	'Hãy cố gắng hết sức mà'
+-	R
+-	'không cố gắng quá sức.'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05cd0:
+-	ZH 1:
+-	'Được rồi! Em sẽ!'
++	'Ồ, Menad. Dạo này thế nào?'
++	\L_05d85:
++	\L_05d78:
++	\L_05cd0:
++	ZH 1:
++	'Vâng, em khỏe.'
++	\L_05d85:
++	ZH 1:
++	'À... Ngài Rance.'
++	R
++	'Trong trận tới...'
++	\L_05d85:
++	ZH 1:
++	'Xin hãy cho đơn vị'
++	R
++	'em cơ hội xuất trận.'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'Có chí khí đấy. Nếu nhớ,'
++	R
++	'ta sẽ cho các em ra trận.'
++	\L_05d85:
++	\L_05d78:
++	\L_05cd0:
++	ZH 1:
++	'Vâng! Em cảm ơn ngài! Vậy'
++	R
++	'em đi huấn luyện tiếp đây.'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'Ừ. Cố gắng sao'
++	R
++	'cho đừng chết đấy.'
++	\L_05d85:
++	\L_05d78:
++	\L_05cd0:
++	ZH 1:
++	'Vâng! Em sẽ cố hết sức!'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05d08:
+ 	ZH 1:
+-	'Menad cúi chào và sốt'
+-	R
+-	'ruột chạy về doanh trại.'
++	'Menad cúi chào, chưa'
++	R
++	'kịp ngẩng đầu đã vội'
++	R
++	'chạy về doanh trại.'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	!VAR0516 : 0!
+@@ -2138,14 +2128,14 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Xin lỗi!'
++	'Phòng yết kiến. Xin vào!'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	!VAR0516 : 8!
+ 	\L_05d24:
+ 	\L_05c60:
+ 	ZH 1:
+-	'Ta đây rồi, Menad.'
++	'Đến rồi à, Menad.'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05cd0:
+@@ -2155,11 +2145,9 @@
+ 	\L_05d78:
+ 	\L_05c60:
+ 	ZH 1:
+-	'Có chuyện gì'
+-	R
+-	'vậy? Em thường hoạt bát'
+-	R
+-	'hơn... Em có mệt không?'
++	'Sao thế? Mọi khi em hoạt'
++	R
++	'bát hơn mà... Mệt rồi à?'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05cd0:
+@@ -2172,18 +2160,16 @@
+ 	'Hoặc...'
+ 	\L_05d85:
+ 	ZH 1:
+-	'Em có lo'
+-	R
+-	'lắng về phần quỹ của đơn'
+-	R
+-	'vị em đã biến mất không?'
++	'Hay đang lo vì một phần'
++	R
++	'quân phí của đơn vị bị mất?'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05d08:
+ 	ZH 1:
+-	'Menad ngước nhìn'
+-	R
+-	'Rance với ánh mắt ngơ ngác.'
++	'Menad giật mình'
++	R
++	'ngước nhìn Rance.'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	SS 6:
+@@ -2197,16 +2183,16 @@
+ 	'Nhưng...'
+ 	\L_05d85:
+ 	ZH 1:
+-	'Có vẻ như em không tự mình'
+-	R
+-	'sử dụng nó... Có phải con'
+-	R
+-	'chuột đã chạy theo nó không?'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05cd0:
+-	ZH 1:
+-	'Em rất xin lỗi!!'
++	'Nhìn em chẳng giống'
++	R
++	'tiêu tiền cho bản thân.'
++	R
++	'Hay chuột tha mất rồi?'
++	\L_05d85:
++	\L_05d78:
++	\L_05cd0:
++	ZH 1:
++	'Em vô cùng xin lỗi!!'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05d08:
+@@ -2218,21 +2204,21 @@
+ 	\L_05d78:
+ 	\L_05cd0:
+ 	ZH 1:
+-	'Bất kể lý do là gì, em'
+-	R
+-	'vẫn là người biển thủ tiền!!'
+-	\L_05d85:
+-	ZH 1:
+-	'Làm ơn... Xin hãy trừng'
+-	R
+-	'phạt em! Em đã phản bội lòng'
+-	R
+-	'tin của rất nhiều người!!'
+-	\L_05d85:
+-	ZH 1:
+-	'Tất cả là lỗi'
+-	R
+-	'của em, ngài Rance!!'
++	'Dù vì lý do gì, em cũng là'
++	R
++	'người đụng vào quân phí!'
++	\L_05d85:
++	ZH 1:
++	'Xin ngài xử phạt em!'
++	R
++	'Em đã phụ lòng tin'
++	R
++	'của biết bao người!'
++	\L_05d85:
++	ZH 1:
++	'Tất cả là lỗi của'
++	R
++	'em, ngài Rance!'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05c60:
+@@ -2245,9 +2231,9 @@
+ 	\L_05d78:
+ 	\L_05c98:
+ 	ZH 1:
+-	'Theo lệnh của Rance, một'
+-	R
+-	'người khác được đưa vào...'
++	'Theo hiệu lệnh của Rance,'
++	R
++	'người được dẫn vào là...'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05cc2:
+@@ -2255,9 +2241,9 @@
+ 	\L_05cb4:
+ 	\L_05c60:
+ 	ZH 1:
+-	'L-Thả tôi ra!! Ai'
+-	R
+-	'đó giúp tôi với!!'
++	'Th-Thả tôi ra!!'
++	R
++	'Cứu tôi với!!'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05cd0:
+@@ -2267,27 +2253,25 @@
+ 	\L_05d78:
+ 	\L_05c60:
+ 	ZH 1:
+-	'Nghĩa là!!'
+-	\L_05d85:
+-	ZH 1:
+-	'Vì vậy, cô...'
+-	\L_05d85:
+-	ZH 1:
+-	'Cô đã bỏ rơi tôi!!'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c98:
+-	ZH 1:
+-	'Zarak trừng'
+-	R
+-	'mắt nhìn Menad với vẻ'
+-	R
+-	'căm ghét trắng trợn.'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05cd0:
+-	ZH 1:
+-	'N-Nhưng... em...'
++	'Menad!!'
++	\L_05d85:
++	ZH 1:
++	'Thì ra... mày...'
++	\L_05d85:
++	ZH 1:
++	'Mày đã tố giác tao!!'
++	\L_05d85:
++	\L_05d78:
++	\L_05c98:
++	ZH 1:
++	'Zarak trừng mắt nhìn'
++	R
++	'Menad, lộ rõ vẻ căm hận.'
++	\L_05d85:
++	\L_05d78:
++	\L_05cd0:
++	ZH 1:
++	'Kh-Không, em...'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05c60:
+@@ -2313,18 +2297,14 @@
+ 	\L_05d78:
+ 	\L_05c60:
+ 	ZH 1:
+-	'Tôi đã sai về'
+-	R
+-	'điều gì?!! Tôi bị trói'
+-	R
+-	'còn cô thì không...'
+-	\L_05d85:
+-	ZH 1:
+-	'Có vẻ khá'
+-	R
+-	'rõ ràng là cô đã bán'
+-	R
+-	'đứng tôi rồi phải không?!!'
++	'Không cái gì?! Tao bị'
++	R
++	'trói, còn mày thì không...'
++	\L_05d85:
++	ZH 1:
++	'Chẳng phải rõ ràng mày'
++	R
++	'đã bán đứng tao sao?!!'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05cd0:
+@@ -2379,12 +2359,12 @@
+ 	\L_05d78:
+ 	\L_05cd0:
+ 	ZH 1:
+-	'Đ-Ngài Rance?'
+-	\L_05d85:
+-	ZH 1:
+-	'Cô có nghe'
+-	R
+-	'tôi nói gì không?! Nàng...'
++	'B-Bệ hạ?'
++	\L_05d85:
++	ZH 1:
++	'Tôi vừa nói rồi'
++	R
++	'mà! Chính cô ta...'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05c60:
+@@ -2402,36 +2382,38 @@
+ 	\L_05d32:
+ 	\L_05d08:
+ 	ZH 1:
+-	'Zarak không nói nữa.'
+-	\L_05d85:
+-	ZH 1:
+-	'Rance đã chặt đầu anh ta.'
++	'Zarak chẳng thể nói'
++	R
++	'thêm lời nào nữa.'
++	\L_05d85:
++	ZH 1:
++	'Hắn đã bị Rance'
++	R
++	'chém bay đầu.'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	!VAR0516 : 8!
+ 	\L_05d24:
+ 	\L_05cd0:
+ 	ZH 1:
+-	'Không...'
+-	\L_05d85:
+-	ZH 1:
+-	'Không!!!'
+-	R
+-	'Zarak! Zaraaaaaaaaak!!'
++	'Kh-Không...'
++	\L_05d85:
++	ZH 1:
++	'Khônggg!! Zarak! Zarak ơi!!'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05d08:
+ 	ZH 1:
+-	'Menad hét lên tên'
+-	R
+-	'Zarak, gần như phát điên.'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'Quay lại bài viết của'
+-	R
+-	'em, Menad. Em có thể đi.'
++	'Menad gần như phát'
++	R
++	'cuồng, gào gọi tên Zarak.'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'Về vị trí đi, Menad.'
++	R
++	'Em được lui rồi.'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	{VAR0058 \ 0:
+@@ -2442,11 +2424,11 @@
+ 		\L_05d78:
+ 		\L_05d08:
+ 		ZH 1:
+-		'Menad hất tay những'
++		'Menad giằng khỏi tay'
+ 		R
+-		'người lính đang trói cô và'
++		'những người lính đang giữ'
+ 		R
+-		'chạy đến chỗ xác của Zarak.'
++		'cô, chạy đến xác Zarak.'
+ 		\L_05d85:
+ 		\L_05d78:
+ 		\L_05cd0:
+@@ -2463,23 +2445,21 @@
+ 		\L_05d78:
+ 		\L_05c60:
+ 		ZH 1:
+-		'Điều này'
++		'Thôi đi, Menad. Em chỉ'
+ 		R
+-		'thật nực cười, Menad. Anh'
+-		R
+-		'ta chỉ lợi dụng em thôi.'
++		'bị hắn lợi dụng thôi.'
+ 		\L_05d85:
+ 		\L_05d78:
+ 		\L_05cd0:
+ 		ZH 1:
+-		'Ngài sai rồi!!'
++		'Không đúng!! Zarak không'
+ 		R
+-		'Zarak không như vậy!!'
++		'phải người như thế!!'
+ 		\L_05d85:
+ 		\L_05d78:
+ 		\L_05c60:
+ 		ZH 1:
+-		'Ờ...'
++		'Em...'
+ 		\L_05d85:
+ 		\L_05d78:
+ 		\L_05cc2:
+@@ -2487,11 +2467,9 @@
+ 		\L_05cb4:
+ 		\L_05c98:
+ 		ZH 1:
+-		'Kanami từ'
++		'Kanami từ trên trần nhà'
+ 		R
+-		'trên trần nhà lao xuống'
+-		R
+-		'và ngã trước mặt Menad.'
++		'đáp xuống trước mặt Menad.'
+ 		\L_05d85:
+ 		\L_05d78:
+ 		\L_05cd0:
+@@ -2501,7 +2479,7 @@
+ 		\L_05d78:
+ 		\L_05c98:
+ 		ZH 1:
+-		'(smaaaack)'
++		'(Chát!)'
+ 		\L_05d85:
+ 		\L_05d78:
+ 		\L_05cd0:
+@@ -2516,7 +2494,7 @@
+ 		\L_05d78:
+ 		\L_05c60:
+ 		ZH 1:
+-		'... Đừng ngu ngốc, Menad!'
++		'...Menad ngốc!'
+ 		\L_05d85:
+ 		\L_05d78:
+ 		\L_05cd0:
+@@ -2526,53 +2504,53 @@
+ 		\L_05d78:
+ 		\L_05c60:
+ 		ZH 1:
+-		'Tôi chẳng muốn đồng tình'
++		'Đồng tình với Rance...'
+ 		R
+-		'với Rance chút nào, nhưng...'
++		'với vua Rance thật'
++		R
++		'khó chịu, nhưng...'
+ 		\L_05d85:
+ 		ZH 1:
+ 		'lần này hắn nói đúng!'
+ 		\L_05d85:
+ 		ZH 1:
+-		'Cô hiểu không, Menad?'
++		'Menad, cậu hiểu không?'
+ 		R
+-		'Hắn chỉ đang lợi dụng cô!'
++		'Cậu chỉ bị lợi dụng thôi!'
+ 		\L_05d85:
+ 		ZH 1:
+-		'Tôi đã nghe nói về'
++		'Tớ vẫn nghe cậu kể'
+ 		R
+-		'Zarak từ lâu rồi, nhưng...'
++		'chuyện Zarak, nhưng...'
+ 		\L_05d85:
+ 		ZH 1:
+-		'hắn chưa từng làm gì'
++		'thái độ của hắn chẳng'
+ 		R
+-		'chứng tỏ mình thích cô cả!'
++		'hề giống người yêu cậu!'
+ 		\L_05d85:
+ 		ZH 1:
+-		'Anh ta lợi dụng địa vị'
++		'Hắn chỉ lợi dụng địa'
+ 		R
+-		'và thể xác của cô... Hắn ta'
++		'vị, thân thể cậu. Một'
+ 		R
+-		'chẳng qua chỉ là đồ cặn bã!'
++		'tên khốn bẩn thỉu!'
+ 		\L_05d85:
+ 		ZH 1:
+-		'Cô đã'
++		'Cậu có hiểu những lời hắn'
+ 		R
+-		'nghe những gì hắn vừa nói'
+-		R
+-		'về cô rồi phải không?'
++		'vừa nói với cậu không?'
+ 		\L_05d85:
+ 		ZH 1:
+-		'Làm sao sau đó cô'
++		'Bị sỉ nhục đến thế...'
+ 		R
+-		'vẫn có thể theo đuổi hắn?!'
++		'Sao cậu còn bênh hắn?!'
+ 		\L_05d85:
+ 		ZH 1:
+-		'Menad... Cô'
++		'Menad... Cứ thế này'
+ 		R
+-		'hạ nhận ra mình chỉ đang'
++		'thì cậu chỉ là đồ'
+ 		R
+-		'ngu ngốc thôi phải không?'
++		'ngốc thôi! Hiểu không?'
+ 		\L_05d85:
+ 		\L_05d78:
+ 		\L_05cd0:
+@@ -2582,7 +2560,7 @@
+ 		\L_05d78:
+ 		\L_05c60:
+ 		ZH 1:
+-		'Ngài Rance...'
++		'Cậu...!'
+ 		\L_05d85:
+ 		\L_05d78:
+ 		\L_05cc2:
+@@ -2603,14 +2581,12 @@
+ 		\L_05d78:
+ 		\L_05c60:
+ 		ZH 1:
+-		'Ta rất khoan dung'
++		'Ta rộng lượng với con gái.'
+ 		R
+-		'với con gái. Đặc biệt là'
+-		R
+-		'những mày gái dễ thương.'
++		'Nhất là những cô dễ thương.'
+ 		\L_05d85:
+ 		ZH 1:
+-		'Nghĩa là.'
++		'Menad.'
+ 		\L_05d85:
+ 		\L_05d78:
+ 		\L_05d32:
+@@ -2623,22 +2599,20 @@
+ 		\L_05d78:
+ 		\L_05c60:
+ 		ZH 1:
+-		'Trở về phòng của em.'
+-		R
+-		'Đó là một mệnh lệnh.'
++		'Về phòng đi. Đây là lệnh.'
+ 		\L_05d85:
+ 		ZH 1:
+-		'Sau đó hãy nghĩ lại những'
++		'Và nghĩ kỹ lại những'
+ 		R
+-		'gì Kanami vừa nói với em.'
++		'lời Kanami vừa nói.'
+ 		\L_05d85:
+ 		\L_05d78:
+ 		\L_05cd0:
+ 		ZH 1:
+-		'... Đã hiểu...'
++		'...Em... hiểu rồi...'
+ 		\L_05d85:
+ 		ZH 1:
+-		'Xin lỗi...'
++		'Em xin phép lui...'
+ 		\L_05d85:
+ 		\L_05d78:
+ 		\L_05d32:
+@@ -2661,18 +2635,16 @@
+ 		\L_05d78:
+ 		\L_05cd0:
+ 		ZH 1:
+-		'Tôi rất ngạc'
++		'Tôi ngạc nhiên vì anh'
+ 		R
+-		'nhiên khi biết anh lại'
++		'lại nói được điều tử tế'
+ 		R
+-		'chính trực như vậy, Rance.'
++		'như thế đấy, Rance...'
+ 		\L_05d85:
+ 		\L_05d78:
+ 		\L_05c60:
+ 		ZH 1:
+-		'Tất nhiên là ta'
+-		R
+-		'đúng. Ta là Vua.'
++		'Đương nhiên. Ta là vua mà.'
+ 		\L_05d85:
+ 		\L_05d78:
+ 		\L_05cd0:
+@@ -2690,34 +2662,30 @@
+ 		\L_05d32:
+ 		\L_05c98:
+ 		ZH 1:
+-		'Kanami không nói'
++		'Kanami lặng lẽ biến lên'
+ 		R
+-		'một lời quay trở lại'
+-		R
+-		'phía trên trần nhà.'
++		'khoảng trống trên trần nhà.'
+ 		\L_05d85:
+ 		\L_05d78:
+ 		!VAR0516 : 6!
+ 		\L_05d24:
+ 		\L_05cd0:
+ 		ZH 1:
+-		'Liệu có biện'
++		'Bệ hạ định xử trí phó tướng'
+ 		R
+-		'pháp nào nữa được thực hiện'
+-		R
+-		'với Trung tướng Menad không?'
++		'Menad như vậy thôi sao?'
+ 		\L_05d85:
+ 		\L_05d78:
+ 		\L_05c60:
+ 		ZH 1:
+-		'Không. Đừng làm'
+-		R
+-		'phiền nàng nữa.'
++		'Ừ. Đừng truy cứu thêm nữa.'
+ 		\L_05d85:
+ 		\L_05d78:
+ 		\L_05cd0:
+ 		ZH 1:
+-		'Đã hiểu. Thần sẽ không.'
++		'Thần hiểu. Thần'
++		R
++		'sẽ làm như vậy.'
+ 		\L_05d85:
+ 		\L_05d78:
+ 		SS VAR0515:
+@@ -2727,73 +2695,65 @@
+ 	}
+ 	\L_05cd0:
+ 	ZH 1:
+-	'............'
+-	\L_05d85:
+-	ZH 1:
+-	'Ngài thật kinh khủng,'
+-	R
+-	'ngài Rance... Làm điều'
+-	R
+-	'đó với Zarak... Zarak...'
++	'Hức...'
++	\L_05d85:
++	ZH 1:
++	'Ngài tàn nhẫn quá... Ngài'
++	R
++	'đã giết Zarak... Zarak...'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05d08:
+ 	ZH 1:
+-	'Nước mắt chảy ra từ mắt'
+-	R
+-	'Menad và cô trừng mắt nhìn'
+-	R
+-	'Rance với ánh mắt phê phán.'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'Đó là lỗi'
+-	R
+-	'của hắn. Em đã nghe'
+-	R
+-	'thấy hắn, phải không?'
+-	\L_05d85:
+-	ZH 1:
+-	'Em đã ủng'
+-	R
+-	'hộ hắn, và hắn...'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05cd0:
+-	ZH 1:
+-	'Ngài sai rồi!'
+-	\L_05d85:
+-	ZH 1:
+-	'Ngài sai'
+-	R
+-	'rồi... ngài chỉ... hơi'
+-	R
+-	'hoảng sợ... Nhưng...'
+-	\L_05d85:
+-	ZH 1:
+-	'Ngài đã giết'
+-	R
+-	'ngài... Ngài đã giết nàng!!'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'... Ta ghét đàn'
+-	R
+-	'ông ăn thịt phụ nữ.'
+-	\L_05d85:
+-	ZH 1:
+-	'Sẽ tốt hơn nếu'
+-	R
+-	'hắn không ở bên cạnh.'
+-	\L_05d85:
+-	ZH 1:
+-	'Thế thì em sẽ'
+-	R
+-	'không biển thủ tiền'
+-	R
+-	'hay bất cứ thứ gì.'
++	'Menad khóc lã chã,'
++	R
++	'nhìn Rance bằng'
++	R
++	'ánh mắt trách móc.'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'Kẻ có lỗi là hắn. Em'
++	R
++	'cũng vừa nghe rồi đấy.'
++	\L_05d85:
++	ZH 1:
++	'Em định bênh hắn,'
++	R
++	'mà hắn lại...'
++	\L_05d85:
++	\L_05d78:
++	\L_05cd0:
++	ZH 1:
++	'Không phải!'
++	\L_05d85:
++	ZH 1:
++	'Không phải đâu... Anh'
++	R
++	'ấy chỉ hơi hoảng loạn'
++	R
++	'thôi... Vậy mà...'
++	\L_05d85:
++	ZH 1:
++	'Ngài lại giết anh'
++	R
++	'ấy... Giết anh ấy!!'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'Ta ghét những thằng đàn'
++	R
++	'ông lợi dụng phụ nữ.'
++	\L_05d85:
++	ZH 1:
++	'Nếu không có hắn,'
++	\L_05d85:
++	ZH 1:
++	'em cũng đâu cần phải'
++	R
++	'biển thủ, đúng không?'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05cd0:
+@@ -2801,11 +2761,11 @@
+ 	'Vậy thì...'
+ 	\L_05d85:
+ 	ZH 1:
+-	'Vậy hãy giết em'
+-	R
+-	'đi!! Tham ô là tội của'
+-	R
+-	'em!! Giết em đi...!!'
++	'Vậy giết cả em đi!! Biển'
++	R
++	'thủ thì em cũng có tội!!'
++	R
++	'Ngài Rance! Xin ngài...!!'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05c60:
+@@ -2820,7 +2780,7 @@
+ 	\L_05d78:
+ 	\L_05c60:
+ 	ZH 1:
+-	'Rời đi.'
++	'Lui xuống.'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05cd0:
+@@ -2833,19 +2793,17 @@
+ 	\L_05d24:
+ 	\L_05cd0:
+ 	ZH 1:
+-	'Trung tướng'
+-	R
+-	'Menad. Nhà vua đã đưa'
+-	R
+-	'ra quyết định của mình.'
+-	\L_05d85:
+-	ZH 1:
+-	'Ngài không thể phản đối.'
+-	\L_05d85:
+-	ZH 1:
+-	'... Hơn nữa... Nhà vua đã'
+-	R
+-	'ra lệnh. Hãy nghỉ phép đi.'
++	'Phó tướng Menad. Đây là'
++	R
++	'quyết định của nhà vua.'
++	\L_05d85:
++	ZH 1:
++	'Cô không được phản đối.'
++	\L_05d85:
++	ZH 1:
++	'...Hơn nữa, đây là'
++	R
++	'lệnh. Hãy lui xuống.'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05d32:
+@@ -2857,9 +2815,9 @@
+ 	\L_05d78:
+ 	\L_05d08:
+ 	ZH 1:
+-	'Menad loạng choạng'
+-	R
+-	'rời khỏi ngai vàng.'
++	'Menad loạng choạng rời'
++	R
++	'khỏi trước ngai vàng.'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05d32:
+@@ -2867,18 +2825,16 @@
+ 	\L_05d24:
+ 	\L_05cd0:
+ 	ZH 1:
+-	'Ngài Rance. Ngài đối'
+-	R
+-	'xử với nàng khá khoan dung.'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'Ta vừa nói rồi phải'
+-	R
+-	'không? Giết các cô gái không'
+-	R
+-	'phải là phong cách của ta.'
++	'Bệ hạ Rance, ngài đã'
++	R
++	'xử trí thật khoan dung.'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'Ta đã nói rồi. Giết con'
++	R
++	'gái không hợp tính ta.'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05cd0:
+@@ -2899,16 +2855,14 @@
+ 	\L_05d78:
+ 	\L_05cd0:
+ 	ZH 1:
+-	'Thần nghĩ thật tốt'
+-	R
+-	'khi trên thế giới có'
+-	R
+-	'một vị vua như ngài.'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'Gahahahaha! Ta hiểu rồi.'
++	'Thần nghĩ trên đời có một'
++	R
++	'vị vua như vậy cũng được mà.'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'Gahahahaha! Đúng chứ gì.'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	SS VAR0515:
+@@ -2930,9 +2884,9 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Khu vực doanh trại'
+-	R
+-	'Rance đang lê bước theo.'
++	'Gần doanh trại.'
++	R
++	'Rance đi dạo.'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05c7c:
+@@ -2944,20 +2898,16 @@
+ 	\L_05d24:
+ 	\L_05c98:
+ 	ZH 1:
+-	'Menad đang ngồi'
+-	R
+-	'trên một bức tường'
+-	R
+-	'đá, không làm gì cả.'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'Có chuyện gì vậy Menad?'
+-	R
+-	'Hôm nay việc tập luyện'
+-	R
+-	'của em diễn ra thế nào?'
++	'Menad ngồi thẫn thờ trên'
++	R
++	'bờ tường đá doanh trại.'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'Menad, sao thế? Hôm'
++	R
++	'nay không huấn luyện à?'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05cd0:
+@@ -2965,20 +2915,18 @@
+ 	'À... ngài Rance...'
+ 	\L_05d85:
+ 	ZH 1:
+-	'Em giao việc huấn'
+-	R
+-	'luyện quân đội cho cấp dưới'
+-	R
+-	'của mình... Hiện tại, em...'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'Nếu em không tập'
+-	R
+-	'trung lại, tinh em quân đội'
+-	R
+-	'của em sẽ không tăng lên.'
++	'Em giao thuộc hạ lo huấn'
++	R
++	'luyện rồi... Giờ em...'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'Lúc này em không vững'
++	R
++	'vàng thì sao sĩ khí'
++	R
++	'của thuộc hạ lên được?'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05cd0:
+@@ -2988,7 +2936,9 @@
+ 	\L_05d78:
+ 	\L_05c7c:
+ 	ZH 1:
+-	'Có vẻ như em không biết...'
++	'Mặt em chẳng giống'
++	R
++	'hiểu chút nào...'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05cd0:
+@@ -2996,7 +2946,7 @@
+ 	'............'
+ 	\L_05d85:
+ 	ZH 1:
+-	'Này... ngài Rance...'
++	'À... ngài Rance...'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05c60:
+@@ -3006,17 +2956,17 @@
+ 	\L_05d78:
+ 	\L_05cd0:
+ 	ZH 1:
+-	'Em đang nghĩ...'
+-	\L_05d85:
+-	ZH 1:
+-	'Có lẽ phụ nữ không'
+-	R
+-	'nên trở thành quân nhân?'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'Nghĩa là?'
++	'Có lẽ... em... Không...'
++	\L_05d85:
++	ZH 1:
++	'Phụ nữ không thể'
++	R
++	'làm quân nhân sao?'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'Menad?'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05cd0:
+@@ -3033,38 +2983,38 @@
+ 	\L_05d78:
+ 	\L_05c60:
+ 	ZH 1:
+-	'Không quan trọng em là'
+-	R
+-	'nam hay nữ. Em chỉ cần chấn'
+-	R
+-	'chỉnh lại là ổn thôi.'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05cd0:
+-	ZH 1:
+-	'Em... cho là vậy...'
+-	\L_05d85:
+-	ZH 1:
+-	'Em phải tự'
+-	R
+-	'trấn tĩnh lại...'
++	'Nam hay nữ chẳng liên'
++	R
++	'quan. Bản thân em vững'
++	R
++	'vàng là được, nên...'
++	\L_05d85:
++	\L_05d78:
++	\L_05cd0:
++	ZH 1:
++	'Vâng... đúng thế nhỉ...'
++	\L_05d85:
++	ZH 1:
++	'Em phải vững vàng'
++	R
++	'hơn... mới được...'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05d08:
+ 	ZH 1:
+-	'Menad nhanh nhẹn nhảy'
+-	R
+-	'ra khỏi bức tường đá.'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05cd0:
+-	ZH 1:
+-	'Xin lỗi... Xin lỗi...'
+-	\L_05d85:
+-	\L_05d78:
+-	\L_05c60:
+-	ZH 1:
+-	'... Được rồi.'
++	'Menad nhẹ nhàng nhảy'
++	R
++	'xuống khỏi bờ tường đá.'
++	\L_05d85:
++	\L_05d78:
++	\L_05cd0:
++	ZH 1:
++	'Em xin lỗi... Em xin phép...'
++	\L_05d85:
++	\L_05d78:
++	\L_05c60:
++	ZH 1:
++	'...Ừ.'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	\L_05d32:
+@@ -3080,11 +3030,9 @@
+ 	'............'
+ 	\L_05d85:
+ 	ZH 1:
+-	'Hmmmmmmmm... Mọi'
+-	R
+-	'chuyện không thể tiếp'
+-	R
+-	'diễn như thế này được...'
++	'Hừmmmm... Cứ thế'
++	R
++	'này thì không ổn...'
+ 	\L_05d85:
+ 	\L_05d78:
+ 	!VAR0516 : 0!
+--- before/Gﾌｳｶ.ADV
++++ src/Gﾌｳｶ.ADV
+@@ -134,12 +134,12 @@
+ 	ZH 1:
+ 	'Với ngài Rance từ đại lục,'
+ 	R
+-	'đây có thể chỉ là nước'
+-	R
+-	'nhỏ... Nhưng vẫn có rất'
+-	\L_054da:
+-	ZH 1:
+-	'nhiều người sống ở đây.'
++	'đây hẳn chỉ là nước nhỏ...'
++	\L_054da:
++	ZH 1:
++	'Nhưng vẫn có rất'
++	R
++	'nhiều người sinh sống.'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_053ed:
+@@ -232,9 +232,9 @@
+ 	\L_054cd:
+ 	\L_053d1:
+ 	ZH 1:
+-	'Hehehe... Ta sẽ dọa cho một'
+-	R
+-	'phen...'
++	'Hê hê hê... Dọa cô'
++	R
++	'ấy một phen nào...'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_053ed:
+@@ -261,7 +261,7 @@
+ 	'đất.'
+ 	\L_054da:
+ 	ZH 1:
+-	'Nước đã đầy ắp trong gàu.'
++	'Chiếc thùng đã đầy ắp nước.'
+ 	\L_054da:
+ 	ZH 1:
+ 	'Cô hài lòng gật đầu, rồi'
+@@ -285,11 +285,9 @@
+ 	\L_054cd:
+ 	\L_05425:
+ 	ZH 1:
+-	'Áaaaa! Chiếc gàu lăn lốc'
+-	R
+-	'cốc, nước đầy bên trong đổ'
+-	R
+-	'tràn ra khắp mặt đất.'
++	'Áaaaa! Thùng lăn lốc cốc,'
++	R
++	'nước đầy ắp đổ tràn ra đất.'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_053b5:
+@@ -361,11 +359,11 @@
+ 	'nghễ.'
+ 	\L_054da:
+ 	ZH 1:
+-	'Fuuka vừa dùng nước mới múc'
+-	R
+-	'rửa đất bám trên gàu, vừa'
+-	R
+-	'lắc đầu.'
++	'Fuuka vừa dùng nước mới'
++	R
++	'múc rửa đất bám trên'
++	R
++	'thùng, vừa lắc đầu.'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_05425:
+@@ -394,9 +392,9 @@
+ 	\L_054cd:
+ 	\L_053b5:
+ 	ZH 1:
+-	'... Nhưng chẳng phải cô là'
+-	R
+-	'một cô gái bình thường sao?'
++	'...Nhưng Fuuka vốn là một'
++	R
++	'cô gái bình thường mà.'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_05425:
+@@ -447,14 +445,14 @@
+ 	'...'
+ 	\L_054da:
+ 	ZH 1:
+-	'Nói thì nói vậy, nhưng làm'
+-	R
+-	'thế khiến cô thanh thản...'
+-	\L_054da:
+-	ZH 1:
+-	'Chẳng phải cô vẫn mong được'
+-	R
+-	'sống thế sao?'
++	'Nói thế, nhưng làm vậy'
++	R
++	'khiến em thanh thản...'
++	\L_054da:
++	ZH 1:
++	'Chẳng phải em vẫn mong'
++	R
++	'được sống như vậy sao?'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_053b5:
+@@ -464,9 +462,9 @@
+ 	'Orochi đó.'
+ 	\L_054da:
+ 	ZH 1:
+-	'Thế thì cô sẽ thành một cô'
+-	R
+-	'gái bình thường, phải không?'
++	'Như thế Fuuka sẽ là một cô'
++	R
++	'gái bình thường, đúng không?'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_05425:
+@@ -483,7 +481,7 @@
+ 	\L_054cd:
+ 	\L_053b5:
+ 	ZH 1:
+-	'C... cái gì thế, lão già!'
++	'G-Gì thế, lão già!'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_05425:
+@@ -525,7 +523,7 @@
+ 	\L_05479:
+ 	\L_053b5:
+ 	ZH 1:
+-	'Khốn kiếp, ông già!'
++	'Lão già khốn kiếp!'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_05425:
+@@ -562,7 +560,7 @@
+ 	\L_054cd:
+ 	\L_053b5:
+ 	ZH 1:
+-	'Hyaaah!'
++	'Đâyyy!'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_053ed:
+@@ -587,11 +585,9 @@
+ 	\L_05487:
+ 	\L_053ed:
+ 	ZH 1:
+-	'Sau đó, Rance nâng'
+-	R
+-	'ông già lên cao... và'
+-	R
+-	'thả ông vào giếng.'
++	'Rance nhấc bổng ông lão'
++	R
++	'lên... rồi thả xuống giếng.'
+ 	\L_054da:
+ 	\L_054cd:
+ 	\L_05425:
+--- before/Gﾊｳﾚｰﾝ.ADV
++++ src/Gﾊｳﾚｰﾝ.ADV
+@@ -35,11 +35,9 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Sân trong Haurein đang ngồi'
+-	R
+-	'trên bức tường đá xung quanh'
+-	R
+-	'bồn hoa, vẻ mặt bối rối.'
++	'Sân trong. Haurein ngồi trên'
++	R
++	'bờ đá bồn hoa, đăm chiêu.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	!VAR0516 : 6!
+@@ -63,9 +61,9 @@
+ 	\L_04c84:
+ 	\L_04b6c:
+ 	ZH 1:
+-	'... Chà... Nếu'
+-	R
+-	'là cô, cô Maris...'
++	'...Phải rồi... Nếu'
++	R
++	'là cô Maris thì...'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04bdc:
+@@ -82,17 +80,17 @@
+ 	\L_04c84:
+ 	\L_04ba4:
+ 	ZH 1:
+-	'Haurein lấy ra món đồ đan dở'
+-	R
+-	'trên que.'
++	'Haurein đưa ra món đồ'
++	R
++	'đang đan dở bằng kim đan.'
+ 	\L_04c91:
+ 	ZH 1:
+ 	'Cứng và nặng đến mức trông'
+ 	\L_04c91:
+ 	ZH 1:
+-	'giống áo giáp xích hơn là đồ'
+-	R
+-	'đan bằng len.'
++	'giống áo giáp lưới hơn'
++	R
++	'là đồ đan bằng len.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04bdc:
+@@ -169,7 +167,7 @@
+ 	\L_04c84:
+ 	\L_04b6c:
+ 	ZH 1:
+-	'Được rồi.'
++	'Vâng.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	!VAR0516 : 0!
+@@ -193,11 +191,9 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Field HQ - Lều của Haurein'
+-	R
+-	'Haurein đang chuẩn bị cà'
+-	R
+-	'phê với một số cấp dưới.'
++	'Lều Haurein, trại chỉ huy.'
++	R
++	'Cô cùng thuộc hạ pha cà phê.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04b6c:
+@@ -269,9 +265,9 @@
+ 	\L_04c84:
+ 	\L_04bdc:
+ 	ZH 1:
+-	'Cha muốn nói'
+-	R
+-	'chuyện... Được không?'
++	'Cha có chuyện muốn'
++	R
++	'nói... Được chứ?'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04b6c:
+@@ -300,16 +296,16 @@
+ 	\L_04c84:
+ 	\L_04ba4:
+ 	ZH 1:
+-	'Một người lính lấy'
+-	R
+-	'ấm đun nước từ Haurein,'
+-	\L_04c91:
+-	ZH 1:
+-	'những người còn'
+-	R
+-	'lại lấy bộ cà phê và'
+-	R
+-	'cốc rồi rời khỏi lều.'
++	'Một thuộc hạ cầm lấy'
++	R
++	'ấm nước từ tay Haurein,'
++	\L_04c91:
++	ZH 1:
++	'những người khác mang'
++	R
++	'bộ pha cà phê cùng'
++	R
++	'tách ra khỏi lều.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04c3e:
+@@ -317,9 +313,9 @@
+ 	\L_04c30:
+ 	\L_04bdc:
+ 	ZH 1:
+-	'Con có một'
+-	R
+-	'số cấp dưới tốt.'
++	'Con có những'
++	R
++	'thuộc hạ tốt đấy.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04b6c:
+@@ -331,9 +327,7 @@
+ 	\L_04c84:
+ 	\L_04bdc:
+ 	ZH 1:
+-	'Không, không,'
+-	R
+-	'chắc chắn là không.'
++	'Không, không phải thế.'
+ 	\L_04c91:
+ 	ZH 1:
+ 	'... Haurein...'
+@@ -346,9 +340,7 @@
+ 	\L_04c84:
+ 	\L_04bdc:
+ 	ZH 1:
+-	'Trong trận chiến'
+-	R
+-	'hôm nay... Uh...'
++	'Trận chiến hôm nay... À...'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04b6c:
+@@ -358,12 +350,12 @@
+ 	\L_04c84:
+ 	\L_04bdc:
+ 	ZH 1:
+-	'Con đánh thật'
+-	\L_04c91:
+-	ZH 1:
+-	'xuất sắc. Làm cha, ta đã'
+-	R
+-	'thầm reo lên thán phục.'
++	'Con đã đánh'
++	\L_04c91:
++	ZH 1:
++	'rất xuất sắc. Làm cha, ta'
++	R
++	'cũng thầm reo lên thán phục.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04b6c:
+@@ -390,16 +382,14 @@
+ 	'cách một vị tướng...'
+ 	\L_04c91:
+ 	ZH 1:
+-	'Nhưng niềm vui của người cha'
+-	R
+-	'khi'
+-	\L_04c91:
+-	ZH 1:
+-	'thấy con trưởng thành còn'
+-	R
+-	'lớn hơn hàng trăm, hàng'
+-	R
+-	'nghìn lần.'
++	'Nhưng với tư cách người cha,'
++	\L_04c91:
++	ZH 1:
++	'niềm vui vì con trưởng'
++	R
++	'thành còn lớn hơn hàng'
++	R
++	'trăm, hàng nghìn lần.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04b6c:
+@@ -412,11 +402,9 @@
+ 	'Dù vậy,'
+ 	\L_04c91:
+ 	ZH 1:
+-	'làm cha, ta vẫn không bỏ'
+-	R
+-	'được mong muốn con lấy một'
+-	R
+-	'người tốt...'
++	'cha vẫn không thôi mong con'
++	R
++	'lấy được một người tốt...'
+ 	\L_04c91:
+ 	ZH 1:
+ 	'Đã sinh làm phụ nữ, cha vẫn'
+@@ -436,17 +424,17 @@
+ 	\L_04c84:
+ 	\L_04bdc:
+ 	ZH 1:
+-	'Cha hiểu. Nhưng cha chưa bỏ'
+-	R
+-	'ý định'
+-	\L_04c91:
+-	ZH 1:
+-	'ấy đâu. Vẫn sẽ giới thiệu'
+-	R
+-	'người cha công'
+-	\L_04c91:
+-	ZH 1:
+-	'nhận.'
++	'Cha biết. Nhưng Haurein,'
++	\L_04c91:
++	ZH 1:
++	'cha vẫn chưa từ'
++	R
++	'bỏ ý định ấy đâu.'
++	\L_04c91:
++	ZH 1:
++	'Cha sẽ tiếp tục giới thiệu'
++	R
++	'những người cha công nhận.'
+ 	\L_04c91:
+ 	ZH 1:
+ 	'Con thích ai thì cứ nói'
+@@ -454,7 +442,7 @@
+ 	'thẳng.'
+ 	\L_04c91:
+ 	ZH 1:
+-	'Còn giờ,'
++	'Cho đến lúc ấy,'
+ 	\L_04c91:
+ 	ZH 1:
+ 	'cứ sống như một hiệp sĩ theo'
+@@ -462,20 +450,22 @@
+ 	'ý con.'
+ 	\L_04c91:
+ 	ZH 1:
+-	'Ai cũng có cuộc đời'
+-	\L_04c91:
+-	ZH 1:
+-	'riêng... Cuối cùng, chỉ cần'
+-	R
+-	'con hạnh phúc là đủ.'
++	'Mỗi người đều có'
++	R
++	'cuộc đời riêng...'
++	\L_04c91:
++	ZH 1:
++	'Cuối cùng, cha chỉ cần'
++	R
++	'con được hạnh phúc là đủ.'
+ 	\L_04c91:
+ 	ZH 1:
+ 	'Cha chỉ nói thế thôi.'
+ 	\L_04c91:
+ 	ZH 1:
+-	'Xin lỗi đã ngắt giờ uống'
+-	R
+-	'trà. Cha về đây...'
++	'Xin lỗi đã làm gián đoạn'
++	R
++	'giờ uống trà. Cha đi đây...'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04b6c:
+@@ -485,18 +475,16 @@
+ 	\L_04c84:
+ 	\L_04ba4:
+ 	ZH 1:
+-	'Haurein hét lên để'
+-	R
+-	'ngăn ông lại khi ông'
+-	R
+-	'chuẩn bị rời khỏi lều.'
+-	\L_04c91:
+-	\L_04c84:
+-	\L_04b6c:
+-	ZH 1:
+-	'... Con...con không'
+-	R
+-	'ghét cha, thưa Cha...'
++	'Haurein gọi Barres lại'
++	R
++	'khi ông định ra khỏi lều.'
++	\L_04c91:
++	\L_04c84:
++	\L_04b6c:
++	ZH 1:
++	'...Con... Con không'
++	R
++	'ghét cha đâu...'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04bdc:
+@@ -520,7 +508,9 @@
+ 	ZH 1:
+ 	'Haurein đứng thẳng'
+ 	R
+-	'và cúi đầu chào Barres.'
++	'người, cúi đầu thật'
++	R
++	'sâu trước Barres.'
+ 	\L_04c91:
+ 	\L_04c84:
+ 	\L_04bdc:
+@@ -536,10 +526,10 @@
+ 	\L_04c84:
+ 	\L_04b88:
+ 	ZH 1:
+-	'Lần đầu'
+-	\L_04c91:
+-	ZH 1:
+-	'tiên... Cha khen con với tư'
++	'Lần đầu tiên...'
++	\L_04c91:
++	ZH 1:
++	'Cha khen con với tư'
+ 	R
+ 	'cách một hiệp sĩ...'
+ 	\L_04c91:

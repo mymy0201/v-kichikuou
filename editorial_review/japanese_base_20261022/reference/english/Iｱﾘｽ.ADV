@@ -1,0 +1,1419 @@
+	ZM 24:
+	EC 0:
+	G 240:
+	\L_018b6:
+	ZH 1:
+	'Alice「Hello, this is Alice.」'
+	SS 28:
+	\L_018fb:
+	ZH 1:
+	'Yukichi「Caaaw caaaw.」'
+	\L_018fb:
+	ZH 1:
+	'Alice「Thank you　for purchasing　Kichikuou Rance.」'
+	\L_018fb:
+	ZH 1:
+	'Alice「Here’s some information.」'
+	\L_018fb:
+	!VAR0010 : 0!
+	LP 1, VAR0514, 1:
+*L_0007f:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_0007f:
+	}
+	ZH 1:
+	$L_00221$
+	'How to Play'
+	$
+	$L_008e2$
+	'Credits'
+	$
+	$L_00cc6$
+	'Next Alice Games'
+	$
+	$L_00f49$
+	'Internet Referral'
+	$
+	$L_0106d$
+	'What is this game?'
+	$
+	$L_01661$
+	'Tune Screen Ratio'
+	$
+	$L_011b7$
+	'Character Rankings'
+	$
+	$L_001e1$
+	'Staff Corner'
+	$
+	$L_00174$
+	'A Little Advice'
+	$
+	{VAR0514 \ 0:
+		ZH 1:
+		$L_0173e$
+		'Watch Opening'
+		$
+	}
+	ZH 1:
+	$L_0013f$
+	'Return to Game'
+	$
+	]
+	@L_0007f:
+*L_0013f:
+	ZH 1:
+	'Alice「Now, please enjoy the game.'
+	R
+	'　　　　  Byebye.」'
+	\L_018fb:
+	ZH 1:
+	'Yukichi「Caaaaaaaaaw.」'
+	\L_018fb:
+	\L_018ee:
+	EC 0:
+	SS 27:
+	%0:
+*L_00174:
+	ZH 1:
+	'Alice「Oh yes, I have just one hint.'
+	R
+	'　　　　  Listen closely.」'
+	\L_018fb:
+	ZH 1:
+	'Yukichi「Caaaaaaaaaaaaaaaaw.」'
+	\L_018fb:
+	ZH 1:
+	'Alice「If Rance takes too long to unite　humanity,'
+	R
+	'      something bad will happen.」'
+	\L_018fb:
+	ZH 1:
+	'Yukichi「Caaaaw?」'
+	\L_018fb:
+	ZH 1:
+	'Alice「That’s all... Do your best.」'
+	\L_018fb:
+	ZH 1:
+	'Yukichi「Caaaw.」'
+	\L_018fb:
+	@L_0007f:
+*L_001e1:
+	ZH 1:
+	'Alice「This time the Staff Corner is in the game'
+	R
+	'      itself.」'
+	\L_018fb:
+	ZH 1:
+	'Alice「Alicesoft is hidden somewhere.'
+	R
+	'      Come find us and play.」'
+	\L_018fb:
+	ZH 1:
+	'Yukichi「Cawcawcawcawcaw... Caw.」'
+	\L_018fb:
+	@L_0007f:
+*L_00221:
+	{VAR0010 = 10:
+		!VAR0057 : 1!
+		ZH 1:
+		'　ＸＸＸＸＸＸＸＸＸＸＸＸＸＸ'
+		R
+		'　ＸＸＸＸＸＸＸＸＸＸＸＸＸＸ'
+		\L_018fb:
+		@L_0007f:
+	}
+*L_0024e:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_0024e:
+	}
+	ZH 1:
+	$L_007e3$
+	'Game Progression'
+	$
+	$L_0081b$
+	'About Units'
+	$
+	$L_00894$
+	'About Ninjas'
+	$
+	$L_006d1$
+	'Rance Army Phase'
+	$
+	$L_0059b$
+	'About Battles'
+	$
+	$L_00513$
+	'Battle Commands'
+	$
+	$L_00484$
+	'More on Battles'
+	$
+	$L_003c2$
+	'General Parameters'
+	$
+	$L_00383$
+	'Saving/Loading'
+	$
+	$L_00344$
+	'About Treasures'
+	$
+	$L_00305$
+	'Miscellaneous'
+	$
+	$L_00300$
+	'Back'
+	$
+	]
+*L_00300:
+	@L_0007f:
+*L_00305:
+	ZH 1:
+	'Important events can be triggered through the Harem'
+	R
+	'and Talk commands. Collecting a levy from a city'
+	R
+	'may also trigger events in that city.'
+	\L_018fb:
+	ZH 1:
+	'I would highly recommend not looking at guides for'
+	R
+	'your first playthrough and to accept your losses.'
+	R
+	'Failure is part of the game.'
+	\L_018fb:
+	@L_0024e:
+*L_00344:
+	ZH 1:
+	'Treasures may be bought from Pluepet, plundered from'
+	R
+	'cities or found in dungeons. When you select'
+	R
+	'\"Treasure\" on the main menu, a list is displayed.'
+	\L_018fb:
+	ZH 1:
+	'Some treasures can be equipped. If you want to'
+	R
+	'equip one, select it, then select the character'
+	R
+	'you wish to equip it to.'
+	\L_018fb:
+	@L_0024e:
+*L_00383:
+	ZH 1:
+	'The game will be automatically saved at the'
+	R
+	'beginning of each turn to an auto-save slot.'
+	R
+	'Loaded data will also overwrite the auto-save slot.'
+	\L_018fb:
+	ZH 1:
+	'You can manually save data as well. Regardless of'
+	R
+	'when you save during a turn, however, when you load'
+	R
+	'that data you’ll be at the beginning of that turn.'
+	\L_018fb:
+	@L_0024e:
+*L_003c2:
+	ZH 1:
+	'HP: The general’s current HP. (die if it hits 0)'
+	R
+	'Attack/Defense: General’s battle capabilities.'
+	\L_018fb:
+	ZH 1:
+	'Strategic Ability, Successful Strategy Chance:'
+	R
+	'The general with the highest chance, whether enemy'
+	R
+	'or ally, gets the opportunity to execute a strategy.'
+	\L_018fb:
+	ZH 1:
+	'If you successfully execute a strategy, you’ll gain'
+	R
+	'a great advantage during battle.'
+	\L_018fb:
+	ZH 1:
+	'Situational Command Ability:'
+	R
+	'A value that’s added to the general and troops in'
+	R
+	'a unit’s stats depending on the type of battle.'
+	\L_018fb:
+	ZH 1:
+	'All generals have unique advantages and'
+	R
+	'disadvantages, so you should pay attention to these'
+	R
+	'and use each general when appropriate.'
+	\L_018fb:
+	ZH 1:
+	'Troops:'
+	R
+	'All generals lead a specific type of troop with its'
+	R
+	'own attack and defense.'
+	\L_018fb:
+	ZH 1:
+	'Special Attacks:'
+	R
+	'Some generals have special attacks that are usable'
+	R
+	'after waiting once. They have a variety of effects.'
+	\L_018fb:
+	@L_0024e:
+*L_00484:
+	ZH 1:
+	'When you attack, a number indicating the number of'
+	R
+	'troops attacking will fly at the target of the'
+	R
+	'attack, then become the number of enemies defeated.'
+	\L_018fb:
+	ZH 1:
+	'For example, if the number 1000 flies to the enemy'
+	R
+	'troops and becomes 200, it means 1000 troops'
+	R
+	'attacked and killed 200 enemies.'
+	\L_018fb:
+	ZH 1:
+	'Depending on the situation, the general may attack'
+	R
+	'or be directly attacked. Unlike each troop that'
+	R
+	'attacks one time, a general may attack many times.'
+	\L_018fb:
+	ZH 1:
+	'If a general is killed, however, then the entire'
+	R
+	'unit is wiped out regardless of the number of'
+	R
+	'troops remaining.'
+	\L_018fb:
+	ZH 1:
+	'A general can attack and be attacked when their'
+	R
+	'number of troops is lower than the battle area.'
+	\L_018fb:
+	@L_0024e:
+*L_00513:
+	ZH 1:
+	'When a character’s turn comes, if they can attack,'
+	R
+	'left click the enemy you wish for them to attack.'
+	\L_018fb:
+	ZH 1:
+	'If you right click, a menu will appear with the'
+	R
+	'following commands.'
+	\L_018fb:
+	ZH 1:
+	'Defend: Slightly raise defense for that turn.'
+	R
+	'Wait: Charges a special attack for some characters.'
+	R
+	'Retreat: Whole army retreats, resulting in a loss.'
+	\L_018fb:
+	ZH 1:
+	'Auto-Attack: Unit keeps attacking front enemy.'
+	R
+	'Auto-Defend: Unit keeps defending.'
+	R
+	'Info: Display info of the unit right-clicked on.'
+	\L_018fb:
+	ZH 1:
+	'If a unit uses ranged or magic attacks, you can'
+	R
+	'also choose to make them direct attack in the right'
+	R
+	'click menu.'
+	\L_018fb:
+	@L_0024e:
+*L_0059b:
+	ZH 1:
+	'You can generally fight with a maximum of 4 units.'
+	R
+	'If you retreat or get wiped out, you lose. If you’re'
+	R
+	'attacking, running out of turns is also a loss.'
+	\L_018fb:
+	ZH 1:
+	'Battle Turns:'
+	R
+	'You get a randomly decided number of approximately'
+	R
+	'4 turns. The battle ends when turns run out.'
+	\L_018fb:
+	ZH 1:
+	'Certain battles may have no turn limit, however.'
+	\L_018fb:
+	ZH 1:
+	'Battle Area:'
+	R
+	'The size of a battlefield. Only applies when you’re'
+	R
+	'fighting in a city or dungeon rather than a plain.'
+	\L_018fb:
+	ZH 1:
+	'The size limits the number of troops that can fight'
+	R
+	'at once. For example, a unit of 2000 troops can only'
+	R
+	'attack with 500 troops if the battle area is 500.'
+	\L_018fb:
+	ZH 1:
+	'Defense Effects:'
+	R
+	'If you’re defending and choose to fight in the city,'
+	R
+	'you get an advantage based on that city’s defense.'
+	\L_018fb:
+	ZH 1:
+	'Turn Order:'
+	R
+	'Generally, the less troops a unit has, the sooner'
+	R
+	'they move.'
+	\L_018fb:
+	ZH 1:
+	'Front Line and Back Line'
+	R
+	'The first two units you selected for deployment are'
+	R
+	'in the front line and the other two are in the back.'
+	\L_018fb:
+	ZH 1:
+	'Only units in the front line can make direct'
+	R
+	'attacks. Units in the back are limited to ranged'
+	R
+	'attacks. Units can’t switch lines during battle.'
+	\L_018fb:
+	ZH 1:
+	'Warrior Unit: Can only attack in the front line.'
+	R
+	'Bow Unit: Can attack in either line.'
+	R
+	'Magic Unit: Can attack in either line.'
+	\L_018fb:
+	ZH 1:
+	'Unit Annihilation:'
+	R
+	'When a general’s HP hits 0, the general’s entire'
+	R
+	'unit is annihilated.'
+	\L_018fb:
+	@L_0024e:
+*L_006d1:
+	ZH 1:
+	'You can perform all of the following actions once'
+	R
+	'per Rance Army Phase.'
+	\L_018fb:
+	ZH 1:
+	'Subordinates Command:'
+	R
+	'You can either replenish a large number of one'
+	R
+	'unit’s troops or increase a unit’s max troops.'
+	\L_018fb:
+	ZH 1:
+	'Subordinates Command:'
+	R
+	'On top of performing one of the previous two'
+	R
+	'actions, you may also talk to a subordinate.'
+	\L_018fb:
+	ZH 1:
+	'Harem Command:'
+	R
+	'Calls a girl from Rance’s harem to have sex.'
+	\L_018fb:
+	ZH 1:
+	'Merchant Command:'
+	R
+	'Calls the merchant Pluepet for shopping.'
+	\L_018fb:
+	ZH 1:
+	'War:'
+	R
+	'You can attack a territory that’s connected to one'
+	R
+	'of your own by a path.'
+	\L_018fb:
+	ZH 1:
+	'You can attack as many times as you want until'
+	R
+	'either you’ve conquered a territory or you’ve run'
+	R
+	'out of units to use.'
+	\L_018fb:
+	ZH 1:
+	'Territory Command:'
+	R
+	'Choices in territories both under or not under your'
+	R
+	'control. You can do one of the following:'
+	\L_018fb:
+	ZH 1:
+	'Exclusive Location: Go somewhere unique to an area.'
+	R
+	'Temporary Levy: Collect money in your territory.'
+	R
+	'Bolster Defense: Raise defense of your territory.'
+	\L_018fb:
+	ZH 1:
+	'Dungeon Command:'
+	R
+	'Search dungeons and specific buildings connected to'
+	R
+	'your territories.'
+	\L_018fb:
+	@L_0024e:
+*L_007e3:
+	ZH 1:
+	'This game is about taking the role of Rance in his'
+	R
+	'struggle to take over the world.'
+	\L_018fb:
+	ZH 1:
+	'A week passes in-game every turn. Each turn is made'
+	R
+	'up of multiple phases. The phase order is:'
+	R
+	'Rance Army Phase > Enemy Phases > Turn End'
+	\L_018fb:
+	@L_0024e:
+*L_0081b:
+	ZH 1:
+	'A unit is made up of a general and the troops under'
+	R
+	'them. The unit’s maximum number of troops is based'
+	R
+	'on the general’s commanding ability.'
+	\L_018fb:
+	ZH 1:
+	'At the start of a turn, if a unit has less than its'
+	R
+	'maximum number of troops, it will restore some'
+	R
+	'troops.'
+	\L_018fb:
+	ZH 1:
+	'You may also restore a large number of troops to one'
+	R
+	'unit by selecting Replenish Troops on the'
+	R
+	'Subordinates screen, but this method costs money.'
+	\L_018fb:
+	ZH 1:
+	'A unit can fight in only one battle per turn.'
+	R
+	'If a unit acts during the Rance Army phase, it can’t'
+	R
+	'act during the enemy faction phases.'
+	\L_018fb:
+	@L_0024e:
+*L_00894:
+	ZH 1:
+	'While different from units, ninjas can also only act'
+	R
+	'once per turn. They can collect enemy information'
+	R
+	'and sabotage enemy nations.'
+	\L_018fb:
+	ZH 1:
+	'It’s also possible for them to be captured, though,'
+	R
+	'in which case you’ll lose them forever.'
+	\L_018fb:
+	ZH 1:
+	'You can always safely scout with a ninja when the'
+	R
+	'enemy is attacking you, however.'
+	\L_018fb:
+	@L_0024e:
+*L_008e2:
+	ZH 1:
+	'Kichikuou Rance Development Staff'
+	\L_018fb:
+	ZH 1:
+	'Scenario Structure／Original Creator'
+	R
+	'　　　　　　　TADA'
+	\L_018fb:
+	ZH 1:
+	'Scenario Text'
+	R
+	'　　　　　　　Tori'
+	R
+	'　　　　　　　Fumya'
+	\L_018fb:
+	ZH 1:
+	'Scenario Text'
+	R
+	'　　　　　　　Moomin'
+	\L_018fb:
+	ZH 1:
+	'Game Design'
+	R
+	'　　　　　　　TADA'
+	\L_018fb:
+	ZH 1:
+	'Game Programming'
+	R
+	'　　　　　　　WAO'
+	R
+	'　　　　　　　TADA'
+	\L_018fb:
+	ZH 1:
+	'Screen Design'
+	R
+	'　　　　　　　Purin'
+	\L_018fb:
+	ZH 1:
+	'Main Artwork'
+	R
+	'　　　　　　　Masato Mutsumi'
+	R
+	'　　　　　　　MIN'
+	\L_018fb:
+	ZH 1:
+	'Sub Artwork'
+	R
+	'　　　　　　　Purin'
+	R
+	'　　　　　　　Orion'
+	\L_018fb:
+	ZH 1:
+	'Sub Artwork'
+	R
+	'　　　　　　　Karen'
+	R
+	'　　　　　　　YUKIMI'
+	\L_018fb:
+	ZH 1:
+	'Sprites'
+	R
+	'　　　　　　　Fukupon'
+	R
+	'　　　　　　　Purin'
+	\L_018fb:
+	ZH 1:
+	'Sprites'
+	R
+	'　　　　　　　Orion'
+	\L_018fb:
+	ZH 1:
+	'Sprites (Items)'
+	R
+	'　　　　　　　Kuribayashi'
+	\L_018fb:
+	ZH 1:
+	'Music & Sound Effects'
+	R
+	'　　　　　　　Shade'
+	\L_018fb:
+	ZH 1:
+	'Title Logo'
+	R
+	'　　　　　　　Cherushii'
+	\L_018fb:
+	ZH 1:
+	'World/Setting Structure'
+	R
+	'　　　　　　　TADA'
+	R
+	'　　　　　　　Purin/Orion'
+	\L_018fb:
+	ZH 1:
+	'Shading'
+	R
+	'　　　　　　　Karen'
+	R
+	'　　　　　　　Oden Yoshida'
+	\L_018fb:
+	ZH 1:
+	'Shading'
+	R
+	'　　　　　　　Minoru'
+	\L_018fb:
+	ZH 1:
+	'Shading Assistance'
+	R
+	'　　　　　　　Senya Kirishima'
+	\L_018fb:
+	ZH 1:
+	'System Programming (SYSTEM 3.5)'
+	R
+	'　　　　　　　Kazushi'
+	R
+	'　　　　　　　WAO'
+	\L_018fb:
+	ZH 1:
+	'System Programming (SYSTEM 3.5)'
+	R
+	'　　　　　　　Shige'
+	\L_018fb:
+	ZH 1:
+	'Backgrounds'
+	R
+	'　　　　　　　Nakajii'
+	R
+	'　　　　　　　Youichirou'
+	\L_018fb:
+	ZH 1:
+	'Backgrounds'
+	R
+	'　　　　　　　Mune Q'
+	\L_018fb:
+	ZH 1:
+	'CG'
+	R
+	'　　　　　　　K'
+	R
+	'　　　　　　　YOK'
+	\L_018fb:
+	ZH 1:
+	'CG'
+	R
+	'　　　　　　　Chabashira'
+	R
+	'　　　　　　　Dairagi'
+	\L_018fb:
+	ZH 1:
+	'CG'
+	R
+	'　　　　　　　Yuuta'
+	R
+	'　　　　　　　Oushuuran'
+	\L_018fb:
+	ZH 1:
+	'CG'
+	R
+	'　　　　　　　Takashi Saeki'
+	R
+	'　　　　　　　Mieshi'
+	\L_018fb:
+	ZH 1:
+	'CG'
+	R
+	'　　　　　　　No D!'
+	R
+	'　　　　　　　Naritaya'
+	\L_018fb:
+	ZH 1:
+	'CG'
+	R
+	'　　　　　　　Purin'
+	R
+	'　　　　　　　Orion'
+	\L_018fb:
+	ZH 1:
+	'CG'
+	R
+	'　　　　　　　Shikigami Azuma'
+	\L_018fb:
+	ZH 1:
+	'CG Cooperation'
+	R
+	'　　　　　　　Chiibou'
+	\L_018fb:
+	ZH 1:
+	'Consolidating Printed Items'
+	R
+	'　　　　　　　OKA'
+	\L_018fb:
+	ZH 1:
+	'Business/Sales'
+	R
+	'　　　　　　　Yoshitaka'
+	R
+	'　　　　　　　Fuu-chan'
+	\L_018fb:
+	ZH 1:
+	'Business/Sales'
+	R
+	'　　　　　　　Macky'
+	R
+	'　　　　　　　Coffee Kia'
+	\L_018fb:
+	ZH 1:
+	'Prologue & Opening Demo'
+	R
+	'　　　　　　　WAO'
+	\L_018fb:
+	ZH 1:
+	'Ending + Fortune/Misfortune'
+	R
+	'　　　　　　　Moomin'
+	\L_018fb:
+	ZH 1:
+	'Music Mode'
+	R
+	'　　　　　　　Shade'
+	R
+	'　　　　　　　Chimiroimu'
+	\L_018fb:
+	ZH 1:
+	'Debugging'
+	R
+	'　　　　　　　Moomin'
+	R
+	'　　　　　　　Shade'
+	\L_018fb:
+	ZH 1:
+	'Debugging'
+	R
+	'　　　　　　　Many Others'
+	\L_018fb:
+	@L_0007f:
+*L_00cc6:
+	ZH 1:
+	'Tori「Payoooon.'
+	R
+	'　　　  You can hear me but not see me.」'
+	\L_018fb:
+	ZH 1:
+	'Tori「This is Tori, Alicesoft’s filthy erotic'
+	R
+	'     writer.」'
+	\L_018fb:
+	ZH 1:
+	'Yukichi「Caw caw.」'
+	\L_018fb:
+	ZH 1:
+	'Tori「Hey, shut up, bird. What will... should be'
+	R
+	'     coming after Kichikuou Rance is a game called'
+	R
+	'     Ikenai Katsumi Sensei.」'
+	\L_018fb:
+	ZH 1:
+	'Yukichi「Caw!!」'
+	\L_018fb:
+	ZH 1:
+	'Tori「Worried about when it will... should be coming'
+	R
+	'     out?'
+	R
+	'     Quiet, bird.」'
+	\L_018fb:
+	ZH 1:
+	'Tori「Uh～～～... Well...」'
+	\L_018fb:
+	ZH 1:
+	'Tori「The protagonist, Dr. Katsumi, is the same Dr.'
+	R
+	'     Katsumi from DPS’s Ikenai Naika Kenshin.」'
+	\L_018fb:
+	ZH 1:
+	'Tori「Dr. Katsumi’s audacious life has been made into'
+	R
+	'     a game.」'
+	\L_018fb:
+	ZH 1:
+	'Tori「There’s no goal, just play a game as Dr.'
+	R
+	'     Katsumi. You could say it’s an adventure game,'
+	R
+	'     I guess??」'
+	\L_018fb:
+	ZH 1:
+	'Tori「There are men with suits, glasses and parted'
+	R
+	'     hair in it, something I’m personally'
+	R
+	'     interested in.」'
+	\L_018fb:
+	ZH 1:
+	'Tori「Also, don’t know how many people would know'
+	R
+	'     about this since the game is out of print, but'
+	R
+	'     there’s a Dr. Stop character...」'
+	\L_018fb:
+	ZH 1:
+	'Tori「Dr. Kira makes an appearance.'
+	R
+	'　　　  Wow.」'
+	\L_018fb:
+	ZH 1:
+	'Tori「The artist is Kazuma G Version, artist for'
+	R
+	'     Elven Bride.」'
+	\L_018fb:
+	ZH 1:
+	'Tori「Also, the CGs are using an incredible 60000'
+	R
+	'     colors. As such, it will be a bit demanding'
+	R
+	'     when it comes to specs.」'
+	\L_018fb:
+	ZH 1:
+	'Tori「First, be able to run Windows 95.」'
+	\L_018fb:
+	ZH 1:
+	'Tori「Next, have a computer that displays 800 x 600'
+	R
+	'     pixels and over 60000 colors, as well as a'
+	R
+	'     sufficient monitor.」'
+	\L_018fb:
+	ZH 1:
+	'Tori「It’s recommended your CPU be a 100 MHz Pentium'
+	R
+	'     or greater, and you have 16MB of memory or'
+	R
+	'     greater.」'
+	\L_018fb:
+	ZH 1:
+	'Tori「If your little Pentiums and memories are good'
+	R
+	'     enough, you’ll have a pleasant gaming'
+	R
+	'     experience.」'
+	\L_018fb:
+	ZH 1:
+	'Tori「Also... It’ll take a lot of hard disk space...」'
+	\L_018fb:
+	ZH 1:
+	'Tori「I can’t say how much yet, but...'
+	R
+	'　　　  It’ll be a lot, in any case.」'
+	\L_018fb:
+	ZH 1:
+	'Yukichi「Caaaaaaw!!」'
+	\L_018fb:
+	ZH 1:
+	'Tori「I’ll eat you, bird.」'
+	\L_018fb:
+	ZH 1:
+	'Tori「Also, there’s 4 BMP images of sample CGs'
+	R
+	'     included on the Kichikuou CD.」'
+	\L_018fb:
+	ZH 1:
+	'Tori「Only look at them if you’re capable of'
+	R
+	'     displaying 60000 colors.」'
+	\L_018fb:
+	ZH 1:
+	'Tori「They’re in the folder named Katsumi on the'
+	R
+	'     Kichikuou CD, please take a look.」'
+	\L_018fb:
+	ZH 1:
+	'Tori「Now, until we meet again.'
+	R
+	'　　　  Ngah, gggh.」'
+	\L_018fb:
+	ZH 1:
+	'Yukichi「Caaaaw.」'
+	\L_018fb:
+	ZH 1:
+	'Tori「Munch.」'
+	\L_018fb:
+	@L_0007f:
+*L_00f49:
+	ZH 1:
+	'Alicesoft provides numerous services on their'
+	R
+	'internet homepage.'
+	\L_018fb:
+	ZH 1:
+	'Everyone, even people that don’t have a computer,'
+	R
+	'should know about the internet.'
+	\L_018fb:
+	ZH 1:
+	'Alicesoft games and goods are sold on the homepage,'
+	R
+	'and there’s user support too.'
+	R
+	'There’s even 4-panel manga by Hide-SAN.'
+	\L_018fb:
+	ZH 1:
+	'Then there’s the user club restricted to members'
+	R
+	'only, \"Alice’s Villa\".'
+	\L_018fb:
+	ZH 1:
+	'Here you can get info faster than from any magazine,'
+	R
+	'as well a download service for games only members'
+	R
+	'can play.'
+	\L_018fb:
+	ZH 1:
+	'If you’re interested, please fill out the club'
+	R
+	'membership registration and use your ID and password'
+	R
+	'to access the club bulletin.'
+	\L_018fb:
+	ZH 1:
+	'...'
+	\L_018fb:
+	ZH 1:
+	'The URL is...'
+	\L_018fb:
+	ZH 1:
+	'http//alicesoft.co.jp'
+	\L_018fb:
+	ZH 1:
+	'Oh, and we started an e-mail address called'
+	R
+	'\"Japan Alice Party\".'
+	\L_018fb:
+	ZH 1:
+	'It sends out announcements that our homepage has'
+	R
+	'updated.'
+	\L_018fb:
+	ZH 1:
+	'You can register to receive e-mails on our homepage.'
+	\L_018fb:
+	ZH 1:
+	'Sign up, everyone.'
+	\L_018fb:
+	ZH 1:
+	'That’s all about the internet.'
+	\L_018fb:
+	@L_0007f:
+*L_0106d:
+	ZH 1:
+	'Hi, this is Arunaru, the translator. This section'
+	R
+	'used to be about Xspec, something that measures your'
+	R
+	'PC’s performance.'
+	\L_018fb:
+	ZH 1:
+	'But since it’s almost 20 years from this game’s'
+	R
+	'original release now, you’re probably using a PC'
+	R
+	'that can run this game.'
+	\L_018fb:
+	ZH 1:
+	'So instead I’ll talk a bit about this game itself.'
+	R
+	'A lot goes around about this game that isn’t'
+	R
+	'necessarily accurate.'
+	\L_018fb:
+	ZH 1:
+	'Kichikuou Rance was at first being developed as'
+	R
+	'Rance 5, but at some point during development it was'
+	R
+	'decided it would be a \"What if?\" game.'
+	\L_018fb:
+	ZH 1:
+	'It takes place in an alternate timeline from the'
+	R
+	'main series splitting off after Rance 4.2.'
+	\L_018fb:
+	ZH 1:
+	'The goal of the developers was to fit in every idea'
+	R
+	'they thought of for the series but hadn’t yet used'
+	R
+	'all in one game. It came out in December, 1996.'
+	\L_018fb:
+	ZH 1:
+	'The result was hugely successful for an eroge, kept'
+	R
+	'selling for around a decade after its release and'
+	R
+	'kept a place in eroge magazine rankings for years.'
+	\L_018fb:
+	ZH 1:
+	'Total sales are hard to find but it sold about 75000'
+	R
+	'copies by the end of 1997 and presumably over 100000'
+	R
+	'copies in total. It’s been freeware since 2006.'
+	\L_018fb:
+	ZH 1:
+	'While future Rance games went a different route'
+	R
+	'from this game, they’ve been highly influenced by'
+	R
+	'it and frequently reintroduce characters and events.'
+	\L_018fb:
+	ZH 1:
+	'Another interesting tidbit about this game is that'
+	R
+	'it was actually minimally debugged and proofread due'
+	R
+	'to the random nature of it all.'
+	\L_018fb:
+	ZH 1:
+	'I fixed a number of the bugs and left others because'
+	R
+	'you can do some fun stuff. The most important thing'
+	R
+	'is that all the items do what they claim now.'
+	\L_018fb:
+	@L_0007f:
+	]
+	\L_01908:
+	@L_0007f:
+*L_011b7:
+	\L_01908:
+	ZH 1:
+	'The most popular characters based on a poll'
+	R
+	'Alicesoft conducted in 1997 are as follows.'
+	\L_018fb:
+	EC 0:
+	J0 0, 294:
+	G 815:
+	ZH 1:
+	'20th Place: Silky Littleraisin'
+	J0 224, 20:
+	G 73:
+	\L_018fb:
+	ZH 1:
+	'19th Place: Sheila Helman'
+	J0 224, 20:
+	G 18:
+	\L_018fb:
+	ZH 1:
+	'18th Place: Nikkou'
+	J0 224, 20:
+	G 34:
+	\L_018fb:
+	ZH 1:
+	'17th Place: Hornet'
+	J0 224, 20:
+	G 35:
+	\L_018fb:
+	ZH 1:
+	'16th Place: Arlcoate Marius'
+	J0 224, 20:
+	G 77:
+	\L_018fb:
+	ZH 1:
+	'15th Place: Pastel Kalar'
+	J0 224, 20:
+	G 41:
+	\L_018fb:
+	ZH 1:
+	'14th Place: Miki Kurusu'
+	J0 224, 20:
+	G 54:
+	\L_018fb:
+	ZH 1:
+	'13th Place: Annis Sawatari'
+	J0 224, 20:
+	G 52:
+	\L_018fb:
+	ZH 1:
+	'12th Place: Ragnarokarc Super Gandhi'
+	J0 224, 20:
+	G 42:
+	\L_018fb:
+	ZH 1:
+	'11th Place: Reset Kalar'
+	J0 224, 20:
+	G 96:
+	\L_018fb:
+	ZH 1:
+	'10th Place: Eleanor Ran'
+	J0 224, 20:
+	G 66:
+	\L_018fb:
+	ZH 1:
+	'9th Place: Menad Shisei'
+	J0 224, 20:
+	G 8:
+	\L_018fb:
+	ZH 1:
+	'8th Place: Sill Plain'
+	J0 224, 20:
+	G 2:
+	\L_018fb:
+	ZH 1:
+	'7th Place: Shizuka Masou'
+	J0 224, 20:
+	G 49:
+	\L_018fb:
+	ZH 1:
+	'6th Place: Satella'
+	J0 224, 20:
+	G 75:
+	\L_018fb:
+	ZH 1:
+	'5th Place: Maris Amaryllis'
+	J0 224, 20:
+	G 6:
+	\L_018fb:
+	ZH 1:
+	'4th Place: Kanami Kentou'
+	J0 224, 20:
+	G 9:
+	\L_018fb:
+	ZH 1:
+	'3rd Place: Maria Custard'
+	J0 224, 20:
+	G 50:
+	\L_018fb:
+	ZH 1:
+	'2nd Place: Rance'
+	J0 224, 20:
+	G 1:
+	\L_018fb:
+	ZH 1:
+	'1st Place: Isoroku Yamamoto'
+	J0 224, 20:
+	G 24:
+	\L_018fb:
+	ZH 1:
+	'For comparison, the translator’s top 20 is as'
+	R
+	'follows.'
+	\L_018fb:
+	ZH 1:
+	'20th Place: Miki Kurusu'
+	J0 224, 20:
+	G 54:
+	\L_018fb:
+	ZH 1:
+	'19th Place: Mineva Margaret'
+	J0 224, 20:
+	G 427:
+	\L_018fb:
+	ZH 1:
+	'18th Place: Maria Custard'
+	J0 224, 20:
+	G 50:
+	\L_018fb:
+	ZH 1:
+	'17th Place: Papaya Server'
+	J0 224, 20:
+	G 44:
+	\L_018fb:
+	ZH 1:
+	'16th Place: Silky Littleraisin'
+	J0 224, 20:
+	G 73:
+	\L_018fb:
+	ZH 1:
+	'15th Place: Leila Grecni'
+	J0 224, 20:
+	G 7:
+	\L_018fb:
+	ZH 1:
+	'14th Place: Cafe Artful'
+	J0 224, 20:
+	G 87:
+	\L_018fb:
+	ZH 1:
+	'13th Place: Lia Parapara Leazas'
+	J0 224, 20:
+	G 5:
+	\L_018fb:
+	ZH 1:
+	'12th Place: Maris Amaryllis'
+	J0 224, 20:
+	G 6:
+	\L_018fb:
+	ZH 1:
+	'11th Place: Annis Sawatari'
+	J0 224, 20:
+	G 52:
+	\L_018fb:
+	ZH 1:
+	'10th Place: Magic the Gandhi'
+	J0 224, 20:
+	G 58:
+	\L_018fb:
+	ZH 1:
+	'9th Place: Nagi su Ragarl'
+	J0 224, 20:
+	G 45:
+	\L_018fb:
+	ZH 1:
+	'8th Place: Milli Yorks'
+	J0 224, 20:
+	G 67:
+	\L_018fb:
+	ZH 1:
+	'7th Place: Arlcoate Marius'
+	J0 224, 20:
+	G 77:
+	\L_018fb:
+	ZH 1:
+	'6th Place: Menad Shisei'
+	J0 224, 20:
+	G 8:
+	\L_018fb:
+	ZH 1:
+	'5th Place: Kanami Kentou'
+	J0 224, 20:
+	G 9:
+	\L_018fb:
+	ZH 1:
+	'4th Place: Satella'
+	J0 224, 20:
+	G 75:
+	\L_018fb:
+	ZH 1:
+	'3rd Place: Ragnarokarc Super Gandhi'
+	J0 224, 20:
+	G 42:
+	\L_018fb:
+	ZH 1:
+	'2nd Place: Shizuka Masou'
+	J0 224, 20:
+	G 49:
+	\L_018fb:
+	ZH 1:
+	'1st Place: Rance'
+	J0 224, 20:
+	G 1:
+	\L_018fb:
+	G 240:
+	@L_0007f:
+	\L_01908:
+	ZH 1:
+	'戦闘時の効果音はステレオを利用しています。'
+	R
+	'ステレオ対応の場合はより迫力の有る効果音が'
+	R
+	'楽しめます。'
+	\L_018fb:
+	ZH 1:
+	'モノラルのみ対応の場合は、プログラムで'
+	R
+	'左右チャンネルの音を合成して、モノラルに変換して'
+	R
+	'出力しています。'
+	\L_018fb:
+*L_01661:
+	\L_018ee:
+	EC 0:
+	CB 0, 0, 640, 400, 255:
+	CB 320 - 64, 200 - 64, 64 * 2, 64 * 2, 255:
+	CB 320 - 96, 200 - 96, 96 * 2, 96 * 2, 255:
+	CB 320 - 128, 200 - 128, 128 * 2, 128 * 2, 255:
+	CB 320 - 160, 200 - 160, 160 * 2, 160 * 2, 255:
+	CL 320 - 64, 200 - 64, 320 + 63, 200 + 63, 255:
+	CL 320 + 63, 200 - 64, 320 - 64, 200 + 63, 255:
+	IK 0:
+	EC 0:
+	G 806:
+	G 240:
+	SS 28:
+	\L_018b6:
+	@L_0007f:
+*L_0173e:
+	SS 0:
+	\L_018ee:
+	CF 0, 0, 640, 400, 0:
+	!VAR0516 : 3!
+	%#WAO_MAP.ADV:
+	\L_018b6:
+	G 104:
+	ZH 1:
+	'Rance（I’ll kill them...）'
+	Y 3, 120:
+	\L_01908:
+	ZH 1:
+	'Rance（I’ll kill you all, Helmanians!'
+	R
+	'      You think you can do this to meeeee?!!!）'
+	Y 3, 180:
+	\L_01908:
+	ZH 1:
+	'Rance kept running.'
+	Y 3, 180:
+	\L_01908:
+	ZH 1:
+	'Rance「God damn iiiiiiiiiiit!!!!!」'
+	%#ｵｰﾌﾟﾆﾝｸﾞ.ADV:
+	EC 0:
+	G 806:
+	G 240:
+	SS 28:
+	\L_018b6:
+	@L_0007f:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+*L_018b6:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_018ee:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_018fb:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01908:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

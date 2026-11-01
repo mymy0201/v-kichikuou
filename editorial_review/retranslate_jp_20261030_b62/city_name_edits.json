@@ -1,0 +1,61 @@
+{
+  "map_labels": [
+    {
+      "file": "SET_MAP.ADV",
+      "group": null,
+      "box": null,
+      "vi_lines": [
+        315,
+        315
+      ],
+      "before": "Khu Bần Hàn",
+      "after": "Poor",
+      "edit_type": "user_requested_city_name",
+      "source_city_id": 14,
+      "reason": "User explicitly requested literal English city names for consistency.",
+      "japanese": "プアーの街"
+    },
+    {
+      "file": "SET_MAP.ADV",
+      "group": null,
+      "box": null,
+      "vi_lines": [
+        339,
+        339
+      ],
+      "before": "Khu Phú Hào",
+      "after": "Rich",
+      "edit_type": "user_requested_city_name",
+      "source_city_id": 15,
+      "reason": "User explicitly requested literal English city names for consistency.",
+      "japanese": "リッチの街"
+    },
+    {
+      "file": "SET_MAP.ADV",
+      "group": null,
+      "box": null,
+      "vi_lines": [
+        531,
+        531
+      ],
+      "before": "Xích Địa",
+      "after": "Red",
+      "edit_type": "user_requested_city_name",
+      "source_city_id": 23,
+      "reason": "User explicitly requested literal English city names for consistency.",
+      "japanese": "レッドの街"
+    }
+  ],
+  "freia": {
+    "vi_group": 199,
+    "jp_groups": [
+      217,
+      218
+    ],
+    "scope": "Poor title and adjoining nonsexual alley/humming fragment only; rest of file not reviewed this batch."
+  },
+  "rules_before_sha256": "84f0bcc969eada57b3427bada0934c07f44433e22adcb5a71d860cb91006da05",
+  "rules_after_sha256": "253f2a452ac5c4f4a349ee48e853c1289ac0a5391a64bfbeb482ced849ba6f6a",
+  "excluded_from_rename": "Red House (Nhà Đỏ) is city85, distinct from Red city23. SET_CHR remains user-skipped.",
+  "method": "Exact source identities and city IDs verified against Japanese and English map entries. Source labels only, all numbers and commands unchanged."
+}

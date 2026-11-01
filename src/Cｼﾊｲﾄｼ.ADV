@@ -14,16 +14,20 @@
 *L_0006d:
 	\L_023e9:
 	ZH 1:
-	'［'
+	'['
 	X 8:
-	'］ (Quân Leazas) Kinh tế:'
+	']'
+	R
+	'(Quân Leazas)'
+	R
+	'Kinh tế: '
 	H 0, VAR0132:
 	ZH 1:
-	'Phòng thủ:'
+	'  Thủ: '
 	H 0, VAR0133:
 	ZH 1:
 	R
-	'Địa hình giao chiến:'
+	'Chiến trường: '
 	H 0, VAR0134:
 *L_000cb:
 	IM VAR0202, VAR0203:
@@ -729,7 +733,7 @@
 	{VAR0649 = 3:
 		ZH 1:
 		$L_01093$
-		'Phòng giam của Lelyukov'
+		'Phòng giam Lelyukov'
 		$
 	}
 	{(VAR0321 \ 0) * (VAR0321 < 4):
@@ -752,7 +756,7 @@
 	}
 	ZH 1:
 	$L_01078$
-	'Nhìn xung quanh'
+	'Đi tuần nhà giam'
 	$
 	R
 	$L_010ff$
@@ -833,17 +837,17 @@
 	\L_02475:
 	\L_02421:
 	ZH 1:
-	'Thần'
+	'Thần hiểu.'
 	\L_024d6:
 	ZH 1:
-	'hiểu.'
+	'Vậy thì,'
 	\L_024d6:
 	ZH 1:
-	'Thần sẽ tập trung trưng thu'
+	'thần sẽ tập trung trưng'
 	R
-	'những kẻ tích trữ tiền của'
+	'thu những kẻ tích trữ'
 	R
-	'bất chính.'
+	'tiền của bất chính.'
 	\L_024d6:
 	\L_024c9:
 	\L_02483:
@@ -852,32 +856,38 @@
 	\L_024bb:
 	\L_023e9:
 	ZH 1:
-	'Quân đội Leazas bắt đầu thu thuế tạm thời.'
+	'Quân Leazas bắt đầu trưng'
+	R
+	'thu đột xuất.'
 	\L_024d6:
 	Y 4, 3:
 	!VAR0690 : VAR0000!
 	{VAR0690 = 1:
 		ZH 1:
-		'Họ bắt đầu bằng việc nhắm vào'
+		'Những kẻ đầu tiên bị nhắm'
 		R
-		'những thương gia tham nhũng.'
+		'đến là đám thương nhân gian'
+		R
+		'ác vơ vét của riêng.'
 		\L_024d6:
 	}
 	{VAR0690 = 2:
 		ZH 1:
-		'Tất cả tài sản giàu có của'
+		'Dinh thự của mọi nhà giàu'
 		R
-		'thành phố này đều bị tấn công.'
+		'trong vùng đều bị đột kích.'
 		\L_024d6:
 	}
 	{VAR0690 = 3:
 		ZH 1:
-		'Các công ty thương mại, ngân hàng,'
+		'Các công ty, ngân hàng, cửa'
+		R
+		'hàng bách hóa...'
 		\L_024d6:
 		ZH 1:
-		'cửa hàng bách hóa và bất kỳ nơi nào'
+		'Nơi nào có vẻ lắm tiền đều'
 		R
-		'khác có vẻ có tiền đều bị tấn công.'
+		'bị đột kích.'
 		\L_024d6:
 	}
 	ZH 1:
@@ -886,10 +896,10 @@
 	\L_024d6:
 	Y 4, VAR0132 * 10:
 	ZH 1:
-	'Từ nhiều nơi khác nhau, tổng cộng'
+	'Khắp nơi gom góp được'
 	H 0, VAR0000:
 	ZH 1:
-	'00K VÀNG đã được thu thập.'
+	'00K VÀNG.'
 	\L_024d6:
 	!VAR0055 : VAR0055 + VAR0000!
 	!VAR0519 : VAR0519 + VAR0000!
@@ -1059,19 +1069,19 @@
 		\L_02405:
 		\L_023b1:
 		ZH 1:
-		'Tôi tìm thấy một'
+		'Tìm được một cô '
 		Y 4, 5:
 		{VAR0000 = 1:
 			ZH 1:
-			'đẹp'
+			'xinh đẹp'
 		}
 		{VAR0000 = 2:
 			ZH 1:
-			'gọn gàng'
+			'đoan trang'
 		}
 		{VAR0000 = 3:
 			ZH 1:
-			'ngọt ngào'
+			'yêu kiều'
 		}
 		{VAR0000 = 4:
 			ZH 1:
@@ -1079,86 +1089,84 @@
 		}
 		{VAR0000 = 5:
 			ZH 1:
-			'trinh nữ'
+			'còn trinh'
 		}
 		ZH 1:
 		R
 		Y 4, 10:
 		{VAR0000 = 1:
 			ZH 1:
-			'con gái của'
-			R
-			'gia đình giàu có'
+			'là con gái nhà giàu'
 		}
 		{VAR0000 = 2:
 			ZH 1:
-			'thư ký của công ty lớn'
+			'là thư ký công ty lớn'
 		}
 		{VAR0000 = 3:
 			ZH 1:
-			'nữ sinh viên'
+			'là nữ sinh viên'
 		}
 		{VAR0000 = 4:
 			ZH 1:
-			'mồ côi'
+			'là cô gái mồ côi'
 		}
 		{VAR0000 = 5:
 			ZH 1:
-			'nhân viên bán bánh'
+			'là cô bán bánh mì'
 		}
 		{VAR0000 = 6:
 			ZH 1:
-			'biên tập tạp chí'
+			'là biên tập viên tạp chí'
 		}
 		{VAR0000 = 7:
 			ZH 1:
-			'vũ công'
+			'là vũ nữ'
 		}
 		{VAR0000 = 8:
 			ZH 1:
-			'nữ diễn viên'
+			'là nữ diễn viên'
 		}
 		{VAR0000 = 9:
 			ZH 1:
-			'y tá'
+			'là y tá'
 		}
 		{VAR0000 = 10:
 			ZH 1:
-			'người giúp việc'
+			'là hầu gái'
 		}
 		ZH 1:
 		R
-		'Vua nên thích.'
+		'hợp khẩu vị Bệ hạ.'
 		\L_024d6:
 		\L_024c9:
 		!VAR0516 : 6!
 		\L_02475:
 		\L_02421:
 		ZH 1:
-		'Làm tốt lắm. Hãy'
+		'Vất vả rồi. Hãy đưa cô'
 		R
-		'nhẹ nhàng đưa nàng'
+		'ấy vào Phòng Đặc biệt'
 		R
-		'vào Phòng Đặc biệt.'
+		'trong thành thật chu đáo.'
 		\L_024d6:
 		\L_024c9:
 		\L_023b1:
 		ZH 1:
-		'Vâng, thưa bà.'
+		'Rõ!'
 		\L_024d6:
 		\L_024c9:
 		Y 4, 3:
 		{VAR0000 = 1:
 			\L_023cd:
 			ZH 1:
-			'... Chỉ dành cho nhà'
+			'......Chỉ mình nhà'
 			R
-			'vua... Chắc là tuyệt lắm...'
+			'vua... sướng thật...'
 			\L_024d6:
 			ZH 1:
-			'Có lẽ tôi có thể'
+			'Hay mình lén đem'
 			R
-			'đưa nàng về nhà cùng mình...'
+			'một cô về nhỉ...'
 			\L_024d6:
 			\L_024c9:
 			\L_02421:
@@ -1206,9 +1214,9 @@
 	\L_024c9:
 	\L_023b1:
 	ZH 1:
-	'Cái gì? Đó là tất'
+	'Gì? Chỉ có thế à?'
 	R
-	'cả? Không có gì khác à?'
+	'Không còn gì nữa sao?'
 	\L_024d6:
 	\L_024c9:
 	!VAR0516 : 6!
@@ -1224,7 +1232,7 @@
 	\L_024c9:
 	\L_023b1:
 	ZH 1:
-	'Ch, chán quá.'
+	'Chậc, chán thật.'
 	\L_024d6:
 	\L_024c9:
 	\L_023e9:
@@ -1275,11 +1283,9 @@
 	\L_024c9:
 	\L_02421:
 	ZH 1:
-	'Lạ thật... Bánh'
+	'Quái thật... Bánh mì à? Hay'
 	R
-	'mì à? Nó có phải là'
-	R
-	'thú nhồi bông không?'
+	'thú nhồi bông?'
 	\L_024d6:
 	\L_024c9:
 	\L_023e9:
@@ -1289,35 +1295,35 @@
 	\L_024c9:
 	\L_02421:
 	ZH 1:
-	'Ôi, nó kêu meo'
+	'Ối, nó kêu rồi! Cái quái gì'
 	R
-	'meo! Cái quái gì vậy?!!'
+	'thế này!!'
 	\L_024d6:
 	\L_024c9:
 	\L_023b1:
 	ZH 1:
-	'Thưa, đây là món ăn cực'
+	'Thưa, đây là món ăn'
 	R
-	'hiếm, gọi là Bánh mì mèo,'
-	R
-	'một'
+	'vô cùng quý hiếm,'
 	\L_024d6:
 	ZH 1:
-	'loại Điểm tâm Tuyệt hảo. Sức'
+	'được mệnh danh là'
 	R
-	'mạnh'
+	'điểm tâm tối thượng,'
+	R
+	'tên là [Bánh mì mèo].'
 	\L_024d6:
 	ZH 1:
-	'của nó là một triệu đa giác'
+	'Sức mạnh của nó là'
 	R
-	'ạ.'
+	'một triệu polygon ạ.'
 	\L_024d6:
 	\L_024c9:
 	\L_02421:
 	ZH 1:
-	'Tuyệt hảo á... Cái này... ăn'
+	'Tối thượng cái nỗi gì...'
 	R
-	'được thật à?'
+	'Thứ này... ăn được à?'
 	\L_024d6:
 	\L_024c9:
 	\L_023b1:
@@ -1353,19 +1359,17 @@
 	\L_024c9:
 	\L_02421:
 	ZH 1:
-	'Không, ta không muốn nó.'
+	'Không, ta không ăn đâu.'
 	\L_024d6:
 	ZH 1:
-	'Nếu nó hiếm như'
+	'Hiếm đến thế thì đem cất vào'
 	R
-	'ngươi nói thì hãy cất'
-	R
-	'nó vào phòng kho báu.'
+	'kho báu đi.'
 	\L_024d6:
 	\L_024c9:
 	\L_023b1:
 	ZH 1:
-	'Vâng, thưa bệ hạ.'
+	'Thần tuân lệnh.'
 	\L_024d6:
 	\L_024c9:
 	@L_019a8:
@@ -1394,29 +1398,27 @@
 	\L_024c9:
 	\L_023e9:
 	ZH 1:
-	'Thứ mà người lính'
+	'Thứ người lính đưa'
 	R
-	'đưa ra là một cái chai màu'
+	'ra là một chiếc lọ'
 	R
-	'nâu chứa đầy bột màu trắng.'
+	'nâu đầy ắp bột trắng.'
 	\L_024d6:
 	\L_024c9:
 	\L_02421:
 	ZH 1:
-	'Hohoh... Thứ này'
+	'Ồ... Đây là thứ ghê gớm ấy'
 	R
-	'tuyệt vời nhỉ? Thuốc'
-	R
-	'này có tác dụng gì?'
+	'à? Thuốc này có tác dụng gì?'
 	\L_024d6:
 	\L_024c9:
 	\L_023b1:
 	ZH 1:
-	'Không phải thuốc đâu ạ. Đây'
+	'Không phải thuốc đâu'
 	R
-	'là Kuriripu, món Bánh ngọt'
+	'ạ. Đây là món điểm tâm'
 	R
-	'Chí tôn!!'
+	'chí tôn [Kuriripu]!!'
 	\L_024d6:
 	\L_024c9:
 	\L_02421:
@@ -1445,9 +1447,9 @@
 	\L_024c9:
 	\L_02421:
 	ZH 1:
-	'Nghe có vẻ vô'
+	'Ai lại nói mấy lời'
 	R
-	'lý. Ai đang nói vậy?'
+	'phê pha ấy chứ?'
 	\L_024d6:
 	\L_024c9:
 	\L_023b1:
@@ -1466,11 +1468,11 @@
 	\L_024c9:
 	\L_02421:
 	ZH 1:
-	'Hmmmmm... Này, có ai'
+	'Hừm... Này, có ai không?'
 	R
-	'ở đây không? Hãy lấy cái này'
+	'Mang thứ này quẳng vào kho'
 	R
-	'và ném nó vào phòng kho báu.'
+	'báu đi.'
 	\L_024d6:
 	\L_024c9:
 	\L_02413:
@@ -1478,7 +1480,7 @@
 	\L_02405:
 	\L_023b1:
 	ZH 1:
-	'Vâng, thưa bệ hạ.'
+	'Thần tuân lệnh.'
 	\L_024d6:
 	\L_024c9:
 	\L_02483:
@@ -1486,18 +1488,18 @@
 	\L_02475:
 	\L_02421:
 	ZH 1:
-	'A... A a... Xin Bệ hạ Rance'
+	'A... a a~~. Ít nhất, ít'
 	R
-	'ít nhất cho thần tự mang nó'
+	'nhất xin cho thần được tự'
 	R
-	'vào kho!'
+	'mang đi, Bệ hạ Rance~~.'
 	\L_024d6:
 	\L_024c9:
 	\L_023b1:
 	ZH 1:
-	'Đừng mè nheo trước mặt Bệ'
+	'Đừng giở chứng trước mặt'
 	R
-	'hạ. Đi thôi, gã sành ăn.'
+	'Bệ hạ. Đi nào, Gourmand.'
 	\L_024d6:
 	\L_024c9:
 	\L_02413:
@@ -1511,14 +1513,16 @@
 	\L_02405:
 	\L_023e9:
 	ZH 1:
-	'Người lính ham ăn bị kéo đi.'
+	'Người lính mê ăn uống bị lôi'
+	R
+	'xềnh xệch đi.'
 	\L_024d6:
 	\L_024c9:
 	\L_023b1:
 	ZH 1:
-	'Có lẽ có đủ loại người'
+	'Đám lính quèn cũng đủ loại'
 	R
-	'làm việc dưới quyền ta...'
+	'thật...'
 	\L_024d6:
 	\L_024c9:
 	@L_019a8:
@@ -1528,19 +1532,23 @@
 	\L_02405:
 	\L_023b1:
 	ZH 1:
-	'Thành phố cũng phải chịu đòn'
+	'Thành phố cũng phải lì'
 	R
-	'giỏi như ta.'
+	'đòn như ta mới được.'
 	\L_024d6:
 	ZH 1:
-	'Maris, gia cố phòng thủ đi.'
+	'Maris, tăng cường'
+	R
+	'phòng thủ thành phố đi.'
 	\L_024d6:
 	\L_024c9:
 	!VAR0516 : 6!
 	\L_02475:
 	\L_02421:
 	ZH 1:
-	'Đã hiểu. Các chi phí sẽ...'
+	'Thần tuân lệnh. Chi phí dự'
+	R
+	'tính là...'
 	\L_024d6:
 	!VAR0001 : VAR0133 * 10 * 2!
 	{VAR0001 = 0:
@@ -1555,9 +1563,9 @@
 	\L_024c9:
 	\L_02459:
 	ZH 1:
-	'Maris cho Rance'
+	'Maris đưa tờ tính toán cho'
 	R
-	'xem các tính toán.'
+	'Rance xem.'
 	\L_024d6:
 	\L_024c9:
 	\L_023b1:
@@ -1598,11 +1606,11 @@
 	}
 	ZH 1:
 	$L_0210f$
-	'Củng cố'
+	'Thi công'
 	$
 	R
 	$L_02304$
-	'Không'
+	'Không làm'
 	$
 	]
 	@L_020d1:
@@ -1611,9 +1619,9 @@
 	\L_024c9:
 	\L_023b1:
 	ZH 1:
-	'Đành chịu... Làm thôi. Cứ'
+	'Đành vậy... Làm'
 	R
-	'tiến hành đi.'
+	'đi. Cứ thế mà làm.'
 	\L_024d6:
 	\L_024c9:
 	\L_02421:
@@ -1633,24 +1641,28 @@
 	%#PCMPLAY.ADV:
 	\L_02459:
 	ZH 1:
-	'Theo lệnh của Rance,'
+	'Theo lệnh Rance, công trình'
 	\L_024d6:
 	ZH 1:
-	'việc xây dựng để cải thiện khả năng'
+	'gia cố phòng thủ thành phố'
 	R
-	'phòng thủ của thành phố bắt đầu.'
+	'được khởi công.'
 	\L_024d6:
 	ZH 1:
-	'Nhiều người đã làm việc trên nó.'
+	'Rất nhiều người tham gia thi'
+	R
+	'công.'
 	\L_024d6:
 	ZH 1:
-	'Một con hào được đào bao quanh thành phố.'
+	'Một con hào được đào bao'
+	R
+	'quanh thành phố.'
 	\L_024d6:
 	ZH 1:
-	'Một chiến hào cũng được tạo ra.'
+	'Chiến hào cũng được đào.'
 	\L_024d6:
 	ZH 1:
-	'Bẫy được đặt ở đây và ở đó.'
+	'Khắp nơi đều được đặt bẫy.'
 	\L_024d6:
 	\L_024c9:
 	\L_024bb:
@@ -1699,16 +1711,14 @@
 	{VAR0133 > 9:
 		\L_02421:
 		ZH 1:
-		'Bệ hạ Rance, thần tin rằng'
+		'Bệ hạ, phòng thủ nơi này đã'
 		R
-		'hệ thống phòng thủ của thành'
-		R
-		'phố này đã hoàn hảo rồi.'
+		'hoàn hảo rồi.'
 		\L_024d6:
 		ZH 1:
-		'Sẽ không có ích gì'
+		'Thi công thêm e chỉ phí công'
 		R
-		'nếu củng cố nó thêm nữa.'
+		'thôi ạ.'
 		\L_024d6:
 		\L_024c9:
 	}
@@ -1719,24 +1729,24 @@
 	\L_024c9:
 	\L_023b1:
 	ZH 1:
-	'Thôi, phí tiền lắm.'
+	'Thôi. Phí tiền.'
 	\L_024d6:
 	ZH 1:
-	'Địch đến thì lấy người làm'
+	'Địch tới thì dùng tường'
 	R
-	'tường mà thủ.'
+	'thành bằng người mà giữ.'
 	\L_024d6:
 	\L_024c9:
 	\L_02421:
 	ZH 1:
-	'Bức tường người???'
+	'Tường thành bằng người???'
 	\L_024d6:
 	\L_024c9:
 	\L_023b1:
 	ZH 1:
-	'Đúng thế, khỏi tốn tiền xây'
+	'Đúng thế, vậy thì khỏi'
 	R
-	'dựng. Miễn phí cơ mà.'
+	'tốn tiền xây. Miễn phí mà.'
 	\L_024d6:
 	ZH 1:
 	'Gahahahaha!'

@@ -59,7 +59,7 @@ Tài liệu được cấu trúc chuyên sâu để:
    - Khi nóng giận, cãi lộn, khinh bỉ kẻ thù nam, đe dọa hoặc đắc thắng: **"Tao"** hoặc **"Bố mày" / "Lão gia đây"**.
    - Với phụ nữ: Luôn nhìn nhận phụ nữ đẹp là chiến lợi phẩm, mục tiêu đè ra giường thị tẩm hoặc thành viên của hậu cung.
 3. **Tiếng cười thương hiệu**:
-   - Luôn là **`Gahahahaha!`** (hoặc `Ga ha ha ha!`). Tuyệt đối không dịch thành "Haha" hay "Hì hì".
+   - Luôn là **`Gahahahaha!`** (hoặc `Ga ha ha ha!`). 
 4. **Thán từ & Khẩu ngữ cửa miệng**:
    - `Khốn kiếp!`, `Chết tiệt!`, `Đệt!`, `Mẹ kiếp!`, `Bố mày chém chết giờ!`
    - `Đại pháo của ta`, `Siêu vũ khí của ta` (Hyper Weapon).
@@ -157,7 +157,7 @@ Khi dịch, phải đảm bảo đại từ trong lời dẫn ăn khớp với �
 
 ## 4. BẢNG TRA CỨU TOÀN DIỆN MỌI NHÂN VẬT TRONG GAME
 
-Bảng dưới đây tổng hợp toàn diện đại từ của **Người kể chuyện**, **Rance**, và **Xã hội xung quanh** cho toàn bộ ~85 nhân vật:
+Bảng dưới đây tổng hợp toàn diện đại từ của **Người kể chuyện**, **Rance**, và **Xã hội xung quanh** cho toàn bộ ~87 nhân vật:
 
 | STT | Tên Nhân Vật (JP / EN) | Phe Phái / Thân Phận | Người Kể Chuyện Gọi | Mọi Người Xung Quanh Gọi | Rance Gọi - Xưng | Nhân Vật Gọi Rance - Xưng |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -169,7 +169,7 @@ Bảng dưới đây tổng hợp toàn diện đại từ của **Người kể
 | **6** | **Barres Provence** (バレス) | Tổng tư lệnh lão tướng quân | `Lão tướng`, `ông`, `Barres`, `lão tướng râu bạc` | Binh sĩ: `Đại tướng quân Barres`; Haurein: `Cha`/`Phụ thân` | `Lão già Barres` / `Ngươi` - `Ta` | `Bệ hạ` - `Lão thần`/`Thần` |
 | **7** | **Cordoba** (コルドバ) | Tướng Hắc Giáp / Bức tường sắt | `Cordoba`, `vị tướng thiết giáp` | Binh sĩ: `Tướng quân Cordoba`; Rick: `Tướng quân Cordoba` | `Cordoba` / `Ngươi` - `Ta` | `Bệ hạ` - `Thần` |
 | **8** | **Ex Van** (エクス) | Quân sư thiên tài Leazas | `Ex Van`, `chàng`, `vị quân sư trẻ` | Triều đình: `Quân sư Ex`, `Đại nhân Ex` | `Ex` / `Ngươi` - `Ta` | `Bệ hạ` - `Thần` |
-| **9** | **Menad** (メナド) | Phó tướng Xích Quân (Tomboy) | `Cô`, `Menad`, `nữ phó tướng dũng cảm` | Binh sĩ: `Phó tướng Menad`; Rick: `Menad` | `Menad` / `Cô bé` / `Em` - `Ta` | `Ngài Rance` - `Em`/`Tôi` |
+| **9** | **Menad** (メナド) | Phó tướng Xích Quân (Tomboy) | `Cô`, `Menad`, `nữ phó tướng dũng cảm` | Binh sĩ: `Phó tướng Menad`; Rick: `Menad`; Zarak: `Menad`/`bạn gái` | `Menad` / `Cô bé` / `Em` - `Ta` | `Ngài Rance` - `Em`/`Tôi` |
 | **10** | **Haurein** (ハウレーン) | Nữ kiếm sĩ, ái nữ của Barres | `Cô`, `nàng`, `Haurein` | Binh sĩ: `Tiểu thư Haurein`; Barres: `Con gái`, `Haurein` | `Haurein` / `Cô em` - `Ta` | `Bệ hạ` / `Ngài Rance` - `Tôi` |
 | **11** | **Melfeis** (メルフェイス) | Nữ pháp sư nhân từ Leazas | `Nàng`, `cô`, `Melfeis` | Thương binh: `Thiên sứ Melfeis`, `Tiểu thư Melfeis` | `Melfeis` / `Em` - `Ta` | `Ngài Rance` - `Em` |
 | **12** | **Julia Lindom** (ジュリア) | Tân Đội trưởng Cận vệ tóc vàng | `Cô bé`, `Julia`, `nàng cận vệ trẻ` | Cận vệ: `Đội trưởng Julia`; Leila: `Julia` | `Julia` / `Nhóc con` / `Em` - `Ta` | `Bệ hạ Rance` - `Em` |
@@ -246,6 +246,8 @@ Bảng dưới đây tổng hợp toàn diện đại từ của **Người kể
 | **83** | **Mokomoko** (モコモコ) | Thú nhân lông xù đáng yêu | `Nó`, `bé con`, `Mokomoko` | Mọi người: `Mokomoko` | `Mokomoko` / `Cục bông` - `Ta` | `Ngài Rance` - `Moko~`/`Em` |
 | **84** | **Rudrasaum** (ルドラサウム)| Đấng Sáng Tạo vũ trụ Tối Cao | `Đấng Sáng Tạo`, `Rudra`, `thực thể tối cao`| Thần thánh: `Đấng Sáng Tạo Rudrasaum` | `Lão rùa già` / `Rudra` - `Ta`/`Tao` | `Rance` - `Trẫm`/`Ta` |
 | **85** | **Alice** (アリス) | Mascot sáng tạo của AliceSoft | `Nàng`, `Alice`, `nàng thỏ sáng tạo` | Chúng thần: `Thần Alice` | `Ả tác giả` / `Con thỏ Alice` - `Ta` | `Rance-san` - `Bổn thần`/`Alice` |
+| **86** | **Fuuka** (風花 - フウカ) | Vu nữ Đền Orochi, Nagasaki, JAPAN | `Cô bé`, `Fuuka`, `nàng miko ngây thơ`, `tiểu vu nữ` | Thần chủ: `Fuuka`, `con bé`; Rance: `Fuuka-chan` | `Fuuka-chan` / `Fuuka` - `Ta`/`Anh` | `Orochi-sama` (khi bị lừa) / `Ngài Rance` - `Cháu`/`Em` |
+| **87** | **Zarak** (ザラック) | Binh sĩ Leazas / Kẻ phản bội / Bạn trai cũ của Menad | `Hắn`, `Zarak`, `gã`, `tên bạn trai đê tiện` | Binh sĩ: `Zarak`; Côn đồ: `Đại ca Zarak` | `Thằng khốn Zarak` / `Mày` - `Tao`/`Bố mày` | `Tên quái vật Rance` - `Tao`/`Tôi` |
 
 ---
 
@@ -341,8 +343,9 @@ Bảng dưới đây tổng hợp toàn diện đại từ của **Người kể
 * **Cordoba**: Tướng thiết giáp khổng lồ, "Bức tường sắt của Leazas". Người kể chuyện gọi là `Cordoba`, `vị tướng thiết giáp`. Mọi người gọi là `Tướng quân Cordoba`. Xưng `thần`, gọi Rance là `Bệ hạ`. Rance gọi `Cordoba` / `ngươi`.
 * **Ex Van**: Quân sư thiên tài Leazas. Người kể chuyện gọi là `Ex Van`, `vị quân sư trẻ`. Mọi người gọi là `Quân sư Ex`. Xưng `thần`, gọi Rance là `Bệ hạ`. Rance gọi `Ex` / `ngươi`.
 
-#### 11. Menad & Haurein
-* **Menad**: Phó tướng Xích Quân dưới quyền Rick. Tomboy ngoài mặt nhưng e thẹn trước Rance. Lời dẫn gọi là `Menad`, `cô`, `nữ phó tướng`. Binh sĩ gọi là `Phó tướng Menad`. Menad xưng `em` / `tôi`, gọi `ngài Rance`. Rance gọi `Menad` / `cô bé` / `em`.
+#### 11. Menad & Haurein (Kèm Zarak)
+* **Menad (メナド)**: Phó tướng Xích Quân dưới quyền Rick. Tính cách tomboy, trượng nghĩa nhưng trong tình cảm lại ngây thơ, trao trọn niềm tin cho người yêu Zarak. Trong tiếng Nhật gốc Menad thường tự xưng là `boku` (ぼく), khi dịch sang tiếng Việt xưng `em` / `tôi` (khi đối thoại quân sự xưng `tôi`), gọi Rance là `ngài Rance`. Rance gọi `Menad` / `cô bé` / `em`. Menad tôn kính Rick như đại tướng mẫu mực (`Tướng quân Rick` / `Đại nhân Rick`), không phải tình yêu nam nữ.
+* **Zarak (ザラック)**: Binh sĩ Leazas thuộc Xích Quân, bạn trai cũ / người tình đê tiện của Menad. Giả vờ ngọt ngào để bòn rút 10.000 Vàng (Gold) của Menad trả nợ, sau đó câu kết với quân giặc / bọn cướp bắt cóc, cưỡng hiếp tập thể Menad. Trong nhánh Bad End, Zarak thẳng tay đập vỡ sọ sát hại cô ("Kịch bản là em bị cưỡng hiếp tập thể rồi bị giết chết. Tạm biệt nhé, bạn gái!"). Menad gọi Zarak là `Zarak` / `Anh Zarak`, xưng `em`. Zarak gọi Menad là `Menad` / `em` / `bạn gái`, xưng `anh` (hoặc `tôi` / `tao` khi lộ mặt). Lời dẫn gọi là `Zarak`, `gã`, `hắn`, `tên bạn trai đê tiện`.
 * **Haurein**: Con gái cưng của Barres, nữ kiếm sĩ muốn khẳng định mình trước cha. Lời dẫn gọi là `Haurein`, `cô`. Barres gọi là `Con gái`. Haurein xưng `tôi`, gọi `Bệ hạ` / `ngài Rance`. Rance gọi `Haurein` / `cô em`.
 
 #### 12. Melfeis & Julia Lindom
@@ -447,9 +450,9 @@ Bảng dưới đây tổng hợp toàn diện đại từ của **Người kể
 * **Xưng hô với Rance**: Magic xưng `tôi`, gọi Rance là `Ngài Rance` / `Tên thô bỉ`. Rance xưng `ta`, gọi `Magic` / `cô công chúa`.
 
 #### 28. Yamada Chizuko, Nagi Raghav & Uspira
-* **Chizuko**: Tứ Đại Lãnh Chúa, mặc váy dạ hội xông pha trận mạc. Lời dẫn gọi là `nàng`, `Chizuko`, `cô ả lập dị`. Binh sĩ gọi là `Lãnh chúa Chizuko`. Xưng `tôi`, gọi `ngài Rance`. Rance gọi là `ả dị hợm Chizuko`.
+* **Chizuko**: Tứ Đại Lãnh Chúa, mặc váy dạ hội xông pha trận mạc. Lời dẫn gọi là `nàng`, `Chizuko`, `cô ả lập dị`. Binh sĩ gọi là `Lãnh chúa Chizuko`. Với Rance: xưng `tôi`, gọi `Ngài Rance`. Với Magic: xưng `ta`, gọi `cô`; chỉ lên giọng `ngươi` khi ngữ cảnh cho phép. Rance gọi là `ả dị hợm Chizuko`.
 * **Nagi**: Tứ Đại Lãnh Chúa, độc hành vô cảm, đắm chìm trong ma pháp. Lời dẫn gọi là `nàng`, `Nagi`, `pháp sư độc hành`. Xưng `tôi`, gọi `Rance`. Rance gọi là `ả lơ đễnh Nagi`.
-* **Uspira**: Tứ Đại Lãnh Chúa Zeth kỳ cựu. Lời dẫn gọi là `bà`, `nàng`, `Uspira`. Xưng `tôi`, gọi `ngài Rance`. Rance gọi là `bà cô ma pháp Uspira`.
+* **Uspira**: Tứ Đại Lãnh Chúa Zeth kỳ cựu. Lời dẫn gọi là `cô`, `nàng`, `Uspira`. Xưng `tôi`, gọi `ngài Rance`. Rance gọi là `bà cô ma pháp Uspira`.
 
 #### 29. Café Artful, Papaya Server & Anis
 * **Café Artful**: Quý cô quý tộc Zeth mê thời trang và ma thuật cao cấp. (Cấm nhầm thành "quán cà phê"). Lời dẫn gọi là `quý cô Café`. Xưng `tôi`, gọi `ngài Rance`.
@@ -482,6 +485,16 @@ Bảng dưới đây tổng hợp toàn diện đại từ của **Người kể
 #### 33. Makoto & Torako
 * **Makoto**: Thiếu nữ tiệm bánh dango tinh nghịch. Lời dẫn gọi là `cô bé dango Makoto`. Xưng `em`, gọi `ngài Rance`.
 * **Torako**: Nữ kiếm sĩ dũng mãnh Mikawa. Lời dẫn gọi là `Torako`, `cô nàng cọp con`. Xưng `tôi`, gọi `ngài Rance`.
+
+#### 34. Fuuka (風花 - ふうか) & Thần Thú Orochi
+* **Thân phận**: Nữ vu nữ (Miko - 巫女) của Đền Thờ cổ ở rìa thị trấn Nagasaki (JAPAN). Fuuka mang sứ mệnh linh thiêng làm vật hiến tế cho Thần thú Orochi (Bát Kỳ Đại Xà) để bảo hộ nền hòa bình cho JAPAN; do đó cô phải giữ thân thể thanh khiết tuyệt đối cho tới ngày hiến tế. Tính cách ngây thơ, thuần khiết, ngoan ngoãn và cả tin.
+* **Người kể chuyện / Lời dẫn**: `Cô bé`, `Fuuka`, `nàng miko ngây thơ`, `tiểu vu nữ`.
+* **Mọi người xung quanh gọi Fuuka**: Ông già giữ đền / thần chủ gọi là `Fuuka`, `con bé`.
+* **Xưng hô với Rance**:
+  - Khi Rance hạ sát Orochi nhưng giấu kín rồi cầm đầu quái xà giả giọng Thần thú đòi dâng hiến thân thể: Fuuka nhắm nghiền mắt tuân phục vì an nguy của JAPAN, gọi Rance là `Orochi-sama` / `Thần Orochi`, xưng `cháu` / `con` / `em` ("Vâng... cháu đã sẵn sàng. Xin đừng làm chuyện diệt JAPAN...").
+  - Khi sự thật bị lộ và biết Rance đi rêu rao chuyện cướp trinh mình: Fuuka xấu hổ, tức giận tát Rance một bạt tai ("bốp!"), vừa chạy trốn vừa hờn dỗi: gọi `Ngài Rance`, xưng `em` ("Làm cái chuyện đó... lại còn đi rêu rao nữa, người như thế em ghét.").
+  - Rance gọi Fuuka: `Fuuka-chan` / `Fuuka`, xưng `ta` (hoặc `chú` / `anh`: "Fuuka-chaaan! Là ta đây, Rance, ân nhân cứu mạng của Fuuka-chan tới rồi đây!").
+* **Thần thú Orochi (八岐大蛇 - Bát Kỳ Đại Xà)**: Cự xà khổng lồ hung hãn ngự tại Vực Orochi ở Nagasaki, đòi trinh nữ hiến tế. Lời dẫn gọi là `thần thú Orochi`, `con quái xà`. Rance gọi là `con ngốc chết tiệt`.
 
 ---
 
@@ -587,7 +600,9 @@ Bảng ma trận dưới đây quy định chính xác xưng hô 2 chiều cho *
 | **Maris & Barres** | Trí mưu nội triều & Trải nghiệm sa trường | **Maris** gọi Barres: `Lão tướng quân` (xưng `tôi` / `cháu`) | **Barres** gọi Maris: `Cô Maris` / `Thị nữ trưởng` (xưng `lão phu`) | Cực kỳ kính trọng tuổi tác và cống hiến trọn đời của nhau cho đất nước. |
 | **Rick & Leila** | Kỳ phùng địch thủ / Bạn đồng liêu | **Rick** gọi Leila: `Đội trưởng Leila` / `Cô Leila` (xưng `tôi`) | **Leila** gọi Rick: `Tướng quân Rick` / `Rick` (xưng `tôi`) | Hai kiếm sĩ mạnh nhất Leazas, vừa là đồng đội vào sinh ra tử vừa cạnh tranh tài nghệ. |
 | **Rick & Barres** | Hậu bối tài ba & Tiền bối đại thụ | **Rick** gọi Barres: `Đại tướng quân Barres` / `Tiền bối` (xưng `tôi` / `Rick`) | **Barres** gọi Rick: `Cậu Rick` / `Tướng quân Rick` (xưng `ta` / `lão phu`) | Barres truyền dạy kinh nghiệm trận mạc, Rick kính trọng Barres như người thầy quân sự. |
-| **Rick & Menad** | Chủ tướng uy phong & Phó tướng si tình | **Rick** gọi Menad: `Menad` / `Phó tướng Menad` (xưng `ta` / `tôi`) | **Menad** gọi Rick: `Tướng quân Rick` / `Đại nhân Rick` (xưng `em` / `tôi`) | Rick nghiêm khắc rèn giũa Menad; Menad ngầm mến mộ Rick nhưng trước mặt lại tỏ ra vụng về. |
+| **Rick & Menad** | Chủ tướng uy phong & Phó tướng kính phục | **Rick** gọi Menad: `Menad` / `Phó tướng Menad` (xưng `ta` / `tôi`) | **Menad** gọi Rick: `Tướng quân Rick` / `Đại nhân Rick` (xưng `em` / `tôi`) | Rick nghiêm khắc rèn giũa Menad; Menad tôn kính Rick như thủ lĩnh quân sự mẫu mực. |
+| **Menad & Zarak** | Nữ tướng si tình & Kẻ phản bội đê tiện | **Menad** gọi Zarak: `Zarak` / `Anh Zarak` (xưng `em`) | **Zarak** gọi Menad: `Menad` / `em` / `bạn gái` (xưng `anh` khi nịnh bợ; `tôi` / `tao` khi lộ mặt) | Zarak bòn rút tiền của Menad rồi câu kết với kẻ địch hãm hại cô; Menad đau đớn bàng hoàng trước sự phản bội. |
+| **Rance & Fuuka** | Tên bạo chúa giảo quyệt & Nàng Miko ngây thơ | **Rance** gọi Fuuka: `Fuuka-chan` / `Fuuka` (xưng `ta` / `anh`) | **Fuuka** gọi Rance: `Orochi-sama` (khi bị lừa) / `Ngài Rance` (khi giận dỗi) (xưng `cháu` / `em`) | Rance mượn danh Orochi lừa cướp trinh tiết Fuuka; Fuuka vừa xấu hổ tức giận vừa né tránh Rance. |
 | **Rick & Cordoba** | Mũi kiếm công kích & Khiên sắt phòng ngự | **Rick** gọi Cordoba: `Tướng quân Cordoba` (xưng `tôi`) | **Cordoba** gọi Rick: `Tướng quân Rick` (xưng `tôi`) | Bộ đôi "Kiếm - Khiên" hoàn mỹ trên chiến trường Leazas. |
 | **Barres & Haurein** | Cha ruột nghiêm khắc & Con gái cưng | **Barres** gọi Haurein: `Haurein` / `Con gái` (xưng `cha` / `ta`) | **Haurein** gọi Barres: `Thưa cha` / `Phụ thân` (xưng `con`) | Barres lo lắng cho tính hiếu thắng của con; Haurein nỗ lực lập công để cha tự hào. |
 | **Barres & Ex Van** | Lão tướng dày dạn & Quân sư trẻ tuổi | **Barres** gọi Ex: `Cậu Ex` / `Quân sư Ex` (xưng `lão phu`) | **Ex** gọi Barres: `Lão tướng quân` (xưng `tôi` / `Ex`) | Ex vạch kế hoạch, Barres điều phối đại quân thực thi chuẩn xác. |
@@ -600,7 +615,7 @@ Bảng ma trận dưới đây quy định chính xác xưng hô 2 chiều cho *
 | **Patton & Hubert** | Chủ tướng cũ & Cận thần trung kiên | **Patton** gọi Hubert: `Hubert` (xưng `ta` / `tôi`) | **Hubert** gọi Patton: `Điện hạ Patton` (xưng `thần` / `tôi`) | Hubert quyết tâm đi theo Patton dù Patton đã từ bỏ ngôi vị để trở thành võ sĩ. |
 | **Patton & Gandhi** | Hai dũng tướng cơ bắp hào sảng | **Patton** gọi Gandhi: `Lão vương Gandhi` / `Gandhi` (xưng `ta`) | **Gandhi** gọi Patton: `Nhóc Patton` / `Võ sĩ Patton` (xưng `ta`) | Đam mê tỉ thí sức mạnh cơ bắp và đấm đá tay đôi, nói chuyện sòng phẳng. |
 | **Gandhi & Magic** | Cha bộc trực & Con gái quý phái | **Gandhi** gọi Magic: `Magic` / `Con gái rượu` (xưng `cha` / `ta`) | **Magic** gọi Gandhi: `Phụ vương` / `Cha` (xưng `con`) | Magic thường xuyên xấu hổ và đau đầu trước những trò quậy phá bộc trực của cha. |
-| **Magic & Chizuko** | Công chúa lãnh đạo & Lãnh chúa lập dị | **Magic** gọi Chizuko: `Chizuko` / `Lãnh chúa Chizuko` (xưng `tôi`) | **Chizuko** gọi Magic: `Công chúa Magic` / `Điện hạ` (xưng `tôi`) | Chizuko phục tùng hoàng tộc Zeth nhưng vẫn giữ phong cách mặc váy dạ hội ra trận. |
+| **Magic & Chizuko** | Công chúa & Lãnh chúa | **Magic** xưng `tôi`, gọi Chizuko `cô` | **Chizuko** xưng `ta`, gọi Magic `cô` | Mặc định khi đối thoại với nhau. Có thể lên giọng `ngươi` trong ngữ cảnh quát mắng, tức giận hoặc đối địch rõ ràng; không dùng mặc định. |
 | **Kouhime & Nobunaga**| Em gái nhỏ & Anh trai (trước tha hóa) | **Kouhime** gọi Nobunaga: `Huynh trưởng Nobunaga` / `Anh hai` (xưng `Kou` / `em`) | **Nobunaga** gọi Kouhime: `Kou` / `Kouhime` (xưng `ta` / `huynh`) | Tình anh em ruột thịt sâu nặng trước khi Nobunaga bị ác ma đoạt xác. |
 | **Kouhime & Isoroku** | Tiểu công chúa & Nữ hộ vệ trung trinh | **Kouhime** gọi Isoroku: `Chị Isoroku` (xưng `Kou` / `em`) | **Isoroku** gọi Kouhime: `Công chúa Kou` / `Tiểu thư Kou` (xưng `Isoroku` / `thần`) | Isoroku thề bảo vệ Kouhime đến giọt máu cuối cùng trước hiểm họa diệt vong JAPAN. |
 | **Miki & Kentarou** | Cặp tình nhân học sinh Nhật Bản | **Miki** gọi Kentarou: `Kentarou-kun` / `Kentarou` (xưng `em` / `Miki` / `tớ`) | **Kentarou** gọi Miki: `Miki` (xưng `anh` / `tớ`) | Tình yêu thuần khiết, sâu sắc. Kentarou sẵn sàng đối đầu cả Ma giới và Rance để bảo vệ Miki. |
@@ -674,9 +689,9 @@ Phân cảnh ân ái 18+ là linh hồn của dòng game Rance. Các lỗi máy 
 #### Các Vùng Đất & Lãnh Thổ Bản Đồ (Map Regions)
 - **Leazas Castle (リーザス城)**: Thành Leazas (Hoàng thành Leazas)
 - **Parapara Fortress (パラパラ砦)**: Pháo đài Parapara
-- **North (北部)**: Miền Bắc
-- **South (南部)**: Miền Nam
-- **West (西部)**: Miền Tây
+- **North (北部)**: North (giữ nguyên theo bản tiếng Anh)
+- **South (南部)**: South (giữ nguyên theo bản tiếng Anh)
+- **Wes / West (西部)**: Wes (giữ nguyên theo bản tiếng Anh)
 - **Oku (奥)**: Vùng Nội Địa Oku
 - **Ys (イース)**: Vùng Ys
 - **Oaks (オークス)**: Vùng Oaks
@@ -686,21 +701,23 @@ Phân cảnh ân ái 18+ là linh hồn của dòng game Rance. Các lỗi máy 
 - **Alan (アラン)**: Vùng Alan
 - **Scale (スケール)**: Vùng Scale
 - **Maunes (モウネス)**: Vùng Maunes
-- **Poor (貧民街)**: Khu Bần Hàn / Xóm Nghèo
-- **Rich (貴族街)**: Khu Phú Hào / Khu Quý Tộc
+- **Poor (プアーの街)**: Poor (giữ tên tiếng Anh theo yêu cầu 2026-10-30).
+- **Rich (リッチの街)**: Rich (giữ tên tiếng Anh theo yêu cầu 2026-10-30).
 - **Rockearth (ロックアース)**: Vùng Rockearth
-- **Ice (氷雪地帯)**: Vùng Băng Giá
+- **Ice (氷雪地帯)**: Ice (giữ nguyên theo bản tiếng Anh)
 - **Diphtheria (ジフテリア)**: Vùng Diphtheria
 - **Lazeal (ラジール)**: Vùng Lazeal
 - **Custom (カスタム)**: Thành phố Tự do Custom
 - **Toushin City (闘神都市)**: Thành phố Đấu Thần Toushin
 - **Mars (マーズ領)**: Vùng Đất Mars
-- **Red (赤の地)**: Vùng Đỏ (Xích Địa)
+- **Red (レッドの街)**: Red (giữ tên tiếng Anh theo yêu cầu 2026-10-30).
 - **Zeo (ゼオ)**: Vùng Zeo
 - **M-Land (Ｍランド)**: Công viên M-Land
 - **Shangri-La (シャングリラ)**: Miền Đất Hứa Shangri-La
 - **Kalar Forest (カラーの森)**: Rừng Kalar
 - **Monster Realm (魔界)**: Lãnh địa Ma Giới
+- **Nagasaki (長崎)**: Vùng đất Nagasaki thuộc JAPAN, nơi có ngôi đền cổ ở rìa thị trấn và vực Orochi.
+- **Shrine at the Edge of Town (町外れの神社)**: Ngôi đền ở rìa thị trấn Nagasaki (nơi Fuuka tu hành và thờ phụng thần thú).
 
 #### Danh Mục Mê Cung & Hầm Ngục Cổ Đại (Dungeons & Labyrinths)
 - **Thieves’ Hideout (盗賊の隠れ家)**: Sào huyệt Sơn tặc
@@ -964,5 +981,5 @@ CORRECTION_RULES = [
 13. **H-scene**: giữ `anh` của người kể cho Rance (không đổi thành `hắn`).
 14. **Anasel** chống đối → Rance gọi `cô`.
 15. **Tượng thanh garble** `）xxx）` → chuẩn hóa thành `(xxx)`.
-16. **Magic ↔ Chizuko** (quyết định 2026-10-18): Magic xưng `tôi`, gọi Chizuko `cô`; Chizuko xưng `ta`, gọi Magic `cô`.
+16. **Magic ↔ Chizuko** (quyết định 2026-10-18; xác nhận và bổ sung 2026-10-23): Magic xưng `tôi`, gọi Chizuko `cô`; Chizuko xưng `ta`, gọi Magic `cô`. Ngoại lệ: có thể gọi `ngươi` khi ngữ cảnh rõ ràng cho phép lên giọng (quát mắng, tức giận, đối địch); phải xét từng lượt thoại, không thay hàng loạt. Ngôi xưng vẫn giữ `ta` / `tôi` tương ứng.
 17. **Kouhime là con gái Nobunaga** (quyết định 2026-10-18, sửa §31): Kouhime gọi Nobunaga `Cha`, xưng `Con` (không phải em gái/anh hai).

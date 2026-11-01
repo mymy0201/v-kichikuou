@@ -1,0 +1,4206 @@
+--- before/Gｻｲｾﾞﾙ.ADV
++++ src/Gｻｲｾﾞﾙ.ADV
+@@ -55,7 +55,9 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Gr...'
++	'Phòng yết kiến'
++	R
++	'Rance「Bực cả mình...」'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_042cc:
+@@ -65,11 +67,9 @@
+ 	\L_04374:
+ 	\L_0425c:
+ 	ZH 1:
+-	'Trời ơi, họ'
+-	R
+-	'đến muộn!! Cặp song sinh đó'
+-	R
+-	'đang làm cái quái gì vậy?!!'
++	'Hừ, chậm thế!! Cặp song sinh'
++	R
++	'đó làm cái quái gì vậy!!'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -77,44 +77,42 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Trời ạ, cái gì vậy...?'
+-	R
+-	'Tôi đang ngủ khi cậu gọi...'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Bây giờ là'
+-	R
+-	'giữa buổi chiều! Tại'
+-	R
+-	'sao ngươi lại ngủ!?'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Tại sao...?'
+-	R
+-	'Tôi đang ngủ trưa.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Được rồi, nhưng tại'
+-	R
+-	'sao...? Ngoài ra, Hazel đâu?'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Aah... Nàng có vẻ mệt'
+-	R
+-	'hơn tôi nên tôi bỏ nàng lại.'
+-	\L_04381:
+-	ZH 1:
+-	'điều đó nghe có vẻ không'
+-	R
+-	'thể. Cậu có vẻ kiệt sức...'
++	'Trời ạ, gì chứ... người ta'
++	R
++	'đang ngủ mà lại gọi ra...'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Hừ, giờ là ban ngày'
++	R
++	'đấy! Sao lại ngủ!?'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Sao à... ngủ trưa.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Nên ta mới hỏi'
++	R
++	'sao... Mà Hawzel đâu?'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'À... nó trông buồn ngủ hơn'
++	R
++	'tôi... nên tôi để nó ở nhà.'
++	\L_04381:
++	ZH 1:
++	'Rance「Lạ nhỉ. Ngươi mới'
++	R
++	'là đứa ngủ dậy khó chịu,'
++	R
++	'hay càu nhàu chứ...」'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_042cc:
+@@ -128,38 +126,36 @@
+ 	\L_04374:
+ 	\L_0425c:
+ 	ZH 1:
+-	'Hả...?'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Hwah... Chúc ngủ'
+-	R
+-	'ngon... Num num...'
++	'Hả......'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Oáp...... ngủ'
++	R
++	'ngon...... khò......'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+ 	\L_0425c:
+ 	ZH 1:
+-	'Waiiit!! Đừng quay'
+-	R
+-	'lại mà không có sự cho phép'
+-	R
+-	'của ta!! Chúa ơi... Gr...'
++	'Đứng lạiii!! Đừng tự tiện'
++	R
++	'về!! Thật tình... lầm bầm...'
+ 	\L_04381:
+ 	\L_04374:
+ 	!VAR0516 : 6!
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'... Họ là chị'
+-	R
+-	'em... Không phải sao...?'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Rõ ràng là vậy, nhưng...'
++	'......Hai người họ... là'
++	R
++	'chị em... đúng không ạ...?'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Nghe nói vậy......'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_042cc:
+@@ -202,7 +198,9 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Grrrrr...'
++	'Phòng yết kiến'
++	R
++	'Rance「Bực bực bực......」'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_042cc:
+@@ -212,11 +210,9 @@
+ 	\L_04374:
+ 	\L_0425c:
+ 	ZH 1:
+-	'Chết tiệt, chậm quá!! Cặp'
+-	R
+-	'song sinh ấy đang làm cái'
+-	R
+-	'quái gì vậy!!'
++	'Hừ, chậm thế!! Cặp song sinh'
++	R
++	'đó làm cái quái gì vậy!!'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -226,10 +222,10 @@
+ 	ZH 1:
+ 	'Kyahahaha. Xin lỗi, xin lỗi.'
+ 	R
+-	'Bọn em đến muộn mất rồi.'
+-	\L_04381:
+-	ZH 1:
+-	'Tưởng xin lỗi là xong à!'
++	'Bọn tôi đến muộn mất rồi.'
++	\L_04381:
++	ZH 1:
++	'Rance「Xin lỗi là xong à!」'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -237,26 +233,24 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Thật lòng xin lỗi ngài, Bệ'
+-	R
+-	'hạ Rance.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Ngươi đang làm gì Vậy?'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Đóng gói vài'
+-	R
+-	'hộp cơm trưa...'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Hộp cơm trưa??'
++	'Thật lòng xin lỗi'
++	R
++	'ngài, Bệ hạ Rance.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Làm gì mà lâu thế?'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Bọn tôi làm cơm hộp... ạ...'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Cơm hộp??'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -264,9 +258,9 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Bọn em sắp đi dã ngoại ở M'
+-	R
+-	'Land.'
++	'Bọn tôi sắp đi dã'
++	R
++	'ngoại ở M Land.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0425c:
+@@ -285,7 +279,7 @@
+ 	\L_04374:
+ 	\L_0425c:
+ 	ZH 1:
+-	'... Ừmmmgh...'
++	'......Ưmmm......'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -293,9 +287,9 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Bệ hạ Rance... Giờ bọn em đi'
+-	R
+-	'đây... được chứ ạ?'
++	'Bệ hạ Rance...... giờ'
++	R
++	'bọn tôi đi... được chứ ạ?'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0425c:
+@@ -309,12 +303,12 @@
+ 	\L_04374:
+ 	\L_042cc:
+ 	ZH 1:
+-	'... Phải...'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Ôi~～...'
++	'......Vâng......'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Ừmm~~......'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -322,9 +316,7 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Có cấm thì bọn em vẫn đi'
+-	R
+-	'thôi.'
++	'Có cấm thì bọn tôi vẫn đi.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0425c:
+@@ -344,14 +336,14 @@
+ 	\L_04374:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Hảaaa!! Thế thì ta cho đi.'
+-	R
+-	'Gahahahaha!'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Nhưng, nhưng!'
++	'Hảaaa!! Rance「Thế thì'
++	R
++	'cho đi. Gahahahaha.」'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Sao lại thế!'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -375,14 +367,14 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Nữ Hoàng Lia cho biết'
+-	R
+-	'các công viên giải trí vui'
+-	R
+-	'hơn khi có nhiều người hơn,'
+-	\L_04381:
+-	ZH 1:
+-	'phải không?'
++	'Công chúa Lia chẳng'
++	R
++	'phải bảo công viên'
++	R
++	'giải trí đông người'
++	\L_04381:
++	ZH 1:
++	'mới vui đó sao?'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -390,56 +382,54 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Hừ... Hawzel đã nói thế'
+-	R
+-	'thì...'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Có hộp cơm'
+-	R
+-	'trưa cho ta không?'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'... Em chia cho một ít.'
+-	\L_04381:
+-	ZH 1:
+-	'Nhưng đổi lại, ngài phải đãi'
+-	R
+-	'bọn em món gì đó.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Được rồi... Ta sẽ chi'
+-	R
+-	'tới 20 VÀNG cho mỗi ngươi.'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'... Đành vậy. Quyết định thế'
+-	R
+-	'nhé.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Được rồi, đi'
+-	R
+-	'thôi nào! Gahahahaha!.'
+-	\L_04381:
+-	\L_04374:
+-	\L_04294:
+-	ZH 1:
+-	'Rance cùng Saizel và Hawzel'
+-	R
+-	'rời phòng yết kiến, lên'
+-	R
+-	'đường tới M Land.'
++	'Hừm...... Hawzel'
++	R
++	'đã nói thế thì...'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Có cơm hộp phần ta không?'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'......Chia cho một ít.'
++	\L_04381:
++	ZH 1:
++	'Nhưng đổi lại, phải'
++	R
++	'đãi bọn tôi gì đó đấy.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Được thôi... mỗi đứa'
++	R
++	'tối đa 20 GOLD đấy.'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'......Đành vậy.'
++	R
++	'Chốt thế nhé.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Được, xuất phát'
++	R
++	'nào! Gahahahaha.'
++	\L_04381:
++	\L_04374:
++	\L_04294:
++	ZH 1:
++	'Rance cùng Saizel và'
++	R
++	'Hawzel rời phòng yết kiến,'
++	R
++	'lên đường tới M Land.'
+ 	\L_04381:
+ 	\L_04374:
+ 	!VAR0516 : 0!
+@@ -474,22 +464,20 @@
+ 	'La Vaswald.'
+ 	\L_04381:
+ 	ZH 1:
+-	'Nàng vỡ vụn.'
+-	\L_04381:
+-	ZH 1:
+-	'Như thể nàng đã vỡ'
+-	R
+-	'ra nhiều giọt ánh sáng.'
+-	\L_04381:
+-	ZH 1:
+-	'nữ thần tượng'
+-	R
+-	'trưng cho sự hủy diệt và hư'
+-	R
+-	'vô đã bị phá hủy chính mình.'
+-	\L_04381:
+-	ZH 1:
+-	'nàng chia thành hai.'
++	'Vỡ vụn.'
++	\L_04381:
++	ZH 1:
++	'Như những hạt'
++	R
++	'ánh sáng tan rã.'
++	\L_04381:
++	ZH 1:
++	'Vị thần biểu tượng cho hủy'
++	R
++	'diệt và hư vô bị hủy diệt.'
++	\L_04381:
++	ZH 1:
++	'Tách làm hai.'
+ 	\L_04381:
+ 	\L_04374:
+ 	PF1 VAR0056:
+@@ -501,21 +489,19 @@
+ 	\L_04320:
+ 	\L_04294:
+ 	ZH 1:
+-	'La Vaswald sụp đổ. Khi'
+-	R
+-	'đó, thứ còn sót lại là...'
+-	\L_04381:
+-	ZH 1:
+-	'Linh hồn máu quỷ'
+-	R
+-	'Của Seizel và Hawzel.'
+-	\L_04381:
+-	ZH 1:
+-	'hai linh hồn'
+-	R
+-	'máu quỷ tồn tại ở đó giống'
+-	R
+-	'như họ đang âu yếm nhau.'
++	'La Vaswald vỡ vụn. Và'
++	R
++	'thứ còn lại ở đó là...'
++	\L_04381:
++	ZH 1:
++	'Ma Huyết Hồn từng là Saizel.'
++	R
++	'Ma Huyết Hồn từng là Hawzel.'
++	\L_04381:
++	ZH 1:
++	'Hai Ma Huyết Hồn tồn tại ở'
++	R
++	'đó như đang nép vào nhau.'
+ 	\L_04381:
+ 	\L_04374:
+ 	!VAR0516 : 0!
+@@ -540,7 +526,7 @@
+ 	R
+ 	'Phòng yết kiến'
+ 	R
+-	'Xin chào, Vua Rance.'
++	'Hawzel「Chào Bệ hạ Rance.」'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -548,40 +534,36 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'cậu muốn gì? Chúng'
+-	R
+-	'ta sẽ ra thị trấn sau chuyện'
+-	R
+-	'này. Làm cho nó nhanh chóng.'
+-	\L_04381:
+-	ZH 1:
+-	'đến thị trấn...?'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Vâng. Chúng ta đi mua sắm.'
+-	\L_04381:
+-	ZH 1:
+-	'Để có được'
+-	R
+-	'cốc phù hợp, và đồ ngủ,'
+-	R
+-	'và bàn chải đánh răng...'
+-	\L_04381:
+-	ZH 1:
+-	'Rất nhiều thứ phù hợp.'
+-	R
+-	'Điều đó không tốt sao?'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Khi chị em làm mọi việc'
+-	R
+-	'cùng nhau, điều đó thường'
+-	R
+-	'không dẫn đến chiến đấu sao?'
++	'Có việc gì? Bọn tôi sắp'
++	R
++	'ra phố. Làm nhanh đi.'
++	\L_04381:
++	ZH 1:
++	'Rance「Ra phố...?」'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Đúng. Đi mua sắm.'
++	\L_04381:
++	ZH 1:
++	'Cốc giống nhau, đồ ngủ,'
++	R
++	'bàn chải đánh răng...'
++	\L_04381:
++	ZH 1:
++	'Mua thật nhiều thứ'
++	R
++	'giống nhau. Hay chứ?'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Chị em mà đòi đồ giống'
++	R
++	'nhau... bình thường chẳng'
++	R
++	'phải sẽ cãi nhau sao?'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -589,11 +571,11 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Huhu... Đừng lo.'
+-	R
+-	'Chúng tôi làm mọi việc cùng'
+-	R
+-	'nhau vì chúng tôi thích.'
++	'Hì hì... không sao đâu ạ.'
++	R
++	'Bọn tôi thích giống nhau'
++	R
++	'nên mới mua giống nhau mà.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -601,14 +583,14 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Vâng. Chúng tôi rất'
+-	R
+-	'hợp nhau, vì vậy chúng'
+-	R
+-	'tôi sẽ không chiến đấu.'
+-	\L_04381:
+-	ZH 1:
+-	'Phải Không, Hawzel?'
++	'Đúng thế. Bọn tôi thân'
++	R
++	'nhau lắm nên chẳng'
++	R
++	'bao giờ cãi nhau.'
++	\L_04381:
++	ZH 1:
++	'Nhỉ, Hawzel?'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -616,7 +598,7 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Huhu... Đúng rồi, Seizel.'
++	'Hì hì... đúng vậy, Saizel.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0425c:
+@@ -655,14 +637,16 @@
+ 	'............'
+ 	\L_04381:
+ 	ZH 1:
+-	'Ta quên mất.'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Nghiêm túc...? vậy'
+-	R
+-	'là đủ. Đi mua sắm.'
++	'Quên rồi.'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Gì vậy chứ...'
++	R
++	'Rance「Thôi được rồi.'
++	R
++	'Mau đi mua sắm đi.」'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -670,9 +654,9 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'chúng tôi sẽ làm điều'
+-	R
+-	'đó. Xin Lỗi, Vua Rance.'
++	'Vậy bọn tôi xin phép.'
++	R
++	'Thất lễ, Bệ hạ Rance.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -680,11 +664,11 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Tạm biệt nhé. cặp đôi'
+-	R
+-	'cười trong khi họ nắm tay'
+-	R
+-	'nhau và rời khỏi ngai vàng.'
++	'Bai baiii. Hai người cười'
++	R
++	'đùa, nắm tay nhau rời'
++	R
++	'khỏi trước ngai vàng.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0425c:
+@@ -715,43 +699,37 @@
+ 	\L_04294:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Kayblis'
++	'Thành Kayblis'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Ngục tối ngục tối lộn xộn,'
+-	\L_04381:
+-	ZH 1:
+-	'ngửi thấy xác chết và'
+-	R
+-	'không bao giờ nhìn thấy bất'
+-	R
+-	'kỳ ánh sáng mặt trời nào.'
+-	\L_04381:
+-	ZH 1:
+-	'Một sinh vật đang'
+-	R
+-	'trong quá trình bị tra tấn,'
+-	\L_04381:
+-	ZH 1:
+-	'và tay chân của'
+-	R
+-	'một người bị cắt bỏ'
+-	R
+-	'như một trò chơi...'
+-	\L_04381:
+-	ZH 1:
+-	'Đó là hang ổ'
+-	R
+-	'của những chúng sinh như'
+-	R
+-	'vậy. tất cả đều đã chết.'
+-	\L_04381:
+-	ZH 1:
+-	'Có vẻ như không'
+-	R
+-	'có ai ở đó còn sống.'
++	'Ngục tối'
++	\L_04381:
++	ZH 1:
++	'Bẩn thỉu, sặc mùi xác chết,'
++	R
++	'những dãy ngục không ánh'
++	R
++	'mặt trời nối tiếp nhau.'
++	\L_04381:
++	ZH 1:
++	'Ở đó có những sinh vật'
++	R
++	'bị tra tấn dở dang,'
++	\L_04381:
++	ZH 1:
++	'những kẻ bị bẻ gãy tay'
++	R
++	'chân, bị đem ra làm trò...'
++	\L_04381:
++	ZH 1:
++	'Đó là sào huyệt của những kẻ'
++	R
++	'như thế. Tất cả đều đã chết.'
++	\L_04381:
++	ZH 1:
++	'Có vẻ không còn ai sống sót.'
+ 	\L_04381:
+ 	\L_04374:
+ 	!VAR0516 : 0!
+@@ -775,83 +753,81 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Ngục tối nơi'
+-	R
+-	'này thật kinh khủng...'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Aah, thực sự là...'
+-	\L_04381:
+-	ZH 1:
+-	'những người lính'
+-	R
+-	'nhận lệnh Của Rance đang'
+-	R
+-	'điều tra hầm ngục tối.'
+-	\L_04381:
+-	ZH 1:
+-	'Nhưng những gì họ tìm'
+-	R
+-	'thấy là dấu vết tra tấn cũ,'
+-	\L_04381:
+-	ZH 1:
+-	'một lượng lớn máu và đống'
+-	R
+-	'xác chết thối rữa rải rác.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Nếu tôi bị đưa vào đây...'
+-	\L_04381:
+-	ZH 1:
+-	'Xin lỗi nhà vua, nhưng'
+-	R
+-	'tôi nghĩ tôi sẽ thú nhận'
+-	R
+-	'mọi chuyện ngay lập tức...'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'... Ừm...'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'À... Nhìn kìa, một cô gái.'
+-	R
+-	'cậu nói một cô gái, nhưng...'
+-	R
+-	'Không phải là xác chết sao?'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Aah... Xin lỗi...'
+-	\L_04381:
+-	ZH 1:
+-	'Kể từ khi tôi bắt'
+-	R
+-	'đầu tìm Kiếm Nhà Vua,'
+-	\L_04381:
+-	ZH 1:
+-	'Tôi đã trở nên'
+-	R
+-	'nhanh hơn rất nhiều để'
+-	R
+-	'chú ý đến các cô gái...'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Này... Đợi đã,'
+-	R
+-	'nàng còn sống. Nàng'
+-	R
+-	'vừa mới chuyển đi.'
++	'Ngục tối'
++	R
++	'Lính「Kinh khủng thật...」'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Ừ, thật là...'
++	\L_04381:
++	ZH 1:
++	'Những binh sĩ nhận lệnh'
++	R
++	'Rance đang lục soát ngục'
++	R
++	'tối không ánh mặt trời.'
++	\L_04381:
++	ZH 1:
++	'Nhưng ở đó chẳng có sự sống,'
++	R
++	'chỉ có dấu vết tra tấn,'
++	\L_04381:
++	ZH 1:
++	'vết máu loang lổ... và'
++	R
++	'mùi xác chết bốc lên'
++	R
++	'từ đống xác lăn lóc.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Bị nhốt vào chỗ này thì...'
++	\L_04381:
++	ZH 1:
++	'có lỗi với Bệ hạ,'
++	R
++	'nhưng chắc tôi khai'
++	R
++	'hết mọi thứ ngay mất...'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'......Ừm...'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'A... nhìn kìa, một cô'
++	R
++	'gái. Lính「Cô gái gì'
++	R
++	'chứ... xác chết thôi mà?」'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'À... xin lỗi...'
++	\L_04381:
++	ZH 1:
++	'Từ khi bắt đầu đi'
++	R
++	'tìm kiếm cho Bệ hạ,'
++	\L_04381:
++	ZH 1:
++	'tôi cứ nhạy cảm ghê'
++	R
++	'gớm với con gái...'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Này... khoan, còn'
++	R
++	'sống đấy. Vừa cử động.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0425c:
+@@ -859,78 +835,72 @@
+ 	'Cái gì!?'
+ 	\L_04381:
+ 	ZH 1:
+-	'À... đúng là nàng! Này...'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Chờ một chút!'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'W-Cái Gì...?'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Nhìn này...'
+-	R
+-	'Nàng có đôi cánh...'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Hả...? Điều'
+-	R
+-	'đó có nghĩa là... Nàng'
+-	R
+-	'không phải là con người?'
+-	\L_04381:
+-	ZH 1:
+-	'À...! Tôi vừa nhớ ra!'
+-	\L_04381:
+-	ZH 1:
+-	'nàng trông giống'
+-	R
+-	'như cô gái đó đã xâm'
+-	R
+-	'Chiếm Lâu đài Leazas,'
+-	\L_04381:
+-	ZH 1:
+-	'người nói rằng'
+-	R
+-	'nàng là một con quỷ!'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Geh... Nghĩa là...'
+-	\L_04381:
+-	ZH 1:
+-	'Đ-Đó là một con quỷ!!'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Whoa...!'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Này, đợi đã! Cậu định'
+-	R
+-	'tự mình chạy trốn à!?'
++	'A... đúng thật! Này...'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Khoan đã!'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'G... gì vậy...'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Nhìn kìa... cô gái'
++	R
++	'này... có cánh...'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Hả... thế nghĩa là...'
++	R
++	'không phải người à?'
++	\L_04381:
++	ZH 1:
++	'A...! Tôi nhớ ra rồi!'
++	\L_04381:
++	ZH 1:
++	'Giống hệt cô gái xông'
++	R
++	'vào thành Leazas,'
++	\L_04381:
++	ZH 1:
++	'tự xưng là Ma Nhân!'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Hả... thế nghĩa là...'
++	\L_04381:
++	ZH 1:
++	'M... Ma Nhân!!'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Oái...!'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Này, khoan! Định'
++	R
++	'chạy một mình à!?'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_04304:
+ 	ZH 1:
+-	'（vết sưng）'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Wah...'
++	'(Rầm)'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Oái......'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_042be:
+@@ -938,64 +908,62 @@
+ 	\L_042b0:
+ 	\L_0425c:
+ 	ZH 1:
+-	'ngươi đang làm gì'
+-	R
+-	'chạy xung quanh ở'
+-	R
+-	'nơi chán nản này?'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'K-Vua Rance!'
+-	\L_04381:
+-	ZH 1:
+-	'A-Một con quỷ...'
+-	R
+-	'Có một con quỷ...'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Ác quỷ?'
++	'Ở chỗ ảm đạm thế này'
++	R
++	'mà làm ầm ĩ gì thế?'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'B... Bệ hạ Rance!'
++	\L_04381:
++	ZH 1:
++	'M... Ma Nhân...'
++	R
++	'có Ma Nhân...'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Ma Nhân?'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_04304:
+ 	ZH 1:
+-	'Rance nhìn về hướng'
+-	R
+-	'người lính đang chỉ.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Hô... Một cô gái...?'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Tôi tin rằng đó là'
+-	R
+-	'con quỷ mà tôi nghe nói đã'
+-	R
+-	'xâm chiếm Lâu đài Leazas...'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Không, không phải vậy. Tóc'
+-	R
+-	'của con quỷ đó có màu khác.'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Thực sự...?'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Vâng. Này, đưa nàng đi.'
++	'Rance nhìn theo'
++	R
++	'hướng người lính chỉ.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Hô... con gái à...'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Thần nghe nói Ma Nhân'
++	R
++	'đó là Ma Nhân đã tấn'
++	R
++	'công thành Leazas...'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Không, không phải. Màu'
++	R
++	'tóc khác Ma Nhân hôm đó.'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Vậy... sao ạ?'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Ừ. Này, đưa cô gái này đi.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_042cc:
+@@ -1027,30 +995,24 @@
+ 	\L_04374:
+ 	\L_042e8:
+ 	ZH 1:
+-	'Hắn thậm chí còn làm'
+-	R
+-	'điều đó với một con quỷ...'
+-	R
+-	'Thật không thể tin được.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Bây giờ, hãy'
+-	R
+-	'đưa nàng đi cùng.'
+-	\L_04381:
+-	ZH 1:
+-	'Đảm bảo không'
+-	R
+-	'làm vết thương của nàng'
+-	R
+-	'trở nên trầm trọng hơn.'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Vâng, hiểu rồi.'
++	'Đối với cả Ma Nhân...'
++	R
++	'đúng là người ghê gớm.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Nào, đưa đi.'
++	\L_04381:
++	ZH 1:
++	'Cẩn thận đừng động'
++	R
++	'vào vết thương.'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Vâng, thần hiểu.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -1058,14 +1020,14 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'... Ưu...'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Aah, đừng ép mình'
+-	R
+-	'phải di chuyển. Ở yên đó.'
++	'......Ư...'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'À, đừng cố cử'
++	R
++	'động. Nằm yên đấy.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_04294:
+@@ -1110,28 +1072,26 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Vua Rance,'
+-	\L_04381:
+-	ZH 1:
+-	'có vẻ như'
+-	R
+-	'cô gái quỷ bị thương nặng'
+-	R
+-	'giờ đã có thể di chuyển.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Vậy à?'
++	'Phòng yết kiến'
++	R
++	'Maris「Bệ hạ Rance, cô gái'
++	\L_04381:
++	ZH 1:
++	'Ma Nhân bị thương nặng'
++	R
++	'đã cử động được rồi ạ.」'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Thế à.'
+ 	\L_04381:
+ 	\L_04374:
+ 	!VAR0154 : 29!
+ 	{VAR0102 = 0:
+ 		\L_042cc:
+ 		ZH 1:
+-		'Rõ ràng tên'
+-		R
+-		'nàng là Hawzel.'
++		'Có vẻ tên cô ấy là Hawzel.'
+ 		\L_04381:
+ 		\L_04374:
+ 	}
+@@ -1141,40 +1101,36 @@
+ 		\L_04320:
+ 		\L_042cc:
+ 		ZH 1:
+-		'Cây phỉ...'
++		'Hawzel...'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_0425c:
+ 		ZH 1:
+-		'Cái gì,'
+-		R
+-		'ngươi biết nàng...?'
+-		\L_04381:
+-		ZH 1:
+-		'Oh yeah,'
+-		R
+-		'nàng là một con quỷ, vì'
+-		R
+-		'vậy tất nhiên ngươi làm.'
++		'Gì thế, biết à...'
++		\L_04381:
++		ZH 1:
++		'À, đều là Ma Nhân,'
++		R
++		'biết là đương nhiên.'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_042cc:
+ 		ZH 1:
+-		'Nàng là một trong'
+-		R
+-		'Những người theo Dõi Cô'
+-		R
+-		'Hornet, như Meglass và I...'
+-		\L_04381:
+-		ZH 1:
+-		'nàng rất đau...'
+-		\L_04381:
+-		ZH 1:
+-		'Nếu chúng tôi'
+-		R
+-		'có thể quay lại nhanh hơn,'
+-		R
+-		'điều đó sẽ không xảy ra...'
++		'Cô ấy cũng như Satella, là'
++		R
++		'người theo Ngài Hornet...'
++		\L_04381:
++		ZH 1:
++		'Satella「Bị thương'
++		R
++		'nặng thế...'
++		\L_04381:
++		ZH 1:
++		'Giá mà bọn tôi...'
++		R
++		'quay về sớm hơn thì đã'
++		R
++		'không thành ra thế...」'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_0432e:
+@@ -1183,12 +1139,12 @@
+ 	}
+ 	\L_0425c:
+ 	ZH 1:
+-	'Đưa nàng đến đây.'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Vâng, hiểu rồi.'
++	'Đưa cô ấy tới đây.'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Vâng, thần hiểu.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_04294:
+@@ -1215,81 +1171,77 @@
+ 	\L_04374:
+ 	\L_04294:
+ 	ZH 1:
+-	'Maris đưa Hawzel vào.'
+-	R
+-	'Cô từ từ ngồi vào ghế'
+-	R
+-	'và đối mặt với Rance.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Vẫn chưa trở lại trạng'
+-	R
+-	'thái bình thường, nhưng có'
+-	R
+-	'vẻ cậu cũng không tệ lắm.'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Vâng... Cảm ơn'
+-	R
+-	'cậu đã cứu tôi.'
+-	\L_04381:
+-	ZH 1:
+-	'Tên tôi là Hazel. Tôi'
+-	R
+-	'là một trong những con quỷ.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Tại sao một con quỷ'
+-	R
+-	'bị tra tấn trong ngục tối?'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Bởi vì tôi'
+-	R
+-	'đang có chiến tranh với'
+-	R
+-	'chủ nhân của lâu đài đó.'
+-	\L_04381:
+-	ZH 1:
+-	'Vua Rance, ngài biết'
+-	R
+-	'Công chúa nhỏ phải không?'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Aah... Ý ngươi là Miki.'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Vâng. Tôi đứng'
+-	R
+-	'về Phía Bà Hornet.'
+-	\L_04381:
+-	ZH 1:
+-	'lâu đài đó'
+-	R
+-	'thuộc Về Kayblis, kẻ'
+-	R
+-	'thù Của Cô Hornet.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Ta hiểu rồi… Vậy điều đó'
+-	R
+-	'có nghĩa là ngươi không phải'
+-	R
+-	'là kẻ thù của con người?'
++	'Được Maris đưa tới, Hawzel'
++	R
++	'chầm chậm ngồi xuống'
++	R
++	'ghế, đối diện Rance.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Xem ra vẫn chưa'
++	R
++	'khỏe hẳn nhỉ.'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Vâng... cảm ơn'
++	R
++	'ngài đã cứu tôi.'
++	\L_04381:
++	ZH 1:
++	'Tôi tên là Hawzel.'
++	R
++	'Là một Ma Nhân.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Một Ma Nhân sao lại bị'
++	R
++	'hành hạ trong ngục tối?'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Vì tôi chống lại chủ'
++	R
++	'nhân tòa thành đó,'
++	R
++	'gây chiến với hắn.'
++	\L_04381:
++	ZH 1:
++	'Bệ hạ Rance hẳn đã biết chứ'
++	R
++	'ạ? Ngài Little Princess...'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'À... là Miki nhỉ.'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Vâng. Tôi đi'
++	R
++	'theo Ngài Hornet.'
++	\L_04381:
++	ZH 1:
++	'Tòa thành đó là của Kayblis,'
++	R
++	'kẻ thù của Ngài Hornet.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Ra vậy... vậy nghĩa'
++	R
++	'là với loài người,'
++	R
++	'cô không phải kẻ thù?'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_042cc:
+@@ -1467,9 +1419,9 @@
+ 	\L_04374:
+ 	\L_04294:
+ 	ZH 1:
+-	'Hawzel trở thành'
+-	R
+-	'đồng minh của Rance.'
++	'Ma Nhân Hawzel đã trở'
++	R
++	'thành đồng đội của Rance.'
+ 	\L_04381:
+ 	\L_04374:
+ 	!VAR0516 : 0!
+@@ -1491,35 +1443,33 @@
+ 	\L_04294:
+ 	ZM 32:
+ 	ZH 1:
+-	'Nơi ẩn náu trên núi'
++	'Sào huyệt trên núi'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Nơi ẩn náu'
+-	R
+-	'của đơn vị'
+-	R
+-	'Camilla Whaaat? Camilla...'
+-	\L_04381:
+-	ZH 1:
+-	'Tại sao anh lại gọi tôi'
+-	R
+-	'ra khỏi màu xanh như thế...?'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Có vẻ như quân của Kayblis'
+-	R
+-	'đã đè bẹp lực lượng của'
+-	R
+-	'Hornet tại Cascade Bau...'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Hừ... Tuyệt quá.'
++	'Nơi ẩn náu của Camilla'
++	R
++	'Saizel「Gì vậy? Camilla...'
++	\L_04381:
++	ZH 1:
++	'Tự nhiên gọi'
++	R
++	'người ta ra...」'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Ở Cascade Bau... nghe'
++	R
++	'nói quân Kayblis đã'
++	R
++	'đánh tan bọn Hornet...'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Ơ... giỏi thế còn gì.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0425c:
+@@ -1529,16 +1479,16 @@
+ 	\L_04374:
+ 	\L_042cc:
+ 	ZH 1:
+-	'... Cái gì...?'
+-	R
+-	'em Gái Của cậu... Hawzel rõ'
+-	R
+-	'ràng đã bị Bắt Bởi Medusa...'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Hả... Hawzel thì sao?'
++	'...Gì chứ...? Camilla「Em'
++	R
++	'gái cô... Hawzel, nghe'
++	R
++	'nói đã bị Medusa bắt...」'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Hả... Hawzel ư?'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0425c:
+@@ -1594,36 +1544,32 @@
+ 	\L_042be:
+ 	\L_04304:
+ 	ZH 1:
+-	'Seizel quay lưng Lại'
+-	R
+-	'Với Camilla và chạy.'
++	'Saizel quay lưng lại với'
++	R
++	'Camilla, chạy vụt đi.'
+ 	\L_04381:
+ 	\L_04374:
+ 	PF1 VAR0056:
+ 	PF0 VAR0056:
+ 	\L_042e8:
+ 	ZH 1:
+-	'Có phải lỗi'
+-	R
+-	'của tôi không...?'
+-	\L_04381:
+-	ZH 1:
+-	'Có phải vì những'
+-	R
+-	'gì tôi đã làm...?'
+-	\L_04381:
+-	ZH 1:
+-	'Trong tất cả'
+-	R
+-	'những điều khủng khiếp, nàng'
+-	R
+-	'đã bị Medusa bắt giữ...!!'
+-	\L_04381:
+-	ZH 1:
+-	'Cây phỉ...'
+-	\L_04381:
+-	ZH 1:
+-	'Cây phỉ!!'
++	'Là lỗi của tôi...?'
++	\L_04381:
++	ZH 1:
++	'Vì tôi... đã làm'
++	R
++	'chuyện đó...?'
++	\L_04381:
++	ZH 1:
++	'Lại còn bị bắt bởi chính'
++	R
++	'Medusa nữa chứ...!!'
++	\L_04381:
++	ZH 1:
++	'Hawzel......'
++	\L_04381:
++	ZH 1:
++	'Hawzel!!'
+ 	\L_04381:
+ 	\L_04374:
+ 	!VAR0516 : 0!
+@@ -1783,89 +1729,83 @@
+ 	\L_04294:
+ 	ZM 32:
+ 	ZH 1:
+-	'Miệng Của Hội'
+-	R
+-	'Nghị thượng đỉnh'
++	'Miệng Đỉnh Núi'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tầng Ngầm 30 Cây phỉ...'
++	'Tầng hầm 30'
++	R
++	'Saizel「Hawzel......」'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_04278:
+ 	ZH 1:
+-	'Tôi cảm nhận được'
+-	R
+-	'nỗi đau của Hazel...'
+-	\L_04381:
+-	ZH 1:
+-	'Tại sao Medusa lại có'
+-	R
+-	'thể khủng khiếp đến thế...?'
+-	R
+-	'Hazel vẫn... còn sống...'
++	'Chị cảm nhận được'
++	R
++	'nỗi đau của Hawzel...'
++	\L_04381:
++	ZH 1:
++	'Ngươi làm chuyện tàn nhẫn'
++	R
++	'gì thế, Medusa... Hawzel...'
++	R
++	'vẫn đang sống mà......'
+ 	\L_04381:
+ 	ZH 1:
+ 	'............'
+ 	\L_04381:
+ 	ZH 1:
+-	'Không... Đổ lỗi'
+-	R
+-	'cho Medusa vì đã tra tấn'
+-	R
+-	'nàng cũng chẳng ích gì...'
+-	\L_04381:
+-	ZH 1:
+-	'Đó là lỗi của tôi...'
+-	\L_04381:
+-	ZH 1:
+-	'Tôi...'
+-	\L_04381:
+-	ZH 1:
+-	'Tôi cảm thấy cần'
+-	R
+-	'phải cạnh tranh với cậu...'
+-	\L_04381:
+-	ZH 1:
+-	'Anh ghen tị với em vì em'
+-	R
+-	'là một cô gái tốt như vậy...'
+-	\L_04381:
+-	ZH 1:
+-	'Tôi chỉ cố lờ đi'
+-	R
+-	'rằng bản thân tôi không thể'
+-	R
+-	'trở thành như vậy được...'
+-	\L_04381:
+-	ZH 1:
+-	'Tôi không muốn'
+-	R
+-	'đấu với cậu, nhưng...'
+-	\L_04381:
+-	ZH 1:
+-	'Nhưng... tôi... tôi...'
+-	\L_04381:
+-	ZH 1:
+-	'Hazel... tôi xin lỗi...'
+-	\L_04381:
+-	ZH 1:
+-	'Lời xin lỗi đó chưa đủ'
+-	R
+-	'cho những gì tôi đã làm...'
+-	\L_04381:
+-	ZH 1:
+-	'Ngu ngốc... Tôi thật'
+-	R
+-	'ngu ngốc... Tôi không'
+-	R
+-	'bao giờ ra khỏi đây...'
+-	\L_04381:
+-	ZH 1:
+-	'Tôi sẽ đau'
+-	R
+-	'khổ Với Hawzel...'
++	'Không... trách Medusa'
++	R
++	'là không đúng...'
++	\L_04381:
++	ZH 1:
++	'Lỗi là ở chị......'
++	\L_04381:
++	ZH 1:
++	'Chị......'
++	\L_04381:
++	ZH 1:
++	'Chị đã ganh đua với em...'
++	\L_04381:
++	ZH 1:
++	'Ghen tị với đứa em'
++	R
++	'ngoan... lờ đi chuyện'
++	R
++	'mình không ngoan được...'
++	\L_04381:
++	ZH 1:
++	'Chị không muốn cãi'
++	R
++	'nhau chút nào...'
++	\L_04381:
++	ZH 1:
++	'Vậy mà... chị... chị...'
++	\L_04381:
++	ZH 1:
++	'Hawzel... xin lỗi em...'
++	\L_04381:
++	ZH 1:
++	'Xin lỗi cũng chẳng'
++	R
++	'bù đắp được nhỉ...'
++	\L_04381:
++	ZH 1:
++	'Ngu ngốc... chị...'
++	R
++	'ngu ngốc quá... chị sẽ'
++	R
++	'không ra khỏi đây nữa...'
++	\L_04381:
++	ZH 1:
++	'Chị cũng... cùng chịu nỗi'
++	R
++	'đau của Hawzel... ở đây...'
++	\L_04381:
++	ZH 1:
++	'Cùng Hawzel...'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0439b:
+@@ -1931,7 +1871,7 @@
+ 	\L_04374:
+ 	\L_0425c:
+ 	ZH 1:
+-	'Ai ở đó!?'
++	'Ai đó!?'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_042cc:
+@@ -1939,73 +1879,71 @@
+ 	'À...'
+ 	\L_04381:
+ 	ZH 1:
+-	'Ai đó đến từ Leazas. Cậu'
+-	R
+-	'là ai...? Tại sao cậu lại'
+-	R
+-	'ngồi ở một nơi như thế này?'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Đó là... bởi vì'
+-	R
+-	'tôi có thể làm bất cứ điều'
+-	R
+-	'gì tôi cảm thấy thích...'
++	'Tôi là người của Leazas.'
++	R
++	'Cô là...? Sao lại ngồi'
++	R
++	'co ro ở chỗ thế này?'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Chuyện đó... là'
++	R
++	'việc của tôi...'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_04304:
+ 	ZH 1:
+-	'Sự khát máu tương tự như'
+-	R
+-	'hơi nóng đổ vào người lính.'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Hả...?'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Đi đi... Đừng'
+-	R
+-	'làm phiền tôi...'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Nhưng trông em'
+-	R
+-	'có vẻ đang đau đớn…'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Yên lặng!!'
+-	\L_04381:
+-	\L_04374:
+-	\L_04294:
+-	ZH 1:
+-	'Seizel mạnh mẽ đứng dậy.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Cút ra!! Muốn bị giết!?'
+-	\L_04381:
+-	ZH 1:
+-	'Tôi không'
+-	R
+-	'muốn nhìn hay nghe thấy ai'
+-	R
+-	'cả!! Đó là lý do tôi ở đây!!'
+-	\L_04381:
+-	ZH 1:
+-	'Vậy... Vậy...'
+-	R
+-	'Đi đi!! Ngu ngốc!'
++	'Sát khí như làn hơi nóng'
++	R
++	'trút xuống người lính.'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Hả......?'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Đi đi... đừng'
++	R
++	'để ý tới tôi...'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Nhưng trông cô'
++	R
++	'khổ sở thế kia...'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Câm miệng!!'
++	\L_04381:
++	\L_04374:
++	\L_04294:
++	ZH 1:
++	'Saizel bật dậy đầy khí thế.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Biến đi!! Muốn chết à!?'
++	\L_04381:
++	ZH 1:
++	'Tôi không muốn gặp ai, cũng'
++	R
++	'chẳng muốn nói chuyện với'
++	R
++	'ai!! Vì thế mới ở đây!!'
++	\L_04381:
++	ZH 1:
++	'Nên... nên...'
++	R
++	'biến đi!! Đồ ngốc!'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_042cc:
+@@ -2015,21 +1953,17 @@
+ 	\L_04374:
+ 	\L_042e8:
+ 	ZH 1:
+-	'... Tôi không biết chính'
+-	R
+-	'xác có chuyện gì, nhưng...'
+-	\L_04381:
+-	ZH 1:
+-	'Rời đi có lẽ'
+-	R
+-	'sẽ an toàn hơn...'
+-	\L_04381:
+-	ZH 1:
+-	'người lính'
+-	R
+-	'tự hỏi về tình hình khi'
+-	R
+-	'anh ta rời Khỏi Seizel.'
++	'...Không biết'
++	R
++	'chuyện gì, nhưng...'
++	\L_04381:
++	ZH 1:
++	'có lẽ nên rời đi cho lành...'
++	\L_04381:
++	ZH 1:
++	'Người lính vừa dè chừng'
++	R
++	'vừa rời khỏi chỗ Saizel.'
+ 	\L_04381:
+ 	\L_04374:
+ 	EC 0:
+@@ -2049,90 +1983,82 @@
+ 	\L_04320:
+ 	\L_04294:
+ 	ZH 1:
+-	'có một cô gái ngồi'
+-	R
+-	'xổm một mình trong ngục tối.'
++	'Trong mê cung có một cô'
++	R
++	'gái ngồi co ro một mình.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_04278:
+ 	ZH 1:
+-	'Đó không phải là cô'
+-	R
+-	'gái đã xâm chiếm lâu đài vào'
+-	R
+-	'ngày Miki đến sao? Bắt giữ?'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Này, cậu đang làm'
+-	R
+-	'gì ở đây thế, Seizel?'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Hả...? Tại sao'
+-	R
+-	'cậu biết tên tôi? cậu...'
+-	R
+-	'Cậu Là Vua Của Leazas!!'
+-	\L_04381:
+-	ZH 1:
+-	'không mong'
+-	R
+-	'đợi được gặp cậu.'
+-	\L_04381:
+-	ZH 1:
+-	'Nếu cậu ngồi ở một'
+-	R
+-	'nơi như thế này, nấm mốc sẽ'
+-	R
+-	'phát triển ở một nơi tồi tệ.'
+-	\L_04381:
+-	ZH 1:
+-	'Gahahahaha!'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Im đi! Đi'
+-	R
+-	'đi!! Nếu cậu không...!!'
+-	\L_04381:
+-	\L_04374:
+-	\L_04294:
+-	ZH 1:
+-	'Seizel đổ máu lên Rance.'
++	'Con nhỏ đó chẳng phải Ma'
++	R
++	'Nhân xông vào thành hôm Miki'
++	R
++	'tới... tên Saizel gì đó sao?'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Này, làm gì ở chỗ'
++	R
++	'thế này? Saizel.'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Hả... sao biết tên tôi...'
++	R
++	'Ng... ngươi là Vua Leazas!!'
++	\L_04381:
++	ZH 1:
++	'Rance「Tình cờ nhỉ.'
++	\L_04381:
++	ZH 1:
++	'Ngồi chỗ ẩm thấp thế'
++	R
++	'này là chỗ quan trọng'
++	R
++	'mọc nấm mốc đấy.'
++	\L_04381:
++	ZH 1:
++	'Gahahahaha!」'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Im đi! Đi chỗ khác!!'
++	R
++	'Không thì...!!'
++	\L_04381:
++	\L_04374:
++	\L_04294:
++	ZH 1:
++	'Saizel không chút nương'
++	R
++	'tay, trút sát khí lên Rance.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_04278:
+ 	ZH 1:
+-	'Hmmm... Hiện giờ'
+-	R
+-	'ngươi không thực sự là'
+-	R
+-	'mục tiêu của ta, nên...'
+-	\L_04381:
+-	ZH 1:
+-	'ta sẽ để ngươi yên.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Ta không biết'
+-	R
+-	'chuyện gì đang xảy ra,'
+-	\L_04381:
+-	ZH 1:
+-	'nhưng nếu'
+-	R
+-	'ngươi thích những nơi như'
+-	R
+-	'thế này thì hãy ở lại đây.'
+-	\L_04381:
+-	ZH 1:
+-	'Thấy ngươi.'
++	'Ưmm... mục tiêu lúc này'
++	R
++	'đâu phải con nhỏ này...'
++	\L_04381:
++	ZH 1:
++	'kệ nó vậy.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Chẳng biết chuyện gì,'
++	\L_04381:
++	ZH 1:
++	'nhưng nếu thích chỗ thế'
++	R
++	'này thì cứ ngồi yên đó.'
++	\L_04381:
++	ZH 1:
++	'Đi đây.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_042cc:
+@@ -2142,9 +2068,9 @@
+ 	\L_04374:
+ 	\L_04294:
+ 	ZH 1:
+-	'Rance rời Seizel'
+-	R
+-	'nơi nàng đã ở và đi xa.'
++	'Rance quyết định'
++	R
++	'bỏ Saizel lại.'
+ 	\L_04381:
+ 	\L_04374:
+ 	EC 0:
+@@ -2159,23 +2085,23 @@
+ 	\L_042b0:
+ 	\L_0425c:
+ 	ZH 1:
+-	'Ồ, nàng đây rồi.'
++	'Ồ, đây rồi.'
+ 	\L_04381:
+ 	\L_04374:
+ 	!VAR0516 : 428!
+ 	\L_04320:
+ 	\L_04294:
+ 	ZH 1:
+-	'rance thấy Seizel'
+-	R
+-	'ngồi xổm giống như nàng.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Này, cậu chỉ ngồi'
+-	R
+-	'đây thôi à Seizel?'
++	'Rance thấy Saizel vẫn'
++	R
++	'ngồi co ro như lần trước.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Này, vẫn ở chỗ'
++	R
++	'này à, Saizel.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_042cc:
+@@ -2183,16 +2109,14 @@
+ 	'............'
+ 	\L_04381:
+ 	ZH 1:
+-	'Đi đi...!'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'... Và nàng'
+-	R
+-	'là thế đấy. Chúng ta'
+-	R
+-	'nên làm gì đây, Hazel?'
++	'Về đi...!'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'...Cô ta bảo thế đấy.'
++	R
++	'Làm sao đây? Hawzel.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_042cc:
+@@ -2205,7 +2129,7 @@
+ 	\L_042b0:
+ 	\L_0425c:
+ 	ZH 1:
+-	'Thu Giữ...'
++	'Saizel...'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_042cc:
+@@ -2213,144 +2137,140 @@
+ 	'............'
+ 	\L_04381:
+ 	ZH 1:
+-	'... Không'
+-	R
+-	'thể nào... tại sao cậu lại'
+-	R
+-	'ở một nơi như thế này...?'
+-	\L_04381:
+-	ZH 1:
+-	'Thời tiết bên ngoài'
+-	R
+-	'là tốt đẹp... Đi thôi.'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Hả...? Nhưng... nhưng...'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Có chuyện gì vậy?'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Tôi là một cô gái'
+-	R
+-	'hư... Hawzel... Vì thế...'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Nó thực sự rất'
+-	R
+-	'đau, cậu biết đấy...'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Uu... Waaah...'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Vì vậy, Đừng làm bất cứ'
+-	R
+-	'điều gì như vậy một lần nữa.'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Hả...?'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Tôi không đến để'
+-	R
+-	'đổ lỗi cho cậu. Em ra mất'
+-	R
+-	'rồi... để đón cô, Seizel.'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Kẻ nói dối...'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Đó là sự thật. Bây giờ...'
+-	\L_04381:
+-	\L_04374:
+-	\L_04294:
+-	ZH 1:
+-	'Hazel nhẹ nhàng đưa'
+-	R
+-	'tay về phía Seizel.'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Uu... Wah... À...'
+-	\L_04381:
+-	\L_04374:
+-	\L_04294:
+-	ZH 1:
+-	'Seizel bám'
+-	R
+-	'vào tay Hawzel và nước mắt'
+-	R
+-	'chảy dài trên khuôn mặt cô.'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'À...!'
+-	\L_04381:
+-	\L_04374:
+-	\L_04294:
+-	ZH 1:
+-	'Hawzel nắm lấy'
+-	R
+-	'tay Seizel và ôm'
+-	R
+-	'nó vào ngực nàng.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'... Ngốc nghếch...'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Hii... Hyah...'
+-	R
+-	'Ah... Hawzel... Hawzel...'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Trời ạ... Hãy bình'
+-	R
+-	'tĩnh lại đi. Bắt giữ...'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Được rồi... Xin lỗi...'
+-	R
+-	'Tôi xin lỗi... Tôi xin lỗi!'
+-	\L_04381:
+-	\L_04374:
+-	\L_04294:
+-	ZH 1:
+-	'Do đó, demon'
+-	R
+-	'Seizel gia nhập Rance.'
++	'...Không thể nào......'
++	R
++	'Hawzel「Sao chị lại'
++	R
++	'ở chỗ thế này...?'
++	\L_04381:
++	ZH 1:
++	'Ngoài trời đẹp'
++	R
++	'lắm... về thôi.」'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Ơ... nhưng... nhưng...'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Sao vậy?'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Chị... là đứa hư mà...'
++	R
++	'Hawzel... vì chị mà...'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Đau lắm đấy, thật là...'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Ư... hu hu...'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Nên đừng bao giờ làm'
++	R
++	'chuyện như thế nữa nhé.'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Hả......'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Em không đến để trách'
++	R
++	'chị đâu. Em đến đón'
++	R
++	'chị đấy, Saizel.'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Không... thật......'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Thật mà. Nào...'
++	\L_04381:
++	\L_04374:
++	\L_04294:
++	ZH 1:
++	'Hawzel nhẹ nhàng chìa'
++	R
++	'tay về phía Saizel.'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Ư... ư a... a......'
++	\L_04381:
++	\L_04374:
++	\L_04294:
++	ZH 1:
++	'Saizel níu lấy tay Hawzel,'
++	R
++	'nước mắt tuôn rơi lã chã.'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'A...!'
++	\L_04381:
++	\L_04374:
++	\L_04294:
++	ZH 1:
++	'Hawzel nắm lấy tay Saizel,'
++	R
++	'kéo chị vào lòng mình.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'......Ngốc...'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Hức... hức... a...'
++	R
++	'Hawzel... Hawzel...'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Thật là... vững vàng'
++	R
++	'lên đi chứ. Chị...'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Ừ... xin lỗi... xin'
++	R
++	'lỗi em... xin lỗi mà!'
++	\L_04381:
++	\L_04374:
++	\L_04294:
++	ZH 1:
++	'Thế là Ma Nhân'
++	R
++	'Saizel cũng trở thành'
++	R
++	'thuộc hạ của Rance.'
+ 	\L_04381:
+ 	\L_04374:
+ 	EC 0:
+@@ -2379,7 +2299,7 @@
+ 	R
+ 	'Phòng yết kiến'
+ 	R
+-	'Xin chào, thưa bệ hạ.'
++	'Hawzel「Xin chào, Bệ hạ.」'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -2387,9 +2307,7 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Em ra rồi...,'
+-	R
+-	'Vua của Leazas.'
++	'Tới rồi đây, Vua Leazas.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0425c:
+@@ -2652,7 +2570,7 @@
+ 	\L_04374:
+ 	\L_042cc:
+ 	ZH 1:
+-	'... Ờ...'
++	'...Hả......'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -2660,21 +2578,19 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Thành thật'
+-	R
+-	'mà nói... tôi không thể'
+-	R
+-	'chiến đấu một mình được.'
+-	\L_04381:
+-	ZH 1:
+-	'Chúng tôi đã tra'
+-	R
+-	'tấn Quá nhiều Từ Medusa...'
+-	\L_04381:
+-	ZH 1:
+-	'Sẽ rất khó để lấy'
+-	R
+-	'lại sức mạnh của chúng ta...'
++	'Nói thẳng thì... một'
++	R
++	'mình thì không được.'
++	\L_04381:
++	ZH 1:
++	'Bọn tôi đã bị Medusa'
++	R
++	'hành hạ quá nhiều...'
++	\L_04381:
++	ZH 1:
++	'sức mạnh khó mà'
++	R
++	'hồi phục được...'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -2682,16 +2598,12 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Ngoài ra, tôi không'
+-	R
+-	'muốn rời xa Hawzel!'
+-	\L_04381:
+-	ZH 1:
+-	'Nếu phải chiến'
+-	R
+-	'đấu thì chúng ta hãy'
+-	R
+-	'chia nhau một đơn vị!'
++	'Mà tôi không muốn xa Hawzel!'
++	\L_04381:
++	ZH 1:
++	'Nhất định bắt đánh thì cho'
++	R
++	'tôi chung quân với Hawzel!'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -2699,31 +2611,27 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Thu Giữ...'
+-	\L_04381:
+-	ZH 1:
+-	'Vâng... Tôi đồng'
+-	R
+-	'ý. Tôi cũng muốn thế.'
+-	\L_04381:
+-	ZH 1:
+-	'Nếu chúng tôi làm'
+-	R
+-	'điều đó, chúng tôi có thể'
+-	R
+-	'quản lý một cái gì đó...'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Hiểu rồi, hãy'
+-	R
+-	'làm theo ý ngươi.'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Thật sao?'
++	'Saizel......'
++	\L_04381:
++	ZH 1:
++	'Phải... nhỉ. Tôi cũng'
++	R
++	'mong được như vậy.'
++	\L_04381:
++	ZH 1:
++	'Như thế thì cũng'
++	R
++	'xoay xở được...'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Biết rồi, tùy các ngươi.'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Thật ạ?'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -2731,11 +2639,11 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Yaaay!! Hawzel...'
+-	R
+-	'Bây giờ chúng ta luôn'
+-	R
+-	'có thể ở bên nhau.'
++	'Yeee!! Hawzel...'
++	R
++	'vậy là lúc nào cũng'
++	R
++	'được ở bên nhau rồi.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+@@ -2743,44 +2651,40 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Aah... Seizel...'
+-	R
+-	'Tôi cũng hạnh phúc lắm... họ'
+-	R
+-	'bắt tay và xoa má vào nhau.'
++	'A... Saizel... em cũng'
++	R
++	'vui lắm... Hai người nắm'
++	R
++	'tay nhau, áp má vào nhau.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_04278:
+ 	ZH 1:
+-	'Trời ạ...'
+-	\L_04381:
+-	ZH 1:
+-	'Không đời nào'
+-	R
+-	'ta có thể bảo họ rời xa nhau'
+-	R
+-	'khi họ hành động như vậy...'
+-	\L_04381:
+-	ZH 1:
+-	'Chà... Nên được tốt. Ngay'
+-	R
+-	'cả khi sức mạnh của họ giảm'
+-	R
+-	'đi, ma quỷ vẫn là ma quỷ.'
+-	\L_04381:
+-	ZH 1:
+-	'Sử dụng chúng còn'
+-	R
+-	'hơn là không sử dụng.'
+-	\L_04381:
+-	\L_04374:
+-	\L_04294:
+-	ZH 1:
+-	'Do đó, Hawzel và Seizel đã'
+-	R
+-	'cùng nhau lãnh đạo một đơn'
+-	R
+-	'vị và tham gia cuộc chiến.'
++	'Thật là...'
++	\L_04381:
++	ZH 1:
++	'Thế này thì bảo tách'
++	R
++	'ra cũng chẳng được...'
++	\L_04381:
++	ZH 1:
++	'Thôi... cũng được. Sức'
++	R
++	'mạnh có giảm thì Ma'
++	R
++	'Nhân vẫn là Ma Nhân.'
++	\L_04381:
++	ZH 1:
++	'Có còn hơn không.'
++	\L_04381:
++	\L_04374:
++	\L_04294:
++	ZH 1:
++	'Thế là Hawzel và'
++	R
++	'Saizel tham chiến với'
++	R
++	'tư cách quân hỗn hợp.'
+ 	\L_04381:
+ 	\L_04374:
+ 	!VAR0516 : 0!
+@@ -2800,89 +2704,81 @@
+ 	\L_04294:
+ 	ZM 32:
+ 	ZH 1:
+-	'Miệng Của Hội'
+-	R
+-	'Nghị thượng đỉnh'
++	'Miệng Đỉnh Núi'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tầng Ngầm 30 Seizel đã'
+-	R
+-	'ở đó. Nàng đang ngồi xổm.'
+-	\L_04381:
+-	ZH 1:
+-	'Nhưng nàng không thở'
+-	R
+-	'hổn hển như thường lệ,'
+-	\L_04381:
+-	ZH 1:
+-	'và không rõ liệu'
+-	R
+-	'nàng còn sống hay không...'
+-	\L_04381:
+-	ZH 1:
+-	'Nàng không co'
+-	R
+-	'giật... Cô thở lặng lẽ như'
+-	R
+-	'vậy thật khó để nói cô là...'
+-	\L_04381:
+-	ZH 1:
+-	'Như một người sắp chết...'
+-	\L_04381:
+-	ZH 1:
+-	'Nàng không nhìn'
+-	R
+-	'gì cả. Nàng không nói'
+-	R
+-	'gì. Nàng chỉ ngồi đó...'
+-	\L_04381:
+-	ZH 1:
+-	'Trong khi thi'
+-	R
+-	'thể Của Seizel ở trạng'
+-	R
+-	'thái đó, nó trôi nổi.'
+-	\L_04381:
+-	ZH 1:
+-	'Đó không phải là ý chí'
+-	R
+-	'hay nỗ lực của chính nàng,'
+-	\L_04381:
+-	ZH 1:
+-	'nhưng giống như'
+-	R
+-	'nàng đã thua một số'
+-	R
+-	'loại lực thu hút...'
+-	\L_04381:
+-	ZH 1:
+-	'Ngực cô cong về phía'
+-	R
+-	'trước. Đầu cô ngửa ra sau.'
+-	\L_04381:
+-	ZH 1:
+-	'Đầu cô đột nhiên giật'
+-	R
+-	'về phía trước. Rồi đôi'
+-	R
+-	'cánh của cô dang rộng.'
+-	\L_04381:
+-	ZH 1:
+-	'Không có hành động'
+-	R
+-	'nào trong số này là'
+-	R
+-	'ý muốn của Seizel...'
+-	\L_04381:
+-	ZH 1:
+-	'Nó giống như có thứ'
+-	R
+-	'gì khác đang lay động nàng.'
+-	\L_04381:
+-	ZH 1:
+-	'Sau đó Seizel bay đi.'
++	'Tầng hầm 30'
++	R
++	'Saizel ở đó, ngồi co ro.'
++	\L_04381:
++	ZH 1:
++	'Nhưng không phải quằn'
++	R
++	'quại như mọi khi,'
++	\L_04381:
++	ZH 1:
++	'chẳng biết còn sống'
++	R
++	'hay đã chết.........'
++	\L_04381:
++	ZH 1:
++	'Không nhúc nhích... đến'
++	R
++	'mức chẳng rõ còn thở'
++	R
++	'không... lặng lẽ......'
++	\L_04381:
++	ZH 1:
++	'Như sinh vật'
++	R
++	'đang chờ chết...'
++	\L_04381:
++	ZH 1:
++	'Không ánh nhìn. Không lời'
++	R
++	'nói. Chỉ lặng yên......'
++	\L_04381:
++	ZH 1:
++	'Thân thể Saizel ấy'
++	R
++	'bỗng nhẹ nhàng nổi lên.'
++	\L_04381:
++	ZH 1:
++	'Không phải do ý chí hay'
++	R
++	'cơ bắp của chính mình,'
++	\L_04381:
++	ZH 1:
++	'mà như thua một lực hút'
++	R
++	'nào đó mà nổi lên......'
++	\L_04381:
++	ZH 1:
++	'Ngực ưỡn ra. Đầu ngả'
++	R
++	'ra sau lủng lẳng.'
++	\L_04381:
++	ZH 1:
++	'Cái đầu ấy chợt'
++	R
++	'gục ra trước. Rồi'
++	R
++	'đôi cánh dang rộng.'
++	\L_04381:
++	ZH 1:
++	'Mọi cử động đều không'
++	R
++	'phải ý chí của Saizel...'
++	\L_04381:
++	ZH 1:
++	'mà như bị một thứ'
++	R
++	'khác điều khiển.'
++	\L_04381:
++	ZH 1:
++	'Rồi Saizel cứ thế bay đi.'
+ 	\L_04381:
+ 	\L_04374:
+ 	{VAR0335 > 4:
+@@ -2955,21 +2851,21 @@
+ 	\L_04320:
+ 	\L_0425c:
+ 	ZH 1:
+-	'Thu giữ!?'
+-	\L_04381:
+-	\L_04374:
+-	\L_04294:
+-	ZH 1:
+-	'Đột nhiên, Seizel bay'
+-	R
+-	'qua cửa sổ. nàng dường như'
+-	R
+-	'bằng cách nào đó cũng rỗng.'
+-	\L_04381:
+-	ZH 1:
+-	'Cặp song sinh trống'
+-	R
+-	'rỗng đối mặt với nhau.'
++	'Saizel!?'
++	\L_04381:
++	\L_04374:
++	\L_04294:
++	ZH 1:
++	'Kẻ đột nhiên lao vào'
++	R
++	'qua cửa sổ là Saizel.'
++	\L_04381:
++	ZH 1:
++	'Saizel cũng có vẻ thất'
++	R
++	'thần. Cặp song sinh'
++	R
++	'thất thần đối mặt nhau.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0425c:
+@@ -2995,67 +2891,67 @@
+ 	\L_04374:
+ 	\L_0425c:
+ 	ZH 1:
+-	'Cậu không thể'
+-	R
+-	'đánh bại tôi...'
+-	\L_04381:
+-	ZH 1:
+-	'À...'
+-	\L_04381:
+-	\L_04374:
+-	\L_04294:
+-	ZH 1:
+-	'Medusa buông'
+-	R
+-	'cơ thể của Hawzel ra và'
+-	R
+-	'nó nổi lên khỏi mặt đất.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Đợi đã...'
+-	\L_04381:
+-	ZH 1:
+-	'sau đó, cô từ từ đến gần'
+-	R
+-	'Phía Seizel, giống như một'
+-	R
+-	'chiếc lá chảy thành dòng.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Y-hai cậu... Cậu là gì...?'
+-	\L_04381:
+-	\L_04374:
+-	\L_04294:
+-	ZH 1:
+-	'Và sau đó...'
+-	\L_04381:
+-	ZH 1:
+-	'thi thể Của Seizel'
+-	R
+-	'và Hawzel chồng chất lên'
+-	R
+-	'nhau như thể chúng là một.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'À...'
+-	\L_04381:
+-	\L_04374:
+-	\L_04294:
+-	ZH 1:
+-	'Họ phát sáng một màu'
+-	R
+-	'đen và trắng buồn tẻ.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Áa...!!'
++	'Ngươi mà thắng được ta...'
++	\L_04381:
++	ZH 1:
++	'A......'
++	\L_04381:
++	\L_04374:
++	\L_04294:
++	ZH 1:
++	'Medusa buông tay, thân'
++	R
++	'thể Hawzel đang nằm trên'
++	R
++	'sàn nhẹ nhàng nổi lên.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Khoan...'
++	\L_04381:
++	ZH 1:
++	'Rồi chầm chậm trôi lại'
++	R
++	'gần Saizel, như chiếc lá'
++	R
++	'trôi theo dòng suối trong.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'C... các ngươi......'
++	R
++	'cái gì......'
++	\L_04381:
++	\L_04374:
++	\L_04294:
++	ZH 1:
++	'Và rồi......'
++	\L_04381:
++	ZH 1:
++	'thân thể Saizel và Hawzel'
++	R
++	'chồng khít lên nhau.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'A......'
++	\L_04381:
++	\L_04374:
++	\L_04294:
++	ZH 1:
++	'Thân thể Saizel và'
++	R
++	'Hawzel phát ánh sáng'
++	R
++	'đen trắng mờ đục.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Aaa......!!'
+ 	\L_04381:
+ 	\L_04374:
+ 	PW1 VAR0056:
+@@ -3065,35 +2961,29 @@
+ 	PW0 VAR0056:
+ 	\L_04294:
+ 	ZH 1:
+-	'Chỉ mất một khoảnh'
+-	R
+-	'khắc. Mọi thứ trong'
+-	R
+-	'phòng đều biến mất.'
+-	\L_04381:
+-	ZH 1:
+-	'Vậy thì...'
+-	\L_04381:
+-	ZH 1:
+-	'Một Cái gì đó'
+-	R
+-	'được sinh ra từ nó.'
++	'Trong chớp mắt.'
++	\L_04381:
++	ZH 1:
++	'Nơi đó trở thành'
++	R
++	'khoảng không trống'
++	R
++	'rỗng. Và rồi......'
++	\L_04381:
++	ZH 1:
++	'Thứ ấy ra đời từ đó.'
+ 	\L_04381:
+ 	\L_04374:
+ 	!VAR0516 : 461!
+ 	\L_042b0:
+ 	\L_04294:
+ 	ZH 1:
+-	'Người Mà'
+-	R
+-	'La Seizel từng là. Một'
+-	R
+-	'La Hawzel đã từng là.'
+-	\L_04381:
+-	ZH 1:
+-	'La Vaswald. Sự'
+-	R
+-	'kết thúc tỏa sáng.'
++	'Kẻ từng là La Saizel.'
++	R
++	'Kẻ từng là La Hawzel.'
++	\L_04381:
++	ZH 1:
++	'La Vaswald. Tận thế rực rỡ.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_042be:
+@@ -3101,114 +2991,106 @@
+ 	\L_04320:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Tiểu thư của tôi, tiểu'
+-	R
+-	'thư của tôiyyyyyyy! Cảm giác'
+-	R
+-	'kỳ lạ vừa rồi là gì vậy?'
+-	\L_04381:
+-	ZH 1:
+-	'Chuyện gì đã xảy ra vậy?'
+-	\L_04381:
+-	\L_04374:
+-	\L_04294:
+-	ZH 1:
+-	'Cảm thấy có điều'
+-	R
+-	'gì đó không ổn, Alefgard'
+-	R
+-	'chạy vội đến phòng Medusa.'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Tiểu thư của tôi ơi!'
+-	R
+-	'Cô nương của tôiyyyyyyy!!'
+-	\L_04381:
+-	ZH 1:
+-	'Uuu... Không có phản'
+-	R
+-	'ứng... ... Mmgh... Tôi không'
+-	R
+-	'có lựa chọn nào khác...'
+-	\L_04381:
+-	ZH 1:
+-	'Tôi đang mở cửa đây'
+-	R
+-	'thưa cô!! Xin thứ lỗi cho sự'
+-	R
+-	'cuồng loạn của tôi!! Ura!!'
+-	\L_04381:
+-	\L_04374:
+-	\L_04294:
+-	ZH 1:
+-	'Alefgard mở'
+-	R
+-	'cửa phòng Medusa.'
++	'Tiểu thư, tiểu thưưư!'
++	R
++	'Cái cảm giác kỳ lạ'
++	R
++	'vừa rồi là gì vậy?'
++	\L_04381:
++	ZH 1:
++	'Rốt cuộc người'
++	R
++	'đã làm gì thế?'
++	\L_04381:
++	\L_04374:
++	\L_04294:
++	ZH 1:
++	'Nhận ra có biến, Alefgard'
++	R
++	'lao vào phòng Medusa.'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Tiểu thưưư! Tiểu thưưư!!'
++	\L_04381:
++	ZH 1:
++	'Ư... không trả lời......'
++	R
++	'hừm...... đành vậy...'
++	\L_04381:
++	ZH 1:
++	'Lão mở cửa đây, tiểu thư!!'
++	R
++	'Xin đừng nổi cơn!! Hây!!'
++	\L_04381:
++	\L_04374:
++	\L_04294:
++	ZH 1:
++	'Alefgard mở cửa'
++	R
++	'phòng Medusa.'
+ 	\L_04381:
+ 	\L_04374:
+ 	!VAR0516 : 461!
+ 	\L_042b0:
+ 	\L_042cc:
+ 	ZH 1:
+-	'... À...'
+-	\L_04381:
+-	\L_04374:
+-	\L_04294:
+-	ZH 1:
+-	'Alefgard nhìn'
+-	R
+-	'người đang ở trong'
+-	R
+-	'phòng Medusa và rút lui.'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Huh... Nữ thần'
+-	R
+-	'hủy diệt và hư vô...'
+-	\L_04381:
+-	ZH 1:
+-	'W-W-W-W-La Vaswald huyền'
+-	R
+-	'thoại đang làm gì ở đây!?'
+-	\L_04381:
+-	ZH 1:
+-	'cơ thể Của'
+-	R
+-	'Vaswald từ từ tăng lên.'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Hiiii!!??'
+-	\L_04381:
+-	\L_04374:
+-	\L_04294:
+-	ZH 1:
+-	'Vậy thì... nàng'
+-	R
+-	'từ từ biến mất.'
++	'......A......'
++	\L_04381:
++	\L_04374:
++	\L_04294:
++	ZH 1:
++	'Nhìn thấy kẻ trong phòng'
++	R
++	'Medusa, Alefgard lùi lại.'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'H... thần hủy diệt'
++	R
++	'và hư vô......'
++	\L_04381:
++	ZH 1:
++	'S-s-s... sao Vaswald'
++	R
++	'trong truyền thuyết'
++	R
++	'lại ở phòng tiểu thư!?'
++	\L_04381:
++	ZH 1:
++	'Thân thể Vaswald'
++	R
++	'chầm chậm nổi lên.'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Hííí!!??'
++	\L_04381:
++	\L_04374:
++	\L_04294:
++	ZH 1:
++	'Và rồi...... hình bóng'
++	R
++	'ấy chầm chậm biến mất.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_042be:
+ 	\L_042cc:
+ 	ZH 1:
+-	'... Cái gì...?'
+-	\L_04381:
+-	ZH 1:
+-	'Những gì'
+-	R
+-	'trên thế giới đã xảy'
+-	R
+-	'ra...? Phu Nhân Medusa?'
+-	\L_04381:
+-	ZH 1:
+-	'Thưa cô!?'
+-	R
+-	'Laaaaaaaa của tôi!!??'
++	'......C......'
++	\L_04381:
++	ZH 1:
++	'cái gì thế này...'
++	R
++	'chuyện gì đã xảy'
++	R
++	'ra... Tiểu thư Medusa?'
++	\L_04381:
++	ZH 1:
++	'Tiểu thư!? Tiểu thưưư!!??'
+ 	\L_04381:
+ 	\L_04374:
+ 	!VAR0516 : 492!
+@@ -3220,145 +3102,133 @@
+ 	\L_04374:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Ồ...'
+-	\L_04381:
+-	ZH 1:
+-	'Tiểu thư của tôi?? Ôi...'
+-	R
+-	'Cậu đã hoàn toàn thay đổi...'
+-	\L_04381:
+-	\L_04374:
+-	\L_04294:
+-	ZH 1:
+-	'Alefgard lấy linh hồn máu'
+-	R
+-	'quỷ đang trôi nổi trong góc'
+-	R
+-	'phòng và đau buồn trên nó.'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'Chết tiệt'
+-	R
+-	'thật... Tôi không thể'
+-	R
+-	'tin được hai người đó...'
+-	\L_04381:
+-	ZH 1:
+-	'Hawzel và'
+-	R
+-	'Seizel là Vaswald...'
+-	\L_04381:
+-	ZH 1:
+-	'Hừm... Tôi'
+-	R
+-	'đã thất bại... Và giờ'
+-	R
+-	'tôi lại như thế này...'
+-	\L_04381:
+-	ZH 1:
+-	'Vẫn còn rất nhiều'
+-	R
+-	'điều tôi muốn làm...'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Aah, thật là'
+-	R
+-	'một bi kịch... ...'
+-	R
+-	'Ồ vâng... Thưa cô!!'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'... Cái gì?'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Bây giờ, xin hãy nghỉ'
+-	R
+-	'ngơi trong cơ thể tôi.'
+-	\L_04381:
+-	ZH 1:
+-	'Một cô gái trẻ như cô'
+-	R
+-	'có thể không thích bị bảo'
+-	\L_04381:
+-	ZH 1:
+-	'phải yên nghỉ trong'
+-	R
+-	'một ông già như tôi,'
++	'Ôi......'
++	\L_04381:
++	ZH 1:
++	'Tiểu thư?? Ôi... sao lại'
++	R
++	'ra nông nỗi này......'
++	\L_04381:
++	\L_04374:
++	\L_04294:
++	ZH 1:
++	'Alefgard cầm lấy Ma'
++	R
++	'Huyết Hồn đang lơ lửng ở'
++	R
++	'góc phòng, khóc nức nở.'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'Gay thật......'
++	R
++	'hai đứa đó......'
++	\L_04381:
++	ZH 1:
++	'Hawzel và Saizel'
++	R
++	'lại là Vaswald......'
++	\L_04381:
++	ZH 1:
++	'Hừ...... thất bại rồi...'
++	R
++	'thành ra thế này......'
++	\L_04381:
++	ZH 1:
++	'Còn bao nhiêu chuyện'
++	R
++	'muốn làm nữa...'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Ôi, thật đáng thương...'
++	R
++	'......À phải... Tiểu thư!!'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'...Gì?'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Nào, xin hãy nghỉ'
++	R
++	'ngơi trong cơ thể lão.'
++	\L_04381:
++	ZH 1:
++	'Bảo một tiểu thư'
++	R
++	'trẻ trung nghỉ trong'
++	\L_04381:
++	ZH 1:
++	'thân già này... có lẽ'
++	R
++	'người không thích...'
+ 	\L_04381:
+ 	ZH 1:
+ 	'nhưng...'
+ 	\L_04381:
+ 	ZH 1:
+-	'đây là tất'
+-	R
+-	'cả những gì tôi có thể làm'
+-	R
+-	'cho cậu... Thưa phu nhân...'
+-	\L_04381:
+-	\L_04374:
+-	\L_0425c:
+-	ZH 1:
+-	'... Cảm ơn...'
+-	R
+-	'Alefgard... Tôi sẽ'
+-	R
+-	'làm điều đó...'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Ôi... tiểu thư của tôi...'
+-	\L_04381:
+-	ZH 1:
+-	'linh hồn máu'
+-	R
+-	'quỷ Từng Là Medusa trôi nổi'
+-	R
+-	'và bay vào miệng Alefgard.'
++	'lão chỉ làm được chừng'
++	R
++	'ấy thôi... tiểu thư...'
++	\L_04381:
++	\L_04374:
++	\L_0425c:
++	ZH 1:
++	'......Cảm ơn...'
++	R
++	'Alefgard...... ta'
++	R
++	'nghe theo vậy......'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Ôi... tiểu thư......'
++	\L_04381:
++	ZH 1:
++	'Ma Huyết Hồn từng là'
++	R
++	'Medusa nhẹ nhàng bay lên,'
++	R
++	'lao vào miệng Alefgard.'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_042be:
+ 	\L_042cc:
+ 	ZH 1:
+-	'Hứ!?'
+-	\L_04381:
+-	ZH 1:
+-	'sau đó, nó đi qua thực'
+-	R
+-	'quản của mình và hạ xuống'
+-	R
+-	'thấp hơn và thấp hơn...'
+-	\L_04381:
+-	\L_04374:
+-	\L_042cc:
+-	ZH 1:
+-	'Ồ... Aaaah...'
+-	\L_04381:
+-	ZH 1:
+-	'Thưa cô...'
+-	\L_04381:
+-	ZH 1:
+-	'Ôi... tiểu'
+-	R
+-	'thư của tôi ơi!!!'
++	'Ực!?'
++	\L_04381:
++	ZH 1:
++	'Rồi trôi qua thực quản, tuột'
++	R
++	'dần xuống, xuống mãi......'
++	\L_04381:
++	\L_04374:
++	\L_042cc:
++	ZH 1:
++	'Ôi...... a a a......'
++	\L_04381:
++	ZH 1:
++	'Tiểu thư...'
++	\L_04381:
++	ZH 1:
++	'Ôi...... tiểu thưưư!!!'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_0432e:
+ 	\L_04294:
+ 	ZH 1:
+-	'Do Đó Vaswald, Nữ'
+-	R
+-	'Thần Hủy diệt và Hư'
+-	R
+-	'Vô, được sinh ra...'
++	'Thế là thần Vaswald'
++	R
++	'ra đời... thần hủy'
++	R
++	'diệt và hư vô......'
+ 	\L_04381:
+ 	\L_04374:
+ 	!VAR0516 : 0!
+@@ -3383,22 +3253,20 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Bầu Trời Trên'
+-	R
+-	'Seizel đang trôi nổi.'
+-	\L_04381:
+-	ZH 1:
+-	'Nàng chỉ đang'
+-	R
+-	'nổi. Như suy nghĩ được kéo'
+-	R
+-	'bởi một số lực thu hút...'
++	'Bầu trời trên thành'
++	R
++	'Saizel lơ lửng ở đó.'
++	\L_04381:
++	ZH 1:
++	'Chỉ lơ lửng thôi. Như'
++	R
++	'bị một lực hút kéo đi...'
+ 	\L_04381:
+ 	\L_04374:
+ 	\L_042be:
+ 	\L_04294:
+ 	ZH 1:
+-	'Gần như cùng lúc...'
++	'Cùng lúc đó......'
+ 	\L_04381:
+ 	ZM 32:
+ 	ZH 1:
+@@ -3407,7 +3275,7 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng Đặc Biệt'
++	'Phòng Đặc biệt'
+ 	\L_04381:
+ 	\L_04374:
+ 	!VAR0516 : 429!
+@@ -3418,91 +3286,87 @@
+ 		\L_04320:
+ 		\L_042cc:
+ 		ZH 1:
+-		'Không thể'
+-		R
+-		'nào... Ôi không... Em'
+-		R
+-		'phải làm gì đây...?'
++		'Không thể......'
++		R
++		'không... làm sao đây...'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_04294:
+ 		ZH 1:
+-		'Sill đang Cho'
+-		R
+-		'Con Bú Hawzel, nhưng'
+-		R
+-		'khoảng một giờ trước,'
+-		\L_04381:
+-		ZH 1:
+-		'nàng đột nhiên trở nên'
+-		R
+-		'giống như một con búp bê.'
++		'Sill đang chăm sóc'
++		R
++		'Hawzel, nhưng khoảng'
++		R
++		'một tiếng trước,'
++		\L_04381:
++		ZH 1:
++		'Hawzel đột nhiên trở'
++		R
++		'nên như con búp bê.'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_042cc:
+ 		ZH 1:
+-		'Tại sao...? Treo'
+-		R
+-		'trong đó, Hawzel...'
++		'Sao vậy... cố lên...'
++		R
++		'chị Hawzel......'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_04294:
+ 		ZH 1:
+-		'Sill lau mặt Hawzel'
+-		R
+-		'bằng khăn ướt, lạnh.'
++		'Sill lau mặt Hawzel bằng'
++		R
++		'chiếc khăn nhúng nước lạnh.'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_042cc:
+ 		ZH 1:
+-		'... Hả...!?'
++		'......Ơ...!?'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_04294:
+ 		ZH 1:
+-		'Sill bỏ chiếc'
+-		R
+-		'khăn trong tay.'
+-		\L_04381:
+-		ZH 1:
+-		'Cơ thể của Hawzel lơ lửng'
+-		R
+-		'không một tiếng động, sau đó'
+-		R
+-		'đôi cánh của cô dang rộng.'
++		'Sill đánh rơi chiếc'
++		R
++		'khăn đang cầm.'
++		\L_04381:
++		ZH 1:
++		'Không một tiếng động,'
++		R
++		'thân thể Hawzel nổi lên,'
++		R
++		'rồi dang rộng đôi cánh.'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_042cc:
+ 		ZH 1:
+-		'H-Hawzel?'
++		'Ch... chị Hawzel?'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_04294:
+ 		ZH 1:
+-		'Đôi mắt của'
+-		R
+-		'Hawzel trống rỗng và nàng'
+-		R
+-		'dường như không còn ý thức.'
+-		\L_04381:
+-		ZH 1:
+-		'Nhưng nàng bay như'
+-		R
+-		'một người có chủ ý.'
++		'Mắt Hawzel thất thần,'
++		R
++		'như chẳng còn tỉnh táo.'
++		\L_04381:
++		ZH 1:
++		'Nhưng Hawzel bay đi'
++		R
++		'như người có ý chí.'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_042cc:
+ 		ZH 1:
+-		'Cây phỉ!!'
++		'Chị Hawzel!!'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_04294:
+ 		ZH 1:
+-		'Hazel bay ra khỏi phòng.'
+-		R
+-		'Đích đến của cô là bầu trời'
+-		R
+-		'phía trên Lâu đài Leazas.'
++		'Hawzel lao ra khỏi'
++		R
++		'phòng, bay về phía bầu'
++		R
++		'trời trên thành Leazas.'
+ 		\L_04381:
+ 		\L_04374:
+ 	}
+@@ -3511,21 +3375,21 @@
+ 		\L_04320:
+ 		\L_042cc:
+ 		ZH 1:
+-		'Cô Hawzel...'
+-		\L_04381:
+-		ZH 1:
+-		'Cô khỏe không?'
+-		R
+-		'Tôi mang đồ ăn đến cho cậu.'
+-		R
+-		'Cậu có thể ăn được không?'
++		'Ngài Hawzel...'
++		\L_04381:
++		ZH 1:
++		'Ngài thấy thế nào ạ?'
++		R
++		'Em mang cơm tới đây.'
++		R
++		'Ngài ăn được không ạ?'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_04294:
+ 		ZH 1:
+-		'Wendy đến phòng với'
+-		R
+-		'thức ăn Cho Hawzel.'
++		'Wendy mang bữa ăn'
++		R
++		'cho Hawzel vào phòng.'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_042cc:
+@@ -3533,74 +3397,70 @@
+ 		'...?'
+ 		\L_04381:
+ 		ZH 1:
+-		'cô đặt nó lên bàn và đi đến'
+-		R
+-		'Hawzel, ai có vẻ như có điều'
+-		R
+-		'gì đó không ổn với nàng.'
++		'Wendy đặt khay lên bàn,'
++		R
++		'rồi đi tới chỗ Hawzel'
++		R
++		'đang có vẻ khác lạ.'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_042cc:
+ 		ZH 1:
+-		'Cô Hazell...?'
++		'Ngài... Hawzel?'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_04294:
+ 		ZH 1:
+-		'Đôi mắt của'
+-		R
+-		'Hawzel vẫn mở nhưng nàng'
+-		R
+-		'không nhìn thấy gì cả.'
+-		\L_04381:
+-		ZH 1:
+-		'nàng rất'
+-		R
+-		'khó chịu, không rõ liệu'
+-		R
+-		'nàng có thở hay không.'
++		'Mắt Hawzel vẫn mở, nhưng'
++		R
++		'chẳng nhìn thấy gì.'
++		\L_04381:
++		ZH 1:
++		'Đến việc còn thở hay'
++		R
++		'không cũng khó nói.'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_042cc:
+ 		ZH 1:
+-		'M-Cô. Hawzel!? Làm ơn,'
+-		R
+-		'hãy ở yên đó! Cô Hazell!?'
++		'Ng... Ngài Hawzel!? Tỉnh'
++		R
++		'lại đi ạ! Ngài Hawzel!?'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_04294:
+ 		ZH 1:
+-		'Wendy hoảng sợ'
+-		R
+-		'và lắc vai Hawzel.'
++		'Wendy hoảng hốt'
++		R
++		'lay vai Hawzel.'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_042cc:
+ 		ZH 1:
+-		'À... Kyaah!?'
++		'A...... kya!?'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_04294:
+ 		ZH 1:
+-		'Cơ thể của'
+-		R
+-		'Hawzel lơ lửng, sau đó đôi'
+-		R
+-		'cánh của nàng từ từ xòe ra.'
++		'Thân thể Hawzel nổi'
++		R
++		'lên, rồi đôi cánh'
++		R
++		'chầm chậm dang rộng.'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_042cc:
+ 		ZH 1:
+-		'Cô Hazell!'
+-		R
+-		'nàng dường như không nghe'
+-		R
+-		'thấy Tiếng hét Của Wendy...'
+-		\L_04381:
+-		ZH 1:
+-		'Hawzel bay lên bầu trời'
+-		R
+-		'Phía trên Lâu đài Leazas.'
++		'Ngài Hawzel ơi! Như'
++		R
++		'chẳng nghe thấy tiếng'
++		R
++		'gọi của Wendy...'
++		\L_04381:
++		ZH 1:
++		'Hawzel bay về phía bầu'
++		R
++		'trời trên thành Leazas.'
+ 		\L_04381:
+ 		\L_04374:
+ 	}
+@@ -3610,32 +3470,30 @@
+ 	\L_04320:
+ 	\L_04294:
+ 	ZH 1:
+-	'Seizel đã ở đó.'
+-	\L_04381:
+-	ZH 1:
+-	'Hazel đã đến.'
+-	\L_04381:
+-	ZH 1:
+-	'Mặc dù đây là lần đoàn'
+-	R
+-	'tụ đầu tiên sau một thời'
+-	R
+-	'gian dài của hai chị em,'
+-	\L_04381:
+-	ZH 1:
+-	'khuôn mặt của họ trống rỗng.'
+-	\L_04381:
+-	ZH 1:
+-	'sau đó, cơ thể của họ từ'
+-	R
+-	'từ kéo về phía nhau như nam'
+-	R
+-	'châm được rút ra với nhau.'
+-	\L_04381:
+-	ZH 1:
+-	'Và sau đó...'
+-	R
+-	'họ hợp nhất...'
++	'Saizel ở đó.'
++	\L_04381:
++	ZH 1:
++	'Hawzel tới.'
++	\L_04381:
++	ZH 1:
++	'Dù là hai chị em'
++	R
++	'lâu ngày mới gặp...'
++	\L_04381:
++	ZH 1:
++	'gương mặt cả hai'
++	R
++	'vẫn bất động.'
++	\L_04381:
++	ZH 1:
++	'Rồi chầm chậm... như nam'
++	R
++	'châm hút nhau, hai thân'
++	R
++	'thể kéo lại gần nhau.'
++	\L_04381:
++	ZH 1:
++	'Và rồi...... hòa làm một...'
+ 	\L_04381:
+ 	\L_04374:
+ 	SS 19:
+@@ -3647,21 +3505,21 @@
+ 	\L_042b0:
+ 	\L_04294:
+ 	ZH 1:
+-	'Seizel và'
+-	R
+-	'Hawzel đã biến mất.'
+-	\L_04381:
+-	ZH 1:
+-	'Seizel và Hawzel đã ở'
+-	R
+-	'đó. hai người đã trở thành'
+-	R
+-	'một. Một sinh vật hư vô.'
+-	\L_04381:
+-	ZH 1:
+-	'Và biểu tượng'
+-	R
+-	'của sự hủy diệt...'
++	'Saizel không còn.'
++	R
++	'Hawzel không còn.'
++	\L_04381:
++	ZH 1:
++	'Saizel vẫn ở đó. Hawzel vẫn'
++	R
++	'ở đó. Hai người hóa thành'
++	R
++	'một. Một tồn tại hư vô.'
++	\L_04381:
++	ZH 1:
++	'Và biểu tượng của'
++	R
++	'hủy diệt......'
+ 	\L_04381:
+ 	!VAR0154 : 29!
+ 	{VAR0102 \ 0:
+@@ -3673,64 +3531,58 @@
+ 		\L_04320:
+ 		\L_042cc:
+ 		ZH 1:
+-		'Rance... đó là gì...?'
++		'Rance...... Rance「Gì'
++		R
++		'thế kia......?」'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_04294:
+ 		ZH 1:
+-		'Rance đã biết có'
+-		R
+-		'điều gì đó không ổn.'
+-		\L_04381:
+-		ZH 1:
+-		'Hắn gọi cho Satella'
+-		R
+-		'và cả hai cùng nhìn'
+-		R
+-		'vật thể trên bầu trời.'
++		'Đã biết có biến, Rance'
++		\L_04381:
++		ZH 1:
++		'gọi Satella tới, hai người'
++		R
++		'cùng nhìn thứ trên bầu trời.'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_042cc:
+ 		ZH 1:
+-		'La Vaswald...'
++		'La Vaswald......'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_0425c:
+ 		ZH 1:
+-		'Cái gì...? Và đó là?'
++		'Gì cơ... cái đó là?'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_042cc:
+ 		ZH 1:
+-		'Tôi chỉ biết'
+-		R
+-		'những truyền thuyết... Nữ'
++		'Satella cũng chỉ biết'
++		R
++		'qua truyền thuyết...'
+ 		R
+ 		'thần hủy diệt và hư vô.'
+ 		\L_04381:
+ 		ZH 1:
+-		'Một vũ khí biết'
+-		R
+-		'đi chỉ có khả năng hủy'
+-		R
+-		'diệt. đó là những gì?'
++		'Một vũ khí biết đi'
++		R
++		'chỉ để hủy diệt.'
++		R
++		'Rance「Cái đó...... à?」'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_042cc:
+ 		ZH 1:
+-		'Ừ...'
+-		\L_04381:
+-		ZH 1:
+-		'Hoàn toàn nghiêm'
+-		R
+-		'túc, đây là một người'
+-		R
+-		'xấu đã xuất hiện...'
+-		\L_04381:
+-		ZH 1:
+-		'Tôi có thể nói'
+-		R
+-		'chắc chắn như vậy.'
++		'Phải......'
++		\L_04381:
++		ZH 1:
++		'Nói thẳng ra... một kẻ'
++		R
++		'phiền phức đã xuất hiện...'
++		\L_04381:
++		ZH 1:
++		'Chỉ điều đó là chắc chắn.'
+ 		\L_04381:
+ 		\L_04374:
+ 		\L_0425c:
+@@ -3741,29 +3593,29 @@
+ 	}
+ 	{VAR0102 = 0:
+ 		ZH 1:
+-		'Nữ Thần Hủy diệt và Hư vô.'
+-		\L_04381:
+-		ZH 1:
+-		'Nàng không'
+-		R
+-		'có những con quỷ tính cách'
+-		R
+-		'Như Satella và Kayblis có.'
+-		\L_04381:
+-		ZH 1:
+-		'Lý do tồn tại duy nhất'
+-		R
+-		'của cô là sự hủy diệt.'
+-		\L_04381:
+-		ZH 1:
+-		'Nàng tồn tại vì lý do'
+-		R
+-		'tương tự như một vũ khí.'
+-		\L_04381:
+-		ZH 1:
+-		'Và vì lý do đó,'
+-		R
+-		'nàng đã bị chia thành hai...'
++		'Thần hủy diệt và hư vô.'
++		\L_04381:
++		ZH 1:
++		'Không có nhân cách'
++		R
++		'như các Ma Nhân, như'
++		R
++		'Satella hay Kayblis.'
++		\L_04381:
++		ZH 1:
++		'Lý do cô ta tồn tại'
++		R
++		'chỉ là hủy diệt.'
++		\L_04381:
++		ZH 1:
++		'Một lý do tồn'
++		R
++		'tại như vũ khí.'
++		\L_04381:
++		ZH 1:
++		'Và đó là... lý do họ'
++		R
++		'từng bị tách làm hai...'
+ 		\L_04381:
+ 		\L_04374:
+ 	}

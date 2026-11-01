@@ -1,0 +1,31 @@
+{
+  "method": "Inspect actual Japanese and current VI guards and exits; keep executable skeleton byte-for-byte modulo text/R lines. Static validation, not runtime playthrough.",
+  "Rudrasaum": {
+    "kou_present": "Original VAR327=8 / VI VAR0327=8 jumps to dream revelation; all groups33-53 reviewed.",
+    "kou_absent_or_other_stage": "Remaining throne-room dialogue and conditional VAR327 nonzero death report all read; original flags and returns retained.",
+    "original_initial_guard": "VAR520=1 / VI VAR0520=1 retained.",
+    "menus": 0
+  },
+  "Fuuka": {
+    "soldiers": "VAR0074 nonzero optional troops diversion324-330 read along with path skipping it.",
+    "events": [
+      {
+        "vi_scene": "L_039e9",
+        "jp_scene": "L_04edb",
+        "scope": "Alternate sacrifice journey/loss309-316"
+      },
+      {
+        "vi_scene": "L_03c66",
+        "jp_scene": "L_05252",
+        "scope": "Ordinary defeat/farewell317-364; subsequent mixed sequence excluded"
+      },
+      {
+        "vi_scene": "L_04fe5",
+        "jp_scene": "L_06f55",
+        "scope": "Intact rescue ending411-427"
+      }
+    ],
+    "sexual_branch_flags": "All excluded choice/control paths retained unchanged; not retranslated."
+  },
+  "failures": []
+}

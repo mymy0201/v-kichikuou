@@ -1,0 +1,1314 @@
+--- before/Gﾊﾞﾎﾞﾗ.ADV
++++ src/Gﾊﾞﾎﾞﾗ.ADV
+@@ -36,14 +36,14 @@
+ 	\L_02ba5:
+ 	ZM 32:
+ 	ZH 1:
+-	'Thành Leazas,'
++	'Thành Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'phòng yết kiến. Rance đang'
+-	R
+-	'xem danh mục'
++	'Phòng yết kiến. Rance'
++	R
++	'đang xem danh mục'
+ 	\L_02c92:
+ 	ZH 1:
+ 	'hàng bán qua thư thì Barres'
+@@ -58,12 +58,14 @@
+ 	'Nhân.'
+ 	\L_02c92:
+ 	ZH 1:
+-	'Rảnh đem cái mặt già ra đây'
+-	R
+-	'thì đi'
+-	\L_02c92:
+-	ZH 1:
+-	'luyện lính đi. Trận chiến'
++	'Có thời gian vác'
++	R
++	'cái mặt già ra đây,'
++	\L_02c92:
++	ZH 1:
++	'thì đi luyện lính'
++	R
++	'đi. Trận chiến'
+ 	\L_02c92:
+ 	ZH 1:
+ 	'đã khó khăn lắm rồi... Lẩm'
+@@ -76,23 +78,27 @@
+ 	'Không, chính chuyện ấy...'
+ 	\L_02c92:
+ 	ZH 1:
+-	'Quân ta thua gã to xác vô'
+-	\L_02c92:
+-	ZH 1:
+-	'dụng Babora, lão thần không'
+-	R
+-	'phục.'
+-	\L_02c92:
+-	ZH 1:
+-	'To'
+-	\L_02c92:
+-	ZH 1:
+-	'mấy cũng chỉ một tên. Xin để'
+-	R
+-	'lão thần đánh bại hắn...'
+-	\L_02c92:
+-	ZH 1:
+-	'Lải nhải gì!'
++	'Quân ta thua tên'
++	R
++	'Ma Nhân Babora,'
++	\L_02c92:
++	ZH 1:
++	'một gã to xác vô dụng,'
++	R
++	'lão thần không phục.'
++	\L_02c92:
++	ZH 1:
++	'Dù hắn có to đến đâu,'
++	\L_02c92:
++	ZH 1:
++	'cũng chỉ một tên. Lão'
++	R
++	'thần sẽ hạ hắn. Xin'
++	R
++	'hãy để lão thần...'
++	\L_02c92:
++	ZH 1:
++	'Rance: Lải nhải gì thế!'
+ 	\L_02c92:
+ 	ZH 1:
+ 	'Không có cách diệt Ma Nhân'
+@@ -123,7 +129,7 @@
+ 	\L_02c85:
+ 	\L_02b6d:
+ 	ZH 1:
+-	'Đem lão vứt ra sân đi.'
++	'Đem lão vứt ra sân trong đi.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	\L_02ba5:
+@@ -172,16 +178,16 @@
+ 	\L_02bc1:
+ 	\L_02b6d:
+ 	ZH 1:
+-	'Haah... Trời ạ. Đúng là một'
+-	R
+-	'ông già ồn ào.'
++	'Phù... Thật tình.'
++	R
++	'Đúng là lão già ồn ào.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	!VAR0516 : 6!
+ 	\L_02c31:
+ 	\L_02bdd:
+ 	ZH 1:
+-	'Mặc dù...'
++	'Nhưng mà...'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	\L_02b6d:
+@@ -219,9 +225,9 @@
+ 	\L_02c85:
+ 	\L_02b89:
+ 	ZH 1:
+-	'Sao vậy... Maris nói gì ta'
+-	R
+-	'cũng thấy có lý...'
++	'Tại sao... Maris nói gì'
++	R
++	'ta cũng thấy có lý...'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	!VAR0516 : 0!
+@@ -248,12 +254,12 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'vùng ven. (Rầm!) Mặt'
+-	\L_02c92:
+-	ZH 1:
+-	'đất chợt rung chuyển, rừng'
+-	R
+-	'cây xao động.'
++	'vùng ven. (Rầm!)'
++	\L_02c92:
++	ZH 1:
++	'Mặt đất chợt rung chuyển,'
++	R
++	'rừng cây xao động.'
+ 	\L_02c92:
+ 	ZH 1:
+ 	'(Rầm... Rầm...)'
+@@ -268,14 +274,14 @@
+ 	\L_02c85:
+ 	\L_02ba5:
+ 	ZH 1:
+-	'Babora, Ma Nhân có thân hình'
+-	R
+-	'đồ sộ nhất, chậm chạp'
+-	\L_02c92:
+-	ZH 1:
+-	'đứng dậy rồi bước đi. Giữa'
+-	R
+-	'rừng rậm,'
++	'Babora, Ma Nhân có'
++	R
++	'thân hình đồ sộ nhất,'
++	\L_02c92:
++	ZH 1:
++	'chậm chạp đứng dậy rồi'
++	R
++	'bước đi. Giữa rừng rậm,'
+ 	\L_02c92:
+ 	ZH 1:
+ 	'cả ngọn cây cao nhất cũng'
+@@ -309,11 +315,11 @@
+ 	\L_02c85:
+ 	\L_02c15:
+ 	ZH 1:
+-	'Babora cúi đầu lia lịa trước'
+-	R
+-	'Kayblis, kẻ đứng thấp hơn cả'
+-	R
+-	'chân hắn.'
++	'Babora chậm rãi cúi đầu'
++	R
++	'lia lịa trước Kayblis, kẻ'
++	R
++	'đứng thấp hơn chân hắn.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	\L_02bdd:
+@@ -330,10 +336,12 @@
+ 	\L_02c85:
+ 	\L_02bdd:
+ 	ZH 1:
+-	'Tốt, ta kiểm tra xem có nhớ'
+-	\L_02c92:
+-	ZH 1:
+-	'không. Nói thử đi.'
++	'Tốt, để ta kiểm tra'
++	R
++	'xem có nhớ không.'
++	\L_02c92:
++	ZH 1:
++	'Nói thử đi.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	\L_02b6d:
+@@ -353,13 +361,13 @@
+ 	ZH 1:
+ 	'Đ... Đúng rồi... Nếu được'
+ 	R
+-	'thì nói nhanh'
+-	\L_02c92:
+-	ZH 1:
+-	'hơn chút. Ta không muốn vô'
+-	\L_02c92:
+-	ZH 1:
+-	'cớ nổi cáu đâu.'
++	'thì nói nhanh hơn chút.'
++	\L_02c92:
++	ZH 1:
++	'Ta không muốn nổi cáu'
++	\L_02c92:
++	ZH 1:
++	'vì chuyện không đâu.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	\L_02b6d:
+@@ -386,14 +394,12 @@
+ 	ZH 1:
+ 	'Nhìn theo hướng Kayblis chỉ,'
+ 	R
+-	'Babora chậm rãi gật đầu rồi'
+-	R
+-	'nặng'
+-	\L_02c92:
+-	ZH 1:
+-	'nề nhấc chân, bước thình'
+-	R
+-	'thịch.'
++	'Babora chậm rãi gật đầu,'
++	\L_02c92:
++	ZH 1:
++	'rồi nặng nề nhấc chân,'
++	R
++	'bước thình thịch.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	!VAR0516 : 0!
+@@ -407,14 +413,13 @@
+ 		\L_02c69:
+ 		\L_02ba5:
+ 		ZH 1:
+-		'　［'
++		'['
+ 		X 8:
+-		'］'
+-		R
+-		R
+-		'Căn cứ tiền'
+-		R
+-		'tuyến quân đội Leazas'
++		']'
++		R
++		'Căn cứ tiền tuyến'
++		R
++		'quân Leazas'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		!VAR0516 : 405!
+@@ -437,9 +442,9 @@
+ 		'Hết rồi!!'
+ 		\L_02c92:
+ 		ZH 1:
+-		'Aaaa!! Choáng trước thân'
+-		R
+-		'hình Babora,'
++		'Aaaa!! Choáng ngợp'
++		R
++		'trước thân hình Babora,'
+ 		\L_02c92:
+ 		ZH 1:
+ 		'lính chạy tán loạn như kiến'
+@@ -461,9 +466,9 @@
+ 		\L_02c85:
+ 		\L_02ba5:
+ 		ZH 1:
+-		'Ex vỗ tay một cái lớn'
+-		R
+-		'và nói với vẻ mặt dịu dàng.'
++		'Ex vỗ tay thật lớn,'
++		R
++		'rồi dịu giọng nói.'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02bdd:
+@@ -523,11 +528,11 @@
+ 		'xuống,'
+ 		\L_02c92:
+ 		ZH 1:
+-		'không nhúc nhích được. Tướng'
+-		R
+-		'quân đùa chẳng vui chút'
+-		R
+-		'nào...'
++		'không cựa quậy nổi.'
++		R
++		'Binh sĩ: Tướng quân đùa'
++		R
++		'chẳng vui chút nào...'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02b6d:
+@@ -535,14 +540,12 @@
+ 		'Tôi không đùa.'
+ 		\L_02c92:
+ 		ZH 1:
+-		'Dù làm hơi thô, từ trên cao'
++		'Dù làm hơi thô, từ độ cao'
+ 		R
+ 		'ấy hắn cũng chẳng nhận ra.'
+-		R
+-		'Yên tâm,'
+-		\L_02c92:
+-		ZH 1:
+-		'yên tâm.'
++		\L_02c92:
++		ZH 1:
++		'Yên tâm, yên tâm.'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02bdd:
+@@ -552,33 +555,37 @@
+ 		\L_02c85:
+ 		\L_02b6d:
+ 		ZH 1:
+-		'Đánh nhau đâu chỉ có đối đầu'
+-		\L_02c92:
+-		ZH 1:
+-		'trực diện. Việc này chắc tốn'
+-		R
+-		'tiền...'
+-		\L_02c92:
+-		ZH 1:
+-		'Tôi sẽ xin Bệ hạ'
+-		\L_02c92:
+-		ZH 1:
+-		'Rance ngay. Hôm nay đành để'
+-		R
+-		'hắn'
+-		\L_02c92:
+-		ZH 1:
+-		'tung hoành. Giờ ta phải bảo'
+-		R
+-		'vệ dân.'
+-		\L_02c92:
+-		ZH 1:
+-		'Mau đưa họ sơ tán theo hướng'
+-		R
+-		'khác đường Babora'
+-		\L_02c92:
+-		ZH 1:
+-		'tiến tới.'
++		'Chiến đấu đâu'
++		R
++		'chỉ biết lao vào'
++		\L_02c92:
++		ZH 1:
++		'đối đầu trực diện. Việc'
++		R
++		'này chắc tốn tiền...'
++		\L_02c92:
++		ZH 1:
++		'Tôi sẽ đích thân xin'
++		R
++		'Bệ hạ Rance ngay.'
++		\L_02c92:
++		ZH 1:
++		'Hôm nay đành để'
++		R
++		'hắn tung hoành.'
++		\L_02c92:
++		ZH 1:
++		'Việc ta phải làm lúc này là'
++		R
++		'bảo vệ tính mạng dân chúng.'
++		\L_02c92:
++		ZH 1:
++		'Mau sơ tán họ'
++		R
++		'sang hướng khác'
++		\L_02c92:
++		ZH 1:
++		'với đường Babora tiến tới.'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02bdd:
+@@ -598,14 +605,13 @@
+ 		\L_02c69:
+ 		\L_02ba5:
+ 		ZH 1:
+-		'　［'
++		'['
+ 		X 8:
+-		'］'
+-		R
+-		R
+-		'Căn cứ tiền'
+-		R
+-		'tuyến quân đội Leazas'
++		']'
++		R
++		'Căn cứ tiền tuyến'
++		R
++		'quân Leazas'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		!VAR0516 : 413!
+@@ -628,18 +634,18 @@
+ 		'A... Áaaa!!'
+ 		\L_02c92:
+ 		ZH 1:
+-		'Sức vóc'
+-		\L_02c92:
+-		ZH 1:
+-		'và sự'
+-		\L_02c92:
+-		ZH 1:
+-		'tàn phá của Babora khiến'
+-		R
+-		'lính hoảng loạn, tranh'
+-		\L_02c92:
+-		ZH 1:
+-		'nhau tìm đường lui.'
++		'Choáng ngợp trước sức vóc'
++		\L_02c92:
++		ZH 1:
++		'và sức tàn phá của Babora,'
++		\L_02c92:
++		ZH 1:
++		'binh lính hoảng'
++		R
++		'loạn, tranh nhau'
++		\L_02c92:
++		ZH 1:
++		'tìm đường thoát thân.'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02b6d:
+@@ -649,7 +655,7 @@
+ 		\L_02c85:
+ 		\L_02bdd:
+ 		ZH 1:
+-		'Chết tiệt!!??'
++		'Oái!!??'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02c15:
+@@ -682,14 +688,16 @@
+ 		\L_02c85:
+ 		\L_02b6d:
+ 		ZH 1:
+-		'To thì sao!! Phá hoại mạnh'
+-		R
+-		'thì sao!! Ở đây có bộ'
+-		\L_02c92:
+-		ZH 1:
+-		'óc của ta và các anh, những'
+-		R
+-		'nhân tài xuất chúng!!'
++		'To thì sao!! Phá'
++		R
++		'hoại mạnh thì sao!! Ở'
++		R
++		'đây có trí óc của ta'
++		\L_02c92:
++		ZH 1:
++		'cùng những nhân tài'
++		R
++		'tuyệt vời là các anh!!'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02bdd:
+@@ -708,7 +716,9 @@
+ 		\L_02c85:
+ 		\L_02bdd:
+ 		ZH 1:
+-		'Hả? Ta sẽ đào hố bẫy!!'
++		'Binh sĩ: Hả?'
++		R
++		'Shinoda: Đào hố bẫy!!'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02bdd:
+@@ -725,11 +735,9 @@
+ 		\L_02c85:
+ 		\L_02bdd:
+ 		ZH 1:
+-		'Nhưng... Làm'
+-		R
+-		'sao chúng ta có thể tạo ra'
+-		R
+-		'một cái lỗ lớn như vậy...?'
++		'Nhưng... Hố để bẫy'
++		R
++		'gã to xác ấy thì...'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02b6d:
+@@ -765,22 +773,24 @@
+ 		\L_02c85:
+ 		\L_02b6d:
+ 		ZH 1:
+-		'Kế đã định. Trước'
+-		\L_02c92:
+-		ZH 1:
+-		'mắt rút lui, tránh chết vô'
+-		R
+-		'ích.'
++		'Kế hoạch đã định. Trước mắt,'
++		\L_02c92:
++		ZH 1:
++		'ta cứ rút lui,'
++		R
++		'tránh chết vô ích.'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02ba5:
+ 		ZH 1:
+-		'Shinoda đổi chỗ đặt'
+-		\L_02c92:
+-		ZH 1:
+-		'chân, người lính phía dưới'
+-		R
+-		'khẽ kêu như ếch bị giẫm bẹp.'
++		'Khi Shinoda đổi'
++		R
++		'chỗ đặt chân,'
++		\L_02c92:
++		ZH 1:
++		'người lính dưới chân khẽ'
++		R
++		'kêu như ếch bị giẫm bẹp.'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02bf9:
+@@ -814,14 +824,13 @@
+ 		\L_02c69:
+ 		\L_02ba5:
+ 		ZH 1:
+-		'　［'
++		'['
+ 		X 8:
+-		'］'
+-		R
+-		R
+-		'Căn cứ tiền'
+-		R
+-		'tuyến quân đội Leazas'
++		']'
++		R
++		'Căn cứ tiền tuyến'
++		R
++		'quân Leazas'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		!VAR0516 : 26!
+@@ -856,29 +865,29 @@
+ 		\L_02c85:
+ 		\L_02b6d:
+ 		ZH 1:
+-		'Tôi là phụ nữ mà vẫn bình'
+-		R
+-		'tĩnh, các'
+-		\L_02c92:
+-		ZH 1:
+-		'anh là đàn ông lại cuống lên'
+-		R
+-		'thế thì được gì?'
+-		\L_02c92:
+-		\L_02c85:
+-		\L_02bdd:
+-		ZH 1:
+-		'Nh... Nhưng, cái đó... Nó'
+-		R
+-		'chỉ được'
+-		\L_02c92:
+-		ZH 1:
+-		'cái to thôi. Quan sát là'
+-		R
+-		'thấy'
+-		\L_02c92:
+-		ZH 1:
+-		'mà?'
++		'Tôi là phụ nữ còn'
++		R
++		'bình tĩnh được,'
++		\L_02c92:
++		ZH 1:
++		'các anh là đàn ông mà cuống'
++		R
++		'lên thế thì làm được gì?'
++		\L_02c92:
++		\L_02c85:
++		\L_02bdd:
++		ZH 1:
++		'Binh sĩ: Nh... Nhưng,'
++		R
++		'nó... nó... Cream: Thứ ấy'
++		\L_02c92:
++		ZH 1:
++		'chỉ được cái to thôi.'
++		R
++		'Quan sát là thấy,'
++		\L_02c92:
++		ZH 1:
++		'phải không?'
+ 		\L_02c92:
+ 		ZH 1:
+ 		'Chỉ biết phá hoại. Không lý'
+@@ -955,16 +964,16 @@
+ 		\L_02c85:
+ 		\L_02b6d:
+ 		ZH 1:
+-		'Khéo léo sơ tán dân đang'
+-		R
+-		'hoảng loạn đi. Cứ thế'
+-		\L_02c92:
+-		ZH 1:
+-		'này, sẽ có người bị đồng'
+-		R
+-		'loại giết, chứ chẳng phải'
+-		R
+-		'Babora.'
++		'Khéo léo sơ tán dân'
++		R
++		'đang hoảng loạn đi.'
++		\L_02c92:
++		ZH 1:
++		'Cứ thế này, sẽ có người'
++		R
++		'bị đồng loại giết chứ'
++		R
++		'chẳng phải Babora.'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02bdd:
+@@ -977,11 +986,11 @@
+ 		'Phù...'
+ 		\L_02c92:
+ 		ZH 1:
+-		'Cứ chờ xem... Tôi sẽ dựng'
+-		R
+-		'nên một tượng đài Ma Nhân'
+-		R
+-		'khổng lồ... Hừ hừ...'
++		'Cứ chờ xem... Tôi sẽ'
++		R
++		'làm cho một tượng đài Ma'
++		R
++		'Nhân khổng lồ... Hihi...'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		!VAR0516 : 0!
+@@ -996,14 +1005,13 @@
+ 		\L_02c69:
+ 		\L_02ba5:
+ 		ZH 1:
+-		'　［'
++		'['
+ 		X 8:
+-		'］'
+-		R
+-		R
+-		'Căn cứ tiền'
+-		R
+-		'tuyến quân đội Leazas'
++		']'
++		R
++		'Căn cứ tiền tuyến'
++		R
++		'quân Leazas'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		!VAR0516 : 77!
+@@ -1043,12 +1051,14 @@
+ 		\L_02c85:
+ 		\L_02c15:
+ 		ZH 1:
+-		'Một lính hoảng loạn đâm sầm'
++		'Một người lính'
++		R
++		'hoảng loạn đâm sầm'
+ 		\L_02c92:
+ 		ZH 1:
+ 		'vào Arlcoate, khiến cô ngã'
+ 		R
+-		'dập mông xuống đất.'
++		'đập mạnh mông xuống đất.'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02b6d:
+@@ -1143,10 +1153,10 @@
+ 		'À... Vâng...'
+ 		\L_02c92:
+ 		ZH 1:
+-		'Tôi nghĩ nên đào hố'
+-		\L_02c92:
+-		ZH 1:
+-		'bẫy khổng lồ để hạ Babora...'
++		'Tôi nghĩ nên đào một hố bẫy'
++		\L_02c92:
++		ZH 1:
++		'khổng lồ để hạ Babora...'
+ 		\L_02c92:
+ 		ZH 1:
+ 		'Vì vậy cần tiền... và nhân'
+@@ -1241,14 +1251,13 @@
+ 		\L_02c69:
+ 		\L_02ba5:
+ 		ZH 1:
+-		'　［'
++		'['
+ 		X 8:
+-		'］'
+-		R
+-		R
+-		'Căn cứ tiền'
+-		R
+-		'tuyến quân đội Leazas'
++		']'
++		R
++		'Căn cứ tiền tuyến'
++		R
++		'quân Leazas'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		!VAR0516 : 402!
+@@ -1279,9 +1288,9 @@
+ 		\L_02c85:
+ 		\L_02ba5:
+ 		ZH 1:
+-		'Tiếng hét của Barres'
+-		R
+-		'vang vọng trong dàn nhạc'
++		'Tiếng quát của Barres'
++		R
++		'vang giữa dàn hợp xướng'
+ 		R
+ 		'la hét trên chiến trường.'
+ 		\L_02c92:
+@@ -1313,9 +1322,9 @@
+ 		\L_02c85:
+ 		\L_02bdd:
+ 		ZH 1:
+-		'Tướng Barres... Ông'
+-		R
+-		'có kế hoạch gì không?'
++		'Tướng Barres... Ngài'
++		R
++		'có kế sách gì không ạ?'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02b6d:
+@@ -1335,7 +1344,7 @@
+ 		\L_02c85:
+ 		\L_02bdd:
+ 		ZH 1:
+-		'Một cạm bẫy...?'
++		'Hố bẫy... ạ?'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02b6d:
+@@ -1345,12 +1354,12 @@
+ 		'giản.'
+ 		\L_02c92:
+ 		ZH 1:
+-		'Có lẽ bẫy đơn giản lại dễ'
+-		R
+-		'lừa hắn'
+-		\L_02c92:
+-		ZH 1:
+-		'hơn...'
++		'Ta nghĩ bẫy đơn giản'
++		R
++		'lại dễ lừa hắn hơn...'
++		\L_02c92:
++		ZH 1:
++		'Ta nghĩ vậy.'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02bdd:
+@@ -1360,14 +1369,16 @@
+ 		\L_02c85:
+ 		\L_02b6d:
+ 		ZH 1:
+-		'Hôm nay ưu tiên sơ tán'
+-		R
+-		'dân... Xin phép Bệ hạ'
+-		\L_02c92:
+-		ZH 1:
+-		'Rance xong, ta sẽ lập tức'
+-		R
+-		'thi hành kế hoạch.'
++		'Hôm nay ưu tiên sơ'
++		R
++		'tán dân... Ta sẽ xin'
++		R
++		'phép Bệ hạ Rance,'
++		\L_02c92:
++		ZH 1:
++		'rồi lập tức thực'
++		R
++		'hiện kế hoạch.'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02bdd:
+@@ -1379,7 +1390,7 @@
+ 		\L_02c85:
+ 		\L_02b6d:
+ 		ZH 1:
+-		'Ừm. Làm điều đó.'
++		'Ừ, cứ làm thế đi.'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02b89:
+@@ -1419,18 +1430,16 @@
+ 	\L_02ba5:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Leazas'
++	'Điện yết kiến Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến.'
+-	R
+-	'Bệ hạ, tướng '
++	'Về kế hoạch tướng '
+ 	R
+ 	{VAR0383 = 1:
+ 		ZH 1:
+-		'Ví dụ'
++		'Ex'
+ 	}
+ 	{VAR0383 = 2:
+ 		ZH 1:
+@@ -1442,35 +1451,33 @@
+ 	}
+ 	{VAR0383 = 4:
+ 		ZH 1:
+-		'Arcoatat'
++		'Arlcoate'
+ 	}
+ 	{VAR0383 = 5:
+ 		ZH 1:
+-		'Bars'
++		'Barres'
+ 	}
+ 	ZH 1:
+-	' đã'
+-	R
+-	'gửi kế hoạch hôm trước.'
+-	\L_02c92:
+-	\L_02c85:
+-	\L_02b6d:
+-	ZH 1:
+-	'À, ừ. Kế hạ gã Ma Nhân khổng'
+-	R
+-	'lồ'
+-	\L_02c92:
+-	ZH 1:
+-	'Babora ấy hả. Hình như... hố'
+-	R
+-	'bẫy nhỉ... Khó tin quá...'
+-	\L_02c92:
+-	\L_02c85:
+-	\L_02bdd:
+-	ZH 1:
+-	'Nhưng tôi tin rằng đó cũng'
+-	R
+-	'là một phương pháp hiệu quả.'
++	'đã báo hôm trước, Bệ hạ...'
++	\L_02c92:
++	\L_02c85:
++	\L_02b6d:
++	ZH 1:
++	'À, ừ. Kế hoạch hạ tên Ma'
++	R
++	'Nhân khổng lồ Babora ấy hả.'
++	\L_02c92:
++	ZH 1:
++	'Hình như là... hố bẫy nhỉ...'
++	R
++	'Chẳng đáng tin chút nào...'
++	\L_02c92:
++	\L_02c85:
++	\L_02bdd:
++	ZH 1:
++	'Nhưng thần cũng nghĩ đó'
++	R
++	'là cách chắc chắn nhất.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	\L_02b6d:
+@@ -1536,10 +1543,9 @@
+ 	\L_02c69:
+ 	\L_02ba5:
+ 	ZH 1:
+-	'［'
++	'['
+ 	X 8:
+-	'］'
+-	R
++	']'
+ 	R
+ 	'Lối vào thành phố'
+ 	\L_02c92:
+@@ -1558,17 +1564,17 @@
+ 	\L_02c85:
+ 	\L_02ba5:
+ 	ZH 1:
+-	'Maris đứng tại bãi rộng cách'
+-	R
+-	'thành một đoạn, bên một'
+-	\L_02c92:
+-	ZH 1:
+-	'người đàn ông trông như nhân'
+-	R
+-	'viên'
+-	\L_02c92:
+-	ZH 1:
+-	'thị chính.'
++	'Maris đứng ở bãi rộng'
++	R
++	'cách thành phố một đoạn,'
++	\L_02c92:
++	ZH 1:
++	'bên một người'
++	R
++	'đàn ông trông như'
++	\L_02c92:
++	ZH 1:
++	'nhân viên thị chính.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	!VAR0516 : 496!
+@@ -1580,9 +1586,9 @@
+ 	'thật tinh tường.'
+ 	\L_02c92:
+ 	ZH 1:
+-	'Thay vì nịnh, hãy chăm chỉ'
+-	R
+-	'làm việc đi.'
++	'Maris: Thay vì nịnh, hãy'
++	R
++	'chăm chỉ làm việc đi.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	\L_02bdd:
+@@ -1610,9 +1616,9 @@
+ 		\L_02c85:
+ 		\L_02b6d:
+ 		ZH 1:
+-		'Đúng, để bẫy tên khổng lồ'
+-		R
+-		'cao 2223 xăng-ti-mét.'
++		'Đúng, để bẫy tên khổng'
++		R
++		'lồ cao 2223 xăng-ti-mét.'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02bdd:
+@@ -1622,9 +1628,7 @@
+ 		\L_02c85:
+ 		\L_02b6d:
+ 		ZH 1:
+-		'Bây giờ hãy bắt'
+-		R
+-		'tay vào làm việc.'
++		'Nào, bắt tay vào việc đi.'
+ 		\L_02c92:
+ 		\L_02c85:
+ 		\L_02ba5:
+@@ -1639,7 +1643,7 @@
+ 		\L_02c85:
+ 		\L_02bdd:
+ 		ZH 1:
+-		'Chắc chắn rồi!'
++		'Vâng!'
+ 		\L_02c92:
+ 		\L_02c85:
+ 	}
+@@ -1689,14 +1693,14 @@
+ 	'Hàng trăm thợ bắt đầu đào.'
+ 	\L_02c92:
+ 	ZH 1:
+-	'Hai, ba ngày sau, nhờ làm'
+-	R
+-	'việc ngày đêm, một'
+-	\L_02c92:
+-	ZH 1:
+-	'hố bẫy khổng lồ đã hoàn'
+-	R
+-	'thành.'
++	'Sau hai, ba ngày làm'
++	R
++	'việc không kể ngày đêm,'
++	\L_02c92:
++	ZH 1:
++	'một hố bẫy khổng'
++	R
++	'lồ đã hoàn thành.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	\L_02b6d:
+@@ -1708,9 +1712,7 @@
+ 	\L_02c85:
+ 	\L_02ba5:
+ 	ZH 1:
+-	'Mọi thứ đã được chuẩn'
+-	R
+-	'bị một cách hoàn hảo.'
++	'Mọi thứ đã sẵn sàng.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	!VAR0516 : 0!
+@@ -1742,30 +1744,34 @@
+ 	\L_02ba5:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Leazas'
++	'Điện yết kiến Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến: Babora ở'
++	'Bệ hạ, Babora đã tới'
+ 	R
+ 	R
+ 	X 8:
+ 	'.'
+-	R
+-	'Lại tên khổng lồ! Đón đánh.'
+-	\L_02c92:
+-	\L_02c85:
+-	\L_02bdd:
+-	ZH 1:
+-	'Xin chờ đã, Bệ hạ Rance.'
+-	\L_02c92:
+-	\L_02c85:
+-	\L_02b6d:
+-	ZH 1:
+-	'Gì? Thành đó đã có hố bẫy'
+-	R
+-	'dành cho Babora.'
++	\L_02c92:
++	\L_02c85:
++	\L_02bdd:
++	ZH 1:
++	'Rance: Lại tên khổng lồ!'
++	R
++	'Được, đón đánh!'
++	R
++	'Maris: Xin chờ đã, Bệ hạ.'
++	\L_02c92:
++	\L_02c85:
++	\L_02b6d:
++	ZH 1:
++	'Rance: Gì? Maris:'
++	R
++	'Thành đó đã có hố'
++	R
++	'bẫy dành cho Babora.'
+ 	\L_02c92:
+ 	ZH 1:
+ 	'Chỉ cần đợi hắn mắc bẫy'
+@@ -1796,10 +1802,9 @@
+ 	\L_02c69:
+ 	\L_02ba5:
+ 	ZH 1:
+-	'［'
++	'['
+ 	X 8:
+-	'］'
+-	R
++	']'
+ 	R
+ 	'Vùng ngoại ô'
+ 	\L_02c92:
+@@ -1950,14 +1955,12 @@
+ 	ZH 1:
+ 	'Ba... Babora... Cú... cú...'
+ 	R
+-	'Đè... thân!! Ư hê... Ư ba'
+-	R
+-	'ba...'
+-	\L_02c92:
+-	\L_02c85:
+-	\L_02ba5:
+-	ZH 1:
+-	'Babolat đứng dậy.'
++	'Đè người! Ư hê... Ư ba ba...'
++	\L_02c92:
++	\L_02c85:
++	\L_02ba5:
++	ZH 1:
++	'Babora gượng đứng dậy.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	\L_02b6d:
+@@ -1984,7 +1987,9 @@
+ 	\L_02c85:
+ 	\L_02ba5:
+ 	ZH 1:
+-	'Babolat bị mất thăng bằng.'
++	'Babora loạng choạng'
++	R
++	'mất thăng bằng.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	\L_02b6d:
+@@ -1994,12 +1999,12 @@
+ 	\L_02c85:
+ 	\L_02ba5:
+ 	ZH 1:
+-	'(RẦM!!) Thân'
+-	\L_02c92:
+-	ZH 1:
+-	'hình khổng lồ của Babora lọt'
+-	R
+-	'xuống hố bẫy.'
++	'(RẦM!)'
++	\L_02c92:
++	ZH 1:
++	'Thân hình khổng lồ của'
++	R
++	'Babora lọt xuống hố bẫy.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	\L_02b6d:
+@@ -2070,14 +2075,12 @@
+ 	'Nữa này!!'
+ 	\L_02c92:
+ 	ZH 1:
+-	'Lính dùng xẻng hất đất lên'
+-	R
+-	'Babora'
+-	\L_02c92:
+-	ZH 1:
+-	'bất động, nhanh chóng lấp'
+-	R
+-	'hố.'
++	'Lính dùng xẻng hất đất'
++	R
++	'lên Babora bất động,'
++	\L_02c92:
++	ZH 1:
++	'cứ thế chôn lấp hắn.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	\L_02b6d:
+@@ -2095,36 +2098,38 @@
+ 	'đầu đấy!!'
+ 	\L_02c92:
+ 	ZH 1:
+-	'Ăn này!! Ưa... Ưa... Hức...'
+-	R
+-	'Ư... Ưa...'
+-	\L_02c92:
+-	\L_02c85:
+-	\L_02ba5:
+-	ZH 1:
+-	'Babora khóc rống, nhưng lính'
+-	R
+-	'không'
+-	\L_02c92:
+-	ZH 1:
+-	R
+-	'ngừng'
+-	\L_02c92:
+-	ZH 1:
+-	R
+-	'tay...'
+-	\L_02c92:
+-	ZH 1:
+-	R
+-	'Hàng'
+-	\L_02c92:
+-	ZH 1:
+-	'trăm lính Leazas phối hợp'
+-	R
+-	'chôn'
+-	\L_02c92:
+-	ZH 1:
+-	'kín hắn, chỉ chừa mỗi đầu.'
++	'Binh sĩ: Ăn này!!'
++	R
++	'Babora: Ưa... Ưa...'
++	R
++	'Hức... Ư... Ưa...'
++	\L_02c92:
++	\L_02c85:
++	\L_02ba5:
++	ZH 1:
++	'Babora khóc rống,'
++	R
++	'nhưng binh lính'
++	\L_02c92:
++	ZH 1:
++	R
++	'vẫn không ngừng tay.'
++	\L_02c92:
++	ZH 1:
++	R
++	'...'
++	\L_02c92:
++	ZH 1:
++	R
++	'Hàng trăm lính'
++	R
++	'Leazas phối hợp,'
++	\L_02c92:
++	ZH 1:
++	'chôn kín hắn trong đất,'
++	\L_02c92:
++	ZH 1:
++	'chỉ chừa mỗi đầu.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	\L_02b6d:
+@@ -2172,12 +2177,12 @@
+ 	!VAR0382 : 10!
+ 	\L_02ba5:
+ 	ZH 1:
+-	'Chiến trường. (Rầm!) Ma'
+-	\L_02c92:
+-	ZH 1:
+-	'Nhân Babora đổ xuống, tiếng'
+-	R
+-	'vang như đất nứt.'
++	'Chiến trường. (Rầm!)'
++	\L_02c92:
++	ZH 1:
++	'Ma Nhân Babora đổ xuống,'
++	R
++	'tiếng vang như đất nứt.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	!VAR0516 : 454!
+@@ -2203,14 +2208,14 @@
+ 	\L_02c85:
+ 	\L_02b6d:
+ 	ZH 1:
+-	'Nhìn gần vẫn xấu xí. Mau'
+-	R
+-	'chết đi. Nhưng cái'
+-	\L_02c92:
+-	ZH 1:
+-	'xác này thối ra thì dân'
+-	R
+-	'thành khổ mất...'
++	'Nhìn gần cũng xấu xí.'
++	R
++	'Chết đi cho rồi. Nhưng nếu'
++	\L_02c92:
++	ZH 1:
++	'cái xác này mục rữa thì'
++	R
++	'dân thành sẽ khổ mất...'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	\L_02bdd:
+@@ -2255,15 +2260,15 @@
+ 	\L_02c85:
+ 	\L_02b6d:
+ 	ZH 1:
+-	'Phải'
+-	\L_02c92:
+-	ZH 1:
+-	'nhỉ... Vậy kết liễu trước.'
++	'Phải nhỉ...'
++	\L_02c92:
++	ZH 1:
++	'Vậy để ta kết liễu trước.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	\L_02c15:
+ 	ZH 1:
+-	'(gsh)'
++	'(Phập!)'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	\L_02bdd:
+@@ -2278,12 +2283,12 @@
+ 	'Ma Nhân Babora lìa đời.'
+ 	\L_02c92:
+ 	ZH 1:
+-	'Người ta mất mấy'
+-	\L_02c92:
+-	ZH 1:
+-	'ngày đốt thân hình đồ sộ của'
+-	R
+-	'hắn trên ngọn lửa lớn.'
++	'Rồi suốt mấy ngày liền,'
++	\L_02c92:
++	ZH 1:
++	'người ta đốt thân hình đồ sộ'
++	R
++	'của hắn trong ngọn lửa lớn.'
+ 	\L_02c92:
+ 	\L_02c85:
+ 	!VAR0516 : 492!

@@ -316,36 +316,29 @@
 	R
 	ZM 24:
 	ZH 1:
+	'Trước tường thành.'
 	R
-	'Trước bức'
-	R
-	'tường lâu đài Bên cạnh bức'
-	R
-	'tường lâu đài khổng lồ,'
+	'Bên bức tường đồ sộ,'
 	\L_0341b:
 	ZH 1:
-	'một cái bóng'
+	'một cái bóng đọng'
 	R
-	'đang lắng xuống.'
+	'lại như vũng tối.'
 	\L_0341b:
 	ZH 1:
-	'Nó dao động'
+	'Bóng khẽ lay động.'
 	R
-	'một chút. Khoảnh khắc'
-	R
-	'tiếp theo, nó biến mất.'
+	'Thoắt sau, đã biến mất.'
 	\L_0341b:
 	ZH 1:
-	'Bức tường cao chót vót'
+	'Bức tường sừng sững ấy'
 	R
-	'vô dụng trước sinh vật này.'
+	'chẳng thể cản người này.'
 	\L_0341b:
 	ZH 1:
-	'Cái bóng tràn vào'
+	'Cái bóng lướt trong thành.'
 	R
-	'lâu đài. Đó là ninja'
-	R
-	'của NHẬT BẢN, Gekkou.'
+	'Đó là ninja JAPAN, Gekkou.'
 	\L_0341b:
 	\L_0340e:
 	!VAR0516 : 421!
@@ -361,9 +354,9 @@
 	}
 	\L_0332e:
 	ZH 1:
-	'Gekkou tiến qua lâu đài.'
+	'Gekkou lướt qua lâu đài.'
 	R
-	'Đôi chân anh chợt khựng lại.'
+	'Bỗng hắn khựng lại.'
 	\L_0341b:
 	\L_0340e:
 	Y 4, 3:
@@ -371,117 +364,105 @@
 	\L_032f6:
 	{VAR0690 = 1:
 		ZH 1:
-		'Có vẻ như đây'
+		'Có vẻ đây là nơi quản lý'
 		R
-		'là nơi quản lý quỹ chiến'
-		R
-		'tranh của họ... Hoàn hảo.'
+		'quân phí... Vừa hay.'
 		\L_0341b:
 		\L_0340e:
 		\L_0332e:
 		ZH 1:
-		'Gekkou đã vượt'
+		'Gekkou dễ dàng mở hết lớp'
 		R
-		'qua vô số ổ khóa mà'
-		R
-		'không cần nỗ lực gì.'
+		'khóa này đến lớp khóa khác.'
 		\L_0341b:
 		\L_0340e:
 		\L_032f6:
 		ZH 1:
-		'Để xem... tôi'
-		R
-		'sẽ lấy một nửa.'
+		'Để xem... Lấy một nửa vậy.'
 		\L_0341b:
 		\L_0340e:
 		\L_03358:
 		\L_0332e:
 		ZH 1:
-		'Hắn đã đánh cắp 50%'
+		'Lấy đi 50% quân phí Leazas,'
 		R
-		'quỹ chiến tranh và một lần'
+		'hắn lại biến mất như một cái'
 		R
-		'nữa bỏ đi như một cái bóng.'
+		'bóng.'
 		\L_0341b:
 		!VAR0519 : VAR0519 / 2!
 	}
 	{VAR0690 = 2:
 		ZH 1:
-		'Có vẻ như đây'
+		'Có vẻ đây là nơi quản lý'
 		R
-		'là nơi quản lý quỹ chiến'
-		R
-		'tranh của họ... Hoàn hảo.'
+		'quân phí... Vừa hay.'
 		\L_0341b:
 		\L_0340e:
 		\L_0332e:
 		ZH 1:
-		'Gekkou đã vượt'
+		'Gekkou dễ dàng mở hết lớp'
 		R
-		'qua vô số ổ khóa mà'
-		R
-		'không cần nỗ lực gì.'
+		'khóa này đến lớp khóa khác.'
 		\L_0341b:
 		\L_0340e:
 		\L_032f6:
 		ZH 1:
-		'Để xem nào... Chỉ'
+		'Để xem... Lấy một phần tư là'
 		R
-		'một phần tư là được rồi.'
+		'đủ.'
 		\L_0341b:
 		\L_0340e:
 		\L_03358:
 		\L_0332e:
 		ZH 1:
-		'Hắn đã đánh cắp 25%'
+		'Lấy đi 25% quân phí Leazas,'
 		R
-		'quỹ chiến tranh và một lần'
+		'hắn lại biến mất như một cái'
 		R
-		'nữa bỏ đi như một cái bóng.'
+		'bóng.'
 		\L_0341b:
 		!VAR0519 : VAR0519 / 4 * 3!
 	}
 	{VAR0690 = 3:
 		ZH 1:
-		'Giờ thì... Có lẽ'
-		R
-		'quanh đây sẽ tốt.'
+		'Nào... Chỗ này được đấy.'
 		\L_0341b:
 		\L_0340e:
 		\L_0332e:
 		ZH 1:
-		'Gekkou đánh rơi chiếc'
+		'Gekkou đặt xuống sàn chiếc'
 		R
-		'xô đang cầm xuống sàn.'
+		'xô chẳng biết đã'
 		\L_0341b:
 		ZH 1:
-		'Đồ đạc trong đó'
+		'đeo sau lưng từ bao giờ. Hắn'
 		R
-		'bị vứt ra hành lang.'
+		'đổ hết ra'
 		\L_0341b:
 		ZH 1:
-		'Một mùi nồng nặc ngay'
+		'hành lang. Mùi hôi nồng nặc'
 		R
-		'lập tức tràn ngập khu vực.'
+		'lập tức lan khắp nơi.'
 		\L_0341b:
 		\L_0340e:
 		\L_032f6:
 		ZH 1:
-		'Đây sẽ là cơ'
+		'Nhân dịp này, cứ trồng cây'
 		R
-		'hội tốt để gieo hạt giống'
+		'con ở hành lang đi. Ha ha'
 		R
-		'ở hành lang. Gahahahaha!h.'
+		'ha!'
 		\L_0341b:
 		\L_0340e:
 		\L_03358:
 		\L_0332e:
 		ZH 1:
-		'Gekkou phủ phân lên các'
+		'Rải phân khắp hành lang'
 		R
-		'sảnh của Lâu đài Leazas, rồi'
+		'thành Leazas, Gekkou lại'
 		R
-		'lại bỏ đi như một cái bóng.'
+		'biến mất như một cái bóng.'
 		\L_0341b:
 	}
 	\L_0340e:
@@ -517,36 +498,34 @@
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Gekkou đang lang thang'
+	'Gekkou đi khắp trong'
 	R
-	'trong hành lang, nhưng...'
+	'thành, nhưng...'
 	\L_0341b:
 	\L_0340e:
 	!VAR0516 : 421!
 	\L_0334a:
 	\L_032f6:
 	ZH 1:
-	'Tôi đã định giết ai'
+	'Ta định cắt cổ ai đó lúc'
 	R
-	'đó khi họ đang ngủ,'
+	'ngủ...'
 	\L_0341b:
 	ZH 1:
-	'nhưng có vẻ chẳng có'
+	'Mà chẳng có kẻ nào đáng ra'
 	R
-	'ai đáng để bận tâm cả.'
+	'tay.'
 	\L_0341b:
 	ZH 1:
-	'Nhàm chán.'
+	'Chán thật.'
 	\L_0341b:
 	\L_0340e:
 	\L_03358:
 	\L_0332e:
 	ZH 1:
-	'Có lẽ vì không còn hứng thú'
+	'Dường như mất hứng, Gekkou'
 	R
-	'nên Gekkou rời khỏi lâu đài'
-	R
-	'Leazas, ánh mắt lạnh lùng.'
+	'lạnh lùng rời thành Leazas.'
 	\L_0341b:
 	\L_0340e:
 	\L_03400:
@@ -569,33 +548,29 @@
 		!VAR0102 : 0!
 		\L_032f6:
 		ZH 1:
-		'Cậu ơi, cậu ơi... Hôm nay'
+		'Chà... Hôm nay cũng mệt'
 		R
-		'cậu phải làm việc vất vả...'
+		'quá... Đúng là không'
 		\L_0341b:
 		ZH 1:
-		'Tuổi già sẽ'
-		R
-		'ảnh hưởng đến cậu.'
+		'thắng nổi tuổi già...'
 		\L_0341b:
 		ZH 1:
-		'Nhưng dù vậy, tôi vẫn'
+		'Nhưng bảo ta nghỉ hưu thì'
 		R
-		'chưa thể nghỉ hưu được.'
+		'còn lâu.'
 		\L_0341b:
 		\L_0340e:
 		\L_03366:
 		ZH 1:
-		'Vậy nếu bây giờ ngươi'
+		'Vậy chết ở đây thì ngươi sẽ'
 		R
-		'chết, ngươi có thể nói rằng'
-		R
-		'ngươi đã phục vụ cả đời.'
+		'được tại ngũ trọn đời nhỉ.'
 		\L_0341b:
 		\L_0340e:
 		\L_032f6:
 		ZH 1:
-		'Đó là ai?'
+		'Kẻ nào?'
 		\L_0341b:
 		\L_0340e:
 		!VAR0516 : 421!
@@ -604,14 +579,14 @@
 		ZH 1:
 		'Gekkou xuất hiện'
 		R
-		'trước Barres mà không'
+		'trước Barres, chẳng'
 		R
-		'gây ra tiếng động.'
+		'gây tiếng động.'
 		\L_0341b:
 		\L_0340e:
 		\L_032f6:
 		ZH 1:
-		'Cậu...'
+		'Ngươi...!'
 		\L_0341b:
 		\L_0340e:
 		\L_0339e:
@@ -623,43 +598,43 @@
 		\L_0340e:
 		\L_032f6:
 		ZH 1:
-		'Gh... Hả?'
+		'Ư... hả?'
 		\L_0341b:
 		\L_0340e:
 		\L_0332e:
 		ZH 1:
-		'Barres rên rỉ'
+		'Barres bật ra tiếng như hơi'
 		R
-		'và một dòng máu phun'
+		'thở, máu từ cổ ông phun vọt'
 		R
-		'ra từ cổ họng ông.'
+		'lên.'
 		\L_0341b:
 		ZH 1:
-		'Tuy nhiên,'
+		'Nhưng lưỡi kiếm tuốt trần'
 		R
-		'không một giọt máu nào dính'
+		'của Gekkou chẳng dính một'
 		R
-		'vào thanh kiếm của Gekkou.'
+		'giọt máu.'
 		\L_0341b:
 		\L_0340e:
 		\L_03312:
 		ZH 1:
-		'T-tôi xin'
+		'Hận... quá... Bệ hạ'
 		R
-		'lỗi... Vua Rance...!!'
+		'Rance...!!'
 		\L_0341b:
 		\L_0340e:
 		\L_03358:
 		\L_0332e:
 		ZH 1:
-		'Cơ thể già nua'
+		'Thân già Barres đổ sụp xuống'
 		R
-		'của Barres rơi xuống đất.'
+		'sàn.'
 		\L_0341b:
 		\L_0340e:
 		\L_03366:
 		ZH 1:
-		'Hehe...'
+		'Khục khục...'
 		\L_0341b:
 		\L_0340e:
 		\L_03358:
@@ -680,122 +655,110 @@
 		'...'
 		\L_0341b:
 		ZH 1:
-		'Thi thể lạnh'
+		'Mãi hôm sau, thi thể đã lạnh'
 		R
-		'cóng của Barres được tìm'
+		'của Barres mới được phát'
 		R
-		'thấy vào ngày hôm sau.'
+		'hiện.'
 		\L_0341b:
 		\L_0340e:
 		\0:
 	}
 	\L_032f6:
 	ZH 1:
-	'Cho đến khi...'
+	'Hà...'
 	\L_0341b:
 	ZH 1:
-	'Tại sao Vua Rance'
+	'Sao Bệ hạ Rance không'
 	R
-	'không cho tôi chiến đấu...?'
+	'cho ta ra trận nhỉ...'
 	\L_0341b:
 	ZH 1:
-	'Tôi có thể'
+	'Tuy già, ta vẫn'
 	R
-	'già, nhưng tôi vẫn'
-	R
-	'còn trong quân đội...'
+	'còn tại ngũ...'
 	\L_0341b:
 	ZH 1:
-	'Tôi có thể'
+	'Vẫn chiến đấu được'
 	R
-	'chiến đấu, nhưng...'
+	'vì Bệ hạ mà...'
 	\L_0341b:
 	\L_0340e:
 	!VAR0516 : 421!
 	\L_033ba:
 	\L_032f6:
 	ZH 1:
-	'Ngươi-Ngươi là ai...?'
+	'Ngươi... Ngươi là kẻ nào...?'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Barres rút kiếm'
+	'Vừa dứt lời, Barres đã rút'
 	R
-	'nhanh hơn khi nói xong.'
+	'kiếm.'
 	\L_0341b:
 	\L_0340e:
 	\L_03366:
 	ZH 1:
-	'Suỵt!'
+	'Hây!'
 	\L_0341b:
 	\L_0340e:
 	\L_0339e:
 	ZH 1:
-	'Gekkou nhảy vào Barres.'
+	'Gekkou cũng lao về phía'
+	R
+	'Barres.'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'(claaaaaang)'
+	'＜CHOANG!＞ Hai'
 	\L_0341b:
 	ZH 1:
-	'Hai thanh kiếm'
-	R
-	'chạm vào nhau.'
+	'lưỡi kiếm va nhau vang dội.'
 	\L_0341b:
 	\L_0340e:
 	\L_03382:
 	ZH 1:
-	'Tôi đã thất bại...'
-	R
-	'Cậu gặp chút may mắn.'
+	'Hỏng rồi... Lão may đấy.'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Barres chặn đòn'
-	R
-	'tấn công của Gekkou.'
+	'Barres chặn được đòn đánh.'
 	\L_0341b:
 	ZH 1:
-	'Gekkou cố gắng sử'
+	'Gekkou mượn ngay lực va chạm'
 	R
-	'dụng sức mạnh từ cuộc đụng'
-	R
-	'độ để tiến về phía cửa sổ.'
+	'ấy để lao về phía cửa sổ.'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
 	ZH 1:
-	'Chạy trốn?!!'
+	'Định chạy sao!!'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Barres đi theo'
+	'Barres đuổi theo hắn.'
 	R
-	'hắn. cra craaaaash）'
+	'＜XOẢNG!＞'
 	\L_0341b:
 	ZH 1:
-	'Gekkou đập vỡ cửa sổ'
+	'Gekkou lao người phá cửa sổ,'
 	R
-	'và trốn thoát khỏi lâu đài.'
+	'thoát ra khỏi thành.'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
 	ZH 1:
-	'Chết tiệt...'
+	'Khốn thật...'
 	\L_0341b:
 	ZH 1:
-	'Tôi sẽ không bao giờ'
-	R
-	'sống sót với sai lầm này!'
+	'Barres này thất thố cả đời!'
 	\L_0341b:
 	ZH 1:
-	'Làm sao tôi có thể để'
-	R
-	'một tên tội phạm trốn thoát?'
+	'Lại để hung thủ trốn mất...'
 	\L_0341b:
 	\L_0340e:
 	\0:
@@ -815,16 +778,12 @@
 	\L_0334a:
 	\L_032f6:
 	ZH 1:
-	'Bây giờ... Nhiệm vụ'
-	R
-	'của tôi đã hoàn thành...'
+	'Xong việc lặt vặt rồi...'
 	\L_0341b:
 	ZH 1:
-	'Tôi đã chiến đấu, nhưng'
+	'Hôm nay ra trận vẫn sống trở'
 	R
-	'lại sống sót một lần nữa...'
-	R
-	'Có lẽ tôi nên nghỉ ngơi...'
+	'về... Giờ nghỉ ngơi thôi...'
 	\L_0341b:
 	\L_0340e:
 	!VAR0516 : 421!
@@ -836,9 +795,9 @@
 	\L_0340e:
 	\L_032f6:
 	ZH 1:
-	'Bộ trang phục đó...'
+	'Trang phục ấy... Ngươi là'
 	R
-	'Cậu đến từ NHẬT BẢN à!?'
+	'người JAPAN!?'
 	\L_0341b:
 	\L_0340e:
 	\L_03366:
@@ -848,11 +807,11 @@
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Gekkou ném vài'
+	'Không trả lời Rick, Gekkou'
 	R
-	'chiếc shuriken trước khi'
+	'bất ngờ phóng ra hàng loạt'
 	R
-	'Rick có cơ hội đáp trả.'
+	'phi tiêu.'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
@@ -862,70 +821,62 @@
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Rick rút kiếm và'
+	'Rick rút kiếm, lập tức đánh'
 	R
-	'nhanh chóng chém gục chúng.'
+	'văng chúng.'
 	\L_0341b:
 	\L_0340e:
 	{VAR0102 = 2:
 		!VAR0102 : 0!
 		\L_032f6:
 		ZH 1:
-		'Ờ...?'
+		'Ư...?'
 		\L_0341b:
 		\L_0340e:
 		\L_0332e:
 		ZH 1:
-		'Nhưng do vết thương'
+		'Hôm nay ra trận, Rick đã'
 		R
-		'mà chàng phải chịu trong'
-		R
-		'trận chiến ngày hôm nay,'
+		'bị thương nhẹ. Một phi tiêu'
 		\L_0341b:
 		ZH 1:
-		'chàng đã trượt'
+		'mà bình thường chàng tránh'
 		R
-		'một chiếc shuriken và nó'
-		R
-		'trúng vào đầu gối của chàng.'
+		'được lại trúng vào đầu gối.'
 		\L_0341b:
 		\L_0340e:
 		\L_03366:
 		ZH 1:
-		'... Heh...'
+		'...Hừ... Số ngươi đã'
 		R
-		'Số phận của cậu đã được'
-		R
-		'định đoạt... Red Reaper...'
+		'tận... Xích Quỷ...'
 		\L_0341b:
 		\L_0340e:
 		\L_033c8:
 		\L_032f6:
 		ZH 1:
-		'Cái gì...?'
+		'Cái...'
 		\L_0341b:
 		ZH 1:
-		'Ờ...!!'
+		'Ư...!!'
 		\L_0341b:
 		\L_0340e:
 		\L_0332e:
 		ZH 1:
-		'Rick ngã xuống đất.'
+		'Rick đổ gục tại chỗ.'
 		\L_0341b:
 		\L_0340e:
 		\L_032f6:
 		ZH 1:
-		'Chất độc...'
+		'Độc... ...'
 		\L_0341b:
 		ZH 1:
-		'... Ờ...'
+		'Ư...'
 		\L_0341b:
 		ZH 1:
-		'Kh... Chết'
+		'Khốn... Không thể... chết...'
 		R
-		'tiệt... Tôi không'
-		R
-		'thể... chết... ở đây...'
+		'thế này...'
 		\L_0341b:
 		\L_0340e:
 		\L_03358:
@@ -943,35 +894,33 @@
 		'...'
 		\L_0341b:
 		ZH 1:
-		'Ngày hôm sau...'
+		'Sáng hôm sau...'
 		\L_0341b:
 		ZH 1:
-		'Rick Addison, kiếm sĩ'
+		'Rick, kiếm sĩ thiên'
 		R
-		'thiên tài được mệnh danh'
+		'tài được gọi là Tia'
 		R
-		'là Thần chết của Leazas,'
+		'Chớp Đỏ của Leazas,'
 		\L_0341b:
 		ZH 1:
-		'được tìm thấy đã'
+		'phát hiện đã chết trong'
 		R
-		'chết trong phòng của mình.'
+		'phòng.'
 		\L_0341b:
 		\L_0340e:
 		\0:
 	}
 	\L_03366:
 	ZH 1:
-	'Ơ...'
+	'Ồ...'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Tất cả những'
+	'Mọi phi tiêu Gekkou phóng ra'
 	R
-	'chiếc shuriken mà Gekkou ném'
-	R
-	'đều bị đánh rơi xuống đất.'
+	'đều bị đánh văng.'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
@@ -989,12 +938,12 @@
 	\L_033c8:
 	\L_032f6:
 	ZH 1:
-	'!! Hắn biến mất!?'
+	'!! Biến mất rồi!?'
 	\L_0341b:
 	ZH 1:
-	'Ngươi đang ở đâu?!! Hãy'
+	'Đâu rồi!! Đồ hèn, ra mặt'
 	R
-	'thể hiện mình đi, đồ hèn!!'
+	'đi!!'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
@@ -1023,25 +972,23 @@
 	\L_0334a:
 	\L_032f6:
 	ZH 1:
-	'Để xem nên viết gì đây...?'
+	'Sột soạt... Nào...'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Tuần này Cordoba'
+	'Tuần này trực đêm không về'
 	R
-	'trực đêm nên không thể về'
+	'nhà được, Cordoba đang viết'
 	R
-	'nhà nên viết thư cho vợ.'
+	'thư cho vợ.'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
 	ZH 1:
-	'Fururu yêu'
+	'Fururu yêu dấu. Em có khỏe'
 	R
-	'quý của tôi. Cậu có'
-	R
-	'khỏe không?tôi...'
+	'không? Anh...'
 	\L_0341b:
 	ZH 1:
 	'............'
@@ -1052,125 +999,113 @@
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Cordoba thay cây bút bằng'
+	'Đổi bút lấy rìu,'
 	R
-	'một chiếc rìu và đứng lên.'
+	'Cordoba đứng dậy.'
 	\L_0341b:
 	\L_0340e:
 	!VAR0516 : 421!
 	\L_033ba:
 	\L_03366:
 	ZH 1:
-	'Cậu có phải'
-	R
-	'là Cordoba Burn không?'
+	'Ngươi là Cordoba Burn?'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
 	ZH 1:
-	'Hừm, ninja à...?'
+	'Hừ, ninja à... Dám đến ám'
 	R
-	'Cậu thật ngu ngốc khi'
-	R
-	'đến đây để ám sát tôi!!'
+	'sát ta, ngươi ngu thật đấy!!'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Cordoba vung rìu.'
+	'Cordoba vung rìu lên.'
 	\L_0341b:
 	ZH 1:
-	'Thanh katana của Gekkou'
+	'Cùng lúc, Gekkou chĩa kiếm'
 	R
-	'tiếp cận Cordoba cùng lúc.'
+	'về phía ông. ＜RẮC...＞'
 	\L_0341b:
 	{VAR0102 = 2:
 		!VAR0102 : 0!
 		ZH 1:
-		'（rắc...）'
+		'Chiếc rìu ấy,'
 		\L_0341b:
 		ZH 1:
-		'Chiếc rìu đã bị hư hại'
+		'dùng trong trận chiến hôm'
 		R
-		'trong trận chiến ngày hôm đó'
+		'nay có lẽ đã hỏng đâu đó.'
 		\L_0341b:
 		ZH 1:
-		'và bị gãy khi bị thanh'
+		'Vừa chạm mũi kiếm Gekkou, nó'
 		R
-		'kiếm của Gekkou đâm trúng.'
+		'liền gãy.'
 		\L_0341b:
 		\L_0340e:
 		\L_032f6:
 		ZH 1:
-		'Cái gì...?!!'
+		'Cái...!!'
 		\L_0341b:
 		ZH 1:
-		'Ôi!!'
+		'Áaa!!'
 		\L_0341b:
 		\L_0340e:
 		\L_0332e:
 		ZH 1:
-		'Với một sơ hở, Gekkou đã'
+		'Gekkou chớp lấy sơ hở, dùng'
 		R
-		'xé toạc cổ họng của Cordoba.'
+		'kiếm cắt cổ Cordoba.'
 		\L_0341b:
 		\L_0340e:
 		\L_032f6:
 		ZH 1:
-		'Guhbah...'
+		'Ực...'
 		\L_0341b:
 		\L_0340e:
 		\L_03358:
 		\L_03366:
 		ZH 1:
-		'Heh... Lâu quá.'
+		'Hừ... Vĩnh biệt.'
 		\L_0341b:
 		\L_0340e:
 		\L_033c8:
 		\L_0332e:
 		ZH 1:
-		'Cordoba thường'
+		'Thường ngày, Cordoba luôn'
 		R
-		'sửa chữa chiếc rìu của'
-		R
-		'mình sau một trận chiến,'
+		'sửa rìu hỏng ngay'
 		\L_0341b:
 		ZH 1:
-		'nhưng thay vào đó'
+		'sau trận đánh. Chỉ hôm nay,'
 		R
-		'hôm nay chàng đang'
-		R
-		'viết một lá thư...'
+		'ông lại viết'
 		\L_0341b:
 		ZH 1:
-		'Bức thư đầy máu trở'
+		'thư trước... Lá thư nhuốm'
 		R
-		'thành thông điệp cuối cùng'
-		R
-		'của ông gửi đến thế giới.'
+		'máu ấy đã thành di thư.'
 		\L_0341b:
 		\L_0340e:
 		\0:
 	}
 	ZH 1:
-	'hk claaaang!!）'
+	'＜CHOANG!!＞ Chiếc'
 	\L_0341b:
 	ZH 1:
-	'Chiếc rìu rắn chặn lưỡi'
+	'rìu nặng nề hất văng lưỡi'
 	R
-	'kiếm sắc bén của Gekkou.'
+	'kiếm sắc của Gekkou.'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
 	ZH 1:
-	'Wahahahahahaha!'
+	'Ha ha ha ha!'
 	\L_0341b:
 	ZH 1:
-	'Đừng nghĩ rằng ngươi'
+	'Đừng tưởng đòn đó lấy được'
 	R
-	'có thể lấy đầu tôi bằng'
-	R
-	'một đòn tấn công như vậy.'
+	'đầu ta.'
 	\L_0341b:
 	\L_0340e:
 	\L_03366:
@@ -1181,45 +1116,41 @@
 	\L_033c8:
 	\L_0332e:
 	ZH 1:
-	'Thất bại trong nhiệm'
+	'Ám sát thất bại, Gekkou'
 	R
-	'vụ của mình, Gekkou biến'
-	R
-	'mất không một tiếng động.'
+	'biến mất không tiếng động.'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
 	ZH 1:
-	'Ah, cậu biến đi đâu'
+	'Này, biến đi đâu rồi!! Khốn'
 	R
-	'rồi?!! Chết tiệt!! Đồ ngốc!!'
+	'kiếp!! Đồ khốn!!'
 	\L_0341b:
 	ZH 1:
-	'Anh ngươi...'
+	'Thật là... ...'
 	\L_0341b:
 	ZH 1:
-	'... Tuy nhiên,'
-	R
-	'cũng gần rồi...'
+	'Mà vừa rồi cũng nguy thật...'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Hắn quay lại viết thư.'
+	'Nghĩ vậy, ông lại quay về'
+	R
+	'viết thư.'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
 	ZH 1:
-	'Bây giờ chúng ta'
-	R
-	'đang ở giữa cuộc chiến.'
+	'Phải rồi, đang giữa chiến'
 	\L_0341b:
 	ZH 1:
-	'Không biết liệu lá thư này'
+	'tranh mà. Chẳng biết lá thư'
 	R
-	'có thể trở thành lời cuối'
+	'này sẽ thành di thư lúc'
 	R
-	'cùng của tôi hay không...'
+	'nào...'
 	\L_0341b:
 	ZH 1:
 	'Fururu...'
@@ -1240,50 +1171,48 @@
 	{VAR0102 = 2:
 		!VAR0102 : 0!
 		ZH 1:
-		'Ex đang đi qua hành'
+		'Ex đi một mình qua hành lang'
 		R
-		'lang tối tăm, vắng người.'
+		'tối vắng.'
 		\L_0341b:
 		ZH 1:
-		'Hắn đã dành một'
+		'Việc xử lý hậu quả trận'
 		R
-		'chút thời gian để giải quyết'
+		'chiến hôm nay đã tốn khá'
 		R
-		'các thủ tục sau trận chiến.'
+		'nhiều thời gian.'
 		\L_0341b:
 		\L_0340e:
 		!VAR0516 : 405!
 		\L_0334a:
 		\L_032f6:
 		ZH 1:
-		'Haah... Cố gắng sống'
+		'Phù... Hôm nay lại sống'
 		R
-		'sót thêm một ngày nữa...'
+		'sót... Cũng'
 		\L_0341b:
 		ZH 1:
-		'Nhờ sự làm việc'
+		'nhờ mọi người đã hết sức cố'
 		R
-		'chăm chỉ của mọi người...'
+		'gắng...'
 		\L_0341b:
 		\L_0340e:
 		!VAR0516 : 421!
 		\L_033ba:
 		\L_032f6:
 		ZH 1:
-		'À...'
+		'A...'
 		\L_0341b:
 		\L_0340e:
 		\L_0332e:
 		ZH 1:
-		'Ex rất ngạc'
-		R
-		'nhiên và dừng bước.'
+		'Ex sững sờ, khựng lại.'
 		\L_0341b:
 		ZH 1:
-		'Và sau đó...'
+		'Ngay khoảnh khắc ấy...'
 		\L_0341b:
 		ZH 1:
-		'(gsh)'
+		'（Phập!）'
 		\L_0341b:
 		\L_0340e:
 		\L_032f6:
@@ -1293,17 +1222,17 @@
 		\L_0340e:
 		\L_03312:
 		ZH 1:
-		'Tôi không nghĩ mình'
+		'Tôi biết mình khó thoát...'
 		R
-		'có thể trốn thoát, nhưng...'
+		'Nhưng...'
 		\L_0341b:
 		ZH 1:
-		'tôi muốn làm nhiều'
+		'vẫn muốn cống hiến thêm cho'
 		R
-		'hơn nữa cho Leazas...'
+		'Leazas...'
 		\L_0341b:
 		ZH 1:
-		'Vì nhà vua...'
+		'cho bệ hạ...'
 		\L_0341b:
 		\L_0340e:
 		\L_03358:
@@ -1317,21 +1246,19 @@
 		\L_033c8:
 		\L_0332e:
 		ZH 1:
-		'Khi Gekkou'
+		'Xác nhận Ex đã tắt thở,'
 		R
-		'xác nhận rằng Ex đã chết,'
-		R
-		'hắn chìm vào bóng tối.'
+		'Gekkou lẩn vào bóng tối.'
 		\L_0341b:
 		\L_0340e:
 		\0:
 	}
 	ZH 1:
-	'Ex đang đi bộ qua hội'
+	'Ex đi trên hành lang cùng'
 	R
-	'trường với một trong những'
+	'một tham mưu trẻ trong quân'
 	R
-	'sĩ quan tham mưu của chàng.'
+	'mình.'
 	\L_0341b:
 	\L_0340e:
 	!VAR0516 : 405!
@@ -1340,38 +1267,38 @@
 	\L_033ba:
 	\L_03366:
 	ZH 1:
-	'Ngài Ex, xin'
+	'Thưa ngài Ex, trận tới xin'
 	R
-	'hãy đặt tôi ở bên cạnh ngài'
+	'cho tôi theo bên ngài. Tôi'
 	R
-	'trong trận chiến tiếp theo.'
+	'muốn tận mắt'
 	\L_0341b:
 	ZH 1:
-	'Tôi muốn xem sự chỉ'
+	'học cách chỉ huy của vị Thần'
 	R
-	'huy của Thần Chiến lược.'
+	'chiến thuật.'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
 	ZH 1:
-	'Chắc chắn cậu'
-	R
-	'rất thích học tập...'
+	'Cậu ham học thật đấy...'
 	\L_0341b:
 	ZH 1:
-	'Được rồi.'
+	'Được thôi.'
 	\L_0341b:
 	ZH 1:
-	'Hãy làm việc chăm chỉ để trở'
+	'Mau trở thành vị tướng giỏi'
 	R
-	'thành một vị tướng giỏi hơn'
+	'hơn tôi, rồi cống hiến cho'
 	R
-	'tôi và làm việc cho Leazas.'
+	'Leazas nhé.'
 	\L_0341b:
 	\L_0340e:
 	\L_03366:
 	ZH 1:
-	'Ồ, tôi vẫn chưa tới đó...'
+	'Không đâu, tôi còn kém'
+	R
+	'lắm...'
 	\L_0341b:
 	\L_0340e:
 	\L_033c8:
@@ -1379,9 +1306,7 @@
 	\L_033ba:
 	\L_03366:
 	ZH 1:
-	'Tướng quân khôn'
-	R
-	'ngoan Ex. Chết đi.'
+	'Trí tướng Ex. Chịu chết đi.'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
@@ -1391,19 +1316,17 @@
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Gekkou xuất hiện trước'
+	'Gekkou lặng lẽ hiện'
 	R
-	'mặt họ mà không gây ra'
+	'ra trước hai người,'
 	\L_0341b:
 	ZH 1:
-	'tiếng động nào và chém'
-	R
-	'bằng thanh kiếm của mình.'
+	'lưỡi kiếm lóe sáng.'
 	\L_0341b:
 	\L_0340e:
 	\L_03312:
 	ZH 1:
-	'Ồ...'
+	'Nguy...!'
 	\L_0341b:
 	\L_0340e:
 	\L_033c8:
@@ -1411,17 +1334,17 @@
 	\L_033ba:
 	\L_03366:
 	ZH 1:
-	'Tướng Ex, coi chừng!'
+	'Ngài Ex, coi chừng!'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'(gsh)'
+	'（Phập!）'
 	\L_0341b:
 	\L_0340e:
 	\L_03366:
 	ZH 1:
-	'À...'
+	'A...'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
@@ -1431,9 +1354,9 @@
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Người lính trẻ bị'
+	'Người lính trẻ bị đâm khi'
 	R
-	'đâm khi bảo vệ Ex.'
+	'lao ra che cho Ex.'
 	\L_0341b:
 	\L_0340e:
 	\L_033c8:
@@ -1441,22 +1364,22 @@
 	\L_033ba:
 	\L_03366:
 	ZH 1:
-	'Ch...'
+	'Chậc...'
 	\L_0341b:
 	\L_0340e:
 	\L_033c8:
 	\L_0339e:
 	ZH 1:
-	'Gekkou tặc lưỡi và'
+	'Tặc lưỡi, Gekkou'
 	R
-	'ngay lập tức biến mất.'
+	'lập tức biến mất.'
 	\L_0341b:
 	\L_0340e:
 	!VAR0516 : 479!
 	\L_033ba:
 	\L_03366:
 	ZH 1:
-	'Thưa ngài... Ví dụ...'
+	'Ngài... Ex...'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
@@ -1468,22 +1391,24 @@
 	\L_0340e:
 	\L_03366:
 	ZH 1:
-	'... Tôi đã làm...'
+	'... Xin hãy... cố gắng... cả'
 	R
-	'phần của tôi... Ah...'
+	'phần... tôi... á...'
 	\L_0341b:
 	\L_0340e:
 	\L_033c8:
 	\L_032f6:
 	ZH 1:
-	'... À à...'
+	'...A...'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Chàng trai chết'
+	'Chàng trai đã lấy mạng mình'
 	R
-	'để bảo vệ Ex...'
+	'che chở Ex, rồi trút hơi thở'
+	R
+	'cuối cùng...'
 	\L_0341b:
 	\L_0340e:
 	\0:
@@ -1505,25 +1430,21 @@
 		!VAR0102 : 0!
 		\L_032f6:
 		ZH 1:
-		'Haah... Dù ta mặc'
+		'Phù... Đánh trận xong, bộ'
 		R
-		'quần áo gì khi đánh nhau thì'
-		R
-		'cuối cùng cũng đổ mồ hôi...'
+		'đồ nào cũng đẫm mồ hôi...'
 		\L_0341b:
 		\L_0340e:
 		\L_0332e:
 		ZH 1:
-		'Nàng có thể yêu cầu cấp'
+		'Là sĩ quan, nàng có thể giao'
 		R
-		'dưới giặt quần áo cho mình,'
+		'việc giặt giũ cho thuộc hạ,'
 		\L_0341b:
 		ZH 1:
-		'nhưng lại thích tự mình'
+		'nhưng vốn cẩn thận'
 		R
-		'làm mọi việc để đảm bảo mọi'
-		R
-		'việc diễn ra theo ý nàng.'
+		'nên nàng vẫn tự làm.'
 		\L_0341b:
 		ZH 1:
 		'Nàng nhặt chiếc quần lót'
@@ -1533,11 +1454,9 @@
 		\L_0340e:
 		\L_032f6:
 		ZH 1:
-		'Hmm, có lẽ'
+		'Ừm, lần tới thử mua màu'
 		R
-		'lần sau ta nên thử mua một'
-		R
-		'màu khác ngoài màu trắng...'
+		'khác ngoài trắng nhỉ...'
 		\L_0341b:
 		ZH 1:
 		'Mà màu gì nhỉ...?'
@@ -1545,7 +1464,7 @@
 		\L_0340e:
 		\L_03366:
 		ZH 1:
-		'Màu đỏ rất đẹp.'
+		'Màu đỏ là được.'
 		\L_0341b:
 		\L_0340e:
 		\L_032f6:
@@ -1557,23 +1476,25 @@
 		\L_033ba:
 		\L_0332e:
 		ZH 1:
-		'(gsh)'
+		'（Phập!）'
 		\L_0341b:
 		\L_0340e:
 		\L_03358:
 		\L_033c8:
 		\L_0332e:
 		ZH 1:
-		'Chiếc quần lót nàng'
+		'Chiếc quần lót trong'
 		R
-		'đang cầm ướt đẫm máu...'
+		'tay nàng nhuộm đỏ'
+		R
+		'bởi chính máu nàng...'
 		\L_0341b:
 		\L_0340e:
 		\0:
 	}
 	\L_032f6:
 	ZH 1:
-	'Cho đến khi...'
+	'Phù...'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
@@ -1583,28 +1504,28 @@
 	\L_0340e:
 	\L_032f6:
 	ZH 1:
-	'Đơn vị của tôi'
+	'Lần này đơn vị mình lại'
 	R
-	'lại phải canh giữ lâu đài...'
+	'trông thành... Rance không'
 	R
-	'Rance không tin tôi sao...?'
+	'tin mình'
 	\L_0341b:
 	ZH 1:
-	'Sẽ thật tốt nếu'
+	'sao...? Không phải chiến đấu'
 	R
-	'tôi không thể chiến đấu,'
+	'thì'
 	\L_0341b:
 	ZH 1:
-	'nhưng sau đó công việc đó'
+	'mừng, nhưng người khác lại'
 	R
-	'sẽ được đẩy sang người khác.'
+	'phải vất vả thay.'
 	\L_0341b:
 	ZH 1:
-	'Tôi phải mạnh mẽ lên...'
+	'Mình phải mạnh hơn nữa...'
 	R
-	'Có phải tôi yếu đuối vì'
+	'Yếu thế này vì chưa tập đủ'
 	R
-	'chưa luyện tập đủ không...?'
+	'sao...?'
 	\L_0341b:
 	ZH 1:
 	'............'
@@ -1615,21 +1536,19 @@
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Ran đứng dậy và nhặt'
-	R
-	'thanh kiếm của mình lên.'
+	'Ran đứng dậy, cầm kiếm lên.'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
 	ZH 1:
-	'Vâng!'
+	'Hây!'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Cô rút kiếm ra'
+	'Nàng rút kiếm chém thật'
 	R
-	'và cố gắng chém nhanh.'
+	'nhanh theo thế bạt kiếm.'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
@@ -1639,55 +1558,57 @@
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Cô chém vào thứ tưởng'
+	'Tưởng chỉ chém vào khoảng'
 	R
-	'chừng như không có gì nhưng'
+	'không, nàng lại thấy lưỡi'
 	R
-	'lại sượt qua thứ gì đó.'
+	'kiếm sượt qua thứ gì đó.'
 	\L_0341b:
 	\L_0340e:
 	!VAR0516 : 421!
 	\L_033ba:
 	\L_032f6:
 	ZH 1:
-	'... Ờ...'
+	'...Ơ...'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Tay áo của'
+	'Tên ninja đột nhiên hiện ra'
 	R
-	'ninja đột nhiên xuất hiện'
+	'trước mắt Ran, tay áo bị'
 	R
-	'trước mắt Ran bị xé toạc.'
+	'rách toạc.'
 	\L_0341b:
 	\L_0340e:
 	\L_033c8:
 	\L_032f6:
 	ZH 1:
-	'Kyah...'
+	'Á...'
 	\L_0341b:
 	ZH 1:
-	'Kyaaaaaah...'
+	'Áaaa...'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Ran phát ra'
+	'Bật ra tiếng chẳng ra tiếng'
 	R
-	'một tiếng rên không hẳn là'
+	'hét, Ran mềm nhũn, khuỵu'
 	R
-	'hét và yếu ớt ngã xuống sàn.'
+	'xuống tại chỗ.'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
 	ZH 1:
-	'T-tôi không để'
+	'Mình... không nhận ra...'
 	R
-	'ý... Một n-n- ninja...'
+	'Ni... ninja...'
 	\L_0341b:
 	ZH 1:
-	'Tôi có thể đã bị giết...'
+	'Suýt nữa... mình đã bị giết'
+	R
+	'rồi...'
 	\L_0341b:
 	\L_0340e:
 	\0:
@@ -1711,47 +1632,43 @@
 		\L_033ba:
 		\L_032f6:
 		ZH 1:
-		'Đ-Đ-Cái này là cho tôi à?'
+		'C-C-Cái này... cho anh sao?'
 		\L_0341b:
 		\L_0340e:
 		\L_03366:
 		ZH 1:
-		'Vâng... Ừm...'
+		'Vâng... À... Không hợp ý anh'
 		R
-		'Cậu không thích à?'
+		'sao?'
 		\L_0341b:
 		\L_0340e:
 		\L_032f6:
 		ZH 1:
-		'Không! Tất nhiên'
-		R
-		'là tôi thích nó!!'
+		'Không! Đâu có!!'
 		\L_0341b:
 		ZH 1:
-		'Đây là một vở kịch'
+		'Ghi điểm ngay trong tim anh'
 		R
-		'hay trong trái tim tôi!!'
+		'rồi!!'
 		\L_0341b:
 		\L_0340e:
 		\L_0332e:
 		ZH 1:
-		'Shinoda nhận được một chiếc'
+		'Shinoda vừa từ chiến trường'
 		R
-		'áo len đan tay từ Sayori như'
+		'trở về thì được Sayori'
 		\L_0341b:
 		ZH 1:
-		'một món quà khi anh'
+		'tặng một chiếc áo'
 		R
-		'trở về nhà sau trận chiến.'
+		'len tự tay nàng đan.'
 		\L_0341b:
 		\L_0340e:
 		\L_032f6:
 		ZH 1:
-		'Aah... Tôi'
+		'Ôi... Cảm động quá. Cưới em'
 		R
-		'thích điều này. Tôi mừng'
-		R
-		'vì chúng tôi đã kết hôn...'
+		'thật là đúng...'
 		\L_0341b:
 		\L_0340e:
 		\L_03366:
@@ -1761,14 +1678,14 @@
 		\L_0340e:
 		\L_032f6:
 		ZH 1:
-		'U-Ừm... Tôi có thể'
+		'À... Anh... mặc thử được'
 		R
-		'thử nó được không?'
+		'không?'
 		\L_0341b:
 		\L_0340e:
 		\L_03366:
 		ZH 1:
-		'À... Ừ, cứ tiếp tục đi.'
+		'À... Vâng, anh cứ thử đi.'
 		\L_0341b:
 		\L_0340e:
 		\L_0332e:
@@ -1780,34 +1697,32 @@
 		\L_0340e:
 		\L_032f6:
 		ZH 1:
-		'H-H-H-Trông thế'
-		R
-		'nào? Tôi thích...'
+		'Th... thế nào? Có... hợp...'
 		\L_0341b:
 		ZH 1:
-		'...nó...'
+		'không...'
 		\L_0341b:
 		\L_0340e:
 		\L_03366:
 		ZH 1:
-		'... Gengorou...?'
+		'... Anh Gengorou...?'
 		\L_0341b:
 		\L_0340e:
 		\L_032f6:
 		ZH 1:
-		'Ờ...'
+		'Ực...'
 		\L_0341b:
 		\L_0340e:
 		\L_0332e:
 		ZH 1:
 		'Shinoda nôn ra'
 		R
-		'một lượng lớn máu.'
+		'rất nhiều máu.'
 		\L_0341b:
 		\L_0340e:
 		\L_03366:
 		ZH 1:
-		'Kyah… Kyahah!!'
+		'Á... Áaaa!'
 		\L_0341b:
 		\L_0340e:
 		\L_03358:
@@ -1815,32 +1730,30 @@
 		\L_0334a:
 		\L_0332e:
 		ZH 1:
-		'Khi Shinoda chạm đất,'
+		'Shinoda ngã xuống sàn.'
 		\L_0341b:
 		ZH 1:
-		'ninja mặc đồ đen phía'
+		'Phía sau anh, tên ninja áo'
 		R
-		'sau hắn mỉm cười lạnh'
+		'đen cười lạnh, đang tra kiếm'
 		R
-		'lùng và tra kiếm vào vỏ.'
+		'vào vỏ.'
 		\L_0341b:
 		\L_0340e:
 		\L_03358:
 		\L_0332e:
 		ZH 1:
-		'Sau đó hắn biến mất.'
+		'Hắn lập tức biến mất.'
 		\L_0341b:
 		ZH 1:
-		'Ai đó trong hội'
+		'Nghe Sayori thét, ai đó từ'
 		R
-		'trường nghe thấy tiếng hét'
-		R
-		'của Sayori và chạy tới...'
+		'cuối hành lang chạy tới...'
 		\L_0341b:
 		ZH 1:
-		'Nhưng Shinoda đã không'
+		'Nhưng Shinoda đã vĩnh viễn'
 		R
-		'thể giúp được nữa rồi...'
+		'ra đi...'
 		\L_0341b:
 		\L_0340e:
 		\0:
@@ -1865,39 +1778,37 @@
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Có một tầm nhìn ma'
+	'Trong phòng có một màn hình'
 	R
-	'thuật khổng lồ rộng 50 inch.'
+	'ma thuật khổng lồ 50 inch.'
 	\L_0341b:
 	ZH 1:
-	'Một người đàn ông'
+	'Một người đang ngồi xem, đó'
 	R
-	'duy nhất đang xem nó.'
+	'là Shinoda.'
 	\L_0341b:
 	ZH 1:
-	'Đó là Shinoda.'
+	'Màn hình đang truyền hình'
 	R
-	'Một trận bóng đá đêm'
+	'trực tiếp trận bóng bầu dục'
 	R
-	'khuya đang diễn ra.'
+	'Mỹ buổi tối.'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
 	ZH 1:
-	'Thế đấy...!'
-	R
-	'Gooooo, chạm xuống!!'
+	'Đúng rồi...! Tiến lên, ghi'
 	\L_0341b:
 	ZH 1:
-	'Aaaah...!! Điều'
+	'touchdown đi!! Áaa...!! Tiếc'
 	R
-	'đó thật bực bội...'
+	'quá...'
 	\L_0341b:
 	ZH 1:
 	'Ồ... ồ...'
 	\L_0341b:
 	ZH 1:
-	'Ôi trời!!'
+	'Ồooo!!'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
@@ -1911,19 +1822,19 @@
 	\L_033ba:
 	\L_0339e:
 	ZH 1:
-	'Gekkou cúi'
+	'Gekkou đáp xuống sau lưng'
 	R
-	'xuống phía sau Shinoda mà'
+	'Shinoda không một tiếng'
 	R
-	'không gây ra tiếng động nào.'
+	'động.'
 	\L_0341b:
 	ZH 1:
-	'Hắn từ từ tiếp'
+	'Hắn chậm rãi tiến lại để ám'
 	R
-	'cận để ám sát Shinoda...'
+	'sát anh...'
 	\L_0341b:
 	ZH 1:
-	'（đập!!）'
+	'＜RẦM!!＞'
 	\L_0341b:
 	\L_0340e:
 	\L_033c8:
@@ -1931,7 +1842,7 @@
 	\L_033ba:
 	\L_03366:
 	ZH 1:
-	'Im đi, nửa đêm rồi!!'
+	'Ồn quá, tối rồi đấy!!'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
@@ -1943,69 +1854,67 @@
 	\L_0340e:
 	\L_03366:
 	ZH 1:
-	'Bình tĩnh nào,'
+	'Vừa vừa thôi chứ! Phòng ta'
 	R
-	'thiếp không thể nghe thấy'
+	'bên kia cũng nghe rõ mồn'
 	R
-	'chàng từ căn phòng này được!'
+	'một!'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
 	ZH 1:
-	'Ah... Xin'
+	'À... Xin đợi một chút...'
 	R
-	'hãy đợi một chút... Mọi'
+	'Đang đến đoạn hay...'
 	R
-	'chuyện đang tốt dần lên...'
+	'Đượccc!!'
 	\L_0341b:
 	ZH 1:
-	'Ồ!! Đó, gooooo!!'
+	'Hay lắm, tiến lên!!'
 	\L_0341b:
 	\L_0340e:
 	\L_03366:
 	ZH 1:
-	'Thiếp không đợi đâu!!'
+	'Ta không đợi!! Thiếu ngủ là'
 	R
-	'Phụ nữ cần phải được ngủ!!'
+	'kẻ thù lớn của phụ nữ đấy!!'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
 	ZH 1:
-	'Trong trường'
+	'Vậy người ngủ trưa là được'
 	R
-	'hợp đó, tại sao không ngủ'
-	R
-	'trưa? Ồ... Ồ... Ồ～～～...!'
+	'mà. Ồ... ồ... ồ～～～...!'
 	\L_0341b:
 	\L_0340e:
 	\L_03366:
 	ZH 1:
-	'Aaaaa!! Đồ khốn phiền'
+	'Tức quá!! Láo thật, láo'
 	R
-	'phức! Thiếp là nữ hoàng!!'
+	'thật! Ta là công chúa'
 	\L_0341b:
 	ZH 1:
-	'Harumaki!! Hãy làm gì'
+	'đấy!! Harumaki!! Xử ông chú'
 	R
-	'đó với kẻ lập dị này đi!!'
+	'kỳ quặc này đi!!'
 	\L_0341b:
 	ZH 1:
-	'（Harumaki） Raaaawr.'
+	'（Harumaki） Gàooo.'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'（rắc rắc!!）'
+	'＜LÓE SÁNG!!＞'
 	\L_0341b:
 	ZH 1:
-	'（bùm!!）'
+	'＜ĐOÀNG!!＞'
 	\L_0341b:
 	ZH 1:
-	'Harumaki bắn'
+	'Harumaki phóng sét, thiêu'
 	R
-	'tia sét và đốt cháy tầm'
+	'cháy màn hình ma thuật 50'
 	R
-	'nhìn ma thuật 50 inch.'
+	'inch.'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
@@ -2017,14 +1926,10 @@
 	\L_0340e:
 	\L_03366:
 	ZH 1:
-	'Aaaah, cuối'
-	R
-	'cùng cũng được.'
+	'Á, sảng khoái quá.'
 	\L_0341b:
 	ZH 1:
-	'Bây giờ thiếp có thể ngủ'
-	R
-	'trong yên bình và yên tĩnh.'
+	'Giờ thì ngủ yên được rồi.'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
@@ -2034,11 +1939,11 @@
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Sự xâm nhập bất ngờ'
+	'Lia bất ngờ xông vào, khiến'
 	R
-	'của Lia đã phá hỏng âm'
+	'âm mưu ám sát của Gekkou'
 	R
-	'mưu ám sát của Gekkou.'
+	'thất bại.'
 	\L_0341b:
 	\L_0340e:
 	\0:
@@ -2522,56 +2427,54 @@
 		\L_033ba:
 		\L_03366:
 		ZH 1:
-		'Đó là tất cả những'
+		'Dừng ở đó. Chúng'
 		R
-		'gì cậu có thể làm. Chúng'
-		R
-		'tôi đã bao vây cậu rồi.'
+		'tôi đã bao vây rồi.'
 		\L_0341b:
 		\L_0340e:
 		\L_032f6:
 		ZH 1:
-		'Ờ...'
+		'Hả...'
 		\L_0341b:
 		\L_0340e:
 		\L_0332e:
 		ZH 1:
-		'Shinobu nhanh chóng tỉnh'
+		'Shinobu chợt hoàn'
 		R
-		'táo và kiểm tra xung quanh.'
+		'hồn, nhìn quanh.'
 		\L_0341b:
 		ZH 1:
-		'Cô cau có và trừng'
+		'Nàng nhăn mặt cay'
 		R
-		'mắt nhìn Maris trước mặt.'
+		'đắng, trừng mắt nhìn'
+		R
+		'Maris phía trước.'
 		\L_0341b:
 		\L_0340e:
 		\L_03366:
 		ZH 1:
-		'Cho dù cậu có được'
+		'Dù đã được huấn'
 		R
-		'huấn luyện đặc biệt đến đâu,'
+		'luyện đặc biệt,'
 		\L_0341b:
 		ZH 1:
-		'cậu cũng không thể'
+		'cô cũng chẳng làm gì nổi'
 		R
-		'làm gì được với nhiều'
-		R
-		'lính canh như thế này.'
+		'chừng này Cận vệ Hoàng gia.'
 		\L_0341b:
 		ZH 1:
-		'Chúng tôi cũng'
+		'Ngoài sân cũng đã canh phòng'
 		R
-		'đã có lính canh sẵn ở sân'
-		R
-		'rồi. Hãy từ bỏ và đầu hàng.'
+		'tương tự. Hãy đầu hàng đi.'
 		\L_0341b:
 		\L_0340e:
 		\L_0332e:
 		ZH 1:
-		'Hàng chục lính canh'
+		'Hàng chục mũi vũ khí'
 		R
-		'đều chĩa vũ khí vào Shinobu.'
+		'của Cận vệ Hoàng gia'
+		R
+		'chĩa thẳng vào Shinobu.'
 		\L_0341b:
 		@L_02ddd:
 	}
@@ -2580,9 +2483,9 @@
 	\L_033ba:
 	\L_03366:
 	ZH 1:
-	'Cậu không thể thoát khỏi!'
+	'Hết đường chạy rồi!'
 	R
-	'Đầu hàng một cách hòa bình!'
+	'Ngoan ngoãn đầu hàng đi!'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
@@ -2592,41 +2495,39 @@
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Shinobu nhanh'
+	'Shinobu chợt hoàn hồn,'
 	R
-	'chóng lấy lại bình tĩnh'
-	R
-	'và nhìn xung quanh.'
+	'đảo mắt nhìn quanh.'
 	\L_0341b:
 	ZH 1:
-	'Hàng chục vệ binh'
+	'Hơn chục lính Cận'
 	R
-	'hoàng gia của Leazas'
+	'vệ Hoàng gia Leazas'
 	R
-	'đang vây quanh cô.'
+	'đang vây lấy nàng.'
 	\L_0341b:
 	\L_0340e:
 	\L_03366:
 	ZH 1:
-	'Cậu có thể trông giống một'
+	'Dù trông như cô bé,'
 	R
-	'cô bé, nhưng tôi biết cậu là'
+	'tôi biết cô là nữ ninja'
 	R
-	'một kunoichi đã qua đào tạo.'
+	'đã qua huấn luyện.'
 	\L_0341b:
 	ZH 1:
-	'Tôi sẽ không mất'
+	'Tôi sẽ chẳng lơ là đâu. Tốt'
 	R
-	'cảnh giác. Tốt nhất'
-	R
-	'là cậu nên từ bỏ.'
+	'hơn hết hãy đầu hàng đi.'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Shinobu trừng mắt nhìn'
+	'Shinobu nhìn chằm chằm'
 	R
-	'Leila chĩa kiếm vào cô.'
+	'Leila đang chĩa mũi'
+	R
+	'kiếm thẳng vào mình.'
 	\L_0341b:
 *L_02ddd:
 	\L_0340e:
@@ -2634,16 +2535,14 @@
 	\L_033c8:
 	\L_0332e:
 	ZH 1:
-	'Một sự im lặng'
+	'Bầu không khí lặng ngắt khác'
 	R
-	'kỳ lạ và sự căng thẳng'
-	R
-	'tột độ bao trùm khu vực.'
+	'thường, căng như dây đàn.'
 	\L_0341b:
 	ZH 1:
-	'Nó bị vỡ bởi tiếng'
+	'Một tiếng đàn ông thét'
 	R
-	'hét của một người đàn ông.'
+	'lên phá tan im lặng.'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
@@ -2653,22 +2552,22 @@
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Một cửa sổ bị'
+	'Cửa sổ vỡ tung.'
 	R
-	'vỡ. Những mảnh thủy tinh'
+	'Mảnh kính lấp lánh'
 	R
-	'vương vãi khắp sàn nhà.'
+	'văng khắp hành lang.'
 	\L_0341b:
 	\L_0340e:
 	!VAR0516 : 421!
 	\L_0334a:
 	\L_0332e:
 	ZH 1:
-	'Người đàn ông nhảy qua cửa'
+	'Người đàn ông lao qua'
 	R
-	'sổ đáp xuống các mảnh kính'
+	'cửa sổ, đáp xuống đám'
 	R
-	'mà không gây ra tiếng động.'
+	'kính không tiếng động.'
 	\L_0341b:
 	\L_0340e:
 	!VAR0516 : 422!
@@ -2684,9 +2583,9 @@
 		\L_033ba:
 		\L_03366:
 		ZH 1:
-		'Cậu đang làm'
+		'Còn làm gì thế,'
 		R
-		'gì vậy? Bắt chúng!'
+		'mau bắt hắn lại!'
 		\L_0341b:
 		\L_0340e:
 		\L_0332e:
@@ -2694,11 +2593,11 @@
 		'Maris ra lệnh cho lính canh,'
 		\L_0341b:
 		ZH 1:
-		'nhưng ánh sáng kỳ'
+		'nhưng ánh mắt kỳ dị của'
 		R
-		'lạ trong mắt Gekkou khiến'
+		'Gekkou khiến họ sững lại,'
 		R
-		'họ không thể di chuyển.'
+		'không nhúc nhích nổi.'
 		\L_0341b:
 	}
 	\L_0340e:
@@ -2706,9 +2605,9 @@
 	\L_033ba:
 	\L_03366:
 	ZH 1:
-	'E-Mọi người,'
+	'M-Mọi người,'
 	R
-	'bắt chúng lại!'
+	'mau bắt hắn lại!'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
@@ -2716,42 +2615,40 @@
 	'Leila ra lệnh,'
 	\L_0341b:
 	ZH 1:
-	'nhưng tất cả mọi người'
+	'nhưng ngay cả nàng'
 	R
-	'bao gồm cả cô đều chùn'
+	'cũng chùn bước'
 	\L_0341b:
 	ZH 1:
-	'bước trước ánh sáng'
+	'trước ánh mắt kỳ'
 	R
-	'kỳ lạ trong mắt Gekkou.'
+	'dị của Gekkou.'
 	\L_0341b:
 	\L_0340e:
 	!VAR0516 : 422!
 	\L_033ba:
 	\L_032f6:
 	ZH 1:
-	'Cậu đã sẵn sàng chưa?'
+	'Sẵn sàng rồi chứ?'
 	\L_0341b:
 	\L_0340e:
 	\L_03366:
 	ZH 1:
-	'... Ừ. Tôi biết.'
+	'...Ừ. Em biết.'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Gekkou mỉm cười'
+	'Nghe Shinobu đáp, Gekkou'
 	R
-	'hài lòng trước câu'
-	R
-	'trả lời của Shinobu.'
+	'khẽ cười có vẻ hài lòng.'
 	\L_0341b:
 	\L_0340e:
 	\L_032f6:
 	ZH 1:
-	'Chúng ta sẽ'
+	'Dù thế nào, chúng'
 	R
-	'luôn ở bên nhau.'
+	'ta cũng ở bên nhau.'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
@@ -2761,11 +2658,9 @@
 	'Shinobu mỉm cười đáp lại.'
 	\L_0341b:
 	ZH 1:
-	'Cả hai đều rút thứ'
+	'Rồi mỗi người rút từ ngực'
 	R
-	'gì đó có hình dạng giống'
-	R
-	'một cái ống ra khỏi túi.'
+	'áo ra một vật giống ống trụ.'
 	\L_0341b:
 	\L_0340e:
 	\L_03358:
@@ -2779,69 +2674,63 @@
 		'Cái gì...?'
 		\L_0341b:
 		ZH 1:
-		'Mọi người hãy ẩn nấp!'
+		'Mọi người, nằm rạp xuống!'
 		\L_0341b:
 		\L_0340e:
 		\L_033c8:
 		\L_0332e:
 		ZH 1:
-		'Mọi người đều bị'
+		'Nghe Maris hô,'
 		R
-		'sốc trước tiếng hét'
+		'mọi người sửng sốt'
 		\L_0341b:
 		ZH 1:
-		'của Maris và điên cuồng'
+		'nhưng vẫn vội làm theo.'
+		\L_0341b:
+		ZH 1:
+		'Ngay khoảnh khắc ấy.'
+		\L_0341b:
+		ZH 1:
+		'ĐOÀÀÀÀNG!'
+		\L_0341b:
+		ZH 1:
+		'Tiếng nổ rền vang,'
+		\L_0341b:
+		ZH 1:
+		'tưởng chừng làm rung'
 		R
-		'làm theo mệnh lệnh của nàng,'
+		'chuyển cả tòa thành.'
 		\L_0341b:
 		ZH 1:
-		'ngay khi điều đó xảy ra.'
-		\L_0341b:
-		ZH 1:
-		'KABOOOOOOOOOOOOOOOOM!'
-		\L_0341b:
-		ZH 1:
-		'Âm thanh đinh tai'
+		'Đá vỡ, tro tàn và'
 		R
-		'nhức óc không chỉ'
+		'máu thịt hai người'
 		\L_0341b:
 		ZH 1:
-		'làm rung chuyển lâu đài'
+		'trút xuống Maris cùng'
 		R
-		'mà cả khu vực xung quanh.'
-		\L_0341b:
-		ZH 1:
-		'Maris và những người'
-		R
-		'lính ẩn náu đã bị mưa đá,'
-		\L_0341b:
-		ZH 1:
-		'tro tàn và máu thịt'
-		R
-		'của hai ninja trút xuống.'
+		'đám cận vệ đang nằm rạp.'
 		\L_0341b:
 		\L_0340e:
 		!VAR0516 : 6!
 		\L_033ba:
 		\L_03366:
 		ZH 1:
-		'Có vẻ như thực sự đúng'
+		'Chuyện ninja tự kết liễu'
 		R
-		'là các ninja sẽ tự kết'
+		'khi nhiệm vụ thất bại...'
 		\L_0341b:
 		ZH 1:
-		'liễu đời mình nếu họ'
-		R
-		'thất bại trong nhiệm vụ...'
+		'hóa ra là thật...'
 		\L_0341b:
 		\L_0340e:
 		\L_0332e:
 		ZH 1:
-		'Maris, bình'
+		'Maris vốn luôn điềm'
 		R
-		'thường cực kỳ điềm tĩnh, tái'
+		'tĩnh cũng tái mặt,'
 		R
-		'nhợt và lau máu trên người.'
+		'lau máu bắn lên mình.'
 		\L_0341b:
 		@L_03268:
 	}
@@ -2849,71 +2738,63 @@
 	\L_033ba:
 	\L_03366:
 	ZH 1:
-	'Đó là... Mọi'
+	'Đó là... Mọi người,'
 	R
-	'người, hãy ẩn nấp!'
+	'nằm rạp xuống!'
 	\L_0341b:
 	\L_0340e:
 	\L_033c8:
 	\L_0332e:
 	ZH 1:
-	'Mọi người đều bị'
+	'Nghe Leila hô,'
 	R
-	'sốc trước tiếng hét'
+	'mọi người sửng sốt'
 	\L_0341b:
 	ZH 1:
-	'của Leila và điên cuồng'
+	'nhưng vẫn vội làm theo.'
+	\L_0341b:
+	ZH 1:
+	'Ngay khoảnh khắc ấy.'
+	\L_0341b:
+	ZH 1:
+	'ĐOÀÀÀÀNG!'
+	\L_0341b:
+	ZH 1:
+	'Tiếng nổ rền vang,'
+	\L_0341b:
+	ZH 1:
+	'tưởng chừng làm rung'
 	R
-	'làm theo mệnh lệnh của nàng,'
+	'chuyển cả tòa thành.'
 	\L_0341b:
 	ZH 1:
-	'ngay trước khi nó xảy ra.'
-	\L_0341b:
-	ZH 1:
-	'KABOOOOOOOOOOOOOOOOM!'
-	\L_0341b:
-	ZH 1:
-	'Âm thanh đinh tai'
+	'Đá vỡ, tro tàn và'
 	R
-	'nhức óc không chỉ'
+	'máu thịt hai người'
 	\L_0341b:
 	ZH 1:
-	'làm rung chuyển lâu đài'
+	'trút xuống Leila cùng'
 	R
-	'mà cả khu vực xung quanh.'
-	\L_0341b:
-	ZH 1:
-	'Leila và những người'
-	R
-	'lính ẩn nấp đã bị mưa đá,'
-	\L_0341b:
-	ZH 1:
-	'tro bụi và máu thịt'
-	R
-	'của hai ninja trút xuống.'
+	'đám cận vệ đang nằm rạp.'
 	\L_0341b:
 	\L_0340e:
 	!VAR0516 : 7!
 	\L_033ba:
 	\L_03382:
 	ZH 1:
-	'Có vẻ như thực sự đúng'
+	'Chuyện ninja tự kết liễu'
 	R
-	'là các ninja sẽ tự kết'
+	'khi nhiệm vụ thất bại...'
 	\L_0341b:
 	ZH 1:
-	'liễu đời mình nếu họ'
-	R
-	'thất bại trong nhiệm vụ...'
+	'hóa ra là thật...'
 	\L_0341b:
 	\L_0340e:
 	\L_0332e:
 	ZH 1:
-	'Khi làn khói tan đi,'
+	'Khói tan, Leila chỉ lặng'
 	R
-	'Leila nhìn chằm chằm vào chỗ'
-	R
-	'trống nơi hai ninja đã đứng.'
+	'nhìn chỗ hai người vừa đứng.'
 	\L_0341b:
 *L_03268:
 	\L_0340e:

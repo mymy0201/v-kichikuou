@@ -1,0 +1,75 @@
+{
+  "method": "Actual source guards, jump targets, lot-number draw1..99 and separate outcome draw1..4 inspected; current font measured. Static validation, not runtime playthrough.",
+  "numeric_output_range_inclusive": [
+    1,
+    99
+  ],
+  "numeric_outputs_tested": 99,
+  "numeric_output_examples": [
+    "1.",
+    "9.",
+    "10.",
+    "99."
+  ],
+  "cases": [
+    {
+      "random_value": 1,
+      "active_fuuka271_boxes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fortune_result_group_range": [
+        226,
+        229
+      ],
+      "passed": true
+    },
+    {
+      "random_value": 2,
+      "active_fuuka271_boxes": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "fortune_result_group_range": [
+        230,
+        233
+      ],
+      "passed": true
+    },
+    {
+      "random_value": 3,
+      "active_fuuka271_boxes": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "fortune_result_group_range": [
+        234,
+        238
+      ],
+      "passed": true
+    },
+    {
+      "random_value": 4,
+      "active_fuuka271_boxes": [
+        0,
+        1,
+        8,
+        9
+      ],
+      "fortune_result_group_range": [
+        239,
+        243
+      ],
+      "passed": true
+    }
+  ],
+  "unchanged_control_stream": true,
+  "all_four_fortune_results_and_shared_departure_reviewed": true,
+  "failures": []
+}

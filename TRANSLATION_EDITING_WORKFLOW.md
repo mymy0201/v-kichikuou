@@ -62,3 +62,20 @@ nguồn được lưu trong `editorial_review/japanese_base_20261022/`.
 
 Quy trình này thay thế phương pháp thay đại từ hàng loạt cho các đợt hiệu đính
 mới; các script cũ chỉ là lịch sử, không phải quy trình đang dùng.
+
+## Chỉ mục bàn giao cập nhật sau mỗi lần edit
+
+Sau mỗi đợt edit, sửa tay hoặc đổi layout, cập nhật hai file ở thư mục gốc:
+`scripts_by_size.md` và `excluded_h_scene_lines.md`. Ghi xong inventory,
+coverage/review/validation và hàng đợi `order.json`, rồi chạy:
+
+```powershell
+& "C:\Users\Leerin\AppData\Local\Programs\Python\Python313\python.exe" tools/update_review_indexes.py
+& "C:\Users\Leerin\AppData\Local\Programs\Python\Python313\python.exe" tools/update_review_indexes.py --check
+```
+
+Chỉ mục dòng dùng số dòng 1-based hiện hành, hai đầu bao gồm, kèm hash và căn cứ
+định vị. Chỉ số group/chunk trong metadata vẫn 0-based. Không coi mọi phần chưa
+đọc là H; không đoán khoảng dòng khi nguồn cũ chỉ ghi một dòng bắt đầu. Giữ các
+mục chưa định vị chắc ở bảng riêng để agent sau tiếp tục đối chiếu. “Loại trừ”
+là giữ nguyên ngoài phạm vi edit, không phải xóa nội dung hay lệnh gameplay.

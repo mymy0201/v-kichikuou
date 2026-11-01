@@ -1,0 +1,1794 @@
+	!VAR0001 : 13!
+	{VAR0403 > 1:
+		!VAR0001 : 470!
+	}
+	!VAR0002 : 0!
+	!VAR0003 : 0!
+	!VAR0516 : 1001!
+	\L_01fb5:
+	{VAR0401 = 6:
+		!VAR0520 : 6!
+		%#Gｼｨﾙ.ADV:
+		%0:
+	}
+	{VAR0401 = 2:
+		!VAR0520 : 2!
+		%#Gｼｨﾙ.ADV:
+		%0:
+	}
+	{VAR0468 = 0:
+		@L_01931:
+	}
+	{VAR0468 = 3:
+		@L_01c97:
+	}
+	{VAR0468 > 3:
+		!VAR0516 : 1!
+		\L_01f0d:
+		\L_01eb9:
+		ZH 1:
+		'I want to shop.'
+		R
+		'Call Pluepet.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01ef1:
+		ZH 1:
+		'Pluepet was called as Rance'
+		R
+		'wished.'
+		\L_01fde:
+		\L_01fd1:
+		!VAR0001 : 470!
+		!VAR0516 : VAR0001!
+		\L_01f7d:
+		\L_01f29:
+		ZH 1:
+		'Thank you, as always.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f61:
+		ZH 1:
+		'Pluepet bowed.'
+		\L_01fde:
+		\L_01fd1:
+		@L_001dc:
+	}
+	!VAR0516 : 1!
+	\L_01f0d:
+	\L_01eb9:
+	ZH 1:
+	'Call Pluepet.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'At Rance’s command, Pluepet'
+	R
+	'was called to the throne.'
+	\L_01fde:
+	\L_01fd1:
+	!VAR0516 : VAR0001!
+	\L_01f7d:
+	\L_01f29:
+	ZH 1:
+	'Thaaaaanks for your business.'
+	R
+	'Excellent weather again today,'
+	R
+	'isn’t it?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'Pluepet hopped in with Rebecca'
+	R
+	'in tow.'
+	\L_01fde:
+	\L_01fd1:
+*L_001dc:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_001dc:
+	}
+	ZH 1:
+	$L_01316$
+	'Buy Item'
+	$
+	{(VAR0468 < 3) * (VAR0002 = 0):
+		ZH 1:
+		$L_010c2$
+		'Fuck Rebecca'
+		$
+	}
+	{VAR0468 < 3:
+		ZH 1:
+		$L_010d4$
+		'Buy Rebecca'
+		$
+	}
+	!VAR0154 : 49!
+	{(VAR0639 = 0) * (VAR0102 = 0):
+		ZH 1:
+		$L_003eb$
+		'Hire Mercenary A'
+		$
+	}
+	!VAR0154 : 50!
+	{(VAR0640 = 0) * (VAR0102 = 0):
+		ZH 1:
+		$L_009a8$
+		'Hire Mercenary B'
+		$
+	}
+	ZH 1:
+	$L_002b1$
+	'Send Away'
+	$
+	]
+	@L_001dc:
+*L_002b1:
+	!VAR0547 : 0!
+	\L_01eb9:
+	ZH 1:
+	'Enough.'
+	R
+	'Go home.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Okay.'
+	R
+	'Summon me again anytime～.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'Rance sent Pluepet away.'
+	\L_01fde:
+	\L_01fd1:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0031a:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Aaah～～...'
+	R
+	'Really?'
+	R
+	'Unfortunate.'
+	\L_01fde:
+	ZH 1:
+	'If they’re here when an enemy'
+	R
+	'attacks... Well, too late now'
+	R
+	'I suppose.'
+	\L_01fde:
+	\L_01fd1:
+	@L_001dc:
+*L_00368:
+	\L_01f29:
+	ZH 1:
+	'Oh, oh dear.'
+	R
+	'Your Majesty, you don’t have'
+	R
+	'enough money.'
+	\L_01fde:
+	ZH 1:
+	'They put their life on the'
+	R
+	'line, so... They won’t work'
+	R
+	'for free.'
+	\L_01fde:
+	ZH 1:
+	'Loyalty is bought with cash...'
+	R
+	'It’s all about money～.'
+	\L_01fde:
+	ZH 1:
+	'Please hire them when you save'
+	R
+	'up enough money. After that,'
+	R
+	'you can kill them or set them'
+	R
+	'on fire or whatever you want.'
+	\L_01fde:
+	\L_01fd1:
+	@L_001dc:
+*L_003eb:
+	\L_01f29:
+	ZH 1:
+	'Hoy! Thanks for the business!'
+	R
+	'A mercenary, huh?'
+	R
+	'Indispensable assets to a war'
+	R
+	'effort.'
+	\L_01fde:
+	ZH 1:
+	'Let’s see... Louis is quite'
+	R
+	'good.'
+	\L_01fde:
+	ZH 1:
+	'The base price will be'
+	R
+	'3,000,000 GOLD.'
+	\L_01fde:
+	ZH 1:
+	'Then it’ll be another 10,000'
+	R
+	'GOLD for every 2 troops.'
+	\L_01fde:
+	ZH 1:
+	'Then, I believe you already'
+	R
+	'know this, but after one fight,'
+	R
+	'their contract will be up.'
+	\L_01fde:
+	ZH 1:
+	'When that time comes, however'
+	R
+	'many of them died will have'
+	R
+	'nothing to do with you, so'
+	R
+	'don’t worry about that.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'［Louis Unit］'
+	R
+	'200 Troops:　　4000KG'
+	R
+	'1000 Troops:　8000KG'
+	R
+	'　（Budget: '
+	H 0, VAR0519:
+	ZH 1:
+	'00KG）'
+*L_004d4:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_004d4:
+	}
+	ZH 1:
+	$L_0051f$
+	'4000K Contract'
+	$
+	R
+	$L_00563$
+	'8000K Contract'
+	$
+	R
+	$L_0031a$
+	'No Contract'
+	$
+	]
+	@L_004d4:
+*L_0051f:
+	\L_01fd1:
+	{VAR0519 < 39:
+		@L_00368:
+	}
+	!VAR0519 : VAR0519 - 40!
+	!VAR0166 : VAR0166 + 40!
+	!VAR0154 : 49!
+	!VAR0102 : 1!
+	!VAR0074 : 200!
+	!VAR0075 : 200!
+	@L_005aa:
+*L_00563:
+	\L_01fd1:
+	{VAR0519 < 79:
+		@L_00368:
+	}
+	!VAR0519 : VAR0519 - 80!
+	!VAR0166 : VAR0166 + 80!
+	!VAR0154 : 49!
+	!VAR0102 : 1!
+	!VAR0074 : 1000!
+	!VAR0075 : 1000!
+	@L_005aa:
+*L_005aa:
+	{VAR0710 = 1:
+		\L_01eb9:
+		ZH 1:
+		'Well...'
+		R
+		'Sure, I’ll hire Louis.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f29:
+		ZH 1:
+		'Nnhaah～～～!!'
+		R
+		'Your Majesty, Your Majesty.'
+		R
+		'I knew you would, Your Majesty.'
+		\L_01fde:
+		ZH 1:
+		'I’ll call him right now, so'
+		R
+		'wait juuust a moment, please.'
+		\L_01fde:
+		ZH 1:
+		'Ah, clap clap.'
+		\L_01fde:
+		ZH 1:
+		'Louiiiiiis.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01ef1:
+		ZH 1:
+		'Hooooooy.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f8b:
+		!VAR0516 : 90!
+		\L_01f7d:
+		\L_01f29:
+		ZH 1:
+		'Hey.'
+		R
+		'Nice seein’ you again, King.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01eb9:
+		ZH 1:
+		'Mhm, work hard.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f29:
+		ZH 1:
+		'Yeah, of course.'
+		R
+		'I’ll kill a ton of guys.'
+		R
+		'Wahahahahaha!!'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f61:
+		ZH 1:
+		'Luis laughed heartily and'
+		R
+		'lumbered out.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f8b:
+		!VAR0516 : VAR0001!
+		\L_01f7d:
+		\L_01eb9:
+		ZH 1:
+		'...He sort of annoys me...'
+		\L_01fde:
+		\L_01fd1:
+		@L_001dc:
+	}
+	!VAR0710 : 1!
+	\L_01f29:
+	ZH 1:
+	'Yes!'
+	R
+	'Thanks for your business!!'
+	\L_01fde:
+	ZH 1:
+	'Hoooy, Louis.'
+	R
+	'Your contract’s settled.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'In response to Pluepet’s call,'
+	R
+	'a large man lumbered over.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f8b:
+	!VAR0516 : 90!
+	\L_01f7d:
+	\L_01f29:
+	ZH 1:
+	'Wha? When I heard you were a'
+	R
+	'king, I was expectin’ a more'
+	R
+	'dignified old man, but...'
+	R
+	'You’re nearly a kid, huh?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ed5:
+	ZH 1:
+	'Argh.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Well, doesn’t matter.'
+	R
+	'Long as you pay me, I’ll kill'
+	R
+	'whoever you want.'
+	R
+	'Gehahahaha!!!'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'　　＜bghhh＞'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Hgh!?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'Rance relentlessly punched'
+	R
+	'Louis in the side of the face.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'The fuck’re you doin’!?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'Luis wiped blood from the side'
+	R
+	'of his mouth and stood'
+	R
+	'straight up.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'I just punched you with my'
+	R
+	'Holy Fist because you weren’t'
+	R
+	'acting how you should towards'
+	R
+	'your employer. Be thankful.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'’Kay, ’kay.'
+	R
+	'Understood, King Rance.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'You speak pretty high of'
+	R
+	'yourself, so it’s gonna be'
+	R
+	'embarrassing if your skill’s'
+	R
+	'not actually up to speed.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Hey, don’t worry about that...'
+	R
+	'Leave it to me. I’ll surpass'
+	R
+	'your expectations...'
+	R
+	'Heheheh...'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'With a vulgar laugh, Louis'
+	R
+	'walked away from the throne.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f8b:
+	!VAR0516 : VAR0001!
+	\L_01f7d:
+	\L_01eb9:
+	ZH 1:
+	'If he’s not useful after all I'
+	R
+	'paid and that big attitude of'
+	R
+	'his... You’re gonna taste my'
+	R
+	'Holy Fist too, Pluepet.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'......'
+	R
+	'I don’t want that...'
+	\L_01fde:
+	\L_01fd1:
+	@L_001dc:
+*L_009a8:
+	\L_01f29:
+	ZH 1:
+	'Nnaaaah～～～...'
+	R
+	'As always, I must admire your'
+	R
+	'shopping, Your Majesty.'
+	R
+	'Really, truly.'
+	\L_01fde:
+	ZH 1:
+	'Yes indeed.'
+	R
+	'Mercenaries are indispensable'
+	R
+	'to a war effort. Truly.'
+	\L_01fde:
+	ZH 1:
+	'I’m going to introduce you to'
+	R
+	'Cecil, the real deal. She’s an'
+	R
+	'outstanding warrior.'
+	\L_01fde:
+	ZH 1:
+	'So it should go without saying,'
+	R
+	'but... She’s rather expensive.'
+	\L_01fde:
+	ZH 1:
+	'The base price is 1,000,000'
+	R
+	'GOLD.'
+	\L_01fde:
+	ZH 1:
+	'Then it’s 10,000 GOLD for'
+	R
+	'every 5 troops.'
+	\L_01fde:
+	ZH 1:
+	'Then, I believe you already'
+	R
+	'know this, but after one fight'
+	R
+	'their contract will be up.'
+	\L_01fde:
+	ZH 1:
+	'When that time comes, however'
+	R
+	'many of them died will have'
+	R
+	'nothing to do with you, so'
+	R
+	'don’t worry about that.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'［Cecil Unit］'
+	R
+	'1000 Troops:　　3000KG'
+	R
+	'5000 Troops:　11000KG'
+	R
+	'　（Budget: '
+	H 0, VAR0519:
+	ZH 1:
+	'00KG）'
+*L_00acb:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_00acb:
+	}
+	ZH 1:
+	$L_00b16$
+	'3000K Contract'
+	$
+	R
+	$L_00b5a$
+	'11000K Contract'
+	$
+	R
+	$L_0031a$
+	'No Contract'
+	$
+	]
+	@L_00acb:
+*L_00b16:
+	\L_01fd1:
+	{VAR0519 < 29:
+		@L_00368:
+	}
+	!VAR0519 : VAR0519 - 30!
+	!VAR0166 : VAR0166 + 30!
+	!VAR0154 : 50!
+	!VAR0102 : 1!
+	!VAR0074 : 1000!
+	!VAR0075 : 1000!
+	@L_00ba1:
+*L_00b5a:
+	\L_01fd1:
+	{VAR0519 < 109:
+		@L_00368:
+	}
+	!VAR0519 : VAR0519 - 110!
+	!VAR0166 : VAR0166 + 110!
+	!VAR0154 : 50!
+	!VAR0102 : 1!
+	!VAR0074 : 5000!
+	!VAR0075 : 5000!
+	@L_00ba1:
+*L_00ba1:
+	{VAR0711 = 1:
+		\L_01eb9:
+		ZH 1:
+		'Alright, Cecil.'
+		R
+		'Cecil’s good.'
+		R
+		'She’s nice and voluptuous.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f29:
+		ZH 1:
+		'Yahoo!'
+		R
+		'You’re looking at the wrong'
+		R
+		'thing, Your Majesty.'
+		\L_01fde:
+		ZH 1:
+		'She is rather voluptuous'
+		R
+		'though, in any case.'
+		\L_01fde:
+		ZH 1:
+		'Okaaay.'
+		R
+		'Miss Volu-...Excuse me.'
+		R
+		'Ceciiiiil.'
+		\L_01fde:
+		ZH 1:
+		'You’ve been hired.'
+		R
+		'Hustle, hustle～.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f8b:
+		!VAR0516 : 89!
+		\L_01f7d:
+		\L_01f29:
+		ZH 1:
+		'............'
+		\L_01fde:
+		\L_01fd1:
+		\L_01eb9:
+		ZH 1:
+		'Yo.'
+		R
+		'Good to see you again, Cecil.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f29:
+		ZH 1:
+		'...Hmph.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f8b:
+		\L_01ef1:
+		ZH 1:
+		'Cecil walked away from the'
+		R
+		'throne without saying anything.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01eb9:
+		ZH 1:
+		'Gahahahahahaha.'
+		R
+		'What fun, she’s as unfriendly'
+		R
+		'as always.'
+		\L_01fde:
+		\L_01fd1:
+		!VAR0516 : VAR0001!
+		\L_01f7d:
+		\L_01f29:
+		ZH 1:
+		'Nyahohohohoho.'
+		R
+		'Enjoy her, Your Majesty.'
+		\L_01fde:
+		\L_01fd1:
+		@L_001dc:
+	}
+	!VAR0711 : 1!
+	\L_01f29:
+	ZH 1:
+	'Hoy!!'
+	R
+	'Thanks for the business.'
+	\L_01fde:
+	ZH 1:
+	'Heeeey, Cecil.'
+	R
+	'The King hired you.'
+	R
+	'Come quick!!'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f8b:
+	!VAR0516 : 89!
+	\L_01f7d:
+	\L_01f29:
+	ZH 1:
+	'Excuse me.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Ooh... Nice woman, isn’t she?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Do you dislike female'
+	R
+	'warriors?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'No, no, I’m glad to have you.'
+	R
+	'You’ll be fun for my eyes and'
+	R
+	'my hands and my hyper weapon...'
+	R
+	'Keeheeheehee.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'Rance smiled perversely and'
+	R
+	'extended his hands towards'
+	R
+	'Cecil.'
+	\L_01fde:
+	ZH 1:
+	'　　＜swoosh!＞'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Oh?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'Cecil avoided Rance’s hands.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Why did you do that?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'You didn’t purchase me as a'
+	R
+	'woman.'
+	R
+	'You purchased me as a warrior.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Is there any option for me to'
+	R
+	'do that?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'There are people that sell'
+	R
+	'themselves for that purpose.'
+	R
+	'I only sell myself as a'
+	R
+	'warrior.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'So... That means...'
+	\L_01fde:
+	ZH 1:
+	'I can look, but not touch?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'It depends on how you look.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Ch... Lame...'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'I’d prefer you not expect'
+	R
+	'anything from me as a woman.'
+	R
+	'Only as a warrior.'
+	\L_01fde:
+	ZH 1:
+	'That’s also the condition I'
+	R
+	'gave Pluepet for handling me'
+	R
+	'as a mercenary.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f8b:
+	!VAR0516 : VAR0001!
+	\L_01f7d:
+	\L_01f29:
+	ZH 1:
+	'Yep, that’s right.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Grr...'
+	R
+	'Should’ve said so earlier,'
+	R
+	'Pluepet...'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f8b:
+	!VAR0516 : 89!
+	\L_01f7d:
+	\L_01f29:
+	ZH 1:
+	'Now, allow me to go to my'
+	R
+	'lodging. Hey, maid over there.'
+	R
+	'Lead the way.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f8b:
+	\L_01ef1:
+	ZH 1:
+	'Cecil walked away from the'
+	R
+	'throne.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f8b:
+	!VAR0516 : VAR0001!
+	\L_01f7d:
+	\L_01f29:
+	ZH 1:
+	'She’s a cool lady, isn’t she?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Can’t fuck her, though...'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Not very sociable, but she’s'
+	R
+	'quite skilled. I guarantee'
+	R
+	'she’ll be of use to you, King.'
+	R
+	'For sure. Clap clap, whistle.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Mgh...'
+	\L_01fde:
+	\L_01fd1:
+	@L_001dc:
+*L_010c2:
+	!VAR0002 : 1!
+	!VAR0520 : 1!
+	%#Gﾚﾍﾞｯｶ.ADV:
+	@L_001dc:
+*L_010d4:
+	\L_01eb9:
+	ZH 1:
+	'Hey, sell me Rebecca.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Huh, what for?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'I want to put Rebecca in my'
+	R
+	'harem. So sell her to me.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'No. I’ll let people pay to'
+	R
+	'make use of Rebecca as a'
+	R
+	'fukuman, but I can’t sell'
+	R
+	'Rebecca herself.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Why would I care about that?'
+	R
+	'Sell her to me right now.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'I’m sorry, you’ll have to'
+	R
+	'forgive me.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'I’ll give you all the cash you'
+	R
+	'want.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'It isn’t a problem of money.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Don’t care.'
+	R
+	'I said sell her to me, so do'
+	R
+	'it.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'Rance got off the throne to'
+	R
+	'try and steal Rebecca from'
+	R
+	'Pluepet.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Aah, no.'
+	R
+	'No touching.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Shut up.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'If you touch her, a bomb will'
+	R
+	'go off.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'What?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'A bomb is installed on Rebecca'
+	R
+	'for anti-theft purposes.'
+	R
+	'I have the trigger.'
+	\L_01fde:
+	ZH 1:
+	'I mustn’t injure you, Your'
+	R
+	'Majesty, so if you touch'
+	R
+	'Rebecca without my permission,'
+	R
+	'then kabooooom.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Ch...'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'Rance returned to the throne.'
+	R
+	'He was dissatisfied.'
+	\L_01fde:
+	\L_01fd1:
+	@L_001dc:
+*L_01316:
+	\L_01eb9:
+	ZH 1:
+	'Alright, I’ll buy something.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Thaaanks for the business.'
+	R
+	'What would you like?'
+	\L_01fde:
+	\L_01fd1:
+*L_0134f:
+	\L_01ef1:
+	ZH 1:
+	'National Budget'
+	R
+	H 0, VAR0519:
+	ZH 1:
+	'00K GOLD'
+*L_01373:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_01373:
+	}
+	!VAR0160 : 3!
+	{VAR0150 = 0:
+		ZH 1:
+		$L_01825$
+		'Popularity Staff'
+		$
+	}
+	!VAR0160 : 4!
+	{VAR0150 = 0:
+		ZH 1:
+		$L_01893$
+		'Napoleon’s Writings'
+		$
+	}
+	!VAR0160 : 5!
+	{VAR0150 = 0:
+		ZH 1:
+		$L_018ca$
+		'Shingen’s Writings'
+		$
+	}
+	!VAR0160 : 44!
+	{(VAR0150 = 0) * (VAR0586 = 3):
+		ZH 1:
+		$L_01901$
+		'Ninja Birdlime'
+		$
+	}
+	!VAR0160 : 8!
+	{VAR0150 = 0:
+		ZH 1:
+		$L_0185c$
+		'Substitute Ninja'
+		$
+	}
+	!VAR0160 : 19!
+	!VAR0154 : 2!
+	{(VAR0102 \ 0) * (VAR0467 = 0) * (VAR0150 = 0):
+		ZH 1:
+		$L_01782$
+		'Clothes'
+		$
+	}
+	!VAR0160 : 43!
+	!VAR0154 : 32!
+	{(VAR0102 \ 0) * (VAR0150 = 0):
+		ZH 1:
+		$L_017b1$
+		'Hirami Lemon'
+		$
+	}
+	!VAR0160 : 28!
+	{(VAR0150 = 0) * (VAR0698 \ 0):
+		ZH 1:
+		$L_017e1$
+		'Fog Card'
+		$
+	}
+	ZH 1:
+	$L_014e7$
+	'Don’t Buy'
+	$
+	]
+	@L_01373:
+*L_014e7:
+	\L_01fd1:
+	@L_001dc:
+*L_014f1:
+	{VAR0519 < VAR0003 - 1:
+		\L_01fde:
+		\L_01fd1:
+		\L_01eb9:
+		ZH 1:
+		'Ah... Not enough money.'
+		\L_01fde:
+		\L_01fd1:
+		\L_01f29:
+		ZH 1:
+		'I’m sorry, but that means I'
+		R
+		'can’t sell this to you.'
+		\L_01fde:
+		ZH 1:
+		'Please come back after you’ve'
+		R
+		'exploited more of your people'
+		R
+		'for their money.'
+		\L_01fde:
+		\L_01fd1:
+		@L_0134f:
+	}
+*L_01567:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_01567:
+	}
+	ZH 1:
+	$L_015a5$
+	'Buy'
+	$
+	R
+	$L_016fc$
+	'Don’t Buy'
+	$
+	]
+	@L_01567:
+*L_015a5:
+	!VAR0519 : VAR0519 - VAR0003!
+	!VAR0166 : VAR0166 + VAR0003!
+	!VAR0160 : VAR0004!
+	!VAR0150 : 100!
+	{VAR0160 = 19:
+		!VAR0467 : 1!
+	}
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Alright, purchased.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Thaaank you very much.'
+	\L_01fde:
+	ZH 1:
+	'Ah, clap clap.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'Pluepet clapped his hands, and'
+	R
+	'one of his subordinates came'
+	R
+	'out with a wooden box.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'This is what you purchased.'
+	R
+	'What would you like done with'
+	R
+	'it?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Put it in the treasure room'
+	R
+	'over there.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Understood.'
+	\L_01fde:
+	ZH 1:
+	'Hey you all, do what the King'
+	R
+	'said.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'Pluepet’s subordinates headed'
+	R
+	'to the treasure room.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Now, is there anything else'
+	R
+	'you’d like?'
+	\L_01fde:
+	\L_01fd1:
+	@L_0134f:
+*L_016fc:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Not buying.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Huh～～～...?'
+	\L_01fde:
+	ZH 1:
+	'I see...'
+	\L_01fde:
+	ZH 1:
+	'I see...'
+	\L_01fde:
+	ZH 1:
+	'I went through all the trouble'
+	R
+	'of getting this great item for'
+	R
+	'you, though...'
+	\L_01fde:
+	ZH 1:
+	'Sob...'
+	\L_01fde:
+	\L_01fd1:
+	@L_0134f:
+*L_01782:
+	!VAR0003 : 1!
+	!VAR0004 : 19!
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'［Clothes］'
+	R
+	'　Clothes suited for Sill'
+	R
+	'　Price:　100K GOLD'
+	@L_014f1:
+*L_017b1:
+	!VAR0003 : 500!
+	!VAR0004 : 43!
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'［Hirami Lemon］'
+	R
+	'　A legendary fruit'
+	R
+	'　Price: 50000K GOLD'
+	@L_014f1:
+*L_017e1:
+	!VAR0003 : VAR0698!
+	!VAR0004 : 28!
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'［Fog Card］'
+	R
+	'　Covers the battlefield in fog'
+	R
+	' Price: '
+	H 0, VAR0698:
+	ZH 1:
+	'00K GOLD'
+	@L_014f1:
+*L_01825:
+	!VAR0003 : 500!
+	!VAR0004 : 3!
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'［Popularity Staff］'
+	R
+	'　Equipped character’s troops'
+	R
+	' increase on level up'
+	R
+	'　　　Price: 50000K GOLD'
+	@L_014f1:
+*L_0185c:
+	!VAR0003 : 1000!
+	!VAR0004 : 8!
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'［Substitute Ninja］'
+	R
+	'　A doll that will be captured'
+	R
+	' in a ninja’s place'
+	R
+	'　　Price: 100000K GOLD'
+	@L_014f1:
+*L_01893:
+	!VAR0003 : 800!
+	!VAR0004 : 4!
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'［Napoleon’s Writings］'
+	R
+	' Increases a unit’s Attack'
+	R
+	' by 1'
+	R
+	' 　　Price: 80000K GOLD'
+	@L_014f1:
+*L_018ca:
+	!VAR0003 : 800!
+	!VAR0004 : 5!
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'［Shingen’s Writings］'
+	R
+	'　Increases a unit’s Defense'
+	R
+	' by 1'
+	R
+	' 　　Price: 80000K GOLD'
+	@L_014f1:
+*L_01901:
+	!VAR0003 : 30!
+	!VAR0004 : 44!
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'［Ninja Birdlime］'
+	R
+	'　Captures ninjas and spies'
+	R
+	R
+	'　　　Price: 3000K GOLD'
+	@L_014f1:
+*L_01931:
+	!VAR0468 : 1!
+	!VAR0516 : 1!
+	\L_01f0d:
+	\L_01ed5:
+	ZH 1:
+	'Alright, should I call a'
+	R
+	'merchant?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'Rance ordered that a merchant'
+	R
+	'be summoned.'
+	\L_01fde:
+	ZH 1:
+	'After some time...'
+	\L_01fde:
+	\L_01fd1:
+	!VAR0516 : VAR0001!
+	\L_01f7d:
+	\L_01ef1:
+	ZH 1:
+	'A cute girl with a doll showed'
+	R
+	'up before Rance.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Hoh. This girl’s the merchant'
+	R
+	'to the royal family?'
+	\L_01fde:
+	ZH 1:
+	'Seems pretty capable, but'
+	R
+	'still a kid if she’s keeping'
+	R
+	'that doll with her.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'By doll, would you be'
+	R
+	'referring to me?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'...Huh?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'I said, is it me that you’re'
+	R
+	'referring to as a doll?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Are you a talking doll?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Quite disrespectful of you.'
+	R
+	'I’m not a doll.'
+	\L_01fde:
+	ZH 1:
+	'I am Pluepet, merchant to the'
+	R
+	'royal family. I hope we get'
+	R
+	'along well, new king.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'Pluepet spun around once and'
+	R
+	'bowed.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Is the girl next to you your'
+	R
+	'daughter?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Aah, no, no.'
+	\L_01fde:
+	ZH 1:
+	'This is Rebecca.'
+	R
+	'She’s merchandise.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Merchandise?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Yes.'
+	R
+	'She’s a fukuman.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Fukuman?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Hoy.'
+	R
+	'Allow me to explain.'
+	\L_01fde:
+	ZH 1:
+	'Anyone that has sex with'
+	R
+	'Rebecca will be blessed with'
+	R
+	'happiness.'
+	\L_01fde:
+	ZH 1:
+	'The sex itself is good too, of'
+	R
+	'course. You’ll be able to go'
+	R
+	'to heaven in more than one way,'
+	R
+	'Your Majesty.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f61:
+	ZH 1:
+	'Pluepet chuckled to himself.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Ah, I can give you a discount,'
+	R
+	'if you’d like.'
+	R
+	'Queen Lia is a valued customer'
+	R
+	'of mine, after all.'
+	\L_01fde:
+	ZH 1:
+	'As Queen Lia’s husband...'
+	R
+	'I’ll give you the best service'
+	R
+	'I can.'
+	\L_01fde:
+	\L_01fd1:
+	!VAR0516 : 5!
+	\L_01f7d:
+	\L_01f29:
+	ZH 1:
+	'Yeah.'
+	\L_01fde:
+	ZH 1:
+	'I’ve bought lots of stuff from'
+	R
+	'Pluepet.'
+	\L_01fde:
+	ZH 1:
+	'A bit expensive, but the'
+	R
+	'quality’s certainly there.'
+	R
+	'Do you want to buy something,'
+	R
+	'Darling?'
+	\L_01fde:
+	\L_01fd1:
+	!VAR0516 : VAR0001!
+	\L_01f7d:
+	@L_001dc:
+*L_01c97:
+	!VAR0468 : 4!
+	!VAR0516 : 1!
+	\L_01f0d:
+	\L_01ed5:
+	ZH 1:
+	'I want to shop.'
+	\L_01fde:
+	ZH 1:
+	'But Pluepet died...'
+	\L_01fde:
+	ZH 1:
+	'Alright, I should appoint a'
+	R
+	'new merchant.'
+	R
+	'This time I want a girl.'
+	\L_01fde:
+	ZH 1:
+	'Someone I can bully into'
+	R
+	'giving me free stuff, and'
+	R
+	'whose body I can steal...'
+	\L_01fde:
+	ZH 1:
+	'Yeah, yeah.'
+	R
+	'Good, good.'
+	R
+	'Heehee.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Call the merchant.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ef1:
+	ZH 1:
+	'A while after Rance’s'
+	R
+	'command...'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Thaaanks for your business.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01ed5:
+	ZH 1:
+	'This voice...?'
+	\L_01fde:
+	\L_01fd1:
+	!VAR0516 : VAR0001!
+	\L_01f7d:
+	\L_01f29:
+	ZH 1:
+	'You summoned me, Your Majesty?'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'A-A ghost!'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'I’m not a ghost.'
+	R
+	'Look, I’ve got legs.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Hm... I don’t know if you can'
+	R
+	'really call those legs, but...'
+	R
+	'You have them.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Oooh, I’ve had a very hard'
+	R
+	'time of things since you went'
+	R
+	'to war with Portugal.'
+	\L_01fde:
+	ZH 1:
+	'My house burned to the ground,'
+	R
+	'and Rebecca ran off'
+	R
+	'somewhere...'
+	\L_01fde:
+	ZH 1:
+	'But I should be able to'
+	R
+	'reorganize using my hidden'
+	R
+	'fortune. Let’s continue to get'
+	R
+	'along, Your Majesty.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01eb9:
+	ZH 1:
+	'Well, if we must.'
+	R
+	'Give me a discount.'
+	\L_01fde:
+	\L_01fd1:
+	\L_01f29:
+	ZH 1:
+	'Hohohoh.'
+	\L_01fde:
+	\L_01fd1:
+	@L_001dc:
+*L_01eb9:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01ed5:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01ef1:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01f0d:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01f29:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01f61:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01f7d:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01f8b:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01fb5:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01fd1:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01fde:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

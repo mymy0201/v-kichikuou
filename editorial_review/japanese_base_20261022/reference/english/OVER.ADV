@@ -1,0 +1,2210 @@
+	{(VAR0805 > 4) * (VAR0805 \ 6) * (VAR0805 \ 7) * (VAR0805 \ 12) * (VAR0805 \ 14):
+		!VAR0191 : 79!
+		!VAR0195 : VAR0195 + 1!
+		!VAR0020 : VAR0195!
+	}
+	!VAR0001 : 0!
+	!VAR0002 : 0!
+	!VAR0003 : 0!
+	{VAR0805 = 6:
+		!VAR0002 : 1!
+	}
+	{VAR0805 = 7:
+		!VAR0002 : 1!
+	}
+	{VAR0805 = 9:
+		!VAR0002 : 1!
+	}
+	{VAR0805 = 14:
+		!VAR0002 : 1!
+	}
+	{VAR0385 = 2:
+		!VAR0002 : 1!
+	}
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS 0:
+	Y 3, 120:
+	PF1 VAR0056:
+	\L_02cac:
+	CF 0, 0, 640, 400, 0:
+	PF0 0:
+	J0 0, 400:
+	G 269 + VAR0805:
+	CC 0, 400, 640, 400, 0, 0:
+	{(VAR0805 = 5) + (VAR0805 = 8) + (VAR0805 = 11) + (VAR0805 = 13):
+		!VAR0516 : 0!
+		!VAR0000 : 1!
+		%#PCMPLAY.ADV:
+		@L_0014d:
+	}
+	!VAR0516 : 0!
+	!VAR0000 : 2!
+	%#PCMPLAY.ADV:
+*L_0014d:
+	Y 3, 360:
+	IK 0:
+	{(VAR0805 = 7) + (VAR0805 = 8) + (VAR0805 = 11) + (VAR0805 = 13):
+		@L_0017e:
+	}
+	@L_004a8:
+*L_0017e:
+	PF1 VAR0056:
+	J0 640, 0:
+	G 850:
+	J0 640, 400:
+	G 851:
+	J0 1280, 0:
+	G 852:
+	J0 1280, 400:
+	G 853:
+	J0 1920, 0:
+	G 854:
+	J0 1920, 400:
+	G 855:
+	J0 2560, 0:
+	G 856:
+	J0 2560, 400:
+	G 857:
+	CC 2560, 400, 640, 400, 0, 400:
+	CS 640, 0, 640, 400, 0, 400, 40:
+	CC 0, 400, 640, 400, 0, 0:
+	Y 3, 10000:
+	{VAR0020 > 1:
+		Y 3, 10001:
+	}
+	SL 1:
+	SS 23:
+	Y 3, 420:
+	!VAR0690 : VAR0000!
+	PF0 VAR0056:
+	!VAR0000 : VAR0690!
+	{(VAR0000 \ 0) * (VAR0020 > 1):
+		@L_004a8:
+	}
+	!VAR0011 : 0!
+	!VAR0012 : 0!
+	!VAR0013 : 0!
+	!VAR0014 : 0!
+	!VAR0015 : 0!
+	!VAR0016 : 0!
+	!VAR0017 : 0!
+	!VAR0018 : 0!
+	!VAR0019 : 0!
+	Y 3, 840:
+	{(VAR0000 \ 0) * (VAR0020 > 1):
+		@L_004a8:
+	}
+	!VAR0015 : 2!
+	!VAR0011 : 640!
+	!VAR0012 : 0!
+	!VAR0013 : 400!
+	!VAR0016 : 640!
+	!VAR0017 : 400!
+	!VAR0018 : 0!
+	\L_00413:
+	{VAR0000 = 1000:
+		@L_004a8:
+	}
+	!VAR0011 : 640!
+	!VAR0012 : 400!
+	!VAR0013 : 400!
+	!VAR0016 : 1280!
+	!VAR0017 : 0!
+	!VAR0018 : 0!
+	\L_00413:
+	{VAR0000 = 1000:
+		@L_004a8:
+	}
+	!VAR0011 : 1280!
+	!VAR0012 : 0!
+	!VAR0013 : 400!
+	!VAR0016 : 1280!
+	!VAR0017 : 400!
+	!VAR0018 : 0!
+	\L_00413:
+	{VAR0000 = 1000:
+		@L_004a8:
+	}
+	!VAR0011 : 1280!
+	!VAR0012 : 400!
+	!VAR0013 : 400!
+	!VAR0016 : 1920!
+	!VAR0017 : 0!
+	!VAR0018 : 0!
+	\L_00413:
+	{VAR0000 = 1000:
+		@L_004a8:
+	}
+	!VAR0011 : 1920!
+	!VAR0012 : 0!
+	!VAR0013 : 400!
+	!VAR0016 : 1920!
+	!VAR0017 : 400!
+	!VAR0018 : 0!
+	\L_00413:
+	{VAR0000 = 1000:
+		@L_004a8:
+	}
+	!VAR0011 : 1920!
+	!VAR0012 : 400!
+	!VAR0013 : 400!
+	!VAR0016 : 2560!
+	!VAR0017 : 0!
+	!VAR0018 : 0!
+	\L_00413:
+	{VAR0000 = 1000:
+		@L_004a8:
+	}
+*L_003f0:
+	SR1, VAR0011:
+	{VAR0011 = 0:
+		Y 3, 300:
+		@L_004a8:
+	}
+	@L_003f0:
+*L_00413:
+	CC 2560, 400, 640, 400, 0, 400:
+	CS VAR0011, VAR0012, 640, VAR0013, 0, 400, 40:
+	CS VAR0016, VAR0017, 640, VAR0018, 0, 400 + VAR0013, 40:
+	CC 0, 400, 640, 400, 0, 0:
+	!VAR0012 : VAR0012 + VAR0015!
+	!VAR0013 : VAR0013 - VAR0015!
+	!VAR0018 : VAR0018 + VAR0015!
+	Y 3, 3:
+	{(VAR0000 \ 0) * (VAR0020 > 1):
+		!VAR0000 : 1000!
+		\0:
+	}
+	{VAR0013 = 0:
+		\0:
+	}
+	@L_00413:
+*L_004a8:
+	SS 0:
+	!VAR0004 : 0!
+	!VAR0005 : 288!
+	!VAR0006 : 24!
+	!VAR0007 : 0!
+	!VAR0008 : 288!
+	!VAR0009 : 144!
+	!VAR0010 : 0!
+	PF1 VAR0056:
+	J0 0, 0:
+	G 840:
+	CC 0, 0, 640, 400, 640, 0:
+	J0 0, 400:
+	G 841:
+	PF0 VAR0056:
+	Y 1, 1:
+	ZH 1:
+	'　　Completion Report'
+	\L_02cc7:
+	!VAR0191 : 0!
+	!VAR0001 : 0!
+	!VAR0516 : 2!
+	!VAR0154 : 2!
+	{(VAR0716 = 1) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Sill Plain'
+			R
+			'　　　（Fortune）'
+			R
+			'：On another adventure with'
+			R
+			' Rance...'
+		}
+	}
+	{VAR0716 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Sill Plain'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Killed by Madame Gorch'
+	}
+	\L_02a10:
+	!VAR0191 : 1!
+	!VAR0001 : 0!
+	!VAR0516 : 5!
+	{VAR0717 = 1:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Lia Parapara Leazas'
+			R
+			'　　　（Fortune）'
+			R
+			'：Had Rance’s child'
+		}
+	}
+	{VAR0717 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Lia Parapara Leazas'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Rance ran away with Sill'
+	}
+	\L_02a10:
+	!VAR0191 : 2!
+	!VAR0001 : 0!
+	!VAR0516 : 6!
+	{VAR0717 = 1:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Maris Amaryllis'
+			R
+			'　　　（Fortune）'
+			R
+			'：Lia was happy'
+		}
+	}
+	{VAR0717 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Maris Amaryllis'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Lia was unhappy'
+	}
+	\L_02a10:
+	!VAR0191 : 3!
+	!VAR0001 : 0!
+	!VAR0516 : 37!
+	{VAR0394 = 5:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Suzume Katou'
+			R
+			'　　　（Fortune）'
+			R
+			'：Escaped being her father’s'
+			R
+			' tool, enjoyed serving Rance'
+		}
+	}
+	{(VAR0394 < 4) * (VAR0805 \ 14):
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Suzume Katou'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Abused by many more men'
+		R
+		' as her father’s tool'
+	}
+	\L_02a10:
+	!VAR0191 : 4!
+	!VAR0001 : 0!
+	!VAR0516 : 36!
+	{VAR0748 = 1:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Wendy Crumiller'
+			R
+			'　　　（Fortune）'
+			R
+			'：Became an abused maid as she'
+			R
+			' desired'
+		}
+	}
+	{(VAR0395 < 2) * (VAR0805 \ 14):
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Wendy Crumiller'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Forever an ordinary maid'
+	}
+	\L_02a10:
+	!VAR0191 : 5!
+	!VAR0001 : 0!
+	!VAR0516 : 9!
+	{VAR0805 = 3:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Kanami Kentou'
+			R
+			'　　　（Fortune）'
+			R
+			'：Ran away with Code'
+		}
+	}
+	{VAR0753 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Kanami Kentou'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Captured by the enemy and'
+		R
+		' executed'
+	}
+	\L_02a10:
+	!VAR0191 : 6!
+	!VAR0001 : 0!
+	!VAR0516 : 7!
+	!VAR0154 : 7!
+	{VAR0102 = 0:
+		!VAR0621 : 0!
+	}
+	{VAR0102 \ 0:
+		!VAR0621 : 1!
+	}
+	!VAR0154 : 5!
+	{(VAR0404 > 5) * (VAR0102 \ 0) * (VAR0621 = 1):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Leila Grecni'
+			R
+			'　　　（Fortune）'
+			R
+			'：Expressed feelings to Rick'
+		}
+	}
+	{VAR0326 = 1:
+		!VAR0516 : 30!
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Leila Grecni'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Became Nobunaga’s wife,'
+		R
+		' later died'
+	}
+	\L_02a10:
+	!VAR0191 : 7!
+	!VAR0001 : 0!
+	!VAR0516 : 8!
+	!VAR0154 : 10!
+	{(VAR0405 = 8) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Menad Shisei'
+			R
+			'　　　（Fortune）'
+			R
+			'：Ended relationship with'
+			R
+			' Zarak and moved on'
+		}
+	}
+	{VAR0407 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Menad Shisei'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Betrayed by Zarak'
+	}
+	\L_02a10:
+	!VAR0191 : 8!
+	!VAR0001 : 0!
+	!VAR0516 : 10!
+	!VAR0154 : 12!
+	{(VAR0752 = 1) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Haurein Provence'
+			R
+			'　　　（Fortune）'
+			R
+			'：Praised by her father'
+		}
+	}
+	{VAR0752 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Haurein Provence'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Impregnated and ran away'
+	}
+	\L_02a10:
+	!VAR0191 : 9!
+	!VAR0001 : 0!
+	!VAR0516 : 11!
+	!VAR0154 : 13!
+	{(VAR0417 = 1) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Melfeis Promenade'
+			R
+			'　　　（Fortune）'
+			R
+			'：Broke curse and got married'
+		}
+	}
+	{VAR0417 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Melfeis Promenade'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Joined Rance, but later'
+		R
+		' died from her curse'
+	}
+	\L_02a10:
+	!VAR0191 : 10!
+	!VAR0001 : 0!
+	!VAR0516 : 4!
+	!VAR0154 : 4!
+	{(VAR0400 = 1) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Soul Less'
+			R
+			'　　　（Fortune）'
+			R
+			'：After being saved by Rance,'
+			R
+			' she got with a red knight'
+		}
+	}
+	{VAR0400 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Soul Less'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Killed by Madame Gorch'
+	}
+	\L_02a10:
+	!VAR0191 : 11!
+	!VAR0001 : 0!
+	!VAR0516 : 15!
+	{VAR0330 < 2:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Anasel Caspora'
+			R
+			'　　　（Fortune）'
+			R
+			'：Once captured by Rance, but'
+			R
+			' later lived in peace'
+		}
+	}
+	{VAR0330 > 1:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Anasel Caspora'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Recaptured by Rance'
+	}
+	\L_02a10:
+	!VAR0191 : 12!
+	!VAR0001 : 0!
+	!VAR0516 : 50!
+	{VAR0805 = 5:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Maria Custard'
+			R
+			'　　　（Fortune）'
+			R
+			'：Went to space with Rance'
+		}
+	}
+	{VAR0428 = 100:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Maria Custard'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Killed by an explosion in an'
+		R
+		' accident'
+	}
+	\L_02a10:
+	!VAR0191 : 13!
+	!VAR0001 : 0!
+	!VAR0516 : 49!
+	{VAR0067 = 7:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Shizuka Masou'
+			R
+			'　　　（Fortune）'
+			R
+			'：Succeeded in her revenge and'
+			R
+			' left on a journey'
+		}
+	}
+	{VAR0336 = 7:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Shizuka Masou'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Raped by Ragarl and died'
+	}
+	\L_02a10:
+	!VAR0191 : 14!
+	!VAR0001 : 0!
+	!VAR0516 : 66!
+	!VAR0154 : 23!
+	{(VAR0102 \ 0) * (VAR0434 = 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Eleanor Ran'
+			R
+			'　　　（Fortune）'
+			R
+			'：Didn’t have sex with Rance'
+		}
+	}
+	{VAR0760 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Eleanor Ran'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Committed suicide'
+	}
+	\L_02a10:
+	!VAR0191 : 15!
+	!VAR0001 : 0!
+	!VAR0516 : 67!
+	!VAR0154 : 24!
+	{VAR0102 \ 0:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Milli Yorks'
+			R
+			'　　　（Fortune）'
+			R
+			'：Didn’t die'
+		}
+	}
+	{VAR0759 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Milli Yorks'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Died of a disease'
+	}
+	\L_02a10:
+	!VAR0191 : 16!
+	!VAR0001 : 0!
+	!VAR0516 : 68!
+	!VAR0154 : 25!
+	{(VAR0431 > 2) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0516 : 69!
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Mill Yorks'
+			R
+			'　　　（Fortune）'
+			R
+			'：Grew up and had sex with'
+			R
+			' Rance'
+		}
+	}
+	{(VAR0431 = 1) * (VAR0102 \ 0):
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Mill Yorks'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Didn’t have sex with Rance'
+	}
+	\L_02a10:
+	!VAR0191 : 17!
+	!VAR0001 : 0!
+	!VAR0516 : 32!
+	{VAR0470 > 14:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Mokomoko Takenaka'
+			R
+			'　　　（Fortune）'
+			R
+			'：Lived at Rance’s side'
+		}
+	}
+	{VAR0470 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Mokomoko Takenaka'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Captured by DX Association'
+	}
+	\L_02a10:
+	!VAR0191 : 18!
+	!VAR0001 : 0!
+	!VAR0516 : 12!
+	{VAR0324 = 1:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Sayori Unga'
+			R
+			'　　　（Fortune）'
+			R
+			'：Returned to M Land'
+		}
+	}
+	{VAR0324 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Sayori Unga'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Married Shinoda'
+	}
+	\L_02a10:
+	!VAR0191 : 19!
+	!VAR0001 : 0!
+	!VAR0516 : 63!
+	{(VAR0493 > 5) * (VAR0486 = 1):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Merim Tser'
+			R
+			'　　　（Fortune）'
+			R
+			'：Did a lot in the dungeons'
+		}
+	}
+	{VAR0486 = 3:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Merim Tser'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Died in a dungeon'
+	}
+	\L_02a10:
+	!VAR0191 : 20!
+	!VAR0001 : 0!
+	!VAR0516 : 65!
+	{VAR0420 = 10:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Raylee Serika'
+			R
+			'　　　（Fortune）'
+			R
+			'：Lived together with Amuro'
+		}
+	}
+	{VAR0420 = 5:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Raylee Serika'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Rance’s slave'
+	}
+	\L_02a10:
+	!VAR0191 : 21!
+	!VAR0001 : 0!
+	!VAR0516 : 22!
+	{(VAR0763 > 0) * (VAR0763 \ 4):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Shariela Aries'
+			R
+			'　　　（Fortune）'
+			R
+			'：Enjoyed living with Rance'
+		}
+	}
+	{VAR0763 = 4:
+		!VAR0516 : 21!
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Shariela Aries'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Turned back into a doll'
+	}
+	\L_02a10:
+	!VAR0191 : 22!
+	!VAR0001 : 0!
+	!VAR0516 : 40!
+	{VAR0439 = 1:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Amiran Berkov'
+			R
+			'　　　（Fortune）'
+			R
+			'：After the fall of Helman,'
+			R
+			' reunited with her father'
+		}
+	}
+	{VAR0439 = 2:
+		!VAR0516 : 39!
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Amiran Berkov'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Rance’s toy'
+	}
+	\L_02a10:
+	!VAR0191 : 23!
+	!VAR0001 : 0!
+	!VAR0516 : 28!
+	{VAR0423 = 1:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Katyusha Bosch'
+			R
+			'　　　（Fortune）'
+			R
+			'：Escaped with money when the'
+			R
+			' Helman 5th Army perished'
+		}
+	}
+	{VAR0423 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Katyusha Bosch'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Sold to the DX Association'
+	}
+	\L_02a10:
+	!VAR0191 : 24!
+	!VAR0001 : 0!
+	!VAR0516 : 29!
+	{VAR0425 = 1:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Saulnia Benz'
+			R
+			'　　　（Fortune）'
+			R
+			'：Escaped with money when the'
+			R
+			' Helman 5th Army perished'
+		}
+	}
+	{VAR0425 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Saulnia Benz'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Sold to the DX Association'
+	}
+	\L_02a10:
+	!VAR0191 : 25!
+	!VAR0001 : 0!
+	!VAR0516 : 75!
+	{VAR0449 = 10:
+		!VAR0001 : 1!
+		\L_02c95:
+		ZH 1:
+		'Satella'
+		R
+		'　　　（Fortune）'
+		R
+		'：Conquered the world with'
+		R
+		' Demon Lord Rance'
+	}
+	{VAR0449 = 12:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Satella'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Became Demon Lord Kayblis’s'
+		R
+		' slave'
+	}
+	\L_02a10:
+	!VAR0191 : 26!
+	!VAR0001 : 0!
+	!VAR0516 : 81!
+	!VAR0154 : 33!
+	{(VAR0461 = 3) * (VAR0666 > 5) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Julia Lindum'
+			R
+			'　　　（Fortune）'
+			R
+			'：Troop count more than'
+			R
+			' doubled, powered up as well'
+		}
+	}
+	{VAR0461 = 10:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Julia Lindum'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Hanny King’s pet'
+	}
+	\L_02a10:
+	!VAR0191 : 27!
+	!VAR0001 : 0!
+	!VAR0516 : 78!
+	!VAR0154 : 34!
+	{(VAR0463 \ 0) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Rafalia Musca'
+			R
+			'　　　（Fortune）'
+			R
+			'：Entered the Leazas Army'
+		}
+	}
+	{(VAR0464 \ 0) * (VAR0463 = 0):
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Rafalia Musca'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Lost to Arlcoate'
+	}
+	\L_02a10:
+	!VAR0191 : 28!
+	!VAR0001 : 0!
+	!VAR0516 : 77!
+	!VAR0154 : 35!
+	{(VAR0464 > 6) * (VAR0464 \ 10) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Arlcoate Marius'
+			R
+			'　　　（Fortune）'
+			R
+			'：In love with Rance'
+		}
+	}
+	{VAR0464 = 10:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Arlcoate Marius'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Raped by Rance'
+	}
+	\L_02a10:
+	!VAR0191 : 29!
+	!VAR0001 : 0!
+	!VAR0516 : 26!
+	!VAR0154 : 28!
+	{(VAR0701 > 10) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Cream Ganoblade'
+			R
+			'　　　（Fortune）'
+			R
+			'：Had numerous successful'
+			R
+			' strategies'
+		}
+	}
+	{VAR0764 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Cream Ganoblade'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Stealth attacked by her'
+		R
+		' allies'
+	}
+	\L_02a10:
+	!VAR0191 : 30!
+	!VAR0001 : 0!
+	!VAR0516 : 17!
+	{VAR0321 = 100:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Ruberan Tser'
+			R
+			'　　　（Fortune）'
+			R
+			'：Reunited with Merim.'
+			R
+			' Later started volunteer work.'
+		}
+	}
+	{(VAR0321 \ 0) * (VAR0321 \ 100):
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Ruberan Tser'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Captured by Rance and made'
+		R
+		' a slave'
+	}
+	\L_02a10:
+	!VAR0191 : 31!
+	!VAR0001 : 0!
+	!VAR0516 : 18!
+	{VAR0446 = 11:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Sheila Helman'
+			R
+			'　　　（Fortune）'
+			R
+			'：Protected by Aristoles'
+		}
+	}
+	{VAR0446 = 5:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Sheila Helman'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Drug addiction worsened'
+	}
+	\L_02a10:
+	!VAR0191 : 32!
+	!VAR0001 : 0!
+	!VAR0516 : 43!
+	!VAR0154 : 38!
+	{(VAR0320 > 3) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0516 : 61!
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Chizuko Yamada'
+			R
+			'　　　（Fortune）'
+			R
+			'：Lived on yearning for Rance'
+		}
+	}
+	{VAR0774 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Chizuko Yamada'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Gangraped to death by slave'
+		R
+		' troops'
+	}
+	\L_02a10:
+	!VAR0191 : 33!
+	!VAR0001 : 0!
+	!VAR0516 : 58!
+	!VAR0154 : 39!
+	{(VAR0389 = 6) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Magic the Gandhi'
+			R
+			'　　　（Fortune）'
+			R
+			'：Reunited with Alex'
+		}
+	}
+	{VAR0389 = 100:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Magic the Gandhi'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Soul taken by a devil'
+	}
+	\L_02a10:
+	!VAR0191 : 34!
+	!VAR0001 : 0!
+	!VAR0516 : 45!
+	!VAR0154 : 40!
+	{(VAR0457 > 9) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Nagi su Ragarl'
+			R
+			'　　　（Fortune）'
+			R
+			'：Chosen by Rance and came to'
+			R
+			' Leazas'
+		}
+	}
+	{VAR0457 = 4:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Nagi su Ragarl'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Sought demons for strength,'
+		R
+		' died in vain'
+	}
+	\L_02a10:
+	!VAR0191 : 35!
+	!VAR0001 : 0!
+	!VAR0516 : 33!
+	{VAR0471 = 0:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Makoto'
+			R
+			'　　　（Fortune）'
+			R
+			'：Lived happily in Osaka'
+		}
+	}
+	{VAR0471 \ 0:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Makoto'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Captured by Rance'
+	}
+	\L_02a10:
+	!VAR0191 : 36!
+	!VAR0001 : 0!
+	!VAR0516 : 72!
+	{VAR0455 = 100:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Kaoru Quincy Kagura'
+			R
+			'　　　（Fortune）'
+			R
+			'：Continued to travel with'
+			R
+			' Gandhi'
+		}
+	}
+	{VAR0740 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Kaoru Quincy Kagura'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Killed by Medusa'
+	}
+	\L_02a10:
+	!VAR0191 : 37!
+	!VAR0001 : 0!
+	!VAR0516 : 71!
+	{VAR0455 = 100:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Wichita Skate'
+			R
+			'　　　（Fortune）'
+			R
+			'：Continued to travel with'
+			R
+			' Gandhi'
+		}
+	}
+	{(VAR0455 = 99) * (VAR0588 = 0):
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Wichita Skate'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Failed to avenge Gandhi'
+	}
+	\L_02a10:
+	!VAR0191 : 38!
+	!VAR0001 : 0!
+	!VAR0516 : 38!
+	{(VAR0367 \ 0) * (VAR0367 \ 10):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Elisabeth Des'
+			R
+			'　　　（Fortune）'
+			R
+			'：Enjoyed serving Rance'
+		}
+	}
+	{VAR0367 = 10:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Elisabeth Des'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Died during the fall of'
+		R
+		' ALism'
+	}
+	\L_02a10:
+	!VAR0191 : 39!
+	!VAR0001 : 0!
+	!VAR0516 : 24!
+	!VAR0154 : 27!
+	{(VAR0561 = 6) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Isoroku Yamamoto'
+			R
+			'　　　（Fortune）'
+			R
+			'：Gave birth to an heir to the'
+			R
+			' Yamamoto family'
+		}
+	}
+	{VAR0739 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Isoroku Yamamoto'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Captured by Medusa'
+	}
+	\L_02a10:
+	!VAR0191 : 40!
+	!VAR0001 : 0!
+	!VAR0516 : 16!
+	{VAR0366 < 2:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Merci Archa'
+			R
+			'　　　（Fortune）'
+			R
+			'：Not captured by Rance'
+		}
+	}
+	{VAR0366 > 1:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Merci Archa'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Captured by Rance'
+	}
+	\L_02a10:
+	!VAR0191 : 41!
+	!VAR0001 : 0!
+	!VAR0516 : 25!
+	!VAR0154 : 27!
+	{(VAR0805 = 8) * (VAR0327 = 3) * (VAR0561 = 6) * (VAR0102 \ 0):
+		!VAR0001 : 1!
+		\L_02c95:
+		ZH 1:
+		'Kouhime'
+		R
+		'　　　（Fortune）'
+		R
+		'：Worked with Isoroku and her'
+		R
+		' child to restore JAPAN'
+	}
+	{VAR0719 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Kouhime'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Died'
+	}
+	\L_02a10:
+	!VAR0191 : 42!
+	!VAR0001 : 0!
+	!VAR0516 : 460!
+	{(VAR0403 > 1) * (VAR0403 \ 100):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Rebecca'
+			R
+			'　　　（Fortune）'
+			R
+			'：Freed from Pluepet and came'
+			R
+			' to Rance'
+		}
+	}
+	{VAR0403 = 100:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Rebecca'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Committed suicide'
+	}
+	\L_02a10:
+	!VAR0191 : 43!
+	!VAR0001 : 0!
+	!VAR0516 : 52!
+	{VAR0349 = 6:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Annis Sawatari'
+			R
+			'　　　（Fortune）'
+			R
+			'：Had fun (?) living under'
+			R
+			' Chizuko'
+		}
+	}
+	{VAR0336 = 6:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Annis Sawatari'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Used as an ingredient for'
+		R
+		' the Flash'
+	}
+	\L_02a10:
+	!VAR0191 : 44!
+	!VAR0001 : 0!
+	!VAR0516 : 99!
+	{VAR0345 > 6:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Elena Flower'
+			R
+			'　　　（Fortune）'
+			R
+			'：Happily looked after by'
+			R
+			' Rance'
+		}
+	}
+	{VAR0345 < 7:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Elena Flower'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Continued to be abused by her'
+		R
+		' stepmother'
+	}
+	\L_02a10:
+	!VAR0191 : 45!
+	!VAR0001 : 0!
+	!VAR0516 : 79!
+	{(VAR0564 \ 0) * (VAR0564 \ 8):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Aya Fujinomiya'
+			R
+			'　　　（Fortune）'
+			R
+			'：Helped a lot of patients'
+		}
+	}
+	{VAR0564 = 8:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Aya Fujinomiya'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Had a terrible first time in'
+		R
+		' order to cure okayu disease'
+	}
+	\L_02a10:
+	!VAR0191 : 46!
+	!VAR0001 : 0!
+	!VAR0516 : 27!
+	{VAR0421 = 100:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Aoi （SEX Slave）'
+			R
+			'　　　（Fortune）'
+			R
+			'：Rehabilitated and started'
+			R
+			' a new life'
+		}
+	}
+	{VAR0421 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Aoi （SEX Slave）'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Continued being a sex slave'
+	}
+	\L_02a10:
+	!VAR0191 : 47!
+	!VAR0001 : 0!
+	!VAR0516 : 76!
+	{(VAR0462 = 100) * (VAR0464 \ 0) * (VAR0463 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Aviator Sukatto'
+			R
+			'　　　（Fortune）'
+			R
+			'：Got two students from the'
+			R
+			' academy to the Leazas Army'
+		}
+	}
+	{VAR0462 = 11:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Aviator Sukatto'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Returned to being Royal Guard'
+		R
+		' captain, marriage damaged'
+	}
+	\L_02a10:
+	!VAR0191 : 48!
+	!VAR0001 : 0!
+	!VAR0516 : 457!
+	{VAR0723 = 1:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Uspira Shintou'
+			R
+			'　　　（Fortune）'
+			R
+			'：Double suicide with Saias'
+		}
+	}
+	{VAR0723 = 2:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Uspira Shintou'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Raped by Rance'
+	}
+	\L_02a10:
+	!VAR0191 : 49!
+	!VAR0001 : 0!
+	!VAR0516 : 62!
+	{(VAR0347 = 0) * (VAR0346 = 12):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Kapala Lodz'
+			R
+			'　　　（Fortune）'
+			R
+			'：Reached #1 in rankings'
+		}
+	}
+	{VAR0347 = 3:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Kapala Lodz'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Raped by Rance and'
+		R
+		' disappeared'
+	}
+	\L_02a10:
+	!VAR0191 : 50!
+	!VAR0001 : 0!
+	!VAR0516 : 86!
+	!VAR0154 : 45!
+	{(VAR0365 > 19) * (VAR0102 \ 0):
+		{VAR0002 = 0:
+			!VAR0516 : 87!
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Cafe Artful'
+			R
+			'　　　（Fortune）'
+			R
+			'：Returned to original form'
+		}
+	}
+	{(VAR0365 = 10) + (VAR0365 = 11):
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Lady （Cafe Artful）'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Captured by Rance and'
+		R
+		' imprisoned in basement'
+	}
+	\L_02a10:
+	!VAR0191 : 51!
+	!VAR0001 : 0!
+	!VAR0516 : 57!
+	{VAR0380 = 6:
+		{VAR0002 = 0:
+			!VAR0516 : 467!
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Calory Mate'
+			R
+			'　　　（Fortune）'
+			R
+			'：Cured of greening disease'
+		}
+	}
+	{VAR0380 = 10:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Calory Mate'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Disease not cured, and...'
+	}
+	\L_02a10:
+	!VAR0191 : 52!
+	!VAR0001 : 0!
+	!VAR0516 : 64!
+	!VAR0158 : 27!
+	{VAR0130 = 3:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Sanakia Drelshkaf'
+			R
+			'　　　（Fortune）'
+			R
+			'：Toushin City remained in'
+			R
+			' peace'
+		}
+	}
+	{VAR0130 = 1:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Sanakia Drelshkaf'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Raped by Rance again'
+	}
+	\L_02a10:
+	!VAR0191 : 53!
+	!VAR0001 : 0!
+	!VAR0516 : 14!
+	{(VAR0435 > 4) * (VAR0761 = 1):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Cell Curchgolf'
+			R
+			'　　　（Misfortune）'
+			R
+			'：Approved of by the (fake)'
+			R
+			' pope’s representative'
+		}
+	}
+	{VAR0761 > 11:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Cell Curchgolf'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Captured and sold by land'
+		R
+		' sharks'
+	}
+	\L_02a10:
+	!VAR0191 : 54!
+	!VAR0001 : 0!
+	!VAR0516 : 47!
+	{VAR0354 = 1:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Somita Kalar'
+			R
+			'　　　（Fortune）'
+			R
+			'：Became an angel'
+		}
+	}
+	{VAR0354 = 2:
+		!VAR0516 : 48!
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Somita Kalar'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Became a devil'
+	}
+	\L_02a10:
+	!VAR0191 : 55!
+	!VAR0001 : 0!
+	!VAR0516 : 493!
+	{VAR0355 > 4:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Pastel Kalar'
+			R
+			'　　　（Fortune）'
+			R
+			'：Gained trust toward humans,'
+			R
+			' gave birth to Rance’s child'
+		}
+	}
+	{VAR0355 = 0:
+		!VAR0001 : 2!
+		!VAR0516 : 41!
+		\L_02c95:
+		ZH 1:
+		'Pastel Kalar'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Still doesn’t trust humans'
+	}
+	\L_02a10:
+	!VAR0191 : 56!
+	!VAR0001 : 0!
+	!VAR0516 : 44!
+	{VAR0651 = 10:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Papaya Server'
+			R
+			'　　　（Fortune）'
+			R
+			'：Fully engrossed in research'
+			R
+			' as an unpaid researcher'
+		}
+	}
+	{VAR0651 = 11:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Papaya Server'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Made a sex slave in the'
+		R
+		' dungeon'
+	}
+	\L_02a10:
+	!VAR0191 : 57!
+	!VAR0001 : 0!
+	!VAR0516 : 100!
+	{VAR0663 > 19:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Fuuka'
+			R
+			'　　　（Fortune）'
+			R
+			'：Orochi killed by the Leazas'
+			R
+			' Army, lived as a normal girl'
+		}
+	}
+	{VAR0663 = 19:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Fuuka'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Sacrificed to Orochi'
+	}
+	\L_02a10:
+	!VAR0191 : 58!
+	!VAR0001 : 0!
+	!VAR0516 : 97!
+	!VAR0154 : 8!
+	{(VAR0102 \ 0) * (VAR0418 > 2):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Fururu Burn'
+			R
+			'　　　（Fortune）'
+			R
+			'：Lived happily with her'
+			R
+			' husband Cordoba'
+		}
+	}
+	{VAR0418 = 11:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Fururu Burn'
+		R
+		'　　　（Misfortune）'
+		R
+		'：On top of losing her husband,'
+		R
+		' tricked and raped by Rance'
+	}
+	\L_02a10:
+	!VAR0191 : 59!
+	!VAR0001 : 0!
+	!VAR0516 : 449!
+	{VAR0586 = 11:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Freya Idun'
+			R
+			'　　　（Fortune）'
+			R
+			'：Succeeded at her duty and'
+			R
+			' became rich'
+		}
+	}
+	{VAR0586 = 12:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Freya Idun'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Joined Leazas, but captured'
+		R
+		' and executed by Helman'
+	}
+	\L_02a10:
+	!VAR0191 : 60!
+	!VAR0001 : 0!
+	!VAR0516 : 83!
+	!VAR0154 : 41!
+	{VAR0102 \ 0:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Martina Curry'
+			R
+			'　　　（Fortune）'
+			R
+			'：Befriended Galtia'
+		}
+	}
+	{VAR0377 = 100:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Martina Curry'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Raped by Rance'
+	}
+	\L_02a10:
+	!VAR0191 : 61!
+	!VAR0001 : 0!
+	!VAR0516 : 54!
+	!VAR0154 : 31!
+	{VAR0102 \ 0:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Miki Kurusu'
+			R
+			'　　　（Fortune）'
+			R
+			'：With Kentarou'
+		}
+	}
+	{VAR0805 = 6:
+		!VAR0516 : 53!
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Miki Kurusu'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Awakened as the Demon Lord'
+	}
+	\L_02a10:
+	!VAR0191 : 62!
+	!VAR0001 : 0!
+	!VAR0516 : 249!
+	{VAR0731 = 6:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Library Ghost'
+			R
+			'　　　（Fortune）'
+			R
+			'：Passed on'
+		}
+	}
+	{(VAR0731 \ 6) * (VAR0731 > 1):
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Library Ghost'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Continues to wander'
+	}
+	\L_02a10:
+	!VAR0191 : 63!
+	!VAR0001 : 0!
+	!VAR0516 : 56!
+	{VAR0654 = 13:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Rona'
+			R
+			'　　　（Fortune）'
+			R
+			'：Escaped Redeye’s curse'
+		}
+	}
+	{VAR0654 = 10:
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Rona'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Redeye was defeated, yet she'
+		R
+		' couldn’t escape her curse'
+	}
+	\L_02a10:
+	!VAR0191 : 64!
+	!VAR0001 : 0!
+	!VAR0516 : 424!
+	!VAR0154 : 19!
+	!VAR0010 : VAR0102!
+	!VAR0156 : 57!
+	!VAR0019 : VAR0128!
+	!VAR0154 : 18!
+	!VAR0156 : 54!
+	{((VAR0102 \ 0) + (VAR0128 \ 0)) * ((VAR0010 \ 0) + (VAR0019 \ 0)) * (VAR0444 \ 0):
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Hanty'
+			R
+			'　　　（Fortune）'
+			R
+			'：Patton was safe'
+		}
+	}
+	{(VAR0102 = 0) * (VAR0128 = 0) * (VAR0444 \ 0):
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Hanty'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Disappeared with Patton'
+	}
+	\L_02a10:
+	!VAR0191 : 65!
+	!VAR0001 : 0!
+	!VAR0516 : 428!
+	!VAR0154 : 42!
+	{VAR0102 \ 0:
+		{VAR0002 = 0:
+			!VAR0001 : 1!
+			\L_02c95:
+			ZH 1:
+			'Seizel & Hawzel'
+			R
+			'　　　（Fortune）'
+			R
+			'：Mended their relationship'
+			R
+			' and came to Leazas'
+		}
+	}
+	{VAR0335 = 20:
+		!VAR0516 : 461!
+		!VAR0001 : 2!
+		\L_02c95:
+		ZH 1:
+		'Seizel & Hawzel'
+		R
+		'　　　（Misfortune）'
+		R
+		'：Became La Vaswald'
+	}
+	\L_02a10:
+	!VAR0001 : 0!
+	!VAR0000 : 11!
+	%#ﾛｰﾄﾞｾｰﾌﾞ.ADV:
+	ZH 1:
+	'　　　　THE END'
+	\L_02cc7:
+	ZH 1:
+	'Closing \"Kichikuou Rance\".'
+	\L_02cc7:
+	PF1 4:
+	ZZ0, 0:
+*L_02a10:
+	{VAR0001 = 0:
+		@L_02b41:
+	}
+	{VAR0195 = 100:
+		@L_02b41:
+	}
+	{VAR0195 = 0:
+		{VAR0001 = 0:
+			@L_02b41:
+		}
+		{VAR0001 = 1:
+			!VAR0195 : 1!
+			@L_02b41:
+		}
+		{VAR0001 = 2:
+			!VAR0195 : 10!
+			@L_02b41:
+		}
+	}
+	{VAR0195 = 1:
+		{VAR0001 = 0:
+			@L_02b41:
+		}
+		{VAR0001 = 1:
+			@L_02b41:
+		}
+		{VAR0001 = 2:
+			!VAR0195 : 100!
+			@L_02b41:
+		}
+	}
+	{VAR0195 = 10:
+		{VAR0001 = 0:
+			@L_02b41:
+		}
+		{VAR0001 = 1:
+			!VAR0195 : 100!
+			@L_02b41:
+		}
+		{VAR0001 = 2:
+			@L_02b41:
+		}
+	}
+	ZH 1:
+	'If you see this, something’s'
+	R
+	'wrong'
+	\L_02cc7:
+	@L_02b41:
+*L_02b41:
+	{VAR0001 = 0:
+		\0:
+	}
+	{VAR0001 = 1:
+		@L_02bb0:
+	}
+	{VAR0001 = 2:
+		@L_02c0e:
+	}
+	ZH 1:
+	'If you see this, something’s'
+	R
+	'wrong'
+	\L_02cc7:
+	\0:
+	!VAR0004 : 0!
+	!VAR0005 : 288!
+	!VAR0006 : 24!
+	!VAR0007 : 0!
+	!VAR0008 : 288!
+	!VAR0009 : 194!
+*L_02bb0:
+	!VAR0004 : VAR0004 + 1!
+	CS 120, 400, 20, 20, VAR0005, VAR0006, 40:
+	!VAR0516 : 0!
+	!VAR0000 : 89!
+	%#PCMPLAY.ADV:
+	!VAR0005 : VAR0005 + 24!
+	{VAR0005 > 620:
+		!VAR0005 : 288!
+		{VAR0004 > 27:
+			!VAR0005 : 240!
+		}
+		!VAR0006 : VAR0006 + 24!
+	}
+	@L_02c6c:
+*L_02c0e:
+	!VAR0007 : VAR0007 + 1!
+	CS 140, 400, 20, 20, VAR0008, VAR0009, 40:
+	!VAR0516 : 0!
+	!VAR0000 : 90!
+	%#PCMPLAY.ADV:
+	!VAR0008 : VAR0008 + 24!
+	{VAR0008 > 620:
+		!VAR0008 : 288!
+		{VAR0007 > 27:
+			!VAR0008 : 240!
+		}
+		!VAR0009 : VAR0009 + 24!
+	}
+	@L_02c6c:
+*L_02c6c:
+	\L_02cc7:
+	!VAR0516 : 3!
+	%#PCMPLAY.ADV:
+	!VAR0516 : 0!
+	CC 640, 0, 192, 256, 0, 0:
+	\0:
+*L_02c95:
+	J0 0, 0:
+	G VAR0516, 40:
+	!VAR0516 : 0!
+	\0:
+*L_02cac:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+*L_02cc7:
+	IK 0:
+	CC 770, 272, 380, 124, 130, 272:
+	!VAR0516 : 0!
+	Y 1, 1:
+	\0:

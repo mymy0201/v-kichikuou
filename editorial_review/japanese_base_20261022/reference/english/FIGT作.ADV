@@ -1,0 +1,538 @@
+	{VAR0516 = 1:
+		@L_00048:
+	}
+	{VAR0516 = 2:
+		@L_006b2:
+	}
+*L_00048:
+	!VAR0021 : VAR0021 - VAR0022!
+	Y 4, 100:
+	{VAR0021 < VAR0000:
+		%0:
+	}
+	!VAR0154 : VAR0611!
+	MM 1, VAR0198 + (VAR0154 - 1) * 3:
+	J1 0, 400:
+	G 899:
+	J1 0, 400:
+	G VAR0070:
+	{(VAR0074 > VAR0580) + (VAR0074 = VAR0580):
+		J1 0, 400:
+		G VAR0094, 40:
+	}
+	{(VAR0074 < VAR0580) * (VAR0074 \ 0):
+		J1 0, 400:
+		G VAR0095, 40:
+	}
+	{VAR0074 = 0:
+		J1 0, 400:
+		G VAR0096, 40:
+	}
+	J0 0, 544:
+	G VAR0097, 40:
+	CC 0, 400, 640, 400, 0, 0:
+	!VAR0021 : VAR0021 - VAR0000!
+	\L_009d1:
+	ZH 1:
+	R
+	'Ally army’s strategy'
+	R
+	'was successful.'
+	\L_00a4e:
+	\L_00a41:
+	!VAR0606 : 1!
+	{VAR0021 > 50:
+		!VAR0606 : 2!
+	}
+	{VAR0154 = 2:
+		\L_009b5:
+		ZH 1:
+		'Sorry.'
+		R
+		'I’m doing this for'
+		R
+		'Master Rance...'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 5:
+		\L_009b5:
+		ZH 1:
+		'Our surprise rear'
+		R
+		'attack was'
+		R
+		'successful. The'
+		R
+		'enemy forces are'
+		R
+		'in chaos.'
+		R
+		'Now’s our chance.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 6:
+		\L_009b5:
+		ZH 1:
+		'It was a very'
+		R
+		'basic strategy,'
+		R
+		'but it worked.'
+		R
+		'Always know the'
+		R
+		'basics. Now,'
+		R
+		'begin!'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 10:
+		\L_009b5:
+		ZH 1:
+		'Did it.'
+		R
+		'We’ve'
+		R
+		'successfully'
+		R
+		'surrounded the'
+		R
+		'enemy.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 12:
+		\L_009b5:
+		ZH 1:
+		'We were able to'
+		R
+		'take the enemy'
+		R
+		'from behind.'
+		R
+		'Success.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 13:
+		\L_009b5:
+		ZH 1:
+		'The strategy'
+		R
+		'that Sir Ex'
+		R
+		'taught me'
+		R
+		'worked.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 14:
+		\L_009b5:
+		ZH 1:
+		'I can read all'
+		R
+		'your actions.'
+		R
+		'You’re in the'
+		R
+		'palm of my hand.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 15:
+		\L_009b5:
+		ZH 1:
+		'I’ve got it.'
+		R
+		'Let’s use'
+		R
+		'Formation V'
+		R
+		'for this.'
+		R
+		R
+		'Sayoriiii!'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 16:
+		\L_009b5:
+		ZH 1:
+		'Strategy'
+		R
+		'successful!'
+		R
+		'Now we’ll'
+		R
+		'annihilate them'
+		R
+		'with the Tulip.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 20:
+		\L_009b5:
+		ZH 1:
+		'I learned a few'
+		R
+		'things after'
+		R
+		'living for'
+		R
+		'hundreds of'
+		R
+		'years.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 22:
+		\L_009b5:
+		ZH 1:
+		'This is for'
+		R
+		'Amiran, but'
+		R
+		'it’s futile...'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 28:
+		!VAR0701 : VAR0701 + 1!
+		{VAR0701 > 10:
+			\L_009b5:
+			ZH 1:
+			'I’m glad I joined'
+			R
+			'the Leazas Army.'
+			R
+			'Pulling off'
+			R
+			'successful'
+			R
+			'strategies is'
+			R
+			'what I live for.'
+			\L_00a4e:
+			\L_00a41:
+			@L_00632:
+		}
+		\L_009b5:
+		ZH 1:
+		'Huhuhuhuhu.'
+		R
+		'This moment,'
+		R
+		'this is what'
+		R
+		'I live for.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 34:
+		\L_009b5:
+		ZH 1:
+		'I expect no'
+		R
+		'less of'
+		R
+		'myself... Someday'
+		R
+		'I’ll be the'
+		R
+		'greatest general'
+		R
+		'in Leazas.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 35:
+		\L_009b5:
+		ZH 1:
+		'Haah...'
+		R
+		'Looks like it'
+		R
+		'worked somehow...'
+		R
+		'My heart’s'
+		R
+		'still pounding...'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 36:
+		\L_009b5:
+		ZH 1:
+		'Alright,'
+		R
+		'that’s good.'
+		R
+		'Now, let’s'
+		R
+		'besiege them.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	{VAR0154 = 37:
+		\L_00999:
+		ZH 1:
+		'Fools.'
+		R
+		'I won’t pity'
+		R
+		'any foes that'
+		R
+		'would fall into'
+		R
+		'such a simple'
+		R
+		'trap!'
+		\L_00a4e:
+		\L_00a41:
+		@L_00632:
+	}
+	\L_009b5:
+	ZH 1:
+	'...Alright.'
+	\L_00a4e:
+	\L_00a41:
+*L_00632:
+	\L_009d1:
+	ZH 1:
+	'Thanks to the'
+	R
+	'successful strategy,'
+	R
+	{VAR0606 = 1:
+		ZH 1:
+		' ally armies’ battle'
+		R
+		' effectiveness'
+		R
+		' increased.'
+		R
+		'   (+10%)'
+	}
+	{VAR0606 = 2:
+		ZH 1:
+		' ally armies’ battle'
+		R
+		' effectiveness'
+		R
+		' increased.'
+		R
+		'   (+50%)'
+	}
+	\L_00a4e:
+	\L_00a41:
+	%0:
+*L_006b2:
+	!VAR0022 : VAR0022 - VAR0021!
+	Y 4, 100:
+	{VAR0022 < VAR0000:
+		%0:
+	}
+	!VAR0022 : VAR0022 - VAR0000!
+	!VAR0156 : VAR0612!
+	MM 4, VAR0199 + (VAR0156 - 1) * 3:
+	J1 0, 400:
+	G 899:
+	J1 0, 400:
+	G 900:
+	{(VAR0106 > VAR0580) + (VAR0106 = VAR0580):
+		J1 0, 400:
+		G VAR0120, 40:
+	}
+	{(VAR0106 < VAR0580) * (VAR0106 \ 0):
+		J1 0, 400:
+		G VAR0121, 40:
+	}
+	{VAR0106 = 0:
+		J1 0, 400:
+		G VAR0122, 40:
+	}
+	J0 448, 544:
+	G VAR0123, 40:
+	CC 0, 400, 640, 400, 0, 0:
+	\L_009d1:
+	ZH 1:
+	'The enemy army’s'
+	R
+	'strategy was'
+	R
+	'successful.'
+	\L_00a4e:
+	\L_00a41:
+	!VAR0606 : 11!
+	{VAR0022 > 50:
+		!VAR0606 : 12!
+	}
+	{VAR0156 = 1:
+		\L_009ed:
+		ZH 1:
+		'We have inferior'
+		R
+		'numbers, so we'
+		R
+		'have to fight'
+		R
+		'using our heads.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00919:
+	}
+	{VAR0156 = 4:
+		\L_009ed:
+		ZH 1:
+		'Sorry, but you'
+		R
+		'fell into my trap.'
+		\L_00a4e:
+		\L_00a41:
+		@L_00919:
+	}
+	{VAR0156 = 8:
+		\L_009ed:
+		ZH 1:
+		'Okay!'
+		R
+		'Strategy'
+		R
+		'successful.'
+		R
+		'Tackle Leazas!'
+		\L_00a4e:
+		\L_00a41:
+		@L_00919:
+	}
+	{VAR0156 = 22:
+		\L_00a09:
+		ZH 1:
+		'Alright...'
+		R
+		'Now fighting'
+		R
+		'should be'
+		R
+		'easier...'
+		\L_00a4e:
+		\L_00a41:
+		@L_00919:
+	}
+	{VAR0156 = 45:
+		\L_009ed:
+		ZH 1:
+		'Aah... This'
+		R
+		'is boring...'
+		R
+		'That was way'
+		R
+		'too easy...'
+		\L_00a4e:
+		\L_00a41:
+		@L_00919:
+	}
+	\L_00a09:
+	ZH 1:
+	'...Alright.'
+	\L_00a4e:
+	\L_00a41:
+*L_00919:
+	\L_009d1:
+	ZH 1:
+	'Thanks to the'
+	R
+	'successful strategy,'
+	R
+	{VAR0606 = 11:
+		ZH 1:
+		' ally armies’ battle'
+		R
+		' effectiveness'
+		R
+		' decreased.'
+		R
+		'   (-10%)'
+	}
+	{VAR0606 = 12:
+		ZH 1:
+		' Ally armies’ battle'
+		R
+		' effectiveness'
+		R
+		' decreased.'
+		R
+		'   (-50%)'
+	}
+	\L_00a4e:
+	\L_00a41:
+	%0:
+*L_00999:
+	!VAR0521 : 141!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 241!
+	%#WAO_SUB.ADV:
+	\0:
+*L_009b5:
+	!VAR0521 : 142!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 242!
+	%#WAO_SUB.ADV:
+	\0:
+*L_009d1:
+	!VAR0521 : 143!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 243!
+	%#WAO_SUB.ADV:
+	\0:
+*L_009ed:
+	!VAR0521 : 151!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 251!
+	%#WAO_SUB.ADV:
+	\0:
+*L_00a09:
+	!VAR0521 : 152!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 252!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 153!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 253!
+	%#WAO_SUB.ADV:
+	\0:
+*L_00a41:
+	!VAR0521 : 10!
+	%#WAO_SUB.ADV:
+	\0:
+*L_00a4e:
+	!VAR0521 : 11!
+	%#WAO_SUB.ADV:
+	\0:

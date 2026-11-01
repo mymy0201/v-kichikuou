@@ -15,28 +15,28 @@
 	}
 	\L_002cb:
 	ZH 1:
-	'［'
+	'['
 	X 8:
-	'］'
+	']'
 	R
-	'　　　　　'
+	''
 	\L_00179:
 	{VAR0231 \ 1:
 		ZH 1:
-		'Kinh tế: ?? Phòng thủ:'
+		'K.tế: ??  Thủ: ??'
 		R
-		'?? Địa hình giao chiến: ??'
+		'Chiến trường: ??'
 	}
 	{VAR0231 = 1:
 		ZH 1:
-		'Kinh tế:'
+		'Kinh tế: '
 		H 0, VAR0132:
 		ZH 1:
-		'Phòng thủ:'
+		'  Thủ: '
 		H 0, VAR0133:
 		ZH 1:
 		R
-		'Địa hình giao chiến:'
+		'Chiến trường: '
 		H 0, VAR0134:
 	}
 *L_00107:

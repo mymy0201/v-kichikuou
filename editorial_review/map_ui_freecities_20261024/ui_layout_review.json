@@ -1,0 +1,850 @@
+[
+  {
+    "file": "Cﾌﾞｶ.ADV",
+    "group": 17,
+    "before": "(Cấp chiến đấu ) HP: ／ Tấn công: Phòng thủ: Kinh nghiệm［ ／ ］",
+    "after": "Cấp:   HP: ／ Công:   Thủ: EXP［ ／ ］",
+    "reason": "Shared dynamic information panel: four physical rows, compact labels, explicit line breaks between name/faction/stats. UI layout, not narrative rewrite.",
+    "kind": "dynamic_UI_layout",
+    "before_parts": [
+      {
+        "line": 1108,
+        "text": "(Cấp chiến đấu",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1111,
+        "text": ") HP:",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1114,
+        "text": "／",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1118,
+        "text": "Tấn công:",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1121,
+        "text": "Phòng thủ:",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1125,
+        "text": "Kinh nghiệm［",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1128,
+        "text": "／",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1131,
+        "text": "］",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      }
+    ],
+    "after_parts": [
+      {
+        "line": 1109,
+        "text": "Cấp:",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1112,
+        "text": "  HP:",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1115,
+        "text": "／",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1119,
+        "text": "Công:",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1122,
+        "text": "  Thủ:",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1126,
+        "text": "EXP［",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1129,
+        "text": "／",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1132,
+        "text": "］",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      }
+    ],
+    "jp_groups": [
+      15
+    ],
+    "en_groups": [
+      17
+    ],
+    "japanese": "（戦闘ＬＶ ） ＨＰ： ／ 攻撃力： 　防御力： 現在の経験値［ ／ ］",
+    "english": "（Battle LV ） HP:  ／ Attack:  　Defense:  Experience［ ／ ］"
+  },
+  {
+    "file": "Cﾌﾞｶ.ADV",
+    "group": 18,
+    "before": "Tỷ lệ mưu kế thành công: % Ma lực/kháng phép: Số lần tấn công:",
+    "after": "Mưu kế:  % Ma lực/thủ:  Lượt đánh: ",
+    "reason": "Shared dynamic information panel: four physical rows, compact labels, explicit line breaks between name/faction/stats. UI layout, not narrative rewrite.",
+    "kind": "dynamic_UI_layout",
+    "before_parts": [
+      {
+        "line": 1140,
+        "text": "Tỷ lệ mưu kế thành công:",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1143,
+        "text": "% Ma lực/kháng phép:",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1147,
+        "text": "Số lần tấn công:",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      }
+    ],
+    "after_parts": [
+      {
+        "line": 1141,
+        "text": "Mưu kế: ",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1144,
+        "text": "%",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1146,
+        "text": "Ma lực/thủ: ",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1150,
+        "text": "Lượt đánh: ",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      }
+    ],
+    "jp_groups": [
+      16
+    ],
+    "en_groups": [
+      18
+    ],
+    "japanese": "　作戦成功確立　　： ％ 　魔法力／魔法防御： 　攻撃回数　　　　：",
+    "english": "　Successful Strat. Chance: % 　Magic Attack/Defense: 　# of Attacks:"
+  },
+  {
+    "file": "Cﾌﾞｶ.ADV",
+    "group": 19,
+    "before": "Chỉ huy: Công kích (Công ＋ － /Thủ ＋ － ) Phòng thủ (Công ＋ － /Thủ ＋ － ) Mê cung (Công ＋ － /Thủ ＋ － ）",
+    "after": "Chỉ huy theo địa hình Công: C ＋ － /T ＋ －   Thủ: C ＋ － /T ＋ －   Hang: C ＋ － /T ＋ － ",
+    "reason": "Shared dynamic information panel: four physical rows, compact labels, explicit line breaks between name/faction/stats. UI layout, not narrative rewrite.",
+    "kind": "dynamic_UI_layout",
+    "before_parts": [
+      {
+        "line": 1156,
+        "text": "Chỉ huy: Công kích (Công",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1159,
+        "text": "＋",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1164,
+        "text": "－",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1168,
+        "text": "/Thủ",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1171,
+        "text": "＋",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1176,
+        "text": "－",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1180,
+        "text": ") Phòng thủ (Công",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1183,
+        "text": "＋",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1188,
+        "text": "－",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1192,
+        "text": "/Thủ",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1195,
+        "text": "＋",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1200,
+        "text": "－",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1204,
+        "text": ") Mê cung (Công",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1207,
+        "text": "＋",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1212,
+        "text": "－",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1216,
+        "text": "/Thủ",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1219,
+        "text": "＋",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1224,
+        "text": "－",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1228,
+        "text": "）",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      }
+    ],
+    "after_parts": [
+      {
+        "line": 1159,
+        "text": "Chỉ huy theo địa hình",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1161,
+        "text": "Công: C",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1164,
+        "text": "＋",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1169,
+        "text": "－",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1173,
+        "text": "/T",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1176,
+        "text": "＋",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1181,
+        "text": "－",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1185,
+        "text": " ",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1187,
+        "text": "Thủ: C",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1190,
+        "text": "＋",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1195,
+        "text": "－",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1199,
+        "text": "/T",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1202,
+        "text": "＋",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1207,
+        "text": "－",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1211,
+        "text": " ",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1213,
+        "text": "Hang: C",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1216,
+        "text": "＋",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1221,
+        "text": "－",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1225,
+        "text": "/T",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1228,
+        "text": "＋",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1233,
+        "text": "－",
+        "indent": "\t\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 1237,
+        "text": "",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      }
+    ],
+    "jp_groups": [
+      17
+    ],
+    "en_groups": [
+      19
+    ],
+    "japanese": "状況に応じた戦闘指揮修正値 攻撃時　（攻撃 ＋ － ／防御 ＋ － ） 防御時　（攻撃 ＋ － ／防御 ＋ － ） 迷宮時　（攻撃 ＋ － ／防御 ＋ － ）",
+    "english": "Situational Command Ability On Offense　 （Atk ＋ － ／Def ＋ － ） On Defense  （Atk ＋ － ／Def ＋ － ） In Dungeons （Atk ＋ － ／Def ＋ － ）"
+  },
+  {
+    "file": "Cｼﾊｲﾄｼ.ADV",
+    "group": 0,
+    "before": "［ ］ (Quân Leazas) Kinh tế: Phòng thủ: Địa hình giao chiến:",
+    "after": "[ ] (Quân Leazas) Kinh tế:    Thủ:  Chiến trường: ",
+    "reason": "Shared dynamic information panel: four physical rows, compact labels, explicit line breaks between name/faction/stats. UI layout, not narrative rewrite.",
+    "kind": "dynamic_UI_layout",
+    "before_parts": [
+      {
+        "line": 17,
+        "text": "［",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 19,
+        "text": "］ (Quân Leazas) Kinh tế:",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 22,
+        "text": "Phòng thủ:",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 26,
+        "text": "Địa hình giao chiến:",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      }
+    ],
+    "after_parts": [
+      {
+        "line": 17,
+        "text": "[",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 19,
+        "text": "]",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 21,
+        "text": "(Quân Leazas)",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 23,
+        "text": "Kinh tế: ",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 26,
+        "text": "  Thủ: ",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 30,
+        "text": "Chiến trường: ",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      }
+    ],
+    "jp_groups": [
+      0
+    ],
+    "en_groups": [
+      0
+    ],
+    "japanese": "［ ］ 　　　（リーザス軍） 経済力： 　防衛力： 戦闘域：",
+    "english": "［ ］ 　　　（Leazas Army） Economy:  　Defense:  Battle Area: "
+  },
+  {
+    "file": "Cﾃｷﾄｼ.ADV",
+    "group": 0,
+    "before": "［ ］ Kinh tế: ?? Phòng thủ: ?? Khu vực chiến đấu: ?? Kinh tế: Phòng thủ: Khu vực chiến đấu:",
+    "after": "[ ] K.tế: ??  Thủ: ?? Chiến trường: ?? Kinh tế:    Thủ:  Chiến trường: ",
+    "reason": "Shared dynamic information panel: four physical rows, compact labels, explicit line breaks between name/faction/stats. UI layout, not narrative rewrite.",
+    "kind": "dynamic_UI_layout",
+    "before_parts": [
+      {
+        "line": 20,
+        "text": "［",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 22,
+        "text": "］",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 26,
+        "text": "Kinh tế: ?? Phòng thủ:",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 28,
+        "text": "?? Khu vực chiến đấu: ??",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 32,
+        "text": "Kinh tế:",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 35,
+        "text": "Phòng thủ:",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 39,
+        "text": "Khu vực chiến đấu:",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      }
+    ],
+    "after_parts": [
+      {
+        "line": 20,
+        "text": "[",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 22,
+        "text": "]",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 27,
+        "text": "K.tế: ??  Thủ: ??",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 29,
+        "text": "Chiến trường: ??",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 33,
+        "text": "Kinh tế: ",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 36,
+        "text": "  Thủ: ",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 40,
+        "text": "Chiến trường: ",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      }
+    ],
+    "jp_groups": [
+      0
+    ],
+    "en_groups": [
+      0
+    ],
+    "japanese": "［ ］ 　　　　　 経済力：？？　防衛力：？？ 戦闘域：？？ 経済力： 　防衛力： 戦闘域：",
+    "english": "［ ］ 　　　　　 Economy: ??　Defense: ?? Battle Area: ?? Economy:  　Defense:  Battle Area: "
+  },
+  {
+    "file": "Cﾃｷﾄｼ2.ADV",
+    "group": 0,
+    "before": "［ ］ 　　　　　 Kinh tế: ?? Phòng thủ: ?? Địa hình giao chiến: ?? Kinh tế: Phòng thủ: Địa hình giao chiến:",
+    "after": "[ ]  K.tế: ??  Thủ: ?? Chiến trường: ?? Kinh tế:    Thủ:  Chiến trường: ",
+    "reason": "Shared dynamic information panel: four physical rows, compact labels, explicit line breaks between name/faction/stats. UI layout, not narrative rewrite.",
+    "kind": "dynamic_UI_layout",
+    "before_parts": [
+      {
+        "line": 18,
+        "text": "［",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 20,
+        "text": "］",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 22,
+        "text": "　　　　　",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 26,
+        "text": "Kinh tế: ?? Phòng thủ:",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 28,
+        "text": "?? Địa hình giao chiến: ??",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 32,
+        "text": "Kinh tế:",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 35,
+        "text": "Phòng thủ:",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 39,
+        "text": "Địa hình giao chiến:",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      }
+    ],
+    "after_parts": [
+      {
+        "line": 18,
+        "text": "[",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 20,
+        "text": "]",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 22,
+        "text": "",
+        "indent": "\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 26,
+        "text": "K.tế: ??  Thủ: ??",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 28,
+        "text": "Chiến trường: ??",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 32,
+        "text": "Kinh tế: ",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 35,
+        "text": "  Thủ: ",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      },
+      {
+        "line": 39,
+        "text": "Chiến trường: ",
+        "indent": "\t\t",
+        "trailing_r": false,
+        "font_size": 24
+      }
+    ],
+    "jp_groups": [
+      0
+    ],
+    "en_groups": [
+      0
+    ],
+    "japanese": "［ ］ 　　　　　 経済力：？？　防衛力：？？ 戦闘域：？？ 経済力： 　防衛力： 戦闘域：",
+    "english": "［ ］ 　　　　　 Economy: ??　Defense: ?? Battle Area: ?? Economy:  　Defense:  Battle Area: "
+  }
+]

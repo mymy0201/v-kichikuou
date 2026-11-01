@@ -1,0 +1,34 @@
+{
+  "active_batch": "retranslate_jp_20261029_b28",
+  "counts": {
+    "scripts": 201,
+    "positioned": 13808,
+    "unresolved": 137
+  },
+  "prior_unresolved": 137,
+  "newly_unresolved": [],
+  "unresolved_reasons": {
+    "historical start has no verified original label/backup; current end unknown": 42,
+    "frozen historical range changed or no hash-verified backup; current position unresolved": 67,
+    "cannot verify current position; no ordinal guess": 28
+  },
+  "menad_unresolved": [],
+  "new_exclusions": [
+    {
+      "file": "Gﾒﾅﾄﾞ.ADV",
+      "batch": "retranslate_jp_20261029_b28",
+      "source": "editorial_review\\retranslate_jp_20261029_b28\\coverage.json",
+      "kind": "group",
+      "index": 96,
+      "reason": "H/cận H/nhóm trộn theo nhãn lịch sử",
+      "vi_start": 1218,
+      "vi_end": 1232,
+      "scene": "L_013fb",
+      "alignment": "command anchor + stable group count"
+    }
+  ],
+  "inspection": "Compared all unresolved identities against frozen prior index; preserve every historical index/provenance; no guessed line numbers.",
+  "index_regeneration": "passed",
+  "index_check": "passed, exit0",
+  "installed_python": "C:/Users/Leerin/AppData/Local/Programs/Python/Python313/python.exe"
+}

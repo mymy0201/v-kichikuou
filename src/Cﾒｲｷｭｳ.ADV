@@ -247,15 +247,15 @@
 	R
 	{VAR0147 = 0:
 		ZH 1:
-		'（Chưa tìm kiếm）'
+		'（Chưa thám hiểm）'
 	}
 	{VAR0147 = 1:
 		ZH 1:
-		'（Đang tìm kiếm）'
+		'（Đang thám hiểm）'
 	}
 	{VAR0147 = 2:
 		ZH 1:
-		'（Đã tìm kiếm đầy đủ）'
+		'（Đã chinh phục）'
 	}
 *L_007df:
 	IM VAR0202, VAR0203:
@@ -265,30 +265,30 @@
 	\L_0755b:
 	ZH 1:
 	$L_008d1$
-	'Bắt đầu tìm kiếm'
+	'Bắt đầu thám hiểm'
 	$
 	{(VAR0486 = 1) * (VAR0480 = 0):
 		ZH 1:
 		$L_072b8$
-		'Mang theo Merim'
+		'Dẫn Merim theo'
 		$
 	}
 	{(VAR0486 = 1) * (VAR0480 = 1):
 		ZH 1:
 		$L_07344$
-		'Rời khỏi Merim'
+		'Để Merim ở lại'
 		$
 	}
 	{(VAR0162 = 10) * (VAR0147 = 2) * (VAR0401 = 7):
 		ZH 1:
 		$L_0712e$
-		'Mang theo con bò hồng'
+		'Dẫn bò hồng theo'
 		$
 	}
 	{(VAR0162 = 30) * (VAR0487 \ 0):
 		ZH 1:
 		$L_05437$
-		'Cửa Thiên Chúa'
+		'Cửa Thần'
 		$
 	}
 	ZH 1:
@@ -309,11 +309,9 @@
 	\L_075c5:
 	\L_07571:
 	ZH 1:
-	'Được rồi, đã'
+	'Được, bắt đầu thám hiểm! Tìm'
 	R
-	'đến lúc tìm kiếm. Hãy'
-	R
-	'tìm một số kho báu!'
+	'kho báu nào!'
 	\L_076a4:
 	\L_07697:
 	!VAR0516 : 6!
@@ -323,14 +321,12 @@
 	}
 	\L_075e1:
 	ZH 1:
-	'Vâng, King Rance...'
+	'Vâng...'
 	\L_076a4:
 	ZH 1:
-	'Vậy vui lòng chọn'
+	'Xin Bệ hạ chọn đơn'
 	R
-	'đơn vị cậu muốn tìm'
-	R
-	'kiếm trong ngục tối.'
+	'vị đi thám hiểm.'
 	\L_076a4:
 	\L_07697:
 	!VAR0021 : 1!
@@ -375,23 +371,23 @@
 		\L_075a9:
 		ZH 1:
 		X 1:
-		'Đơn vị của Mars vĩ'
+		' dẫn quân'
 		R
-		'đại đã bị một trận bão tuyết'
-		R
-		'tấn công trên đường đi.'
+		'gặp bão tuyết dọc đường.'
 		\L_076a4:
 		ZH 1:
-		'Của'
+		'Tổng '
 		H 0, VAR0074:
 		ZH 1:
-		'trong quân đội,'
+		', '
 		Y 4, VAR0074:
 		!VAR0074 : VAR0074 - VAR0000!
 		H 0, VAR0000:
 		ZH 1:
 		R
-		'bị thương trong thảm họa.'
+		'người bị thương'
+		R
+		'hoặc mất tích.'
 		\L_076a4:
 		\L_07697:
 	}
@@ -399,11 +395,9 @@
 		\L_075a9:
 		ZH 1:
 		X 1:
-		'Đơn vị của [14]'
+		' dẫn quân'
 		R
-		'đã bị một trận bão tuyết'
-		R
-		'tấn công trên đường đi.'
+		'gặp bão tuyết dọc đường.'
 		\L_076a4:
 		Y 4, VAR0074:
 		!VAR0000 : VAR0074 / 2 + VAR0000!
@@ -413,7 +407,7 @@
 		!VAR0074 : VAR0074 - VAR0000!
 		H 0, VAR0000:
 		ZH 1:
-		'người đã bị mất.'
+		' người mất tích.'
 		\L_076a4:
 		\L_07697:
 	}
@@ -428,7 +422,7 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'Đơn vị của [16] đã đến'
+	' đã tới'
 	R
 	X 8:
 	'.'
@@ -634,20 +628,16 @@
 	}
 	\L_075a9:
 	ZH 1:
-	'Cuộc tìm kiếm'
+	'Lần trước đã dừng'
 	R
-	'trước đây của ngục tối'
-	R
-	'này đã kết thúc ở tầng'
+	'ở tầng '
 	H 0, VAR0148:
 	ZH 1:
 	'.'
 	R
 	\L_076a4:
 	ZH 1:
-	'Ngươi có muốn'
-	R
-	'bắt đầu từ đó không?'
+	'Tiếp tục từ đó chứ?'
 *L_010d5:
 	IM VAR0202, VAR0203:
 	{VAR0000:
@@ -656,7 +646,7 @@
 	ZH 1:
 	$L_01127$
 	H 0, VAR0148:
-	'F Bật'
+	'F trở đi'
 	$
 	R
 	$L_0111d$
@@ -696,7 +686,7 @@
 	ZH 1:
 	R
 	X 1:
-	' - Đơn vị ('
+	' ('
 	H 0, VAR0074:
 	ZH 1:
 	')'
@@ -859,6 +849,19 @@
 		!VAR0484 : 250!
 	}
 *L_016b4:
+	IK 3:
+	{(VAR0000 = 1) * (VAR0483 = 1) * (VAR0481 \ 1):
+		@L_01c0a:
+	}
+	{(VAR0000 = 1) * (VAR0483 = 2) * (VAR0481 < VAR0482):
+		@L_01982:
+	}
+	{(VAR0000 = 2) * (VAR0483 = 2) * (VAR0481 \ 1):
+		@L_01c0a:
+	}
+	{(VAR0000 = 2) * (VAR0483 = 1) * (VAR0481 < VAR0482):
+		@L_01982:
+	}
 	IM VAR0202, VAR0203:
 	{VAR0000:
 		@L_016b4:
@@ -867,13 +870,13 @@
 	{(VAR0483 = 1) * (VAR0481 \ 1):
 		ZH 1:
 		$L_01c0a$
-		'Thăng thiên'
+		'Leo lên'
 		$
 	}
 	{(VAR0483 = 2) * (VAR0481 < VAR0482):
 		ZH 1:
 		$L_01982$
-		'Thăng thiên'
+		'Đi lên'
 		$
 	}
 	{(VAR0483 = 2) * (VAR0481 \ 1):
@@ -885,12 +888,12 @@
 	{(VAR0483 = 1) * (VAR0481 < VAR0482):
 		ZH 1:
 		$L_01982$
-		'Đi xuống'
+		'Xuống dưới'
 		$
 	}
 	ZH 1:
 	$L_0181c$
-	'Rút lui'
+	'Thoát khẩn cấp'
 	$
 	]
 	@L_016b4:
@@ -916,7 +919,7 @@
 	ZH 1:
 	R
 	X 1:
-	' - Đơn vị ('
+	' ('
 	H 0, VAR0074:
 	ZH 1:
 	')'
@@ -925,9 +928,7 @@
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Ngươi đã tìm'
-	R
-	'kiếm xong chưa?'
+	'Kết thúc thám hiểm chứ?'
 *L_01830:
 	IM VAR0202, VAR0203:
 	{VAR0000:
@@ -939,7 +940,7 @@
 	$
 	R
 	$L_018c3$
-	'Tiếp tục đi'
+	'Tiếp tục'
 	$
 	]
 	]
@@ -948,9 +949,7 @@
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Ngươi có muốn'
-	R
-	'ra ngoài không?'
+	'Ra ngoài chứ?'
 *L_0188a:
 	IM VAR0202, VAR0203:
 	{VAR0000:
@@ -958,11 +957,11 @@
 	}
 	ZH 1:
 	$L_018cd$
-	'Kết thúc tìm kiếm'
+	'Kết thúc thám hiểm'
 	$
 	R
 	$L_018c3$
-	'Tiếp tục đi'
+	'Tiếp tục'
 	$
 	]
 *L_018c3:
@@ -977,10 +976,10 @@
 	\L_0766d:
 	\L_075a9:
 	ZH 1:
-	'Tìm kiếm'
+	'Đã kết thúc thám hiểm tại:'
 	R
 	X 8:
-	'đã kết thúc.'
+	'.'
 	\L_076a4:
 	\L_07697:
 	SS VAR0515:
@@ -1008,12 +1007,12 @@
 	\L_075a9:
 	{VAR0483 = 1:
 		ZH 1:
-		'Đang dần đi xuống.'
+		'Từ từ đi xuống.'
 		\L_076a4:
 	}
 	{VAR0483 = 2:
 		ZH 1:
-		'Từ từ đi lên.'
+		'Từ từ leo lên.'
 		\L_076a4:
 	}
 	\L_07506:
@@ -1090,12 +1089,12 @@
 	\L_075a9:
 	{VAR0483 = 1:
 		ZH 1:
-		'Dần dần tiến lên.'
+		'Từ từ đi lên.'
 		\L_076a4:
 	}
 	{VAR0483 = 2:
 		ZH 1:
-		'Từ từ đi xuống.'
+		'Từ từ leo xuống.'
 		\L_076a4:
 	}
 	\L_07506:
@@ -1306,16 +1305,12 @@
 		!VAR0715 : 2!
 		\L_075a9:
 		ZH 1:
-		'Một kho báu'
+		'Phát hiện kho báu khuất'
 		R
-		'được tìm thấy đằng sau'
-		R
-		'xác chết của Gunagan.'
+		'sau xác Gunagan vừa bị hạ.'
 		\L_076a4:
 		ZH 1:
-		'Đây là thể'
-		R
-		'loại tranh gì...?'
+		'Có vẻ là một bức tranh...'
 		\L_076a4:
 		\L_07697:
 		EC 0:
@@ -1323,15 +1318,13 @@
 		G 862:
 		\L_07651:
 		ZH 1:
-		'............'
+		'..................'
 		\L_076a4:
 		ZH 1:
-		'Đây đúng là một bức tranh...'
+		'Đó là một bức tranh thật... khó tả...'
 		\L_076a4:
 		ZH 1:
-		'Gunagan chắc hẳn đã nhìn'
-		R
-		'thấy thứ gì đó trong đó...'
+		'Chắc với Gunagan thì nó có giá trị...'
 		\L_076a4:
 		\L_07697:
 		EC 0:
@@ -1339,9 +1332,9 @@
 		\L_0766d:
 		\L_075a9:
 		ZH 1:
-		'（ quăng ） Vứt'
+		'(Quăng) Đã vứt bỏ'
 		R
-		'bỏ kho báu của Gunagan.'
+		'kho báu của Gunagan.'
 		\L_076a4:
 		\L_07697:
 	}
@@ -1354,14 +1347,14 @@
 				!VAR0486 : 2!
 				\L_075a9:
 				ZH 1:
-				'Trong lúc đánh nhau,'
+				'Giữa trận hỗn chiến, Merim'
 				R
-				'Merim bị thương nặng.'
+				'không may bị trọng thương.'
 				\L_076a4:
 				ZH 1:
-				'Nàng hiện đang trong'
+				'Tình trạng của'
 				R
-				'tình trạng nguy kịch.'
+				'nàng rất nguy kịch.'
 				\L_076a4:
 				\L_07697:
 			}
@@ -1369,11 +1362,11 @@
 				!VAR0486 : 3!
 				\L_075a9:
 				ZH 1:
-				'Merim, không biết cách chiến'
+				'Merim chẳng biết đánh đấm,'
 				R
-				'đấu, đã bị một con quái vật'
+				'tội nghiệp bị quái vật'
 				R
-				'cắn chết trong trận chiến.'
+				'cắn chết giữa hỗn chiến.'
 				\L_076a4:
 				\L_07697:
 			}
@@ -1389,11 +1382,9 @@
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'（rumblerumble） Nghe'
+	'(Ầm...) Một tiếng động'
 	R
-	'thấy âm thanh như một'
-	R
-	'cơn chấn động lớn.'
+	'lớn như đất rung vọng tới.'
 	\L_076a4:
 	\L_07697:
 	!VAR0516 : VAR0097!
@@ -1405,46 +1396,40 @@
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'（ầm ầm）'
+	'（Ầm...）'
 	\L_076a4:
 	ZH 1:
-	'Âm thanh ngày'
-	R
-	'càng gần hơn.'
+	'Tiếng động mỗi lúc một gần.'
 	\L_076a4:
 	ZH 1:
-	'Sau đó, một sinh'
+	'Rồi một vật thể khổng lồ'
 	R
-	'vật khổng lồ xuất hiện.'
+	'hiện ra ngay trước mắt.'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Con người, ngươi phải'
+	'Lũ loài người, các'
 	R
-	'đến đây để mang theo vật'
+	'ngươi đã mang vật hiến'
 	R
-	'hiến tế của ta, như đã hứa.'
+	'tế tới như hẹn chứ?'
 	\L_076a4:
 	ZH 1:
-	'Ừm... Tôi'
-	R
-	'có nhầm không...?'
+	'Hử... Không phải sao?'
 	\L_076a4:
 	ZH 1:
-	'Tôi hiểu rồi, ngươi'
+	'Vậy là muốn liều mạng'
 	R
-	'đã liều lĩnh chọn chiến đấu'
-	R
-	'chống lại tôi… Ngu ngốc.'
+	'đấu với ta à... Ngu xuẩn.'
 	\L_076a4:
 	ZH 1:
-	'Khá là ngu ngốc...'
+	'Thật ngu xuẩn...'
 	\L_076a4:
 	ZH 1:
-	'Được rồi, chết đi. Trở'
+	'Được, hãy chết đi. Trở thành'
 	R
-	'thành thức ăn cho trái đất.'
+	'dưỡng chất cho đất!'
 	\L_076a4:
 	\L_07697:
 	\L_075d3:
@@ -1473,24 +1458,22 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'tìm thấy một rương'
+	' tìm thấy'
 	R
-	'kho báu trong ngục tối.'
+	'một rương báu ở sâu'
+	R
+	'trong mê cung.'
 	\L_076a4:
 	\L_07514:
 	ZH 1:
-	'Một ［Demon'
+	'Mở rương ra, bên trong'
 	R
-	'Overlord’s Pot］ đã được'
-	R
-	'tìm thấy trong rương.'
+	'có [Bình Đại Ma Vương].'
 	\L_076a4:
 	ZH 1:
-	'［Demon Overlord’s'
+	'Đã thêm [Bình Đại Ma'
 	R
-	'Pot］ đã được thêm vào'
-	R
-	'kho báu của Leazas.'
+	'Vương] vào kho báu.'
 	\L_076a4:
 	\L_0753a:
 	\L_07697:
@@ -1507,20 +1490,22 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'tìm thấy một rương'
+	' tìm thấy'
 	R
-	'kho báu trong ngục tối.'
+	'một rương báu ở sâu'
+	R
+	'trong mê cung.'
 	\L_076a4:
 	\L_07514:
 	ZH 1:
-	'Một [Bùa Tuyết] được'
+	'Mở rương ra, bên trong'
 	R
-	'tìm thấy trong rương.'
+	'có [Bùa Tuyết Hộ Mệnh].'
 	\L_076a4:
 	ZH 1:
-	'[Bùa Tuyết] đã được'
+	'Đã thêm [Bùa Tuyết'
 	R
-	'thêm vào kho báu của Leazas.'
+	'Hộ Mệnh] vào kho báu.'
 	\L_076a4:
 	\L_0753a:
 	\L_07697:
@@ -1537,22 +1522,22 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'tìm thấy một rương'
+	' tìm thấy'
 	R
-	'kho báu trong ngục tối.'
+	'một rương báu ở sâu'
+	R
+	'trong mê cung.'
 	\L_076a4:
 	\L_07514:
 	ZH 1:
-	'Một [Chiếc nhẫn trí tuệ]'
+	'Mở rương ra, bên trong'
 	R
-	'được tìm thấy trong rương.'
+	'có [Nhẫn Trí Tuệ].'
 	\L_076a4:
 	ZH 1:
-	'[Chiếc nhẫn'
+	'Đã thêm [Nhẫn Trí'
 	R
-	'trí tuệ] đã được thêm'
-	R
-	'vào kho báu của Leazas.'
+	'Tuệ] vào kho báu.'
 	\L_076a4:
 	\L_0753a:
 	\L_07697:
@@ -1569,20 +1554,22 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'tìm thấy một rương'
+	' tìm thấy'
 	R
-	'kho báu trong ngục tối.'
+	'một rương báu ở sâu'
+	R
+	'trong mê cung.'
 	\L_076a4:
 	\L_07514:
 	ZH 1:
-	'Một [Vevetar Mutant]'
+	'Mở rương ra, bên trong'
 	R
-	'được tìm thấy trong rương.'
+	'có [Dị biến thể Vevetar].'
 	\L_076a4:
 	ZH 1:
-	'[Vevetar Mutant] đã được'
+	'Đã thêm [Dị biến thể'
 	R
-	'thêm vào kho báu của Leazas.'
+	'Vevetar] vào kho báu.'
 	\L_076a4:
 	\L_0753a:
 	\L_07697:
@@ -1599,20 +1586,22 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'tìm thấy một rương'
+	' tìm thấy'
 	R
-	'kho báu trong ngục tối.'
+	'một rương báu ở sâu'
+	R
+	'trong mê cung.'
 	\L_076a4:
 	\L_07514:
 	ZH 1:
-	'Một [Jugon] được'
+	'Mở rương ra, bên trong'
 	R
-	'tìm thấy trong rương.'
+	'có [Ngư nhân Jugon].'
 	\L_076a4:
 	ZH 1:
-	'[Jugon] đã được thêm'
+	'Đã thêm [Ngư nhân'
 	R
-	'vào kho báu của Leazas.'
+	'Jugon] vào kho báu.'
 	\L_076a4:
 	\L_0753a:
 	\L_07697:
@@ -1629,22 +1618,22 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'tìm thấy một rương'
+	' tìm thấy'
 	R
-	'kho báu trong ngục tối.'
+	'một rương báu ở sâu'
+	R
+	'trong mê cung.'
 	\L_076a4:
 	\L_07514:
 	ZH 1:
-	'Một [Thanh kiếm Hawaii]'
+	'Mở rương ra, bên trong'
 	R
-	'được tìm thấy trong rương.'
+	'có [Gươm Hawaii].'
 	\L_076a4:
 	ZH 1:
-	'[Thanh kiếm'
+	'Đã thêm [Gươm'
 	R
-	'Hawaii] đã được thêm'
-	R
-	'vào kho báu của Leazas.'
+	'Hawaii] vào kho báu.'
 	\L_076a4:
 	\L_0753a:
 	\L_07697:
@@ -1661,20 +1650,22 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'tìm thấy một rương'
+	' tìm thấy'
 	R
-	'kho báu trong ngục tối.'
+	'một rương báu ở sâu'
+	R
+	'trong mê cung.'
 	\L_076a4:
 	\L_07514:
 	ZH 1:
-	'Một [Áo giáp Aztec]'
+	'Mở rương ra, bên trong'
 	R
-	'được tìm thấy trong rương.'
+	'có [Giáp trụ Aztec].'
 	\L_076a4:
 	ZH 1:
-	'[Áo giáp Aztec] đã được'
+	'Đã thêm [Giáp trụ'
 	R
-	'thêm vào kho báu của Leazas.'
+	'Aztec] vào kho báu.'
 	\L_076a4:
 	\L_0753a:
 	\L_07697:
@@ -1691,20 +1682,22 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'tìm thấy một rương'
+	' tìm thấy'
 	R
-	'kho báu trong ngục tối.'
+	'một rương báu ở sâu'
+	R
+	'trong mê cung.'
 	\L_076a4:
 	\L_07514:
 	ZH 1:
-	'Một [Space Shell]'
+	'Mở rương ra, bên trong'
 	R
-	'được tìm thấy trong rương.'
+	'có [Vỏ ốc Không Gian].'
 	\L_076a4:
 	ZH 1:
-	'[Space Shell] đã được'
+	'Đã thêm [Vỏ ốc Không'
 	R
-	'thêm vào kho báu của Leazas.'
+	'Gian] vào kho báu.'
 	\L_076a4:
 	\L_0753a:
 	\L_07697:
@@ -1721,20 +1714,22 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'tìm thấy một rương'
+	' tìm thấy'
 	R
-	'kho báu trong ngục tối.'
+	'một rương báu ở sâu'
+	R
+	'trong mê cung.'
 	\L_076a4:
 	\L_07514:
 	ZH 1:
-	'Một [Doping Drug]'
+	'Mở rương ra, bên trong'
 	R
-	'được tìm thấy trong rương.'
+	'có [Kích lực Dược].'
 	\L_076a4:
 	ZH 1:
-	'[Thuốc doping] đã được'
+	'Đã thêm [Kích lực'
 	R
-	'thêm vào kho báu của Leazas.'
+	'Dược] vào kho báu.'
 	\L_076a4:
 	\L_0753a:
 	\L_07697:
@@ -1751,20 +1746,22 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'tìm thấy một rương'
+	' tìm thấy'
 	R
-	'kho báu trong ngục tối.'
+	'một rương báu ở sâu'
+	R
+	'trong mê cung.'
 	\L_076a4:
 	\L_07514:
 	ZH 1:
-	'Một [Xác chim] được'
+	'Mở rương ra, bên trong'
 	R
-	'tìm thấy trong rương.'
+	'có [Xác chim nhỏ].'
 	\L_076a4:
 	ZH 1:
-	'[Xác chim] đã được'
+	'Đã thêm [Xác chim'
 	R
-	'thêm vào kho báu của Leazas.'
+	'nhỏ] vào kho báu.'
 	\L_076a4:
 	\L_0753a:
 	\L_07697:
@@ -1779,24 +1776,22 @@
 	\L_075c5:
 	\L_075a9:
 	X 1:
-	'tìm thấy một rương'
+	' tìm thấy'
 	R
-	'kho báu trong ngục tối.'
+	'một rương báu ở sâu'
+	R
+	'trong mê cung.'
 	\L_076a4:
 	\L_07514:
 	ZH 1:
-	'Một [Tượng'
+	'Mở rương ra, bên trong có'
 	R
-	'sức mạnh tà ác] được'
-	R
-	'tìm thấy trong rương.'
+	'[Tượng Sức mạnh Tà ác].'
 	\L_076a4:
 	ZH 1:
-	'[Tượng sức'
+	'Đã thêm [Tượng Sức mạnh'
 	R
-	'mạnh tà ác] đã được thêm'
-	R
-	'vào kho báu của Leazas.'
+	'Tà ác] vào kho báu.'
 	\L_076a4:
 	\L_0753a:
 	\L_07697:
@@ -1812,22 +1807,22 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'tìm thấy một rương'
+	' tìm thấy'
 	R
-	'kho báu trong ngục tối.'
+	'một rương báu ở sâu'
+	R
+	'trong mê cung.'
 	\L_076a4:
 	\L_07514:
 	ZH 1:
-	'Một [Nhẫn pha lê]'
+	'Mở rương ra, bên trong'
 	R
-	'được tìm thấy trong rương.'
+	'có [Nhẫn Pha Lê].'
 	\L_076a4:
 	ZH 1:
-	'[Chiếc nhẫn pha'
+	'Đã thêm [Nhẫn Pha'
 	R
-	'lê] đã được thêm vào'
-	R
-	'kho báu của Leazas.'
+	'Lê] vào kho báu.'
 	\L_076a4:
 	\L_0753a:
 	\L_07697:
@@ -1853,20 +1848,22 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'tìm thấy một rương'
+	' tìm thấy'
 	R
-	'kho báu trong ngục tối.'
+	'một rương báu ở sâu'
+	R
+	'trong mê cung.'
 	\L_076a4:
 	\L_07514:
 	ZH 1:
-	'Một [Tange Dog] được'
+	'Mở rương ra, bên trong'
 	R
-	'tìm thấy trong rương.'
+	'có [Chú chó Tange].'
 	\L_076a4:
 	ZH 1:
-	'[Tange Dog] đã được'
+	'Đã thêm [Chú chó'
 	R
-	'thêm vào kho báu của Leazas.'
+	'Tange] vào kho báu.'
 	\L_076a4:
 	\L_0753a:
 	\L_07697:
@@ -1882,20 +1879,22 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'tìm thấy một rương'
+	' tìm thấy'
 	R
-	'kho báu trong ngục tối.'
+	'một rương báu ở sâu'
+	R
+	'trong mê cung.'
 	\L_076a4:
 	\L_07514:
 	ZH 1:
-	'Một [Nhẫn Hạnh Phúc]'
+	'Mở rương ra, bên trong'
 	R
-	'được tìm thấy trong rương.'
+	'có [Nhẫn Hạnh Phúc].'
 	\L_076a4:
 	ZH 1:
-	'[Nhẫn hạnh phúc] đã được'
+	'Đã thêm [Nhẫn Hạnh'
 	R
-	'thêm vào kho báu của Leazas.'
+	'Phúc] vào kho báu.'
 	\L_076a4:
 	\L_0753a:
 	\L_07697:
@@ -1912,20 +1911,22 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'tìm thấy một rương'
+	' tìm thấy'
 	R
-	'kho báu trong ngục tối.'
+	'một rương báu ở sâu'
+	R
+	'trong mê cung.'
 	\L_076a4:
 	\L_07514:
 	ZH 1:
-	'Một [Thẻ Sương mù]'
+	'Mở rương ra, bên trong'
 	R
-	'được tìm thấy trong rương.'
+	'có [Thẻ bài Mù Sương].'
 	\L_076a4:
 	ZH 1:
-	'[Thẻ sương mù] đã được'
+	'Đã thêm [Thẻ bài Mù'
 	R
-	'thêm vào kho báu của Leazas.'
+	'Sương] vào kho báu.'
 	\L_076a4:
 	\L_0753a:
 	\L_07697:
@@ -1941,22 +1942,22 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'tìm thấy một rương'
+	' tìm thấy'
 	R
-	'kho báu trong ngục tối.'
+	'một rương báu ở sâu'
+	R
+	'trong mê cung.'
 	\L_076a4:
 	\L_07514:
 	ZH 1:
-	'Một [Đàn ông cực khoái]'
+	'Mở rương ra, bên trong'
 	R
-	'được tìm thấy trong rương.'
+	'có [Thuốc Cường Dương].'
 	\L_076a4:
 	ZH 1:
-	'[Đàn ông'
+	'Đã thêm [Thuốc Cường'
 	R
-	'cực khoái] đã được thêm'
-	R
-	'vào kho báu của Leazas.'
+	'Dương] vào kho báu.'
 	\L_076a4:
 	\L_0753a:
 	\L_07697:
@@ -1970,11 +1971,11 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'tìm thấy'
+	' tìm thấy Suối Giải Nguyền'
 	R
-	'Suối Uncurse lấp lánh màu'
+	'lấp lánh ánh xanh'
 	R
-	'xanh lam trong ngục tối.'
+	'sâu trong mê cung.'
 	\L_076a4:
 	\L_07697:
 *L_02e6d:
@@ -1984,11 +1985,11 @@
 	}
 	ZH 1:
 	$L_02edd$
-	'Bước vào mùa xuân'
+	'Vào suối'
 	$
 	R
 	$L_02eab$
-	'Đừng vào'
+	'Không vào'
 	$
 	]
 	@L_02e6d:
@@ -1996,11 +1997,9 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'rời đi mà'
+	' rời đi mà không bước vào'
 	R
-	'không bước vào Mùa xuân'
-	R
-	'không bị nguyền rủa.'
+	'Suối Giải Nguyền.'
 	\L_076a4:
 	\L_07697:
 	\L_075d3:
@@ -2021,9 +2020,9 @@
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'từ từ đắm'
+	' từ từ ngâm mình trong'
 	R
-	'mình vào Suối Uncurse.'
+	'Suối Giải Nguyền.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
@@ -2046,58 +2045,52 @@
 	\L_075a9:
 	ZM 32:
 	ZH 1:
-	'Núi rồng trỗi dậy'
+	'Núi Thăng Long'
 	R
 	ZM 24:
 	ZH 1:
 	R
-	'Hội nghị thượng đỉnh'
-	R
-	'Có người đến gần nhóm,'
+	'Đỉnh núi.'
 	\L_076a4:
 	ZH 1:
-	'họ đang mệt mỏi'
+	'Có ai đó tiến lại gần'
 	R
-	'sau chuyến leo núi dài.'
+	'cả đoàn đang mệt lả'
+	R
+	'sau chuyến leo núi.'
 	\L_076a4:
 	\L_07697:
 	!VAR0516 : 490!
 	\L_07635:
 	\L_075e1:
 	ZH 1:
-	'Tôi là KD.(Vua Rồng) Meow.'
+	'Ta là KD (King Dragon), meo.'
 	\L_076a4:
 	ZH 1:
-	'Không thường'
+	'Hiếm khi con người lên'
 	R
-	'xuyên cậu thấy con người'
-	R
-	'đến tận đây đâu, meo.'
+	'tới tận đây lắm, meo.'
 	\L_076a4:
 	ZH 1:
-	'Có lý do nào đó cậu đến?'
+	'Có việc gì thế, meo?'
 	\L_076a4:
 	\L_07697:
 	{VAR0154 \ 1:
 		\L_075a9:
 		ZH 1:
-		'... Không hẳn.'
+		'... Chẳng có việc gì cụ thể.'
 		\L_076a4:
 		\L_07697:
 		\L_075e1:
 		ZH 1:
-		'Vậy cậu nên đi'
+		'Vậy thì về đi, meo.'
 		R
-		'đi, meo meo. Đó là'
-		R
-		'một chút thất vọng.'
+		'Hơi chán đấy, meo.'
 		\L_076a4:
 		ZH 1:
-		'Tôi hy vọng người'
+		'Mong lần sau có người'
 		R
-		'tiếp theo đến đây sẽ cần'
-		R
-		'thứ gì đó từ tôi, meo meo.'
+		'tới vì cần gặp ta, meo.'
 		\L_076a4:
 		ZH 1:
 		'Meo, meo, meo.'
@@ -2113,37 +2106,39 @@
 	}
 	\L_07571:
 	ZH 1:
-	'Một con mèo...?'
+	'Mèo à...?'
 	\L_076a4:
 	ZH 1:
-	'Hãy thử kêu meo meo.'
+	'Thử kêu meo một tiếng xem.'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Meoooo.'
+	'Meooooo.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'... Được rồi.'
+	'... Được.'
 	\L_076a4:
 	ZH 1:
-	'Vậy tôi sẽ đi đây.'
+	'Vậy về thôi.'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Meo, meo, meo... ... Meo.'
+	'Meo meo đấy,'
+	R
+	'meo... ... Meoooo.'
 	\L_076a4:
 	\L_07697:
 	\L_0758d:
 	ZH 1:
-	'Tuy nhiên, có'
+	'Nhưng chắc có ý nghĩa'
 	R
-	'vẻ như có thứ gì đó ở đây.'
+	'gì đó. Một thời gian'
 	R
-	'Tôi nên thử quay lại sau.'
+	'nữa hãy quay lại xem.'
 	\L_076a4:
 	\L_07697:
 	\L_075d3:
@@ -2152,36 +2147,28 @@
 *L_0319e:
 	\L_0758d:
 	ZH 1:
-	'Đây là KD...'
-	R
-	'King Dragon phải không?'
+	'Đây là KD... King Dragon à?'
 	\L_076a4:
 	ZH 1:
-	'Hmmm... Tôi có cảm'
+	'Ừm... Hình như ta từng'
 	R
-	'giác như tôi đã gặp hắn'
-	R
-	'trước đây rồi, nhưng...'
+	'gặp hắn ở đâu đó...'
 	\L_076a4:
 	ZH 1:
-	'chắc tôi đang tưởng'
+	'Chắc chỉ là cảm'
 	R
-	'tượng ra chuyện gì đó.'
+	'giác thôi. Dù sao,'
 	\L_076a4:
 	ZH 1:
-	'Dù sao thì, có'
-	R
-	'thứ tôi cần từ hắn.'
+	'ta có thứ cần lấy từ hắn.'
 	\L_076a4:
 	ZH 1:
-	'Nếu tôi nhớ không nhầm'
+	'Nhớ là British'
 	R
-	'thì người Anh nói rằng ông'
+	'có nói tượng vàng'
 	\L_076a4:
 	ZH 1:
-	'ấy đã tặng KD một'
-	R
-	'trong những bức tượng vàng.'
+	'đã rơi vào tay hắn nhỉ.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
@@ -2193,59 +2180,55 @@
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Tôi biết, meo meo. Bởi'
+	'Có, meo. Vì ta'
 	R
-	'vì tôi là KD, meo meo.'
+	'là KD mà, meo.'
 	\L_076a4:
 	\L_07697:
 	\L_07619:
 	ZH 1:
-	'KD bắt đầu lục'
+	'KD lục lọi trong'
 	R
-	'lọi một chiếc túi.'
+	'chiếc túi mang theo.'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Đây, meo'
+	'Đây, meo. Đây, meo.'
 	R
-	'meo. Đây, meo meo. Đây,'
-	R
-	'meo meo. Đây, meo meo.'
+	'Đây, meo. Đây, meo.'
 	\L_076a4:
 	\L_07697:
 	\L_07619:
 	ZH 1:
-	'KD đặt hết'
+	'KD lần lượt đặt xuống'
 	R
-	'vật phẩm vàng này đến vật'
+	'sàn vô số món đồ'
 	R
-	'phẩm vàng khác trên sàn.'
+	'vàng sáng chói mắt.'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Mặt nạ vàng,'
+	'Mặt nạ vàng, bát vàng, dưa'
 	R
-	'tách trà vàng, dưa'
-	R
-	'hấu vàng, MSX vàng...'
+	'hấu vàng, máy MSX vàng...'
 	\L_076a4:
 	ZH 1:
-	'Thú nhồi bông'
+	'Thú nhồi bông vàng,'
 	R
-	'vàng, hoa hướng dương'
+	'hướng dương vàng,'
 	R
-	'vàng, chai vàng...'
+	'chai nhựa vàng...'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Tôi-tôi không biết'
+	'Ta... chịu... Thế'
 	R
-	'cái nào trong số này là'
+	'này thì biết đâu là'
 	R
-	'thứ tôi đang tìm kiếm...'
+	'tượng vàng cần tìm...'
 	\L_076a4:
 	\L_07697:
 	{VAR0101 = 1:
@@ -2254,12 +2237,12 @@
 		\L_07635:
 		\L_075e1:
 		ZH 1:
-		'Hả!!'
+		'Ồ!!'
 		\L_076a4:
 		\L_07697:
 		\L_07571:
 		ZH 1:
-		'Cái gì, hỗn loạn?'
+		'Gì thế, Chaos?'
 		\L_076a4:
 		\L_07697:
 		\L_075e1:
@@ -2269,44 +2252,38 @@
 		\L_07697:
 		\L_07619:
 		ZH 1:
-		'Chaos cúi'
+		'Chaos uốn éo mũi kiếm, chỉ'
 		R
-		'người chỉ về phía bông'
-		R
-		'hoa hướng dương vàng.'
+		'vào bông hướng dương vàng.'
 		\L_076a4:
 		\L_07697:
 		\L_07571:
 		ZH 1:
-		'Hả...? Nhìn có'
+		'Hả...? Trông tầm'
 		R
-		'vẻ nhạt nhẽo...'
+		'thường quá mà...'
 		\L_076a4:
 		\L_07697:
 		\L_075e1:
 		ZH 1:
-		'Không, thế thôi.'
+		'Chính nó đấy. Lão từng thấy'
 		R
-		'Tôi đã từng nhìn thấy bốn'
-		R
-		'bức tượng vàng trước đây...'
+		'cả bốn tượng vàng rồi mà...'
 		\L_076a4:
 		ZH 1:
-		'Ngài có tin tôi không?'
+		'Không tin lão à? Lão'
 		R
-		'Tôi cô đơn... Tôi đã trở'
+		'buồn quá... Sắp thành'
 		R
-		'thành một ông già già nua.'
+		'lão già lẫn mất rồi.'
 		\L_076a4:
 		ZH 1:
-		'Saaachiko, bữa'
-		R
-		'tối sẵn sàng chưa?'
+		'Sachiko ơi, cơm xong chưa?'
 		\L_076a4:
 		\L_07697:
 		\L_07571:
 		ZH 1:
-		'Này, im đi.'
+		'Ê, ồn quá, im đi!'
 		\L_076a4:
 		\L_07697:
 		\L_07643:
@@ -2316,111 +2293,105 @@
 	{VAR0101 \ 1:
 		\L_0758d:
 		ZH 1:
-		'... Tôi không biết...'
+		'... Chịu, chẳng biết...'
 		\L_076a4:
 		ZH 1:
-		'Thôi, sao cũng được.'
+		'Thôi kệ.'
 		\L_076a4:
 		ZH 1:
-		'Nếu tôi thử hỏi một'
+		'Hỏi thêm vài chuyện,'
 		R
-		'số điều, có thể tôi sẽ'
-		R
-		'học được điều gì đó...'
+		'biết đâu lại ra...'
 		\L_076a4:
 		\L_07697:
 		\L_075e1:
 		ZH 1:
-		'Tôi nhặt cái này'
+		'Cái này ta nhặt'
 		R
-		'lên, meo meo. Đó là một cục'
+		'được, meo. Chỉ là một'
 		R
-		'vàng bình thường, meo meo.'
+		'cục vàng thôi, meo.'
 		\L_076a4:
 		ZH 1:
-		'Tuy nhiên, vẫn sáng'
+		'Nhưng sáng choang.'
 		R
-		'bóng. Đẹp quá, meo meo.'
+		'Đẹp lắm, meo.'
 		\L_076a4:
 		ZH 1:
-		'Tôi nhận được điều'
+		'Cái này được một cô'
 		R
-		'này khi cứu một cô gái, meo'
+		'gái tặng khi ta cứu cô'
 		R
-		'meo. Dễ thương quá, meo meo.'
+		'ấy, meo. Xinh lắm, meo.'
 		\L_076a4:
 		ZH 1:
-		'Đây là...'
+		'Còn cái này...'
 		\L_076a4:
 		\L_07697:
 		\L_075a9:
 		ZH 1:
-		'KD nhặt bông'
+		'KD cầm bông hướng'
 		R
-		'hoa hướng dương vàng.'
+		'dương vàng lên.'
 		\L_076a4:
 		\L_07697:
 		\L_075e1:
 		ZH 1:
-		'Chuyện đó đã'
+		'Chắc hơn 1000 năm'
 		R
-		'hơn 1000 năm trước...'
+		'trước rồi, meo...'
 		\L_076a4:
 		ZH 1:
-		'Tôi thấy một chiến binh'
+		'Ta thấy một chiến binh'
 		R
-		'bán nó cho một thương gia'
+		'bán nó cho thương nhân'
 		R
-		'ở đâu đó và mua nó, meo...'
+		'nên mua lại, meo...'
 		\L_076a4:
 		ZH 1:
-		'Anh ta thật ngu ngốc'
+		'Bán thứ này đúng'
 		R
-		'khi bán nó, meo meo.'
+		'là ngốc, meo.'
 		\L_076a4:
 		ZH 1:
-		'Rốt cuộc thì đó là chìa'
+		'Nó là chìa khóa mở'
 		R
-		'khóa để mở Di tích cổ...'
+		'Di tích cổ mà...'
 		\L_076a4:
 		\L_07697:
 		\L_07571:
 		ZH 1:
-		'Tôi hiểu rồi, vậy thôi.'
+		'Đúng, chính là nó.'
 		\L_076a4:
 		\L_07697:
 	}
 	\L_075e1:
 	ZH 1:
-	'Cậu nghĩ gì về bộ'
+	'Bộ sưu tập của ta'
 	R
-	'sưu tập của tôi, meo meo?'
+	'có gì sao, meo?'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Tôi muốn'
+	'Vậy thì hãy nhường [Tượng'
 	R
-	'ngươi đưa cho tôi [Tượng'
-	R
-	'Hoa Hướng Dương Vàng] đó.'
+	'vàng Hướng Dương] cho ta.'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Meow～～... Đây là kho'
+	'Meooo... Đây là báu'
 	R
-	'báu của tôi, meow...'
+	'vật của ta, meo...'
 	\L_076a4:
 	ZH 1:
-	'... Meoồ, nhưng...'
+	'... Meooo... Nhưng mà...'
 	\L_076a4:
 	ZH 1:
-	'Nếu cậu thắng bài kiểm'
+	'Nếu thắng trò đố vui, ta'
 	R
-	'tra của tôi, tôi sẽ rất vui'
-	R
-	'được trao nó cho cậu, meow.'
+	'có thể nhường cho đấy, meo.'
 	\L_076a4:
 	ZH 1:
 	'Thế nào, meo?'
@@ -2433,56 +2404,58 @@
 	}
 	ZH 1:
 	$L_036f1$
-	'Làm bài kiểm tra'
+	'Chơi đố vui'
 	$
 	R
 	$L_0360e$
-	'Không'
+	'Không chơi đố vui'
 	$
 	]
 	@L_035d0:
 *L_0360e:
 	\L_07571:
 	ZH 1:
-	'Ai lại làm'
+	'Ai thèm làm chuyện'
 	R
-	'điều gì khó chịu thế cơ chứ?'
+	'phiền phức đó. Ta'
 	R
-	'Tôi sẽ lấy nó bằng vũ lực!'
+	'cướp bằng sức mạnh!'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Cậu không thể thắng'
+	'Ngươi chẳng thắng'
 	R
-	'được tôi đâu, meow...'
+	'nổi ta đâu, meo...'
 	\L_076a4:
 	ZH 1:
-	'Pheeeeeew, meo meo!'
+	'Phùuuuu... meo!'
 	\L_076a4:
 	\L_07697:
 	\L_07619:
 	ZH 1:
-	'KD thở ra.'
+	'KD thổi một hơi.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Chết tiệt!?'
+	'Oái!?'
 	\L_076a4:
 	\L_07697:
 	\L_07619:
 	ZH 1:
-	'Đơn vị của Rance bị đánh'
+	'Chỉ một hơi thổi của KD đã'
 	R
-	'bay khỏi đỉnh Núi Rồng Bay.'
+	'hất văng Rance và mọi người'
+	R
+	'khỏi đỉnh núi Thăng Long.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Chết tiệt iiiit!!'
+	'Khốn kiếp!! Cái quái gì'
 	R
-	'Cái quái gì vậy?!!'
+	'vậy!!'
 	\L_076a4:
 	\L_07697:
 	\L_075d3:
@@ -2492,26 +2465,24 @@
 *L_036f1:
 	\L_07571:
 	ZH 1:
-	'Được rồi. Tôi sẽ lấy nó.'
+	'Được, ta nhận lời.'
 	\L_076a4:
 	ZH 1:
-	'Với chỉ số IQ 5000 điểm'
+	'Rance ta IQ 5000, chẳng có'
 	R
-	'của tôi, không có vấn đề gì'
-	R
-	'tôi không giải quyết được.'
+	'câu đố nào không giải nổi!'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Sau đó, nếu ngươi trả lời'
+	'Nếu trả lời đúng'
 	R
-	'đúng 3 câu hỏi liên tiếp,'
+	'ba câu liên tiếp,'
 	\L_076a4:
 	ZH 1:
-	'tôi sẽ tặng ngươi [Tượng'
+	'ta sẽ tặng [Tượng vàng'
 	R
-	'Hoa Hướng Dương Vàng] này.'
+	'Hướng Dương] này, meo.'
 	\L_076a4:
 	\L_07697:
 	!VAR0621 : 0!
@@ -2522,12 +2493,12 @@
 	}
 	\L_075e1:
 	ZH 1:
-	'Bây giờ, câu hỏi'
+	'Giờ là câu số '
 	H 0, VAR0621:
 	ZH 1:
-	'. Hãy suy nghĩ kỹ'
+	'. Nghĩ kỹ rồi'
 	R
-	'trước khi trả lời, meo meo.'
+	'trả lời nhé, meo.'
 	\L_076a4:
 	\L_07697:
 	Y 4, 5:
@@ -2535,10 +2506,10 @@
 	{VAR0690 = 1:
 		\L_075e1:
 		ZH 1:
-		'Câu hỏi, meo!!'
+		'Câu hỏi đây, meo!!'
 		\L_076a4:
 		ZH 1:
-		'Cái nào màu hồng unyuun!?'
+		'Đâu là Unyuun hồng!?'
 		\L_076a4:
 		\L_07697:
 *L_037d7:
@@ -2548,15 +2519,15 @@
 		}
 		ZH 1:
 		$L_03a4b$
-		'Hồng Unyuun'
+		'Unyuun hồng'
 		$
 		R
 		$L_03a87$
-		'Xanh Unyuun'
+		'Unyuun xanh lá'
 		$
 		R
 		$L_03a87$
-		'Màu xanh Unyuun'
+		'Unyuun xanh dương'
 		$
 		]
 		@L_037d7:
@@ -2564,14 +2535,14 @@
 	{VAR0690 = 2:
 		\L_075e1:
 		ZH 1:
-		'Queque trạm meo meo.'
+		'Câu câu hỏi hỏi, meo meo.'
 		\L_076a4:
 		ZH 1:
-		'Một trong những'
+		'Trong số này, ai đổi'
 		R
-		'người này biến hình khi mặt'
+		'tính khi trăng lên,'
 		R
-		'trăng tắt. Đó là cái nào??'
+		'meo? Là ai nào, meo??'
 		\L_076a4:
 		\L_07697:
 *L_03867:
@@ -2597,12 +2568,12 @@
 	{VAR0690 = 3:
 		\L_075e1:
 		ZH 1:
-		'Câu hỏi, câu hỏi, meo meo.'
+		'Câu hỏi, câu hỏi, meo.'
 		\L_076a4:
 		ZH 1:
-		'Lần đầu tiên tôi'
+		'Ta xuất hiện lần'
 		R
-		'xuất hiện ở đâu, meo meo?'
+		'đầu ở đâu, meo?'
 		\L_076a4:
 		\L_07697:
 *L_038f0:
@@ -2612,15 +2583,15 @@
 		}
 		ZH 1:
 		$L_03a87$
-		'Xa xôi trong không gian'
+		'Vũ trụ xa xôi'
 		$
 		R
 		$L_03a87$
-		'Màu đỏ trong cuộc đua 3'
+		'Thành Red trong Rance 3'
 		$
 		R
 		$L_03a4b$
-		'Kim tự tháp ở Rance 2'
+		'Kim tự tháp trong Rance 2'
 		$
 		]
 		@L_038f0:
@@ -2628,12 +2599,12 @@
 	{VAR0690 = 4:
 		\L_075e1:
 		ZH 1:
-		'Câu hỏi, meo meo!'
+		'Câu hỏiii đây, meo!'
 		\L_076a4:
 		ZH 1:
-		'Người ngoài'
+		'Nhắc đến người ngoài hành'
 		R
-		'hành tinh là ai?'
+		'tinh thì nghĩ tới ai?'
 		\L_076a4:
 		\L_07697:
 *L_03972:
@@ -2647,11 +2618,11 @@
 		$
 		R
 		$L_03a87$
-		'Người Torutorun'
+		'Người Torutoru'
 		$
 		R
 		$L_03a87$
-		'Người Spockian'
+		'Người Spock'
 		$
 		]
 		@L_03972:
@@ -2659,12 +2630,12 @@
 	{VAR0690 = 5:
 		\L_075e1:
 		ZH 1:
-		'Câu hỏi, meo meo.'
+		'Câu hỏi đây, meo.'
 		\L_076a4:
 		ZH 1:
-		'Chú chó cưng của'
+		'Chó cưng của Ho Raga, người'
 		R
-		'Ho Raga tên là gì?'
+		'sống ở Ho Raga, tên gì?'
 		\L_076a4:
 		\L_07697:
 *L_039fb:
@@ -2678,11 +2649,11 @@
 		$
 		R
 		$L_03a87$
-		'Giô-sép'
+		'Josef'
 		$
 		R
 		$L_03a87$
-		'Phêrô'
+		'Peter'
 		$
 		]
 		@L_039fb:
@@ -2693,9 +2664,9 @@
 	%#PCMPLAY.ADV:
 	\L_075e1:
 	ZH 1:
-	'Đúng rồi, meo meo.'
+	'Đúng rồi, meo.'
 	R
-	'Làm tốt lắm, meo meo.'
+	'Khá lắm, meo meo.'
 	\L_076a4:
 	!VAR0516 : 3!
 	%#PCMPLAY.ADV:
@@ -2707,40 +2678,38 @@
 	%#PCMPLAY.ADV:
 	\L_075e1:
 	ZH 1:
-	'Sai rồi, meo meo.'
+	'Sai rồi, meo. Trả'
 	R
-	'Ngươi đã sai rồi, meo meo.'
+	'lời sai mất rồi, meo.'
 	\L_076a4:
 	ZH 1:
-	'Xin hãy quay'
+	'Hãy quay lại thử'
 	R
-	'lại nữa, meo~.'
+	'lần nữa nhé, meo~.'
 	\L_076a4:
 	!VAR0516 : 3!
 	%#PCMPLAY.ADV:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Cái gì thế!? Vậy'
+	'Cái gì!? Đã thế thì'
 	R
-	'thì tôi sẽ chỉ sử dụng'
-	R
-	'sức mạnh vũ phu thôi!!'
+	'ta dùng vũ lực!!'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Rance cố gắng tấn công KD.'
+	'Rance định tấn công KD.'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Pheeeeew...!'
+	'Phùuuu...!'
 	\L_076a4:
 	\L_07697:
 	\L_07619:
 	ZH 1:
-	'KD thở ra.'
+	'KD thổi một hơi.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
@@ -2750,21 +2719,21 @@
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Tạm biệt, meo meo~.'
+	'Tạm biệt, meo~.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Dwaaah!!'
+	'Oáiiii!!'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Đơn vị của'
+	'Rance và cả bọn bị'
 	R
-	'Rance đã bị thổi bay khỏi'
+	'thổi bay khỏi đỉnh núi'
 	R
-	'đỉnh núi Rising Dragon.'
+	'Thăng Long, rơi xuống.'
 	\L_076a4:
 	\L_07697:
 	\L_075d3:
@@ -2774,52 +2743,56 @@
 *L_03bc5:
 	\L_075e1:
 	ZH 1:
-	'Ôi!! Ngươi hiểu rồi, meo!!'
+	'Ồ!! Trả lời đúng'
+	R
+	'liên tiếp rồi, meo!!'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Gahahahaha!, thế nào rồi?'
+	'Gahahahaha! Thấy chưa?'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Tuyệt vời,'
+	'Tuyệt vời!'
 	\L_076a4:
 	ZH 1:
-	'điều này có nghĩa là'
+	'Beautiful! Ta tặng'
 	R
-	'tôi có thể tặng ngươi [Tượng'
+	'ngươi [Tượng vàng'
 	R
-	'Hoa Hướng Dương Vàng], meow.'
+	'Hướng Dương] này, meo.'
 	\L_076a4:
 	ZH 1:
-	'Hãy cẩn thận nhé, meo meo.'
+	'Nhớ giữ gìn cẩn'
+	R
+	'thận nhé, meo.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Chắc chắn rồi.'
+	'Ồ!'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Rance đã'
+	'Rance đã lấy được [Tượng'
 	R
-	'nhận được [Tượng Hoa'
-	R
-	'Hướng Dương Vàng].'
+	'vàng Hướng Dương].'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Vậy tạm biệt nhé, meo meo.'
+	'Vậy, tạm biệt nhé, meo.'
 	\L_076a4:
 	\L_07697:
 	\L_07643:
 	\L_07619:
 	ZH 1:
-	'KD biến mất đi nơi khác.'
+	'KD biến mất,'
+	R
+	'chẳng biết đi đâu.'
 	\L_076a4:
 	\L_07697:
 	!VAR0160 : 17!
@@ -2840,7 +2813,7 @@
 		\L_075a9:
 		ZM 32:
 		ZH 1:
-		'Nơi ẩn náu của kẻ trộm'
+		'Sào huyệt Sơn tặc'
 		ZM 24:
 		\L_076a4:
 		\L_07697:
@@ -2848,19 +2821,19 @@
 		\L_075c5:
 		\L_07571:
 		ZH 1:
-		'Hừm, đây là nơi ẩn'
+		'Hừm, đây là sào huyệt băng'
 		R
-		'náu của băng trộm của ta.'
+		'sơn tặc ta từng ở nhỉ.'
 		\L_076a4:
 		ZH 1:
-		'Nó thực sự đã'
+		'Thế mà trước kia'
 		R
-		'quá mệt mỏi rồi...'
+		'ta ở nổi cái chỗ'
 		\L_076a4:
 		ZH 1:
-		'Chẳng có lý do gì để'
+		'tồi tàn này... Hết'
 		R
-		'ta ở đây cả. Ta đang rời đi.'
+		'việc rồi. Về thôi.'
 		\L_076a4:
 		\L_07697:
 		\L_075d3:
@@ -2874,13 +2847,13 @@
 	\L_075a9:
 	ZM 32:
 	ZH 1:
-	'Nơi ẩn náu của kẻ trộm'
+	'Sào huyệt Sơn tặc'
 	ZM 24:
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Đây là nơi ẩn náu của ta.'
+	'Đây là sào huyệt của ta.'
 	\L_076a4:
 	\L_07697:
 	Y 4, 3:
@@ -2892,7 +2865,9 @@
 		ZH 1:
 		'Chủ nhân Rance, ngoài'
 		R
-		'trời lạnh quá. Hãy đi vào.'
+		'trời lạnh lắm. Chúng'
+		R
+		'ta vào trong thôi.'
 		\L_076a4:
 		\L_07697:
 		\L_07571:
@@ -2906,23 +2881,19 @@
 		\L_07635:
 		\L_075e1:
 		ZH 1:
-		'Có chuyện gì vậy sếp?'
+		'Đại ca, có chuyện gì vậy?'
 		\L_076a4:
 		ZH 1:
-		'Nếu cậu là người cảnh'
+		'Nếu là canh gác thì cứ'
 		R
-		'giác, cậu có thể để việc'
-		R
-		'đó cho những người mới...'
+		'để đám lính mới lo...'
 		\L_076a4:
 		\L_07697:
 		\L_07571:
 		ZH 1:
-		'Được rồi.'
+		'Ừ, giờ nghĩ kế hoạch'
 		R
-		'Có lẽ ta sẽ nghĩ về hoạt'
-		R
-		'động tiếp theo, sau đó...'
+		'tiếp theo thôi...'
 		\L_076a4:
 		\L_07697:
 	}
@@ -2931,21 +2902,19 @@
 		\L_07635:
 		\L_075e1:
 		ZH 1:
-		'Rance, hãy nhanh'
+		'Anh Rance, mau'
 		R
-		'lên và tấn công nào.'
+		'đi tập kích thôi.'
 		\L_076a4:
 		ZH 1:
-		'Tôi muốn kiểm'
+		'Em muốn thử độ bén của'
 		R
-		'tra khả năng cắt của thanh'
-		R
-		'kiếm mới của mình... Huhu.'
+		'thanh kiếm mới... Hì hì.'
 		\L_076a4:
 		\L_07697:
 		\L_0758d:
 		ZH 1:
-		'... Nàng nguy hiểm...'
+		'... Nghe ghê quá...'
 		\L_076a4:
 		\L_07697:
 	}
@@ -3599,48 +3568,46 @@
 	ZM 24:
 	ZH 1:
 	R
-	'Trước ngục tối khổng'
-	R
-	'lồ Vậy đây là Di tích cổ,'
+	'Trước mê cung khổng lồ.'
 	\L_076a4:
 	ZH 1:
-	'được coi là ngục tối'
+	'Đây là Di tích cổ, nơi'
 	R
-	'lớn nhất thế giới à...?'
+	'được gọi là mê cung'
+	R
+	'lớn nhất thế giới à...'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Đúng vậy, trước đây'
+	'Vâng, hàng trăm, hàng nghìn'
 	R
-	'nó đã bị hàng trăm ngàn'
-	R
-	'nhà thám hiểm thử thách,'
+	'nhà thám hiểm từng thử sức,'
 	\L_076a4:
 	ZH 1:
-	'nhưng nó chưa bao giờ'
+	'nhưng nghe nói chưa ai'
 	R
-	'được khám phá đầy đủ.'
+	'chinh phục được. Có lời đồn'
 	\L_076a4:
 	ZH 1:
-	'Người ta đồn'
+	'nơi này có tới'
 	R
-	'rằng nó có 1000 tầng.'
+	'1000 tầng ngầm...'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Ừmmm.'
+	'Hừmmm.'
 	\L_076a4:
 	\L_07697:
 	{VAR0101 = 1:
 		\L_07571:
 		ZH 1:
-		'Hỗn loạn!'
+		'Chaos! Đây là nơi các ngươi'
 		R
-		'Đây có phải là nơi các'
+		'đã gặp cái gọi là thần, đúng'
 		R
-		'ngươi gặp một vị thần?'
+		'không?'
 		\L_076a4:
 		\L_07697:
 		\L_07643:
@@ -3648,49 +3615,43 @@
 		\L_07635:
 		\L_075e1:
 		ZH 1:
-		'Aah... Đúng vậy.'
+		'Ừ... Đúng vậy.'
 		\L_076a4:
 		\L_07697:
 		\L_07571:
 		ZH 1:
-		'Ngươi có nhớ nơi này'
+		'Ngươi còn nhớ đường'
 		R
-		'không? Dẫn ta tới đó.'
+		'chứ? Dẫn ta đi.'
 		\L_076a4:
 		\L_07697:
 		\L_075e1:
 		ZH 1:
-		'Được rồi, được'
-		R
-		'rồi... Vậy thì đi lối này.'
+		'Rồi, rồi... Đi theo lão.'
 		\L_076a4:
 		\L_07697:
 		\L_07571:
 		ZH 1:
-		'Ừm? Liệu'
+		'Hử? Không cần chuẩn'
 		R
-		'chúng ta có ổn không nếu'
-		R
-		'không chuẩn bị quân đội?'
+		'bị quân đội à?'
 		\L_076a4:
 		\L_07697:
 		\L_075e1:
 		ZH 1:
-		'Vâng. Vấn đề'
+		'Ừ. Tuy khó tìm, nhưng'
 		R
-		'là, đó là một nơi khó tìm'
-		R
-		'nhưng nó lại ở tầng một.'
+		'nó nằm ngay tầng một.'
 		\L_076a4:
 		ZH 1:
-		'Này, di chuyển nhanh hơn.'
+		'Nào, mau đi thôi.'
 		\L_076a4:
 		\L_07697:
 		\L_07619:
 		ZH 1:
-		'Rance đi theo hướng'
+		'Rance bước theo sự'
 		R
-		'Chaos hướng dẫn anh ta.'
+		'chỉ dẫn của Chaos.'
 		\L_076a4:
 		\L_07697:
 		\L_075d3:
@@ -3710,9 +3671,9 @@
 		ZM 24:
 		ZH 1:
 		R
-		'Tầng 1 Trước Cửa'
+		'Tầng ngầm 1, trước Cửa Thần.'
 		R
-		'Chúa Hô... Đây là...'
+		'Ồ... Đây là...'
 		\L_076a4:
 		\L_07697:
 		\L_075e1:
@@ -3722,53 +3683,43 @@
 		\L_07697:
 		\L_075e1:
 		ZH 1:
-		'Nó trông'
+		'Trông chỉ như một cánh'
 		R
-		'giống như một cánh cửa'
-		R
-		'thông thường, nhưng...'
+		'cửa bình thường...'
 		\L_076a4:
 		ZH 1:
-		'Bên trong nó là'
+		'Nhưng bên trong là'
 		R
 		'một thế giới khác.'
 		\L_076a4:
 		\L_07697:
 		\L_07571:
 		ZH 1:
-		'Ta cho rằng nó không'
+		'Không thể mở nó bằng'
 		R
-		'thể mở được bình thường?'
+		'cách thường, đúng không?'
 		\L_076a4:
 		\L_07697:
 		\L_075e1:
 		ZH 1:
-		'Vâng. Ngài có thấy'
-		R
-		'bốn cái bệ đó không?'
+		'Ừ. Thấy bốn bệ kia chứ?'
 		\L_076a4:
 		ZH 1:
-		'Không có cách nào để mở'
+		'Phải đặt đủ bốn tượng vàng'
 		R
-		'cánh cửa này ngoài việc đặt'
-		R
-		'bốn bức tượng vàng lên đó.'
+		'lên đó, cửa mới chịu mở.'
 		\L_076a4:
 		ZH 1:
-		'Ừm... Dù sao'
+		'Mà... tốt hơn'
 		R
-		'thì có lẽ tốt hơn hết'
-		R
-		'là nên đóng cửa lại...'
+		'hết là đừng mở...'
 		\L_076a4:
 		\L_07697:
 		\L_07571:
 		ZH 1:
-		'Được rồi, chúng ta'
+		'Được, biết chỗ rồi. Tạm quay'
 		R
-		'biết địa điểm. Bây giờ'
-		R
-		'chúng ta hãy rời đi.'
+		'về thôi.'
 		\L_076a4:
 		\L_07697:
 		SS 21:
@@ -3777,7 +3728,7 @@
 	{VAR0101 = 2:
 		\L_07571:
 		ZH 1:
-		'Này, Nikkooooou.'
+		'Nikkou ơiii.'
 		\L_076a4:
 		\L_07697:
 		\L_07643:
@@ -3785,20 +3736,20 @@
 		\L_07635:
 		\L_07619:
 		ZH 1:
-		'Đáp lại lời kêu gọi'
+		'Rance vừa gọi, Nikkou'
 		R
-		'của Rance, Nikkou xuất hiện'
+		'đã xuất hiện trong'
 		R
-		'trong hình dạng con người.'
+		'hình dạng con người.'
 		\L_076a4:
 		\L_07697:
 		\L_07571:
 		ZH 1:
-		'Có một lối vào hang động nơi'
+		'Ở đây có lối vào hang'
 		R
-		'các ngươi gặp một vị thần'
+		'nơi các cô từng gặp'
 		R
-		'ở đâu đó ở đây phải không?'
+		'thần, đúng không?'
 		\L_076a4:
 		ZH 1:
 		'Dẫn ta tới đó.'
@@ -3806,21 +3757,21 @@
 		\L_07697:
 		\L_075e1:
 		ZH 1:
-		'Được rồi... Lối này.'
+		'Vâng... Mời đi lối này.'
 		\L_076a4:
 		\L_07697:
 		\L_075a9:
 		ZH 1:
-		'Rance đi theo'
+		'Theo Nikkou, Rance bất'
 		R
-		'Nikkou qua một bức tường khó'
+		'ngờ đi xuyên bức tường'
 		R
-		'tìm ở tầng 1 và đến đích.'
+		'khó thấy ở tầng một,'
 		\L_076a4:
 		ZH 1:
-		'Chỉ mất chưa tới'
+		'rồi tới nơi. Chỗ đó rất gần,'
 		R
-		'30 phút để đến đó.'
+		'chưa mất tới 30 phút đi bộ.'
 		\L_076a4:
 		\L_07697:
 		\L_075d3:
@@ -3840,33 +3791,33 @@
 		ZM 24:
 		ZH 1:
 		R
-		'Tầng 1 Trước Cửa Chúa'
+		'Tầng ngầm 1, trước Cửa Thần.'
 		R
-		'Huh, thật là gần gũi.'
+		'Gì chứ, gần thế.'
 		\L_076a4:
 		ZH 1:
-		'Tôi tưởng nó'
+		'Ta cứ tưởng phải'
 		R
-		'phải ở tầng 500 hoặc hơn'
+		'xuống tận tầng ngầm'
 		R
-		'cơ... Thật là thất vọng.'
+		'500... Hụt hẫng thật.'
 		\L_076a4:
 		\L_07697:
 		\L_075e1:
 		ZH 1:
-		'Tuy nhiên, những gì đã'
+		'Nhưng phía sau'
 		R
-		'qua ở đây thật đáng sợ...'
+		'cửa rất đáng sợ...'
 		\L_076a4:
 		ZH 1:
-		'Nó khác với thế'
+		'Khác hẳn thế giới'
 		R
-		'giới của chúng ta...'
+		'chúng ta vẫn biết...'
 		\L_076a4:
 		ZH 1:
-		'Một thế giới khác nằm'
+		'Sau cánh cửa này là'
 		R
-		'ở phía bên kia cánh cửa này.'
+		'cả một thế giới khác.'
 		\L_076a4:
 		\L_07697:
 		\L_07571:
@@ -3874,48 +3825,42 @@
 		'............'
 		\L_076a4:
 		ZH 1:
-		'Hmmm, ta rất'
+		'Hừm, thế thì đáng'
 		R
-		'mong được xem nó.'
+		'mong đợi đấy.'
 		\L_076a4:
 		ZH 1:
-		'Cánh cửa này không'
+		'Muốn mở cửa phải có bốn'
 		R
-		'thể mở được nếu không có 4'
-		R
-		'bức tượng vàng phải không?'
+		'tượng vàng, đúng không?'
 		\L_076a4:
 		\L_07697:
 		\L_075e1:
 		ZH 1:
-		'Có. Nếu đặt tượng'
+		'Vâng. Đặt tượng vàng lên'
 		R
-		'vàng lên 4 bệ cạnh'
-		R
-		'cửa thì cửa sẽ mở.'
+		'bốn bệ cạnh cửa là mở được.'
 		\L_076a4:
 		\L_07697:
 		\L_07571:
 		ZH 1:
-		'Ta hiểu rồi, huhuhuhu.'
+		'Ra vậy, hừ hừ hừ.'
 		\L_076a4:
 		\L_07697:
 		\L_075e1:
 		ZH 1:
-		'Vua của Leazas,'
+		'Bệ hạ Leazas, tôi'
 		R
-		'tôi... tôi nghĩ tốt nhất là'
+		'nghĩ... tốt hơn hết'
 		R
-		'không nên vào đó. Nhưng...'
+		'đừng tới gần nơi ấy...'
 		\L_076a4:
 		\L_07697:
 		\L_07571:
 		ZH 1:
-		'Thôi, ta sẽ'
+		'Ừ, ta sẽ cân nhắc.'
 		R
-		'suy nghĩ về điều đó.'
-		R
-		'Hãy quay lại bây giờ.'
+		'Giờ tạm quay về thôi.'
 		\L_076a4:
 		\L_07697:
 		SS 21:
@@ -3964,7 +3909,7 @@
 	ZM 24:
 	ZH 1:
 	R
-	'Tầng 1 Trước Cửa Chúa'
+	'Tầng ngầm 1, trước Cửa Thần.'
 	\L_076a4:
 	\L_07697:
 	{(VAR0327 > 9) * (VAR0492 = 3):
@@ -3972,7 +3917,7 @@
 	}
 	\L_075a9:
 	ZH 1:
-	'Ngài sẽ làm gì?'
+	'Ngài muốn làm gì?'
 	\L_076a4:
 	\L_07697:
 *L_054b8:
@@ -3984,40 +3929,40 @@
 	{VAR0150 \ 0:
 		ZH 1:
 		$L_055f6$
-		'Nơi bầu'
+		'Đặt tượng Hồ Lô'
 		$
 	}
 	!VAR0160 : 16!
 	{VAR0150 \ 0:
 		ZH 1:
 		$L_05666$
-		'Nơi khỉ'
+		'Đặt tượng Khỉ bịt miệng'
 		$
 	}
 	!VAR0160 : 17!
 	{VAR0150 \ 0:
 		ZH 1:
 		$L_056d6$
-		'Nơi hướng dương'
+		'Đặt tượng Hướng Dương'
 		$
 	}
 	!VAR0160 : 18!
 	{VAR0150 \ 0:
 		ZH 1:
 		$L_05746$
-		'Nơi đặt cây cảnh'
+		'Đặt tượng Bonsai'
 		$
 	}
 	{(VAR0154 = 1) * (VAR0492 \ 6):
 		ZH 1:
 		$L_0589d$
-		'Khiêu vũ'
+		'Múa Bon'
 		$
 	}
 	{VAR0492 = 6:
 		ZH 1:
 		$L_06056$
-		'Vào Cửa Chúa'
+		'Vào Cửa Thần'
 		$
 	}
 	ZH 1:
@@ -4029,9 +3974,9 @@
 *L_055bc:
 	\L_075a9:
 	ZH 1:
-	'Rời khỏi Cửa Thần và'
+	'Rời khỏi Cửa Thần,'
 	R
-	'trở về vị trí ban đầu.'
+	'trở về chỗ cũ.'
 	\L_076a4:
 	\L_07697:
 	\L_075d3:
@@ -4044,9 +3989,9 @@
 	!VAR0488 : 1!
 	\L_075a9:
 	ZH 1:
-	'Đặt tượng bầu'
+	'Đã đặt tượng vàng hình'
 	R
-	'trên bệ trước cửa.'
+	'hồ lô lên bệ trước cửa.'
 	\L_076a4:
 	\L_07697:
 	\L_075d3:
@@ -4064,9 +4009,9 @@
 	!VAR0489 : 1!
 	\L_075a9:
 	ZH 1:
-	'Đặt tượng khỉ'
+	'Đã đặt tượng vàng hình khỉ'
 	R
-	'trên bệ trước cửa.'
+	'bịt miệng lên bệ trước cửa.'
 	\L_076a4:
 	\L_07697:
 	\L_075d3:
@@ -4084,9 +4029,9 @@
 	!VAR0490 : 1!
 	\L_075a9:
 	ZH 1:
-	'Đặt tượng hoa hướng'
+	'Đã đặt tượng vàng hình hướng'
 	R
-	'dương trên bệ trước cửa.'
+	'dương lên bệ trước cửa.'
 	\L_076a4:
 	\L_07697:
 	\L_075d3:
@@ -4104,9 +4049,9 @@
 	!VAR0491 : 1!
 	\L_075a9:
 	ZH 1:
-	'Đặt tượng cây cảnh'
+	'Đã đặt tượng vàng hình'
 	R
-	'trên bệ trước cửa.'
+	'bonsai lên bệ trước cửa.'
 	\L_076a4:
 	\L_07697:
 	\L_075d3:
@@ -4123,23 +4068,23 @@
 	\L_075c5:
 	\L_07571:
 	ZH 1:
-	'Tất cả các bức'
+	'Thế là ta đã đặt đủ'
 	R
-	'tượng đã được đặt.'
+	'mọi tượng vàng rồi.'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Ngay sau đó, khu vực'
+	'Lập tức, cả khu vực'
 	R
-	'này bắt đầu rung chuyển.'
+	'rung chuyển dữ dội.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Cái gì...? Chuyện'
+	'Gì thế...? Chuyện'
 	R
-	'gì đang xảy ra vậy?!!'
+	'gì sắp xảy ra đây!!'
 	\L_076a4:
 	\L_07697:
 	PW1 VAR0056:
@@ -4152,16 +4097,16 @@
 	PW0 VAR0056:
 	\L_07571:
 	ZH 1:
-	'Nó có mở được không...?'
+	'Mở rồi sao...'
 	\L_076a4:
 	\L_07697:
 	!VAR0516 : 80!
 	\L_07635:
 	\L_075e1:
 	ZH 1:
-	'Đúng vậy. Tuy nhiên, đó là'
+	'Đúng vậy. Dù đó là cánh'
 	R
-	'một cánh cửa không nên mở...'
+	'cửa không nên mở...'
 	\L_076a4:
 	\L_07697:
 	\L_07643:
@@ -4173,33 +4118,31 @@
 	\L_07635:
 	\L_07571:
 	ZH 1:
-	'Có một cánh cửa như'
+	'Ta từng nghe trong'
 	R
-	'thế trong một truyền thuyết'
-	R
-	'xa xưa mà ta từng nghe.'
+	'một chuyện cổ tích.'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Đó là truyền thuyết gì?'
+	'Là chuyện thế nào ạ?'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Cánh cửa dẫn vào'
+	'Mở cửa hang Amano-Iwato...'
 	R
-	'Amano-Iwato... Ta hiểu rồi.'
+	'Cái trò đó đấy.'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Nó là gì?'
+	'Ý Bệ hạ là trò gì...?'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Khiêu vũ.'
+	'Múa Bon.'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
@@ -4209,27 +4152,25 @@
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Khi cánh cửa'
+	'Trước cửa hang'
 	R
-	'vào Amano-Iwato đóng lại,'
+	'Amano-Iwato đang đóng,'
 	\L_076a4:
 	ZH 1:
-	'một cô gái'
+	'các cô gái múa Bon, kẻ bên'
 	R
-	'nhảy múa và người bên'
-	R
-	'trong mở cửa để xem.'
+	'trong tò mò hé cửa ra xem.'
 	\L_076a4:
 	ZH 1:
-	'Sau đó, những người'
+	'Nhân lúc ấy, đám đàn ông'
 	R
-	'đàn ông có thể cạy cửa ra.'
+	'hò nhau kéo toang cửa ra.'
 	\L_076a4:
 	ZH 1:
-	'Điều đó... có nghĩa là...'
+	'Thế... nên là...'
 	\L_076a4:
 	ZH 1:
-	'Khiêu vũ.'
+	'Múa đi.'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
@@ -4239,38 +4180,32 @@
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Rance chỉ vào Maris.'
+	'Rance chỉ thẳng vào Maris.'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'M-tôi...?'
+	'T-tôi... sao ạ?'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Đúng vậy. Ngươi'
-	R
-	'nhảy đi, Maris.'
+	'Đúng. Cô múa đi, Maris.'
 	\L_076a4:
 	ZH 1:
-	'Ngươi có thể làm'
-	R
-	'được khá nhiều thứ,'
+	'Cô việc gì cũng làm được,'
 	\L_076a4:
 	ZH 1:
-	'vậy nên khiêu'
+	'múa Bon chắc dễ như'
 	R
-	'vũ hẳn là dễ dàng'
-	R
-	'với ngươi phải không?'
+	'trở bàn tay chứ?'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Tôi-tôi... đã không'
+	'T-tôi... chỉ múa hồi còn'
 	R
-	'nhảy từ khi còn nhỏ... Ừm...'
+	'nhỏ thôi... Chuyện đó...'
 	\L_076a4:
 	\L_07697:
 	\L_07643:
@@ -4278,11 +4213,9 @@
 	\L_07635:
 	\L_075e1:
 	ZH 1:
-	'Được rồi! Thế thì thiếp'
+	'Có, có, có! Thiếp múa!'
 	R
-	'sẽ nhảy! Vậy nên em cũng nên'
-	R
-	'nhảy đi, Maris. Được rồi?'
+	'Maris cũng múa cùng đi, nhé?'
 	\L_076a4:
 	\L_07697:
 	\L_07643:
@@ -4290,26 +4223,24 @@
 	\L_07635:
 	\L_075e1:
 	ZH 1:
-	'Q-Liêu hoàng hậu...'
+	'B-Bệ hạ Lia...'
 	\L_076a4:
 	\L_07697:
 	\L_0758d:
 	ZH 1:
-	'Keeheehee... Thật vui khi'
+	'Khì khì... Nhìn cô ta'
 	R
-	'thấy nàng xấu hổ như vậy.'
+	'bối rối thế này vui thật.'
 	\L_076a4:
 	ZH 1:
-	'Được rồi, ta sẽ'
-	R
-	'bắt nàng làm điều đó.'
+	'Được, ép thêm một chút nào.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Maris... Em định'
+	'Maris... Cô định'
 	R
-	'không vâng lời Lia à...?'
+	'trái lời Lia à...?'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
@@ -4319,28 +4250,26 @@
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Vậy ngươi sẽ làm gì?'
+	'Nào, cô tính sao?'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'... Tôi sẽ làm điều đó...'
+	'... Tôi múa...'
 	\L_076a4:
 	\L_07697:
 	\L_075fd:
 	ZH 1:
-	'Aah... Tôi thực sự'
+	'A... Liệu tôi còn'
 	R
-	'có thể nhảy được không...?'
+	'múa nổi không đây...'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Gahahahaha!! Được'
+	'Gahahahaha!! Được, Suzume,'
 	R
-	'rồi, Suzume, ngươi cũng'
-	R
-	'vậy. Khiêu vũ với họ.'
+	'cô cũng thế. Múa cùng đi.'
 	\L_076a4:
 	\L_07697:
 	\L_07643:
@@ -4348,12 +4277,12 @@
 	\L_07635:
 	\L_075e1:
 	ZH 1:
-	'Hả...? Tôi cũng vậy?'
+	'Ơ... Cả... tôi nữa ạ?'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Đúng vậy. Làm đi.'
+	'Đúng vậy. Múa đi.'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
@@ -4361,7 +4290,7 @@
 	'.........'
 	\L_076a4:
 	ZH 1:
-	'... Được rồi...'
+	'... Vâng...'
 	\L_076a4:
 	\L_07697:
 	PF1 VAR0056:
@@ -4371,81 +4300,79 @@
 	SS 5:
 	\L_07651:
 	ZH 1:
-	'Lia 「Ừ, ừ ừ! Như thế đấy!」'
+	'Lia 「Nào, dô ta! Hò dô ta nào!」'
 	PF0 VAR0056:
 	\L_076a4:
 	ZH 1:
-	'Maris 「Aah... Tại sao tôi lại làm điều này...?」'
+	'Maris 「A... Sao lại thành ra thế này...」'
 	\L_076a4:
 	ZH 1:
 	'Suzume 「.........」'
 	\L_076a4:
 	ZH 1:
-	'Suzume（Tôi thực sự không biết, nhưng...'
+	'Suzume (Chẳng hiểu sao,'
 	R
-	'Cô Maris chắc cũng cảm thấy giống tôi...'
+	'nhưng... tôi và ngài Maris...'
 	\L_076a4:
 	ZH 1:
-	'Tôi nghĩ...）'
+	'chắc đang có cùng tâm trạng...)'
 	\L_076a4:
 	ZH 1:
 	'Rance 「Gahahahaha!! Tốt, tốt!'
 	R
-	'Hãy tạo thêm niềm vui cho nó!!」'
+	'Múa cho vui vẻ hơn nữa nào!!」'
 	\L_076a4:
 	ZH 1:
-	'Lia 「Nhìn này, nhìn này! Chàng yêu!'
+	'Lia 「Nhìn này, chàng yêu! Nhìn'
 	R
-	'Thiếp đang có rất nhiều niềm vui! 」'
+	'thiếp này! Thiếp vui lắm đấy!」'
 	\L_076a4:
 	ZH 1:
-	'Rance 「Sẽ vui hơn khi nhìn'
+	'Rance 「Nhìn Maris với Suzume xấu'
 	R
-	'Maris và Suzume xấu hổ.」'
+	'hổ còn vui hơn nhìn nàng múa nữa.」'
 	\L_076a4:
 	ZH 1:
-	'Lia 「À, hay quá!!」'
+	'Lia 「Á, chàng xấu tính quá!! Hứ!」'
 	\L_076a4:
 	ZH 1:
-	'Rance 「Này, ai đó mang đồ uống lên nào!!」'
+	'Rance 「Này, ai đó, mang rượu tới!!」'
 	\L_076a4:
 	ZH 1:
-	'Theo lệnh của Rance, những người'
+	'Rance vừa hô, đám người hầu đã'
 	R
-	'hầu điên cuồng dọn đồ uống.'
+	'vội vàng chuẩn bị tiệc rượu.'
 	\L_076a4:
 	ZH 1:
-	'Rance 「Này, tại sao các ngươi'
+	'Rance 「Này, đứng ngây ra nhìn cái gì?'
+	\L_076a4:
+	ZH 1:
+	'Các ngươi cũng vỗ tay đi chứ!」'
+	\L_076a4:
+	ZH 1:
+	'Rance quát đám lính, họ liền'
 	R
-	'lại đứng xung quanh xem?'
+	'vỗ tay rôm rả để tạo nhịp nhạc.'
 	\L_076a4:
 	ZH 1:
-	'Ngươi có thể vỗ tay, phải không?! 」'
-	\L_076a4:
-	ZH 1:
-	'Rance hét vào mặt những người lính, và'
+	'Rance 「Đấy, đã náo nhiệt thế'
 	R
-	'họ bắt đầu vỗ tay để tạo ra âm nhạc.'
+	'này rồi! Múa cho ra trò nào!!」'
 	\L_076a4:
 	ZH 1:
-	'Rance 「Giờ thì mọi chuyện đã thú'
-	R
-	'vị hơn rồi. Nhảy mạnh hơn nữa!!」'
+	'Maris 「... Vâng, vâng...」'
 	\L_076a4:
 	ZH 1:
-	'Maris 「... Được rồi, được rồi...」'
-	\L_076a4:
-	ZH 1:
-	'Lia 「Kyahaha!! Ừ, ừ!」'
+	'Lia 「Kyahaha!! Nào, dô ta! Dô nào!」'
 	\L_076a4:
 	ZH 1:
 	'Suzume 「............」'
 	\L_076a4:
 	ZH 1:
-	'Rance 「Này, Suzume. Vui lên một chút nào!」'
+	'Rance 「Kìa, Suzume. Phải vui vẻ hơn nữa!」'
 	\L_076a4:
 	ZH 1:
-	'Suzume 「... O-Được rồi...」'
+	'Suzume 「... V-vâng...」'
 	\L_076a4:
 	ZH 1:
 	'Rance 「Gahahahaha!」'
@@ -4477,42 +4404,36 @@
 	\L_07635:
 	\L_07571:
 	ZH 1:
-	'... Không có'
+	'... Chẳng có gì'
 	R
-	'chuyện gì xảy ra cả...'
+	'xảy ra nhỉ...'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Hả... Thật sao...?!'
+	'Vâng... Đúng là thế thật...!'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Maris... Làm lại đi...'
+	'Maris, thêm lần nữa...'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Xin hãy để'
-	R
-	'tôi dừng lại...!'
+	'Xin tha cho tôi...!'
 	\L_076a4:
 	\L_07697:
 	\L_0758d:
 	ZH 1:
-	'Hm... Chúng'
+	'Hừm... Phải tìm'
 	R
-	'ta có cần tìm phương'
-	R
-	'pháp khác không...?'
+	'cách khác thôi...'
 	\L_076a4:
 	ZH 1:
-	'Chà, dù sao'
+	'Mà, dù sao ta cũng'
 	R
-	'thì ta cũng không thực sự'
-	R
-	'nghĩ rằng nó sẽ mở ra...'
+	'chẳng nghĩ cửa sẽ mở...'
 	\L_076a4:
 	\L_07697:
 	@L_054b8:
@@ -4520,39 +4441,35 @@
 	!VAR0492 : 4!
 	\L_0758d:
 	ZH 1:
-	'Đây là con'
+	'Đây là đường tới chỗ thần...'
 	R
-	'đường đến với Chúa...'
-	R
-	'Rudrasaum có lẽ đang ở đây.'
+	'Rudrasaum chắc ở phía trong.'
 	\L_076a4:
 	ZH 1:
-	'Con cá voi ngu'
+	'Con cá voi láo xược đang'
 	R
-	'ngốc đó đang phá hủy'
-	R
-	'thế giới của tôi...'
+	'quậy phá thế giới của ta...'
 	\L_076a4:
 	ZH 1:
-	'Nếu đã đến nước này,'
+	'Đã đến nước này,'
 	\L_076a4:
 	ZH 1:
-	'tất cả những gì chúng ta'
+	'chỉ còn cách mở'
 	R
-	'có thể làm là mở cánh cửa'
+	'cửa, vượt mê cung,'
 	\L_076a4:
 	ZH 1:
-	'này và tấn công'
+	'tới tận nơi nện'
 	R
-	'trực tiếp vào Rudrasaum.'
+	'Rudrasaum một trận.'
 	\L_076a4:
 	ZH 1:
-	'Để làm được điều đó'
+	'Muốn thế, trước hết'
 	R
-	'chúng ta phải mở cửa...'
+	'phải mở cánh cửa này...'
 	\L_076a4:
 	ZH 1:
-	'Cần 4 bức tượng'
+	'Cần bốn tượng'
 	R
 	'vàng để mở cửa...'
 	\L_076a4:
@@ -4560,11 +4477,9 @@
 	!VAR0160 : 16!
 	{(VAR0150 = 0) * (VAR0489 = 0):
 		ZH 1:
-		'Một người'
+		'Nghe nói một cô tên'
 		R
-		'dường như đang ở với một'
-		R
-		'người phụ nữ tên là Cafe.'
+		'Café giữ một tượng.'
 		\L_076a4:
 		!VAR0001 : 1!
 	}
@@ -4572,21 +4487,17 @@
 	{(VAR0150 = 0) * (VAR0490 = 0):
 		{VAR0001 = 1:
 			ZH 1:
-			'Một người'
+			'Kẻ gọi là KD hình như'
 			R
-			'khác dường như đang hẹn hò'
-			R
-			'với một anh chàng tên KD.'
+			'cũng giữ một tượng nhỉ.'
 			\L_076a4:
 		}
 		{VAR0001 = 0:
 			!VAR0001 : 1!
 			ZH 1:
-			'Một người'
+			'Kẻ gọi là KD hình như'
 			R
-			'khác dường như đang hẹn hò'
-			R
-			'với một anh chàng tên KD.'
+			'giữ một tượng nhỉ.'
 			\L_076a4:
 		}
 	}
@@ -4594,32 +4505,26 @@
 	{(VAR0150 = 0) * (VAR0491 = 0):
 		{VAR0001 = 1:
 			ZH 1:
-			'Sau đó, có'
+			'Còn Ho Raga nữa, nhớ là cũng'
 			R
-			'một cái khác với Ho Raga,'
-			R
-			'nếu tôi nhớ không nhầm.'
+			'có nói hắn giữ một tượng.'
 			\L_076a4:
 		}
 		{VAR0001 = 0:
 			ZH 1:
-			'Sau đó, có'
+			'Nhớ là có nói Ho Raga'
 			R
-			'một cái khác với Ho Raga,'
-			R
-			'nếu tôi nhớ không nhầm.'
+			'giữ một tượng nhỉ.'
 			\L_076a4:
 		}
 	}
 	ZH 1:
-	'Tôi phải có được tất'
-	R
-	'cả chúng bằng mọi giá.'
+	'Bằng mọi giá, ta sẽ gom đủ.'
 	\L_076a4:
 	ZH 1:
-	'Tuy nhiên, không có thời'
+	'Nhưng không nhanh lên thì'
 	R
-	'gian. Tôi phải nhanh lên...'
+	'chẳng còn thời gian...'
 	\L_076a4:
 	\L_07697:
 	@L_054b8:
@@ -4631,55 +4536,49 @@
 	\L_07697:
 	\L_07619:
 	ZH 1:
-	'Rance nhìn cánh cửa đang'
+	'Nhìn cánh cửa đã mở,'
 	R
-	'mở và chuẩn bị tinh thần.'
+	'Rance lên tinh thần.'
 	\L_076a4:
 	\L_07697:
 	!VAR0516 : 6!
 	\L_07635:
 	\L_075e1:
 	ZH 1:
-	'Vua Rance... Chúng'
+	'Bệ hạ Rance... Ngài'
 	R
-	'ta thực sự sẽ vào à?'
+	'thật sự định vào sao?'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Vâng. Đi thôi,'
+	'Ừ. Tiến lên, bên trong rộng'
 	R
-	'bên trong còn rất nhiều'
-	R
-	'chỗ. Mang theo toàn quân.'
+	'lắm. Toàn quân cùng đi.'
 	\L_076a4:
 	ZH 1:
-	'Tất cả các đơn vị'
+	'Tất cả đơn vị'
 	R
-	'còn lại, hãy đi cùng tôi!'
+	'còn lại, theo ta!'
 	\L_076a4:
 	ZH 1:
-	'Chẳng ích gì'
+	'Ta chẳng cần biết trên'
 	R
-	'khi lo lắng về những gì đang'
-	R
-	'xảy ra trên mặt đất lúc này.'
+	'mặt đất ra sao nữa.'
 	\L_076a4:
 	ZH 1:
-	'Dù thế nào đi'
+	'Cứ theo ta!! Dùng hết'
 	R
-	'nữa, hãy đến! Làm cạn kiệt'
-	R
-	'quỹ quân sự của chúng ta.'
+	'sạch quân phí luôn đi.'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Quân đội của Rance'
+	'Quân Rance vượt Cửa'
 	R
-	'đi qua Cửa Chúa và bắt'
+	'Thần, bắt đầu tiến'
 	R
-	'đầu tiến về phía Chúa.'
+	'quân về phía thần.'
 	\L_076a4:
 	\L_07697:
 	%#Iｶﾐ.ADV:
@@ -4731,118 +4630,116 @@
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Merim tìm'
+	'Merim tìm thấy một'
 	R
-	'thấy một dòng chữ bí ẩn'
+	'tấm bảng chạm khắc'
 	R
-	'ở một góc của ngục tối.'
+	'kỳ lạ ở góc mê cung.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Đây có thể là gì...? Ừm...'
+	'Đây là gì nhỉ... Để xem...'
 	\L_076a4:
 	\L_07697:
 	\L_07619:
 	ZH 1:
-	'Merim hào hứng giải mã'
+	'Merim háo hức bắt đầu giải'
 	R
-	'chữ viết trên dòng chữ.'
+	'mã chữ khắc trên tấm bảng.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Ừm...'
+	'Ừm... Để xem...'
 	\L_076a4:
 	ZH 1:
 	'Ừm...'
 	\L_076a4:
 	ZH 1:
-	'Hừm... Ồ...'
+	'Hừm, hừm... Ra vậy...'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Sau khi Merim đọc xong,'
+	'Sau khi đọc hết một lượt,'
 	\L_076a4:
 	ZH 1:
-	'nàng di chuyển ngón tay'
+	'Merim khẽ lướt những'
 	R
-	'của mình một cách kỳ lạ để'
+	'ngón tay một cách kỳ lạ,'
 	\L_076a4:
 	ZH 1:
-	'chạm vào một loại công'
+	'chạm vào thứ trông như'
 	R
-	'tắc nào đó trên dòng chữ.'
+	'công tắc trên tấm bảng.'
 	\L_076a4:
 	ZH 1:
-	'（Pwah...）'
+	'(Phừng...)'
 	\L_076a4:
 	ZH 1:
-	'Khi cô làm vậy,'
+	'Lập tức, một luồng sáng'
 	R
-	'một ánh sáng xanh rực rỡ'
-	R
-	'bay lên từ bên trong nó.'
+	'xanh nổi lên từ bên trong.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
 	X 1:
-	'!! Xin hãy nhận'
+	'!!'
 	R
-	'lấy điều đó. Nhanh chóng.'
+	'Mau lấy nó đi!'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Merim chỉ vào'
+	'Merim hét lên, chỉ tay.'
 	R
-	'nó đang cố bay đi'
+	'Nó sắp bay qua đầu'
 	R
 	X 1:
-	'đầu và hét lên.'
+	' mất rồi.'
 	\L_076a4:
 	ZH 1:
 	X 1:
-	'điên cuồng chộp lấy nó.'
+	' vội chộp'
+	R
+	'lấy luồng sáng.'
 	\L_076a4:
 	\L_07697:
 	!VAR0091 : VAR0091 + 2!
 	\L_075a9:
 	ZH 1:
-	'（paah...!!）'
+	'(Lóe...!!)'
 	\L_076a4:
 	ZH 1:
-	'Nó tỏa sáng rực rỡ trong'
+	'Nó chợt lóe sáng trong tay'
 	R
 	X 1:
-	'Bàn tay của hắn'
-	R
-	'trong giây lát rồi bật mở.'
+	' rồi nổ tung.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Đó là loại thuốc'
+	'Vừa rồi là bí dược thể lực'
 	R
-	'huyền thoại của HP.'
+	'trong truyền thuyết đấy.'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Merim nói với'
+	'Merim bảo '
 	X 1:
-	', người vẫn'
+	','
 	R
-	'còn choáng váng.'
+	'vẫn còn đang ngơ ngác.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Bây giờ HP tối đa'
+	'Thế là thể lực tối đa của'
 	R
-	'của cậu đã tăng thêm 2.'
+	'ngài đã tăng thêm 2 rồi đấy.'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
@@ -4861,126 +4758,118 @@
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Merim ngồi trong'
+	'Merim ngồi xuống'
 	R
-	'một góc của ngục tối.'
+	'ở góc mê cung.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'À, tôi biết đây là gì...'
+	'A, đúng như mình nghĩ...'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Sau đó nàng'
+	'Rồi nàng vui vẻ lấy'
 	R
-	'vui vẻ lấy vở ra.'
+	'tập ghi chép ra.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Uum... Tôi khá'
-	R
-	'chắc chắn là...'
+	'Để xem... Nhớ là thứ này...'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Nàng đang điều'
-	R
-	'tra điều gì đó.'
+	'Sau khi gật gù xem xét,'
 	\L_076a4:
 	ZH 1:
-	'Sau đó nàng'
+	'nàng lấy một chiếc búa'
 	R
-	'rút một chiếc búa nhỏ'
-	R
-	'ra khỏi túi của mình.'
+	'nhỏ trong hành lý ra.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Ờ!'
+	'Này!'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'（đập vỡ）'
+	'(Cạch)'
 	\L_076a4:
 	ZH 1:
-	'Sau đó nàng dùng'
+	'Rồi nàng dùng búa'
 	R
-	'búa đập vào thứ gì đó.'
+	'gõ vào chỗ ấy.'
 	\L_076a4:
 	ZH 1:
-	'（pwah～...）'
+	'(Phừng...)'
 	\L_076a4:
 	ZH 1:
-	'Một ánh sáng đen xuất'
+	'Một luồng sáng đen nhẹ nhàng'
 	R
-	'hiện từ nơi Merim đập búa.'
+	'hiện lên từ chỗ Merim gõ.'
 	\L_076a4:
 	ZH 1:
-	'Sau đó ánh sáng đó bao bọc'
+	'Rồi bao trùm khắp cơ thể'
 	R
 	X 1:
-	'cơ thể của.'
+	'.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Xin đừng hoảng'
+	'Đừng hoảng, không sao'
 	R
-	'sợ, cậu sẽ ổn thôi. Đây là'
+	'đâu. Đây là bí bảo ma'
 	R
-	'một kho báu huyền thoại.'
+	'lực trong truyền thuyết.'
 	\L_076a4:
 	ZH 1:
-	'Người ta'
+	'Nghe nói người được'
 	R
-	'nói rằng ánh sáng này làm'
+	'ánh sáng này chiếu'
 	R
-	'tăng sức mạnh ma thuật.'
+	'vào sẽ tăng ma lực.'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Merim giữ lại'
+	'Merim giơ tay chặn'
 	R
 	X 1:
-	', người đang hoảng'
+	','
 	R
-	'loạn và cố gắng bỏ chạy.'
+	'đang hốt hoảng định bỏ chạy.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Không có sai lầm nào'
+	'Chắc chắn đấy. Ma lực'
 	R
-	'cả. Sức mạnh ma thuật của'
-	R
-	'cậu đáng lẽ phải tăng lên.'
+	'của ngài hẳn đã tăng rồi.'
 	\L_076a4:
 	ZH 1:
-	'Wow... Tôi không thể'
+	'Tuyệt thật... Không ngờ'
 	R
-	'tin được là nó lại ở đây...'
+	'thứ như thế này có thật...'
 	\L_076a4:
 	ZH 1:
-	'Dungeon là kho'
+	'Mê cung đúng là kho'
 	R
-	'báu đầy bí ẩn.'
+	'tàng huyền bí. La lá la.'
 	\L_076a4:
 	ZH 1:
-	'Tôi cực kỳ hạnh phúc.'
+	'Merim hạnh phúc quá.'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Merim có vẻ vui'
+	'Merim vui vẻ xoay'
 	R
-	'mừng và quay lại.'
+	'tròn một vòng.'
 	\L_076a4:
 	\L_07697:
 	!VAR0093 : VAR0093 + 1!
@@ -4996,14 +4885,12 @@
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Merim hét lên và hướng'
+	'Merim vừa kêu lên vừa chạy'
 	R
-	'tới một tảng đá màu xanh bẩn'
+	'tới viên đá xanh cáu bẩn,'
 	\L_076a4:
 	ZH 1:
-	'thỉu nằm trên mặt đất'
-	R
-	'trong một góc của ngục tối.'
+	'nằm lăn lóc ở góc mê cung.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
@@ -5013,9 +4900,9 @@
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Merim đã chạm'
+	'Merim sờ khắp'
 	R
-	'vào nó khắp nơi.'
+	'bề mặt viên đá.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
@@ -5025,80 +4912,74 @@
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Sau đó nàng lấy ra'
+	'Rồi nàng lấy sổ tay ra,'
 	R
-	'một cuốn sổ ghi chú và bắt'
-	R
-	'đầu điều tra điều gì đó.'
+	'bắt đầu tra cứu gì đó.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Ơ...'
+	'Hì...'
 	\L_076a4:
 	ZH 1:
-	'Ủa...'
+	'Hì hì...'
 	\L_076a4:
 	ZH 1:
-	'Huhu...'
+	'Hì hì...'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Khuôn mặt nghiêm túc'
+	'Vẻ mặt chăm chú của nàng'
 	R
-	'của cô ngày càng vui vẻ.'
+	'dần bừng lên niềm vui sướng.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Không thể'
+	'Không thể nào...'
 	R
-	'nào... Điều này thực sự có'
-	R
-	'thể xảy ra sao?? Kyaaah!'
+	'Thật sao?? Áaa!'
 	\L_076a4:
 	ZH 1:
-	'Tôi không thể tin được!'
+	'Không tin nổi!'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
 	X 1:
-	'nhận thấy Merim đang viết'
+	' tò mò'
 	R
-	'gì đó và tiến lại gần nàng.'
+	'không biết trong sổ viết gì,'
+	R
+	'liền tới gần Merim.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Đây là một tảng đá'
+	'Đây là viên đá'
 	R
-	'được gọi là Siêu Trứng.'
+	'gọi là Siêu Trứng.'
 	\L_076a4:
 	ZH 1:
-	'Người ta nói'
+	'Nghe nói thần Planner'
 	R
-	'rằng thần Planner chỉ'
-	R
-	'tạo ra 3 con trong số'
+	'chỉ tạo ra đúng ba quả,'
 	\L_076a4:
 	ZH 1:
-	'đó và chúng có khả năng'
+	'có thể tăng sức'
 	R
-	'tăng sức mạnh cho con người.'
+	'mạnh cho con người.'
 	\L_076a4:
 	ZH 1:
-	'Nhưng... Nghĩ một cách'
+	'Nhưng... Nghĩ kỹ thì làm'
 	R
-	'hợp lý thì điều đó không'
-	R
-	'thể nào là sự thật được.'
+	'gì có chuyện đó, nhỉ?'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'（vết nứt）'
+	'(Tách)'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
@@ -5108,55 +4989,55 @@
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Siêu quả trứng tách'
+	'Trứng nứt trong tay Merim.'
 	R
-	'ra trong tay Merim, tỏa ra'
+	'Sương trắng tỏa ra,'
 	R
-	'một làn sương trắng bao phủ'
+	'bao phủ '
 	X 1:
 	'.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'À... Không thể nào!'
+	'Không... Không thể!'
 	R
-	'C-C-C-Tôi phải làm gì đây?!'
+	'L-làm... làm sao bây giờ!'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Trong khi Merim'
+	'Merim lúng túng, sương tan.'
 	R
-	'đang hoảng loạn thì sương'
-	R
-	'mù biến mất. Bên trong,'
+	'Ở đó, '
 	X 1:
-	'đang đứng đó, chết lặng.'
+	' đứng'
+	R
+	'ngây ra.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Ah... Cảm ơn'
+	'A... May quá... Ngài'
 	R
-	'Chúa... Cậu ổn chứ? Cậu'
+	'không sao chứ? Có khó'
 	R
-	'có cảm thấy ổn không?'
+	'chịu ở đâu không??'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Merim hoảng sợ và xúc động'
+	'Merim vội sờ khắp người'
 	R
 	X 1:
-	'tất cả hơn.'
+	'.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'... Mọi chuyện'
+	'... Có vẻ... chẳng'
 	R
-	'có vẻ ổn... Nhưng...'
+	'có gì lạ... Nhưng...'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
@@ -5164,7 +5045,9 @@
 	'Đúng như truyền thuyết,'
 	R
 	X 1:
-	'có được sức mạnh khổng lồ.'
+	' mạnh lên'
+	R
+	'phi thường nhờ quả trứng.'
 	\L_076a4:
 	\L_07697:
 	!VAR0091 : VAR0091 + 10!
@@ -5189,9 +5072,9 @@
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Wow... Truyền'
+	'Tuyệt thật... Truyền'
 	R
-	'thuyết là có thật...'
+	'thuyết đúng là có thật...'
 	\L_076a4:
 	\L_07697:
 	\0:
@@ -5202,21 +5085,19 @@
 	\L_07635:
 	\L_075e1:
 	ZH 1:
-	'Heeeeey. Thưa ngài.'
+	'Chàooo. Bệ hạ.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Cái gì, Galtia?'
+	'Gì thế, Galtia?'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Về việc đi'
+	'Chuyện đi mê cung ấy mà...'
 	R
-	'vào ngục tối... Cậu có thể'
-	R
-	'bỏ qua cho tôi được không?'
+	'Cho tôi xin rút được không?'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
@@ -5226,51 +5107,43 @@
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Tôi phải giữ'
-	R
-	'lời hứa với Martina.'
+	'Tôi có hẹn với Martina rồi.'
 	\L_076a4:
 	ZH 1:
-	'Chúng ta'
+	'Đi hái mấy loại rau'
 	R
-	'sẽ thu thập một số loài thực'
-	R
-	'vật quý hiếm mọc trên núi...'
+	'rừng hiếm ở trên núi...'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Agh... Hẹn hò??'
+	'Hừ... Hẹn hò??'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Hmmm... Cậu có'
+	'Ừmmm... Cũng có thể nói'
 	R
-	'thể nói thế, nhưng...'
-	R
-	'Có lẽ là không.'
+	'thế... Mà chắc không phải...'
 	\L_076a4:
 	ZH 1:
-	'Dù thế nào đi nữa, tôi'
+	'Dù sao thì có đồ ngon ăn là'
 	R
-	'phải làm điều đó nếu muốn'
-	R
-	'ăn đồ ngon... Wahahahahaha.'
+	'tôi vui rồi... Wahahahahaha.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Aaaah, anh ngươi.'
+	'A, thôi! Hiểu rồi, hiểu'
 	R
-	'Hiểu rồi, hiểu rồi. Đi'
-	R
-	'bất cứ nơi nào ngươi muốn.'
+	'rồi. Muốn đi đâu thì đi.'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Hehehe. Xin lỗi, vua.'
+	'Hê hê hê. Xin'
+	R
+	'lỗi nhé, Bệ hạ.'
 	\L_076a4:
 	\L_07697:
 	\L_075d3:
@@ -5283,21 +5156,21 @@
 	\L_07635:
 	\L_075e1:
 	ZH 1:
-	'Ừm... Vua Rance...'
+	'Thưa... Bệ hạ Rance...'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'À, Hazel. Nó là gì?'
+	'À, Hawzel. Sao thế?'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Ừm... Cậu có thể'
+	'Thưa... Ngài có thể'
 	R
-	'thứ lỗi cho chúng tôi khám'
+	'đừng phái chúng tôi đi'
 	R
-	'phá ngục tối được không?'
+	'thám hiểm mê cung không?'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
@@ -5310,11 +5183,11 @@
 	\L_07635:
 	\L_075e1:
 	ZH 1:
-	'Chúng tôi'
+	'Vì không muốn đi.'
 	R
-	'không muốn đi. Chúng tôi'
+	'Chúng tôi muốn thong'
 	R
-	'muốn thư giãn một lúc.'
+	'thả một thời gian mà.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
@@ -5322,33 +5195,29 @@
 	'.........'
 	\L_076a4:
 	ZH 1:
-	'Khá dễ hiểu,'
-	R
-	'ta đoán vậy...'
+	'Cô đúng là dễ hiểu thật...'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Không sao đâu phải không?'
+	'Được chứ?'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'... Hãy làm'
-	R
-	'những gì ngươi muốn.'
+	'... Tùy các cô.'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Uhu, chúng ta thật'
+	'Hì hì, may quá. Nào,'
 	R
-	'may mắn. Đi thôi, Hawzel.'
+	'đi thôi, Hawzel.'
 	\L_076a4:
 	ZH 1:
 	'Hôm nay chúng ta'
 	R
-	'sẽ làm một chiếc bánh.'
+	'sẽ làm bánh đấy.'
 	\L_076a4:
 	\L_07697:
 	\L_07643:
@@ -5356,7 +5225,7 @@
 	\L_07635:
 	\L_075e1:
 	ZH 1:
-	'Xin lỗi, Vua Rance.'
+	'Xin lỗi ngài, Bệ hạ Rance.'
 	\L_076a4:
 	\L_07697:
 	\L_075d3:
@@ -5369,36 +5238,38 @@
 	\L_07635:
 	\L_075e1:
 	ZH 1:
-	'Ừm... ngài...'
+	'Thưa... Bệ hạ...'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Cái gì?'
+	'Gì thế?'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Tôi... tôi sợ đi'
+	'Em... sợ đi mê cung'
 	R
-	'vào ngục tối... Nên... Ừm...'
+	'lắm... Nên... chuyện đó...'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'... Hiểu rồi...'
+	'... Được rồi... Ta'
 	R
-	'Ta xin phép ngươi'
+	'sẽ cho Miki rút khỏi'
 	R
-	'khám phá ngục tối...'
+	'đội thám hiểm...'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Cảm ơn cậu...'
+	'Cảm ơn ngài...'
 	\L_076a4:
 	ZH 1:
-	'Ừm... Xin lỗi... ngài...'
+	'Chuyện đó... Em'
+	R
+	'xin lỗi... Bệ hạ...'
 	\L_076a4:
 	\L_07697:
 	\L_075d3:
@@ -5421,41 +5292,41 @@
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Đừng bắt tôi làm'
+	'Đừng lôi tôi vào mấy'
 	R
-	'những điều vô lý này...'
+	'chuyện nhảm nhí...'
 	\L_076a4:
 	\L_07697:
 	\L_07643:
 	\L_075a9:
 	ZH 1:
-	'Sau đó, Meglass biến mất.'
+	'Nói xong, Meglass biến mất.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Chuyện đó là sao...?'
+	'Cái gì thế... tên đó...'
 	\L_076a4:
 	\L_07697:
 	!VAR0516 : 6!
 	\L_07635:
 	\L_075e1:
 	ZH 1:
-	'Tôi nghĩ hắn đã từ'
+	'Tôi nghĩ hắn vừa từ chối'
 	R
-	'chối khám phá ngục tối...'
+	'đi thám hiểm mê cung...'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Mgh... Tên'
-	R
-	'khốn đáng ghét...'
+	'Hừ... Láo thật...'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Cậu nên chọn người khác.'
+	'Xem ra nên chọn'
+	R
+	'người khác thì hơn.'
 	\L_076a4:
 	\L_07697:
 	\L_075d3:
@@ -5468,7 +5339,7 @@
 	\L_07635:
 	\L_075e1:
 	ZH 1:
-	'Chạy đua.'
+	'Rance.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
@@ -5478,18 +5349,16 @@
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Tôi không'
+	'Tôi không có thời'
 	R
-	'có thời gian đi vào ngục'
+	'gian đi mê cung. Anh'
 	R
-	'tối. Khiến người khác đi.'
+	'phái người khác đi.'
 	\L_076a4:
 	ZH 1:
-	'Đó là tất cả những'
+	'Tôi chỉ nói thế'
 	R
-	'gì tôi phải nói với cậu.'
-	R
-	'Chúng ta đi thôi, Caesar.'
+	'thôi. Về nào, Caesar.'
 	\L_076a4:
 	\L_07697:
 	\L_07643:
@@ -5497,7 +5366,7 @@
 	\L_07635:
 	\L_075e1:
 	ZH 1:
-	'CÓ, thưa cô. SATELLA.'
+	'VÂNG, THƯA NGÀI SATELLA.'
 	\L_076a4:
 	\L_07697:
 	\L_075d3:
@@ -5508,77 +5377,65 @@
 	{VAR0150 = 100:
 		\L_075e1:
 		ZH 1:
-		'Lượng tuyết'
+		'Nơi đây tuyết dày,'
 		R
-		'rơi lớn ở đây khiến việc'
-		R
-		'này trở nên rất nguy hiểm,'
+		'vô cùng nguy hiểm,'
 		\L_076a4:
 		ZH 1:
-		'nhưng nhờ vào'
+		'nhưng nhờ [Bùa Tuyết'
 		R
-		'[Bùa Tuyết] nên gần như'
+		'Hộ Mệnh] nên còn'
 		R
-		'không thể tiến bộ được.'
+		'gắng đi tiếp được.'
 		\L_076a4:
 		ZH 1:
-		'Dù vậy, ngươi'
-		R
-		'vẫn phải cẩn thận.'
+		'Dù vậy, vẫn cần thận trọng.'
 		\L_076a4:
 		ZH 1:
-		'Sẽ là khôn'
+		'Đơn vị thám hiểm nên'
 		R
-		'ngoan nếu đơn vị đi vào'
-		R
-		'ngục tối vẫn thận trọng.'
+		'hết sức đề phòng.'
 		\L_076a4:
 		\L_07697:
 		\L_07571:
 		ZH 1:
-		'Được rồi, mhm.'
+		'Ừ, đúng vậy, ừm ừm.'
 		\L_076a4:
 		\L_07697:
 	}
 	{VAR0150 = 0:
 		\L_075e1:
 		ZH 1:
-		'Vua Rance, ngài có'
-		R
-		'chắc chắn về điều này không?'
+		'Bệ hạ Rance, ngài chắc chứ?'
 		\L_076a4:
 		\L_07697:
 		\L_07571:
 		ZH 1:
-		'Về cái gì?'
+		'Chắc gì?'
 		\L_076a4:
 		\L_07697:
 		\L_075e1:
 		ZH 1:
-		'Tuyết rơi'
+		'Nơi này tuyết dày,'
 		R
-		'lớn ở đây khiến nơi đây'
-		R
-		'trở nên rất nguy hiểm.'
+		'vô cùng nguy hiểm.'
 		\L_076a4:
 		ZH 1:
-		'Tôi sợ rằng nhiều binh'
+		'E rằng sẽ mất nhiều'
 		R
-		'lính sẽ chết vì tê cóng'
+		'binh sĩ do tê cóng'
 		\L_076a4:
 		ZH 1:
-		'hoặc những thảm họa'
+		'hoặc lạc giữa đường,'
 		R
-		'khác trên đường đến đích...'
+		'trước khi tới được đích...'
 		\L_076a4:
 		\L_07697:
 		\L_07571:
 		ZH 1:
-		'Tôi hiểu rồi.'
+		'Ra vậy. Ta ghét lạnh,'
 		R
-		'Tôi ghét lạnh nên tôi sẽ'
-		R
-		'gửi đơn vị của người khác.'
+		'phái đơn vị khác đi thôi.'
 		\L_076a4:
 		\L_07697:
 		\L_075e1:
@@ -5594,16 +5451,16 @@
 	\L_075c5:
 	\L_0758d:
 	ZH 1:
-	'Ta hiểu rồi, nếu ta'
+	'Phải rồi, nếu Sill'
 	R
-	'để Sill đi vào Mùa xuân'
+	'hóa bò được ngâm trong'
 	R
-	'không bị nguyền rủa này,'
+	'Suối Giải Nguyền ở đây,'
 	\L_076a4:
 	ZH 1:
-	'có thể nàng sẽ'
+	'biết đâu sẽ trở'
 	R
-	'trở lại bình thường...'
+	'lại như cũ...'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
@@ -5615,66 +5472,62 @@
 	\L_07635:
 	\L_075e1:
 	ZH 1:
-	'Vâng, vua Rance?'
+	'Có thần, Bệ hạ Rance.'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Đi đến phòng ta và...'
+	'Vào phòng ta...'
 	\L_076a4:
 	\L_07697:
 	\L_0758d:
 	ZH 1:
-	'Không, chờ'
+	'Không, khoan...'
 	R
-	'đã... Nguy hiểm lắm.'
+	'Nguy hiểm quá.'
 	\L_076a4:
 	ZH 1:
-	'Với Sill trông như'
+	'Sill đang mang hình quái'
 	R
-	'một con quái vật, nếu nàng'
+	'vật, nếu lạc trong đó'
 	R
-	'lạc vào bên trong, thì...'
+	'thì không bao giờ...'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Chuyện gì vậy, vua Rance?'
+	'Bệ hạ Rance, ngài cần gì ạ?'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Im đi, không có'
+	'Ồn quá, thôi'
 	R
-	'gì đâu. Rời khỏi.'
+	'được rồi. Lui đi.'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Vâng, thưa ngài.'
+	'Vâng.'
 	\L_076a4:
 	\L_07697:
 	\L_07643:
 	\L_0758d:
 	ZH 1:
-	'Mình nên nghĩ cách khác…'
+	'Phải nghĩ cách khác thôi...'
 	\L_076a4:
 	ZH 1:
-	'Nghĩ lại'
+	'Nhắc mới nhớ... Maris có nói'
 	R
-	'thì... Maris đã nói gì đó về'
-	R
-	'việc đi tới Tháp Ho Raga...'
+	'hãy tới tháp Ho Raga nhỉ...'
 	\L_076a4:
 	\L_07697:
 	{VAR0492 \ 0:
 		\L_0758d:
 		ZH 1:
-		'Chỗ của ông'
+		'Chỗ lão già biến'
 		R
-		'già biến thái đó... Ta'
-		R
-		'không muốn làm điều đó.'
+		'thái ấy... Chán thật.'
 		\L_076a4:
 		\L_07697:
 	}
@@ -5688,27 +5541,25 @@
 	\L_075c5:
 	\L_07571:
 	ZH 1:
-	'Này, Merim. Ngươi muốn'
+	'Này, Merim. Có đi'
 	R
-	'cùng nhau tìm kiếm ngục tối?'
+	'thám hiểm cùng không?'
 	\L_076a4:
 	\L_07697:
 	!VAR0516 : 63!
 	\L_07635:
 	\L_075e1:
 	ZH 1:
-	'Vâng, xin'
+	'Vâng, cho tôi theo với.'
 	R
-	'hãy đưa tôi đi. Không gì có'
-	R
-	'thể làm tôi hạnh phúc hơn.'
+	'Merim hạnh phúc quá.'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Merim tham gia'
+	'Merim gia nhập'
 	R
-	'nhóm tìm kiếm.'
+	'đoàn thám hiểm.'
 	\L_076a4:
 	\L_07697:
 	!VAR0516 : 0!
@@ -5728,35 +5579,33 @@
 	\L_07635:
 	\L_075e1:
 	ZH 1:
-	'Vâng! Uuum... Chúng ta vẫn'
+	'Vâng! Háo hức quá...'
 	R
-	'chưa bắt đầu tìm kiếm sao?'
+	'Chưa đi thám hiểm sao ạ?'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Sẽ rất nguy hiểm'
+	'Vẫn nguy hiểm'
 	R
-	'nên ta sẽ bỏ ngươi lại.'
+	'quá, cô ở lại đi.'
 	\L_076a4:
 	\L_07697:
 	\L_075fd:
 	ZH 1:
-	'Uu... Anh đã nói là'
+	'Ư... Ngài đã hứa cho'
 	R
-	'sẽ mang em theo mà...'
+	'tôi đi cùng mà...'
 	\L_076a4:
 	ZH 1:
-	'Cậu là kẻ'
-	R
-	'dối trá, Rance...'
+	'Ngài Rance nói dối...'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Vì thế, Merim bị'
+	'Thế là rốt cuộc'
 	R
-	'bỏ lại phía sau.'
+	'Merim vẫn phải ở nhà.'
 	\L_076a4:
 	\L_07697:
 	!VAR0516 : 0!
@@ -5767,42 +5616,40 @@
 	\L_07635:
 	\L_075e1:
 	ZH 1:
-	'Vua Rance. Chúng tôi'
+	'Bệ hạ Rance. Tuần này đã'
 	R
-	'đã tìm kiếm một địa điểm'
-	R
-	'xa xôi trong tuần này.'
+	'thám hiểm vùng xa rồi,'
 	\L_076a4:
 	ZH 1:
-	'Chúng ta không thể'
-	R
-	'làm điều đó một lần nữa.'
+	'nên không thể đi nữa đâu ạ.'
 	\L_076a4:
 	\L_07697:
 	!VAR0516 : 1!
 	\L_075c5:
 	\L_07571:
 	ZH 1:
-	'Đừng nói thế, chúng ta có'
+	'Đừng keo kiệt'
 	R
-	'thể làm được nhiều hơn thế.'
+	'thế, tìm cách đi.'
 	\L_076a4:
 	\L_07697:
 	\L_075e1:
 	ZH 1:
-	'Sẽ là quá nhiều...'
+	'Riêng chuyện này'
+	R
+	'thì tôi đành chịu...'
 	\L_076a4:
 	\L_07697:
 	\L_07571:
 	ZH 1:
-	'Chết tiệt... Gah...'
+	'Khốn kiếp... Lầm bầm...'
 	\L_076a4:
 	\L_07697:
 	\L_075a9:
 	ZH 1:
-	'Rance miễn cưỡng'
+	'Rance miễn cưỡng từ'
 	R
-	'từ bỏ việc khám phá.'
+	'bỏ việc thám hiểm.'
 	\L_076a4:
 	\L_07697:
 	!VAR0516 : 0!

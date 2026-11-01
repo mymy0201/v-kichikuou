@@ -1,0 +1,709 @@
+--- before/CG.ADV
++++ src/CG.ADV
+@@ -327,7 +327,7 @@
+ 		@L_00a37:
+ 	}
+ 	ZH 1:
+-	'ủng hộ'
++	'Póc'
+ *L_00a37:
+ 	!VAR0002 : 0!
+ 	J0 0, 400:
+@@ -354,7 +354,7 @@
+ 		@L_0010a:
+ 	}
+ 	ZH 1:
+-	'tuyệt vời'
++	'Bụp!'
+ 	@L_0010a:
+ *L_00b11:
+ 	{VAR0002 = 1:
+@@ -448,7 +448,7 @@
+ 		@L_01c28:
+ 	}
+ 	ZH 1:
+-	'sự lựa chọn kỳ lạ'
++	'Lựa chọn lạ'
+ 	@L_0167e:
+ *L_00d5a:
+ 	{VAR0002 = 1:
+@@ -542,7 +542,7 @@
+ 		@L_021ff:
+ 	}
+ 	ZH 1:
+-	'sự lựa chọn kỳ lạ'
++	'Lựa chọn lạ'
+ 	@L_01c5a:
+ *L_00fa3:
+ 	{VAR0002 = 1:
+@@ -636,7 +636,7 @@
+ 		@L_027db:
+ 	}
+ 	ZH 1:
+-	'sự lựa chọn kỳ lạ'
++	'Lựa chọn lạ'
+ 	@L_02231:
+ *L_011ec:
+ 	{VAR0002 = 1:
+@@ -730,7 +730,7 @@
+ 		@L_02dad:
+ 	}
+ 	ZH 1:
+-	'sự lựa chọn kỳ lạ'
++	'Lựa chọn lạ'
+ 	@L_02231:
+ *L_01435:
+ 	{VAR0002 = 1:
+@@ -824,7 +824,7 @@
+ 		@L_0337e:
+ 	}
+ 	ZH 1:
+-	'sự lựa chọn kỳ lạ'
++	'Lựa chọn lạ'
+ 	@L_02231:
+ *L_0167e:
+ 	!VAR0520 : 300!
+@@ -2940,255 +2940,245 @@
+ 	\0:
+ *L_03a96:
+ 	ZH 1:
+-	'Rudrasaum 「Hmmmm... Họ đang làm gì vậy...?'
+-	R
+-	'Chờ đợi mệt mỏi rồi...'
+-	\L_055ec:
+-	ZH 1:
+-	'Có lẽ ta nên tấn công...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rudrasaum đang thì thầm điều gì đó nguy hiểm.'
+-	\L_055ec:
+-	ZH 1:
+-	'Warg bay lên khu vực phía trên mắt nó.'
+-	\L_055ec:
+-	ZH 1:
+-	'Warg 「Ở đây ổn không, Lassie?」'
+-	\L_055ec:
+-	ZH 1:
+-	'Lassie 「Gâu!!」'
+-	\L_055ec:
+-	ZH 1:
+-	'Warg 「Được rồi... Giờ thì... Ừm...'
+-	R
+-	'Mơ về anh hùng có tốt không?」'
+-	\L_055ec:
+-	ZH 1:
+-	'Lassie 「Gâu gâu gâu!」'
+-	\L_055ec:
+-	ZH 1:
+-	'Warg 「À, đúng rồi. Giấc mơ chiến tranh.'
+-	R
+-	'Cảm ơn, Lassie...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Warg mỉm cười trong khi cô đặt lòng bàn'
+-	\L_055ec:
+-	ZH 1:
+-	'tay lên Rudrasaum và dụi má cô vào đó.'
+-	\L_055ec:
+-	ZH 1:
+-	'Warg 「... Thời gian buồn ngủ...'
+-	R
+-	'Thời gian buồn ngủ...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Warg bắt đầu hát nhẹ nhàng.'
+-	\L_055ec:
+-	ZH 1:
+-	'Lassie 「Gâu gâu... Gâu gâu...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Lassie hát đồng điệu với cô.'
+-	\L_055ec:
+-	ZH 1:
+-	'Rudrasaum 「... Hm?」'
+-	\L_055ec:
+-	ZH 1:
+-	'Đôi mắt của Rudrasaum giật giật.'
+-	\L_055ec:
+-	ZH 1:
+-	'Warg 「Thời gian buồn ngủ... Ngài Cá voi...'
+-	R
+-	'Thời gian buồn ngủ...'
+-	\L_055ec:
+-	ZH 1:
+-	'Hãy là một đứa trẻ ngoan...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Thời gian buồn ngủ... Thời gian buồn ngủ...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Lassie 「Gâu gâu gâu gâu...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Ánh sáng lấp lánh bắt đầu'
+-	R
+-	'tỏa ra từ cơ thể của Warg.'
+-	\L_055ec:
+-	ZH 1:
+-	'Rudrasaum 「... Ừm... Mmmm...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rudrasaum từ từ chớp mắt.'
+-	\L_055ec:
+-	ZH 1:
+-	'Warg 「Thời gian buồn ngủ...'
+-	R
+-	'Thời gian buồn ngủ...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Lassie 「Gâu gâu... Gâu gâu gâu...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Ánh sáng tỏa ra từ Warg bao bọc cô, sau đó thấm'
+-	R
+-	'vào Rudrasaum.'
+-	\L_055ec:
+-	ZH 1:
+-	'Rudrasaum 「Mm Mm~~」'
+-	\L_055ec:
+-	ZH 1:
+-	'Mí mắt của Rudrasaum từ từ hạ xuống.'
+-	\L_055ec:
+-	ZH 1:
+-	'Sau đó,'
+-	\L_055ec:
+-	ZH 1:
+-	'cuối cùng chúng cũng đóng'
+-	R
+-	'lại và tiếng ngáy bắt đầu'
+-	\L_055ec:
+-	ZH 1:
+-	'phát ra từ cái miệng giống cá voi của Rudrasaum.'
+-	\L_055ec:
+-	ZH 1:
+-	'Warg 「... Ngoan lắm... Ngài đã đi ngủ rồi... Bây'
+-	R
+-	'giờ...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Đáng chú ý là có nhiều ánh sáng tỏa ra từ cơ thể'
+-	R
+-	'của Warg hơn.'
+-	\L_055ec:
+-	ZH 1:
+-	'Sau đó tất cả được hấp thụ vào Rudrasaum...'
+-	\L_055ec:
+-	ZH 1:
+-	'Rudrasaum 「............」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rudrasaum 「... Này...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rudrasaum 「Hee... Heehee... Thật dễ thương...'
+-	R
+-	'Họ đang đau khổ...'
+-	\L_055ec:
+-	ZH 1:
+-	'Heehee...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rudrasaum 「... Giết lẫn nhau... Ừm num...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rudrasaum có vẻ thích thú khi nó mộng du.'
+-	\L_055ec:
+-	ZH 1:
+-	'Warg 「Huhu... Dễ thương quá... Tôi sẽ cho Ngài'
+-	R
+-	'xem nhiều hơn nữa...'
+-	\L_055ec:
+-	ZH 1:
+-	'Ngài Cá voi.」'
+-	\L_055ec:
+-	ZH 1:
+-	'Lassie 「Gâu gâu!」'
++	'Rudrasaum「Ừmmm~~... đang làm gì'
++	R
++	'thế... chờ hoài... chán rồi......'
++	\L_055ec:
++	ZH 1:
++	'hay là tấn công nhỉ......」'
++	\L_055ec:
++	ZH 1:
++	'Rudrasaum đang lẩm bẩm những điều đáng sợ.'
++	\L_055ec:
++	ZH 1:
++	'Warg đã leo lên tới chỗ ngay'
++	R
++	'phía trên mắt Rudrasaum.'
++	\L_055ec:
++	ZH 1:
++	'Warg「Chỗ này được chưa? Lassie」'
++	\L_055ec:
++	ZH 1:
++	'Lassie「Gâu!!」'
++	\L_055ec:
++	ZH 1:
++	'Warg「Ừ... phải rồi...... vậy thì... ừm......'
++	R
++	'giấc mơ chính nghĩa có được không nhỉ??」'
++	\L_055ec:
++	ZH 1:
++	'Lassie「Gâu gâu gâu!」'
++	\L_055ec:
++	ZH 1:
++	'Warg「A, phải rồi. Giấc mơ chiến'
++	R
++	'tranh nhỉ. Cảm ơn, Lassie...」'
++	\L_055ec:
++	ZH 1:
++	'Warg mỉm cười tươi, đặt lòng bàn tay'
++	\L_055ec:
++	ZH 1:
++	'lên thân Rudrasaum, rồi áp má vào.'
++	\L_055ec:
++	ZH 1:
++	'Warg「......ru ru ru...... ru ru ru......」'
++	\L_055ec:
++	ZH 1:
++	'Warg khẽ cất tiếng hát.'
++	\L_055ec:
++	ZH 1:
++	'Lassie「Gâu gâu... gâu gâu......」'
++	\L_055ec:
++	ZH 1:
++	'Lassie hát theo.'
++	\L_055ec:
++	ZH 1:
++	'Rudrasaum「...............Hửm?」'
++	\L_055ec:
++	ZH 1:
++	'Mắt Rudrasaum khẽ giật.'
++	\L_055ec:
++	ZH 1:
++	'Warg「Ru ru ru... chú cá voi ơi... ru ru ru......'
++	\L_055ec:
++	ZH 1:
++	'ngoan nào... ru ru ru......'
++	\L_055ec:
++	ZH 1:
++	'ru ru ru......」'
++	\L_055ec:
++	ZH 1:
++	'Lassie「Gâu gâu gâu......」'
++	\L_055ec:
++	ZH 1:
++	'Ánh sáng lấp lánh tỏa ra từ người Warg.'
++	\L_055ec:
++	ZH 1:
++	'Rudrasaum「......Ưm...... ưmmm......」'
++	\L_055ec:
++	ZH 1:
++	'Rudrasaum chầm chậm chớp mắt.'
++	\L_055ec:
++	ZH 1:
++	'Warg「Ru ru ru... ru ru ru...」'
++	\L_055ec:
++	ZH 1:
++	'Lassie「Gâu gâu... gâu gâu gâu......」'
++	\L_055ec:
++	ZH 1:
++	'Ánh sáng từ người Warg bao quanh'
++	R
++	'cô bé, rồi thấm dần vào Rudrasaum.'
++	\L_055ec:
++	ZH 1:
++	'Rudrasaum「.........Ưm~~......」'
++	\L_055ec:
++	ZH 1:
++	'Mí mắt Rudrasaum từ từ sụp xuống.'
++	\L_055ec:
++	ZH 1:
++	'Và cuối cùng,'
++	\L_055ec:
++	ZH 1:
++	'mí mắt Rudrasaum khép lại, từ cái miệng như cá voi'
++	\L_055ec:
++	ZH 1:
++	'vang lên tiếng thở khò khò.'
++	\L_055ec:
++	ZH 1:
++	'Warg「......Ngoan lắm... ngủ'
++	R
++	'rồi nhỉ...... vậy thì......」'
++	\L_055ec:
++	ZH 1:
++	'Từ người Warg tỏa ra một'
++	R
++	'luồng sáng rực rỡ hơn hẳn.'
++	\L_055ec:
++	ZH 1:
++	'Rồi tất cả bị Rudrasaum hấp thụ......'
++	\L_055ec:
++	ZH 1:
++	'Rudrasaum「............」'
++	\L_055ec:
++	ZH 1:
++	'Rudrasaum「......khúc khích......」'
++	\L_055ec:
++	ZH 1:
++	'Rudrasaum「Khúc khích... khúc'
++	R
++	'khích khích... dễ thương ghê......'
++	\L_055ec:
++	ZH 1:
++	'đang khổ sở kìa...... khúc khích......」'
++	\L_055ec:
++	ZH 1:
++	'Rudrasaum「......xử luôn đi...... ư ư...」'
++	\L_055ec:
++	ZH 1:
++	'Rudrasaum vui vẻ nói mớ.'
++	\L_055ec:
++	ZH 1:
++	'Warg「Hì hì... dễ thương quá......'
++	\L_055ec:
++	ZH 1:
++	'Em sẽ cho xem thêm nữa,'
++	R
++	'thêm nữa nhé... chú cá voi」'
++	\L_055ec:
++	ZH 1:
++	'Lassie「Gâu gâu!」'
+ 	\L_055ec:
+ 	\0:
+ *L_03d18:
+ 	ZH 1:
+-	'Cơ thể của Sill được bao bọc trong một khối'
+-	\L_055ec:
+-	ZH 1:
+-	'băng khổng lồ và rơi xuống trước mặt Rance.'
+-	\L_055ec:
+-	ZH 1:
+-	'Rance 「S-S-Sill... Sill!! Sill, Sill, Sill!!」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rance chạy tới chỗ cô và chạm vào băng.'
+-	\L_055ec:
+-	ZH 1:
+-	'Cho dù hắn có đánh bao nhiêu đi chăng nữa, tảng'
+-	R
+-	'băng vẫn không vỡ.'
+-	\L_055ec:
+-	ZH 1:
+-	'Biểu hiện của Sill vẫn giữ nguyên bên trong.'
+-	\L_055ec:
+-	ZH 1:
+-	'Rance 「Siiiiiiiiiiiiiiiiiiiiiill!!」'
+-	\L_055ec:
+-	ZH 1:
+-	'） crackkk）'
+-	\L_055ec:
+-	ZH 1:
+-	'Hắn đập mạnh vào băng đến nỗi gãy tay, nhưng băng'
+-	R
+-	'vẫn còn nguyên...'
+-	\L_055ec:
+-	ZH 1:
+-	'Rance 「... Đồ khốn!!!」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rudrasaum 「Heeheehee...'
+-	\L_055ec:
+-	ZH 1:
+-	'Chẳng có ích gì khi làm thế cả. Không ai có thể'
+-	R
+-	'thay đổi được nó ngoài ta.」'
++	'Thân thể Sill bị bao trong một khối băng khổng lồ,'
++	\L_055ec:
++	ZH 1:
++	'rơi xuống trước mặt Rance.'
++	\L_055ec:
++	ZH 1:
++	'Rance「S... S... Sill......'
++	R
++	'Sill!! Sill, Sill, Sill!!」'
++	\L_055ec:
++	ZH 1:
++	'Rance chạy tới trước Sill đang'
++	R
++	'bị đóng băng, đập vào băng.'
++	\L_055ec:
++	ZH 1:
++	'Đập bao nhiêu, băng cũng không vỡ.'
++	\L_055ec:
++	ZH 1:
++	'Gương mặt Sill trong băng cũng không đổi.'
++	\L_055ec:
++	ZH 1:
++	'Rance「Siiiiiiiiill!!」'
++	\L_055ec:
++	ZH 1:
++	'(Rầmmmm)'
++	\L_055ec:
++	ZH 1:
++	'Hắn đập mạnh đến mức như gãy tay,'
++	R
++	'nhưng băng vẫn không vỡ......'
++	\L_055ec:
++	ZH 1:
++	'Rance「.........Đồ khốn nạnnn!!!」'
++	\L_055ec:
++	ZH 1:
++	'Rudrasaum「Khúc khích khích......'
++	\L_055ec:
++	ZH 1:
++	'Vô ích thôi... làm thế chẳng được gì đâu.'
++	R
++	'Không phải ta thì chẳng ai làm gì được đâu」'
+ 	\L_055ec:
+ 	ZH 1:
+ 	'」'
+ 	\L_055ec:
+ 	ZH 1:
+-	'Rudrasaum 「Ngươi muốn cô ta quay lại phải'
+-	R
+-	'không?」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rance 「............」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rudrasaum 「Heehee... Vui quá...'
+-	R
+-	'Trái tim ngươi đang tràn đầy giận dữ...'
+-	\L_055ec:
+-	ZH 1:
+-	'Ta thích điều đó... Hee.」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rance 「Ngươi chỉ là một con cá voi, ngươi không'
+-	R
+-	'thể làm điều này!!」'
+-	\L_055ec:
+-	ZH 1:
+-	'Hãy biến Sill trở lại bình thường ngay đi!!」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rudrasaum 「Không.」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rance 「Cái gìaaaaaat!!??」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rudrasaum 「Nếu ngươi muốn nàng quay lại, hãy giúp'
+-	R
+-	'Trẫm. Được chứ?」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rance 「Aaaaaargh...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rudrasaum 「Trẫm sẽ theo dõi từ đây.'
+-	\L_055ec:
+-	ZH 1:
+-	'Nếu ngươi không làm tốt, Trẫm sẽ xé nàng thành'
+-	R
+-	'từng mảnh.」'
++	'Rudrasaum「Cái này... muốn'
++	R
++	'lấy lại lắm phải không?」'
++	\L_055ec:
++	ZH 1:
++	'Rance「............」'
++	\L_055ec:
++	ZH 1:
++	'Rudrasaum「Khúc khích... vui ghê... trái'
++	R
++	'tim ngươi... đang giận... đang giận...'
++	\L_055ec:
++	ZH 1:
++	'ta thích thế lắm... khúc khích」'
++	\L_055ec:
++	ZH 1:
++	'Rance「Thân cá voi mà dám làm trò này!!'
++	\L_055ec:
++	ZH 1:
++	'Mau trả Sill lại như cũ!!」'
++	\L_055ec:
++	ZH 1:
++	'Rudrasaum「Khôngg」'
++	\L_055ec:
++	ZH 1:
++	'Rance「Cáiii gìiii!!??」'
++	\L_055ec:
++	ZH 1:
++	'Rudrasaum「Muốn lấy lại thì làm ta vui đi. OK?」'
++	\L_055ec:
++	ZH 1:
++	'Rance「Tức điên......」'
++	\L_055ec:
++	ZH 1:
++	'Rudrasaum「Ta ở đây xem đấy.'
++	\L_055ec:
++	ZH 1:
++	'Không làm cho tử tế thì'
++	R
++	'con bé này, ta xé tan tành」'
+ 	\L_055ec:
+ 	\0:
+ *L_03e77:
+@@ -3198,81 +3188,73 @@
+ 	\0:
+ *L_03e8b:
+ 	ZH 1:
+-	'Sill 「Haah... Haah...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rance 「Sill!! Em không thể đi nhanh như ta sao?'
+-	R
+-	'」'
+-	\L_055ec:
+-	ZH 1:
+-	'Sill 「Em-em xin lỗi... N-Nhưng...'
+-	R
+-	'Hành lý quá nặng... Chủ nhân Rance...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rance 「Ta chắc chắn là như vậy. Gahahahaha!」'
+-	\L_055ec:
+-	ZH 1:
+-	'Sill 「C-Cái quái gì vậy? Cái này...'
+-	R
+-	'thực sự rất nặng...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rance 「Vàng.」'
+-	\L_055ec:
+-	ZH 1:
+-	'Sill 「Hả...? Tất cả à?」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rance 「Gahahahaha!, đúng rồi.'
+-	\L_055ec:
+-	ZH 1:
+-	'Đó là toàn bộ số tiền lương ta nhận được khi làm'
+-	R
+-	'vua.」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rance 「Giá trị của vàng tăng lên trong thời kỳ'
+-	R
+-	'hỗn loạn.'
+-	\L_055ec:
+-	ZH 1:
+-	'Thế này chắc là đủ để xoay sở một lúc rồi.」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rance 「Có lẽ ta có thể mua vài căn nhà đây đó và'
+-	R
+-	'tận hưởng nhà thổ...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rance 「Ta cũng sẽ mua một căn nhà gần suối nước'
+-	R
+-	'nóng...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Mhm, nó sẽ giống như một giấc mơ không bao giờ kết'
+-	R
+-	'thúc vậy.」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rance 「Thế nên đừng bị bỏ lại dù chỉ một chút,'
+-	R
+-	'Sill.'
+-	\L_055ec:
+-	ZH 1:
+-	'Em sẽ bị trừng phạt nghiêm khắc nếu làm vậy.」'
+-	\L_055ec:
+-	ZH 1:
+-	'Sill 「V-Vâng... em sẽ thử...」'
+-	\L_055ec:
+-	ZH 1:
+-	'Rance 「Gahahahaha!! Giờ thì đi thôi, Sill!! Đua'
+-	R
+-	'nào! Sẵn sànggg, đi thôi!!」'
+-	\L_055ec:
+-	ZH 1:
+-	'Sill 「À... Đợi đã, làm ơn... Hii... Haah...」'
++	'Sill「Phù...... phù......」'
++	\L_055ec:
++	ZH 1:
++	'Rance「Sill!! Đi theo kịp tốc độ của ta xem nào」'
++	\L_055ec:
++	ZH 1:
++	'Sill「X... xin lỗi... nh... nhưng...'
++	R
++	'đồ nặng quá ạ... Chủ nhân Rance......」'
++	\L_055ec:
++	ZH 1:
++	'Rance「Thì nặng là phải. Gahahaha」'
++	\L_055ec:
++	ZH 1:
++	'Sill「R... rốt cuộc... là gì vậy ạ?'
++	R
++	'Cái này... n... nặng... thật sự......」'
++	\L_055ec:
++	ZH 1:
++	'Rance「Vàng thỏi」'
++	\L_055ec:
++	ZH 1:
++	'Sill「Ơ...... tất cả chỗ này ạ?」'
++	\L_055ec:
++	ZH 1:
++	'Rance「Gahahahahaha, đúng thế.'
++	\L_055ec:
++	ZH 1:
++	'Đó là tiền lương ta làm vua bấy lâu nay」'
++	\L_055ec:
++	ZH 1:
++	'Rance「Chính vì loạn lạc nên vàng mới lên giá.'
++	\L_055ec:
++	ZH 1:
++	'Có ngần này thì chơi được một thời gian」'
++	\L_055ec:
++	ZH 1:
++	'Rance「Để xem... mua nhà nho nhỏ'
++	R
++	'khắp nơi, rồi đi khắp nhà tắm hơi'
++	R
++	'với quán gái ở mỗi thành phố......」'
++	\L_055ec:
++	ZH 1:
++	'Rance「Còn mua nhà cạnh suối nước nóng nữa...'
++	\L_055ec:
++	ZH 1:
++	'Ừm ừm, mơ ước không bao giờ hết」'
++	\L_055ec:
++	ZH 1:
++	'Rance「Thế nên, Sill. Đánh rơi'
++	R
++	'dù chỉ một thỏi là không được.'
++	\L_055ec:
++	ZH 1:
++	'Làm rơi là bị phạt đấy」'
++	\L_055ec:
++	ZH 1:
++	'Sill「V... vâng... em sẽ cố......」'
++	\L_055ec:
++	ZH 1:
++	'Rance「Gahahahahaha!! Nào, đi thôi,'
++	R
++	'Sill!! Chạy đua nào, chuẩn bị... chạy!!」'
++	\L_055ec:
++	ZH 1:
++	'Sill「A...... đợi em vớiii...... hà...... phù...」'
+ 	\L_055ec:
+ 	\0:
+ *L_03fc5:
+@@ -4177,7 +4159,7 @@
+ 		\0:
+ 	}
+ 	ZH 1:
+-	'Thật kỳ lạ!'
++	'Lạ quá điii!'
+ 	\0:
+ *L_054b8:
+ 	!VAR0013 : 104!

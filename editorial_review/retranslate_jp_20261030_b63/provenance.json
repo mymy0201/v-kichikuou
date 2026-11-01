@@ -1,0 +1,27 @@
+{
+  "semantic_base": "Verified original Japanese; English reference only.",
+  "verified_source_provenance_sha256": "9282664cf553185e695a9490bd8e0a3dce1876ba2ece7df0bb398a64ceb6577e",
+  "sources": {
+    "Gﾐｷ.ADV": {
+      "japanese_sha256": "c432ab4b63064bb8a97fe22ca84c475eb6377ab846ae3d1942caf17edf1dabfe",
+      "normalized_sha256": "6c89ad725eb415e717add96e07bfc49ab10ddd1cdcc9e95060ef9cd5b3d1109d",
+      "english_reference_sha256": "7fa166aa4a85a447ffb941d12179b9e4fa978169cb5f92ca31776a20e3281efd"
+    },
+    "SET_CHR.ADV": {
+      "japanese_sha256": "d341cb5dfc0f8a81a1c5e65887123208d4be1b4162bf44a57a210c50dd5a5071",
+      "normalized_sha256": "d341cb5dfc0f8a81a1c5e65887123208d4be1b4162bf44a57a210c50dd5a5071",
+      "english_reference_sha256": "fe9a81a2716acea16e13549354be8cfd222ee2476cdc23e83b133d2ccd0ea704"
+    }
+  },
+  "rules_sha256": "253f2a452ac5c4f4a349ee48e853c1289ac0a5391a64bfbeb482ced849ba6f6a",
+  "method": "Direct handwritten Vietnamese after reading all eligible Japanese event/branch utterances. All494 Japanese/current catalog labels read; English recorded for reference only. Numerical unit definitions verified unchanged. No MT/bulk pronoun pipeline.",
+  "decisions": [
+    "Miki em/chú Rance and em/anh Kentarou; Kentarou anh/em with Miki, tôi with Rance, tao/mày when confronting Piar. Hornet tôi/ngài respectfully toward Miki. Rance ta, Maris thần/Bệ hạ.",
+    "Enterprise is a ship name, Diphtheria a city, summit đỉnh núi, Hirami a remedy; keep three-month interval, one fruit, over30-minute battle, all gameplay quantities unchanged.",
+    "SET_CHR 正規兵 Chính quy Leazas; 装甲兵 Thiết giáp Helman; 市民兵 Dân quân with actual city; フリークロボ Robot Freak; 突撃隊 Đội xung kích rather than Đội trưởng. Actual non-fake エンジェルナイト Kỵ sĩ thiên thần; source偽 remains Ngụy thiên thần.",
+    "Retain established proper names except verified Babora/Anis/Saizel spellings. Hào kiệt Red/Ice follows current map names. 保留blank and question-mark placeholders unchanged. No biography sexual prose in SET_CHR.",
+    "Preserve latest concurrent Little Princess wording in Miki, Satella and Piar sources; adopted baseline and original snapshots retained. Little Princess used consistently for the actual title in eligible Miki dialogue."
+  ],
+  "baseline_reconciliation": "concurrent_reconciliation.json",
+  "original_source_snapshot": "pre_concurrent.source_hashes.before.json"
+}

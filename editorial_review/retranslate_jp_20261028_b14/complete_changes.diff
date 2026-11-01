@@ -1,0 +1,10631 @@
+--- before/Gｲｿﾛｸ.ADV
++++ src/Gｲｿﾛｸ.ADV
+@@ -101,21 +101,21 @@
+ 	\L_06ad6:
+ 	ZM 32:
+ 	ZH 1:
+-	'Quân đội Leazas'
++	'Quân Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Trụ sở chính'
++	'Bản doanh'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 471!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Tôi có thể nói chuyện'
+-	R
+-	'được không, Ngài Rance?'
++	'Bệ hạ Rance, thần xin'
++	R
++	'phép bẩm báo được chứ ạ?'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06a9e:
+@@ -125,88 +125,98 @@
+ 	\L_06bb6:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'N-Nhưng rồi...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance uể oải vẫy tay.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Đó là một trò đùa. Ngươi'
+-	R
+-	'có nghĩ ta sẽ coi trọng'
+-	R
+-	'một người đàn ông không?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Người lính vừa báo cáo cố'
+-	R
+-	'hết sức giữ cho hai đầu gối'
+-	R
+-	'khỏi khuỵu xuống.'
++	'K-không, nhưng'
++	R
++	'như thế thì...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance chán chường xua tay.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Giỡn chắc. Ngươi tưởng ta'
++	R
++	'sẽ nghiêm túc tiếp chuyện'
++	R
++	'một thằng đàn ông chắc?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Gã hiệp sĩ phải cố'
++	R
++	'hết sức để hai đầu'
++	R
++	'gối khỏi khuỵu xuống.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b2a:
+ 	ZH 1:
+-	'Lúc nào cũng vậy...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Vậy nó là gì?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Thần đã bắt được tướng địch.'
+-	R
+-	'Xin bệ hạ quyết định cách xử'
+-	R
+-	'trí.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Mang đến tận đây, tức là phụ'
+-	R
+-	'nữ hả?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Đương nhiên rồi, thưa bệ hạ.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Hiểu ý ta đấy. Hê hê hê...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Hê hê hê...'
+-	\L_06bc3:
+-	ZH 1:
+-	'À, e hèm. Đưa vào đây!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Tiếng hét'
+-	R
+-	'của hiệp sĩ báo hiệu có'
+-	R
+-	'hai người lính bước vào,'
+-	\L_06bc3:
+-	ZH 1:
+-	'mang theo một'
+-	R
+-	'người phụ nữ ở giữa.'
++	'Biết là chuyện thường'
++	R
++	'ngày rồi, nhưng...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Thế, có chuyện gì?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Bẩm, chúng thần đã bắt'
++	R
++	'được một tướng địch,'
++	R
++	'xin bệ hạ định đoạt.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Đã cất công mang tới'
++	R
++	'tận chỗ ta, thì không'
++	R
++	'phải đàn ông chứ gì?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Tất nhiên rồi ạ,'
++	R
++	'thưa Bệ hạ Rance.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Các ngươi cũng bắt đầu hiểu'
++	R
++	'ý ta rồi đấy. Hi hi hi hi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Chuyện đó thì... hi hi hi.'
++	\L_06bc3:
++	ZH 1:
++	'...À, e hèm.'
++	R
++	'Này, dẫn vào đây!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Theo hiệu lệnh của hiệp'
++	R
++	'sĩ, một người phụ nữ'
++	\L_06bc3:
++	ZH 1:
++	'bước vào, kẹp'
++	R
++	'giữa hai tên lính.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 24!
+@@ -218,31 +228,33 @@
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Ồ, xinh đấy. Này, tên lính'
+-	R
+-	'lúc nãy!'
++	'Ồ, mỹ nhân đấy chứ.'
++	R
++	'Này, tên lúc nãy.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 471!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Dạ? Thần ạ?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ngươi tinh mắt lắm. Ta sẽ'
+-	R
+-	'thưởng cho'
+-	\L_06bc3:
+-	ZH 1:
+-	'ngươi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Thần vô cùng cảm tạ!'
++	'Dạ, thần ạ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ừm. Phán đoán tốt'
++	R
++	'lắm. Ta sẽ ban thưởng,'
++	\L_06bc3:
++	ZH 1:
++	'vui lên đi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Ồ, thật là... thần'
++	R
++	'vô cùng đội ơn.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06a9e:
+@@ -252,7 +264,7 @@
+ 	\L_06bb6:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Rance đưa cho người lính một'
++	'Thứ Rance chìa ra là một'
+ 	R
+ 	'chiếc vỏ sò nhỏ, bẩn thỉu.'
+ 	\L_06bc3:
+@@ -264,141 +276,137 @@
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Hãy vui mừng.'
++	'Đấy, vui lên đi.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b2a:
+ 	ZH 1:
+-	'Tôi nghe nói Vua Rance'
+-	R
+-	'là một nhà sưu tập vỏ sò.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tôi chắc chắn điều này'
+-	R
+-	'rất quan trọng với hắn...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Thần sẽ giữ làm báu vật gia'
+-	R
+-	'truyền!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Được rồi, tất cả ra ngoài.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Ta muốn nói chuyện riêng với'
+-	R
+-	'cô ta.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Vâng, thưa bệ hạ.'
++	'Nghe nói Bệ hạ'
++	R
++	'Rance sưu tầm vỏ sò.'
++	\L_06bc3:
++	ZH 1:
++	'Hẳn thứ này rất quý với'
++	R
++	'ngài, chắc chắn là vậy...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Thật là bảo vật... thần'
++	R
++	'xin giữ làm của gia truyền.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ừ, tùy ngươi. Ta muốn'
++	R
++	'nói chuyện với ả một lát,'
++	\L_06bc3:
++	ZH 1:
++	'tất cả ra ngoài đi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Tuân lệnh.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b70:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Người hiệp'
+-	R
+-	'sĩ kính cẩn cúi đầu và'
+-	R
+-	'dẫn binh lính ra ngoài.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Cái vỏ sò trong món canh hôm'
+-	R
+-	'qua mà cũng khiến hắn mừng'
+-	R
+-	'đến thế.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Đúng là tên kỳ quặc.'
++	'Gã hiệp sĩ cung kính'
++	R
++	'cúi chào rồi dẫn'
++	R
++	'binh lính ra ngoài.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Con sò trong bát'
++	R
++	'canh hôm qua mà hắn'
++	R
++	'cũng mừng đến thế.'
++	\L_06bc3:
++	ZH 1:
++	'Đúng là thằng kỳ quặc.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 24!
+ 	\L_06b62:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Dù sao thì,'
+-	R
+-	'em. Em tên là gì?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Tôi là Isoroku Yamamoto.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ồ, ta cứ tưởng cô sẽ không'
+-	R
+-	'chịu khai tên. Thẳng thắn'
+-	R
+-	'đấy.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Nhưng đừng ăn nói cứng nhắc'
+-	R
+-	'thế. Phụ nữ nói vậy'
+-	\L_06bc3:
+-	ZH 1:
+-	'chẳng dễ thương chút nào.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Chuyện đó không quan trọng.'
+-	R
+-	'Đã thua'
+-	\L_06bc3:
+-	ZH 1:
+-	'trận, tôi không muốn tiếp'
+-	R
+-	'tục chịu nhục. Hãy chém đầu'
+-	R
+-	'tôi đi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku duy trì sự'
+-	R
+-	'dũng cảm của mình ngay'
+-	R
+-	'cả khi còn là tù nhân.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance tiếp cận Isoroku.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'C-Anh đang làm gì'
+-	R
+-	'vậy? Thật thô lỗ.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Ngón tay của Rance'
+-	R
+-	'chạy dọc theo chiếc gáy'
+-	R
+-	'trắng trẻo của Isoroku.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Muốn ta cắt cổ này à...?'
++	'Mà này, cô kia.'
++	R
++	'Tên cô là gì?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'...Tại hạ là Isoroku.'
++	R
++	'Yamamoto Isoroku.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Hừm. Tưởng cô sẽ không chịu'
++	R
++	'nói, ai ngờ cũng ngoan phết.'
++	\L_06bc3:
++	ZH 1:
++	'Nhưng sửa cái'
++	R
++	'giọng ăn nói ấy đi.'
++	\L_06bc3:
++	ZH 1:
++	'Cô là đàn bà cơ mà.'
++	R
++	'Chẳng dễ thương gì cả.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Chuyện đó thì có gì đáng kể.'
++	\L_06bc3:
++	ZH 1:
++	'Đã bại trận, tại hạ'
++	R
++	'không định chịu nhục'
++	R
++	'thêm. Nào, chém đầu đi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Dù thân là tù binh,'
++	R
++	'Isoroku vẫn không chịu'
++	R
++	'bỏ thái độ cứng cỏi.'
++	\L_06bc3:
++	ZH 1:
++	'Rance tiến lại gần Isoroku.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Ng-ngươi làm gì... vô lễ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Ngón tay Rance lướt dọc gáy'
++	R
++	'cổ trắng ngần của Isoroku.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Chém cái cổ này sao...'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06ad6:
+@@ -408,40 +416,40 @@
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Ừm... Cổ này.'
++	'Hừm... cái cổ này à.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06ad6:
+ 	ZH 1:
+ 	'Cảm giác ngón tay'
+ 	R
+-	'trên cổ cô biến mất.'
++	'bò trên cổ biến mất.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b2a:
+ 	ZH 1:
+-	'Thế là dòng họ Yamamoto chấm'
+-	R
+-	'dứt tại đây sao...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku nghiến răng. Nàng'
+-	R
+-	'không sợ bị chém đầu,'
+-	\L_06bc3:
+-	ZH 1:
+-	'chỉ tiếc dòng máu Yamamoto'
+-	R
+-	'sắp tuyệt'
+-	\L_06bc3:
+-	ZH 1:
+-	'diệt. Chợt không còn cảm'
+-	R
+-	'thấy người bên cạnh, nàng mở'
+-	R
+-	'mắt.'
++	'Nhà Yamamoto...'
++	R
++	'đến đây là hết sao.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku nghiến chặt'
++	R
++	'răng. Không phải'
++	R
++	'vì sắp bị chém đầu.'
++	\L_06bc3:
++	ZH 1:
++	'Nàng uất ức vì dòng máu'
++	R
++	'Yamamoto sẽ tuyệt tự.'
++	\L_06bc3:
++	ZH 1:
++	'Chợt hơi người bên cạnh'
++	R
++	'biến mất. Isoroku mở mắt.'
+ 	\L_06bc3:
+ 	ZH 1:
+ 	'Rance đứng cách đó một'
+@@ -451,224 +459,238 @@
+ 	\L_06bb6:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Còn do dự gì nữa? Mau giết'
+-	R
+-	'tôi đi!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Không. Giết thì phí quá.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Làm thuộc hạ của ta đi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Cái gì...?!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Cả đám lính của cô nữa. Tất'
+-	R
+-	'cả hãy về dưới trướng ta.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Ngươi...! Định thương hại ta'
+-	R
+-	'sao?!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku đột nhiên nổi cơn'
+-	R
+-	'thịnh nộ, như có một ngọn'
+-	R
+-	'lửa bùng cháy bên trong cô.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ta để ngươi sống,'
+-	R
+-	'sao ngươi phải nổi điên?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Chàng đang thương'
+-	R
+-	'hại thiếp vì thiếp là'
+-	R
+-	'phụ nữ phải không?!'
+-	\L_06bc3:
+-	ZH 1:
+-	'Đối với thiếp đó là'
+-	R
+-	'sự xúc phạm lớn nhất!'
+-	\L_06bc3:
+-	ZH 1:
+-	'Nếu chấp'
+-	R
+-	'nhận điều đó thiếp sẽ mãi'
+-	R
+-	'mãi sống trong nhục nhã!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Nước bọt của'
+-	R
+-	'Isoroku bay ra khỏi miệng'
+-	R
+-	'khi nàng hét vào mặt Rance.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Nếu cô nhất quyết'
+-	\L_06bc3:
+-	ZH 1:
+-	'không chịu, ta đành giết hết'
+-	R
+-	'vậy.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance lẩm bẩm một'
+-	R
+-	'cách thờ ơ. Biểu hiện'
+-	R
+-	'của Isoroku thay đổi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'... Cái gì?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Xử tử cả cô lẫn đám lính của'
+-	R
+-	'cô.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Tôi chết cũng được. Nhưng'
+-	R
+-	'các binh sĩ thì...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Hừm, ta phải'
+-	R
+-	'làm gì với những người'
+-	R
+-	'lính không có tướng?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Họ còn vợ con chứ? Họ chết'
+-	R
+-	'rồi,'
+-	\L_06bc3:
+-	ZH 1:
+-	'ai nuôi gia đình họ?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance giả vờ'
+-	R
+-	'suy nghĩ một chút.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Hay là giết luôn vợ con họ'
+-	R
+-	'nhỉ?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Đ-Đồ khốn nạn!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Đùa thôi. Ai rảnh mà làm'
+-	R
+-	'thế.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Nhưng tùy câu trả lời của'
+-	\L_06bc3:
+-	ZH 1:
+-	'cô, biết đâu ta lại đổi ý.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance quay mặt đi, huýt sáo.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Tôi hiểu rồi... Tôi xin phục'
+-	R
+-	'vụ ngài Rance.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ối!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance quay lại, chống nạnh,'
+-	R
+-	'ưỡn ngực.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Vậy cô thề trung thành với'
+-	R
+-	'ta chứ?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Tôi xin thề.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Còn nữa, bỏ cái lối nói cứng'
+-	R
+-	'nhắc ấy đi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Đượ... Vâng, tôi hiểu rồi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ừm. Điều đó dễ thương hơn.'
++	'Sao thế... chém đi!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'...Không thích. Phí lắm.'
++	\L_06bc3:
++	ZH 1:
++	'Đặc biệt cho cô làm'
++	R
++	'thuộc hạ của ta.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Cái...!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Cả đám thuộc hạ của cô'
++	R
++	'ngoài kia nữa. Dưới trướng'
++	R
++	'ta, cứ việc đánh cho thỏa.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Ng-ngươi...! Định rủ'
++	R
++	'lòng thương hại sao!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku bỗng nổi giận'
++	R
++	'đùng đùng như bị châm lửa.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Người ta tha mạng cho, sao'
++	R
++	'lại còn bị mắng thế hả.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Ngươi thương hại vì tại'
++	R
++	'hạ là đàn bà chứ gì!'
++	\L_06bc3:
++	ZH 1:
++	'Với tại hạ, đó là'
++	R
++	'sự sỉ nhục lớn nhất!'
++	\L_06bc3:
++	ZH 1:
++	'Chịu sự đối đãi ấy'
++	R
++	'thì sẽ là nỗi nhục'
++	R
++	'đến muôn đời con cháu!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Mặc nước bọt bắn tung tóe,'
++	R
++	'Isoroku xông vào cãi Rance.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Hết cách rồi...'
++	\L_06bc3:
++	ZH 1:
++	'cô đã nói tới mức ấy'
++	R
++	'thì giết sạch vậy.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance lẩm bẩm vẻ'
++	R
++	'chán chường. Sắc'
++	R
++	'mặt Isoroku đổi hẳn.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'...Cái gì?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Cô, và cả đám thuộc'
++	R
++	'hạ của cô ngoài kia,'
++	R
++	'tất tần tật đem xử tử.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Đ-điều đó... Tại hạ'
++	R
++	'ra sao cũng được,'
++	R
++	'nhưng thuộc hạ thì...!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Hừ, lính không có tướng thì'
++	R
++	'ta biết làm gì với chúng.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Nhưng trong số họ có người'
++	R
++	'còn vợ con! Họ mà bị giết,'
++	\L_06bc3:
++	ZH 1:
++	'thì ai sẽ nuôi'
++	R
++	'gia đình họ đây!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance làm bộ suy'
++	R
++	'nghĩ một chút.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ừm~... vậy xử tử luôn'
++	R
++	'cả vợ con chúng thì sao?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Ng-ngươi...!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Đùa thôi, ai rảnh mà làm'
++	R
++	'chuyện phiền phức thế.'
++	\L_06bc3:
++	ZH 1:
++	'Nhưng mà này. Chỉ một'
++	R
++	'câu trả lời của cô'
++	\L_06bc3:
++	ZH 1:
++	'cũng có thể khiến ta'
++	R
++	'đổi ý, phiền mấy cũng'
++	R
++	'chịu khó làm ấy chứ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance quay mặt đi'
++	R
++	'chỗ khác, huýt sáo.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'...Đã rõ. Ngài Rance,'
++	R
++	'tại hạ xin phục vụ ngài.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ồ!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance cười toe, quay'
++	R
++	'phắt sang Isoroku, chống'
++	R
++	'nạnh ưỡn ngực vênh váo.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Vậy cô thề trung'
++	R
++	'thành với ta chứ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'...Tại hạ xin thề.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Thêm một điều nữa, bỏ'
++	R
++	'cái giọng ăn nói ấy đi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Đã rõ... à không,'
++	R
++	'tôi hiểu rồi ạ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ừm. Dễ thương,'
++	R
++	'dễ thương lắm.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06ad6:
+@@ -676,11 +698,11 @@
+ 	'Rance hài lòng gật đầu.'
+ 	\L_06bc3:
+ 	ZH 1:
+-	'Nữ tướng JAPAN, Isoroku'
+-	R
+-	'Yamamoto, đã trở thành thuộc'
+-	R
+-	'hạ của chàng.'
++	'Thế là nữ võ tướng JAPAN'
++	R
++	'Yamamoto Isoroku đã trở'
++	R
++	'thành thuộc hạ của Rance.'
+ 	\L_06bc3:
+ 	!VAR0154 : 27!
+ 	!VAR0102 : 1!
+@@ -688,12 +710,12 @@
+ *L_00c5b:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Gọi...'
++	'Gọi Isoroku...'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06aba:
+ 	ZH 1:
+-	'Không, chờ đã.'
++	'Không, khoan đã.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 6!
+@@ -705,39 +727,41 @@
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Không sao đâu.'
++	'Không có gì.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b70:
+ 	\L_06aba:
+ 	ZH 1:
+-	'Cô ấy vừa sinh con, chắc còn'
+-	\L_06bc3:
+-	ZH 1:
+-	'mệt lắm. Con của ta đấy!'
++	'...Isoroku vừa mới sinh'
++	R
++	'con. Chắc đang mệt.'
++	\L_06bc3:
++	ZH 1:
++	'Nhưng mà, con của'
++	R
++	'ta cơ đấy... ưmm...'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 5!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Chàng yêu, tại'
+-	R
+-	'sao em lại nhìn chằm chằm'
+-	R
+-	'vào khoảng không như thế?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance hết cười toe toét lại'
+-	R
+-	'đột ngột nhăn nhó, không yên'
+-	\L_06bc3:
+-	ZH 1:
+-	'chút nào. Lia lo lắng nhìn'
+-	R
+-	'chàng.'
++	'Chàng yêu, chàng làm'
++	R
++	'mặt gì một mình thế?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Lúc thì nhếch mép cười,'
++	R
++	'lúc lại nhăn mặt, Rance'
++	R
++	'cứ bồn chồn không yên.'
++	\L_06bc3:
++	ZH 1:
++	'Lia lo lắng nhìn hắn.'
+ 	\L_06bc3:
+ 	@L_06a87:
+ *L_00d64:
+@@ -749,23 +773,19 @@
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Không phản đối'
+-		R
+-		'đâu, Ngài Rance,'
+-		\L_06bc3:
+-		ZH 1:
+-		'nhưng cô'
+-		R
+-		'Isoroku hiện đang trong giai'
+-		R
+-		'đoạn cuối của thai kỳ và...'
++		'Thần xin mạn phép,'
++		R
++		'thưa Bệ hạ Rance,'
++		\L_06bc3:
++		ZH 1:
++		'cô Isoroku hiện đã mang'
++		R
++		'thai khá nặng nề rồi ạ...'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Vì thế ta mới gọi cô ấy. Mau'
+-		R
+-		'lên.'
++		'Vì thế ta mới gọi. Mau lên.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+@@ -786,16 +806,18 @@
+ 		\L_06b62:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Ngài đã triệu tập'
+-		R
+-		'tại hạ, Ngài Rance?'
++		'Ngài cho gọi thiếp'
++		R
++		'ạ, Ngài Rance?'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Bụng của Isoroku'
+-		R
+-		'thực sự rất tròn.'
++		'Cái bụng của Isoroku'
++		R
++		'vừa xuất hiện đã nhô'
++		R
++		'lên tròn trịa thấy rõ.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+@@ -805,23 +827,23 @@
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Vâng, thiếp xin phép.'
++		'V-vâng... thiếp xin phép.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Rance ra hiệu cho'
+-		R
+-		'Isoroku tới. Cô bước một'
+-		R
+-		'bước ngắn về phía trước.'
++		'Rance vẫy tay gọi,'
++		R
++		'Isoroku chỉ dám nhích'
++		R
++		'lại gần một chút.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Lại gần đây. Ngay trước mặt'
+-		R
+-		'ta ấy.'
++		'Lại gần nữa. Ngay'
++		R
++		'trước mặt ta ấy.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+@@ -838,94 +860,94 @@
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Lia nhìn chằm chằm đầy giận'
+-		R
+-		'dữ.'
++		'Một ánh nhìn gay gắt'
++		R
++		'xuyên thẳng vào Isoroku.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		!VAR0516 : 1!
+ 		\L_06af2:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Được rồi, ta'
+-		R
+-		'sẽ qua chỗ em.'
++		'Hết cách, để ta qua vậy.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Rance xuống khỏi ngai'
+-		R
+-		'vàng và đi đến Isoroku.'
++		'Rance nhổm khỏi ngai'
++		R
++		'vàng, sầm sập bước'
++		R
++		'tới chỗ Isoroku.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Hãy xem...'
++		'Để xem nào...?'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'À, Ngài Rance.'
++		'A, Ngài Rance.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Rance quỳ xuống, áp tai vào'
+-		R
+-		'bụng Isoroku.'
++		'Rồi hắn quỳ xuống'
++		R
++		'chân Isoroku, áp tai'
++		R
++		'vào cái bụng tròn.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Ờ, ôi.'
++		'...Ô, ôi chà.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Giữa sự tĩnh lặng, một nhịp'
+-		R
+-		'tim khác vẫn đều đặn vang'
+-		R
+-		'lên.'
++		'Một nhịp tim khác với của'
++		R
++		'Isoroku, khẽ thôi nhưng đều'
++		R
++		'đặn, vọng vào tai Rance.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Nó còn sống!'
++		'Nó sống thật nàyyy!'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Ngài Rance...'
+-		\L_06bc3:
+-		ZH 1:
+-		'Đương nhiên rồi ạ. Theo lời'
+-		R
+-		'thầy thuốc, khoảng một tháng'
+-		R
+-		'nữa...'
++		'Ng-Ngài Rance...'
++		R
++		'tất nhiên rồi ạ.'
++		\L_06bc3:
++		ZH 1:
++		'Thầy thuốc nói chỉ còn'
++		R
++		'chừng một tháng nữa...'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'T-ta hiểu'
+-		R
+-		'rồi... Hmm... Mmmgh.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Điều đó khiến ta'
+-		R
+-		'cảm thấy hơi kỳ lạ...'
++		'Th-thế à... ưmm... hừmmm.'
++		\L_06bc3:
++		ZH 1:
++		'Cảm giác cứ là'
++		R
++		'lạ thế nào ấy...'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Bất chấp'
+-		R
+-		'những gì hắn nói, Rance'
+-		R
+-		'không thể không mỉm cười.'
++		'Miệng nói vậy, nhưng'
++		R
++		'mặt Rance cứ toe toét'
++		R
++		'không sao nhịn được.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		!VAR0516 : 5!
+@@ -935,45 +957,45 @@
+ 		'...'
+ 		\L_06bc3:
+ 		ZH 1:
+-		'... Chàng yêu!'
++		'...Chàng yêuuu!'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Lia không thể kiềm chế'
+-		R
+-		'được nữa và lao vào Rance.'
++		'Không chịu nổi nữa, Lia'
++		R
++		'nhào tới ôm chầm lấy Rance.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Ôi, nàng đang làm gì vậy?!'
++		'Oái, tự nhiên làm gì thế!'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Thiếp cũng muốn có con với'
+-		R
+-		'chàng!'
++		'Lia cũng muốn có con với'
++		R
++		'chàng, muốn, muốn, muốn cơ!'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Ôi, đừng gãi ta nữa!'
++		'Đau, đừng cào, này, thôi đi!'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Hãy làm một'
+-		R
+-		'cái ngay bây giờ!'
++		'Làm đi, làm ngay'
++		R
++		'bây giờ điii!'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Đồ ngốc, đừng cố'
+-		R
+-		'cởi quần của ta nữa!'
++		'Đồ ngốc, đừng tụt'
++		R
++		'quần ta xuốnggg!'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		!VAR0516 : 6!
+@@ -982,81 +1004,77 @@
+ 		\L_06b62:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Cô Isoroku, cô cứ về trước'
+-		R
+-		'đi. Ở đây không tốt cho thai'
+-		R
+-		'nhi.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Tôi sẽ thưa lại với bệ hạ'
+-		R
+-		'Rance.'
++		'...Cô Isoroku, ở đây không'
++		R
++		'tốt cho việc dưỡng thai,'
++		\L_06bc3:
++		ZH 1:
++		'cô cứ về trước đi ạ. Tôi sẽ'
++		R
++		'thưa lại với Bệ hạ Rance.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Vâng, tôi hiểu rồi.'
++		'V-vâng... tôi hiểu rồi.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b00:
+ 		\L_06b70:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Isoroku để'
+-		R
+-		'Rance và Lia chiến đấu'
+-		R
+-		'trong phòng tiếp khách.'
++		'Mặc Rance và Lia đang giằng'
++		R
++		'co trong phòng yết kiến,'
++		R
++		'Isoroku vội vàng lui ra.'
+ 		\L_06bc3:
+ 		@L_06a87:
+ 	}
+ 	\L_06aba:
+ 	ZH 1:
+-	'Có lẽ tôi'
+-	R
+-	'nên kiểm tra Isoroku...'
++	'Xem tình hình Isoroku nhỉ...'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 6!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Ngài muốn gặp cô Isoroku'
+-	R
+-	'phải không ạ?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Sao ngươi biết?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Chắc là tình cờ thôi ạ. Thần'
+-	R
+-	'xin phép.'
++	'Bệ hạ Rance, ngài muốn gặp'
++	R
++	'cô Isoroku... phải không ạ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Hả, Maris, sao ngươi biết?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Chắc là tình cờ thôi'
++	R
++	'ạ. Thần xin phép.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b70:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Maris rời phòng yết kiến để'
+-	R
+-	'đi gọi Isoroku.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ờ, ừm...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance nhìn theo Maris, vẻ'
+-	R
+-	'không phục.'
++	'Maris rời phòng yết'
++	R
++	'kiến để đi gọi Isoroku.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ư, ừmmm...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance nhìn theo Maris ra'
++	R
++	'ngoài, vẻ vẫn chưa thông.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b00:
+@@ -1077,23 +1095,21 @@
+ 	\L_06b62:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Maris đột'
+-	R
+-	'nhiên dừng lại, đưa tay lên'
+-	R
+-	'miệng và cười khúc khích.'
++	'Chợt dừng bước, Maris đưa'
++	R
++	'tay che miệng, khẽ bật cười.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b2a:
+ 	ZH 1:
+-	'Từ khi cô Isoroku mang thai,'
+-	R
+-	'cứ nhắc tới chuyện'
+-	\L_06bc3:
+-	ZH 1:
+-	'đó là suy nghĩ của bệ hạ'
+-	R
+-	'hiện hết lên mặt...'
++	'Từ khi cô Isoroku có con,'
++	R
++	'hễ dính đến chuyện đó'
++	\L_06bc3:
++	ZH 1:
++	'là Bệ hạ Rance'
++	R
++	'lộ hết ra mặt...'
+ 	\L_06bc3:
+ 	ZH 1:
+ 	'Hi hi.'
+@@ -1127,102 +1143,102 @@
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Hôm nay ngài có'
+-	R
+-	'việc gì cần nói với'
+-	R
+-	'thiếp à, Ngài Rance?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Vâng, ta có vài thứ. Ờ...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'... Đứa bé?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ừ, cái đó.... Mọi'
+-	R
+-	'việc thế nào rồi?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Theo bác sĩ'
+-	R
+-	'thì mọi chuyện đang'
+-	R
+-	'tiến triển rất tốt.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku nhìn'
+-	R
+-	'xuống bụng mình.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Thiếp mong sớm được nhìn'
+-	R
+-	'thấy mặt con...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Cô nhẹ nhàng xoa'
+-	R
+-	'bụng và mỉm cười.'
++	'Ngài Rance, hôm nay'
++	R
++	'ngài có việc gì ạ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ừ, thì là... cái đó...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Đứa bé... ạ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Phải, chính nó.'
++	R
++	'Dạo này... thế nào?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vâng, thầy thuốc nói mọi'
++	R
++	'chuyện đều rất thuận lợi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku khẽ cụp mắt,'
++	R
++	'nhìn xuống bụng mình.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Thiếp mong sớm được'
++	R
++	'nhìn mặt con...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Vừa dịu dàng xoa'
++	R
++	'bụng, Isoroku vừa'
++	R
++	'mỉm cười khe khẽ.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 5!
+ 	\L_06af2:
+ 	\L_06aba:
+ 	ZH 1:
+-	'Uu... Sao trông'
+-	R
+-	'cậu vui thế nhỉ?!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Lia là người duy'
+-	R
+-	'nhất có tâm trạng tồi tệ'
+-	R
+-	'trong căn phòng yên tĩnh.'
++	'Ưưư... cái gì mà mặt'
++	R
++	'mày hạnh phúc thế, thật'
++	R
++	'tình, đúng là bực mìiinh!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Giữa căn phòng phủ không'
++	R
++	'khí êm ả, chỉ có mình'
++	R
++	'Lia là đang nổi đóa.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 1!
+ 	\L_06af2:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Nhân tiện, Ngài Rance,'
+-	\L_06bc3:
+-	ZH 1:
+-	'tuy thiếp'
+-	R
+-	'có thể đang mang thai nhưng'
+-	R
+-	'ngài không cần phải lo lắng.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Thiếp không chỉ là'
+-	R
+-	'phụ nữ mà còn là một trong'
+-	R
+-	'những vị tướng của các ngài.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Thiếp sẽ không quên'
+-	R
+-	'điều đó ngay lập tức.'
++	'Còn nữa, Ngài Rance,'
++	\L_06bc3:
++	ZH 1:
++	'thiếp tuy đang mang'
++	R
++	'thai nhưng ngài không'
++	R
++	'cần bận tâm đâu ạ.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku này vừa là'
++	R
++	'phụ nữ, vừa là tướng'
++	R
++	'phụng sự Ngài Rance,'
++	\L_06bc3:
++	ZH 1:
++	'chưa một khắc'
++	R
++	'nào quên điều đó.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06a9e:
+@@ -1230,16 +1246,16 @@
+ 	'Ừ, ta biết.'
+ 	\L_06bc3:
+ 	ZH 1:
+-	'Có việc thì ta vẫn sẽ ra'
+-	R
+-	'lệnh. Nhớ sẵn sàng chờ lệnh'
+-	R
+-	'đấy.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Vâng, tất nhiên.'
++	'Có việc thì ta vẫn'
++	R
++	'sẽ ra lệnh. Nhớ sẵn'
++	R
++	'sàng chờ lệnh đấy.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vâng, đương nhiên rồi ạ.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06a9e:
+@@ -1249,105 +1265,97 @@
+ 	\L_06bb6:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Rance rời'
+-	R
+-	'mắt khỏi Isoroku.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Đừng cố sức quá đấy.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Giọng Rance rất khẽ, nhưng'
+-	R
+-	'Isoroku vẫn nghe'
+-	\L_06bc3:
+-	ZH 1:
+-	'thấy và mỉm cười.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Cảm ơn chàng.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku cúi đầu dài và'
+-	R
+-	'rời khỏi phòng tiếp kiến.'
++	'Rance lảng mắt khỏi Isoroku.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Đừng có cố quá đấy.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Giọng Rance nhỏ hẳn đi,'
++	R
++	'nhưng Isoroku vẫn nghe rõ,'
++	\L_06bc3:
++	ZH 1:
++	'rồi nàng mỉm cười rạng rỡ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Đa tạ ngài.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku cúi chào lâu'
++	R
++	'hơn thường lệ một chút'
++	R
++	'rồi rời phòng yết kiến.'
+ 	\L_06bc3:
+ 	@L_06a87:
+ *L_01674:
+ 	!VAR0561 : 1!
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Maris, gọi Isoroku.'
++	'Maris, gọi Isoroku tới đây.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 6!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Có.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Một thời'
+-	R
+-	'gian ngắn sau, Isoroku xuất'
+-	R
+-	'hiện trong phòng tiếp khách.'
++	'Vâng.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Chẳng bao lâu sau, Isoroku'
++	R
++	'có mặt ở phòng yết kiến.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 24!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Ngài có yêu cầu gì'
+-	R
+-	'ở tại hạ không, Ngài Rance?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Câu hỏi của'
+-	R
+-	'Isoroku có phần cứng nhắc.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Có thể là do'
+-	R
+-	'cách nàng nói hoặc ý đồ xấu'
+-	R
+-	'của nàng đối với Rance.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Isoroku, tôi'
+-	R
+-	'đang nghĩ đến việc giao cho'
+-	R
+-	'ngươi một nhiệm vụ đặc biệt.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Nhiệm vụ đặc'
+-	R
+-	'biệt... Một trận chiến? Vậy'
+-	R
+-	'đối thủ của tại hạ sẽ là ai?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Tôi.'
++	'Ngài Rance, ngài'
++	R
++	'có việc gì ạ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Câu đáp của Isoroku'
++	R
++	'có phần gượng gạo.'
++	\L_06bc3:
++	ZH 1:
++	'Vì cách ăn nói, hay vì khúc'
++	R
++	'mắc với Rance chưa nguôi...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Isoroku, ta định giao cho'
++	R
++	'cô một nhiệm vụ đặc biệt.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Nhiệm vụ đặc biệt... ra'
++	R
++	'trận ư? Vậy đối thủ là...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Đối thủ là ta.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06ad6:
+@@ -1362,49 +1370,39 @@
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Ta yêu cầu em trở'
+-	R
+-	'thành người phụ nữ của ta.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Ngươi quá dễ thương để có'
+-	R
+-	'thể trở thành một vị tướng.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Vì vậy, ta'
+-	R
+-	'nghĩ ta sẽ cho phép ngươi'
+-	R
+-	'quan hệ tình dục với ta.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Còn chuyện đó'
+-	R
+-	'thì sao? Ta cho rằng'
+-	R
+-	'ngươi đang vui mừng.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance cười một'
+-	R
+-	'cách chân thành.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Ngược lại, Isoroku'
+-	R
+-	'giữ vẻ mặt nghiêm túc và'
+-	R
+-	'nhìn chằm chằm vào Rance.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Tại hạ từ chối'
+-	R
+-	'lời đề nghị của ngài.'
++	'Ta đang ra lệnh cho cô trở'
++	R
++	'thành đàn bà của ta đấy.'
++	\L_06bc3:
++	ZH 1:
++	'Cô dễ thương tới mức chỉ để'
++	R
++	'làm võ tướng thì phí quá.'
++	\L_06bc3:
++	ZH 1:
++	'Nên ta quyết định cho'
++	R
++	'phép cô được ta ôm ấp.'
++	\L_06bc3:
++	ZH 1:
++	'Sao, vui lắm chứ gì.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance cười ha hả,'
++	R
++	'khoái chí ra mặt.'
++	\L_06bc3:
++	ZH 1:
++	'Còn Isoroku thì mím chặt'
++	R
++	'môi, nhìn thẳng vào Rance.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Tôi xin từ chối.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06a9e:
+@@ -1414,189 +1412,181 @@
+ 	\L_06bb6:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Phản ứng trực'
+-	R
+-	'tiếp suýt khiến Rance'
+-	R
+-	'rơi khỏi ngai vàng.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Tại hạ đã từ bỏ'
+-	R
+-	'tư cách phụ nữ của mình để'
+-	R
+-	'khôi phục gia đình Yamamoto.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Đừng coi'
+-	R
+-	'tại hạ là phụ nữ cho đến'
+-	R
+-	'khi tại hạ thành công.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Isoroku, ngươi đang'
+-	R
+-	'không tuân theo mệnh lệnh'
+-	R
+-	'của Nhà vua phải không?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance đe dọa Isoroku bằng'
+-	R
+-	'giọng điệu mạnh mẽ, nhưng'
+-	R
+-	'nàng không hề tỏ ra lo lắng.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Vậy thì được thôi.'
+-	R
+-	'Hãy làm những gì ngài muốn'
+-	R
+-	'với tại hạ trong một đêm.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Nhưng tại hạ'
+-	R
+-	'sẽ không thể sống với'
+-	R
+-	'sự xấu hổ đó được nữa.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tại hạ sẽ mổ bụng mình.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Cái gì...?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance không thể'
+-	R
+-	'tin vào tai mình và cho'
+-	R
+-	'rằng mình đã nghe nhầm.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Nhưng anh cảm nhận được'
+-	R
+-	'sự quyết tâm trong ánh mắt'
+-	R
+-	'Isoroku đang hướng về anh.'
++	'Câu trả lời dứt khoát'
++	R
++	'quá, khiến Rance suýt'
++	R
++	'tuột khỏi ngai vàng.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Tôi đã bỏ phận đàn'
++	R
++	'bà mà sống, để phục'
++	R
++	'hưng nhà Yamamoto.'
++	\L_06bc3:
++	ZH 1:
++	'Khi việc ấy chưa thành, xin'
++	R
++	'ngài đừng xem tôi là đàn bà.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Isoroku, cô định chống lại'
++	R
++	'mệnh lệnh của nhà vua à?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance lên giọng đe'
++	R
++	'dọa, nhưng Isoroku'
++	R
++	'không hề nao núng.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vậy thì được thôi. Một'
++	R
++	'đêm, ngài cứ tùy ý với tôi.'
++	\L_06bc3:
++	ZH 1:
++	'Nhưng đã chịu nỗi nhục ấy,'
++	R
++	'tôi không thể sống tiếp.'
++	\L_06bc3:
++	ZH 1:
++	'Tôi sẽ tự mổ bụng.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Cái...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Kinh ngạc quá, Rance'
++	R
++	'ngờ tai mình, nghĩ'
++	R
++	'chắc mình nghe nhầm.'
++	\L_06bc3:
++	ZH 1:
++	'Nhưng trong đôi mắt Isoroku'
++	R
++	'đang nhìn mình, hắn cảm'
++	R
++	'thấy một thứ như quyết tâm.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 5!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Thiếp biết về điều này.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Các samurai Nhật Bản làm một'
+-	R
+-	'việc gọi là harakiri, tức là'
+-	R
+-	'họ tự đâm vào bụng mình.'
++	'Lia biết đấy.'
++	\L_06bc3:
++	ZH 1:
++	'Samurai JAPAN có cái'
++	R
++	'gọi là harakiri, tự'
++	R
++	'đâm vào bụng mình.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 24!
+ 	\L_06b62:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Rance lại nhìn'
+-	R
+-	'vào mắt Isoroku.'
++	'Rance nhìn vào mắt'
++	R
++	'Isoroku thêm lần nữa.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06aba:
+ 	ZH 1:
+-	'... Nàng nghiêm'
+-	R
+-	'túc đấy. Chết tiệt.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tất cả những chuyện'
+-	R
+-	'liên quan đến việc khôi'
+-	R
+-	'phục lại gia đình nàng...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tôi không hiểu người'
+-	R
+-	'Nhật nghĩ như thế nào.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Tuy nhiên...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku lẩm bẩm.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ồ? Nó là gì? Nói cho tôi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku liếc'
+-	R
+-	'nhìn Lia và Maris.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Nếu có thể, tại hạ'
+-	R
+-	'muốn được phép nói chuyện'
+-	R
+-	'một mình với Ngài Rance.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tại hạ hiểu hỏi có'
+-	R
+-	'thể là thô lỗ, nhưng...'
++	'...Con nhỏ này nghiêm'
++	R
++	'túc thật. Chết tiệt.'
++	\L_06bc3:
++	ZH 1:
++	'Phục hưng gia tộc,'
++	R
++	'phục hưng gia tộc...'
++	\L_06bc3:
++	ZH 1:
++	'Cái lối nghĩ của người JAPAN'
++	R
++	'đúng là không hiểu nổi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Có điều...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku hơi cúi'
++	R
++	'đầu, khẽ nói.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ồ? Gì thế, nói thử xem.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku liếc nhìn'
++	R
++	'Lia và Maris.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Nếu được, xin ngài cho'
++	R
++	'phép tôi nói chuyện'
++	R
++	'riêng với Ngài Rance.'
++	\L_06bc3:
++	ZH 1:
++	'Tôi biết vậy là'
++	R
++	'thất lễ, nhưng...'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 5!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Vâng, thật là thô lỗ!'
+-	\L_06bc3:
+-	ZH 1:
+-	'Thiếp là vợ chàng, em'
+-	R
+-	'không thể phớt lờ thiếp và'
+-	R
+-	'bí mật trao đổi với chàng!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Lía.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Em có nghĩ'
+-	R
+-	'vậy không chàng yêu?'
++	'Phải đấy, thất lễ quá!'
++	\L_06bc3:
++	ZH 1:
++	'Gạt Lia, vợ của chàng yêu,'
++	R
++	'ra ngoài để to nhỏ riêng'
++	R
++	'tư, không đời nào cho phép!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Lia.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Chàng yêu cũng không làm'
++	R
++	'chuyện đó đâu, phải không?'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06a9e:
+@@ -1611,187 +1601,175 @@
+ 	\L_06bb6:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Lia run rẩy. Cô nhìn'
+-	R
+-	'Rance với ánh mắt hoài nghi.'
++	'Lia run lẩy bẩy, nhìn Rance'
++	R
++	'với vẻ mặt không tin nổi.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 6!
+ 	\L_06b62:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Maris, xử lý'
+-	R
+-	'Lia. Đưa nàng đi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Có. Hãy đi cùng'
+-	R
+-	'tôi, Nữ hoàng Lia...'
++	'Maris. Nhờ ngươi lo'
++	R
++	'cho Lia. Đưa nàng đi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vâng. Bệ hạ Lia, mời'
++	R
++	'người đi lối này...'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 5!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Cái gì, chàng cũng định bỏ'
+-	R
+-	'thiếp ra khỏi chuyện này à!?'
++	'Cái gì chứ, đến cả Maris'
++	R
++	'cũng gạt ta ra ngoài à!?'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 6!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'... Mệnh lệnh của'
+-	R
+-	'Ngài Rance là tuyệt đối.'
++	'...Mệnh lệnh của Bệ'
++	R
++	'hạ Rance là tuyệt đối.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 5!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Gh!'
++	'Ư!'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b70:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Lia bị Maris'
+-	R
+-	'kéo ra khỏi phòng.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Tôi sẽ không bao'
+-	R
+-	'giờ tha thứ cho bạnuuu!'
++	'Lia bị Maris lôi xềnh'
++	R
++	'xệch ra khỏi phòng.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Không đời nào'
++	R
++	'tha thứ đâuuuu!'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 24!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'... Tại hạ xin lỗi vì ngài'
+-	R
+-	'đã phải làm điều đó với nữ'
+-	R
+-	'hoàng của mình, Ngài Rance.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Đừng lo lắng về điều đó,'
+-	R
+-	'nàng chỉ ích kỷ thôi. Vậy'
+-	R
+-	'ngươi muốn nói về điều gì?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'À... Ừm...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku giấu'
+-	R
+-	'khuôn mặt xấu hổ của'
+-	R
+-	'mình và nói lắp bắp.'
++	'...Tôi xin lỗi, Ngài'
++	R
++	'Rance. Đã khiến hoàng'
++	R
++	'hậu phải như vậy.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Đừng bận tâm. Nàng'
++	R
++	'ta vốn đỏng đảnh'
++	R
++	'mà. Thế, chuyện gì?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vâng... ừm...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku thẹn thùng'
++	R
++	'cúi mặt, ấp a ấp úng.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06aba:
+ 	ZH 1:
+-	'Vì vậy nàng'
+-	R
+-	'có thể trông nữ tính'
+-	R
+-	'hơn... Dễ thương.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku ngẩng'
+-	R
+-	'đầu lên như thể nàng đã'
+-	R
+-	'quyết định điều gì đó.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Anh muốn có con của em.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Vậy thì em có'
+-	R
+-	'cần phải quan hệ tình'
+-	R
+-	'dục với anh không?'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tôi tưởng'
+-	R
+-	'ngươi không muốn.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Không, còn một điều'
+-	R
+-	'nữa... Nếu tại hạ sinh con'
+-	R
+-	'trai, khi nó lớn lên thì...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Ngài có thể biến hắn'
+-	R
+-	'thành người cai trị NHẬT BẢN'
+-	R
+-	'dưới cái tên Yamamoto không?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'... Này, Isoroku.'
+-	R
+-	'Tại sao ngươi lại bị ám ảnh'
+-	R
+-	'bởi gia đình mình đến vậy?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'... Người'
+-	R
+-	'cha đã chết của tại hạ bị'
+-	R
+-	'khinh miệt là kẻ hèn nhát.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tại hạ mong muốn khôi'
+-	R
+-	'phục lại danh dự cho hắn.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Và đó là ước mơ của tại'
+-	R
+-	'hạ từ khi còn nhỏ để cái tên'
+-	R
+-	'Yamamoto tồn tại mãi mãi.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Để đạt được'
+-	R
+-	'điều đó, tại hạ...'
++	'Con nhỏ này cũng biết'
++	R
++	'làm mặt con gái thế này'
++	R
++	'cơ à... dễ thương đấy.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Như đã quyết điều gì,'
++	R
++	'Isoroku ngẩng mặt lên.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Tôi muốn được mang'
++	R
++	'con của Ngài Rance.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Thế chẳng phải'
++	R
++	'là để ta ôm sao?'
++	\L_06bc3:
++	ZH 1:
++	'Chẳng phải cô không muốn à?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Không, còn một điều nữa...'
++	R
++	'Nếu tôi sinh được con trai,'
++	R
++	'khi nó trưởng thành...'
++	\L_06bc3:
++	ZH 1:
++	'xin ngài cho nó làm quân'
++	R
++	'chủ JAPAN dưới danh nghĩa'
++	R
++	'họ Yamamoto, được chăng?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'...Này, Isoroku. Sao cô cứ'
++	R
++	'khư khư chuyện gia tộc thế?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'...Vâng. Để rửa sạch'
++	R
++	'tiếng nhơ cho cha tôi,'
++	\L_06bc3:
++	ZH 1:
++	'người đã chết trong lời'
++	R
++	'mắng nhiếc là kẻ hèn nhát.'
++	\L_06bc3:
++	ZH 1:
++	'Và để thực hiện giấc'
++	R
++	'mơ từ thuở nhỏ, lưu'
++	R
++	'danh Yamamoto muôn đời.'
++	\L_06bc3:
++	ZH 1:
++	'Vì điều đó, tôi...'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06ad6:
+@@ -1801,74 +1779,64 @@
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'... Hừm. Được'
+-	R
+-	'rồi, chắc chắn rồi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Ngài có cam kết với'
+-	R
+-	'điều đó không, Ngài Rance?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Vâng. Sau một'
+-	R
+-	'hồi suy nghĩ, đó là'
+-	R
+-	'một ý tưởng khá hay.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Ta sẽ không muốn giao'
+-	R
+-	'phó đất nước cho một người'
+-	R
+-	'mà ta không hề quen biết.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Ngoài ra, NHẬT BẢN là...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'NHẬT BẢN là gì?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Tại sao nó lại khác'
+-	R
+-	'với lục địa như vậy?'
+-	\L_06bc3:
+-	ZH 1:
+-	'Giống như đồ ăn,'
+-	R
+-	'quần áo và phong tục...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tất cả những quan'
+-	R
+-	'chức ta cử đến đó để'
+-	R
+-	'quản lý đều ghét nó...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Thực sự rất khó chịu.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tốt nhất nên nhờ một'
+-	R
+-	'người NHẬT BẢN làm việc đó,'
+-	\L_06bc3:
+-	ZH 1:
+-	'nhưng hầu'
+-	R
+-	'như không có ai làm việc'
+-	R
+-	'cho ta là người NHẬT BẢN.'
++	'...Hừm. Được thôi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Hả... Ngài Rance,'
++	R
++	'điều đó là thật sao ạ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ừ. Nghĩ kỹ thì đó là ý hay.'
++	\L_06bc3:
++	ZH 1:
++	'Ta cũng chẳng muốn giao nước'
++	R
++	'mình cho kẻ hoàn toàn xa lạ.'
++	\L_06bc3:
++	ZH 1:
++	'Hơn nữa, cái'
++	R
++	'nước JAPAN ấy...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'JAPAN... làm sao ạ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Sao lại khác lục địa'
++	R
++	'nhiều thế không biết?'
++	\L_06bc3:
++	ZH 1:
++	'Đồ ăn, quần áo,'
++	R
++	'rồi phong tục...'
++	\L_06bc3:
++	ZH 1:
++	'Định cử quan lại sang cai'
++	R
++	'quản thì đứa nào cũng chê...'
++	\L_06bc3:
++	ZH 1:
++	'Phiền phức hết chỗ nói.'
++	\L_06bc3:
++	ZH 1:
++	'Để người JAPAN làm'
++	R
++	'thì hẳn là ổn thỏa,'
++	\L_06bc3:
++	ZH 1:
++	'nhưng thuộc hạ gốc JAPAN của'
++	R
++	'ta có được mấy người đâu.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b0e:
+@@ -1878,103 +1846,89 @@
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Vâng, chắc chắn rồi.'
+-	R
+-	'Tôi sẽ cho ngươi tất cả'
+-	R
+-	'những đứa trẻ ngươi muốn.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Chúng tôi sẽ'
+-	R
+-	'loại bỏ chúng.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'À...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Đôi mắt của'
+-	R
+-	'Isoroku trở nên ẩm ướt.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Những giọt nước'
+-	R
+-	'mắt lăn dài trên má'
+-	R
+-	'cô và rơi xuống sàn.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'C-S-Sao em lại khóc?!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Như thể một'
+-	R
+-	'con đập bị vỡ, khi'
+-	R
+-	'Isoroku bắt đầu khóc,'
+-	\L_06bc3:
+-	ZH 1:
+-	'nàng không thể ngăn'
+-	R
+-	'được nước mắt tuôn rơi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Tại hạ xin'
+-	R
+-	'lỗi, vua Rance... tại'
+-	R
+-	'hạ quá hạnh phúc...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Gia tộc Yamamoto cuối'
+-	R
+-	'cùng sẽ được phục hồi...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Và với tư'
+-	R
+-	'cách là những người'
+-	R
+-	'cai trị NHẬT BẢN...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Cuối cùng tại'
+-	R
+-	'hạ cũng có thể ló mặt'
+-	R
+-	'trước mộ cha tại hạ...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Mhm, hãy biết'
+-	R
+-	'ơn đi. Hãy quan hệ thật'
+-	R
+-	'nhiều để sớm có thai nhé.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku mỉm cười'
+-	R
+-	'trong khi lau mắt.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Vâng... Rất hân hạnh.'
++	'Ừ, được đấy. Muốn đẻ bao'
++	R
++	'nhiêu đứa ta cũng cho.'
++	\L_06bc3:
++	ZH 1:
++	'Làm lia lịa luôn.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'A...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Mắt Isoroku rưng rưng.'
++	\L_06bc3:
++	ZH 1:
++	'Một giọt lệ lăn dài'
++	R
++	'trên má rồi rơi xuống.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'S-sao, sao lại khóc chứ!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Nước mắt Isoroku đã trào'
++	R
++	'ra thì cứ thế tuôn mãi,'
++	\L_06bc3:
++	ZH 1:
++	'như đê vỡ, không'
++	R
++	'sao ngăn lại được.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Xin thứ lỗi, Ngài'
++	R
++	'Rance... tôi mừng quá...'
++	\L_06bc3:
++	ZH 1:
++	'Thế là cuối cùng...'
++	R
++	'nhà Yamamoto thật'
++	R
++	'sự được phục hưng...'
++	\L_06bc3:
++	ZH 1:
++	'mà lại còn với tư'
++	R
++	'cách quân chủ...'
++	\L_06bc3:
++	ZH 1:
++	'Cuối cùng tôi cũng có mặt'
++	R
++	'mũi mà đến trước mộ cha...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ừm, biết ơn đi đấy.'
++	R
++	'Để sớm có thai, ta'
++	R
++	'sẽ SEX thật nhiều.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku vừa lau nước'
++	R
++	'mắt vừa mỉm cười.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vâng... tôi rất sẵn lòng.'
+ 	\L_06bc3:
+ 	@L_06a87:
+ *L_0210c:
+@@ -1983,37 +1937,35 @@
+ 	!VAR0158 : 56!
+ 	{VAR0130 = 1:
+ 		ZH 1:
+-		'Isoroku đang làm gì vậy?'
++		'Isoroku đâu rồi?'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Bây giờ có lẽ là thời'
+-		R
+-		'gian tập luyện của nàng,'
+-		\L_06bc3:
+-		ZH 1:
+-		'nên tôi tưởng tượng'
+-		R
+-		'nàng sẽ ở doanh trại.'
++		'Vâng, giờ này đáng'
++		R
++		'lẽ là giờ huấn luyện,'
++		\L_06bc3:
++		ZH 1:
++		'nên chắc cô ấy'
++		R
++		'đang ở doanh trại.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Hmmm, nàng khá đam'
+-		R
+-		'mê việc tập luyện. Có lẽ'
+-		R
+-		'tôi nên đi xem một chút.'
++		'Hừm, chăm chỉ ghê. Hay'
++		R
++		'ta ghé xem thử một chút.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b00:
+ 		\L_06b70:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Rance tiến đến'
+-		R
+-		'doanh trại của lính Nhật.'
++		'Rance đi tới doanh'
++		R
++		'trại của lính JAPAN.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ba8:
+@@ -2025,24 +1977,24 @@
+ 		ZM 24:
+ 		ZH 1:
+ 		R
+-		'Doanh trại Nhật Bản'
++		'Doanh trại lính JAPAN'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		!VAR0516 : 1!
+ 		\L_06af2:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Ta luôn nghĩ lính'
+-		R
+-		'Nhật trông rất kỳ lạ.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Uuuh, Isoroku đâu'
+-		R
+-		'rồi? Hãy xem... Ồ.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Này, Isoroku!'
++		'Mà công nhận, lính JAPAN lúc'
++		R
++		'nào nhìn cũng ăn mặc kỳ cục.'
++		\L_06bc3:
++		ZH 1:
++		'Ừm, Isoroku đâu nhỉ?'
++		R
++		'...Ngó nghiêng... Ồ.'
++		\L_06bc3:
++		ZH 1:
++		'Ê này, Isoroku!'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b00:
+@@ -2055,50 +2007,44 @@
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Isoroku từ từ'
+-		R
+-		'kéo sợi dây trên cây cung mà'
+-		R
+-		'cô đang cầm gần cao quá đầu.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Tay trái cô đưa về phía'
+-		R
+-		'mục tiêu và tay phải kéo sợi'
+-		R
+-		'dây chắc như sắt quanh vai.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Đầu tiên, ánh mắt của'
+-		R
+-		'Isoroku xuyên qua mục tiêu.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Xù xì.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Zhtaaahn!'
+-		\L_06bc3:
+-		ZH 1:
+-		'Mũi tên bay'
+-		R
+-		'theo hướng nhìn của cô và'
+-		R
+-		'cắm thẳng vào mục tiêu.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Nhưng Isoroku'
+-		R
+-		'vẫn tiếp tục giữ vững'
+-		R
+-		'lập trường của mình.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Cô đang nhìn chằm'
+-		R
+-		'chằm vào mục tiêu mà'
+-		R
+-		'mũi tên đã xuyên qua.'
++		'Isoroku chậm rãi kéo dây cây'
++		R
++		'cung giương cao gần quá đầu.'
++		\L_06bc3:
++		ZH 1:
++		'Tay trái duỗi thẳng về'
++		R
++		'phía bia, tay phải kéo dây'
++		R
++		'cứng lại như sắt ngang vai.'
++		\L_06bc3:
++		ZH 1:
++		'Ánh mắt Isoroku xuyên'
++		R
++		'thủng tấm bia trước tiên.'
++		\L_06bc3:
++		ZH 1:
++		'Vút.'
++		\L_06bc3:
++		ZH 1:
++		'Phập!!'
++		\L_06bc3:
++		ZH 1:
++		'Mũi tên lao đi như'
++		R
++		'đuổi theo ánh mắt ấy,'
++		R
++		'cắm thẳng vào bia.'
++		\L_06bc3:
++		ZH 1:
++		'Dù vậy, Isoroku vẫn'
++		R
++		'chưa buông tư thế.'
++		\L_06bc3:
++		ZH 1:
++		'Nàng vẫn nhìn trừng trừng'
++		R
++		'vào tấm bia cắm mũi tên.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b70:
+@@ -2106,28 +2052,28 @@
+ 		\L_06af2:
+ 		\L_06aba:
+ 		ZH 1:
+-		'Nhìn khuôn mặt'
+-		R
+-		'nghiêm túc của Isoroku khiến'
+-		R
+-		'tim ta đập thình thịch...'
+-		\L_06bc3:
+-		ZH 1:
+-		'Ta luôn nghĩ con gái'
+-		R
+-		'đẹp nhất với nụ cười hoặc'
+-		R
+-		'ánh mắt hài lòng, nhưng...'
+-		\L_06bc3:
+-		ZH 1:
+-		'Nàng thật xinh đẹp...'
++		'Nhìn gương mặt nghiêm'
++		R
++		'nghị của Isoroku, sao tim'
++		R
++		'ta cứ đập thình thịch...'
++		\L_06bc3:
++		ZH 1:
++		'Ta cứ tưởng con gái đẹp'
++		R
++		'nhất là lúc cười, hoặc'
++		R
++		'lúc rên rỉ sung sướng...'
++		\L_06bc3:
++		ZH 1:
++		'Đẹp thật...'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Rance quên gọi'
+-		R
+-		'Isoroku và chỉ nhìn nàng.'
++		'Rance quên cả cất tiếng'
++		R
++		'gọi, chỉ mải ngắm Isoroku.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b00:
+@@ -2135,10 +2081,10 @@
+ 		\L_06b62:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Cho đến khi...'
+-		\L_06bc3:
+-		ZH 1:
+-		'À...'
++		'Phù...'
++		\L_06bc3:
++		ZH 1:
++		'A...'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b70:
+@@ -2146,140 +2092,126 @@
+ 		\L_06af2:
+ 		\L_06aba:
+ 		ZH 1:
+-		'Ôi chết tiệt,'
+-		R
+-		'nàng đã để ý đến ta...'
+-		\L_06bc3:
+-		ZH 1:
+-		'Đợi đã, tại sao điều'
+-		R
+-		'đó lại thành vấn đề?'
+-		\L_06bc3:
+-		ZH 1:
+-		'Ta không có lý do'
+-		R
+-		'gì để cảm thấy tội lỗi.'
++		'Gay rồi, bị phát hiện...'
++		\L_06bc3:
++		ZH 1:
++		'Mà gay cái gì chứ.'
++		\L_06bc3:
++		ZH 1:
++		'Ta có làm gì mờ ám đâu.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		!VAR0516 : 24!
+ 		\L_06b62:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Ngài đã ở đây'
+-		R
+-		'bao lâu rồi, Ngài Rance?'
++		'Ồ, Ngài Rance, ngài'
++		R
++		'tới đây từ lúc nào ạ?'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Ừm, ừ, ta vừa mới'
+-		R
+-		'đến đây. Nhưng dù sao thì đó'
+-		R
+-		'cũng là một cú đánh rất tốt.'
++		'Ờ, ừm, à. Vừa mới tới'
++		R
++		'thôi. Mà giỏi thật,'
++		R
++		'trúng ngay hồng tâm.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Rance nhìn vào mục tiêu.'
++		'Rance nhìn về phía tấm bia.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Thiếp đã tập sử dụng cung'
+-		R
+-		'từ khi còn nhỏ, đó là lý do.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Nhân tiện, Ngài Rance, chàng'
+-		R
+-		'có thể dành cho thiếp một'
+-		R
+-		'chút thời gian được không?'
++		'Tôi đã luyện cung'
++		R
++		'từ thuở nhỏ mà...'
++		\L_06bc3:
++		ZH 1:
++		'Nhân tiện, Ngài Rance,'
++		R
++		'ngài cho tôi xin chút'
++		R
++		'thời gian được chứ ạ?'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Chắc chắn rồi, ta'
+-		R
+-		'không thực sự quan tâm.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Em đang yêu'
+-		R
+-		'cầu quan hệ tình dục'
+-		R
+-		'với ta sau doanh trại?'
+-		\L_06bc3:
+-		ZH 1:
+-		'Uheehee,'
+-		\L_06bc3:
+-		ZH 1:
+-		'có lẽ muốn cảm giác hồi hộp'
+-		R
+-		'khi làm việc đó ở nơi chúng'
+-		R
+-		'ta có thể được nhìn thấy,'
+-		\L_06bc3:
+-		ZH 1:
+-		'phải không?'
++		'Gì thế, được thôi.'
++		\L_06bc3:
++		ZH 1:
++		'Hay là chuyện đó,'
++		R
++		'muốn được ta ôm sau'
++		R
++		'bóng doanh trại kia...'
++		\L_06bc3:
++		ZH 1:
++		'lỡ bị ai nhìn thấy thì sao,'
++		\L_06bc3:
++		ZH 1:
++		'cái cảm giác hồi hộp'
++		R
++		'ấy làm em mê tít, hưng'
++		R
++		'phấn không dứt, hí hí,'
++		\L_06bc3:
++		ZH 1:
++		'đúng không?'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'... Không. Ừm, dạo'
+-		R
+-		'này Nhật Bản thế nào rồi?'
++		'...Không phải ạ. Ừm, hiện'
++		R
++		'giờ JAPAN ra sao rồi ạ?'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Không chắc chắn.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Bây giờ đây là đất'
+-		R
+-		'nước của ta, cấp dưới của'
+-		R
+-		'ta có lẽ đang sửa chữa nó.'
++		'Hỏi ra sao thì ta cũng chịu.'
++		\L_06bc3:
++		ZH 1:
++		'Thành nước của ta rồi,'
++		R
++		'đám thuộc hạ chắc đang'
++		R
++		'cai quản êm thấm thôi.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Hầu hết người dân NHẬT BẢN'
+-		R
+-		'biết rất ít về nước ngoài...'
+-		\L_06bc3:
+-		ZH 1:
+-		'Thiếp chắc'
+-		R
+-		'chắn rằng tất cả họ đều đang'
+-		R
+-		'trong tình trạng hỗn loạn.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Khi dân chúng'
+-		R
+-		'loạn lạc, đất nước lâm'
+-		R
+-		'vào cảnh hoang tàn...'
+-		\L_06bc3:
+-		ZH 1:
+-		'Ngài Rance, NHẬT'
+-		R
+-		'BẢN có ổn không?'
++		'Dân JAPAN hầu hết gần như'
++		R
++		'chẳng biết gì về xứ lạ...'
++		\L_06bc3:
++		ZH 1:
++		'Chắc ai nấy đều'
++		R
++		'đang hoang mang lắm.'
++		\L_06bc3:
++		ZH 1:
++		'Dân hoang mang thì'
++		R
++		'nước sẽ loạn...'
++		\L_06bc3:
++		ZH 1:
++		'Ngài Rance, JAPAN'
++		R
++		'có ổn không ạ?'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Không sao đâu, ta là'
+-		R
+-		'một người cai trị vĩ đại.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Em không cần phải'
+-		R
+-		'lo lắng về một điều.'
++		'Ổn cả, ta là minh quân mà.'
++		\L_06bc3:
++		ZH 1:
++		'Em cứ yên tâm như ngồi'
++		R
++		'thuyền lớn, vững dạ mà chờ.'
+ 		\L_06bc3:
+ 		ZH 1:
+ 		'Gahahahaha!'
+@@ -2288,60 +2220,60 @@
+ 		\L_06b00:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Rance cười lớn trong'
+-		R
+-		'khi lẩn đi nơi khác.'
++		'Rance cười vang, rồi'
++		R
++		'nghênh ngang bỏ đi.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b2a:
+ 		ZH 1:
+-		'... Tại hạ phải'
+-		R
+-		'sớm sinh con và sửa chữa'
+-		R
+-		'JAPAN dưới cái tên Yamamoto.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Đối với NHẬT BẢN và'
+-		R
+-		'đối với bản thân tại hạ...'
++		'...Phải sớm sinh con,'
++		R
++		'để cai trị JAPAN dưới'
++		R
++		'danh nghĩa họ Yamamoto.'
++		\L_06bc3:
++		ZH 1:
++		'Đó là vì JAPAN,'
++		R
++		'và vì chính tôi...'
+ 		\L_06bc3:
+ 		@L_06a87:
+ 	}
+ 	ZH 1:
+-	'Này, Isoroku!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance đột nhiên'
+-	R
+-	'hét lên với Isoroku.'
++	'Rance「Ê nàyyy, Isorokuuu!」'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance bỗng hét'
++	R
++	'to gọi Isoroku.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 6!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Ngài Rance... Có lẽ nàng'
+-	R
+-	'sẽ khó nghe thấy cậu từ đây.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ch, lẽ ra mọi'
+-	R
+-	'người phải ở nơi nào đó để'
+-	R
+-	'họ có thể nghe thấy tôi chứ.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Tôi sẽ cử người đưa tin'
+-	R
+-	'đến đón nàng ngay lập tức.'
++	'Bệ hạ Rance... gọi'
++	R
++	'thế thì e là tiếng'
++	R
++	'không tới được đâu ạ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Chậc, đúng ra ai cũng phải ở'
++	R
++	'chỗ nghe được tiếng ta chứ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Thần sẽ cho người'
++	R
++	'chạy đi gọi ngay.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b70:
+@@ -2357,128 +2289,116 @@
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Ngài đã triệu tập'
+-	R
+-	'tại hạ, Ngài Rance?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Này, Isoroku. Ngươi trông'
+-	R
+-	'vẫn dễ thương như mọi khi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Cảm ơn ngài.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Khuôn mặt của'
+-	R
+-	'Isoroku vẫn bình tĩnh và'
+-	R
+-	'điềm tĩnh như thường lệ.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Ngoại trừ việc có vẻ như'
+-	R
+-	'nàng chỉ đang mỉm cười nhẹ.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Và hôm nay ngài có'
+-	R
+-	'việc gì với tại hạ vậy?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ừm? Ta chỉ muốn nhìn'
+-	R
+-	'thấy khuôn mặt của ngươi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Ồ, đừng đùa.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ta không nói đùa. Ngươi'
+-	R
+-	'không muốn cho ta xem khuôn'
+-	R
+-	'mặt của ngươi hay gì đó?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'K-Không, tất'
+-	R
+-	'nhiên là không...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku nhiệt thành lắc đầu,'
+-	\L_06bc3:
+-	ZH 1:
+-	'nhưng một cảm giác'
+-	R
+-	'kỳ lạ mà cô không thể làm'
+-	R
+-	'gì vẫn tồn tại trong lòng.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Tuy nhiên, ta đoán'
+-	R
+-	'là chỉ nhìn ngươi thôi'
+-	R
+-	'cũng không thú vị lắm.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Hãy kể cho ta'
+-	R
+-	'nghe về NHẬT BẢN.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Đ-Được rồi. Sau đó...'
++	'Ngài cho gọi tôi'
++	R
++	'ạ, Ngài Rance?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ồ, Isoroku. Lúc nào trông'
++	R
++	'cô cũng dễ thương nhỉ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Đa tạ ngài.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Gương mặt Isoroku vẫn'
++	R
++	'điềm tĩnh như mọi khi.'
++	\L_06bc3:
++	ZH 1:
++	'Nhưng khóe môi nàng'
++	R
++	'như hơi giãn ra, hay'
++	R
++	'chỉ là tưởng tượng?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vậy, Ngài Rance. Hôm'
++	R
++	'nay ngài có việc gì ạ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Hử? Ta chỉ muốn'
++	R
++	'ngắm mặt cô thôi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Ngài lại đùa rồi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ta có đùa đâu. Hay'
++	R
++	'là sao, cô không muốn'
++	R
++	'cho ta xem mặt à?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'K-không, đâu dám ạ...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku cuống quýt lắc đầu,'
++	\L_06bc3:
++	ZH 1:
++	'nhưng trong lòng vẫn'
++	R
++	'thấy khó hiểu vô cùng.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Phải rồi, chỉ ngồi'
++	R
++	'ngắm mặt thì cũng nhạt.'
++	\L_06bc3:
++	ZH 1:
++	'Kể chuyện JAPAN'
++	R
++	'cho ta nghe đi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'V-vâng. Vậy thì...'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b2a:
+ 	ZH 1:
+-	'Vua Rance... Ông ấy'
+-	R
+-	'thật kỳ lạ. Nhưng...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tại hạ không'
+-	R
+-	'cảm thấy hắn tệ...'
++	'Ngài Rance... thật là'
++	R
++	'người lạ lùng. Nhưng...'
++	\L_06bc3:
++	ZH 1:
++	'cũng không thấy khó chịu...'
+ 	\L_06bc3:
+ 	@L_06a87:
+ *L_028ea:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Tôi có nên'
+-	R
+-	'xem Isoroku không?'
+-	\L_06bc3:
+-	ZH 1:
+-	'Có vẻ như gần đây'
+-	R
+-	'nàng đang gặp khó khăn trong'
+-	R
+-	'việc chăm sóc con cái...'
++	'Gặp Isoroku xem sao.'
++	\L_06bc3:
++	ZH 1:
++	'Nghe nói dạo này nàng vất'
++	R
++	'vả chuyện trông con...'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b70:
+@@ -2494,127 +2414,117 @@
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Ngài đã triệu tập'
+-	R
+-	'tại hạ, Ngài Rance?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Này, Isoroku...'
+-	R
+-	'Trông ngươi có vẻ'
+-	R
+-	'hơi kiệt sức đấy.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Như Rance đã nói, Isoroku'
+-	R
+-	'có đôi má ủ rũ và bọng mắt.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Tại hạ xin lỗi vì'
+-	R
+-	'đã xuất hiện trước mặt ngài'
+-	R
+-	'với khuôn mặt khó coi này,'
+-	\L_06bc3:
+-	ZH 1:
+-	'Ngài Rance...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'À, tôi phải đối phó với Lia,'
+-	R
+-	'nên tôi hiểu việc đối xử với'
+-	R
+-	'bọn trẻ khó khăn thế nào...'
++	'Ngài cho gọi thiếp'
++	R
++	'ạ, Ngài Rance?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Này, Isoroku... trông em'
++	R
++	'có hơi tiều tụy không đấy?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Đúng như Rance nói, má'
++	R
++	'Isoroku thoáng hóp lại,'
++	R
++	'mắt đã có quầng thâm.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Thiếp xin lỗi, Ngài'
++	R
++	'Rance. Đứng trước ngài'
++	\L_06bc3:
++	ZH 1:
++	'mà mặt mũi lại tệ thế này...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ừ, chăm trẻ con vất'
++	R
++	'vả ra sao, có Lia nên'
++	R
++	'ta cũng hiểu rõ lắm...'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 5!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Tàn nhẫn'
+-	R
+-	'quá chàng yêu! Thiếp không'
+-	R
+-	'phải là một đứa trẻ! Ố ồ!'
++	'Chàng yêu, ác quá đi!'
++	R
++	'Lia đâu phải con nít! Hứ!'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 24!
+ 	\L_06b62:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Thỉnh thoảng'
+-	R
+-	'hãy để người giúp việc chăm'
+-	R
+-	'sóc mọi việc và nghỉ ngơi.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tôi không'
+-	R
+-	'muốn nhìn thấy người phụ nữ'
+-	R
+-	'của mình trông như thế này.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Đúng... Nhưng vẫn...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Nhưng vẫn là gì?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku do dự một'
+-	R
+-	'chút, nhưng vui vẻ trả lời.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Chăm sóc con khiến tại'
+-	R
+-	'hạ hạnh phúc. Ngoài ra...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ngoài ra?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance nghiêng'
+-	R
+-	'người về phía trước'
+-	R
+-	'để nghe câu trả lời,'
+-	\L_06bc3:
+-	ZH 1:
+-	'và Isoroku chỉ'
+-	R
+-	'mỉm cười đáp lại.'
++	'Thỉnh thoảng giao'
++	R
++	'cho hầu gái đi, em'
++	R
++	'cũng nghỉ ngơi chứ.'
++	\L_06bc3:
++	ZH 1:
++	'Ta không muốn thấy đàn bà'
++	R
++	'của ta mặt mũi tiều tụy đâu.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vâng... nhưng mà.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Nhưng mà sao?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku ngập ngừng, nhưng'
++	R
++	'đáp lại với vẻ vui sướng.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Thiếp hạnh phúc... lúc'
++	R
++	'được chăm sóc con. Và...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Và?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance nhổm người tới,'
++	R
++	'nóng lòng muốn nghe,'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku chỉ đáp lại'
++	R
++	'bằng một nụ cười.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b2a:
+ 	ZH 1:
+-	'... Đây là'
+-	R
+-	'cách Vua Rance thể hiện'
+-	R
+-	'sự quan tâm của mình.'
++	'...Và lúc được Ngài Rance'
++	R
++	'lo lắng cho thế này.'
+ 	\L_06bc3:
+ 	@L_06a87:
+ *L_02b31:
+@@ -2627,176 +2537,166 @@
+ 	\L_06af2:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Này, gọi đi...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Trước khi'
+-	R
+-	'Rance kịp nói xong, ai đó'
+-	R
+-	'đã xông vào phòng yết kiến.'
++	'Này, gọi Isoroku...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance chưa kịp nói hết,'
++	R
++	'đã có một bóng người'
++	R
++	'lao vào phòng yết kiến.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 24!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Qua Rance!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'W-Ồ.'
++	'Ngài Rance!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ô, ôi chà.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06aba:
+ 	ZH 1:
+-	'Điều đó làm ta'
+-	R
+-	'sợ… Ta thậm chí còn'
+-	R
+-	'chưa gọi cho nàng.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku thở hổn'
+-	R
+-	'hển và bắt đầu nói'
+-	R
+-	'mà không ngừng thở.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Xin hãy tha thứ cho'
+-	R
+-	'thiếp vì sự đột ngột này,'
+-	\L_06bc3:
+-	ZH 1:
+-	'có điều thiếp'
+-	R
+-	'muốn nói với chàng'
+-	R
+-	'càng sớm càng tốt...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Đừng làm'
+-	R
+-	'ta ngạc nhiên nhé, trời ạ.'
+-	R
+-	'Em muốn nói với ta điều gì?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'À...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Tim của Isoroku dường'
+-	R
+-	'như cuối cùng cũng chậm lại'
+-	\L_06bc3:
+-	ZH 1:
+-	'nhịp độ bình thường và'
+-	R
+-	'nàng hít một hơi thật sâu.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Thiếp đang mang thai.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Hừ.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku âu yếm xoa bụng.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'... Uuuuuh.'
++	'G-giật cả mình...'
++	R
++	'Ta còn chưa gọi mà.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku thở hồng hộc, chưa'
++	R
++	'kịp lấy lại hơi đã vội nói.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Thiếp có chuyện muốn'
++	R
++	'báo ngay cho Ngài Rance,'
++	\L_06bc3:
++	ZH 1:
++	'xin thứ lỗi vì đã'
++	R
++	'đường đột xuất hiện...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Đừng làm ta hết hồn'
++	R
++	'chứ, thật tình. Thế,'
++	R
++	'em muốn báo chuyện gì?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vâng...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Có lẽ tim đã thôi'
++	R
++	'đập dồn, Isoroku'
++	\L_06bc3:
++	ZH 1:
++	'thở ra một hơi thật dài.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Thiếp... đã có thai.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Hả.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku âu yếm'
++	R
++	'xoa bụng dưới.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'...Ờ, ừmmm.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 6!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Vua Rance, cô Isoroku nói'
+-	R
+-	'rằng nàng đang mang thai.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Cái gì...? Đ-Đứa'
+-	R
+-	'trẻ đó là ai vậy?!'
++	'Bệ hạ Rance, cô Isoroku nói'
++	R
++	'rằng cô ấy đã mang thai.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Cái... c-con của'
++	R
++	'thằng nào hả!'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 24!
+ 	\L_06b62:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Isoroku ngây người'
+-	R
+-	'nhìn Rance bực tức.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'À... Ừm...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Lẽ ra em phải là'
+-	R
+-	'người phụ nữ của anh,'
+-	R
+-	'em đã ngủ với ai thế!?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'T-thiếp chưa bao giờ bắt'
+-	R
+-	'tay với một người đàn ông'
+-	R
+-	'nào ngoài ngài, Ngài Rance!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'... Nhưng điều'
+-	R
+-	'đó có nghĩa là...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku gật'
+-	R
+-	'đầu hơi giận dữ.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance chỉ vào mặt mình.'
++	'Isoroku ngơ ngác nhìn Rance'
++	R
++	'đang nổi trận lôi đình.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Không... chuyện là...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Em là đàn bà của ta cơ mà,'
++	R
++	'em đã ngủ với thằng nào hả!?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'S-sao lại thế! Ngoài Ngài'
++	R
++	'Rance ra, thiếp chưa từng'
++	R
++	'nắm tay người đàn ông nào!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'...Nghĩa là... t-tức là...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku gật đầu,'
++	R
++	'có vẻ hơi giận.'
++	\L_06bc3:
++	ZH 1:
++	'Rance chỉ tay vào mặt mình.'
+ 	\L_06bc3:
+ 	ZH 1:
+ 	'Isoroku lại gật đầu.'
+ 	R
+-	'Lần này trong khi mỉm cười.'
++	'Lần này kèm một nụ cười.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06a9e:
+@@ -2808,94 +2708,94 @@
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Cái gì vậy?! Tại sao, tại'
+-	R
+-	'sao, tại sao vậyyyy?! Làm'
+-	R
+-	'sao điều này có thể xảy ra?!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Trong khi Rance chết'
+-	R
+-	'lặng, thì ngược lại, Lia'
+-	R
+-	'lại một mình gây náo động.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Isoroku... Nàng'
+-	R
+-	'thực sự có con à?'
++	'Cái gì thế hảaa?! Sao lại,'
++	R
++	'sao lại, sao lại thếee!'
++	R
++	'Thế mà cũng được à?!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Mặc Rance đang chết lặng,'
++	R
++	'một mình Lia làm ầm ĩ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Isoroku... em có con thật à?'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 24!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Có.'
++	'Vâng.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 6!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Qua Rance,'
+-	\L_06bc3:
+-	ZH 1:
+-	'bệnh viện cũng đã liên'
+-	R
+-	'lạc với tôi nhưng không'
+-	\L_06bc3:
+-	ZH 1:
+-	'nói gì vì chính cô'
+-	R
+-	'Isoroku muốn nói với ngài.'
++	'Bệ hạ Rance,'
++	\L_06bc3:
++	ZH 1:
++	'thần cũng đã nhận tin'
++	R
++	'từ bệnh viện, nhưng'
++	\L_06bc3:
++	ZH 1:
++	'cô Isoroku muốn tự mình'
++	R
++	'báo, nên thần cố ý im lặng.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 5!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Đợi đã, đây là thật à?!'
+-	\L_06bc3:
+-	ZH 1:
+-	'Làm sao một'
+-	R
+-	'người phụ nữ ngoài thiếp lại'
+-	R
+-	'có thể có con của Chàng?!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'... Haah.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance thở dài.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Chàng yêu, chàng'
+-	R
+-	'muốn có con, chúng ta hãy'
+-	R
+-	'quan hệ ngay bây giờ đi!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Lia... Im đi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'... Ưư.'
++	'Khoan đã, sao lại'
++	R
++	'thế, xạo, thật hả?!'
++	\L_06bc3:
++	ZH 1:
++	'Sao lại có người đàn'
++	R
++	'bà ngoài Lia có con'
++	R
++	'với chàng yêu chứ!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'...Haa.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance thở hắt ra'
++	R
++	'một hơi thật dài.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Chàng yêu, Lia cũng muốn có'
++	R
++	'con, làm ngay đi, làm chuyện'
++	R
++	'ấy đi, nào, nào, nàooo!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Lia... ồn ào quá.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'...Ưư.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 24!
+@@ -2907,116 +2807,118 @@
+ 	\L_06bb6:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'... Ừ?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku ôm mình như'
+-	R
+-	'thể để bảo vệ đứa con của'
+-	\L_06bc3:
+-	ZH 1:
+-	'mình sau khi cảm nhận'
+-	R
+-	'được không khí căng thẳng.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Em vừa chạy vào'
+-	R
+-	'đây... Có lẽ, ừ...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Em thực sự không nên'
+-	R
+-	'làm điều đó, em biết không?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Ờ... Ừm...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Cái, ừ... Đứa bé.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Ah, aah... Vâng, có vẻ như'
+-	R
+-	'việc đó không tốt chút nào.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'... Cố gắng đừng'
+-	R
+-	'chạy xung quanh quá nhiều.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance chỉ nói'
+-	R
+-	'vậy rồi quay đi.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku đỏ'
+-	R
+-	'mặt vì hạnh phúc khi Rance'
+-	R
+-	'thừa nhận đứa con của mình.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Thiếp sẽ sinh ra'
+-	R
+-	'một đứa con khỏe mạnh.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku cúi đầu thật'
+-	R
+-	'sâu. Rance không nói gì và'
+-	R
+-	'tiếp tục nhìn sang một bên.'
++	'...Vâng.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Như cảm nhận được bầu'
++	R
++	'không khí căng thẳng,'
++	R
++	'Isoroku tự ôm lấy mình'
++	\L_06bc3:
++	ZH 1:
++	'như để che chở đứa'
++	R
++	'con trong bụng.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Lúc nãy em chạy vào'
++	R
++	'đây nhỉ... Chuyện đó,'
++	\L_06bc3:
++	ZH 1:
++	'ừm... không được'
++	R
++	'tốt lắm thì phải?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Ơ... ừm...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Cho cái trong bụng... ấy.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'A, à... vâng, đúng'
++	R
++	'là không tốt lắm ạ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'...Đừng có chạy'
++	R
++	'nhảy lung tung nữa.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Nói đúng thế rồi Rance'
++	R
++	'quay phắt mặt đi.'
++	\L_06bc3:
++	ZH 1:
++	'Hẳn vui sướng lắm vì Rance'
++	R
++	'đã nhận đứa con trong bụng,'
++	R
++	'má Isoroku ửng đỏ dần.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Thiếp sẽ... sinh một'
++	R
++	'đứa con khỏe mạnh.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku cúi chào thật sâu,'
++	R
++	'nhưng Rance vẫn quay mặt'
++	R
++	'sang bên, không đáp lời.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 6!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Cô Isoroku, Vua'
+-	R
+-	'Rance có vẻ mệt mỏi.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Hãy trở về phòng'
+-	R
+-	'của cậu ngay hôm nay'
+-	R
+-	'và chăm sóc bản thân.'
++	'Cô Isoroku, Bệ hạ'
++	R
++	'Rance có vẻ đã mệt.'
++	\L_06bc3:
++	ZH 1:
++	'Hôm nay cô hãy về phòng'
++	R
++	'nghỉ ngơi dưỡng sức đi.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 24!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Có.'
++	'Vâng.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b70:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Isoroku cúi đầu lần nữa'
+-	R
+-	'và rời khỏi phòng tiếp kiến.'
++	'Isoroku cúi đầu thật'
++	R
++	'sâu thêm lần nữa rồi'
++	R
++	'rời phòng yết kiến.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06a9e:
+@@ -3035,46 +2937,44 @@
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Xin chúc mừng.'
++	'Xin chúc mừng bệ hạ.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 5!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Thiếp...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Thiếp không hài lòng'
+-	R
+-	'chút nào về điều này! Aaaah!'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tại sao,'
+-	R
+-	'tại sao, tại'
+-	R
+-	'sao vậyyyyyyyyyyyyyyyyy!?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Cơn thịnh nộ của Lia'
+-	R
+-	'có vẻ như sẽ không dừng lại.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Bên cạnh cơn thịnh nộ'
+-	R
+-	'của cô, Rance đang nhìn'
+-	R
+-	'lên trần nhà và lẩm bẩm.'
++	'Mừ...'
++	\L_06bc3:
++	ZH 1:
++	'Mừng cái gì mà'
++	R
++	'mừng! A, thật là!'
++	\L_06bc3:
++	ZH 1:
++	'Sao lại, sao lại, sao'
++	R
++	'lại, sao lại thế nàyyyy!?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Cơn quậy của Lia chưa'
++	R
++	'có dấu hiệu dừng lại.'
++	\L_06bc3:
++	ZH 1:
++	'Bên cạnh nàng đang la hét'
++	R
++	'đập phá, Rance ngửa mặt nhìn'
++	R
++	'trần nhà, lẩm bẩm một mình.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b70:
+ 	\L_06aba:
+ 	ZH 1:
+-	'... Con ta?... Của ta...'
++	'...Con của ta? ...Của ta...'
+ 	\L_06bc3:
+ 	@L_06a87:
+ *L_032d6:
+@@ -3099,7 +2999,7 @@
+ 	\L_06ad6:
+ 	ZM 32:
+ 	ZH 1:
+-	'Bệnh viện thiên tài'
++	'Bệnh viện Thiên tài'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+@@ -3111,7 +3011,9 @@
+ 	\L_06af2:
+ 	\L_06aba:
+ 	ZH 1:
+-	'Hừm...'
++	'Sốt ruột, sốt'
++	R
++	'ruột, sốt ruột...'
+ 	\L_06bc3:
+ 	!VAR0154 : 2!
+ 	{VAR0102 \ 0:
+@@ -3120,275 +3022,275 @@
+ 		\L_06b62:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Tướng quân Rance...'
+-		R
+-		'Chủ nhân sẽ kiệt sức mất.'
++		'Chủ nhân Rance...'
++		R
++		'ngài sẽ mệt mất thôi.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Im đi, aaa, hừm...'
++		'Im đi, aaa, sốt ruột quá...'
+ 		\L_06bc3:
+ 	}
+ 	\L_06bb6:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Đã 5 giờ trôi qua kể từ'
+-	R
+-	'khi Isoroku được đưa đến đây'
+-	R
+-	'sau khi đột ngột chuyển dạ.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance dành'
+-	R
+-	'toàn bộ thời gian đó để'
+-	R
+-	'đi lại ở cùng một chỗ,'
+-	\L_06bc3:
+-	ZH 1:
+-	'giống như một con sư'
+-	R
+-	'tử bị nhốt trong lồng.'
++	'Isoroku đột ngột kêu'
++	R
++	'đau bụng chuyển dạ, được'
++	R
++	'đưa vào đây đã 5 tiếng.'
++	\L_06bc3:
++	ZH 1:
++	'Suốt quãng ấy, Rance cứ'
++	R
++	'đi vòng vòng một chỗ,'
++	\L_06bc3:
++	ZH 1:
++	'chẳng khác gì con'
++	R
++	'sư tử trong lồng.'
+ 	\L_06bc3:
+ 	{VAR0102 \ 0:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Nhân tiện, Nữ hoàng'
+-		R
+-		'Lia đang làm gì vậy?'
++		'Nhắc mới nhớ, Bệ'
++		R
++		'hạ Lia đâu rồi ạ...'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Nàng đang nói'
+-		R
+-		'những điều nguy hiểm nên'
+-		R
+-		'Maris đang giam giữ nàng.'
++		'Nàng ta toàn nói chuyện'
++		R
++		'đáng sợ, nên ta bảo'
++		R
++		'Maris nhốt lại rồi.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'D-Thứ nguy hiểm?'
++		'Đ-đáng sợ ạ?'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Nàng đang nói rằng vì'
+-		R
+-		'nó là con ta nên nó thuộc về'
+-		R
+-		'nàng chứ không phải Isoroku.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Và sau đó'
+-		R
+-		'nàng nói rằng đứa trẻ nên'
+-		R
+-		'được giao lại cho nàng.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Thậm chí còn không thể'
+-		R
+-		'cho nó bú, thật là ngu ngốc.'
++		'Nàng bảo con của ta thì'
++		R
++		'dù Isoroku đẻ ra, vẫn là'
++		R
++		'con của vợ ta là nàng.'
++		\L_06bc3:
++		ZH 1:
++		'Cuối cùng còn đòi giao'
++		R
++		'đứa bé mới sinh cho nàng.'
++		\L_06bc3:
++		ZH 1:
++		'Sữa còn chẳng có,'
++		R
++		'đúng là đồ ngốc mà.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Cho đến khi...'
++		'Vâng...'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Cảm giác phức tạp'
++		'Nỗi lòng ngổn ngang'
+ 		R
+ 		'trong lòng Sill hiện'
+ 		R
+-		'rõ trên khuôn mặt cô.'
++		'rõ mồn một trên mặt cô.'
+ 		\L_06bc3:
+ 	}
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Bây giờ nghĩ lại, ta'
+-	R
+-	'đang lo lắng về điều gì vậy?'
+-	\L_06bc3:
+-	ZH 1:
+-	'Ừ, hít thở'
+-	R
+-	'sâu một chút... Hoooo,'
+-	R
+-	'haaaaah, hoooo, haaaaah...'
++	'Mà nghĩ lại, sao ta'
++	R
++	'lại phải sốt ruột chứ?'
++	\L_06bc3:
++	ZH 1:
++	'Phải rồi, hít thở'
++	R
++	'sâu... hít vào, thở'
++	R
++	'ra, hít vào, thở ra...'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06aba:
+ 	ZH 1:
+-	'... Ta lo lắng.'
++	'...Sốt ruột.'
+ 	\L_06bc3:
+ 	{VAR0102 \ 0:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Này Sill, sao ta'
+-		R
+-		'lại hồi hộp thế này?'
++		'Này Sill, sao ta lại'
++		R
++		'sốt ruột thế này?'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'... Em không biết.'
++		'Chuyện đó... em'
++		R
++		'không biết ạ.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Nhưng bản thân Sill'
+-		R
+-		'lại gõ gõ ngón tay như thể'
+-		R
+-		'không thể bình tĩnh được.'
++		'Nói thế, nhưng chính Sill'
++		R
++		'cũng đang mân mê ngón'
++		R
++		'tay, chẳng yên chút nào.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Tuy nhiên, trông'
+-		R
+-		'em cũng khá lo lắng.'
+-		R
+-		'Trả lời ta đi Sill.'
++		'Chính em cũng có vẻ'
++		R
++		'đang sốt ruột còn'
++		R
++		'gì. Trả lời đi, Sill.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Sill bĩu môi nhìn Rance.'
++		'Sill dỗi hờn, ngước'
++		R
++		'mắt nhìn Rance.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Em không thể...'
+-		\L_06bc3:
+-		ZH 1:
+-		'Em chắc chắn lý do'
+-		R
+-		'khiến chúng em lo lắng'
+-		R
+-		'là hoàn toàn khác nhau.'
++		'Em không trả lời được...'
++		\L_06bc3:
++		ZH 1:
++		'Vì em nghĩ sốt ruột của'
++		R
++		'ngài với sốt ruột của'
++		R
++		'em chắc chắn khác nhau.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Đó không phải'
+-		R
+-		'là lý do... Hrrrgh.'
++		'Cái gì thế hả...'
++		R
++		'sốt ruột quá.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b2a:
+ 		ZH 1:
+-		'Một đứa bé... Tại'
+-		R
+-		'sao vậy, Chủ nhân Rance...?'
+-		R
+-		'Ngài thật là một tên ngốc.'
++		'Sao lại... con của'
++		R
++		'Chủ nhân Rance...'
++		R
++		'Chủ nhân... đồ ngốc.'
+ 		\L_06bc3:
+ 	}
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Aagh ta không thể'
+-	R
+-	'chờ đợi được nữa!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance từ chỗ giật'
+-	R
+-	'tóc đến mất kiên nhẫn'
+-	R
+-	'và nắm lấy tay nắm cửa.'
++	'A, thôi... hết chịu nổi rồi!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance vò đầu bứt tóc,'
++	R
++	'như hết chịu nổi,'
++	R
++	'chộp lấy tay nắm cửa.'
+ 	\L_06bc3:
+ 	{VAR0102 \ 0:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Không, Tướng quân Rance!'
++		'Không được đâu,'
++		R
++		'Chủ nhân Rance!'
+ 		\L_06bc3:
+ 	}
+ 	\L_06bb6:
+ 	\L_06ad6:
+ 	ZH 1:
+ 	R
+-	'... Yah... Ah... Gyah...'
++	'...Oa... a... oe...'
+ 	\L_06bc3:
+ 	{VAR0102 \ 0:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Ơ, hả? Tướng quân Rance...'
++		'Ơ, ơ kìa? Chủ nhân Rance...'
+ 		\L_06bc3:
+ 	}
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Đ-Vừa rồi ta có'
+-	R
+-	'nghe thấy gì không?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Ngay lúc'
+-	R
+-	'đó, cánh cửa phòng sinh đột'
+-	R
+-	'nhiên mở ra về phía Rance.'
+-	\L_06bc3:
+-	ZH 1:
+-	'（conk）'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ôi!'
++	'V-vừa rồi có nghe'
++	R
++	'thấy gì... phải không?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Đúng lúc đó, cánh cửa'
++	R
++	'phòng sinh bất ngờ'
++	R
++	'bật mở về phía Rance.'
++	\L_06bc3:
++	ZH 1:
++	'Cốp!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Bụp!'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 79!
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Aah～, xin'
+-	R
+-	'lỗi~. Tôi không nghĩ'
+-	R
+-	'sẽ có người ở đó~.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Sao cũng được,'
+-	R
+-	'ta không quan tâm đến'
+-	R
+-	'điều đó!... Agh, ôi...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Ôi trời~, trông tệ quá~.'
+-	R
+-	'Trán cậu chảy máu rồi~...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Nhưng nó chẳng là gì khi'
+-	R
+-	'so sánh với việc sinh con~.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Không phải là không có gì!'
++	'A~ xin lỗi nha~. Tôi'
++	R
++	'không nghĩ lại có'
++	R
++	'người đứng ở chỗ đó~.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ối dào, chuyện đó sao cũng'
++	R
++	'được! ...Ui, đau quá...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Ôi chao~ gay rồi~.'
++	R
++	'Trán chảy máu kìa~...'
++	\L_06bc3:
++	ZH 1:
++	'Nhưng mà~ so với sinh'
++	R
++	'con thì chảy chút máu'
++	R
++	'này chẳng đáng gì nhỉ~.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Đáng chứ sao không đáng hả!'
+ 	\L_06bc3:
+ 	{VAR0102 \ 0:
+ 		\L_06bb6:
+@@ -3396,12 +3298,14 @@
+ 		\L_06b62:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Ừm, vậy...'
++		'Ừm, vậy thì...'
+ 		\L_06bc3:
+ 	}
+ 	{VAR0102 = 0:
+ 		ZH 1:
+-		'Ch... Thế là ổn chứ?!'
++		'Rance「Chậc...'
++		R
++		'thế, sao rồi?!」'
+ 		\L_06bc3:
+ 	}
+ 	\L_06bb6:
+@@ -3410,11 +3314,11 @@
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Đúng vậy～. Đứa'
+-	R
+-	'trẻ đã được sinh ra~. Một'
+-	R
+-	'cậu bé bụ bẫm khỏe mạnh~.'
++	'Vâng~. Sinh rồi ạ~.'
++	R
++	'Một bé trai bụ bẫm'
++	R
++	'khỏe mạnh cực kỳ~.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06a9e:
+@@ -3424,53 +3328,55 @@
+ 	\L_06bb6:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Nghe giống như tiếng'
+-	R
+-	'gầm hơn là tiếng khóc...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tôi chưa'
+-	R
+-	'bao giờ thấy một đứa bé'
+-	R
+-	'nào như vậy trước đây~.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Hà... Hà ha...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance chìm xuống sàn.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'... Haah.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Thần sẽ đưa đứa trẻ và mẹ'
+-	R
+-	'nó đến phòng bệnh, nên xin'
+-	R
+-	'hãy di chuyển đi, Bệ hạ~.'
++	'Không phải khóc đâu, mà'
++	R
++	'như gầm, như rống ấy...'
++	\L_06bc3:
++	ZH 1:
++	'Ghê lắm luôn~ lần đầu'
++	R
++	'tôi thấy đứa bé như thế~.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ha... ha ha...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance ngồi phịch'
++	R
++	'xuống ngay tại chỗ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'...Haa.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Giờ tôi đưa mẹ con cháu'
++	R
++	'sang phòng bệnh, xin'
++	R
++	'tránh đường cho~ Bệ hạ~.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b70:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Rance lơ đãng đứng'
+-	R
+-	'dậy và run rẩy bước đi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'... Con ta?'
++	'Rance thẫn thờ đứng'
++	R
++	'dậy, bước đi loạng'
++	R
++	'choạng rời khỏi đó.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'...Con... của ta?'
+ 	\L_06bc3:
+ 	{VAR0102 \ 0:
+ 		\L_06bb6:
+@@ -3480,7 +3386,7 @@
+ 		ZH 1:
+ 		'Chủ nhân Rance, xin'
+ 		R
+-		'hãy bình tĩnh lại...'
++		'ngài tỉnh táo lại...'
+ 		\L_06bc3:
+ 	}
+ 	\L_06bb6:
+@@ -3489,7 +3395,7 @@
+ 	\L_06ba8:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Một ngày trôi qua.'
++	'Rồi một ngày trôi qua.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 1034!
+@@ -3497,12 +3403,12 @@
+ 	\L_06ad6:
+ 	ZM 32:
+ 	ZH 1:
+-	'Bệnh viện thiên tài'
++	'Bệnh viện Thiên tài'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng bệnh viện'
++	'Phòng bệnh'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 1!
+@@ -3514,11 +3420,11 @@
+ 	\L_06bb6:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Rance đang nhìn'
+-	R
+-	'qua Sill, không'
+-	R
+-	'biết phải làm gì.'
++	'Chẳng hiểu sao không'
++	R
++	'biết phải làm gì, Rance'
++	R
++	'thò mặt qua khe cửa.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b00:
+@@ -3526,29 +3432,27 @@
+ 	\L_06b62:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Ồ, Ngài Rance... Tại'
+-	R
+-	'hạ xin lỗi vì đã không'
+-	R
+-	'mời ngài đích thân đến.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku mỉm cười'
+-	R
+-	'với Rance. Cô cảm'
+-	R
+-	'thấy hơi kiệt sức.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Nếu điều đó không quá rắc'
+-	R
+-	'rối với ngài, ngài có cho'
+-	R
+-	'phép đứa trẻ gặp ngài không?'
++	'Ồ, Ngài Rance... thiếp'
++	R
++	'có lỗi quá, phải phiền'
++	R
++	'ngài đích thân tới.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku trông hơi tiều'
++	R
++	'tụy, mỉm cười với Rance.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Nếu không phiền, xin'
++	R
++	'ngài nhìn đứa bé này'
++	R
++	'một chút được không ạ?'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b70:
+@@ -3556,94 +3460,92 @@
+ 	\L_06af2:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Đ-Chắc chắn rồi, ta'
+-	R
+-	'không quan tâm. Ta sẽ vào.'
++	'Ư, ừm, được'
++	R
++	'thôi. Ta vào đây.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 24!
+ 	\L_06b62:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Rance đến gần'
+-	R
+-	'giường của Isoroku.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'... Ta nghe nói'
+-	R
+-	'đó là một em bé.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Vâng, cảm ơn chàng.'
+-	R
+-	'Chàng luôn quan tâm để việc'
+-	R
+-	'có con trai được dễ dàng...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku hơi đỏ'
+-	R
+-	'mặt. Có lẽ nàng đang nhớ lại'
+-	R
+-	'những đêm nàng ở bên Rance.'
++	'Rance lại gần'
++	R
++	'giường Isoroku.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'...Nghe nói là con trai nhỉ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vâng, nhờ Ngài Rance cả.'
++	R
++	'Ngài đã bao lần để tâm giúp'
++	R
++	'thiếp dễ có con trai...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku hơi đỏ mặt.'
++	R
++	'Chắc nàng đang nhớ lại'
++	R
++	'những đêm bên Rance.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06aba:
+ 	ZH 1:
+-	'Nàng tin vào điều nhảm'
+-	R
+-	'nhí đó à? Thật ngây thơ...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Vậy đứa bé đâu? Hắn mang'
+-	R
+-	'trong mình dòng máu của ta'
+-	R
+-	'nên chắc hẳn rất đẹp trai.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tất nhiên là không đẹp'
+-	R
+-	'trai bằng ta. Gahahahaha!h!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Đúng vậy, nó trông'
+-	R
+-	'rất giống chàng… Nó đang'
+-	R
+-	'ngủ trong chiếc nôi nhỏ đó.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance ngừng cười.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'... Không'
+-	R
+-	'muốn đánh thức hắn, ta'
+-	R
+-	'sẽ im lặng. Hãy xem...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance nhìn vào'
+-	R
+-	'cũi của em bé.'
++	'Em tin cái chuyện bịa ấy'
++	R
++	'thật à. Đúng là ngây thơ...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Thế, đứa bé đâu? Mang'
++	R
++	'dòng máu của ta, hẳn'
++	R
++	'là mỹ nam lắm đây.'
++	\L_06bc3:
++	ZH 1:
++	'Tất nhiên là không'
++	R
++	'bằng ta được, gahahaha!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vâng, đứa bé rất giống'
++	R
++	'Ngài Rance... giờ đang ngủ'
++	R
++	'trong chiếc nôi nhỏ kia.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance thôi cười hô hố.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'...Nó mà thức dậy'
++	R
++	'thì ồn lắm. Im lặng'
++	R
++	'thôi. Để xem nào...?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance ghé nhìn'
++	R
++	'vào chiếc nôi.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06a9e:
+@@ -3653,7 +3555,7 @@
+ 	\L_06bb6:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Hắn có dễ thương không?'
++	'Đáng yêu chứ ạ?'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06ad6:
+@@ -3663,202 +3565,196 @@
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'... Một con khỉ?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku cười lớn.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Tất cả trẻ'
+-	R
+-	'sơ sinh đều trông như'
+-	R
+-	'vậy khi mới sinh ra.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Nhưng miệng hắn trông'
+-	R
+-	'rất giống miệng chàng.'
++	'...Con khỉ à?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku bật cười khe khẽ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Trẻ sơ sinh mới chào đời'
++	R
++	'đứa nào cũng thế cả ạ.'
++	\L_06bc3:
++	ZH 1:
++	'Nhưng mà... cái'
++	R
++	'miệng... giống ngài lắm.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06aba:
+ 	ZH 1:
+-	'... Ta không thấy nó.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Khi nhìn kỹ hơn vào'
+-	R
+-	'miệng đứa bé đang ngủ,'
+-	\L_06bc3:
+-	ZH 1:
+-	'dường như có dấu vết'
+-	R
+-	'của một nụ cười tinh nghịch.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Nhân tiện, Ngài Rance.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ừm, cái gì cơ?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku thay đổi'
+-	R
+-	'tâm trạng với vẻ'
+-	R
+-	'mặt nghiêm nghị.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Em không phải vợ chàng, chỉ'
+-	R
+-	'là tình nhân của chàng thôi.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Là con của bà chủ,'
+-	\L_06bc3:
+-	ZH 1:
+-	'thiếp không hề có'
+-	R
+-	'chút niềm tin nào rằng'
+-	R
+-	'chàng có thể kế vị cô.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Thực ra, nếu'
+-	R
+-	'không làm vậy quá khó,'
+-	\L_06bc3:
+-	ZH 1:
+-	'thiếp sẽ'
+-	R
+-	'không phiền nếu chàng'
+-	R
+-	'giấu mình là bố của nó.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Nhưng khi'
+-	R
+-	'cậu ấy lớn lên... Xin hãy'
+-	R
+-	'biến cậu ấy thành JAPAN...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku đã gục đầu'
+-	R
+-	'trước khi nàng biết điều đó.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Lời nói của cô'
+-	R
+-	'thiếu sức mạnh và giờ gần'
+-	R
+-	'như không thể nghe được.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'... Đồ ngốc. Ai lại dễ'
+-	R
+-	'dàng trao một phần đất nước'
+-	R
+-	'của mình cho một người lạ?'
+-	\L_06bc3:
+-	ZH 1:
+-	'Ít nhất nếu'
+-	R
+-	'đó là con ta, ta nghĩ ta có'
+-	R
+-	'thể giao phó nó cho chúng.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Và em là người phụ'
+-	R
+-	'nữ của chàng nên đứa'
+-	R
+-	'trẻ đó là của chàng.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'À...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Nước mắt tràn'
+-	R
+-	'ra từ mắt Isoroku.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Chúng nhỏ giọt từ cằm cô'
+-	R
+-	'và làm ướt tấm trải giường.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Sau đó, hắn sẽ kế'
+-	R
+-	'vị cái tên Yamamoto, và với'
+-	R
+-	'tư cách là con của chàng...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku thì thầm với'
+-	R
+-	'giọng run rẩy, nhưng không'
+-	R
+-	'nói gì thêm ngoài điều đó.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Uh... Aagh, ta hiểu rồi.'
+-	R
+-	'Vì thế hãy ngừng khóc đi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance lo lắng'
+-	R
+-	'nhìn xung quanh. Ánh mắt'
+-	R
+-	'anh lại rơi vào đứa bé.'
++	'...Ta chẳng thấy giống.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Nhìn kỹ thì cái miệng'
++	R
++	'đứa bé đang thở đều đều'
++	\L_06bc3:
++	ZH 1:
++	'cũng có vẻ hơi méo xệch,'
++	R
++	'trông láo lếu thật.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Mà... Ngài Rance.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Hử, gì thế?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Khác hẳn bầu không'
++	R
++	'khí lúc nãy, Isoroku'
++	R
++	'lộ vẻ nghiêm nghị.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Thiếp... không phải chính'
++	R
++	'thất của Ngài Rance.'
++	R
++	'Rốt cuộc chỉ là vợ lẽ.'
++	\L_06bc3:
++	ZH 1:
++	'Đứa bé này là'
++	R
++	'con của vợ lẽ...'
++	\L_06bc3:
++	ZH 1:
++	'thiếp chưa từng mảy'
++	R
++	'may nghĩ nó sẽ làm'
++	R
++	'người nối dõi của ngài.'
++	\L_06bc3:
++	ZH 1:
++	'Không, nếu ngài thấy khó xử,'
++	\L_06bc3:
++	ZH 1:
++	'thì có giấu chuyện ngài là'
++	R
++	'cha nó cũng không sao ạ.'
++	\L_06bc3:
++	ZH 1:
++	'Nhưng khi nó trưởng thành...'
++	R
++	'xin ngài hãy cho JAPAN...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Không biết từ lúc nào,'
++	R
++	'Isoroku đã cúi gằm mặt.'
++	\L_06bc3:
++	ZH 1:
++	'Lời nàng cũng mất đà,'
++	R
++	'giờ như sắp tắt lịm.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'...Đồ ngốc. Ai lại'
++	R
++	'đi dễ dãi cho người'
++	R
++	'dưng cả một đất nước.'
++	\L_06bc3:
++	ZH 1:
++	'Vì là con ta, nên ta mới'
++	R
++	'nghĩ giao cho nó cũng được.'
++	\L_06bc3:
++	ZH 1:
++	'Em là đàn bà của ta, thì'
++	R
++	'con em cũng là của ta.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'A...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Nước mắt tràn ra từ'
++	R
++	'mắt Isoroku. Lăn dài'
++	R
++	'trên má, rơi khỏi cằm,'
++	\L_06bc3:
++	ZH 1:
++	'rồi tí tách thấm'
++	R
++	'ướt tấm ga giường.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vậy... đứa bé này sẽ vừa'
++	R
++	'nối danh họ Yamamoto, vừa'
++	R
++	'là con của Ngài Rance...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku thì thầm bằng giọng'
++	R
++	'run run, nhưng rồi không'
++	R
++	'nói thêm được lời nào.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'À... thôi được rồi, ta hiểu'
++	R
++	'rồi, đã bảo đừng khóc mà.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance bối rối nhìn'
++	R
++	'quanh một vòng. Rồi'
++	R
++	'chợt dừng mắt ở đứa bé.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	SS VAR0515:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'O-Ồ vâng, chúng ta'
+-	R
+-	'phải đặt tên cho hắn!'
+-	\L_06bc3:
+-	ZH 1:
+-	'Được rồi, ta sẽ đặt'
+-	R
+-	'tên cho hắn ngay bây giờ!'
+-	\L_06bc3:
+-	ZH 1:
+-	'Ừ, tên hắn lẽ ra là...'
++	'Ph-phải rồi, phải đặt tên'
++	R
++	'cho thằng nhóc này chứ!'
++	\L_06bc3:
++	ZH 1:
++	'Được, đặt ngay bây giờ,'
++	R
++	'đặt liền, thế là hay nhất!'
++	\L_06bc3:
++	ZH 1:
++	'Xem nào, tên'
++	R
++	'là... Yamamoto...'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ *L_0401d:
+@@ -3868,30 +3764,30 @@
+ 	}
+ 	ZH 1:
+ 	$L_04082$
+-	'Cuộc đua 2'
++	'Rance 2'
+ 	$
+ 	R
+ 	$L_04166$
+-	'Muteki'
++	'Muteki (Vô Địch)'
+ 	$
+ 	R
+ 	$L_042a3$
+-	'Phân'
++	'Unko (Cục Phân)'
+ 	$
+ 	R
+ 	$L_043fd$
+-	'Nijuuichi'
++	'Nijuuichi (Hai Mốt)'
+ 	$
+ 	R
+ 	$L_04548$
+-	'Motoyamamoto'
++	'Yamamotoyama'
+ 	$
+ 	]
+ 	@L_0401d:
+ *L_04082:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Cuộc đua 2.'
++	'Rance 2.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b0e:
+@@ -3901,123 +3797,117 @@
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Tên nó là Rance 2. Là con'
+-	R
+-	'tôi nên tên tôi cộng 2 hay'
+-	R
+-	'Jr. hay gì đó cũng phù hợp.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Haah... Ngay cả ở NHẬT'
+-	R
+-	'BẢN cũng có nhiều trẻ em'
+-	R
+-	'lấy tên từ cha mẹ, nhưng...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Thì ra là như vậy.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Gahahahaha!, Cuộc'
+-	R
+-	'đua 2! Thậm chí có thể'
+-	R
+-	'gọi hắn là Rance V2!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance đang có tâm'
+-	R
+-	'trạng tốt bất thường,'
+-	\L_06bc3:
+-	ZH 1:
+-	'nhưng Isoroku'
+-	R
+-	'lại nhìn Rance 2'
+-	R
+-	'Yamamoto với vẻ lo lắng.'
++	'Tên nó là Yamamoto Rance'
++	R
++	'2. Con ta thì thêm 2 hay'
++	R
++	'Jr. vào tên ta là hợp.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Haa... ở JAPAN cũng hay'
++	R
++	'có chuyện con lấy chữ'
++	R
++	'từ tên cha mẹ, nhưng...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Thảo nào bên đó toàn'
++	R
++	'mấy đứa tên na ná nhau.'
++	\L_06bc3:
++	ZH 1:
++	'Gahahaha, Rance 2! Gọi là'
++	R
++	'Rance số 2 cũng được đấy!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance vui vẻ khác thường,'
++	\L_06bc3:
++	ZH 1:
++	'nhưng Isoroku vẫn nhìn'
++	R
++	'Yamamoto Rance 2 với'
++	R
++	'vẻ mặt chưa thông.'
+ 	\L_06bc3:
+ 	@L_06a87:
+ *L_04166:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Ừm... Ừm...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Ừm?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Đó không phải là'
+-	R
+-	'tên đâu, đừng có ngốc!'
+-	\L_06bc3:
+-	ZH 1:
+-	'Mmmmuteki. Muteki'
+-	R
+-	'Yamamoto. Tốt lắm,'
+-	R
+-	'nghe có vẻ mạnh mẽ.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Muteki... Điều đó có'
+-	R
+-	'vẻ như hắn sẽ trở thành'
+-	R
+-	'một chiến binh cừ khôi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Tuy nhiên, điều đó thực'
+-	R
+-	'sự không có ý nghĩa gì cả.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Tại sao vậy?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Bởi vì rõ ràng'
+-	R
+-	'là ta sẽ chinh phục được'
+-	R
+-	'thế giới khi hắn lớn lên.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Kẻ thù duy nhất của'
+-	R
+-	'hắn có thể có là ta.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Qua Rance...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Xin hãy tạo ra'
+-	R
+-	'một thế giới hòa bình nơi'
+-	R
+-	'ngươi sẽ không phải chiến'
+-	\L_06bc3:
+-	ZH 1:
+-	'đấu với đứa trẻ'
+-	R
+-	'này một cách vô nghĩa.'
++	'Yamamoto... ưm ưm ưm...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Ư... Ưm Ưm Ưm... là tên ạ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Đồ ngốc, ai đi đặt'
++	R
++	'tên như thế hả!'
++	\L_06bc3:
++	ZH 1:
++	'Mu... Muteki, Vô Địch.'
++	R
++	'Yamamoto Muteki. Ồ, nghe'
++	R
++	'được đấy. Mạnh ra phết.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Muteki... nghe như sẽ thành'
++	R
++	'một võ sĩ xuất chúng nhỉ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Nhưng mà, cũng chẳng'
++	R
++	'có ý nghĩa mấy.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Sao lại thế ạ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Đương nhiên, đến lúc'
++	R
++	'nó lớn thì ta đã chinh'
++	R
++	'phục cả thế giới rồi.'
++	\L_06bc3:
++	ZH 1:
++	'Nếu có kẻ thù thì'
++	R
++	'chỉ có mình ta thôi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Ngài Rance...'
++	\L_06bc3:
++	ZH 1:
++	'xin ngài hãy tạo ra'
++	R
++	'một thế giới hòa bình,'
++	\L_06bc3:
++	ZH 1:
++	'nơi đứa bé này không'
++	R
++	'cần vung kiếm vô nghĩa.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06ad6:
+@@ -4028,74 +3918,70 @@
+ *L_042a3:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Phân.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Hả? ị Yamamoto.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'K-Không...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Dù ngươi có muốn đặt tên'
+-	R
+-	'chàng như vậy đi chăng nữa,'
+-	R
+-	'tôi không nghĩ nó rất...!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Không, ta'
+-	R
+-	'quyết định đặt tên đứa'
+-	R
+-	'con đầu lòng là Poop.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Úi chà!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Uuu... Hiểu rồi...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Tuy nhiên, đó rõ'
+-	R
+-	'ràng là một trò đùa.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'P-Poop... À...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku lơ đãng lặp'
++	'Unko.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Hả? Rance「Yamamoto'
++	R
++	'Unko. Cục Phân ấy.」'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'K-không chịu đâu ạ...'
++	\L_06bc3:
++	ZH 1:
++	'Dù là ngài đặt tên,'
++	R
++	'nhưng như thế thì'
++	R
++	'đứa bé này quá là...!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Không không, ta đã quyết đứa'
++	R
++	'con đầu tiên sẽ tên là Unko.'
++	\L_06bc3:
++	ZH 1:
++	'Unnnkooo!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Ư... thiếp hiểu rồi...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Đùa thôi, rõ quá còn gì.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'U... Unko... a... ư...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku như mất hồn, cứ lặp'
+ 	R
+ 	'đi lặp lại tên con mình.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Mgh... Có'
+-	R
+-	'lẽ nàng đang bị sốc. Vâng,'
+-	R
+-	'bất cứ điều gì. Này, Poop.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance nhìn vào chiếc'
++	'Ư... sốc hơi nặng à.'
++	R
++	'Thôi kệ. Nhỉ, Unko.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance ghé nhìn vào chiếc'
+ 	R
+ 	'nôi đứa bé đang ngủ.'
+ 	\L_06bc3:
+@@ -4103,86 +3989,78 @@
+ *L_043fd:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Hãy đi cùng'
+-	R
+-	'Nijuuichi. Âm thanh của'
+-	R
+-	'Nijuuichi Yamamoto thế nào?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Đó là một'
+-	R
+-	'cái tên hay, nhưng tại'
++	'Phải rồi, thằng này'
++	R
++	'là Nijuuichi. Yamamoto'
++	R
++	'Nijuuichi thì sao?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Tên hay đấy ạ, nhưng...'
+ 	R
+ 	'sao lại là Nijuuichi?'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Nghe nói từ một người lính,'
+-	\L_06bc3:
+-	ZH 1:
+-	'tên ngươi là 56 trong'
+-	R
+-	'tiếng Nhật vì bố ngươi đã'
+-	R
+-	'56 tuổi khi ngươi sinh ra.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Hiện tại ta'
+-	R
+-	'bao nhiêu tuổi?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Năm nay ngươi'
+-	R
+-	'đã 21 tuổi... À...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Đó là lý do tại'
+-	R
+-	'sao, 21 trong tiếng Nhật.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Ngài Rance... Anh'
+-	R
+-	'nghiên cứu lịch sử của tôi'
+-	R
+-	'chỉ vì con của chúng ta...?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Ống dẫn nước mắt của Isoroku'
+-	R
+-	'đã ngừng hoạt động ngay'
+-	R
+-	'sau khi chúng lại lỏng ra.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Đôi mắt cô'
+-	R
+-	'dần dần ươn ướt.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Aaaagh, đừng khóc!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Tôi-tôi xin lỗi...'
+-	R
+-	'tôi quá xúc động...'
++	'Ừm, ta có hỏi một'
++	R
++	'tên lính JAPAN,'
++	\L_06bc3:
++	ZH 1:
++	'nghe nói em tên Isoroku,'
++	R
++	'tức 56, vì sinh ra'
++	R
++	'lúc cha em 56 tuổi.'
++	\L_06bc3:
++	ZH 1:
++	'Giờ ta bao nhiêu tuổi?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Nghe nói năm nay'
++	R
++	'ngài tròn 21... A...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Là thế đấy. Nijuuichi là 21.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Ngài Rance... vì đứa'
++	R
++	'bé mà ngài cất công tìm'
++	R
++	'hiểu cả về thiếp sao...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Tuyến lệ của Isoroku vừa'
++	R
++	'ngừng, có vẻ lại lỏng ra.'
++	\L_06bc3:
++	ZH 1:
++	'Đôi mắt nàng dần rưng rưng.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Trời ạ, đừng có khóccc!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'X-xin lỗi... cảm động'
++	R
++	'quá nên bất giác...'
+ 	\L_06bc3:
+ 	@L_06a87:
+ *L_04548:
+@@ -4190,24 +4068,22 @@
+ 	ZH 1:
+ 	'Yamamoto... Yamamoto...'
+ 	R
+-	'Yamamoto... Hmmm...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance gặp rắc rối.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tên tiếng Nhật'
+-	R
+-	'hơi khác so với tên của'
+-	R
+-	'Leazas và những tên khác,'
+-	\L_06bc3:
+-	ZH 1:
+-	'và anh không'
+-	R
+-	'biết phải làm gì.'
++	'Yamamoto... ưmm...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance khổ sở suy nghĩ.'
++	\L_06bc3:
++	ZH 1:
++	'Tên người JAPAN hơi'
++	R
++	'khác so với ở Leazas'
++	R
++	'hay những nơi khác,'
++	\L_06bc3:
++	ZH 1:
++	'nên hắn chẳng biết đặt sao.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06a9e:
+@@ -4217,103 +4093,97 @@
+ 	'Yamamoto... Yama...'
+ 	\L_06bc3:
+ 	ZH 1:
+-	'Sao cũng được.'
+-	R
+-	'Tên hắn là Motoyamamoto'
+-	R
+-	'Yamamoto. Đủ dễ để nhớ.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Đ-Đúng là một cái'
+-	R
+-	'tên thiếu suy nghĩ...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Có chuyện'
+-	R
+-	'gì vậy?! Yamaha và moto'
+-	R
+-	'thậm chí còn đối xứng!'
+-	\L_06bc3:
+-	ZH 1:
+-	'Thật tuyệt vời,'
+-	R
+-	'thậm chí tuyệt vời!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Motoyamamoto Yamamoto...?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Vâng,'
+-	R
+-	'Motoyamamotoyamamoto'
+-	R
+-	'Yamamoto.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'... Quá nhiều'
+-	R
+-	'yama và moto.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Motoyamamoto Ya-...!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Có chuyện gì vậy?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'... Tôi cắn lưỡi.'
++	'Thôi kệ. Thằng này tên'
++	R
++	'là Yamamoto Yamamotoyama.'
++	R
++	'Dễ nhớ chứ hả.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Đ-đặt tên tùy tiện'
++	R
++	'như thế thì...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Nói gì thế, Yamamotoyama!'
++	R
++	'Viết chữ JAPAN đọc'
++	R
++	'xuôi đọc ngược đều OK!'
++	\L_06bc3:
++	ZH 1:
++	'Tuyệt vời, GREAT!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Yamamoto Yamamotoyama... ạ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Đúng, Yamamoto'
++	R
++	'Yamamotoyamamotoyama.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'...Lại dài thêm'
++	R
++	'một khúc rồi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Yamamotoyamamo...!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Ngài sao vậy ạ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'...Cắn phải lưỡi.'
+ 	\L_06bc3:
+ 	@L_06a87:
+ *L_046c5:
+ 	!VAR0561 : 2!
+ 	\L_06aba:
+ 	ZH 1:
+-	'... Trời ạ, nàng'
+-	R
+-	'mất một lúc... Grr.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Đã một giờ trôi'
+-	R
+-	'qua kể từ khi Rance gọi'
+-	R
+-	'Isoroku vào phòng hắn.'
++	'...Trời ạ, chậm'
++	R
++	'quá... sốt ruột.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance cho gọi Isoroku'
++	R
++	'tới phòng đã gần'
++	R
++	'một tiếng đồng hồ.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06aba:
+ 	ZH 1:
+-	'Khi tôi gọi,'
+-	\L_06bc3:
+-	ZH 1:
+-	'nhiệm vụ của nàng là'
+-	R
+-	'phải ngay lập tức thể hiện'
+-	R
+-	'mình là cấp dưới của tôi...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Không, với tư cách là'
+-	R
+-	'người phụ nữ của tôi...'
++	'Vua đã gọi thì phải mau mau'
++	\L_06bc3:
++	ZH 1:
++	'ló mặt ra, đó là bổn'
++	R
++	'phận của thuộc hạ,'
++	\L_06bc3:
++	ZH 1:
++	'à không, của đàn'
++	R
++	'bà của ta chứ...'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 24!
+@@ -4325,87 +4195,79 @@
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Chắc chắn ngươi đã mất'
+-	R
+-	'đủ thời gian rồi, Isoroku.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Chàng định bắt tôi'
+-	R
+-	'đợi bao lâu đây?!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance mạnh mẽ mở cửa.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ngươi... Ngươi'
+-	R
+-	'đang mặc gì vậy?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku đang'
+-	R
+-	'đứng trước cửa trong'
+-	R
+-	'bộ kimono màu trắng.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Tại hạ xin lỗi, misogi làm'
+-	R
+-	'tại hạ mất chút thời gian.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Misogi? Cái gì?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Đó là phương pháp'
+-	R
+-	'thanh lọc cơ thể bằng nước.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'... Vậy là chỉ tắm thôi à?'
+-	\L_06bc3:
+-	ZH 1:
+-	'Dù sao đi nữa, tốt'
+-	R
+-	'nhất là ngươi nên tắm rửa'
+-	R
+-	'sạch sẽ trước khi quan hệ.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tôi sẽ để'
+-	R
+-	'ngươi đi dễ dàng.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Tại hạ rất biết ơn sự tha'
+-	R
+-	'thứ của ngài, Ngài Rance.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Vậy hãy bắt đầu'
+-	R
+-	'sớm nhé. Cởi quần áo'
+-	R
+-	'và nằm xuống giường.'
++	'Chậm quá đấy, Isoroku,'
++	\L_06bc3:
++	ZH 1:
++	'định bắt ta đợi'
++	R
++	'đến bao giờ hả!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance hùng hổ mở toang cửa.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Hự... gì thế kia?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku khoác bộ áo cưới'
++	R
++	'trắng tinh shiromuku,'
++	R
++	'đứng trước cửa.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Xin thứ lỗi, tôi mất thời'
++	R
++	'gian cho việc misogi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Misogi? Cái gì thế?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Là dùng nước để'
++	R
++	'thanh tẩy thân thể ạ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'...Tóm lại là tắm chứ gì.'
++	\L_06bc3:
++	ZH 1:
++	'Thôi, tắm rửa sạch'
++	R
++	'sẽ trước khi được ta'
++	R
++	'ôm là tinh thần tốt.'
++	\L_06bc3:
++	ZH 1:
++	'Ta đặc cách bỏ qua cho.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Đội ơn tấm lòng khoan'
++	R
++	'dung của Ngài Rance.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Vậy bắt đầu luôn. Cởi'
++	R
++	'đồ rồi nằm lên giường.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b0e:
+@@ -4421,334 +4283,338 @@
+ 	!VAR0248 : 5!
+ 	\L_06b7e:
+ 	ZH 1:
+-	'Isoroku 「Bây giờ... Xin lỗi.」'
++	'Isoroku「Vậy thì... tôi xin phép」'
+ 	PF0 VAR0056:
+ 	\L_06bc3:
+ 	ZH 1:
+-	'Rance quay lưng lại với Rance'
+-	R
+-	'và cởi dây thắt lưng của nàng.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Dù để lộ da thịt trước mặt một người đàn ông nhưng'
+-	\L_06bc3:
+-	ZH 1:
+-	'cô không hề cảm thấy do dự một giây phút nào.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Chiếc kimono rơi khỏi vai'
+-	R
+-	'cô. Không có gì trên cơ thể'
+-	\L_06bc3:
+-	ZH 1:
+-	'mịn màng của Isoroku ngăn được nó lao xuống.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Hooh...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance kinh ngạc nhìn cơ thể của Isoroku. Dù trải'
+-	\L_06bc3:
+-	ZH 1:
+-	'qua nhiều thời gian trong trận'
+-	R
+-	'chiến nhưng làn da của cô không hề'
+-	\L_06bc3:
+-	ZH 1:
+-	'có vết sẹo. Đúng hơn là nó thậm chí'
+-	R
+-	'còn không có vết bớt hoặc khuyết điểm.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Siêu vũ khí đã cao chót vót. Cơ'
+-	R
+-	'thể Rance phản ứng rất thành thật.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku nhặt chiếc kimono bị rơi và đặt tất'
+-	\L_06bc3:
+-	ZH 1:
+-	'cả lên chiếc bàn gần đó. Cô từ từ bước lên giường.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Bây giờ, hãy tiếp tục...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Ta sẽ nói thẳng, vậy thì...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance không ngần ngại lên Isoroku. Anh ôm chặt'
+-	\L_06bc3:
+-	ZH 1:
+-	'ngực cô và bắt đầu xoa bóp chúng thật mạnh.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Trong lúc đó chàng nhìn vào'
+-	R
+-	'mặt Isoroku và hôn nàng.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「... Ừm...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance（Điều này thật nhàm chán.）'
+-	\L_06bc3:
+-	ZH 1:
+-	'Khi nhìn Isoroku, anh nhận ra nàng không'
+-	R
+-	'hề cử động và chỉ đang phục tùng anh.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Đôi mắt nàng nhắm nghiền và đôi môi cũng mím lại.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance(... Chà, sao cũng được,'
+-	\L_06bc3:
+-	ZH 1:
+-	'có lẽ tôi nên để nàng làm những gì'
+-	R
+-	'nàng muốn.) Rance tập trung vào bộ ngực'
+-	\L_06bc3:
+-	ZH 1:
+-	'của cô và liếm núm vú nhỏ nhắn'
+-	R
+-	'của cô bằng đầu lưỡi của anh.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Chắc hẳn nàng đang cảm thấy dễ chịu vì'
+-	\L_06bc3:
+-	ZH 1:
+-	'núm vú của nàng cứng lại trong miệng anh.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Nhưng Isoroku vẫn không thở dốc. Nàng'
+-	R
+-	'chỉ thỉnh thoảng phát ra tiếng rên rỉ.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「... Ừm... Mm...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Này Isoroku,'
+-	\L_06bc3:
+-	ZH 1:
+-	'tại sao cậu lại chần chừ? Cậu đang'
+-	R
+-	'làm chuyện này bớt thú vị hơn đấy.」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Ngài Rance, nhanh lên... Đưa'
+-	R
+-	'cho tại hạ hạt giống của ngài...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance（Ồ, đúng rồi. Được rồi, được rồi.'
+-	R
+-	'Ta sẽ bỏ qua màn dạo đầu và xen vào.）'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tay Rance lướt qua chân'
+-	R
+-	'Isoroku. Anh nắm chặt lấy đùi'
+-	\L_06bc3:
+-	ZH 1:
+-	'trong của cô và cố gắng kéo hai chân cô mở ra.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Nhưng nàng ngoan cố không chịu di chuyển chúng.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「... Này, thả lỏng đi. Ta không'
+-	R
+-	'thể đặt nó vào nếu nàng không. 」'
++	'Quay lưng về phía Rance, Isoroku tháo dây obi.'
++	\L_06bc3:
++	ZH 1:
++	'Phơi da thịt trước mặt đàn ông, vậy mà'
++	\L_06bc3:
++	ZH 1:
++	'dáng vẻ nàng gần như chẳng có chút ngập ngừng nào.'
++	\L_06bc3:
++	ZH 1:
++	'Chiếc kimono trượt khỏi vai. Trên thân thể'
++	\L_06bc3:
++	ZH 1:
++	'mịn màng của Isoroku, chẳng có chỗ nào giữ nó lại.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Chà...」'
++	\L_06bc3:
++	ZH 1:
++	'Nhìn thân thể Isoroku, Rance'
++	R
++	'bất giác thở dài. Dù đã'
++	\L_06bc3:
++	ZH 1:
++	'xông pha chiến trường, làn'
++	R
++	'da nàng không một vết thương.'
++	\L_06bc3:
++	ZH 1:
++	'Hơn thế, đến một vết thâm'
++	R
++	'hay vết nám cũng chẳng thấy.'
++	\L_06bc3:
++	ZH 1:
++	'Siêu vũ khí đã dựng đứng hùng hổ. Cơ'
++	R
++	'thể Rance phản ứng hết sức thành thật.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku nhặt chiếc kimono lên, gấp gọn đặt lên'
++	\L_06bc3:
++	ZH 1:
++	'chiếc kệ cạnh giường. Rồi'
++	R
++	'nàng chậm rãi lên giường.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Nào, xin mời...」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Vậy thì vào việc luôn...」'
++	\L_06bc3:
++	ZH 1:
++	'Rance không chút khách sáo'
++	R
++	'đè lên Isoroku. Anh chộp'
++	\L_06bc3:
++	ZH 1:
++	'lấy bầu ngực, nhào nặn có phần mạnh tay.'
++	\L_06bc3:
++	ZH 1:
++	'Cứ thế anh nhìn vào mặt Isoroku,'
++	R
++	'rồi đặt môi lên môi nàng.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「...Ưm...」'
++	\L_06bc3:
++	ZH 1:
++	'Rance（Sao chán thế nhỉ）'
++	\L_06bc3:
++	ZH 1:
++	'Nhìn sang Isoroku, nàng chẳng hề'
++	R
++	'nhúc nhích khỏi tư thế ban đầu, chỉ'
++	R
++	'mặc cho anh muốn làm gì thì làm.'
++	\L_06bc3:
++	ZH 1:
++	'Mí mắt nhắm chặt, môi cũng'
++	R
++	'mím thành một đường thẳng.'
++	\L_06bc3:
++	ZH 1:
++	'Rance（...Thôi được,'
++	\L_06bc3:
++	ZH 1:
++	'để ta làm cho em hứng lên xem'
++	R
++	'nào） Rance ngậm lấy bầu ngực,'
++	\L_06bc3:
++	ZH 1:
++	'dùng đầu lưỡi lăn tròn đầu vú có lẽ hơi nhỏ.'
++	\L_06bc3:
++	ZH 1:
++	'Không phải nàng không có cảm giác, bởi'
++	\L_06bc3:
++	ZH 1:
++	'nó dần cứng lại trong miệng Rance.'
++	\L_06bc3:
++	ZH 1:
++	'Nhưng Isoroku không hề rên rỉ, chỉ'
++	R
++	'thỉnh thoảng khẽ nghẹn trong cổ họng.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「...Ưm......ưm...」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Này, Isoroku.'
++	\L_06bc3:
++	ZH 1:
++	'Em nhịn cái gì thế hả. Chẳng thú vị chút nào」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Ngài Rance, nhanh'
++	R
++	'lên... hạt giống của ngài...」'
++	\L_06bc3:
++	ZH 1:
++	'Rance（Ra thế, ra là thế. Được thôi.'
++	R
++	'Bỏ màn vuốt ve, cứ thế đâm vào）'
++	\L_06bc3:
++	ZH 1:
++	'Tay Rance lần theo chân Isoroku. Anh nắm chặt'
++	\L_06bc3:
++	ZH 1:
++	'mặt trong đùi, dùng sức để banh chân nàng ra.'
++	\L_06bc3:
++	ZH 1:
++	'Nhưng đôi chân ấy cứng đờ, không chịu nhúc nhích.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「...Này. Thả lỏng ra.'
++	R
++	'Không thì sao mà vào được」'
+ 	\L_06bc3:
+ 	ZH 1:
+ 	'Isoroku 「.........」'
+ 	\L_06bc3:
+ 	ZH 1:
+-	'Rance cố gắng mở rộng chân lần nữa.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Có một chút kháng cự,'
+-	\L_06bc3:
+-	ZH 1:
+-	'nhưng hắn đã có thể mở được chúng. Khe nhợt'
+-	\L_06bc3:
+-	ZH 1:
+-	'nhạt của Isoroku lộ ra trước mặt Rance.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Chà, ta cũng đoán là vậy,'
+-	R
+-	'nhưng... Nàng có phải là trinh nữ không?」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Câu hỏi của Rance đã thu hút phản'
+-	R
+-	'ứng đầu tiên của Isoroku. Tuy nhiên,'
+-	\L_06bc3:
+-	ZH 1:
+-	'chỉ có nàng đang nhìn đi chỗ khác.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Không còn lựa chọn nào khác, vậy thì...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance vùi mặt vào háng Isoroku.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Đợi đã! Đ-Đó là... Ah... Ah...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance cố tình liếm khe hở của mình bằng nhiều'
+-	\L_06bc3:
+-	ZH 1:
+-	'nước bọt để tạo ra âm thanh ướt át lớn.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Hii... Kh... Uu... Ah.」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku vặn vẹo cơ thể để phản ứng'
+-	R
+-	'với một cảm giác mà cô chưa bao'
+-	\L_06bc3:
+-	ZH 1:
+-	'giờ cảm thấy trước khi chạy qua người.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「... Được rồi, em ướt đủ rồi đấy.」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance ngừng liếm.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Nếu ta đột nhiên đặt thứ'
+-	R
+-	'to lớn của mình vào một trinh nữ'
+-	\L_06bc3:
+-	ZH 1:
+-	'như nàng...」 tôi thậm chí không'
+-	R
+-	'muốn nghĩ về điều đó. Sẽ đau đấy...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku vô thức nhìn lên'
+-	R
+-	'trần nhà. Hơi thở của cô trở'
+-	\L_06bc3:
+-	ZH 1:
+-	'nên khó khăn và ngực cô phập phồng lên xuống.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Đừng lo lắng,」 ta đã tránh'
+-	R
+-	'được trường hợp xấu nhất rồi. Bây'
+-	\L_06bc3:
+-	ZH 1:
+-	'giờ chúng ta hãy làm điều này. Sẽ đau lắm đấy,'
+-	\L_06bc3:
+-	ZH 1:
+-	'nhưng hãy cố chịu đựng nhé.」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance đâm nó vào Isoroku.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Gh... Ugh!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Ừ, chắc chắn là trinh nữ... Gahahahaha!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Hắn tỏ ra không quan tâm đến Isoroku khi đẩy'
+-	\L_06bc3:
+-	ZH 1:
+-	'siêu vũ khí của mình vào sâu nhất có thể,'
+-	\L_06bc3:
+-	ZH 1:
+-	'sau đó từ từ rút nó lại.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku nghiến răng chịu đựng cơn đau. Tay cô vô'
+-	\L_06bc3:
+-	ZH 1:
+-	'thức nắm chặt ga trải giường đến mức trắng bệch.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Hohoh,」 thậm chí còn không bảo'
+-	R
+-	'ta dừng lại hay lấy nó ra hay rằng nó'
+-	\L_06bc3:
+-	ZH 1:
+-	'đau hay gì đó! Ấn tượng!” Rance lùi lại'
+-	R
+-	'cho đến khi cự vật của anh gần ra ngoài rồi'
+-	\L_06bc3:
+-	ZH 1:
+-	'lại đẩy vào. Cảm giác xuyên qua da thịt'
+-	R
+-	'cô chảy qua phần thân dưới của Rance.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「K-Ngài Rance...! Làm ơn...'
+-	R
+-	'sớm cho tại hạ tinh dịch của ngài!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Được rồi,'
+-	\L_06bc3:
+-	ZH 1:
+-	'như em muốn. Ta sẽ làm việc này'
+-	R
+-	'nhanh nhất có thể! Đừng ngất xỉu.」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance cẩn thận đẩy vào và ra theo'
+-	R
+-	'chuyển động nhịp nhàng cho đến lúc đó,'
+-	\L_06bc3:
+-	ZH 1:
+-	'nhưng ôm chặt nàng và bắt đầu đẩy mạnh.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Lấy cái này đi! Khhh, nó tới rồi!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Khuôn mặt của Rance nhuốm màu vui sướng'
+-	R
+-	'vì khoái cảm chạy dọc sống lưng anh.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Kh... Uuuah... Ah!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku vẫn giống như mọi khi,'
+-	\L_06bc3:
+-	ZH 1:
+-	'nhưng Rance lại vô tình thưởng'
+-	R
+-	'thức việc làm hỏng nàng.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Khh... Được rồi, bắt đầu đi!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Uaaaaaaaah!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tinh dịch đổ từ đầu gà của Rance vào'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku. Nhưng Rance vẫn tiếp tục di chuyển hông.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Hngh... Hng... À... Haah.」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Khi giọt cuối cùng được vắt ra,'
+-	R
+-	'Rance hài lòng rút ra khỏi Isoroku.'
++	'Rance thử banh chân nàng ra lần nữa.'
++	\L_06bc3:
++	ZH 1:
++	'Vẫn còn chút kháng cự,'
++	\L_06bc3:
++	ZH 1:
++	'nhưng rồi cũng mở ra được. Khe hở nhạt màu'
++	\L_06bc3:
++	ZH 1:
++	'của Isoroku phơi ra trước mắt Rance.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Ừ, cũng đoán trước rồi... là trinh nữ à」'
++	\L_06bc3:
++	ZH 1:
++	'Trước lời Rance, Isoroku lần'
++	R
++	'đầu tiên có phản ứng. Nói vậy'
++	\L_06bc3:
++	ZH 1:
++	'chứ, nàng cũng chỉ quay mặt đi thôi.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Hết cách...」'
++	\L_06bc3:
++	ZH 1:
++	'Rance vùi mặt vào giữa háng Isoroku.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Hả!... ch-chỗ đó... a... a...」'
++	\L_06bc3:
++	ZH 1:
++	'Rance cố ý trộn thật nhiều nước bọt, liếm khe hở'
++	\L_06bc3:
++	ZH 1:
++	'từ dưới lên, cố tình để tiếng chùn chụt vang lên.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Hí... ư... ư... a」'
++	\L_06bc3:
++	ZH 1:
++	'Trước cảm giác chạy khắp người mà trước nay'
++	\L_06bc3:
++	ZH 1:
++	'chưa từng biết, Isoroku vặn vẹo thân mình.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「......Ừm, được rồi.'
++	R
++	'Cũng bắt đầu ướt rồi đấy」'
++	\L_06bc3:
++	ZH 1:
++	'Rance ngừng lưỡi.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Em ấy à... đã là trinh nữ, nếu cứ thế mà'
++	\L_06bc3:
++	ZH 1:
++	'nhét thứ khổng lồ như của ta vào...'
++	R
++	'ặc, chẳng dám nghĩ tới... đau...」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku nhìn lên trần nhà,'
++	R
++	'có phần thẫn thờ. Hơi thở'
++	\L_06bc3:
++	ZH 1:
++	'hơi gấp, ngực phập phồng lên xuống.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Yên tâm, trường hợp'
++	R
++	'tệ nhất đã tránh được rồi.'
++	\L_06bc3:
++	ZH 1:
++	'Vậy ta vào đây, sẽ đau lắm đấy,'
++	\L_06bc3:
++	ZH 1:
++	'cố mà chịu」'
++	\L_06bc3:
++	ZH 1:
++	'Rance thúc mạnh vào bên trong Isoroku.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Ư... ực!」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Chà chà, đúng là trinh nữ... gahahahaha!」'
++	\L_06bc3:
++	ZH 1:
++	'Chẳng mảy may bận tâm đến Isoroku, siêu vũ khí'
++	\L_06bc3:
++	ZH 1:
++	'đã vào tận sâu bên trong'
++	\L_06bc3:
++	ZH 1:
++	'giờ lại chậm rãi rút ra.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku nghiến răng, chỉ biết'
++	R
++	'gắng chịu cơn đau. Bàn tay'
++	\L_06bc3:
++	ZH 1:
++	'vô thức nắm chặt ga giường'
++	R
++	'đã trắng bệch vì quá sức.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Hô hô, chẳng hề kêu thôi'
++	R
++	'đi, rút ra, hay đau quá...'
++	\L_06bc3:
++	ZH 1:
++	'đúng là đáng nể!」 Hông đã lùi'
++	R
++	'tới chỗ đầu khấc gần tuột ra,'
++	\L_06bc3:
++	ZH 1:
++	'lại ấn vào Isoroku. Cảm giác rẽ thịt lún'
++	R
++	'sâu lan từ hạ thân ra khắp người Rance.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Ng-Ngài Rance...!'
++	R
++	'Xin mau... xuất tinh đi ạ!」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Được,'
++	\L_06bc3:
++	ZH 1:
++	'ta chiều theo ý em, làm một'
++	R
++	'mạch luôn! Đừng có ngất đấy」'
++	\L_06bc3:
++	ZH 1:
++	'Từ nãy Rance vẫn đều đặn ra vào từng nhịp một,'
++	\L_06bc3:
++	ZH 1:
++	'nhưng rồi anh ôm siết lấy Isoroku,'
++	R
++	'đột ngột dồn dập lắc hông.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Hây dà! Ưư, tới rồi, tới rồi, tới rồi!」'
++	\L_06bc3:
++	ZH 1:
++	'Khoái cảm chạy dọc sống lưng,'
++	R
++	'mặt Rance rạng rỡ sung sướng.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Ư... ưa... a!」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku vẫn y như cũ,'
++	\L_06bc3:
++	ZH 1:
++	'nhưng Rance mặc kệ, cứ thế'
++	R
++	'tận hưởng màn phá trinh.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Ư... được, cho em đây!」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Uaaaaa!」'
++	\L_06bc3:
++	ZH 1:
++	'Từ đầu Rance, dòng tinh trắng'
++	R
++	'đục tuôn ồng ộc vào trong'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku. Vậy mà Rance vẫn'
++	R
++	'không chịu dừng hông lại.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Hự... hự... a...... phù」'
++	\L_06bc3:
++	ZH 1:
++	'Vắt tới giọt cuối cùng, Rance'
++	R
++	'mãn nguyện rời khỏi Isoroku.'
+ 	\L_06bc3:
+ 	PF1 VAR0056:
+ 	\L_06bb6:
+@@ -4774,176 +4640,160 @@
+ 	\L_06bb6:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Isoroku nhìn'
+-	R
+-	'Rance với vẻ cay đắng.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Em không thể'
+-	R
+-	'làm gì được, đó là lần'
+-	R
+-	'đầu tiên của mọi người.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Nếu em nhượng bộ cảm'
+-	R
+-	'xúc của mình nhiều hơn, có'
+-	R
+-	'thể nó sẽ ngừng đau sớm hơn.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Nhưng một đứa trẻ là'
+-	R
+-	'tất cả những gì thiếp...!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku tự cắt lời mình.'
+-	R
+-	'Cô lại đối mặt với Rance.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Qua Rance.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ừm, cái gì cơ?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Bây giờ trong thiếp'
+-	R
+-	'có đứa trẻ nào không?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Hmm, ta không biết.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Ta thường xuất'
+-	R
+-	'tinh vào bên trong,'
+-	\L_06bc3:
+-	ZH 1:
+-	'nhưng vì lý'
+-	R
+-	'do nào đó mà nó dường'
+-	R
+-	'như không có tác dụng.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Công việc?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ý ta là ta không có con.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Kể cả với'
+-	R
+-	'những người khác trong'
+-	R
+-	'hậu cung của chàng!?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Vâng, thật kỳ lạ.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Khuôn mặt của Isoroku'
+-	R
+-	'tỏ ra sốc trong giây lát,'
+-	R
+-	'sau đó chuyển sang chán nản.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Cuối cùng nó đã giải'
+-	R
+-	'quyết được sự tức giận.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Ngài Rance, ngài đã'
+-	R
+-	'lừa dối thiếp phải không?!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Đó hoàn toàn không'
+-	R
+-	'phải là ý định của ta.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Nếu chúng ta tiếp tục'
+-	R
+-	'làm điều đó nhiều lần thì'
+-	\L_06bc3:
+-	ZH 1:
+-	'cuối cùng em cũng'
+-	R
+-	'sẽ có một đứa con.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Kh...!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku nắm lấy thứ'
+-	R
+-	'nàng đang cầm trên tay.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Nhân tiện, em'
+-	R
+-	'đang bóp cái gì vậy?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'... Một sự quyến'
+-	R
+-	'rũ. Để dễ sinh nở.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Sinh con dễ dàng?'
++	'Isoroku nhìn Rance,'
++	R
++	'có chút oán trách.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Biết làm sao được, lần'
++	R
++	'đầu ai cũng thế cả.'
++	\L_06bc3:
++	ZH 1:
++	'Em mà thành thật cảm'
++	R
++	'nhận hơn thì có khi'
++	R
++	'đã bớt đau rồi đấy.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Nhưng tôi, là vì đứa con...!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku ngừng lời ở đó. Rồi'
++	R
++	'quay lại đối diện Rance.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Ngài Rance.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Hử, gì thế.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vừa rồi, trong người'
++	R
++	'tôi đã có con chưa ạ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ừm, cái đó thì chịu.'
++	\L_06bc3:
++	ZH 1:
++	'Ta thường bắn vào trong,'
++	\L_06bc3:
++	ZH 1:
++	'nhưng chẳng hiểu sao'
++	R
++	'toàn không trúng.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Không trúng?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Nghĩa là không có con ấy.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Cả những người khác trong'
++	R
++	'hậu cung cũng vậy sao!?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ừ. Lạ thật đấy.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Mặt Isoroku thoáng'
++	R
++	'kinh ngạc, rồi chuyển'
++	R
++	'sang thất vọng.'
++	\L_06bc3:
++	ZH 1:
++	'Cuối cùng là giận dữ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Ngài Rance, ngài đã lừa tôi!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ta có định thế đâu.'
++	\L_06bc3:
++	ZH 1:
++	'Cứ kiên nhẫn làm nhiều lần,'
++	\L_06bc3:
++	ZH 1:
++	'thì rồi cũng có'
++	R
++	'ngày đẻ thôi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Ư...!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku siết chặt'
++	R
++	'thứ gì đó trong tay.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Nhắc mới nhớ, lúc nãy'
++	R
++	'em cũng nắm khư khư,'
++	R
++	'cái đó là gì thế?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'...Bùa hộ mệnh ạ.'
++	R
++	'Bùa sinh nở bình an.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Sinh nở bình an?'
+ 	\L_06bc3:
+ 	ZH 1:
+ 	'...'
+ 	\L_06bc3:
+ 	ZH 1:
+-	'Đó chẳng phải là'
+-	R
+-	'điều em sẽ bám víu sau khi'
+-	R
+-	'đứa trẻ được thụ thai sao?'
++	'Cái đó chẳng phải thứ'
++	R
++	'mang theo từ lúc có'
++	R
++	'con tới khi sinh sao?'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b0e:
+@@ -4953,14 +4803,12 @@
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Nếu em muốn có một đứa con,'
+-	\L_06bc3:
+-	ZH 1:
+-	'em có muốn một'
+-	R
+-	'lá bùa ban phước cho em'
+-	R
+-	'có con hay gì đó không?'
++	'Nếu muốn có con thì hình như'
++	\L_06bc3:
++	ZH 1:
++	'phải là bùa cầu con'
++	R
++	'cái gì đó chứ nhỉ?'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b0e:
+@@ -4970,48 +4818,46 @@
+ 	\L_06bb6:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Isoroku nhìn chằm chằm'
+-	R
+-	'vào lá bùa trên tay cô.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Mặt nàng lập tức đỏ bừng.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'... Với thứ đó thì em sẽ'
+-	R
+-	'không bao giờ có con được'
+-	R
+-	'đâu... Gahahahaha!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance cười một'
+-	R
+-	'cách tàn nhẫn.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'... Xin lỗi!'
++	'Isoroku chăm chăm'
++	R
++	'nhìn lá bùa trong tay.'
++	\L_06bc3:
++	ZH 1:
++	'Mặt nàng đỏ bừng'
++	R
++	'lên trông thấy.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'...Thế thì làm sao mà có con'
++	R
++	'được nhỉ... khục khục khục.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance cười đểu.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'...Tôi xin phép!'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b70:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Isoroku chạy'
+-	R
+-	'ra khỏi phòng.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Nàng khá'
+-	R
+-	'ngu ngốc... Heheh.'
++	'Isoroku gần như chạy'
++	R
++	'vụt ra khỏi phòng ngủ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Con nhỏ cũng ngố ra'
++	R
++	'phết... khục khục.'
+ 	\L_06bc3:
+ 	@L_06a87:
+ *L_05263:
+@@ -5036,123 +4882,121 @@
+ 	\L_06af2:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Ngài Rance...'
+-	R
+-	'Tôi vào được không?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ừ, đến đây.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Vậy thì... Xin lỗi.'
++	'Ngài Rance... tôi'
++	R
++	'vào được chứ ạ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ờ, cứ vào thoải mái.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vậy thì... tôi xin phép.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 24!
+ 	\L_06b62:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Isoroku xuất hiện'
+-	R
+-	'trước Rance với vẻ mặt'
+-	R
+-	'nghiêm nghị như mọi khi.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Giống như nàng đã sẵn'
+-	R
+-	'sàng để tổ chức một buổi lễ.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Này Isoroku, không có'
+-	R
+-	'ý gì xấu đâu, nhưng chúng'
+-	R
+-	'ta sắp làm tình ở đây đấy.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Đừng nghiêm túc một'
+-	R
+-	'cách kỳ lạ như vậy nữa.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Ừm, Ngài Rance...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Không phải thô lỗ'
+-	R
+-	'đâu, nhưng thiếp ngủ với anh'
+-	R
+-	'với mục đích có một đứa con.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Vậy...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'À, sao cũng được.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance ôm Isoroku'
+-	R
+-	'và hôn lên môi cô.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Lưỡi của họ quấn vào'
+-	R
+-	'nhau và lưỡi của Isoroku'
+-	R
+-	'được mời vào miệng anh.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Giống như nó'
+-	R
+-	'đã từ bỏ việc chống cự, nó'
+-	R
+-	'tiến vào, nơi Rance cắn nhẹ.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ta đang làm em,'
+-	R
+-	'chỉ có vậy thôi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'... Được rồi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku quay đi,'
+-	R
+-	'có vẻ hơi bất mãn.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Bây giờ hãy cởi quần'
+-	R
+-	'áo ra. Chúng ta đang quan'
+-	R
+-	'hệ tình dục nghiêm túc...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Xin lỗi, ý ta là chúng'
+-	R
+-	'ta hãy cố gắng sinh con.'
++	'Như mọi khi, Isoroku'
++	R
++	'xuất hiện trước Rance'
++	R
++	'với vẻ mặt trang nghiêm.'
++	\L_06bc3:
++	ZH 1:
++	'Cứ như sắp cử hành'
++	R
++	'nghi lễ gì không bằng.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Này Isoroku, không phải'
++	R
++	'ta chê, nhưng tụi mình sắp'
++	R
++	'làm chuyện người lớn đấy.'
++	\L_06bc3:
++	ZH 1:
++	'Bỏ cái vẻ trịnh'
++	R
++	'trọng kỳ cục ấy đi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Thưa, Ngài Rance...'
++	\L_06bc3:
++	ZH 1:
++	'Biết là vô lễ nhưng tôi'
++	R
++	'xin nói, tôi chung chăn'
++	R
++	'gối với ngài là để có con.'
++	\L_06bc3:
++	ZH 1:
++	'Vì thế...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'À, thôi được rồi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance kéo Isoroku'
++	R
++	'vào lòng, cuồng nhiệt'
++	R
++	'cướp lấy đôi môi.'
++	\L_06bc3:
++	ZH 1:
++	'Quấn lưỡi như muốn'
++	R
++	'hút cạn, rồi dụ lưỡi'
++	R
++	'Isoroku vào miệng mình.'
++	\L_06bc3:
++	ZH 1:
++	'Khi nó cam chịu tiến'
++	R
++	'vào, Rance khẽ cắn nhẹ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ta thì chỉ cần được'
++	R
++	'làm với em là đủ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'...Vâng.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku quay mặt'
++	R
++	'đi, có chút buồn bã.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Nào, mau cởi đồ ra. Hôm'
++	R
++	'nay cũng SEX cho đã...'
++	\L_06bc3:
++	ZH 1:
++	'à không, chăm'
++	R
++	'chỉ làm con nào.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	PF1 VAR0056:
+@@ -5163,258 +5007,258 @@
+ 	!VAR0248 : 5!
+ 	\L_06b7e:
+ 	ZH 1:
+-	'Isoroku 「À... Kh...」'
++	'Isoroku「A... ư...」'
+ 	PF0 VAR0056:
+ 	\L_06bc3:
+ *L_054e7:
+ 	ZH 1:
+-	'Những tiếng thở hổn hển đầy đau đớn và'
+-	R
+-	'kiềm chế thoát ra từ cổ họng Isoroku.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Được rồi, phát súng đầu tiên đang đến,'
+-	\L_06bc3:
+-	ZH 1:
+-	'hãy nuốt hết vào bụng cậu đi! Gahahahaha!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance ôm lấy Isoroku và thay đổi'
+-	R
+-	'chuyển động từ cọ xát bằng hông.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Cường độ chuyển động của hông tăng lên đẩy siêu vũ'
+-	\L_06bc3:
+-	ZH 1:
+-	'khí quý giá của Rance vào sâu hơn trong Isoroku.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「... Mgh. Ta muốn xuất tinh vào bụng nàng'
+-	\L_06bc3:
+-	ZH 1:
+-	'bây giờ. Thỉnh thoảng thử xuất'
+-	R
+-	'tinh vào ai đó」 cũng thú vị đấy.」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Ngài Rance, đ-đó là... Ah...!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Gahahahaha!, đùa thôi! Tại sao ta'
+-	R
+-	'lại phá hỏng phần thú vị nhất của mình?!'
+-	\L_06bc3:
+-	ZH 1:
+-	'」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Hông Rance giật giật.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Gh, xuất tinh...!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Aah... Vâng, làm ơn...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「... Hgh!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance nghiến răng. Khi hông của'
+-	R
+-	'chàng đã chìm xuống hết mức,'
+-	\L_06bc3:
+-	ZH 1:
+-	'hắn đã giải phóng tất cả'
+-	R
+-	'những gì mình đã dành dụm.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「À, à... À...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Mm... Mm... Mm～, haah,'
+-	R
+-	'haah, được rồi, được rồi.」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance rút khỏi Isoroku mà'
+-	R
+-	'không thèm thưởng thức dư'
+-	\L_06bc3:
+-	ZH 1:
+-	'vị. Siêu vũ khí của hắn hơi mềm đi'
+-	R
+-	'và được bao phủ bởi nước ép dạng sợi.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Hah... Hoo, haah, haah,'
+-	R
+-	'haah, hah... Ah...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Isoroku, tại sao nàng lại chần chừ?」'
++	'Từ cổ họng Isoroku khẽ thoát ra tiếng rên'
++	R
++	'day dứt như đang cố chịu đựng điều gì.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Nào, sắp tới phát đầu tiên rồi,'
++	\L_06bc3:
++	ZH 1:
++	'nuốt cho đầy vào cái bụng ấy đi! Gahahahaha!」'
++	\L_06bc3:
++	ZH 1:
++	'Đang đè lên Isoroku, cọ xát'
++	R
++	'lắc hông, Rance đổi nhịp.'
++	\L_06bc3:
++	ZH 1:
++	'Những cú thúc có phần thô'
++	R
++	'bạo hơn là để đẩy siêu vũ khí'
++	\L_06bc3:
++	ZH 1:
++	'niềm tự hào của Rance vào sâu hơn trong Isoroku.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「...Hừm. Tự nhiên muốn bắn lên bụng.'
++	\L_06bc3:
++	ZH 1:
++	'Thỉnh thoảng cũng muốn thử xịt ra ngoài xem」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Ngài Rance, đ-điều đó... a...!」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Gahaha, xạo đấy! Ai'
++	R
++	'lại tự đi làm mình mất sướng'
++	\L_06bc3:
++	ZH 1:
++	'đúng vào khoảnh khắc sướng nhất chứ hảaa!」'
++	\L_06bc3:
++	ZH 1:
++	'Hông Rance giật nảy.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Ư, ra đây...!」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Aa... vâng, xin ngài... ạ...」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「...Hự!」'
++	\L_06bc3:
++	ZH 1:
++	'Rance nghiến chặt răng hàm.'
++	R
++	'Khi hông đã lún xuống sâu nhất,'
++	\L_06bc3:
++	ZH 1:
++	'anh phóng ra một mạch tất cả những gì đã kìm nén.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「A, a... a......」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Ưm... ưm... ưm~, haa, haa. Được, OK」'
++	\L_06bc3:
++	ZH 1:
++	'Chẳng buồn tận hưởng dư vị, Rance rút siêu vũ khí'
++	\L_06bc3:
++	ZH 1:
++	'khỏi Isoroku. Nó hơi xìu xuống, nhầy'
++	R
++	'nhụa đủ thứ dịch, kéo thành sợi.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Ph... phù, haa, haa, haa, ha... a...」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Isoroku, sao em cứ nhịn thế?」'
+ 	\L_06bc3:
+ 	ZH 1:
+ 	'Isoroku 「...」'
+ 	\L_06bc3:
+ 	ZH 1:
+-	'Vì lý do nào đó,'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku đang cố gắng kiềm chế niềm vui của chính'
+-	\L_06bc3:
+-	ZH 1:
+-	'mình. Tiếng rên rỉ của cô được kiểm'
+-	R
+-	'soát và phản ứng của cô được tiết chế.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Lúc đầu, Rance cho rằng đó là'
+-	R
+-	'vì cô xấu hổ và không quan tâm,'
+-	\L_06bc3:
+-	ZH 1:
+-	'nhưng anh không tránh khỏi việc mất hứng thú.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Vậy nên tại hạ không quên mình'
+-	R
+-	'đang làm điều này vì một đứa trẻ...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Anh nói vậy, nhưng ai đã'
+-	R
+-	'giữ bùa sinh con an toàn vậy?」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「T-Hôm nay tại hạ hiểu đúng'
+-	R
+-	'rồi, tại hạ có một cái cấp cho trẻ em!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku cho Rance xem chiếc'
+-	R
+-	'túi nhỏ mà cô đang cầm.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Hm...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Chắc chắn rồi. Tuy nhiên,'
+-	\L_06bc3:
+-	ZH 1:
+-	'không có ích gì khi cầu xin các vị'
+-	\L_06bc3:
+-	ZH 1:
+-	'thần. Hãy làm cho việc này trở nên khoa học hơn!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance thốt ra vài lời không phù hợp trong khi'
+-	\L_06bc3:
+-	ZH 1:
+-	'uể oải đặt Isoroku úp mặt xuống giường.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「À, vị trí này là gì...?」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Ta nghe nói làm từ phía sau sẽ khiến'
+-	R
+-	'khả năng thụ thai cao hơn. Nó thậm chí'
+-	\L_06bc3:
+-	ZH 1:
+-	'còn sinh cho」 ngươi một cậu con trai.'
+-	R
+-	'Vậy hãy thử một lần như thế này nhé.」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Đừng nhìn chằm chằm như thế... Ah...!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Haaah!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance không thương tiếc đâm siêu vũ khí hiện đã'
+-	\L_06bc3:
+-	ZH 1:
+-	'phục hồi hoàn toàn của mình vào khe của Isoroku.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「À, chờ đã, tại hạ vẫn... Ah... Aah!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Sao thế?! Hoàn toàn lấp'
+-	R
+-	'đầy nàng,」 phải không?! Đây'
+-	\L_06bc3:
+-	ZH 1:
+-	'là để giao phối thực sự! Hãy cầm lấy cái này,'
+-	\L_06bc3:
+-	ZH 1:
+-	'cái này và cái này!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance nắm lấy cặp mông căng cứng của nàng và'
+-	\L_06bc3:
+-	ZH 1:
+-	'giữ nó tại chỗ. Rồi anh đập hông vào đó.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Bộ ngực treo của Isoroku lắc lư tự do. Cô'
+-	\L_06bc3:
+-	ZH 1:
+-	'nghiến răng và tuyệt vọng chống lại'
+-	R
+-	'sự tấn công của khoái cảm một lần nữa.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Gahahahaha!,'
+-	\L_06bc3:
+-	ZH 1:
+-	'cậu có thể giữ được điều đó được bao'
+-	R
+-	'lâu? Sẽ vui hơn nếu cậu chỉ rên rỉ,'
++	'Chẳng hiểu sao,'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku lúc nào cũng cố chịu đựng khoái cảm.'
++	\L_06bc3:
++	ZH 1:
++	'Tiếng rên cũng kìm hết mức,'
++	R
++	'phản ứng cũng rất dè dặt.'
++	\L_06bc3:
++	ZH 1:
++	'Lúc đầu Rance cho là nàng xấu hổ nên chẳng để tâm,'
++	\L_06bc3:
++	ZH 1:
++	'nhưng dần dần anh cũng thấy chán thật.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Tôi... là vì đứa con...'
++	R
++	'để không quên điều đó...」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Nói thế mà ai là người'
++	R
++	'cầm bùa sinh nở bình an nhỉ?」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「H-hôm nay tôi mang'
++	R
++	'đúng bùa cầu con rồi ạ!」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku chìa chiếc túi nhỏ nàng'
++	R
++	'vẫn nắm nãy giờ ra trước mặt Rance.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Hừm...'
++	\L_06bc3:
++	ZH 1:
++	'đúng thật. Nhưng'
++	\L_06bc3:
++	ZH 1:
++	'cầu thần khấn phật chẳng có nghĩa gì đâu.'
++	\L_06bc3:
++	ZH 1:
++	'Phải làm khoa học hơn cơ!」'
++	\L_06bc3:
++	ZH 1:
++	'Buông ra câu chẳng hợp với'
++	R
++	'mình chút nào, Rance lật'
++	\L_06bc3:
++	ZH 1:
++	'thân thể Isoroku còn uể oải nằm'
++	R
++	'trên giường cho úp sấp xuống.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「A, ngài làm gì... tư thế thế này...」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Nghe nói làm từ phía sau thì dễ có con hơn.'
++	\L_06bc3:
++	ZH 1:
++	'Lại còn là con trai nữa. Nên'
++	R
++	'giờ làm thêm một lần kiểu này」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Sao lại, đừng nhìn chằm chằm... a...!」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Được lắm!」'
++	\L_06bc3:
++	ZH 1:
++	'Siêu vũ khí đã hồi phục từ'
++	R
++	'lúc nào, dựng đứng hiên ngang,'
++	\L_06bc3:
++	ZH 1:
++	'Rance không chút nương tay đâm'
++	R
++	'thẳng vào khe hở của Isoroku.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「A, khoan đã, tôi còn chưa... a... aa!」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Sao hả, vào tận trong cùng rồi nhé!'
++	\L_06bc3:
++	ZH 1:
++	'Gieo giống trúng phóc luôn!'
++	\L_06bc3:
++	ZH 1:
++	'Này này này này này!」'
++	\L_06bc3:
++	ZH 1:
++	'Rance nắm chặt cặp mông săn chắc'
++	R
++	'hơi cứng của nàng để giữ yên,'
++	\L_06bc3:
++	ZH 1:
++	'rồi lắc hông dồn dập như đâm sầm vào.'
++	\L_06bc3:
++	ZH 1:
++	'Bầu ngực trĩu xuống của'
++	R
++	'Isoroku rung lắc nặng nề. Nàng'
++	\L_06bc3:
++	ZH 1:
++	'nghiến răng, dốc sức chịu'
++	R
++	'đựng khoái cảm lại ập tới.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Gahaha,'
++	\L_06bc3:
++	ZH 1:
++	'em nhịn được tới bao giờ'
++	R
++	'nào? Cứ thành thật mà rên rỉ'
++	\L_06bc3:
++	ZH 1:
++	'cho sướng đi,'
+ 	\L_06bc3:
+ 	ZH 1:
+ 	'Isoroku!」'
+ 	\L_06bc3:
+ 	ZH 1:
+-	'」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Hgh, hah, à... Kh... Uu!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Hm, phát súng thứ hai'
+-	R
+-	'sắp tới, cố gắng hết sức đi!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance thay đổi góc độ của mình một chút để siêu'
+-	\L_06bc3:
+-	ZH 1:
+-	'vũ khí của hắn cọ xát nhiều hơn từ bên cạnh.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Ồ, nàng đang... thực sự đang'
+-	R
+-	'kẹp chặt ta... Ch, xuất tinh, Isoroku!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Vâng, nhiều nhất có thể, à, aah, aaah!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Sụp đổ.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Ờ... À...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku chứa đầy tinh dịch của Rance.'
+-	R
+-	'Cô vùi mặt vào gối khi nhận được nó.'
++	'Isoroku「Hự, ha, a... ư... ư!」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Hừ, vậy sắp tới phát thứ'
++	R
++	'hai, cho em thật nhiều đây!」'
++	\L_06bc3:
++	ZH 1:
++	'Rance đổi góc một chút, để siêu vũ khí gầm gừ'
++	\L_06bc3:
++	ZH 1:
++	'cọ xát mạnh hơn vào thành bên.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Ồ, quấn chặt... lấy ta'
++	R
++	'ghê... Chậc, ra đây, Isoroku!」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Vâng, bao nhiêu'
++	R
++	'lần cũng được, a, aa, aaa!」'
++	\L_06bc3:
++	ZH 1:
++	'Phụt.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Ư... a...」'
++	\L_06bc3:
++	ZH 1:
++	'Từng đợt, từng đợt tinh dịch của Rance tuôn'
++	R
++	'vào. Isoroku vùi mặt vào gối, đón nhận tất cả.'
+ 	\L_06bc3:
+ 	{VAR0520 = 300:
+ 		%0:
+@@ -5443,76 +5287,70 @@
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Có vẻ như em'
+-	R
+-	'thực sự cảm thấy rất vui'
+-	R
+-	'khi kết thúc trận đấu.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Thiếp-thiếp không có!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku đỏ mặt'
+-	R
+-	'và nhìn xuống. Toàn thân cô'
+-	R
+-	'cứng đờ, hai tay siết chặt.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Chẳng có gì'
+-	R
+-	'đáng phải xấu hổ cả.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Cảm thấy tốt'
+-	R
+-	'không phải là điều xấu.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Nhưng... thiếp...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Việc tận hưởng niềm vui sẽ'
+-	R
+-	'không ngăn cản em có thai.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Em có thể làm cả hai việc'
+-	R
+-	'cùng một lúc và hạ gục hai'
+-	R
+-	'con chim bằng một hòn đá.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Gahahahaha!'
++	'Lần cuối em sướng'
++	R
++	'ra trò đấy nhỉ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'S-sao lại thế được!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku đỏ bừng mặt cúi'
++	R
++	'gằm. Toàn thân cứng đờ,'
++	R
++	'nắm tay cũng siết chặt.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Có gì đâu mà xấu hổ thế?'
++	\L_06bc3:
++	ZH 1:
++	'Thấy sướng thì'
++	R
++	'có gì xấu đâu.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Nhưng... tôi...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Sướng thì cũng đâu'
++	R
++	'phải không có con được.'
++	\L_06bc3:
++	ZH 1:
++	'Sướng tê người mà lại'
++	R
++	'có con, đúng là một'
++	R
++	'mũi tên trúng hai đích.'
++	\L_06bc3:
++	ZH 1:
++	'Gahahaha.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b2a:
+ 	ZH 1:
+-	'Nhưng... Ngài đã'
+-	R
+-	'có vợ rồi, Ngài Rance.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Thiếp sẽ không'
+-	R
+-	'làm gì khác ngoài việc chấp'
+-	R
+-	'nhận hạt giống của chàng...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Thiếp phải làm vậy.'
++	'Nhưng... Ngài Rance'
++	R
++	'đã có phu nhân rồi.'
++	\L_06bc3:
++	ZH 1:
++	'Tôi chỉ là người nhận'
++	R
++	'hạt giống mà thôi...'
++	\L_06bc3:
++	ZH 1:
++	'phải như vậy... mới được.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06a9e:
+@@ -5522,29 +5360,27 @@
+ 	\L_06bb6:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Ngài Rance, liệu'
+-	R
+-	'sau ngày hôm nay thiếp'
+-	R
+-	'có mang thai không?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Không biết.'
+-	R
+-	'Hãy hỏi bác sĩ.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Vâng... Cảm ơn chàng.'
++	'Ngài Rance, lần hôm'
++	R
++	'nay đã có con chưa ạ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Cái đó thì chịu. Lát nữa'
++	R
++	'đi nhờ thầy thuốc khám đi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vâng... đa tạ ngài.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b70:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Isoroku cúi đầu và'
++	'Isoroku cúi chào rồi'
+ 	R
+ 	'rời khỏi phòng ngủ.'
+ 	\L_06bc3:
+@@ -5553,25 +5389,21 @@
+ 	{VAR0438 < VAR0517 + 4:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Ngài Rance...'
+-		R
+-		'Đó là Isoroku.'
++		'Ngài Rance... Isoroku đây ạ.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Ồ, vào đi, vào đi.'
++		'Ồ, vào đi vào đi.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		!VAR0516 : 24!
+ 		\L_06b62:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Cánh cửa'
+-		R
+-		'cọt kẹt mở ra. Isoroku'
+-		R
+-		'từ từ bước vào phòng.'
++		'Cửa lách cách mở ra. Isoroku'
++		R
++		'chậm rãi bước vào phòng.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+@@ -5581,132 +5413,120 @@
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Làm ơn đừng'
++		'Xin ngài đừng'
+ 		R
+ 		'nhìn nhiều quá...'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Bụng của Isoroku'
+-		R
+-		'phồng lên rõ rệt.'
++		'Bụng dưới Isoroku đã nhô'
++		R
++		'lên, nhìn là biết ngay.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Đ-Nó không thực sự'
+-		R
+-		'quan trọng đâu. Dù sao nó'
+-		R
+-		'cũng thuộc về tôi một nửa.'
++		'Đ-đâu có sao. Một'
++		R
++		'nửa là của ta còn gì.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Tại hạ xin lỗi... Tại'
+-		R
+-		'hạ cũng không có kinh nghiệm'
+-		R
+-		'với những việc này, nên...'
++		'Thiếp xin lỗi... chuyện'
++		R
++		'thế này thiếp cũng hoàn'
++		R
++		'toàn chưa có kinh nghiệm...'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Isoroku vội vàng cúi đầu.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Chuyển động đó không'
+-		R
+-		'còn nhẹ nhàng như cách'
+-		R
+-		'nàng di chuyển trước đó.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Đó có thể là kết quả của rất'
+-		R
+-		'nhiều suy nghĩ của Isoroku'
+-		R
+-		'về đứa trẻ bên trong cô.'
++		'Isoroku cuống quýt cúi đầu.'
++		\L_06bc3:
++		ZH 1:
++		'Đến một cử động ấy'
++		R
++		'cũng không còn nhẹ'
++		R
++		'nhàng như trước.'
++		\L_06bc3:
++		ZH 1:
++		'Hẳn đó là vì Isoroku'
++		R
++		'đã tự nhắc mình đủ điều'
++		R
++		'cho đứa con trong bụng.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Thôi, ngồi xuống đi.'
++		'Thôi, ngồi đi.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Vâng, xin lỗi.'
++		'Vâng, thiếp xin phép.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+ 		'Isoroku nhẹ nhàng'
+ 		R
+-		'ngồi ở mép giường.'
++		'ngồi xuống mép giường.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Tôi ngồi cạnh'
+-		R
+-		'ngươi có được không?'
++		'Ta ngồi cạnh nhé?'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Không, không hề.'
++		'Vâng, tất nhiên rồi ạ.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Rance ngồi'
+-		R
+-		'cạnh nàng. Hắn nhìn chằm'
+-		R
+-		'chằm vào bụng Isoroku.'
++		'Rance ngồi xuống cạnh'
++		R
++		'nàng. Rồi chăm chăm'
++		R
++		'nhìn bụng Isoroku.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Ta chưa bao giờ'
+-		R
+-		'thực sự nghĩ nó sẽ trông'
+-		R
+-		'như thế nào... thế này...'
+-		\L_06bc3:
+-		ZH 1:
+-		'Bây giờ ta'
+-		R
+-		'cảm thấy khá kỳ lạ khi nhìn'
+-		R
+-		'thấy nó trông như thế này.'
++		'Sao nhỉ... trước đây ta'
++		R
++		'chẳng thấy gì đặc biệt...'
++		\L_06bc3:
++		ZH 1:
++		'nhưng giờ thành hình hẳn thế'
++		R
++		'này, cảm giác thật đến lạ.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Xin đừng'
+-		R
+-		'lo lắng, đứa trẻ dường'
+-		R
+-		'như đang lớn rất nhanh.'
++		'Ngài yên tâm, nghe nói con'
++		R
++		'đang lớn khỏe mạnh lắm ạ.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Isoroku mỉm'
+-		R
+-		'cười thân thiện với Rance,'
+-		R
+-		'rồi nhìn xuống bụng mình.'
++		'Isoroku dịu dàng mỉm cười'
++		R
++		'với Rance, rồi đưa mắt'
++		R
++		'nhìn xuống bụng mình.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Ngươi có phiền nếu'
+-		R
+-		'tôi chạm vào nó không?'
++		'Này, ta sờ thử được chứ?'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+@@ -5714,135 +5534,129 @@
+ 		'...'
+ 		\L_06bc3:
+ 		ZH 1:
+-		'Hãy tiếp tục.'
++		'Xin mời.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Sau một lúc'
+-		R
+-		'do dự, Isoroku trả'
+-		R
+-		'lời, má cô hơi đỏ.'
++		'Thoáng ngập ngừng, Isoroku'
++		R
++		'đáp, má hơi ửng hồng.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Ừm... ồ. Ta hiểu rồi.'
++		'Ừm... ồ. Ra vậy.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Rance xoa xoa, cảm giác hơi'
+-		R
+-		'khác so với khi hắn thường'
+-		R
+-		'chạm vào làn da phụ nữ.'
++		'Rance xoa bụng nàng, cảm'
++		R
++		'giác hơi khác với khi'
++		R
++		'chạm vào da thịt đàn bà.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Vì ngươi mà ta không'
+-		R
+-		'thể làm gì với Isoroku.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Nhh. Nhanh lên'
+-		R
+-		'và ra khỏi đó.'
+-		\L_06bc3:
+-		ZH 1:
+-		'Tại sao một kẻ'
+-		R
+-		'tầm thường như ngươi lại có'
+-		R
+-		'được Isoroku cho riêng mình?'
++		'Tại thằng này mà ta không'
++		R
++		'được làm cái này cái nọ'
++		R
++		'cái kia với Isoroku đây.'
++		\L_06bc3:
++		ZH 1:
++		'Hừm. Mau mau ra đây.'
++		\L_06bc3:
++		ZH 1:
++		'Sao ta lại phải để'
++		R
++		'cái thứ như mày độc'
++		R
++		'chiếm Isoroku hả?'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'... Hê.'
++		'...Khúc khích.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Cái gì? Có'
+-		R
+-		'gì buồn cười vậy?'
++		'Gì thế? Có gì buồn cười?'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06b0e:
+ 		ZH 1:
+-		'Không có gì.'
++		'Không, không có gì ạ.'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06a9e:
+ 		ZH 1:
+-		'Ch, tất cả là lỗi của ta!'
++		'Chậc, cái này cái kia, tất'
++		R
++		'cả là tại thằng này hết!'
+ 		\L_06bc3:
+ 		\L_06bb6:
+ 		\L_06ad6:
+ 		ZH 1:
+-		'Isoroku nhìn và mỉm cười'
+-		R
+-		'khi Rance càu nhàu với cơn'
+-		\L_06bc3:
+-		ZH 1:
+-		'thịnh nộ thực sự với'
+-		R
+-		'đứa trẻ trong bụng cô.'
++		'Isoroku cứ mỉm cười'
++		R
++		'mãi, nhìn Rance'
++		\L_06bc3:
++		ZH 1:
++		'như đang giận thật với'
++		R
++		'đứa con trong bụng.'
+ 		\L_06bc3:
+ 		@L_06a87:
+ 	}
+ 	\L_06aba:
+ 	ZH 1:
+-	'Ta gọi Isoroku'
+-	R
+-	'thì không sao, nhưng...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance không'
+-	R
+-	'biết phải làm gì.'
++	'Gọi Isoroku tới thì'
++	R
++	'được rồi, nhưng...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance đang phân vân.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06aba:
+ 	ZH 1:
+-	'Nàng, à... Ừ.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Có thai.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Đó là một lời nói'
+-	R
+-	'có tác động nghiêm trọng.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Ngài Rance, tại'
+-	R
+-	'hạ vào được không?'
++	'Vì, cái đó... thì đấy.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Phụ nữ mang thai.'
++	\L_06bc3:
++	ZH 1:
++	'Một từ nghe thật nặng nề.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Ngài Rance, thiếp'
++	R
++	'vào được chứ ạ?'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06aba:
+ 	ZH 1:
+-	'Awawah, nàng đã đến.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Đ-Ừ, vào đi.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Vâng, xin lỗi.'
++	'Ối ối, tới rồi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Đ-được, vào đi.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vâng, thiếp xin phép.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 24!
+@@ -5864,49 +5678,41 @@
+ 	\L_06bb6:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'... Ngài Rance?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'C-Cái gì?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Hôm nay ngài có'
+-	R
+-	'việc gì với tại hạ vậy?'
++	'...Ngài Rance?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'G-gì thế.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Hôm nay ngài có việc gì ạ?'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06aba:
+ 	ZH 1:
+-	'Rõ ràng chỉ có'
+-	R
+-	'một lý do duy nhất khiến'
+-	R
+-	'ta gọi ngươi đến đây.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance bắt đầu'
+-	R
+-	'nói điều đó, nhưng'
+-	R
+-	'đột nhiên dừng lại.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ồ, ngươi biết đấy.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Ta đang nghĩ'
+-	R
+-	'có thể cung cấp cho con ta'
+-	R
+-	'một ít dinh dưỡng, có lẽ...'
++	'Đã gọi tới đây thì chỉ có'
++	R
++	'một việc thôi chứ còn gì!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance nuốt ngược lời'
++	R
++	'định nói vào trong.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ờ thì, cái đó, ừm.'
++	\L_06bc3:
++	ZH 1:
++	'Ta định bơm chút dinh'
++	R
++	'dưỡng cho con ta, nhưng...'
+ 	\L_06bc3:
+ 	ZH 1:
+ 	'...'
+@@ -5919,14 +5725,14 @@
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Không sao đâu. Em'
+-	R
+-	'có thể đi, Isoroku.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Vâng. Thế thì xin lỗi nhé.'
++	'Thôi, thôi. Về được'
++	R
++	'rồi đấy, Isoroku.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vâng. Vậy thiếp xin phép.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b70:
+@@ -5941,102 +5747,104 @@
+ 	Y 4, 3:
+ 	{VAR0000 = 1:
+ 		ZH 1:
+-		'Heeey, đừng vấp ngã!'
++		'Nàyyy, đừng có ngã đấyyy!'
+ 		\L_06bc3:
+ 	}
+ 	{VAR0000 = 2:
+ 		ZH 1:
+-		'Này, đừng chạy!'
++		'Nàyyy, đừng có chạy đấyyy!'
+ 		\L_06bc3:
+ 	}
+ 	{VAR0000 = 3:
+ 		ZH 1:
+-		'Heeey, đừng làm'
+-		R
+-		'gì bạo lực nhé!'
++		'Nàyyy, không được'
++		R
++		'quậy đâu đấyyy!'
+ 		\L_06bc3:
+ 	}
+ 	ZH 1:
+-	'... Haah.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Tại sao ta phải lo lắng!?'
++	'...Phù.'
++	\L_06bc3:
++	ZH 1:
++	'Sao ta lại phải lo'
++	R
++	'mấy chuyện đó chứ hả!'
+ 	\L_06bc3:
+ 	@L_06a87:
+ *L_061a5:
+ 	\L_06b0e:
+ 	ZH 1:
+-	'Ngài Rance...'
+-	R
+-	'Tôi vào được không?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ừ, tôi không phiền đâu.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Vâng... Xin lỗi.'
++	'Ngài Rance... thiếp'
++	R
++	'vào được chứ ạ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ờ, cứ vào điii.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vâng... thiếp xin phép.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	!VAR0516 : 24!
+ 	\L_06b62:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Isoroku nhẹ nhàng'
+-	R
+-	'mở cửa và bước vào.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Qua Rance.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ừm, cái gì cơ?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Thỉnh thoảng hãy'
+-	R
+-	'đến thăm con ngài nhé.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Có lẽ...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Nên là một bài học'
+-	R
+-	'tốt cho hắn khi nhìn thấy'
+-	\L_06bc3:
+-	ZH 1:
+-	'một người đàn ông tuyệt'
+-	R
+-	'vời như ta khi còn nhỏ.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Vậy hôm nay thì sao?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Cái gì? Ta chắc rằng'
+-	R
+-	'chàng sẽ sớm muốn có anh'
+-	R
+-	'chị em. Hãy làm một cái.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Nào, cởi quần áo ra đi.'
++	'Cánh cửa khẽ mở,'
++	R
++	'Isoroku bước vào.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Ngài Rance.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Hử, gì thế.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Thỉnh thoảng xin'
++	R
++	'ngài tới nhìn mặt đứa'
++	R
++	'bé. Thiếp xin ngài.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Phải rồi...'
++	\L_06bc3:
++	ZH 1:
++	'Từ nhỏ đã được nhìn'
++	\L_06bc3:
++	ZH 1:
++	'một nhân vật vĩ đại như ta,'
++	R
++	'thì cũng là bài học tốt.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Vậy... hôm nay ạ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Có gì đâu, chắc thằng'
++	R
++	'nhóc cũng sắp muốn có'
++	R
++	'em rồi. Làm luôn thôi.'
++	\L_06bc3:
++	ZH 1:
++	'Nào, cởi ra, cởi ra.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b0e:
+@@ -6046,93 +5854,87 @@
+ 	\L_06bb6:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Không hài'
+-	R
+-	'lòng với điều gì?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Nếu hắn có'
+-	R
+-	'một người em trai,'
+-	\L_06bc3:
+-	ZH 1:
+-	'ai trong số họ'
+-	R
+-	'sẽ trở thành người'
+-	R
+-	'cai trị NHẬT BẢN?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Rõ ràng là cái tốt hơn.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Trong trường hợp'
+-	R
+-	'đó, họ sẽ phải chiến đấu.'
+-	R
+-	'Điều đó sẽ khá đáng tiếc.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Đúng là vậy, nhưng... Điều'
+-	R
+-	'đó không có nghĩa là ngươi'
+-	R
+-	'không thể có thêm con...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Nếu là con gái thì'
+-	R
+-	'đó không phải là vấn đề...'
+-	\L_06bc3:
+-	ZH 1:
+-	'Ai quan tâm chứ! Ta'
+-	R
+-	'chỉ muốn đụ ngươi, Isoroku!'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Rance vẫy tay'
+-	R
+-	'như một đứa trẻ. Isoroku mỉm'
+-	R
+-	'cười khi cô ôm chặt lấy hắn.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Tại hạ cũng muốn làm'
+-	R
+-	'tình với anh, Ngài Rance.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku đang ngước nhìn'
+-	R
+-	'Rance bằng đôi mắt ướt át.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ờ, ồ. Vậy hãy'
+-	R
+-	'để nó cho ta.'
++	'Gì thế, không bằng lòng à?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Nếu đứa bé có em trai,'
++	\L_06bc3:
++	ZH 1:
++	'thì nên cho đứa nào'
++	R
++	'làm quân chủ JAPAN ạ?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Cái đó rõ rồi. Đứa giỏi hơn.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Như vậy thì... anh em sẽ'
++	R
++	'phải tranh giành nhau.'
++	R
++	'Thế thì... bất hạnh quá.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ừ, thì đúng vậy... nhưng'
++	R
++	'có chắc là sẽ đẻ đâu.'
++	\L_06bc3:
++	ZH 1:
++	'Mà có đẻ, là con gái thì'
++	R
++	'cũng chẳng liên quan...'
++	\L_06bc3:
++	ZH 1:
++	'Hừ, sao cũng được!'
++	R
++	'Isoroku, tóm lại ta chỉ'
++	R
++	'muốn làm với em thôi!'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Rance khua tay loạn xạ'
++	R
++	'như con nít, Isoroku mỉm'
++	R
++	'cười nép sát vào hắn.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Thiếp cũng... muốn'
++	R
++	'được Ngài Rance ôm ấp.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku ngước nhìn'
++	R
++	'Rance bằng đôi mắt'
++	R
++	'long lanh ướt át.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ờ, ừ. Cứ để đó cho ta.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06aba:
+ 	ZH 1:
+-	'Isoroku đã thay đổi'
+-	R
+-	'kể từ khi cô có con.'
++	'Sao nhỉ... từ khi có con,'
++	R
++	'Isoroku thay đổi rồi.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	PF1 VAR0056:
+@@ -6143,282 +5945,274 @@
+ 	!VAR0248 : 5!
+ 	\L_06b7e:
+ 	ZH 1:
+-	'Rance 「Bây giờ, hôm nay chúng'
+-	R
+-	'ta nên làm thế nào đây...?」'
++	'Rance「Nào, hôm nay làm gì em đây nhỉ...」'
+ 	PF0 VAR0056:
+ 	\L_06bc3:
+ 	ZH 1:
+-	'Isoroku 「Dù ngài muốn thế nào đi nữa, Ngài'
+-	R
+-	'Rance.」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance（Chà, tất nhiên là ta sẽ'
+-	R
+-	'làm những gì mình muốn, nhưng...）'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance suy nghĩ một chút rồi mỉm cười tinh nghịch.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Ta hiểu rồi, hôm nay nàng'
+-	R
+-	'hãy làm gì đó với ta đi, Isoroku.」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Có điều gì đó, ngài nói...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Đây, làm gì đó đi.」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance đâm vũ khí siêu mềm,'
+-	R
+-	'lủng lẳng của mình vào Isoroku.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「... Đ-Đây là...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Ừ. Dùng ngón tay chà'
+-	R
+-	'xát, liếm, chuẩn bị sẵn thôi.」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance vung hông, khiến siêu vũ'
+-	R
+-	'khí của hắn lắc lư qua lại.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku nhẹ nhàng cầm siêu vũ khí của mình bằng'
+-	\L_06bc3:
+-	ZH 1:
+-	'một tay và bắt đầu chậm rãi chà xát bằng tay kia.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Ồ...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Kỹ thuật của nàng không có gì nhiều'
+-	R
+-	'nhưng sự vuốt ve của nàng rất nhẹ nhàng.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Những ngón tay của Isoroku nhẹ nhàng'
+-	R
+-	'vuốt ve phần nhạy cảm của đầu ngón'
+-	\L_06bc3:
+-	ZH 1:
+-	'tay giống như nàng đang xoa đầu một con chim.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Ngài Rance... Ừm, thế nào rồi?」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Mm, nó không tệ. Có lẽ em có'
+-	R
+-	'thể làm việc đó khó hơn một chút.」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku nhẹ nhàng nắm chặt cự vật đang cương'
+-	\L_06bc3:
+-	ZH 1:
+-	'cứng của mình. Sau đó cô chậm rãi xoa xoa.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Siêu vũ khí dần dần đầy máu và trục mở'
+-	\L_06bc3:
+-	ZH 1:
+-	'rộng. Cô định kỳ chọc và xoa bằng ngón tay.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Hông của Rance co giật một chút.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Được rồi,'
+-	\L_06bc3:
+-	ZH 1:
+-	'giờ liếm đi. Đồng thời,」 nếu'
+-	R
+-	'ngươi muốn. Tuy nhiên không'
+-	\L_06bc3:
+-	ZH 1:
+-	'được cắn. Ta không xử lý tốt việc đó,'
+-	\L_06bc3:
+-	ZH 1:
+-	'dù nhẹ nhàng đến đâu.'
+-	\L_06bc3:
+-	ZH 1:
+-	'」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku gật đầu và đưa đôi môi hé mở của mình'
+-	\L_06bc3:
+-	ZH 1:
+-	'lên đầu cự vật như thể nàng đang hôn nó.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Môi nàng dừng lại ngay khi sắp'
+-	R
+-	'chạm vào nó. Lưỡi cô rụt rè thò'
+-	\L_06bc3:
+-	ZH 1:
+-	'ra từ khoảng trống giữa hai hàm răng.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Đầu của nó chạm vào niệu đạo của Rance.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Ngay lập tức, có thứ gì đó không'
+-	R
+-	'phải nước bọt của cô làm ướt lưỡi cô.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Đây là gì...?」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Đừng lo lắng,」 dù sao thì'
+-	R
+-	'điều đó cũng sẽ không sinh ra đứa'
+-	\L_06bc3:
+-	ZH 1:
+-	'trẻ nào cả. Hãy nếm thử'
+-	R
+-	'tất cả những gì ngươi muốn,'
+-	\L_06bc3:
+-	ZH 1:
+-	'Gahahahaha!.」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku liếm lỗ nhiều lần theo'
+-	R
+-	'cùng một cách. Mỗi lần cô làm vậy,'
+-	\L_06bc3:
+-	ZH 1:
+-	'một chút chất lỏng trong suốt lại rỉ ra.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance（Hmm... Có lẽ là đủ'
+-	R
+-	'rồi... Ta muốn đặt nó vào.）'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Được rồi Isoroku, hoàn hảo!'
+-	R
+-	'Ta sẽ đặt nó vào ngay bây giờ,'
+-	\L_06bc3:
+-	ZH 1:
+-	'cho ta xem mông của nàng!'
+-	\L_06bc3:
+-	ZH 1:
+-	'」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Ngài Rance, à, đừng...」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance đặt phần thân trên của Isoroku lên'
+-	\L_06bc3:
+-	ZH 1:
+-	'giường và kéo mông nàng ra trước mặt anh.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance（Hmm... ướt một chút...）'
+-	\L_06bc3:
+-	ZH 1:
+-	'Nàng chỉ hơi ẩm một chút,'
+-	\L_06bc3:
+-	ZH 1:
+-	'nhưng ánh sáng hạn chế của phòng'
+-	R
+-	'ngủ vẫn đủ để khiến nó tỏa sáng.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Thật kỳ lạ khi nghĩ rằng'
+-	R
+-	'có một người lại đi ra khỏi đây.」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance ồn ào khuấy động đầu ngón'
+-	R
+-	'tay của mình xung quanh âm hộ'
+-	\L_06bc3:
+-	ZH 1:
+-	'của cô trong khi mở nó ra để nhìn vào bên trong.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Xin đừng nhìn chằm'
+-	R
+-	'chằm như vậy... Thật xấu hổ.」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance(Sẽ tệ nếu ta kéo dài nó'
+-	R
+-	'ra hay gì đó...) Rance đặt đầu'
+-	\L_06bc3:
+-	ZH 1:
+-	'siêu vũ khí của mình vào khe hở'
+-	R
+-	'của cô và đẩy hông về phía trước.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Hyah?!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku kêu lên một tiếng kỳ lạ và quay đầu lại.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Oooh, đẹp và chặt chẽ.'
+-	R
+-	'Tốt, Isoroku, siết chặt hơn nữa.」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Ngài Rance, đột ngột quá... Aaaah!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku không còn kiềm chế được'
+-	R
+-	'tiếng rên rỉ của mình nữa. Tóc cô'
+-	\L_06bc3:
+-	ZH 1:
+-	'bay loạn xạ và khoái cảm khiến cô bối rối.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Phản ứng ngoan ngoãn của cô'
+-	R
+-	'cũng khiến Rance bị kích động,'
+-	\L_06bc3:
+-	ZH 1:
+-	'khiến anh trở nên hung bạo hơn trước.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Nếm mùi này! Nếm mùi này! Nếm mùi này!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Lực đẩy mãnh liệt của Rance'
+-	R
+-	'khiến chiếc giường kêu cót két,'
+-	\L_06bc3:
+-	ZH 1:
+-	'nhưng âm thanh bị át đi bởi'
+-	R
+-	'tiếng rên rỉ của Isoroku.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Làm ơn, làm ơn hãy... Ngài Rance!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Được rồi, cú bứt phá cuối cùng!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「Hii, hgh, uaaaaaah! À, à à!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Rance 「Xuất tinh!」'
+-	\L_06bc3:
+-	ZH 1:
+-	'Isoroku 「À, aah, ahah... Ah... Ah!」'
++	'Isoroku「Tùy ý Ngài Rance ạ」'
++	\L_06bc3:
++	ZH 1:
++	'Rance（Chà, tất nhiên là ta'
++	R
++	'sẽ làm theo ý mình rồi...）'
++	\L_06bc3:
++	ZH 1:
++	'Rance suy nghĩ một chút rồi cười đầy ác ý.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Phải rồi, hôm nay'
++	R
++	'Isoroku làm gì đó cho ta đi」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Làm gì đó... ý ngài là...」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Này, làm gì đó đi」'
++	\L_06bc3:
++	ZH 1:
++	'Rance chìa thẳng siêu vũ khí, chưa xìu hẳn'
++	R
++	'nhưng vẫn lủng lẳng, ra trước mặt Isoroku.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「......C-cái này...」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Ừ. Lấy ngón tay mà cọ, lấy lưỡi mà'
++	R
++	'liếm, cho nó cứng ngắc sẵn sàng xung trận đi」'
++	\L_06bc3:
++	ZH 1:
++	'Rance lắc lắc hông. Chậm hơn một'
++	R
++	'nhịp, siêu vũ khí cũng đung đưa theo.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku một tay nhẹ nhàng nâng'
++	R
++	'siêu vũ khí lên như đỡ lấy,'
++	\L_06bc3:
++	ZH 1:
++	'tay kia bắt đầu chậm rãi vuốt ve.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Ồ...」'
++	\L_06bc3:
++	ZH 1:
++	'Chẳng có chút kỹ thuật nào, nhưng'
++	R
++	'cách vuốt ve lại hết sức chu đáo.'
++	\L_06bc3:
++	ZH 1:
++	'Những ngón tay của Isoroku như'
++	R
++	'đang vuốt đầu chú chim non,'
++	\L_06bc3:
++	ZH 1:
++	'lướt khẽ kích thích phần đầu nhạy cảm.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Ngài Rance... ừm, thế nào ạ」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Ừm, cũng không tệ. Mạnh'
++	R
++	'tay hơn chút cũng được đấy」'
++	\L_06bc3:
++	ZH 1:
++	'Thứ đã cứng lên rõ rệt hơn lúc nãy,'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku nắm lấy thật mềm'
++	R
++	'mại. Rồi chậm rãi xoa bóp.'
++	\L_06bc3:
++	ZH 1:
++	'Phần cổ dần căng máu và lộ'
++	R
++	'ra, những ngón tay còn rảnh'
++	\L_06bc3:
++	ZH 1:
++	'khi thì chọc nhẹ, khi thì miết lên đó.'
++	\L_06bc3:
++	ZH 1:
++	'Hông Rance khẽ run lên.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Được lắm,'
++	\L_06bc3:
++	ZH 1:
++	'tiếp theo liếm đi. Ngậm vào cũng được. Nhưng'
++	\L_06bc3:
++	ZH 1:
++	'đừng có cắn. Dù là ta,'
++	\L_06bc3:
++	ZH 1:
++	'chỗ đó cũng yếu lắm'
++	\L_06bc3:
++	ZH 1:
++	'đấy」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku gật đầu, đưa đôi môi hé mở lại gần'
++	\L_06bc3:
++	ZH 1:
++	'đầu khấc như sắp hôn.'
++	\L_06bc3:
++	ZH 1:
++	'Rồi dừng lại ở chỗ môi sắp'
++	R
++	'chạm mà chưa chạm, rụt rè'
++	\L_06bc3:
++	ZH 1:
++	'thò lưỡi ra từ kẽ răng.'
++	\L_06bc3:
++	ZH 1:
++	'Đầu lưỡi chạm vào khe nhỏ trên đầu Rance.'
++	\L_06bc3:
++	ZH 1:
++	'Lập tức, đầu lưỡi ướt bởi thứ gì'
++	R
++	'đó không phải nước bọt của nàng.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Đây là...」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Yên tâm, cái đó chưa phải'
++	\L_06bc3:
++	ZH 1:
++	'mầm con đâu. Cứ thưởng thức cho đã,'
++	\L_06bc3:
++	ZH 1:
++	'gahahaha」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku cứ thế dùng đầu lưỡi'
++	R
++	'liếm khe nhỏ ấy nhiều lần.'
++	\L_06bc3:
++	ZH 1:
++	'Mỗi lần như thế, chất lỏng'
++	R
++	'trong suốt lại rỉ ra từng chút.'
++	\L_06bc3:
++	ZH 1:
++	'Rance（Ưm... chắc đủ rồi...'
++	R
++	'muốn vào, muốn vào quá）'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Được rồi Isoroku, tuyệt lắm! Giờ ta sẽ'
++	\L_06bc3:
++	ZH 1:
++	'nhét vào đây,'
++	\L_06bc3:
++	ZH 1:
++	'chìa mông ra nàooo!」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Ngài Rance, a, sao lại...」'
++	\L_06bc3:
++	ZH 1:
++	'Rance đẩy nửa thân trên của'
++	R
++	'Isoroku nằm lăn ra giường,'
++	\L_06bc3:
++	ZH 1:
++	'rồi kéo mạnh mông nàng về phía mình.'
++	\L_06bc3:
++	ZH 1:
++	'Rance（Hừm... ướt chút rồi đây...）'
++	\L_06bc3:
++	ZH 1:
++	'Chỉ ẩm ướt chút ít thôi,'
++	\L_06bc3:
++	ZH 1:
++	'nhưng dưới ánh đèn dịu của phòng'
++	R
++	'ngủ, chỗ ấy vẫn lấp lánh bóng mượt.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Mà nghĩ cũng khó tin là có'
++	R
++	'một con người chui ra từ chỗ này」'
++	\L_06bc3:
++	ZH 1:
++	'Rance dùng đầu ngón tay banh khe hở của Isoroku,'
++	\L_06bc3:
++	ZH 1:
++	'tiếng nhóp nhép vang lên, rồi ghé nhìn vào.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Đừng, xin đừng nhìn'
++	R
++	'chằm chằm... thiếp xấu hổ lắm」'
++	\L_06bc3:
++	ZH 1:
++	'Rance（Mà nó bị giãn ra lỏng lẻo'
++	R
++	'thì chán lắm...） Rance kề đầu'
++	\L_06bc3:
++	ZH 1:
++	'siêu vũ khí vào khe hở, rồi thúc hông một phát.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Hí a?!」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku kêu lên thất thanh, ưỡn người ra sau.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Ồồồ. Ai bảo chứ, khít lắm. Được'
++	R
++	'lắm Isoroku, siết chặt hơn nữa đi」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Sao lại, Ngài Rance,'
++	R
++	'đột ngột quá... aaaa!」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku không còn nén tiếng rên nữa. Mái tóc'
++	\L_06bc3:
++	ZH 1:
++	'xõa tung, nàng buông mình theo khoái cảm.'
++	\L_06bc3:
++	ZH 1:
++	'Có lẽ phản ứng thành thật'
++	R
++	'ấy cũng kích thích Rance,'
++	\L_06bc3:
++	ZH 1:
++	'anh làm còn dữ dội hơn mọi khi.'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Hây! Hây! Hâyyy!」'
++	\L_06bc3:
++	ZH 1:
++	'Giường kêu cót két dưới'
++	R
++	'chuyển động dữ dội của Rance,'
++	\L_06bc3:
++	ZH 1:
++	'nhưng cũng bị tiếng Isoroku át đi.'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Tới đi, xin ngài tới đi... Ngài Rance!」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Được, nước rút cuối cùng!」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「Hí, hức, uaaaa! A, aa!」'
++	\L_06bc3:
++	ZH 1:
++	'Rance「Ra đây, này!」'
++	\L_06bc3:
++	ZH 1:
++	'Isoroku「A, aa, a ha... a... a!」'
+ 	\L_06bc3:
+ 	PF1 VAR0056:
+ 	\L_06bb6:
+@@ -6434,91 +6228,85 @@
+ 	\L_06b62:
+ 	\L_06a9e:
+ 	ZH 1:
+-	'Haah, chuyện đó'
+-	R
+-	'khá căng thẳng.'
+-	\L_06bc3:
+-	ZH 1:
+-	'Thực sự khác với'
+-	R
+-	'việc làm em bé của'
+-	R
+-	'chúng ta trước đây.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Trời ạ... Xin đừng'
+-	R
+-	'nói thế, Ngài Rance.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku cúi đầu và rũ vai.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Nhân tiện... Em có'
+-	R
+-	'muốn có thêm con không?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Tại sao chàng hỏi?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Em vẫn đang giữ sự quyến'
+-	R
+-	'rũ đó phải không? Ta đoán'
+-	R
+-	'là người cấp cho trẻ em.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Không... Đây'
+-	R
+-	'là một cái khác.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06ad6:
+-	ZH 1:
+-	'Isoroku mỉm cười.'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Ừm? Vậy nó là gì?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'Đó là...'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06a9e:
+-	ZH 1:
+-	'Đó là cái gì?'
+-	\L_06bc3:
+-	\L_06bb6:
+-	\L_06b0e:
+-	ZH 1:
+-	'... Thiếp'
+-	R
+-	'không thể nói được.'
++	'Phù, dữ dội ghê.'
++	\L_06bc3:
++	ZH 1:
++	'Khác hẳn mấy lần'
++	R
++	'làm con trước đây.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Thật là... Ngài Rance,'
++	R
++	'xin đừng nói nữa.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku cúi mặt, ngượng'
++	R
++	'ngùng rụt vai lại.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Mà này... em vẫn'
++	R
++	'muốn có con à?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Sao ngài hỏi vậy?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Kìa, em vẫn nắm bùa hộ'
++	R
++	'mệnh đó thôi. Cái đó'
++	R
++	'là bùa cầu con chứ gì.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Không... cái đó khác ạ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06ad6:
++	ZH 1:
++	'Isoroku mỉm cười rạng rỡ.'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Hửm? Vậy là bùa gì?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'Cái đó...'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06a9e:
++	ZH 1:
++	'Ừ, là gì?'
++	\L_06bc3:
++	\L_06bb6:
++	\L_06b0e:
++	ZH 1:
++	'...Thiếp không nói được.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06b70:
+ 	\L_06ad6:
+ 	ZH 1:
+-	'Isoroku cúi đầu và'
+-	R
+-	'vội vã rời khỏi phòng.'
++	'Isoroku cúi chào một cái rồi'
++	R
++	'vội vàng rời khỏi phòng ngủ.'
+ 	\L_06bc3:
+ 	\L_06bb6:
+ 	\L_06a9e:
+@@ -6526,7 +6314,7 @@
+ 	'Này, Isoroku...'
+ 	\L_06bc3:
+ 	ZH 1:
+-	'Ch, nàng đi rồi.'
++	'Chậc, đi mất rồi.'
+ 	\L_06bc3:
+ 	@L_06a87:
+ *L_06a87:

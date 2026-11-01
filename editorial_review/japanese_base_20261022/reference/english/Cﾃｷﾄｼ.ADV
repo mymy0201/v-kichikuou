@@ -1,0 +1,4497 @@
+	!VAR0231 : 0!
+*L_00025:
+	!VAR0691 : VAR0158!
+	MM 8, VAR0200 + VAR0158 - 1:
+	!VAR0516 : VAR0135!
+	\L_0539b:
+	{VAR0485 = 1:
+		!VAR0520 : 31!
+		%#Gｶﾌｪ.ADV:
+		%0:
+	}
+	{VAR0485 = 2:
+		!VAR0520 : 5!
+		%#Gﾏﾘｱ.ADV:
+		%0:
+	}
+*L_00078:
+	\L_052d7:
+	ZH 1:
+	'［'
+	X 8:
+	'］'
+	R
+	'　　　　　'
+	\L_05185:
+	{VAR0231 \ 1:
+		ZH 1:
+		'Economy: ??　Defense: ??'
+		R
+		'Battle Area: ??'
+	}
+	{VAR0231 = 1:
+		ZH 1:
+		'Economy: '
+		H 0, VAR0132:
+		ZH 1:
+		'　Defense: '
+		H 0, VAR0133:
+		ZH 1:
+		R
+		'Battle Area: '
+		H 0, VAR0134:
+	}
+*L_0010d:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_0010d:
+	}
+	\L_05289:
+	{(VAR0566 > 3) * (VAR0566 < 20) * (VAR0158 = 77) * (VAR0544 \ 0):
+		ZH 1:
+		$L_0021f$
+		'○Go to AL Church'
+		$
+	}
+	{(VAR0566 > 3) * (VAR0566 < 20) * (VAR0158 = 77) * (VAR0544 = 0):
+		ZH 1:
+		$L_0010d$
+		'×Go to AL Church'
+		$
+	}
+	{VAR0518 \ 0:
+		ZH 1:
+		$L_00230$
+		'Attack'
+		$
+	}
+	{VAR0518 = 0:
+		ZH 1:
+		$L_00230$
+		'Pillage'
+		$
+	}
+	{VAR0518 \ 0:
+		ZH 1:
+		$L_009fe$
+		'Ninja Maneuver'
+		$
+	}
+	ZH 1:
+	$L_00205$
+	'Return'
+	$
+	]
+	\L_05294:
+	@L_00205:
+*L_00205:
+	!VAR0691 : 0!
+	\L_053b7:
+	\L_053a9:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_0021f:
+	!VAR0544 : 0!
+	!VAR0520 : 7!
+	%#GAL.ADV:
+	%0:
+*L_00230:
+	\L_053b7:
+	{VAR0518 = 0:
+		!VAR0520 : 1!
+		%#Iﾄｳｿﾞｸ.ADV:
+		{VAR0518 \ 0:
+			%#ｵｰﾌﾟﾆﾝｸﾞ.ADV:
+		}
+		%0:
+	}
+	{VAR0518 = 4:
+		@L_04b8a:
+	}
+	{VAR0546 = 0:
+		@L_04aaa:
+	}
+	{VAR0158 = 82:
+		\L_0499c:
+	}
+	{(VAR0518 = 1) * (VAR0130 \ 2):
+		@L_0481f:
+	}
+	{VAR0130 = 3:
+		@L_00a07:
+	}
+	{(VAR0130 = 5) * (VAR0444 < 10) * (VAR0059 = 1):
+		!VAR0520 : 3!
+		%#Gﾊﾟｯﾄﾝ.ADV:
+		{VAR0444 = 20:
+			%0:
+		}
+	}
+	{(VAR0130 = 5) * (VAR0444 = 10) * (VAR0059 = 1):
+		!VAR0520 : 4!
+		%#Gﾊﾟｯﾄﾝ.ADV:
+	}
+	!VAR0516 : 1!
+	\L_052f3:
+	\L_0529f:
+	ZH 1:
+	'Let’s begin the battle, then.'
+	R
+	'Make preparations, Maris.'
+	\L_053c4:
+	\L_053b7:
+	{(VAR0130 = 2) * (VAR0644 = 1):
+		@L_04786:
+	}
+	{((VAR0158 = 78) + (VAR0158 = 89) + (VAR0158 = 90) + (VAR0158 = 91)) * (VAR0518 = 2):
+		{(VAR0060 \ 2) + (VAR0059 \ 2) + (VAR0334 < 10):
+			!VAR0520 : 5!
+			%#Iｼﾚｲﾌﾞ.ADV:
+			\L_05301:
+			\L_05371:
+			@L_00078:
+		}
+		!VAR0520 : 6!
+		%#Iｼﾚｲﾌﾞ.ADV:
+	}
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'Yes, King Rance.'
+	\L_053c4:
+	ZH 1:
+	'Please select the units you'
+	R
+	'would like to go to the'
+	R
+	'battlefield.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0021 : 4!
+	!VAR0022 : 1!
+	{VAR0158 = 32:
+		!VAR0158 : 33!
+		{VAR0130 \ 1:
+			!VAR0158 : 34!
+			{VAR0130 \ 1:
+				!VAR0158 : 31!
+				{VAR0130 \ 1:
+					!VAR0021 : 1!
+				}
+			}
+		}
+		!VAR0158 : 32!
+	}
+	{VAR0158 = 31:
+		!VAR0158 : 36!
+		{VAR0130 \ 1:
+			!VAR0158 : 32!
+			{VAR0130 \ 1:
+				!VAR0158 : 30!
+				{VAR0130 \ 1:
+					!VAR0021 : 1!
+				}
+			}
+		}
+		!VAR0158 : 31!
+	}
+	!VAR0179 : 0!
+	NB VAR0180, VAR0021, 20:
+	{VAR0021 = 1:
+		\L_0530f:
+		ZH 1:
+		'Also, King Rance. Due to the'
+		R
+		'narrowness of the path through'
+		R
+		'the mountain range, only one'
+		R
+		'unit can attack.'
+		\L_053c4:
+		\L_053b7:
+	}
+	\L_05371:
+	!VAR0179 : 0!
+	NB VAR0021, VAR0180, 20:
+	%#Sﾌﾞﾀｲ.ADV:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : VAR0135!
+	\L_0539b:
+	{VAR0569 = 0:
+		@L_00078:
+	}
+	{((VAR0569 = 44) + (VAR0570 = 44) + (VAR0571 = 44) + (VAR0572 = 44)) * (VAR0130 = 11):
+		!VAR0516 : 463!
+		\L_052f3:
+		\L_0529f:
+		ZH 1:
+		'We can’t make that attack.'
+		\L_053c4:
+		\L_053b7:
+		\L_05301:
+		\L_05118:
+		@L_00078:
+	}
+	{(VAR0569 = 37) + (VAR0570 = 37) + (VAR0571 = 37) + (VAR0572 = 37):
+		{(VAR0130 = 7) * (VAR0650 < 8):
+			!VAR0516 : 42!
+			\L_052f3:
+			\L_0529f:
+			ZH 1:
+			'Uh... Owowow...'
+			R
+			'I think I might have diarrhea.'
+			R
+			'Sorry, King Rance, but please'
+			R
+			'excuse me from fighting.'
+			\L_053c4:
+			\L_053b7:
+			\L_052d7:
+			ZH 1:
+			'Gandhi refused to fight.'
+			\L_053c4:
+			\L_053b7:
+			\L_05301:
+			\L_05118:
+			@L_00078:
+		}
+	}
+	{(VAR0158 = 56) * (VAR0325 = 1):
+		@L_00745:
+	}
+	{(VAR0569 = 29) + (VAR0570 = 29) + (VAR0571 = 29) + (VAR0572 = 29):
+		{(VAR0130 \ 8) * (VAR0130 \ 10):
+			!VAR0516 : 75!
+			\L_052f3:
+			\L_0529f:
+			ZH 1:
+			'I won’t get involved in'
+			R
+			'squabbles between you lowly'
+			R
+			'humans.'
+			\L_053c4:
+			\L_053b7:
+			\L_052d7:
+			ZH 1:
+			'Satella refused to fight.'
+			\L_053c4:
+			\L_053b7:
+			\L_05301:
+			\L_05118:
+			@L_00078:
+		}
+	}
+	{(VAR0569 = 30) + (VAR0570 = 30) + (VAR0571 = 30) + (VAR0572 = 30):
+		{(VAR0130 \ 8) * (VAR0130 \ 10):
+			!VAR0516 : 447!
+			\L_052f3:
+			\L_0529f:
+			ZH 1:
+			'This is not our fight.'
+			\L_053c4:
+			\L_053b7:
+			\L_052d7:
+			ZH 1:
+			'Meglass refused to fight.'
+			\L_053c4:
+			\L_053b7:
+			\L_05301:
+			\L_05118:
+			@L_00078:
+		}
+	}
+*L_00745:
+	\L_052d7:
+	ZH 1:
+	'Our army advanced to'
+	R
+	X 8:
+	'.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0584 : 0!
+	{VAR0130 = 2:
+		%#TCﾘｰｻﾞｽ2.ADV:
+	}
+	{(VAR0130 = 6) * (VAR0325 = 10):
+		!VAR0529 : 1!
+		ZH 1:
+		MS 10, "Fleeing Soldier":
+		!VAR0530 : 73!
+		!VAR0531 : 0!
+		!VAR0532 : 0!
+		!VAR0533 : 0!
+		!VAR0156 : 73!
+		!VAR0128 : 1!
+		!VAR0116 : VAR0117!
+		!VAR0106 : VAR0107!
+		ZH 1:
+		MS 4, "Fleeing Soldier":
+		R
+		MS 5, "Foot Soldiers":
+		MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+		MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+		@L_009e6:
+	}
+	{VAR0130 = 6:
+		%#TJAPAN2.ADV:
+	}
+	{VAR0130 = 7:
+		%#Tｾﾞｽ2.ADV:
+	}
+	{VAR0130 = 4:
+		%#Tﾍﾙﾏﾝ2.ADV:
+	}
+	{VAR0130 = 11:
+		!VAR0520 : 9!
+		%#GAL.ADV:
+	}
+	{VAR0130 = 8:
+		%#Tｹｲﾌﾞﾘｽ2.ADV:
+		{VAR0473 = 1:
+			!VAR0473 : 0!
+			%0:
+		}
+	}
+	{VAR0130 = 5:
+		!VAR0529 : 1!
+		!VAR0001 : 54!
+		!VAR0002 : 55!
+		!VAR0003 : 56!
+		!VAR0004 : 57!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+		{VAR0646 > 9:
+			!VAR0005 : 32!
+		}
+		\L_04f2a:
+	}
+	{(VAR0569 = 0) * (VAR0473 = 1):
+		!VAR0473 : 0!
+		%0:
+	}
+	{(VAR0569 = 0) * (VAR0063 = 1):
+		@L_04c8d:
+	}
+	{(VAR0569 = 0) * (VAR0063 = 0):
+		!VAR0063 : 1!
+		@L_04d24:
+	}
+	{VAR0651 = 2:
+		!VAR0520 : 2!
+		!VAR0651 : 3!
+		!VAR0546 : 0!
+		%#Gﾊﾟﾊﾟｲｱ.ADV:
+		%0:
+	}
+	{VAR0530 = 0:
+		!VAR0546 : 0!
+		\L_052d7:
+		ZH 1:
+		'Our army occupied'
+		R
+		X 8:
+		' with no'
+		R
+		'difficulties.'
+		\L_053c4:
+		\L_053b7:
+		!VAR0130 : 1!
+		!VAR0021 : VAR0130 + 819!
+		!VAR0045 : VAR0142!
+		!VAR0046 : VAR0143!
+		!VAR0516 : 4!
+		%#M.ADV:
+		!VAR0516 : 3!
+		%#M.ADV:
+		!VAR0516 : 0!
+		%#M.ADV:
+		%0:
+	}
+*L_009e6:
+	!VAR0581 : 1!
+	%#FIGT_A.ADV:
+	!VAR0581 : 0!
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_009fe:
+	%#Cﾆﾝｼﾞｬ.ADV:
+	@L_00025:
+*L_00a07:
+	{(VAR0158 = 28) * (VAR0468 = 1):
+		\L_02e1e:
+		@L_00025:
+	}
+	{(VAR0158 = 29) * (VAR0328 = 0):
+		!VAR0520 : 1!
+		%#Iｼｬﾝｸﾞﾘﾗ.ADV:
+		@L_00078:
+	}
+	{VAR0158 = 29:
+		!VAR0520 : 2!
+		%#Iｼｬﾝｸﾞﾘﾗ.ADV:
+		@L_00205:
+	}
+	!VAR0516 : 1!
+	\L_052f3:
+	\L_0529f:
+	ZH 1:
+	'Time to conquer the impudent'
+	R
+	'independent city-state of'
+	R
+	X 8:
+	'.'
+	\L_053c4:
+	\L_053b7:
+	{VAR0158 = 21:
+		!VAR0520 : 3!
+		%#Iｼﾚｲﾌﾞ.ADV:
+		%0:
+	}
+	{VAR0158 = 27:
+		!VAR0021 : 4!
+		!VAR0022 : 1!
+		%#Sﾌﾞﾀｲ.ADV:
+		{VAR0569 = 0:
+			@L_00078:
+		}
+		!VAR0520 : 1!
+		%#Gｻｰﾅｷｱ.ADV:
+		%0:
+	}
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'How would you like to conquer'
+	R
+	'them, King Rance?'
+	\L_053c4:
+	\L_053b7:
+	\L_052bb:
+	ZH 1:
+	'Let me think...'
+	\L_053c4:
+	\L_053b7:
+*L_00b35:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_00b35:
+	}
+	{(VAR0158 \ 77) * (VAR0158 \ 29):
+		ZH 1:
+		$L_00bfb$
+		'Negotiate'
+		$
+	}
+	ZH 1:
+	$L_043b1$
+	'Use Force'
+	$
+	R
+	$L_00b9a$
+	'Stop'
+	$
+	]
+	@L_00b35:
+*L_00b9a:
+	\L_0529f:
+	ZH 1:
+	'Nevermind.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Oh, are you sure?'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Whatever.'
+	R
+	'No point in doing it now.'
+	\L_053c4:
+	\L_053b7:
+	\L_05301:
+	\L_05371:
+	@L_0010d:
+*L_00bfb:
+	{(VAR0158 = 17) * (VAR0475 = 100):
+		\L_0530f:
+		ZH 1:
+		'King Rance, you killed the'
+		R
+		'president of the DX'
+		R
+		'Association, so negotiations'
+		R
+		'are no longer possible.'
+		\L_053c4:
+		\L_053b7:
+		\L_0529f:
+		ZH 1:
+		'Oh yeah.'
+		R
+		'Then we can only attack them,'
+		R
+		'huh?'
+		\L_053c4:
+		\L_053b7:
+		@L_00b35:
+	}
+	\L_0529f:
+	ZH 1:
+	'Well, as a gentleman, I don’t'
+	R
+	'care to use military force.'
+	\L_053c4:
+	ZH 1:
+	'Let’s talk things out with'
+	R
+	'them. I’ll get them to work'
+	R
+	'under me.'
+	\L_053c4:
+	\L_053b7:
+	\L_05301:
+	\L_05371:
+	\L_053a9:
+	\L_052d7:
+	ZH 1:
+	R
+	'.........'
+	\L_053c4:
+	ZH 1:
+	R
+	'......'
+	\L_053c4:
+	ZH 1:
+	R
+	'...'
+	\L_053c4:
+	ZH 1:
+	'The Leazas Army surrounded'
+	R
+	X 8:
+	'.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 1045!
+	\L_0539b:
+	!VAR0516 : 1!
+	\L_052f3:
+	\L_052d7:
+	ZH 1:
+	'They set up camp and ordered'
+	R
+	'the mayor of '
+	X 8:
+	' to'
+	R
+	'come out.'
+	\L_053c4:
+	\L_053b7:
+	{VAR0158 = 17:
+		@L_013dd:
+	}
+	{VAR0158 = 18:
+		@L_01c32:
+	}
+	{VAR0158 = 19:
+		@L_01331:
+	}
+	{VAR0158 = 20:
+		@L_01e20:
+	}
+	{VAR0158 = 22:
+		@L_00e20:
+	}
+	{VAR0158 = 23:
+		@L_02624:
+	}
+	{VAR0158 = 24:
+		@L_032cd:
+	}
+	{VAR0158 = 25:
+		@L_034dd:
+	}
+	{VAR0158 = 26:
+		@L_03d9e:
+	}
+	{VAR0158 = 28:
+		@L_02a0e:
+	}
+*L_00e20:
+	\L_0530f:
+	ZH 1:
+	'Excuse me, King of Leazas.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 414!
+	\L_05363:
+	\L_0529f:
+	ZH 1:
+	'...Who’s this gaudy-looking'
+	R
+	'guy?'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'Sh... King Rance.'
+	R
+	'This is Mars the Great, mayor'
+	R
+	'of the city of Mars.'
+	\L_053c4:
+	\L_053b7:
+	\L_05347:
+	ZH 1:
+	'Maris whispered into his ear.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	!VAR0516 : 414!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'Aah, don’t worry about it,'
+	R
+	'cute staff officer. I’m used'
+	R
+	'to being looked at with some'
+	R
+	'awe.'
+	\L_053c4:
+	ZH 1:
+	'Besides, I feel better around'
+	R
+	'people that are blunt than'
+	R
+	'those that try to hide things.'
+	\L_053c4:
+	\L_053b7:
+	\L_05347:
+	ZH 1:
+	'Mars the Great smiled at Maris.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'By the way, King of Leazas.'
+	R
+	'May I ask what you’re here'
+	R
+	'for?'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Yeah, sure. I’ll make it short.'
+	\L_053c4:
+	ZH 1:
+	'Surrender to Leazas.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'And if I refuse...?'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'You’ll only see blood.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Hmmmmmmmmmmmmmm.'
+	R
+	'I love how straight you are,'
+	R
+	'you’re a fun person.'
+	\L_053c4:
+	ZH 1:
+	'Speaking of which, your speech'
+	R
+	'after the day of your'
+	R
+	'wedding... I was quite'
+	R
+	'enamored as I listened to it.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Of course.'
+	R
+	'So, how about it?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Let me think...'
+	\L_053c4:
+	\L_053b7:
+	\L_05347:
+	ZH 1:
+	'Mars the Great had a very'
+	R
+	'prudent expression on his face,'
+	R
+	'and...'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'I have...'
+	\L_053c4:
+	ZH 1:
+	'One proposal.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'What?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'I want to be treated like a'
+	R
+	'Leazas general.'
+	\L_053c4:
+	ZH 1:
+	'Aah, I’m not saying to make me'
+	R
+	'an actual general of your'
+	R
+	'country, however.'
+	\L_053c4:
+	ZH 1:
+	'I will stay in Mars. When I do'
+	R
+	'come to your country, though,'
+	R
+	'I wish to receive the same pay'
+	R
+	'and treatment as one.'
+	\L_053c4:
+	ZH 1:
+	'If you accept that demand,'
+	R
+	'I’ll surrender Mars to you.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Hm...'
+	\L_053c4:
+	\L_053b7:
+*L_01124:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_01124:
+	}
+	ZH 1:
+	$L_01164$
+	'Reject'
+	$
+	R
+	$L_0120c$
+	'Make a General'
+	$
+	]
+	@L_01124:
+*L_01164:
+	\L_0529f:
+	ZH 1:
+	'No!'
+	R
+	'Why would I do that for you?!'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'...Aah...'
+	\L_053c4:
+	ZH 1:
+	'I see...'
+	\L_053c4:
+	ZH 1:
+	'That is unfortunate.'
+	R
+	'Excuse me, then.'
+	\L_053c4:
+	\L_053b7:
+	\L_05347:
+	ZH 1:
+	'Mars the Great exaggeratedly'
+	R
+	'bowed to Rance and skipped out'
+	R
+	'almost like he was gliding.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	\L_0529f:
+	ZH 1:
+	'What’s with that guy...?'
+	\L_053c4:
+	\L_053b7:
+	@L_00078:
+*L_0120c:
+	\L_0529f:
+	ZH 1:
+	'...Alright, sure.'
+	R
+	'I’ll take special'
+	R
+	'consideration and grant your'
+	R
+	'request.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Ooh, really?!'
+	R
+	'I’m glad I asked.'
+	\L_053c4:
+	ZH 1:
+	'That was a quick decision.'
+	R
+	'You’re now the King of Mars,'
+	R
+	'King of Leazas.'
+	\L_053c4:
+	ZH 1:
+	'I’ll work hard to be useful to'
+	R
+	'you.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Mhm.'
+	\L_053c4:
+	\L_053b7:
+	\L_0532b:
+	ZH 1:
+	'Heheheh...'
+	\L_053c4:
+	\L_053b7:
+	!VAR0154 : 26!
+	!VAR0102 : 1!
+	!VAR0474 : 2!
+	!VAR0130 : 1!
+	!VAR0546 : 0!
+	!VAR0156 : 71!
+	\L_05109:
+	\L_052d7:
+	ZH 1:
+	'Thus, Mars merged with Leazas.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	!VAR0516 : 10!
+	%#M.ADV:
+	%0:
+*L_01331:
+	\L_052d7:
+	ZH 1:
+	'Then three hours passed.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Why are they so late?'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'They are quite late...'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'Then 5 hours passed.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Damn it, I’ll destroy this'
+	R
+	'city. This is inexcusable.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'............'
+	\L_053c4:
+	\L_053b7:
+	@L_00b35:
+*L_013dd:
+	\L_052d7:
+	ZH 1:
+	'Then, after some time, a man'
+	R
+	'appeared from Rockearth.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 443!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'Nice to meet you.'
+	R
+	'I’m the representative of'
+	R
+	'Rockearth. My name is Gracq.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Representative?'
+	R
+	'I asked to see the mayor.'
+	R
+	'Why are you here?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Well...'
+	\L_053c4:
+	ZH 1:
+	'The fact of the matter is, I’m'
+	R
+	'essentially the mayor...'
+	\L_053c4:
+	ZH 1:
+	'I considered that you might be'
+	R
+	'displeased, King, but I’m here'
+	R
+	'because I was told you want to'
+	R
+	'see the mayor no matter what.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Hmph...'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'King... He’s also the'
+	R
+	'representative of the DX'
+	R
+	'Association.'
+	\L_053c4:
+	\L_053b7:
+	\L_05347:
+	ZH 1:
+	'Maris whispered.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'What?'
+	R
+	'What’s the DX Association?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'The Mafia, so to speak.'
+	R
+	'Involved in drugs,'
+	R
+	'prostitution, murder,'
+	R
+	'extortion...'
+	\L_053c4:
+	ZH 1:
+	'An organization involved in'
+	R
+	'breaking all possible laws to'
+	R
+	'strengthen and expand.'
+	R
+	'They can’t possibly be admired.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Are they better or worse than'
+	R
+	'thieves?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'...I’m not terribly fond of'
+	R
+	'either.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	!VAR0516 : 443!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'King Rance.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'What?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'You want this city, correct?'
+	\L_053c4:
+	\L_053b7:
+	\L_052bb:
+	ZH 1:
+	'It’s nice that bad guys get to'
+	R
+	'the point fast.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'That’s right.'
+	R
+	'Aren’t you just a good guy?'
+	R
+	'You sure do know your place.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'It naturally came to me as'
+	R
+	'soon as I received your'
+	R
+	'summons.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'So, what will you do?'
+	R
+	'Will you surrender obediently?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Well...'
+	\L_053c4:
+	ZH 1:
+	'King.'
+	R
+	'Might we make a deal?'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'A deal?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'I don’t particularly care'
+	R
+	'about having authority over'
+	R
+	'this tiny city.'
+	R
+	'You can have it.'
+	\L_053c4:
+	ZH 1:
+	'I believe the beautiful woman'
+	R
+	'next to you told you about the'
+	R
+	'DX Association...'
+	\L_053c4:
+	ZH 1:
+	'As you heard, our organization'
+	R
+	'primarily uses methods that'
+	R
+	'the world doesn’t look well'
+	R
+	'upon...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'So it seems.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'This is the deal...'
+	\L_053c4:
+	ZH 1:
+	'I want you to ignore our'
+	R
+	'activities.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'What did you say?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Aah, I just remembered.'
+	R
+	'Hey.'
+	\L_053c4:
+	\L_053b7:
+	\L_05347:
+	ZH 1:
+	'Gracq gave an order to a'
+	R
+	'subordinate, who brought in a'
+	R
+	'trunk.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Here...'
+	\L_053c4:
+	\L_053b7:
+	\L_05347:
+	ZH 1:
+	'The subordinate opened the'
+	R
+	'trunk, revealing that it was'
+	R
+	'packed full of money.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Hoh.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'This is just a little deposit.'
+	\L_053c4:
+	ZH 1:
+	'If you approve our activities,'
+	R
+	'we will assist in funding your'
+	R
+	'war efforts.'
+	\L_053c4:
+	ZH 1:
+	'If you say yes now, King,'
+	R
+	'Rockearth and our sponsorship'
+	R
+	'can be yours...'
+	\L_053c4:
+	ZH 1:
+	'Either way... Even if we can’t'
+	R
+	'continue our surface'
+	R
+	'businesses, we can still'
+	R
+	'function well underground...'
+	\L_053c4:
+	ZH 1:
+	'How about it?'
+	R
+	'I believe it’s a good deal...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'............'
+	\L_053c4:
+	\L_053b7:
+*L_0190a:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_0190a:
+	}
+	ZH 1:
+	$L_01a49$
+	'I’ll approve you'
+	$
+	R
+	$L_0194a$
+	'Disgusting, die'
+	$
+	]
+	@L_0190a:
+*L_0194a:
+	!VAR0475 : 100!
+	\L_0529f:
+	ZH 1:
+	'Disgusting.'
+	R
+	'I can’t allow evil people like'
+	R
+	'you to exist.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Wha...?'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'Rance swung his sword.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Gyaaaaaah!!'
+	\L_053c4:
+	ZH 1:
+	'Impossible...'
+	R
+	'How could you not take this'
+	R
+	'delectable deal...?'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'I just said, didn’t I?'
+	R
+	'Evil must be punished!'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	\L_05347:
+	ZH 1:
+	'Gracq, representative of'
+	R
+	'Rockearth, was killed.'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'Negotiations with Rockearth'
+	R
+	'failed.'
+	\L_053c4:
+	\L_053b7:
+	@L_00078:
+*L_01a49:
+	!VAR0475 : 1!
+	\L_0529f:
+	ZH 1:
+	'Alright, sounds good.'
+	R
+	'I’ll turn a blind eye to you'
+	R
+	'guys.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Thank you very much.'
+	R
+	'A wise decision.'
+	R
+	'As one would expect of the'
+	R
+	'future king of the world.'
+	\L_053c4:
+	ZH 1:
+	'Please go ahead and merge with'
+	R
+	'Rockearth.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Yeah, I’ll do whatever.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'By the way...'
+	\L_053c4:
+	ZH 1:
+	'What kind of woman do you'
+	R
+	'prefer, King?'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Woman??'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Yes... Girls.'
+	R
+	'I’ve heard rumors that you’re'
+	R
+	'quite fond of beautiful girls.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Well...'
+	\L_053c4:
+	ZH 1:
+	'Cute girls are good. Mhm.'
+	R
+	'Preferably the docile,'
+	R
+	'innocent sort.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Understood.'
+	R
+	'Now, then, come visit us'
+	R
+	'sometime.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0130 : 1!
+	!VAR0546 : 0!
+	!VAR0156 : 68!
+	\L_05109:
+	!VAR0156 : 69!
+	\L_05109:
+	\L_052d7:
+	ZH 1:
+	'Thus, Rockearth merged with'
+	R
+	'Leazas.'
+	\L_053c4:
+	ZH 1:
+	'A bribe of 50,000,000 GOLD was'
+	R
+	'received, as well.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0519 : VAR0519 + 500!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_01c32:
+	\L_052d7:
+	ZH 1:
+	'The mayor of Ice immediately'
+	R
+	'showed up from the city.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 411!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'I’m the mayor of Ice. My name'
+	R
+	'is...'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'The mayor tried to say his'
+	R
+	'name, but Rance held his hand'
+	R
+	'out and interrupted.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'I don’t care about your name.'
+	R
+	'Surrender.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Such rudeness...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Shut up!!'
+	\L_053c4:
+	ZH 1:
+	'Surrender or die? Pick one.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'............'
+	\L_053c4:
+	ZH 1:
+	'Uh... I’d like to go back'
+	R
+	'briefly to hold a meeting...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'No.'
+	\L_053c4:
+	ZH 1:
+	'Choose right here and now.'
+	R
+	'If you don’t, you die.'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'There was a brief period of'
+	R
+	'silence.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'...Understood.'
+	\L_053c4:
+	ZH 1:
+	'We’ll surrender.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	\L_05301:
+	\L_053a9:
+	!VAR0130 : 1!
+	!VAR0546 : 0!
+	!VAR0156 : 66!
+	\L_05109:
+	!VAR0156 : 67!
+	\L_05109:
+	\L_052d7:
+	ZH 1:
+	'Thus, Ice merged with Leazas.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	!VAR0516 : 10!
+	%#M.ADV:
+	%0:
+*L_01e20:
+	{(VAR0476 \ 0) * (VAR0476 < VAR0517):
+		@L_025d1:
+	}
+	{VAR0476 \ 0:
+		@L_023b8:
+	}
+	\L_052d7:
+	ZH 1:
+	'After some time, the mayor of'
+	R
+	'Lazeal came out from the city.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 411!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'Um...'
+	R
+	'I am Amuro, the mayor of'
+	R
+	'Lazeal...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Mhm.'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'Rance acted like he was'
+	R
+	'listening to the mayor...'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	!VAR0516 : 65!
+	\L_05363:
+	\L_052d7:
+	ZH 1:
+	'He was staring at the'
+	R
+	'secretary that was standing'
+	R
+	'behind the mayor.'
+	\L_053c4:
+	\L_053b7:
+	\L_052bb:
+	ZH 1:
+	'Nice woman.'
+	R
+	'Looks a bit stern, but still...'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	!VAR0516 : 411!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'Uh... Your Majesty?'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'What?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'I’d like an answer to my'
+	R
+	'question...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'............'
+	\L_053c4:
+	ZH 1:
+	'Well, I think I can just set'
+	R
+	'that aside...'
+	\L_053c4:
+	ZH 1:
+	'Surrender.'
+	R
+	'If you don’t, blood will'
+	R
+	'needlessly spill. That’s all'
+	R
+	'I’ll say.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Okay, I understand.'
+	R
+	'I’m ready to surrender.'
+	\L_053c4:
+	ZH 1:
+	'However, please give me a'
+	R
+	'month to do it.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'...Hm, why?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'I’d like to have the time I'
+	R
+	'think it will take to'
+	R
+	'surrender the city.'
+	R
+	'Is that all right?'
+	\L_053c4:
+	\L_053b7:
+*L_02062:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_02062:
+	}
+	ZH 1:
+	$L_020a2$
+	'No'
+	$
+	R
+	$L_02103$
+	'I’ll wait'
+	$
+	]
+	@L_02062:
+*L_020a2:
+	\L_0529f:
+	ZH 1:
+	'No.'
+	R
+	'I hate waiting.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'I see...'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	\L_05301:
+	\L_052d7:
+	ZH 1:
+	'Thus, the conference failed.'
+	\L_053c4:
+	\L_053b7:
+	@L_00078:
+*L_02103:
+	!VAR0476 : VAR0517 + 4!
+	\L_0529f:
+	ZH 1:
+	'Sure.'
+	R
+	'I’ll wait a month.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Thank you very much.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'With one condition.'
+	R
+	'When the time comes, you give'
+	R
+	'me that secretary with this'
+	R
+	'city.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 65!
+	\L_05363:
+	\L_052d7:
+	ZH 1:
+	'Rance pointed at the secretary'
+	R
+	'as he spoke.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'............'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 411!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'Give you Raylee...?'
+	R
+	'That’s...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'If you refuse, I’m not waiting.'
+	R
+	'I’m fine with taking this city'
+	R
+	'by force.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'But...'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 65!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'It’s alright, Mayor Amuro.'
+	R
+	'I have no complaints.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 411!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'Raylee...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Your name’s Raylee?'
+	R
+	'You understand well.'
+	R
+	'Alright, we have an agreement.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 65!
+	\L_05363:
+	\L_0529f:
+	ZH 1:
+	'I can’t wait for a month to'
+	R
+	'pass.'
+	R
+	'Gahahahahahahahahahaha.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Let’s return, Mayor Amuro.'
+	R
+	'We’re going to be busy.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	\L_05347:
+	ZH 1:
+	'Mayor Amuro responded with a'
+	R
+	'stutter and they both walked'
+	R
+	'away.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'One month from now...'
+	R
+	'I just have to hold back until'
+	R
+	'then.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'That means we won’t interfere'
+	R
+	'with Lazeal for a while, then?'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'That’s right.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Understood.'
+	R
+	'I’ll send the order out to'
+	R
+	'everyone.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	\L_053a9:
+	\L_05301:
+	%0:
+*L_023b8:
+	\L_052d7:
+	ZH 1:
+	'After some time, Lazeal’s'
+	R
+	'Mayor Amuro appeared.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 411!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'What is the meaning of this,'
+	R
+	'King Rance? This isn’t what'
+	R
+	'you promised.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'What promise?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Did you not say that you would'
+	R
+	'wait a month?'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Hm～～...'
+	\L_053c4:
+	ZH 1:
+	'Did I?'
+	R
+	'Oh yeah, I’d forgotten about'
+	R
+	'everything besides Raylee.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'At any rate, we have a promise,'
+	R
+	'so please wait a while longer.'
+	\L_053c4:
+	ZH 1:
+	'Lazeal will be peacefully'
+	R
+	'handed over as promised.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Don’t forget about Raylee.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'I won’t...'
+	\L_053c4:
+	ZH 1:
+	'Excuse me...'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	\L_05347:
+	ZH 1:
+	'Mayor Amuro bowed and left.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'King Rance.'
+	R
+	'Would Ms. Raylee happen to be'
+	R
+	'more important to you than'
+	R
+	'taking Lazeal?'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Of course.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'............'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Looked like you were just'
+	R
+	'thinking about a lot of things.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'No...'
+	R
+	'I was only thinking about how'
+	R
+	'like you that is, King Rance.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	\L_05301:
+	\L_053a9:
+	%0:
+*L_025d1:
+	!VAR0520 : 1!
+	%#Gﾚｨﾘｨ.ADV:
+	!VAR0130 : 1!
+	!VAR0546 : 0!
+	!VAR0156 : 65!
+	\L_05109:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	!VAR0516 : 10!
+	%#M.ADV:
+	%0:
+*L_02624:
+	\L_052d7:
+	ZH 1:
+	'The mayor of Red immediately'
+	R
+	'came out from the city.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 411!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'I am Green, manager of the'
+	R
+	'affairs of the city of Red.'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'Mayor Green politely bowed to'
+	R
+	'Rance.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Shall we get to business,'
+	R
+	'then?'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'Rance glared at Mayor Green'
+	R
+	'and spoke frankly to him.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'I’m conquering the world.'
+	R
+	'So surrender Red to me.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'............'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Sound good?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'I had assumed that’s what this'
+	R
+	'would be... I was ready for'
+	R
+	'this...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Then this shouldn’t take long.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'I have only one request.'
+	\L_053c4:
+	ZH 1:
+	'I would like you to promise to'
+	R
+	'absolutely not to pillage in'
+	R
+	'Red.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'What did you say?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'If I can just guarantee the'
+	R
+	'safety of the people of Red, I'
+	R
+	'will hand over its rulership'
+	R
+	'to you.'
+	\L_053c4:
+	\L_053b7:
+*L_027de:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_027de:
+	}
+	ZH 1:
+	$L_0281e$
+	'I promise'
+	$
+	R
+	$L_02908$
+	'I can’t promise'
+	$
+	]
+	@L_027de:
+*L_0281e:
+	\L_052bb:
+	ZH 1:
+	'He wants a promise, huh...?'
+	R
+	'Well, I’d be free to break it'
+	R
+	'at any time.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Sure.'
+	R
+	'We won’t steal anything.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Thank you very much.'
+	R
+	'I think that the people of Red'
+	R
+	'will be quite relieved to know'
+	R
+	'that.'
+	\L_053c4:
+	\L_053b7:
+	\L_05301:
+	\L_05371:
+	\L_053a9:
+	!VAR0130 : 1!
+	!VAR0546 : 0!
+	!VAR0156 : 63!
+	\L_05109:
+	!VAR0156 : 64!
+	\L_05109:
+	\L_052d7:
+	ZH 1:
+	'Thus, Red merged with Leazas.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	!VAR0516 : 10!
+	%#M.ADV:
+	%0:
+*L_02908:
+	\L_0529f:
+	ZH 1:
+	'I refuse.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'............'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Pillaging and looking for cute'
+	R
+	'girls is how I have fun.'
+	R
+	'I won’t stop.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'...Is there nothing that will'
+	R
+	'change your mind?'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'No.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'...I... see...'
+	R
+	'Excuse me.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	\L_052d7:
+	ZH 1:
+	'The mayor of Red slumped his'
+	R
+	'shoulders and returned home.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Now, let’s fight.'
+	R
+	'Make preparations at once!'
+	\L_053c4:
+	\L_053b7:
+	\L_05301:
+	\L_053a9:
+	@L_00078:
+*L_02a0e:
+	\L_052d7:
+	ZH 1:
+	'The mayor of Portugal'
+	R
+	'immediately appeared.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 411!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'I am Goa, manager of the city'
+	R
+	'of Portugal.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'You know what I want to say,'
+	R
+	'don’t you?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Yes...'
+	R
+	'But, that’s...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Surrender everything.'
+	R
+	'Right now.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'............'
+	\L_053c4:
+	ZH 1:
+	'But if you conquer my city,'
+	R
+	'JAPAN won’t stay quiet...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'JAPAN, huh...?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'That is correct. You wouldn’t'
+	R
+	'want to start a war with JAPAN,'
+	R
+	'would you?'
+	R
+	'I suggest you stop this and...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'You talk too much.'
+	R
+	'I’m conquering this city.'
+	\L_053c4:
+	ZH 1:
+	'Surrender it to me right now.'
+	R
+	'If you don’t, you’ll die'
+	R
+	'before JAPAN does.'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'Mayor Goa trembled violently'
+	R
+	'when Rance put his hand on his'
+	R
+	'sword.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'U-Understood...'
+	\L_053c4:
+	ZH 1:
+	'You could at least give us'
+	R
+	'9,000,000 GOLD for future'
+	R
+	'living expenses though,'
+	R
+	'correct?'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'Demand:　9000K GOLD'
+	R
+	R
+	'National Budget: '
+	H 0, VAR0519:
+	ZH 1:
+	'00K GOLD'
+*L_02bfb:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_02bfb:
+	}
+	ZH 1:
+	$L_02c3b$
+	'Don’t Pay'
+	$
+	R
+	$L_02cf3$
+	'Pay and Conquer'
+	$
+	]
+	@L_02bfb:
+*L_02c3b:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'I refuse.'
+	R
+	'Die.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Th-Then...'
+	R
+	'At least 50000 GOLD...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'No.'
+	R
+	'It’d be faster to just kill'
+	R
+	'you in war.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Understood.'
+	R
+	'I’ll surrender for nothing,'
+	R
+	'then.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'You should’ve said that from'
+	R
+	'the start.'
+	\L_053c4:
+	\L_053b7:
+	@L_02dae:
+*L_02cf3:
+	\L_053b7:
+	{VAR0519 < 90:
+		\L_052bb:
+		ZH 1:
+		'Ch... Don’t have enough...'
+		R
+		'This is embarrassing...'
+		\L_053c4:
+		\L_053b7:
+		@L_02bfb:
+	}
+	!VAR0519 : VAR0519 - 90!
+	!VAR0166 : VAR0166 + 90!
+	\L_0529f:
+	ZH 1:
+	'Sure.'
+	\L_053c4:
+	ZH 1:
+	'Pay them, Maris.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'Yes, understood.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 411!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'Thank you very much.'
+	\L_053c4:
+	\L_053b7:
+*L_02dae:
+	\L_05301:
+	\L_05371:
+	\L_053a9:
+	!VAR0130 : 1!
+	!VAR0546 : 0!
+	!VAR0156 : 17!
+	\L_05109:
+	\L_052d7:
+	ZH 1:
+	'Thus, Portugal merged with'
+	R
+	'Leazas.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	!VAR0516 : 10!
+	%#M.ADV:
+	%0:
+*L_02e1e:
+	!VAR0468 : 2!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1046!
+	\L_0539b:
+	!VAR0516 : 1!
+	\L_052f3:
+	\L_052d7:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　Audience Room'
+	\L_053c4:
+	ZH 1:
+	'Rance was reclining in the'
+	R
+	'throne, and Lia was playing'
+	R
+	'with a doll at his feet.'
+	R
+	'Maris was next to them.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Alright, our next target is'
+	R
+	'Portugal.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 5!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'Yeah, yeaaaah!!'
+	R
+	'I think we should conquer them'
+	R
+	'by force!!'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'I’m not so sure...'
+	R
+	'Portugal is a shield against'
+	R
+	'JAPAN...'
+	\L_053c4:
+	ZH 1:
+	'After conquering them, JAPAN'
+	R
+	'may become our enemy, as'
+	R
+	'well...'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	!VAR0516 : 5!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'Then we’ll just have to make'
+	R
+	'JAPAN ours, too.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	\L_0530f:
+	ZH 1:
+	'That’s some dangerous talk.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 470!
+	\L_05363:
+	\L_0529f:
+	ZH 1:
+	'Pluepet?'
+	\L_053c4:
+	\L_053b7:
+	\L_05347:
+	ZH 1:
+	'Hey hey.'
+	R
+	'Looks like you’re all doing'
+	R
+	'quite well～.'
+	\L_053c4:
+	\L_053b7:
+	\L_05347:
+	ZH 1:
+	'Pluepet hobbled up to the'
+	R
+	'throne.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'King Rance, King Rance.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'What?'
+	R
+	'Actually, I didn’t even summon'
+	R
+	'you, why are you here?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'I’m not here to try pushing a'
+	R
+	'sale on you or anything.'
+	\L_053c4:
+	ZH 1:
+	'King Rance, what is the'
+	R
+	'meaning of this?'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Of what?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'I’m talking about the war.'
+	\L_053c4:
+	ZH 1:
+	'My home is in Portugal.'
+	\L_053c4:
+	ZH 1:
+	'So, King, when I heard from'
+	R
+	'the mayor, I was quite'
+	R
+	'surprised.'
+	\L_053c4:
+	ZH 1:
+	'If there’s a war in Portugal,'
+	R
+	'all my possessions will be'
+	R
+	'lost.'
+	\L_053c4:
+	ZH 1:
+	'If you want to go to war,'
+	R
+	'please do it somewhere else.'
+	\L_053c4:
+	ZH 1:
+	'If you must have Portugal,'
+	R
+	'please take it peacefully.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'You’re awfully selfish.'
+	R
+	'What do I care about all that?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'I didn’t only come to make a'
+	R
+	'request.'
+	\L_053c4:
+	ZH 1:
+	'Here.'
+	R
+	'This is my donation to you for'
+	R
+	'the sake of peace.'
+	\L_053c4:
+	\L_053b7:
+	\L_05347:
+	ZH 1:
+	'Pluepet gave a signal and his'
+	R
+	'subordinates brought in a'
+	R
+	'trunk.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'This is 10,000,000 GOLD.'
+	R
+	'Please use it effectively.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'That’s awfully lavish.'
+	R
+	'You must have a lot of money'
+	R
+	'hidden away in your house,'
+	R
+	'huh...?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Hohohohohoh.'
+	R
+	'It’s a secret.'
+	\L_053c4:
+	ZH 1:
+	'So long, King Rance!'
+	R
+	'I hope you consider my request.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	\L_05347:
+	ZH 1:
+	'Pluepet hobbled out the same'
+	R
+	'way he came.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Huhuhu...'
+	\L_053c4:
+	ZH 1:
+	'Moron.'
+	R
+	'I’ll use this money however I'
+	R
+	'want...'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 5!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'What luck, Darling. We got'
+	R
+	'free money.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Gahahahahahahahaha.'
+	R
+	'Feels good!!'
+	\L_053c4:
+	\L_053b7:
+	!VAR0519 : VAR0519 + 100!
+	!VAR0516 : 0!
+	%#M.ADV:
+	\0:
+*L_032cd:
+	\L_052bb:
+	ZH 1:
+	'Slow...'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'About 3 hours have passed.'
+	\L_053c4:
+	\L_053b7:
+	\L_052bb:
+	ZH 1:
+	'Slow... I could’ve had sex 3'
+	R
+	'times in the time I’ve been'
+	R
+	'waiting... What’s going on...?'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'Another 3 hours passed.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'King Rance.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Did they finally come?!!'
+	R
+	'I’m frustrated I don’t want to'
+	R
+	'see them anymore.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'No, the mayor of Zeo hasn’t'
+	R
+	'shown up.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Whaaat!?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Instead, a messenger came out'
+	R
+	'with this...'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'Maris handed a letter to Rance.'
+	\L_053c4:
+	ZH 1:
+	'Rance unsealed the letter and'
+	R
+	'looked over it.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	\L_0529f:
+	ZH 1:
+	'What’s this...?'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'［［Savage king, we will never'
+	R
+	' hand our city over to evil.］］'
+	\L_053c4:
+	\L_053b7:
+	\L_052bb:
+	ZH 1:
+	'...What’s this bullshit?!!'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'Rance tore the letter in half'
+	R
+	'and threw it away.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'We’re destroying Zeo at once.'
+	R
+	'Attack.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'Understood.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	\L_05301:
+	\L_053a9:
+	%0:
+*L_034dd:
+	\L_0529f:
+	ZH 1:
+	'............'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'About 30 minutes later, a'
+	R
+	'messenger came out from M Land.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 12!
+	\L_05363:
+	\L_052bb:
+	ZH 1:
+	'...A woman?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Nice to meet you...'
+	R
+	'I’m Sayori Unga, the mayor of'
+	R
+	'M Land.'
+	\L_053c4:
+	\L_053b7:
+	\L_052bb:
+	ZH 1:
+	'Mhm.'
+	R
+	'She looks good.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Don’t see a lot of mayors as'
+	R
+	'beautiful as you.'
+	R
+	'They’re usually old men I'
+	R
+	'don’t want to look at.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'...It’s to fulfill my late'
+	R
+	'husband’s dream... I became'
+	R
+	'the mayor to try and grant his'
+	R
+	'dying wish.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Late husband...'
+	R
+	'You’re a widow?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Yes.'
+	R
+	'M Land was by husband’s...'
+	\L_053c4:
+	ZH 1:
+	'He made this city in the hopes'
+	R
+	'of granting children’s dreams,'
+	R
+	'in spite of the unforgiving'
+	R
+	'state of the world.'
+	\L_053c4:
+	ZH 1:
+	'After he died in an'
+	R
+	'unforeseeable accident, I'
+	R
+	'wanted to protect this city.'
+	\L_053c4:
+	ZH 1:
+	'So...'
+	\L_053c4:
+	ZH 1:
+	'Please.'
+	R
+	'For his... and my dream...'
+	\L_053c4:
+	ZH 1:
+	'No, for the children, please'
+	R
+	'don’t go to war with us.'
+	R
+	'Please...!'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'I get what you want to say.'
+	\L_053c4:
+	ZH 1:
+	'But my goal’s to conquer the'
+	R
+	'world. I’m not going to make'
+	R
+	'an exception for M Land.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'...I won’t argue against'
+	R
+	'surrendering and joining you.'
+	R
+	'I’m prepared for that.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Hoh, good attitude.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'But, as for M Land...'
+	\L_053c4:
+	ZH 1:
+	'Please at least allow this'
+	R
+	'amusement park’s management to'
+	R
+	'continue.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Let me think...'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'King Rance...'
+	\L_053c4:
+	\L_053b7:
+	\L_05347:
+	ZH 1:
+	'Maris whispered to Rance.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'It would seem that this park’s'
+	R
+	'management is in a serious'
+	R
+	'deficit. If you keep it going'
+	R
+	'after they join with us...'
+	\L_053c4:
+	ZH 1:
+	'You should consider that the'
+	R
+	'revenue that would come from'
+	R
+	'this city would be virtually'
+	R
+	'nothing.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Hm... That makes things'
+	R
+	'complicated. War takes money.'
+	R
+	'We can’t waste it on an'
+	R
+	'amusement park’s deficit...'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	!VAR0516 : 12!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'...King Rance...'
+	\L_053c4:
+	ZH 1:
+	'I know what I’m saying is'
+	R
+	'unreasonable...'
+	R
+	'Please...!!'
+	\L_053c4:
+	\L_053b7:
+*L_0386a:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_0386a:
+	}
+	ZH 1:
+	$L_038aa$
+	'No'
+	$
+	R
+	$L_03972$
+	'Maintain the Park'
+	$
+	]
+	@L_0386a:
+*L_038aa:
+	\L_0529f:
+	ZH 1:
+	'I don’t do charity work.'
+	R
+	'I don’t know about children’s'
+	R
+	'dreams, but I won’t pay a'
+	R
+	'thing for this crap.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'............'
+	\L_053c4:
+	ZH 1:
+	'...Then... does this mean'
+	R
+	'negotiations have failed?'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'That’s right.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'...Then I’ll fight.'
+	R
+	'I’d be happy to die with my'
+	R
+	'husband’s dream.'
+	\L_053c4:
+	\L_053b7:
+	\L_05347:
+	ZH 1:
+	'Sayori bowed and walked away'
+	R
+	'from Rance.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_03972:
+	!VAR0477 : 1!
+	!VAR0478 : 1!
+	\L_0529f:
+	ZH 1:
+	'Alright, I’ll listen to your'
+	R
+	'wish.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Thank you very...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'However.'
+	\L_053c4:
+	ZH 1:
+	'I have a condition, too.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'A condition...?'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'It’s simple.'
+	R
+	'Join my harem.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Huh...?!'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Enter my harem, and I’ll act'
+	R
+	'as the mayor in your place.'
+	\L_053c4:
+	ZH 1:
+	'Then everything’ll end'
+	R
+	'peacefully. I’ll assist with'
+	R
+	'the park’s management, as well.'
+	R
+	'How about it?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'............'
+	\L_053c4:
+	\L_053b7:
+	\L_05347:
+	ZH 1:
+	'Sayori’s expression darkened'
+	R
+	'and she looked down...'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'I... understand...'
+	R
+	'M Land...'
+	R
+	'The park...'
+	R
+	'Please...'
+	\L_053c4:
+	\L_053b7:
+	\L_052bb:
+	ZH 1:
+	'Alright, did it...'
+	R
+	'This widow’s a good woman to'
+	R
+	'be sure.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'But... If M Land... If the'
+	R
+	'park is destroyed, I’ll...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Got it. I’ll be careful when'
+	R
+	'we go to war with other'
+	R
+	'countries.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'............'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'King Rance.'
+	R
+	'2,000,000 GOLD will be needed'
+	R
+	'every week to pay off M Land’s'
+	R
+	'deficit.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	!VAR0516 : 12!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'............'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Well, already promised,'
+	R
+	'nothing I can do about it now.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'The transaction will be'
+	R
+	'automatically processed every'
+	R
+	'week, then.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	\L_0529f:
+	ZH 1:
+	'Don’t care.'
+	R
+	'Hey, Sayori.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 12!
+	\L_05363:
+	\L_052d7:
+	ZH 1:
+	'Rance hugged Sayori tight and'
+	R
+	'put his hands on her breasts.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Ah...!'
+	\L_053c4:
+	\L_053b7:
+	\L_05347:
+	ZH 1:
+	'Sayori’s body stiffened and'
+	R
+	'she tried to escape Rance’s'
+	R
+	'hands.'
+	\L_053c4:
+	\L_053b7:
+	\L_052bb:
+	ZH 1:
+	'Heheheh...'
+	R
+	'A virtuous widow...'
+	R
+	'I got something good.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Can’t wait to have fun with'
+	R
+	'you in bed.'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'Rance spoke into Sayori’s ear'
+	R
+	'so that only she could hear.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'...!!'
+	\L_053c4:
+	\L_053b7:
+	!VAR0130 : 1!
+	!VAR0546 : 0!
+	!VAR0156 : 11!
+	\L_05109:
+	!VAR0156 : 12!
+	\L_05109:
+	\L_052d7:
+	ZH 1:
+	'Thus, M Land merged with'
+	R
+	'Leazas.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	!VAR0516 : 10!
+	%#M.ADV:
+	%0:
+*L_03d9e:
+	\L_052bb:
+	ZH 1:
+	'...Late.'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'Then, after two hours passed,'
+	R
+	'the mayor of Hanna showed up.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 411!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'I am Mozart, the mayor of'
+	R
+	'Hanna.'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'Mozart held out his hand for a'
+	R
+	'handshake but Rance pushed it'
+	R
+	'away.'
+	\L_053c4:
+	\L_053b7:
+	\L_0532b:
+	ZH 1:
+	'...H-How rude...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'I’m Rance, King of the World.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'............'
+	\L_053c4:
+	ZH 1:
+	'Why has the Leazas Army'
+	R
+	'surrounded my city?'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Huhuhuhu...'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'We were supposed to respect'
+	R
+	'each other as independent'
+	R
+	'nations...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Times have changed.'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'Rance stood up and pointed at'
+	R
+	'the mayor.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'I’m going to rule the world.'
+	R
+	'So put yourself under my'
+	R
+	'control.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'That’s rather unreasonable...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'If you refuse, I’ll go to war'
+	R
+	'with you and take your city by'
+	R
+	'force. It’d be faster than'
+	R
+	'talking to you.'
+	\L_053c4:
+	\L_053b7:
+	\L_0532b:
+	ZH 1:
+	'...It would hurt to lose my'
+	R
+	'city, but... better that than'
+	R
+	'dying...'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Understood.'
+	R
+	'Even if we fought, we have no'
+	R
+	'hope of winning.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'That’s right. You understand'
+	R
+	'well.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'However, if our families lose'
+	R
+	'their city, they have nothing'
+	R
+	'to gain, so...'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'The mayor stared at Rance, a'
+	R
+	'repressed smile rising to his'
+	R
+	'face.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'You want money, then.'
+	R
+	'Ch, parasites, leeching off'
+	R
+	'other countries...'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Parasites...?'
+	R
+	'I suppose so.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'What’s your demand, then?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'...Let me see...'
+	\L_053c4:
+	ZH 1:
+	'3,000,000 GOLD.'
+	R
+	'For that much, I’ll hand Hanna'
+	R
+	'over to you without bloodshed.'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'Demand:　3000K GOLD'
+	R
+	R
+	'National Budget: '
+	H 0, VAR0519:
+	ZH 1:
+	'00K GOLD'
+*L_040ee:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_040ee:
+	}
+	ZH 1:
+	$L_0412e$
+	'Pay'
+	$
+	R
+	$L_042f5$
+	'Refuse'
+	$
+	]
+	@L_040ee:
+*L_0412e:
+	\L_053b7:
+	{VAR0519 < 29:
+		\L_052bb:
+		ZH 1:
+		'Ch... Don’t have enough...'
+		\L_053c4:
+		\L_053b7:
+		@L_040ee:
+	}
+	!VAR0519 : VAR0519 - 30!
+	!VAR0166 : VAR0166 + 30!
+	!VAR0130 : 1!
+	!VAR0546 : 0!
+	\L_0529f:
+	ZH 1:
+	'Got it.'
+	R
+	'I’ll pay.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Thank you very much.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0156 : 8!
+	{VAR0128 \ 0:
+		!VAR0479 : 1!
+		\L_0530f:
+		ZH 1:
+		'Oh yes, there’s one piece of'
+		R
+		'information I should give you.'
+		\L_053c4:
+		\L_053b7:
+		\L_0529f:
+		ZH 1:
+		'What?'
+		\L_053c4:
+		\L_053b7:
+		\L_0530f:
+		ZH 1:
+		'The world’s greatest tactician,'
+		R
+		'Gengorou Shinoda, is in this'
+		R
+		'city.'
+		\L_053c4:
+		ZH 1:
+		'I believe he could be one of'
+		R
+		'the talented people you need'
+		R
+		'to conquer the world.'
+		\L_053c4:
+		\L_053b7:
+		\L_0529f:
+		ZH 1:
+		'Shinoda???'
+		\L_053c4:
+		\L_053b7:
+		\L_0530f:
+		ZH 1:
+		'How about trying to meet with'
+		R
+		'him? He is an odd one, though.'
+		\L_053c4:
+		\L_053b7:
+	}
+	!VAR0156 : 8!
+	\L_05109:
+	!VAR0156 : 9!
+	\L_05109:
+	!VAR0156 : 10!
+	\L_05109:
+	\L_05301:
+	\L_05371:
+	\L_052d7:
+	ZH 1:
+	'Thus, Hanna merged with Leazas.'
+	\L_053c4:
+	\L_053b7:
+	\L_053a9:
+	!VAR0021 : VAR0130 + 819!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 4!
+	%#M.ADV:
+	!VAR0516 : 3!
+	%#M.ADV:
+	!VAR0516 : 10!
+	%#M.ADV:
+	%0:
+*L_042f5:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'I refuse.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'I see...'
+	R
+	'Negotiations have failed...'
+	\L_053c4:
+	ZH 1:
+	'Excuse me, then.'
+	R
+	'There’s a lot I have to do'
+	R
+	'now...'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'The mayor of Hanna stood up'
+	R
+	'from his seat and left.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	\L_052bb:
+	ZH 1:
+	'I should’ve just killed him...'
+	\L_053c4:
+	ZH 1:
+	'Hmph.'
+	R
+	'He can die with his city.'
+	\L_053c4:
+	\L_053b7:
+	\L_05301:
+	\L_053a9:
+	%0:
+*L_043b1:
+	\L_0529f:
+	ZH 1:
+	'Let’s take them by force.'
+	R
+	'A small city like this could'
+	R
+	'be conquered in 5 minutes.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	!VAR0021 : 4!
+	!VAR0022 : 1!
+	%#Sﾌﾞﾀｲ.ADV:
+	!VAR0516 : 0!
+	%#M.ADV:
+	{VAR0569 = 0:
+		@L_00078:
+	}
+	!VAR0529 : 1!
+	{VAR0158 = 17:
+		ZH 1:
+		MS 10, "Rockearth Army":
+		!VAR0001 : 68!
+		!VAR0002 : 69!
+		!VAR0003 : 0!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 18:
+		ZH 1:
+		MS 10, "Ice Army":
+		!VAR0001 : 66!
+		!VAR0002 : 67!
+		!VAR0003 : 0!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 19:
+		ZH 1:
+		MS 10, "Diphtheria Army":
+		!VAR0001 : 70!
+		!VAR0002 : 0!
+		!VAR0003 : 0!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 20:
+		ZH 1:
+		MS 10, "Lazeal Army":
+		!VAR0476 : 0!
+		!VAR0001 : 65!
+		!VAR0002 : 0!
+		!VAR0003 : 0!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 22:
+		ZH 1:
+		MS 10, "Mars Army":
+		!VAR0001 : 71!
+		!VAR0002 : 0!
+		!VAR0003 : 0!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 23:
+		ZH 1:
+		MS 10, "Red Army":
+		!VAR0001 : 63!
+		!VAR0002 : 64!
+		!VAR0003 : 0!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 24:
+		ZH 1:
+		MS 10, "Zeo Army":
+		!VAR0001 : 13!
+		!VAR0002 : 14!
+		!VAR0003 : 15!
+		!VAR0004 : 16!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 25:
+		ZH 1:
+		MS 10, "M Land Army":
+		!VAR0001 : 11!
+		!VAR0002 : 12!
+		!VAR0003 : 0!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 26:
+		ZH 1:
+		MS 10, "Hanna Army":
+		!VAR0001 : 9!
+		!VAR0002 : 10!
+		!VAR0003 : 8!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 28:
+		ZH 1:
+		MS 10, "Portugal Army":
+		!VAR0001 : 17!
+		!VAR0002 : 0!
+		!VAR0003 : 0!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	{VAR0158 = 29:
+		ZH 1:
+		MS 10, "Shangri-La Army":
+		!VAR0001 : 18!
+		!VAR0002 : 19!
+		!VAR0003 : 20!
+		!VAR0004 : 0!
+		!VAR0005 : 0!
+		!VAR0006 : 0!
+		!VAR0007 : 0!
+		!VAR0008 : 0!
+		!VAR0009 : 0!
+	}
+	\L_04f2a:
+	!VAR0581 : 1!
+	%#FIGT_A.ADV:
+	!VAR0581 : 0!
+	{(VAR0158 = 28) * (VAR0130 = 1) * (VAR0468 = 2):
+		!VAR0468 : 3!
+		!VAR0520 : 2!
+		%#Gﾚﾍﾞｯｶ.ADV:
+	}
+	{(VAR0158 = 22) * (VAR0130 = 1):
+		!VAR0520 : 1!
+		%#Gｶｾｲ.ADV:
+	}
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_04786:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'King Rance, it isn’t possible'
+	R
+	'to mobilize the army right now.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Why?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Since the rebel army rose, our'
+	R
+	'army’s organization has been'
+	R
+	'disrupted.'
+	\L_053c4:
+	ZH 1:
+	'Please give it some time.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Ch, useless!!'
+	R
+	'Damn it.'
+	\L_053c4:
+	@L_00205:
+*L_0481f:
+	!VAR0516 : 1!
+	\L_052f3:
+	\L_0529f:
+	ZH 1:
+	'Alright, advance!!'
+	R
+	'Kill everyone that doesn’t'
+	R
+	'surrender!'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'Please wait, King Rance.'
+	\L_053c4:
+	\L_053b7:
+	\L_052d7:
+	ZH 1:
+	'Maris stopped Rance.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Are you gonna tell me not to'
+	R
+	'kill everyone?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Not that.'
+	R
+	'I’m telling you not to go to'
+	R
+	'war with other countries right'
+	R
+	'now.'
+	\L_053c4:
+	ZH 1:
+	'Our country’s currently in a'
+	R
+	'civil war. It would be'
+	R
+	'dangerous to attack another'
+	R
+	'country in this situation.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	!VAR0516 : 5!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'I think so too, Darling.'
+	R
+	'Hurry and kill Ex, then you'
+	R
+	'can start uniting the world.'
+	\L_053c4:
+	\L_053b7:
+	\L_05371:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_052bb:
+	ZH 1:
+	'Ch... I have to save Sill soon,'
+	R
+	'though... Damn it...'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Got it... I’ll end the civil'
+	R
+	'war first.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Please do.'
+	\L_053c4:
+	@L_00205:
+*L_0499c:
+	!VAR0516 : 1!
+	\L_052f3:
+	\L_0529f:
+	ZH 1:
+	'Let’s go. The Land of Death’s'
+	R
+	'got a pretty imposing name,'
+	R
+	'but it should be easy to deal'
+	R
+	'with.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'Wait, please.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'What?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'According to the investigation'
+	R
+	'team, the Land of Death has'
+	R
+	'high levels of radioactivity.'
+	\L_053c4:
+	ZH 1:
+	'It’s believed that even'
+	R
+	'monsters can’t survive there,'
+	R
+	'and that humans couldn’t hold'
+	R
+	'out for an hour.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'...Sounds really dangerous.'
+	R
+	'We’ll have to take them out'
+	R
+	'fast.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'............'
+	\L_053c4:
+	\L_053b7:
+	\L_05301:
+	\L_05371:
+	\0:
+*L_04aaa:
+	!VAR0516 : 1!
+	\L_052f3:
+	\L_0529f:
+	ZH 1:
+	'Now to start a battle.'
+	R
+	'Let’s go!!'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'Please wait, King Rance.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'What, getting in the way?!!'
+	R
+	'Not even you’re allowed to do'
+	R
+	'that.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'I don’t mean to interfere.'
+	\L_053c4:
+	ZH 1:
+	'However, currently, the army'
+	R
+	'must stay in the recently'
+	R
+	'occupied area as a'
+	R
+	'countermeasure.'
+	\L_053c4:
+	ZH 1:
+	'Please give the army some time'
+	R
+	'before advancing them'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Ch... Boring.'
+	\L_053c4:
+	@L_00205:
+*L_04b8a:
+	!VAR0516 : 1!
+	\L_052f3:
+	\L_0529f:
+	ZH 1:
+	'Alright, I’ll show them my'
+	R
+	'glorious power.'
+	R
+	'Let’s attack.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'Please wait, King Rance.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'...What, Maris?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Currently, there’s chaos all'
+	R
+	'over the country, and we’re in'
+	R
+	'a very dangerous situation.'
+	\L_053c4:
+	ZH 1:
+	'Defending is one thing, but'
+	R
+	'this isn’t the time to be'
+	R
+	'attacking.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'It’s your job to do something'
+	R
+	'about that, isn’t it?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'I apologize.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'...Damn it.'
+	\L_053c4:
+	@L_00205:
+*L_04c8d:
+	{VAR0651 = 2:
+		!VAR0651 : 1!
+	}
+	\L_052d7:
+	ZH 1:
+	'Our army deployed to attack'
+	R
+	X 8:
+	', but...'
+	\L_053c4:
+	ZH 1:
+	'For some reason they couldn’t'
+	R
+	'find the destination and'
+	R
+	'returned.'
+	\L_053c4:
+	ZH 1:
+	'The operation failed.'
+	\L_053c4:
+	ZH 1:
+	'The 4 towers surrounding Zeth'
+	R
+	'Palace form a barrier that'
+	R
+	'prevents anyone from'
+	R
+	'approaching.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_04d24:
+	{VAR0651 = 2:
+		!VAR0651 : 1!
+	}
+	\L_052d7:
+	ZH 1:
+	'Our army deployed to attack'
+	R
+	X 8:
+	', but...'
+	\L_053c4:
+	ZH 1:
+	'For some reason they couldn’t'
+	R
+	'find the destination and'
+	R
+	'returned.'
+	\L_053c4:
+	ZH 1:
+	'The operation failed.'
+	\L_053c4:
+	\L_053b7:
+	!VAR0158 : 1!
+	!VAR0045 : VAR0142!
+	!VAR0046 : VAR0143!
+	!VAR0516 : 1!
+	%#M.ADV:
+	!VAR0043 : VAR0045!
+	!VAR0044 : VAR0046!
+	!VAR0516 : 1046!
+	\L_0539b:
+	!VAR0516 : 1!
+	\L_052f3:
+	\L_052d7:
+	ZM 32:
+	ZH 1:
+	'　　　Leazas Castle'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　Audience Room'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'Lost?'
+	R
+	'How did they get lost?!!'
+	\L_053c4:
+	ZH 1:
+	'They’re not children!'
+	\L_053c4:
+	\L_053b7:
+	!VAR0516 : 6!
+	\L_05363:
+	\L_0530f:
+	ZH 1:
+	'It would seem that there’s a'
+	R
+	'powerful magic barrier'
+	R
+	'surrounding the target.'
+	\L_053c4:
+	ZH 1:
+	'Thus, I believe that no matter'
+	R
+	'how many troops we send, they'
+	R
+	'won’t be able to reach their'
+	R
+	'destination.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'A magic barrier...'
+	R
+	'Maybe our mage units would'
+	R
+	'work.'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'Zeth is 200 years more'
+	R
+	'advanced than our country when'
+	R
+	'it comes to magic research.'
+	\L_053c4:
+	\L_053b7:
+	\L_0529f:
+	ZH 1:
+	'So you’re saying it’s'
+	R
+	'impossible...?'
+	\L_053c4:
+	\L_053b7:
+	\L_0530f:
+	ZH 1:
+	'At the moment...'
+	\L_053c4:
+	\L_053b7:
+	\L_052bb:
+	ZH 1:
+	'Ch... It’ll be bad if we can’t'
+	R
+	'think of anything...'
+	\L_053c4:
+	\L_053b7:
+	\L_05301:
+	\L_05371:
+	\L_053a9:
+	%0:
+*L_04f2a:
+	!VAR0530 : 0!
+	!VAR0531 : 0!
+	!VAR0532 : 0!
+	!VAR0533 : 0!
+	!VAR0156 : VAR0001!
+	{VAR0128 \ 0:
+		\L_0509c:
+	}
+	!VAR0156 : VAR0002!
+	{VAR0128 \ 0:
+		\L_0509c:
+	}
+	!VAR0156 : VAR0003!
+	{VAR0128 \ 0:
+		\L_0509c:
+	}
+	!VAR0156 : VAR0004!
+	{VAR0128 \ 0:
+		\L_0509c:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0005!
+	{VAR0128 \ 0:
+		\L_0509c:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0006!
+	{VAR0128 \ 0:
+		\L_0509c:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0007!
+	{VAR0128 \ 0:
+		\L_0509c:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0008!
+	{VAR0128 \ 0:
+		\L_0509c:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	!VAR0156 : VAR0009!
+	{VAR0128 \ 0:
+		\L_0509c:
+	}
+	{VAR0533 \ 0:
+		\0:
+	}
+	\0:
+*L_0509c:
+	{VAR0530 = 0:
+		!VAR0530 : VAR0156!
+		\0:
+	}
+	{VAR0531 = 0:
+		!VAR0531 : VAR0156!
+		\0:
+	}
+	{VAR0532 = 0:
+		!VAR0532 : VAR0156!
+		\0:
+	}
+	{VAR0533 = 0:
+		!VAR0533 : VAR0156!
+		\0:
+	}
+	\0:
+*L_05109:
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	\0:
+*L_05118:
+	{VAR0569 \ 0:
+		!VAR0154 : VAR0569!
+		!VAR0102 : 1!
+	}
+	{VAR0570 \ 0:
+		!VAR0154 : VAR0570!
+		!VAR0102 : 1!
+	}
+	{VAR0571 \ 0:
+		!VAR0154 : VAR0571!
+		!VAR0102 : 1!
+	}
+	{VAR0572 \ 0:
+		!VAR0154 : VAR0572!
+		!VAR0102 : 1!
+	}
+	\0:
+*L_05185:
+	{VAR0130 = 2:
+		ZH 1:
+		'（Rebel Army）'
+	}
+	{VAR0130 = 3:
+		ZH 1:
+		'（Independent City-State）'
+	}
+	{VAR0130 = 4:
+		ZH 1:
+		'（Helman Army）'
+	}
+	{VAR0130 = 5:
+		ZH 1:
+		'（Patton Army）'
+	}
+	{VAR0130 = 6:
+		ZH 1:
+		'（JAPAN）'
+	}
+	{VAR0130 = 7:
+		ZH 1:
+		'（Zeth Army）'
+	}
+	{VAR0130 = 8:
+		ZH 1:
+		'（Kayblis Army）'
+	}
+	{VAR0130 = 9:
+		ZH 1:
+		'（Hornet Army）'
+	}
+	{VAR0130 = 10:
+		ZH 1:
+		'（Angels）'
+	}
+	{VAR0130 = 11:
+		ZH 1:
+		'（ALism）'
+	}
+	ZH 1:
+	R
+	\0:
+*L_05289:
+	IM VAR0019, VAR0020:
+	\0:
+*L_05294:
+	IZ VAR0019, VAR0020:
+	\0:
+*L_0529f:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_052bb:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_052d7:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_052f3:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+*L_05301:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0530f:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0532b:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+*L_05347:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_05363:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_05371:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0539b:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+*L_053a9:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_053b7:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_053c4:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

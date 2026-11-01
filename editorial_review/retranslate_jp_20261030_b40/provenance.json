@@ -1,0 +1,24 @@
+{
+  "semantic_base": "Verified original Japanese; English reference only.",
+  "verified_source_provenance_sha256": "9282664cf553185e695a9490bd8e0a3dce1876ba2ece7df0bb398a64ceb6577e",
+  "sources": {
+    "Gﾊﾝﾃｨ.ADV": {
+      "japanese_sha256": "374081ebbd082bcd430ce6e2d91455094a2ece67b2b83c3f866f6f23538aff1c",
+      "normalized_sha256": "dad933c012e533cf64cd68c113f6320829cb4f564a8d4c630a1ce52615768895",
+      "english_reference_sha256": "cf42a91c7b68f291a7b30fbecdd96cb312a15a58ce5a09246cdc40f94cac765a"
+    },
+    "Gﾋｭｰﾊﾞｰﾄ.ADV": {
+      "japanese_sha256": "66ff10d3a75db6857e3619637205d59cafab4cff8b21dcb540b4a9f158e39d3d",
+      "normalized_sha256": "7ae940ba2ed18876faffdbac7d061c802e511011fe3ecf517896a0a1b74664da",
+      "english_reference_sha256": "f3ce16fa8297af0ef19d0b922ee2200d75fec98f5b92bc58231d37370c4c37ec"
+    }
+  },
+  "rules_sha256": "84f0bcc969eada57b3427bada0934c07f44433e22adcb5a71d860cb91006da05",
+  "method": "Direct handwritten Vietnamese after complete JP/VI scene reading; retained faithful manual text. No MT or bulk pronoun pipeline.",
+  "decisions": [
+    "Hanty tôi/cậu toward Rance, consistent with installed Gﾊﾟｯﾄﾝ batch18; Rance ta/cô. Maris thần/Bệ hạ, calls Hanty cô ấy/ngài Hanty (ハンティ殿), not cô ta.",
+    "Hubert tôi/ngài, Vua Leazas/ông vua for リーザス王/王さん, matching rough but civil 俺/あんた. Rance ta/ngươi. Freya tôi/anh.",
+    "Merged-speaker legacy boxes receive Name「…」 labels instead of new boxes or waits.",
+    "やはり、そうきたか: Rance expected her answer. 子供でも出来たのか: pregnancy joke, not having a child already. 品がない: lacking class, not poise."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "semantic_base": "Verified original Japanese; English reference only.",
+  "verified_source_provenance_sha256": "9282664cf553185e695a9490bd8e0a3dce1876ba2ece7df0bb398a64ceb6577e",
+  "sources": {
+    "Gﾌﾞﾘﾃｨ.ADV": {
+      "japanese_sha256": "3d8ec3e1c3fc1d70b9d68732b0a6a55181c2e7500b459c0db04c81d7a7eebf42",
+      "normalized_sha256": "19025510542ad102e8038670c57eb8f58e414183ef45d4ac2760b7bde3edb5e0",
+      "english_reference_sha256": "305c4b93e12067244e382fd20b1ec8f610ea65774824de66c68753a8f1c2ec03"
+    },
+    "FIGT_A.ADV": {
+      "japanese_sha256": "d991c4d6459bbd049c234c6c37af9b512b11034e4b3e35d97440e21365d330a6",
+      "normalized_sha256": "3121227994313f8b9c7bc8ef5a3534713aa76d5fa3eccb969f2c8b657ed34854",
+      "english_reference_sha256": "7152e2e44316c9ab1723977bf4c5743195f56779f0522190087d926f3b586194"
+    },
+    "Gﾌﾚｲｱ.ADV": {
+      "japanese_sha256": "0b48c2441c0a9abba72ae8bdea26986284235dc0c984f09f360f1f07af0c1279",
+      "normalized_sha256": "682150fad204576f5cee9a9fcff732c7936a4b48d64e9147bc3f52c0734533d5",
+      "english_reference_sha256": "d0a604f8cfc46356f1bb1fa66a5ea5f81d9998e16b0cf16bdc45738a63c8a7f0",
+      "scope": "Targeted city names only."
+    },
+    "SET_MAP.ADV": {
+      "japanese_sha256": "22f0ee45576471e7eec85ff515db6e9f856f70939f36c7221d2e852aec0e3e2d",
+      "normalized_sha256": "22f0ee45576471e7eec85ff515db6e9f856f70939f36c7221d2e852aec0e3e2d",
+      "english_reference_sha256": "ab4edc23717d2c5ff1b420373cb993d8e4afa9a805881afb539df1dc117f7914",
+      "scope": "Targeted city names only."
+    }
+  },
+  "rules_sha256": "253f2a452ac5c4f4a349ee48e853c1289ac0a5391a64bfbeb482ced849ba6f6a",
+  "method": "Direct handwritten Vietnamese after reading every scene and branch; English-derived machine text replaced.",
+  "decisions": [
+    "British is a proper name, never người Anh. Café remains a proper name in the menu and dialogue. British tôi/cậu with Rance/Chaos, tôi/cô with Nikkou, bác/cháu with Julia; Rance ta/ngươi and cô to Nikkou. Chaos ta/ngươi to British. Julia cháu/bác to British and em/Rance to Rance.",
+    "Use Mê cung Sơn tặc, Núi Thăng Long and King Dragon (KD). Ancient statues, three days, several hundred years, eternal youth and immortality-related lore follow Japanese meaning without new detail.",
+    "Preserve the existing number of waits and text clusters; reflow within each box only. Read all dynamic food alternatives and actual menu conditions/targets, not just concatenated group text."
+  ],
+  "city_name_evidence": "city_name_edits.json"
+}

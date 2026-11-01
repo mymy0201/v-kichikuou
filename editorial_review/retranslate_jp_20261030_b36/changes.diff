@@ -1,0 +1,813 @@
+--- before/Gﾚﾘｭｰｺﾌ.ADV
++++ src/Gﾚﾘｭｰｺﾌ.ADV
+@@ -127,11 +127,11 @@
+ 	\L_02576:
+ 	\L_024ce:
+ 	ZH 1:
+-	'Lelyukov: Xin cho gặp con'
+-	R
+-	'gái Amiran... Rance: Muốn'
+-	R
+-	'gặp à?'
++	'Lelyukov: Xin thấy con gái'
++	R
++	'Amiran bình an...'
++	R
++	'Rance: Muốn gặp con à?'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_024ce:
+@@ -222,16 +222,14 @@
+ 	\L_02522:
+ 	\L_024ce:
+ 	ZH 1:
+-	'Ahaha. Ôi, Amiran.'
+-	\L_02583:
+-	\L_02576:
+-	\L_0245e:
+-	ZH 1:
+-	'Ồ... tôi'
+-	R
+-	'đang nghiêm túc đấy, đừng'
+-	R
+-	'cười như thế... Xấu hổ quá.'
++	'Ahaha. Cô Amiran thật là...'
++	\L_02583:
++	\L_02576:
++	\L_0245e:
++	ZH 1:
++	'Ôi... Tôi nói thật mà, đừng'
++	R
++	'cười dữ vậy... Ngượng quá.'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_02506:
+@@ -276,7 +274,7 @@
+ 	\L_02576:
+ 	\L_02496:
+ 	ZH 1:
+-	'Rance đóng rèm.'
++	'Rance khép rèm lại.'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_024ce:
+@@ -291,9 +289,11 @@
+ 	'Xin cho thêm chút nữa...'
+ 	\L_02583:
+ 	ZH 1:
+-	'Xin cho lão thần nói chuyện'
+-	R
+-	'với con. Chỉ một chút...'
++	'Không... Xin cho'
++	R
++	'lão thần nói chuyện'
++	R
++	'với con. Ít nhất...'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_0245e:
+@@ -320,7 +320,7 @@
+ 	\L_02576:
+ 	\L_024ce:
+ 	ZH 1:
+-	'Người... sẽ giữ lời chứ?'
++	'Ngài... không nuốt lời chứ?'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_0245e:
+@@ -404,12 +404,12 @@
+ 	\L_02576:
+ 	\L_0245e:
+ 	ZH 1:
+-	'Ở đây thì chứng đau dây thần'
+-	R
+-	'kinh càng nặng'
+-	\L_02583:
+-	ZH 1:
+-	'nhỉ? Muốn ra không?'
++	'Ở đây, chứng đau dây'
++	R
++	'thần kinh sẽ nặng thêm,'
++	\L_02583:
++	ZH 1:
++	'phải không? Muốn ra chứ?'
+ 	\L_02583:
+ 	ZH 1:
+ 	'Vậy thề làm thuộc hạ cho ta'
+@@ -422,9 +422,11 @@
+ 	'... Không thể...'
+ 	\L_02583:
+ 	ZH 1:
+-	'Dẫu sao lão phu cũng là quân'
+-	R
+-	'nhân Helman kiêu hãnh...'
++	'Dẫu sao, lão phu'
++	R
++	'vẫn là một quân nhân'
++	R
++	'Helman kiêu hãnh...'
+ 	\L_02583:
+ 	ZH 1:
+ 	'Không thể tự bán mình...'
+@@ -477,9 +479,9 @@
+ 	\L_02576:
+ 	\L_024ce:
+ 	ZH 1:
+-	'Có chuyện gì đã'
+-	R
+-	'xảy ra với Helman à?'
++	'Helman đã xảy ra'
++	R
++	'chuyện gì? Nói đi!'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_0245e:
+@@ -531,18 +533,18 @@
+ 	\L_02576:
+ 	\L_0245e:
+ 	ZH 1:
+-	'Rance: Hừ hừ hừ. Lelyukov:'
+-	R
+-	'Bệ hạ nói vậy là sao...?'
+-	\L_02583:
+-	\L_02576:
+-	\L_0245e:
+-	ZH 1:
+-	'Nhìn đây. Rance đưa bộ đồ'
+-	R
+-	'phụ nữ cho Lelyukov xem qua'
+-	R
+-	'song sắt.'
++	'Rance: Hê hê...'
++	R
++	'Lelyukov: Ý ngài là sao...?'
++	\L_02583:
++	\L_02576:
++	\L_0245e:
++	ZH 1:
++	'Nhìn đây. Rance đưa'
++	R
++	'bộ đồ phụ nữ qua song'
++	R
++	'sắt cho Lelyukov xem.'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_024ce:
+@@ -557,9 +559,9 @@
+ 	\L_02576:
+ 	\L_024ce:
+ 	ZH 1:
+-	'T... Tên khốn!! Ngươi đã làm'
+-	R
+-	'gì con gái ta!!'
++	'Ng... Ngươi!! Đã'
++	R
++	'làm gì con gái ta?!'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_0245e:
+@@ -569,17 +571,19 @@
+ 	'bảo hộ cô ấy thôi.'
+ 	\L_02583:
+ 	ZH 1:
+-	'Cứ thế này thì con gái lão,'
+-	\L_02583:
+-	ZH 1:
+-	'với tư cách con gái tướng'
+-	R
+-	'địch, sẽ phải bị xử tử...'
+-	\L_02583:
+-	ZH 1:
+-	'Nhưng nếu lão thành thuộc hạ'
+-	R
+-	'ta,'
++	'Cứ thế này, con gái'
++	R
++	'lão sẽ bị coi là'
++	\L_02583:
++	ZH 1:
++	'con của tướng địch,'
++	R
++	'nên phải chịu xử tử...'
++	\L_02583:
++	ZH 1:
++	'Nhưng nếu lão trở'
++	R
++	'thành thuộc hạ của ta,'
+ 	\L_02583:
+ 	ZH 1:
+ 	'cô ấy sẽ được đối đãi như'
+@@ -587,7 +591,7 @@
+ 	'con gái tướng quân phe ta.'
+ 	\L_02583:
+ 	ZH 1:
+-	'Hèn hạ...'
++	'Lelyukov: Hèn hạ...'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_0245e:
+@@ -604,9 +608,9 @@
+ 	'............'
+ 	\L_02583:
+ 	ZH 1:
+-	'Lão hiểu chứ? Mạng con gái'
+-	R
+-	'lão'
++	'Lão phải hiểu:'
++	R
++	'mạng con gái lão'
+ 	\L_02583:
+ 	ZH 1:
+ 	'tùy vào câu trả lời của lão'
+@@ -616,12 +620,12 @@
+ 	\L_02576:
+ 	\L_024ce:
+ 	ZH 1:
+-	'... Ta... Hiểu...'
+-	\L_02583:
+-	\L_02576:
+-	\L_0245e:
+-	ZH 1:
+-	'Hửm～?'
++	'... Đ... được...'
++	\L_02583:
++	\L_02576:
++	\L_0245e:
++	ZH 1:
++	'Hửm...?'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_024ce:
+@@ -682,12 +686,12 @@
+ 	'Nhưng!'
+ 	\L_02583:
+ 	ZH 1:
+-	'Lão từng là quân nhân'
+-	R
+-	'Helman. Chưa chứng'
+-	\L_02583:
+-	ZH 1:
+-	'minh thật lòng trung thành'
++	'Lão vốn là quân nhân'
++	R
++	'Helman. Chưa rõ lão'
++	\L_02583:
++	ZH 1:
++	'đã thật lòng trung thành'
+ 	R
+ 	'với ta thì chưa được gặp.'
+ 	\L_02583:
+@@ -749,14 +753,14 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Đô thị Archgrad. Trước cuộc'
+-	R
+-	'tiến công của Leazas,'
+-	\L_02583:
+-	ZH 1:
+-	'quân Helman khắp nơi không'
+-	R
+-	'ngơi canh phòng.'
++	'Đô thị quy hoạch Archgrad.'
++	R
++	'Trước cuộc tiến công Leazas,'
++	\L_02583:
++	ZH 1:
++	'quân Helman canh phòng'
++	R
++	'khắp nơi, không ngơi tay.'
+ 	\L_02583:
+ 	ZH 1:
+ 	'Giữa bầu không khí căng'
+@@ -784,7 +788,7 @@
+ 	ZH 1:
+ 	'Thưa cha, con mang'
+ 	R
+-	'đồ ăn đến cho cha.'
++	'cơm hộp tới cho cha.'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_0245e:
+@@ -870,12 +874,14 @@
+ 	\L_02576:
+ 	\L_0245e:
+ 	ZH 1:
+-	'Ha ha ha. Thì ra cảm giác'
+-	\L_02583:
+-	ZH 1:
+-	'trống trải của người cha là'
+-	R
+-	'thế... Khi cha cưới mẹ con,'
++	'Ha ha ha. Thì ra là vậy.'
++	\L_02583:
++	ZH 1:
++	'Cảm giác trống trải'
++	R
++	'của một người cha...'
++	R
++	'Lúc cha cưới mẹ con,'
+ 	\L_02583:
+ 	ZH 1:
+ 	'chắc ông ngoại cũng có cảm'
+@@ -895,11 +901,11 @@
+ 	\L_02576:
+ 	\L_024ce:
+ 	ZH 1:
+-	'Không... Không phải chuyện'
+-	R
+-	'đó... Vì con đã đòi hỏi ích'
+-	R
+-	'kỷ...'
++	'Không... Không phải'
++	R
++	'chuyện đó... Vì con'
++	R
++	'đã quá ích kỷ...'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_0245e:
+@@ -914,11 +920,11 @@
+ 	\L_02576:
+ 	\L_02496:
+ 	ZH 1:
+-	'Cha của Amiran, Lelyukov'
+-	R
+-	'và vợ ông đã kết hôn tại'
+-	R
+-	'một nhà thờ ở thành phố này.'
++	'Lelyukov, cha Amiran,'
++	R
++	'cùng mẹ cô đã làm lễ'
++	R
++	'cưới tại nhà thờ ở đây.'
+ 	\L_02583:
+ 	ZH 1:
+ 	'Từ nhỏ, Amiran đã mơ làm lễ'
+@@ -969,11 +975,11 @@
+ 	\L_02576:
+ 	\L_0245e:
+ 	ZH 1:
+-	'Cha bảo không sao mà. Con'
+-	R
+-	'biết cha mạnh thế nào rồi'
+-	R
+-	'chứ?'
++	'Cha nói không sao'
++	R
++	'rồi mà? Con cũng biết'
++	R
++	'cha mạnh thế nào chứ?'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_024ce:
+@@ -988,11 +994,9 @@
+ 	'con chịu bao khổ cực...'
+ 	\L_02583:
+ 	ZH 1:
+-	'Vì vậy, giờ hãy nghĩ cho'
+-	R
+-	'hạnh phúc của chính mình.'
+-	R
+-	'Nhé?'
++	'Vì vậy, bây giờ hãy nghĩ'
++	R
++	'đến hạnh phúc của mình. Nhé?'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_024ce:
+@@ -1049,9 +1053,9 @@
+ 	'Bẩm,'
+ 	\L_02583:
+ 	ZH 1:
+-	'Archgrad vẫn chưa chuẩn bị'
+-	R
+-	'xong'
++	'Archgrad vẫn chưa'
++	R
++	'chuẩn bị xong'
+ 	\L_02583:
+ 	ZH 1:
+ 	'việc nghênh địch.'
+@@ -1062,35 +1066,35 @@
+ 	'Archgrad,'
+ 	\L_02583:
+ 	ZH 1:
+-	'lùi về Rosesgrad để nghênh'
+-	R
+-	'chiến'
+-	\L_02583:
+-	ZH 1:
+-	'với quân Leazas.'
+-	\L_02583:
+-	\L_02576:
+-	\L_0245e:
+-	ZH 1:
+-	'... Không'
+-	R
+-	'thể tin được... Ngày mai'
+-	R
+-	'là đám cưới của Amiran...'
+-	\L_02583:
+-	ZH 1:
+-	'Họ muốn chúng ta'
+-	R
+-	'rời bỏ thành phố này!?'
+-	\L_02583:
+-	\L_02576:
+-	\L_024ce:
+-	ZH 1:
+-	'Nhưng thưa'
+-	R
+-	'Tướng quân... Mệnh lệnh của'
+-	R
+-	'Bộ chỉ huy là tuyệt đối.'
++	'và nghênh chiến'
++	R
++	'với quân Leazas'
++	\L_02583:
++	ZH 1:
++	'tại Rosesgrad. Đó là'
++	R
++	'lệnh của bộ chỉ huy.'
++	\L_02583:
++	\L_02576:
++	\L_0245e:
++	ZH 1:
++	'... Vô lý... Ngày mai'
++	R
++	'Amiran làm lễ cưới ở đây,'
++	\L_02583:
++	ZH 1:
++	'mà lại bảo bỏ'
++	R
++	'thành phố này sao?!'
++	\L_02583:
++	\L_02576:
++	\L_024ce:
++	ZH 1:
++	'Nhưng thưa Tướng'
++	R
++	'quân... Quân lệnh từ bộ'
++	R
++	'chỉ huy là tuyệt đối.'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_0245e:
+@@ -1262,9 +1266,9 @@
+ 	ZH 1:
+ 	'Theo lệnh Lelyukov, toàn'
+ 	R
+-	'quân lui về Rosesgrad nghênh'
+-	R
+-	'địch.'
++	'quân lui về Rosesgrad,'
++	R
++	'chuẩn bị nghênh địch.'
+ 	\L_02583:
+ 	ZH 1:
+ 	'Riêng một quân nhân vẫn đứng'
+@@ -1284,7 +1288,7 @@
+ 	'một mình ở lại,'
+ 	\L_02583:
+ 	ZH 1:
+-	'công khai trái quân lệnh.'
++	'rõ ràng là trái quân lệnh.'
+ 	\L_02583:
+ 	ZH 1:
+ 	'Ông nhắm mắt, đứng im như'
+@@ -1334,19 +1338,19 @@
+ 	'Sao lại một mình ở đây...?'
+ 	\L_02583:
+ 	ZH 1:
+-	'Làm vậy là trái quân kỷ đấy.'
+-	\L_02583:
+-	\L_02576:
+-	\L_024ce:
+-	ZH 1:
+-	'Ngài cứ trách phạt sau cũng'
+-	R
+-	'được. Phải đấy.'
+-	\L_02583:
+-	ZH 1:
+-	'Tiểu thư Amiran cũng là'
+-	R
+-	'người'
++	'Lelyukov: Trái quân kỷ đấy.'
++	\L_02583:
++	\L_02576:
++	\L_024ce:
++	ZH 1:
++	'Ngài cứ trách phạt'
++	R
++	'sau. Phải rồi,'
++	\L_02583:
++	ZH 1:
++	'tiểu thư Amiran'
++	R
++	'cũng là người'
+ 	\L_02583:
+ 	ZH 1:
+ 	'chúng tôi hết lòng quý mến.'
+@@ -1364,12 +1368,14 @@
+ 	\L_02576:
+ 	\L_024ce:
+ 	ZH 1:
+-	'Chẳng qua học theo cấp trên'
+-	\L_02583:
+-	ZH 1:
+-	'thôi ạ. Cả cái tính bướng'
+-	R
+-	'bỉnh nữa.'
++	'Chẳng qua giống'
++	R
++	'cấp trên thôi ạ.'
++	\L_02583:
++	ZH 1:
++	'Phải đấy. Cả cái'
++	R
++	'tính bướng bỉnh nữa.'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_0245e:
+@@ -1382,9 +1388,9 @@
+ 	'Phụt...'
+ 	\L_02583:
+ 	ZH 1:
+-	'Hừ hừ... Mười người cùng'
+-	R
+-	'cười.'
++	'Khục khục... Mười'
++	R
++	'người cùng cười.'
+ 	\L_02583:
+ 	ZH 1:
+ 	'Dù tình thế ngặt nghèo,'
+@@ -1392,9 +1398,9 @@
+ 	'chẳng ai bi quan.'
+ 	\L_02583:
+ 	ZH 1:
+-	'Ước mơ của một cô gái đã'
+-	R
+-	'sưởi ấm lòng họ.'
++	'Giúp một cô gái thành toàn'
++	R
++	'ước mơ khiến lòng họ ấm áp.'
+ 	\L_02583:
+ 	ZH 1:
+ 	'Chỉ mười người ấy định giữ'
+@@ -1427,7 +1433,7 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'- Đô thị quy hoạch Archgrad'
++	'Đô thị quy hoạch Archgrad'
+ 	\L_02583:
+ 	ZH 1:
+ 	'Một ngày chỉ có Lelyukov'
+@@ -1442,7 +1448,9 @@
+ 	'gái ông.'
+ 	\L_02583:
+ 	ZH 1:
+-	'Quân Leazas không đến.'
++	'Quân Leazas đã'
++	R
++	'không tiến công.'
+ 	\L_02583:
+ 	ZH 1:
+ 	'Trước nhà thờ nơi ông từng'
+@@ -1495,11 +1503,11 @@
+ 	\L_02576:
+ 	\L_024ce:
+ 	ZH 1:
+-	'Con sẽ nhớ mãi lễ cưới ở'
+-	R
+-	'đây... Nhớ cha đã trái quân'
+-	R
+-	'lệnh'
++	'Con sẽ nhớ mãi ngày làm'
++	R
++	'lễ cưới ở đây... Nhớ'
++	R
++	'cha đã trái quân lệnh'
+ 	\L_02583:
+ 	ZH 1:
+ 	'để ở lại... Nhớ những người'
+@@ -1594,9 +1602,11 @@
+ 	'Thoma...'
+ 	\L_02583:
+ 	ZH 1:
+-	'Ta thấy nhẹ cả vai rồi...'
+-	R
+-	'Mệt cũng phải.'
++	'Ta thấy như trút'
++	R
++	'được gánh nặng... Mệt'
++	R
++	'mỏi cũng phải thôi.'
+ 	\L_02583:
+ 	ZH 1:
+ 	'Năm mươi năm làm quân nhân'
+@@ -1604,9 +1614,9 @@
+ 	'nước này...'
+ 	\L_02583:
+ 	ZH 1:
+-	'Những gương mặt quen đều về'
+-	R
+-	'trời'
++	'Những gương mặt quen'
++	R
++	'thuộc đều đã về trời'
+ 	\L_02583:
+ 	ZH 1:
+ 	'hoặc nghỉ hưu... Nhưng ta'
+@@ -1614,12 +1624,14 @@
+ 	'vẫn chiến đấu.'
+ 	\L_02583:
+ 	ZH 1:
+-	'Vì đất nước... Vì mảnh đất'
+-	\L_02583:
+-	ZH 1:
+-	'cho con gái ta hạnh phúc.'
+-	R
+-	'Thoma...'
++	'Vì đất nước này... Và'
++	R
++	'để giữ lấy mảnh đất'
++	\L_02583:
++	ZH 1:
++	'nơi con gái ta được'
++	R
++	'sống hạnh phúc. Thoma...'
+ 	\L_02583:
+ 	ZH 1:
+ 	'Ngày ta đến đó cũng gần rồi.'
+@@ -1644,25 +1656,25 @@
+ 	\L_02522:
+ 	\L_02496:
+ 	ZH 1:
+-	'Doanh trại Leazas. Lều'
+-	R
+-	'Rance. Lelyukov, Tướng Quân'
+-	R
+-	'đoàn 1,'
+-	\L_02583:
+-	ZH 1:
+-	'bị giải đến trước Rance đang'
+-	R
+-	'ngồi ngả ngớn trên ghế.'
+-	\L_02583:
+-	\L_02576:
+-	\L_0245e:
+-	ZH 1:
+-	'Hừm... Cái gì,'
+-	R
+-	'một ông già à? Ta đã mong'
+-	R
+-	'đợi một cô gái dễ thương.'
++	'Bộ chỉ huy tiền tuyến'
++	R
++	'Leazas. Lều Rance.'
++	R
++	'Tướng Lelyukov Berkov'
++	\L_02583:
++	ZH 1:
++	'của Quân đoàn 1 Helman'
++	R
++	'bị giải đến trước Rance'
++	R
++	'ngả ngớn trên ghế.'
++	\L_02583:
++	\L_02576:
++	\L_0245e:
++	ZH 1:
++	'Hừ... Gì chứ, một lão già à.'
++	R
++	'Giá mà là gái xinh thì tốt.'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_024ce:
+@@ -1672,29 +1684,29 @@
+ 	'sao...'
+ 	\L_02583:
+ 	ZH 1:
+-	'Chưa nói đến xuất thân, hắn'
+-	R
+-	'trẻ và đầy'
+-	\L_02583:
+-	ZH 1:
+-	'khí phách. Có vẻ là kẻ lôi'
+-	R
+-	'cuốn,'
+-	\L_02583:
+-	ZH 1:
+-	'dẫn dắt người khác... Nếu'
+-	R
+-	'Helman có'
+-	\L_02583:
+-	ZH 1:
+-	'thủ lĩnh như hắn, thay vì'
+-	R
+-	'Stessel ẻo'
+-	\L_02583:
+-	ZH 1:
+-	'lả, có lẽ chiến cuộc đã'
+-	R
+-	'khác...'
++	'Bỏ qua xuất thân, hắn'
++	R
++	'còn trẻ, đầy khí phách...'
++	\L_02583:
++	ZH 1:
++	'Có vẻ là kẻ biết'
++	R
++	'lôi cuốn, tập hợp,'
++	\L_02583:
++	ZH 1:
++	'dẫn dắt mọi người...'
++	R
++	'Giá mà Helman có'
++	\L_02583:
++	ZH 1:
++	'một thủ lĩnh như hắn,'
++	R
++	'thay vì Stessel yếu ớt,'
++	\L_02583:
++	ZH 1:
++	'thì có lẽ chiến'
++	R
++	'cuộc đã khác...'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_0245e:
+@@ -1731,11 +1743,11 @@
+ 	!VAR0649 : 90!
+ 	\L_0245e:
+ 	ZH 1:
+-	'Hừ... Giết lão già chỉ tổ'
+-	R
+-	'bực mình. Muốn đi đâu thì'
+-	R
+-	'đi.'
++	'Hừ... Giết lão già'
++	R
++	'chỉ tổ khó chịu.'
++	R
++	'Muốn đi đâu thì đi.'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_024ce:
+@@ -1797,7 +1809,9 @@
+ 	'bị tử hình.'
+ 	\L_02583:
+ 	ZH 1:
+-	'Sống lâu vậy'
++	'Lão phải chết. Sống'
++	R
++	'lâu đến thế rồi,'
+ 	\L_02583:
+ 	ZH 1:
+ 	'chắc chẳng còn gì luyến tiếc'
+@@ -1871,14 +1885,12 @@
+ 	'Không thể.'
+ 	\L_02583:
+ 	ZH 1:
+-	'Đến chết, lão phu vẫn là'
+-	R
+-	'quân nhân'
+-	\L_02583:
+-	ZH 1:
+-	'Helman. Không thể phản bội'
+-	R
+-	'chủ quân.'
++	'Đến chết, lão phu vẫn'
++	R
++	'là quân nhân Helman.'
++	\L_02583:
++	ZH 1:
++	'Không thể phản bội chủ quân.'
+ 	\L_02583:
+ 	ZH 1:
+ 	'Thà bị xử tử còn hơn.'
+@@ -1894,7 +1906,7 @@
+ 	'danh dự'
+ 	\L_02583:
+ 	ZH 1:
+-	'như chút từ bi cuối cùng.'
++	'làm ân huệ cuối cùng.'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_0247a:
+@@ -1915,9 +1927,9 @@
+ 	'Được rồi...'
+ 	\L_02583:
+ 	ZH 1:
+-	'Maris. Đưa ông'
+-	R
+-	'già này vào ngục tối.'
++	'Maris, tống lão già'
++	R
++	'này xuống ngục tối.'
+ 	\L_02583:
+ 	\L_02576:
+ 	\L_02530:

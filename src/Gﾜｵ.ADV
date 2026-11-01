@@ -19,41 +19,43 @@
 		\L_016a0:
 		\L_0164c:
 		ZH 1:
-		'Chào Rance. Mừng cậu đến'
+		'Chào Rance. Chào mừng cậu'
 		R
-		'gian hàng của WAO.'
+		'đến gian hàng của WAO.'
 		\L_01771:
 		\L_01764:
 		!VAR0516 : 1!
 		\L_01710:
 		\L_016bc:
 		ZH 1:
-		'Tên này kỳ quặc thật. Nét vẽ'
+		'Tên này kỳ quặc thật.'
 		R
-		'của mỗi mình hắn còn khác'
+		'Lại còn mỗi mình'
 		R
-		'hẳn mọi người nữa.'
+		'hắn nét vẽ khác hẳn.'
 		\L_01771:
 		\L_01764:
 		\L_0164c:
 		ZH 1:
-		'Tôi không kỳ quặc. Tôi là'
+		'Tôi không kỳ quặc. Tôi'
 		R
-		'lập trình viên cơ.'
+		'là lập trình viên cơ.'
 		\L_01771:
 		ZH 1:
-		'Mà chuyện đó chẳng liên'
-		\L_01771:
-		ZH 1:
-		'quan gì cả.'
-		\L_01771:
-		ZH 1:
-		'Thôi, nói dài dòng rắc rối'
+		'Mà chuyện đó chẳng'
 		R
-		'lắm, tôi tự chốt luôn vậy.'
+		'liên quan gì cả.'
 		\L_01771:
 		ZH 1:
-		'Này!'
+		'Thôi thì mấy chuyện rắc rối'
+		\L_01771:
+		ZH 1:
+		'phiền lắm, tôi tự'
+		R
+		'kết thúc luôn vậy.'
+		\L_01771:
+		ZH 1:
+		'Hây!'
 		\L_01771:
 		\L_01764:
 		\L_0171e:
@@ -61,7 +63,9 @@
 		\L_01710:
 		\L_016bc:
 		ZH 1:
-		'Ááá! Lây sang cả ta rồi này!'
+		'Ááá! Lây sang cả'
+		R
+		'ta rồi còn gì!'
 		\L_01771:
 		\L_01764:
 		\L_016ae:
@@ -81,25 +85,29 @@
 	\L_016a0:
 	\L_0164c:
 	ZH 1:
-	'Chào Rance. Mừng cậu đến'
+	'Chào Rance. Chào mừng cậu'
 	R
-	'gian hàng của WAO.'
+	'đến gian hàng của WAO.'
 	\L_01771:
 	\L_01764:
 	!VAR0516 : 383!
 	\L_01710:
 	\L_016d8:
 	ZH 1:
-	'Đây là lần thứ'
+	'Đây là lần'
+	R
+	'thứ '
 	H 0, VAR0775:
 	ZH 1:
-	'ta ghé thăm.'
+	' ta ghé chỗ này.'
 	\L_01771:
 	ZH 1:
-	'Sao ta lại đến đây những'
+	'Sao bản đại gia lại đến'
+	R
+	'đây những '
 	H 0, VAR0775:
 	ZH 1:
-	'lần cơ chứ?'
+	' lần cơ chứ?'
 	\L_01771:
 	\L_01764:
 	{VAR0775 / 10 * 10 = VAR0775:
@@ -135,101 +143,101 @@
 	{VAR0775 / 5 * 5 = VAR0775:
 		\L_0164c:
 		ZH 1:
-		'Chúc mừng lần ghé thăm thứ'
+		'Chúc mừng lần ghé'
+		R
+		'thăm thứ '
 		H 0, VAR0775:
 		ZH 1:
-		'của cậu!'
+		' của cậu!'
 		\L_01771:
 		Y 4, 10:
 		{VAR0000 = 1:
 			ZH 1:
-			'Uống Sauternes trắng này'
+			'Uống Sauternes trắng'
 		}
 		{VAR0000 = 2:
 			ZH 1:
-			'Uống rượu sake này'
+			'Uống rượu sake'
 		}
 		{VAR0000 = 3:
 			ZH 1:
-			'Uống Margarita này'
+			'Uống Margarita'
 		}
 		{VAR0000 = 4:
 			ZH 1:
-			'Uống Gimlet này'
+			'Uống Gimlet'
 		}
 		{VAR0000 = 5:
 			ZH 1:
-			'Uống vang trắng rẻ tiền này'
+			'Uống vang trắng rẻ tiền'
 		}
 		{VAR0000 = 6:
 			ZH 1:
-			'Uống canh miso này'
+			'Uống canh miso'
 		}
 		{VAR0000 = 7:
 			ZH 1:
-			'Uống nước trái cây nóng này'
+			'Uống nước ép nóng hổi'
 		}
 		{VAR0000 = 8:
 			ZH 1:
-			'Uống nước tiểu này'
+			'Uống nước tiểu'
 		}
 		{VAR0000 = 9:
 			ZH 1:
-			'Nuốt nghìn cây kim này'
+			'Nuốt nghìn cây kim'
 		}
 		{VAR0000 = 10:
 			ZH 1:
-			'Uống cáu móng tay này'
+			'Uống cáu móng tay'
 		}
 		ZH 1:
 		R
-		'rồi cùng nhảy múa thâu đêm'
+		'rồi cùng nhảy múa thâu'
 		R
-		'nào. Này, tôi đã chuẩn bị'
+		'đêm nào. Này, tôi chuẩn'
 		R
-		'sẵn hết rồi đấy.'
+		'bị sẵn hết rồi đây.'
 		\L_01771:
 		\L_01764:
 		\L_016d8:
 		ZH 1:
-		'Ồ, hắn đếm kỹ từng lần ta'
+		'Oa, tên này đếm'
 		R
-		'đến'
+		'kỹ từng lần ta đến'
 		\L_01771:
 		ZH 1:
-		'cơ à? Lại còn chuẩn bị sẵn'
+		'cơ à? Lại còn'
 		R
-		'nữa...'
+		'chuẩn bị sẵn nữa...'
 		\L_01771:
 		ZH 1:
-		'Đúng là đồ ngốc.'
+		'Chắc chắn là đồ ngốc.'
 		\L_01771:
 		ZH 1:
 		'Không, là quá rảnh...'
 		\L_01771:
 		ZH 1:
-		'Khoan đã.'
+		'Không, khoan đã.'
 		\L_01771:
 		ZH 1:
-		'Biết đâu hắn giả ngốc để'
+		'Biết đâu hắn giả ngốc'
+		\L_01771:
+		ZH 1:
+		'để dò xét đất nước của ta.'
+		\L_01771:
+		ZH 1:
+		'Phải đề phòng mới được...'
+		\L_01771:
+		ZH 1:
+		'Mà ở cạnh hắn, ta'
 		R
-		'theo dõi đất'
+		'cứ bị lệch nhịp.'
 		\L_01771:
 		ZH 1:
-		'nước của ta. Phải đề phòng'
-		\L_01771:
-		ZH 1:
-		'mới được...'
-		\L_01771:
-		ZH 1:
-		'Mà ở cạnh hắn, ta cứ bị cuốn'
+		'Lúc này chuyện đó'
 		R
-		'theo đến loạn cả lên.'
-		\L_01771:
-		ZH 1:
-		'Lúc này chuyện đó còn đáng'
-		R
-		'lo hơn.'
+		'quan trọng hơn.'
 		\L_01771:
 		\L_01764:
 	}
@@ -244,15 +252,15 @@
 	}
 	ZH 1:
 	$L_006a6$
-	'Chỉ cần nói chuyện'
+	'Cứ nói chuyện đã'
 	$
 	R
 	$L_006fd$
-	'Những điều thú vị'
+	'Chuyện đang thắc mắc'
 	$
 	R
 	$L_00a64$
-	'Thời gian hiện tại'
+	'Hỏi giờ hiện tại'
 	$
 	R
 	$L_00d51$
@@ -268,7 +276,7 @@
 	$
 	R
 	$L_0056c$
-	'Đùa giỡn'
+	'Derude'
 	$
 	]
 	@L_004ed:
@@ -308,18 +316,18 @@
 	\L_016a0:
 	\L_016bc:
 	ZH 1:
-	'Mấy lựa chọn khó hiểu này là'
+	'Mấy lựa chọn khó'
 	R
-	'sao?'
+	'hiểu này là sao?'
 	\L_01771:
 	\L_01764:
 	\L_0164c:
 	ZH 1:
-	'Đààà! Tôi xóa hết rồi, chỉ'
+	'Đààà! Tôi xóa sạch'
 	R
-	'giữ lại số lần cậu đến đây'
+	'rồi, chỉ chừa lại số'
 	R
-	'thôi.'
+	'lần cậu đến đây thôi.'
 	\L_01771:
 	\L_01764:
 	\L_016bc:
@@ -343,7 +351,7 @@
 	\L_016a0:
 	\L_016bc:
 	ZH 1:
-	'Này, nói chuyện gì đó đi.'
+	'Này, nói gì đi chứ.'
 	\L_01771:
 	\L_01764:
 	\L_0164c:
@@ -362,14 +370,14 @@
 		\L_016a0:
 		\L_016bc:
 		ZH 1:
-		'Này, sao chỉ'
+		'Này, sao chỉ mình ngươi'
 		\L_01771:
 		ZH 1:
-		'mình ngươi có nét vẽ kiểu'
+		'vẽ kiểu manga thiếu nữ'
 		R
-		'manga thiếu nữ yaoi, rồi còn'
+		'yaoi đến mức lây sang'
 		R
-		'lây sang cả ta nữa hả?'
+		'cả bản đại gia hả?'
 		\L_01771:
 		\L_01764:
 		\L_0164c:
@@ -414,31 +422,27 @@
 		\L_016a0:
 		\L_016bc:
 		ZH 1:
-		'Ta đang hỏi sao nét vẽ của'
+		'Bản đại gia đang hỏi'
 		R
-		'ngươi trông ghê thế. Trả lời'
+		'sao nét vẽ của ngươi'
 		R
-		'đi.'
+		'ghê thế. Trả lời đi.'
 		\L_01771:
 		\L_01764:
 		\L_0164c:
 		ZH 1:
-		'Tôi thử vẽ thế này để đáp'
-		R
-		'ứng nguyện'
+		'Để đáp ứng nguyện vọng của'
 		\L_01771:
 		ZH 1:
-		'vọng của cả mười lăm fan nữ'
+		'mười lăm fan nữ toàn quốc,'
 		R
-		'trên toàn quốc.'
+		'tôi thử vẽ kiểu này đấy.'
 		\L_01771:
 		ZH 1:
-		'Chẳng có gì để chê'
+		'Chẳng có gì để chê nhỉ.'
 		\L_01771:
 		ZH 1:
-		'nhỉ. Nhưng... còn kiểu khác'
-		R
-		'nữa cơ.'
+		'Nhưng... chưa hết đâu.'
 		\L_01771:
 		\L_01764:
 		\L_016ae:
@@ -451,9 +455,9 @@
 		\L_016a0:
 		\L_0164c:
 		ZH 1:
-		'Còn cả kiểu này nữa. Đẹp'
+		'Còn có kiểu này'
 		R
-		'nhỉ?'
+		'nữa. Đẹp chứ?'
 		\L_01771:
 		\L_01764:
 		\L_016bc:
@@ -485,11 +489,11 @@
 		\L_016a0:
 		\L_016bc:
 		ZH 1:
-		'Ta đang hỏi sao nét vẽ của'
+		'Bản đại gia đang hỏi'
 		R
-		'ngươi trông ghê thế. Trả lời'
+		'sao nét vẽ của ngươi'
 		R
-		'đi.'
+		'ghê thế. Trả lời đi.'
 		\L_01771:
 		\L_01764:
 		\L_0164c:
@@ -519,11 +523,11 @@
 		\L_016a0:
 		\L_016bc:
 		ZH 1:
-		'Ta đang hỏi sao nét vẽ của'
+		'Bản đại gia đang hỏi'
 		R
-		'ngươi trông ghê thế. Trả lời'
+		'sao nét vẽ của ngươi'
 		R
-		'đi.'
+		'ghê thế. Trả lời đi.'
 		\L_01771:
 		\L_01764:
 		\L_0164c:
@@ -546,9 +550,9 @@
 	\L_016a0:
 	\L_016bc:
 	ZH 1:
-	'Này, mấy giờ rồi? Trả lời'
+	'Này, mấy giờ'
 	R
-	'đi.'
+	'rồi? Trả lời đi.'
 	\L_01771:
 	\L_01764:
 	\L_0164c:
@@ -658,7 +662,7 @@
 	\L_01764:
 	\L_016bc:
 	ZH 1:
-	'Ááá! Chi li quá mức rồi!'
+	'Ááá! Chi li quá thể!'
 	\L_01771:
 	\L_01764:
 	\L_016ae:
@@ -672,7 +676,9 @@
 		\L_01710:
 		\L_016bc:
 		ZH 1:
-		'Cái người bên kia là ai thế?'
+		'Cái thứ ở đằng'
+		R
+		'kia là gì thế?'
 		\L_01771:
 		\L_01764:
 		\L_0171e:
@@ -680,11 +686,11 @@
 		\L_01710:
 		\L_0164c:
 		ZH 1:
-		'À, cô ấy là linh vật của'
+		'À, cô này à... Là linh'
 		R
-		'tôi. Tên là Suzu Kisugi,'
+		'vật của tôi. Tên là Suzu'
 		R
-		'thường gọi là Suzu.'
+		'Kisugi, thường gọi là Suzu.'
 		\L_01771:
 		\L_01764:
 		\L_016ae:
@@ -702,9 +708,9 @@
 		\L_01764:
 		\L_016bc:
 		ZH 1:
-		'Ừ, ta rất dịu dàng với con'
+		'Ừ, bản đại gia dịu dàng với'
 		R
-		'gái, cứ yên tâm.'
+		'con gái lắm, cứ yên tâm.'
 		\L_01771:
 		\L_01764:
 		\L_0164c:
@@ -746,22 +752,24 @@
 		\L_01710:
 		\L_016bc:
 		ZH 1:
-		'Em làm gì, Suzu?'
+		'Suzu này, em'
+		R
+		'làm nghề gì thế?'
 		\L_01771:
 		\L_01764:
 		\L_0164c:
 		ZH 1:
-		'Nhìn là biết, tôi là vũ'
+		'Như cậu thấy đấy,'
 		R
-		'công. Nhưng lần'
+		'tôi là vũ công.'
 		\L_01771:
 		ZH 1:
-		'này còn bị nhờ vẽ cả mấy'
+		'Nhưng lần này còn bị bảo vẽ'
 		R
-		'hình yaoi ấy nữa.'
+		'cả mấy hình yaoi kia nữa.'
 		\L_01771:
 		ZH 1:
-		'Ngượng lắm chứ...'
+		'Ngượng chết đi được...'
 		\L_01771:
 		\L_01764:
 		\L_016ae:
@@ -769,9 +777,9 @@
 		\L_016a0:
 		\L_0164c:
 		ZH 1:
-		'Trò làm người ta xấu hổ ấy'
+		'Đó là trò làm người'
 		R
-		'mà.'
+		'ta xấu hổ đấy.'
 		\L_01771:
 		\L_01764:
 		\L_016ae:
@@ -847,66 +855,68 @@
 	\L_01710:
 	\L_01668:
 	ZH 1:
-	'Công việc của tôi là lập'
+	'Công việc của tôi'
 	R
-	'trình.'
+	'là lập trình viên.'
 	\L_01771:
 	ZH 1:
-	'Hầu hết phần nhận thao tác'
+	'Hầu hết phần nhập'
 	R
-	'của người'
+	'liệu khi chơi game'
 	\L_01771:
 	ZH 1:
-	'chơi đều do tôi làm. Mục'
-	R
-	'thống kê các số liệu trong'
+	'đều do tay tôi làm.'
 	\L_01771:
 	ZH 1:
-	'game cũng là tôi thích nên'
+	'Mục số liệu thống kê đủ loại'
 	R
-	'thêm vào, nhưng làm giữa'
+	'là tôi thích nên làm thêm,'
 	\L_01771:
 	ZH 1:
-	'chừng thì ngán quá, thành ra'
+	'nhưng làm giữa chừng'
 	R
-	'dở dang. Nhắc mới nhớ,'
+	'thì ngán. (Dở dang)'
 	\L_01771:
 	ZH 1:
-	'đoạn phim mở đầu vẫn chưa'
+	'Nhắc mới nhớ, phim mở'
 	R
-	'xong. Phải rồi, phần mở'
+	'đầu vẫn chưa xong đâu.'
 	\L_01771:
 	ZH 1:
-	'đầu cũng do tôi phụ trách.'
+	'Phải rồi, phần mở đầu'
+	R
+	'cũng là việc của tôi.'
 	\L_01771:
 	ZH 1:
-	'Đoạn hiện lúc khởi động là'
+	'Đoạn chạy lúc khởi'
 	R
-	'phần dẫn truyện để giải'
+	'động là phần dẫn truyện'
 	R
-	'thích bối cảnh.'
+	'giải thích bối cảnh.'
 	\L_01771:
 	ZH 1:
-	'Còn phim mở đầu thực sự sẽ'
+	'Còn phim mở đầu thực sự được'
 	R
-	'nằm giữa chương đạo tặc và'
+	'chèn giữa chương đạo tặc'
 	R
-	'chương quân phản loạn, thành'
+	'và chương quân phản loạn,'
 	\L_01771:
 	ZH 1:
-	'bố cục hai phần. Tôi để đoạn'
+	'thành bố cục hai phần.'
 	R
-	'mở đầu chạy theo sở thích'
+	'Phần mở đầu chạy theo'
+	R
+	'sở thích của tôi quá đà,'
 	\L_01771:
 	ZH 1:
-	'riêng quá mức, thấy có lỗi'
+	'thấy có lỗi với'
 	R
-	'với đội viết kịch bản nên'
+	'đội viết kịch bản'
 	\L_01771:
 	ZH 1:
-	'mới chọn cách đó. Né khéo'
+	'nên tôi mới làm vậy.'
 	R
-	'đấy chứ?'
+	'Né khéo đấy chứ?'
 	\L_01771:
 	ZH 1:
 	'Hừ hừ...'

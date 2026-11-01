@@ -1,0 +1,265 @@
+--- before/FIGT.ADV
++++ src/FIGT.ADV
+@@ -115,7 +115,7 @@
+ 	G 887, 40:
+ 	{VAR0322 = 1:
+ 		ZH 1:
+-		'［　　Trận đấu　　］'
++		'［ Đấu tay đôi ］'
+ 		{VAR0581 \ 3:
+ 			!VAR0580 : 5000!
+ 		}
+@@ -146,25 +146,25 @@
+ 		ZH 1:
+ 		'＜Đồng bằng:'
+ 		R
+-		'Giới hạn trận chiến）'
++		'số trận đồng thời＞'
+ 	}
+ 	{VAR0322 = 1:
+ 		ZH 1:
+-		'＜Trận đấu:'
++		'＜Đấu tay đôi:'
+ 		R
+-		'Giới hạn trận đấu）'
++		'số trận đồng thời＞'
+ 	}
+ 	{(VAR0580 \ 5000) * (VAR0581 \ 3) * (VAR0322 = 0):
+ 		ZH 1:
+-		'＜Thành phố:'
++		'＜Phố thị:'
+ 		R
+-		'Giới hạn trận chiến）'
++		'số trận đồng thời＞'
+ 	}
+ 	{(VAR0580 \ 5000) * (VAR0581 = 3) * (VAR0322 = 0):
+ 		ZH 1:
+-		'＜Mê cung: Giới'
++		'＜Mê cung:'
+ 		R
+-		'hạn giao chiến）'
++		'số trận đồng thời＞'
+ 	}
+ 	ZH 1:
+ 	R
+@@ -275,11 +275,11 @@
+ 		}
+ 		\L_0509c:
+ 		ZH 1:
+-		'Bầu không khí thối nát'
++		'Không khí ô uế của Vùng'
+ 		R
+-		'của Vùng đất chết chóc đã'
++		'Đất Chết khiến các đơn'
+ 		R
+-		'phá hủy tất cả các đơn vị.'
++		'vị đều có thương vong.'
+ 		\L_05119:
+ 		\L_0510c:
+ 	}
+@@ -457,7 +457,7 @@
+ 			'Trận chiến kéo dài,'
+ 			{VAR0581 \ 3:
+ 				ZH 1:
+-				'trời đã xế chiều.'
++				'trời đã chạng vạng.'
+ 				\L_05119:
+ 			}
+ 			{VAR0581 = 3:
+@@ -541,9 +541,7 @@
+ 	{VAR0322 = 1:
+ 		\L_0509c:
+ 		ZH 1:
+-		'Chúng ta không thể chạy'
+-		R
+-		'trốn khỏi trận chiến này.'
++		'Trận này không thể rút lui.'
+ 		\L_05119:
+ 		\L_0510c:
+ 		@L_00e0d:
+@@ -551,9 +549,9 @@
+ 	{VAR0581 = 3:
+ 		\L_0509c:
+ 		ZH 1:
+-		'Không thể chạy trong'
++		'Trong mê cung chật'
+ 		R
+-		'ngục tối hẹp này được.'
++		'hẹp không thể rút lui.'
+ 		\L_05119:
+ 		\L_0510c:
+ 		@L_00e0d:
+@@ -564,7 +562,7 @@
+ 	$
+ 	R
+ 	$L_00e0d$
+-	'Ngừng rút lui'
++	'Hủy rút lui'
+ 	$
+ 	]
+ 	@L_00e0d:
+@@ -795,16 +793,16 @@
+ 	}
+ 	{VAR0000 = 51:
+ 		ZH 1:
+-		'nhận được lệnh'
++		'nhận lệnh dốc sức'
+ 		R
+-		'tiếp tục tấn công.'
++		'tấn công liên tục.'
+ 		\L_05119:
+ 	}
+ 	{VAR0000 = 52:
+ 		ZH 1:
+-		'nhận được lệnh'
++		'nhận lệnh phòng'
+ 		R
+-		'tiếp tục phòng thủ.'
++		'thủ liên tục.'
+ 		\L_05119:
+ 	}
+ 	\L_0510c:
+@@ -877,7 +875,7 @@
+ 	}
+ 	{VAR0074 \ 0:
+ 		ZH 1:
+-		'Binh chủng:'
++		'Quân số:'
+ 		H 0, VAR0074:
+ 		ZH 1:
+ 		R
+@@ -1041,7 +1039,7 @@
+ 	}
+ 	{VAR0106 \ 0:
+ 		ZH 1:
+-		'Binh chủng:'
++		'Quân số:'
+ 		H 0, VAR0106:
+ 		ZH 1:
+ 		R
+@@ -1058,7 +1056,7 @@
+ 			H 0, VAR0110:
+ 		}
+ 		ZH 1:
+-		') 　　Phòng thủ quân đội:'
++		'） 　　Thủ của binh đoàn:'
+ 		H 0, VAR0109:
+ 		{VAR0111 > 10:
+ 			ZH 1:
+@@ -1285,7 +1283,7 @@
+ 	ZH 1:
+ 	X 1:
+ 	R
+-	'đang tập trung.'
++	'đang tập trung tinh thần.'
+ 	\L_05119:
+ 	\L_0510c:
+ 	\L_03058:
+@@ -1296,9 +1294,9 @@
+ 	ZH 1:
+ 	X 1:
+ 	R
+-	'nhận được lệnh'
+-	R
+-	'liên tục tấn công.'
++	'nhận lệnh dốc sức'
++	R
++	'tấn công liên tục.'
+ 	\L_05119:
+ 	\L_0510c:
+ 	@L_01f7c:
+@@ -1308,9 +1306,9 @@
+ 	ZH 1:
+ 	X 1:
+ 	R
+-	'nhận được lệnh phải'
+-	R
+-	'liên tục phòng thủ.'
++	'nhận lệnh phòng'
++	R
++	'thủ liên tục.'
+ 	\L_05119:
+ 	\L_0510c:
+ 	@L_01f7c:
+@@ -1372,11 +1370,9 @@
+ 	ZH 1:
+ 	X 1:
+ 	R
+-	'chuẩn bị cho'
+-	R
+-	'cuộc tấn công của kẻ'
+-	R
+-	'thù. Tăng phòng thủ:'
++	'chuẩn bị đón đòn của địch.'
++	R
++	'Chỉnh phòng thủ:'
+ 	H 0, VAR0000:
+ 	\L_05119:
+ 	\L_0510c:
+@@ -1719,12 +1715,12 @@
+ 	R
+ 	{VAR0607 \ 0:
+ 		ZH 1:
+-		'Tấn công đặc biệt'
++		'Tuyệt kỹ'
+ 	}
+ 	{VAR0607 = 0:
+ 		{VAR0620 = 0:
+ 			ZH 1:
+-			'Tấn công trực tiếp'
++			'Đột kích'
+ 		}
+ 		{VAR0620 = 1:
+ 			ZH 1:
+@@ -1757,7 +1753,7 @@
+ 	{VAR0607 = 0:
+ 		{VAR0619 = 0:
+ 			ZH 1:
+-			'Tấn công trực tiếp'
++			'Đột kích'
+ 		}
+ 		{VAR0619 = 1:
+ 			ZH 1:
+@@ -3007,12 +3003,12 @@
+ 	\L_0509c:
+ 	{VAR0518 \ 0:
+ 		ZH 1:
+-		'Leazas: Thương vong'
++		'Quân Leazas: Tổng thiệt hại'
+ 		R
+ 	}
+ 	{VAR0518 = 0:
+ 		ZH 1:
+-		'Sơn tặc: Thương vong'
++		'Sơn tặc: Tổng thiệt hại'
+ 		R
+ 	}
+ 	ZH 1:
+@@ -3023,7 +3019,7 @@
+ 	R
+ 	MP 10, 10:
+ 	ZH 1:
+-	': Thiệt hại 　（'
++	': Tổng thiệt hại 　（'
+ 	H 0, VAR0605:
+ 	ZH 1:
+ 	'）'
+@@ -3082,15 +3078,15 @@
+ 	'lên cấp.'
+ 	\L_05119:
+ 	ZH 1:
+-	'Công của chỉ huy +1'
++	'Số đòn của chỉ huy +1'
+ 	R
+ 	{VAR0154 = 25:
+ 		!VAR0075 : VAR0075 + 50!
+ 		!VAR0099 : VAR0075!
+ 		ZH 1:
+-		'Triệu hồi thêm'
++		'Ảo thú triệu hồi'
+ 		R
+-		'50 quái thú ma.'
++		'tăng thêm 50 con.'
+ 		\L_05119:
+ 		\L_0510c:
+ 		\0:

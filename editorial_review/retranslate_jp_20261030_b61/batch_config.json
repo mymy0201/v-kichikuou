@@ -1,0 +1,124 @@
+{
+  "num": 61,
+  "prev": "retranslate_jp_20261030_b61/baseline",
+  "title": "Rick and Hanny complete stories plus three small diagnostic/map scripts",
+  "files": {
+    "Gﾘｯｸ.ADV": {
+      "merged": {
+        "5": [
+          5,
+          6
+        ],
+        "15": [
+          16,
+          17
+        ],
+        "24": [
+          26,
+          27
+        ],
+        "30": [
+          33,
+          34
+        ],
+        "38": [
+          42,
+          43
+        ],
+        "39": [
+          44,
+          45
+        ],
+        "82": [
+          88,
+          89
+        ],
+        "128": [
+          135,
+          136
+        ]
+      },
+      "complete": true,
+      "scope": "All six events: Leila relationship audience, bereavement audience, helmet and monster fear, sparring request, Maris confession and rejection, Wendy corridor teasing. Every utterance and event branch read; adult non-graphic relationship references only, no explicit sexual scene. Faithful recent manual edits retained."
+    },
+    "PCMPLAY.ADV": {
+      "complete": true,
+      "dynamic": [
+        0
+      ],
+      "scope": "Entire PCM dispatch and fallback diagnostic read against original Japanese; translated error prefix, punctuation and both H3 numeric slots retained unchanged."
+    },
+    "WAO_MAP.ADV": {
+      "complete": true,
+      "dynamic": [
+        0
+      ],
+      "scope": "Entire map helper read, including all dispatch cases, coordinate test and fallthrough diagnostic. X/Y labels and both H0 outputs retained; fallthrough error distinguished from an ordinary command error."
+    },
+    "M.ADV": {
+      "complete": true,
+      "scope": "Entire map movement helper read, all dispatch cases and WAO_SUB forwarding retained. Fallthrough diagnostic corrected to a control-flow error."
+    },
+    "Gﾊﾆｰ.ADV": {
+      "merged": {
+        "7": [
+          7,
+          8
+        ],
+        "10": [
+          11,
+          12
+        ],
+        "17": [
+          19,
+          20
+        ],
+        "26": [
+          29,
+          30
+        ],
+        "37": [
+          41,
+          42
+        ],
+        "53": [
+          57,
+          58
+        ],
+        "59": [
+          63,
+          64
+        ],
+        "65": [
+          70,
+          71
+        ],
+        "74": [
+          80,
+          81
+        ],
+        "110": [
+          117,
+          118
+        ]
+      },
+      "menus": [
+        40,
+        58
+      ],
+      "dynamic": [
+        97,
+        100,
+        107
+      ],
+      "complete": true,
+      "scope": "Every event and menu branch: idle summons, arrival with 5000 Haniwa, Julia as nonsexual pet, first/repeat shrine visits, both recruitment outcomes, population-count joke, Julia talent and upgrade, tale and song, power-up/remodel offers and results. Medical nudity remains non-graphic and faithful existing text retained; no erotic scene. All numerical effects and dynamic names preserved."
+    }
+  },
+  "decisions": [
+    "Rick thần/Bệ hạ to Rance, tôi/cô to Maris after she requests less formal address; Maris tôi/ngài to Rick and thần/Bệ hạ to Rance. Rance ta/ngươi. Preserve the scene-specific request to stop using the formal title.",
+    "Merged dialogue/narration explicitly attributed without adding portraits or waits. Adult relationship jokes remain non-graphic. 死神 rendered as Tử thần in this comparison, preserving the actual Japanese epithet rather than replacing it with Xích Quỷ.",
+    "すっぽぬけエラー appears after all dispatch branches: Lỗi luồng. PCM command error remains Lỗi lệnh PCM. Preserve all dynamic number slots and coordinate labels.",
+    "Hanny ta/cậu to Rance or visiting leader, ta/em to Julia; no blanket Bệ hạ for arbitrary expedition leader. Population numbers 2,200,003,270/268/275/257 and attack/defense/HP/attack-count effects retained exactly."
+  ]
+}

@@ -1,0 +1,10179 @@
+--- before/FIGT_M.ADV
++++ src/FIGT_M.ADV
+@@ -60,9 +60,9 @@
+ 		{VAR0156 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Ngài Ex... Xin hãy tha thứ'
+-			R
+-			'cho tôi...'
++			'Ngài Ex... Xin hãy'
++			R
++			'tha thứ cho tôi...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -83,9 +83,9 @@
+ 		{VAR0156 = 4:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Melfeis! Làm'
+-			R
+-			'ơn... Chạy đi...!'
++			'Melfeis! Xin cô'
++			R
++			'đấy... chạy đi...!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			\L_0c515:
+@@ -108,30 +108,28 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tôi là một hiệp sĩ...'
+-			\L_0c576:
+-			ZH 1:
+-			'Tôi sẽ dùng trận'
+-			R
+-			'chiến này để chứng minh'
+-			R
+-			'điều đó với Vua Rance.'
++			'Ta là kỵ sĩ... Trận này ta'
++			R
++			'sẽ chứng minh điều đó...'
++			\L_0c576:
++			ZH 1:
++			'và khiến Vua Rance'
++			R
++			'phải công nhận.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Bây giờ... làm thôi...'
++			'Nào... làm thôi......'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đi thôi! Đừng'
+-			R
+-			'tụt lại phía sau!'
++			'Tiến lên! Đừng để tụt lại!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -142,16 +140,14 @@
+ 			\L_0c4c1:
+ 			{VAR0156 = 1:
+ 				ZH 1:
+-				'Thưa ngài'
+-				R
+-				'Ex... tôi xin lỗi.'
++				'Ngài Ex......... xin lỗi.'
+ 				R
+ 			}
+ 			{VAR0156 = 2:
+ 				ZH 1:
+-				'Haurein... Cảm'
++				'Haurein... cảm'
+ 				R
+-				'giác này thật kỳ lạ...'
++				'giác lạ quá...'
+ 				R
+ 			}
+ 			{VAR0156 = 3:
+@@ -161,9 +157,7 @@
+ 				\L_0c569:
+ 				\L_0c515:
+ 				ZH 1:
+-				'Bây giờ, hãy'
+-				R
+-				'đến với tôi! Melfeis!'
++				'Nào, xông lên đi! Melfeis!'
+ 				\L_0c576:
+ 				\L_0c569:
+ 				\L_0c4c1:
+@@ -179,18 +173,18 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Kh... Tôi không'
+-			R
+-			'giỏi ở tiền tuyến...'
++			'Khự... ta vốn không'
++			R
++			'giỏi đánh giáp lá cà...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Mọi người... Mọi'
+-			R
+-			'người phải cẩn thận...'
++			'Mọi người... đừng'
++			R
++			'liều quá sức nhé...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -256,34 +250,32 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Trận pháp chữ Z! Trực diện'
+-			R
+-			'đột phá, đoạt lấy đầu công!'
++			'Đội hình Z! Đột phá'
++			R
++			'trung tâm, touchdooown!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Không đâu～～～～!!'
+-			R
+-			'Hãy cẩn thận, Sayori!'
+-			\L_0c576:
+-			ZH 1:
+-			'Đây là dấu hiệu tình'
+-			R
+-			'yêu của anh dành cho em!'
++			'Nnaaaa!! Nhìn'
++			R
++			'đây, cô Sayori!'
++			\L_0c576:
++			ZH 1:
++			'Đây là bằng chứng tình'
++			R
++			'yêu anh dành cho em!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Kẻ thù ngay trước mắt! Đồng'
+-			R
+-			'lòng kết trận, liều mình'
+-			R
+-			'xông lên!'
++			'Nào, địch ngay trước mặt!'
++			R
++			'Kết scrum, hăng lên nào!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -293,20 +285,22 @@
+ 		{VAR0618 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tulip Volley! Khai hỏa!'
++			'Tulip, bắn đồng'
++			R
++			'loạt, khai hỏa!'
+ 			\L_0c576:
+ 			{VAR0156 = 55:
+ 				\L_0c569:
+ 				\L_0c4dd:
+ 				ZH 1:
+-				'Xin lỗi nhé... Hubert...'
++				'Xin lỗi... anh Hubert...'
+ 				\L_0c576:
+ 			}
+ 			{VAR0156 = 55:
+ 				\L_0c569:
+ 				\L_0c4dd:
+ 				ZH 1:
+-				'... Chạy đi... Freak...'
++				'...Chạy đi... anh Freak...'
+ 				\L_0c576:
+ 			}
+ 			\L_0c569:
+@@ -317,27 +311,25 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Bình tâm lại. Ngắm cho'
+-			R
+-			'chuẩn, nhất định sẽ trúng'
+-			R
+-			'đích!'
++			'Bình tĩnh. Ngắm kỹ mà'
++			R
++			'bắn thì nhất định trúng.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Yaaahh! Tránh xa ra!!'
++			'Ứ ừ! Đừng lại đây!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Fufufu... Tulip của tôi bất'
+-			R
+-			'khả chiến bại!'
++			'Hư hư... Tulip của'
++			R
++			'ta là vô địch đấy!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -348,18 +340,16 @@
+ 			{VAR0322 = 1:
+ 				\L_0c4c1:
+ 				ZH 1:
+-				'Ngươi đang ngáng đường...'
+-				R
+-				'Mau cút ra!!'
++				'Vướng chân quá... Tránh ra!!'
+ 				\L_0c576:
+ 				\L_0c569:
+ 				%0:
+ 			}
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Toại ý ngươi... Ta sẽ kết'
+-			R
+-			'liễu trận này!'
++			'Như ý ngươi... ta sẽ'
++			R
++			'phân thắng bại cho!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -367,9 +357,7 @@
+ 		{VAR0156 = 109:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Ragaaarl!! Ta sẽ băm xác'
+-			R
+-			'ngươi...!'
++			'Ragaaarl!! Giết...!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -385,7 +373,7 @@
+ 		{VAR0618 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tia laze lửa!'
++			'Fire Laser!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -395,29 +383,25 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4dd:
+ 			ZH 1:
+-			'Rance ngu ngốc! Đừng'
+-			R
+-			'bắt tôi trực tiếp chiến đấu!'
++			'Rance ngốc! Nguy'
++			R
++			'to rồi còn gì!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Chạy là lựa'
+-			R
+-			'chọn tốt nhất... Tôi'
+-			R
+-			'sẽ mở một lối thoát!'
++			'Chạy thì hơn... Mở'
++			R
++			'đường thoát thôi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tôi sẽ không'
+-			R
+-			'chết vì Rance!'
++			'Chết vì Rance á, còn lâu!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -427,11 +411,9 @@
+ 		{VAR0607 \ 0:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Oraoraoraora'
+-			R
+-			'oraoraoraora oraoraoraora'
+-			R
+-			'oraoraoraoraaa!!'
++			'Oraoraoraora oraoraoraora'
++			R
++			'oraoraoraora oraoraoraaa!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -439,7 +421,7 @@
+ 		{VAR0156 = 22:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đi thôi... Lelyukov...'
++			'Lên nào... Lelyukov...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -447,16 +429,14 @@
+ 		{VAR0156 = 32:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tôi có thực'
+-			R
+-			'sự phải chiến đấu với'
+-			R
+-			'ngươi không? Aristoles...'
+-			\L_0c576:
+-			ZH 1:
+-			'Chuyện này'
+-			R
+-			'không hề dễ dàng...'
++			'Không ngờ lại phải'
++			R
++			'đấu với ngươi...'
++			\L_0c576:
++			ZH 1:
++			'Aristoles... Khó'
++			R
++			'ra tay thật...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -464,11 +444,11 @@
+ 		{VAR0156 = 39:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Minevaaa!! Vì em mà'
+-			R
+-			'anh... anh...!! Tôi sẽ không'
+-			R
+-			'bao giờ tha thứ cho ngươi!!'
++			'Minevaaa!! Vì mụ mà'
++			R
++			'ta... ta...!! Tuyệt'
++			R
++			'đối không tha!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -476,11 +456,9 @@
+ 		{VAR0156 = 44:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Phong cách chiến'
+-			R
+-			'đấu của ngươi vẫn lỗi thời'
+-			R
+-			'hơn bao giờ hết... Nero.'
++			'Vẫn lối đánh cổ lỗ'
++			R
++			'như mọi khi... Nero.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -488,9 +466,9 @@
+ 		{VAR0156 = 50:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Rolex... Ngươi vẫn'
+-			R
+-			'đang chiến đấu...?'
++			'Rolex... ông vẫn'
++			R
++			'còn chiến đấu sao...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -500,27 +478,23 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đừng chùn bước! Do dự'
+-			R
+-			'sẽ có nghĩa là cái chết'
+-			R
+-			'nếu ngươi để lộ sơ hở!'
++			'Đừng nao núng! Để lộ sơ'
++			R
++			'hở là cái chết chờ sẵn!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Bướng bỉnh quá!'
+-			R
+-			'Tôi sẽ đánh bại ngươi!'
++			'Ê, láo xược! Hạ nó!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hừm!! Hãy đến với tôi!'
++			'Hừ!! Nào, xông lên đi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -530,9 +504,9 @@
+ 		{VAR0156 = 22:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'... Xin'
+-			R
+-			'lỗi. Tướng Lelyukov...'
++			'......Xin lỗi. Tướng'
++			R
++			'quân Lelyukov...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -540,9 +514,9 @@
+ 		{VAR0156 = 32:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Aristoles... Điều này'
+-			R
+-			'cũng khó khăn với Patton...'
++			'Aristoles... Patton'
++			R
++			'cũng khổ tâm lắm...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -550,9 +524,9 @@
+ 		{VAR0156 = 39:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'......... Tôi sẽ'
+-			R
+-			'không dễ dàng đâu.'
++			'...............Tôi không'
++			R
++			'định nương tay đâu.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -562,30 +536,26 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Giờ thì... Tôi có'
+-			R
+-			'nên làm điều đó không?'
++			'Nào... làm thôi.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hmph... Chiến tranh'
+-			R
+-			'đã diễn ra mãi mãi...'
+-			\L_0c576:
+-			ZH 1:
+-			'Tôi tự hỏi khi'
+-			R
+-			'nào nó mới kết thúc...'
++			'Hừ... đánh mãi, đánh mãi...'
++			\L_0c576:
++			ZH 1:
++			'rồi có bao giờ kết'
++			R
++			'thúc không nhỉ...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Được rồi, đi thôi.'
++			'Nào, đi đây.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -595,9 +565,9 @@
+ 		{VAR0156 = 22:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Ah, anh ngươi... Chúng'
+-			R
+-			'ta đang làm gì vậy...?'
++			'Chà chà... hai lão già'
++			R
++			'làm gì thế không biết...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -648,9 +618,9 @@
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Mgh～～... Mmmmgh...'
+-			R
+-			'... Haah... Tấn công!'
++			'Ưm~~... ưm ưm ưm...'
++			R
++			'phù... Đột kích!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -714,31 +684,27 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đến đây, nhào vô cả đống đi!'
+-			R
+-			'Thằng nào muốn bỏ mạng trước'
+-			R
+-			'thì bước lên!!'
++			'Nào nào nào! Đứa nào'
++			R
++			'muốn chết thì lên'
++			R
++			'trước!! Ta chiều!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Xông lênnn! Kẻ nào rớt lại'
+-			R
+-			'sẽ chịu phạt một chầu đích'
+-			R
+-			'đáng!'
++			'Xung phong! Đứa nào tụt'
++			R
++			'lại thì lát bị phạt đấy!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hừm... Mọi chuyện'
+-			R
+-			'trở nên thú vị rồi.'
++			'Hừ... thú vị rồi đây.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -748,11 +714,11 @@
+ 		{VAR0156 = 32:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Không ngờ lại phải nếm trải'
+-			R
+-			'thực lực của Đệ Nhị Quân…'
+-			R
+-			'trong tình cảnh này…'
++			'Không ngờ lại nếm'
++			R
++			'thực lực Quân đoàn'
++			R
++			'2 trong cảnh này...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -760,9 +726,9 @@
+ 		{VAR0156 = 39:
+ 			\L_0c4dd:
+ 			ZH 1:
+-			'… Rốt cuộc cô đang toan tính'
+-			R
+-			'điều gì… Mineva…'
++			'...............Rốt cuộc'
++			R
++			'mụ tính gì... Mineva...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -770,19 +736,15 @@
+ 		{VAR0156 = 44:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'...'
+-			\L_0c576:
+-			ZH 1:
+-			'Tôi chắc chắn'
+-			R
+-			'rằng ngươi nghĩ tôi'
+-			R
+-			'là một kẻ phản diện,'
+-			\L_0c576:
+-			ZH 1:
+-			'dựa trên tính'
+-			R
+-			'khí của ngươi...'
++			'...Với tính ngươi,'
++			\L_0c576:
++			ZH 1:
++			'chắc hẳn ngươi'
++			R
++			'coi lão là kẻ xấu'
++			\L_0c576:
++			ZH 1:
++			'lắm nhỉ...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -790,11 +752,9 @@
+ 		{VAR0156 = 50:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đã ra nông nỗi ấy, cớ gì'
+-			R
+-			'ngươi phải liều mạng đến'
+-			R
+-			'cùng hả, Rolex...?'
++			'...Đến nước ấy rồi còn lý'
++			R
++			'do gì để chiến đấu, Rolex...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -804,14 +764,12 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4dd:
+ 			ZH 1:
+-			'Amiran... Dù cha có phải'
+-			R
+-			'sống trong tủi nhục cũng'
+-			R
+-			'không sao...'
+-			\L_0c576:
+-			ZH 1:
+-			'Chỉ cần con được an toàn...'
++			'Amiran... lão có sống'
++			R
++			'nhục nhã cũng chẳng sao...'
++			\L_0c576:
++			ZH 1:
++			'chỉ cần con bình an...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -827,9 +785,7 @@
+ 		{VAR0690 = 3:
+ 			\L_0c4dd:
+ 			ZH 1:
+-			'Thomas…… Cứ việc cười nhạo'
+-			R
+-			'lão phu đi…'
++			'Thoma... hãy cười lão đi...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -849,27 +805,27 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'... Tôi xin lỗi...'
++			'...Xin lỗi...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4dd:
+ 			ZH 1:
+-			'... Aah... Tại'
+-			R
+-			'sao lại thế này...?'
++			'......A... sao lại'
++			R
++			'thành ra thế này...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Ờm… toàn quân…… xuất kích…'
+-			R
+-			'xin chớ tản mác ra quá xa'
+-			R
+-			'nhé…'
++			'Ờ... toàn quân...'
++			R
++			'xuất kích... đừng'
++			R
++			'tản ra xa quá nhé...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -881,34 +837,28 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Nào, khởi động một phen xem'
+-			R
+-			'nào! Nhào vô nhào vô! Rất'
+-			R
+-			'hoan nghênh!'
++			'Nào, làm một trận thôi!'
++			R
++			'Nào nào nào! Mời vào~.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tất cả những đứa trẻ'
+-			R
+-			'ngoan khi đánh bại được'
+-			\L_0c576:
+-			ZH 1:
+-			'nhiều kẻ thù sẽ nhận'
+-			R
+-			'được phần thưởng sau này.'
++			'Đứa nào hạ được thật nhiều'
++			\L_0c576:
++			ZH 1:
++			'địch thì lát chị thưởng cho.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Sau trận này mà còn sống trở'
+-			R
+-			'về… thì tốt biết mấy...'
++			'Sống sót trở về'
++			R
++			'được thì tốt nhỉ...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -920,25 +870,23 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hyaaah! Hãy nhận lấy!'
++			'Hây! Đánh đây!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Kyahooo! Nếm mùi này!!'
++			'Kyahoo! Xông lên!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Được rồi, xuất trận thôi!'
+-			R
+-			'Huyễn thú của ta ! Đánh bại'
+-			R
+-			'bọn xấu kia nào!'
++			'Nào, let’s go! Huyễn thú'
++			R
++			'ơi! Hạ bọn xấu đi nào!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -950,25 +898,23 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Huhuhuhuhu... Bentora.'
+-			R
+-			'Mm～... Tuyệt vời...'
++			'Hư hư hư hư... Bentora.'
++			R
++			'Ưm~... Marvelous...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Mm～～... C’est si bon.'
++			'Ưm~~... C’est si bon.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Mm～～... Đánh'
+-			R
+-			'bại chúng thôi.'
++			'Ưmm~~... Hạ chúng thôi nào.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -986,23 +932,19 @@
+ 		{VAR0618 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Mọi người, bắn đi!'
++			'Toàn quân, giương cung!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+ 		}
+ 		\L_0c4dd:
+ 		ZH 1:
+-		'Tôi không ghét'
+-		R
+-		'ngươi, nhưng đây là'
+-		R
+-		'vì gia đình Yamamoto.'
+-		\L_0c576:
+-		ZH 1:
+-		'Xin hãy cho tôi'
+-		R
+-		'cuộc sống của ngươi!'
++		'Ta không oán gì ngài, nhưng'
++		R
++		'đây là vì nhà Yamamoto.'
++		\L_0c576:
++		ZH 1:
++		'Xin lấy mạng ngài!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -1011,11 +953,9 @@
+ 		{VAR0156 = 22:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Bây giờ... Ngươi'
+-			R
+-			'sẽ chiến đấu như thế'
+-			R
+-			'nào? Tướng Lelyukov...'
++			'Nào... ngài sẽ đánh thế'
++			R
++			'nào? Tướng quân Lelyukov...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1023,11 +963,9 @@
+ 		{VAR0156 = 32:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Huhu... Tôi rất vui'
+-			R
+-			'vì có cơ hội được chứng'
+-			R
+-			'kiến kỹ năng của ngươi.'
++			'Hư hư... để xem tài'
++			R
++			'nghệ. Vui quá đi.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1035,9 +973,9 @@
+ 		{VAR0156 = 33:
+ 			\L_0c4dd:
+ 			ZH 1:
+-			'... Trông ngươi có vẻ'
+-			R
+-			'nặng nề... Như mọi khi...'
++			'......Vẫn nặng'
++			R
++			'nề như mọi khi...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1045,14 +983,14 @@
+ 		{VAR0156 = 39:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tướng quân Mineva...?'
+-			\L_0c576:
+-			ZH 1:
+-			'Cách ngươi'
+-			R
+-			'chiến đấu có vẻ hoàn toàn'
+-			R
+-			'trái với quy tắc của tôi...'
++			'Tướng quân Mineva à...'
++			R
++			'xem ra là người đánh'
++			\L_0c576:
++			ZH 1:
++			'ngược hẳn với'
++			R
++			'nguyên tắc của ta...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1060,11 +998,11 @@
+ 		{VAR0156 = 44:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'... Tôi sẽ cho ngươi'
+-			R
+-			'thấy cách ngươi làm mọi'
+-			R
+-			'việc sai lầm như thế nào...'
++			'......Ta sẽ cho ngươi'
++			R
++			'thấm tận xương tủy rằng'
++			R
++			'cách làm của ngươi sai...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1072,9 +1010,9 @@
+ 		{VAR0156 = 50:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Ông vẫn còn mùi'
+-			R
+-			'rượu, Tướng quân Rolex...'
++			'Mùi rượu bay tới tận đây'
++			R
++			'rồi, tướng quân Rolex...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1084,34 +1022,30 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4dd:
+ 			ZH 1:
+-			'Không... Đây không phải là'
+-			R
+-			'một cách chiến đấu đẹp đẽ.'
+-			\L_0c576:
+-			ZH 1:
+-			'Chúng ta phải dùng'
+-			R
+-			'cái đầu của mình...'
++			'Không được... đánh thế'
++			R
++			'này chẳng đẹp chút nào.'
++			\L_0c576:
++			ZH 1:
++			'Phải dùng cái đầu chứ...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4dd:
+ 			ZH 1:
+-			'Chiến đấu trực tiếp là'
+-			R
+-			'điều không lịch sự nhất...'
++			'Giáp lá cà...'
++			R
++			'thật thô thiển...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4dd:
+ 			ZH 1:
+-			'Mọi người, di'
+-			R
+-			'chuyển ra ngoài. Giữ'
+-			R
+-			'bình tĩnh của ngươi.'
++			'Toàn quân, xuất'
++			R
++			'kích. Bình tĩnh nhé.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -1127,11 +1061,9 @@
+ 		{VAR0156 = 72:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Một con quỷ...?'
+-			R
+-			'Tuy nhiên, có điều gì'
+-			R
+-			'đó kỳ lạ ở anh ta...'
++			'Ma Nhân...? Nhưng...'
++			R
++			'có gì đó lạ lạ...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1139,11 +1071,9 @@
+ 		{VAR0156 = 90:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Seizel ngu ngốc.'
+-			R
+-			'Ngươi thậm chí sẽ không nghĩ'
+-			R
+-			'đến cảm xúc của Hawzel...'
++			'Saizel ngốc. Chẳng nghĩ cho'
++			R
++			'cảm xúc của Hawzel gì cả...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1151,9 +1081,9 @@
+ 		{VAR0156 = 91:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Camilla! Ngươi chỉ nên'
+-			R
+-			'nằm xuống và ở yên đó thôi!'
++			'Camilla! Mụ cứ nằm'
++			R
++			'ườn mãi đi là được!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1161,11 +1091,9 @@
+ 		{VAR0156 = 92:
+ 			\L_0c4dd:
+ 			ZH 1:
+-			'Lei, tôi tưởng ngươi'
+-			R
+-			'ghét Kayblis... Tại sao'
+-			R
+-			'ngươi lại đứng về phía hắn?'
++			'Lei lẽ ra ghét Kayblis...'
++			R
++			'sao lại theo phe Kayblis?'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1173,7 +1101,7 @@
+ 		{VAR0156 = 93:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tránh ra, Sieg!'
++			'Đừng cản đường! Sieg!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1181,16 +1109,10 @@
+ 		{VAR0156 = 98:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Có điều gì đó'
+-			R
+-			'kỳ lạ đã xảy ra ở đâu'
+-			R
+-			'đó trên thế giới...'
+-			\L_0c576:
+-			ZH 1:
+-			'Làm sao ngươi'
+-			R
+-			'có thể xuất hiện?!'
++			'Thế gian loạn hết rồi...'
++			\L_0c576:
++			ZH 1:
++			'thứ này mà cũng xuất hiện!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1198,9 +1120,9 @@
+ 		{VAR0156 = 129:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tránh ra, đồ'
+-			R
+-			'ngu ngốc kiên cường!'
++			'Đồ đầu óc chỉ toàn'
++			R
++			'cơ bắp, lui ra!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1208,7 +1130,7 @@
+ 		{VAR0156 = 130:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tôi ghét ngươi, đồ ngốc!'
++			'Satella ghét ngươi, đồ ngốc!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1216,7 +1138,7 @@
+ 		{VAR0156 = 135:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'... Chết đi!!'
++			'......Chết đi!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1226,31 +1148,29 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đi thôi!! Mọi người'
+-			R
+-			'trước mặt tôi đều là kẻ thù'
+-			R
+-			'của tôi! Giết tất cả chúng!'
++			'Lên nào!! Kẻ trước'
++			R
++			'mặt Satella đều là'
++			R
++			'địch! Giết sạch!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Ngươi đang cản đường!'
+-			R
+-			'Nhanh lên và chết đi!'
++			'Lũ các ngươi, vướng'
++			R
++			'víu! Chết nhanh đi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tôi sẽ không gục'
+-			R
+-			'ngã dễ dàng như vậy đâu.'
+-			R
+-			'Hãy chuẩn bị tinh thần!'
++			'Satella không dễ gục'
++			R
++			'thế đâu. Chuẩn bị đi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -1263,7 +1183,7 @@
+ 		{VAR0607 \ 0:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'... Đi thôi.'
++			'...Lên.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1287,9 +1207,7 @@
+ 		{VAR0607 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đi thôi! Cuộc'
+-			R
+-			'tấn công Raaance!'
++			'Lên nào! Raaance Attack!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1297,11 +1215,9 @@
+ 		{VAR0156 = 135:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đó là lỗi'
+-			R
+-			'của ngươi mà Miki... Hãy'
+-			R
+-			'chuẩn bị tinh thần đi!'
++			'Tại ngươi mà'
++			R
++			'Miki... chuẩn bị đi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1311,25 +1227,25 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hả!!!'
++			'Haaaa!!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tôi sẽ không'
+-			R
+-			'chạy trốn! Cố lên!'
++			'Ta không trốn'
++			R
++			'chạy! Nào, đến đây!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Mang nó đi! Tôi'
+-			R
+-			'sẽ đập nát ngươi!'
++			'Nào, đến đây!'
++			R
++			'Ta đập tan cho!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -1339,7 +1255,7 @@
+ 		{VAR0607 \ 0:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Không được nữa!!'
++			'Không chịu nữa đâuuu!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1347,7 +1263,7 @@
+ 		{VAR0156 = 135:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Chào...!! Không, không!'
++			'Hí...!! Không, khônggg!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1357,25 +1273,25 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Không... Tránh xa ra...'
+-			R
+-			'Tôi sợ... Tránh xa ra...!'
++			'Không... đừng lại đây...'
++			R
++			'sợ lắm... đừng lại đây...!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Không!! Ôi trời!!'
++			'Khôngggg!! Mẹ ơiiii!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hick... Úp.. Tôi'
+-			R
+-			'không thích điều này...'
++			'Hức... hức...'
++			R
++			'không muốn mà...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -1387,23 +1303,25 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đến lúc'
+-			R
+-			'ngon rồi! Nyahahaha!'
++			'Julia, xuất'
++			R
++			'kíííích! Nyahahaha!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Lấy cái này đi. Yaaaaaa!!'
++			'Đây nàyyy. Hây hây!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Heheheeeh! Tôi mạnh mẽ!'
++			'Hừm hừm hừ~m!'
++			R
++			'Julia mạnh lắm, ồ!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -1415,34 +1333,34 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4dd:
+ 			ZH 1:
+-			'Tôi sẽ thăng'
+-			R
+-			'tiến trên thế giới...'
+-			\L_0c576:
+-			ZH 1:
+-			'Tôi sẽ làm rất tốt và'
+-			R
+-			'Nhà vua sẽ chấp thuận tôi!'
++			'Ta sẽ thăng'
++			R
++			'tiến... lập công,'
++			\L_0c576:
++			ZH 1:
++			'khiến Bệ hạ phải'
++			R
++			'công nhận ta!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tấn công! Vì'
+-			R
+-			'tương lai của tôi!'
++			'Xung phong! Vì'
++			R
++			'tương lai của ta!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Bay như bướm,'
+-			R
+-			'chích như ong... Đó'
+-			R
+-			'là kiếm pháp của tôi!'
++			'Múa như bướm, chích'
++			R
++			'như ong... đó là'
++			R
++			'kiếm pháp của ta!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -1454,32 +1372,32 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4dd:
+ 			ZH 1:
+-			'Thầy... Chúa ơi...'
+-			R
+-			'Hãy trông chừng con...'
++			'Thầy ơi... Thần linh'
++			R
++			'ơi... xin dõi theo con...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'T-tôi không sợ...'
+-			R
+-			'Tôi sẽ không thất bại...'
+-			\L_0c576:
+-			ZH 1:
+-			'Tôi đã nghĩ điều này'
+-			R
+-			'kỹ càng nhất có thể...'
++			'Kh... không sợ,'
++			R
++			'không thất bại...'
++			\L_0c576:
++			ZH 1:
++			'mình đã suy nghĩ'
++			R
++			'hết sức rồi mà...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Ah... Uh, ừm... tấn'
+-			R
+-			'công thôi. Mọi người...'
++			'A... ờ, cái đó... xung'
++			R
++			'phong thôi, mọi người...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -1491,27 +1409,25 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4dd:
+ 			ZH 1:
+-			'Haah... Đồ giặt'
+-			R
+-			'đang chất đống...'
++			'Phù... đồ giặt dồn'
++			R
++			'đống rồi nhỉ...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4dd:
+ 			ZH 1:
+-			'Leila... Nhìn tôi này.'
+-			R
+-			'Tôi sẽ rút kiếm của mình'
+-			R
+-			'vào vị trí của ngươi ...'
++			'Leila... hãy nhìn nhé. Tôi'
++			R
++			'sẽ rút kiếm thay chị...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tôi đi đây...!'
++			'Tiến lên...!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -1521,9 +1437,7 @@
+ 		{VAR0607 \ 0:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Ánh sáng của Chúa'
+-			R
+-			'tể thanh trừng tà ác!!'
++			'Phá Tà Bá Vương Quang!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1531,16 +1445,16 @@
+ 		{VAR0156 = 101:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Chizuko... Chết'
+-			R
+-			'để bảo vệ Zeth!'
+-			\L_0c576:
+-			\L_0c569:
+-			\L_0c515:
+-			ZH 1:
+-			'Ưu... Không...'
+-			R
+-			'Vua Gandhi...!'
++			'Chizuko à... hãy ngã'
++			R
++			'xuống để bảo vệ Zeth!'
++			\L_0c576:
++			\L_0c569:
++			\L_0c515:
++			ZH 1:
++			'Ư... không... muốn'
++			R
++			'đâu, ngài Gandhi...!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1548,11 +1462,9 @@
+ 		{VAR0156 = 104:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đồ ngốc! Ngươi sẽ'
+-			R
+-			'không bao giờ được'
+-			R
+-			'tha thứ cho Flash!'
++			'Đồ ngốc!! Ta tuyệt đối'
++			R
++			'không tha cho Pika!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1560,9 +1472,9 @@
+ 		{(VAR0156 = 107) + (VAR0156 = 109):
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đây là hình phạt dành'
+-			R
+-			'cho ngươi... Chết đi, Zeth!'
++			'Đây là trừng phạt...'
++			R
++			'diệt vong đi, Zeth!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1570,23 +1482,17 @@
+ 		{VAR0156 = 110:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Bố... Bố đang'
+-			R
+-			'tấn công con đấy à!?'
+-			\L_0c576:
+-			\L_0c569:
+-			\L_0c4c1:
+-			ZH 1:
+-			'Đừng coi thường'
+-			R
+-			'tôi, Phép thuật!'
+-			\L_0c576:
+-			ZH 1:
+-			'Quyết định'
+-			R
+-			'của cha ngươi sẽ không'
+-			R
+-			'bị ảnh hưởng bởi máu!'
++			'Cha... cha nỡ đánh con sao!?'
++			\L_0c576:
++			\L_0c569:
++			\L_0c4c1:
++			ZH 1:
++			'Đừng xem thường, Magic!'
++			\L_0c576:
++			ZH 1:
++			'Quyết tâm của cha không'
++			R
++			'phải thứ lung lay vì máu mủ!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1594,11 +1500,11 @@
+ 		{(VAR0156 = 113) + (VAR0156 = 117):
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đây không chỉ là về Zeth,'
+-			R
+-			'mà là của toàn thể nhân'
+-			R
+-			'loại... Hãy tha thứ cho tôi!'
++			'Ta đặt sự tồn vong của'
++			R
++			'cả nhân loại trên cả'
++			R
++			'Zeth... tha thứ cho ta!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1606,9 +1512,11 @@
+ 		{VAR0156 = 121:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Xin lỗi ông già... Ông sẽ'
+-			R
+-			'phải chịu đau khổ đến cùng.'
++			'Xin lỗi nhé, lão'
++			R
++			'già... đến cuối cùng'
++			R
++			'vẫn bắt ông vất vả.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1616,11 +1524,11 @@
+ 		{VAR0156 = 125:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Nếu ngươi thực sự muốn Phép'
+-			R
+-			'thuật, ngươi sẽ phải đánh'
+-			R
+-			'bại vị vua phản bội này!'
++			'Nếu thật muốn có'
++			R
++			'Magic, hãy đánh bại'
++			R
++			'vị vua phản bội này!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1628,18 +1536,16 @@
+ 		{VAR0156 = 168:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Ôi... Annis. Đã được'
+-			R
+-			'một thời gian rồi, nhưng'
+-			R
+-			'tôi sẽ không dễ dàng đi đâu!'
+-			\L_0c576:
+-			\L_0c569:
+-			\L_0c515:
+-			ZH 1:
+-			'Hả? Ông là'
+-			R
+-			'ai, thưa ông...?'
++			'Hừm... Annis. Lâu rồi'
++			R
++			'không gặp, nhưng ta'
++			R
++			'không nương tay đâu!'
++			\L_0c576:
++			\L_0c569:
++			\L_0c515:
++			ZH 1:
++			'Ơ, chú là ai thế ạ...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1647,7 +1553,7 @@
+ 		{VAR0618 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Laser lửa siêu hoàng gia!!'
++			'Super Royal Fire Laser!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1657,38 +1563,30 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Có vui thì'
+-			R
+-			'lại có đau! Đó là vòng'
+-			R
+-			'quay của nhân loại...'
++			'Có sướng ắt có khổ! Đó là'
++			R
++			'lẽ thường của thế gian...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hãy nhìn vào'
+-			R
+-			'bức tranh toàn cảnh!'
+-			\L_0c576:
+-			ZH 1:
+-			'Vua Rance rõ ràng'
+-			R
+-			'là anh hùng và đấng'
+-			R
+-			'cứu thế của chúng ta!'
++			'Hãy nhìn đại cục!'
++			\L_0c576:
++			ZH 1:
++			'Vua Rance mới là dũng'
++			R
++			'giả, là cứu tinh!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hãy tha thứ'
+-			R
+-			'cho tôi! Trận chiến này'
+-			R
+-			'cũng là vì nhân loại!'
++			'Tha thứ cho ta! Cuộc chiến'
++			R
++			'này cũng là vì nhân loại!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -1698,7 +1596,7 @@
+ 		{VAR0607 \ 0:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hoooohohohoh! Tia'
++			'Hô hô hô hô! Tia'
+ 			R
+ 			'Hắc Hủy Diệt!!'
+ 			\L_0c576:
+@@ -1708,23 +1606,21 @@
+ 		{VAR0156 = 104:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tôi đã nghĩ'
+-			R
+-			'về điều đó sau khi Vua'
+-			R
+-			'Gandhi mắng tôi, và...'
+-			\L_0c576:
+-			ZH 1:
+-			'Đúng vậy, Flash rất tệ.'
+-			\L_0c576:
+-			\L_0c569:
+-			\L_0c515:
+-			ZH 1:
+-			'Ah, sao cậu'
+-			R
+-			'có thể thế được?! Thật'
+-			R
+-			'kinh khủng, Chizukooo!'
++			'Từ hồi bị ngài Gandhi'
++			R
++			'mắng tôi đã nghĩ lại...'
++			\L_0c576:
++			ZH 1:
++			'quả nhiên Pika'
++			R
++			'là không tốt, ừm.'
++			\L_0c576:
++			\L_0c569:
++			\L_0c515:
++			ZH 1:
++			'A, ác thế! Quá đáng'
++			R
++			'lắm đó, Chizuko!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1732,11 +1628,9 @@
+ 		{VAR0156 = 110:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Khi nào thì ngươi'
+-			R
+-			'mới hết bướng bỉnh!?'
+-			R
+-			'Nhanh lên và đầu hàng!'
++			'Định cứng đầu đến bao'
++			R
++			'giờ!? Mau đầu hàng đi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1744,14 +1638,12 @@
+ 		{(VAR0156 = 113) + (VAR0156 = 125):
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hừm, trông cậu'
+-			R
+-			'thật vô tâm... Tôi không bao'
+-			R
+-			'giờ chịu đựng được điều đó.'
+-			\L_0c576:
+-			ZH 1:
+-			'Đây là cơ hội của tôi!'
++			'Hừ, cái mặt tỉnh bơ... từ'
++			R
++			'lâu ta đã ngứa mắt rồi.'
++			\L_0c576:
++			ZH 1:
++			'Đúng dịp đây!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1760,22 +1652,22 @@
+ 			{VAR0618 = 1:
+ 				\L_0c4c1:
+ 				ZH 1:
+-				'Tôi đang chiến đấu'
++				'Ta chiến đấu vì Vua'
+ 				R
+-				'vì Vua Rance... Đừng nghĩ'
++				'Rance... đừng trách'
+ 				R
+-				'xấu về tôi. Tia bóng tối!!'
++				'nhé. Ám Hắc Quang!!'
+ 				\L_0c576:
+ 				\L_0c569:
+ 				%0:
+ 			}
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Vua Rance...'
+-			R
+-			'Tôi sẽ không phản bội ngài,'
+-			R
+-			'kể cả vì quê hương của tôi!'
++			'Vua Rance... Chizuko'
++			R
++			'cũng không quay lưng'
++			R
++			'với tổ quốc đâu!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1783,9 +1675,7 @@
+ 		{VAR0618 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hohohohohoh, Tia'
+-			R
+-			'sáng bóng tối!!'
++			'Hô hô hô hô, Ám Hắc Quang!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1795,35 +1685,31 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4dd:
+ 			ZH 1:
+-			'Tôi đang'
+-			R
+-			'cố gắng hết sức... Xin đừng'
+-			R
+-			'bỏ rơi tôi... Vua Rance...'
++			'Chizuko cố gắng thế'
++			R
++			'này... xin đừng bỏ rơi'
++			R
++			'em nhé... Vua Rance...'
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Kh... Tôi sẽ không'
+-			R
+-			'bước sang một bên.'
+-			\L_0c576:
+-			ZH 1:
+-			'Tôi sẽ không'
+-			R
+-			'thể đối mặt với Vua'
+-			R
+-			'Rance nếu tôi làm vậy!'
++			'Khự... không được lùi,'
++			\L_0c576:
++			ZH 1:
++			'không thì chẳng còn mặt'
++			R
++			'mũi nào gặp Vua Rance!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hô hô hô hô!'
+-			R
+-			'Đi tìm Vua Rance!'
++			'Hô hô hô hô, tiến'
++			R
++			'lên đi, vì Vua Rance!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -1841,11 +1727,9 @@
+ 		{VAR0156 = 101:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Xin lỗi, Chizuko. Tôi'
+-			R
+-			'đã nhận được lệnh, vì vậy'
+-			R
+-			'hãy để tôi tấn công ngươi.'
++			'Xin lỗi nhé, Chizuko. Lệnh'
++			R
++			'mà, nên cho ta tấn công.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1853,14 +1737,14 @@
+ 		{VAR0156 = 104:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Papaya, hãy kết thúc'
+-			R
+-			'cuộc chiến vô ích này đi...'
+-			\L_0c576:
+-			ZH 1:
+-			'Dừng nghiên cứu điên'
+-			R
+-			'cuồng của ngươi và đầu hàng!'
++			'Papaya, thôi tranh'
++			R
++			'chấp vô ích đi...'
++			\L_0c576:
++			ZH 1:
++			'dừng nghiên cứu nguy'
++			R
++			'hiểm, đầu hàng ngay!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1868,11 +1752,11 @@
+ 		{VAR0156 = 107:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Nagi... Tôi đã từng'
+-			R
+-			'chiến đấu với ngươi trước'
+-			R
+-			'đây. Ngươi đừng làm tôi sợ.'
++			'Nagi... không ngờ'
++			R
++			'lại đánh với ngươi.'
++			R
++			'Chẳng vui chút nào.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1880,14 +1764,12 @@
+ 		{VAR0156 = 109:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tôi khác với bố tôi...'
+-			\L_0c576:
+-			ZH 1:
+-			'Tôi biết sự'
+-			R
+-			'tồn tại của ngươi là vô giá'
+-			R
+-			'trị đối với Zeth, Ragarl.'
++			'Ta khác cha ta...'
++			\L_0c576:
++			ZH 1:
++			'ta hiểu ngươi chẳng có'
++			R
++			'ích gì cho Zeth, Ragarl.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1895,9 +1777,9 @@
+ 		{(VAR0156 = 113) + (VAR0156 = 117) + (VAR0156 = 121):
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Xin lỗi... Mọi người'
+-			R
+-			'hãy tha thứ cho tôi...'
++			'Xin lỗi... tha thứ'
++			R
++			'cho tôi, mọi người...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1906,25 +1788,22 @@
+ 			{VAR0618 = 1:
+ 				\L_0c4c1:
+ 				ZH 1:
+-				'Mọi người...'
++				'Mọi người... mau đầu'
+ 				R
+-				'Đầu hàng ngay!'
++				'hàng! Giờ không được'
+ 				R
+-				R
+-				'Bây giờ không phải là'
+-				R
+-				'lúc thách thức anh ta...!'
++				'chống lại gã đó...!'
+ 				\L_0c576:
+ 				\L_0c569:
+ 				%0:
+ 			}
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Cố tình để tôi đối mặt'
+-			R
+-			'với Zeth... Ngài đang thử'
+-			R
+-			'thách tôi à, Vua Rance...?!'
++			'Cố tình bắt ta đánh'
++			R
++			'Zeth... định thử ta'
++			R
++			'sao, Vua Rance...!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1932,7 +1811,7 @@
+ 		{VAR0618 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Uuuum... Laser lửa.'
++			'Ờ... Fire Laser.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -1942,34 +1821,28 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hãy kết thúc chuyện này'
+-			R
+-			'nhanh chóng và về nhà thôi.'
+-			\L_0c576:
+-			ZH 1:
+-			'Tôi sẽ khiếu nại với'
+-			R
+-			'Vua Rance vì mệnh lệnh này!'
++			'Xong nhanh rồi về thôi.'
++			\L_0c576:
++			ZH 1:
++			'Bố trí thế này, ta sẽ'
++			R
++			'phàn nàn với Vua Rance!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đừng liều lĩnh... Ngươi'
+-			R
+-			'sẽ hoàn toàn là một kẻ ngốc'
+-			R
+-			'nếu chết trong chiến tranh.'
++			'Đừng liều nhé... chết vì'
++			R
++			'chiến tranh là ngu nhất đấy.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Chà, hãy làm điều'
+-			R
+-			'này mà không chết.'
++			'Thôi, cố mà đừng chết.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -1987,7 +1860,7 @@
+ 		{VAR0618 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tia laze lửa.'
++			'Fire Laser.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2004,14 +1877,14 @@
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'... Đi.'
++			'.........Tiến.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Mọi người, tấn công.'
++			'Toàn quân, xông lên.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -2021,9 +1894,7 @@
+ 		{(VAR0156 = 90) + (VAR0156 = 91) + (VAR0156 = 92) + (VAR0156 = 93) + (VAR0156 = 129) + (VAR0156 = 133) + (VAR0156 = 134):
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hãy đến đây.'
+-			R
+-			'Điều này sẽ rất vui.'
++			'Lại đây nào. Vui lắm.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2031,9 +1902,9 @@
+ 		{VAR0156 = 98:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Này này... Nghiêm'
+-			R
+-			'túc đấy à? Nhạt nhẽo.'
++			'Này này... thật'
++			R
++			'à, chịu không nổi.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2041,9 +1912,7 @@
+ 		{VAR0156 = 135:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đừng mắng mỏ'
+-			R
+-			'tôi quá nhiều, Kayblis.'
++			'Đừng hành tôi quá, Kayblis.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2053,25 +1922,23 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hãy kết thúc nhanh'
+-			R
+-			'chóng và đi ăn thôi!'
++			'Xong nhanh rồi đi ăn thôi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hyaaah! Wahahahahahaha.'
++			'Ora ora! Wahahahaha.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Martinaaa! Tôi muốn ramen'
+-			R
+-			'ngay khi tôi quay trở lại!'
++			'Martinaaa! Sắp về'
++			R
++			'rồi, nấu mì ramen nhé!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -2081,21 +1948,19 @@
+ 		{VAR0618 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tia tình ngươi!!'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c4c1:
+-		ZH 1:
+-		'Tôi xin lỗi... tới'
+-		R
+-		'những người sẽ gục ngã'
+-		R
+-		'trong trận chiến này...'
+-		\L_0c576:
+-		ZH 1:
+-		'Hãy tha thứ cho tôi...'
++			'Tia Thân Thiết!!'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c4c1:
++		ZH 1:
++		'Xin lỗi... những người ngã'
++		R
++		'xuống trong trận này...'
++		\L_0c576:
++		ZH 1:
++		'xin tha thứ...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2104,11 +1969,9 @@
+ 		{VAR0156 = 54:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Patton... Tôi'
+-			R
+-			'sẽ không làm điều gì ích kỷ'
+-			R
+-			'như cầu xin sự tha thứ. Đến.'
++			'Patton... ta không trơ trẽn'
++			R
++			'xin con tha thứ. Đến đây.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2116,11 +1979,9 @@
+ 		{VAR0156 = 55:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'... Tôi không quan tâm nếu'
+-			R
+-			'ngươi ghét tôi... Hubert...'
+-			R
+-			'Hãy bảo vệ Patton cho tôi.'
++			'...Cứ oán ta cũng được...'
++			R
++			'Hubert... hãy bảo vệ Patton.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2128,14 +1989,12 @@
+ 		{VAR0156 = 56:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'... Tôi đã làm'
+-			R
+-			'những gì tôi mong muốn...'
+-			\L_0c576:
+-			ZH 1:
+-			'Không cần phải'
+-			R
+-			'nương tay đâu, Quái vật.'
++			'......Là điều'
++			R
++			'ta tự nguyện...'
++			\L_0c576:
++			ZH 1:
++			'không cần nương tay, Freak.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2143,9 +2002,9 @@
+ 		{VAR0156 = 57:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tôi tự hỏi ngươi'
+-			R
+-			'nghĩ gì về tôi, Hanty...'
++			'Trong mắt cô, ta là'
++			R
++			'thế nào nhỉ, Hanty...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2155,29 +2014,29 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đi! Chúng tôi sống'
+-			R
+-			'vì Hoàng hậu Sheila!!'
++			'Tiến lên! Vì công chúa'
++			R
++			'của chúng ta, Sheila!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đi thôi! Chiến thắng'
+-			R
+-			'đang ở trước mắt chúng ta!'
++			'Tiến lên! Chiến'
++			R
++			'thắng ngay trước mắt!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hoàng hậu Sheila...'
+-			R
+-			'Xin hãy cầu nguyện cho'
+-			R
+-			'chiến thắng của chúng ta.'
++			'Bệ hạ Sheila... xin'
++			R
++			'cầu nguyện cho chiến'
++			R
++			'thắng của chúng thần.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -2186,7 +2045,7 @@
+ 	{VAR0154 = 44:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Chúng ta sẽ vượt qua!!'
++		'Chinh phạt!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2195,9 +2054,7 @@
+ 		{VAR0735 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tuyệt quá!! Đối'
+-			R
+-			'với tiểu thư...'
++			'Tiến lênnn!! Vì Lady...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2205,9 +2062,9 @@
+ 		{(VAR0156 = 90) + (VAR0156 = 91) + (VAR0156 = 92) + (VAR0156 = 93) + (VAR0156 = 98) + (VAR0156 = 129) + (VAR0156 = 130) + (VAR0156 = 131) + (VAR0156 = 132) + (VAR0156 = 133) + (VAR0156 = 134):
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Một con quỷ... Đừng'
+-			R
+-			'chần chừ! Đưa họ đi!'
++			'Ma Nhân... không'
++			R
++			'nương tay! Nhận lấy!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2215,11 +2072,9 @@
+ 		{VAR0156 = 135:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Chắc hẳn ngươi là'
+-			R
+-			'thủ lĩnh của lũ quỷ...'
+-			R
+-			'Hừm... Ta ghét ngươi!'
++			'Ra ngươi là trùm Ma'
++			R
++			'Nhân... hừm... ghét!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2229,9 +2084,7 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Phí!! Các em là'
+-			R
+-			'những cô gái ngoan nên'
++			'Xung phong!! Các em ngoan,'
+ 			R
+ 			'đừng để bị thương nhé!'
+ 			\L_0c576:
+@@ -2240,16 +2093,14 @@
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hãy tập trung!'
+-			R
+-			'Đừng giật mình!'
++			'Vững vàng! Đừng sợ!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đi thôi! Hãy theo tôi!'
++			'Đi nào! Theo ta!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -2259,7 +2110,7 @@
+ 		{VAR0618 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hyaaaaah!! Sét!'
++			'Hâyyy!! Lôi Kích!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2269,27 +2120,23 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Xin lỗi! Sẽ'
+-			R
+-			'rất đau đấy, nhưng hãy'
+-			R
+-			'cố gắng chịu đựng nhé!'
++			'Xin lỗi! Đau đấy,'
++			R
++			'nhưng ráng chịu nhé!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hyaah! Huhu.'
++			'Hây! Hư hư.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Vâng! Tôi sẽ'
+-			R
+-			'cố gắng hết sức!'
++			'Vâng! Em sẽ cố!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -2299,7 +2146,7 @@
+ 		{VAR0607 \ 0:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Sóng tăng vọt loại 2!!'
++			'Nhị Vũ Hào Tường Phá!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2307,7 +2154,7 @@
+ 		{VAR0156 = 54:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Patton... Xin lỗi.'
++			'Patton... xin lỗi nhé.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2315,17 +2162,15 @@
+ 		{VAR0156 = 55:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Hubert...?'
+-			\L_0c576:
+-			ZH 1:
+-			'Tôi chưa bao giờ nghĩ'
+-			R
+-			'việc trở thành kẻ thù'
+-			\L_0c576:
+-			ZH 1:
+-			'của ai đó lại có'
+-			R
+-			'cảm giác tồi tệ đến thế.'
++			'Hubert à...'
++			\L_0c576:
++			ZH 1:
++			'Không ngờ phải'
++			R
++			'đối địch với cậu'
++			\L_0c576:
++			ZH 1:
++			'lại khó chịu đến thế.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2333,7 +2178,7 @@
+ 		{VAR0156 = 56:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đi thôi, Quái đản!'
++			'Lên nào... Freak!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2341,9 +2186,9 @@
+ 		{VAR0156 = 57:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Một người phụ nữ'
+-			R
+-			'đáng sợ xuất hiện à...?'
++			'Bà chị đáng sợ'
++			R
++			'xuất hiện rồi à...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2353,25 +2198,25 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tôi không sợ chết!'
+-			R
+-			'Đừng cản đường tôi!'
++			'Chết thì đừng trách!'
++			R
++			'Đừng đứng chắn trước ta!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Vâng!!'
++			'Hây!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Tấn công! Ngươi sẽ'
+-			R
+-			'chết nếu chần chừ!'
++			'Xuất kích! Chùn'
++			R
++			'bước là chết đấy!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -2380,7 +2225,7 @@
+ 	{(VAR0154 = 48) * (VAR0730 = 1):
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Ái chà. Ái chà.'
++		'Ai dà, ai dà.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2391,25 +2236,23 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Gyahahahaha!! Chết'
+-			R
+-			'đi, chết đi!! Chết tiệt!!'
++			'Kyahahaha!! Chết đi,'
++			R
++			'chết đi!! Chết hết đi!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Ừa!! Chết tiệt!!'
++			'Oraaaa!! Chết đi!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Gyahahaha!! Tôi'
+-			R
+-			'sẽ giết ngươi!'
++			'Kyahaha!! Giết sạch!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -2421,11 +2264,9 @@
+ 		{VAR0690 = 1:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Vì ngươi đã trở thành'
+-			R
+-			'kẻ thù của ta nên ta không'
+-			R
+-			'thể để ngươi sống được.'
++			'Đã thành kẻ thù của ta'
++			R
++			'thì ta không để sống đâu.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -2439,9 +2280,9 @@
+ 		{VAR0690 = 3:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Đừng nghĩ rằng ngươi'
+-			R
+-			'sẽ sống sót trở về nhà.'
++			'Nghĩ còn sống trở về'
++			R
++			'được là sai lầm đấy.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -2451,9 +2292,7 @@
+ 		{VAR0097 = 9:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Menad... Tôi đã'
+-			R
+-			'bảo vệ ngươi rồi!'
++			'Menad, để tôi hỗ trợ!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2461,11 +2300,9 @@
+ 		{VAR0097 = 449:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Này, quyến rũ. Tôi sẽ'
+-			R
+-			'hỗ trợ ngươi. Đừng quên.'
+-			R
+-			'Ngươi nợ tôi một ân huệ.'
++			'Anh đẹp trai. Em giúp một'
++			R
++			'tay nhé. Nhớ đấy, ơn này.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2473,11 +2310,9 @@
+ 		{VAR0097 = 72:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Ông Gandhi. Hãy để tôi'
+-			R
+-			'giúp ngươi phát huy hết khả'
+-			R
+-			'năng ít ỏi của mình. Vâng!'
++			'Ngài Gandhi. Xin góp'
++			R
++			'chút sức mọn. Hây!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2485,16 +2320,12 @@
+ 		{VAR0097 = 71:
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'Ngươi hết cách'
+-			R
+-			'rồi, Phép thuật.'
+-			\L_0c576:
+-			ZH 1:
+-			'Đừng để tâm'
+-			R
+-			'trí ngươi lang thang'
+-			R
+-			'trên chiến trường. Taaah!'
++			'Magic, sao ủ rũ thế.'
++			\L_0c576:
++			ZH 1:
++			'Ra chiến trường đừng'
++			R
++			'nghĩ chuyện khác. Hây!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2507,9 +2338,11 @@
+ 		{VAR0154 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Vua Rance... Nếu'
+-			R
+-			'ngươi không lên ngôi thì...'
++			'Vua Rance... giá ngài'
++			R
++			'đừng lên làm vua, thì đã'
++			R
++			'không ra nông nỗi này...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2517,9 +2350,9 @@
+ 		{VAR0154 = 7:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Thật kỳ lạ khi thấy'
+-			R
+-			'anh ở phía bên kia, Rick...'
++			'Thấy cậu ở phía bên kia,'
++			R
++			'cảm giác thật lạ, Rick...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2529,27 +2362,25 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Bây giờ, đi'
+-			R
+-			'thôi... Đây sẽ là một cuộc'
+-			R
+-			'chiến đau đớn, nhưng...'
++			'Nào, đi thôi... một trận'
++			R
++			'chiến đau lòng, nhưng...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Tấn công.'
++			'......Xuất kích.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Nếu tôi thắng... Liệu'
+-			R
+-			'tôi có hạnh phúc không...?'
++			'......Thắng rồi... liệu'
++			R
++			'mình có vui không...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -2559,11 +2390,11 @@
+ 		{VAR0154 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Giá như không'
+-			R
+-			'có anh ở bên, cha tôi'
+-			R
+-			'đã không mất danh dự!'
++			'Giá không có ngươi,'
++			R
++			'cha ta đã không'
++			R
++			'phải mang tiếng xấu!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2571,16 +2402,18 @@
+ 		{VAR0154 = 6:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Thưa cha!! Tôi sẽ'
+-			R
+-			'không dễ dàng đâu,'
+-			R
+-			'ngay cả với ngươi!!'
+-			\L_0c576:
+-			\L_0c569:
+-			\L_0c4c1:
+-			ZH 1:
+-			'Haurein... Đồ ngốc!'
++			'Phụ thân!! Dù đối thủ'
++			R
++			'là người, con cũng'
++			R
++			'không nương tay!!'
++			\L_0c576:
++			\L_0c569:
++			\L_0c4c1:
++			ZH 1:
++			'Haurein... đồ'
++			R
++			'con gái ngu xuẩn!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2590,27 +2423,27 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Mọi người, vì Leazas, hãy'
+-			R
+-			'mở mắt ra! Ngươi không được'
+-			R
+-			'tin tưởng vị vua tàn bạo đó!'
++			'Vì Leazas, mọi người'
++			R
++			'hãy tỉnh lại! Đừng'
++			R
++			'tin tên bạo chúa đó.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Làm ơn! Hãy nghe tôi!'
++			'Xin các người! Hãy nghe ta!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Đây là vì đất nước chúng'
+-			R
+-			'ta! Tôi không tin mình sai!'
++			'Đây cũng là vì đất nước!'
++			R
++			'Ta không nghĩ mình sai!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -2620,14 +2453,12 @@
+ 		{VAR0154 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ngươi có phải là'
+-			R
+-			'Rance không?!! Đồ khốn nạn,'
+-			R
+-			'cướp đất nước của chúng ta!'
+-			\L_0c576:
+-			ZH 1:
+-			'Tôi sẽ trừng phạt ngươi.'
++			'Ngươi là Rance hả!!'
++			R
++			'Đồ ác ôn cướp nước!'
++			\L_0c576:
++			ZH 1:
++			'Lão sẽ trừng trị ngươi.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2635,11 +2466,11 @@
+ 		{VAR0154 = 6:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Barres... Ông'
+-			R
+-			'chắc hẳn đã già lắm'
+-			R
+-			'rồi... Thật thảm hại!'
++			'Barres... ông lẩm'
++			R
++			'cẩm đến thế rồi'
++			R
++			'sao... Thật thảm hại!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2647,34 +2478,30 @@
+ 		{VAR0154 = 7:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Rick, vẫn chưa quá muộn'
+-			R
+-			'đâu. Hãy đến với chúng tôi.'
+-			\L_0c576:
+-			\L_0c569:
+-			\L_0c4c1:
+-			ZH 1:
+-			'Không, cảm ơn... Ngươi'
+-			R
+-			'đang hiểu nhầm Vua Rance.'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Chúng tôi không cùng'
+-		R
+-		'một quốc gia. Ngươi đã'
+-		R
+-		'bị lừa bởi một kẻ xấu.'
+-		\L_0c576:
+-		ZH 1:
+-		'Hãy nắm lấy'
+-		R
+-		'nắm đấm của công lý và mở'
+-		R
+-		'rộng tầm mắt của ngươi.'
++			'Rick à, giờ vẫn chưa muộn'
++			R
++			'đâu. Sang bên này đi.'
++			\L_0c576:
++			\L_0c569:
++			\L_0c4c1:
++			ZH 1:
++			'Không... chính ông mới'
++			R
++			'hiểu lầm Vua Rance.'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'Dù cùng một nước, các'
++		R
++		'ngươi đã bị kẻ ác lừa gạt.'
++		\L_0c576:
++		ZH 1:
++		'Hãy nhận nắm đấm công'
++		R
++		'lý mà tỉnh ngộ đi.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2683,18 +2510,18 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tia sét!! Phù hợp'
+-			R
+-			'với thời gian tụng kinh!'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Xin hãy lùi lại!'
+-		R
+-		'Tôi không muốn giết ngươi!'
++			'Lôi Kích!! Niệm'
++			R
++			'chú cho khớp nhịp!'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'Xin hãy lùi lại! Tôi'
++		R
++		'không muốn giết các người!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2702,11 +2529,9 @@
+ 	{VAR0156 = 5:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Chúng tôi tin'
+-		R
+-		'tưởng vào Ngài Ex. Vì'
+-		R
+-		'lợi ích của Leazas...'
++		'Bọn ta tin ngài Ex.'
++		R
++		'Vì Leazas này...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2714,9 +2539,9 @@
+ 	{VAR0156 = 6:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Đi thôi! Vì niềm'
+-		R
+-		'tin của chúng tôi!'
++		'Tiến lên! Vì niềm'
++		R
++		'tin của chúng ta!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2724,7 +2549,7 @@
+ 	{VAR0156 = 7:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Leazas muôn năm!!'
++		'Leazas vạn tuếếế!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2735,36 +2560,30 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Wahahahaha! Tôi'
+-			R
+-			'hoàn toàn bất khả chiến'
+-			R
+-			'bại! Taaaaaackle!!'
++			'Wahahaha! Ta đây siêu'
++			R
++			'vô địch! Taaaackle!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Huhuhuhuhu. Ngươi'
+-			R
+-			'có nghĩ rằng ngươi có thể'
+-			R
+-			'giành chiến thắng trước tôi?'
+-			\L_0c576:
+-			ZH 1:
+-			'Thần bóng đá đang'
+-			R
+-			'đứng về phía tôi!'
++			'Hư hư hư hư hư. Tưởng'
++			R
++			'thắng được ta sao?'
++			\L_0c576:
++			ZH 1:
++			'Ta có thần bóng'
++			R
++			'bầu dục phù hộ đấy!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hãy cầm lấy cái'
+-			R
+-			'này! Trò chơi công lý!'
++			'Nhận lấy! Cú try công lý!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -2773,11 +2592,9 @@
+ 	{VAR0156 = 9:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Leazas đang lấy'
+-		R
+-		'đi tự do của chúng'
+-		R
+-		'tôi. Giết chúng đi!'
++		'Hạ Leazas, kẻ cướp'
++		R
++		'tự do của chúng ta!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2785,7 +2602,7 @@
+ 	{VAR0156 = 10:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Tôi không sợ!'
++		'Bọn ta không sợ đâu nhé!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2793,11 +2610,9 @@
+ 	{VAR0156 = 11:
+ 		\L_0c515:
+ 		ZH 1:
+-		'... Tôi xin'
+-		R
+-		'lỗi... Nhưng... tôi'
+-		R
+-		'phải chiến đấu...'
++		'...Xin lỗi... nhưng...'
++		R
++		'tôi phải chiến đấu...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2805,9 +2620,11 @@
+ 	{VAR0156 = 12:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Chết đi, vì thần tượng'
+-		R
+-		'của chúng ta, thị trưởng!'
++		'Vì thần tượng của chúng'
++		R
++		'ta, ngài thị trưởng,'
++		R
++		'xin các người chết đi!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2823,9 +2640,9 @@
+ 	{VAR0156 = 14:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Đừng chùn'
+-		R
+-		'bước! Đẩy, đẩy, đẩy!'
++		'Đừng nao núng!'
++		R
++		'Đẩy, đẩy, đẩy tới!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2833,11 +2650,9 @@
+ 	{VAR0156 = 15:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Tại sao các'
+-		R
+-		'người lại bắt đầu cuộc'
+-		R
+-		'chiến này, đồ ngốc?!!'
++		'Sao lại gây chiến'
++		R
++		'hả, đồ ngốc!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2845,9 +2660,7 @@
+ 	{VAR0156 = 16:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Ngươi sẽ không'
+-		R
+-		'vượt qua được!'
++		'Không cho qua đâu!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2855,9 +2668,11 @@
+ 	{VAR0156 = 17:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Castellas, thuốc lá, tôi'
+-		R
+-		'cũng không cho ngươi đâu.'
++		'Castella, thuốc lá,'
++		R
++		'thứ nào cũng không giao'
++		R
++		'cho các người đâuuu.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2865,7 +2680,7 @@
+ 	{VAR0156 = 18:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Chết đi và biến thành cát!'
++		'Chết đi rồi thành cát!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2881,7 +2696,7 @@
+ 	{VAR0156 = 20:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Ngươi sẽ chết trước tôi!'
++		'Chết trước ta đi!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2889,9 +2704,7 @@
+ 	{VAR0156 = 21:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Cho phép tôi'
+-		R
+-		'chiến đấu với ngươi.'
++		'Xin được giao chiến.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -2900,9 +2713,7 @@
+ 		{VAR0154 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Vua của Leazas. Hãy'
+-			R
+-			'chuẩn bị tinh thần!'
++			'Vua Leazas. Chuẩn bị đi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2910,9 +2721,9 @@
+ 		{VAR0154 = 6:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Cho phép tôi đấu'
+-			R
+-			'với ngươi lần này nhé.'
++			'Ta vẫn mong được đấu'
++			R
++			'với ngài một lần.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2920,11 +2731,9 @@
+ 		{VAR0154 = 18:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hoàng tử'
+-			R
+-			'Patton... Ngươi có ghét'
+-			R
+-			'Helman đến thế không?'
++			'Hoàng tử Patton... ngài'
++			R
++			'hận Helman đến thế sao?'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2932,9 +2741,9 @@
+ 		{VAR0154 = 19:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tôi không muốn đánh nhau,'
+-			R
+-			'nhưng... Đây là vì Helman!'
++			'Ta không muốn đánh... nhưng'
++			R
++			'đây cũng là vì Helman!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2942,7 +2751,7 @@
+ 		{VAR0154 = 20:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ông Quái Dị...'
++			'Ngài Freak......'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2950,9 +2759,9 @@
+ 		{VAR0154 = 21:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Đi thôi,'
+-			R
+-			'con trai của Thomas.'
++			'......Lên nào,'
++			R
++			'con trai Thoma.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2960,11 +2769,11 @@
+ 		{VAR0154 = 43:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Hoàng hậu Sheila có'
+-			R
+-			'quan trọng với ngài đến thế'
+-			R
+-			'không, ngài Aristoles...?'
++			'...Bệ hạ Sheila quan'
++			R
++			'trọng với ngài đến thế'
++			R
++			'sao, ngài Aristoles...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2972,9 +2781,9 @@
+ 		{VAR0154 = 47:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ngài Rolex... Ngài'
+-			R
+-			'đang làm gì ở đó vậy?'
++			'Ngài Rolex... sao'
++			R
++			'ngài lại ở phía đó...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -2984,27 +2793,23 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Leazas cặn bã...'
+-			R
+-			'Hãy chuẩn bị tinh thần!'
++			'Lũ Leazas... chuẩn bị đi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tấn công! Giả sử'
+-			R
+-			'lập trường chiến đấu!'
++			'Tấn công! Chỉnh'
++			R
++			'đốn đội hình!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tiến lên toàn'
+-			R
+-			'quân. Tấn công.'
++			'Toàn quân, tiến. Đánh.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -3013,7 +2818,7 @@
+ 	{VAR0156 = 23:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Ôi!'
++		'Nuooaaa!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3021,11 +2826,11 @@
+ 	{VAR0156 = 24:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Chết tiệt, Leazas!'
+-		R
+-		'Hành động của ngươi là hoàn'
+-		R
+-		'toàn không thể tha thứ được!'
++		'Khốn kiếp, lũ Leazas!'
++		R
++		'Bọn ta tuyệt đối'
++		R
++		'không thua các ngươi!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3033,7 +2838,7 @@
+ 	{VAR0156 = 25:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Uwaaah!!'
++		'Uooaa!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3043,7 +2848,7 @@
+ 		ZH 1:
+ 		'Giết, giết, giết...'
+ 		R
+-		'Giết, giết, giết...'
++		'giết, giết, giết...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3051,9 +2856,9 @@
+ 	{VAR0156 = 27:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Vì tướng'
+-		R
+-		'Lelyukov! Vì quê hương!'
++		'Vì ngài Lelyukov!'
++		R
++		'Vì tổ quốc!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3061,9 +2866,9 @@
+ 	{VAR0156 = 28:
+ 		\L_0c531:
+ 		ZH 1:
+-		'Cô Amiran... Anh'
+-		R
+-		'luôn khao khát em...'
++		'Tiểu thư Amiran... tôi vẫn'
++		R
++		'luôn thầm thương người...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3071,11 +2876,9 @@
+ 	{VAR0156 = 29:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Leazas cặn'
+-		R
+-		'bã... Ngươi nghĩ ngươi có'
+-		R
+-		'thể tốt hơn chúng tôi...?'
++		'Lũ Leazas... tưởng'
++		R
++		'thắng được bọn ta sao...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3083,9 +2886,9 @@
+ 	{VAR0156 = 30:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Tấn công,'
+-		R
+-		'tấn công... Attaaack!!'
++		'Trúng đi, trúng'
++		R
++		'đi... trúng điii!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3093,16 +2896,12 @@
+ 	{(VAR0156 = 31) * (VAR0518 = 0):
+ 		\L_0c515:
+ 		ZH 1:
+-		'Đối thủ của chúng'
+-		R
+-		'ta là những tên trộm...'
+-		\L_0c576:
+-		ZH 1:
+-		'Một nhóm kẻ'
+-		R
+-		'yếu đuối. Tỷ lệ cược là với'
+-		R
+-		'chúng tôi. Đừng chùn bước.'
++		'Đối thủ là đám sơn tặc...'
++		\L_0c576:
++		ZH 1:
++		'chỉ là lũ tép riu. Thắng'
++		R
++		'thế ở ta. Đừng nao núng.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3111,9 +2910,9 @@
+ 		{VAR0154 = 22:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tướng'
+-			R
+-			'Lelyukov... Tại sao!?'
++			'Tướng quân'
++			R
++			'Lelyukov... tại sao!?'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3123,27 +2922,25 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Kh... Leazas'
+-			R
+-			'cặn bã... Làm sao mà'
+-			R
+-			'ngươi đến được đây...?!'
++			'Khự... lũ Leazas... sao'
++			R
++			'lại đến tận chỗ này...!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Chưa... Còn quá sớm để'
+-			R
+-			'nghĩ đến việc thua cuộc...'
++			'Chưa đâu... nghĩ mình'
++			R
++			'thua thì còn sớm...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Kh... Tệ quá...'
++			'Khự... sao lại...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -3153,11 +2950,11 @@
+ 		{VAR0154 = 22:
+ 			\L_0c531:
+ 			ZH 1:
+-			'Tại sao Tướng Lelyukov,'
+-			R
+-			'trong số tất cả mọi người,'
+-			R
+-			'lại đứng về phía Leazas...?'
++			'Tại sao người như'
++			R
++			'tướng quân Lelyukov'
++			R
++			'lại về phe Leazas...?'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3165,7 +2962,7 @@
+ 		{VAR0154 = 18:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Patton... Ngươi còn sống...?'
++			'Patton... cậu còn sống à...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3173,11 +2970,9 @@
+ 		{VAR0154 = 19:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Huhu... Tình'
+-			R
+-			'huống này... đã trở'
+-			R
+-			'nên khá buồn cười rồi.'
++			'Hư hư... tình cảnh này...'
++			R
++			'đã thành hài kịch rồi.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3185,11 +2980,9 @@
+ 		{VAR0154 = 20:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tôi chưa từng'
+-			R
+-			'nghĩ mình sẽ phải giao'
+-			R
+-			'chiến với ngài Freak...'
++			'Đấu với ngài Freak...'
++			R
++			'chưa từng nghĩ tới...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3197,11 +2990,9 @@
+ 		{VAR0154 = 21:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Đây không phải'
+-			R
+-			'là cách tôi nghĩ chúng ta'
+-			R
+-			'sẽ gặp lại nhau, Hubert...'
++			'Gặp lại theo cách thế'
++			R
++			'này sao, Hubert...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3211,34 +3002,26 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Cái này dành cho'
+-			R
+-			'Hoàng hậu Sheila. Leazas...'
+-			\L_0c576:
+-			ZH 1:
+-			'Tôi không có ý gì'
+-			R
+-			'chống lại ngươi, nhưng cho'
+-			R
+-			'phép tôi tiêu diệt ngươi.'
++			'Vì Bệ hạ Sheila. Leazas...'
++			\L_0c576:
++			ZH 1:
++			'ta không oán hận gì, nhưng'
++			R
++			'các người phải diệt vong.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Có lập trường'
+-			R
+-			'đúng đắn. Đi thôi...'
++			'Thủ thế. Lên nào......'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tiến lên!'
+-			R
+-			'Tiêu diệt Leazas!'
++			'Tiến! Đánh Leazas!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -3248,9 +3031,9 @@
+ 		{VAR0154 = 18:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Cái gì?! Có'
+-			R
+-			'phải là một con ma?'
++			'Trời đất!! Không'
++			R
++			'phải ma đấy chứ?'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3258,11 +3041,9 @@
+ 		{VAR0154 = 19:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Waaah... Đây'
+-			R
+-			'không phải là loại cô gái'
+-			R
+-			'mà tôi muốn chiến đấu.'
++			'Ui chao... phải đánh'
++			R
++			'với người mình ngại rồi.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3270,7 +3051,7 @@
+ 		{VAR0154 = 20:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ôi~. Hãy tha thứ cho tôi.'
++			'Ui~. Tha cho tôi đi mà.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3278,11 +3059,9 @@
+ 		{VAR0154 = 21:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Agh, anh'
+-			R
+-			'ngươi... Đây thực sự là'
+-			R
+-			'một chàng trai cứng rắn~!'
++			'Gì vậy trời... chuyện'
++			R
++			'lớn rồi, thật đấy~!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3290,25 +3069,21 @@
+ 		{VAR0154 = 22:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ôi trời!? Ngươi đang'
+-			R
+-			'làm cái quái gì vậy?!'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Yepyepyepyep.'
+-		R
+-		'Ngươi sẽ chết ～.'
+-		\L_0c576:
+-		ZH 1:
+-		'Nếu cậu nguyền'
+-		R
+-		'rủa ai đó, hãy nguyền rủa'
+-		R
+-		'người đã ra lệnh cho tôi~.'
++			'Ối ối!? Cái gì thế này!'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'Rồi rồi rồi rồi.'
++		R
++		'Chết cho êm nhé~.'
++		\L_0c576:
++		ZH 1:
++		'Có oán thì oán'
++		R
++		'người ra lệnh ấy~.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3316,11 +3091,9 @@
+ 	{VAR0156 = 34:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Hoàng hậu'
+-		R
+-		'Sheila... Chúng ta chiến'
+-		R
+-		'đấu vì Hoàng hậu Sheila...'
++		'Bệ hạ Sheila... chúng'
++		R
++		'thần vì Bệ hạ Sheila...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3328,11 +3101,11 @@
+ 	{VAR0156 = 35:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Có lẽ ông'
+-		R
+-		'Stessel sẽ khen ngợi tôi nếu'
+-		R
+-		'tôi giành chiến thắng ở đây…'
++		'Thắng trận này, liệu'
++		R
++		'ngài Stessel có khen'
++		R
++		'mình không nhỉ...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3340,7 +3113,7 @@
+ 	{VAR0156 = 36:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Tôi đi đây.'
++		'Xin xuất trận.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3348,11 +3121,9 @@
+ 	{VAR0156 = 37:
+ 		\L_0c531:
+ 		ZH 1:
+-		'Những con quái'
+-		R
+-		'vật dễ thương, dễ thương'
+-		R
+-		'của tôi... Uhu... Uhuhu...'
++		'Lũ ma vật dễ thương, dễ'
++		R
++		'thương... ư hư... ư hư hư...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3360,9 +3131,9 @@
+ 	{VAR0156 = 38:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Hu～... Hu～...'
+-		R
+-		'Huhu... Hu～...'
++		'Phù~... phù~...'
++		R
++		'hư hư... phù~...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3371,9 +3142,9 @@
+ 		{VAR0154 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Heheh... Đánh nhau với'
+-			R
+-			'cậu vui lắm đấy cậu bé.'
++			'Khục khục... đánh với'
++			R
++			'cậu nhóc vui thật đấy.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3381,7 +3152,7 @@
+ 		{VAR0154 = 18:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Ngươi vẫn còn sống...'
++			'......Đồ sống sót dở dang...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3389,9 +3160,7 @@
+ 		{VAR0154 = 19:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Hmph... Anh ta là'
+-			R
+-			'một đứa con hoang vô dụng.'
++			'......Hừ... thằng con rơi.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3399,7 +3168,9 @@
+ 		{VAR0154 = 20:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hiện tại, ma có chân.'
++			'Ma bây giờ cũng có'
++			R
++			'chân đàng hoàng nhỉ.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3407,7 +3178,7 @@
+ 		{VAR0154 = 21:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Thôi chết đi, tóc đỏ!'
++			'Nào, chết đi. Cậu ấm!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3417,25 +3188,23 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Bây giờ ai'
+-			R
+-			'muốn chết trước? Ngươi!?'
++			'Nào, đứa nào muốn'
++			R
++			'chết trước? Ngươi à!?'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ahahaha!! Thật là vui.'
++			'A ha ha ha!! Vui ghê.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Bây giờ, ta sẽ'
+-			R
+-			'cho ngươi cái chết!'
++			'Nào, để ta giết cho!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -3447,23 +3216,21 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Uwaaah!!'
++			'Uooaa!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Ngươi sẽ'
+-			R
+-			'không vượt qua được.'
++			'......Không cho qua.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Đi thôi.'
++			'......Lên.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -3475,25 +3242,25 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'K-Không... Tôi sợ...'
+-			R
+-			'Mineva... Cứu tôi với...'
++			'Kh... không... sợ quá...'
++			R
++			'chị ơi... cứu em...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Không! Tôi sợ, tôi sợ quá!'
++			'Khônggg! Sợ, sợ lắm!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hii... Hiiii! Mọi'
+-			R
+-			'người, chiến đấu đi!'
++			'Hí... híii! Mọi'
++			R
++			'người, đánh đi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -3502,7 +3269,9 @@
+ 	{VAR0156 = 42:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Hyaaah!! Đồ ngu... Diiie!'
++		'Oraoraoraa!! Đồ'
++		R
++		'khốn... chết đi!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3510,9 +3279,9 @@
+ 	{VAR0156 = 43:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Gyahahahaha!! Hyaaah!'
+-		R
+-		'Chết đi, chết tiệt!'
++		'Kyahahaha!! Ora!'
++		R
++		'Chết, chết đi!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3521,9 +3290,7 @@
+ 		{VAR0154 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hãy chết vì'
+-			R
+-			'ta, Vua của Leazas.'
++			'Xin hãy chết đi. Vua Leazas.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3532,13 +3299,11 @@
+ 			\L_0c515:
+ 			ZH 1:
+ 			'Hoàng tử Patton...'
+-			\L_0c576:
+-			ZH 1:
+-			'Anh đã phản bội chúng'
+-			R
+-			'tôi à? Trong trường hợp'
+-			R
+-			'đó, tôi sẽ không nương tay.'
++			R
++			'ngài phản bội sao.'
++			\L_0c576:
++			ZH 1:
++			'Nếu vậy, ta không nương tay.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3546,11 +3311,9 @@
+ 		{VAR0154 = 28:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Kem! Đồ phản'
+-			R
+-			'bội!! Đây là lý do tại sao'
+-			R
+-			'tôi không tin tưởng phụ nữ!'
++			'Cream! Đồ phản bội!! Thế'
++			R
++			'nên đàn bà không đáng tin!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3558,9 +3321,7 @@
+ 		{VAR0154 = 43:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Aristole...! Ngươi'
+-			R
+-			'không có lòng trung thành?!'
++			'Aristoles...! Đồ bất trung!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3568,7 +3329,7 @@
+ 		{VAR0154 = 47:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Đồ phản bội say rượu!!'
++			'Đồ phản bội nghiện rượu!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3578,20 +3339,16 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Kẻ yếu đuối...'
+-			R
+-			'chướng mắt quá. Hãy dọn'
+-			R
+-			'sạch chúng ngay lập tức.'
++			'Lũ tép riu... chướng'
++			R
++			'mắt. Dọn sạch cho nhanh.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Chúng tôi là'
+-			R
+-			'hiệp sĩ của Helman!'
++			'Chúng ta là kỵ sĩ Helman!'
+ 			R
+ 			'Đừng quên điều đó!'
+ 			\L_0c576:
+@@ -3600,9 +3357,9 @@
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tấn công!! Đừng để kẻ'
+-			R
+-			'thù nhìn thấy lưng ngươi!'
++			'Xung phong!! Không được'
++			R
++			'quay lưng trước địch!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -3614,34 +3371,30 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Chiến đấu trực tiếp...'
+-			\L_0c576:
+-			ZH 1:
+-			'Thật không lịch sự. Tôi'
+-			R
+-			'cho rằng đó là cách chiến'
+-			R
+-			'đấu phù hợp cho Leazas.'
++			'Giáp lá cà...'
++			\L_0c576:
++			ZH 1:
++			'thô thiển quá. Nhưng'
++			R
++			'lại hợp với Leazas.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Bây giờ, sạc. Nhưng'
+-			R
+-			'đừng làm điều gì ngu ngốc.'
++			'Nào, xung phong. Nhưng'
++			R
++			'đừng làm gì ngu ngốc nhé.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Aah... Cảm giác thật'
+-			R
+-			'ngột ngạt... Tôi muốn trì'
+-			R
+-			'hoãn cuộc chiến lâu hơn.'
++			'Aa... ngột ngạt quá...'
++			R
++			'muốn đánh thoải mái hơn cơ.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -3650,7 +3403,7 @@
+ 	{VAR0156 = 46:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Haaaaaaah!!'
++		'Haaa!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3658,9 +3411,9 @@
+ 	{VAR0156 = 47:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Uwaaa!!! Uwah...'
+-		R
+-		'Tránh xa ra, tránh ra!'
++		'Uwaaa!!! Uwa... đừng'
++		R
++		'lại đây... đừng lại đây!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3668,11 +3421,11 @@
+ 	{VAR0156 = 48:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Tiêu diệt'
+-		R
+-		'chúng! Đừng để một người'
+-		R
+-		'đàn ông không hề hấn gì!'
++		'Bắn, bắn đi! Không'
++		R
++		'để sót một tên, làm'
++		R
++		'chúng bị thương hết!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3680,7 +3433,7 @@
+ 	{VAR0156 = 49:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Huhu~...'
++		'Phù~...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3689,9 +3442,9 @@
+ 		{VAR0154 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Hmmm... Vua'
+-			R
+-			'của Leazas à...? Hehe...'
++			'......Hừm... vua Leazas'
++			R
++			'đấy à... hề hề...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3699,11 +3452,11 @@
+ 		{VAR0154 = 18:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Hoàng tử'
+-			R
+-			'Patton? Trời ạ... Rượu có'
+-			R
+-			'làm tôi mất hứng không...?'
++			'......Ngài Patton?'
++			R
++			'Nguy rồi... rượu ngấm'
++			R
++			'lên đầu rồi chắc...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3711,7 +3464,7 @@
+ 		{VAR0154 = 21:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hubert...? Tại sao...?'
++			'Hubert...? Sao lại...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3719,9 +3472,9 @@
+ 		{VAR0154 = 22:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Có một người'
+-			R
+-			'trông giống ngài Lelyukov...'
++			'Có đứa giống ngài'
++			R
++			'Lelyukov ghê...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3729,7 +3482,7 @@
+ 		{VAR0154 = 43:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Aristole...?'
++			'Aristoles...?'
+ 			\L_0c569:
+ 			%0:
+ 		}
+@@ -3738,29 +3491,27 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ugh... Những kẻ ngáng'
+-			R
+-			'đường chúng ta... Có lẽ tôi'
+-			R
+-			'phải giải quyết chúng...'
++			'Ợ... thôi thì... dọn'
++			R
++			'dẹp qua loa vậy...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Heheheh... Ồ... Ối...'
+-			R
+-			'Chân tôi... Heh... Heheh.'
++			'Hề hề hề... ối... ối'
++			R
++			'ối... chân... hề... hề hề.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Heh... Vô dụng... Tôi'
+-			R
+-			'là... kẻ vô dụng nhất...'
++			'Hừ... nhảm nhí... ta là'
++			R
++			'đứa... nhảm nhí nhất...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -3770,11 +3521,9 @@
+ 		{VAR0154 = 1:
+ 			\L_0c531:
+ 			ZH 1:
+-			'Đó là Vua của'
+-			R
+-			'Leazas... Tôi không biết ông'
+-			R
+-			'ấy có bao nhiêu tiền mặt.'
++			'Kia là vua Leazas... không'
++			R
++			'biết có tiền không nhỉ?'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3784,29 +3533,25 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Aaahn, trời ạ! Quần'
+-			R
+-			'áo của tôi sẽ bẩn nếu tôi'
+-			R
+-			'chiến đấu, ngươi biết đấy!'
++			'Ứ, thật là! Đánh nhau thì'
++			R
++			'bẩn hết quần áo còn gì!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ôi trời ơi!'
+-			R
+-			'Nhanh lên và chết đi!'
++			'Ứ ừ! Mau chết đi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Này, đồ ngốc! Ngươi'
+-			R
+-			'đang đi đâu vậy?! Aaargh!'
++			'Ê, phiền quá! Đi chỗ'
++			R
++			'khác đi, thật là!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -3816,14 +3561,12 @@
+ 		{VAR0154 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Vua của Leazas...'
+-			\L_0c576:
+-			ZH 1:
+-			'Chàng đẹp trai,'
+-			R
+-			'nhưng tôi không quan tâm'
+-			R
+-			'trừ khi chàng có tiền...'
++			'Vua Leazas...'
++			\L_0c576:
++			ZH 1:
++			'đẹp trai đấy, nhưng'
++			R
++			'không có tiền thì thôi...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3833,27 +3576,27 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Mii～... Mọi'
+-			R
+-			'người cùng làm nhé!'
++			'Mi~... mọi người hạ hết'
++			R
++			'đi! Solnia giận rồi đấy!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Waaaaaaah!'
+-			R
+-			'Không, dừng lại đi!'
++			'Hu oaaa! Không'
++			R
++			'chịu, không chịu!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tôi ghét ngươi, tôi'
+-			R
+-			'ghét ngươi! Đi đi, đồ ngốc!'
++			'Ghét, ghét! Đi'
++			R
++			'chỗ khác, đồ ngốc!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -3862,9 +3605,7 @@
+ 	{VAR0156 = 53:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Nwaaaaaah!!'
+-		R
+-		'Kaaaah!! Ờ... Ờ!'
++		'Nwaaaa!! Khaaa!! Uo... uooo!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -3873,9 +3614,7 @@
+ 		{VAR0154 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hãy chuẩn bị tinh'
+-			R
+-			'thần đi, Vua của Leazas!'
++			'Chuẩn bị đi! Vua Leazas!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3883,11 +3622,9 @@
+ 		{VAR0154 = 6:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tướng quân'
+-			R
+-			'áo đen của Leazas...?'
+-			R
+-			'Một đối thủ phù hợp!'
++			'Đại tướng đen của Leazas'
++			R
++			'à... đối thủ xứng tầm đấy!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3895,9 +3632,9 @@
+ 		{VAR0154 = 7:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Được rồi... đi'
+-			R
+-			'thôi. Thần Chết Đỏ.'
++			'Được... lên nào.'
++			R
++			'Thần chết đỏ.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3905,9 +3642,7 @@
+ 		{VAR0154 = 22:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Lelyukov...'
+-			R
+-			'Hãy làm điều này.'
++			'...Ông Lelyukov... lên nào.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3915,14 +3650,12 @@
+ 		{VAR0154 = 43:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hãy đến, Aristoles!'
+-			\L_0c576:
+-			ZH 1:
+-			'Hãy cho tôi thấy tình'
+-			R
+-			'yêu của ngươi dành cho'
+-			R
+-			'Sheila đi xa đến đâu!'
++			'Lại đây! Aristoles!'
++			\L_0c576:
++			ZH 1:
++			'Cho ta xem tình cảm của'
++			R
++			'ngươi với Sheila lớn cỡ nào!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3930,9 +3663,9 @@
+ 		{VAR0154 = 47:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Rolex... Thế giới'
+-			R
+-			'trở nên quá phức tạp...'
++			'Rolex... thế gian đã'
++			R
++			'thành khó sống quá rồi...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3942,32 +3675,26 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ôi trời!! Đừng'
+-			R
+-			'lãng phí thời gian của ta'
+-			R
+-			'với lũ yếu đuối các ngươi!'
+-			\L_0c576:
+-			ZH 1:
+-			'Đưa chỉ huy ra!'
++			'Ooaa!! Không cần lũ tép riu!'
++			\L_0c576:
++			ZH 1:
++			'Đại tướng, ra đây!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hyaah!! Đi thôi!!'
++			'Oraaa!! Lên nào!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Trời ạ... Điều này'
+-			R
+-			'thật khó chịu! Hãy đến'
+-			R
+-			'với tôi cùng một lúc!'
++			'Ê... phiền quá!'
++			R
++			'Xông vào cả lũ đi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -3977,11 +3704,9 @@
+ 		{VAR0154 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Được rồi... Hãy cho'
+-			R
+-			'tôi xem ngươi có gì nào, Vua'
+-			R
+-			'của Leazas. Không giữ lại.'
++			'Nào... xem tài nghệ đây, vua'
++			R
++			'Leazas. Đừng có nương tay.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -3989,11 +3714,9 @@
+ 		{VAR0154 = 22:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Tôi không muốn'
+-			R
+-			'bố tôi nhìn thấy tôi như'
+-			R
+-			'thế này... Ah, anh ngươi...'
++			'......Cảnh này chẳng muốn'
++			R
++			'để cha thấy... chậc chậc...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4001,9 +3724,9 @@
+ 		{VAR0154 = 43:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Bây giờ, hãy đến với'
+-			R
+-			'tôi. Không cần phải giữ lại.'
++			'Nào, xông lên đi,'
++			R
++			'khỏi khách sáo.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4011,11 +3734,9 @@
+ 		{VAR0154 = 47:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Heh...'
+-			R
+-			'Ah, anh ngươi... Anh'
+-			R
+-			'đứng về phía họ...'
++			'......Hừ... chậc chậc...'
++			R
++			'ông lại ở bên đó à...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4025,25 +3746,23 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Heh... Đi thôi!'
++			'Hừ... lên nào!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Được rồi, hãy chuẩn bị'
+-			R
+-			'tinh thần. Hãy bắt đầu đi.'
++			'Nào, thắt lại khố.'
++			R
++			'Hăng lên mà đánh.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Được rồi, đi'
+-			R
+-			'thôi! Hãy theo tôi!'
++			'Được, lên nào! Theo ta!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -4053,7 +3772,7 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hiyaaah!!'
++			'Fire!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4063,27 +3782,23 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'À, anh ngươi. Phải chiến'
+-			R
+-			'đấu ngay cả ở tuổi của tôi.'
++			'Chà chà. Già thế này'
++			R
++			'rồi còn phải đánh nhau.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Có lẽ tôi phải'
+-			R
+-			'chiến đấu một chút.'
++			'Thôi, đánh một chút vậy.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hmhm... Chúng ta có nên'
+-			R
+-			'làm vậy không? Này, đi thôi.'
++			'Ừm ừm... làm thôi. Nào, đi.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -4093,7 +3808,7 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Haaaah… Tia lười quá!!'
++			'Haaa... Lightning Laser!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4103,27 +3818,25 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hãy chuẩn bị tinh thần!'
+-			R
+-			'Tôi sẽ không đi dễ dàng đâu!'
++			'Chuẩn bị đi! Ta'
++			R
++			'không nương tay đâu!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Aah, thật khó'
+-			R
+-			'chịu. Lần lượt...'
++			'Aa, phiền thật. Hết'
++			R
++			'đứa này đến đứa khác...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Cố gắng'
+-			R
+-			'hết sức nhé, Patton.'
++			'......Mình sẽ cố, Patton.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -4135,23 +3848,19 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Đây là thành'
+-			R
+-			'phố của chúng tôi.'
+-			\L_0c576:
+-			ZH 1:
+-			'Ngươi nghĩ rằng'
+-			R
+-			'chúng tôi sẽ để một số tên'
+-			R
+-			'trộm xâm chiếm chúng tôi?!'
++			'Đây là thành phố của bọn ta.'
++			\L_0c576:
++			ZH 1:
++			'Không để lũ sơn'
++			R
++			'tặc tàn phá đâu!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Cút đi, kẻ trộm!'
++			'Sơn tặc, cút đi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -4160,7 +3869,7 @@
+ 	{VAR0156 = 58:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Lùi lại! Biến đi!'
++		'Đừng lại đây! Đi chỗ khác!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4168,11 +3877,9 @@
+ 	{VAR0156 = 59:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Chúng tôi sẽ bảo'
+-		R
+-		'vệ thành phố! Sẽ không'
+-		R
+-		'có ai nhúng tay vào nó!'
++		'Bọn ta sẽ bảo vệ thành phố!'
++		R
++		'Không để ai động tay vào!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4180,9 +3887,9 @@
+ 	{VAR0156 = 60:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Keh... Hyahyahya!!'
+-		R
+-		'Quá đẹp! Đơn vị của tôi!'
++		'Khà... hya hya hya hya!!'
++		R
++		'Đẹp quá đi! Đội quân của ta!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4191,7 +3898,7 @@
+ 		{VAR0154 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Chết tiệt! Hung bạo!!'
++			'Chết điii! Đồ bạo chúa!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4201,36 +3908,30 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Đừng sợ hãi.'
+-			R
+-			'Chúng ta sẽ chiến thắng'
+-			R
+-			'với tinh thần hiệp sĩ.'
++			'Đừng sợ. Hãy thắng'
++			R
++			'bằng tinh thần kỵ sĩ.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Đào ngũ trước mặt kẻ thù'
+-			R
+-			'là một tội ác nghiêm trọng.'
+-			\L_0c576:
+-			ZH 1:
+-			'Tôi sẽ giết'
+-			R
+-			'bất cứ ai cố gắng!!'
+-			R
+-			'Di chuyển ra ngoài!'
++			'Đào ngũ trước'
++			R
++			'địch là trọng tội,'
++			\L_0c576:
++			ZH 1:
++			'ta giết!! Tiến lên!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Làm đi!! Hãy làm bất'
+-			R
+-			'cứ điều gì ngươi có thể!'
++			'Làm đi!! Làm là cái'
++			R
++			'gì cũng làm được!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -4239,11 +3940,11 @@
+ 	{VAR0156 = 63:
+ 		\L_0c531:
+ 		ZH 1:
+-		'Nếu tôi bị'
+-		R
+-		'thương... không biết Cell'
+-		R
+-		'có chăm sóc cho tôi không...'
++		'Nếu bị thương...'
++		R
++		'không biết chị Sel có'
++		R
++		'băng bó cho không...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4251,9 +3952,7 @@
+ 	{VAR0156 = 64:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Tránh xa raaaaaa!! Hãy'
+-		R
+-		'quay lại nơi ngươi đã đến!!'
++		'Đừng lại đâyyy!! Về đi!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4261,11 +3960,9 @@
+ 	{VAR0156 = 65:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Tuyệt quá!!'
+-		R
+-		'Đừng để mình thua bất'
+-		R
+-		'kỳ kẻ xâm lược nào!!'
++		'Tiến lênnn!! Đừng'
++		R
++		'thua lũ xâm lược!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4273,9 +3970,7 @@
+ 	{VAR0156 = 66:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Ngươi khá đáng'
+-		R
+-		'ghét khi ở bên Rance!!'
++		'Rance mà dám láo!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4283,7 +3978,9 @@
+ 	{VAR0156 = 67:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Đồ ngốc!! Tôi ghét ngươi!!'
++		'Đồ ngốccc!! Ghét'
++		R
++		'nhất trên đờiii!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4291,7 +3988,7 @@
+ 	{VAR0156 = 68:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Uraaah!! Ngươi sẽ bị ăn đòn!'
++		'Uraaa!! Lấy đầu nó!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4299,7 +3996,7 @@
+ 	{VAR0156 = 69:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Chết tiệt!'
++		'Chết đi cho rảnh!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4307,9 +4004,7 @@
+ 	{VAR0156 = 70:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Hãy đến! Tôi sẽ'
+-		R
+-		'là đối thủ của ngươi!'
++		'Lại đây! Ta tiếp!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4317,9 +4012,9 @@
+ 	{VAR0156 = 71:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Huhuhuhuhu... Bentora.'
+-		R
+-		'Mm～... Tuyệt vời...'
++		'Hư hư hư hư hư... Bentora.'
++		R
++		'Ưm~... Marvelous...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4327,9 +4022,7 @@
+ 	{VAR0156 = 72:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Đã đến lúc dạy'
+-		R
+-		'cho ngươi một bài học!'
++		'Cho các ngươi biết tay gya!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4337,11 +4030,9 @@
+ 	{VAR0156 = 73:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Ngh, tên ngoại'
+-		R
+-		'quốc bẩn thỉu! Hãy'
+-		R
+-		'chuẩn bị tinh thần!'
++		'Hừm, lũ mọi rợ ngoại'
++		R
++		'bang! Chuẩn bị đi!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4349,11 +4040,9 @@
+ 	{VAR0156 = 74:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Hãy ngồi'
+-		R
+-		'yên và trở thành rỉ sét'
+-		R
+-		'trên lưỡi kiếm của tôi!'
++		'Ngoan ngoãn mà thành'
++		R
++		'gỉ trên lưỡi kiếm đi!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4361,11 +4050,11 @@
+ 	{VAR0156 = 75:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Gahahahaha!hahah! Giết'
+-		R
+-		'hết chúng đi, đừng để một'
+-		R
+-		'con nào sống sót trở về!'
++		'Ha ha ha ha! Giết'
++		R
++		'sạch, không để đứa'
++		R
++		'nào sống trở về!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4373,9 +4062,9 @@
+ 	{VAR0156 = 76:
+ 		\L_0c515:
+ 		ZH 1:
+-		'NHẬT BẢN sẽ không dễ'
+-		R
+-		'dàng thất bại như vậy đâu!'
++		'JAPAN này không'
++		R
++		'dễ thất thủ đâu!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4383,7 +4072,9 @@
+ 	{VAR0156 = 77:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Ngươi là mục tiêu tốt!'
++		'Lũ các ngươi là'
++		R
++		'bia ngon đấy!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4391,9 +4082,9 @@
+ 	{VAR0156 = 78:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Ngươi còn ngu hơn lợn'
+-		R
+-		'rừng khi chống lại ta!'
++		'Dám đứng trước mũi tên'
++		R
++		'ta, còn ngu hơn lợn rừng!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4401,9 +4092,7 @@
+ 	{VAR0156 = 79:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Hãy để tôi'
+-		R
+-		'lấy đầu của ngươi!'
++		'Cái đầu đó, xin nhận lấy!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4411,7 +4100,7 @@
+ 	{VAR0156 = 80:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Sự phán xét!'
++		'Trừng trị!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4419,9 +4108,9 @@
+ 	{VAR0156 = 81:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Hãy cho họ một'
+-		R
+-		'cơn bão mũi tên!'
++		'Để ta cho mưa'
++		R
++		'tên trút xuống!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4429,9 +4118,9 @@
+ 	{VAR0156 = 82:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Để xóa tên cha'
+-		R
+-		'tôi... Tiêu diệt chúng!'
++		'Để rửa nỗi nhục cho cha...'
++		R
++		'ta sẽ diệt các ngươi!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4441,24 +4130,23 @@
+ 		{VAR0000 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Đế quốc Nhật'
+-			R
+-			'Bản muôn năm!!'
++			'Đại Nhật Bản Đế'
++			R
++			'quốc vạn tuế!!'
+ 			\L_0c576:
+ 		}
+ 		{VAR0000 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Aiyaaaa, tấn công!'
++			'Aiya, xung phong!'
+ 			\L_0c576:
+ 		}
+ 		{VAR0000 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hanihooo Hanihooo'
+-			R
+-			R
+-			'Hanihooo Hanihooo'
++			'Haniho~~ haniho~~'
++			R
++			'haniho~ haniho~'
+ 			\L_0c576:
+ 		}
+ 		\L_0c569:
+@@ -4469,29 +4157,25 @@
+ 		{VAR0000 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Vì quốc gia, hãy'
+-			R
+-			'đốt thành tro bụi!'
++			'Vì tổ quốc, hóa'
++			R
++			'thành tro đi!'
+ 			\L_0c576:
+ 		}
+ 		{VAR0000 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hầm ngục này là'
+-			R
+-			'thiên đường của chúng tôi!'
+-			R
+-			'Chúng ta phải bảo vệ nó!'
++			'Mê cung là thiên'
++			R
++			'đường của bọn ta,'
++			R
++			'phải bảo vệ đến cùng!'
+ 			\L_0c576:
+ 		}
+ 		{VAR0000 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ái chà. Hãy'
+-			R
+-			'chiến đấu hết mình. Đừng'
+-			R
+-			'để chúng tôi thua cuộc!'
++			'Aiya, cố lên đừng để thua!'
+ 			\L_0c576:
+ 		}
+ 		\L_0c569:
+@@ -4500,14 +4184,12 @@
+ 	{VAR0156 = 85:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Chạy hết tốc'
+-		R
+-		'lực về phía trước!!'
+-		\L_0c576:
+-		ZH 1:
+-		'Kẻ thù đang ở ngay trước'
+-		R
+-		'mặt chúng ta, hãy cẩn thận!'
++		'Tiến hết tốc lực!!'
++		\L_0c576:
++		ZH 1:
++		'Địch ngay trước mặt,'
++		R
++		'cẩn trọng mà đánh!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4515,7 +4197,7 @@
+ 	{VAR0156 = 86:
+ 		\L_0c515:
+ 		ZH 1:
+-		'KUGYAAAAA GEGEGEGEH!!'
++		'Kugyaaaaa gegegegeh!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4523,7 +4205,7 @@
+ 	{VAR0156 = 87:
+ 		\L_0c515:
+ 		ZH 1:
+-		'ĐIIIIIE!! GIẾT MỔ!!'
++		'Giếêêt!! Giết hết đi!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4531,9 +4213,9 @@
+ 	{VAR0156 = 88:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Tôi sẽ cho ngươi thấy'
+-		R
+-		'sức mạnh của quái vật.'
++		'Để ta cho các ngươi thấy'
++		R
++		'sức mạnh của Ma tộc.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4541,9 +4223,9 @@
+ 	{VAR0156 = 89:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Còn chống cự?'
+-		R
+-		'Một nỗ lực vô ích...'
++		'Còn chống cự à?'
++		R
++		'Vô ích thôi...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4553,19 +4235,16 @@
+ 			{VAR0093 < 4:
+ 				\L_0c515:
+ 				ZH 1:
+-				'Họ không có nhiều kháng'
++				'Gần như chẳng có kháng phép.'
+ 				R
+-				'phép phải không? Có lẽ.'
+-				R
+-				R
+-				'Này, đứng yên!'
++				'Dễ xơi. Nào, đông cứng đi!'
+ 				\L_0c576:
+ 				\L_0c569:
+ 				%0:
+ 			}
+ 			\L_0c515:
+ 			ZH 1:
+-			'Đỡ này!! Tia tuyết!'
++			'Nàooo!! Snow Laser!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4575,29 +4254,25 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hừm. Đừng lãng'
+-			R
+-			'phí thời gian của tôi'
+-			R
+-			'với những kẻ yếu đuối.'
++			'Hừ. Đứa yếu thì'
++			R
++			'đừng làm bộ ra oai.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ngươi có thực sự nghĩ'
+-			R
+-			'mình có thể thắng không?'
+-			R
+-			'Ngươi có ngu ngốc không?'
++			'Tưởng thắng thật'
++			R
++			'à? Ngốc không?'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Gahahahaha!! Đông cứng!'
++			'Ha ha ha!! Đóng băng hết đi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -4607,9 +4282,7 @@
+ 		{VAR0154 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Chướng'
+-			R
+-			'mắt... Cậu nên chết đi.'
++			'...Chướng mắt... chết đi.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4617,9 +4290,9 @@
+ 		{(VAR0154 = 29) + (VAR0154 = 30) + (VAR0154 = 41) + (VAR0154 = 42):
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Ngươi vẫn có thể'
+-			R
+-			'gọi mình là quỷ sao?'
++			'......Thế mà cũng'
++			R
++			'là Ma Nhân à?'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4627,9 +4300,9 @@
+ 		{VAR0154 = 32:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Công chúa'
+-			R
+-			'nhỏ... Đây là... Chúa quỷ?'
++			'...Little Princess...'
++			R
++			'đây là... Ma Vương sao?'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4639,21 +4312,21 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Rác rưởi...'
++			'......Đồ rác rưởi...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Biến mất.'
++			'Biến đi.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Chết đi.'
++			'......Chết đi.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -4663,9 +4336,9 @@
+ 		{VAR0154 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ờ!! Nếu tôi'
+-			R
+-			'giết anh...! Mẹ Maria...!'
++			'Uooo!! Giết được'
++			R
++			'ngươi thì...! Mary...!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4673,9 +4346,7 @@
+ 		{(VAR0154 = 29) + (VAR0154 = 30):
+ 			\L_0c515:
+ 			ZH 1:
+-			'Xin lỗi, nhưng'
+-			R
+-			'chết đi. Tạm biệt.'
++			'Xin lỗi, chết đi. Tạm biệt.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4683,9 +4354,7 @@
+ 		{VAR0154 = 32:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Chúa quỷ! Tôi'
+-			R
+-			'sẽ đánh bại ngươi!'
++			'Ma Vương! Ta sẽ hạ ngươi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4695,21 +4364,21 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hừm. Chết đi.'
++			'Hừ. Chết đi.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Biến khỏi tầm mắt của tôi!'
++			'Biến đi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hyaaah!'
++			'Oraaa!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -4719,9 +4388,9 @@
+ 		{VAR0154 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Bây giờ, hãy chiến'
+-			R
+-			'đấu công bằng, Vua Rance.'
++			'Nào, hãy đường hoàng'
++			R
++			'chiến đấu. Vua Rance.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4729,9 +4398,9 @@
+ 		{VAR0154 = 32:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Chúng ta đi thôi. Tôi'
+-			R
+-			'sẽ nhẹ nhàng, Công chúa nhỏ.'
++			'Nào, xin ra tay, xin nương'
++			R
++			'tay chút, Little Princess.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4739,11 +4408,9 @@
+ 		{(VAR0154 = 29) + (VAR0154 = 30) + (VAR0154 = 41) + (VAR0154 = 42):
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hãy dừng sự ngu'
+-			R
+-			'ngốc này lại và quay'
+-			R
+-			'về bên chúng tôi...'
++			'Đừng làm chuyện dại dột'
++			R
++			'nữa, về bên này đi...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4753,23 +4420,21 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Đi thôi. Hah!!'
++			'Lên đây. Haa!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hãy tha thứ cho'
+-			R
+-			'sự thô lỗ của tôi.'
++			'Xin thứ lỗi cho sự vô lễ.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Bây giờ, hãy chiến đấu.'
++			'Nào. Chiến đấu thôi.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -4785,16 +4450,16 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Namu namu namu...'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Tôi sẽ bảo vệ Zeth'
+-		R
+-		'khi Vua Gandhi đi vắng!'
++			'Nam mô nam mô nam mô......'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'Bảo vệ đất nước khi'
++		R
++		'Vua Gandhi vắng mặt!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4802,11 +4467,9 @@
+ 	{VAR0156 = 97:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Tôi là ác quỷ'
+-		R
+-		'Xacalite. Tôi có một hợp'
+-		R
+-		'đồng phải hoàn thành...'
++		'Ta là ác ma Zacharite.'
++		R
++		'Kẻ thực hiện khế ước...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4814,11 +4477,11 @@
+ 	{VAR0156 = 98:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Có phải em là'
+-		R
+-		'người khiến anh nhớ đến sự'
+-		R
+-		'tồn tại của chính mình...?'
++		'Kẻ khiến ta nhớ lại'
++		R
++		'sự tồn tại của chính'
++		R
++		'mình là ngươi sao...?'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -4827,9 +4490,9 @@
+ 		{VAR0120 = 1414:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Vì Chúa, chúng ta'
+-			R
+-			'sẽ giết ác thần, Rance!'
++			'Vì thần của chúng ta,'
++			R
++			'giết tà thần Rance!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4837,7 +4500,7 @@
+ 		{VAR0120 = 1493:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hơi thở vàng!'
++			'Yellow Breath!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4845,9 +4508,9 @@
+ 		{VAR0120 = 1494:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Vàng... Ngươi có'
+-			R
+-			'bị đánh không...?'
++			'Thằng Yellow...'
++			R
++			'bị hạ rồi sao...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4855,9 +4518,7 @@
+ 		{VAR0120 = 1495:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tôi sẽ giết tất'
+-			R
+-			'cả các ngươi. Đồ ngốc.'
++			'Giết sạch. Lũ ngu xuẩn.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4865,9 +4526,9 @@
+ 		{VAR0120 = 1496:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Gggggh... Ta sẽ'
+-			R
+-			'đốt ngươi thành tro!!'
++			'Gư gư gư gư... thiêu'
++			R
++			'rụi hết cho ta!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4875,7 +4536,7 @@
+ 		{VAR0120 = 1497:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Đen!! Thở nhanh!'
++			'Black!! Breathhh!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4883,9 +4544,7 @@
+ 		{VAR0123 = 75:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Chạy đua!! Hãy'
+-			R
+-			'chuẩn bị tinh thần!'
++			'Rance!! Chuẩn bị đi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4893,11 +4552,9 @@
+ 		{VAR0123 = 484:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Keheheheheh. Hãy'
+-			R
+-			'giết gã này và hãm'
+-			R
+-			'hiếp người phụ nữ.'
++			'Khè hè hè hè... giết'
++			R
++			'thằng này rồi hiếp đàn bà.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4913,18 +4570,16 @@
+ 		{VAR0154 = 37:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ah... Ah... Vua Gandhi,'
+-			R
+-			'tôi nên làm gì đây...?!'
++			'A... a... ngài Gandhi,'
++			R
++			'tôi... phải làm sao đây...!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			\L_0c4dd:
+ 			ZH 1:
+-			'Hãy tha thứ'
+-			R
+-			'cho tôi, Chizuko... Tôi'
+-			R
+-			'đã làm khó cậu rồi...'
++			'Tha thứ cho ta, Chizuko...'
++			R
++			'bắt con phải khổ tâm rồi...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4932,18 +4587,16 @@
+ 		{VAR0154 = 39:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Đợi một chút!!'
+-			R
+-			'Ngươi đang làm gì khi chuyển'
+-			R
+-			'sang phe của Leazas vậy!?'
+-			\L_0c576:
+-			\L_0c569:
+-			\L_0c4c1:
+-			ZH 1:
+-			'Im đi, tôi không thích'
+-			R
+-			'đứng về phía bố hay gì đâu!!'
++			'Này nàyyy!! Sao chỉ mình'
++			R
++			'cô tót sang Leazas thế hả!?'
++			\L_0c576:
++			\L_0c569:
++			\L_0c4c1:
++			ZH 1:
++			'Ồn quá, tôi đâu thích'
++			R
++			'ở cạnh ông bố đó!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4951,14 +4604,14 @@
+ 		{VAR0154 = 40:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ngươi đã phản'
+-			R
+-			'bội chúng tôi, Nagi...!'
+-			\L_0c576:
+-			\L_0c569:
+-			\L_0c4c1:
+-			ZH 1:
+-			'... Tôi đoán vậy.'
++			'Phản bội rồi'
++			R
++			'nhé, Nagi......!'
++			\L_0c576:
++			\L_0c569:
++			\L_0c4c1:
++			ZH 1:
++			'.........Không biết.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4966,11 +4619,9 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tìm hiểu'
+-			R
+-			'sức mạnh của đất nước phép'
+-			R
+-			'thuật Zeth! Làn Sóng Đen!!'
++			'Hãy biết sức mạnh của nước'
++			R
++			'ma pháp Zeth! Hắc Ba Động!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -4980,31 +4631,27 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hãy loại bỏ'
+-			R
+-			'những kẻ đi theo bẩn'
+-			R
+-			'thỉu của Vua tàn bạo!'
++			'Quét sạch lũ thuộc hạ'
++			R
++			'dơ bẩn của tên bạo chúa!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ngay cả khi tôi chết,'
+-			R
+-			'tôi sẽ không để ngươi mang'
+-			R
+-			'đến sự hủy diệt cho Zeth!'
++			'Chết cũng không để'
++			R
++			'Zeth bị giày xéo!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Vua Gandhi...'
+-			R
+-			'Xin hãy bảo vệ tôi!'
++			'Ngài Gandhi... xin'
++			R
++			'bảo vệ Chizuko!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -5013,16 +4660,12 @@
+ 	{VAR0156 = 102:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Uraah, bắt'
+-		R
+-		'tay vào làm thôi!'
+-		\L_0c576:
+-		ZH 1:
+-		'Lãnh chúa'
+-		R
+-		'Chizuko sẽ đánh bại chúng ta'
+-		R
+-		'nếu chúng ta không làm vậy!'
++		'Ura, làm việc thôi!'
++		\L_0c576:
++		ZH 1:
++		'Không thì bị tiểu'
++		R
++		'thư Chizuko quất cho!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5031,16 +4674,16 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Namu namu namu...'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Tôi sẽ không cho phép'
+-		R
+-		'ngươi làm bẩn đất của Zeth.'
++			'Nam mô nam mô nam mô......'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'Không để đất Zeth'
++		R
++		'bị vấy bẩn đâu.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5049,11 +4692,11 @@
+ 		{VAR0154 = 37:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Đó không phải lỗi của'
+-			R
+-			'Flash...! Đó là bởi vì nó'
+-			R
+-			'là một phép thuật tuyệt vời!'
++			'Pika-chan, Pika-chan'
++			R
++			'đâu có xấu...! Là'
++			R
++			'ma pháp siêu ghê mà!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5061,20 +4704,18 @@
+ 		{VAR0154 = 38:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Chizukooo, nếu không có'
+-			R
+-			'cậu thì họ sẽ không để tôi'
+-			R
+-			'tiếp tục nghiên cứu đâu~.'
+-			\L_0c576:
+-			\L_0c569:
+-			\L_0c4c1:
+-			ZH 1:
+-			'Đ-Vậy đừng tấn'
+-			R
+-			'công tôi! Lý do của ngươi'
+-			R
+-			'chẳng có ý nghĩa gì cả...!'
++			'Chizukooo, không có cô'
++			R
++			'thì không xin được phép'
++			R
++			'nghiên cứu, khổ lắm đấy~.'
++			\L_0c576:
++			\L_0c569:
++			\L_0c4c1:
++			ZH 1:
++			'V... vậy thì đừng tấn công'
++			R
++			'tôi! Vô lý hết sức...!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5082,26 +4723,24 @@
+ 		{VAR0154 = 39:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hì... hì hì hì...'
+-			\L_0c576:
+-			ZH 1:
+-			'Nhìn này,'
+-			R
+-			'Nomicon. Cô trông giống'
+-			R
+-			'như Phép thuật vậy~.'
+-			\L_0c576:
+-			ZH 1:
+-			'Chúng ta có nên'
+-			R
+-			'giết cô để mổ xẻ không～?'
+-			\L_0c576:
+-			\L_0c569:
+-			\L_0c4c1:
+-			ZH 1:
+-			'Đợi đã... Tôi mới'
+-			R
+-			'là Phép thuật thực sự!'
++			'Khúc khích... khúc'
++			R
++			'khích khúc khích,'
++			\L_0c576:
++			ZH 1:
++			'nhìn kìa Nomicon. Có đứa'
++			R
++			'giống hệt Magic này~.'
++			\L_0c576:
++			ZH 1:
++			'Giết rồi mổ xẻ nhé~?'
++			\L_0c576:
++			\L_0c569:
++			\L_0c4c1:
++			ZH 1:
++			'Khoan... thật'
++			R
++			'đấy, là thật đấy!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5109,21 +4748,17 @@
+ 		{VAR0154 = 40:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ôi, Nagi. Tôi rất'
+-			R
+-			'vui được gặp ngươi.'
+-			\L_0c576:
+-			ZH 1:
+-			'Tôi muốn thử chiến đấu'
+-			R
+-			'với một con người đã được'
+-			R
+-			'biến đổi ít nhất một lần~.'
+-			\L_0c576:
+-			\L_0c569:
+-			\L_0c4c1:
+-			ZH 1:
+-			'... Hừm...'
++			'Ơ kìa, Nagi. Vui ghê,'
++			\L_0c576:
++			ZH 1:
++			'tôi muốn đấu với người'
++			R
++			'cải tạo một lần lâu rồi~.'
++			\L_0c576:
++			\L_0c569:
++			\L_0c4c1:
++			ZH 1:
++			'.........Hừ.........'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5131,11 +4766,9 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ừm... Maaaybe'
+-			R
+-			'tôi nên sử dụng khí độc'
+-			R
+-			'thần kinh. Hí, hì hì...'
++			'Ờm... dùng khí độc hủy thần'
++			R
++			'kinh nhỉ~. Khúc khích...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5145,34 +4778,30 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Heeey, nhìn này,'
+-			R
+-			'Nomicon, có quá nhiều'
+-			R
+-			'đối tượng thử nghiệm.'
++			'Ôi nhìn kìa Nomicon,'
++			R
++			'nhiều vật thí nghiệm ghê~.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hee, Heeheehee... Tôi có'
+-			R
+-			'thể giúp ngươi được không?'
++			'Khúc khích... làm đau'
++			R
++			'thì không thích đâu nhé~?'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Chúng ta nên làm gì đây'
+-			R
+-			'Nomicon?... Hả, tấn công à?'
+-			\L_0c576:
+-			ZH 1:
+-			'Vậy thì Leeet'
+-			R
+-			'đi thôi mọi người!'
++			'Làm sao đây Nomicon.'
++			R
++			'...Hả, xung phong?'
++			\L_0c576:
++			ZH 1:
++			'Đó, mọi người ơiii!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -5181,9 +4810,9 @@
+ 	{VAR0156 = 105:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Nếu không làm tốt thì'
+-		R
+-		'chúng ta sẽ bị mổ xẻ!!'
++		'Không lập công là'
++		R
++		'bị mổ xẻ đấyyy!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5192,16 +4821,16 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Namu namu namu...'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Aah, tôi không'
+-		R
+-		'giỏi lao động chân tay…'
++			'Nam mô nam mô nam mô......'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'A, việc chân tay mình'
++		R
++		'đâu có giỏi......'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5210,9 +4839,9 @@
+ 		{VAR0154 = 17:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Con gái của'
+-			R
+-			'Masou... Tôi sẽ đánh bại cô.'
++			'Con gái Masou...'
++			R
++			'người thắng là ta.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5220,7 +4849,7 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tia laze lửa.'
++			'Fire Laser.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5237,14 +4866,14 @@
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Giết chúng.'
++			'Giết.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hãy tiêu diệt chúng.'
++			'Xông lên, tiêu diệt.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -5253,9 +4882,9 @@
+ 	{VAR0156 = 108:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Ora ora'
+-		R
+-		'oraaa, KEKEKEKEKEH...!'
++		'Ora ora oraa,'
++		R
++		'kekekekeke......!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5265,9 +4894,7 @@
+ 			{VAR0322 = 1:
+ 				\L_0c515:
+ 				ZH 1:
+-				'Không rút lui,'
+-				R
+-				'chàng trai trẻ?!'
++				'Chưa chịu lui à, thằng nhãi!'
+ 				\L_0c576:
+ 				\L_0c569:
+ 				%0:
+@@ -5276,19 +4903,17 @@
+ 		{VAR0154 = 17:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hah...'
+-			\L_0c576:
+-			ZH 1:
+-			'Huhahahahahahahaha!'
+-			R
+-			'Tôi sẽ lấy đi mọi thứ'
+-			R
+-			'của anh lần nữa, Masou!'
+-			\L_0c576:
+-			\L_0c569:
+-			\L_0c4c1:
+-			ZH 1:
+-			'Im đi... Đừng cười!'
++			'Hừ......'
++			\L_0c576:
++			ZH 1:
++			'hahahahaha! Ta lại cướp nữa'
++			R
++			'đây, Masou! Thứ của ngươi!'
++			\L_0c576:
++			\L_0c569:
++			\L_0c4c1:
++			ZH 1:
++			'Câm đi... đừng cười!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5296,11 +4921,9 @@
+ 		{VAR0154 = 37:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Nếu đó không'
+-			R
+-			'phải là Bệ hạ...? Rất'
+-			R
+-			'vui được gặp ngươi.'
++			'Ra là Bệ hạ...'
++			R
++			'chúc ngài vạn an.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5308,11 +4931,9 @@
+ 		{VAR0154 = 39:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ồ, con gái'
+-			R
+-			'của nhà vua... Cô có thể là'
+-			R
+-			'một vật thí nghiệm thú vị.'
++			'Ồ, công chúa à... làm'
++			R
++			'vật liệu chắc thú vị đấy.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5320,9 +4941,9 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hãy chú ý cẩn thận'
+-			R
+-			'nhé Nagi. Găng tay độc!!'
++			'Nhìn cho kỹ, Nagi.'
++			R
++			'Poison Gauntlet!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5332,29 +4953,27 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hừm... Một trận'
+-			R
+-			'chiến ngu xuẩn.'
++			'Hừ... cuộc tranh'
++			R
++			'giành nhảm nhí.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ch... Ở đây có'
+-			R
+-			'ai làm lá chắn không?!'
++			'Chậc... không ai'
++			R
++			'làm lá chắn à!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Buồn cười quá. Hãy kết'
+-			R
+-			'thúc chuyện này nhanh chóng'
+-			R
+-			'và quay lại luyện tập thôi.'
++			'Vớ vẩn. Xong nhanh'
++			R
++			'còn về luyện tập.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -5364,18 +4983,14 @@
+ 		{VAR0154 = 37:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tôi sẽ bảo vệ đất'
+-			R
+-			'nước này! Nếu ngươi không'
+-			R
+-			'tỉnh táo lại, hãy chết!'
+-			\L_0c576:
+-			\L_0c569:
+-			\L_0c4c1:
+-			ZH 1:
+-			'Như ngươi mong'
+-			R
+-			'muốn... Hãy đến, Phép thuật!'
++			'Đất nước này để ta bảo vệ!'
++			R
++			'Không tỉnh ngộ thì chết đi!'
++			\L_0c576:
++			\L_0c569:
++			\L_0c4c1:
++			ZH 1:
++			'Đúng ý ta... lại đây, Magic!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5383,18 +4998,18 @@
+ 		{VAR0154 = 38:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Chizukoooo! Tại'
+-			R
+-			'sao lại đổi phe?! Đừng để bị'
+-			R
+-			'bố tôi lừa! Đồ ngốc vô vị!!'
+-			\L_0c576:
+-			\L_0c569:
+-			\L_0c4c1:
+-			ZH 1:
+-			'Vẫn xúc phạm'
+-			R
+-			'hơn bao giờ hết...!'
++			'Chizukooo! Sao lại trở'
++			R
++			'cờ, đừng để ông bố tôi dụ'
++			R
++			'dỗ chứ, đồ ngốc, gu tệ!!'
++			\L_0c576:
++			\L_0c569:
++			\L_0c4c1:
++			ZH 1:
++			'Vẫn cái miệng'
++			R
++			'không biết điều...!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5402,16 +5017,14 @@
+ 		{VAR0154 = 40:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Nagi... Tôi'
+-			R
+-			'biết ngươi không quan tâm'
+-			R
+-			'chuyện gì xảy ra với Zeth.'
+-			\L_0c576:
+-			\L_0c569:
+-			\L_0c4c1:
+-			ZH 1:
+-			'... Ngươi nói đúng.'
++			'Nagi... quả nhiên ngươi'
++			R
++			'chẳng quan tâm gì đến Zeth.'
++			\L_0c576:
++			\L_0c569:
++			\L_0c4c1:
++			ZH 1:
++			'.........Đại loại vậy.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5420,11 +5033,9 @@
+ 			{VAR0618 = 2:
+ 				\L_0c515:
+ 				ZH 1:
+-				'Leazas... Sự xâm lược'
++				'Leazas... không cho xâm lược'
+ 				R
+-				'hơn nữa sẽ không được'
+-				R
+-				'dung thứ!! Tia laze!!'
++				'thêm nữa!! Lightning Laser!!'
+ 				\L_0c576:
+ 				\L_0c569:
+ 				%0:
+@@ -5434,27 +5045,25 @@
+ 			{VAR0690 = 1:
+ 				\L_0c515:
+ 				ZH 1:
+-				'Kh... Chúng ta'
+-				R
+-				'có chùn bước không?!'
++				'Khự... ai mà chùn chứ!'
+ 				\L_0c576:
+ 				\L_0c569:
+ 			}
+ 			{VAR0690 = 2:
+ 				\L_0c515:
+ 				ZH 1:
+-				'Tôi sẽ không thua...!'
++				'Không thua đâu...!'
+ 				R
+-				'Tôi sẽ không bao giờ thua!!'
++				'Tuyệt đối!!'
+ 				\L_0c576:
+ 				\L_0c569:
+ 			}
+ 			{VAR0690 = 3:
+ 				\L_0c515:
+ 				ZH 1:
+-				'Đây là đất nước'
++				'Đây là nước của'
+ 				R
+-				'của chúng tôi... Cút ra!'
++				'chúng ta... cút đi!'
+ 				\L_0c576:
+ 				\L_0c569:
+ 			}
+@@ -5463,18 +5072,18 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Haah... Điều này'
+-			R
+-			'thật khó chịu. Tia laze!!'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Tôi phải hoàn'
+-		R
+-		'thành bài tập về nhà...'
++			'Haa... phiền ghê.'
++			R
++			'Lightning Laser!!'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'Mình còn phải làm'
++		R
++		'bài tập nữa...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5482,9 +5091,7 @@
+ 	{VAR0156 = 111:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Ukekekekeh,'
+-		R
+-		'ukekekekekeh...!'
++		'Ukekekeke, ukekekekeke...!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5493,16 +5100,16 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Namu namu namu...'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Leazas được cho là'
+-		R
+-		'một quốc gia thấp kém!'
++			'Nam mô nam mô nam mô......'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'Leazas chỉ là'
++		R
++		'nước hạ đẳng thôi!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5511,9 +5118,9 @@
+ 		{VAR0154 = 37:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tại sao ngài lại'
+-			R
+-			'đi cùng Leazas, Vua?!'
++			'Sao ngài lại ở'
++			R
++			'Leazas, Bệ hạ!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5521,11 +5128,9 @@
+ 		{VAR0154 = 38:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ngài Chizuko...'
+-			R
+-			'Cho phép tôi trả lại món'
+-			R
+-			'nợ nhiều năm của mình.'
++			'Tiểu thư Chizuko... cho'
++			R
++			'tôi trả món nợ bao năm nhé.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5533,9 +5138,7 @@
+ 		{VAR0154 = 39:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Phép thuật...!'
+-			R
+-			'Ngươi mất trí rồi à?!'
++			'Magic...! Mất trí rồi sao!?'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5543,9 +5146,9 @@
+ 		{VAR0154 = 40:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ngài Nagi... Tôi nghe nói'
+-			R
+-			'ngài đã biến mất, nhưng...!'
++			'Ngài Nagi... nghe nói'
++			R
++			'mất tích, ai ngờ...!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5553,7 +5156,7 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Kh... Tia lửa!!'
++			'Hừm... Fire Laser!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5563,29 +5166,27 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tấn công... Theo dõi'
+-			R
+-			'chuyển động của kẻ thù!'
++			'Xung phong... nhìn kỹ'
++			R
++			'động tĩnh quân địch!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'À, anh ngươi...'
+-			R
+-			'Tiền tuyến à? Mọi thứ'
+-			R
+-			'đã trở nên khó khăn.'
++			'Chậc chậc... tiền tuyến'
++			R
++			'à. Tình cảnh khó đây.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Uspira... Tôi'
+-			R
+-			'chiến đấu vì ngươi.'
++			'Uspira... tôi'
++			R
++			'chiến đấu vì em.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -5595,18 +5196,16 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Namu namu namu...'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Tôi sẽ cho'
+-		R
+-		'ông thấy tôi có thể làm tốt'
+-		R
+-		'như thế nào, Tướng Saias!'
++			'Nam mô nam mô nam mô......'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'Phải cho ngài Saias'
++		R
++		'thấy mặt tốt của mình!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5614,7 +5213,7 @@
+ 	{VAR0156 = 115:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Máu... Heeheehee, máu...!'
++		'Máu... hi hi hi, máu...!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5622,11 +5221,9 @@
+ 	{VAR0156 = 116:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Thôi, hãy'
+-		R
+-		'làm tất cả những gì có'
+-		R
+-		'thể để không bị giết.'
++		'Thôi, cố sao cho đừng'
++		R
++		'chết là được. Nhé.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5635,12 +5232,9 @@
+ 		{VAR0154 = 37:
+ 			\L_0c531:
+ 			ZH 1:
+-			'Tại sao...?'
+-			R
+-			R
+-			'Tại sao tôi lại'
+-			R
+-			'chiến đấu với ngươi...?'
++			'Tại sao...? Sao lại'
++			R
++			'thành ra thế này...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5648,11 +5242,9 @@
+ 		{VAR0154 = 38:
+ 			\L_0c531:
+ 			ZH 1:
+-			'Tôi hiểu'
+-			R
+-			'rồi... Ngươi quyết định đi'
+-			R
+-			'đến bên người mình yêu...'
++			'Phải rồi... cô được ở'
++			R
++			'bên người mình yêu nhỉ...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5660,12 +5252,11 @@
+ 		{VAR0154 = 39:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tôi cho rằng ngươi có'
+-			R
+-			'ý tưởng nào đó, Magic.'
+-			R
+-			R
+-			'Nhưng tôi sẽ chiến đấu...'
++			'Chắc cô có ý đồ gì'
++			R
++			'đó, Magic. Nhưng'
++			R
++			'tôi sẽ chiến đấu...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5673,9 +5264,9 @@
+ 		{VAR0154 = 40:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tôi bị sốc... Chúa'
+-			R
+-			'Nagi đã gia nhập Leazas.'
++			'Bất ngờ thật... ngài'
++			R
++			'Nagi lại theo phe Leazas.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5683,7 +5274,7 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Laser Tuyết.'
++			'.........Snow Laser.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5693,25 +5284,21 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tôi không'
+-			R
+-			'được chạy trốn...'
++			'Đâu thể bỏ chạy được...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Đi thôi. Không'
+-			R
+-			'cần phải sợ...'
++			'Đi thôi. Không cần sợ......'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Hãy đẩy lùi chúng.'
++			'Đẩy lùi... chúng thôi.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -5721,14 +5308,14 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Namu namu namu...'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Mọi người, tấn công!'
++			'Nam mô nam mô nam mô......'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'Mọi người, xung phong!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5736,7 +5323,7 @@
+ 	{VAR0156 = 119:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Chết tiệt!'
++		'Giết đi, ora!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5744,9 +5331,7 @@
+ 	{VAR0156 = 120:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Gawhawhawhaw, giết'
+-		R
+-		'chúng điiiiiii!'
++		'Khặc khặc khặc, giết sạch!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5755,11 +5340,9 @@
+ 		{VAR0154 = 37:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Đã lâu rồi'
+-			R
+-			'chúng ta chưa có trận'
+-			R
+-			'đấu... Vua Gandhi...'
++			'Lâu lắm rồi mới giao đấu'
++			R
++			'với ngài, Vua Gandhi......'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5767,9 +5350,9 @@
+ 		{VAR0154 = 38:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Chúa Chizuko,'
+-			R
+-			'hãy tha thứ cho tôi!'
++			'Tiểu thư Chizuko,'
++			R
++			'xin thất lễ!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5777,11 +5360,11 @@
+ 		{VAR0154 = 39:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Thưa cô, tôi thậm chí còn'
+-			R
+-			'phải đấu với cô, thưa cô...?'
+-			R
+-			'Đời lính thật gian khổ.'
++			'Chậc chậc, đến cả cô'
++			R
++			'bé cũng phải đánh...'
++			R
++			'làm lính khổ thật.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5789,9 +5372,9 @@
+ 		{VAR0154 = 40:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Chúa tể Nagi...?'
+-			R
+-			'Điều này thật phức tạp.'
++			'Ngài Nagi à... đây'
++			R
++			'là đối thủ khó nhằn.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5799,11 +5382,9 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Để xem nào...'
+-			R
+-			'Chúng ta phân tán chúng'
+-			R
+-			'thì sao? Tia Laser.'
++			'Để xem... cho tan tác'
++			R
++			'nhé. Lightning Laser.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5813,29 +5394,27 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Có một chút bất'
+-			R
+-			'lợi... Nhưng tôi phải làm.'
++			'Hơi bất lợi... nhưng'
++			R
++			'không làm không được.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Chúng tôi'
+-			R
+-			'không sợ gươm giáo.'
++			'Chúng ta không sợ gươm đao.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Chúng tôi đang'
+-			R
+-			'bảo vệ đất nước khi Nhà vua'
+-			R
+-			'vắng mặt. Đi thôi mọi người.'
++			'Khi Vua vắng mặt,'
++			R
++			'chúng ta phải giữ nước.'
++			R
++			'Đi thôi, mọi người.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -5845,16 +5424,16 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Namu namu namu...'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Tướng Kabachahn,'
+-		R
+-		'chúng ta đi thôi!'
++			'Nam mô nam mô nam mô......'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'Ngài Kabachahn,'
++		R
++		'con đi đây ạ!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5862,7 +5441,9 @@
+ 	{VAR0156 = 123:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Tôi ghét đau đớn...'
++		'Đau thì không'
++		R
++		'thích chút nào...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5872,7 +5453,7 @@
+ 		ZH 1:
+ 		'Lão già đang nhìn'
+ 		R
+-		'đấy, đừng lơ là!!'
++		'nên không lười được!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5881,11 +5462,9 @@
+ 		{VAR0154 = 37:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Thưa bệ hạ, xin hãy trở'
+-			R
+-			'về đất nước của mình! Tôi'
+-			R
+-			'không muốn đấu với anh...!'
++			'Bệ hạ, xin hãy về nước! Thần'
++			R
++			'không thể đánh với ngài...!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5893,11 +5472,9 @@
+ 		{VAR0154 = 38:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Chúa tể Chizuko...'
+-			R
+-			'Ngay cả ngài cũng quay'
+-			R
+-			'lưng lại với Zeth?!'
++			'Tiểu thư Chizuko... đến cả'
++			R
++			'người cũng bỏ rơi Zeth sao!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5905,9 +5482,9 @@
+ 		{VAR0154 = 40:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Chúa tể Nagi...?'
+-			R
+-			'Ngươi đang làm gì thế?!'
++			'Ngài Nagi...? Rốt'
++			R
++			'cuộc là vì sao!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5915,11 +5492,11 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Xin lỗi, nhưng...'
+-			R
+-			'Chúng tôi cũng có thứ'
+-			R
+-			'cần bảo vệ! Bom nhẹ!'
++			'Xin lỗi... nhưng chúng'
++			R
++			'tôi cũng có thứ phải'
++			R
++			'bảo vệ! Light Bomb!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -5929,31 +5506,27 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Kh... Chúng tôi'
+-			R
+-			'sẽ không giao thành phố này!'
+-			R
+-			'Mọi người hãy cố gắng nhé!!'
++			'Khự... không nhường chỗ'
++			R
++			'này! Mọi người, cố cầm cự!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hơn cả phép'
+-			R
+-			'thuật, thanh kiếm...! Đó'
+-			R
+-			'là điều Bệ hạ luôn nói...!'
++			'Kiếm hơn ma pháp...! Bệ'
++			R
++			'hạ vẫn luôn nói vậy...!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Bệ hạ... Tôi sẽ'
+-			R
+-			'không từ bỏ Phép thuật...!'
++			'Bệ hạ... thần sẽ không'
++			R
++			'từ bỏ Magic đâu......!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -5963,16 +5536,16 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Namu namu namu...'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Chúng tôi sẽ không'
+-		R
+-		'nhượng bộ bạo lực!!'
++			'Nam mô nam mô nam mô......'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'Chúng ta không'
++		R
++		'khuất phục bạo lực!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5980,9 +5553,9 @@
+ 	{VAR0156 = 127:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Hyaaaahahaha,'
+-		R
+-		'chết đi, chếtiiii!!'
++		'Hyaaa hahaha, chết'
++		R
++		'đi chết điii!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5990,7 +5563,9 @@
+ 	{VAR0156 = 128:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Cầu xin tha mạng!'
++		'Muốn xin tha'
++		R
++		'thì xin ngay đi!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -5999,9 +5574,9 @@
+ 		{VAR0154 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Mm... Aaaah～...'
+-			R
+-			'Nhà vua... Chết đi...'
++			'Ưm... aaa~... nhà'
++			R
++			'vua... giết......'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -6009,7 +5584,7 @@
+ 		{VAR0154 = 29:
+ 			\L_0c515:
+ 			ZH 1:
+-			'S-Satella??'
++			'S... Satella??'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -6017,7 +5592,7 @@
+ 		{VAR0154 = 30:
+ 			\L_0c515:
+ 			ZH 1:
+-			'M-Meglass??'
++			'M... Meglass??'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -6025,9 +5600,9 @@
+ 		{VAR0154 = 41:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Galtia... Tại'
+-			R
+-			'sao...? A... Aaa...?'
++			'...Galtia...'
++			R
++			'sao... a... a ư...?'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -6037,25 +5612,25 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Mm... Naaah～...'
+-			R
+-			'Gah... Raaawr... Baaaaah!'
++			'Ưm... nnaa~...'
++			R
++			'gà... gàoo... baaa!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'P-Punch~...'
+-			R
+-			'Tôi đoán vậy...'
++			'Đ... đấm~... đấy...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'E-Hưng phấn... Puh～...'
++			'Th... thở phì'
++			R
++			'mũi...... phù~...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -6065,9 +5640,9 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Mm～... Phép thuật'
+-			R
+-			'thẳng thắn Flaaaaaaaaash!!'
++			'Ưm~... Miracle'
++			R
++			'Straight Flaaash!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -6077,25 +5652,23 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'GIẾT BẠN～! Dù'
+-			R
+-			'ngươi làm gì, TÔI KHÔNG'
+-			R
+-			'GIÚP ĐỠ! GIẾT BẠN～!'
++			'Kill you~! Ra sao cũng mặc,'
++			R
++			'me no help~! Kill you~!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'TẠO NÊN KỲ TÍCH NÀO!!'
++			'Make Dramaaa!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Cái này gọi là, GIẾT BẠN～!'
++			'Cái gọi là, Kill you~!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -6105,9 +5678,9 @@
+ 		{(VAR0154 = 29) + (VAR0154 = 30) + (VAR0154 = 42):
+ 			\L_0c515:
+ 			ZH 1:
+-			'Xin lỗi, mệnh'
+-			R
+-			'lệnh của Kayblis.'
++			'Xin lỗi nhé, lệnh'
++			R
++			'của Kayblis mà.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -6115,9 +5688,9 @@
+ 		{VAR0154 = 32:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hehe... Công'
+-			R
+-			'chúa nhỏ. Hãy tử tế.'
++			'Hề hề... Little Princess.'
++			R
++			'Nhẹ tay chút nhé.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -6127,31 +5700,27 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Này! Ôi, chúa ơi!'
+-			R
+-			'Đừng bắt tôi làm những'
+-			R
+-			'việc khiến tôi đói hơn!'
++			'Hự! A, thật là! Toàn'
++			R
++			'bắt làm chuyện đói bụng!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'À～～!! Tôi đói'
+-			R
+-			'quá, tôi bực mình quá!'
++			'A~~!! Đói bụng vô'
++			R
++			'ích, bực quá đi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Được rồi,'
+-			R
+-			'đến giờ ăn rồi!'
+-			R
+-			'Gahahahaha!ha. Đùa thôi.'
++			'Nào nào, ăn thôi! Hahaha.'
++			R
++			'Đùa thôi, đùa thôi.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -6161,11 +5730,9 @@
+ 		{(VAR0154 = 29) + (VAR0154 = 30) + (VAR0154 = 41) + (VAR0154 = 42):
+ 			\L_0c515:
+ 			ZH 1:
+-			'Điều này có làm'
+-			R
+-			'ngươi xấu hổ không, với'
+-			R
+-			'tư cách là một con quỷ?'
++			'......Làm Ma Nhân mà'
++			R
++			'không thấy xấu hổ à?'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -6173,9 +5740,7 @@
+ 		{VAR0154 = 32:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Hãy chuẩn'
+-			R
+-			'bị tinh thần!'
++			'......Chuẩn bị đi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -6185,21 +5750,21 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ồ!!'
++			'Ôôôô!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Tôi chưa thể chết được!'
++			'Ta chưa thể chết lúc này!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Lượng calo...'
++			'Caroli......'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -6209,7 +5774,7 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Những cơn gió hủy diệt...'
++			'Cơn gió diệt vong...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -6219,23 +5784,21 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hãy phân tán chúng đi...'
++			'Để ta cho tan tác...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Bây giờ... Đã đến'
+-			R
+-			'lúc giết ngươi rồi.'
++			'Nào... để ta giết ngươi.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Tạm biệt.'
++			'......Vĩnh biệt.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -6245,9 +5808,9 @@
+ 		{VAR0154 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Vua của Leazas... Đàn ông'
+-			R
+-			'làm tôi chán nản. Chết đi.'
++			'Vua Leazas... đàn'
++			R
++			'ông chán chết. Giết.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -6255,9 +5818,9 @@
+ 		{VAR0154 = 29:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Vệ tinh! Đã đến'
+-			R
+-			'lúc trừng phạt ngươi!'
++			'Satellaaa! Phạt'
++			R
++			'ngươi bây giờ!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -6265,7 +5828,7 @@
+ 		{(VAR0154 = 30) + (VAR0154 = 41):
+ 			\L_0c515:
+ 			ZH 1:
+-			'Chết ngay!'
++			'Ngươi mau chết đi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -6273,11 +5836,11 @@
+ 		{VAR0154 = 32:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Huhu... Dễ thương quá...'
+-			R
+-			'Cậu đúng là kiểu người'
+-			R
+-			'mà tôi thích trêu chọc.'
++			'Hư hư... dễ thương'
++			R
++			'ghê... kiểu khiến ta'
++			R
++			'muốn hành hạ mà chơi.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -6287,29 +5850,27 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Hô hô hô!! Nếu'
+-			R
+-			'ngươi không giải trí cho'
+-			R
+-			'tôi, tôi sẽ giết ngươi!'
++			'Hô hô hô!! Không làm ta'
++			R
++			'vui chút thì ta giết đấy!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Alefgard～. Tôi muốn đi'
+-			R
+-			'tắm ngay khi về đến nhà.'
++			'Alefgard~. Về là'
++			R
++			'ta muốn tắm ngay.'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Trời ạ! Đánh nhau'
+-			R
+-			'chán quá, nhanh chết đi!'
++			'Thật là! Chán đánh'
++			R
++			'rồi, mau chết đi!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -6319,11 +5880,11 @@
+ 		{VAR0154 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Đối với tôi,'
+-			R
+-			'Vua của loài người là gì?!'
+-			R
+-			'Tôi là Vua của quái vật!!'
++			'Vua loài người là'
++			R
++			'cái thá gì! Bản đại'
++			R
++			'gia là vua ma vật!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -6331,11 +5892,9 @@
+ 		{(VAR0154 = 29) + (VAR0154 = 30) + (VAR0154 = 41) + (VAR0154 = 42):
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ôi trời!! Ngươi'
+-			R
+-			'nghĩ rằng ngươi an toàn'
+-			R
+-			'về phía họ?! Ngươi có?!'
++			'Nàyyy!! Mày tưởng'
++			R
++			'thế là được à! Hả~?!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -6343,11 +5902,9 @@
+ 		{VAR0154 = 32:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Công chúa'
+-			R
+-			'nhỏ! Tôi sẽ lấy đầu của'
+-			R
+-			'ngươi! Đừng di chuyển!'
++			'Little Princess! Cái đầu'
++			R
++			'đó, tao chặt! Đứng yên!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -6357,28 +5914,32 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Uaaah! Chết đi!!'
++			'Uraa!! Mau chết đi!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ồ!! Gahahahaha!! Tấn công!!'
++			'Ôôôô!! Gahahaha!!'
++			R
++			'Xung phong!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Uaaah!! Cắn, đá, đập!!'
++			'Ooraa!! Cắn này,'
++			R
++			'đá này, đập nát!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 4:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Ồ!! Kayblis Attaaack!!'
++			'Ôôôô!! Ore-sama Attaaack!!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -6387,9 +5948,7 @@
+ 	{VAR0156 = 136:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Chết đi! Con'
+-		R
+-		'người bẩn thỉu!'
++		'Chết đi! Lũ người dơ bẩn!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6397,9 +5956,7 @@
+ 	{VAR0156 = 137:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Cuộc sống của ngươi'
+-		R
+-		'chẳng có giá trị gì.'
++		'Các ngươi không đáng sống.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6407,9 +5964,9 @@
+ 	{VAR0156 = 138:
+ 		\L_0c515:
+ 		ZH 1:
+-		'ĐƯỢC XÓA. ĐÓ LÀ'
+-		R
+-		'ƯỚC CỦA SƯ PIAR.'
++		'TIÊU DIỆT. ĐÓ LÀ MONG'
++		R
++		'MUỐN CỦA NGÀI PIAR.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6417,11 +5974,9 @@
+ 	{VAR0156 = 139:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Đây là một cuộc'
+-		R
+-		'thập tự chinh. Một'
+-		R
+-		'cuộc thập tự chinh!'
++		'Đây là thánh chiến.'
++		R
++		'Là thánh chiến!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6429,9 +5984,9 @@
+ 	{VAR0156 = 140:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Tất cả các người'
+-		R
+-		'sẽ xuống địa ngục!!'
++		'Các ngươi sẽ rơi'
++		R
++		'xuống địa ngục hết!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6439,11 +5994,11 @@
+ 	{VAR0156 = 141:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Thanh kiếm của'
+-		R
+-		'tôi là tấm vé một chiều'
+-		R
+-		'tới Địa ngục. Lấy nó đi!'
++		'Kiếm của ta là vé'
++		R
++		'một chiều xuống địa'
++		R
++		'ngục. Nào, nhận lấy!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6451,7 +6006,7 @@
+ 	{VAR0156 = 142:
+ 		\L_0c515:
+ 		ZH 1:
+-		'... Chết đi.'
++		'.........Chết đi.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6459,9 +6014,9 @@
+ 	{VAR0156 = 143:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Chết đi, lũ chó khốn'
+-		R
+-		'nạn của tên vua thô tục đó.'
++		'Lũ chó của tên vua dâm'
++		R
++		'loạn. Chết nhanh đi.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6469,11 +6024,9 @@
+ 	{VAR0156 = 144:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Nếu để bảo'
+-		R
+-		'vệ Tiểu thư, tôi sẽ hy'
+-		R
+-		'sinh mạng sống của mình!'
++		'Để bảo vệ tiểu thư Lady,'
++		R
++		'mạng này chẳng tiếc!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6481,11 +6034,9 @@
+ 	{VAR0156 = 145:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Chúng tôi sẽ'
+-		R
+-		'không để ngươi làm những'
+-		R
+-		'gì ngươi thích với Lady!!'
++		'Không để các ngươi'
++		R
++		'tùy tiện với Lady!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6493,7 +6044,7 @@
+ 	{VAR0156 = 146:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Đồ ngốc...'
++		'Đồ ngu xuẩn......'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6501,11 +6052,11 @@
+ 	{VAR0156 = 147:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Những kẻ ngu'
+-		R
+-		'ngốc báng bổ. Tôi sẽ gửi'
+-		R
+-		'ngươi thẳng đến Vua Oni.'
++		'Lũ ngu dân chống lại'
++		R
++		'trời. Ta sẽ tự tay đưa'
++		R
++		'xuống chỗ Quỷ Vương.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6513,9 +6064,9 @@
+ 	{VAR0156 = 148:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Bắt chước người'
+-		R
+-		'chỉ huy. LÀM DRAMAAA!'
++		'Bắt chước đội'
++		R
++		'trưởng. Make Dramaaa!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6523,7 +6074,7 @@
+ 	{VAR0156 = 149:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Hãy chết đi!'
++		'Xin hãy chết đi!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6531,9 +6082,7 @@
+ 	{VAR0156 = 150:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Gogyaaah!! Guh...'
+-		R
+-		'Gugaaahaaahaha!haha!!!'
++		'Gogyaaaa!! Gư... gugaaa!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6541,7 +6090,7 @@
+ 	{VAR0156 = 151:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Phí!!'
++		'Xung phong!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6549,7 +6098,7 @@
+ 	{VAR0156 = 152:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Quá tuyệt!!'
++		'Guoooo!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6557,9 +6106,9 @@
+ 	{VAR0156 = 153:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Hả...! Hãy cho tôi'
+-		R
+-		'cuộc sống của ngươi!'
++		'Haaa...! Mạng'
++		R
++		'ngươi, xin nhận lấy!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6567,9 +6116,9 @@
+ 	{VAR0156 = 154:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Nhận một ít anpan'
+-		R
+-		'cho Chỉ huy Galtia! Ôi!'
++		'Lấy bánh anpan cho'
++		R
++		'ngài Galtia nào, ồ!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6577,7 +6126,7 @@
+ 	{VAR0156 = 155:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Chết tiệt!! Chết đi!!'
++		'Khốn kiếppp!! Chết đi!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6588,31 +6137,27 @@
+ 		{VAR0690 = 1:
+ 			\L_0c515:
+ 			ZH 1:
+-			'...'
+-			\L_0c576:
+-			ZH 1:
+-			'Ít nhất tôi'
+-			R
+-			'sẽ làm cho chuyến'
+-			\L_0c576:
+-			ZH 1:
+-			'đi sang thế giới bên kia'
+-			R
+-			'của ngươi trở nên dễ dàng...'
++			'......Ít ra'
++			\L_0c576:
++			ZH 1:
++			'ta sẽ cho ngươi'
++			\L_0c576:
++			ZH 1:
++			'ra đi nhẹ nhàng...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Đi!'
++			'......Tiến!'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+ 		{VAR0690 = 3:
+ 			\L_0c515:
+ 			ZH 1:
+-			'... Tạm biệt...'
++			'......Vĩnh biệt...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 		}
+@@ -6632,7 +6177,7 @@
+ 	{VAR0156 = 159:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Cú đấm tấn công.'
++		'Đánh bằng nắm đấm nè~.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6640,7 +6185,7 @@
+ 	{VAR0156 = 160:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Chó con. Đi nào, gâu gâu.'
++		'Gâu gâu. Đi thôi gâu.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6648,7 +6193,7 @@
+ 	{VAR0156 = 161:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Mm～～... Gâu, gâu!!'
++		'Ưm~~... gâu gâu!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6656,9 +6201,9 @@
+ 	{VAR0156 = 162:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Bảo vệ lâu'
+-		R
+-		'đài của ông Lis!'
++		'Bảo vệ lâu đài'
++		R
++		'của ngài Lis meo!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6666,7 +6211,7 @@
+ 	{VAR0156 = 163:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Mèo con ơi, ngoan quá!!'
++		'Meo meo, khèèè!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6674,7 +6219,7 @@
+ 	{VAR0156 = 164:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Mèo con. Cố lên nhé, meo.'
++		'Meo meo. Cố lên meo.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6682,9 +6227,7 @@
+ 	{VAR0156 = 165:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Graaaaaaaaaaaaah,'
+-		R
+-		'ra khỏi đây đi!'
++		'Ora ora ora, cút ra ngoài!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6692,7 +6235,7 @@
+ 	{VAR0156 = 166:
+ 		\L_0c515:
+ 		ZH 1:
+-		'KEEEKEKEKEH!'
++		'Keekekekeke!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6701,16 +6244,16 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Namu namu namu...'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Dân tộc man'
+-		R
+-		'rợ. Nằm xuống đi!!'
++			'Nam mô nam mô nam mô......'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'Lũ nước xâm lược'
++		R
++		'man rợ! Quỳ xuống!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6718,9 +6261,7 @@
+ 	{VAR0156 = 168:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Hãy cầm lấy cái'
+-		R
+-		'này, Quân đội Leazas!!'
++		'Nhận lấy, quân Leazas!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6728,7 +6269,7 @@
+ 	{VAR0156 = 169:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Adrenaline ở mức tối đa!!'
++		'Adrenaline mở hết cỡ!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6736,9 +6277,9 @@
+ 	{VAR0156 = 170:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Đừng chết! Ngươi sẽ được'
+-		R
+-		'tăng lương nếu sống sót!'
++		'Sống sót đi! Sống sót'
++		R
++		'là được tăng lương!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6747,16 +6288,16 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Namu namu namu...'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Ngươi đang đi đâu'
+-		R
+-		'vậy...? Cái gì thế?!'
++			'Nam mô nam mô nam mô......'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'Đi chỗ khác... đã'
++		R
++		'bảo đi chỗ khác mà!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6765,18 +6306,14 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Namu namu namu...'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Hmph... Phép'
+-		R
+-		'thuật của đất nước các'
+-		R
+-		'người thật thảm hại!!'
++			'Nam mô nam mô nam mô......'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'Hừ, nước ma pháp lạc hậu!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6784,9 +6321,9 @@
+ 	{VAR0156 = 173:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Thịt... Ăn'
+-		R
+-		'thịt. Thịt Leazas...!'
++		'Thịt... muốn ăn'
++		R
++		'thịt, thịt Leazas...!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6794,9 +6331,7 @@
+ 	{VAR0156 = 174:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Tôi không thể'
+-		R
+-		'chịu nổi nữa!'
++		'Tao chịu hết nổi rồi!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6805,18 +6340,16 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Namu namu namu...'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Aah... Những'
+-		R
+-		'lúc như thế này tôi ước'
+-		R
+-		'gì Vua Gandhi ở đây...!'
++			'Nam mô nam mô nam mô......'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'Aa... những lúc thế này,'
++		R
++		'giá có Vua Gandhi...!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6825,16 +6358,16 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Namu namu namu...'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Uu, trông tệ quá...'
+-		R
+-		'Nhưng tôi sẽ không thua đâu!'
++			'Nam mô nam mô nam mô......'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'Ư, bất lợi rồi...'
++		R
++		'nhưng không thua đâu!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6842,11 +6375,11 @@
+ 	{VAR0156 = 177:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Tôi muốn'
+-		R
+-		'đụ nàng công chúa mồm'
+-		R
+-		'mép đó một lần thôi...'
++		'Chỉ một lần thôi, muốn'
++		R
++		'làm với con công chúa'
++		R
++		'láo toét đó quá...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6854,7 +6387,7 @@
+ 	{VAR0156 = 178:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Ukeh... Ukekyokiiii!!'
++		'Ukeh... ukekyokiii!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6863,18 +6396,16 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Namu namu namu...'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Những quốc gia mà hầu hết'
+-		R
+-		'mọi người không thể sử dụng'
+-		R
+-		'phép thuật thật là thô lỗ!!'
++			'Nam mô nam mô nam mô......'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'Nước chẳng dùng nổi ma pháp'
++		R
++		'tử tế, quê mùa hết sức!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6883,14 +6414,14 @@
+ 		{VAR0618 = 2:
+ 			\L_0c515:
+ 			ZH 1:
+-			'Namu namu namu...'
+-			\L_0c576:
+-			\L_0c569:
+-			%0:
+-		}
+-		\L_0c515:
+-		ZH 1:
+-		'Zeth sẽ không thua!'
++			'Nam mô nam mô nam mô......'
++			\L_0c576:
++			\L_0c569:
++			%0:
++		}
++		\L_0c515:
++		ZH 1:
++		'Zeth tuyệt đối không thua!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6898,9 +6429,9 @@
+ 	{VAR0156 = 181:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Chỉ huy! Tôi sẽ thắng,'
+-		R
+-		'nên đừng giết tôi nhé!'
++		'Đội trưởngggg! Bọn em sẽ'
++		R
++		'thắng, đừng giết bọn em!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6908,9 +6439,7 @@
+ 	{VAR0156 = 182:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Tôi sẽ làm hết sức'
+-		R
+-		'mình vì người chỉ huy. Ôi!'
++		'Cố hết sức vì đội trưởng. Ồ!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6918,7 +6447,9 @@
+ 	{VAR0156 = 183:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Heh... Heheh... Máu... Ờ...'
++		'Hề... hề hề... máu'
++		R
++		'đây... quả nhiên...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6926,7 +6457,7 @@
+ 	{VAR0156 = 184:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Ối, hahaha~.'
++		'Ị nè, bủm bủm~.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6934,7 +6465,7 @@
+ 	{VAR0156 = 185:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Uhohoh, ugaaah.'
++		'Uhô uhô. Ugaa.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6942,9 +6473,7 @@
+ 	{VAR0156 = 186:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Đúng, chúng tôi là'
+-		R
+-		'những vệ binh ưu tú.'
++		'Ồ ồ, bọn ta là cận vệ đây.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6952,7 +6481,7 @@
+ 	{VAR0156 = 187:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Gaaaaaah!!'
++		'Gaaaa!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6960,7 +6489,7 @@
+ 	{VAR0156 = 188:
+ 		\L_0c515:
+ 		ZH 1:
+-		'Kugyaah!!'
++		'Kugyaaa!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6984,11 +6513,9 @@
+ 	{(VAR0156 > 190) * (VAR0156 < 200):
+ 		\L_0c515:
+ 		ZH 1:
+-		'Chết đi, chết đi!!'
+-		R
+-		'Giết những con người'
+-		R
+-		'đó và ăn thịt chúng!'
++		'Giết, giết!! Giết lũ'
++		R
++		'người rồi ăn thịt hết!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -6998,7 +6525,7 @@
+ 	{VAR0607 \ 0:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Nhân tiện!'
++		'By the way!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7023,21 +6550,19 @@
+ 	{VAR0156 = 2:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Haurein... Con ngài'
+-		R
+-		'Barres cũng không'
+-		R
+-		'được nương tay.'
+-		\L_0c576:
+-		ZH 1:
+-		'Vì đức vua...'
+-		\L_0c576:
+-		\L_0c569:
+-		\L_0c515:
+-		ZH 1:
+-		'Cứ thế đi, Tử thần'
+-		R
+-		'Đỏ.'
++		'Haurein... dù là con'
++		R
++		'gái ngài Barres, ta'
++		R
++		'cũng không nương tay.'
++		\L_0c576:
++		ZH 1:
++		'Vì King...'
++		\L_0c576:
++		\L_0c569:
++		\L_0c515:
++		ZH 1:
++		'Thế cũng được. Tử Thần Đỏ.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7045,21 +6570,21 @@
+ 	{VAR0156 = 3:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Ngài Pegasus! Hãy'
+-		R
+-		'suy nghĩ lại điều này!'
+-		\L_0c576:
+-		ZH 1:
+-		'Tôi không muốn chúng'
+-		R
+-		'ta chiến đấu theo cách này!'
+-		\L_0c576:
+-		\L_0c569:
+-		\L_0c515:
+-		ZH 1:
+-		'Nhụt chí rồi sao, Tử'
+-		R
+-		'thần Đỏ! Đánh đi!'
++		'Ngài Pegasus!'
++		R
++		'Xin hãy nghĩ lại!'
++		\L_0c576:
++		ZH 1:
++		'Tôi không muốn'
++		R
++		'đánh trận thế này!'
++		\L_0c576:
++		\L_0c569:
++		\L_0c515:
++		ZH 1:
++		'Nhụt chí rồi à! Tử'
++		R
++		'Thần Đỏ!! Lại đây!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7067,9 +6592,9 @@
+ 	{VAR0156 = 4:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Cô Melfeis... Hãy'
+-		R
+-		'chạy đi nếu có thể...'
++		'Cô Melfeis... nếu được,'
++		R
++		'xin hãy chạy đi...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7077,11 +6602,9 @@
+ 	{(VAR0156 = 5) + (VAR0156 = 6) + (VAR0156 = 7):
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'... Chạy đi... Tôi'
+-		R
+-		'không thể nương'
+-		R
+-		'tay...'
++		'......Chạy đi... tôi'
++		R
++		'không thể nương tay...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7089,16 +6612,12 @@
+ 	{VAR0156 = 54:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'... Đến giờ mới'
+-		R
+-		'thấm, đây là chiến'
+-		R
+-		'tranh...'
+-		\L_0c576:
+-		ZH 1:
+-		'... Khi thấy anh'
+-		R
+-		'đứng trước mặt...'
++		'......Đến giờ mới thấm'
++		R
++		'thía, đây là chiến tranh...'
++		\L_0c576:
++		ZH 1:
++		'khi có anh đứng trước mặt...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7106,11 +6625,9 @@
+ 	{VAR0156 = 55:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'... Đây là'
+-		R
+-		'lần thứ hai chúng ta là kẻ'
+-		R
+-		'thù của nhau phải không...?'
++		'...Đây là lần thứ hai nhỉ...'
++		R
++		'chúng ta thành kẻ thù...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7118,7 +6635,7 @@
+ 	{VAR0156 = 56:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Ngài Freak... Không'
++		'Ngài Freak... không'
+ 		R
+ 		'cần nương tay...'
+ 		\L_0c576:
+@@ -7128,7 +6645,7 @@
+ 	{VAR0156 = 57:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'... Xin lỗi... Cô Hanty.'
++		'......Thất lễ. Cô Hanty.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7138,11 +6655,9 @@
+ 	{VAR0690 = 1:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Xin lỗi trước, các'
+-		R
+-		'vị sẽ không có ngày'
+-		R
+-		'mai.'
++		'Xin lỗi trước, vì các'
++		R
++		'người không có ngày mai.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+@@ -7165,7 +6680,7 @@
+ 	{VAR0690 = 4:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Ồ!!'
++		'Ôôôô!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+@@ -7191,9 +6706,7 @@
+ 		'lại!'
+ 		\L_0c576:
+ 		ZH 1:
+-		'Cô là phó tướng của'
+-		R
+-		'hắn cơ mà!'
++		'Cô là phó tướng cơ mà!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7201,11 +6714,9 @@
+ 	{VAR0156 = 3:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Ngài Pegasus! Sao cả'
+-		R
+-		'ông cũng theo phe'
+-		R
+-		'ấy!'
++		'Ngài Pegasus! Sao đến'
++		R
++		'cả ông cũng theo phe ấy!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7213,11 +6724,9 @@
+ 	{VAR0156 = 4:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Melfeis, đẹp thế'
+-		R
+-		'này, ta không nỡ'
+-		R
+-		'giết cô.'
++		'Cô Melfeis, đẹp thế'
++		R
++		'này, ta không nỡ giết.'
+ 		\L_0c576:
+ 		ZH 1:
+ 		'Xin cô đấy, đầu hàng'
+@@ -7247,27 +6756,25 @@
+ 		'đấy.'
+ 		\L_0c576:
+ 		ZH 1:
+-		'Ta khen ngươi!'
++		'Ta khen cho!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 2:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Tiến lên! Cho chúng'
+-		R
+-		'thấy sức mạnh của'
+-		R
+-		'ta!'
++		'Nào, tiến lên! Cho chúng'
++		R
++		'thấy sức mạnh của ta!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 3:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Nghe đây! Tuyệt đối'
+-		R
+-		'không được lùi!'
++		'Nghe đây! Tuyệt'
++		R
++		'đối không được lùi!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+@@ -7276,12 +6783,10 @@
+ 		ZH 1:
+ 		'Xong trận này, tập'
+ 		R
+-		'harmonica thôi... Ừ.'
+-		\L_0c576:
+-		ZH 1:
+-		'Phải tập trung tinh'
+-		R
+-		'thần mà đánh.'
++		'harmonica thôi... ừm.'
++		\L_0c576:
++		ZH 1:
++		'Tập trung tinh thần mà đánh.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+@@ -7290,18 +6795,16 @@
+ 	{VAR0156 = 1:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Thưa ngài Ex... Tôi'
+-		R
+-		'không muốn làm điều này!'
+-		\L_0c576:
+-		\L_0c569:
+-		\L_0c515:
+-		ZH 1:
+-		'Không sao'
+-		R
+-		'đâu... Đến đây. Tôi cũng'
+-		R
+-		'sẽ chiến đấu nghiêm túc.'
++		'Ngài Ex... tôi không'
++		R
++		'muốn làm thế này!'
++		\L_0c576:
++		\L_0c569:
++		\L_0c515:
++		ZH 1:
++		'Thôi được... lại đây.'
++		R
++		'Tôi cũng đánh thật đấy.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7309,25 +6812,21 @@
+ 	{VAR0156 = 2:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Haurein! Hãy suy'
+-		R
+-		'nghĩ lại điều này!!'
+-		\L_0c576:
+-		ZH 1:
+-		'Ngươi đang'
+-		R
+-		'chiến đấu trong một trận'
+-		R
+-		'chiến không thể thắng!!'
+-		\L_0c576:
+-		\L_0c569:
+-		\L_0c515:
+-		ZH 1:
+-		'Im đi! Tôi'
+-		R
+-		'không chỉ làm điều này bởi'
+-		R
+-		'vì tôi cảm thấy thích nó!'
++		'Chị Haurein! Xin'
++		R
++		'chị nghĩ lại!!'
++		\L_0c576:
++		ZH 1:
++		'Trận này bên chị'
++		R
++		'bất lợi đấy!!'
++		\L_0c576:
++		\L_0c569:
++		\L_0c515:
++		ZH 1:
++		'Im đi! Ta cũng đâu'
++		R
++		'thích làm thế này!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7335,16 +6834,14 @@
+ 	{VAR0156 = 3:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Ngài Pegasus!'
+-		R
+-		'Xin hãy dừng lại! Tôi'
+-		R
+-		'không muốn giết ngươi!'
+-		\L_0c576:
+-		\L_0c569:
+-		\L_0c515:
+-		ZH 1:
+-		'Im đi, cô gái!'
++		'Ngài Pegasus! Xin dừng lại!'
++		R
++		'Tôi không muốn giết ngài!'
++		\L_0c576:
++		\L_0c569:
++		\L_0c515:
++		ZH 1:
++		'Im đi, con nhóc!'
+ 		R
+ 		'Đây là chiến tranh!!'
+ 		\L_0c576:
+@@ -7354,9 +6851,9 @@
+ 	{VAR0156 = 4:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Melfeis... Không...'
+-		R
+-		'tôi không thể...'
++		'Chị Melfeis... không'
++		R
++		'muốn... thế này...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7364,11 +6861,9 @@
+ 	{(VAR0156 = 5) + (VAR0156 = 6) + (VAR0156 = 7):
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Tại sao chuyện'
+-		R
+-		'này lại xảy ra...? Mọi'
+-		R
+-		'người đều ngu ngốc...'
++		'Sao lại thế này...'
++		R
++		'mọi người ngốc hết...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7378,33 +6873,27 @@
+ 	{VAR0690 = 1:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Tôi sẽ không'
+-		R
+-		'thua... Tôi không thể!'
+-		R
+-		'Đi thôi mọi người!'
++		'Không thua đâu... tuyệt'
++		R
++		'đối! Đi nào, mọi người!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 2:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Mọi người hãy cố'
+-		R
+-		'gắng hết sức nhé! Đi'
+-		R
+-		'thôi! Hãy theo tôi!'
++		'Mọi người, cố lên!'
++		R
++		'Đi nào! Theo tôi!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 3:
+ 		\L_0c4dd:
+ 		ZH 1:
+-		'Bình tĩnh... Mọi'
+-		R
+-		'chuyện ổn rồi... Ừ... Tôi'
+-		R
+-		'có thể làm được việc này...'
++		'Bình tĩnh... không'
++		R
++		'sao... ừm... làm được...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+@@ -7413,7 +6902,7 @@
+ 	{VAR0607 \ 0:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Chuhai, đi, đi. Ồ ồ ồ.'
++		'Chuhai, đi đi. Ồ ồ.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7423,32 +6912,30 @@
+ 			!VAR0700 : 1!
+ 			\L_0c4c1:
+ 			ZH 1:
+-			'（Chaka） Bây giờ,'
+-			R
+-			'Asuka. Tấn công. Đi, đi.'
+-			\L_0c576:
+-			ZH 1:
+-			'Mập mạp, mũm mĩm~...'
++			'(Chaka) Nào, Asuka.'
++			R
++			'Tấn công. Đi đi.'
++			\L_0c576:
++			ZH 1:
++			'Phúng phính~...'
+ 			\L_0c576:
+ 			ZH 1:
+ 			'（Chaka） Hửm??'
+ 			\L_0c576:
+ 			ZH 1:
+-			'Đồ của Mill...'
+-			R
+-			'Chúng tròn trịa và mũm'
+-			R
+-			'mĩm~... Tôi thích chúng~...'
+-			\L_0c576:
+-			ZH 1:
+-			'（Chaka] Ôi, những con thú'
+-			R
+-			'ma quái. Chúng ta có thể nói'
+-			R
+-			'về họ sau. Asuka, tấn công!'
+-			\L_0c576:
+-			ZH 1:
+-			'À~～...'
++			'Của Mil... phúng phính'
++			R
++			'tròn tròn~... thích ghê~...'
++			\L_0c576:
++			ZH 1:
++			'(Chaka) Ồ, nói về huyễn'
++			R
++			'thú à. Chuyện đó để'
++			R
++			'sau. Asuka, tấn công!'
++			\L_0c576:
++			ZH 1:
++			'A~~...'
+ 			\L_0c576:
+ 			\L_0c569:
+ 			%0:
+@@ -7458,41 +6945,37 @@
+ 		\L_0c4c1:
+ 		{VAR0156 = 1:
+ 			ZH 1:
+-			'À, anh Ex. Đi thôi~.'
++			'A, chú Ex. Đi nè~.'
+ 			R
+ 		}
+ 		{VAR0156 = 2:
+ 			ZH 1:
+-			'Haurein? Thế này'
+-			R
+-			'được không...? Cô chưa'
+-			R
+-			'bao giờ đánh đòn tôi.'
++			'Haurein? Có sao không'
++			R
++			'ta... không được'
++			R
++			'đánh mông đâu nhé.'
+ 			R
+ 		}
+ 		{VAR0156 = 3:
+ 			ZH 1:
+-			'Ông Pega. Xin chào～.'
++			'Ông Pega. Chào~.'
+ 			R
+ 		}
+ 		{VAR0156 = 4:
+ 			ZH 1:
+-			'Melfy... Tại'
+-			R
+-			'sao?... Ưu～, sao'
+-			R
+-			'cũng được. Đi thôi~.'
++			'Chị Melun... sao vậy?...'
++			R
++			'ưm~ thôi kệ. Đi nè~.'
+ 			R
+ 		}
+ 		{(VAR0156 = 5) + (VAR0156 = 6) + (VAR0156 = 7):
+ 			ZH 1:
+-			'Ồ? Ông... ...'
+-			R
+-			'Uu, tôi đi đây.'
+-			R
+-		}
+-		ZH 1:
+-		'Chiiill trắng!'
++			'Ơ ơ? Chú... ụp, đánh nè.'
++			R
++		}
++		ZH 1:
++		'Bạch Lãnh Kích nè!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7502,21 +6985,23 @@
+ 	{VAR0690 = 1:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Sẽ đau lắm đây. Biến đi.'
++		'Đau không chịu đâu.'
++		R
++		'Đi chỗ khác, đi đi.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 2:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Aah～～... Nhận lấy cái này!'
++		'A ư~~... hây!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 3:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Puipui! Puu～～!!'
++		'Phì phì! Phù~~!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+@@ -7525,11 +7010,9 @@
+ 	{VAR0156 = 1:
+ 		\L_0c4dd:
+ 		ZH 1:
+-		'Tôi sẽ tiêu diệt'
+-		R
+-		'chúng và giành lấy'
+-		R
+-		'tất cả danh tiếng...'
++		'Hạ nó rồi một mình'
++		R
++		'hưởng công trạng...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7537,11 +7020,11 @@
+ 	{VAR0156 = 2:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Cô Haurein...?'
+-		R
+-		'Tôi sẽ cố gắng chiến đấu'
+-		R
+-		'mà không làm hại ngươi.'
++		'Cô Haurein à... ta'
++		R
++		'sẽ đánh sao cho cô'
++		R
++		'bị thương ít nhất.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7549,11 +7032,9 @@
+ 	{VAR0156 = 3:
+ 		\L_0c4dd:
+ 		ZH 1:
+-		'Chỉ là một'
+-		R
+-		'người lính già... Chẳng'
+-		R
+-		'đẹp đẽ chút nào...'
++		'Lính già chỉ có thể ra đi...'
++		R
++		'thật chẳng đẹp đẽ gì...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7561,11 +7042,9 @@
+ 	{VAR0156 = 4:
+ 		\L_0c4dd:
+ 		ZH 1:
+-		'Melfeis...? Vẻ'
+-		R
+-		'đẹp của em bị lãng phí'
+-		R
+-		'khi làm vợ lẽ của Ex.'
++		'Melfeis à... nhan sắc ấy làm'
++		R
++		'vợ lẽ cho Ex thì phí quá.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7575,29 +7054,25 @@
+ 	{VAR0690 = 1:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Hãy làm những gì ngươi'
+-		R
+-		'được trả tiền để làm. Đi!'
++		'Nhận lương thì làm'
++		R
++		'cho xứng. Tiến!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 2:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Bây giờ... Chúng'
+-		R
+-		'ta chuyển đi nhé?'
++		'Nào... xuất quân thôi.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 3:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Tôi sẽ cho'
+-		R
+-		'ngươi biết công việc'
+-		R
+-		'của chúng tôi là gì.'
++		'Để ta xem các ngươi có hiểu'
++		R
++		'rõ việc của mình không.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+@@ -7606,11 +7081,9 @@
+ 	{VAR0156 = 1:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Tôi tưởng ngài rất khôn'
+-		R
+-		'ngoan, nhưng điều này có ý'
+-		R
+-		'nghĩa gì vậy, thưa ngài Ex?!'
++		'Ta tưởng ngài sáng suốt,'
++		R
++		'sao lại thế này, ngài Ex!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7640,11 +7113,9 @@
+ 	{VAR0156 = 4:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Cô Melfeis. Nếu'
+-		R
+-		'cậu định chống cự thì hãy'
+-		R
+-		'chuẩn bị tinh thần đi...!'
++		'Cô Melfeis. Nếu chống cự thì'
++		R
++		'hãy chuẩn bị tinh thần...!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7652,7 +7123,7 @@
+ 	{(VAR0156 = 5) + (VAR0156 = 6) + (VAR0156 = 7):
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Hừ, đồ ngu ngốc!'
++		'Ê, đồ ngu xuẩn!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7662,52 +7133,48 @@
+ 	{VAR0690 = 1:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Hãy lắng nghe. Giữ'
+-		R
+-		'bình tĩnh và tấn công.'
+-		\L_0c576:
+-		ZH 1:
+-		'Đối thủ này vẫn có'
+-		R
+-		'thể thắng được.'
++		'Nghe đây, bình'
++		R
++		'tĩnh mà tấn công.'
++		\L_0c576:
++		ZH 1:
++		'Không phải đối thủ'
++		R
++		'không thể thắng.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 2:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Bình tĩnh. Cho thấy'
+-		R
+-		'thành quả tập luyện'
+-		R
+-		'đi.'
++		'Bình tĩnh. Thể hiện thành'
++		R
++		'quả luyện tập ở đây.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 3:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Đừng chết... Các con'
+-		R
+-		'đều là lính quý của'
+-		R
+-		'ta...'
++		'Đừng chết đấy... đều là'
++		R
++		'thuộc hạ quý của ta cả...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 4:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Bây giờ, tấn'
+-		R
+-		'công! Hãy cố lên.'
++		'Nào, xuất kích! Tập'
++		R
++		'trung tinh thần.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 5:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Được rồi, bây giờ!'
++		'Được, ngay bây giờ!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+@@ -7716,7 +7183,7 @@
+ 	{VAR0156 = 1:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Xin lỗi, Quân sư Ex.'
++		'Thất lễ, Tướng quân Ex.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7790,25 +7257,23 @@
+ 	{VAR0690 = 3:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Ngươi mạnh đến mức'
+-		R
+-		'nào...? Cho tôi xem.'
++		'Mạnh đến đâu...'
++		R
++		'xin cho tôi xem.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 4:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Tấn công!'
++		'Xuất kích!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 5:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Mọi người...'
+-		R
+-		'Đừng mất cảnh giác!'
++		'Mọi người... đừng lơ là!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+@@ -7817,11 +7282,9 @@
+ 	{(VAR0156 = 83) + (VAR0156 = 84) + (VAR0156 = 85):
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Quái vật đâu phải'
+-		R
+-		'đối thủ của ta...'
+-		R
+-		'Nói vậy thôi!'
++		'Quái vật đâu phải đối thủ'
++		R
++		'của ta... nói vậy thôi!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7831,27 +7294,25 @@
+ 	{VAR0690 = 1:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Cố lên nào. Vì đại'
+-		R
+-		'ca Rance, giết đủ'
+-		R
+-		'100 tên!'
++		'Nào, cố lên. Vì đại ca'
++		R
++		'Rance, giết đủ 100 tên!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 2:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Tên nào muốn chết'
+-		R
+-		'thì bước ra đây!'
++		'Đứa nào muốn chết thì'
++		R
++		'bước ra trước mặt ta!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 3:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Đi thôi! Tránh đường!'
++		'Lên nàooo! Đừng có cản!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+@@ -7860,11 +7321,9 @@
+ 	{VAR0618 = 2:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Nghe này các ngươi! Hãy'
+-		R
+-		'cầu nguyện rằng ngươi không'
+-		R
+-		'bị tấn công và bỏ chạy!'
++		'Nghe đây, bọn bay! Cầu cho'
++		R
++		'đừng trúng đòn mà chạy!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7874,9 +7333,9 @@
+ 	{VAR0690 = 1:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Hãy cho họ thấy tinh thần'
+-		R
+-		'của chúng ta đi các ngươi!'
++		'Bọn bay, cho'
++		R
++		'chúng thấy gan dạ!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+@@ -7892,9 +7351,7 @@
+ 	{VAR0000 = 3:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Không có gì to'
+-		R
+-		'tát cả. Đi thôi!!'
++		'Có gì to tát đâu. Lên nào!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+@@ -7921,20 +7378,16 @@
+ 	{VAR0690 = 1:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Em sẽ cố hết'
+-		R
+-		'sức, Chủ nhân Rance.'
++		'Em sẽ cố. Chủ nhân Rance.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 2:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Không cố đánh sẽ bị'
+-		R
+-		'chủ nhân mắng... Xin'
+-		R
+-		'lỗi!'
++		'Không cố đánh là sau'
++		R
++		'bị mắng... Xin lỗi!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+@@ -7950,7 +7403,7 @@
+ 	{VAR0690 = 4:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Nếm mùi này!!'
++		'Hây!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+@@ -7971,11 +7424,7 @@
+ 	{VAR0607 = 1:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Cuộc tấn công'
+-		R
+-		'kết thúc!! Cuộc'
+-		R
+-		'tấn công Raaance!'
++		'Tất sát!! Raaance Attack!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7983,9 +7432,9 @@
+ 	{(VAR0518 = 0) * (VAR0156 = 31):
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Dân quân là rác'
+-		R
+-		'rưởi. Đá chúng xung quanh!'
++		'Dân binh là rác.'
++		R
++		'Đá văng hết!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -7993,9 +7442,9 @@
+ 	{VAR0156 = 1:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Đó là kẻ chủ mưu'
+-		R
+-		'à...? Ờ... Giết hắn đi!'
++		'Đó là kẻ cầm đầu à...'
++		R
++		'bực bực bực... giết!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8003,11 +7452,9 @@
+ 	{VAR0156 = 2:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Hừm... Nữ tướng?'
+-		R
+-		'Tôi sẽ bắt cô và cưỡng'
+-		R
+-		'hiếp cô! Gahahahaha!!!'
++		'Hừm... nữ tướng à. Bắt'
++		R
++		'về hiếp! Gahahahaha!!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8015,9 +7462,9 @@
+ 	{VAR0156 = 3:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Ông già thật vô giá'
+-		R
+-		'trị! Nhanh lên và chết đi!'
++		'Lão già thì'
++		R
++		'khỏi! Giết nhanh!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8025,16 +7472,12 @@
+ 	{VAR0156 = 4:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Có vẻ như họ'
+-		R
+-		'là pháp sư. Ồ, và người'
+-		R
+-		'chỉ huy là một phụ nữ!'
+-		\L_0c576:
+-		ZH 1:
+-		'Mang cô đến cho tôi'
+-		R
+-		'mà không hề hấn gì.'
++		'Áp sát thì pháp sư dễ xơi.'
++		R
++		'Ồ, mà đội trưởng là gái à!!'
++		\L_0c576:
++		ZH 1:
++		'Bắt lấy, đừng làm bị thương.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8042,11 +7485,9 @@
+ 	{VAR0156 = 11:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Uhee... Uheeheehee...'
+-		R
+-		'Thật là một người'
+-		R
+-		'phụ nữ tốt, vậy mà...'
++		'Uhi... uhi uhi uhi...'
++		R
++		'gái ngon thế mà...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8070,11 +7511,9 @@
+ 	{VAR0156 = 45:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Ồ, tìm được'
+-		R
+-		'một người phụ nữ tốt.'
+-		R
+-		'Bắt sống cô. Gahahahaha!'
++		'Ồ, phát hiện gái ngon.'
++		R
++		'Bắt sống. Gahahaha.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8082,11 +7521,9 @@
+ 	{VAR0156 = 51:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Gahahahaha!! Tất'
+-		R
+-		'cả các cô gái dễ thương'
+-		R
+-		'đều thuộc về tôi!'
++		'Gahahaha!! Gái xinh'
++		R
++		'đều là của bản đại gia!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8094,14 +7531,12 @@
+ 	{VAR0156 = 52:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Ừm, tốt quá! Hãy'
+-		R
+-		'chắc chắn không giết cô!'
+-		\L_0c576:
+-		ZH 1:
+-		'Ngươi sẽ nhận được án'
+-		R
+-		'tử hình nếu ngươi làm vậy!!'
++		'Ừm, good! Tuyệt'
++		R
++		'đối đừng giết!'
++		\L_0c576:
++		ZH 1:
++		'Giết là xử tử đấy!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8109,11 +7544,11 @@
+ 	{VAR0156 = 55:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Lần này là kẻ thù và'
+-		R
+-		'đồng minh? Tôi sẽ không dễ'
+-		R
+-		'dàng chỉ vì tôi biết ngươi!'
++		'Lần này là địch với'
++		R
++		'ta à. Quen biết cũng'
++		R
++		'không nương tay đâu!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8121,9 +7556,9 @@
+ 	{VAR0156 = 56:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Lại đây đi ông già. Về'
+-		R
+-		'phía chúng tôi thì vui hơn.'
++		'Ông già, sang đây'
++		R
++		'đi. Bên này vui hơn.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8131,11 +7566,9 @@
+ 	{VAR0156 = 57:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Hửm?? Một kalar tóc'
+-		R
+-		'đen?? Thật hiếm có. Tôi'
+-		R
+-		'muốn đụ cô. Gahahahaha!'
++		'Hửm?? Kalar tóc đen?? Hiếm'
++		R
++		'đấy. Muốn làm. Gahahaha.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8143,16 +7576,14 @@
+ 	{VAR0156 = 62:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Chính là cậu đấy,'
+-		R
+-		'Sanakia. Ngươi có thể bắt'
+-		R
+-		'tôi được không? Gahahahaha!'
+-		\L_0c576:
+-		\L_0c569:
+-		\L_0c515:
+-		ZH 1:
+-		'Im đi!!'
++		'Đuổi bắt đi nào, lại đây'
++		R
++		'theo tiếng vỗ tay. Gahahaha.'
++		\L_0c576:
++		\L_0c569:
++		\L_0c515:
++		ZH 1:
++		'Câm mồm!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8160,7 +7591,7 @@
+ 	{VAR0156 = 71:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Này, đồ quái đản!!'
++		'Ê, đồ múa may quay cuồng!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8168,9 +7599,9 @@
+ 	{VAR0156 = 72:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Cường độ của ngươi thật'
+-		R
+-		'ngột ngạt, tránh xa tôi ra!!'
++		'Nóng nực quá,'
++		R
++		'đừng có lại gần!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8178,9 +7609,7 @@
+ 	{VAR0156 = 75:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Đi thôi anh'
+-		R
+-		'chàng tóc mai!!'
++		'Lên nào! Thằng tóc mai!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8188,11 +7617,9 @@
+ 	{VAR0156 = 82:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Ôi! Một cô'
+-		R
+-		'gái dễ thương đã'
+-		R
+-		'xuất hiện!! Bắt cô!'
++		'Hừm! Phát hiện em'
++		R
++		'xinh!! Bắt lấy!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8200,11 +7627,11 @@
+ 	{VAR0156 = 90:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Dễ thương đấy,'
+-		R
+-		'nhưng cô khá lạnh lùng'
+-		R
+-		'phải không? Gahahahaha!!'
++		'Xinh đấy, nhưng lạnh'
++		R
++		'tay lạnh chân là khuyết'
++		R
++		'điểm à? Gahahaha!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8212,9 +7639,9 @@
+ 	{VAR0156 = 91:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Ờ!! Em sẽ là của'
+-		R
+-		'anh, quý cô có đường cong!'
++		'Uooo!! Chị gái'
++		R
++		'đẫy đà là của ta!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8222,7 +7649,7 @@
+ 	{VAR0156 = 92:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Đi thôi, lấp lánh!'
++		'Lên nào! Thằng tê tê!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8230,7 +7657,7 @@
+ 	{VAR0156 = 93:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Chết đi, thằng sên!'
++		'Thằng sên, giết!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8238,11 +7665,9 @@
+ 	{VAR0156 = 98:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Chúa hay không, kẻ'
+-		R
+-		'thù của tôi vẫn là kẻ'
+-		R
+-		'thù của tôi. Chết đi.'
++		'Thần hay gì cũng mặc,'
++		R
++		'địch của ta là địch. Giết.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8250,9 +7675,7 @@
+ 	{VAR0156 = 101:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'... Những bộ quần'
+-		R
+-		'áo đó khá là gì đó...'
++		'...Có thứ ghê gớm kìa...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8260,9 +7683,7 @@
+ 	{VAR0156 = 104:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Chắc chắn là một'
+-		R
+-		'cô gái gợi cảm!!'
++		'Bắt giữ chị gái đẫy đà!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8270,9 +7691,7 @@
+ 	{VAR0156 = 107:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Tôi chắc chắn'
+-		R
+-		'sẽ không giết ngươi!'
++		'Tuyệt đối đừng giết!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8290,7 +7709,7 @@
+ 	{VAR0156 = 117:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Cô có một cặp mông đẹp.'
++		'Mông đẹp đấy.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8298,11 +7717,9 @@
+ 	{VAR0156 = 129:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Anh đang cản đường'
+-		R
+-		'đấy, anh ngươi lớn!!'
+-		R
+-		'Nhanh lên và chết đi!'
++		'To xác vướng víu!'
++		R
++		'Chết nhanh đi!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8310,7 +7727,7 @@
+ 	{VAR0156 = 130:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Chết đi, đồ rác rưởi!'
++		'Chết đi, đồ phế thải!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8318,9 +7735,9 @@
+ 	{VAR0156 = 131:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Trả lại đồ'
+-		R
+-		'ăn nhẹ cho tôi!!'
++		'Trả đây!! Đồ ăn vặt'
++		R
++		'của bản đại gia!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8328,7 +7745,7 @@
+ 	{VAR0156 = 132:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Biến đi, con quỷ!!'
++		'Chết đi! Ma Nhân!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8336,7 +7753,7 @@
+ 	{VAR0156 = 133:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Biến đi, ông già tự mãn!!'
++		'Chết đi, lão già điệu đà!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8344,9 +7761,9 @@
+ 	{VAR0156 = 134:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Cô có khuôn mặt'
+-		R
+-		'đẹp nhưng lại khá to...'
++		'Mặt đẹp đấy, mà là'
++		R
++		'con đàn bà to xác...'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8354,9 +7771,7 @@
+ 	{VAR0156 = 135:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Tôi sẽ giết anh!! Tôi'
+-		R
+-		'chắc chắn sẽ giết ngươi!!'
++		'Giết!! Nhất định giết!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8364,7 +7779,7 @@
+ 	{VAR0156 = 136:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Đánh, lột, lột... Uheehee.'
++		'Hạ, lột, lột... uhihi.'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8372,11 +7787,9 @@
+ 	{VAR0156 = 137:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Tôi đang mong'
+-		R
+-		'chờ điều gì sẽ xảy ra sau'
+-		R
+-		'trận chiến này. Gahahahaha!'
++		'Cuộc vui để sau'
++		R
++		'trận. Gahahaha!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8396,7 +7809,7 @@
+ 	{VAR0156 = 157:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Saaaaatellaaa!! Đồ phản bội!'
++		'Satellaaa!! Đồ phản bội!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8404,9 +7817,9 @@
+ 	{VAR0156 = 158:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Đồ phản bội chết tiệt!'
+-		R
+-		'Đây là hình phạt của ngươi!!'
++		'Khốn, dám phản bội!'
++		R
++		'Phạt cho biết tay!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8414,9 +7827,9 @@
+ 	{VAR0156 = 159:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Khá dễ thương đối với'
+-		R
+-		'một tông đồ. Tôi muốn đụ cô!'
++		'Sứ đồ mà cũng dễ thương'
++		R
++		'đấy chứ. Muốn làm!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8424,9 +7837,9 @@
+ 	{VAR0156 = 162:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Mm, tôi thích vị tông đồ'
+-		R
+-		'này. Bắt cô! Tôi muốn đụ cô!'
++		'Ừm, sứ đồ được đấy.'
++		R
++		'Bắt lấy! Muốn làm!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8434,19 +7847,19 @@
+ 	{(VAR0112 > 9) * (VAR0101 = 1):
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Gahahahaha! Chaos, đối thủ'
+-		R
+-		'của chúng ta là một con quỷ.'
+-		\L_0c576:
+-		ZH 1:
+-		'Nếu ngươi không hữu ích'
+-		R
+-		'ở đây, tôi sẽ ném ngươi!!'
+-		\L_0c576:
+-		ZH 1:
+-		'（Hỗn loạn） Này, hãy thử'
+-		R
+-		'ném tôi đi nếu có thể nhé!'
++		'Gahahaha, Chaos,'
++		R
++		'đối thủ là Ma Nhân.'
++		\L_0c576:
++		ZH 1:
++		'Ở đây mà vô dụng'
++		R
++		'là ta vứt đấy!!'
++		\L_0c576:
++		ZH 1:
++		'(Chaos) Ồ, vứt được'
++		R
++		'thì vứt thử xem!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8454,11 +7867,9 @@
+ 	{VAR0074 = 0:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Ngay cả khi'
+-		R
+-		'không có quân đội, tôi vẫn'
+-		R
+-		'mạnh mẽ. Hãy đến với tôi!'
++		'Không có thuộc hạ ta'
++		R
++		'vẫn mạnh. Lại đây!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 		%0:
+@@ -8468,94 +7879,84 @@
+ 	{VAR0690 = 1:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Gahahahaha!!'
+-		R
+-		'Ôi!! Tấn công!'
++		'Gahahaha!! Tiến'
++		R
++		'lên!! Xung phong!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 2:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Tôi là bất khả chiến bại.'
+-		R
+-		'Tôi sẽ không bao giờ thua!'
++		'Bản đại gia vô địch.'
++		R
++		'Tuyệt đối không thua!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 3:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Tiến lên!! Nếu ngươi'
+-		R
+-		'cố chạy, tôi sẽ giết ngươi!'
++		'Tiến!! Đứa nào'
++		R
++		'chạy, ta chém!'
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 4:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Gahahahaha! Chúng bay chết'
+-		R
+-		'đi!!'
+-		\L_0c576:
+-		ZH 1:
+-		'Hãy hối hận khi trở thành kẻ'
+-		R
+-		'thù của ta trong cái chết!'
++		'Gahahaha, giết sạch!!'
++		\L_0c576:
++		ZH 1:
++		'Chết đi mà hối hận vì làm'
++		R
++		'kẻ thù của bản đại gia!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 5:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Thôi cái này đi!!'
++		'Ăn này!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 6:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Hãy nhận sự phán xét từ'
+-		R
+-		'thanh kiếm tuyệt vời của ta'
+-		R
+-		'và chết đi!!'
++		'Nhận lấy đường kiếm hoa lệ'
++		R
++		'của bản đại gia mà chết!!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 7:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Nếu chúng quay'
+-		R
+-		'lại, hãy giết chúng!'
++		'Sống lại thì giết tiếp!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 8:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Bây giờ, tôi'
+-		R
+-		'nên giết ai trước?!'
++		'Nào, giết đứa nào trước đây!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 9:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Đi thôi!'
++		'Xoẹt một phát thôi!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+ 	{VAR0690 = 10:
+ 		\L_0c4c1:
+ 		ZH 1:
+-		'Dù ngươi'
+-		R
+-		'là ai, ngươi sẽ trở thành rỉ'
+-		R
+-		'sét trên thanh kiếm của tôi!'
++		'Đứa nào đứa nấy, thành'
++		R
++		'gỉ trên kiếm ta hết!'
+ 		\L_0c576:
+ 		\L_0c569:
+ 	}
+@@ -8605,7 +8006,7 @@
+ 	!VAR0634 : 1!
+ 	\L_0c4c1:
+ 	ZH 1:
+-	'Camila!!'
++	'Camilla!!'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c515:
+@@ -8613,49 +8014,47 @@
+ 	'Satella...'
+ 	\L_0c576:
+ 	ZH 1:
+-	'Ngươi đang làm xấu'
++	'Ma Nhân gì mà thảm'
+ 	R
+-	'mặt đồng loại của mình...'
++	'hại... để con người sai'
+ 	R
+-	'Bị con người lợi dụng...'
++	'bảo bằng cái hất cằm...'
+ 	\L_0c576:
+ 	ZH 1:
+-	'Chà... Điều đó hợp'
++	'Thôi... với hạng Ma Nhân'
+ 	R
+-	'với một con quỷ như cậu.'
++	'như ngươi thì cũng xứng.'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c4c1:
+ 	ZH 1:
+-	'Im đi!! Tôi đang bảo'
++	'Câm đi!! Satella đang bảo'
+ 	R
+-	'vệ Công chúa nhỏ! Tôi không'
++	'vệ Little Princess! Đâu'
+ 	R
+-	'chiến đấu vì con người!'
++	'có chiến đấu vì con người!'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c515:
+ 	ZH 1:
+-	'Điều đó không'
++	'Chuyện đó...'
+ 	R
+-	'quan trọng với tôi...'
++	'sao cũng được...'
+ 	\L_0c576:
+ 	ZH 1:
+-	'Ngươi đã xuất hiện trước'
++	'đã xuất hiện trước mặt ta'
+ 	R
+-	'mặt tôi như một kẻ thù...'
++	'khi ta đang chiến đấu thì...'
+ 	\L_0c576:
+ 	ZH 1:
+-	'Ngươi sẽ không thể'
+-	R
+-	'sống sót mà rời đi.'
++	'không để sống mà về.'
+ 	\L_0c576:
+ 	ZH 1:
+-	'Bây giờ, hãy'
++	'Nào, đầu hàng đi...'
+ 	R
+-	'nhượng bộ... Ngươi không bao'
++	'ngươi không thắng nổi'
+ 	R
+-	'giờ có thể thắng được tôi...'
++	'ta đâu... tuyệt đối...'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c4c1:
+@@ -8667,9 +8066,7 @@
+ 	\L_0c569:
+ 	\L_0c515:
+ 	ZH 1:
+-	'......... Cô'
+-	R
+-	'gái đáng thương...'
++	'......Đứa trẻ đáng thương...'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	%0:
+@@ -8677,69 +8074,53 @@
+ 	!VAR0635 : 1!
+ 	\L_0c4c1:
+ 	ZH 1:
+-	'Lei... Cả anh'
++	'Lei... cả ngươi cũng nhắm'
+ 	R
+-	'cũng nhắm tới'
+-	R
+-	'Little Princess sao?'
++	'vào Little Princess sao?'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c515:
+ 	ZH 1:
+-	'Ừ... tôi có'
+-	R
+-	'lý do của mình.'
++	'À... có nhiều chuyện lắm.'
+ 	\L_0c576:
+ 	ZH 1:
+-	'Này, giao Công'
++	'Này, mau giao'
+ 	R
+-	'chúa nhỏ ra ngay.'
++	'Little Princess ra.'
+ 	\L_0c576:
+ 	ZH 1:
+-	'Chúng ta sẽ không cần'
+-	R
+-	'phải trải qua bất kỳ cuộc'
++	'Thế thì khỏi phải đánh nhau'
+ 	\L_0c576:
+ 	ZH 1:
+-	'chiến không cần thiết'
+-	R
+-	'nào nếu ngươi làm vậy.'
++	'vô ích, phiền phức.'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c4c1:
+ 	ZH 1:
+-	'Tôi không thể làm điều đó!'
++	'Không làm thế được!'
+ 	\L_0c576:
+ 	ZH 1:
+-	'Nếu chúng ta có'
+-	R
+-	'thể làm được điều đó...'
++	'Nếu làm được thế...'
+ 	\L_0c576:
+ 	ZH 1:
+-	'Chúng ta sẽ không'
++	'thì bọn Satella đâu'
+ 	R
+-	'bao giờ giết chết chủng tộc'
+-	R
+-	'của chính mình, phải không?!'
++	'phải giết đồng tộc!'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c515:
+ 	ZH 1:
+-	'Về lý thuyết...'
++	'Lý lẽ thì...'
+ 	\L_0c576:
+ 	ZH 1:
+-	'Nhưng mọi thứ'
++	'nhưng thứ đã chuyển động'
+ 	R
+-	'không thể dừng lại một'
+-	R
+-	'khi chúng đã bắt đầu.'
++	'thì không cưỡng lại được.'
+ 	\L_0c576:
+ 	ZH 1:
+-	'Chúng ta'
++	'Như trận chiến chúng ta bắt'
+ 	R
+-	'sẽ bắt đầu chiến đấu'
+-	R
+-	'ngay bây giờ... Đi!!'
++	'đầu bây giờ vậy... lên!!'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	%0:
+@@ -8752,9 +8133,9 @@
+ 	\L_0c569:
+ 	\L_0c515:
+ 	ZH 1:
+-	'Meglass... ...'
++	'Anh Meglass...'
+ 	R
+-	'Đã lâu không gặp.'
++	'lâu rồi không gặp.'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c4c1:
+@@ -8764,21 +8145,19 @@
+ 	\L_0c569:
+ 	\L_0c515:
+ 	ZH 1:
+-	'Huhu... Vẫn im'
++	'Hư hư... tính kiệm'
+ 	R
+-	'lặng như mọi khi...'
++	'lời vẫn không đổi...'
+ 	\L_0c576:
+ 	ZH 1:
+-	'Nhân tiện, Meglass... Tôi'
++	'Mà, anh Meglass... tôi'
+ 	R
+-	'không muốn đấu với ngươi.'
++	'không muốn đánh với anh.'
+ 	\L_0c576:
+ 	ZH 1:
+-	'Tôi không ghét'
++	'Tôi đâu có ghét anh...'
+ 	R
+-	'ngươi... Ngươi có thể quay'
+-	R
+-	'lại với chúng tôi không?'
++	'quay về bên này không?'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c4c1:
+@@ -8791,11 +8170,11 @@
+ 	'.........'
+ 	\L_0c576:
+ 	ZH 1:
+-	'Hiểu rồi...'
++	'Hiểu rồi... dù không'
+ 	R
+-	'Tôi có hơi miễn cưỡng, nhưng'
++	'muốn, tôi sẽ tấn'
+ 	R
+-	'tôi sẽ chiến đấu nghiêm túc.'
++	'công. Đánh thật đấy.'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c4c1:
+@@ -8805,9 +8184,7 @@
+ 	\L_0c569:
+ 	\L_0c515:
+ 	ZH 1:
+-	'... Xin hãy'
+-	R
+-	'nói điều gì đó...'
++	'.........Nói gì đi chứ...'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	%0:
+@@ -8975,54 +8352,46 @@
+ 	!VAR0096 : 1361!
+ 	\L_0c515:
+ 	ZH 1:
+-	'（Hỗn loạn）'
++	'(Chaos) ...Gương mặt'
+ 	R
+-	'... Có một khuôn mặt mà'
+-	R
+-	'đã lâu rồi tôi chưa gặp.'
++	'thân quen đây. Bạn'
+ 	\L_0c576:
+ 	ZH 1:
+-	'Người ngươi'
+-	R
+-	'dâm đãng của tôi.'
++	'dâm đãng tâm giao của ta.'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c4c1:
+ 	ZH 1:
+-	'Gahahahaha! Có vẻ như'
++	'Gahahaha. Trông'
+ 	R
+-	'cậu đang làm tốt nhỉ, Chaos?'
++	'khỏe đấy chứ, Chaos.'
+ 	\L_0c576:
+ 	ZH 1:
+-	'Thà ở bên tôi'
++	'Ở với bản đại gia lợi hơn'
+ 	R
+-	'còn hơn một gã như'
+-	R
+-	'thế! Bây giờ, đến!!'
++	'ở với gã đó! Nào, lại đây!!'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c515:
+ 	ZH 1:
+-	'（Hỗn loạn） Ừm, à...'
++	'(Chaos) Phải rồi...'
+ 	\L_0c576:
+ 	ZH 1:
+-	'（Hỗn loạn） Anh chàng này'
++	'(Chaos) Gã cứng nhắc'
+ 	R
+-	'không vui chút nào.chàng nổi'
++	'này hễ ta kể chuyện'
++	R
++	'dâm là nổi giận,'
+ 	\L_0c576:
+ 	ZH 1:
+-	'điên nếu tôi nói'
++	'lại chẳng cho ôm đàn'
+ 	R
+-	'về những thứ khiêu dâm và'
+-	R
+-	'không cho phép tôi làm tình.'
++	'bà, ta stress lắm rồi.'
+ 	\L_0c576:
+ 	ZH 1:
+-	'（Hỗn loạn） Nó làm tôi'
++	'(Chaos) Ở với chú em mới'
+ 	R
+-	'căng thẳng quá. Cuộc sống sẽ'
+-	R
+-	'tốt hơn nhiều khi có ngươi.'
++	'sống đời sướng hơn nhiều.'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c515:
+@@ -9032,96 +8401,82 @@
+ 	\L_0c569:
+ 	\L_0c515:
+ 	ZH 1:
+-	'（Hỗn loạn）'
++	'(Chaos) Tạm biệt, đồ'
+ 	R
+-	'Hẹn gặp lại, đồ khốn. Tôi'
++	'cứng nhắc. Lão yếu lòng'
+ 	R
+-	'yếu đuối trước niềm vui.'
++	'trước khoái lạc mà.'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c515:
+ 	ZH 1:
+-	'Đợi đã, hỗn loạn!'
++	'Khoan, Chaos!'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c4c1:
+ 	ZH 1:
+-	'Ồ. Ngươi đã quay lại'
+-	R
+-	'với tôi phải không, Chaos?'
++	'Ồ. Về với ta rồi à, Chaos.'
+ 	\L_0c576:
+ 	ZH 1:
+-	'（Hỗn loạn） Huhuhuhu, đã'
++	'(Chaos) Hư hư hư, lâu'
+ 	R
+-	'lâu rồi... Ngươi vẫn ổn chứ?'
++	'rồi nhỉ... vẫn khỏe chứ?'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c4c1:
+ 	ZH 1:
+-	'Ừ, tôi ổn'
++	'À, cũng thế. Được. Ta sẽ sai'
+ 	R
+-	'mà. Bây giờ tôi sẽ làm việc'
+-	R
+-	'chăm chỉ cho ngươi, Chaos.'
++	'bảo ngươi tận lực, Chaos.'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c4c1:
+ 	ZH 1:
+-	'（Hỗn loạn） Không sao đâu,'
++	'(Chaos) Thế cũng được,'
+ 	\L_0c576:
+ 	ZH 1:
+-	'nhưng hãy để'
+-	R
+-	'tôi quan hệ tình dục'
+-	R
+-	'với một người phụ nữ.'
++	'nhưng phải cho ta ôm đàn bà.'
+ 	\L_0c576:
+ 	ZH 1:
+-	'Một người phụ nữ tốt.'
++	'Gái ngon cơ.'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c4c1:
+ 	ZH 1:
+-	'Gahahahaha! Vẫn'
++	'Gahahaha. Vẫn háo sắc'
+ 	R
+-	'đầy ham muốn như mọi khi.'
+-	R
+-	'Ngươi là một thanh kiếm tốt.'
++	'như xưa. Kiếm tốt đấy.'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c4c1:
+ 	ZH 1:
+-	'（Hỗn loạn） Hmph...'
+-	R
+-	'Đừng khen tôi như thế.'
++	'(Chaos) Hừ... đừng khen thế.'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c515:
+ 	ZH 1:
+-	'Hỗn loạn! Đồ phản bội...!'
++	'Chaos! Đồ phản bội...!'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c4c1:
+ 	ZH 1:
+-	'（Hỗn loạn） Tôi không phải'
++	'(Chaos) Ta đâu phải'
+ 	R
+-	'là người. Tôi là một đồ vật.'
++	'người. Ta là đồ vật.'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c4c1:
+ 	ZH 1:
+-	'Gahahahaha!! Được'
++	'Gahahaha!! Ồồồ'
+ 	R
+-	'rồi!! Đi thôi!!'
++	'được!! Lên nào!!'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\L_0c4c1:
+ 	ZH 1:
+-	'（Hỗn loạn） Được rồi.'
++	'(Chaos) Ồ. Xong trận'
+ 	R
+-	'Hãy có một cuộc hoan lạc'
+-	R
+-	'khi chúng ta xong việc.'
++	'thì mở tiệc truy hoan.'
+ 	\L_0c576:
+ 	\L_0c569:
+ 	\0:

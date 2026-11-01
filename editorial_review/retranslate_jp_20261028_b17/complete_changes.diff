@@ -1,0 +1,3639 @@
+--- before/Gｶﾗｰ.ADV
++++ src/Gｶﾗｰ.ADV
+@@ -27,56 +27,54 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Vua Rance.'
+-	\L_0685f:
+-	ZH 1:
+-	'Một lá thư'
+-	R
+-	'được gửi đến từ Nữ hoàng'
+-	R
+-	'Pastel của Rừng Kalar.'
+-	\L_0685f:
+-	ZH 1:
+-	'Nàng hỏi'
+-	R
+-	'nếu ngươi có thể cho họ'
+-	R
+-	'mượn một số người đàn ông.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Ừm, ta hiểu'
+-	R
+-	'rồi. Chắc chắn.'
+-	\L_0685f:
+-	ZH 1:
+-	'Gửi tới mười hiệp'
+-	R
+-	'sĩ độc thân tốt bụng'
+-	R
+-	'cho họ đi công tác.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Vâng, Hiểu.'
+-	R
+-	'Còn ngài thì sao?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Lần này ta sẽ vượt qua.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Vâng, hiểu. Tôi'
+-	R
+-	'sẽ chuẩn bị gửi chúng Đến'
+-	R
+-	'Rừng Kalar ngay lập tức.'
++	'Phòng yết kiến'
++	R
++	'Bệ hạ Rance.'
++	\L_0685f:
++	ZH 1:
++	'Nữ hoàng Pastel của rừng'
++	R
++	'Kalar đã gửi thư tới.'
++	\L_0685f:
++	ZH 1:
++	'Người hỏi nếu được,'
++	R
++	'xin bệ hạ cho mượn'
++	R
++	'một số nam nhân...'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Hừm, thế à. Được thôi.'
++	\L_0685f:
++	ZH 1:
++	'Chọn chừng mười hiệp'
++	R
++	'sĩ độc thân, giỏi'
++	R
++	'giang, cho đi công tác.'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Vâng, thần hiểu.'
++	R
++	'Còn bệ hạ thì sao ạ?'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Lần này ta không đi.'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Vâng, thần hiểu. Thần'
++	R
++	'sẽ sắp xếp ngay, phái'
++	R
++	'người tới rừng Kalar.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	!VAR0516 : 0!
+@@ -100,9 +98,9 @@
+ 		ZM 24:
+ 		ZH 1:
+ 		R
+-		'Lối vào Rance'
+-		R
+-		'và Maris đã ở đó.'
++		'Lối vào'
++		R
++		'Rance và Maris ở đó.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		@L_00368:
+@@ -124,21 +122,23 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Lối vào Rance đến'
+-	R
+-	'Rừng Kalar cùng với Maris.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Vì Vậy, Đây là Rừng Kalar.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Bệ hạ, thật nguy hiểm'
+-	R
+-	'nếu đến quá gần.'
++	'Lối vào'
++	R
++	'Rance dẫn Maris tới'
++	R
++	'rừng Kalar.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Đây là rừng Kalar à.'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Bệ hạ Rance, tùy tiện lại'
++	R
++	'gần thì nguy hiểm đấy ạ.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0673a:
+@@ -177,9 +177,11 @@
+ 	'đối phó. Tốt nhất đừng'
+ 	\L_0685f:
+ 	ZH 1:
+-	'dây vào nguy hiểm, thưa bệ'
+-	R
+-	'hạ.'
++	'dây vào nguy hiểm, thưa'
++	R
++	'bệ hạ. Người quân tử không'
++	R
++	'đến gần chỗ hiểm nguy.'
+ 	\L_0685f:
+ 	\L_06852:
+ *L_00368:
+@@ -193,26 +195,26 @@
+ 	$
+ 	R
+ 	$L_003a6$
+-	'Không'
++	'Không vào'
+ 	$
+ 	]
+ 	@L_00368:
+ *L_003a6:
+ 	\L_0673a:
+ 	ZH 1:
+-	'Ừm... Về thôi.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Vâng, thưa Bệ hạ.'
++	'Ừm... về thôi.'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Vâng, thưa Bệ hạ Rance.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'Rance và Maris'
+-	R
+-	'rời Rừng Kalar.'
++	'Rance và Maris rời'
++	R
++	'khỏi rừng Kalar.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	!VAR0516 : 0!
+@@ -224,7 +226,9 @@
+ 	}
+ 	\L_0673a:
+ 	ZH 1:
+-	'Ta sẽ ghé qua Làng Kalar.'
++	'Vậy ta ghé làng'
++	R
++	'Kalar một chút.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_067aa:
+@@ -234,18 +238,18 @@
+ 	\L_06852:
+ 	\L_0673a:
+ 	ZH 1:
+-	'Gahahahaha! Không sao. Nữ'
+-	R
+-	'hoàng khu rừng này yêu ta'
+-	R
+-	'mà.'
++	'Gahahahaha, không'
++	R
++	'sao. Nữ hoàng khu'
++	R
++	'rừng này yêu ta mà.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'Rance cười lớn'
+-	R
+-	'khi bước vào rừng.'
++	'Rance vừa cười'
++	R
++	'vừa bước vào rừng.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	!VAR0516 : 0!
+@@ -310,9 +314,9 @@
+ 	}
+ 	\L_067aa:
+ 	ZH 1:
+-	'Hôm nay cậu đến có việc'
+-	R
+-	'gì...?'
++	'Hôm nay ngài tới'
++	R
++	'có việc gì ạ...?'
+ 	\L_0685f:
+ 	\L_06852:
+ 	{VAR0355 > 4:
+@@ -321,7 +325,7 @@
+ 		\L_067fe:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Bố ơi... Bế con... Bế con...'
++		'Bố ơi... bế... bế con...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0680c:
+@@ -329,7 +333,7 @@
+ 		\L_067fe:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Ngoan nào, Reset...'
++		'Ngoan nào... Reset...'
+ 		\L_0685f:
+ 		\L_06852:
+ 	}
+@@ -371,9 +375,9 @@
+ 	\L_06852:
+ 	\L_0673a:
+ 	ZH 1:
+-	'Mhm, ta chỉ đến'
+-	R
+-	'để xem mặt nàng thôi.'
++	'Ừm, ta chỉ tới để'
++	R
++	'xem mặt cô thôi.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_067aa:
+@@ -383,7 +387,7 @@
+ 	\L_06852:
+ 	\L_0673a:
+ 	ZH 1:
+-	'Hẹn gặp lại.'
++	'Đi nhé.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	{VAR0355 > 4:
+@@ -392,19 +396,19 @@
+ 		\L_067fe:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Bố ơi... Bố về rồi à?'
++		'Bố ơi... bố về rồi à?'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+ 		ZH 1:
+-		'Ừ, hẹn gặp lại con, Reset.'
++		'Ừ, hẹn gặp lại, Reset.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Con buồn lắm... Muốn ở cùng'
+-		R
+-		'bố...'
++		'Reset... buồn lắm...'
++		R
++		'muốn ở cùng bố...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0680c:
+@@ -412,16 +416,14 @@
+ 		\L_067fe:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Reset, lớn lên rồi mẹ con'
+-		R
+-		'mình sẽ đến nước của bố. Từ'
+-		R
+-		'giờ tới'
+-		\L_0685f:
+-		ZH 1:
+-		'lúc ấy, con chịu khó chờ'
+-		R
+-		'nhé.'
++		'Reset, lớn lên rồi mẹ'
++		R
++		'con mình sẽ tới nước'
++		R
++		'của bố... tới lúc ấy'
++		\L_0685f:
++		ZH 1:
++		'con chịu khó chờ nhé.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0680c:
+@@ -429,13 +431,13 @@
+ 		\L_067fe:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Ôi~～...'
++		'Ưm~~......'
+ 		\L_0685f:
+ 		\L_06852:
+ 	}
+ 	\L_06772:
+ 	ZH 1:
+-	'Rance rời Làng Kalar.'
++	'Rance rời khỏi làng Kalar.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	!VAR0516 : 0!
+@@ -460,26 +462,30 @@
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Kuhuhu～... Không có gì...'
++		'Khúc khích~...'
++		R
++		'không có gì đâu...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_067e2:
+ 		ZH 1:
+-		'Reset nở nụ cười hồn nhiên'
+-		R
+-		'của trẻ thơ với Rance.'
++		'Reset nở nụ cười toe'
++		R
++		'toét đặc trưng của'
++		R
++		'trẻ con với Rance.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Khư khư... Bố... Bố ơi, bố'
+-		R
+-		'ơi... Ha ha...'
+-		\L_0685f:
+-		ZH 1:
+-		'Rồi cô bé chạy vòng quanh'
+-		R
+-		'Rance.'
++		'Khúc khích... bố... bố ơi,'
++		R
++		'bố ơi... khanh khách...'
++		\L_0685f:
++		ZH 1:
++		'Rồi cô bé bắt đầu chạy'
++		R
++		'vòng vòng quanh Rance.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0680c:
+@@ -487,14 +493,16 @@
+ 		\L_067fe:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Nào, Reset... Ngoan nào...'
++		'Kìa, Reset... ngoan nào...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+ 		ZH 1:
+-		'Không sao. Trẻ con cứ hiếu'
+-		R
+-		'động mới đúng. Mà... nói sao'
++		'Không sao. Trẻ con hiếu'
++		R
++		'động mới đúng là trẻ'
++		R
++		'con. Mà... sao nhỉ...'
+ 		\L_0685f:
+ 		ZH 1:
+ 		'nhỉ...'
+@@ -502,16 +510,16 @@
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Vâng? Con mình nên mới thấy'
+-		R
+-		'dễ thương...'
+-		\L_0685f:
+-		ZH 1:
+-		'Chứ con người khác thì ta đã'
+-		R
+-		'ngáng ngã cho khóc để mua'
+-		R
+-		'vui.'
++		'Vâng? Rance「Con mình nên'
++		R
++		'mới thấy dễ thương...'
++		\L_0685f:
++		ZH 1:
++		'chứ con người khác thì'
++		R
++		'ta đã ngáng cho ngã, cho'
++		R
++		'khóc để mua vui rồi.」'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_067aa:
+@@ -521,17 +529,17 @@
+ 		\L_06852:
+ 		\L_0673a:
+ 		ZH 1:
+-		'Yên tâm. Ta không làm thế'
+-		R
+-		'với Reset đâu. Con bé'
+-		\L_0685f:
+-		ZH 1:
+-		'khóc thì phiền lắm.'
++		'À, yên tâm. Ta không làm'
++		R
++		'thế với Reset đâu. Con bé'
++		\L_0685f:
++		ZH 1:
++		'khóc thì ta mới khổ.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'... Huhu...'
++		'......Hi hi...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0680c:
+@@ -539,35 +547,37 @@
+ 		\L_067fe:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Bố ở lại đến bao giờ? Bố ngủ'
+-		R
+-		'cùng con nhé? Còn tắm nữa??'
++		'Bố ở tới bao giờ?'
++		R
++		'Bố ngủ cùng Reset'
++		R
++		'nhé? Còn tắm nữa??'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+ 		ZH 1:
+-		'Xin lỗi con, Reset. Bố phải'
+-		R
+-		'về rồi.'
++		'Xin lỗi con, Reset.'
++		R
++		'Bố phải về rồi.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'... Thật sao?'
++		'......Thật ạ?'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+ 		ZH 1:
+-		'Ừ. Vậy con cũng về với bố.'
+-		R
+-		'Về cùng bố, về cùng bố～～!'
++		'Ừ. Reset「Vậy Reset cũng'
++		R
++		'về cùng bố. Về, về~...」'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_067e2:
+ 		ZH 1:
+-		'Reset túm áo choàng của'
+-		R
+-		'Rance, kéo kéo.'
++		'Reset túm áo choàng'
++		R
++		'của Rance, kéo kéo.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0680c:
+@@ -575,9 +585,9 @@
+ 		\L_067fe:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Reset... Đừng làm khó bố'
+-		R
+-		'con...'
++		'Reset... đừng'
++		R
++		'làm khó bố con...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0680c:
+@@ -585,21 +595,21 @@
+ 		\L_067fe:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Không～～... Bố...'
++		'Không~~... bố ơi...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_067e2:
+ 		ZH 1:
+-		'Reset kiễng chân lên, kéo'
+-		R
+-		'Rance thật mạnh.'
++		'Reset kiễng chân,'
++		R
++		'kéo Rance thật mạnh.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+ 		ZH 1:
+-		'Này, Pastel... Chỉ một lát'
+-		R
+-		'thôi cũng...'
++		'Này, Pastel... một'
++		R
++		'chút thôi cũng...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0680c:
+@@ -607,21 +617,21 @@
+ 		\L_067fe:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Không được đâu... Con bé là'
+-		R
+-		'nữ hoàng kế vị của Kalar.'
+-		\L_0685f:
+-		ZH 1:
+-		'Hơn nữa, còn quá nhỏ để ra'
+-		R
+-		'ngoài...'
++		'Không được đâu... con bé là'
++		R
++		'nữ hoàng kế vị của Kalar...'
++		\L_0685f:
++		ZH 1:
++		'Hơn nữa, còn quá'
++		R
++		'nhỏ để ra ngoài...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+ 		ZH 1:
+-		'Vậy à... Thế thì đành chịu.'
+-		R
+-		'Reset này.'
++		'Vậy à... thế thì'
++		R
++		'đành chịu. Reset này.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0680c:
+@@ -634,26 +644,26 @@
+ 		\L_06852:
+ 		\L_0673a:
+ 		ZH 1:
+-		'Thỉnh thoảng bố sẽ về,'
+-		R
+-		'nên hãy nghe lời mẹ nhé.'
++		'Thỉnh thoảng bố sẽ tới...'
++		R
++		'nên con nghe lời mẹ nhé.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Ừm～～.'
++		'Ưm~~...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+ 		ZH 1:
+-		'Lần sau đến, bố sẽ chơi cùng'
+-		R
+-		'con.'
++		'Lần sau tới, bố'
++		R
++		'sẽ chơi cùng con.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'... Ừm～～...'
++		'......Ưm~~......'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_06772:
+@@ -675,7 +685,7 @@
+ 		\L_06852:
+ 		\L_06772:
+ 		ZH 1:
+-		'Rance rời Làng Kalar.'
++		'Rance rời khỏi làng Kalar.'
+ 		\L_0685f:
+ 		\L_06852:
+ 	}
+@@ -736,18 +746,16 @@
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Là bố, là con... Với nhà'
+-		R
+-		'mình.'
++		'Là bố, là Reset...'
++		R
++		'với nhà mình.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+ 		ZH 1:
+-		'Ta hiểu'
+-		R
+-		'rồi. Vậy cái thứ trông giống'
+-		R
+-		'người ở giữa này là ta à?'
++		'Ra thế. Vậy cái thứ giống'
++		R
++		'người ở giữa này là bố à.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_067aa:
+@@ -764,12 +772,12 @@
+ 		\L_06852:
+ 		\L_0673a:
+ 		ZH 1:
+-		'Vậy đây là con hả, Reset?'
++		'Vậy đây là Reset hả.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Yeeeah!'
++		'Vânggg!'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+@@ -781,53 +789,57 @@
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Dạ. Con vẽ đẹp lắm, Reset.'
++		'Dạ. Rance「Con vẽ'
++		R
++		'đẹp lắm, Reset.」'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Eheheh~...'
++		'Hì hì~......'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0680c:
+ 		\L_067e2:
+ 		ZH 1:
+-		'Reset đỏ mặt'
+-		R
+-		'và ẩn đằng sau Pastel.'
++		'Reset đỏ bừng mặt,'
++		R
++		'nấp sau lưng Pastel.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		!VAR0516 : 493!
+ 		\L_067fe:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Con bé cứ hỏi mãi bao giờ bố'
+-		R
+-		'đến. Nó thật sự yêu'
+-		\L_0685f:
+-		ZH 1:
+-		'quý cậu lắm, Rance.'
++		'Hi hi... con bé cứ'
++		R
++		'hỏi mãi bao giờ bố'
++		R
++		'tới... nó thật lòng'
++		\L_0685f:
++		ZH 1:
++		'quý ngài lắm đấy, Rance.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+ 		ZH 1:
+-		'... Thật vui'
+-		R
+-		'khi được biết...'
++		'......Nghe cũng không'
++		R
++		'thấy khó chịu...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Rance, hôm nay cậu ở lại'
+-		R
+-		'dùng bữa nhé?'
++		'Rance, hôm nay ngài'
++		R
++		'ở lại dùng bữa nhé?'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+ 		ZH 1:
+-		'Ừ... Được, hôm nay ta ở lại'
+-		R
+-		'đây.'
++		'Ừ... được, hôm nay'
++		R
++		'ta ngủ lại đây.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0680c:
+@@ -840,25 +852,23 @@
+ 		\L_06852:
+ 		\L_0673a:
+ 		ZH 1:
+-		'Ừ. Vậy con với bố và mẹ cùng'
+-		R
+-		'tắm nhé... Tắm nào, tắm'
+-		R
+-		'nào...'
++		'Ừ. Reset「Vậy Reset,'
++		R
++		'bố với mẹ... tắm,'
++		R
++		'tắm... cùng vào tắm...」'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+ 		ZH 1:
+-		'Chắc chắn,'
+-		R
+-		'ta không phiền.'
++		'Ừ, được thôi.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Còn nữa... Con muốn ngủ cùng'
+-		R
+-		'bố...'
++		'Còn nữa... Reset...'
++		R
++		'muốn ngủ cùng bố...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+@@ -868,31 +878,31 @@
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Eheheh～... Yaaay, yaaay!'
++		'Hì hì~... yeee, yeee!'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_06756:
+ 		ZH 1:
+-		'Bầu không khí thế này...'
+-		R
+-		'cũng không tệ...'
++		'......Kh... không tệ... bầu'
++		R
++		'không khí thế này cũng......'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_06772:
+ 		ZH 1:
+-		'Như Vậy,'
+-		\L_0685f:
+-		ZH 1:
+-		'Rance quên công việc'
+-		R
+-		'mệt mỏi thông thường'
+-		\L_0685f:
+-		ZH 1:
+-		'của mình và'
+-		R
+-		'dành thời gian với con gái'
+-		R
+-		'của mình trong Rừng Kalar.'
++		'Thế là,'
++		\L_0685f:
++		ZH 1:
++		'Rance tạm quên'
++		R
++		'công việc bộn bề'
++		\L_0685f:
++		ZH 1:
++		'thường ngày, cùng con'
++		R
++		'gái trải qua một khoảng'
++		R
++		'thời gian ở rừng Kalar.'
+ 		\L_0685f:
+ 		ZH 1:
+ 		R
+@@ -924,7 +934,7 @@
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Con làm bánh kếp đấy.'
++		'Reset làm bánh kếp đấy.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+@@ -932,9 +942,9 @@
+ 		'Ồ...'
+ 		\L_0685f:
+ 		ZH 1:
+-		'Con đã làm được cả bánh kếp'
+-		R
+-		'rồi à?'
++		'Con đã làm được'
++		R
++		'cả bánh kếp rồi à?'
+ 		\L_0685f:
+ 		ZH 1:
+ 		'Giỏi quá, Reset.'
+@@ -942,9 +952,9 @@
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Hi hi... Con muốn cho bố ăn'
+-		R
+-		'nên đã để dành lại đấy.'
++		'Hì hì~... con muốn cho bố'
++		R
++		'ăn nên để dành lại đấy.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+@@ -961,9 +971,9 @@
+ 		\L_06852:
+ 		\L_067e2:
+ 		ZH 1:
+-		'Mặt Reset mếu máo, chực'
+-		R
+-		'khóc.'
++		'Mặt Reset mếu'
++		R
++		'máo, chực khóc.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+@@ -973,14 +983,14 @@
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Nhưng... Bố không tới... Nên'
+-		R
+-		'bánh'
+-		\L_0685f:
+-		ZH 1:
+-		'mọc đầy mốc... Con phải bỏ'
+-		R
+-		'đi rồi...'
++		'Nhưng mà... nhưng mà...'
++		R
++		'bố... không tới... nên bánh'
++		\L_0685f:
++		ZH 1:
++		'mọc đầy mốc...'
++		R
++		'con vứt đi rồi...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+@@ -990,37 +1000,35 @@
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Tại bố không đến... Hức...'
+-		R
+-		'Hu hu...'
++		'Tại bố không tới mà...'
++		R
++		'hức... hu hu... hức...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+ 		ZH 1:
+-		'Bố xin lỗi, xin lỗi... Tiếc'
+-		R
+-		'quá... Bố muốn ăn bánh con'
+-		R
+-		'làm lắm...'
++		'À... bố xin lỗi, xin'
++		R
++		'lỗi... tiếc quá...'
++		R
++		'bố muốn ăn lắm cơ...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Hiin... Xin lỗi'
+-		R
+-		'bố... Chúng bị mốc rồi...'
++		'Hức... bố ơi... con'
++		R
++		'xin lỗi... mốc meo...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+ 		ZH 1:
+-		'Không sao, không sao. Con'
+-		R
+-		'khỏe mạnh là bố vui rồi.'
+-		\L_0685f:
+-		ZH 1:
+-		'Đừng khóc, bố không biết làm'
+-		R
+-		'sao đâu...'
++		'Không sao, không sao. Chỉ'
++		R
++		'cần Reset khỏe mạnh là được.'
++		\L_0685f:
++		ZH 1:
++		'Đừng khóc nhé. Bố khổ lắm...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0680c:
+@@ -1028,14 +1036,14 @@
+ 		\L_067fe:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Rance... ta...'
+-		R
+-		'vâng, xin lỗi.'
++		'Rance... để ta...'
++		R
++		'Rance「À, xin lỗi.」'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Reset... Con buồn ngủ rồi'
++		'Reset... con buồn ngủ rồi'
+ 		R
+ 		'nhỉ. Nào, về phòng thôi.'
+ 		\L_0685f:
+@@ -1050,7 +1058,7 @@
+ 		\L_067fe:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Không... Bố... Bố...'
++		'Không... bố ơi... bố ơi...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+@@ -1071,18 +1079,18 @@
+ 		\L_06852:
+ 		\L_0673a:
+ 		ZH 1:
+-		'Ta cũng ru con bé ngủ được'
+-		R
+-		'chứ?'
++		'Ta cũng ru con'
++		R
++		'bé ngủ được chứ?'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Được chứ... Con bé dễ ngủ'
+-		R
+-		'lắm. Chỉ cần cậu nằm bên'
+-		R
+-		'cạnh...'
++		'Vâng... con bé dễ'
++		R
++		'ngủ lắm, chỉ cần ngài'
++		R
++		'nằm bên cạnh là...'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_0673a:
+@@ -1100,21 +1108,25 @@
+ 		\L_067fe:
+ 		\L_067aa:
+ 		ZH 1:
+-		'Ừm～～.'
++		'Ưm~~......'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_06772:
+ 		ZH 1:
+-		'Rance bế Reset lên, chậm rãi'
+-		R
+-		'đi về phòng ngủ của cô bé.'
++		'Rance bế Reset lên,'
++		R
++		'lững thững đi về'
++		R
++		'phòng ngủ của con bé.'
+ 		\L_0685f:
+ 		\L_06852:
+ 		\L_06756:
+ 		ZH 1:
+-		'Cảnh này... không thể để đám'
+-		R
+-		'thuộc hạ trông thấy được...'
++		'......Sao nhỉ...... cảnh'
++		R
++		'này không thể để đám thuộc'
++		R
++		'hạ trông thấy được...'
+ 		\L_0685f:
+ 		\L_06852:
+ 	}
+@@ -1943,68 +1955,68 @@
+ 	!VAR0356 : VAR0517 + 12!
+ 	\L_067aa:
+ 	ZH 1:
+-	'Rance... Ta đã sinh'
+-	R
+-	'con của chúng ta...'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Ủa... Con bé ở đâu vậy??'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Ngay đây.'
++	'Rance... con của chúng'
++	R
++	'ta đã chào đời rồi...'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Hả... đâu, đâu??'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Đây ạ... đây.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_067e2:
+ 	ZH 1:
+-	'Pastel đưa một đứa trẻ'
+-	R
+-	'quấn ren trắng ra khỏi nôi'
+-	R
+-	'bên cạnh chiếc ghế của mình.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'L-Hãy nhìn xem...'
++	'Pastel bế đứa bé quấn'
++	R
++	'trong ren trắng ra từ'
++	R
++	'chiếc nôi cạnh ghế.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Đ... để xem nào...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'Rance lo lắng nhìn'
+-	R
+-	'vào bên trong sợi dây.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Ồ... Con bé mũm mĩm... Ah...'
+-	R
+-	'Đúng rồi, tai nhọn... Vậy nghĩa'
+-	R
+-	'là con bé là một cô gái Kalar...'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Vâng, đúng vậy...'
+-	R
+-	'Tên cô ấy là Reset...'
+-	R
+-	'Reset Kalar. Tên lạ...'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Phải không?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Kiểu như...'
++	'Rance rụt rè ghé nhìn'
++	R
++	'vào trong lớp ren.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Ư... mềm oặt... A... đúng'
++	R
++	'là tai nhọn... nghĩa là'
++	R
++	'con gái, là Kalar à...'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Vâng, đúng vậy... ta đặt tên'
++	R
++	'con là Reset... Reset Kalar.'
++	R
++	'Rance「Tên kỳ quặc...」'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Vậy sao ạ?'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Thì... cảm giác thế...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_067aa:
+@@ -2014,57 +2026,53 @@
+ 	\L_06852:
+ 	\L_0673a:
+ 	ZH 1:
+-	'À, không, không'
+-	R
+-	'có gì lạ cả. Con bé'
+-	R
+-	'thật dễ thương. Chuẩn rồi.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'... Được rồi...'
+-	\L_0685f:
+-	ZH 1:
+-	'Nhưng...'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Ừm? điều quan trọng nhất'
+-	R
+-	'là nàng lớn lên khỏe mạnh...'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Vâng... Ta đoán'
+-	R
+-	'vậy... Bloo bloo...'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'(Thiết Lập'
+-	R
+-	'lại) Abuh abuh...'
++	'A, không kỳ, không kỳ.'
++	R
++	'Tên dễ thương lắm. Ừ ừ.'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'...Vâng...'
++	\L_0685f:
++	ZH 1:
++	'nhưng mà...'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Hử? Pastel「Con khỏe'
++	R
++	'mạnh lớn lên... là'
++	R
++	'hơn tất cả rồi...」'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Ừ... phải đấy... lêu lêu...'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'(Reset) Ơ bơ bơ...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_067e2:
+ 	ZH 1:
+-	'Reset cười bên trong ren.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Ồ? Nghĩ rằng'
+-	R
+-	'nàng hiểu chúng tôi?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Huhu... Có lẽ...'
++	'Trong lớp ren, Reset'
++	R
++	'cười khanh khách.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Ồ? Con bé hiểu à?'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Hi hi... có lẽ vậy...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	@L_0066d:
+@@ -2072,7 +2080,7 @@
+ 	!VAR0355 : 5!
+ 	\L_067e2:
+ 	ZH 1:
+-	'（yank...）'
++	'（Níu...）'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0673a:
+@@ -2082,11 +2090,9 @@
+ 	\L_06852:
+ 	\L_067e2:
+ 	ZH 1:
+-	'Ai đó đã'
+-	R
+-	'kéo áo choàng của Rance.'
+-	R
+-	'Hắn nhìn xem đó là ai.'
++	'Vạt áo choàng bị kéo,'
++	R
++	'Rance quay sang nhìn.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+@@ -2094,21 +2100,19 @@
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Nyaah...'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Ôi, một cô gái'
+-	R
+-	'trẻ. Nàng nhỏ bé.'
++	'Nya...'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Ồ, một cô bé. Nhỏ xíu.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_067e2:
+ 	ZH 1:
+-	'Rance cúi xuống và giao'
+-	R
+-	'tiếp bằng mắt với cô gái.'
++	'Rance khuỵu gối, nhìn'
++	R
++	'ngang tầm mắt cô bé.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0673a:
+@@ -2139,7 +2143,7 @@
+ 	\L_06852:
+ 	\L_0673a:
+ 	ZH 1:
+-	'Tôi hiểu rồi, Reset...'
++	'Ra thế, tên là Reset...'
+ 	\L_0685f:
+ 	ZH 1:
+ 	'Reset...'
+@@ -2148,12 +2152,12 @@
+ 	'Reset...??'
+ 	\L_0685f:
+ 	ZH 1:
+-	'Reset!?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Vâng... Reset...'
++	'Reset á!?'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Ừm... Reset...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+@@ -2161,21 +2165,21 @@
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Vâng... Cô ấy'
+-	R
+-	'là Reset. Con gái anh.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'N-Nhưng chờ đã!!'
+-	\L_0685f:
+-	ZH 1:
+-	'Lần cuối cùng ta nhìn'
+-	R
+-	'thấy nàng, nàng giống như'
+-	R
+-	'một con khỉ nhỏ yếu ớt...'
++	'Đúng vậy... con gái'
++	R
++	'của ngài, Reset đấy.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Nh... nhưng!!'
++	\L_0685f:
++	ZH 1:
++	'Lần trước ta gặp,'
++	R
++	'nó còn mềm oặt, nhũn'
++	R
++	'nhão như con khỉ...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+@@ -2183,14 +2187,16 @@
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Squishy, ít, khỉ...'
++	'Mềm oặt, nhũn'
++	R
++	'nhão, con khỉ...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_067e2:
+ 	ZH 1:
+-	'Reset nhảy vào ngực Rance'
+-	R
+-	'và ép hắn vào một cái ôm.'
++	'Reset nhảy bổ vào'
++	R
++	'lòng Rance, đòi bế.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+@@ -2198,36 +2204,34 @@
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Trẻ em Kalar phát'
+-	R
+-	'triển nhanh hơn con người.'
+-	\L_0685f:
+-	ZH 1:
+-	'Con bé đã lớn'
+-	R
+-	'thế này sau ba tháng...'
+-	\L_0685f:
+-	ZH 1:
+-	'chúng ta phát'
+-	R
+-	'triển như con người'
+-	R
+-	'đến khoảng 20 tuổi,'
+-	\L_0685f:
+-	ZH 1:
+-	'nhưng sau đó quá trình lão'
+-	R
+-	'hóa của chúng ta chậm lại...'
+-	\L_0685f:
+-	ZH 1:
+-	'Chúng ta có tuổi thọ dài.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Ta... ta hiểu'
+-	R
+-	'rồi... Thật ngạc nhiên...'
++	'Trẻ Kalar lớn nhanh'
++	R
++	'hơn trẻ con người,'
++	\L_0685f:
++	ZH 1:
++	'chỉ khoảng ba tháng'
++	R
++	'đã lớn được thế này...'
++	\L_0685f:
++	ZH 1:
++	'Tới khoảng 20 tuổi'
++	R
++	'thì lớn như con người,'
++	\L_0685f:
++	ZH 1:
++	'nhưng từ đó trở đi, khác con'
++	R
++	'người, sẽ già đi rất chậm...'
++	\L_0685f:
++	ZH 1:
++	'sống rất lâu ạ.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Th... thế à...'
++	R
++	'giật cả mình...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+@@ -2240,11 +2244,11 @@
+ 	\L_06852:
+ 	\L_067e2:
+ 	ZH 1:
+-	'Reset nghiêng đầu và Nhìn'
+-	R
+-	'chằm chằm vào Rance với đôi'
+-	R
+-	'mắt sáng ngời từ ngực hắn.'
++	'Trong lòng Rance, Reset'
++	R
++	'nghiêng đầu, đôi mắt'
++	R
++	'long lanh nhìn hắn.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+@@ -2252,9 +2256,9 @@
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Có, Reset...'
+-	R
+-	'Đó là bố cậu. Rance.'
++	'Đúng rồi, Reset...'
++	R
++	'là bố con đấy. Rance.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+@@ -2267,28 +2271,28 @@
+ 	\L_06852:
+ 	\L_0673a:
+ 	ZH 1:
+-	'Vâng, đúng vậy.'
+-	R
+-	'Bố Con, Reset.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Bố... Bố...'
+-	R
+-	'Ah~... ... Con yêu bố.'
++	'Ừ, đúng thế. Bố'
++	R
++	'của con đây, Reset.'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Bố ơi... bố ơi... a~...'
++	R
++	'......con thích bố.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_067e2:
+ 	ZH 1:
+-	'(smooch)'
+-	\L_0685f:
+-	ZH 1:
+-	'Reset đã'
+-	R
+-	'cho Rance một nụ hôn dễ'
+-	R
+-	'thương trên má. uhuhu～...'
++	'（Chụt）'
++	\L_0685f:
++	ZH 1:
++	'Reset hôn lên má'
++	R
++	'Rance thật đáng yêu.'
++	R
++	'Reset「Ư hư hư~...」'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0673a:
+@@ -2298,16 +2302,16 @@
+ 	\L_06852:
+ 	\L_06756:
+ 	ZH 1:
+-	'Sh-nàng dễ'
+-	R
+-	'thương... Đây có phải là'
+-	R
+-	'cách con gái dễ thương...?'
+-	\L_0685f:
+-	ZH 1:
+-	'khuôn mặt Của'
+-	R
+-	'Rance hơi thư giãn.'
++	'Đ... đáng yêu thật...'
++	R
++	'con gái mà đáng yêu'
++	R
++	'tới thế này sao...'
++	\L_0685f:
++	ZH 1:
++	'Mặt Rance chẳng hiểu'
++	R
++	'sao giãn hẳn ra.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	@L_0066d:
+@@ -2425,65 +2429,61 @@
+ 	!VAR0147 : 2!
+ 	\L_0673a:
+ 	ZH 1:
+-	'Ta sẽ đi kiểm tra.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Hả? Ngài có'
+-	R
+-	'nghiêm túc không...?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Gahahahaha!.'
++	'Vậy, ta đi đây.'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Hả, lẽ nào......'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Gahahahaha.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_067e2:
+ 	ZH 1:
+-	'Rance đã làm đúng như'
+-	R
+-	'những gì Maris lo lắng và'
+-	R
+-	'cố gắng đi vào Rừng Kalar.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Bệ hạ, nguy'
+-	R
+-	'hiểm quá! Sẽ là khôn'
+-	R
+-	'ngoan nhất nếu không...'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Không, không có gì mạo'
+-	R
+-	'hiểm, không có gì đạt được.'
+-	\L_0685f:
+-	ZH 1:
+-	'Gahahahaha!, ta sẽ kiểm'
+-	R
+-	'tra nó. Cô đợi ở đây.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'... Ít nhất hãy'
+-	R
+-	'mang theo lính canh.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Họ sẽ cản đường.'
+-	R
+-	'Ta sẽ cảm thấy tốt'
+-	R
+-	'hơn khi đi một ta.'
++	'Linh cảm xấu của Maris quả'
++	R
++	'nhiên trúng, Rance hùng hổ'
++	R
++	'định bước vào rừng Kalar.'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Bệ hạ Rance, nguy hiểm'
++	R
++	'lắm! Người quân tử không'
++	R
++	'đến gần chỗ hiểm......'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Sai rồi, không vào hang'
++	R
++	'cọp sao bắt được cọp con.'
++	\L_0685f:
++	ZH 1:
++	'Gahahahaha, ta đi'
++	R
++	'đây. Ngươi chờ ở đây.'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'......Ít nhất xin ngài'
++	R
++	'mang theo hộ vệ...'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Vướng víu. Đi một'
++	R
++	'mình thoải mái hơn.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06756:
+@@ -2497,7 +2497,9 @@
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'Rance vào rừng một ta.'
++	'Rance một mình'
++	R
++	'bước vào rừng.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	PF1 VAR0056:
+@@ -2506,57 +2508,55 @@
+ 	SS 5:
+ 	\L_0673a:
+ 	ZH 1:
+-	'Hmm, khu rừng này đẹp'
+-	R
+-	'đấy, nhưng thật đáng ngại…'
++	'Ừm, rừng đẹp nhưng'
++	R
++	'rờn rợn thật...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'Rance đi bộ trong'
+-	R
+-	'rừng khoảng 10 phút.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Whoa! Một xác chết...'
++	'Rance đi chừng 10 phút,'
++	R
++	'ngó nghiêng khắp khu rừng.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Oái! Xác chết......'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'Một hộp sọ người nằm'
+-	R
+-	'dưới chân Rance. Hai hốc mắt'
+-	R
+-	'của nó hướng về phía hắn.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Bây giờ ta'
+-	R
+-	'nhìn lại, những chiếc'
+-	R
+-	'xương khác cũng ở đây…'
+-	\L_0685f:
+-	ZH 1:
+-	'Họ lạc ở đây và chết à?'
+-	\L_0685f:
+-	ZH 1:
+-	'Thật là một thằng'
+-	R
+-	'ngốc. Ta sẽ cẩn thận hơn.'
++	'Một chiếc sọ người lăn'
++	R
++	'dưới chân Rance, hai hốc'
++	R
++	'mắt trống rỗng nhìn hắn.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Nhìn kỹ thì có cả'
++	R
++	'xương thân nữa...'
++	\L_0685f:
++	ZH 1:
++	'lạc ở đây rồi chết à?'
++	\L_0685f:
++	ZH 1:
++	'Đồ chậm chạp. Phải cẩn'
++	R
++	'thận để khỏi thành thế này.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'Rance tiến'
+-	R
+-	'sâu hơn vào rừng.'
+-	\L_0685f:
+-	ZH 1:
+-	'（Hee...）'
++	'Rance băng băng'
++	R
++	'tiến sâu vào rừng.'
++	\L_0685f:
++	ZH 1:
++	'（Khúc khích...）'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0673a:
+@@ -2566,160 +2566,152 @@
+ 	\L_06852:
+ 	\L_067e2:
+ 	ZH 1:
+-	'（Heehee...）'
+-	\L_0685f:
+-	ZH 1:
+-	'（Huhu...）'
+-	\L_0685f:
+-	ZH 1:
+-	'（Uhuhu...）'
++	'（Khúc khích...）'
++	\L_0685f:
++	ZH 1:
++	'（Hi hi...）'
++	\L_0685f:
++	ZH 1:
++	'（Ư hư hư...）'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06756:
+ 	ZH 1:
+-	'Một Cái gì đó ở đây...'
++	'Có thứ gì đó...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'Rance cảnh giác'
+-	R
+-	'nhìn xung quanh.'
+-	\L_0685f:
+-	ZH 1:
+-	'（sột soạt...）'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Ở đó!?'
++	'Rance không lơi'
++	R
++	'lỏng, nhìn quanh.'
++	\L_0685f:
++	ZH 1:
++	'（Sột soạt...）'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Đằng kia à!?'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'Rance nhìn theo'
+-	R
+-	'hướng tiếng ồn phát ra.'
++	'Rance quay về phía'
++	R
++	'phát ra tiếng động.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	!VAR0516 : 46!
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Hu.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Ồ, đó chẳng phải là'
+-	R
+-	'một con Kalar khá dễ thương'
+-	R
+-	'sao? Em đã trốn ở đâu?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Huhuhu...'
+-	\L_0685f:
+-	ZH 1:
+-	'Kalar đã cho Rance một tiếng'
+-	R
+-	'cười như nàng đang'
+-	R
+-	'mời hắn, sau đó bỏ chạy.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'À, chờ đã!!'
++	'Hi.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Ồ, một cô gái Kalar.'
++	R
++	'Trốn ở đâu thế hả?'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Hi hi hi...'
++	\L_0685f:
++	ZH 1:
++	'Cô gái Kalar nở nụ cười'
++	R
++	'tuyệt đẹp như mời gọi'
++	R
++	'Rance, rồi chạy đi.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'A, đứng lại!!'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'Rance đuổi theo con Kalar.'
+-	\L_0685f:
+-	ZH 1:
+-	'Nhưng bất cứ khi nào khoảng'
+-	R
+-	'cách giữa họ dường như thu'
+-	R
+-	'hẹp lại, nó lại tăng lên.'
+-	\L_0685f:
+-	ZH 1:
+-	'nàng khá nhanh...'
+-	\L_0685f:
+-	ZH 1:
+-	'Nhưng ta là vận động'
+-	R
+-	'viên chạy hạng Olympic. Được'
+-	R
+-	'rồi, tăng sức mạnh lên!!'
++	'Rance đuổi theo'
++	R
++	'cô gái Kalar.'
++	\L_0685f:
++	ZH 1:
++	'Nhưng khoảng cách tưởng sắp'
++	R
++	'rút ngắn lại cứ giãn ra.'
++	\L_0685f:
++	ZH 1:
++	'Rance「Nhanh phết... nhưng'
++	\L_0685f:
++	ZH 1:
++	'ta có đôi chân cỡ tuyển thủ'
++	R
++	'Olympic. Được, tăng tốc!!」'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'Ngay khi'
+-	R
+-	'Rance tăng tốc độ thì có'
+-	R
+-	'chuyện gì đó đã xảy ra.'
+-	\L_0685f:
+-	ZH 1:
+-	'（sột soạt...）'
+-	\L_0685f:
+-	ZH 1:
+-	'（rustlerustle...）'
++	'Đúng lúc Rance tăng tốc.'
++	\L_0685f:
++	ZH 1:
++	'（Phạch...）'
++	\L_0685f:
++	ZH 1:
++	'（Xào xạc xào xạc...）'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+ 	\L_0673a:
+ 	ZH 1:
+-	'Dwaaaaaaah!?'
++	'Oáiiii!?'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+ 	'Một tấm lưới rơi'
+ 	R
+-	'từ trên đầu Rance xuống.'
+-	\L_0685f:
+-	ZH 1:
+-	'Tay chân của hắn bị'
+-	R
+-	'vướng vào đó, và cử động của'
+-	R
+-	'hắn nhanh chóng bị giữ lại.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Wh-Wh-Wh-Cái gì,'
+-	R
+-	'cái gì? Chết tiệt... Ta'
+-	R
+-	'có thể xử lý việc này...'
++	'xuống đầu Rance.'
++	\L_0685f:
++	ZH 1:
++	'Tay chân vướng vào, chỉ'
++	R
++	'trong chớp mắt Rance'
++	R
++	'đã không cử động nổi.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'C-c-cái gì, cái gì'
++	R
++	'thế? Khốn... chút'
++	R
++	'này mà đòi bắt ta...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'(usd)'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Nhân chứng!?'
+-	\L_0685f:
+-	ZH 1:
+-	'Gh... Ối... Chết tiệt...'
++	'（Bốp!!）'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Oác!?'
++	\L_0685f:
++	ZH 1:
++	'Ư... đau... khốn kiếppp...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0679c:
+ 	\L_067e2:
+ 	ZH 1:
+-	'Rance bị đấm vào phía'
+-	R
+-	'sau đầu và bị đánh gục.'
++	'Rance bị đánh'
++	R
++	'vào gáy, ngất đi.'
+ 	\L_0685f:
+ 	ZH 1:
+ 	R
+@@ -2741,131 +2733,125 @@
+ 	'.........'
+ 	\L_0685f:
+ 	ZH 1:
+-	'... Ôi...'
++	'......đau......'
+ 	\L_0685f:
+ 	\L_06852:
+ 	!VAR0516 : 1!
+ 	\L_0678e:
+ 	\L_0673a:
+ 	ZH 1:
+-	'Oooooooow!!'
+-	\L_0685f:
+-	ZH 1:
+-	'Hah... hah...'
+-	\L_0685f:
+-	ZH 1:
+-	'Ack... Ch... Vậy đó'
+-	R
+-	'không phải là một giấc mơ'
+-	R
+-	'à? Ta thực sự đã bị đấm...'
+-	\L_0685f:
+-	ZH 1:
+-	'Chết tiệt... họ nghĩ'
+-	R
+-	'gì khi đánh một vị vua?!'
+-	\L_0685f:
+-	ZH 1:
+-	'Aaaah! Không'
+-	R
+-	'chỉ vậy, đây là cái gì'
+-	R
+-	'thế!? Ta bị trói rồi!'
+-	\L_0685f:
+-	ZH 1:
+-	'Làm sao ta có'
+-	R
+-	'thể đi vệ sinh được?!'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Ngươi tỉnh rồi à?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Em là ai?'
++	'Đauuuuu!!'
++	\L_0685f:
++	ZH 1:
++	'Hộc... hộc...'
++	\L_0685f:
++	ZH 1:
++	'Ui... da da... không phải mơ'
++	R
++	'à... đúng là bị đánh thật...'
++	\L_0685f:
++	ZH 1:
++	'khốn... đầu nhà vua mà chúng'
++	R
++	'nó coi là cái gì hả...!'
++	\L_0685f:
++	ZH 1:
++	'Aaa! Lại còn gì thế'
++	R
++	'này!? Bị trói rồi!'
++	\L_0685f:
++	ZH 1:
++	'Thế định cho ta đi'
++	R
++	'vệ sinh kiểu gì hả!'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Tỉnh rồi à?'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Ai đấy?'
+ 	\L_0685f:
+ 	\L_06852:
+ 	!VAR0516 : 95!
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'vị khách cuối cùng.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'... Một người'
+-	R
+-	'đàn ông? Ta tưởng người'
+-	R
+-	'Kalars đều là phụ nữ.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Vâng... Tôi là con người.'
+-	R
+-	'Giống như cậu. đây Là Đâu?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Làng Kalar... cabin'
+-	R
+-	'tiết kiệm. cabin Tiết kiệm??'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Vâng... Vâng, cậu sẽ hiểu'
+-	R
+-	'những gì có nghĩa là sớm'
+-	R
+-	'cho dù cậu muốn hay không.'
+-	\L_0685f:
+-	ZH 1:
+-	'Cậu là ai? Tại sao cậu'
+-	R
+-	'đến khu rừng này một mình'
+-	R
+-	'với những tin đồn đáng sợ?'
++	'Người tới trước thôi.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'......Đàn ông? Kalar'
++	R
++	'hình như chỉ có đàn'
++	R
++	'bà thôi... nhỉ??'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'À... tôi là con'
++	R
++	'người. Giống anh thôi.'
++	R
++	'Rance「Đây là đâu...?」'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Căn chòi dự trữ...'
++	R
++	'của làng Kalar.'
++	R
++	'Rance「Chòi dự trữ??」'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Đúng vậy... thôi, rồi anh'
++	R
++	'sẽ hiểu ngay, dù không muốn.'
++	\L_0685f:
++	ZH 1:
++	'Anh là ai? Sao lại một'
++	R
++	'mình tới khu rừng hẻo lánh,'
++	R
++	'có tin đồn đáng sợ này?'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0673a:
+ 	ZH 1:
+ 	'Tên ta là Rance.'
+ 	R
+-	'Ta là Vua của Leazas.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Một vị vua... Xin thứ'
+-	R
+-	'lỗi cho sự thô lỗ của tôi.'
+-	R
+-	'Tên tôi là Arios Theoman.'
+-	\L_0685f:
+-	ZH 1:
+-	'Tôi rời một ngôi'
+-	R
+-	'làng thậm chí còn không'
+-	R
+-	'có tên để đi phiêu lưu.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'À, ta hiểu rồi.'
++	'Vua của Leazas.'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Quốc vương... thất lễ'
++	R
++	'quá. Tôi là Arios Theoman.'
++	\L_0685f:
++	ZH 1:
++	'Tôi rời một ngôi làng chẳng'
++	R
++	'có cả tên, đang đi du hành.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'À, thế à.'
+ 	\L_0685f:
+ 	ZH 1:
+ 	'............'
+ 	\L_0685f:
+ 	ZH 1:
+-	'... Này.'
++	'......Này.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_067aa:
+@@ -2875,9 +2861,7 @@
+ 	\L_06852:
+ 	\L_0673a:
+ 	ZH 1:
+-	'Đây Là Làng'
+-	R
+-	'Kalar, phải không?'
++	'Đây là làng Kalar nhỉ?'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_067aa:
+@@ -2887,50 +2871,46 @@
+ 	\L_06852:
+ 	\L_0673a:
+ 	ZH 1:
+-	'Và người Kalar'
+-	R
+-	'ghét con người?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Vâng... Rất'
+-	R
+-	'nhiều như vậy...'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Vậy tại sao mày'
+-	R
+-	'lại ở đây? Tại sao họ chỉ hạ'
+-	R
+-	'gục ta và giam cầm ta ở đây?'
+-	\L_0685f:
+-	ZH 1:
+-	'Người Kalar có'
+-	R
+-	'thực sự thích con người'
+-	R
+-	'hơn chúng ta biết không?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Không, họ không làm'
+-	R
+-	'vậy. Tôi... tôi đã bị giam ở'
+-	R
+-	'đây được khoảng một năm rồi.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Cái gì? Một năm!?'
+-	R
+-	'mày đã ngồi quanh'
+-	R
+-	'đây được một năm!?'
++	'Kalar ghét con'
++	R
++	'người lắm cơ mà nhỉ?'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Vâng... khá là ghét...'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Thế mà sao ngươi lại ở'
++	R
++	'đây? Ta chỉ bị đánh ngất'
++	R
++	'rồi bắt nhốt thôi à?'
++	\L_0685f:
++	ZH 1:
++	'Kalar là giống loài'
++	R
++	'thân thiện với con người'
++	R
++	'hơn bọn ta tưởng à?'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Không phải đâu. Tôi...'
++	R
++	'thật ra đã bị giam ở'
++	R
++	'đây chừng một năm rồi.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Cái gì? Một năm!? Một năm'
++	R
++	'ru rú ở cái chỗ thế này à!?'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_067aa:
+@@ -2938,19 +2918,17 @@
+ 	'Không...'
+ 	\L_0685f:
+ 	ZH 1:
+-	'Tôi bị buộc phải tham'
+-	R
+-	'gia vào một việc gì đó.'
+-	\L_0685f:
+-	ZH 1:
+-	'Tất cả những người đàn'
+-	R
+-	'ông được đưa đến đây đều...'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Đó là...'
++	'tôi bị bắt làm một việc.'
++	\L_0685f:
++	ZH 1:
++	'Đàn ông bị đưa tới'
++	R
++	'đây đều phải...'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Thế là...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+@@ -2958,120 +2936,110 @@
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Cậu tỉnh rồi à?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Ah... Cậu đúng là'
+-	R
+-	'Kalar dễ thương lúc trước!'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Xin Lỗi về điều'
+-	R
+-	'đó... Nó đau, phải không?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Vâng... Rất nhiều...'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'... Xin lỗi.'
+-	\L_0685f:
+-	ZH 1:
+-	'... Vậy... Hãy đổi chủ'
+-	R
+-	'đề thôi. Bây giờ Nữ hoàng'
+-	R
+-	'Pastel sẽ kiểm tra cậu.'
+-	\L_0685f:
+-	ZH 1:
+-	'Làm ơn ra ngoài. kiểm'
+-	R
+-	'tra Pastel Là Gì? Ah, cậu'
+-	R
+-	'có thể cởi trói cho tôi?'
+-	\L_0685f:
+-	ZH 1:
+-	'Này, đừng kéo'
+-	R
+-	'ta! Dwah... Dwaaah!'
+-	\L_0685f:
+-	ZH 1:
+-	'Ta thích trói'
+-	R
+-	'người khác nhưng'
+-	R
+-	'ta ghét bị trói!!'
++	'Ngài tỉnh rồi à?'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'A... cô gái Kalar lúc nãy!'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Lúc nãy xin lỗi nhé...'
++	R
++	'đau lắm phải không?'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Ừ ừ... đau lắm...'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'...Xin lỗi.'
++	\L_0685f:
++	ZH 1:
++	'...Vậy... đổi chủ đề'
++	R
++	'nhé. Giờ ngài sẽ được Nữ'
++	R
++	'hoàng Pastel kiểm tra.'
++	\L_0685f:
++	ZH 1:
++	'Mời ra ngoài. Rance「Kiểm'
++	R
++	'tra của Pastel là cái gì?'
++	R
++	'À, không cởi trói cho ta à?'
++	\L_0685f:
++	ZH 1:
++	'Này, đừng kéo! Oái... oáiii!'
++	\L_0685f:
++	ZH 1:
++	'Ta thích trói người'
++	R
++	'ta, nhưng ghét bị'
++	R
++	'trói nhất trần đời!!」'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'Rance đã'
+-	R
+-	'được chuyển đến một nơi khác'
+-	R
+-	'trong khi vẫn bị ràng buộc.'
+-	\L_0685f:
+-	ZH 1:
+-	'Một thời gian'
+-	R
+-	'sau, Rance được chuyển đến'
+-	R
+-	'một căn phòng hơi xa hoa.'
+-	\L_0685f:
+-	ZH 1:
+-	'căn phòng này là'
+-	R
+-	'gì? Có vẻ khá phức tạp.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Cố gắng không thô thiển'
+-	R
+-	'Xung quanh Queen Pastel.'
+-	\L_0685f:
+-	ZH 1:
+-	'Ngài sẽ bị'
+-	R
+-	'giết ngay tại đây nếu'
+-	R
+-	'nàng không thích ngài.'
++	'Rance bị đưa tới'
++	R
++	'chỗ khác trong tình'
++	R
++	'trạng vẫn bị trói.'
++	\L_0685f:
++	ZH 1:
++	'Một lúc sau... Rance'
++	R
++	'được dẫn vào một căn'
++	R
++	'phòng hơi xa hoa.'
++	\L_0685f:
++	ZH 1:
++	'Rance「Gì đây... căn phòng'
++	R
++	'này... trông cầu kỳ ghê.」'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Nữ hoàng Pastel sắp tới'
++	R
++	'đây, cấm có thất lễ.'
++	\L_0685f:
++	ZH 1:
++	'Bị người ghét là bị'
++	R
++	'giết ngay tại chỗ đấy.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06756:
+ 	ZH 1:
+-	'... Nữ hoàng'
+-	R
+-	'nguy hiểm... Nàng sẽ là'
+-	R
+-	'người như thế nào...?'
+-	\L_0685f:
+-	ZH 1:
+-	'Một người như Người'
+-	R
+-	'Phụ nữ Mineva mà ta đã chiến'
+-	R
+-	'đấu Ở Helman, có lẽ...?'
+-	\L_0685f:
+-	ZH 1:
+-	'hoặc có thể nàng sẽ'
+-	R
+-	'là một kẻ thô lỗ như'
+-	\L_0685f:
+-	ZH 1:
+-	'Người Phụ Nữ Freon'
+-	R
+-	'đã đánh ta bằng chảo rán'
+-	R
+-	'trên Thành Phố Toushin...'
++	'...Nữ hoàng gì mà'
++	R
++	'đáng sợ thế... sẽ là'
++	R
++	'đứa thế nào đây...?'
++	\L_0685f:
++	ZH 1:
++	'Một đứa như Minerva từng'
++	R
++	'đánh nhau ở Helman à...?'
++	\L_0685f:
++	ZH 1:
++	'Hay là như'
++	\L_0685f:
++	ZH 1:
++	'mụ già Fron từng cầm'
++	R
++	'chảo đập ta bôm bốp ở'
++	R
++	'Thành phố Đấu Thần...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+@@ -3079,7 +3047,7 @@
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Làm tốt lắm, Somita...'
++	'Vất vả rồi... Somita......'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0673a:
+@@ -3101,14 +3069,14 @@
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Hãy im lặng... Ngài đang'
+-	R
+-	'ở trước Nữ hoàng Kalar.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Chà, Ta Là Vua Của Leazas.'
++	'Im lặng đi... đang ở trước'
++	R
++	'mặt Nữ hoàng Kalar đấy...'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Ta cũng là vua Leazas đấy.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_067aa:
+@@ -3116,20 +3084,20 @@
+ 	'Leazas...'
+ 	\L_0685f:
+ 	ZH 1:
+-	'Hiện tại anh đang gây'
+-	R
+-	'ra rất nhiều cuộc chiến'
+-	\L_0685f:
+-	ZH 1:
+-	'tranh bạo lực trong'
+-	R
+-	'thế giới loài người...'
+-	\L_0685f:
+-	ZH 1:
+-	'... Huh...'
+-	\L_0685f:
+-	ZH 1:
+-	'Vậy sao...?'
++	'là nước đang gây'
++	R
++	'chiến liên miên'
++	\L_0685f:
++	ZH 1:
++	'trong thế giới loài'
++	R
++	'người bây giờ...'
++	\L_0685f:
++	ZH 1:
++	'......Hể...'
++	\L_0685f:
++	ZH 1:
++	'ra là vậy sao...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+@@ -3415,29 +3383,31 @@
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'Rance bị kéo'
+-	R
+-	'trở lại nhà tù.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Bây giờ xin hãy ở lại'
+-	R
+-	'đây và cư xử đúng mực.'
++	'Bị lôi xềnh xệch, Rance'
++	R
++	'bị đưa trở lại phòng giam.'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Nào, ngài ngoan'
++	R
++	'ngoãn ở đây nhé.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_067e2:
+ 	ZH 1:
+-	'Somita đưa Rance vào'
+-	R
+-	'phòng giam và đi nơi khác.'
++	'Nhốt Rance vào phòng'
++	R
++	'giam xong, Somita'
++	R
++	'đi thẳng đâu mất.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+ 	\L_0673a:
+ 	ZH 1:
+-	'Daaaaa!! Chết tiệt!!'
++	'Đaaa!! Khốn kiếp!!'
+ 	\L_0685f:
+ 	\L_06852:
+ 	!VAR0516 : 95!
+@@ -3526,23 +3496,19 @@
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Người đàn ông bảy'
+-	R
+-	'trăm bảy mươi sáu.'
+-	R
+-	'Làm ơn ra ngoài đi.'
++	'Nam số 776. Mời ra ngoài.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_067e2:
+ 	ZH 1:
+-	'Somita mở phòng giam,'
+-	R
+-	'Đối mặt với Rance và nói.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Bảy trăm bảy mươi sáu??'
++	'Somita mở phòng'
++	R
++	'giam, nói với Rance.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Số 776??'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+@@ -3550,14 +3516,14 @@
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Đó là ngài, Rance. Nếu ngài'
+-	R
+-	'không đi, ngài sẽ bị giết.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Trời ạ...'
++	'Là anh đấy, anh Rance.'
++	R
++	'Không đi là bị giết đấy.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Chậc......'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+@@ -3565,23 +3531,23 @@
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Bây giờ nhanh'
+-	R
+-	'lên... Làm ơn ra ngoài.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Được rồi, trời'
+-	R
+-	'ạ... Nếu ta phải...'
++	'Nào, nhanh lên...'
++	R
++	'mời ra ngoài.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Biết rồi... thật'
++	R
++	'tình... hết cách...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+ 	'Rance miễn cưỡng'
+ 	R
+-	'rời khỏi phòng giam.'
++	'ra khỏi phòng giam.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06756:
+@@ -3990,21 +3956,17 @@
+ 	\L_06852:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Tôi đã nói với'
+-	R
+-	'cậu rồi phải không?'
+-	\L_0685f:
+-	ZH 1:
+-	'Tôi chỉ cần coi nó'
+-	R
+-	'như một phần trong quá'
+-	R
+-	'trình đào tạo của mình.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Đào tạo?'
++	'Tôi đã nói rồi mà?'
++	\L_0685f:
++	ZH 1:
++	'Cứ coi như một phần'
++	R
++	'tu luyện thôi...'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Tu luyện á...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_067aa:
+@@ -4014,68 +3976,60 @@
+ 	'Vương thức tỉnh,'
+ 	\L_0685f:
+ 	ZH 1:
+-	'tôi phải có'
+-	R
+-	'nhiều kinh nghiệm để'
+-	R
+-	'rèn luyện bản thân.'
+-	\L_0685f:
+-	ZH 1:
+-	'Bởi vì tôi là Anh hùng.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Anh Hùng... Người có'
+-	R
+-	'sức mạnh thực sự thể hiện'
+-	R
+-	'khi Ma Vương thức tỉnh??'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Vâng... Đúng vậy.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Hmm...'
+-	\L_0685f:
+-	ZH 1:
+-	'Lần đầu tiên'
+-	R
+-	'ta gặp Anh hùng.'
+-	\L_0685f:
+-	ZH 1:
+-	'Tuy nhiên, mày chỉ'
+-	R
+-	'trông giống như một'
+-	R
+-	'thằng nhóc bình thường.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Gahahahaha!..'
+-	R
+-	'Tôi bình thường.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Aaaah... Trời'
+-	R
+-	'ạ, ta mệt quá...'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Aah, phần thức ăn của'
+-	R
+-	'cậu vẫn còn đấy, Rance. Có'
+-	R
+-	'cả trà nữa. Hãy chuẩn bị nó.'
++	'tôi phải trải qua đủ thứ'
++	R
++	'để rèn luyện bản thân...'
++	\L_0685f:
++	ZH 1:
++	'Vì tôi là dũng giả.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Dũng giả... cái loại sẽ phát'
++	R
++	'huy sức mạnh thật khi Ma'
++	R
++	'Vương thức tỉnh... ấy à??'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Vâng... đúng vậy.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Hừm...'
++	\L_0685f:
++	ZH 1:
++	'lần đầu ta thấy đấy.'
++	\L_0685f:
++	ZH 1:
++	'Nhìn qua thì chỉ như'
++	R
++	'một thằng bình thường...'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Ha ha ha... tôi'
++	R
++	'bình thường mà...'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'A~a... mà mệt thật...'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'À, phần ăn của anh'
++	R
++	'Rance có rồi đấy. Có'
++	R
++	'cả trà. Để tôi rót cho.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0673a:
+@@ -4248,7 +4202,7 @@
+ 	\L_06852:
+ 	\L_0673a:
+ 	ZH 1:
+-	'Nếu ta không thể...?'
++	'Không ra được nữa thì...?'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_067aa:
+@@ -4258,47 +4212,43 @@
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'Arios lướt ngón tay'
+-	R
+-	'qua cổ để ra hiệu bị giết.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Làm sao ta có thể'
+-	R
+-	'chấp nhận được điều đó?!!'
+-	\L_0685f:
+-	ZH 1:
+-	'Ta không muốn tốn thêm'
+-	R
+-	'một giây nào ở đây nữa!!'
++	'Arios lặng lẽ đưa tay quẹt'
++	R
++	'ngang cổ, ra dấu bị giết.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Thế mà chấp nhận được'
++	R
++	'à!! Vi phạm nhân quyền!!'
++	\L_0685f:
++	ZH 1:
++	'Ta không muốn ở cái chỗ'
++	R
++	'này thêm một giây nào nữa!!'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'Rance đứng thẳng lên.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Rance, cậu là gì...?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Chẳng phải điều đó là'
+-	R
+-	'hiển nhiên sao? Chạy đi!!'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Nếu họ tìm thấy'
+-	R
+-	'cậu, họ sẽ giết cậu. Đó là'
+-	R
+-	'tất cả những gì có về nó...'
++	'Rance bật dậy.'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Anh Rance, anh định...'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Còn phải hỏi. Trốn!!'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Bị phát hiện là... bị giết'
++	R
++	'đấy. Không cần hỏi han gì...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0673a:
+@@ -4306,51 +4256,49 @@
+ 	'Im đi!!'
+ 	\L_0685f:
+ 	ZH 1:
+-	'Hyaaaaaaaaaaaa!! Rance'
+-	R
+-	'Ramming Attaaaaaaaack!!'
++	'Hây aaaa!! Rance'
++	R
++	'Đột Kích Attaaack!!'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'（blaaaaaaaaam!!）'
+-	\L_0685f:
+-	ZH 1:
+-	'Rance đâm vào'
+-	R
+-	'phòng giam bằng gỗ.'
+-	\L_0685f:
+-	ZH 1:
+-	'Sau khi Rance'
+-	R
+-	'húc hai hoặc ba lần,'
+-	\L_0685f:
+-	ZH 1:
+-	'một cái lỗ'
+-	R
+-	'mà ai đó có thể đi qua đã'
+-	R
+-	'được mở trên gỗ mỏng manh.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Gahahahaha! â u quá, bị'
+-	R
+-	'giam cầm!! Tự do muôn năm!!'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Rance!!'
++	'（Rầmmmm!!）'
++	\L_0685f:
++	ZH 1:
++	'Rance lao người vào'
++	R
++	'cái cũi làm bằng gỗ.'
++	\L_0685f:
++	ZH 1:
++	'Rance húc hai, ba lần,'
++	\L_0685f:
++	ZH 1:
++	'cái cũi mỏng manh'
++	R
++	'đã thủng một lỗ đủ'
++	R
++	'cho người chui qua.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Gahahahaha!! Vĩnh biệt, giam'
++	R
++	'cầm!! Tự do muôn nămmm!!'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Anh Rance!!'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+ 	\L_06772:
+ 	ZH 1:
+-	'Arios không thể'
+-	R
+-	'ngăn Rance bỏ chạy.'
++	'Mặc Arios ngăn cản,'
++	R
++	'Rance chạy biến như thỏ.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	PF1 VAR0056:
+@@ -4363,33 +4311,37 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Trong rừng Ừm...'
++	'Trong rừng'
++	R
++	'Ừm...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'Rance đang ngồi'
+-	R
+-	'trong rừng và suy nghĩ.'
++	'Rance ngồi bó gối'
++	R
++	'trong rừng, suy nghĩ.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06756:
+ 	ZH 1:
+-	'Ta không nghĩ ta có thể'
+-	R
+-	'chạy trốn như thế này…'
+-	R
+-	'Khắp nơi đều có lính canh.'
+-	\L_0685f:
+-	ZH 1:
+-	'Và ta không có vũ khí...'
+-	R
+-	'phải có một cái gì đó...'
++	'Chắc chẳng trốn được'
++	R
++	'thế này đâu... chỗ'
++	R
++	'nào cũng có lính canh.'
++	\L_0685f:
++	ZH 1:
++	'Lại không có vũ khí...'
++	R
++	'có gì dùng được không...'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'Rance nhìn xung quanh.'
++	'Rance ngó nghiêng'
++	R
++	'xung quanh.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06756:
+@@ -5909,77 +5861,69 @@
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Rance!'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Này, Arios. Họ có'
+-	R
+-	'thả mày ra không?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Vâng... Tôi'
+-	R
+-	'bị sốc. Rance... Anh'
+-	R
+-	'không thể tin được...'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Gahahahaha!. Đ ó là sự'
+-	R
+-	'thật. Ta thật tuyệt vời.'
+-	\L_0685f:
+-	ZH 1:
+-	'Chà, bây giờ mày'
+-	R
+-	'định làm gì khi rảnh rỗi?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Tôi đang lên kế'
+-	R
+-	'hoạch thực hiện một'
+-	R
+-	'cuộc phiêu lưu khác.'
+-	\L_0685f:
+-	ZH 1:
+-	'Một hành trình rèn luyện bản'
+-	R
+-	'thân để sẵn sàng khi thức'
+-	R
+-	'tỉnh với tư cách Anh hùng.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Ta hiểu rồi.'
+-	R
+-	'Chà, hãy đến vui chơi ở'
+-	R
+-	'Leazas nếu mày muốn.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Cảm ơn Cậu.'
+-	R
+-	'Cho đến lần sau...'
+-	\L_0685f:
+-	ZH 1:
+-	'do đó, người Cậu Rance'
+-	R
+-	'đã thực hiện trong cabin'
+-	R
+-	'tiết kiệm, Arios Theoman,'
+-	\L_0685f:
+-	ZH 1:
+-	'để lại một cuộc phiêu lưu.'
++	'Anh Rance!'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Ồ, Arios. Được thả ra rồi à.'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Vâng... nhưng tôi ngạc nhiên'
++	R
++	'thật. Anh Rance... anh đúng'
++	R
++	'là người phi thường......'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Gahahahaha. Đúng thế.'
++	R
++	'Ta là người phi thường.'
++	\L_0685f:
++	ZH 1:
++	'Nào, giờ ngươi định làm'
++	R
++	'gì? Được tự do rồi mà...'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Tôi định lại lên'
++	R
++	'đường du hành.'
++	\L_0685f:
++	ZH 1:
++	'Một chuyến tu luyện... để'
++	R
++	'sẵn sàng bất cứ lúc nào'
++	R
++	'tôi thức tỉnh làm dũng giả.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Thế à. Vậy hứng thì'
++	R
++	'ghé Leazas chơi.'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Cảm ơn anh. Vậy thì......'
++	\L_0685f:
++	ZH 1:
++	'Thế là người bạn cùng'
++	R
++	'căn chòi dự trữ với'
++	R
++	'Rance, Arios Theoman,'
++	\L_0685f:
++	ZH 1:
++	'lại lên đường du hành.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	PF1 VAR0056:
+@@ -6000,35 +5944,33 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Haah...'
+-	R
+-	'Đã lâu rồi chưa về nhà.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_067aa:
+-	ZH 1:
+-	'Chàng đã ở đâu, chàng yêu?'
+-	R
+-	'Geez... Thiếp đã lo lắng.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Gahahahaha!, không'
+-	R
+-	'có gì phải lo lắng cả.'
+-	\L_0685f:
+-	ZH 1:
+-	'Ta vừa dành chút'
+-	R
+-	'thời gian với bọn Kalar.'
+-	\L_0685f:
+-	ZH 1:
+-	'Vì Vậy, Maris. Như'
+-	R
+-	'ta đã giải thích. Ta để'
+-	R
+-	'lại sự sắp xếp cho nàng.'
++	'Phòng yết kiến'
++	R
++	'Phù... lâu lắm mới về nhà.'
++	\L_0685f:
++	\L_06852:
++	\L_067aa:
++	ZH 1:
++	'Chàng yêu, chàng đi đâu thế?'
++	R
++	'Thật là... thiếp lo lắm đấy.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Gahahahaha, yên tâm đi.'
++	\L_0685f:
++	ZH 1:
++	'Ta ghé chỗ Kalar'
++	R
++	'một chút thôi.'
++	\L_0685f:
++	ZH 1:
++	'Thế, Maris. Như ta đã'
++	R
++	'giải thích. Phần sắp xếp'
++	R
++	'còn lại giao cho ngươi.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+@@ -6036,45 +5978,45 @@
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Hiểu.'
+-	\L_0685f:
+-	ZH 1:
+-	'Tôi sẽ bố trí lính canh'
+-	R
+-	'từ Đất Nước của chúng tôi'
+-	\L_0685f:
+-	ZH 1:
+-	'Tại Rừng Kalar để ngăn'
+-	R
+-	'chặn bất kỳ kẻ xâm phạm nào.'
+-	\L_0685f:
+-	ZH 1:
+-	'chúng tôi'
+-	R
+-	'cũng sẽ đàn áp việc bán'
+-	R
+-	'tinh thể bất hợp pháp.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Được rồi, tốt. tuy nhiên,'
+-	R
+-	'Một người bí ẩn như vậy...'
+-	\L_0685f:
+-	ZH 1:
+-	'Tôi không thể tin rằng'
+-	R
+-	'hắn đã kết bạn với Kalar...'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Ngoài ra...'
+-	R
+-	'Họ đã đưa cho ta cô gái'
+-	R
+-	'này. Hãy chăm sóc nàng.'
++	'Thần hiểu.'
++	\L_0685f:
++	ZH 1:
++	'Thần sẽ bố trí đội'
++	R
++	'cảnh vệ của nước ta'
++	\L_0685f:
++	ZH 1:
++	'để không ai xâm nhập'
++	R
++	'trái phép vào rừng Kalar.'
++	\L_0685f:
++	ZH 1:
++	'Ngoài ra, kẻ buôn bán'
++	R
++	'tinh thể trái phép cũng'
++	R
++	'sẽ bị xử tội nặng nhất.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Được, thế là tốt.'
++	R
++	'Maris「Nhưng... thật'
++	R
++	'là người kỳ lạ...'
++	\L_0685f:
++	ZH 1:
++	'ai ngờ lại kết thân'
++	R
++	'được với tộc Kalar...」'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Còn nữa... ta nhận trông cô'
++	R
++	'gái này. Nhờ ngươi lo cho.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+@@ -6082,16 +6024,14 @@
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Tên tôi là Somita.'
+-	R
+-	'Tôi sẽ cố gắng chiến đấu mà'
+-	R
+-	'không kéo mọi người xuống.'
+-	\L_0685f:
+-	ZH 1:
+-	'Tôi rất mong được'
+-	R
+-	'làm việc với ngài.'
++	'Tôi tên là Somita. Tôi'
++	R
++	'sẽ chiến đấu để không'
++	R
++	'làm vướng chân mọi người.'
++	\L_0685f:
++	ZH 1:
++	'Mong được chỉ giáo.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+@@ -6099,21 +6039,19 @@
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Ồ... Kalar này là ai?'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Nàng đến từ lực lượng'
+-	R
+-	'phòng vệ của đất nước Kalar.'
+-	\L_0685f:
+-	ZH 1:
+-	'Nữ Hoàng Pastel'
+-	R
+-	'đã gửi nàng và nói rằng'
+-	R
+-	'chúng ta nên sử dụng nàng.'
++	'Ồ... một cô gái Kalar...'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Người của đội phòng'
++	R
++	'vệ nước Kalar.'
++	\L_0685f:
++	ZH 1:
++	'Nữ hoàng Pastel nhất định'
++	R
++	'muốn ta dùng nên gửi tới.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_0680c:
+@@ -6121,23 +6059,21 @@
+ 	\L_067fe:
+ 	\L_067aa:
+ 	ZH 1:
+-	'Tôi sẽ cố gắng'
+-	R
+-	'hết sức để không làm ô'
+-	R
+-	'danh Nữ hoàng Pastel.'
+-	\L_0685f:
+-	\L_06852:
+-	\L_0673a:
+-	ZH 1:
+-	'Ừm. Thái độ tốt.'
++	'Tôi sẽ cố gắng để không làm'
++	R
++	'hoen ố danh Nữ hoàng Pastel.'
++	\L_0685f:
++	\L_06852:
++	\L_0673a:
++	ZH 1:
++	'Ừm. Tinh thần tốt đấy.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	\L_06772:
+ 	ZH 1:
+-	'Somita Kalar'
+-	R
+-	'gia nhập Rance.'
++	'Somita Kalar đã trở'
++	R
++	'thành thuộc hạ của Rance.'
+ 	\L_0685f:
+ 	\L_06852:
+ 	!VAR0355 : 1!

@@ -1,0 +1,245 @@
+{
+  "method": "JP/VI menu/guard/function review plus actual-stream static rendering; not runtime execution.",
+  "japanese_menus": {
+    "Cﾌﾞｶ.ADV": [
+      {
+        "line": 795,
+        "text": "\t$L_00f00$情報$"
+      },
+      {
+        "line": 797,
+        "text": "\t\t$L_010d7$○不足部下の補充$"
+      },
+      {
+        "line": 799,
+        "text": "\t\t\t$L_00f1b$○新規兵員の追加$"
+      },
+      {
+        "line": 803,
+        "text": "\t\t$L_00df9$×不足部下の補充$"
+      },
+      {
+        "line": 805,
+        "text": "\t\t\t$L_00df9$×新規兵員の追加$"
+      },
+      {
+        "line": 809,
+        "text": "\t\t$L_010b5$○部下と話をする$"
+      },
+      {
+        "line": 812,
+        "text": "\t\t$L_00df9$×部下と話をする$"
+      },
+      {
+        "line": 814,
+        "text": "\t$L_00ee3$やはり止める$"
+      },
+      {
+        "line": 859,
+        "text": "\t$L_00ff5$する$"
+      },
+      {
+        "line": 861,
+        "text": "\t\t$L_00f0f$増強数を増やす$"
+      },
+      {
+        "line": 863,
+        "text": "\t$L_00feb$しない$"
+      },
+      {
+        "line": 951,
+        "text": "\t$L_01205$する$"
+      },
+      {
+        "line": 952,
+        "text": "\t$L_011ed$しない$"
+      }
+    ],
+    "Cﾃｲﾄ.ADV": [
+      {
+        "line": 48,
+        "text": "\t$L_0019b$建設$"
+      },
+      {
+        "line": 49,
+        "text": "\t$L_00198$やめる$"
+      },
+      {
+        "line": 176,
+        "text": "\t\t$L_005ef$女子士官学校$"
+      },
+      {
+        "line": 179,
+        "text": "\t\t$L_00834$ＮＥＷ図書館$"
+      },
+      {
+        "line": 182,
+        "text": "\t\t$L_009f6$総合病院$"
+      },
+      {
+        "line": 185,
+        "text": "\t\t$L_00db6$ＳＭ塔$"
+      },
+      {
+        "line": 189,
+        "text": "\t\t$L_01005$マリア研究所$"
+      },
+      {
+        "line": 192,
+        "text": "\t\t$L_01290$魔法研究ビル$"
+      },
+      {
+        "line": 194,
+        "text": "\t$L_00184$建設しない$"
+      },
+      {
+        "line": 238,
+        "text": "\t$L_00794$建設する$"
+      },
+      {
+        "line": 239,
+        "text": "\t$L_005e5$別のにする$"
+      },
+      {
+        "line": 293,
+        "text": "\t$L_00975$建設する$"
+      },
+      {
+        "line": 294,
+        "text": "\t$L_005e5$別のにする$"
+      },
+      {
+        "line": 359,
+        "text": "\t$L_00b92$建設する$"
+      },
+      {
+        "line": 360,
+        "text": "\t$L_005e5$別のにする$"
+      },
+      {
+        "line": 413,
+        "text": "\t$L_00d61$建設する$"
+      },
+      {
+        "line": 414,
+        "text": "\t$L_00511$別のにする$"
+      },
+      {
+        "line": 415,
+        "text": "\t$L_00198$建設しない$"
+      },
+      {
+        "line": 476,
+        "text": "\t$L_00f7b$建設する$"
+      },
+      {
+        "line": 477,
+        "text": "\t$L_005e5$別のにする$"
+      },
+      {
+        "line": 545,
+        "text": "\t$L_011ea$建設する$"
+      },
+      {
+        "line": 546,
+        "text": "\t$L_005e5$別のにする$"
+      },
+      {
+        "line": 602,
+        "text": "\t$L_013cd$建設する$"
+      },
+      {
+        "line": 603,
+        "text": "\t$L_005e5$別のにする$"
+      },
+      {
+        "line": 604,
+        "text": "\t$L_00198$建設しない$"
+      }
+    ]
+  },
+  "subordinate": {
+    "menu_groups": {
+      "2": 8,
+      "5": 3,
+      "10": 2
+    },
+    "availability": "VAR0679/0680 enabled/disabled and VAR0001 recruitment gates retained.",
+    "recruit_math": "VAR0003*2; VAR0001*3; VAR0001<10000 option; funds/recruit/unit-count/experience formulas untouched.",
+    "replenish_math": "VAR0075-VAR0074; /50 minimum1 cost; full army and insufficient budget paths retained.",
+    "equipment_types": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "self_branches": "VAR0469<10,<20 and later silence unchanged."
+  },
+  "construction": {
+    "menu_groups": [
+      7,
+      21,
+      25,
+      31,
+      39,
+      44,
+      53,
+      59,
+      65
+    ],
+    "facility_cards": {
+      "school": [
+        4,
+        "60000K G"
+      ],
+      "library": [
+        2,
+        "40000K G"
+      ],
+      "hospital": [
+        3,
+        "40000K G"
+      ],
+      "SM tower": [
+        3,
+        "80000K G"
+      ],
+      "Maria": [
+        2,
+        "98000K G"
+      ],
+      "magic": [
+        3,
+        "90000K G"
+      ]
+    },
+    "pool": "All retained pool dialogue and accept/cancel branch reviewed; original offering remains disabled/unlisted,not enabled by translation.",
+    "busy_flags": [
+      550,
+      551,
+      552,
+      553,
+      554,
+      555
+    ],
+    "all63_nonempty_flag_combinations_measured": true,
+    "weeks": [
+      1,
+      2,
+      16,
+      65535
+    ],
+    "budget_cards": [
+      24,
+      30,
+      38,
+      52,
+      58,
+      64
+    ]
+  },
+  "failures": []
+}

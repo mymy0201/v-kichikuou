@@ -1,0 +1,129 @@
+{
+  "catalog_names_tested": 50,
+  "catalog_sha256": "ca801a07b00e09f0633afe43a042251a66f2477ac7d68c0d168b59bf2b52a233",
+  "groups": [
+    {
+      "vi_group": 209,
+      "max_lines": 2,
+      "max_characters": 16,
+      "max_pixels": 192.0,
+      "limits": [
+        3,
+        28,
+        336
+      ]
+    },
+    {
+      "vi_group": 210,
+      "max_lines": 3,
+      "max_characters": 23,
+      "max_pixels": 276.0,
+      "limits": [
+        3,
+        28,
+        336
+      ]
+    },
+    {
+      "vi_group": 211,
+      "max_lines": 2,
+      "max_characters": 27,
+      "max_pixels": 324.0,
+      "limits": [
+        3,
+        28,
+        336
+      ]
+    },
+    {
+      "vi_group": 213,
+      "max_lines": 2,
+      "max_characters": 25,
+      "max_pixels": 300.0,
+      "limits": [
+        3,
+        28,
+        336
+      ]
+    },
+    {
+      "vi_group": 223,
+      "max_lines": 2,
+      "max_characters": 28,
+      "max_pixels": 336.0,
+      "limits": [
+        3,
+        28,
+        336
+      ]
+    },
+    {
+      "vi_group": 225,
+      "max_lines": 3,
+      "max_characters": 28,
+      "max_pixels": 336.0,
+      "limits": [
+        3,
+        28,
+        336
+      ]
+    },
+    {
+      "vi_group": 237,
+      "max_lines": 3,
+      "max_characters": 28,
+      "max_pixels": 336.0,
+      "limits": [
+        3,
+        28,
+        336
+      ]
+    },
+    {
+      "vi_group": 241,
+      "max_lines": 3,
+      "max_characters": 26,
+      "max_pixels": 312.0,
+      "limits": [
+        3,
+        28,
+        336
+      ]
+    },
+    {
+      "vi_group": 243,
+      "max_lines": 3,
+      "max_characters": 27,
+      "max_pixels": 324.0,
+      "limits": [
+        3,
+        28,
+        336
+      ]
+    },
+    {
+      "vi_group": 245,
+      "max_lines": 2,
+      "max_characters": 23,
+      "max_pixels": 276.0,
+      "limits": [
+        3,
+        28,
+        336
+      ]
+    },
+    {
+      "vi_group": 247,
+      "max_lines": 3,
+      "max_characters": 25,
+      "max_pixels": 300.0,
+      "limits": [
+        3,
+        28,
+        336
+      ]
+    }
+  ],
+  "failures": [],
+  "method": "Read actual X1 and R operations between original wait calls; substitute every current catalog name. Static check, not runtime playthrough."
+}

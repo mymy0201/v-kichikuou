@@ -5,14 +5,14 @@
 		\L_011c8:
 		\L_01174:
 		ZH 1:
-		'Được, xây thêm công trình'
+		'Được, xây thêm'
 		R
-		'mới vậy. Này, Maris, cho'
-		R
-		'người'
+		'công trình mới vậy.'
 		\L_01299:
 		ZH 1:
-		'xây một tòa nhà mới đi.'
+		'Này, Maris. Cho xây'
+		R
+		'một tòa nhà mới đi.'
 		\L_01299:
 		\L_0128c:
 		!VAR0516 : 6!
@@ -42,7 +42,9 @@
 		\L_01246:
 		\L_011ac:
 		ZH 1:
-		'Maris rời khỏi phòng.'
+		'Nói rồi, Maris'
+		R
+		'rời khỏi phòng.'
 		\L_01299:
 		\L_0128c:
 		\L_01190:
@@ -76,14 +78,14 @@
 		\L_011c8:
 		\L_01174:
 		ZH 1:
-		'Được, xây thêm công trình'
+		'Được, xây thêm'
 		R
-		'mới vậy. Này, Maris, cho'
-		R
-		'người'
+		'công trình mới vậy.'
 		\L_01299:
 		ZH 1:
-		'xây một tòa nhà mới đi.'
+		'Này, Maris. Cho xây'
+		R
+		'một tòa nhà mới đi.'
 		\L_01299:
 		\L_0128c:
 		!VAR0516 : 6!
@@ -104,32 +106,32 @@
 		R
 		{VAR0550 = 2:
 			ZH 1:
-			'Học viện nữ sĩ quan'
+			' Nữ SQ'
 		}
 		{VAR0551 = 2:
 			ZH 1:
-			'thư viện'
+			' TV'
 		}
 		{VAR0552 = 2:
 			ZH 1:
-			'bệnh viện'
+			' BV'
 		}
 		{VAR0553 = 2:
 			ZH 1:
-			'Tháp bạo dâm'
+			' SM'
 		}
 		{VAR0554 = 2:
 			ZH 1:
-			'Viện nghiên cứu Maria'
+			' Maria'
 		}
 		{VAR0555 = 2:
 			ZH 1:
-			'Viện nghiên cứu ma thuật'
+			' Phép'
 		}
 		ZH 1:
 		'.'
 		R
-		'Cần chờ thêm'
+		'Chờ thêm'
 		{VAR0540 > 1:
 			ZH 1:
 			' '
@@ -155,27 +157,29 @@
 		'bây giờ.'
 		\L_01299:
 		ZH 1:
-		'Phải rồi, tăng người cho đội'
+		'Phải rồi, tăng nhân lực'
 		R
-		'xây dựng đi. Thế là'
+		'cho đội xây dựng đi.'
 		\L_01299:
 		ZH 1:
-		'xong, ai cũng vui.'
+		'Thế là xong, ai cũng vui.'
 		\L_01299:
 		\L_0128c:
 		\L_011e4:
 		ZH 1:
-		'Xin Bệ hạ thứ lỗi... Những'
+		'Xin Bệ hạ thứ lỗi...'
 		R
-		'kiến trúc sư'
+		'Các kiến trúc sư'
 		\L_01299:
 		ZH 1:
-		'làm trong khu hoàng gia đều'
+		'lo việc xây cất nơi'
 		R
-		'thuộc hàng tinh nhuệ'
+		'ở của nhà vua đều'
+		R
+		'tinh nhuệ bậc nhất.'
 		\L_01299:
 		ZH 1:
-		'nhất, không thể đào tạo thêm'
+		'Không thể đào tạo thêm'
 		R
 		'trong chốc lát được.'
 		\L_01299:
@@ -296,17 +300,19 @@
 	'thành Leazas.'
 	\L_01299:
 	ZH 1:
-	'Phải, trường sĩ quan ấy. Mấy'
+	'Phải, trường sĩ quan. Ở đó'
 	R
-	'trường hiện tại toàn đàn'
+	'toàn đàn ông, chán ngắt.'
 	\L_01299:
 	ZH 1:
-	'ông, chán ngắt. Xây học viện'
+	'Ta sẽ xây học'
+	R
+	'viện nữ sĩ quan'
 	\L_01299:
 	ZH 1:
-	'nữ sĩ quan trong thành để'
+	'ngay trong thành Leazas'
 	R
-	'con gái có cơ hội trổ tài.'
+	'để con gái dễ trổ tài hơn.'
 	\L_01299:
 	ZH 1:
 	'Rồi tuyển người xuất sắc từ'
@@ -321,7 +327,7 @@
 	'đẹp...'
 	\L_01299:
 	ZH 1:
-	'Gahahahaha! Được, tuyệt lắm!'
+	'Hehehehe! Được, tuyệt lắm!'
 	\L_01299:
 	\L_0128c:
 	\L_011e4:
@@ -376,41 +382,39 @@
 	\L_0128c:
 	\L_011e4:
 	ZH 1:
-	'Thần'
+	'Thần đã rõ.'
 	\L_01299:
 	ZH 1:
-	'hiểu.'
+	'Vậy thần sẽ cho xây'
 	\L_01299:
 	ZH 1:
-	'Vậy sẽ cho xây học viện nữ'
+	'học viện nữ sĩ quan'
+	\L_01299:
+	ZH 1:
+	'trong khuôn viên'
 	R
-	'sĩ'
-	\L_01299:
-	ZH 1:
-	'quan trong khuôn viên thành'
-	R
-	'Leazas.'
+	'thành Leazas.'
 	\L_01299:
 	\L_0128c:
 	%0:
 *L_00783:
 	\L_01174:
 	ZH 1:
-	'Thư viện hiện tại chán quá.'
+	'Thư viện hiện tại chán'
 	R
-	'Xây cái mới đi. Gom nhiều'
+	'quá. Xây thư viện mới đi.'
 	\L_01299:
 	ZH 1:
-	'sách dễ đọc, không khí cũng'
+	'Thu thập sách dễ đọc và'
 	R
-	'phải sáng sủa hơn. Truyện'
-	R
-	'tranh,'
+	'tạo không khí tươi sáng.'
 	\L_01299:
 	ZH 1:
-	'tạp chí, cả sách khiêu dâm'
+	'Gom đầy truyện tranh,'
 	R
-	'nữa. Ừ, được đấy.'
+	'tạp chí và sách khiêu'
+	R
+	'dâm. Ừ, được đấy.'
 	\L_01299:
 	\L_0128c:
 	\L_011e4:
@@ -495,17 +499,13 @@
 	'Phiền quá.'
 	\L_01299:
 	ZH 1:
-	'Ừ, xây ngay trong'
+	'Ừ, xây ngay trong thành.'
 	\L_01299:
 	ZH 1:
-	'thành, thật khang trang vào.'
-	R
-	'Phải rồi,'
+	'Phải thật khang trang vào.'
 	\L_01299:
 	ZH 1:
-	'y tá nhất định phải là người'
-	R
-	'đẹp.'
+	'À, chỉ tuyển y tá xinh đẹp.'
 	\L_01299:
 	\L_0128c:
 	\L_011e4:
@@ -556,12 +556,12 @@
 	'Ừ.'
 	\L_01299:
 	ZH 1:
-	'Xây bệnh viện để dù một'
+	'Xây bệnh viện để dù chỉ'
 	R
-	'chiếc gai nhỏ'
+	'có một chiếc gai nhỏ'
 	\L_01299:
 	ZH 1:
-	'đâm vào ngón tay yêu kiều'
+	'đâm vào ngón tay xinh xắn'
 	R
 	'của ta cũng được chữa ngay.'
 	\L_01299:
@@ -576,24 +576,24 @@
 	%0:
 	\L_01174:
 	ZH 1:
-	'Phải rồi, hồ bơi! Ta muốn'
+	'Phải rồi, hồ'
 	R
-	'bơi, vậy xây hồ'
+	'bơi! Ta muốn bơi.'
 	\L_01299:
 	ZH 1:
-	'bơi đi. Phải là hồ bơi nghỉ'
+	'Vậy xây hồ bơi nghỉ dưỡng'
 	R
-	'dưỡng xa hoa nhất thế giới.'
+	'xa hoa bậc nhất thế giới đi.'
 	\L_01299:
 	ZH 1:
-	'Dùng nước ấm để lúc nào cũng'
+	'Cho làm hồ nước ấm để'
 	R
-	'bơi được. Nước phải'
+	'lúc nào ta cũng bơi được.'
 	\L_01299:
 	ZH 1:
-	'là nước thiên nhiên bơm từ'
+	'Chỉ được dùng nước thiên'
 	R
-	'trên núi xuống đấy.'
+	'nhiên bơm từ núi xuống đấy.'
 	\L_01299:
 	\L_0128c:
 	\L_011e4:
@@ -762,22 +762,22 @@
 	'Chi tiết cứ hỏi nàng.'
 	\L_01299:
 	ZH 1:
-	'À, nhớ giấu Maria, làm cho'
+	'À, giấu Maria, làm phòng'
 	R
-	'ta phòng nhìn lén cạnh phòng'
-	R
-	'thay đồ.'
+	'nhìn lén chỗ phòng thay đồ.'
 	\L_01299:
 	ZH 1:
-	'Ừ...'
-	\L_01299:
-	ZH 1:
-	'Gahahahaha!'
-	\L_01299:
-	ZH 1:
-	'Tuyệt đối không để Maria'
+	'Trong tòa nhà'
 	R
-	'biết đấy.'
+	'nghiên cứu ấy. Ừ...'
+	\L_01299:
+	ZH 1:
+	'Hehehehe!'
+	\L_01299:
+	ZH 1:
+	'Tuyệt đối đừng để Maria'
+	R
+	'biết. Nhớ đừng để lộ đấy.'
 	\L_01299:
 	\L_0128c:
 	\L_011e4:
@@ -853,24 +853,22 @@
 *L_00fac:
 	\L_01174:
 	ZH 1:
-	'Nghiên cứu ma thuật của'
+	'Leazas nghiên cứu ma'
 	R
-	'Leazas thua xa Zeth rồi.'
-	R
-	'Thua kém thế'
+	'thuật chậm hơn Zeth nhiều.'
 	\L_01299:
 	ZH 1:
-	'này khó chịu thật.'
+	'Thua kém thế này'
+	R
+	'khó chịu thật.'
 	\L_01299:
 	ZH 1:
-	'Phải cho nghiên cứu thêm.'
+	'Cho nghiên cứu đi. Xây một'
 	R
-	'Xây một viện nghiên cứu để'
+	'tòa nhà để phục vụ việc đó.'
 	\L_01299:
 	ZH 1:
-	'phục vụ việc đó. Xây ngay'
-	R
-	'đi.'
+	'Xây ngay đi.'
 	\L_01299:
 	\L_0128c:
 	\L_011e4:

@@ -1,0 +1,5747 @@
+	{VAR0485 = 2:
+		%0:
+	}
+	{(VAR0548 = 0) * (VAR0518 \ 0):
+		@L_07418:
+	}
+	!VAR0480 : 0!
+	{VAR0712 = 3:
+		!VAR0712 : 4!
+	}
+	{VAR0120 = 1137:
+		!VAR0715 : 2!
+	}
+	{(VAR0162 = 9) * (VAR0373 \ 2):
+		%0:
+	}
+	!VAR0045 : VAR0145!
+	!VAR0046 : VAR0146!
+	!VAR0516 : 1!
+	%#M.ADV:
+	!VAR0043 : VAR0045!
+	!VAR0044 : VAR0046!
+	!VAR0516 : 10!
+	%#M.ADV:
+	!VAR0548 : 0!
+	ZH 1:
+	MS 10, "Monsters":
+	!VAR0713 : 1032!
+	{VAR0162 = 1:
+		ZH 1:
+		MS 8, "Thieves’ Hideout":
+		!VAR0713 : 1008!
+	}
+	{VAR0162 = 2:
+		ZH 1:
+		MS 8, "Monsters’ Cave":
+	}
+	{VAR0162 = 3:
+		ZH 1:
+		MS 8, "Thieves’ Cave":
+	}
+	{VAR0162 = 4:
+		ZH 1:
+		MS 8, "Snow Dungeon":
+	}
+	{VAR0162 = 5:
+		ZH 1:
+		MS 8, "Ho Raga’s Tower":
+		!VAR0713 : 1017!
+		{VAR0147 = 0:
+			!VAR0520 : 2!
+			%#Gﾎﾗｶﾞ.ADV:
+		}
+	}
+	{VAR0162 = 6:
+		ZH 1:
+		MS 8, "Natural Foe’s Dungeon":
+	}
+	{VAR0162 = 7:
+		ZH 1:
+		MS 8, "Green Village":
+		!VAR0713 : 1029!
+	}
+	{VAR0162 = 8:
+		ZH 1:
+		MS 8, "Summit’s Mouth":
+	}
+	{VAR0162 = 9:
+		ZH 1:
+		MS 9, "Piar’s Ship":
+		!VAR0713 : 1037!
+	}
+	{VAR0162 = 10:
+		ZH 1:
+		MS 8, "Uncurse Dungeon":
+	}
+	{VAR0162 = 11:
+		ZH 1:
+		MS 8, "Rising Dragon Mountain":
+		!VAR0713 : 1025!
+	}
+	{VAR0162 = 12:
+		ZH 1:
+		MS 8, "Kalar Forest":
+	}
+	{VAR0162 = 13:
+		ZH 1:
+		MS 8, "Peach Blossom Spring":
+	}
+	{VAR0162 = 14:
+		ZH 1:
+		MS 8, "Orochi’s Pit":
+	}
+	{VAR0162 = 15:
+		ZH 1:
+		MS 8, "Isolated Shrine Island":
+	}
+	{VAR0162 = 16:
+		ZH 1:
+		MS 8, "Giant Battleship":
+		!VAR0713 : 1016!
+	}
+	{VAR0162 = 17:
+		ZH 1:
+		MS 8, "Mt. Salen":
+	}
+	{VAR0162 = 18:
+		ZH 1:
+		MS 8, "Stone-Cutter Dungeon":
+	}
+	{VAR0162 = 19:
+		ZH 1:
+		MS 8, "Dungeon of Lies":
+	}
+	{VAR0162 = 20:
+		ZH 1:
+		MS 8, "Mos’s Dungeon":
+	}
+	{VAR0162 = 21:
+		ZH 1:
+		MS 8, "Maid Graveyard":
+	}
+	{VAR0162 = 22:
+		ZH 1:
+		MS 8, "Rex’s Dungeon":
+	}
+	{VAR0162 = 23:
+		ZH 1:
+		MS 8, "Holy Gal’s Dungeon":
+	}
+	{VAR0162 = 24:
+		ZH 1:
+		MS 8, "Dangerous Hole":
+	}
+	{VAR0162 = 25:
+		ZH 1:
+		MS 8, "Titi Lake":
+		{VAR0666 > 1:
+			ZH 1:
+			MS 8, "Haniwa Temple":
+		}
+	}
+	{VAR0162 = 26:
+		ZH 1:
+		MS 8, "Hyper Building":
+	}
+	{VAR0162 = 30:
+		ZH 1:
+		MS 8, "Ancient Ruins":
+	}
+	{(VAR0485 = 1) * (VAR0162 = 10):
+		!VAR0520 : 32!
+		%#Gｶﾌｪ.ADV:
+		!VAR0154 : 1!
+		MM 1, VAR0198 + (VAR0154 - 1) * 3:
+		!VAR0569 : 1!
+		!VAR0570 : 0!
+		!VAR0571 : 0!
+		!VAR0572 : 0!
+		@L_00a2c:
+	}
+	{VAR0485 = 1:
+		!VAR0520 : 31!
+		%#Gｶﾌｪ.ADV:
+		%0:
+	}
+*L_005b6:
+	{VAR0162 = 1:
+		!VAR0548 : 1!
+		@L_03cbd:
+	}
+	{VAR0518 = 0:
+		%0:
+	}
+	{VAR0162 = 1:
+		!VAR0548 : 1!
+		%0:
+	}
+	{VAR0518 = 0:
+		%0:
+	}
+	{VAR0162 = 3:
+		!VAR0520 : 1!
+		%#Gﾌﾞﾘﾃｨ.ADV:
+		%0:
+	}
+	{VAR0162 = 7:
+		!VAR0520 : 1!
+		%#Gｷｬﾛﾘ.ADV:
+		%0:
+	}
+	{VAR0162 = 9:
+		{VAR0373 \ 2:
+			%0:
+		}
+		!VAR0520 : 7!
+		%#Gﾊﾟｲｱｰﾙ.ADV:
+		%0:
+	}
+	{VAR0162 = 12:
+		!VAR0520 : 1!
+		%#Gｶﾗｰ.ADV:
+		%0:
+	}
+	{VAR0162 = 13:
+		!VAR0520 : 1!
+		%#Gﾄｳｹﾞﾝ.ADV:
+		%0:
+	}
+	{(VAR0162 = 15) * (VAR0343 = 0):
+		!VAR0520 : 2!
+		%#G1.ADV:
+	}
+	{(VAR0162 = 15) * (VAR0539 \ 1):
+		!VAR0520 : 3!
+		%#G1.ADV:
+		%0:
+	}
+	{(VAR0162 = 15) * (VAR0539 = 1):
+		!VAR0520 : 4!
+		%#G1.ADV:
+	}
+	{(VAR0162 = 16) * (VAR0342 = 0):
+		!VAR0520 : 10!
+		%#G1.ADV:
+	}
+	{VAR0162 = 17:
+		!VAR0520 : 15!
+		%#G1.ADV:
+		%0:
+	}
+	!VAR0154 : 1!
+	{(VAR0162 = 30) * (VAR0492 > 1) * (VAR0487 = 0) * ((VAR0101 = 1) + (VAR0101 = 2)):
+		\L_04ddc:
+		!VAR0516 : 0!
+		%#M.ADV:
+	}
+*L_0076a:
+	!VAR0516 : VAR0713!
+	\L_0766d:
+	\L_075a9:
+	ZH 1:
+	'［'
+	X 8:
+	'］'
+	R
+	R
+	{VAR0147 = 0:
+		ZH 1:
+		'（Unsearched）'
+	}
+	{VAR0147 = 1:
+		ZH 1:
+		'（Search in Progress）'
+	}
+	{VAR0147 = 2:
+		ZH 1:
+		'（Fully Searched）'
+	}
+*L_007df:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_007df:
+	}
+	\L_0755b:
+	ZH 1:
+	$L_008d1$
+	'Start Search'
+	$
+	{(VAR0486 = 1) * (VAR0480 = 0):
+		ZH 1:
+		$L_072b8$
+		'Bring Merim'
+		$
+	}
+	{(VAR0486 = 1) * (VAR0480 = 1):
+		ZH 1:
+		$L_07344$
+		'Leave Merim'
+		$
+	}
+	{(VAR0162 = 10) * (VAR0147 = 2) * (VAR0401 = 7):
+		ZH 1:
+		$L_0712e$
+		'Bring Pink Cow'
+		$
+	}
+	{(VAR0162 = 30) * (VAR0487 \ 0):
+		ZH 1:
+		$L_05437$
+		'God’s Door'
+		$
+	}
+	ZH 1:
+	$L_008bf$
+	'Return'
+	$
+	]
+	\L_07566:
+	@L_008bf:
+*L_008bf:
+	!VAR0548 : 1!
+	\L_07697:
+	\L_0767b:
+	%0:
+*L_008d1:
+	\L_07697:
+	!VAR0516 : 1!
+	\L_075c5:
+	\L_07571:
+	ZH 1:
+	'Alright, time to search.'
+	R
+	'Let’s find some treasure!'
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : 6!
+	\L_07635:
+	{(VAR0162 = 4) + (VAR0162 = 5) + (VAR0162 = 16):
+		\L_06fe4:
+	}
+	\L_075e1:
+	ZH 1:
+	'Yes, King Rance...'
+	R
+	'Then please select the unit'
+	R
+	'you’d like to search the'
+	R
+	'dungeon.'
+	\L_076a4:
+	\L_07697:
+	!VAR0021 : 1!
+	!VAR0022 : 3!
+	%#Sﾌﾞﾀｲ.ADV:
+	!VAR0516 : 0!
+	%#M.ADV:
+	{VAR0569 = 0:
+		\L_07643:
+		@L_005b6:
+	}
+	!VAR0154 : VAR0569!
+	MM 1, VAR0198 + (VAR0154 - 1) * 3:
+	{VAR0154 = 29:
+		!VAR0102 : 1!
+		\L_06f37:
+		@L_005b6:
+	}
+	{VAR0154 = 30:
+		!VAR0102 : 1!
+		\L_06e2e:
+		@L_005b6:
+	}
+	{VAR0154 = 32:
+		!VAR0102 : 1!
+		\L_06d69:
+		@L_005b6:
+	}
+	{VAR0154 = 41:
+		!VAR0102 : 1!
+		\L_06aa0:
+		@L_005b6:
+	}
+	{VAR0154 = 42:
+		!VAR0102 : 1!
+		\L_06bf2:
+		@L_005b6:
+	}
+*L_00a2c:
+	!VAR0160 : 11!
+	{((VAR0162 = 4) + (VAR0162 = 16)) * (VAR0150 = 0):
+		\L_075a9:
+		ZH 1:
+		X 1:
+		'mars the great’s unit was'
+		R
+		'assailed by a blizzard on the'
+		R
+		'way.'
+		\L_076a4:
+		ZH 1:
+		'Of the '
+		H 0, VAR0074:
+		ZH 1:
+		' in the army, '
+		Y 4, VAR0074:
+		!VAR0074 : VAR0074 - VAR0000!
+		H 0, VAR0000:
+		ZH 1:
+		R
+		'were injured in the disaster.'
+		\L_076a4:
+		\L_07697:
+	}
+	{(VAR0162 = 5) * (VAR0150 = 0):
+		\L_075a9:
+		ZH 1:
+		X 1:
+		'’s unit was'
+		R
+		'assailed by a blizzard on the'
+		R
+		'way.'
+		\L_076a4:
+		Y 4, VAR0074:
+		!VAR0000 : VAR0074 / 2 + VAR0000!
+		{VAR0000 > VAR0074:
+			!VAR0000 : VAR0074!
+		}
+		!VAR0074 : VAR0074 - VAR0000!
+		H 0, VAR0000:
+		ZH 1:
+		' people were lost.'
+		\L_076a4:
+		\L_07697:
+	}
+	!VAR0516 : 1032!
+	{VAR0162 = 5:
+		!VAR0516 : 1017!
+	}
+	{VAR0162 = 16:
+		!VAR0516 : 1016!
+	}
+	\L_0766d:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	'’s unit arrived at'
+	R
+	X 8:
+	'.'
+	\L_076a4:
+	\L_07697:
+	{VAR0162 = 5:
+		!VAR0520 : 1!
+		%#Gﾎﾗｶﾞ.ADV:
+		%0:
+	}
+	!VAR0160 : 45!
+	{(VAR0162 = 16) * (VAR0150 = 0) * (VAR0342 = 1):
+		!VAR0520 : 11!
+		%#G1.ADV:
+		%0:
+	}
+	{(VAR0162 = 16) * (VAR0150 = 100) * (VAR0342 = 1):
+		!VAR0520 : 12!
+		%#G1.ADV:
+	}
+	{(VAR0162 = 25) * ((VAR0666 = 0) + (VAR0666 = 1)):
+		!VAR0520 : 17!
+		%#G1.ADV:
+		{(VAR0666 = 0) + (VAR0666 = 1):
+			%0:
+		}
+	}
+	\L_076cb:
+	{VAR0713 = 1032:
+		!VAR0713 : 1031!
+	}
+	{VAR0162 = 11:
+		!VAR0713 : 1025!
+	}
+	{(VAR0162 = 16) + (VAR0162 = 26):
+		!VAR0713 : 1056!
+	}
+	EC 0:
+	!VAR0516 : VAR0713!
+	\L_0766d:
+	!VAR0481 : 1!
+	!VAR0530 : 83!
+	!VAR0531 : 0!
+	!VAR0532 : 0!
+	!VAR0533 : 0!
+	{VAR0147 = 0:
+		!VAR0147 : 1!
+	}
+	{VAR0162 = 2:
+		!VAR0482 : 14!
+		!VAR0483 : 1!
+		!VAR0580 : 80!
+		!VAR0714 : 83!
+		!VAR0484 : 40!
+	}
+	{VAR0162 = 4:
+		!VAR0482 : 12!
+		!VAR0483 : 1!
+		!VAR0580 : 100!
+		!VAR0714 : 83!
+		!VAR0484 : 200!
+	}
+	{VAR0162 = 6:
+		!VAR0482 : 25!
+		!VAR0483 : 1!
+		!VAR0580 : 150!
+		!VAR0714 : 84!
+		!VAR0484 : 300!
+	}
+	{VAR0162 = 8:
+		!VAR0482 : 30!
+		!VAR0483 : 1!
+		!VAR0580 : 200!
+		!VAR0714 : 85!
+		!VAR0484 : 300!
+	}
+	{VAR0162 = 10:
+		!VAR0482 : 28!
+		!VAR0483 : 1!
+		!VAR0580 : 400!
+		!VAR0714 : 83!
+		!VAR0484 : 600!
+	}
+	{VAR0162 = 11:
+		!VAR0482 : 30!
+		!VAR0483 : 2!
+		!VAR0580 : 500!
+		!VAR0714 : 83!
+		!VAR0484 : 300!
+		!VAR0713 : 1025!
+	}
+	{VAR0162 = 14:
+		!VAR0482 : 38!
+		!VAR0483 : 1!
+		!VAR0580 : 400!
+		!VAR0714 : 83!
+		!VAR0484 : 600!
+	}
+	{VAR0162 = 15:
+		!VAR0482 : 38!
+		!VAR0483 : 1!
+		!VAR0580 : 270!
+		!VAR0714 : 84!
+		!VAR0484 : 320!
+	}
+	{VAR0162 = 16:
+		!VAR0482 : 20!
+		!VAR0483 : 1!
+		!VAR0580 : 500!
+		!VAR0714 : 100!
+		!VAR0484 : 800!
+		!VAR0520 : 13!
+		%#G1.ADV:
+	}
+	{VAR0162 = 18:
+		!VAR0482 : 27!
+		!VAR0483 : 1!
+		!VAR0580 : 1000!
+		!VAR0714 : 83!
+		!VAR0484 : 1000!
+	}
+	{VAR0162 = 19:
+		!VAR0482 : 27!
+		!VAR0483 : 1!
+		!VAR0580 : 1000!
+		!VAR0714 : 83!
+		!VAR0484 : 1000!
+	}
+	{VAR0162 = 20:
+		!VAR0482 : 50!
+		!VAR0483 : 1!
+		!VAR0580 : 1000!
+		!VAR0714 : 83!
+		!VAR0484 : 1000!
+	}
+	{VAR0162 = 21:
+		!VAR0482 : 50!
+		!VAR0483 : 1!
+		!VAR0580 : 1000!
+		!VAR0714 : 85!
+		!VAR0484 : 1000!
+	}
+	{VAR0162 = 22:
+		!VAR0482 : 50!
+		!VAR0483 : 1!
+		!VAR0580 : 1000!
+		!VAR0714 : 83!
+		!VAR0484 : 1000!
+	}
+	{VAR0162 = 23:
+		!VAR0482 : 76!
+		!VAR0483 : 1!
+		!VAR0580 : 500!
+		!VAR0714 : 85!
+		!VAR0484 : 350!
+	}
+	{VAR0162 = 24:
+		!VAR0482 : 50!
+		!VAR0483 : 1!
+		!VAR0580 : 750!
+		!VAR0714 : 84!
+		!VAR0484 : 380!
+	}
+	{VAR0162 = 25:
+		!VAR0482 : 66!
+		!VAR0483 : 1!
+		!VAR0580 : 600!
+		!VAR0714 : 100!
+		!VAR0484 : 1000!
+	}
+	{VAR0162 = 26:
+		!VAR0482 : 201!
+		!VAR0483 : 2!
+		!VAR0580 : 600!
+		!VAR0714 : 83!
+		!VAR0484 : 100!
+	}
+	{VAR0162 = 30:
+		!VAR0482 : 1000!
+		!VAR0483 : 1!
+		!VAR0580 : 600!
+		!VAR0714 : 83!
+		!VAR0484 : 250!
+	}
+	\L_074d0:
+	{VAR0071 = 1:
+		SS 21:
+	}
+	{(VAR0569 = 1) * (VAR0427 = 3) * (VAR0162 = 23):
+		!VAR0520 : 2!
+		\L_076be:
+		%#G2.ADV:
+		\L_076cb:
+		EC 0:
+		!VAR0516 : VAR0713!
+		\L_0766d:
+	}
+	{VAR0148 = 0:
+		@L_01137:
+	}
+	{(VAR0057 = 1) * (VAR0162 = 30):
+		!VAR0148 : 980!
+	}
+	\L_075a9:
+	ZH 1:
+	'The previous search of this'
+	R
+	'dungeon ended at floor '
+	H 0, VAR0148:
+	ZH 1:
+	'.'
+	R
+	\L_076a4:
+	ZH 1:
+	'Would you like to start from'
+	R
+	'there?'
+*L_010d5:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_010d5:
+	}
+	ZH 1:
+	$L_01127$
+	H 0, VAR0148:
+	'F On'
+	$
+	R
+	$L_0111d$
+	'From the Start'
+	$
+	]
+	@L_0111d:
+*L_0111d:
+	\L_07697:
+	@L_01137:
+*L_01127:
+	!VAR0481 : VAR0148!
+	\L_07697:
+	@L_01137:
+*L_01137:
+	EC 0:
+	!VAR0516 : VAR0713!
+	\L_0766d:
+	\L_075a9:
+	ZH 1:
+	X 8:
+	R
+	{VAR0483 = 1:
+		ZH 1:
+		'　　'
+		H 0, VAR0481:
+		ZH 1:
+		'F'
+	}
+	{VAR0483 = 2:
+		ZH 1:
+		'　　'
+		H 0, VAR0481:
+		ZH 1:
+		'F'
+	}
+	ZH 1:
+	R
+	X 1:
+	' Unit'
+	R
+	'　（'
+	H 0, VAR0074:
+	ZH 1:
+	'）'
+	{(VAR0162 = 2) * (VAR0481 = 14) * (VAR0147 = 1):
+		\L_02528:
+		!VAR0147 : 2!
+		@L_0177d:
+	}
+	{(VAR0162 = 4) * (VAR0481 = 12) * (VAR0147 = 1):
+		\L_025bd:
+		!VAR0147 : 2!
+		@L_0177d:
+	}
+	{(VAR0162 = 6) * (VAR0481 = 25) * (VAR0147 = 1):
+		\L_027f5:
+		!VAR0147 : 2!
+		@L_0177d:
+	}
+	!VAR0160 : 42!
+	{(VAR0162 = 8) * (VAR0481 = 20) * (VAR0150 = 0):
+		\L_02883:
+		@L_0177d:
+	}
+	{(VAR0162 = 8) * (VAR0481 = 30) * (VAR0335 < 6):
+		!VAR0520 : 3!
+		%#Gｻｲｾﾞﾙ.ADV:
+		@L_0177d:
+	}
+	{(VAR0162 = 10) * (VAR0481 = 27) * (VAR0480 = 1):
+		!VAR0520 : 4!
+		%#Gﾒﾘﾑ.ADV:
+		@L_0177d:
+	}
+	{(VAR0162 = 10) * (VAR0481 = 28):
+		\L_02e29:
+		!VAR0147 : 2!
+		@L_0177d:
+	}
+	{(VAR0162 = 11) * (VAR0481 = 30):
+		\L_02f97:
+		!VAR0147 : 2!
+		@L_0177d:
+	}
+	{(VAR0162 = 14) * (VAR0481 = 38) * (VAR0663 = 9) * (VAR0664 = 1):
+		\L_023da:
+		{VAR0102 = 0:
+			\L_076be:
+			!VAR0516 : 0!
+			%#M.ADV:
+			%0:
+		}
+		@L_0177d:
+	}
+	{(VAR0162 = 14) * (VAR0481 = 20) * (VAR0147 = 1):
+		\L_02da1:
+		!VAR0147 : 2!
+		@L_0177d:
+	}
+	{(VAR0162 = 15) * (VAR0481 = 4) * (VAR0343 = 1):
+		!VAR0520 : 5!
+		%#G1.ADV:
+		@L_0177d:
+	}
+	{(VAR0162 = 15) * (VAR0481 = 38):
+		!VAR0520 : 6!
+		%#G1.ADV:
+		@L_0177d:
+	}
+	{(VAR0162 = 16) * (VAR0481 = 20):
+		!VAR0520 : 14!
+		%#G1.ADV:
+		@L_018cd:
+	}
+	{(VAR0162 = 18) * (VAR0481 = 27) * (VAR0147 = 1):
+		\L_02abb:
+		!VAR0147 : 2!
+		@L_0177d:
+	}
+	{(VAR0162 = 19) * (VAR0481 = 25) * (VAR0147 = 1):
+		\L_02b46:
+		!VAR0147 : 2!
+		@L_0177d:
+	}
+	{(VAR0162 = 23) * (VAR0481 = 33):
+		\L_02bce:
+		@L_0177d:
+	}
+	{(VAR0162 = 23) * (VAR0481 = 76) * (VAR0147 = 1):
+		\L_02c03:
+		!VAR0147 : 2!
+		@L_0177d:
+	}
+	{(VAR0162 = 24) * (VAR0481 = 50) * (VAR0147 = 1):
+		\L_02c8b:
+		!VAR0147 : 2!
+		@L_0177d:
+	}
+	!VAR0160 : 28!
+	{(VAR0162 = 24) * (VAR0481 = 10) * (VAR0150 = 0) * (VAR0698 = 0):
+		\L_02d13:
+		@L_0177d:
+	}
+	{(VAR0162 = 22) * (VAR0481 = 50) * ((VAR0733 = 2) + (VAR0733 = 3)):
+		!VAR0520 : 4!
+		%#Gｹｲﾌﾞﾜﾝ.ADV:
+		@L_0177d:
+	}
+	!VAR0160 : 38!
+	{(VAR0162 = 20) * (VAR0481 = 5) * (VAR0150 = 0):
+		\L_026d9:
+		@L_0177d:
+	}
+	!VAR0160 : 39!
+	{(VAR0162 = 21) * (VAR0481 = 16) * (VAR0150 = 0):
+		\L_02767:
+		@L_0177d:
+	}
+	{(VAR0162 = 20) * (VAR0481 = 50) * ((VAR0734 = 2) + (VAR0734 = 3)):
+		!VAR0520 : 4!
+		%#Gｹｲﾌﾞﾆｬﾝ.ADV:
+		@L_0177d:
+	}
+	{(VAR0162 = 25) * (VAR0481 = 2):
+		!VAR0520 : 18!
+		%#G1.ADV:
+		@L_0177d:
+	}
+	!VAR0160 : 30!
+	{(VAR0162 = 25) * (VAR0481 = 8) * (VAR0150 = 0):
+		\L_02911:
+		@L_0177d:
+	}
+	{(VAR0162 = 25) * (VAR0481 = 66) * (VAR0666 < 7):
+		!VAR0520 : 1!
+		%#Gﾊﾆｰ.ADV:
+		!VAR0147 : 2!
+		@L_0177d:
+	}
+	{(VAR0162 = 26) * (VAR0481 = 201) * (VAR0147 = 1):
+		\L_0264b:
+		!VAR0147 : 2!
+		@L_0177d:
+	}
+	!VAR0160 : 48!
+	{(VAR0162 = 30) * (VAR0481 = 20) * (VAR0150 = 0):
+		\L_0299f:
+		@L_0177d:
+	}
+	!VAR0160 : 36!
+	{(VAR0162 = 30) * (VAR0481 = 50) * (VAR0150 = 0):
+		\L_02a2d:
+		@L_0177d:
+	}
+	{(VAR0162 = 30) * (VAR0481 > 200):
+		!VAR0714 : 84!
+		!VAR0484 : 250!
+	}
+	{(VAR0162 = 30) * (VAR0481 > 500):
+		!VAR0714 : 85!
+		!VAR0484 : 250!
+	}
+*L_016b4:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_016b4:
+	}
+	!VAR0148 : VAR0481!
+	{(VAR0483 = 1) * (VAR0481 \ 1):
+		ZH 1:
+		$L_01c0a$
+		'Ascend'
+		$
+	}
+	{(VAR0483 = 2) * (VAR0481 < VAR0482):
+		ZH 1:
+		$L_01982$
+		'Ascend'
+		$
+	}
+	{(VAR0483 = 2) * (VAR0481 \ 1):
+		ZH 1:
+		$L_01c0a$
+		'Descend'
+		$
+	}
+	{(VAR0483 = 1) * (VAR0481 < VAR0482):
+		ZH 1:
+		$L_01982$
+		'Descend'
+		$
+	}
+	ZH 1:
+	$L_0181c$
+	'Retreat'
+	$
+	]
+	@L_016b4:
+*L_0177d:
+	\L_075a9:
+	ZH 1:
+	X 8:
+	R
+	{VAR0483 = 1:
+		ZH 1:
+		'　　'
+		H 0, VAR0481:
+		ZH 1:
+		'F'
+	}
+	{VAR0483 = 2:
+		ZH 1:
+		'　　'
+		H 0, VAR0481:
+		ZH 1:
+		'F'
+	}
+	ZH 1:
+	R
+	X 1:
+	' Unit'
+	R
+	'　（'
+	H 0, VAR0074:
+	ZH 1:
+	'）'
+	@L_016b4:
+*L_0181c:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Are you finished searching?'
+*L_01830:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_01830:
+	}
+	ZH 1:
+	$L_018cd$
+	'Finish'
+	$
+	R
+	$L_018c3$
+	'Keep Going'
+	$
+	]
+	]
+	@L_018c3:
+	@L_018cd:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Will you go outside?'
+*L_0188a:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_0188a:
+	}
+	ZH 1:
+	$L_018cd$
+	'End Search'
+	$
+	R
+	$L_018c3$
+	'Keep Going'
+	$
+	]
+*L_018c3:
+	\L_07697:
+	@L_01137:
+*L_018cd:
+	\L_07697:
+	EC 0:
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : VAR0713!
+	\L_0766d:
+	\L_075a9:
+	ZH 1:
+	'Search of'
+	R
+	X 8:
+	' ended.'
+	\L_076a4:
+	\L_07697:
+	SS VAR0515:
+	\L_076be:
+	!VAR0516 : 0!
+	%#M.ADV:
+	{(VAR0154 = 13) * (VAR0560 = 11):
+		!VAR0520 : 4!
+		%#Gﾒﾙﾌｪｲｽ.ADV:
+	}
+	!VAR0485 : 0!
+	{VAR0712 = 3:
+		!VAR0520 : 2!
+		%#Gﾐﾙ.ADV:
+	}
+	{(VAR0162 = 30) * (VAR0321 = 0) * (VAR0480 = 1):
+		!VAR0520 : 3!
+		%#Gﾙｰﾍﾞﾗﾝ.ADV:
+	}
+	%0:
+*L_01982:
+	\L_07697:
+	!VAR0481 : VAR0481 + 1!
+	\L_074d0:
+	\L_075a9:
+	{VAR0483 = 1:
+		ZH 1:
+		'Slowly progressing down.'
+		\L_076a4:
+	}
+	{VAR0483 = 2:
+		ZH 1:
+		'Slowly going up.'
+		\L_076a4:
+	}
+	\L_07506:
+	\L_07697:
+	Y 4, 4:
+	{VAR0101 = 10:
+		Y 4, 10:
+	}
+	{(VAR0162 = 6) * (VAR0481 = 10):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 11) * (VAR0481 = 5) * (VAR0299 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 11) * (VAR0481 = 10) * (VAR0300 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 11) * (VAR0481 = 15) * (VAR0301 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 11) * (VAR0481 = 20) * (VAR0302 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 11) * (VAR0481 = 25) * (VAR0303 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 30) * (VAR0481 = 1000) * (VAR0715 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 8) * (VAR0481 = 10) * (VAR0783 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 2) * (VAR0481 = 5) * (VAR0784 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 10) * (VAR0481 = 10) * (VAR0785 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 14) * (VAR0481 = 12) * (VAR0786 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 30) * (VAR0481 = 100) * (VAR0787 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 20) * (VAR0481 = 10) * (VAR0790 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 21) * (VAR0481 = 15) * (VAR0791 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 22) * (VAR0481 = 13) * (VAR0792 = 0):
+		!VAR0000 : 1!
+	}
+	{VAR0000 = 1:
+		\L_01e67:
+		{VAR0102 = 0:
+			\L_076be:
+			!VAR0516 : 0!
+			%#M.ADV:
+			%0:
+		}
+	}
+	{VAR0000 = 2:
+		Y 4, 10:
+		{(VAR0480 = 1) * (VAR0000 = 1):
+			\L_06153:
+		}
+	}
+	@L_01137:
+*L_01c0a:
+	\L_07697:
+	!VAR0481 : VAR0481 - 1!
+	\L_074d0:
+	\L_075a9:
+	{VAR0483 = 1:
+		ZH 1:
+		'Slowly progressing up.'
+		\L_076a4:
+	}
+	{VAR0483 = 2:
+		ZH 1:
+		'Slowly going down.'
+		\L_076a4:
+	}
+	\L_07506:
+	\L_07697:
+	Y 4, 4:
+	{VAR0101 = 10:
+		Y 4, 10:
+	}
+	{(VAR0162 = 6) * (VAR0481 = 10):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 11) * (VAR0481 = 5) * (VAR0299 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 11) * (VAR0481 = 10) * (VAR0300 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 11) * (VAR0481 = 15) * (VAR0301 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 11) * (VAR0481 = 20) * (VAR0302 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 11) * (VAR0481 = 25) * (VAR0303 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 30) * (VAR0481 = 1000) * (VAR0715 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 8) * (VAR0481 = 10) * (VAR0783 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 2) * (VAR0481 = 5) * (VAR0784 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 10) * (VAR0481 = 10) * (VAR0785 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 14) * (VAR0481 = 12) * (VAR0786 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 30) * (VAR0481 = 100) * (VAR0787 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 20) * (VAR0481 = 10) * (VAR0790 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 21) * (VAR0481 = 15) * (VAR0791 = 0):
+		!VAR0000 : 1!
+	}
+	{(VAR0162 = 22) * (VAR0481 = 13) * (VAR0792 = 0):
+		!VAR0000 : 1!
+	}
+	{VAR0000 = 1:
+		\L_01e67:
+		{VAR0102 = 0:
+			\L_076be:
+			!VAR0516 : 0!
+			%#M.ADV:
+			%0:
+		}
+	}
+	@L_01137:
+*L_01e67:
+	!VAR0530 : VAR0714!
+	\L_075a9:
+	ZH 1:
+	X 8:
+	R
+	{VAR0483 = 1:
+		ZH 1:
+		'　　'
+		H 0, VAR0481:
+		ZH 1:
+		'F'
+	}
+	{VAR0483 = 2:
+		ZH 1:
+		'　　'
+		H 0, VAR0481:
+		ZH 1:
+		'F'
+	}
+	ZH 1:
+	R
+	R
+	'　　Monsters appeared.'
+	\L_076a4:
+	\L_07697:
+	{VAR0162 = 25:
+		\L_04ae3:
+		{VAR0481 > 25:
+			\L_04ba0:
+		}
+		{VAR0481 > 40:
+			\L_04c61:
+		}
+	}
+	!VAR0156 : VAR0530!
+	Y 4, VAR0484:
+	!VAR0106 : VAR0484 / 3 + VAR0000!
+	!VAR0116 : VAR0117!
+*L_01f47:
+	{(VAR0162 = 6) * (VAR0481 = 10):
+		!VAR0530 : 100!
+		\L_03f14:
+		SS 18:
+	}
+	{(VAR0162 = 11) * (VAR0481 = 5) * (VAR0299 = 0):
+		!VAR0530 : 100!
+		\L_04727:
+		SS 18:
+	}
+	{(VAR0162 = 11) * (VAR0481 = 10) * (VAR0300 = 0):
+		!VAR0530 : 100!
+		\L_047e7:
+		SS 18:
+	}
+	{(VAR0162 = 11) * (VAR0481 = 15) * (VAR0301 = 0):
+		!VAR0530 : 100!
+		\L_048a4:
+		SS 18:
+	}
+	{(VAR0162 = 11) * (VAR0481 = 20) * (VAR0302 = 0):
+		!VAR0530 : 100!
+		\L_04964:
+		SS 18:
+	}
+	{(VAR0162 = 11) * (VAR0481 = 25) * (VAR0303 = 0):
+		!VAR0530 : 100!
+		\L_04a23:
+		SS 18:
+	}
+	{(VAR0162 = 30) * (VAR0481 = 1000) * (VAR0715 = 0):
+		!VAR0530 : 100!
+		\L_0466c:
+		SS 18:
+	}
+	{(VAR0162 = 8) * (VAR0481 = 10) * (VAR0783 = 0):
+		!VAR0530 : 100!
+		\L_042b5:
+		SS 18:
+	}
+	{(VAR0162 = 2) * (VAR0481 = 5) * (VAR0784 = 0):
+		!VAR0530 : 100!
+		\L_04376:
+		SS 18:
+	}
+	{(VAR0162 = 10) * (VAR0481 = 10) * (VAR0785 = 0):
+		!VAR0530 : 100!
+		\L_0442f:
+		SS 18:
+	}
+	{(VAR0162 = 14) * (VAR0481 = 12) * (VAR0786 = 0):
+		!VAR0530 : 100!
+		\L_044ea:
+		SS 18:
+	}
+	{(VAR0162 = 30) * (VAR0481 = 100) * (VAR0787 = 0):
+		!VAR0530 : 100!
+		\L_045a7:
+		SS 18:
+	}
+	{(VAR0162 = 20) * (VAR0481 = 10) * (VAR0790 = 0):
+		!VAR0530 : 100!
+		\L_0407d:
+		SS 18:
+	}
+	{(VAR0162 = 21) * (VAR0481 = 15) * (VAR0791 = 0):
+		!VAR0530 : 100!
+		\L_04139:
+		SS 18:
+	}
+	{(VAR0162 = 22) * (VAR0481 = 13) * (VAR0792 = 0):
+		!VAR0530 : 100!
+		\L_041f4:
+		SS 18:
+	}
+	!VAR0529 : 1!
+	!VAR0584 : 0!
+	!VAR0070 : 910!
+	{VAR0162 = 11:
+		!VAR0070 : 912!
+	}
+	{(VAR0162 = 16) + (VAR0162 = 26):
+		!VAR0070 : 914!
+	}
+	!VAR0581 : 3!
+	%#FIGT.ADV:
+	SS 21:
+	!VAR0070 : 900!
+	EC 0:
+	!VAR0516 : VAR0713!
+	\L_0766d:
+	%#死亡捕獲.ADV:
+	!VAR0581 : 0!
+	!VAR0322 : 0!
+	!VAR0154 : VAR0569!
+	{VAR0102 = 0:
+		{VAR0480 = 1:
+			!VAR0486 : 3!
+			!VAR0480 : 2!
+		}
+		\0:
+	}
+	!VAR0156 : 100!
+	{(VAR0120 = 1137) * (VAR0715 = 1):
+		!VAR0715 : 2!
+		\L_075a9:
+		ZH 1:
+		'A treasure was found behind'
+		R
+		'Gunagan’s corpse.'
+		\L_076a4:
+		ZH 1:
+		'What kind of painting is'
+		R
+		'this...?'
+		\L_076a4:
+		\L_07697:
+		EC 0:
+		G 806:
+		G 862:
+		\L_07651:
+		ZH 1:
+		'............'
+		\L_076a4:
+		ZH 1:
+		'This is quite a painting...'
+		R
+		'Gunagan must have seen something in it...'
+		\L_076a4:
+		\L_07697:
+		EC 0:
+		!VAR0516 : VAR0713!
+		\L_0766d:
+		\L_075a9:
+		ZH 1:
+		'　＜　toss　＞'
+		R
+		'Threw away Gunagan’s treasure.'
+		\L_076a4:
+		\L_07697:
+	}
+	{VAR0480 = 1:
+		Y 4, 20:
+		!VAR0690 : VAR0000!
+		{VAR0690 = 1:
+			!VAR0480 : 2!
+			{VAR0552 = 1:
+				!VAR0486 : 2!
+				\L_075a9:
+				ZH 1:
+				'During the fight, Merim took a'
+				R
+				'serious injury. She’s now in'
+				R
+				'critical condition.'
+				\L_076a4:
+				\L_07697:
+			}
+			{VAR0552 \ 1:
+				!VAR0486 : 3!
+				\L_075a9:
+				ZH 1:
+				'Merim, not knowing how to'
+				R
+				'fight, was tragically bitten'
+				R
+				'by a monster and killed during'
+				R
+				'the battle.'
+				\L_076a4:
+				\L_07697:
+			}
+		}
+	}
+	{(VAR0162 = 6) * (VAR0530 = 100) * (VAR0569 = 1) * ((VAR0564 = 5) + (VAR0564 = 6)):
+		!VAR0520 : 4!
+		%#Gｱｰﾔ.ADV:
+	}
+	\0:
+*L_023da:
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'　　＜rumblerumble＞'
+	R
+	'Heard what sounded like a'
+	R
+	'great tremor.'
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_07571:
+	ZH 1:
+	'............'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'　　＜rumblerumble＞'
+	\L_076a4:
+	ZH 1:
+	'The sound kept getting closer.'
+	\L_076a4:
+	ZH 1:
+	'Then, a giant being appeared.'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Human, you must be here to'
+	R
+	'bring my sacrifice, as'
+	R
+	'promised.'
+	\L_076a4:
+	ZH 1:
+	'Mm... Am I wrong...?'
+	\L_076a4:
+	ZH 1:
+	'I see, you’ve recklessly'
+	R
+	'chosen to fight against me...'
+	R
+	'Foolish. Quite foolish...'
+	\L_076a4:
+	ZH 1:
+	'Fine, then die.'
+	R
+	'Become food for the earth.'
+	\L_076a4:
+	\L_07697:
+	\L_075d3:
+	!VAR0530 : 100!
+	\L_03fc8:
+	\L_01f47:
+	{VAR0102 \ 0:
+		{VAR0154 = 1:
+			!VAR0520 : 5!
+			%#Gﾌｳｶ.ADV:
+		}
+		{VAR0154 \ 1:
+			!VAR0520 : 6!
+			%#Gﾌｳｶ.ADV:
+		}
+	}
+	\0:
+*L_02528:
+	!VAR0154 : VAR0569!
+	!VAR0160 : 9!
+	!VAR0150 : 100!
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' found a'
+	R
+	'treasure chest in the dungeon.'
+	\L_076a4:
+	\L_07514:
+	ZH 1:
+	'A ［Demon Overlord’s Pot］ was'
+	R
+	'found in the chest.'
+	\L_076a4:
+	ZH 1:
+	'The ［Demon Overlord’s Pot］'
+	R
+	'was added to Leazas’s'
+	R
+	'treasures.'
+	\L_076a4:
+	\L_0753a:
+	\L_07697:
+	\L_075d3:
+	\0:
+*L_025bd:
+	!VAR0154 : VAR0569!
+	!VAR0160 : 11!
+	!VAR0150 : 100!
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' found a'
+	R
+	'treasure chest in the dungeon.'
+	\L_076a4:
+	\L_07514:
+	ZH 1:
+	'A [Snow Charm] was found in'
+	R
+	'the chest.'
+	\L_076a4:
+	ZH 1:
+	'The [Snow Charm] was added to'
+	R
+	'Leazas’s treasures.'
+	\L_076a4:
+	\L_0753a:
+	\L_07697:
+	\L_075d3:
+	\0:
+*L_0264b:
+	!VAR0154 : VAR0569!
+	!VAR0160 : 23!
+	!VAR0150 : 100!
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' found a'
+	R
+	'treasure chest in the dungeon.'
+	\L_076a4:
+	\L_07514:
+	ZH 1:
+	'A [Wisdom Ring] was found in'
+	R
+	'the chest.'
+	\L_076a4:
+	ZH 1:
+	'The [Wisdom Ring] was added to'
+	R
+	'Leazas’s treasures.'
+	\L_076a4:
+	\L_0753a:
+	\L_07697:
+	\L_075d3:
+	\0:
+*L_026d9:
+	!VAR0154 : VAR0569!
+	!VAR0160 : 38!
+	!VAR0150 : 100!
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' found a'
+	R
+	'treasure chest in the dungeon.'
+	\L_076a4:
+	\L_07514:
+	ZH 1:
+	'A [Vevetar Mutant] was found'
+	R
+	'in the chest.'
+	\L_076a4:
+	ZH 1:
+	'The [Vevetar Mutant] was added'
+	R
+	'to Leazas’s treasures.'
+	\L_076a4:
+	\L_0753a:
+	\L_07697:
+	\L_075d3:
+	\0:
+*L_02767:
+	!VAR0154 : VAR0569!
+	!VAR0160 : 39!
+	!VAR0150 : 100!
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' found a'
+	R
+	'treasure chest in the dungeon.'
+	\L_076a4:
+	\L_07514:
+	ZH 1:
+	'A [Jugon] was found in the'
+	R
+	'chest.'
+	\L_076a4:
+	ZH 1:
+	'The [Jugon] was added to'
+	R
+	'Leazas’s treasures.'
+	\L_076a4:
+	\L_0753a:
+	\L_07697:
+	\L_075d3:
+	\0:
+*L_027f5:
+	!VAR0154 : VAR0569!
+	!VAR0160 : 41!
+	!VAR0150 : 100!
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' found a'
+	R
+	'treasure chest in the dungeon.'
+	\L_076a4:
+	\L_07514:
+	ZH 1:
+	'A [Hawaiian Sword] was found'
+	R
+	'in the chest.'
+	\L_076a4:
+	ZH 1:
+	'The [Hawaiian Sword] was added'
+	R
+	'to Leazas’s treasures.'
+	\L_076a4:
+	\L_0753a:
+	\L_07697:
+	\L_075d3:
+	\0:
+*L_02883:
+	!VAR0154 : VAR0569!
+	!VAR0160 : 42!
+	!VAR0150 : 100!
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' found a'
+	R
+	'treasure chest in the dungeon.'
+	\L_076a4:
+	\L_07514:
+	ZH 1:
+	'An [Aztec Armor] was found in'
+	R
+	'the chest.'
+	\L_076a4:
+	ZH 1:
+	'The [Aztec Armor] was added to'
+	R
+	'Leazas’s treasures.'
+	\L_076a4:
+	\L_0753a:
+	\L_07697:
+	\L_075d3:
+	\0:
+*L_02911:
+	!VAR0154 : VAR0569!
+	!VAR0160 : 30!
+	!VAR0150 : 100!
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' found a'
+	R
+	'treasure chest in the dungeon.'
+	\L_076a4:
+	\L_07514:
+	ZH 1:
+	'A [Space Shell] was found in'
+	R
+	'the chest.'
+	\L_076a4:
+	ZH 1:
+	'The [Space Shell] was added to'
+	R
+	'Leazas’s treasures.'
+	\L_076a4:
+	\L_0753a:
+	\L_07697:
+	\L_075d3:
+	\0:
+*L_0299f:
+	!VAR0154 : VAR0569!
+	!VAR0160 : 48!
+	!VAR0150 : 100!
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' found a'
+	R
+	'treasure chest in the dungeon.'
+	\L_076a4:
+	\L_07514:
+	ZH 1:
+	'A [Doping Drug] was found in'
+	R
+	'the chest.'
+	\L_076a4:
+	ZH 1:
+	'The [Doping Drug] was added to'
+	R
+	'Leazas’s treasures.'
+	\L_076a4:
+	\L_0753a:
+	\L_07697:
+	\L_075d3:
+	\0:
+*L_02a2d:
+	!VAR0154 : VAR0569!
+	!VAR0160 : 36!
+	!VAR0150 : 100!
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' found a'
+	R
+	'treasure chest in the dungeon.'
+	\L_076a4:
+	\L_07514:
+	ZH 1:
+	'A [Bird Corpse] was found in'
+	R
+	'the chest.'
+	\L_076a4:
+	ZH 1:
+	'The [Bird Corpse] was added to'
+	R
+	'Leazas’s treasures.'
+	\L_076a4:
+	\L_0753a:
+	\L_07697:
+	\L_075d3:
+	\0:
+*L_02abb:
+	!VAR0160 : 33!
+	!VAR0150 : 100!
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_075a9:
+	X 1:
+	' found a'
+	R
+	'treasure chest in the dungeon.'
+	\L_076a4:
+	\L_07514:
+	ZH 1:
+	'An [Evil Statue of Strength]'
+	R
+	'was found in the chest.'
+	\L_076a4:
+	ZH 1:
+	'The [Evil Statue of Strength]'
+	R
+	'was added to Leazas’s'
+	R
+	'treasures.'
+	\L_076a4:
+	\L_0753a:
+	\L_07697:
+	\L_075d3:
+	\0:
+*L_02b46:
+	!VAR0160 : 21!
+	!VAR0150 : 100!
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' found a'
+	R
+	'treasure chest in the dungeon.'
+	\L_076a4:
+	\L_07514:
+	ZH 1:
+	'A [Crystal Ring] was found in'
+	R
+	'the chest.'
+	\L_076a4:
+	ZH 1:
+	'The [Crystal Ring] was added'
+	R
+	'to Leazas’s treasures.'
+	\L_076a4:
+	\L_0753a:
+	\L_07697:
+	\L_075d3:
+	\0:
+*L_02bce:
+	\L_07697:
+	{(VAR0427 = 3) * (VAR0728 = 1):
+		!VAR0520 : 3!
+		%#Gﾐﾘ.ADV:
+		\0:
+	}
+	!VAR0520 : 1!
+	%#G2.ADV:
+	\0:
+*L_02c03:
+	!VAR0160 : 34!
+	!VAR0150 : 100!
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' found a'
+	R
+	'treasure chest in the dungeon.'
+	\L_076a4:
+	\L_07514:
+	ZH 1:
+	'A [Tange Dog] was found in the'
+	R
+	'chest.'
+	\L_076a4:
+	ZH 1:
+	'The [Tange Dog] was added to'
+	R
+	'Leazas’s treasures.'
+	\L_076a4:
+	\L_0753a:
+	\L_07697:
+	\L_075d3:
+	\0:
+*L_02c8b:
+	!VAR0160 : 29!
+	!VAR0150 : 100!
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' found a'
+	R
+	'treasure chest in the dungeon.'
+	\L_076a4:
+	\L_07514:
+	ZH 1:
+	'A [Happiness Ring] was found'
+	R
+	'in the chest.'
+	\L_076a4:
+	ZH 1:
+	'The [Happiness Ring] was added'
+	R
+	'to Leazas’s treasures.'
+	\L_076a4:
+	\L_0753a:
+	\L_07697:
+	\L_075d3:
+	\0:
+*L_02d13:
+	!VAR0160 : 28!
+	!VAR0150 : 100!
+	!VAR0698 : 120!
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' found a'
+	R
+	'treasure chest in the dungeon.'
+	\L_076a4:
+	\L_07514:
+	ZH 1:
+	'A [Fog Card] was found in the'
+	R
+	'chest.'
+	\L_076a4:
+	ZH 1:
+	'The [Fog Card] was added to'
+	R
+	'Leazas’s treasures.'
+	\L_076a4:
+	\L_0753a:
+	\L_07697:
+	\L_075d3:
+	\0:
+*L_02da1:
+	!VAR0160 : 22!
+	!VAR0150 : 100!
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' found a'
+	R
+	'treasure chest in the dungeon.'
+	\L_076a4:
+	\L_07514:
+	ZH 1:
+	'An [Orgasmic Men] was found in'
+	R
+	'the chest.'
+	\L_076a4:
+	ZH 1:
+	'The [Orgasmic Men] was added'
+	R
+	'to Leazas’s treasures.'
+	\L_076a4:
+	\L_0753a:
+	\L_07697:
+	\L_075d3:
+	\0:
+*L_02e29:
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' found the blue,'
+	R
+	'sparkling Uncurse Spring in'
+	R
+	'the dungeon.'
+	\L_076a4:
+	\L_07697:
+*L_02e6d:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_02e6d:
+	}
+	ZH 1:
+	$L_02edd$
+	'Enter Spring'
+	$
+	R
+	$L_02eab$
+	'Don’t Enter'
+	$
+	]
+	@L_02e6d:
+*L_02eab:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' left without'
+	R
+	'entering the Uncurse Spring.'
+	\L_076a4:
+	\L_07697:
+	\L_075d3:
+	\0:
+*L_02edd:
+	!VAR0154 : VAR0569!
+	{(VAR0154 = 13) * (VAR0560 < 10):
+		!VAR0520 : 3!
+		%#Gﾒﾙﾌｪｲｽ.ADV:
+		\0:
+	}
+	{(VAR0154 = 1) * (VAR0485 = 1):
+		!VAR0520 : 35!
+		%#Gｶﾌｪ.ADV:
+		!VAR0154 : 1!
+		\0:
+	}
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' slowly'
+	R
+	'immersed into the Uncurse'
+	R
+	'Spring.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'............'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'But nothing happened.'
+	\L_076a4:
+	\L_07697:
+	\L_075d3:
+	\0:
+*L_02f97:
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : VAR0097!
+	\L_075c5:
+	\L_075a9:
+	ZM 32:
+	ZH 1:
+	'Rising Dragon Mountain'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　　　Summit'
+	\L_076a4:
+	ZH 1:
+	'Somebody approached the party,'
+	R
+	'who were tired from their long'
+	R
+	'climb.'
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : 490!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'I’m KD. (King Dragon)'
+	R
+	'Meow.'
+	\L_076a4:
+	ZH 1:
+	'Not often you see humans come'
+	R
+	'all the way here, meow.'
+	R
+	'Is there some reason you came?'
+	\L_076a4:
+	\L_07697:
+	{VAR0154 \ 1:
+		\L_075a9:
+		ZH 1:
+		'...Not really.'
+		\L_076a4:
+		\L_07697:
+		\L_075e1:
+		ZH 1:
+		'You should leave then, meow.'
+		R
+		'That’s a bit disappointing.'
+		\L_076a4:
+		ZH 1:
+		'I hope the next person that'
+		R
+		'comes here needs something'
+		R
+		'from me, meow.'
+		\L_076a4:
+		ZH 1:
+		'Meow, meow, meow.'
+		\L_076a4:
+		\L_07697:
+		\L_075d3:
+		\L_07643:
+		\0:
+	}
+	!VAR0160 : 17!
+	{(VAR0492 > 1) * (VAR0150 = 0):
+		@L_0319e:
+	}
+	\L_07571:
+	ZH 1:
+	'A cat...?'
+	\L_076a4:
+	ZH 1:
+	'Try meowing.'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Meoooow.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'...Alright.'
+	\L_076a4:
+	ZH 1:
+	'I’ll leave, then.'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Meow, meow, meow...'
+	R
+	'...Meooow.'
+	\L_076a4:
+	\L_07697:
+	\L_0758d:
+	ZH 1:
+	'It seems like something might'
+	R
+	'be here, though. I should try'
+	R
+	'coming back later.'
+	\L_076a4:
+	\L_07697:
+	\L_075d3:
+	\L_07643:
+	\0:
+*L_0319e:
+	\L_0758d:
+	ZH 1:
+	'This is KD... King Dragon,'
+	R
+	'right?'
+	\L_076a4:
+	ZH 1:
+	'Hmmm... I feel like I’ve met'
+	R
+	'him before, but... I must be'
+	R
+	'imagining things.'
+	\L_076a4:
+	ZH 1:
+	'Anyway, there’s something I'
+	R
+	'need from him.'
+	\L_076a4:
+	ZH 1:
+	'If I remember right, British'
+	R
+	'said he gave KD one of the'
+	R
+	'gold statues.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Hey, do you have a gold'
+	R
+	'statue?'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'I do, meow.'
+	R
+	'Because I’m KD, meow.'
+	\L_076a4:
+	\L_07697:
+	\L_07619:
+	ZH 1:
+	'KD started rummaging through a'
+	R
+	'bag.'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Here, meow.'
+	R
+	'Here, meow.'
+	R
+	'Here, meow.'
+	R
+	'Here, meow.'
+	\L_076a4:
+	\L_07697:
+	\L_07619:
+	ZH 1:
+	'KD placed one golden item'
+	R
+	'after another on the floor.'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Gold mask, gold teacup, gold'
+	R
+	'watermelon, gold MSX...'
+	R
+	'Gold stuffed animal, gold'
+	R
+	'sunflower, gold bottle...'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'I-I don’t know which of these'
+	R
+	'is what I’m looking for...'
+	\L_076a4:
+	\L_07697:
+	{VAR0101 = 1:
+		\L_07643:
+		!VAR0516 : 80!
+		\L_07635:
+		\L_075e1:
+		ZH 1:
+		'Hwah!!'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'What, Chaos?'
+		\L_076a4:
+		\L_07697:
+		\L_075e1:
+		ZH 1:
+		'That, that, that.'
+		\L_076a4:
+		\L_07697:
+		\L_07619:
+		ZH 1:
+		'Chaos bent himself to point'
+		R
+		'towards the gold sunflower.'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'Huh...?'
+		R
+		'Kind of bland looking...'
+		\L_076a4:
+		\L_07697:
+		\L_075e1:
+		ZH 1:
+		'No, that’s it.'
+		R
+		'I’ve seen the four gold'
+		R
+		'statues before...'
+		\L_076a4:
+		ZH 1:
+		'Won’t you believe me?'
+		R
+		'I’m lonely... I’ve become a'
+		R
+		'senile old man.'
+		R
+		'Saaachiko, is dinner ready?'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'Hey, shut up.'
+		\L_076a4:
+		\L_07697:
+		\L_07643:
+		!VAR0516 : 490!
+		\L_07635:
+	}
+	{VAR0101 \ 1:
+		\L_0758d:
+		ZH 1:
+		'...I dunno...'
+		\L_076a4:
+		ZH 1:
+		'Well, whatever.'
+		R
+		'If I try asking some things,'
+		R
+		'maybe I’ll learn something...'
+		\L_076a4:
+		\L_07697:
+		\L_075e1:
+		ZH 1:
+		'I picked this up, meow. It’s a'
+		R
+		'normal lump of gold, meow.'
+		R
+		'Shiny, though.'
+		R
+		'It’s pretty, meow.'
+		\L_076a4:
+		ZH 1:
+		'I got this when I saved a girl,'
+		R
+		'meow. It’s cute, meow.'
+		\L_076a4:
+		ZH 1:
+		'This is...'
+		\L_076a4:
+		\L_07697:
+		\L_075a9:
+		ZH 1:
+		'KD picked up the gold'
+		R
+		'sunflower.'
+		\L_076a4:
+		\L_07697:
+		\L_075e1:
+		ZH 1:
+		'It was over 1000 years ago...'
+		R
+		'I saw a warrior sell it to a'
+		R
+		'merchant somewhere and bought'
+		R
+		'it, meow...'
+		\L_076a4:
+		ZH 1:
+		'He was a fool to sell it, meow.'
+		R
+		'It’s a key to opening the'
+		R
+		'Ancient Ruins, after all...'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'I see, that’s it.'
+		\L_076a4:
+		\L_07697:
+	}
+	\L_075e1:
+	ZH 1:
+	'What do you think of my'
+	R
+	'collection, meow?'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'I want you to give me that'
+	R
+	'[Golden Sunflower Statue].'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Meow～～...'
+	R
+	'This is my treasure, meow...'
+	\L_076a4:
+	ZH 1:
+	'...Meoooow, but...'
+	\L_076a4:
+	ZH 1:
+	'If you win my quiz, I’d be'
+	R
+	'happy to give it to you, meow.'
+	R
+	'How about it, meow?'
+	\L_076a4:
+	\L_07697:
+*L_035d0:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_035d0:
+	}
+	ZH 1:
+	$L_036f1$
+	'Take the Quiz'
+	$
+	R
+	$L_0360e$
+	'Don’t'
+	$
+	]
+	@L_035d0:
+*L_0360e:
+	\L_07571:
+	ZH 1:
+	'Who’d do something that'
+	R
+	'annoying?'
+	R
+	'I’ll take it by force!'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'You can’t win against me,'
+	R
+	'meow...'
+	\L_076a4:
+	ZH 1:
+	'Pheeeeeew, meow!'
+	\L_076a4:
+	\L_07697:
+	\L_07619:
+	ZH 1:
+	'KD exhaled.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Dwah!?'
+	\L_076a4:
+	\L_07697:
+	\L_07619:
+	ZH 1:
+	'Rance’s unit was sent flying'
+	R
+	'off the summit of Rising'
+	R
+	'Dragon Mountain.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Damn iiiit!!'
+	R
+	'What the fuck was that?!!'
+	\L_076a4:
+	\L_07697:
+	\L_075d3:
+	\L_07643:
+	!VAR0481 : 20!
+	\0:
+*L_036f1:
+	\L_07571:
+	ZH 1:
+	'Alright. I’ll take it.'
+	R
+	'With my 5000 point IQ, there’s'
+	R
+	'no problem I can’t solve.'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Then if you get 3 questions in'
+	R
+	'a row right, I’ll give you'
+	R
+	'this [Golden Sunflower Statue].'
+	\L_076a4:
+	\L_07697:
+	!VAR0621 : 0!
+*L_03744:
+	!VAR0621 : VAR0621 + 1!
+	{VAR0621 = 4:
+		@L_03bc5:
+	}
+	\L_075e1:
+	ZH 1:
+	'Now, Question '
+	H 0, VAR0621:
+	ZH 1:
+	'.'
+	R
+	'Think hard before answering,'
+	R
+	'meow.'
+	\L_076a4:
+	\L_07697:
+	Y 4, 5:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		\L_075e1:
+		ZH 1:
+		'Question, meow!!'
+		\L_076a4:
+		ZH 1:
+		'Which one is pink unyuun!?'
+		\L_076a4:
+		\L_07697:
+*L_037d7:
+		IM VAR0202, VAR0203:
+		{VAR0000:
+			@L_037d7:
+		}
+		ZH 1:
+		$L_03a4b$
+		'Pink Unyuun'
+		$
+		R
+		$L_03a87$
+		'Green Unyuun'
+		$
+		R
+		$L_03a87$
+		'Blue Unyuun'
+		$
+		]
+		@L_037d7:
+	}
+	{VAR0690 = 2:
+		\L_075e1:
+		ZH 1:
+		'Queque stionstion meow meow.'
+		\L_076a4:
+		ZH 1:
+		'One of these people transforms'
+		R
+		'when the moon is out.'
+		R
+		'Which is it??'
+		\L_076a4:
+		\L_07697:
+*L_03867:
+		IM VAR0202, VAR0203:
+		{VAR0000:
+			@L_03867:
+		}
+		ZH 1:
+		$L_03a87$
+		'TADA'
+		$
+		R
+		$L_03a4b$
+		'Imaamu'
+		$
+		R
+		$L_03a87$
+		'Purin'
+		$
+		]
+		@L_03867:
+	}
+	{VAR0690 = 3:
+		\L_075e1:
+		ZH 1:
+		'Question, question, meow.'
+		\L_076a4:
+		ZH 1:
+		'Where did I first appear,'
+		R
+		'meow?'
+		\L_076a4:
+		\L_07697:
+*L_038f0:
+		IM VAR0202, VAR0203:
+		{VAR0000:
+			@L_038f0:
+		}
+		ZH 1:
+		$L_03a87$
+		'Far Off In Space'
+		$
+		R
+		$L_03a87$
+		'Red in Rance 3'
+		$
+		R
+		$L_03a4b$
+		'Pyramid in Rance 2'
+		$
+		]
+		@L_038f0:
+	}
+	{VAR0690 = 4:
+		\L_075e1:
+		ZH 1:
+		'Questiiion, meow!'
+		\L_076a4:
+		ZH 1:
+		'Which are aliens?'
+		\L_076a4:
+		\L_07697:
+*L_03972:
+		IM VAR0202, VAR0203:
+		{VAR0000:
+			@L_03972:
+		}
+		ZH 1:
+		$L_03a4b$
+		'Kurupistonians'
+		$
+		R
+		$L_03a87$
+		'Torutorunians'
+		$
+		R
+		$L_03a87$
+		'Spockians'
+		$
+		]
+		@L_03972:
+	}
+	{VAR0690 = 5:
+		\L_075e1:
+		ZH 1:
+		'Question, meowmeow.'
+		\L_076a4:
+		ZH 1:
+		'What’s the name of Ho Raga’s'
+		R
+		'beloved doggie?'
+		\L_076a4:
+		\L_07697:
+*L_039fb:
+		IM VAR0202, VAR0203:
+		{VAR0000:
+			@L_039fb:
+		}
+		ZH 1:
+		$L_03a4b$
+		'Yodel'
+		$
+		R
+		$L_03a87$
+		'Josef'
+		$
+		R
+		$L_03a87$
+		'Peter'
+		$
+		]
+		@L_039fb:
+	}
+*L_03a4b:
+	!VAR0516 : 0!
+	!VAR0000 : 89!
+	%#PCMPLAY.ADV:
+	\L_075e1:
+	ZH 1:
+	'Correct, meow.'
+	R
+	'Good job, meow meow.'
+	\L_076a4:
+	!VAR0516 : 3!
+	%#PCMPLAY.ADV:
+	\L_07697:
+	@L_03744:
+*L_03a87:
+	!VAR0516 : 0!
+	!VAR0000 : 90!
+	%#PCMPLAY.ADV:
+	\L_075e1:
+	ZH 1:
+	'Wrong, meow.'
+	R
+	'You were wrong, meow.'
+	\L_076a4:
+	ZH 1:
+	'Please come again, meow～.'
+	\L_076a4:
+	!VAR0516 : 3!
+	%#PCMPLAY.ADV:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Whaaat!?'
+	R
+	'I’ll just use brute strength,'
+	R
+	'then!!'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Rance tried to attack KD.'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Pheeeeew...!'
+	\L_076a4:
+	\L_07697:
+	\L_07619:
+	ZH 1:
+	'KD exhaled.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Huh?'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Byebye, meow～.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Dwaaaaah!!'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Rance’s unit was blown off of'
+	R
+	'the summit of Rising Dragon'
+	R
+	'Mountain.'
+	\L_076a4:
+	\L_07697:
+	\L_075d3:
+	\L_07643:
+	!VAR0481 : 20!
+	\0:
+*L_03bc5:
+	\L_075e1:
+	ZH 1:
+	'Ooh!!'
+	R
+	'You got them all right, meow!!'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Gahahahaha, how was that?'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Excellent, this means I can'
+	R
+	'give you the [Golden Sunflower'
+	R
+	'Statue], meow.'
+	R
+	'Treat it with care, meow.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Sure.'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Rance obtained the [Golden'
+	R
+	'Sunflower Statue].'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Then goodbye, meow.'
+	\L_076a4:
+	\L_07697:
+	\L_07643:
+	\L_07619:
+	ZH 1:
+	'KD disappeared to somewhere'
+	R
+	'else.'
+	\L_076a4:
+	\L_07697:
+	!VAR0160 : 17!
+	!VAR0150 : 100!
+	\L_075d3:
+	\L_07643:
+	\0:
+*L_03cbd:
+	!VAR0154 : 4!
+	{(VAR0102 \ 0) * (VAR0567 = 5):
+		!VAR0520 : 1!
+		%#Gﾊﾞｳﾝﾄﾞ.ADV:
+		%0:
+	}
+	{VAR0518 \ 0:
+		!VAR0516 : 1008!
+		\L_0766d:
+		\L_075a9:
+		ZM 32:
+		ZH 1:
+		'　　Thieves’ Hideout'
+		ZM 24:
+		\L_076a4:
+		\L_07697:
+		!VAR0516 : 1!
+		\L_075c5:
+		\L_07571:
+		ZH 1:
+		'Hm, this was the hideout of my'
+		R
+		'band of thieves.'
+		\L_076a4:
+		ZH 1:
+		'It’s gotten really worn out...'
+		\L_076a4:
+		ZH 1:
+		'There’s no reason for me to be'
+		R
+		'here. I’m leaving.'
+		\L_076a4:
+		\L_07697:
+		\L_075d3:
+		\L_0767b:
+		%0:
+	}
+	!VAR0516 : 1008!
+	\L_0766d:
+	!VAR0516 : 1!
+	\L_075c5:
+	\L_075a9:
+	ZM 32:
+	ZH 1:
+	'　　Thieves’ Hideout'
+	ZM 24:
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'This is my hideout.'
+	\L_076a4:
+	\L_07697:
+	Y 4, 3:
+	!VAR0690 : VAR0000!
+	{VAR0690 = 1:
+		!VAR0516 : 2!
+		\L_07635:
+		\L_075e1:
+		ZH 1:
+		'Master Rance, it’s cold'
+		R
+		'outside. Let’s go in.'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'Mhm.'
+		\L_076a4:
+		\L_07697:
+	}
+	{VAR0690 = 2:
+		!VAR0516 : 3!
+		\L_07635:
+		\L_075e1:
+		ZH 1:
+		'Something wrong, boss?'
+		\L_076a4:
+		ZH 1:
+		'If you’re being a look-out,'
+		R
+		'you could leave that to the'
+		R
+		'new guys...'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'Alright. Maybe I’ll think'
+		R
+		'about the next operation,'
+		R
+		'then...'
+		\L_076a4:
+		\L_07697:
+	}
+	{VAR0690 = 3:
+		!VAR0516 : 4!
+		\L_07635:
+		\L_075e1:
+		ZH 1:
+		'Rance, let’s hurry up and go'
+		R
+		'attack.'
+		\L_076a4:
+		ZH 1:
+		'I wanna test my new sword’s'
+		R
+		'cutting power... Huhu.'
+		\L_076a4:
+		\L_07697:
+		\L_0758d:
+		ZH 1:
+		'...She’s dangerous...'
+		\L_076a4:
+		\L_07697:
+	}
+	\L_075d3:
+	\L_07643:
+	\L_0767b:
+	%0:
+*L_03f14:
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "Okayu Fever":
+	R
+	MS 5, "　":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1408!
+	!VAR0121 : 1408!
+	!VAR0122 : 1408!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	!VAR0107 : 0!
+	!VAR0124 : 0!
+	!VAR0108 : 0!
+	!VAR0109 : 0!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 0!
+	!VAR0114 : 0!
+	!VAR0115 : 0!
+	!VAR0116 : 10!
+	!VAR0117 : 10!
+	!VAR0118 : 0!
+	!VAR0119 : 0!
+	\0:
+*L_03fc8:
+	!VAR0322 : 1!
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "Orochi":
+	R
+	MS 5, "　":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1491!
+	!VAR0121 : 1491!
+	!VAR0122 : 1491!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	!VAR0107 : 0!
+	!VAR0124 : 0!
+	!VAR0108 : 0!
+	!VAR0109 : 0!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 35!
+	!VAR0114 : 24!
+	!VAR0115 : 120!
+	!VAR0116 : 33!
+	!VAR0117 : 33!
+	!VAR0118 : 0!
+	!VAR0119 : 4!
+	\0:
+*L_0407d:
+	!VAR0322 : 1!
+	!VAR0790 : 1!
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "SHIMO-JOE":
+	R
+	MS 5, "　":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1264!
+	!VAR0121 : 1264!
+	!VAR0122 : 1264!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	!VAR0107 : 0!
+	!VAR0124 : 0!
+	!VAR0108 : 0!
+	!VAR0109 : 0!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 5!
+	!VAR0114 : 5!
+	!VAR0115 : 10!
+	!VAR0116 : 5!
+	!VAR0117 : 5!
+	!VAR0118 : 0!
+	!VAR0119 : 0!
+	\0:
+*L_04139:
+	!VAR0322 : 1!
+	!VAR0791 : 1!
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "Vevetar":
+	R
+	MS 5, "　":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1261!
+	!VAR0121 : 1261!
+	!VAR0122 : 1261!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	!VAR0107 : 0!
+	!VAR0124 : 0!
+	!VAR0108 : 0!
+	!VAR0109 : 0!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 1!
+	!VAR0113 : 5!
+	!VAR0114 : 18!
+	!VAR0115 : 100!
+	!VAR0116 : 22!
+	!VAR0117 : 22!
+	!VAR0118 : 0!
+	!VAR0119 : 15!
+	\0:
+*L_041f4:
+	!VAR0322 : 1!
+	!VAR0792 : 1!
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "GG Caterpillar":
+	R
+	MS 5, "　":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1427!
+	!VAR0121 : 1427!
+	!VAR0122 : 1427!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	!VAR0107 : 0!
+	!VAR0124 : 0!
+	!VAR0108 : 0!
+	!VAR0109 : 0!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 20!
+	!VAR0114 : 10!
+	!VAR0115 : 20!
+	!VAR0116 : 50!
+	!VAR0117 : 50!
+	!VAR0118 : 0!
+	!VAR0119 : 0!
+	\0:
+*L_042b5:
+	!VAR0322 : 1!
+	!VAR0783 : 1!
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "Stone Guardian":
+	R
+	MS 5, "　":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1297!
+	!VAR0121 : 1297!
+	!VAR0122 : 1297!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	!VAR0107 : 0!
+	!VAR0124 : 0!
+	!VAR0108 : 0!
+	!VAR0109 : 0!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 25!
+	!VAR0114 : 18!
+	!VAR0115 : 20!
+	!VAR0116 : 15!
+	!VAR0117 : 15!
+	!VAR0118 : 0!
+	!VAR0119 : 0!
+	\0:
+*L_04376:
+	!VAR0322 : 1!
+	!VAR0784 : 1!
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "Marder":
+	R
+	MS 5, "　":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1328!
+	!VAR0121 : 1328!
+	!VAR0122 : 1328!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	!VAR0107 : 0!
+	!VAR0124 : 0!
+	!VAR0108 : 0!
+	!VAR0109 : 0!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 2!
+	!VAR0113 : 15!
+	!VAR0114 : 10!
+	!VAR0115 : 20!
+	!VAR0116 : 10!
+	!VAR0117 : 10!
+	!VAR0118 : 0!
+	!VAR0119 : 0!
+	\0:
+*L_0442f:
+	!VAR0322 : 1!
+	!VAR0785 : 1!
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "Haw Kyu":
+	R
+	MS 5, "　":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1399!
+	!VAR0121 : 1399!
+	!VAR0122 : 1399!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	!VAR0107 : 0!
+	!VAR0124 : 0!
+	!VAR0108 : 0!
+	!VAR0109 : 0!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 25!
+	!VAR0114 : 5!
+	!VAR0115 : 250!
+	!VAR0116 : 10!
+	!VAR0117 : 10!
+	!VAR0118 : 0!
+	!VAR0119 : 0!
+	\0:
+*L_044ea:
+	!VAR0322 : 1!
+	!VAR0786 : 1!
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "Musashibou":
+	R
+	MS 5, "　":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1424!
+	!VAR0121 : 1424!
+	!VAR0122 : 1424!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	!VAR0107 : 0!
+	!VAR0124 : 0!
+	!VAR0108 : 0!
+	!VAR0109 : 0!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 20!
+	!VAR0114 : 30!
+	!VAR0115 : 30!
+	!VAR0116 : 19!
+	!VAR0117 : 19!
+	!VAR0118 : 0!
+	!VAR0119 : 0!
+	\0:
+*L_045a7:
+	!VAR0322 : 1!
+	!VAR0787 : 1!
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "Japanese Soldier":
+	R
+	MS 5, "　":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1234!
+	!VAR0121 : 1234!
+	!VAR0122 : 1234!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	!VAR0107 : 0!
+	!VAR0124 : 0!
+	!VAR0108 : 0!
+	!VAR0109 : 0!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 30!
+	!VAR0114 : 10!
+	!VAR0115 : 73!
+	!VAR0116 : 9!
+	!VAR0117 : 9!
+	!VAR0118 : 80!
+	!VAR0119 : 0!
+	\0:
+*L_0466c:
+	!VAR0322 : 1!
+	!VAR0715 : 1!
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "Gunagan":
+	R
+	MS 5, "　":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1137!
+	!VAR0121 : 1137!
+	!VAR0122 : 1137!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	!VAR0107 : 0!
+	!VAR0124 : 0!
+	!VAR0108 : 0!
+	!VAR0109 : 0!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 38!
+	!VAR0114 : 22!
+	!VAR0115 : 150!
+	!VAR0116 : 45!
+	!VAR0117 : 45!
+	!VAR0118 : 0!
+	!VAR0119 : 4!
+	\0:
+*L_04727:
+	!VAR0299 : 1!
+	!VAR0322 : 1!
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "Yellow Dragon":
+	R
+	MS 5, "　":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1493!
+	!VAR0121 : 1493!
+	!VAR0122 : 1493!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	!VAR0107 : 0!
+	!VAR0124 : 0!
+	!VAR0108 : 0!
+	!VAR0109 : 0!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 30!
+	!VAR0114 : 22!
+	!VAR0115 : 50!
+	!VAR0116 : 23!
+	!VAR0117 : 23!
+	!VAR0118 : 0!
+	!VAR0119 : 6!
+	\0:
+*L_047e7:
+	!VAR0300 : 1!
+	!VAR0322 : 1!
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "Red Dragon":
+	R
+	MS 5, "　":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1494!
+	!VAR0121 : 1494!
+	!VAR0122 : 1494!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	!VAR0107 : 0!
+	!VAR0124 : 0!
+	!VAR0108 : 0!
+	!VAR0109 : 0!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 30!
+	!VAR0114 : 24!
+	!VAR0115 : 50!
+	!VAR0116 : 23!
+	!VAR0117 : 23!
+	!VAR0118 : 0!
+	!VAR0119 : 13!
+	\0:
+*L_048a4:
+	!VAR0301 : 1!
+	!VAR0322 : 1!
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "Green Dragon":
+	R
+	MS 5, "　":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1495!
+	!VAR0121 : 1495!
+	!VAR0122 : 1495!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	!VAR0107 : 0!
+	!VAR0124 : 0!
+	!VAR0108 : 0!
+	!VAR0109 : 0!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 30!
+	!VAR0114 : 25!
+	!VAR0115 : 100!
+	!VAR0116 : 33!
+	!VAR0117 : 33!
+	!VAR0118 : 0!
+	!VAR0119 : 5!
+	\0:
+*L_04964:
+	!VAR0302 : 1!
+	!VAR0322 : 1!
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "Blue Dragon":
+	R
+	MS 5, "　":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1496!
+	!VAR0121 : 1496!
+	!VAR0122 : 1496!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	!VAR0107 : 0!
+	!VAR0124 : 0!
+	!VAR0108 : 0!
+	!VAR0109 : 0!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 33!
+	!VAR0114 : 26!
+	!VAR0115 : 145!
+	!VAR0116 : 33!
+	!VAR0117 : 33!
+	!VAR0118 : 0!
+	!VAR0119 : 6!
+	\0:
+*L_04a23:
+	!VAR0303 : 1!
+	!VAR0322 : 1!
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "Black Dragon":
+	R
+	MS 5, "　":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1497!
+	!VAR0121 : 1497!
+	!VAR0122 : 1497!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 0!
+	!VAR0107 : 0!
+	!VAR0124 : 0!
+	!VAR0108 : 0!
+	!VAR0109 : 0!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 45!
+	!VAR0114 : 27!
+	!VAR0115 : 160!
+	!VAR0116 : 43!
+	!VAR0117 : 43!
+	!VAR0118 : 0!
+	!VAR0119 : 0!
+	\0:
+*L_04ae3:
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "Red Hanny":
+	R
+	MS 5, "Weak Hannies":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1465!
+	!VAR0121 : 1466!
+	!VAR0122 : 1467!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 5!
+	!VAR0107 : 5000!
+	!VAR0124 : 0!
+	!VAR0108 : 8!
+	!VAR0109 : 5!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 5!
+	!VAR0114 : 5!
+	!VAR0115 : 0!
+	!VAR0116 : 8!
+	!VAR0117 : 8!
+	!VAR0118 : 0!
+	!VAR0119 : 0!
+	\0:
+*L_04ba0:
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "Super Hanny":
+	R
+	MS 5, "Normal Hannies":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1468!
+	!VAR0121 : 1469!
+	!VAR0122 : 1470!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 5!
+	!VAR0107 : 5000!
+	!VAR0124 : 0!
+	!VAR0108 : 10!
+	!VAR0109 : 8!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 8!
+	!VAR0114 : 5!
+	!VAR0115 : 0!
+	!VAR0116 : 13!
+	!VAR0117 : 13!
+	!VAR0118 : 0!
+	!VAR0119 : 0!
+	\0:
+*L_04c61:
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "Hanny Knight":
+	R
+	MS 5, "Strong Hannies":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1471!
+	!VAR0121 : 1472!
+	!VAR0122 : 1473!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 5!
+	!VAR0107 : 5000!
+	!VAR0124 : 0!
+	!VAR0108 : 12!
+	!VAR0109 : 8!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 10!
+	!VAR0114 : 8!
+	!VAR0115 : 0!
+	!VAR0116 : 13!
+	!VAR0117 : 13!
+	!VAR0118 : 0!
+	!VAR0119 : 0!
+	\0:
+	!VAR0156 : 100!
+	ZH 1:
+	MS 4, "Hanny King":
+	R
+	MS 5, "Hannies":
+	!VAR0156 : 100!
+	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+	!VAR0120 : 1474!
+	!VAR0121 : 1475!
+	!VAR0122 : 1476!
+	!VAR0123 : 0!
+	!VAR0128 : 0!
+	!VAR0106 : 5!
+	!VAR0107 : 5000!
+	!VAR0124 : 0!
+	!VAR0108 : 5!
+	!VAR0109 : 5!
+	!VAR0110 : 0!
+	!VAR0111 : 0!
+	!VAR0112 : 0!
+	!VAR0113 : 5!
+	!VAR0114 : 5!
+	!VAR0115 : 0!
+	!VAR0116 : 3!
+	!VAR0117 : 3!
+	!VAR0118 : 0!
+	!VAR0119 : 0!
+	\0:
+*L_04ddc:
+	!VAR0487 : 1!
+	!VAR0516 : 0!
+	%#M.ADV:
+	!VAR0516 : 1015!
+	\L_0766d:
+	!VAR0516 : 1!
+	\L_075c5:
+	!VAR0516 : 6!
+	\L_07635:
+	\L_075a9:
+	ZM 32:
+	ZH 1:
+	'　　　Ancient Ruins'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　　　Before the Giant Dungeon'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'So this is the Ancient Ruins,'
+	R
+	'considered the biggest dungeon'
+	R
+	'in the world, huh...?'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Yes, in the past is was'
+	R
+	'challenged by hundreds of'
+	R
+	'thousands of adventurers, but'
+	R
+	'it’s never been fully explored.'
+	\L_076a4:
+	ZH 1:
+	'It’s rumored to have 1000'
+	R
+	'floors.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Hmmmm.'
+	\L_076a4:
+	\L_07697:
+	{VAR0101 = 1:
+		\L_07571:
+		ZH 1:
+		'Chaos!'
+		R
+		'Is this where you guys met a'
+		R
+		'god?'
+		\L_076a4:
+		\L_07697:
+		\L_07643:
+		!VAR0516 : 80!
+		\L_07635:
+		\L_075e1:
+		ZH 1:
+		'Aah... That’s right.'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'Do you remember the place?'
+		R
+		'Lead me there.'
+		\L_076a4:
+		\L_07697:
+		\L_075e1:
+		ZH 1:
+		'Sure, sure...'
+		R
+		'This way, then.'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'Hm? Will we be alright without'
+		R
+		'preparing the army?'
+		\L_076a4:
+		\L_07697:
+		\L_075e1:
+		ZH 1:
+		'Yeah.'
+		R
+		'The thing is, it’s a hard'
+		R
+		'place to find, but it’s on the'
+		R
+		'first floor.'
+		\L_076a4:
+		ZH 1:
+		'Hey, move faster.'
+		\L_076a4:
+		\L_07697:
+		\L_07619:
+		ZH 1:
+		'Rance walked where Chaos'
+		R
+		'guided him.'
+		\L_076a4:
+		\L_07697:
+		\L_075d3:
+		\L_07643:
+		\L_0767b:
+		SS 26:
+		\L_0539e:
+		!VAR0516 : 1!
+		\L_075c5:
+		!VAR0516 : 80!
+		\L_07635:
+		\L_075a9:
+		ZM 32:
+		ZH 1:
+		'　　　Ancient Ruins'
+		R
+		ZM 24:
+		ZH 1:
+		R
+		'　　1F  Before God’s Door'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'Hoh... This is...'
+		\L_076a4:
+		\L_07697:
+		\L_075e1:
+		ZH 1:
+		'That’s right.'
+		\L_076a4:
+		\L_07697:
+		\L_075e1:
+		ZH 1:
+		'It looks like a typical door,'
+		R
+		'but... Within it is another'
+		R
+		'world.'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'I assume it can’t be opened'
+		R
+		'normally?'
+		\L_076a4:
+		\L_07697:
+		\L_075e1:
+		ZH 1:
+		'Yeah.'
+		R
+		'See those four pedestals?'
+		\L_076a4:
+		ZH 1:
+		'There’s no way to open this'
+		R
+		'door besides putting four'
+		R
+		'gold statues on those.'
+		\L_076a4:
+		ZH 1:
+		'Well... It’s probably better'
+		R
+		'to leave the door closed,'
+		R
+		'either way...'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'Alright, we know the location.'
+		R
+		'Let’s leave for now.'
+		\L_076a4:
+		\L_07697:
+		SS 21:
+		\0:
+	}
+	{VAR0101 = 2:
+		\L_07571:
+		ZH 1:
+		'Hey, Nikkooooou.'
+		\L_076a4:
+		\L_07697:
+		\L_07643:
+		!VAR0516 : 34!
+		\L_07635:
+		\L_07619:
+		ZH 1:
+		'In response to Rance’s call,'
+		R
+		'Nikkou appeared in her human'
+		R
+		'form.'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'There’s an entrance to the'
+		R
+		'cave where you guys'
+		R
+		'encountered a god somewhere'
+		R
+		'here, right? Lead me there.'
+		\L_076a4:
+		\L_07697:
+		\L_075e1:
+		ZH 1:
+		'Okay... This way.'
+		\L_076a4:
+		\L_07697:
+		\L_075a9:
+		ZH 1:
+		'Rance followed Nikkou through'
+		R
+		'a hard to find walk-through'
+		R
+		'wall on the 1st floor, and'
+		R
+		'arrived at the destination.'
+		\L_076a4:
+		ZH 1:
+		'It took not even 30 minutes to'
+		R
+		'get there.'
+		\L_076a4:
+		\L_07697:
+		\L_075d3:
+		\L_07643:
+		\L_0767b:
+		SS 26:
+		\L_0539e:
+		!VAR0516 : 1!
+		\L_075c5:
+		!VAR0516 : 34!
+		\L_07635:
+		\L_075a9:
+		ZM 32:
+		ZH 1:
+		'　　　Ancient Ruins'
+		R
+		ZM 24:
+		ZH 1:
+		R
+		'　　1F  Before God’s Door'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'Huh, that was really close.'
+		R
+		'I thought it’d be on the 500th'
+		R
+		'floor or so... What a let-down.'
+		\L_076a4:
+		\L_07697:
+		\L_075e1:
+		ZH 1:
+		'What’s past here is scary,'
+		R
+		'though... It’s different from'
+		R
+		'our world... Another world is'
+		R
+		'on the other side of this door.'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'............'
+		\L_076a4:
+		ZH 1:
+		'Hmmm, I look forward to seeing'
+		R
+		'it.'
+		\L_076a4:
+		ZH 1:
+		'This door can’t be opened'
+		R
+		'without 4 golden statues,'
+		R
+		'right?'
+		\L_076a4:
+		\L_07697:
+		\L_075e1:
+		ZH 1:
+		'Yes. If the golden statues are'
+		R
+		'placed on those 4 pedestals'
+		R
+		'next to the door, it will open.'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'I see, huhuhuhu.'
+		\L_076a4:
+		\L_07697:
+		\L_075e1:
+		ZH 1:
+		'King of Leazas, I... I think'
+		R
+		'it’s best not to go in there.'
+		R
+		'But...'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'Well, I’ll think about it.'
+		R
+		'Let’s go back for now.'
+		\L_076a4:
+		\L_07697:
+		SS 21:
+		\0:
+	}
+*L_0539e:
+	{VAR0492 = 6:
+		!VAR0516 : 1051!
+		\L_0766d:
+		\0:
+	}
+	!VAR0001 : 0!
+	!VAR0002 : 0!
+	!VAR0003 : 0!
+	!VAR0004 : 0!
+	{VAR0488 \ 0:
+		!VAR0001 : 1054!
+	}
+	{VAR0489 \ 0:
+		!VAR0002 : 1055!
+	}
+	{VAR0490 \ 0:
+		!VAR0003 : 1053!
+	}
+	{VAR0491 \ 0:
+		!VAR0004 : 1052!
+	}
+	!VAR0516 : 1022!
+	\L_07689:
+	!VAR0516 : 1!
+	\L_075c5:
+	\0:
+*L_05437:
+	\L_07697:
+	SS 26:
+	\L_075d3:
+	\L_0767b:
+	\L_0539e:
+	!VAR0516 : 1!
+	\L_075c5:
+	\L_075a9:
+	ZM 32:
+	ZH 1:
+	'　　　Ancient Ruins'
+	R
+	ZM 24:
+	ZH 1:
+	R
+	'　　1F  Before God’s Door'
+	\L_076a4:
+	\L_07697:
+	{(VAR0327 > 9) * (VAR0492 = 3):
+		@L_05ea4:
+	}
+	\L_075a9:
+	ZH 1:
+	'What will you do?'
+	\L_076a4:
+	\L_07697:
+*L_054b8:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_054b8:
+	}
+	!VAR0160 : 15!
+	{VAR0150 \ 0:
+		ZH 1:
+		$L_055f6$
+		'Place Gourd'
+		$
+	}
+	!VAR0160 : 16!
+	{VAR0150 \ 0:
+		ZH 1:
+		$L_05666$
+		'Place Monkey'
+		$
+	}
+	!VAR0160 : 17!
+	{VAR0150 \ 0:
+		ZH 1:
+		$L_056d6$
+		'Place Sunflower'
+		$
+	}
+	!VAR0160 : 18!
+	{VAR0150 \ 0:
+		ZH 1:
+		$L_05746$
+		'Place Bonsai'
+		$
+	}
+	{(VAR0154 = 1) * (VAR0492 \ 6):
+		ZH 1:
+		$L_0589d$
+		'Dance'
+		$
+	}
+	{VAR0492 = 6:
+		ZH 1:
+		$L_06056$
+		'Enter God’s Door'
+		$
+	}
+	ZH 1:
+	$L_055bc$
+	'Leave'
+	$
+	]
+	@L_054b8:
+*L_055bc:
+	\L_075a9:
+	ZH 1:
+	'Leaving God’s Door and'
+	R
+	'returning to the original'
+	R
+	'location.'
+	\L_076a4:
+	\L_07697:
+	\L_075d3:
+	\L_0767b:
+	SS 21:
+	@L_0076a:
+*L_055f6:
+	!VAR0160 : 15!
+	!VAR0150 : 0!
+	!VAR0488 : 1!
+	\L_075a9:
+	ZH 1:
+	'Placed the gourd statue on a'
+	R
+	'pedestal before the door.'
+	\L_076a4:
+	\L_07697:
+	\L_075d3:
+	\L_0767b:
+	\L_0539e:
+	!VAR0516 : 1!
+	\L_075c5:
+	{(VAR0488 = 1) * (VAR0489 = 1) * (VAR0490 = 1) * (VAR0491 = 1):
+		\L_057b6:
+	}
+	@L_054b8:
+*L_05666:
+	!VAR0160 : 16!
+	!VAR0150 : 0!
+	!VAR0489 : 1!
+	\L_075a9:
+	ZH 1:
+	'Placed the monkey statue on a'
+	R
+	'pedestal before the door.'
+	\L_076a4:
+	\L_07697:
+	\L_075d3:
+	\L_0767b:
+	\L_0539e:
+	!VAR0516 : 1!
+	\L_075c5:
+	{(VAR0488 = 1) * (VAR0489 = 1) * (VAR0490 = 1) * (VAR0491 = 1):
+		\L_057b6:
+	}
+	@L_054b8:
+*L_056d6:
+	!VAR0160 : 17!
+	!VAR0150 : 0!
+	!VAR0490 : 1!
+	\L_075a9:
+	ZH 1:
+	'Placed the sunflower statue on'
+	R
+	'a pedestal before the door.'
+	\L_076a4:
+	\L_07697:
+	\L_075d3:
+	\L_0767b:
+	\L_0539e:
+	!VAR0516 : 1!
+	\L_075c5:
+	{(VAR0488 = 1) * (VAR0489 = 1) * (VAR0490 = 1) * (VAR0491 = 1):
+		\L_057b6:
+	}
+	@L_054b8:
+*L_05746:
+	!VAR0160 : 18!
+	!VAR0150 : 0!
+	!VAR0491 : 1!
+	\L_075a9:
+	ZH 1:
+	'Placed the bonsai statue on a'
+	R
+	'pedestal before the door.'
+	\L_076a4:
+	\L_07697:
+	\L_075d3:
+	\L_0767b:
+	\L_0539e:
+	!VAR0516 : 1!
+	\L_075c5:
+	{(VAR0488 = 1) * (VAR0489 = 1) * (VAR0490 = 1) * (VAR0491 = 1):
+		\L_057b6:
+	}
+	@L_054b8:
+*L_057b6:
+	!VAR0516 : 1!
+	\L_075c5:
+	\L_07571:
+	ZH 1:
+	'All the statues have been'
+	R
+	'placed.'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Just then, the area began to'
+	R
+	'vibrate.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'What...?'
+	R
+	'What’s happening?!!'
+	\L_076a4:
+	\L_07697:
+	PW1 VAR0056:
+	!VAR0492 : 6!
+	\L_075d3:
+	\L_0767b:
+	\L_0539e:
+	!VAR0516 : 1!
+	\L_075c5:
+	PW0 VAR0056:
+	\L_07571:
+	ZH 1:
+	'Did it open...?'
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : 80!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'That’s right.'
+	R
+	'It’s a door that shouldn’t be'
+	R
+	'opened, though...'
+	\L_076a4:
+	\L_07697:
+	\L_07643:
+	\0:
+*L_0589d:
+	!VAR0516 : 1!
+	\L_075c5:
+	!VAR0516 : 6!
+	\L_07635:
+	\L_07571:
+	ZH 1:
+	'There’s a door like that in an'
+	R
+	'old legend I’ve heard.'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'What legend was it?'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'The door to Amano-Iwato...'
+	R
+	'I’ve got it.'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'What is it?'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Dance.'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Hah??'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'When the door to Amano-Iwato'
+	R
+	'was closed, a girl did a dance,'
+	R
+	'and the person inside made an'
+	R
+	'opening to watch.'
+	\L_076a4:
+	ZH 1:
+	'Then the men were able to pry'
+	R
+	'the door open.'
+	\L_076a4:
+	ZH 1:
+	'That... means...'
+	\L_076a4:
+	ZH 1:
+	'Dance.'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Huh...?'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Rance pointed at Maris.'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'M-Me...?'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'That’s right.'
+	R
+	'You dance, Maris.'
+	\L_076a4:
+	ZH 1:
+	'You can do pretty much'
+	R
+	'anything, so dancing should be'
+	R
+	'easy for you, right?'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'I-I... haven’t danced since I'
+	R
+	'was a child... Um...'
+	\L_076a4:
+	\L_07697:
+	\L_07643:
+	!VAR0516 : 5!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'Okaaaaay!'
+	R
+	'Then I’ll dance!'
+	R
+	'So you should dance too, Maris.'
+	R
+	'Okay?'
+	\L_076a4:
+	\L_07697:
+	\L_07643:
+	!VAR0516 : 6!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'Q-Queen Lia...'
+	\L_076a4:
+	\L_07697:
+	\L_0758d:
+	ZH 1:
+	'Keeheehee... It’s fun seeing'
+	R
+	'her so embarrassed.'
+	R
+	'Alright, I’ll make her do it.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Maris... Are you going to'
+	R
+	'disobey Lia...?'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Uu...'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Then what’re you gonna do?'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'...I’ll do it...'
+	\L_076a4:
+	\L_07697:
+	\L_075fd:
+	ZH 1:
+	'Aah... Can I really dance...?'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Gahahahahaha!!'
+	R
+	'Alright, Suzume, you too.'
+	R
+	'Dance with them.'
+	\L_076a4:
+	\L_07697:
+	\L_07643:
+	!VAR0516 : 37!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'Huh...? Me... too?'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'That’s right.'
+	R
+	'Do it.'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'.........'
+	\L_076a4:
+	ZH 1:
+	'...Okay...'
+	\L_076a4:
+	\L_07697:
+	PF1 VAR0056:
+	SS 0:
+	G 806:
+	G 212:
+	SS 5:
+	\L_07651:
+	ZH 1:
+	'Lia「Yeah, yeeeeah!'
+	R
+	'　　　 Like that!」'
+	PF0 VAR0056:
+	\L_076a4:
+	ZH 1:
+	'Maris「Aah... Why am I doing this...?」'
+	\L_076a4:
+	ZH 1:
+	'Suzume「.........」'
+	\L_076a4:
+	ZH 1:
+	'Suzume（I don’t really know, but...'
+	R
+	'　　　　   Ms. Maris must feel the same as me...'
+	R
+	'       I think...）'
+	\L_076a4:
+	ZH 1:
+	'Rance「Gahahahahahaha!!'
+	R
+	'　　　　  Good, good!'
+	R
+	'　　　　  Put more fun into it!!」'
+	\L_076a4:
+	ZH 1:
+	'Lia「Look, look! Darling!'
+	R
+	'    I’m having a ton of fun!」'
+	\L_076a4:
+	ZH 1:
+	'Rance「It’s more fun to watch Maris and Suzume be'
+	R
+	'      embarrassed.」'
+	\L_076a4:
+	ZH 1:
+	'Lia「Ahn, so meeean!!」'
+	\L_076a4:
+	ZH 1:
+	'Rance「Heeey, someone bring some drinks!!」'
+	\L_076a4:
+	ZH 1:
+	'At Rance’s command, the servants frantically set up'
+	R
+	'drinks.'
+	\L_076a4:
+	ZH 1:
+	'Rance「Hey, why’re you all standing around watching?'
+	R
+	'　　　　  You can clap, right?!」'
+	\L_076a4:
+	ZH 1:
+	'Rance yelled at the soldiers, and they started'
+	R
+	'clapping to create music.'
+	\L_076a4:
+	ZH 1:
+	'Rance「There, now things are more exciting.'
+	R
+	'      Dance harder!!」'
+	\L_076a4:
+	ZH 1:
+	'Maris「...Okay, okay...」'
+	\L_076a4:
+	ZH 1:
+	'Lia「Kyahaha!!'
+	R
+	'　　　 Yeah, yeah!」'
+	\L_076a4:
+	ZH 1:
+	'Suzume「............」'
+	\L_076a4:
+	ZH 1:
+	'Rance「Hey, Suzume.'
+	R
+	'　　　　  Liven up a little!」'
+	\L_076a4:
+	ZH 1:
+	'Suzume「...O-Okay...」'
+	\L_076a4:
+	ZH 1:
+	'Rance「Gahahahaha!!」'
+	\L_076a4:
+	ZH 1:
+	R
+	'.........'
+	\L_076a4:
+	ZH 1:
+	R
+	'......'
+	\L_076a4:
+	ZH 1:
+	R
+	'...'
+	\L_076a4:
+	PF1 VAR0056:
+	\L_07697:
+	!VAR0516 : 0!
+	%#M.ADV:
+	SS 26:
+	PF0 VAR0056:
+	\L_075d3:
+	\L_0767b:
+	\L_0539e:
+	!VAR0516 : 1!
+	\L_075c5:
+	!VAR0516 : 6!
+	\L_07635:
+	\L_07571:
+	ZH 1:
+	'...Nothing happened...'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Huh... Really...?!'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Maris... Do it again...'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Please let me stop...!'
+	\L_076a4:
+	\L_07697:
+	\L_0758d:
+	ZH 1:
+	'Hm... Do we need to find'
+	R
+	'another method...?'
+	R
+	'Well, I didn’t really think it'
+	R
+	'would open, anyway...'
+	\L_076a4:
+	\L_07697:
+	@L_054b8:
+*L_05ea4:
+	!VAR0492 : 4!
+	\L_0758d:
+	ZH 1:
+	'This is the path to god...'
+	R
+	'Rudrasaum’s probably in here.'
+	\L_076a4:
+	ZH 1:
+	'That stupid whale that’s'
+	R
+	'wrecking my world...'
+	\L_076a4:
+	ZH 1:
+	'If it’s come to this, all we'
+	R
+	'can do is open this door and'
+	R
+	'attack Rudrasaum directly.'
+	\L_076a4:
+	ZH 1:
+	'To do that we have to open'
+	R
+	'door...'
+	\L_076a4:
+	ZH 1:
+	'4 golden statues are needed to'
+	R
+	'open the door...'
+	\L_076a4:
+	!VAR0001 : 0!
+	!VAR0160 : 16!
+	{(VAR0150 = 0) * (VAR0489 = 0):
+		ZH 1:
+		'One is apparently with a woman'
+		R
+		'named Cafe.'
+		\L_076a4:
+		!VAR0001 : 1!
+	}
+	!VAR0160 : 17!
+	{(VAR0150 = 0) * (VAR0490 = 0):
+		{VAR0001 = 1:
+			ZH 1:
+			'Another is apparently with a'
+			R
+			'guy named KD.'
+			\L_076a4:
+		}
+		{VAR0001 = 0:
+			!VAR0001 : 1!
+			ZH 1:
+			'Another is apparently with a'
+			R
+			'guy named KD.'
+			\L_076a4:
+		}
+	}
+	!VAR0160 : 18!
+	{(VAR0150 = 0) * (VAR0491 = 0):
+		{VAR0001 = 1:
+			ZH 1:
+			'Then there’s another one with'
+			R
+			'Ho Raga, if I remember right.'
+			\L_076a4:
+		}
+		{VAR0001 = 0:
+			ZH 1:
+			'Then there’s another one with'
+			R
+			'Ho Raga, if I remember right.'
+			\L_076a4:
+		}
+	}
+	ZH 1:
+	'I have to get them all at any'
+	R
+	'cost.'
+	\L_076a4:
+	ZH 1:
+	'There’s no time, though.'
+	R
+	'I have to hurry...'
+	\L_076a4:
+	\L_07697:
+	@L_054b8:
+*L_06056:
+	\L_07571:
+	ZH 1:
+	'Alright!!'
+	\L_076a4:
+	\L_07697:
+	\L_07619:
+	ZH 1:
+	'Rance looked at the open door'
+	R
+	'and braced himself.'
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : 6!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'King Rance...'
+	R
+	'Are we really going in?'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Yeah.'
+	R
+	'Let’s go, there’s a lot of'
+	R
+	'room inside.'
+	R
+	'Bring the whole army.'
+	\L_076a4:
+	ZH 1:
+	'All remaining units, come with'
+	R
+	'me! There’s no use worrying'
+	R
+	'about what’s happening above'
+	R
+	'ground now.'
+	\L_076a4:
+	ZH 1:
+	'At any rate, come!'
+	R
+	'Exhaust our military funds,'
+	R
+	'too.'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Rance’s army passed through'
+	R
+	'God’s Door and began advancing'
+	R
+	'towards God.'
+	\L_076a4:
+	\L_07697:
+	%#Iｶﾐ.ADV:
+*L_06153:
+	{VAR0493 = 0:
+		!VAR0493 : 1!
+		@L_06239:
+	}
+	{VAR0493 = 1:
+		!VAR0493 : 2!
+		@L_064b1:
+	}
+	{VAR0493 = 2:
+		!VAR0493 : 3!
+		@L_06239:
+	}
+	{VAR0493 = 4:
+		!VAR0493 : 5!
+		@L_064b1:
+	}
+	{VAR0493 = 5:
+		!VAR0493 : 6!
+		@L_06239:
+	}
+	{VAR0493 = 7:
+		!VAR0493 : 8!
+		@L_064b1:
+	}
+	{VAR0493 = 8:
+		!VAR0493 : 9!
+		@L_06239:
+	}
+	{VAR0493 = 9:
+		!VAR0493 : 10!
+		@L_06239:
+	}
+	{VAR0493 = 11:
+		!VAR0493 : 12!
+		@L_066db:
+	}
+	\0:
+*L_06239:
+	!VAR0516 : 63!
+	\L_075c5:
+	\L_07571:
+	ZH 1:
+	'Oh...?'
+	R
+	'This is...'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Merim found a mysterious'
+	R
+	'inscription in a nook of the'
+	R
+	'dungeon.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'What could this be...?'
+	R
+	'Um...'
+	\L_076a4:
+	\L_07697:
+	\L_07619:
+	ZH 1:
+	'Merim excitedly deciphered the'
+	R
+	'writing on the inscription.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Um...'
+	\L_076a4:
+	ZH 1:
+	'Hmm...'
+	\L_076a4:
+	ZH 1:
+	'Hmhmhm...'
+	R
+	'Oh...'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Once Merim finished reading it,'
+	R
+	'she moved her finger in a'
+	R
+	'strange way to touch some sort'
+	R
+	'of switch on the inscription.'
+	\L_076a4:
+	ZH 1:
+	'　　＜Pwah...＞'
+	\L_076a4:
+	ZH 1:
+	'When she did, a blue,'
+	R
+	'brilliant light floated up'
+	R
+	'from inside it.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	X 1:
+	'!!'
+	R
+	'Please take that. Quickly.'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Merim pointed at it trying to'
+	R
+	'float away over'
+	R
+	X 1:
+	'’s head and'
+	R
+	'shouted.'
+	\L_076a4:
+	ZH 1:
+	X 1:
+	' frantically'
+	R
+	'grabbed it.'
+	\L_076a4:
+	\L_07697:
+	!VAR0091 : VAR0091 + 2!
+	\L_075a9:
+	ZH 1:
+	'　　＜paah...!!＞'
+	\L_076a4:
+	ZH 1:
+	'It shined brightly in'
+	R
+	X 1:
+	'’s hands for an'
+	R
+	'instant, then burst open.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'That was a legendary HP'
+	R
+	'medicine.'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Merim said to '
+	X 1:
+	','
+	R
+	'who was still stunned.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Now your maximum HP has'
+	R
+	'increased by 2.'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Merim smiled.'
+	\L_076a4:
+	\L_07697:
+	\0:
+*L_064b1:
+	!VAR0516 : 63!
+	\L_075c5:
+	\L_07571:
+	ZH 1:
+	'This is...'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Merim sat in a corner of the'
+	R
+	'dungeon.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Ah, I know what this is...'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Then she happily took out her'
+	R
+	'notes.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Uum...'
+	R
+	'I’m pretty sure it’s...'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'She investigated something.'
+	R
+	'Then she pulled a small hammer'
+	R
+	'out of her bag.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Yah!'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'　　＜smash＞'
+	\L_076a4:
+	ZH 1:
+	'Then she hit something with'
+	R
+	'the hammer.'
+	\L_076a4:
+	ZH 1:
+	'　　＜pwah～...＞'
+	\L_076a4:
+	ZH 1:
+	'A black light appeared from'
+	R
+	'the place Merim hammered.'
+	\L_076a4:
+	ZH 1:
+	'Then that light enveloped'
+	R
+	X 1:
+	'’s body.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Please don’t panic, you’ll be'
+	R
+	'okay. This is a legendary'
+	R
+	'treasure. It’s said that this'
+	R
+	'light increases magic power.'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Merim held back'
+	R
+	X 1:
+	', who was'
+	R
+	'panicking and trying to run.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'There’s no mistake. Your magic'
+	R
+	'power should have increased.'
+	\L_076a4:
+	ZH 1:
+	'Wow... I can’t believe that'
+	R
+	'was here... Dungeons are'
+	R
+	'treasuries full of mysteries.'
+	\L_076a4:
+	ZH 1:
+	'I’m super happy.'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Merim seemed glad and spun'
+	R
+	'around.'
+	\L_076a4:
+	\L_07697:
+	!VAR0093 : VAR0093 + 1!
+	\L_07697:
+	\0:
+*L_066db:
+	!VAR0516 : 63!
+	\L_075c5:
+	\L_07571:
+	ZH 1:
+	'Aaaah!!'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Merim shouted and headed to a'
+	R
+	'filthy blue rock lying on the'
+	R
+	'ground in a nook of the'
+	R
+	'dungeon.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'This is...'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Merim touched it all over.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Um...'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Then she took out a notepad'
+	R
+	'and started to investigate'
+	R
+	'something.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Uhu...'
+	\L_076a4:
+	ZH 1:
+	'Uhuhu...'
+	\L_076a4:
+	ZH 1:
+	'Huhu...'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Her serious face became'
+	R
+	'increasingly delighted.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'No way...'
+	R
+	'Could this really be??'
+	R
+	'Kyaaah!'
+	R
+	'I can’t believe it!'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	X 1:
+	' noticed'
+	R
+	'Merim writing something down'
+	R
+	'and approached her.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'This is a rock known as a'
+	R
+	'Super Egg.'
+	\L_076a4:
+	ZH 1:
+	'It’s said that the god Planner'
+	R
+	'only made 3 of them, and they'
+	R
+	'have the ability to strengthen'
+	R
+	'people.'
+	\L_076a4:
+	ZH 1:
+	'But... Thinking about it'
+	R
+	'rationally, such a thing can’t'
+	R
+	'possibly be real.'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'　　＜crack＞'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Huh...?'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'The Super Egg split in Merim’s'
+	R
+	'hand, emitting a white mist'
+	R
+	'that covered '
+	X 1:
+	'.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Ah... No way!'
+	R
+	'Wh-Wh-Wh-What do I do?!'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'While Merim was panicking, the'
+	R
+	'fog disappeared.'
+	R
+	'Within, '
+	X 1:
+	' was'
+	R
+	'standing, dumbfounded.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Ah... Thank goodness...'
+	R
+	'Are you okay?'
+	R
+	'Do you feel alright?'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Merim panicked and touched'
+	R
+	X 1:
+	' all over.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'...Everything looks okay...'
+	R
+	'But...'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'True to the legend,'
+	R
+	X 1:
+	' got a massive'
+	R
+	'power up.'
+	\L_076a4:
+	\L_07697:
+	!VAR0091 : VAR0091 + 10!
+	!VAR0087 : VAR0087 + 5!
+	!VAR0088 : VAR0088 + 5!
+	!VAR0093 : VAR0093 + 3!
+	\L_075a9:
+	ZH 1:
+	'Max HP increased by 10.'
+	\L_076a4:
+	ZH 1:
+	'Attack increased by 5.'
+	\L_076a4:
+	ZH 1:
+	'Defense increased by 5.'
+	\L_076a4:
+	ZH 1:
+	'Magic power increased by 3.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Wow...'
+	R
+	'The legend was true...'
+	\L_076a4:
+	\L_07697:
+	\0:
+*L_06aa0:
+	!VAR0516 : 1!
+	\L_075c5:
+	!VAR0516 : 452!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'Heeeeeey.'
+	R
+	'Your Majesty.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'What, Galtia?'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'About going to the dungeon...'
+	R
+	'Can you leave me out of it?'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Why?'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'I have a promise to keep with'
+	R
+	'Martina. We’re going to gather'
+	R
+	'some rare edible plants that'
+	R
+	'grow in the mountains...'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Agh... A date??'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Hmmm... You could say that,'
+	R
+	'but... Maybe not. At any rate,'
+	R
+	'I have to do it if I wanna eat'
+	R
+	'good stuff... Wahahahahaha.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Aaaah, man.'
+	R
+	'Got it, got it.'
+	R
+	'Go wherever you want.'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Heheheh.'
+	R
+	'Sorry, King.'
+	\L_076a4:
+	\L_07697:
+	\L_075d3:
+	\L_07643:
+	\0:
+*L_06bf2:
+	!VAR0516 : 1!
+	\L_075c5:
+	!VAR0516 : 429!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'Um... King Rance...'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Aah, Hawzel.'
+	R
+	'What is it?'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Um... Can you excuse us from'
+	R
+	'exploring the dungeon?'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Why?'
+	\L_076a4:
+	\L_07697:
+	\L_07643:
+	!VAR0516 : 428!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'We don’t wanna go. We wanna'
+	R
+	'relax for a while.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'.........'
+	\L_076a4:
+	ZH 1:
+	'Easy enough to understand, I'
+	R
+	'guess...'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'It’s okay, right?'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'...Do what you want.'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Uhu, lucky us.'
+	R
+	'Let’s go, Hawzel.'
+	R
+	'We’re making a cake today.'
+	\L_076a4:
+	\L_07697:
+	\L_07643:
+	!VAR0516 : 429!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'Sorry, King Rance.'
+	\L_076a4:
+	\L_07697:
+	\L_075d3:
+	\L_07643:
+	\0:
+*L_06d69:
+	!VAR0516 : 1!
+	\L_075c5:
+	!VAR0516 : 54!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'Um... Your Majesty...'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'What?'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'I... I’m scared to go in the'
+	R
+	'dungeon... So... Um...'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'...Got it...'
+	R
+	'I’ll excuse you from exploring'
+	R
+	'the dungeon...'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Thank you...'
+	\L_076a4:
+	ZH 1:
+	'Um... Sorry... Your Majesty...'
+	\L_076a4:
+	\L_07697:
+	\L_075d3:
+	\L_07643:
+	\0:
+*L_06e2e:
+	!VAR0516 : 1!
+	\L_075c5:
+	!VAR0516 : 447!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'............'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'What is it, Meglass?'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Don’t make me do these absurd'
+	R
+	'things...'
+	\L_076a4:
+	\L_07697:
+	\L_07643:
+	\L_075a9:
+	ZH 1:
+	'With that, Meglass disappeared.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'What was that about...?'
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : 6!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'I think he was refusing to'
+	R
+	'explore the dungeon...'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Mgh... Obnoxious jerk...'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'You should pick somebody else.'
+	\L_076a4:
+	\L_07697:
+	\L_075d3:
+	\L_07643:
+	\0:
+*L_06f37:
+	!VAR0516 : 1!
+	\L_075c5:
+	!VAR0516 : 75!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'Rance.'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'What?'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'I don’t have time to go to'
+	R
+	'dungeons. Make someone else go.'
+	R
+	'That’s all I have to say to'
+	R
+	'you. We’re leaving, Caesar.'
+	\L_076a4:
+	\L_07697:
+	\L_07643:
+	!VAR0516 : 444!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'YES, MS. SATELLA.'
+	\L_076a4:
+	\L_07697:
+	\L_075d3:
+	\L_07643:
+	\0:
+*L_06fe4:
+	!VAR0160 : 11!
+	{VAR0150 = 100:
+		\L_075e1:
+		ZH 1:
+		'The great snowfall here makes'
+		R
+		'it very dangerous, but thanks'
+		R
+		'to the [Snow Charm] it’s just'
+		R
+		'barely possible to progress.'
+		\L_076a4:
+		ZH 1:
+		'Even then, though, you must be'
+		R
+		'careful. It would be wise for'
+		R
+		'the unit going to the dungeon'
+		R
+		'to remain cautious.'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'Alright, mhm.'
+		\L_076a4:
+		\L_07697:
+	}
+	{VAR0150 = 0:
+		\L_075e1:
+		ZH 1:
+		'King Rance, are you sure about'
+		R
+		'this?'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'About what?'
+		\L_076a4:
+		\L_07697:
+		\L_075e1:
+		ZH 1:
+		'The great snowfall here makes'
+		R
+		'it very dangerous.'
+		\L_076a4:
+		ZH 1:
+		'I fear that many troops will'
+		R
+		'die from frostbite or other'
+		R
+		'disasters on the way to the'
+		R
+		'destination...'
+		\L_076a4:
+		\L_07697:
+		\L_07571:
+		ZH 1:
+		'I see. I hate the cold, so'
+		R
+		'I’ll send somebody else’s unit.'
+		\L_076a4:
+		\L_07697:
+		\L_075e1:
+		ZH 1:
+		'............'
+		\L_076a4:
+		\L_07697:
+	}
+	\0:
+*L_0712e:
+	\L_07697:
+	!VAR0516 : 1!
+	\L_075c5:
+	\L_0758d:
+	ZH 1:
+	'I’ve got it, if I have Sill go'
+	R
+	'in this Uncurse Spring, maybe'
+	R
+	'she’ll change back to normal...'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Hey, you.'
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : 471!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'Yes, King Rance?'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Go to my room and...'
+	\L_076a4:
+	\L_07697:
+	\L_0758d:
+	ZH 1:
+	'No, wait... It’s dangerous.'
+	R
+	'With Sill looking like a'
+	R
+	'monster, if she got lost'
+	R
+	'inside, then...'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'What is it, King Rance?'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Shut up, it’s nothing.'
+	R
+	'Leave.'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'Yes, Your Majesty.'
+	\L_076a4:
+	\L_07697:
+	\L_07643:
+	\L_0758d:
+	ZH 1:
+	'I should think of another'
+	R
+	'way...'
+	\L_076a4:
+	ZH 1:
+	'Come to think of it...'
+	R
+	'Maris said something about'
+	R
+	'going to Ho Raga’s Tower...'
+	\L_076a4:
+	\L_07697:
+	{VAR0492 \ 0:
+		\L_0758d:
+		ZH 1:
+		'That perverted old man’s'
+		R
+		'place... I don’t wanna do that.'
+		\L_076a4:
+		\L_07697:
+	}
+	!VAR0516 : 0!
+	%#M.ADV:
+	@L_0076a:
+*L_072b8:
+	!VAR0480 : 1!
+	\L_07697:
+	!VAR0516 : 1!
+	\L_075c5:
+	\L_07571:
+	ZH 1:
+	'Hey, Merim.'
+	R
+	'Want to search the dungeon'
+	R
+	'together?'
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : 63!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'Yes, please take me.'
+	R
+	'Nothing would make me happier.'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Merim joined the search party.'
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : 0!
+	%#M.ADV:
+	@L_0076a:
+*L_07344:
+	!VAR0480 : 0!
+	\L_07697:
+	!VAR0516 : 1!
+	\L_075c5:
+	\L_07571:
+	ZH 1:
+	'Hmmm, Merim.'
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : 63!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'Yes! Uuum...'
+	R
+	'Are we not beginning the'
+	R
+	'search yet?'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'It’s gonna be dangerous, so'
+	R
+	'I’m leaving you behind.'
+	\L_076a4:
+	\L_07697:
+	\L_075fd:
+	ZH 1:
+	'Uu... You said you’d bring me'
+	R
+	'with, though...'
+	\L_076a4:
+	ZH 1:
+	'You’re a liar, Rance...'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Thus, Merim was left behind.'
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : 0!
+	%#M.ADV:
+	@L_0076a:
+*L_07418:
+	!VAR0516 : 6!
+	\L_07635:
+	\L_075e1:
+	ZH 1:
+	'King Rance. We searched a'
+	R
+	'distant location already this'
+	R
+	'week.'
+	R
+	'We can’t do it again.'
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : 1!
+	\L_075c5:
+	\L_07571:
+	ZH 1:
+	'Don’t say that, we can do more.'
+	\L_076a4:
+	\L_07697:
+	\L_075e1:
+	ZH 1:
+	'It would be too much...'
+	\L_076a4:
+	\L_07697:
+	\L_07571:
+	ZH 1:
+	'Damn it... Gah...'
+	\L_076a4:
+	\L_07697:
+	\L_075a9:
+	ZH 1:
+	'Rance reluctantly gave up on'
+	R
+	'exploring.'
+	\L_076a4:
+	\L_07697:
+	!VAR0516 : 0!
+	%#M.ADV:
+	%0:
+*L_074d0:
+	{(VAR0162 \ 5) * (VAR0162 \ 7) * (VAR0162 \ 11) * (VAR0162 \ 12) * (VAR0162 \ 17):
+		!VAR0516 : 0!
+		!VAR0000 : 74!
+		%#PCMPLAY.ADV:
+	}
+	\0:
+*L_07506:
+	!VAR0516 : 3!
+	%#PCMPLAY.ADV:
+	\0:
+*L_07514:
+	{VAR0071 = 1:
+		SS 0:
+	}
+	!VAR0516 : 0!
+	!VAR0000 : 101!
+	%#PCMPLAY.ADV:
+	\0:
+*L_0753a:
+	!VAR0516 : 3!
+	%#PCMPLAY.ADV:
+	{VAR0071 = 1:
+		SS 21:
+	}
+	\0:
+*L_0755b:
+	IM VAR0019, VAR0020:
+	\0:
+*L_07566:
+	IZ VAR0019, VAR0020:
+	\0:
+*L_07571:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0758d:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_075a9:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_075c5:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+*L_075d3:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_075e1:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+*L_075fd:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+*L_07619:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_07635:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_07643:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+*L_07651:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0766d:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0767b:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_07689:
+	!VAR0521 : 333!
+	%#WAO_SUB.ADV:
+	\0:
+*L_07697:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_076a4:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:
+*L_076be:
+	!VAR0521 : 3!
+	%#WAO_SUB.ADV:
+	\0:
+*L_076cb:
+	!VAR0521 : 4!
+	%#WAO_SUB.ADV:
+	\0:

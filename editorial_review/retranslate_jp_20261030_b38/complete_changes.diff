@@ -1,0 +1,2976 @@
+--- before/Gｶｲﾄ.ADV
++++ src/Gｶｲﾄ.ADV
+@@ -39,16 +39,13 @@
+ 	\L_021b3:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Leazas'
++	'Điện yết kiến Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Phòng yết kiến Maris'
+-	R
+-	'đến trước ngai vàng với vẻ'
+-	R
+-	'mặt bình tĩnh như thường lệ.'
++	'Maris tới trước ngai vàng,'
++	R
++	'vẻ bình thản như thường lệ.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_021eb:
+@@ -96,16 +93,16 @@
+ 	\L_02293:
+ 	\L_021b3:
+ 	ZH 1:
+-	'Rance đưa'
+-	R
+-	'tay ra và Suzume lịch'
+-	R
+-	'sự lau tay bằng khăn.'
+-	\L_022a0:
+-	\L_02293:
+-	\L_021eb:
+-	ZH 1:
+-	'Xin lỗi...'
++	'Rance chìa tay ra,'
++	R
++	'Suzume cẩn thận dùng'
++	R
++	'khăn lau cho hắn.'
++	\L_022a0:
++	\L_02293:
++	\L_021eb:
++	ZH 1:
++	'Xin thất lễ...'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_0224d:
+@@ -139,18 +136,18 @@
+ 	\L_02293:
+ 	\L_021eb:
+ 	ZH 1:
+-	'Vâng. Về ma nhân Kite đang'
+-	R
+-	'tấn công Zeth...'
+-	\L_022a0:
+-	\L_02293:
+-	\L_0217b:
+-	ZH 1:
+-	'（Rance） Cục cơ bắp ấy à?'
+-	R
+-	'（Maris） Hắn tới Làng Xanh'
+-	R
+-	'gần như mỗi ngày.'
++	'Vâng. Về Ma Nhân Kite'
++	R
++	'đang tấn công Zeth...'
++	\L_022a0:
++	\L_02293:
++	\L_0217b:
++	ZH 1:
++	'Rance: Cục cơ bắp ấy à?'
++	R
++	'Maris: Nghe đồn hắn tới Làng'
++	R
++	'Xanh gần như mỗi ngày.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_0217b:
+@@ -163,20 +160,20 @@
+ 	'Vâng.'
+ 	\L_022a0:
+ 	ZH 1:
+-	'Nơi cách ly bệnh nhân Xanh'
+-	R
+-	'Hóa,'
+-	\L_022a0:
+-	ZH 1:
+-	'nằm giữa Zeth và Rừng'
+-	\L_022a0:
+-	ZH 1:
+-	'Kalar.'
+-	\L_022a0:
+-	\L_02293:
+-	\L_0217b:
+-	ZH 1:
+-	'Hừm, ma nhân mà tới đó...'
++	'Đây là khu cách ly'
++	R
++	'bệnh nhân Xanh Hóa,'
++	\L_022a0:
++	ZH 1:
++	'nằm giữa Zeth'
++	\L_022a0:
++	ZH 1:
++	'và Rừng Kalar.'
++	\L_022a0:
++	\L_02293:
++	\L_0217b:
++	ZH 1:
++	'Hừm, Ma Nhân mà tới đó...'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'Chắc có lý do gì nhỉ...'
+@@ -189,9 +186,7 @@
+ 	\L_02293:
+ 	\L_02197:
+ 	ZH 1:
+-	'Có vẻ như nó'
+-	R
+-	'đáng để điều tra.'
++	'Có vẻ đáng để điều tra đấy.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	!VAR0516 : 0!
+@@ -218,11 +213,10 @@
+ 	\L_021b3:
+ 	ZM 32:
+ 	ZH 1:
+-	'Ma Giới,'
++	'Ma Giới'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+ 	'khu rừng gần lâu đài'
+ 	R
+ 	'Kesselring.'
+@@ -233,7 +227,7 @@
+ 	'trong rừng.'
+ 	\L_022a0:
+ 	ZH 1:
+-	'（Kesselring） Cuối cùng'
++	'Kesselring: Cuối cùng'
+ 	R
+ 	'ngài cũng xuất trận sao...'
+ 	\L_022a0:
+@@ -257,14 +251,14 @@
+ 	\L_02293:
+ 	\L_021eb:
+ 	ZH 1:
+-	'Ngài ghét con người, dùng'
+-	R
+-	'tay giết họ, rồi'
+-	\L_022a0:
+-	ZH 1:
+-	'cũng đôi tay ấy lại ôm trẻ'
+-	R
+-	'loài người mà mỉm cười.'
++	'Ngài ghét con người,'
++	R
++	'dùng đôi tay giết họ,'
++	\L_022a0:
++	ZH 1:
++	'mà cũng đôi tay ấy lại ôm'
++	R
++	'trẻ loài người, mỉm cười.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_0217b:
+@@ -274,9 +268,9 @@
+ 	\L_02293:
+ 	\L_021eb:
+ 	ZH 1:
+-	'Cậu có thấy điều'
+-	R
+-	'đó cũng lạ không?'
++	'Chính ngài cũng'
++	R
++	'thấy lạ, phải không?'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_0217b:
+@@ -286,14 +280,16 @@
+ 	'Lại dùng kính ngữ với'
+ 	\L_022a0:
+ 	ZH 1:
+-	'kẻ tầm thường chỉ vừa thành'
+-	R
+-	'ma nhân như tôi.'
+-	\L_022a0:
+-	\L_02293:
+-	\L_021eb:
+-	ZH 1:
+-	'Hừ... Tính tôi vốn vậy mà.'
++	'kẻ tầm thường chỉ vừa'
++	R
++	'thành Ma Nhân như tôi.'
++	\L_022a0:
++	\L_02293:
++	\L_021eb:
++	ZH 1:
++	'Hừ... Chà...'
++	R
++	'Tính tôi vốn vậy.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_0217b:
+@@ -305,11 +301,11 @@
+ 	\L_02293:
+ 	\L_0217b:
+ 	ZH 1:
+-	'Bây giờ tôi'
+-	R
+-	'sẽ chia tay ở đây...'
+-	R
+-	'Xin lỗi, ông Kesselring.'
++	'Vậy tôi xin chia tay'
++	R
++	'ở đây... Phiền ngài'
++	R
++	'rồi, Kesselring.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_021eb:
+@@ -336,21 +332,21 @@
+ 	\L_02293:
+ 	\L_0217b:
+ 	ZH 1:
+-	'... Đó có phải là'
+-	R
+-	'điều cậu muốn nói đến không?'
+-	\L_022a0:
+-	\L_02293:
+-	\L_021eb:
+-	ZH 1:
+-	'Vâng... Đó không phải là'
+-	R
+-	'hành vi giống ma nhân lắm...'
+-	\L_022a0:
+-	ZH 1:
+-	'Con người chết'
+-	R
+-	'trước khi chúng ta chết.'
++	'... Ngài muốn nói'
++	R
++	'chuyện ấy sao?'
++	\L_022a0:
++	\L_02293:
++	\L_021eb:
++	ZH 1:
++	'Vâng... Hành vi ấy có phần'
++	R
++	'không giống Ma Nhân...'
++	\L_022a0:
++	ZH 1:
++	'Hơn nữa, con người sẽ'
++	R
++	'chết trước chúng ta.'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'Tôi biết quá'
+@@ -367,9 +363,9 @@
+ 	'cứu các em ấy.'
+ 	\L_022a0:
+ 	ZH 1:
+-	'Vì thế mà thành ma nhân. Tôi'
+-	R
+-	'hiểu...'
++	'Tôi thành Ma Nhân cũng vì'
++	R
++	'việc ấy. Tôi biết chứ...'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'mình ngu ngốc thế nào...'
+@@ -422,25 +418,26 @@
+ 	\L_021b3:
+ 	ZM 32:
+ 	ZH 1:
+-	'Zeth,'
++	'Zeth - Làng Xanh'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Làng Xanh. Đây là khu cách'
+-	R
+-	'ly'
+-	\L_022a0:
+-	ZH 1:
+-	'người mắc bệnh Xanh Hóa,'
+-	R
+-	'bệnh'
+-	\L_022a0:
+-	ZH 1:
+-	'nan y chỉ thiếu nữ tuổi mười'
+-	\L_022a0:
+-	ZH 1:
+-	'mấy mắc phải.'
++	'Đây là khu cách ly'
++	\L_022a0:
++	ZH 1:
++	'những người mắc'
++	R
++	'bệnh Xanh Hóa,'
++	\L_022a0:
++	ZH 1:
++	'một bệnh nan y'
++	R
++	'chỉ các cô gái'
++	\L_022a0:
++	ZH 1:
++	'tuổi từ mười đến'
++	R
++	'mười chín mới mắc.'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'Toàn thân chuyển xanh, chưa'
+@@ -448,12 +445,12 @@
+ 	'đầy mười năm sẽ chết.'
+ 	\L_022a0:
+ 	ZH 1:
+-	'Sợ lây qua tiếp'
+-	\L_022a0:
+-	ZH 1:
+-	'xúc, người ta đưa họ tới'
+-	R
+-	'đây.'
++	'Vì sợ lây qua tiếp xúc,'
++	\L_022a0:
++	ZH 1:
++	'người mắc bệnh bị'
++	R
++	'đưa tới đây cách ly.'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'Mỗi năm toàn lục địa có'
+@@ -461,35 +458,43 @@
+ 	'khoảng sáu mươi ca mắc.'
+ 	\L_022a0:
+ 	ZH 1:
+-	'Làng nằm sát biên giới Rừng'
+-	R
+-	'Quái'
+-	\L_022a0:
+-	ZH 1:
+-	'Vật, như bị bỏ mặc.'
+-	\L_022a0:
+-	ZH 1:
+-	'Không lính gác, có thể bị'
+-	R
+-	'Quái Vật diệt sạch bất'
+-	\L_022a0:
+-	ZH 1:
+-	'cứ lúc nào... Người quanh'
+-	R
+-	'vùng còn mong vậy.'
+-	\L_022a0:
+-	ZH 1:
+-	'Kite tới nơi ở bị lãng quên'
+-	\L_022a0:
+-	ZH 1:
+-	'ấy, rồi thản nhiên bước vào.'
++	'Làng nằm sát biên'
++	R
++	'giới Rừng Quái Vật,'
++	\L_022a0:
++	ZH 1:
++	'có thể nói là nơi bị bỏ mặc.'
++	\L_022a0:
++	ZH 1:
++	'Không có lính bảo'
++	R
++	'vệ, cả làng có thể'
++	R
++	'bị Quái Vật diệt sạch'
++	\L_022a0:
++	ZH 1:
++	'bất cứ lúc nào...'
++	R
++	'Không, người quanh'
++	R
++	'vùng còn mong thế.'
++	\L_022a0:
++	ZH 1:
++	'Kite tới nơi ở của những'
++	R
++	'người bị lãng quên ấy,'
++	\L_022a0:
++	ZH 1:
++	'rồi thản nhiên'
++	R
++	'bước vào làng.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	!VAR0516 : 57!
+ 	\L_0223f:
+ 	\L_021eb:
+ 	ZH 1:
+-	'Kite.'
++	'Anh Kite.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_0217b:
+@@ -506,9 +511,9 @@
+ 	\L_02293:
+ 	\L_02223:
+ 	ZH 1:
+-	'Nụ cười của Calorie'
+-	R
+-	'tuy buồn nhưng lại vui.'
++	'Calorie mỉm cười, vẻ vừa'
++	R
++	'buồn bã, vừa hạnh phúc.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_0217b:
+@@ -518,33 +523,33 @@
+ 	\L_02293:
+ 	\L_02223:
+ 	ZH 1:
+-	'Calorie là một trong những'
+-	R
+-	'cô gái bị nhiễm bệnh xanh'
+-	R
+-	'lá cây và bị bỏ rơi ở đây.'
+-	\L_022a0:
+-	ZH 1:
+-	'Nhưng nàng siêng năng'
+-	R
+-	'đảm nhận gánh nặng chăm sóc'
+-	\L_022a0:
+-	ZH 1:
+-	'tất cả các cô gái khác'
+-	R
+-	'và cố gắng giúp đỡ họ.'
+-	\L_022a0:
+-	ZH 1:
+-	'Kite đang đứng đối diện'
+-	R
+-	'với nàng. Anh nắm lấy tay cô'
+-	R
+-	'và nhét một túi tiền vào đó.'
+-	\L_022a0:
+-	\L_02293:
+-	\L_0217b:
+-	ZH 1:
+-	'Lấy nó.'
++	'Calorie cũng là cô'
++	R
++	'gái mắc bệnh Xanh'
++	R
++	'Hóa, bị bỏ rơi ở đây.'
++	\L_022a0:
++	ZH 1:
++	'Nhưng cô vẫn kiên'
++	R
++	'cường gánh vác'
++	\L_022a0:
++	ZH 1:
++	'mọi việc chăm sóc, giúp đỡ'
++	R
++	'những cô gái bị bỏ rơi khác.'
++	\L_022a0:
++	ZH 1:
++	'Đứng đối diện cô, Kite'
++	R
++	'nắm tay Calorie, đặt túi'
++	R
++	'tiền vào lòng bàn tay.'
++	\L_022a0:
++	\L_02293:
++	\L_0217b:
++	ZH 1:
++	'Em cứ giữ lấy.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_021eb:
+@@ -606,33 +611,33 @@
+ 	\L_02293:
+ 	\L_02223:
+ 	ZH 1:
+-	'Ai cũng biết thuốc bán ngoài'
+-	R
+-	'thị'
+-	\L_022a0:
+-	ZH 1:
+-	'trường, cả những bí dược,'
+-	R
+-	'đều vô hiệu trước'
+-	\L_022a0:
+-	ZH 1:
+-	'bệnh Xanh Hóa. Nhưng Calorie'
+-	R
+-	'và những bệnh'
+-	\L_022a0:
+-	ZH 1:
+-	'nhân khác vẫn muốn cố bám'
+-	R
+-	'víu vào điều gì đó.'
+-	\L_022a0:
+-	\L_02293:
+-	\L_0217b:
+-	ZH 1:
+-	'（Kite） Tôi sẽ trở lại.'
+-	R
+-	'（Calorie） Xin chờ đã. Để'
+-	R
+-	'em'
++	'Ai cũng biết thuốc'
++	R
++	'bán ngoài thị trường,'
++	\L_022a0:
++	ZH 1:
++	'cho đến đủ loại bí'
++	R
++	'dược, đều vô hiệu'
++	\L_022a0:
++	ZH 1:
++	'với bệnh Xanh Hóa.'
++	R
++	'Nhưng Calorie cùng'
++	R
++	'các bệnh nhân khác,'
++	\L_022a0:
++	ZH 1:
++	'dù vậy, vẫn muốn cố'
++	R
++	'bám víu vào điều gì đó.'
++	\L_022a0:
++	\L_02293:
++	\L_0217b:
++	ZH 1:
++	'Kite: Tôi sẽ lại tới.'
++	R
++	'Calorie: Xin chờ đã. Để em'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'pha trà. Mọi người biết anh'
+@@ -642,7 +647,7 @@
+ 	\L_02293:
+ 	\L_0217b:
+ 	ZH 1:
+-	'... Vậy sao? Sau đó...'
++	'... Vậy sao? Thế thì...'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_021eb:
+@@ -652,9 +657,9 @@
+ 	\L_02293:
+ 	\L_02223:
+ 	ZH 1:
+-	'Calorie hơi đỏ mặt và'
+-	R
+-	'bước đến trước mặt Kite.'
++	'Má hơi ửng hồng, Calorie đi'
++	R
++	'trước dẫn đường cho Kite.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	!VAR0516 : 0!
+@@ -679,16 +684,13 @@
+ 	\L_021b3:
+ 	ZM 32:
+ 	ZH 1:
+-	'Zeth'
++	'Zeth - Làng Xanh'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Làng Xanh Kite'
+-	R
+-	'quay trở lại ngôi làng'
+-	R
+-	'bị con người bỏ rơi.'
++	'Kite lại tới ngôi làng vắng,'
++	R
++	'chẳng rõ có ai sinh sống.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	!VAR0516 : 57!
+@@ -711,7 +713,7 @@
+ 	'À...'
+ 	\L_022a0:
+ 	ZH 1:
+-	'Uu... Kite...!!'
++	'Hức... Anh Kite...!!'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_021b3:
+@@ -723,11 +725,11 @@
+ 	\L_02293:
+ 	\L_021eb:
+ 	ZH 1:
+-	'（Calorie） Lyla đã...!'
+-	R
+-	'（Kite） Em bị nặng nhất'
+-	R
+-	'ấy... làm sao?'
++	'Calorie: Lyla đã...! Kite:'
++	R
++	'Em bệnh nặng nhất, lúc tỉnh'
++	R
++	'lúc mê ấy... Làm sao?'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_021eb:
+@@ -737,9 +739,7 @@
+ 	\L_02293:
+ 	\L_0217b:
+ 	ZH 1:
+-	'... Nàng đã'
+-	R
+-	'qua đời rồi sao...?'
++	'... Em ấy đã mất rồi sao...?'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_02223:
+@@ -751,9 +751,7 @@
+ 	\L_02293:
+ 	\L_0217b:
+ 	ZH 1:
+-	'Nàng có ra'
+-	R
+-	'đi thanh thản không?'
++	'Em ấy ra đi thanh thản chứ?'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_02223:
+@@ -778,12 +776,12 @@
+ 	\L_02293:
+ 	\L_021eb:
+ 	ZH 1:
+-	'Cô ấy tự sát rồi...'
+-	\L_022a0:
+-	ZH 1:
+-	'Vừa nãy... Cô nhớ lúc mắc'
+-	R
+-	'bệnh,'
++	'Lyla tự sát rồi...'
++	\L_022a0:
++	ZH 1:
++	'Vừa nãy... Em ấy nhớ'
++	R
++	'lại lúc mắc bệnh,'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'cha mẹ ruột nhìn mình như'
+@@ -796,9 +794,9 @@
+ 	'bẩn thỉu...'
+ 	\L_022a0:
+ 	ZH 1:
+-	'Nhớ lại chuyện ấy, cô khóc'
+-	R
+-	'thét như điên'
++	'Nhớ lại chuyện ấy, em ấy'
++	R
++	'khóc, gào thét như điên,'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'rồi lao xuống vách đá...!!'
+@@ -811,14 +809,14 @@
+ 	\L_02293:
+ 	\L_021eb:
+ 	ZH 1:
+-	'Uu... Uuu... Và em đã nói'
+-	R
+-	'với nàng nếu nàng ở lại...'
+-	\L_022a0:
+-	ZH 1:
+-	'Cuối cùng một cái'
+-	R
+-	'gì đó tốt sẽ xảy ra...'
++	'Hức... Hức... Nếu còn ở'
++	R
++	'đây... biết đâu một ngày...'
++	\L_022a0:
++	ZH 1:
++	'sẽ có chuyện tốt'
++	R
++	'xảy đến mà...'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'Tại sao...?'
+@@ -826,9 +824,9 @@
+ 	\L_02293:
+ 	\L_02223:
+ 	ZH 1:
+-	'Calorie tiếp tục'
+-	R
+-	'khóc trong ngực Kite.'
++	'Calorie cứ thế khóc'
++	R
++	'mãi trong lòng Kite.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_02197:
+@@ -841,35 +839,33 @@
+ 	'đâu muốn mắc bệnh!'
+ 	\L_022a0:
+ 	ZH 1:
+-	'Sao dám đày đọa những cô gái'
+-	R
+-	'yếu'
+-	\L_022a0:
+-	ZH 1:
+-	'đuối thế này?'
++	'Sao có thể đày'
++	R
++	'đọa những cô gái'
++	\L_022a0:
++	ZH 1:
++	'yếu đuối đến thế này?'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'Không tha được...'
+ 	\L_022a0:
+ 	ZH 1:
+-	'Chúng tự cho mình là độc'
+-	R
+-	'tôn, ngang'
+-	\L_022a0:
+-	ZH 1:
+-	'nhiên kiêu ngạo, chỉ cần'
+-	R
+-	'mình yên ổn.'
+-	\L_022a0:
+-	ZH 1:
+-	'Hành hạ kẻ yếu rồi tưởng cảm'
+-	R
+-	'giác'
+-	\L_022a0:
+-	ZH 1:
+-	'hơn người ấy là chính'
+-	R
+-	'đáng...'
++	'Chúng tin chỉ mình'
++	R
++	'chúng là độc tôn,'
++	\L_022a0:
++	ZH 1:
++	'phô hết vẻ kiêu ngạo ấy, chỉ'
++	R
++	'cần bản thân được yên ổn.'
++	\L_022a0:
++	ZH 1:
++	'Hành hạ kẻ yếu rồi tin rằng'
++	\L_022a0:
++	ZH 1:
++	'cảm giác hơn người'
++	R
++	'ấy là chính đáng...'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'Chính chúng mới điên, mới'
+@@ -877,12 +873,16 @@
+ 	'đáng chết.'
+ 	\L_022a0:
+ 	ZH 1:
+-	'Tôi sẽ cho chúng biết.'
+-	\L_022a0:
+-	ZH 1:
+-	'Tôi đã nghĩ vậy từ trước'
+-	R
+-	'lệnh Kayblis... Lũ người,'
++	'Ta sẽ cho chúng'
++	R
++	'biết điều đó.'
++	\L_022a0:
++	ZH 1:
++	'Phải... Ta đã nghĩ'
++	R
++	'thế từ trước khi ngài'
++	R
++	'Kayblis ra lệnh...'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'tao sẽ cho chúng mày nếm nỗi'
+@@ -895,11 +895,11 @@
+ 	\L_02293:
+ 	\L_021b3:
+ 	ZH 1:
+-	'Kite ôm lấy cơ thể'
+-	R
+-	'nhỏ bé của Calorie trong khi'
+-	R
+-	'cô run rẩy dựa vào ngực anh.'
++	'Kite ôm chặt Calorie'
++	R
++	'bé nhỏ đang run rẩy'
++	R
++	'trong lòng mình.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	!VAR0516 : 0!
+@@ -930,7 +930,6 @@
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+ 	'Làng Xanh. （Kite） Calorie.'
+ 	\L_022a0:
+ 	\L_02293:
+@@ -946,33 +945,33 @@
+ 	\L_02293:
+ 	\L_021b3:
+ 	ZH 1:
+-	'Kite cho Calorie xem'
+-	R
+-	'cục thịt khổng lồ trên tay.'
+-	\L_022a0:
+-	\L_02293:
+-	\L_021eb:
+-	ZH 1:
+-	'Chà... Chà! Đây'
+-	R
+-	'là một số thịt chất'
+-	R
+-	'lượng... Cám ơn...'
+-	\L_022a0:
+-	\L_02293:
+-	\L_0217b:
+-	ZH 1:
+-	'Nó là gì?'
++	'Kite nhấc bổng bằng'
++	R
++	'một tay tảng thịt quá'
++	R
++	'lớn so với Calorie.'
++	\L_022a0:
++	\L_02293:
++	\L_021eb:
++	ZH 1:
++	'Ôi... Tuyệt quá! Tảng thịt'
++	R
++	'ngon thế này... Em cảm ơn...'
++	\L_022a0:
++	\L_02293:
++	\L_0217b:
++	ZH 1:
++	'Sao thế?'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_02223:
+ 	ZH 1:
+-	'Kite không bỏ sót nét bất an'
+-	R
+-	'thoáng'
+-	\L_022a0:
+-	ZH 1:
+-	'qua mặt Calorie.'
++	'Kite không bỏ sót vẻ bất an'
++	\L_022a0:
++	ZH 1:
++	'thoáng qua trên'
++	R
++	'gương mặt Calorie.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_021eb:
+@@ -1011,12 +1010,14 @@
+ 	\L_02293:
+ 	\L_021eb:
+ 	ZH 1:
+-	'Anh Kite... là ma nhân nhỉ?'
+-	\L_022a0:
+-	ZH 1:
+-	'Em nghe nói ma nhân ít qua'
+-	R
+-	'lại với người.'
++	'Anh Kite... là Ma'
++	R
++	'Nhân, phải không?'
++	\L_022a0:
++	ZH 1:
++	'Em nghe nói Ma Nhân ít'
++	R
++	'qua lại với con người.'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'Có thì cũng giết để mua'
+@@ -1024,14 +1025,14 @@
+ 	'vui...'
+ 	\L_022a0:
+ 	ZH 1:
+-	'Nhưng anh đâu giống thế! Mà'
+-	R
+-	'tử tế với'
+-	\L_022a0:
+-	ZH 1:
+-	'chúng em cũng chẳng có lợi'
+-	R
+-	'gì...'
++	'Nhưng trông anh đâu giống'
++	R
++	'thế! Mà tốt với chúng em'
++	\L_022a0:
++	ZH 1:
++	'cũng chẳng đem lại'
++	R
++	'lợi lộc gì cho anh...'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'Vì chúng em đáng thương sao?'
+@@ -1066,14 +1067,12 @@
+ 	\L_02293:
+ 	\L_021b3:
+ 	ZH 1:
+-	'Hiểu rằng Kite đang nghiêm'
+-	R
+-	'túc'
+-	\L_022a0:
+-	ZH 1:
+-	'kể về mình, Calorie lặng lẽ'
+-	R
+-	'lắng nghe.'
++	'Hiểu rằng Kite đang'
++	R
++	'nghiêm túc kể chuyện mình,'
++	\L_022a0:
++	ZH 1:
++	'Calorie im lặng lắng nghe.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_0217b:
+@@ -1091,18 +1090,18 @@
+ 	'lòng chăm tôi.'
+ 	\L_022a0:
+ 	ZH 1:
+-	'Rồi chị mắc bệnh'
+-	\L_022a0:
+-	ZH 1:
+-	'Xanh Hóa, bị đưa ngay tới'
+-	R
+-	'Làng Xanh.'
+-	\L_022a0:
+-	ZH 1:
+-	'Tôi'
+-	\L_022a0:
+-	ZH 1:
+-	'nài cha mẹ cho gặp,'
++	'Rồi chị mắc bệnh Xanh Hóa,'
++	\L_022a0:
++	ZH 1:
++	'lập tức bị đưa'
++	R
++	'tới Làng Xanh.'
++	\L_022a0:
++	ZH 1:
++	'Tôi muốn gặp chị,'
++	\L_022a0:
++	ZH 1:
++	'nên nài nỉ cha mẹ,'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'nhưng họ đánh tôi.'
+@@ -1116,31 +1115,31 @@
+ 	'Khi ấy tôi quyết mạnh lên.'
+ 	\L_022a0:
+ 	ZH 1:
+-	'Mạnh thì chống được cha mẹ,'
+-	R
+-	'lại kiếm'
+-	\L_022a0:
+-	ZH 1:
+-	'được tiền thưởng.'
+-	\L_022a0:
+-	ZH 1:
+-	'Học'
+-	\L_022a0:
+-	ZH 1:
+-	'quyền pháp, với tôi là cách'
+-	R
+-	'gần chị thêm'
+-	\L_022a0:
+-	ZH 1:
+-	'chút nữa.'
+-	\L_022a0:
+-	ZH 1:
+-	'Tôi mạnh'
+-	\L_022a0:
+-	ZH 1:
+-	'lên, đủ sức đập tan mọi kẻ'
+-	R
+-	'cản đường...'
++	'Mạnh thì chống được cha'
++	R
++	'mẹ cưỡng ép, lại kiếm được'
++	\L_022a0:
++	ZH 1:
++	'nhiều tiền thưởng hơn.'
++	\L_022a0:
++	ZH 1:
++	'Với tôi, luyện quyền pháp,'
++	\L_022a0:
++	ZH 1:
++	'trở nên mạnh mẽ là cách để'
++	\L_022a0:
++	ZH 1:
++	'đến gần chị hơn,'
++	R
++	'dù chỉ một bước.'
++	\L_022a0:
++	ZH 1:
++	'Rồi tôi đã mạnh lên,'
++	\L_022a0:
++	ZH 1:
++	'đủ sức đập tan mọi'
++	R
++	'kẻ cản đường...'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'Mất mười năm.'
+@@ -1154,31 +1153,31 @@
+ 	'nhiều...'
+ 	\L_022a0:
+ 	ZH 1:
+-	'Sát Rừng Quái Vật'
+-	\L_022a0:
+-	ZH 1:
+-	'nên thường bị tấn công, có'
+-	R
+-	'người chết.'
+-	\L_022a0:
+-	ZH 1:
+-	'Ai trốn về thành cũng bị'
+-	R
+-	'cưỡng'
+-	\L_022a0:
+-	ZH 1:
+-	'chế đưa lại...'
++	'Vì ở sát Rừng Quái Vật,'
++	\L_022a0:
++	ZH 1:
++	'nơi này luôn bị tấn'
++	R
++	'công, có người chết.'
++	\L_022a0:
++	ZH 1:
++	'Có rời nơi này về thành phố,'
++	\L_022a0:
++	ZH 1:
++	'cũng bị cưỡng chế'
++	R
++	'đưa trở lại...'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'Tàn nhẫn lắm.'
+ 	\L_022a0:
+ 	ZH 1:
+-	'Chị đã chết trước khi'
+-	\L_022a0:
+-	ZH 1:
+-	'tôi tới. Chết thế nào cũng'
+-	R
+-	'chẳng rõ.'
++	'Trước khi tôi tới,'
++	\L_022a0:
++	ZH 1:
++	'chị đã mất rồi. Mất'
++	R
++	'thế nào cũng chẳng rõ.'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'Họ chỉ bảo... cô gái ấy'
+@@ -1193,12 +1192,12 @@
+ 	\L_02293:
+ 	\L_0217b:
+ 	ZH 1:
+-	'Mất chị, tôi'
+-	\L_022a0:
+-	ZH 1:
+-	'sốc lắm, nhưng không thể'
+-	R
+-	'chết theo.'
++	'Mất chị, tôi sốc lắm,'
++	\L_022a0:
++	ZH 1:
++	'nhưng không thể'
++	R
++	'cứ thế mà chết.'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'May là tôi mạnh, đủ sức kiếm'
+@@ -1206,31 +1205,33 @@
+ 	'tiền.'
+ 	\L_022a0:
+ 	ZH 1:
+-	'Tôi cứ thi'
+-	\L_022a0:
+-	ZH 1:
+-	'đấu quyền pháp, dùng tiền'
++	'Tôi cứ tiếp tục kiếm tiền,'
++	\L_022a0:
++	ZH 1:
++	'bằng thi đấu quyền'
++	R
++	'pháp, cố dùng tiền'
+ 	R
+ 	'cải thiện nơi này...'
+ 	\L_022a0:
+ 	ZH 1:
+-	'Rồi chẳng biết từ lúc nào đã'
+-	R
+-	'thành'
+-	\L_022a0:
+-	ZH 1:
+-	'ma nhân. Nhưng dù mạnh lên,'
+-	R
+-	'thành'
+-	\L_022a0:
+-	ZH 1:
+-	'ma'
+-	\L_022a0:
+-	ZH 1:
+-	'nhân, thời gian trôi qua...'
+-	\L_022a0:
+-	ZH 1:
+-	'vẫn chẳng tìm được'
++	'Rồi chẳng biết từ lúc nào,'
++	\L_022a0:
++	ZH 1:
++	'tôi đã đứng vào'
++	R
++	'hàng ngũ Ma Nhân.'
++	\L_022a0:
++	ZH 1:
++	'Nhưng dù mạnh lên,'
++	R
++	'thành Ma Nhân,'
++	\L_022a0:
++	ZH 1:
++	'dù thời gian có trôi qua,'
++	\L_022a0:
++	ZH 1:
++	'vẫn chẳng thể tìm ra'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'cách chữa bệnh Xanh Hóa.'
+@@ -1251,16 +1252,16 @@
+ 	\L_02293:
+ 	\L_02197:
+ 	ZH 1:
+-	'Phải... Vì muốn họ được nói'
+-	R
+-	'rằng ít nhất những phút cuối'
+-	R
+-	'đã hạnh phúc... Tôi bám lấy'
+-	\L_022a0:
+-	ZH 1:
+-	'nơi này... cũng vì bản thân'
+-	R
+-	'mình...'
++	'Vì muốn họ nói rằng'
++	R
++	'ít nhất những phút'
++	R
++	'cuối đã hạnh phúc,'
++	\L_022a0:
++	ZH 1:
++	'tôi cứ bám lấy nơi này...'
++	R
++	'cũng vì bản thân mình...'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_021eb:
+@@ -1285,9 +1286,9 @@
+ 	\L_02293:
+ 	\L_02223:
+ 	ZH 1:
+-	'Calorie lặng lẽ ôm Kite mãi,'
+-	R
+-	'như'
++	'Calorie vẫn im'
++	R
++	'lặng ôm Kite mãi,'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'một đứa trẻ đang hết lòng dỗ'
+@@ -1302,9 +1303,9 @@
+ 	\L_02293:
+ 	\L_02223:
+ 	ZH 1:
+-	'Kite nhẹ nhàng vỗ'
+-	R
+-	'nhẹ vào đầu Calorie.'
++	'Kite cũng lặng lẽ, cứ thế'
++	R
++	'dịu dàng vuốt đầu Calorie.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	!VAR0516 : 0!
+@@ -1322,19 +1323,16 @@
+ 	\L_021b3:
+ 	ZM 32:
+ 	ZH 1:
+-	'Zeth,'
++	'Zeth'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'trước cung điện. Một người'
+-	R
+-	'đàn ông đứng bất'
+-	\L_022a0:
+-	ZH 1:
+-	'động, nhìn chằm chằm cung'
+-	R
+-	'điện.'
++	'Trước cung điện, một'
++	R
++	'người đàn ông đứng im,'
++	\L_022a0:
++	ZH 1:
++	'chăm chú nhìn cung điện.'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'Đó là Kite.'
+@@ -1342,57 +1340,63 @@
+ 	\L_02293:
+ 	\L_02197:
+ 	ZH 1:
+-	'Cung điện thật xa hoa... Còn'
+-	R
+-	'cảnh nhộn nhịp này?'
+-	\L_022a0:
+-	ZH 1:
+-	'Hẳn có bao'
+-	\L_022a0:
+-	ZH 1:
+-	'tiền bạc luân chuyển. Đẩy'
+-	R
+-	'chị'
+-	\L_022a0:
+-	ZH 1:
+-	'tôi, Calorie và các em tới'
+-	R
+-	'chốn ấy, chúng'
+-	\L_022a0:
+-	ZH 1:
+-	'chỉ tiêu tiền hưởng thụ. Một'
+-	R
+-	'bên bệnh tật khổ'
+-	\L_022a0:
+-	ZH 1:
+-	'sở, một bên thế này...'
+-	\L_022a0:
+-	ZH 1:
+-	'Nếu dùng số tiền ấy nghiên'
+-	R
+-	'cứu thì'
+-	\L_022a0:
+-	ZH 1:
+-	'hẳn sớm tìm được cách'
+-	R
+-	'chữa...'
+-	\L_022a0:
+-	ZH 1:
+-	'Lũ người kiêu ngạo'
+-	\L_022a0:
+-	ZH 1:
+-	'khốn kiếp!'
++	'Cung điện gì mà... xa'
++	R
++	'hoa đến thế... Cảnh'
++	R
++	'nhộn nhịp này nữa?'
++	\L_022a0:
++	ZH 1:
++	'Hẳn có biết bao tiền bạc'
++	\L_022a0:
++	ZH 1:
++	'đang luân chuyển.'
++	R
++	'Đẩy chị tôi,'
++	\L_022a0:
++	ZH 1:
++	'Calorie cùng mọi'
++	R
++	'người vào chốn ấy,'
++	\L_022a0:
++	ZH 1:
++	'còn chúng chỉ tiêu tiền'
++	R
++	'cho mình, sống sung sướng.'
++	\L_022a0:
++	ZH 1:
++	'Một bên khốn khổ vì bệnh'
++	R
++	'tật, một bên lại thế này...'
++	\L_022a0:
++	ZH 1:
++	'Nếu có tiền dùng vào'
++	R
++	'những việc như thế,'
++	\L_022a0:
++	ZH 1:
++	'thì tìm cách chữa'
++	R
++	'cho Calorie cùng mọi'
++	R
++	'người hẳn chẳng khó...'
++	\L_022a0:
++	ZH 1:
++	'Kiêu ngạo đến thế là cùng.'
++	\L_022a0:
++	ZH 1:
++	'Lũ người... thật khốn kiếp.'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'Phải thanh trừng.'
+ 	\L_022a0:
+ 	ZH 1:
+-	'Con người chết bao nhiêu rồi'
+-	R
+-	'cũng'
+-	\L_022a0:
+-	ZH 1:
+-	'sinh tiếp. Vì thế hệ mới,'
++	'Con người dù chết bao nhiêu,'
++	\L_022a0:
++	ZH 1:
++	'rồi cũng lại sinh ra.'
++	R
++	'Vì những thế hệ mới ấy,'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'phải mau nặn bỏ mủ độc.'
+@@ -1401,20 +1405,20 @@
+ 	\L_021dd:
+ 	\L_021b3:
+ 	ZH 1:
+-	'Ngày hôm đó,'
+-	\L_022a0:
+-	ZH 1:
+-	'Kite đã làm một đấu'
+-	R
+-	'trường tại cung điện và'
+-	\L_022a0:
+-	ZH 1:
+-	'gọi nó là một địa'
+-	R
+-	'điểm hành quyết công cộng.'
+-	\L_022a0:
+-	ZH 1:
+-	'để làm sạch rác rưởi...'
++	'Ngay trong ngày hôm đó,'
++	\L_022a0:
++	ZH 1:
++	'Kite cho xây một đấu'
++	R
++	'trường trước cung điện,'
++	\L_022a0:
++	ZH 1:
++	'mang tên pháp'
++	R
++	'trường công khai,'
++	\L_022a0:
++	ZH 1:
++	'để nặn bỏ mủ độc...'
+ 	\L_022a0:
+ 	\L_02293:
+ 	!VAR0516 : 0!
+@@ -1438,26 +1442,21 @@
+ 	\L_021b3:
+ 	ZM 32:
+ 	ZH 1:
+-	'Zeth'
++	'Cung điện Zeth'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Cung điện Zeth Hôm'
+-	R
+-	'nay Kite lại đứng ở'
+-	\L_022a0:
+-	ZH 1:
+-	'nơi hành quyết công'
+-	R
+-	'khai của một đấu trường.'
+-	\L_022a0:
+-	ZH 1:
+-	'Anh ta đang'
+-	R
+-	'đối mặt với một thương gia'
+-	R
+-	'béo mặc quần áo sang trọng.'
++	'Hôm nay, Kite lại đứng'
++	\L_022a0:
++	ZH 1:
++	'trên đấu trường dùng làm'
++	R
++	'pháp trường công khai.'
++	\L_022a0:
++	ZH 1:
++	'Đối diện hắn là gã thương'
++	R
++	'nhân béo, áo quần xa hoa.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_021eb:
+@@ -1465,12 +1464,12 @@
+ 	'Hí...'
+ 	\L_022a0:
+ 	ZH 1:
+-	'hí... Gã thương gia vừa khóc'
+-	R
+-	'vừa run, cầm kiếm'
+-	\L_022a0:
+-	ZH 1:
+-	'đối diện Kite.'
++	'Hí... Gã thương nhân'
++	R
++	'vừa khóc vừa run,'
++	\L_022a0:
++	ZH 1:
++	'tay cầm kiếm đối diện Kite.'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'Mồ hôi ướt người, mắt đầy'
+@@ -1478,11 +1477,11 @@
+ 	'lệ, mép sùi bọt.'
+ 	\L_022a0:
+ 	ZH 1:
+-	'Hắn bị ép chiến đấu.'
+-	R
+-	'（Kite） Sao? Đánh hết rồi'
+-	R
+-	'à?'
++	'Hắn bị Kite ép chiến'
++	R
++	'đấu. Kite: Sao?'
++	R
++	'Ngươi đánh hết rồi à?'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'Ta vẫn đứng đây.'
+@@ -1551,21 +1550,19 @@
+ 	\L_02293:
+ 	\L_021b3:
+ 	ZH 1:
+-	'Kite một tay ôm đầu'
+-	R
+-	'người đàn ông và siết chặt.'
+-	\L_022a0:
+-	ZH 1:
+-	'âm thanh của'
+-	R
+-	'thịt và xương bị đập vỡ'
+-	R
+-	'lan truyền khắp khu vực.'
+-	\L_022a0:
+-	ZH 1:
+-	'Máu và não'
+-	R
+-	'bay như trái chín.'
++	'Kite dùng một tay túm'
++	R
++	'đầu gã, cứ thế siết mạnh.'
++	\L_022a0:
++	ZH 1:
++	'Lập tức, tiếng thịt và xương'
++	R
++	'bị nghiền nát vang lên,'
++	\L_022a0:
++	ZH 1:
++	'rồi máu cùng óc văng tung'
++	R
++	'tóe như quả chín bị bóp vỡ.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_0217b:
+@@ -1607,23 +1604,20 @@
+ 	\L_021b3:
+ 	ZM 32:
+ 	ZH 1:
+-	'Zeth'
++	'Zeth - Làng Xanh'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Làng Xanh Kite đang'
+-	R
+-	'đứng ở lối vào Làng Xanh'
+-	R
+-	'nhìn vào làng phong cảnh.'
++	'Kite đứng im nơi lối vào,'
++	R
++	'chăm chú ngắm Làng Xanh.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	!VAR0516 : 57!
+ 	\L_0223f:
+ 	\L_021eb:
+ 	ZH 1:
+-	'Kite...'
++	'Anh Kite...'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_0217b:
+@@ -1659,7 +1653,7 @@
+ 	\L_02293:
+ 	\L_021eb:
+ 	ZH 1:
+-	'Em'
++	'Em...'
+ 	\L_022a0:
+ 	ZH 1:
+ 	'biết ơn anh Kite lắm.'
+@@ -1677,7 +1671,7 @@
+ 	\L_02293:
+ 	\L_0217b:
+ 	ZH 1:
+-	'Nó là gì?'
++	'Sao thế?'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_021eb:
+@@ -1733,9 +1727,9 @@
+ 	\L_02293:
+ 	\L_021eb:
+ 	ZH 1:
+-	'T-em xin lỗi! Ôi,'
+-	R
+-	'em đang làm gì vậy...?'
++	'Em... Em xin lỗi!'
++	R
++	'Ôi, em thật là...'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_0217b:
+@@ -1745,9 +1739,9 @@
+ 	\L_02293:
+ 	\L_021eb:
+ 	ZH 1:
+-	'Y-ngài nói'
+-	R
+-	'đúng... Ôi, em...'
++	'V... Vâng, đúng'
++	R
++	'thế... Ôi, em...'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_0217b:
+@@ -1757,7 +1751,7 @@
+ 	\L_02293:
+ 	\L_021eb:
+ 	ZH 1:
+-	'Y-Có?!'
++	'V... Vâng!'
+ 	\L_022a0:
+ 	\L_02293:
+ 	\L_0217b:
+@@ -1831,11 +1825,11 @@
+ 	\L_021cf:
+ 	\L_021b3:
+ 	ZH 1:
+-	'Hình dáng của võ'
+-	R
+-	'sĩ Kite mờ dần rồi biến'
+-	R
+-	'thành một quả cầu nhỏ.'
++	'Hình bóng Ma Nhân võ'
++	R
++	'thuật Kite mờ dần, rồi'
++	R
++	'hóa thành một quả cầu nhỏ.'
+ 	\L_022a0:
+ 	\L_02293:
+ 	!VAR0516 : 0!
+--- before/Gｶﾞﾙﾃｨｱ.ADV
++++ src/Gｶﾞﾙﾃｨｱ.ADV
+@@ -25,14 +25,13 @@
+ 	\L_01ce2:
+ 	ZM 32:
+ 	ZH 1:
+-	'Thành Leazas'
++	'Điện yết kiến Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Phòng yết kiến. Gọi Galtia'
+-	R
+-	'rồi mà... hắn chẳng tới.'
++	'Gọi Galtia rồi'
++	R
++	'mà... hắn chẳng tới.'
+ 	\L_01dcf:
+ 	\L_01dc2:
+ 	\L_01d1a:
+@@ -42,9 +41,7 @@
+ 	\L_01dc2:
+ 	\L_01caa:
+ 	ZH 1:
+-	'Liệu hắn có thể ở đó lần nữa'
+-	R
+-	'không?'
++	'Hắn lại ở chỗ đó à?'
+ 	\L_01dcf:
+ 	\L_01dc2:
+ 	\L_01d1a:
+@@ -79,7 +76,6 @@
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+ 	'Sabasaba. Quán Sakura &'
+ 	R
+ 	'Pasta. (Ngoàm ngoàm)'
+@@ -97,7 +93,9 @@
+ 	'nhất thế giới!'
+ 	\L_01dcf:
+ 	ZH 1:
+-	'Vậy rên lên vì ngon đi nào.'
++	'Martina: Vậy'
++	R
++	'trầm trồ lên nào.'
+ 	\L_01dcf:
+ 	\L_01dc2:
+ 	\L_01caa:
+@@ -132,7 +130,7 @@
+ 	\L_01dc2:
+ 	\L_01d1a:
+ 	ZH 1:
+-	'Chắc chắn rồi.'
++	'Vâng!'
+ 	\L_01dcf:
+ 	\L_01dc2:
+ 	!VAR0516 : 0!
+@@ -156,11 +154,10 @@
+ 	\L_01ce2:
+ 	ZM 32:
+ 	ZH 1:
+-	'Vùng đất của quái vật'
++	'Ma Giới'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+ 	'Dinh thự Galtia. (Ọc ọc...)'
+ 	\L_01dcf:
+ 	ZH 1:
+@@ -310,7 +307,7 @@
+ 	{VAR0690 = 1:
+ 		\L_01caa:
+ 		ZH 1:
+-		'Ngon quá!! Nó rất tốt!!'
++		'Ngon!! Ngon quá đi mất!!'
+ 		\L_01dcf:
+ 		ZH 1:
+ 		'Làm sao mà thứ henderopa này'
+@@ -345,7 +342,7 @@
+ 		'gì?'
+ 		\L_01dcf:
+ 		ZH 1:
+-		'Nôm... Omnomnom...'
++		'Ngoàm... Ngoàm ngoàm...'
+ 		\L_01dcf:
+ 		ZH 1:
+ 		'Mm... Ừm... Mm... Chụp,'
+@@ -385,9 +382,9 @@
+ 		'Vị miso rong biển.'
+ 		\L_01dcf:
+ 		ZH 1:
+-		'Humhumhuuum. Nồm... Nhai,'
+-		R
+-		'nhai...'
++		'Hư hư hừ... Ngoạm...'
++		R
++		'Rộp rộp rộp...'
+ 		\L_01dcf:
+ 		ZH 1:
+ 		'Ngon quá!! Rồi, tiếp theo là'
+@@ -419,16 +416,13 @@
+ 		\L_01ce2:
+ 		ZM 32:
+ 		ZH 1:
+-		'Thành Leazas'
++		'Điện yết kiến Leazas'
+ 		R
+ 		ZM 24:
+ 		ZH 1:
+-		R
+-		'Phòng yết kiến. Bệ hạ'
+-		R
+-		'Rance... Ma Nhân Galtia'
+-		R
+-		'lại...'
++		'Bệ hạ Rance... Ma'
++		R
++		'Nhân Galtia lại...'
+ 		\L_01dcf:
+ 		\L_01dc2:
+ 		\L_01caa:
+@@ -450,11 +444,11 @@
+ 		\L_01dc2:
+ 		\L_01ce2:
+ 		ZH 1:
+-		'Rance nói trong khi nhai'
+-		R
+-		'khoai tây chiên có hương vị'
+-		R
+-		'nước sốt.'
++		'Rance vừa nói vừa'
++		R
++		'nhai rộp rộp khoai'
++		R
++		'tây chiên vị nước sốt.'
+ 		\L_01dcf:
+ 		\L_01dc2:
+ 		\L_01caa:
+@@ -496,9 +490,9 @@
+ 		'Ừ. Kế độc dược.'
+ 		\L_01dcf:
+ 		ZH 1:
+-		'Chuẩn bị tất cả chất độc của'
+-		R
+-		'chúng ta.'
++		'Sai người chuẩn bị'
++		R
++		'đủ loại chất độc đi.'
+ 		\L_01dcf:
+ 		\L_01dc2:
+ 		\L_01d1a:
+@@ -541,11 +535,11 @@
+ 	\L_01dc2:
+ 	\L_01ce2:
+ 	ZH 1:
+-	'Galtia tiến vào lãnh thổ bị'
+-	R
+-	'chiếm đóng, thu thập kỹ càng'
+-	R
+-	'tất cả thức ăn và ăn uống.'
++	'Galtia vào vùng chiếm'
++	R
++	'đóng, vét sạch lương'
++	R
++	'thực rồi ăn ngấu nghiến.'
+ 	\L_01dcf:
+ 	\L_01dc2:
+ 	!VAR0516 : 0!
+@@ -563,7 +557,6 @@
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+ 	'Phòng yết kiến. Bệ hạ'
+ 	R
+ 	'Rance...'
+@@ -609,26 +602,24 @@
+ 	\L_01dc2:
+ 	\L_01caa:
+ 	ZH 1:
+-	'Làm sao ngươi biết được điều'
+-	R
+-	'đó?'
+-	\L_01dcf:
+-	\L_01dc2:
+-	\L_01d1a:
+-	ZH 1:
+-	'Ai đó đã kiểm tra kho chứa'
+-	R
+-	'thực phẩm sau'
+-	\L_01dcf:
+-	ZH 1:
+-	'trong kho, có người vào xem,'
+-	R
+-	'thấy một kẻ đang vui vẻ ăn'
+-	R
+-	'ngấu nghiến...'
+-	\L_01dcf:
+-	ZH 1:
+-	'khi được hỏi,'
++	'Sao biết được chuyện đó?'
++	\L_01dcf:
++	\L_01dc2:
++	\L_01d1a:
++	ZH 1:
++	'Nghe tiếng động lạ'
++	R
++	'trong kho lương thực,'
++	\L_01dcf:
++	ZH 1:
++	'có người vào xem,'
++	R
++	'bắt gặp một kẻ vui'
++	R
++	'vẻ ăn ngấu nghiến...'
++	\L_01dcf:
++	ZH 1:
++	'Người ấy hỏi đủ chuyện,'
+ 	\L_01dcf:
+ 	ZH 1:
+ 	'hắn vừa ăn vừa khai lai'
+@@ -638,9 +629,9 @@
+ 	'mất.'
+ 	\L_01dcf:
+ 	ZH 1:
+-	'Chuyện quái gì vậy... Người'
+-	R
+-	'ấy nằm mơ à?'
++	'Rance: Chuyện gì vậy...'
++	R
++	'Người đó nằm mơ à?'
+ 	\L_01dcf:
+ 	\L_01dc2:
+ 	\L_01d1a:
+@@ -657,19 +648,21 @@
+ 	'hoàn toàn.'
+ 	\L_01dcf:
+ 	ZH 1:
+-	'Sẽ tốn rất nhiều tiền để chi'
+-	R
+-	'trả cho việc này...'
+-	\L_01dcf:
+-	\L_01dc2:
+-	\L_01caa:
+-	ZH 1:
+-	'Ma Nhân không đánh quân ta,'
+-	\L_01dcf:
+-	ZH 1:
+-	'chúng ta mà là lương thực'
+-	R
+-	'của chúng ta...'
++	'Bù lại chỗ ấy... sẽ phải chi'
++	R
++	'một khoản tiền khá lớn...'
++	\L_01dcf:
++	\L_01dc2:
++	\L_01caa:
++	ZH 1:
++	'Ma Nhân không'
++	R
++	'đánh bằng vũ lực,'
++	\L_01dcf:
++	ZH 1:
++	'mà lại đánh vào'
++	R
++	'lương thực...'
+ 	\L_01dcf:
+ 	ZH 1:
+ 	'còn bực hơn là bị tấn công'
+@@ -718,14 +711,14 @@
+ 	'độc chết đi.'
+ 	\L_01dcf:
+ 	ZH 1:
+-	'Aah, đúng rồi. Đưa mệnh lệnh'
+-	R
+-	'này cho thị trưởng.'
+-	\L_01dcf:
+-	ZH 1:
+-	'Nói với công dân ở đây rằng'
+-	R
+-	'ăn thức ăn này sẽ giết họ.'
++	'À, phải rồi. Ra'
++	R
++	'lệnh cho thị trưởng,'
++	\L_01dcf:
++	ZH 1:
++	'cảnh báo người dân rằng'
++	R
++	'ăn thức ăn này sẽ chết.'
+ 	\L_01dcf:
+ 	\L_01dc2:
+ 	\L_01ce2:
+@@ -789,26 +782,23 @@
+ 	\L_01ce2:
+ 	ZM 32:
+ 	ZH 1:
+-	'Thành Leazas'
++	'Điện yết kiến Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Phòng yết kiến. Bệ hạ,'
+-	R
+-	'Galtia đã ăn thức ăn có độc'
+-	R
+-	'rồi ạ.'
+-	\L_01dcf:
+-	\L_01dc2:
+-	\L_01caa:
+-	ZH 1:
+-	'Ta hiểu rồi. Vậy là hắn...'
+-	\L_01dcf:
+-	\L_01dc2:
+-	\L_01d1a:
+-	ZH 1:
+-	'Còn sống.'
++	'Bệ hạ, Galtia đã ăn'
++	R
++	'thức ăn có độc rồi ạ.'
++	\L_01dcf:
++	\L_01dc2:
++	\L_01caa:
++	ZH 1:
++	'Thế à. Vậy là hắn...'
++	\L_01dcf:
++	\L_01dc2:
++	\L_01d1a:
++	ZH 1:
++	'Hắn còn sống ạ.'
+ 	\L_01dcf:
+ 	\L_01dc2:
+ 	\L_01caa:
+@@ -848,7 +838,7 @@
+ 	\L_01dc2:
+ 	\L_01d1a:
+ 	ZH 1:
+-	'Vâng, hiểu rồi.'
++	'Vâng, thần tuân lệnh.'
+ 	\L_01dcf:
+ 	\L_01dc2:
+ 	!VAR0516 : 0!
+@@ -879,7 +869,7 @@
+ 	\L_01dc2:
+ 	\L_01caa:
+ 	ZH 1:
+-	'Whoa... Cái quái gì thế này?'
++	'Ôi... Cái gì thế này?'
+ 	\L_01dcf:
+ 	ZH 1:
+ 	'Tê tê cay cay, kích thích'
+@@ -892,10 +882,10 @@
+ 	'thịt tê cay kích thích.'
+ 	\L_01dcf:
+ 	ZH 1:
+-	'Tôi muốn nhiều hơn nữa...'
+-	\L_01dcf:
+-	ZH 1:
+-	'Có ai ở đây không...?'
++	'Muốn ăn nữa quá...'
++	\L_01dcf:
++	ZH 1:
++	'Còn ở đâu không nhỉ...?'
+ 	\L_01dcf:
+ 	ZH 1:
+ 	'Ồ, có rồi! Ta ăn đây. Ngoàm'
+@@ -919,14 +909,11 @@
+ 	\L_01ce2:
+ 	ZM 32:
+ 	ZH 1:
+-	'Thành Leazas'
++	'Điện yết kiến Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Phòng yết kiến. Bệ hạ Rance,'
+-	R
+-	'Galtia...'
++	'Bệ hạ Rance, Galtia...'
+ 	\L_01dcf:
+ 	\L_01dc2:
+ 	\L_01caa:
+@@ -936,7 +923,7 @@
+ 	\L_01dc2:
+ 	\L_01d1a:
+ 	ZH 1:
+-	'Không, hắn còn sống.'
++	'Không, hắn vẫn sống ạ.'
+ 	\L_01dcf:
+ 	\L_01dc2:
+ 	\L_01caa:
+@@ -948,7 +935,7 @@
+ 	\L_01dc2:
+ 	\L_01d1a:
+ 	ZH 1:
+-	'Không, hắn đã ăn nó.'
++	'Không, hắn ăn rồi ạ.'
+ 	\L_01dcf:
+ 	\L_01dc2:
+ 	\L_01caa:
+@@ -961,7 +948,7 @@
+ 	\L_01dc2:
+ 	\L_01d1a:
+ 	ZH 1:
+-	'Có.'
++	'Vâng.'
+ 	\L_01dcf:
+ 	\L_01dc2:
+ 	\L_01caa:
+@@ -994,14 +981,14 @@
+ 		'Ôi... Martina...'
+ 		\L_01dcf:
+ 		ZH 1:
+-		'Không phải ngươi không muốn'
+-		R
+-		'đến lâu đài sao?'
+-		\L_01dcf:
+-		ZH 1:
+-		'Hay ngươi đã đến đây'
+-		R
+-		'từ khi ngươi muốn đụ ta...?'
++		'Chẳng phải cô không'
++		R
++		'thích tới lâu đài sao?'
++		\L_01dcf:
++		ZH 1:
++		'Hay tới tận đây vì'
++		R
++		'muốn được ta ôm...?'
+ 		\L_01dcf:
+ 		\L_01dc2:
+ 		\L_01d1a:
+@@ -1016,18 +1003,18 @@
+ 		\L_01dc2:
+ 		\L_01caa:
+ 		ZH 1:
+-		'Hắn đang ăn hết tiền của ta.'
+-		R
+-		'Điều đó không thú vị chút'
+-		R
+-		'nào.'
++		'Hắn đang ăn sạch tài'
++		R
++		'sản của ta đấy. Chẳng'
++		R
++		'thú vị chút nào.'
+ 		\L_01dcf:
+ 		\L_01dc2:
+ 		\L_01d1a:
+ 		ZH 1:
+-		'Tôi nghĩ tôi có thể làm được'
+-		R
+-		'điều gì đó với hắn.'
++		'Tôi nghĩ có lẽ mình'
++		R
++		'giúp được gì đó.'
+ 		\L_01dcf:
+ 		\L_01dc2:
+ 		\L_01caa:
+@@ -1054,14 +1041,14 @@
+ 		'phải trầm trồ đâu?'
+ 		\L_01dcf:
+ 		ZH 1:
+-		'Tôi muốn thử xem liệu tôi có'
+-		R
+-		'thể nấu món gì đó khiến hắn'
+-		R
+-		'ấn tượng không.'
+-		\L_01dcf:
+-		ZH 1:
+-		'Vậy hãy để tôi làm điều đó.'
++		'Tôi muốn thử nấu ra'
++		R
++		'món có thể khiến Ma'
++		R
++		'Nhân phải trầm trồ.'
++		\L_01dcf:
++		ZH 1:
++		'Vậy hãy cho tôi thử sức.'
+ 		\L_01dcf:
+ 		\L_01dc2:
+ 		\L_01caa:
+@@ -1069,9 +1056,7 @@
+ 		'Hmmmmmmmm...'
+ 		\L_01dcf:
+ 		ZH 1:
+-		'Nếu nó trở nên nguy hiểm'
+-		R
+-		'thì...'
++		'Nếu gặp nguy hiểm thì...'
+ 		\L_01dcf:
+ 		\L_01dc2:
+ 		\L_01d1a:
+@@ -1198,7 +1183,7 @@
+ 	\L_01dc2:
+ 	\L_01d1a:
+ 	ZH 1:
+-	'Vâng, đây!'
++	'Đây, món này!'
+ 	\L_01dcf:
+ 	\L_01dc2:
+ 	\L_01d52:
+@@ -1335,23 +1320,23 @@
+ 	\L_01dc2:
+ 	\L_01d1a:
+ 	ZH 1:
+-	'Sau đó, tôi sẽ làm ramen'
+-	R
+-	'ngon hơn cho cậu.'
+-	\L_01dcf:
+-	\L_01dc2:
+-	\L_01caa:
+-	ZH 1:
+-	'Thực sự!?'
+-	\L_01dcf:
+-	\L_01dc2:
+-	\L_01d1a:
+-	ZH 1:
+-	'Vâng. Đổi lại, cậu phải lắng'
+-	R
+-	'nghe người mà tôi sắp giới'
+-	R
+-	'thiệu với cậu.'
++	'Vậy tôi sẽ cho cậu ăn'
++	R
++	'ramen còn ngon hơn nữa.'
++	\L_01dcf:
++	\L_01dc2:
++	\L_01caa:
++	ZH 1:
++	'Thật sao!?'
++	\L_01dcf:
++	\L_01dc2:
++	\L_01d1a:
++	ZH 1:
++	'Đúng. Đổi lại, phải'
++	R
++	'tuyệt đối nghe lời người'
++	R
++	'tôi sắp giới thiệu.'
+ 	\L_01dcf:
+ 	\L_01dc2:
+ 	\L_01caa:
+@@ -1361,7 +1346,7 @@
+ 	'cũng nghe!!'
+ 	\L_01dcf:
+ 	ZH 1:
+-	'S-Vì vậy, ramen...'
++	'V... Vì vậy, ramen...'
+ 	\L_01dcf:
+ 	\L_01dc2:
+ 	\L_01d52:
+@@ -1409,16 +1394,13 @@
+ 	\L_01ce2:
+ 	ZM 32:
+ 	ZH 1:
+-	'Thành Leazas'
++	'Điện yết kiến Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Phòng yết kiến. Vì thế,'
+-	R
+-	'Galtia đã làm thuộc hạ Bệ hạ'
+-	R
+-	'rồi đấy.'
++	'Vậy đó... Galtia đã thành'
++	R
++	'thuộc hạ Bệ hạ rồi đấy.'
+ 	\L_01dcf:
+ 	\L_01dc2:
+ 	\L_01d7c:
+@@ -1441,7 +1423,7 @@
+ 	\L_01d6e:
+ 	\L_01d1a:
+ 	ZH 1:
+-	'Huhu...'
++	'Hihi...'
+ 	\L_01dcf:
+ 	ZH 1:
+ 	'Galtia hứa không ăn lương'
+--- before/Gﾑﾐｿ.ADV
++++ src/Gﾑﾐｿ.ADV
+@@ -21,14 +21,14 @@
+ 		'ponzu?'
+ 		\L_00f6b:
+ 		ZH 1:
+-		'Còn mô hình điều khiển từ'
+-		R
+-		'xa, cần câu vứt'
+-		\L_00f6b:
+-		ZH 1:
+-		'lung tung nữa... Chủ chỗ này'
+-		R
+-		'bị ngốc à?'
++		'Còn mô hình điều'
++		R
++		'khiển từ xa,'
++		\L_00f6b:
++		ZH 1:
++		'cần câu cũng vứt lăn lóc...'
++		R
++		'Chủ chỗ này là đồ ngốc à?'
+ 		\L_00f6b:
+ 		\L_00f5e:
+ 		\L_00e7e:
+@@ -115,16 +115,12 @@
+ 		ZH 1:
+ 		'Khiếp, chữ xấu thật. Viết'
+ 		R
+-		'kiểu này chắc chắn là một gã'
+-		R
+-		'đầu óc'
+-		\L_00f6b:
+-		ZH 1:
+-		'chậm chạp. Hửm? Có cái thẻ'
+-		R
+-		'đánh dấu sách ghi chú gì'
+-		R
+-		'đó...'
++		'thế này chắc là một gã'
++		\L_00f6b:
++		ZH 1:
++		'đầu óc ngu độn. Hửm? Có tờ'
++		R
++		'ghi chú kẹp trong sách...'
+ 		\L_00f6b:
+ 		ZH 1:
+ 		'Thử đọc chỗ ấy xem.'
+@@ -154,7 +150,7 @@
+ 	$
+ 	R
+ 	$L_00def$
+-	'Đừng đọc'
++	'Không đọc nữa'
+ 	$
+ 	]
+ 	@L_00def:
+@@ -169,15 +165,15 @@
+ 	'Rance lật trang.'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'Ngày'
+-	\L_00f6b:
+-	ZH 1:
+-	'◎ tháng ×. Hôm nay rảnh rỗi.'
+-	\L_00f6b:
+-	ZH 1:
+-	'Đang ngồi không thì nhận chỉ'
+-	R
+-	'thị từ anh TADA.'
++	'Ngày ◎ tháng ×.'
++	\L_00f6b:
++	ZH 1:
++	'Hôm nay rảnh rỗi.'
++	\L_00f6b:
++	ZH 1:
++	'Đang ngồi không thì'
++	R
++	'anh TADA giao việc.'
+ 	\L_00f6b:
+ 	ZH 1:
+ 	'［TADA］ Moomin, giúp làm'
+@@ -185,11 +181,11 @@
+ 	'Rance nhé?'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'［Moomin］ Vâng, cứ giao cho'
+-	R
+-	'tôi! Bảo đảm ngon lành!'
+-	R
+-	'［TADA］ Vậy'
++	'［Moomin］ Vâng, cứ'
++	R
++	'giao tôi! Ngon lành'
++	R
++	'thôi! ［TADA］ Vậy'
+ 	\L_00f6b:
+ 	ZH 1:
+ 	'cậu lo toàn bộ phần JAPAN.'
+@@ -205,12 +201,12 @@
+ 	'［Moomin］ Hả!'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'［TADA］ Không'
+-	\L_00f6b:
+-	ZH 1:
+-	'sao, có bản phác sự kiện'
+-	R
+-	'rồi. Chỉ cần chép lại'
++	'［TADA］ Không sao,'
++	\L_00f6b:
++	ZH 1:
++	'đã có bản phác sự'
++	R
++	'kiện. Chỉ cần chép lại'
+ 	\L_00f6b:
+ 	ZH 1:
+ 	'cho chỉn chu là xong.'
+@@ -222,14 +218,14 @@
+ 	'［TADA］ Không hài lòng à?'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'［Moomin］ Đ-Đâu có! Hoàn'
+-	R
+-	'toàn không! Chẳng bất mãn'
+-	\L_00f6b:
+-	ZH 1:
+-	'chút nào cả! ［TADA］ Ừ, cố'
+-	R
+-	'lên.'
++	'［Moomin］ Đ... Đâu có!'
++	R
++	'Hoàn toàn không bất mãn!'
++	\L_00f6b:
++	ZH 1:
++	'Chẳng bất mãn chút'
++	R
++	'nào! ［TADA］ Ừ, cố lên.'
+ 	\L_00f6b:
+ 	ZH 1:
+ 	'Ngày ● tháng △. Cuối cùng'
+@@ -249,25 +245,27 @@
+ 	'ạ?'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'［TADA］ Có màn hình xem kết'
+-	R
+-	'quả sau đoạn'
+-	\L_00f6b:
+-	ZH 1:
+-	'kết hay sau khi phá đảo,'
+-	R
++	'［TADA］ Có màn'
++	R
++	'hình xem kết quả'
++	\L_00f6b:
++	ZH 1:
++	'sau đoạn kết hay'
++	R
++	'sau khi phá đảo,'
++	\L_00f6b:
++	ZH 1:
+ 	'thêm cả chế độ xem'
+-	\L_00f6b:
+-	ZH 1:
++	R
+ 	'CG thì hay nhỉ.'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'［Moomin］ Đúng đấy! Mấy chỗ'
+-	R
+-	'ấy thường'
+-	\L_00f6b:
+-	ZH 1:
+-	'làm qua loa, lần này nên đầu'
++	'［Moomin］ Đúng đấy! Mấy'
++	R
++	'chỗ ấy thường làm qua loa,'
++	\L_00f6b:
++	ZH 1:
++	'lần này nên đầu'
+ 	R
+ 	'tư cho ra trò!'
+ 	\L_00f6b:
+@@ -277,24 +275,24 @@
+ 	'công sức mà làm nhé.'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'［Moomin］ Hả?...'
+-	\L_00f6b:
+-	ZH 1:
+-	'Tôi á? Dù sao cũng thử làm'
+-	R
+-	'rồi, nhưng có lẽ vẫn khá'
+-	R
+-	'bình thường.'
+-	\L_00f6b:
+-	ZH 1:
+-	'Tuy tôi nghĩ đây là lần chăm'
+-	R
+-	'chút nhất trong các game'
+-	\L_00f6b:
+-	ZH 1:
+-	'trước giờ của hãng. Hà...'
+-	R
+-	'Ngày ■ tháng △.'
++	'［Moomin］ Hả?... Tôi á?'
++	\L_00f6b:
++	ZH 1:
++	'Dù sao cũng thử làm'
++	R
++	'rồi, nhưng có lẽ'
++	R
++	'vẫn khá bình thường.'
++	\L_00f6b:
++	ZH 1:
++	'Tuy đây chắc là lần'
++	R
++	'chăm chút nhất trong các'
++	R
++	'game trước giờ của hãng.'
++	\L_00f6b:
++	ZH 1:
++	'Hà... Ngày ■ tháng △.'
+ 	\L_00f6b:
+ 	ZH 1:
+ 	'Có lẽ đã đến lúc'
+@@ -312,29 +310,29 @@
+ 	ZH 1:
+ 	'［Tori］ Hả, cậu được về à?'
+ 	R
+-	'［Moomin］ Không hỏi tôi về'
+-	R
+-	'à, mà'
+-	\L_00f6b:
+-	ZH 1:
+-	'hỏi được về à, đúng là chị'
+-	R
+-	'Tori có khác.'
+-	\L_00f6b:
+-	ZH 1:
+-	'［Tori］ Có dư sức về đúng'
+-	R
+-	'giờ thì kiểm tra lỗi'
+-	\L_00f6b:
+-	ZH 1:
+-	'chính tả đi chứ. ［Moomin］'
+-	R
+-	'Tôi kiểm tra phần JAPAN rồi.'
+-	\L_00f6b:
+-	ZH 1:
+-	'Lần này tôi phụ trách JAPAN'
+-	R
+-	'mà, hê hê. ［Moomin］'
++	'［Moomin］ Không hỏi về à,'
++	\L_00f6b:
++	ZH 1:
++	'mà hỏi được về à.'
++	R
++	'Đúng là Tori có khác.'
++	\L_00f6b:
++	ZH 1:
++	'［Tori］ Có thời gian'
++	R
++	'về đúng giờ thì kiểm'
++	R
++	'tra lỗi chính tả đi.'
++	\L_00f6b:
++	ZH 1:
++	'［Moomin］ Tôi kiểm'
++	R
++	'tra phần JAPAN rồi.'
++	\L_00f6b:
++	ZH 1:
++	'Lần này tôi phụ trách'
++	R
++	'JAPAN mà, hê hê. ［Moomin］'
+ 	\L_00f6b:
+ 	ZH 1:
+ 	'Đổi lại phải làm một mình'
+@@ -345,23 +343,21 @@
+ 	'Lệnh anh TADA đấy.'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'Hê hê. ［Tori］ Đã là nô lệ'
+-	R
+-	'mà còn! Chỉ là nô lệ thôôôi!'
+-	R
+-	'...'
+-	\L_00f6b:
+-	ZH 1:
+-	'Nhưng chắc tôi chỉ còn được'
+-	R
+-	'thong dong thế này khoảng'
+-	R
+-	'một tuần. Phải tận'
+-	\L_00f6b:
+-	ZH 1:
+-	'hưởng chút đời ngắn ngủi còn'
+-	R
+-	'lại...'
++	'Hê hê. ［Tori］ Nô lệ mà'
++	R
++	'còn! Nô lệ mà còn dám thế!'
++	\L_00f6b:
++	ZH 1:
++	'... Nhưng chắc tôi'
++	R
++	'chỉ được thong dong'
++	R
++	'thế này thêm một tuần.'
++	\L_00f6b:
++	ZH 1:
++	'Phải tận hưởng chút đời'
++	R
++	'ngắn ngủi còn lại...'
+ 	\L_00f6b:
+ 	ZH 1:
+ 	'Ngày ￡ tháng ＄. Sắp chết'
+@@ -376,17 +372,15 @@
+ 	'càng viết qua quýt.'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'Nét chữ cũng xiêu vẹo cả...'
+-	R
+-	'Mà để ta'
+-	\L_00f6b:
+-	ZH 1:
+-	'được tung hoành thì hy'
+-	\L_00f6b:
+-	ZH 1:
+-	'sinh một hai tên thế này có'
+-	R
+-	'gì đáng bận tâm.'
++	'Nét chữ cũng xiêu vẹo...'
++	R
++	'Nhưng để ta được tung hoành,'
++	\L_00f6b:
++	ZH 1:
++	'có hi sinh một hai tên'
++	\L_00f6b:
++	ZH 1:
++	'thì cũng chẳng cần bận tâm.'
+ 	\L_00f6b:
+ 	\L_00f5e:
+ 	@L_00dca:
+@@ -413,33 +407,31 @@
+ 	'Ngày ＆ tháng ×.'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'Chẳng cần N64. Tôi thích ông'
+-	R
+-	'chú ria mép'
+-	\L_00f6b:
+-	ZH 1:
+-	'trong game cuộn ngang hơn.'
+-	R
+-	'Ngày ★ tháng ▼.'
+-	\L_00f6b:
+-	ZH 1:
+-	'Máy Super Famicom bắt đầu'
+-	R
+-	'trục trặc. Tôi mua nó ngay'
+-	R
+-	'ngày'
+-	\L_00f6b:
+-	ZH 1:
+-	'phát hành, cùng Mario và'
+-	R
+-	'F-Zero. Đúng lúc thời đại'
+-	R
+-	'Super'
+-	\L_00f6b:
+-	ZH 1:
+-	'Famicom sắp khép lại, thấy'
+-	R
+-	'chuyện này cũng như một điềm'
++	'Chẳng cần N64. Tôi'
++	R
++	'thích ông chú ria mép'
++	\L_00f6b:
++	ZH 1:
++	'trong game cuộn'
++	R
++	'ngang. Ngày ★ tháng ▼.'
++	\L_00f6b:
++	ZH 1:
++	'Máy Super Famicom bắt'
++	R
++	'đầu trục trặc. Tôi'
++	R
++	'mua ngay ngày ra mắt,'
++	\L_00f6b:
++	ZH 1:
++	'cùng Mario và F-Zero. Đúng'
++	R
++	'lúc thời đại Super Famicom'
++	\L_00f6b:
++	ZH 1:
++	'sắp khép lại, thấy'
++	R
++	'chuyện này như điềm'
+ 	R
+ 	'báo. Ngày ◆ tháng ▼.'
+ 	\L_00f6b:
+@@ -456,14 +448,14 @@
+ 	'lén chơi Wizardry Gaiden.'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'Nhưng dần thấy vài chỗ'
+-	\L_00f6b:
+-	ZH 1:
+-	'không còn giữ được nét mộc'
+-	R
+-	'mạc vốn có, hơi tiếc. Ngày'
+-	R
+-	'〓 tháng △.'
++	'Nhưng dần thấy vài'
++	R
++	'chỗ không giữ được'
++	\L_00f6b:
++	ZH 1:
++	'vẻ mộc mạc đến cùng, hơi'
++	R
++	'tiếc. Ngày 〓 tháng △.'
+ 	\L_00f6b:
+ 	ZH 1:
+ 	'Chậm hơn mọi người khá lâu,'
+@@ -473,36 +465,38 @@
+ 	'Resident Evil.'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'Colt Python với súng phóng'
+-	R
+-	'lựu cũng hay, nhưng bắn'
+-	R
+-	'Beretta pằng pằng liên'
+-	\L_00f6b:
+-	ZH 1:
+-	'tiếp mới vui. Nghe nói chơi'
+-	R
+-	'đi chơi lại thì được xả'
+-	R
+-	'thoải mái vũ khí mạnh.'
+-	\L_00f6b:
+-	ZH 1:
+-	'Muốn thử quá.'
+-	\L_00f6b:
+-	ZH 1:
+-	'Ngày ＠'
+-	\L_00f6b:
+-	ZH 1:
+-	'tháng ＄. Tôi chơi Marvelous'
+-	R
+-	'trên Super Famicom. Sao mình'
+-	R
+-	'toàn đụng vào Super'
+-	\L_00f6b:
+-	ZH 1:
+-	'Famicom thế nhỉ? Lâu lắm mới'
+-	R
+-	'gặp một game phiêu lưu hay.'
++	'Colt Python và súng'
++	R
++	'phóng lựu cũng hay,'
++	R
++	'nhưng dùng Beretta'
++	\L_00f6b:
++	ZH 1:
++	'bắn pằng pằng liên'
++	R
++	'tục mới vui. Nghe'
++	R
++	'nói chơi đi chơi lại,'
++	\L_00f6b:
++	ZH 1:
++	'thì được xả thoải mái vũ'
++	R
++	'khí mạnh. Muốn thử quá.'
++	\L_00f6b:
++	ZH 1:
++	'Ngày ＠ tháng ＄.'
++	\L_00f6b:
++	ZH 1:
++	'Tôi chơi Marvelous trên'
++	R
++	'Super Famicom. Hình như mình'
++	\L_00f6b:
++	ZH 1:
++	'toàn chơi Super Famicom'
++	R
++	'nhỉ? Lâu lắm mới gặp'
++	R
++	'game phiêu lưu hay.'
+ 	\L_00f6b:
+ 	ZH 1:
+ 	'Giá mà phần kết cao trào hơn'
+@@ -565,54 +559,52 @@
+ 	'có đẹp đẽ gì đâu.'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'Ngày ↓ tháng △. Ngày ngày'
+-	\L_00f6b:
+-	ZH 1:
+-	'tiếp tục tìm xe. Chọn ngu'
+-	R
+-	'thật, xe'
+-	\L_00f6b:
+-	ZH 1:
+-	'RV số sàn đã qua sử dụng làm'
++	'Ngày ↓ tháng △.'
++	\L_00f6b:
++	ZH 1:
++	'Ngày ngày tìm xe.'
++	R
++	'Chọn ngu thật,'
++	\L_00f6b:
++	ZH 1:
++	'xe RV số sàn cũ làm'
+ 	R
+ 	'gì có. Ngày ※ tháng △.'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'Tìm'
+-	\L_00f6b:
+-	ZH 1:
+-	'được rồi! Mitsubishi RVR số'
+-	R
+-	'sàn cũ! Lại đúng màu xanh'
+-	R
+-	'tôi muốn!'
+-	\L_00f6b:
+-	ZH 1:
+-	'Hay tôi dùng hết vận may đời'
+-	R
+-	'mình rồi?! Tóm lại, ký'
+-	\L_00f6b:
+-	ZH 1:
+-	'hợp đồng ngay. Hí hí, vui'
+-	R
+-	'quá đi! Ngày ♂ tháng △. Cuối'
++	'Tìm thấy rồi!'
++	\L_00f6b:
++	ZH 1:
++	'Mitsubishi RVR số sàn cũ!'
++	R
++	'Lại đúng màu xanh tôi muốn!'
++	\L_00f6b:
++	ZH 1:
++	'Hay dùng hết vận may'
++	R
++	'cả đời rồi?! Dù sao'
++	R
++	'cũng ký hợp đồng ngay.'
++	\L_00f6b:
++	ZH 1:
++	'Hí hí, vui quá đi!'
++	R
++	'Ngày ♂ tháng △. Cuối'
+ 	R
+ 	'cùng cũng nhận xe.'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'Ngay hôm'
+-	\L_00f6b:
+-	ZH 1:
+-	'ấy mua cả dàn âm thanh lẫn'
+-	R
+-	'bộ'
+-	\L_00f6b:
+-	ZH 1:
+-	'định vị. ... Cũng ngay hôm'
+-	R
+-	'ấy quệt xước xe một chút. Hu'
+-	R
+-	'hu. Ngày ♀ tháng △.'
++	'Ngay hôm ấy,'
++	\L_00f6b:
++	ZH 1:
++	'mua cả dàn âm thanh'
++	\L_00f6b:
++	ZH 1:
++	'lẫn bộ định vị. ... Cũng'
++	R
++	'ngay hôm ấy, quệt xước'
++	R
++	'xe. Hu hu. Ngày ♀ tháng △.'
+ 	\L_00f6b:
+ 	ZH 1:
+ 	'Thử lái loanh quanh, chỉ dựa'
+@@ -627,10 +619,12 @@
+ 	'ly nào! Ngày 〒 tháng △.'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'Con đường chinh phục'
+-	\L_00f6b:
+-	ZH 1:
+-	'xe số sàn quả gian nan. Tôi'
++	'Con đường chinh'
++	R
++	'phục xe số sàn'
++	\L_00f6b:
++	ZH 1:
++	'quả gian nan. Tôi'
+ 	R
+ 	'đúng là vua chết máy.'
+ 	\L_00f6b:
+@@ -640,61 +634,57 @@
+ 	'phụt ngay.'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'Đôi khi còn để số mo mà đạp'
+-	R
+-	'ga, khiến máy rú ầm lên...'
+-	R
+-	'Đường Osaka'
++	'Đôi lúc để số mo mà đạp ga,'
++	R
++	'làm máy rú ầm... Đường Osaka'
+ 	\L_00f6b:
+ 	ZH 1:
+ 	'thì khổ sở thật.'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'Cứ như nhà thám hiểm cấp'
+-	\L_00f6b:
+-	ZH 1:
+-	'1 đi đánh trùm cuối. Xe số'
+-	R
+-	'sàn gặp tắc đường càng khổ'
+-	R
+-	'gấp đôi.'
+-	\L_00f6b:
+-	ZH 1:
+-	'Dù muốn hay không, kinh'
+-	R
+-	'nghiệm lái xe'
+-	\L_00f6b:
+-	ZH 1:
+-	'cũng tăng lên... Ước gì được'
+-	R
+-	'thế. Buồn quá. Vẫn còn non'
+-	R
+-	'tay, vẫn là'
+-	\L_00f6b:
+-	ZH 1:
+-	'vua chết máy. Ngày ÷ tháng'
+-	R
+-	'△. Chỉ được lái xe vào'
+-	\L_00f6b:
+-	ZH 1:
+-	'ngày'
+-	\L_00f6b:
+-	ZH 1:
+-	'nghỉ thứ Bảy, Chủ nhật, mà'
+-	R
+-	'sắp phải đi làm cả ngày nghỉ'
+-	R
+-	'rồi... Muốn lái xe quá...'
+-	\L_00f6b:
+-	ZH 1:
+-	'Làm xong Rance, tôi'
+-	\L_00f6b:
+-	ZH 1:
+-	'sẽ đi chơi xa một chuyến.'
+-	R
+-	'Đến lúc ấy phải nhịn... Nhịn'
+-	R
+-	'thôi! Cố nhịn'
++	'Cứ như nhà thám hiểm cấp 1'
++	\L_00f6b:
++	ZH 1:
++	'đi đánh trùm cuối. Xe'
++	R
++	'số sàn gặp tắc đường'
++	R
++	'càng khổ gấp đôi.'
++	\L_00f6b:
++	ZH 1:
++	'Dù muốn hay không,'
++	R
++	'kinh nghiệm lái xe'
++	R
++	'cũng tăng lên...'
++	\L_00f6b:
++	ZH 1:
++	'Ước gì được thế. Buồn'
++	R
++	'quá. Vẫn còn non tay,'
++	\L_00f6b:
++	ZH 1:
++	'vẫn là vua chết máy. Ngày'
++	R
++	'÷ tháng △. Chỉ được lái xe'
++	\L_00f6b:
++	ZH 1:
++	'vào hai ngày nghỉ'
++	\L_00f6b:
++	ZH 1:
++	'thứ Bảy, Chủ nhật, mà'
++	R
++	'sắp phải làm cả ngày'
++	R
++	'nghỉ... Muốn lái xe quá...'
++	\L_00f6b:
++	ZH 1:
++	'Làm xong Rance,'
++	\L_00f6b:
++	ZH 1:
++	'tôi sẽ đi chơi xa. Đến lúc'
++	R
++	'ấy phải nhịn... Nhịn thôi!'
+ 	\L_00f6b:
+ 	ZH 1:
+ 	'đi, tôi ơi! Chịu đựng đi'
+@@ -725,31 +715,33 @@
+ 	'khuyên, lại còn chở tôi đi'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'khắp các cửa hàng xe cũ khi'
+-	R
+-	'tìm xe. Cảm ơn Nagi'
+-	\L_00f6b:
+-	ZH 1:
+-	'ở Infini, người gần như một'
++	'khắp các cửa hàng xe'
++	R
++	'cũ. Còn Nagi ở Infini,'
++	\L_00f6b:
++	ZH 1:
++	'người gần như một'
+ 	R
+ 	'mình lo hết dây điện'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'cho bộ định vị và dàn âm'
+-	R
+-	'thanh. Làm mãi đến khuya,'
+-	R
+-	'rồi'
+-	\L_00f6b:
+-	ZH 1:
+-	'ra ngoài đi loanh quanh lại'
+-	R
+-	'bị cảnh sát mặc thường phục'
+-	R
+-	'chặn hỏi, nghĩ cũng buồn'
+-	\L_00f6b:
+-	ZH 1:
+-	'cười thật.'
++	'cho bộ định vị và'
++	R
++	'dàn âm thanh. Làm'
++	R
++	'mãi đến đêm khuya,'
++	\L_00f6b:
++	ZH 1:
++	'rồi ra ngoài đi loanh'
++	R
++	'quanh, tôi lại bị'
++	R
++	'cảnh sát thường phục'
++	\L_00f6b:
++	ZH 1:
++	'chặn hỏi. Nghĩ cũng'
++	R
++	'buồn cười thật.'
+ 	\L_00f6b:
+ 	ZH 1:
+ 	'Cảm ơn hai người, tôi biết'
+@@ -759,12 +751,12 @@
+ 	\L_00f5e:
+ 	\L_00e46:
+ 	ZH 1:
+-	'C-Cái tên này! Dám dùng game'
+-	R
+-	'của ta để nhắn chuyện'
+-	\L_00f6b:
+-	ZH 1:
+-	'riêng à!'
++	'C... Cái tên này!'
++	R
++	'Dám dùng game của ta'
++	\L_00f6b:
++	ZH 1:
++	'để nhắn chuyện riêng à!'
+ 	\L_00f6b:
+ 	\L_00f5e:
+ 	@L_00dca:
+@@ -812,7 +804,7 @@
+ 	'LOVE.'
+ 	\L_00f6b:
+ 	ZH 1:
+-	'Moomin xin chào. Rance「Hừ,'
++	'Moomin. Rance「Hừ,'
+ 	R
+ 	'đồ yếu đuối.」'
+ 	\L_00f6b:
+@@ -870,11 +862,9 @@
+ 	\L_00f5e:
+ 	\L_00e46:
+ 	ZH 1:
+-	'Hừ, cứ ở truồng đi. Đồ ngốc'
+-	R
+-	'thì chắc chẳng biết cảm lạnh'
+-	R
+-	'đâu.'
++	'Hừ, cứ ở truồng đi. Ngốc'
++	R
++	'như mày chẳng bị cảm đâu.'
+ 	\L_00f6b:
+ 	\L_00f5e:
+ 	\L_00e7e:

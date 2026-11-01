@@ -1,0 +1,9649 @@
+--- before/Gﾏﾘｱ.ADV
++++ src/Gﾏﾘｱ.ADV
+@@ -35,20 +35,20 @@
+ 	\L_069c4:
+ 	\L_06900:
+ 	ZH 1:
+-	'Thị trấn North - Bệ pháo C2'
+-	R
+-	'Goliath'
++	'Thành phố North - Bệ'
++	R
++	'phóng pháo C2 Goliath'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0154 : 16!
+ 	{VAR0102 = 0:
+ 		\L_06900:
+ 		ZH 1:
+-		'Không có Maria, mục'
+-		R
+-		'tiêu của Tulip 2 Goliath'
+-		R
+-		'không thể thay đổi được.'
++		'Định đổi mục tiêu của'
++		R
++		'Tulip 2 Goliath, nhưng'
++		R
++		'không có Maria thì chịu.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		!VAR0516 : 1!
+@@ -57,7 +57,7 @@
+ 		ZH 1:
+ 		'Không có Maria thì thứ này'
+ 		R
+-		'cũng chỉ là sắt vụn...'
++		'cũng chỉ là đống sắt vụn...'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		!VAR0516 : 0!
+@@ -77,18 +77,16 @@
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Đang bảo dưỡng Tulip 2'
+-	R
+-	'Goliath, Maria quay lại nhìn'
+-	R
+-	'Rance.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Cậu muốn đổi mục tiêu của'
+-	R
+-	'Goliath phải không?'
++	'Maria đang bảo dưỡng Tulip'
++	R
++	'2 Goliath thì quay lại.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Cậu muốn đổi mục tiêu'
++	R
++	'tấn công của Goliath à?'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_068c8:
+@@ -98,17 +96,17 @@
+ 	\L_069e0:
+ 	\L_06938:
+ 	ZH 1:
+-	'Nó hiện đang nhắm mục tiêu'
++	'Hiện giờ mục tiêu đang là'
+ 	R
+ 	X 8:
+-	'... Cậu muốn'
+-	R
+-	'đổi nó sang đâu?'
+-	\L_069ed:
+-	ZH 1:
+-	'Chỉ cần cho tôi biết'
+-	R
+-	'mục tiêu là thành phố nào.'
++	'... đấy,'
++	R
++	'giờ đổi sang đâu?'
++	\L_069ed:
++	ZH 1:
++	'Cho tôi biết thành'
++	R
++	'phố muốn nhắm tới nhé.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0485 : 2!
+@@ -127,9 +125,9 @@
+ 	\L_0698c:
+ 	\L_06938:
+ 	ZH 1:
+-	'Sau đó Goliath sẽ'
+-	R
+-	'được đặt mục tiêu là '
++	'Vậy tôi đặt mục tiêu'
++	R
++	'của Goliath là'
+ 	X 8:
+ 	'.'
+ 	\L_069ed:
+@@ -141,28 +139,28 @@
+ 	\L_069e0:
+ 	\L_06938:
+ 	ZH 1:
+-	'Mỗi tuần một lần, nếu có'
+-	R
+-	'giao chiến ở thành phố mục'
+-	R
+-	'tiêu, Goliath sẽ bắn yểm'
+-	\L_069ed:
+-	ZH 1:
+-	'trợ. Cứ chờ xem nhé.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Chỉ một lần thôi à... Kém'
+-	R
+-	'thật.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Hừ... Cậu nói gì vậy... Được'
+-	R
+-	'thế này đã giỏi lắm rồi.'
++	'Mỗi tuần một lần thôi, nếu'
++	R
++	'có giao chiến ở thành phố'
++	R
++	'mục tiêu, Goliath sẽ bắn'
++	\L_069ed:
++	ZH 1:
++	'yểm trợ. Cứ chờ xem nhé.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Có một lần thôi'
++	R
++	'à... chán ghê.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Hứ... nói gì kỳ vậy... Thế'
++	R
++	'này đã ghê lắm rồi đấy.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 0!
+@@ -208,24 +206,24 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Viện nghiên cứu công'
+-	R
+-	'nghệ Rance đi vào trong.'
++	'Viện Nghiên cứu Kỹ thuật'
++	R
++	'Rance bước vào trong.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_068e4:
+ 	ZH 1:
+-	'Nơi này có một lỗ nhìn'
+-	R
+-	'trộm vào phòng thay đồ được'
+-	\L_069ed:
+-	ZH 1:
+-	'bí mật bổ sung trong'
+-	R
+-	'giai đoạn lập kế hoạch.'
+-	\L_069ed:
+-	ZH 1:
+-	'Hehe.'
++	'Ở đây có cái lỗ nhìn'
++	R
++	'trộm phòng thay đồ'
++	\L_069ed:
++	ZH 1:
++	'mà ta đã lén cho làm'
++	R
++	'từ khâu thiết kế.'
++	\L_069ed:
++	ZH 1:
++	'Khúc khích.'
+ 	\L_069ed:
+ 	\L_069e0:
+ *L_004ac:
+@@ -243,25 +241,23 @@
+ 	$
+ 	R
+ 	$L_004f7$
+-	'Rời khỏi cơ sở'
++	'Rời viện nghiên cứu'
+ 	$
+ 	]
+ 	@L_004ac:
+ *L_004f7:
+ 	\L_068e4:
+ 	ZH 1:
+-	'Tôi xong việc ở đây'
+-	R
+-	'rồi. Tôi sẽ quay lại'
+-	R
+-	'và ăn kem hay gì đó.'
++	'Thôi chán rồi.'
++	R
++	'Về ăn kem vậy.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance rời khỏi cơ'
+-	R
+-	'sở nghiên cứu công nghệ.'
++	'Rance rời khỏi Viện'
++	R
++	'Nghiên cứu Kỹ thuật.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 0!
+@@ -291,59 +287,51 @@
+ 	R
+ 	'Phòng ngủ của Rance'
+ 	R
+-	'Chuyện gì vậy, Rance?'
+-	\L_069ed:
+-	ZH 1:
+-	'Tại sao ngươi lại gọi'
+-	R
+-	'cho tôi muộn thế này?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Không có lý'
+-	R
+-	'do cụ thể nào cả, ta'
+-	R
+-	'chỉ thấy chán thôi.'
+-	\L_069ed:
+-	ZH 1:
+-	'Muốn chơi bài hay'
+-	R
+-	'gì đó không? Người'
+-	R
+-	'thua cởi quần áo.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'A... Đồ biến'
+-	R
+-	'thái! Tôi sẽ không chơi'
+-	R
+-	'một trò chơi như thế!'
++	'Gì thế, Rance?'
++	\L_069ed:
++	ZH 1:
++	'Gọi người ta ra'
++	R
++	'vào giờ này...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Chẳng có việc gì đâu...'
++	R
++	'chán quá nên gọi thôi.'
++	\L_069ed:
++	ZH 1:
++	'Chơi bài với ta không?'
++	R
++	'Ai thua thì cởi đồ...'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Đ... đồ dâm đãng! Chơi bài'
++	R
++	'kiểu đó, đời nào tôi chơi!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'（sụp đổ）'
++	'（Rầm!）'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_0699a:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria nổi điên'
+-	R
+-	'và rời khỏi phòng.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'... Khập'
+-	R
+-	'khiễng. Chết tiệt,'
+-	R
+-	'chết tiệt, chết tiệt...'
++	'Maria hầm hầm giận'
++	R
++	'dỗi bỏ ra khỏi phòng.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'...Chán ngắt. Khỉ thật,'
++	R
++	'khỉ thật, khỉ thật...'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 0!
+@@ -374,50 +362,50 @@
+ 	\L_0698c:
+ 	\L_06938:
+ 	ZH 1:
+-	'Phù... Xin lỗi, tôi đến'
+-	R
+-	'muộn.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Muộn thật đấy. Cô làm gì'
+-	R
+-	'vậy?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Tôi đang bận nhiều việc.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Chẳng hạn như?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Tại sao tôi phải'
+-	R
+-	'nói cho cậu biết?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Ta là Vua. Ta'
+-	R
+-	'có quyền biết mọi thứ.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'... Tôi chẳng quan tâm.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Hừ... Láo thật.'
++	'Hà... xin lỗi, tôi đến muộn.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Muộn thật đấy.'
++	R
++	'Cô làm gì thế?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Tôi bận đủ thứ việc.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Đủ thứ là thứ gì?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Sao tôi phải kể chuyện'
++	R
++	'đó với Rance chứ.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Ta là vua đấy. Ta có'
++	R
++	'quyền biết mọi chuyện.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'...Chuyện đó'
++	R
++	'tôi đâu có biết.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Ư... con nhỏ láo toét.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06938:
+@@ -425,45 +413,45 @@
+ 	'.............'
+ 	\L_069ed:
+ 	ZH 1:
+-	'... Rance... Tôi có thể'
+-	R
+-	'hỏi cậu một điều được không?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Cái gì?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Tại sao cậu lại'
+-	R
+-	'trở thành Vua của Leazas?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Bởi vì ta tuyệt vời.'
++	'...Rance... tôi hỏi'
++	R
++	'một chuyện được không?'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Gì thế?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Sao cậu lại trở'
++	R
++	'thành vua của Leazas?'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Vì ta vĩ đại.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance ưỡn ngực, ra vẻ oai'
+-	R
+-	'vệ.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Không phải vậy...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Cái gì, cô không'
+-	R
+-	'nghĩ ta tuyệt vời sao?!'
++	'Rance ưỡn ngực,'
++	R
++	'ra vẻ ta đây.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Không phải ý đó...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Cái gì, cô bảo ta'
++	R
++	'không vĩ đại à!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06938:
+@@ -471,72 +459,70 @@
+ 	'Không phải...'
+ 	\L_069ed:
+ 	ZH 1:
+-	'Ý tôi là tại sao cậu kết hôn'
+-	R
+-	'với nữ hoàng Lia...'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance, cậu thật sự yêu nữ'
+-	R
+-	'hoàng Lia chứ?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'... Hooooh...'
+-	R
+-	'Cô ghen tị à?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Kh... Không phải!'
+-	\L_069ed:
+-	ZH 1:
+-	'Tôi chỉ nghĩ... như thế thì'
+-	R
+-	'tội nghiệp Sill quá...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'... Nàng là một nô lệ.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Rance...'
+-	\L_069ed:
+-	ZH 1:
+-	'Thôi, được rồi. Đúng thế...'
+-	R
+-	'Tôi làm gì có quyền nói này'
+-	R
+-	'nói nọ...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Maria... Cô muốn nói gì'
+-	R
+-	'vậy? Ta thực sự không hiểu.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Thôi, đủ rồi.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Được rồi. Vậy từ giờ'
+-	R
+-	'trở đi, hãy làm việc chăm'
+-	R
+-	'chỉ nhất có thể vì ta nhé.'
+-	\L_069ed:
+-	ZH 1:
+-	'Hiểu rồi?'
++	'Ý tôi là, sao cậu lại kết'
++	R
++	'hôn với Nữ hoàng Lia...'
++	\L_069ed:
++	ZH 1:
++	'Rance, cậu thật lòng'
++	R
++	'yêu Nữ hoàng Lia à?'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'...Hồồồ... cô'
++	R
++	'đang ghen đấy à?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Kh... không phải!!'
++	\L_069ed:
++	ZH 1:
++	'Như thế thì... Sill... chẳng'
++	R
++	'phải tội nghiệp lắm sao...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'...Con bé đó là nô lệ.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'...Rance!'
++	\L_069ed:
++	ZH 1:
++	'Ưm... thôi, được rồi.'
++	R
++	'Phải... tôi làm gì có'
++	R
++	'quyền nói này nói nọ...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Maria... cô muốn nói gì'
++	R
++	'thế? Ta chẳng hiểu gì cả?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Thôi, không có gì.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Được rồi. Vậy từ giờ,'
++	R
++	'cố mà làm việc cho ta.'
++	\L_069ed:
++	ZH 1:
++	'Nghe chưa.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06938:
+@@ -546,25 +532,25 @@
+ 	\L_069e0:
+ 	\L_068c8:
+ 	ZH 1:
+-	'Phải đáp ba lần.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'... Vâng, vâng, vâng.'
++	'Trả lời phải ba lần.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'......Vâng vâng vâng.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_0699a:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria bực tức bỏ đi.'
++	'Maria giận dỗi bỏ đi.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_068e4:
+ 	ZH 1:
+-	'Hừm... Bảo đáp một lần có'
+-	R
+-	'hơn không nhỉ...'
++	'Ừm... bảo một lần'
++	R
++	'thì hay hơn chăng...'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 0!
+@@ -592,98 +578,98 @@
+ 	\L_0698c:
+ 	\L_06938:
+ 	ZH 1:
+-	'Cậu đã gọi à, Rance?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Vấn đề là ta có'
+-	R
+-	'điều này muốn hỏi cô.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'... Cái gì?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Ta đang đọc cuốn sách khó'
+-	R
+-	'này, và có một từ ta không'
+-	R
+-	'biết. Đây, hãy nhìn xem.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Hừ, không thấy cậu thường'
+-	R
+-	'xuyên đọc những cuốn sách'
+-	R
+-	'khó. Tôi sẽ nhìn, nó ở đâu?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Đây.'
++	'Cậu gọi tôi à? Rance.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Thật ra, ta có chuyện'
++	R
++	'muốn hỏi Maria.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'.........Gì?'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Trong cuốn sách khó này'
++	R
++	'có một chữ Hán ta đọc mãi'
++	R
++	'không ra. Đây, xem giúp đi.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Hể, lạ ghê. Rance mà'
++	R
++	'cũng đọc sách khó cơ'
++	R
++	'đấy. Đâu đâu, để tôi xem.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Đây này.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria lén nhìn cuốn sách.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Hả...?'
+-	\L_069ed:
+-	ZH 1:
+-	'Cái này...?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Vâng, cái này. Làm'
+-	R
+-	'thế nào để cô nói nó?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'À... Ừm...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Cái gì, cô'
+-	R
+-	'không biết à? Cô thật ngu'
+-	R
+-	'ngốc. Ôi thật là thất vọng.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'T-tôi có thể'
+-	R
+-	'đọc được nó! N-Nhưng...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Vậy thì làm đi!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Ưu...!'
++	'Maria ghé nhìn'
++	R
++	'vào cuốn sách.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Hả......'
++	\L_069ed:
++	ZH 1:
++	'Cái này...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Phải, chữ này. Đọc là gì?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Cái đó... thì...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Gì thế, không đọc được'
++	R
++	'à? Ngốc hơn ta tưởng.'
++	R
++	'Haizz, thất vọng thật.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Đ... đọc được chứ!'
++	R
++	'Nh... nhưng...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Vậy thì đọc thử xem!'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Ư...!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria đỏ mặt.'
++	'Maria đỏ bừng mặt.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	Y 4, 5:
+@@ -691,37 +677,35 @@
+ 	{VAR0690 = 1:
+ 		\L_06938:
+ 		ZH 1:
+-		'Tôi sẽ làm vậy!'
+-		R
+-		'Tôi sẽ đọc nó! N-Nó'
+-		R
+-		'nói... kẻ quấy rối!!'
++		'Đọc thì đọc! Đọc là'
++		R
++		'được chứ gì! Đ... đây là'
++		R
++		'"chikan" - kẻ sàm sỡ!!'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Và điều đó có nghĩa là gì?'
++		'Thế, nghĩa là gì?'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Cậu biết nó'
+-		R
+-		'nghĩa là gì mà, Rance!'
++		'...Nghĩa á... cậu'
++		R
++		'biết thừa còn gì!'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Không, ta không'
+-		R
+-		'biết, hãy nói cho ta biết.'
++		'Không biết, giải thích đi.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'... Một kẻ xấu'
+-		R
+-		'làm chuyện tình dục...!!'
++		'......Là kẻ xấu... làm'
++		R
++		'chuyện dâm ô......!!'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+@@ -731,120 +715,122 @@
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Uh... Ừm... Giống'
+-		R
+-		'như, một người chạm vào mông'
+-		R
+-		'cậu ở những nơi chật hẹp...'
+-		\L_069ed:
+-		ZH 1:
+-		'Hoặc ngực của cậu...'
++		'Ơ... thì... ở chỗ chật chội'
++		R
++		'thì sờ mông người ta...'
++		\L_069ed:
++		ZH 1:
++		'rồi sờ ngực...'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Hả, thế này à?'
++		'Hô, kiểu thế này à?'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06900:
+ 		ZH 1:
+-		'（chạm）'
+-		\L_069ed:
+-		ZH 1:
+-		'Rance chạm vào mông Maria.'
++		'（Sờ sờ）'
++		\L_069ed:
++		ZH 1:
++		'Rance sờ mông Maria.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Kyah, đồ biến thái!!'
+-		R
+-		'Cậu đang làm gì thế?!!'
++		'Kya, đồ dâm đãng!!'
++		R
++		'Cậu làm gì thế hả!!'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Gahahahaha!'
++		'Gahahahaha!!'
+ 		\L_069ed:
+ 		\L_069e0:
+ 	}
+ 	{VAR0690 = 2:
+ 		\L_06938:
+ 		ZH 1:
+-		'... Phòng thí nghiệm-...'
++		'......Shin...'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Không thể nghe thấy'
+-		R
+-		'cô. Hãy nói to hơn!'
++		'Không nghe, không'
++		R
++		'nghe. To lên nàooo!'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'L-Môi bé...'
++		'Sh... "shouinshin" -'
++		R
++		'môi bé... chứ gì...'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Nó có nghĩa là gì?'
++		'Nghĩa là gì?'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Đ-Nó có nghĩa là...'
++		'Ng... nghĩa á...'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Kể chi tiết'
+-		R
+-		'cho ta nghe đi.'
++		'Nào, giải thích'
++		R
++		'kỹ cho ta nghe.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Cậu...'
+-		\L_069ed:
+-		ZH 1:
+-		'Cậu nên biết nhiều hơn'
+-		R
+-		'tôi về tất cả những cô gái'
+-		R
+-		'mà cậu tấn công, đồ ngốc!'
++		'Ch...'
++		\L_069ed:
++		ZH 1:
++		'chuyện đó thì Rance, người'
++		R
++		'đè ra cả đống con gái,'
++		R
++		'rành hơn chứ, đồ ngốc!'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Gahahahaha!'
++		'Gahahahahaha!!'
+ 		\L_069ed:
+ 		\L_069e0:
+ 	}
+ 	{VAR0690 = 3:
+ 		\L_06938:
+ 		ZH 1:
+-		'... Xác thịt.'
++		'...Chữ này đọc là'
++		R
++		'"kannou" - nhục cảm.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Cái gì? Đó là cái gì vậy?'
++		'Là cái gì? Cái đó ấy?'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06954:
+ 		ZH 1:
+-		'Cậu biết nó là'
+-		R
+-		'gì rồi... Trời ạ...'
++		'......Biết rồi... mà'
++		R
++		'còn hỏi... thật tình...'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Maaaaaaaaaaria. Hãy cho ta'
+-		R
+-		'biết nó có ý nghĩa gì. Chắc'
+-		R
+-		'bạn học giỏi lắm phải không?'
++		'Maaariaaa. Giải thích'
++		R
++		'nghĩa đi. Cô giỏi'
++		R
++		'học hành lắm cơ mà?'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+@@ -852,16 +838,14 @@
+ 		'............'
+ 		\L_069ed:
+ 		ZH 1:
+-		'Đó là một từ'
+-		R
+-		'chỉ cảm xúc tình dục.'
++		'Là từ chỉ cảm giác tình dục.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Điều đó quá phức tạp.'
+-		R
+-		'Giải thích nó đơn giản hơn.'
++		'Thế thì khó hiểu quá.'
++		R
++		'Giải thích ngắn gọn hơn.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+@@ -869,53 +853,49 @@
+ 		'............'
+ 		\L_069ed:
+ 		ZH 1:
+-		'Khi cậu chạm vào dương vật'
+-		R
+-		'của mình hoặc đặt nó vào một'
+-		R
+-		'cô gái, đó là cảm giác đó.'
++		'Là cảm giác của Rance'
++		R
++		'khi sờ chim, hay khi'
++		R
++		'đâm vào con gái ấy.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Con gái không'
+-		R
+-		'nên nói dương vật. Điều'
+-		R
+-		'đó thật không đứng đắn.'
++		'Con gái mà nói chữ'
++		R
++		'"chim" à. Mất nết.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Anh hỏi tôi điều này ngay'
+-		R
+-		'từ đầu là vì muốn tôi nói'
+-		R
+-		'điều gì đó không đứng đắn!'
+-		\L_069ed:
+-		ZH 1:
+-		'Nếu cậu không'
+-		R
+-		'muốn thì đừng hỏi tôi'
+-		R
+-		'những điều như thế này!!'
++		'Cậu hỏi tôi chuyện này'
++		R
++		'là vì muốn bắt tôi nói'
++		R
++		'mấy câu mất nết còn gì!'
++		\L_069ed:
++		ZH 1:
++		'Không muốn tôi nói câu'
++		R
++		'mất nết thì đừng có hỏi!!'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06970:
+ 		ZH 1:
+-		'(bash)'
+-		\L_069ed:
+-		ZH 1:
+-		'Maris lấy'
+-		R
+-		'cuốn sách Rance đang cầm'
+-		R
+-		'và đẩy nó vào mặt hắn.'
++		'（Bốp!）'
++		\L_069ed:
++		ZH 1:
++		'Maria giật cuốn sách'
++		R
++		'Rance đang cầm, dí'
++		R
++		'thẳng vào mặt hắn.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Ôi!'
++		'Óe!'
+ 		\L_069ed:
+ 		\L_069e0:
+ 	}
+@@ -927,7 +907,7 @@
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Có chuyện gì vậy?'
++		'Sao thế?'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+@@ -937,119 +917,115 @@
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Cái gì, không'
+-		R
+-		'đọc được à? Thế thì ta sẽ'
+-		R
+-		'làm vậy. Nó nói âm đạo.'
+-		\L_069ed:
+-		ZH 1:
+-		'Nó có nghĩa là nơi khiến'
+-		R
+-		'siêu vũ khí của ta hạnh'
+-		R
+-		'phúc. Có nghĩa là, Maria...'
+-		\L_069ed:
+-		ZH 1:
+-		'quan hệ tình'
+-		R
+-		'dục với ta và...'
++		'Gì thế, không đọc được'
++		R
++		'à. Vậy để ta đọc cho.'
++		R
++		'Đây là "chitsu" - âm đạo.'
++		\L_069ed:
++		ZH 1:
++		'Là chỗ khiến siêu vũ'
++		R
++		'khí của ta sướng rơn.'
++		R
++		'Thế nên, Maria...'
++		\L_069ed:
++		ZH 1:
++		'làm với ta một phát...'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06970:
+ 		ZH 1:
+-		'（tát）'
+-		\L_069ed:
+-		ZH 1:
+-		'Maria tát vào mặt Rance.'
++		'（Bộp!）'
++		\L_069ed:
++		ZH 1:
++		'Maria lấy lòng bàn'
++		R
++		'tay đập vào đầu Rance.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'C-Anh đang làm gì vậy?!!'
++		'C... cô làm gì thế hả!!'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Rõ ràng là tôi có thể'
+-		R
+-		'đọc được, ai cũng có thể!'
+-		\L_069ed:
+-		ZH 1:
+-		'Đừng ngu ngốc! Cậu'
+-		R
+-		'phải là một vị vua!'
++		'Mấy chữ đó tôi đọc'
++		R
++		'được, hiểu được hết!'
++		\L_069ed:
++		ZH 1:
++		'Đừng có hỏi mấy câu ngớ'
++		R
++		'ngẩn! Rance là vua cơ mà!'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Điều đó không liên'
+-		R
+-		'quan gì đến chuyện này.'
++		'Chuyện nào ra chuyện nấy.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 	}
+ 	{VAR0690 = 5:
+ 		\L_06938:
+ 		ZH 1:
+-		'N-Nó nói quy đầu!'
++		'Đ... đây là...'
++		R
++		'"kitou" - quy đầu!'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Đó là gì?'
++		'Là cái gì? Cái đó......'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Ờ...'
++		'Ư......'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Maaaaaaaaariiiiiiiaaaaaa'
+-		R
+-		'aa. Cô sẽ không'
+-		R
+-		'nói cho ta biết à?'
++		'Maaariiiaaa-chan. Không'
++		R
++		'chịu dạy cho anh à?'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Đ-Ngốc quá!!'
++		'Đ... đồ ngốc!!'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Hmhmhmmmm.'
++		'Hừm hừm hừừm.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 	}
+ 	\L_06938:
+ 	ZH 1:
+-	'Trời ạ, tôi'
+-	R
+-	'không biết! Cậu đang lãng'
+-	R
+-	'phí thời gian của tôi.'
+-	\L_069ed:
+-	ZH 1:
+-	'Tôi phải làm'
+-	R
+-	'thêm hoa Tulip 1...'
+-	\L_069ed:
+-	ZH 1:
+-	'Ngu ngốc, ngu ngốc, ngu'
+-	R
+-	'ngốc! Tôi ghét cậu, Rance!'
++	'Thôi, mặc kệ cậu!'
++	\L_069ed:
++	ZH 1:
++	'Tôi còn phải làm thêm'
++	R
++	'được chiếc Tulip 1'
++	R
++	'nào hay chiếc đó...'
++	\L_069ed:
++	ZH 1:
++	'Đồ ngốc, đồ ngốc, đồ'
++	R
++	'ngốc! Tôi ghét Rance!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_0699a:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria đỏ mặt và'
+-	R
+-	'rời khỏi ngai vàng.'
++	'Maria đỏ bừng mặt, bỏ'
++	R
++	'đi khỏi trước ngai vàng.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 0!
+@@ -1071,120 +1047,116 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng ngủ của Rance Ừ...'
+-	R
+-	'Đã lâu rồi tôi chưa quan'
+-	R
+-	'hệ tình dục với Maria...'
+-	\L_069ed:
+-	ZH 1:
+-	'Làm gì thì tốt với cô...?'
++	'Phòng ngủ của Rance'
++	R
++	'Ừm... lâu rồi mới làm'
++	R
++	'chuyện ấy với Maria...'
++	\L_069ed:
++	ZH 1:
++	'chơi theo kiểu gì đây nhỉ...'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'（cốc cốc cốc...）'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Mhm, ta cho phép cô vào.'
++	'（Cốc cốc cốc...）'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Ừm, cho phép. Vào đi.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 50!
+ 	\L_0698c:
+ 	\L_06938:
+ 	ZH 1:
+-	'Chuyện gì vậy,'
+-	R
+-	'Rance...? Đã muộn rồi...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Điều đó là'
+-	R
+-	'hiển nhiên. Xem xét mối'
+-	R
+-	'quan hệ của chúng ta.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Đ-Chúng ta yêu'
+-	R
+-	'nhau từ khi nào vậy?!!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Vâng. Maria, anh'
+-	R
+-	'sẽ làm tình với em. Cô đang'
+-	R
+-	'phục vụ nhà vua. Gahahahaha!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'... Không.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Cái gì?!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Tại sao tôi phải'
+-	R
+-	'quan hệ tình dục với cậu?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Bởi vì ta là Vua'
+-	R
+-	'và ngươi là cấp dưới của ta.'
+-	R
+-	'Đó là một quy luật tự nhiên.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'... Đó không phải'
+-	R
+-	'là điều tự nhiên. Đồ'
+-	R
+-	'ngốc... tôi ghét cậu.'
++	'Gì vậy... Rance... đêm'
++	R
++	'hôm khuya khoắt thế này...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Chuyện đó thì rõ quá'
++	R
++	'rồi còn gì. Quan hệ'
++	R
++	'giữa ta với cô mà.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Ai... ai có quan'
++	R
++	'hệ gì với cậu chứ!!'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Thôi nào. Maria, ta sẽ'
++	R
++	'ôm cô. Được hầu đêm nhà'
++	R
++	'vua đấy. Gahahahaha.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'......Không.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Hả?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Sao tôi lại phải'
++	R
++	'để Rance ôm chứ.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Vì ta là vua, còn cô'
++	R
++	'là thuộc hạ. Nguyên'
++	R
++	'tắc đương nhiên.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'......Đương nhiên cái'
++	R
++	'gì. Đồ ngốc... ghét cậu.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_0699a:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria rời'
+-	R
+-	'khỏi phòng Rance.'
++	'Maria bỏ ra khỏi'
++	R
++	'phòng Rance.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_068e4:
+ 	ZH 1:
+-	'... Tại sao'
+-	R
+-	'bây giờ nàng lại hành'
+-	R
+-	'động như thế này...?'
+-	\L_069ed:
+-	ZH 1:
+-	'Ta đã quan hệ'
+-	R
+-	'với nàng mấy lần rồi, nàng'
+-	R
+-	'còn ngại ngùng không? Hừm...'
+-	\L_069ed:
+-	ZH 1:
+-	'khập khiễng.'
++	'...Gì chứ, con nhỏ'
++	R
++	'này, giờ mới làm bộ...'
++	\L_069ed:
++	ZH 1:
++	'Đã bao lần được ta'
++	R
++	'ôm rồi, có gì mà'
++	R
++	'phải xấu hổ... hừ...'
++	\L_069ed:
++	ZH 1:
++	'chán ngắt.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 0!
+@@ -1206,72 +1178,60 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng ngủ của'
+-	R
+-	'Rance Trên giường,'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance đang ngồi khoanh'
+-	R
+-	'tay và vẻ mặt phức tạp.'
++	'Phòng ngủ của Rance'
++	R
++	'Trên giường,'
++	\L_069ed:
++	ZH 1:
++	'Rance đang khoanh tay,'
++	R
++	'mặt mày khó đăm đăm.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_068e4:
+ 	ZH 1:
+-	'Maria không nghe'
+-	R
+-	'khi ta bảo nàng quan'
+-	R
+-	'hệ tình dục với ta...'
+-	\L_069ed:
+-	ZH 1:
+-	'Đây là một'
+-	R
+-	'vấn đề nghiêm trọng.'
+-	\L_069ed:
+-	ZH 1:
+-	'Hôm nay ta đã'
+-	R
+-	'gọi lại cho nàng, nhưng...'
+-	\L_069ed:
+-	ZH 1:
+-	'Nếu ta chỉ gọi nàng một'
+-	R
+-	'cách bình thường thì nàng sẽ'
+-	\L_069ed:
+-	ZH 1:
+-	'không làm gì khác'
+-	R
+-	'ngoài việc chống cự…'
+-	\L_069ed:
+-	ZH 1:
+-	'Ta có nên'
+-	R
+-	'cưỡng hiếp nàng không?'
+-	\L_069ed:
+-	ZH 1:
+-	'Nếu chúng ta làm điều đó'
+-	R
+-	'một lần, ta chắc chắn rằng'
+-	R
+-	'nàng sẽ tiếp tục quay lại.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria là loại con'
+-	R
+-	'gái như vậy. Gahahahaha!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Được rồi, nếu đó'
+-	R
+-	'là kế hoạch thì...'
++	'Maria không chịu nghe'
++	R
++	'lời ta, chẳng làm'
++	R
++	'chuyện ấy được...'
++	\L_069ed:
++	ZH 1:
++	'Đây là vấn đề nghiêm trọng.'
++	\L_069ed:
++	ZH 1:
++	'Hôm nay ta lại'
++	R
++	'gọi nữa, nhưng...'
++	\L_069ed:
++	ZH 1:
++	'cứ gọi bình thường thì'
++	\L_069ed:
++	ZH 1:
++	'nó chỉ biết chống cự thôi...'
++	\L_069ed:
++	ZH 1:
++	'Hay là làm cưỡng luôn.'
++	\L_069ed:
++	ZH 1:
++	'Làm một lần rồi thì sau'
++	R
++	'đó chắc chắn sẽ xuôi theo.'
++	\L_069ed:
++	ZH 1:
++	'Maria là loại đàn bà'
++	R
++	'như thế. Hừ hừ hừ hừ.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Được, đã quyết thì...'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance đứng dậy và'
++	'Rance đứng phắt dậy,'
+ 	R
+ 	'tắt đèn trong phòng.'
+ 	\L_069ed:
+@@ -1280,148 +1240,144 @@
+ 	SS 0:
+ 	\L_06900:
+ 	ZH 1:
+-	'（pah）'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Đúng, tối đen'
+-	R
+-	'như mực... Bây giờ hãy đợi'
+-	R
+-	'Maria... Heeheeheeheehee...'
++	'（Tách）'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Ừm... tối om... giờ'
++	R
++	'chờ Maria tới...'
++	R
++	'hi hi hi hi hi...'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'（cốc cốc cốc）'
++	'（Cốc cốc cốc）'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_068e4:
+ 	ZH 1:
+-	'Ồ, nàng đây rồi...'
++	'Ối... tới rồi...'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance ép mình vào bức'
+-	R
+-	'tường đối diện với cánh cửa.'
++	'Rance khẽ áp sát'
++	R
++	'người vào bức tường'
++	R
++	'đối diện cửa ra vào.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 50!
+ 	\L_0698c:
+ 	\L_06938:
+ 	ZH 1:
+-	'Rance, cho dù cậu'
+-	R
+-	'có gọi cho tôi bao nhiêu'
+-	R
+-	'lần đi chăng nữa, tôi...'
+-	\L_069ed:
+-	ZH 1:
+-	'Ủa, sao trời tối thế?'
++	'Rance. Dù cậu có gọi bao'
++	R
++	'nhiêu lần, tôi cũng......'
++	\L_069ed:
++	ZH 1:
++	'Ơ, tối om vậy?'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_068e4:
+ 	ZH 1:
+-	'Keeheeheeheehee...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'... Rance?? Hả?'
++	'Khì khì khì khì......'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'...Rance?? Ơ kìa?'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria bước'
+-	R
+-	'một bước vào căn phòng tối,'
+-	R
+-	'trông có vẻ không thoải mái.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'... Hắn không có ở'
+-	R
+-	'đây sao? Trời ạ, gọi'
+-	R
+-	'cho tôi rồi bỏ đi...'
++	'Maria lo lắng bước một'
++	R
++	'bước vào căn phòng tối om.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'......Không có ở đây'
++	R
++	'à? Thật tình, gọi'
++	R
++	'người ta tới rồi thì...'
+ 	\L_069ed:
+ 	ZH 1:
+ 	'............'
+ 	\L_069ed:
+ 	ZH 1:
+-	'Rance...'
++	'Rance......'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Ngay khi Maria lẩm'
+-	R
+-	'bẩm điều đó với chính mình,'
+-	R
+-	'chuyện gì đó đã xảy ra.'
+-	\L_069ed:
+-	ZH 1:
+-	'（sụp đổ）'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Này!?'
++	'Đúng vào lúc'
++	R
++	'Maria khẽ lẩm bẩm.'
++	\L_069ed:
++	ZH 1:
++	'（Rầm!）'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Kya!?'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Cánh cửa đột'
+-	R
+-	'nhiên đóng lại.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance đóng nó lại,'
+-	R
+-	'nhưng với Maria, người nghĩ'
+-	R
+-	'rằng hắn không có ở đó...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Hả...? Đó là ai!?'
+-	R
+-	'Có ai ở đây không!?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Ôi trời!!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Kyaaah!!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Ngồi yên!!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Kyaaaaaah!!'
++	'Cánh cửa bất ngờ'
++	R
++	'đóng sập lại.'
++	\L_069ed:
++	ZH 1:
++	'Là trò của Rance, nhưng'
++	R
++	'với Maria đang tưởng hắn'
++	R
++	'không có trong phòng thì...'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Hả......ai thế!?'
++	R
++	'Có ai ở đây à!?'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Khư khư khư khư khư!!'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Kyaaa!!'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Ngoan ngoãn đi!!'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Kyaaaaa!!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance sử dụng bóng'
+-	R
+-	'tối, ngụy trang giọng nói'
+-	R
+-	'của mình và tấn công Maria.'
++	'Lợi dụng bóng tối,'
++	R
++	'Rance giả giọng lao'
++	R
++	'vào tấn công Maria.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	EC 0:
+@@ -1429,326 +1385,314 @@
+ 	!VAR0248 : 6!
+ 	\L_069a8:
+ 	ZH 1:
+-	'Maria 「Khônggggggg!! Đừng chạm vào tôi!! 」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria dồn hết sức lực để cố gắng'
+-	R
+-	'thoát khỏi kẻ hiếp dâm (Rance).'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Gugeheeeheeeheeeh! Mông đẹp quá!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Tay của kẻ hiếp dâm (Rance) xoa'
+-	R
+-	'mông Maria qua quần áo của cô.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Xin chào...!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Cơ thể Maria căng thẳng hơn.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「K-Không!! Cứu tôi với, Rance! 」'
+-	\L_069ed:
+-	ZH 1:
+-	'Kẻ hiếp dâm (Rance) đã cưỡng bức quần áo'
+-	\L_069ed:
+-	ZH 1:
+-	'của Maria và xoa bóp ngực cô một cách thô bạo.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Kh... Không!! Cứu'
+-	R
+-	'tôi với... Rance... Rance!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria đánh vào đầu kẻ hiếp dâm (Rance) và vùng'
+-	\L_069ed:
+-	ZH 1:
+-	'vẫy nhưng cô không thể thoát khỏi tay hắn.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Hiin... Tôi không thích điều'
+-	R
+-	'này...!! Rance... Cứu tôi... Rance!」'
++	'Maria「Khônggg!! Đừng chạm vào tôi!!」'
++	\L_069ed:
++	ZH 1:
++	'Maria dốc hết sức, liều mạng'
++	R
++	'giằng khỏi tay tên cướp (Rance).'
++	\L_069ed:
++	ZH 1:
++	'Rance「Khư khư khư! Cái mông ngon lành ghê!!」'
++	\L_069ed:
++	ZH 1:
++	'Tay tên cướp (Rance) xoa'
++	R
++	'mông Maria qua lớp quần áo.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Hí...!!」'
++	\L_069ed:
++	ZH 1:
++	'Cơ thể Maria càng dồn thêm sức.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Đ-đừng mà!! Cứu tôi với... Rance!」'
++	\L_069ed:
++	ZH 1:
++	'Tên cướp (Rance) cố lột quần áo'
++	\L_069ed:
++	ZH 1:
++	'của Maria, nhào bóp ngực nàng thô bạo.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Ư... đừng!! Cứu'
++	R
++	'tôi... Rance... Rance ơi!!」'
++	\L_069ed:
++	ZH 1:
++	'Maria đập vào đầu tên cướp (Rance), vùng vẫy,'
++	\L_069ed:
++	ZH 1:
++	'nhưng tay hắn vẫn không chịu buông.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Hức... không mà... thế'
++	R
++	'này...!! Rance... cứu tôi... Rance!」'
+ 	\L_069ed:
+ 	SS 0:
+ 	G 190:
+ 	SS 24:
+ 	ZH 1:
+-	'（nhấp chuột）'
++	'（Tách）'
+ 	\L_069ed:
+ 	ZH 1:
+ 	'Đèn bật sáng.'
+ 	\L_069ed:
+ 	ZH 1:
+-	'Maria 「Hả...?」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Ta đến để cứu cô, công chúa của ta.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Hả...?」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Ồ, đừng ngại. Em có'
+-	R
+-	'yêu ta nhiều đến vậy không? 」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Em đã nhiều lần gọi'
+-	R
+-	'tên ta một cách khao khát ...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Ưu...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Ngu ngốc, ngu ngốc,'
+-	\L_069ed:
+-	ZH 1:
+-	'ngu ngốc!! Tại sao ngươi làm điều'
+-	R
+-	'đó...? Hick...」 tôi thực sự sợ hãi...!!'
+-	\L_069ed:
+-	ZH 1:
+-	'」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria vùi mặt vào ngực Rance và bắt đầu khóc lớn.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À...」'
++	'Maria「Hả......」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Ta tới cứu nàng đây, công chúa」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Hả......」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Ây da, ngượng ghê.'
++	R
++	'Cô thích ta tới thế cơ à?」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Cứ gọi mãi cái tên'
++	R
++	'Rance yêu dấu của ta...」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Ư......」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Đồ ngốc, đồ ngốc,'
++	\L_069ed:
++	ZH 1:
++	'đồ ngốc!! Sao lại làm chuyện thế này chứ... hức'
++	\L_069ed:
++	ZH 1:
++	'tôi sợ thật mà...!!」'
++	\L_069ed:
++	ZH 1:
++	'Maria vùi mặt vào ngực Rance, òa khóc nức nở.'
++	\L_069ed:
++	ZH 1:
++	'Maria「A......」'
+ 	\L_069ed:
+ *L_01b0f:
+ 	ZH 1:
+-	'Rance xé quần áo nhiều hơn.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Bởi vì em muốn quan hệ tình'
+-	R
+-	'dục với ta nhưng lại kiềm chế.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Tôi... không...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Trong cuộc tranh luận của họ,'
+-	R
+-	'Rance đã cởi áo và quần của Maria.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Này...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Nhấc mông lên. Nếu không thì tôi'
+-	R
+-	'thậm chí còn không thể cởi được'
+-	\L_069ed:
+-	ZH 1:
+-	'quần của ngươi chứ đừng'
+-	R
+-	'nói đến quần lót của ngươi.'
+-	\L_069ed:
+-	ZH 1:
+-	'」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「... Không...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Mặc dù nói vậy nhưng Maria'
+-	R
+-	'hơi ngẩng đầu lên một chút.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Hmph... Nghe này, em là'
+-	R
+-	'người phụ nữ của anh. Đừng quên.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Dù ta là một chiến binh'
+-	R
+-	'bình thường hay một vị vua thì'
+-	\L_069ed:
+-	ZH 1:
+-	'ta vẫn là một người như」 vậy. Hiểu chưa?」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「V-Ừ... Nhưng... Chuyện đó'
+-	R
+-	'thì liên quan gì tới chuyện này...?」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Im lặng đi.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À...!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Cái gì, ướt rồi à? Mặc'
+-	R
+-	'dù cô đã la hét rất nhiều...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「B-Bởi vì... Khi tôi biết đó là cậu...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Khi cô biết đó là ta... Nó ướt thế này à?」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À...!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance lướt ngón tay trên âm hộ của Maria,'
+-	\L_069ed:
+-	ZH 1:
+-	'cố tình tạo ra âm thanh ướt'
+-	R
+-	'át để cô có thể nghe thấy.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「B-Bởi vì... Bởi vì...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Mhm... Để xem nào...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance nhấc chân Maria lên...'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Chà, đã lâu rồi chúng ta chưa làm tình...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Em không thể không khao'
+-	R
+-	'khát siêu vũ khí của ta ...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Đ-Ngốc quá... Ah... Ahn...!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance đưa siêu vũ khí của'
+-	R
+-	'mình vào sâu bên trong Maria.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Kh...'
+-	\L_069ed:
+-	ZH 1:
+-	'Cái gì...? Chúng ta thậm chí còn chưa di'
+-	R
+-	'chuyển và em đang bị co thắt rất nhiều. 」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Đ-Đừng nói thế... Ah...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance dang rộng hai chân của Maria,'
+-	\L_069ed:
+-	ZH 1:
+-	'đẩy siêu vũ khí của hắn ra'
+-	R
+-	'vào và xoa bóp âm vật của cô.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À... Rance...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Được rồi... Giờ ta sẽ đụ'
+-	R
+-	'cô từ phía sau như một con thú!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance nắm chặt hông Maria.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À... Đợi đã...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Cái gì? Ta không thể dừng lại bây giờ. 」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「K-Không đúng rồi...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Cái gì không?」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Làm ơn... Ít nhất là trong'
+-	R
+-	'ngày hôm nay, hãy nhìn tôi...'
+-	\L_069ed:
+-	ZH 1:
+-	'Tôi cũng muốn gặp ngươi...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「... Được rồi, chỉ hôm nay thôi.'
+-	R
+-	'Lần tới ta muốn thử nó từ phía sau. 」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「... Được rồi...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Vậy thì ta sẽ không'
+-	R
+-	'nương tay đâu. Được không?」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Aah...!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance nâng hông của Maria lên và bắt đầu piston.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À... Rance... Rance...!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria bám vào cổ Rance và di'
+-	R
+-	'chuyển hông đồng bộ với anh.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「H-Này... Em di chuyển mạnh quá...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Bởi vì... Bởi vì... Rance... Rance...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria rên rỉ và dùng hông một cách thô bạo,'
+-	R
+-	'kích thích cặc Rance hơn mức cần thiết.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Kh...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance ôm chặt Maria.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Aah...!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria cảm nhận được sức nóng của'
+-	R
+-	'Rance xuyên suốt cơ thể mình,'
+-	\L_069ed:
+-	ZH 1:
+-	'run rẩy dữ dội và siết chặt siêu'
+-	R
+-	'vũ khí của Rance bên trong cô.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Kh...!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance lại ôm chặt Maria và bắn'
+-	R
+-	'tất cả những gì anh có vào cô.'
++	'Rance tiếp tục lột quần áo Maria.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Tại cô muốn được ta ôm mà cứ cố chấp đấy」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Ai... muốn được ôm chứ...」'
++	\L_069ed:
++	ZH 1:
++	'Vừa đấu khẩu, Rance vừa cởi'
++	R
++	'áo khoác và quần của Maria.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Này...'
++	\L_069ed:
++	ZH 1:
++	'nhấc mông lên. Thế này thì đừng nói quần lót,'
++	\L_069ed:
++	ZH 1:
++	'đến cái quần dài cũng không cởi được'
++	\L_069ed:
++	ZH 1:
++	'đâu」'
++	\L_069ed:
++	ZH 1:
++	'Maria「......Không...」'
++	\L_069ed:
++	ZH 1:
++	'Nói vậy, nhưng Maria lén nhấc mông lên.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Hừ... nghe đây. Em là đàn'
++	R
++	'bà của ta. Đừng có quên điều đó」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Dù ta là một chiến'
++	R
++	'binh quèn hay là quốc vương'
++	\L_069ed:
++	ZH 1:
++	'thì cũng vậy cả. Hiểu chưa?」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Ư... ừ... nhưng chuyện đó'
++	R
++	'liên quan gì tới chuyện này...」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Im」'
++	\L_069ed:
++	ZH 1:
++	'Maria「A...!!」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Gì đây, ướt rồi này.'
++	R
++	'Vừa nãy còn la oai oái...」'
++	\L_069ed:
++	ZH 1:
++	'Maria「T-tại... tại biết là Rance rồi...」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Biết là ta... thì chỗ'
++	R
++	'này thành ra thế này à?」'
++	\L_069ed:
++	ZH 1:
++	'Maria「A...!!」'
++	\L_069ed:
++	ZH 1:
++	'Rance lướt ngón tay trên cánh hoa của Maria,'
++	\L_069ed:
++	ZH 1:
++	'cố tình cho nàng nghe tiếng ướt át.'
++	\L_069ed:
++	ZH 1:
++	'Maria「T-tại... tại... tại...」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Ừm... phải rồi......」'
++	\L_069ed:
++	ZH 1:
++	'Rance ôm lấy chân Maria...'
++	\L_069ed:
++	ZH 1:
++	'Rance「Lâu lắm rồi ta mới ôm em...'
++	\L_069ed:
++	ZH 1:
++	'cơ thể nhớ siêu vũ khí của ta'
++	R
++	'cũng là chuyện đương nhiên」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Đ-đồ ngốc... a... ưn...!!」'
++	\L_069ed:
++	ZH 1:
++	'Rance đưa siêu vũ khí ngập sâu vào trong Maria.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Ư...'
++	\L_069ed:
++	ZH 1:
++	'gì thế... còn chưa động mấy'
++	R
++	'mà đã siết chặt thế rồi」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Đ-đừng... đừng nói ra... a...!」'
++	\L_069ed:
++	ZH 1:
++	'Rance banh rộng chân Maria,'
++	\L_069ed:
++	ZH 1:
++	'ra vào, cọ xát siêu vũ khí,'
++	R
++	'kích thích hạt ngọc của nàng.'
++	\L_069ed:
++	ZH 1:
++	'Maria「A... Rance...!」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Được... giờ ta sẽ làm'
++	R
++	'em từ phía sau như thú vật!!」'
++	\L_069ed:
++	ZH 1:
++	'Rance nắm lấy hông Maria.'
++	\L_069ed:
++	ZH 1:
++	'Maria「A... khoan đã...!」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Gì thế? Đến nước này mà dừng thì...」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Không phải... không phải thế...」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Thế là sao?」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Xin cậu... chỉ hôm nay'
++	R
++	'thôi, hãy nhìn tôi mà làm...'
++	\L_069ed:
++	ZH 1:
++	'tôi cũng muốn được nhìn Rance...」'
++	\L_069ed:
++	ZH 1:
++	'Rance「...Được, chỉ hôm nay thôi'
++	R
++	'đấy. Lần sau là từ phía sau đấy nhé」'
++	\L_069ed:
++	ZH 1:
++	'Maria「......Ừm......」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Vậy ta không khách sáo nữa. Được chứ?」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Aa...!!」'
++	\L_069ed:
++	ZH 1:
++	'Rance ôm hông Maria, bắt đầu thúc'
++	R
++	'như muốn nhấc bổng thân nàng lên.'
++	\L_069ed:
++	ZH 1:
++	'Maria「A... Rance... Rance...!!」'
++	\L_069ed:
++	ZH 1:
++	'Maria bám chặt cổ Rance,'
++	R
++	'đưa hông theo nhịp hông anh.'
++	\L_069ed:
++	ZH 1:
++	'Rance「N-này... đừng mạnh thế...」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Tại... tại... Rance... Rance...」'
++	\L_069ed:
++	ZH 1:
++	'Maria rên như khóc, lắc hông dữ dội,'
++	R
++	'kích thích Rance quá mức cần thiết.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Ư......」'
++	\L_069ed:
++	ZH 1:
++	'Rance ôm siết thân Maria.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Aa......!!」'
++	\L_069ed:
++	ZH 1:
++	'Cảm nhận hơi ấm của Rance khắp'
++	R
++	'cơ thể, Maria run bắn lên,'
++	\L_069ed:
++	ZH 1:
++	'siết chặt lấy siêu vũ khí của'
++	R
++	'Rance đang chôn sâu bên trong.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Ư......!!」'
++	\L_069ed:
++	ZH 1:
++	'Rance cũng ôm chặt Maria,'
++	R
++	'phóng hết vào bên trong nàng.'
+ 	\L_069ed:
+ 	{VAR0520 = 301:
+ 		%0:
+@@ -1768,56 +1712,52 @@
+ 	\L_069e0:
+ 	\L_068c8:
+ 	ZH 1:
+-	'Gugaaahaaahaha!haha!...'
+-	R
+-	'Gugaaahaaahaha!haha!...'
++	'Khò... khò......'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria đang thay'
+-	R
+-	'quần áo trong khi'
+-	R
+-	'nhìn Rance ngáy to.'
++	'Vừa mặc lại quần áo,'
++	R
++	'Maria vừa nhìn Rance'
++	R
++	'đang ngủ ngáy khò khò.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06954:
+ 	ZH 1:
+-	'... Tôi đã'
+-	R
+-	'làm lại lần nữa...'
+-	\L_069ed:
+-	ZH 1:
+-	'Sau khi tôi quyết'
+-	R
+-	'định phải từ bỏ...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Ôi...'
++	'...Lại... làm nữa'
++	R
++	'rồi...... Hỏng thật...'
++	\L_069ed:
++	ZH 1:
++	'Đã quyết tâm... phải'
++	R
++	'từ bỏ rồi cơ mà...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Phù khò......'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance trở'
+-	R
+-	'mình trong giấc ngủ và'
+-	R
+-	'đá văng chiếc chăn ra.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Huhu...'
++	'Rance trở mình,'
++	R
++	'đạp tung chăn.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Hi hi...'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria mỉm cười và'
+-	R
+-	'đắp chăn lại cho Rance.'
++	'Maria mỉm cười, đắp'
++	R
++	'lại chăn cho Rance.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06938:
+@@ -1825,25 +1765,23 @@
+ 	'Rance...'
+ 	\L_069ed:
+ 	ZH 1:
+-	'Đối với anh,'
+-	R
+-	'em có thể chỉ là một cô gái'
+-	R
+-	'khác, nhưng... em... em...'
++	'Với anh, có lẽ em chỉ là'
++	R
++	'một trong rất nhiều cô'
++	R
++	'gái... nhưng em... em...'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria run rẩy khi đến'
+-	R
+-	'gần khuôn mặt của Rance.'
+-	\L_069ed:
+-	ZH 1:
+-	'Cô nhẹ nhàng'
+-	R
+-	'hôn lên trán anh rồi'
+-	R
+-	'lặng lẽ rời khỏi phòng.'
++	'Maria run run ghé'
++	R
++	'mặt lại gần Rance.'
++	\L_069ed:
++	ZH 1:
++	'Nàng khẽ hôn lên trán hắn,'
++	R
++	'rồi lặng lẽ rời khỏi phòng.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 0!
+@@ -1864,66 +1802,66 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng ngủ của Rance Hohoh...'
+-	R
+-	'Mm～～... Hoy!'
++	'Phòng ngủ của Rance'
++	R
++	'Hô hô... ưm~~... hây!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance đang tập thể'
+-	R
+-	'dục khi đợi Maria.'
++	'Rance vừa tập gì đó như'
++	R
++	'thể dục vừa đợi Maria.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'（cốc cốc cốc）'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Vào.'
++	'（Cốc cốc cốc）'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Vào đi.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 50!
+ 	\L_0698c:
+ 	\L_06938:
+ 	ZH 1:
+-	'Rance, cậu làm gì...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Gahahahaha! ha!!!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Kyaaah!!'
++	'Rance, có việc gì...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Gahahahahaha!!!'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Kyaaa!!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance chạy'
+-	R
+-	'đến chỗ Maria, bế cô lên'
+-	R
+-	'và đưa thẳng lên giường.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Chuyện gì vậy, Rance...?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Đừng giả vờ.'
+-	R
+-	'Cô biết ta muốn gì. Cô đang'
+-	R
+-	'mặc đồ lót mới phải không?'
++	'Rance chạy tới chỗ'
++	R
++	'Maria, bế bổng nàng lên,'
++	R
++	'đi thẳng tới giường.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Gì vậy chứ... Rance...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Còn giả bộ. Cô biết ta'
++	R
++	'gọi làm gì mà. Có mặc đồ'
++	R
++	'lót mới tới đấy chứ hả?'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06938:
+@@ -1933,30 +1871,28 @@
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance cọ'
+-	R
+-	'xát cặp mông khá lớn của'
+-	R
+-	'Maria qua quần của cô.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Ngu ngốc!'
+-	\L_069ed:
+-	ZH 1:
+-	'Con trai phải giả'
+-	R
+-	'vờ như không để ý khi con'
+-	R
+-	'gái lo lắng về điều đó...'
+-	\L_069ed:
+-	ZH 1:
+-	'Cậu phải bớt'
+-	R
+-	'thẳng thắn hơn đi, như khen'
+-	R
+-	'tôi hôm nay trông đẹp đấy...'
++	'Vừa nói, Rance vừa xoa'
++	R
++	'cặp mông hơi to của'
++	R
++	'Maria qua lớp quần.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Đồ ngốc!'
++	\L_069ed:
++	ZH 1:
++	'Con gái có chu đáo chuyện'
++	R
++	'đó... thì con trai cũng phải'
++	R
++	'làm như không thấy chứ...'
++	\L_069ed:
++	ZH 1:
++	'phải đợi không khí lãng'
++	R
++	'mạn hơn rồi mới khen chứ...'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_068c8:
+@@ -1966,11 +1902,9 @@
+ 	\L_069e0:
+ 	\L_06938:
+ 	ZH 1:
+-	'Trời ạ...!'
+-	R
+-	'Hãy lắng nghe tôi'
+-	R
+-	'chỉ một... Kyaaaaaan!'
++	'Thật là...! Nghe người'
++	R
++	'ta nói chút đi... kyaaan!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	PF1 VAR0056:
+@@ -1981,218 +1915,204 @@
+ 	!VAR0248 : 5!
+ 	\L_069a8:
+ 	ZH 1:
+-	'Rance 「Âm hộ của em có lẽ'
+-	R
+-	'đang đợi ta. Đúng không?」'
++	'Rance「Chỗ này của em hẳn cũng'
++	R
++	'chờ ta mãi rồi. Nhỉ, phải không?」'
+ 	PF0 VAR0056:
+ 	\L_069ed:
+ 	ZH 1:
+-	'Rance thọc mặt vào háng'
+-	R
+-	'Maria và nói chuyện với nó.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Kyah... Kyaaah! Ngu ngốc, ngu ngốc!'
+-	R
+-	'Cậu đang nói chuyện với cái gì vậy...?」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Con mèo dễ thương của em.」'
++	'Rance thọc mặt vào giữa háng Maria,'
++	R
++	'nói chuyện với thứ trước mắt.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Kya... kyaaa! Đồ ngốc, đồ'
++	R
++	'ngốc! Cậu nhìn đâu mà nói thế...」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Chỗ... dễ thương của Maria」'
+ 	\L_069ed:
+ 	ZH 1:
+ 	'Rance thè lưỡi ra.'
+ 	\L_069ed:
+ 	ZH 1:
+-	'Maria 「Ừm...!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Ta chỉ liếm em một lần,'
+-	R
+-	'nhưng em đã nhỏ giọt rồi.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Hii... Mm... Dừng lại...'
+-	R
+-	'Đừng nói những điều như thế...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Nếu em không muốn ta nói'
+-	R
+-	'vậy thì hãy chạm vào cặc ta.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Hả...?」'
+-	\L_069ed:
+-	ZH 1:
+-	'Lòng bàn tay của Maria được'
+-	R
+-	'đặt trên siêu vũ khí. Nó'
+-	\L_069ed:
+-	ZH 1:
+-	'vẫn ở trong tình trạng có'
+-	R
+-	'thể trở nên khó khăn hơn.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria nhắm mắt lại và từ từ bắt đầu chạm vào nó.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「N-Này, làm mạnh hơn nữa đi. Nhột quá.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À... X-X-Xin lỗi... Như thế này...?」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria rụt rè nhưng vẫn mạnh mẽ hơn trước,'
+-	\L_069ed:
+-	ZH 1:
+-	'nắm lấy siêu vũ khí của'
+-	R
+-	'Rance và bắt đầu vuốt ve nó.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Ừm... Ừm...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Cảm giác từ lưỡi của Rance và thứ trong lòng'
+-	\L_069ed:
+-	ZH 1:
+-	'bàn tay cô khiến Maria bắt đầu run rẩy.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria cảm động. Siêu vũ khí của Rance đã tăng vọt.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance liếm lưỡi. Âm hộ của Maria ngày càng ẩm ướt.'
+-	\L_069ed:
+-	ZH 1:
+-	'Giống như họ đồng bộ với nhau,'
+-	\L_069ed:
+-	ZH 1:
+-	'cơ thể của cả hai đều đạt đến trạng'
+-	R
+-	'thái hoàn toàn sẵn sàng cùng một lúc.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Được rồi... Buông ra...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Đ-Được rồi...」'
++	'Maria「Ưm......!!」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Mới liếm một cái... mà'
++	R
++	'đã chảy ra nhầy nhụa rồi này」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Hí... ưm... thôi đi... đừng nói thế mà...」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Không muốn ta nói thì... sờ của ta đi」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Hả......」'
++	\L_069ed:
++	ZH 1:
++	'Trên lòng bàn tay Maria, siêu vũ'
++	R
++	'khí được đặt lên, trong trạng thái'
++	\L_069ed:
++	ZH 1:
++	'"từ giờ mới bắt đầu hăng lên".'
++	\L_069ed:
++	ZH 1:
++	'Maria「A......」'
++	\L_069ed:
++	ZH 1:
++	'Maria nhắm mắt, chậm rãi bắt đầu sờ nó.'
++	\L_069ed:
++	ZH 1:
++	'Rance「N... này. Mạnh hơn chút. Nhột quá」'
++	\L_069ed:
++	ZH 1:
++	'Maria「A... x... x-xin lỗi... thế này......?」'
++	\L_069ed:
++	ZH 1:
++	'Rụt rè... nhưng mạnh hơn lúc nãy, như hơi nắm lại,'
++	\L_069ed:
++	ZH 1:
++	'Maria bắt đầu vuốt ve siêu vũ khí của Rance.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Ưm... ưmm......」'
++	\L_069ed:
++	ZH 1:
++	'Trước cảm giác lưỡi Rance và thứ trong lòng'
++	\L_069ed:
++	ZH 1:
++	'bàn tay, Maria bắt đầu run rẩy.'
++	\L_069ed:
++	ZH 1:
++	'Maria chạm vào. Siêu vũ khí'
++	R
++	'của Rance cương lên to dần.'
++	\L_069ed:
++	ZH 1:
++	'Lưỡi Rance bò tới. Chỗ ấy của'
++	R
++	'Maria nhầy nhụa như tan chảy.'
++	\L_069ed:
++	ZH 1:
++	'Như thể hành động của hai người hô ứng nhau,'
++	\L_069ed:
++	ZH 1:
++	'cơ thể cả hai dần dần sẵn sàng.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Được... buông ra...」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Ư... ừ......」'
+ 	\L_069ed:
+ 	ZH 1:
+ 	'Maria buông siêu vũ khí của Rance. Lưỡi'
+ 	\L_069ed:
+ 	ZH 1:
+-	'của Rance cũng rời khỏi âm hộ của Maria...'
+-	\L_069ed:
+-	ZH 1:
+-	'Hắn thay thế nó bằng đầu cặc của mình.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance đặt Maria xuống và kẹp một'
+-	R
+-	'chân của cô dưới cánh tay anh.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À...!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Siêu vũ khí của Rance đã bị tiêu'
+-	R
+-	'hao hoàn toàn bên trong Maria.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Được rồi, hôm nay ta sẽ làm từ phía sau!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Hả...? A... Aah!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance xoay hông Maria, đặt tay'
+-	R
+-	'xuống giường và nâng mông lên.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À... Kwah...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Gahahahaha!!!'
+-	R
+-	'Cảm giác thật tuyệt, Maria!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance dùng lòng bàn tay chạm vào'
+-	\L_069ed:
+-	ZH 1:
+-	'mông Maria và bắt đầu xoa bóp. Anh đâm'
+-	R
+-	'siêu vũ khí của mình vào và ra khỏi cô,'
+-	\L_069ed:
+-	ZH 1:
+-	'khiến nước ép của cô chảy ra.'
+-	\L_069ed:
+-	ZH 1:
+-	'Những giọt chất lỏng rải rác trên tấm'
+-	R
+-	'trải giường như cánh hoa rơi sau khi nở.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À... Rance...!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria nắm chặt tấm trải giường và lắc'
+-	\L_069ed:
+-	ZH 1:
+-	'người để phù hợp với chuyển động'
+-	R
+-	'của dạ dày Rance đập vào mông cô.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Tốt, Maria... Hãy tiếp tục làm như vậy!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance nâng hông của Maria lên'
+-	R
+-	'và thưởng thức xác thịt của cô.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Ừm... Mmmmmm...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Bất chấp tư thế không ổn định,'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria vẫn tiếp tục di chuyển hông'
+-	R
+-	'của mình để phù hợp với Rance.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Đó... sắp ra rồi, cầm lấy đi!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Aah...!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance chôn siêu vũ khí của'
+-	R
+-	'mình vào sâu bên trong Maria'
+-	\L_069ed:
+-	ZH 1:
+-	'và bộc lộ tất cả những gì anh có bên trong cô.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À... Ahn...!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Sau đó, Maria đi theo Rance'
+-	R
+-	'và cơ thể cô rung chuyển mạnh.'
++	'Rance cũng rời khỏi chỗ ấy của Maria...'
++	\L_069ed:
++	ZH 1:
++	'thay cho lưỡi là đầu siêu vũ khí áp vào.'
++	\L_069ed:
++	ZH 1:
++	'Maria「A......」'
++	\L_069ed:
++	ZH 1:
++	'Maria bị đặt nằm nghiêng, một'
++	R
++	'chân bị Rance kẹp bên hông.'
++	\L_069ed:
++	ZH 1:
++	'Maria「A......!!」'
++	\L_069ed:
++	ZH 1:
++	'Siêu vũ khí của Rance bị'
++	R
++	'nuốt trọn vào trong Maria.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Được, hôm nay cứ thế'
++	R
++	'chuyển sang từ phía sau luôn!」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Hả...... a... a ư!」'
++	\L_069ed:
++	ZH 1:
++	'Rance xoay hông Maria lại, bắt nàng'
++	R
++	'chống tay xuống giường, chổng mông lên.'
++	\L_069ed:
++	ZH 1:
++	'Maria「A... khư......」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Gahahaha!!! Tuyệt lắm, Maria!」'
++	\L_069ed:
++	ZH 1:
++	'Rance dùng lòng bàn tay sờ mông Maria,'
++	\L_069ed:
++	ZH 1:
++	'nhào nặn, rồi như nắm chặt lấy,'
++	R
++	'xuyên siêu vũ khí vào trong Maria,'
++	\L_069ed:
++	ZH 1:
++	'rút ra, làm dịch nhỏ giọt.'
++	\L_069ed:
++	ZH 1:
++	'Những giọt dịch tí tách rơi xuống ga'
++	R
++	'giường như nở ra những bông hoa nhỏ.'
++	\L_069ed:
++	ZH 1:
++	'Maria「A... Rance...!!」'
++	\L_069ed:
++	ZH 1:
++	'Maria bấu chặt ga giường, lắc người theo'
++	\L_069ed:
++	ZH 1:
++	'nhịp Rance đập bụng vào mông nàng.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Tốt lắm, Maria... cứ thế!」'
++	\L_069ed:
++	ZH 1:
++	'Rance ôm đùi Maria lên ngang'
++	R
++	'hông, ngấu nghiến bên trong nàng.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Ưm... ưmmm...!」'
++	\L_069ed:
++	ZH 1:
++	'Dù tư thế chênh vênh,'
++	\L_069ed:
++	ZH 1:
++	'Maria vẫn ngoan ngoãn đưa hông theo nhịp Rance.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Này... ra đây, nhận lấy!」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Aa......!!」'
++	\L_069ed:
++	ZH 1:
++	'Rance chôn sâu siêu vũ khí vào trong Maria,'
++	\L_069ed:
++	ZH 1:
++	'phóng ra thỏa thích.'
++	\L_069ed:
++	ZH 1:
++	'Maria「A...... ưn...!!」'
++	\L_069ed:
++	ZH 1:
++	'Và Maria cũng run bắn lên theo Rance.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 0!
+@@ -2206,78 +2126,76 @@
+ 	\L_0698c:
+ 	\L_068c8:
+ 	ZH 1:
+-	'Haaaaa...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Ừm...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Cái gì? Không có đủ?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Không... Anh đặt em'
+-	R
+-	'vào thế đau đớn nên'
+-	R
+-	'người em đau nhức...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Được rồi, vậy'
+-	R
+-	'là cô chưa có đủ.'
++	'Phùùù...'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Hừm......'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Gì thế? Chưa đã à?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Không phải... tại Rance'
++	R
++	'làm tư thế khó chịu quá...'
++	R
++	'nên người... đau lắm...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Được, hiểu rồi.'
++	R
++	'Là chưa đã chứ gì.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance lờ mờ nhìn Maria.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Này... Tôi không'
+-	R
+-	'nói vậy đâu, dừng lại!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Nghĩ lại thì, trước'
+-	R
+-	'đây cô đã nói rằng cô thích'
+-	R
+-	'làm việc đó ngay từ đầu.'
+-	\L_069ed:
+-	ZH 1:
+-	'Vậy tiếp theo ta sẽ đụ cô'
+-	R
+-	'từ phía trước và ngắm nhìn'
+-	R
+-	'khuôn mặt rên rỉ của cô.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'N-Nhưng tôi đã nói...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Gahahahaha!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Kyaaaaaaaahn! Cậu'
+-	R
+-	'thật ngu ngốc, Rance!!'
++	'Rance đè lên người Maria.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Khoan... đã bảo mà!'
++	R
++	'Không phải, không phải!'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Nhắc mới nhớ, trước'
++	R
++	'đây cô bảo thích làm'
++	R
++	'từ phía trước nhỉ.'
++	\L_069ed:
++	ZH 1:
++	'Vậy lần này ta làm từ'
++	R
++	'phía trước, ngắm cái'
++	R
++	'mặt rên ư ử của cô.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Đ... đã bảo là...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Gahahahaha!!'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Kyaaan! Rance đồ ngốc!!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 0!
+@@ -2299,26 +2217,24 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng ngủ của'
+-	R
+-	'Rance ... Mất một lúc...'
+-	\L_069ed:
+-	ZH 1:
+-	'Đã 30 phút trôi qua kể'
+-	R
+-	'từ khi tôi gọi cho cô...'
++	'Phòng ngủ của Rance'
++	R
++	'......Chậm quá......'
++	\L_069ed:
++	ZH 1:
++	'Cho người đi gọi'
++	R
++	'đã 30 phút rồi...'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'（cốc...cốc...）'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Điều gì khiến cô'
+-	R
+-	'mất nhiều thời gian thế?!!'
++	'（Cốc... cốc...）'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Chậm quááá!!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 50!
+@@ -2330,27 +2246,23 @@
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria lặng lẽ bước'
+-	R
+-	'vào phòng với vẻ mặt u ám'
+-	R
+-	'như thể đây là ngày tận thế.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Có chuyện gì vậy? Cô'
+-	R
+-	'vẫn còn lo lắng về những'
+-	R
+-	'gì đã xảy ra với vụ nổ?'
+-	\L_069ed:
+-	ZH 1:
+-	'Ta sẽ khiến cô'
+-	R
+-	'quên nó đi bằng siêu vũ'
+-	R
+-	'khí của ta. Gahahahaha!'
++	'Maria lặng lẽ bước vào,'
++	R
++	'mặt mày u ám như tận thế.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Sao thế? Vẫn còn'
++	R
++	'để bụng vụ nổ à?'
++	\L_069ed:
++	ZH 1:
++	'Chuyện đó cứ để siêu'
++	R
++	'vũ khí của ta giúp cô'
++	R
++	'quên đi. Gahahahaha!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06938:
+@@ -2360,21 +2272,17 @@
+ 	\L_069e0:
+ 	\L_068c8:
+ 	ZH 1:
+-	'Này, ta bảo cô đừng lo'
+-	R
+-	'lắng về điều đó... Cô không'
+-	R
+-	'làm được điều đó sao?!!'
+-	\L_069ed:
+-	ZH 1:
+-	'Hay là gì?'
+-	\L_069ed:
+-	ZH 1:
+-	'Cô sẽ nói với ta'
+-	R
+-	'rằng cô không muốn quan hệ'
+-	R
+-	'tình dục với ta phải không?'
++	'Hừ, người ta đã bảo đừng'
++	R
++	'bận tâm... thôi đi chứ!!'
++	\L_069ed:
++	ZH 1:
++	'Hay là sao?'
++	\L_069ed:
++	ZH 1:
++	'Cô định nói là không'
++	R
++	'muốn được ta ôm à?'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06938:
+@@ -2384,7 +2292,9 @@
+ 	\L_069e0:
+ 	\L_068c8:
+ 	ZH 1:
+-	'Này, Maria... Ờ...'
++	'Này, Maria...'
++	R
++	'nói gì đi chứ...'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06938:
+@@ -2399,17 +2309,17 @@
+ 	\L_069e0:
+ 	\L_06938:
+ 	ZH 1:
+-	'... Không sao đâu...'
+-	\L_069ed:
+-	ZH 1:
+-	'Che giấu nó'
+-	R
+-	'cũng chẳng ích gì...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Hm, giấu cái gì cơ??'
++	'......Thôi được......'
++	\L_069ed:
++	ZH 1:
++	'đằng nào giấu'
++	R
++	'cũng chẳng được...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Hử, giấu?? Chuyện gì thế.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06938:
+@@ -2419,7 +2329,9 @@
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria lặng lẽ cởi áo ra.'
++	'Maria lặng lẽ bắt'
++	R
++	'đầu cởi áo khoác.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06938:
+@@ -2429,31 +2341,29 @@
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria run rẩy.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Có chuyện gì vậy...?'
++	'Maria run lẩy bẩy.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Rốt cuộc là sao thế...'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance đưa tay'
+-	R
+-	'về phía Maria.'
+-	\L_069ed:
+-	ZH 1:
+-	'Nhưng Maria đã'
+-	R
+-	'ngăn họ lại. Sau đó cô từ từ'
+-	R
+-	'cởi áo sơ mi và áo ngực ra.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'À...'
++	'Rance đưa tay về phía Maria.'
++	\L_069ed:
++	ZH 1:
++	'Nhưng Maria gạt tay hắn'
++	R
++	'ra. Rồi chậm rãi cởi'
++	R
++	'áo... cởi cả đồ lót.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'A......'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	PF1 VAR0056:
+@@ -2463,270 +2373,264 @@
+ 	!VAR0248 : 5!
+ 	\L_069a8:
+ 	ZH 1:
+-	'Một vết sẹo từ vụ nổ rõ ràng'
+-	R
+-	'đã để lại trên ngực Maria.'
++	'Trên ngực Maria, vết thương từ'
++	R
++	'vụ nổ vẫn còn hằn rõ mồn một.'
+ 	PF0 VAR0056:
+ 	\L_069ed:
+ 	ZH 1:
+-	'Maria 「............」'
++	'Maria「.........」'
+ 	\L_069ed:
+ *L_02b64:
+ 	ZH 1:
+-	'Maria tránh ánh mắt của Rance và run rẩy.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Maria... Đây là...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Họ nói chuyện này có thể'
+-	R
+-	'sẽ không biến mất... Tôi...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「... Rance,'
+-	\L_069ed:
+-	ZH 1:
+-	'cậu không thích tôi nữa phải không?'
+-	R
+-	'Thật kinh khủng phải không? Vậy...'
+-	\L_069ed:
+-	ZH 1:
+-	'Vậy...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Những giọt nước mắt lớn hình'
+-	R
+-	'thành nơi khóe mắt Maria.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Tôi... tôi là đồ hư hỏng...'
+-	R
+-	'Không phù hợp với một vị vua như ngài...'
+-	\L_069ed:
+-	ZH 1:
+-	'Tôi xin lỗi...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria từ từ nhặt quần áo lên và định mặc lại.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Hả...?」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance ôm Maria.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Môi anh chạm môi cô.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Ừm... Ừm!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Anh đặt tay lên ngực cô.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Rance, tại sao...?」'
++	'Tránh ánh mắt Rance, Maria run rẩy đứng yên.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Maria... cái này...」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Cái này... nghe nói có thể'
++	R
++	'không mất đi... tôi... đã...」'
++	\L_069ed:
++	ZH 1:
++	'Maria「...Rance,'
++	\L_069ed:
++	ZH 1:
++	'tôi thế này, cậu ghét lắm phải không?'
++	R
++	'Xấu xí lắm phải không? Vậy nên...'
++	\L_069ed:
++	ZH 1:
++	'vậy nên...!」'
++	\L_069ed:
++	ZH 1:
++	'Nơi khóe mắt Maria, những giọt lệ lớn trào ra.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Tôi... tôi... là đồ có vết rồi...'
++	R
++	'không xứng với Rance là vua nữa...'
++	\L_069ed:
++	ZH 1:
++	'xin lỗi, xin lỗi cậu......」'
++	\L_069ed:
++	ZH 1:
++	'Maria chậm rãi cầm lấy áo, định mặc lại.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Hả......」'
++	\L_069ed:
++	ZH 1:
++	'Rance ôm chặt Maria.'
++	\L_069ed:
++	ZH 1:
++	'Maria「A...!」'
++	\L_069ed:
++	ZH 1:
++	'Rance đặt môi lên môi Maria.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Ưm... ưmm!」'
++	\L_069ed:
++	ZH 1:
++	'Rance nắm bầu ngực Maria trong lòng bàn tay.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Rance, sao lại...」'
+ 	\L_069ed:
+ 	{VAR0520 \ 302:
+ 		SS 24:
+ 	}
+ 	ZH 1:
+-	'Rance 「Nói đủ rồi, nhanh cởi quần ra đi.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「N-Nhưng Rance... tôi...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Nếu em không tự cởi chúng'
+-	R
+-	'ra, ta sẽ cởi chúng ra cho em!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Hả...? Kyaah!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance xé quần áo của Maria,'
+-	R
+-	'vùi mặt vào ngực cô và lè lưỡi.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À... Dừng lại, Rance!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance từ từ liếm vết sẹo của Maria.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Không... Dừng lại,'
+-	R
+-	'Rance... ... Dừng lại...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Im đi!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance thọc một ngón tay vào âm hộ của mình.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Dù có chuyện gì xảy ra,」 em vẫn là người'
+-	\L_069ed:
+-	ZH 1:
+-	'phụ nữ của anh. Tôi sẽ đập nó vào cơ thể ngươi!'
+-	\L_069ed:
+-	ZH 1:
+-	'」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À... Aah!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance khuấy động ngón tay của mình xung quanh bên'
+-	\L_069ed:
+-	ZH 1:
+-	'trong Maria. Ngón tay anh ướt đẫm nước trái cây.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Ta sẽ đặt nó vào bây giờ. Hãy đối'
+-	R
+-	'xử với ta với hông của em như mọi khi.'
+-	\L_069ed:
+-	ZH 1:
+-	'」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Rance...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria theo bản năng mở rộng chân mình.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Ừm... Mmmmmmm...!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Nó hơi chật,'
+-	\L_069ed:
+-	ZH 1:
+-	'nhưng bằng cách nào đó Rance đã đưa được siêu'
+-	\L_069ed:
+-	ZH 1:
+-	'vũ khí của mình vào bên trong cô.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Đó!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance dang rộng hai chân của Maria'
+-	R
+-	'và đâm siêu vũ khí của mình vào.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Kh... Ừm... Ừm...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Như Rance đã bảo cô, hoặc'
+-	R
+-	'có lẽ theo ý muốn của cô,'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria vặn hông để phù hợp với Rance.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「... Ừm... Uuu...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Nước mắt dâng lên trong mắt Maria.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Rance... Rance!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria nâng phần thân trên'
+-	R
+-	'của mình lên và ôm lấy Rance.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Anh bế Maria lên và đặt cô lên chân mình.'
+-	R
+-	'Anh lắc cô lên xuống khi làm tình với cô.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Ừm... Mmmmm...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria cố kìm nước mắt và rên rỉ.'
+-	R
+-	'Cô phù hợp với Rance nhất có thể.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À... Aah!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance tách mình ra khỏi cơ thể Maria'
+-	R
+-	'và bắt đầu liếm vết sẹo của cô.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À... Rance... Rance... ... À... Aah...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria ôm đầu Rance và nhận'
+-	R
+-	'được sự vuốt ve của anh.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Rance... tôi... tôi...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria nắm chặt vai Rance.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Được rồi... ta sẽ di chuyển. Đó!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance hành hung Maria một cách thô bạo.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À... Aah...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Ừm... Mmmmmmmmm...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria run rẩy và dựa vào ngực Rance.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Này... ta sẽ xuất tinh'
+-	R
+-	'vào trong cô như mọi khi!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Cơ thể Rance rùng mình.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Aah...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria nhận lấy nó và cơ thể'
+-	R
+-	'cô lại run rẩy một lần nữa.'
++	'Rance「Đừng có lải nhải, cởi nốt quần ra mau」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Nh... nhưng... Rance...'
++	R
++	'tôi... thế này mà...」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Không tự cởi thì để ta cởi cho!」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Hả... kya!」'
++	\L_069ed:
++	ZH 1:
++	'Rance lột hết quần áo Maria, vùi'
++	R
++	'mặt vào giữa ngực, thè lưỡi ra.'
++	\L_069ed:
++	ZH 1:
++	'Maria「A... đừng... Rance!」'
++	\L_069ed:
++	ZH 1:
++	'Rance chậm rãi liếm lên vết'
++	R
++	'thương đã khô của Maria.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Không... thôi... đừng'
++	R
++	'mà, Rance... ...không được...!」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Ồn ào!」'
++	\L_069ed:
++	ZH 1:
++	'Maria「A...!」'
++	\L_069ed:
++	ZH 1:
++	'Rance thô bạo đưa ngón tay vào cánh hoa của Maria.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Dù có thành ra thế nào, em vẫn là'
++	\L_069ed:
++	ZH 1:
++	'đàn bà của ta. Giờ ta sẽ'
++	R
++	'khắc điều đó vào cơ thể em'
++	\L_069ed:
++	ZH 1:
++	'cho xem!」'
++	\L_069ed:
++	ZH 1:
++	'Maria「A... aa!」'
++	\L_069ed:
++	ZH 1:
++	'Rance dùng ngón tay khuấy đảo bên trong'
++	\L_069ed:
++	ZH 1:
++	'Maria. Ngón tay Rance ướt đẫm mật.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Cho vào luôn đây. Nhớ đưa hông theo'
++	\L_069ed:
++	ZH 1:
++	'như mọi khi đấy」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Rance......」'
++	\L_069ed:
++	ZH 1:
++	'Maria tự nhiên dang chân ra.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Ưm...... ưmmm...!!」'
++	\L_069ed:
++	ZH 1:
++	'Hơi chật,'
++	\L_069ed:
++	ZH 1:
++	'nhưng rồi siêu vũ khí của Rance cũng'
++	\L_069ed:
++	ZH 1:
++	'nằm gọn trong Maria.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Này!」'
++	\L_069ed:
++	ZH 1:
++	'Maria「A...!」'
++	\L_069ed:
++	ZH 1:
++	'Banh rộng chân Maria, Rance'
++	R
++	'thúc siêu vũ khí dồn dập.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Ư... ưm... ưmm......」'
++	\L_069ed:
++	ZH 1:
++	'Vì làm theo lời Rance, hay'
++	R
++	'vì ý muốn của chính mình...'
++	\L_069ed:
++	ZH 1:
++	'Maria cũng uốn hông theo Rance.'
++	\L_069ed:
++	ZH 1:
++	'Maria「...ưm... ư ư......」'
++	\L_069ed:
++	ZH 1:
++	'Nước mắt đọng đầy trong mắt Maria.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Rance...... Rance!!」'
++	\L_069ed:
++	ZH 1:
++	'Maria nhổm người dậy, ôm chầm lấy Rance.'
++	\L_069ed:
++	ZH 1:
++	'Maria「A...!」'
++	\L_069ed:
++	ZH 1:
++	'Rance bế Maria lên, đặt ngồi lên đùi mình.'
++	R
++	'Cứ thế anh nhấp nhô nàng lên xuống mà ôm ấp.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Ưm... ưmmm...!」'
++	\L_069ed:
++	ZH 1:
++	'Nuốt nước mắt và tiếng nức nở vào cổ'
++	R
++	'họng, Maria cố hết sức theo nhịp Rance.'
++	\L_069ed:
++	ZH 1:
++	'Maria「A...... aa!」'
++	\L_069ed:
++	ZH 1:
++	'Rance rời người khỏi Maria, bắt'
++	R
++	'đầu liếm vết thương của nàng.'
++	\L_069ed:
++	ZH 1:
++	'Maria「A... Rance... Rance... ...a... aa...」'
++	\L_069ed:
++	ZH 1:
++	'Như ôm lấy đầu Rance, Maria đón'
++	R
++	'nhận mọi sự vuốt ve của anh.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Rance... tôi... tôi......」'
++	\L_069ed:
++	ZH 1:
++	'Maria bấu chặt vai Rance.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Được... ta động đây. Này!!」'
++	\L_069ed:
++	ZH 1:
++	'Maria「A!!」'
++	\L_069ed:
++	ZH 1:
++	'Rance dồn dập tấn công Maria.'
++	\L_069ed:
++	ZH 1:
++	'Maria「A... aa......」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Ưm...... ưmmm...!」'
++	\L_069ed:
++	ZH 1:
++	'Maria run bắn lên, gục vào lòng Rance.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Này... như mọi khi... ta bắn đây!」'
++	\L_069ed:
++	ZH 1:
++	'Maria「A...」'
++	\L_069ed:
++	ZH 1:
++	'Cơ thể Rance run lên.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Aa......!」'
++	\L_069ed:
++	ZH 1:
++	'Đón nhận nó, Maria lại run bắn lên lần nữa.'
+ 	\L_069ed:
+ 	{VAR0520 = 302:
+ 		%0:
+@@ -2750,51 +2654,47 @@
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Sau khi mọi chuyện'
+-	R
+-	'kết thúc, Maria đứng dậy'
+-	R
+-	'và bắt đầu mặc quần áo vào.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Cảm ơn, Rance...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Để làm gì?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Tôi rất vui vì cậu đã'
+-	R
+-	'bao dung vì giờ tôi đã đủ để'
+-	R
+-	'quan hệ tình dục với tôi...'
+-	\L_069ed:
+-	ZH 1:
+-	'Đây sẽ là một kỷ niệm'
+-	R
+-	'đẹp cuối cùng... Cảm ơn.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Đồ ngốc,'
+-	R
+-	'còn quá sớm để nói về những'
+-	R
+-	'kỷ niệm hay bất cứ điều gì.'
+-	\L_069ed:
+-	ZH 1:
+-	'Chúng ta đang làm việc'
+-	R
+-	'đó thậm chí còn khó khăn hơn'
+-	R
+-	'kể từ bây giờ. Hiểu chưa?'
++	'Khi mọi chuyện kết thúc...'
++	R
++	'Maria chậm rãi đứng'
++	R
++	'dậy, mặc lại quần áo.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Cảm ơn... Rance...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Cảm ơn cái gì?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Dù phải cố chịu...'
++	R
++	'cậu vẫn ôm tôi thế'
++	R
++	'này, tôi vui lắm...'
++	\L_069ed:
++	ZH 1:
++	'Đây sẽ là kỷ niệm đẹp'
++	R
++	'cuối cùng... cảm ơn cậu.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Đồ ngốc, nói kỷ niệm'
++	R
++	'thì còn sớm lắm.'
++	\L_069ed:
++	ZH 1:
++	'Từ giờ ta sẽ còn ôm cô'
++	R
++	'dữ dội hơn. Nghe chưa?'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06938:
+@@ -2804,49 +2704,47 @@
+ 	\L_069e0:
+ 	\L_068c8:
+ 	ZH 1:
+-	'Ngoài ra, cô đã tăng'
+-	R
+-	'cân một chút phải không?'
+-	\L_069ed:
+-	ZH 1:
+-	'Cảm giác như vùng hông'
+-	R
+-	'của cô đầy đặn hơn một chút.'
+-	\L_069ed:
+-	ZH 1:
+-	'Chà... Cũng không tệ'
+-	R
+-	'lắm đâu, nhưng hãy cẩn'
+-	R
+-	'thận kẻo béo quá đấy.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Rance... Cậu thực'
+-	R
+-	'sự vẫn ổn với tôi chứ?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Anh sẽ mãi yêu em cho'
+-	R
+-	'đến khi chán. Ta sẽ đụ cô'
+-	R
+-	'lần nữa. Hãy mong chờ nó.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'... Được rồi.'
++	'Còn nữa, cô hơi béo'
++	R
++	'lên rồi phải không?'
++	\L_069ed:
++	ZH 1:
++	'Quanh hông sờ thấy núng'
++	R
++	'nính hơn trước đấy.'
++	\L_069ed:
++	ZH 1:
++	'Ừ thì... thế cũng không tệ,'
++	R
++	'nhưng coi chừng béo quá đấy.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Rance... được thật'
++	R
++	'sao? Tôi thế này mà...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Ta sẽ cưng chiều cô tới'
++	R
++	'khi nào chán thì thôi. Hẹn'
++	R
++	'lần sau. Cứ mong chờ đi.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'......Ừm.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06954:
+ 	ZH 1:
+-	'Cảm ơn... Rance...'
+-	R
+-	'Rance... Anh yêu em...'
++	'Cảm ơn... Rance... Rance...'
++	R
++	'Tôi thích cậu lắm...'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 0!
+@@ -2869,44 +2767,42 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng ngủ của'
+-	R
+-	'Rance ...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Cô đang đứng'
+-	R
+-	'xung quanh để làm gì?'
+-	\L_069ed:
+-	ZH 1:
+-	'Hôm nay cô'
+-	R
+-	'có thể không quan hệ tình'
+-	R
+-	'dục hay gì đó được không?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Không, nhưng...'
++	'Phòng ngủ của Rance'
++	R
++	'Rance...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Đứng đực ra đó làm gì.'
++	\L_069ed:
++	ZH 1:
++	'Hay hôm nay là ngày'
++	R
++	'không làm chuyện ấy được?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Không phải...'
++	R
++	'thế... nhưng mà...'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria đặt tay lên'
+-	R
+-	'ngực phía trên quần áo. Như'
+-	R
+-	'thể vết sẹo ở đó đang đau.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Vậy thì hãy đến.'
+-	R
+-	'Ta ghét chờ đợi.'
++	'Maria đặt tay lên ngực'
++	R
++	'mình qua lớp áo. Như thể'
++	R
++	'vết sẹo ở đó còn đau nhói.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Thế thì lại đây. Ta'
++	R
++	'ghét phải nhịn lắm.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06938:
+@@ -2916,9 +2812,11 @@
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance nắm lấy cổ tay'
+-	R
+-	'Maria và ấn cô xuống giường.'
++	'Rance nắm cổ tay'
++	R
++	'Maria, thô bạo đẩy'
++	R
++	'nàng ngã xuống giường.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	PF1 VAR0056:
+@@ -2929,301 +2827,281 @@
+ 	!VAR0248 : 5!
+ 	\L_069a8:
+ 	ZH 1:
+-	'Rance 「Lấy cái này, cái này và cái này!」'
++	'Rance「Hây hây hây!」'
+ 	PF0 VAR0056:
+ 	\L_069ed:
+ 	ZH 1:
+-	'Maria 「Kyah... Trời ạ, Rance!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance xé áo Maria ra.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Lúc đó Maria vẫn cư xử bình thường,'
+-	\L_069ed:
+-	ZH 1:
+-	'nhưng khi vết sẹo của cô tiếp xúc'
+-	R
+-	'với Rance và bị không khí chạm vào,'
+-	\L_069ed:
+-	ZH 1:
+-	'cô đã khép cơ thể lại.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Aya nói rằng vì tôi vẫn còn trẻ nên nó'
+-	\L_069ed:
+-	ZH 1:
+-	'sẽ dần dần biến mất,」 nhưng nó'
+-	R
+-	'sẽ không xảy ra ngay lập tức...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Rõ ràng rồi. Đó là một'
+-	R
+-	'vết thương khá nghiêm trọng.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Nhưng...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Maria.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance ôm chặt ngực Maria bằng cả hai tay.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Ừm. Có vẻ như cách đối'
+-	R
+-	'xử của Aya còn hơn cả hoàn hảo.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Hả...? Tại sao...?」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Ngực của em cảm thấy'
+-	R
+-	'tốt hơn trước. Khả năng'
+-	\L_069ed:
+-	ZH 1:
+-	'phục hồi và cảm giác bám dính của chúng rất」'
+-	R
+-	'tốt.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Trời ạ...'
+-	R
+-	'Đừng nói những điều ngu ngốc...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Nó không ngu ngốc. Đó là sự thật.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance bắt đầu xoa ngực Maria.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「A... Ahn...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Bây giờ... Hôm nay em sẽ'
+-	R
+-	'liếm siêu vũ khí tuyệt đẹp của ta.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Ờ... Đ-Được rồi...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria rụt rè đưa mặt về phía háng'
+-	R
+-	'Rance và vén tóc ra sau tai cô.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Ừm...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Cô cầm trục bằng một tay và dùng lưỡi'
+-	\L_069ed:
+-	ZH 1:
+-	'kích thích đầu. Cử động lưỡi của cô thật vụng về.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Em rất giỏi trong việc di chuyển'
+-	R
+-	'hông của mình khi chúng ta làm điều đó...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Ngươi dường như không thể làm tốt việc này ...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Mgh... Để tôi yên... Tôi'
+-	R
+-	'sẽ không làm thế nữa đâu...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Được rồi,」 hãy lên người ta và làm cho'
+-	\L_069ed:
+-	ZH 1:
+-	'siêu vũ khí của ta cảm thấy thoải'
+-	R
+-	'mái bằng miệng còn lại của em.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Hả...? Nhưng tôi vẫn...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Em có thể khiến ta cảm thấy dễ'
+-	R
+-	'chịu mà không cần ta đặt nó vào. Đây.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Kyah...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance bế Maria lên và đặt cô vào người anh.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Bây giờ làm đi.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Ưu... Được rồi...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria đặt âm hộ của mình chống'
+-	R
+-	'lại siêu vũ khí của Rance.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「... Ừm... Ừm...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Sau đó cô lắc hông về phía trước và phía sau.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Vậy là em biết cách làm điều đó.'
+-	R
+-	'Thực sự xứng đáng là người phụ nữ của ta.'
+-	\L_069ed:
+-	ZH 1:
+-	'」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Đ-Ngốc quá... Ah...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance nắm lấy ngực của Maria.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À... Rance...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Nào, di chuyển, di chuyển.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Ừm... À...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance chơi đùa với ngực của Maria.'
+-	R
+-	'Maria di chuyển lên trên anh. Một âm'
+-	\L_069ed:
+-	ZH 1:
+-	'thanh lớn và ẩm ướt bắt đầu'
+-	R
+-	'phát ra từ âm hộ của cô.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Được rồi...'
+-	R
+-	'Maria, đặt nó vào trong cô đi.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Hả...? Không... tôi không thể... 」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Được rồi, vậy... Nâng hông lên.」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「L-Thích cái này...?」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Ừ... Taaake cái này!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Gahahahaha!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance đứng dậy và Maria ngã xuống.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Kyah...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance đập vào Maria trong tư thế kỳ lạ.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Ồ, một khám phá mới! Đây là'
+-	R
+-	'một vị trí tốt! Thế nào rồi, Maria?」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Kh...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance kéo tay Maria để giữ'
+-	R
+-	'cô tại chỗ và tự do lắc cô.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「D-Dừng lại...'
+-	R
+-	'Cậu vất vả quá rồi, Rance...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Gahahahaha!! Miễn là ta thấy thoải mái!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance nâng hông lên cao hơn và'
+-	R
+-	'tấn công Maria. Ở tư thế đó,'
+-	\L_069ed:
+-	ZH 1:
+-	'chỉ có cổ và gáy đỡ cô khi bị Rance đâm xuyên qua.'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Ừm... Mmmmmm... Mm...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria siết chặt đôi chân lơ lửng'
+-	R
+-	'của mình quanh cơ thể Rance.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Được rồi...'
+-	\L_069ed:
+-	ZH 1:
+-	'Hãy nhận lấy thứ này, tinh dịch'
+-	R
+-	'của Nhà vua, như lời cảm ơn!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À... Rance...!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Chân Maria siết chặt quanh Rance hơn.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Gahahahaha! ahaha!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「À... Aaaah...!!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Lưng của Maria cong về phía sau. Đồng thời,'
+-	\L_069ed:
+-	ZH 1:
+-	'cô rùng mình dữ dội. Rồi Rance cũng vậy.'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance 「Haah... Cảm giác thật tuyệt...」'
+-	\L_069ed:
+-	ZH 1:
+-	'Maria 「Kyah... Nặng quá...!」'
+-	\L_069ed:
+-	ZH 1:
+-	'Vì kiệt sức sau cơn cực'
+-	R
+-	'khoái, Rance ngã đè lên Maria.'
++	'Maria「Kya... thật là... Rance!」'
++	\L_069ed:
++	ZH 1:
++	'Rance cười gahaha, lột áo khoác Maria.'
++	\L_069ed:
++	ZH 1:
++	'Maria「A......」'
++	\L_069ed:
++	ZH 1:
++	'Đến lúc ấy Maria vẫn như mọi khi,'
++	\L_069ed:
++	ZH 1:
++	'nhưng khi vết sẹo phơi ra trước mắt'
++	R
++	'Rance, cảm nhận không khí chạm vào,'
++	\L_069ed:
++	ZH 1:
++	'nàng khẽ co người lại.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Chị Aya bảo vì tôi còn trẻ nên nó'
++	\L_069ed:
++	ZH 1:
++	'sẽ mờ dần... nhưng mà... không mất ngay được...」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Đương nhiên. Bị thương nặng thế cơ mà」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Nhưng......」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Maria」'
++	\L_069ed:
++	ZH 1:
++	'Maria「A...!」'
++	\L_069ed:
++	ZH 1:
++	'Rance dùng hai tay chộp lấy ngực Maria.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Ừm. Aya chữa trị chẳng'
++	R
++	'phải còn hơn cả hoàn hảo sao?」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Hả... sao lại...?」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Bóp sướng tay hơn trước đấy.'
++	\L_069ed:
++	ZH 1:
++	'Độ căng, độ mịn dính tay đều GOOD cả」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Thật là... đừng nói chuyện ngớ ngẩn...」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Không ngớ ngẩn. Là sự thật」'
++	\L_069ed:
++	ZH 1:
++	'Rance cứ thế nhào nặn bầu ngực Maria.'
++	\L_069ed:
++	ZH 1:
++	'Maria「A... ưn...!」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Nào... hôm nay liếm láp'
++	R
++	'siêu vũ khí hoa lệ của ta đi」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Hả... ư... ừm...」'
++	\L_069ed:
++	ZH 1:
++	'Maria rụt rè ghé mặt vào háng'
++	R
++	'Rance, vén tóc ra sau tai.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Ưm......」'
++	\L_069ed:
++	ZH 1:
++	'Một tay cầm thân, lưỡi kích thích'
++	\L_069ed:
++	ZH 1:
++	'phần đầu. Chuyển động lưỡi có phần vụng về.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Lúc làm thì đưa hông theo ngon lành...'
++	\L_069ed:
++	ZH 1:
++	'mà cái này thì mãi chẳng khá lên, em ấy...」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Hừm... mặc kệ tôi...'
++	R
++	'thế thì thôi không làm nữa...」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Được, vậy tiếp theo lên trên người ta,'
++	\L_069ed:
++	ZH 1:
++	'dùng cái miệng dưới làm'
++	R
++	'siêu vũ khí của ta sướng đi」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Hả... nhưng... tôi còn...」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Cho vào đâu phải cách'
++	R
++	'duy nhất để sướng. Nào」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Kya...!」'
++	\L_069ed:
++	ZH 1:
++	'Rance bế Maria lên, đặt lên trên người mình.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Nào, làm đi」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Ư... biết rồi mà...」'
++	\L_069ed:
++	ZH 1:
++	'Maria áp chỗ của mình vào siêu vũ khí của Rance.'
++	\L_069ed:
++	ZH 1:
++	'Maria「...ưm... ưmm...」'
++	\L_069ed:
++	ZH 1:
++	'Rồi lắc hông tới lui.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Biết làm đấy chứ.'
++	\L_069ed:
++	ZH 1:
++	'Thế mới là đàn bà của ta」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Đ... đồ ngốc... a...!」'
++	\L_069ed:
++	ZH 1:
++	'Rance nắm lấy ngực Maria.'
++	\L_069ed:
++	ZH 1:
++	'Maria「A... Rance......」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Nào, động đi, động đi」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Ưm... a......」'
++	\L_069ed:
++	ZH 1:
++	'Tay Rance mân mê bầu ngực Maria. Maria'
++	R
++	'cử động trên người anh. Rồi từ đó,'
++	\L_069ed:
++	ZH 1:
++	'tiếng ướt át bắt đầu vang lên rõ.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Được... Maria, tự cho vào đi」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Hả...... không đâu... thế thì...」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Hết cách... nhấc hông lên」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Th... thế này...?」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Đúng rồi... hây daaa!!」'
++	\L_069ed:
++	ZH 1:
++	'Maria「A......!」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Gahahaha!!」'
++	\L_069ed:
++	ZH 1:
++	'Rance ngồi bật dậy, đẩy Maria ngã xuống.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Kya...!」'
++	\L_069ed:
++	ZH 1:
++	'Trong tư thế kỳ quặc, Rance'
++	R
++	'giày xéo bên trong Maria.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Ồ, phát hiện mới! Tư thế'
++	R
++	'này được đấy! Sao hả? Maria」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Ư... ư...!」'
++	\L_069ed:
++	ZH 1:
++	'Rance kéo hai tay Maria giữ'
++	R
++	'chặt, lắc thân nàng tứ phía.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Kh... không được... mạnh quá... Rance...」'
++	\L_069ed:
++	ZH 1:
++	'Rance「Gahahahaha!! Ta sướng là được rồiii!!」'
++	\L_069ed:
++	ZH 1:
++	'Maria「A......!」'
++	\L_069ed:
++	ZH 1:
++	'Rance nhấc hông cao hơn, dồn dập'
++	R
++	'tấn công Maria. Maria như chống'
++	\L_069ed:
++	ZH 1:
++	'toàn bộ sức nặng lên cổ và'
++	R
++	'gáy, bị Rance xuyên thủng.'
++	\L_069ed:
++	ZH 1:
++	'Maria「Ưm... ưmmm... ưm...!」'
++	\L_069ed:
++	ZH 1:
++	'Maria siết chặt đôi chân như sắp'
++	R
++	'bay lơ lửng, quấn quanh người Rance.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Được...'
++	\L_069ed:
++	ZH 1:
++	'nhận lấy đi, thể dịch quý giá của nhà vua đấy!!」'
++	\L_069ed:
++	ZH 1:
++	'Maria「A... Rance...!!」'
++	\L_069ed:
++	ZH 1:
++	'Maria dồn sức vào đôi chân đang quấn chặt Rance.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Gahahahaha!!」'
++	\L_069ed:
++	ZH 1:
++	'Maria「A... a ư ư......!!」'
++	\L_069ed:
++	ZH 1:
++	'Hông Maria cong vồng lên. Cùng lúc ấy'
++	\L_069ed:
++	ZH 1:
++	'nàng run bắn lên. Rance cũng vậy.'
++	\L_069ed:
++	ZH 1:
++	'Rance「Phù... sảng khoái quá......」'
++	\L_069ed:
++	ZH 1:
++	'Maria「Kya... nặng quá...!」'
++	\L_069ed:
++	ZH 1:
++	'Rance đổ ập lên người Maria, buông'
++	R
++	'mình theo cơn rã rời sau cực khoái.'
+ 	\L_069ed:
+ 	PF1 VAR0056:
+ 	\L_069e0:
+@@ -3250,21 +3128,19 @@
+ 	R
+ 	'Phòng yết kiến'
+ 	R
+-	'Rance đang ngồi trên ngai'
+-	R
+-	'vàng, ăn một ít đá bào.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Hah~, đây là thiên đường.'
+-	R
+-	'Kem rất ngon, nhưng đôi'
+-	R
+-	'khi món này cũng rất tuyệt.'
+-	\L_069ed:
+-	ZH 1:
+-	'Đặc biệt là hương dâu.'
++	'Rance ngồi ngai ăn đá bào.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Phù~ cực lạc, cực lạc.'
++	R
++	'Kem cũng ngon, nhưng thỉnh'
++	R
++	'thoảng món này mới là nhất.'
++	\L_069ed:
++	ZH 1:
++	'Đúng là phải đá bào dâu.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 50!
+@@ -3276,159 +3152,153 @@
+ 	\L_069e0:
+ 	\L_068c8:
+ 	ZH 1:
+-	'Ừm, cái gì'
+-	R
+-	'cơ? Cô đến đây sớm...'
+-	R
+-	'Muốn quan hệ tình dục?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Không, đồ'
+-	R
+-	'ngốc. Đây, nhìn này.'
++	'Ừm, gì thế. Sáng sớm'
++	R
++	'đã... muốn được SEX à?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Đồ ngốc, không phải. Cái'
++	R
++	'này... xem này, xem này.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria mỉm cười và đưa'
+-	R
+-	'cho Rance một tờ giấy nhắn.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Đây là cái gì?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Quy hoạch tháp'
+-	R
+-	'khoa học công nghệ.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Cái gì? Ta thậm chí'
+-	R
+-	'còn không biết đó là gì.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Rance... Tôi có'
++	'Maria tươi cười đưa'
++	R
++	'cho Rance một cuốn sổ.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Cái gì đây?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Bản thiết kế Tháp'
++	R
++	'Khoa học Kỹ thuật đấy.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Hả? Ta chẳng hiểu gì cả.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Rance... tôi có'
+ 	R
+ 	'chuyện muốn nhờ.'
+ 	\L_069ed:
+ 	ZH 1:
+-	'Chúng tôi'
+-	R
+-	'sẽ khó có thể chế tạo nhiều'
+-	R
+-	'vũ khí và thực hiện các loại'
+-	\L_069ed:
+-	ZH 1:
+-	'nghiên cứu khác nhau với'
+-	R
+-	'cơ sở vật chất hiện tại...'
+-	\L_069ed:
+-	ZH 1:
+-	'Vậy là có cái này.'
+-	\L_069ed:
+-	ZH 1:
+-	'Với điều này,'
+-	R
+-	'chúng ta có thể phát triển'
+-	R
+-	'những vũ khí tuyệt vời hơn.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Hmm, nó sẽ'
+-	R
+-	'tốn bao nhiêu tiền?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Tôi không biết,'
+-	R
+-	'nhưng... Ừm... Rất nhiều.'
++	'Với cơ sở hiện tại, muốn chế'
++	R
++	'tạo vũ khí số lượng lớn hơn'
++	\L_069ed:
++	ZH 1:
++	'hay làm đủ loại nghiên'
++	R
++	'cứu thì khó lắm...'
++	\L_069ed:
++	ZH 1:
++	'Nên là, cái này.'
++	\L_069ed:
++	ZH 1:
++	'Có nó thì có thể'
++	R
++	'phát triển những vũ'
++	R
++	'khí ghê gớm hơn nữa.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Ừm, tốn khoảng bao nhiêu?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Tôi cũng không rõ lắm...'
++	R
++	'nhưng... nhiều lắm.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria nói nhỏ'
+-	R
+-	'nhẹ và dè dặt.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Và bao nhiêu là nhiều?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Ư-Ừm...'
+-	\L_069ed:
+-	ZH 1:
+-	'Ngân sách quốc gia'
+-	R
+-	'trị giá khoảng nửa năm...'
+-	\L_069ed:
+-	ZH 1:
+-	'Thế có phải'
+-	R
+-	'là quá đáng không...??'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Rõ ràng rồi, đồ ngốc.'
++	'Maria nói khẽ, giọng'
++	R
++	'nhỏ lại đầy ngại ngùng.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Thì là quy ra tiền'
++	R
++	'khoảng bao nhiêu?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Ư... thì......'
++	\L_069ed:
++	ZH 1:
++	'khoảng ngân sách quốc'
++	R
++	'gia nửa năm......'
++	\L_069ed:
++	ZH 1:
++	'có hơi nhiều'
++	R
++	'không nhỉ......??'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Nhiều chứ còn'
++	R
++	'gì nữa, đồ ngốc.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'（teeear）'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Áaaa!!'
++	'（Xoẹt!）'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Aaa!!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance xé tờ'
+-	R
+-	'giấy mà Maria mang'
+-	R
+-	'cho hắn làm đôi.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Aah... Tôi biết rồi...'
+-	\L_069ed:
+-	ZH 1:
+-	'Nhưng, à... Cậu'
+-	R
+-	'nói đúng... Ừ...'
+-	\L_069ed:
+-	ZH 1:
+-	'Xin lỗi... tôi đã'
+-	R
+-	'ích kỷ... Tạm biệt...'
++	'Rance xé toạc cuốn'
++	R
++	'sổ Maria mang tới.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'A... biết ngay mà...'
++	\L_069ed:
++	ZH 1:
++	'Nhưng mà... cũng'
++	R
++	'phải thôi... ừm......'
++	\L_069ed:
++	ZH 1:
++	'Xin lỗi... tôi đòi hỏi'
++	R
++	'quá... Vậy thì......'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_0699a:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria lê bước đi.'
++	'Maria lủi thủi ra về.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_068e4:
+@@ -3436,24 +3306,22 @@
+ 	'Ừm,'
+ 	\L_069ed:
+ 	ZH 1:
+-	'xây dựng một cơ sở'
+-	R
+-	'nghiên cứu để tăng cường sức'
+-	\L_069ed:
+-	ZH 1:
+-	'mạnh cho quân đội không'
+-	R
+-	'phải là một ý tưởng tồi,'
+-	\L_069ed:
+-	ZH 1:
+-	'chắc chắn vậy...'
+-	\L_069ed:
+-	ZH 1:
+-	'Cái này thì quá đắt, nhưng'
+-	R
+-	'nếu nàng có thể nghĩ ra thứ'
+-	R
+-	'gì đó rẻ hơn thì tốt quá.'
++	'xây cơ sở nghiên'
++	R
++	'cứu để tăng cường'
++	\L_069ed:
++	ZH 1:
++	'quân đội, quả thật cũng'
++	\L_069ed:
++	ZH 1:
++	'không phải ý tồi......'
++	\L_069ed:
++	ZH 1:
++	'Cái này thì quá lố,'
++	R
++	'nhưng nghĩ một cái rẻ'
++	R
++	'hơn cho nó thì cũng được.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 0!
+@@ -3465,106 +3333,94 @@
+ 	\L_0698c:
+ 	\L_06938:
+ 	ZH 1:
+-	'Ôi, Rance... Điều'
+-	R
+-	'gì mang cậu đến đây?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Tôi là người đã phải'
+-	R
+-	'vất vả xây dựng nơi này.'
+-	\L_069ed:
+-	ZH 1:
+-	'Tôi đang điều tra xem nó'
+-	R
+-	'có được sử dụng tốt không.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'... Tôi nghĩ đó là do'
+-	R
+-	'việc đánh thuế nặng nề vào'
+-	R
+-	'những người đã xây dựng nó.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Hừm.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Nhưng...'
+-	\L_069ed:
+-	ZH 1:
+-	'Cảm ơn, Rance. Đây'
+-	R
+-	'là một cơ sở tốt đẹp.'
+-	\L_069ed:
+-	ZH 1:
+-	'Tôi nghĩ tôi có thể'
+-	R
+-	'tạo ra những vũ khí thực'
+-	R
+-	'sự tuyệt vời với thứ này.'
+-	\L_069ed:
+-	ZH 1:
+-	'Tôi sẽ cố gắng hết sức.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Ngươi tốt hơn. Nếu'
+-	R
+-	'không, tất cả những khoản'
+-	R
+-	'thuế đó sẽ bị lãng phí.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Trời ạ...'
+-	R
+-	'Đừng lấy những gì tôi nói mà'
+-	R
+-	'dùng nó để chống lại tôi...'
+-	\L_069ed:
+-	ZH 1:
+-	'Trẻ con quá...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Gahahahaha!! Nhà'
+-	R
+-	'vua có thể nói bất cứ'
+-	R
+-	'điều gì ông ấy muốn!'
+-	\L_069ed:
+-	ZH 1:
+-	'Dù sao thì hãy'
+-	R
+-	'cố gắng nhé Maria.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Được rồi...'
+-	R
+-	'tôi sẽ làm những gì tốt nhất'
+-	R
+-	'có thể, cho cậu và đất nước.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Tất nhiên là ngươi'
+-	R
+-	'sẽ làm vậy. Gahahahaha!'
++	'Ơ, Rance...... sao'
++	R
++	'lại tới chỗ này?'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Ta đã cất công xây cho thì'
++	\L_069ed:
++	ZH 1:
++	'phải tới thị sát xem có'
++	R
++	'dùng hiệu quả không chứ.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'......Xây bằng tiền thuế'
++	R
++	'xương máu của dân đấy chứ.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Hừ.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Nhưng mà...'
++	\L_069ed:
++	ZH 1:
++	'Cảm ơn cậu, Rance.'
++	R
++	'Cơ sở tốt lắm.'
++	\L_069ed:
++	ZH 1:
++	'Thế này chắc có thể phát'
++	R
++	'triển vũ khí thật tốt.'
++	\L_069ed:
++	ZH 1:
++	'Tôi sẽ cố gắng.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Phải đấy. Cô không cố thì'
++	R
++	'tiền thuế xương máu của'
++	R
++	'dân đổ sông đổ biển hết.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Thật là... đừng lấy'
++	R
++	'lời người ta nói'
++	R
++	'để vặn lại chứ...'
++	\L_069ed:
++	ZH 1:
++	'như con nít ấy......'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Gahahahaha!! Nhà vua làm'
++	R
++	'gì cũng được tha thứ!'
++	\L_069ed:
++	ZH 1:
++	'Thôi, làm cho'
++	R
++	'tốt vào. Maria.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Ừm... Rance cũng cố'
++	R
++	'gắng việc nước nhé.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Đương nhiên. Gahahahaha.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 0!
+@@ -3575,25 +3431,21 @@
+ 	\L_0698c:
+ 	\L_06938:
+ 	ZH 1:
+-	'Thật là bất'
+-	R
+-	'ngờ đấy, Rance.'
+-	\L_069ed:
+-	ZH 1:
+-	'Cậu có ghét'
+-	R
+-	'những nơi nhiều dầu'
+-	R
+-	'mỡ như thế này không?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Tất nhiên là tôi'
+-	R
+-	'biết. Tôi thích những cô'
+-	R
+-	'gái da dầu hơn. Heheheh.'
++	'Hiếm thấy đấy, Rance.'
++	\L_069ed:
++	ZH 1:
++	'Cậu chẳng phải ghét mấy'
++	R
++	'chỗ dầu mỡ thế này sao?'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Tất nhiên là ghét. Đàn bà'
++	R
++	'dầu mỡ sao bằng gái mơn'
++	R
++	'mởn căng tràn... hê hê hê.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	{(VAR0429 = 1) + (VAR0430 = 1):
+@@ -3605,17 +3457,15 @@
+ 		{VAR0429 = 1:
+ 			ZH 1:
+ 			$L_057d6$
+-			'Công việc cuối'
++			'Ngừng thiết bị tăng'
+ 			R
+-			'cùng của lò phản ứng'
++			'sinh tốc độ cao'
+ 			$
+ 		}
+ 		{VAR0430 = 1:
+ 			ZH 1:
+ 			$L_0588e$
+-			'Kết thúc công'
+-			R
+-			'việc của Tulip 100'
++			'Ngừng dự án Tulip 100'
+ 			$
+ 		}
+ 		]
+@@ -3626,58 +3476,54 @@
+ 	}
+ 	\L_06938:
+ 	ZH 1:
+-	'... Vẫn như'
+-	R
+-	'mọi khi... Trời ạ...'
+-	\L_069ed:
+-	ZH 1:
+-	'Ồ vâng, tôi sẽ để lại'
+-	R
+-	'cho ngươi một bản báo cáo.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Ừm. Hãy kể'
+-	R
+-	'cho tôi mọi chuyện, đừng'
+-	R
+-	'giấu bất kỳ chi tiết nào.'
++	'......Vẫn chứng nào'
++	R
++	'tật nấy... thật tình...'
++	\L_069ed:
++	ZH 1:
++	'À phải, để tôi báo'
++	R
++	'cáo cho cậu nhé.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Ừm. Nói hết ra,'
++	R
++	'đừng giấu gì.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	{VAR0429 = 2:
+ 		\L_06938:
+ 		ZH 1:
+-		'Tôi chưa thực'
+-		R
+-		'sự phát triển bất cứ điều'
+-		R
+-		'gì mới... Điều gì sẽ tốt?'
+-		\L_069ed:
+-		ZH 1:
+-		'Tôi đang nghĩ đến một con'
+-		R
+-		'tàu có thể lặn dưới biển,'
+-		\L_069ed:
+-		ZH 1:
+-		'hay một chiếc xe tăng có'
+-		R
+-		'thể di chuyển qua sa mạc...'
++		'Giờ chưa có gì đặc biệt'
++		R
++		'để phát triển mới...'
++		R
++		'làm gì thì hay nhỉ?'
++		\L_069ed:
++		ZH 1:
++		'Tôi có nghĩ tới thuyền'
++		R
++		'lặn dưới biển...'
++		\L_069ed:
++		ZH 1:
++		'hay xe tăng chạy'
++		R
++		'trên sa mạc......'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Nghe chán quá.'
+-		\L_069ed:
+-		ZH 1:
+-		'Thế còn một chiếc'
+-		R
+-		'máy rung có thể làm'
+-		\L_069ed:
+-		ZH 1:
+-		'hài lòng bất kỳ phụ nữ'
+-		R
+-		'hay thứ gì đó thì sao?'
++		'Chẳng hấp dẫn gì.'
++		\L_069ed:
++		ZH 1:
++		'Thế còn một cái máy rung'
++		\L_069ed:
++		ZH 1:
++		'làm đàn bà nào'
++		R
++		'cũng sướng thì sao?'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+@@ -3697,35 +3543,27 @@
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Thôi, sao cũng'
+-		R
+-		'được. Làm việc chăm chỉ.'
++		'Thôi được. Cố lên.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Được rồi. Tôi'
+-		R
+-		'sẽ làm điều đó.'
++		'Ừm. Tôi sẽ cố.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Hẹn gặp lại.'
++		'Đi đây.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'À... Thỉnh thoảng'
+-		R
+-		'hãy quay lại nhé.'
++		'A... lại tới nhé.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Chắc chắn rồi,'
+-		R
+-		'nếu tôi thấy thích.'
++		'Ờ, hứng thì tới.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06900:
+@@ -3740,24 +3578,22 @@
+ 	{VAR0428 = 4:
+ 		\L_06938:
+ 		ZH 1:
+-		'Hôm nay tôi bắt đầu'
+-		R
+-		'phát triển New Tulip 1.'
+-		\L_069ed:
+-		ZH 1:
+-		'Nó vốn đã rất mạnh'
+-		R
+-		'rồi, nhưng tôi sẽ làm'
+-		R
+-		'cho nó mạnh hơn nữa,'
+-		\L_069ed:
+-		ZH 1:
+-		'đủ để hạ'
+-		R
+-		'gục lính thiết giáp.'
+-		\L_069ed:
+-		ZH 1:
+-		'Hãy mong chờ nó.'
++		'Từ hôm nay tôi bắt đầu'
++		R
++		'nghiên cứu Tulip 1 Cải.'
++		\L_069ed:
++		ZH 1:
++		'Giờ nó đã đủ mạnh rồi,'
++		R
++		'nhưng tôi sẽ nâng cấp thêm,'
++		\L_069ed:
++		ZH 1:
++		'hạ cả lính giáp nặng'
++		R
++		'chỉ trong một phát.'
++		\L_069ed:
++		ZH 1:
++		'Chờ xem nhé.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		@L_059d2:
+@@ -3765,28 +3601,24 @@
+ 	{VAR0428 = 5:
+ 		\L_06938:
+ 		ZH 1:
+-		'Tôi đang trong quá trình'
+-		R
+-		'phát triển New Tulip 1.'
+-		\L_069ed:
+-		ZH 1:
+-		'Hiện nó đã hoàn thành'
+-		R
+-		'được 40%. Tôi tự hỏi liệu nó'
+-		R
+-		'có được thực hiện sớm không.'
+-		\L_069ed:
+-		ZH 1:
+-		'Khi hoàn'
+-		R
+-		'thành, tôi sẽ trang bị chúng'
+-		R
+-		'cho toàn bộ đơn vị của mình.'
+-		\L_069ed:
+-		ZH 1:
+-		'Khi đó đơn vị của'
+-		R
+-		'tôi sẽ thực sự mạnh mẽ.'
++		'Hiện tôi đang phát'
++		R
++		'triển Tulip 1 Cải.'
++		\L_069ed:
++		ZH 1:
++		'Tiến độ hiện giờ khoảng'
++		R
++		'40%. Mong làm xong sớm ghê,'
++		\L_069ed:
++		ZH 1:
++		'xong là tôi trang bị'
++		R
++		'cho đơn vị của mình.'
++		\L_069ed:
++		ZH 1:
++		'Lúc đó đơn vị tôi sẽ'
++		R
++		'mạnh khủng khiếp luôn.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		@L_059d2:
+@@ -3794,56 +3626,56 @@
+ 	{VAR0428 = 6:
+ 		\L_06938:
+ 		ZH 1:
+-		'The New Tulip 1'
+-		R
+-		'gần như đã hoàn thành.'
+-		\L_069ed:
+-		ZH 1:
+-		'Tôi đang phát triển'
+-		R
+-		'Tulip 100 cùng lúc.'
++		'Tulip 1 Cải sắp'
++		R
++		'hoàn thành rồi.'
++		\L_069ed:
++		ZH 1:
++		'Song song với nó, tôi'
++		R
++		'đang phát triển Tulip 100.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Tại sao lại là'
+-		R
+-		'100 rồi? Cái cuối cùng là'
+-		R
+-		'4, nếu tôi nhớ không lầm.'
++		'Sao tự dưng lại nhảy'
++		R
++		'lên 100? Lần trước'
++		R
++		'mới là 4 cơ mà.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Đừng lo lắng về những'
+-		R
+-		'chi tiết như thế. Đó là giấc'
+-		R
+-		'mơ của tôi, ngươi thấy đấy.'
++		'Đừng để ý mấy chuyện'
++		R
++		'vặt vãnh. Vì đây là'
++		R
++		'ước mơ của tôi mà.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06900:
+ 		ZH 1:
+-		'Maria nhìn lên và'
+-		R
+-		'chỉ lên bầu trời.'
++		'Maria nhìn lên'
++		R
++		'trời, giơ tay chỉ.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Vậy nó là gì?'
++		'Thế, rốt cuộc nó là cái gì?'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Một cỗ máy có thể'
+-		R
+-		'bay trên bầu trời. Vâng...'
+-		\L_069ed:
+-		ZH 1:
+-		'Trên mây, rồi lên'
+-		R
+-		'tới những vì sao sáng!'
++		'Một cỗ máy bay lên'
++		R
++		'bầu trời. Phải...'
++		\L_069ed:
++		ZH 1:
++		'vượt lên trên mây, rồi tới'
++		R
++		'tận những vì sao lấp lánh!'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+@@ -3851,45 +3683,39 @@
+ 		'............'
+ 		\L_069ed:
+ 		ZH 1:
+-		'Huh... Làm sao'
+-		R
+-		'ngươi có thể bay cao đến'
+-		R
+-		'thế? Điều đó thật vô lý.'
++		'Haa... bay cao thế'
++		R
++		'để làm gì? Vớ vẩn...'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Đừng ác ý. Đó'
+-		R
+-		'là giấc mơ của tôi...'
+-		\L_069ed:
+-		ZH 1:
+-		'Một chiếc máy'
+-		R
+-		'bay có giá trị,'
+-		\L_069ed:
+-		ZH 1:
+-		'ngay cả khi'
+-		R
+-		'nó không mang lại lợi nhuận'
+-		R
+-		'hoặc mục đích sử dụng nào.'
+-		\L_069ed:
+-		ZH 1:
+-		'Hiểu?'
++		'Ác thế. Là ước mơ,'
++		R
++		'ước mơ đấy......'
++		\L_069ed:
++		ZH 1:
++		'Không phải vì có'
++		R
++		'lời hay có ích,'
++		\L_069ed:
++		ZH 1:
++		'mà chính việc bay'
++		R
++		'lên mới có ý nghĩa.'
++		\L_069ed:
++		ZH 1:
++		'Hiểu không?'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'... Được rồi, hãy'
+-		R
+-		'làm theo ý ngươi.'
++		'......Thôi, tùy cô.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Được rồi.'
++		'Ừm.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		@L_059d2:
+@@ -3900,71 +3726,65 @@
+ 		!VAR0087 : 14!
+ 		\L_06938:
+ 		ZH 1:
+-		'The New Tulip 1 đã được'
+-		R
+-		'hoàn thành. Tôi rất vui.'
++		'Tulip 1 Cải hoàn thành'
++		R
++		'rồi. Tôi vui lắm.'
+ 		\L_069ed:
+ 		ZH 1:
+ 		'Tỷ lệ chuyển đổi năng lượng'
+ 		R
+-		'hirara của nó lớn hơn 40% so'
+-		\L_069ed:
+-		ZH 1:
+-		'với phiên bản trước và'
+-		R
+-		'thiết bị làm mát của nó...'
++		'Hirara tăng khoảng 40%'
++		\L_069ed:
++		ZH 1:
++		'so với Tulip 1 cũ, bộ tản'
++		R
++		'nhiệt làm mát bằng khí...'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Này, không'
+-		R
+-		'có cuộc nói chuyện phức tạp'
+-		R
+-		'nào đâu. Tôi không hiểu nó.'
++		'Hừ, đừng nói mấy thứ'
++		R
++		'khó hiểu. Ta chẳng hiểu.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Chà...'
+-		\L_069ed:
+-		ZH 1:
+-		'Vậy thì tôi sẽ gác lại phần'
+-		R
+-		'lớn lời giải thích và chỉ'
+-		R
+-		'cho ngươi biết kết quả...'
+-		\L_069ed:
+-		ZH 1:
+-		'Nó mạnh hơn 1,5 lần.'
+-		\L_069ed:
+-		ZH 1:
+-		'Tôi đã bắt'
+-		R
+-		'đầu trang bị cho đơn vị'
+-		R
+-		'của mình những thứ đó,'
+-		\L_069ed:
+-		ZH 1:
+-		'vì vậy hãy chờ'
+-		R
+-		'đợi trận chiến tiếp theo.'
++		'Vậy thì...'
++		\L_069ed:
++		ZH 1:
++		'bỏ qua đủ thứ muốn'
++		R
++		'giải thích, chỉ'
++		R
++		'nói kết quả thôi...'
++		\L_069ed:
++		ZH 1:
++		'tóm lại sức mạnh'
++		R
++		'tăng 1,5 lần.'
++		\L_069ed:
++		ZH 1:
++		'Đã bắt đầu trang bị'
++		R
++		'cho đơn vị của tôi rồi,'
++		\L_069ed:
++		ZH 1:
++		'trận tới cứ chờ xem nhé.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Ừm... Cố gắng hết sức để'
+-		R
+-		'không làm tôi thất vọng nhé.'
++		'Ừm... cố sao cho ta'
++		R
++		'khỏi thất vọng là được.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Trời ạ... Tất'
+-		R
+-		'cả những gì ngươi từng nói'
+-		R
+-		'đều là những điều tồi tệ...'
++		'Thật là... đúng là cái'
++		R
++		'người ăn nói khó nghe...'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		@L_059d2:
+@@ -3972,42 +3792,40 @@
+ 	{VAR0428 = 8:
+ 		\L_06938:
+ 		ZH 1:
+-		'Tôi đang phát'
++		'Hiện tôi đang phát'
+ 		R
+ 		'triển Tulip 2 Goliath,'
+ 		\L_069ed:
+ 		ZH 1:
+-		'một khẩu pháo tầm'
+-		R
+-		'xa khổng lồ có thể'
+-		\L_069ed:
+-		ZH 1:
+-		'tấn công trực tiếp vào'
+-		R
+-		'thành phố của kẻ thù từ đây.'
+-		\L_069ed:
+-		ZH 1:
+-		'Hiện nó đã'
+-		R
+-		'hoàn thành được 10%.'
+-		R
+-		'Một vũ khí đột phá...'
+-		\L_069ed:
+-		ZH 1:
+-		'Với điều này,'
+-		\L_069ed:
+-		ZH 1:
+-		'chúng ta có thể'
+-		R
+-		'giành chiến thắng trong trận'
+-		\L_069ed:
+-		ZH 1:
+-		'chiến mà không làm tổn'
+-		R
+-		'thương đồng minh của mình,'
+-		\L_069ed:
+-		ZH 1:
+-		'vì vậy nó sẽ rất hữu ích.'
++		'một khẩu pháo khổng lồ'
++		\L_069ed:
++		ZH 1:
++		'có thể pháo kích tầm'
++		R
++		'xa thẳng vào thành'
++		R
++		'phố địch từ đây.'
++		\L_069ed:
++		ZH 1:
++		'Tiến độ hiện giờ'
++		R
++		'khoảng 10%. Một vũ khí'
++		R
++		'mang tính đột phá...'
++		\L_069ed:
++		ZH 1:
++		'Có nó thì'
++		\L_069ed:
++		ZH 1:
++		'phe ta không bị'
++		R
++		'thiệt hại gì,'
++		\L_069ed:
++		ZH 1:
++		'nên'
++		\L_069ed:
++		ZH 1:
++		'rất tuyệt đấy.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		@L_059d2:
+@@ -4015,71 +3833,65 @@
+ 	{VAR0428 = 9:
+ 		\L_06938:
+ 		ZH 1:
+-		'Vấn đề là...'
+-		R
+-		'Việc phát triển Tulip'
+-		R
+-		'2 Goliath rất khó khăn.'
+-		\L_069ed:
+-		ZH 1:
+-		'Thật khó để'
+-		R
+-		'khiến nó bắn trúng mục'
+-		R
+-		'tiêu cách xa hàng km.'
+-		\L_069ed:
+-		ZH 1:
+-		'Dù chúng ta'
+-		R
+-		'có làm gì thì nó cũng sẽ'
+-		R
+-		'cách xa hàng trăm mét...'
+-		\L_069ed:
+-		ZH 1:
+-		'Nó vẫn chưa thực tế lắm.'
+-		\L_069ed:
+-		ZH 1:
+-		'Nếu ai đó mang thiết'
+-		R
+-		'bị truyền dẫn đến mục tiêu'
+-		R
+-		'và đợi thì nó sẽ hoạt động,'
+-		\L_069ed:
+-		ZH 1:
+-		'nhưng điều đó không ổn…'
+-		\L_069ed:
+-		ZH 1:
+-		'Aaah... Phải'
+-		R
+-		'làm sao đây～～...'
++		'Thật ra... việc'
++		R
++		'phát triển Tulip 2'
++		R
++		'Goliath... đang gặp khó.'
++		\L_069ed:
++		ZH 1:
++		'Bắn trúng mục tiêu cách'
++		R
++		'xa mấy cây số khó lắm,'
++		\L_069ed:
++		ZH 1:
++		'kiểu gì cũng lệch'
++		R
++		'vài trăm mét......'
++		\L_069ed:
++		ZH 1:
++		'Thế này thì chưa'
++		R
++		'dùng thực tế được.'
++		\L_069ed:
++		ZH 1:
++		'Nếu có ai cầm máy phát'
++		R
++		'tín hiệu đứng chờ ở'
++		R
++		'mục tiêu thì sẽ ổn,'
++		\L_069ed:
++		ZH 1:
++		'nhưng làm gì có chuyện đó...'
++		\L_069ed:
++		ZH 1:
++		'Aaa... làm sao bây giờ~~...'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Thôi, làm việc chăm chỉ'
+-		R
+-		'nhé. Tôi thực sự không hiểu.'
++		'Thôi, cố lên. Ta'
++		R
++		'chẳng hiểu mấy cái đó.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Ôi trời ơi...'
+-		R
+-		'Tôi đau khổ quá,'
+-		R
+-		'đừng lạnh lùng thế...'
++		'Ưm... thật là... người'
++		R
++		'ta đang rầu mà, sao'
++		R
++		'nói lạnh lùng thế...'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Có vẻ như ngươi'
+-		R
+-		'đang vui vẻ với tôi hơn.'
++		'Trông cô có vẻ vui lắm mà...'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'... Hừm.'
++		'......Hứ.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		{VAR0430 = 2:
+@@ -4087,9 +3899,9 @@
+ 		}
+ 		\L_06938:
+ 		ZH 1:
+-		'À... Nhưng dự án khác'
+-		R
+-		'của tôi đang tiến triển tốt.'
++		'À... nhưng mà... cái kia'
++		R
++		'thì đang tiến triển tốt lắm.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		@L_04bbf:
+@@ -4097,55 +3909,49 @@
+ 	{VAR0428 = 10:
+ 		\L_06938:
+ 		ZH 1:
+-		'Tulip 2 Goliath'
+-		R
+-		'gần như đã hoàn thiện.'
+-		\L_069ed:
+-		ZH 1:
+-		'Chúng tôi hiện'
+-		R
+-		'đang thực hiện những'
++		'Tulip 2 Goliath gần'
++		R
++		'như hoàn thành rồi.'
++		\L_069ed:
++		ZH 1:
++		'Hiện đang ở giai đoạn'
+ 		R
+ 		'điều chỉnh cuối cùng.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Hô... Vậy...'
++		'Hô... rồi sao...'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'À, xin lỗi...'
+-		R
+-		'Hiện tại tôi đang bận một số'
+-		R
+-		'việc hay. Hẹn gặp lại sau.'
+-		\L_069ed:
+-		ZH 1:
+-		'Aa, bận quá.'
++		'A, xin lỗi... tôi đang tới'
++		R
++		'đoạn hay. Gặp lại sau nhé.'
++		\L_069ed:
++		ZH 1:
++		'A a, bận quá bận quá.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_0699a:
+ 		\L_06970:
+ 		ZH 1:
+-		'Maria vội vã quay'
+-		R
+-		'lại nghiên cứu của mình.'
++		'Maria cuống quýt quay lại'
++		R
++		'với công việc nghiên cứu.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068e4:
+ 		ZH 1:
+-		'Khập khiễng... Có'
+-		R
+-		'lẽ tôi nên quay lại.'
++		'Chán thật... về thôi.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06900:
+ 		ZH 1:
+-		'Rance rời cơ'
+-		R
+-		'sở nghiên cứu.'
++		'Rance rời khỏi'
++		R
++		'viện nghiên cứu.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		!VAR0516 : 0!
+@@ -4157,101 +3963,99 @@
+ 		!VAR0758 : 1!
+ 		\L_06938:
+ 		ZH 1:
+-		'Tulip 2'
+-		R
+-		'Goliath đã hoàn thành.'
+-		\L_069ed:
+-		ZH 1:
+-		'Bây giờ chúng ta có thể'
+-		R
+-		'tấn công bất kỳ kẻ thù nào,'
+-		R
+-		'bất kể chúng ở xa đến đâu.'
++		'Tulip 2 Goliath'
++		R
++		'hoàn thành rồi.'
++		\L_069ed:
++		ZH 1:
++		'Giờ thì kẻ địch ở xa đến'
++		R
++		'đâu cũng tấn công được.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Được rồi, làm tốt lắm.'
++		'Được, làm tốt lắm.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Goliath rất lớn nên'
+-		R
+-		'tôi sẽ bố trí nó ở phía Bắc.'
++		'Goliath to lắm nên'
++		R
++		'tôi sẽ đặt nó ở'
++		R
++		'thành phố North nhé.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Không có ở lâu đài Leazas?'
++		'Không đặt ở lâu'
++		R
++		'đài Leazas à?'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Nó phát ra âm'
+-		R
+-		'thanh lớn khi bắn, nên Nữ'
+-		R
+-		'hoàng Lia sẽ nổi điên...'
++		'Lúc bắn tiếng ồn to'
++		R
++		'lắm, Nữ hoàng Lia sẽ'
++		R
++		'nổi giận mất......'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068e4:
+ 		ZH 1:
+-		'... Người dân miền Bắc có'
+-		R
+-		'đồng ý với điều đó không???'
++		'Dân thành phố North'
++		R
++		'thì...... không sao à???'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Đi về phía Bắc nếu'
+-		R
+-		'ngươi muốn nhắm vào Goliath.'
++		'Cậu nhớ tới thành'
++		R
++		'phố North để ngắm mục'
++		R
++		'tiêu cho Goliath nhé.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Điều đó thật rắc'
+-		R
+-		'rối... Việc này không thể'
+-		R
+-		'thực hiện tự động được sao?'
++		'Phiền phức thế......'
++		R
++		'không làm tự động được à?'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Ừ...'
+-		\L_069ed:
+-		ZH 1:
+-		'Nhưng hãy sử dụng'
+-		R
+-		'nó! Rốt cuộc thì tôi đã gặp'
+-		R
+-		'khó khăn khi làm được nó.'
++		'Ừm......'
++		\L_069ed:
++		ZH 1:
++		'Nhưng mà, nhưng mà,'
++		R
++		'dùng nó nhé! Người ta'
++		R
++		'đã mất công làm ra mà.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'À～～～...'
++		'A~~~......'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'... Được chứ?'
++		'.........Nhé?'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Tôi sẽ suy'
+-		R
+-		'nghĩ về điều đó.'
++		'Để ta tính.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Được rồi...'
+-		R
+-		'Hãy chắc chắn nhé.'
++		'Ừm... nhất định đấy nhé.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		@L_059d2:
+@@ -4259,63 +4063,55 @@
+ 	{VAR0428 = 12:
+ 		\L_06938:
+ 		ZH 1:
+-		'Hiện tại,'
+-		\L_069ed:
+-		ZH 1:
+-		'tôi đang nghiên'
+-		R
+-		'cứu một lò phản ứng tốc'
+-		R
+-		'độ cao sẽ thu được năng'
+-		\L_069ed:
+-		ZH 1:
+-		'lượng gấp hai hoặc ba'
+-		R
+-		'lần từ hợp kim hirara.'
+-		\L_069ed:
+-		ZH 1:
+-		'Nếu tôi có thể'
+-		R
+-		'làm được điều này,'
+-		\L_069ed:
+-		ZH 1:
+-		'tôi sẽ có thể làm được'
+-		R
+-		'những điều tương tự như tôi'
+-		\L_069ed:
+-		ZH 1:
+-		'đã làm với 1/5'
+-		R
+-		'lượng hợp kim hirara.'
+-		\L_069ed:
+-		ZH 1:
+-		'Nó sẽ giảm đáng kể chi'
+-		R
+-		'phí cao cho đơn vị của tôi'
+-		\L_069ed:
+-		ZH 1:
+-		'để hành động và chi phí'
+-		R
+-		'sử dụng Tulip 2 Gô-li-át.'
++		'Hiện giờ,'
++		\L_069ed:
++		ZH 1:
++		'tôi đang phát triển mạch'
++		R
++		'tăng sinh tốc độ cao,'
++		\L_069ed:
++		ZH 1:
++		'dùng năng lượng hợp kim'
++		R
++		'Hirara gấp hai, gấp ba lần.'
++		\L_069ed:
++		ZH 1:
++		'Làm được cái này thì'
++		\L_069ed:
++		ZH 1:
++		'chỉ cần 1/5 lượng hợp'
++		R
++		'kim Hirara trước giờ'
++		\L_069ed:
++		ZH 1:
++		'là ra cùng một'
++		R
++		'lượng năng lượng.'
++		\L_069ed:
++		ZH 1:
++		'Chi phí hành quân vốn'
++		R
++		'đắt đỏ của đơn vị tôi,'
++		\L_069ed:
++		ZH 1:
++		'và phí sử dụng Tulip 2'
++		R
++		'Goliath sẽ rẻ đi rất nhiều.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Tôi hiểu'
+-		R
+-		'rồi. Điều đó thật tuyệt'
+-		R
+-		'vời. Làm hết sức mình.'
++		'Thế à. Ghê đấy. Cố lên.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Được rồi.'
++		'Ừm.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06970:
+ 		ZH 1:
+-		'Maria cười tươi.'
++		'Maria cười tươi rạng rỡ.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		@L_059d2:
+@@ -4323,51 +4119,45 @@
+ 	{VAR0428 = 13:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Nghiên cứu'
+-		R
+-		'của ngươi về dự án đó có'
+-		R
+-		'đang tiến triển không?'
++		'Nghiên cứu cái kia'
++		R
++		'đang tiến triển chứ?'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Ừ...'
+-		\L_069ed:
+-		ZH 1:
+-		'Tuy nhiên, điều đó thật'
+-		R
+-		'khó khăn... Tôi đang cố gắng'
+-		R
+-		'hết sức, nhưng... Eheheh.'
++		'Ừm......'
++		\L_069ed:
++		ZH 1:
++		'Nhưng... khó lắm... tôi'
++		R
++		'đang cố, nhưng... hì hì.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Tôi hiểu'
+-		R
+-		'rồi. Tôi thực sự mong chờ'
+-		R
+-		'những gì ngươi nghĩ ra.'
++		'Thế à. Ta đang'
++		R
++		'rất mong chờ đấy.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Đ-Được rồi...'
+-		R
+-		'Tôi sẽ cố hết sức...'
++		'Ư... ừm... tôi sẽ cố...'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Có chuyện gì thế?'
+-		R
+-		'Ngươi có vẻ mệt mỏi.'
++		'Sao thế? Trông cô'
++		R
++		'chẳng có sức sống gì.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Ờ... tôi không mệt... Ừ.'
++		'Hả...... đâu có...'
++		R
++		'đâu có... ừm.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		{VAR0430 = 2:
+@@ -4375,9 +4165,9 @@
+ 		}
+ 		\L_06938:
+ 		ZH 1:
+-		'Ồ, đúng rồi...'
+-		R
+-		'Nhìn cái này nữa.'
++		'A, phải rồi... xem'
++		R
++		'cả cái này nữa.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		@L_04bbf:
+@@ -4385,56 +4175,50 @@
+ 	{VAR0428 = 14:
+ 		\L_06938:
+ 		ZH 1:
+-		'Lò phản ứng'
+-		R
+-		'tốc độ cao... Tôi biết mình'
+-		R
+-		'có thể làm được, nhưng...'
++		'Mạch tăng sinh tốc độ'
++		R
++		'cao ấy mà... tôi biết'
++		R
++		'là làm được, nhưng......'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Trong trường hợp đó,'
+-		R
+-		'hãy cố gắng hết sức.'
+-		R
+-		'Tôi đang mong chờ nó.'
++		'Thế thì cố lên. Ta'
++		R
++		'đang mong chờ đấy.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Nhưng...'
+-		\L_069ed:
+-		ZH 1:
+-		'Chúng ta có thực'
+-		R
+-		'sự cần nó không?'
++		'Nhưng......'
++		\L_069ed:
++		ZH 1:
++		'cái đó, có thật'
++		R
++		'sự cần không?'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'Nó sẽ giảm'
+-		R
+-		'chi phí phải không?'
+-		R
+-		'Chúng tôi cần điều đó.'
+-		\L_069ed:
+-		ZH 1:
+-		'Với điều đó'
+-		R
+-		'tôi có thể xoay sở với'
+-		R
+-		'số tiền còn sót lại.'
+-		\L_069ed:
+-		ZH 1:
+-		'Dù sao thì tôi cũng'
+-		R
+-		'rất mong chờ nó. Hiểu chưa?'
++		'Chi phí sẽ rẻ đi'
++		R
++		'chứ gì? Cần chứ.'
++		\L_069ed:
++		ZH 1:
++		'Có nó thì tiền thừa ra ta'
++		R
++		'sẽ được chơi bời nhiều hơn.'
++		\L_069ed:
++		ZH 1:
++		'Nên là, ta đang rất'
++		R
++		'mong chờ. Nghe chưa?'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Đ-Ừ...'
++		'Ư...... ừm...'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		@L_059d2:
+@@ -4442,30 +4226,28 @@
+ *L_04b21:
+ 	\L_068c8:
+ 	ZH 1:
+-	'Không. Ai muốn'
+-	R
+-	'vào bên trong cây gậy'
+-	R
+-	'lớn đó? Khập khiễng.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'... Tôi hiểu rồi...'
++	'Khỏi. Ai thèm chui vào cái'
++	R
++	'cây gậy này... chán ngắt.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'.........Vậy à...'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria có vẻ hơi tức'
+-	R
+-	'giận và rất thất vọng.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Anh sẽ đi vào bên'
+-	R
+-	'trong em, Maria. Geheheheh.'
++	'Maria có vẻ hơi giận...'
++	R
++	'và vô cùng tiếc nuối.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Chui vào trong Maria thì'
++	R
++	'ta thích đấy. Hê hê hê hê.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06938:
+@@ -4477,68 +4259,62 @@
+ *L_04bbf:
+ 	\L_06938:
+ 	ZH 1:
+-	'Chạy đi, chạy đi!'
+-	R
+-	'Hãy nhìn vào Tulip 100.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'N-Này, đừng giật tay'
+-	R
+-	'tôi như thế! Tôi sẽ ngã mất!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Tadaaaaaaaa!!'
++	'Rance, Rance, Tulip 100'
++	R
++	'đây, xem này, xem này.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'N... này, khoan. Đừng kéo'
++	R
++	'mạnh thế! Ngã bây giờ!'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Tèn ten~~~~!!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria đưa'
+-	R
+-	'Rance vào một căn phòng lớn'
+-	R
+-	'trong tòa nhà nghiên cứu.'
+-	\L_069ed:
+-	ZH 1:
+-	'Bên trong là'
+-	R
+-	'thứ trông giống như một'
+-	R
+-	'quả đạn pháo cao 20 mét.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Nó rất lớn.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Thật không thể'
+-	R
+-	'tin được phải không?'
+-	\L_069ed:
+-	ZH 1:
+-	'Với điều này chúng ta'
+-	R
+-	'có thể đi lên bầu trời.'
+-	\L_069ed:
+-	ZH 1:
+-	'Bây giờ nó đã'
+-	R
+-	'hoàn thành được 89% nhưng'
+-	R
+-	'có lẽ nó có thể bay được.'
++	'Nơi Maria dẫn Rance'
++	R
++	'tới là sảnh lớn của'
++	R
++	'Tháp Khoa học Kỹ thuật.'
++	\L_069ed:
++	ZH 1:
++	'Ở đó có một quả đạn pháo'
++	R
++	'khổng lồ, cao tới 20 mét.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'To thật.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Ghê chưa.'
++	\L_069ed:
++	ZH 1:
++	'Có nó là bay lên'
++	R
++	'trời được đấy.'
++	\L_069ed:
++	ZH 1:
++	'Tiến độ mới 89%, nhưng'
++	R
++	'chắc là bay được rồi.'
+ 	\L_069ed:
+ 	ZH 1:
+ 	'Bên trong cũng'
+ 	R
+-	'có rất nhiều thứ.'
+-	R
+-	'Muốn xem qua không?'
++	'làm xong nhiều thứ'
++	R
++	'rồi. Xem thử không?'
+ 	\L_069ed:
+ 	\L_069e0:
+ *L_04ca3:
+@@ -4548,86 +4324,76 @@
+ 	}
+ 	ZH 1:
+ 	$L_04ce1$
+-	'Nhìn kìa'
++	'Xem'
+ 	$
+ 	R
+ 	$L_04b21$
+-	'Không'
++	'Không xem'
+ 	$
+ 	]
+ 	@L_04ca3:
+ *L_04ce1:
+ 	\L_068c8:
+ 	ZH 1:
+-	'Chắc chắn rồi, có lẽ'
+-	R
+-	'tôi sẽ vào trong một chút.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Tôi đoán là ngươi sẽ làm'
+-	R
+-	'thế! Được rồi, tiếp tục đi.'
++	'Vậy vào xem một chút thử.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Phải thế chứ! Đây, mời vào.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Maria hướng dẫn'
+-	R
+-	'Rance vào Tulip 100.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Ở đây khá chật'
+-	R
+-	'chội... Nó giống như kích'
+-	R
+-	'thước của một cái tủ vậy.'
+-	\L_069ed:
+-	ZH 1:
+-	'Ngoài ra...'
+-	\L_069ed:
+-	ZH 1:
+-	'Đây là gì? Có một'
+-	R
+-	'loạt các máy đo. Căn phòng'
+-	R
+-	'này được trang trí quá tệ.'
+-	\L_069ed:
+-	ZH 1:
+-	'Đây có phải là tất'
+-	R
+-	'cả những gì ở đây không? Nó'
+-	R
+-	'trông rất lớn từ bên ngoài.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Ừ, thế đấy. Phần chiều'
+-	R
+-	'dài còn lại của thứ này dành'
+-	R
+-	'cho động cơ đẩy nó lên trời.'
+-	\L_069ed:
+-	ZH 1:
+-	'... Sớm... Sẽ'
+-	R
+-	'sớm kết thúc thôi.'
+-	\L_069ed:
+-	ZH 1:
+-	'Này, Rance...'
+-	R
+-	'Có khả năng là tôi sẽ không'
+-	R
+-	'thể quay lại được, nhưng...'
+-	\L_069ed:
+-	ZH 1:
+-	'Tôi xin lỗi nếu'
+-	R
+-	'điều đó xảy ra.'
++	'Theo Maria dẫn đường, Rance'
++	R
++	'bước vào trong Tulip 100.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Chật thế... chỉ rộng'
++	R
++	'chừng bốn chiếu rưỡi...'
++	\L_069ed:
++	ZH 1:
++	'Mà...'
++	\L_069ed:
++	ZH 1:
++	'cái gì đây? Đầy đồng hồ đo.'
++	R
++	'Căn phòng gì mà lổn nhổn.'
++	\L_069ed:
++	ZH 1:
++	'Bên trong chỉ có thế'
++	R
++	'thôi à? Nhìn từ ngoài'
++	R
++	'thì to quá trời.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Ừm, chỉ có thế thôi. Phần'
++	R
++	'chiều dài còn lại là động'
++	R
++	'cơ để đẩy cái này lên cao.'
++	\L_069ed:
++	ZH 1:
++	'...Sắp rồi... sắp'
++	R
++	'hoàn thành rồi.'
++	\L_069ed:
++	ZH 1:
++	'Này... Rance...'
++	R
++	'tôi...... biết đâu sẽ'
++	R
++	'không về được nữa......'
++	\L_069ed:
++	ZH 1:
++	'lúc đó thì, xin lỗi cậu nhé.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_068c8:
+@@ -4637,11 +4403,11 @@
+ 	\L_069e0:
+ 	\L_06938:
+ 	ZH 1:
+-	'Tulip 100 có thể'
+-	R
+-	'bay vượt bầu trời, nhưng có'
+-	R
+-	'thể không quay trở lại được.'
++	'Tulip 100 này... bay được'
++	R
++	'tới tận cùng bầu trời, nhưng'
++	R
++	'có lẽ... không quay về được.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_068c8:
+@@ -4649,191 +4415,189 @@
+ 	'............'
+ 	\L_069ed:
+ 	ZH 1:
+-	'Cái gì, nó thực sự'
+-	R
+-	'nguy hiểm đến vậy à?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Con tàu đầu tiên và tàu'
+-	R
+-	'lượn đầu tiên cũng vậy...'
+-	\L_069ed:
+-	ZH 1:
+-	'Họ đều đã vượt'
+-	R
+-	'qua được nguy hiểm.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'... Vậy để người khác'
+-	R
+-	'lái nó thì sao? Vâng,'
+-	R
+-	'hãy để Barres cưỡi nó.'
+-	\L_069ed:
+-	ZH 1:
+-	'Không ai quan'
+-	R
+-	'tâm nếu anh ta chết.'
++	'Gì cơ, nó nguy hiểm thế à?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'......Con thuyền đầu tiên'
++	R
++	'ra biển, chiếc tàu lượn'
++	R
++	'đầu tiên lên trời......'
++	\L_069ed:
++	ZH 1:
++	'tất cả đều đã vượt'
++	R
++	'qua nguy hiểm đấy.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'......Thế thì cho người'
++	R
++	'khác ngồi là được. Phải'
++	R
++	'rồi, cho Barres ngồi.'
++	\L_069ed:
++	ZH 1:
++	'Lão ấy có chết'
++	R
++	'cũng chẳng sao.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06954:
+ 	ZH 1:
+-	'Rance... Cậu'
+-	R
+-	'không hiểu đâu...'
+-	\L_069ed:
+-	ZH 1:
+-	'Anh yêu em,'
+-	R
+-	'nhưng đổi lại em sẽ không'
+-	R
+-	'chỉ yêu một mình anh...'
+-	\L_069ed:
+-	ZH 1:
+-	'Vậy là... anh không thể'
+-	R
+-	'ở bên em được nữa....tôi...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Này, Maria. Điều đó sẽ'
+-	R
+-	'tốt thôi. Tôi đã sẵn sàng.'
+-	R
+-	'Chúng tôi đang làm điều đó.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Không, tôi muốn'
+-	R
+-	'lái nó... Đó là mục'
+-	R
+-	'đích tôi tạo ra nó.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Không, tôi không'
+-	R
+-	'thể cho phép điều đó.'
+-	\L_069ed:
+-	ZH 1:
+-	'Ngươi nghĩ tôi'
+-	R
+-	'sẽ ngồi đây và để người phụ'
+-	R
+-	'nữ của tôi gặp nguy hiểm?!!'
++	'Rance... không'
++	R
++	'phải thế......'
++	\L_069ed:
++	ZH 1:
++	'Em... thích anh... Nhưng'
++	R
++	'anh chắc chẳng bao giờ'
++	R
++	'chỉ nhìn mỗi em......'
++	\L_069ed:
++	ZH 1:
++	'Nên... em không thể... ở'
++	R
++	'bên anh được nữa. ......Em'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Này, Maria. Phải rồi,'
++	R
++	'thế là hay nhất. Ta'
++	R
++	'quyết rồi. Cứ thế mà làm.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Không, tôi muốn tự'
++	R
++	'mình ngồi... tôi'
++	R
++	'làm ra nó là vì thế.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Không được, ta'
++	R
++	'không cho phép.'
++	\L_069ed:
++	ZH 1:
++	'Ta có thể đứng nhìn'
++	R
++	'đàn bà của ta lao vào'
++	R
++	'nguy hiểm như thế sao!!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance nhảy dựng lên.'
+-	\L_069ed:
+-	ZH 1:
+-	'(bang)'
+-	\L_069ed:
+-	ZH 1:
+-	'（nhấp chuột）'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Hả!!??'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Áaaaaaaaaa!!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'C-Gì vậy?'
++	'Rance hùng hổ đứng phắt dậy.'
++	\L_069ed:
++	ZH 1:
++	'（Cốp!!）'
++	\L_069ed:
++	ZH 1:
++	'（Tách）'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Ui!!??'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Áaaaa!!'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'G... gì thế?'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'（whiiiiiiiir）'
+-	\L_069ed:
+-	ZH 1:
+-	'［Khóa an toàn đã được mở.'
+-	R
+-	'Chuẩn bị ra mắt.］ Hả...?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Ah... Aah... Chúng'
+-	R
+-	'ta nên làm gì đây?!'
++	'（Vùuuuuuu）'
++	\L_069ed:
++	ZH 1:
++	'［Đã mở khóa an toàn.'
++	R
++	'Bắt đầu chuẩn bị'
++	R
++	'phóng］ Rance「Hả......?」'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'A... aa... làm sao bây giờ!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'［Bắt đầu đếm'
+-	R
+-	'ngược.20, 19, 18...］ Maria!'
+-	R
+-	'Chuyện gì đã xảy ra thế?'
++	'［Bắt đầu đếm ngược 20'
++	R
++	'19 18...］ Rance「Maria!'
++	R
++	'Chuyện gì thế này?」'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'［16, 15, 14, 13］'
+-	R
+-	'Đồ ngốc... Ngươi đã'
+-	R
+-	'nhấn nút khởi chạy.'
++	'［16 15 14 13］ Đồ'
++	R
++	'ngốc... Rance bấm'
++	R
++	'nút phóng rồi còn gì.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'［9, 8, 7, 6,'
+-	R
+-	'5］ Trời!! Chúng ta không'
+-	R
+-	'thể ngăn nó lại sao!?'
++	'［9 8 7 6 5］ Rance「Chết!'
++	R
++	'Không dừng được à!?」'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'［3, 2］ Đ-Chúng ta'
+-	R
+-	'đã hết thời gian rồi...!!'
++	'［3 2］ Kh... không'
++	R
++	'kịp nữa rồi...!!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'））））'
+-	\L_069ed:
+-	ZH 1:
+-	'（RUMBLEEEEE!!!!!）'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Ôi!!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Ôi!!'
++	'（Ầm ầm ầm ầm ầm）'
++	\L_069ed:
++	ZH 1:
++	'（ẦMMMMM!!!!!）'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Oái!!'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Kya!!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Lực mạnh tấn'
+-	R
+-	'công Rance và Maria.'
+-	\L_069ed:
+-	ZH 1:
+-	'［0, cất cánh.］'
++	'Một lực G khủng khiếp'
++	R
++	'ập lên Rance và Maria.'
++	\L_069ed:
++	ZH 1:
++	'［0 Phóng］'
+ 	\L_069ed:
+ 	{VAR0071 \ 0:
+ 		SS 0:
+@@ -4841,12 +4605,12 @@
+ 	!VAR0000 : 63!
+ 	\L_068ac:
+ 	ZH 1:
+-	', rumbleeeeeeee.'
+-	\L_069ed:
+-	ZH 1:
+-	'Chiếc Tulip 100'
+-	R
+-	'bay cao lên trời.'
++	'（Ầmmmmmmmmmm）'
++	\L_069ed:
++	ZH 1:
++	'Tulip 100 bay'
++	R
++	'vút lên trời cao.'
+ 	\L_069ed:
+ 	PF1 VAR0056:
+ 	\L_06a14:
+@@ -4862,110 +4626,102 @@
+ 	\L_0698c:
+ 	\L_068c8:
+ 	ZH 1:
+-	'Cái gì cơ?!! Cô'
+-	R
+-	'đang ở đâu vậy?!!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Ah... Aah...'
+-	R
+-	'Không thể nào...'
++	'Cái quái gì thế nàyyy!!'
++	R
++	'Đây là đâu thế nàyyy!!'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'A... aa... không'
++	R
++	'thể nào......'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'［Tháo tên lửa 1］'
+-	R
+-	'（kachunk）'
+-	\L_069ed:
+-	ZH 1:
+-	'(ruuumbleeeeee)'
+-	\L_069ed:
+-	ZH 1:
+-	'（...rumbleee...）'
+-	\L_069ed:
+-	ZH 1:
+-	'　　（............）'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Ừm...? Nó trở'
+-	R
+-	'nên khá yên tĩnh.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'... Ừ.'
++	'［Tách tên lửa'
++	R
++	'số 1］ （Cạch）'
++	\L_069ed:
++	ZH 1:
++	'（Ầmmmmmmmmmm）'
++	\L_069ed:
++	ZH 1:
++	'（......ầmmm......）'
++	\L_069ed:
++	ZH 1:
++	'（............）'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Ừm...? Có vẻ yên tĩnh rồi.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'......Ừm.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+ 	'Rance nhìn ra ngoài qua'
+ 	R
+-	'một cửa sổ nhỏ trong phòng.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Đây là cái gì...?'
++	'ô cửa sổ nhỏ trong phòng.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Cái gì... thế này...?'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance và Maria nhìn'
+-	R
+-	'thấy lục địa mà họ vừa đến.'
+-	R
+-	'Vâng... Toàn bộ sự việc.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'... Cái quái gì thế...?'
+-	\L_069ed:
+-	ZH 1:
+-	'Mọi thứ trông nhỏ hơn nhiều'
+-	R
+-	'so với khi nhìn từ Thành phố'
+-	R
+-	'Toushin khi nó đang bay...'
+-	\L_069ed:
+-	ZH 1:
+-	'Điều đó có nghĩa là'
+-	R
+-	'chúng ta thậm chí còn cao'
+-	R
+-	'hơn thế nữa phải không??'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Rance... Tôi xin'
+-	R
+-	'lỗi... Đây là chuyện'
+-	R
+-	'của chúng tôi...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Chúng ta có thể'
+-	R
+-	'không quay lại được không?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Ừ...'
+-	\L_069ed:
+-	ZH 1:
+-	'Tôi chưa làm'
+-	R
+-	'thiết bị để về...'
++	'Ngay trước mặt là lục'
++	R
++	'địa nơi Rance từng ở.'
++	R
++	'Phải... thấy được tất cả.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'...Trời đất ơi...'
++	\L_069ed:
++	ZH 1:
++	'Cảnh từ Thành phố Đấu'
++	R
++	'Thần khi bay trên không'
++	R
++	'giờ còn bé tí hơn......'
++	\L_069ed:
++	ZH 1:
++	'Nghĩa là ta đã lên tới'
++	R
++	'chỗ còn cao hơn cả nó à??'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Rance... xin lỗi...'
++	R
++	'chúng ta không còn...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Lẽ nào không về được à??'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Ừm......'
++	\L_069ed:
++	ZH 1:
++	'Tôi vẫn chưa làm thiết'
++	R
++	'bị để quay về......'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_068c8:
+@@ -4973,52 +4729,42 @@
+ 	'.............'
+ 	\L_069ed:
+ 	ZH 1:
+-	'Chúng ta có bị mắc'
+-	R
+-	'kẹt ở đây mãi mãi không?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'... Ừ...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Ồ vâng, còn đồ ăn thì sao?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'... Có giá'
+-	R
+-	'trị trong hai tuần cho'
+-	R
+-	'trường hợp khẩn cấp...'
+-	\L_069ed:
+-	ZH 1:
+-	'Đối với hai người, nó'
+-	R
+-	'sẽ kéo dài một tuần...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Uuh, chúng ta'
+-	R
+-	'nên làm gì đây?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'... Tôi không biết...'
+-	\L_069ed:
+-	ZH 1:
+-	'Cũng không còn'
+-	R
+-	'nhiên liệu nên chúng ta'
+-	R
+-	'cứ trôi đi như thế này…'
++	'Lẽ nào, cứ thế này mãi?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'............Ừm...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Phải rồi, thức ăn thì sao?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'...Đồ dự phòng đủ'
++	R
++	'cho hai tuần...'
++	\L_069ed:
++	ZH 1:
++	'hai người thì một tuần......'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Ơ... thế sẽ ra sao?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'......Tôi không biết......'
++	\L_069ed:
++	ZH 1:
++	'Cũng hết nhiên liệu rồi...'
++	R
++	'cứ thế trôi dạt thôi......'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_068c8:
+@@ -5028,7 +4774,7 @@
+ 	\L_069e0:
+ 	\L_06938:
+ 	ZH 1:
+-	'... Rance.'
++	'......Rance.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_068c8:
+@@ -5036,9 +4782,9 @@
+ 	'.........'
+ 	\L_069ed:
+ 	ZH 1:
+-	'Ch. Vâng, những'
+-	R
+-	'gì xảy ra, xảy ra.'
++	'Chậc. Thôi, chuyện đã'
++	R
++	'xảy ra thì đành chịu.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	SS 24:
+@@ -5047,62 +4793,62 @@
+ 	'Hả...?'
+ 	\L_069ed:
+ 	ZH 1:
+-	'Ôi...!'
++	'Kya...!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance ôm Maria'
+-	R
+-	'và cưỡng hôn cô.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Đ-Đợi đã, Rance!'
+-	R
+-	'Cậu đang làm gì thế?!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Tất nhiên là tình dục.'
+-	\L_069ed:
+-	ZH 1:
+-	'Chúng ta có phòng'
+-	R
+-	'riêng và chỉ có một mình,'
+-	R
+-	'chúng ta có thể làm gì khác?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Nếu chúng ta sử dụng'
+-	R
+-	'quá nhiều năng lượng, oxy'
+-	R
+-	'sẽ cạn kiệt nhanh hơn...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Ai quan tâm?'
++	'Rance kéo Maria vào lòng,'
++	R
++	'hôn nàng thật mạnh bạo.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Kh... khoan đã, Rance!'
++	R
++	'Cậu định làm gì thế!'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Tất nhiên là SEX.'
++	\L_069ed:
++	ZH 1:
++	'Phòng riêng, lại chỉ có'
++	R
++	'hai người, thì còn làm'
++	R
++	'được gì khác nữa đâu.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Quậy quá thì oxy'
++	R
++	'sẽ giảm đấy......'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Kệ nó.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance nắm chặt ngực Maria.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'À...!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Gahahahaha!'
++	'Rance chộp lấy'
++	R
++	'bầu ngực Maria.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'A...!'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Gahahahaha!!!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	PF1 VAR0056:
+@@ -5110,63 +4856,65 @@
+ 	PF0 VAR0056:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance và Maria bị'
+-	R
+-	'ném vào không gian... Chuyện'
+-	R
+-	'gì sẽ xảy ra với họ...?'
+-	\L_069ed:
+-	ZH 1:
+-	'Liệu Tulip 100 có trôi'
+-	R
+-	'dạt đến lục địa khác trước'
+-	R
+-	'khi hết thức ăn không...?'
++	'Rance và Maria bị ném'
++	R
++	'vào vũ trụ...... rốt cuộc'
++	R
++	'hai người sẽ ra sao...'
++	\L_069ed:
++	ZH 1:
++	'Liệu Tulip 100 có trôi dạt'
++	R
++	'tới lục địa khác trước khi'
++	R
++	'hết lương thực không......'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06954:
+ 	ZH 1:
+-	'... Chúng ta có'
+-	R
+-	'thể sẽ chết sớm thôi.'
+-	\L_069ed:
+-	ZH 1:
+-	'Nhưng bây giờ tôi'
+-	R
+-	'có thể có Rance cho riêng'
+-	R
+-	'mình như tôi mong muốn...'
+-	\L_069ed:
+-	ZH 1:
+-	'Tôi đoán vậy...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Có chuyện gì vậy Maria?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Ồ, không có gì...'
+-	\L_069ed:
+-	ZH 1:
+-	'Rance...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Ừm?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Anh yêu em...'
++	'......Có lẽ sắp'
++	R
++	'chết rồi......'
++	\L_069ed:
++	ZH 1:
++	'Nhưng ở đây chỉ'
++	R
++	'có tôi và Rance...'
++	\L_069ed:
++	ZH 1:
++	'Mong ước được độc'
++	R
++	'chiếm Rance... thành'
++	R
++	'thật rồi... nhỉ...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Maria, sao thế?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Ưm, không có gì......'
++	\L_069ed:
++	ZH 1:
++	'Rance......'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Hử?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Em yêu anh......'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'TRÒ CHƠI KẾT THÚC'
++	'GAME OVER'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0805 : 5!
+@@ -5175,37 +4923,37 @@
+ 	!VAR0429 : 2!
+ 	\L_068c8:
+ 	ZH 1:
+-	'Maria, về thứ em'
+-	R
+-	'đang làm bây giờ...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Lò phản ứng tốc độ cao?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Ừ, cái đó. Tôi có'
+-	R
+-	'cảm giác nó nguy hiểm. Đừng'
+-	R
+-	'làm việc đó nữa. Được rồi?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'... O-Được'
+-	R
+-	'rồi, hiểu rồi. Tôi cũng'
+-	R
+-	'nghĩ nó sẽ nguy hiểm...'
+-	\L_069ed:
+-	ZH 1:
+-	'Tôi rất vui'
+-	R
+-	'vì ngươi đã hỏi.'
++	'Maria, cái thứ'
++	R
++	'cô đang làm ấy...'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Thiết bị tăng'
++	R
++	'sinh tốc độ cao á?'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'À, phải. Ta thấy cái'
++	R
++	'đó có vẻ nguy hiểm sao'
++	R
++	'ấy, bỏ đi. Nghe chưa.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'......V-vâng. Tôi hiểu'
++	R
++	'rồi. Tôi cũng đang thấy'
++	R
++	'nó nguy hiểm sao ấy...'
++	\L_069ed:
++	ZH 1:
++	'may quá.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06970:
+@@ -5218,58 +4966,48 @@
+ 	!VAR0430 : 2!
+ 	\L_068c8:
+ 	ZH 1:
+-	'Maria, về chiếc Tulip'
+-	R
+-	'100 mà ngươi đang làm...'
+-	R
+-	'Ngươi có định lái nó không?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'... C-À, ừ...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Dù thế nào'
+-	R
+-	'đi nữa, hãy ngừng làm'
+-	R
+-	'việc đó đi. Được rồi?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Cái gì, tại sao?!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Im đi. Đó là một'
+-	R
+-	'mệnh lệnh. Tắt nó đi.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Tại sao...?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Bởi vì tôi'
+-	R
+-	'không thích nó. Hãy ngừng'
+-	R
+-	'làm việc với Tulip 100.'
+-	\L_069ed:
+-	ZH 1:
+-	'Tháo rời những'
+-	R
+-	'gì ngươi đã làm và sử dụng'
+-	R
+-	'nó làm củi hoặc thứ gì đó.'
++	'Maria, cái thứ gọi là'
++	R
++	'Tulip 100 ấy... cô định'
++	R
++	'tự mình ngồi lên à?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'...Đ... đúng là vậy...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Tóm lại là bỏ đi. Nghe chưa.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Hảaa, sao lại thế!'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Im. Lệnh đấy. Hủy đi.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Sao lại...'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Tóm lại là ta không'
++	R
++	'ưa. Tulip 100, hủy.'
++	\L_069ed:
++	ZH 1:
++	'Cái đang làm dở cũng tháo'
++	R
++	'ra, đem làm củi cho rồi.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06938:
+@@ -5284,56 +5022,48 @@
+ 	\L_069e0:
+ 	\L_06938:
+ 	ZH 1:
+-	'... Đ-Được rồi...'
++	'......Ừ... ừm......'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	@L_059d2:
+ *L_059d2:
+ 	\L_068c8:
+ 	ZH 1:
+-	'Vậy thì tôi sẽ'
+-	R
+-	'đi đây. Thấy ngươi.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Được rồi, lúc nào'
+-	R
+-	'đó hãy quay lại nhé.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Tôi không biết...'
+-	\L_069ed:
+-	ZH 1:
+-	'Có lẽ nếu ngươi'
+-	R
+-	'làm thứ gì đó gợi tình'
+-	R
+-	'hơn thì tôi sẽ quay lại.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Tôi sẽ không'
+-	R
+-	'làm những việc như'
+-	R
+-	'thế đâu! Ngốc nghếch!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Gahahahaha! Dù'
+-	R
+-	'sao, gặp lại ngươi sau.'
++	'Thôi, về đây. Đi nhé.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Ừm, lại tới xem nhé.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Để xem...'
++	\L_069ed:
++	ZH 1:
++	'nếu cô làm ra cái'
++	R
++	'máy nào dâm đãng hơn.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Đời nào tôi làm'
++	R
++	'chứ! Đồ ngốc!'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Gahahahaha. Thôi nhé.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance rời viện nghiên cứu.'
++	'Rance rời khỏi'
++	R
++	'viện nghiên cứu.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 0!
+@@ -5358,71 +5088,67 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Rance'
+-	R
+-	'đang nhét một ít unyuun màu'
+-	R
+-	'hồng ướp lạnh qua ống hút.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Ừm, cái này tốt đấy.'
++	'Phòng yết kiến'
++	R
++	'Rance hút rột rột ly Pink'
++	R
++	'Unyun ướp lạnh.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Ưm~, Mandom. Ngon thật đấy.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 6!
+ 	\L_0698c:
+ 	\L_06938:
+ 	ZH 1:
+-	'Vua Rance! Có rắc rối!'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Cái gì? Ngươi'
+-	R
+-	'có thai hay gì đó?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'... Đây không phải'
+-	R
+-	'là lúc để đùa giỡn.'
+-	\L_069ed:
+-	ZH 1:
+-	'Tòa nhà nghiên cứu'
+-	R
+-	'của Maria phát nổ.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Hả...?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Theo các nhà'
+-	R
+-	'nghiên cứu sống sót,'
+-	\L_069ed:
+-	ZH 1:
+-	'một vụ nổ đã'
+-	R
+-	'xảy ra trong quá trình'
+-	R
+-	'nghiên cứu lò phản ứng.'
+-	\L_069ed:
+-	ZH 1:
+-	'Nhiều người đã chết.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'... Nhưng Maria'
+-	R
+-	'vẫn ổn phải không?'
++	'Bệ hạ Rance! Nguy rồi ạ!'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Gì thế? Có thai à?'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'...Đây không phải lúc'
++	R
++	'nói đùa được đâu ạ.'
++	\L_069ed:
++	ZH 1:
++	'Tòa Khoa học Kỹ thuật'
++	R
++	'của cô Maria đã phát nổ.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Hả......'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Theo lời các nghiên'
++	R
++	'cứu viên sống sót,'
++	\L_069ed:
++	ZH 1:
++	'vụ nổ xảy ra trong'
++	R
++	'lúc nghiên cứu mạch'
++	R
++	'tăng sinh tốc độ cao.'
++	\L_069ed:
++	ZH 1:
++	'Có rất nhiều thương vong.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'...Maria... vẫn an toàn chứ?'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	{VAR0552 \ 1:
+@@ -5435,21 +5161,19 @@
+ 		\L_069e0:
+ 		\L_068c8:
+ 		ZH 1:
+-		'... Có phải nàng không...?'
++		'...Lẽ nào...?'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+ 		ZH 1:
+-		'Rõ ràng nàng là'
+-		R
+-		'trung tâm của vụ nổ...'
+-		\L_069ed:
+-		ZH 1:
+-		'Thậm chí không có'
+-		R
+-		'bất kỳ tàn tích nào'
+-		R
+-		'trên cơ thể nàng...'
++		'Có vẻ cô ấy ở'
++		R
++		'ngay tâm vụ nổ...'
++		\L_069ed:
++		ZH 1:
++		'đến thi thể cũng'
++		R
++		'không còn...'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_068c8:
+@@ -5457,9 +5181,9 @@
+ 		'............'
+ 		\L_069ed:
+ 		ZH 1:
+-		'Vậy thì ngươi đang'
+-		R
+-		'nói rằng nàng đã chết...'
++		'Vậy thì, chuyện'
++		R
++		'còn sống là...'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		\L_06938:
+@@ -5472,7 +5196,7 @@
+ 		'.........'
+ 		\L_069ed:
+ 		ZH 1:
+-		'... Chết tiệt...!!'
++		'...Khốn kiếp...!!'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		!VAR0516 : 0!
+@@ -5481,54 +5205,48 @@
+ 	}
+ 	\L_06938:
+ 	ZH 1:
+-	'Vâng...'
+-	\L_069ed:
+-	ZH 1:
+-	'Nàng hiện đang ở bệnh'
+-	R
+-	'viện, nhưng tính mạng của'
+-	R
+-	'nàng không gặp nguy hiểm.'
+-	\L_069ed:
+-	ZH 1:
+-	'Nàng sẽ bình phục hoàn'
+-	R
+-	'toàn trong khoảng hai tuần.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Ta hiểu rồi... Gửi'
+-	R
+-	'cho nàng một món quà'
+-	R
+-	'chúc sức khỏe cho ta.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Có.'
++	'Vâng......'
++	\L_069ed:
++	ZH 1:
++	'Hiện cô ấy đang nằm'
++	R
++	'viện, nhưng tính'
++	R
++	'mạng không nguy hiểm.'
++	\L_069ed:
++	ZH 1:
++	'Nghe nói khoảng hai'
++	R
++	'tuần là khỏi hẳn.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Thế à... lát nữa đi'
++	R
++	'thăm cô ấy giúp ta.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Vâng.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_068e4:
+ 	ZH 1:
+-	'Maria... Ngươi đã'
+-	R
+-	'làm gì với chính mình? Điều'
+-	R
+-	'đó thực sự rất nguy hiểm...'
+-	\L_069ed:
+-	ZH 1:
+-	'Có lẽ nàng ghét làm'
+-	R
+-	'việc trên thiết bị đó...'
+-	\L_069ed:
+-	ZH 1:
+-	'Trong trường'
+-	R
+-	'hợp đó, lẽ ra nàng nên'
+-	R
+-	'nói vậy thôi... Đồ ngốc!'
++	'Maria...... sao lại thế này.'
++	R
++	'Thì ra là nguy hiểm thật...'
++	\L_069ed:
++	ZH 1:
++	'Vì thế nên nó mới không muốn'
++	R
++	'làm cái thiết bị đó......'
++	\L_069ed:
++	ZH 1:
++	'Thế thì cứ nói ra có phải'
++	R
++	'hơn không... ......Đồ ngốc!'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0516 : 0!
+@@ -5552,35 +5270,33 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Thưa'
+-	R
+-	'vua Rance, hôm nọ cô Maria'
+-	R
+-	'đã được xuất viện an toàn.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Ta hiểu rồi. Tốt đấy.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Nàng đến đây để'
+-	R
+-	'gặp cậu. Tôi có nên'
+-	R
+-	'cho nàng qua không?'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'Ừ, cứ tiếp tục đi.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Vâng, hiểu rồi.'
++	'Phòng yết kiến'
++	R
++	'Bệ hạ Rance, cô Maria hôm'
++	R
++	'trước đã xuất viện bình an.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Thế à. Tốt quá.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Cô ấy đang tới đây.'
++	R
++	'Thần cho cô ấy vào nhé?'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'Ừ, cho vào.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Vâng. Thần hiểu rồi.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_0699a:
+@@ -5593,65 +5309,63 @@
+ 	\L_069e0:
+ 	\L_068c8:
+ 	ZH 1:
+-	'Này, cô trông'
+-	R
+-	'ổn đấy. Tốt, tốt.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Tôi xin lỗi...'
+-	R
+-	'Vì tôi mà các nhà nghiên cứu'
+-	R
+-	'của tôi đã bị tổn thương...'
+-	\L_069ed:
+-	ZH 1:
+-	'Ngoài ra, viện'
+-	R
+-	'nghiên cứu đã bị phá hủy...'
++	'Ồ, trông khỏe đấy. Tốt, tốt.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Xin lỗi... tôi đã khiến'
++	R
++	'các nghiên cứu viên'
++	R
++	'quan trọng bị thương...'
++	\L_069ed:
++	ZH 1:
++	'lại còn phá hỏng cả Tòa'
++	R
++	'Khoa học Kỹ thuật...'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06970:
+ 	ZH 1:
+-	'Khi Maria nhận thấy'
+-	R
+-	'nước mắt đang dâng lên trong'
+-	R
+-	'mắt mình, cô cúi đầu xuống.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'... Việc gì đã xong,'
+-	R
+-	'đừng lo lắng. Chúng ta có'
+-	R
+-	'thể xây dựng một cái khác...'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'Không... Đừng bận'
+-	R
+-	'tâm... Tôi xin lỗi.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_068c8:
+-	ZH 1:
+-	'... Ta hiểu rồi.'
+-	\L_069ed:
+-	ZH 1:
+-	'Đừng lo lắng về điều'
+-	R
+-	'đó. Hãy tiếp tục làm việc'
+-	R
+-	'cho ta như cô đã từng làm.'
+-	\L_069ed:
+-	\L_069e0:
+-	\L_06938:
+-	ZH 1:
+-	'... Được rồi.'
++	'Maria cúi gằm mặt,'
++	R
++	'không muốn để lộ giọt lệ'
++	R
++	'chực trào nơi khóe mắt.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'...Chuyện đã qua, đừng bận'
++	R
++	'tâm. Nếu cần thì xây lại'
++	R
++	'Tòa Khoa học Kỹ thuật...'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'Không... thôi được'
++	R
++	'rồi ạ... xin lỗi.'
++	\L_069ed:
++	\L_069e0:
++	\L_068c8:
++	ZH 1:
++	'...Thế à.'
++	\L_069ed:
++	ZH 1:
++	'Thôi, đừng bận tâm.'
++	R
++	'Cứ làm việc dưới'
++	R
++	'trướng ta như trước.'
++	\L_069ed:
++	\L_069e0:
++	\L_06938:
++	ZH 1:
++	'......Ừm.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	!VAR0154 : 16!
+@@ -5662,63 +5376,61 @@
+ *L_06041:
+ 	\L_068e4:
+ 	ZH 1:
+-	'Được rồi, có lẽ tôi'
+-	R
+-	'sẽ nhìn qua lỗ nhìn trộm.'
++	'Được rồi, đi ngó'
++	R
++	'lỗ nhìn trộm thôi.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'Rance bước vào một'
+-	R
+-	'căn phòng bí mật phía sau'
+-	R
+-	'Viện Nghiên cứu Hoa Tulip.'
++	'Rance đi vào căn phòng'
++	R
++	'bí mật từ cửa sau'
++	R
++	'Viện Nghiên cứu Tulip.'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_068e4:
+ 	ZH 1:
+-	'Tôi chỉ cần sử'
+-	R
+-	'dụng chiếc chìa khóa bí mật'
+-	R
+-	'duy nhất mà tôi có, và...'
++	'Dùng chìa khóa bí mật'
++	R
++	'chỉ mình ta có......'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_06900:
+ 	ZH 1:
+-	'（nhấp chuột...）'
++	'（Cạch......）'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	\L_068e4:
+ 	ZH 1:
+-	'Được rồi, tốt.'
+-	\L_069ed:
+-	ZH 1:
+-	'Tất nhiên, nó được làm để'
+-	R
+-	'họ không thể thấy được cái'
+-	R
+-	'lỗ đang mở từ phía bên kia.'
+-	\L_069ed:
+-	ZH 1:
+-	'Bằng cách đó sẽ không ai'
+-	R
+-	'biết tôi đang làm gì. Đây là'
+-	R
+-	'quyền đặc biệt của nhà vua.'
+-	\L_069ed:
+-	ZH 1:
+-	'Bây giờ hãy xem... Ừm...'
+-	\L_069ed:
+-	ZH 1:
+-	'... Ồ.'
+-	\L_069ed:
+-	ZH 1:
+-	'... Ồ...'
+-	\L_069ed:
+-	ZH 1:
+-	'Ố ồ...'
++	'Được. Tuyệt.'
++	\L_069ed:
++	ZH 1:
++	'Tất nhiên, nó được làm'
++	R
++	'sao cho từ phía bên'
++	R
++	'kia không thấy cái lỗ.'
++	\L_069ed:
++	ZH 1:
++	'Ta làm gì ở đây thì chẳng'
++	R
++	'ai biết được. Đây chính'
++	R
++	'là đặc quyền của nhà vua.'
++	\L_069ed:
++	ZH 1:
++	'Nào... xem nào... ưm...'
++	\L_069ed:
++	ZH 1:
++	'............Ồ'
++	\L_069ed:
++	ZH 1:
++	'......Ồồ...'
++	\L_069ed:
++	ZH 1:
++	'Ồồồ......'
+ 	\L_069ed:
+ 	\L_069e0:
+ 	PF1 VAR0056:
+@@ -5726,116 +5438,112 @@
+ 	G 150:
+ 	\L_069a8:
+ 	ZH 1:
+-	'Rance（Họ đang nói về điều'
+-	R
+-	'gì đó... Hãy nghe này...）'
++	'Rance（Hình như đang nói'
++	R
++	'chuyện gì đó... để xem nào...）'
+ 	PF0 VAR0056:
+ 	\L_069ed:
+ 	ZH 1:
+-	'Rance đã nghe lén họ.'
++	'Rance dỏng tai nghe lén.'
+ 	\L_069ed:
+ 	{(VAR0428 > 12) * (VAR0429 = 0):
+ 		!VAR0429 : 1!
+ 		ZH 1:
+-		'Cô gái 1 「Này... Dự án đó có ổn không?」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 2 「Cậu đang nói về'
+-		R
+-		'lò phản ứng tốc độ cao à?」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「Ừ, cái đó!」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Tôi cũng nghĩ nó nguy hiểm...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「Nếu những trợ lý như chúng tôi'
+-		\L_069ed:
+-		ZH 1:
+-		'nghĩ rằng nó nguy hiểm thì bác sĩ'
+-		R
+-		'Maria cũng nghĩ vậy,」 phải không...?」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Tôi cũng nghĩ vậy, nhưng...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 2 「Tôi nghe từ một cô gái khác rằng'
+-		R
+-		'Vua Rance rất mong chờ lò phản ứng...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「Aah... Vậy là nàng'
+-		R
+-		'không thể dừng lại được...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 2 「Ừ... Nhưng nó vẫn nguy hiểm.'
+-		R
+-		'Ai biết khi nào nó có thể phát nổ...?」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Ừ...'
+-		\L_069ed:
+-		ZH 1:
+-		'Bác sĩ Maria có thể không đưa ra ý'
+-		R
+-		'kiến của mình với Vua Rance không...?」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「... Nếu nàng làm vậy,'
+-		R
+-		'hắn sẽ nói “Anh sẽ nghe lời em,'
+-		\L_069ed:
+-		ZH 1:
+-		'nên hãy để anh đụ em’ hay gì đó,'
+-		R
+-		'và cô không thích điều đó...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Các cô gái 「Kyahahahaha!! Đó'
+-		R
+-		'hoàn toàn là điều sẽ xảy ra!」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「... Nhưng...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 「Ừ...'
+-		R
+-		'Nguy hiểm lắm, tôi không thích nó...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Tôi muốn dừng lại, nhưng tôi'
+-		R
+-		'cũng không muốn bỏ rơi bác sĩ Maria...'
+-		\L_069ed:
+-		ZH 1:
+-		'Tệ rồi...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Trời ạ...」'
++		'Cô gái 1「Này, cái đó... có ổn không thế?」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 2「Cái đó... là vụ nghiên'
++		R
++		'cứu mạch tăng sinh tốc độ cao á?」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「Ừ, đúng đúng!」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Tớ cũng thấy nguy hiểm lắm...」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「Đến lính quèn như'
++		R
++		'bọn mình còn thấy nguy hiểm...'
++		\L_069ed:
++		ZH 1:
++		'thì Tiến sĩ Maria không thể'
++		R
++		'nào không nhận ra nhỉ...?」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Tớ cũng nghĩ thế... nhưng mà......」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 2「Tớ nghe đứa khác kể... hình như Bệ'
++		R
++		'hạ Rance kỳ vọng vào cái mạch đó ghê lắm...」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「À... thế nên muốn'
++		R
++		'dừng cũng không dừng được...」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 2「Thì thế... nhưng nguy hiểm'
++		R
++		'lắm. Chẳng biết lúc nào nổ nữa...」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Đúng nhỉ...'
++		\L_069ed:
++		ZH 1:
++		'Tiến sĩ Maria không góp ý'
++		R
++		'với Bệ hạ Rance được à...?」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「...Hay là góp ý xong lại'
++		R
++		'bị bảo "Nghe theo cô cũng được,'
++		\L_069ed:
++		ZH 1:
++		'cho ta làm một phát đã", nên không muốn chăng...」'
++		\L_069ed:
++		ZH 1:
++		'Các cô gái「Kyahahaha!! Biết đâu là thế thật!」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「......Nhưng mà......」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 2「Ừ nhỉ... nguy hiểm'
++		R
++		'thì... tớ không thích đâu...」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Muốn nghỉ lắm... nhưng'
++		R
++		'đâu thể bỏ Tiến sĩ Maria lại...'
++		\L_069ed:
++		ZH 1:
++		'khổ ghê...'
++		\L_069ed:
++		ZH 1:
++		'thật tình...」'
+ 		\L_069ed:
+ 		ZH 1:
+ 		'Rance（............）'
+ 		\L_069ed:
+ 		ZH 1:
+-		'Rance（???'
+-		\L_069ed:
+-		ZH 1:
+-		'Rance（Ý họ là sao, nguy hiểm quá…?'
+-		R
+-		'Maria chưa nói gì về chuyện đó...）'
+-		\L_069ed:
+-		ZH 1:
+-		'Rance（Hmmmmm... Không biết có'
+-		R
+-		'chuyện gì xảy ra không nhỉ...）'
+-		\L_069ed:
+-		ZH 1:
+-		'Rance rời đi trong khi đang suy nghĩ.'
++		'Rance（???）'
++		\L_069ed:
++		ZH 1:
++		'Rance（Thế là sao. Nguy hiểm'
++		R
++		'á... Maria có nói gì đâu...）'
++		\L_069ed:
++		ZH 1:
++		'Rance（Ưmmmm...... tính sao đây...）'
++		\L_069ed:
++		ZH 1:
++		'Rance vừa suy tính vừa rời khỏi chỗ đó.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		!VAR0516 : 0!
+@@ -5846,79 +5554,71 @@
+ 	{(VAR0428 > 5) * (VAR0000 = 1) * (VAR0430 = 0):
+ 		!VAR0430 : 1!
+ 		ZH 1:
+-		'Cô gái 1 「Này, cậu đã nghe nói về bác sĩ Maria'
+-		R
+-		'chưa?」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「Rõ ràng là nàng định đi trên chiếc'
+-		R
+-		'Tulip 100.」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 2 「Ồ,」 thật sao?'
+-		\L_069ed:
+-		ZH 1:
+-		'Chẳng phải trước tiên chúng ta định'
+-		\L_069ed:
+-		ZH 1:
+-		'cho Hanny cưỡi nó như một cuộc thử nghiệm sao?」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Ừ, và cơ hội quay trở lại thành công'
+-		R
+-		'chỉ trong 0,03%...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「Ừ...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Tôi thắc mắc tại sao cô lại muốn làm điều đó.'
+-		\L_069ed:
+-		ZH 1:
+-		'Nếu là tôi, tôi sẽ sợ không dám cưỡi nó...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 2 「Có lẽ nàng đã có một trái tim tan'
+-		R
+-		'vỡ...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Hả...? Nhưng bác sĩ Maria, cậu biết'
+-		R
+-		'đấy, như thế này với King Rance.」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「Kyaaah! Đừng chạm vào tôi như thế nữa!'
+-		R
+-		'Thật bẩn thỉu!」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Ồ, thôi nào!」'
+-		\L_069ed:
+-		ZH 1:
+-		'Rance（Maria sẽ lái chiếc Tulip 100?'
+-		R
+-		'Ý nghĩa của việc này là gì?）'
+-		\L_069ed:
+-		ZH 1:
+-		'Rance（Nó chỉ có 0,03% cơ hội quay trở lại...'
+-		\L_069ed:
+-		ZH 1:
+-		'Nếu là tôi,'
+-		\L_069ed:
+-		ZH 1:
+-		'tôi sẽ giống như những'
+-		R
+-		'cô gái này và không làm điều'
+-		\L_069ed:
+-		ZH 1:
+-		'đó...) Rance（Cô muốn chết cùng với thứ cô tạo ra'
+-		R
+-		'nhiều đến vậy sao??）'
+-		\L_069ed:
+-		ZH 1:
+-		'Rance nghĩ thầm khi rời đi.'
++		'Cô gái 1「Này, biết chưa? Tiến sĩ Maria ấy...」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「hình như định tự'
++		R
++		'mình ngồi lên Tulip 100 đấy」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 2「Hả, thật á?'
++		\L_069ed:
++		ZH 1:
++		'Chẳng phải ban đầu định cho Hanny'
++		\L_069ed:
++		ZH 1:
++		'ngồi để thử nghiệm sao?」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Đúng thế, cái đó... xác suất'
++		R
++		'quay về thành công chỉ có 0,03%...」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「Ừ...'
++		\L_069ed:
++		ZH 1:
++		'sao lại thế nhỉ.'
++		\L_069ed:
++		ZH 1:
++		'Là tớ thì sợ chẳng dám ngồi đâu...」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 2「Hay Tiến sĩ Maria thất tình...」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Hả... nhưng mà... Tiến sĩ Maria'
++		R
++		'là "cái này" của Bệ hạ Rance đấy, cái này」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「Kyaaa! Thôi đi, cái'
++		R
++		'ngón tay ấy! Thô thiển quá!」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Ơơ, thì đúng thế mà!」'
++		\L_069ed:
++		ZH 1:
++		'Rance（Maria định ngồi Tulip 100? Thế là sao??）'
++		\L_069ed:
++		ZH 1:
++		'Rance（Muốn ngồi cái thứ xác suất quay về 0,03%...'
++		\L_069ed:
++		ZH 1:
++		'là ta thì'
++		\L_069ed:
++		ZH 1:
++		'cũng như mấy cô này, nhất định'
++		\L_069ed:
++		ZH 1:
++		'không đời nào...） Rance（Muốn chết chung'
++		R
++		'với thứ mình làm ra tới vậy sao??）'
++		\L_069ed:
++		ZH 1:
++		'Rance vừa suy nghĩ mãi vừa rời khỏi chỗ đó.'
+ 		\L_069ed:
+ 		\L_069e0:
+ 		!VAR0516 : 0!
+@@ -5929,73 +5629,67 @@
+ 	{VAR0000 = 1:
+ *L_064a3:
+ 		ZH 1:
+-		'Rance（Ừm. Những thứ gợi cảm.'
+-		R
+-		'Guhehehehehehehehehe heheh.）'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「Aaah, hôm nay tôi hơi mệt.」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 2 「Ừ, tôi cũng vậy. Muốn đi ăn nhà hàng'
+-		R
+-		'hay gì đó trên đường về nhà không?」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Tôi muốn đến'
+-		R
+-		'vườn bia. Một cốc bia lạnh,」'
+-		\L_069ed:
+-		ZH 1:
+-		'ngon chỉ là thứ dành cho ngươi khi ngươi kiệt'
+-		R
+-		'sức...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「Cái gì?!'
+-		R
+-		'Tôi muốn đặt một suất bánh ở quán cà phê.」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 2 「Tôi muốn uống rượu sake nóng ở quán'
+-		R
+-		'yakitori...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「Chắc chắn là không muốn điều đó.」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Tôi cũng vậy.」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 2 「Cái gì, tại sao?!」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Chúng ta sẽ đến quán bia!」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「Bánh, bánh, bánh!!」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 2 「Được rồi...'
+-		R
+-		'Hãy chơi trò oẳn tù tì để quyết định!」'
+-		\L_069ed:
+-		ZH 1:
+-		'Các cô gái 「Rooock, paaaper, kéo!」'
+-		\L_069ed:
+-		ZH 1:
+-		'Rance（Ta đoán con gái cũng làm được rất nhiều'
+-		R
+-		'việc.'
+-		\L_069ed:
+-		ZH 1:
+-		'Đây là một kinh nghiệm học tập tốt.'
+-		\L_069ed:
+-		ZH 1:
+-		'Phải viết cái này ra...) Rance ghi chép khi rời'
+-		R
+-		'khỏi tòa nhà.'
++		'Rance（Ừm. Sướng rơn khoái'
++		R
++		'tỉ. Khư khư khư khư khư khư）'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「Aa, hôm nay sao mệt ghê」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 2「Ừ, công nhận. À phải,'
++		R
++		'hôm nay ghé đâu chơi không?」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Thế thì tớ chọn vườn bia.'
++		R
++		'Đang mệt mà làm cốc lạnh ừng ực'
++		\L_069ed:
++		ZH 1:
++		'thì đã phải biết......」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「Hảaa! Tớ đang tính đi'
++		R
++		'quán cà phê ăn set bánh ngọt cơ」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 2「Tớ thì quán yakitori'
++		R
++		'với rượu sake hâm nóng......」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「Cái đó thì không đời nào」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Tớ cũng thế」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 2「Ơ, sao thế, sao thếee!」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Nhất định phải quán bia!」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「Bánh, bánh, bánh!!」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 2「Được... vậy oẳn tù tì đi!」'
++		\L_069ed:
++		ZH 1:
++		'Các cô gái「Oẳn tùuu tìii!」'
++		\L_069ed:
++		ZH 1:
++		'Rance（Con gái cũng lắm chuyện ghê.'
++		\L_069ed:
++		ZH 1:
++		'Ừm, học được điều hay đấy.'
++		\L_069ed:
++		ZH 1:
++		'Ghi ghi chép chép...） Rance vừa'
++		R
++		'ghi chép vừa rời khỏi chỗ đó.'
+ 		\L_069ed:
+ 		{VAR0520 = 300:
+ 			%0:
+@@ -6003,171 +5697,161 @@
+ 	}
+ 	{VAR0000 = 2:
+ 		ZH 1:
+-		'Cô gái 2 「Vậy hôm nay Fukuda, người bảo vệ đó, đã'
+-		R
+-		'hẹn hò với tôi.」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「Thật sao?!! Điều đó thật tuyệt...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「... Chắc mắt cậu có vấn đề rồi.」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「Hả...? Tôi'
+-		R
+-		'nghĩ Fukuda trông khá bình'
+-		R
+-		'thường. Thế là đủ rồi...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Khi còn trẻ, cậu có thể dám đặt mục'
+-		R
+-		'tiêu cao hơn thế.」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Cậu thậm chí có thể nói đây'
+-		\L_069ed:
+-		ZH 1:
+-		'là lần duy nhất cậu có'
+-		R
+-		'thể nhắm mục tiêu cao hơn.」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 2 「Đó là một lý thuyết khá khắc nghiệt'
+-		R
+-		'...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Vậy cậu có định có cậu trai không?」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Cá nhân tôi không thực sự quan tâm đến'
+-		R
+-		'việc có được một cái!」'
+-		\L_069ed:
+-		ZH 1:
+-		'Các cô gái 「Kyaaaaaaah! Ahahahaha!」'
+-		\L_069ed:
+-		ZH 1:
+-		'Rance(...'
+-		\L_069ed:
+-		ZH 1:
+-		'Ta biết các cô gái nói'
+-		R
+-		'xấu sau lưng các chàng trai,'
+-		\L_069ed:
+-		ZH 1:
+-		'nhưng ta thấy phát ngán khi xem nó...)) Rance xoa'
+-		R
+-		'bụng khi rời khỏi tòa nhà.'
++		'Cô gái 2「Hôm nay ấy, cậu Fukuda'
++		R
++		'bảo vệ bảo muốn hẹn hò với tớ」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「Hảaaa!! Thích thế......」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「......Gu thẩm mỹ'
++		R
++		'của cậu hỏng chỗ nào rồi à?」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「Ơ... nhưng cậu Fukuda bình'
++		R
++		'thường mà. Tớ thấy được đấy chứ......」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Còn trẻ thì được'
++		R
++		'phép kén chọn cao hơn chứ」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Nói ngược lại thì,'
++		\L_069ed:
++		ZH 1:
++		'chỉ lúc còn trẻ mới kén chọn cao được thôi」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 2「Lý thuyết đấy cũng phũ ghê...」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Thế nên cậu...'
++		R
++		'mới không có bạn trai à?」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Chuyện của tớ thì kệ tớ điii!」'
++		\L_069ed:
++		ZH 1:
++		'Các cô gái「Kyaaa! Ahahaha!」'
++		\L_069ed:
++		ZH 1:
++		'Rance（......'
++		\L_069ed:
++		ZH 1:
++		'Con gái nói xấu đàn ông sau lưng'
++		R
++		'thậm tệ thế à... biết rồi nhưng...'
++		\L_069ed:
++		ZH 1:
++		'cảnh này nhìn mà đau cả dạ dày...）'
++		R
++		'Rance xoa xoa bụng, rời khỏi chỗ đó.'
+ 		\L_069ed:
+ 	}
+ 	{VAR0000 = 3:
+ 		ZH 1:
+-		'Cô gái 2 「Này, cậu đã đọc bài báo hôm nay chưa?」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Ừ, cậu đang nói về quảng cáo giảm giá'
+-		R
+-		'à?」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 2 「Ừ!'
+-		R
+-		'Giảm giá 60% cho các mặt hàng hàng hiệu...'
+-		\L_069ed:
+-		ZH 1:
+-		'Cứ như một giấc mơ vậy...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「Tôi muốn đi...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 2 「Vậy hôm nay chúng ta có nên đi không?」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Chắc chắn rồi...'
+-		R
+-		'Chúng ta có thể đi uống nước sau đó.」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 2 「À, tôi thích đi chơi bowling hơn thế.」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「Auto tennis sẽ rất tuyệt...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Sau một ngày làm việc vất vả và tiêu'
+-		\L_069ed:
+-		ZH 1:
+-		'tốn nhiều năng lượng hơn,」'
+-		R
+-		'làm sao cậu có thể tập thể dục?!」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Ngoài ra, nếu chúng ta đến quán bar,'
+-		\L_069ed:
+-		ZH 1:
+-		'ngay cả khi chúng ta hết'
+-		R
+-		'tiền,」 miễn là có một nhóm'
+-		\L_069ed:
+-		ZH 1:
+-		'con trai đến thì chúng'
+-		R
+-		'ta có thể bắt họ trả tiền.」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「Anh lúc nào cũng tham lam khi tiết kiệm'
+-		R
+-		'tiền uống rượu...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Chà, dù sao thì họ cũng chỉ đến với hy'
+-		R
+-		'vọng gặp được con gái thôi mà...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Vậy nên tôi đang chôn vùi nỗi cô đơn'
+-		R
+-		'của họ. Đó là 50/50.」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Ngoài ra,」 những người tôi thường làm'
+-		R
+-		'việc này đều là những người'
+-		\L_069ed:
+-		ZH 1:
+-		'lớn tuổi hơn và có rất nhiều tiền,'
+-		\L_069ed:
+-		ZH 1:
+-		'nên tôi không thực sự cảm thấy tệ đâu.」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 2 「Tôi muốn thử làm điều đó...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Vậy thì quyết định rồi! Đi uống nào!」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「Tôi-tôi sẽ vượt qua...」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 3 「Ồ, thôi nào. Hãy đến khu mua sắm giá'
+-		R
+-		'hời rồi đi uống rượu nhé.」'
+-		\L_069ed:
+-		ZH 1:
+-		'Cô gái 1 「Kyaaaah, kyaaaaaah!」'
+-		\L_069ed:
+-		ZH 1:
+-		'Rance(... Con gái có thể khá đáng sợ...)'
+-		\L_069ed:
+-		ZH 1:
+-		'Rance bị đẩy đến giới hạn của tư duy triết học khi'
+-		R
+-		'rời khỏi tòa nhà.'
++		'Cô gái 2「Này, đọc báo sáng nay chưa?」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「À, quảng cáo giảm giá ấy hả?」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 2「Đúng đúng! Đồ hiệu giảm 60%...'
++		\L_069ed:
++		ZH 1:
++		'như mơ ấy...」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「Tớ muốn đi ghê......」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 2「Thế hôm nay ghé luôn nhé?」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Ừ nhỉ... thế xong rồi đi nhậu đi」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 2「Ứ, thà đi bowling còn hơn」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「Tennis máy thích hơn...」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Làm việc mệt rã rời,'
++		R
++		'lại đi săn hàng giảm giá tốn sức,'
++		\L_069ed:
++		ZH 1:
++		'xong còn vận động thì chịu sao nổi!」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Mà... dù có cháy túi,'
++		\L_069ed:
++		ZH 1:
++		'ra quán nhậu câu được nhóm con trai nào'
++		\L_069ed:
++		ZH 1:
++		'thì cũng dúi hóa đơn cho họ được còn gì」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「Vẫn trò ma mãnh để'
++		R
++		'khỏi trả tiền nhậu nhỉ~...」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Ơ, bên kia cũng có ý đồ'
++		R
++		'muốn làm quen con gái mà......」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Mình lấp nỗi cô đơn ấy'
++		R
++		'cho họ còn gì. Fifty-fifty mà」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Hơn nữa, mấy người'
++		R
++		'tới bắt chuyện kiểu đó'
++		\L_069ed:
++		ZH 1:
++		'thường là mấy ông chú kiếm khá cả...'
++		\L_069ed:
++		ZH 1:
++		'nên lương tâm cũng chẳng cắn rứt mấy」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 2「Tớ... cũng muốn'
++		R
++		'thử trải nghiệm kiểu đó...」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Quyết rồi! Đi nhậu thôiii!」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「A... tớ... thôi khỏi...」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 3「Nói gì thế. Nào, đi'
++		R
++		'săn giảm giá, rồi đi nhậu」'
++		\L_069ed:
++		ZH 1:
++		'Cô gái 1「Kyaaa kyaaa!」'
++		\L_069ed:
++		ZH 1:
++		'Rance（......Đàn bà... lẽ'
++		R
++		'nào là sinh vật đáng sợ...?）'
++		\L_069ed:
++		ZH 1:
++		'Rance thả suy nghĩ bay tới tận cõi'
++		R
++		'triết học, rồi rời khỏi chỗ đó.'
+ 		\L_069ed:
+ 	}
+ 	\L_069e0:

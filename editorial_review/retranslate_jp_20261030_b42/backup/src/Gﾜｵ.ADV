@@ -1,0 +1,1124 @@
+	J0 640, 0:
+	G 378:
+	J0 640, 0:
+	G 379:
+	J0 640, 0:
+	G 380:
+	J0 640, 0:
+	G 381:
+	J0 640, 0:
+	G 382:
+	J0 640, 0:
+	G 383:
+	J0 640, 0:
+	G 394:
+	J0 640, 0:
+	G 396:
+	{VAR0775 = 0:
+		!VAR0516 : 380!
+		\L_016a0:
+		\L_0164c:
+		ZH 1:
+		'Chào Rance. Mừng cậu đến'
+		R
+		'gian hàng của WAO.'
+		\L_01771:
+		\L_01764:
+		!VAR0516 : 1!
+		\L_01710:
+		\L_016bc:
+		ZH 1:
+		'Tên này kỳ quặc thật. Nét vẽ'
+		R
+		'của mỗi mình hắn còn khác'
+		R
+		'hẳn mọi người nữa.'
+		\L_01771:
+		\L_01764:
+		\L_0164c:
+		ZH 1:
+		'Tôi không kỳ quặc. Tôi là'
+		R
+		'lập trình viên cơ.'
+		\L_01771:
+		ZH 1:
+		'Mà chuyện đó chẳng liên'
+		\L_01771:
+		ZH 1:
+		'quan gì cả.'
+		\L_01771:
+		ZH 1:
+		'Thôi, nói dài dòng rắc rối'
+		R
+		'lắm, tôi tự chốt luôn vậy.'
+		\L_01771:
+		ZH 1:
+		'Này!'
+		\L_01771:
+		\L_01764:
+		\L_0171e:
+		!VAR0516 : 383!
+		\L_01710:
+		\L_016bc:
+		ZH 1:
+		'Ááá! Lây sang cả ta rồi này!'
+		\L_01771:
+		\L_01764:
+		\L_016ae:
+		!VAR0516 : 381!
+		\L_016a0:
+		\L_0164c:
+		ZH 1:
+		'Hừ hừ hừ...'
+		\L_01771:
+		\L_01764:
+		\L_016ae:
+		\L_0171e:
+		!VAR0775 : 2!
+		@L_004ed:
+	}
+	!VAR0516 : 381!
+	\L_016a0:
+	\L_0164c:
+	ZH 1:
+	'Chào Rance. Mừng cậu đến'
+	R
+	'gian hàng của WAO.'
+	\L_01771:
+	\L_01764:
+	!VAR0516 : 383!
+	\L_01710:
+	\L_016d8:
+	ZH 1:
+	'Đây là lần thứ'
+	H 0, VAR0775:
+	ZH 1:
+	'ta ghé thăm.'
+	\L_01771:
+	ZH 1:
+	'Sao ta lại đến đây những'
+	H 0, VAR0775:
+	ZH 1:
+	'lần cơ chứ?'
+	\L_01771:
+	\L_01764:
+	{VAR0775 / 10 * 10 = VAR0775:
+		\L_0164c:
+		ZH 1:
+		'Huhahahahahahahaha.'
+		\L_01771:
+		\L_01771:
+		\L_01771:
+		\L_01771:
+		ZH 1:
+		'Huhahahahahahahaha.'
+		\L_01771:
+		ZH 1:
+		'Hehahahahahahahaha.'
+		\L_01771:
+		ZH 1:
+		'Huhahahahahahahaha.'
+		\L_01771:
+		\L_01771:
+		\L_01771:
+		\L_01771:
+		ZH 1:
+		'Huhahahahahahahaha.'
+		\L_01771:
+		ZH 1:
+		'Hehahahahahahahaha.'
+		\L_01771:
+		ZH 1:
+		'Hôhahahahahahaha.'
+		\L_01771:
+	}
+	{VAR0775 / 5 * 5 = VAR0775:
+		\L_0164c:
+		ZH 1:
+		'Chúc mừng lần ghé thăm thứ'
+		H 0, VAR0775:
+		ZH 1:
+		'của cậu!'
+		\L_01771:
+		Y 4, 10:
+		{VAR0000 = 1:
+			ZH 1:
+			'Uống Sauternes trắng này'
+		}
+		{VAR0000 = 2:
+			ZH 1:
+			'Uống rượu sake này'
+		}
+		{VAR0000 = 3:
+			ZH 1:
+			'Uống Margarita này'
+		}
+		{VAR0000 = 4:
+			ZH 1:
+			'Uống Gimlet này'
+		}
+		{VAR0000 = 5:
+			ZH 1:
+			'Uống vang trắng rẻ tiền này'
+		}
+		{VAR0000 = 6:
+			ZH 1:
+			'Uống canh miso này'
+		}
+		{VAR0000 = 7:
+			ZH 1:
+			'Uống nước trái cây nóng này'
+		}
+		{VAR0000 = 8:
+			ZH 1:
+			'Uống nước tiểu này'
+		}
+		{VAR0000 = 9:
+			ZH 1:
+			'Nuốt nghìn cây kim này'
+		}
+		{VAR0000 = 10:
+			ZH 1:
+			'Uống cáu móng tay này'
+		}
+		ZH 1:
+		R
+		'rồi cùng nhảy múa thâu đêm'
+		R
+		'nào. Này, tôi đã chuẩn bị'
+		R
+		'sẵn hết rồi đấy.'
+		\L_01771:
+		\L_01764:
+		\L_016d8:
+		ZH 1:
+		'Ồ, hắn đếm kỹ từng lần ta'
+		R
+		'đến'
+		\L_01771:
+		ZH 1:
+		'cơ à? Lại còn chuẩn bị sẵn'
+		R
+		'nữa...'
+		\L_01771:
+		ZH 1:
+		'Đúng là đồ ngốc.'
+		\L_01771:
+		ZH 1:
+		'Không, là quá rảnh...'
+		\L_01771:
+		ZH 1:
+		'Khoan đã.'
+		\L_01771:
+		ZH 1:
+		'Biết đâu hắn giả ngốc để'
+		R
+		'theo dõi đất'
+		\L_01771:
+		ZH 1:
+		'nước của ta. Phải đề phòng'
+		\L_01771:
+		ZH 1:
+		'mới được...'
+		\L_01771:
+		ZH 1:
+		'Mà ở cạnh hắn, ta cứ bị cuốn'
+		R
+		'theo đến loạn cả lên.'
+		\L_01771:
+		ZH 1:
+		'Lúc này chuyện đó còn đáng'
+		R
+		'lo hơn.'
+		\L_01771:
+		\L_01764:
+	}
+	\L_016ae:
+	\L_0171e:
+	!VAR0775 : VAR0775 + 1!
+	@L_004ed:
+*L_004ed:
+	IM VAR0202, VAR0203:
+	{VAR0000:
+		@L_004ed:
+	}
+	ZH 1:
+	$L_006a6$
+	'Chỉ cần nói chuyện'
+	$
+	R
+	$L_006fd$
+	'Những điều thú vị'
+	$
+	R
+	$L_00a64$
+	'Thời gian hiện tại'
+	$
+	R
+	$L_00d51$
+	'Linh vật'
+	$
+	R
+	$L_01094$
+	'Công việc'
+	$
+	R
+	$L_005f4$
+	'Mất trí nhớ'
+	$
+	R
+	$L_0056c$
+	'Đùa giỡn'
+	$
+	]
+	@L_004ed:
+*L_0056c:
+	!VAR0516 : 383!
+	\L_01710:
+	\L_016bc:
+	ZH 1:
+	'Derude.'
+	\L_01771:
+	\L_01764:
+	!VAR0516 : 381!
+	\L_016a0:
+	\L_0164c:
+	ZH 1:
+	'Ruderu.'
+	\L_01771:
+	\L_01764:
+	\L_0164c:
+	ZH 1:
+	'Porupo.'
+	R
+	\L_016bc:
+	ZH 1:
+	'Porupo.'
+	\L_01771:
+	\L_01764:
+	\L_0165a:
+	\L_01764:
+	\L_016ae:
+	\L_0171e:
+	%0:
+*L_005f4:
+	!VAR0516 : 383!
+	\L_01710:
+	!VAR0516 : 381!
+	\L_016a0:
+	\L_016bc:
+	ZH 1:
+	'Mấy lựa chọn khó hiểu này là'
+	R
+	'sao?'
+	\L_01771:
+	\L_01764:
+	\L_0164c:
+	ZH 1:
+	'Đààà! Tôi xóa hết rồi, chỉ'
+	R
+	'giữ lại số lần cậu đến đây'
+	R
+	'thôi.'
+	\L_01771:
+	\L_01764:
+	\L_016bc:
+	ZH 1:
+	'...??'
+	\L_01771:
+	\L_01764:
+	!VAR0494 : 0!
+	!VAR0495 : 0!
+	!VAR0496 : 0!
+	!VAR0497 : 0!
+	!VAR0498 : 0!
+	!VAR0794 : 0!
+	\L_016ae:
+	\L_0171e:
+	@L_004ed:
+*L_006a6:
+	!VAR0516 : 383!
+	\L_01710:
+	!VAR0516 : 381!
+	\L_016a0:
+	\L_016bc:
+	ZH 1:
+	'Này, nói chuyện gì đó đi.'
+	\L_01771:
+	\L_01764:
+	\L_0164c:
+	ZH 1:
+	'Hừ...'
+	\L_01771:
+	\L_01764:
+	\L_016ae:
+	\L_0171e:
+	@L_004ed:
+*L_006fd:
+	{VAR0495 = 0:
+		!VAR0516 : 383!
+		\L_01710:
+		!VAR0516 : 381!
+		\L_016a0:
+		\L_016bc:
+		ZH 1:
+		'Này, sao chỉ'
+		\L_01771:
+		ZH 1:
+		'mình ngươi có nét vẽ kiểu'
+		R
+		'manga thiếu nữ yaoi, rồi còn'
+		R
+		'lây sang cả ta nữa hả?'
+		\L_01771:
+		\L_01764:
+		\L_0164c:
+		ZH 1:
+		'Đó là...'
+		\L_01771:
+		ZH 1:
+		'Đó là...'
+		\L_01771:
+		ZH 1:
+		'Đó là...'
+		\L_01771:
+		ZH 1:
+		'Bí...'
+		Y 3, 40:
+		ZH 1:
+		'mật...'
+		Y 3, 40:
+		ZH 1:
+		'nhé!'
+		Y 3, 40:
+		\L_01214:
+		Y 3, 40:
+		\L_01764:
+		\L_016bc:
+		ZH 1:
+		'Áááááááá!'
+		\L_01771:
+		ZH 1:
+		'Áááááááááá!'
+		\L_01771:
+		\L_01764:
+		\L_016ae:
+		\L_0171e:
+		!VAR0495 : 1!
+		@L_00a5f:
+	}
+	{VAR0495 = 1:
+		!VAR0516 : 383!
+		\L_01710:
+		!VAR0516 : 381!
+		\L_016a0:
+		\L_016bc:
+		ZH 1:
+		'Ta đang hỏi sao nét vẽ của'
+		R
+		'ngươi trông ghê thế. Trả lời'
+		R
+		'đi.'
+		\L_01771:
+		\L_01764:
+		\L_0164c:
+		ZH 1:
+		'Tôi thử vẽ thế này để đáp'
+		R
+		'ứng nguyện'
+		\L_01771:
+		ZH 1:
+		'vọng của cả mười lăm fan nữ'
+		R
+		'trên toàn quốc.'
+		\L_01771:
+		ZH 1:
+		'Chẳng có gì để chê'
+		\L_01771:
+		ZH 1:
+		'nhỉ. Nhưng... còn kiểu khác'
+		R
+		'nữa cơ.'
+		\L_01771:
+		\L_01764:
+		\L_016ae:
+		\L_0171e:
+		!VAR0516 : 378!
+		\L_01748:
+		!VAR0516 : 383!
+		\L_01710:
+		!VAR0516 : 381!
+		\L_016a0:
+		\L_0164c:
+		ZH 1:
+		'Còn cả kiểu này nữa. Đẹp'
+		R
+		'nhỉ?'
+		\L_01771:
+		\L_01764:
+		\L_016bc:
+		ZH 1:
+		'Chẳng đẹp chút nào.'
+		\L_01771:
+		\L_01764:
+		\L_016ae:
+		\L_0171e:
+		\L_01756:
+		!VAR0516 : 383!
+		\L_01710:
+		!VAR0516 : 381!
+		\L_016a0:
+		\L_0164c:
+		ZH 1:
+		'Hu hu...'
+		\L_01771:
+		\L_01764:
+		\L_016ae:
+		\L_0171e:
+		!VAR0495 : 2!
+		@L_00a5f:
+	}
+	{VAR0495 = 2:
+		!VAR0516 : 383!
+		\L_01710:
+		!VAR0516 : 381!
+		\L_016a0:
+		\L_016bc:
+		ZH 1:
+		'Ta đang hỏi sao nét vẽ của'
+		R
+		'ngươi trông ghê thế. Trả lời'
+		R
+		'đi.'
+		\L_01771:
+		\L_01764:
+		\L_0164c:
+		ZH 1:
+		'Đó là.........'
+		IK 0:
+		Y 3, 40:
+		\L_01352:
+		Y 3, 50:
+		\L_0177e:
+		\L_01764:
+		\L_016bc:
+		ZH 1:
+		'Áááááááá!'
+		\L_01771:
+		ZH 1:
+		'Áááááááááá!'
+		\L_01771:
+		\L_01764:
+		!VAR0495 : 3!
+		@L_00a5f:
+	}
+	{VAR0495 = 3:
+		!VAR0516 : 383!
+		\L_01710:
+		!VAR0516 : 381!
+		\L_016a0:
+		\L_016bc:
+		ZH 1:
+		'Ta đang hỏi sao nét vẽ của'
+		R
+		'ngươi trông ghê thế. Trả lời'
+		R
+		'đi.'
+		\L_01771:
+		\L_01764:
+		\L_0164c:
+		ZH 1:
+		'Đó là.........'
+		\L_01771:
+		\L_01214:
+		\L_01764:
+		\L_016ae:
+		\L_0171e:
+		!VAR0495 : 2!
+		@L_00a5f:
+	}
+*L_00a5f:
+	@L_004ed:
+*L_00a64:
+	!VAR0516 : 383!
+	\L_01710:
+	!VAR0516 : 381!
+	\L_016a0:
+	\L_016bc:
+	ZH 1:
+	'Này, mấy giờ rồi? Trả lời'
+	R
+	'đi.'
+	\L_01771:
+	\L_01764:
+	\L_0164c:
+	CC 0, 0, 640, 200, 0, 400 + 200:
+	!VAR0028 : 99!
+	B3 7, 235, 8 + 400, 378, 141, 0:
+	B4 7, 0, 0, 0, 1, 0:
+*L_00ad3:
+	ZT0 VAR0021:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_00d1d:
+	}
+	{VAR0026 = VAR0028:
+		@L_00ad3:
+	}
+	!VAR0028 : VAR0026!
+	MH 1, 4, VAR0021:
+	MH 2, 2, VAR0022:
+	MH 3, 2, VAR0023:
+	MH 4, 2, VAR0024:
+	MH 5, 2, VAR0025:
+	MH 6, 2, VAR0026:
+	{VAR0027 = 0:
+		ZH 1:
+		MS 7, "Chủ nhật":
+	}
+	{VAR0027 = 1:
+		ZH 1:
+		MS 7, "Thứ hai":
+	}
+	{VAR0027 = 2:
+		ZH 1:
+		MS 7, "Thứ ba":
+	}
+	{VAR0027 = 3:
+		ZH 1:
+		MS 7, "Thứ tư":
+	}
+	{VAR0027 = 4:
+		ZH 1:
+		MS 7, "Thứ năm":
+	}
+	{VAR0027 = 5:
+		ZH 1:
+		MS 7, "Thứ sáu":
+	}
+	{VAR0027 = 6:
+		ZH 1:
+		MS 7, "Thứ bảy":
+	}
+	ZH 1:
+	MS 8, "/":
+	R
+	MS 9, "/":
+	R
+	MS 10, " ":
+	R
+	MS 11, ":":
+	R
+	MS 12, ":":
+	R
+	MS 13, "":
+	R
+	MS 14, "（":
+	R
+	MS 15, "）":
+	R
+	MS 16, "":
+	MA 1, 8:
+	MA 1, 2:
+	MA 1, 9:
+	MA 1, 3:
+	MA 1, 10:
+	MA 1, 14:
+	MA 1, 7:
+	MA 1, 16:
+	MA 1, 15:
+	MA 4, 11:
+	MA 4, 5:
+	MA 4, 12:
+	MA 4, 6:
+	MA 4, 13:
+	CC 0, 400 + 200, 640, 200, 0, 400:
+	Y 1, 1:
+	ZH 1:
+	'Để xem nào...'
+	R
+	ZM 8:
+	ZH 1:
+	R
+	ZM 16:
+	ZH 1:
+	'Ngày:'
+	X 1:
+	R
+	'Giờ:'
+	X 4:
+	ZM 8:
+	ZH 1:
+	R
+	ZM 24:
+	ZH 1:
+	CC 0, 400, 640, 200, 0, 0:
+	@L_00ad3:
+*L_00d1d:
+	\L_01764:
+	\L_016bc:
+	ZH 1:
+	'Ááá! Chi li quá mức rồi!'
+	\L_01771:
+	\L_01764:
+	\L_016ae:
+	\L_0171e:
+	@L_004ed:
+*L_00d51:
+	{VAR0794 = 0:
+		!VAR0516 : 381!
+		\L_016a0:
+		!VAR0516 : 383!
+		\L_01710:
+		\L_016bc:
+		ZH 1:
+		'Cái người bên kia là ai thế?'
+		\L_01771:
+		\L_01764:
+		\L_0171e:
+		!VAR0516 : 382!
+		\L_01710:
+		\L_0164c:
+		ZH 1:
+		'À, cô ấy là linh vật của'
+		R
+		'tôi. Tên là Suzu Kisugi,'
+		R
+		'thường gọi là Suzu.'
+		\L_01771:
+		\L_01764:
+		\L_016ae:
+		\L_0171e:
+		!VAR0516 : 382!
+		\L_016a0:
+		!VAR0516 : 383!
+		\L_01710:
+		\L_0164c:
+		ZH 1:
+		'Xin chào, tôi là Suzu. Rất'
+		R
+		'vui được gặp cậu, Rance.'
+		\L_01771:
+		\L_01764:
+		\L_016bc:
+		ZH 1:
+		'Ừ, ta rất dịu dàng với con'
+		R
+		'gái, cứ yên tâm.'
+		\L_01771:
+		\L_01764:
+		\L_0164c:
+		ZH 1:
+		'Huhahahahahahahahahahaha'
+		R
+		'hahahaha'
+		R
+		'hahahahahahahahahahahaha'
+		\L_01771:
+		ZH 1:
+		'hahahaha'
+		R
+		'hahahahahahahahahahahaha'
+		R
+		'hahahaha'
+		\L_01771:
+		ZH 1:
+		'hahahahaha'
+		\L_01771:
+		ZH 1:
+		'hahahahahahahahahahahaha.'
+		\L_01771:
+		\L_01764:
+		\L_016d8:
+		ZH 1:
+		'............'
+		\L_01771:
+		\L_01764:
+		\L_016ae:
+		\L_0171e:
+		!VAR0794 : 1!
+		@L_004ed:
+	}
+	{VAR0794 = 1:
+		!VAR0516 : 382!
+		\L_016a0:
+		!VAR0516 : 383!
+		\L_01710:
+		\L_016bc:
+		ZH 1:
+		'Em làm gì, Suzu?'
+		\L_01771:
+		\L_01764:
+		\L_0164c:
+		ZH 1:
+		'Nhìn là biết, tôi là vũ'
+		R
+		'công. Nhưng lần'
+		\L_01771:
+		ZH 1:
+		'này còn bị nhờ vẽ cả mấy'
+		R
+		'hình yaoi ấy nữa.'
+		\L_01771:
+		ZH 1:
+		'Ngượng lắm chứ...'
+		\L_01771:
+		\L_01764:
+		\L_016ae:
+		!VAR0516 : 381!
+		\L_016a0:
+		\L_0164c:
+		ZH 1:
+		'Trò làm người ta xấu hổ ấy'
+		R
+		'mà.'
+		\L_01771:
+		\L_01764:
+		\L_016ae:
+		!VAR0516 : 382!
+		\L_016a0:
+		\L_016bc:
+		ZH 1:
+		'............'
+		\L_01771:
+		\L_01764:
+		\L_016ae:
+		\L_0171e:
+		@L_004ed:
+	}
+	@L_004ed:
+	\L_01684:
+	!VAR0516 : 378!
+	\L_016a0:
+	ZH 1:
+	'ＣＧ'
+	H 0, VAR0516:
+	\L_01771:
+	!VAR0516 : 379!
+	\L_016a0:
+	ZH 1:
+	'ＣＧ'
+	H 0, VAR0516:
+	\L_01771:
+	!VAR0516 : 380!
+	\L_016a0:
+	ZH 1:
+	'ＣＧ'
+	H 0, VAR0516:
+	\L_01771:
+	!VAR0516 : 381!
+	\L_016a0:
+	ZH 1:
+	'ＣＧ'
+	H 0, VAR0516:
+	\L_01771:
+	!VAR0516 : 382!
+	\L_016a0:
+	ZH 1:
+	'ＣＧ'
+	H 0, VAR0516:
+	\L_01771:
+	!VAR0516 : 383!
+	\L_016a0:
+	ZH 1:
+	'ＣＧ'
+	H 0, VAR0516:
+	\L_01771:
+	!VAR0516 : 394!
+	\L_016a0:
+	ZH 1:
+	'ＣＧ'
+	H 0, VAR0516:
+	\L_01771:
+	!VAR0516 : 396!
+	\L_016a0:
+	ZH 1:
+	'ＣＧ'
+	H 0, VAR0516:
+	\L_01771:
+	\L_01764:
+	@L_004ed:
+	\L_01490:
+	@L_004ed:
+*L_01094:
+	!VAR0516 : 381!
+	\L_016a0:
+	!VAR0516 : 394!
+	\L_01710:
+	\L_01668:
+	ZH 1:
+	'Công việc của tôi là lập'
+	R
+	'trình.'
+	\L_01771:
+	ZH 1:
+	'Hầu hết phần nhận thao tác'
+	R
+	'của người'
+	\L_01771:
+	ZH 1:
+	'chơi đều do tôi làm. Mục'
+	R
+	'thống kê các số liệu trong'
+	\L_01771:
+	ZH 1:
+	'game cũng là tôi thích nên'
+	R
+	'thêm vào, nhưng làm giữa'
+	\L_01771:
+	ZH 1:
+	'chừng thì ngán quá, thành ra'
+	R
+	'dở dang. Nhắc mới nhớ,'
+	\L_01771:
+	ZH 1:
+	'đoạn phim mở đầu vẫn chưa'
+	R
+	'xong. Phải rồi, phần mở'
+	\L_01771:
+	ZH 1:
+	'đầu cũng do tôi phụ trách.'
+	\L_01771:
+	ZH 1:
+	'Đoạn hiện lúc khởi động là'
+	R
+	'phần dẫn truyện để giải'
+	R
+	'thích bối cảnh.'
+	\L_01771:
+	ZH 1:
+	'Còn phim mở đầu thực sự sẽ'
+	R
+	'nằm giữa chương đạo tặc và'
+	R
+	'chương quân phản loạn, thành'
+	\L_01771:
+	ZH 1:
+	'bố cục hai phần. Tôi để đoạn'
+	R
+	'mở đầu chạy theo sở thích'
+	\L_01771:
+	ZH 1:
+	'riêng quá mức, thấy có lỗi'
+	R
+	'với đội viết kịch bản nên'
+	\L_01771:
+	ZH 1:
+	'mới chọn cách đó. Né khéo'
+	R
+	'đấy chứ?'
+	\L_01771:
+	ZH 1:
+	'Hừ hừ...'
+	\L_01771:
+	\L_01764:
+	\L_0171e:
+	!VAR0516 : 382!
+	\L_01710:
+	\L_016bc:
+	ZH 1:
+	'Vâng.'
+	\L_01771:
+	\L_01764:
+	\L_0171e:
+	!VAR0516 : 383!
+	\L_01710:
+	\L_016bc:
+	ZH 1:
+	'...?'
+	\L_01771:
+	\L_01764:
+	\L_016ae:
+	\L_0171e:
+	@L_004ed:
+*L_01214:
+	CC 0, 0, 640, 400, 0, 400:
+	J1 640, 400:
+	G 396:
+	!VAR0021 : 0!
+	!VAR0022 : 16!
+	!VAR0023 : 640 - 16!
+*L_01241:
+	CC 0, 400 + 100, 640, 200, 640, 400 + 200:
+	CS 640 + VAR0021, 400, VAR0022, 200, 640 + VAR0023, 400 + 200, 40:
+	CC 640, 400, 640 - VAR0022, 200, 640, 400:
+	CC 640, 400 + 200, 640, 200, 0, 100:
+	Y 3, VAR0225:
+	!VAR0022 : VAR0022 + 16!
+	!VAR0023 : VAR0023 - 16!
+	{VAR0023 \ 0:
+		@L_01241:
+	}
+*L_012c7:
+	CC 0, 400 + 100, 640, 200, 640, 400 + 200:
+	CS 640 + VAR0021, 400, VAR0022, 200, 640 + VAR0023, 400 + 200, 40:
+	CC 640, 400, 640 - VAR0022, 200, 640, 400:
+	CC 640, 400 + 200, 640, 200, 0, 100:
+	Y 3, VAR0225:
+	!VAR0021 : VAR0021 + 16!
+	{VAR0022 \ 0:
+		!VAR0022 : VAR0022 - 16!
+		@L_012c7:
+	}
+	\0:
+*L_01352:
+	CC 0, 0, 640, 400, 0, 400:
+	J1 640, 400:
+	G 396:
+	!VAR0021 : 640 - 16!
+	!VAR0022 : 16!
+	!VAR0023 : 0!
+*L_0137f:
+	CC 0, 400 + 100, 640, 200, 640, 400 + 200:
+	CS 640 + VAR0021, 400, VAR0022, 200, 640 + VAR0023, 400 + 200, 40:
+	CC 640, 400, 640 - VAR0022, 200, 640, 400:
+	CC 640, 400 + 200, 640, 200, 0, 100:
+	Y 3, VAR0225:
+	!VAR0022 : VAR0022 + 16!
+	!VAR0021 : VAR0021 - 16!
+	{VAR0021 \ 0:
+		@L_0137f:
+	}
+*L_01405:
+	CC 0, 400 + 100, 640, 200, 640, 400 + 200:
+	CS 640 + VAR0021, 400, VAR0022, 200, 640 + VAR0023, 400 + 200, 40:
+	CC 640, 400, 640 - VAR0022, 200, 640, 400:
+	CC 640, 400 + 200, 640, 200, 0, 100:
+	Y 3, VAR0225:
+	!VAR0023 : VAR0023 + 16!
+	{VAR0022 \ 0:
+		!VAR0022 : VAR0022 - 16!
+		@L_01405:
+	}
+	\0:
+*L_01490:
+	CC 0, 0, 640, 400, 0, 400:
+	J1 640, 400:
+	G 396:
+	!VAR0021 : 16!
+	!VAR0022 : 16!
+	!VAR0023 : 192 - 16!
+	!VAR0024 : 208!
+*L_014c2:
+	CC 0, 400 + 208, 640, 192, 640, 400 + 208:
+	CS 640, 400, 640, VAR0022, 640, 400 + 208 + VAR0023, 40:
+	CC 640, 400, 640, 192 - VAR0022, 640, 400:
+	CC 640, 400 + 208, 640, 192, 0, 208:
+	Y 3, VAR0225:
+	!VAR0022 : VAR0022 + 16!
+	!VAR0023 : VAR0023 - 16!
+	{VAR0023 \ 0:
+		@L_014c2:
+	}
+*L_01546:
+	CC 0, 400 + VAR0024, 640, 192, 640, 400 + 208:
+	CS 640, 400, 640, 192, 640, 400 + 208, 40:
+	CC 640, 400 + 208, 640, 192, 0, 0 + VAR0024:
+	CC 0, 400 + 192 + VAR0024, 640, 16, 0, 192 + VAR0024:
+	Y 3, VAR0225:
+	{VAR0024 \ 0:
+		!VAR0024 : VAR0024 - 16!
+		@L_01546:
+	}
+*L_015c5:
+	CC 0, 400, 640, 192, 640, 400 + 208:
+	CS 640, 400 + VAR0021, 640, VAR0022, 640, 400 + 208 + VAR0023, 40:
+	CC 640, 400, 640, 192 - VAR0022, 640, 400:
+	CC 640, 400 + 208, 640, 192, 0, 0:
+	Y 3, VAR0225:
+	!VAR0021 : VAR0021 + 16!
+	{VAR0022 \ 0:
+		!VAR0022 : VAR0022 - 16!
+		@L_015c5:
+	}
+	\0:
+*L_0164c:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0165a:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01668:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01684:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+*L_016a0:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+*L_016ae:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+*L_016bc:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+*L_016d8:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01710:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0171e:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01748:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01756:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01764:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_01771:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+*L_0177e:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 3!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 4!
+	%#WAO_SUB.ADV:
+	\0:

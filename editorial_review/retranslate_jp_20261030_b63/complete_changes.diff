@@ -1,0 +1,4462 @@
+--- before/Gﾐｷ.ADV
++++ src/Gﾐｷ.ADV
+@@ -53,21 +53,18 @@
+ 	\L_06cbe:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Leazas'
++	'Thành Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Phòng của Ma'
+-	R
+-	'Vương Miki đang ngồi'
+-	R
+-	'căng thẳng trên ghế.'
+-	\L_06dab:
+-	ZH 1:
+-	'Hornet cũng ở đó như'
+-	R
+-	'thể để bảo vệ cô bé.'
++	'Phòng Ma Vương. Miki'
++	R
++	'căng thẳng ngồi trên ghế.'
++	\L_06dab:
++	ZH 1:
++	'Hornet ở bên, như'
++	R
++	'che chở cho cô bé.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cf6:
+@@ -94,7 +91,7 @@
+ 	\L_06d9e:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'... Ừ... em sợ...'
++	'... Vâng... Em sợ...'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -118,20 +115,20 @@
+ 	\L_06d9e:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Em... chưa quen'
++	'Em... Ừm... Chưa quen'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'với những chuyện như vậy...'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Ở Nhật Bản, em chỉ là một cô'
+-	R
+-	'gái bình'
+-	\L_06dab:
+-	ZH 1:
+-	'thường. Chưa từng có ai hầu'
+-	R
+-	'hạ em cả...'
++	'Ở Nhật Bản, em chỉ là'
++	R
++	'một cô gái bình thường...'
++	\L_06dab:
++	ZH 1:
++	'Chưa từng có ai cung'
++	R
++	'kính hầu hạ em cả...'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Nên khi chị Hornet nói như'
+@@ -180,7 +177,7 @@
+ 	\L_06d9e:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Đ-Được rồi...'
++	'V... Vâng...'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -195,35 +192,33 @@
+ 	\L_06d9e:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Ngài là một tồn tại quan'
+-	R
+-	'trọng đến thế với thế giới'
+-	R
+-	'này.'
+-	\L_06dab:
+-	ZH 1:
+-	'Xin hãy chuẩn bị tinh thần.'
+-	R
+-	'Thời bình thì khác, nhưng'
+-	R
+-	'giờ chúng ta đang'
+-	\L_06dab:
+-	ZH 1:
+-	'chiến đấu với thần linh. Dù'
+-	R
+-	'chưa thức tỉnh, ngài'
+-	\L_06dab:
+-	ZH 1:
+-	'vẫn là Ma Vương. Sau này sẽ'
+-	R
+-	'còn nhiều lúc cần tới sức'
+-	R
+-	'mạnh của ngài.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'... Được rồi...'
++	'Ngài quan trọng đến'
++	R
++	'thế với thế giới này...'
++	\L_06dab:
++	ZH 1:
++	'Xin hãy chuẩn bị tinh'
++	R
++	'thần... Thời bình'
++	R
++	'thì khác, nhưng giờ'
++	\L_06dab:
++	ZH 1:
++	'chúng ta đang chống lại thần'
++	R
++	'linh. Dù chưa thức tỉnh,'
++	\L_06dab:
++	ZH 1:
++	'ngài vẫn là Ma Vương...'
++	R
++	'Sẽ còn nhiều lúc cần'
++	R
++	'sức mạnh của ngài.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'... Vâng...'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -239,25 +234,25 @@
+ 	\L_06c86:
+ 	ZH 1:
+ 	'Khi hòa bình trở lại...'
+-	R
+-	'chúng ta'
+-	\L_06dab:
+-	ZH 1:
+-	'hãy cùng trò chuyện những'
+-	R
+-	'chuyện con gái nhé...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'... Được rồi...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cbe:
+-	ZH 1:
+-	'Miki nhìn nụ cười dịu dàng'
+-	R
+-	'của Hornet và tự mỉm cười.'
++	\L_06dab:
++	ZH 1:
++	'chúng ta hãy vui'
++	R
++	'vẻ trò chuyện như'
++	R
++	'những cô gái nhé...'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'... Vâng...'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cbe:
++	ZH 1:
++	'Thấy Hornet mỉm cười dịu'
++	R
++	'dàng, Miki cũng nở nụ cười.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	!VAR0516 : 0!
+@@ -279,19 +274,18 @@
+ 	\L_06cbe:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Leazas'
++	'Thành Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Phòng yết kiến Rance đang'
+-	R
+-	'xem qua bộ sưu tập shell của'
+-	\L_06dab:
+-	ZH 1:
+-	'mình khi Maris điên'
+-	R
+-	'cuồng chạy đến chỗ hắn.'
++	'Điện yết kiến. Rance cười'
++	R
++	'ngắm bộ sưu tập vỏ sò'
++	\L_06dab:
++	ZH 1:
++	'thì Maris hốt'
++	R
++	'hoảng chạy đến.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cf6:
+@@ -305,23 +299,23 @@
+ 	\L_06d9e:
+ 	\L_06cbe:
+ 	ZH 1:
+-	'Maris đã báo cáo và'
+-	R
+-	'đưa cho Rance một lá thư.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Hả!? Miki đã'
+-	R
+-	'rời đi...? Tại sao...?'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cbe:
+-	ZH 1:
+-	'Rance vội xé phong thư. Viết'
+-	R
+-	'gì đây...?'
++	'Maris vừa báo cáo vừa'
++	R
++	'đưa lá thư cho Rance.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Hả!? Miki đi rồi...?'
++	R
++	'Sao tự nhiên lại...?'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cbe:
++	ZH 1:
++	'Rance vội xé phong'
++	R
++	'thư. Rance「Để xem...」'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Gửi mọi người ở Leazas. Em'
+@@ -340,14 +334,12 @@
+ 	\L_06d9e:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Bảo đừng lo sao... Cô bé là'
+-	R
+-	'Ma'
+-	\L_06dab:
+-	ZH 1:
+-	'Vương, đang bị truy đuổi'
+-	R
+-	'đấy!'
++	'Đừng lo sao... Cô'
++	R
++	'bé là Ma Vương,'
++	\L_06dab:
++	ZH 1:
++	'đang bị truy đuổi đấy!'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Còn chuyện này là sao?! Đi'
+@@ -389,10 +381,12 @@
+ 	'không?'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Đúng, đó cũng là vấn đề!'
+-	\L_06dab:
+-	ZH 1:
+-	'Maris!'
++	'Rance「Đúng, đó'
++	R
++	'cũng là vấn đề!'
++	\L_06dab:
++	ZH 1:
++	'Maris!」'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06d58:
+@@ -400,24 +394,22 @@
+ 	\L_06d4a:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Thần đã cho tìm'
+-	\L_06dab:
+-	ZH 1:
+-	'kiếm. Nhưng cô ấy không ghi'
+-	R
+-	'sẽ đi đâu, nên...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Kh... Chết'
+-	R
+-	'tiệt... Tại sao chuyện này'
+-	R
+-	'lại xảy ra...? Chết tiệt...'
+-	\L_06dab:
+-	ZH 1:
+-	'Miki ngu ngốc...'
++	'Thần đã cho tìm kiếm rồi,'
++	\L_06dab:
++	ZH 1:
++	'nhưng cô ấy không'
++	R
++	'ghi sẽ đi đâu, nên...'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Kh... Chết tiệt... Sao lại'
++	R
++	'thế này... Thật tình...'
++	\L_06dab:
++	ZH 1:
++	'Miki ngốc quá...'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cf6:
+@@ -454,14 +446,11 @@
+ 	!VAR0516 : VAR0135!
+ 	\L_06d82:
+ 	ZH 1:
+-	'Bệnh bạch hầu'
+-	R
+-	R
+-	'Bờ Sông Bên'
+-	R
+-	'Ngoài Thị Trấn Một cô gái'
+-	R
+-	'đơn độc đi dọc bờ sông.'
++	'Diphtheria. Bờ sông ngoài'
++	R
++	'thị trấn. Một cô gái'
++	R
++	'lẻ loi bước dọc bờ đê.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	!VAR0516 : 54!
+@@ -487,7 +476,7 @@
+ 	\L_06d9e:
+ 	\L_06cbe:
+ 	ZH 1:
+-	'Miki ngồi'
++	'Miki mệt mỏi ngồi'
+ 	R
+ 	'phịch xuống bờ sông.'
+ 	\L_06dab:
+@@ -529,7 +518,9 @@
+ 	'nước,'
+ 	\L_06dab:
+ 	ZH 1:
+-	'nhưng nó lập tức biến mất.'
++	'nhưng hình ảnh ấy'
++	R
++	'lập tức tan biến.'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Đương nhiên rồi. Kentarou đã'
+@@ -542,10 +533,10 @@
+ 	'............'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Ờ...'
+-	\L_06dab:
+-	ZH 1:
+-	'Wah... Hick... À... À...'
++	'Ư...'
++	\L_06dab:
++	ZH 1:
++	'Hu hu... Hức... A... A...'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cbe:
+@@ -568,11 +559,11 @@
+ 	'chết...?'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Anh đã hứa sẽ cùng em về'
+-	R
+-	'Nhật Bản mà... Hức... Đồ nói'
+-	R
+-	'dối...'
++	'Đã hứa cùng em về'
++	R
++	'Nhật Bản rồi mà...'
++	R
++	'Hức... Đồ nói dối...'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Anh tệ lắm... Để em một mình'
+@@ -585,11 +576,11 @@
+ 	'gì cả...'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Em muốn về nhà... Muốn hai'
+-	R
+-	'đứa cùng về... Anh'
+-	R
+-	'Kentarou...'
++	'Em muốn về nhà...'
++	R
++	'Muốn hai đứa cùng'
++	R
++	'về... Anh Kentarou...'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cbe:
+@@ -608,9 +599,9 @@
+ 	\L_06d9e:
+ 	\L_06cbe:
+ 	ZH 1:
+-	'Chợt cảm thấy mình nổi lên,'
+-	R
+-	'Miki ngẩng mặt.'
++	'Chợt thấy mình lơ lửng,'
++	R
++	'Miki ngẩng mặt lên.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -631,40 +622,38 @@
+ 	'lửng trên đầu Miki.'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Cô bé ở giữa luồng sáng hút'
+-	R
+-	'xuống từ'
+-	\L_06dab:
+-	ZH 1:
+-	'con tàu, đang bị kéo vào'
+-	R
+-	'trong nó.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Chuyện gì đang'
+-	R
+-	'xảy ra...? Không... Ai'
+-	R
+-	'đó giúp em... Em sợ...'
+-	\L_06dab:
+-	ZH 1:
+-	'Kentarou... Giúp'
+-	R
+-	'em với... Kentarou...!!'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cbe:
+-	ZH 1:
+-	'Không biết phải làm gì, Miki'
+-	R
+-	'co rúm người, cứng'
+-	\L_06dab:
+-	ZH 1:
+-	'đờ, rồi bị nuốt vào chiến'
+-	R
+-	'hạm.'
++	'Cô bé nằm giữa luồng sáng'
++	R
++	'hút phát ra từ con tàu,'
++	\L_06dab:
++	ZH 1:
++	'đang bị kéo vào'
++	R
++	'chiến hạm ấy.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Gì thế này...? Không...'
++	R
++	'Cứu em với... Em sợ lắm...'
++	\L_06dab:
++	ZH 1:
++	'Anh Kentarou... Cứu'
++	R
++	'em... Anh Kentarou...!!'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cbe:
++	ZH 1:
++	'Không biết làm sao, Miki'
++	R
++	'co rúm người, cứng đờ,'
++	\L_06dab:
++	ZH 1:
++	'cứ thế bị hút vào'
++	R
++	'trong chiến hạm.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06ce8:
+@@ -675,19 +664,20 @@
+ 	\L_06cda:
+ 	ZM 32:
+ 	ZH 1:
+-	'Doanh nghiệp khí cầu'
++	'Chiến hạm Enterprise'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Cầu ... Hừm...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cbe:
+-	ZH 1:
+-	'Ma nhân Piar đã theo dõi'
+-	R
+-	'toàn bộ sự việc. Đây chính'
++	'Đài chỉ huy.'
++	R
++	'Piar「... Hừ...」'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cbe:
++	ZH 1:
++	'Ma Nhân Piar đã chứng kiến'
++	R
++	'toàn bộ sự việc. Con tàu này'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'là con tàu của hắn.'
+@@ -714,26 +704,28 @@
+ 	\L_06d9e:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Ma Vương à... Nhìn thế nào'
+-	R
+-	'cũng chỉ'
+-	\L_06dab:
+-	ZH 1:
+-	'là một con nhóc tẻ nhạt. Đây'
+-	R
+-	'là Ma'
+-	\L_06dab:
+-	ZH 1:
+-	'Vương sao... Thế này thì ta'
+-	R
+-	'chẳng muốn phục tùng.'
+-	\L_06dab:
+-	ZH 1:
+-	'Quả nhiên, với ta, phụ nữ'
+-	R
+-	'bắt đầu và kết thúc đều ở'
+-	R
+-	'chị ấy...'
++	'Ma Vương... à...'
++	R
++	'Nhìn kiểu gì cũng chỉ'
++	\L_06dab:
++	ZH 1:
++	'là con nhóc tẻ'
++	R
++	'nhạt. Thế mà là'
++	\L_06dab:
++	ZH 1:
++	'Ma Vương sao... Chẳng'
++	R
++	'khiến ta muốn phục'
++	R
++	'tùng chút nào...'
++	\L_06dab:
++	ZH 1:
++	'Quả nhiên, phụ nữ thì'
++	R
++	'chỉ có chị ấy... Chỉ'
++	R
++	'mình chị ấy thôi...'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cbe:
+@@ -759,11 +751,9 @@
+ 	\L_06d9e:
+ 	\L_06cbe:
+ 	ZH 1:
+-	'Sau đó, thiết'
+-	R
+-	'giáp hạm chở Miki biến'
+-	R
+-	'mất trong chớp mắt.'
++	'Chiến hạm chở Miki vụt'
++	R
++	'biến mất trong chớp mắt.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	!VAR0516 : 0!
+@@ -789,12 +779,11 @@
+ 	\L_06cbe:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Leazas'
++	'Thành Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Phòng yết kiến'
++	'Phòng yết kiến.'
+ 	R
+ 	'Rance đang đợi Miki.'
+ 	\L_06dab:
+@@ -803,14 +792,14 @@
+ 	\L_06d4a:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Cháu chào chú Rance ạ.'
++	'Em chào chú Rance ạ.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cbe:
+ 	ZH 1:
+ 	'Miki xuất hiện'
+ 	R
+-	'với nụ cười trên môi.'
++	'với nụ cười tươi.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -828,18 +817,16 @@
+ 	\L_06d9e:
+ 	\L_06d2e:
+ 	ZH 1:
+-	'Kentarou đang đứng'
+-	R
+-	'đằng sau cô bé, trông'
+-	R
+-	'có vẻ không thoải mái.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Này, ta chỉ gọi cho Miki'
+-	R
+-	'thôi. Tại sao mày lại ở đây?'
++	'Kentarou đứng sau cô'
++	R
++	'bé, vẻ mặt ngượng ngập.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Này, ta chỉ gọi mỗi Miki.'
++	R
++	'Sao ngươi lại ở đây?'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06d58:
+@@ -862,17 +849,19 @@
+ 	'Vì em muốn ở bên anh ấy...'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Kentarou bảo không đi một'
+-	R
+-	'mình thì sẽ bị chú mắng,'
+-	R
+-	'nhưng em'
+-	\L_06dab:
+-	ZH 1:
+-	'cứ kéo anh ấy theo. Nên chú'
+-	\L_06dab:
+-	ZH 1:
+-	'Rance đừng mắng anh Kentarou'
++	'Anh Kentarou bảo nếu'
++	R
++	'em không đi một mình'
++	R
++	'thì sẽ bị chú mắng,'
++	\L_06dab:
++	ZH 1:
++	'nhưng em cứ kéo anh'
++	R
++	'ấy theo. Nên chú'
++	\L_06dab:
++	ZH 1:
++	'đừng mắng anh Kentarou'
+ 	R
+ 	'nhé. Em xin chú.'
+ 	\L_06dab:
+@@ -942,18 +931,18 @@
+ 	\L_06d9e:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Cái gì? chúng ta nên'
+-	R
+-	'tán tỉnh nhau như họ! Chúng'
+-	R
+-	'ta là cặp đôi mới cưới!'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Ôi trời! Đừng bám lấy'
+-	R
+-	'ta! Nàng chỉ cản đường thôi!'
++	'Rance「Gì?」 Lia「Thiếp'
++	R
++	'cũng muốn quấn quýt với'
++	R
++	'chàng! Ta mới cưới mà!」'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Á! Đừng bám lấy'
++	R
++	'ta! Vướng quá!'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	!VAR0154 : 2!
+@@ -968,11 +957,9 @@
+ 		\L_06d9e:
+ 		\L_06d2e:
+ 		ZH 1:
+-		'Sill theo dõi cuộc'
++		'Nấp sau cột, Sill lặng'
+ 		R
+-		'trò chuyện của họ từ'
+-		R
+-		'phía sau một cây cột.'
++		'lẽ dõi theo hai người.'
+ 		\L_06dab:
+ 		\L_06d9e:
+ 	}
+@@ -2043,44 +2030,37 @@
+ 	\L_06cbe:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Leazas'
++	'Thành Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Phòng yết kiến'
+-	R
+-	'Miki đứng trước Rance,'
+-	R
+-	'trông đầy quyết tâm.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Em sẽ cố gắng hết'
+-	R
+-	'sức có thể, chú Rance.'
+-	\L_06dab:
+-	ZH 1:
+-	'Cháu cần phải làm'
+-	R
+-	'nhiều hơn là chỉ chạy trốn'
+-	R
+-	'khỏi những con quỷ đáng sợ.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Ừm, tuyệt vời. Chỉ cần'
+-	R
+-	'đảm bảo rằng em không bị tổn'
+-	R
+-	'thương. Vì em là con gái.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Được rồi.'
++	'Điện yết kiến. Miki quyết'
++	R
++	'tâm đứng trước Rance.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Chú Rance, em sẽ cố gắng.'
++	\L_06dab:
++	ZH 1:
++	'Không thể cứ chạy trốn những'
++	R
++	'Ma Nhân đáng sợ mãi được.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Ừ, đúng thế. Cố gắng'
++	R
++	'nhưng đừng để bị thương.'
++	R
++	'Em là con gái mà.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Vâng ạ.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -2095,52 +2075,50 @@
+ 	\L_06d9e:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Kentarou là Ai Đối với em?'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Ý chú là gì?'
+-	\L_06dab:
+-	ZH 1:
+-	'Kentarou là Kentarou.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Không, ý ta là tại'
+-	R
+-	'sao em lại bám lấy hắn?'
+-	\L_06dab:
+-	ZH 1:
+-	'chúng ta sống gần'
+-	R
+-	'nhau, vì vậy chúng ta luôn'
+-	R
+-	'ở bên nhau khi còn nhỏ...'
+-	\L_06dab:
+-	ZH 1:
+-	'chúng ta là'
+-	R
+-	'em thời thơ ấu.'
+-	\L_06dab:
+-	ZH 1:
+-	'Hắn luôn bảo vệ ta.'
+-	\L_06dab:
+-	ZH 1:
+-	'Ngay cả bây giờ ta'
+-	R
+-	'là Ma Vương, hắn vẫn...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Em có thích hắn không?'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Vâng, rất nhiều.'
++	'Kentarou là gì của em?'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Là gì cơ...? Anh Kentarou'
++	\L_06dab:
++	ZH 1:
++	'thì là anh Kentarou thôi ạ.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Rance「Ý ta là sao hắn cứ'
++	R
++	'kè kè bên em?」 Miki「Nhà'
++	R
++	'chúng em gần nhau,'
++	\L_06dab:
++	ZH 1:
++	'nên từ nhỏ đã'
++	R
++	'luôn ở bên nhau...'
++	\L_06dab:
++	ZH 1:
++	'Chúng em là bạn thuở nhỏ.'
++	\L_06dab:
++	ZH 1:
++	'Anh ấy luôn bảo vệ em.'
++	\L_06dab:
++	ZH 1:
++	'Dù em thành Ma Vương...'
++	R
++	'Chỉ anh Kentarou vẫn...」'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Em thích hắn à?'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Vâng, thích lắm ạ.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -2226,24 +2204,22 @@
+ 	\L_06d9e:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Được rồi...'
+-	\L_06dab:
+-	ZH 1:
+-	'Ừm... Đó là tất'
+-	R
+-	'cả? Em muốn Đến Kentarou...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Vâng, em có thể rời đi.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Vâng ạ. Tạm'
+-	R
+-	'biệt chú Rance!'
++	'Vâng...'
++	\L_06dab:
++	ZH 1:
++	'Vậy... Em đi được chưa ạ? Em'
++	R
++	'muốn đến chỗ anh Kentarou...'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Ừ, đi đi.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Vâng. Em chào chú Rance.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	!VAR0516 : 0!
+@@ -2262,30 +2238,23 @@
+ 	\L_06cbe:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Leazas'
++	'Thành Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Phòng yết kiến đó'
+-	R
+-	'là một cuộc tấn công'
+-	R
+-	'đáng kinh ngạc, Miki.'
+-	\L_06dab:
+-	ZH 1:
+-	'Vì vậy, đó'
+-	R
+-	'là quyền Lực Của Ma'
+-	R
+-	'Vương... rất ấn tượng...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'... Sức mạnh'
+-	R
+-	'của Ma Vương...'
++	'Phòng yết kiến. Rance「Đòn'
++	R
++	'vừa rồi ghê thật, Miki.'
++	\L_06dab:
++	ZH 1:
++	'Đó là sức mạnh Ma Vương'
++	R
++	'sao... Ghê thật...」'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'... Sức mạnh Ma Vương...'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Em không muốn điều đó...'
+@@ -2293,39 +2262,39 @@
+ 	\L_06d9e:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Uh, tốt...'
+-	\L_06dab:
+-	ZH 1:
+-	'Ta biết em không muốn'
+-	R
+-	'sức mạnh của Chúa quỷ,'
+-	\L_06dab:
+-	ZH 1:
+-	'nhưng em nên sử'
+-	R
+-	'dụng nó khi em phải...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Xin Lỗi... Nhưng em'
+-	R
+-	'không biết làm thế nào...'
+-	\L_06dab:
+-	ZH 1:
+-	'Đôi khi em có thể'
+-	R
+-	'làm điều khủng khiếp đó...'
+-	\L_06dab:
+-	ZH 1:
+-	'Đôi khi em không thể'
+-	R
+-	'làm bất cứ điều gì...'
+-	\L_06dab:
+-	ZH 1:
+-	'Em không biết chuyện'
+-	R
+-	'đó xảy ra như thế nào...'
++	'Ừ, thì...'
++	\L_06dab:
++	ZH 1:
++	'Ta hiểu em không thích'
++	R
++	'sức mạnh Ma Vương,'
++	\L_06dab:
++	ZH 1:
++	'nhưng lúc cần thì'
++	R
++	'vẫn nên dùng...'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Em xin lỗi... Nhưng'
++	R
++	'em không hiểu...'
++	\L_06dab:
++	ZH 1:
++	'Có lúc đột nhiên làm được'
++	R
++	'chuyện khủng khiếp ấy,'
++	\L_06dab:
++	ZH 1:
++	'có lúc lại chẳng'
++	R
++	'làm được gì...'
++	\L_06dab:
++	ZH 1:
++	'Em cũng không biết sao'
++	R
++	'lúc đó mình làm được...'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06d58:
+@@ -2333,25 +2302,21 @@
+ 	\L_06d4a:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Vua Rance, nàng vẫn'
+-	R
+-	'chưa thức tỉnh hoàn toàn'
+-	R
+-	'với tư cách là Chúa quỷ.'
+-	\L_06dab:
+-	ZH 1:
+-	'Vì vậy, tôi'
+-	R
+-	'tin rằng nàng không thể kiểm'
+-	R
+-	'soát được sức mạnh của mình.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Ta hiểu rồi... Vậy thì'
+-	R
+-	'ngươi không thể làm gì được.'
++	'Bệ hạ, cô ấy chưa hoàn toàn'
++	R
++	'thức tỉnh thành Ma Vương.'
++	\L_06dab:
++	ZH 1:
++	'Thần nghĩ vì thế'
++	R
++	'mà cô ấy không điều'
++	R
++	'khiển được sức mạnh.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Ra vậy... Thế thì đành chịu.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06d58:
+@@ -2364,18 +2329,16 @@
+ 	\L_06d9e:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Không sao'
+-	R
+-	'đâu. Chỉ cần tiếp tục'
+-	R
+-	'làm tốt nhất có thể.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Được rồi, em và Kentarou'
+-	R
+-	'sẽ tiếp tục cố gắng hết sức.'
++	'Không sao. Dù gì thì từ'
++	R
++	'nay cũng cố gắng nhé.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Vâng, em sẽ cùng anh'
++	R
++	'Kentarou cố gắng.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	!VAR0516 : 0!
+@@ -2393,14 +2356,11 @@
+ 	\L_06cbe:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Leazas'
++	'Thành Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Phòng của Ma'
+-	R
+-	'Vương Nửa đêm...'
++	'Phòng Ma Vương. Đêm khuya...'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -2416,11 +2376,9 @@
+ 	\L_06d9e:
+ 	\L_06d2e:
+ 	ZH 1:
+-	'Miki tỉnh dậy'
+-	R
+-	'với cảm giác sợ hãi, có vẻ'
+-	R
+-	'như là do một cơn ác mộng.'
++	'Như vừa gặp ác mộng,'
++	R
++	'Miki choàng tỉnh dậy.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -2428,22 +2386,22 @@
+ 	'Haah... Haah... Haah...'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Ờ...'
+-	\L_06dab:
+-	ZH 1:
+-	'Uuu... Uu... Hick...'
+-	R
+-	'Hick... Chào... Hiin...'
+-	\L_06dab:
+-	ZH 1:
+-	'sau đó, cô'
+-	R
+-	'bắt đầu khóc, hơi thở gồ'
+-	R
+-	'ghề khiến vai cô run rẩy.'
+-	\L_06dab:
+-	ZH 1:
+-	'（gõ gõ!）'
++	'Ư...'
++	\L_06dab:
++	ZH 1:
++	'Hu hu... Hức...'
++	R
++	'Hức... Ư... Hu...'
++	\L_06dab:
++	ZH 1:
++	'Cô bé thở dốc, đôi'
++	R
++	'vai run lên rồi nước'
++	R
++	'mắt lã chã tuôn rơi.'
++	\L_06dab:
++	ZH 1:
++	'(Cốc cốc!)'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -2453,14 +2411,14 @@
+ 	\L_06d9e:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Miki... Là tôi...'
++	'Miki... Anh đây...'
+ 	R
+ 	'Có chuyện gì vậy?'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Kentarou!?'
++	'Anh Kentarou!?'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cbe:
+@@ -2472,11 +2430,11 @@
+ 	\L_06d4a:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Tao nghe thấy'
+-	R
+-	'mày hét lên... Cái gì vậy?'
+-	R
+-	'Có phải là kẻ thù không!?'
++	'Anh nghe thấy tiếng'
++	R
++	'em hét... Sao vậy?'
++	R
++	'Có kẻ địch à!?'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -2484,7 +2442,7 @@
+ 	'K-Không... À...'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Kentarou... em... em...!'
++	'Anh Kentarou... Em... Em...!'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	PF1 VAR0056:
+@@ -2492,14 +2450,14 @@
+ 	G 220:
+ 	\L_06d66:
+ 	ZH 1:
+-	'Miki 「... Kentarou... Em... em'
+-	R
+-	'thực sự sẽ trở thành Ma Vương...」'
++	'Miki「... Anh Kentarou... Rốt cuộc'
++	R
++	'em vẫn sẽ thành Ma Vương sao...?」'
+ 	PF0 VAR0056:
+ 	\L_06dab:
+ *L_02cd0:
+ 	ZH 1:
+-	'Miki 「Cơ thể em cảm thấy kỳ lạ... Em sợ...」'
++	'Miki「Người em... lạ lắm... Em sợ... Sợ lắm...」'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Kentarou ôm chặt cơ thể đang run rẩy của Miki.'
+@@ -2508,26 +2466,24 @@
+ 	'Kentarou 「Không sao đâu... Em sẽ ổn thôi...」'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Miki 「Uu... Waah... Hick...」'
+-	\L_06dab:
+-	ZH 1:
+-	'Kentarou 「Nếu chúng ta có chanh hirami,」'
+-	R
+-	'chúng ta có thể giúp em trở lại bình'
+-	\L_06dab:
+-	ZH 1:
+-	'thường.'
+-	R
+-	'Vua Rance sẽ có được nó bất cứ lúc nào...」'
+-	\L_06dab:
+-	ZH 1:
+-	'Miki 「Hức hức... Nhưng... T-em sợ...'
+-	\L_06dab:
+-	ZH 1:
+-	'Nó lại xảy ra trong giấc mơ của tôi nữa...」'
+-	\L_06dab:
+-	ZH 1:
+-	'Kentarou 「Anh sẽ ở lại với em tối nay.」'
++	'Miki「Ư... Hu hu... Hức...」'
++	\L_06dab:
++	ZH 1:
++	'Kentarou「Chỉ cần có chanh Hirami,'
++	R
++	'em sẽ trở lại bình thường.'
++	\L_06dab:
++	ZH 1:
++	'Chắc vua Rance sắp lấy được rồi...」'
++	\L_06dab:
++	ZH 1:
++	'Miki「Hức... Nhưng... Em sợ lắm...'
++	\L_06dab:
++	ZH 1:
++	'Trong mơ lại...」'
++	\L_06dab:
++	ZH 1:
++	'Kentarou「Anh sẽ ở bên em.」'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Miki 「... Thật sao?」'
+@@ -2538,7 +2494,7 @@
+ 	'ngon hơn thì anh sẽ ở bên cạnh em.」'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Miki 「Chúng ta nắm tay nhau được không...?」'
++	'Miki「Anh nắm tay em nhé...?」'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Kentarou 「Ừ.」'
+@@ -2571,9 +2527,7 @@
+ 		%0:
+ 	}
+ 	ZH 1:
+-	'Kentarou（Anh sẽ bảo vệ'
+-	R
+-	'nàng... Anh sẽ bảo vệ Miki...）'
++	'Kentarou (Mình phải bảo vệ Miki... Chính mình...)'
+ 	\L_06dab:
+ 	PF1 VAR0056:
+ 	\L_06d9e:
+@@ -2600,12 +2554,11 @@
+ 	\L_06cbe:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Leazas'
++	'Thành Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Phòng của Ma Vương'
++	'Phòng Ma Vương'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	PF1 VAR0056:
+@@ -2615,45 +2568,43 @@
+ 	SS 3:
+ 	\L_06d66:
+ 	ZH 1:
+-	'Miki 「Uh... Ugh... Ngh...!!」'
++	'Miki「Ư... Ư... Ngh...!!」'
+ 	PF0 VAR0056:
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Kentarou 「............」'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Miki cuộn tròn như quả bóng trên giường'
+-	R
+-	'và run rẩy. Kentarou ở bên cạnh cô,'
+-	\L_06dab:
+-	ZH 1:
+-	'quan sát…'
++	'Miki co người trên giường,'
++	R
++	'run lẩy bẩy. Kentarou ở bên,'
++	\L_06dab:
++	ZH 1:
++	'chỉ lặng nhìn cô bé...'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Đó là tất cả những gì anh có thể làm.'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Đó là điều luôn xảy ra...'
+-	\L_06dab:
+-	ZH 1:
+-	'Cơ thể của Miki khao khát máu do dòng máu'
+-	\L_06dab:
+-	ZH 1:
+-	'của Ma Vương trong cô bé. Cô kiềm chế ham muốn đó.'
+-	\L_06dab:
+-	ZH 1:
+-	'Kentarou không thể làm gì khác ngoài'
+-	R
+-	'việc đứng nhìn cuộc xung đột đó.'
++	'Chuyện vẫn thường xảy ra...'
++	\L_06dab:
++	ZH 1:
++	'Cơ thể Miki... Dòng máu Ma Vương trong cô bé'
++	\L_06dab:
++	ZH 1:
++	'khao khát máu. Miki dùng lý trí để kiềm chế.'
++	\L_06dab:
++	ZH 1:
++	'Kentarou chỉ biết đứng nhìn cuộc giằng co ấy.'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Miki 「K-Không... em... em...」'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Ngay bây giờ, răng nanh Của Miki nổi bật rõ rệt.'
+-	\L_06dab:
+-	ZH 1:
+-	'Mặt Quỷ Vương của cô đã chiến thắng.'
++	'Lúc này, đôi răng nanh của Miki nổi bật hẳn lên.'
++	\L_06dab:
++	ZH 1:
++	'Bản tính Ma Vương đang lấn át.'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Miki 「À... Aah!!」'
+@@ -2667,17 +2618,15 @@
+ 	'Kentarou 「Miki...!」'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Kentarou điên cuồng kéo mặt Miki ra'
+-	R
+-	'khỏi cánh tay mình và ôm chặt cô bé.'
+-	\L_06dab:
+-	ZH 1:
+-	'Kentarou 「Mày không cần phải kiềm chế...」'
+-	\L_06dab:
+-	ZH 1:
+-	'Nếu ngươi không thể chịu đựng được,'
+-	R
+-	'ngươi có thể uống máu của tôi...」'
++	'Kentarou vội gỡ Miki ra khỏi'
++	R
++	'cánh tay rồi ôm chặt cô bé.'
++	\L_06dab:
++	ZH 1:
++	'Kentarou「Em không cần cố chịu...'
++	\L_06dab:
++	ZH 1:
++	'Nếu không chịu nổi nữa thì cứ uống máu anh...」'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Miki 「Không...!!」'
+@@ -2686,14 +2635,12 @@
+ 	'Miki lắc đầu dữ dội trong vòng tay của Kentarou.'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Miki 「Nếu em làm vậy thì cậu cũng'
+-	R
+-	'sẽ không còn là con người nữa...」'
+-	\L_06dab:
+-	ZH 1:
+-	'Cậu sẽ biến thành quái vật! Tôi'
+-	R
+-	'không muốn điều đó xảy ra!! 」'
++	'Miki「Như thế... như thế thì cả'
++	R
++	'anh cũng không còn là người,'
++	\L_06dab:
++	ZH 1:
++	'sẽ thành quái vật mất! Em không muốn đâu!!」'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Kentarou 「............」'
+@@ -2708,43 +2655,39 @@
+ 	'Miki 「Hả?」'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Kentarou 「Đi thôi. Ở lại đây cũng'
+-	R
+-	'không giải quyết được gì. Hãy đến'
+-	\L_06dab:
+-	ZH 1:
+-	'Núi Salen và tìm một ít chanh」 hirami.」'
+-	\L_06dab:
+-	ZH 1:
+-	'Miki 「Kentarou...」'
++	'Kentarou「Đi thôi. Ở đây chẳng giải quyết được gì.'
++	\L_06dab:
++	ZH 1:
++	'Hai đứa cùng đến Núi Salen tìm chanh Hirami.」'
++	\L_06dab:
++	ZH 1:
++	'Miki「Anh Kentarou...」'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Kentarou 「Điều đó có ổn với em không, Miki?」'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Miki 「... Ờ, nhưng còn anh thì sao...?」'
+-	\L_06dab:
+-	ZH 1:
+-	'Kentarou 「Nếu em thấy ổn thì anh cũng'
+-	R
+-	'ổn. Lại chỉ có hai chúng ta thôi...」'
+-	\L_06dab:
+-	ZH 1:
+-	'Kentarou 「Không...'
+-	\L_06dab:
+-	ZH 1:
+-	'ba người chúng tôi bao gồm Nikkou,'
+-	R
+-	'đang tham gia một chuyến phiêu lưu...」'
+-	\L_06dab:
+-	ZH 1:
+-	'Đích đến của chúng tôi là Núi Salen.」'
++	'Miki「... Vâng... Nhưng còn anh thì...」'
++	\L_06dab:
++	ZH 1:
++	'Kentarou「Chỉ cần em thấy ổn là'
++	R
++	'anh cũng ổn. Hai đứa lại cùng...」'
++	\L_06dab:
++	ZH 1:
++	'Kentarou「Không... Cùng cô Nikkou,'
++	\L_06dab:
++	ZH 1:
++	'cả ba chúng ta lại lên đường...'
++	\L_06dab:
++	ZH 1:
++	'Đích đến là Núi Salen.」'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Miki 「... Được rồi...」'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Miki 「Xin lỗi, Kentarou...」'
++	'Miki「Em xin lỗi... Anh Kentarou...」'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Kentarou 「Đừng xin lỗi... Đây'
+@@ -2771,32 +2714,29 @@
+ 	\L_06cbe:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Leazas'
++	'Thành Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Phòng yết kiến'
+-	R
+-	'Tôi hiểu rồi, vậy là'
+-	R
+-	'họ đi rồi, vậy thì...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Tôi đã gửi'
+-	R
+-	'một đội tìm kiếm, nhưng...'
+-	R
+-	'vâng, có lẽ không có điểm.'
+-	\L_06dab:
+-	ZH 1:
+-	'Miki... Đừng để bị lũ quỷ'
+-	R
+-	'bắt giữ. chúng tôi chỉ có'
+-	R
+-	'thể ước rằng nàng sẽ không.'
++	'Phòng yết kiến. Rance「Ra'
++	R
++	'vậy, chúng đi rồi à...」'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Maris「Thần đã cho đội tìm'
++	R
++	'kiếm đi rồi, nhưng...」'
++	R
++	'Rance「Chắc khó lắm.'
++	\L_06dab:
++	ZH 1:
++	'Miki... Đừng để Ma Nhân'
++	R
++	'bắt được.」 Maris「Chỉ'
++	R
++	'biết cầu mong thế.」'
+ 	\L_06dab:
+ 	\L_06d9e:
+ *L_03203:
+@@ -2819,17 +2759,19 @@
+ 		\L_06d9e:
+ 		\L_06cf6:
+ 		ZH 1:
+-		'Little Princess đã đi rồi, tôi'
++		'Little Princess đã'
+ 		R
+-		'cũng không cần ở lại nữa.'
++		'đi rồi, tôi cũng'
++		R
++		'không cần ở lại nữa.'
+ 		\L_06dab:
+ 		\L_06d9e:
+ 		\L_06d58:
+ 		\L_06d2e:
+ 		ZH 1:
+-		'Meglass bay ra'
++		'Nói rồi, Meglass bay'
+ 		R
+-		'trong chớp mắt.'
++		'vụt đi trong chớp mắt.'
+ 		\L_06dab:
+ 		\L_06d9e:
+ 		!VAR0516 : 6!
+@@ -2841,11 +2783,9 @@
+ 		\L_06d9e:
+ 		\L_06c86:
+ 		ZH 1:
+-		'Nói bất cứ điều'
++		'Chỉ nói cho xong ý mình'
+ 		R
+-		'gì chàng muốn với tôi...'
+-		R
+-		'Không có cách cư xử.'
++		'rồi đi mất... Đồ vô lễ.'
+ 		\L_06dab:
+ 		\L_06d9e:
+ 	}
+@@ -2862,9 +2802,7 @@
+ 		\L_06d9e:
+ 		\L_06d2e:
+ 		ZH 1:
+-		'Satella xuất hiện'
+-		R
+-		'cùng Caesar trong tow.'
++		'Satella dẫn Caesar đến.'
+ 		\L_06dab:
+ 		\L_06d9e:
+ 		\L_06d58:
+@@ -2872,9 +2810,9 @@
+ 		\L_06d4a:
+ 		\L_06cf6:
+ 		ZH 1:
+-		'MS. SATELLA, BẠN SẼ'
++		'NGÀI SATELLA, NGÀI SẼ'
+ 		R
+-		'CHUYẾN... ĐI CHẬM HƠN HƠN...'
++		'NGÃ... XIN ĐI CHẬM LẠI...'
+ 		\L_06dab:
+ 		\L_06d9e:
+ 		\L_06d58:
+@@ -2882,34 +2820,32 @@
+ 		\L_06d4a:
+ 		\L_06cf6:
+ 		ZH 1:
+-		'Tôi sẽ ổn thôi! ý nghĩa'
++		'Không sao! Rance,'
+ 		R
+-		'của Điều này là Gì, anh?'
++		'chuyện gì vậy? Little'
+ 		R
+-		'Tại sao Công Chúa nhỏ đi?'
++		'Princess đi mất là sao...'
+ 		\L_06dab:
+ 		ZH 1:
+-		'Tôi không thể'
+-		R
+-		'tin được điều này.'
++		'Thật không thể tin nổi.'
+ 		\L_06dab:
+ 		ZH 1:
+-		'Nếu Kayblis bắt được'
++		'Kayblis mà bắt được ngài ấy'
+ 		R
+-		'nàng thì đó là ngày tận thế.'
++		'thì thế giới này tiêu đời.'
+ 		\L_06dab:
+ 		ZH 1:
+-		'anh sẽ làm gì, sau đó?'
++		'Rance「Thế cô định làm gì?」'
+ 		\L_06dab:
+ 		\L_06d9e:
+ 		\L_06cf6:
+ 		ZH 1:
+-		'Tôi xong việc ở'
++		'Đến đây thôi,'
+ 		R
+-		'đây rồi, anh. Tạm biệt.'
++		'Rance. Tạm biệt.'
+ 		\L_06dab:
+ 		ZH 1:
+-		'Chúng ta sẽ Đi, Caesar.'
++		'Caesar, đi nào.'
+ 		\L_06dab:
+ 		\L_06d9e:
+ 		\L_06d58:
+@@ -2917,7 +2853,7 @@
+ 		\L_06d4a:
+ 		\L_06cf6:
+ 		ZH 1:
+-		'CÓ, thưa cô. SATELLA.'
++		'VÂNG, NGÀI SATELLA.'
+ 		\L_06dab:
+ 		\L_06d9e:
+ 		\L_06c86:
+@@ -2930,19 +2866,21 @@
+ 		\L_06d4a:
+ 		\L_06cf6:
+ 		ZH 1:
+-		'Bảo vệ Little Princess là'
++		'Bảo vệ Little Princess'
+ 		R
+-		'nhiệm vụ của tôi. Tôi'
++		'là nhiệm vụ của tôi.'
+ 		R
+-		'chẳng cần ở đây nữa.'
++		'Tôi chẳng cần ở đây nữa.'
+ 		\L_06dab:
+ 		\L_06d9e:
+ 		\L_06d58:
+ 		\L_06d2e:
+ 		ZH 1:
+-		'Caesar ngồi Satella trên'
++		'Caesar đặt Satella'
+ 		R
+-		'vai và rời khỏi ngai vàng.'
++		'lên vai rồi biến mất'
++		R
++		'khỏi trước ngai vàng.'
+ 		\L_06dab:
+ 		\L_06d9e:
+ 	}
+@@ -2973,10 +2911,7 @@
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Hội nghị thượng đỉnh'
+-	R
+-	'Sau rất nhiều nỗ lực,'
++	'Đỉnh núi. Trải bao vất vả,'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Miki và Kentarou cuối'
+@@ -2986,7 +2921,7 @@
+ 	\L_06d9e:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Được rồi, đỉnh rồi.'
++	'Được rồi, đến đỉnh rồi.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -2996,9 +2931,9 @@
+ 	\L_06d9e:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Anh ổn chứ? Hãy'
+-	R
+-	'nắm lấy tay em...'
++	'Kentarou「Em ổn chứ?'
++	R
++	'Nắm tay anh...」'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cbe:
+@@ -3010,23 +2945,23 @@
+ 	\L_06d9e:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Được rồi, Kentarou.'
++	'Vâng, anh Kentarou.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06d2e:
+ 	ZH 1:
+-	'Kentarou nắm lấy'
+-	R
+-	'tay Miki và kéo cô bé lên. Ở'
+-	R
+-	'đó họ tìm thấy một vườn hoa.'
+-	\L_06dab:
+-	ZH 1:
+-	'Ở giữa khu vườn đó'
+-	R
+-	'có một cái cây duy nhất.'
+-	R
+-	'đó là cây chanh hirami.'
++	'Kentarou nắm tay kéo'
++	R
++	'Miki lên. Trước mắt là'
++	R
++	'cả một cánh đồng hoa.'
++	\L_06dab:
++	ZH 1:
++	'Giữa đó chỉ có một'
++	R
++	'cây. Kentarou「Cây'
++	R
++	'chanh Hirami kia rồi.」'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -3036,16 +2971,14 @@
+ 	\L_06d9e:
+ 	\L_06cbe:
+ 	ZH 1:
+-	'Kentarou nhặt quả'
+-	R
+-	'chanh hirami chín'
+-	R
+-	'duy nhất trên cây.'
+-	\L_06dab:
+-	ZH 1:
+-	'sau đó, anh lấy ra một'
+-	R
+-	'chiếc khăn tay và lau sạch.'
++	'Kentarou hái quả chanh'
++	R
++	'Hirami duy nhất trên cây.'
++	\L_06dab:
++	ZH 1:
++	'Rồi cậu lấy khăn tay'
++	R
++	'ra lau thật sạch.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cf6:
+@@ -3055,10 +2988,10 @@
+ 	\L_06d9e:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Cảm Ơn, Kentarou.'
+-	\L_06dab:
+-	ZH 1:
+-	'Nhai...'
++	'Cảm ơn anh Kentarou.'
++	\L_06dab:
++	ZH 1:
++	'(Cắn...)'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'............'
+@@ -3067,16 +3000,16 @@
+ 	'À...'
+ 	\L_06dab:
+ 	ZH 1:
+-	'chỉ với một chút cắn, cô'
+-	R
+-	'cảm thấy sức mạnh thoát ra'
+-	R
+-	'khỏi mình và ngồi xuống đất.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Mày ổn chứ, Miki?'
++	'Vừa cắn một chút,'
++	R
++	'Miki đã mềm nhũn,'
++	R
++	'ngồi bệt xuống đất.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Em ổn chứ, Miki?'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -3095,84 +3028,80 @@
+ 	\L_06d9e:
+ 	\L_06d2e:
+ 	ZH 1:
+-	'Miki đối mặt với'
+-	R
+-	'Kentarou và há to miệng.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Ngu ngốc,'
+-	R
+-	'đó là một điều không đúng'
+-	R
+-	'đắn cho một cô gái để làm.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Ủa... vì vậy,'
+-	R
+-	'những gì bây giờ...?'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Chúng ta'
+-	R
+-	'sẽ làm gì, Kentarou?'
+-	R
+-	'Quay Trở lại Leazas?'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Không, đừng. Chúng'
+-	R
+-	'ta thực sự không thể'
+-	R
+-	'tin tưởng Vua Rance.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Thật sao? Em'
+-	R
+-	'nghĩ hắn tốt...'
+-	\L_06dab:
+-	ZH 1:
+-	'Nhưng nếu đã nói vậy'
+-	R
+-	'thì đừng quay lại nữa.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Vâng. Nếu chúng ta'
+-	R
+-	'làm việc cùng nhau, chúng ta'
+-	R
+-	'sẽ quản lý bằng cách nào đó.'
++	'Miki há to miệng'
++	R
++	'cho Kentarou xem.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Ngốc quá, con gái'
++	R
++	'đừng làm thế chứ.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Miki「Hì hì...」'
++	R
++	'Kentarou「Giờ thì...'
++	R
++	'tiếp theo...」'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Làm gì bây giờ, anh'
++	R
++	'Kentarou? Mình về Leazas à?'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Không, đừng về. Anh chẳng'
++	R
++	'tin vua Rance cho lắm.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Thế ạ? Em thấy'
++	R
++	'chú ấy hiền mà...'
++	\L_06dab:
++	ZH 1:
++	'Nhưng anh nói thế'
++	R
++	'thì mình đừng về nữa.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Ừ. Hai đứa cùng cố gắng'
++	R
++	'thì sẽ xoay xở được thôi.'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Miki...'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Tao chắc chắn sẽ biến'
+-	R
+-	'cô trở lại bình thường.'
+-	\L_06dab:
+-	ZH 1:
+-	'Sau đó chúng ta sẽ'
+-	R
+-	'trở lại thế giới của mình.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Được rồi, Kentarou. họ'
+-	R
+-	'nắm tay nhau và xuống núi.'
++	'Anh nhất định sẽ tìm cách'
++	R
++	'đưa em trở lại bình thường.'
++	\L_06dab:
++	ZH 1:
++	'Rồi mình cùng về thế'
++	R
++	'giới của chúng ta.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Miki「Vâng, anh'
++	R
++	'Kentarou.」 Hai người'
++	R
++	'nắm tay nhau xuống núi.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	!VAR0516 : 0!
+@@ -3206,12 +3135,9 @@
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Vùng Ngoại'
+-	R
+-	'Ô Walkland Kentarou,'
+-	R
+-	'Kentarou... cách này, Miki.'
++	'Ngoại ô Walkland. Miki gọi.'
++	R
++	'Kentarou「Lối này!」'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -3223,16 +3149,14 @@
+ 	ZH 1:
+ 	'Miki và Kentarou đang'
+ 	R
+-	'chạy từ nơi này sang nơi'
+-	R
+-	'khác để trốn tránh quái vật.'
+-	\L_06dab:
+-	ZH 1:
+-	'Kentarou nắm lấy'
+-	R
+-	'tay Miki và trốn'
+-	R
+-	'sau một tòa nhà.'
++	'trốn chạy khỏi quái vật.'
++	\L_06dab:
++	ZH 1:
++	'Kentarou nắm tay'
++	R
++	'Miki, kéo vào bóng'
++	R
++	'khuất của một tòa nhà.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -3240,20 +3164,20 @@
+ 	'Này, Kentarou...'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Em nghe dân làng đồn'
+-	R
+-	'rằng lũ quái vật đã bắt đầu'
+-	R
+-	'một cuộc chiến tổng lực...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Vâng, tao'
+-	R
+-	'cũng nghe thấy... Nghe có'
+-	R
+-	'vẻ như nó trở nên tồi tệ.'
++	'Em nghe người trong thành'
++	R
++	'đồn... Quái vật đã phát động'
++	R
++	'chiến tranh toàn diện...'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Ừ, anh cũng nghe'
++	R
++	'rồi... Chuyện có'
++	R
++	'vẻ rắc rối lắm đây.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -3280,11 +3204,11 @@
+ 	\L_06d9e:
+ 	\L_06d2e:
+ 	ZH 1:
+-	'Kentarou không'
+-	R
+-	'nói gì khi ôm đầu Miki'
+-	R
+-	'và đặt nó vào ngực cậu.'
++	'Kentarou im lặng đặt'
++	R
++	'tay lên đầu Miki, kéo'
++	R
++	'cô bé tựa vào ngực mình.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -3302,11 +3226,9 @@
+ 	\L_06d9e:
+ 	\L_06cbe:
+ 	ZH 1:
+-	'Đột nhiên,'
+-	R
+-	'môi trường xung quanh'
+-	R
+-	'họ trở nên tối tăm.'
++	'Xung quanh hai người'
++	R
++	'bỗng tối sầm lại.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cf6:
+@@ -3316,26 +3238,26 @@
+ 	\L_06d9e:
+ 	\L_06d2e:
+ 	ZH 1:
+-	'Kentarou nhìn lên và'
+-	R
+-	'thấy một con tàu mà anh'
+-	\L_06dab:
+-	ZH 1:
+-	'chưa từng thấy trước đây'
+-	R
+-	'đang lơ lửng trên không.'
+-	\L_06dab:
+-	ZH 1:
+-	'Nó bắn ra một'
+-	R
+-	'luồng ánh sáng bí ẩn,'
+-	\L_06dab:
+-	ZH 1:
+-	'và một cậu bé'
+-	R
+-	'đi xuống trung tâm như thể'
+-	R
+-	'đó là một chiếc thang máy.'
++	'Kentarou nhìn lên,'
++	R
++	'thấy một con tàu'
++	\L_06dab:
++	ZH 1:
++	'chưa từng gặp đang'
++	R
++	'bay trên trời.'
++	\L_06dab:
++	ZH 1:
++	'Từ tàu chiếu xuống'
++	R
++	'một luồng sáng kỳ lạ.'
++	\L_06dab:
++	ZH 1:
++	'Một cậu thiếu niên theo'
++	R
++	'chính giữa luồng sáng hạ'
++	R
++	'xuống như đi thang máy.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06ce8:
+@@ -3343,11 +3265,9 @@
+ 	\L_06cda:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Đã tìm thấy'
+-	R
+-	'em rồi, Công chúa nhỏ.'
+-	R
+-	'Bây giờ, hãy đi với tôi.'
++	'Tìm thấy rồi, Little'
++	R
++	'Princess. Nào, đi cùng ta.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cf6:
+@@ -3366,33 +3286,29 @@
+ 	\L_06d9e:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Tôi là Piar, một con quỷ.'
+-	R
+-	'Làm ơn bước sang một bên.'
+-	\L_06dab:
+-	ZH 1:
+-	'Nếu không, cậu sẽ phải'
+-	R
+-	'chịu rất nhiều đau đớn.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Im đi!! Tao'
+-	R
+-	'không cho Anh Miki!'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'... Tôi hiểu'
+-	R
+-	'rồi. Thế thì tôi không'
+-	R
+-	'có lựa chọn nào khác.'
+-	\L_06dab:
+-	ZH 1:
+-	'Hãy ra ngoài đi mọi người.'
++	'Ta là Ma Nhân Piar.'
++	R
++	'Nào, tránh ra.'
++	\L_06dab:
++	ZH 1:
++	'Nếu không, cậu sẽ'
++	R
++	'phải chịu đau đấy.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Im đi!! Tao không'
++	R
++	'giao Miki cho mày!'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Vậy à... Đành vậy thôi.'
++	\L_06dab:
++	ZH 1:
++	'Ra đây, các ngươi.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cbe:
+@@ -3406,9 +3322,9 @@
+ 	\L_06d9e:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Tôi giao việc'
+-	R
+-	'đó cho cậu, PG-9.'
++	'Còn lại giao'
++	R
++	'cho ngươi, PG-9.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06ce8:
+@@ -3416,12 +3332,12 @@
+ 	\L_06cda:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Vâng, Sư Phụ Piar.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Đừng rời xa tao, Miki!'
++	'Vâng, đại nhân Piar.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Miki, đừng rời khỏi anh!'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06ce8:
+@@ -3439,11 +3355,11 @@
+ 	\L_06d9e:
+ 	\L_06d2e:
+ 	ZH 1:
+-	'Kentarou chuẩn bị Nikkou,'
+-	R
+-	'tinh thần dâng trào và xoáy'
+-	R
+-	'tròn từ thanh thánh kiếm.'
++	'Kentarou giương Nikkou.'
++	R
++	'Khí từ thanh thánh kiếm'
++	R
++	'bùng lên, cuộn xoáy.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06ce8:
+@@ -3456,12 +3372,12 @@
+ 	\L_06d9e:
+ 	\L_06d2e:
+ 	ZH 1:
+-	'（swoosh）'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Wha...? Uah!!'
++	'(Vút)'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Gì... Á!!'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06ce8:
+@@ -3469,12 +3385,12 @@
+ 	\L_06cda:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Kentarou!!'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Tao ổn!'
++	'Anh Kentarou!!'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Anh không sao!'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Haa!!'
+@@ -3485,44 +3401,42 @@
+ 	\L_06cda:
+ 	\L_06d2e:
+ 	ZH 1:
+-	'Kentarou vung'
+-	R
+-	'Nikkou, hạ gục từng con búp'
+-	R
+-	'bê máy bay về phía anh ta.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Ha! Ờ!!'
+-	\L_06dab:
+-	ZH 1:
+-	'mặt đất đang bị Bao phủ'
+-	R
+-	'bởi cơ thể của những con búp'
+-	R
+-	'bê cơ khí bị Nikkou cắt đứt.'
+-	\L_06dab:
+-	ZH 1:
+-	'cuộc chiến tiếp tục'
+-	R
+-	'trong hơn 30 phút. Nhưng'
+-	R
+-	'kẻ thù vẫn tiếp tục đến.'
+-	\L_06dab:
+-	ZH 1:
+-	'Với tất cả'
+-	R
+-	'những gì Kentarou đánh bại,'
+-	R
+-	'con tàu còn nhiều hơn thế.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Có lẽ đạt đến'
+-	R
+-	'giới hạn của mình...'
++	'Kentarou vung Nikkou,'
++	R
++	'liên tiếp hạ lũ người'
++	R
++	'máy đang lao tới.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Ha! Hây!!'
++	\L_06dab:
++	ZH 1:
++	'Chạm phải Nikkou, lũ'
++	R
++	'người máy vỡ vụn, bị'
++	R
++	'chém đổ, rơi xuống đất.'
++	\L_06dab:
++	ZH 1:
++	'Cuộc giao tranh kéo dài'
++	R
++	'hơn ba mươi phút. Kẻ'
++	R
++	'địch vẫn không ít đi.'
++	\L_06dab:
++	ZH 1:
++	'Kentarou hạ bao nhiêu,'
++	R
++	'trên tàu lại thả xuống'
++	R
++	'bấy nhiêu người máy.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Sắp tới giới hạn rồi nhỉ...'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cf6:
+@@ -3555,21 +3469,21 @@
+ 	\L_06d9e:
+ 	\L_06d2e:
+ 	ZH 1:
+-	'PG-9 đã khiến'
+-	R
+-	'Kentarou kiệt sức hoàn toàn'
+-	R
+-	'như một cơ hội để lấy Miki.'
+-	\L_06dab:
+-	ZH 1:
+-	'Sau đó cô bay lên'
+-	R
+-	'bầu trời trong chớp mắt.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Kentarou! Không... Không!!'
++	'Thừa lúc Kentarou'
++	R
++	'kiệt sức để lộ sơ hở,'
++	R
++	'PG-9 đã bắt gọn Miki.'
++	\L_06dab:
++	ZH 1:
++	'Rồi hắn vụt bay lên trời.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Anh Kentarou!'
++	R
++	'Không... Không!!'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cf6:
+@@ -3588,23 +3502,21 @@
+ 	'Kh... Chết tiệt!!'
+ 	\L_06dab:
+ 	ZH 1:
+-	'những con búp bê cơ khí'
+-	R
+-	'phớt lờ Sự cố Của Kentarou'
+-	R
+-	'và kiên trì tấn công chúng.'
+-	\L_06dab:
+-	ZH 1:
+-	'trong khi tiêu'
+-	R
+-	'diệt chúng, Kentarou nhìn'
+-	R
+-	'lên con tàu và cắn môi...'
+-	\L_06dab:
+-	ZH 1:
+-	'con tàu biến'
+-	R
+-	'mất trong nháy mắt.'
++	'Mặc Kentarou nóng ruột,'
++	R
++	'lũ người máy vẫn ngoan'
++	R
++	'cố lao vào tấn công.'
++	\L_06dab:
++	ZH 1:
++	'Vừa hạ chúng, cậu'
++	R
++	'vừa nhìn con tàu trên'
++	R
++	'cao, cắn chặt môi...'
++	\L_06dab:
++	ZH 1:
++	'Con tàu vụt biến mất.'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Miki bị Piar bắt giữ.'
+@@ -3630,58 +3542,57 @@
+ 	\L_06cbe:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Leazas'
++	'Thành Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Phòng của Ma Vương'
+-	R
+-	'ngươi nên ăn, Miki.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Vâng, được rồi.'
++	'Phòng Ma Vương.'
++	R
++	'Kentarou「Ăn thôi, Miki.」'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Vâng, để em ăn.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06d2e:
+ 	ZH 1:
+-	'Miki lấy một quả'
+-	R
+-	'chanh hirami ra khỏi túi.'
+-	\L_06dab:
+-	ZH 1:
+-	'Miki gần như không'
+-	R
+-	'thể thoát khỏi việc biến'
+-	\L_06dab:
+-	ZH 1:
+-	'thành Ma Vương nhờ vào'
+-	R
+-	'thành phần của chanh hirami.'
+-	\L_06dab:
+-	ZH 1:
+-	'Miki phải'
+-	R
+-	'ăn 3 tháng một lần nếu không'
+-	R
+-	'sẽ mọc răng nanh, khát máu,'
+-	\L_06dab:
+-	ZH 1:
+-	'và cuối cùng'
+-	R
+-	'trở thành Ma Vương...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Nhai...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cbe:
+-	ZH 1:
+-	'Miki ăn chanh hirami.'
++	'Miki lấy chanh Hirami'
++	R
++	'từ trong túi ra.'
++	\L_06dab:
++	ZH 1:
++	'Chính thành phần của'
++	R
++	'chanh Hirami đã giúp cô bé'
++	\L_06dab:
++	ZH 1:
++	'tạm tránh được việc hoàn'
++	R
++	'toàn trở thành Ma Vương.'
++	\L_06dab:
++	ZH 1:
++	'Cứ ba tháng phải ăn một'
++	R
++	'lần. Nếu không, cô bé'
++	R
++	'sẽ mọc nanh, khát máu,'
++	\L_06dab:
++	ZH 1:
++	'trở nên hung bạo rồi cuối'
++	R
++	'cùng hóa thành Ma Vương...'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'(Cắn...)'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cbe:
++	ZH 1:
++	'Miki ăn chanh Hirami.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -3691,15 +3602,17 @@
+ 	\L_06d9e:
+ 	\L_06cbe:
+ 	ZH 1:
+-	'（nhỏ giọt...）'
+-	\L_06dab:
+-	ZH 1:
+-	'Nước Mắt Rơi trên đó.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Chào...'
++	'(Tách...)'
++	\L_06dab:
++	ZH 1:
++	'Một giọt nước mắt'
++	R
++	'rơi xuống quả chanh.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Hức...'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cf6:
+@@ -3709,9 +3622,9 @@
+ 	\L_06d9e:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Hick...'
+-	R
+-	'Hick... Kentarou...'
++	'Hức... Hức...'
++	R
++	'Anh Kentarou...'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cbe:
+@@ -3731,16 +3644,14 @@
+ 	\L_06d9e:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Sẽ không sao đâu,'
+-	R
+-	'hãy kiên nhẫn thêm'
+-	R
+-	'một chút nữa thôi.'
+-	\L_06dab:
+-	ZH 1:
+-	'Tao sẽ tìm cho mày'
+-	R
+-	'cách để trở lại bình thường.'
++	'Không sao, chịu'
++	R
++	'thêm một chút thôi.'
++	\L_06dab:
++	ZH 1:
++	'Anh nhất định sẽ tìm ra cách'
++	R
++	'đưa em trở lại bình thường.'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Vậy...'
+@@ -3756,18 +3667,20 @@
+ 	\L_06d9e:
+ 	\L_06cbe:
+ 	ZH 1:
+-	'Trong khi kentarou ôm cô,'
+-	R
+-	'Miki từ từ ăn chanh hirami.'
++	'Trong vòng tay'
++	R
++	'Kentarou, Miki chậm'
++	R
++	'rãi ăn chanh Hirami.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06d12:
+ 	ZH 1:
+-	'... Chúng ta sẽ'
+-	R
+-	'phải xin Vua Rance lấy thêm'
+-	R
+-	'một quả chanh hirami nữa...'
++	'... Phải nhờ vua Rance'
++	R
++	'đưa cho Miki một quả'
++	R
++	'chanh Hirami mới rồi...'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06d2e:
+@@ -5135,25 +5048,22 @@
+ 	\L_06cbe:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Leazas'
++	'Thành Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Phòng yết kiến Mhm,'
+-	R
+-	'Chúa quỷ hay không, có'
+-	R
+-	'lẽ tôi nên đi gặp Miki.'
++	'Điện yết kiến. Rance「Thăm'
++	R
++	'Ma Vương Miki vậy.」'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	!VAR0516 : 5!
+ 	\L_06d4a:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Anh sẽ đi'
+-	R
+-	'cùng em, chàng yêu.'
++	'Chàng yêu, thiếp'
++	R
++	'cũng đi cùng.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -5168,11 +5078,9 @@
+ 	\L_06d9e:
+ 	\L_06cbe:
+ 	ZH 1:
+-	'Rance phớt'
+-	R
+-	'lờ Lời than vãn của Lia và'
+-	R
+-	'đi đến phòng Của Ma Vương.'
++	'Mặc Lia phụng phịu, Rance'
++	R
++	'đi đến phòng Ma Vương.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	!VAR0516 : 0!
+@@ -5182,28 +5090,23 @@
+ 	\L_06cbe:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Leazas'
++	'Thành Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Trước phòng'
+-	R
+-	'quỷ vương Một nhãn dán'
+-	R
+-	'có dòng chữ “Cảnh báo,'
+-	\L_06dab:
+-	ZH 1:
+-	'Chúa quỷ đang'
+-	R
+-	'ở trong phòng này”'
+-	R
+-	'được dán trên cửa.'
+-	\L_06dab:
+-	ZH 1:
+-	'Hai lính canh'
+-	R
+-	'đứng trước mặt.'
++	'Trước phòng Ma Vương.'
++	R
++	'Trên cửa dán tờ giấy:'
++	\L_06dab:
++	ZH 1:
++	'“Chú ý! Trong'
++	R
++	'phòng có Ma Vương.”'
++	\L_06dab:
++	ZH 1:
++	'Hai vệ binh đứng'
++	R
++	'gác trước cửa.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	!VAR0516 : 1!
+@@ -5212,17 +5115,17 @@
+ 	\L_06d4a:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Chú Rance...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Nàng có ở trong đó không?'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Có.'
++	'A, Bệ hạ...'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Cô bé ở trong chứ?'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Thưa vâng.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -5232,14 +5135,16 @@
+ 	\L_06d9e:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Vâng... Cẩn thận...'
++	'Vâng... Xin Bệ'
++	R
++	'hạ cẩn thận...'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cbe:
+ 	ZH 1:
+ 	'Rance bước vào'
+ 	R
+-	'Phòng Của Ma Vương.'
++	'phòng Ma Vương.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	!VAR0516 : 0!
+@@ -5250,14 +5155,14 @@
+ 	\L_06cda:
+ 	\L_06cbe:
+ 	ZH 1:
+-	'Bên trong có một chiếc'
+-	R
+-	'giường dành cho y tế mà'
+-	\L_06dab:
+-	ZH 1:
+-	'một người đàn ông'
+-	R
+-	'đang ngủ trên đó.'
++	'Trong phòng có'
++	R
++	'một giường bệnh,'
++	\L_06dab:
++	ZH 1:
++	'một chàng trai đang'
++	R
++	'nằm ngủ trên đó.'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Miki đang ở'
+@@ -5269,18 +5174,16 @@
+ 	\L_06d4a:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'À... Cháu cảm'
+-	R
+-	'ơn chú Rance ạ. chú'
+-	R
+-	'đã hỗ trợ chúng em.'
++	'A... Chú Rance. Cảm ơn'
++	R
++	'chú đã giúp đỡ chúng em.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06d2e:
+ 	ZH 1:
+-	'Miki nhảy ra khỏi'
+-	R
+-	'ghế và cúi chào Rance.'
++	'Miki bật dậy khỏi ghế,'
++	R
++	'cúi đầu chào Rance.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -5290,11 +5193,9 @@
+ 	\L_06d9e:
+ 	\L_06ca2:
+ 	ZH 1:
+-	'Hmmm, cô gái này'
+-	R
+-	'thực sự là Ma Vương, sinh'
+-	R
+-	'vật mạnh nhất thế giới???'
++	'Ừm... Cô bé này là Ma Vương'
++	R
++	'mạnh nhất thế giới sao???'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'Không thể tin được...'
+@@ -5302,61 +5203,55 @@
+ 	\L_06d9e:
+ 	\L_06cbe:
+ 	ZH 1:
+-	'Miki quay lại nhìn'
+-	R
+-	'Kentarou. Sau đó cô nhẹ'
+-	R
+-	'nhàng vuốt ve trán anh.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Kentarou...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Anh ta là anh'
+-	R
+-	'trai của em hay gì đó.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Không, Kentarou'
+-	R
+-	'là... Hắn... Uh... Ừm...'
++	'Miki lại quay về'
++	R
++	'phía Kentarou, dịu'
++	R
++	'dàng vuốt trán cậu.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Anh Kentarou...'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Gã đó là anh trai'
++	R
++	'hay gì của em à?'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Không ạ, anh Kentarou'
++	R
++	'là... Là... Ừm...'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06ca2:
+ 	ZH 1:
+-	'Được rồi, ta'
+-	R
+-	'hiểu rồi. Hắn là em'
+-	R
+-	'trai của nàng à...?'
+-	\L_06dab:
+-	ZH 1:
+-	'Tuy nhiên,'
+-	\L_06dab:
+-	ZH 1:
+-	'anh ta chắc chắn không'
+-	R
+-	'phải là một chàng trai'
+-	\L_06dab:
+-	ZH 1:
+-	'bình thường để có'
+-	R
+-	'được Ma Vương làm em gái.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Chú Rance, Kentarou'
+-	R
+-	'đã ngủ rất lâu... Hắn sẽ ở'
+-	R
+-	'lại như thế này mãi mãi...?'
++	'À, ra thế. Bạn trai à...'
++	\L_06dab:
++	ZH 1:
++	'Nhưng mà,'
++	\L_06dab:
++	ZH 1:
++	'có bạn gái là Ma Vương,'
++	\L_06dab:
++	ZH 1:
++	'hắn cũng chẳng phải'
++	R
++	'hạng thường đâu.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Chú Rance, anh Kentarou'
++	R
++	'cứ ngủ mãi... Liệu sẽ'
++	R
++	'cứ như thế này sao...?'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06ca2:
+@@ -5371,65 +5266,61 @@
+ 	}
+ 	ZH 1:
+ 	$L_05e86$
+-	'Mãi mãi'
++	'Sẽ ngủ mãi'
+ 	$
+ 	R
+ 	$L_05f6c$
+-	'Hắn sẽ thức dậy'
++	'Rồi sẽ tỉnh lại'
+ 	$
+ 	]
+ 	@L_05e48:
+ *L_05e86:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Xin Lỗi, nhưng chàng'
+-	R
+-	'sẽ không bao giờ thức dậy.'
+-	\L_06dab:
+-	ZH 1:
+-	'Hắn có lẽ sẽ'
+-	R
+-	'trở thành một loại rau.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Ờ...'
+-	\L_06dab:
+-	ZH 1:
+-	'Waah...'
+-	\L_06dab:
+-	ZH 1:
+-	'Úc... Hừ... Aah...'
+-	\L_06dab:
+-	ZH 1:
+-	'Waaaaaaah! À...'
+-	R
+-	'Waah... Waaaah!'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Aaah, đừng khóc nữa...'
+-	\L_06dab:
+-	ZH 1:
+-	'chắc hẳn đã có'
+-	R
+-	'một số sai lầm,'
+-	\L_06dab:
+-	ZH 1:
+-	'khiến Cô Gái'
+-	R
+-	'chưa trưởng thành này'
+-	R
+-	'trở thành Ma Vương...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cbe:
+-	ZH 1:
+-	'Rance xoa Miki'
+-	R
+-	'lên đầu như anh nghĩ.'
++	'Tiếc là hắn sẽ'
++	R
++	'không tỉnh lại nữa.'
++	\L_06dab:
++	ZH 1:
++	'Chắc sẽ sống đời'
++	R
++	'thực vật thôi.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Ư...'
++	\L_06dab:
++	ZH 1:
++	'Hu hu...'
++	\L_06dab:
++	ZH 1:
++	'Hức... Hức... A...'
++	\L_06dab:
++	ZH 1:
++	'Oa oa... Hu hu... Oa oa!'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Rance「Đừng khóc, đừng'
++	R
++	'khóc...」 (Thật tình,'
++	\L_06dab:
++	ZH 1:
++	'một đứa trẻ con thế này'
++	\L_06dab:
++	ZH 1:
++	'mà làm Ma Vương sao?'
++	R
++	'Có gì sai rồi...)'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cbe:
++	ZH 1:
++	'Rance vừa xoa đầu'
++	R
++	'Miki vừa nghĩ vậy.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	!VAR0516 : 0!
+@@ -5438,24 +5329,26 @@
+ *L_05f6c:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Tôi chắc chắn'
+-	R
+-	'hắn sẽ ổn thôi. Bây giờ hắn'
+-	R
+-	'sẽ thức dậy bất cứ lúc nào.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Y-Vâng... Anh nói đúng.'
+-	\L_06dab:
+-	ZH 1:
+-	'Cháu cảm ơn chú Rance ạ.'
++	'Hắn nhất định sẽ qua'
++	R
++	'khỏi. Chẳng mấy chốc'
++	R
++	'sẽ tỉnh lại thôi.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'V... Vâng... Đúng vậy nhỉ.'
++	\L_06dab:
++	ZH 1:
++	'Em cảm ơn chú Rance.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06d2e:
+ 	ZH 1:
+-	'Miki đang nhìn Kentarou.'
++	'Miki cứ chăm chú'
++	R
++	'nhìn Kentarou.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -5465,18 +5358,18 @@
+ 	\L_06d9e:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Kentarou... Đừng'
+-	R
+-	'bỏ cuộc... điều'
+-	R
+-	'này khá nhàm chán.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cbe:
+-	ZH 1:
+-	'Rance thở dài và'
+-	R
+-	'rời khỏi phòng của Miki.'
++	'Miki「Anh Kentarou...'
++	R
++	'Cố lên...」'
++	R
++	'Rance「Chán thật đấy.」'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cbe:
++	ZH 1:
++	'Rance phụng phịu'
++	R
++	'rời khỏi phòng Miki.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	!VAR0516 : 0!
+@@ -5494,65 +5387,58 @@
+ 	\L_06cbe:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Leazas'
++	'Thành Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Trước phòng'
+-	R
+-	'quỷ vương Hai lính canh'
+-	R
+-	'đang đứng trước phòng.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Này, làm tốt lắm.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'À... Cảm ơn cậu rất nhiều.'
+-	\L_06dab:
+-	ZH 1:
+-	'những người lính điều chỉnh'
+-	R
+-	'tư thế của họ khi họ nghe'
+-	R
+-	'thấy giọng Nói Của Rance,'
+-	\L_06dab:
+-	ZH 1:
+-	'và trả lời chắc chắn.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Nàng có ở trong đó không?'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Ma Vương?'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Vâng, Miki. Heheheheh...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Hãy cẩn thận.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Ừm. những người lính'
+-	R
+-	'mở cửa phòng Của Ma Vương'
+-	R
+-	'Cho Rance và anh ta đi qua.'
++	'Trước phòng Ma Vương.'
++	R
++	'Hai vệ binh đứng gác.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Ừ, vất vả rồi.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'A... Đa tạ Bệ hạ.'
++	\L_06dab:
++	ZH 1:
++	'Được Rance gọi, hai'
++	R
++	'lính gác đứng nghiêm,'
++	\L_06dab:
++	ZH 1:
++	'đáp lại bằng giọng dõng dạc.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Cô bé ở trong chứ?'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Bệ hạ hỏi Ma Vương ạ?'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Phải, Miki đấy. Hừ hừ hừ...'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Xin Bệ hạ cẩn thận.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Rance「Ừ.」 Lính gác mở cửa.'
++	R
++	'Hắn bước vào phòng Ma Vương.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	!VAR0516 : 0!
+@@ -5563,9 +5449,9 @@
+ 	\L_06cda:
+ 	\L_06cbe:
+ 	ZH 1:
+-	'Miki vẫn không ngừng chăm'
+-	R
+-	'sóc Kentarou như mọi khi.'
++	'Miki vẫn đang chăm sóc'
++	R
++	'Kentarou chưa tỉnh lại.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -5577,9 +5463,7 @@
+ 	\L_06d4a:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'À... Cháu'
+-	R
+-	'chào chú Rance ạ.'
++	'A... Em chào chú Rance.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -5594,48 +5478,48 @@
+ 	'... Ừ...'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Ừm, chú Rance... Nikkou'
+-	R
+-	'có thực sự đi đâu đó không?'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Uh... Vâng.'
++	'Chú Rance... Cô Nikkou'
++	R
++	'thật sự đã đi mất rồi sao?'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'À... Ừ.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06ca2:
+ 	ZH 1:
+-	'Nikkou đã'
+-	R
+-	'bảo ta đừng để lộ hình'
+-	R
+-	'dạng thật của nàng...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Em nên làm'
+-	R
+-	'gì...? Kentarou vẫn đang'
+-	R
+-	'ngủ, Và Nikkou cũng đi...'
++	'Cô Nikkou đã dặn ta giữ'
++	R
++	'kín... Không được tiết'
++	R
++	'lộ thân phận thật...'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Em biết làm sao đây...'
++	R
++	'Anh Kentarou cứ ngủ mãi,'
++	R
++	'cô Nikkou cũng đi mất...'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06d2e:
+ 	ZH 1:
+-	'Miki cúi đầu, trông'
+-	R
+-	'như sắp khóc. cô bé chỉ có'
+-	R
+-	'một mình ở một nơi xa lạ...'
+-	\L_06dab:
+-	ZH 1:
+-	'người đàn ông cô bé'
+-	R
+-	'muốn dựa vào đang ngủ... Cô'
+-	R
+-	'bé không thể không khó chịu.'
++	'Cúi gằm, Miki nói khẽ,'
++	R
++	'mặt như sắp khóc. Một'
++	R
++	'mình ở nơi xa lạ...'
++	\L_06dab:
++	ZH 1:
++	'Người cô bé muốn dựa'
++	R
++	'vào vẫn chưa tỉnh.'
++	R
++	'Cô bé cứ bất an mãi.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -5692,18 +5576,14 @@
+ 	\L_06d9e:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Chắc chắn...'
+-	R
+-	'Đợi đã, ý em là... Vâng.'
+-	R
+-	'Cháu cảm ơn chú Rance ạ.'
++	'Vâng... A... Vâng ạ.'
++	R
++	'Em cảm ơn chú Rance.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06d2e:
+ 	ZH 1:
+-	'Rance rời khỏi'
+-	R
+-	'Phòng Của Ma Vương.'
++	'Rance rời phòng Ma Vương.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	!VAR0516 : 0!
+@@ -5719,22 +5599,23 @@
+ 	\L_06cbe:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Leazas'
++	'Thành Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Trước phòng quỷ vương'
+-	R
+-	'Rance đi ngang qua cửa.'
+-	\L_06dab:
+-	ZH 1:
+-	'（Huhu...）'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Ừm? ồ, Không... Ahaha...）'
++	'Trước phòng Ma Vương.'
++	R
++	'Rance tình cờ đi ngang qua.'
++	\L_06dab:
++	ZH 1:
++	'(Hì hì...)'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Rance「Hử?」 (Thôi'
++	R
++	'mà... A ha ha...)'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -5744,29 +5625,25 @@
+ 	\L_06d9e:
+ 	\L_06cbe:
+ 	ZH 1:
+-	'Anh nghe thấy một'
+-	R
+-	'tiếng cười sôi động.'
+-	\L_06dab:
+-	ZH 1:
+-	'（Oh, dừng'
+-	R
+-	'lại... À... Aha...）'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Ờ... Ừmmmgh.'
+-	\L_06dab:
+-	ZH 1:
+-	'Này!! Em đang làm gì thế!?'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cbe:
+-	ZH 1:
+-	'Rance đóng sầm cửa'
+-	R
+-	'mở mà không gõ cửa.'
++	'Tiếng cười vui vẻ vọng ra.'
++	\L_06dab:
++	ZH 1:
++	'(Thôi mà... A... A ha...)'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Hừ... Hừm...'
++	\L_06dab:
++	ZH 1:
++	'Này!! Đang làm gì đấy!?'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cbe:
++	ZH 1:
++	'Không gõ cửa, Rance'
++	R
++	'đẩy cửa đánh rầm.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06ce8:
+@@ -5779,7 +5656,7 @@
+ 	\L_06d4a:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'... Vua Rance?'
++	'... Bệ hạ Rance?'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06d58:
+@@ -5787,7 +5664,7 @@
+ 	\L_06d4a:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'À, cháu chào chú Rance ạ.'
++	'A, em chào chú Rance.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -5800,7 +5677,7 @@
+ 	\L_06d4a:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Nó là gì?'
++	'Có chuyện gì vậy ạ?'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -5815,7 +5692,7 @@
+ 	\L_06d9e:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Chơi bài...'
++	'Chúng em đang chơi bài...'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06d58:
+@@ -5823,9 +5700,9 @@
+ 	\L_06d4a:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'chú cũng nên chơi,'
+-	R
+-	'chú Rance. Vui lắm ạ.'
++	'Chú Rance cùng chơi'
++	R
++	'bài đi. Vui lắm ạ.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -5835,7 +5712,7 @@
+ 	\L_06d9e:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'... Làm đi... Được chứ?'
++	'... Chơi cùng đi... Nhé?'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+@@ -5859,32 +5736,32 @@
+ 	ZH 1:
+ 	'Cuối cùng... Rance'
+ 	R
+-	'cuối cùng đã chơi bài'
+-	R
+-	'với Miki và Kentarou.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Bây giờ... Cái nào?'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Ừmmm... cái này!!'
++	'lại ngồi chơi bài'
++	R
++	'cùng Miki và Kentarou.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Nào... Chọn bên nào?'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Ừm... Lá này!!'
+ 	\L_06dab:
+ 	ZH 1:
+ 	'À...'
+ 	\L_06dab:
+ 	ZH 1:
+-	'Ah～～～... Bà già...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06cf6:
+-	ZH 1:
+-	'Em hết thẻ rồi. À.'
+-	R
+-	'Ngài thua rồi, chú Rance.'
++	'A... Á... Lá bà già...'
++	\L_06dab:
++	\L_06d9e:
++	\L_06cf6:
++	ZH 1:
++	'Em hết bài rồi. A ha!'
++	R
++	'Chú Rance thua rồi.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06d58:
+@@ -5897,9 +5774,7 @@
+ 	\L_06d9e:
+ 	\L_06c86:
+ 	ZH 1:
+-	'Chết tiệt! Một'
+-	R
+-	'trò chơi nữa!!'
++	'Chết tiệt! Chơi ván nữa!!'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06d58:
+@@ -5907,7 +5782,7 @@
+ 	\L_06d4a:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Yaaay!'
++	'Hoan hô!'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cbe:
+@@ -5934,21 +5809,19 @@
+ 	\L_06d9e:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Thực sự...? Hãy'
+-	R
+-	'đến chơi bài với chúng cháu'
+-	R
+-	'một lần nữa nhé, chú Rance.'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Vâng... Có lẽ...'
+-	\L_06dab:
+-	ZH 1:
+-	'Ồ, Kentarou...'
+-	R
+-	'Đi với ta một chút.'
++	'Vậy ạ...? Hôm khác mình lại'
++	R
++	'chơi bài nhé, chú Rance.'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Ừ... Cũng được...'
++	\L_06dab:
++	ZH 1:
++	'À, Kentarou...'
++	R
++	'Lại đây một lát.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06d58:
+@@ -5956,7 +5829,7 @@
+ 	\L_06d4a:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'À... Được rồi.'
++	'A... Vâng.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06d58:
+@@ -5964,14 +5837,14 @@
+ 	\L_06d4a:
+ 	\L_06cf6:
+ 	ZH 1:
+-	'Kentarou...'
+-	\L_06dab:
+-	\L_06d9e:
+-	\L_06c86:
+-	ZH 1:
+-	'Ta sẽ trả lại anh ta'
+-	R
+-	'ngay. Đừng lo lắng về nó.'
++	'Anh Kentarou...'
++	\L_06dab:
++	\L_06d9e:
++	\L_06c86:
++	ZH 1:
++	'Ta sẽ trả hắn về'
++	R
++	'ngay. Đừng lo.'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06cf6:
+@@ -5989,20 +5862,17 @@
+ 	\L_06d4a:
+ 	\L_06cbe:
+ 	ZH 1:
+-	'Rance đưa'
+-	R
+-	'Kentarou ra ngoài phòng.'
++	'Rance dẫn Kentarou ra ngoài.'
+ 	\L_06dab:
+ 	ZM 32:
+ 	ZH 1:
+-	'Lâu đài Leazas'
++	'Thành Leazas'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+-	R
+-	'Trước phòng quỷ vương'
+-	R
+-	'Chuyện gì vậy, vua Rance?'
++	'Trước phòng. Kentarou「Bệ'
++	R
++	'hạ có việc gì ạ?」'
+ 	\L_06dab:
+ 	\L_06d9e:
+ 	\L_06c86:
+--- before/SET_CHR.ADV
++++ src/SET_CHR.ADV
+@@ -196,7 +196,7 @@
+ 	ZH 1:
+ 	MS 1, "Barres":
+ 	R
+-	MS 2, "Kỵ sĩ Leazas":
++	MS 2, "Chính quy Leazas":
+ 	!VAR0154 : 6!
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 0, 1:
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 1, 2:
+@@ -235,7 +235,7 @@
+ 	ZH 1:
+ 	MS 1, "Rick":
+ 	R
+-	MS 2, "Kỵ sĩ Leazas":
++	MS 2, "Chính quy Leazas":
+ 	!VAR0154 : 7!
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 0, 1:
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 1, 2:
+@@ -274,7 +274,7 @@
+ 	ZH 1:
+ 	MS 1, "Cordoba":
+ 	R
+-	MS 2, "Kỵ sĩ Leazas":
++	MS 2, "Chính quy Leazas":
+ 	!VAR0154 : 8!
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 0, 1:
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 1, 2:
+@@ -508,7 +508,7 @@
+ 	ZH 1:
+ 	MS 1, "Ex":
+ 	R
+-	MS 2, "Kỵ sĩ Leazas":
++	MS 2, "Chính quy Leazas":
+ 	!VAR0154 : 14!
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 0, 1:
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 1, 2:
+@@ -703,7 +703,7 @@
+ 	ZH 1:
+ 	MS 1, "Hanty":
+ 	R
+-	MS 2, "Người máy Freak & Hanty":
++	MS 2, "Robot Freak":
+ 	!VAR0154 : 19!
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 0, 1:
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 1, 2:
+@@ -742,7 +742,7 @@
+ 	ZH 1:
+ 	MS 1, "Freak":
+ 	R
+-	MS 2, "Người máy Freak & Hanty":
++	MS 2, "Robot Freak":
+ 	!VAR0154 : 20!
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 0, 1:
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 1, 2:
+@@ -781,7 +781,7 @@
+ 	ZH 1:
+ 	MS 1, "Hubert":
+ 	R
+-	MS 2, "Kỵ sĩ Helman":
++	MS 2, "Thiết giáp Helman":
+ 	!VAR0154 : 21!
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 0, 1:
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 1, 2:
+@@ -820,7 +820,7 @@
+ 	ZH 1:
+ 	MS 1, "Lelyukov":
+ 	R
+-	MS 2, "Kỵ sĩ Helman":
++	MS 2, "Thiết giáp Helman":
+ 	!VAR0154 : 22!
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 0, 1:
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 1, 2:
+@@ -1598,7 +1598,7 @@
+ 	!VAR0104 : 0!
+ 	!VAR0105 : 0!
+ 	ZH 1:
+-	MS 1, "Chị em Seizel":
++	MS 1, "Chị em Saizel":
+ 	R
+ 	MS 2, "Ngụy thiên thần":
+ 	!VAR0154 : 42!
+@@ -1639,7 +1639,7 @@
+ 	ZH 1:
+ 	MS 1, "Aristoles":
+ 	R
+-	MS 2, "Kỵ sĩ Helman":
++	MS 2, "Thiết giáp Helman":
+ 	!VAR0154 : 43!
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 0, 1:
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 1, 2:
+@@ -1795,7 +1795,7 @@
+ 	ZH 1:
+ 	MS 1, "Rolex":
+ 	R
+-	MS 2, "Kỵ sĩ Helman":
++	MS 2, "Thiết giáp Helman":
+ 	!VAR0154 : 47!
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 0, 1:
+ 	MM VAR0198 + (VAR0154 - 1) * 3 + 1, 2:
+@@ -1951,7 +1951,7 @@
+ 	ZH 1:
+ 	MS 4, "Ex":
+ 	R
+-	MS 5, "Kỵ sĩ Leazas":
++	MS 5, "Chính quy Leazas":
+ 	!VAR0156 : 1!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2140,7 +2140,7 @@
+ 	ZH 1:
+ 	MS 4, "Gengorou":
+ 	R
+-	MS 5, "Dân thường":
++	MS 5, "Dân quân Hanna":
+ 	!VAR0156 : 8!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2167,7 +2167,7 @@
+ 	ZH 1:
+ 	MS 4, "Hào kiệt Hanna":
+ 	R
+-	MS 5, "Dân thường":
++	MS 5, "Dân quân Hanna":
+ 	!VAR0156 : 9!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2194,7 +2194,7 @@
+ 	ZH 1:
+ 	MS 4, "Hào kiệt Hanna":
+ 	R
+-	MS 5, "Dân thường":
++	MS 5, "Dân quân Hanna":
+ 	!VAR0156 : 10!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2221,7 +2221,7 @@
+ 	ZH 1:
+ 	MS 4, "Sayori":
+ 	R
+-	MS 5, "Dân thường":
++	MS 5, "Dân quân M-Land":
+ 	!VAR0156 : 11!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2248,7 +2248,7 @@
+ 	ZH 1:
+ 	MS 4, "Hào kiệt M-Land":
+ 	R
+-	MS 5, "Dân thường":
++	MS 5, "Dân quân M-Land":
+ 	!VAR0156 : 12!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2275,7 +2275,7 @@
+ 	ZH 1:
+ 	MS 4, "Hào kiệt Zeo":
+ 	R
+-	MS 5, "Dân thường":
++	MS 5, "Dân quân Zeo":
+ 	!VAR0156 : 13!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2302,7 +2302,7 @@
+ 	ZH 1:
+ 	MS 4, "Hào kiệt Zeo":
+ 	R
+-	MS 5, "Dân thường":
++	MS 5, "Dân quân Zeo":
+ 	!VAR0156 : 14!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2329,7 +2329,7 @@
+ 	ZH 1:
+ 	MS 4, "Hào kiệt Zeo":
+ 	R
+-	MS 5, "Dân thường":
++	MS 5, "Dân quân Zeo":
+ 	!VAR0156 : 15!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2356,7 +2356,7 @@
+ 	ZH 1:
+ 	MS 4, "Hào kiệt Zeo":
+ 	R
+-	MS 5, "Dân thường":
++	MS 5, "Dân quân Zeo":
+ 	!VAR0156 : 16!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2383,7 +2383,7 @@
+ 	ZH 1:
+ 	MS 4, "Hào kiệt Portugal":
+ 	R
+-	MS 5, "Dân thường":
++	MS 5, "Dân quân Portugal":
+ 	!VAR0156 : 17!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2410,7 +2410,7 @@
+ 	ZH 1:
+ 	MS 4, "Dẫn đường sa mạc":
+ 	R
+-	MS 5, "Cát vệ sĩ":
++	MS 5, "Vệ binh sa mạc":
+ 	!VAR0156 : 18!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2437,7 +2437,7 @@
+ 	ZH 1:
+ 	MS 4, "Dẫn đường sa mạc":
+ 	R
+-	MS 5, "Cát vệ sĩ":
++	MS 5, "Vệ binh sa mạc":
+ 	!VAR0156 : 19!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2464,7 +2464,7 @@
+ 	ZH 1:
+ 	MS 4, "Dẫn đường sa mạc":
+ 	R
+-	MS 5, "Cát vệ sĩ":
++	MS 5, "Vệ binh sa mạc":
+ 	!VAR0156 : 20!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2518,7 +2518,7 @@
+ 	ZH 1:
+ 	MS 4, "Lelyukov":
+ 	R
+-	MS 5, "Kỵ sĩ Helman":
++	MS 5, "Thiết giáp Helman":
+ 	!VAR0156 : 22!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2545,7 +2545,7 @@
+ 	ZH 1:
+ 	MS 4, "Gadman":
+ 	R
+-	MS 5, "Kỵ sĩ Helman":
++	MS 5, "Thiết giáp Helman":
+ 	!VAR0156 : 23!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2761,7 +2761,7 @@
+ 	ZH 1:
+ 	MS 4, "Ruberan":
+ 	R
+-	MS 5, "Lính canh":
++	MS 5, "Đội cảnh vệ":
+ 	!VAR0156 : 31!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2788,7 +2788,7 @@
+ 	ZH 1:
+ 	MS 4, "Aristoles":
+ 	R
+-	MS 5, "Kỵ sĩ Helman":
++	MS 5, "Thiết giáp Helman":
+ 	!VAR0156 : 32!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2842,7 +2842,7 @@
+ 	ZH 1:
+ 	MS 4, "Ivan":
+ 	R
+-	MS 5, "Kỵ sĩ Helman":
++	MS 5, "Thiết giáp Helman":
+ 	!VAR0156 : 34!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -2977,7 +2977,7 @@
+ 	ZH 1:
+ 	MS 4, "Mineva":
+ 	R
+-	MS 5, "Kỵ sĩ Helman":
++	MS 5, "Thiết giáp Helman":
+ 	!VAR0156 : 39!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -3112,7 +3112,7 @@
+ 	ZH 1:
+ 	MS 4, "Nero":
+ 	R
+-	MS 5, "Kỵ sĩ Helman":
++	MS 5, "Thiết giáp Helman":
+ 	!VAR0156 : 44!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -3274,7 +3274,7 @@
+ 	ZH 1:
+ 	MS 4, "Rolex":
+ 	R
+-	MS 5, "Kỵ sĩ Helman":
++	MS 5, "Thiết giáp Helman":
+ 	!VAR0156 : 50!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -3409,7 +3409,7 @@
+ 	ZH 1:
+ 	MS 4, "Hubert":
+ 	R
+-	MS 5, "Kỵ sĩ Helman":
++	MS 5, "Thiết giáp Helman":
+ 	!VAR0156 : 55!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -3436,7 +3436,7 @@
+ 	ZH 1:
+ 	MS 4, "Freak":
+ 	R
+-	MS 5, "Người máy Freak & Hanty":
++	MS 5, "Robot Freak":
+ 	!VAR0156 : 56!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -3463,7 +3463,7 @@
+ 	ZH 1:
+ 	MS 4, "Hanty":
+ 	R
+-	MS 5, "Người máy Freak & Hanty":
++	MS 5, "Robot Freak":
+ 	!VAR0156 : 57!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -3490,7 +3490,7 @@
+ 	ZH 1:
+ 	MS 4, "Tướng dân quân":
+ 	R
+-	MS 5, "Dân thường":
++	MS 5, "Dân Helman":
+ 	!VAR0156 : 58!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -3517,7 +3517,7 @@
+ 	ZH 1:
+ 	MS 4, "Tướng dân quân":
+ 	R
+-	MS 5, "Dân thường":
++	MS 5, "Dân Helman":
+ 	!VAR0156 : 59!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -3571,7 +3571,7 @@
+ 	ZH 1:
+ 	MS 4, "Sanakia":
+ 	R
+-	MS 5, "Dân thường":
++	MS 5, "Dân quân Toushin":
+ 	!VAR0156 : 62!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -3596,9 +3596,9 @@
+ 	!VAR0118 : 5!
+ 	!VAR0119 : 0!
+ 	ZH 1:
+-	MS 4, "Hào kiệt Xích Địa":
+-	R
+-	MS 5, "Dân thường":
++	MS 4, "Hào kiệt Red":
++	R
++	MS 5, "Dân quân Red":
+ 	!VAR0156 : 63!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -3623,9 +3623,9 @@
+ 	!VAR0118 : 0!
+ 	!VAR0119 : 0!
+ 	ZH 1:
+-	MS 4, "Hào kiệt Xích Địa":
+-	R
+-	MS 5, "Dân thường":
++	MS 4, "Hào kiệt Red":
++	R
++	MS 5, "Dân quân Red":
+ 	!VAR0156 : 64!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -3652,7 +3652,7 @@
+ 	ZH 1:
+ 	MS 4, "Hào kiệt Lazeal":
+ 	R
+-	MS 5, "Dân thường":
++	MS 5, "Dân quân Lazeal":
+ 	!VAR0156 : 65!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -3677,9 +3677,9 @@
+ 	!VAR0118 : 0!
+ 	!VAR0119 : 0!
+ 	ZH 1:
+-	MS 4, "Hào kiệt Băng Giá":
+-	R
+-	MS 5, "Dân thường":
++	MS 4, "Hào kiệt Ice":
++	R
++	MS 5, "Dân quân Ice":
+ 	!VAR0156 : 66!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -3704,9 +3704,9 @@
+ 	!VAR0118 : 0!
+ 	!VAR0119 : 0!
+ 	ZH 1:
+-	MS 4, "Hào kiệt Băng Giá":
+-	R
+-	MS 5, "Dân thường":
++	MS 4, "Hào kiệt Ice":
++	R
++	MS 5, "Dân quân Ice":
+ 	!VAR0156 : 67!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -3733,7 +3733,7 @@
+ 	ZH 1:
+ 	MS 4, "Hào kiệt Rockearth":
+ 	R
+-	MS 5, "Dân thường":
++	MS 5, "Dân quân Rockearth":
+ 	!VAR0156 : 68!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -3760,7 +3760,7 @@
+ 	ZH 1:
+ 	MS 4, "Hào kiệt Rockearth":
+ 	R
+-	MS 5, "Dân thường":
++	MS 5, "Dân quân Rockearth":
+ 	!VAR0156 : 69!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -3787,7 +3787,7 @@
+ 	ZH 1:
+ 	MS 4, "Hào kiệt Diphtheria":
+ 	R
+-	MS 5, "Dân thường":
++	MS 5, "Dân quân Diphtheria":
+ 	!VAR0156 : 70!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -3814,7 +3814,7 @@
+ 	ZH 1:
+ 	MS 4, "Đại vương Mars":
+ 	R
+-	MS 5, "Dân thường":
++	MS 5, "Dân quân Mars":
+ 	!VAR0156 : 71!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -4325,7 +4325,7 @@
+ 	!VAR0118 : 0!
+ 	!VAR0119 : 5!
+ 	ZH 1:
+-	MS 4, "La Seizel":
++	MS 4, "La Saizel":
+ 	R
+ 	MS 5, "Ngụy thiên thần":
+ 	!VAR0156 : 90!
+@@ -4408,7 +4408,7 @@
+ 	ZH 1:
+ 	MS 4, "Sieg":
+ 	R
+-	MS 5, "Kẻ bắt chước":
++	MS 5, "Bắt chước":
+ 	!VAR0156 : 93!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -5351,7 +5351,7 @@
+ 	!VAR0118 : 0!
+ 	!VAR0119 : 0!
+ 	ZH 1:
+-	MS 4, "Babolat":
++	MS 4, "Babora":
+ 	R
+ 	MS 5, "　":
+ 	!VAR0156 : 129!
+@@ -5407,7 +5407,7 @@
+ 	ZH 1:
+ 	MS 4, "Galtia":
+ 	R
+-	MS 5, "Lương thực":
++	MS 5, "Đồ ăn":
+ 	!VAR0156 : 131!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -5434,7 +5434,7 @@
+ 	ZH 1:
+ 	MS 4, "Kite":
+ 	R
+-	MS 5, "Phân thân Kite":
++	MS 5, "Bản sao Kite":
+ 	!VAR0156 : 132!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -5488,7 +5488,7 @@
+ 	ZH 1:
+ 	MS 4, "Medusa":
+ 	R
+-	MS 5, "Rắn quỷ":
++	MS 5, "Rắn con":
+ 	!VAR0156 : 134!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -5810,9 +5810,9 @@
+ 	!VAR0118 : 0!
+ 	!VAR0119 : 0!
+ 	ZH 1:
+-	MS 4, "Ngụy thiên thần":
+-	R
+-	MS 5, "Ngụy thiên thần":
++	MS 4, "Kỵ sĩ thiên thần":
++	R
++	MS 5, "Kỵ sĩ thiên thần":
+ 	!VAR0156 : 146!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -5837,9 +5837,9 @@
+ 	!VAR0118 : 0!
+ 	!VAR0119 : 10!
+ 	ZH 1:
+-	MS 4, "Ngụy thiên thần":
+-	R
+-	MS 5, "Ngụy thiên thần":
++	MS 4, "Kỵ sĩ thiên thần":
++	R
++	MS 5, "Kỵ sĩ thiên thần":
+ 	!VAR0156 : 147!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -6082,7 +6082,7 @@
+ 	ZH 1:
+ 	MS 4, "Silky":
+ 	R
+-	MS 5, "Chimera":
++	MS 5, "Thú tổng hợp":
+ 	!VAR0156 : 156!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -6163,7 +6163,7 @@
+ 	ZH 1:
+ 	MS 4, "Kaybwan":
+ 	R
+-	MS 5, "Chó săn":
++	MS 5, "Cún con":
+ 	!VAR0156 : 159!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -6190,7 +6190,7 @@
+ 	ZH 1:
+ 	MS 4, "Hikaru":
+ 	R
+-	MS 5, "Chó săn":
++	MS 5, "Cún con":
+ 	!VAR0156 : 160!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -6217,7 +6217,7 @@
+ 	ZH 1:
+ 	MS 4, "Rika":
+ 	R
+-	MS 5, "Chó săn":
++	MS 5, "Cún con":
+ 	!VAR0156 : 161!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -6244,7 +6244,7 @@
+ 	ZH 1:
+ 	MS 4, "Kaybnyan":
+ 	R
+-	MS 5, "Mèo ma":
++	MS 5, "Mèo con":
+ 	!VAR0156 : 162!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -6271,7 +6271,7 @@
+ 	ZH 1:
+ 	MS 4, "Wao":
+ 	R
+-	MS 5, "Mèo ma":
++	MS 5, "Mèo con":
+ 	!VAR0156 : 163!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -6298,7 +6298,7 @@
+ 	ZH 1:
+ 	MS 4, "Kunihiko":
+ 	R
+-	MS 5, "Mèo ma":
++	MS 5, "Mèo con":
+ 	!VAR0156 : 164!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -6404,7 +6404,7 @@
+ 	!VAR0118 : 0!
+ 	!VAR0119 : 4!
+ 	ZH 1:
+-	MS 4, "Annis":
++	MS 4, "Anis":
+ 	R
+ 	MS 5, "Pháp sư Zeth":
+ 	!VAR0156 : 168!
+@@ -6919,7 +6919,7 @@
+ 	ZH 1:
+ 	MS 4, "Kaiju Gaga":
+ 	R
+-	MS 5, "Chuồn chuồn":
++	MS 5, "Chuồn chuồn Gaga":
+ 	!VAR0156 : 187!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -6946,7 +6946,7 @@
+ 	ZH 1:
+ 	MS 4, "Kaiju Zeze":
+ 	R
+-	MS 5, "Chuồn chuồn":
++	MS 5, "Chuồn chuồn Zeze":
+ 	!VAR0156 : 188!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -6973,7 +6973,7 @@
+ 	ZH 1:
+ 	MS 4, "Kaiju Dada":
+ 	R
+-	MS 5, "Chuồn chuồn":
++	MS 5, "Chuồn chuồn Dada":
+ 	!VAR0156 : 189!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -7000,7 +7000,7 @@
+ 	ZH 1:
+ 	MS 4, "Kaiju Bobo":
+ 	R
+-	MS 5, "Chuồn chuồn":
++	MS 5, "Chuồn chuồn Bobo":
+ 	!VAR0156 : 190!
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 0, 4:
+ 	MM VAR0199 + (VAR0156 - 1) * 3 + 1, 5:
+@@ -7025,7 +7025,7 @@
+ 	!VAR0118 : 0!
+ 	!VAR0119 : 13!
+ 	ZH 1:
+-	MS 4, "Đội trưởng xung kích 1":
++	MS 4, "Đội xung kích 1":
+ 	R
+ 	MS 5, "Quái vật":
+ 	!VAR0156 : 191!
+@@ -7052,7 +7052,7 @@
+ 	!VAR0118 : 0!
+ 	!VAR0119 : 4!
+ 	ZH 1:
+-	MS 4, "Đội trưởng xung kích 2":
++	MS 4, "Đội xung kích 2":
+ 	R
+ 	MS 5, "Quái vật":
+ 	!VAR0156 : 192!
+@@ -7079,7 +7079,7 @@
+ 	!VAR0118 : 20!
+ 	!VAR0119 : 4!
+ 	ZH 1:
+-	MS 4, "Đội trưởng xung kích 3":
++	MS 4, "Đội xung kích 3":
+ 	R
+ 	MS 5, "Quái vật":
+ 	!VAR0156 : 193!
+@@ -7106,7 +7106,7 @@
+ 	!VAR0118 : 0!
+ 	!VAR0119 : 4!
+ 	ZH 1:
+-	MS 4, "Đội trưởng xung kích 4":
++	MS 4, "Đội xung kích 4":
+ 	R
+ 	MS 5, "Quái vật":
+ 	!VAR0156 : 194!
+@@ -7133,7 +7133,7 @@
+ 	!VAR0118 : 0!
+ 	!VAR0119 : 4!
+ 	ZH 1:
+-	MS 4, "Đội trưởng xung kích 5":
++	MS 4, "Đội xung kích 5":
+ 	R
+ 	MS 5, "Quái vật":
+ 	!VAR0156 : 195!
+@@ -7160,7 +7160,7 @@
+ 	!VAR0118 : 50!
+ 	!VAR0119 : 4!
+ 	ZH 1:
+-	MS 4, "Đội trưởng xung kích 6":
++	MS 4, "Đội xung kích 6":
+ 	R
+ 	MS 5, "Quái vật":
+ 	!VAR0156 : 196!
+@@ -7187,7 +7187,7 @@
+ 	!VAR0118 : 0!
+ 	!VAR0119 : 4!
+ 	ZH 1:
+-	MS 4, "Đội trưởng xung kích 7":
++	MS 4, "Đội xung kích 7":
+ 	R
+ 	MS 5, "Quái vật":
+ 	!VAR0156 : 197!
+@@ -7214,7 +7214,7 @@
+ 	!VAR0118 : 0!
+ 	!VAR0119 : 4!
+ 	ZH 1:
+-	MS 4, "Đội trưởng xung kích 8":
++	MS 4, "Đội xung kích 8":
+ 	R
+ 	MS 5, "Quái vật":
+ 	!VAR0156 : 198!
+@@ -7241,7 +7241,7 @@
+ 	!VAR0118 : 0!
+ 	!VAR0119 : 4!
+ 	ZH 1:
+-	MS 4, "Đội trưởng xung kích 9":
++	MS 4, "Đội xung kích 9":
+ 	R
+ 	MS 5, "Quái vật":
+ 	!VAR0156 : 199!

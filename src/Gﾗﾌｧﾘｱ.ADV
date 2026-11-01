@@ -554,37 +554,33 @@
 	\L_02f49:
 	\L_02ef5:
 	ZH 1:
-	'Thần xin lỗi'
+	'Xin lỗi nhé, tôi cũng đã có'
 	R
-	'đã làm phiền cậu...'
+	'tuổi rồi...'
 	\L_0301a:
 	\L_0300d:
 	\L_02f65:
 	ZH 1:
-	'Hyaah!? O-Ồ, M-Ms.'
+	'Á!? A, ôi, thưa cô Maris...'
 	R
-	'Maris... cậu vẫn làm'
+	'Cô vẫn làm việc đến khuya'
 	R
-	'việc muộn thế này à?'
+	'thế này sao?'
 	\L_0301a:
 	ZH 1:
-	'Làm tốt lắm...'
+	'Vất vả cho cô quá...'
 	\L_0301a:
 	\L_0300d:
 	\L_02ef5:
 	ZH 1:
-	'Cảm ơn... Cậu cũng'
+	'Cảm ơn... Cô cũng mau về'
 	R
-	'nên nhanh chóng về'
-	R
-	'phòng nghỉ ngơi đi.'
+	'phòng nghỉ đi.'
 	\L_0301a:
 	ZH 1:
-	'cậu muốn ở'
+	'Kẻo ảnh hưởng công việc ngày'
 	R
-	'trạng thái tốt nhất cho'
-	R
-	'ngày mai, phải không?'
+	'mai đấy.'
 	\L_0301a:
 	\L_0300d:
 	\L_02f65:
@@ -609,14 +605,12 @@
 	\L_0300d:
 	\L_02f65:
 	ZH 1:
-	'T-Tại sao nàng lại diễn'
+	'C... cái thái độ làm cao ấy'
 	R
-	'xuất tuyệt vời đến thế...?'
+	'là sao chứ...'
 	\L_0301a:
 	ZH 1:
-	'Aah, dù sao thì, điều'
-	R
-	'đó thật đáng ngạc nhiên...'
+	'A, mà cũng hết cả hồn...'
 	\L_0301a:
 	\L_0300d:
 	%0:
@@ -718,7 +712,9 @@
 	'ra vào thời điểm như thế này?」'
 	\L_0301a:
 	ZH 1:
-	'Rafalia 「Xin hãy phong tôi làm Tướng quân Xích Quân.」'
+	'Rafalia 「Xin hãy phong tôi làm Tướng quân Xích'
+	R
+	'Quân.」'
 	\L_0301a:
 	ZH 1:
 	'Rance 「Ưư?'
@@ -726,9 +722,7 @@
 	!VAR0154 : 7!
 	{VAR0102 \ 0:
 		ZH 1:
-		'... Em đang yêu cầu ta'
-		R
-		'sa thải Rick phải không?」'
+		'... Em đang yêu cầu ta sa thải Rick phải không?」'
 	}
 	\L_0301a:
 	{VAR0102 = 0:
@@ -745,7 +739,9 @@
 	'Thanh Quân của ngài, nhưng ... 」'
 	\L_0301a:
 	ZH 1:
-	'Rafalia 「Tôi không tin mình có thể sử dụng toàn bộ'
+	'Rafalia 「Tôi không tin mình có thể sử dụng toàn'
+	R
+	'bộ'
 	\L_0301a:
 	ZH 1:
 	'sức mạnh của mình với tư cách là một trung tướng.'
@@ -851,7 +847,9 @@
 	'nhẹ nhàng kích thích cặc của Rance.'
 	\L_0301a:
 	ZH 1:
-	'Rafalia 「Bây giờ có bao nhiêu điểm, thưa Bệ hạ...?」'
+	'Rafalia 「Bây giờ có bao nhiêu điểm, thưa Bệ'
+	R
+	'hạ...?」'
 	\L_0301a:
 	ZH 1:
 	'Rance 「U-Uh, 75 điểm...」'
@@ -956,9 +954,7 @@
 	'Rance 「Đây rồi...!」'
 	\L_0301a:
 	ZH 1:
-	'Rafalia "'
-	R
-	'Kahh... Aaaaah...!」'
+	'Rafalia " Kahh... Aaaaah...!」'
 	\L_0301a:
 	ZH 1:
 	'Hơi thở của Rafalia trở nên gấp gáp'
@@ -2352,7 +2348,9 @@
 	'tôi, nhưng... tôi đã sẵn sàng.'
 	\L_0301a:
 	ZH 1:
-	'Xin hãy quan hệ tình dục với tôi, thưa bệ hạ ... 」'
+	'Xin hãy quan hệ tình dục với tôi, thưa bệ hạ ...'
+	R
+	'」'
 	\L_0301a:
 	ZH 1:
 	'Rafalia 「Vậy thì, hãy sử dụng tôi ở'
@@ -2641,7 +2639,9 @@
 	'nghĩa là em có một cơ thể đẹp.」'
 	\L_0301a:
 	ZH 1:
-	'Rafalia 「Lời khen ngợi của ngài là-ah... Ngh...!」'
+	'Rafalia 「Lời khen ngợi của ngài là-ah...'
+	R
+	'Ngh...!」'
 	\L_0301a:
 	ZH 1:
 	'Rance đâm siêu vũ khí của mình'
@@ -2677,9 +2677,7 @@
 	'hông của chàng mà không hề dè dặt.'
 	\L_0301a:
 	ZH 1:
-	'Rafalia "'
-	R
-	'Hah... Kh, uu...」'
+	'Rafalia " Hah... Kh, uu...」'
 	\L_0301a:
 	ZH 1:
 	'Cái bàn kêu cọt kẹt. Rafalia quấn chân'
@@ -2706,7 +2704,9 @@
 	'việc phong em làm tướng quân.」'
 	\L_0301a:
 	ZH 1:
-	'Rafalia 「Vâng, à...! Bệ hạ... Tôi thuộc về ngài...'
+	'Rafalia 「Vâng, à...! Bệ hạ...'
+	R
+	'Tôi thuộc về ngài...'
 	\L_0301a:
 	ZH 1:
 	'Xin hãy giữ tôi ở bên cạnh ngài...!」'
@@ -2788,9 +2788,7 @@
 	'Cô kẹp chặt Rance khi anh di chuyển ra vào cô.'
 	\L_0301a:
 	ZH 1:
-	'Rafalia "Hah...'
-	R
-	'Haah... Hah...!」'
+	'Rafalia "Hah... Haah... Hah...!」'
 	\L_0301a:
 	ZH 1:
 	'Lớp học được chiếu sáng bởi ánh chạng vạng'

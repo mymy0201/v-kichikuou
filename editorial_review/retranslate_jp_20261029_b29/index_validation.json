@@ -1,0 +1,118 @@
+{
+  "active_batch": "retranslate_jp_20261029_b29",
+  "counts": {
+    "scripts": 201,
+    "positioned": 13816,
+    "unresolved": 137
+  },
+  "prior_unresolved": 137,
+  "newly_unresolved": [],
+  "unresolved_reasons": {
+    "historical start has no verified original label/backup; current end unknown": 42,
+    "frozen historical range changed or no hash-verified backup; current position unresolved": 67,
+    "cannot verify current position; no ordinal guess": 28
+  },
+  "selected_files_unresolved": [],
+  "new_exclusions": [
+    {
+      "file": "Gﾒﾅﾄﾞ.ADV",
+      "batch": "retranslate_jp_20261029_b29",
+      "source": "editorial_review\\retranslate_jp_20261029_b29\\coverage.json",
+      "kind": "group",
+      "index": 217,
+      "reason": "H/cận H/nhóm trộn theo nhãn lịch sử",
+      "vi_start": 2279,
+      "vi_end": 2288,
+      "scene": "L_0254c",
+      "alignment": "command anchor + stable group count"
+    },
+    {
+      "file": "Gﾒﾅﾄﾞ.ADV",
+      "batch": "retranslate_jp_20261029_b29",
+      "source": "editorial_review\\retranslate_jp_20261029_b29\\coverage.json",
+      "kind": "group",
+      "index": 221,
+      "reason": "H/cận H/nhóm trộn theo nhãn lịch sử",
+      "vi_start": 2317,
+      "vi_end": 2319,
+      "scene": "L_0254c",
+      "alignment": "command anchor + stable group count"
+    },
+    {
+      "file": "Gﾒﾅﾄﾞ.ADV",
+      "batch": "retranslate_jp_20261029_b29",
+      "source": "editorial_review\\retranslate_jp_20261029_b29\\coverage.json",
+      "kind": "group",
+      "index": 223,
+      "reason": "H/cận H/nhóm trộn theo nhãn lịch sử",
+      "vi_start": 2329,
+      "vi_end": 2341,
+      "scene": "L_0254c",
+      "alignment": "command anchor + stable group count"
+    },
+    {
+      "file": "Gﾒﾅﾄﾞ.ADV",
+      "batch": "retranslate_jp_20261029_b29",
+      "source": "editorial_review\\retranslate_jp_20261029_b29\\coverage.json",
+      "kind": "group",
+      "index": 282,
+      "reason": "H/cận H/nhóm trộn theo nhãn lịch sử",
+      "vi_start": 2842,
+      "vi_end": 2846,
+      "scene": "L_0254c",
+      "alignment": "command anchor + stable group count"
+    },
+    {
+      "file": "Gﾒﾅﾄﾞ.ADV",
+      "batch": "retranslate_jp_20261029_b29",
+      "source": "editorial_review\\retranslate_jp_20261029_b29\\coverage.json",
+      "kind": "group",
+      "index": 283,
+      "reason": "H/cận H/nhóm trộn theo nhãn lịch sử",
+      "vi_start": 2851,
+      "vi_end": 2853,
+      "scene": "L_0254c",
+      "alignment": "command anchor + stable group count"
+    },
+    {
+      "file": "Gﾌｳｶ.ADV",
+      "batch": "retranslate_jp_20261029_b29",
+      "source": "editorial_review\\retranslate_jp_20261029_b29\\coverage.json",
+      "kind": "group",
+      "index": 1,
+      "reason": "H/cận H/nhóm trộn theo nhãn lịch sử",
+      "vi_start": 85,
+      "vi_end": 89,
+      "scene": "L_000ad",
+      "alignment": "command anchor + stable group count"
+    },
+    {
+      "file": "Gﾌｳｶ.ADV",
+      "batch": "retranslate_jp_20261029_b29",
+      "source": "editorial_review\\retranslate_jp_20261029_b29\\coverage.json",
+      "kind": "group",
+      "index": 26,
+      "reason": "H/cận H/nhóm trộn theo nhãn lịch sử",
+      "vi_start": 319,
+      "vi_end": 352,
+      "scene": "L_00395",
+      "alignment": "command anchor + stable group count"
+    },
+    {
+      "file": "Gﾌｳｶ.ADV",
+      "batch": "retranslate_jp_20261029_b29",
+      "source": "editorial_review\\retranslate_jp_20261029_b29\\coverage.json",
+      "kind": "group",
+      "index": 44,
+      "reason": "H/cận H/nhóm trộn theo nhãn lịch sử",
+      "vi_start": 540,
+      "vi_end": 551,
+      "scene": "L_00395",
+      "alignment": "command anchor + stable group count"
+    }
+  ],
+  "inspection": "Compared every unresolved identity with frozen prior index. Historical indices/provenance retained; no current range inferred from old line or JP/VI ordinal equality.",
+  "index_regeneration": "passed",
+  "index_check": "passed, exit0",
+  "installed_python": "C:/Users/Leerin/AppData/Local/Programs/Python/Python313/python.exe"
+}

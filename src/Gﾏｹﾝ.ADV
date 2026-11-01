@@ -104,7 +104,7 @@
 	}
 	ZH 1:
 	$L_00386$
-	'Nghiên cứu nhu cầu'
+	'Chỉ định nghiên cứu'
 	$
 	R
 	$L_00b89$
@@ -119,25 +119,23 @@
 *L_00288:
 	\L_02e70:
 	ZH 1:
-	'Có lẽ anh'
+	'Nào, về thôi... Đứng đây'
 	R
-	'nên quay lại… Anh không khỏi'
+	'nhìn mặt hắn cũng chẳng ích'
 	R
-	'muốn ngừng nhìn vào mặt em.'
+	'gì.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Ngài sắp rời đi'
-	R
-	'phải không, Rance?'
+	'Bệ hạ định về ạ?'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Vâng. Ta sẽ đi thưởng'
+	'Về chứ. Đi ngắm gái thật cho'
 	R
-	'thức một cô gái thực sự.'
+	'đã mắt.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
@@ -149,30 +147,24 @@
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Vâng, ta cảm'
+	'Ừ, nhìn mặt gã ái nam ái nữ'
 	R
-	'thấy mệt mỏi khi nhìn vào'
-	R
-	'khuôn mặt của ngươi, fag.'
+	'mãi chán rồi.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ed2:
 	\L_02ea8:
 	ZH 1:
-	'Rance quay'
+	'Rance quay gót, rời viện'
 	R
-	'lưng Lại Với Curtis và rời'
-	R
-	'viện nghiên cứu ma thuật.'
+	'nghiên cứu ma thuật.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Khóc Nức nở... Nó không'
+	'Hức... Đâu phải tôi muốn có'
 	R
-	'giống như tôi muốn khuôn mặt'
-	R
-	'của tôi trông như thế này...'
+	'khuôn mặt thế này...'
 	\L_02f95:
 	\L_02f88:
 	!VAR0516 : 0!
@@ -187,25 +179,19 @@
 	}
 	\L_02e70:
 	ZH 1:
-	'Được rồi, hãy'
-	R
-	'nghiên cứu đi.'
+	'Tốt, nghiên cứu đi.'
 	\L_02f95:
 	ZH 1:
-	'Cơ sở này'
+	'Ta xây nơi này đâu phải để'
 	R
-	'không được xây dựng chỉ để'
-	R
-	'chứa một người chuyển giới.'
+	'nuôi gã ái nam ái nữ.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Uh... O-Okay'
+	'Ư... V... Vâng, Bệ hạ muốn'
 	R
-	'sau đó, những gì ngươi'
-	R
-	'muốn được nghiên cứu?'
+	'nghiên cứu gì ạ?'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
@@ -222,7 +208,7 @@
 	{VAR0102 \ 0:
 		ZH 1:
 		$L_006b0$
-		'Tăng Đơn Vị Sill'
+		'Tăng cường đơn vị Sill'
 		$
 	}
 	!VAR0154 : 11!
@@ -243,7 +229,7 @@
 	{VAR0102 \ 0:
 		ZH 1:
 		$L_0076d$
-		'Tăng Đơn Vị Shizuka'
+		'Tăng cường đơn vị Shizuka'
 		$
 	}
 	{VAR0771 = 0:
@@ -255,35 +241,31 @@
 	{(VAR0063 = 1) * (VAR0650 > 9):
 		ZH 1:
 		$L_0084d$
-		'Công cụ phá rào cản'
+		'Vật phá kết giới'
 		$
 	}
 	ZH 1:
 	$L_0167b$
-	'Một Cái Gì Đó Nam Tính'
+	'Nam tính lên'
 	$
 	]
 	@L_0040d:
 *L_00510:
 	\L_02ee0:
 	ZH 1:
-	'Được rồi... Uuum,'
+	'Quân '
 	X 1:
-	'sức mạnh ma thuật'
-	R
-	'của đơn vị hiện đang'
+	' ma lực '
 	H 0, VAR0093:
 	ZH 1:
-	'. các nghiên'
+	'.'
 	R
-	'cứu để nâng cao ma thuật'
-	R
-	'của mình bằng 1 sẽ mất'
+	'Tăng 1 ma lực: '
 	H 0, VAR0093 * 2:
 	ZH 1:
-	'tuần. Điều đó có'
+	' tuần.'
 	R
-	'chấp nhận được không?'
+	'Đồng ý chứ ạ?'
 	\L_02f95:
 	\L_02f88:
 *L_00585:
@@ -297,25 +279,25 @@
 	$
 	R
 	$L_005c3$
-	'Ta không chờ đợi'
+	'Không đợi, bỏ thôi'
 	$
 	]
 	@L_00585:
 *L_005c3:
 	\L_02e70:
 	ZH 1:
-	'... Ngươi không thể'
+	'... Bớt thời gian một chút'
 	R
-	'làm nhanh hơn được nữa sao?'
+	'nữa không được à? Việc ấy'
 	R
-	'điều đó sẽ khá khó khăn...'
+	'hơi khó ạ...'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Ch, vô dụng. Ta không'
+	'Chậc, vô dụng. Tốn thời gian'
 	R
-	'đợi lâu đâu, đừng bận tâm.'
+	'thế ai đợi nổi. Thôi, bỏ đi.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
@@ -327,19 +309,19 @@
 *L_00641:
 	\L_02e70:
 	ZH 1:
-	'Chắc chắn rồi.'
+	'Được, bắt đầu đi.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Đã hiểu.'
+	'Rõ rồi.'
 	\L_02f95:
 	ZH 1:
-	'Sau đó, chúng tôi sẽ bắt'
+	'Bắt đầu nghiên cứu'
 	R
-	'đầu nghiên cứu về thúc đẩy'
+	'tăng ma lực quân '
 	X 1:
-	'sức mạnh ma thuật của.'
+	'.'
 	\L_02f95:
 	\L_02f88:
 	!VAR0465 : VAR0154 + 100!
@@ -348,14 +330,14 @@
 *L_006b0:
 	\L_02e70:
 	ZH 1:
-	'đơn vị Của'
+	'Đơn vị Sill yếu, yếu quá. Nô'
 	R
-	'Sill quá yếu. Nàng là một'
+	'lệ của ta mà thế thì mất'
 	R
-	'sự bối rối như một nô lệ.'
+	'mặt.'
 	\L_02f95:
 	ZH 1:
-	'Làm cho nàng mạnh mẽ hơn.'
+	'Tăng cường cho đơn vị ấy đi.'
 	\L_02f95:
 	\L_02f88:
 	!VAR0154 : 2!
@@ -364,16 +346,12 @@
 *L_006ef:
 	\L_02e70:
 	ZH 1:
-	'Nàng chỉ là một đứa'
+	'Tuy còn nhỏ, mạnh hơn chút'
 	R
-	'trẻ, nhưng nếu nàng mạnh hơn'
-	R
-	'một chút, nàng sẽ hữu ích.'
+	'sẽ hữu ích. Tăng cường'
 	\L_02f95:
 	ZH 1:
-	'Tăng cường'
-	R
-	'đơn vị Của Asuka.'
+	'đơn vị Asuka đi.'
 	\L_02f95:
 	\L_02f88:
 	!VAR0154 : 11!
@@ -393,16 +371,14 @@
 *L_0076d:
 	\L_02e70:
 	ZH 1:
-	'Hrmmm, nàng'
+	'Hừm, hỗn láo thật, nhưng'
 	R
-	'khá đáng ghét, nhưng'
-	R
-	'nàng rất mạnh mẽ...'
+	'cũng mạnh...'
 	\L_02f95:
 	ZH 1:
-	'Tăng cường sức mạnh'
+	'Tăng cường đơn vị Shizuka'
 	R
-	'cho đơn vị của Shizuka.'
+	'đi.'
 	\L_02f95:
 	\L_02f88:
 	!VAR0154 : 17!
@@ -454,23 +430,21 @@
 *L_0084d:
 	\L_02e70:
 	ZH 1:
-	'rào cản xung quanh Cung'
+	'Kết giới bảo vệ cung điện'
 	R
-	'Điện Zeth thật khó chịu.'
+	'Zeth thật'
 	\L_02f95:
 	ZH 1:
-	'Hãy tạo ra một'
+	'chướng mắt. Tạo phép phá nó'
 	R
-	'số phép thuật có thể tiêu'
-	R
-	'diệt nó càng sớm càng tốt.'
+	'đi. Khẩn trương hết sức vào.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Hiểu rồi...'
+	'Vâng, tôi hiểu... Nhưng...'
 	R
-	'Nhưng mà, Rance.'
+	'Bệ hạ.'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
@@ -480,16 +454,14 @@
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Nghiên cứu ma thuật'
+	'Nghiên cứu ma thuật nước ta'
 	R
-	'của chúng tôi thua xa Zeth.'
+	'thua'
 	\L_02f95:
 	ZH 1:
-	'Có lẽ chúng ta sẽ'
+	'Zeth rất xa. Làm thứ phá kết'
 	R
-	'cực kỳ khó tạo ra thứ gì đó'
-	R
-	'có thể phá hủy rào cản đó.'
+	'giới ấy có lẽ vô cùng khó.'
 	\L_02f95:
 	ZH 1:
 	'Nhưng...'
@@ -497,48 +469,40 @@
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Im đi, ngươi không'
+	'Im đi! Đừng ỷ mình ẻo lả mà'
 	R
-	'thể than vãn rằng ngươi'
-	R
-	'không thể làm gì đó, queer!'
+	'nhõng nhẽo! Viện xây'
 	\L_02f95:
 	ZH 1:
-	'đó là những gì'
+	'ra để nghiên cứu thứ đó, làm'
 	R
-	'ta đã làm cho nơi'
-	R
-	'này, làm điều đó!'
+	'đi!'
 	\L_02f95:
 	\L_02f88:
 	\L_02ea8:
 	ZH 1:
-	'（pow!）'
+	'(Bốp!)'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Ow... Tôi định'
+	'Đau... Tôi đang định nói:'
 	R
-	'nói, “Nhưng tôi sẽ cố'
-	R
-	'gắng hết sức mình”...'
+	'nhưng sẽ dốc hết sức mà...'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Ơ? Cái gì vậy,'
+	'Hả? Ngươi nói gì, viện'
 	R
-	'Cảnh sát trưởng Queertis?'
+	'trưởng Curtis ẻo lả?'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Không có gì... Tôi sẽ'
+	'Không có gì... Tôi sẽ cố phá'
 	R
-	'cố gắng hết sức có thể để'
-	R
-	'phá hủy kết giới của Zeth.'
+	'kết giới Zeth.'
 	\L_02f95:
 	\L_02f88:
 	!VAR0465 : 2!
@@ -548,31 +512,25 @@
 	!VAR0001 : 0!
 	\L_02e70:
 	ZH 1:
-	'Thực hiện một'
-	R
-	'số nghiên cứu.'
+	'Nghiên cứu, nghiên cứu thôi.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'À, nhưng mà này, Rance...'
+	'Nhưng thưa Bệ hạ...'
 	\L_02f95:
 	ZH 1:
-	'viện nghiên'
+	'Viện đang tiến hành nghiên'
 	R
-	'cứu ma thuật hiện đang'
-	R
-	'nghiên cứu một thứ khác.'
+	'cứu khác.'
 	\L_02f95:
 	ZH 1:
-	'Ngươi có muốn chúng'
-	R
-	'tôi dừng điều đó và'
+	'Ngài muốn dừng việc ấy,'
 	\L_02f95:
 	ZH 1:
-	'chuyển sang nghiên cứu'
+	'chuyển sang nghiên cứu mới'
 	R
-	'một cái gì đó mới Không?'
+	'sao?'
 	\L_02f95:
 	\L_02f88:
 *L_00a27:
@@ -593,30 +551,30 @@
 *L_00a65:
 	\L_02e70:
 	ZH 1:
-	'Ngươi không thể làm'
+	'Không làm hai việc một lúc'
 	R
-	'hai việc cùng một lúc?'
+	'được à?'
 	\L_02f95:
 	ZH 1:
-	'Không linh hoạt'
+	'Đúng là gã ẻo lả cứng'
 	R
-	'lắm, phải không, tranny?'
+	'nhắc...'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'T-tôi không phải'
+	'T... Tôi đâu phải ái nam ái'
 	R
-	'là người chuyển giới...'
+	'nữ...'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Im đi, tranny. Tiếp'
+	'Im đi, gã ẻo lả. Cứ tiếp tục'
 	R
-	'tục nghiên cứu hiện tại'
+	'nghiên cứu hiện tại. Rõ'
 	R
-	'của ngươi, được không?'
+	'chưa?'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
@@ -629,41 +587,33 @@
 *L_00aee:
 	\L_02ea8:
 	ZH 1:
-	'（pow!）'
+	'(Cốc!)'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'À, ôi.'
+	'A, đau.'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Tôi đã biết điều'
+	'Khỏi nhắc, ta biết rồi. Đừng'
 	R
-	'đó rồi, không có ích'
-	R
-	'gì khi cảnh báo tôi.'
+	'xen'
 	\L_02f95:
 	ZH 1:
-	'Đừng nói chuyện khi'
-	R
-	'ngươi không cần, cô gái à.'
+	'miệng, đồ mặt con gái.'
 	\L_02f95:
 	ZH 1:
-	'Hãy từ bỏ'
-	R
-	'nghiên cứu hiện tại.'
+	'Bỏ nghiên cứu hiện'
 	\L_02f95:
 	ZH 1:
-	'Chuyển sang'
+	'tại đi. Mau làm việc mới ta'
 	R
-	'nghiên cứu mới mà ta sắp'
-	R
-	'đặt hàng ngay bây giờ.'
+	'sắp giao.'
 	\L_02f95:
 	ZH 1:
-	'Hiểu không?'
+	'Rõ chưa?'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
@@ -684,27 +634,23 @@
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Tất nhiên là không...'
+	'Tôi có làm thế đâu...'
 	\L_02f95:
 	ZH 1:
-	'Ừm, vậy ngươi'
+	'À, Bệ hạ muốn biết tiến độ'
 	R
-	'muốn biết nghiên cứu đang'
-	R
-	'tiến triển như thế nào?'
+	'nhỉ? Nghiên cứu'
 	\L_02f95:
 	ZH 1:
-	'nghiên cứu hiện tại là...'
+	'hiện tại là...'
 	\L_02f95:
 	\L_02f88:
 	{VAR0465 = 0:
 		\L_02ee0:
 		ZH 1:
-		'Chà, không'
+		'Hiện không nghiên cứu gì cả'
 		R
-		'có gì đặc biệt đang được'
-		R
-		'nghiên cứu ngay bây giờ.'
+		'ạ.'
 		\L_02f95:
 		\L_02f88:
 		\L_02e70:
@@ -714,20 +660,16 @@
 		\L_02f88:
 		\L_02ee0:
 		ZH 1:
-		'Không, bởi vì'
+		'Ý tôi là... Bệ hạ chưa giao'
 		R
-		'ngươi chưa ra lệnh cho'
-		R
-		'chúng tôi làm gì cả.'
+		'nghiên cứu nào cả.'
 		\L_02f95:
 		\L_02f88:
 		@L_0023d:
 	}
 	\L_02ee0:
 	ZH 1:
-	'Chúng tôi hiện'
-	R
-	'đang nghiên Cứu'
+	'Hiện đang nghiên cứu:'
 	R
 	{VAR0465 = 1:
 		ZH 1:
@@ -735,18 +677,16 @@
 	}
 	{VAR0465 = 2:
 		ZH 1:
-		'một cái gì đó có thể'
-		R
-		'phá vỡ Rào Cản Của Zeth'
+		'vật phá kết giới Zeth'
 	}
 	{VAR0465 > 100:
 		!VAR0154 : VAR0465 - 100!
 		MM 1, VAR0198 + (VAR0154 - 1) * 3:
 		ZH 1:
-		'tăng cường'
+		'quân'
 		R
 		X 1:
-		'phép thuật của đơn vị'
+		' tăng ma lực'
 	}
 	ZH 1:
 	'.'
@@ -755,9 +695,9 @@
 	{VAR0466 < VAR0517 + 2:
 		\L_02ee0:
 		ZH 1:
-		'Nó sẽ được hoàn'
+		'Sắp xong rồi, có lẽ tuần tới'
 		R
-		'thành vào tuần tới.'
+		'sẽ hoàn thành.'
 		\L_02f95:
 		\L_02f88:
 		@L_0023d:
@@ -765,11 +705,11 @@
 	{VAR0466 < VAR0517 + 4:
 		\L_02ee0:
 		ZH 1:
-		'chúng ta cần thêm một'
+		'Cần thêm thời gian... Dự'
 		R
-		'chút thời gian... Kế hoạch'
+		'kiến trong vòng một tháng'
 		R
-		'sẽ kết thúc trong tháng tới.'
+		'nữa sẽ xong.'
 		\L_02f95:
 		\L_02f88:
 		@L_0023d:
@@ -795,19 +735,19 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'Rance... Rance!'
+	'Bệ hạ... Bệ hạ ơi!'
 	\L_02f95:
 	\L_02f88:
 	\L_02ea8:
 	ZH 1:
-	'（swoosh）'
+	'(Nhào'
 	\L_02f95:
 	ZH 1:
-	'Curtis chạy tới. Anh'
+	'tới) Viện trưởng Curtis chạy'
 	R
-	'ta nhảy vào Rance với một nụ'
+	'lon ton lại, cười rạng rỡ'
 	R
-	'cười rạng rỡ trên khuôn mặt.'
+	'rồi ôm chầm lấy Rance.'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
@@ -817,16 +757,12 @@
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Bọn ta đã làm'
-	R
-	'xong rồi này, Rance!'
+	'Xong rồi, Bệ hạ, xong rồi!'
 	\L_02f95:
 	ZH 1:
-	'Món đồ nghiên cứu'
+	'Nghiên cứu ngài giao đã hoàn'
 	R
-	'ngươi đặt hàng từ bọn ta'
-	R
-	'đã hoàn thành rồi đây!'
+	'thành!'
 	\L_02f95:
 	\L_02f88:
 	\L_02ea8:
@@ -856,25 +792,21 @@
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Ah... Ah, tôi xin'
+	'A... Xin thất lễ... Vì vui'
 	R
-	'lỗi... Tôi chỉ vui thôi, lần'
-	R
-	'sau tôi sẽ cẩn thận hơn...'
+	'quá nên tôi lỡ...'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Vậy... Kết quả'
+	'Thế... Kết quả ra sao, viện'
 	R
-	'là gì? Trưởng Queertis.'
+	'trưởng'
 	\L_02f95:
 	ZH 1:
-	'Nếu ngươi không'
+	'Curtis ẻo lả? Không có thành'
 	R
-	'đạt được bất cứ điều'
-	R
-	'gì ta sẽ giết ngươi.'
+	'quả tử tế thì ta giết.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
@@ -897,16 +829,14 @@
 	MM 1, VAR0198 + (VAR0154 - 1) * 3:
 	ZH 1:
 	X 1:
-	'phép thuật của đơn vị'
-	R
-	'đã được củng cố thành công.'
+	' được tăng ma lực.'
 	\L_02f95:
 	ZH 1:
-	'Đơn vị của cô bây'
+	'Ma lực tăng, đơn vị mạnh'
 	R
-	'giờ mạnh hơn trước. Thực ra'
+	'hơn. Vừa hay cô ấy cũng đang'
 	R
-	'hiện giờ nàng vẫn còn ở đây.'
+	'có mặt ở đây.'
 	\L_02f95:
 	\L_02f88:
 	\L_02f42:
@@ -928,33 +858,29 @@
 		\L_02f88:
 		\L_02ee0:
 		ZH 1:
-		'Cảm ơn Ngài. Em đã'
+		'Cảm ơn chủ nhân. Nhờ ngài ra'
 		R
-		'có thể trở nên mạnh mẽ hơn'
-		R
-		'nhờ đơn đặt hàng của ngài.'
+		'lệnh mà em mạnh hơn.'
 		\L_02f95:
 		ZH 1:
-		'Em sẽ cố gắng'
+		'Em sẽ cố gắng, chủ nhân'
 		R
-		'hết sức, Chủ nhân Rance. Vì'
+		'Rance. Nên... Xin đừng bỏ'
 		R
-		'vậy... Xin đừng bỏ rơi em...'
+		'em...'
 		\L_02f95:
 		ZH 1:
-		'Em sẽ tiếp tục cố gắng...'
+		'Em sẽ cố mà...'
 		\L_02f95:
 		\L_02f88:
 		\L_02e70:
 		ZH 1:
-		'Chắc chắn, hãy chắc'
-		R
-		'chắn để giữ cảm giác đó.'
+		'Ừ, giữ lấy quyết tâm ấy.'
 		\L_02f95:
 		\L_02f88:
 		\L_02ee0:
 		ZH 1:
-		'Được rồi!'
+		'Vâng!'
 		\L_02f95:
 		\L_02f88:
 		\L_02f42:
@@ -966,13 +892,15 @@
 		\L_02f34:
 		\L_02ee0:
 		ZH 1:
-		'rance～.'
+		'Rance...'
 		\L_02f95:
 		ZH 1:
-		'（Chaka） Này, gọi Anh Ta Là Bệ hạ.'
+		'(Chaka) Này, phải gọi là Bệ'
+		R
+		'hạ.'
 		\L_02f95:
 		ZH 1:
-		'’ kay. Thưa Bệ Hạ.'
+		'Dạ. B... Bệ hạ.'
 		\L_02f95:
 		\L_02f88:
 		\L_02e70:
@@ -982,7 +910,7 @@
 		\L_02f88:
 		\L_02ee0:
 		ZH 1:
-		'Asuka.'
+		'Là Asuka cơ.'
 		\L_02f95:
 		\L_02f88:
 		\L_02e70:
@@ -992,38 +920,34 @@
 		\L_02f88:
 		\L_02ee0:
 		ZH 1:
-		'（Chaka） Vua Rance, tôi'
+		'(Chaka) Bệ hạ Rance, cảm ơn'
 		R
-		'đánh giá cao việc Bệ hạ giúp'
+		'ngài đã giúp tăng sức mạnh.'
 		R
-		'nàng trở nên mạnh mẽ hơn.'
+		'Lão thay'
 		\L_02f95:
 		ZH 1:
-		'Tôi thay mặt cô cảm ơn cô.'
+		'cháu gái gửi lời cảm tạ.'
 		\L_02f95:
 		\L_02f88:
 		\L_02e70:
 		ZH 1:
-		'Chắc chắn. Làm'
+		'Ừ. Nhớ làm việc cho tốt.'
 		R
-		'việc chăm chỉ. Nó tốn'
-		R
-		'tiền để củng cố nàng.'
+		'Tăng sức mạnh tốn tiền đấy.'
 		\L_02f95:
 		\L_02f88:
 		\L_02ee0:
 		ZH 1:
-		'（Chaka） Vâng, Tất nhiên...'
+		'(Chaka) Vâng, dĩ nhiên...'
 		\L_02f95:
 		ZH 1:
-		'Tôi sẽ cố gắng'
-		R
-		'hết sức mình～. Rance～.'
+		'Asuka sẽ cố... Rance...'
 		\L_02f95:
 		\L_02f88:
 		\L_02e70:
 		ZH 1:
-		'Hoàng Thượng.'
+		'Bệ hạ.'
 		\L_02f95:
 		\L_02f88:
 		\L_02ee0:
@@ -1050,9 +974,9 @@
 		\L_02f88:
 		\L_02ee0:
 		ZH 1:
-		'Cảm ơn ngài Rance'
+		'Cảm ơn Bệ hạ... đã giúp em'
 		R
-		'đã cho em sức mạnh...'
+		'mạnh hơn...'
 		\L_02f95:
 		\L_02f88:
 		\L_02e70:
@@ -1066,9 +990,9 @@
 		\L_02f88:
 		\L_02ee0:
 		ZH 1:
-		'Có... Em sẽ'
+		'Vâng... Em sẽ hết sức làm'
 		R
-		'làm việc chăm chỉ.'
+		'việc.'
 		\L_02f95:
 		\L_02f88:
 		\L_02e70:
@@ -1114,31 +1038,29 @@
 		\L_02f88:
 		\L_02ee0:
 		ZH 1:
-		'Tôi đoán Bệ hạ'
+		'Lệnh tăng sức mạnh... Anh ra'
 		R
-		'là người đã ra lệnh tăng'
-		R
-		'cường sức mạnh cho tôi.'
+		'lệnh chứ gì. Dù sao'
 		\L_02f95:
 		ZH 1:
-		'Bây giờ tôi sẽ biết ơn.'
+		'cũng phải cảm ơn.'
 		\L_02f95:
 		ZH 1:
-		'Cảm Ơn, Rance.'
+		'Cảm ơn, Rance.'
 		\L_02f95:
 		\L_02f88:
 		\L_02e70:
 		ZH 1:
-		'Này... Lúc này ý'
+		'Này... Dù sao là sao? Đồ vô'
 		R
-		'ngươi là sao? Thật vô ơn.'
+		'ơn.'
 		\L_02f95:
 		\L_02f88:
 		\L_02ee0:
 		ZH 1:
-		'Vâng, tốt, hmmm...'
+		'Không, à, ừm... Tôi cũng'
 		R
-		'Tôi biết ơn, nhưng...'
+		'biết ơn chứ, nhưng...'
 		\L_02f95:
 		\L_02f88:
 		\L_02e70:
@@ -1150,26 +1072,28 @@
 		\L_02f88:
 		\L_02ea8:
 		ZH 1:
-		'（pow!!） đây là lý do'
+		'(Bốp!!) Chính vì anh như vậy'
 		R
-		'tại sao tôi không thể thực'
+		'nên tôi mới không cảm ơn tử'
 		R
-		'sự cảm ơn ngươi, ngu ngốc!!'
+		'tế được, đồ ngốc!!'
 		\L_02f95:
 		\L_02f88:
 		\L_02f42:
 		\L_02ea8:
 		ZH 1:
-		'Sau khi Rance nắm lấy vai Shizuka,'
+		'Sau khi Rance nắm lấy vai'
 		R
-		'cô đánh ngã hắn và bỏ chạy.'
+		'Shizuka, cô đánh ngã hắn và'
+		R
+		'bỏ chạy.'
 		\L_02f95:
 		\L_02f88:
 		\L_02e70:
 		ZH 1:
-		'Owowow... Mẹ kiếp,'
+		'Đau... Khốn kiếp, đồ đàn bà'
 		R
-		'người phụ nữ bạo lực.'
+		'bạo lực.'
 		\L_02f95:
 		\L_02f88:
 		!VAR0516 : 248!
@@ -1181,65 +1105,55 @@
 	!VAR0466 : 0!
 	!VAR0771 : 1!
 	ZH 1:
-	'thuốc tình yêu đã kết'
+	'Thuốc tình yêu đã xong.'
 	R
-	'thúc. Đó là một loại thuốc'
+	'Thành phẩm là viên uống tác'
 	R
-	'có tác dụng ngay lập tức.'
+	'dụng tức thì.'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Được rồi, làm'
+	'Tốt, biến thái mà làm khá'
 	R
-	'tốt lắm. Đưa nó cho.'
+	'đấy. Đưa đây, ta nhận cho.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Được rồi, đây. Chỉ có'
+	'Vâng, đây ạ. Chỉ có một'
 	R
-	'một, vì vậy hãy sử dụng'
+	'viên, xin Bệ hạ dùng cẩn'
 	R
-	'nó một cách khôn ngoan.'
+	'thận.'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Cái gì, chỉ một?'
+	'Cái gì, một viên? Làm thêm'
 	R
-	'Ngươi không thể làm nhiều'
-	R
-	'hơn?! điều đó sẽ khó khăn...'
+	'đi! Rất tiếc... Đây là thứ'
 	\L_02f95:
 	ZH 1:
-	'Nó thực sự được'
+	'tình cờ tạo ra lúc nghiên'
 	R
-	'thực hiện một cách tình cờ'
-	R
-	'trong giai đoạn phát triển.'
+	'cứu, không thể làm lại...'
 	\L_02f95:
 	ZH 1:
-	'Nó không thể'
-	R
-	'được sao chép...'
+	'Nói kỹ thì nguyên liệu'
 	\L_02f95:
 	ZH 1:
-	'Để có lời giải thích'
+	'gồm Hạ sĩ Hanny, chromium'
 	R
-	'chi tiết hơn, chúng ta cần'
-	R
-	'Sarge Hanny, crom cetylene,'
+	'cetylene, trình tự bazơ của'
 	\L_02f95:
 	ZH 1:
-	'DNA kem vani...'
+	'kem vani...'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Im đi, tù'
-	R
-	'trưởng vô giá trị.'
+	'Im đi, viện trưởng vô dụng.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
@@ -1268,36 +1182,34 @@
 	!VAR0465 : 0!
 	!VAR0466 : 0!
 	ZH 1:
-	'Y-Vâng, ừm...'
+	'V... Vâng...'
 	\L_02f95:
 	ZH 1:
-	'Chúng tôi đã sản xuất'
+	'Vật phá kết giới đã hoàn'
 	R
-	'thành công thứ gì đó có'
+	'thành. Đây là Lưỡi đao Kết'
 	R
-	'thể phá vỡ các rào cản.'
+	'Giới.'
 	\L_02f95:
 	ZH 1:
-	'Thanh Chắn. Nó có thể'
+	'Chắc chắn phá được cả kết'
 	R
-	'phá Vỡ Rào cản Của Zeth.'
+	'giới Zeth.'
 	\L_02f95:
 	ZH 1:
-	'Phép thuật của Leazas'
+	'Bình minh ma thuật nước'
 	R
-	'cuối cùng đã làm được...'
+	'ta... Hức...'
 	\L_02f95:
 	ZH 1:
-	'Đánh Hơi... Tôi'
-	R
-	'rất hạnh phúc...'
+	'Xúc động quá, Bệ hạ.'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Đừng khóc vì'
+	'Đừng sụt sùi nữa, đồ trai'
 	R
-	'điều này, cô gái ạ.'
+	'mặt gái.'
 	\L_02f95:
 	\L_02f88:
 	!VAR0160 : 12!
@@ -1316,94 +1228,78 @@
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Hãy nam tính'
-	R
-	'hơn đi, đồ khốn.'
+	'Cứ nam tính lên, đồ ẻo lả.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Đồ khốn... Không, tôi...'
+	'Ẻo lả... Không phải, tôi...'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Tôi có nhầm không?'
+	'Không à? Đã thế sao còn xưng'
 	R
-	'Tuy nhiên, ngươi nói chuyện'
-	R
-	'như một gã đồng tính vậy.'
+	'tôi?'
 	\L_02f95:
 	ZH 1:
-	'ngươi làm ta phát'
+	'Ghê quá. Đàn ông thì xưng ta'
 	R
-	'ốm. Nếu ngươi là đàn ông'
-	R
-	'thì nghe có vẻ nam tính hơn.'
+	'đi, ta ấy.'
 	\L_02f95:
 	ZH 1:
-	'Nói, “tôi Là'
+	'Nói thử: ta là viện trưởng'
 	R
-	'Trưởng Curtis,” và'
-	R
-	'làm cho nó hùng vĩ.'
+	'Curtis.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'... Tôi... là... Cảnh'
+	'... Ta... là... Viện trưởng'
 	R
-	'sát trưởng Curtis... Bệ hạ.'
+	'Curtis... thưa Bệ hạ.'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Một lần nữa, với'
-	R
-	'niềm tin chắc chắn hơn.'
+	'Lại lần nữa, cho đàng hoàng.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'............ Tôi là'
+	'... Ta là viện trưởng'
 	R
-	'Cảnh sát trưởng Curtis.'
+	'Curtis.'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'............'
+	'... ...'
 	\L_02f95:
 	ZH 1:
-	'... Điều này không'
-	R
-	'hiệu quả với ngươi.'
+	'Chẳng hợp chút nào.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Đó Là Lý Do Tại Sao Ta...'
+	'Thì tôi đã bảo...'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Vậy thì nhẹ'
+	'Vậy xưng tớ. Ít ra phải tớ'
 	R
-	'nhàng hơn một chút. Tuy'
-	R
-	'nhiên, không quá nhiều.'
+	'chứ.'
 	\L_02f95:
 	ZH 1:
-	'ngươi đi'
+	'Không thì nhìn kiểu gì cũng'
 	R
-	'ra hoàn toàn giống như'
-	R
-	'một người phụ nữ khác.'
+	'là con gái.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Tôi... Bệ hạ, ừm, tôi...'
+	'Tớ... Bệ hạ, ừm, tớ...'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
@@ -1425,11 +1321,9 @@
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Ừm... Điều này'
+	'À... Vậy tớ... phải nói gì'
 	R
-	'có tốt không? Tôi nên'
-	R
-	'nói gì, Thưa Bệ hạ...?'
+	'bây giờ, thưa Bệ hạ...?'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
@@ -1439,7 +1333,7 @@
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Hả? Ờ, được chứ...???'
+	'Hả? À, vâng...???'
 	\L_02f95:
 	\L_02f88:
 	\L_02e8c:
@@ -1456,18 +1350,16 @@
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Um, Thưa Bệ Hạ...'
+	'Thưa Bệ hạ... Vậy... còn'
 	R
-	'Còn nghiên cứu thì sao...?'
+	'nghiên cứu thì...'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Im đi, ta đi'
+	'Im đi, ta về. Bị ám khí làm'
 	R
-	'đây. Chất độc trong không'
-	R
-	'khí đang đến với ta.'
+	'choáng rồi.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ed2:
@@ -1482,11 +1374,9 @@
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Chất độc... Có lẽ'
+	'Ám khí... Vì nhiều vật liệu'
 	R
-	'là do tất cả những vật liệu'
-	R
-	'ma thuật mà chúng ta có...?'
+	'ma thuật quá chăng...?'
 	\L_02f95:
 	\L_02f88:
 	!VAR0516 : 0!
@@ -1497,12 +1387,12 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'Ôi, thưa Bệ hạ.'
+	'A, B... Bệ hạ.'
 	\L_02f95:
 	ZH 1:
-	'（Chaka） Xin'
+	'(Chaka) Kính chào Bệ hạ'
 	R
-	'Chào, Vua Rance.'
+	'Rance.'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
@@ -1580,9 +1470,9 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'À, ngài đến rồi à, thưa bệ hạ?'
+	'A, Bệ hạ đã tới... Tôi chưa'
 	R
-	'Bệ hạ đã không nói gì với tôi ...'
+	'kịp chào ngài...'
 	\L_02f95:
 	\L_02f88:
 	\L_02ea8:
@@ -1592,23 +1482,21 @@
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Đã đưa ngươi đủ lâu'
+	'Ra đón chậm quá, Curtis ẻo'
 	R
-	'để gặp ta, Queertis. Ngươi'
+	'lả. Nhóc kia còn giỏi hơn'
 	R
-	'vô giá trị hơn đứa trẻ này.'
+	'ngươi.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Ah, tôi-tôi'
-	R
-	'xin lỗi... Gahahahaha!..'
+	'A... Xin lỗi... Ha ha...'
 	\L_02f95:
 	ZH 1:
-	'Asuka thực sự rất tuyệt.'
+	'Asuka ngoan lắm, có muốn kẹo'
 	R
-	'Muốn ăn kẹo không, Asuka?'
+	'xoắn không?'
 	\L_02f95:
 	\L_02f88:
 	\L_02f42:
@@ -1616,7 +1504,7 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'Cảm ơn quý cô.'
+	'Cảm ơn chị.'
 	\L_02f95:
 	\L_02f88:
 	\L_02f42:
@@ -1624,10 +1512,14 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'... Tôi không phải là một quý cô, Asuka.'
+	'Kh... Không phải chị đâu,'
+	R
+	'Asuka.'
 	\L_02f95:
 	ZH 1:
-	'Tôi đã nói với Bệ hạ rất nhiều lần rồi phải không?'
+	'Anh nói bao nhiêu lần rồi'
+	R
+	'mà.'
 	\L_02f95:
 	\L_02f88:
 	\L_02f42:
@@ -1635,10 +1527,12 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'（Chaka） Này, Asuka. Gọi ông ta là ông chủ.'
+	'(Chaka) Này Asuka. Phải gọi'
+	R
+	'là anh.'
 	\L_02f95:
 	ZH 1:
-	'... Hả? Tuy nhiên, nàng là một quý cô...'
+	'... Ơ? Nhưng... là chị mà...'
 	\L_02f95:
 	\L_02f88:
 	\L_02f42:
@@ -1646,14 +1540,16 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'Aah... Nàng sẽ không hiểu đâu...'
+	'Ư... Chẳng chịu hiểu gì'
+	R
+	'cả...'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Gahahahaha!. T rẻ'
+	'Gahahahaha! Trẻ con thật thà'
 	R
-	'em thật trung thực.'
+	'ghê.'
 	\L_02f95:
 	\L_02f88:
 	\0:
@@ -1674,26 +1570,22 @@
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Có... Em tin rằng'
+	'Vâng... Em nghĩ có kiến thức'
 	R
-	'tốt hơn là có kiến'
-	R
-	'thức hơn là không...'
+	'vẫn tốt hơn không...'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Song hành với nhiều'
+	'Cũng như nhiều người đẹp thì'
 	R
-	'người phụ nữ tốt khiến ngươi'
-	R
-	'hạnh phúc hơn một người.'
+	'hạnh phúc hơn chỉ một người'
+	\L_02f95:
+	ZH 1:
+	'nhỉ.'
 	\L_02f95:
 	ZH 1:
 	'Gahahahaha!'
-	\L_02f95:
-	ZH 1:
-	'.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
@@ -1708,7 +1600,9 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'À, thưa bệ hạ... Chào mừng. Xin chào, Melfeis.'
+	'À, thưa bệ hạ... Chào mừng.'
+	R
+	'Xin chào, Melfeis.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ea8:
@@ -1720,7 +1614,7 @@
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Này, Queertis.'
+	'Này, Curtis ẻo lả.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
@@ -1746,22 +1640,24 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'N-Ngài đang nói gì vậy, ngài'
+	'B... Bệ hạ nói gì vậy! Nhưng'
 	R
-	'Rance?! Cả ngài cũng thế ư?'
+	'đó là sự thật mà.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Trời ạ... em không biết!'
+	'Thôi... Em mặc kệ ngài!'
 	\L_02f95:
 	\L_02f88:
 	\L_02f42:
 	\L_02f18:
 	ZH 1:
-	'Melfeis che khuôn mặt đỏ bừng của'
+	'Melfeis che khuôn mặt đỏ'
 	R
-	'mình bằng cả hai tay và bỏ chạy.'
+	'bừng của mình bằng cả hai'
+	R
+	'tay và bỏ chạy.'
 	\L_02f95:
 	\L_02f88:
 	!VAR0516 : 248!
@@ -1785,21 +1681,17 @@
 	\L_02f88:
 	\L_02ea8:
 	ZH 1:
-	'(gsssh)'
+	'(Bốp!)'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Ôi, cái đó'
+	'Sao ngài đánh, đau lắm! Nghe'
 	R
-	'để làm gì vậy? Điều đó tạo'
-	R
-	'ra một âm thanh dày đặc...!'
+	'tiếng nặng thế cơ mà...!?'
 	\L_02f95:
 	ZH 1:
-	'đầu của ngươi đang'
-	R
-	'cản đường, xấu của tôi.'
+	'Tại đầu ngươi ở đó chứ bộ.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
@@ -1820,65 +1712,53 @@
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Này, Shizuka. Thực'
+	'Ừ, Shizuka. Sao rồi, nghiên'
 	R
-	'hiện nhiều nghiên cứu?'
+	'cứu được bộn bề chưa?'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Rất nhiều... Chà,'
-	R
-	'một số tiền khá lớn.'
+	'Bộn bề gì... Cũng vừa phải'
 	\L_02f95:
 	ZH 1:
-	'Để đổi lấy'
+	'thôi. Được nghiên cứu vì'
 	R
-	'việc cho phép tôi nghiên cứu'
-	R
-	'vì mục đích riêng của mình,'
+	'mình thì tôi cung'
 	\L_02f95:
 	ZH 1:
-	'Tôi chỉ cần cung'
-	R
-	'cấp cho họ kết quả...'
+	'cấp kết quả, thế thôi.'
 	\L_02f95:
 	ZH 1:
-	'sau đó, liệu Nó có'
+	'Có ích cho Leazas hay không'
 	R
-	'hữu ích Cho Leazas hay không'
+	'là tùy viện trưởng Curtis'
 	R
-	'phụ thuộc vào Trưởng Curtis.'
+	'chứ?'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Ch, làm việc của mình'
+	'Chậc, vẫn cứ thích làm theo'
 	R
-	'như thường lệ... Hãy hợp'
+	'ý mình... Ta cho ở đây thì'
 	R
-	'tác hơn miễn là ngươi ở đây.'
+	'hợp tác thêm chút đi.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Tôi không ở đây'
-	R
-	'vì tôi muốn thế!'
+	'Tôi đâu thích ở đây!'
 	\L_02f95:
 	ZH 1:
-	'Nếu tôi không'
+	'Không vừa ý thì cho tôi về'
 	R
-	'thể làm được điều mình muốn'
-	R
-	'thì tôi sẽ quay lại Custom!'
+	'Custom đi!'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Ta cũng không thể'
-	R
-	'để ngươi làm điều đó.'
+	'Thế thì ta cũng không chịu.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
@@ -1889,9 +1769,11 @@
 	\L_02f42:
 	\L_02ee0:
 	ZH 1:
-	'Gahahahaha!.. Cái gì vậy? Ngươi'
+	'Ha ha... Có chuyện gì vậy?'
 	R
-	'đang cực kỳ sôi nổi đấy, Shizuka.'
+	'Cô Shizuka, náo nhiệt quá'
+	R
+	'nhỉ.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ea8:
@@ -1905,21 +1787,21 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'À, thưa bệ hạ... Bệ'
+	'A, Bệ hạ... Ha ha cái gì!'
 	R
-	'hạ đang cười về điều gì? Nhà'
+	'Viện trưởng Curtis, con bé'
 	R
-	'nghiên cứu này đáng ghét.'
+	'nghiên cứu'
 	\L_02f95:
 	ZH 1:
-	'Hãy làm điều gì đó để'
+	'viên này hỗn quá. Không làm'
 	R
-	'thay đổi tính cách của nàng.'
+	'thuốc đổi tính nó'
 	\L_02f95:
 	ZH 1:
-	'điều đó sẽ khá bất'
+	'được à? Thế... vô lý quá, Bệ'
 	R
-	'hợp lý, Thưa Bệ hạ...'
+	'hạ...'
 	\L_02f95:
 	\L_02f88:
 	\L_02f42:
@@ -1927,12 +1809,14 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'Cảnh sát trưởng Curtis, ông không cần'
+	'Viện trưởng Curtis, khỏi'
 	R
-	'phải nghe lời vị vua ngu ngốc này...'
+	'nghe lời tên vua ngốc này.'
+	R
+	'...'
 	\L_02f95:
 	ZH 1:
-	'Hẹn gặp lại, Rance.'
+	'Đi đây, Rance.'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
@@ -1969,9 +1853,9 @@
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Im đi, ta không quan'
+	'Im đi, ý kiến của gã ẻo lả'
 	R
-	'tâm ngươi phải nói gì.'
+	'bị bác bỏ.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
@@ -1985,21 +1869,15 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'Ôi, cậu Rance.'
-	R
-	'Tôi ngạc nhiên'
-	R
-	'khi thấy Bệ hạ ở đây...'
+	'Ồ, vua Leazas. Tới cả đây...'
 	\L_02f95:
 	ZH 1:
-	'Nếu Bệ hạ ở đây thì...'
+	'Chẳng lẽ...'
 	\L_02f95:
 	ZH 1:
-	'Bệ hạ đến'
+	'Tới ngắm mặt viện trưởng'
 	R
-	'để xem khuôn mặt xinh đẹp'
-	R
-	'của tù trưởng phải không?'
+	'xinh đẹp sao?'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
@@ -2027,9 +1905,9 @@
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Tại sao tôi biết bất'
+	'Chuyện đó liên quan quái gì'
 	R
-	'cứ điều gì về điều đó?!!'
+	'tới ta!!'
 	\L_02f95:
 	\L_02f88:
 	\L_02f42:
@@ -2037,7 +1915,9 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'Ồ, ở đây khá sôi động... ...!?'
+	'Ồ, ở đây khá sôi động...'
+	R
+	'...!?'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
@@ -2096,16 +1976,14 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'W - Bệ hạ sẽ không ngăn chặn'
+	'N... Này, dừng tay đi, vua'
 	R
-	'điều này, cậu Rance?'
+	'Leazas.'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Lấy cái này,'
-	R
-	'cái này, cái này!'
+	'Này thì, này thì, này thì!'
 	\L_02f95:
 	\L_02f88:
 	\L_02f42:
@@ -2113,7 +1991,9 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'Tôi-tôi chỉ muốn biết tôi đã làm gì...'
+	'T... Tôi đã làm gì cơ'
+	R
+	'chứ...?'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
@@ -2126,9 +2006,9 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'Aah... Thật đáng thương...'
+	'Ôi... Tội nghiệp quá... Xin'
 	R
-	'Tôi xin lỗi, Trưởng phòng...'
+	'lỗi cậu, viện trưởng...'
 	\L_02f95:
 	\L_02f88:
 	\L_02f42:
@@ -2162,33 +2042,31 @@
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Im đi. Không ai đến gặp'
+	'Im đi. Ai thèm tới gặp'
 	R
-	'ngươi, ngươi điên cuốn sách.'
+	'ngươi, sách điên.'
 	\L_02f95:
 	ZH 1:
-	'Nghiên cứu thế nào'
+	'Nghiên cứu thế nào, có'
 	R
-	'rồi? Có nghiêm túc không?'
+	'nghiêm túc không?'
 	\L_02f95:
 	ZH 1:
-	'Ta hy vọng là không'
+	'Không làm trò nguy hiểm đấy'
 	R
-	'làm điều gì nguy hiểm.'
+	'chứ?'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Juuust đang'
+	'Tôi vẫn làm đúng lời viện'
 	R
-	'làm theo những gì thủ'
-	R
-	'lĩnh bảo tôi, bây giờ...'
+	'trưởng mà... Dù sao thì...'
 	\L_02f95:
 	ZH 1:
-	'Này, cậu Rance,'
+	'Cậu Rance, tôi có việc muốn'
 	R
-	'tôi có một yêu cầu.'
+	'nhờ.'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
@@ -2205,9 +2083,9 @@
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'... Đó là kiểu...'
+	'... Này, chuyện ấy... Ồ, vừa'
 	R
-	'Ồ, nói về ma quỷ.'
+	'nhắc tới thì Curtis tới.'
 	\L_02f95:
 	\L_02f88:
 	\L_02f42:
@@ -2215,19 +2093,19 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'U-Um, Thưa Bệ Hạ...'
+	'Thưa Bệ hạ...'
 	\L_02f95:
 	ZH 1:
-	'Tôi xin lỗi, tôi đang trốn đằng'
+	'Xin thất lễ vì chào từ sau'
 	R
-	'sau một trụ cột, chào mừng...'
+	'cột... Kính mừng ngài tới...'
 	\L_02f95:
 	\L_02f88:
 	\L_02ea8:
 	ZH 1:
-	'Curtis lo lắng nhìn ra'
+	'Curtis run rẩy cúi đầu sau'
 	R
-	'từ phía sau một cây cột.'
+	'chiếc cột cách đó một đoạn.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ed2:
@@ -2311,9 +2189,9 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'Y-Bệ hạ không cần'
+	'C... Cô không cần tới đâu...'
 	R
-	'phải đến... Papaya... Uuu...'
+	'Cô Papaya... Ư...'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
@@ -2326,16 +2204,12 @@
 	!VAR0772 : 1!
 	\L_02e70:
 	ZH 1:
-	'Hmmmm, ở đây có'
-	R
-	'nhiều thứ kỳ lạ quá...'
+	'Hừm, đủ thứ kỳ lạ... Quả là'
 	\L_02f95:
 	ZH 1:
-	'Viện nghiên'
+	'viện nghiên cứu ma thuật của'
 	R
-	'cứu ma thuật của ta lẽ ra'
-	R
-	'phải như vậy. Này, Maris.'
+	'ta. Nhỉ, Maris.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ea8:
@@ -2347,9 +2221,9 @@
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Ah, Bệ hạ, nhìn'
+	'A, Bệ hạ Rance, phía'
 	R
-	'xem ngài đang đi đâu...'
+	'trước...'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
@@ -2359,12 +2233,14 @@
 	\L_02f88:
 	\L_02ea8:
 	ZH 1:
-	'（vết sưng）'
+	'(Bịch!) Một'
 	\L_02f95:
 	ZH 1:
-	'Rance không chú ý và va'
+	'người nhỏ nhắn có vẻ cũng'
 	R
-	'chạm với một người nhỏ nhắn.'
+	'đang nhìn chỗ khác, đâm sầm'
+	R
+	'vào Rance.'
 	\L_02f95:
 	\L_02f88:
 	\L_02f42:
@@ -2372,60 +2248,56 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'Wah... À... S-Xin Lỗi, tôi đã xem một số'
+	'Wah... À... S-Xin Lỗi, tôi'
 	R
-	'cuốn sách... Bệ hạ có bị thương không?'
+	'đã xem một số cuốn sách...'
+	R
+	'Bệ hạ có bị thương không?'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Không, ta ổn. Chính'
+	'Không, ta ổn. Ngươi còn ngồi'
 	R
-	'em là người bị ngã, tại sao'
+	'bệt đó mà lo cho người khác'
 	R
-	'lại lo lắng cho ta? Đây.'
+	'sao? ... Nào.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'À, được'
-	R
-	'rồi... Cảm ơn bệ hạ.'
+	'A, vâng... Cảm ơn Bệ hạ.'
 	\L_02f95:
 	ZH 1:
-	'À, tôi vẫn'
-	R
-	'chưa tự giới thiệu…'
+	'Xin tự giới thiệu muộn...'
 	\L_02f95:
 	ZH 1:
-	'Tôi là viện trưởng của'
+	'Tôi là Curtis, vừa nhận chức'
 	R
-	'viện này. Tên tôi là Curtis.'
+	'viện trưởng ở đây.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ea8:
 	ZH 1:
-	'Curtis nắm lấy tay'
+	'Curtis nắm tay Rance đứng'
 	R
-	'Rance và mỉm cười.'
+	'dậy, mỉm cười.'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Ồ? Ồ... Vậy'
+	'Ồ? À... Ngươi là viện trưởng'
 	R
-	'ngươi là thủ lĩnh à?'
-	R
-	'Ngươi khá dễ thương...'
+	'à. Dễ thương quá, hì hì...'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Ôi, đừng'
+	'Dễ thương ư... Không dám...'
 	R
-	'gọi tôi là dễ thương... tại'
+	'Sao lại không, ngươi dễ'
 	R
-	'sao không? Bệ hạ thực sự là.'
+	'thương lắm.'
 	\L_02f95:
 	\L_02f88:
 	\L_02f42:
@@ -2526,62 +2398,54 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'Nhưng Bệ hạ, bất kể tuổi tác'
+	'Nhưng Bệ hạ, tài cậu Curtis'
 	R
-	'của Curtis, cậu rất tài năng...'
+	'xuất sắc tới mức chẳng cần'
+	R
+	'xét tuổi...'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Tuổi tác của chàng'
-	R
-	'không phải là vấn đề!!!'
+	'Vấn đề không phải tuổi!!'
 	\L_02f95:
 	ZH 1:
-	'Ngươi không thể biết được'
-	R
-	'giới tính của chàng là gì!!'
+	'Là giới tính, giới tính ấy!!'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Đó cũng không'
-	R
-	'phải là vấn đề.'
+	'Giới tính lại'
 	\L_02f95:
 	ZH 1:
-	'cậu là người giỏi'
-	R
-	'nhất cho công việc'
+	'càng không quan trọng.'
 	\L_02f95:
 	ZH 1:
-	'phát triển phép thuật'
+	'Cậu ấy là người phù hợp nhất'
 	R
-	'của đất nước chúng thần.'
+	'để phát'
 	\L_02f95:
 	ZH 1:
-	'Tất cả là để đất nước'
+	'triển ma thuật nước ta. Vì'
 	R
-	'chúng ta bắt kịp Zeth, vì'
+	'đuổi kịp Zeth, xin Bệ hạ'
 	R
-	'vậy hãy tha thứ cho anh ta,'
+	'nhẫn'
 	\L_02f95:
 	ZH 1:
-	'Bệ hạ...'
+	'nại...'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Mgggh... Hừm, được'
+	'Hừ... Được, ta nhịn. Nhưng'
 	R
-	'rồi. Ta sẽ giải quyết nó.'
+	'Curtis,'
 	\L_02f95:
 	ZH 1:
-	'Đổi lại, ta sẽ'
+	'không làm việc cho tử tế thì'
 	R
-	'treo cổ ngươi nếu ngươi không'
-	R
-	'làm việc chăm chỉ, Curtis.'
+	'ta treo cổ ngươi.'
 	\L_02f95:
 	\L_02f88:
 	\L_02f42:
@@ -2589,7 +2453,9 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'Ah, o-được rồi... Tôi sẽ cố gắng hết sức có thể.'
+	'A... V... Vâng... Tôi sẽ dốc'
+	R
+	'hết sức.'
 	\L_02f95:
 	\L_02f88:
 	\L_02e8c:
@@ -2606,16 +2472,16 @@
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Gaaaaah, không thể'
+	'Gaaa, không tha! Từ nay ta'
 	R
-	'tha thứ được! Từ bây giờ'
+	'sẽ bắt nạt hắn. Quyết định'
 	R
-	'ta sẽ cho ngươi địa ngục!'
+	'vậy!'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Chào...!?'
+	'Á...!?'
 	\L_02f95:
 	\L_02f88:
 	\L_02f42:
@@ -2623,14 +2489,14 @@
 	\L_02f34:
 	\L_02ee0:
 	ZH 1:
-	'Xin hãy bình tĩnh lại, Bệ hạ...'
+	'Xin bình tĩnh, Bệ hạ'
 	R
-	'Bệ hạ đang làm Curtis sợ đấy.'
+	'Rance...'
 	\L_02f95:
 	ZH 1:
-	'đó là tất cả những gì cần thiết để'
+	'Cậu Curtis sợ rồi. Cứ để hắn'
 	R
-	'khiến cậu sợ hãi?!! Haaah, haaaah...'
+	'sợ!! Phù, phù...'
 	\L_02f95:
 	\L_02f88:
 	\L_02f42:
@@ -2638,7 +2504,7 @@
 	\L_02f34:
 	\L_02efc:
 	ZH 1:
-	'đó là cách tôi... Khóc nức nở.'
+	'Cứ để sợ... Hức hức.'
 	\L_02f95:
 	\L_02f88:
 	\0:
@@ -2654,35 +2520,31 @@
 	\L_02f88:
 	\L_02ea8:
 	ZH 1:
-	'Cảnh sát trưởng Curtis'
+	'Viện trưởng Curtis dịu dàng'
 	R
-	'duyên dáng chào đón Rance.'
+	'ra đón Rance.'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Hừm, thứ rác'
-	R
-	'rưởi mỏng manh quá.'
+	'Hừ, ẻo lả quá.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:
 	ZH 1:
-	'Ta có hành'
-	R
-	'động tế nhị không...?'
+	'Tôi... ẻo lả vậy sao...?'
 	\L_02f95:
 	\L_02f88:
 	\L_02e70:
 	ZH 1:
-	'Có ngươi làm, tất'
+	'Phải, phải, cực kỳ luôn.'
 	R
-	'cả các thời gian.'
+	'Ngươi'
 	\L_02f95:
 	ZH 1:
-	'Nghiên cứu một số cách để'
+	'nghiên cứu cách nhét thước'
 	R
-	'có được một số xương sống.'
+	'vào lưng cho thẳng đi.'
 	\L_02f95:
 	\L_02f88:
 	\L_02ee0:

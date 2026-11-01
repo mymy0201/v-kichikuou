@@ -1,0 +1,9495 @@
+--- before/Gﾁｽﾞｺ.ADV
++++ src/Gﾁｽﾞｺ.ADV
+@@ -65,9 +65,7 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Chizuko'
+-	R
+-	'- Phòng Chỉ Huy'
++	'Tháp Chizuko - Phòng Chỉ huy'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	{(VAR0650 = 8) + (VAR0650 = 9):
+@@ -130,11 +128,9 @@
+ 		\L_062f2:
+ 		\L_06212:
+ 		ZH 1:
+-		'Cấp dưới'
+-		R
+-		'của Chizuko rời phòng chỉ'
+-		R
+-		'huy với vẻ mặt bối rối.'
++		'Thuộc hạ rời phòng chỉ'
++		R
++		'huy với vẻ mặt khó xử.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_062ac:
+@@ -207,23 +203,23 @@
+ 		'Tôi mạnh hơn mà...'
+ 		\L_062ff:
+ 		ZH 1:
+-		'Ngài Chizuko, ít nhất hãy so'
+-		R
+-		'tài ma pháp trước đã...!'
++		'Ngài Chizuko, ít nhất hãy'
++		R
++		'so thực lực trước đã...!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Giả sử có vi khuẩn X, mỗi'
+-		R
+-		'phút số lượng tăng lên bình'
+-		\L_062ff:
+-		ZH 1:
+-		'phương. Nhốt một con X vào'
+-		R
+-		'bình, sau một giờ sẽ có bao'
+-		R
+-		'nhiêu con?'
++		'Giả sử có vi khuẩn X, cứ'
++		R
++		'mỗi phút lại phân chia theo'
++		\L_062ff:
++		ZH 1:
++		'lũy thừa bình phương. Nhốt'
++		R
++		'một con X vào bình, sau một'
++		R
++		'giờ sẽ có bao nhiêu con?'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+@@ -261,12 +257,14 @@
+ 		\L_0629e:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Ngài Chizuko... Ý tôi là so'
+-		R
+-		'sức mạnh ma pháp cơ...'
+-		\L_062ff:
+-		ZH 1:
+-		'Tôi cũng muốn chiến đấu mà.'
++		'Ngài Chizuko... ừm,'
++		R
++		'thực lực ma pháp thì...'
++		\L_062ff:
++		ZH 1:
++		'......Tôi cũng'
++		R
++		'muốn ra trận mà.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+@@ -294,14 +292,14 @@
+ 	'xuất trận đi.'
+ 	\L_062ff:
+ 	ZH 1:
+-	'Hãy giữ danh dự thuộc hạ của'
+-	R
+-	'ta, thủ lĩnh Tứ Thiên'
+-	\L_062ff:
+-	ZH 1:
+-	'Vương Zeth, mà đánh quân'
+-	R
+-	'Leazas tan tác!'
++	'Hãy giữ danh dự thuộc hạ'
++	R
++	'của ta, thủ lĩnh Tứ Đại'
++	\L_062ff:
++	ZH 1:
++	'Lãnh Chúa Zeth, mà đánh'
++	R
++	'quân Leazas tan tác!'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_0624a:
+@@ -542,7 +540,7 @@
+ 	R
+ 	'Phòng yết kiến'
+ 	R
+-	'Rance gọi là Chizuko.'
++	'Rance cho gọi Chizuko.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 61!
+@@ -556,131 +554,127 @@
+ 	{VAR0690 = 1:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Ngài Rance, thật vinh dự'
+-		R
+-		'khi được ngài triệu tập...'
+-		\L_062ff:
+-		ZH 1:
+-		'ngài có việc'
+-		R
+-		'gì với tôi à...?'
++		'Ngài Rance, thật vinh'
++		R
++		'hạnh được ngài cho gọi...'
++		\L_062ff:
++		ZH 1:
++		'ngài có việc gì ạ...?'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_06212:
+ 		ZH 1:
+-		'Chizuko nhìn'
+-		R
+-		'Rance và đỏ mặt.'
++		'Chizuko ửng hồng'
++		R
++		'đôi má, nhìn Rance.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Ừ, có chuyện'
+-		R
+-		'này ta muốn hỏi.'
++		'Ừ, ta có chuyện muốn hỏi.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Ngài muốn'
+-		\L_062ff:
+-		ZH 1:
+-		'hỏi gì ạ? Xin cứ hỏi, tôi'
+-		\L_062ff:
+-		ZH 1:
+-		'sẽ vận dụng mọi kiến thức để'
+-		R
+-		'trả lời.'
++		'Chuyện gì ạ...?'
++		\L_062ff:
++		ZH 1:
++		'Ngài cứ hỏi bất'
++		R
++		'cứ điều gì, tôi'
++		\L_062ff:
++		ZH 1:
++		'sẽ huy động mọi kiến'
++		R
++		'thức để trả lời.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Giữa ta và Gandhi, cô thích'
+-		R
+-		'ai hơn?'
+-		\L_062ff:
+-		ZH 1:
+-		'Chấm theo thang một trăm'
+-		R
+-		'điểm đi.'
++		'Ừm, cô thích ta hay'
++		R
++		'thích Gandhi hơn?'
++		\L_062ff:
++		ZH 1:
++		'Trả lời theo thang'
++		R
++		'điểm một trăm.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Ơ... Dĩ nhiên là ngài Rance,'
+-		R
+-		'nhưng chấm điểm thì... Khó'
+-		R
+-		'quá.'
++		'Ơ, ư... Dĩ nhiên là'
++		R
++		'Ngài Rance, nhưng chấm'
++		R
++		'điểm thì...... khó quá.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Ừm, ừm. Vậy nếu'
+-		R
+-		'nói ta ra lệnh cho Gandhi'
+-		R
+-		'cưới ngươi, ngươi sẽ làm gì?'
++		'Ừm ừm. Vậy nếu ta bảo sẽ'
++		R
++		'ra lệnh cho lão Gandhi'
++		R
++		'tái hôn với cô thì sao?'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Ơ... Tái hôn... Với ngài'
+-		R
+-		'Gandhi...'
+-		\L_062ff:
+-		ZH 1:
+-		'Ý ngài là không cần tôi nữa'
+-		R
+-		'sao...?'
++		'Hả......... ......Tái'
++		R
++		'hôn...... với'
++		R
++		'ngài Gandhi......'
++		\L_062ff:
++		ZH 1:
++		'Vậy là...... ngài bảo'
++		R
++		'không cần tôi nữa sao......'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Ừm? Không,'
+-		R
+-		'đó không phải...'
++		'Hử? Không, ý ta là,'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Không, xin đừng bỏ rơi'
+-		R
+-		'tôi, Ngài Rance... Tôi, giờ'
+-		R
+-		'tôi thuộc về ngài rồi...!'
++		'Không chịu đâu, xin đừng bỏ'
++		R
++		'tôi, Ngài Rance... Chizuko'
++		R
++		'đã là người của ngài rồi...!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_06212:
+ 		ZH 1:
+-		'Chizuko tủi thân che mặt,'
+-		R
+-		'bật khóc.'
++		'Chizuko e lệ che'
++		R
++		'mặt, bật khóc.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Ối, đừng khóc, đừng khóc! Ta'
+-		R
+-		'đùa thôi! Ngoan, cứ giữ lòng'
+-		R
+-		'trung thành như thế nhé.'
++		'Ối, đừng khóc, đừng khóc, ta'
++		R
++		'đùa thôi! Ngoan, ngoan, từ'
++		R
++		'giờ cứ giữ cái lòng đó nhé.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Vâng... Chỉ cần được ở bên'
+-		R
+-		'ngài Rance là tôi hạnh phúc'
+-		R
+-		'rồi.'
++		'V-vâng...... Chizuko'
++		R
++		'chỉ cần được ở bên Ngài'
++		R
++		'Rance là hạnh phúc rồi.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Gahahahaha!, ngươi'
+-		R
+-		'thật dễ thương.'
++		'Gahahahaha, đáng yêu lắm.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		!VAR0516 : 0!
+@@ -689,68 +683,62 @@
+ 	}
+ 	\L_0624a:
+ 	ZH 1:
+-	'Chào buổi sáng, ngài Rance.'
+-	R
+-	'Ngài có việc gì cần tôi ạ?'
+-	R
+-	'Hi hi...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ngươi đang'
+-	R
+-	'cười về điều gì?'
+-	\L_062ff:
+-	ZH 1:
+-	'Đơn vị ma'
+-	R
+-	'thuật của ngươi đang'
+-	R
+-	'hoạt động thế nào?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Vâng, không có vấn đề gì.'
+-	R
+-	'Lúc nào cũng sẵn sàng chiến'
+-	R
+-	'đấu với đầy đủ sức mạnh.'
+-	\L_062ff:
+-	ZH 1:
+-	'Vì ngài Rance, tôi đã huấn'
++	'Chào buổi sáng, Ngài Rance.'
++	R
++	'Ngài có việc gì ạ? Hi hi...'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Gì thế, cười tủm tỉm.'
++	\L_062ff:
++	ZH 1:
++	'Đơn vị ma pháp cô chỉ'
++	R
++	'huy dạo này thế nào?'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Vâng, hoàn toàn không'
++	R
++	'có vấn đề gì. Lúc nào'
++	R
++	'cũng sẵn sàng chiến đấu.'
++	\L_062ff:
++	ZH 1:
++	'Vì Ngài Rance, tôi đang huấn'
+ 	R
+ 	'luyện họ rất nghiêm khắc...'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_061da:
+ 	ZH 1:
+-	'Ta hiểu rồi. Vậy...'
+-	\L_062ff:
+-	ZH 1:
+-	'Có cô gái dễ thương'
+-	R
+-	'nào trong đơn vị của ngươi'
+-	R
+-	'không? Nếu có thì giao cho.'
+-	\L_062ff:
+-	ZH 1:
+-	'Bản thân ta sẽ chỉ'
+-	R
+-	'huy họ một cách nghiêm khắc.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Không có cái nào cả.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Đó là một câu trả lời'
+-	R
+-	'nhanh chóng. Có đúng không?'
++	'Thế à. Vậy......'
++	\L_062ff:
++	ZH 1:
++	'trong đơn vị của cô có'
++	R
++	'em nào dễ thương không?'
++	R
++	'Có thì giao cho ta.'
++	\L_062ff:
++	ZH 1:
++	'Ta cũng sẽ đích thân'
++	R
++	'huấn luyện nghiêm khắc.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Không có người như thế ạ.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Trả lời ngay tắp lự'
++	R
++	'à. Thật không đấy?'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_0624a:
+@@ -760,35 +748,35 @@
+ 	'không nói dối đâu...'
+ 	\L_062ff:
+ 	ZH 1:
+-	'Không có cô'
+-	R
+-	'gái nào phù hợp với cậu'
+-	R
+-	'trong đơn vị của tôi cả.'
+-	\L_062ff:
+-	ZH 1:
+-	'Tất cả đều'
+-	R
+-	'tầm thường. Nếu tôi là'
+-	R
+-	'100 thì họ ở khoảng 10.'
+-	\L_062ff:
+-	ZH 1:
+-	'Vì vậy, tôi xin lỗi,'
+-	R
+-	'Ngài Rance, nhưng xin hãy'
+-	R
+-	'tha thứ cho tôi lúc này...'
+-	\L_062ff:
+-	ZH 1:
+-	'Huhuhuhu...'
++	'Trong đơn vị tôi không'
++	R
++	'có cô gái nào đáng để'
++	R
++	'Ngài Rance để mắt tới.'
++	\L_062ff:
++	ZH 1:
++	'Toàn là các cô bình'
++	R
++	'thường. Nếu tôi là 100'
++	R
++	'thì họ được 10 là cùng.'
++	\L_062ff:
++	ZH 1:
++	'Vì thế, xin lỗi Ngài Rance,'
++	R
++	'tạm thời xin ngài chịu khó'
++	R
++	'chỉ có mình tôi thôi...'
++	\L_062ff:
++	ZH 1:
++	'Hi hi hi hi......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_061f6:
+ 	ZH 1:
+-	'Có gì đó rất'
+-	R
+-	'lạ... Nàng nói thật à...?'
++	'Sao nghe đáng ngờ thế......'
++	R
++	'thật không vậy......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 0!
+@@ -810,287 +798,277 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng kho báu'
++	'Kho báu'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 61!
+ 	\L_0629e:
+ 	\L_0624a:
+ 	ZH 1:
+-	'Ngài Rance...?'
+-	R
+-	'Tại sao cậu lại gọi'
+-	R
+-	'thiếp... ra rồi đây...?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko nghiêng'
+-	R
+-	'đầu bối rối. Cô vẫn mặc'
+-	R
+-	'chiếc váy như thường lệ.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Mhm, vậy vấn đề là,'
+-	R
+-	'có một điều ta muốn biết...'
+-	\L_062ff:
+-	ZH 1:
+-	'Vì ngươi'
+-	R
+-	'là thủ lĩnh các pháp sư của'
+-	R
+-	'Zeth, ngươi có thể giúp đỡ.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Cậu ơi, cậu có yêu'
+-	R
+-	'cầu gì với tôi không?'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi rất vui khi'
+-	R
+-	'nghe điều đó, tôi sẽ'
+-	R
+-	'làm tốt nhất có thể.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ừ, làm đi. Vì vậy...'
+-	R
+-	'Trèo lên cái thang đó và'
+-	R
+-	'lấy một cái hộp ra khỏi kệ.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Hả...? Nhưng, ừm... tôi...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko lẩm bẩm và'
+-	R
+-	'nhìn xuống sàn nhà.'
++	'Ngài Rance......? Có'
++	R
++	'chuyện gì vậy ạ, sao lại'
++	R
++	'gọi tôi tới chỗ này......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko xuất hiện trong'
++	R
++	'bộ váy dạ hội thường ngày,'
++	R
++	'nghiêng đầu khó hiểu.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ừm, thật ra ta có'
++	R
++	'chuyện muốn biết...'
++	\L_062ff:
++	ZH 1:
++	'Cô từng là thủ lĩnh pháp'
++	R
++	'sư Zeth, chắc sẽ biết.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Ôi, ngài tin cậy tôi sao?'
++	\L_062ff:
++	ZH 1:
++	'Vui quá, tôi sẽ cố gắng.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ừ, cố đi. Thế...... trèo'
++	R
++	'lên cái thang kia, lấy'
++	R
++	'giùm một cái hộp trên kệ.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Hả......... nhưng,'
++	R
++	'ừm...... tôi......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko ấp úng, cúi gằm mặt.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_06266:
+ 	ZH 1:
+-	'Tôi nên làm gì?'
+-	\L_062ff:
+-	ZH 1:
+-	'Đó là lệnh của Ngài Rance,'
+-	R
+-	'nhưng tôi không thể làm'
+-	R
+-	'được trong chiếc váy này…'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ừm, có chuyện'
+-	R
+-	'gì thế? Đó là một nhiệm'
+-	R
+-	'vụ đơn giản và an toàn.'
+-	\L_062ff:
+-	ZH 1:
+-	'Ta tự mình'
+-	R
+-	'dựng lên cái thang.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Aah, vậy có lẽ...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Sao cũng được, cứ làm đi.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'... Được rồi...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko chuẩn'
+-	R
+-	'bị sẵn sàng và leo lên chiếc'
+-	R
+-	'thang mà Rance đã dựng sẵn.'
++	'Làm sao đây,'
++	\L_062ff:
++	ZH 1:
++	'lệnh của Ngài'
++	R
++	'Rance...... nhưng mặc'
++	R
++	'váy thế này thì......'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Hử, sao thế? Việc đơn'
++	R
++	'giản, an toàn thôi mà.'
++	\L_062ff:
++	ZH 1:
++	'Thang thì đích'
++	R
++	'thân ta giữ cho.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Ư, nếu thế thì'
++	R
++	'lại càng......'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Được rồi, làm đi.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'.........Vâng.........'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko đành cam'
++	R
++	'chịu, leo lên chiếc'
++	R
++	'thang Rance đang giữ.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_06266:
+ 	ZH 1:
+-	'Vâng, đó'
+-	R
+-	'là Vua Rance, ông ấy đã tha'
+-	R
+-	'thứ cho tôi tất cả mọi thứ…'
+-	\L_062ff:
+-	ZH 1:
+-	'Đừng xấu hổ nếu mắc'
+-	R
+-	'sai lầm. Cố lên nhé Chizuko.'
++	'Phải rồi, là Ngài Rance,'
++	R
++	'người mình đã trao'
++	R
++	'trọn tất cả mà......'
++	\L_062ff:
++	ZH 1:
++	'Lỡ có sơ suất gì cũng'
++	R
++	'chẳng có gì phải xấu'
++	R
++	'hổ. Cố lên, Chizuko.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_061f6:
+ 	ZH 1:
+-	'Uheehee, nàng đang'
+-	R
+-	'leo lên... Để xem nào.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Rance làm bộ mặt'
+-	R
+-	'thô tục và nhìn lên.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ồ... Nó đây rồi...'
++	'Hì hì, leo rồi, leo'
++	R
++	'rồi...... để xem nào?'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Rance mặt mày dê'
++	R
++	'xồm, ngước nhìn lên.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ồ, .........chà'
++	R
++	'chà chà......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_061f6:
+ 	ZH 1:
+-	'Ừ, đúng như kế hoạch.'
+-	\L_062ff:
+-	ZH 1:
+-	'Nếu ngươi nhìn'
+-	R
+-	'trộm loại trang phục'
+-	R
+-	'này theo cách này,'
+-	\L_062ff:
+-	ZH 1:
+-	'ngươi có thể thấy mọi thứ.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Mmm, tuyệt...'
+-	R
+-	'Quang cảnh tuyệt vời.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Rance vô thức'
+-	R
+-	'khoanh tay và gật đầu.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko nghe thấy hắn'
+-	R
+-	'đang nói chuyện với chính'
+-	\L_062ff:
+-	ZH 1:
+-	'mình và điên'
+-	R
+-	'cuồng nhìn xuống.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Uh, Ngài Rance... Ừm,'
+-	R
+-	'ông là ai...? Kyaah!'
++	'Quả nhiên, đúng như ý đồ.'
++	\L_062ff:
++	ZH 1:
++	'Váy dạ hội kiểu này'
++	R
++	'mà nhìn từ dưới lên'
++	\L_062ff:
++	ZH 1:
++	'thế này thì thấy'
++	R
++	'hết sạch bên trong.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ưm, tao nhã thật......'
++	R
++	'Tuyệt cảnh, tuyệt cảnh.'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Rance bất giác'
++	R
++	'khoanh tay, gật gù.'
++	\L_062ff:
++	ZH 1:
++	'Nghe thấy hắn lẩm bẩm,'
++	\L_062ff:
++	ZH 1:
++	'Chizuko hốt'
++	R
++	'hoảng nhìn xuống.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Ơ, Ngài Rance...'
++	R
++	'ngài đang... kyaa!'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_062ac:
+ 	\L_061da:
+ 	ZH 1:
+-	'Ôi, đồ ngốc!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'（bùm!）'
+-	\L_062ff:
+-	ZH 1:
+-	'（baaang...）'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko hoàn toàn'
+-	R
+-	'bước nhầm vào thang'
+-	R
+-	'và bị trượt chân.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chiếc thang'
+-	R
+-	'rơi xuống và tung bụi lên'
+-	R
+-	'khắp phòng chứa kho báu.'
++	'Oái, con ngốc này!'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'（Rầm!!）'
++	\L_062ff:
++	ZH 1:
++	'（Loảng xoảng...）'
++	\L_062ff:
++	ZH 1:
++	'Chizuko trượt chân khỏi'
++	R
++	'thang, rơi xuống ngoạn mục.'
++	\L_062ff:
++	ZH 1:
++	'Chiếc thang đổ làm bụi'
++	R
++	'trong kho báu bay mù mịt.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 61!
+ 	\L_0629e:
+ 	\L_0624a:
+ 	ZH 1:
+-	'...?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ôi... Cậu nặng quá...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'À!? Kyah, tôi xin lỗi...'
+-	R
+-	'Cậu có bị thương không!?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Không, nhờ thế mà'
+-	R
+-	'ta mới có thể đứng'
+-	R
+-	'được như thế này.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Cú ngã của'
+-	R
+-	'Chizuko đã được Rance đỡ.'
+-	\L_062ff:
+-	ZH 1:
+-	'Họ tình cờ kết thúc ở tư'
+-	R
+-	'thế mà hắn ôm cô trong tay.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Xin lỗi... Ừm... Cảm'
+-	R
+-	'ơn cậu. Cậu đã cứu tôi...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Vâng, không'
+-	R
+-	'có gì to tát cả.'
++	'.........?'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Đau đau...... cô'
++	R
++	'nặng thật đấy......'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'A!? Kya, xin lỗi ngài......'
++	R
++	'ngài có bị thương không ạ!?'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Không, nên mới đứng'
++	R
++	'được thế này đây.'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko rơi xuống'
++	R
++	'được Rance đỡ lấy.'
++	\L_062ff:
++	ZH 1:
++	'Vừa vặn thành tư thế'
++	R
++	'như được hắn bế lên.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Xin lỗi ngài......'
++	R
++	'ừm...... cảm ơn ngài.'
++	R
++	'Đã cứu tôi......'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'À, chuyện đó à, có gì đâu.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_0624a:
+@@ -1100,41 +1078,41 @@
+ 	\L_062f2:
+ 	\L_06266:
+ 	ZH 1:
+-	'Tôi chưa bao'
+-	R
+-	'giờ rơi vào hoàn cảnh nữ'
+-	R
+-	'tính như vậy trước đây...'
+-	\L_062ff:
+-	ZH 1:
+-	'Đúng như Vua Gandhi'
+-	R
+-	'đã nói... Tôi có thể hạnh'
+-	R
+-	'phúc nếu ở bên Ngài Rance...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Này, ta đang hạ'
+-	R
+-	'thấp cô đấy, Chizuko. Chào!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Uuuuuh... À,'
+-	R
+-	'được rồi...!... Vua'
+-	R
+-	'Rance, tôi rất vui...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Điều đó đến từ'
+-	R
+-	'đâu? Ngươi thật kỳ lạ...'
++	'Thình thịch...... một'
++	R
++	'tình huống thiếu nữ thế'
++	R
++	'này, lần đầu tiên......'
++	\L_062ff:
++	ZH 1:
++	'Đúng như ngài Gandhi'
++	R
++	'nói... theo Ngài Rance,'
++	R
++	'mình sẽ hạnh phúc......'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Này, ta thả xuống'
++	R
++	'đây, Chizuko. Này!'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Ngây ngất...... a,'
++	R
++	'vâng...! ......Ngài Rance,'
++	R
++	'tôi hạnh phúc lắm......'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Tự dưng nói gì thế?'
++	R
++	'Đồ kỳ quặc......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 0!
+@@ -1160,127 +1138,121 @@
+ 	R
+ 	'Phòng yết kiến'
+ 	R
+-	'Rance gọi là Chizuko.'
++	'Rance cho gọi Chizuko.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 61!
+ 	\L_0629e:
+ 	\L_0624a:
+ 	ZH 1:
+-	'Chào buổi sáng,'
+-	R
+-	'Ngài Rance. Cậu cần gì?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ngươi khỏe không?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Không tệ,'
+-	R
+-	'nhưng... Ừm... Tôi không'
+-	R
+-	'biết về chiếc váy này...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ừm, chuyển'
+-	R
+-	'vào có khó không?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Haah...'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi đang tự hỏi liệu'
+-	R
+-	'cậu có thể cho tôi mặc quần'
+-	R
+-	'áo tử tế hơn được không...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Chiếc váy đó dễ'
+-	R
+-	'thương quá, thế là đủ rồi.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Nhưng tôi không thể'
+-	R
+-	'sử dụng sức mạnh của mình'
+-	R
+-	'đúng cách trong bộ váy này.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ta hiểu rồi...'
+-	\L_062ff:
+-	ZH 1:
+-	'Vậy ngươi'
+-	R
+-	'có thể thay đổi. Mặc'
+-	R
+-	'quần áo chỉnh tề hơn.'
+-	\L_062ff:
+-	ZH 1:
+-	'Hãy chắc chắn rằng'
+-	R
+-	'chúng thực sự phù hợp.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Vâng, cảm ơn'
+-	R
+-	'cậu rất nhiều. Vậy'
+-	R
+-	'tôi sẽ đi thay đồ.'
++	'Chào buổi sáng, Ngài'
++	R
++	'Rance. Ngài có việc gì ạ?'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ừm, sao, dạo này thế nào?'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Vâng, không tệ, nhưng...'
++	R
++	'ừm...... bộ trang'
++	R
++	'phục này thì hơi......'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Hử, khó cử động à?'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Haa......'
++	\L_062ff:
++	ZH 1:
++	'Ngài có thể cho tôi'
++	R
++	'mặc trang phục tử tế'
++	R
++	'hơn được không ạ......'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Cái đó dễ thương'
++	R
++	'mà, được rồi.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Nhưng mặc thế này,'
++	R
++	'tôi...... không phát'
++	R
++	'huy được mấy sức mạnh.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Thế à......'
++	\L_062ff:
++	ZH 1:
++	'Ừm, vậy thay cũng được.'
++	R
++	'Mặc cho tử tế vào.'
++	\L_062ff:
++	ZH 1:
++	'Nhất định phải [tử tế] đấy.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Vâng, cảm ơn ngài.'
++	R
++	'Vậy tôi đi thay đồ.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_062ac:
+ 	\L_06212:
+ 	ZH 1:
+-	'Chizuko vui vẻ'
+-	R
+-	'đi đến phòng thay đồ.'
+-	R
+-	'Một thời gian sau...'
++	'Chizuko phấn khởi đi'
++	R
++	'tới phòng thay đồ.'
++	R
++	'Một lúc sau.........'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 43!
+ 	\L_0629e:
+ 	\L_0624a:
+ 	ZH 1:
+-	'Ngài Rance, tôi đã'
+-	R
+-	'thay đổi! Cậu nghĩ gì? Đây'
+-	R
+-	'là một số quần áo thích hợp!'
+-	\L_062ff:
+-	ZH 1:
+-	'Đây thực sự là loại trang'
+-	R
+-	'phục mà các pháp sư nên mặc!'
+-	\L_062ff:
+-	ZH 1:
+-	'Aah... Mặc quần áo đẹp'
+-	R
+-	'mang lại cho tôi sức mạnh...'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi sẽ làm việc chăm'
+-	R
+-	'chỉ vì ngài, Ngài Rance.'
++	'Ngài Rance, tôi thay'
++	R
++	'xong rồi! Thế nào ạ?'
++	R
++	'Trang phục tử tế đây!'
++	\L_062ff:
++	ZH 1:
++	'Pháp sư thì phải mặc bộ'
++	R
++	'này mới được...... Đây'
++	R
++	'mới là dáng vẻ vốn có!'
++	\L_062ff:
++	ZH 1:
++	'Aa... mặc đồ đẹp vào,'
++	R
++	'sức mạnh tràn trề......'
++	\L_062ff:
++	ZH 1:
++	'Tôi sẽ cố gắng'
++	R
++	'vì Ngài Rance.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_061da:
+@@ -1290,47 +1262,49 @@
+ 	\L_062f2:
+ 	\L_0624a:
+ 	ZH 1:
+-	'... Ngài Rance? Nó là gì?'
+-	\L_062ff:
+-	ZH 1:
+-	'Bộ quần áo'
+-	R
+-	'ma thuật tuyệt vời của tôi'
+-	R
+-	'có lọt vào mắt cậu không?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Thay lại trang phục.'
+-	R
+-	'Sau đó vứt quần áo đó đi.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Hả? Nhưng...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Làm đi, đây là mệnh lệnh'
+-	R
+-	'của nhà vua. Nếu ông không'
+-	R
+-	'thích thì hãy ra ngoài.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Nức nở... Hiểu rồi...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko chán nản rời'
+-	R
+-	'khỏi phòng tiếp kiến.'
++	'......Ngài Rance?'
++	R
++	'Ngài sao vậy?'
++	\L_062ff:
++	ZH 1:
++	'Ngài đang mải ngắm'
++	R
++	'bộ ma pháp phục tuyệt'
++	R
++	'vời của tôi sao?'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Thay lại đi. Mặc váy dạ'
++	R
++	'hội vào. Rồi vứt bộ đó đi.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Hả, sao lại thế...'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Nói rồi, lệnh của quốc'
++	R
++	'vương. Không chịu thì cút.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Ỉu xìu...... tôi'
++	R
++	'hiểu rồi......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko lủi thủi rời'
++	R
++	'khỏi phòng yết kiến.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 0!
+@@ -1352,155 +1326,151 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng ngủ của'
+-	R
+-	'Rance Ừ... Có lẽ hôm nay'
+-	R
+-	'tôi nên gọi cho Chizuko.'
+-	\L_062ff:
+-	ZH 1:
+-	'Cô là cô gái Zeth đáng'
+-	R
+-	'ghét, nhưng cô thật ngọt'
+-	R
+-	'ngào khi mặc chiếc váy đó.'
+-	\L_062ff:
+-	ZH 1:
+-	'Có lẽ cô sẽ'
+-	R
+-	'tốt ngoài mong đợi.'
+-	\L_062ff:
+-	ZH 1:
+-	'... Này, gọi Chizuko đi.'
+-	\L_062ff:
+-	ZH 1:
+-	'Ồ, và đừng quên bảo'
+-	R
+-	'cô hãy mặc quần áo và đồ lót'
+-	R
+-	'bình thường, dễ thương nhé.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'............ Một thời'
+-	R
+-	'gian sau, Chizuko xuất hiện'
+-	R
+-	'với chiếc váy trên người.'
++	'Phòng ngủ của Rance'
++	R
++	'Phải rồi... hôm nay gọi'
++	R
++	'Chizuko tới vậy.'
++	\L_062ff:
++	ZH 1:
++	'Con nhỏ Zeth láo toét,'
++	R
++	'nhưng mặc váy dạ hội'
++	R
++	'vào thì cũng nhu mì,'
++	\L_062ff:
++	ZH 1:
++	'không chừng lại'
++	R
++	'ngon bất ngờ.'
++	\L_062ff:
++	ZH 1:
++	'......Này, gọi Chizuko tới.'
++	\L_062ff:
++	ZH 1:
++	'À, nhớ dặn nó, quần áo lẫn'
++	R
++	'đồ lót phải mặc loại bình'
++	R
++	'thường, dễ thương vào.'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'.........Một lúc sau,'
++	R
++	'Chizuko xuất hiện'
++	R
++	'trong bộ váy dạ hội.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 61!
+ 	\L_0629e:
+ 	\L_0624a:
+ 	ZH 1:
+-	'Ừm... Xin lỗi, Ngài Rance.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ồ, tốt. Ngươi mang theo'
+-	R
+-	'vài bộ quần áo tươm tất…'
+-	\L_062ff:
+-	ZH 1:
+-	'Ta cho rằng'
+-	R
+-	'ngươi không mặc quần'
+-	R
+-	'lót da rắn hay gì cả.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Haah, không, ừm...'
+-	\L_062ff:
+-	ZH 1:
+-	'Vua Gandhi đã chọn'
+-	R
+-	'những bộ quần áo này'
+-	\L_062ff:
+-	ZH 1:
+-	'cho tôi mặc khi cậu gọi'
+-	R
+-	'tôi vào phòng ngủ của cậu...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ôi, Gandhi... Biết'
+-	R
+-	'điều đó thì hơi khó chịu.'
+-	\L_062ff:
+-	ZH 1:
+-	'Ta chắc chắn rằng'
+-	R
+-	'việc mặc bộ đồ đó'
+-	\L_062ff:
+-	ZH 1:
+-	'sẽ khiến ngươi tràn ngập'
+-	R
+-	'tình yêu đối với Gandhi.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Tất nhiên là không...'
+-	\L_062ff:
+-	ZH 1:
+-	'Xin đừng xúc phạm, Đức'
+-	R
+-	'vua. Tôi yêu cậu. Tôi sẽ làm'
+-	R
+-	'bất cứ điều gì cho cậu...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko cau mày'
+-	R
+-	'và ngước nhìn Rance.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ừm, vậy à...? Chà,'
+-	R
+-	'thật tốt khi biết ngươi'
+-	R
+-	'sẽ làm bất cứ điều gì.'
+-	\L_062ff:
+-	ZH 1:
+-	'Vậy hãy quan hệ'
+-	R
+-	'tình dục đi. Được rồi?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'... À...'
+-	\L_062ff:
+-	ZH 1:
+-	'... Được rồi...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Uheehee. Vậy thì đi thôi!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'À...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Trong lúc cô đang không biết'
+-	R
+-	'phải làm gì thì Rance đã'
+-	R
+-	'đẩy Chizuko xuống giường...'
++	'Ừm...... tôi xin phép'
++	R
++	'làm phiền, Ngài Rance.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ồ, GOOD. Ăn mặc tử'
++	R
++	'tế tới đây rồi nhỉ...'
++	\L_062ff:
++	ZH 1:
++	'chắc không mặc quần'
++	R
++	'lót da rắn đấy chứ.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Haa, vâng, ừm......'
++	\L_062ff:
++	ZH 1:
++	'tôi đang mặc bộ'
++	R
++	'mà ngài Gandhi'
++	\L_062ff:
++	ZH 1:
++	'đã chọn sẵn để tôi mặc'
++	R
++	'khi được gọi vào phòng'
++	R
++	'ngủ của nhà vua......'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Hừm, lão Gandhi...'
++	R
++	'sao thấy bực mình.'
++	\L_062ff:
++	ZH 1:
++	'Cô mặc thứ đó vào,'
++	\L_062ff:
++	ZH 1:
++	'trong đầu chắc không'
++	R
++	'phải đang tơ tưởng'
++	R
++	'Gandhi đấy chứ.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Sao lại thế......'
++	\L_062ff:
++	ZH 1:
++	'Xin ngài đừng nổi giận. Tôi'
++	R
++	'yêu Ngài Rance. Tôi thích'
++	R
++	'ngài. Cái gì tôi cũng làm...'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko nhíu mày đầy da'
++	R
++	'diết, ngước mắt nhìn Rance.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ừm, thế à...? Ừ, cái gì cũng'
++	R
++	'làm là tinh thần tốt đấy.'
++	\L_062ff:
++	ZH 1:
++	'Vậy giờ SEX nào. Được chứ?'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'......V.........'
++	\L_062ff:
++	ZH 1:
++	'.........vâng.........'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Hì hì. Vậy lên nào, GO!'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'A......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Rance đẩy Chizuko đang luống'
++	R
++	'cuống ngã xuống giường......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	PF1 VAR0056:
+@@ -1508,461 +1478,465 @@
+ 	SS 24:
+ 	\L_062ba:
+ 	ZH 1:
+-	'Rance 「Hmmm, váy thì rắc rối quá...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Dù sao thì ta cũng không mất nhiều'
+-	R
+-	'thời gian để cởi chúng ra đâu.」'
++	'Rance「Ừmmm, váy dạ hội đúng'
++	R
++	'là rườm rà khó chịu......'
++	\L_062ff:
++	ZH 1:
++	'Mà vào tay ta thì loáng cái là xong」'
+ 	PF0 VAR0056:
+ 	\L_062ff:
+ 	ZH 1:
+-	'Chizuko 「............」'
+-	\L_062ff:
+-	ZH 1:
+-	'Bàn tay của Rance khéo léo tháo'
+-	R
+-	'chiếc móc trên váy của Chizuko.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko ngoan ngoãn ôm lấy'
+-	R
+-	'mình và kìm nén sự lo lắng.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Được rồi, mở cửa nào!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「À, không...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Nhưng Chizuko đã lấy tay che ngực khi cởi váy.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Mgh...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Cậu đang thách thức ta đấy à? Tuy nhiên,'
+-	\L_062ff:
+-	ZH 1:
+-	'ngươi vừa nói rằng ngươi sẽ làm bất cứ điều gì.'
+-	\L_062ff:
+-	ZH 1:
+-	'」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Uu... Ừ, nhưng... Ừm... Tôi'
+-	R
+-	'xấu hổ vì bộ đồ lót kỳ lạ này...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Hồ, lạ thật...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Vua Gandhi đã chọn nó. Tôi không quan'
+-	\L_062ff:
+-	ZH 1:
+-	'tâm hắn nghĩ gì,」 nhưng thật quá'
+-	R
+-	'xấu hổ khi cho ngươi thấy ...'
+-	\L_062ff:
+-	ZH 1:
+-	'」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Mhm, mhm... Thế thì cô'
+-	R
+-	'thực sự phải cho ta xem mọi thứ!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Kyaaah!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance xé toạc chiếc váy của'
+-	R
+-	'Chizuko chỉ bằng một cú kéo.'
++	'Chizuko「...............」'
++	\L_062ff:
++	ZH 1:
++	'Tay Rance thoăn thoắt tháo'
++	R
++	'từng móc cài của chiếc váy.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko ngoan ngoãn thu mình,'
++	R
++	'cố chịu đựng sự căng thẳng.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Đượcccc, mở màn nào!」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「A, đừng.........!」'
++	\L_062ff:
++	ZH 1:
++	'Nhưng đến lúc váy bị lột ra,'
++	R
++	'Chizuko lại lấy hai tay che ngực.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Hừm......'
++	\L_062ff:
++	ZH 1:
++	'định chống lại à?'
++	\L_062ff:
++	ZH 1:
++	'Mới vừa nãy còn bảo cái gì cũng làm'
++	\L_062ff:
++	ZH 1:
++	'cơ mà」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ư......... vâng, nhưng.........'
++	R
++	'ừm...... đồ lót kỳ cục nên tôi xấu hổ......」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Hô, kỳ cục......」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Nói vậy thì có lỗi với'
++	R
++	'ngài Gandhi đã chọn cho, nhưng'
++	\L_062ff:
++	ZH 1:
++	'thật sự...... tôi xấu hổ không dám'
++	\L_062ff:
++	ZH 1:
++	'cho Ngài Rance xem......」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Ừm ừm...... thế thì càng'
++	R
++	'phải xem cho bằng được......!」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Kyaaa!」'
++	\L_062ff:
++	ZH 1:
++	'Rance lột phăng chiếc váy'
++	R
++	'của Chizuko trong một hơi.'
+ 	\L_062ff:
+ 	G 163:
+ 	ZH 1:
+-	'Chizuko 「Không... Xin đừng nhìn... Vua...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Hohoh, đúng như ta nghĩ.'
+-	R
+-	'Siêu dễ thương. Đồ lót tốt.」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Hả...? Thật kỳ lạ...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Hãy im lặng và ghi nhớ'
+-	R
+-	'điều này. Những gì cô nghĩ là'
+-	\L_062ff:
+-	ZH 1:
+-	'lạ thực sự là tốt. Phong cách thời」'
+-	R
+-	'trang của ngươi đã lỗi thời rồi.」'
+-	\L_062ff:
+-	ZH 1:
+-	'（chà chà chà）'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance vừa khiển trách Chizuko vừa xoa ngực cô.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Nhưng... Uh, à, không...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Này,'
+-	\L_062ff:
+-	ZH 1:
+-	'đừng phàn nàn nữa! Ta đã nói rồi,」'
+-	R
+-	'nếu ngươi chịu làm bất cứ điều gì'
+-	\L_062ff:
+-	ZH 1:
+-	'cho tôi thì chúng ta sẽ quan hệ tình dục!'
+-	\L_062ff:
+-	ZH 1:
+-	'」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Uu, hah... Nhưng ngực'
+-	R
+-	'của tôi nhỏ quá nên xấu hổ quá...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Hm? Aah...'
+-	\L_062ff:
+-	ZH 1:
+-	'Nhắc mới nhớ, chúng khá nhỏ. Kích thước'
+-	R
+-	'lòng bàn tay của ta. Có lẽ nhỏ hơn.」'
+-	\L_062ff:
+-	ZH 1:
+-	'（chà chà chà chà）'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance gật đầu nghiêm túc và xoa bóp ngực'
+-	R
+-	'của Chizuko để kiểm tra kích thước của'
+-	\L_062ff:
+-	ZH 1:
+-	'chúng. Khuôn mặt quẫn trí của Chizuko càng đỏ hơn.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「À... Aah...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Tuy nhiên,'
+-	\L_062ff:
+-	ZH 1:
+-	'ta không thực sự quan tâm. Chúng không tốt hơn'
+-	\L_062ff:
+-	ZH 1:
+-	'những con lớn,」 nhưng những con nhỏ cũng được.」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Vua... Rance...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Đầu ngón tay của Rance chơi đùa với núm vú của'
+-	\L_062ff:
+-	ZH 1:
+-	'cô áo ngực của cô. Anh nhanh'
+-	R
+-	'chóng cảm thấy chúng cứng lại.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ừm...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Nhỏ hay không, chúng vẫn có vẻ nhạy cảm...'
+-	\L_062ff:
+-	ZH 1:
+-	'Núm vú của em cứng quá, Chizuko.」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Đừng nói với tôi là...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko rên rỉ và che mặt khi'
+-	R
+-	'Rance thì thầm vào tai cô.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Gahahahaha!, không có gì phải xấu hổ cả,'
+-	\L_062ff:
+-	ZH 1:
+-	'cơ thể cậu rất thành thật. Giờ thì...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Có lẽ ta nên khiến bản thân cảm thấy dễ chịu.」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「À...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance cởi quần để Chizuko có thể nhìn thấy.'
+-	\L_062ff:
+-	ZH 1:
+-	'Sau đó, hắn đâm siêu vũ khí cao chót'
+-	R
+-	'vót của mình ngay dưới mũi Chizuko.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Đây, chào cự vật dễ'
+-	R
+-	'thương của ta đi. Liếm.」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「O-Được rồi... Ừm... tôi rất vinh dự.」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko bối rối chào hỏi và'
+-	R
+-	'bắt đầu liếm siêu vũ khí...'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「... Ừm...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Lưỡi của Chizuko liếm quanh đầu.'
+-	R
+-	'Niềm vui dâng trào trên lưng Rance.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Mmgh,'
+-	\L_062ff:
+-	ZH 1:
+-	'chuyện này thật buồn tẻ. Thế còn cô'
+-	R
+-	'làm cho nó mãnh liệt hơn thì sao?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Đ-Được rồi...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Siêu vũ khí đã bị đôi môi ướt của cô nuốt'
+-	\L_062ff:
+-	ZH 1:
+-	'chửng. Họ lúng túng di chuyển lên xuống trên đó.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Vẫn nhàm chán... Ít nhất cô'
+-	R
+-	'có thể làm được điều này không? Đây.」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ừm...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Cổ họng của Chizuko bị những lực đẩy nhẹ xuyên'
+-	\L_062ff:
+-	ZH 1:
+-	'qua và cô rên rỉ. Lưỡi của cô di'
+-	R
+-	'chuyển lên xuống theo tiếng rên rỉ,'
+-	\L_062ff:
+-	ZH 1:
+-	'kích thích siêu vũ khí của Rance.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Uhahaha... Tốt, không tệ. Đẹp và trơn.」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ừm... Vâng, ngh...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko cố gắng hết sức để liếm quanh cự'
+-	R
+-	'vật của Rance khi nó thọc vào miệng cô.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance nhanh nhẹn cúi xuống và'
+-	R
+-	'lén nhìn vào háng của Chizuko.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「... Bây giờ, ở đây thì sao?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「À, Ngài Rance...!?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Sao cũng được, cứ bú đi.'
+-	R
+-	'Lệnh của nhà vua.」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Hah... Aah...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko quằn quại dưới anh. Âm hộ'
+-	R
+-	'của cô lấp lánh với nước trái cây.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ừm... Mmmm, à...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko tiếp tục phục vụ Rance ngay cả khi anh'
+-	\L_062ff:
+-	ZH 1:
+-	'vùi mặt vào háng cô và hút nước trái cây của cô.'
+-	\L_062ff:
+-	ZH 1:
+-	'Thỉnh thoảng những tiếng rên rỉ vẫn'
+-	R
+-	'thoát ra mặc dù cô đã cố gắng kìm'
+-	\L_062ff:
+-	ZH 1:
+-	'nén chúng. Nước ép của cô chảy ra không ngừng.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Gahahahaha!, cô rất dễ bị ướt,'
+-	R
+-	'tốt! Bây giờ, đây là phần thưởng của cô! 」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ờ... À...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance giơ cao chân của Chizuko'
+-	R
+-	'và đâm siêu vũ khí của mình vào.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ối...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「... Hm?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ối... Kh...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「... Hmmmmm!?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko cắn môi và chịu đựng cơn'
+-	\L_062ff:
+-	ZH 1:
+-	'đau. Tay cô đang nắm lấy vai Rance và run rẩy.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「... Cô là trinh nữ?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ừ... Cho đến bây giờ...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Ồ, ta hiểu rồi, vậy đây là'
+-	R
+-	'lần đầu tiên của cô... Được rồi...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Vui mừng đi, Chizuko, giờ ta sẽ biến'
+-	R
+-	'ngươi thành kiểu phụ nữ của ta...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Hah... Tôi rất vinh dự được... Ah...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance đẩy mạnh trước khi cô kịp nói xong. Câu trả'
+-	\L_062ff:
+-	ZH 1:
+-	'lời của Chizuko bị cắt ngang vì'
+-	R
+-	'cô gần như không thể thở được.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Gahahahaha!, tốt, Chizuko...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Ngươi có một cơ thể khá quyến rũ khi bị'
+-	R
+-	'ướt như thế này trong lần đầu tiên...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ừm... Kh, Vua... Rance...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Theo cú thúc mạnh mẽ của hắn,'
+-	\L_062ff:
+-	ZH 1:
+-	'chiếc áo ngực bị bỏ quên của'
+-	R
+-	'Chizuko lắc lư trên ngực cô.'
+-	\L_062ff:
+-	ZH 1:
+-	'Âm thanh khô khốc của làn da họ va vào'
+-	R
+-	'nhau và âm thanh ẩm ướt phát ra từ nơi'
+-	\L_062ff:
+-	ZH 1:
+-	'họ đoàn kết tràn ngập căn phòng.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko（Vua Gandhi... Vua Gandhi... Bây'
+-	R
+-	'giờ tôi không thể quay lại được nữa...）'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko（Yêu vua Rance và làm việc cho'
+-	R
+-	'ngài là cách tôi nên sống bây giờ...）'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Ồ?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Cánh tay của Chizuko vòng qua cổ Rance.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ngài Rance... Ngài Rance...!'
+-	R
+-	'Hãy để tôi ở bên cậu... Làm ơn đừng...'
+-	\L_062ff:
+-	ZH 1:
+-	'bỏ rơi tôi...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Nó đến từ đâu vậy...? Cô thật kì lạ...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Hick... Hiin... Ah... Tôi'
+-	R
+-	'sẽ làm bất cứ điều gì... Ah...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Aagh, ta hiểu rồi,'
+-	R
+-	'đừng khóc. Đây, đi thôi...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Uu... Aah...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Tốc độ của Rance tăng lên một cấp. Một'
+-	R
+-	'tiếng ồn ào phát ra từ bên trong Chizuko.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Kh...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「À... À...! Vua... Rance...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko phát ra một tiếng rên khàn khàn và'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance giải phóng khoái cảm'
+-	R
+-	'của mình bên trong cô...'
++	'Chizuko「Đừng...... xin đừng'
++	R
++	'nhìn ạ...... Ngài......」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Hô hô, đúng như ta nghĩ.'
++	R
++	'Dễ thương lắm. Đồ lót GOOD đấy」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Hả......... thứ kỳ cục thế này mà......」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Nhớ cho kỹ vào,'
++	\L_062ff:
++	ZH 1:
++	'thứ cô thấy kỳ cục thì người thường'
++	R
++	'thấy đẹp. Gu của cô điên khùng lắm」'
++	\L_062ff:
++	ZH 1:
++	'（Nắn nắn nắn）'
++	\L_062ff:
++	ZH 1:
++	'Vừa giảng đạo, Rance vừa nắn ngực Chizuko.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Sao lại............ ơ, a, đừng......!」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Hừ,'
++	\L_062ff:
++	ZH 1:
++	'đừng có kêu không không! Đã bảo cái gì cũng làm'
++	\L_062ff:
++	ZH 1:
++	'thì là phải SEX'
++	\L_062ff:
++	ZH 1:
++	'chứ còn gì!」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ư, ưm......... nhưng ngực'
++	R
++	'thì......... xấu hổ lắm, vì nhỏ xíu.........」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Hử? À......'
++	\L_062ff:
++	ZH 1:
++	'ừ, nói mới thấy, đúng là nhỏ thật. Vừa'
++	R
++	'lòng bàn tay. Không...... còn nhỏ hơn」'
++	\L_062ff:
++	ZH 1:
++	'（Nắn nắn nắn nắn）'
++	\L_062ff:
++	ZH 1:
++	'Vừa gật gù mặt tỉnh bơ, Rance'
++	R
++	'vừa nắn kỹ để thẩm định kích cỡ.'
++	\L_062ff:
++	ZH 1:
++	'Gương mặt bi thương của Chizuko càng đỏ bừng hơn.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「A............ ư............」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Nhưng mà,'
++	\L_062ff:
++	ZH 1:
++	'ta không để ý đâu. To thì càng tốt,'
++	\L_062ff:
++	ZH 1:
++	'nhưng nhỏ cũng hay」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ngài... Rance.........」'
++	\L_062ff:
++	ZH 1:
++	'Rance dùng đầu ngón tay mân mê đầu vú bên trong'
++	\L_062ff:
++	ZH 1:
++	'đồ lót. Nó nhanh chóng cứng lại nhọn hoắt.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ưm.........」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Nhỏ nhưng có vẻ vẫn nhạy cảm ra phết......'
++	\L_062ff:
++	ZH 1:
++	'đầu vú cứng ngắc cả rồi này, Chizuko」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Sao lại.........」'
++	\L_062ff:
++	ZH 1:
++	'Bị thì thầm bên tai, Chizuko rên'
++	R
++	'lên như khóc, lấy tay che mặt.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Gahahahaha, đừng'
++	R
++	'ngượng, cơ thể thành thật lắm.'
++	\L_062ff:
++	ZH 1:
++	'Giờ thì......'
++	\L_062ff:
++	ZH 1:
++	'tới lượt cô làm ta sướng đi」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「A.........」'
++	\L_062ff:
++	ZH 1:
++	'Như cố tình phô ra cho Chizuko'
++	R
++	'xem, Rance cởi quần ra.'
++	\L_062ff:
++	ZH 1:
++	'Rồi dí siêu vũ khí dựng đứng'
++	R
++	'cứng ngắc vào ngay mũi Chizuko.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Nào, chào hỏi cái của'
++	R
++	'quý dễ thương của ta đi. Liếm」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「V... vâng.........'
++	R
++	'ừm...... thật vinh hạnh ạ」'
++	\L_062ff:
++	ZH 1:
++	'Chào một câu chẳng đâu vào đâu,'
++	R
++	'Chizuko bắt đầu liếm siêu vũ khí......'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「......ư......... ưm.........」'
++	\L_062ff:
++	ZH 1:
++	'Lưỡi Chizuko liếm từng chút, quấn lấy phần'
++	R
++	'đầu. Khoái cảm từ từ bò dọc sống lưng Rance.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Hừm,'
++	\L_062ff:
++	ZH 1:
++	'sao lề mề thế. Ngậm mạnh bạo hơn coi」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「V-vâng.........」'
++	\L_062ff:
++	ZH 1:
++	'Siêu vũ khí bị đôi môi ướt nuốt'
++	\L_062ff:
++	ZH 1:
++	'vào. Đôi môi cứ thế lên xuống vụng về.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Vẫn nhạt quá...... ít'
++	R
++	'ra phải thế này chứ, này」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ưmm......!」'
++	\L_062ff:
++	ZH 1:
++	'Bị thúc nhẹ vào cổ họng, Chizuko rên lên khổ sở.'
++	\L_062ff:
++	ZH 1:
++	'Chiếc lưỡi lên xuống theo tiếng rên'
++	\L_062ff:
++	ZH 1:
++	'lại càng kích thích Rance hơn.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Uhahaha...... được'
++	R
++	'đấy, không tệ. Nhầy nhụa lắm」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ưm...... vâng, ực......!」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko gắng sức quấn lưỡi quanh'
++	R
++	'thứ của Rance đang thọc vào miệng.'
++	\L_062ff:
++	ZH 1:
++	'Rance khéo léo cúi người xuống,'
++	R
++	'ghé nhìn vào háng Chizuko.'
++	\L_062ff:
++	ZH 1:
++	'Rance「......Nào, bên này thì sao đây」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「A, Ngài Rance......!?」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Kệ, cứ ngậm đi. Lệnh quốc vương」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Vâ......... a......!」'
++	\L_062ff:
++	ZH 1:
++	'Dưới thân anh, Chizuko quằn quại. Cánh'
++	R
++	'hoa của nàng ướt bóng mật tràn ra.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ưm......... ưmmm, a.........!」'
++	\L_062ff:
++	ZH 1:
++	'Dù bị vùi mặt vào đó, bị hút mật,'
++	\L_062ff:
++	ZH 1:
++	'Chizuko vẫn tiếp tục phục vụ Rance.'
++	\L_062ff:
++	ZH 1:
++	'Dù vậy, thỉnh thoảng những'
++	R
++	'tiếng không kìm được vẫn'
++	\L_062ff:
++	ZH 1:
++	'bật ra. Còn mật thì cứ tuôn chảy không ngừng.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Gahahaha, cơ thể dễ ướt'
++	R
++	'ghê, GOOD! Vậy, thưởng cho đây!」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Hả...... a.........!」'
++	\L_062ff:
++	ZH 1:
++	'Rance nhấc bổng chân Chizuko lên'
++	R
++	'cao, đâm siêu vũ khí vào một mạch.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Đ.........!」'
++	\L_062ff:
++	ZH 1:
++	'Rance「.........Hử?」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Đau.........ư.........」'
++	\L_062ff:
++	ZH 1:
++	'Rance「.........Hửửửm!?」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko cắn môi, cố chịu cơn'
++	\L_062ff:
++	ZH 1:
++	'đau. Bàn tay bám vai Rance run lên khe khẽ.'
++	\L_062ff:
++	ZH 1:
++	'Rance「......Cô......... là trinh nữ à?」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「V......âng, cho tới lúc nãy......」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Ồ, ra thế ra thế, hàng mới tinh......'
++	\L_062ff:
++	ZH 1:
++	'Được...... vui lên đi Chizuko, từ giờ ta sẽ'
++	R
++	'biến cô thành người đàn bà đúng gu ta......!」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「V......vinh hạnh......'
++	R
++	'ạ......... a.........!」'
++	\L_062ff:
++	ZH 1:
++	'Vừa tuyên bố xong, Rance đã hùng hổ lắc hông.'
++	\L_062ff:
++	ZH 1:
++	'Không thở nổi, câu trả lời của Chizuko đứt quãng.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Gahahahaha, được lắm, Chizuko......'
++	\L_062ff:
++	ZH 1:
++	'lần đầu mà ướt thế này, cơ'
++	R
++	'thể dâm đãng thật......!」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ưm......... ư,'
++	R
++	'Ngài...... Rance.........!」'
++	\L_062ff:
++	ZH 1:
++	'Theo những cú thúc dữ dội,'
++	\L_062ff:
++	ZH 1:
++	'mảnh đồ lót còn sót trên ngực Chizuko đung đưa.'
++	\L_062ff:
++	ZH 1:
++	'Tiếng da thịt va vào nhau khô khốc,'
++	\L_062ff:
++	ZH 1:
++	'và tiếng ướt át từ chỗ nối'
++	R
++	'liền vang khắp căn phòng.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko（Ngài Gandhi...... ngài'
++	R
++	'Gandhi...... vậy là...... tôi......'
++	R
++	'không thể quay lại nữa rồi......）'
++	\L_062ff:
++	ZH 1:
++	'Chizuko（Cứ thế này...... yêu Ngài'
++	R
++	'Rance, phụng sự Ngài Rance...... mới'
++	R
++	'là cách sống đúng đắn của tôi......）'
++	\L_062ff:
++	ZH 1:
++	'Rance「Ồ?」'
++	\L_062ff:
++	ZH 1:
++	'Hai tay Chizuko vòng quanh cổ Rance.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ngài Rance......... Ngài Rance......!'
++	R
++	'Xin cho tôi ở bên ngài...... xin đừng'
++	\L_062ff:
++	ZH 1:
++	'bỏ...... tôi......!」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Gì thế, tự nhiên.........'
++	R
++	'đồ kỳ quặc......」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Hức...... hức......... a......'
++	R
++	'tôi...... cái gì cũng làm...... a......!」'
++	\L_062ff:
++	ZH 1:
++	'Rance「A, rồi rồi, hiểu rồi, hiểu rồi'
++	R
++	'nên đừng khóc. Nào, tới đây......!」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ư......... aa......!」'
++	\L_062ff:
++	ZH 1:
++	'Chuyển động của Rance càng nhanh hơn. Bên'
++	R
++	'trong Chizuko gợn lên phức tạp, đón nhận nó.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Ư......... ư.........!」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「A...... a......!'
++	R
++	'Ngài... Rance.........!」'
++	\L_062ff:
++	ZH 1:
++	'Trong Chizuko đang khản giọng rên rỉ,'
++	\L_062ff:
++	ZH 1:
++	'Rance giải phóng khoái cảm......'
+ 	\L_062ff:
+ 	PF1 VAR0056:
+ 	\L_062f2:
+@@ -1976,47 +1950,45 @@
+ 	\L_0629e:
+ 	\L_0624a:
+ 	ZH 1:
+-	'... Guh...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Sau đó, sau khi họ'
+-	R
+-	'đi thêm ba vòng nữa...'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko mặc lại chiếc'
+-	R
+-	'váy vào cơ thể đau nhức'
+-	\L_062ff:
+-	ZH 1:
+-	'của mình sau khi cuối'
+-	R
+-	'cùng cô cũng được thả ra.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Ừm, vua Rance... À...'
++	'.........Ư.........'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Sau đó, thêm ba hiệp nữa...'
++	\L_062ff:
++	ZH 1:
++	'khó khăn lắm mới'
++	R
++	'được thả ra, Chizuko'
++	\L_062ff:
++	ZH 1:
++	'gượng cơ thể đau'
++	R
++	'nhức, mặc xong váy.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Ừm, vậy, Ngài'
++	R
++	'Rance...... a......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 1!
+ 	\L_0622e:
+ 	\L_061da:
+ 	ZH 1:
+-	'Zzzzzz...'
+-	R
+-	'Zzzzzzzzzzzzzz...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Khi cô quay lại nói'
+-	R
+-	'với Rance rằng cô sắp rời'
+-	R
+-	'đi, cô thấy hắn đã ngủ rồi.'
++	'Khò khò...... o o o......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Định quay lại chào'
++	R
++	'rồi lui ra, thì'
++	R
++	'Rance đã ngủ mất rồi.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_0624a:
+@@ -2024,38 +1996,36 @@
+ 	'............'
+ 	\L_062ff:
+ 	ZH 1:
+-	'... Hê.'
+-	\L_062ff:
+-	ZH 1:
+-	'Vậy xin thứ lỗi'
+-	R
+-	'cho tôi, Ngài Rance. Cảm'
+-	R
+-	'ơn tình cảm của cậu...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'（ôm hôn）'
++	'...............Ửng hồng.'
++	\L_062ff:
++	ZH 1:
++	'Vậy tôi xin phép,'
++	R
++	'Ngài Rance. Đa tạ'
++	R
++	'ngài đã sủng ái......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'（Chụt）'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_062ac:
+ 	\L_06212:
+ 	ZH 1:
+-	'Chizuko hôn'
+-	R
+-	'lên trán Rance khi chàng'
+-	R
+-	'ngủ và rời khỏi phòng.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Hmmmmm, Chizuko... Cậu'
+-	R
+-	'có thể ngừng dùng màu tím'
+-	R
+-	'được không...? Zzzzzzzzz...'
++	'Chizuko hôn lên trán Rance'
++	R
++	'đang ngủ rồi rời khỏi phòng.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ưmmm, Chizuko...... bỏ cái'
++	R
++	'kim tuyến tím đi, kim tuyến'
++	R
++	'tím ấy... khò khò......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 0!
+@@ -2076,57 +2046,59 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng ngủ của Rance Hmmmm,'
+-	\L_062ff:
+-	ZH 1:
+-	'không hiểu'
+-	R
+-	'sao hôm nay tôi lại có'
+-	R
+-	'tâm trạng kiểu Chizuko.'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi nên gọi cho Chizuko.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'............ Một'
+-	R
+-	'thời gian sau, Chizuko'
+-	R
+-	'xuất hiện. Cô hơi đỏ mặt.'
++	'Phòng ngủ của Rance'
++	R
++	'Ưmmm,'
++	\L_062ff:
++	ZH 1:
++	'hôm nay tự dưng'
++	R
++	'thấy hứng Chizuko.'
++	\L_062ff:
++	ZH 1:
++	'Gọi Chizuko tới thôi.'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'.........Một lúc'
++	R
++	'sau, Chizuko xuất'
++	R
++	'hiện. Má ửng hồng.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 61!
+ 	\L_0629e:
+ 	\L_0624a:
+ 	ZH 1:
+-	'Ngài Rance... Cảm ơn'
+-	R
+-	'vì đã triệu hồi tôi.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ừm. Hãy biết ơn.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Bây giờ, ừm... Xin lỗi.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko cúi đầu'
+-	R
+-	'và bắt đầu cởi váy.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ừm, đợi một chút.'
++	'Ngài Rance...... cảm'
++	R
++	'ơn ngài đã cho gọi tôi.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ừm. Biết ơn đi.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Vậy thì, ừm......'
++	R
++	'tôi xin phép.'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko cúi chào, rồi'
++	R
++	'rón rén bắt đầu cởi váy.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Hử, khoan đã.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_0624a:
+@@ -2136,9 +2108,9 @@
+ 	\L_062f2:
+ 	\L_061da:
+ 	ZH 1:
+-	'Làm việc bình thường thì'
+-	R
+-	'chán. Hãy xem, hôm nay...'
++	'Bình thường thì chán. Xem'
++	R
++	'nào, hôm nay thì......'
+ 	\L_062ff:
+ 	\L_062f2:
+ *L_022e8:
+@@ -2149,98 +2121,94 @@
+ 	{VAR0553 = 1:
+ 		ZH 1:
+ 		$L_02a41$
+-		'Trò chơi S&M'
++		'Chơi SM'
+ 		$
+ 	}
+ 	ZH 1:
+ 	$L_02338$
+-	'Làm cho cô thủ dâm'
++	'Bắt thủ dâm'
+ 	$
+ 	]
+ 	@L_022e8:
+ *L_02338:
+ 	\L_061f6:
+ 	ZH 1:
+-	'Được rồi, tôi'
+-	R
+-	'sẽ bắt cô thủ dâm.'
+-	\L_062ff:
+-	ZH 1:
+-	'Vì cô có'
+-	R
+-	'rất nhiều niềm kiêu'
+-	R
+-	'hãnh nên neeheeheehee...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Này, hôm nay tôi thực'
+-	R
+-	'sự không muốn làm việc đó.'
+-	\L_062ff:
+-	ZH 1:
+-	'Vậy hãy để tôi có'
+-	R
+-	'tâm trạng nhé, được chứ?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Hah... Ngươi có'
+-	R
+-	'hứng không...? Được rồi,'
+-	R
+-	'nhưng làm thế nào...?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Hmmm, hãy thử tự thỏa'
+-	R
+-	'mãn bản thân xem. Thủ dâm.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Hả...? À, ừ...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Nếu không muốn thì quay'
+-	R
+-	'lại. Tôi sẽ không đụ ngươi.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Nhưng... Hiểu rồi,'
+-	R
+-	'tôi sẽ làm vậy, nên...'
+-	R
+-	'Xin đừng ghét tôi...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Được rồi, tốt. Làm'
+-	R
+-	'cho nó thật gợi cảm. Nếu'
+-	R
+-	'không, tôi sẽ ghét ngươi.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Đ-Được rồi...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko cởi bỏ váy và'
+-	R
+-	'nằm xuống trong bộ đồ lót...'
++	'Được, bắt cô ta thủ dâm.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko kiêu hãnh lắm,'
++	R
++	'nên hi hi hi hi hi......'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Này, hôm nay ta'
++	R
++	'không hứng lắm.'
++	\L_062ff:
++	ZH 1:
++	'Nên khuấy động không'
++	R
++	'khí lên đi, nghe chưa.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Hả...... không khí'
++	R
++	'ạ...... vâng, nhưng'
++	R
++	'làm thế nào......'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ừmm, tự an ủi bản thân'
++	R
++	'thử xem. Thủ dâm ấy.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Hả...... a, ư.........'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Không chịu thì về.'
++	R
++	'Ta không ôm đâu.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Sao lại...... tôi hiểu'
++	R
++	'rồi, tôi sẽ làm... nên'
++	R
++	'xin đừng ghét tôi......'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ngoan, ngoan. Làm thật'
++	R
++	'dâââm vào đấy. Không'
++	R
++	'thì ta ghét cho xem.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'V-vâng......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko cởi váy, nằm xuống'
++	R
++	'trong bộ đồ lót......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	PF1 VAR0056:
+@@ -2255,336 +2223,338 @@
+ 	\L_062ff:
+ *L_024b6:
+ 	ZH 1:
+-	'Chizuko từ từ đưa tay vuốt ve ngực mình. Cô vẽ'
+-	\L_062ff:
+-	ZH 1:
+-	'những vòng tròn trên áo ngực của mình.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Staaaaaaaaaaaaaaaa...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「............」'
+-	\L_062ff:
+-	ZH 1:
+-	'Sau đó,'
+-	\L_062ff:
+-	ZH 1:
+-	'đầu ngón tay của cô biến mất trong'
+-	R
+-	'áo lót. Cô dường như đang xoa'
+-	\L_062ff:
+-	ZH 1:
+-	'núm vú của mình dưới tấm vải màu xanh bạc hà.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「... À...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Một tiếng thở dài lặng lẽ thoát ra khỏi'
+-	\L_062ff:
+-	ZH 1:
+-	'môi Chizuko. Núm vú mà cô không chạm'
+-	R
+-	'vào cũng có vẻ cứng ngắc qua áo ngực.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Cái này khá yếu. Còn ở dưới đó thì sao?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「À, được rồi...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Tay trái của Chizuko vẫn giữ nguyên'
+-	R
+-	'ở ngực và tay phải của cô hạ xuống.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko（Hiin, xấu hổ quá…）'
+-	\L_062ff:
+-	ZH 1:
+-	'Mặt cô đỏ bừng khi lướt ngón tay'
+-	R
+-	'lên lớp vải mỏng che kín háng.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Dang rộng chân ra, giống một gái điếm'
+-	R
+-	'hơn.」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ưu...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko dang rộng hai chân và'
+-	R
+-	'vuốt ve háng mình như sắp khóc.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「... Ừm...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Ồ? Chỗ ướt nhỏ đó là gì thế?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Uu... Hyah...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Cơ thể của Chizuko giật nảy lên'
+-	R
+-	'khi Rance chọc vào quần lót của cô.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Cô không muốn quần lót của mình'
+-	R
+-	'bị bẩn. Ta sẽ cởi chúng ra cho cô. Đó!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「À, Ngài Rance...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko chưa kịp chuẩn bị thì chiếc quần'
+-	R
+-	'lót nhỏ của cô đã bị kéo ra khỏi chân.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Đó, lộ diện hoàn toàn. Ta'
+-	R
+-	'sẽ xem, tiếp tục. Gahahahaha!..!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Đ-Được rồi...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Trong khi Rance giữ cố định mắt cá chân của mình,'
+-	\L_062ff:
+-	ZH 1:
+-	'tay của Chizuko lại bắt đầu sờ soạng háng cô.'
+-	\L_062ff:
+-	ZH 1:
+-	'Cô véo núm vú cứng cáp của mình và dùng'
+-	\L_062ff:
+-	ZH 1:
+-	'đầu ngón tay lăn quanh âm vật lấp lánh của mình.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「... À... Ừm...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Mhm, mhm...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Ngươi thực sự thành thạo việc này vì mới'
+-	\L_062ff:
+-	ZH 1:
+-	'còn là trinh nữ.... Ngươi đang nghĩ đến ai vậy?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Uu... Ừm... Vua Gandhi...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Giọng của Chizuko sắp biến mất,'
+-	\L_062ff:
+-	ZH 1:
+-	'nhưng cô vẫn trả lời thành thật. Rance'
+-	R
+-	'phớt lờ cô với vẻ mặt nghiêm túc.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Hmmmm... Vậy bây giờ'
+-	R
+-	'cô thích ta hay Gandhi hơn?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ừm... cậu...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Thật sao?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Vâng...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Vậy hãy cho ta xem bằng'
+-	R
+-	'chứng rằng cô yêu ta nhé?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko nhìn thấy Rance cười'
+-	R
+-	'toe toét và trông có vẻ lo lắng.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Bằng chứng...?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Trải âm hộ của cô ra.'
+-	R
+-	'Hãy để ta xem hết lối vào.」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ưu...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Không thể làm được? Vậy ra'
+-	R
+-	'rốt cuộc thì anh không yêu ta…」'
+-	\L_062ff:
+-	ZH 1:
+-	'Ta đoán bây giờ anh vẫn là thủ lĩnh của Zeth…」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「T-tôi có thể làm được, tôi'
+-	R
+-	'có thể làm được...! Nếu là vì ngài,'
+-	\L_062ff:
+-	ZH 1:
+-	'Ngài Rance...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Những ngón tay của Chizuko chạm vào âm hộ của'
+-	\L_062ff:
+-	ZH 1:
+-	'cô. Cô dang người ra và nước ép chảy ra.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Ồ, ướt quá rồi...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chắc hẳn cậu sẽ không hài lòng lắm nếu'
+-	R
+-	'không có siêu vũ khí của ta trong người,'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko. Hãy thử đặt một ngón tay vào.」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Như thế này...?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Ngón tay cô chìm vào âm hộ ẩm ướt của cô. Mắt'
+-	\L_062ff:
+-	ZH 1:
+-	'cá chân cô run lên trong vòng tay của Rance.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Đừng chỉ cho vào,'
+-	\L_062ff:
+-	ZH 1:
+-	'hãy khuấy đều. Ồ,」 và siêu vũ khí của ta không'
+-	\L_062ff:
+-	ZH 1:
+-	'mỏng đến thế. Đặt ba ngón tay vào.」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ba... ... O-Được rồi...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko nhắm mắt lại và làm theo yêu'
+-	R
+-	'cầu của Rance. Bằng cách nào đó cô'
+-	\L_062ff:
+-	ZH 1:
+-	'đã đưa những ngón tay vào và cố gắng'
+-	R
+-	'di chuyển chúng một cách chậm rãi.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ừm... Kh...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Uhaha, một trong những thủ'
+-	R
+-	'lĩnh của Zeth đang tham gia vào nó...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Xem phim này khá hấp dẫn đấy.」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Yah... Làm ơn đừng nói thế...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Tại sao? Cô ướt sũng và thủ dâm'
+-	R
+-	'cuồng nhiệt, cô không thể nói gì được.」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Hiin... Nức nở, không... ... Aah...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Gahahahaha!, Cô không'
+-	R
+-	'thích làm việc đó một mình à,'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko? Vậy hãy cầu xin ta đi.」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Uu... Wah...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Không ngừng tay, Chizuko ngước'
+-	R
+-	'nhìn Rance với đôi mắt đẫm lệ.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Làm ơn, Ngài Rance...'
+-	R
+-	'... Bên trong tôi...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Hmm, tinh tế quá. Ta'
+-	R
+-	'không hiểu cô muốn nói gì.」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「À, aah... Làm ơn cho nó vào'
+-	R
+-	'trong tôi... Của ngài... c-cặc...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Làm ơn... Đừng bắt'
+-	R
+-	'tôi làm việc này một mình...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Gahahahaha!, được rồi,'
+-	\L_062ff:
+-	ZH 1:
+-	'nói hay lắm! Ta sẽ đặt siêu vũ'
+-	R
+-	'khí của ta vào người cô ...!'
+-	\L_062ff:
+-	ZH 1:
+-	'」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Aaaah...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance nâng hông của Chizuko và thâm nhập vào cô.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Sao thế? Cảm thấy tốt? Gahahahaha!..!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Aah... Ngài Rance,'
+-	R
+-	'tôi... tôi yêu cậu, ah...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Cô thật dễ thương, Chizuko...'
+-	R
+-	'Gahahahaha!, gahahahahaha...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Nnah... Ah, aah...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Trong căn phòng lúc nửa đêm,'
+-	\L_062ff:
+-	ZH 1:
+-	'tiếng cười lớn của Rance vang vọng không ngừng...'
++	'Chizuko chậm rãi đưa tay lên ngực. Qua lớp đồ lót,'
++	\L_062ff:
++	ZH 1:
++	'nàng khẽ vẽ những vòng tròn.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Nhìiiiiiiiiiiiii chằm chằm.........」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「...............」'
++	\L_062ff:
++	ZH 1:
++	'Rồi,'
++	\L_062ff:
++	ZH 1:
++	'nàng lén luồn đầu ngón tay vào trong đồ lót.'
++	\L_062ff:
++	ZH 1:
++	'Có vẻ đang vuốt đầu vú dưới lớp vải xanh bạc hà.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「.........a............」'
++	\L_062ff:
++	ZH 1:
++	'Một tiếng thở khẽ thoát ra từ đôi'
++	\L_062ff:
++	ZH 1:
++	'môi Chizuko. Đầu vú bên không chạm'
++	R
++	'tới cũng nhô lên đội lớp đồ lót.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Sao hiền lành quá'
++	R
++	'vậy. Bên dưới đâu, bên dưới」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「A, vâng.........」'
++	\L_062ff:
++	ZH 1:
++	'Để tay trái lại trên ngực,'
++	R
++	'Chizuko đưa tay phải xuống dưới.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko（Hức, xấu hổ quá......）'
++	\L_062ff:
++	ZH 1:
++	'Mặt đỏ bừng, nàng lướt ngón'
++	R
++	'tay trên lớp vải mỏng che háng.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Dang chân ra, rộng'
++	R
++	'nữa, như gái làng chơi ấy」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ư.........」'
++	\L_062ff:
++	ZH 1:
++	'Dang rộng chân, Chizuko mếu máo xoa háng.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「............ưm............」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Ồ? Cái vết ướt nho nhỏ'
++	R
++	'kia là gìiii thế nhỉ......」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ư............... hí a......」'
++	\L_062ff:
++	ZH 1:
++	'Bị Rance chọc vào đồ lót, Chizuko nảy người lên.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Quần lót mà bẩn thì'
++	R
++	'gay. Để ta cởi cho. Nào!」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「A, Ngài Rance......!」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko chưa kịp phản ứng, chiếc'
++	R
++	'quần lót nhỏ đã bị tuột khỏi chân.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Đấy, thấy hết rồi. Ta xem cho,'
++	R
++	'làm tiếp đi. Gahahahaha.........!」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「V............vâng...............」'
++	\L_062ff:
++	ZH 1:
++	'Mắt cá chân bị Rance giữ chặt,'
++	\L_062ff:
++	ZH 1:
++	'Chizuko lại tiếp tục mân mê giữa háng.'
++	\L_062ff:
++	ZH 1:
++	'Nàng véo đầu vú đã nhọn cứng, dùng đầu ngón tay'
++	\L_062ff:
++	ZH 1:
++	'lăn tròn hạt ngọc ướt bóng.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「.........a............ưm.........」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Ừm ừm...'
++	\L_062ff:
++	ZH 1:
++	'trinh nữ mà cũng biết cách làm đấy nhỉ.'
++	\L_062ff:
++	ZH 1:
++	'......Lúc làm thì nghĩ tới ai?」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ư......... ừm, ngài'
++	R
++	'Gandhi...... ạ.........」'
++	\L_062ff:
++	ZH 1:
++	'Giọng nhỏ như sắp tắt, nhưng'
++	R
++	'Chizuko vẫn thành thật trả lời.'
++	\L_062ff:
++	ZH 1:
++	'Rance làm mặt nghiêm trang, nghe cho qua.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Hừmmm...... thế, giờ'
++	R
++	'cô thích ta hay Gandhi hơn」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Cái đó...... là Ngài Rance ạ......」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Thật không?」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Vâng......」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Vậy thì cho ta xem'
++	R
++	'bằng chứng cô yêu ta đi」'
++	\L_062ff:
++	ZH 1:
++	'Thấy Rance cười nham nhở, vẻ bất'
++	R
++	'an trên mặt Chizuko càng tăng.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Bằng chứng......?」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Lấy ngón tay banh chỗ đó'
++	R
++	'ra. Để ta nhìn tận sâu bên trong」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ư......」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Không làm được à? Quả'
++	R
++	'nhiên cô chẳng yêu ta...'
++	\L_062ff:
++	ZH 1:
++	'dẫu sao cũng là cán bộ Zeth......」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Đ, được ạ, tôi làm'
++	R
++	'được......! Nếu là vì...'
++	\L_062ff:
++	ZH 1:
++	'Ngài Rance thì............」'
++	\L_062ff:
++	ZH 1:
++	'Ngón tay Chizuko vươn tới'
++	R
++	'cánh hoa. Từ chỗ được banh ra,'
++	\L_062ff:
++	ZH 1:
++	'mật nhầy nhụa tràn ra.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Ồ, ướt nhẹp rồi...'
++	\L_062ff:
++	ZH 1:
++	'Thiếu cái của ta chắc bứt rứt lắm nhỉ,'
++	\L_062ff:
++	ZH 1:
++	'Chizuko. Cho ngón tay vào thử xem」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Thế này...... ạ.........?」'
++	\L_062ff:
++	ZH 1:
++	'Ngón tay lún dần vào sâu trong cánh hoa ướt. Mắt'
++	\L_062ff:
++	ZH 1:
++	'cá chân Rance đang nắm khẽ run lên.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Chỉ cho vào thì chán,'
++	\L_062ff:
++	ZH 1:
++	'khuấy lên. À, với lại siêu vũ khí của ta không'
++	\L_062ff:
++	ZH 1:
++	'mảnh thế đâu. Cho ba ngón vào, ba ngón」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ba.........'
++	R
++	'...............v-vâng.........」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko nhắm nghiền mắt, làm theo lời Rance.'
++	\L_062ff:
++	ZH 1:
++	'Khó khăn lắm mới nhét vào được,'
++	R
++	'nàng thử cử động chậm rãi.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ưm............... ư.........!」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Ha ha, cán bộ Zeth một mình loạn lên......'
++	\L_062ff:
++	ZH 1:
++	'cảnh dâm đãng thật」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Đừng......... xin'
++	R
++	'đừng nói thế ạ.........」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Sao lại không? Chỗ đó nhão nhoẹt,'
++	R
++	'rên rỉ điên cuồng mà mồm còn ra vẻ lắm」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Hức...... sụt sịt, đừng'
++	R
++	'mà...... ......aa.........!」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Gahahahaha,'
++	\L_062ff:
++	ZH 1:
++	'làm một mình thì không thích'
++	R
++	'à, Chizuko? Thế thì cầu xin đi」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ư......... ư a.........」'
++	\L_062ff:
++	ZH 1:
++	'Tay vẫn không ngừng, Chizuko'
++	R
++	'ngước đôi mắt đẫm lệ nhìn Rance.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Xin ngài......... Ngài Rance,'
++	R
++	'............vào trong...... tôi.........」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Ừm, tao nhã quá. Ta'
++	R
++	'chẳng hiểu cô muốn nói gì」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「A, aa......... xin hãy cho vào......'
++	R
++	'của Ngài Rance...... c...... cậu nhỏ.........」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Xin ngài...... đừng để'
++	R
++	'tôi...... một mình.........」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Gahahahaha, đượccc,'
++	\L_062ff:
++	ZH 1:
++	'nói hay lắm! Ta cho siêu vũ khí vào'
++	\L_062ff:
++	ZH 1:
++	'đây......!」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Aaaa.........!」'
++	\L_062ff:
++	ZH 1:
++	'Rance ôm hông Chizuko, đâm xuyên vào một phát.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Sao, sướng không? Gahahahahaha......!」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Aa...... Ngài Rance, tôi............'
++	R
++	'tôi...... hết lòng yêu kính ngài, a.........!」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Dễ thương lắm, Chizuko......'
++	R
++	'gahahahaha, gahahahaha......!」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ưa......... a, aa............!」'
++	\L_062ff:
++	ZH 1:
++	'Trong căn phòng giữa đêm,'
++	\L_062ff:
++	ZH 1:
++	'tiếng cười vang của Rance'
++	R
++	'cứ vọng mãi không dứt......'
+ 	\L_062ff:
+ 	{VAR0520 = 300:
+ 		%0:
+@@ -2599,33 +2569,29 @@
+ *L_02a41:
+ 	\L_061f6:
+ 	ZH 1:
+-	'Được rồi, hãy'
+-	R
+-	'chơi ở Tháp S&M. Sẽ rất thú'
+-	R
+-	'vị khi trêu chọc Chizuko.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'... Này, Chizuko.'
+-	R
+-	'Hôm nay chúng ta sẽ làm'
+-	R
+-	'điều đó ở một nơi khác.'
+-	\L_062ff:
+-	ZH 1:
+-	'Hãy đi với tôi.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Hả...? À, đ-được rồi...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko điên cuồng'
++	'Được, chơi ở Tháp SM. Hành'
++	R
++	'hạ Chizuko chắc vui lắm.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'......Này, Chizuko.'
++	R
++	'Hôm nay làm ở chỗ khác.'
++	\L_062ff:
++	ZH 1:
++	'Đi theo ta.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Hả......? A, v-vâng......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko cuống quýt đi'
+ 	R
+ 	'theo Rance ra khỏi phòng.'
+ 	\L_062ff:
+@@ -2642,14 +2608,12 @@
+ 	PF0 VAR0056:
+ 	\L_0624a:
+ 	ZH 1:
+-	'Đây là...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Thôi, đừng kiềm'
+-	R
+-	'chế nữa, hãy vào đi.'
++	'Đây là......'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Thôi, đừng ngại, vào đi.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_0624a:
+@@ -2659,19 +2623,19 @@
+ 	\L_062f2:
+ 	\L_061da:
+ 	ZH 1:
+-	'Ta muốn ngươi làm vậy.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'... Đã hiểu...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Họ cùng nhau'
+-	R
+-	'bước vào Tháp S&M...'
++	'Ta muốn thế đấy.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'.........Tôi hiểu rồi......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Hai người cùng bước'
++	R
++	'vào Tháp SM......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	PF1 VAR0056:
+@@ -2679,305 +2643,301 @@
+ 	SS 0:
+ 	\L_062ba:
+ 	ZH 1:
+-	'（cạch... đóng sầm）'
++	'（Kẽo kẹt...... rầm）'
+ 	PF0 VAR0056:
+ 	\L_062ff:
+ 	ZH 1:
+-	'Chizuko 「À...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Căn phòng họ bước vào không có cửa sổ,'
+-	R
+-	'khi đóng cửa lại thì tối đen như mực.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Vua... Rance...?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko lẩm bẩm một cách khó chịu.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Cô sẽ ổn thôi, chỉ cần đứng yên thôi.」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ừm, cậu là gì...? À...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Trong bóng tối sâu đến mức cô không'
+-	R
+-	'thể nhìn thấy ngay trước mặt mình,'
+-	\L_062ff:
+-	ZH 1:
+-	'chiếc móc trên váy của cô đã được cởi ra.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Tại sao...? Ngài Rance... Ừm...'
+-	R
+-	'Tôi không thấy gì cả... Ngài Rance...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Quần áo của Chizuko lần lượt bị cởi'
+-	R
+-	'ra trong lúc cô bối rối. Sau đó,'
+-	\L_062ff:
+-	ZH 1:
+-	'cơ thể trần truồng của cô bị trói bằng dây thừng.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「À...! Ừm,'
+-	\L_062ff:
+-	ZH 1:
+-	'Ngài Rance...! Tại sao ngươi làm điều'
+-	R
+-	'này? Làm sao cậu có thể thấy...?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Gahahahaha!...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「À, Ngài Rance... Mmmmmm!?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Cô đã bị bịt miệng. Đôi mắt của'
+-	R
+-	'Chizuko lại càng đẫm lệ hơn.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ừm... Mmmmmm!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance（Huhuhuhu... Ta có thể nhìn rõ'
+-	R
+-	'rồi. Thật đáng để làm những thứ này...）'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance（Những chiếc kính nhìn'
+-	R
+-	'đêm này thực sự hữu ích!）'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance mở mắt bên trong chiếc'
+-	R
+-	'kính bảo hộ và nhìn Chizuko.'
++	'Chizuko「A.........」'
++	\L_062ff:
++	ZH 1:
++	'Căn phòng hai người bước vào không có cửa'
++	R
++	'sổ, đóng chặt cửa lại là tối om như mực.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ngài...... Rance.........?」'
++	\L_062ff:
++	ZH 1:
++	'Giọng Chizuko nghèn nghẹn bất an.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Được rồi, cứ đứng yên đó」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ừm, ngài định...... a.........?」'
++	\L_062ff:
++	ZH 1:
++	'Trong bóng tối đến mức bị véo mũi cũng không biết,'
++	\L_062ff:
++	ZH 1:
++	'móc cài váy bị tháo ra.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Sao lại......? Ngài Rance...... ừm......'
++	R
++	'tôi chẳng nhìn thấy gì cả...... Ngài Rance......」'
++	\L_062ff:
++	ZH 1:
++	'Mặc Chizuko bối rối, quần áo'
++	R
++	'nàng lần lượt bị cởi ra. Rồi'
++	\L_062ff:
++	ZH 1:
++	'dây thừng quấn lên thân thể trần trụi.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「A......!? Ừm,'
++	\L_062ff:
++	ZH 1:
++	'Ngài Rance......! Sao lại thế này......'
++	R
++	'sao ngài lại nhìn thấy được ạ......?」'
++	\L_062ff:
++	ZH 1:
++	'Rance「Hừ hừ hừ hừ hừ......」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「A, Ngài Rance......... ưmmmm!?」'
++	\L_062ff:
++	ZH 1:
++	'Hơn nữa, nàng còn bị bịt'
++	R
++	'miệng. Mắt Chizuko đã ngấn lệ.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ưm......... ưmmm!」'
++	\L_062ff:
++	ZH 1:
++	'Rance（Hừ hừ hừ...... thấy rõ, thấy rõ,'
++	R
++	'cất công cho người làm quả là đáng......）'
++	\L_062ff:
++	ZH 1:
++	'Rance（Kính nhìn đêm đúng là có ích ghê!）'
++	\L_062ff:
++	ZH 1:
++	'Rance mở to mắt sau cặp kính,'
++	R
++	'ngắm kỹ dáng vẻ Chizuko.'
+ 	\L_062ff:
+ 	G 164:
+ 	{VAR0520 \ 301:
+ 		SS 24:
+ 	}
+ 	ZH 1:
+-	'Rance（Uhahahaha... Tốt!'
+-	R
+-	'Ta đã trói nàng khá tốt.）'
++	'Rance（Uhahahaha......'
++	R
++	'GOOD! Trói đẹp lắm, ta đây）'
+ 	\L_062ff:
+ *L_02d47:
+ 	ZH 1:
+-	'Chizuko 「... Ừmmm...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko quên mất việc đấu tranh và chỉ'
+-	\L_062ff:
+-	ZH 1:
+-	'sợ hãi. Rance nhịn cười và bắt đầu trêu chọc cô.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ừm...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Đầu tiên,'
+-	\L_062ff:
+-	ZH 1:
+-	'anh nắm lấy bộ ngực đang bị trói bằng'
+-	R
+-	'sợi dây rơm của cô. Họ đang đau nhói.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko（Ngài Rance... Tại sao lại'
+-	R
+-	'làm việc này trong bóng tối...?）'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance tiếp tục chơi đùa với núm vú của cô.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ừm...!?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance（Gahahahaha!, đẹp và tròn trịa...）'
+-	\L_062ff:
+-	ZH 1:
+-	'Anh cười thầm trong khi'
+-	R
+-	'lăn tròn núm vú của cô. Anh'
+-	\L_062ff:
+-	ZH 1:
+-	'đặt chiếc lưỡi cứng rắn của mình vào và mút.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ngh... Mm, hgh...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Mặt Chizuko méo mó như sắp'
+-	R
+-	'khóc. Cô thở một cách bực'
+-	\L_062ff:
+-	ZH 1:
+-	'tức. Cơ thể bị trói của cô run lên vì căng thẳng.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko（Không... Tôi sợ lắm, Vua'
+-	R
+-	'Rance... Tại sao ngài không nói gì...?）'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance（Hmmm, tiếp theo ta nên làm gì đây…?）'
+-	\L_062ff:
+-	ZH 1:
+-	'Những ngón tay của Rance'
+-	R
+-	'lướt qua bên sườn Chizuko.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Xin chào...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance（Được rồi, đã đến lúc'
+-	R
+-	'ta tấn công nhanh chóng rồi!）'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance tránh xa cơ thể tê liệt của'
+-	R
+-	'Chizuko nhất có thể và xoa khắp vai,'
+-	\L_062ff:
+-	ZH 1:
+-	'mông và cổ của cô.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko（Yah... Ngài đang ở'
+-	R
+-	'đâu, Ngài Rance...? Ở đâu...!?）'
+-	\L_062ff:
+-	ZH 1:
+-	'Mỗi lần anh chạm vào cô, Chizuko'
+-	R
+-	'đều nhìn về hướng tay anh xuất phát,'
+-	\L_062ff:
+-	ZH 1:
+-	'chỉ để thấy bóng tối.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko（Cậu đang ở đâu...?...'
+-	R
+-	'Ngài Rance...?... Hay ai khác...?）'
+-	\L_062ff:
+-	ZH 1:
+-	'Nỗi lo lắng trong Chizuko ngày càng lớn.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko（Có phải là một kẻ hạ đẳng nào'
+-	R
+-	'đó...?... Không, điều đó không thể...）'
+-	\L_062ff:
+-	ZH 1:
+-	'Ngay sau đó, tay Rance trượt vào háng Chizuko.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Mmmmmmmmmmmmmmm!!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance(Uhahahaha,'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko dễ thương quá.) Anh kiềm chế Chizuko'
+-	\L_062ff:
+-	ZH 1:
+-	'khỏi vùng vẫy và từ từ vuốt ve âm hộ của cô.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ừm...! Ừm, kh...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko cọ hai chân vào nhau và cố gắng chống cự,'
+-	\L_062ff:
+-	ZH 1:
+-	'nhưng ngón tay của người đàn ông'
+-	R
+-	'không bị ảnh hưởng và tiến vào cô.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Uu... Kh, hgh...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko cúi đầu và lắc đầu. Một tiếng thở dài nóng'
+-	\L_062ff:
+-	ZH 1:
+-	'bỏng thoát ra khỏi môi cô trái với ý muốn của cô.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance（Hmmm, ta muốn nói với nàng'
+-	R
+-	'rằng cơ thể nàng rất thành thật,'
+-	\L_062ff:
+-	ZH 1:
+-	'nhưng ta phải kìm lại...）'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance làm mặt nghiêm túc trong bóng'
+-	R
+-	'tối và tiếp tục chơi với Chizuko.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko（Ngài Rance... Vua Rance... Nooo...）'
+-	\L_062ff:
+-	ZH 1:
+-	'Khi âm hộ của Chizuko ẩm'
+-	R
+-	'ướt, Rance đứng đằng sau cô.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ừm...!?」'
+-	\L_062ff:
+-	ZH 1:
+-	'Anh ta kéo mông cô lại và buộc chân cô mở'
+-	\L_062ff:
+-	ZH 1:
+-	'ra. Chizuko dồn hết sức lực cuối cùng để chống cự.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko（Không... Không, cậu là ai...?!'
+-	R
+-	'Tôi không muốn ai ngoài Ngài Rance...!）'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance（Được rồi... Đã đến lúc'
+-	R
+-	'kết thúc chuyện này rồi!）'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Mmmmmmmmmmm...!」'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance phớt lờ sự vùng vẫy của Chizuko'
+-	R
+-	'và đẩy siêu vũ khí của anh vào âm hộ cô.'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance 「Gahahahaha! Cô ướt sũng'
+-	R
+-	'rồi Chizuko...! Gahahahaha!.. !」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko 「Ừm... mm, mm...」'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko（Aah... Đó là giọng'
+-	R
+-	'của Ngài Rance... ... Hoh...）'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko bình tĩnh lại và'
+-	R
+-	'giao nộp mình cho Rance...'
++	'Chizuko「...............ưm.........」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko quên cả vùng vẫy, chỉ biết'
++	\L_062ff:
++	ZH 1:
++	'sợ hãi. Rance nín cười, bắt đầu nghịch ngợm.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ưm.........!」'
++	\L_062ff:
++	ZH 1:
++	'Mở màn,'
++	\L_062ff:
++	ZH 1:
++	'anh chộp lấy bầu ngực bị dây thừng thô'
++	R
++	'siết phồng lên. Tim nàng đập thình thịch.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko（Ngài Rance......... Ngài Rance,'
++	R
++	'sao lại trong bóng tối thế này.........）'
++	\L_062ff:
++	ZH 1:
++	'Tiếp đó, Rance mân mê hai đầu vú.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ưmm.........!?」'
++	\L_062ff:
++	ZH 1:
++	'Rance（Gahahahaha, vê vê nào......）'
++	\L_062ff:
++	ZH 1:
++	'Cười vang trong đầu, anh'
++	R
++	'dùng ngón tay vê đầu vú. Khi'
++	\L_062ff:
++	ZH 1:
++	'nó cứng lại, anh đặt lên lưỡi mà mút.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ưm......... ưm, hự............」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko méo mặt như sắp khóc, thở'
++	\L_062ff:
++	ZH 1:
++	'dồn dập. Thân thể bị trói run lên vì căng thẳng.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko（Đừng......... tôi sợ lắm, Ngài'
++	R
++	'Rance......... sao ngài không nói gì cả......）'
++	\L_062ff:
++	ZH 1:
++	'Rance（Ừmm, tiếp theo chỗ nào đây......）'
++	\L_062ff:
++	ZH 1:
++	'Ngón tay Rance vuốt dọc mạn sườn Chizuko.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Hí.........!」'
++	\L_062ff:
++	ZH 1:
++	'Rance（Được, nếm chiêu Thiên'
++	R
++	'Thủ Quan Âm của ta đây!）'
++	\L_062ff:
++	ZH 1:
++	'Lùi ra xa thân thể co rúm của'
++	R
++	'Chizuko hết mức, anh vuốt khắp vai,'
++	\L_062ff:
++	ZH 1:
++	'mông, gáy nàng.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko（Đừng......... đâu...... Ngài'
++	R
++	'Rance......... ngài ở đâu.........!?）'
++	\L_062ff:
++	ZH 1:
++	'Mỗi lần thế, Chizuko lại quay'
++	R
++	'về phía bàn tay vươn tới,'
++	\L_062ff:
++	ZH 1:
++	'nhưng chỉ thấy toàn bóng tối.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko（Ở đâu......... ......Ngài'
++	R
++	'Rance......... ......ai vậy.........?）'
++	\L_062ff:
++	ZH 1:
++	'Nỗi bất an trong Chizuko ngày một lớn.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko（Lẽ nào......... không lẽ,'
++	R
++	'mình...... bị kẻ hèn hạ nào......'
++	R
++	'không, không thể nào.........）'
++	\L_062ff:
++	ZH 1:
++	'Ngay sau đó, tay Rance luồn vào giữa háng Chizuko.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ưmmmmmmmmmmmm!!」'
++	\L_062ff:
++	ZH 1:
++	'Rance（Uhahahaha,'
++	\L_062ff:
++	ZH 1:
++	'Chizuko dễ thương ghê） Đè'
++	R
++	'chặt Chizuko đang cố vùng vẫy,'
++	\L_062ff:
++	ZH 1:
++	'anh chậm rãi vuốt ve cánh hoa.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ưm......! Ưmmm, ư.........」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko khép chặt hai chân chống cự,'
++	\L_062ff:
++	ZH 1:
++	'nhưng ngón tay người đàn ông'
++	R
++	'vẫn chẳng hề hấn gì mà lách vào.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ư......... ư, hự...............」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko gục đầu lắc nguầy nguậy, nhưng từ đôi môi,'
++	\L_062ff:
++	ZH 1:
++	'trái với ý chí, hơi thở nóng hổi vẫn thoát ra.'
++	\L_062ff:
++	ZH 1:
++	'Rance（Ưm, muốn nói "cơ thể thành thật lắm" ghê,'
++	\L_062ff:
++	ZH 1:
++	'nhưng nhịn, nhịn......）'
++	\L_062ff:
++	ZH 1:
++	'Làm mặt nghiêm trang trong bóng tối,'
++	R
++	'Rance tiếp tục đùa nghịch Chizuko.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko（Ngài Rance...... Ngài'
++	R
++	'Rance............ đừng mà......）'
++	\L_062ff:
++	ZH 1:
++	'Đợi đến lúc cánh hoa ướt đẫm,'
++	R
++	'Rance đứng ra sau lưng Chizuko.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ưmm......!?」'
++	\L_062ff:
++	ZH 1:
++	'Nắm mông kéo lại, anh banh chân nàng'
++	\L_062ff:
++	ZH 1:
++	'ra. Chizuko dốc chút sức cuối cùng để chống cự.'
++	\L_062ff:
++	ZH 1:
++	'Chizuko（Không......... không, là'
++	R
++	'ai.........! Không phải Ngài Rance'
++	R
++	'thì không chịu đâu.........!）'
++	\L_062ff:
++	ZH 1:
++	'Rance（Được...... kết thúc thôi!）'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ưmmmmmm............!」'
++	\L_062ff:
++	ZH 1:
++	'Mặc Chizuko giãy giụa, Rance đẩy'
++	R
++	'siêu vũ khí vào sâu trong cánh hoa.'
++	\L_062ff:
++	ZH 1:
++	'Rance「Gahahahaha, ướt nhẹp rồi đây,'
++	R
++	'Chizuko......! Gahahahahaha............!」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko「Ưm......... ưm, ưm............」'
++	\L_062ff:
++	ZH 1:
++	'Chizuko（Aa......... giọng này, là Ngài'
++	R
++	'Rance...... ............phù......）'
++	\L_062ff:
++	ZH 1:
++	'Chizuko yên tâm, phó thác'
++	R
++	'thân mình cho Rance......'
+ 	\L_062ff:
+ 	{VAR0520 = 301:
+ 		%0:
+@@ -3002,112 +2962,104 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Chizuko'
+-	R
+-	'- Phòng Chỉ Huy'
++	'Tháp Chizuko - Phòng Chỉ huy'
+ 	\L_062ff:
+ 	{VAR0650 = 9:
+ 		@L_034e7:
+ 	}
+ 	{VAR0336 = 6:
+ 		ZH 1:
+-		'（đập!）'
++		'（Rầm!）'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		!VAR0516 : 478!
+ 		\L_0629e:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Lãnh chúa Chizuko,'
+-		R
+-		'Quân đội Leazas đang tiếp'
+-		R
+-		'cận tòa tháp của chúng tôi!'
++		'Thưa ngài Chizuko,'
++		R
++		'quân Leazas đang tiến'
++		R
++		'sát tòa tháp của ta!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_06212:
+ 		ZH 1:
+-		'Một trong những'
+-		R
+-		'pháp sư làm việc cho Chizuko'
+-		R
+-		'xuất hiện với một báo cáo.'
++		'Một pháp sư thuộc hạ'
++		R
++		'xuất hiện trước mặt'
++		R
++		'Chizuko để báo cáo.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Tôi hiểu rồi... Vậy'
+-		R
+-		'là lũ ngốc đó đã đến.'
+-		R
+-		'Hãy chặn chúng lại.'
+-		\L_062ff:
+-		ZH 1:
+-		'Yêu cầu mọi'
+-		R
+-		'người bảo vệ... Đội hình'
+-		R
+-		'X! Tiêu diệt tất cả chúng!'
+-		\L_062ff:
+-		ZH 1:
+-		'Tôi sẽ cho quốc gia man'
+-		R
+-		'rợ đó thấy dân tộc của Đức'
+-		R
+-		'Vua tuyệt vời như thế nào...'
+-		\L_062ff:
+-		ZH 1:
+-		'Hooohohohohohoho...!'
++		'Thế à... đám ngu ngốc'
++		R
++		'đã tới rồi. Được, ra'
++		R
++		'nghênh chiến thôi.'
++		\L_062ff:
++		ZH 1:
++		'Tất cả vào vị trí phòng'
++		R
++		'thủ... Đội hình X! Diệt'
++		R
++		'sạch, không chừa một tên!'
++		\L_062ff:
++		ZH 1:
++		'Ta sẽ cho xứ man rợ Leazas'
++		R
++		'thấy thần dân của minh quân'
++		R
++		'ưu tú tới mức nào......'
++		\L_062ff:
++		ZH 1:
++		'Ô hô hô hô hô hô......!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Ừm, Chúa tể Chizuko...'
+-		R
+-		'Đội hình X là gì...?'
++		'Thưa, ngài Chizuko...... đội'
++		R
++		'hình X mà ngài nói là......?'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_06212:
+ 		ZH 1:
+-		'（kh!）'
+-		\L_062ff:
+-		ZH 1:
+-		'Chizuko trừng mắt'
+-		R
+-		'nhìn cấp dưới của mình.'
++		'（Trừng!）'
++		\L_062ff:
++		ZH 1:
++		'Chizuko lườm thuộc hạ.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Cậu thật đáng'
+-		R
+-		'ghét... Hãy cẩn thận'
+-		R
+-		'với những gì cậu nói.'
+-		\L_062ff:
+-		ZH 1:
+-		'Tôi chỉ nói thế là đi'
+-		R
+-		'theo tinh thần sự vật thôi.'
+-		\L_062ff:
+-		ZH 1:
+-		'Có phải cậu đang'
+-		R
+-		'cố gắng phá hỏng tâm trạng'
+-		R
+-		'mà tôi đã mất công tạo ra?'
++		'Ngươi láo thật...'
++		R
++		'đừng có xen ngang.'
++		\L_062ff:
++		ZH 1:
++		'Thứ đó là theo khí thế thôi.'
++		\L_062ff:
++		ZH 1:
++		'Định phá hỏng bầu'
++		R
++		'không khí ta mất công'
++		R
++		'khuấy động lên à?'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Huh, tâm trạng...'
+-		\L_062ff:
+-		ZH 1:
+-		'Vậy thì tôi sẽ đi theo tinh'
+-		R
+-		'thần của mọi thứ và thách'
+-		R
+-		'thức họ với Đội hình X.'
++		'Haa, không khí ạ......'
++		\L_062ff:
++		ZH 1:
++		'Vậy thì theo khí thế,'
++		R
++		'chúng thần sẽ ứng'
++		R
++		'chiến bằng đội hình X.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+@@ -3117,11 +3069,11 @@
+ 		\L_062f2:
+ 		\L_06266:
+ 		ZH 1:
+-		'Haah... Thật khó'
+-		R
+-		'khăn khi không có Annis'
+-		R
+-		'Sawatari bên cạnh...'
++		'Haa...... không có'
++		R
++		'cô Anis Sawatari'
++		R
++		'thì vất vả quá......'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		!VAR0516 : 0!
+@@ -3129,124 +3081,114 @@
+ 		%0:
+ 	}
+ 	ZH 1:
+-	'HÀ dahdahdahdahdah...!）'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Ngài Chizuko,'
+-	R
+-	'họ đến rồi...!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Có thể nghe thấy tiếng'
+-	R
+-	'Annis chạy lên cầu thang'
+-	R
+-	'từ phía bên kia cánh cửa.'
+-	\L_062ff:
+-	ZH 1:
+-	'（sụp đổ）'
++	'（Rầm rầm rầm rầm...!）'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Ngài Chizuko, tới rồi...!'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Từ bên kia cánh cửa'
++	R
++	'vọng lại tiếng Anis chạy'
++	R
++	'rầm rập lên cầu thang.'
++	\L_062ff:
++	ZH 1:
++	'（Rầm!）'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 52!
+ 	\L_0629e:
+ 	\L_0624a:
+ 	ZH 1:
+-	'Quân Leazas'
+-	R
+-	'đến rồi... Ah!?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'（bzzzzzzzzzzzzzt!）'
+-	\L_062ff:
+-	ZH 1:
+-	'Dòng điện'
+-	R
+-	'cực mạnh tấn công Annis'
+-	R
+-	'từ phía trên cánh cửa.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Ối... Ối...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ôi không'
+-	R
+-	'có gì, một người bình'
+-	R
+-	'thường sẽ chết rồi...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Lãnh chúa Chizuko,'
+-	R
+-	'Quân đội Leazas là...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Tôi biết, tôi đã'
+-	R
+-	'nghe thấy cậu. Cậu không'
+-	R
+-	'cần phải ồn ào như vậy.'
+-	\L_062ff:
+-	ZH 1:
+-	'Quan trọng hơn,'
+-	R
+-	'tôi biết tôi đã nói với'
+-	R
+-	'cậu rằng tôi đã thiết lập'
+-	\L_062ff:
+-	ZH 1:
+-	'“Annis Repellent”. Hãy'
+-	R
+-	'cẩn thận hơn một chút.'
+-	\L_062ff:
+-	ZH 1:
+-	'Bây giờ...'
+-	\L_062ff:
+-	ZH 1:
+-	'tôi đi đây. Tôi phải đánh'
+-	R
+-	'đuổi Đội quân Leazas bẩn'
+-	R
+-	'thỉu ra khỏi tòa tháp này...'
+-	\L_062ff:
+-	ZH 1:
+-	'và khỏi Zeth.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko nhanh'
+-	R
+-	'chóng chuẩn bị tinh'
+-	R
+-	'thần và rời khỏi phòng.'
++	'Tới rồi, quân'
++	R
++	'Leazas...... á!?'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'（Ầm ầm ầm đùng!!）'
++	\L_062ff:
++	ZH 1:
++	'Một luồng sét dữ dội từ phía'
++	R
++	'trên cửa giáng xuống Anis.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Đ...... đau đau......'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Đau gì mà đau, người thường'
++	R
++	'thì chết rồi đấy......'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Ngài Chizuko, quân Leazas...'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Biết rồi, ta nghe thấy'
++	R
++	'rồi. Chuyện cỏn con'
++	R
++	'thì đừng làm ầm lên.'
++	\L_062ff:
++	ZH 1:
++	'Quan trọng hơn, ta'
++	R
++	'đã bảo dạo trước'
++	\L_062ff:
++	ZH 1:
++	'có gắn [bẫy chống'
++	R
++	'Anis] rồi cơ mà. Cử'
++	R
++	'động cẩn thận chút đi.'
++	\L_062ff:
++	ZH 1:
++	'Nào......'
++	\L_062ff:
++	ZH 1:
++	'đi thôi. Phải đánh đuổi'
++	R
++	'quân Leazas dơ bẩn ra'
++	R
++	'khỏi tòa tháp này......'
++	\L_062ff:
++	ZH 1:
++	'ra khỏi Zeth.'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko nhanh nhẹn chuẩn'
++	R
++	'bị rồi rời khỏi phòng.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_0623c:
+ 	\L_0624a:
+ 	ZH 1:
+-	'Ngài Chizuko...'
+-	\L_062ff:
+-	ZH 1:
+-	'Nếu ngài không vô hiệu hóa'
+-	R
+-	'“Annis Repellent”, tôi không'
+-	R
+-	'thể ra khỏi phòng này...'
++	'Ngài Chizuko......'
++	\L_062ff:
++	ZH 1:
++	'ngài không gỡ [bẫy chống'
++	R
++	'Anis] đi thì tôi không ra'
++	R
++	'khỏi phòng được ạaa......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 0!
+@@ -3262,21 +3204,21 @@
+ 		\L_0629e:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Lãnh chúa Chizuko, quân'
+-		R
+-		'Leazas lại đang tiến về đây.'
++		'Ngài Chizuko, quân Leazas'
++		R
++		'lại đang tiến về phía này.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Tôi hiểu rồi... Vậy'
+-		R
+-		'hãy chuẩn bị triển khai...'
++		'Thế à...... vậy chuẩn'
++		R
++		'bị xuất quân đi......'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Có.'
++		'Tuân lệnh.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_062ac:
+@@ -3286,157 +3228,149 @@
+ 		\L_0629e:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Ừm... Cậu'
+-		R
+-		'có phải là Lãnh chúa'
+-		R
+-		'Chizuko thật không...?'
+-		\L_062ff:
+-		ZH 1:
+-		'Quân đội Leazas lại đến'
+-		R
+-		'đây, nhưng theo lệnh, ừm...'
++		'Ừm...... có phải...... ngài'
++		R
++		'Chizuko thật không ạ......'
++		\L_062ff:
++		ZH 1:
++		'quân Leazas lại tới, xin'
++		R
++		'ngài chỉ thị, ừm......'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Tôi hiểu rồi... Bảo mọi'
+-		R
+-		'người chuẩn bị xuất kích...'
++		'Ừ...... bảo họ chuẩn'
++		R
++		'bị xuất quân......'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Đ-Vâng.'
++		'V-vâng.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_062ac:
+ 		\L_06212:
+ 		ZH 1:
+-		'Khi Annis rời khỏi phòng,'
+-		\L_062ff:
+-		ZH 1:
+-		'cô giật mình'
+-		R
+-		'một cách kỳ lạ khi thấy'
+-		R
+-		'Chizuko vô hồn đến thế nào.'
++		'Sợ hãi kỳ lạ trước'
++		R
++		'một Chizuko ủ rũ,'
++		\L_062ff:
++		ZH 1:
++		'Anis rời khỏi phòng.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 	}
+ 	\L_061da:
+ 	ZH 1:
+-	'Haa…'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko thở dài'
+-	R
+-	'và gục đầu xuống.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Aah... Tôi nên'
+-	R
+-	'làm gì đây...? Nức'
+-	R
+-	'nở, vua Gandhi...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Cô nhìn lá thư trên tay'
+-	R
+-	'và cúi đầu càng thấp hơn.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Nếu chuyện là thế'
+-	R
+-	'này... lẽ ra tôi không'
+-	R
+-	'nên gửi lá thư đó...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Một ngày'
+-	R
+-	'nọ, Chizuko gửi một lá thư'
+-	R
+-	'cho Gandhi với nội dung:'
+-	\L_062ff:
+-	ZH 1:
+-	'“Tôi muốn'
+-	R
+-	'chiến đấu với anh.'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi sẽ phản bội Zeth'
+-	R
+-	'và đến Leazas.” Bức thư'
+-	\L_062ff:
+-	ZH 1:
+-	'cô đang cầm bây giờ'
+-	R
+-	'là thư trả lời của Gandhi.'
+-	\L_062ff:
+-	ZH 1:
+-	'... Câu trả'
+-	R
+-	'lời rất đơn giản.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'........ “Ngươi là một'
+-	R
+-	'trong Tứ chúa tể của Zeth.'
+-	\L_062ff:
+-	ZH 1:
+-	'Hãy chết cùng Zeth.” Aaah,'
+-	R
+-	'tôi không thể chịu được,'
+-	R
+-	'Vua Gandhi...! Ưu... Ưu...'
+-	\L_062ff:
+-	ZH 1:
+-	'Hức hức, hii...'
+-	R
+-	'... Haah... Nhưng'
+-	R
+-	'nếu cậu nói vậy...'
+-	\L_062ff:
+-	ZH 1:
+-	'Vậy thì tất'
+-	R
+-	'cả những gì tôi có thể'
+-	R
+-	'làm là chết cùng Zeth...'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi sẽ chiến'
+-	R
+-	'đấu, Vua Gandhi...'
+-	\L_062ff:
+-	ZH 1:
+-	'Vì ngài...'
+-	\L_062ff:
+-	ZH 1:
+-	'Nhưng... Cuối cùng,'
+-	R
+-	'ít nhất em cũng muốn'
+-	R
+-	'chết trong tay anh...'
+-	\L_062ff:
+-	ZH 1:
+-	'Trong vòng tay anh...'
+-	\L_062ff:
+-	ZH 1:
+-	'Vua Gandhi...'
++	'Haaa.........'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko thở dài thườn'
++	R
++	'thượt, gục đầu ủ rũ.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Aa...... phải làm sao'
++	R
++	'đây...... sụt sịt,'
++	R
++	'ngài Gandhi......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Nhìn lá thư trong tay,'
++	R
++	'nàng càng gục đầu thấp hơn.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Biết thế này thì......'
++	R
++	'đã không gửi......'
++	R
++	'lá thư ấy......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Mấy hôm trước, Chizuko'
++	R
++	'đã gửi cho Gandhi'
++	\L_062ff:
++	ZH 1:
++	'một lá thư: [Tôi cũng'
++	R
++	'muốn cùng chiến đấu,'
++	\L_062ff:
++	ZH 1:
++	'sẽ phản bội Zeth để'
++	R
++	'sang Leazas.] Lá thư'
++	\L_062ff:
++	ZH 1:
++	'trong tay nàng lúc này'
++	R
++	'là thư hồi âm của Gandhi.'
++	\L_062ff:
++	ZH 1:
++	'......Hồi âm rất ngắn gọn.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'......[Ngươi là Tứ Đại'
++	R
++	'Lãnh Chúa của Zeth.'
++	\L_062ff:
++	ZH 1:
++	'Hãy chết cùng Zeth.] Aa, quá'
++	R
++	'đáng lắm, ngài Gandhi......!'
++	R
++	'Hu... hu hu......'
++	\L_062ff:
++	ZH 1:
++	'Sụt sịt, hức......'
++	R
++	'......haa...... Nhưng'
++	R
++	'nếu ngài đã nói vậy...'
++	\L_062ff:
++	ZH 1:
++	'thì Chizuko chỉ'
++	R
++	'còn cách chết cùng'
++	R
++	'Zeth thôi nhỉ......'
++	\L_062ff:
++	ZH 1:
++	'Tôi sẽ chiến đấu,'
++	R
++	'ngài Gandhi...'
++	\L_062ff:
++	ZH 1:
++	'vì ngài......'
++	\L_062ff:
++	ZH 1:
++	'Nhưng mà...... ít nhất'
++	R
++	'lúc cuối, xin được'
++	R
++	'chết dưới tay ngài...'
++	\L_062ff:
++	ZH 1:
++	'trong vòng tay ngài......'
++	\L_062ff:
++	ZH 1:
++	'ngài Gandhi......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 0!
+@@ -3446,113 +3380,113 @@
+ 	!VAR0320 : 1!
+ 	{VAR0336 = 6:
+ 		ZH 1:
+-		'（đập!）'
++		'（Rầm!）'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		!VAR0516 : 478!
+ 		\L_0629e:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Lãnh chúa Chizuko,'
+-		R
+-		'Quân đội Leazas đang tiếp'
+-		R
+-		'cận tòa tháp của chúng tôi!'
++		'Thưa ngài Chizuko,'
++		R
++		'quân Leazas đang tiến'
++		R
++		'sát tòa tháp của ta!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_06212:
+ 		ZH 1:
+-		'Một trong những'
+-		R
+-		'pháp sư làm việc cho Chizuko'
+-		R
+-		'xuất hiện với một báo cáo.'
++		'Một pháp sư thuộc hạ'
++		R
++		'xuất hiện trước mặt'
++		R
++		'Chizuko để báo cáo.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 	}
+ 	{VAR0336 = 7:
+ 		ZH 1:
+-		'（chang!）'
+-		\L_062ff:
+-		ZH 1:
+-		'Annis đập nát cánh cửa'
+-		R
+-		'sắt rồi chạy vào phòng.'
++		'（Uỳnh!!）'
++		\L_062ff:
++		ZH 1:
++		'Phá tung cánh cửa'
++		R
++		'sắt, Anis xông vào.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		!VAR0516 : 52!
+ 		\L_0629e:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Ngài Chizuko,'
+-		R
+-		'họ đến rồi...! Quân đội'
+-		R
+-		'Leazas đang ở đây... Ah!?'
++		'Ngài Chizuko, tới'
++		R
++		'rồi...! Tới rồi,'
++		R
++		'quân Leazas...... á!?'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_06212:
+ 		ZH 1:
+-		'Đôi mắt cô mở to vì sốc.'
++		'Mắt cô trợn tròn kinh ngạc.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Cậu không giận à...!?'
++		'Ngài Chizuko không'
++		R
++		'nổi giận...!?'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Đồ ngốc...'
+-		\L_062ff:
+-		ZH 1:
+-		'Thật thô lỗ.'
+-		R
+-		'Không phải lúc nào tôi cũng'
+-		R
+-		'nổi điên. Sửa cái cửa đó...'
++		'Đồ ngốc......'
++		\L_062ff:
++		ZH 1:
++		'thật thất lễ. Ta đâu phải'
++		R
++		'lúc nào cũng nổi giận. Sửa'
++		R
++		'cái cửa đó lại đi......'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Hô...'
+-		\L_062ff:
+-		ZH 1:
+-		'Cậu vẫn gọi tôi là thô'
+-		R
+-		'lỗ, nhưng tôi không thể tin'
+-		R
+-		'được là cậu không giận...'
++		'Hả......'
++		\L_062ff:
++		ZH 1:
++		'nói thất lễ mà cũng'
++		R
++		'không nổi giận......'
+ 		\L_062ff:
+ 		\L_062f2:
+ 	}
+ 	\L_061da:
+ 	ZH 1:
+-	'Tôi hiểu rồi... Vậy là'
+-	R
+-	'Quân đội Leazas ở đây...'
+-	\L_062ff:
+-	ZH 1:
+-	'Leazas... Vua'
+-	R
+-	'Gandhi... Aah...'
++	'Thế à...... tới rồi......'
++	R
++	'quân Leazas......'
++	\L_062ff:
++	ZH 1:
++	'Leazas...... ngài'
++	R
++	'Gandhi......... aa......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	{VAR0336 = 6:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Ngài Chizuko,'
+-		R
+-		'ừm... Xin hãy ra lệnh.'
++		'Ngài Chizuko, ừm......'
++		R
++		'xin ngài chỉ thị.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 	}
+ 	{VAR0336 = 7:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Ngài Chizuko,'
+-		R
+-		'xin hãy ra lệnh cho'
++		'Ngài Chizuko, xin'
++		R
++		'ngài chỉ thị... cho'
+ 		R
+ 		'đội trưởng phòng thủ.'
+ 		\L_062ff:
+@@ -3560,48 +3494,48 @@
+ 	}
+ 	\L_061da:
+ 	ZH 1:
+-	'... Haa...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Chúa Chizuko...'
+-	R
+-	'Chúa Chizuko!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'À... Ừ, được'
+-	R
+-	'rồi... Mệnh lệnh...'
++	'.........Haa.........'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Ngài Chizuko......'
++	R
++	'ngài Chizuko!'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'A...... ừ, phải rồi......'
++	R
++	'chỉ thị nhỉ, chỉ thị...'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	{VAR0336 = 6:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Xin hãy bình tĩnh,'
+-		R
+-		'nếu đây là cách chỉ huy của'
+-		R
+-		'chúng tôi, thì chúng tôi...'
++		'Xin ngài tỉnh táo lại,'
++		R
++		'chỉ huy mà như thế này'
++		R
++		'thì chúng thần......'
+ 		\L_062ff:
+ 		\L_062f2:
+ 	}
+ 	{VAR0336 = 7:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Làm ơn hãy bình tĩnh'
+-		R
+-		'lại đi... Tôi thấy sợ khi'
+-		R
+-		'nhìn thấy cậu như thế này...'
++		'Xin ngài tỉnh táo lại...'
++		R
++		'ngài Chizuko như thế'
++		R
++		'này, tôi sợ lắm...'
+ 		\L_062ff:
+ 		\L_062f2:
+ 	}
+ 	\L_061da:
+ 	ZH 1:
+-	'Tôi hiểu rồi... Xin lỗi.'
++	'Ừ nhỉ...... xin lỗi.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	{VAR0336 = 6:
+@@ -3610,18 +3544,18 @@
+ 		\L_0622e:
+ 		\L_061da:
+ 		ZH 1:
+-		'Hii... Tôi vừa'
+-		R
+-		'nghe thấy gì thế!?'
++		'Hí......... nghe'
++		R
++		'thấy không, vừa rồi!?'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Tôi không'
+-		R
+-		'thể tin được... Ngài Chizuko'
+-		R
+-		'vừa nói rằng nàng xin lỗi...'
++		'Nghe thấy rồi...... ngài'
++		R
++		'Chizuko mà lại... n...nói'
++		R
++		'xin lỗi... đ, đáng sợ quá...'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0623c:
+@@ -3632,119 +3566,113 @@
+ 	{VAR0336 = 7:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Chào...!?'
+-		\L_062ff:
+-		ZH 1:
+-		'Đ-Có phải Ngài Chizuko'
+-		R
+-		'vừa nói “Xin lỗi”...!?'
+-		\L_062ff:
+-		ZH 1:
+-		'Ôi không, tôi sợ quá...!'
++		'Hí.........!?'
++		\L_062ff:
++		ZH 1:
++		'Ng... ngài Chizuko......'
++		R
++		'nói [xin lỗi]......!?'
++		\L_062ff:
++		ZH 1:
++		'Không, đáng sợ quá......!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_062ac:
+ 		\L_06212:
+ 		ZH 1:
+-		'Annis chạy ra khỏi phòng.'
++		'Anis bỏ chạy khỏi phòng.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Nàng bị sao vậy...?'
+-		R
+-		'Trời ạ, tôi không thể đối'
+-		R
+-		'phó với tên ngốc này nữa.'
+-		\L_062ff:
+-		ZH 1:
+-		'Tôi phải nghiêm túc...'
++		'Gì vậy, con bé đó......'
++		R
++		'thật là, vì thế ta mới'
++		R
++		'không chịu nổi lũ ngốc.'
++		\L_062ff:
++		ZH 1:
++		'Phải vững vàng lên......'
+ 		\L_062ff:
+ 	}
+ 	ZH 1:
+-	'Haah... Đúng... Hắn'
+-	R
+-	'sẽ cười tôi nếu tôi không'
+-	R
+-	'chiến đấu nghiêm túc...'
+-	\L_062ff:
+-	ZH 1:
+-	'Phải... cho dù hắn có'
+-	R
+-	'là kẻ thù của tôi... ... Kẻ'
+-	R
+-	'thù của tôi... Uu... Hick...'
++	'Phù...... phải rồi... người'
++	R
++	'ấy sẽ cười ta mất, phải'
++	R
++	'chiến đấu đàng hoàng...'
++	\L_062ff:
++	ZH 1:
++	'Phải, dù người ấy là'
++	R
++	'kẻ thù...... ......kẻ'
++	R
++	'thù...... hu...... hức......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	{VAR0336 = 6:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Ừm... Có chuyện'
+-		R
+-		'gì vậy, ngài Chizuko...?'
+-		R
+-		'Ngươi có thấy ổn không...?'
++		'Ừm...... ngài sao vậy,'
++		R
++		'ngài Chizuko...... ngài'
++		R
++		'không khỏe à......?'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Không sao đâu... Tôi'
+-		R
+-		'chỉ bị bụi bay vào mắt thôi.'
++		'Không, không có gì......'
++		R
++		'chỉ là bụi bay vào mắt thôi.'
+ 		\L_062ff:
+ 	}
+ 	{VAR0336 = 7:
+ 		\L_06212:
+ 		ZH 1:
+-		'Sau khi cúi đầu một'
+-		R
+-		'lúc, Chizuko lau nước mắt.'
++		'Chizuko hơi cúi đầu,'
++		R
++		'rồi lau mạnh nước mắt.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'... Không, tôi'
+-		R
+-		'không thể khóc.'
+-		\L_062ff:
+-		ZH 1:
+-		'Đây không phải là'
+-		R
+-		'lúc để nghĩ về điều đó, Vua'
+-		R
+-		'Gandhi sẽ cười nhạo tôi....'
+-		\L_062ff:
+-		ZH 1:
+-		'Đội trưởng! Đội'
+-		R
+-		'trưởng phòng thủ!'
++		'......Không được khóc.'
++		\L_062ff:
++		ZH 1:
++		'Vừa mới nghĩ thế còn gì,'
++		R
++		'ngài Gandhi sẽ cười mất.'
++		\L_062ff:
++		ZH 1:
++		'......Đội trưởng!'
++		R
++		'Đội trưởng phòng thủ!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		!VAR0516 : 478!
+ 		\L_0629e:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Vâng... Cậu đã gọi à?'
++		'Vâng...... ngài cho gọi ạ.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Quân Leazas đang đến gần.'
++		'Quân Leazas đang tới gần.'
+ 		R
+ 	}
+ 	ZH 1:
+-	'Triển khai'
+-	R
+-	'mọi người trước... Tôi'
+-	R
+-	'cũng sẽ ra ngoài ngay.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Vâng... Vậy'
+-	R
+-	'chúng tôi sẽ đợi.'
++	'Mọi người vào vị trí trước'
++	R
++	'đi... ta cũng sẽ tới ngay.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Tuân lệnh...... vậy'
++	R
++	'chúng thần xin chờ ngài.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_062ac:
+@@ -3755,18 +3683,18 @@
+ 	\L_062f2:
+ 	\L_061f6:
+ 	ZH 1:
+-	'Vua Gandhi...'
+-	R
+-	'Ít nhất hãy có mặt ở đây.'
+-	R
+-	'Đến đây để đánh bại tôi...'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi không muốn bị đánh bại'
+-	R
+-	'bởi một người lính Leazas'
+-	R
+-	'ngẫu nhiên... Vua Gandhi...'
++	'Ngài Gandhi...... ít nhất,'
++	R
++	'xin ngài hãy tới. Tới'
++	R
++	'đây để đánh bại tôi......'
++	\L_062ff:
++	ZH 1:
++	'Tôi không muốn bị một tên'
++	R
++	'lính Leazas vô danh đánh'
++	R
++	'bại...... ngài Gandhi......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	{VAR0336 = 7:
+@@ -3774,53 +3702,51 @@
+ 		\L_0629e:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Hãy chuẩn bị tinh thần'
+-		R
+-		'đi, kẻ mạo danh Chizuko!'
++		'Chuẩn bị đi, ngài'
++		R
++		'Chizuko giả mạo!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'... Hả?'
++		'......Hả?'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_06212:
+ 		ZH 1:
+-		'Annis mang theo'
+-		R
+-		'vũ khí bước qua cửa.'
++		'Anis xuất hiện ở'
++		R
++		'cửa, vũ trang đầy đủ.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Hãy cầm lấy'
+-		R
+-		'cái này! Tuyết La-...'
++		'Đỡ này! Snow Laa......'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Sét.'
++		'Lôi kích.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_06212:
+ 		ZH 1:
+-		'（koooooooooo!!）'
++		'（Uỳnhhhh!!）'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Ờ...'
++		'Ọc......'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_062ac:
+ 		\L_061f6:
+ 		ZH 1:
+-		'Haah... Vua'
+-		R
+-		'Gandhi... Tôi muốn ông'
+-		R
+-		'đánh tôi... Lại đây...'
++		'Phù...... ngài Gandhi......'
++		R
++		'tôi muốn được ngài đánh'
++		R
++		'bại... xin hãy tới đây...'
+ 		\L_062ff:
+ 		\L_062f2:
+ 	}
+@@ -3855,120 +3781,114 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Chizuko'
+-	R
+-	'- 6F （tahtahtahtah...）'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Haah, haah, haah, haah...!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko bị'
+-	R
+-	'thương và chạy lên cầu'
+-	R
+-	'thang thiếu ánh sáng.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'... Tại sao...?'
+-	R
+-	'Tại sao tôi lại thua...?'
+-	R
+-	'Tôi không thể... tin...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko không thể'
+-	R
+-	'chạy được nữa và ngồi'
++	'Tháp Chizuko - Tầng 6'
++	R
++	'（Thình thịch thình thịch）'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Hộc, hộc, hộc, hộc......!'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko bị thương, chạy'
++	R
++	'lên cầu thang tối mờ.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'......Tại sao...... tại sao'
++	R
++	'ta lại...... thua chứ...'
++	R
++	'không thể... tin......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Không chạy nổi nữa,'
++	R
++	'Chizuko ngồi sụp'
+ 	R
+ 	'xuống giữa cầu thang.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_061da:
+ 	ZH 1:
+-	'Haah, haah...'
+-	R
+-	'Tôi hiểu rồi... Đây chắc'
+-	R
+-	'hẳn là một bài kiểm tra...'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi đang bị đẩy'
+-	R
+-	'đến giới hạn để đánh thức'
+-	R
+-	'một sức mạnh mới nào đó...'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi chắc'
+-	R
+-	'chắn mình sẽ học được một số'
+-	R
+-	'đòn tấn công đặc biệt mới...'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi sẽ ổn thôi...'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi sẽ không'
+-	R
+-	'bao giờ thua cuộc,'
+-	\L_062ff:
+-	ZH 1:
+-	'nếu làm vậy tôi'
+-	R
+-	'không thể nhìn thẳng'
+-	R
+-	'vào mặt Vua Gandhi...'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi sẽ sống lại'
+-	R
+-	'như một con phượng hoàng.'
+-	\L_062ff:
+-	ZH 1:
+-	'... Hm... Ai ở đó...?'
++	'Hộc, hộc...... phải'
++	R
++	'rồi...... đây chắc'
++	R
++	'chắn là thử thách......'
++	\L_062ff:
++	ZH 1:
++	'Bị dồn tới cực hạn,'
++	R
++	'có thứ gì đó trong'
++	R
++	'ta sẽ thức tỉnh......'
++	\L_062ff:
++	ZH 1:
++	'nhất định, ta sẽ lĩnh hội...'
++	R
++	'một tuyệt chiêu mới......'
++	\L_062ff:
++	ZH 1:
++	'Không sao đâu, Chizuko...'
++	\L_062ff:
++	ZH 1:
++	'Nhất định không được thua,'
++	\L_062ff:
++	ZH 1:
++	'không thì còn mặt mũi nào'
++	R
++	'nhìn ngài Gandhi......'
++	\L_062ff:
++	ZH 1:
++	'Phải hồi sinh như'
++	R
++	'phượng hoàng...'
++	\L_062ff:
++	ZH 1:
++	'...Ư...... ai đó......?'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 477!
+ 	\L_0629e:
+ 	\L_0624a:
+ 	ZH 1:
+-	'Kekeh... cấp dưới của cấp'
+-	R
+-	'dưới của cấp dưới của cấp'
+-	R
+-	'dưới... cấp dưới của cậu.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Sáu quân nô lệ Zeth'
++	'Khè khè...... thuộc hạ của'
++	R
++	'thuộc hạ của thuộc hạ của'
++	R
++	'bà... lính quèn thôi mà.'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Sáu tên lính nô lệ của Zeth'
+ 	R
+ 	'xuất hiện trước mặt Chizuko.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_061da:
+ 	ZH 1:
+-	'Nô lệ bẩn thỉu... Biến đi.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Không.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Cậu vừa nói gì thế!?'
++	'Dơ bẩn, lính nô'
++	R
++	'lệ...... cút đi.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Không thích.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ngươi nói cái gì!?'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_0623c:
+@@ -3976,21 +3896,21 @@
+ 	\L_0622e:
+ 	\L_061da:
+ 	ZH 1:
+-	'Này, cậu có nghe'
+-	R
+-	'nàng nói gì không?'
+-	\L_062ff:
+-	ZH 1:
+-	'Chuyện về việc giống'
+-	R
+-	'như một con phượng hoàng.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Tôi nghĩ trò đùa duy'
+-	R
+-	'nhất của nàng là quần áo.'
++	'Ê ê, nghe thấy chưa,'
++	R
++	'câu của con mụ này......'
++	\L_062ff:
++	ZH 1:
++	'"Hồi sinh như phượng'
++	R
++	'hoàng" cơ đấy.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Đùa thì đùa với bộ'
++	R
++	'quần áo thôi chứ.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_0623c:
+@@ -3998,142 +3918,134 @@
+ 	\L_0622e:
+ 	\L_061da:
+ 	ZH 1:
+-	'Cậu dám xúc phạm tôi? Ta'
+-	R
+-	'sẽ giết cả gia đình ngươi.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Keh, cậu đừng'
+-	R
+-	'dọa chúng tôi chứ! Leazas dù'
+-	R
+-	'sao cũng sẽ giết chúng ta!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'À...!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Quân nô lệ lao vào'
+-	R
+-	'Chizuko với đôi mắt đỏ ngầu.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Đồ rác rưởi, thả'
+-	R
+-	'tôi ra...! Tia laze tuyết!!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Ôi...!'
++	'Định chế nhạo ta......'
++	R
++	'à? Ta sẽ xử tử cả'
++	R
++	'dòng họ nhà các ngươi.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Khè, chẳng sợ đâu! Đằng'
++	R
++	'nào bọn tao cũng bị'
++	R
++	'lũ Leazas giết thôi!'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'A......!'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Lũ lính nô lệ mắt đỏ'
++	R
++	'ngầu lao vào Chizuko.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Dơ bẩn, buông'
++	R
++	'ra......! Snow Laser!!'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Oác......!'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_062ac:
+ 	\L_06212:
+ 	ZH 1:
+-	'Phép thuật thi triển đã'
+-	R
+-	'tiêu diệt ba đội quân nô lệ.'
+-	\L_062ff:
+-	ZH 1:
+-	'Nhưng ba người còn'
+-	R
+-	'lại đã khống chế Chizuko.'
++	'Phép thuật phóng ra nghiền'
++	R
++	'nát ba tên lính nô lệ.'
++	\L_062ff:
++	ZH 1:
++	'Nhưng ba tên còn lại'
++	R
++	'đã đè chặt Chizuko.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 477!
+ 	\L_0629e:
+ 	\L_0624a:
+ 	ZH 1:
+-	'Không đấu tranh!'
+-	\L_062ff:
+-	ZH 1:
+-	'Dù sao thì'
+-	R
+-	'cậu cũng sẽ bị lính Leazas'
+-	R
+-	'bắt và cưỡng hiếp thôi...!'
+-	\L_062ff:
+-	ZH 1:
+-	'Hãy biết ơn các đồng'
+-	R
+-	'minh từ cùng một quốc gia'
+-	R
+-	'sẽ cưỡng hiếp cậu trước!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Cậu đang gọi'
+-	R
+-	'ai là đồng minh?'
+-	\L_062ff:
+-	ZH 1:
+-	'Các em là nô lệ, các'
+-	R
+-	'em thậm chí còn không thể'
+-	R
+-	'sánh bằng trình độ của tôi!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Chúng ta sẽ ngang'
+-	R
+-	'hàng nếu kéo cậu xuống...!'
++	'Đừng giãy nữa!'
++	\L_062ff:
++	ZH 1:
++	'Đằng nào mày cũng bị lính'
++	R
++	'Leazas bắt rồi hiếp thôi...!'
++	\L_062ff:
++	ZH 1:
++	'Trước đó để đồng bào cùng'
++	R
++	'nước hiếp mày, biết ơn đi!'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ai là đồng bào chứ,'
++	\L_062ff:
++	ZH 1:
++	'đừng có đánh đồng'
++	R
++	'ta với lũ nô lệ!'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Lột lớp da ra thì cũng'
++	R
++	'như nhau cả thôi......!'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	{VAR0336 = 7:
+ 		\L_061da:
+ 		ZH 1:
+-		'Ừ... Annis!'
+-		R
+-		'Aaaaaaanniiiiiiiii !!'
++		'Đừng...... Anis!'
++		R
++		'Aaa-niiiis!!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Keh, lãng phí'
+-		R
+-		'thời gian của cậu quá!'
+-		\L_062ff:
+-		ZH 1:
+-		'Nàng đã bị cưỡng hiếp'
+-		R
+-		'ở một nơi khác rồi...!'
++		'Khè, vô ích vô ích!'
++		\L_062ff:
++		ZH 1:
++		'Con nhỏ đó chắc cũng bị'
++		R
++		'hiếp ở đâu đó lâu rồi......!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 	}
+ 	\L_061da:
+ 	ZH 1:
+-	'Không... Dừng'
+-	R
+-	'lại... Vua Gandhiiii...!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Heh,'
+-	\L_062ff:
+-	ZH 1:
+-	'thật tiếc là chúng ta đã'
+-	R
+-	'được phân công đến tòa tháp'
+-	R
+-	'của con khốn kỳ lạ này...'
+-	\L_062ff:
+-	ZH 1:
+-	'Ước gì chúng ta'
+-	R
+-	'có được công chúa...'
++	'Không...... đừng mà......'
++	R
++	'ngài Gandhiiii......!'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Hừ,'
++	\L_062ff:
++	ZH 1:
++	'bọn mình xui thật, trúng'
++	R
++	'ngay cái tháp của con'
++	R
++	'mụ kỳ quặc này......'
++	\L_062ff:
++	ZH 1:
++	'Đã thế thì thà được'
++	R
++	'công chúa còn hơn...'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_06212:
+@@ -4141,11 +4053,11 @@
+ 	'............'
+ 	\L_062ff:
+ 	ZH 1:
+-	'Chizuko cuối cùng bị'
+-	R
+-	'tổng cộng 20 lính nô lệ hãm'
+-	R
+-	'hiếp tập thể và giết chết.'
++	'Chizuko bị tổng cộng 20 tên'
++	R
++	'lính nô lệ kéo tới cưỡng'
++	R
++	'hiếp tập thể, rồi giết chết.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 0!
+@@ -4165,96 +4077,96 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Chizuko -'
+-	\L_062ff:
+-	ZH 1:
+-	'7F Chizuko đang ngồi'
+-	R
+-	'trong một căn phòng chứa'
+-	R
+-	'đồ chật hẹp và tối tăm.'
+-	\L_062ff:
+-	ZH 1:
+-	'Có một vệt máu dường'
+-	R
+-	'như đã được lau trên sàn'
+-	R
+-	'trước mặt cô. Cô bị thương.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Vua Gandhi...'
+-	R
+-	'Huhu, Vũ Gandhi...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko dựa vào'
+-	R
+-	'tường và cười lặng lẽ.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Anh mạnh mẽ hơn vì'
+-	R
+-	'anh muốn ở bên em...'
+-	\L_062ff:
+-	ZH 1:
+-	'Anh học phép'
+-	R
+-	'thuật vì anh muốn em'
+-	R
+-	'nói chuyện với anh...'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi đã làm những'
+-	R
+-	'điều vô nhân đạo vì cậu...'
+-	R
+-	'Nhưng... Nhưng, nhưng...'
+-	\L_062ff:
+-	ZH 1:
+-	'Cậu thậm'
+-	R
+-	'chí còn không đến để chứng'
+-	R
+-	'kiến tôi chết... Huhu...'
+-	\L_062ff:
+-	ZH 1:
+-	'Huhu, tôi'
+-	R
+-	'đúng là đồ ngốc...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Cô nhặt một con'
+-	R
+-	'dao găm gần đó...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Tôi ghét'
+-	R
+-	'ông, Vua Gandhi...!'
++	'Tháp Chizuko - Tầng 7'
++	\L_062ff:
++	ZH 1:
++	'Chizuko ngồi sụp'
++	R
++	'trong một phòng chứa'
++	R
++	'đồ chật hẹp, tối tăm.'
++	\L_062ff:
++	ZH 1:
++	'Trên sàn trước mặt là vệt'
++	R
++	'máu loang như bị quệt.'
++	R
++	'Chizuko đang bị thương.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ngài Gandhi...... hi'
++	R
++	'hi, ngài Gandhi......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko tựa lưng vào'
++	R
++	'tường, lặng lẽ cười.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Vì muốn được ở bên ngài...'
++	R
++	'tôi đã trở nên mạnh mẽ......'
++	\L_062ff:
++	ZH 1:
++	'Vì muốn được ngài'
++	R
++	'để mắt tới, tôi đã'
++	R
++	'học ma pháp......'
++	\L_062ff:
++	ZH 1:
++	'Vì ngài... tôi đã trở nên'
++	R
++	'tàn nhẫn...... vậy mà......'
++	R
++	'vậy mà, vậy mà......'
++	\L_062ff:
++	ZH 1:
++	'đến lúc tôi chết, ngài'
++	R
++	'cũng không tới tiễn'
++	R
++	'đưa...... hi hi...'
++	\L_062ff:
++	ZH 1:
++	'hi hi, mình đúng'
++	R
++	'là ngốc......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Rồi nàng cầm con dao'
++	R
++	'găm bên cạnh lên...'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Tôi oán hận ngài,'
++	R
++	'ngài Gandhi......!'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_06212:
+ 	ZH 1:
+ 	'Chizuko đâm nó'
+ 	R
+-	'vào trái tim mình...'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko Yamada,'
+-	R
+-	'thủ lĩnh Tứ chúa tể'
+-	R
+-	'của Zeth, đã chết.'
++	'vào tim mình...'
++	\L_062ff:
++	ZH 1:
++	'Thủ lĩnh Tứ Đại Lãnh'
++	R
++	'Chúa Zeth, Yamada'
++	R
++	'Chizuko, đã chết.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 0!
+@@ -4275,205 +4187,201 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Chizuko'
+-	R
+-	'- Phòng Chỉ Huy Chizuko'
+-	R
+-	'lảo đảo bước vào phòng,'
+-	\L_062ff:
+-	ZH 1:
+-	'bị thương và rách rưới.'
++	'Tháp Chizuko - Phòng Chỉ huy'
++	R
++	'Chizuko bị thương, tả tơi,'
++	\L_062ff:
++	ZH 1:
++	'gần như ngã quỵ'
++	R
++	'khi trở về phòng.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_061f6:
+ 	ZH 1:
+-	'Haah... Tôi không'
+-	R
+-	'thể tiếp tục được...'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi tự hỏi'
+-	R
+-	'liệu Vua Gandhi có tìm'
+-	R
+-	'thấy xác tôi không...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko lấy ra một'
+-	R
+-	'con dao găm và đặt nó'
+-	R
+-	'vào bên trái ngực cô.'
+-	\L_062ff:
+-	ZH 1:
+-	'Cô nắm chặt nó'
+-	R
+-	'bằng cả hai tay.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Tạm biệt vua Gandhi...!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Ngay sau đó...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Đợi đã, Chizuko!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Một giọng nói trầm, quen'
+-	R
+-	'thuộc lọt vào tai Chizuko.'
+-	\L_062ff:
+-	ZH 1:
+-	'Con dao găm'
+-	R
+-	'rơi khỏi tay Chizuko.'
+-	R
+-	'Nước mắt cô tuôn rơi.'
++	'Phù...... hết cách'
++	R
++	'rồi...... ta cũng......'
++	\L_062ff:
++	ZH 1:
++	'Ngài Gandhi...... liệu có'
++	R
++	'tìm thấy xác ta không......?'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko rút ra một con dao'
++	R
++	'ngắn, kề vào ngực trái.'
++	\L_062ff:
++	ZH 1:
++	'Hai tay nắm chặt'
++	R
++	'chuôi dao, dồn sức.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Vĩnh biệt, ngài'
++	R
++	'Gandhi......!'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Đúng lúc ấy......'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Khoan đã, Chizuko!'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Một giọng nói trầm ấm thân'
++	R
++	'quen vang tới tai Chizuko.'
++	\L_062ff:
++	ZH 1:
++	'Con dao rơi khỏi tay'
++	R
++	'nàng. Từ đôi mắt, nước'
++	R
++	'mắt trào ra không ngừng.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 42!
+ 	\L_0629e:
+ 	\L_061da:
+ 	ZH 1:
+-	'K-Vua Gandhi...'
+-	R
+-	'Vua Gandhi...!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Đồ ngốc... Tôi không'
+-	R
+-	'dạy cậu cách tự sát.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Gandhi cười nhẹ nhàng'
+-	R
+-	'và giúp Chizuko đứng dậy'
+-	R
+-	'sau khi cô ngã xuống sàn.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Chizuko...'
+-	\L_062ff:
+-	ZH 1:
+-	'Cậu đã chiến đấu tốt.'
+-	\L_062ff:
+-	ZH 1:
+-	'Nhờ tất cả sự chiến'
+-	R
+-	'đấu của các em, Zeth có thể'
+-	R
+-	'có một sự sụp đổ đẹp đẽ...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Uu... Ờ, hyeh...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Cậu có hiểu ý định'
+-	R
+-	'của tôi không, Chizuko...?'
+-	\L_062ff:
+-	ZH 1:
+-	'Bốn lãnh chúa phải bị đánh'
+-	R
+-	'bại để người dân Zeth chấp'
+-	R
+-	'nhận sáp nhập với Leazas.'
+-	\L_062ff:
+-	ZH 1:
+-	'Tất cả là để'
+-	R
+-	'thống nhất thế giới...'
+-	\L_062ff:
+-	ZH 1:
+-	'Zeth sẽ bị tiêu diệt,'
+-	R
+-	'nhưng loài người thì không.'
+-	R
+-	'Đây là một điều tốt...'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi đã phải'
+-	R
+-	'làm tổn thương em vì tham'
+-	R
+-	'vọng của mình, Chizuko.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Hick... ... Đau quá...'
+-	\L_062ff:
+-	ZH 1:
+-	'Quan Gandhi,'
+-	R
+-	'vua Gandhi...! Thực'
+-	R
+-	'sự rất khó khăn...!'
+-	\L_062ff:
+-	ZH 1:
+-	'Chiến đấu vì một đất'
+-	R
+-	'nước mà vua đã rời bỏ nó...!'
+-	\L_062ff:
+-	ZH 1:
+-	'Uu... Uuu, uu...'
+-	R
+-	'Xin đừng bao giờ rời'
+-	R
+-	'đi nữa, Vua Gandhi...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'... Chizuko...'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi không còn là vua'
+-	R
+-	'nữa. Tôi chỉ đơn thuần là'
+-	R
+-	'một người lính cho Leazas.'
+-	\L_062ff:
+-	ZH 1:
+-	'Đất nước này'
+-	R
+-	'sẽ bị hủy diệt...'
+-	\L_062ff:
+-	ZH 1:
+-	'Cậu cũng'
+-	R
+-	'đến Leazas, Chizuko.'
+-	\L_062ff:
+-	ZH 1:
+-	'Hãy cùng tôi chiến đấu'
+-	R
+-	'dưới sự chỉ huy của Vua'
+-	\L_062ff:
+-	ZH 1:
+-	'Rance để bảo vệ nhân'
+-	R
+-	'loại khỏi lũ quái vật.'
++	'Ng... ngài Gandhi......'
++	R
++	'ngài Gandhi......!'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Đồ ngốc...... ta đâu'
++	R
++	'có dạy con tự sát.'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Gandhi dịu dàng mỉm'
++	R
++	'cười, bế Chizuko'
++	R
++	'đang khuỵu xuống lên.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Chizuko......'
++	\L_062ff:
++	ZH 1:
++	'con đã chiến đấu rất tốt.'
++	\L_062ff:
++	ZH 1:
++	'Nhờ con chiến đấu hết'
++	R
++	'mình, Zeth mới có thể diệt'
++	R
++	'vong một cách đẹp đẽ...'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Hu...... hu hu, hức......'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Con có hiểu ý ta'
++	R
++	'không, Chizuko...?'
++	\L_062ff:
++	ZH 1:
++	'Tứ Đại Lãnh Chúa các con bại'
++	R
++	'trận, quốc dân mới chịu chấp'
++	R
++	'nhận sáp nhập vào Leazas.'
++	\L_062ff:
++	ZH 1:
++	'Tất cả là để thống'
++	R
++	'nhất thế giới......'
++	\L_062ff:
++	ZH 1:
++	'Zeth diệt vong, nhưng'
++	R
++	'nhân loại không diệt vong.'
++	R
++	'Thế là được rồi......'
++	\L_062ff:
++	ZH 1:
++	'Vì đại nguyện của ta,'
++	R
++	'ta đã bắt con phải'
++	R
++	'chịu đau khổ, Chizuko.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Hức......'
++	R
++	'......khổ... lắm......'
++	\L_062ff:
++	ZH 1:
++	'Ngài Gandhi, ngài'
++	R
++	'Gandhi...! Chizuko,'
++	R
++	'Chizuko khổ lắm......!'
++	\L_062ff:
++	ZH 1:
++	'Chiến đấu cho một đất'
++	R
++	'nước vắng vua......!'
++	\L_062ff:
++	ZH 1:
++	'Hu...... hu hu, hu......'
++	R
++	'xin ngài đừng đi đâu'
++	R
++	'nữa, Đức vua Gandhi......'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'.........Chizuko......'
++	\L_062ff:
++	ZH 1:
++	'Ta không còn là vua'
++	R
++	'nữa. Chỉ là một binh'
++	R
++	'sĩ của Leazas thôi.'
++	\L_062ff:
++	ZH 1:
++	'Đất nước này sẽ diệt vong...'
++	\L_062ff:
++	ZH 1:
++	'Con cũng tới'
++	R
++	'Leazas đi, Chizuko.'
++	\L_062ff:
++	ZH 1:
++	'Dưới trướng Bệ hạ Rance,'
++	R
++	'cùng chiến đấu để bảo vệ'
++	\L_062ff:
++	ZH 1:
++	'nhân loại khỏi lũ quái vật.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_061da:
+@@ -4481,187 +4389,181 @@
+ 	'............'
+ 	\L_062ff:
+ 	ZH 1:
+-	'Sau đó... Vua Gandhi...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Cái gì?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko quên lau nước'
+-	R
+-	'mắt và ngước nhìn Gandhi.'
+-	\L_062ff:
+-	ZH 1:
+-	'Cô dùng ngón'
+-	R
+-	'tay gầy gò nắm lấy bộ'
+-	R
+-	'quần áo trên ngực anh.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Hãy cưới anh nhé.'
+-	R
+-	'Tôi luôn yêu em...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'... Chizuko.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Tôi luôn như vậy, nhưng'
+-	R
+-	'tôi không bao giờ có thể nói'
+-	R
+-	'ra... Bởi vì anh là Vua...'
+-	\L_062ff:
+-	ZH 1:
+-	'Nhưng giờ anh'
+-	R
+-	'không phải là...!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Chizuko... Tôi coi'
+-	R
+-	'cậu như con gái ruột'
+-	R
+-	'của tôi. Ngoài ra...'
+-	\L_062ff:
+-	ZH 1:
+-	'... Bà ấy đã qua đời,'
+-	R
+-	'nhưng tôi vẫn yêu vợ tôi.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Vua Gandhi...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Xin lỗi...'
+-	R
+-	'Không chỉ có em, anh'
+-	R
+-	'không thể cưới ai cả...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ưu... Ưu, uu...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Nhưng Chizuko, anh thực'
+-	R
+-	'sự muốn làm em hạnh phúc.'
+-	\L_062ff:
+-	ZH 1:
+-	'Phải…'
+-	\L_062ff:
+-	ZH 1:
+-	'anh muốn em có được hạnh'
+-	R
+-	'phúc mà người như anh không'
+-	R
+-	'thể tự mình mang lại cho em.'
+-	\L_062ff:
+-	ZH 1:
+-	'Hãy đến Leazas,'
+-	R
+-	'Chizuko. Và làm việc cho'
+-	R
+-	'King Rance. Yêu hắn...'
+-	\L_062ff:
+-	ZH 1:
+-	'Làm tình nhân của'
+-	R
+-	'hắn và có con với hắn.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Cái gì...?'
+-	R
+-	'Vua Gandhi, tôi...!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Nghe này, Chizuko.'
+-	R
+-	'Vua Rance là đấng cứu thế'
+-	R
+-	'được tiên tri. Một anh hùng.'
+-	\L_062ff:
+-	ZH 1:
+-	'Hãy nhận lấy'
+-	R
+-	'tình yêu của đấng cứu thế và'
+-	R
+-	'có được đứa con của Ngài...'
+-	\L_062ff:
+-	ZH 1:
+-	'Có lẽ không có hạnh phúc'
+-	R
+-	'nào lớn hơn trên thế giới.'
+-	\L_062ff:
+-	ZH 1:
+-	'Đó là điều'
+-	R
+-	'tôi muốn dành cho cậu.'
+-	R
+-	'Hiểu chưa, Chizuko?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Vua Gandhi...'
+-	\L_062ff:
+-	ZH 1:
+-	'Có phải ngài đang nói rằng'
+-	R
+-	'ngài muốn mang lại cho tôi'
+-	\L_062ff:
+-	ZH 1:
+-	'niềm hạnh phúc lớn nhất'
+-	R
+-	'có thể có trên thế giới...?'
+-	\L_062ff:
+-	ZH 1:
+-	'Và đó là điều'
+-	R
+-	'mà Ngài Rance yêu thích...?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Ừm, đúng'
+-	R
+-	'rồi. Đó là mong muốn'
+-	R
+-	'chân thành của tôi.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Mong muốn của'
+-	R
+-	'cậu... Hiểu rồi, tôi sẽ...'
+-	R
+-	'làm việc cho Ngài Rance...'
++	'Vậy thì......'
++	R
++	'ngài Gandhi......'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Gì vậy?'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko quên cả lau nước'
++	R
++	'mắt, ngước nhìn Gandhi.'
++	\L_062ff:
++	ZH 1:
++	'Những ngón tay mảnh mai nắm'
++	R
++	'chặt vạt áo trên ngực ông.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Xin ngài hãy... cưới tôi.'
++	R
++	'Tôi vẫn luôn yêu ngài......'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'.........Chizuko.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Tôi vẫn luôn nghĩ vậy,'
++	R
++	'nhưng không dám nói......'
++	R
++	'vì ngài... là quốc vương...'
++	\L_062ff:
++	ZH 1:
++	'Nhưng nếu giờ ngài không'
++	R
++	'còn là vua nữa......!'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Chizuko...... ta coi con'
++	R
++	'như con gái của mình.'
++	\L_062ff:
++	ZH 1:
++	'......Hơn nữa...... ta vẫn'
++	R
++	'còn yêu người vợ đã khuất.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ngài Gandhi......'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Xin lỗi con...... con......'
++	R
++	'không, bất cứ ai, ta cũng'
++	R
++	'không thể cưới làm vợ......'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Hu......... hu, hu......'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Nhưng Chizuko, ta muốn'
++	R
++	'con được hạnh phúc.'
++	\L_062ff:
++	ZH 1:
++	'Phải......'
++	\L_062ff:
++	ZH 1:
++	'ta muốn cho con thứ'
++	R
++	'hạnh phúc mà người như'
++	R
++	'ta không thể trao được.'
++	\L_062ff:
++	ZH 1:
++	'Hãy tới Leazas, Chizuko.'
++	R
++	'Rồi phụng sự Bệ hạ Rance.'
++	R
++	'Hãy yêu ngài ấy......'
++	\L_062ff:
++	ZH 1:
++	'làm thiếp của ngài ấy,'
++	R
++	'sinh con cho ngài ấy.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Sao...... ngài'
++	R
++	'Gandhi, tôi......!'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Nghe này, Chizuko. Bệ hạ'
++	R
++	'Rance chính là đấng cứu thế,'
++	R
++	'dũng giả đã được tiên tri.'
++	\L_062ff:
++	ZH 1:
++	'Được đấng cứu thế sủng ái,'
++	R
++	'sinh con cho ngài ấy...'
++	\L_062ff:
++	ZH 1:
++	'trên đời này chẳng có'
++	R
++	'hạnh phúc nào hơn thế.'
++	\L_062ff:
++	ZH 1:
++	'Đó chính là điều ta'
++	R
++	'muốn trao cho con. Con'
++	R
++	'hiểu chứ? Chizuko......'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ngài Gandhi......'
++	\L_062ff:
++	ZH 1:
++	'Ngài nói ngài'
++	R
++	'muốn trao cho tôi'
++	\L_062ff:
++	ZH 1:
++	'hạnh phúc lớn nhất trên đời'
++	R
++	'này...... thật sao......?'
++	\L_062ff:
++	ZH 1:
++	'Và đó là được Ngài'
++	R
++	'Rance yêu thương......'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Ừm, đúng vậy. Đó là ước'
++	R
++	'nguyện tha thiết của ta.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Là ước nguyện của ngài'
++	R
++	'Gandhi... tôi hiểu rồi.'
++	R
++	'Tôi sẽ phụng sự Ngài Rance.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 0!
+@@ -4687,41 +4589,39 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Rance đang'
+-	R
+-	'ngồi trên ngai vàng và bắt'
+-	R
+-	'một cô gái phục vụ mình...'
++	'Phòng yết kiến'
++	R
++	'Hôm nay Rance vẫn ngả ngớn'
++	R
++	'trên ngai, gái vây quanh...'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_061da:
+ 	!VAR0154 : 2!
+ 	{VAR0102 \ 0:
+ 		ZH 1:
+-		'Hmmmmm... Sill,'
+-		R
+-		'lại đây một chút.'
++		'Ưmmm...... Sill,'
++		R
++		'lại đây chút.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		!VAR0516 : 2!
+ 		\L_0629e:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Vâng, cậu có cần'
+-		R
+-		'gì không, Chủ nhân Rance?'
++		'Vâng, ngài cần gì'
++		R
++		'ạ, Chủ nhân Rance?'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Mhm, để ta'
+-		R
+-		'xoa ngực em nhé.'
++		'Ừm, cho ta nắn ngực.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_06212:
+ 		ZH 1:
+-		'（chà xát）'
++		'（Nắn nắn）'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_062ac:
+@@ -4729,9 +4629,9 @@
+ 		\L_0629e:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Ôi, chàng yêu!!'
+-		R
+-		'Đừng chạm vào nô lệ đó.'
++		'A, chàng yêu!! Đừng'
++		R
++		'sờ vào con nô lệ đó.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_062ac:
+@@ -4739,26 +4639,24 @@
+ 		\L_0629e:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Kyah... Chủ'
+-		R
+-		'nhân Rance, đừng làm điều'
+-		R
+-		'này trước mặt mọi người...'
++		'Kya...... Chủ nhân'
++		R
++		'Rance, giữa chốn đông'
++		R
++		'người thế này......'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Này, không phàn'
+-		R
+-		'nàn gì cả, ta rất vui.'
++		'Hừ, đừng cãi, sướng thì có.'
+ 		R
+ 	}
+ 	!VAR0154 : 16!
+ 	{VAR0102 \ 0:
+ 		ZH 1:
+-		'... Này, Maria. Hãy'
+-		R
+-		'đến đây và đừng phàn nàn.'
++		'......Này, Maria. Cứ'
++		R
++		'tự nhiên, lại gần đây.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_062ac:
+@@ -4766,16 +4664,16 @@
+ 		\L_0629e:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Hả...? K-không. Tôi'
+-		R
+-		'có một cảm giác tồi tệ.'
++		'Hả...... k-không đâu. Tôi'
++		R
++		'có linh cảm chẳng lành.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Im đi, im lặng'
+-		R
+-		'để ta xoa mông cho.'
++		'Ồn ào, im lặng'
++		R
++		'để ta xoa mông.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+@@ -4785,39 +4683,37 @@
+ 		\L_062f2:
+ 		\L_06212:
+ 		ZH 1:
+-		'(boink)'
+-		\L_062ff:
+-		ZH 1:
+-		'Rance tóm lấy mông'
+-		R
+-		'Maria trước khi cô kịp'
+-		R
+-		'bỏ chạy và xoa xoa nó.'
++		'（Phẹt!）'
++		\L_062ff:
++		ZH 1:
++		'Maria định chạy, nhưng Rance'
++		R
++		'đã nhanh tay xoa mông cô.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Đúng, giỏi thật.'
++		'Ừm, mông đẹp.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Trời ạ, đồ'
+-		R
+-		'biến thái ngu ngốc!'
++		'Thật là, đồ dâm'
++		R
++		'đãng, đồ ngốc!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Gahahahaha!.'
++		'Gahahahaha.'
+ 		R
+ 	}
+ 	!VAR0154 : 17!
+ 	{VAR0102 \ 0:
+ 		ZH 1:
+-		'... Ờ, Shizuka.'
+-		R
+-		'Cởi quần áo cho ta.'
++		'......Ờ, Shizuka.'
++		R
++		'Ta xem cho, cởi ra.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_062ac:
+@@ -4825,19 +4721,19 @@
+ 		\L_0629e:
+ 		\L_0624a:
+ 		ZH 1:
+-		'........ Không,'
+-		R
+-		'cảm ơn, đồ biến thái!'
++		'.........Đừng'
++		R
++		'hòng, đồ dê xồm!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_062ac:
+ 		\L_061da:
+ 		ZH 1:
+-		'Ch... Nàng bỏ đi.'
++		'Chậc...... về mất rồi.'
+ 		R
+ 	}
+ 	ZH 1:
+-	'Này, Lia...'
++	'Này, Lia......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_062ac:
+@@ -4845,40 +4741,38 @@
+ 	\L_0629e:
+ 	\L_0624a:
+ 	ZH 1:
+-	'Gì thế chàng yêu?'
+-	R
+-	'Chàng sẽ chơi với thiếp chứ?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Không, gần đây'
+-	R
+-	'ta chán em rồi.'
+-	\L_062ff:
+-	ZH 1:
+-	'Thuê thêm người giúp việc'
+-	R
+-	'mới và các thứ cho lâu đài.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Boooo, Chàng'
+-	R
+-	'yêu, chàng chỉ chơi với'
+-	R
+-	'những cô gái khác thôi.'
+-	\L_062ff:
+-	ZH 1:
+-	'Thỉnh thoảng'
+-	R
+-	'chơi với thiếp nhé.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Im đi. Không, cảm ơn.'
++	'Gì thế, chàng yêu?'
++	R
++	'Chàng chơi với Lia hả?'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Không, dạo này'
++	R
++	'nhàm chán quá.'
++	\L_062ff:
++	ZH 1:
++	'Thuê thêm hầu gái mới'
++	R
++	'các kiểu vào lâu đài đi.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Hứ, chàng yêu toàn'
++	R
++	'chơi với đứa khác!'
++	\L_062ff:
++	ZH 1:
++	'Thỉnh thoảng chơi'
++	R
++	'với Lia đi chứ.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ồn ào, bác bỏ.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_062ac:
+@@ -4886,23 +4780,21 @@
+ 	\L_0629e:
+ 	\L_0624a:
+ 	ZH 1:
+-	'Ừm, Ngài Rance...'
+-	\L_062ff:
+-	ZH 1:
+-	'Hôm nọ ông Gandhi kể'
+-	R
+-	'với tôi rằng có một phụ nữ'
+-	R
+-	'cấp cao ở Zeth đã đến đây.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ừm? Ồ, ồ. Một'
+-	R
+-	'người phụ nữ mới? Ta nên gặp'
+-	R
+-	'nàng. Hãy để nàng vào đây.'
++	'Thưa, Bệ hạ Rance......'
++	\L_062ff:
++	ZH 1:
++	'Người phụ nữ nguyên là cán'
++	R
++	'bộ Zeth mà ông Gandhi nói'
++	R
++	'hôm trước đã tới rồi ạ.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Hử? Ồ, ồ. Đàn bà mới'
++	R
++	'hả, gặp chứ. Cho vào.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_062ac:
+@@ -4910,87 +4802,89 @@
+ 	\L_0629e:
+ 	\L_0624a:
+ 	ZH 1:
+-	'Trời ạ... Em thật'
+-	R
+-	'xấu tính, chàng yêu.'
++	'Thật là...... chàng'
++	R
++	'yêu ác quá đi.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_061f6:
+ 	ZH 1:
+-	'Rất nhiều nàng gái nóng'
+-	R
+-	'bỏng làm việc cho Gandhi...'
+-	\L_062ff:
+-	ZH 1:
+-	'Ta đặt nhiều kỳ'
+-	R
+-	'vọng vào điều đó. Ờ.'
++	'Thuộc hạ của lão Gandhi'
++	R
++	'nhiều người đẹp lắm...'
++	\L_062ff:
++	ZH 1:
++	'đáng mong chờ'
++	R
++	'đấy, sướng ghê.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_062ac:
+ 	\L_06212:
+ 	ZH 1:
+-	'......... Chizuko xuất'
+-	R
+-	'hiện trước Rance, người đang'
+-	R
+-	'cười khúc khích vì mong đợi.'
++	'.........Trước mặt'
++	R
++	'Rance đang háo hức mong'
++	R
++	'chờ, Chizuko xuất hiện.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 43!
+ 	\L_0629e:
+ 	\L_0624a:
+ 	ZH 1:
+-	'Rất vui được'
+-	R
+-	'gặp ngài, Ngài Rance...'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi là Chizuko,'
+-	R
+-	'trước đây là thủ lĩnh'
+-	R
+-	'của Four Lords của Zeth.'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi đến theo lệnh của'
+-	R
+-	'Gandhi... Tôi đã sẵn sàng.'
+-	\L_062ff:
+-	ZH 1:
+-	'Dù tôi làm việc cho cậu'
+-	R
+-	'hay là tình nhân của cậu,'
+-	\L_062ff:
+-	ZH 1:
+-	'tôi muốn'
+-	R
+-	'yêu bằng cả trái tim mình và'
+-	R
+-	'trở nên hữu ích nhất có thể.'
+-	\L_062ff:
+-	ZH 1:
+-	'Hãy để ngài ở bên cạnh em.'
+-	R
+-	'Tôi sẽ làm bất cứ điều gì.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'......... Không,'
+-	R
+-	'ông quá lòe loẹt.'
++	'Xin chào lại,'
++	R
++	'Ngài Rance......'
++	\L_062ff:
++	ZH 1:
++	'Tôi là Chizuko, từng'
++	R
++	'là thủ lĩnh Tứ Đại'
++	R
++	'Lãnh Chúa của Zeth.'
++	\L_062ff:
++	ZH 1:
++	'Tôi tới đây theo lệnh'
++	R
++	'của Gandhi...... tôi'
++	R
++	'đã chuẩn bị tinh thần.'
++	\L_062ff:
++	ZH 1:
++	'Dù là thuộc hạ'
++	R
++	'hay là thiếp hầu,'
++	\L_062ff:
++	ZH 1:
++	'tôi đều muốn hết'
++	R
++	'lòng yêu Ngài Rance'
++	R
++	'và có ích cho ngài.'
++	\L_062ff:
++	ZH 1:
++	'Xin ngài cho tôi ở bên'
++	R
++	'cạnh. Việc gì tôi cũng làm.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'.........Ta không thích loại'
++	R
++	'đàn bà lòe loẹt như thế.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_06266:
+ 	ZH 1:
+-	'Ôi trời...'
+-	\L_062ff:
+-	ZH 1:
+-	'Áaa...'
+-	\L_062ff:
+-	ZH 1:
+-	'Áa...'
++	'Choááángggg.'
++	\L_062ff:
++	ZH 1:
++	'Choááángg.'
++	\L_062ff:
++	ZH 1:
++	'Choáángg.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_06212:
+@@ -5021,7 +4915,7 @@
+ 	R
+ 	'Phòng của Gandhi'
+ 	R
+-	'Chizuko đang khóc'
++	'Chizuko đang khóc thút thít'
+ 	R
+ 	'trước mặt Gandhi...'
+ 	\L_062ff:
+@@ -5030,128 +4924,124 @@
+ 	\L_0622e:
+ 	\L_061da:
+ 	ZH 1:
+-	'Vua Gandhi, tôi'
+-	R
+-	'không thể làm được...'
+-	\L_062ff:
+-	ZH 1:
+-	'tôi không'
+-	R
+-	'thể...! Uu, hwah, Vua'
+-	R
+-	'Rance ghét tôi, uu...'
++	'Ngài Gandhi, tôi'
++	R
++	'hết cách rồi...'
++	\L_062ff:
++	ZH 1:
++	'hết cách thật rồi......!'
++	R
++	'Hu, hức, tôi bị Ngài Rance'
++	R
++	'ghét rồi, hu hu......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 42!
+ 	\L_0629e:
+ 	\L_0624a:
+ 	ZH 1:
+-	'Bây giờ, đừng khóc,'
+-	R
+-	'Chizuko. Cậu sẽ ổn thôi.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'H-Làm sao tôi'
+-	R
+-	'có thể ổn được…?'
+-	\L_062ff:
+-	ZH 1:
+-	'Vô ích thôi, tất'
+-	R
+-	'cả những gì tôi có thể'
+-	R
+-	'làm bây giờ là chết...!'
+-	\L_062ff:
+-	ZH 1:
+-	'Hick, tôi xấu...'
+-	R
+-	'Vậy là hắn ghét tôi... Và'
+-	R
+-	'anh cũng từ chối tôi...'
+-	\L_062ff:
+-	ZH 1:
+-	'Hức, ừm, tất'
+-	R
+-	'cả tình nhân của Vua'
+-	R
+-	'Rance đều xinh đẹp...'
+-	\L_062ff:
+-	ZH 1:
+-	'Không đời'
+-	R
+-	'nào tôi có thể trở thành'
+-	R
+-	'một người như vậy được...!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Chizuko...'
+-	\L_062ff:
+-	ZH 1:
+-	'Cái này không giống'
+-	R
+-	'cậu chút nào. Điều gì đã xảy'
+-	R
+-	'ra với sự tự tin của cậu?'
+-	\L_062ff:
+-	ZH 1:
+-	'Cậu thật đẹp. Hãy tự tin.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Nhưng... Ngài Rance...'
+-	R
+-	'Người mà tôi nên yêu...'
+-	\L_062ff:
+-	ZH 1:
+-	'Hắn nói tôi ga lăng'
+-	R
+-	'và không muốn tôi... Uuu...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Ờ...'
+-	\L_062ff:
+-	ZH 1:
+-	'Đúng vậy, nên chúng ta'
+-	R
+-	'không còn lựa chọn nào khác.'
+-	\L_062ff:
+-	ZH 1:
+-	'Tốt nhất là'
+-	R
+-	'hắn nên yêu cậu vì chính'
+-	R
+-	'con người cậu, nhưng...'
++	'Nào nào, đừng khóc,'
++	R
++	'Chizuko. Không sao đâu.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'S... sao lại không'
++	R
++	'sao được ạ...'
++	\L_062ff:
++	ZH 1:
++	'Hết cách rồi, giờ tôi chỉ'
++	R
++	'còn cách chết thôi......!'
++	\L_062ff:
++	ZH 1:
++	'Hức, tôi xấu xí...... nên'
++	R
++	'mới bị ghét...... lại còn'
++	R
++	'bị ngài Gandhi từ chối......'
++	\L_062ff:
++	ZH 1:
++	'Sụt sịt, hức, thiếp'
++	R
++	'hầu của Ngài Rance ai'
++	R
++	'cũng xinh đẹp cả...'
++	\L_062ff:
++	ZH 1:
++	'tôi không thể nào trở'
++	R
++	'thành như họ được......!'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Chizuko......'
++	\L_062ff:
++	ZH 1:
++	'chẳng giống con chút nào. Sự'
++	R
++	'tự tin ngày trước đâu rồi?'
++	\L_062ff:
++	ZH 1:
++	'Con xinh đẹp mà,'
++	R
++	'hãy tự tin lên.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Nhưng...... Ngài Rance......'
++	R
++	'người mà tôi phải yêu......'
++	\L_062ff:
++	ZH 1:
++	'nói tôi lòe loẹt......'
++	R
++	'không thích tôi......'
++	R
++	'......hu hu......'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Hừm......'
++	\L_062ff:
++	ZH 1:
++	'phải rồi, vậy thì'
++	R
++	'đành chịu thôi.'
++	\L_062ff:
++	ZH 1:
++	'Ta đã nghĩ con được'
++	R
++	'yêu đúng như con vốn là'
++	R
++	'thì tốt nhất, nhưng...'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_062ac:
+ 	\L_061da:
+ 	ZH 1:
+-	'...? Vua Gandhi,'
+-	R
+-	'chuyện gì thế...?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Gandhi đưa'
+-	R
+-	'cho Chizuko một chiếc'
+-	R
+-	'rương đặt ở góc phòng.'
++	'.........? Ngài'
++	R
++	'Gandhi, ngài định......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Gandhi trao cho Chizuko'
++	R
++	'chiếc rương đặt ở góc phòng.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 42!
+ 	\L_0629e:
+ 	\L_0624a:
+ 	ZH 1:
+-	'Mặc cái này đi, Chizuko.'
++	'Hãy mặc bộ này, Chizuko.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_061da:
+@@ -5161,65 +5051,65 @@
+ 	\L_062f2:
+ 	\L_06212:
+ 	ZH 1:
+-	'Một bộ quần áo'
+-	R
+-	'ở trong cốp xe.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Nếu cậu mặc cái này'
+-	R
+-	'và gặp Vua Rance, tôi chắc'
+-	R
+-	'chắn ông ấy sẽ thích cậu.'
+-	\L_062ff:
+-	ZH 1:
+-	'Quần áo hiện tại của'
+-	R
+-	'cậu nên được niêm phong.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Nhưng... Đây là những bộ'
+-	R
+-	'quần áo ma thuật tuyệt vời,'
+-	R
+-	'với thiết kế đẹp nhất...'
+-	\L_062ff:
+-	ZH 1:
+-	'Không có gì tốt'
+-	R
+-	'hơn những thứ này...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Đừng lo lắng về'
+-	R
+-	'điều đó, cứ mặc cái này đi.'
+-	R
+-	'Cậu phải ngừng nhìn như vậy.'
+-	\L_062ff:
+-	ZH 1:
+-	'Đó là con đường dẫn'
+-	R
+-	'đến tình yêu của Vua Rance.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'... Uu...'
+-	R
+-	'Hiểu rồi... Có lẽ là vô'
+-	R
+-	'nghĩa, nhưng tôi sẽ thử...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Đừng nản lòng, Chizuko...!'
++	'Trong rương là'
++	R
++	'một bộ trang phục.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Thay bộ này rồi vào'
++	R
++	'yết kiến, nhất định'
++	R
++	'Bệ hạ Rance sẽ ưng ý.'
++	\L_062ff:
++	ZH 1:
++	'Bộ đồ đang mặc'
++	R
++	'thì nên cất kỹ đi.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Nhưng...... bộ này là ma'
++	R
++	'pháp phục tuyệt vời, thiết'
++	R
++	'kế đẹp nhất đấy ạ......'
++	\L_062ff:
++	ZH 1:
++	'làm gì có bộ nào'
++	R
++	'hơn được......'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Được rồi, cứ mặc bộ này'
++	R
++	'đi. Và không bao giờ'
++	R
++	'được ăn mặc như thế nữa.'
++	\L_062ff:
++	ZH 1:
++	'Đó là con đường để được'
++	R
++	'Bệ hạ Rance yêu thương.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'......Ư... tôi hiểu rồi...'
++	R
++	'có lẽ vô ích, nhưng tôi'
++	R
++	'sẽ thử hết sức......'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Đừng nản chí, Chizuko...!'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 0!
+@@ -5241,97 +5131,85 @@
+ 	\L_0622e:
+ 	\L_061da:
+ 	ZH 1:
+-	'Cho đến khi...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko bồn chồn'
+-	R
+-	'khi cô cởi bỏ bộ quần'
+-	R
+-	'áo ma thuật của mình.'
+-	\L_062ff:
+-	ZH 1:
+-	'Cô đang nhìn đống quần'
+-	R
+-	'áo trong cốp xe và thở dài.'
++	'Haa......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko lóng ngóng'
++	R
++	'cởi bộ ma pháp phục.'
++	\L_062ff:
++	ZH 1:
++	'Nhìn bộ đồ trong'
++	R
++	'rương, nàng thở dài.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_061f6:
+ 	ZH 1:
+-	'... Vua Gandhi,'
+-	R
+-	'phong cách thời trang'
+-	R
+-	'của ngài tệ quá...'
+-	\L_062ff:
+-	ZH 1:
+-	'ngài là một người'
+-	R
+-	'tuyệt vời, nhưng bộ quần'
+-	R
+-	'áo này thật đáng xấu hổ...'
+-	\L_062ff:
+-	ZH 1:
+-	'Haa...'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi có thực sự'
+-	R
+-	'phải nhìn thấy Ngài Rance'
+-	R
+-	'trong phim này không...?'
+-	\L_062ff:
+-	ZH 1:
+-	'Điều này không có'
+-	R
+-	'sự uy nghi của pháp sư'
+-	R
+-	'hay bất cứ điều gì ...'
+-	\L_062ff:
+-	ZH 1:
+-	'Ngoài ra, điều này...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Haah...'
+-	\L_062ff:
+-	ZH 1:
+-	'Bộ quần áo này khiến'
+-	R
+-	'người ta dễ dàng nhận ra'
+-	R
+-	'ngực tôi nhỏ đến mức nào...'
+-	\L_062ff:
+-	ZH 1:
+-	'Xấu hổ quá.'
+-	R
+-	'Tôi không thích họ...'
+-	\L_062ff:
+-	ZH 1:
+-	'... Không, em'
+-	R
+-	'phải làm điều này, Chizuko.'
+-	R
+-	'Cậu đã hứa với vua Gandhi.'
+-	\L_062ff:
+-	ZH 1:
+-	'Tất cả những gì'
+-	R
+-	'cậu có thể làm là'
+-	R
+-	'mặc cái này và đi.'
++	'......Ghét thật, gu của'
++	R
++	'ngài Gandhi tệ quá......'
++	\L_062ff:
++	ZH 1:
++	'bản thân ngài thì tuyệt'
++	R
++	'vời thế, mà bộ đồ lại'
++	R
++	'đáng xấu hổ thế này......'
++	\L_062ff:
++	ZH 1:
++	'Haa......'
++	\L_062ff:
++	ZH 1:
++	'phải mặc thế này mà ra trước'
++	R
++	'mặt Ngài Rance sao......?'
++	\L_062ff:
++	ZH 1:
++	'Chẳng còn chút uy nghiêm'
++	R
++	'nào của pháp sư......'
++	\L_062ff:
++	ZH 1:
++	'Hơn nữa, bộ này......'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Haa......'
++	\L_062ff:
++	ZH 1:
++	'mặc bộ này thì lộ ra'
++	R
++	'ngực nhỏ mất......'
++	\L_062ff:
++	ZH 1:
++	'Xấu hổ quá......'
++	R
++	'không muốn đâu......'
++	\L_062ff:
++	ZH 1:
++	'...............Không,'
++	R
++	'không được đâu Chizuko. Đã'
++	R
++	'hứa với ngài Gandhi rồi.'
++	\L_062ff:
++	ZH 1:
++	'Chỉ còn cách mặc'
++	R
++	'bộ này mà đi thôi.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_061f6:
+ 	ZH 1:
+-	'Nếu bây giờ vua Rance ghét'
+-	R
+-	'tôi... có lẽ ông ấy sẽ ghét'
+-	R
+-	'tôi, nhưng... tôi sẽ chết...'
++	'Thế này mà bị Ngài Rance'
++	R
++	'ghét... chắc là bị ghét'
++	R
++	'thôi... thì chết vậy......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 0!
+@@ -5350,45 +5228,41 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Vua Rance,'
+-	R
+-	'Chizuko tới đây để gặp ngài.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ừm? Aah, cô gái'
+-	R
+-	'lòe loẹt đến từ Zeth...'
+-	\L_062ff:
+-	ZH 1:
+-	'Không cần gặp nàng,'
+-	R
+-	'hãy đưa nàng về đi.'
+-	\L_062ff:
+-	ZH 1:
+-	'Ta chỉ quan'
+-	R
+-	'tâm đến việc sử dụng'
+-	R
+-	'các cô gái nóng bỏng.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Tôi cho rằng cậu sẽ'
+-	R
+-	'nói nhiều như vậy, nhưng...'
+-	\L_062ff:
+-	ZH 1:
+-	'Thực ra, nàng đã'
+-	R
+-	'bị dẫn đến đây rồi.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ơ? Này, Maris...'
++	'Phòng yết kiến'
++	R
++	'Bệ hạ Rance, cô Chizuko'
++	R
++	'đã tới ạ.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Hử? À, con mụ lòe'
++	R
++	'loẹt của Zeth à...'
++	\L_062ff:
++	ZH 1:
++	'Không cần, đuổi về.'
++	\L_062ff:
++	ZH 1:
++	'Ta chỉ định dùng mỹ nữ thôi.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Thần cũng đoán'
++	R
++	'ngài sẽ nói vậy...'
++	\L_062ff:
++	ZH 1:
++	'Thật ra thần đã dẫn'
++	R
++	'cô ấy vào rồi ạ.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Hả? Này, Maris...'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_062ac:
+@@ -5396,150 +5270,138 @@
+ 	\L_0629e:
+ 	\L_0624a:
+ 	ZH 1:
+-	'Ừm, tôi xin'
+-	R
+-	'lỗi, Ngài Rance...'
+-	\L_062ff:
+-	ZH 1:
+-	'Vua Gandhi và tôi'
+-	R
+-	'đã có một yêu cầu'
+-	R
+-	'vô lý cho Maris...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'......... ... Ngươi là ai?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Hả? Tôi là Chizuko.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko đang'
+-	R
+-	'lấy tay che ngực và vặn'
+-	R
+-	'vẹo xung quanh vì xấu hổ.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Trời, ngươi à? Chizuko với'
+-	R
+-	'phong cách thời trang lòe'
+-	R
+-	'loẹt, lòe loẹt và kỳ quặc?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Kỳ lạ... Không có'
+-	R
+-	'gì lạ cả... ... Nhưng'
+-	R
+-	'vâng, tôi là Chizuko.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ồ, tốt, ta'
+-	R
+-	'thích ngươi... Ừ,'
+-	R
+-	'ngươi khá tử tế...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Ừm... Em có thể cho'
+-	R
+-	'ngài ở bên em không...?'
+-	\L_062ff:
+-	ZH 1:
+-	'Tôi sẽ làm bất cứ'
+-	R
+-	'điều gì. Anh sẽ yêu em'
+-	R
+-	'bằng cả trái tim mình.'
+-	\L_062ff:
+-	ZH 1:
+-	'Vì em, hãy để'
+-	R
+-	'ngài được ở bên em...'
++	'Thưa, xin lỗi ngài,'
++	R
++	'Ngài Rance......'
++	\L_062ff:
++	ZH 1:
++	'là tôi với ngài Gandhi'
++	R
++	'đã cố nài nỉ cô Maris...'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'...............'
++	R
++	'.........Cô là ai.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Hả? Vâng, tôi là Chizuko.'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko lấy tay che ngực,'
++	R
++	'thẹn thùng ngọ nguậy.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Hả, cô á? Con Chizuko'
++	R
++	'lòe loẹt, sặc sỡ, có'
++	R
++	'gu ăn mặc quái dị ấy à?'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Quái dị...... không phải,'
++	R
++	'cái đó là...... ......nhưng,'
++	R
++	'đúng là Chizuko ạ.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ồ, được đấy, hợp'
++	R
++	'lắm...... ừ, khá lắm......'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Thưa...... ngài cho tôi được'
++	R
++	'ở bên cạnh ngài chứ ạ...?'
++	\L_062ff:
++	ZH 1:
++	'Việc gì tôi cũng làm, tôi'
++	R
++	'sẽ hết lòng yêu Ngài Rance.'
++	\L_062ff:
++	ZH 1:
++	'Tôi van ngài, xin cho'
++	R
++	'tôi ở bên ngài......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_061f6:
+ 	ZH 1:
+-	'Gh... Sh-Nàng khá dễ'
+-	R
+-	'thương nhỉ? Nàng có thể'
+-	R
+-	'khác biệt đến mức nào...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Ừm...'
+-	\L_062ff:
+-	ZH 1:
+-	'Ừm. Được rồi, vì'
+-	R
+-	'ta rất hào phóng.'
+-	\L_062ff:
+-	ZH 1:
+-	'Ta cảm thấy'
+-	R
+-	'tồi tệ khi bỏ rơi ngươi, vì'
+-	R
+-	'vậy ta sẽ lợi dụng ngươi.'
+-	\L_062ff:
+-	ZH 1:
+-	'Với điều kiện ngươi'
+-	R
+-	'phải tiếp tục mặc nó.'
+-	\L_062ff:
+-	ZH 1:
+-	'Khi chiến đấu cũng vậy, ngay'
+-	R
+-	'cả khi nó làm giảm sức chiến'
+-	R
+-	'đấu của ngươi một chút.'
+-	\L_062ff:
+-	ZH 1:
+-	'Uhaha.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_0624a:
+-	ZH 1:
+-	'Haah, được'
+-	R
+-	'rồi... Hiểu rồi, cảm ơn'
+-	R
+-	'vua Rance. Xin lỗi...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko hơi ngạc'
+-	R
+-	'nhiên khi rời khỏi'
+-	R
+-	'phòng tiếp khách.'
++	'Ư...... d-dễ thương'
++	R
++	'đấy chứ. Thay đổi một'
++	R
++	'cái là khác hẳn......'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ờ...... e hèm.'
++	\L_062ff:
++	ZH 1:
++	'Được rồi, ta rộng lượng mà.'
++	\L_062ff:
++	ZH 1:
++	'Bỏ mặc thì tội nghiệp,'
++	R
++	'nên ta sẽ dùng cô.'
++	\L_062ff:
++	ZH 1:
++	'Điều kiện là phải giữ'
++	R
++	'nguyên bộ dạng đó.'
++	\L_062ff:
++	ZH 1:
++	'Lúc chiến đấu cũng mặc'
++	R
++	'thế mà đánh, sức chiến'
++	R
++	'đấu giảm chút cũng được.'
++	\L_062ff:
++	ZH 1:
++	'Sướng rơn, uhahaha.'
++	\L_062ff:
++	\L_062f2:
++	\L_0624a:
++	ZH 1:
++	'Haa, vâng...... tôi hiểu'
++	R
++	'rồi, đa tạ ngài, Ngài'
++	R
++	'Rance. Vậy thì......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko hơi ngẩn người,'
++	R
++	'rời khỏi phòng yết kiến.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_0623c:
+ 	\L_06266:
+ 	ZH 1:
+-	'Tại sao hắn lại'
+-	R
+-	'thích những bộ quần áo kỳ'
+-	R
+-	'lạ này hơn...? Thật kỳ lạ...'
++	'Lại thích bộ đồ kỳ'
++	R
++	'cục thế này hơn...'
++	R
++	'............lạ thật......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 0!
+@@ -5559,84 +5421,84 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Chizuko - Phòng'
+-	R
+-	'Chỉ Huy （dậm... dậm...）'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Cho đến khi...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko vừa'
+-	R
+-	'đi vừa thở dài.'
+-	\L_062ff:
+-	ZH 1:
+-	'Ngay cả bước chân'
+-	R
+-	'của cô cũng hoàn toàn'
+-	R
+-	'không có năng lượng.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Vua Gandhi... Tôi nên'
+-	R
+-	'làm gì đây...? Hah...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'（gsh...）'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko dừng lại'
+-	R
+-	'và cắn môi. Cô vô'
+-	R
+-	'thức rơi nước mắt.'
++	'Tháp Chizuko - Phòng Chỉ huy'
++	R
++	'（Cộp... cộp...）'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Phù......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko đi đi'
++	R
++	'lại lại, thở dài.'
++	\L_062ff:
++	ZH 1:
++	'Đến tiếng giày cũng'
++	R
++	'chẳng còn chút sinh khí.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Ngài Gandhi...... tôi phải'
++	R
++	'làm sao đây...... haa......'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'（Sụt sịt......）'
++	\L_062ff:
++	ZH 1:
++	'Chizuko dừng bước,'
++	R
++	'cắn chặt môi. Bất giác'
++	R
++	'nước mắt rưng rưng.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	\L_061f6:
+ 	ZH 1:
+-	'Tôi muốn đến chỗ cậu...'
+-	R
+-	'Đến Leazas... Cuối cùng tôi'
+-	R
+-	'cũng biết cậu đang ở đâu...'
+-	\L_062ff:
+-	ZH 1:
+-	'Nhưng nếu tôi đi, chắc'
+-	R
+-	'chắn cậu sẽ nổi điên...'
+-	\L_062ff:
+-	ZH 1:
+-	'Nhưng nếu'
+-	R
+-	'tôi không làm gì, tôi'
+-	R
+-	'sẽ phải đấu với cậu...'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Nức nở, Vua Gandhi...'
+-	R
+-	'Tôi nên làm gì đây...?'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Nhưng không có ai'
+-	R
+-	'xung quanh để trả lời'
+-	R
+-	'câu hỏi của Chizuko...'
++	'Tôi muốn tới bên ngài...'
++	R
++	'ngài đang ở Leazas nhỉ...'
++	R
++	'khó lắm mới biết tin ngài...'
++	\L_062ff:
++	ZH 1:
++	'Nhưng...... tới đó, chắc'
++	R
++	'ngài sẽ giận lắm......'
++	\L_062ff:
++	ZH 1:
++	'Nhưng mà, cứ thế này'
++	R
++	'thì sẽ phải chiến'
++	R
++	'đấu với ngài......'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Sụt sịt, ngài Gandhi...'
++	R
++	'Chizuko, Chizuko phải'
++	R
++	'làm sao bây giờ......?'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Nhưng nơi ấy chẳng'
++	R
++	'có ai trả lời câu'
++	R
++	'hỏi của Chizuko......'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	!VAR0516 : 0!
+@@ -5655,52 +5517,46 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Chizuko - Tầng cao nhất'
+-	R
+-	'（bước bước bước...）'
+-	\L_062ff:
+-	ZH 1:
+-	'Chizuko đang đi đi lại lại,'
+-	R
+-	'những bước chân nhanh nhẹn'
+-	R
+-	'của cô lấp đầy căn phòng.'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_061da:
+-	ZH 1:
+-	'Hohohohohoh...'
+-	\L_062ff:
+-	ZH 1:
+-	'Cứ xem đi, Leazas...!'
+-	R
+-	'Đất nước chúng ta được hỗ'
+-	R
+-	'trợ bởi sức mạnh của Flash.'
+-	\L_062ff:
+-	ZH 1:
+-	'Chúng tôi sẽ'
+-	R
+-	'tiêu diệt đất nước của'
+-	R
+-	'cậu và vị vua tàn bạo,'
+-	\L_062ff:
+-	ZH 1:
+-	'ngu ngốc của'
+-	R
+-	'nó ngay lập tức!'
+-	\L_062ff:
+-	ZH 1:
+-	'Hoooohohohohohoh...!'
+-	\L_062ff:
+-	\L_062f2:
+-	\L_06212:
+-	ZH 1:
+-	'Chizuko nhìn'
+-	R
+-	'ra ngoài cửa sổ nhìn thế'
+-	R
+-	'giới bên dưới và cười lớn.'
++	'Tháp Chizuko - Tầng thượng'
++	\L_062ff:
++	ZH 1:
++	'（Cộp cộp cộp...） Chizuko'
++	R
++	'đi đi lại lại, tiếng'
++	R
++	'giày vang lên giòn giã.'
++	\L_062ff:
++	\L_062f2:
++	\L_061da:
++	ZH 1:
++	'Hô hô hô hô hô......'
++	\L_062ff:
++	ZH 1:
++	'Cứ chờ xem, Leazas...!'
++	R
++	'Nước ta giờ đang lên như'
++	R
++	'diều gặp gió nhờ Pika.'
++	\L_062ff:
++	ZH 1:
++	'Cái nước có ông vua vớ vẩn'
++	\L_062ff:
++	ZH 1:
++	'bị gọi là bạo chúa gì đó,'
++	R
++	'ta sẽ diệt trong nháy mắt!'
++	\L_062ff:
++	ZH 1:
++	'Ô hô hô hô hô hô......!'
++	\L_062ff:
++	\L_062f2:
++	\L_06212:
++	ZH 1:
++	'Chizuko vừa nhìn xuống'
++	R
++	'thế gian bên dưới qua'
++	R
++	'cửa sổ, vừa cười vang.'
+ 	\L_062ff:
+ 	\L_062f2:
+ 	{VAR0336 = 6:
+@@ -5708,135 +5564,127 @@
+ 		\L_0629e:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Ừm, đó là'
+-		R
+-		'lãnh thổ của Zeth,'
+-		R
+-		'Lãnh chúa Chizuko...'
++		'Thưa, chỗ đó là lãnh thổ'
++		R
++		'của Zeth ạ, ngài Chizuko...'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'... Đừng'
+-		R
+-		'làm phiền tôi. Cậu muốn'
+-		R
+-		'gì, chỉ huy ma thuật?'
+-		\L_062ff:
+-		ZH 1:
+-		'Cậu đang làm'
+-		R
+-		'tôi thất vọng.'
++		'......Đừng có xen vào. Có'
++		R
++		'việc gì, đội trưởng ma pháp?'
++		\L_062ff:
++		ZH 1:
++		'Người ta đang'
++		R
++		'khoái chí cơ mà.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Cậu có chắc là chúng ta'
+-		R
+-		'không nên hành quân không?'
++		'Vâng. Chúng ta không'
++		R
++		'xuất quân có ổn không ạ?'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Tháng ba?... Tất nhiên'
+-		R
+-		'là chúng ta nên làm vậy.'
+-		\L_062ff:
+-		ZH 1:
+-		'Tuy nhiên, ngay khi chúng'
+-		R
+-		'tôi tấn công Lâu đài Leazas.'
+-		\L_062ff:
+-		ZH 1:
+-		'Tôi là một chỉ huy giỏi, cậu'
+-		R
+-		'có thể gọi tôi là ngôi sao,'
+-		R
+-		'hoặc thậm chí là siêu sao.'
++		'Xuất quân? ......Có'
++		R
++		'chứ, tất nhiên.'
++		\L_062ff:
++		ZH 1:
++		'Nhưng là lúc tấn'
++		R
++		'công lâu đài Leazas.'
++		\L_062ff:
++		ZH 1:
++		'Ta là tham mưu vĩ đại,'
++		R
++		'nói đúng hơn là ngôi sao,'
++		R
++		'mà còn là siêu sao cơ.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_06266:
+ 		ZH 1:
+-		'Một ngôi sao... Giờ'
+-		R
+-		'tôi là một ngôi sao...'
+-		R
+-		'Một siêu sao, lúc đó...'
++		'Ngôi sao...... thời buổi'
++		R
++		'này mà còn ngôi sao......'
++		R
++		'lại còn siêu sao......'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Một siêu sao'
+-		R
+-		'không cần phải bận tâm đến'
+-		R
+-		'việc chiến đấu với lũ nhỏ.'
+-		\L_062ff:
+-		ZH 1:
+-		'Chúng ta'
+-		R
+-		'có thể đợi đến cuối cùng'
+-		R
+-		'để có một vẻ ngoài ngầu.'
+-		\L_062ff:
+-		ZH 1:
+-		'Vì vậy hãy cảnh giác một'
+-		R
+-		'lúc nhé, chỉ huy ma thuật.'
+-		R
+-		'Hãy chuẩn bị ở tòa tháp này.'
++		'Siêu sao thì không ra'
++		R
++		'mấy trận lặt vặt đâu.'
++		\L_062ff:
++		ZH 1:
++		'Cứ tới phút cuối cùng xuất'
++		R
++		'hiện thật ngầu là được.'
++		\L_062ff:
++		ZH 1:
++		'Nên tạm thời chờ lệnh,'
++		R
++		'đội trưởng ma pháp. Cứ'
++		R
++		'vững vàng ở tòa tháp này.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Như cậu mong muốn...'
++		'Tuân lệnh...'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Hohohohohoh, Vua Gandhi...'
+-		\L_062ff:
+-		ZH 1:
+-		'Tôi sẽ cống hiến'
+-		R
+-		'hết mình, Hooooohohohohohoh,'
+-		R
+-		'Hooooooohohohohohohohoh. ..!'
++		'Hô hô hô hô hô,'
++		R
++		'ngài Gandhi...'
++		\L_062ff:
++		ZH 1:
++		'Chizuko đang cố gắng lắm'
++		R
++		'đấy ạ, ô hô hô hô hô hô,'
++		R
++		'ô hôôô hô hô hô hô......!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_06212:
+ 		ZH 1:
+-		'Chizuko ngửa đầu ra'
+-		R
+-		'sau và cười khúc khích.'
++		'Chizuko ngửa hẳn người'
++		R
++		'ra sau, cười không ngớt.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Hoooooooohohohohohoh,'
+-		R
+-		'hooooooohohohohoh...!'
+-		R
+-		'Như ng, hah...'
+-		\L_062ff:
+-		ZH 1:
+-		'Aah... tôi cô'
+-		R
+-		'đơn quá. Hãy quay lại'
+-		R
+-		'sớm nhé, Vua Gandhi...'
++		'Ô hô hô hô hô hô, ô'
++		R
++		'hôôô hô hô hô hô......!'
++		R
++		'Nhưng mà, haa......'
++		\L_062ff:
++		ZH 1:
++		'Aa...... cô đơn quá.'
++		R
++		'Mau trở về đi......'
++		R
++		'ngài Gandhi......'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_06266:
+ 		ZH 1:
+-		'Tôi tự hỏi liệu việc'
+-		R
+-		'giao phó đất nước cho'
+-		\L_062ff:
+-		ZH 1:
+-		'người này có thực'
+-		R
+-		'sự an toàn hay không…'
++		'Giao đất nước cho người này'
++		\L_062ff:
++		ZH 1:
++		'liệu có thật sự'
++		R
++		'ổn không đây......'
+ 		\L_062ff:
+ 		\L_062f2:
+ 	}
+@@ -5845,312 +5693,290 @@
+ 		\L_0629e:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Cuối cùng đã'
+-		R
+-		'đến lúc xuất kích chưa,'
+-		R
+-		'Lãnh chúa Chizuko?!'
++		'Vậy là cuối cùng cũng xuất'
++		R
++		'quân hả, ngài Chizuko!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Ôi, Annis! Tại sao cậu'
+-		R
+-		'lại đi vào từ cửa sổ?!'
++		'Oái, Anis! S... sao lại'
++		R
++		'vào từ cửa sổ......!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_06212:
+ 		ZH 1:
+-		'Annis nhảy vào từ'
+-		R
+-		'cửa sổ tầng trên cùng.'
++		'Anis nhảy vào từ cửa'
++		R
++		'sổ tầng thượng ấy.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'À, có một vết rò'
+-		R
+-		'rỉ trên mái nhà và...'
+-		\L_062ff:
+-		ZH 1:
+-		'Đợi đã, quan'
+-		R
+-		'trọng hơn là chúng ta đang'
+-		R
+-		'triển khai, phải không!?'
+-		\L_062ff:
+-		ZH 1:
+-		'Tôi sẽ cố gắng'
+-		R
+-		'hết sức! Tôi sẽ quay lại'
+-		R
+-		'với 200 đầu lính Leazas!'
++		'Dạ, trần nhà bị dột......'
++		\L_062ff:
++		ZH 1:
++		'không, chuyện đó không'
++		R
++		'quan trọng, cuối cùng'
++		R
++		'cũng xuất quân rồi nhỉ!?'
++		\L_062ff:
++		ZH 1:
++		'Tôi sẽ cố gắng! Tôi'
++		R
++		'sẽ mang về chừng 200'
++		R
++		'cái đầu lính Leazas!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Không cần đâu, ghê quá.'
++		'Không cần, thứ'
++		R
++		'khó coi như thế.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Aah, tôi háo hức quá.'
+-		R
+-		'Xin hãy xem, Ngài Chizuko.'
+-		\L_062ff:
+-		ZH 1:
+-		'Tôi ngu ngốc'
+-		R
+-		'nhưng tôi mạnh mẽ nên'
+-		R
+-		'lần này tôi sẽ có ích.'
+-		\L_062ff:
+-		ZH 1:
+-		'Nếu đầu quá lớn để'
+-		R
+-		'làm chiến lợi phẩm, có'
+-		R
+-		'thể là tai hoặc mũi...'
+-		\L_062ff:
+-		ZH 1:
+-		'Điều gì sẽ tốt, Chúa'
+-		R
+-		'Chizuko? Có lẽ là ngón tay?'
+-		\L_062ff:
+-		ZH 1:
+-		'Ngoài ra, tôi'
+-		R
+-		'có thể chi 200 VÀNG cho'
+-		R
+-		'đồ ăn nhẹ, phải không?'
+-		\L_062ff:
+-		ZH 1:
+-		'Tôi có nên lấy'
+-		R
+-		'một quả chuối không?'
+-		\L_062ff:
+-		ZH 1:
+-		'Tôi có nên pha trà cho'
+-		R
+-		'căng tin của mình không...?!'
++		'Aa, run lên vì'
++		R
++		'hào hứng......'
++		\L_062ff:
++		ZH 1:
++		'Xin ngài xem, ngài Chizuko.'
++		R
++		'Tôi ngốc nhưng có sức,'
++		R
++		'lần này sẽ giúp được việc.'
++		\L_062ff:
++		ZH 1:
++		'Chiến lợi phẩm......'
++		R
++		'đầu thì cồng kềnh, hay'
++		R
++		'lấy tai, hoặc mũi...'
++		\L_062ff:
++		ZH 1:
++		'Ngài thấy cái nào hơn, ngài'
++		R
++		'Chizuko? Hay là ngón tay?'
++		\L_062ff:
++		ZH 1:
++		'Còn nữa, đồ ăn vặt'
++		R
++		'chỉ được tối đa 200'
++		R
++		'GOLD đúng không ạ,'
++		\L_062ff:
++		ZH 1:
++		'chuối có tính là'
++		R
++		'đồ ăn vặt không,'
++		\L_062ff:
++		ZH 1:
++		'cho trà vào bình nước mang'
++		R
++		'theo có được không...!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Im đi. Cậu ở lại để'
+-		R
+-		'trông chừng tòa tháp, Annis.'
++		'Ồn ào. Anis ở'
++		R
++		'nhà trông tháp.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Huuuuuuuuuh!? Nhưng'
+-		R
+-		'Ngài Chizuko...!'
++		'Hảaaa!? Sao lại thế,'
++		R
++		'ngài Chizuko......!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Thật ngu'
+-		R
+-		'ngốc khi quá phấn khích,'
+-		R
+-		'thật thiếu văn minh...'
+-		\L_062ff:
+-		ZH 1:
+-		'Tôi là một chỉ huy'
+-		R
+-		'tuyệt vời, cậu biết đấy.'
+-		\L_062ff:
+-		ZH 1:
+-		'Chúng tôi sẽ không'
+-		R
+-		'triển khai như không có gì.'
+-		\L_062ff:
+-		ZH 1:
+-		'Dù sao đi nữa,'
+-		\L_062ff:
+-		ZH 1:
+-		'tôi không biết cậu'
+-		R
+-		'đang nghĩ gì khi chiến đấu'
+-		R
+-		'mà lại tấn công đồng minh.'
++		'Đồ ngốc thì đừng có'
++		R
++		'nhặng xị lên, thật'
++		R
++		'là, man rợ quá......'
++		\L_062ff:
++		ZH 1:
++		'Ta là tham mưu vĩ đại đấy?'
++		\L_062ff:
++		ZH 1:
++		'Không dễ dàng'
++		R
++		'xuất quân thế đâu.'
++		\L_062ff:
++		ZH 1:
++		'Vả lại,'
++		\L_062ff:
++		ZH 1:
++		'cô ra trận thực tế là'
++		R
++		'chẳng biết nghĩ gì, toàn'
++		R
++		'tấn công quân mình còn gì.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'À, ừm, tôi thực sự'
+-		R
+-		'đang cố gắng làm tốt...'
++		'Cái đó là, tôi tưởng'
++		R
++		'như thế là tốt...'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Và bằng cách nào'
+-		R
+-		'đó điều đó khiến cậu tiêu'
+-		R
+-		'diệt các đơn vị đồng minh!'
+-		\L_062ff:
+-		ZH 1:
+-		'Hãy thay đổi lối'
+-		R
+-		'suy nghĩ đó, hãy để Papaya'
+-		R
+-		'đốt cháy nó trong cậu nhé!'
++		'Nghĩ tốt kiểu gì mà'
++		R
++		'lại đi tiêu diệt cả'
++		R
++		'đơn vị quân mình hả!'
++		\L_062ff:
++		ZH 1:
++		'Cái mạch suy nghĩ ấy, nhờ'
++		R
++		'Papaya nướng lại một lần đi!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'X-Xin lỗi.'
++		'X, xin lỗi ạ.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Chà...'
+-		\L_062ff:
+-		ZH 1:
+-		'Nếu cậu thực sự muốn tấn'
+-		R
+-		'công Leazas đến vậy thì đừng'
+-		R
+-		'làm học trò của tôi nữa.'
+-		\L_062ff:
+-		ZH 1:
+-		'Chỉ cần là một'
+-		R
+-		'người lính hạng ba.'
++		'Thôi......'
++		\L_062ff:
++		ZH 1:
++		'dù vậy, nếu nhất định'
++		R
++		'muốn tấn công Leazas, thì'
++		R
++		'thôi làm đệ tử của ta đi.'
++		\L_062ff:
++		ZH 1:
++		'Làm lính hạng ba là được.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Haah... Tôi'
+-		R
+-		'bị sa thải à...?'
++		'Hả...... tôi bị đuổi ạ......'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'À... Có lẽ vậy. Nếu'
+-		R
+-		'là cậu thì đó sẽ là một'
+-		R
+-		'sự giải thoát cho tôi.'
++		'Ừ...... tính sao đây nhỉ.'
++		R
++		'Thế thì ta nhẹ cả người.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Xin đừng bỏ'
+-		R
+-		'rơi tôi, Ngài Chizukooo.'
++		'Xin ngài đừng bỏ rơi'
++		R
++		'tôi, ngài Chizukooo.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_06212:
+ 		ZH 1:
+-		'Annis làm một bộ'
+-		R
+-		'mặt thực sự đáng thương.'
+-		\L_062ff:
+-		ZH 1:
+-		'Chizuko cảm thấy'
+-		R
+-		'mình vượt trội và'
++		'Nói rồi, Anis làm bộ mặt'
++		R
++		'thảm thương nhất đời.'
++		\L_062ff:
++		ZH 1:
++		'Được thỏa mãn cảm'
++		R
++		'giác bề trên, Chizuko'
+ 		R
+ 		'mỉm cười hài lòng.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Heheh...'
+-		\L_062ff:
+-		ZH 1:
+-		'Tôi chắc chắn một kẻ'
+-		R
+-		'hư hỏng hoàn toàn như'
+-		\L_062ff:
+-		ZH 1:
+-		'ngài cũng sẽ gây ra'
+-		R
+-		'vấn đề cho quân đội...'
+-		\L_062ff:
+-		ZH 1:
+-		'Đây là thời điểm'
+-		R
+-		'chính trị quan trọng'
+-		R
+-		'nên hãy đợi ở đây.'
+-		\L_062ff:
+-		ZH 1:
+-		'Danh tiếng của tôi'
+-		R
+-		'sẽ giảm sút nếu tôi để một'
+-		R
+-		'tên ngốc không bị kiểm soát.'
++		'Hừm hừm...?'
++		\L_062ff:
++		ZH 1:
++		'Mà nói cho cùng, một'
++		R
++		'đứa ngớ ngẩn như cô'
++		\L_062ff:
++		ZH 1:
++		'mà xin nhập ngũ thì'
++		R
++		'quân đội cũng khổ lắm...'
++		\L_062ff:
++		ZH 1:
++		'Ảnh hưởng tới quốc sự,'
++		R
++		'nên cứ ở yên đây đi.'
++		\L_062ff:
++		ZH 1:
++		'Thả đứa ngốc ra'
++		R
++		'ngoài thì danh tiếng'
++		R
++		'của ta sẽ tụt dốc.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Ah... Cảm ơn cậu rất'
+-		R
+-		'nhiều, tôi sẽ ở lại đây!'
++		'A...... đa tạ ngài,'
++		R
++		'tôi sẽ ở yên ạ!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061f6:
+ 		ZH 1:
+-		'Nàng là một'
+-		R
+-		'tên ngốc nhưng lại được ban'
+-		R
+-		'cho rất nhiều sức mạnh...'
+-		\L_062ff:
+-		ZH 1:
+-		'Nếu cần, nàng'
+-		R
+-		'có thể được sử dụng làm'
+-		R
+-		'nguyên liệu cho Flash,'
+-		\L_062ff:
+-		ZH 1:
+-		'vì vậy tôi nên'
+-		R
+-		'giữ nàng bên mình.'
++		'Con bé này ngốc thật,'
++		R
++		'nhưng năng lực thì có...'
++		\L_062ff:
++		ZH 1:
++		'lúc cần còn có thể làm'
++		R
++		'nguyên liệu cho Pika,'
++		\L_062ff:
++		ZH 1:
++		'cứ giữ bên mình đã.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Huhuhu, huhuhuhu...'
++		'Hi hi hi, hi hi hi hi......'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Ahaha, ahahahaha.'
+-		R
+-		'Ahahahahahahah aha.'
+-		R
+-		'Vui quá, ngài Chizuko.'
++		'A ha ha, a ha ha ha ha.'
++		R
++		'A ha ha ha ha ha ha,'
++		R
++		'vui ghê, ngài Chizuko.'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_061da:
+ 		ZH 1:
+-		'Cậu không cần phải cười!'
+-		\L_062ff:
+-		ZH 1:
+-		'Nếu cậu có'
+-		R
+-		'thời gian để cười thì hãy'
+-		R
+-		'làm công việc của mình!'
+-		\L_062ff:
+-		ZH 1:
+-		'Cậu định đứng'
+-		R
+-		'đây bao lâu nữa?!!'
++		'Cô không cần cười!'
++		\L_062ff:
++		ZH 1:
++		'Có thời gian cười'
++		R
++		'thì mau làm việc đi!'
++		\L_062ff:
++		ZH 1:
++		'Định đứng yên'
++		R
++		'tới bao giờ hả!!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 		\L_0624a:
+ 		ZH 1:
+-		'Được rồi!'
++		'Vângggg!'
+ 		\L_062ff:
+ 		\L_062f2:
+ 	}

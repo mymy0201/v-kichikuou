@@ -1,0 +1,1810 @@
+--- before/MAIN.ADV
++++ src/MAIN.ADV
+@@ -74,7 +74,7 @@
+ 		PF1 VAR0056:
+ 		\L_0191e:
+ 		ZH 1:
+-		'Một thời gian sau đó.'
++		'Rồi thời gian trôi qua.'
+ 		PF0 VAR0056:
+ 		\L_01a0b:
+ 		\L_019fe:
+@@ -1044,7 +1044,7 @@
+ 	PF1 VAR0056:
+ 	\L_0191e:
+ 	ZH 1:
+-	'Một thời gian sau đó.'
++	'Rồi thời gian trôi qua.'
+ 	PF0 VAR0056:
+ 	\L_01a0b:
+ 	\L_019fe:
+--- before/Gｶﾐｰﾗ.ADV
++++ src/Gｶﾐｰﾗ.ADV
+@@ -109,60 +109,54 @@
+ 	\L_05f06:
+ 	\L_05dee:
+ 	ZH 1:
+-	'Vâng, ta có thể,'
+-	R
+-	'nhưng... cô trông giống'
+-	R
+-	'như một người phụ nữ tốt.'
+-	\L_05f13:
+-	ZH 1:
+-	'Nó sẽ là một sự lãng phí'
+-	R
+-	'để chỉ giết cô. Rance nhìn'
+-	R
+-	'Camilla một cách trụy lạc.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'... Cặn bã...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Gahahahaha! ói'
+-	R
+-	'bất cứ điều gì cô muốn. Sẽ'
+-	R
+-	'không làm tổn thương ta.'
+-	\L_05f13:
+-	ZH 1:
+-	'Đến đây nào,'
+-	R
+-	'Camilla bé nhỏ.'
+-	\L_05f13:
+-	ZH 1:
+-	'Hãy chống cự nếu cô muốn,'
+-	\L_05f13:
+-	ZH 1:
+-	'nhưng cô'
+-	R
+-	'sẽ chỉ làm tổn thương'
+-	R
+-	'chính mình nếu làm vậy.'
++	'Ừ... cũng có ý đó...'
++	R
++	'Nhưng cô là gái đẹp đấy.'
++	\L_05f13:
++	ZH 1:
++	'Chỉ giết thôi thì uổng quá.'
++	R
++	'Rance nhìn Camilla chằm'
++	R
++	'chằm bằng ánh mắt dâm đãng.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'......Đồ hạ tiện......'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Gahahaha!! Muốn nói'
++	R
++	'gì thì nói. Ta chẳng'
++	R
++	'đau chẳng ngứa.'
++	\L_05f13:
++	ZH 1:
++	'Nào, Camilla cưng.'
++	\L_05f13:
++	ZH 1:
++	'Chống cự cũng được thôi,'
++	\L_05f13:
++	ZH 1:
++	'nhưng càng chống thì'
++	R
++	'người khổ là cô đấy.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Tôi sẽ không để'
+-	R
+-	'ngươi làm tổn thương cô!'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Cái gì...?'
++	'Tôi không để'
++	R
++	'ngươi làm thế đâu!'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Cái gì...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	!VAR0516 : 442!
+@@ -174,36 +168,34 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Reincock nhảy ra từ phía'
+-	R
+-	'sau một bức màn và bị buộc'
+-	\L_05f13:
+-	ZH 1:
+-	'tội với một thanh'
+-	R
+-	'kiếm chỉ Vào Rance.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Whoa, bây giờ.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Rance nhanh chóng né'
+-	R
+-	'tránh và dùng cánh tay'
+-	\L_05f13:
+-	ZH 1:
+-	'của mình hất văng'
+-	R
+-	'thanh kiếm của Reincock.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Ch...!'
++	'Reincock lao ra'
++	R
++	'từ sau tấm rèm,'
++	\L_05f13:
++	ZH 1:
++	'chĩa mũi kiếm vào'
++	R
++	'Rance mà xông tới.'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Úi chà.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Rance nhẹ nhàng né tránh,'
++	\L_05f13:
++	ZH 1:
++	'dùng sống bàn tay đánh'
++	R
++	'rơi kiếm của Reincock.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Ư...!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -211,7 +203,7 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Phía sau ngươi, Reincock!'
++	'Reincock, đằng sau!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -219,28 +211,26 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Hả...? À!!'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Rance hạn chế'
+-	R
+-	'Vòng tay Của Reincock.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Gahahahaha! ôi quên'
+-	R
+-	'mất còn có một cô gái'
+-	R
+-	'dễ thương nữa ở đây.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Kh... Để tôi đi, đồ ngốc!'
++	'Hả... a!!'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Rance khóa chặt'
++	R
++	'Reincock từ phía sau.'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Gahahaha!! Suýt thì quên'
++	R
++	'còn một em dễ thương nữa.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Ư... buông ra, đồ ngu!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05dee:
+@@ -287,39 +277,39 @@
+ 	\L_05f06:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Huhu. Ai đã từng'
+-	R
+-	'nói tôi là phụ nữ?!'
+-	\L_05f13:
+-	ZH 1:
+-	'Ngoài ra, những lời xúc phạm'
+-	R
+-	'của cậu đối với cô Camilla'
+-	R
+-	'là không thể chấp nhận được!'
+-	\L_05f13:
+-	ZH 1:
+-	'Tôi sẽ giết cậu...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Reincock tách'
+-	R
+-	'khỏi cơ thể của Rance.'
+-	\L_05f13:
+-	ZH 1:
+-	'Giữa họ, một'
+-	R
+-	'thanh kiếm hú lên.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'À...'
+-	\L_05f13:
+-	ZH 1:
+-	'Áaaa!!'
++	'Hừ hừ. Có ai bảo'
++	R
++	'tôi là con gái đâu!'
++	\L_05f13:
++	ZH 1:
++	'Mà những lời hỗn xược'
++	R
++	'ngươi nói với ngài'
++	R
++	'Camilla, tôi không tha!'
++	\L_05f13:
++	ZH 1:
++	'Tôi sẽ giết...'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Reincock thoát'
++	R
++	'khỏi người Rance.'
++	\L_05f13:
++	ZH 1:
++	'Giữa hai người, lưỡi'
++	R
++	'kiếm rít lên một tiếng.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'A...'
++	\L_05f13:
++	ZH 1:
++	'A a a a!!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -332,11 +322,11 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Rance cắt cánh'
+-	R
+-	'tay Phải Của Reincock.'
+-	R
+-	'thằng đồng tính!!'
++	'Cánh tay phải của'
++	R
++	'Reincock bị Rance chém'
++	R
++	'đứt. Rance「Đồ ẻo lả!!」'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -344,14 +334,14 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Uu... Khh...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Ta ghét bọn đồng'
+-	R
+-	'tính! Xuống địa ngục đi!!'
++	'Ư... ư ư...'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Ta ghét bọn ẻo lả! Mau'
++	R
++	'xuống địa ngục đi!!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -359,23 +349,23 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Chờ đã!'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Camilla chen vào'
+-	R
+-	'giữa Rance và Reincock.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Người anh muốn'
+-	R
+-	'là ta phải không? Hắn không'
+-	R
+-	'liên quan gì đến chuyện này.'
++	'Khoan!'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Camilla chen vào giữa'
++	R
++	'Rance và Reincock.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Thứ ngươi muốn là ta,'
++	R
++	'phải không? Vậy thì kẻ'
++	R
++	'này không liên quan.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -383,7 +373,7 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Cô Camilla...!!'
++	'Ngài Camilla...!!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -391,19 +381,17 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Bây giờ... Hãy đến.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'(riiip)'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla xé quần áo'
+-	R
+-	'của chính mình và để lộ cơ'
+-	R
+-	'thể trần trụi trước Rance.'
++	'Nào... đến đây.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'(Xoạc!)'
++	\L_05f13:
++	ZH 1:
++	'Camilla tự xé y phục, phơi'
++	R
++	'làn da trần trước Rance.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -411,16 +399,16 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Không! Dừng lại,'
+-	R
+-	'cô Camilla! Cô Camillaaaa!!'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Reincock kêu lên như'
+-	R
+-	'thể anh ta đang phát điên.'
++	'Không! Dừng lại, ngài'
++	R
++	'Camilla! Ngài Camillaaa!!'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Reincock gào khóc'
++	R
++	'như phát điên.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -428,7 +416,9 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'... Đừng nhìn, Reincock...'
++	'......Đừng nhìn...'
++	R
++	'Reincock...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -436,28 +426,26 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'... Aaa...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Gahahahaha! âng,'
+-	R
+-	'ta sống để ngủ với'
+-	R
+-	'những người phụ nữ tốt.'
+-	\L_05f13:
+-	ZH 1:
+-	'Ta không'
+-	R
+-	'biết hay quan tâm liệu người'
+-	R
+-	'đồng tính này sống hay chết.'
+-	\L_05f13:
+-	ZH 1:
+-	'vì Vậy, hãy để'
+-	R
+-	'ta đụ Mày, Camilla.'
++	'......A a......'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Gahaha!! Phải đấy.'
++	R
++	'Ôm gái đẹp là lẽ'
++	R
++	'sống của bản đại gia.'
++	\L_05f13:
++	ZH 1:
++	'Thằng ẻo lả sống chết'
++	R
++	'ra sao thì mặc kệ.'
++	\L_05f13:
++	ZH 1:
++	'Vậy thì cho ta ôm cô'
++	R
++	'nhé, Camilla cưng.'
+ 	\L_05f13:
+ 	ZH 1:
+ 	'Trước đó...'
+@@ -465,7 +453,7 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'(gssh)'
++	'(Phập!)'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	PF1 VAR0056:
+@@ -475,76 +463,76 @@
+ 	SS 24:
+ 	\L_05ece:
+ 	ZH 1:
+-	'Rance xiên Cánh Của Camilla.'
++	'Rance xiên kiếm ghim đôi cánh của Camilla.'
+ 	PF0 VAR0056:
+ 	\L_05f13:
+ *L_008cb:
+ 	ZH 1:
+-	'Rance 「đó là để đảm bảo mày không làm bất'
+-	R
+-	'cứ điều gì xấu trong khi chúng tao đụ.」'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla 「... Ta đã nói là ta sẽ làm điều đó...'
+-	\L_05f13:
+-	ZH 1:
+-	'Tôi sẽ không làm những điều thô lỗ như vậy đâu.」'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance 「tao thấy...'
+-	\L_05f13:
+-	ZH 1:
+-	'Tao đoán mày đã có rất nhiều niềm tự'
+-	R
+-	'hào là Một Trong Bốn Con Quỷ Ưu tú.」'
+-	\L_05f13:
+-	ZH 1:
+-	'Tốt lắm.」 với tốc độ của một cơn sóng thần,'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance kéo dây đai của mình và'
+-	R
+-	'bỏ quần và đồ lót của mình.'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla 「Cái gì...?」'
+-	\L_05f13:
+-	ZH 1:
+-	'Trước mắt Camilla là siêu vũ khí của Rance,'
+-	\L_05f13:
+-	ZH 1:
+-	'cao ngất ngưởng sau một thời gian ngắn.'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance 「mày có thể liếm vòi nước tuyệt vời của'
+-	\L_05f13:
+-	ZH 1:
+-	'tao với tất cả những niềm tự hào của mày?」'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance lắc hông và chĩa má Camilla'
+-	R
+-	'bằng siêu vũ khí của mình.'
+-	\L_05f13:
+-	ZH 1:
+-	'Camila 「............」'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla không run rẩy vì bị sỉ nhục mà thay vào'
+-	\L_05f13:
+-	ZH 1:
+-	'đó sẵn sàng nhét cặc của Rance vào miệng mình.'
+-	\L_05f13:
+-	ZH 1:
+-	'Cô không nhắm mắt lại, mà nhìn vào siêu'
+-	R
+-	'vũ khí Của Rance, rồi Mắt Của Rance,'
+-	\L_05f13:
+-	ZH 1:
+-	'và sau đó liếm hắn.'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance 「Hmph... Khá tốt cho một nữ hoàng.'
++	'Rance「Phải làm thế để lúc đang làm'
++	R
++	'cô không giở trò nguy hiểm được.」'
++	\L_05f13:
++	ZH 1:
++	'Camilla「......Ta đã nói ta sẽ làm......'
++	\L_05f13:
++	ZH 1:
++	'Ta không làm chuyện hèn hạ như vậy.」'
++	\L_05f13:
++	ZH 1:
++	'Rance「Ra vậy......'
++	\L_05f13:
++	ZH 1:
++	'Đã là một trong Tứ Thiên Vương ma nhân'
++	R
++	'thì lòng kiêu hãnh cũng khác người.'
++	\L_05f13:
++	ZH 1:
++	'Thế thì hay.」 Với tốc độ kinh hồn,'
++	\L_05f13:
++	ZH 1:
++	'Rance tháo thắt lưng, kéo tụt quần và quần lót.'
++	\L_05f13:
++	ZH 1:
++	'Camilla「Cái...」'
++	\L_05f13:
++	ZH 1:
++	'Thứ sừng sững hiện ra trước mắt Camilla'
++	\L_05f13:
++	ZH 1:
++	'là siêu vũ khí đã dựng đứng'
++	R
++	'sẵn chẳng cần chuẩn bị.'
++	\L_05f13:
++	ZH 1:
++	'Rance「Camilla cưng kiêu hãnh thế kia'
++	\L_05f13:
++	ZH 1:
++	'có dám liếm thứ tuyệt vời này'
++	R
++	'của bản đại gia không nhỉ?」'
++	\L_05f13:
++	ZH 1:
++	'Rance lắc hông, vỗ vỗ siêu vũ khí vào má Camilla.'
++	\L_05f13:
++	ZH 1:
++	'Camilla「......」'
++	\L_05f13:
++	ZH 1:
++	'Chẳng hề run lên vì nhục nhã,'
++	\L_05f13:
++	ZH 1:
++	'Camilla thản nhiên ngậm lấy vật của Rance.'
++	\L_05f13:
++	ZH 1:
++	'Không nhắm đôi long nhãn,'
++	R
++	'mắt nhìn thẳng vào mắt Rance,'
++	\L_05f13:
++	ZH 1:
++	'cô liếm siêu vũ khí ấy.'
++	\L_05f13:
++	ZH 1:
++	'Rance「Hừ... nữ hoàng mà khéo ra phết.'
+ 	\L_05f13:
+ 	ZH 1:
+ 	'Mày đã làm điều tương tự với'
+@@ -557,187 +545,183 @@
+ 	'giờ làm điều đó! Nàng... Nàng...」'
+ 	\L_05f13:
+ 	ZH 1:
+-	'Camilla 「Ta đã bảo anh đừng nhìn mà, Reincock...」'
+-	\L_05f13:
+-	ZH 1:
+-	'Anh đang phớt lờ mệnh lệnh của tôi mà...?」'
++	'Camilla「Ta đã bảo đừng nhìn mà... Reincock...'
++	\L_05f13:
++	ZH 1:
++	'Ngươi không nghe lệnh ta sao...?」'
++	\L_05f13:
++	ZH 1:
++	'Reincock「Ngài Camilla...!」'
++	\L_05f13:
++	ZH 1:
++	'Rance「Này này, đừng nói nữa,'
++	R
++	'liếm đi. Cả túi bi nữa.」'
++	\L_05f13:
++	ZH 1:
++	'Camilla「...!」'
++	\L_05f13:
++	ZH 1:
++	'Rance túm đầu Camilla, cố ấn siêu'
++	R
++	'vũ khí vào tận sâu trong cổ họng.'
++	\L_05f13:
++	ZH 1:
++	'Camilla「Ư... ưm...」'
++	\L_05f13:
++	ZH 1:
++	'Camilla liếm vật của Rance lên xuống,'
++	\L_05f13:
++	ZH 1:
++	'rồi đúng như hắn bảo, ngậm cả túi bi,'
++	\L_05f13:
++	ZH 1:
++	'dùng lưỡi đảo, khẽ cắn nhẹ.'
++	\L_05f13:
++	ZH 1:
++	'Rance「Ưm... được... Uống đi... này!」'
++	\L_05f13:
++	ZH 1:
++	'Camilla「...!」'
++	\L_05f13:
++	ZH 1:
++	'Rance giữ chặt đầu Camilla, sảng khoái xả ồ ạt.'
++	\L_05f13:
++	ZH 1:
++	'Rance「Phù... nhẹ người được chút...'
++	\L_05f13:
++	ZH 1:
++	'Đánh nhau giết chóc xong là siêu'
++	R
++	'vũ khí cũng hung hăng hơn mọi khi,'
++	\L_05f13:
++	ZH 1:
++	'gahahaha.」'
++	\L_05f13:
++	ZH 1:
++	'Camilla「Ưm... ư...」'
++	\L_05f13:
++	ZH 1:
++	'Rance không buông đầu, nên Camilla'
++	\L_05f13:
++	ZH 1:
++	'đành phải nuốt thứ tinh dịch'
++	R
++	'hắn xả ra xuống cổ họng.'
++	\L_05f13:
++	ZH 1:
++	'Thấy cổ họng Camilla đã chuyển động,'
++	\L_05f13:
++	ZH 1:
++	'Rance mới rút siêu vũ khí ra khỏi miệng cô.'
++	\L_05f13:
++	ZH 1:
++	'Rance「Nào, giờ mới là chính sự.'
++	R
++	'Ta cho vào đây, Camilla cưng.」'
++	\L_05f13:
++	ZH 1:
++	'Camilla「......Tùy ngươi......」'
++	\L_05f13:
++	ZH 1:
++	'Rance「Để xem...'
++	\L_05f13:
++	ZH 1:
++	'cánh đã bị ghim vào tường rồi,'
++	\L_05f13:
++	ZH 1:
++	'nên chắc chỉ làm được tư thế ngồi...'
++	\L_05f13:
++	ZH 1:
++	'thế cũng được. Gahahaha!」'
++	\L_05f13:
++	ZH 1:
++	'Camilla「A...!」'
++	\L_05f13:
++	ZH 1:
++	'Rance ngồi xuống, đặt Camilla lên đùi mình.'
++	\L_05f13:
++	ZH 1:
++	'Rance「Ưm... đàn bà gì to con thế.'
++	\L_05f13:
++	ZH 1:
++	'Thôi kệ,'
++	\L_05f13:
++	ZH 1:
++	'được bộ ngực đầy đặn ngay trước mặt. Ừm ừm.」'
++	\L_05f13:
++	ZH 1:
++	'Rance vùi mặt vào giữa ngực'
++	R
++	'Camilla, vòng tay ra sau mông.'
++	\L_05f13:
++	ZH 1:
++	'Camilla「......」'
++	\L_05f13:
++	ZH 1:
++	'Chẳng rõ không có cảm giác'
++	R
++	'hay sao, Camilla vẫn vô cảm.'
++	\L_05f13:
++	ZH 1:
++	'Rance「Gì thế này... chẳng ướt chút'
++	R
++	'nào... Làm gì đi chứ, Camilla cưng.」'
++	\L_05f13:
++	ZH 1:
++	'Camilla 「... Reincock...」'
++	\L_05f13:
++	ZH 1:
++	'Reincock 「Uu... Hick... Y-Vâng...?」'
++	\L_05f13:
++	ZH 1:
++	'Camilla 「Hãy hôn ta một cái...」'
++	\L_05f13:
++	ZH 1:
++	'Reincock 「Hả...?」'
++	\L_05f13:
++	ZH 1:
++	'Camilla 「Cơ thể của ta sẽ không'
++	R
++	'phản ứng với bất kỳ ai khác...」'
++	\L_05f13:
++	ZH 1:
++	'Reincock 「M-Cô Camilla?」'
++	\L_05f13:
++	ZH 1:
++	'Camilla 「Nào, Reincock...'
++	\L_05f13:
++	ZH 1:
++	'Miệng tôi bẩn thỉu vì cặc của'
++	R
++	'người đàn ông này, nhưng...」'
++	\L_05f13:
++	ZH 1:
++	'Reincock 「... N-Không!」'
++	\L_05f13:
++	ZH 1:
++	'Tôi sẽ hôn đôi môi của ngươi ngay cả khi'
++	R
++	'chúng độc và được bao phủ bởi gai...!」'
++	\L_05f13:
++	ZH 1:
++	'Reincock đàn áp vết thương từ cánh tay bị'
++	R
++	'mất của mình và loạng choạng đến Camilla.'
++	\L_05f13:
++	ZH 1:
++	'Reincock 「Cô Camilla... Tôi rất vui...」'
++	\L_05f13:
++	ZH 1:
++	'Camilla 「... Không cần phải nói nhiều nữa...'
++	\L_05f13:
++	ZH 1:
++	'Bây giờ, nụ hôn cuối cùng của chúng ta...」'
+ 	\L_05f13:
+ 	ZH 1:
+ 	'Reincock 「Cô Camilla...!」'
+ 	\L_05f13:
+ 	ZH 1:
+-	'Rance 「Này, đừng nói chuyện,'
+-	R
+-	'liếm. Quả bóng của tao, quá.」'
+-	\L_05f13:
+-	ZH 1:
+-	'Camila 「!」'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance nắm lấy Đầu Camilla và đẩy siêu vũ'
+-	R
+-	'khí của hắn vào sâu trong cổ họng cô.'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla 「Kh... Nngh...」'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla liếm lên xuống cự vật của Rance,'
+-	\L_05f13:
+-	ZH 1:
+-	'sau đó làm theo lời hắn và đưa quả bóng của hắn'
+-	\L_05f13:
+-	ZH 1:
+-	'vào miệng cô rồi dùng lưỡi cắn nhẹ và lăn chúng.'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance 「Mm... Được rồi... Uống đi... Đây!」'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla 「...!」'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance giữ Đầu Camilla tại'
+-	R
+-	'chỗ và xuất tinh trong miệng.'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance 「Haah... Đó là làm mới...'
+-	\L_05f13:
+-	ZH 1:
+-	'Siêu vũ khí của ta ồn ào hơn bình'
+-	R
+-	'thường sau tất cả những cuộc tàn sát đó.'
+-	\L_05f13:
+-	ZH 1:
+-	'Gahahahaha!.」'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla 「Ngh... Khh...」'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance không buông đầu ra nên Camilla'
+-	\L_05f13:
+-	ZH 1:
+-	'không thể ngăn tinh dịch chảy xuống cổ họng.'
+-	\L_05f13:
+-	ZH 1:
+-	'Sau khi xác nhận cổ họng của Camilla cử động,'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance rút siêu vũ khí của hắn ra khỏi miệng cô.'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance 「Bây giờ chúng tao thực sự bắt'
+-	R
+-	'đầu. Tao đang đưa Nó Vào, Camilla.」'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla 「... Hãy làm những gì ngươi muốn...」'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance 「hãy xem...」'
+-	\L_05f13:
+-	ZH 1:
+-	'Cánh của ngươi được ghim vào tường,'
+-	\L_05f13:
+-	ZH 1:
+-	'vì vậy chúng tôi chỉ có thể thực sự'
+-	R
+-	'làm điều đó trong khi ngươi ngồi.'
+-	\L_05f13:
+-	ZH 1:
+-	'Không sao đâu. Gahahahaha!」'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla 「À...!」'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance ngồi Xuống và đặt Camilla trên đầu gối.'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance 「Mmgh... Mày khá lớn.'
+-	\L_05f13:
+-	ZH 1:
+-	'Vâng, bất cứ điều gì,'
+-	\L_05f13:
+-	ZH 1:
+-	'điều đó có nghĩa là ta đã có bộ ngực'
+-	R
+-	'đầy đặn ngay trên khuôn mặt của ta.」'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance dán mặt vào giữa Ngực'
+-	R
+-	'Camilla và đặt tay quanh mông cô.'
+-	\L_05f13:
+-	ZH 1:
+-	'Camila 「............」'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla vẫn vô cảm. Không'
+-	R
+-	'biết cô có cảm thấy gì không.'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance 「cái quái Gì Vậy? Mày không ướt'
+-	R
+-	'chút nào... Làm gì Đó Đi, Camilla.」'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla 「... Reincock...」'
+-	\L_05f13:
+-	ZH 1:
+-	'Reincock 「Uu... Hick... Y-Vâng...?」'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla 「Hãy hôn ta một cái...」'
+-	\L_05f13:
+-	ZH 1:
+-	'Reincock 「Hả...?」'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla 「Cơ thể của ta sẽ không'
+-	R
+-	'phản ứng với bất kỳ ai khác...」'
+-	\L_05f13:
+-	ZH 1:
+-	'Reincock 「M-Cô Camilla?」'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla 「Nào, Reincock...'
+-	\L_05f13:
+-	ZH 1:
+-	'Miệng tôi bẩn thỉu vì cặc của'
+-	R
+-	'người đàn ông này, nhưng...」'
+-	\L_05f13:
+-	ZH 1:
+-	'Reincock 「... N-Không!」'
+-	\L_05f13:
+-	ZH 1:
+-	'Tôi sẽ hôn đôi môi của ngươi ngay cả khi'
+-	R
+-	'chúng độc và được bao phủ bởi gai...!」'
+-	\L_05f13:
+-	ZH 1:
+-	'Reincock đàn áp vết thương từ cánh tay bị'
+-	R
+-	'mất của mình và loạng choạng đến Camilla.'
+-	\L_05f13:
+-	ZH 1:
+-	'Reincock 「Cô Camilla... Tôi rất vui...」'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla 「... Không cần phải nói nhiều nữa...'
+-	\L_05f13:
+-	ZH 1:
+-	'Bây giờ, nụ hôn cuối cùng của chúng ta...」'
+-	\L_05f13:
+-	ZH 1:
+-	'Reincock 「Cô Camilla...!」'
+-	\L_05f13:
+-	ZH 1:
+ 	'Reincock đưa mặt lại gần và từ từ hôn cô.'
+ 	\L_05f13:
+ 	ZH 1:
+@@ -770,136 +754,130 @@
+ 	'Đủ rồi, queer!」 po pof）'
+ 	\L_05f13:
+ 	ZH 1:
+-	'Reincock 「Ah...!」'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance đẩy Reincock đi.'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla 「Reincock...!!... À... Kh!!」'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance đâm siêu vũ khí của hắn Vào'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla trong khi cô tập trung Vào Reincock.'
+-	\L_05f13:
+-	ZH 1:
+-	'cô lớn so với một phụ nữ là con người,'
+-	\L_05f13:
+-	ZH 1:
+-	'nhưng cô cảm thấy bên trong chặt chẽ hơn.'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance 「Gahahahaha! Bây giờ di'
+-	R
+-	'chuyển, và tao cũng sẽ di chuyển.」'
+-	\L_05f13:
+-	ZH 1:
+-	'Camila 「........」'
+-	\L_05f13:
+-	ZH 1:
+-	'Hông của Camilla lắc lư. Nhưng Rance'
+-	R
+-	'di chuyển với sức mạnh gấp đôi cô.'
+-	\L_05f13:
+-	ZH 1:
+-	'Nếu ngươi để ý, sẽ có vẻ như'
+-	R
+-	'Rance đang lay chuyển Camilla.'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance 「Gahahahaha!! Cảm'
+-	R
+-	'thấy tuyệt Vời, Camilla. Tốt!!」'
+-	\L_05f13:
+-	ZH 1:
+-	'Camila 「............」'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance 「Này, mày đang làm cho điều'
+-	R
+-	'này nhàm chán, rên rỉ nhiều hơn.」'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance đẩy hông về phía trước và cắn'
+-	R
+-	'một trong những núm Vú Của Camilla.'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla 「Kh... Ah...」'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla rên rỉ đau đớn.'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance 「Vâng, như thế. Mày cần một'
+-	R
+-	'số lạm dụng để có được rên rỉ?'
+-	\L_05f13:
+-	ZH 1:
+-	'Tao thấy, mày là một masochist.」'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance đẩy Sâu Vào Bên Trong'
+-	R
+-	'Camilla và vặn vẹo hông.'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla 「...!!」'
+-	\L_05f13:
+-	ZH 1:
+-	'Cơ thể của Camilla nhảy dựng lên.'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance 「Hm, đoán mày đã có điểm dễ'
+-	R
+-	'thương của mày về mày. Tốt, Camilla.」'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance cười khinh bỉ và lao thẳng vào cô.'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla 「Kh... Uuu!」'
+-	\L_05f13:
+-	ZH 1:
+-	'Mỗi lần Rance di chuyển,'
+-	\L_05f13:
+-	ZH 1:
+-	'chiếc cánh bị đâm của cô lại bị thanh kiếm xé'
+-	\L_05f13:
+-	ZH 1:
+-	'nát. Camilla thậm chí còn mất nhiều quyền lực hơn.'
+-	\L_05f13:
+-	ZH 1:
+-	'Trước những đòn tấn công của Rance và thanh kiếm,'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla nhanh chóng kiệt sức'
+-	R
+-	'đến mức không thể cử động.'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance 「Mm Mm Mm Được Rồi... Sẽ kiêm.'
+-	R
+-	'Tao sẽ kiêm bên trong một con quỷ.'
+-	\L_05f13:
+-	ZH 1:
+-	'Gooooooooo!!」'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance thậm chí còn di chuyển'
+-	R
+-	'nhiều hơn bên Trong Camilla.'
+-	\L_05f13:
+-	ZH 1:
+-	'Camilla 「À...!」'
++	'Reincock「A...!」'
++	\L_05f13:
++	ZH 1:
++	'Rance hất văng Reincock ra.'
++	\L_05f13:
++	ZH 1:
++	'Camilla「Reincock...!! ...ư... a... ư!!」'
++	\L_05f13:
++	ZH 1:
++	'Nhân lúc Camilla đang mải lo cho Reincock,'
++	\L_05f13:
++	ZH 1:
++	'Rance ép vào trong cô.'
++	\L_05f13:
++	ZH 1:
++	'Thân hình to lớn hơn đàn bà loài người,'
++	\L_05f13:
++	ZH 1:
++	'nhưng bên trong Camilla có chỗ'
++	R
++	'còn chật hơn cả đàn bà thường.'
++	\L_05f13:
++	ZH 1:
++	'Rance「Gahaha!! Nào, động đi,'
++	R
++	'bản đại gia cũng động đây.」'
++	\L_05f13:
++	ZH 1:
++	'Camilla「......」'
++	\L_05f13:
++	ZH 1:
++	'Hông Camilla lắc lư. Nhưng'
++	R
++	'Rance động mạnh gấp mấy lần.'
++	\L_05f13:
++	ZH 1:
++	'Nhìn từ ngoài, trông như Camilla'
++	R
++	'đang bị Rance lắc qua lắc lại.'
++	\L_05f13:
++	ZH 1:
++	'Rance「Gahahaha!! Sướng'
++	R
++	'lắm, Camilla cưng. Tuyệt!!」'
++	\L_05f13:
++	ZH 1:
++	'Camilla「......」'
++	\L_05f13:
++	ZH 1:
++	'Rance「Này, chán quá, rên lên đi chứ, rên đi.」'
++	\L_05f13:
++	ZH 1:
++	'Rance càng thúc hông lên, rồi'
++	R
++	'cắn vào đầu nhũ hoa Camilla.'
++	\L_05f13:
++	ZH 1:
++	'Camilla「Ư... a...」'
++	\L_05f13:
++	ZH 1:
++	'Camilla bật tiếng đau đớn.'
++	\L_05f13:
++	ZH 1:
++	'Rance「Phải, phải, thế đấy.'
++	R
++	'Bị hành mới chịu rên à?'
++	\L_05f13:
++	ZH 1:
++	'Ra vậy, hóa ra là thích bị ngược.」'
++	\L_05f13:
++	ZH 1:
++	'Rance vào sâu trong Camilla, uốn éo hông.'
++	\L_05f13:
++	ZH 1:
++	'Camilla「...!!」'
++	\L_05f13:
++	ZH 1:
++	'Cơ thể Camilla giật nảy lên.'
++	\L_05f13:
++	ZH 1:
++	'Rance「Hừ, cũng có chỗ dễ thương'
++	R
++	'đấy chứ. Được lắm, Camilla cưng.」'
++	\L_05f13:
++	ZH 1:
++	'Cười khẩy xong, Rance chuyển sang thúc liên hồi.'
++	\L_05f13:
++	ZH 1:
++	'Camilla「Ư... ư ư!」'
++	\L_05f13:
++	ZH 1:
++	'Mỗi lần Rance chuyển động,'
++	\L_05f13:
++	ZH 1:
++	'đôi cánh bị kiếm ghim lại rách thêm.'
++	\L_05f13:
++	ZH 1:
++	'Sức lực Camilla càng lúc càng cạn.'
++	\L_05f13:
++	ZH 1:
++	'Bị Rance dày vò, bị lưỡi kiếm dày vò...'
++	\L_05f13:
++	ZH 1:
++	'chẳng mấy chốc Camilla rũ ra, không động đậy nữa.'
++	\L_05f13:
++	ZH 1:
++	'Rance「......Ưm... được... ra'
++	R
++	'đây. Xuất vào trong ma nhân.'
++	\L_05f13:
++	ZH 1:
++	'Ra nàoooo!!」'
++	\L_05f13:
++	ZH 1:
++	'Rance càng chuyển động mạnh trong Camilla.'
++	\L_05f13:
++	ZH 1:
++	'Camilla「A......!」'
+ 	\L_05f13:
+ 	{VAR0520 = 301:
+ 		%0:
+ 	}
+ 	ZH 1:
+-	'Rance 「... Haah... Đó là tốt...」'
++	'Rance「......Phù...... đã quá......」'
+ 	\L_05f13:
+ 	PF1 VAR0056:
+ 	\L_05f06:
+@@ -915,7 +893,9 @@
+ 	\L_05eb2:
+ 	\L_05dee:
+ 	ZH 1:
+-	'cảm thấy tốt, Camilla.'
++	'Ngon lành lắm'
++	R
++	'đấy, Camilla cưng.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05e5e:
+@@ -925,17 +905,15 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Trong Khi Camilla hoàn'
+-	R
+-	'toàn kiệt sức và vẫn bị'
+-	\L_05f13:
+-	ZH 1:
+-	'đâm bởi thanh kiếm'
+-	R
+-	'trong cánh của cô,'
+-	\L_05f13:
+-	ZH 1:
+-	'Rance đã mặc quần áo.'
++	'Rance đã chỉnh tề quần áo,'
++	\L_05f13:
++	ZH 1:
++	'còn Camilla vẫn'
++	R
++	'bị kiếm ghim cánh,'
++	\L_05f13:
++	ZH 1:
++	'rũ rượi bất động.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -943,24 +921,22 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Cô Camilla...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Đừng di'
+-	R
+-	'chuyển, đồ dị hợm!!'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'À!!'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Rance đá Reincock đi.'
++	'Ngài Camilla......'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Đừng có động đậy! Đồ ẻo lả!!'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'A!!'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Rance đá văng Reincock.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -968,61 +944,59 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Dừng lại...!'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Aah, đúng'
+-	R
+-	'rồi. Hãy là người phụ'
+-	R
+-	'nữ của ta, Camilla.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Cái gì...?'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Tứ Yêu Tinh Anh phải'
+-	R
+-	'là một người phụ nữ tốt.'
+-	\L_05f13:
+-	ZH 1:
+-	'Ta cảm thấy'
+-	R
+-	'cô sẽ thực sự hữu ích với'
+-	R
+-	'tư cách là một đồng minh.'
+-	\L_05f13:
+-	ZH 1:
+-	'Nếu cô từ chối, ta'
+-	R
+-	'sẽ giết kẻ đồng tính.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'............ ngươi yêu'
+-	R
+-	'hắn, phải không? Nếu vậy...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'... Nhưng nếu'
+-	R
+-	'ta đi... Cậu sẽ không'
+-	R
+-	'thể nói được điều đó!'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Cái gì...?'
++	'Dừng lại......!'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'À, phải rồi. Cứ thế làm đàn'
++	R
++	'bà của ta đi, Camilla cưng.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Cái gì......'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Là Tứ Thiên Vương ma'
++	R
++	'nhân, lại là gái đẹp.'
++	\L_05f13:
++	ZH 1:
++	'Có cô làm đồng'
++	R
++	'minh thì lời to.'
++	\L_05f13:
++	ZH 1:
++	'Nếu cô từ chối...'
++	R
++	'ta giết thằng ẻo lả.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'............ Rance「Cô'
++	R
++	'thương thằng này'
++	R
++	'chứ gì? Vậy thì...」'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'......Nếu ta không'
++	R
++	'còn nữa... ngươi đâu'
++	R
++	'còn nói thế được!'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Cái gì......'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -1030,17 +1004,19 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'S-Dừng Lại!! Cô Camilla!!'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'(gsssh)'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Cô Camillaaaaaa!!'
++	'Kh... không được!!'
++	R
++	'Ngài Camilla!!'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'(Phập!)'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Ngài Camillaaa!!'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -1048,38 +1024,38 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Ặc...!!'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Camilla rút thanh kiếm'
+-	R
+-	'cắm trên cánh của mình ra.'
+-	\L_05f13:
+-	ZH 1:
+-	'sau đó, cô chôn'
+-	R
+-	'nó sâu trong ngực.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Đồ ngốc...!!'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Kh... Gahahahaha! Bây'
+-	R
+-	'giờ ta sẽ biến mất...'
+-	\L_05f13:
+-	ZH 1:
+-	'Ngươi sẽ không thể biến'
+-	R
+-	'ta thành của ngươi... Và...'
+-	R
+-	'Reincock... cũng vậy...'
++	'Hự......!!'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Camilla rút thanh kiếm của'
++	R
++	'Rance đang ghim trên cánh,'
++	\L_05f13:
++	ZH 1:
++	'rồi đâm sâu mũi'
++	R
++	'kiếm vào ngực mình.'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Đồ ngu......!!'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Khục... khục khục! Thế'
++	R
++	'là ta sẽ tiêu biến......'
++	\L_05f13:
++	ZH 1:
++	'Ngươi không thể biến ta'
++	R
++	'thành của ngươi... và...'
++	R
++	'cả Reincock... cũng...'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -1087,47 +1063,47 @@
+ 	\L_05eb2:
+ 	\L_05e5e:
+ 	ZH 1:
+-	'Không!! Cô'
+-	R
+-	'Camilla!! Cô Camillaaaa!'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Camilla biến mất trước'
+-	R
+-	'mắt Rance và Reincock.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e5e:
+-	ZH 1:
+-	'Không... Không...'
+-	R
+-	'Đây... Đây là...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Reincock bò đến'
+-	R
+-	'Nơi Camilla đang ở, đối'
+-	R
+-	'mặt với sàn nhà và khóc.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'... Hmph... Khập khiễng...'
+-	\L_05f13:
+-	ZH 1:
+-	'Lâu quá.'
+-	\L_05f13:
+-	ZH 1:
+-	'khi công việc kinh doanh'
+-	R
+-	'của mình kết thúc, Rance'
+-	R
+-	'rời lâu đài Của Camilla.'
++	'Khônggg!! Ngài Camilla!!'
++	R
++	'Ngài Camillaaa!'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Bóng hình Camilla tan'
++	R
++	'biến trước mắt hai người.'
++	\L_05f13:
++	\L_05f06:
++	\L_05e5e:
++	ZH 1:
++	'Không... không đâu......'
++	R
++	'Thế này...... thế này......'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Reincock bò tới chỗ'
++	R
++	'Camilla vừa ở, gục'
++	R
++	'xuống sàn mà gào khóc.'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'......Hừ......'
++	R
++	'Chán phèo......'
++	\L_05f13:
++	ZH 1:
++	'Tạm biệt.'
++	\L_05f13:
++	ZH 1:
++	'Xong việc, Rance rời'
++	R
++	'khỏi lâu đài của Camilla.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	\L_05ec0:
+@@ -1147,73 +1123,71 @@
+ 	\L_05f06:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Không rõ số giờ sau đó.'
+-	\L_05f13:
+-	ZH 1:
+-	'Reincock, một biểu cảm'
+-	R
+-	'trống rỗng trên khuôn mặt,'
+-	\L_05f13:
+-	ZH 1:
+-	'là người duy nhất'
+-	R
+-	'còn lại trong lâu đài.'
++	'Chẳng biết bao'
++	R
++	'lâu đã trôi qua.'
++	\L_05f13:
++	ZH 1:
++	'Chỉ còn Reincock với'
++	R
++	'gương mặt trống rỗng'
++	\L_05f13:
++	ZH 1:
++	'ở lại trong lâu đài.'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	!VAR0516 : 442!
+ 	\L_05e42:
+ 	\L_05dee:
+ 	ZH 1:
+-	'Cô Camilla...'
++	'Ngài Camilla......'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	!VAR0516 : 492!
+ 	\L_05eb2:
+ 	\L_05e26:
+ 	ZH 1:
+-	'Linh hồn'
+-	R
+-	'máu quỷ của Camilla nằm'
+-	R
+-	'trong tay trái của chàng.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Đi tắm thôi... Anh'
+-	R
+-	'sẽ cho loại dầu có mùi hoa'
+-	R
+-	'hồng mà em rất thích vào...'
+-	\L_05f13:
+-	ZH 1:
+-	'Tôi sẽ chuẩn'
+-	R
+-	'bị nó ngay lập tức.'
+-	R
+-	'Xin hãy đợi ở đây...'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05e26:
+-	ZH 1:
+-	'Reincock nhẹ nhàng đặt'
+-	R
+-	'linh hồn máu quỷ xuống đệm.'
+-	\L_05f13:
+-	\L_05f06:
+-	\L_05dee:
+-	ZH 1:
+-	'Anh yêu em,'
+-	R
+-	'cô Camilla... Em là người'
+-	R
+-	'duy nhất dành cho anh...'
+-	\L_05f13:
+-	ZH 1:
+-	'Huhu...'
+-	\L_05f13:
+-	ZH 1:
+-	'Huhuhuhu...'
++	'Trên lòng bàn tay trái'
++	R
++	'của Reincock là ma huyết'
++	R
++	'hồn từng là Camilla.'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Ta đi tắm nhé...... Tôi'
++	R
++	'sẽ cho thêm dầu thơm hoa'
++	R
++	'hồng ngài thích nhất......'
++	\L_05f13:
++	ZH 1:
++	'Tôi chuẩn bị ngay đây......'
++	R
++	'Xin ngài đợi ở đây nhé......'
++	\L_05f13:
++	\L_05f06:
++	\L_05e26:
++	ZH 1:
++	'Reincock dịu dàng đặt ma'
++	R
++	'huyết hồn lên tấm đệm.'
++	\L_05f13:
++	\L_05f06:
++	\L_05dee:
++	ZH 1:
++	'Tôi yêu ngài... ngài'
++	R
++	'Camilla...... Người'
++	R
++	'duy nhất của tôi...'
++	\L_05f13:
++	ZH 1:
++	'Hừ hừ......'
++	\L_05f13:
++	ZH 1:
++	'Hừ hừ hừ hừ......'
+ 	\L_05f13:
+ 	\L_05f06:
+ 	!VAR0516 : 0!

@@ -1,0 +1,10746 @@
+--- before/Gﾏｼﾞｯｸ.ADV
++++ src/Gﾏｼﾞｯｸ.ADV
+@@ -60,31 +60,37 @@
+ 	R
+ 	'Sân trong'
+ 	R
+-	'Hmmmmmmmmmmmmmm...'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Magic ngồi dưới bóng cây, ôm'
+-	R
+-	'một xấp giấy,'
+-	\L_07243:
+-	ZH 1:
+-	'trầm ngâm mãi.'
+-	\L_07243:
+-	ZH 1:
+-	'Đó là câu trả lời của một'
+-	\L_07243:
+-	ZH 1:
+-	'số thuộc hạ trong cuộc khảo'
+-	R
+-	'sát nàng thực'
+-	\L_07243:
+-	ZH 1:
+-	'hiện: ［Bạn'
+-	\L_07243:
+-	ZH 1:
+-	'nghĩ gì về vua Rance?］'
++	'Ừmmmmmmmmm......'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Magic ngồi dưới bóng'
++	R
++	'cây, cứ nghiêng đầu'
++	\L_07243:
++	ZH 1:
++	'mãi mà rên rỉ. Trong tay'
++	R
++	'nàng là một xấp giấy.'
++	\L_07243:
++	ZH 1:
++	'Đó là phiếu trả lời'
++	R
++	'cuộc thăm dò ý kiến'
++	\L_07243:
++	ZH 1:
++	'Magic tiến hành với'
++	R
++	'một số thuộc hạ.'
++	\L_07243:
++	ZH 1:
++	'Câu hỏi khảo sát là......'
++	\L_07243:
++	ZH 1:
++	'［Bạn nghĩ gì'
++	R
++	'về Vua Rance?］'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0154 : 2!
+@@ -93,12 +99,11 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Ừm... em muốn ở'
+-		R
+-		'bên ngài mãi mãi.'
+-		R
+-		R
+-		'（Nô lệ - Sill）'
++		'Dạ... em muốn... được'
++		R
++		'ở bên ngài... mãi'
++		R
++		'mãi. （Nô lệ - Sill）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -110,14 +115,12 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Ngài ấy hay bày bừa, lại ăn'
+-		R
+-		'vặt suốt nên tôi'
+-		\L_07243:
+-		ZH 1:
+-		'luôn bận rộn. Nhưng cũng'
+-		R
+-		'đáng để chăm sóc lắm. （Hầu'
++		'Ngài hay bày bừa, lại hay'
++		R
++		'ăn vặt, nên rất đáng công'
++		\L_07243:
++		ZH 1:
++		'chăm sóc ạ. （Hầu'
+ 		R
+ 		'gái - Wendy）'
+ 		\L_07243:
+@@ -130,9 +133,9 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'^ ^ O v O'
+-		R
+-		'” _ (Pháp sư - Asuka)'
++		'（Vẽ một khuôn mặt nguệch'
++		R
++		'ngoạc） （Pháp sư - Asuka）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -143,19 +146,17 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Thật vinh dự khi'
+-		R
+-		'được làm việc cho một'
+-		R
+-		'vị vua vĩ đại như vậy.'
+-		\L_07243:
+-		ZH 1:
+-		'Đó chỉ là sự tán'
+-		R
+-		'tỉnh của hắn mà thôi...'
+-		\L_07243:
+-		ZH 1:
+-		'（Tướng đen - Barres）'
++		'Được phục vụ một vị'
++		R
++		'vua vĩ đại như thế,'
++		\L_07243:
++		ZH 1:
++		'thật vinh hạnh vô cùng.'
++		R
++		'Chỉ có tật mê gái là...'
++		\L_07243:
++		ZH 1:
++		'（Tướng Hắc Quân - Barres）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -166,14 +167,11 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Tôi nghĩ hắn'
+-		R
+-		'luôn được định sẵn để'
+-		R
+-		'trở thành một vị vua.'
+-		R
+-		R
+-		'（Tướng đỏ - Rick）'
++		'Tôi nghĩ ngài là người'
++		R
++		'sinh ra để làm vua.'
++		R
++		'（Tướng Xích Quân - Rick）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -186,9 +184,11 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Tôi... chẳng có gì để nói.'
+-		R
+-		'（Tướng quân - Relyukov）'
++		'Lão phu...... không'
++		R
++		'có gì để nói. （Tướng'
++		R
++		'quân - Lelyukov）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -198,12 +198,9 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Đừng hỏi một câu'
+-		R
+-		'hỏi khó chịu như vậy.'
+-		R
+-		R
+-		'（Bí danh - K）'
++		'Đừng hỏi chuyện khó chịu'
++		R
++		'thế. （Giấu tên - cô K）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -213,14 +210,11 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Anh Rance chẳng'
+-		R
+-		'dịu dàng với em chút nào! Em'
+-		R
+-		'không thể tin được anh, pth!!'
+-		R
+-		R
+-		'（Bà chủ - Saulnia）'
++		'Chẳng dịu dàng với Saulnia'
++		R
++		'gì cả! Không tin nổi,'
++		R
++		'hứ!! （Thị thiếp - Saulnia）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -230,11 +224,9 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'... Hắn mang bia cho tôi.'
+-		R
+-		R
+-		R
+-		'（Bà chủ - Raylee）'
++		'......Mang rượu đây,'
++		R
++		'rượu. （Thị thiếp - Raylee）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -247,9 +239,9 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Một gã xấc xược. Phải đề'
+-		R
+-		'phòng hắn. （Hanty Kalar）'
++		'Tên vô lễ. Không thể lơ'
++		R
++		'là được. （Hanty Kalar）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -260,12 +252,12 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Không hiểu rõ lắm, nhưng tôi'
+-		R
+-		'nghĩ hắn rất giỏi. （Võ sĩ -'
+-		\L_07243:
+-		ZH 1:
+-		'Patton）'
++		'Chẳng hiểu rõ lắm, nhưng'
++		R
++		'tôi nghĩ là một gã ghê gớm.'
++		\L_07243:
++		ZH 1:
++		'（Võ sĩ - Patton）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -276,17 +268,17 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Ngay cả tôi cũng không'
+-		R
+-		'thể biết được liệu ngài sắc'
+-		\L_07243:
+-		ZH 1:
+-		'sảo đến kinh ngạc hay chỉ'
+-		R
+-		'là một tên ngốc.（Hiệp sĩ -'
+-		\L_07243:
+-		ZH 1:
+-		'Aristoles）'
++		'Đầu óc sắc bén đáng'
++		R
++		'sợ, hay chỉ là kẻ ngốc,'
++		\L_07243:
++		ZH 1:
++		'đến tôi cũng khó'
++		R
++		'mà phán đoán.'
++		\L_07243:
++		ZH 1:
++		'（Hiệp sĩ - Aristoles）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -297,11 +289,7 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Chà... Hắn là một'
+-		R
+-		'chàng trai khá đấy.'
+-		R
+-		R
++		'Chà... gã ghê thật.'
+ 		R
+ 		'（Chiến binh - Hubert）'
+ 		\L_07243:
+@@ -316,16 +304,11 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Rance không'
+-		R
+-		'giỏi với màu cam～～'
+-		R
+-		'Lula～～, maaaaarvelooooous.'
+-		R
+-		R
+-		'（Thị trưởng sao'
+-		R
+-		'Hỏa - Sao Hỏa vĩ đại）'
++		'Gã màu cam đáng ghét'
++		R
++		'ghê～ Rura～ marvelous～'
++		R
++		'（Đại vương Hỏa Tinh）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -336,18 +319,18 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Ngài ấy đã cho tôi niềm vui'
+-		R
+-		'sống bên người phụ nữ mình'
+-		R
+-		'yêu.'
+-		\L_07243:
+-		ZH 1:
+-		'Người tốt lắm, touchdown!'
+-		R
+-		'（Tướng quân - Gengorou'
+-		R
+-		'Shinoda）'
++		'Chà, ngài đã cho tôi'
++		R
++		'niềm vui được sống cùng'
++		R
++		'người phụ nữ mình yêu.'
++		\L_07243:
++		ZH 1:
++		'Người tốt lắm,'
++		R
++		'touchdooown! （Tướng'
++		R
++		'quân - Shinoda Gengorou）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -357,11 +340,11 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Trả tiền rất hào phóng, dù'
+-		R
+-		'vẫn còn trẻ con lắm. （Ninja'
+-		R
+-		'- Freya）'
++		'Trả tiền rất sộp đấy.'
++		R
++		'Có điều vẫn là nhóc'
++		R
++		'con. （Ninja - Freya）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -371,16 +354,16 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Uuuum~. Huyết'
+-		R
+-		'áp bình thường～...'
+-		R
+-		'Mạch bình thường～...'
+-		\L_07243:
+-		ZH 1:
+-		'Hắn rất khỏe'
+-		R
+-		'mạnh～～.（Bác sĩ - Aya）'
++		'Ưm～... huyết áp'
++		R
++		'bình thường～... mạch'
++		R
++		'cũng bình thường～...'
++		\L_07243:
++		ZH 1:
++		'Rất khỏe mạnh ạ～～.'
++		R
++		'（Bác sĩ riêng - Aya）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -392,17 +375,17 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Lúc trước hắn đã'
+-		R
+-		'cứu tôi khỏi bọn lưu manh...'
+-		R
+-		'Nhưng sau đó... Ừm...'
+-		\L_07243:
+-		ZH 1:
+-		'Hai lần, hắn...'
+-		\L_07243:
+-		ZH 1:
+-		'（Bí danh - Y）'
++		'Hôm trước tôi bị bọn côn'
++		R
++		'đồ quấy, được ngài cứu...'
++		\L_07243:
++		ZH 1:
++		'Nhưng sau đó...'
++		R
++		'thì... 2 lần......'
++		\L_07243:
++		ZH 1:
++		'（Giấu tên - cô Y）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -412,16 +395,16 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Hay ăn vụng lắm. Nhưng hôm'
+-		R
+-		'nọ cung điện gửi tiền cảm ơn'
+-		R
+-		'đến. Có thật là'
+-		\L_07243:
+-		ZH 1:
+-		'nhà vua gửi không nhỉ? （Chủ'
+-		R
+-		'tiệm bánh kẹo S）'
++		'Hay bị ăn vụng lắm.'
++		R
++		'Nhưng hôm trước, trong'
++		R
++		'thành có gửi tiền cảm ơn.'
++		\L_07243:
++		ZH 1:
++		'Có thật là của nhà vua không'
++		R
++		'nhỉ? （Chủ tiệm kẹo - bà S）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -431,15 +414,17 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Đàn em tao đã thành mồi cho'
+-		R
+-		'kiếm hắn. Dù thằng đó'
+-		\L_07243:
+-		ZH 1:
+-		'có hư hỏng đến đâu đi nữa...'
+-		\L_07243:
+-		ZH 1:
+-		'（Tên du côn M）'
++		'Thằng đàn em của tao đã'
++		R
++		'thành rỉ trên lưỡi kiếm đấy.'
++		\L_07243:
++		ZH 1:
++		'Dù nó có là đồ'
++		R
++		'xấu xa đi nữa...'
++		\L_07243:
++		ZH 1:
++		'（Côn đồ - anh M）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -449,11 +434,11 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Ơ... （Run lẩy bẩy） Vua'
+-		R
+-		'tuyệt vời. （Lính Lục Quân'
+-		R
+-		'P）'
++		'Tôi chẳng dám nói gì...'
++		R
++		'(run cầm cập) Vua tuyệt'
++		R
++		'vời ạ. （Lục Quân - anh P）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -466,14 +451,11 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Hãy dừng'
+-		R
+-		'việc vô nghĩa này lại và làm'
+-		R
+-		'việc cho Vua Rance, Magic!!'
+-		R
+-		R
+-		'（Nô lệ tình yêu- Chizuko）'
++		'Đừng làm trò vớ vẩn, lo'
++		R
++		'làm việc cho Vua Rance'
++		R
++		'đi, Magic!! （Chizuko）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -484,13 +466,9 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'... Tôi không biết.'
+-		R
+-		R
+-		R
+-		'（Cựu Tứ Đại Lãnh Chúa Zeth'
+-		R
+-		'- Nagi）'
++		'......Không hiểu. （Cựu Tứ'
++		R
++		'Đại Lãnh Chúa Zeth - Nagi）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -501,19 +479,19 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Vua Rance chính là anh hùng,'
+-		R
+-		'vị'
+-		\L_07243:
+-		ZH 1:
+-		'vua của nhân loại xuất hiện'
+-		R
+-		'giữa thời loạn người và quái'
+-		R
+-		'vật. Ngài là cứu tinh! （Cựu'
+-		\L_07243:
+-		ZH 1:
+-		'vương Zeth - Gandhi）'
++		'Vua Rance chính là dũng giả.'
++		\L_07243:
++		ZH 1:
++		'Vị vua của nhân loại xuất'
++		R
++		'hiện giữa thời loạn người'
++		R
++		'và ma vật, là đấng cứu thế.'
++		\L_07243:
++		ZH 1:
++		'（Cựu quốc vương'
++		R
++		'Zeth - Gandhi）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -523,14 +501,14 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Cậu có bộ ngực'
+-		R
+-		'quyến rũ. Tôi muốn mổ xẻ'
+-		R
+-		'cậu, heeheeheeheehee...'
+-		\L_07243:
+-		ZH 1:
+-		'（Nhà nghiên cứu'
++		'Lồng ngực gợi cảm ghê～.'
++		R
++		'Muốn mổ xẻ thử quá,'
++		R
++		'khúc khích khích......'
++		\L_07243:
++		ZH 1:
++		'（Nghiên cứu viên'
+ 		R
+ 		'không lương - Papaya）'
+ 		\L_07243:
+@@ -545,14 +523,14 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Ừm, ahaha...'
+-		\L_07243:
+-		ZH 1:
+-		'Rance không tệ lắm. Có một'
+-		R
+-		'số điểm tốt ở cậu ấy.（Nhà'
+-		R
+-		'nghiên cứu - Maria）'
++		'Ưm, ahaha......'
++		\L_07243:
++		ZH 1:
++		'Hắn không đến nỗi tệ'
++		R
++		'đâu. Cũng có chỗ tốt...'
++		R
++		'chút chút. （Maria）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -563,9 +541,9 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Vua ngốc. （Pháp sư -'
+-		R
+-		'Shizuka Masou）'
++		'Vua ngốc. （Pháp'
++		R
++		'sư - Shizuka）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -576,21 +554,17 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Hắn cần phải'
+-		R
+-		'cải thiện một chút...'
+-		\L_07243:
+-		ZH 1:
+-		'Theo một cách nào đó,'
+-		R
+-		'nếu ngươi hiểu ý tôi.'
+-		\L_07243:
+-		ZH 1:
+-		'Toàn sủa và'
+-		R
+-		'không cắn.（Đối thủ'
+-		R
+-		'tình dục - Milli）'
++		'Phải khỏe hơn chút nữa...'
++		\L_07243:
++		ZH 1:
++		'chuyện đó ấy.'
++		\L_07243:
++		ZH 1:
++		'Kiểu nói thì hay mà'
++		R
++		'làm chẳng bao nhiêu?'
++		R
++		'（Đối thủ H - Milli）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -601,13 +575,11 @@
+ 		\L_071e2:
+ 		\L_07156:
+ 		ZH 1:
+-		'Tôi nghĩ hắn'
+-		R
+-		'là một người tốt.'
+-		R
+-		R
+-		R
+-		'（Ma Vương - Miki Kurusu）'
++		'Tôi nghĩ anh ấy'
++		R
++		'là người tốt. （Ma'
++		R
++		'Vương - Kurusu Miki）'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+@@ -616,37 +588,45 @@
+ 	\L_071e2:
+ 	\L_07156:
+ 	ZH 1:
+-	'Chàng yêu sẽ cứu'
+-	R
+-	'thế giới. Chàng là một anh'
+-	R
+-	'hùng bất khả chiến bại... Vì'
+-	\L_07243:
+-	ZH 1:
+-	'chàng là'
+-	R
+-	'chồng thiếp!（Vợ – Lia）'
++	'Chàng yêu sẽ cứu thế'
++	R
++	'giới. Chàng là anh'
++	R
++	'hùng vô địch... vì'
++	\L_07243:
++	ZH 1:
++	'chàng là chồng của Lia'
++	R
++	'mà! （Chính thất - Lia）'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Cha... Người này thật sự là'
+-	R
+-	'vị'
+-	\L_07243:
+-	ZH 1:
+-	'cứu tinh sao? Con không'
+-	\L_07243:
+-	ZH 1:
+-	'hiểu nổi...'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Magic ôm đầu. Ánh nắng dịu'
+-	R
+-	'dàng chiếu xuống nàng.'
++	'Trời ạ... cái gì'
++	R
++	'thế này! Thế này thì'
++	R
++	'chẳng hiểu gì cả!'
++	\L_07243:
++	ZH 1:
++	'Gã đó thật sự là... đấng'
++	R
++	'cứu thế sao, cha......?'
++	\L_07243:
++	ZH 1:
++	'Chẳng hiểu gì'
++	R
++	'hết, haizz......'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Giữa ánh nắng dịu'
++	R
++	'dàng chan hòa, Magic'
++	R
++	'cứ ôm đầu mãi......'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!
+@@ -661,83 +641,89 @@
+ 	\L_07156:
+ 	ZM 32:
+ 	ZH 1:
+-	'Xé rừng'
++	'Rừng Xé Nát'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Gần đồn trú'
++	'Gần doanh trại quân đội'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 58!
+ 	\L_07172:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Mình sẽ còn phải làm việc'
+-	R
+-	'cho Leazas đến bao giờ...'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Sau trận chiến, Magic'
+-	R
+-	'đang đi dạo một mình.'
++	'Haizz...... còn phải'
++	R
++	'làm việc cho quân Leazas'
++	R
++	'đến bao giờ nữa......'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Đánh trận xong, Magic'
++	R
++	'một mình đi dạo.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0713a:
+ 	ZH 1:
+-	'Rừng rách phải không?'
+-	\L_07243:
+-	ZH 1:
+-	'Có lẽ nó được gọi như'
+-	R
+-	'vậy bởi vì những người yêu'
+-	R
+-	'nhau bị chia cắt ở đây...'
+-	\L_07243:
+-	ZH 1:
+-	'Tất nhiên là không, đây'
+-	R
+-	'là lãnh địa của quái vật...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Alex...'
+-	\L_07243:
+-	ZH 1:
+-	'Giá mà được ở bên anh...'
++	'Rừng Xé Nát...... à.'
++	\L_07243:
++	ZH 1:
++	'Có phải vì đôi tình'
++	R
++	'nhân bị xé lìa mà có'
++	R
++	'tên này không nhỉ......'
++	\L_07243:
++	ZH 1:
++	'Chắc không đâu, đất'
++	R
++	'của ma vật mà......'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Nhưng...... Alex......'
++	\L_07243:
++	ZH 1:
++	'......em cũng.........'
++	R
++	'muốn được ở bên anh......'
+ 	\L_07243:
+ 	\L_07236:
+ 	SS 0:
+ 	\L_07156:
+ 	ZH 1:
+-	'（tiếng xào xạc...）'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Ai ở đó!?'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Bụi cây gần Magic đang rơm'
+-	R
+-	'rớm nước mắt chợt lay động.'
+-	R
+-	'Nàng lập tức vào thế'
+-	\L_07243:
+-	ZH 1:
+-	'cảnh giác. Trước mặt nàng...'
++	'(sột soạt......)'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ai đó!?'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Gần chỗ Magic đang rưng'
++	R
++	'rưng, bụi cây lay động.'
++	R
++	'Magic lập tức thủ thế.'
++	\L_07243:
++	ZH 1:
++	'Trước mặt nàng......'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 459!
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'... Ờ... Aah...'
++	'......Ư.........'
++	R
++	'a a.........'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_07156:
+@@ -749,66 +735,72 @@
+ 	\L_07236:
+ 	\L_0711e:
+ 	ZH 1:
+-	'À... Alex!? Alex... Alex!!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Cô... biết tôi sao?'
++	'A......... Alex!?'
++	R
++	'Alex...... Alex!!'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Ơ......... cô......'
++	R
++	'biết...... tôi sao......'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+ 	\L_07156:
+ 	ZH 1:
+-	'Vừa nói được bấy nhiêu, Alex'
+-	R
+-	'đã ngã xuống.'
+-	\L_07243:
+-	ZH 1:
+-	'Magic vội ôm lấy chàng.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Alex, tỉnh lại đi! Anh không'
+-	R
+-	'nhận ra em sao?! Trả lời em'
+-	R
+-	'đi!'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Dù Magic lay gọi thế nào,'
++	'Gắng gượng nói được chừng'
++	R
++	'ấy, Alex ngã gục xuống đất.'
++	\L_07243:
++	ZH 1:
++	'Magic chạy tới, đỡ'
++	R
++	'chàng dậy, ôm chặt.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Alex, tỉnh lại đi......!'
++	R
++	'Anh không nhận ra em'
++	R
++	'sao, này!? Trả lời em đi!'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Magic lay thế nào,'
+ 	R
+ 	'Alex cũng không đáp.'
+ 	\L_07243:
+ 	ZH 1:
+-	'Nàng áp má mình vào má'
+-	R
+-	'chàng.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Anh còn'
+-	\L_07243:
+-	ZH 1:
+-	'sống... Chỉ cần anh còn'
+-	R
+-	'sống... Chúng ta cùng về'
+-	R
+-	'nhé.'
+-	\L_07243:
+-	ZH 1:
+-	'Rồi sẽ mãi bên nhau...'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Magic... đưa Alex trở lại'
+-	R
+-	'Lâu đài Leazas cùng nàng.'
++	'Nàng âu yếm áp má vào'
++	R
++	'người yêu đang bất tỉnh.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'............Nhưng......'
++	\L_07243:
++	ZH 1:
++	'không sao...... chỉ cần'
++	R
++	'anh còn sống... Về thôi'
++	R
++	'Alex, cùng về nhé...'
++	\L_07243:
++	ZH 1:
++	'Rồi mãi mãi ở bên nhau......'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Magic đưa Alex'
++	R
++	'về thành Leazas.'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!
+@@ -818,41 +810,41 @@
+ *L_00ef3:
+ 	\L_0711e:
+ 	ZH 1:
+-	'... Nàng không đến. Gần'
+-	R
+-	'đây ta đã không gặp nàng.'
+-	\L_07243:
+-	ZH 1:
+-	'Chuyện gì đã xảy'
+-	R
+-	'ra với nàng vậy?'
++	'..................Không'
++	R
++	'tới nhỉ. Dạo này'
++	R
++	'chẳng thấy mặt đâu cả.'
++	\L_07243:
++	ZH 1:
++	'Con nhỏ đó bị làm sao vậy?'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 6!
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Vâng. Gần đây cô Magic ở'
+-	R
+-	'suốt trong phòng, chăm sóc'
+-	R
+-	'anh Alex đang bệnh.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Aah, cái gã mất'
+-	R
+-	'trí nhớ mà nàng nhặt được ở'
+-	R
+-	'đâu đó… Hmph, thật khó chịu.'
+-	\L_07243:
+-	ZH 1:
+-	'Tự nhốt trong'
+-	R
+-	'phòng...? Có lẽ họ'
+-	R
+-	'đang đụ trong đó.'
++	'Vâng. Dạo này cô Magic cứ'
++	R
++	'ở lì trong phòng, có vẻ'
++	R
++	'đang chăm sóc anh Alex ạ.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'À, cái gã mất trí nhớ'
++	R
++	'nhặt được ở đâu ấy'
++	R
++	'à...... Hừ, khó chịu thật.'
++	\L_07243:
++	ZH 1:
++	'Ở lì trong phòng...?'
++	R
++	'Không lẽ đang làm'
++	R
++	'chuyện H đấy chứ.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+@@ -860,20 +852,18 @@
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Aah, em ghen'
+-	R
+-	'tị à, chàng yêu? Không sao'
+-	R
+-	'cả, dù sao chàng cũng có em.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Đó không'
+-	R
+-	'phải là vấn đề!'
+-	R
+-	'Uuuuuugh, aaaaaaaaaaa...'
++	'Aa, chàng yêu ghen à?'
++	R
++	'Có sao đâu, chàng đã'
++	R
++	'có Lia là vợ rồi mà.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Không phải chuyện đó!'
++	R
++	'Ưưưưưư, bực cả mình......'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!
+@@ -892,16 +882,16 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng ma'
+-	R
+-	'pháp tỏa mùi trà dịu nhẹ'
+-	R
+-	'thoang thoảng khắp phòng.'
+-	\L_07243:
+-	ZH 1:
+-	'Magic đưa tách'
+-	R
+-	'trà cô pha cho Alex.'
++	'Phòng của Magic'
++	R
++	'Hương hồng trà dịu nhẹ'
++	R
++	'lan tỏa khắp phòng.'
++	\L_07243:
++	ZH 1:
++	'Magic đưa tách trà'
++	R
++	'mới pha cho Alex.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0711e:
+@@ -915,19 +905,19 @@
+ 	\L_07236:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Được rồi, cảm'
+-	R
+-	'ơn. Ờ... Magic.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Anh đừng'
+-	\L_07243:
+-	ZH 1:
+-	'gọi khách sáo như vậy. Cứ'
+-	R
+-	'gọi em là Magic thôi.'
++	'Ừ, cảm ơn.'
++	R
++	'Ưm............ Magic.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ừ, đúng rồi......'
++	\L_07243:
++	ZH 1:
++	'đừng gọi khách sáo'
++	R
++	'nhé. Cứ gọi em như thế.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0718e:
+@@ -944,10 +934,12 @@
+ 	\L_07236:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Anh gọi tên'
+-	\L_07243:
+-	ZH 1:
+-	'em lần nữa đi.'
++	'Không, không sao đâu......'
++	R
++	'nhưng, này, ưm......'
++	\L_07243:
++	ZH 1:
++	'......anh gọi lần nữa đi?'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0718e:
+@@ -957,7 +949,7 @@
+ 	\L_07236:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Cái gì?'
++	'Sao thế?'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0718e:
+@@ -977,7 +969,7 @@
+ 	\L_07236:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Ho, ho, ừm...'
++	'E hèm, e hèm, ưm......'
+ 	\L_07243:
+ 	ZH 1:
+ 	'... Magic.'
+@@ -985,23 +977,23 @@
+ 	\L_07236:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Em vui quá... Em yêu anh,'
+-	R
+-	'Alex...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Ừ... anh cũng yêu em.'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Ký ức của Alex'
+-	R
+-	'vẫn chưa quay trở lại nhưng'
+-	R
+-	'dường như họ rất hạnh phúc.'
++	'Ơ...... hì hì, vui quá......'
++	R
++	'Em yêu anh nhất, Alex......!'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Ừ...... anh cũng...... vậy.'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Ký ức của Alex vẫn chưa'
++	R
++	'trở lại, nhưng hai người'
++	R
++	'trông thật hạnh phúc.'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!
+@@ -1022,21 +1014,19 @@
+ 	R
+ 	'Phòng yết kiến'
+ 	R
+-	'Maris... Không hiểu sao toàn'
+-	R
+-	'thân ta lại ngứa ngáy...'
+-	\L_07243:
+-	ZH 1:
+-	'Có lẽ ta bị ve,'
+-	R
+-	'bọ chét hay gì đó chăng?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Chắc không phải bọ chét đâu'
+-	R
+-	'ạ.'
++	'Maris...... sao ta thấy'
++	R
++	'ngứa khắp người......'
++	\L_07243:
++	ZH 1:
++	'Có rận hay bọ chét gì không?'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Hả...... làm gì có'
++	R
++	'chuyện đó ạ......'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!
+@@ -1059,28 +1049,26 @@
+ 	R
+ 	'Phòng ngủ của Rance'
+ 	R
+-	'Rance được gọi là Magic.'
++	'Rance cho gọi Magic.'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 58!
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'... Gì vậy, Ngài Rance?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Gahahahaha!, vui'
+-	R
+-	'mừng vì cô ở đây.'
+-	R
+-	'Bây giờ chúng ta sẽ...'
+-	\L_07243:
+-	ZH 1:
+-	'Đợi đã, anh'
+-	R
+-	'chàng đó là ai?'
++	'......Gì vậy, Vua Rance.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Gahahahaha, đến rồi à.'
++	R
++	'Giờ thì phập một cái......'
++	\L_07243:
++	ZH 1:
++	'Khoan đã, gã đàn'
++	R
++	'ông kia là ai?'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+@@ -1093,11 +1081,11 @@
+ 	\L_07236:
+ 	\L_07156:
+ 	ZH 1:
+-	'Đằng sau'
+-	R
+-	'Magic, người chưa bước chân'
+-	R
+-	'qua cửa, Alex đang đứng.'
++	'Sau lưng Magic, người'
++	R
++	'không bước vào cửa lấy một'
++	R
++	'bước, là Alex đang đứng.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+@@ -1105,28 +1093,24 @@
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Chuyện là thế'
+-	R
+-	'này đây, Ngài Rance.'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi có người'
+-	R
+-	'yêu nên không thể làm'
+-	R
+-	'theo lời ngài yêu cầu.'
+-	\L_07243:
+-	ZH 1:
+-	'Xin lỗi, nhưng ngài có'
+-	R
+-	'thể chấp nhận điều đó không?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Cái gì...? Hắn trông khá'
+-	R
+-	'yếu đuối. Ta mạnh mẽ hơn.'
++	'Là thế này đấy, Vua Rance.'
++	\L_07243:
++	ZH 1:
++	'Tôi đã có người quan'
++	R
++	'trọng. Vì vậy, không thể'
++	R
++	'đáp ứng yêu cầu của bệ hạ.'
++	\L_07243:
++	ZH 1:
++	'Mong ngài thông cảm cho nhé?'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Cáiii gì...... cái gã trông'
++	R
++	'yếu nhớt thế. Ta mạnh hơn.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+@@ -1134,7 +1118,7 @@
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Đó là...'
++	'Chuyện đó......'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+@@ -1142,23 +1126,21 @@
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Hắn không hề “yếu đuối”,'
+-	R
+-	'hắn tốt bụng. Alex cũng'
+-	R
+-	'có phép thuật tuyệt vời.'
+-	\L_07243:
+-	ZH 1:
+-	'Hắn sẽ là'
+-	R
+-	'người mạnh nhất thế giới khi'
+-	R
+-	'ký ức của hắn quay trở lại.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Ta hấp dẫn hơn.'
++	'Sai rồi, không phải trông'
++	R
++	'yếu, mà là trông hiền.'
++	\L_07243:
++	ZH 1:
++	'Ma lực của Alex ghê gớm'
++	R
++	'lắm. Ký ức trở lại thì'
++	R
++	'anh ấy mạnh nhất thế giới.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ta đẹp trai hơn.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+@@ -1174,19 +1156,17 @@
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Ngài đã soi gương chưa?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Vậy còn kích thước'
+-	R
+-	'của cặc thì sao? Của'
+-	R
+-	'ta rõ ràng là lớn hơn.'
+-	\L_07243:
+-	ZH 1:
+-	'Tiếp tục, so sánh chúng!'
++	'Ngài soi gương bao giờ chưa?'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Vậy thì so cỡ của quý.'
++	R
++	'Của ta chắc chắn to hơn.'
++	\L_07243:
++	ZH 1:
++	'Nào, so thử đi!'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+@@ -1194,7 +1174,7 @@
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Uwah, ừm...'
++	'Oa, kìa......'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+@@ -1202,14 +1182,16 @@
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Không, cảm ơn, đồ ngốc!!'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Magic khiến Rance cởi quần'
+-	R
+-	'và đưa Alex ra khỏi phòng.'
++	'Xin kiếu, đồ ngốc!!'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Bỏ lại Rance đang'
++	R
++	'tụt quần, Magic cùng'
++	R
++	'Alex rời khỏi phòng.'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!
+@@ -1222,97 +1204,91 @@
+ 	\L_071e2:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Haah, trời ạ, đúng là đồ'
+-	R
+-	'ngốc... Cuối cùng tôi cũng'
+-	R
+-	'phải làm gì đó với ngài...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Cậu có chắc chắn'
+-	R
+-	'về điều đó không, Magic...?'
+-	\L_07243:
+-	ZH 1:
+-	'Ông ấy là vua của'
+-	R
+-	'đất nước này, cậu biết đấy.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Cậu có muốn bắt'
+-	R
+-	'tôi quan hệ tình dục với'
+-	R
+-	'anh ta lần nữa không...?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Ừm... Điều đó sẽ'
+-	R
+-	'khiến cậu buồn, nên không.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Vậy nên không sao đâu...'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi sẽ bất'
+-	R
+-	'chấp ngài và chấp nhận'
+-	R
+-	'bất cứ hình phạt nào...'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi không muốn ngài'
+-	R
+-	'chạm vào tôi lần nữa.'
+-	\L_07243:
+-	ZH 1:
+-	'Cậu có thể'
+-	R
+-	'ngừng dè dặt xung quanh Nhà'
+-	R
+-	'vua được không? Trời ạ...'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi không muốn điều'
+-	R
+-	'đó chia cắt chúng ta...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Vâng, có cái đó...'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Họ nắm tay'
+-	R
+-	'nhau cùng lúc và bắt đầu'
+-	R
+-	'đi đến phòng của Magic.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Alex...'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi thực sự rất vui vì'
+-	R
+-	'cậu đã tha thứ cho tôi vì'
+-	\L_07243:
+-	ZH 1:
+-	'đã không thể cứu lấy lần'
+-	R
+-	'đầu tiên của tôi cho cậu...'
++	'Haizz, thật là, ngốc hết'
++	R
++	'chỗ nói...... Phải sớm'
++	R
++	'làm gì đó mới được......'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Magic, có ổn không...?'
++	\L_07243:
++	ZH 1:
++	'Anh ta là vua của'
++	R
++	'đất nước này mà?'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Anh...... muốn để hắn ôm'
++	R
++	'em thêm lần nữa sao...?'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Chuyện đó...... em sẽ'
++	R
++	'buồn, nên anh không muốn.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Thế nên, không sao đâu......'
++	\L_07243:
++	ZH 1:
++	'Dù chống lại, phải chịu'
++	R
++	'hình phạt nào đi nữa......'
++	\L_07243:
++	ZH 1:
++	'em cũng không để hắn'
++	R
++	'chạm vào lần nữa.'
++	\L_07243:
++	ZH 1:
++	'Đừng nể nang nhà'
++	R
++	'vua nữa, nhé?'
++	\L_07243:
++	ZH 1:
++	'Em không muốn......'
++	R
++	'vì chuyện đó mà phải'
++	R
++	'xa nhau nữa đâu......'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Ừ...... nhỉ......'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Chẳng biết ai trước,'
++	R
++	'hai người nắm tay nhau'
++	R
++	'bước về phòng Magic.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Alex......'
++	\L_07243:
++	ZH 1:
++	'Chuyện em mất'
++	R
++	'đi lần đầu......'
++	\L_07243:
++	ZH 1:
++	'được anh tha thứ, em'
++	R
++	'thật sự mừng lắm......'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0718e:
+@@ -1322,9 +1298,9 @@
+ 	\L_07236:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Tôi nghĩ tôi sẽ chết nếu'
+-	R
+-	'cậu không tha thứ cho tôi...'
++	'Nếu anh không tha thứ, em'
++	R
++	'đã định chết rồi đấy...'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0718e:
+@@ -1334,11 +1310,11 @@
+ 	\L_07236:
+ 	\L_07156:
+ 	ZH 1:
+-	'Giọng nói của'
+-	R
+-	'cặp đôi đang âu yếm dần'
+-	R
+-	'biến mất trên hành lang…'
++	'Giọng hai người sánh'
++	R
++	'bước bên nhau xa dần'
++	R
++	'cuối hành lang......'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!
+@@ -1369,9 +1345,7 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp ma thuật'
+-	R
+-	'- Phòng chỉ huy'
++	'Tháp Magic - Phòng chỉ huy'
+ 	\L_07243:
+ 	\L_07236:
+ 	{VAR0650 = 9:
+@@ -1379,41 +1353,39 @@
+ 	}
+ 	\L_0718e:
+ 	ZH 1:
+-	'Thưa Lãnh chúa Magic,'
+-	\L_07243:
+-	ZH 1:
+-	'sự chuyển động'
+-	R
+-	'của các vì sao nói lên đất'
+-	R
+-	'nước chúng ta có lợi thế.'
++	'Thưa ngài Magic,'
++	\L_07243:
++	ZH 1:
++	'sự vận hành của tinh tú báo'
++	R
++	'hiệu lợi thế cho nước ta.'
+ 	\L_07243:
+ 	ZH 1:
+ 	'Hãy tấn công Leazas!'
+ 	\L_07243:
+ 	ZH 1:
+-	'Chúng ta không chỉ có thể'
+-	R
+-	'đẩy họ ra khỏi vùng đất của'
+-	\L_07243:
+-	ZH 1:
+-	'mình mà còn có thể giành'
+-	R
+-	'được vùng đất mới cho Zeth.'
+-	\L_07243:
+-	ZH 1:
+-	'Bây giờ là cơ hội để'
+-	R
+-	'chúng ta giành chiến thắng!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Biết rồi. Ta không muốn nghe'
+-	R
+-	'những lời tham lam ấy. Nhiệm'
+-	R
+-	'vụ'
++	'Biết đâu chẳng những'
++	R
++	'đẩy lui được nước đó,'
++	\L_07243:
++	ZH 1:
++	'mà còn mở rộng đáng'
++	R
++	'kể lãnh thổ Zeth.'
++	\L_07243:
++	ZH 1:
++	'Thời cơ chiến'
++	R
++	'thắng là lúc này!'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'......Rồi rồi. Ta'
++	R
++	'không muốn nghe chuyện'
++	R
++	'hau háu thế. Sứ mệnh'
+ 	\L_07243:
+ 	ZH 1:
+ 	'của chúng ta là bảo vệ Zeth.'
+@@ -1426,22 +1398,26 @@
+ 	\L_07236:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Được, cứ xuất quân. Nhưng'
+-	\L_07243:
+-	ZH 1:
+-	'đừng để bị thương đấy.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Ơ, ừ...'
++	'Muốn xin phép xuất kích'
++	R
++	'chứ gì? Được thôi, đi đi.'
++	\L_07243:
++	ZH 1:
++	'Có điều, đừng để'
++	R
++	'bị thương nhé.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Ơ, ư......'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071aa:
+ 	ZH 1:
+-	'Đ-Điều đó là'
+-	R
+-	'không thể được...'
++	'Kh, không thể được'
++	R
++	'ạ...... chuyện đó......'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0711e:
+@@ -1453,26 +1429,30 @@
+ 	\L_07236:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Thần hiểu rồi. Chúng thần'
+-	\L_07243:
+-	ZH 1:
+-	'sẽ cố giảm thiệt hại, đánh'
+-	R
+-	'bại quân Leazas.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Không phải giảm thiệt hại.'
+-	R
+-	'Ta bảo đừng để bị thương!'
++	'Th... thần hiểu rồi, xin'
++	R
++	'dốc sức làm hết mình.'
++	\L_07243:
++	ZH 1:
++	'Hạn chế thiệt hại tới mức'
++	R
++	'thấp nhất, nhất định sẽ'
++	R
++	'đánh bại quân Leazas......!'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Không phải thấp nhất. Ta'
++	R
++	'bảo đừng để bị thương.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071aa:
+ 	ZH 1:
+-	'Nhưng điều đó thực'
+-	R
+-	'sự là không thể...'
++	'Thì đã nói, không'
++	R
++	'thể được mà......'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!
+@@ -1484,84 +1464,80 @@
+ 	'Leazas...'
+ 	\L_07243:
+ 	ZH 1:
+-	'Đừng tưởng chúng ta sẽ'
+-	\L_07243:
+-	ZH 1:
+-	'mãi chỉ lo phòng thủ.'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Magic nhìn vào tấm bản'
+-	R
+-	'đồ trên bàn và thì thầm.'
+-	\L_07243:
+-	ZH 1:
+-	'Chỉ huy ma thuật'
+-	R
+-	'bên cạnh cô như một'
+-	R
+-	'cái bóng nghe thấy.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Vậy thì,'
+-	R
+-	'Lãnh chúa Magic...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Có, ngươi được'
+-	R
+-	'phép xuất kích.'
+-	\L_07243:
+-	ZH 1:
+-	'Đơn vị của tôi'
+-	R
+-	'sẽ bảo vệ tòa tháp,'
+-	\L_07243:
+-	ZH 1:
+-	'vì vậy ngươi hãy tổ chức'
+-	R
+-	'đơn vị tốt nhất có thể để'
+-	R
+-	'chiếm lãnh thổ của Leazas.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Vâng, hiểu rồi.'
++	'Đừng tưởng chúng ta lúc nào'
++	\L_07243:
++	ZH 1:
++	'cũng chỉ biết phòng'
++	R
++	'thủ, sai lầm to đấy.'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Nhìn chằm chằm bản đồ'
++	R
++	'thế lực trải trên bàn,'
++	R
++	'Magic khẽ lẩm bẩm.'
++	\L_07243:
++	ZH 1:
++	'Đội trưởng ma pháp luôn kề'
++	R
++	'bên như cái bóng nghe được.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Vậy thì, ngài Magic...'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ừ, cho phép xuất kích.'
++	\L_07243:
++	ZH 1:
++	'Việc thủ tháp do'
++	R
++	'đội của ta đảm nhận,'
++	\L_07243:
++	ZH 1:
++	'ngươi hãy lập đội tinh'
++	R
++	'nhuệ nhất. Cướp lấy'
++	R
++	'lãnh thổ của Leazas.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Rõ, thần xin tuân lệnh.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+ 	\L_07156:
+ 	ZH 1:
+-	'Người chỉ huy ma'
+-	R
+-	'thuật di chuyển với độ linh'
+-	R
+-	'hoạt thấp nhất có thể và rời'
+-	\L_07243:
+-	ZH 1:
+-	'khỏi phòng chỉ huy mà'
+-	R
+-	'không gây ra tiếng động.'
++	'Đội trưởng ma pháp,'
++	R
++	'không thừa một động tác,'
++	\L_07243:
++	ZH 1:
++	'lặng lẽ rời khỏi'
++	R
++	'phòng chỉ huy.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0713a:
+ 	ZH 1:
+-	'Ngươi đã lừa'
+-	R
+-	'cha tôi, Leazas...!'
+-	\L_07243:
+-	ZH 1:
+-	'Hãy chờ xem, tôi'
+-	R
+-	'sẽ trả thù ngươi vì đã'
+-	R
+-	'xâm chiếm chúng tôi...!'
++	'Leazas, kẻ đã mê'
++	R
++	'hoặc cha ta...!'
++	\L_07243:
++	ZH 1:
++	'Chờ đấy, ta sẽ bắt'
++	R
++	'các người trả giá cho'
++	R
++	'cuộc xâm lược......!'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!
+@@ -1580,54 +1556,60 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Ma Pháp - Phòng Riêng'
++	'Tháp Magic - Phòng riêng'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 58!
+ 	\L_07172:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Haah... ... Huh... Kh...'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Magic bị thương'
+-	R
+-	'và bằng cách nào đó đã quay'
+-	R
+-	'trở lại được phòng của mình.'
+-	\L_07243:
+-	ZH 1:
+-	'She fell into her ghế.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Haah... Tôi đoán là'
+-	R
+-	'thế này... ... Guh...!'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Cô ho dữ dội và máu chảy'
+-	R
+-	'ra từ bàn tay che miệng cô.'
++	'Phù...... ......hự.........'
++	R
++	'khục......'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Magic bị thương, khó nhọc'
++	R
++	'lắm mới về được phòng.'
++	\L_07243:
++	ZH 1:
++	'Nàng ngã vật xuống ghế.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Haa...... đến đây'
++	R
++	'là...... hết rồi nhỉ......'
++	R
++	'............khục......!'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Nàng ho sặc sụa,'
++	R
++	'máu tươi nhỏ giọt từ'
++	R
++	'bàn tay che miệng.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0713a:
+ 	ZH 1:
+-	'Tại sao tôi'
+-	R
+-	'lại ho ra máu ở một'
+-	R
+-	'nơi như thế này...?'
+-	\L_07243:
+-	ZH 1:
+-	'Ước gì tôi không sinh ra'
+-	R
+-	'ở... thời đại như thế này...'
++	'Sao...... mình lại......'
++	R
++	'ở nơi thế này, nôn ra'
++	R
++	'máu thế này chứ......'
++	\L_07243:
++	ZH 1:
++	'Thời đại như thế này......'
++	R
++	'mình chẳng muốn sinh'
++	R
++	'ra...... chút nào......'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_07156:
+@@ -1635,11 +1617,11 @@
+ 	'Magic lảo đảo đứng dậy.'
+ 	\L_07243:
+ 	ZH 1:
+-	'Cô vắt chút'
+-	R
+-	'sức lực cuối cùng để đến'
+-	R
+-	'gần tủ sách dựa vào tường.'
++	'Dồn chút sức lực cuối'
++	R
++	'cùng, nàng tiến về'
++	R
++	'giá sách bên tường.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0711e:
+@@ -1649,35 +1631,35 @@
+ 	\L_07236:
+ 	\L_07156:
+ 	ZH 1:
+-	'Thứ mà bàn tay run'
+-	R
+-	'rẩy của cô lấy ra từ trên'
+-	R
+-	'kệ là một cuốn tiểu thuyết.'
+-	\L_07243:
+-	ZH 1:
+-	'Đó là một cuốn'
+-	R
+-	'tiểu thuyết lãng mạn'
+-	R
+-	'hoàn toàn bình thường.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Tôi muốn... đi'
+-	R
+-	'học... trường... thêm...'
++	'Bàn tay run rẩy rút'
++	R
++	'ra từ giá sách một'
++	R
++	'cuốn tiểu thuyết.'
++	\L_07243:
++	ZH 1:
++	'Đó là một cuốn tiểu'
++	R
++	'thuyết tình cảm hết'
++	R
++	'sức bình thường.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Giá được...... đi học......'
++	R
++	'thêm... chút nữa...........'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_07180:
+ 	\L_07156:
+ 	ZH 1:
+-	'Magic giữ cuốn sách trước'
+-	R
+-	'ngực và ngã xuống... Sau đó'
+-	R
+-	'nàng không còn cử động nữa.'
++	'Ôm cuốn sách trước ngực,'
++	R
++	'Magic ngã xuống...... rồi cứ'
++	R
++	'thế, không còn cử động nữa.'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!
+@@ -1701,16 +1683,16 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng ngủ'
+-	R
+-	'của Rance Hmmmm... Magic?'
+-	R
+-	'Nàng khá đáng ghét.'
+-	\L_07243:
+-	ZH 1:
+-	'Vậy ta nên đụ'
+-	R
+-	'nàng. Này, gọi Magic đi.'
++	'Phòng ngủ của Rance'
++	R
++	'Ừmmm...... Magic à, con'
++	R
++	'nhỏ đó láo lắm.'
++	\L_07243:
++	ZH 1:
++	'Láo thì phải ôm cho biết'
++	R
++	'tay. Này, gọi Magic tới.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_07156:
+@@ -1721,34 +1703,32 @@
+ 	'（cốc cốc）'
+ 	\L_07243:
+ 	ZH 1:
+-	'Sau khi gõ'
+-	R
+-	'cửa, Magic bước vào mà không'
+-	R
+-	'đợi được bảo là nàng có thể.'
++	'Gõ cửa xong, Magic bước vào,'
++	R
++	'chẳng chào hỏi lấy một câu.'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 58!
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'... Cái gì?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Mhm, hình ảnh của sự đáng'
+-	R
+-	'ghét... Được rồi, lại đây.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Không. Ở đây chẳng có gì ổn'
+-	R
+-	'cả. Tôi không phải là tình'
+-	R
+-	'nhân của ngài...'
++	'...............Gì?'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ừm, láo như tranh'
++	R
++	'vẽ... Đượccc, lại đây.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Không thích. Cái gì mà'
++	R
++	'đượccc chứ? Tôi không'
++	R
++	'phải tình nhân của ngài...'
+ 	\L_07243:
+ 	ZH 1:
+ 	'Đừng hiểu lầm.'
+@@ -1756,113 +1736,103 @@
+ 	\L_07236:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Dù sao đi nữa, ngươi'
+-	R
+-	'không cần phải nương tay.'
+-	\L_07243:
+-	ZH 1:
+-	'Dù sao thì chúng ta cũng'
+-	R
+-	'đã làm điều đó một lần rồi.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Tôi không muốn'
+-	R
+-	'con số đó lớn hơn,'
+-	\L_07243:
+-	ZH 1:
+-	'tại sao tôi'
+-	R
+-	'lại muốn ngủ với người'
+-	R
+-	'đàn ông tôi không thích?'
+-	\L_07243:
+-	ZH 1:
+-	'Đó không phải'
+-	R
+-	'mục đích tôi đến'
+-	\L_07243:
+-	ZH 1:
+-	'lâu đài này. Nếu'
+-	\L_07243:
+-	ZH 1:
+-	'ngài muốn thỏa mãn'
+-	R
+-	'ham muốn của mình, hãy'
+-	R
+-	'hỏi một người phụ nữ khác.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Ừm, cái gì...?!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Ngay cả khi'
+-	R
+-	'chỉ một cô gái ngẫu nhiên'
+-	R
+-	'như tôi nằm ngoài tầm với'
+-	\L_07243:
+-	ZH 1:
+-	'của ngài thì ngài cũng có'
+-	R
+-	'rất nhiều tình nhân hấp dẫn,'
+-	\L_07243:
+-	ZH 1:
+-	'phải không?'
+-	\L_07243:
+-	ZH 1:
+-	'Ồ đúng rồi, nhưng việc quan'
+-	R
+-	'hệ tình dục liên tục có thể'
+-	R
+-	'khiến cậu trở nên ngu ngốc.'
+-	\L_07243:
+-	ZH 1:
+-	'Với tư cách'
+-	R
+-	'là cấp trên của tôi và là'
+-	R
+-	'người cai trị một quốc gia,'
+-	\L_07243:
+-	ZH 1:
+-	'cậu nên cẩn thận một chút.'
+-	\L_07243:
+-	ZH 1:
+-	'Chỉ một chút'
+-	R
+-	'thôi.... Thấy cậu.'
++	'Có sao đâu, đừng ngại.'
++	\L_07243:
++	ZH 1:
++	'Đã bị ôm một lần rồi còn gì.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Bao nhiêu lần'
++	R
++	'cũng không thích,'
++	\L_07243:
++	ZH 1:
++	'để một gã đàn ông'
++	R
++	'mình không ưa ôm.'
++	\L_07243:
++	ZH 1:
++	'Tôi ở lại thành này'
++	\L_07243:
++	ZH 1:
++	'đâu phải để làm chuyện đó.'
++	\L_07243:
++	ZH 1:
++	'Muốn thỏa mãn ham muốn'
++	R
++	'thì đi mà cúi đầu xin'
++	R
++	'người phụ nữ khác.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Hử, cái......!'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Thôi mà, đức vua đâu cần'
++	\L_07243:
++	ZH 1:
++	'nổi giận với hạng như'
++	R
++	'tôi... Ngài có biết bao'
++	\L_07243:
++	ZH 1:
++	'tình nhân quyến'
++	R
++	'rũ khác cơ mà.'
++	\L_07243:
++	ZH 1:
++	'À, phải rồi, nhưng nghe'
++	R
++	'nói cứ làm chuyện dâm dục'
++	R
++	'suốt thì đầu óc kém đi đấy.'
++	\L_07243:
++	ZH 1:
++	'Với tư cách cấp'
++	R
++	'trên của tôi, với tư'
++	R
++	'cách vua một nước,'
++	\L_07243:
++	ZH 1:
++	'ngài nên để ý một'
++	R
++	'chút. Một chút thôi.'
++	\L_07243:
++	ZH 1:
++	'......Chào nhé.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+ 	\L_07156:
+ 	ZH 1:
+-	'Magic khiến Rance hóa'
+-	R
+-	'đá và rời khỏi phòng.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Gah... Em không thể'
+-	R
+-	'chỉ nói những gì em muốn...!'
+-	R
+-	'Ôi ôi ôi ôiiiiiiiiiiiiiiii!!'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Sau khi quá trình hóa'
+-	R
+-	'đá biến mất, Rance ôm một'
+-	R
+-	'chiếc gối và quằn quại...'
++	'Bỏ lại Rance đứng trơ'
++	R
++	'như tượng đá, Magic đi'
++	R
++	'thẳng ra khỏi phòng.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Hự...... nói xong'
++	R
++	'điều muốn nói rồi bỏ'
++	R
++	'đi......! Láááo toééét!!'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Hết hóa đá, Rance ôm'
++	R
++	'gối quằn quại mãi...'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!
+@@ -1885,7 +1855,7 @@
+ 	R
+ 	'Phòng yết kiến'
+ 	R
+-	'Rance được gọi là Magic.'
++	'Rance cho gọi Magic.'
+ 	\L_07243:
+ 	\L_07236:
+ 	{VAR0389 = 4:
+@@ -1901,142 +1871,134 @@
+ 		\L_071e2:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Cái gì? Ta đang bận.'
++		'Gì thế, tôi đang'
++		R
++		'bận mà......'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Im đi, nhà vua đang bận'
+-		R
+-		'rộn hơn. Khi ta gọi cô sẽ'
+-		R
+-		'đến sau hai giây nữa.'
++		'Ồn ào, nhà vua còn bận hơn.'
++		R
++		'Gọi thì 2 giây phải có mặt.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Vâng, thưa bệ'
+-		R
+-		'hạ, ngài muốn gì?'
++		'Rồi, có chuyện gì, đức vua.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Vậy...'
+-		\L_07243:
+-		ZH 1:
+-		'Rõ ràng là cô đã mua'
+-		R
+-		'thuốc độc và chất nổ.'
+-		\L_07243:
+-		ZH 1:
+-		'Cô đang sử dụng'
+-		R
+-		'chúng để làm gì? Nguyên'
+-		R
+-		'liệu ma thuật kiểu Zeth?'
+-		\L_07243:
+-		ZH 1:
+-		'Chắc chắn cô'
+-		R
+-		'không có ý định ám sát ta.'
++		'Ừm, cô......'
++		\L_07243:
++		ZH 1:
++		'dạo này nghe nói mua gom'
++		R
++		'độc dược với thuốc nổ.'
++		\L_07243:
++		ZH 1:
++		'Để làm gì? Nguyên liệu'
++		R
++		'ma pháp kiểu Zeth à?'
++		\L_07243:
++		ZH 1:
++		'Không lẽ...... định cắt'
++		R
++		'cổ ta lúc ngủ đấy chứ.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+ 		ZH 1:
+-		'What, that’s it?'
+-		\L_07243:
+-		ZH 1:
+-		'Đừng lo lắng, tôi sẽ không'
+-		R
+-		'sử dụng chúng cho đến khi'
+-		R
+-		'tôi biết chúng có tác dụng.'
+-		\L_07243:
+-		ZH 1:
+-		'See you, goodnight.'
++		'Gì chứ, chuyện đó......'
++		\L_07243:
++		ZH 1:
++		'Yên tâm, tôi sẽ xem'
++		R
++		'xét kỹ rồi mới dùng.'
++		\L_07243:
++		ZH 1:
++		'Thôi nhé, ngủ ngon.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Hey, wait! Điều đó'
+-		R
+-		'có nghĩa là gì!? Heeee!'
++		'Này, đứng lại! Xem'
++		R
++		'xét kỹ là sao, nàyyy!'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Hwah... Tôi'
+-		R
+-		'không ngủ đủ giấc...'
+-		\L_07243:
+-		ZH 1:
+-		'Tất cả những sự chuẩn bị'
+-		R
+-		'này tôi cần phải thực hiện'
+-		\L_07243:
+-		ZH 1:
+-		'phòng trường'
+-		R
+-		'hợp Vua Rance thực sự'
+-		R
+-		'tệ đến mức kiệt sức...'
++		'Oáp...... thiếu ngủ quá...'
++		\L_07243:
++		ZH 1:
++		'Tùy vào bộ mặt thật'
++		R
++		'của Vua Rance mà phải'
++		R
++		'hành động đủ đường...'
++		\L_07243:
++		ZH 1:
++		'chỉ chuẩn bị thôi cũng'
++		R
++		'vất vả...... oáp...'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+ 		\L_07156:
+ 		ZH 1:
+-		'Magic ngáp liên tục'
+-		R
+-		'khi rời khỏi Rance.'
++		'Magic vừa ngáp liên tục'
++		R
++		'vừa rời khỏi chỗ Rance.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Urgh... Aaagh...'
++		'Hừm...... bực mình......'
+ 		\L_07243:
+ 		\L_07236:
+ 	}
+ 	{VAR0690 = 2:
+ 		\L_0711e:
+ 		ZH 1:
+-		'... Vậy tại sao em'
+-		R
+-		'lại trở về một mình?'
++		'............Thế mà, sao lại'
++		R
++		'chỉ có mình ngươi quay về.'
+ 		\L_07243:
+ 		\L_07236:
+ 		!VAR0516 : 471!
+ 		\L_071e2:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Vâng, ừ...'
+-		\L_07243:
+-		ZH 1:
+-		'Cô Magic'
+-		R
+-		'có vẻ đang bận thực hiện'
+-		R
+-		'một cuộc khảo sát về cậu.'
+-		\L_07243:
+-		ZH 1:
+-		'Nàng nói nàng sẽ'
+-		R
+-		'đến thị trấn lâu đài...'
++		'Dạ, ưm......'
++		\L_07243:
++		ZH 1:
++		'Ngài Magic nói đang bận điều'
++		R
++		'tra hạnh kiểm của bệ hạ.'
++		\L_07243:
++		ZH 1:
++		'Ngài ấy bảo giờ ra phố'
++		R
++		'dưới thành, nên......'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'... Anh sắp bị cắt lương.'
++		'............Ngươi,'
++		R
++		'trừ lương.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Cho đến khi...'
++		'Hự......'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_07156:
+ 		ZH 1:
+-		'Magic... không đến.'
++		'Magic đã không đến.'
+ 		\L_07243:
+ 		\L_07236:
+ 	}
+@@ -2045,109 +2007,103 @@
+ 		\L_071e2:
+ 		\L_0718e:
+ 		ZH 1:
+-		'... Ừ?'
++		'...............Có.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Ồ, hôm nay cậu'
+-		R
+-		'thực sự đã đến đây. Điều đó'
+-		R
+-		'không xảy ra thường xuyên.'
++		'Ồ, hôm nay ngoan ngoãn'
++		R
++		'tới nhỉ. Hiếm thấy.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Ngài Rance, tôi đã'
+-		R
+-		'nhận ra một điều.'
++		'Vua Rance, tôi này.'
++		R
++		'Đã hiểu ra một điều.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Ừm, cái gì cơ?'
++		'Hửm, điều gì?'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Tôi nghĩ tôi đã hiểu tại sao'
+-		R
+-		'người cha ngốc nghếch của'
+-		R
+-		'tôi lại thích ngài đến vậy.'
++		'Lý do lão cha ngốc của'
++		R
++		'tôi bị ngài thu hút......'
++		R
++		'tôi nghĩ mình hiểu rồi.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Hô...'
+-		\L_07243:
+-		ZH 1:
+-		'Ta không quan tâm'
+-		R
+-		'tại sao một người đàn ông'
+-		R
+-		'trung niên lại thích ta,'
+-		\L_07243:
+-		ZH 1:
+-		'nhưng sẽ hữu ích nếu'
+-		R
+-		'con gái ông ấy hiểu được.'
+-		\L_07243:
+-		ZH 1:
+-		'Vì vậy, tại sao?'
++		'Hô......'
++		\L_07243:
++		ZH 1:
++		'Lý do được lão trung niên'
++		R
++		'ưa thì ta chẳng quan tâm,'
++		\L_07243:
++		ZH 1:
++		'nhưng con gái ông ta nhận'
++		R
++		'ra điều đó thì có ý nghĩa.'
++		\L_07243:
++		ZH 1:
++		'Vậy, vì sao?'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Có lẽ vì ngài còn'
+-		R
+-		'ngu hơn cả cha tôi nữa.'
++		'Có lẽ là vì ngài'
++		R
++		'còn ngốc hơn.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Ờ...!'
++		'Ặc......!'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Có lẽ ngài phải'
+-		R
+-		'ngu ngốc mới trở thành một'
+-		R
+-		'vị vua hay một anh hùng...'
+-		\L_07243:
+-		ZH 1:
+-		'Hoặc có thể'
+-		R
+-		'cha tôi đã sai vì ông'
+-		R
+-		'ấy ngu ngốc... Haah...'
++		'Làm vua hay dũng giả'
++		R
++		'thì không ngốc không'
++		R
++		'làm nổi chăng......'
++		\L_07243:
++		ZH 1:
++		'Hay là, vì cha ngốc nên'
++		R
++		'mới hiểu lầm.........'
++		R
++		'haizz.........'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Đợi đã, đợi đã,'
+-		R
+-		'Magic! Chào! Heeeeee!!'
++		'Khoan đã, đứng lại,'
++		R
++		'Magic! Này! Nàyyy!!'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_07156:
+ 		ZH 1:
+-		'Magic thì'
+-		R
+-		'thầm với chính mình trong'
+-		R
+-		'khi lê bước ra khỏi phòng.'
++		'Magic vừa lầm bầm gì đó'
++		R
++		'vừa lủi thủi ra khỏi phòng.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Cái quái gì vậy?'
+-		R
+-		'Nàng thật kì lạ...'
++		'Cái gì thế, con'
++		R
++		'nhỏ kỳ cục......'
+ 		\L_07243:
+ 		\L_07236:
+ 	}
+@@ -2166,18 +2122,18 @@
+ 	'...............'
+ 	\L_07243:
+ 	ZH 1:
+-	'........................'
+-	R
+-	'. Muộn.'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Đúng hơn, Magic phớt lờ'
+-	R
+-	'lời triệu tập của Rance và'
+-	R
+-	'ở trong phòng của cha cô,'
++	'........................Chậm'
++	R
++	'quá.'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Trong khi đó, Magic phớt'
++	R
++	'lờ lệnh triệu của Rance,'
++	R
++	'đang ở trong phòng cha,'
+ 	\L_07243:
+ 	ZH 1:
+ 	'Gandhi.'
+@@ -2201,131 +2157,121 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng của'
+-	R
+-	'Gandhi Tôi hiểu rồi...'
+-	\L_07243:
+-	ZH 1:
+-	'Vậy là cuối cùng'
+-	R
+-	'ngươi cũng đã trở thành'
+-	R
+-	'phụ nữ rồi, Magic...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Thôi đi...'
+-	\L_07243:
+-	ZH 1:
+-	'Phụ nữ vẫn là phụ nữ dù'
+-	R
+-	'còn trinh hay không. Đó là'
+-	R
+-	'một lối suy nghĩ lỗi thời.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Nhưng... Không, dù'
+-	R
+-	'sao thì đó cũng là một'
+-	R
+-	'vấn đề khá tầm thường.'
+-	\L_07243:
+-	ZH 1:
+-	'Cảm giác được vua Rance'
+-	R
+-	'chạm trực tiếp như thế nào?'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi chắc rằng bây giờ cậu'
+-	R
+-	'phải hiểu sự vĩ đại của hắn.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Không hẳn, tôi'
+-	R
+-	'chỉ nghĩ ngài thậm'
+-	R
+-	'chí còn ghê tởm hơn.'
+-	\L_07243:
+-	ZH 1:
+-	'Quan trọng hơn là cha...!'
+-	\L_07243:
+-	ZH 1:
+-	'Hãy tỉnh táo lại đi.'
+-	R
+-	'Làm sao có ai có thể gọi'
+-	R
+-	'hắn là anh hùng được!?'
+-	\L_07243:
+-	ZH 1:
+-	'Bất cứ ai'
+-	R
+-	'cũng có thể thấy đó là'
+-	R
+-	'một lời nói dối to lớn!'
+-	\L_07243:
+-	ZH 1:
+-	'Ngay cả khi chúng ta'
+-	R
+-	'chỉ bắt đầu ngay bây giờ...'
+-	\L_07243:
+-	ZH 1:
+-	'Ừ, đã muộn rồi, nhưng ít'
+-	R
+-	'nhất hãy xây dựng lại Zeth.'
+-	\L_07243:
+-	ZH 1:
+-	'Đó là điều ít nhất'
+-	R
+-	'chúng ta có thể làm...!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Ít nhất chúng ta'
+-	R
+-	'có thể làm được gì?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Cha ơi, vì...!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Đồ ngu, ngươi định'
+-	R
+-	'làm điều an ủi đó cho những'
+-	R
+-	'người đã chết vì Zeth sao?!'
+-	\L_07243:
+-	ZH 1:
+-	'Từ vị vua đã phản bội họ?!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'... Ưu...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Hãy để tôi nói'
+-	R
+-	'cho cậu điều này, Magic.'
+-	\L_07243:
+-	ZH 1:
+-	'Người tiên tri về sự'
+-	R
+-	'xuất hiện của anh hùng là'
+-	R
+-	'Lucy, người sáng lập Zeth.'
++	'Phòng của Gandhi'
++	R
++	'Ra vậy...... Magic,'
++	\L_07243:
++	ZH 1:
++	'con cuối cùng cũng đã'
++	R
++	'thành đàn bà rồi...'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Thôi đi......'
++	\L_07243:
++	ZH 1:
++	'Có kinh nghiệm hay không'
++	R
++	'thì phụ nữ vẫn là phụ'
++	R
++	'nữ. Nghĩ thế là lạc hậu.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Nhưng...... không, chuyện'
++	R
++	'vặt đó sao cũng được.'
++	\L_07243:
++	ZH 1:
++	'Thế nào, được trực tiếp'
++	R
++	'tiếp xúc với Vua Rance.'
++	\L_07243:
++	ZH 1:
++	'Con cũng đã hiểu sự vĩ'
++	R
++	'đại của ngài rồi chứ.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Chẳng có gì, tôi chỉ càng'
++	R
++	'thấy hắn là đồ hạ tiện thôi.'
++	\L_07243:
++	ZH 1:
++	'Quan trọng hơn, cha......!'
++	\L_07243:
++	ZH 1:
++	'Tỉnh lại đi. Ai rót vào tai'
++	R
++	'cha rằng gã đó là dũng giả!?'
++	\L_07243:
++	ZH 1:
++	'Ai đi nữa, đó cũng là'
++	R
++	'lời nói dối to tướng!'
++	\L_07243:
++	ZH 1:
++	'Từ bây giờ cũng được......'
++	\L_07243:
++	ZH 1:
++	'phải, muộn rồi,'
++	R
++	'nhưng ít nhất... hãy'
++	R
++	'phục hưng Zeth đi,'
++	\L_07243:
++	ZH 1:
++	'đó là điều tối thiểu......!'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Tối thiểu gì.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Cha, vì......!'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Đồ ngu, con định nói làm'
++	R
++	'thế là an ủi những người'
++	R
++	'đã tuẫn tiết vì Zeth sao!'
++	\L_07243:
++	ZH 1:
++	'Bởi một ông vua'
++	R
++	'chẳng có niềm tin, cứ'
++	R
++	'ngả theo chiều gió!'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'......Ư......'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Magic, để cha'
++	R
++	'nói cho con biết.'
++	\L_07243:
++	ZH 1:
++	'Người tiên tri dũng'
++	R
++	'giả xuất hiện là thủy'
++	R
++	'tổ nước Zeth, Lucy.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0718e:
+@@ -2335,94 +2281,86 @@
+ 	\L_07236:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Tôi chắc chắn cậu'
+-	R
+-	'đã nghe nói về nàng.'
+-	\L_07243:
+-	ZH 1:
+-	'Nhà tiên'
+-	R
+-	'tri tuyệt đối, người chỉ'
+-	R
+-	'nói chuyện với Nhà vua...'
+-	\L_07243:
+-	ZH 1:
+-	'Lời tiên tri của'
+-	R
+-	'nàng được đảm bảo.'
+-	\L_07243:
+-	ZH 1:
+-	'Và tôi tin chắc'
+-	R
+-	'rằng Vua Rance chính'
+-	R
+-	'là người hùng đó.'
+-	\L_07243:
+-	ZH 1:
+-	'Hắn chắc chắn'
++	'Con cũng từng nghe rồi.'
++	\L_07243:
++	ZH 1:
++	'Nhà tiên tri tuyệt đối,'
++	R
++	'chỉ nói với quốc vương...'
++	\L_07243:
++	ZH 1:
++	'Lời tiên tri của bà ấy'
++	R
++	'chắc chắn ứng nghiệm.'
++	\L_07243:
++	ZH 1:
++	'Và cha tin chắc rằng chính'
++	R
++	'Vua Rance là dũng giả đó.'
++	\L_07243:
++	ZH 1:
++	'Ngài nhất định'
+ 	R
+ 	'sẽ cứu thế giới.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Đợi đã...'
+-	\L_07243:
+-	ZH 1:
+-	'Nhưng bố ơi,'
+-	\L_07243:
+-	ZH 1:
+-	'việc một anh hùng xuất hiện'
+-	R
+-	'là đúng không nhất thiết có'
+-	\L_07243:
+-	ZH 1:
+-	'nghĩa là đánh giá của'
+-	R
+-	'bố về Vua Rance là đúng...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Im lặng!!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Hngh...!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Hắn là một'
+-	R
+-	'anh hùng thực sự! Ta'
+-	R
+-	'không nghi ngờ gì nữa!!'
+-	\L_07243:
+-	ZH 1:
+-	'Bằng chứng là, Magic...'
+-	R
+-	'Còn ngực của cậu thì sao...?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Ờ... Ngực của tôi?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Khi con nghĩ về'
+-	R
+-	'quê hương, hay về Alex...'
+-	\L_07243:
+-	ZH 1:
+-	'Ngực con có'
+-	R
+-	'đau như trước không?'
+-	R
+-	'Nó có đau không?'
++	'Khoan đã...... cha, nhưng,'
++	\L_07243:
++	ZH 1:
++	'cứ cho là dũng giả'
++	R
++	'xuất hiện là thật,'
++	\L_07243:
++	ZH 1:
++	'thì phán đoán của cha'
++	R
++	'rằng Vua Rance là dũng giả'
++	\L_07243:
++	ZH 1:
++	'cũng có thể sai mà......'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Câmmmmm!!'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Ư......!'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ngài ấy đích thực là'
++	R
++	'dũng giả! Không thể sai!!'
++	\L_07243:
++	ZH 1:
++	'Bằng chứng là, Magic......'
++	R
++	'lòng con thế nào......?'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Hả...... lòng?'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Khi con nghĩ về tổ'
++	R
++	'quốc...... về Alex......'
++	\L_07243:
++	ZH 1:
++	'thế nào, lòng con còn'
++	R
++	'nghẹn như trước không?'
++	R
++	'Còn nặng nề không?'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0718e:
+@@ -2432,37 +2370,31 @@
+ 	\L_07236:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Mọi chuyện trở nên'
+-	R
+-	'tốt hơn kể từ khi quan'
+-	R
+-	'hệ với hắn, phải không?'
+-	\L_07243:
+-	ZH 1:
+-	'Ta có thể'
+-	R
+-	'thấy rằng con đang cảm'
+-	R
+-	'thấy tốt hơn một chút.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Ờ...'
+-	\L_07243:
+-	ZH 1:
+-	'Đ-Thật nực cười!'
+-	R
+-	'Dừng lại đi, cha đang làm'
+-	R
+-	'con cảm thấy ghê tởm đấy!'
+-	\L_07243:
+-	ZH 1:
+-	'Ngài chỉ'
+-	R
+-	'thúc đẩy sự trả thù của'
+-	R
+-	'con chống lại ngài!!'
++	'Chẳng phải đã nhẹ'
++	R
++	'bớt phần nào, từ khi'
++	R
++	'được ngài ấy ôm sao.'
++	\L_07243:
++	ZH 1:
++	'Cha thấy con có vẻ khỏe'
++	R
++	'khoắn hơn một chút.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Ư......'
++	\L_07243:
++	ZH 1:
++	'V, vớ vẩn! Thôi đi,'
++	R
++	'ghê tởm chết đi được!'
++	\L_07243:
++	ZH 1:
++	'Tôi chỉ đang sôi'
++	R
++	'sục báo thù thôi!!'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+@@ -2475,11 +2407,11 @@
+ 	\L_07236:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Biết được tình'
+-	R
+-	'yêu của anh, Magic... Tình'
+-	R
+-	'yêu vĩ đại của Vua Rance...!'
++	'Hãy hiểu tình yêu,'
++	R
++	'Magic...... tình yêu vĩ'
++	R
++	'đại của Vua Rance......!'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!
+@@ -2498,21 +2430,21 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Ma thuật'
+-	R
+-	'chết tiệt, nàng không đến!'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi sẽ đấm nàng vào'
+-	R
+-	'lần tới khi tôi gặp nàng!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Xin hãy bình'
+-	R
+-	'tĩnh lại, Bệ hạ...'
++	'Phòng yết kiến'
++	R
++	'Con Magic này, không chịu'
++	R
++	'tới...!'
++	\L_07243:
++	ZH 1:
++	'Lần sau gặp thì'
++	R
++	'cho ăn đòn, ăn đòn!'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Xin bệ hạ bình tĩnh......'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!
+@@ -2560,33 +2492,33 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Ma Pháp - Sky Above'
+-	R
+-	'Ác quỷ Xacalite xuất hiện,'
+-	\L_07243:
+-	ZH 1:
+-	'dẫn theo một đám'
+-	R
+-	'mây đen đằng sau hắn...'
++	'Tháp Magic - Bầu trời'
++	R
++	'Dẫn theo mây đen,'
++	\L_07243:
++	ZH 1:
++	'ác ma Xacalite'
++	R
++	'xuất hiện......'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 257!
+ 	\L_07172:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Bây giờ là lúc thực'
+-	R
+-	'hiện hợp đồng của tôi...'
+-	\L_07243:
+-	ZH 1:
+-	'Cô gái... Em'
+-	R
+-	'chỉ cần đợi sau'
++	'Giờ chính là lúc thực'
++	R
++	'thi khế ước......'
++	\L_07243:
++	ZH 1:
++	'Cô gái......'
++	R
++	'hãy đợi đấy. Còn '
+ 	H 0, VAR0388:
+ 	ZH 1:
+-	'Hơn nữa bị giết hợp'
+-	R
+-	'đồng sẽ được thực hiện.'
++	' mạng nữa là khế'
++	R
++	'ước hoàn thành.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_07228:
+@@ -2610,10 +2542,10 @@
+ 	R
+ 	'Bầu trời phía trên'
+ 	R
+-	'Xacalite bị tấn công'
++	'Doanh trại của'
+ 	R
+ 	X 1:
+-	'chỗ ở của.'
++	' bị Xacalite tập kích.'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0569 : VAR0154!
+@@ -2652,29 +2584,27 @@
+ 		\L_07172:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Chưa đủ... Hợp'
+-		R
+-		'đồng của tôi với cô gái đó'
+-		R
+-		'vẫn chưa được hoàn thành...'
+-		\L_07243:
+-		ZH 1:
+-		'Vụ thảm sát tiếp theo,'
+-		R
+-		'tôi sẽ cố gắng đạt được số'
+-		R
+-		'lượng mà hợp đồng yêu cầu...'
+-		\L_07243:
+-		ZH 1:
+-		'Chỉ'
++		'Vẫn chưa đủ...... khế'
++		R
++		'ước với cô gái vẫn'
++		R
++		'chưa hoàn thành......'
++		\L_07243:
++		ZH 1:
++		'Lần thảm sát tới, ta sẽ cho'
++		R
++		'đủ số trong khế ước......'
++		\L_07243:
++		ZH 1:
++		'Còn lại '
+ 		H 0, VAR0388:
+ 		ZH 1:
+-		'mạng sống còn lại...'
+-		\L_07243:
+-		ZH 1:
+-		'Tôi… kiểu như'
+-		R
+-		'một người bán hàng…'
++		' mạng......'
++		\L_07243:
++		ZH 1:
++		'Sao ta...... cứ như gã'
++		R
++		'đi chào hàng ấy nhỉ......'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_07156:
+@@ -2705,23 +2635,25 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Ma Pháp - 10F'
++	'Tháp Magic - Tầng 10'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 257!
+ 	\L_07172:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Heheh... Heheheh...'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Xacalite xuất'
+-	R
+-	'hiện trước khi chiếc Ghế'
+-	R
+-	'Hợp đồng Magic xuất hiện.'
++	'Khục khục...... khục'
++	R
++	'khục khục.........'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Xacalite hiện ra trước'
++	R
++	'chiếc Ghế Khế ước'
++	R
++	'nơi Magic đang ngồi.'
+ 	\L_07243:
+ 	\L_07236:
+ 	PF1 VAR0056:
+@@ -2735,43 +2667,45 @@
+ 	PF0 VAR0056:
+ 	\L_07243:
+ 	ZH 1:
+-	'Xacalite 「Cô gái, Magic...」'
+-	\L_07243:
+-	ZH 1:
+-	'Hợp đồng của cô với tôi đã hoàn tất. Tôi đã'
+-	\L_07243:
+-	ZH 1:
+-	'cướp đi mạng sống của 800 binh sĩ Leazas ...'
++	'Xacalite 「Cô gái, Magic......'
++	\L_07243:
++	ZH 1:
++	'khế ước giữa ngươi và ta đã hoàn tất.'
++	\L_07243:
++	ZH 1:
++	'Ta đã lấy mạng 800 lính Leazas, đúng như đã hẹn...'
+ 	\L_07243:
+ 	ZH 1:
+ 	'」'
+ 	\L_07243:
+ 	ZH 1:
+-	'Magic 「... Yah... Ah, ah...」'
+-	\L_07243:
+-	ZH 1:
+-	'Xacalite 「Bây giờ, tôi sẽ lấy linh hồn của'
+-	R
+-	'cậu...」'
++	'Magic 「.........Đừng......... a, a.........」'
++	\L_07243:
++	ZH 1:
++	'Xacalite 「Giờ thì, ta xin'
++	R
++	'nhận linh hồn ngươi......」'
+ 	\L_07243:
+ 	ZH 1:
+ 	'Magic 「A!? Aaaaaaaaaaaaa...!!」'
+ 	\L_07243:
+ 	ZH 1:
+-	'Ác quỷ nhìn cơ thể của Magic'
+-	R
+-	'co giật dữ dội. Sau đó...'
++	'Dưới ánh nhìn của ác ma, cơ thể'
++	R
++	'Magic co giật dữ dội. Rồi......'
+ 	\L_07243:
+ 	PW1 VAR0056:
+ 	G 806:
+ 	PW0 VAR0056:
+ 	ZH 1:
+-	'Xacalite 「Heheh... Gahahahaha!..」'
+-	\L_07243:
+-	ZH 1:
+-	'Linh hồn của Magic rơi vào tay Xacalite.'
+-	R
+-	'Her remains crumbled like sand...'
++	'Xacalite 「Khục khục......'
++	R
++	'khục khục khục.........」'
++	\L_07243:
++	ZH 1:
++	'Linh hồn Magic rơi vào tay Xacalite.'
++	R
++	'Thi thể nàng vỡ vụn như cát......'
+ 	\L_07243:
+ 	PF1 VAR0056:
+ 	\L_07236:
+@@ -2795,11 +2729,11 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp ma thuật - Lối vào'
+-	R
+-	'Rance dẫn theo một số lính'
+-	R
+-	'canh và nhìn lên tòa tháp.'
++	'Tháp Magic - Lối vào'
++	R
++	'Dẫn theo lính hộ vệ,'
++	R
++	'Rance ngước nhìn tòa tháp.'
+ 	\L_07243:
+ 	\L_07236:
+ 	{VAR0389 = 2:
+@@ -2807,16 +2741,14 @@
+ 	}
+ 	\L_0711e:
+ 	ZH 1:
+-	'Được rồi, ta sẽ đi'
+-	R
+-	'xem Magic ở tầng 10.'
+-	\L_07243:
+-	ZH 1:
+-	'Một nụ hôn'
+-	R
+-	'từ một hoàng tử sẽ đánh'
+-	R
+-	'thức nàng, gahahaha.'
++	'Được, đi gặp bé Magic'
++	R
++	'đang ngủ ở tầng 10 nào.'
++	\L_07243:
++	ZH 1:
++	'Nụ hôn của hoàng tử sẽ đánh'
++	R
++	'thức nàng, gahahahahaha.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_07156:
+@@ -2829,12 +2761,12 @@
+ 	\L_07156:
+ 	ZM 32:
+ 	ZH 1:
+-	'Tháp ma thuật'
++	'Tháp Magic'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'10F'
++	'Tầng 10'
+ 	\L_07243:
+ 	\L_07236:
+ 	PF1 VAR0056:
+@@ -2844,22 +2776,22 @@
+ 	SS 12:
+ 	\L_071fe:
+ 	ZH 1:
+-	'Rance 「Ồ, vẫn đang đợi ta. Cô gái ngoan.」'
++	'Rance 「Ồ, vẫn đang đợi bản'
++	R
++	'đại gia đây. Ngoan lắm」'
+ 	PF0 VAR0056:
+ 	\L_07243:
+ 	ZH 1:
+ 	'Magic 「... Kh... Ahn...」'
+ 	\L_07243:
+ 	ZH 1:
+-	'Tiếng rên rỉ ngọt ngào,'
+-	\L_07243:
+-	ZH 1:
+-	'đau khổ của Magic thổi vào khuôn'
+-	R
+-	'mặt Rance đang nhìn thẳng vào cô.'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Chết tiệt... Nóng quá...」'
++	'Hơi thở ngọt ngào mà khổ sở của Magic'
++	\L_07243:
++	ZH 1:
++	'phả lên mặt Rance đang ghé sát nhìn.'
++	\L_07243:
++	ZH 1:
++	'Rance 「Rạo rực...... kích thích quá......」'
+ 	\L_07243:
+ 	!VAR0001 : 0!
+ 	!VAR0002 : 0!
+@@ -2869,30 +2801,30 @@
+ 	!VAR0389 : 3!
+ 	\L_0711e:
+ 	ZH 1:
+-	'Vậy đây là một trong... Tháp'
+-	R
+-	'ma thuật của Zeth?'
+-	\L_07243:
+-	ZH 1:
+-	'Cô gái ma pháp đó dường như'
+-	R
+-	'vẫn đang trốn bên trong. Hãy'
+-	R
+-	'đi tìm kiếm.'
++	'Đây là tháp của một'
++	R
++	'trong Tứ Đại Lãnh Chúa'
++	R
++	'Zeth... tháp Magic à.'
++	\L_07243:
++	ZH 1:
++	'Nghe nói trong đó vẫn'
++	R
++	'còn con nhỏ tên Magic'
++	R
++	'đang trốn. Tìm thôi.'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 471!
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Vâng, vua Rance.'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Rance bước vào'
+-	R
+-	'Tháp Ma Pháp...'
++	'Rõ.'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Rance bước vào tháp Magic...'
+ 	\L_07243:
+ 	\L_07236:
+ 	PF1 VAR0056:
+@@ -2900,37 +2832,33 @@
+ 	\L_07156:
+ 	ZM 32:
+ 	ZH 1:
+-	'Tháp ma thuật'
++	'Tháp Magic'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'4F Hộp đào... Cuốn'
+-	R
+-	'sách ma thuật... Sổ'
+-	R
+-	'ghi chép đại học...'
+-	\L_07243:
+-	ZH 1:
+-	'Này, có gì ở đó không?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Vâng, một cuốn'
+-	R
+-	'sách tài chính và một'
+-	R
+-	'chiếc kéo để cắt chỉ.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Hmmm, chẳng có'
+-	R
+-	'gì ngoài chuyện tào lao. Có'
+-	R
+-	'lẽ chúng ta nên tiếp tục...'
++	'Tầng 4'
++	R
++	'Đào hộp...... sách ma thuật'
++	R
++	'...... vở đại học......'
++	\L_07243:
++	ZH 1:
++	'Này, bên đó có gì không.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Dạ, có bản quyết'
++	R
++	'toán và kéo cắt chỉ.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ừmmm, toàn đồ vớ vẩn.'
++	R
++	'Lên tầng tiếp vậy......'
+ 	\L_07243:
+ 	\L_07236:
+ 	PF1 VAR0056:
+@@ -2938,12 +2866,14 @@
+ 	\L_07156:
+ 	ZM 32:
+ 	ZH 1:
+-	'Tháp ma thuật'
++	'Tháp Magic'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'7F Đây là gì?'
++	'Tầng 7'
++	R
++	'Cái gì đây......?'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+@@ -2951,28 +2881,28 @@
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Đây là... vé số.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Cái quái gì vậy? Tại'
+-	R
+-	'sao nàng lại có những thứ'
+-	R
+-	'đó...? Có khoảng 500 ở đây.'
+-	\L_07243:
+-	ZH 1:
+-	'Xét theo'
+-	R
+-	'dấu X thì tất cả đều mất'
+-	R
+-	'vé... Ch. Hãy tiếp tục.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Có.'
++	'Đây là...... vé số ạ.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Cái quái gì thế? Sao'
++	R
++	'lại có thứ đó......'
++	R
++	'chắc phải 500 tờ.'
++	\L_07243:
++	ZH 1:
++	'Nhìn chỗ đánh dấu X'
++	R
++	'thì toàn trượt cả......'
++	R
++	'chậc. Lên tiếp.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Vâng.'
+ 	\L_07243:
+ 	\L_07236:
+ 	PF1 VAR0056:
+@@ -2980,43 +2910,41 @@
+ 	\L_07156:
+ 	ZM 32:
+ 	ZH 1:
+-	'Tháp ma thuật'
++	'Tháp Magic'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'9F Ồ... Tìm thấy một'
+-	R
+-	'ngăn kéo đựng quần áo.'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'（Xào xạc, xào xạc...）'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Đồ lót, đồ lót...'
+-	R
+-	'Bắt đầu nào, quần lót!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Bệ hạ, ừm...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Im đi, đừng phàn nàn nữa.'
+-	\L_07243:
+-	ZH 1:
+-	'Ta là vua của nước chiến'
+-	R
+-	'thắng nên ta có thể làm'
+-	R
+-	'bất cứ điều gì ta muốn.'
++	'Tầng 9'
++	R
++	'Ồ...... tủ quần áo đây rồi.'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'(lục lọi, lục lọi......)'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Đồ lót, đồ lót......'
++	R
++	'đâu...... có rồi, quần lót!'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Bệ hạ Rance, ưm...'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ồn ào, đừng lắm lời.'
++	\L_07243:
++	ZH 1:
++	'Ta là vua nước thắng'
++	R
++	'trận, nên chẳng sao cả.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0718e:
+@@ -3026,11 +2954,11 @@
+ 	\L_07236:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Hmmm, thực sự có một số'
+-	R
+-	'thứ hay ho ở đây, nhưng...'
+-	R
+-	'Hãy tìm kiếm thêm nhé.'
++	'Ừmm, nhưng quả nhiên,'
++	R
++	'người mặc bên trong mới'
++	R
++	'hay... Đi tìm người thôi.'
+ 	\L_07243:
+ 	\L_07236:
+ 	PF1 VAR0056:
+@@ -3038,16 +2966,16 @@
+ 	\L_07156:
+ 	ZM 32:
+ 	ZH 1:
+-	'Tháp ma thuật'
++	'Tháp Magic'
+ 	R
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'10F Nhóm'
+-	R
+-	'của Rance bước vào một'
+-	R
+-	'căn phòng rộng và tối.'
++	'Tầng 10'
++	R
++	'Rồi nhóm Rance bước vào'
++	R
++	'một đại sảnh rộng và tối.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0711e:
+@@ -3067,221 +2995,215 @@
+ 	SS 12:
+ 	\L_071fe:
+ 	ZH 1:
+-	'Rance 「Ồ, nàng đang quyến rũ ta...!!」'
++	'Rance 「Ồ, mâm cơm dọn sẵn'
++	R
++	'cho bản đại gia......!!」'
+ 	PF0 VAR0056:
+ 	\L_07243:
+ 	ZH 1:
+-	'Magic nằm trên chiếc Ghế Hợp đồng ở'
+-	\L_07243:
+-	ZH 1:
+-	'giữa phòng. Rance cố gắng chạy đến chỗ nàng.'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Hm...?」'
+-	\L_07243:
+-	ZH 1:
+-	'Nhưng một linh cảm không'
+-	R
+-	'lành đã khiến anh dừng lại.'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Cái gì...? Có điều gì đó'
+-	R
+-	'về chuyện này thật đáng buồn.」'
+-	\L_07243:
+-	ZH 1:
+-	'Một luồng không khí ớn lạnh bao quanh Magic...'
+-	\L_07243:
+-	ZH 1:
+-	'Hay đúng hơn là chiếc ghế cô đang ngồi.'
+-	\L_07243:
+-	ZH 1:
+-	'Maris 「... Đây là...」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Hm, Maris? Cô biết gì đó về điều này? 」'
+-	\L_07243:
+-	ZH 1:
+-	'Maris 「Vâng... Tôi tin rằng'
+-	R
+-	'nàng đã lập khế ước với ác quỷ.」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Một con quỷ?」'
+-	\L_07243:
+-	ZH 1:
+-	'Maris 「Nàng chắc chắn là Magic,」'
+-	R
+-	'chúa tể của tòa tháp này. Nàng'
+-	\L_07243:
+-	ZH 1:
+-	'đã sử dụng sức mạnh ma thuật to lớn'
+-	R
+-	'của mình để lập khế ước với ác quỷ...」'
+-	\L_07243:
+-	ZH 1:
+-	'Maris 「Ghế này là Ghế hợp đồng.'
+-	R
+-	'Nó ràng buộc người'
+-	\L_07243:
+-	ZH 1:
+-	'lập hợp đồng cho đến khi hợp đồng」'
+-	R
+-	'hoàn thành...」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「... Và chuyện gì sẽ xảy ra sau đó?」'
+-	\L_07243:
+-	ZH 1:
+-	'Maris 「Tất nhiên là linh'
+-	R
+-	'hồn của nàng sẽ bị lấy đi.」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Cái gì, vậy nàng sẽ chết?!」'
+-	\L_07243:
+-	ZH 1:
+-	'Maris 「Có... Có vẻ như nàng sẽ làm vậy.」'
++	'Giữa sảnh là chiếc Ghế Khế ước, trên đó là Magic.'
++	\L_07243:
++	ZH 1:
++	'Rance định chạy lại đó.'
++	\L_07243:
++	ZH 1:
++	'Rance 「Hửm.........?」'
++	\L_07243:
++	ZH 1:
++	'Nhưng một bầu khí ngột ngạt chặn đường hắn.'
++	\L_07243:
++	ZH 1:
++	'Rance 「Gì thế này...... có'
++	R
++	'cái gì đó lờ mờ đang cuộn lên」'
++	\L_07243:
++	ZH 1:
++	'Quanh Magic... không, quanh chiếc ghế Magic ngồi,'
++	\L_07243:
++	ZH 1:
++	'một luồng khí khiến người'
++	R
++	'ta ớn lạnh đang xoáy cuộn.'
++	\L_07243:
++	ZH 1:
++	'Maris 「.........Đây là......」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Hửm, Maris. Cô biết gì à?」'
++	\L_07243:
++	ZH 1:
++	'Maris 「Vâng...... có lẽ cô'
++	R
++	'ấy đã lập khế ước với ác ma」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Ác ma?」'
++	\L_07243:
++	ZH 1:
++	'Maris 「Cô gái này...... hẳn là'
++	R
++	'chủ nhân tòa tháp, cô Magic.'
++	\L_07243:
++	ZH 1:
++	'Cô ấy đã dùng ma lực lớn của mình'
++	R
++	'để lập khế ước với ác ma......」'
++	\L_07243:
++	ZH 1:
++	'Maris 「Chiếc ghế này là Ghế'
++	R
++	'Khế ước. Thứ dùng để trói buộc'
++	\L_07243:
++	ZH 1:
++	'người lập khế ước cho đến khi khế'
++	R
++	'ước của ác ma được chấp thuận......」'
++	\L_07243:
++	ZH 1:
++	'Rance 「.........Khế ước được'
++	R
++	'chấp thuận thì...... sẽ ra sao」'
++	\L_07243:
++	ZH 1:
++	'Maris 「Đương nhiên, linh hồn'
++	R
++	'cô ấy sẽ bị ác ma thu lấy」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Cáiii gì, thế thì chết còn gì!」'
++	\L_07243:
++	ZH 1:
++	'Maris 「Vâng...... đúng vậy」'
+ 	\L_07243:
+ 	!VAR0154 : 37!
+ 	{VAR0102 \ 0:
+ 		ZH 1:
+-		'Gandhi 「Mhm, xuất sắc!! Ta tưởng nàng'
+-		R
+-		'chỉ là người mới vào nghề, nhưng...」'
+-		\L_07243:
+-		ZH 1:
+-		'Đó là con gái ta. Tốt lắm, Magic...!」'
+-		\L_07243:
+-		ZH 1:
+-		'Rance 「Ồ! Cái gì, Gandhi?'
+-		R
+-		'Ngươi tới đây khi nào thế?」'
+-		\L_07243:
+-		ZH 1:
+-		'Rance không để ý khi Gandhi bắt'
+-		\L_07243:
+-		ZH 1:
+-		'đầu đứng đằng sau hắn. Hắn đang'
+-		R
+-		'gật đầu trong khi ấn vào khóe mắt.'
+-		\L_07243:
+-		ZH 1:
+-		'Gandhi 「Ta lo lắng rằng cô con gái'
+-		R
+-		'bất tài của ta sẽ gây rắc rối cho Rance'
+-		\L_07243:
+-		ZH 1:
+-		'và không thể kiềm」 chế được việc đến.」'
+-		\L_07243:
+-		ZH 1:
+-		'Rance 「Con gái!? Nàng là của cô...?'
+-		R
+-		'Không thể nào được, nàng quá dễ thương.」'
+-		\L_07243:
+-		ZH 1:
+-		'Gandhi 「Wahahahahah,」 thật khắc nghiệt. Magic'
+-		\L_07243:
+-		ZH 1:
+-		'chắc chắn giống với người vợ đã mất của ta, nhưng'
+-		\L_07243:
+-		ZH 1:
+-		'chắc chắn nàng cũng mang'
+-		R
+-		'trong mình dòng máu của ta.」'
+-		\L_07243:
+-		ZH 1:
+-		'Gandhi 「Hãy nhìn điều kỳ diệu này! Cô đã lập'
+-		\L_07243:
+-		ZH 1:
+-		'giao ước với một ác quỷ để chiến đấu với」'
+-		\L_07243:
+-		ZH 1:
+-		'Leazas. Một con quỷ cấp độ rất cao'
+-		R
+-		'đang đánh giá bằng chiếc ghế ...'
++		'Gandhi 「Ừmmm, tuyệt vời!! Ta cứ'
++		R
++		'tưởng chỉ là đứa non nớt......'
++		\L_07243:
++		ZH 1:
++		'đúng là con gái ta. Giỏi lắm, Magic...!」'
++		\L_07243:
++		ZH 1:
++		'Rance 「Oái!? Gì thế,'
++		R
++		'Gandhi. Ở đó từ bao giờ thế」'
++		\L_07243:
++		ZH 1:
++		'Chẳng biết từ lúc nào, Gandhi'
++		R
++		'đã đứng ngay sau lưng Rance,'
++		\L_07243:
++		ZH 1:
++		'vừa gật gù vừa ấn khóe mắt.'
++		\L_07243:
++		ZH 1:
++		'Gandhi 「Dạ...... thần lo đứa'
++		R
++		'con gái bất tài này gây phiền'
++		\L_07243:
++		ZH 1:
++		'cho bệ hạ thế nào, nên'
++		R
++		'không kìm được mà chạy tới」'
++		\L_07243:
++		ZH 1:
++		'Rance 「Con gái!? Con bé này là con'
++		R
++		'ông...... Không đời nào, dễ thương thế mà」'
++		\L_07243:
++		ZH 1:
++		'Gandhi 「Wahahahaha, nói thẳng quá. Đúng là Magic'
++		\L_07243:
++		ZH 1:
++		'giống người vợ quá cố của thần...'
++		\L_07243:
++		ZH 1:
++		'nhưng chắc chắn cũng mang dòng máu của thần」'
++		\L_07243:
++		ZH 1:
++		'Gandhi 「Xin bệ hạ xem ma lực này! Có vẻ con bé'
++		\L_07243:
++		ZH 1:
++		'đã lập khế ước với ác ma để chiến đấu với'
++		\L_07243:
++		ZH 1:
++		'Leazas. Nhìn chiếc ghế thì'
++		R
++		'là một ác ma khá cao cấp...'
+ 		\L_07243:
+ 		ZH 1:
+ 		'」'
+ 		\L_07243:
+ 		ZH 1:
+-		'Gandhi 「Chà,」'
+-		\L_07243:
+-		ZH 1:
+-		'Magic. Nghĩ rằng ngươi đã đi xa đến mức này'
+-		\L_07243:
+-		ZH 1:
+-		'trong khi vẫn ghét vị trí của mình...'
+-		\L_07243:
+-		ZH 1:
+-		'Ngươi hẳn đã phải cải thiện bản'
+-		R
+-		'thân mình. Rất đáng ngưỡng mộ!」'
+-		\L_07243:
+-		ZH 1:
+-		'Rance 「Cô có chắc mình nên nói điều'
+-		R
+-		'đó không? Khi hợp đồng hoàn tất,'
+-		\L_07243:
+-		ZH 1:
+-		'con gái ông sẽ chết.」'
+-		\L_07243:
+-		ZH 1:
+-		'Gandhi 「Ừ,」 điều đó không đáng'
+-		R
+-		'ngưỡng mộ sao? Đó là một kết thúc'
+-		\L_07243:
+-		ZH 1:
+-		'đáng mơ ước cho cả một pháp sư và'
+-		R
+-		'một người bảo vệ đất nước của họ.」'
+-		\L_07243:
+-		ZH 1:
+-		'Gandhi đứng uy nghiêm và chỉ vào'
+-		R
+-		'Magic. Sau đó ông lớn tiếng tuyên bố.'
+-		\L_07243:
+-		ZH 1:
+-		'Gandhi 「Chết đi,'
+-		\L_07243:
+-		ZH 1:
+-		'Magic! Cha của ngươi sẽ chiến đấu'
+-		R
+-		'với con quỷ mà ngươi đã triệu hồi...」'
+-		\L_07243:
+-		ZH 1:
+-		'Vì vậy, ngươi có thể có một kết thúc tốt đẹp! 」'
+-		\L_07243:
+-		ZH 1:
+-		'Rance 「Chết tiệt, im đi, đồ ngốc. Này'
+-		R
+-		'các ngươi, hãy đưa Gandhi trở lại lâu đài.」'
+-		\L_07243:
+-		ZH 1:
+-		'Quân nhân Leazas 「Vâng, thưa bệ hạ.」'
++		'Gandhi 「Không,'
++		\L_07243:
++		ZH 1:
++		'Magic. Con vốn ghét ngôi vị Tứ Đại Lãnh Chúa,'
++		\L_07243:
++		ZH 1:
++		'vậy mà làm được đến mức này......'
++		\L_07243:
++		ZH 1:
++		'Tiến bộ từ lúc nào chẳng hay, tuyệt vời!」'
++		\L_07243:
++		ZH 1:
++		'Rance 「Nói thế mà được à...... Khế ước hoàn thành'
++		\L_07243:
++		ZH 1:
++		'thì con gái ông chết đấy」'
++		\L_07243:
++		ZH 1:
++		'Gandhi 「Dạ, chẳng phải tuyệt vời sao? Là pháp sư,'
++		\L_07243:
++		ZH 1:
++		'là người bảo vệ đất nước, đó là cái chết đáng có」'
++		\L_07243:
++		ZH 1:
++		'Gandhi đứng sừng sững, chỉ thẳng'
++		R
++		'vào Magic, rồi dõng dạc tuyên bố.'
++		\L_07243:
++		ZH 1:
++		'Gandhi 「Hãy chết cho xứng,'
++		\L_07243:
++		ZH 1:
++		'Magic! Cha sẽ chiến đấu với ác ma con đã gọi...'
++		\L_07243:
++		ZH 1:
++		'nên con hãy có một cái chết thật xứng đáng!」'
++		\L_07243:
++		ZH 1:
++		'Rance 「Ồn ào, im đi, đồ ngốc. Này'
++		R
++		'tụi bay, đưa lão Gandhi về thành」'
++		\L_07243:
++		ZH 1:
++		'Lính Leazas 「Rõ」'
+ 		\L_07243:
+ 		ZH 1:
+ 		'Gandhi 「Owah, Vua Rance...!」'
+ 		\L_07243:
+ 		ZH 1:
+-		'Rance 「Mệnh lệnh của nhà vua,'
+-		R
+-		'hãy quay lại, đi tiêu và đi ngủ.」'
+-		\L_07243:
+-		ZH 1:
+-		'... Gandhi bị nhiều người lính'
+-		R
+-		'bắt đi. Rance nhìn lại Magic.'
+-		\L_07243:
+-	}
+-	ZH 1:
+-	'Rance 「Hmmmm...」'
+-	\L_07243:
+-	ZH 1:
+-	'Ta không thể để linh hồn của một cô gái dễ thương'
+-	\L_07243:
+-	ZH 1:
+-	'như thế này bị quỷ dữ lấy mất. Ta sẽ cứu nàng.'
++		'Rance 「Lệnh quốc vương, về nhà đi ỉa rồi ngủ đi」'
++		\L_07243:
++		ZH 1:
++		'......Gandhi bị mấy tên lính'
++		R
++		'lôi đi. Rance nhìn lại Magic.'
++		\L_07243:
++	}
++	ZH 1:
++	'Rance 「Ừmmm...'
++	\L_07243:
++	ZH 1:
++	'Một cô gái dễ thương thế này'
++	R
++	'mà bị ác ma cướp linh hồn'
++	\L_07243:
++	ZH 1:
++	'thì không thể chấp nhận. Ta sẽ cứu.'
+ 	\L_07243:
+ 	ZH 1:
+ 	'」'
+@@ -3290,53 +3212,57 @@
+ 	'Maris 「À, không được đâu, Vua Rance!」'
+ 	\L_07243:
+ 	ZH 1:
+-	'Maris điên cuồng ngăn Rance lại'
+-	R
+-	'khi hắn cố nhấc Magic ra khỏi ghế.'
+-	\L_07243:
+-	ZH 1:
+-	'Maris 「Làm vậy là vi phạm hợp đồng.」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Hm, vậy thì sao? Nó sẽ cứu được nàng,'
+-	\L_07243:
+-	ZH 1:
+-	'phải không? Nếu hợp đồng được hoàn'
+-	R
+-	'thành,」 linh hồn của nàng sẽ bị lấy đi...」'
+-	\L_07243:
+-	ZH 1:
+-	'Maris 「Đúng...」'
+-	\L_07243:
+-	ZH 1:
+-	'Nhưng nếu hợp đồng bị vi phạm,'
+-	R
+-	'nghĩa là nếu nàng rời khỏi ghế,'
+-	\L_07243:
+-	ZH 1:
+-	'một lời nguyền sẽ phá hủy cơ thể nàng.」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Geh... Ngay cả khi nàng giữ được'
+-	R
+-	'linh hồn của mình, không có cơ thể...」'
+-	\L_07243:
+-	ZH 1:
+-	'Chết tiệt. Chúng ta nên làm gì đây, Maris? 」'
+-	\L_07243:
+-	ZH 1:
+-	'Maris 「Chỉ có một cách để cứu nàng. Chỉ khi ác'
+-	\L_07243:
+-	ZH 1:
+-	'quỷ không hoàn thành hợp đồng và tự'
+-	R
+-	'hủy bỏ nó」 thì nàng mới được cứu.」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Huh, ta hiểu rồi...」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance bỏ tay ra khỏi người Magic.'
++	'Thấy Rance định bế Magic'
++	R
++	'khỏi ghế, Maris vội ngăn lại.'
++	\L_07243:
++	ZH 1:
++	'Maris 「Làm thế là vi phạm khế ước」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Hửm, có sao đâu. Thế'
++	R
++	'chẳng phải được cứu sao?'
++	\L_07243:
++	ZH 1:
++	'Khế ước hoàn thành thì bị'
++	R
++	'lấy mất linh hồn mà......」'
++	\L_07243:
++	ZH 1:
++	'Maris 「Vâng......'
++	\L_07243:
++	ZH 1:
++	'nhưng trường hợp vi phạm,'
++	R
++	'tức là cô ấy rời khỏi ghế,'
++	\L_07243:
++	ZH 1:
++	'hẳn sẽ có lời nguyền làm cơ thể sụp đổ」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Ặc...... không mất'
++	R
++	'linh hồn mà mất xác thì......'
++	\L_07243:
++	ZH 1:
++	'...khốn thật. Làm sao bây giờ, Maris?」'
++	\L_07243:
++	ZH 1:
++	'Maris 「Để xem...... cách'
++	R
++	'cứu chỉ có một. Khi ác ma'
++	\L_07243:
++	ZH 1:
++	'thất bại trong việc thực hiện điều khoản'
++	R
++	'và tự hủy khế ước, người ký sẽ được cứu」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Vậy à, ra thế......」'
++	\L_07243:
++	ZH 1:
++	'Rance buông tay khỏi Magic.'
+ 	\L_07243:
+ 	!VAR0001 : 0!
+ 	!VAR0002 : 0!
+@@ -3361,7 +3287,7 @@
+ 	{VAR0150 = 100:
+ 		ZH 1:
+ 		$L_03d5f$
+-		'Bùa tịch thu nhà'
++		'Dán bùa tịch thu'
+ 		$
+ 	}
+ 	ZH 1:
+@@ -3372,9 +3298,9 @@
+ 	@L_03715:
+ *L_03793:
+ 	ZH 1:
+-	'Rance 「Hmmm, có lẽ ta không thể làm gì'
+-	R
+-	'ở đây. Ta đi đây... Tạm biệt, Magic.」'
++	'Rance 「Ừmmm, ở đây cũng chẳng làm gì'
++	R
++	'được...... Về thôi... bye bye, bé Magic」'
+ 	\L_07243:
+ 	ZH 1:
+ 	'Rance rời khỏi Tháp Ma Pháp.'
+@@ -3389,129 +3315,121 @@
+ *L_037d7:
+ 	{VAR0001 = 1:
+ 		ZH 1:
+-		'Magic 「... Hah... Ah... Mm...」'
+-		\L_07243:
+-		ZH 1:
+-		'Magic đang run rẩy trên ghế.'
+-		\L_07243:
+-		ZH 1:
+-		'Đôi chân của nàng lộ ra qua chiếc váy'
+-		\L_07243:
+-		ZH 1:
+-		'cọ xát vào nhau thật gợi tình một cách kỳ lạ.'
+-		\L_07243:
+-		ZH 1:
+-		'Rance 「Nàng đang mơ một giấc mơ bẩn thỉu à...?'
+-		R
+-		'Ta tự hỏi nó là gì ... 」'
+-		\L_07243:
+-		ZH 1:
+-		'Magic 「À... Aah... Yah...!」'
+-		\L_07243:
+-		ZH 1:
+-		'Bàn tay của Magic đập vào khoảng trống xung quanh'
+-		R
+-		'háng nàng như thể nàng đang'
+-		\L_07243:
+-		ZH 1:
+-		'cố đẩy bàn tay đang vươn tới nàng ra xa.'
+-		\L_07243:
+-		ZH 1:
+-		'Magic 「Ừm... Mmm... Không...」'
+-		\L_07243:
+-		ZH 1:
+-		'Bàn tay đó ngay lập tức'
+-		R
+-		'được kéo lại vào trong quần'
+-		\L_07243:
+-		ZH 1:
+-		'lót của cô và bắt đầu làm cô vui vẻ trở lại.'
+-		\L_07243:
+-		ZH 1:
+-		'Magic 「Không... Dừng lại...'
+-		R
+-		'Nếu cậu làm thế, à...!」'
+-		\L_07243:
+-		ZH 1:
+-		'Rance 「Mmgh...'
+-		\L_07243:
+-		ZH 1:
+-		'Đáy quần của ta cứng lại vì lực pheromone.'
+-		R
+-		'Món này thực sự rất ngon.」'
+-		\L_07243:
+-		ZH 1:
+-		'Maris 「Xin hãy kiềm chế bản thân, Bệ hạ...」'
++		'Magic 「.........Phư............'
++		R
++		'ưa......... ưm...」'
++		\L_07243:
++		ZH 1:
++		'Magic vẫn ngồi trên ghế, khẽ cựa mình.'
++		\L_07243:
++		ZH 1:
++		'Đôi chân trần lộ ra dưới váy'
++		\L_07243:
++		ZH 1:
++		'cọ vào nhau, gợi dục một cách kỳ lạ.'
++		\L_07243:
++		ZH 1:
++		'Rance 「Mơ chuyện dâm à...... mơ gì nhỉ......」'
++		\L_07243:
++		ZH 1:
++		'Magic 「A......... a a......... đừng.........!」'
++		\L_07243:
++		ZH 1:
++		'Tay Magic quờ vào khoảng không quanh háng, như đẩy'
++		\L_07243:
++		ZH 1:
++		'một bàn tay đang vươn tới.'
++		\L_07243:
++		ZH 1:
++		'Magic 「Ưm.........'
++		R
++		'ưmm......... kh...ông.........」'
++		\L_07243:
++		ZH 1:
++		'Nhưng bàn tay ấy lập tức bị'
++		R
++		'hút lên trên lớp quần lót,'
++		\L_07243:
++		ZH 1:
++		'rồi trái lại, bắt đầu tự an ủi.'
++		\L_07243:
++		ZH 1:
++		'Magic 「Đừng......... đã'
++		R
++		'bảo... đừng mà, a......!」'
++		\L_07243:
++		ZH 1:
++		'Rance 「Hừm......'
++		\L_07243:
++		ZH 1:
++		'Háng ta đang căng lên vì sức'
++		R
++		'mạnh pheromone. Đúng là ngon mắt」'
++		\L_07243:
++		ZH 1:
++		'Maris 「Xin bệ hạ tự kiềm chế cho......」'
+ 		\L_07243:
+ 		@L_03715:
+ 	}
+ 	!VAR0001 : 1!
+ 	ZH 1:
+-	'Rance 「Dù sao thì cũng hay xem.」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance nhìn kỹ vào Magic.'
+-	\L_07243:
+-	ZH 1:
+-	'Một lớp mồ hôi mỏng phủ lên trán và đùi cô, hơi'
+-	R
+-	'thở cô sâu và nóng.'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Ưu... Uu, mm...」'
+-	\L_07243:
+-	ZH 1:
+-	'Hơn hết, nàng thỉnh thoảng lại rên rỉ một cách gợi'
+-	R
+-	'cảm.'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Hmm, nàng đang nghĩ đến thứ gì đó gợi tình'
+-	R
+-	'à...?」'
+-	\L_07243:
+-	ZH 1:
+-	'Maris 「Bên cạnh việc ràng buộc người lập hợp'
+-	R
+-	'đồng,」 mục đích của Chủ tịch Hợp'
+-	\L_07243:
+-	ZH 1:
+-	'đồng là chuyển năng lượng'
+-	R
+-	'sống của họ cho quỷ dữ...」'
+-	\L_07243:
+-	ZH 1:
+-	'Maris 「Để giải phóng nhiều năng lượng sống hơn,」'
+-	R
+-	'tôi tin rằng nàng đang được'
+-	\L_07243:
+-	ZH 1:
+-	'thể hiện những điều tưởng tượng.」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Hohoh, tưởng tượng.'
+-	R
+-	'Ý cô là những giấc mơ khiêu dâm.」'
++	'Rance 「Nhưng mà, cảnh đẹp thật」'
++	\L_07243:
++	ZH 1:
++	'Rance chăm chú ngắm Magic đang ngồi.'
++	\L_07243:
++	ZH 1:
++	'Trán và đùi nàng lấm tấm mồ'
++	R
++	'hôi, hơi thở sâu và nóng hổi.'
++	\L_07243:
++	ZH 1:
++	'Magic 「Ư......... ư, ưm............」'
++	\L_07243:
++	ZH 1:
++	'Lại còn thỉnh thoảng bật ra tiếng rên đầy gợi cảm.'
++	\L_07243:
++	ZH 1:
++	'Rance 「Hừm, đang nghĩ chuyện H gì à......?」'
++	\L_07243:
++	ZH 1:
++	'Maris 「Ghế Khế ước ngoài'
++	R
++	'mục đích trói buộc người ký,'
++	\L_07243:
++	ZH 1:
++	'còn có nhiệm vụ chuyển sinh lực'
++	R
++	'của người ký cho ác ma......」'
++	\L_07243:
++	ZH 1:
++	'Maris 「Để tạo ra nhiều sinh lực hơn,'
++	\L_07243:
++	ZH 1:
++	'có lẽ cô ấy đang bị cho xem mộng dâm」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Hô hô, mộng dâm. Tức là mơ chuyện H」'
+ 	\L_07243:
+ 	ZH 1:
+ 	'Maris 「Vâng...」'
+ 	\L_07243:
+ 	ZH 1:
+-	'Rance 「Hmmm, vậy đó là lý do khiến nàng trở nên'
+-	R
+-	'như thế này à...?'
+-	\L_07243:
+-	ZH 1:
+-	'Ta hiểu rồi...」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance lén nhìn vào háng của Magic.'
+-	\L_07243:
+-	ZH 1:
+-	'Anh xắn váy cô lên để lộ toàn bộ nội y của cô.'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Uhahaha... Khá ướt. Mmmmmmm, ngon quá.」'
++	'Rance 「Hừmmm, vì thế mà thành ra thế này......'
++	\L_07243:
++	ZH 1:
++	'ừm ừm......」'
++	\L_07243:
++	ZH 1:
++	'Rance ghé nhìn vào háng Magic.'
++	\L_07243:
++	ZH 1:
++	'Váy bị vén lên, quần lót lộ rõ mồn một.'
++	\L_07243:
++	ZH 1:
++	'Rance 「Uhahaha...... ướt'
++	R
++	'sũng rồi, ừmmmm, ngon quá」'
+ 	\L_07243:
+ 	ZH 1:
+ 	'Maris 「Bệ hạ...」'
+@@ -3520,254 +3438,252 @@
+ *L_039da:
+ 	{VAR0002 = 1:
+ 		ZH 1:
+-		'Rance 「Mm... Ta có ý tưởng này.'
+-		R
+-		'Ta gọi nó là “Chiến lược buổi sáng sảng khoái”!」'
+-		\L_07243:
+-		ZH 1:
+-		'Rance đưa mình đến gần tai Magic và thì thầm vào'
+-		R
+-		'đó bằng giọng giả thanh.'
+-		\L_07243:
+-		ZH 1:
+-		'Rance 「Magic, trời sáng rồi, dậy đi...'
+-		R
+-		'Em sẽ muộn học mất...」'
+-		\L_07243:
+-		ZH 1:
+-		'Magic 「... Uu... Ahn... Không, à...」'
+-		\L_07243:
+-		ZH 1:
+-		'Rance 「Mgh... Nàng không dậy.'
+-		R
+-		'Có lẽ nàng bị huyết áp thấp.」'
+-		\L_07243:
+-		ZH 1:
+-		'Maris 「Tôi không nghĩ huyết áp có liên quan gì'
+-		R
+-		'đến chuyện đó...」'
++		'Rance 「Hừm...... nảy ra ý rồi. Gọi'
++		R
++		'là［Chiến dịch Buổi sáng sảng khoái］!」'
++		\L_07243:
++		ZH 1:
++		'Rance ghé sát tai Magic,'
++		R
++		'thì thầm bằng giọng the thé.'
++		\L_07243:
++		ZH 1:
++		'Rance 「Magic ơi, sáng rồi, dậy đi'
++		R
++		'con...... trễ học bây giờ......」'
++		\L_07243:
++		ZH 1:
++		'Magic 「.........Ư.........'
++		R
++		'ahn...... không, a......」'
++		\L_07243:
++		ZH 1:
++		'Rance 「Hừm...... không'
++		R
++		'dậy. Chắc bị huyết áp thấp」'
++		\L_07243:
++		ZH 1:
++		'Maris 「Tôi nghĩ huyết áp chẳng'
++		R
++		'liên quan mấy đâu ạ......」'
+ 		\L_07243:
+ 		@L_03715:
+ 	}
+ 	!VAR0002 : 1!
+ 	ZH 1:
+-	'Rance 「Được rồi...」'
+-	\L_07243:
+-	ZH 1:
+-	'Ác quỷ chẳng là gì cả.'
+-	\L_07243:
+-	ZH 1:
+-	'Ta sẽ đánh thức nàng bằng những lời thì thầm tình'
+-	R
+-	'yêu chân thành của ta.'
++	'Rance 「Được.........ác ma thì đã là gì.'
++	\L_07243:
++	ZH 1:
++	'Ta sẽ dùng lời thì thầm yêu thương đầy khí thế'
++	\L_07243:
++	ZH 1:
++	'đánh thức nàng dậy cho xem'
+ 	\L_07243:
+ 	ZH 1:
+ 	'」'
+ 	\L_07243:
+ 	ZH 1:
+-	'Maris 「Haah...」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Magic này. Cô ổn chứ? Heeeeeeee.」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「... Hah... Ah...」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Nếu cô không trả'
+-	R
+-	'lời, ta sẽ cưỡng hiếp cô.」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「... Ừm...」'
+-	\L_07243:
+-	ZH 1:
+-	'Maris 「Nàng không hề bị đánh thức chút nào.」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Ch, khập khiễng.」'
++	'Maris 「Vâng......」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Này, Magic. Khỏe khôngggg. Nàyyy, nàyyyy」'
++	\L_07243:
++	ZH 1:
++	'Magic 「.........Ha......... a......」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Không trả lời là ta hiếp đấy nhééé」'
++	\L_07243:
++	ZH 1:
++	'Magic 「...............Ưm............」'
++	\L_07243:
++	ZH 1:
++	'Maris 「Cô ấy... chẳng tỉnh chút nào nhỉ」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Chậc, chán thật」'
+ 	\L_07243:
+ 	@L_03715:
+ *L_03b00:
+ 	{VAR0003 = 1:
+ 		ZH 1:
+-		'Rance（Nếu có thứ gì đó đánh bật Magic ra khỏi'
+-		R
+-		'ghế, cơ thể nàng sẽ bị phá hủy...）'
++		'Rance (Lỡ vô tình để nàng rời khỏi ghế'
++		R
++		'thì cơ thể bé Magic sẽ sụp đổ......)'
+ 		\L_07243:
+ 		ZH 1:
+ 		'Rance（............）'
+ 		\L_07243:
+ 		ZH 1:
+-		'Rance（............'
+-		R
+-		'Nhưng này, một chút thôi có lẽ sẽ ổn thôi.）'
+-		\L_07243:
+-		ZH 1:
+-		'Rance ngồi trên chân của Magic.'
+-		R
+-		'Anh quan sát chiếc quần lót ẩm ướt của cô.'
+-		\L_07243:
+-		ZH 1:
+-		'Rance 「Ồ, ta có thể nhìn xuyên qua nó...'
+-		R
+-		'Chọc, chọc.」'
++		'Rance (............ Nhưng mà,'
++		R
++		'chút xíu chắc không sao, chắc thế)'
++		\L_07243:
++		ZH 1:
++		'Rance ngồi xuống dưới chân Magic, chăm'
++		R
++		'chú quan sát chiếc quần lót ướt đẫm.'
++		\L_07243:
++		ZH 1:
++		'Rance 「Ồ, khá trong suốt'
++		R
++		'đấy......... chọc, chọc」'
+ 		\L_07243:
+ 		ZH 1:
+ 		'Magic 「A... Aah...!」'
+ 		\L_07243:
+ 		ZH 1:
+-		'Rance 「Uhahaha, tệ quá là em đang ngủ, em nhạy'
+-		R
+-		'cảm quá. Đây, chọc, chọc, chọc.」'
+-		\L_07243:
+-		ZH 1:
+-		'Magic 「Hyah...!」'
+-		\L_07243:
+-		ZH 1:
+-		'Những ngón tay của Rance cọ xát trực tiếp Magic'
+-		R
+-		'vào bên trong quần lót của cô,'
+-		\L_07243:
+-		ZH 1:
+-		'khiến cơ thể cô giật nảy mình.'
+-		\L_07243:
+-		ZH 1:
+-		'Maris 「Bệ hạ, ngài không được...!'
+-		R
+-		'Cậu có ổn không nếu không cứu nàng? 」'
+-		\L_07243:
+-		ZH 1:
+-		'Rance 「Ch... Được rồi, ta biết.」'
+-		\L_07243:
+-		ZH 1:
+-		'Rance ngừng trêu chọc Magic.'
++		'Rance 「Uhahaha, ngủ suốt nên dồn nén lắm'
++		R
++		'nhỉ...... nhạy ghê. Này, chọc chọc, trượt nàooo」'
++		\L_07243:
++		ZH 1:
++		'Magic 「Hya......!」'
++		\L_07243:
++		ZH 1:
++		'Bị ngón tay Rance vuốt trực'
++		R
++		'tiếp bên trong quần lót,'
++		\L_07243:
++		ZH 1:
++		'Magic giật nảy người.'
++		\L_07243:
++		ZH 1:
++		'Maris 「Bệ hạ Rance, không được mà...!'
++		R
++		'Không cứu được cô ấy cũng được sao ạ?」'
++		\L_07243:
++		ZH 1:
++		'Rance 「Chậc...... rồi rồi, biết rồi」'
++		\L_07243:
++		ZH 1:
++		'Rance đành bỏ ý định nghịch Magic.'
+ 		\L_07243:
+ 		@L_03715:
+ 	}
+ 	!VAR0003 : 1!
+ 	ZH 1:
+-	'Rance（Ừmmm...）'
+-	\L_07243:
+-	ZH 1:
+-	'Rance（Mmmmmmmmm...）'
++	'Rance (Rạo rực......)'
++	\L_07243:
++	ZH 1:
++	'Rance (Rạo rực rạo rực rạo rực......)'
+ 	\L_07243:
+ *L_03c21:
+ 	ZH 1:
+-	'Rance（Ừ, ta nên trêu nàng...'
+-	R
+-	'Sẽ thật lãng phí nếu không làm vậy.）'
+-	\L_07243:
+-	ZH 1:
+-	'(squish)'
+-	\L_07243:
+-	ZH 1:
+-	'Rance đột nhiên nắm lấy ngực của Magic.'
+-	R
+-	'Anh chà xát chúng qua quần áo của cô.'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Mmmm, mềm mại. Đẹp đấy, uheehee...'
+-	R
+-	'Còn ở dưới đây thì sao?」'
+-	\L_07243:
+-	ZH 1:
+-	'Bàn tay anh di chuyển xuống giữa đôi chân mở rộng,'
+-	R
+-	'khập khiễng của cô.'
+-	\L_07243:
+-	ZH 1:
+-	'Anh vuốt ve chiếc quần lót ẩm ướt của cô đến mức'
+-	R
+-	'thỏa mãn.'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Uhaha... Nó ướt rồi. Ta muốn đặt nó vào.'
+-	R
+-	'Chúng ta hãy xem ... 」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance kéo quần lót của Magic sang một bên.'
+-	\L_07243:
+-	ZH 1:
+-	'Anh lén nhìn qua khoảng trống anh tạo ra.'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Ồ... Tốt!」'
+-	\L_07243:
+-	ZH 1:
+-	'Maris 「... Có gì hay thế? Trời ạ...」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Geh, cô đang theo dõi Maris à?」'
++	'Rance (Phải rồi, quả nhiên là'
++	R
++	'nghịch...... không nghịch thì phí quá)'
++	\L_07243:
++	ZH 1:
++	'(nắn)'
++	\L_07243:
++	ZH 1:
++	'Rance thình lình bóp ngực'
++	R
++	'Magic, nắn nắn qua lớp áo.'
++	\L_07243:
++	ZH 1:
++	'Rance 「Ừm, mềm ghê. Thích thật, hí'
++	R
++	'hí......... Còn bên dưới thì sao?」'
++	\L_07243:
++	ZH 1:
++	'Rồi bàn tay di chuyển xuống'
++	R
++	'giữa hai chân đang mở rũ rượi.'
++	\L_07243:
++	ZH 1:
++	'Mặc sức vuốt ve lớp quần lót ướt.'
++	\L_07243:
++	ZH 1:
++	'Rance 「Uhaha...... nhớp nháp.'
++	R
++	'Muốn cho vào quá, xem nào......?」'
++	\L_07243:
++	ZH 1:
++	'Rance khẽ kéo quần lót Magic,'
++	\L_07243:
++	ZH 1:
++	'nhìn kỹ vào bên trong qua khe hở.'
++	\L_07243:
++	ZH 1:
++	'Rance 「Ồ...... GOOD!」'
++	\L_07243:
++	ZH 1:
++	'Maris 「......Good cái gì chứ, thật là......」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Ặc, Maris, cô nhìn thấy à?」'
+ 	\L_07243:
+ 	{VAR0520 = 300:
+ 		%0:
+ 	}
+ 	ZH 1:
+-	'Maris 「Chà, tình cờ tôi lại ở cùng ngài...'
+-	R
+-	'Bệ hạ...」'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi nghĩ tốt nhất là không nên đùa giỡn với nàng'
+-	R
+-	'quá nhiều.」'
+-	\L_07243:
+-	ZH 1:
+-	'Maris 「Nếu nàng vô tình rơi khỏi Ghế Hợp đồng,'
+-	R
+-	'hợp đồng sẽ bị vi phạm.」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Ch... Được rồi, được rồi.'
+-	R
+-	'Điều đó có nghĩa là ta nên quan tâm hơn? 」'
+-	\L_07243:
+-	ZH 1:
+-	'Maris 「Càng nhiều càng tốt.」'
++	'Maris 「Thì, tôi đang theo hầu'
++	R
++	'mà...... Bệ hạ Rance......'
++	\L_07243:
++	ZH 1:
++	'ngài không nên nghịch ngợm quá đâu ạ」'
++	\L_07243:
++	ZH 1:
++	'Maris 「Nhỡ ngài làm cô ấy cử động, rời khỏi'
++	R
++	'Ghế Khế ước...... là vi phạm khế ước đấy」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Chậc......... biết rồi, biết'
++	R
++	'rồi. Mà cô cũng phải biết ý hơn chứ」'
++	\L_07243:
++	ZH 1:
++	'Maris 「Tôi sẽ cố gắng」'
+ 	\L_07243:
+ 	@L_03715:
+ *L_03d5f:
+ 	!VAR0150 : 0!
+ 	ZH 1:
+-	'Rance 「Được rồi, ta sẽ dán Bùa tịch thu tài sản'
+-	R
+-	'tuyệt đối này lên nàng... Đó!」'
+-	\L_07243:
+-	ZH 1:
+-	'(boink)'
+-	\L_07243:
+-	ZH 1:
+-	'Rance dán Bùa tịch thu tuyệt đối lên quần lót của'
+-	R
+-	'Magic.'
+-	\L_07243:
+-	ZH 1:
+-	'Maris（Hắn không cần phải đặt nó ở đó...'
+-	\L_07243:
+-	ZH 1:
+-	'Ngay cả khuôn mặt của nàng cũng có tác dụng...）'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Đó, nó ở trên người nàng...'
+-	R
+-	'Chuyện gì sẽ xảy ra...?」'
+-	\L_07243:
+-	ZH 1:
+-	'「Ggggh... Cậu đã làm gì... dooo...?!!」'
++	'Rance 「Được, dán lá bùa tịch thu'
++	R
++	'tuyệt đối này vào...... hây aaa!」'
++	\L_07243:
++	ZH 1:
++	'(bẹp)'
++	\L_07243:
++	ZH 1:
++	'Rance dán bùa tịch thu tuyệt đối'
++	R
++	'lên chỗ phồng trên quần lót Magic.'
++	\L_07243:
++	ZH 1:
++	'Maris (Đâu cần phải dán vào chỗ đó...'
++	\L_07243:
++	ZH 1:
++	'dán lên mặt cũng được mà......)'
++	\L_07243:
++	ZH 1:
++	'Rance 「Thế nào, dán rồi......'
++	R
++	'chuyện gì sẽ xảy ra......?」'
++	\L_07243:
++	ZH 1:
++	'「Gừừừ......... làm cái'
++	R
++	'gì...... thếếế............!!」'
+ 	\L_07243:
+ 	ZH 1:
+ 	'Rance 「Ồ...」'
+ 	\L_07243:
+ 	ZH 1:
+-	'Một giọng nói đáng sợ nghe như thể đến từ'
+-	\L_07243:
+-	ZH 1:
+-	'sâu trong lòng đất tràn ngập căn phòng...'
+-	\L_07243:
+-	ZH 1:
+-	'... Xacalite xuất hiện phía trên Ghế Hợp đồng.'
++	'Một giọng nói kinh hoàng như vọng lên từ đáy đất'
++	\L_07243:
++	ZH 1:
++	'vang khắp đại sảnh......'
++	\L_07243:
++	ZH 1:
++	'......Trên chiếc Ghế Khế'
++	R
++	'ước, ác ma Xacalite hiện ra.'
+ 	\L_07243:
+ 	PF1 VAR0056:
+ 	\L_07236:
+@@ -3780,21 +3696,23 @@
+ 	G 167:
+ 	\L_071fe:
+ 	ZH 1:
+-	'Xacalite đã khóc khi hắn biến mất.'
++	'Ác ma Xacalite vừa khóc vừa biến mất.'
+ 	PF0 VAR0056:
+ 	\L_07243:
+ 	ZH 1:
+-	'Magic 「... Hah... Zzz... Zzz...」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Được rồi, giờ nàng là của ta.'
+-	R
+-	'Cuối cùng cũng có được nàng, gahahahaha.」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance nhấc Magic ra khỏi ghế. Chiếc'
+-	R
+-	'Ghế Hợp Đồng tan biến vào không trung.'
++	'Magic 「...............Phù............'
++	R
++	'khò...khò......」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Đượccc, thế là con bé này là của'
++	R
++	'ta. Cuối cùng cũng có được, gahahahaha」'
++	\L_07243:
++	ZH 1:
++	'Rance bế Magic khỏi ghế. Chiếc Ghế'
++	R
++	'Khế ước tan biến vào không khí.'
+ 	\L_07243:
+ 	PF1 VAR0056:
+ 	\L_07236:
+@@ -3809,14 +3727,14 @@
+ 	\L_071e2:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Gahahahaha! Maris, đưa'
+-	R
+-	'nàng tới lâu đài sau nhé.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Vâng, thưa Bệ hạ.'
++	'Gahahahaha, Maris, lát nữa'
++	R
++	'đưa con bé này về thành.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Vâng, Bệ hạ Rance.'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0158 : 1!
+@@ -3844,30 +3762,30 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng yết kiến Rance'
+-	R
+-	'trông có vẻ trịch thượng và'
+-	\L_07243:
+-	ZH 1:
+-	'ngả lưng nhiều hơn bình'
+-	R
+-	'thường trong khi Magic được'
+-	R
+-	'mang đến trước mặt hắn.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Ôi trời, cô'
+-	R
+-	'gái ngu ngốc...'
+-	\L_07243:
+-	ZH 1:
+-	'Lập khế ước với ác quỷ.'
+-	R
+-	'Nếu ta không cứu ngươi thì'
+-	R
+-	'bây giờ ngươi đã chết rồi.'
++	'Phòng yết kiến'
++	R
++	'Rance ra vẻ ân nhân, ngả'
++	R
++	'người hơn thường lệ;'
++	\L_07243:
++	ZH 1:
++	'Magic được đưa'
++	R
++	'đến trước mặt hắn.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Thật tình, con'
++	R
++	'nhỏ ngốc......'
++	\L_07243:
++	ZH 1:
++	'Đi lập khế ước với'
++	R
++	'ác ma. Ta không cứu'
++	R
++	'thì giờ cô chết rồi.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0718e:
+@@ -3877,26 +3795,24 @@
+ 	\L_07236:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Chính nhờ ta đã mở rộng'
+-	R
+-	'bàn tay rộng lượng để cứu'
+-	\L_07243:
+-	ZH 1:
+-	'ngươi mà ngươi vẫn'
+-	R
+-	'còn ở thế giới này.'
+-	\L_07243:
+-	ZH 1:
+-	'Vì vậy, hãy thay đổi'
+-	R
+-	'đường lối của mình và từ nay'
+-	R
+-	'hãy thề trung thành với ta.'
+-	\L_07243:
+-	ZH 1:
+-	'Ta sẽ tha thứ cho ngươi'
+-	R
+-	'vì đã thách thức ta ở Zeth.'
++	'Cô còn có mặt trên'
++	R
++	'đời này là nhờ bản'
++	R
++	'đại gia rộng lượng'
++	\L_07243:
++	ZH 1:
++	'đã chìa tay cứu giúp.'
++	\L_07243:
++	ZH 1:
++	'Nên từ giờ hãy thay lòng đổi'
++	R
++	'dạ, thề trung thành với ta.'
++	\L_07243:
++	ZH 1:
++	'Chuyện ở Zeth chống'
++	R
++	'lại ta, ta sẽ tha cho.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0718e:
+@@ -3906,7 +3822,7 @@
+ 	\L_07236:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Ôi... Ôi chao!'
++	'Oái......... nóng nóng nóng!'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+@@ -3914,7 +3830,7 @@
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Tên thô bỉ...!'
++	'Con nhỏ này......!'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_07180:
+@@ -3922,9 +3838,7 @@
+ 	\L_07172:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Cô đang làm gì'
+-	R
+-	'với Nhà vua vậy?!'
++	'Dám làm gì nhà vua hả!'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+@@ -3937,14 +3851,14 @@
+ 	\L_07236:
+ 	\L_07156:
+ 	ZH 1:
+-	'Magic ngay lập tức bị'
+-	R
+-	'các lính canh kiềm chế.'
+-	\L_07243:
+-	ZH 1:
+-	'Dù vậy, đôi mắt thách thức'
+-	R
+-	'của cô vẫn không thay đổi.'
++	'Magic lập tức bị'
++	R
++	'lính canh khống chế.'
++	\L_07243:
++	ZH 1:
++	'Dù vậy, ánh mắt chống'
++	R
++	'đối vẫn không đổi.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_07180:
+@@ -3952,19 +3866,15 @@
+ 	\L_07172:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Ôi...'
+-	\L_07243:
+-	ZH 1:
+-	'cô đang làm'
+-	R
+-	'cái quái gì vậy?'
+-	\L_07243:
+-	ZH 1:
+-	'Dù cô có'
+-	R
+-	'muốn hay không thì ta vẫn'
+-	R
+-	'là người đã cứu mạng cô.'
++	'Đau......'
++	\L_07243:
++	ZH 1:
++	'làm cái gì thế, con nhỏ này.'
++	\L_07243:
++	ZH 1:
++	'Dù gì ta cũng là ân'
++	R
++	'nhân đã cứu cô đấy.'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0154 : 37!
+@@ -3972,20 +3882,20 @@
+ 		!VAR0389 : 99!
+ 		\L_0718e:
+ 		ZH 1:
+-		'Im đi...! Magic tối'
+-		R
+-		'thượng, tự hủy diệt!!'
++		'Im đi......! Ma pháp'
++		R
++		'tối thượng, tự bạo!!'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Ôi!?'
++		'Hự!?'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+ 		\L_07156:
+ 		ZH 1:
+-		'（KOOOOOOOOOOOO!!）'
++		'(ẦMMMMM!!)'
+ 		\L_07243:
+ 		\L_07236:
+ 		PW1 VAR0056:
+@@ -3996,30 +3906,28 @@
+ 			PW0 VAR0056:
+ 			\L_0718e:
+ 			ZH 1:
+-			'Hãy cẩn thận,'
+-			R
+-			'Chủ nhân Rance!'
++			'Nguy hiểm, chủ nhân Rance!'
+ 			\L_07243:
+ 			\L_07236:
+ 			\L_07156:
+ 			ZH 1:
+-			'Sill kịp thời'
++			'Sill lập tức phủ người'
+ 			R
+-			'che chắn cho Rance và bảo'
++			'lên Rance, che chắn'
+ 			R
+-			'vệ hắn khỏi vụ nổ bất ngờ.'
++			'khỏi vụ nổ bất ngờ.'
+ 			\L_07243:
+ 			\L_07236:
+ 			\L_0711e:
+ 			ZH 1:
+-			'Ôi... Sill, em...?'
++			'Đau...... Sill, em......'
+ 			\L_07243:
+ 			\L_07236:
+ 			\L_0718e:
+ 			ZH 1:
+-			'Em ổn... Ngài ổn'
++			'Em không sao... Ngài có sao'
+ 			R
+-			'không, Chủ nhân Rance...?'
++			'không, chủ nhân Rance...'
+ 			\L_07243:
+ 			\L_07236:
+ 			\L_0711e:
+@@ -4033,95 +3941,85 @@
+ 			PW0 VAR0056:
+ 			\L_0711e:
+ 			ZH 1:
+-			'Ch...!'
++			'Chậc......!'
+ 			\L_07243:
+ 			\L_07236:
+ 			\L_07156:
+ 			ZH 1:
+-			'Rance nhảy lùi'
++			'Bằng phản xạ vốn có,'
+ 			R
+-			'lại theo phản xạ.'
++			'Rance nhảy lùi ra sau.'
+ 			\L_07243:
+ 			ZH 1:
+-			'Máu của Magic bay'
++			'Máu Magic bắn tung'
+ 			R
+-			'khắp nơi và một ít'
+-			R
+-			'trúng vào má hắn.'
++			'tóe, vương lên má hắn.'
+ 			\L_07243:
+ 			\L_07236:
+ 			\L_0711e:
+ 			ZH 1:
+-			'Cho đến khi...'
++			'Phù......'
+ 			\L_07243:
+ 			\L_07236:
+ 		}
+ 		\L_07156:
+ 		ZH 1:
+-		'Rance cảm'
+-		R
+-		'thấy ghê tởm khi nhìn'
+-		R
+-		'quanh phòng.... Magic...'
+-		\L_07243:
+-		ZH 1:
+-		'biến mất không'
+-		R
+-		'một dấu vết...'
++		'Rance nhăn nhó nhìn quanh'
++		R
++		'trước ngai vàng. ......Magic'
++		\L_07243:
++		ZH 1:
++		'đã biến mất không'
++		R
++		'còn dấu vết......'
+ 		\L_07243:
+ 		\L_07236:
+ 		!VAR0516 : 5!
+ 		\L_071e2:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Đ-Thật là một cú sốc...'
++		'H... hết hồn......'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Nàng triệu hồi'
+-		R
+-		'một con quỷ và nàng'
+-		R
+-		'cho nổ tung mình...'
+-		\L_07243:
+-		ZH 1:
+-		'Chết tiệt, đúng là một'
+-		R
+-		'nàng gái liều lĩnh. Sau khi'
+-		R
+-		'ta gặp rắc rối để cứu nàng.'
++		'Hết gọi ác ma lại tự bạo...'
++		\L_07243:
++		ZH 1:
++		'Con nhỏ liều mạng, khốn'
++		R
++		'thật...... mất công cứu cho.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Ah... Chàng yêu,'
+-		R
+-		'em đang khóc à...?'
++		'A...... chàng yêu,'
++		R
++		'chàng khóc đấy à......?'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Ngu ngốc, tại sao ta'
+-		R
+-		'lại phải khóc vì điều này?'
+-		\L_07243:
+-		ZH 1:
+-		'Sức ép từ vụ'
+-		R
+-		'nổ làm ta đau mắt...'
+-		\L_07243:
+-		ZH 1:
+-		'... Hmph...'
++		'Ngốc, ai thèm khóc'
++		R
++		'vì chuyện này.'
++		\L_07243:
++		ZH 1:
++		'Khói nổ xộc vào'
++		R
++		'mắt thôi......'
++		\L_07243:
++		ZH 1:
++		'......Hừ.........'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_07156:
+ 		ZH 1:
+-		'Một trong Tứ Đại Lãnh Chúa'
+-		R
+-		'của Zeth, Magic the Gandhi'
+-		R
+-		'đã cho nổ tung chính mình.'
++		'Một trong Tứ Đại Lãnh'
++		R
++		'Chúa Zeth... Magic the'
++		R
++		'Gandhi đã tự bạo mà chết.'
+ 		\L_07243:
+ 		\L_07236:
+ 		!VAR0516 : 0!
+@@ -4133,75 +4031,67 @@
+ 	'Im đi!'
+ 	\L_07243:
+ 	ZH 1:
+-	'Có lẽ chàng có thể lừa cha'
+-	R
+-	'thiếp vì ông ấy là một kẻ'
+-	R
+-	'ngốc, nhưng thiếp thì không!'
+-	\L_07243:
+-	ZH 1:
+-	'Chàng đã chà đạp'
+-	R
+-	'khắp Zeth và ném chúng'
+-	R
+-	'thiếp vào hỗn loạn...!'
+-	\L_07243:
+-	ZH 1:
+-	'Thiếp sẽ'
+-	R
+-	'không bao giờ tha thứ'
+-	R
+-	'cho chàng, đồ phản diện!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Agh... Nóng nảy,'
+-	R
+-	'nàng gái đáng ghét.'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Vẫn bị lính canh'
+-	R
+-	'khống chế, Magic đã đánh'
+-	R
+-	'Rance với cường độ bạo lực.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Đổi lại... Đổi lại'
+-	R
+-	'Zeth! Trở lại bình thường...'
+-	R
+-	'Đất nước của tôi...'
+-	\L_07243:
+-	ZH 1:
+-	'Chàng...'
+-	\L_07243:
+-	ZH 1:
+-	'Thay đổi lại tất'
+-	R
+-	'cả... Thay đổi lại!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Nàng có thể hỏi tất'
+-	R
+-	'cả những gì nàng muốn,'
+-	\L_07243:
+-	ZH 1:
+-	'không có nghĩa là ta có'
+-	R
+-	'thể làm bất cứ điều gì.'
+-	\L_07243:
+-	ZH 1:
+-	'Ta thậm chí còn'
+-	R
+-	'không biết “Hắn” là ai...'
++	'Cha tôi ngốc nên có'
++	R
++	'lẽ bị lừa dễ dàng,'
++	R
++	'nhưng tôi thì không!'
++	\L_07243:
++	ZH 1:
++	'Ngài đã giày xéo đất'
++	R
++	'nước Zeth...... làm'
++	R
++	'nó tan nát......!'
++	\L_07243:
++	ZH 1:
++	'Dám như thế...... tôi'
++	R
++	'không tha, đồ ác ôn!'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Hừ...... con nhỏ ngang'
++	R
++	'bướng láo toét gì đâu.'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Vẫn bị lính canh ghì'
++	R
++	'chặt, Magic lao vào'
++	R
++	'Rance như muốn cắn.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Trả lại... trả lại Zeth'
++	R
++	'đây! Trả lại như cũ đi...'
++	R
++	'đất nước của tôi......'
++	\L_07243:
++	ZH 1:
++	'người ấy......'
++	\L_07243:
++	ZH 1:
++	'Trả lại hết......'
++	R
++	'trả lại đây!'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Cô nói thế thì'
++	\L_07243:
++	ZH 1:
++	'ta cũng chịu.'
++	\L_07243:
++	ZH 1:
++	'Mà người ấy là ai chứ......'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0389 : 4!
+@@ -4210,96 +4100,90 @@
+ 	\L_071f0:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Đồ ngốc! Ngài vẫn'
+-	R
+-	'còn bận tâm về chuyện'
+-	R
+-	'tầm thường này à?!!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Hừm, giọng nói đó...'
++	'Đồ ngu xuẩn này! Vẫn còn bám'
++	R
++	'lấy chuyện vặt vãnh đó sao!!'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Hửm, giọng này......'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 42!
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Ta vô cùng'
+-	R
+-	'xin lỗi, Rance! Dù'
+-	\L_07243:
+-	ZH 1:
+-	'chúng ta đã sống'
+-	R
+-	'xa nhau bao lâu, ta'
+-	\L_07243:
+-	ZH 1:
+-	'vẫn phải'
+-	R
+-	'chịu trách nhiệm về sự ngu'
+-	R
+-	'ngốc của con gái mình...'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Gandhi chạy vào phòng'
+-	R
+-	'tiếp khách và phủ phục.'
+-	\L_07243:
+-	ZH 1:
+-	'Những chuyển động bạo lực'
+-	R
+-	'của người đàn ông to lớn đã'
+-	R
+-	'làm rung chuyển ngai vàng.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Ồ... Gandhi.'
+-	R
+-	'Vẫn mãnh liệt như thường'
+-	R
+-	'lệ. Nhiệt tình áp đảo.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Qua Rance...'
+-	\L_07243:
+-	ZH 1:
+-	'Xin thứ lỗi cho sự'
+-	R
+-	'xâm nhập đột ngột của ta.'
+-	\L_07243:
+-	ZH 1:
+-	'Nhưng xin hãy'
+-	R
+-	'cho gia đình ngốc nghếch'
+-	R
+-	'này có chút thời gian bên'
+-	\L_07243:
+-	ZH 1:
+-	'nhau. Hãy'
+-	R
+-	'để ta khiến đứa con gái ngu'
+-	R
+-	'ngốc của mình tỉnh táo lại!'
+-	\L_07243:
+-	ZH 1:
+-	'Hãy thể hiện'
+-	R
+-	'lòng trắc ẩn đi, Rance...!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Ừ thì chắc'
+-	R
+-	'chắn rồi, nhưng...'
++	'Thần vô cùng có'
++	R
++	'lỗi, Bệ hạ Rance! Dù'
++	\L_07243:
++	ZH 1:
++	'cha con có sống xa'
++	R
++	'nhau thế nào, con gái'
++	\L_07243:
++	ZH 1:
++	'ngu dại thế này là'
++	R
++	'trách nhiệm của người'
++	R
++	'cha là thần......'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Vừa chạy vào phòng'
++	R
++	'yết kiến, Gandhi lập'
++	R
++	'tức dập đầu quỳ lạy.'
++	\L_07243:
++	ZH 1:
++	'Cú động mạnh của gã khổng'
++	R
++	'lồ làm ngai vàng rung lên.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ồ...... lão Gandhi.'
++	R
++	'Vẫn mãnh liệt như mọi'
++	R
++	'khi. Nóng nực quá.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Bệ hạ Rance......'
++	\L_07243:
++	ZH 1:
++	'thứ lỗi cho thần đã'
++	R
++	'đột ngột xen vào.'
++	\L_07243:
++	ZH 1:
++	'Nhưng xin bệ hạ cho'
++	R
++	'cha con kẻ ngu này thêm'
++	\L_07243:
++	ZH 1:
++	'chút thời gian. Không'
++	R
++	'làm đứa con gái ngốc này'
++	R
++	'tỉnh ra thì thần......!'
++	\L_07243:
++	ZH 1:
++	'Xin rủ lòng từ bi,'
++	R
++	'Bệ hạ Rance...!'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ừ thì, cũng được...'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_07180:
+@@ -4307,145 +4191,137 @@
+ 	\L_07172:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Dừng lại đi, cha ngốc!'
+-	\L_07243:
+-	ZH 1:
+-	'Cha là cha của'
+-	R
+-	'con, đừng cúi đầu'
+-	R
+-	'trước tên thô bỉ này!!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Đồ ngốc, con'
+-	R
+-	'vẫn chưa hiểu sao?!'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'（đập...）'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'À...'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Lời nói của Gandhi rất'
+-	R
+-	'mạnh mẽ nhưng ông đã tát'
+-	\L_07243:
+-	ZH 1:
+-	'Magic một cách nhẹ'
+-	R
+-	'nhàng nhất có thể.'
+-	\L_07243:
+-	ZH 1:
+-	'Nước mắt dâng'
+-	R
+-	'lên trong mắt Magic.'
+-	\L_07243:
+-	ZH 1:
+-	'Đôi mắt của Gandhi'
+-	R
+-	'nhuốm màu lòng tốt vô hạn.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Magic... Nếu, giả sử,'
+-	R
+-	'con khiến Zeth trở lại bình'
+-	R
+-	'thường, con sẽ làm gì...?'
+-	\L_07243:
+-	ZH 1:
+-	'Có lẽ sẽ chiến đấu'
+-	R
+-	'với Leazas lần nữa. Sau đó'
+-	R
+-	'sẽ có nhiều người chết hơn.'
+-	\L_07243:
+-	ZH 1:
+-	'Ta rất tiếc về Alex, nhưng'
+-	R
+-	'con có muốn kết cục giống'
+-	R
+-	'hắn nhiều hơn nữa không?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Im đi... Im đi... im đi...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Magic,'
+-	R
+-	'con gái của ta...'
+-	\L_07243:
+-	ZH 1:
+-	'Hãy hiểu rằng'
+-	R
+-	'con người chúng ta không'
+-	R
+-	'nên thù địch với nhau.'
+-	\L_07243:
+-	ZH 1:
+-	'Nếu nhân loại vẫn bị'
+-	R
+-	'chia rẽ, cuối cùng chúng ta'
+-	R
+-	'sẽ bị lũ quái vật tiêu diệt.'
+-	\L_07243:
+-	ZH 1:
+-	'Trước đó, chúng'
+-	R
+-	'ta phải tập hợp xung'
+-	R
+-	'quanh một anh hùng.'
+-	\L_07243:
+-	ZH 1:
+-	'Ta tin rằng Rance có thể'
+-	R
+-	'làm được. Hắn là người'
+-	R
+-	'hùng của lời tiên tri. Đó'
+-	\L_07243:
+-	ZH 1:
+-	'là lý do tại sao ta'
+-	R
+-	'từ bỏ đất nước của mình. Con'
+-	\L_07243:
+-	ZH 1:
+-	'cũng nên nhìn'
+-	R
+-	'vào bức tranh'
+-	R
+-	'toàn cảnh, Magic... Nếu'
+-	\L_07243:
+-	ZH 1:
+-	'con làm thế, con'
+-	R
+-	'sẽ nhận ra Zeth chỉ là mối'
+-	R
+-	'quan tâm nhỏ bé như thế nào.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'... Ưu...'
+-	\L_07243:
+-	ZH 1:
+-	'Im đi, im đi...!'
+-	R
+-	'Im đi, cha ngốc!'
++	'Thôi đi, cha ngốc!'
++	\L_07243:
++	ZH 1:
++	'Đừng cúi cái đầu'
++	R
++	'chung dòng máu với tôi'
++	R
++	'trước tên ác ôn này!!'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Đồ ngốc, con vẫn'
++	R
++	'chưa hiểu sao!'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'(bốp......)'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'A......'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Lời của Gandhi thì mạnh'
++	R
++	'mẽ...... nhưng tay ông'
++	\L_07243:
++	ZH 1:
++	'lại tát má Magic'
++	R
++	'thật nhẹ nhàng.'
++	\L_07243:
++	ZH 1:
++	'Nước mắt dần dâng'
++	R
++	'đầy mắt Magic.'
++	\L_07243:
++	ZH 1:
++	'Ánh mắt Gandhi nhuốm'
++	R
++	'một màu dịu dàng vô hạn.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Magic...... giả sử'
++	R
++	'con giành lại được'
++	R
++	'Zeth, con sẽ làm gì...'
++	\L_07243:
++	ZH 1:
++	'Hẳn sẽ lại chiến đấu'
++	R
++	'với Leazas, rồi lại'
++	R
++	'có thêm người chết.'
++	\L_07243:
++	ZH 1:
++	'Thương thay Alex...'
++	R
++	'nhưng con muốn thêm'
++	R
++	'người đau như con sao.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ư......... im......'
++	R
++	'đi.........'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Magic, con gái ta...'
++	\L_07243:
++	ZH 1:
++	'hãy hiểu cho, loài'
++	R
++	'người chúng ta không'
++	R
++	'được thù địch nhau.'
++	\L_07243:
++	ZH 1:
++	'Nhân loại không thống'
++	R
++	'nhất thì sớm muộn sẽ'
++	R
++	'bị ma vật diệt vong.'
++	\L_07243:
++	ZH 1:
++	'Trước đó... phải tập hợp'
++	R
++	'dưới trướng dũng giả...'
++	\L_07243:
++	ZH 1:
++	'Vua Rance làm được, cha'
++	R
++	'tin như vậy. Ngài chính'
++	R
++	'là dũng giả được tiên tri.'
++	\L_07243:
++	ZH 1:
++	'Vì thế cha mới bỏ nước.'
++	\L_07243:
++	ZH 1:
++	'Con cũng hãy nhìn'
++	R
++	'đại cục, Magic......'
++	\L_07243:
++	ZH 1:
++	'Rồi con sẽ nhận ra Zeth'
++	R
++	'chỉ là một cái rào nhỏ bé.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'.........Ư.........'
++	\L_07243:
++	ZH 1:
++	'Im đi, im đi......!'
++	R
++	'Im ngay, cha ngốc!'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0718e:
+@@ -4455,83 +4331,79 @@
+ 	\L_07236:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Không... Ta sẽ'
+-	R
+-	'không chấp nhận điều đó, Ta'
+-	R
+-	'sẽ không bao giờ bị lừa!!'
+-	\L_07243:
+-	ZH 1:
+-	'Alex chết để'
+-	R
+-	'bảo vệ Zeth...!'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi không thể làm được'
+-	R
+-	'điều đó mà không có gì...'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi chỉ...'
+-	\L_07243:
+-	ZH 1:
+-	'Cha ngốc, tất cả'
+-	R
+-	'là lỗi của cha!'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi sẽ không'
+-	R
+-	'bao giờ chấp nhận'
+-	R
+-	'những gì cha nói...!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Magic... ... Ta'
+-	R
+-	'hiểu rồi... Được rồi...'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Gandhi lắc đầu và bước ra'
+-	R
+-	'khỏi đứa con gái đang khóc.'
+-	\L_07243:
+-	ZH 1:
+-	'Ông ngay lập tức tập'
+-	R
+-	'trung ma thuật vào tay mình.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Nếu con cứng đầu như vậy'
+-	R
+-	'thì ta buộc con phải chấp'
+-	R
+-	'nhận thôi! Hyah, tê liệt!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'À...!'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Magic bị ảnh hưởng bởi ma'
+-	R
+-	'pháp mà Gandhi bắn ra và cơ'
+-	R
+-	'thể nàng ngừng chuyển động.'
+-	\L_07243:
+-	ZH 1:
+-	'Nàng được phóng'
+-	R
+-	'ra trước mặt Rance.'
++	'Không chịu...... Tôi'
++	R
++	'không chấp nhận, nhất'
++	R
++	'định không bị lừa!!'
++	\L_07243:
++	ZH 1:
++	'Người ấy đã chết để'
++	R
++	'bảo vệ Zeth......!'
++	\L_07243:
++	ZH 1:
++	'Bảo đó là chết vô ích,'
++	\L_07243:
++	ZH 1:
++	'thế thì...... thế thì......'
++	\L_07243:
++	ZH 1:
++	'Cha ngốc, tất cả là tại ông!'
++	\L_07243:
++	ZH 1:
++	'Những gì ông nói, tôi nhất'
++	R
++	'định không chấp nhận......!'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Magic...... ......vậy'
++	R
++	'à...... cha hiểu rồi......'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Từ trước mặt đứa con'
++	R
++	'gái đang lắc đầu khóc,'
++	R
++	'Gandhi lặng lẽ lùi lại.'
++	\L_07243:
++	ZH 1:
++	'Ma lực lập tức tụ'
++	R
++	'lại trong tay ông.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Cứng đầu thế thì'
++	R
++	'phải dùng sức thôi!'
++	R
++	'Hây aaa, Kim Phược!'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'A...!'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Trúng phép của Gandhi,'
++	R
++	'cơ thể Magic không'
++	R
++	'cử động được nữa.'
++	\L_07243:
++	ZH 1:
++	'Rồi nàng bị đẩy ra'
++	R
++	'trước mặt Rance.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_07180:
+@@ -4539,96 +4411,90 @@
+ 	\L_07172:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Ừm?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Rance, ngài có muốn'
+-	R
+-	'quan hệ với đứa con gái'
+-	R
+-	'ngốc nghếch của ta không?!!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Ơ?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Con gái ta có thể'
+-	R
+-	'bất tài và có số phận phải'
+-	R
+-	'xuống địa ngục, nhưng...'
+-	\L_07243:
+-	ZH 1:
+-	'Không, vì lẽ đó...!'
+-	\L_07243:
+-	ZH 1:
+-	'Người duy nhất trên thế giới'
+-	R
+-	'có thể cứu con gái ta'
+-	R
+-	'là đấng cứu thế của chúng'
+-	\L_07243:
+-	ZH 1:
+-	'ta, Rance!'
+-	\L_07243:
+-	ZH 1:
+-	'Con gái của ta dù có'
+-	R
+-	'ngốc nghếch thế nào đi nữa,'
+-	\L_07243:
+-	ZH 1:
+-	'nếu con ngủ với nàng và'
+-	R
+-	'dành tình cảm cho nàng thì'
+-	\L_07243:
+-	ZH 1:
+-	'chắc chắn nàng sẽ hiểu'
+-	R
+-	'được tình yêu của con.'
+-	\L_07243:
+-	ZH 1:
+-	'Hãy tiếp tục.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Ta chắc chắn'
+-	R
+-	'không bận tâm, nhưng...'
+-	\L_07243:
+-	ZH 1:
+-	'Điều đó có ổn'
+-	R
+-	'với ngươi không? Nàng'
+-	R
+-	'là con gái của ngươi.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Không có tốt hay'
+-	R
+-	'xấu. Hãy tiếp tục.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Thôi, sẽ không'
+-	R
+-	'nương tay nữa, vậy thì...'
+-	R
+-	'Cảm giác này thật kỳ lạ...'
+-	\L_07243:
+-	ZH 1:
+-	'Ta cảm thấy kiệt'
+-	R
+-	'sức một cách kỳ lạ...'
++	'Hửm?'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Bệ hạ Rance, xin ngài'
++	R
++	'hãy ôm đứa con gái'
++	R
++	'ngốc này giúp thần!!'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Hả?'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Thần xin ngài, tuy'
++	R
++	'là đứa con gái vô'
++	R
++	'phương cứu chữa...'
++	\L_07243:
++	ZH 1:
++	'không, chính vì thế mà'
++	R
++	'phải là Bệ hạ Rance...!'
++	\L_07243:
++	ZH 1:
++	'Người duy nhất trên đời'
++	R
++	'có thể cứu con gái thần'
++	\L_07243:
++	ZH 1:
++	'là đấng cứu thế,'
++	R
++	'Bệ hạ Rance!'
++	\L_07243:
++	ZH 1:
++	'Dù là đứa con gái vụng về,'
++	\L_07243:
++	ZH 1:
++	'được da kề da, nhận'
++	R
++	'ân sủng của ngài,'
++	\L_07243:
++	ZH 1:
++	'nó sẽ nhận ra tình'
++	R
++	'yêu vĩ đại của bệ hạ.'
++	\L_07243:
++	ZH 1:
++	'Thần cúi xin ngài.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ta thì chẳng sao cả......'
++	\L_07243:
++	ZH 1:
++	'Có ổn không,'
++	R
++	'con gái ông đấy.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Chẳng có ổn hay không,'
++	R
++	'xin ngài giúp cho.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Vậy thì, xin không khách'
++	R
++	'sáo...... Thấy kỳ kỳ......'
++	\L_07243:
++	ZH 1:
++	'sao tự dưng mất'
++	R
++	'hứng thế nhỉ...'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+@@ -4636,9 +4502,9 @@
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Uuuuu, thả tôi'
+-	R
+-	'ra đi, chết tiệt!!'
++	'Ưưưư, thế thì thả'
++	R
++	'tôi ra, đồ ngốccc!!'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0711e:
+@@ -4648,14 +4514,14 @@
+ 	\L_07236:
+ 	\L_07156:
+ 	ZH 1:
+-	'Rance bế Magic lên dưới'
+-	R
+-	'cánh tay của mình và để'
+-	\L_07243:
+-	ZH 1:
+-	'Gandhi cúi đầu khi hắn'
+-	R
+-	'đi về phòng ngủ của mình...'
++	'Rance kẹp Magic dưới'
++	R
++	'nách, bỏ lại Gandhi'
++	R
++	'đang cúi rạp đầu,'
++	\L_07243:
++	ZH 1:
++	'đi về phòng ngủ......'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!
+@@ -4674,126 +4540,110 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Phòng ngủ của'
+-	R
+-	'Rance （cúi xuống）'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Ờ...'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Vẫn bị tê liệt,'
+-	R
+-	'Magic bị ném lên giường.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Ngài đang làm'
+-	R
+-	'gì vậy, đồ ngốc...?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Ồ, cô đã bớt'
+-	R
+-	'căng thẳng hơn rồi...'
+-	\L_07243:
+-	ZH 1:
+-	'Được rồi, giờ ta đã bị'
+-	R
+-	'kích thích rồi. Uhahahaha,'
+-	R
+-	'thời gian làm tình.'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Rance bắt đầu vui vẻ'
+-	R
+-	'cởi bỏ quần áo của mình.'
+-	\L_07243:
+-	ZH 1:
+-	'Khuôn mặt của Magic trở'
+-	R
+-	'nên nhợt nhạt hơn một chút.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Đ-Đừng...!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Nếu cô muốn trốn'
+-	R
+-	'thoát thì hãy tiếp tục.'
+-	\L_07243:
+-	ZH 1:
+-	'Ta là một vị vua vĩ đại'
+-	R
+-	'và hiền lành nên sẽ không'
+-	R
+-	'quá khắt khe với cô.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Cái gì...? Đó là'
+-	R
+-	'một điều tốt đẹp để ngài nói'
+-	R
+-	'trong khi tôi bị tê liệt!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Ồ, phải không? Chà, ta'
+-	R
+-	'đã cởi quần áo rồi, Magic,'
+-	R
+-	'cô cởi đồ của cô ra.'
+-	\L_07243:
+-	ZH 1:
+-	'Cái gì, cô không thể?'
+-	R
+-	'Điều đó không tốt chút nào.'
+-	\L_07243:
+-	ZH 1:
+-	'Vậy thì ta'
+-	R
+-	'sẽ cởi chúng ra cho cô.'
+-	R
+-	'Vâng, với chiếc kéo này...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Đợi đã...'
+-	R
+-	'Tôi không...'
+-	R
+-	'Không, kyaaaaaaaaaaaaaah!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Gahahahaha!'
+-	R
+-	'Cắt, cắt, cắt!!'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Rance đang cắt quần'
+-	R
+-	'áo của Magic bằng kéo.'
++	'Phòng ngủ của Rance'
++	R
++	'(bịch)'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Phư...'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Vẫn bị Kim Phược, Magic'
++	R
++	'bị quăng lên giường.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'L... làm gì thế,'
++	R
++	'đồ ngốc......'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ồ, hết hung hăng'
++	R
++	'rồi nhỉ......'
++	\L_07243:
++	ZH 1:
++	'Được lắm, đang hứng lên rồi.'
++	R
++	'Uhahahaha, H thôi, H thôi.'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Rance hớn hở bắt đầu cởi đồ.'
++	\L_07243:
++	ZH 1:
++	'Mặt Magic càng tái đi.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Kh, không......!'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Muốn chạy thì cứ chạy.'
++	\L_07243:
++	ZH 1:
++	'Ta là vị vua hiền lành vĩ'
++	R
++	'đại, không cưỡng ép đâu.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Cái gì chứ...... lợi'
++	R
++	'dụng lúc người ta'
++	R
++	'bị Kim Phược......!'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ồ, thế à? Nào bé Magic, ta'
++	R
++	'cởi rồi. Cô cũng cởi đi.'
++	\L_07243:
++	ZH 1:
++	'Gì, không cởi được à.'
++	R
++	'Thế thì không được,'
++	\L_07243:
++	ZH 1:
++	'vậy để ta cởi giúp. Phải'
++	R
++	'rồi, dùng cái kéo này......'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Khoan đã...... tôi đâu'
++	R
++	'có...... kh, kyaaaaaaa!'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Gahahahahaha, cắt'
++	R
++	'cắt, cắt cắt nàoo!!'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Rance dùng kéo'
++	R
++	'cắt quần áo Magic.'
+ 	\L_07243:
+ 	\L_07236:
+ 	PF1 VAR0056:
+@@ -4803,308 +4653,292 @@
+ 	SS 24:
+ 	\L_071fe:
+ 	ZH 1:
+-	'Rance 「Ồ, trắng... Tốt, rất sinh viên.」'
++	'Rance 「Ồ, màu trắng......'
++	R
++	'đúng kiểu học sinh, tốt」'
+ 	PF0 VAR0056:
+ 	\L_07243:
+ *L_04d9a:
+ 	ZH 1:
+-	'Một chiếc áo ngực đơn giản lộ ra qua một lỗ khoét'
+-	\L_07243:
+-	ZH 1:
+-	'trên bộ đồng phục của cô. Rance gật đầu hài lòng.'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Biến thái...! Đừng nhìn chằm chằm!! 」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Chắc chắn rồi, vậy ta sẽ'
+-	R
+-	'cắt nhiều hơn. Hừ hừ, cắt cắt.」'
++	'Qua lỗ khoét trên bộ đồng phục,'
++	R
++	'chiếc áo ngực giản dị lộ ra.'
++	\L_07243:
++	ZH 1:
++	'Rance gật gù hài lòng.'
++	\L_07243:
++	ZH 1:
++	'Magic 「Đồ dâm dê......! Đừng nhìn chằm chằm!!」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Thế à? Vậy ta cắt tiếp nhé. Nào,'
++	R
++	'xong chưa nhỉ xong chưa nhỉ, xoẹt xoẹt」'
+ 	\L_07243:
+ 	ZH 1:
+ 	'Magic 「A...!」'
+ 	\L_07243:
+ 	ZH 1:
+-	'（cắt nhỏ）'
+-	\L_07243:
+-	ZH 1:
+-	'Rance nhanh chóng cắt dây áo ngực. Bộ ngực'
+-	R
+-	'lộ ra của cô trông trắng trẻo và mềm mại.'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「... Mẹ...」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Gahahahaha!,'
+-	\L_07243:
+-	ZH 1:
+-	'đoán là cậu sẽ không gọi bố cậu rồi. Bộ ngực'
+-	\L_07243:
+-	ZH 1:
+-	'đẹp quá,」 chúng có giống của mẹ cậu không?」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「...!」'
+-	\L_07243:
+-	ZH 1:
+-	'（dò mò mò mẫm）'
+-	\L_07243:
+-	ZH 1:
+-	'Rance tình cờ xoa ngực Magic. Magic'
+-	R
+-	'quay đi và cắn đôi môi run rẩy của mình.'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Ừm, tốt! Cảm giác thật sự rất ngon.」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「... Ưu...」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic vỡ òa trong nước mắt. Cô trừng mắt nhìn'
+-	\L_07243:
+-	ZH 1:
+-	'Rance với ánh mắt biểu lộ'
+-	R
+-	'sự căm ghét từ tận đáy lòng.'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Ch, đừng khóc chỉ vì bị xoa'
+-	R
+-	'ngực... Em ngây thơ đến không ngờ đấy.」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Im đi, thả tôi ra, tên thô bỉ...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Ý cô là nhân vật phản diện? Hừm,'
+-	R
+-	'đáng ghét quá. Ta sẽ làm điều này.」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「... Kh...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance liếm bụng Magic và nàng không thể cử'
+-	\L_07243:
+-	ZH 1:
+-	'động để làm bất cứ điều gì. Anh xoa'
+-	R
+-	'bóp ngực cô nhiều hơn để chơi với cô.'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Này, cái mồm thối của em giờ ở đâu rồi?」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「... Hah... Ah...」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Cô thật dễ thương, Magic...」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Chết đi, tên thô bỉ, ah...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Giọng của Magic trở nên chói tai hơn. Đó là'
+-	\L_07243:
+-	ZH 1:
+-	'vì tay của Rance đang vòng quanh đùi nàng.'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Hohoh, rác rưởi hả? Cô thật can đảm.」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Hii... Hiin...」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance không thương tiếc đưa tay vào háng'
+-	\L_07243:
+-	ZH 1:
+-	'Magic. Cơ thể cô không thể tự di chuyển run rẩy.'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Không... Không, à...」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Ai là người bị ướt khi bị thứ rác rưởi đó'
+-	\L_07243:
+-	ZH 1:
+-	'chạm vào? Tốt nhất là nên thành thật,」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic. Ta chắc chắn điều đó cũng'
+-	R
+-	'sẽ khiến Gandhi hạnh phúc hơn.」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Ngốc nghếch... Tôi ghét'
+-	R
+-	'ngài, tôi ghét tất cả mọi người...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Khi nghe đến tên cha mình,'
+-	\L_07243:
+-	ZH 1:
+-	'nước mắt Magic bắt đầu tuôn rơi'
+-	R
+-	'như một con đập bị vỡ. Tuy nhiên...'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Ooh...」'
+-	\L_07243:
+-	ZH 1:
+-	'Cô ghét mọi người à? Không được đâu,'
+-	\L_07243:
+-	ZH 1:
+-	'ta sẽ dạy cô cách yêu thương con'
+-	R
+-	'người. Chiếc váy này đang cản trở điều đó!」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance gạt nó đi. Hắn lại nhặt'
+-	R
+-	'chiếc kéo lên khi đang làm việc đó.'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Hick... tôi đã nói không mà...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Gahahahaha! Không cần phải nương'
+-	R
+-	'tay đâu, ta là một vị vua hào phóng! 」'
+-	\L_07243:
+-	ZH 1:
+-	'Chiếc váy của Magic nhanh chóng'
+-	R
+-	'biến thành phế liệu. Đồ lót trắng,'
+-	\L_07243:
+-	ZH 1:
+-	'ẩm ướt của cô lộ rõ.'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Tất nhiên, những chiếc'
+-	R
+-	'quần lót này cũng gây cản trở.」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「... A...!」'
+-	\L_07243:
+-	ZH 1:
+-	'（cắt）'
+-	\L_07243:
+-	ZH 1:
+-	'Với âm thanh của chiếc kéo tàn nhẫn,'
+-	R
+-	'âm hộ của Magic đã lộ diện trước Rance.'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Ồ, cuối cùng thì ta'
+-	R
+-	'cũng có thể đưa cô đi...」'
+-	\L_07243:
+-	ZH 1:
+-	'Ta đã phải đợi một lúc kể từ khi cô'
+-	R
+-	'ngồi trên Ghế Hợp đồng. Trông ổn đấy.」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Không... Xin hãy thương'
+-	R
+-	'xót... Hãy tha thứ cho tôi...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Hả? Chẳng phải em đã nói sẽ'
+-	R
+-	'không bao giờ tha thứ cho ta sao?」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Đó là...」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Vậy thì cả hai hướng. Ta'
+-	R
+-	'sẽ không giữ lại. Gahahahaha!,'
+-	\L_07243:
+-	ZH 1:
+-	'đến giờ ăn rồi.」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Yah... Aah...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance mở rộng hai chân của Magic'
+-	R
+-	'và vùi mặt hắn vào háng cô. Hắn'
+-	\L_07243:
+-	ZH 1:
+-	'nhét vào âm hộ của cô xung'
+-	R
+-	'quanh chiếc quần lót bị cắt của cô.'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「... Ngh... Không, à...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Cô đang rên rỉ khá quyến rũ'
+-	R
+-	'dù cô phản đối đến mức nào, Magic.」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Dừng lại... Hick...'
+-	R
+-	'Alex... Cứu tôi với, Alex...」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Ai vậy...? Cô trai đã chết của cô? Lãng'
+-	\L_07243:
+-	ZH 1:
+-	'phí thời gian của cô,」 một xác chết sẽ không trả'
+-	\L_07243:
+-	ZH 1:
+-	'lời cuộc gọi của cô. Hãy quên'
+-	R
+-	'hắn đi và sống vì một tình yêu mới.」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Ngốc quá, làm sao ngài hiểu'
+-	R
+-	'được...?! Ngài sẽ không bao giờ có được...'
+-	\L_07243:
+-	ZH 1:
+-	'Hick...」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Aaagh, em thật phiền phức. Cô'
+-	R
+-	'đã đủ ướt rồi. Ta đang đặt nó vào đây,'
+-	\L_07243:
+-	ZH 1:
+-	'Magic.」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Uh, à... Ack...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance nhấc chiếc hông mảnh mai của'
+-	R
+-	'cô lên và đẩy siêu vũ khí của hắn vào'
+-	\L_07243:
+-	ZH 1:
+-	'âm hộ cô. Chỉ cần một chút tiền'
+-	R
+-	'boa là đủ để khiến Magic nhăn mặt.'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Ồ,」 em là trinh nữ à...? Anh chàng Alex'
+-	\L_07243:
+-	ZH 1:
+-	'này đã để một cô gái tuyệt vời ra'
+-	R
+-	'đi một cách lãng phí. Ta hiểu rồi,'
+-	\L_07243:
+-	ZH 1:
+-	'hôm nay ta sẽ thử trở thành chàng.'
++	'(phựt phựt)'
++	\L_07243:
++	ZH 1:
++	'Rance thoăn thoắt cắt đứt dây áo ngực. Bầu'
++	R
++	'ngực lộ ra trắng nõn, trông thật mềm mại.'
++	\L_07243:
++	ZH 1:
++	'Magic 「.........Mẹ... ơi.........」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Gahahahaha,'
++	\L_07243:
++	ZH 1:
++	'quả nhiên chẳng trông cậy được vào ông bố. Ngực'
++	\L_07243:
++	ZH 1:
++	'đẹp đấy, cái này cũng giống mẹ à?」'
++	\L_07243:
++	ZH 1:
++	'Magic 「............!」'
++	\L_07243:
++	ZH 1:
++	'(nắn nắn nắn nắn)'
++	\L_07243:
++	ZH 1:
++	'Rance vô tư nắn ngực Magic. Magic'
++	R
++	'quay mặt đi, đôi môi cắn chặt run rẩy.'
++	\L_07243:
++	ZH 1:
++	'Rance 「Ừm, good! Cảm giác thật delicious」'
++	\L_07243:
++	ZH 1:
++	'Magic 「.........Ư.........」'
++	\L_07243:
++	ZH 1:
++	'Magic nước mắt lã chã. Nàng trừng mắt nhìn'
++	\L_07243:
++	ZH 1:
++	'Rance bằng ánh mắt cay đắng tận đáy lòng.'
++	\L_07243:
++	ZH 1:
++	'Rance 「Chậc, mới bóp ngực đã'
++	R
++	'khóc...... ngây thơ không ngờ」'
++	\L_07243:
++	ZH 1:
++	'Magic 「Im đi, buông ra, đồ ác ôn......!」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Ác ôn? Hừ, láo toét. Cho cô biết tay」'
++	\L_07243:
++	ZH 1:
++	'Magic 「.........Hự.........!」'
++	\L_07243:
++	ZH 1:
++	'Rance rê lưỡi trên bụng'
++	R
++	'Magic đang không thể cử động.'
++	\L_07243:
++	ZH 1:
++	'Hai tay còn nhào nắn ngực, đùa bỡn nàng.'
++	\L_07243:
++	ZH 1:
++	'Rance 「Nào, cái miệng lém lỉnh đâu rồi?」'
++	\L_07243:
++	ZH 1:
++	'Magic 「.........Phư.........a.........」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Dễ thương lắm, Magic......」'
++	\L_07243:
++	ZH 1:
++	'Magic 「Chết đi đồ cặn bã, a......!」'
++	\L_07243:
++	ZH 1:
++	'Giọng Magic yếu ớt vút lên. Bởi'
++	\L_07243:
++	ZH 1:
++	'tay Rance đã vòng sang đùi trong.'
++	\L_07243:
++	ZH 1:
++	'Rance 「Hô hô, cặn bã à...... gan lì đấy」'
++	\L_07243:
++	ZH 1:
++	'Magic 「Hi......... hiư.........」'
++	\L_07243:
++	ZH 1:
++	'Rance không chút nương tay vươn tới háng'
++	\L_07243:
++	ZH 1:
++	'Magic. Cơ thể không cử động được run lên khe khẽ.'
++	\L_07243:
++	ZH 1:
++	'Magic 「Không......... không, a.........」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Bị đồ cặn bã ấy'
++	R
++	'chạm vào mà ướt, là ai đây?'
++	\L_07243:
++	ZH 1:
++	'Thành thật thì tốt hơn đấy, bé'
++	\L_07243:
++	ZH 1:
++	'Magic. Thế lão Gandhi cũng vui hơn」'
++	\L_07243:
++	ZH 1:
++	'Magic 「Đồ ngốc......... ghét,'
++	R
++	'ghét hết, ghét tất cả......!」'
++	\L_07243:
++	ZH 1:
++	'Bị nhắc tên cha,'
++	\L_07243:
++	ZH 1:
++	'Magic như vỡ đê, gào khóc. Thế nhưng......'
++	\L_07243:
++	ZH 1:
++	'Rance 「Ồ......'
++	\L_07243:
++	ZH 1:
++	'ghét tất cả cơ à. Thế thì không được,'
++	\L_07243:
++	ZH 1:
++	'để bản đại gia dạy cô tình yêu nhân loại.'
++	R
++	'Muốn thế thì cái váy này vướng quá!」'
++	\L_07243:
++	ZH 1:
++	'Rance thản nhiên bỏ ngoài tai,'
++	R
++	'tiện tay lại chộp lấy cây kéo.'
++	\L_07243:
++	ZH 1:
++	'Magic 「Hức...... đã bảo không chịu mà......!」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Gahahahaha, không cần khách'
++	R
++	'sáo, ta là vị vua khoan dung!」'
++	\L_07243:
++	ZH 1:
++	'Chiếc váy của Magic nhanh chóng thành vụn vải.'
++	\L_07243:
++	ZH 1:
++	'Chiếc quần lót trắng ẩm ướt lộ ra hoàn toàn.'
++	\L_07243:
++	ZH 1:
++	'Rance 「Tất nhiên, cái quần lót này cũng vướng」'
++	\L_07243:
++	ZH 1:
++	'Magic 「............A............!」'
++	\L_07243:
++	ZH 1:
++	'(xoẹt)'
++	\L_07243:
++	ZH 1:
++	'Cùng tiếng kéo tàn nhẫn, cánh hoa'
++	R
++	'của Magic phơi bày trước mắt Rance.'
++	\L_07243:
++	ZH 1:
++	'Rance 「Ồ, cuối cùng cũng được thưởng thức......'
++	\L_07243:
++	ZH 1:
++	'chờ suốt từ vụ Ghế Khế ước,'
++	R
++	'lâu thật. Nam mô nam mô」'
++	\L_07243:
++	ZH 1:
++	'Magic 「Đừng......... đừng......... tha'
++	R
++	'cho tôi...... xin tha cho tôi.........!」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Hử? Nhưng chẳng phải bé Magic'
++	R
++	'nhất định không tha cho ta sao?」'
++	\L_07243:
++	ZH 1:
++	'Magic 「Ch... chuyện đó.........」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Vậy là huề nhau nhé,'
++	R
++	'khỏi khách sáo. Gahahahahaha,'
++	\L_07243:
++	ZH 1:
++	'mời cả nhà xơi nàooo」'
++	\L_07243:
++	ZH 1:
++	'Magic 「Đừng............ a ư............!」'
++	\L_07243:
++	ZH 1:
++	'Rance banh rộng chân Magic,'
++	R
++	'vùi mặt vào háng nàng. Hắn'
++	\L_07243:
++	ZH 1:
++	'né mảnh quần lót bị cắt, mút lấy cánh hoa.'
++	\L_07243:
++	ZH 1:
++	'Magic 「.........Ưm............'
++	R
++	'không, a.........!」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Bảo không mà tiếng'
++	R
++	'rên gợi tình gớm, Magic」'
++	\L_07243:
++	ZH 1:
++	'Magic 「Đừng......... hức.........'
++	R
++	'Alex......... cứu em...... Alex......」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Cái gì thế...... bạn trai chết rồi à? Vô'
++	\L_07243:
++	ZH 1:
++	'ích thôi, người chết gọi cũng không tới.'
++	\L_07243:
++	ZH 1:
++	'Quên đi mà sống với tình yêu mới」'
++	\L_07243:
++	ZH 1:
++	'Magic 「Đồ ngốc, ngài thì hiểu cái'
++	R
++	'gì......... Hạng như ngài thì hiểu...'
++	\L_07243:
++	ZH 1:
++	'hức.........」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Aa, ủ dột quá. Ướt đủ rồi, ta cho vào đây,'
++	\L_07243:
++	ZH 1:
++	'Magic」'
++	\L_07243:
++	ZH 1:
++	'Magic 「Ơ, a............ ưc.........!」'
++	\L_07243:
++	ZH 1:
++	'Rance ôm lấy vòng eo thon,'
++	R
++	'ấn siêu vũ khí vào cánh hoa.'
++	\L_07243:
++	ZH 1:
++	'Mới vào được chút đầu, Magic đã nhíu mày.'
++	\L_07243:
++	ZH 1:
++	'Rance 「Ồ, còn trinh à......'
++	\L_07243:
++	ZH 1:
++	'phí của trời quá, cái gã Alex gì đó.'
++	\L_07243:
++	ZH 1:
++	'Phải rồi, hôm nay bản đại gia sẽ làm gã đó.'
+ 	\L_07243:
+ 	ZH 1:
+ 	'」'
+@@ -5113,135 +4947,125 @@
+ 	'Magic 「Hả...?」'
+ 	\L_07243:
+ 	ZH 1:
+-	'Rance 「Vì ta rất tốt bụng. Lần đầu tiên,」'
+-	R
+-	'một dịch vụ cắt màng trinh đặc biệt'
+-	\L_07243:
+-	ZH 1:
+-	'nào đó. Ta là Alex. Bây giờ ta sẽ đặt nó vào.」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Đợi đã... Cái thứ vớ vẩn gì vậy--Aah...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Trước khi Magic kịp nói xong lời phàn'
+-	R
+-	'nàn, Rance đã vùi mình sâu vào trong cô.'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Kh... Ối...」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Cô ổn chứ, Magic? Cuối cùng'
+-	R
+-	'chúng ta cũng đến được với nhau,'
+-	\L_07243:
+-	ZH 1:
+-	'ta rất vui. Wahahaha.」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Đừng... Đừng đùa với tôi...!!」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic có thể thấy rất tức giận nhưng'
+-	R
+-	'vẫn không thể di chuyển. Nàng đang'
+-	\L_07243:
+-	ZH 1:
+-	'bị đẩy lên trong khi nhận siêu vũ khí của Rance.'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Ta không hề làm vậy đâu,'
+-	\L_07243:
+-	ZH 1:
+-	'Magic. Cô cảm thấy thật tuyệt,」'
+-	\L_07243:
+-	ZH 1:
+-	'đúng như tôi nghĩ ngươi gái'
+-	R
+-	'tôi sẽ như vậy. Wahaha.」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Tôi sẽ giết ngài...'
+-	R
+-	'tôi sẽ... giết ngài, nên...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Ồ, đây là một khám phá mới...」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic, em sẽ trở nên chặt chẽ hơn'
+-	R
+-	'khi nổi điên. Cảm giác thật tuyệt,'
+-	\L_07243:
+-	ZH 1:
+-	'càng phát điên hơn nữa.」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Cái quái gì vậy, đồ ngốc...? A... A...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Thấy chưa, em cảm thấy dễ chịu'
+-	R
+-	'hơn vì em đã tức giận hơn phải không?」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Bởi vì... ý ta là, siêu vũ'
+-	R
+-	'khí của Alex quá tốt. Gahahahaha!..!」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「A... Hick, wah...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance di chuyển vào và ra khỏi người'
+-	R
+-	'Magic một cách thô bạo. Hắn nhấc đôi'
+-	\L_07243:
+-	ZH 1:
+-	'chân bất động của cô lên để tạo ra'
+-	R
+-	'hiệu ứng như lò xo cho hông hắn.'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Dừng lại... Alex...! A... Aah... Hii...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Ừ, ta là Alex...'
+-	\L_07243:
+-	ZH 1:
+-	'Cứ thả lỏng đi, cô sắp lên đỉnh rồi đấy...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Ý tôi không phải vậy...!'
+-	R
+-	'Ngài là Rance...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Nó không thực sự quan trọng'
+-	R
+-	'vào thời điểm này. Đây, đi thôi nào!」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance thậm chí còn di chuyển nhanh'
+-	R
+-	'hơn và đắm chìm trong cơ thể'
+-	\L_07243:
+-	ZH 1:
+-	'Magic. Magic gặp khó khăn trong việc'
+-	R
+-	'chịu đựng nó và nhắm chặt mắt lại.'
+-	\L_07243:
+-	ZH 1:
+-	'Rance 「Kh... Uuh...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「A... Aaaaaaaaah...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Rance giải phóng niềm vui của'
+-	R
+-	'mình vào sâu trong cơ thể Magic...'
++	'Rance 「Vì ta hiền mà. Dịch vụ chỉ'
++	R
++	'có lần đầu, đại hạ giá đổ máu đấy.'
++	\L_07243:
++	ZH 1:
++	'Anh là Alex. Cho anh vào nhé, phập」'
++	\L_07243:
++	ZH 1:
++	'Magic 「Khoan...... cái'
++	R
++	'quái gì thế, a ư.........!」'
++	\L_07243:
++	ZH 1:
++	'Magic chưa phản đối xong, Rance'
++	R
++	'đã vùi sâu vào trong nàng.'
++	\L_07243:
++	ZH 1:
++	'Magic 「Hự............ đau............」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Không sao chứ, Magic. Cuối cùng chúng ta'
++	\L_07243:
++	ZH 1:
++	'cũng thuộc về nhau rồi, anh vui lắm. Wahahaha」'
++	\L_07243:
++	ZH 1:
++	'Magic 「Đùa......... đừng có đùa.........!!」'
++	\L_07243:
++	ZH 1:
++	'Magic rõ ràng đang giận điên lên,'
++	R
++	'nhưng vẫn không cử động được.'
++	\L_07243:
++	ZH 1:
++	'Cứ bị thúc lên như thế mà đón nhận Rance.'
++	\L_07243:
++	ZH 1:
++	'Rance 「Anh đâu có đùa,'
++	\L_07243:
++	ZH 1:
++	'Magic. Em thật tuyệt,'
++	\L_07243:
++	ZH 1:
++	'đúng là người yêu của anh. Wahaha」'
++	\L_07243:
++	ZH 1:
++	'Magic 「Tôi sẽ giết.........'
++	R
++	'sẽ giết... ngài.........!」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Ồ, phát hiện mới đây.........'
++	\L_07243:
++	ZH 1:
++	'Magic, cô nổi giận là siết chặt hơn đấy.'
++	\L_07243:
++	ZH 1:
++	'Sướng lắm, giận nữa đi」'
++	\L_07243:
++	ZH 1:
++	'Magic 「Cái gì, đồ ngốc.........'
++	R
++	'a......... a.........!」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Thấy chưa......... giận'
++	R
++	'nên bắt đầu thấy sướng rồi nhỉ」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Siêu vũ khí của bản đại gia... à nhầm,'
++	R
++	'của Alex là nhất mà. Gahahahahahaha.........!」'
++	\L_07243:
++	ZH 1:
++	'Magic 「A......... hức, ưa.........!」'
++	\L_07243:
++	ZH 1:
++	'Rance ra vào dữ dội trong Magic. Ôm lấy đôi chân'
++	\L_07243:
++	ZH 1:
++	'bất động, hắn nhún hông như lò xo.'
++	\L_07243:
++	ZH 1:
++	'Magic 「Không......... Alex.........!'
++	R
++	'A......... a a......... hiư.........!」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Phải, ta là Alex đây...'
++	\L_07243:
++	ZH 1:
++	'cảm nhận thêm đi, sắp ra rồi đây......!」'
++	\L_07243:
++	ZH 1:
++	'Magic 「Đã bảo... không phải mà.........!'
++	R
++	'Ngài... chỉ là Rance thôi......!」'
++	\L_07243:
++	ZH 1:
++	'Rance 「Lúc này thì ai cũng được. Nào, ra đâyyy!」'
++	\L_07243:
++	ZH 1:
++	'Rance càng tăng tốc, ngấu nghiến cơ thể'
++	\L_07243:
++	ZH 1:
++	'Magic. Không chịu nổi, Magic nhắm nghiền mắt.'
++	\L_07243:
++	ZH 1:
++	'Rance 「Hự......... ư ư......!」'
++	\L_07243:
++	ZH 1:
++	'Magic 「A............ a a a a.........!」'
++	\L_07243:
++	ZH 1:
++	'Rance giải phóng khoái lạc vào'
++	R
++	'tận sâu trong cơ thể Magic......'
+ 	\L_07243:
+ 	{VAR0520 = 301:
+ 		%0:
+@@ -5260,232 +5084,214 @@
+ 	\L_071e2:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Được rồi, vậy...'
+-	\L_07243:
+-	ZH 1:
+-	'Thế nào, Magic? Ta cho'
+-	R
+-	'rằng bây giờ cô đã hiểu'
+-	R
+-	'ta tuyệt vời như thế nào.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Cậu...'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Mọi chuyện đã kết thúc...'
+-	\L_07243:
+-	ZH 1:
+-	'Sự tê liệt của'
+-	R
+-	'phép thuật vẫn chưa hết,'
+-	\L_07243:
+-	ZH 1:
+-	'và Rance đang nằm'
+-	R
+-	'trong vòng tay cô'
+-	R
+-	'dù cô không muốn.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Ồ, để chắc chắn rằng cô'
+-	R
+-	'biết, gã tốt bụng vừa đụ'
+-	R
+-	'cô không phải là Alex.'
+-	\L_07243:
+-	ZH 1:
+-	'Đó là ta. Trong'
+-	R
+-	'trường hợp cô bị lừa.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Không ai'
+-	R
+-	'có thể bị lừa cả... Uu...'
+-	R
+-	'Buông tôi ra, ow... Ow...'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Bằng cách'
+-	R
+-	'nào đó, Magic đã đẩy'
+-	R
+-	'được Rance ra và ngồi dậy.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Ồ, bây giờ cô có thể'
+-	R
+-	'di chuyển được rồi...?'
+-	\L_07243:
+-	ZH 1:
+-	'Cô vừa mới'
+-	R
+-	'mất trinh, nếu đau'
+-	R
+-	'thì không nên làm quá.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Tôi không cần đề xuất của'
+-	R
+-	'ngài. Cha tôi bị liệt nên'
+-	R
+-	'toàn thân đau nhức... Ối...'
+-	\L_07243:
+-	ZH 1:
+-	'Ngài không có lý do'
+-	R
+-	'gì phải lo lắng cả...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Không, ta sẽ lo lắng.'
+-	R
+-	'Ta quan tâm đến cấp dưới của'
+-	R
+-	'mình, cô có biết không?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Tại sao tôi'
+-	R
+-	'lại biết?! Và ngài đang gọi'
+-	R
+-	'ai là cấp dưới của mình?!'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi sẽ không'
+-	R
+-	'bao giờ tha thứ cho kẻ cặn'
+-	R
+-	'bã như ngài...! Vì Zeth...!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Cô luôn nói về Zeth...'
+-	\L_07243:
+-	ZH 1:
+-	'Đó là lý do'
+-	R
+-	'tại sao Gandhi khiến cô tê'
+-	R
+-	'liệt, cô biết đấy. Và cô'
+-	\L_07243:
+-	ZH 1:
+-	'cũng cảm nhận được tình'
+-	R
+-	'yêu to lớn của ta dành cho'
+-	R
+-	'làn da của cô. Hãy từ bỏ'
+-	\L_07243:
+-	ZH 1:
+-	'và tham gia cùng'
+-	R
+-	'ta với lão già Gandhi.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Đừng chạm vào tôi!'
+-	R
+-	'Và tôi không quan tâm đến'
+-	R
+-	'bố tôi! Tôi, tôi...!......'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi........'
+-	\L_07243:
+-	ZH 1:
+-	'.....'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Ừm, cái gì vậy?'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Magic đã ở tư thế hất'
+-	R
+-	'tay Rance ra trong một phút'
+-	R
+-	'trong khi nàng suy nghĩ.'
++	'Thế đấy......'
++	\L_07243:
++	ZH 1:
++	'Thế nào Magic, hiểu được cái'
++	R
++	'hay của bản đại gia rồi chứ.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Ngài......... đấy nhé......'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Xong việc......'
++	\L_07243:
++	ZH 1:
++	'Magic vẫn chưa'
++	R
++	'hết Kim Phược,'
++	\L_07243:
++	ZH 1:
++	'bị Rance tự tiện ôm gối tay.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'À, nói cho chắc, gã'
++	R
++	'trai ngon vừa ôm cô'
++	R
++	'không phải Alex đâu.'
++	\L_07243:
++	ZH 1:
++	'Là bản đại gia.'
++	R
++	'Đừng nhầm lẫn.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Ai thèm nhầm chứ......'
++	R
++	'ư...... buông ra,'
++	R
++	'đau... đau......'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Magic cố hết sức đẩy'
++	R
++	'Rance ra, nhổm người dậy.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ồ, cử động được rồi à...'
++	\L_07243:
++	ZH 1:
++	'Vừa mới thành đàn bà,'
++	R
++	'đau thì đừng cố quá.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Không mượn ngài lo. Tại'
++	R
++	'cha bắt Kim Phược nên'
++	R
++	'toàn thân đau nhức......'
++	\L_07243:
++	ZH 1:
++	'Ngài làm gì có tư'
++	R
++	'cách lo cho tôi...'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Không, phải lo chứ. Ta'
++	R
++	'nổi tiếng là vua thương'
++	R
++	'thuộc hạ, không biết à?'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Biết làm sao được! Mà ai'
++	R
++	'là thuộc hạ chứ......!'
++	\L_07243:
++	ZH 1:
++	'Kẻ súc sinh như ngài'
++	R
++	'tôi nhất định không'
++	R
++	'tha...! Vì Zeth...!'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Cứ Zeth Zeth Zeth'
++	R
++	'Zeth mãi......'
++	\L_07243:
++	ZH 1:
++	'thế nên mới bị lão Gandhi'
++	R
++	'cho ăn Kim Phược chứ còn gì.'
++	\L_07243:
++	ZH 1:
++	'Tình yêu vĩ đại của ta'
++	R
++	'cô cũng cảm nhận bằng'
++	R
++	'da thịt rồi, bỏ cuộc đi,'
++	\L_07243:
++	ZH 1:
++	'cả cha lẫn con cùng'
++	R
++	'làm thuộc hạ của ta.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Đừng chạm vào! Cha thì'
++	R
++	'đã sao! Tôi, tôi......!'
++	\L_07243:
++	ZH 1:
++	'.........Tôi............'
++	\L_07243:
++	ZH 1:
++	'.......................'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Hửm, sao thế?'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Vẫn giữ nguyên tư thế'
++	R
++	'hất tay Rance ra, Magic'
++	R
++	'suy nghĩ suốt một phút.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071aa:
+ 	ZH 1:
+-	'Ừ... Cha tôi ở Leazas...'
+-	\L_07243:
+-	ZH 1:
+-	'Nếu tôi có thể khiến ông'
+-	R
+-	'tỉnh lại, có lẽ chúng ta'
+-	R
+-	'có thể xây dựng lại Zeth...'
+-	\L_07243:
+-	ZH 1:
+-	'Và chiếm luôn cả Leazas!'
+-	\L_07243:
+-	ZH 1:
+-	'Đúng vậy, cho dù không thể,'
+-	\L_07243:
+-	ZH 1:
+-	'nếu tôi ở lại'
+-	R
+-	'đây tôi có thể tìm cơ'
+-	R
+-	'hội để ám sát Rance...'
+-	\L_07243:
+-	ZH 1:
+-	'kẻ thù... của Alex...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Gahahahaha, có chuyện gì'
+-	R
+-	'vậy?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Mm, không... Ừ,'
+-	R
+-	'được rồi... Về việc trở'
+-	R
+-	'thành cấp dưới của ngài.'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi không'
+-	R
+-	'còn nơi nào khác để đi'
+-	R
+-	'nên tôi sẽ đi cùng ngài.'
+-	\L_07243:
+-	ZH 1:
+-	'Nhưng đừng nhầm lẫn,'
+-	R
+-	'điều đó không có nghĩa'
+-	R
+-	'là tôi chấp nhận ngài...!'
++	'Phải rồi...... ở'
++	R
++	'Leazas có cha......'
++	\L_07243:
++	ZH 1:
++	'chỉ cần làm cha'
++	R
++	'tỉnh ra, có khi phục'
++	R
++	'hưng được Zeth......'
++	\L_07243:
++	ZH 1:
++	'mà còn chiếm luôn Leazas!'
++	\L_07243:
++	ZH 1:
++	'Phải rồi, dù không được,'
++	\L_07243:
++	ZH 1:
++	'ở đây thì cũng có thể dò'
++	R
++	'cơ hội ám sát gã này......'
++	\L_07243:
++	ZH 1:
++	'kẻ thù...... của Alex......'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Nàyyy, sao thế?'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Hửm, không...... phải'
++	R
++	'rồi, được thôi......'
++	R
++	'chuyện làm thuộc hạ.'
++	\L_07243:
++	ZH 1:
++	'Tôi cũng chẳng còn nơi'
++	R
++	'nào để đi...... tôi sẽ'
++	R
++	'làm thuộc hạ của ngài.'
++	\L_07243:
++	ZH 1:
++	'Nhưng nhớ nhé? Đừng hiểu'
++	R
++	'lầm, không phải tôi đã'
++	R
++	'công nhận ngài đâu...!'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0711e:
+@@ -5493,97 +5299,85 @@
+ 	'Hô...'
+ 	\L_07243:
+ 	ZH 1:
+-	'Có gì đó kì lạ ở đây,'
+-	R
+-	'nhưng thôi kệ. Vâng, bây giờ'
+-	R
+-	'điều đó đã được giải quyết.'
+-	\L_07243:
+-	ZH 1:
+-	'Để ăn mừng,'
+-	R
+-	'hãy đụ nào...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Tia laser tuyết!!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Aaaowowowow!! Cô đang'
+-	R
+-	'làm cái quái gì vậy?!'
+-	\L_07243:
+-	ZH 1:
+-	'Bây giờ cô'
+-	R
+-	'phải làm việc cho ta!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Đừng quá'
+-	R
+-	'khích! Ngài muốn bị giết'
+-	R
+-	'ngay lúc này sao!?gh...'
+-	\L_07243:
+-	ZH 1:
+-	'Dù thế nào đi nữa, để đối'
+-	R
+-	'xử với tôi như một cấp dưới,'
+-	\L_07243:
+-	ZH 1:
+-	'trước tiên hãy hành'
+-	R
+-	'động như một vị vua!'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi chán ngấy những điều'
+-	R
+-	'nhảm nhí của ngài rồi...'
+-	\L_07243:
+-	ZH 1:
+-	'Hẹn gặp lại!'
++	'Có gì đó mờ ám, nhưng'
++	R
++	'thôi. Vậy là quyết định'
++	R
++	'làm thuộc hạ của ta nhé.'
++	\L_07243:
++	ZH 1:
++	'Mừng một phát nào......'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Snow Laser!!'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Oái nóng nóng nóng!!'
++	\L_07243:
++	ZH 1:
++	'Làm gì thế hả,'
++	R
++	'thuộc hạ mà dám!'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Đừng có được nước! Muốn chết'
++	R
++	'ngay bây giờ hả!? Ấy......'
++	\L_07243:
++	ZH 1:
++	'Dù sao, muốn coi'
++	R
++	'tôi là thuộc hạ,'
++	\L_07243:
++	ZH 1:
++	'thì trước hết ngài hãy'
++	R
++	'cư xử cho ra dáng vua!'
++	\L_07243:
++	ZH 1:
++	'Tôi ngán vua ngốc'
++	R
++	'lắm rồi......'
++	\L_07243:
++	ZH 1:
++	'......Chào nhé!'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+ 	\L_07156:
+ 	ZH 1:
+-	'（đập!）'
+-	\L_07243:
+-	ZH 1:
+-	'Magic thu thập những'
+-	R
+-	'mảnh quần áo của cô,'
+-	\L_07243:
+-	ZH 1:
+-	'chỉnh sửa'
+-	R
+-	'chúng trên người và nhanh'
+-	R
+-	'chóng bước ra khỏi phòng.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Hừm... Nàng đang'
+-	R
+-	'lên kế hoạch gì đó.'
+-	\L_07243:
+-	ZH 1:
+-	'Nhưng nàng đang'
+-	R
+-	'lãng phí thời gian.'
+-	\L_07243:
+-	ZH 1:
+-	'Nàng sẽ phải lòng sự'
+-	R
+-	'quyến rũ của ta trước'
+-	R
+-	'khi nàng thực hiện nó.'
++	'(rầm!)'
++	\L_07243:
++	ZH 1:
++	'Magic gom nhặt mấy mảnh'
++	R
++	'quần áo che chắn tạm,'
++	\L_07243:
++	ZH 1:
++	'rồi bước nhanh'
++	R
++	'ra khỏi phòng.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Hừ...... con nhỏ'
++	R
++	'đang mưu tính gì đó.'
++	\L_07243:
++	ZH 1:
++	'Nhưng sẽ công cốc thôi.'
++	\L_07243:
++	ZH 1:
++	'Rồi sớm muộn cũng sẽ'
++	R
++	'mê mệt bản đại gia.'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!
+@@ -5606,108 +5400,100 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Ma Pháp'
+-	R
+-	'- 10F ............'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Ở giữa một căn phòng'
+-	R
+-	'lớn, Magic đang đứng yên'
+-	R
+-	'và cầm một cuốn sách cũ.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'... Leazas...'
+-	R
+-	'Những gì cậu đã làm là'
+-	R
+-	'không thể chấp nhận được.'
+-	\L_07243:
+-	ZH 1:
+-	'Kể từ khi anh chàng tên'
+-	R
+-	'Rance xuất hiện ở đó... Mọi'
+-	R
+-	'thứ đã bị phá hủy. Alex...'
+-	\L_07243:
+-	ZH 1:
+-	'Hắn cũng đã chết...'
++	'Tháp Magic - Tầng 10'
++	R
++	'............'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Giữa đại sảnh rộng thênh'
++	R
++	'thang, Magic đứng lặng,'
++	R
++	'tay cầm một cuốn sách cổ.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'......Leazas......'
++	R
++	'không thể tha thứ.'
++	\L_07243:
++	ZH 1:
++	'Từ khi tên Rance gì đó'
++	R
++	'xuất hiện ở đất nước ấy...'
++	R
++	'mọi thứ tan nát. Alex...'
++	\L_07243:
++	ZH 1:
++	'người ấy cũng chết rồi......'
+ 	\L_07243:
+ 	{VAR0650 = 9:
+ 		ZH 1:
+-		'Cha tôi cũng'
+-		R
+-		'đã phản bội Zeth...'
+-		\L_07243:
+-		ZH 1:
+-		'Thật nực cười'
+-		R
+-		'làm sao khi một vị vua lại'
+-		R
+-		'từ bỏ đất nước của mình?!'
+-		\L_07243:
+-	}
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Đôi mắt của'
+-	R
+-	'Magic nhìn vào khoảng không'
+-	R
+-	'và hơi ướt đẫm nước mắt,'
+-	\L_07243:
+-	ZH 1:
+-	'nhưng chúng không chảy ra.'
+-	\L_07243:
+-	ZH 1:
+-	'Cô cắn môi.'
++		'Cha cũng phản bội Zeth......'
++		\L_07243:
++		ZH 1:
++		'Thật nực cười, quốc vương'
++		R
++		'lại vứt bỏ đất nước......!'
++		\L_07243:
++	}
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Đôi mắt Magic trừng trừng'
++	R
++	'nhìn vào khoảng không,'
++	\L_07243:
++	ZH 1:
++	'khẽ dao động vì dòng'
++	R
++	'lệ chực trào. Nhưng'
++	R
++	'nó không rơi xuống...'
++	\L_07243:
++	ZH 1:
++	'Magic cắn chặt môi.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0713a:
+ 	ZH 1:
+-	'Chúng ta phải thắng...'
+-	\L_07243:
+-	ZH 1:
+-	'Đất nước đó'
+-	R
+-	'không thể bị bỏ mặc. Dù'
+-	R
+-	'thế nào đi chăng nữa...'
+-	\L_07243:
+-	ZH 1:
+-	'tôi sẽ làm bất cứ'
+-	R
+-	'điều gì cần thiết để mang'
+-	R
+-	'lại lợi thế cho chúng ta.'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Ánh mắt của Magic rơi'
+-	R
+-	'vào cuốn sách trên tay cô.'
+-	\L_07243:
+-	ZH 1:
+-	'Tiêu đề viết'
+-	R
+-	'trên bìa da của nó là'
+-	R
+-	'Sách Cấm Te Tevilcall］.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Đúng... Tôi sẽ'
+-	R
+-	'làm bất cứ điều gì... Kể cả'
+-	R
+-	'lập khế ước với ác quỷ...!'
++	'Phải thắng......'
++	\L_07243:
++	ZH 1:
++	'Không thể để mặc đất nước'
++	R
++	'đó. Bằng mọi giá......'
++	\L_07243:
++	ZH 1:
++	'dù phải làm gì, cũng'
++	R
++	'phải lật ngược chênh'
++	R
++	'lệch sức mạnh...'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Ánh mắt Magic rơi xuống'
++	R
++	'cuốn sách trong tay.'
++	\L_07243:
++	ZH 1:
++	'Tiêu đề trên bìa da là'
++	R
++	'sách cấm［Tevilcall］......'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Phải...... dù phải làm'
++	R
++	'gì...... dù phải lập khế'
++	R
++	'ước với ác ma.........!'
+ 	\L_07243:
+ 	\L_07236:
+ 	PF1 VAR0056:
+@@ -5725,59 +5511,53 @@
+ 	\L_07236:
+ 	\L_07156:
+ 	ZH 1:
+-	'Magic đang đứng gần cửa'
+-	R
+-	'sổ trong căn phòng tối...'
+-	\L_07243:
+-	ZH 1:
+-	'Cô dựa vào ánh'
+-	R
+-	'sáng của ngọn nến để nhìn'
+-	R
+-	'chằm chằm vào chân mình.'
+-	\L_07243:
+-	ZH 1:
+-	'Nàng đang đứng trên'
+-	R
+-	'một vòng tròn ma thuật.'
+-	\L_07243:
+-	ZH 1:
+-	'Đó là một vòng'
+-	R
+-	'tròn ma thuật lớn dùng'
+-	R
+-	'để triệu hồi ác quỷ,'
+-	\L_07243:
+-	ZH 1:
+-	'được vẽ theo'
+-	R
+-	'hướng dẫn trong sách.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Alex... ...'
+-	R
+-	'Xin lỗi, nhưng...'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi không cần linh'
+-	R
+-	'hồn của mình nữa...'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Magic thì thầm với chính'
+-	R
+-	'mình và bắt đầu niệm chú.'
+-	\L_07243:
+-	ZH 1:
+-	'Vòng tròn ma'
+-	R
+-	'thuật trên sàn phát'
+-	R
+-	'sáng màu xanh lam...'
++	'Cửa sổ đóng kín, đại'
++	R
++	'sảnh tối om......'
++	\L_07243:
++	ZH 1:
++	'Nhờ ánh nến, Magic'
++	R
++	'nhìn xuống dưới chân.'
++	\L_07243:
++	ZH 1:
++	'Dưới chân là một'
++	R
++	'ma pháp trận.'
++	\L_07243:
++	ZH 1:
++	'Một ma pháp trận lớn'
++	R
++	'để triệu hồi ác ma,'
++	\L_07243:
++	ZH 1:
++	'được vẽ theo sách,'
++	R
++	'trải trên sàn.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Alex...... ......xin'
++	R
++	'lỗi anh, nhưng......'
++	\L_07243:
++	ZH 1:
++	'linh hồn gì đó......'
++	R
++	'em không cần nữa......'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Khẽ lẩm bẩm một mình,'
++	R
++	'Magic bắt đầu niệm chú.'
++	\L_07243:
++	ZH 1:
++	'Ma pháp trận trên sàn bắt'
++	R
++	'đầu tỏa sáng xanh lam......'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0711e:
+@@ -5795,53 +5575,53 @@
+ 	G 167:
+ 	\L_071fe:
+ 	ZH 1:
+-	'Magic ngồi trên Ghế Hợp đồng...'
++	'Magic ngồi xuống chiếc Ghế Khế ước......'
+ 	PF0 VAR0056:
+ 	\L_07243:
+ 	ZH 1:
+-	'Magic 「À... Cái gì?! Chào...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Ngay khi ngồi vào ghế, tim cô'
++	'Magic 「A......... gì thế, hi............!」'
++	\L_07243:
++	ZH 1:
++	'Vừa ngồi xuống ghế, tim nàng'
+ 	R
+ 	'đập thình thịch trong lồng ngực.'
+ 	\L_07243:
+ 	ZH 1:
+-	'Magic 「Cái gì...? Cơ thể của tôi là... Ah...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Niềm khoái cảm điên cuồng trào ra từ những'
+-	R
+-	'phần cơ thể cô đang chạm vào chiếc ghế.'
+-	\L_07243:
+-	ZH 1:
+-	'Có cảm giác như những con bọ tục tĩu'
+-	R
+-	'đang bò khắp nơi trong cơ thể nàng. Niềm'
+-	\L_07243:
+-	ZH 1:
+-	'khoái cảm mê hoặc đốt cháy ý thức của Magic.'
+-	\L_07243:
+-	ZH 1:
+-	'Magic 「Không... Ah, aaah...!」'
+-	\L_07243:
+-	ZH 1:
+-	'Cơ thể của Magic quằn quại và cô ngất đi.'
+-	R
+-	'Dù bất tỉnh nhưng cơ thể cô vẫn run rẩy.'
+-	\L_07243:
+-	ZH 1:
+-	'Xacalite 「Ừ... Tốt nhất hãy'
+-	R
+-	'tận hưởng nó đi cô gái...」'
+-	\L_07243:
+-	ZH 1:
+-	'Niềm vui đó sẽ trở thành sức mạnh để tôi'
+-	R
+-	'làm việc cùng... Heheh... Gahahahaha!h...」'
+-	\L_07243:
+-	ZH 1:
+-	'Sau đó, chỉ còn lại tiếng vang của giọng Xacalite…'
++	'Magic 「Gì......... gì thế,'
++	R
++	'cơ thể......... a.........!」'
++	\L_07243:
++	ZH 1:
++	'Từ chỗ tiếp xúc với ghế, một'
++	R
++	'khoái cảm điên cuồng trào lên.'
++	\L_07243:
++	ZH 1:
++	'Như có những con côn trùng dâm đãng bò'
++	R
++	'ngang dọc khắp cơ thể...... Khoái lạc'
++	\L_07243:
++	ZH 1:
++	'ma mị thiêu rụi ý thức của Magic.'
++	\L_07243:
++	ZH 1:
++	'Magic 「Không......... a, a a a.........!」'
++	\L_07243:
++	ZH 1:
++	'Magic quằn quại dữ dội rồi ngất đi. Dù đã'
++	R
++	'mất ý thức, cơ thể vẫn run lên khe khẽ.'
++	\L_07243:
++	ZH 1:
++	'Xacalite 「Phải...... cảm nhận đi, cô gái......'
++	\L_07243:
++	ZH 1:
++	'khoái lạc ấy sẽ thành sức mạnh cho hành động của'
++	R
++	'ta... Khục khục...... khục khục khục.........」'
++	\L_07243:
++	ZH 1:
++	'Sau đó chỉ còn vang vọng giọng Xacalite......'
+ 	\L_07243:
+ 	PF1 VAR0056:
+ 	\L_07236:
+@@ -5876,95 +5656,85 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Ma Pháp'
+-	R
+-	'- 10F Tầng trên cùng'
+-	R
+-	'là một căn phòng lớn.'
+-	\L_07243:
+-	ZH 1:
+-	'Magic đang đứng ở'
+-	R
+-	'trung tâm mà không'
+-	R
+-	'nhìn ra bên ngoài.'
++	'Tháp Magic - Tầng 10'
++	R
++	'Đại sảnh được đả thông'
++	R
++	'cả tầng trên cùng.'
++	\L_07243:
++	ZH 1:
++	'Magic không nhìn ra ngoài,'
++	R
++	'đứng lặng giữa sảnh.'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 478!
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Chúa tể Magic,'
+-	R
+-	'Quân đội Leazas đang'
+-	R
+-	'tiến về phía này.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Tôi hiểu rồi...'
+-	R
+-	'Vậy là họ đã đến.'
+-	\L_07243:
+-	ZH 1:
+-	'... Quân đội Leazas...'
+-	R
+-	'Những kẻ đã giết Alex...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Hả...? Chúa tể Magic,'
+-	R
+-	'ngài vừa nói gì đó...?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Không... Không có gì'
+-	R
+-	'cả. Chỉ huy ma thuật...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Đ-Vâng?'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Magic từ từ'
+-	R
+-	'quay lại. Nụ cười của cô'
+-	R
+-	'chứa đựng nỗi kinh hoàng.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Ra lệnh cho'
+-	R
+-	'toàn quân xuất kích.'
+-	\L_07243:
+-	ZH 1:
+-	'Chúng tôi chiến đấu với ý'
+-	R
+-	'định giết tất cả mọi người.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Đ-Vâng...!'
++	'Ngài Magic, quân Leazas'
++	R
++	'đang tiến về đây.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Vậy à...... chúng đến rồi.'
++	\L_07243:
++	ZH 1:
++	'......... Quân Leazas......'
++	R
++	'kẻ đã giết Alex......'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Ơ......? Ngài Magic,'
++	R
++	'ngài vừa nói gì ạ......?'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Không...... không có gì.'
++	R
++	'Đội trưởng ma pháp...'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'D... dạ.'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Magic chậm rãi quay lại.'
++	R
++	'Nụ cười ẩn chứa sát khí.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ra lệnh toàn quân xuất kích.'
++	\L_07243:
++	ZH 1:
++	'Đánh với ý định giết'
++	R
++	'sạch không chừa một ai.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'D, dạ......!'
+ 	\L_07243:
+ 	\L_07236:
+ 	{VAR0650 = 9:
+ 		\L_071f0:
+ 		\L_07156:
+ 		ZH 1:
+-		'Người chỉ huy ma thuật'
+-		R
+-		'điên cuồng rời khỏi phòng.'
++		'Đội trưởng ma pháp'
++		R
++		'vội vã rời khỏi sảnh.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+@@ -5974,59 +5744,59 @@
+ 		\L_07236:
+ 		\L_07156:
+ 		ZH 1:
+-		'Magic rút cuốn'
+-		R
+-		'sổ ra khỏi túi.'
+-		\L_07243:
+-		ZH 1:
+-		'Một bức ảnh cũ được'
+-		R
+-		'dán bên trong bìa sau.'
+-		\L_07243:
+-		ZH 1:
+-		'Nó cho thấy Magic khi'
+-		R
+-		'còn nhỏ với mẹ và cha cô.'
++		'Magic lấy cuốn sổ tay'
++		R
++		'trong túi đồng phục ra.'
++		\L_07243:
++		ZH 1:
++		'Kẹp ở bìa sau có'
++		R
++		'một tấm ảnh cũ.'
++		\L_07243:
++		ZH 1:
++		'Ảnh kỷ niệm chụp cha,'
++		R
++		'mẹ và Magic hồi nhỏ.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Xin lỗi... Mẹ.'
++		'Con xin lỗi......... mẹ.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_07156:
+ 		ZH 1:
+-		'Bức ảnh bị vò'
+-		R
+-		'nát và ném xuống đất.'
++		'Tấm ảnh bị vo tròn,'
++		R
++		'vứt xuống sàn.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'... Mũi tên lửa!'
++		'...............Fire Arrow!'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_07156:
+ 		ZH 1:
+-		'Ngọn lửa phát ra từ'
+-		R
+-		'đầu ngón tay của nàng thiêu'
+-		R
+-		'rụi bức ảnh trên mặt đất...'
++		'Ngọn lửa từ đầu ngón'
++		R
++		'tay Magic thiêu rụi'
++		R
++		'tấm ảnh trên sàn...'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Hừm...'
++		'Hừ.........'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_07156:
+ 		ZH 1:
+-		'Sau khi chắc chắn rằng'
+-		R
+-		'tình cảm của cô đã bị thiêu'
+-		R
+-		'rụi, Magic rời khỏi phòng.'
++		'Nhìn những tình cảm'
++		R
++		'của mình cháy rụi,'
++		R
++		'Magic rời khỏi sảnh.'
+ 		\L_07243:
+ 		\L_07236:
+ 	}
+@@ -6047,66 +5817,62 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Ma Pháp - 10F'
++	'Tháp Magic - Tầng 10'
+ 	\L_07243:
+ 	{VAR0650 = 9:
+ 		ZH 1:
+-		'Magic đang đứng'
+-		R
+-		'trong một căn phòng'
+-		R
+-		'lớn ở tầng trên cùng.'
++		'Magic đứng trong đại'
++		R
++		'sảnh được đả thông'
++		R
++		'cả tầng trên cùng.'
+ 		\L_07243:
+ 		\L_07236:
+ 		!VAR0516 : 478!
+ 		\L_071e2:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Chúa tể Magic,'
+-		R
+-		'Quân đội Leazas đang'
+-		R
+-		'tiến về phía này.'
++		'Ngài Magic, quân Leazas'
++		R
++		'đang tiến về đây.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'... Được'
+-		R
+-		'rồi. Chặn chúng cùng một'
+-		R
+-		'lúc. Triển khai mọi người.'
++		'......Biết rồi. Ta sẽ'
++		R
++		'nghênh chiến ngay. Cho'
++		R
++		'mọi người vào vị trí.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Có.'
++		'Rõ.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_071f0:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Tôi sẽ không'
+-		R
+-		'lạc đường... Zeth'
+-		R
+-		'sẽ được tôi bảo vệ.'
+-		\L_07243:
+-		ZH 1:
+-		'Cha... con sẽ'
+-		R
+-		'khiến cha phải hối hận'
+-		R
+-		'vì đã bỏ rơi Zeth...'
++		'Không do dự nữa......'
++		R
++		'Zeth, ta sẽ bảo vệ.'
++		\L_07243:
++		ZH 1:
++		'Cha...... con sẽ'
++		R
++		'khiến cha hối hận vì'
++		R
++		'đã bỏ rơi Zeth......'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_07156:
+ 		ZH 1:
+-		'Magic lặng lẽ thì thầm.'
+-		R
+-		'Sau đó cô quay người và đi'
+-		R
+-		'về phía cầu thang thì...'
++		'Magic khẽ lẩm bẩm. Rồi'
++		R
++		'quay người, đi về phía'
++		R
++		'cầu thang. ......Thì......'
+ 		\L_07243:
+ 		\L_07236:
+ 		!VAR0516 : 459!
+@@ -6118,85 +5884,81 @@
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'À...'
++		'A......'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_07156:
+ 		ZH 1:
+-		'Alex đang cản đường Magic.'
++		'Alex chắn ngang'
++		R
++		'trước mặt Magic.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Anh không thể để em'
+-		R
+-		'đi được. Ở lại đây.'
++		'Em không được đi. Ở lại đây.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Tại sao...?'
++		'Sao...... vậy......?'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Cậu biết đấy, chúng'
+-		R
+-		'ta đang chiến đấu với Quân'
+-		R
+-		'đội Leazas. Có nghĩa là...'
+-		\L_07243:
+-		ZH 1:
+-		'Bệ hạ có thể nằm trong số'
+-		R
+-		'đó. Vì vậy cậu không nên đi.'
++		'Đối thủ là quân Leazas'
++		R
++		'phải không? Vậy thì......'
++		\L_07243:
++		ZH 1:
++		'trong đó có thể có cả'
++		R
++		'Bệ hạ. Nên không được.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Tại sao bây giờ cậu lại'
+-		R
+-		'nói về chuyện này, Alex...!?'
+-		\L_07243:
+-		ZH 1:
+-		'Và đừng gọi cha tôi là'
+-		R
+-		'Hoàng thượng! Ông ấy không'
+-		R
+-		'còn là Vua của Zeth nữa...!'
++		'Sao vậy Alex, sao tự'
++		R
++		'dưng anh lại nói thế...!?'
++		\L_07243:
++		ZH 1:
++		'Mà đừng gọi cha là Bệ'
++		R
++		'hạ! Ông ấy không còn'
++		R
++		'là vua Zeth nữa......!'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Dù sao đi nữa... Ông'
+-		R
+-		'ấy là bố của cậu. Điều đó'
+-		R
+-		'sẽ không bao giờ thay đổi.'
+-		\L_07243:
+-		ZH 1:
+-		'Cha mẹ và con'
+-		R
+-		'cái không nên giết nhau...'
+-		\L_07243:
+-		ZH 1:
+-		'Tôi sẽ đi chiến đấu'
+-		R
+-		'với Leazas. Cậu ở lại đây.'
++		'Dù vậy...... ông ấy vẫn'
++		R
++		'là cha em. Điều đó tuyệt'
++		R
++		'đối không thay đổi.'
++		\L_07243:
++		ZH 1:
++		'Cha con không được'
++		R
++		'giết nhau......'
++		\L_07243:
++		ZH 1:
++		'Trận với Leazas, anh'
++		R
++		'sẽ ra. Em ở lại đây.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Không, tôi'
+-		R
+-		'sẽ chiến đấu...!'
+-		\L_07243:
+-		ZH 1:
+-		'Tôi không có'
+-		R
+-		'vấn đề gì khi chiến đấu với'
+-		R
+-		'bố tôi, tôi ghét ông ấy...!'
++		'Không chịu, em sẽ'
++		R
++		'chiến đấu......!'
++		\L_07243:
++		ZH 1:
++		'Đánh với cha thì có sao,'
++		R
++		'em ghét ông ấy lắm......!'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+@@ -6206,40 +5968,36 @@
+ 		\L_07236:
+ 		\L_07156:
+ 		ZH 1:
+-		'Trong cơn thịnh nộ của'
+-		R
+-		'Magic, Alex đã ôm nàng.'
++		'Alex ôm chặt Magic'
++		R
++		'đang kích động.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Hah... Ưư...'
++		'Phư......... ư ư.........'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Con vẫn có'
+-		R
+-		'thể gọi ông ấy là bố của'
+-		R
+-		'con mà, phải không...?'
+-		\L_07243:
+-		ZH 1:
+-		'Cậu có thể làm'
+-		R
+-		'được điều tôi nói không?'
++		'Em vẫn còn gọi được'
++		R
++		'là cha đấy thôi......'
++		\L_07243:
++		ZH 1:
++		'Nghe lời anh nhé?'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Cậu sẽ sống'
+-		R
+-		'sót trở lại chứ...?'
++		'Anh sẽ...... sống'
++		R
++		'trở về chứ...?'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Vâng, tôi hứa.'
++		'Ừ, anh hứa.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+@@ -6249,25 +6007,27 @@
+ 		\L_07236:
+ 		\L_07156:
+ 		ZH 1:
+-		'Magic lặng'
+-		R
+-		'lẽ gật đầu. Alex lau'
+-		R
+-		'nước mắt trên má cô.'
++		'Magic lặng lẽ gật đầu.'
++		R
++		'Alex lau giọt nước mắt'
++		R
++		'lăn trên má nàng......'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Hẹn gặp lại, Ma'
+-		R
+-		'gic. Đừng rời khỏi đây...'
++		'Đi đây, Magic. Không được'
++		R
++		'rời khỏi đây đâu nhé...'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_07156:
+ 		ZH 1:
+-		'Họ trao nhau nụ hôn'
+-		R
+-		'nhẹ và anh rời khỏi phòng.'
++		'......Hai người trao'
++		R
++		'nhau một nụ hôn nhẹ,'
++		R
++		'rồi anh rời khỏi phòng.'
+ 		\L_07243:
+ 		\L_07236:
+ 		!VAR0516 : 0!
+@@ -6275,174 +6035,156 @@
+ 		%0:
+ 	}
+ 	ZH 1:
+-	'Tầng trên cùng là'
+-	R
+-	'căn phòng lớn. Một chỉ huy'
+-	R
+-	'ma thuật xuất hiện ở đó.'
++	'Đại sảnh được đả thông cả'
++	R
++	'tầng trên cùng. Đội trưởng'
++	R
++	'ma pháp xuất hiện ở đó.'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 478!
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Chúa tể Magic,'
+-	R
+-	'Quân đội Leazas đang'
+-	R
+-	'tiến về phía này.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Và... Cái gì?'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Magic đang ngồi'
+-	R
+-	'gần cửa sổ đọc sách và liếc'
+-	R
+-	'nhìn người chỉ huy ma thuật.'
+-	\L_07243:
+-	ZH 1:
+-	'Nàng đang học'
+-	R
+-	'bài kiểm trà.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Hãy chỉ đạo'
+-	R
+-	'phòng thủ của chúng tôi, tòa'
+-	R
+-	'tháp này đang bị tấn công.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Chẳng liên'
+-	R
+-	'quan gì đến tôi cả.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Lãnh chúa Magic...!'
++	'Ngài Magic, quân Leazas'
++	R
++	'đang tiến về đây.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Thì...... sao?'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Đang ngồi bên cửa sổ đọc'
++	R
++	'sách giáo khoa, Magic chán'
++	R
++	'chường nhìn đội trưởng.'
++	\L_07243:
++	ZH 1:
++	'Có vẻ đang ôn thi.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Xin ngài chỉ huy'
++	R
++	'phòng thủ, tòa tháp'
++	R
++	'này sắp bị tấn công.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Chẳng liên quan đến ta.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Ngài Magic......!'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_071f0:
+ 	\L_0718e:
+ 	ZH 1:
+-	'... Ngươi không bao'
+-	R
+-	'giờ thay đổi, Magic.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'À...!'
++	'......Vẫn như mọi'
++	R
++	'khi nhỉ, Magic.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'A......!'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 459!
+ 	\L_071e2:
+ 	\L_07156:
+ 	ZH 1:
+-	'Alex xuất hiện'
+-	R
+-	'ở lối vào phòng.'
+-	\L_07243:
+-	ZH 1:
+-	'Anh ta tiếp cận Magic'
+-	R
+-	'với một nụ cười không phù'
+-	R
+-	'hợp cho trường hợp khẩn cấp.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Xin lỗi vì không thể'
+-	R
+-	'gặp cậu nhiều. Khi tôi định'
+-	R
+-	'đến thì kẻ thù tấn công...'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi gặp xui xẻo.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Alex... Tôi'
+-	R
+-	'xin lỗi, bởi vì tôi là'
+-	R
+-	'một trong Tứ Đại Chúa...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Này, cậu không nên'
+-	R
+-	'nói những điều như vậy.'
+-	\L_07243:
+-	ZH 1:
+-	'Chúng ta phải chăm'
+-	R
+-	'sóc đất nước trong'
+-	R
+-	'khi Bệ hạ đi vắng.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Ừ... Nhưng...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Ngoài ra...'
+-	\L_07243:
+-	ZH 1:
+-	'Có lẽ tôi thực'
+-	R
+-	'sự may mắn vì đã đến'
+-	\L_07243:
+-	ZH 1:
+-	'kịp lúc cậu'
+-	R
+-	'đang bị tấn công.'
+-	\L_07243:
+-	ZH 1:
+-	'Điều này'
+-	R
+-	'có thể kết thúc mà không'
+-	R
+-	'cần cậu phải chiến đấu.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Hả? Alex...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Chỉ huy ma thuật,'
+-	R
+-	'có phiền không nếu'
+-	R
+-	'tôi chịu trách nhiệm?'
+-	\L_07243:
+-	ZH 1:
+-	'Có lẽ tốt'
+-	R
+-	'nhất là Tứ Lãnh Chúa nên'
+-	R
+-	'được bảo tồn nếu có thể.'
++	'Ở lối vào đại sảnh,'
++	R
++	'Alex xuất hiện.'
++	\L_07243:
++	ZH 1:
++	'Với nụ cười chẳng'
++	R
++	'hợp lúc khẩn cấp, anh'
++	R
++	'bước lại gần Magic.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Xin lỗi, mãi chẳng đến'
++	R
++	'gặp em được. Vừa đến'
++	R
++	'thì địch tấn công...'
++	\L_07243:
++	ZH 1:
++	'xui thật.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Alex...... em xin'
++	R
++	'lỗi, tại em là Tứ Đại'
++	R
++	'Lãnh Chúa gì đó...'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Này, không được'
++	R
++	'nói gì đó chứ.'
++	\L_07243:
++	ZH 1:
++	'Chúng ta phải giữ nước'
++	R
++	'khi Bệ hạ vắng mặt.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ừ......... nhưng......'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Với lại...'
++	\L_07243:
++	ZH 1:
++	'địch tấn công lúc này,'
++	R
++	'nghĩ theo cách khác'
++	\L_07243:
++	ZH 1:
++	'thì có khi lại may.'
++	\L_07243:
++	ZH 1:
++	'Không cần để em ra trận.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ơ, Alex......'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Đội trưởng ma pháp, để'
++	R
++	'tôi chỉ huy được chứ?'
++	\L_07243:
++	ZH 1:
++	'Nếu được thì nên giữ'
++	R
++	'Tứ Đại Lãnh Chúa lại.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_07180:
+@@ -6458,43 +6200,43 @@
+ 	\L_07172:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Alex, dừng lại...!'
+-	R
+-	'Nguy hiểm lắm, tôi sẽ...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Tôi đi vì nó'
+-	R
+-	'nguy hiểm, Magic.'
+-	\L_07243:
+-	ZH 1:
+-	'Và cũng để nhận'
+-	R
+-	'được sự chấp thuận của'
+-	R
+-	'Bệ Hạ. Hãy để tôi đi.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Ờ...'
+-	\L_07243:
+-	ZH 1:
+-	'Nhưng... Đừng chết nhé...?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Ừ, tôi hứa. Tôi sẽ đi.'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Alex hôn lên trán'
+-	R
+-	'Magic và rời khỏi phòng.'
++	'Alex, đừng...! Nguy'
++	R
++	'hiểm lắm, để em......'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Vì nguy hiểm nên'
++	R
++	'anh mới đi, Magic.'
++	\L_07243:
++	ZH 1:
++	'Cũng là để được Bệ hạ'
++	R
++	'công nhận. Để anh đi nhé.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Ư.........'
++	\L_07243:
++	ZH 1:
++	'Nhưng...... đừng'
++	R
++	'chết... nhé......?'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Ừ, anh hứa. Anh đi đây.'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Alex hôn lên trán Magic,'
++	R
++	'rồi rời khỏi đại sảnh.'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!
+@@ -6515,9 +6257,9 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Ma Pháp -'
+-	R
+-	'Tầng 1 ... Kh...'
++	'Tháp Magic - Tầng 1'
++	R
++	'.........Hự.........'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 58!
+@@ -6529,93 +6271,89 @@
+ 	\L_07236:
+ 	\L_07156:
+ 	ZH 1:
+-	'Alex lê lết trở lại'
+-	R
+-	'với vết thương. Magic tái'
+-	R
+-	'mặt và chạy đến chỗ anh.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Xin lỗi... tôi thua rồi...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Ngu ngốc, điều'
+-	R
+-	'đó không quan trọng...!'
+-	\L_07243:
+-	ZH 1:
+-	'Ah, ah...'
+-	R
+-	'Những vết thương này'
+-	R
+-	'thật khủng khiếp...'
+-	\L_07243:
+-	ZH 1:
+-	'Tại sao? Đáng lẽ cậu'
+-	R
+-	'nên rút lui sớm hơn!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Đừng vô lý,'
+-	R
+-	'Magic... Tôi không thể'
+-	R
+-	'làm được điều đó...'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi phải bảo vệ Zeth...'
+-	R
+-	'Tôi phải... nhận được sự'
+-	R
+-	'chấp thuận của Bệ hạ...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Tôi không quan tâm'
+-	R
+-	'đến điều đó chút nào!'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi đã bảo'
+-	R
+-	'là chúng ta nên cùng'
+-	R
+-	'nhau đi đâu đó mà...!'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi bảo anh đưa tôi đi'
+-	R
+-	'mà...! Nhưng cậu đã không...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Anh vẫn không thể,'
+-	R
+-	'anh... phải bảo vệ em...'
+-	\L_07243:
+-	ZH 1:
+-	'Cuối cùng... tôi'
+-	R
+-	'cũng chẳng giúp được'
+-	R
+-	'gì nhiều... Guhah...!'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Alex ho ra máu. Nó'
+-	R
+-	'nhuộm đỏ đồng phục của Magic'
+-	R
+-	'khi cô ôm anh trong tay.'
++	'Alex bị thương, lảo đảo quay'
++	R
++	'về. Magic tái mặt chạy đến.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Xin lỗi...... anh'
++	R
++	'thua rồi......'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Đồ ngốc, chuyện đó'
++	R
++	'không quan trọng...!'
++	\L_07243:
++	ZH 1:
++	'A, a...... bị'
++	R
++	'thương...... thế này...'
++	\L_07243:
++	ZH 1:
++	'Sao không rút khỏi chiến'
++	R
++	'tuyến sớm hơn chứ...!'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Đừng nói vô lý thế,'
++	R
++	'Magic...... làm'
++	R
++	'sao làm được chứ...'
++	\L_07243:
++	ZH 1:
++	'Phải bảo vệ Zeth......'
++	R
++	'phải được Bệ hạ...'
++	R
++	'công nhận......'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Em đâu cần mấy chuyện đó!'
++	\L_07243:
++	ZH 1:
++	'Em đã bảo rồi mà, hai'
++	R
++	'ta cùng đi đâu đó...!'
++	\L_07243:
++	ZH 1:
++	'Đã bảo anh đưa em đi đâu'
++	R
++	'đó......! Vậy mà......'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Dù vậy... vẫn không'
++	R
++	'được, anh......'
++	R
++	'phải bảo... vệ em...'
++	\L_07243:
++	ZH 1:
++	'Rốt cuộc......'
++	R
++	'chẳng giúp được...'
++	R
++	'mấy...... khục......!'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Alex nôn ra máu tươi.'
++	R
++	'Đồng phục Magic đang'
++	R
++	'ôm anh nhuộm đỏ.'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_0711e:
+@@ -6625,128 +6363,124 @@
+ 	\L_07236:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Xin lỗi... Tôi không thể'
+-	R
+-	'là... lá chắn của cậu nữa...'
+-	\L_07243:
+-	ZH 1:
+-	'Chạy đi sớm,'
+-	R
+-	'quân Leazas đang đến...'
+-	\L_07243:
+-	ZH 1:
+-	'Nhanh lên...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Không...! Không, tôi'
+-	R
+-	'sẽ ở lại với cậu...! Em'
+-	R
+-	'sẽ ở bên anh mãi mãi...!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Magic, đừng lố bịch!'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Không có'
+-	R
+-	'nghĩa là không! Chữa'
+-	R
+-	'lành, chữa lành...!'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Magic tuyệt vọng'
+-	R
+-	'đưa tay lên ngực ngươi trai.'
+-	R
+-	'Alex nhẹ nhàng nắm lấy nó.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Đủ rồi, Magic... Cậu'
+-	R
+-	'thậm chí còn không thể sử'
+-	R
+-	'dụng phép thuật linh mục...'
+-	\L_07243:
+-	ZH 1:
+-	'Ngoài ra...'
+-	R
+-	'Dù sao thì cũng đã quá'
+-	R
+-	'muộn để cứu tôi rồi...'
+-	\L_07243:
+-	ZH 1:
+-	'Cậu biết điều đó'
+-	R
+-	'mà phải không...? Đừng lãng'
+-	R
+-	'phí thời gian của cậu...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Không... Không, Alex...'
+-	\L_07243:
+-	ZH 1:
+-	'Hick... Tôi không'
+-	R
+-	'thể chịu đựng được...'
+-	\L_07243:
+-	ZH 1:
+-	'Magic.tấn công chỉ là vô'
+-	R
+-	'dụng khi nó được tính đến...'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi đã dồn hết tâm sức'
+-	R
+-	'vào việc nghiên cứu nó...'
+-	R
+-	'Tôi đúng là một tên ngốc...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Nhanh lên... đi...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Không... Anh muốn ở'
+-	R
+-	'bên em dù thế nào đi'
+-	R
+-	'nữa, em biết đấy...'
+-	\L_07243:
+-	ZH 1:
+-	'Alex, sống thiếu em'
+-	R
+-	'còn đau đớn hơn cả chết...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Magic... ...tôi...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Cho anh đi cùng em nhé...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Magic... Magic...'
++	'Xin lỗi...... anh'
++	R
++	'không thể... làm lá'
++	R
++	'chắn cho em nữa...'
++	\L_07243:
++	ZH 1:
++	'Mau chạy đi, quân Leazas...'
++	\L_07243:
++	ZH 1:
++	'nhanh lên......'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Không......! Không, em'
++	R
++	'ở bên anh......! Mãi'
++	R
++	'mãi ở bên anh......!'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Magic, đừng bướng thế...!'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Không là không!'
++	R
++	'Healing, Healing...!'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Magic cuống cuồng đưa tay'
++	R
++	'lên ngực người yêu. Alex'
++	R
++	'nhẹ nhàng nắm lấy tay nàng.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Thôi được rồi, Magic...'
++	R
++	'Em...... đâu dùng được'
++	R
++	'ma pháp thần quan...'
++	\L_07243:
++	ZH 1:
++	'Với lại...... dù sao anh'
++	R
++	'cũng không qua khỏi...'
++	\L_07243:
++	ZH 1:
++	'Em biết mà......? Đừng'
++	R
++	'làm chuyện vô ích......'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Không...... không'
++	R
++	'chịu đâu, Alex......'
++	\L_07243:
++	ZH 1:
++	'Hức...... ghét lắm rồi......'
++	\L_07243:
++	ZH 1:
++	'Ma pháp tấn công gì'
++	R
++	'chứ, lúc cần thì chẳng'
++	R
++	'giúp được gì......'
++	\L_07243:
++	ZH 1:
++	'Thế mà em ra sức học......'
++	R
++	'ngốc thật, em......'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Mau...... đi......'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Không...... này, nhất định'
++	R
++	'không được ở bên anh sao...?'
++	\L_07243:
++	ZH 1:
++	'Alex, không có anh...'
++	R
++	'còn đau... hơn chết......'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Magic......'
++	R
++	'............anh............'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Em cũng......... cho'
++	R
++	'em... đi cùng......'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Ma...gic......'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_07156:
+@@ -6767,18 +6501,18 @@
+ 	\L_071f0:
+ 	\L_07156:
+ 	ZH 1:
+-	'Sau khi Magic’s'
+-	R
+-	'Tower sụp đổ, xác của Alex'
+-	R
+-	'và Magic được tìm thấy.'
+-	\L_07243:
+-	ZH 1:
+-	'Bàn tay của họ đan'
+-	R
+-	'chặt vào nhau... ... Họ đang'
+-	R
+-	'mỉm cười trong chết chóc.'
++	'Trong tòa tháp Magic thất'
++	R
++	'thủ, người ta tìm thấy'
++	R
++	'thi thể Alex và Magic.'
++	\L_07243:
++	ZH 1:
++	'Hai người nắm chặt tay'
++	R
++	'nhau...... ......chết'
++	R
++	'với nụ cười trên môi.'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!
+@@ -6797,17 +6531,17 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp Ma Pháp -'
+-	\L_07243:
+-	ZH 1:
+-	'Phòng Riêng Bên trong'
+-	R
+-	'những bức tường đá có một'
+-	\L_07243:
+-	ZH 1:
+-	'căn phòng đơn giản nhưng'
+-	R
+-	'được bài trí rất nữ tính.'
++	'Tháp Magic'
++	\L_07243:
++	ZH 1:
++	'Phòng riêng'
++	R
++	'Giữa những bức tường đá,'
++	\L_07243:
++	ZH 1:
++	'căn phòng giản dị mà vẫn'
++	R
++	'bày biện rất con gái.'
+ 	\L_07243:
+ 	!VAR0156 : 125!
+ 	{VAR0128 \ 0:
+@@ -6819,59 +6553,55 @@
+ 		\L_071e2:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Magic... Tốt nhất là'
+-		R
+-		'cậu đừng nghĩ về Bệ hạ nữa.'
+-		\L_07243:
+-		ZH 1:
+-		'Hãy nghĩ đến'
+-		R
+-		'việc bảo vệ Zeth...'
++		'Magic...... tốt nhất em'
++		R
++		'đừng nghĩ về Bệ hạ nữa.'
++		\L_07243:
++		ZH 1:
++		'Chúng ta chỉ nghĩ đến'
++		R
++		'việc bảo vệ Zeth thôi...'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'............ Cậu'
+-		R
+-		'đang nói về cái gì vậy?'
+-		\L_07243:
+-		ZH 1:
+-		'Ngay từ đầu tôi đã'
+-		R
+-		'không nghĩ đến bố tôi…'
+-		\L_07243:
+-		ZH 1:
+-		'Ông ấy đã bỏ rơi'
+-		R
+-		'Zeth, nên ông ấy là kẻ thù.'
++		'...............Gì vậy chứ.'
++		\L_07243:
++		ZH 1:
++		'Em vốn chẳng nghĩ'
++		R
++		'gì về cha cả...'
++		\L_07243:
++		ZH 1:
++		'Ông ấy là kẻ thù'
++		R
++		'đã bỏ rơi Zeth.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+ 		ZH 1:
+-		'... Cậu không cần phải'
+-		R
+-		'ép mình trước mặt tôi đâu.'
++		'......Trước mặt anh, em'
++		R
++		'không cần gượng ép đâu.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_07156:
+ 		ZH 1:
+-		'Alex cười nhẹ nhàng'
+-		R
+-		'và vỗ nhẹ vào đầu Magic.'
++		'Alex dịu dàng cười,'
++		R
++		'xoa đầu Magic.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Cái gì...? Tôi'
+-		R
+-		'không hề ép buộc bản thân'
+-		R
+-		'mình chút nào!... Chỉ là...'
+-		\L_07243:
+-		ZH 1:
+-		'Đôi khi tôi'
+-		R
+-		'cảm thấy bất lực...'
++		'Gì chứ...... em đâu có'
++		R
++		'gượng ép! ......Chỉ là......'
++		\L_07243:
++		ZH 1:
++		'chỉ là, đôi khi thấy'
++		R
++		'chơi vơi thôi......'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+@@ -6881,49 +6611,47 @@
+ 		\L_07236:
+ 		\L_07156:
+ 		ZH 1:
+-		'Magic gục đầu trước mặt'
+-		R
+-		'Alex. Đôi vai cô run rẩy.'
+-		\L_07243:
+-		ZH 1:
+-		'Nước mắt cô'
+-		R
+-		'rơi xuống sàn nhà.'
+-		\L_07243:
+-		ZH 1:
+-		'Alex đặt tay'
+-		R
+-		'lên vai Magic như thể'
+-		R
+-		'đang sưởi ấm cho nàng.'
++		'Trước mặt Alex, đôi'
++		R
++		'vai Magic đang cúi'
++		R
++		'đầu run lên khe khẽ.'
++		\L_07243:
++		ZH 1:
++		'Nước mắt lã chã'
++		R
++		'rơi, thấm ướt sàn.'
++		\L_07243:
++		ZH 1:
++		'Alex đặt tay lên hai vai'
++		R
++		'Magic như để sưởi ấm nàng.'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Alex... Ở'
+-		R
+-		'bên em... ... Em... em'
+-		R
+-		'cảm thấy cô đơn quá...'
++		'Alex... ở bên em nhé......'
++		R
++		'.........Em...... như chỉ'
++		R
++		'còn một mình rồi......'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0718e:
+ 		ZH 1:
+-		'Được rồi... Cậu'
+-		R
+-		'sẽ ổn thôi, Magic...'
+-		R
+-		'Có tôi ở đây...'
+-		\L_07243:
+-		ZH 1:
+-		'Hãy cùng nhau'
+-		R
+-		'bảo vệ Zeth...'
++		'Ừ...... không sao đâu,'
++		R
++		'Magic... có anh đây......'
++		\L_07243:
++		ZH 1:
++		'Cùng nhau bảo vệ'
++		R
++		'Zeth nhé......'
+ 		\L_07243:
+ 		\L_07236:
+ 		\L_0711e:
+ 		ZH 1:
+-		'Ừ... Được rồi...'
++		'Ừ...... ừm.........'
+ 		\L_07243:
+ 		\L_07236:
+ 		!VAR0516 : 0!
+@@ -6931,52 +6659,48 @@
+ 		%0:
+ 	}
+ 	ZH 1:
+-	'Magic đang đứng đó'
+-	R
+-	'một mình. Nàng đang'
+-	R
+-	'sôi sục vì giận dữ.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'... Không thể tha thứ...'
+-	\L_07243:
+-	ZH 1:
+-	'Ý cậu là gì khi'
+-	R
+-	'cậu tôn trọng Vua Rance...'
+-	\L_07243:
+-	ZH 1:
+-	'Hay cậu sẽ'
+-	R
+-	'tiêu diệt Zeth?!'
+-	\L_07243:
+-	ZH 1:
+-	'Hoặc sự cải cách'
+-	R
+-	'hay công lý vô nghĩa'
+-	R
+-	'của bố, bố ngu ngốc!'
+-	\L_07243:
+-	ZH 1:
+-	'Cậu vừa đi loanh'
+-	R
+-	'quanh khi rời khỏi Zeth...'
+-	\L_07243:
+-	ZH 1:
+-	'Rất nhiều công'
+-	R
+-	'dân đã chết, và Alex... đã'
+-	R
+-	'chết... Tất cả là do cậu!!'
+-	\L_07243:
+-	ZH 1:
+-	'Con sẽ không'
+-	R
+-	'tha thứ cho bố đâu...'
+-	R
+-	'Không bao giờ...!'
++	'Ở đó...... Magic đứng'
++	R
++	'một mình. Lửa giận'
++	R
++	'bừng bừng quanh người.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'............Không'
++	R
++	'thể tha thứ.........'
++	\L_07243:
++	ZH 1:
++	'Vua Rance kính yêu'
++	R
++	'cái gì chứ......'
++	\L_07243:
++	ZH 1:
++	'Diệt Zeth cái gì chứ......!'
++	\L_07243:
++	ZH 1:
++	'Cải tạo thế gian, chính'
++	R
++	'nghĩa cái gì, cha ngốc!'
++	\L_07243:
++	ZH 1:
++	'Bỏ trống đất nước, chỉ'
++	R
++	'biết làm theo ý mình......'
++	\L_07243:
++	ZH 1:
++	'Bao người dân chết, cả'
++	R
++	'Alex... cũng chết...'
++	R
++	'tất cả là tại ông!!'
++	\L_07243:
++	ZH 1:
++	'Không tha...... tôi nhất'
++	R
++	'định không tha......!'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!
+@@ -6995,49 +6719,49 @@
+ 	ZM 24:
+ 	ZH 1:
+ 	R
+-	'Tháp ma thuật'
+-	R
+-	'- Nghiên cứu Hả...'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Trời đã khuya...'
+-	\L_07243:
+-	ZH 1:
+-	'Magic ngáp dài.'
+-	\L_07243:
+-	ZH 1:
+-	'Một cuốn sách tham'
+-	R
+-	'khảo được mở trên chiếc bàn'
+-	R
+-	'đẹp dành cho người chỉ huy.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Haah...'
+-	\L_07243:
+-	ZH 1:
+-	'Tôi muốn ngủ.'
+-	\L_07243:
+-	ZH 1:
+-	'Ngay cả với Flash và'
+-	R
+-	'War, thứ duy nhất không biến'
+-	R
+-	'mất là bài tập về nhà...'
+-	\L_07243:
+-	ZH 1:
+-	'Trường học'
+-	R
+-	'nghỉ học nên tôi ước gì cũng'
+-	R
+-	'không có bài tập về nhà...'
+-	\L_07243:
+-	ZH 1:
+-	'Cô Rika ác quá. Ngáp...'
++	'Tháp Magic - Thư phòng'
++	R
++	'Oáp.........'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Đêm khuya......'
++	\L_07243:
++	ZH 1:
++	'Magic ngáp một cái thật dài.'
++	\L_07243:
++	ZH 1:
++	'Trên chiếc bàn bề thế'
++	R
++	'dành cho chỉ huy, sách'
++	R
++	'tham khảo đang mở.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Haa............'
++	\L_07243:
++	ZH 1:
++	'buồn ngủ quá.'
++	\L_07243:
++	ZH 1:
++	'Dù có Pika, có chiến'
++	R
++	'tranh, bài tập về'
++	R
++	'nhà vẫn chẳng bớt...'
++	\L_07243:
++	ZH 1:
++	'Trường đã cho nghỉ học thì'
++	R
++	'bỏ luôn bài tập đi chứ......'
++	\L_07243:
++	ZH 1:
++	'Cô Rika ác quá'
++	R
++	'đi. Ưm ưm.........'
+ 	\L_07243:
+ 	\L_07236:
+ 	\L_07156:
+@@ -7047,83 +6771,77 @@
+ 	\L_07236:
+ 	\L_0711e:
+ 	ZH 1:
+-	'Ủa?'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Magic đáp lại với má'
+-	R
+-	'vẫn dán chặt vào bàn.'
++	'Vââng?'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Magic đáp lời, má'
++	R
++	'vẫn dán trên mặt bàn.'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 478!
+ 	\L_071e2:
+ 	\L_0718e:
+ 	ZH 1:
+-	'Xin lỗi...'
+-	\L_07243:
+-	ZH 1:
+-	'Lãnh chúa Magic,'
+-	R
+-	'xin hãy nghỉ ngơi.'
+-	\L_07243:
+-	ZH 1:
+-	'Chúng ta'
+-	R
+-	'đang trong cuộc chiến với'
+-	R
+-	'Leazas, sức khỏe của cậu...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'... Được rồi, vậy thì đây.'
+-	\L_07243:
+-	\L_07236:
+-	\L_07156:
+-	ZH 1:
+-	'Magic ngắt'
+-	R
+-	'lời người chỉ huy phép thuật'
+-	R
+-	'và đưa cho nàng một cuốn sổ.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Hả?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Cậu có thể làm bài tập'
+-	R
+-	'về nhà giúp tôi được không?'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'À, ừm...'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'... Tôi đùa đấy. Tôi'
+-	R
+-	'không ép buộc bản thân quá'
+-	R
+-	'đâu, đừng lo lắng cho tôi.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0718e:
+-	ZH 1:
+-	'Vâng... Xin lỗi.'
+-	\L_07243:
+-	\L_07236:
+-	\L_0711e:
+-	ZH 1:
+-	'Haah... Tôi mệt quá.'
++	'Xin phép...'
++	\L_07243:
++	ZH 1:
++	'Ngài Magic, xin'
++	R
++	'ngài đi nghỉ đi ạ.'
++	\L_07243:
++	ZH 1:
++	'Đang giữa cuộc chiến'
++	R
++	'với Leazas, trước'
++	R
++	'hết là sức khỏe......'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'.........Vậy thì, đây.'
++	\L_07243:
++	\L_07236:
++	\L_07156:
++	ZH 1:
++	'Ngắt lời đội trưởng ma'
++	R
++	'pháp, Magic chìa cuốn vở ra.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Dạ?'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Làm bài tập giúp ta nhé?'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'A, ưm......'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'......Đùa thôi. Ta không'
++	R
++	'cố quá đâu, đừng lo.'
++	\L_07243:
++	\L_07236:
++	\L_0718e:
++	ZH 1:
++	'Vâng...... thần xin cáo lui.'
++	\L_07243:
++	\L_07236:
++	\L_0711e:
++	ZH 1:
++	'Phù......... mệt ghê.'
+ 	\L_07243:
+ 	\L_07236:
+ 	!VAR0516 : 0!

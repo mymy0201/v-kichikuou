@@ -88,19 +88,19 @@
 	ZM 24:
 	ZH 1:
 	R
-	'Phòng yết kiến. Bệ hạ Rance,'
+	'Phòng yết kiến. Maris「Bệ'
 	R
-	'có chuyện lớn rồi...'
+	'hạ Rance, nguy rồi...'
 	\L_01a48:
 	ZH 1:
-	'Một đại quân Haniwa đang vây'
+	'Một đại quân Haniwa'
 	R
-	'kín thành.'
+	'đang bao vây thành.'
 	\L_01a48:
 	ZH 1:
-	'Ước chừng đến năm nghìn quân'
+	'Ước chừng có tới'
 	R
-	'ạ...'
+	'năm nghìn quân...」'
 	\L_01a48:
 	\L_01a3b:
 	\L_019f5:
@@ -188,11 +188,11 @@
 	\L_019e7:
 	\L_01993:
 	ZH 1:
-	'Maris「Bệ hạ... Vua Hanny'
+	'Maris「Bệ hạ, chẳng'
 	R
-	'sẽ...?」 Rance「Ừ, làm thuộc'
+	'lẽ...」 Rance「Ừ, Vua'
 	R
-	'hạ ta.」'
+	'Hanny làm thuộc hạ ta.」'
 	\L_01a48:
 	\L_01a3b:
 	\L_019f5:
@@ -265,9 +265,9 @@
 	ZM 24:
 	ZH 1:
 	R
-	'Phòng Vua Hanny. Vua Hanny'
+	'Phòng Vua Hanny. Julia「Vua'
 	R
-	'ơi, tại sao...?'
+	'Hanny ơi, tại sao...?」'
 	\L_01a48:
 	\L_01a3b:
 	\L_01923:
@@ -429,14 +429,16 @@
 	'cuối.'
 	\L_01a48:
 	ZH 1:
-	'Một đại sảnh vô cùng lộng'
+	'Một đại sảnh vô'
 	R
-	'lẫy. (Bụp'
+	'cùng lộng lẫy.'
 	\L_01a48:
 	ZH 1:
-	'bụp bụp) Tiếng bước chân'
+	'(Bụp bụp bụp) Tiếng'
 	R
-	'vang lên từ phía bên kia.'
+	'bước chân vọng lại'
+	R
+	'từ phía bên kia.'
 	\L_01a48:
 	\L_01a3b:
 	!VAR0516 : 495!
@@ -453,24 +455,24 @@
 	'Vua Hanny đây.'
 	\L_01a48:
 	ZH 1:
-	'Vua Hanny vừa nói vừa rung'
+	'Ông vừa nói vừa run'
 	R
-	'rung đôi tay ngắn ngủn.'
+	'run đôi tay ngắn ngủn.'
 	\L_01a48:
 	\L_01a3b:
 	\L_01923:
 	ZH 1:
-	'Đến được tận đây tức là cậu'
+	'Đến tận đây tức'
 	R
-	'đã đánh bại'
+	'là cậu đã đánh bại'
 	\L_01a48:
 	ZH 1:
-	'hết các tiểu đoàn phòng vệ'
+	'hết các tiểu đoàn'
 	R
-	'Haniwa nhỉ.'
+	'Haniwa phòng vệ rồi nhỉ.'
 	\L_01a48:
 	ZH 1:
-	'Vỗ tay nào, giỏi thật đấy.'
+	'(Vỗ tay) Giỏi thật đấy.'
 	\L_01a48:
 	\L_01a3b:
 	\L_01923:
@@ -503,7 +505,7 @@
 	{VAR0002 = 3:
 		ZH 1:
 		$L_016a1$
-		'Julia đặc biệt'
+		'Cải tạo Julia'
 		$
 	}
 	{(VAR0154 = 1) * (VAR0666 \ 7):
@@ -577,14 +579,14 @@
 	'Không đâu.'
 	\L_01a48:
 	ZH 1:
-	'Ta là vua Haniwa. Vừa mạnh,'
+	'Ta là vua Haniwa. Vừa'
 	R
-	'vừa ngầu, vừa oai, tuyệt'
+	'mạnh, vừa ngầu, vừa'
 	R
-	'nhất đời. Cho nên'
+	'sành điệu, nhất đời.'
 	\L_01a48:
 	ZH 1:
-	'không chịu đâu.'
+	'Cho nên không chịu đâu.'
 	\L_01a48:
 	\L_01a3b:
 	\L_01993:
@@ -632,16 +634,16 @@
 	\L_01a3b:
 	\L_01923:
 	ZH 1:
-	'Thế giới loài người à... Ở'
+	'Thế giới loài người à...'
 	R
-	'đây mãi cũng chán...'
+	'Ở đây mãi cũng chán rồi...'
 	\L_01a48:
 	ZH 1:
-	'Vua Hanny「Cũng được đấy.」'
+	'Vua Hanny「Cũng'
 	R
-	'Rance「Vậy ngươi nhận lời'
+	'được.」 Rance「Vậy làm'
 	R
-	'nhé?」'
+	'thuộc hạ ta nhé?」'
 	\L_01a48:
 	\L_01a3b:
 	\L_01923:
@@ -660,16 +662,16 @@
 	\L_01a3b:
 	\L_01923:
 	ZH 1:
-	'Cho ta nuôi Julia làm thú'
+	'Cho ta nuôi Julia làm'
 	R
-	'cưng. Ta thích cô bé ấy, nên'
+	'thú cưng. Ta thích em'
 	R
-	'giao'
+	'ấy, nên giao cho ta đi.'
 	\L_01a48:
 	ZH 1:
-	'cho ta đi. Thế thì ta sẽ làm'
+	'Như thế ta sẽ'
 	R
-	'thuộc hạ cậu.'
+	'làm thuộc hạ cậu.'
 	\L_01a48:
 	\L_01a3b:
 	\L_01993:
@@ -684,7 +686,7 @@
 	}
 	ZH 1:
 	$L_00d70$
-	'Tặng Julia'
+	'Giao Julia'
 	$
 	R
 	$L_00cd4$
@@ -695,14 +697,14 @@
 *L_00cd4:
 	\L_01993:
 	ZH 1:
-	'Rance「Ngươi có cả đống'
+	'Rance「Ngươi có cả'
 	R
-	'Haniko rồi mà.」 Vua'
+	'đống Haniko rồi mà.」'
 	R
-	'Hanny「Muốn à?」'
+	'Vua Hanny「Cậu muốn à?'
 	\L_01a48:
 	ZH 1:
-	'Thế ta cho cậu một cô nhé?'
+	'Thế ta cho cậu một cô nhé?」'
 	\L_01a48:
 	\L_01a3b:
 	\L_01993:
@@ -751,9 +753,9 @@
 	ZH 1:
 	'Rance「Ồn quá!」 Vua'
 	R
-	'Hanny「Ta sẽ tới thành sau.'
+	'Hanny「Ta sửa soạn rồi đến'
 	R
-	'Nhớ giao Julia nhé.」'
+	'thành. Nhớ giao Julia nhé.」'
 	\L_01a48:
 	\L_01a3b:
 	\L_01993:
@@ -834,9 +836,7 @@
 	'Ừm...'
 	\L_01a48:
 	ZH 1:
-	'Em có tài năng khá tuyệt'
-	R
-	'đấy.'
+	'Em có tài năng đáng nể đấy.'
 	\L_01a48:
 	\L_01a3b:
 	\L_0195b:
@@ -860,14 +860,14 @@
 	\L_01a3b:
 	\L_01993:
 	ZH 1:
-	'Julia「Oa! Được khen rồi,'
+	'Julia「Oa! Được khen'
 	R
-	'vui quá!」 Vua Hanny「Dễ'
+	'rồi, vui quá!」 Vua'
 	R
-	'thương quá...」'
+	'Hanny「Dễ thương quá...'
 	\L_01a48:
 	ZH 1:
-	'Ư hư... Hư hư...'
+	'Hư hư... Hư hư...」'
 	\L_01a48:
 	\L_01a3b:
 	\L_01993:
@@ -927,21 +927,19 @@
 	!VAR0001 : 2!
 	\L_01923:
 	ZH 1:
-	'Làm quà chuyến đi, ta kể'
+	'Làm quà chuyến'
 	R
-	'chuyện'
+	'đi, ta kể chuyện'
 	\L_01a48:
 	ZH 1:
 	'cổ tích sở trường cho nghe'
 	R
-	'nhé. Ngày xửa ngày xưa, ở'
-	R
-	'một'
+	'nhé. Ngày xửa ngày xưa,'
 	\L_01a48:
 	ZH 1:
-	'nơi nọ có một ông lão'
+	'ở một nơi nọ có'
 	R
-	'Haniwa.'
+	'ông lão Haniwa.'
 	\L_01a48:
 	ZH 1:
 	'Hàng xóm của ông là một lão'
@@ -975,16 +973,14 @@
 		!VAR0666 : 4!
 		\L_01923:
 		ZH 1:
-		'Phải rồi, đã cất công đến'
+		'Phải rồi, đã cất'
 		R
-		'đây,'
+		'công đến đây,'
 		\L_01a48:
 		ZH 1:
-		'cậu có muốn ta đặc biệt phẫu'
+		'ta sẽ đặc biệt phẫu thuật'
 		R
-		'thuật tăng sức mạnh cho'
-		R
-		'không?'
+		'tăng sức mạnh cho cậu nhé?'
 		\L_01a48:
 		ZH 1:
 		'Mạnh lên hẳn, lợi lắm đấy.'
@@ -997,14 +993,14 @@
 		!VAR0666 : 5!
 		\L_01923:
 		ZH 1:
-		'Phải rồi, hiếm khi được gặp'
+		'Phải rồi, hiếm khi gặp'
 		R
-		'nhau, ta sẽ phẫu'
+		'nhau, để làm kỷ niệm...'
 		\L_01a48:
 		ZH 1:
-		'thuật cải tạo cho cậu làm kỷ'
+		'ta sẽ phẫu thuật'
 		R
-		'niệm nhé.'
+		'cải tạo cho cậu.'
 		\L_01a48:
 		\L_01a3b:
 		\L_0195b:
@@ -1025,7 +1021,7 @@
 		ZH 1:
 		'Mong cậu chịu cho ta mổ. Ta'
 		R
-		'thích phẫu thuật lắm...'
+		'thích phẫu thuật lắm mà...'
 		\L_01a48:
 		\L_01a3b:
 		@L_00935:
@@ -1057,9 +1053,9 @@
 	'Hết việc rồi thì cậu về nhé.'
 	\L_01a48:
 	ZH 1:
-	'Tôi có một cuộc họp bí'
+	'Ta muốn âu yếm với'
 	R
-	'mật với Haniko 22... Heheh.'
+	'Haniko số 22... Hì hì.'
 	\L_01a48:
 	\L_01a3b:
 	\L_0195b:
@@ -1088,10 +1084,10 @@
 	ZH 1:
 	'Vậy ta bắt đầu phẫu thuật'
 	R
-	'tăng sức mạnh cho'
+	'tăng sức mạnh cho '
 	R
 	X 1:
-	'nhé.'
+	' nhé.'
 	\L_01a48:
 	\L_01a3b:
 	\L_019f5:
@@ -1116,11 +1112,11 @@
 	\L_0195b:
 	ZH 1:
 	X 1:
-	'đã được cường hóa. Thể lực'
+	' mạnh hơn.'
 	R
-	'tối đa +3 Số lần tấn công'
+	'Thể lực tối đa +3'
 	R
-	'+10'
+	'Số lần tấn công +10'
 	\L_01a48:
 	\L_01a3b:
 	!VAR0091 : VAR0091 + 3!
@@ -1177,7 +1173,9 @@
 	\L_0195b:
 	ZH 1:
 	X 1:
-	'đã được cải tạo. Tấn công +2'
+	' được cải tạo.'
+	R
+	'Tấn công +2'
 	R
 	'Phòng thủ -1'
 	\L_01a48:
@@ -1218,11 +1216,11 @@
 	\L_019e7:
 	\L_01993:
 	ZH 1:
-	'Julia「Hồi hộp quá...」 Vua'
+	'Julia「Hồi hộp'
 	R
-	'Hanny「Sẵn sàng chưa,'
+	'quá...」 Vua Hanny「Sẵn'
 	R
-	'Julia?」'
+	'sàng chưa, Julia?」'
 	\L_01a48:
 	\L_01a3b:
 	\L_01993:

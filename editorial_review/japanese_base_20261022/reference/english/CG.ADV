@@ -1,0 +1,3977 @@
+	!VAR0001 : 0!
+	!VAR0002 : 0!
+	!VAR0003 : 0!
+	!VAR0004 : 0!
+	!VAR0005 : 0!
+	!VAR0006 : 0!
+	!VAR0007 : 0!
+	!VAR0008 : 0!
+	!VAR0009 : 0!
+	!VAR0010 : 0!
+	!VAR0011 : 0!
+	!VAR0012 : 0!
+	!VAR0013 : 0!
+	!VAR0014 : 0!
+	!VAR0015 : 0!
+	!VAR0016 : 0!
+	!VAR0017 : 0!
+	!VAR0018 : 0!
+	!VAR0019 : 0!
+	!VAR0001 : 1!
+	!VAR0002 : 0!
+	!VAR0003 : 0!
+	!VAR0004 : 0!
+	!VAR0005 : 0!
+	!VAR0006 : 0!
+	!VAR0007 : 0!
+	!VAR0008 : 0!
+	!VAR0009 : 0!
+	!VAR0010 : 0!
+	!VAR0011 : 0!
+	!VAR0012 : 0!
+	!VAR0013 : 0!
+	!VAR0014 : 0!
+	SS 0:
+	J0 1920, 400:
+	G 844:
+	J0 640, 400:
+	G 845:
+	J0 1280, 0:
+	G 846:
+	J0 1280, 400:
+	G 847:
+	J0 1920, 0:
+	G 848:
+	J0 0, 400:
+	G 849:
+	\L_03fd9:
+	CC 1920, 400, 640, 400, 0, 0:
+*L_0010a:
+	IM VAR0202, VAR0203:
+	{VAR0000 = 16:
+		@L_00884:
+	}
+	{(VAR0202 > 2) * (VAR0202 < 109) * (VAR0203 > 39) * (VAR0203 < 99):
+		!VAR0003 : 1!
+		@L_00781:
+	}
+	{(VAR0202 > 108) * (VAR0202 < 215) * (VAR0203 > 39) * (VAR0203 < 99):
+		!VAR0003 : 2!
+		@L_00781:
+	}
+	{(VAR0202 > 214) * (VAR0202 < 321) * (VAR0203 > 39) * (VAR0203 < 99):
+		!VAR0003 : 3!
+		@L_00781:
+	}
+	{(VAR0202 > 320) * (VAR0202 < 427) * (VAR0203 > 39) * (VAR0203 < 99):
+		!VAR0003 : 4!
+		@L_00781:
+	}
+	{(VAR0202 > 426) * (VAR0202 < 533) * (VAR0203 > 39) * (VAR0203 < 99):
+		!VAR0003 : 5!
+		@L_00781:
+	}
+	{(VAR0202 > 534) * (VAR0202 < 637) * (VAR0203 > 39) * (VAR0203 < 99):
+		!VAR0003 : 6!
+		@L_00781:
+	}
+	{(VAR0202 > 2) * (VAR0202 < 109) * (VAR0203 > 111) * (VAR0203 < 171):
+		!VAR0003 : 7!
+		@L_00781:
+	}
+	{(VAR0202 > 108) * (VAR0202 < 215) * (VAR0203 > 111) * (VAR0203 < 171):
+		!VAR0003 : 8!
+		@L_00781:
+	}
+	{(VAR0202 > 214) * (VAR0202 < 321) * (VAR0203 > 111) * (VAR0203 < 171):
+		!VAR0003 : 9!
+		@L_00781:
+	}
+	{(VAR0202 > 320) * (VAR0202 < 427) * (VAR0203 > 111) * (VAR0203 < 171):
+		!VAR0003 : 10!
+		@L_00781:
+	}
+	{(VAR0202 > 426) * (VAR0202 < 533) * (VAR0203 > 111) * (VAR0203 < 171):
+		!VAR0003 : 11!
+		@L_00781:
+	}
+	{(VAR0202 > 534) * (VAR0202 < 637) * (VAR0203 > 111) * (VAR0203 < 171):
+		!VAR0003 : 12!
+		@L_00781:
+	}
+	{(VAR0202 > 2) * (VAR0202 < 109) * (VAR0203 > 183) * (VAR0203 < 243):
+		!VAR0003 : 13!
+		@L_00781:
+	}
+	{(VAR0202 > 108) * (VAR0202 < 215) * (VAR0203 > 183) * (VAR0203 < 243):
+		!VAR0003 : 14!
+		@L_00781:
+	}
+	{(VAR0202 > 214) * (VAR0202 < 321) * (VAR0203 > 183) * (VAR0203 < 243):
+		!VAR0003 : 15!
+		@L_00781:
+	}
+	{(VAR0202 > 320) * (VAR0202 < 427) * (VAR0203 > 183) * (VAR0203 < 243):
+		!VAR0003 : 16!
+		@L_00781:
+	}
+	{(VAR0202 > 426) * (VAR0202 < 533) * (VAR0203 > 183) * (VAR0203 < 243):
+		!VAR0003 : 17!
+		@L_00781:
+	}
+	{(VAR0202 > 534) * (VAR0202 < 637) * (VAR0203 > 183) * (VAR0203 < 243):
+		!VAR0003 : 18!
+		@L_00781:
+	}
+	{(VAR0202 > 2) * (VAR0202 < 109) * (VAR0203 > 255) * (VAR0203 < 315):
+		!VAR0003 : 19!
+		@L_00781:
+	}
+	{(VAR0202 > 108) * (VAR0202 < 215) * (VAR0203 > 255) * (VAR0203 < 315):
+		!VAR0003 : 20!
+		@L_00781:
+	}
+	{(VAR0202 > 214) * (VAR0202 < 321) * (VAR0203 > 255) * (VAR0203 < 315):
+		!VAR0003 : 21!
+		@L_00781:
+	}
+	{(VAR0202 > 320) * (VAR0202 < 427) * (VAR0203 > 255) * (VAR0203 < 315):
+		!VAR0003 : 22!
+		@L_00781:
+	}
+	{(VAR0202 > 426) * (VAR0202 < 533) * (VAR0203 > 255) * (VAR0203 < 315):
+		!VAR0003 : 23!
+		@L_00781:
+	}
+	{(VAR0202 > 534) * (VAR0202 < 637) * (VAR0203 > 255) * (VAR0203 < 315):
+		!VAR0003 : 24!
+		@L_00781:
+	}
+	{(VAR0202 > 2) * (VAR0202 < 109) * (VAR0203 > 327) * (VAR0203 < 387):
+		!VAR0003 : 25!
+		@L_00781:
+	}
+	{(VAR0202 > 108) * (VAR0202 < 215) * (VAR0203 > 327) * (VAR0203 < 387):
+		!VAR0003 : 26!
+		@L_00781:
+	}
+	{(VAR0202 > 214) * (VAR0202 < 321) * (VAR0203 > 327) * (VAR0203 < 387):
+		!VAR0003 : 27!
+		@L_00781:
+	}
+	{(VAR0202 > 320) * (VAR0202 < 427) * (VAR0203 > 327) * (VAR0203 < 387):
+		!VAR0003 : 28!
+		@L_00781:
+	}
+	{(VAR0202 > 426) * (VAR0202 < 533) * (VAR0203 > 327) * (VAR0203 < 387):
+		!VAR0003 : 29!
+		@L_00781:
+	}
+	{(VAR0202 > 534) * (VAR0202 < 637) * (VAR0203 > 327) * (VAR0203 < 387):
+		!VAR0003 : 30!
+		@L_00781:
+	}
+	{VAR0001 \ 1:
+		{(VAR0202 > 35) * (VAR0202 < 82) * (VAR0203 > 4) * (VAR0203 < 24):
+			!VAR0003 : 31!
+			@L_00781:
+		}
+	}
+	{VAR0001 \ 2:
+		{(VAR0202 > 90) * (VAR0202 < 137) * (VAR0203 > 4) * (VAR0203 < 24):
+			!VAR0003 : 32!
+			@L_00781:
+		}
+	}
+	{VAR0001 \ 3:
+		{(VAR0202 > 145) * (VAR0202 < 192) * (VAR0203 > 4) * (VAR0203 < 24):
+			!VAR0003 : 33!
+			@L_00781:
+		}
+	}
+	{VAR0001 \ 4:
+		{(VAR0202 > 200) * (VAR0202 < 247) * (VAR0203 > 4) * (VAR0203 < 24):
+			!VAR0003 : 34!
+			@L_00781:
+		}
+	}
+	{VAR0001 \ 5:
+		{(VAR0202 > 255) * (VAR0202 < 302) * (VAR0203 > 4) * (VAR0203 < 24):
+			!VAR0003 : 35!
+			@L_00781:
+		}
+	}
+	{(VAR0202 > 552) * (VAR0202 < 639) * (VAR0203 > 0) * (VAR0203 < 25):
+		!VAR0003 : 99!
+		@L_00781:
+	}
+	@L_00765:
+*L_00765:
+	{VAR0002 \ 0:
+		\L_007a7:
+		!VAR0002 : 0!
+	}
+	@L_0010a:
+*L_00781:
+	{VAR0002 = VAR0003:
+		@L_0010a:
+	}
+	\L_007a7:
+	!VAR0002 : VAR0003!
+	\L_007c4:
+	@L_0010a:
+*L_007a7:
+	!VAR0000 : VAR0002!
+	\L_04fbc:
+	CC 0, 400, VAR0013, VAR0014, VAR0011, VAR0012:
+	\0:
+*L_007c4:
+	!VAR0000 : VAR0002!
+	\L_04fbc:
+	CC VAR0011, VAR0012, VAR0013, VAR0014, 0, 400:
+	{(VAR0002 > 0) * (VAR0002 < 31):
+		\L_040b7:
+		!VAR0192 : VAR0516!
+		{VAR0196 = 0:
+			\0:
+		}
+	}
+	{(VAR0002 > 30) * (VAR0002 < 36):
+		CB VAR0011, VAR0012, VAR0013, 2, 65:
+		CB VAR0011, VAR0012, 2, VAR0014, 65:
+		CB VAR0011 + VAR0013 - 2, VAR0012, 2, VAR0014, 65:
+	}
+	{(VAR0002 < 31) + (VAR0002 = 99):
+		CB VAR0011, VAR0012, VAR0013, VAR0014, 65:
+		CB VAR0011 + 1, VAR0012 + 1, VAR0013 - 2, VAR0014 - 2, 65:
+	}
+	\0:
+*L_00884:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_00884:
+	}
+	{VAR0002 = 0:
+		@L_0010a:
+	}
+	{(VAR0002 > 0) * (VAR0002 < 31):
+		@L_00941:
+	}
+	{VAR0002 = 31:
+		@L_00965:
+	}
+	{VAR0002 = 32:
+		@L_0096e:
+	}
+	{VAR0002 = 33:
+		@L_00977:
+	}
+	{VAR0002 = 34:
+		@L_00980:
+	}
+	{VAR0002 = 35:
+		@L_00989:
+	}
+	{VAR0002 = 99:
+		@L_00992:
+	}
+	@L_0010a:
+*L_00941:
+	\L_040b7:
+	!VAR0192 : VAR0516!
+	{VAR0196 = 0:
+		@L_0010a:
+	}
+	@L_009b5:
+*L_00965:
+	!VAR0001 : 1!
+	@L_00a37:
+*L_0096e:
+	!VAR0001 : 2!
+	@L_00a37:
+*L_00977:
+	!VAR0001 : 3!
+	@L_00a37:
+*L_00980:
+	!VAR0001 : 4!
+	@L_00a37:
+*L_00989:
+	!VAR0001 : 5!
+	@L_00a37:
+*L_00992:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_00992:
+	}
+	!VAR0520 : 0!
+	%0:
+*L_009b5:
+	{VAR0001 = 1:
+		\L_00b11:
+		@L_00a37:
+	}
+	{VAR0001 = 2:
+		\L_00d5a:
+		@L_00a37:
+	}
+	{VAR0001 = 3:
+		\L_00fa3:
+		@L_00a37:
+	}
+	{VAR0001 = 4:
+		\L_011ec:
+		@L_00a37:
+	}
+	{VAR0001 = 5:
+		\L_01435:
+		@L_00a37:
+	}
+	ZH 1:
+	'suppoooh'
+*L_00a37:
+	!VAR0002 : 0!
+	J0 0, 400:
+	G 841:
+	SS 0:
+	{VAR0001 = 1:
+		CC 1920, 400, 640, 400, 0, 0:
+		@L_0010a:
+	}
+	{VAR0001 = 2:
+		CC 640, 400, 640, 400, 0, 0:
+		@L_0010a:
+	}
+	{VAR0001 = 3:
+		CC 1280, 0, 640, 400, 0, 0:
+		@L_0010a:
+	}
+	{VAR0001 = 4:
+		CC 1280, 400, 640, 400, 0, 0:
+		@L_0010a:
+	}
+	{VAR0001 = 5:
+		CC 1920, 0, 640, 400, 0, 0:
+		@L_0010a:
+	}
+	ZH 1:
+	'supoooh'
+	@L_0010a:
+*L_00b11:
+	{VAR0002 = 1:
+		@L_0167e:
+	}
+	{VAR0002 = 2:
+		@L_016b0:
+	}
+	{VAR0002 = 3:
+		@L_016e2:
+	}
+	{VAR0002 = 4:
+		@L_01714:
+	}
+	{VAR0002 = 5:
+		@L_01746:
+	}
+	{VAR0002 = 6:
+		@L_01778:
+	}
+	{VAR0002 = 7:
+		@L_017aa:
+	}
+	{VAR0002 = 8:
+		@L_017dc:
+	}
+	{VAR0002 = 9:
+		@L_0180e:
+	}
+	{VAR0002 = 10:
+		@L_01840:
+	}
+	{VAR0002 = 11:
+		@L_01872:
+	}
+	{VAR0002 = 12:
+		@L_018a4:
+	}
+	{VAR0002 = 13:
+		@L_018d6:
+	}
+	{VAR0002 = 14:
+		@L_01908:
+	}
+	{VAR0002 = 15:
+		@L_0193a:
+	}
+	{VAR0002 = 16:
+		@L_0196c:
+	}
+	{VAR0002 = 17:
+		@L_0199e:
+	}
+	{VAR0002 = 18:
+		@L_019d0:
+	}
+	{VAR0002 = 19:
+		@L_01a02:
+	}
+	{VAR0002 = 20:
+		@L_01a34:
+	}
+	{VAR0002 = 21:
+		@L_01a66:
+	}
+	{VAR0002 = 22:
+		@L_01a98:
+	}
+	{VAR0002 = 23:
+		@L_01aca:
+	}
+	{VAR0002 = 24:
+		@L_01afc:
+	}
+	{VAR0002 = 25:
+		@L_01b2e:
+	}
+	{VAR0002 = 26:
+		@L_01b60:
+	}
+	{VAR0002 = 27:
+		@L_01b92:
+	}
+	{VAR0002 = 28:
+		@L_01bc4:
+	}
+	{VAR0002 = 29:
+		@L_01bf6:
+	}
+	{VAR0002 = 30:
+		@L_01c28:
+	}
+	ZH 1:
+	'strange choice'
+	@L_0167e:
+*L_00d5a:
+	{VAR0002 = 1:
+		@L_01c5a:
+	}
+	{VAR0002 = 2:
+		@L_01c8c:
+	}
+	{VAR0002 = 3:
+		@L_01cbe:
+	}
+	{VAR0002 = 4:
+		@L_01ceb:
+	}
+	{VAR0002 = 5:
+		@L_01d1d:
+	}
+	{VAR0002 = 6:
+		@L_01d4f:
+	}
+	{VAR0002 = 7:
+		@L_01d81:
+	}
+	{VAR0002 = 8:
+		@L_01db3:
+	}
+	{VAR0002 = 9:
+		@L_01de5:
+	}
+	{VAR0002 = 10:
+		@L_01e17:
+	}
+	{VAR0002 = 11:
+		@L_01e49:
+	}
+	{VAR0002 = 12:
+		@L_01e7b:
+	}
+	{VAR0002 = 13:
+		@L_01ead:
+	}
+	{VAR0002 = 14:
+		@L_01edf:
+	}
+	{VAR0002 = 15:
+		@L_01f11:
+	}
+	{VAR0002 = 16:
+		@L_01f43:
+	}
+	{VAR0002 = 17:
+		@L_01f75:
+	}
+	{VAR0002 = 18:
+		@L_01fa7:
+	}
+	{VAR0002 = 19:
+		@L_01fd9:
+	}
+	{VAR0002 = 20:
+		@L_0200b:
+	}
+	{VAR0002 = 21:
+		@L_0203d:
+	}
+	{VAR0002 = 22:
+		@L_0206f:
+	}
+	{VAR0002 = 23:
+		@L_020a1:
+	}
+	{VAR0002 = 24:
+		@L_020d3:
+	}
+	{VAR0002 = 25:
+		@L_02105:
+	}
+	{VAR0002 = 26:
+		@L_02137:
+	}
+	{VAR0002 = 27:
+		@L_02169:
+	}
+	{VAR0002 = 28:
+		@L_0219b:
+	}
+	{VAR0002 = 29:
+		@L_021cd:
+	}
+	{VAR0002 = 30:
+		@L_021ff:
+	}
+	ZH 1:
+	'strange choice'
+	@L_01c5a:
+*L_00fa3:
+	{VAR0002 = 1:
+		@L_02231:
+	}
+	{VAR0002 = 2:
+		@L_02263:
+	}
+	{VAR0002 = 3:
+		@L_02295:
+	}
+	{VAR0002 = 4:
+		@L_022c7:
+	}
+	{VAR0002 = 5:
+		@L_022f9:
+	}
+	{VAR0002 = 6:
+		@L_0232b:
+	}
+	{VAR0002 = 7:
+		@L_0235d:
+	}
+	{VAR0002 = 8:
+		@L_0238f:
+	}
+	{VAR0002 = 9:
+		@L_023c1:
+	}
+	{VAR0002 = 10:
+		@L_023f3:
+	}
+	{VAR0002 = 11:
+		@L_02425:
+	}
+	{VAR0002 = 12:
+		@L_02457:
+	}
+	{VAR0002 = 13:
+		@L_02489:
+	}
+	{VAR0002 = 14:
+		@L_024bb:
+	}
+	{VAR0002 = 15:
+		@L_024ed:
+	}
+	{VAR0002 = 16:
+		@L_0251f:
+	}
+	{VAR0002 = 17:
+		@L_02551:
+	}
+	{VAR0002 = 18:
+		@L_02583:
+	}
+	{VAR0002 = 19:
+		@L_025b5:
+	}
+	{VAR0002 = 20:
+		@L_025e7:
+	}
+	{VAR0002 = 21:
+		@L_02619:
+	}
+	{VAR0002 = 22:
+		@L_0264b:
+	}
+	{VAR0002 = 23:
+		@L_0267d:
+	}
+	{VAR0002 = 24:
+		@L_026af:
+	}
+	{VAR0002 = 25:
+		@L_026e1:
+	}
+	{VAR0002 = 26:
+		@L_02713:
+	}
+	{VAR0002 = 27:
+		@L_02745:
+	}
+	{VAR0002 = 28:
+		@L_02777:
+	}
+	{VAR0002 = 29:
+		@L_027a9:
+	}
+	{VAR0002 = 30:
+		@L_027db:
+	}
+	ZH 1:
+	'strange choice'
+	@L_02231:
+*L_011ec:
+	{VAR0002 = 1:
+		@L_0280d:
+	}
+	{VAR0002 = 2:
+		@L_0283f:
+	}
+	{VAR0002 = 3:
+		@L_02871:
+	}
+	{VAR0002 = 4:
+		@L_028a3:
+	}
+	{VAR0002 = 5:
+		@L_028d5:
+	}
+	{VAR0002 = 6:
+		@L_02907:
+	}
+	{VAR0002 = 7:
+		@L_02939:
+	}
+	{VAR0002 = 8:
+		@L_0296b:
+	}
+	{VAR0002 = 9:
+		@L_0299d:
+	}
+	{VAR0002 = 10:
+		@L_029cf:
+	}
+	{VAR0002 = 11:
+		@L_02a01:
+	}
+	{VAR0002 = 12:
+		@L_02a33:
+	}
+	{VAR0002 = 13:
+		@L_02a65:
+	}
+	{VAR0002 = 14:
+		@L_02a97:
+	}
+	{VAR0002 = 15:
+		@L_02ac9:
+	}
+	{VAR0002 = 16:
+		@L_02afb:
+	}
+	{VAR0002 = 17:
+		@L_02b2d:
+	}
+	{VAR0002 = 18:
+		@L_02b5f:
+	}
+	{VAR0002 = 19:
+		@L_02b91:
+	}
+	{VAR0002 = 20:
+		@L_02bc3:
+	}
+	{VAR0002 = 21:
+		@L_02bf5:
+	}
+	{VAR0002 = 22:
+		@L_02c22:
+	}
+	{VAR0002 = 23:
+		@L_02c4f:
+	}
+	{VAR0002 = 24:
+		@L_02c81:
+	}
+	{VAR0002 = 25:
+		@L_02cb3:
+	}
+	{VAR0002 = 26:
+		@L_02ce5:
+	}
+	{VAR0002 = 27:
+		@L_02d17:
+	}
+	{VAR0002 = 28:
+		@L_02d49:
+	}
+	{VAR0002 = 29:
+		@L_02d7b:
+	}
+	{VAR0002 = 30:
+		@L_02dad:
+	}
+	ZH 1:
+	'strange choice'
+	@L_02231:
+*L_01435:
+	{VAR0002 = 1:
+		@L_02ddf:
+	}
+	{VAR0002 = 2:
+		@L_02e1f:
+	}
+	{VAR0002 = 3:
+		@L_02e51:
+	}
+	{VAR0002 = 4:
+		@L_02e83:
+	}
+	{VAR0002 = 5:
+		@L_02eb5:
+	}
+	{VAR0002 = 6:
+		@L_02ee7:
+	}
+	{VAR0002 = 7:
+		@L_02f19:
+	}
+	{VAR0002 = 8:
+		@L_02f4b:
+	}
+	{VAR0002 = 9:
+		@L_02f7d:
+	}
+	{VAR0002 = 10:
+		@L_02faf:
+	}
+	{VAR0002 = 11:
+		@L_02fe1:
+	}
+	{VAR0002 = 12:
+		@L_03013:
+	}
+	{VAR0002 = 13:
+		@L_03045:
+	}
+	{VAR0002 = 14:
+		@L_03077:
+	}
+	{VAR0002 = 15:
+		@L_030a4:
+	}
+	{VAR0002 = 16:
+		@L_030d1:
+	}
+	{VAR0002 = 17:
+		@L_030fe:
+	}
+	{VAR0002 = 18:
+		@L_0312b:
+	}
+	{VAR0002 = 19:
+		@L_0315d:
+	}
+	{VAR0002 = 20:
+		@L_0318a:
+	}
+	{VAR0002 = 21:
+		@L_031bc:
+	}
+	{VAR0002 = 22:
+		@L_031ee:
+	}
+	{VAR0002 = 23:
+		@L_03220:
+	}
+	{VAR0002 = 24:
+		@L_03252:
+	}
+	{VAR0002 = 25:
+		@L_03284:
+	}
+	{VAR0002 = 26:
+		@L_032b6:
+	}
+	{VAR0002 = 27:
+		@L_032e8:
+	}
+	{VAR0002 = 28:
+		@L_0331a:
+	}
+	{VAR0002 = 29:
+		@L_0334c:
+	}
+	{VAR0002 = 30:
+		@L_0337e:
+	}
+	ZH 1:
+	'strange choice'
+	@L_02231:
+*L_0167e:
+	!VAR0520 : 300!
+	!VAR0516 : 101!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｼｨﾙ.ADV:
+	\L_03449:
+	\0:
+*L_016b0:
+	!VAR0520 : 300!
+	!VAR0516 : 102!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｿｳﾙ.ADV:
+	\L_03449:
+	\0:
+*L_016e2:
+	!VAR0520 : 301!
+	!VAR0516 : 103!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｼｨﾙ.ADV:
+	\L_03449:
+	\0:
+*L_01714:
+	!VAR0520 : 300!
+	!VAR0516 : 104!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Iﾄｳｿﾞｸ.ADV:
+	\L_03449:
+	\0:
+*L_01746:
+	!VAR0520 : 300!
+	!VAR0516 : 105!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Iﾊﾝﾗﾝ.ADV:
+	\L_03449:
+	\0:
+*L_01778:
+	!VAR0520 : 301!
+	!VAR0516 : 106!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Iﾊﾝﾗﾝ.ADV:
+	\L_03449:
+	\0:
+*L_017aa:
+	!VAR0520 : 300!
+	!VAR0516 : 107!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾘｱ.ADV:
+	\L_03449:
+	\0:
+*L_017dc:
+	!VAR0520 : 300!
+	!VAR0516 : 108!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾏﾘｽ.ADV:
+	\L_03449:
+	\0:
+*L_0180e:
+	!VAR0520 : 300!
+	!VAR0516 : 109!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾚｲﾗ.ADV:
+	\L_03449:
+	\0:
+*L_01840:
+	!VAR0520 : 300!
+	!VAR0516 : 110!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｶﾅﾐ.ADV:
+	\L_03449:
+	\0:
+*L_01872:
+	!VAR0520 : 301!
+	!VAR0516 : 111!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｶﾅﾐ.ADV:
+	\L_03449:
+	\0:
+*L_018a4:
+	!VAR0520 : 300!
+	!VAR0516 : 112!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｳﾝｶﾞ.ADV:
+	\L_03449:
+	\0:
+*L_018d6:
+	!VAR0520 : 300!
+	!VAR0516 : 113!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾚﾍﾞｯｶ.ADV:
+	\L_03449:
+	\0:
+*L_01908:
+	!VAR0520 : 300!
+	!VAR0516 : 114!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾊﾟﾊﾟｲｱ.ADV:
+	\L_03449:
+	\0:
+*L_0193a:
+	!VAR0520 : 300!
+	!VAR0516 : 115!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｱﾅｾﾙ.ADV:
+	\L_03449:
+	\0:
+*L_0196c:
+	!VAR0520 : 300!
+	!VAR0516 : 116!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾒﾙｼｨ.ADV:
+	\L_03449:
+	\0:
+*L_0199e:
+	!VAR0520 : 300!
+	!VAR0516 : 117!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｽﾃｯｾﾙ.ADV:
+	\L_03449:
+	\0:
+*L_019d0:
+	!VAR0520 : 301!
+	!VAR0516 : 118!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｽﾃｯｾﾙ.ADV:
+	\L_03449:
+	\0:
+*L_01a02:
+	!VAR0520 : 300!
+	!VAR0516 : 119!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｼｰﾗ.ADV:
+	\L_03449:
+	\0:
+*L_01a34:
+	!VAR0520 : 301!
+	!VAR0516 : 120!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｼｰﾗ.ADV:
+	\L_03449:
+	\0:
+*L_01a66:
+	!VAR0520 : 300!
+	!VAR0516 : 121!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｼｬﾘｴﾗ.ADV:
+	\L_03449:
+	\0:
+*L_01a98:
+	!VAR0520 : 300!
+	!VAR0516 : 122!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Iｼｬﾝｸﾞﾘﾗ.ADV:
+	\L_03449:
+	\0:
+*L_01aca:
+	!VAR0520 : 300!
+	!VAR0516 : 123!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｲｿﾛｸ.ADV:
+	\L_03449:
+	\0:
+*L_01afc:
+	!VAR0520 : 300!
+	!VAR0516 : 124!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｺｳﾋﾒ.ADV:
+	\L_03449:
+	\0:
+*L_01b2e:
+	!VAR0520 : 300!
+	!VAR0516 : 125!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾒﾙﾌｪｲｽ.ADV:
+	\L_03449:
+	\0:
+*L_01b60:
+	!VAR0520 : 300!
+	!VAR0516 : 126!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾊｳﾚｰﾝ.ADV:
+	\L_03449:
+	\0:
+*L_01b92:
+	!VAR0520 : 300!
+	!VAR0516 : 127!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｸﾘｰﾑ.ADV:
+	\L_03449:
+	\0:
+*L_01bc4:
+	!VAR0520 : 301!
+	!VAR0516 : 128!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｸﾘｰﾑ.ADV:
+	\L_03449:
+	\0:
+*L_01bf6:
+	!VAR0520 : 300!
+	!VAR0516 : 129!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｱｵｲ.ADV:
+	\L_03449:
+	\0:
+*L_01c28:
+	!VAR0520 : 300!
+	!VAR0516 : 130!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｶﾁｭｰｼｬ.ADV:
+	\L_03449:
+	\0:
+*L_01c5a:
+	!VAR0520 : 301!
+	!VAR0516 : 131!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｶﾁｭｰｼｬ.ADV:
+	\L_03449:
+	\0:
+*L_01c8c:
+	!VAR0520 : 300!
+	!VAR0516 : 132!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｿﾙﾆｱ.ADV:
+	\L_03449:
+	\0:
+*L_01cbe:
+	!VAR0516 : 133!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	\L_03453:
+	\L_03449:
+	\0:
+*L_01ceb:
+	!VAR0520 : 300!
+	!VAR0516 : 134!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾙｰﾍﾞﾗﾝ.ADV:
+	\L_03449:
+	\0:
+*L_01d1d:
+	!VAR0520 : 300!
+	!VAR0516 : 135!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｱﾘｽﾄﾚｽ.ADV:
+	\L_03449:
+	\0:
+*L_01d4f:
+	!VAR0520 : 300!
+	!VAR0516 : 136!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾓｺﾓｺ.ADV:
+	\L_03449:
+	\0:
+*L_01d81:
+	!VAR0520 : 300!
+	!VAR0516 : 137!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾏｺﾄ.ADV:
+	\L_03449:
+	\0:
+*L_01db3:
+	!VAR0520 : 300!
+	!VAR0516 : 138!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾒﾅﾄﾞ.ADV:
+	\L_03449:
+	\0:
+*L_01de5:
+	!VAR0520 : 301!
+	!VAR0516 : 139!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾒﾅﾄﾞ.ADV:
+	\L_03449:
+	\0:
+*L_01e17:
+	!VAR0520 : 300!
+	!VAR0516 : 140!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Iﾏｼﾞﾝ.ADV:
+	\L_03449:
+	\0:
+*L_01e49:
+	!VAR0520 : 300!
+	!VAR0516 : 141!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾅｷﾞ.ADV:
+	\L_03449:
+	\0:
+*L_01e7b:
+	!VAR0520 : 301!
+	!VAR0516 : 142!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Iﾏｼﾞﾝ.ADV:
+	\L_03449:
+	\0:
+*L_01ead:
+	!VAR0520 : 301!
+	!VAR0516 : 143!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾘｱ.ADV:
+	\L_03449:
+	\0:
+*L_01edf:
+	!VAR0520 : 300!
+	!VAR0516 : 144!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｳｪﾝﾃﾞｨ.ADV:
+	\L_03449:
+	\0:
+*L_01f11:
+	!VAR0520 : 300!
+	!VAR0516 : 145!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｽｽﾞﾒ.ADV:
+	\L_03449:
+	\0:
+*L_01f43:
+	!VAR0520 : 302!
+	!VAR0516 : 146!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾘｱ.ADV:
+	\L_03449:
+	\0:
+*L_01f75:
+	!VAR0520 : 300!
+	!VAR0516 : 147!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｴﾘｻﾞﾍﾞ.ADV:
+	\L_03449:
+	\0:
+*L_01fa7:
+	!VAR0520 : 301!
+	!VAR0516 : 148!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Iｼｬﾝｸﾞﾘﾗ.ADV:
+	\L_03449:
+	\0:
+*L_01fd9:
+	!VAR0520 : 302!
+	!VAR0516 : 149!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｼｨﾙ.ADV:
+	\L_03449:
+	\0:
+*L_0200b:
+	!VAR0520 : 300!
+	!VAR0516 : 150!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾏﾘｱ.ADV:
+	\L_03449:
+	\0:
+*L_0203d:
+	!VAR0520 : 300!
+	!VAR0516 : 151!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｱﾐﾗﾝ.ADV:
+	\L_03449:
+	\0:
+*L_0206f:
+	!VAR0520 : 301!
+	!VAR0516 : 152!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾙｰﾍﾞﾗﾝ.ADV:
+	\L_03449:
+	\0:
+*L_020a1:
+	!VAR0520 : 300!
+	!VAR0516 : 153!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｶﾗｰ.ADV:
+	\L_03449:
+	\0:
+*L_020d3:
+	!VAR0520 : 301!
+	!VAR0516 : 154!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｶﾗｰ.ADV:
+	\L_03449:
+	\0:
+*L_02105:
+	!VAR0520 : 300!
+	!VAR0516 : 155!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾐｷ.ADV:
+	\L_03449:
+	\0:
+*L_02137:
+	!VAR0520 : 301!
+	!VAR0516 : 156!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾊﾟﾊﾟｲｱ.ADV:
+	\L_03449:
+	\0:
+*L_02169:
+	!VAR0520 : 300!
+	!VAR0516 : 157!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｷｬﾛﾘ.ADV:
+	\L_03449:
+	\0:
+*L_0219b:
+	!VAR0520 : 301!
+	!VAR0516 : 158!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾅｷﾞ.ADV:
+	\L_03449:
+	\0:
+*L_021cd:
+	!VAR0520 : 302!
+	!VAR0516 : 159!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾅｷﾞ.ADV:
+	\L_03449:
+	\0:
+*L_021ff:
+	!VAR0520 : 300!
+	!VAR0516 : 160!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｾﾙ.ADV:
+	\L_03449:
+	\0:
+*L_02231:
+	!VAR0520 : 301!
+	!VAR0516 : 161!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｾﾙ.ADV:
+	\L_03449:
+	\0:
+*L_02263:
+	!VAR0520 : 302!
+	!VAR0516 : 162!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｾﾙ.ADV:
+	\L_03449:
+	\0:
+*L_02295:
+	!VAR0520 : 300!
+	!VAR0516 : 163!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾁｽﾞｺ.ADV:
+	\L_03449:
+	\0:
+*L_022c7:
+	!VAR0520 : 301!
+	!VAR0516 : 164!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾁｽﾞｺ.ADV:
+	\L_03449:
+	\0:
+*L_022f9:
+	!VAR0520 : 300!
+	!VAR0516 : 165!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｶﾊﾟｰﾗ.ADV:
+	\L_03449:
+	\0:
+*L_0232b:
+	!VAR0520 : 301!
+	!VAR0516 : 166!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｶﾊﾟｰﾗ.ADV:
+	\L_03449:
+	\0:
+*L_0235d:
+	!VAR0520 : 300!
+	!VAR0516 : 167!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾏｼﾞｯｸ.ADV:
+	\L_03449:
+	\0:
+*L_0238f:
+	!VAR0520 : 301!
+	!VAR0516 : 168!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾏｼﾞｯｸ.ADV:
+	\L_03449:
+	\0:
+*L_023c1:
+	!VAR0520 : 301!
+	!VAR0516 : 169!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾚｲﾗ.ADV:
+	\L_03449:
+	\0:
+*L_023f3:
+	!VAR0520 : 300!
+	!VAR0516 : 170!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾒﾘﾑ.ADV:
+	\L_03449:
+	\0:
+*L_02425:
+	!VAR0520 : 301!
+	!VAR0516 : 171!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾒﾘﾑ.ADV:
+	\L_03449:
+	\0:
+*L_02457:
+	!VAR0520 : 300!
+	!VAR0516 : 172!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｻｰﾅｷｱ.ADV:
+	\L_03449:
+	\0:
+*L_02489:
+	!VAR0520 : 300!
+	!VAR0516 : 173!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾚｨﾘｨ.ADV:
+	\L_03449:
+	\0:
+*L_024bb:
+	!VAR0520 : 301!
+	!VAR0516 : 174!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾚｨﾘｨ.ADV:
+	\L_03449:
+	\0:
+*L_024ed:
+	!VAR0520 : 301!
+	!VAR0516 : 175!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｱｵｲ.ADV:
+	\L_03449:
+	\0:
+*L_0251f:
+	!VAR0520 : 300!
+	!VAR0516 : 176!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾐﾙ.ADV:
+	\L_03449:
+	\0:
+*L_02551:
+	!VAR0520 : 300!
+	!VAR0516 : 177!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾐﾘ.ADV:
+	\L_03449:
+	\0:
+*L_02583:
+	!VAR0520 : 300!
+	!VAR0516 : 178!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾗﾝ.ADV:
+	\L_03449:
+	\0:
+*L_025b5:
+	!VAR0520 : 303!
+	!VAR0516 : 179!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｼｨﾙ.ADV:
+	\L_03449:
+	\0:
+*L_025e7:
+	!VAR0520 : 300!
+	!VAR0516 : 180!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｼｨﾙ2.ADV:
+	\L_03449:
+	\0:
+*L_02619:
+	!VAR0520 : 301!
+	!VAR0516 : 181!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｼｨﾙ2.ADV:
+	\L_03449:
+	\0:
+*L_0264b:
+	!VAR0520 : 301!
+	!VAR0516 : 182!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｿｳﾙ.ADV:
+	\L_03449:
+	\0:
+*L_0267d:
+	!VAR0520 : 301!
+	!VAR0516 : 183!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾊｳﾚｰﾝ.ADV:
+	\L_03449:
+	\0:
+*L_026af:
+	!VAR0520 : 300!
+	!VAR0516 : 184!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｷﾝｹｰﾄﾞ.ADV:
+	\L_03449:
+	\0:
+*L_026e1:
+	!VAR0520 : 300!
+	!VAR0516 : 185!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾗﾌｧﾘｱ.ADV:
+	\L_03449:
+	\0:
+*L_02713:
+	!VAR0520 : 301!
+	!VAR0516 : 186!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾗﾌｧﾘｱ.ADV:
+	\L_03449:
+	\0:
+*L_02745:
+	!VAR0520 : 300!
+	!VAR0516 : 187!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｶﾌｪ.ADV:
+	\L_03449:
+	\0:
+*L_02777:
+	!VAR0520 : 300!
+	!VAR0516 : 188!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｱｰﾙｺｰﾄ.ADV:
+	\L_03449:
+	\0:
+*L_027a9:
+	!VAR0520 : 300!
+	!VAR0516 : 189!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｻﾃﾗ.ADV:
+	\L_03449:
+	\0:
+*L_027db:
+	!VAR0520 : 301!
+	!VAR0516 : 190!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾏﾘｱ.ADV:
+	\L_03449:
+	\0:
+*L_0280d:
+	!VAR0520 : 302!
+	!VAR0516 : 191!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾏﾘｱ.ADV:
+	\L_03449:
+	\0:
+*L_0283f:
+	!VAR0520 : 301!
+	!VAR0516 : 192!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾗﾝ.ADV:
+	\L_03449:
+	\0:
+*L_02871:
+	!VAR0520 : 300!
+	!VAR0516 : 193!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｼﾞｭﾘｱ.ADV:
+	\L_03449:
+	\0:
+*L_028a3:
+	!VAR0520 : 300!
+	!VAR0516 : 195!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｱｰﾔ.ADV:
+	\L_03449:
+	\0:
+*L_028d5:
+	!VAR0520 : 300!
+	!VAR0516 : 196!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾏﾙﾁﾅ.ADV:
+	\L_03449:
+	\0:
+*L_02907:
+	!VAR0520 : 300!
+	!VAR0516 : 197!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾒﾃﾞｨｳｻ.ADV:
+	\L_03449:
+	\0:
+*L_02939:
+	!VAR0520 : 301!
+	!VAR0516 : 198!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾒﾃﾞｨｳｻ.ADV:
+	\L_03449:
+	\0:
+*L_0296b:
+	!VAR0520 : 302!
+	!VAR0516 : 199!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾒﾃﾞｨｳｻ.ADV:
+	\L_03449:
+	\0:
+*L_0299d:
+	!VAR0520 : 300!
+	!VAR0516 : 200!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾊﾟｲｱｰﾙ.ADV:
+	\L_03449:
+	\0:
+*L_029cf:
+	!VAR0520 : 301!
+	!VAR0516 : 201!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾊﾟｲｱｰﾙ.ADV:
+	\L_03449:
+	\0:
+*L_02a01:
+	!VAR0520 : 302!
+	!VAR0516 : 202!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾊﾟｲｱｰﾙ.ADV:
+	\L_03449:
+	\0:
+*L_02a33:
+	!VAR0520 : 303!
+	!VAR0516 : 203!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾊﾟｲｱｰﾙ.ADV:
+	\L_03449:
+	\0:
+*L_02a65:
+	!VAR0520 : 300!
+	!VAR0516 : 204!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｶﾐｰﾗ.ADV:
+	\L_03449:
+	\0:
+*L_02a97:
+	!VAR0520 : 301!
+	!VAR0516 : 205!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｶﾐｰﾗ.ADV:
+	\L_03449:
+	\0:
+*L_02ac9:
+	!VAR0520 : 301!
+	!VAR0516 : 206!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｶﾌｪ.ADV:
+	\L_03449:
+	\0:
+*L_02afb:
+	!VAR0520 : 302!
+	!VAR0516 : 207!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｶﾌｪ.ADV:
+	\L_03449:
+	\0:
+*L_02b2d:
+	!VAR0520 : 300!
+	!VAR0516 : 208!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｶｸｻﾝ.ADV:
+	\L_03449:
+	\0:
+*L_02b5f:
+	!VAR0520 : 300!
+	!VAR0516 : 209!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｽｹｻﾝ.ADV:
+	\L_03449:
+	\0:
+*L_02b91:
+	!VAR0520 : 300!
+	!VAR0516 : 210!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｼｽﾞｶ.ADV:
+	\L_03449:
+	\0:
+*L_02bc3:
+	!VAR0520 : 301!
+	!VAR0516 : 211!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｻﾃﾗ.ADV:
+	\L_03449:
+	\0:
+*L_02bf5:
+	!VAR0516 : 212!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	\L_036f4:
+	\L_03449:
+	\0:
+*L_02c22:
+	!VAR0516 : 213!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	\L_0385b:
+	\L_03449:
+	\0:
+*L_02c4f:
+	!VAR0520 : 300!
+	!VAR0516 : 214!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｼﾙｷｨ.ADV:
+	\L_03449:
+	\0:
+*L_02c81:
+	!VAR0520 : 300!
+	!VAR0516 : 215!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾄｸﾍﾞﾂ.ADV:
+	\L_03449:
+	\0:
+*L_02cb3:
+	!VAR0520 : 301!
+	!VAR0516 : 216!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾄｸﾍﾞﾂ.ADV:
+	\L_03449:
+	\0:
+*L_02ce5:
+	!VAR0520 : 302!
+	!VAR0516 : 217!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾄｸﾍﾞﾂ.ADV:
+	\L_03449:
+	\0:
+*L_02d17:
+	!VAR0520 : 302!
+	!VAR0516 : 218!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾚｲﾗ.ADV:
+	\L_03449:
+	\0:
+*L_02d49:
+	!VAR0520 : 300!
+	!VAR0516 : 219!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｿﾐｰﾀ.ADV:
+	\L_03449:
+	\0:
+*L_02d7b:
+	!VAR0520 : 301!
+	!VAR0516 : 220!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾐｷ.ADV:
+	\L_03449:
+	\0:
+*L_02dad:
+	!VAR0520 : 300!
+	!VAR0516 : 221!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｺﾙﾄﾞﾊﾞ.ADV:
+	\L_03449:
+	\0:
+*L_02ddf:
+	!VAR0520 : 300!
+	!VAR0516 : 222!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	ZH 1:
+	MS 1, "Rance":
+	%#Gﾄｳｹﾞﾝ.ADV:
+	\L_03449:
+	\0:
+*L_02e1f:
+	!VAR0520 : 300!
+	!VAR0516 : 223!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#G1.ADV:
+	\L_03449:
+	\0:
+*L_02e51:
+	!VAR0520 : 300!
+	!VAR0516 : 224!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｱﾆｽ.ADV:
+	\L_03449:
+	\0:
+*L_02e83:
+	!VAR0520 : 300!
+	!VAR0516 : 225!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｴﾚﾅ.ADV:
+	\L_03449:
+	\0:
+*L_02eb5:
+	!VAR0520 : 300!
+	!VAR0516 : 226!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾌｳｶ.ADV:
+	\L_03449:
+	\0:
+*L_02ee7:
+	!VAR0520 : 302!
+	!VAR0516 : 227!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾐｷ.ADV:
+	\L_03449:
+	\0:
+*L_02f19:
+	!VAR0520 : 301!
+	!VAR0516 : 228!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｱﾅｾﾙ.ADV:
+	\L_03449:
+	\0:
+*L_02f4b:
+	!VAR0520 : 301!
+	!VAR0516 : 229!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾐﾘ.ADV:
+	\L_03449:
+	\0:
+*L_02f7d:
+	!VAR0520 : 301!
+	!VAR0516 : 230!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｽｽﾞﾒ.ADV:
+	\L_03449:
+	\0:
+*L_02faf:
+	!VAR0520 : 300!
+	!VAR0516 : 231!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾕｳﾚｲ.ADV:
+	\L_03449:
+	\0:
+*L_02fe1:
+	!VAR0520 : 300!
+	!VAR0516 : 232!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#G2.ADV:
+	\L_03449:
+	\0:
+*L_03013:
+	!VAR0520 : 300!
+	!VAR0516 : 233!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｹｲﾌﾞﾜﾝ.ADV:
+	\L_03449:
+	\0:
+*L_03045:
+	!VAR0520 : 300!
+	!VAR0516 : 234!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｹｲﾌﾞﾆｬﾝ.ADV:
+	\L_03449:
+	\0:
+*L_03077:
+	!VAR0516 : 235!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	\L_03a96:
+	\L_03449:
+	\0:
+*L_030a4:
+	!VAR0516 : 236!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	\L_03d18:
+	\L_03449:
+	\0:
+*L_030d1:
+	!VAR0516 : 237!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	\L_03e77:
+	\L_03449:
+	\0:
+*L_030fe:
+	!VAR0516 : 238!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	\L_03e8b:
+	\L_03449:
+	\0:
+*L_0312b:
+	!VAR0520 : 301!
+	!VAR0516 : 239!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｳｪﾝﾃﾞｨ.ADV:
+	\L_03449:
+	\0:
+*L_0315d:
+	!VAR0516 : 240!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	\L_03fc5:
+	\L_03449:
+	\0:
+*L_0318a:
+	!VAR0520 : 301!
+	!VAR0516 : 299!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#G2.ADV:
+	\L_03449:
+	\0:
+*L_031bc:
+	!VAR0520 : 302!
+	!VAR0516 : 300!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#G2.ADV:
+	\L_03449:
+	\0:
+*L_031ee:
+	!VAR0520 : 302!
+	!VAR0516 : 500!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Iﾏｼﾞﾝ.ADV:
+	\L_03449:
+	\0:
+*L_03220:
+	!VAR0520 : 303!
+	!VAR0516 : 501!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Iﾏｼﾞﾝ.ADV:
+	\L_03449:
+	\0:
+*L_03252:
+	!VAR0520 : 304!
+	!VAR0516 : 502!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Iﾏｼﾞﾝ.ADV:
+	\L_03449:
+	\0:
+*L_03284:
+	!VAR0520 : 300!
+	!VAR0516 : 504!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gﾌﾚｲｱ.ADV:
+	\L_03449:
+	\0:
+*L_032b6:
+	!VAR0520 : 300!
+	!VAR0516 : 505!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Iｾﾞｽ.ADV:
+	\L_03449:
+	\0:
+*L_032e8:
+	!VAR0520 : 300!
+	!VAR0516 : 506!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｹｯｾﾙ.ADV:
+	\L_03449:
+	\0:
+*L_0331a:
+	!VAR0520 : 302!
+	!VAR0516 : 516!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｺｳﾋﾒ.ADV:
+	\L_03449:
+	\0:
+*L_0334c:
+	!VAR0520 : 300!
+	!VAR0516 : 517!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	%#Gｻｲｾﾞﾙ.ADV:
+	\L_03449:
+	\0:
+*L_0337e:
+	!VAR0520 : 300!
+	!VAR0516 : 862!
+	\L_033ac:
+	{VAR0000 = 16:
+		\0:
+	}
+	\L_03449:
+	\0:
+*L_033ac:
+	CF 0, 0, 640, 400, 0:
+	CF 0, 400, 640, 400, 0:
+	J0 0, 400:
+	G 806:
+	J0 0, 400:
+	G VAR0516:
+	CC 0, 400, 640, 400, 0, 0:
+	\L_055a7:
+	ZH 1:
+	'Right click (cancel key) to replay the scene.'
+*L_03401:
+	IM VAR0202, VAR0203:
+	{VAR0000 = 0:
+		@L_03401:
+	}
+	!VAR0006 : VAR0000!
+*L_03420:
+	IM VAR0202, VAR0203:
+	{VAR0000 \ 0:
+		@L_03420:
+	}
+	\L_055f9:
+	!VAR0000 : VAR0006!
+	\0:
+*L_03449:
+	\L_055df:
+	\0:
+*L_03453:
+	ZH 1:
+	'Shinobu’s hips were straddling Rance and'
+	R
+	'wiggling bewitchingly. That wiggling'
+	R
+	'assaulted Rance with intense stimulation.'
+	\L_055ec:
+	ZH 1:
+	'Rance「Aah... This is good, gonna cum again...」'
+	\L_055ec:
+	ZH 1:
+	'At the start Rance thrust up from below,'
+	R
+	'but by now he was content to just accept'
+	R
+	'Shinobu’s attack.'
+	\L_055ec:
+	ZH 1:
+	'Rance（So tight... That alone could do it...）'
+	\L_055ec:
+	ZH 1:
+	'The opening at Shinobu’s crotch didn’t look'
+	R
+	'like it could possibly contain Rance’s cock.'
+	R
+	'But Rance forced it in.'
+	\L_055ec:
+	ZH 1:
+	'And somehow, it completely engulfed Rance’s'
+	R
+	'cock up to the base.'
+	\L_055ec:
+	ZH 1:
+	'Shinobu’s flesh licked the head of Rance’s cock.'
+	R
+	'Then her pussy, still tight with his cock inside,'
+	R
+	'constricted all around it.'
+	\L_055ec:
+	ZH 1:
+	'Rance（What am I doing...? This is a kid...'
+	R
+	'      Uh... Uu.）'
+	\L_055ec:
+	ZH 1:
+	'Though he knew that, Rance couldn’t pull'
+	R
+	'himself out of her. He didn’t even try to.'
+	\L_055ec:
+	ZH 1:
+	'Rance ejaculated inside Shinobu, unable to'
+	R
+	'restrain the impulse.'
+	\L_055ec:
+	ZH 1:
+	'Shinobu had also orgasmed several times, but'
+	R
+	'still didn’t make any move away from Rance.'
+	\L_055ec:
+	ZH 1:
+	'Rance couldn’t remember how many times he’s'
+	R
+	'done it anymore. He couldn’t even figure out'
+	R
+	'why his hyper weapon wasn’t going down.'
+	\L_055ec:
+	ZH 1:
+	'Rance（Ch... Can’t even raise my arms anymore...'
+	R
+	'      This is bad.）'
+	\L_055ec:
+	ZH 1:
+	'Shinobu raised her hips. She stopped just'
+	R
+	'on the verge of pulling Rance’s cock out.'
+	\L_055ec:
+	ZH 1:
+	'She rolled her hips.'
+	R
+	'Her pussy rubbed the head of his cock.'
+	\L_055ec:
+	ZH 1:
+	'Rance「Hey... Cumming again.」'
+	\L_055ec:
+	ZH 1:
+	'Rance groaned. Shinobu grinned.'
+	R
+	'She sank her hips deep.'
+	\L_055ec:
+	ZH 1:
+	'Rance「Hgh...!」'
+	\L_055ec:
+	ZH 1:
+	'Rance no longer had any desire to continue,'
+	R
+	'but his body obediently kept working towards'
+	R
+	'ejaculating.'
+	\L_055ec:
+	ZH 1:
+	'Rance「Hah... Hah... I’m done... Hey...」'
+	\L_055ec:
+	ZH 1:
+	'Rance tried to get Shinobu off of him,'
+	R
+	'but his legs, arms, and even his fingers'
+	R
+	'refused to move.'
+	\L_055ec:
+	ZH 1:
+	'Shinobu continued to straddle Rance with his'
+	R
+	'cock inside her.'
+	\L_055ec:
+	ZH 1:
+	'Rance「Get off... Come on.」'
+	\L_055ec:
+	ZH 1:
+	'She was gripping something in her hand.'
+	\L_055ec:
+	ZH 1:
+	'Rance「You... Uu...」'
+	\L_055ec:
+	ZH 1:
+	'Rance only saw her hand swiftly drop straight down.'
+	R
+	'Shinobu’s fist was on Rance’s chest.'
+	\L_055ec:
+	ZH 1:
+	'She opened her hand. There was the handle'
+	R
+	'of a dagger inside. The blade cleanly sank'
+	R
+	'inside Rance’s body.'
+	\L_055ec:
+	ZH 1:
+	'Rance「What...?!」'
+	\L_055ec:
+	ZH 1:
+	'Rance writhed slightly. The stab wound opened'
+	R
+	'a bit and red spray gushed out.'
+	\L_055ec:
+	ZH 1:
+	'Shinobu watched this happen without batting an eye.'
+	\L_055ec:
+	ZH 1:
+	'Rance「My last time was with... a kid...'
+	R
+	'      Pathetic...」'
+	\L_055ec:
+	\0:
+*L_036f4:
+	ZH 1:
+	'Maris「Aah... Why am I doing this...?」'
+	\L_055ec:
+	ZH 1:
+	'Suzume「.........」'
+	\L_055ec:
+	ZH 1:
+	'Suzume（I don’t really know, but...'
+	R
+	'　　　　   Ms. Maris must feel the same as me...'
+	R
+	'       I think...）'
+	\L_055ec:
+	ZH 1:
+	'Rance「Gahahahahahaha!!'
+	R
+	'　　　　  Good, good!'
+	R
+	'　　　　  Put more fun into it!!」'
+	\L_055ec:
+	ZH 1:
+	'Lia「Look, look! Darling!'
+	R
+	'    I’m having a ton of fun!」'
+	\L_055ec:
+	ZH 1:
+	'Rance「It’s more fun to watch Maris and Suzume be'
+	R
+	'      embarrassed.」'
+	\L_055ec:
+	ZH 1:
+	'Lia「Ahn, so meeean!!」'
+	\L_055ec:
+	ZH 1:
+	'Rance「Heeey, someone bring some drinks!!」'
+	\L_055ec:
+	ZH 1:
+	'At Rance’s command, the servants frantically set up'
+	R
+	'drinks.'
+	\L_055ec:
+	ZH 1:
+	'Rance「Hey, why’re you all standing around watching?'
+	R
+	'　　　　  You can clap, right?!」'
+	\L_055ec:
+	ZH 1:
+	'Rance yelled at the soldiers, and they started'
+	R
+	'clapping to create music.'
+	\L_055ec:
+	ZH 1:
+	'Rance「There, now things are more exciting.'
+	R
+	'      Dance harder!!」'
+	\L_055ec:
+	ZH 1:
+	'Maris「...Okay, okay...」'
+	\L_055ec:
+	ZH 1:
+	'Lia「Kyahaha!!'
+	R
+	'　　　 Yeah, yeah!」'
+	\L_055ec:
+	ZH 1:
+	'Suzume「............」'
+	\L_055ec:
+	ZH 1:
+	'Rance「Hey, Suzume.'
+	R
+	'　　　　  Liven up a little!」'
+	\L_055ec:
+	ZH 1:
+	'Suzume「...O-Okay...」'
+	\L_055ec:
+	ZH 1:
+	'Rance「Gahahahaha!!」'
+	\L_055ec:
+	\0:
+*L_0385b:
+	ZH 1:
+	'Sill「...Huh...?」'
+	\L_055ec:
+	ZH 1:
+	'Rance「............」'
+	\L_055ec:
+	ZH 1:
+	'Sill「M-Master Rance...?」'
+	\L_055ec:
+	ZH 1:
+	'Rance「...Shut up...」'
+	\L_055ec:
+	ZH 1:
+	'Sill「...Ah... Okay...」'
+	\L_055ec:
+	ZH 1:
+	'Rance hugged Sill tighter.'
+	\L_055ec:
+	ZH 1:
+	'Sill「...M-Master Rance...」'
+	\L_055ec:
+	ZH 1:
+	'Rance「............」'
+	\L_055ec:
+	ZH 1:
+	'Sill「...Um... Should I take my clothes off...?」'
+	\L_055ec:
+	ZH 1:
+	'Rance「...Shut up... I’m telling you to be quiet...'
+	R
+	'      Be quiet...」'
+	\L_055ec:
+	ZH 1:
+	'Rance「...This might be the end...」'
+	\L_055ec:
+	ZH 1:
+	'Sill「Master Rance...?」'
+	\L_055ec:
+	ZH 1:
+	'Sill（Could Master Rance be scared too...?'
+	R
+	'     I can’t believe it...）'
+	\L_055ec:
+	ZH 1:
+	'Sill stayed quiet and let Rance do what he wanted.'
+	\L_055ec:
+	ZH 1:
+	'Sill「.........」'
+	\L_055ec:
+	ZH 1:
+	'Sill「............」'
+	\L_055ec:
+	ZH 1:
+	'But Sill wasn’t used to Rance hugging her and not'
+	R
+	'saying anything for so long.'
+	R
+	'She blushed and fidgeted, unsure what to do.'
+	\L_055ec:
+	ZH 1:
+	'Sill「............」'
+	\L_055ec:
+	ZH 1:
+	'In any case, Sill made her flustered hands calm'
+	R
+	'down.'
+	\L_055ec:
+	ZH 1:
+	'Sill「............」'
+	\L_055ec:
+	ZH 1:
+	'Rance’s arms were in front of her.'
+	\L_055ec:
+	ZH 1:
+	'Sill「...Master Rance...」'
+	\L_055ec:
+	ZH 1:
+	'Sill whispered.'
+	\L_055ec:
+	ZH 1:
+	'Sill「...Master Rance...」'
+	\L_055ec:
+	ZH 1:
+	'Sill gently put her hands on Rance’s.'
+	\L_055ec:
+	ZH 1:
+	'Rance「...Is it the end...?」'
+	\L_055ec:
+	ZH 1:
+	'Sill「Master Rance...'
+	R
+	'     It’s strange to see you so timid...」'
+	\L_055ec:
+	ZH 1:
+	'Rance「I guess it is...」'
+	\L_055ec:
+	ZH 1:
+	'Sill「...Yes.」'
+	\L_055ec:
+	ZH 1:
+	'Rance「Should we do it, then?」'
+	\L_055ec:
+	ZH 1:
+	'Sill「...Huh??」'
+	\L_055ec:
+	ZH 1:
+	'Rance「If this is the end, it’d be our loss not to.'
+	R
+	'      Gahahahahahaha!!'
+	R
+	'      Sill, get out your ass!!」'
+	\L_055ec:
+	ZH 1:
+	'Sill「Hiin... Why’d it turn into this...?」'
+	\L_055ec:
+	ZH 1:
+	'Rance「Gahahahahahaha!!」'
+	\L_055ec:
+	\0:
+*L_03a96:
+	ZH 1:
+	'Rudrasaum「Hmmmm... What are they doing...?'
+	R
+	'          I’m tired of waiting...'
+	R
+	'          Maybe I should attack...」'
+	\L_055ec:
+	ZH 1:
+	'Rudrasaum was whispering something dangerous.'
+	\L_055ec:
+	ZH 1:
+	'Warg ascended to the area above its eyes.'
+	\L_055ec:
+	ZH 1:
+	'Warg「Is here good, Lassie?」'
+	\L_055ec:
+	ZH 1:
+	'Lassie「Woof!!」'
+	\L_055ec:
+	ZH 1:
+	'Warg「Okay... Now then...'
+	R
+	'     Um... Would dreams about heroes be good??」'
+	\L_055ec:
+	ZH 1:
+	'Lassie「Woof woof woof!」'
+	\L_055ec:
+	ZH 1:
+	'Warg「Ah, that’s right.'
+	R
+	'     Dreams of war.'
+	R
+	'     Thanks, Lassie...」'
+	\L_055ec:
+	ZH 1:
+	'Warg smiled while she placed her palms on Rudrasaum'
+	R
+	'and rubbed her cheek against it.'
+	\L_055ec:
+	ZH 1:
+	'Warg「...Sleepy time... Sleepy time...」'
+	\L_055ec:
+	ZH 1:
+	'Warg started to gently sing.'
+	\L_055ec:
+	ZH 1:
+	'Lassie「Woof woof... Woof woof...」'
+	\L_055ec:
+	ZH 1:
+	'Lassie sang in sync with her.'
+	\L_055ec:
+	ZH 1:
+	'Rudrasaum「...Hm?」'
+	\L_055ec:
+	ZH 1:
+	'Rudrasaum’s eyes twitched.'
+	\L_055ec:
+	ZH 1:
+	'Warg「Sleepy time... Mr. Whale... Sleepy time...'
+	R
+	'     Be a good kid... Sleepy time...'
+	R
+	'     Sleepy time...」'
+	\L_055ec:
+	ZH 1:
+	'Lassie「Woof woof woof...」'
+	\L_055ec:
+	ZH 1:
+	'Glittering light began to spill from Warg’s body.'
+	\L_055ec:
+	ZH 1:
+	'Rudrasaum「...Mm... Mmmm...」'
+	\L_055ec:
+	ZH 1:
+	'Rudrasaum slowly blinked.'
+	\L_055ec:
+	ZH 1:
+	'Warg「Sleepy time... Sleepy time...」'
+	\L_055ec:
+	ZH 1:
+	'Lassie「Woof woof... Woof woof woof...」'
+	\L_055ec:
+	ZH 1:
+	'The light spilling from Warg enveloped her, then'
+	R
+	'permeated into Rudrasaum.'
+	\L_055ec:
+	ZH 1:
+	'Rudrasaum「...Mm～～...」'
+	\L_055ec:
+	ZH 1:
+	'Rudrasaum’s eyelids slowly lowered.'
+	\L_055ec:
+	ZH 1:
+	'Then they finally closed, and snores began to come'
+	R
+	'from Rudrasaum’s whale-like mouth.'
+	\L_055ec:
+	ZH 1:
+	'Warg「...Good kid... You went to sleep...'
+	R
+	'     Now...」'
+	\L_055ec:
+	ZH 1:
+	'Notably more light spilled from Warg’s body.'
+	R
+	'Then it was all absorbed into Rudrasaum...'
+	\L_055ec:
+	ZH 1:
+	'Rudrasaum「............」'
+	\L_055ec:
+	ZH 1:
+	'Rudrasaum「...Hee...」'
+	\L_055ec:
+	ZH 1:
+	'Rudrasaum「Hee... Heehee... How cute...'
+	R
+	'          They’re suffering... Heehee...」'
+	\L_055ec:
+	ZH 1:
+	'Rudrasaum「...Kill each other... Um num...」'
+	\L_055ec:
+	ZH 1:
+	'Rudrasaum seemed to be enjoying itself as it'
+	R
+	'sleeptalked.'
+	\L_055ec:
+	ZH 1:
+	'Warg「Huhu... How cute...'
+	R
+	'     I’ll show you more and more...'
+	R
+	'     Mr. Whale.」'
+	\L_055ec:
+	ZH 1:
+	'Lassie「Woof woof!」'
+	\L_055ec:
+	\0:
+*L_03d18:
+	ZH 1:
+	'Sill’s body was enveloped in a massive block of'
+	R
+	'ice and fell in front of Rance.'
+	\L_055ec:
+	ZH 1:
+	'Rance「S-S-Sill... Sill!!'
+	R
+	'      Sill, Sill, Sill!!」'
+	\L_055ec:
+	ZH 1:
+	'Rance ran up to her and hit the ice.'
+	R
+	'No matter how much he hit it, the ice didn’t break.'
+	R
+	'Sill’s expression remained the same inside.'
+	\L_055ec:
+	ZH 1:
+	'Rance「Siiiiiiiiiiiiiiiiiiill!!」'
+	\L_055ec:
+	ZH 1:
+	'　　＜crackkk＞'
+	\L_055ec:
+	ZH 1:
+	'He hit the ice so hard it broke his arm, but the ice'
+	R
+	'remained intact...'
+	\L_055ec:
+	ZH 1:
+	'Rance「...Bastaaaaard!!!」'
+	\L_055ec:
+	ZH 1:
+	'Rudrasaum「Heeheehee... There’s no point in doing'
+	R
+	'          that.'
+	R
+	'          Nobody can do anything about it but me.」'
+	\L_055ec:
+	ZH 1:
+	'Rudrasaum「You want her back, don’t you?」'
+	\L_055ec:
+	ZH 1:
+	'Rance「............」'
+	\L_055ec:
+	ZH 1:
+	'Rudrasaum「Heehee... What fun...'
+	R
+	'          Your heart is full of rage...'
+	R
+	'          I love that... Hee.」'
+	\L_055ec:
+	ZH 1:
+	'Rance「You’re just a whale, you can’t do this!!'
+	R
+	'      Turn Sill back to normal right now!!」'
+	\L_055ec:
+	ZH 1:
+	'Rudrasaum「No.」'
+	\L_055ec:
+	ZH 1:
+	'Rance「Whaaaaaaaaat!!??」'
+	\L_055ec:
+	ZH 1:
+	'Rudrasaum「If you want her back, entertain me.'
+	R
+	'          Okay?」'
+	\L_055ec:
+	ZH 1:
+	'Rance「Aaaaaargh...」'
+	\L_055ec:
+	ZH 1:
+	'Rudrasaum「I’ll be watching from here.'
+	R
+	'          If you don’t do a good job, I’ll break her'
+	R
+	'          to pieces.」'
+	\L_055ec:
+	\0:
+*L_03e77:
+	ZH 1:
+	'............'
+	\L_055ec:
+	\0:
+*L_03e8b:
+	ZH 1:
+	'Sill「Haah... Haah...」'
+	\L_055ec:
+	ZH 1:
+	'Rance「Sill!!'
+	R
+	'      Can’t you walk as fast as me?」'
+	\L_055ec:
+	ZH 1:
+	'Sill「I-I’m sorry... B-But...'
+	R
+	'     The luggage is heavy... Master Rance...」'
+	\L_055ec:
+	ZH 1:
+	'Rance「I’m sure it is. Gahahaha.」'
+	\L_055ec:
+	ZH 1:
+	'Sill「W-What in the world is it?'
+	R
+	'     This is... really heavy...」'
+	\L_055ec:
+	ZH 1:
+	'Rance「Gold.」'
+	\L_055ec:
+	ZH 1:
+	'Sill「Huh...? All of it?」'
+	\L_055ec:
+	ZH 1:
+	'Rance「Gahahahahahahaha, that’s right.'
+	R
+	'      That’s my entire salary I got as a king.」'
+	\L_055ec:
+	ZH 1:
+	'Rance「The value of gold goes up in times of chaos.'
+	R
+	'      This should be enough to screw around for a'
+	R
+	'      while.」'
+	\L_055ec:
+	ZH 1:
+	'Rance「Maybe I could buy some houses here and there'
+	R
+	'      and enjoy the brothels...」'
+	\L_055ec:
+	ZH 1:
+	'Rance「I’ll buy a house near a hot spring too...'
+	R
+	'      Mhm, it’ll be like a neverending dream.」'
+	\L_055ec:
+	ZH 1:
+	'Rance「So don’t drop even a little, Sill.'
+	R
+	'      You’ll be punished severely if you do.」'
+	\L_055ec:
+	ZH 1:
+	'Sill「Y-Yes... I’ll try...」'
+	\L_055ec:
+	ZH 1:
+	'Rance「Gahahahahahaha!!'
+	R
+	'      Now, let’s go, Sill!!'
+	R
+	'      Let’s race! Readyyyyy, go!!」'
+	\L_055ec:
+	ZH 1:
+	'Sill「Ah... Wait, please...'
+	R
+	'     Hii... Haah...」'
+	\L_055ec:
+	\0:
+*L_03fc5:
+	ZH 1:
+	'............'
+	\L_055ec:
+	\0:
+*L_03fd9:
+	!VAR0001 : 1!
+	!VAR0002 : 0!
+	!VAR0004 : 1920!
+	!VAR0005 : 400!
+	\L_04063:
+	!VAR0001 : 2!
+	!VAR0002 : 0!
+	!VAR0004 : 640!
+	!VAR0005 : 400!
+	\L_04063:
+	!VAR0001 : 3!
+	!VAR0002 : 0!
+	!VAR0004 : 1280!
+	!VAR0005 : 0!
+	\L_04063:
+	!VAR0001 : 4!
+	!VAR0002 : 0!
+	!VAR0004 : 1280!
+	!VAR0005 : 400!
+	\L_04063:
+	!VAR0001 : 5!
+	!VAR0002 : 0!
+	!VAR0004 : 1920!
+	!VAR0005 : 0!
+	\L_04063:
+	!VAR0001 : 1!
+	!VAR0002 : 0!
+	!VAR0003 : 0!
+	!VAR0004 : 0!
+	!VAR0005 : 0!
+	\0:
+*L_04063:
+	!VAR0002 : VAR0002 + 1!
+	{VAR0002 = 31:
+		\0:
+	}
+	\L_040b7:
+	!VAR0192 : VAR0516!
+	{VAR0196 = 0:
+		!VAR0000 : VAR0002!
+		\L_04fbc:
+		CC 0, 400, VAR0013, VAR0014, VAR0011 + VAR0004, VAR0012 + VAR0005:
+	}
+	@L_04063:
+*L_040b7:
+	{VAR0001 = 1:
+		@L_04116:
+	}
+	{VAR0001 = 2:
+		@L_04404:
+	}
+	{VAR0001 = 3:
+		@L_046f2:
+	}
+	{VAR0001 = 4:
+		@L_049e0:
+	}
+	{VAR0001 = 5:
+		@L_04cce:
+	}
+*L_04116:
+	{VAR0002 = 1:
+		!VAR0516 : 101!
+		\0:
+	}
+	{VAR0002 = 2:
+		!VAR0516 : 102!
+		\0:
+	}
+	{VAR0002 = 3:
+		!VAR0516 : 103!
+		\0:
+	}
+	{VAR0002 = 4:
+		!VAR0516 : 104!
+		\0:
+	}
+	{VAR0002 = 5:
+		!VAR0516 : 105!
+		\0:
+	}
+	{VAR0002 = 6:
+		!VAR0516 : 106!
+		\0:
+	}
+	{VAR0002 = 7:
+		!VAR0516 : 107!
+		\0:
+	}
+	{VAR0002 = 8:
+		!VAR0516 : 108!
+		\0:
+	}
+	{VAR0002 = 9:
+		!VAR0516 : 109!
+		\0:
+	}
+	{VAR0002 = 10:
+		!VAR0516 : 110!
+		\0:
+	}
+	{VAR0002 = 11:
+		!VAR0516 : 111!
+		\0:
+	}
+	{VAR0002 = 12:
+		!VAR0516 : 112!
+		\0:
+	}
+	{VAR0002 = 13:
+		!VAR0516 : 113!
+		\0:
+	}
+	{VAR0002 = 14:
+		!VAR0516 : 114!
+		\0:
+	}
+	{VAR0002 = 15:
+		!VAR0516 : 115!
+		\0:
+	}
+	{VAR0002 = 16:
+		!VAR0516 : 116!
+		\0:
+	}
+	{VAR0002 = 17:
+		!VAR0516 : 117!
+		\0:
+	}
+	{VAR0002 = 18:
+		!VAR0516 : 118!
+		\0:
+	}
+	{VAR0002 = 19:
+		!VAR0516 : 119!
+		\0:
+	}
+	{VAR0002 = 20:
+		!VAR0516 : 120!
+		\0:
+	}
+	{VAR0002 = 21:
+		!VAR0516 : 121!
+		\0:
+	}
+	{VAR0002 = 22:
+		!VAR0516 : 122!
+		\0:
+	}
+	{VAR0002 = 23:
+		!VAR0516 : 123!
+		\0:
+	}
+	{VAR0002 = 24:
+		!VAR0516 : 124!
+		\0:
+	}
+	{VAR0002 = 25:
+		!VAR0516 : 125!
+		\0:
+	}
+	{VAR0002 = 26:
+		!VAR0516 : 126!
+		\0:
+	}
+	{VAR0002 = 27:
+		!VAR0516 : 127!
+		\0:
+	}
+	{VAR0002 = 28:
+		!VAR0516 : 128!
+		\0:
+	}
+	{VAR0002 = 29:
+		!VAR0516 : 129!
+		\0:
+	}
+	{VAR0002 = 30:
+		!VAR0516 : 130!
+		\0:
+	}
+*L_04404:
+	{VAR0002 = 1:
+		!VAR0516 : 131!
+		\0:
+	}
+	{VAR0002 = 2:
+		!VAR0516 : 132!
+		\0:
+	}
+	{VAR0002 = 3:
+		!VAR0516 : 133!
+		\0:
+	}
+	{VAR0002 = 4:
+		!VAR0516 : 134!
+		\0:
+	}
+	{VAR0002 = 5:
+		!VAR0516 : 135!
+		\0:
+	}
+	{VAR0002 = 6:
+		!VAR0516 : 136!
+		\0:
+	}
+	{VAR0002 = 7:
+		!VAR0516 : 137!
+		\0:
+	}
+	{VAR0002 = 8:
+		!VAR0516 : 138!
+		\0:
+	}
+	{VAR0002 = 9:
+		!VAR0516 : 139!
+		\0:
+	}
+	{VAR0002 = 10:
+		!VAR0516 : 140!
+		\0:
+	}
+	{VAR0002 = 11:
+		!VAR0516 : 141!
+		\0:
+	}
+	{VAR0002 = 12:
+		!VAR0516 : 142!
+		\0:
+	}
+	{VAR0002 = 13:
+		!VAR0516 : 143!
+		\0:
+	}
+	{VAR0002 = 14:
+		!VAR0516 : 144!
+		\0:
+	}
+	{VAR0002 = 15:
+		!VAR0516 : 145!
+		\0:
+	}
+	{VAR0002 = 16:
+		!VAR0516 : 146!
+		\0:
+	}
+	{VAR0002 = 17:
+		!VAR0516 : 147!
+		\0:
+	}
+	{VAR0002 = 18:
+		!VAR0516 : 148!
+		\0:
+	}
+	{VAR0002 = 19:
+		!VAR0516 : 149!
+		\0:
+	}
+	{VAR0002 = 20:
+		!VAR0516 : 150!
+		\0:
+	}
+	{VAR0002 = 21:
+		!VAR0516 : 151!
+		\0:
+	}
+	{VAR0002 = 22:
+		!VAR0516 : 152!
+		\0:
+	}
+	{VAR0002 = 23:
+		!VAR0516 : 153!
+		\0:
+	}
+	{VAR0002 = 24:
+		!VAR0516 : 154!
+		\0:
+	}
+	{VAR0002 = 25:
+		!VAR0516 : 155!
+		\0:
+	}
+	{VAR0002 = 26:
+		!VAR0516 : 156!
+		\0:
+	}
+	{VAR0002 = 27:
+		!VAR0516 : 157!
+		\0:
+	}
+	{VAR0002 = 28:
+		!VAR0516 : 158!
+		\0:
+	}
+	{VAR0002 = 29:
+		!VAR0516 : 159!
+		\0:
+	}
+	{VAR0002 = 30:
+		!VAR0516 : 160!
+		\0:
+	}
+*L_046f2:
+	{VAR0002 = 1:
+		!VAR0516 : 161!
+		\0:
+	}
+	{VAR0002 = 2:
+		!VAR0516 : 162!
+		\0:
+	}
+	{VAR0002 = 3:
+		!VAR0516 : 163!
+		\0:
+	}
+	{VAR0002 = 4:
+		!VAR0516 : 164!
+		\0:
+	}
+	{VAR0002 = 5:
+		!VAR0516 : 165!
+		\0:
+	}
+	{VAR0002 = 6:
+		!VAR0516 : 166!
+		\0:
+	}
+	{VAR0002 = 7:
+		!VAR0516 : 167!
+		\0:
+	}
+	{VAR0002 = 8:
+		!VAR0516 : 168!
+		\0:
+	}
+	{VAR0002 = 9:
+		!VAR0516 : 169!
+		\0:
+	}
+	{VAR0002 = 10:
+		!VAR0516 : 170!
+		\0:
+	}
+	{VAR0002 = 11:
+		!VAR0516 : 171!
+		\0:
+	}
+	{VAR0002 = 12:
+		!VAR0516 : 172!
+		\0:
+	}
+	{VAR0002 = 13:
+		!VAR0516 : 173!
+		\0:
+	}
+	{VAR0002 = 14:
+		!VAR0516 : 174!
+		\0:
+	}
+	{VAR0002 = 15:
+		!VAR0516 : 175!
+		\0:
+	}
+	{VAR0002 = 16:
+		!VAR0516 : 176!
+		\0:
+	}
+	{VAR0002 = 17:
+		!VAR0516 : 177!
+		\0:
+	}
+	{VAR0002 = 18:
+		!VAR0516 : 178!
+		\0:
+	}
+	{VAR0002 = 19:
+		!VAR0516 : 179!
+		\0:
+	}
+	{VAR0002 = 20:
+		!VAR0516 : 180!
+		\0:
+	}
+	{VAR0002 = 21:
+		!VAR0516 : 181!
+		\0:
+	}
+	{VAR0002 = 22:
+		!VAR0516 : 182!
+		\0:
+	}
+	{VAR0002 = 23:
+		!VAR0516 : 183!
+		\0:
+	}
+	{VAR0002 = 24:
+		!VAR0516 : 184!
+		\0:
+	}
+	{VAR0002 = 25:
+		!VAR0516 : 185!
+		\0:
+	}
+	{VAR0002 = 26:
+		!VAR0516 : 186!
+		\0:
+	}
+	{VAR0002 = 27:
+		!VAR0516 : 187!
+		\0:
+	}
+	{VAR0002 = 28:
+		!VAR0516 : 188!
+		\0:
+	}
+	{VAR0002 = 29:
+		!VAR0516 : 189!
+		\0:
+	}
+	{VAR0002 = 30:
+		!VAR0516 : 190!
+		\0:
+	}
+*L_049e0:
+	{VAR0002 = 1:
+		!VAR0516 : 191!
+		\0:
+	}
+	{VAR0002 = 2:
+		!VAR0516 : 192!
+		\0:
+	}
+	{VAR0002 = 3:
+		!VAR0516 : 193!
+		\0:
+	}
+	{VAR0002 = 4:
+		!VAR0516 : 195!
+		\0:
+	}
+	{VAR0002 = 5:
+		!VAR0516 : 196!
+		\0:
+	}
+	{VAR0002 = 6:
+		!VAR0516 : 197!
+		\0:
+	}
+	{VAR0002 = 7:
+		!VAR0516 : 198!
+		\0:
+	}
+	{VAR0002 = 8:
+		!VAR0516 : 199!
+		\0:
+	}
+	{VAR0002 = 9:
+		!VAR0516 : 200!
+		\0:
+	}
+	{VAR0002 = 10:
+		!VAR0516 : 201!
+		\0:
+	}
+	{VAR0002 = 11:
+		!VAR0516 : 202!
+		\0:
+	}
+	{VAR0002 = 12:
+		!VAR0516 : 203!
+		\0:
+	}
+	{VAR0002 = 13:
+		!VAR0516 : 204!
+		\0:
+	}
+	{VAR0002 = 14:
+		!VAR0516 : 205!
+		\0:
+	}
+	{VAR0002 = 15:
+		!VAR0516 : 206!
+		\0:
+	}
+	{VAR0002 = 16:
+		!VAR0516 : 207!
+		\0:
+	}
+	{VAR0002 = 17:
+		!VAR0516 : 208!
+		\0:
+	}
+	{VAR0002 = 18:
+		!VAR0516 : 209!
+		\0:
+	}
+	{VAR0002 = 19:
+		!VAR0516 : 210!
+		\0:
+	}
+	{VAR0002 = 20:
+		!VAR0516 : 211!
+		\0:
+	}
+	{VAR0002 = 21:
+		!VAR0516 : 212!
+		\0:
+	}
+	{VAR0002 = 22:
+		!VAR0516 : 213!
+		\0:
+	}
+	{VAR0002 = 23:
+		!VAR0516 : 214!
+		\0:
+	}
+	{VAR0002 = 24:
+		!VAR0516 : 215!
+		\0:
+	}
+	{VAR0002 = 25:
+		!VAR0516 : 216!
+		\0:
+	}
+	{VAR0002 = 26:
+		!VAR0516 : 217!
+		\0:
+	}
+	{VAR0002 = 27:
+		!VAR0516 : 218!
+		\0:
+	}
+	{VAR0002 = 28:
+		!VAR0516 : 219!
+		\0:
+	}
+	{VAR0002 = 29:
+		!VAR0516 : 220!
+		\0:
+	}
+	{VAR0002 = 30:
+		!VAR0516 : 221!
+		\0:
+	}
+*L_04cce:
+	{VAR0002 = 1:
+		!VAR0516 : 222!
+		\0:
+	}
+	{VAR0002 = 2:
+		!VAR0516 : 223!
+		\0:
+	}
+	{VAR0002 = 3:
+		!VAR0516 : 224!
+		\0:
+	}
+	{VAR0002 = 4:
+		!VAR0516 : 225!
+		\0:
+	}
+	{VAR0002 = 5:
+		!VAR0516 : 226!
+		\0:
+	}
+	{VAR0002 = 6:
+		!VAR0516 : 227!
+		\0:
+	}
+	{VAR0002 = 7:
+		!VAR0516 : 228!
+		\0:
+	}
+	{VAR0002 = 8:
+		!VAR0516 : 229!
+		\0:
+	}
+	{VAR0002 = 9:
+		!VAR0516 : 230!
+		\0:
+	}
+	{VAR0002 = 10:
+		!VAR0516 : 231!
+		\0:
+	}
+	{VAR0002 = 11:
+		!VAR0516 : 232!
+		\0:
+	}
+	{VAR0002 = 12:
+		!VAR0516 : 233!
+		\0:
+	}
+	{VAR0002 = 13:
+		!VAR0516 : 234!
+		\0:
+	}
+	{VAR0002 = 14:
+		!VAR0516 : 235!
+		\0:
+	}
+	{VAR0002 = 15:
+		!VAR0516 : 236!
+		\0:
+	}
+	{VAR0002 = 16:
+		!VAR0516 : 237!
+		\0:
+	}
+	{VAR0002 = 17:
+		!VAR0516 : 238!
+		\0:
+	}
+	{VAR0002 = 18:
+		!VAR0516 : 239!
+		\0:
+	}
+	{VAR0002 = 19:
+		!VAR0516 : 240!
+		\0:
+	}
+	{VAR0002 = 20:
+		!VAR0516 : 299!
+		\0:
+	}
+	{VAR0002 = 21:
+		!VAR0516 : 300!
+		\0:
+	}
+	{VAR0002 = 22:
+		!VAR0516 : 500!
+		\0:
+	}
+	{VAR0002 = 23:
+		!VAR0516 : 501!
+		\0:
+	}
+	{VAR0002 = 24:
+		!VAR0516 : 502!
+		\0:
+	}
+	{VAR0002 = 25:
+		!VAR0516 : 504!
+		\0:
+	}
+	{VAR0002 = 26:
+		!VAR0516 : 505!
+		\0:
+	}
+	{VAR0002 = 27:
+		!VAR0516 : 506!
+		\0:
+	}
+	{VAR0002 = 28:
+		!VAR0516 : 516!
+		\0:
+	}
+	{VAR0002 = 29:
+		!VAR0516 : 517!
+		\0:
+	}
+	{VAR0002 = 30:
+		!VAR0516 : 862!
+		\0:
+	}
+*L_04fbc:
+	{VAR0000 = 0:
+		!VAR0011 : 0!
+		!VAR0012 : 0!
+		!VAR0013 : 0!
+		!VAR0014 : 0!
+		\0:
+	}
+	{VAR0000 = 1:
+		!VAR0011 : 3!
+		!VAR0012 : 40!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 2:
+		!VAR0011 : 109!
+		!VAR0012 : 40!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 3:
+		!VAR0011 : 215!
+		!VAR0012 : 40!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 4:
+		!VAR0011 : 321!
+		!VAR0012 : 40!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 5:
+		!VAR0011 : 427!
+		!VAR0012 : 40!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 6:
+		!VAR0011 : 533!
+		!VAR0012 : 40!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 7:
+		!VAR0011 : 3!
+		!VAR0012 : 112!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 8:
+		!VAR0011 : 109!
+		!VAR0012 : 112!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 9:
+		!VAR0011 : 215!
+		!VAR0012 : 112!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 10:
+		!VAR0011 : 321!
+		!VAR0012 : 112!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 11:
+		!VAR0011 : 427!
+		!VAR0012 : 112!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 12:
+		!VAR0011 : 533!
+		!VAR0012 : 112!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 13:
+		!VAR0011 : 3!
+		!VAR0012 : 184!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 14:
+		!VAR0011 : 109!
+		!VAR0012 : 184!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 15:
+		!VAR0011 : 215!
+		!VAR0012 : 184!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 16:
+		!VAR0011 : 321!
+		!VAR0012 : 184!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 17:
+		!VAR0011 : 427!
+		!VAR0012 : 184!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 18:
+		!VAR0011 : 533!
+		!VAR0012 : 184!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 19:
+		!VAR0011 : 3!
+		!VAR0012 : 256!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 20:
+		!VAR0011 : 109!
+		!VAR0012 : 256!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 21:
+		!VAR0011 : 215!
+		!VAR0012 : 256!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 22:
+		!VAR0011 : 321!
+		!VAR0012 : 256!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 23:
+		!VAR0011 : 427!
+		!VAR0012 : 256!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 24:
+		!VAR0011 : 533!
+		!VAR0012 : 256!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 25:
+		!VAR0011 : 3!
+		!VAR0012 : 328!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 26:
+		!VAR0011 : 109!
+		!VAR0012 : 328!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 27:
+		!VAR0011 : 215!
+		!VAR0012 : 328!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 28:
+		!VAR0011 : 321!
+		!VAR0012 : 328!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 29:
+		!VAR0011 : 427!
+		!VAR0012 : 328!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 30:
+		!VAR0011 : 533!
+		!VAR0012 : 328!
+		\L_054b8:
+		\0:
+	}
+	{VAR0000 = 31:
+		!VAR0011 : 36!
+		!VAR0012 : 5!
+		!VAR0013 : 45!
+		!VAR0014 : 19!
+		\0:
+	}
+	{VAR0000 = 32:
+		!VAR0011 : 91!
+		!VAR0012 : 5!
+		!VAR0013 : 45!
+		!VAR0014 : 19!
+		\0:
+	}
+	{VAR0000 = 33:
+		!VAR0011 : 146!
+		!VAR0012 : 5!
+		!VAR0013 : 45!
+		!VAR0014 : 19!
+		\0:
+	}
+	{VAR0000 = 34:
+		!VAR0011 : 201!
+		!VAR0012 : 5!
+		!VAR0013 : 45!
+		!VAR0014 : 19!
+		\0:
+	}
+	{VAR0000 = 35:
+		!VAR0011 : 256!
+		!VAR0012 : 5!
+		!VAR0013 : 45!
+		!VAR0014 : 19!
+		\0:
+	}
+	{VAR0000 = 99:
+		!VAR0011 : 553!
+		!VAR0012 : 1!
+		!VAR0013 : 85!
+		!VAR0014 : 23!
+		\0:
+	}
+	ZH 1:
+	'How strange!'
+	\0:
+*L_054b8:
+	!VAR0013 : 104!
+	!VAR0014 : 58!
+	\0:
+	!VAR0521 : 111!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 211!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 112!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 212!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 113!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 213!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 311!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 312!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 121!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 221!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 122!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 222!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 123!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 223!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 321!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 322!
+	%#WAO_SUB.ADV:
+	\0:
+*L_055a7:
+	!VAR0521 : 131!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 231!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 331!
+	%#WAO_SUB.ADV:
+	\0:
+	!VAR0521 : 332!
+	%#WAO_SUB.ADV:
+	\0:
+*L_055df:
+	!VAR0521 : 0!
+	%#WAO_SUB.ADV:
+	\0:
+*L_055ec:
+	!VAR0521 : 1!
+	%#WAO_SUB.ADV:
+	\0:
+*L_055f9:
+	!VAR0521 : 2!
+	%#WAO_SUB.ADV:
+	\0:

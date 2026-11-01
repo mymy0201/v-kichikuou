@@ -1,0 +1,47 @@
+{
+  "original_inventory": "pre_concurrent.inventory.json",
+  "original_source_hashes": "pre_concurrent.source_hashes.before.json",
+  "original_miki_backup": "backup/Miki.pre_concurrent.ADV",
+  "merged_miki_boxes": [
+    {
+      "group": 224,
+      "box": 0,
+      "action": "Preserve the latest external Little Princess correction verbatim in the adopted baseline; no new sexual prose written."
+    },
+    {
+      "group": 235,
+      "box": 0,
+      "action": "Preserve the latest external Little Princess correction verbatim in the adopted baseline; no new sexual prose written."
+    },
+    {
+      "group": 399,
+      "box": 0,
+      "action": "Preserve the latest external Little Princess correction verbatim in the adopted baseline; no new sexual prose written."
+    },
+    {
+      "group": 405,
+      "box": 0,
+      "action": "Preserve the latest external Little Princess correction verbatim in the adopted baseline; no new sexual prose written."
+    },
+    {
+      "group": 409,
+      "box": 0,
+      "action": "Preserve the latest external Little Princess correction verbatim in the adopted baseline; no new sexual prose written."
+    }
+  ],
+  "other_external_sources_preserved": [
+    {
+      "file": "Gｻﾃﾗ.ADV",
+      "original_before_sha256": "3e37eb0ee8de893f0499463fb1a76273fe9c91fbf01941f60fb80510b56ab8e1",
+      "adopted_sha256": "19fdc0a721e828e930d5574099784eacc2671bf3f48d1b4e566d4b398a3debea",
+      "snapshot": "editorial_review\\retranslate_jp_20261030_b63\\concurrent_sources\\Gｻﾃﾗ.ADV"
+    },
+    {
+      "file": "Gﾊﾟｲｱｰﾙ.ADV",
+      "original_before_sha256": "10c657987059de00c9034250dbac379134d600e143e29ea9ed49920d6b60354d",
+      "adopted_sha256": "58f51e6a83763d1abb4189031163831682256d19cef9e428ae809d4e20b93c8a",
+      "snapshot": "editorial_review\\retranslate_jp_20261030_b63\\concurrent_sources\\Gﾊﾟｲｱｰﾙ.ADV"
+    }
+  ],
+  "method": "Compared all authored boxes and unedited boxes, verified unchanged Miki command skeleton. Current manual changes adopted explicitly; original snapshots/provenance retained. Excluded boxes are copied verbatim from current source, never retranslated."
+}
